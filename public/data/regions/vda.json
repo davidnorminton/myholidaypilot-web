@@ -1,0 +1,1117 @@
+{
+  "id": "vda",
+  "name": "Valle d'Aosta",
+  "nameIt": "Valle d'Aosta",
+  "capital": "Aosta",
+  "lat": 45.7,
+  "lng": 7.3,
+  "emoji": "🏔️",
+  "colour": "ff1a237e",
+  "boundingBox": {
+    "north": 46.0,
+    "south": 45.4,
+    "east": 7.9,
+    "west": 6.8
+  },
+  "history": "Valle d'Aosta is Italy's smallest region, nestled in the western Alps between Mont Blanc, the Matterhorn, and the Gran Paradiso. The Salassi tribe inhabiting the valley were conquered by Rome in 25 BC after fierce resistance, and the Romans founded Augusta Praetoria Salassorum — today's Aosta — leaving impressive monuments including a triumphal arch, Roman theatre, and intact city gates still standing. In the medieval period the region was dominated by the House of Savoy, which used its network of Alpine castles — over 70 survive, one of Europe's highest concentrations — to control the crucial passes into France and Switzerland. The Great Saint Bernard Pass was one of the most important routes through the Alps for pilgrims, armies, and merchants throughout medieval history. Napoleon crossed it in 1800. The region has enjoyed special autonomous status since 1948, with French and Italian as co-official languages.",
+  "culturalNotes": "Valle d'Aosta has a distinct Franco-Provençal cultural identity — French and Italian are both official and used interchangeably in official life. Local traditions blend Alpine, Italian, and French influences visible in festivals, architecture, cuisine, and costume. The Valdostani are proud of their autonomy and distinct culture. Local food revolves around the high Alpine environment: fontina cheese (DOP, used in fonduta — the local version of fondue), polenta concia (with butter and fontina), carbonada (beef stew with red wine), and lard d'Arnad (cured lard). The Foire de Saint-Ours (late January) is a centuries-old crafts fair in Aosta celebrating traditional woodcarving, lacework, and ironwork. The Gran Paradiso National Park, Italy's oldest, protects ibex, chamois, and golden eagles.",
+  "bestTimeToVisit": "Visit in winter (December–March) for skiing or summer (June–September) for hiking and festivals.",
+  "languageNotes": "Italian and French are both official languages with equal legal status — menus, signs, and official documents appear in both. Many locals also speak Franco-Provençal (Patois), an ancient dialect unrelated to French despite the name, descended from medieval Alpine Gallo-Romance speech. Common greetings: 'Bonjour' and 'Buongiorno' are both used freely, as are 'Merci' and 'Grazie.' In ski resorts, English is widely spoken. In Aosta and smaller villages, French is often preferred over Italian. Attempting French greetings shows cultural respect and will be warmly received. Note that asking for directions in either French or Italian is appropriate and switching between the two mid-conversation is entirely normal for locals.",
+  "generatedAt": 1781521084291,
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "aosta",
+      "name": "Aosta",
+      "nameIt": "Aosta",
+      "lat": 45.7369,
+      "lng": 7.3153,
+      "type": "CITY",
+      "description": "The regional capital sits at the valley floor surrounded by soaring Alps, packed with remarkably preserved Roman monuments. Its compact historic center blends ancient ruins with medieval towers and lively markets.",
+      "imageQueries": [
+        "Aosta Roman theatre Italy",
+        "Aosta historic center Alps"
+      ],
+      "activities": [
+        {
+          "id": "ao1",
+          "text": "Visit the Roman Theatre",
+          "detail": "The 1st-century theatre retains impressive stage walls; visit at dusk for dramatic lighting.",
+          "lat": 45.7371,
+          "lng": 7.3152
+        },
+        {
+          "id": "ao2",
+          "text": "Walk the Roman Arch of Augustus",
+          "detail": "The triumphal arch near the city entrance is free to view and beautifully preserved.",
+          "lat": 45.7366,
+          "lng": 7.3209
+        },
+        {
+          "id": "ao3",
+          "text": "Explore the Archaeological Museum",
+          "detail": "The regional museum houses Roman and prehistoric finds from across the valley.",
+          "lat": 45.7368,
+          "lng": 7.3148
+        },
+        {
+          "id": "ao4",
+          "text": "Stroll via Sant'Anselmo",
+          "detail": "The main pedestrian street is ideal for shopping and admiring Roman-era gates.",
+          "lat": 45.7364,
+          "lng": 7.317
+        },
+        {
+          "id": "ao5",
+          "text": "Visit Cattedrale di Aosta",
+          "detail": "The cathedral's cloister contains intricate carved capitals worth seeing up close.",
+          "lat": 45.7373,
+          "lng": 7.3143
+        }
+      ],
+      "food": [
+        {
+          "id": "aoF1",
+          "text": "Fontina DOP",
+          "detail": "Local semi-soft cow's milk cheese with a nutty, earthy flavor, used in many dishes."
+        },
+        {
+          "id": "aoF2",
+          "text": "Carbonade",
+          "detail": "Slow-cooked beef stew marinated in red wine, a hearty Valdostano classic."
+        },
+        {
+          "id": "aoF3",
+          "text": "Tegole",
+          "detail": "Thin, crispy almond and hazelnut wafer cookies, a popular local sweet."
+        },
+        {
+          "id": "aoF4",
+          "text": "Grolla coffee",
+          "detail": "A communal wooden cup of coffee mixed with grappa and spices, passed around the table."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aoC1",
+          "text": "Bilingual signage",
+          "detail": "Expect all street signs and official notices in both Italian and French."
+        },
+        {
+          "id": "aoC2",
+          "text": "Foire de Saint-Ours",
+          "detail": "The January craft fair is a beloved tradition; book accommodation months ahead."
+        },
+        {
+          "id": "aoC3",
+          "text": "Slow lunch culture",
+          "detail": "Restaurants close between 2–3pm; plan your midday meal accordingly."
+        }
+      ]
+    },
+    {
+      "id": "cervinia",
+      "name": "Cervinia",
+      "nameIt": "Breuil-Cervinia",
+      "lat": 45.9341,
+      "lng": 7.6263,
+      "type": "MOUNTAIN",
+      "description": "A world-famous ski resort sitting at nearly 2000m beneath the iconic Matterhorn (Cervino). In summer it transforms into a hiking and mountain biking destination with stunning glacier views.",
+      "imageQueries": [
+        "Cervinia Matterhorn ski resort",
+        "Breuil-Cervinia Alps Italy"
+      ],
+      "activities": [
+        {
+          "id": "ce1",
+          "text": "Ski the Matterhorn slopes",
+          "detail": "Linked to Zermatt, the ski area offers vast terrain and some of Italy's best snow.",
+          "lat": 45.92,
+          "lng": 7.635
+        },
+        {
+          "id": "ce2",
+          "text": "Hike to Lago Goillet",
+          "detail": "A short scenic hike from the resort leads to a beautiful high-altitude reservoir.",
+          "lat": 45.918,
+          "lng": 7.642
+        },
+        {
+          "id": "ce3",
+          "text": "Take the cable car to Plateau Rosa",
+          "detail": "Ascend to 3480m for panoramic views of the Alpine frontier in summer or winter.",
+          "lat": 45.939,
+          "lng": 7.665
+        },
+        {
+          "id": "ce4",
+          "text": "Visit the Matterhorn Museum",
+          "detail": "A small local museum recounts the history of alpinism and the famous first Matterhorn ascent.",
+          "lat": 45.9341,
+          "lng": 7.6263
+        },
+        {
+          "id": "ce5",
+          "text": "Mountain biking downhill",
+          "detail": "Summer gondola service lets you bring bikes up for thrilling downhill runs.",
+          "lat": 45.928,
+          "lng": 7.63
+        }
+      ],
+      "food": [
+        {
+          "id": "ceF1",
+          "text": "Polenta Concia",
+          "detail": "Creamy polenta generously stirred with Fontina and butter, the ultimate Alpine comfort food."
+        },
+        {
+          "id": "ceF2",
+          "text": "Zuppa Valdostana",
+          "detail": "Hearty bread and cabbage soup layered with Fontina and baked until golden."
+        },
+        {
+          "id": "ceF3",
+          "text": "Lard d'Arnad DOP",
+          "detail": "Cured fatback from the Arnad valley, aged in brine with herbs and spices."
+        },
+        {
+          "id": "ceF4",
+          "text": "Seupa à la Vapelenentse",
+          "detail": "A rich baked soup of bread, cabbage, and aged Fontina from the Valpelline area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ceC1",
+          "text": "Book ski passes early",
+          "detail": "Cervinia-Zermatt ski passes sell out in peak season; reserve online in advance."
+        },
+        {
+          "id": "ceC2",
+          "text": "Resort etiquette on slopes",
+          "detail": "Follow posted piste rules strictly; ski patrol is active and fines are issued."
+        },
+        {
+          "id": "ceC3",
+          "text": "Altitude awareness",
+          "detail": "The high elevation can cause mild altitude sickness; hydrate well on arrival."
+        }
+      ]
+    },
+    {
+      "id": "courmayeur",
+      "name": "Courmayeur",
+      "nameIt": "Courmayeur",
+      "lat": 45.7963,
+      "lng": 6.9706,
+      "type": "MOUNTAIN",
+      "description": "An elegant mountain resort at the foot of Mont Blanc, combining luxury with breathtaking Alpine scenery. It's a top destination for skiing, hiking the Tour du Mont Blanc, and stylish après-ski culture.",
+      "imageQueries": [
+        "Courmayeur Mont Blanc Italy",
+        "Courmayeur ski village Alps"
+      ],
+      "activities": [
+        {
+          "id": "co1",
+          "text": "Ride the Skyway Monte Bianco cable car",
+          "detail": "A rotating panoramic gondola lifts you to 3466m with jaw-dropping Mont Blanc views.",
+          "lat": 45.7969,
+          "lng": 6.9697
+        },
+        {
+          "id": "co2",
+          "text": "Ski Courmayeur resort",
+          "detail": "The well-groomed slopes suit all levels; the north-facing terrain holds snow well.",
+          "lat": 45.8167,
+          "lng": 6.9833
+        },
+        {
+          "id": "co3",
+          "text": "Hike a stage of Tour du Mont Blanc",
+          "detail": "Walk a section of this famous Alpine trail for spectacular glacier and peak scenery.",
+          "lat": 45.805,
+          "lng": 6.96
+        },
+        {
+          "id": "co4",
+          "text": "Explore the historic village center",
+          "detail": "The cobbled Via Roma is lined with boutiques, cafés, and 18th-century buildings.",
+          "lat": 45.7963,
+          "lng": 6.9706
+        },
+        {
+          "id": "co5",
+          "text": "Visit the Alpine Museum",
+          "detail": "The Museo Alpino Duca degli Abruzzi tells the story of Mont Blanc exploration and alpinism.",
+          "lat": 45.7958,
+          "lng": 6.9712
+        }
+      ],
+      "food": [
+        {
+          "id": "coF1",
+          "text": "Valdostana Scaloppine",
+          "detail": "Thin veal cutlets topped with Fontina and ham, then baked or pan-fried until melted."
+        },
+        {
+          "id": "coF2",
+          "text": "Mocetta",
+          "detail": "Air-dried chamois or beef cured with mountain herbs, thinly sliced as an antipasto."
+        },
+        {
+          "id": "coF3",
+          "text": "Fonduta Valdostana",
+          "detail": "A silky Fontina cheese fondue served with bread or polenta for dipping."
+        },
+        {
+          "id": "coF4",
+          "text": "Genepi liqueur",
+          "detail": "A herbal digestivo made from Artemisia plants harvested in the high Alps."
+        }
+      ],
+      "culture": [
+        {
+          "id": "coC1",
+          "text": "Dress smartly for après-ski",
+          "detail": "Courmayeur's café culture is stylish; locals dress up even after a day on the slopes."
+        },
+        {
+          "id": "coC2",
+          "text": "Mont Blanc permit rules",
+          "detail": "High-altitude routes on Mont Blanc require permits and experience; don't attempt alone."
+        },
+        {
+          "id": "coC3",
+          "text": "French is widely spoken",
+          "detail": "Given proximity to France, French is commonly used alongside Italian in shops and restaurants."
+        }
+      ]
+    },
+    {
+      "id": "fenis_castle",
+      "name": "Fénis Castle",
+      "nameIt": "Castello di Fénis",
+      "lat": 45.7478,
+      "lng": 7.4908,
+      "type": "LANDMARK",
+      "description": "One of the most spectacular medieval castles in the Alps, Fénis boasts multiple towers, frescoed courtyards, and well-preserved interiors. It stands as an icon of Valle d'Aosta's rich castle heritage.",
+      "imageQueries": [
+        "Fenis Castle Valle d'Aosta",
+        "medieval castle Aosta Valley Italy"
+      ],
+      "activities": [
+        {
+          "id": "fe1",
+          "text": "Guided castle tour",
+          "detail": "Informative tours cover the chapel, courtyard frescoes, and noble apartments — book ahead in summer.",
+          "lat": 45.7478,
+          "lng": 7.4908
+        },
+        {
+          "id": "fe2",
+          "text": "Photograph the twin towers",
+          "detail": "The castle's twin towers and concentric walls make for iconic photography from the surrounding meadow.",
+          "lat": 45.748,
+          "lng": 7.4905
+        },
+        {
+          "id": "fe3",
+          "text": "Explore the wooden gallery",
+          "detail": "The intricately carved wooden balconies around the inner courtyard are a highlight.",
+          "lat": 45.7477,
+          "lng": 7.491
+        },
+        {
+          "id": "fe4",
+          "text": "Visit the regional costume collection",
+          "detail": "The castle houses a small museum of traditional Valdostano dress and artifacts.",
+          "lat": 45.7478,
+          "lng": 7.4908
+        },
+        {
+          "id": "fe5",
+          "text": "Picnic in the castle grounds",
+          "detail": "The surrounding meadows with mountain backdrops are perfect for a relaxed outdoor lunch.",
+          "lat": 45.7475,
+          "lng": 7.4912
+        }
+      ],
+      "food": [
+        {
+          "id": "feF1",
+          "text": "Fontina DOP",
+          "detail": "Produced in the surrounding valley, this is among the best places to taste authentic Fontina."
+        },
+        {
+          "id": "feF2",
+          "text": "Valle d'Aosta Lard d'Arnad",
+          "detail": "Nearby Arnad is the home of this protected cured lard, available at local farms and shops."
+        },
+        {
+          "id": "feF3",
+          "text": "Pain de Seigle",
+          "detail": "Traditional dense rye bread baked in the region, excellent with local charcuterie."
+        },
+        {
+          "id": "feF4",
+          "text": "Boudin",
+          "detail": "Local blood sausage made with beets, potatoes, and spices, a unique regional specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "feC1",
+          "text": "Book tickets in advance",
+          "detail": "Fénis is among Valle d'Aosta's most visited castles; prebook to avoid long queues."
+        },
+        {
+          "id": "feC2",
+          "text": "Respect the site",
+          "detail": "Photography inside some rooms is restricted; follow guide instructions carefully."
+        },
+        {
+          "id": "feC3",
+          "text": "Combine with nearby castles",
+          "detail": "Sarriod de la Tour and Quart castles are nearby for a great day of castle-hopping."
+        }
+      ]
+    },
+    {
+      "id": "gran_paradiso",
+      "name": "Gran Paradiso National Park",
+      "nameIt": "Parco Nazionale Gran Paradiso",
+      "lat": 45.5167,
+      "lng": 7.2667,
+      "type": "MOUNTAIN",
+      "description": "Italy's oldest national park protects stunning Alpine wilderness including ibex, chamois, and golden eagles. The park centers on Gran Paradiso mountain (4061m), the only 4000m peak entirely within Italy.",
+      "imageQueries": [
+        "Gran Paradiso National Park ibex",
+        "Cogne valley Aosta Italy"
+      ],
+      "activities": [
+        {
+          "id": "gp1",
+          "text": "Spot Alpine ibex",
+          "detail": "Cogne valley offers near-guaranteed ibex sightings; bring binoculars and go at dawn.",
+          "lat": 45.4833,
+          "lng": 7.25
+        },
+        {
+          "id": "gp2",
+          "text": "Hike to Rifugio Vittorio Emanuele II",
+          "detail": "A classic mountain hut hike with stunning views, serving as base for Gran Paradiso summit.",
+          "lat": 45.4667,
+          "lng": 7.2333
+        },
+        {
+          "id": "gp3",
+          "text": "Cross-country ski at Cogne",
+          "detail": "Cogne has one of Italy's best Nordic skiing networks across the flat valley floor.",
+          "lat": 45.6167,
+          "lng": 7.3667
+        },
+        {
+          "id": "gp4",
+          "text": "Visit the visitor center in Cogne",
+          "detail": "The park museum explains local wildlife, geology, and the park's royal hunting history.",
+          "lat": 45.6083,
+          "lng": 7.3583
+        },
+        {
+          "id": "gp5",
+          "text": "Walk the Valnontey nature trail",
+          "detail": "An easy valley walk through flower meadows with excellent wildlife-watching opportunities.",
+          "lat": 45.5833,
+          "lng": 7.3167
+        }
+      ],
+      "food": [
+        {
+          "id": "gpF1",
+          "text": "Cogne-style Polenta",
+          "detail": "In Cogne, polenta is topped with melted Fontina and local cream for an extra-rich version."
+        },
+        {
+          "id": "gpF2",
+          "text": "Chamois stew",
+          "detail": "Wild chamois braised with red wine and juniper, a traditional park-area game dish."
+        },
+        {
+          "id": "gpF3",
+          "text": "Violet Jam (Confiture de violettes)",
+          "detail": "Local producers make sweet violet jam from Alpine flowers — a unique souvenir to taste."
+        },
+        {
+          "id": "gpF4",
+          "text": "Toma di Gressoney",
+          "detail": "A semi-hard mountain cheese from high-altitude pastures with a delicate creamy flavor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gpC1",
+          "text": "Stay on marked trails",
+          "detail": "Wildlife disturbance is taken seriously; always stick to designated paths in the park."
+        },
+        {
+          "id": "gpC2",
+          "text": "Park rules apply strictly",
+          "detail": "No dogs allowed on most trails and open fires are prohibited throughout the park."
+        },
+        {
+          "id": "gpC3",
+          "text": "Carry cash in Cogne",
+          "detail": "Some rifugi and small shops in the valley do not accept cards; bring euros in cash."
+        }
+      ]
+    },
+    {
+      "id": "saint_vincent",
+      "name": "Saint-Vincent",
+      "nameIt": "Saint-Vincent",
+      "lat": 45.7511,
+      "lng": 7.6414,
+      "type": "TOWN",
+      "description": "A lively spa town known for its famous casino and thermal waters. It sits in the central valley and offers a mix of wellness, culture, and mountain scenery.",
+      "imageQueries": [
+        "Saint-Vincent Valle d'Aosta",
+        "Casino de la Vallée Italy",
+        "Saint-Vincent spa town Italy"
+      ],
+      "activities": [
+        {
+          "id": "sv_casino",
+          "text": "Visit the Casino de la Vallée",
+          "detail": "One of Europe's largest casinos; enjoy evening shows and gaming halls.",
+          "lat": 45.7505,
+          "lng": 7.6408
+        },
+        {
+          "id": "sv_spa",
+          "text": "Relax at Terme di Saint-Vincent",
+          "detail": "Historic thermal baths with mineral-rich waters known for digestive benefits.",
+          "lat": 45.752,
+          "lng": 7.639
+        },
+        {
+          "id": "sv_church",
+          "text": "Explore the Parish Church",
+          "detail": "Romanesque church with a striking bell tower and frescoed interior.",
+          "lat": 45.7512,
+          "lng": 7.642
+        },
+        {
+          "id": "sv_hike",
+          "text": "Hike to Colle di Joux",
+          "detail": "A gentle scenic trail above the town with panoramic valley views.",
+          "lat": 45.765,
+          "lng": 7.655
+        },
+        {
+          "id": "sv_market",
+          "text": "Browse the weekly market",
+          "detail": "Local produce, cheeses, and crafts every Saturday morning in the town center.",
+          "lat": 45.7511,
+          "lng": 7.6414
+        }
+      ],
+      "food": [
+        {
+          "id": "sv_f1",
+          "text": "Fonduta Valdostana",
+          "detail": "Creamy melted Fontina cheese served over polenta or bread, a regional staple."
+        },
+        {
+          "id": "sv_f2",
+          "text": "Mocetta",
+          "detail": "Air-dried chamois or beef cured with mountain herbs, thinly sliced as an antipasto."
+        },
+        {
+          "id": "sv_f3",
+          "text": "Seuppa à la Vapelenentse",
+          "detail": "Hearty layered soup of bread, Fontina, and broth baked in the oven."
+        },
+        {
+          "id": "sv_f4",
+          "text": "Tegole",
+          "detail": "Thin crispy wafer biscuits with hazelnuts and almonds, a local sweet specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sv_c1",
+          "text": "Smart dress at the casino",
+          "detail": "The Casino de la Vallée has a dress code in the evening; smart casual is expected."
+        },
+        {
+          "id": "sv_c2",
+          "text": "Bilingual signage",
+          "detail": "Saint-Vincent uses both French and Italian on signs; locals appreciate attempts at either language."
+        },
+        {
+          "id": "sv_c3",
+          "text": "Thermal water etiquette",
+          "detail": "The mineral spring in town is free to drink; bring a cup and follow posted guidelines."
+        }
+      ]
+    },
+    {
+      "id": "bard_fortress",
+      "name": "Bard Fortress",
+      "nameIt": "Forte di Bard",
+      "lat": 45.6083,
+      "lng": 7.7458,
+      "type": "LANDMARK",
+      "description": "A magnificent 19th-century fortress perched on a rocky spur above the Dora Baltea river. It houses the Alps Museum and hosts major contemporary art exhibitions.",
+      "imageQueries": [
+        "Forte di Bard Valle d'Aosta",
+        "Bard fortress Italy",
+        "Bard castle Aosta Valley"
+      ],
+      "activities": [
+        {
+          "id": "bd_museum",
+          "text": "Visit the Alps Museum",
+          "detail": "Interactive exhibits on Alpine culture, nature, and history spread across multiple levels.",
+          "lat": 45.6083,
+          "lng": 7.7458
+        },
+        {
+          "id": "bd_art",
+          "text": "Explore contemporary art exhibitions",
+          "detail": "The fortress regularly hosts internationally acclaimed photography and art shows.",
+          "lat": 45.6085,
+          "lng": 7.746
+        },
+        {
+          "id": "bd_funicular",
+          "text": "Ride the panoramic lift",
+          "detail": "A glass funicular carries visitors from the village to the fortress with great valley views.",
+          "lat": 45.6084,
+          "lng": 7.7459
+        },
+        {
+          "id": "bd_village",
+          "text": "Stroll through Bard village",
+          "detail": "A tiny medieval village at the foot of the fortress with stone lanes and artisan shops.",
+          "lat": 45.6078,
+          "lng": 7.7452
+        },
+        {
+          "id": "bd_photo",
+          "text": "Photograph the gorge",
+          "detail": "The narrow gorge below the fortress is one of the most dramatic viewpoints in the valley.",
+          "lat": 45.6075,
+          "lng": 7.7455
+        }
+      ],
+      "food": [
+        {
+          "id": "bd_f1",
+          "text": "Lardo d'Arnad",
+          "detail": "PDO-certified cured lard from nearby Arnad, seasoned with rosemary and mountain herbs."
+        },
+        {
+          "id": "bd_f2",
+          "text": "Polenta Concia",
+          "detail": "Rich polenta stirred with Fontina and butter, a warming mountain comfort dish."
+        },
+        {
+          "id": "bd_f3",
+          "text": "Boudin",
+          "detail": "Blood sausage made with beets, potatoes, and spices — a unique Valdostan specialty."
+        },
+        {
+          "id": "bd_f4",
+          "text": "Valle d'Aosta Blanc de Morgex wine",
+          "detail": "Crisp white wine from high-altitude vineyards, among the highest in Europe."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bd_c1",
+          "text": "Book tickets in advance",
+          "detail": "Exhibitions sell out on weekends; reserve online to avoid queues at the entrance."
+        },
+        {
+          "id": "bd_c2",
+          "text": "Napoleon connection",
+          "detail": "The fortress famously delayed Napoleon's army in 1800; guides love sharing this story."
+        },
+        {
+          "id": "bd_c3",
+          "text": "Wear comfortable shoes",
+          "detail": "The fortress involves many stairs and uneven stone floors across its three levels."
+        }
+      ]
+    },
+    {
+      "id": "cogne",
+      "name": "Cogne",
+      "nameIt": "Cogne",
+      "lat": 45.6089,
+      "lng": 7.3578,
+      "type": "TOWN",
+      "description": "A charming alpine village nestled inside Gran Paradiso National Park, famous for its vast meadows and world-class cross-country skiing. It is one of the best spots for wildlife watching in the Alps.",
+      "imageQueries": [
+        "Cogne village Valle d'Aosta",
+        "Cogne meadows Italy",
+        "Gran Paradiso ibex Cogne"
+      ],
+      "activities": [
+        {
+          "id": "cg_wildlife",
+          "text": "Watch ibex and chamois",
+          "detail": "The meadows of Prato Sant'Orso offer reliable sightings of ibex at dawn and dusk.",
+          "lat": 45.58,
+          "lng": 7.32
+        },
+        {
+          "id": "cg_xc_ski",
+          "text": "Cross-country skiing at Prato Sant'Orso",
+          "detail": "Over 80 km of groomed trails make Cogne one of Italy's premier Nordic ski destinations.",
+          "lat": 45.605,
+          "lng": 7.365
+        },
+        {
+          "id": "cg_lace",
+          "text": "Discover Cogne lacework",
+          "detail": "Visit the Centro Studi Pizzo a Tombolo to see the traditional needlepoint lace still made here.",
+          "lat": 45.6089,
+          "lng": 7.3578
+        },
+        {
+          "id": "cg_paradiso_hike",
+          "text": "Hike to Vittorio Sella Refuge",
+          "detail": "A rewarding trail into the heart of Gran Paradiso with glacier views and alpine flora.",
+          "lat": 45.52,
+          "lng": 7.28
+        },
+        {
+          "id": "cg_village_stroll",
+          "text": "Stroll the village center",
+          "detail": "Browse local craft shops and admire the stone chalets around the central green.",
+          "lat": 45.6089,
+          "lng": 7.3578
+        }
+      ],
+      "food": [
+        {
+          "id": "cg_f1",
+          "text": "Fontina DOP",
+          "detail": "Semi-soft cow's milk cheese from mountain pastures, essential to Valdostan cuisine."
+        },
+        {
+          "id": "cg_f2",
+          "text": "Carbonade",
+          "detail": "Slow-braised beef in red wine with spices, traditionally served with polenta."
+        },
+        {
+          "id": "cg_f3",
+          "text": "Seuppa Cogneintze",
+          "detail": "Cogne's own version of the classic Valdostan bread and cheese soup, baked until golden."
+        },
+        {
+          "id": "cg_f4",
+          "text": "Genepy liqueur",
+          "detail": "Herbal alpine liqueur made from genepy flowers harvested at high altitude."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cg_c1",
+          "text": "Respect national park rules",
+          "detail": "Do not pick flowers or approach wildlife; Gran Paradiso rules are strictly enforced."
+        },
+        {
+          "id": "cg_c2",
+          "text": "Sant'Orso Fair tradition",
+          "detail": "The famous Fiera di Sant'Orso craft fair in Aosta each January celebrates traditions shared by all valley villages."
+        },
+        {
+          "id": "cg_c3",
+          "text": "Lace buying etiquette",
+          "detail": "Genuine Cogne lace is expensive and handmade; ask for certification when purchasing."
+        }
+      ]
+    },
+    {
+      "id": "la_thuile",
+      "name": "La Thuile",
+      "nameIt": "La Thuile",
+      "lat": 45.6697,
+      "lng": 6.9728,
+      "type": "TOWN",
+      "description": "A tranquil alpine resort near the Little Saint Bernard Pass bordering France, offering excellent skiing and summer hiking. Its gentle slopes and charming village attract families and nature lovers.",
+      "imageQueries": [
+        "La Thuile ski resort Italy",
+        "Little Saint Bernard Pass Italy",
+        "La Thuile alpine village"
+      ],
+      "activities": [
+        {
+          "id": "lt_ski",
+          "text": "Ski the Espace San Bernardo",
+          "detail": "A cross-border ski area linking La Thuile with La Rosière in France across 150 km of pistes.",
+          "lat": 45.685,
+          "lng": 6.945
+        },
+        {
+          "id": "lt_pass",
+          "text": "Drive the Little Saint Bernard Pass",
+          "detail": "A scenic summer drive over the historic pass used since Roman times, open June to October.",
+          "lat": 45.6833,
+          "lng": 6.8833
+        },
+        {
+          "id": "lt_ruitor",
+          "text": "Hike to Lago del Ruitor",
+          "detail": "A stunning high-altitude lake beneath the Ruitor glacier, reachable by a half-day hike.",
+          "lat": 45.62,
+          "lng": 6.93
+        },
+        {
+          "id": "lt_botanical",
+          "text": "Visit the alpine botanical garden",
+          "detail": "A small garden near the pass displaying native alpine flora at over 2,100 m elevation.",
+          "lat": 45.6697,
+          "lng": 6.9728
+        },
+        {
+          "id": "lt_bike",
+          "text": "Mountain biking in summer",
+          "detail": "Lift-accessed trails offer downhill routes for all levels with sweeping mountain views.",
+          "lat": 45.675,
+          "lng": 6.96
+        }
+      ],
+      "food": [
+        {
+          "id": "lt_f1",
+          "text": "Raclette valdostana",
+          "detail": "Melted cheese scraped over potatoes and charcuterie, reflecting the French alpine border influence."
+        },
+        {
+          "id": "lt_f2",
+          "text": "Zuppa Valdostana",
+          "detail": "Hearty vegetable and cabbage soup enriched with Fontina and toasted bread."
+        },
+        {
+          "id": "lt_f3",
+          "text": "Fromadzo DOP",
+          "detail": "Light semi-fat cheese with a delicate flavour, produced in the Aosta Valley since antiquity."
+        },
+        {
+          "id": "lt_f4",
+          "text": "Chestnut cake (Torta di castagne)",
+          "detail": "Dense rustic cake made with chestnut flour, popular in autumn mountain villages."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lt_c1",
+          "text": "French influence is strong",
+          "detail": "La Thuile is close to France; many locals speak Francoprovençal and menus may be in French."
+        },
+        {
+          "id": "lt_c2",
+          "text": "Pass closure in winter",
+          "detail": "The Little Saint Bernard Pass closes with the first heavy snowfall; check dates before planning."
+        },
+        {
+          "id": "lt_c3",
+          "text": "Low-key village vibe",
+          "detail": "La Thuile is quieter and less glamorous than Courmayeur; locals appreciate visitors who respect that pace."
+        }
+      ]
+    },
+    {
+      "id": "issogne_castle",
+      "name": "Issogne Castle",
+      "nameIt": "Castello di Issogne",
+      "lat": 45.6611,
+      "lng": 7.6872,
+      "type": "LANDMARK",
+      "description": "A late-Gothic castle in the lower Aosta Valley, renowned for its remarkable frescoes depicting 15th-century daily life. It feels more like a noble residence than a fortress, with an enchanting courtyard fountain.",
+      "imageQueries": [
+        "Issogne Castle Valle d'Aosta",
+        "Castello di Issogne Italy",
+        "Issogne castle frescoes Italy"
+      ],
+      "activities": [
+        {
+          "id": "ic_frescoes",
+          "text": "Admire the courtyard frescoes",
+          "detail": "Vivid scenes of merchants, bakers, and apothecaries painted around the portico offer a window into medieval life.",
+          "lat": 45.6611,
+          "lng": 7.6872
+        },
+        {
+          "id": "ic_pomegranate",
+          "text": "See the pomegranate fountain",
+          "detail": "The iconic wrought-iron pomegranate fountain at the castle's center is a symbol of the Challant family.",
+          "lat": 45.6611,
+          "lng": 7.6872
+        },
+        {
+          "id": "ic_interior",
+          "text": "Tour the furnished apartments",
+          "detail": "Original furniture, tapestries, and ceramics fill the rooms, giving a rare sense of medieval noble life.",
+          "lat": 45.6611,
+          "lng": 7.6872
+        },
+        {
+          "id": "ic_garden",
+          "text": "Walk the castle gardens",
+          "detail": "Peaceful formal gardens surround the castle with views toward the Dora Baltea valley.",
+          "lat": 45.6612,
+          "lng": 7.6874
+        },
+        {
+          "id": "ic_combo",
+          "text": "Combine with Verrès Castle",
+          "detail": "Verrès Castle sits just across the river; a combined visit makes for a full day of medieval history.",
+          "lat": 45.665,
+          "lng": 7.6933
+        }
+      ],
+      "food": [
+        {
+          "id": "ic_f1",
+          "text": "Lardo d'Arnad DOP",
+          "detail": "Cured lard from the nearby Arnad village, aged in chestnut wood boxes with herbs and spices."
+        },
+        {
+          "id": "ic_f2",
+          "text": "Valle d'Aosta Torrette red wine",
+          "detail": "Light red wine made from Petit Rouge grapes grown in the lower valley near the castle."
+        },
+        {
+          "id": "ic_f3",
+          "text": "Torcettini di Saint-Vincent",
+          "detail": "Small buttery sugar-glazed biscuits twisted into a ring shape, a local bakery treat."
+        },
+        {
+          "id": "ic_f4",
+          "text": "Jambon de Bosses DOP",
+          "detail": "Prized cured ham from Saint-Rhémy-en-Bosses, aged with mountain herbs for over a year."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ic_c1",
+          "text": "Photography restrictions",
+          "detail": "Flash photography is not permitted inside to protect the centuries-old frescoes."
+        },
+        {
+          "id": "ic_c2",
+          "text": "Challant family legacy",
+          "detail": "The castle was built by Giorgio di Challant; guides appreciate visitors who show interest in local noble history."
+        },
+        {
+          "id": "ic_c3",
+          "text": "Guided tours recommended",
+          "detail": "The frescoes' symbolism is rich; a guided tour unlocks details easily missed when exploring alone."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Trattoria degli Artisti",
+      "address": "Via Maillet 5, Aosta",
+      "neighbourhood": "Aosta",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€",
+      "description": "A beloved Aosta institution serving hearty mountain classics in a warm, rustic setting for over three decades.",
+      "mustOrder": "Fonduta valdostana",
+      "lat": 45.7372,
+      "lng": 7.3153
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Osteria dell'Antico Vinaio",
+      "address": "Via Sant'Anselmo 14, Aosta",
+      "neighbourhood": "Aosta Centro Storico",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€",
+      "description": "Unpretentious osteria in the historic center popular with locals for generous portions and excellent local wines.",
+      "mustOrder": "Zuppa di pane valdostana",
+      "lat": 45.7368,
+      "lng": 7.3181
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Ristorante Le Foyer",
+      "address": "Corso Ivrea 146, Aosta",
+      "neighbourhood": "Aosta",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€",
+      "description": "Long-standing family restaurant renowned for its faithful preparation of regional recipes and warm hospitality.",
+      "mustOrder": "Carbonade valdostana",
+      "lat": 45.7401,
+      "lng": 7.3298
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Ristorante Brasserie du Commerce",
+      "address": "Via de Tillier 10, Aosta",
+      "neighbourhood": "Aosta",
+      "cuisine": "Valdostan-French Alpine",
+      "priceRange": "€€",
+      "description": "Historic brasserie blending Valdostan and French influences, a staple of Aosta dining since the early 20th century.",
+      "mustOrder": "Seupa à la vapelenentse",
+      "lat": 45.7375,
+      "lng": 7.3162
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Locanda La Clusaz",
+      "address": "Frazione Variney 1, Saint-Pierre",
+      "neighbourhood": "Saint-Pierre",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€",
+      "description": "Charming mountain locanda in a medieval hamlet offering seasonal menus based on local alpine produce.",
+      "mustOrder": "Polenta concia con fontina",
+      "lat": 45.7112,
+      "lng": 7.2301
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Ristorante La Grolla",
+      "address": "Via Roma 15, Courmayeur",
+      "neighbourhood": "Courmayeur",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€€",
+      "description": "Elegant yet welcoming restaurant at the foot of Monte Bianco, celebrated for refined takes on alpine mountain cuisine.",
+      "mustOrder": "Ravioles de Gressoney al burro e salvia",
+      "lat": 45.7963,
+      "lng": 6.9692
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Cadran Solaire",
+      "address": "Via Roma 122, Courmayeur",
+      "neighbourhood": "Courmayeur",
+      "cuisine": "Valdostan Fine Dining",
+      "priceRange": "€€€€",
+      "description": "Prestigious Courmayeur restaurant with an extensive wine cellar and sophisticated menu celebrating the best of Valle d'Aosta.",
+      "mustOrder": "Filetto di cervo con mirtilli rossi",
+      "lat": 45.7951,
+      "lng": 6.9701
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Trattoria Lo Ressignon",
+      "address": "Rue des Mines 22, Cogne",
+      "neighbourhood": "Cogne",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€",
+      "description": "Family-run trattoria in the Gran Paradiso valley, famous for its authentic local recipes passed down through generations.",
+      "mustOrder": "Mocetta con pane nero valdostano",
+      "lat": 45.6087,
+      "lng": 7.3568
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Ristorante du Tunnel",
+      "address": "Via Circumvallazione 8, Courmayeur",
+      "neighbourhood": "Courmayeur",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€",
+      "description": "Laid-back local favorite near the Mont Blanc Tunnel entrance, serving generous mountain dishes at honest prices.",
+      "mustOrder": "Fonduta con crostini",
+      "lat": 45.7931,
+      "lng": 6.9731
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Osteria dell'Orso",
+      "address": "Via Chanoux 3, Châtillon",
+      "neighbourhood": "Châtillon",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€",
+      "description": "No-frills osteria in the heart of Châtillon beloved by locals for its simple, honest cooking and affordable house wine.",
+      "mustOrder": "Zuppa di castagne",
+      "lat": 45.7467,
+      "lng": 7.6162
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Ristorante Al Camin",
+      "address": "Località Pallein 30, Champoluc",
+      "neighbourhood": "Champoluc",
+      "cuisine": "Valdostan Mountain Cuisine",
+      "priceRange": "€€",
+      "description": "Cozy fireplace restaurant in the Ayas valley offering hearty after-ski dining and spectacular views of the Monte Rosa massif.",
+      "mustOrder": "Tegole di fontina gratinata",
+      "lat": 45.8278,
+      "lng": 7.7312
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Ristorante Il Nido d'Aquila",
+      "address": "Via Varasc 10, Breuil-Cervinia",
+      "neighbourhood": "Breuil-Cervinia",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€€",
+      "description": "High-altitude classic near the Matterhorn base, known for rich alpine stews and a stunning panoramic terrace.",
+      "mustOrder": "Stufato di manzo con polenta",
+      "lat": 45.9371,
+      "lng": 7.6271
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Café Quinson",
+      "address": "Via Collomb 9, Morgex",
+      "neighbourhood": "Morgex",
+      "cuisine": "Traditional Valdostan",
+      "priceRange": "€€",
+      "description": "Historic café-restaurant in Morgex pairing local dishes with the celebrated high-altitude Blanc de Morgex et de La Salle wines.",
+      "mustOrder": "Trota di montagna con erbe alpine",
+      "lat": 45.7542,
+      "lng": 7.1362
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Trattoria da Renato",
+      "address": "Via Parrocchia 2, Verrayes",
+      "neighbourhood": "Verrayes",
+      "cuisine": "Rural Valdostan",
+      "priceRange": "€",
+      "description": "A true hidden gem in a small mountain village, serving hyper-local cuisine made almost entirely from ingredients sourced on-site.",
+      "mustOrder": "Lardo di Arnad con miele e noci",
+      "lat": 45.7623,
+      "lng": 7.5512
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Ristorante Miravidi",
+      "address": "Frazione Homené Dessus 1, Nus",
+      "neighbourhood": "Nus",
+      "cuisine": "Valdostan Fine Dining",
+      "priceRange": "€€€",
+      "description": "Refined restaurant overlooking the Dora Baltea valley, celebrated for creative reinterpretations of classic Valdostan dishes.",
+      "mustOrder": "Risotto alla fontina con tartufo nero",
+      "lat": 45.7388,
+      "lng": 7.4701
+    }
+  ]
+}

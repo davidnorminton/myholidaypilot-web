@@ -1,0 +1,1227 @@
+{
+  "id": "lazio",
+  "name": "Lazio",
+  "nameIt": "Lazio",
+  "capital": "Rome",
+  "lat": 41.9,
+  "lng": 12.5,
+  "emoji": "🏛️",
+  "colour": "ff1565c0",
+  "boundingBox": {
+    "north": 42.8,
+    "south": 41.2,
+    "east": 14.0,
+    "west": 11.4
+  },
+  "history": "Lazio is one of Italy's most historically significant regions, home to Rome, traditionally founded in 753 BC and the centre of an empire that shaped Western civilisation through law, architecture, language, religion, and governance across three continents. Before Rome's rise, Lazio was home to the Etruscans and Latin tribes whose culture Rome absorbed and transformed. After the fall of the Western Roman Empire in 476 AD, the papacy emerged as the dominant power in Rome and Lazio, shaping European history through the medieval period and Renaissance. The Vatican City, established as an independent state in 1929, remains the spiritual centre of Catholicism and one of the world's most visited sites. Beyond Rome, Lazio contains remarkable Etruscan necropolises, ancient Roman villas, volcanic lakes, and medieval hill towns that most visitors never reach. The Castelli Romani hills just south of Rome were a favourite retreat for popes and emperors — and remain so for Romans escaping city heat.",
+  "culturalNotes": "Rome and Lazio have a proud, direct local culture where family, food, and football are central to daily life. Romans are outspoken and witty, with a famous dry humour known as 'romanesco' banter — self-deprecating about their city while fiercely proud of it. Catholic tradition runs deep throughout Lazio, influencing festivals, food calendars (fish on Fridays, no meat during Lent), and public life in ways that persist even among non-believers. Roman cuisine is built on 'cucina povera' traditions: cacio e pepe, carbonara, amatriciana, and coda alla vaccinara (oxtail) are the authentic canon. The rivalry between Roma and Lazio football clubs divides the city passionately. Be aware that the Vatican and major religious sites require covered shoulders and knees — this is strictly enforced.",
+  "bestTimeToVisit": "Spring (April–June) and autumn (September–October) offer mild weather and fewer crowds, making them ideal for exploring Rome and the surrounding countryside.",
+  "languageNotes": "Romans speak a dialect called Romanesco, characterised by softened double consonants, open vowels, and uniquely Roman expressions. Key phrases: 'Ahò' (hey / excuse me), 'Daje' (come on / let's go — used for everything), 'Annamo' (let's go), and 'Mo' (now, in the sense of right away). Standard Italian is universal. English is widely spoken in tourist areas around the historic centre but less so in outer neighbourhoods. Romans speak quickly — don't hesitate to ask 'Può parlare più lentamente?' (Can you speak more slowly?). A genuine 'Buongiorno' goes a long way, even from tourists. Avoid calling Rome merely a city — to Romans, it is the city.",
+  "generatedAt": 1781520236267,
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "rome",
+      "name": "Rome",
+      "nameIt": "Roma",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "type": "CITY",
+      "description": "The Eternal City is Italy's capital and one of the world's great historic destinations, layering ancient ruins, Renaissance art, and vibrant modern life. Every corner reveals millennia of history.",
+      "imageQueries": [
+        "Rome Colosseum Italy",
+        "Trevi Fountain Rome"
+      ],
+      "activities": [
+        {
+          "id": "rome_td1",
+          "text": "Visit the Colosseum",
+          "detail": "Book tickets in advance to skip the long queues.",
+          "lat": 41.8902,
+          "lng": 12.4922
+        },
+        {
+          "id": "rome_td2",
+          "text": "Explore Vatican Museums",
+          "detail": "Arrive early or book a timed entry to avoid crowds.",
+          "lat": 41.9065,
+          "lng": 12.4536
+        },
+        {
+          "id": "rome_td3",
+          "text": "Toss a coin in Trevi Fountain",
+          "detail": "Visit at dawn for fewer tourists and better photos.",
+          "lat": 41.9009,
+          "lng": 12.4833
+        },
+        {
+          "id": "rome_td4",
+          "text": "Stroll through Trastevere",
+          "detail": "This charming neighborhood is best explored in the evening.",
+          "lat": 41.8896,
+          "lng": 12.4697
+        },
+        {
+          "id": "rome_td5",
+          "text": "Walk the Via Appia Antica",
+          "detail": "Rent a bike to cover more of the ancient road comfortably.",
+          "lat": 41.858,
+          "lng": 12.514
+        },
+        {
+          "id": "rome_001",
+          "text": "Explore the Pantheon",
+          "detail": "Arrive early to avoid crowds and marvel at the 2000-year-old unreinforced concrete dome with its famous oculus.",
+          "lat": 41.8986,
+          "lng": 12.4769
+        },
+        {
+          "id": "rome_002",
+          "text": "Visit Borghese Gallery",
+          "detail": "Book tickets well in advance as entry is timed and limited, but the Bernini sculptures inside are unmissable.",
+          "lat": 41.9143,
+          "lng": 12.4922
+        },
+        {
+          "id": "rome_003",
+          "text": "Wander Campo de' Fiori",
+          "detail": "Visit in the morning for the lively local market, then return at night when it transforms into a buzzing social square.",
+          "lat": 41.8956,
+          "lng": 12.4722
+        },
+        {
+          "id": "rome_004",
+          "text": "Climb the Janiculum Hill",
+          "detail": "Hike or take a short taxi ride to enjoy one of the best panoramic views over Rome's rooftops.",
+          "lat": 41.8897,
+          "lng": 12.4669
+        },
+        {
+          "id": "rome_005",
+          "text": "Tour Castel Sant'Angelo",
+          "detail": "Walk the ramparts of this ancient mausoleum-turned-fortress for sweeping views of the Tiber River and St. Peter's Basilica.",
+          "lat": 41.9031,
+          "lng": 12.4663
+        }
+      ],
+      "food": [
+        {
+          "id": "rome_f1",
+          "text": "Cacio e Pepe",
+          "detail": "A simple Roman pasta with pecorino cheese and black pepper."
+        },
+        {
+          "id": "rome_f2",
+          "text": "Supplì",
+          "detail": "Fried rice balls filled with tomato sauce and mozzarella, a Roman street food staple."
+        },
+        {
+          "id": "rome_f3",
+          "text": "Artichokes alla Romana",
+          "detail": "Tender whole artichokes braised with garlic, mint, and olive oil."
+        },
+        {
+          "id": "rome_f4",
+          "text": "Gelato",
+          "detail": "Look for shops labeled 'artigianale' for authentic handmade gelato."
+        },
+        {
+          "id": "rome_food_001",
+          "text": "Carbonara",
+          "detail": "A rich pasta dish of eggs, Pecorino Romano, guanciale, and black pepper — avoid cream, the real version needs none."
+        },
+        {
+          "id": "rome_food_002",
+          "text": "Porchetta",
+          "detail": "Slow-roasted herb-stuffed pork sliced into sandwiches; try it at Campo de' Fiori market for an authentic street-food experience."
+        },
+        {
+          "id": "rome_food_003",
+          "text": "Trippa alla Romana",
+          "detail": "Tripe braised in tomato sauce with mint and Pecorino, a beloved Roman comfort dish best found in traditional trattorias."
+        },
+        {
+          "id": "rome_food_004",
+          "text": "Maritozzo",
+          "detail": "A soft sweet bun split and filled with whipped cream, traditionally eaten for breakfast with a cappuccino."
+        },
+        {
+          "id": "rome_food_005",
+          "text": "Frascati Wine",
+          "detail": "A crisp white wine from the nearby Castelli Romani hills, widely served by the carafe in Roman osterias."
+        },
+        {
+          "id": "rome_food_01",
+          "text": "Bucatini all'Amatriciana",
+          "detail": "Thick hollow pasta in a rich tomato and guanciale sauce — a Roman trattoria staple."
+        },
+        {
+          "id": "rome_food_02",
+          "text": "Coda alla Vaccinara",
+          "detail": "Slow-braised oxtail in a savory tomato and celery sauce, classic Roman offal cooking."
+        },
+        {
+          "id": "rome_food_03",
+          "text": "Gricia",
+          "detail": "Often called the 'white Amatriciana,' made with guanciale, Pecorino Romano, and black pepper."
+        },
+        {
+          "id": "rome_food_04",
+          "text": "Trapizzino",
+          "detail": "A crispy triangular pizza pocket stuffed with fillings like chicken cacciatore — a modern Roman street food."
+        },
+        {
+          "id": "rome_food_05",
+          "text": "Sambuca",
+          "detail": "Rome's favorite anise-flavored digestivo, traditionally served 'con la mosca' with three coffee beans."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rome_ct1",
+          "text": "Dress for churches",
+          "detail": "Cover shoulders and knees when entering the Vatican and other churches."
+        },
+        {
+          "id": "rome_ct2",
+          "text": "Avoid tourist-trap cafés",
+          "detail": "Espresso at the bar is cheaper and more authentic than table service."
+        },
+        {
+          "id": "rome_ct3",
+          "text": "Respect the fountains",
+          "detail": "Swimming or sitting in Rome's fountains is illegal and fined heavily."
+        },
+        {
+          "id": "rome_tip_001",
+          "text": "Greet shopkeepers",
+          "detail": "Always say 'buongiorno' or 'buonasera' when entering a shop; ignoring staff is considered rude."
+        },
+        {
+          "id": "rome_tip_002",
+          "text": "No cappuccino after noon",
+          "detail": "Locals only drink cappuccino in the morning; ordering one after lunch marks you as a tourist."
+        },
+        {
+          "id": "rome_tip_003",
+          "text": "Eat standing at the bar",
+          "detail": "Drinking espresso at the counter is cheaper and more authentic than sitting at a table, which incurs a service charge."
+        },
+        {
+          "id": "rome_tip_004",
+          "text": "Avoid eating near monuments",
+          "detail": "Eating or sitting on steps of monuments like the Spanish Steps can result in heavy fines."
+        },
+        {
+          "id": "rome_tip_005",
+          "text": "Validate transit tickets",
+          "detail": "Always stamp your bus or tram ticket in the machine upon boarding; inspectors issue large fines on the spot."
+        }
+      ]
+    },
+    {
+      "id": "tivoli",
+      "name": "Tivoli",
+      "nameIt": "Tivoli",
+      "lat": 41.9632,
+      "lng": 12.7983,
+      "type": "TOWN",
+      "description": "Tivoli is a hilltop town east of Rome famous for its stunning Renaissance gardens and ancient Roman villas. Villa d'Este and Hadrian's Villa are its twin UNESCO-listed jewels.",
+      "imageQueries": [
+        "Villa dEste Tivoli fountains",
+        "Hadrian Villa Tivoli Italy"
+      ],
+      "activities": [
+        {
+          "id": "tiv_td1",
+          "text": "Tour Villa d'Este gardens",
+          "detail": "The terrace viewpoint offers the best panoramic shot of the fountains.",
+          "lat": 41.963,
+          "lng": 12.7962
+        },
+        {
+          "id": "tiv_td2",
+          "text": "Explore Hadrian's Villa ruins",
+          "detail": "Wear comfortable shoes as the site is large and mostly outdoors.",
+          "lat": 41.9422,
+          "lng": 12.7753
+        },
+        {
+          "id": "tiv_td3",
+          "text": "Visit Villa Gregoriana",
+          "detail": "A dramatic gorge park with waterfalls and lush pathways.",
+          "lat": 41.9598,
+          "lng": 12.8012
+        },
+        {
+          "id": "tiv_td4",
+          "text": "Wander the old town center",
+          "detail": "The medieval streets and Piazza Garibaldi offer local atmosphere.",
+          "lat": 41.9632,
+          "lng": 12.7983
+        },
+        {
+          "id": "tiv_td5",
+          "text": "See the Temple of Vesta",
+          "detail": "This ancient circular temple overlooking the gorge is one of Lazio's most photogenic spots.",
+          "lat": 41.9612,
+          "lng": 12.7998
+        }
+      ],
+      "food": [
+        {
+          "id": "tiv_f1",
+          "text": "Rigatoni con la Pajata",
+          "detail": "A traditional Roman-Laziale pasta with calf intestine sauce."
+        },
+        {
+          "id": "tiv_f2",
+          "text": "Porchetta",
+          "detail": "Herb-roasted whole pork, a Lazio classic sold in local markets."
+        },
+        {
+          "id": "tiv_f3",
+          "text": "Abbacchio alla Cacciatora",
+          "detail": "Young lamb braised with rosemary, garlic, and white wine."
+        },
+        {
+          "id": "tiv_f4",
+          "text": "Ciambella di Tivoli",
+          "detail": "A local ring-shaped sweet bread flavored with anise."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tiv_ct1",
+          "text": "Combine both villas in one day",
+          "detail": "They are close enough to visit together with an early start."
+        },
+        {
+          "id": "tiv_ct2",
+          "text": "Buy tickets online",
+          "detail": "Villa d'Este sells out on weekends so pre-booking is essential."
+        },
+        {
+          "id": "tiv_ct3",
+          "text": "Respect the gardens",
+          "detail": "Do not touch or climb on the historic fountain sculptures."
+        }
+      ]
+    },
+    {
+      "id": "lake_bracciano",
+      "name": "Lake Bracciano",
+      "nameIt": "Lago di Bracciano",
+      "lat": 42.1167,
+      "lng": 12.2,
+      "type": "LAKE",
+      "description": "A large volcanic lake northwest of Rome, Lake Bracciano is prized for its clean waters and medieval lakeside towns. It's a popular weekend escape from the capital.",
+      "imageQueries": [
+        "Lake Bracciano Italy",
+        "Bracciano Castle Lazio"
+      ],
+      "activities": [
+        {
+          "id": "brac_td1",
+          "text": "Swim in the lake",
+          "detail": "The town of Trevignano Romano has the best public beaches.",
+          "lat": 42.105,
+          "lng": 12.215
+        },
+        {
+          "id": "brac_td2",
+          "text": "Visit Odescalchi Castle",
+          "detail": "This imposing 15th-century fortress dominates the town of Bracciano.",
+          "lat": 42.0997,
+          "lng": 12.2297
+        },
+        {
+          "id": "brac_td3",
+          "text": "Kayak on the lake",
+          "detail": "Rental shops near the shore offer hourly kayak and paddleboard hire.",
+          "lat": 42.11,
+          "lng": 12.205
+        },
+        {
+          "id": "brac_td4",
+          "text": "Cycle around the lake",
+          "detail": "The full circuit is about 30 km and mostly flat with scenic views.",
+          "lat": 42.1167,
+          "lng": 12.2
+        },
+        {
+          "id": "brac_td5",
+          "text": "Dine on the waterfront",
+          "detail": "Lakeside restaurants in Anguillara Sabazia are excellent for sunset dinners.",
+          "lat": 42.099,
+          "lng": 12.231
+        }
+      ],
+      "food": [
+        {
+          "id": "brac_f1",
+          "text": "Coregone al Forno",
+          "detail": "Baked whitefish from the lake, a local specialty."
+        },
+        {
+          "id": "brac_f2",
+          "text": "Lenticchie di Onano",
+          "detail": "Small flavorful lentils from the nearby Tuscia hills, often served as a starter."
+        },
+        {
+          "id": "brac_f3",
+          "text": "Bruschetta al Pomodoro",
+          "detail": "Grilled bread with fresh tomatoes and local olive oil."
+        },
+        {
+          "id": "brac_f4",
+          "text": "Frappe",
+          "detail": "Fried sweet pastry strips dusted in powdered sugar, popular at local festivals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "brac_ct1",
+          "text": "Weekends get busy",
+          "detail": "Romans flock here in summer so arrive early or visit on weekdays."
+        },
+        {
+          "id": "brac_ct2",
+          "text": "Respect private beaches",
+          "detail": "Some shoreline sections are privately owned and off-limits."
+        },
+        {
+          "id": "brac_ct3",
+          "text": "Check castle opening hours",
+          "detail": "Odescalchi Castle has limited public hours and occasional private events."
+        }
+      ]
+    },
+    {
+      "id": "civita_di_bagnoregio",
+      "name": "Civita di Bagnoregio",
+      "nameIt": "Civita di Bagnoregio",
+      "lat": 42.6278,
+      "lng": 12.1131,
+      "type": "TOWN",
+      "description": "Perched on an eroding volcanic rock plateau, this tiny medieval village is nicknamed 'the dying city' due to its crumbling cliffs. It is one of Italy's most dramatic and photogenic hilltop towns.",
+      "imageQueries": [
+        "Civita di Bagnoregio Italy",
+        "dying city hilltop Lazio"
+      ],
+      "activities": [
+        {
+          "id": "civ_td1",
+          "text": "Walk the pedestrian bridge",
+          "detail": "The long footbridge is the only access and offers stunning views.",
+          "lat": 42.6271,
+          "lng": 12.1118
+        },
+        {
+          "id": "civ_td2",
+          "text": "Explore the medieval streets",
+          "detail": "The village is tiny but atmospheric — allow 2 hours to wander.",
+          "lat": 42.6278,
+          "lng": 12.1131
+        },
+        {
+          "id": "civ_td3",
+          "text": "Visit the Geology Museum",
+          "detail": "A small local museum explaining the town's fascinating volcanic erosion story.",
+          "lat": 42.6276,
+          "lng": 12.1128
+        },
+        {
+          "id": "civ_td4",
+          "text": "Photograph at sunset",
+          "detail": "The golden light on the tufa cliffs from the viewpoints below is extraordinary.",
+          "lat": 42.6282,
+          "lng": 12.114
+        },
+        {
+          "id": "civ_td5",
+          "text": "Hike the gorge trails",
+          "detail": "Paths below the plateau wind through the dramatic Calanchi ravines.",
+          "lat": 42.6265,
+          "lng": 12.1115
+        }
+      ],
+      "food": [
+        {
+          "id": "civ_f1",
+          "text": "Acquacotta",
+          "detail": "A humble rustic soup of wild herbs and stale bread from northern Lazio."
+        },
+        {
+          "id": "civ_f2",
+          "text": "Cinghiale in Umido",
+          "detail": "Wild boar stew slow-cooked with local red wine and aromatics."
+        },
+        {
+          "id": "civ_f3",
+          "text": "Pecorino Viterbese",
+          "detail": "Sharp aged sheep's milk cheese from the Viterbo area."
+        },
+        {
+          "id": "civ_f4",
+          "text": "Tozzetti",
+          "detail": "Crunchy almond biscuits from the Tuscia tradition, perfect with dessert wine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "civ_ct1",
+          "text": "Pay the entry fee",
+          "detail": "A small access fee is charged at the bridge to fund preservation efforts."
+        },
+        {
+          "id": "civ_ct2",
+          "text": "Visit early morning",
+          "detail": "The village has very few permanent residents and gets crowded by midday."
+        },
+        {
+          "id": "civ_ct3",
+          "text": "Stay respectful",
+          "detail": "Although a tourist site, a handful of people still live here — keep noise low."
+        }
+      ]
+    },
+    {
+      "id": "sperlonga",
+      "name": "Sperlonga",
+      "nameIt": "Sperlonga",
+      "lat": 41.2567,
+      "lng": 13.4311,
+      "type": "COAST",
+      "description": "A stunning whitewashed coastal village clinging to a rocky promontory on the Tyrrhenian Sea, Sperlonga is one of Lazio's most beautiful beach destinations. Its turquoise waters and historic center make it a perfect coastal escape.",
+      "imageQueries": [
+        "Sperlonga beach Italy",
+        "Sperlonga white village coast"
+      ],
+      "activities": [
+        {
+          "id": "sper_td1",
+          "text": "Swim at Sperlonga beach",
+          "detail": "The long sandy beach south of town has crystal-clear water.",
+          "lat": 41.254,
+          "lng": 13.428
+        },
+        {
+          "id": "sper_td2",
+          "text": "Visit the Tiberius Cave Museum",
+          "detail": "The museum houses spectacular ancient Roman sculptures found in a nearby sea grotto.",
+          "lat": 41.2478,
+          "lng": 13.442
+        },
+        {
+          "id": "sper_td3",
+          "text": "Explore the whitewashed old town",
+          "detail": "The maze of narrow alleys and arches is best explored on foot.",
+          "lat": 41.2567,
+          "lng": 13.4311
+        },
+        {
+          "id": "sper_td4",
+          "text": "Snorkel in the coves",
+          "detail": "Rocky coves north of the beach offer excellent snorkeling.",
+          "lat": 41.251,
+          "lng": 13.435
+        },
+        {
+          "id": "sper_td5",
+          "text": "Day trip to Gaeta",
+          "detail": "The nearby coastal town of Gaeta has a dramatic split rock and medieval castle.",
+          "lat": 41.212,
+          "lng": 13.576
+        }
+      ],
+      "food": [
+        {
+          "id": "sper_f1",
+          "text": "Tiella di Gaeta",
+          "detail": "A savory double-crust pie filled with octopus or escarole, a coastal Lazio specialty."
+        },
+        {
+          "id": "sper_f2",
+          "text": "Frittura di Paranza",
+          "detail": "Lightly fried mixed small fish served straight from the fryer."
+        },
+        {
+          "id": "sper_f3",
+          "text": "Spaghetti alle Vongole",
+          "detail": "Classic pasta with fresh clams, white wine, and parsley."
+        },
+        {
+          "id": "sper_f4",
+          "text": "Mozzarella di Bufala",
+          "detail": "Creamy buffalo mozzarella from nearby Campania border farms."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sper_ct1",
+          "text": "Book summer accommodation early",
+          "detail": "Sperlonga is very popular in July and August and fills up fast."
+        },
+        {
+          "id": "sper_ct2",
+          "text": "Respect the historic center",
+          "detail": "Cars are not allowed in the old town so park below and walk up."
+        },
+        {
+          "id": "sper_ct3",
+          "text": "Try local seafood at lunch",
+          "detail": "Seafood restaurants are cheaper at lunch and fresher earlier in the day."
+        }
+      ]
+    },
+    {
+      "id": "ostia_antica",
+      "name": "Ostia Antica",
+      "nameIt": "Ostia Antica",
+      "lat": 41.7561,
+      "lng": 12.2897,
+      "type": "LANDMARK",
+      "description": "Ancient Roman port city with remarkably preserved ruins rivaling Pompeii. Explore mosaics, bathhouses, and temples just 30 minutes from Rome.",
+      "imageQueries": [
+        "Ostia Antica ruins Italy",
+        "Roman ancient port Ostia",
+        "Ostia Antica theater"
+      ],
+      "activities": [
+        {
+          "id": "oa_01",
+          "text": "Explore the archaeological park",
+          "detail": "Arrive early to beat crowds and heat; the site is vast so wear comfortable shoes.",
+          "lat": 41.7561,
+          "lng": 12.2897
+        },
+        {
+          "id": "oa_02",
+          "text": "Visit the ancient theater",
+          "detail": "The 2nd-century theater still hosts summer performances worth booking in advance.",
+          "lat": 41.7554,
+          "lng": 12.2912
+        },
+        {
+          "id": "oa_03",
+          "text": "See the Baths of Neptune mosaics",
+          "detail": "The black-and-white floor mosaics depicting Neptune are among the best preserved in Italy.",
+          "lat": 41.7558,
+          "lng": 12.2905
+        },
+        {
+          "id": "oa_04",
+          "text": "Walk the Decumanus Maximus",
+          "detail": "The main Roman street runs the length of the city and connects key monuments.",
+          "lat": 41.7561,
+          "lng": 12.2897
+        },
+        {
+          "id": "oa_05",
+          "text": "Visit the Ostia Antica Museum",
+          "detail": "Houses sculptures and artifacts found on site; included in the park ticket.",
+          "lat": 41.7563,
+          "lng": 12.2881
+        }
+      ],
+      "food": [
+        {
+          "id": "oa_f1",
+          "text": "Supplì",
+          "detail": "Roman fried rice balls filled with mozzarella, best grabbed at a local bar near the entrance."
+        },
+        {
+          "id": "oa_f2",
+          "text": "Spaghetti alle vongole",
+          "detail": "Clam pasta is a coastal Lazio staple available at nearby Ostia Lido restaurants."
+        },
+        {
+          "id": "oa_f3",
+          "text": "Bruschetta al pomodoro",
+          "detail": "Simple toasted bread with fresh tomato, a classic Roman antipasto served everywhere."
+        },
+        {
+          "id": "oa_f4",
+          "text": "Carciofi alla romana",
+          "detail": "Roman-style artichokes braised with garlic and mint, a regional specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "oa_c1",
+          "text": "Respect the ruins",
+          "detail": "Do not climb on ancient walls or remove any stones or fragments from the site."
+        },
+        {
+          "id": "oa_c2",
+          "text": "Midday closures",
+          "detail": "Some site areas have reduced access in peak summer heat; plan your visit for morning."
+        },
+        {
+          "id": "oa_c3",
+          "text": "Combined tickets",
+          "detail": "A combined ticket with the Colosseum is available and saves money if visiting both."
+        }
+      ]
+    },
+    {
+      "id": "viterbo",
+      "name": "Viterbo",
+      "nameIt": "Viterbo",
+      "lat": 42.4178,
+      "lng": 12.1047,
+      "type": "CITY",
+      "description": "A beautifully preserved medieval city nicknamed the City of the Popes for hosting the papal court in the 13th century. Its gothic quarter and thermal springs make it a fascinating day trip.",
+      "imageQueries": [
+        "Viterbo medieval city Italy",
+        "Viterbo Papal Palace",
+        "San Pellegrino quarter Viterbo"
+      ],
+      "activities": [
+        {
+          "id": "vt_01",
+          "text": "Stroll the San Pellegrino quarter",
+          "detail": "One of Italy's best-preserved medieval districts; explore at dusk for atmospheric lighting.",
+          "lat": 42.4172,
+          "lng": 12.1058
+        },
+        {
+          "id": "vt_02",
+          "text": "Visit the Papal Palace",
+          "detail": "The Gothic loggia overlooking Piazza San Lorenzo is an iconic photo spot.",
+          "lat": 42.4182,
+          "lng": 12.1065
+        },
+        {
+          "id": "vt_03",
+          "text": "Bathe in Terme dei Papi",
+          "detail": "Historic thermal spa complex using natural sulphurous springs just outside the city center.",
+          "lat": 42.4378,
+          "lng": 12.0814
+        },
+        {
+          "id": "vt_04",
+          "text": "See Villa Lante gardens",
+          "detail": "Renaissance garden near Bagnaia with stunning water features; one of Italy's finest formal gardens.",
+          "lat": 42.4717,
+          "lng": 12.1064
+        },
+        {
+          "id": "vt_05",
+          "text": "Explore the city walls",
+          "detail": "Walk along the medieval walls for panoramic views of the surrounding Tuscia landscape.",
+          "lat": 42.4178,
+          "lng": 12.102
+        }
+      ],
+      "food": [
+        {
+          "id": "vt_f1",
+          "text": "Acquacotta",
+          "detail": "Ancient peasant soup of bread, wild herbs, and eggs, a Tuscia-Lazio tradition."
+        },
+        {
+          "id": "vt_f2",
+          "text": "Lombrichelli al sugo di cinghiale",
+          "detail": "Thick hand-rolled pasta served with hearty wild boar ragù, a local specialty."
+        },
+        {
+          "id": "vt_f3",
+          "text": "Nocciole della Tuscia IGP",
+          "detail": "Local hazelnuts prized across Italy; sold roasted at market stalls throughout the city."
+        },
+        {
+          "id": "vt_f4",
+          "text": "Ciambelline al vino",
+          "detail": "Crunchy ring-shaped cookies made with local white wine, perfect with an espresso."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vt_c1",
+          "text": "Dress modestly for churches",
+          "detail": "Cover shoulders and knees when entering the cathedral and other religious sites."
+        },
+        {
+          "id": "vt_c2",
+          "text": "Market days matter",
+          "detail": "The weekly Saturday market fills the historic center; arrive early for the best local produce."
+        },
+        {
+          "id": "vt_c3",
+          "text": "Thermal etiquette",
+          "detail": "At public thermal pools, bring your own towel and follow posted hygiene rules carefully."
+        }
+      ]
+    },
+    {
+      "id": "lake_bolsena",
+      "name": "Lake Bolsena",
+      "nameIt": "Lago di Bolsena",
+      "lat": 42.6,
+      "lng": 11.9667,
+      "type": "LAKE",
+      "description": "The largest volcanic lake in Europe, surrounded by medieval hilltop towns and vineyards. Crystal-clear water, peaceful beaches, and the charming town of Bolsena make it a serene escape.",
+      "imageQueries": [
+        "Lake Bolsena Italy",
+        "Bolsena volcanic lake",
+        "Bisentina Island Bolsena"
+      ],
+      "activities": [
+        {
+          "id": "lb_01",
+          "text": "Swim at Bolsena town beach",
+          "detail": "The lake water is exceptionally clean; the free public beach near the town is ideal for families.",
+          "lat": 42.6449,
+          "lng": 11.9797
+        },
+        {
+          "id": "lb_02",
+          "text": "Visit Bolsena Castle",
+          "detail": "The Rocca Monaldeschi houses an Etruscan and lake museum with sweeping lake views.",
+          "lat": 42.6434,
+          "lng": 11.9802
+        },
+        {
+          "id": "lb_03",
+          "text": "Take a boat to Bisentina Island",
+          "detail": "The island has a private chapel and gardens; boat tours depart from Bolsena harbor.",
+          "lat": 42.6167,
+          "lng": 11.9
+        },
+        {
+          "id": "lb_04",
+          "text": "Cycle the lake perimeter",
+          "detail": "A scenic cycle route circles much of the lake passing vineyards and medieval villages.",
+          "lat": 42.6,
+          "lng": 11.9667
+        },
+        {
+          "id": "lb_05",
+          "text": "Explore Capodimonte village",
+          "detail": "A pretty lakeside village with a Renaissance fortress and excellent fish restaurants.",
+          "lat": 42.55,
+          "lng": 11.9167
+        }
+      ],
+      "food": [
+        {
+          "id": "lb_f1",
+          "text": "Coregone del Lago di Bolsena",
+          "detail": "Local whitefish from the lake, typically grilled or baked with herbs and olive oil."
+        },
+        {
+          "id": "lb_f2",
+          "text": "Anguilla arrosto",
+          "detail": "Roasted eel is a centuries-old lake tradition, especially popular around the town of Bolsena."
+        },
+        {
+          "id": "lb_f3",
+          "text": "Est! Est!! Est!!!",
+          "detail": "Famous white wine DOC produced on the volcanic soils around the lake; crisp and refreshing."
+        },
+        {
+          "id": "lb_f4",
+          "text": "Polenta con spuntature",
+          "detail": "Creamy polenta served with slow-cooked pork ribs, a rustic inland Lazio comfort dish."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lb_c1",
+          "text": "Miracle of Bolsena significance",
+          "detail": "The town is a major Catholic pilgrimage site; be respectful near the basilica during feast days."
+        },
+        {
+          "id": "lb_c2",
+          "text": "Quiet season charm",
+          "detail": "The lake is peaceful in spring and autumn when Italian summer crowds are absent."
+        },
+        {
+          "id": "lb_c3",
+          "text": "Etruscan heritage",
+          "detail": "The area was a major Etruscan settlement; visit local museums to appreciate pre-Roman history."
+        }
+      ]
+    },
+    {
+      "id": "palestrina",
+      "name": "Palestrina",
+      "nameIt": "Palestrina",
+      "lat": 41.8395,
+      "lng": 12.8931,
+      "type": "TOWN",
+      "description": "An ancient hilltop town east of Rome built over a massive Roman sanctuary dedicated to Fortune. Home to a remarkable archaeological museum and panoramic views of the Roman countryside.",
+      "imageQueries": [
+        "Palestrina sanctuary Italy",
+        "Palestrina Roman ruins Lazio",
+        "Nile mosaic Palestrina museum"
+      ],
+      "activities": [
+        {
+          "id": "pa_01",
+          "text": "Visit the Sanctuary of Fortuna Primigenia",
+          "detail": "One of the largest and most impressive temple complexes of ancient Rome, spread across the hillside.",
+          "lat": 41.8395,
+          "lng": 12.8931
+        },
+        {
+          "id": "pa_02",
+          "text": "Explore the National Archaeological Museum",
+          "detail": "Housed in the Palazzo Barberini, it holds the stunning Nile mosaic, a must-see Roman artwork.",
+          "lat": 41.8398,
+          "lng": 12.8928
+        },
+        {
+          "id": "pa_03",
+          "text": "Walk the ancient terraces",
+          "detail": "Six terraced levels of the sanctuary offer increasingly dramatic views as you climb.",
+          "lat": 41.84,
+          "lng": 12.8935
+        },
+        {
+          "id": "pa_04",
+          "text": "Visit the Cathedral of Sant'Agapito",
+          "detail": "Built directly over Roman ruins; the crypt reveals original ancient stonework beneath the church.",
+          "lat": 41.8385,
+          "lng": 12.892
+        },
+        {
+          "id": "pa_05",
+          "text": "Enjoy views from the top terrace",
+          "detail": "The panorama stretches across the Lazio plains to Rome on clear days; bring a camera.",
+          "lat": 41.841,
+          "lng": 12.894
+        }
+      ],
+      "food": [
+        {
+          "id": "pa_f1",
+          "text": "Porchetta dei Castelli",
+          "detail": "Herb-stuffed roast pork from the nearby Castelli Romani area, sold by weight at local shops."
+        },
+        {
+          "id": "pa_f2",
+          "text": "Pasta e fagioli",
+          "detail": "Thick bean and pasta soup, a comforting Lazio farmhouse dish found at local trattorias."
+        },
+        {
+          "id": "pa_f3",
+          "text": "Vino dei Castelli Romani",
+          "detail": "Crisp local white wine from the volcanic Castelli Romani hills pairs perfectly with porchetta."
+        },
+        {
+          "id": "pa_f4",
+          "text": "Gnocchi alla romana",
+          "detail": "Baked semolina gnocchi with butter and cheese, a classic Roman dish distinct from potato gnocchi."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pa_c1",
+          "text": "Museum photography rules",
+          "detail": "Photography is allowed in most areas but flash is strictly prohibited near the Nile mosaic."
+        },
+        {
+          "id": "pa_c2",
+          "text": "Birthplace of Palestrina",
+          "detail": "The Renaissance composer Giovanni Palestrina was born here; locals are proud of this heritage."
+        },
+        {
+          "id": "pa_c3",
+          "text": "Combine with Castelli Romani",
+          "detail": "Palestrina pairs well with a drive through the nearby Castelli Romani wine towns for a full day trip."
+        }
+      ]
+    },
+    {
+      "id": "sermoneta",
+      "name": "Sermoneta",
+      "nameIt": "Sermoneta",
+      "lat": 41.5495,
+      "lng": 12.9878,
+      "type": "TOWN",
+      "description": "A stunning medieval hilltop village in the Pontine plain dominated by the imposing Caetani Castle. Its perfectly preserved lanes, towers, and views across the reclaimed marshes feel timelessly medieval.",
+      "imageQueries": [
+        "Sermoneta medieval village Italy",
+        "Caetani Castle Sermoneta",
+        "Garden of Ninfa Lazio Italy"
+      ],
+      "activities": [
+        {
+          "id": "sm_01",
+          "text": "Tour Caetani Castle",
+          "detail": "The well-preserved 13th-century fortress offers guided tours revealing its turbulent noble history.",
+          "lat": 41.5497,
+          "lng": 12.9875
+        },
+        {
+          "id": "sm_02",
+          "text": "Wander the medieval streets",
+          "detail": "The car-free historic center has barely changed in centuries; get lost in its atmospheric alleys.",
+          "lat": 41.5495,
+          "lng": 12.9878
+        },
+        {
+          "id": "sm_03",
+          "text": "Visit the Abbey of Valvisciolo",
+          "detail": "A Cistercian abbey in the valley below with a beautiful Gothic cloister and peaceful gardens.",
+          "lat": 41.5389,
+          "lng": 12.9697
+        },
+        {
+          "id": "sm_04",
+          "text": "Explore the Garden of Ninfa",
+          "detail": "Nearby romantic garden built over a ruined medieval town, considered one of the world's most beautiful gardens.",
+          "lat": 41.5167,
+          "lng": 12.9833
+        },
+        {
+          "id": "sm_05",
+          "text": "Enjoy views over the Pontine Plain",
+          "detail": "The terrace near the castle offers sweeping views of the reclaimed marshland stretching to the sea.",
+          "lat": 41.549,
+          "lng": 12.987
+        }
+      ],
+      "food": [
+        {
+          "id": "sm_f1",
+          "text": "Olive oil from Sermoneta",
+          "detail": "The surrounding hills produce prized extra-virgin olive oil available directly from local producers."
+        },
+        {
+          "id": "sm_f2",
+          "text": "Pasta alla ciociara",
+          "detail": "Hearty pasta with tomato, guanciale, and pecorino, a rustic southern Lazio staple."
+        },
+        {
+          "id": "sm_f3",
+          "text": "Pecorino romano",
+          "detail": "Sharp aged sheep's milk cheese produced throughout Lazio, excellent sliced with local bread."
+        },
+        {
+          "id": "sm_f4",
+          "text": "Frappe fritte",
+          "detail": "Light fried pastry ribbons dusted with icing sugar, popular at local festivals and bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sm_c1",
+          "text": "Garden of Ninfa bookings",
+          "detail": "The garden only opens on specific dates and requires advance booking; check the calendar online."
+        },
+        {
+          "id": "sm_c2",
+          "text": "Caetani family legacy",
+          "detail": "The Caetani noble family shaped this town for centuries; their story adds depth to any castle visit."
+        },
+        {
+          "id": "sm_c3",
+          "text": "Quiet village pace",
+          "detail": "Sermoneta is very small and quiet; most locals rest after lunch so plan sightseeing for morning or late afternoon."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Trattoria da Enzo al 29",
+      "address": "Via dei Vascellari 29, Rome",
+      "neighbourhood": "Trastevere, Rome",
+      "cuisine": "Traditional Roman",
+      "priceRange": "€€",
+      "description": "A beloved Trastevere institution serving classic Roman dishes with honest ingredients and a warm family atmosphere since the 1930s.",
+      "mustOrder": "Cacio e Pepe",
+      "lat": 41.8896,
+      "lng": 12.4755
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Osteria dell'Antiquario",
+      "address": "Piazzetta di San Simeone 26, Rome",
+      "neighbourhood": "Navona, Rome",
+      "cuisine": "Traditional Roman",
+      "priceRange": "€€€",
+      "description": "A refined osteria near Piazza Navona blending classic Roman flavours with creative touches in an intimate candlelit setting.",
+      "mustOrder": "Rigatoni alla Pajata",
+      "lat": 41.8998,
+      "lng": 12.4718
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Ristorante Il Sorpasso",
+      "address": "Via Properzio 31, Rome",
+      "neighbourhood": "Prati, Rome",
+      "cuisine": "Roman Bistro",
+      "priceRange": "€€",
+      "description": "A lively Prati bistro popular for its charcuterie, natural wines and hearty Roman plates enjoyed at communal tables.",
+      "mustOrder": "Tagliere di Salumi e Formaggi",
+      "lat": 41.9069,
+      "lng": 12.4642
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Trattoria Cadorna",
+      "address": "Via Cadorna 14, Viterbo",
+      "neighbourhood": "Viterbo Centro",
+      "cuisine": "Traditional Viterbese",
+      "priceRange": "€€",
+      "description": "A no-frills family trattoria in the heart of Viterbo serving robust Tuscia recipes including local game and freshwater fish for decades.",
+      "mustOrder": "Acquacotta Viterbese",
+      "lat": 42.4167,
+      "lng": 12.1044
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Osteria del Bricco",
+      "address": "Via della Mola Vecchia 6, Frascati",
+      "neighbourhood": "Frascati, Castelli Romani",
+      "cuisine": "Castelli Romani",
+      "priceRange": "€€",
+      "description": "Perched in the Colli Albani hills, this rustic osteria pairs hearty pork dishes and porchetta with the famous local Frascati white wine.",
+      "mustOrder": "Porchetta dei Castelli",
+      "lat": 41.8083,
+      "lng": 12.6795
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Ristorante Il Funghetto",
+      "address": "Via di Porta Labicana 14, Rome",
+      "neighbourhood": "Esquilino, Rome",
+      "cuisine": "Roman-Jewish",
+      "priceRange": "€€",
+      "description": "A family-run gem in Rome serving authentic Roman-Jewish specialities including fried artichokes in the style of the old Ghetto.",
+      "mustOrder": "Carciofi alla Giudia",
+      "lat": 41.8954,
+      "lng": 12.5058
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Ristorante Enoteca La Torre",
+      "address": "Via della Torre 5, Viterbo",
+      "neighbourhood": "Viterbo Centro",
+      "cuisine": "Creative Italian Fine Dining",
+      "priceRange": "€€€€",
+      "description": "A Michelin-starred restaurant set in a medieval tower, offering inventive reinterpretations of Lazio and Tuscia tradition with impeccable wine pairings.",
+      "mustOrder": "Piccione con Lenticchie di Onano",
+      "lat": 42.4185,
+      "lng": 12.1068
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Osteria Il Grottino",
+      "address": "Via Cavour 3, Civita di Bagnoregio",
+      "neighbourhood": "Civita di Bagnoregio",
+      "cuisine": "Umbrian-Laziale Border",
+      "priceRange": "€",
+      "description": "A tiny osteria beneath the cliffside village, offering simple handmade pastas and local legume soups in an ancient stone-vaulted dining room.",
+      "mustOrder": "Pasta e Fagioli con Farro",
+      "lat": 42.6274,
+      "lng": 12.1135
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Ristorante Il Fogliano",
+      "address": "Strada del Lago 18, Sabaudia",
+      "neighbourhood": "Sabaudia, Pontine Coast",
+      "cuisine": "Seafood and Lacustrine",
+      "priceRange": "€€€",
+      "description": "Located on the shores of Lago di Fogliano, this restaurant is celebrated for fresh Pontine coast seafood and lake-caught eel and pike dishes.",
+      "mustOrder": "Anguilla del Lago in Umido",
+      "lat": 41.3024,
+      "lng": 13.0466
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Trattoria La Tana dell'Orso",
+      "address": "Via Roma 47, Rieti",
+      "neighbourhood": "Rieti Centro",
+      "cuisine": "Traditional Reatino",
+      "priceRange": "€",
+      "description": "A welcoming trattoria in Rieti's old town serving mountain lamb, local truffles and handmade pasta rooted in Sabina culinary tradition.",
+      "mustOrder": "Agnello alla Cacciatora con Olive Sabine",
+      "lat": 42.4047,
+      "lng": 12.8619
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Osteria dell'Orologio",
+      "address": "Via Marina 8, Fiumicino",
+      "neighbourhood": "Fiumicino",
+      "cuisine": "Roman Seafood",
+      "priceRange": "€€€",
+      "description": "A port-side institution in Fiumicino renowned for ultra-fresh fish landed daily by local boats and expertly prepared with Roman simplicity.",
+      "mustOrder": "Spaghetti alle Vongole Veraci",
+      "lat": 41.7731,
+      "lng": 12.2323
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Ristorante Settimio all'Arancio",
+      "address": "Via dell'Arancio 50, Rome",
+      "neighbourhood": "Campo Marzio, Rome",
+      "cuisine": "Classic Roman",
+      "priceRange": "€€",
+      "description": "Open since 1940 near the Pantheon, this old-world Roman restaurant faithfully preserves recipes from the cucina romana of the last century.",
+      "mustOrder": "Saltimbocca alla Romana",
+      "lat": 41.9012,
+      "lng": 12.4764
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Trattoria da Checco er Carrettiere",
+      "address": "Via Benedetta 10, Rome",
+      "neighbourhood": "Trastevere, Rome",
+      "cuisine": "Traditional Roman",
+      "priceRange": "€€",
+      "description": "Opened in 1935, this iconic Trastevere trattoria has fed generations of Romans and visitors with its dependable offal dishes and seasonal antipasti.",
+      "mustOrder": "Trippa alla Romana",
+      "lat": 41.8904,
+      "lng": 12.4703
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Osteria della Villetta",
+      "address": "Via Vittorio Veneto 10, Palestrina",
+      "neighbourhood": "Palestrina, Prenestini Hills",
+      "cuisine": "Lazio Country Cuisine",
+      "priceRange": "€",
+      "description": "A charming hillside osteria near the ancient sanctuary of Fortuna Primigenia, known for wild boar ragù and handmade tonnarelli with truffle.",
+      "mustOrder": "Tonnarelli al Tartufo Nero",
+      "lat": 41.8393,
+      "lng": 12.8942
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Ristorante Mirabelle",
+      "address": "Via di Porta Pinciana 14, Rome",
+      "neighbourhood": "Via Veneto, Rome",
+      "cuisine": "Modern Italian Fine Dining",
+      "priceRange": "€€€€",
+      "description": "A rooftop fine-dining restaurant atop the Hotel Splendide Royal offering panoramic views of Rome and an elegant contemporary Italian tasting menu.",
+      "mustOrder": "Ravioli di Ricotta con Gamberi e Bottarga",
+      "lat": 41.9089,
+      "lng": 12.4872
+    }
+  ]
+}

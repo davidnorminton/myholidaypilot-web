@@ -1,0 +1,1187 @@
+{
+  "id": "tuscany",
+  "name": "Tuscany",
+  "nameIt": "Toscana",
+  "capital": "Florence",
+  "lat": 43.4,
+  "lng": 11.0,
+  "emoji": "🌻",
+  "colour": "ff558b2f",
+  "boundingBox": {
+    "north": 44.5,
+    "south": 42.4,
+    "east": 12.4,
+    "west": 9.7
+  },
+  "history": "Tuscany was the heartland of the Etruscans, a sophisticated pre-Roman civilisation whose art, religion, and urban planning profoundly influenced Rome — the Etruscans gave Rome its alphabet, gladiatorial games, and many religious practices. After Roman absorption, Tuscany flourished as a prosperous agricultural and administrative region. During the medieval period, its city-states — Florence, Siena, Pisa, and Lucca — rose to extraordinary power through banking and trade, and their fierce rivalry produced some of the finest Gothic architecture in Europe. The Renaissance began in Florence under the Medici family in the early 15th century, producing Leonardo da Vinci, Michelangelo, Botticelli, Galileo, Dante, Petrarch, and Machiavelli — a concentration of genius unmatched in history. Florence was briefly the capital of unified Italy (1865–1871). Today Tuscany receives around 50 million visitors annually, making sensitive, off-peak travel an act of kindness to both locals and landscape.",
+  "culturalNotes": "Tuscans take immense pride in their art, food, and local traditions, with each town fiercely loyal to its own heritage — the Palio di Siena horse race (July 2nd and August 16th) is not a pageant but a deeply serious civic competition between contrade (districts) that defines Sienese identity. Tuscan cuisine celebrates simplicity and quality: bistecca alla Fiorentina (T-bone steak from Chianina cattle, served rare and unsauced), ribollita (bean and bread soup), pappardelle with wild boar ragù, and pecorino from Pienza. Chianti, Brunello di Montalcino, and Vernaccia di San Gimignano are wines of international stature. The cypress-lined country lanes, rolling vineyards, and hilltop towns of Tuscany are among the most painted and photographed landscapes in the world — but the region behind the postcards is genuinely extraordinary.",
+  "bestTimeToVisit": "April to June and September to October offer ideal weather, fewer crowds, and the stunning colors of the Tuscan countryside.",
+  "languageNotes": "Tuscan Italian is historically considered the purest and most prestigious form of the language — Dante, Petrarch, and Boccaccio wrote in Tuscan, which became the basis of standard Italian. Modern Tuscan retains one distinctive feature called 'gorgia toscana' (Tuscan gorge): the spirantisation of hard 'c' and 'g' sounds between vowels, so 'la coca cola' sounds like 'la hoha hola.' This can briefly confuse listeners expecting standard pronunciation. Florentine Italian specifically is regarded by many linguists as the clearest spoken Italian. Useful phrases: 'Dov'è il centro storico?' (Where is the old town?), 'Un bicchiere di Chianti, per favore' (A glass of Chianti, please), and 'Quanto costa?' (How much does it cost?). English is widely spoken in Florence and Siena; less so in smaller hill towns.",
+  "generatedAt": 1781520942935,
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "florence",
+      "name": "Florence",
+      "nameIt": "Firenze",
+      "lat": 43.7696,
+      "lng": 11.2558,
+      "type": "CITY",
+      "description": "The cradle of the Renaissance, Florence is packed with world-class art, stunning architecture, and vibrant street life. It is the capital of Tuscany and one of Italy's most visited cities.",
+      "imageQueries": [
+        "Florence cathedral dome",
+        "Ponte Vecchio Italy"
+      ],
+      "activities": [
+        {
+          "id": "fl_1",
+          "text": "Visit the Uffizi Gallery",
+          "detail": "Book tickets well in advance to avoid long queues.",
+          "lat": 43.7677,
+          "lng": 11.2553
+        },
+        {
+          "id": "fl_2",
+          "text": "Climb the Duomo dome",
+          "detail": "Arrive early to beat the crowds and enjoy panoramic views.",
+          "lat": 43.7731,
+          "lng": 11.256
+        },
+        {
+          "id": "fl_3",
+          "text": "Stroll Ponte Vecchio",
+          "detail": "Visit at sunset for the best light and fewer tourists.",
+          "lat": 43.768,
+          "lng": 11.2531
+        },
+        {
+          "id": "fl_4",
+          "text": "Explore the Boboli Gardens",
+          "detail": "A peaceful escape from the city bustle behind Pitti Palace.",
+          "lat": 43.765,
+          "lng": 11.2502
+        },
+        {
+          "id": "fl_5",
+          "text": "Tour the Accademia Gallery",
+          "detail": "See Michelangelo's David — pre-booking is essential.",
+          "lat": 43.7766,
+          "lng": 11.2588
+        },
+        {
+          "id": "flr_001",
+          "text": "Piazzale Michelangelo",
+          "detail": "Climb to this hilltop terrace at sunset for the best panoramic views of Florence.",
+          "lat": 43.7629,
+          "lng": 11.2648
+        },
+        {
+          "id": "flr_002",
+          "text": "Bargello Museum",
+          "detail": "Explore Renaissance sculptures including Donatello's David in this underrated gem.",
+          "lat": 43.7697,
+          "lng": 11.2567
+        },
+        {
+          "id": "flr_003",
+          "text": "Santa Croce Basilica",
+          "detail": "Visit the tombs of Michelangelo, Galileo, and Machiavelli in Florence's largest Franciscan church.",
+          "lat": 43.7686,
+          "lng": 11.2626
+        },
+        {
+          "id": "flr_004",
+          "text": "Mercato Centrale",
+          "detail": "Browse the lively two-floor market for fresh Tuscan produce, street food, and local delicacies.",
+          "lat": 43.7754,
+          "lng": 11.2534
+        },
+        {
+          "id": "flr_005",
+          "text": "Oltrarno Neighborhood Walk",
+          "detail": "Wander the artisan workshops and trattorias of this charming south-bank district away from the crowds.",
+          "lat": 43.7662,
+          "lng": 11.2489
+        },
+        {
+          "id": "flo_001",
+          "text": "Palazzo Vecchio",
+          "detail": "Explore Florence's medieval town hall and climb the tower for panoramic city views.",
+          "lat": 43.7694,
+          "lng": 11.2558
+        },
+        {
+          "id": "flo_002",
+          "text": "San Miniato al Monte",
+          "detail": "Visit this stunning Romanesque church perched on a hillside with sweeping views over Florence.",
+          "lat": 43.7596,
+          "lng": 11.2639
+        },
+        {
+          "id": "flo_003",
+          "text": "Museo dell'Opera del Duomo",
+          "detail": "See original sculptures and Ghiberti's golden Baptistery doors up close in this underrated museum.",
+          "lat": 43.7733,
+          "lng": 11.2564
+        },
+        {
+          "id": "flo_004",
+          "text": "Palazzo Pitti",
+          "detail": "Tour the grand Medici royal palace housing multiple museums including the Palatine Gallery.",
+          "lat": 43.765,
+          "lng": 11.2499
+        },
+        {
+          "id": "flo_005",
+          "text": "Florence Baptistery",
+          "detail": "Admire the famous bronze doors and stunning golden Byzantine mosaics inside this ancient octagonal landmark.",
+          "lat": 43.7731,
+          "lng": 11.2547
+        }
+      ],
+      "food": [
+        {
+          "id": "fl_f1",
+          "text": "Bistecca alla Fiorentina",
+          "detail": "A thick T-bone steak grilled rare, best paired with Chianti wine."
+        },
+        {
+          "id": "fl_f2",
+          "text": "Lampredotto",
+          "detail": "A traditional Florentine street food of braised tripe in a soft roll."
+        },
+        {
+          "id": "fl_f3",
+          "text": "Ribollita",
+          "detail": "A hearty Tuscan bread and vegetable soup, especially good in winter."
+        },
+        {
+          "id": "fl_f4",
+          "text": "Cantucci e Vin Santo",
+          "detail": "Almond biscotti dipped in sweet dessert wine — a classic Florentine ending."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fl_c1",
+          "text": "Dress for churches",
+          "detail": "Cover shoulders and knees to enter Florence's many sacred sites."
+        },
+        {
+          "id": "fl_c2",
+          "text": "Avoid tourist trap restaurants",
+          "detail": "Restaurants near major sights often charge more for lower quality — walk a few blocks away."
+        },
+        {
+          "id": "fl_c3",
+          "text": "Respect queue etiquette",
+          "detail": "Cutting in line at museums is taken seriously; always book timed entry slots."
+        }
+      ]
+    },
+    {
+      "id": "siena",
+      "name": "Siena",
+      "nameIt": "Siena",
+      "lat": 43.3186,
+      "lng": 11.3307,
+      "type": "CITY",
+      "description": "A beautifully preserved medieval city built on three hills, Siena rivals Florence in art and culture. Its shell-shaped Piazza del Campo is one of Europe's greatest public squares.",
+      "imageQueries": [
+        "Siena Piazza del Campo",
+        "Siena medieval Italy"
+      ],
+      "activities": [
+        {
+          "id": "si_1",
+          "text": "Watch the Palio horse race",
+          "detail": "Held twice a year in July and August — book accommodation months ahead.",
+          "lat": 43.3183,
+          "lng": 11.3314
+        },
+        {
+          "id": "si_2",
+          "text": "Visit the Siena Cathedral",
+          "detail": "Don't miss the intricate marble inlaid floor revealed seasonally.",
+          "lat": 43.3174,
+          "lng": 11.3282
+        },
+        {
+          "id": "si_3",
+          "text": "Climb Torre del Mangia",
+          "detail": "The tower offers sweeping views over the city and countryside.",
+          "lat": 43.3183,
+          "lng": 11.3314
+        },
+        {
+          "id": "si_4",
+          "text": "Explore the Museo Civico",
+          "detail": "See Ambrogio Lorenzetti's famous medieval frescoes on good governance.",
+          "lat": 43.3183,
+          "lng": 11.3314
+        },
+        {
+          "id": "si_5",
+          "text": "Wander the medieval streets",
+          "detail": "Each neighborhood (contrada) has its own symbol, museum, and fountain.",
+          "lat": 43.3186,
+          "lng": 11.3307
+        }
+      ],
+      "food": [
+        {
+          "id": "si_f1",
+          "text": "Pici al ragù",
+          "detail": "Thick hand-rolled pasta with a rich meat sauce, a Sienese staple."
+        },
+        {
+          "id": "si_f2",
+          "text": "Panforte",
+          "detail": "A dense, spiced fruit and nut cake that originated in Siena centuries ago."
+        },
+        {
+          "id": "si_f3",
+          "text": "Ricciarelli",
+          "detail": "Soft almond cookies dusted with powdered sugar, a traditional Sienese sweet."
+        },
+        {
+          "id": "si_f4",
+          "text": "Pappa al pomodoro",
+          "detail": "A simple Tuscan tomato and bread soup, rustic and deeply satisfying."
+        }
+      ],
+      "culture": [
+        {
+          "id": "si_c1",
+          "text": "Respect the contrade",
+          "detail": "Each city district has fierce local pride — asking which contrada someone belongs to is a great conversation starter."
+        },
+        {
+          "id": "si_c2",
+          "text": "Piazza del Campo picnics",
+          "detail": "Sitting on the sloping piazza is a local tradition, but avoid eating restaurant food outside designated areas."
+        },
+        {
+          "id": "si_c3",
+          "text": "Quiet hours matter",
+          "detail": "Siena is a living city — keep noise down in residential areas, especially in the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "san_gimignano",
+      "name": "San Gimignano",
+      "nameIt": "San Gimignano",
+      "lat": 43.4676,
+      "lng": 11.0431,
+      "type": "TOWN",
+      "description": "Known as the 'Town of Fine Towers,' San Gimignano is a small hilltop gem with 14 surviving medieval towers dominating its skyline. It is a UNESCO World Heritage Site.",
+      "imageQueries": [
+        "San Gimignano towers Tuscany",
+        "San Gimignano hilltop Italy"
+      ],
+      "activities": [
+        {
+          "id": "sg_1",
+          "text": "Climb Torre Grossa",
+          "detail": "The tallest accessible tower offers the best panoramic views of the Val d'Elsa.",
+          "lat": 43.4677,
+          "lng": 11.0432
+        },
+        {
+          "id": "sg_2",
+          "text": "Visit Piazza della Cisterna",
+          "detail": "The beautiful triangular square with a medieval well is perfect for photos.",
+          "lat": 43.4674,
+          "lng": 11.043
+        },
+        {
+          "id": "sg_3",
+          "text": "Tour the Collegiata church",
+          "detail": "Its interior is covered in vivid biblical frescoes by Ghirlandaio and Barna da Siena.",
+          "lat": 43.4679,
+          "lng": 11.0428
+        },
+        {
+          "id": "sg_4",
+          "text": "Explore the Vernaccia wine route",
+          "detail": "Visit local cellars to taste the famous local white wine with ancient roots.",
+          "lat": 43.46,
+          "lng": 11.035
+        },
+        {
+          "id": "sg_5",
+          "text": "Walk the town walls",
+          "detail": "A short walk along the intact walls gives great countryside and tower views.",
+          "lat": 43.4676,
+          "lng": 11.0445
+        }
+      ],
+      "food": [
+        {
+          "id": "sg_f1",
+          "text": "Vernaccia di San Gimignano",
+          "detail": "Italy's first DOC white wine, crisp and golden, produced on the surrounding hillsides."
+        },
+        {
+          "id": "sg_f2",
+          "text": "Wild boar pappardelle",
+          "detail": "Broad pasta ribbons with slow-cooked cinghiale (wild boar) ragù."
+        },
+        {
+          "id": "sg_f3",
+          "text": "Saffron risotto",
+          "detail": "Saffron has been grown here since medieval times and features in local dishes."
+        },
+        {
+          "id": "sg_f4",
+          "text": "Gelato Gelateria Dondoli",
+          "detail": "The award-winning gelateria in the main square is famed worldwide for creative flavors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sg_c1",
+          "text": "Visit early or late",
+          "detail": "San Gimignano gets very crowded midday — early morning visits feel magical and peaceful."
+        },
+        {
+          "id": "sg_c2",
+          "text": "Stay overnight",
+          "detail": "Overnight guests experience the town after day-trippers leave — a completely different atmosphere."
+        },
+        {
+          "id": "sg_c3",
+          "text": "Buy local wine directly",
+          "detail": "Purchasing Vernaccia directly from producers is cheaper and supports local families."
+        }
+      ]
+    },
+    {
+      "id": "val_dorcia",
+      "name": "Val d'Orcia",
+      "nameIt": "Val d'Orcia",
+      "lat": 43.05,
+      "lng": 11.6,
+      "type": "LANDMARK",
+      "description": "A UNESCO-listed valley of rolling hills, cypress-lined roads, and medieval villages that define the classic Tuscan landscape. It is one of the most photographed regions in all of Italy.",
+      "imageQueries": [
+        "Val d'Orcia rolling hills Tuscany",
+        "Tuscany cypress road landscape"
+      ],
+      "activities": [
+        {
+          "id": "vd_1",
+          "text": "Drive the cypress-lined roads",
+          "detail": "The road to Bagno Vignoni near Monticchiello is iconic for photography.",
+          "lat": 43.075,
+          "lng": 11.55
+        },
+        {
+          "id": "vd_2",
+          "text": "Visit Pienza",
+          "detail": "This Renaissance 'ideal city' was built by Pope Pius II and is exquisitely preserved.",
+          "lat": 43.0757,
+          "lng": 11.6785
+        },
+        {
+          "id": "vd_3",
+          "text": "Soak in Bagno Vignoni hot springs",
+          "detail": "The natural thermal pools near the village are perfect for relaxation.",
+          "lat": 43.0283,
+          "lng": 11.6217
+        },
+        {
+          "id": "vd_4",
+          "text": "Explore Montalcino",
+          "detail": "Visit the hilltop fortress and taste world-renowned Brunello di Montalcino wine.",
+          "lat": 43.0557,
+          "lng": 11.4893
+        },
+        {
+          "id": "vd_5",
+          "text": "Hike the Via Francigena",
+          "detail": "A section of the ancient pilgrimage route passes through the valley with stunning scenery.",
+          "lat": 43.05,
+          "lng": 11.6
+        }
+      ],
+      "food": [
+        {
+          "id": "vd_f1",
+          "text": "Brunello di Montalcino",
+          "detail": "One of Italy's greatest red wines, aged for years and produced in the valley."
+        },
+        {
+          "id": "vd_f2",
+          "text": "Pecorino di Pienza",
+          "detail": "Fresh or aged sheep's milk cheese from Pienza, often sold at local markets."
+        },
+        {
+          "id": "vd_f3",
+          "text": "Lardo di Cinta Senese",
+          "detail": "Cured fatback from the local heritage pig breed, silky and aromatic."
+        },
+        {
+          "id": "vd_f4",
+          "text": "Pici cacio e pepe",
+          "detail": "Hand-rolled thick pasta with just pecorino and black pepper — simple and perfect."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vd_c1",
+          "text": "Spring for wildflowers",
+          "detail": "April and May bring carpets of poppies and green hills — the valley's most scenic season."
+        },
+        {
+          "id": "vd_c2",
+          "text": "Rent a car",
+          "detail": "Public transport is very limited here; a car is essential to explore properly."
+        },
+        {
+          "id": "vd_c3",
+          "text": "Respect private farmland",
+          "detail": "Many scenic roads cross private agricultural land — stay on public paths and roads."
+        }
+      ]
+    },
+    {
+      "id": "cinque_terre_coast_livorno",
+      "name": "Livorno",
+      "nameIt": "Livorno",
+      "lat": 43.5484,
+      "lng": 10.3106,
+      "type": "COAST",
+      "description": "Tuscany's main port city, Livorno has a unique multicultural heritage and a lively canal district called Venezia Nuova. It offers a refreshingly authentic experience away from typical tourist crowds.",
+      "imageQueries": [
+        "Livorno canal Italy",
+        "Livorno harbor Tuscany"
+      ],
+      "activities": [
+        {
+          "id": "li_1",
+          "text": "Explore Venezia Nuova",
+          "detail": "Stroll along the canals of this charming neighborhood nicknamed 'Little Venice.'",
+          "lat": 43.547,
+          "lng": 10.308
+        },
+        {
+          "id": "li_2",
+          "text": "Visit Fortezza Vecchia",
+          "detail": "The old fortress at the harbor offers history and great sea views.",
+          "lat": 43.5502,
+          "lng": 10.3062
+        },
+        {
+          "id": "li_3",
+          "text": "Ferry to Capraia Island",
+          "detail": "A volcanic island with crystal-clear water, ideal for snorkeling and hiking.",
+          "lat": 43.553,
+          "lng": 10.298
+        },
+        {
+          "id": "li_4",
+          "text": "Browse the Mercato Centrale",
+          "detail": "A vibrant daily market selling fresh seafood, produce, and local street food.",
+          "lat": 43.551,
+          "lng": 10.314
+        },
+        {
+          "id": "li_5",
+          "text": "Visit the Jewish Museum",
+          "detail": "Livorno had a historically important and tolerant Jewish community — the museum tells this story.",
+          "lat": 43.5475,
+          "lng": 10.3095
+        }
+      ],
+      "food": [
+        {
+          "id": "li_f1",
+          "text": "Cacciucco",
+          "detail": "A rich, spicy Livornese fish stew with five types of seafood, served over toasted bread."
+        },
+        {
+          "id": "li_f2",
+          "text": "Torta di ceci",
+          "detail": "A golden chickpea flour flatbread baked in a wood oven, eaten as street food."
+        },
+        {
+          "id": "li_f3",
+          "text": "Triglie alla livornese",
+          "detail": "Red mullet cooked in a tomato and herb sauce, a local seafood classic."
+        },
+        {
+          "id": "li_f4",
+          "text": "Schiacciata",
+          "detail": "A flat Tuscan bread drizzled with olive oil and salt, perfect as a snack."
+        }
+      ],
+      "culture": [
+        {
+          "id": "li_c1",
+          "text": "Locals eat late",
+          "detail": "Dinner in Livorno rarely starts before 8pm — arriving at 7pm means an empty restaurant."
+        },
+        {
+          "id": "li_c2",
+          "text": "Bargaining at markets",
+          "detail": "A friendly chat with market vendors often leads to better deals and local tips."
+        },
+        {
+          "id": "li_c3",
+          "text": "Livornese dialect",
+          "detail": "Locals speak with a distinctive accent and local slang — a warm smile goes a long way."
+        }
+      ]
+    },
+    {
+      "id": "lucca",
+      "name": "Lucca",
+      "nameIt": "Lucca",
+      "lat": 43.843,
+      "lng": 10.505,
+      "type": "CITY",
+      "description": "A charming walled city famous for its intact Renaissance walls and Romanesque churches. Lucca is one of Tuscany's most elegant and relaxed towns.",
+      "imageQueries": [
+        "Lucca Italy city walls",
+        "Lucca Tuscany",
+        "Torre Guinigi Lucca"
+      ],
+      "activities": [
+        {
+          "id": "lucca_walls",
+          "text": "Walk or cycle the city walls",
+          "detail": "Rent a bike at the walls base and enjoy the tree-lined promenade above the city.",
+          "lat": 43.843,
+          "lng": 10.505
+        },
+        {
+          "id": "lucca_piazza",
+          "text": "Visit Piazza dell'Anfiteatro",
+          "detail": "This elliptical piazza is built over a Roman amphitheatre and is perfect for a coffee stop.",
+          "lat": 43.8438,
+          "lng": 10.5023
+        },
+        {
+          "id": "lucca_torre_guinigi",
+          "text": "Climb Torre Guinigi",
+          "detail": "Climb the medieval tower crowned with oak trees for panoramic views over Lucca.",
+          "lat": 43.8427,
+          "lng": 10.5069
+        },
+        {
+          "id": "lucca_duomo",
+          "text": "Explore the Duomo di San Martino",
+          "detail": "Admire the asymmetric Romanesque facade and the Volto Santo crucifix inside.",
+          "lat": 43.8414,
+          "lng": 10.504
+        },
+        {
+          "id": "lucca_music",
+          "text": "Attend a Puccini concert",
+          "detail": "Lucca is the birthplace of Puccini; evening concerts are held in his honour regularly.",
+          "lat": 43.8436,
+          "lng": 10.5031
+        }
+      ],
+      "food": [
+        {
+          "id": "lucca_tordelli",
+          "text": "Tordelli Lucchesi",
+          "detail": "Stuffed pasta similar to tortelli filled with meat and herbs, a local Sunday staple."
+        },
+        {
+          "id": "lucca_buccellato",
+          "text": "Buccellato",
+          "detail": "A sweet ring-shaped bread with anise and raisins, sold in bakeries across the city."
+        },
+        {
+          "id": "lucca_farro",
+          "text": "Zuppa di Farro",
+          "detail": "Hearty emmer wheat soup slow-cooked with local vegetables and legumes."
+        },
+        {
+          "id": "lucca_lardo",
+          "text": "Lardo di Colonnata",
+          "detail": "Cured fatback aged in marble basins, served thin on warm bread."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lucca_tip1",
+          "text": "Respect quiet streets at midday",
+          "detail": "Lucca locals observe a long lunch break; many shops close between 1 and 3 PM."
+        },
+        {
+          "id": "lucca_tip2",
+          "text": "Book Lucca Comics tickets early",
+          "detail": "The annual comics festival in October draws huge crowds and hotels fill months in advance."
+        },
+        {
+          "id": "lucca_tip3",
+          "text": "Dress for churches",
+          "detail": "Shoulders and knees must be covered when entering the Duomo and other churches."
+        }
+      ]
+    },
+    {
+      "id": "pisa",
+      "name": "Pisa",
+      "nameIt": "Pisa",
+      "lat": 43.7228,
+      "lng": 10.4017,
+      "type": "CITY",
+      "description": "Home to the iconic Leaning Tower, Pisa is a vibrant university city with a stunning medieval Piazza dei Miracoli. Beyond the tower, its riverside streets and markets reward curious visitors.",
+      "imageQueries": [
+        "Pisa Leaning Tower Italy",
+        "Piazza dei Miracoli Pisa",
+        "Pisa Italy riverside"
+      ],
+      "activities": [
+        {
+          "id": "pisa_tower",
+          "text": "Climb the Leaning Tower",
+          "detail": "Book tickets online in advance; the climb offers a surprisingly dramatic tilt sensation.",
+          "lat": 43.7231,
+          "lng": 10.3966
+        },
+        {
+          "id": "pisa_baptistery",
+          "text": "Visit the Baptistery",
+          "detail": "Test the remarkable acoustics inside by asking a guard for a live echo demonstration.",
+          "lat": 43.7229,
+          "lng": 10.3958
+        },
+        {
+          "id": "pisa_arno",
+          "text": "Stroll along the Arno at sunset",
+          "detail": "The Lungarni riverside streets glow golden at dusk and are far less touristy than the Piazza.",
+          "lat": 43.7182,
+          "lng": 10.4012
+        },
+        {
+          "id": "pisa_camposanto",
+          "text": "Explore Camposanto Monumentale",
+          "detail": "This cloistered cemetery holds ancient Roman sarcophagi and haunting medieval frescoes.",
+          "lat": 43.7234,
+          "lng": 10.3962
+        },
+        {
+          "id": "pisa_market",
+          "text": "Browse Mercato delle Vettovaglie",
+          "detail": "A lively covered market in the city centre selling local produce, cheese and street food.",
+          "lat": 43.7167,
+          "lng": 10.4018
+        }
+      ],
+      "food": [
+        {
+          "id": "pisa_cecina",
+          "text": "Cecina",
+          "detail": "A thin crispy chickpea flour flatbread cooked in a wood oven, eaten in a bread roll."
+        },
+        {
+          "id": "pisa_torta_coi_bischeri",
+          "text": "Torta coi Bischeri",
+          "detail": "A sweet tart filled with rice, chocolate and dried fruit unique to Pisa."
+        },
+        {
+          "id": "pisa_ribollita",
+          "text": "Ribollita",
+          "detail": "A thick Tuscan bread and vegetable soup re-boiled from leftovers for deep flavour."
+        },
+        {
+          "id": "pisa_lampredotto",
+          "text": "Trippa alla Pisana",
+          "detail": "Slow-cooked tripe in tomato sauce, a popular street food among locals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pisa_tip1",
+          "text": "Do not fake pushing the tower",
+          "detail": "The cliché photo is expected but locals find it amusing; embrace it or skip the queue."
+        },
+        {
+          "id": "pisa_tip2",
+          "text": "Visit in the evening",
+          "detail": "The Piazza dei Miracoli is strikingly lit at night and tourist crowds thin out considerably."
+        },
+        {
+          "id": "pisa_tip3",
+          "text": "Explore beyond Piazza dei Miracoli",
+          "detail": "The university quarter and river banks reveal authentic Pisan daily life away from tour groups."
+        }
+      ]
+    },
+    {
+      "id": "montepulciano",
+      "name": "Montepulciano",
+      "nameIt": "Montepulciano",
+      "lat": 43.0948,
+      "lng": 11.7866,
+      "type": "TOWN",
+      "description": "A Renaissance hilltop town perched above vineyards producing the celebrated Vino Nobile wine. Its steep stone streets lead to elegant palazzi and a spectacular main piazza.",
+      "imageQueries": [
+        "Montepulciano hilltop Tuscany",
+        "Vino Nobile Montepulciano",
+        "Tempio San Biagio Montepulciano"
+      ],
+      "activities": [
+        {
+          "id": "monte_wine",
+          "text": "Wine tasting in the cellars",
+          "detail": "Many enotecas along Via Gracciano offer free tastings of Vino Nobile directly from the barrel.",
+          "lat": 43.0948,
+          "lng": 11.7866
+        },
+        {
+          "id": "monte_piazza_grande",
+          "text": "Visit Piazza Grande",
+          "detail": "The hilltop main square features the Palazzo Comunale with a tower offering sweeping valley views.",
+          "lat": 43.0951,
+          "lng": 11.7871
+        },
+        {
+          "id": "monte_san_biagio",
+          "text": "See Tempio di San Biagio",
+          "detail": "A stunning Renaissance church sitting alone in the fields below town, best visited at golden hour.",
+          "lat": 43.0889,
+          "lng": 11.7811
+        },
+        {
+          "id": "monte_walk",
+          "text": "Walk the medieval walls",
+          "detail": "Circumnavigate the hilltop along the old walls for dramatic views over Val d'Orcia and Val di Chiana.",
+          "lat": 43.0948,
+          "lng": 11.7866
+        },
+        {
+          "id": "monte_bravio",
+          "text": "Attend the Bravio delle Botti",
+          "detail": "In August, barrel-rolling teams race uphill through town in a colourful medieval tradition.",
+          "lat": 43.0951,
+          "lng": 11.7871
+        }
+      ],
+      "food": [
+        {
+          "id": "monte_vino_nobile",
+          "text": "Vino Nobile di Montepulciano",
+          "detail": "A robust DOCG red wine made from Sangiovese grapes aged in oak barrels."
+        },
+        {
+          "id": "monte_pici",
+          "text": "Pici all'Aglione",
+          "detail": "Thick hand-rolled pasta served in a bold garlic and tomato sauce typical of the area."
+        },
+        {
+          "id": "monte_pecorino",
+          "text": "Pecorino di Pienza",
+          "detail": "A nearby sheep's milk cheese ranging from fresh and mild to aged and sharp."
+        },
+        {
+          "id": "monte_cantucci",
+          "text": "Cantucci con Vin Santo",
+          "detail": "Almond biscotti dipped in sweet fortified Vin Santo wine, a classic Tuscan dessert ritual."
+        }
+      ],
+      "culture": [
+        {
+          "id": "monte_tip1",
+          "text": "Wear comfortable shoes",
+          "detail": "The streets are steep and cobbled; flat-soled sturdy footwear is essential."
+        },
+        {
+          "id": "monte_tip2",
+          "text": "Buy wine directly from producers",
+          "detail": "Purchasing from local cantinas supports small estates and often gets you better prices."
+        },
+        {
+          "id": "monte_tip3",
+          "text": "Arrive early or late in summer",
+          "detail": "Midday heat in July and August can be intense; mornings and evenings are far more pleasant."
+        }
+      ]
+    },
+    {
+      "id": "elba_island",
+      "name": "Elba Island",
+      "nameIt": "Isola d'Elba",
+      "lat": 42.76,
+      "lng": 10.27,
+      "type": "COAST",
+      "description": "Tuscany's largest island offers crystal-clear waters, sandy beaches and rugged mountains, famous also as Napoleon's place of exile. It is the jewel of the Tuscan Archipelago.",
+      "imageQueries": [
+        "Elba Island Tuscany beach",
+        "Isola d'Elba Italy coast",
+        "Portoferraio Elba Italy"
+      ],
+      "activities": [
+        {
+          "id": "elba_beach",
+          "text": "Swim at Spiaggia delle Ghiaie",
+          "detail": "A pebble beach near Portoferraio with exceptionally clear turquoise water ideal for snorkelling.",
+          "lat": 42.8167,
+          "lng": 10.3167
+        },
+        {
+          "id": "elba_napoleon",
+          "text": "Visit Napoleon's residence",
+          "detail": "Tour the Villa dei Mulini in Portoferraio where Napoleon lived during his 1814–15 exile.",
+          "lat": 42.8133,
+          "lng": 10.315
+        },
+        {
+          "id": "elba_monte_capanne",
+          "text": "Ride the Monte Capanne cable car",
+          "detail": "Open basket cable cars lift you to Elba's highest peak at 1019 m for 360-degree island views.",
+          "lat": 42.7633,
+          "lng": 10.1583
+        },
+        {
+          "id": "elba_kayak",
+          "text": "Kayak around the coastline",
+          "detail": "Rent a kayak to discover hidden sea caves and secluded coves inaccessible by road.",
+          "lat": 42.76,
+          "lng": 10.27
+        },
+        {
+          "id": "elba_portoferraio",
+          "text": "Explore Portoferraio old town",
+          "detail": "Walk the Medici fortifications and enjoy fresh seafood in the harbour trattorias.",
+          "lat": 42.8122,
+          "lng": 10.3144
+        }
+      ],
+      "food": [
+        {
+          "id": "elba_schiaccia_briaca",
+          "text": "Schiaccia Briaca",
+          "detail": "A traditional Elban cake made with wine, dried figs and pine nuts, dense and aromatic."
+        },
+        {
+          "id": "elba_octopus",
+          "text": "Polpo alla Livornese",
+          "detail": "Tender octopus slow-cooked in tomato, garlic and chilli in the coastal Livornese style."
+        },
+        {
+          "id": "elba_ansonica",
+          "text": "Ansonica wine",
+          "detail": "A crisp dry white wine made from Ansonica grapes grown on the island's sun-drenched slopes."
+        },
+        {
+          "id": "elba_cacciucco",
+          "text": "Cacciucco",
+          "detail": "A rich Tuscan fish stew with multiple seafood varieties served over toasted bread."
+        }
+      ],
+      "culture": [
+        {
+          "id": "elba_tip1",
+          "text": "Book ferries in advance in summer",
+          "detail": "July and August ferries from Piombino fill up fast; reserve your spot weeks ahead."
+        },
+        {
+          "id": "elba_tip2",
+          "text": "Hire a scooter or car on the island",
+          "detail": "Public transport is limited; a scooter is the ideal way to reach remote beaches."
+        },
+        {
+          "id": "elba_tip3",
+          "text": "Respect protected marine areas",
+          "detail": "Parts of Elba's coast are within a marine park; anchoring and fishing may be restricted."
+        }
+      ]
+    },
+    {
+      "id": "arezzo",
+      "name": "Arezzo",
+      "nameIt": "Arezzo",
+      "lat": 43.4633,
+      "lng": 11.88,
+      "type": "CITY",
+      "description": "A prosperous Tuscan city celebrated for its Piero della Francesca frescoes, antique markets and medieval jousting festival. Arezzo's sloping Piazza Grande is one of Italy's most atmospheric squares.",
+      "imageQueries": [
+        "Arezzo Piazza Grande Italy",
+        "Arezzo Tuscany medieval",
+        "Piero della Francesca frescoes Arezzo"
+      ],
+      "activities": [
+        {
+          "id": "arezzo_frescoes",
+          "text": "See the Legend of the True Cross frescoes",
+          "detail": "Book ahead to view Piero della Francesca's masterpiece cycle inside the Basilica di San Francesco.",
+          "lat": 43.4647,
+          "lng": 11.8812
+        },
+        {
+          "id": "arezzo_piazza_grande",
+          "text": "Visit Piazza Grande antique fair",
+          "detail": "On the first weekend of each month one of Italy's largest antique markets fills the sloping square.",
+          "lat": 43.4633,
+          "lng": 11.8792
+        },
+        {
+          "id": "arezzo_giostra",
+          "text": "Watch the Giostra del Saracino",
+          "detail": "A spectacular medieval jousting tournament held in full costume twice yearly in the piazza.",
+          "lat": 43.4633,
+          "lng": 11.8792
+        },
+        {
+          "id": "arezzo_gold",
+          "text": "Browse the goldsmiths' quarter",
+          "detail": "Arezzo is one of Europe's top gold jewellery producers; local shops offer remarkable craftsmanship.",
+          "lat": 43.4638,
+          "lng": 11.8798
+        },
+        {
+          "id": "arezzo_duomo",
+          "text": "Explore the Duomo and its stained glass",
+          "detail": "The cathedral holds magnificent stained glass by Guillaume de Marcillat illuminating Gothic interiors.",
+          "lat": 43.466,
+          "lng": 11.8822
+        }
+      ],
+      "food": [
+        {
+          "id": "arezzo_scottiglia",
+          "text": "Scottiglia",
+          "detail": "A rustic mixed meat stew slow-cooked in white wine and tomato, a true Arezzo peasant dish."
+        },
+        {
+          "id": "arezzo_pasta_uovo",
+          "text": "Pasta all'uovo with truffle",
+          "detail": "Fresh egg pasta dressed with shaved local black truffle and good olive oil."
+        },
+        {
+          "id": "arezzo_crostini_neri",
+          "text": "Crostini Neri",
+          "detail": "Toasted bread topped with a piquant chicken liver and caper pâté, a Tuscan antipasto staple."
+        },
+        {
+          "id": "arezzo_biscotto",
+          "text": "Biscotto di Prato",
+          "detail": "Hard almond biscotti traditionally dipped in Vin Santo sweet wine at the end of a meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arezzo_tip1",
+          "text": "Reserve the San Francesco frescoes",
+          "detail": "Entry is timed and limited; online booking is essential to avoid being turned away."
+        },
+        {
+          "id": "arezzo_tip2",
+          "text": "Come for the antique fair",
+          "detail": "Arriving on the first Sunday of the month transforms the whole city centre into one big market."
+        },
+        {
+          "id": "arezzo_tip3",
+          "text": "Arezzo is not just a day trip",
+          "detail": "Many visitors rush through; staying overnight rewards you with a quieter, authentic atmosphere."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Trattoria Mario",
+      "address": "Via Rosina 2, Florence",
+      "neighbourhood": "San Lorenzo, Florence",
+      "cuisine": "Traditional Tuscan",
+      "priceRange": "€",
+      "description": "A legendary no-frills Florentine trattoria open since 1953, famous for shared tables and honest home cooking.",
+      "mustOrder": "Ribollita",
+      "lat": 43.7751,
+      "lng": 11.2532
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Buca Mario",
+      "address": "Piazza Ottaviani 16r, Florence",
+      "neighbourhood": "Santa Maria Novella, Florence",
+      "cuisine": "Classic Florentine",
+      "priceRange": "€€€",
+      "description": "Florence's oldest restaurant, open since 1886, serving impeccable Florentine classics in an elegant vaulted cellar.",
+      "mustOrder": "Bistecca alla Fiorentina",
+      "lat": 43.7714,
+      "lng": 11.2481
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Osteria di Passignano",
+      "address": "Via Passignano 33, Tavarnelle Val di Pesa",
+      "neighbourhood": "Chianti, Tavarnelle Val di Pesa",
+      "cuisine": "Refined Tuscan",
+      "priceRange": "€€€€",
+      "description": "Set within a historic 11th-century abbey in the Chianti vineyards, offering exquisite seasonal Tuscan cuisine paired with Antinori wines.",
+      "mustOrder": "Pici al ragù di chianina",
+      "lat": 43.5712,
+      "lng": 11.1423
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Ristorante Buca di Sant'Antonio",
+      "address": "Via della Cervia 3, Lucca",
+      "neighbourhood": "Historic Centre, Lucca",
+      "cuisine": "Traditional Lucchese",
+      "priceRange": "€€€",
+      "description": "Lucca's most celebrated restaurant, operating since 1782, serving authentic local dishes in charming rustic rooms hung with old instruments.",
+      "mustOrder": "Garmugia lucchese",
+      "lat": 43.8438,
+      "lng": 10.5044
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Osteria Le Logge",
+      "address": "Via del Porrione 33, Siena",
+      "neighbourhood": "Historic Centre, Siena",
+      "cuisine": "Traditional Sienese",
+      "priceRange": "€€€",
+      "description": "A beautifully preserved former pharmacy turned osteria, considered one of Siena's finest, serving deeply traditional Sienese recipes.",
+      "mustOrder": "Pappardelle al cinghiale",
+      "lat": 43.3188,
+      "lng": 11.3314
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Trattoria da Romano",
+      "address": "Via Mazzini 120, Viareggio",
+      "neighbourhood": "Viareggio, Versilia Coast",
+      "cuisine": "Seafood and Coastal Tuscan",
+      "priceRange": "€€€",
+      "description": "An institution on the Versilian coast since 1927, renowned for outstanding fresh seafood and classic cacciucco Livornese.",
+      "mustOrder": "Cacciucco alla Livornese",
+      "lat": 43.8674,
+      "lng": 10.2541
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "La Bottega del 30",
+      "address": "Via Santa Caterina 2, Villa a Sesta, Castelnuovo Berardenga",
+      "neighbourhood": "Chianti Senese",
+      "cuisine": "Creative Tuscan",
+      "priceRange": "€€€€",
+      "description": "A small, intimate gem in a Chianti hilltop village, run by the same family for decades with a creative take on Tuscan tradition.",
+      "mustOrder": "Tagliolini al tartufo nero",
+      "lat": 43.3401,
+      "lng": 11.4112
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Osteria dell'Orso",
+      "address": "Via dell'Orso 11, Florence",
+      "neighbourhood": "Piazza della Repubblica, Florence",
+      "cuisine": "Modern Florentine",
+      "priceRange": "€€€€",
+      "description": "Housed in a 14th-century palazzo, this elegant restaurant blends historic Florence atmosphere with refined, modern Tuscan cuisine.",
+      "mustOrder": "Piccione arrosto con fichi",
+      "lat": 43.7719,
+      "lng": 11.2545
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Ristorante Zaira",
+      "address": "Via Aroldo 12, Chiusi",
+      "neighbourhood": "Chiusi, Val di Chiana",
+      "cuisine": "Traditional Valdichiana",
+      "priceRange": "€€",
+      "description": "A beloved family-run trattoria in the Etruscan town of Chiusi, celebrated for hearty Val di Chiana cooking and handmade pasta since 1958.",
+      "mustOrder": "Pici cacio e pepe",
+      "lat": 43.0166,
+      "lng": 11.9485
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Filippe",
+      "address": "Piazza Cavour 38, Livorno",
+      "neighbourhood": "Historic Centre, Livorno",
+      "cuisine": "Livornese Seafood",
+      "priceRange": "€€",
+      "description": "A legendary Livorno institution beloved by locals for generations, serving the definitive cacciucco and authentic port-city seafood dishes.",
+      "mustOrder": "Cacciucco alla Livornese",
+      "lat": 43.5481,
+      "lng": 10.3109
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Ristorante Arnolfo",
+      "address": "Via XX Settembre 50, Colle di Val d'Elsa",
+      "neighbourhood": "Colle di Val d'Elsa, Siena province",
+      "cuisine": "Creative Tuscan haute cuisine",
+      "priceRange": "€€€€",
+      "description": "Two Michelin-starred restaurant run by the Trovato brothers since 1982, showcasing meticulous creative cuisine rooted in Tuscan ingredients.",
+      "mustOrder": "Astice con guanciale e lenticchie",
+      "lat": 43.4222,
+      "lng": 11.1218
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Trattoria Sostanza",
+      "address": "Via del Porcellana 25r, Florence",
+      "neighbourhood": "Oltrarno, Florence",
+      "cuisine": "Traditional Florentine",
+      "priceRange": "€€",
+      "description": "Open since 1869 and known as 'Il Troia' by locals, this no-nonsense trattoria is famous for butter-drenched Florentine classics.",
+      "mustOrder": "Petto di pollo al burro",
+      "lat": 43.7712,
+      "lng": 11.2467
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Osteria di Montegonzi",
+      "address": "Loc. Montegonzi 12, Cavriglia",
+      "neighbourhood": "Valdarno, Arezzo province",
+      "cuisine": "Rural Tuscan",
+      "priceRange": "€€",
+      "description": "A rustic farmhouse osteria in the Valdarno hills, cherished for its genuine slow-food approach and wood-fired cooking with local produce.",
+      "mustOrder": "Arista di maiale al forno",
+      "lat": 43.5303,
+      "lng": 11.4671
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "La Solita Zuppa",
+      "address": "Via Porsenna 21, Chianciano Terme",
+      "neighbourhood": "Chianciano Terme, Val di Chiana",
+      "cuisine": "Traditional Tuscan soups and grains",
+      "priceRange": "€",
+      "description": "A charming, unpretentious osteria devoted entirely to the ancient Tuscan tradition of zuppe, minestroni and bean dishes.",
+      "mustOrder": "Acquacotta maremmana",
+      "lat": 43.0574,
+      "lng": 11.8272
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Ristorante Latini",
+      "address": "Via dei Palchetti 6r, Florence",
+      "neighbourhood": "Santa Maria Novella, Florence",
+      "cuisine": "Robust Traditional Tuscan",
+      "priceRange": "€€",
+      "description": "A raucous, communal Florentine institution open since 1950, where enormous shared platters of Tuscan classics arrive at long wooden tables.",
+      "mustOrder": "Ribollita e bistecca mista",
+      "lat": 43.7718,
+      "lng": 11.2489
+    }
+  ]
+}

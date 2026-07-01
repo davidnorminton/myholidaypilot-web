@@ -1,0 +1,46 @@
+import { OAuth2Client } from 'google-auth-library'
+import { getDb, schema, eq } from './db.js'
+import { fail } from './util.js'
+
+const clientId = process.env.GOOGLE_CLIENT_ID || process.env.VITE_GOOGLE_CLIENT_ID || ''
+const oauth = clientId ? new OAuth2Client(clientId) : null
+const adminEmails = (process.env.ADMIN_EMAILS || process.env.VITE_ADMIN_EMAILS || '')
+  .split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
+const isProd = process.env.NODE_ENV === 'production' ||
+  (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'development')
+
+const isAdmin = (email) => adminEmails.length === 0 || adminEmails.includes((email || '').toLowerCase())
+
+async function profileFromReq(req) {
+  const auth = req.headers.authorization || ''
+  const token = auth.startsWith('Bearer ') ? auth.slice(7) : null
+  if (token && oauth) {
+    const ticket = await oauth.verifyIdToken({ idToken: token, audience: clientId })
+    const p = ticket.getPayload()
+    return { id: p.sub, email: (p.email || '').toLowerCase(), name: p.name || p.email, picture: p.picture || '' }
+  }
+  // Dev fallback — only when Google isn't configured AND not in production.
+  if (!oauth && !isProd) {
+    const email = (req.headers['x-dev-email'] || '').toString().toLowerCase()
+    const id = (req.headers['x-dev-id'] || email).toString()
+    if (id) return { id, email, name: (req.headers['x-dev-name'] || 'Local user').toString(), picture: '', dev: true }
+  }
+  return null
+}
+
+// Verifies identity, upserts the user row, returns { id, email, name, picture, role }.
+export async function requireUser(req) {
+  const p = await profileFromReq(req)
+  if (!p) throw fail(401, 'Not signed in')
+  // Local dev sign-in is always admin (it only works locally, when Google is
+  // unconfigured and not in production). Real Google users honour ADMIN_EMAILS.
+  const role = (p.dev || isAdmin(p.email)) ? 'admin' : 'user'
+  const db = getDb()
+  await db.insert(schema.users)
+    .values({ id: p.id, email: p.email, name: p.name, picture: p.picture, role })
+    .onConflictDoUpdate({ target: schema.users.id, set: { email: p.email, name: p.name, picture: p.picture, role } })
+  return { ...p, role }
+}
+
+export async function optionalUser(req) { try { return await requireUser(req) } catch { return null } }
+export function requireAdmin(user) { if (!user || user.role !== 'admin') throw fail(403, 'Admin only') }

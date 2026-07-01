@@ -1,0 +1,114 @@
+{
+  "booking": {
+    "id": "booking",
+    "name": "Booking.com",
+    "category": "Hotels",
+    "_comment": "WHERE TO REGISTER: Join the Booking.com Affiliate Partner Programme at https://www.booking.com/affiliate-program/v2/index.html. After approval, your dashboard provides an Affiliate ID (aid) and lets you create tracking 'label' values. Put those in 'params' below.",
+    "registerUrl": "https://www.booking.com/affiliate-program/v2/index.html",
+    "urlTemplate": "https://www.booking.com/search.html?ss={location}&lang=en-gb&aid={aid}&label={label}",
+    "_dynamicParams": [
+      "location"
+    ],
+    "params": {
+      "aid": "1234567",
+      "label": "italytravel-app-hotels"
+    }
+  },
+  "getyourguide": {
+    "id": "getyourguide",
+    "name": "GetYourGuide",
+    "category": "Experiences",
+    "_comment": "WHERE TO REGISTER: Apply to the GetYourGuide Partner Programme at https://partner.getyourguide.com/. Once approved you'll receive a partner_id (sometimes shown as CMP/partner ID). Put it in 'params' below.",
+    "registerUrl": "https://partner.getyourguide.com/",
+    "urlTemplate": "https://www.getyourguide.com/s/?q={query}&partner_id={partner_id}",
+    "_dynamicParams": [
+      "query"
+    ],
+    "params": {
+      "partner_id": "ABCDE12"
+    }
+  },
+  "viator": {
+    "id": "viator",
+    "name": "Viator",
+    "category": "Experiences",
+    "_comment": "WHERE TO REGISTER: Join the Viator Affiliate Programme (via the Viator Partner Hub / Partnerize) at https://www.viator.com/partner/affiliate. You'll get a partner id (pid). mcid and medium are standard Viator attribution values. Put them in 'params' below.",
+    "registerUrl": "https://www.viator.com/partner/affiliate",
+    "urlTemplate": "https://www.viator.com/search/{query}?pid={pid}&mcid={mcid}&medium={medium}",
+    "_dynamicParams": [
+      "query"
+    ],
+    "params": {
+      "pid": "P00012345",
+      "mcid": "42383",
+      "medium": "api"
+    }
+  },
+  "civitatis": {
+    "id": "civitatis",
+    "name": "Civitatis",
+    "category": "Experiences",
+    "_comment": "WHERE TO REGISTER: Apply to the Civitatis Affiliate Programme at https://www.civitatis.com/en/affiliates/. After approval you'll get an affiliate id (aid). Put it in 'params' below.",
+    "registerUrl": "https://www.civitatis.com/en/affiliates/",
+    "urlTemplate": "https://www.civitatis.com/en/search?q={query}&aid={aid}",
+    "_dynamicParams": [
+      "query"
+    ],
+    "params": {
+      "aid": "98765"
+    }
+  },
+  "trainline": {
+    "id": "trainline",
+    "name": "Trainline",
+    "category": "Rail",
+    "_comment": "WHERE TO REGISTER: Join the Trainline Partner / Affiliate Programme at https://www.thetrainline.com/partners. After approval you'll get an affiliate id (aid). Put it in 'params' below.",
+    "registerUrl": "https://www.thetrainline.com/partners",
+    "urlTemplate": "https://www.thetrainline.com/trains/italy?aid={aid}&destination={destination}",
+    "_dynamicParams": [
+      "destination"
+    ],
+    "params": {
+      "aid": "tl-44556"
+    }
+  },
+  "skyscanner": {
+    "id": "skyscanner",
+    "name": "Skyscanner",
+    "category": "Flights",
+    "_comment": "WHERE TO REGISTER: Join Skyscanner Partners at https://www.partners.skyscanner.net/. After approval you'll get an affiliateId. adults is a standard search parameter. Put them in 'params' below.",
+    "registerUrl": "https://www.partners.skyscanner.net/",
+    "urlTemplate": "https://www.skyscanner.net/transport/flights/anywhere/{iata}/?adults={adults}&affiliateId={affiliateId}",
+    "_dynamicParams": [
+      "iata"
+    ],
+    "params": {
+      "adults": "1",
+      "affiliateId": "sky-998877"
+    }
+  },
+  "worldnomads": {
+    "id": "worldnomads",
+    "name": "World Nomads",
+    "category": "Insurance",
+    "_comment": "WHERE TO REGISTER: Join the World Nomads Affiliate Programme at https://www.worldnomads.com/travel-insurance/affiliates (run via their partner network). You'll receive an affiliate code. Put it in 'params' below.",
+    "registerUrl": "https://www.worldnomads.com/travel-insurance/affiliates",
+    "urlTemplate": "https://www.worldnomads.com/travel-insurance?affiliate={affiliate}",
+    "_dynamicParams": [],
+    "params": {
+      "affiliate": "italytravel-aff"
+    }
+  },
+  "airalo": {
+    "id": "airalo",
+    "name": "Airalo",
+    "category": "eSIM",
+    "_comment": "WHERE TO REGISTER: Join the Airalo Partners / affiliate programme at https://www.airalo.com/partners (run via Partnerize). You'll receive an affiliate code (aff). Put it in 'params' below.",
+    "registerUrl": "https://www.airalo.com/partners",
+    "urlTemplate": "https://www.airalo.com/italy-esim?aff={aff}",
+    "_dynamicParams": [],
+    "params": {
+      "aff": "airalo-aff-555"
+    }
+  }
+}

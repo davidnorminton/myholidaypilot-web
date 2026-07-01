@@ -1,0 +1,250 @@
+{
+  "title": "Food Guide",
+  "subtitle": "Eat like an Italian",
+  "sections": [
+    {
+      "title": "Coffee (Caffè)",
+      "icon": "coffee",
+      "items": [
+        {
+          "kind": "rule",
+          "label": "No cappuccino after 11am",
+          "text": "Italians only drink milky coffee in the morning. Ordering one after lunch marks you as a tourist — not offensive, just unusual."
+        },
+        {
+          "kind": "rule",
+          "label": "Espresso is just 'caffè'",
+          "text": "Ask for 'un caffè' and you get an espresso. It's drunk standing at the bar in 30 seconds."
+        },
+        {
+          "kind": "rule",
+          "label": "Ordering at the bar",
+          "text": "Pay at the cassa (till) first, get a receipt, then take it to the barista and say what you want."
+        },
+        {
+          "kind": "rule",
+          "label": "Caffè corretto",
+          "text": "Espresso with a shot of grappa or sambuca — an Italian morning tradition in some regions."
+        },
+        {
+          "kind": "rule",
+          "label": "Caffè shakerato",
+          "text": "Espresso shaken with ice and sugar — the Italian iced coffee. Order this in summer."
+        },
+        {
+          "kind": "rule",
+          "label": "Prices",
+          "text": "Espresso at the bar: €1–1.50. At a table (servizio): double. Tourist areas: triple."
+        }
+      ]
+    },
+    {
+      "title": "Reading a Menu",
+      "icon": "restaurant",
+      "items": [
+        {
+          "kind": "course",
+          "label": "Antipasto",
+          "text": "Starter — bruschetta, cured meats, olives, seafood"
+        },
+        {
+          "kind": "course",
+          "label": "Primo",
+          "text": "First course — pasta, risotto, soup. This is often the main event."
+        },
+        {
+          "kind": "course",
+          "label": "Secondo",
+          "text": "Main course — meat or fish. Usually served alone, no sides included."
+        },
+        {
+          "kind": "course",
+          "label": "Contorno",
+          "text": "Side dish — order separately with your secondo"
+        },
+        {
+          "kind": "course",
+          "label": "Dolce",
+          "text": "Dessert — tiramisù, panna cotta, gelato, cannoli"
+        },
+        {
+          "kind": "course",
+          "label": "Caffè",
+          "text": "Coffee — always after dessert, never with it"
+        },
+        {
+          "kind": "rule",
+          "label": "Coperto",
+          "text": "Cover charge (€1.50–4) per person — listed on the menu. Legal and normal."
+        },
+        {
+          "kind": "rule",
+          "label": "Servizio",
+          "text": "Service charge (10–15%) may be included. Check before adding a tip."
+        },
+        {
+          "kind": "rule",
+          "label": "Tipping",
+          "text": "Not obligatory. Leave €1–2 per person for good service — leave cash on the table."
+        }
+      ]
+    },
+    {
+      "title": "Must-Try Regional Dishes",
+      "icon": "star",
+      "items": [
+        {
+          "kind": "dish",
+          "emoji": "🍝",
+          "label": "Rome",
+          "text": "Cacio e pepe, carbonara, amatriciana — the Roman pasta holy trinity"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🍕",
+          "label": "Naples",
+          "text": "Pizza Margherita — invented here in 1889. Thin base, San Marzano tomatoes, buffalo mozzarella"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🥩",
+          "label": "Florence",
+          "text": "Bistecca alla Fiorentina — T-bone steak, grilled rare over charcoal, sold by weight"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🫘",
+          "label": "Tuscany",
+          "text": "Ribollita — hearty bread and bean soup, the original Tuscan peasant food"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🦞",
+          "label": "Sicily",
+          "text": "Arancini, pasta alla Norma, fresh cannoli — buy from a pasticceria, not a tourist shop"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🧀",
+          "label": "Emilia-Romagna",
+          "text": "Parmigiano-Reggiano, prosciutto di Parma, mortadella — the food capital of Italy"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🐟",
+          "label": "Venice",
+          "text": "Sarde in saor, bacalà mantecato, risotto al nero di seppia (squid ink risotto)"
+        },
+        {
+          "kind": "dish",
+          "emoji": "🌶️",
+          "label": "Calabria",
+          "text": "Nduja (spreadable spicy salami), fileja pasta, peperoncino everything"
+        }
+      ]
+    },
+    {
+      "title": "Where to Eat",
+      "icon": "dining",
+      "items": [
+        {
+          "kind": "place",
+          "label": "Bar",
+          "text": "For coffee and breakfast (cornetto + cappuccino). Open from 7am."
+        },
+        {
+          "kind": "place",
+          "label": "Trattoria",
+          "text": "Family-run, traditional, affordable. No frills, great food. Go here."
+        },
+        {
+          "kind": "place",
+          "label": "Osteria",
+          "text": "Even more rustic than a trattoria — wine-focused with simple food."
+        },
+        {
+          "kind": "place",
+          "label": "Ristorante",
+          "text": "Formal and pricier. Better for special occasions than everyday meals."
+        },
+        {
+          "kind": "place",
+          "label": "Pizzeria",
+          "text": "Order by the whole pizza — sharing is unusual. Eat at the table, not walking."
+        },
+        {
+          "kind": "place",
+          "label": "Mercato",
+          "text": "Food markets are the best places to eat cheaply and authentically. Ask locals where theirs is."
+        },
+        {
+          "kind": "place",
+          "label": "Avoid",
+          "text": "Restaurants with pictures on the menu, touts at the door, or 'tourist menu' signs — all red flags."
+        }
+      ]
+    },
+    {
+      "title": "Gelato",
+      "icon": "star",
+      "items": [
+        {
+          "kind": "rule",
+          "label": "Artisanal gelato",
+          "text": "Look for gelato displayed in metal tubs with lids (pozzetti) — this is the real thing. Avoid gelato piled high in mountainous peaks with bright unnatural colours."
+        },
+        {
+          "kind": "rule",
+          "label": "Gusti",
+          "text": "Choose 1–3 flavours (gusti). Classic: pistachio (pistacchio), hazelnut (nocciola), stracciatella."
+        },
+        {
+          "kind": "rule",
+          "label": "Cone or cup?",
+          "text": "Cono (cone) or coppetta (cup). Ask for panna (whipped cream) on top — often free."
+        },
+        {
+          "kind": "rule",
+          "label": "Price",
+          "text": "€2–4 for a small. Pay first at the till in many shops."
+        },
+        {
+          "kind": "rule",
+          "label": "Gelato vs ice cream",
+          "text": "Lower fat, more intense flavour, served slightly warmer. Nothing like supermarket ice cream."
+        }
+      ]
+    },
+    {
+      "title": "Wine & Drinks",
+      "icon": "bar",
+      "items": [
+        {
+          "kind": "rule",
+          "label": "Vino della casa",
+          "text": "House wine — order a carafe (una caraffa) or half-carafe. Cheap, honest, often very good."
+        },
+        {
+          "kind": "rule",
+          "label": "Aperitivo",
+          "text": "The pre-dinner drink ritual, 6–8pm. Order a Campari Spritz or Aperol Spritz. In Milan many bars serve free nibbles with your aperitivo."
+        },
+        {
+          "kind": "rule",
+          "label": "Digestivo",
+          "text": "After-dinner drink — Limoncello (south), Grappa (north), Amaro. Usually free at the end of a meal in traditional restaurants."
+        },
+        {
+          "kind": "rule",
+          "label": "Acqua frizzante",
+          "text": "Sparkling water — if you want still water, ask for acqua naturale or acqua liscia."
+        },
+        {
+          "kind": "rule",
+          "label": "Regional wines",
+          "text": "Barolo & Barbaresco (Piedmont), Chianti (Tuscany), Brunello di Montalcino, Amarone (Veneto), Nero d'Avola (Sicily)"
+        }
+      ]
+    }
+  ]
+}
