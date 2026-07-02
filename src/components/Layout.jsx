@@ -4,10 +4,14 @@ import TopBar from './TopBar.jsx'
 import Footer from './Footer.jsx'
 import { useAuth } from '../lib/auth.jsx'
 import { syncFavourites, clearFavourites } from '../lib/favourites.js'
+import { syncTrips } from '../lib/trips.js'
 
 export default function Layout() {
   const { user } = useAuth()
-  useEffect(() => { if (user) syncFavourites(); else clearFavourites() }, [user])
+  useEffect(() => {
+    if (user) { syncFavourites(); syncTrips(user) }
+    else { clearFavourites(); syncTrips(null) }
+  }, [user])
 
   return (
     <>

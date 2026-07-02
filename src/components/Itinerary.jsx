@@ -1,12 +1,13 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble } from 'lucide-react'
+import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble, Plane, TrainFront, ChevronRight } from 'lucide-react'
 import { paths } from '../lib/paths.js'
 import { typeLabel, mapsUrl } from '../lib/format.js'
 import { movePlaceTo, addPlace, setPlaceDate, stayForDay } from '../lib/trips.js'
 import MapView from './MapView.jsx'
 import { bestRoute, kmBetween as legKm } from '../lib/route.js'
 import { dayWeather } from '../lib/weather.js'
+import { nearestStation } from '../lib/transport.js'
 import { getPlacesIndex } from '../lib/data.js'
 import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
@@ -56,8 +57,13 @@ export default function Itinerary({ trip, onPlan }) {
   // picks (from any place) that belong to that day.
   const markersForDay = (date) => {
     const out = []
+    const arr = trip.travel?.arrive, dep = trip.travel?.depart
+    if (date && date === trip.startDate && arr?.lat && arr?.lng)
+      out.push({ lng: arr.lng, lat: arr.lat, label: `Arrive: ${arr.name}`, color: '#1565c0', arrive: true })
     const stay = stayForDay(trip, date)
     if (stay?.lat && stay?.lng) out.push({ lng: stay.lng, lat: stay.lat, label: `Stay: ${stay.name}`, color: '#3a3733', stay: true })
+    if (date && date === trip.endDate && dep?.lat && dep?.lng)
+      out.push({ lng: dep.lng, lat: dep.lat, label: `Depart: ${dep.name}`, color: '#1565c0', depart: true })
     for (const p of trip.places) {
       if ((p.date || '') === date && p.lat && p.lng)
         out.push({ lng: p.lng, lat: p.lat, label: p.name, color: '#a9762a' })
@@ -298,10 +304,13 @@ export default function Itinerary({ trip, onPlan }) {
         d.places.length === 0 ? (
           <div key={d.date} data-day={d.date} ref={d.date === todayIso ? todayRef : undefined}
             className={`iday iday--open ${d.date === todayIso && isLive ? 'iday--today' : ''} ${over && over.date === d.date ? 'is-over' : ''}`}>
-            <span className="iday__num">Day {d.n}{d.date === todayIso && isLive ? ' · today' : ''}</span>
-            <span className="iday__date">{fmtLong(d.date)}</span>
-            {stayForDay(trip, d.date) && <span className="iday__stay"><BedDouble size={12} /> {stayForDay(trip, d.date).name}</span>}
-            <DayWeather date={d.date} anchor={markersForDay(d.date)[0] || trip.places.find((p) => p.lat)} />
+            <header className="iday__head">
+              <span className="iday__num">Day {d.n}{d.date === todayIso && isLive ? ' · today' : ''}</span>
+              <span className="iday__date">{fmtLong(d.date)}</span>
+              {stayForDay(trip, d.date) && <span className="iday__stay"><BedDouble size={12} /> {stayForDay(trip, d.date).name}</span>}
+              <DayWeather date={d.date} anchor={markersForDay(d.date)[0] || trip.places.find((p) => p.lat)} />
+              <DayKm markers={markersForDay(d.date)} />
+            </header>
             <span className="iday__open">
               {drag ? 'Drop here' : visitingPicks(d.date).length ? 'No base here — but plans below' : 'Open — nothing planned yet'}
             </span>
@@ -318,6 +327,7 @@ export default function Itinerary({ trip, onPlan }) {
               {stayForDay(trip, d.date) && <span className="iday__stay"><BedDouble size={12} /> {stayForDay(trip, d.date).name}</span>}
               <DayWeather date={d.date} anchor={markersForDay(d.date)[0]} />
               <span className="iday__where">{whereLabel(d.places)}</span>
+              <DayKm markers={markersForDay(d.date)} />
               {hasMapbox && markersForDay(d.date).length >= 3 && (
                 <button className={`iday__route ${routedDays.has(d.date) ? 'is-on' : ''}`} onClick={() => toggleRoute(d.date)}>
                   <Route size={14} /> Best route
@@ -325,6 +335,7 @@ export default function Itinerary({ trip, onPlan }) {
               )}
             </header>
             <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} />
+            <DayTransit anchor={(stayForDay(trip, d.date) || d.places.find((p) => p.lat)) || null} />
             <VisitingPicks items={visitingPicks(d.date)} />
             <div className="iday__places">
               {d.places.map((p, i) => (
@@ -426,36 +437,88 @@ function rangeLabel(start, end) {
   return `${f(start)} ${new Date(start).getFullYear()}`
 }
 
-// Under the overview map: one line per day with its recommended order + total.
+// Under the overview map: collapsible per-day rows, each expanding into a
+// timeline of the day's visits with the distance between every stop.
 function TripRouteSummary({ days, markersForDay, dayFilter }) {
+  const [open, setOpen] = useState(() => new Set())
+  const toggle = (n) => setOpen((prev) => { const x = new Set(prev); x.has(n) ? x.delete(n) : x.add(n); return x })
+
   const rows = []
   let total = 0
   for (const d of days) {
     if (dayFilter && d.date !== dayFilter) continue
     const ms = markersForDay(d.date)
     if (ms.length < 2) continue
-    const start = ms.findIndex((m) => m.color === '#a9762a')
-    const { order, km } = bestRoute(ms, start >= 0 ? start : 0)
-    total += km
-    rows.push({ n: d.n, seq: order.map((i) => ms[i]), km })
+    const { seq, km, loop } = dayRoute(ms)
+    const back = loop ? legKm(seq[seq.length - 1], seq[0]) : 0
+    total += km + back
+    rows.push({ n: d.n, date: d.date, seq, km: km + back, loop, back })
   }
   if (!rows.length) return null
+
   return (
-    <div className="routesum-all">
+    <div className="rs">
       {rows.map((r) => (
-        <p key={r.n} className="routesum routesum--compact">
-          <b>Day {r.n}:</b>{' '}
-          {r.seq.map((m, i) => (
-            <Fragment key={i}>
-              <span className="routesum__stop"><i className="routesum__dot" style={{ background: m.color }} />{m.label}</span>
-              {i < r.seq.length - 1 && <span className="routesum__km">›</span>}
-            </Fragment>
-          ))}
-          <em className="routesum__total"> · ≈ {fmtKm(r.km)} km</em>
-        </p>
+        <div key={r.n} className="rs__day">
+          <button className="rs__head" onClick={() => toggle(r.n)} aria-expanded={open.has(r.n)}>
+            <ChevronRight size={15} className={`rs__chev ${open.has(r.n) ? 'is-open' : ''}`} />
+            <span className="rs__title">Day {r.n}</span>
+            <span className="rs__date">{fmtShort(r.date)}</span>
+            <span className="rs__stops">{r.seq.length + (r.loop ? 1 : 0)} stops</span>
+            <span className="rs__km">≈ {fmtKm(r.km)} km</span>
+          </button>
+          {open.has(r.n) && (
+            <ol className="rs__timeline">
+              {r.seq.map((m, i) => (
+                <Fragment key={i}>
+                  <li className="rs__stop">
+                    <i className="rs__dot" style={{ background: m.color }} />
+                    <span className="rs__name">{m.label}</span>
+                  </li>
+                  {i < r.seq.length - 1 && <li className="rs__leg">{fmtKm(legKm(m, r.seq[i + 1]))} km</li>}
+                </Fragment>
+              ))}
+              {r.loop && (
+                <>
+                  <li className="rs__leg">{fmtKm(r.back)} km</li>
+                  <li className="rs__stop">
+                    <i className="rs__dot" style={{ background: '#3a3733' }} />
+                    <span className="rs__name">Back to your stay</span>
+                  </li>
+                </>
+              )}
+            </ol>
+          )}
+        </div>
       ))}
-      {rows.length > 1 && <p className="routesum__grand">Trip total ≈ {fmtKm(total)} km (straight-line, per-day routes)</p>}
+      {rows.length > 1 && <p className="rs__grand">Trip total ≈ {fmtKm(total)} km (straight-line, per-day routes)</p>}
     </div>
+  )
+}
+
+// The day's route total, shown in the day header.
+function DayKm({ markers }) {
+  if (markers.length < 2) return null
+  const { seq, km, loop } = dayRoute(markers)
+  const total = km + (loop && seq.length > 1 ? legKm(seq[seq.length - 1], seq[0]) : 0)
+  return <span className="iday__km">≈ {fmtKm(total)} km</span>
+}
+
+// Nearest train station to the day's base — one cached lookup per area.
+function DayTransit({ anchor }) {
+  const [st, setSt] = useState(null)
+  useEffect(() => {
+    let on = true
+    if (anchor?.lat && anchor?.lng) nearestStation(anchor.lat, anchor.lng).then((r) => { if (on) setSt(r) })
+    else setSt(null)
+    return () => { on = false }
+  }, [anchor?.lat, anchor?.lng])
+  if (!st) return null
+  return (
+    <p className="iday__transit">
+      <TrainFront size={13} /> Nearest station: <b>{st.name}</b> · {st.km < 10 ? st.km.toFixed(1) : Math.round(st.km)} km
+      <a href={mapsUrl(st.lat, st.lng)} target="_blank" rel="noreferrer">map</a>
+    </p>
   )
 }
 
@@ -546,18 +609,28 @@ function Hop({ from, to }) {
   )
 }
 
+// Shared per-day route: departure pinned last, start at arrival/stay/place,
+// everything else optimised; `loop` marks a plain stay day that returns home.
+function dayRoute(markers) {
+  const depart = markers.find((m) => m.depart)
+  const routable = depart ? markers.filter((m) => !m.depart) : markers
+  const arriveIdx = routable.findIndex((m) => m.arrive)
+  const stayIdx = routable.findIndex((m) => m.stay)
+  const placeIdx = routable.findIndex((m) => m.color === '#a9762a')
+  const start = arriveIdx >= 0 ? arriveIdx : stayIdx >= 0 ? stayIdx : placeIdx
+  let { order, km } = bestRoute(routable, start >= 0 ? start : 0)
+  let seq = order.map((i) => routable[i])
+  if (depart) { km += seq.length ? legKm(seq[seq.length - 1], depart) : 0; seq = [...seq, depart] }
+  const loop = stayIdx >= 0 && arriveIdx < 0 && !depart && seq.length > 1
+  return { seq, km, loop }
+}
+
 // Compact map of one day's places + picks. Renders nothing without markers.
 // With `routed`, stops are ordered by proximity (starting from the day's place),
 // pins numbered in visiting order, the path drawn, and the legs listed.
 function DayMap({ markers, routed = false }) {
   if (!markers.length) return null
-
-  const stayIdx = markers.findIndex((m) => m.stay)
-  const placeIdx = markers.findIndex((m) => m.color === '#a9762a')
-  const start = stayIdx >= 0 ? stayIdx : placeIdx                     // begin at the stay, else the day's place
-  const { order, km } = bestRoute(markers, start >= 0 ? start : 0)
-  const seq = order.map((i) => markers[i])
-  const loop = stayIdx >= 0 && seq.length > 1
+  const { seq, km, loop } = dayRoute(markers)
 
   if (!routed || markers.length < 3) {
     return (

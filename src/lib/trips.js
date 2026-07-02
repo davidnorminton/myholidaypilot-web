@@ -1,6 +1,9 @@
-// Trip planner store — persisted to localStorage for now (swap for an API/DB later).
-// Reactive via useSyncExternalStore so any component stays in sync.
+// Trip planner store. localStorage is always the offline cache; when the
+// person is signed in, trips also sync to their account through /api/trips
+// (a debounced diff pushes only what changed). Reactive via
+// useSyncExternalStore so any component stays in sync.
 import { useSyncExternalStore } from 'react'
+import { api } from './api.js'
 
 const KEY = 'mhp_trips_v1'
 
@@ -22,9 +25,84 @@ function persist() {
   try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) { /* ignore */ }
 }
 function set(next) {
+  // stamp changed trips so sign-in merges pick the right winner
+  if (next.trips && state.trips) {
+    const prev = new Map(state.trips.map((t) => [t.id, t]))
+    next = {
+      ...next,
+      trips: next.trips.map((t) => (prev.get(t.id) === t ? t : { ...t, updatedAt: Date.now() })),
+    }
+  }
   state = next
   persist()
+  schedulePush()
   listeners.forEach((l) => l())
+}
+
+// ── account sync ─────────────────────────────────────────────────────────────
+let signedIn = false
+let shadow = new Map()          // tripId -> JSON string last seen on the server
+let pushTimer = null
+
+const tripJson = (t) => JSON.stringify(t)
+
+function schedulePush() {
+  if (!signedIn) return
+  clearTimeout(pushTimer)
+  pushTimer = setTimeout(pushChanges, 800)
+}
+
+async function pushChanges() {
+  if (!signedIn) return
+  const current = new Map(state.trips.map((t) => [t.id, t]))
+  // upsert new/changed trips
+  for (const [id, t] of current) {
+    const j = tripJson(t)
+    if (shadow.get(id) === j) continue
+    try {
+      const ts = Date.now()
+      await api.trips.upsert({ id, name: t.name, data: t, updatedAt: ts })
+      shadow.set(id, j)
+    } catch (e) { console.warn('trip sync failed (will retry on next change)', e) }
+  }
+  // delete removed trips
+  for (const id of [...shadow.keys()]) {
+    if (current.has(id)) continue
+    try { await api.trips.remove(id); shadow.delete(id) }
+    catch (e) { console.warn('trip delete sync failed', e) }
+  }
+}
+
+// Called from Layout when auth changes. On sign-in: pull the account's trips,
+// merge with anything local (local trips not yet on the server are adopted
+// into the account), then keep pushing changes in the background.
+export async function syncTrips(user) {
+  if (!user) { signedIn = false; shadow = new Map(); return }
+  try {
+    const rows = await api.trips.list()
+    signedIn = true
+    const server = new Map(rows.map((r) => [r.id, r]))
+    const merged = new Map()
+
+    for (const r of rows) {
+      const local = state.trips.find((t) => t.id === r.id)
+      const localTs = local?.updatedAt || 0
+      const winner = local && localTs > (r.updatedAt || 0) ? local : { ...r.data, id: r.id }
+      merged.set(r.id, winner)
+      if (winner === local) { /* newer locally — will push via diff */ }
+      else shadow.set(r.id, tripJson(winner))
+    }
+    for (const t of state.trips) if (!merged.has(t.id)) merged.set(t.id, t)   // local-only → adopt
+
+    const trips = [...merged.values()]
+    const activeTripId = trips.some((t) => t.id === state.activeTripId)
+      ? state.activeTripId
+      : (trips[0]?.id || null)
+    set({ trips, activeTripId })
+  } catch (e) {
+    signedIn = false
+    console.warn('could not load account trips', e)
+  }
 }
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7)
 
@@ -250,6 +328,13 @@ export function movePlaceTo(tripId, regionId, placeId, targetDate, beforeRegionI
       return { ...t, places }
     }),
   })
+}
+
+// ── travel points (how you arrive & leave) ──────────────────────────────────
+// trip.travel = { arrive: { name, type, lat, lng } | null, depart: {...} | null }
+export function setTravelPoint(tripId, which, point) {
+  set({ ...state, trips: state.trips.map((t) =>
+    t.id === tripId ? { ...t, travel: { ...(t.travel || {}), [which]: point } } : t) })
 }
 
 // ── stays (accommodation) ────────────────────────────────────────────────────

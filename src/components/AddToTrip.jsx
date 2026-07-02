@@ -2,13 +2,16 @@ import { Link } from 'react-router-dom'
 import { Bookmark, BookmarkCheck } from 'lucide-react'
 import { useTrips, activeTrip, addPlace, removePlace, createTrip } from '../lib/trips.js'
 import { paths } from '../lib/paths.js'
+import { useAuth } from '../lib/auth.jsx'
 
 export default function AddToTrip({ place }) {
+  const { user } = useAuth()
   const snap = useTrips()
   const trip = activeTrip(snap)
   const inTrip = trip && trip.places.some((p) => p.regionId === place.regionId && p.placeId === place.placeId)
 
   const onClick = () => {
+    if (!user) { alert('Sign in (top right) to plan trips — they save to your account.'); return }
     if (!trip) {
       const id = createTrip('My trip')
       addPlace(id, place)

@@ -6,6 +6,7 @@ import { getImages } from '../lib/data.js'
 import { downloadTripPdf } from '../lib/tripPdf.js'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
+import PlannerGuide from '../components/PlannerGuide.jsx'
 
 const fmt = (d) => d ? new Date(d + 'T12:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : ''
 
@@ -40,10 +41,13 @@ export default function TripsScreen() {
         </div>
 
         {snap.trips.length === 0 ? (
-          <div className="saved-empty">
-            <CalendarRange size={30} />
-            <p>No trips yet. Start one, then add places as you browse — every place page has an “Add to trip” button.</p>
-          </div>
+          <>
+            <div className="saved-empty">
+              <CalendarRange size={30} />
+              <p>No trips yet. Start one, then add places as you browse — every place page has an “Add to trip” button.</p>
+            </div>
+            <PlannerGuide />
+          </>
         ) : (
           <div className="trips-grid">
             {snap.trips.map((t) => {
@@ -77,7 +81,7 @@ export default function TripsScreen() {
         )}
 
         <p className="admin-note" style={{ marginTop: 26 }}>
-          Trips are saved in this browser. Add places from any region or place page, or from the <Link to={paths.plan()} style={{ color: 'var(--gold)', fontWeight: 600 }}>planner</Link>.
+          Your trips are saved to your account and follow you across devices. Add places from any region or place page, or from the <Link to={paths.plan()} style={{ color: 'var(--gold)', fontWeight: 600 }}>planner</Link>.
         </p>
       </main>
     </div>

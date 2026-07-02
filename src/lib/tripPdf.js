@@ -98,6 +98,14 @@ export async function downloadTripPdf(trip) {
         pins = pins ? `${sp},${pins}` : sp
         all = [stay, ...all]
       }
+      const arr = g.key && g.key === t.startDate ? t.travel?.arrive : null
+      const dep = g.key && g.key === t.endDate ? t.travel?.depart : null
+      for (const pt of [arr, dep]) {
+        if (!pt?.lat || !pt?.lng) continue
+        const pp = `pin-s-${pt.type === 'airport' ? 'airport' : 'rail'}+1565c0(${pt.lng.toFixed(4)},${pt.lat.toFixed(4)})`
+        pins = pins ? `${pp},${pins}` : pp
+        all = [pt, ...all]
+      }
       return staticMap(pins, all, '700x260')
     }),
   ])
@@ -156,14 +164,18 @@ export async function downloadTripPdf(trip) {
     { // recommended route text for the day
       const { places: dp, ex } = dayMarkers(g.key || '')
       const rstay = stayFor(g.key || '')
+      const rarr = g.key && g.key === t.startDate && t.travel?.arrive?.lat ? t.travel.arrive : null
+      const rdep = g.key && g.key === t.endDate && t.travel?.depart?.lat ? t.travel.depart : null
       const stops = [
+        ...(rarr ? [{ lat: rarr.lat, lng: rarr.lng, label: `Arrive (${rarr.name})` }] : []),
         ...(rstay?.lat && rstay?.lng ? [{ lat: rstay.lat, lng: rstay.lng, label: `Stay (${rstay.name})` }] : []),
         ...dp.map((p) => ({ lat: p.lat, lng: p.lng, label: p.name })),
         ...ex.map((m) => ({ lat: m.lat, lng: m.lng, label: m.text || m.name }))]
-      if (stops.length >= 2) {
+      if (stops.length + (rdep ? 1 : 0) >= 2) {
         let { order, km } = bestRoute(stops, 0)
         let seq = order.map((i) => stops[i])
-        if (rstay?.lat && seq.length > 1) { km += kmBetween(seq[seq.length - 1], seq[0]); seq = [...seq, { ...seq[0], label: 'back to stay' }] }
+        if (rdep) { km += seq.length ? kmBetween(seq[seq.length - 1], rdep) : 0; seq = [...seq, { lat: rdep.lat, lng: rdep.lng, label: `Depart (${rdep.name})` }] }
+        else if (rstay?.lat && !rarr && seq.length > 1) { km += kmBetween(seq[seq.length - 1], seq[0]); seq = [...seq, { ...seq[0], label: 'back to stay' }] }
         const parts = seq.map((m, i) => i < seq.length - 1
           ? `${safeText(m.label)}  ${(() => { const k = kmBetween(m, seq[i + 1]); return (k < 10 ? k.toFixed(1) : Math.round(k)) })()} km >`
           : safeText(m.label))

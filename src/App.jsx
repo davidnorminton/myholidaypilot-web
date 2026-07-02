@@ -16,6 +16,16 @@ import AdminScreen from './screens/AdminScreen.jsx'
 import SavedScreen from './screens/SavedScreen.jsx'
 import TripsScreen from './screens/TripsScreen.jsx'
 import SharedTripScreen from './screens/SharedTripScreen.jsx'
+import PlanGate from './components/PlanGate.jsx'
+import { useAuth } from './lib/auth.jsx'
+
+function RequireAuth({ children }) {
+  // `user` restores synchronously from localStorage, so there's no loading
+  // state to wait for (`ready` tracks the Google SDK script, not auth).
+  const { user } = useAuth()
+  if (!user) return <div className="page wrap"><PlanGate /></div>
+  return children
+}
 import NotFoundScreen from './screens/NotFoundScreen.jsx'
 
 export default function App() {
@@ -35,9 +45,9 @@ export default function App() {
           <Route path="/italy/:regionId" element={<RegionDetailScreen />} />
           <Route path="/italy/:regionId/:placeId" element={<PlaceDetailScreen />} />
           <Route path="/saved" element={<SavedScreen />} />
-          <Route path="/trips" element={<TripsScreen />} />
+          <Route path="/trips" element={<RequireAuth><TripsScreen /></RequireAuth>} />
           <Route path="/trip/:code" element={<SharedTripScreen />} />
-          <Route path="/plan" element={<PlanScreen />} />
+          <Route path="/plan" element={<RequireAuth><PlanScreen /></RequireAuth>} />
           <Route path="/blog" element={<BlogScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />
           <Route path="/app" element={<AppScreen />} />

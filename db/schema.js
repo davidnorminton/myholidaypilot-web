@@ -30,34 +30,18 @@ export const favourites = sqliteTable('favourites', {
 
 // ── trips ───────────────────────────────────────────────────────────────────
 export const trips = sqliteTable('trips', {
-  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  // The client generates trip ids; the same id is used locally and on the
+  // server so sync is a simple upsert. The full trip (places, picks, stays,
+  // notes) is stored as one JSON document in `data` — the client shape is the
+  // source of truth and evolves without schema churn.
+  id: text('id').primaryKey(),
   userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
   name: text('name').notNull().default('My trip'),
-  startDate: text('start_date'), // 'YYYY-MM-DD'
-  endDate: text('end_date'),
+  data: text('data').notNull().default('{}'),
   createdAt: integer('created_at').notNull().$defaultFn(now),
   updatedAt: integer('updated_at').notNull().$defaultFn(now),
 }, (t) => ({
   byUser: index('trip_by_user').on(t.userId),
-}))
-
-// ── trip_places ─────────────────────────────────────────────────────────────
-// Normalised per-place rows. The sparse, per-place selections (chosen
-// attractions / restaurants) live as JSON to avoid two more join tables.
-export const tripPlaces = sqliteTable('trip_places', {
-  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
-  tripId: text('trip_id').notNull().references(() => trips.id, { onDelete: 'cascade' }),
-  regionId: text('region_id').notNull(),
-  placeId: text('place_id').notNull(),
-  date: text('date'),                                  // assigned day, null = unscheduled
-  done: integer('done', { mode: 'boolean' }).notNull().default(false),
-  note: text('note'),
-  sortOrder: integer('sort_order').notNull().default(0),
-  attractions: text('attractions', { mode: 'json' }).$type().default(sql`'[]'`),
-  restaurants: text('restaurants', { mode: 'json' }).$type().default(sql`'[]'`),
-}, (t) => ({
-  tripPlace: uniqueIndex('tp_trip_place').on(t.tripId, t.placeId),
-  byTrip: index('tp_by_trip').on(t.tripId),
 }))
 
 // ── comments ────────────────────────────────────────────────────────────────

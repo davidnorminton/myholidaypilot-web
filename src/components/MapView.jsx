@@ -14,9 +14,23 @@ const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 export default function MapView({ center, zoom = 11, markers = [], height = 320, route = null }) {
   const ref = useRef(null)
   const [failed, setFailed] = useState(false)
+  const [visible, setVisible] = useState(false)
+
+  // Only initialise Mapbox once the container is actually scrolled into view.
+  // Crawlers and bots that don't scroll never trigger a (billable) map load,
+  // and real users save loads on maps they never reach.
+  useEffect(() => {
+    if (!TOKEN || !ref.current || visible) return
+    if (typeof IntersectionObserver === 'undefined') { setVisible(true); return }
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) { setVisible(true); io.disconnect() }
+    }, { rootMargin: '200px' })
+    io.observe(ref.current)
+    return () => io.disconnect()
+  }, [visible])
 
   useEffect(() => {
-    if (!TOKEN || !ref.current) return
+    if (!TOKEN || !ref.current || !visible) return
     let map
     let cancelled = false
     ;(async () => {
@@ -68,7 +82,7 @@ export default function MapView({ center, zoom = 11, markers = [], height = 320,
     })()
     return () => { cancelled = true; if (map) map.remove() }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(center), JSON.stringify(markers.map((m) => [m.lng, m.lat])), JSON.stringify(route)])
+  }, [visible, JSON.stringify(center), JSON.stringify(markers.map((m) => [m.lng, m.lat])), JSON.stringify(route)])
 
   if (!TOKEN || failed) {
     const [lng, lat] = center

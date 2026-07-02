@@ -7,6 +7,7 @@ import { downloadTripPdf } from '../lib/tripPdf.js'
 import MapView from '../components/MapView.jsx'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
+import { useAuth } from '../lib/auth.jsx'
 
 const fmtLong = (d) => new Date(d + 'T12:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })
 const fmtShort = (d) => new Date(d + 'T12:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
@@ -16,6 +17,7 @@ export default function SharedTripScreen() {
   const { code } = useParams()
   const navigate = useNavigate()
   const trip = useMemo(() => decodeTrip(code), [code])
+  const { user } = useAuth()
   useSeo({ title: trip ? `${trip.name} (shared trip)` : 'Shared trip', path: '/plan' })
 
   if (!trip) {
@@ -50,7 +52,10 @@ export default function SharedTripScreen() {
     return out
   }
 
-  const save = () => { importTrip(trip); navigate(paths.plan()) }
+  const save = () => {
+    if (!user) { alert('Sign in (top right) to save this trip to your account.'); return }
+    importTrip(trip); navigate(paths.plan())
+  }
   const regions = new Set(trip.places.map((p) => p.regionName).filter(Boolean))
 
   return (

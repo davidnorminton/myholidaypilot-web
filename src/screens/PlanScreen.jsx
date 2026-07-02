@@ -12,6 +12,7 @@ import { downloadTripPdf } from '../lib/tripPdf.js'
 import { shareUrl } from '../lib/tripShare.js'
 import TripReadiness from '../components/TripReadiness.jsx'
 import StaysEditor from '../components/StaysEditor.jsx'
+import TravelEditor from '../components/TravelEditor.jsx'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { typeLabel } from '../lib/format.js'
@@ -170,20 +171,25 @@ export default function PlanScreen() {
             </div>
 
             {view === 'build' && (<>
-            <TripReadiness trip={trip} />
-            <p className="trip__summary">
-              <b>{trip.places.length}</b> {trip.places.length === 1 ? 'place' : 'places'}
-              {regionCount > 0 && <> across <b>{regionCount}</b> {regionCount === 1 ? 'region' : 'regions'}</>}
-              {doneCount > 0 && <> · {doneCount} locked in</>} — looking good.
-            </p>
-
-            <div className="trip__dates">
-              <CalendarRange size={15} />
-              <label>From <input type="date" value={trip.startDate || ''} onChange={(e) => setTripDates(trip.id, e.target.value, trip.endDate || '')} /></label>
-              <label>to <input type="date" value={trip.endDate || ''} onChange={(e) => setTripDates(trip.id, trip.startDate || '', e.target.value)} /></label>
+            <div className="trip-status">
+              <TripReadiness trip={trip} />
+              <p className="trip__summary">
+                <b>{trip.places.length}</b> {trip.places.length === 1 ? 'place' : 'places'}
+                {regionCount > 0 && <> across <b>{regionCount}</b> {regionCount === 1 ? 'region' : 'regions'}</>}
+                {doneCount > 0 && <> · {doneCount} locked in</>} — looking good.
+              </p>
+              <div className="trip__dates">
+                <span className="trip__dateslabel"><CalendarRange size={15} /> Trip dates</span>
+                <label>Arriving <input type="date" value={trip.startDate || ''} onChange={(e) => setTripDates(trip.id, e.target.value, trip.endDate || '')} /></label>
+                <span className="trip__datesarrow">→</span>
+                <label>Leaving <input type="date" value={trip.endDate || ''} onChange={(e) => setTripDates(trip.id, trip.startDate || '', e.target.value)} /></label>
+                <span className="trip__dateshint">Moving the arrival date shifts the whole trip with it.</span>
+              </div>
             </div>
 
+
             <StaysEditor trip={trip} />
+            <TravelEditor trip={trip} />
 
             {tip && <div className="trip-tip"><Lightbulb size={16} /> {tip}</div>}
 

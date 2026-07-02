@@ -757,10 +757,11 @@ a.aff-card:hover .aff-card__cta svg{transform:translate(2px,-2px)}
 .iday__where{font-size:13.5px; font-weight:600; color:var(--gold); margin-left:auto; text-align:right}
 .iday__places{display:grid; gap:10px}
 
-.iday--open{display:flex; align-items:center; gap:12px; padding:13px 18px; margin-bottom:10px; box-shadow:none;
-  border-style:dashed; background:transparent}
+.iday--open{display:flex; flex-direction:column; align-items:stretch; gap:10px; padding:16px 18px; margin-bottom:10px;
+  box-shadow:var(--shadow); border:1px solid var(--line); border-radius:var(--r); background:var(--surface)}
+.iday--open .iday__head{display:flex; align-items:center; gap:12px; flex-wrap:wrap; width:100%}
 .iday--open .iday__num{font-family:var(--sans); font-size:14px; font-weight:700; color:var(--ink-soft)}
-.iday__open{font-size:13px; color:var(--faint); margin-left:auto}
+.iday__open{font-size:13px; color:var(--faint)}
 .iday--unsched{border-color:color-mix(in srgb,var(--gold) 30%,var(--line)); background:color-mix(in srgb,var(--gold) 5%,var(--surface))}
 .iday--unsched .iday__num{font-family:var(--sans); font-size:16px; font-weight:700}
 
@@ -1718,10 +1719,12 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 .ip__nav:hover{filter:brightness(1.08)}
 .ip__visited{color:var(--ok); font-weight:600}
 
-.readiness{list-style:none; display:flex; flex-wrap:wrap; gap:8px 14px; margin:10px 0 2px; padding:0}
-.readiness li{display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600; color:var(--muted)}
-.readiness li.is-ok{color:var(--ok)}
-.readiness--done{display:flex; align-items:center; gap:7px; font-size:13.5px; font-weight:700; color:var(--ok); margin:10px 0 2px}
+.readiness{list-style:none; display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0}
+.readiness li{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:700; color:var(--ink-soft);
+  background:var(--surface); border:1px solid var(--line); border-radius:999px; padding:6px 13px}
+.readiness li.is-ok{color:var(--ok); border-color:color-mix(in srgb,var(--ok) 45%,var(--line)); background:color-mix(in srgb,var(--ok) 7%,var(--surface))}
+.readiness li:not(.is-ok){border-color:color-mix(in srgb,var(--gold) 55%,var(--line)); background:color-mix(in srgb,var(--gold) 9%,var(--surface))}
+.readiness--done{display:flex; align-items:center; gap:7px; font-size:13.5px; font-weight:700; color:var(--ok); margin:0}
 
 .tripcard__cover{height:110px; overflow:hidden; border-radius:calc(var(--r) - 2px) calc(var(--r) - 2px) 0 0}
 .tripcard__cover img{width:100%; height:100%; object-fit:cover}
@@ -1758,3 +1761,94 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 
 .iday__stay{display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:700; color:#fff;
   background:#3a3733; border-radius:999px; padding:3px 10px; max-width:22ch; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+
+/* trip planner sign-in gate */
+.plangate{max-width:440px; margin:70px auto 90px; text-align:center; display:flex; flex-direction:column; align-items:center; gap:10px}
+.plangate > svg{color:var(--gold)}
+.plangate__title{font-family:var(--serif); font-weight:400; font-size:30px; margin:2px 0 0}
+.plangate__sub{color:var(--muted); font-size:14.5px; line-height:1.6; margin:0}
+.plangate__perks{list-style:none; margin:8px 0 6px; padding:0; display:flex; flex-direction:column; gap:8px; text-align:left}
+.plangate__perks li{display:flex; align-items:center; gap:9px; font-size:13.5px; font-weight:600; color:var(--ink-soft)}
+.plangate__perks svg{color:var(--gold); flex:none}
+.plangate__cta{margin-top:8px}
+
+/* planner how-it-works guide */
+.pguide{margin:34px auto 6px; max-width:980px; width:100%}
+.pguide__title{font-family:var(--serif); font-weight:400; font-size:22px; text-align:center; margin:0 0 18px}
+.pguide__steps{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; counter-reset:none}
+.pguide__step{position:relative; text-align:left; background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:16px 16px 14px}
+.pguide__n{position:absolute; top:12px; right:14px; font-family:var(--mono); font-size:11px; color:var(--faint)}
+.pguide__ic{color:var(--gold)}
+.pguide__step h4{font-size:14.5px; font-weight:700; margin:10px 0 5px}
+.pguide__step p{font-size:13px; color:var(--muted); line-height:1.55; margin:0}
+
+/* planner feature grid (sign-in gate) */
+.pfeat{margin:36px auto 0; max-width:980px; width:100%}
+.pfeat__title{font-family:var(--serif); font-weight:400; font-size:22px; text-align:center; margin:0 0 18px}
+.pfeat__grid{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px}
+.pfeat__item{display:flex; gap:12px; align-items:flex-start; text-align:left; background:var(--surface);
+  border:1px solid var(--line); border-radius:var(--r); padding:14px 15px}
+.pfeat__ic{color:var(--gold); flex:none; margin-top:2px}
+.pfeat__item h4{font-size:14px; font-weight:700; margin:0 0 4px}
+.pfeat__item p{font-size:12.5px; color:var(--muted); line-height:1.55; margin:0}
+
+/* trip status toolbar: readiness + summary in one noticeable panel */
+.trip-status{margin:14px 0 4px; padding:14px 16px 12px; background:var(--surface-2);
+  border:1px solid color-mix(in srgb,var(--gold) 45%,var(--line)); border-radius:14px; box-shadow:var(--shadow)}
+.trip-status .trip__summary{margin:12px 0 0; padding-top:11px; border-top:1px solid var(--line)}
+
+/* dates row inside the trip status toolbar */
+.trip-status .trip__dates{margin:12px 0 0; padding-top:12px; border-top:1px solid var(--line)}
+.trip__dateslabel{display:inline-flex; align-items:center; gap:7px; font-family:var(--mono); font-size:11px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--gold); font-weight:700; margin-right:4px}
+.trip__datesarrow{color:var(--faint); font-size:15px}
+.trip__dates label{display:inline-flex; align-items:center; gap:7px; font-size:12.5px; font-weight:700; color:var(--muted)}
+.trip__dateshint{flex-basis:100%; font-size:11.5px; color:var(--faint); margin-top:2px}
+@media (min-width:900px){ .trip__dateshint{flex-basis:auto; margin-left:auto} }
+
+/* getting there & back */
+.travel{margin:14px 0 6px; padding:16px 18px; background:var(--surface); border:1px solid var(--line); border-radius:var(--r)}
+.travel__slots{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+.travel__slot{display:flex; flex-direction:column; gap:6px}
+.travel__label{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); font-weight:700}
+.travel__pt{display:inline-flex; align-items:center; gap:8px; font-weight:700; font-size:14px}
+.travel__pt svg{color:#1565c0}
+.travel__clear{color:var(--faint); display:grid; place-items:center; width:22px; height:22px; border-radius:6px}
+.travel__clear:hover{color:var(--danger); background:var(--surface-2)}
+.travel__add{align-self:flex-start; font-size:13px; font-weight:600; color:var(--muted); border:1px dashed var(--line); border-radius:999px; padding:6px 13px}
+.travel__add:hover{border-color:var(--gold); color:var(--ink)}
+.travel__hint{font-size:11.5px; color:var(--faint)}
+.travelform input{width:100%; padding:9px 11px; font-size:14px; border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--ink)}
+.travelform input:focus{outline:none; border-color:var(--gold)}
+.travelform__types{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px}
+.travelform__type{display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:700; color:var(--muted);
+  border:1px solid var(--line); border-radius:999px; padding:5px 11px}
+.travelform__type.is-on{background:var(--ink); border-color:var(--ink); color:#fff}
+
+/* nearest station line */
+.iday__transit{display:flex; align-items:center; gap:7px; flex-wrap:wrap; font-size:12.5px; color:var(--muted); margin:8px 2px 4px}
+.iday__transit svg{color:#1565c0}
+.iday__transit b{color:var(--ink-soft)}
+.iday__transit a{color:var(--gold); font-weight:600}
+
+/* per-day route timeline (under the overview map) */
+.rs{margin:12px 0 6px}
+.rs__day{background:var(--surface); border:1px solid var(--line); border-radius:12px; margin-bottom:8px; overflow:hidden}
+.rs__head{width:100%; display:flex; align-items:center; gap:10px; padding:11px 14px; font-size:13.5px; font-weight:700; color:var(--ink); text-align:left}
+.rs__head:hover{background:var(--surface-2)}
+.rs__chev{color:var(--faint); transition:transform .18s ease; flex:none}
+.rs__chev.is-open{transform:rotate(90deg)}
+.rs__date{font-weight:600; color:var(--muted); font-size:12.5px}
+.rs__stops{font-size:12px; color:var(--faint); font-weight:600}
+.rs__km{margin-left:auto; font-family:var(--mono); font-size:11.5px; color:var(--muted)}
+.rs__timeline{list-style:none; margin:0; padding:2px 16px 14px 21px; border-top:1px solid var(--line-soft)}
+.rs__stop{display:flex; align-items:center; gap:11px; padding:5px 0}
+.rs__dot{width:10px; height:10px; border-radius:50%; flex:none; box-shadow:0 0 0 2.5px var(--surface), 0 0 0 3.5px var(--line)}
+.rs__name{font-size:13.5px; font-weight:600; color:var(--ink-soft)}
+.rs__leg{display:flex; align-items:center; font-family:var(--mono); font-size:10.5px; color:var(--muted);
+  border-left:2px dotted var(--faint); margin-left:4px; padding:5px 0 5px 16px; min-height:22px}
+.rs__grand{font-family:var(--mono); font-size:11.5px; color:var(--muted); margin:10px 2px 0}
+
+/* day total in headers */
+.iday__km{margin-left:auto; font-family:var(--mono); font-size:11.5px; color:var(--muted); white-space:nowrap}
+.iday__head .iday__km + .iday__route{margin-left:12px}

@@ -6,6 +6,7 @@ export function encodeTrip(trip) {
   const slim = {
     v: 1,
     name: trip.name, startDate: trip.startDate || '', endDate: trip.endDate || '',
+    travel: trip.travel || undefined,
     stays: (trip.stays || []).map((x) => ({ name: x.name, type: x.type, from: x.from, to: x.to, lat: x.lat, lng: x.lng, address: x.address })),
     places: trip.places.map((p) => ({
       regionId: p.regionId, regionName: p.regionName, placeId: p.placeId,
