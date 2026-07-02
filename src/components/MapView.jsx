@@ -11,7 +11,7 @@ const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
  *
  * props: center=[lng,lat], zoom, markers=[{lng,lat,label,color,onClick}], height
  */
-export default function MapView({ center, zoom = 11, markers = [], height = 320 }) {
+export default function MapView({ center, zoom = 11, markers = [], height = 320, route = null }) {
   const ref = useRef(null)
   const [failed, setFailed] = useState(false)
 
@@ -52,13 +52,23 @@ export default function MapView({ center, zoom = 11, markers = [], height = 320 
         if (markers.length > 1) {
           map.fitBounds(bounds, { padding: 56, maxZoom: 13, duration: 0 })
         }
+        if (route && route.length > 1) {
+          map.on('load', () => {
+            if (cancelled || !map.getStyle()) return
+            map.addSource('day-route', { type: 'geojson', data: {
+              type: 'Feature', geometry: { type: 'LineString', coordinates: route } } })
+            map.addLayer({ id: 'day-route', type: 'line', source: 'day-route',
+              layout: { 'line-cap': 'round', 'line-join': 'round' },
+              paint: { 'line-color': '#a9762a', 'line-width': 2.5, 'line-dasharray': [1.4, 1.6], 'line-opacity': .85 } })
+          })
+        }
       } catch (e) {
         if (!cancelled) setFailed(true)
       }
     })()
     return () => { cancelled = true; if (map) map.remove() }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(center), JSON.stringify(markers.map((m) => [m.lng, m.lat]))])
+  }, [JSON.stringify(center), JSON.stringify(markers.map((m) => [m.lng, m.lat])), JSON.stringify(route)])
 
   if (!TOKEN || failed) {
     const [lng, lat] = center

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { LogOut, Shield, ChevronDown, Heart } from 'lucide-react'
+import { LogOut, Shield, ChevronDown, Heart, CalendarRange } from 'lucide-react'
 import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
 import { paths } from '../lib/paths.js'
 
@@ -53,6 +53,9 @@ export default function AuthButton() {
             <span className="auth__name">{user.name}</span>
             <span className="auth__email">{user.email}</span>
           </div>
+          <Link to={paths.trips()} className="auth__item" onClick={() => setOpen(false)}>
+            <CalendarRange size={15} /> My trips
+          </Link>
           <Link to={paths.saved()} className="auth__item" onClick={() => setOpen(false)}>
             <Heart size={15} /> Saved
           </Link>

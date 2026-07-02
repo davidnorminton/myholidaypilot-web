@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
 
       <div className="wrap footer__bar">
-        <span>© {year} myholidaypilot — a Solara project.</span>
+        <span>© {year} myholidaypilot. All rights reserved.</span>
         <span className="footer__disc">
           Some links are affiliate links; booking through them may earn us a commission at no extra cost to you.
         </span>

@@ -47,5 +47,3 @@ generate the sitemap. Uploaded images are saved to `public/images/` (commit them
 Set the env vars in the Vercel dashboard, point `DATABASE_URL`/`DATABASE_AUTH_TOKEN`
 at a Turso database, run `npm run db:migrate` against it once, and deploy. The
 `/api/*` routes become serverless functions automatically.
-
-_A Solara project._

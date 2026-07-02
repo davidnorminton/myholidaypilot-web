@@ -23,7 +23,7 @@ export default function AppScreen() {
       <section className="app-hero">
         <div className="wrap app-hero__inner">
           <div className="app-hero__copy">
-            <p className="eyebrow">Solara · Android</p>
+            <p className="eyebrow">Android app</p>
             <h1 className="app-hero__title">Italy, the whole country in your pocket.</h1>
             <p className="app-hero__sub">
               The offline-first travel guide behind myholidaypilot — every region, every town worth slowing

@@ -16,4 +16,5 @@ export const paths = {
   app: () => '/app',
   admin: () => '/admin',
   saved: () => '/saved',
+  trips: () => '/trips',
 }

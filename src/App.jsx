@@ -14,6 +14,8 @@ import BlogPostScreen from './screens/BlogPostScreen.jsx'
 import AppScreen from './screens/AppScreen.jsx'
 import AdminScreen from './screens/AdminScreen.jsx'
 import SavedScreen from './screens/SavedScreen.jsx'
+import TripsScreen from './screens/TripsScreen.jsx'
+import SharedTripScreen from './screens/SharedTripScreen.jsx'
 import NotFoundScreen from './screens/NotFoundScreen.jsx'
 
 export default function App() {
@@ -33,6 +35,8 @@ export default function App() {
           <Route path="/italy/:regionId" element={<RegionDetailScreen />} />
           <Route path="/italy/:regionId/:placeId" element={<PlaceDetailScreen />} />
           <Route path="/saved" element={<SavedScreen />} />
+          <Route path="/trips" element={<TripsScreen />} />
+          <Route path="/trip/:code" element={<SharedTripScreen />} />
           <Route path="/plan" element={<PlanScreen />} />
           <Route path="/blog" element={<BlogScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />

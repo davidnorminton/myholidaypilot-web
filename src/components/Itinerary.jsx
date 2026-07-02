@@ -1,10 +1,14 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical } from 'lucide-react'
+import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble } from 'lucide-react'
 import { paths } from '../lib/paths.js'
-import { typeLabel } from '../lib/format.js'
-import { movePlaceTo } from '../lib/trips.js'
+import { typeLabel, mapsUrl } from '../lib/format.js'
+import { movePlaceTo, addPlace, setPlaceDate, stayForDay } from '../lib/trips.js'
 import MapView from './MapView.jsx'
+import { bestRoute, kmBetween as legKm } from '../lib/route.js'
+import { dayWeather } from '../lib/weather.js'
+import { getPlacesIndex } from '../lib/data.js'
+import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
 const keyOf = (p) => `${p.regionId}/${p.placeId}`
 const parseKey = (k) => { const i = k.indexOf('/'); return { regionId: k.slice(0, i), placeId: k.slice(i + 1) } }
@@ -45,10 +49,97 @@ export default function Itinerary({ trip, onPlan }) {
 
   const unscheduled = useMemo(() => trip.places.filter((p) => !p.date), [trip])
 
-  const markers = useMemo(() => {
+  // Effective day of a pick: its own date, or (legacy items) its place's date.
+  const itemDay = (x, p) => (x.date === undefined ? (p.date || '') : (x.date || ''))
+
+  // Markers for one day ('' = unscheduled): places scheduled that day, plus any
+  // picks (from any place) that belong to that day.
+  const markersForDay = (date) => {
     const out = []
-    const src = dayFilter ? trip.places.filter((p) => p.date === dayFilter) : trip.places
-    for (const p of src) {
+    const stay = stayForDay(trip, date)
+    if (stay?.lat && stay?.lng) out.push({ lng: stay.lng, lat: stay.lat, label: `Stay: ${stay.name}`, color: '#3a3733', stay: true })
+    for (const p of trip.places) {
+      if ((p.date || '') === date && p.lat && p.lng)
+        out.push({ lng: p.lng, lat: p.lat, label: p.name, color: '#a9762a' })
+      for (const a of (p.attractions || [])) if (itemDay(a, p) === date && a.lat && a.lng)
+        out.push({ lng: a.lng, lat: a.lat, label: a.text, color: '#1f6f54' })
+      for (const r of (p.restaurants || [])) if (itemDay(r, p) === date && r.lat && r.lng)
+        out.push({ lng: r.lng, lat: r.lat, label: r.name, color: '#bb3a2c' })
+    }
+    return out
+  }
+
+  // Picks that belong to this day but whose place is scheduled on another day
+  // (or unscheduled) — shown in the day section so a moved pick is never invisible.
+  const visitingPicks = (date) => {
+    const out = []
+    for (const p of trip.places) {
+      if ((p.date || '') === date) continue
+      for (const a of (p.attractions || [])) if (itemDay(a, p) === date) out.push({ kind: 'do', text: a.text, from: p.name })
+      for (const r of (p.restaurants || [])) if (itemDay(r, p) === date) out.push({ kind: 'eat', text: r.name, from: p.name })
+    }
+    return out
+  }
+
+  const [routedDays, setRoutedDays] = useState(() => new Set())
+  const toggleRoute = (date) => setRoutedDays((prev) => {
+    const n = new Set(prev); n.has(date) ? n.delete(date) : n.add(date); return n
+  })
+
+  const hasMapbox = !!import.meta.env.VITE_MAPBOX_TOKEN
+
+  const todayIso = new Date().toISOString().slice(0, 10)
+  const isLive = trip.startDate && trip.endDate && todayIso >= trip.startDate && todayIso <= trip.endDate
+  const isOver = trip.endDate && todayIso > trip.endDate
+  const todayRef = useRef(null)
+  useEffect(() => {
+    if (isLive && todayRef.current) {
+      const t = setTimeout(() => todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 350)
+      return () => clearTimeout(t)
+    }
+  }, [isLive])
+
+  // places index for empty-day suggestions
+  const [pindex, setPindex] = useState(null)
+  useEffect(() => { getPlacesIndex().then(setPindex).catch(() => setPindex([])) }, [])
+  const inTrip = new Set(trip.places.map((p) => keyOf(p)))
+  const suggestionsFor = (date) => {
+    if (!pindex?.length) return []
+    // anchor: previous day's last place, else any place in the trip
+    const di = days.findIndex((x) => x.date === date)
+    const anchor = [...(days[di - 1]?.places || []), ...trip.places].find((p) => p.lat && p.lng)
+    if (!anchor) return []
+    return pindex
+      .filter((p) => p.regionId === anchor.regionId && !inTrip.has(`${p.regionId}/${p.placeId}`) && p.lat && p.lng)
+      .map((p) => ({ ...p, d: legKm(anchor, p) }))
+      .sort((a, b) => a.d - b.d)
+      .slice(0, 3)
+  }
+  const addSuggestion = (sug, date) => {
+    addPlace(trip.id, { regionId: sug.regionId, regionName: sug.regionName, placeId: sug.placeId,
+      name: sug.name, type: sug.type, lat: sug.lat, lng: sug.lng })
+    setPlaceDate(trip.id, sug.regionId, sug.placeId, date)
+  }
+
+  // recap numbers (uses the same per-day optimised routes)
+  const recap = useMemo(() => {
+    if (!isOver) return null
+    let km = 0
+    for (const d of days) {
+      const ms = markersForDay(d.date)
+      if (ms.length < 2) continue
+      const start = ms.findIndex((m) => m.color === '#a9762a')
+      km += bestRoute(ms, start >= 0 ? start : 0).km
+    }
+    const regions = new Set(trip.places.map((p) => p.regionName).filter(Boolean))
+    return { places: trip.places.length, regions: regions.size, days: days.length, km: Math.round(km) }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOver, trip])
+
+  const markers = useMemo(() => {
+    if (dayFilter) return markersForDay(dayFilter)
+    const out = []
+    for (const p of trip.places) {
       if (p.lat && p.lng) out.push({ lng: p.lng, lat: p.lat, label: p.name, color: '#a9762a' })
       for (const a of (p.attractions || [])) if (a.lat && a.lng) out.push({ lng: a.lng, lat: a.lat, label: a.text, color: '#1f6f54' })
       for (const r of (p.restaurants || [])) if (r.lat && r.lng) out.push({ lng: r.lng, lat: r.lat, label: r.name, color: '#bb3a2c' })
@@ -76,8 +167,9 @@ export default function Itinerary({ trip, onPlan }) {
       const rect = card.getBoundingClientRect()
       const after = y > rect.top + rect.height / 2
       if (after) {
-        const sib = card.nextElementSibling
-        if (sib && sib.hasAttribute('data-key')) return { date, beforeKey: parseKey(sib.getAttribute('data-key')) }
+        let sib = card.nextElementSibling
+        while (sib && !sib.hasAttribute('data-key')) sib = sib.nextElementSibling
+        if (sib) return { date, beforeKey: parseKey(sib.getAttribute('data-key')) }
         return { date, beforeKey: null }
       }
       return { date, beforeKey: parseKey(card.getAttribute('data-key')) }
@@ -154,14 +246,22 @@ export default function Itinerary({ trip, onPlan }) {
 
   return (
     <div className="itin">
-      <div className="itin__top">
-        <h2 className="itin__name">{trip.name}</h2>
-        <p className="itin__meta">
-          <CalendarRange size={15} /> {rangeLabel(trip.startDate, trip.endDate)}
-          {totalDays > 0 && ` · ${totalDays} ${totalDays === 1 ? 'day' : 'days'}`}
-          {` · ${trip.places.length} ${trip.places.length === 1 ? 'place' : 'places'}`}
-        </p>
-      </div>
+
+      {isLive && days.some((d) => d.date === todayIso) && (
+        <button className="itin-today" onClick={() => todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+          <Navigation size={15} /> You're on this trip — jump to today
+        </button>
+      )}
+
+      {recap && (
+        <div className="itin-recap">
+          <PartyPopper size={18} />
+          <p>
+            <b>Trip complete.</b> {recap.places} place{recap.places === 1 ? '' : 's'} across {recap.regions} region{recap.regions === 1 ? '' : 's'},
+            {' '}{recap.days} day{recap.days === 1 ? '' : 's'}{recap.km > 0 && <> and ≈ {recap.km} km on the ground</>}. Nicely done.
+          </p>
+        </div>
+      )}
 
       {glance.length > 0 && (
         <div className="glance">
@@ -188,6 +288,7 @@ export default function Itinerary({ trip, onPlan }) {
             </div>
           )}
           <MapView height={300} center={[markers[0].lng, markers[0].lat]} zoom={dayFilter ? 9 : 6} markers={markers} />
+          <TripRouteSummary days={days} markersForDay={markersForDay} dayFilter={dayFilter} />
         </>
       )}
 
@@ -195,23 +296,45 @@ export default function Itinerary({ trip, onPlan }) {
 
       {days.map((d) =>
         d.places.length === 0 ? (
-          <div key={d.date} data-day={d.date}
-            className={`iday iday--open ${over && over.date === d.date ? 'is-over' : ''}`}>
-            <span className="iday__num">Day {d.n}</span>
+          <div key={d.date} data-day={d.date} ref={d.date === todayIso ? todayRef : undefined}
+            className={`iday iday--open ${d.date === todayIso && isLive ? 'iday--today' : ''} ${over && over.date === d.date ? 'is-over' : ''}`}>
+            <span className="iday__num">Day {d.n}{d.date === todayIso && isLive ? ' · today' : ''}</span>
             <span className="iday__date">{fmtLong(d.date)}</span>
-            <span className="iday__open">{drag ? 'Drop here' : 'Open — nothing planned yet'}</span>
+            {stayForDay(trip, d.date) && <span className="iday__stay"><BedDouble size={12} /> {stayForDay(trip, d.date).name}</span>}
+            <DayWeather date={d.date} anchor={markersForDay(d.date)[0] || trip.places.find((p) => p.lat)} />
+            <span className="iday__open">
+              {drag ? 'Drop here' : visitingPicks(d.date).length ? 'No base here — but plans below' : 'Open — nothing planned yet'}
+            </span>
+            <VisitingPicks items={visitingPicks(d.date)} />
+            <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} />
+            <DaySuggestions items={suggestionsFor(d.date)} onAdd={(sug) => addSuggestion(sug, d.date)} />
           </div>
         ) : (
-          <section key={d.date} data-day={d.date}
-            className={`iday ${over && over.date === d.date ? 'is-over' : ''}`}>
+          <section key={d.date} data-day={d.date} ref={d.date === todayIso ? todayRef : undefined}
+            className={`iday ${d.date === todayIso && isLive ? 'iday--today' : ''} ${over && over.date === d.date ? 'is-over' : ''}`}>
             <header className="iday__head">
-              <span className="iday__num">Day {d.n}</span>
+              <span className="iday__num">Day {d.n}{d.date === todayIso && isLive ? ' · today' : ''}</span>
               <span className="iday__date">{fmtLong(d.date)}</span>
+              {stayForDay(trip, d.date) && <span className="iday__stay"><BedDouble size={12} /> {stayForDay(trip, d.date).name}</span>}
+              <DayWeather date={d.date} anchor={markersForDay(d.date)[0]} />
               <span className="iday__where">{whereLabel(d.places)}</span>
+              {hasMapbox && markersForDay(d.date).length >= 3 && (
+                <button className={`iday__route ${routedDays.has(d.date) ? 'is-on' : ''}`} onClick={() => toggleRoute(d.date)}>
+                  <Route size={14} /> Best route
+                </button>
+              )}
             </header>
+            <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} />
+            <VisitingPicks items={visitingPicks(d.date)} />
             <div className="iday__places">
-              {d.places.map((p) => <ItinPlace key={keyOf(p)} p={p} onPlan={onPlan} {...cardState(p, d.date)} />)}
+              {d.places.map((p, i) => (
+                <Fragment key={keyOf(p)}>
+                  {i > 0 && <Hop from={d.places[i - 1]} to={p} />}
+                  <ItinPlace p={p} onPlan={onPlan} live={isLive && d.date === todayIso} {...cardState(p, d.date)} />
+                </Fragment>
+              ))}
             </div>
+            <DayBooking places={d.places} />
           </section>
         )
       )}
@@ -243,7 +366,7 @@ export default function Itinerary({ trip, onPlan }) {
   )
 }
 
-function ItinPlace({ p, onPlan, dragging, dropBefore, onGrip }) {
+function ItinPlace({ p, onPlan, dragging, dropBefore, onGrip, live = false }) {
   const nothing = !(p.attractions?.length) && !(p.restaurants?.length)
   return (
     <article data-key={keyOf(p)} data-day={p.date || ''}
@@ -253,20 +376,29 @@ function ItinPlace({ p, onPlan, dragging, dropBefore, onGrip }) {
         {p.isCustom
           ? <span className="ip__name">{p.name}</span>
           : <Link to={paths.place(p.regionId, p.placeId)} className="ip__name" draggable={false}>{p.name}</Link>}
-        <span className="ip__type">{typeLabel(p.type)} · {p.regionName || 'Your own'}</span>
+        <span className="ip__type">{typeLabel(p.type)} · {p.regionName || 'Your own'}
+          {p.done && p.visitedAt && <span className="ip__visited"> · visited {new Date(p.visitedAt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}</span>}
+        </span>
+        {live && p.lat && p.lng && (
+          <a className="ip__nav" href={mapsUrl(p.lat, p.lng)} target="_blank" rel="noreferrer" draggable={false}>
+            <Navigation size={13} /> Navigate
+          </a>
+        )}
         <button className="ip__edit" onClick={() => onPlan(p)}><Pencil size={13} /> Edit</button>
       </div>
       {p.attractions?.length > 0 && (
         <div className="ip__group">
           <h4 className="ip__gh"><Compass size={14} /> Things to do</h4>
-          <ul className="ip__list">{p.attractions.map((a) => <li key={a.id}>{a.text}</li>)}</ul>
+          <ul className="ip__list">{p.attractions.map((a) => (
+            <li key={a.id + (a.date || '')}>{a.text}{itemDayTag(a, p)}</li>
+          ))}</ul>
         </div>
       )}
       {p.restaurants?.length > 0 && (
         <div className="ip__group">
           <h4 className="ip__gh"><UtensilsCrossed size={14} /> Where to eat</h4>
           <ul className="ip__list">{p.restaurants.map((r) => (
-            <li key={r.id}>{r.name}{r.cuisine ? <span className="ip__sub"> · {r.cuisine}</span> : ''}</li>
+            <li key={r.id + (r.date || '')}>{r.name}{r.cuisine ? <span className="ip__sub"> · {r.cuisine}</span> : ''}{itemDayTag(r, p)}</li>
           ))}</ul>
         </div>
       )}
@@ -292,4 +424,192 @@ function rangeLabel(start, end) {
   const f = (x) => new Date(x).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
   if (end && end !== start) return `${f(start)} – ${f(end)} ${new Date(end).getFullYear()}`
   return `${f(start)} ${new Date(start).getFullYear()}`
+}
+
+// Under the overview map: one line per day with its recommended order + total.
+function TripRouteSummary({ days, markersForDay, dayFilter }) {
+  const rows = []
+  let total = 0
+  for (const d of days) {
+    if (dayFilter && d.date !== dayFilter) continue
+    const ms = markersForDay(d.date)
+    if (ms.length < 2) continue
+    const start = ms.findIndex((m) => m.color === '#a9762a')
+    const { order, km } = bestRoute(ms, start >= 0 ? start : 0)
+    total += km
+    rows.push({ n: d.n, seq: order.map((i) => ms[i]), km })
+  }
+  if (!rows.length) return null
+  return (
+    <div className="routesum-all">
+      {rows.map((r) => (
+        <p key={r.n} className="routesum routesum--compact">
+          <b>Day {r.n}:</b>{' '}
+          {r.seq.map((m, i) => (
+            <Fragment key={i}>
+              <span className="routesum__stop"><i className="routesum__dot" style={{ background: m.color }} />{m.label}</span>
+              {i < r.seq.length - 1 && <span className="routesum__km">›</span>}
+            </Fragment>
+          ))}
+          <em className="routesum__total"> · ≈ {fmtKm(r.km)} km</em>
+        </p>
+      ))}
+      {rows.length > 1 && <p className="routesum__grand">Trip total ≈ {fmtKm(total)} km (straight-line, per-day routes)</p>}
+    </div>
+  )
+}
+
+// Forecast chip for a day header (renders nothing outside the forecast window).
+function DayWeather({ date, anchor }) {
+  const [w, setW] = useState(null)
+  useEffect(() => {
+    let on = true
+    if (anchor?.lat && anchor?.lng) dayWeather(anchor.lat, anchor.lng, date).then((r) => { if (on) setW(r) })
+    return () => { on = false }
+  }, [date, anchor?.lat, anchor?.lng])
+  if (!w) return null
+  return (
+    <span className="iday__wx" title={w.label}>
+      <span aria-hidden>{w.icon}</span> {w.max}°{w.min != null && <span className="iday__wxmin">/{w.min}°</span>}
+    </span>
+  )
+}
+
+// One-tap nearby ideas for an empty day.
+function DaySuggestions({ items, onAdd }) {
+  if (!items.length) return null
+  return (
+    <div className="iday__sugs">
+      <span className="iday__sugslabel"><Sparkles size={13} /> Nearby ideas:</span>
+      {items.map((sug) => (
+        <button key={`${sug.regionId}/${sug.placeId}`} className="iday__sug" onClick={() => onAdd(sug)}>
+          + {sug.name} <em>{sug.d < 10 ? sug.d.toFixed(1) : Math.round(sug.d)} km</em>
+        </button>
+      ))}
+    </div>
+  )
+}
+
+// Quiet, clearly-marked booking links for the day's area.
+function DayBooking({ places }) {
+  const cfg = useAffiliates()
+  const base = places.find((p) => p.regionName && !p.isCustom)
+  if (!cfg || !base) return null
+  const offers = regionOffers(cfg, { regionId: base.regionId, regionName: base.regionName, capital: base.name })
+  const stay = offers?.find((o) => o.id === 'booking')
+  const tours = offers?.find((o) => ['getyourguide', 'viator', 'civitatis'].includes(o.id))
+  if (!stay && !tours) return null
+  return (
+    <p className="iday__book">
+      {stay && <a href={stay.url} target="_blank" rel="noreferrer sponsored">Book a stay in {base.name} <ExternalLink size={11} /></a>}
+      {stay && tours && ' · '}
+      {tours && <a href={tours.url} target="_blank" rel="noreferrer sponsored">Tours in {base.name} <ExternalLink size={11} /></a>}
+      <span className="iday__bookad">ad</span>
+    </p>
+  )
+}
+
+// Picks visiting this day from places scheduled elsewhere.
+function VisitingPicks({ items }) {
+  if (!items.length) return null
+  return (
+    <ul className="iday__visiting">
+      {items.map((it, i) => (
+        <li key={i}>
+          <span className={`iday__vk iday__vk--${it.kind}`}>{it.kind === 'eat' ? 'Eat' : 'Do'}</span>
+          {it.text} <em>· from {it.from}</em>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+// Straight-line distance between two points, km.
+function kmBetween(a, b) {
+  const R = 6371, rad = (x) => (x * Math.PI) / 180
+  const dLat = rad(b.lat - a.lat), dLng = rad(b.lng - a.lng)
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLng / 2) ** 2
+  return 2 * R * Math.asin(Math.sqrt(h))
+}
+
+function Hop({ from, to }) {
+  if (!from?.lat || !from?.lng || !to?.lat || !to?.lng) return null
+  const km = kmBetween(from, to)
+  if (km < 0.3) return null
+  const mins = Math.round((km / 55) * 60)   // rough drive at 55 km/h
+  return (
+    <div className="ip-hop" aria-hidden>
+      <span className="ip-hop__line" />
+      <span className="ip-hop__label">≈ {km < 10 ? km.toFixed(1) : Math.round(km)} km{km > 2 ? ` · ~${mins} min drive` : ''}</span>
+      <span className="ip-hop__line" />
+    </div>
+  )
+}
+
+// Compact map of one day's places + picks. Renders nothing without markers.
+// With `routed`, stops are ordered by proximity (starting from the day's place),
+// pins numbered in visiting order, the path drawn, and the legs listed.
+function DayMap({ markers, routed = false }) {
+  if (!markers.length) return null
+
+  const stayIdx = markers.findIndex((m) => m.stay)
+  const placeIdx = markers.findIndex((m) => m.color === '#a9762a')
+  const start = stayIdx >= 0 ? stayIdx : placeIdx                     // begin at the stay, else the day's place
+  const { order, km } = bestRoute(markers, start >= 0 ? start : 0)
+  const seq = order.map((i) => markers[i])
+  const loop = stayIdx >= 0 && seq.length > 1
+
+  if (!routed || markers.length < 3) {
+    return (
+      <>
+        <div className="iday__map">
+          <MapView height={210} center={[markers[0].lng, markers[0].lat]} zoom={10} markers={markers} />
+        </div>
+        <RouteSummary seq={seq} km={km} loop={loop} />
+      </>
+    )
+  }
+
+  const numbered = seq.map((m, i) => ({ ...m, number: i + 1, label: `${i + 1}. ${m.label}` }))
+  const line = seq.map((m) => [m.lng, m.lat])
+  if (loop) line.push([seq[0].lng, seq[0].lat])
+  return (
+    <>
+      <div className="iday__map">
+        <MapView height={230} center={[seq[0].lng, seq[0].lat]} zoom={10} markers={numbered} route={line} />
+      </div>
+      <RouteSummary seq={seq} km={km} loop={loop} />
+    </>
+  )
+}
+
+// Prose route summary: "Recommended route: A › 1.2 km › B … · total ≈ N km"
+const fmtKm = (n) => (n < 10 ? n.toFixed(1) : String(Math.round(n)))
+function RouteSummary({ seq, km, loop = false }) {
+  if (seq.length < 2) return null
+  const back = loop ? legKm(seq[seq.length - 1], seq[0]) : 0
+  return (
+    <p className="routesum">
+      <b>Recommended route:</b>{' '}
+      {seq.map((m, i) => (
+        <Fragment key={i}>
+          <span className="routesum__stop"><i className="routesum__dot" style={{ background: m.color }} />{m.label}</span>
+          {i < seq.length - 1 && <span className="routesum__km">{fmtKm(legKm(m, seq[i + 1]))} km ›</span>}
+        </Fragment>
+      ))}
+      {loop && <span className="routesum__km">{fmtKm(back)} km ›</span>}
+      {loop && <span className="routesum__stop"><i className="routesum__dot" style={{ background: '#3a3733' }} />back to your stay</span>}
+      <em className="routesum__total"> · total ≈ {fmtKm(km + back)} km</em>
+    </p>
+  )
+}
+
+// Small tag when a pick belongs to a different day than the place's own day.
+function itemDayTag(item, place) {
+  const itemDay = item.date === undefined ? (place.date || '') : (item.date || '')
+  if (itemDay === (place.date || '')) return null
+  const label = itemDay
+    ? new Date(itemDay + 'T12:00').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric' })
+    : 'Anytime'
+  return <span className="ip__daytag">{label}</span>
 }

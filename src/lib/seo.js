@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 export const SITE = {
   name: 'myholidaypilot',
   url: (import.meta.env.VITE_SITE_URL || 'https://myholidaypilot.com').replace(/\/+$/, ''),
-  description: 'Handcrafted guides to Italy, region by region — where to go, what to eat, and the stories behind it.',
+  description: 'Handcrafted travel guides, region by region — where to go, what to do and eat, and the stories behind it.',
   ogImage: 'https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200',
 }
 
@@ -38,7 +38,7 @@ export function useSeo({ title, description, path = '/', image, type = 'website'
     const desc = description || SITE.description
     const url = canonicalUrl(path)
     const img = image || SITE.ogImage
-    document.title = title ? `${title} · ${SITE.name}` : `${SITE.name} — Italy, region by region`
+    document.title = title ? `${title} · ${SITE.name}` : `${SITE.name} — travel, region by region`
     upsertMeta('name', 'description', desc)
     upsertLink('canonical', url)
     upsertMeta('property', 'og:title', title || SITE.name)

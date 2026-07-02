@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AdSlot from '../components/AdSlot.jsx'
-import { ArrowRight, Compass, Utensils, BookOpen } from 'lucide-react'
+import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { COUNTRIES } from '../lib/countries.js'
@@ -41,19 +41,55 @@ export default function LandingScreen() {
 
       <section className="wrap band">
         <div className="feature">
-          <span className="feature__ic"><Compass size={20} /></span>
-          <h3>Region by region</h3>
-          <p>Twenty Italian regions, each with its own colour, character and kitchen.</p>
+          <span className="feature__label"><Compass size={15} /> Region by region</span>
+          <h3>Countries, taken one region at a time</h3>
+          <p>Every region has its own character and kitchen. We map each one properly — starting with Italy, growing from there.</p>
         </div>
         <div className="feature">
-          <span className="feature__ic"><Utensils size={20} /></span>
-          <h3>Where to eat</h3>
-          <p>Local restaurants with a must-order dish and directions, so you skip the guesswork.</p>
+          <span className="feature__label"><Utensils size={15} /> Do &amp; eat</span>
+          <h3>What each place is actually for</h3>
+          <p>Things to do in every town — walks, hiking trails, viewpoints, museums — plus local restaurants and the dish to order.</p>
         </div>
         <div className="feature">
-          <span className="feature__ic"><BookOpen size={20} /></span>
-          <h3>Stories, not listings</h3>
-          <p>History, dialect and customs for every place — the why, not just the where.</p>
+          <span className="feature__label"><BookOpen size={15} /> Stories, not listings</span>
+          <h3>The why, not just the where</h3>
+          <p>History, customs and culture for every place you'll stand in, so it means something when you get there.</p>
+        </div>
+      </section>
+
+      <section className="wrap planner-feat">
+        <div className="planner-feat__copy">
+          <p className="eyebrow">The trip planner</p>
+          <h2 className="planner-feat__title">From saved places to a day-by-day plan</h2>
+          <p className="planner-feat__sub">
+            Save the towns you like the look of, set your dates, and shape the trip into days —
+            with the attractions and restaurants you've chosen pinned to each stop, all on one map.
+            Free, in the browser, no app required.
+          </p>
+          <ul className="planner-feat__list">
+            <li><Check size={15} /> Save places as you browse</li>
+            <li><Check size={15} /> Build days and drag them into order</li>
+            <li><Check size={15} /> Pick attractions &amp; restaurants per stop</li>
+            <li><Check size={15} /> See the whole trip on a map</li>
+          </ul>
+          <Link to={paths.plan()} className="btn btn--primary">Start a trip <ArrowRight size={17} /></Link>
+        </div>
+
+        <div className="planner-feat__mock" aria-hidden="true">
+          <div className="pm">
+            <div className="pm__head">
+              <span className="pm__name">Tuscany week</span>
+              <span className="pm__dates">12 – 18 Sep</span>
+            </div>
+            <div className="pm__day">Day 1 · Florence</div>
+            <div className="pm__row pm__row--done"><span className="pm__n">1</span> Uffizi Gallery <Check size={13} className="pm__tick" /></div>
+            <div className="pm__row"><span className="pm__n">2</span> Ponte Vecchio at dusk</div>
+            <div className="pm__row pm__row--eat"><Utensils size={12} /> Trattoria Mario — bistecca</div>
+            <div className="pm__day">Day 2 · Siena</div>
+            <div className="pm__row"><span className="pm__n">3</span> Piazza del Campo</div>
+            <div className="pm__row"><span className="pm__n">4</span> Walk the old walls</div>
+            <div className="pm__map"><MapPin size={13} /> 6 places · 2 regions on the map</div>
+          </div>
         </div>
       </section>
 

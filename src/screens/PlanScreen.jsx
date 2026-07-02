@@ -1,13 +1,17 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Trash2, X, Check, MapPin, StickyNote, CalendarRange,
-  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft,
-} from 'lucide-react'
+  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil } from 'lucide-react'
 import {
   useTrips, activeTrip, createTrip, deleteTrip, renameTrip, setActiveTrip,
   removePlace, togglePlaceDone, updateNote, setTripDates, addPlace,
+  healTripCoords,
 } from '../lib/trips.js'
+import { downloadTripPdf } from '../lib/tripPdf.js'
+import { shareUrl } from '../lib/tripShare.js'
+import TripReadiness from '../components/TripReadiness.jsx'
+import StaysEditor from '../components/StaysEditor.jsx'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { typeLabel } from '../lib/format.js'
@@ -20,11 +24,17 @@ const SUGGESTIONS = ['Rome', 'Florence', 'Venice', 'Naples', 'Amalfi', 'Milan']
 const HIGHLIGHTS = ['Rome', 'Florence', 'Venice', 'Amalfi Coast', 'Cinque Terre', 'Pompeii']
 
 export default function PlanScreen() {
+  useEffect(() => { getPlacesIndex().then(healTripCoords).catch(() => {}) }, [])
   const snap = useTrips()
   const trip = activeTrip(snap)
   const [wizard, setWizard] = useState(null)
   const [planFor, setPlanFor] = useState(null)
   const [view, setView] = useState('build')
+  const [shared, setShared] = useState(false)
+  const share = async () => {
+    try { await navigator.clipboard.writeText(shareUrl(trip)); setShared(true); setTimeout(() => setShared(false), 2000) }
+    catch { prompt('Copy this trip link:', shareUrl(trip)) }
+  }
 
   const ensureTrip = () => (trip ? trip.id : createTrip('My trip'))
   const openWizard = ({ query = '', mode = 'ideas' } = {}) => setWizard({ query, mode, tripId: ensureTrip() })
@@ -82,6 +92,7 @@ export default function PlanScreen() {
       <main className="wrap">
         {snap.trips.length > 0 && (
           <div className="trip-bar">
+            <Link to={paths.trips()} className="trip-pill trip-pill--all">All trips</Link>
             {snap.trips.map((t) => (
               <button key={t.id} className={`trip-pill ${t.id === snap.activeTripId ? 'trip-pill--on' : ''}`}
                 onClick={() => { setActiveTrip(t.id); setView('build') }}>
@@ -134,15 +145,24 @@ export default function PlanScreen() {
         {trip && trip.places.length > 0 && (
           <section className="trip">
             <div className="trip__head">
-              <input className="trip__name" value={trip.name}
-                onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
+              <span className="trip__namewrap">
+                <input className="trip__name" value={trip.name}
+                  onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
+                <Pencil size={15} className="trip__pencil" aria-hidden />
+              </span>
               {view === 'build' ? (
                 <>
                   <button className="trip__view" onClick={() => setView('itinerary')}><CalendarRange size={16} /> View trip</button>
+                  <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                  <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
                   <button className="btn btn--primary trip__add" onClick={() => openWizard({ mode: 'ideas' })}><Plus size={16} /> Add places</button>
                 </>
               ) : (
-                <button className="trip__view" onClick={() => setView('build')}><ArrowLeft size={16} /> Edit trip</button>
+                <>
+                  <button className="trip__view" onClick={() => setView('build')}><ArrowLeft size={16} /> Edit trip</button>
+                  <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                  <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+                </>
               )}
               <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
                 <Trash2 size={16} />
@@ -150,6 +170,7 @@ export default function PlanScreen() {
             </div>
 
             {view === 'build' && (<>
+            <TripReadiness trip={trip} />
             <p className="trip__summary">
               <b>{trip.places.length}</b> {trip.places.length === 1 ? 'place' : 'places'}
               {regionCount > 0 && <> across <b>{regionCount}</b> {regionCount === 1 ? 'region' : 'regions'}</>}
@@ -161,6 +182,8 @@ export default function PlanScreen() {
               <label>From <input type="date" value={trip.startDate || ''} onChange={(e) => setTripDates(trip.id, e.target.value, trip.endDate || '')} /></label>
               <label>to <input type="date" value={trip.endDate || ''} onChange={(e) => setTripDates(trip.id, trip.startDate || '', e.target.value)} /></label>
             </div>
+
+            <StaysEditor trip={trip} />
 
             {tip && <div className="trip-tip"><Lightbulb size={16} /> {tip}</div>}
 
@@ -197,7 +220,7 @@ export default function PlanScreen() {
         <AddPlaceWizard tripId={wizard.tripId} initialQuery={wizard.query} initialMode={wizard.mode} onClose={() => setWizard(null)} />
       )}
       {planFor && trip && (
-        <PlacePlanner tripId={trip.id} regionId={planFor.regionId} placeId={planFor.placeId}
+        <PlacePlanner key={`${planFor.regionId}/${planFor.placeId}`} tripId={trip.id} regionId={planFor.regionId} placeId={planFor.placeId}
           range={{ start: trip.startDate, end: trip.endDate }} onClose={() => setPlanFor(null)} />
       )}
     </div>
@@ -235,8 +258,8 @@ function PlaceRow({ tripId, place: p, onPlan }) {
             : <button className="trip-row__plan-prompt" onClick={onPlan}>+ Pick a day, sights & restaurants</button>}
         </div>
         <button className="trip-row__plan" onClick={onPlan} aria-label="Plan this place"><CalendarCheck size={15} /> Plan</button>
-        <button className={`trip-row__note ${hasNote ? 'is-on' : ''}`} onClick={() => setEditing((v) => !v)} aria-label="Note">
-          <StickyNote size={15} />
+        <button className={`trip-row__note ${hasNote ? 'is-on' : ''}`} onClick={() => setEditing((v) => !v)}>
+          <StickyNote size={15} /> <span className="trip-row__notelabel">{hasNote ? 'Edit note' : 'Make note'}</span>
         </button>
         <button className="trip-row__rm" onClick={() => removePlace(tripId, p.regionId, p.placeId)} aria-label="Remove">
           <X size={16} />

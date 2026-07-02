@@ -77,7 +77,9 @@ export function togglePlaceDone(tripId, regionId, placeId) {
         ? {
             ...t,
             places: t.places.map((p) =>
-              p.regionId === regionId && p.placeId === placeId ? { ...p, done: !p.done } : p
+              p.regionId === regionId && p.placeId === placeId
+                ? { ...p, done: !p.done, visitedAt: !p.done ? Date.now() : undefined }
+                : p
             ),
           }
         : t
@@ -110,8 +112,60 @@ export function updateNote(tripId, regionId, placeId, note) {
   })
 }
 
+const DAY_MS = 86400000
+const shiftDate = (d, delta) => {
+  if (!d) return d
+  const t = new Date(d + 'T12:00'); t.setTime(t.getTime() + delta * DAY_MS)
+  return t.toISOString().slice(0, 10)
+}
+
 export function setTripDates(tripId, startDate, endDate) {
-  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, startDate, endDate } : t)) })
+  set({
+    ...state,
+    trips: state.trips.map((t) => {
+      if (t.id !== tripId) return t
+      // Moving the start date moves the whole trip: the end date and every
+      // scheduled place/pick shift by the same number of days.
+      if (t.startDate && startDate && startDate !== t.startDate && endDate === (t.endDate || '')) {
+        const delta = Math.round((new Date(startDate) - new Date(t.startDate)) / DAY_MS)
+        const shiftItems = (arr) => (arr || []).map((x) => (x.date ? { ...x, date: shiftDate(x.date, delta) } : x))
+        return {
+          ...t,
+          startDate,
+          endDate: shiftDate(t.endDate, delta),
+          places: t.places.map((p) => ({
+            ...p,
+            date: p.date ? shiftDate(p.date, delta) : p.date,
+            attractions: shiftItems(p.attractions),
+            restaurants: shiftItems(p.restaurants),
+          })),
+        }
+      }
+      return { ...t, startDate, endDate }
+    }),
+  })
+}
+
+// A full copy of a trip (places, picks, notes) under a new name.
+export function duplicateTrip(id) {
+  const src = state.trips.find((t) => t.id === id)
+  if (!src) return null
+  const copy = { ...structuredClone(src), id: uid(), name: `Copy of ${src.name}`, createdAt: Date.now() }
+  set({ ...state, trips: [...state.trips, copy], activeTripId: copy.id })
+  return copy.id
+}
+
+// Import a trip received via a share link.
+export function importTrip(data) {
+  const trip = {
+    id: uid(), createdAt: Date.now(),
+    name: data.name || 'Shared trip',
+    startDate: data.startDate || '', endDate: data.endDate || '',
+    places: (data.places || []).map((p) => ({ ...p })),
+    stays: (data.stays || []).map((x) => ({ ...x, id: uid() })),
+  }
+  set({ trips: [...state.trips, trip], activeTripId: trip.id })
+  return trip.id
 }
 
 // Make a stable id for a user-entered custom place.
@@ -131,15 +185,41 @@ function updatePlace(tripId, regionId, placeId, fn) {
 }
 
 export function setPlaceDate(tripId, regionId, placeId, date) {
-  updatePlace(tripId, regionId, placeId, (p) => ({ ...p, date }))
+  updatePlace(tripId, regionId, placeId, (p) => {
+    // When a place is scheduled for the FIRST time, its unscheduled ('anytime')
+    // picks move onto that day. After that, picks stay on the day they were
+    // chosen for — switching days must never drag them along.
+    const oldDay = p.date || ''
+    const follow = (arr) => (arr || []).map((x) => {
+      const d = x.date === undefined ? oldDay : (x.date || '')
+      return oldDay === '' && d === '' ? { ...x, date: date || '' } : x
+    })
+    return withAutoDone({ ...p, date, attractions: follow(p.attractions), restaurants: follow(p.restaurants) })
+  })
 }
 
-// kind = 'attractions' | 'restaurants'; item must have a stable id
-export function togglePlaceItem(tripId, regionId, placeId, kind, item) {
+// A place counts as "locked in" once it has a day or any picks; clears when
+// everything is removed. Manual ticks still work in between.
+function withAutoDone(p) {
+  const planned = !!(p.date || p.attractions?.length || p.restaurants?.length)
+  return { ...p, done: planned }
+}
+
+// kind = 'attractions' | 'restaurants'; item must have a stable id.
+// Selections are per-day: `date` is the day this pick belongs to ('' = anytime),
+// so the same attraction/restaurant can be chosen on more than one day.
+// Items saved before dates existed are migrated to the place's day on first touch.
+export function togglePlaceItem(tripId, regionId, placeId, kind, item, date = '') {
   updatePlace(tripId, regionId, placeId, (p) => {
-    const arr = p[kind] || []
-    const exists = arr.some((x) => x.id === item.id)
-    return { ...p, [kind]: exists ? arr.filter((x) => x.id !== item.id) : [...arr, item] }
+    const arr = (p[kind] || []).map((x) => (x.date === undefined ? { ...x, date: p.date || '' } : x))
+    const d = date || ''
+    const exists = arr.some((x) => x.id === item.id && (x.date || '') === d)
+    return withAutoDone({
+      ...p,
+      [kind]: exists
+        ? arr.filter((x) => !(x.id === item.id && (x.date || '') === d))
+        : [...arr, { ...item, date: d }],
+    })
   })
 }
 
@@ -170,4 +250,43 @@ export function movePlaceTo(tripId, regionId, placeId, targetDate, beforeRegionI
       return { ...t, places }
     }),
   })
+}
+
+// ── stays (accommodation) ────────────────────────────────────────────────────
+// A stay covers a range of nights: { id, name, type, from, to, lat?, lng?, address? }
+export function addStay(tripId, stay) {
+  const withId = { ...stay, id: uid() }
+  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, stays: [...(t.stays || []), withId] } : t)) })
+  return withId.id
+}
+export function updateStay(tripId, stayId, patch) {
+  set({ ...state, trips: state.trips.map((t) =>
+    t.id === tripId ? { ...t, stays: (t.stays || []).map((s) => (s.id === stayId ? { ...s, ...patch } : s)) } : t) })
+}
+export function removeStay(tripId, stayId) {
+  set({ ...state, trips: state.trips.map((t) =>
+    t.id === tripId ? { ...t, stays: (t.stays || []).filter((s) => s.id !== stayId) } : t) })
+}
+// The stay whose nights cover a given day ('' → none).
+export function stayForDay(trip, date) {
+  if (!date) return null
+  return (trip.stays || []).find((s) => s.from && s.to && s.from <= date && date <= s.to) || null
+}
+
+// Backfill lat/lng for places saved before coordinates were stored (older
+// trips). Called once with the places index; writes only if something changed.
+export function healTripCoords(index) {
+  const byId = Object.fromEntries(index.map((p) => [`${p.regionId}/${p.placeId}`, p]))
+  let changed = false
+  const trips = state.trips.map((t) => {
+    const places = t.places.map((p) => {
+      if (p.lat && p.lng) return p
+      const hit = byId[`${p.regionId}/${p.placeId}`]
+      if (!hit) return p
+      changed = true
+      return { ...p, lat: hit.lat, lng: hit.lng }
+    })
+    return changed ? { ...t, places } : t
+  })
+  if (changed) set({ ...state, trips })
 }
