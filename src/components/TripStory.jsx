@@ -59,7 +59,7 @@ export default function TripStory({ trip, readOnly = false }) {
       <p className="story__text">{story.text}</p>
       {!readOnly && (
         <div className="story__bar">
-          <span className="story__meta">Written by Claude from your plan</span>
+          <span className="story__meta">Written from your plan</span>
           <button className="story__act" onClick={generate} disabled={busy} title="Rewrite from the current plan">
             <RefreshCw size={13} className={busy ? 'pk__spin' : ''} /> {busy ? 'Rewriting…' : 'Rewrite'}
           </button>

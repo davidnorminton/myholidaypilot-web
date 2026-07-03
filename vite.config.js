@@ -3,6 +3,22 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  build: {
+    // mapbox-gl (~1.8MB) and jspdf are dynamically imported — they load only
+    // when a map renders or a PDF is generated, so their size never blocks
+    // first paint. The limit below acknowledges that instead of warning on
+    // every deploy.
+    chunkSizeWarningLimit: 2000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // long-cache vendor chunks: these change far less often than app code
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'icons': ['lucide-react'],
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({

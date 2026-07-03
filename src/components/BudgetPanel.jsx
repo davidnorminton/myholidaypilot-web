@@ -145,8 +145,7 @@ export default function BudgetPanel({ trip, onClose }) {
               </tbody>
             </table>
             <p className="bgt__disc">
-              Estimates, not quotes — prices vary. Rates by Claude ({saved.model}); the maths is ours.
-              Tap any figure to use your own.
+              Estimates, not quotes — prices vary. Tap any figure to use your own.
             </p>
           </div>
         )}
