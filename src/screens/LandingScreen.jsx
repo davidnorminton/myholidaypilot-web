@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AdSlot from '../components/AdSlot.jsx'
-import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin } from 'lucide-react'
+import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin, Wand2, Map as MapIcon, Car } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
+import { useSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { POSTS } from '../lib/blog.js'
 import { useSeo } from '../lib/seo.js'
@@ -11,6 +12,7 @@ import { useSeo } from '../lib/seo.js'
 const HERO = 'https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600'
 
 export default function LandingScreen() {
+  const site = useSettings()
   useSeo({ path: '/' })
   const [stats, setStats] = useState(null)
   useEffect(() => {
@@ -21,20 +23,24 @@ export default function LandingScreen() {
   return (
     <div className="page">
       <section className="land-hero">
-        <img className="land-hero__bg" src={HERO} alt="" />
+        <img className="land-hero__bg" src={site['home.hero'] || HERO} alt="" />
         <div className="land-hero__veil" />
         <div className="wrap land-hero__inner">
           <p className="eyebrow eyebrow--light">Your travel copilot</p>
-          <h1 className="land-hero__title">See more.<br/>Plan&nbsp;less.</h1>
+          <h1 className="land-hero__title">
+            {site['home.title']
+              ? site['home.title'].split('|').map((line, i, a) => <span key={i}>{line}{i < a.length - 1 && <br />}</span>)
+              : <>See more.<br/>Plan&nbsp;less.</>}
+          </h1>
           <p className="land-hero__sub">
-            Handcrafted guides to the world’s regions — where to go, what to eat, and the
-            stories behind it. We start with Italy and grow from there.
+            {site['home.sub'] || `Handcrafted guides to the world’s regions — where to go, what to eat, and the
+            stories behind it. We start with Italy and grow from there.`}
           </p>
           <div className="land-hero__cta">
             <Link to={paths.country()} className="btn btn--primary">
               Explore Italy <ArrowRight size={17} />
             </Link>
-            <Link to={paths.blog()} className="btn btn--ghost">Read the blog</Link>
+            <Link to={paths.guided()} className="btn btn--ghost">Draft my trip in 30 seconds</Link>
           </div>
         </div>
       </section>
@@ -70,27 +76,102 @@ export default function LandingScreen() {
             <li><Check size={15} /> Save places as you browse</li>
             <li><Check size={15} /> Build days and drag them into order</li>
             <li><Check size={15} /> Pick attractions &amp; restaurants per stop</li>
-            <li><Check size={15} /> See the whole trip on a map</li>
+            <li><Check size={15} /> Stays, flights &amp; best-route days</li>
+            <li><Check size={15} /> Day maps, weather &amp; distances</li>
+            <li><Check size={15} /> A printable PDF &amp; share link</li>
           </ul>
-          <Link to={paths.plan()} className="btn btn--primary">Start a trip <ArrowRight size={17} /></Link>
+          <div className="planner-feat__ctas">
+            <Link to={paths.plan()} className="btn btn--primary">Start a trip <ArrowRight size={17} /></Link>
+            <Link to={paths.guided()} className="btn btn--soft">Or let us draft it — guided planner</Link>
+          </div>
         </div>
 
         <div className="planner-feat__mock" aria-hidden="true">
           <div className="pm">
             <div className="pm__head">
-              <span className="pm__name">Tuscany week</span>
-              <span className="pm__dates">12 – 18 Sep</span>
+              <span className="pm__name">Abruzzo week</span>
+              <span className="pm__dates">1 – 5 Jul</span>
             </div>
-            <div className="pm__day">Day 1 · Florence</div>
-            <div className="pm__row pm__row--done"><span className="pm__n">1</span> Uffizi Gallery <Check size={13} className="pm__tick" /></div>
-            <div className="pm__row"><span className="pm__n">2</span> Ponte Vecchio at dusk</div>
-            <div className="pm__row pm__row--eat"><Utensils size={12} /> Trattoria Mario — bistecca</div>
-            <div className="pm__day">Day 2 · Siena</div>
-            <div className="pm__row"><span className="pm__n">3</span> Piazza del Campo</div>
-            <div className="pm__row"><span className="pm__n">4</span> Walk the old walls</div>
-            <div className="pm__map"><MapPin size={13} /> 6 places · 2 regions on the map</div>
+            <div className="pm__status">
+              <span className="pm__chip pm__chip--ok"><Check size={11} /> Dates set</span>
+              <span className="pm__chip pm__chip--ok"><Check size={11} /> Every day has food</span>
+              <span className="pm__chip pm__chip--todo">1 night without a stay</span>
+            </div>
+            <div className="pm__day">
+              <span>Day 2 · Thu 2 Jul</span>
+              <span className="pm__stay">🛏 Hotel Esplanade</span>
+              <span className="pm__wx">🌤️ 27°</span>
+              <span className="pm__km">≈ 5.6 km</span>
+            </div>
+            <div className="pm__tl">
+              <div className="pm__stop"><i style={{ background: '#3a3733' }} /> Hotel Esplanade</div>
+              <div className="pm__leg">0.6 km</div>
+              <div className="pm__stop"><i style={{ background: '#a9762a' }} /> Pescara old town</div>
+              <div className="pm__leg">0.4 km</div>
+              <div className="pm__stop"><i style={{ background: '#1f6f54' }} /> Explore the fish market</div>
+              <div className="pm__leg">1.2 km</div>
+              <div className="pm__stop"><i style={{ background: '#bb3a2c' }} /> Trattoria del Pescatore — brodetto</div>
+              <div className="pm__leg">3.4 km</div>
+              <div className="pm__stop"><i style={{ background: '#3a3733' }} /> Back to your stay</div>
+            </div>
+            <div className="pm__map"><MapPin size={13} /> Day map · best route · PDF &amp; share link</div>
           </div>
         </div>
+      </section>
+
+      <section className="wrap duo">
+        <article className="duo__card">
+          <p className="eyebrow">Guided planner</p>
+          <h2 className="duo__title">Five questions. A whole trip.</h2>
+          <p className="duo__sub">
+            Tell us when, your pace and what you're into — we draft the full itinerary from our
+            hand-curated guides: days, sights, dinners, distances. Then fine-tune every detail.
+          </p>
+          <div className="duo__mock duo__mock--quiz" aria-hidden="true">
+            <span className="gq__chip is-on">🍝 Food &amp; wine</span>
+            <span className="gq__chip">🏛️ History &amp; art</span>
+            <span className="gq__chip is-on">🌊 Coast</span>
+            <span className="gq__chip">🥾 Hiking</span>
+            <span className="duo__arrow">→</span>
+            <span className="duo__result">Sardinia in 5 days · 5 places · ≈ 241 km</span>
+          </div>
+          <Link to={paths.guided()} className="btn btn--primary"><Wand2 size={16} /> Draft my trip</Link>
+        </article>
+
+        <article className="duo__card">
+          <p className="eyebrow">Day-trip finder</p>
+          <h2 className="duo__title">A free day? See what's in reach</h2>
+          <p className="duo__sub">
+            Pick your base and get every worthwhile day trip ranked by distance,
+            with drive times — filter by coast, towns, mountains and more.
+          </p>
+          <div className="duo__mock duo__mock--dtf" aria-hidden="true">
+            <span className="duo__result">From <b>Florence</b></span>
+            <span className="duo__arrow">→</span>
+            <span className="gq__chip is-on">Siena · 51 km</span>
+            <span className="gq__chip">Lucca · 60 km</span>
+            <span className="gq__chip">Pisa · 69 km</span>
+          </div>
+          <Link to={paths.dayTrips()} className="btn btn--soft"><Car size={16} /> Find day trips</Link>
+        </article>
+
+        <article className="duo__card">
+          <p className="eyebrow">Travel map</p>
+          <h2 className="duo__title">Scratch the map, region by region</h2>
+          <p className="duo__sub">
+            Every place you tick off on a trip lights up your personal travel map — country by
+            country, region by region — with your stats ready to share.
+          </p>
+          <div className="duo__mock duo__mock--map" aria-hidden="true">
+            <span className="duo__reg is-on">🏔️ Abruzzo <Check size={11} /></span>
+            <span className="duo__reg is-on">🍷 Tuscany <Check size={11} /></span>
+            <span className="duo__reg">🎭 Veneto</span>
+            <span className="duo__reg">🍋 Campania</span>
+            <span className="duo__reg">🏝️ Sardinia</span>
+            <span className="duo__reg">⛰️ Trentino</span>
+          </div>
+          <Link to={paths.account('map')} className="btn btn--soft"><MapIcon size={16} /> See your map</Link>
+        </article>
       </section>
 
       <section className="wrap home-sec">
@@ -125,7 +206,7 @@ export default function LandingScreen() {
 
       <section className="wrap home-sec">
         <div className="home-sec__head">
-          <h2 className="sec-title">From the journal</h2>
+          <h2 className="sec-title">From the blog</h2>
           <Link to={paths.blog()} className="sec-link">All posts <ArrowRight size={15} /></Link>
         </div>
         <div className="grid grid--posts">
@@ -142,7 +223,6 @@ export default function LandingScreen() {
         </div>
       </section>
 
-      <footer className="foot wrap">myholidaypilot · made for slow, curious travel</footer>
     </div>
   )
 }

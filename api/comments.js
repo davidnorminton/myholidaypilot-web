@@ -1,4 +1,4 @@
-import { getDb, schema, eq, and, asc, isNull } from './_lib/db.js'
+import { getDb, schema, eq, and, asc, desc, isNull } from './_lib/db.js'
 import { requireUser } from './_lib/auth.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
 const { comments, users } = schema
@@ -12,6 +12,16 @@ function areaWhere({ country, type, region, place }) {
 
 export default handler(async (req, res) => {
   const db = getDb()
+
+  // ── my comments (signed in) ─────────────────────────────────────────────────
+  if (req.method === 'GET' && (req.query || {}).mine) {
+    const user = await requireUser(req)
+    const rows = await db.select({
+      id: comments.id, body: comments.body, createdAt: comments.createdAt,
+      targetType: comments.targetType, regionId: comments.regionId, placeId: comments.placeId,
+    }).from(comments).where(eq(comments.userId, user.id)).orderBy(desc(comments.createdAt)).limit(100)
+    return send(res, 200, rows)
+  }
 
   // ── list (public) ──────────────────────────────────────────────────────────
   if (req.method === 'GET') {

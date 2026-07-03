@@ -17,4 +17,7 @@ export const paths = {
   admin: () => '/admin',
   saved: () => '/saved',
   trips: () => '/trips',
+  account: (section) => (section ? `/account/${section}` : '/account'),
+  guided: () => '/guided',
+  dayTrips: (from) => (from ? `/day-trips?from=${from}` : '/day-trips'),
 }

@@ -2,9 +2,13 @@ import { useEffect, useMemo, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { X, Check, MapPin, Compass, UtensilsCrossed, CalendarRange } from 'lucide-react'
 import { getRegion } from '../lib/data.js'
-import { useTrips, setPlaceDate, togglePlaceItem } from '../lib/trips.js'
+import { useTrips, setPlaceDate, togglePlaceItem, refreshPlaceDone } from '../lib/trips.js'
+import { useAffiliates, buildUrl } from '../lib/affiliates.js'
+import { AffProviders } from './AffLink.jsx'
 
 export default function PlacePlanner({ tripId, regionId, placeId, range, onClose }) {
+  const close = () => { refreshPlaceDone(tripId, regionId, placeId); onClose() }
+  const affCfg = useAffiliates()
   const snap = useTrips()
   const trip = snap.trips.find((t) => t.id === tripId)
   const place = trip?.places.find((p) => p.regionId === regionId && p.placeId === placeId)
@@ -61,7 +65,7 @@ export default function PlacePlanner({ tripId, regionId, placeId, range, onClose
             <h2 className="wiz__title">{place.name}</h2>
             <p className="wiz__sub">{place.regionName} — choose a day, the sights you want, and where to eat.</p>
           </div>
-          <button className="wiz__x" onClick={onClose} aria-label="Close"><X size={20} /></button>
+          <button className="wiz__x" onClick={close} aria-label="Close"><X size={20} /></button>
         </header>
 
         <div className="wiz__body">
@@ -94,6 +98,11 @@ export default function PlacePlanner({ tripId, regionId, placeId, range, onClose
                 <button className="pp-visitmove" onClick={() => setPlaceDate(tripId, regionId, placeId, day)}>Make {dayLabel(day)} the visit day</button>
               </p>
             )}
+            <AffProviders title={`Experiences & tickets in ${place.name}:`} providers={affCfg ? [
+              { id: 'getyourguide', name: 'GetYourGuide', url: buildUrl(affCfg.getyourguide, { query: place.name }) },
+              { id: 'viator', name: 'Viator', url: buildUrl(affCfg.viator, { query: place.name }) },
+              { id: 'civitatis', name: 'Civitatis', url: buildUrl(affCfg.civitatis, { query: place.name }) },
+            ] : []} />
           </section>
 
           {(activities.length > 0 || restaurants.length > 0) && (
@@ -170,7 +179,7 @@ export default function PlacePlanner({ tripId, regionId, placeId, range, onClose
             {((place.attractions?.length || 0) + (place.restaurants?.length || 0)) > (selA.size + selR.size) &&
               <em className="wiz__count-more"> · more on other days</em>}
           </span>
-          <button className="btn btn--primary" onClick={onClose}>Done</button>
+          <button className="btn btn--primary" onClick={close}>Done</button>
         </footer>
       </div>
     </div>,

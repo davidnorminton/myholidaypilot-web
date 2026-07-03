@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import AdSlot from '../components/AdSlot.jsx'
 import { ArrowLeft } from 'lucide-react'
 import { PageLoader } from '../components/Loading.jsx'
-import { usePost } from '../lib/blogStore.js'
+import { usePost, usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
 import { paths } from '../lib/paths.js'
 
@@ -13,6 +13,8 @@ function fmt(d) {
 export default function BlogPostScreen() {
   const { slug } = useParams()
   const post = usePost(slug)
+  const allPosts = usePublishedPosts()
+  const more = (allPosts || []).filter((p) => p.slug !== slug).slice(0, 3)
 
   useSeo({
     title: post?.title,
@@ -46,7 +48,7 @@ export default function BlogPostScreen() {
         </div>
       )}
       <div className="wrap post__wrap">
-        <Link to={paths.blog()} className="back" style={{ marginTop: 18 }}><ArrowLeft size={17} /> The journal</Link>
+        <Link to={paths.blog()} className="back" style={{ marginTop: 18 }}><ArrowLeft size={17} /> The blog</Link>
         {post.tag && <span className="post__tag">{post.tag}</span>}
         <h1 className="post__title">{post.title}</h1>
         <p className="post__meta">{fmt(post.date)}{post.author ? ` · ${post.author}` : ''}</p>
@@ -59,6 +61,25 @@ export default function BlogPostScreen() {
             <AdSlot format="half-page" slot="post-rail" />
           </aside>
         </div>
+
+        {more.length > 0 && (
+          <section className="post-more">
+            <h2 className="post-more__title">More from the blog</h2>
+            <div className="post-more__grid">
+              {more.map((p) => (
+                <Link key={p.slug} to={paths.post(p.slug)} className="post-card">
+                  <div className="post-card__media"><img src={p.cover} alt={p.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} /></div>
+                  <div className="post-card__body">
+                    <span className="post-card__tag">{p.tag}</span>
+                    <h3 className="post-card__title">{p.title}</h3>
+                    <p className="post-card__excerpt">{p.excerpt}</p>
+                    <span className="post-card__meta">{fmt(p.date)}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </article>
   )

@@ -1,4 +1,5 @@
 import { getPlacesIndex } from './data.js'
+import { shareUrl } from './tripShare.js'
 import { bestRoute, kmBetween } from './route.js'
 
 const fmt = (d) => d ? new Date(d + 'T12:00').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' }) : ''
@@ -7,15 +8,31 @@ const fmt = (d) => d ? new Date(d + 'T12:00').toLocaleDateString('en-GB', { week
 const safeText = (s) => String(s || '').replace(/[^\x20-\x7E\xA0-\xFF\u2013\u2014\u2018\u2019\u201C\u201D]/g, '')
 
 function groups(trip) {
-  const dated = trip.places.filter((p) => p.date).sort((a, b) => a.date.localeCompare(b.date))
-  const loose = trip.places.filter((p) => !p.date)
-  const out = []
-  for (const p of dated) {
-    const last = out[out.length - 1]
-    if (last && last.key === p.date) last.places.push(p)
-    else out.push({ key: p.date, label: fmt(p.date), places: [p] })
+  const byDate = new Map()
+  for (const p of trip.places) {
+    if (!p.date) continue
+    if (!byDate.has(p.date)) byDate.set(p.date, [])
+    byDate.get(p.date).push(p)
   }
-  if (loose.length) out.push({ key: '', label: dated.length ? 'Anytime' : null, places: loose })
+  // every day of the trip gets a section — including days that only carry
+  // picks, a stay or a transfer, which used to vanish from the PDF entirely
+  const keys = new Set(byDate.keys())
+  if (trip.startDate && trip.endDate && trip.endDate >= trip.startDate) {
+    for (let d = new Date(trip.startDate + 'T12:00'); ; d.setDate(d.getDate() + 1)) {
+      const iso = d.toISOString().slice(0, 10)
+      if (iso > trip.endDate) break
+      keys.add(iso)
+    }
+  }
+  const sorted = [...keys].sort()
+  const out = sorted.map((key, i) => ({
+    key,
+    n: trip.startDate ? Math.round((new Date(key) - new Date(trip.startDate)) / 86400000) + 1 : i + 1,
+    label: fmt(key),
+    places: byDate.get(key) || [],
+  }))
+  const loose = trip.places.filter((p) => !p.date)
+  if (loose.length) out.push({ key: '', label: sorted.length ? 'Anytime' : null, places: loose })
   return out
 }
 
@@ -124,9 +141,45 @@ export async function downloadTripPdf(trip) {
   doc.text([dates, `${trip.places.length} place${trip.places.length === 1 ? '' : 's'}`,
     regions.size ? `${regions.size} region${regions.size === 1 ? '' : 's'}` : '']
     .filter(Boolean).join('   ·   '), M, y)
+  try {
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(9); doc.setTextColor(169, 118, 42)
+    doc.textWithLink('Open this trip online', W - M - doc.getTextWidth('Open this trip online'), y, { url: shareUrl(t) })
+  } catch { /* link is a nicety */ }
   y += 14
   doc.setDrawColor(169, 118, 42); doc.setLineWidth(1.2); doc.line(M, y, W - M, y)
   y += 24
+
+  // ── trip facts: getting there & where you're staying ──
+  {
+    const facts = []
+    if (t.travel?.arrive) facts.push(['Arriving', `${t.travel.arrive.name}${t.travel.arrive.address ? ' — ' + t.travel.arrive.address : ''}`])
+    if (t.travel?.depart) facts.push(['Leaving from', `${t.travel.depart.name}${t.travel.depart.address ? ' — ' + t.travel.depart.address : ''}`])
+    for (const st of (t.stays || [])) {
+      const range = st.from ? ` · ${fmt(st.from)} – ${fmt(st.to || st.from)}` : ''
+      facts.push(['Staying', `${st.name} (${st.type})${range}${st.address ? ' — ' + st.address : ''}`])
+    }
+    if (facts.length) {
+      for (const [k, v] of facts) {
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(8); doc.setTextColor(169, 118, 42)
+        doc.text(k.toUpperCase(), M, y, { charSpace: 1.2 })
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(9.5); doc.setTextColor(70, 66, 59)
+        const wrapped = doc.splitTextToSize(safeText(v), W - M * 2 - 92)
+        doc.text(wrapped, M + 92, y)
+        y += Math.max(13, wrapped.length * 12 + 1)
+      }
+      y += 12
+    }
+  }
+
+  // ── the trip, as a story (when one has been written) ──
+  if (t.story?.text) {
+    doc.setFont('times', 'italic'); doc.setFontSize(10.5); doc.setTextColor(88, 82, 74)
+    const storyLines = doc.splitTextToSize(safeText(t.story.text), W - M * 2 - 24)
+    need(Math.min(storyLines.length, 8) * 13 + 20)
+    doc.setDrawColor(169, 118, 42); doc.setLineWidth(2); doc.line(M, y - 4, M, y - 4 + storyLines.length * 13)
+    doc.text(storyLines, M + 14, y + 6)
+    y += storyLines.length * 13 + 20
+  }
 
   // ── map (numbered pins match the numbered places below) ──
   if (mapData) {
@@ -141,17 +194,25 @@ export async function downloadTripPdf(trip) {
   for (let gi = 0; gi < gs.length; gi++) {
     const g = gs[gi]
     if (g.label) {
-      need(40)
+      need(140)   // keep the heading with its map/content — no orphaned day labels
       doc.setFont('helvetica', 'bold'); doc.setFontSize(9.5); doc.setTextColor(169, 118, 42)
-      doc.text(g.label.toUpperCase(), M, y, { charSpace: 1.5 })
+      const head = g.n ? `DAY ${g.n} · ${g.label.toUpperCase()}` : g.label.toUpperCase()
+      doc.text(head, M, y, { charSpace: 1.5 })
+      const where = g.places.map((p) => p.name).join(' · ')
+      if (where) {
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(150, 144, 134)
+        doc.text(safeText(where).slice(0, 60), W - M, y, { align: 'right' })
+      }
       y += 18
     }
     const gstay = stayFor(g.key || '')
     if (gstay) {
       need(16)
       doc.setFont('helvetica', 'normal'); doc.setFontSize(9.5); doc.setTextColor(90, 85, 78)
-      doc.text(safeText(`Staying at: ${gstay.name} (${gstay.type})`), M, y)
-      y += 14
+      const stayLine = `Staying at: ${gstay.name} (${gstay.type})${gstay.address ? ' — ' + gstay.address : ''}`
+      const sw = doc.splitTextToSize(safeText(stayLine), W - M * 2)
+      doc.text(sw, M, y)
+      y += sw.length * 12 + 4
     }
     const dm = dayMaps[gi]
     if (dm) {
@@ -161,28 +222,84 @@ export async function downloadTripPdf(trip) {
       doc.setDrawColor(229, 225, 216); doc.setLineWidth(.75); doc.rect(M, y, w, h)
       y += h + 14
     }
-    { // recommended route text for the day
+    { // recommended route timeline for the day
       const { places: dp, ex } = dayMarkers(g.key || '')
       const rstay = stayFor(g.key || '')
       const rarr = g.key && g.key === t.startDate && t.travel?.arrive?.lat ? t.travel.arrive : null
       const rdep = g.key && g.key === t.endDate && t.travel?.depart?.lat ? t.travel.depart : null
       const stops = [
-        ...(rarr ? [{ lat: rarr.lat, lng: rarr.lng, label: `Arrive (${rarr.name})` }] : []),
-        ...(rstay?.lat && rstay?.lng ? [{ lat: rstay.lat, lng: rstay.lng, label: `Stay (${rstay.name})` }] : []),
-        ...dp.map((p) => ({ lat: p.lat, lng: p.lng, label: p.name })),
-        ...ex.map((m) => ({ lat: m.lat, lng: m.lng, label: m.text || m.name }))]
+        ...(rarr ? [{ lat: rarr.lat, lng: rarr.lng, label: `Arrive (${rarr.name})`, rgb: [21, 101, 192] }] : []),
+        ...(rstay?.lat && rstay?.lng ? [{ lat: rstay.lat, lng: rstay.lng, label: `Stay (${rstay.name})`, rgb: [58, 55, 51] }] : []),
+        ...dp.map((p) => ({ lat: p.lat, lng: p.lng, label: p.name, rgb: [169, 118, 42] })),
+        ...ex.map((m) => ({ lat: m.lat, lng: m.lng, label: m.text || m.name, rgb: m.colour === 'bb3a2c' ? [187, 58, 44] : [31, 111, 84] }))]
       if (stops.length + (rdep ? 1 : 0) >= 2) {
         let { order, km } = bestRoute(stops, 0)
         let seq = order.map((i) => stops[i])
-        if (rdep) { km += seq.length ? kmBetween(seq[seq.length - 1], rdep) : 0; seq = [...seq, { lat: rdep.lat, lng: rdep.lng, label: `Depart (${rdep.name})` }] }
-        else if (rstay?.lat && !rarr && seq.length > 1) { km += kmBetween(seq[seq.length - 1], seq[0]); seq = [...seq, { ...seq[0], label: 'back to stay' }] }
-        const parts = seq.map((m, i) => i < seq.length - 1
-          ? `${safeText(m.label)}  ${(() => { const k = kmBetween(m, seq[i + 1]); return (k < 10 ? k.toFixed(1) : Math.round(k)) })()} km >`
-          : safeText(m.label))
-        doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.setTextColor(120, 114, 106)
-        const wrapped = doc.splitTextToSize(`Route: ${parts.join('  ')}   ·   total ~ ${km < 10 ? km.toFixed(1) : Math.round(km)} km`, W - M * 2)
-        need(wrapped.length * 11 + 8)
-        doc.text(wrapped, M, y); y += wrapped.length * 11 + 10
+        if (rdep) { km += seq.length ? kmBetween(seq[seq.length - 1], rdep) : 0; seq = [...seq, { lat: rdep.lat, lng: rdep.lng, label: `Depart (${rdep.name})`, rgb: [21, 101, 192] }] }
+        else if (rstay?.lat && !rarr && seq.length > 1) { km += kmBetween(seq[seq.length - 1], seq[0]); seq = [...seq, { ...seq[0], label: 'Back to your stay' }] }
+
+        need(18)
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(8); doc.setTextColor(169, 118, 42)
+        doc.text('RECOMMENDED ROUTE', M, y, { charSpace: 1.4 })
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(8.5); doc.setTextColor(150, 144, 134)
+        doc.text(`total ~ ${km < 10 ? km.toFixed(1) : Math.round(km)} km`, W - M, y, { align: 'right' })
+        y += 12
+
+        const dotX = M + 5
+        for (let i = 0; i < seq.length; i++) {
+          const m = seq[i]
+          need(34)
+          // stop: coloured dot + name
+          doc.setFillColor(...m.rgb)
+          doc.circle(dotX, y - 3, 3.4, 'F')
+          doc.setFont('helvetica', 'normal'); doc.setFontSize(9.5); doc.setTextColor(50, 47, 42)
+          const line = doc.splitTextToSize(safeText(m.label), W - M * 2 - 30)[0]
+          doc.text(line, dotX + 11, y)
+          y += 9
+          // connector: dotted rail + leg distance, with room to breathe
+          if (i < seq.length - 1) {
+            const k = kmBetween(m, seq[i + 1])
+            doc.setDrawColor(190, 184, 174); doc.setLineWidth(0.9)
+            doc.setLineDashPattern([1.2, 2], 0)
+            doc.line(dotX, y - 4, dotX, y + 12)
+            doc.setLineDashPattern([], 0)
+            doc.setFont('helvetica', 'normal'); doc.setFontSize(8); doc.setTextColor(150, 144, 134)
+            doc.text(`${k < 10 ? k.toFixed(1) : Math.round(k)} km`, dotX + 11, y + 6)
+            y += 19
+          } else {
+            y += 8
+          }
+        }
+        y += 6
+      }
+    }
+    { // plans on this day from places scheduled elsewhere (or unscheduled)
+      const visiting = []
+      for (const p of t.places) {
+        if ((p.date || '') === (g.key || '')) continue
+        for (const a of (p.attractions || [])) if (effectiveDay(a, p) === (g.key || '')) visiting.push({ text: a.text, from: p.name })
+        for (const r of (p.restaurants || [])) if (effectiveDay(r, p) === (g.key || '')) visiting.push({ text: r.name + (r.mustOrder ? ` — ${r.mustOrder}` : ''), from: p.name })
+      }
+      if (g.key && visiting.length) {
+        need(20)
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(8); doc.setTextColor(169, 118, 42)
+        doc.text('PLANS THIS DAY', M, y, { charSpace: 1.4 })
+        y += 13
+        for (const v of visiting) {
+          const wrapped = doc.splitTextToSize(`${safeText(v.text)}  (from ${safeText(v.from)})`, W - M * 2 - 30)
+          need(wrapped.length * 13 + 4)
+          doc.setDrawColor(122, 116, 106); doc.setLineWidth(1)
+          doc.rect(M, y - 6.5, 8, 8)
+          doc.setFont('helvetica', 'normal'); doc.setFontSize(10); doc.setTextColor(70, 66, 59)
+          doc.text(wrapped, M + 14, y); y += wrapped.length * 13 + 2
+        }
+        y += 8
+      }
+      if (!g.places.length && g.key && !visiting.length) {
+        need(16)
+        doc.setFont('helvetica', 'italic'); doc.setFontSize(9.5); doc.setTextColor(150, 144, 134)
+        doc.text('Nothing planned yet — a free day.', M, y)
+        y += 18
       }
     }
     for (const p of g.places) {
@@ -222,7 +339,7 @@ export async function downloadTripPdf(trip) {
         y += 4
       }
       section('Things to do', p.attractions)
-      section('Where to eat', p.restaurants)
+      section('Where to eat', (p.restaurants || []).map((r) => ({ ...r, text: `${r.name}${r.mustOrder ? ' — try: ' + r.mustOrder : ''}` })))
 
       if (p.note?.trim()) {
         doc.setFont('helvetica', 'italic'); doc.setFontSize(9.5); doc.setTextColor(120, 114, 106)

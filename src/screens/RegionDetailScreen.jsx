@@ -11,6 +11,8 @@ import AffiliateSection from '../components/AffiliateSection.jsx'
 import AdSlot from '../components/AdSlot.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import { useSeo } from '../lib/seo.js'
+import { useSettings } from '../lib/settings.js'
+import BeenHereButton from '../components/BeenHereButton.jsx'
 import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
 const TABS = [
@@ -20,6 +22,7 @@ const TABS = [
 ]
 
 export default function RegionDetailScreen() {
+  const site = useSettings()
   const { regionId } = useParams()
   const navigate = useNavigate()
   const aff = useAffiliates()
@@ -40,7 +43,7 @@ export default function RegionDetailScreen() {
     title: region ? region.name : undefined,
     description: region ? `${region.name}${region.nameIt && region.nameIt !== region.name ? ` (${region.nameIt})` : ''} — towns, restaurants and things to do across ${region.places?.length || 0} places.` : undefined,
     path: `/italy/${regionId}`,
-    image: region ? (region.places || []).map((pl) => images[pl.id]?.[0]?.url).find(Boolean) : undefined,
+    image: region ? (site[`regionHero.${regionId}`] || (region.places || []).map((pl) => images[pl.id]?.[0]?.url).find(Boolean)) : undefined,
   })
 
   if (region === null) return <PageLoader label="Opening region" />
@@ -48,13 +51,17 @@ export default function RegionDetailScreen() {
 
   return (
     <div className="page" style={{ '--accent': accent }}>
-      <div className="rd-hero">
+      <div className={`rd-hero ${site[`regionHero.${regionId}`] ? 'rd-hero--img' : ''}`}>
+        {site[`regionHero.${regionId}`] && <>
+          <img className="rd-hero__bg" src={site[`regionHero.${regionId}`]} alt="" />
+          <div className="rd-hero__veil" />
+        </>}
         <div className="wrap">
           <Link to={paths.country()} className="back"><ArrowLeft size={17} /> All regions</Link>
           <div className="rd-hero__head">
             <span className="rd-hero__emoji" aria-hidden>{region.emoji}</span>
             <div>
-              <h1 className="rd-hero__name">{region.name}</h1>
+              <h1 className="rd-hero__name">{region.name} <BeenHereButton regionId={regionId} /></h1>
               <p className="rd-hero__meta">
                 <span><MapPin size={14} /> {region.capital}</span>
                 {region.bestTimeToVisit && (

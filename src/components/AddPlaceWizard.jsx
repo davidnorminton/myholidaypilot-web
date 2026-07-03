@@ -4,6 +4,7 @@ import {
   Search, ChevronRight, ChevronLeft, X, Check, Plus, MapPin, Sparkles, Lightbulb,
 } from 'lucide-react'
 import { getPlacesIndex, getIndex } from '../lib/data.js'
+import { COUNTRIES } from '../lib/countries.js'
 import { typeLabel } from '../lib/format.js'
 import { useTrips, addPlace, removePlace, customPlaceId } from '../lib/trips.js'
 
@@ -36,10 +37,14 @@ export default function AddPlaceWizard({ tripId, initialQuery = '', initialMode 
   const [openTheme, setOpenTheme] = useState(null)
   const searchRef = useRef(null)
 
+
+  const [countryOverride, setCountryOverride] = useState(null)
+  const country = countryOverride || trip?.countryId || 'italy'
   useEffect(() => {
-    getPlacesIndex().then(setPlaces).catch(() => setPlaces([]))
-    getIndex().then((d) => setRegions(d.regions || [])).catch(() => setRegions([]))
-  }, [])
+    setPlaces(null); setRegions([])
+    getPlacesIndex(country).then(setPlaces).catch(() => setPlaces([]))
+    getIndex(country).then((d) => setRegions(d.regions || [])).catch(() => setRegions([]))
+  }, [country])
   useEffect(() => { if (mode === 'search') searchRef.current?.focus() }, [mode])
   useEffect(() => {
     const onKey = (e) => { if (e.key === 'Escape') onClose() }
@@ -98,6 +103,14 @@ export default function AddPlaceWizard({ tripId, initialQuery = '', initialMode 
         <header className="wiz__head">
           <div>
             <h2 className="wiz__title">Add places{trip ? ` to ${trip.name}` : ''}</h2>
+            <select className="wiz__country" value={country} aria-label="Country"
+              onChange={(e) => setCountryOverride(e.target.value)}>
+              {COUNTRIES.map((c) => (
+                <option key={c.slug} value={c.slug} disabled={!c.available}>
+                  {c.flag} {c.name}{c.available ? '' : ' — soon'}
+                </option>
+              ))}
+            </select>
             <p className="wiz__sub">Not sure yet? Start with <b>Ideas</b>. Know the spot? <b>Search</b> it.</p>
           </div>
           <button className="wiz__x" onClick={onClose} aria-label="Close"><X size={20} /></button>
@@ -163,7 +176,7 @@ export default function AddPlaceWizard({ tripId, initialQuery = '', initialMode 
           {/* BROWSE / DRILL */}
           {mode === 'browse' && !openRegion && (
             <>
-              <p className="wiz-crumb"><span>Italy</span> <ChevronRight size={14} /> Pick a region</p>
+              <p className="wiz-crumb"><span>{(COUNTRIES.find((c) => c.slug === country) || COUNTRIES[0]).name}</span> <ChevronRight size={14} /> Pick a region</p>
               <ul className="wiz-regions">
                 {(regions || []).map((r) => (
                   <li key={r.id}>
@@ -184,7 +197,7 @@ export default function AddPlaceWizard({ tripId, initialQuery = '', initialMode 
           {mode === 'browse' && openRegion && (
             <>
               <button className="wiz-back" onClick={() => setOpenRegion(null)}><ChevronLeft size={16} /> All regions</button>
-              <p className="wiz-crumb"><span>Italy</span> <ChevronRight size={14} /> {openRegion.name}</p>
+              <p className="wiz-crumb"><span>{(COUNTRIES.find((c) => c.slug === country) || COUNTRIES[0]).name}</span> <ChevronRight size={14} /> {openRegion.name}</p>
               <ul className="wiz-list">
                 {(places || []).filter((p) => p.regionId === openRegion.id).map((p) => (
                   <ResultRow key={p.placeId} entry={p} added={has(p.regionId, p.placeId)} onToggle={() => toggle(p)} hideRegion />

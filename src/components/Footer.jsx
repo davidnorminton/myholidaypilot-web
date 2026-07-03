@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="wrap footer__inner">
         <div className="footer__brand">
           <Link to={paths.home()} className="brand brand--footer" aria-label="myholidaypilot home">
-            <span className="brand__mark"><Logo size={17} /></span>
+            <span className="brand__mark"><Logo size={40} /></span>
             <span className="brand__name"><span className="brand__my">my</span>holidaypilot</span>
           </Link>
           <p className="footer__tag">Plan your trip region by region — the towns, the food, and the stories in between.</p>
@@ -21,13 +21,20 @@ export default function Footer() {
           <div className="footer__col">
             <h3>Explore</h3>
             <Link to={paths.destinations()}>Destinations</Link>
-            <Link to={paths.plan()}>Plan a trip</Link>
-            <Link to={paths.blog()}>The journal</Link>
+            <Link to={paths.dayTrips()}>Day-trip finder</Link>
+            <Link to={paths.blog()}>The blog</Link>
+          </div>
+          <div className="footer__col">
+            <h3>Plan</h3>
+            <Link to={paths.plan()}>Trip planner</Link>
+            <Link to={paths.guided()}>Guided planner</Link>
+            <Link to={paths.account('map')}>Your travel map</Link>
           </div>
           <div className="footer__col">
             <h3>Discover</h3>
             <Link to={paths.app()}>Get the app</Link>
             <Link to={paths.saved()}>Saved places</Link>
+            <Link to={paths.account()}>My home</Link>
           </div>
           <div className="footer__col">
             <h3>More</h3>

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Trash2, X, Check, MapPin, StickyNote, CalendarRange,
-  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil } from 'lucide-react'
+  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins } from 'lucide-react'
 import {
   useTrips, activeTrip, createTrip, deleteTrip, renameTrip, setActiveTrip,
   removePlace, togglePlaceDone, updateNote, setTripDates, addPlace,
@@ -13,12 +13,15 @@ import { shareUrl } from '../lib/tripShare.js'
 import TripReadiness from '../components/TripReadiness.jsx'
 import StaysEditor from '../components/StaysEditor.jsx'
 import TravelEditor from '../components/TravelEditor.jsx'
+import CountryPicker from '../components/CountryPicker.jsx'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { typeLabel } from '../lib/format.js'
 import MapView from '../components/MapView.jsx'
 import AddPlaceWizard from '../components/AddPlaceWizard.jsx'
 import PlacePlanner from '../components/PlacePlanner.jsx'
+import PackingList from '../components/PackingList.jsx'
+import BudgetPanel from '../components/BudgetPanel.jsx'
 import Itinerary from '../components/Itinerary.jsx'
 
 const SUGGESTIONS = ['Rome', 'Florence', 'Venice', 'Naples', 'Amalfi', 'Milan']
@@ -32,6 +35,9 @@ export default function PlanScreen() {
   const [planFor, setPlanFor] = useState(null)
   const [view, setView] = useState('build')
   const [shared, setShared] = useState(false)
+  const [pickingCountry, setPickingCountry] = useState(false)
+  const [packingOpen, setPackingOpen] = useState(false)
+  const [budgetOpen, setBudgetOpen] = useState(false)
   const share = async () => {
     try { await navigator.clipboard.writeText(shareUrl(trip)); setShared(true); setTimeout(() => setShared(false), 2000) }
     catch { prompt('Copy this trip link:', shareUrl(trip)) }
@@ -100,7 +106,7 @@ export default function PlanScreen() {
                 {t.name}<span className="trip-pill__n">{t.places.length}</span>
               </button>
             ))}
-            <button className="trip-pill trip-pill--new" onClick={() => createTrip(`Trip ${snap.trips.length + 1}`)}>
+            <button className="trip-pill trip-pill--new" onClick={() => setPickingCountry(true)}>
               <Plus size={15} /> New trip
             </button>
           </div>
@@ -155,12 +161,16 @@ export default function PlanScreen() {
                 <>
                   <button className="trip__view" onClick={() => setView('itinerary')}><CalendarRange size={16} /> View trip</button>
                   <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                  <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
+                  <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
                   <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
                   <button className="btn btn--primary trip__add" onClick={() => openWizard({ mode: 'ideas' })}><Plus size={16} /> Add places</button>
                 </>
               ) : (
                 <>
                   <button className="trip__view" onClick={() => setView('build')}><ArrowLeft size={16} /> Edit trip</button>
+                  <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
+                  <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
                   <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
                   <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
                 </>
@@ -224,6 +234,12 @@ export default function PlanScreen() {
 
       {wizard && (
         <AddPlaceWizard tripId={wizard.tripId} initialQuery={wizard.query} initialMode={wizard.mode} onClose={() => setWizard(null)} />
+      )}
+      {packingOpen && trip && <PackingList trip={trip} onClose={() => setPackingOpen(false)} />}
+      {budgetOpen && trip && <BudgetPanel trip={trip} onClose={() => setBudgetOpen(false)} />}
+      {pickingCountry && (
+        <CountryPicker onPick={(c) => { createTrip(`Trip ${snap.trips.length + 1}`, c); setPickingCountry(false) }}
+          onClose={() => setPickingCountry(false)} />
       )}
       {planFor && trip && (
         <PlacePlanner key={`${planFor.regionId}/${planFor.placeId}`} tripId={trip.id} regionId={planFor.regionId} placeId={planFor.placeId}

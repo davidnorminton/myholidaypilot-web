@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AdSlot from '../components/AdSlot.jsx'
 import { PageLoader } from '../components/Loading.jsx'
@@ -9,16 +10,33 @@ function fmt(d) {
   return d ? new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : ''
 }
 
+const BATCH = 9
+
 export default function BlogScreen() {
   const posts = usePublishedPosts()
-  useSeo({ title: 'The journal', description: 'Field notes, food and planning — short reads to make your Italy trip better.', path: '/blog' })
-  if (posts === null) return <PageLoader label="Loading the journal" />
-  const [lead, ...rest] = posts
+  useSeo({ title: 'The blog', description: 'Field notes, food and planning — short reads to make your Italy trip better.', path: '/blog' })
+
+  // The lead article renders immediately; cards arrive nine at a time as the
+  // reader nears the bottom (hooks live above the loading return).
+  const [shown, setShown] = useState(BATCH)
+  const moreRef = useRef(null)
+  const rest = posts ? posts.slice(1) : []
+  useEffect(() => {
+    if (shown >= rest.length || !moreRef.current) return
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) setShown((n) => Math.min(n + BATCH, rest.length))
+    }, { rootMargin: '400px' })
+    io.observe(moreRef.current)
+    return () => io.disconnect()
+  }, [shown, rest.length])
+
+  if (posts === null) return <PageLoader label="Loading the blog" />
+  const lead = posts[0]
 
   return (
     <div className="page">
       <header className="sub-hero wrap">
-        <p className="eyebrow">The journal</p>
+        <p className="eyebrow">The blog</p>
         <h1 className="sub-hero__title">Notes from the road</h1>
         <p className="sub-hero__sub">Field notes, food and planning — short reads to make your trip better.</p>
       </header>
@@ -36,7 +54,7 @@ export default function BlogScreen() {
         )}
         {rest.length > 0 && <AdSlot format="leaderboard" slot="blog-leaderboard" />}
         <div className="grid grid--posts">
-          {rest.map((p) => (
+          {rest.slice(0, shown).map((p) => (
             <Link key={p.slug} to={paths.post(p.slug)} className="post-card">
               <div className="post-card__media"><img src={p.cover} alt={p.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} /></div>
               <div className="post-card__body">
@@ -47,7 +65,8 @@ export default function BlogScreen() {
               </div>
             </Link>
           ))}
-        </div>
+          {shown < rest.length && <div ref={moreRef} className="blog-sentinel" aria-hidden />}
+          </div>
       </main>
     </div>
   )

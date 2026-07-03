@@ -1,4 +1,4 @@
-import { sqliteTable, text, integer, index, uniqueIndex } from 'drizzle-orm/sqlite-core'
+import { sqliteTable, text, integer, real, index, uniqueIndex } from 'drizzle-orm/sqlite-core'
 import { sql } from 'drizzle-orm'
 
 const now = () => Date.now()
@@ -96,3 +96,52 @@ export const subscribers = sqliteTable('subscribers', {
   email: text('email').notNull().unique(),
   createdAt: integer('created_at').notNull().$defaultFn(now),
 })
+
+// ── airports ─────────────────────────────────────────────────────────────────
+// Arrival/departure airports offered in the trip planner, per country.
+export const airports = sqliteTable('airports', {
+  id: text('id').primaryKey(),                       // IATA code
+  countryId: text('country_id').notNull(),           // e.g. 'italy'
+  name: text('name').notNull(),
+  city: text('city').notNull(),
+  iata: text('iata').notNull(),
+  lat: real('lat').notNull(),
+  lng: real('lng').notNull(),
+  address: text('address'),
+}, (t) => ({
+  byCountry: index('airport_by_country').on(t.countryId),
+}))
+
+// ── site settings ────────────────────────────────────────────────────────────
+// Small key-value store for admin-editable site content (home hero, region
+// hero overrides, headline copy).
+export const siteSettings = sqliteTable('site_settings', {
+  key: text('key').primaryKey(),
+  value: text('value').notNull(),
+  updatedAt: integer('updated_at').notNull().$defaultFn(now),
+})
+
+// ── region visits ────────────────────────────────────────────────────────────
+// "Been here": regions a user marks as visited (feeds the travel map,
+// alongside places ticked off in trips).
+export const regionVisits = sqliteTable('region_visits', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+  countryId: text('country_id').notNull().default('italy'),
+  regionId: text('region_id').notNull(),
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+}, (t) => ({
+  userRegion: uniqueIndex('visit_user_region').on(t.userId, t.regionId),
+  byUser: index('visit_by_user').on(t.userId),
+}))
+
+// ── AI usage ─────────────────────────────────────────────────────────────────
+// Per-user daily counter so AI features can be free without being abusable.
+export const aiUsage = sqliteTable('ai_usage', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+  day: text('day').notNull(),
+  count: integer('count').notNull().default(0),
+}, (t) => ({
+  userDay: uniqueIndex('ai_usage_user_day').on(t.userId, t.day),
+}))

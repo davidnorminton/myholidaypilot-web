@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Download, Pencil, Trash2, ArrowUpRight, ShieldAlert,
-  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail,
-} from 'lucide-react'
+  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles } from 'lucide-react'
 import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
@@ -15,8 +14,11 @@ import AdminHub from '../components/admin/AdminHub.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
 import AdminSeo from '../components/admin/AdminSeo.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
+import AdminSite from '../components/admin/AdminSite.jsx'
+import AdminAi from '../components/admin/AdminAi.jsx'
 
 const SECTIONS = [
+  { id: 'site', label: 'Site', icon: Home },
   { id: 'journal', label: 'Blog', icon: PenLine },
   { id: 'hub', label: 'Italy page', icon: LayoutGrid },
   { id: 'places', label: 'Places', icon: MapPin },
@@ -24,6 +26,7 @@ const SECTIONS = [
   { id: 'affiliates', label: 'Affiliates', icon: BadgePercent },
   { id: 'audience', label: 'Newsletter', icon: Mail },
   { id: 'seo', label: 'SEO', icon: Globe },
+  { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'export', label: 'Export', icon: FileJson },
 ]
 
@@ -75,12 +78,14 @@ export default function AdminScreen() {
 
       <main className="wrap admin">
         {section === 'journal' && <AdminBlog />}
+        {section === 'site' && <AdminSite regions={regions} />}
         {section === 'hub' && <AdminHub />}
         {section === 'places' && <AdminPlaces regions={regions} />}
         {section === 'images' && <AdminImages regions={regions} />}
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
         {section === 'seo' && <AdminSeo />}
+        {section === 'ai' && <AdminAi />}
         {section === 'export' && <AdminExport regions={regions} />}
       </main>
     </div>

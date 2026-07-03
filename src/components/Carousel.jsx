@@ -9,9 +9,7 @@ export default function Carousel({ images = [], height = 460, label = '' }) {
   const [i, setI] = useState(0)
   const touch = useRef(null)
   const n = images.length
-  if (n === 0) return null
-
-  const go = (next) => setI((cur) => (next + n) % n)
+  const go = (next) => { if (n > 0) setI(() => (next + n) % n) }
 
   useEffect(() => {
     const onKey = (e) => {
@@ -22,6 +20,8 @@ export default function Carousel({ images = [], height = 460, label = '' }) {
     return () => window.removeEventListener('keydown', onKey)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [i, n])
+
+  if (n === 0) return null
 
   const onTouchStart = (e) => { touch.current = e.touches[0].clientX }
   const onTouchEnd = (e) => {

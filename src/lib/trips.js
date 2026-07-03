@@ -112,8 +112,8 @@ export function getSnapshot() { return state }
 export function useTrips() { return useSyncExternalStore(subscribe, getSnapshot, getSnapshot) }
 
 // ── mutations ──
-export function createTrip(name = 'My trip') {
-  const trip = { id: uid(), name, createdAt: Date.now(), places: [] }
+export function createTrip(name = 'My trip', countryId = 'italy') {
+  const trip = { id: uid(), name, countryId, createdAt: Date.now(), places: [] }
   set({ trips: [...state.trips, trip], activeTripId: trip.id })
   return trip.id
 }
@@ -238,6 +238,8 @@ export function importTrip(data) {
   const trip = {
     id: uid(), createdAt: Date.now(),
     name: data.name || 'Shared trip',
+    countryId: data.countryId || 'italy',
+    story: data.story?.text ? { text: data.story.text, generatedAt: Date.now() } : undefined,
     startDate: data.startDate || '', endDate: data.endDate || '',
     places: (data.places || []).map((p) => ({ ...p })),
     stays: (data.stays || []).map((x) => ({ ...x, id: uid() })),
@@ -278,6 +280,52 @@ export function setPlaceDate(tripId, regionId, placeId, date) {
 
 // A place counts as "locked in" once it has a day or any picks; clears when
 // everything is removed. Manual ticks still work in between.
+// Re-derive a place's done ("locked in") state from whether it's planned —
+// used when the planner popup closes, so a manual untick doesn't linger after
+// the person has clearly planned the place.
+// ── story ────────────────────────────────────────────────────────────────────
+export function setStory(tripId, story) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, story } : t)) })
+}
+
+// ── budget ───────────────────────────────────────────────────────────────────
+export function setBudget(tripId, budget) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, budget } : t)) })
+}
+export function setBudgetOverride(tripId, key, value) {
+  set({
+    ...state,
+    trips: state.trips.map((t) => {
+      if (t.id !== tripId || !t.budget) return t
+      const overrides = { ...(t.budget.overrides || {}) }
+      if (value === null || value === '' || !Number.isFinite(Number(value))) delete overrides[key]
+      else overrides[key] = Number(value)
+      return { ...t, budget: { ...t.budget, overrides } }
+    }),
+  })
+}
+
+// ── packing list ─────────────────────────────────────────────────────────────
+export function setPacking(tripId, packing) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, packing } : t)) })
+}
+export function togglePackingItem(tripId, catIdx, itemIdx) {
+  set({
+    ...state,
+    trips: state.trips.map((t) => {
+      if (t.id !== tripId || !t.packing) return t
+      const cats = t.packing.categories.map((c, ci) => ci !== catIdx ? c : {
+        ...c, items: c.items.map((it, ii) => ii !== itemIdx ? it : { ...it, done: !it.done }),
+      })
+      return { ...t, packing: { ...t.packing, categories: cats } }
+    }),
+  })
+}
+
+export function refreshPlaceDone(tripId, regionId, placeId) {
+  updatePlace(tripId, regionId, placeId, (p) => withAutoDone(p))
+}
+
 function withAutoDone(p) {
   const planned = !!(p.date || p.attractions?.length || p.restaurants?.length)
   return { ...p, done: planned }
@@ -314,7 +362,7 @@ export function movePlaceTo(tripId, regionId, placeId, targetDate, beforeRegionI
       const from = places.findIndex((p) => p.regionId === regionId && p.placeId === placeId)
       if (from < 0) return t
       const [moved] = places.splice(from, 1)
-      const next = { ...moved, date: targetDate || '' }
+      const next = withAutoDone({ ...moved, date: targetDate || '' })
       let insertIdx
       if (beforeRegionId) {
         insertIdx = places.findIndex((p) => p.regionId === beforeRegionId && p.placeId === beforePlaceId)

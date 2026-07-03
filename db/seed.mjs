@@ -2,6 +2,7 @@ import 'dotenv/config'
 import { readFileSync } from 'node:fs'
 import { getDb, schema } from './client.js'
 import { sql } from 'drizzle-orm'
+import { AIRPORTS_ITALY } from './airports-data.mjs'
 
 const db = getDb()
 
@@ -43,6 +44,10 @@ for (const p of POSTS) {
   })
 }
 console.log(`✓ seeded ${POSTS.length} blog posts`)
+
+// airports (idempotent)
+await db.insert(schema.airports).values(AIRPORTS_ITALY).onConflictDoNothing()
+console.log(`✓ ${AIRPORTS_ITALY.length} airports seeded`)
 
 const [{ c }] = await db.select({ c: sql`count(*)` }).from(schema.blogPosts)
 console.log('  blog_posts rows:', c)

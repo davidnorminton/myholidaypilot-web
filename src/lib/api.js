@@ -34,22 +34,37 @@ export const api = {
     add: (regionId, placeId) => req('POST', '/favourites', { regionId, placeId }),
     remove: (regionId, placeId) => req('DELETE', `/favourites?regionId=${encodeURIComponent(regionId)}&placeId=${encodeURIComponent(placeId)}`),
   },
+  ai: {
+    models: () => req('GET', '/ai?action=models'),
+    packing: (payload) => req('POST', '/ai?action=packing', payload),
+    budget: (payload) => req('POST', '/ai?action=budget', payload),
+    narrate: (payload) => req('POST', '/ai?action=narrate', payload),
+    blogPost: (payload) => req('POST', '/ai?action=blog', payload),
+  },
+  visits: {
+    list: () => req('GET', '/visits'),
+    add: (regionId, countryId) => req('POST', '/visits', { regionId, countryId }),
+    remove: (regionId) => req('DELETE', `/visits?regionId=${encodeURIComponent(regionId)}`),
+  },
+  settings: {
+    get: () => req('GET', '/settings'),
+    getAll: () => req('GET', '/settings?all=1'),
+    save: (obj) => req('PUT', '/settings', obj),
+  },
+  airports: {
+    list: (country = 'italy') => req('GET', `/airports?country=${encodeURIComponent(country)}`),
+  },
   trips: {
     list: () => req('GET', '/trips'),
-    create: (data) => req('POST', '/trips', data),
-    get: (id) => req('GET', `/trips/${id}`),
-    update: (id, data) => req('PATCH', `/trips/${id}`, data),
-    remove: (id) => req('DELETE', `/trips/${id}`),
-    addPlace: (data) => req('POST', '/trip-places', data),
-    updatePlace: (data) => req('PATCH', '/trip-places', data),
-    removePlace: (tripId, regionId, placeId) =>
-      req('DELETE', `/trip-places?tripId=${tripId}&regionId=${encodeURIComponent(regionId)}&placeId=${encodeURIComponent(placeId)}`),
+    upsert: (trip) => req('POST', '/trips', trip),
+    remove: (id) => req('DELETE', `/trips?id=${encodeURIComponent(id)}`),
   },
   subscribe: {
     add: (email) => req('POST', '/subscribe', { email }),
     list: () => req('GET', '/subscribe'),
   },
   comments: {
+    mine: () => req('GET', '/comments?mine=1'),
     list: ({ countryId, targetType, regionId, placeId }) => {
       const q = new URLSearchParams({ country: countryId, type: targetType, region: regionId })
       if (placeId) q.set('place', placeId)

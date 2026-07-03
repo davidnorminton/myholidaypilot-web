@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble, Plane, TrainFront, ChevronRight } from 'lucide-react'
 import { paths } from '../lib/paths.js'
 import { typeLabel, mapsUrl } from '../lib/format.js'
+import TripStory from './TripStory.jsx'
 import { movePlaceTo, addPlace, setPlaceDate, stayForDay } from '../lib/trips.js'
 import MapView from './MapView.jsx'
 import { bestRoute, kmBetween as legKm } from '../lib/route.js'
@@ -252,6 +253,7 @@ export default function Itinerary({ trip, onPlan }) {
 
   return (
     <div className="itin">
+      <TripStory trip={trip} />
 
       {isLive && days.some((d) => d.date === todayIso) && (
         <button className="itin-today" onClick={() => todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
@@ -294,7 +296,6 @@ export default function Itinerary({ trip, onPlan }) {
             </div>
           )}
           <MapView height={300} center={[markers[0].lng, markers[0].lat]} zoom={dayFilter ? 9 : 6} markers={markers} />
-          <TripRouteSummary days={days} markersForDay={markersForDay} dayFilter={dayFilter} />
         </>
       )}
 
@@ -315,8 +316,8 @@ export default function Itinerary({ trip, onPlan }) {
               {drag ? 'Drop here' : visitingPicks(d.date).length ? 'No base here — but plans below' : 'Open — nothing planned yet'}
             </span>
             <VisitingPicks items={visitingPicks(d.date)} />
-            <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} />
-            <DaySuggestions items={suggestionsFor(d.date)} onAdd={(sug) => addSuggestion(sug, d.date)} />
+            <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} first={d.n === 1} />
+            <DaySuggestions items={suggestionsFor(d.date)} onAdd={(sug) => addSuggestion(sug, d.date)} from={trip.places.find((p) => p.regionId && p.placeId && p.lat) || null} />
           </div>
         ) : (
           <section key={d.date} data-day={d.date} ref={d.date === todayIso ? todayRef : undefined}
@@ -334,7 +335,7 @@ export default function Itinerary({ trip, onPlan }) {
                 </button>
               )}
             </header>
-            <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} />
+            <DayMap markers={hasMapbox ? markersForDay(d.date) : []} routed={routedDays.has(d.date)} first={d.n === 1} />
             <DayTransit anchor={(stayForDay(trip, d.date) || d.places.find((p) => p.lat)) || null} />
             <VisitingPicks items={visitingPicks(d.date)} />
             <div className="iday__places">
@@ -437,65 +438,6 @@ function rangeLabel(start, end) {
   return `${f(start)} ${new Date(start).getFullYear()}`
 }
 
-// Under the overview map: collapsible per-day rows, each expanding into a
-// timeline of the day's visits with the distance between every stop.
-function TripRouteSummary({ days, markersForDay, dayFilter }) {
-  const [open, setOpen] = useState(() => new Set())
-  const toggle = (n) => setOpen((prev) => { const x = new Set(prev); x.has(n) ? x.delete(n) : x.add(n); return x })
-
-  const rows = []
-  let total = 0
-  for (const d of days) {
-    if (dayFilter && d.date !== dayFilter) continue
-    const ms = markersForDay(d.date)
-    if (ms.length < 2) continue
-    const { seq, km, loop } = dayRoute(ms)
-    const back = loop ? legKm(seq[seq.length - 1], seq[0]) : 0
-    total += km + back
-    rows.push({ n: d.n, date: d.date, seq, km: km + back, loop, back })
-  }
-  if (!rows.length) return null
-
-  return (
-    <div className="rs">
-      {rows.map((r) => (
-        <div key={r.n} className="rs__day">
-          <button className="rs__head" onClick={() => toggle(r.n)} aria-expanded={open.has(r.n)}>
-            <ChevronRight size={15} className={`rs__chev ${open.has(r.n) ? 'is-open' : ''}`} />
-            <span className="rs__title">Day {r.n}</span>
-            <span className="rs__date">{fmtShort(r.date)}</span>
-            <span className="rs__stops">{r.seq.length + (r.loop ? 1 : 0)} stops</span>
-            <span className="rs__km">≈ {fmtKm(r.km)} km</span>
-          </button>
-          {open.has(r.n) && (
-            <ol className="rs__timeline">
-              {r.seq.map((m, i) => (
-                <Fragment key={i}>
-                  <li className="rs__stop">
-                    <i className="rs__dot" style={{ background: m.color }} />
-                    <span className="rs__name">{m.label}</span>
-                  </li>
-                  {i < r.seq.length - 1 && <li className="rs__leg">{fmtKm(legKm(m, r.seq[i + 1]))} km</li>}
-                </Fragment>
-              ))}
-              {r.loop && (
-                <>
-                  <li className="rs__leg">{fmtKm(r.back)} km</li>
-                  <li className="rs__stop">
-                    <i className="rs__dot" style={{ background: '#3a3733' }} />
-                    <span className="rs__name">Back to your stay</span>
-                  </li>
-                </>
-              )}
-            </ol>
-          )}
-        </div>
-      ))}
-      {rows.length > 1 && <p className="rs__grand">Trip total ≈ {fmtKm(total)} km (straight-line, per-day routes)</p>}
-    </div>
-  )
-}
-
 // The day's route total, shown in the day header.
 function DayKm({ markers }) {
   if (markers.length < 2) return null
@@ -538,9 +480,9 @@ function DayWeather({ date, anchor }) {
   )
 }
 
-// One-tap nearby ideas for an empty day.
-function DaySuggestions({ items, onAdd }) {
-  if (!items.length) return null
+// One-tap nearby ideas for an empty day, plus a door into the day-trip finder.
+function DaySuggestions({ items, onAdd, from }) {
+  if (!items.length && !from) return null
   return (
     <div className="iday__sugs">
       <span className="iday__sugslabel"><Sparkles size={13} /> Nearby ideas:</span>
@@ -549,6 +491,11 @@ function DaySuggestions({ items, onAdd }) {
           + {sug.name} <em>{sug.d < 10 ? sug.d.toFixed(1) : Math.round(sug.d)} km</em>
         </button>
       ))}
+      {from && (
+        <Link className="iday__sug iday__sug--more" to={`/day-trips?from=${from.regionId}/${from.placeId}`}>
+          More day trips →
+        </Link>
+      )}
     </div>
   )
 }
@@ -628,7 +575,7 @@ function dayRoute(markers) {
 // Compact map of one day's places + picks. Renders nothing without markers.
 // With `routed`, stops are ordered by proximity (starting from the day's place),
 // pins numbered in visiting order, the path drawn, and the legs listed.
-function DayMap({ markers, routed = false }) {
+function DayMap({ markers, routed = false, first = false }) {
   if (!markers.length) return null
   const { seq, km, loop } = dayRoute(markers)
 
@@ -638,7 +585,7 @@ function DayMap({ markers, routed = false }) {
         <div className="iday__map">
           <MapView height={210} center={[markers[0].lng, markers[0].lat]} zoom={10} markers={markers} />
         </div>
-        <RouteSummary seq={seq} km={km} loop={loop} />
+        <RouteSummary seq={seq} km={km} loop={loop} defaultOpen={first} />
       </>
     )
   }
@@ -651,29 +598,51 @@ function DayMap({ markers, routed = false }) {
       <div className="iday__map">
         <MapView height={230} center={[seq[0].lng, seq[0].lat]} zoom={10} markers={numbered} route={line} />
       </div>
-      <RouteSummary seq={seq} km={km} loop={loop} />
+      <RouteSummary seq={seq} km={km} loop={loop} defaultOpen={first} />
     </>
   )
 }
 
-// Prose route summary: "Recommended route: A › 1.2 km › B … · total ≈ N km"
 const fmtKm = (n) => (n < 10 ? n.toFixed(1) : String(Math.round(n)))
-function RouteSummary({ seq, km, loop = false }) {
+
+// The vertical stop-by-stop timeline (shared by day summaries and the trip digest).
+function RouteTimeline({ seq, loop = false, back = 0 }) {
+  return (
+    <ol className="rs__timeline">
+      {seq.map((m, i) => (
+        <Fragment key={i}>
+          <li className="rs__stop">
+            <i className="rs__dot" style={{ background: m.color }} />
+            <span className="rs__name">{m.label}</span>
+          </li>
+          {i < seq.length - 1 && <li className="rs__leg">{fmtKm(legKm(m, seq[i + 1]))} km</li>}
+        </Fragment>
+      ))}
+      {loop && (
+        <>
+          <li className="rs__leg">{fmtKm(back)} km</li>
+          <li className="rs__stop"><i className="rs__dot" style={{ background: '#3a3733' }} /><span className="rs__name">Back to your stay</span></li>
+        </>
+      )}
+    </ol>
+  )
+}
+
+// Collapsible "Recommended route" under each day map — same style as the trip digest.
+function RouteSummary({ seq, km, loop = false, defaultOpen = false }) {
+  const [open, setOpen] = useState(defaultOpen)
   if (seq.length < 2) return null
   const back = loop ? legKm(seq[seq.length - 1], seq[0]) : 0
   return (
-    <p className="routesum">
-      <b>Recommended route:</b>{' '}
-      {seq.map((m, i) => (
-        <Fragment key={i}>
-          <span className="routesum__stop"><i className="routesum__dot" style={{ background: m.color }} />{m.label}</span>
-          {i < seq.length - 1 && <span className="routesum__km">{fmtKm(legKm(m, seq[i + 1]))} km ›</span>}
-        </Fragment>
-      ))}
-      {loop && <span className="routesum__km">{fmtKm(back)} km ›</span>}
-      {loop && <span className="routesum__stop"><i className="routesum__dot" style={{ background: '#3a3733' }} />back to your stay</span>}
-      <em className="routesum__total"> · total ≈ {fmtKm(km + back)} km</em>
-    </p>
+    <div className="rs__day rs__day--inline">
+      <button className="rs__head" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
+        <ChevronRight size={15} className={`rs__chev ${open ? 'is-open' : ''}`} />
+        <span className="rs__title">Recommended route</span>
+        <span className="rs__stops">{seq.length + (loop ? 1 : 0)} stops</span>
+        <span className="rs__km">≈ {fmtKm(km + back)} km</span>
+      </button>
+      {open && <RouteTimeline seq={seq} loop={loop} back={back} />}
+    </div>
   )
 }
 

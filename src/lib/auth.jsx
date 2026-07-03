@@ -85,12 +85,13 @@ export function AuthProvider({ children }) {
   }, [])
 
   // Keep the API client's auth header in sync with the signed-in user.
-  useEffect(() => {
-    if (!user) return setApiAuth({})
-    if (user.dev) setApiAuth({ devEmail: user.email, devId: user.sub, devName: user.name })
-    else if (user.credential) setApiAuth({ credential: user.credential })
-    else setApiAuth({})
-  }, [user])
+  // Done synchronously during render (it only assigns a module variable):
+  // child effects (favourites/trips/visits syncs) run before parent effects,
+  // so an effect here would let the first API calls go out unauthenticated.
+  if (!user) setApiAuth({})
+  else if (user.dev) setApiAuth({ devEmail: user.email, devId: user.sub, devName: user.name })
+  else if (user.credential) setApiAuth({ credential: user.credential })
+  else setApiAuth({})
 
   const isAdmin = !!user && (ADMIN_EMAILS.length === 0 || ADMIN_EMAILS.includes((user.email || '').toLowerCase()))
 

@@ -4,7 +4,7 @@ import { useTrips, activeTrip, addPlace, removePlace, createTrip } from '../lib/
 import { paths } from '../lib/paths.js'
 import { useAuth } from '../lib/auth.jsx'
 
-export default function AddToTrip({ place }) {
+export default function AddToTrip({ place, compact = false }) {
   const { user } = useAuth()
   const snap = useTrips()
   const trip = activeTrip(snap)
@@ -24,7 +24,7 @@ export default function AddToTrip({ place }) {
 
   return (
     <div className="addtrip">
-      <button className={`btn-add ${inTrip ? 'btn-add--on' : ''}`} onClick={onClick}>
+      <button className={`btn-add ${inTrip ? 'btn-add--on' : ''} ${compact ? 'btn-add--sm' : ''}`} onClick={onClick}>
         {inTrip ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}
         {inTrip ? `Saved to ${trip.name}` : trip ? `Add to ${trip.name}` : 'Add to trip'}
       </button>

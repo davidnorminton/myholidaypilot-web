@@ -6,6 +6,4 @@ export const COUNTRIES = [
   { slug: 'spain',    name: 'Spain',    flag: '🇪🇸', available: false },
   { slug: 'france',   name: 'France',   flag: '🇫🇷', available: false },
   { slug: 'greece',   name: 'Greece',   flag: '🇬🇷', available: false },
-  { slug: 'portugal', name: 'Portugal', flag: '🇵🇹', available: false },
-  { slug: 'croatia',  name: 'Croatia',  flag: '🇭🇷', available: false },
 ]

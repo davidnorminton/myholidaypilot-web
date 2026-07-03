@@ -20,6 +20,16 @@ export default function SharedTripScreen() {
   const { user } = useAuth()
   useSeo({ title: trip ? `${trip.name} (shared trip)` : 'Shared trip', path: '/plan' })
 
+  const days = useMemo(() => {
+    const by = new Map()
+    for (const p of (trip?.places || [])) {
+      const k = p.date || ''
+      if (!by.has(k)) by.set(k, [])
+      by.get(k).push(p)
+    }
+    return [...by.entries()].sort(([a], [b]) => (a || '9999').localeCompare(b || '9999'))
+  }, [trip])
+
   if (!trip) {
     return (
       <div className="page wrap">
@@ -28,15 +38,6 @@ export default function SharedTripScreen() {
     )
   }
 
-  const days = useMemo(() => {
-    const by = new Map()
-    for (const p of trip.places) {
-      const k = p.date || ''
-      if (!by.has(k)) by.set(k, [])
-      by.get(k).push(p)
-    }
-    return [...by.entries()].sort(([a], [b]) => (a || '9999').localeCompare(b || '9999'))
-  }, [trip])
 
   const hasMapbox = !!import.meta.env.VITE_MAPBOX_TOKEN
   const stayFor = (key) => (key ? (trip.stays || []).find((x) => x.from && x.to && x.from <= key && key <= x.to) : null)
@@ -69,6 +70,12 @@ export default function SharedTripScreen() {
           {regions.size > 0 && <> across {regions.size} region{regions.size === 1 ? '' : 's'}</>}
         </p>
       </header>
+
+      {trip.story?.text && (
+        <div className="wrap">
+          <div className="story story--shared"><p className="story__text">{trip.story.text}</p></div>
+        </div>
+      )}
 
       <main className="wrap" style={{ paddingBottom: 50 }}>
         <div className="admin__bar" style={{ marginBottom: 24 }}>

@@ -10,6 +10,8 @@ const cls = ({ isActive }) => 'nav__link' + (isActive ? ' nav__link--on' : '')
 const LINKS = [
   { to: paths.destinations(), label: 'Destinations' },
   { to: paths.plan(), label: 'Plan' },
+  { to: paths.guided(), label: 'Guided planner' },
+  { to: paths.dayTrips(), label: 'Day trips' },
   { to: paths.blog(), label: 'Blog' },
   { to: paths.app(), label: 'Get the app' },
 ]
@@ -24,7 +26,7 @@ export default function TopBar() {
     <header className="topbar">
       <div className="wrap topbar__inner">
         <Link to={paths.home()} className="brand" aria-label="myholidaypilot home">
-          <span className="brand__mark"><Logo size={19} /></span>
+          <span className="brand__mark"><Logo size={40} /></span>
           <span className="brand__name"><span className="brand__my">my</span>holidaypilot</span>
         </Link>
 

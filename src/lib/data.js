@@ -15,20 +15,20 @@ function getJSON(rel) {
   return p
 }
 
-export const getIndex = () => getJSON('index.json')
-export const getPlacesIndex = () => getJSON('places-index.json')
-export const getGuide = (topic) => getJSON(`guide/${topic}.json`)
-export async function getHub() {
-  const base = await getJSON('hub.json').catch(() => ({ sections: [] }))
+export const getIndex = (country = 'italy') => getJSON(`${country}/index.json`)
+export const getPlacesIndex = (country = 'italy') => getJSON(`${country}/places-index.json`)
+export const getGuide = (topic, country = 'italy') => getJSON(`${country}/guide/${topic}.json`)
+export async function getHub(country = 'italy') {
+  const base = await getJSON(`${country}/hub.json`).catch(() => ({ sections: [] }))
   return hubOverride() || base
 }
 
-export async function getRegion(id) {
-  const baseRegion = await getJSON(`regions/${id}.json`)
+export async function getRegion(id, country = 'italy') {
+  const baseRegion = await getJSON(`${country}/regions/${id}.json`)
   return regionOverride(id) || baseRegion
 }
-export async function getImages() {
-  const baseImages = await getJSON('images.json').catch(() => ({}))
+export async function getImages(country = 'italy') {
+  const baseImages = await getJSON(`${country}/images.json`).catch(() => ({}))
   return imagesOverride() || baseImages
 }
 export async function getAffiliates() {
@@ -37,7 +37,7 @@ export async function getAffiliates() {
 }
 
 // fetch the on-disk base (ignoring overrides) — used by Export to diff/regenerate
-export const getBaseRegion = (id) => getJSON(`regions/${id}.json`)
+export const getBaseRegion = (id, country = 'italy') => getJSON(`${country}/regions/${id}.json`)
 
 export async function placeImages(regionId, placeId) {
   const all = await getImages().catch(() => ({}))

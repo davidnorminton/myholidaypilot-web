@@ -44,6 +44,10 @@ export default function MapView({ center, zoom = 11, markers = [], height = 320,
           center,
           zoom,
           attributionControl: true,
+          // Scrolling the page over the map should scroll the page — zooming
+          // needs Ctrl/Cmd + scroll (Mapbox shows the hint), and on touch
+          // devices two fingers move the map while one scrolls the page.
+          cooperativeGestures: true,
         })
         map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right')
         const bounds = new mapboxgl.LngLatBounds()

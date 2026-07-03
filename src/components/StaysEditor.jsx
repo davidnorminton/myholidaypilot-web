@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { BedDouble, Plus, Trash2, MapPin, Search, Check } from 'lucide-react'
 import { addStay, updateStay, removeStay } from '../lib/trips.js'
+import { useAffiliates, buildUrl } from '../lib/affiliates.js'
+import AffLink from './AffLink.jsx'
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 const TYPES = ['hotel', 'B&B', 'apartment', 'agriturismo', 'villa', 'hostel', 'camping', 'friends & family']
@@ -93,6 +95,8 @@ function StayForm({ trip, initial, onDone }) {
 }
 
 export default function StaysEditor({ trip }) {
+  const affCfg = useAffiliates()
+  const base = trip.places.find((p) => p.regionName && !p.isCustom)
   const [adding, setAdding] = useState(false)
   const [editing, setEditing] = useState(null)
   const stays = [...(trip.stays || [])].sort((a, b) => (a.from || '').localeCompare(b.from || ''))
@@ -128,6 +132,11 @@ export default function StaysEditor({ trip }) {
         <StayForm trip={trip} onDone={() => setAdding(false)} />
       ) : (
         <button className="btn btn--soft stays__add" onClick={() => setAdding(true)}><Plus size={15} /> Add a stay</button>
+      )}
+      {base && (
+        <AffLink href={affCfg && buildUrl(affCfg.booking, { location: `${base.name} ${base.regionName}` })}>
+          Find hotels in {base.name} on Booking.com
+        </AffLink>
       )}
     </section>
   )

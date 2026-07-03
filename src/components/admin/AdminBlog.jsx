@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
-import { Plus, Pencil, Trash2, ArrowUpRight, Save, X, Eye, Code2, RefreshCw } from 'lucide-react'
+import { Plus, Pencil, Trash2, ArrowUpRight, Save, X, Eye, Code2, RefreshCw, Sparkles } from 'lucide-react'
 import { api } from '../../lib/api.js'
 import { bodyToHtml } from '../../lib/blogStore.js'
 import ImageField from '../ImageField.jsx'
@@ -16,6 +16,11 @@ export default function AdminBlog() {
   const [form, setForm] = useState(null)
   const [busy, setBusy] = useState(false)
   const [tab, setTab] = useState('write')  // mobile preview toggle
+  // AI drafting state — must live here, unconditionally, per the Rules of Hooks
+  const [aiTopic, setAiTopic] = useState('')
+  const [aiNotes, setAiNotes] = useState('')
+  const [aiBusy, setAiBusy] = useState(false)
+  const [aiError, setAiError] = useState('')
 
   const load = useCallback(() => {
     api.posts.list(true).then((rows) => setList(rows || [])).catch(() => setList(false))
@@ -66,6 +71,25 @@ export default function AdminBlog() {
   // ── editor ──────────────────────────────────────────────────────────────────
   if (form) {
     const set = (p) => setForm({ ...form, ...p })
+
+    // ── AI drafting: aware of the whole archive, fillable, regenerable ──
+    const aiDraft = async () => {
+      setAiBusy(true); setAiError('')
+      try {
+        const existing = (list || []).map((p) => ({ title: p.title, tag: p.tag, dek: p.dek }))
+        const styleSample = (list || []).find((p) => p.body)?.body?.slice(0, 1800) || ''
+        const res = await api.ai.blogPost({ topic: aiTopic, notes: aiNotes, existing, styleSample })
+        set({
+          title: res.title,
+          slug: form._orig ? form.slug : slugify(res.title),
+          tag: res.tag,
+          dek: res.excerpt,
+          body: res.html,
+        })
+      } catch (e) {
+        setAiError(e.message || 'Could not draft the post')
+      } finally { setAiBusy(false) }
+    }
     return (
       <div className="blogcms">
         <div className="blogcms__bar">
@@ -74,6 +98,28 @@ export default function AdminBlog() {
           <button className="btn btn--soft" onClick={() => setForm(null)}><X size={15} /> Cancel</button>
           <button className="btn btn--soft" onClick={() => save(false)} disabled={!form.title.trim() || busy}><Save size={15} /> Save draft</button>
           <button className="btn btn--primary" onClick={() => save(true)} disabled={!form.title.trim() || busy}>{busy ? 'Saving…' : 'Publish'}</button>
+        </div>
+
+        <div className="blogcms__ai">
+          <label className="admin-field admin-field--full">
+            <span className="admin-field__label"><Sparkles size={13} /> Draft with AI — topic</span>
+            <input value={aiTopic} onChange={(e) => setAiTopic(e.target.value)}
+              placeholder="e.g. Italy's lakes beyond Como — where locals actually go" />
+          </label>
+          <label className="admin-field admin-field--full">
+            <span className="admin-field__label">Notes for the writer (optional)</span>
+            <input value={aiNotes} onChange={(e) => setAiNotes(e.target.value)}
+              placeholder="angle, must-mention places, things to avoid…" />
+          </label>
+          <div className="admin__bar">
+            <button className="btn btn--soft" onClick={aiDraft} disabled={aiBusy || !aiTopic.trim()}>
+              {aiBusy ? <><RefreshCw size={14} className="pk__spin" /> Drafting…</>
+                : form.body ? <><RefreshCw size={14} /> Regenerate draft</>
+                : <><Sparkles size={14} /> Draft this post</>}
+            </button>
+            <span className="admin-note">Knows every published post — it complements the archive rather than repeating it. Fills the fields below; everything stays editable.</span>
+          </div>
+          {aiError && <p className="admin-ai__error">{aiError}</p>}
         </div>
 
         <div className="blogcms__meta">
