@@ -29,5 +29,5 @@ export function decodeTrip(code) {
 }
 
 export function shareUrl(trip) {
-  return `${location.origin}${location.pathname}#/trip/${encodeTrip(trip)}`
+  return `${location.origin}/trip/${encodeTrip(trip)}`
 }

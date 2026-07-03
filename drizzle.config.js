@@ -6,7 +6,7 @@ export default defineConfig({
   out: './db/migrations',
   dialect: 'turso', // libSQL — works for both a local file: URL and a hosted Turso URL
   dbCredentials: {
-    url: process.env.DATABASE_URL || 'file:./local.db',
+    url: process.env.DATABASE_URL || process.env.TURSO_DATABASE_URL || 'file:./local.db',
     authToken: process.env.DATABASE_AUTH_TOKEN,
   },
 })
