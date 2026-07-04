@@ -2396,3 +2396,8 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .bld__detailnote--err{color:#b4552d}
 
 .bld__guideacts{display:flex; gap:6px}
+
+.blogcms__aitop{display:flex; gap:12px; align-items:flex-end}
+.blogcms__aitop .admin-field--full{flex:1}
+.blogcms__country{width:180px; flex:none}
+.blogcms__country select{padding:9px 11px; border:1px solid var(--line); border-radius:9px; background:var(--paper); color:var(--ink); font-size:13.5px; width:100%}

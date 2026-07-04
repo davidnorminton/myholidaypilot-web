@@ -2,6 +2,7 @@ import { useEffect, useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { Plus, Pencil, Trash2, ArrowUpRight, Save, X, Eye, Code2, RefreshCw, Sparkles } from 'lucide-react'
 import { api } from '../../lib/api.js'
+import { COUNTRIES } from '../../lib/countries.js'
 import { bodyToHtml } from '../../lib/blogStore.js'
 import ImageField from '../ImageField.jsx'
 import { paths } from '../../lib/paths.js'
@@ -18,6 +19,7 @@ export default function AdminBlog() {
   const [tab, setTab] = useState('write')  // mobile preview toggle
   // AI drafting state — must live here, unconditionally, per the Rules of Hooks
   const [aiTopic, setAiTopic] = useState('')
+  const [aiCountry, setAiCountry] = useState('')
   const [aiNotes, setAiNotes] = useState('')
   const [aiBusy, setAiBusy] = useState(false)
   const [aiError, setAiError] = useState('')
@@ -79,7 +81,8 @@ export default function AdminBlog() {
         const existing = (list || []).map((p) => ({ title: p.title, tag: p.tag, dek: p.dek }))
         const styleSample = (list || []).find((p) => p.body)?.body?.slice(0, 1800) || ''
         const topic = aiTopic.trim() || form.title || ''
-        const res = await api.ai.blogPost({ topic, notes: aiNotes, existing, styleSample })
+        const countryName = (COUNTRIES.find((c) => c.slug === aiCountry) || {}).name || ''
+        const res = await api.ai.blogPost({ topic, notes: aiNotes, existing, styleSample, country: countryName })
         set({
           title: res.title,
           slug: form._orig ? form.slug : slugify(res.title),
@@ -102,11 +105,22 @@ export default function AdminBlog() {
         </div>
 
         <div className="blogcms__ai">
-          <label className="admin-field admin-field--full">
-            <span className="admin-field__label"><Sparkles size={13} /> Draft with AI — topic</span>
-            <input value={aiTopic} onChange={(e) => setAiTopic(e.target.value)}
-              placeholder="e.g. Italy's lakes beyond Como — where locals actually go" />
-          </label>
+          <div className="blogcms__aitop">
+            <label className="admin-field blogcms__country">
+              <span className="admin-field__label">Country</span>
+              <select value={aiCountry} onChange={(e) => setAiCountry(e.target.value)}>
+                <option value="">Any / general</option>
+                {COUNTRIES.filter((c) => c.available).map((c) => (
+                  <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
+                ))}
+              </select>
+            </label>
+            <label className="admin-field admin-field--full">
+              <span className="admin-field__label"><Sparkles size={13} /> Draft with AI — topic</span>
+              <input value={aiTopic} onChange={(e) => setAiTopic(e.target.value)}
+                placeholder="e.g. Italy's lakes beyond Como — where locals actually go" />
+            </label>
+          </div>
           <label className="admin-field admin-field--full">
             <span className="admin-field__label">Notes for the writer (optional)</span>
             <input value={aiNotes} onChange={(e) => setAiNotes(e.target.value)}

@@ -208,15 +208,16 @@ Respond with ONLY valid JSON, no fences: {"story":"..."}`
     if (!model) throw fail(400, 'No AI model selected yet')
 
     const b = await readBody(req)
-    const { topic, notes = '', existing = [], styleSample = '' } = b || {}
+    const { topic, notes = '', existing = [], styleSample = '', country = '' } = b || {}
     if (!topic) throw fail(400, 'A topic is required')
 
     const archive = existing.slice(0, 40)
       .map((p) => `- "${String(p.title).slice(0, 90)}" (${String(p.tag || '').slice(0, 20)}): ${String(p.dek || '').slice(0, 140)}`)
       .join('\n')
 
-    const prompt = `Write a blog post for myholidaypilot, a travel-guide site (currently focused on Italy) with a quiet, editorial voice — practical, warm, honest, never listicle-breathless.
-
+    const countryLine = country ? `The post is about ${String(country).slice(0, 40)} — ground every recommendation, place and cultural detail firmly in ${String(country).slice(0, 40)}.` : ''
+    const prompt = `Write a blog post for myholidaypilot, a travel-guide site covering Italy, Spain and more, with a quiet, editorial voice — practical, warm, honest, never listicle-breathless.
+${countryLine}
 TOPIC: ${String(topic).slice(0, 200)}
 ${notes ? `EDITOR'S NOTES: ${String(notes).slice(0, 400)}` : ''}
 
