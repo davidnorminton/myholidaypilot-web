@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T21:24:14.737Z",
+  "appVersion": "1.0",
+  "totalRegions": 12,
+  "totalPlaces": 155,
+  "totalRestaurants": 169,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "nameIt": "Stockholm",
+      "capital": "Stockholm",
+      "lat": 59.33,
+      "lng": 18.07,
+      "emoji": "🏛️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 59.8,
+        "south": 58.8,
+        "east": 19.2,
+        "west": 16.9
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from May to September for pleasant weather and the midnight sun phenomenon.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "uppsala_gavleborg",
+      "name": "Uppsala and Gävleborg",
+      "nameIt": "Uppsala och Gävleborg",
+      "capital": "Uppsala",
+      "lat": 59.86,
+      "lng": 17.64,
+      "emoji": "🏰",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 61.5,
+        "south": 59,
+        "east": 19.5,
+        "west": 15.8
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from June to August when the historic sites and surrounding nature are most accessible.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "west_coast",
+      "name": "West Coast",
+      "nameIt": "Västkusten",
+      "capital": "Gothenburg",
+      "lat": 57.71,
+      "lng": 11.97,
+      "emoji": "⛵",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 58.5,
+        "south": 56.5,
+        "east": 13.5,
+        "west": 10.5
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to August for warm weather, coastal activities, and the seafood season.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "southern_sweden",
+      "name": "Southern Sweden",
+      "nameIt": "Södra Sverige",
+      "capital": "Malmö",
+      "lat": 55.6,
+      "lng": 13,
+      "emoji": "🌾",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 57,
+        "south": 54.9,
+        "east": 16.5,
+        "west": 10.3
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Best from May to September when the countryside is green and coastal areas are warmest.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "east_coast",
+      "name": "East Coast",
+      "nameIt": "Östkusten",
+      "capital": "Norrköping",
+      "lat": 58.6,
+      "lng": 16.2,
+      "emoji": "🏞️",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 60.5,
+        "south": 57,
+        "east": 17.5,
+        "west": 14.8
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to August to enjoy the archipelago, coastal towns, and summer weather.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "central_sweden",
+      "name": "Central Sweden",
+      "nameIt": "Mellansverige",
+      "capital": "Örebro",
+      "lat": 59.27,
+      "lng": 15.41,
+      "emoji": "🌲",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 60.5,
+        "south": 58,
+        "east": 17,
+        "west": 13.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from June to September to experience forests, lakes, and outdoor activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "dalarna",
+      "name": "Dalarna",
+      "nameIt": "Dalarna",
+      "capital": "Falun",
+      "lat": 60.6,
+      "lng": 15.64,
+      "emoji": "🎨",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 61.8,
+        "south": 59.8,
+        "east": 17,
+        "west": 13.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to September for outdoor activities, or December for traditional Christmas traditions.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "norrbotten",
+      "name": "Norrbotten",
+      "nameIt": "Norrbotten",
+      "capital": "Luleå",
+      "lat": 65.58,
+      "lng": 22.15,
+      "emoji": "🌌",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 67.9,
+        "south": 64.5,
+        "east": 24.5,
+        "west": 19.5
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from December to February for the northern lights, or June to August for the midnight sun.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "vasterbotten",
+      "name": "Västerbotten",
+      "nameIt": "Västerbotten",
+      "capital": "Umeå",
+      "lat": 64.75,
+      "lng": 20.96,
+      "emoji": "❄️",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 65.7,
+        "south": 63.5,
+        "east": 23.5,
+        "west": 18
+      },
+      "placeCount": 11,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best from June to August for summer activities, or December to February for winter sports and northern lights.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "jamtland_harjedalen",
+      "name": "Jämtland and Härjedalen",
+      "nameIt": "Jämtland och Härjedalen",
+      "capital": "Östersund",
+      "lat": 63.18,
+      "lng": 14.64,
+      "emoji": "⛷️",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 64.8,
+        "south": 61.5,
+        "east": 17.5,
+        "west": 11.5
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from December to March for skiing, or June to August for hiking and mountain activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "varmland",
+      "name": "Värmland",
+      "nameIt": "Värmland",
+      "capital": "Karlstad",
+      "lat": 59.38,
+      "lng": 13.5,
+      "emoji": "🏞️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 60.5,
+        "south": 58.5,
+        "east": 15.5,
+        "west": 11.5
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to August for lake activities and outdoor adventures in this scenic region.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gotland",
+      "name": "Gotland",
+      "nameIt": "Gotland",
+      "capital": "Visby",
+      "lat": 57.64,
+      "lng": 18.43,
+      "emoji": "🏝️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 58,
+        "south": 56.9,
+        "east": 19.3,
+        "west": 17.8
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best from May to September for beach weather, sea activities, and the island's medieval charm.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

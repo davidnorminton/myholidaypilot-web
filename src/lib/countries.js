@@ -20,6 +20,8 @@ export const COUNTRIES = [
     blurb: "Temples, ramen and bullet trains — 9 regions from Hokkaido to Okinawa." },
   { slug: 'germany', name: "Germany", flag: '🌍', available: true,
     blurb: "Mapped region by region." },
+  { slug: 'sweden', name: "Sweden", flag: '🌍', available: true,
+    blurb: "Mapped region by region." },
 ]
 
 export const isAvailableCountry = (slug) => COUNTRIES.some((c) => c.slug === slug && c.available)
