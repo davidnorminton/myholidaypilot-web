@@ -215,6 +215,17 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     return send(res, 200, { done: true, image })
   }
 
+  // ── manual image: paste a URL for a place ───────────────────────────────────
+  if (req.method === 'POST' && q.action === 'setimage') {
+    const b = await readBody(req)
+    const url = String(b.url || '').trim()
+    if (!/^https?:\/\//.test(url)) throw fail(400, 'A valid image URL is required')
+    const image = { index: 0, assetPath: '', isLocal: false, url, credit: String(b.credit || '').slice(0, 120) }
+    await db.update(buildPlaces).set({ image, updatedAt: Date.now() })
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
+    return send(res, 200, { done: true, image })
+  }
+
   // ── stage 6: region restaurants (where to eat) ──────────────────────────────
   if (req.method === 'POST' && q.action === 'restaurants') {
     const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))

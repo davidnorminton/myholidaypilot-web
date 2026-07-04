@@ -2369,3 +2369,6 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .bld__pthumb img{width:100%; height:100%; object-fit:cover; display:block}
 .bld__pthumb--empty{display:block; width:100%; height:100%}
 .bld__guides{display:flex; flex-wrap:wrap; gap:10px}
+
+.bld__missing{border-color:color-mix(in srgb,#b4552d 30%,var(--line))}
+.bld__missinput{max-width:280px}

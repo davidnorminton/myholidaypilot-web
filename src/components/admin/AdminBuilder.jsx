@@ -256,17 +256,23 @@ function RegionPlaces({ countryId, region, onBack }) {
   const generateImages = async () => {
     setImgErr('')
     const todo = (places || []).filter((p) => !hasImage(p))
+    const failed = []
+    let rateLimited = false
     for (const p of todo) {
       setImgRun({ current: p.placeId })
       try {
         await api.builder.genImage(countryId, region.regionId, p.placeId)
         const r = await api.builder.region(countryId, region.regionId); setPlaces(r.places)
       } catch (e) {
-        setImgErr(`Stopped at ${p.data.name}: ${e.message}. Click again to resume — done places are skipped.`)
-        setImgRun(null); return
+        // Rate limit = stop early (retry after the hour); any other failure
+        // (no photo found, etc.) = skip this place and keep going.
+        if (/rate|429|limit/i.test(e.message)) { rateLimited = true; break }
+        failed.push(p.data.name)
       }
     }
     setImgRun(null)
+    if (rateLimited) setImgErr('Unsplash hourly limit hit — wait for the hour to roll over and click again; done places are skipped.')
+    else if (failed.length) setImgErr(`No photo found for ${failed.length}: ${failed.join(', ')}. Add these manually below.`)
   }
 
   const generateRestaurants = async () => {
@@ -378,8 +384,46 @@ function RegionPlaces({ countryId, region, onBack }) {
           ))}
         </div>
       </section>
-      {has && <p className="bld__hint">Places saved. Activities, food and images attach to these in later stages.</p>}
+      {has && (() => {
+        const missing = places.filter((p) => !p.image)
+        if (!missing.length) return <p className="bld__hint">Every place has an image ✓</p>
+        return <MissingImages countryId={countryId} regionId={region.regionId} places={missing} onSaved={load} />
+      })()}
     </div>
+  )
+}
+
+function MissingImages({ countryId, regionId, places, onSaved }) {
+  const [vals, setVals] = useState({})
+  const [busy, setBusy] = useState('')
+  const save = async (placeId) => {
+    const url = (vals[placeId] || '').trim()
+    if (!url) return
+    setBusy(placeId)
+    try { await api.builder.setImage(countryId, regionId, placeId, url); await onSaved() }
+    catch (e) { alert(e.message) } finally { setBusy('') }
+  }
+  return (
+    <section className="bld__stage bld__missing">
+      <div className="bld__stagehead"><h3>Missing images · {places.length}</h3></div>
+      <p className="admin-note">No Unsplash photo was found for these. Paste an image URL for each (any public image link), or re-run the image button to retry Unsplash.</p>
+      <div className="bld__regions">
+        {places.map((p) => (
+          <div key={p.id} className="bld__region">
+            <span className="bld__rbody">
+              <b>{p.data.name}</b>
+              <span className="bld__rmeta">Suggested search: {p.data.imageQueries?.[0] || p.data.name}</span>
+            </span>
+            <input className="bld__input bld__missinput" placeholder="https://…image.jpg"
+              value={vals[p.placeId] || ''} onChange={(e) => setVals({ ...vals, [p.placeId]: e.target.value })}
+              onKeyDown={(e) => e.key === 'Enter' && save(p.placeId)} />
+            <button className="btn btn--soft" onClick={() => save(p.placeId)} disabled={busy === p.placeId || !(vals[p.placeId] || '').trim()}>
+              {busy === p.placeId ? <RefreshCw size={13} className="pk__spin" /> : <Check size={13} />} Set
+            </button>
+          </div>
+        ))}
+      </div>
+    </section>
   )
 }
 
