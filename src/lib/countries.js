@@ -8,7 +8,7 @@ export const COUNTRIES = [
   { slug: 'usa',      name: 'United States', flag: '🇺🇸', available: false,
     blurb: 'Fifty states of road trips, parks and cities.' },
   { slug: 'france',   name: 'France',   flag: '🇫🇷', available: false },
-  { slug: 'greece',   name: 'Greece',   flag: '🇬🇷', available: false },
+  { slug: 'greece',   name: 'Greece',   flag: '🇬🇷', available: true },
 ]
 
 export const isAvailableCountry = (slug) => COUNTRIES.some((c) => c.slug === slug && c.available)

@@ -34,17 +34,35 @@ for (const [rel, obj] of Object.entries(bundle.files)) {
 }
 console.log(`\u2713 wrote ${written} files to ${path.relative(process.cwd(), root) || root}`)
 
+// Registry: flip to available if present, or INSERT the country automatically
+// (after the last available entry, so new countries appear next in line).
+// Use --draft to import the data without making the country visible yet.
+const draft = process.argv.includes('--draft')
 const regPath = path.join(ROOT, 'src', 'lib', 'countries.js')
 let reg = fs.readFileSync(regPath, 'utf8')
-const re = new RegExp(`(slug:\\s*'${cid}'[^}]*available:\\s*)false`)
-if (re.test(reg)) {
-  reg = reg.replace(re, '$1true')
-  fs.writeFileSync(regPath, reg)
-  console.log(`\u2713 ${cid} set available: true in countries.js`)
-} else if (reg.includes(`slug: '${cid}'`)) {
-  console.log(`\u2022 ${cid} already available in countries.js`)
+const flipRe = new RegExp(`(slug:\\s*'${cid}'[^}]*available:\\s*)false`)
+if (reg.includes(`slug: '${cid}'`)) {
+  if (!draft && flipRe.test(reg)) {
+    fs.writeFileSync(regPath, reg.replace(flipRe, '$1true'))
+    console.log(`\u2713 ${cid} set available: true in countries.js`)
+  } else {
+    console.log(`\u2022 ${cid} already in countries.js${draft ? ' (left as-is, --draft)' : ''}`)
+  }
 } else {
-  console.log(`! ${cid} not in countries.js — add: { slug: '${cid}', name: '${bundle.name}', flag: '${bundle.flag || ''}', available: true }`)
+  const blurb = (bundle.blurb || `${bundle.stats.regions} regions to explore, town by town.`).replace(/'/g, "\\'")
+  const entry = `  { slug: '${cid}', name: '${bundle.name}', flag: '${bundle.flag || ''}', available: ${!draft},\n    blurb: '${blurb}' },`
+  // insert after the LAST entry with available: true (falls back to top of array)
+  const entryRe = /\{[^{}]*slug:\s*'[^']+'[^{}]*\},?/g
+  let lastAvailEnd = -1, m
+  while ((m = entryRe.exec(reg))) { if (/available:\s*true/.test(m[0])) lastAvailEnd = m.index + m[0].length }
+  if (lastAvailEnd > 0) {
+    reg = reg.slice(0, lastAvailEnd) + '\n' + entry + reg.slice(lastAvailEnd)
+  } else {
+    reg = reg.replace(/export const COUNTRIES = \[/, (h) => h + '\n' + entry)
+  }
+  fs.writeFileSync(regPath, reg)
+  console.log(`\u2713 ${cid} added to countries.js (${draft ? 'draft — available: false' : 'available: true'}, positioned after the last live country)`)
+  console.log('  Edit src/lib/countries.js to tweak the blurb or ordering.')
 }
 console.log(`\nStats: ${bundle.stats.regions} regions \u00b7 ${bundle.stats.places} places \u00b7 ${bundle.stats.restaurants} restaurants \u00b7 ${bundle.stats.images} images`)
 if (bundle.missingImages?.length) console.log(`Missing images (${bundle.missingImages.length}): ${bundle.missingImages.slice(0, 20).join(', ')}${bundle.missingImages.length > 20 ? '…' : ''}`)
