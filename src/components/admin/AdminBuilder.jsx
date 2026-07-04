@@ -160,6 +160,7 @@ function BuildView({ countryId, onBack }) {
       </section>
 
       {regions.length > 0 && <GuidesPanel countryId={countryId} build={build} onSaved={load} />}
+      {regions.length > 0 && <ExportPanel countryId={countryId} build={build} />}
     </div>
   )
 }
@@ -516,6 +517,54 @@ function GuidesPanel({ countryId, build, onSaved }) {
         })}
       </div>
       {err && <p className="pk__warn">{err}</p>}
+    </section>
+  )
+}
+
+function ExportPanel({ countryId, build }) {
+  const [busy, setBusy] = useState(false)
+  const [report, setReport] = useState(null)
+  const [error, setError] = useState('')
+
+  const doExport = async () => {
+    setBusy(true); setError(''); setReport(null)
+    try {
+      const bundle = await api.builder.export(countryId)
+      // download the bundle as a JSON file
+      const blob = new Blob([JSON.stringify(bundle)], { type: 'application/json' })
+      const a = document.createElement('a')
+      a.href = URL.createObjectURL(blob)
+      a.download = `${countryId}-export.json`
+      a.click()
+      URL.revokeObjectURL(a.href)
+      setReport(bundle)
+    } catch (e) { setError(e.message) } finally { setBusy(false) }
+  }
+
+  return (
+    <section className="bld__stage bld__export">
+      <div className="bld__stagehead"><h3>Export to site</h3></div>
+      <p className="admin-note">
+        Assembles the whole build into site data files (identical to Italy) and downloads them as
+        one bundle. Run the import script in your project to write them in, then deploy — that's when
+        {' '}{build.name} goes live.
+      </p>
+      <button className="btn btn--primary" onClick={doExport} disabled={busy}>
+        {busy ? <><RefreshCw size={14} className="pk__spin" /> Assembling…</> : <><Sparkles size={14} /> Export {build.name}</>}
+      </button>
+      {error && <p className="pk__warn">{error}</p>}
+      {report && (
+        <div className="bld__exportreport">
+          <p><b>Bundle downloaded ✓</b> — {report.stats.regions} regions · {report.stats.places} places · {report.stats.restaurants} restaurants · {report.stats.images} images.</p>
+          {report.missingImages?.length > 0 && <p className="bld__detailnote">{report.missingImages.length} place{report.missingImages.length === 1 ? '' : 's'} still without an image — you can re-export after adding more.</p>}
+          {report.guidesMissing?.length > 0 && <p className="bld__detailnote">Guides not yet generated: {report.guidesMissing.join(', ')}.</p>}
+          <ol className="bld__exportsteps">
+            <li>Move <code>{countryId}-export.json</code> into your project folder.</li>
+            <li>Run <code>node scripts/import-country.mjs {countryId}-export.json</code></li>
+            <li><code>npm run build</code>, commit, push — {build.name} goes live on deploy.</li>
+          </ol>
+        </div>
+      )}
     </section>
   )
 }

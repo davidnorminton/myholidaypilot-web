@@ -59,6 +59,7 @@ export const api = {
     saveRegion: (country, region, data) => req('PATCH', `/builder?type=region&country=${country}&region=${region}`, { data }),
     savePlace: (country, region, place, data, image) => req('PATCH', `/builder?type=place&country=${country}&region=${region}&place=${place}`, { data, image }),
     discard: (country) => req('DELETE', `/builder?country=${country}`),
+    export: (country) => req('GET', `/builder?action=export&country=${country}`),
   },
   commentsAdmin: {
     list: () => req('GET', '/comments?admin=1'),
