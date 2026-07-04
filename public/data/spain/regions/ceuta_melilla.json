@@ -1,0 +1,1523 @@
+{
+  "id": "ceuta_melilla",
+  "name": "Ceuta and Melilla",
+  "nameIt": "Ceuta y Melilla",
+  "capital": "Ceuta / Melilla",
+  "lat": 35.5,
+  "lng": -4,
+  "emoji": "🕌",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": 35.95,
+    "south": 35.15,
+    "east": -2.8,
+    "west": -5.4
+  },
+  "history": "Ceuta and Melilla are two Spanish autonomous cities located on the North African coast of Morocco, with origins tracing back to medieval times when they served as strategic military fortifications. Ceuta was established as a Spanish possession in 1668 after being ceded by the Portuguese, while Melilla fell under Spanish control in 1497 during the period of Christian reconquest. Both cities developed as important trading posts and military strongholds, reinforcing Spain's geopolitical presence in the Mediterranean and North Africa. Their status as Spanish enclaves has remained a unique feature of the Iberian Peninsula's political geography for centuries.",
+  "culturalNotes": "These cities represent a fascinating blend of Spanish, Moroccan, and broader Mediterranean influences, with a diverse population that includes Muslims, Christians, and Jews living in close proximity. The local culture reflects centuries of coexistence between different communities, evident in the architecture, cuisine, and religious sites that dot both cities. What makes Ceuta and Melilla truly distinct is their liminal character as Spanish territory in Africa, creating a unique identity that is neither wholly European nor wholly North African, with vibrant street life and markets that showcase this cultural crossroads.",
+  "bestTimeToVisit": "Spring and autumn offer comfortable temperatures for exploring these North African enclaves.",
+  "languageNotes": "Spanish is the official language and primary means of communication in both cities, though Moroccan Arabic and Darija are widely spoken by the sizable Moroccan population. Visitors will find that Spanish predominates in official contexts and among the general populace, though knowledge of basic Arabic phrases can be helpful when interacting with local merchants and residents in the medinas.",
+  "generatedAt": "2026-07-04T16:19:40.890Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "ceuta_city",
+      "name": "Ceuta",
+      "nameIt": "Ceuta",
+      "lat": 35.8894,
+      "lng": -5.3213,
+      "type": "CITY",
+      "description": "A Spanish autonomous city on the North African coast facing Gibraltar across the strait, blending Spanish, Amazigh, Jewish and Muslim influences. Its compact old town, forts and seaside promenades make it a fascinating stop where Europe and Africa meet.",
+      "imageQueries": [
+        "Ceuta Spain skyline",
+        "Ceuta old town"
+      ],
+      "activities": [
+        {
+          "id": "ceut_1",
+          "text": "Explore the Royal Walls (Murallas Reales)",
+          "detail": "Wander this vast Renaissance-era fortification system with moats and drawbridges that once defended the city from land attack.",
+          "lat": 35.8894,
+          "lng": -5.3213
+        },
+        {
+          "id": "ceut_2",
+          "text": "Visit the Foso de San Felipe",
+          "detail": "Walk across the dramatic dry moat carved into rock, one of the most photogenic parts of the old defensive network.",
+          "lat": 35.8897,
+          "lng": -5.3208
+        },
+        {
+          "id": "ceut_3",
+          "text": "Climb Monte Hacho",
+          "detail": "Hike or drive up this hill for panoramic views over the Strait of Gibraltar and the Rock on a clear day.",
+          "lat": 35.9058,
+          "lng": -5.2939
+        },
+        {
+          "id": "ceut_4",
+          "text": "Tour the Museo de la Legión",
+          "detail": "Learn about the Spanish Legion's history and its deep ties to Ceuta's identity through uniforms, medals and memorabilia.",
+          "lat": 35.8886,
+          "lng": -5.3167
+        },
+        {
+          "id": "ceut_5",
+          "text": "Relax at Parque Marítimo del Mediterráneo",
+          "detail": "Swim in seawater pools designed by César Manrique, set along a landscaped seafront promenade.",
+          "lat": 35.894,
+          "lng": -5.3105
+        },
+        {
+          "id": "ceut_6",
+          "text": "See the Castillo del Desnarigado",
+          "detail": "Visit this coastal fort at the tip of Monte Hacho that now houses a small military museum.",
+          "lat": 35.9091,
+          "lng": -5.287
+        },
+        {
+          "id": "ceut_7",
+          "text": "Stroll the Plaza de África",
+          "detail": "Admire the cathedral and the Hercules gate framing this central square where Spanish and North African styles meet.",
+          "lat": 35.889,
+          "lng": -5.3172
+        },
+        {
+          "id": "ceut_8",
+          "text": "Wander the old Jewish and Muslim quarters",
+          "detail": "Walk narrow streets where synagogues, mosques and churches sit close together, reflecting Ceuta's multicultural history.",
+          "lat": 35.8905,
+          "lng": -5.3155
+        }
+      ],
+      "food": [
+        {
+          "id": "ceut_f1",
+          "text": "Pescaíto frito",
+          "detail": "Freshly fried small fish, a Andalusian-Ceutí staple best enjoyed at a seafront chiringuito."
+        },
+        {
+          "id": "ceut_f2",
+          "text": "Cuscús ceutí",
+          "detail": "A local take on Moroccan couscous, often served with vegetables and lamb, showing the city's North African influence."
+        },
+        {
+          "id": "ceut_f3",
+          "text": "Pastela",
+          "detail": "A sweet-savory Moroccan-style pastry filled with spiced meat or chicken and dusted with sugar and cinnamon."
+        },
+        {
+          "id": "ceut_f4",
+          "text": "Té moruno con pastas",
+          "detail": "Sweet mint tea served alongside almond pastries, a common afternoon ritual in Ceuta's cafés."
+        },
+        {
+          "id": "ceut_f5",
+          "text": "Calamares a la ceutí",
+          "detail": "Locally caught squid, usually grilled or fried, reflecting the city's strong fishing tradition."
+        },
+        {
+          "id": "ceut_f6",
+          "text": "Churros con chocolate",
+          "detail": "A classic Spanish breakfast treat enjoyed at cafés around Plaza de los Reyes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ceut_c1",
+          "text": "Carry ID at all times",
+          "detail": "As a border city between Spain and Morocco, police checks are more frequent than on the mainland."
+        },
+        {
+          "id": "ceut_c2",
+          "text": "Respect religious diversity",
+          "detail": "Ceuta hosts Christian, Muslim, Jewish and Hindu communities, so dress modestly near places of worship."
+        },
+        {
+          "id": "ceut_c3",
+          "text": "Cross-border shopping is common",
+          "detail": "Many visitors combine a Ceuta trip with a day trip to nearby Morocco via the land border at Tarajal."
+        },
+        {
+          "id": "ceut_c4",
+          "text": "Euro is the currency, not dirham",
+          "detail": "Despite proximity to Morocco, Ceuta uses the euro, so exchange money before crossing borders."
+        }
+      ]
+    },
+    {
+      "id": "royal_walls_ceuta",
+      "name": "Royal Walls of Ceuta",
+      "nameIt": "Murallas Reales",
+      "lat": 35.8927,
+      "lng": -5.3162,
+      "type": "LANDMARK",
+      "description": "A massive fortification system dating back to Byzantine and later Portuguese and Spanish rule, encircling the historic core of Ceuta. The moats, drawbridges and bastions offer one of the best-preserved military architecture complexes in the western Mediterranean.",
+      "imageQueries": [
+        "Murallas Reales Ceuta",
+        "Royal Walls Ceuta fortress"
+      ],
+      "activities": [
+        {
+          "id": "roya_1",
+          "text": "Walk the Foso de San Felipe",
+          "detail": "Stroll along the deep water-filled moat that once made Ceuta's land approach virtually impregnable.",
+          "lat": 35.8907,
+          "lng": -5.3132
+        },
+        {
+          "id": "roya_2",
+          "text": "Cross the Puente de San Felipe",
+          "detail": "Cross the reconstructed drawbridge that leads into the old fortified city, echoing centuries of sieges.",
+          "lat": 35.8905,
+          "lng": -5.3128
+        },
+        {
+          "id": "roya_3",
+          "text": "Visit the Centro de Interpretación de las Murallas Reales",
+          "detail": "Explore exhibits inside the ramparts explaining the Byzantine, Portuguese and Spanish phases of construction.",
+          "lat": 35.8901,
+          "lng": -5.3135
+        },
+        {
+          "id": "roya_4",
+          "text": "Climb the Baluarte de la Bandera",
+          "detail": "Ascend this flag bastion for sweeping views over the moat, harbor and the Strait of Gibraltar.",
+          "lat": 35.8898,
+          "lng": -5.312
+        },
+        {
+          "id": "roya_5",
+          "text": "Photograph the Torreón de homenaje",
+          "detail": "Admire the medieval keep tower that anchors the fortress complex and once served as a last line of defense.",
+          "lat": 35.8903,
+          "lng": -5.3125
+        },
+        {
+          "id": "roya_6",
+          "text": "Wander the ramparts at sunset",
+          "detail": "Time your visit for late afternoon when the stone walls glow gold against the sea."
+        }
+      ],
+      "food": [
+        {
+          "id": "roya_f1",
+          "text": "Calentita",
+          "detail": "Try this Ceuta specialty, a baked chickpea-flour cake seasoned with cumin, unique to the city's Andalusian-Maghrebi blend of cuisine."
+        },
+        {
+          "id": "roya_f2",
+          "text": "Té moruno con pastas",
+          "detail": "Sip sweet Moroccan mint tea paired with almond pastries at a café near the walls, reflecting Ceuta's cross-strait culture."
+        },
+        {
+          "id": "roya_f3",
+          "text": "Pescaíto frito",
+          "detail": "Sample lightly fried small fish, a coastal favorite served in nearby seafront restaurants."
+        },
+        {
+          "id": "roya_f4",
+          "text": "Borrachuelos",
+          "detail": "Finish with these anise-and-orange fried pastries dusted in sugar, a local sweet often linked to festive occasions."
+        },
+        {
+          "id": "roya_f5",
+          "text": "Tortitas de camarones",
+          "detail": "Look for these crispy shrimp fritters, a North African-influenced snack popular in Ceuta's tapas bars."
+        }
+      ],
+      "culture": [
+        {
+          "id": "roya_c1",
+          "text": "Free public access",
+          "detail": "The Royal Walls and moat area are generally open to walk through at no cost, making them easy to combine with a city stroll."
+        },
+        {
+          "id": "roya_c2",
+          "text": "Respect the military heritage",
+          "detail": "Some sections remain active government or ceremonial spaces, so follow posted signs and avoid restricted zones."
+        },
+        {
+          "id": "roya_c3",
+          "text": "Blend of cultures",
+          "detail": "Ceuta's population mixes Spanish, Amazigh and Muslim traditions, visible in the food and architecture surrounding the fortress."
+        },
+        {
+          "id": "roya_c4",
+          "text": "Border formalities nearby",
+          "detail": "Since Ceuta is a Spanish enclave bordering Morocco, carry proper ID as border checks can occur close to the old town."
+        }
+      ]
+    },
+    {
+      "id": "monte_hacho",
+      "name": "Mount Hacho",
+      "nameIt": "Monte Hacho",
+      "lat": 35.8967,
+      "lng": -5.2853,
+      "type": "NATURE",
+      "description": "A rugged headland believed by some to be one of the mythical Pillars of Hercules, crowned by the Fort of Hacho and a hermitage. Sweeping views stretch across the Strait of Gibraltar to Europe on clear days.",
+      "imageQueries": [
+        "Monte Hacho Ceuta view",
+        "Mount Hacho Ceuta fort"
+      ],
+      "activities": [
+        {
+          "id": "mont_1",
+          "text": "Explore the Fort of Hacho",
+          "detail": "This centuries-old fortress crowning the summit is still used by the Spanish military, so visits are often limited to the exterior and surrounding ramparts.",
+          "lat": 35.8974,
+          "lng": -5.2829
+        },
+        {
+          "id": "mont_2",
+          "text": "Visit the Ermita de San Antonio",
+          "detail": "A small whitewashed hermitage near the peak offers a quiet stop and is the focus of a lively local pilgrimage each June.",
+          "lat": 35.8961,
+          "lng": -5.2801
+        },
+        {
+          "id": "mont_3",
+          "text": "Take in the Strait of Gibraltar viewpoint",
+          "detail": "On clear days you can see across the water to Gibraltar and the Jebel Musa headland in Morocco, the two candidates for the mythical Pillars of Hercules.",
+          "lat": 35.8968,
+          "lng": -5.2795
+        },
+        {
+          "id": "mont_4",
+          "text": "Drive or hike the Monte Hacho ring road",
+          "detail": "A winding road circles the headland through pine woods, giving changing views of Ceuta, the port, and the African coast.",
+          "lat": 35.8945,
+          "lng": -5.283
+        },
+        {
+          "id": "mont_5",
+          "text": "Relax at Playa de Calamocarro",
+          "detail": "This sandy beach sits at the foot of the mountain and is a good spot to cool off after the climb.",
+          "lat": 35.9052,
+          "lng": -5.2867
+        },
+        {
+          "id": "mont_6",
+          "text": "Photograph the old coastal batteries",
+          "detail": "Scattered gun emplacements and watchtowers from Spain's colonial-era defenses dot the slopes and make for atmospheric photos."
+        }
+      ],
+      "food": [
+        {
+          "id": "mont_f1",
+          "text": "Tortitas de camarones",
+          "detail": "Crisp shrimp fritters typical of Ceuta's Andalusian-Moroccan fusion cuisine, best enjoyed at a seaside chiringuito near the mountain's base."
+        },
+        {
+          "id": "mont_f2",
+          "text": "Calamares a la romana",
+          "detail": "Lightly battered fried squid rings are a staple appetizer in Ceuta's port-side restaurants overlooking the strait."
+        },
+        {
+          "id": "mont_f3",
+          "text": "Té moruno con pastas",
+          "detail": "Sweet mint tea served with almond pastries reflects the strong Moroccan cultural influence found throughout Ceuta."
+        },
+        {
+          "id": "mont_f4",
+          "text": "Cuernos de gacela",
+          "detail": "Crescent-shaped almond pastries dusted with sugar, a treat sold in local bakeries that blend Spanish and North African baking traditions."
+        },
+        {
+          "id": "mont_f5",
+          "text": "Pescaíto frito",
+          "detail": "An assortment of small fried fish fresh from the Strait waters, a classic way to sample the local catch."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mont_c1",
+          "text": "Respect the active military zone",
+          "detail": "Parts of the Fort of Hacho remain in military use, so photography and access may be restricted in certain areas."
+        },
+        {
+          "id": "mont_c2",
+          "text": "Dress modestly at the hermitage",
+          "detail": "As a functioning religious site, the Ermita de San Antonio expects visitors to be quiet and appropriately dressed, especially during Mass or the June pilgrimage."
+        },
+        {
+          "id": "mont_c3",
+          "text": "Expect a blend of Spanish and Moroccan customs",
+          "detail": "Ceuta's unique position as a Spanish exclave in North Africa means local life mixes Catholic and Muslim traditions, visible in food, festivals, and daily rhythms."
+        },
+        {
+          "id": "mont_c4",
+          "text": "Go early for clear strait views",
+          "detail": "Haze often builds over the Strait of Gibraltar by midday, so morning visits offer the best chance to see across to Europe."
+        }
+      ]
+    },
+    {
+      "id": "parque_maritimo",
+      "name": "Mediterranean Sea Park",
+      "nameIt": "Parque Marítimo del Mediterráneo",
+      "lat": 35.8938,
+      "lng": -5.3067,
+      "type": "LANDMARK",
+      "description": "A striking seafront park designed by César Manrique featuring saltwater pools, gardens and sculptural walkways along the coast. It is a relaxing spot to swim and admire views of the Mediterranean and nearby mountains.",
+      "imageQueries": [
+        "Parque Maritimo Ceuta Manrique",
+        "Ceuta seafront park pools"
+      ],
+      "activities": [
+        {
+          "id": "parq_1",
+          "text": "Swim in the saltwater pools",
+          "detail": "Cool off in the seawater-fed pools that Manrique carved into the rocky shoreline, designed to mimic natural lagoons.",
+          "lat": 35.8894,
+          "lng": -5.3132
+        },
+        {
+          "id": "parq_2",
+          "text": "Stroll the sculptural walkways",
+          "detail": "Wander the white, undulating pathways and volcanic-stone terraces that echo Manrique's Lanzarote style.",
+          "lat": 35.8891,
+          "lng": -5.3128
+        },
+        {
+          "id": "parq_3",
+          "text": "Relax in the palm and cactus gardens",
+          "detail": "Explore lush landscaped areas filled with palms, succulents and Mediterranean flora between the pools and walkways.",
+          "lat": 35.8897,
+          "lng": -5.3135
+        },
+        {
+          "id": "parq_4",
+          "text": "Watch sunset over the Strait of Gibraltar",
+          "detail": "Find a spot along the seafront terraces for views across the water toward the mountains of Morocco.",
+          "lat": 35.8899,
+          "lng": -5.312
+        },
+        {
+          "id": "parq_5",
+          "text": "Visit the artificial lake and waterfall features",
+          "detail": "Discover small cascades and reflective pools integrated into the park's artistic design.",
+          "lat": 35.8892,
+          "lng": -5.314
+        },
+        {
+          "id": "parq_6",
+          "text": "Photograph the park's iconic viewpoint",
+          "detail": "Capture the interplay of white architecture, blue water and Ceuta's mountainous backdrop from the park's highest terrace.",
+          "lat": 35.8896,
+          "lng": -5.3125
+        }
+      ],
+      "food": [
+        {
+          "id": "parq_f1",
+          "text": "Grilled sardines",
+          "detail": "Fresh sardines grilled simply with olive oil and salt, a classic seaside snack near the park's food kiosks."
+        },
+        {
+          "id": "parq_f2",
+          "text": "Ceuta-style calamares fritos",
+          "detail": "Lightly battered fried squid rings, popular at nearby chiringuitos overlooking the Mediterranean."
+        },
+        {
+          "id": "parq_f3",
+          "text": "Pastela ceutí",
+          "detail": "A savory-sweet pastry with Moroccan influence, filled with chicken or seafood and dusted with cinnamon sugar."
+        },
+        {
+          "id": "parq_f4",
+          "text": "Mint tea by the sea",
+          "detail": "Sip traditional Moroccan-influenced mint tea at an outdoor café near the park, reflecting Ceuta's cross-cultural heritage."
+        },
+        {
+          "id": "parq_f5",
+          "text": "Fresh seafood tapas",
+          "detail": "Sample small plates of local catch like boquerones or gambas at terraces just outside the park's entrance."
+        }
+      ],
+      "culture": [
+        {
+          "id": "parq_c1",
+          "text": "Respect the pool hours",
+          "detail": "The saltwater pools have set opening times, often closing in the evening, so plan swims accordingly."
+        },
+        {
+          "id": "parq_c2",
+          "text": "Dress modestly beyond the pool area",
+          "detail": "While swimwear is fine poolside, cover up when walking through the surrounding public gardens and streets."
+        },
+        {
+          "id": "parq_c3",
+          "text": "Appreciate the Manrique design ethos",
+          "detail": "Notice how the park blends art and nature, a hallmark of César Manrique's work seen elsewhere in the Canary Islands."
+        },
+        {
+          "id": "parq_c4",
+          "text": "Enjoy the mix of Spanish and Moroccan influences",
+          "detail": "Ceuta's unique cultural blend is reflected in the park's visitors, cuisine, and nearby architecture."
+        }
+      ]
+    },
+    {
+      "id": "foso_san_felipe",
+      "name": "Moat of San Felipe",
+      "nameIt": "Foso de San Felipe",
+      "lat": 35.8921,
+      "lng": -5.3157,
+      "type": "LANDMARK",
+      "description": "An impressive defensive moat carved into rock, part of the Royal Walls complex separating the peninsula from the mainland. It showcases centuries of fortification engineering and is a highlight for history enthusiasts.",
+      "imageQueries": [
+        "Foso de San Felipe Ceuta",
+        "Ceuta moat fortification"
+      ],
+      "activities": [
+        {
+          "id": "foso_1",
+          "text": "Walk the moat floor",
+          "detail": "Descend into the deep rock-cut moat to appreciate the scale of the 16th-century fortification engineering up close.",
+          "lat": 35.8894,
+          "lng": -5.3213
+        },
+        {
+          "id": "foso_2",
+          "text": "Visit the Royal Walls Museum",
+          "detail": "Explore the adjoining Museo de las Murallas Reales housed within the fortress complex to learn about Ceuta's military history.",
+          "lat": 35.8896,
+          "lng": -5.321
+        },
+        {
+          "id": "foso_3",
+          "text": "Photograph the drawbridge and bastions",
+          "detail": "Capture the imposing stone bastions and restored drawbridge that once controlled access to the old city.",
+          "lat": 35.8892,
+          "lng": -5.3216
+        },
+        {
+          "id": "foso_4",
+          "text": "Stroll to Plaza de África",
+          "detail": "Continue on foot to the nearby Plaza de África, the historic heart of Ceuta just steps from the moat.",
+          "lat": 35.8887,
+          "lng": -5.322
+        },
+        {
+          "id": "foso_5",
+          "text": "Study the Portuguese-era stonework",
+          "detail": "Look for masonry sections dating back to the Portuguese period before Spanish rule, visible in parts of the moat walls.",
+          "lat": 35.8895,
+          "lng": -5.3212
+        },
+        {
+          "id": "foso_6",
+          "text": "Cross into the old town via the fortified gate",
+          "detail": "Pass through the original gateway that separates the peninsula from the mainland, a dramatic transition point in the city's layout."
+        }
+      ],
+      "food": [
+        {
+          "id": "foso_f1",
+          "text": "Calamares fritos",
+          "detail": "Try Ceuta's classic fried squid, a popular tapa found in bars near the historic center after visiting the walls."
+        },
+        {
+          "id": "foso_f2",
+          "text": "Pescaíto frito",
+          "detail": "Sample an assortment of small fried fish typical of the Ceuta and Andalusian coastal tradition."
+        },
+        {
+          "id": "foso_f3",
+          "text": "Té moruno con pastas",
+          "detail": "Enjoy sweet mint tea served with almond pastries, reflecting the city's blend of Spanish and Moroccan culinary influences."
+        },
+        {
+          "id": "foso_f4",
+          "text": "Bocadillo de calamares",
+          "detail": "Grab a squid sandwich from a nearby café, a casual local favorite for a quick bite near the fortifications."
+        },
+        {
+          "id": "foso_f5",
+          "text": "Ensalada ceutí",
+          "detail": "Look for a local salad variant often mixing tuna, olives, and peppers, common in eateries around Plaza de África."
+        }
+      ],
+      "culture": [
+        {
+          "id": "foso_c1",
+          "text": "Respect the historic military zone",
+          "detail": "The moat and walls are protected heritage sites, so avoid climbing on restricted stone structures."
+        },
+        {
+          "id": "foso_c2",
+          "text": "Best visited in daylight",
+          "detail": "Lighting is limited at night, so early morning or late afternoon visits offer the best views and photo opportunities."
+        },
+        {
+          "id": "foso_c3",
+          "text": "Combine with a border-crossing perspective",
+          "detail": "Remember that this moat historically marked the boundary between the Spanish enclave and Moroccan territory, giving it geopolitical significance."
+        },
+        {
+          "id": "foso_c4",
+          "text": "Free and open access",
+          "detail": "Unlike some fortress sites, the exterior moat area is generally free to explore, though museum sections may charge a small fee."
+        }
+      ]
+    },
+    {
+      "id": "museo_legion",
+      "name": "Museum of the Legion",
+      "nameIt": "Museo de la Legión",
+      "lat": 35.8889,
+      "lng": -5.3172,
+      "type": "LANDMARK",
+      "description": "A military museum dedicated to the Spanish Legion, founded in Ceuta in the 1920s, displaying uniforms, weapons and historical artifacts. It offers insight into a distinctive chapter of Spanish military history tied closely to the city.",
+      "imageQueries": [
+        "Museo de la Legion Ceuta",
+        "Spanish Legion museum"
+      ],
+      "activities": [
+        {
+          "id": "muse_1",
+          "text": "View the Founders' Room",
+          "detail": "See personal memorabilia and photographs of Millán Astray and José Millán, the founders of the Spanish Legion in 1920.",
+          "lat": 35.8894,
+          "lng": -5.3213
+        },
+        {
+          "id": "muse_2",
+          "text": "Explore the Weapons Gallery",
+          "detail": "Examine an extensive collection of rifles, bayonets and artillery pieces used by the Legion throughout the 20th century.",
+          "lat": 35.8896,
+          "lng": -5.321
+        },
+        {
+          "id": "muse_3",
+          "text": "Admire the Uniform Collection",
+          "detail": "Study the evolution of Legion uniforms, including the iconic chapiri cap and the distinctive green and red sash.",
+          "lat": 35.8892,
+          "lng": -5.3215
+        },
+        {
+          "id": "muse_4",
+          "text": "Visit the Battle Flags Hall",
+          "detail": "See original regimental banners carried during campaigns in Morocco and the Spanish Civil War.",
+          "lat": 35.8895,
+          "lng": -5.3212
+        },
+        {
+          "id": "muse_5",
+          "text": "See the Mascot Display",
+          "detail": "Learn about the Legion's famous goat mascot tradition, a symbol paraded during military ceremonies.",
+          "lat": 35.8897,
+          "lng": -5.3209
+        },
+        {
+          "id": "muse_6",
+          "text": "Walk the Outdoor Artillery Yard",
+          "detail": "Inspect historic cannons and vehicles displayed in the museum's open-air courtyard.",
+          "lat": 35.8899,
+          "lng": -5.3207
+        }
+      ],
+      "food": [
+        {
+          "id": "muse_f1",
+          "text": "Rancho legionario",
+          "detail": "Try a reenactment-style hearty stew similar to the traditional field ration once served to Legion troops."
+        },
+        {
+          "id": "muse_f2",
+          "text": "Tetera de menta",
+          "detail": "Sip sweet Moroccan-influenced mint tea, a popular refreshment in Ceuta reflecting its North African ties."
+        },
+        {
+          "id": "muse_f3",
+          "text": "Bocadillo de calamares",
+          "detail": "Grab a fried squid sandwich from a nearby Ceuta café, a favorite quick bite for visitors touring military sites."
+        },
+        {
+          "id": "muse_f4",
+          "text": "Pastel Ceutí",
+          "detail": "Sample this local sweet pastry often enjoyed with coffee after a museum visit."
+        }
+      ],
+      "culture": [
+        {
+          "id": "muse_c1",
+          "text": "Respect military etiquette",
+          "detail": "As an active barracks site, visitors should remain quiet and respectful, especially during flag ceremonies."
+        },
+        {
+          "id": "muse_c2",
+          "text": "Check for guided tours",
+          "detail": "Tours are often led by Legion veterans who provide firsthand historical commentary rarely found in guidebooks."
+        },
+        {
+          "id": "muse_c3",
+          "text": "Photography restrictions",
+          "detail": "Some areas prohibit photography due to the museum's location within an active military installation."
+        },
+        {
+          "id": "muse_c4",
+          "text": "Dress modestly",
+          "detail": "Given the site's solemn military character, casual beachwear or overly casual attire is discouraged."
+        }
+      ]
+    },
+    {
+      "id": "melilla_city",
+      "name": "Melilla",
+      "nameIt": "Melilla",
+      "lat": 35.2923,
+      "lng": -2.9381,
+      "type": "CITY",
+      "description": "A Spanish enclave on Morocco's Mediterranean coast renowned for its exceptional collection of Modernist architecture and layered multicultural history. Its blend of colonial-era buildings, fortifications and vibrant street life make it a uniquely rewarding destination.",
+      "imageQueries": [
+        "Melilla city Spain",
+        "Melilla skyline coast"
+      ],
+      "activities": [
+        {
+          "id": "meli_1",
+          "text": "Wander Melilla la Vieja",
+          "detail": "Explore this compact fortified old town with its labyrinth of ramparts, gates and hidden squares overlooking the Mediterranean.",
+          "lat": 35.2938,
+          "lng": -2.9382
+        },
+        {
+          "id": "meli_2",
+          "text": "Admire Modernist buildings on Calle General Marina",
+          "detail": "Stroll past early 20th-century Art Nouveau facades designed largely by Enrique Nieto, a former collaborator of Gaudí.",
+          "lat": 35.2917,
+          "lng": -2.9412
+        },
+        {
+          "id": "meli_3",
+          "text": "Visit the Museo Militar in Fuerte de la Purísima Concepción",
+          "detail": "Housed within the old fortress walls, this museum traces Melilla's long military and colonial history.",
+          "lat": 35.2945,
+          "lng": -2.9375
+        },
+        {
+          "id": "meli_4",
+          "text": "Descend into the Cuevas del Conventico",
+          "detail": "Explore a network of tunnels carved into the cliffside once used for defense and storage during sieges.",
+          "lat": 35.2951,
+          "lng": -2.9368
+        },
+        {
+          "id": "meli_5",
+          "text": "See the Palacio de la Asamblea",
+          "detail": "Photograph this striking Neo-Baroque city hall, one of the city's most recognizable Modernist landmarks.",
+          "lat": 35.2905,
+          "lng": -2.9395
+        },
+        {
+          "id": "meli_6",
+          "text": "Relax in Parque Hernández",
+          "detail": "Enjoy this shaded central park with palm trees, fountains and a lively café scene at its edges.",
+          "lat": 35.2903,
+          "lng": -2.9407
+        },
+        {
+          "id": "meli_7",
+          "text": "Tour the Plaza de Toros",
+          "detail": "Visit one of Spain's oldest bullrings, a distinctive circular structure reflecting the city's Andalusian heritage.",
+          "lat": 35.2896,
+          "lng": -2.9421
+        },
+        {
+          "id": "meli_8",
+          "text": "Cross to the Moroccan border at Beni Enzar",
+          "detail": "Take a short trip to the frontier to observe the striking daily flow of people and goods between Spain and Morocco.",
+          "lat": 35.2989,
+          "lng": -2.9581
+        }
+      ],
+      "food": [
+        {
+          "id": "meli_f1",
+          "text": "Pincho moruno",
+          "detail": "Skewered, spiced grilled meat reflecting Melilla's deep Moroccan culinary influence, sold at street stalls and bars alike."
+        },
+        {
+          "id": "meli_f2",
+          "text": "Couscous melillense",
+          "detail": "A local take on North African couscous, often served with vegetables and slow-cooked lamb or chicken."
+        },
+        {
+          "id": "meli_f3",
+          "text": "Berenjenas fritas con miel",
+          "detail": "Crispy fried eggplant slices drizzled with honey, a beloved Andalusian-Sephardic-inspired tapa found across the city."
+        },
+        {
+          "id": "meli_f4",
+          "text": "Té moruno con pastas",
+          "detail": "Sweet mint tea served in small glasses alongside almond pastries, a daily ritual blending Spanish and Moroccan customs."
+        },
+        {
+          "id": "meli_f5",
+          "text": "Pescaito frito",
+          "detail": ""
+        },
+        {
+          "id": "meli_f6",
+          "text": "Empanadillas melillenses",
+          "detail": "Small fried or baked pastries filled with tuna, meat or vegetables, popular as a quick snack throughout the city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "meli_c1",
+          "text": "Expect a multicultural blend",
+          "detail": "Melilla's population includes Christian, Muslim, Jewish and Hindu communities, so respectful curiosity about diverse traditions is appreciated."
+        },
+        {
+          "id": "meli_c2",
+          "text": "Euro is the only currency",
+          "detail": "Despite its proximity to Morocco, Melilla uses the euro exclusively, unlike some informal cross-border transactions nearby."
+        },
+        {
+          "id": "meli_c3",
+          "text": "Border crossing can be slow",
+          "detail": "If visiting Morocco via Beni Enzar, allow extra time for potentially long queues and document checks."
+        },
+        {
+          "id": "meli_c4",
+          "text": "Siesta hours affect opening times",
+          "detail": "Many shops and some sites close in the early afternoon, reopening later in the evening, especially in summer."
+        }
+      ]
+    },
+    {
+      "id": "melilla_la_vieja",
+      "name": "Old Melilla",
+      "nameIt": "Melilla la Vieja",
+      "lat": 35.2951,
+      "lng": -2.9358,
+      "type": "LANDMARK",
+      "description": "A fortified old town perched on a rocky promontory, comprising four walled enclosures built from the 16th century onward. Narrow lanes, chapels, museums and sea bastions make it the historic heart of the city.",
+      "imageQueries": [
+        "Melilla la Vieja fortress",
+        "Melilla old town walls"
+      ],
+      "activities": [
+        {
+          "id": "meli_1",
+          "text": "Enter through Puerta de Santiago",
+          "detail": "Pass beneath this restored 16th-century Gothic gateway, one of the original entrances into the fortress town.",
+          "lat": 35.2932,
+          "lng": -2.9346
+        },
+        {
+          "id": "meli_2",
+          "text": "Tour the Museo Municipal de Melilla",
+          "detail": "Housed inside the Baluarte de la Concepción bastion, this museum traces Phoenician, Roman, Islamic and Spanish layers of the city's history.",
+          "lat": 35.2937,
+          "lng": -2.9352
+        },
+        {
+          "id": "meli_3",
+          "text": "Visit the Iglesia de la Purísima Concepción",
+          "detail": "This baroque sanctuary honors Melilla's patroness and sits at the heart of the old quarter's religious life.",
+          "lat": 35.2935,
+          "lng": -2.9349
+        },
+        {
+          "id": "meli_4",
+          "text": "Step into the Capilla de Santiago",
+          "detail": "A rare Gothic chapel built into the walls, one of the few surviving from the original 15th-16th century fortification.",
+          "lat": 35.293,
+          "lng": -2.9344
+        },
+        {
+          "id": "meli_5",
+          "text": "Walk the Foso and ramparts",
+          "detail": "Follow the dry moat and bastion walkways for sweeping views over the Mediterranean and the modern city below.",
+          "lat": 35.294,
+          "lng": -2.9355
+        },
+        {
+          "id": "meli_6",
+          "text": "Climb the Torre del Homenaje",
+          "detail": "This keep tower offers a sense of the fortress's defensive scale and panoramic coastal views.",
+          "lat": 35.2928,
+          "lng": -2.9341
+        },
+        {
+          "id": "meli_7",
+          "text": "Explore the Cuevas del Conventico",
+          "detail": "Wander through tunnels and caves carved into the rock that once served as storage and refuge within the fortress.",
+          "lat": 35.2925,
+          "lng": -2.9338
+        },
+        {
+          "id": "meli_8",
+          "text": "Cross through the four walled enclosures",
+          "detail": "Trace the layered recintos built progressively from the 16th century, each added as the town's defenses expanded seaward."
+        }
+      ],
+      "food": [
+        {
+          "id": "meli_f1",
+          "text": "Pastela",
+          "detail": "A sweet-savory filo pie of pigeon or chicken, almonds and cinnamon, reflecting Melilla's Sephardic and Moroccan culinary blend."
+        },
+        {
+          "id": "meli_f2",
+          "text": "Berenjenas con miel",
+          "detail": "Fried eggplant slices drizzled with honey, a Sephardic Jewish dish still served in cafes near the old town."
+        },
+        {
+          "id": "meli_f3",
+          "text": "Cuernos de gacela",
+          "detail": "Almond-filled crescent pastries dusted with sugar, a classic Andalusi-Maghrebi sweet found in local bakeries."
+        },
+        {
+          "id": "meli_f4",
+          "text": "Té moruno con pastas",
+          "detail": "Sweet mint tea served with almond pastries, best enjoyed at a terrace overlooking the fortress walls."
+        },
+        {
+          "id": "meli_f5",
+          "text": "Marisco fresco del puerto",
+          "detail": "Fresh seafood caught just below the ramparts, served grilled or fried in nearby portside restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "meli_c1",
+          "text": "Respect the multicultural heritage",
+          "detail": "Melilla's old town reflects Christian, Jewish, Muslim and Hindu communities living side by side, so dress and behave respectfully near religious sites."
+        },
+        {
+          "id": "meli_c2",
+          "text": "Wear sturdy shoes",
+          "detail": "The steep cobbled lanes and stairways of the fortress can be uneven and slippery, especially after rain."
+        },
+        {
+          "id": "meli_c3",
+          "text": "Check museum and chapel hours",
+          "detail": "Many sites keep limited opening hours and close on Mondays, so plan visits in advance."
+        },
+        {
+          "id": "meli_c4",
+          "text": "Visit by day for full access",
+          "detail": "Some bastions and passages are gated at night, so daytime exploration offers the best access to the walled enclosures."
+        }
+      ]
+    },
+    {
+      "id": "plaza_espana_melilla",
+      "name": "Plaza de España",
+      "nameIt": "Plaza de España",
+      "lat": 35.292,
+      "lng": -2.939,
+      "type": "LANDMARK",
+      "description": "The central square of modern Melilla, surrounded by grand early 20th-century buildings including the Palacio de la Asamblea. It serves as the social and architectural showcase of the city's Modernist heritage.",
+      "imageQueries": [
+        "Plaza de Espana Melilla",
+        "Palacio Asamblea Melilla"
+      ],
+      "activities": [
+        {
+          "id": "plaz_1",
+          "text": "Admire the Palacio de la Asamblea",
+          "detail": "Marvel at Melilla's Modernist city hall, designed by Enrique Nieto, a disciple of Gaudí, with its ornate facade and clock tower.",
+          "lat": 35.2914,
+          "lng": -2.9384
+        },
+        {
+          "id": "plaz_2",
+          "text": "Visit the Monument to the Fallen",
+          "detail": "See the tall obelisk war memorial standing at the center of the square, a key gathering point in the city.",
+          "lat": 35.2916,
+          "lng": -2.9382
+        },
+        {
+          "id": "plaz_3",
+          "text": "Stroll into Parque Hernández",
+          "detail": "Wander through the adjoining subtropical garden with ponds, sculptures, and shaded paths just steps from the plaza.",
+          "lat": 35.2908,
+          "lng": -2.939
+        },
+        {
+          "id": "plaz_4",
+          "text": "Cross into Melilla la Vieja",
+          "detail": "Head across the bridge over the old moat to explore the fortified old town rising just beyond the square.",
+          "lat": 35.2932,
+          "lng": -2.9368
+        },
+        {
+          "id": "plaz_5",
+          "text": "Spot the Modernist facades",
+          "detail": "Look up at the surrounding early 20th-century buildings that showcase Melilla's rich Art Nouveau architectural heritage.",
+          "lat": 35.2915,
+          "lng": -2.9385
+        },
+        {
+          "id": "plaz_6",
+          "text": "Take an evening paseo",
+          "detail": "Join locals for the traditional evening stroll around the square once the buildings are illuminated."
+        }
+      ],
+      "food": [
+        {
+          "id": "plaz_f1",
+          "text": "Café con leche on a terrace",
+          "detail": "Sit at one of the plaza's outdoor cafés for a classic Spanish coffee while people-watching."
+        },
+        {
+          "id": "plaz_f2",
+          "text": "Té moruno",
+          "detail": "Try sweet Moroccan-style mint tea, a nod to Melilla's cross-cultural identity, served at nearby cafés."
+        },
+        {
+          "id": "plaz_f3",
+          "text": "Ensaladilla melillense",
+          "detail": "Sample the local take on Russian salad, often served as a tapa in bars around the square."
+        },
+        {
+          "id": "plaz_f4",
+          "text": "Pastela",
+          "detail": "Seek out this Moroccan-influenced savory-sweet pastry filled with meat, almonds, and cinnamon, found in local bakeries."
+        },
+        {
+          "id": "plaz_f5",
+          "text": "Tapas crawl",
+          "detail": "Hop between the bars lining the plaza for small plates of seafood, jamón, and local specialties."
+        }
+      ],
+      "culture": [
+        {
+          "id": "plaz_c1",
+          "text": "Visit at dusk",
+          "detail": "The Palacio de la Asamblea and surrounding buildings are beautifully lit at night, making evening the best time to see the square."
+        },
+        {
+          "id": "plaz_c2",
+          "text": "Respect the war memorial",
+          "detail": "The Monument to the Fallen is a solemn site, so keep noise and behavior respectful when nearby."
+        },
+        {
+          "id": "plaz_c3",
+          "text": "Starting point for walking tours",
+          "detail": "Many Modernist architecture tours of Melilla begin here, so it's a good spot to pick up a map or guide."
+        },
+        {
+          "id": "plaz_c4",
+          "text": "Cultural blend on display",
+          "detail": "Notice the mix of Spanish and Amazigh-Moroccan influences in the cafés and shops surrounding the plaza."
+        }
+      ]
+    },
+    {
+      "id": "gran_hotel_area",
+      "name": "Modernist Quarter & Gran Hotel",
+      "nameIt": "Barrio Modernista y Gran Hotel Melilla",
+      "lat": 35.2913,
+      "lng": -2.9401,
+      "type": "LANDMARK",
+      "description": "A district filled with Art Nouveau facades designed largely by disciples of Gaudí, anchored by the elegant early 20th-century Gran Hotel. It is one of Spain's richest concentrations of Modernist architecture outside Catalonia.",
+      "imageQueries": [
+        "Melilla Modernist architecture",
+        "Gran Hotel Melilla facade"
+      ],
+      "activities": [
+        {
+          "id": "gran_1",
+          "text": "Gran Hotel Melilla",
+          "detail": "Admire this elegant early 20th-century hotel, a centerpiece of the city's Modernist heritage with ornate balconies and a grand facade.",
+          "lat": 35.2896,
+          "lng": -2.9385
+        },
+        {
+          "id": "gran_2",
+          "text": "Plaza de España",
+          "detail": "Stroll through this central square surrounded by Modernist buildings and lush gardens that anchor the district's atmosphere.",
+          "lat": 35.2899,
+          "lng": -2.9391
+        },
+        {
+          "id": "gran_3",
+          "text": "Palacio de la Asamblea",
+          "detail": "Photograph the striking twin-towered city hall, one of Enrique Nieto's most iconic Modernist works.",
+          "lat": 35.2905,
+          "lng": -2.9399
+        },
+        {
+          "id": "gran_4",
+          "text": "Iglesia de la Purísima Concepción",
+          "detail": "Step inside this Neo-Gothic church with Modernist decorative touches, an important religious landmark in the quarter.",
+          "lat": 35.2912,
+          "lng": -2.9378
+        },
+        {
+          "id": "gran_5",
+          "text": "Camino Viejo del Hospital walk",
+          "detail": "Wander this street lined with private Modernist villas showcasing wrought-iron balconies and floral stone carvings.",
+          "lat": 35.2925,
+          "lng": -2.9365
+        },
+        {
+          "id": "gran_6",
+          "text": "Teatro Kursaal",
+          "detail": "Admire the Art Deco and Modernist facade of this historic theater, still used for cultural events today.",
+          "lat": 35.2908,
+          "lng": -2.9405
+        },
+        {
+          "id": "gran_7",
+          "text": "Enrique Nieto architecture tour",
+          "detail": "Follow a self-guided or guided walk tracing the works of Gaudí's disciple Enrique Nieto scattered across the quarter.",
+          "lat": 35.2902,
+          "lng": -2.939
+        },
+        {
+          "id": "gran_8",
+          "text": "Casino Militar building",
+          "detail": "View this ornate former military social club, a fine example of eclectic Modernist design in Melilla.",
+          "lat": 35.2894,
+          "lng": -2.9382
+        }
+      ],
+      "food": [
+        {
+          "id": "gran_f1",
+          "text": "Pinchos morunos",
+          "detail": "Try these grilled skewers of spiced marinated meat, a local favorite reflecting Melilla's North African influence."
+        },
+        {
+          "id": "gran_f2",
+          "text": "Té moruno con pastas",
+          "detail": "Sip sweet mint tea paired with almond pastries in a café near the Gran Hotel, a tradition blending Spanish and Maghrebi customs."
+        },
+        {
+          "id": "gran_f3",
+          "text": "Melillense-style churros",
+          "detail": "Enjoy freshly fried churros with thick hot chocolate at a historic café in the Modernist quarter."
+        },
+        {
+          "id": "gran_f4",
+          "text": "Cuernos de gacela",
+          "detail": "Sample these crescent-shaped almond pastries dusted with sugar, a sweet influenced by the city's Sephardic and Muslim communities."
+        },
+        {
+          "id": "gran_f5",
+          "text": "Ensaladilla melillense",
+          "detail": "Taste this local variation of Spanish potato salad, often served as a tapa in bars around Plaza de España."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gran_c1",
+          "text": "Multicultural etiquette",
+          "detail": "Melilla's population includes Christian, Muslim, Jewish, and Hindu communities, so dress modestly and be respectful near religious sites."
+        },
+        {
+          "id": "gran_c2",
+          "text": "Best light for photography",
+          "detail": "Visit the Modernist facades in late afternoon when the sun highlights the intricate stone and ironwork details."
+        },
+        {
+          "id": "gran_c3",
+          "text": "Siesta hours",
+          "detail": "Many shops and some cafés close in early afternoon, so plan sightseeing around midday closures."
+        },
+        {
+          "id": "gran_c4",
+          "text": "Guided architecture tours",
+          "detail": "Local tourism offices offer guided walks explaining Enrique Nieto's Modernist legacy, well worth booking in advance."
+        }
+      ]
+    },
+    {
+      "id": "cabo_tres_forcas",
+      "name": "Cape Tres Forcas",
+      "nameIt": "Cabo Tres Forcas",
+      "lat": 35.3833,
+      "lng": -3.0333,
+      "type": "COASTAL",
+      "description": "A dramatic rocky cape near Melilla with cliffs, a historic lighthouse and turquoise waters. It's a scenic escape for hiking and coastal views away from the urban center.",
+      "imageQueries": [
+        "Cabo Tres Forcas lighthouse",
+        "Cabo Tres Forcas cliffs"
+      ],
+      "activities": [
+        {
+          "id": "cabo_1",
+          "text": "Visit the Cabo Tres Forcas lighthouse",
+          "detail": "This solitary 19th-century lighthouse marks the tip of the peninsula and offers sweeping views over the Alboran Sea.",
+          "lat": 35.4667,
+          "lng": -2.95
+        },
+        {
+          "id": "cabo_2",
+          "text": "Hike the cliff-top trail",
+          "detail": "A rugged dirt track along the ridge winds past volcanic rock formations and drops to hidden coves.",
+          "lat": 35.462,
+          "lng": -2.955
+        },
+        {
+          "id": "cabo_3",
+          "text": "Swim at Calas del Cabo",
+          "detail": "Small turquoise-watered coves below the cliffs are ideal for a quiet swim away from Melilla's busier beaches.",
+          "lat": 35.47,
+          "lng": -2.94
+        },
+        {
+          "id": "cabo_4",
+          "text": "Watch the sunset over the strait",
+          "detail": "The exposed western point gives unobstructed views of the sun dropping toward the Rif mountains and the Mediterranean.",
+          "lat": 35.468,
+          "lng": -2.952
+        },
+        {
+          "id": "cabo_5",
+          "text": "Birdwatch along the cliffs",
+          "detail": "The cape's isolation makes it a resting point for migratory seabirds crossing between Africa and Europe.",
+          "lat": 35.465,
+          "lng": -2.948
+        },
+        {
+          "id": "cabo_6",
+          "text": "Photograph the volcanic rock formations",
+          "detail": "Dark basalt outcrops and eroded sea stacks create striking contrasts against the bright blue water."
+        }
+      ],
+      "food": [
+        {
+          "id": "cabo_f1",
+          "text": "Grilled sardines by the coast",
+          "detail": "Freshly caught sardines cooked over open coals are a simple staple enjoyed by fishermen and visitors near the shore."
+        },
+        {
+          "id": "cabo_f2",
+          "text": "Moroccan mint tea",
+          "detail": "A sweet, strong mint tea often shared at small roadside stalls or with local fishermen taking a break."
+        },
+        {
+          "id": "cabo_f3",
+          "text": "Fresh seafood tagine",
+          "detail": "Nearby coastal villages prepare tagines with the day's catch, simmered with tomatoes, olives, and preserved lemon."
+        },
+        {
+          "id": "cabo_f4",
+          "text": "Melilla-style pastries",
+          "detail": "Before or after visiting the cape, travelers often pick up Spanish-Moroccan fusion pastries in Melilla, blending both culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cabo_c1",
+          "text": "Respect the military and fishing presence",
+          "detail": "Parts of the cape are used by local fishermen and occasionally patrolled, so visitors should stay on marked paths and be courteous."
+        },
+        {
+          "id": "cabo_c2",
+          "text": "Bring your own supplies",
+          "detail": "There are no shops or restaurants directly at the cape, so pack water and food before heading out."
+        },
+        {
+          "id": "cabo_c3",
+          "text": "Access can be rough",
+          "detail": "The road to the lighthouse is unpaved and best suited to a sturdy vehicle or a long hike, especially after rain."
+        },
+        {
+          "id": "cabo_c4",
+          "text": "Cross-border awareness",
+          "detail": "Since the cape lies in Moroccan territory near the Spanish enclave of Melilla, travelers should carry proper identification when moving between zones."
+        }
+      ]
+    },
+    {
+      "id": "playa_carabos",
+      "name": "Carabos Beach",
+      "nameIt": "Playa de los Cárabos",
+      "lat": 35.2889,
+      "lng": -2.9333,
+      "type": "COASTAL",
+      "description": "A popular sandy beach in Melilla along the Mediterranean promenade, ideal for swimming and relaxing with views of the marina. It's a favorite local spot for sun and sea combined with easy city access.",
+      "imageQueries": [
+        "Playa de los Carabos Melilla",
+        "Melilla beach promenade"
+      ],
+      "activities": [
+        {
+          "id": "play_1",
+          "text": "Swim in calm Mediterranean waters",
+          "detail": "The beach's gentle waves and shallow entry make it a safe, popular spot for swimming most of the year.",
+          "lat": 35.2895,
+          "lng": -2.935
+        },
+        {
+          "id": "play_2",
+          "text": "Stroll the Paseo Marítimo",
+          "detail": "Walk the palm-lined promenade that runs alongside the beach, connecting it to Melilla's marina and city center.",
+          "lat": 35.29,
+          "lng": -2.9355
+        },
+        {
+          "id": "play_3",
+          "text": "Watch the boats at Melilla Marina",
+          "detail": "Admire yachts and fishing boats docked at the nearby marina just steps from the sand.",
+          "lat": 35.2915,
+          "lng": -2.9365
+        },
+        {
+          "id": "play_4",
+          "text": "Relax on rented sun loungers",
+          "detail": "Settle in with a beach chair and umbrella rented from seasonal kiosks right on the sand.",
+          "lat": 35.2892,
+          "lng": -2.9348
+        },
+        {
+          "id": "play_5",
+          "text": "People-watch at a beach chiringuito",
+          "detail": "Grab an outdoor table at one of the small beach bars for a front-row seat to local beach life.",
+          "lat": 35.2897,
+          "lng": -2.9352
+        },
+        {
+          "id": "play_6",
+          "text": "Sunset views over the water",
+          "detail": "Evenings bring soft light over the Mediterranean, a favorite time for locals to gather along the shore."
+        }
+      ],
+      "food": [
+        {
+          "id": "play_f1",
+          "text": "Fresh grilled sardines",
+          "detail": "A classic seaside snack sold at nearby chiringuitos, simply grilled and served with lemon."
+        },
+        {
+          "id": "play_f2",
+          "text": "Melillense-style seafood tapas",
+          "detail": "Small plates of local shrimp, calamari, and fish reflecting Melilla's Spanish-Mediterranean-North African fusion."
+        },
+        {
+          "id": "play_f3",
+          "text": "Chebakia and other Sephardic-influenced sweets",
+          "detail": "Melilla's mixed heritage brings honey-soaked pastries you can find in cafés just off the beach promenade."
+        },
+        {
+          "id": "play_f4",
+          "text": "Ice cold horchata or granizado",
+          "detail": "A refreshing iced drink popular on hot beach days, sold from kiosks along the seafront."
+        },
+        {
+          "id": "play_f5",
+          "text": "Pescaíto frito",
+          "detail": "Lightly battered mixed fried fish, a staple of Spanish coastal dining enjoyed at beachfront restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "play_c1",
+          "text": "Beach fills up on weekends",
+          "detail": "Locals flock here on weekends and holidays, so arrive early to claim a good spot on the sand."
+        },
+        {
+          "id": "play_c2",
+          "text": "Respect mixed cultural norms",
+          "detail": "Melilla blends Spanish and North African customs, so modest swimwear etiquette is appreciated away from the immediate shoreline."
+        },
+        {
+          "id": "play_c3",
+          "text": "Promenade is pedestrian-friendly",
+          "detail": "The adjacent paseo is ideal for an evening walk after the beach, with cafés and shops nearby."
+        },
+        {
+          "id": "play_c4",
+          "text": "Summer sun is intense",
+          "detail": "Bring sunscreen and a hat, as the Mediterranean sun can be strong even in shoulder seasons."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Restaurante El Ancla",
+      "address": "Calle Camoens 3, Ceuta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Spanish seafood",
+      "priceRange": "€€€",
+      "description": "Iconic seafood restaurant overlooking the port with fresh catches prepared in traditional Spanish style.",
+      "mustOrder": "Espetos de sardinas a la sal",
+      "lat": 35.8883,
+      "lng": -5.3161
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Casa Pepe",
+      "address": "Plaza de Africa 1, Ceuta",
+      "neighbourhood": "Centro",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€",
+      "description": "Casual family-run spot serving authentic Ceutí cuisine with views of the main square and excellent value.",
+      "mustOrder": "Tagine de merluza",
+      "lat": 35.8889,
+      "lng": -5.315
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Restaurante Príncipe",
+      "address": "Avenida Juan Carlos I 45, Ceuta",
+      "neighbourhood": "Barrio del Príncipe",
+      "cuisine": "Spanish traditional",
+      "priceRange": "€€",
+      "description": "Well-established restaurant known for hearty Spanish dishes and a welcoming atmosphere popular with locals.",
+      "mustOrder": "Rabo de toro",
+      "lat": 35.8756,
+      "lng": -5.3245
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "La Tranca",
+      "address": "Calle Camoens 15, Ceuta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Spanish tapas",
+      "priceRange": "€",
+      "description": "Lively tapas bar perfect for casual dining with excellent jamón ibérico and local wines at budget-friendly prices.",
+      "mustOrder": "Tabla de jamón y quesos ibéricos",
+      "lat": 35.888,
+      "lng": -5.3165
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Restaurante Bab Taza",
+      "address": "Calle Camoens 22, Ceuta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Moroccan-Spanish fusion",
+      "priceRange": "€€",
+      "description": "Charming fusion restaurant blending Moroccan and Spanish influences reflecting Ceuta's unique cultural position.",
+      "mustOrder": "Cuscús con cordero",
+      "lat": 35.8878,
+      "lng": -5.3168
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "El Pescador",
+      "address": "Calle Real 78, Ceuta",
+      "neighbourhood": "Centro",
+      "cuisine": "Spanish seafood",
+      "priceRange": "€€€",
+      "description": "Long-established fish restaurant famous for its daily catch and traditional preparation methods.",
+      "mustOrder": "Besugo a la sal",
+      "lat": 35.89,
+      "lng": -5.314
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Restaurante Mar y Tierra",
+      "address": "Paseo del Revellín s/n, Ceuta",
+      "neighbourhood": "Waterfront",
+      "cuisine": "Spanish contemporary",
+      "priceRange": "€€€",
+      "description": "Modern restaurant with panoramic port views serving creative interpretations of Mediterranean classics.",
+      "mustOrder": "Brocheta de pez espada",
+      "lat": 35.887,
+      "lng": -5.319
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurante La Alcazaba",
+      "address": "Calle Tetuán 24, Melilla",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Spanish Mediterranean",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant in Melilla's old town featuring quality regional ingredients and refined presentation.",
+      "mustOrder": "Mero a la dorada",
+      "lat": 35.2847,
+      "lng": -2.9372
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Casa Luján",
+      "address": "Avenida de la Paz 9, Melilla",
+      "neighbourhood": "Centro",
+      "cuisine": "Spanish traditional",
+      "priceRange": "€€",
+      "description": "Popular family restaurant serving generous portions of classic Spanish fare in a relaxed, unpretentious setting.",
+      "mustOrder": "Puchero melillense",
+      "lat": 35.292,
+      "lng": -2.94
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Restaurante Mikasa",
+      "address": "Calle Primo de Rivera 7, Melilla",
+      "neighbourhood": "Centro",
+      "cuisine": "Japanese",
+      "priceRange": "€€€",
+      "description": "Unexpectedly excellent Japanese restaurant offering sushi, sashimi, and hot dishes prepared by skilled chefs.",
+      "mustOrder": "Sashimi variado",
+      "lat": 35.289,
+      "lng": -2.938
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Bar Restaurante El Faro",
+      "address": "Calle Córdoba 12, Melilla",
+      "neighbourhood": "Puerto",
+      "cuisine": "Spanish seafood",
+      "priceRange": "€€",
+      "description": "Waterfront bar-restaurant perfect for casual seafood dining with local catch and relaxed maritime atmosphere.",
+      "mustOrder": "Arroz con marisco",
+      "lat": 35.2865,
+      "lng": -2.9355
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Restaurante Zoco",
+      "address": "Plaza de España 4, Melilla",
+      "neighbourhood": "Centro",
+      "cuisine": "Moroccan",
+      "priceRange": "€€",
+      "description": "Authentic Moroccan restaurant celebrating Melilla's proximity to Morocco with traditional tagines and couscous.",
+      "mustOrder": "Tajín de pollo con limón y aceitunas",
+      "lat": 35.2905,
+      "lng": -2.9365
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Restaurante El Peñón",
+      "address": "Avenida Reyes Católicos 31, Ceuta",
+      "neighbourhood": "Ensanche",
+      "cuisine": "Spanish modern",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant with creative presentations of local ingredients and an extensive wine selection.",
+      "mustOrder": "Atún en costra de sésamo",
+      "lat": 35.881,
+      "lng": -5.322
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Tasca La Esquinita",
+      "address": "Calle Camoens 8, Ceuta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Spanish tapas",
+      "priceRange": "€",
+      "description": "Charming corner tavern ideal for standing at the bar with a drink and sampling traditional small plates.",
+      "mustOrder": "Croquetas de jamón y gamba",
+      "lat": 35.8882,
+      "lng": -5.3162
+    }
+  ]
+}
