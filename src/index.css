@@ -2372,3 +2372,11 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 
 .bld__missing{border-color:color-mix(in srgb,#b4552d 30%,var(--line))}
 .bld__missinput{max-width:280px}
+
+.bld__guidegrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px}
+.bld__guidecard{border:1px solid var(--line); border-radius:12px; padding:14px 15px; display:flex; flex-direction:column; gap:8px}
+.bld__guidecard.is-done{border-color:color-mix(in srgb,var(--ok) 30%,var(--line))}
+.bld__guidehead{display:flex; align-items:center; justify-content:space-between; gap:8px}
+.bld__guidehead b{font-size:14.5px}
+.bld__guideblurb{font-size:12px; color:var(--muted); line-height:1.5; margin:0; flex:1}
+.bld__guidecard .btn{align-self:flex-start}

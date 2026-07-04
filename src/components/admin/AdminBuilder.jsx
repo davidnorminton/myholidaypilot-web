@@ -477,33 +477,45 @@ function PlaceRow({ countryId, regionId, place, detailed, image, running, editin
 
 function GuidesPanel({ countryId, build, onSaved }) {
   const [busy, setBusy] = useState('')
-  const [msg, setMsg] = useState('')
+  const [err, setErr] = useState('')
   const guides = build.guides || {}
   const run = async (topic) => {
-    setBusy(topic); setMsg('')
-    try { await api.builder.genGuide(countryId, topic); await onSaved(); setMsg(`${topic} guide generated ✓`) }
-    catch (e) { setMsg(e.message) } finally { setBusy('') }
+    setBusy(topic); setErr('')
+    try { await api.builder.genGuide(countryId, topic); await onSaved() }
+    catch (e) { setErr(`${topic}: ${e.message}`) } finally { setBusy('') }
   }
+  // Each guide section is generated separately — mirrors the four hub cards
+  // (everything except Regions and Plan-a-trip, which aren't AI content).
   const items = [
-    ['festivals', 'Festivals & events'],
-    ['history', 'History'],
-    ['food', 'Food & wine'],
-    ['transport', 'Getting around'],
+    ['festivals', 'Festivals & events', 'Carnivals, palios, harvest fairs — month by month.', (g) => `${g.festivals?.length || 0} events`],
+    ['history', 'History', 'Antiquity to the modern day, in titled sections.', (g) => `${g.sections?.length || 0} sections`],
+    ['food', 'Food & wine', 'Regional cuisines, signature dishes and wines.', (g) => `${g.sections?.length || 0} sections`],
+    ['transport', 'Getting around', 'Trains, driving, flights and city transport.', (g) => `${g.sections?.length || 0} sections`],
   ]
   return (
     <section className="bld__stage">
       <div className="bld__stagehead"><h3>7–10 · Country guides</h3></div>
-      <p className="admin-note">One call each — the four guide pages every country has.</p>
-      <div className="bld__guides">
-        {items.map(([topic, label]) => (
-          <button key={topic} className="btn btn--soft" onClick={() => run(topic)} disabled={!!busy}>
-            {busy === topic ? <RefreshCw size={14} className="pk__spin" />
-              : guides[topic] ? <RefreshCw size={14} /> : <Sparkles size={14} />}
-            {label}{guides[topic] ? ' ✓' : ''}
-          </button>
-        ))}
+      <p className="admin-note">Each section generates separately — the guide pages every country has.</p>
+      <div className="bld__guidegrid">
+        {items.map(([topic, label, blurb, count]) => {
+          const has = !!guides[topic]
+          return (
+            <div key={topic} className={`bld__guidecard ${has ? 'is-done' : ''}`}>
+              <div className="bld__guidehead">
+                <b>{label}</b>
+                {has && <span className="bld__done">✓ {count(guides[topic])}</span>}
+              </div>
+              <p className="bld__guideblurb">{blurb}</p>
+              <button className="btn btn--soft" onClick={() => run(topic)} disabled={!!busy}>
+                {busy === topic ? <><RefreshCw size={13} className="pk__spin" /> Generating…</>
+                  : has ? <><RefreshCw size={13} /> Regenerate</>
+                  : <><Sparkles size={13} /> Generate</>}
+              </button>
+            </div>
+          )
+        })}
       </div>
-      {msg && <p className="bld__detailnote" style={{ marginTop: 10 }}>{msg}</p>}
+      {err && <p className="pk__warn">{err}</p>}
     </section>
   )
 }
