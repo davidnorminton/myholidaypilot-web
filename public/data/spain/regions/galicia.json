@@ -1,0 +1,1770 @@
+{
+  "id": "galicia",
+  "name": "Galicia",
+  "nameIt": "Galicia",
+  "capital": "Santiago de Compostela",
+  "lat": 42.8,
+  "lng": -7.9,
+  "emoji": "🌊",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": 43.8,
+    "south": 41.9,
+    "east": -6.7,
+    "west": -9.3
+  },
+  "history": "Galicia, located in the northwestern corner of the Iberian Peninsula, has a history reaching back to Celtic settlements and Roman occupation. During the Middle Ages, it became a Christian stronghold and pilgrimage destination, particularly as the site of Santiago de Compostela, one of Christianity's holiest places. The region later fell under various kingdoms and eventually became part of the unified Spanish crown in the 15th century. Over the centuries, Galicia developed a distinct cultural identity shaped by its Atlantic maritime heritage, Celtic influences, and periods of relative isolation.",
+  "culturalNotes": "Galicia is renowned for its deep connection to the sea, reflected in its seafood cuisine, fishing traditions, and maritime festivals that celebrate local heritage. The region has a strong Celtic cultural legacy visible in its traditional music, bagpipes (gaitas), and folk dances that remain central to local celebrations and identity. Galician pride in regional distinctiveness is evident in its language, festivals like the Festa da Virxe da Barca, and the enduring pilgrimage routes that continue to draw visitors seeking spiritual connection.",
+  "bestTimeToVisit": "Summer is best for pleasant weather along the Atlantic coast and pilgrimage routes.",
+  "languageNotes": "Galician (Galego) is the co-official language alongside Spanish and is spoken by most locals in daily life; it shares Celtic roots and has similarities to Portuguese. Useful phrases include \"Olá\" (hello), \"Gracias\" (thank you), and \"Fala galego?\" (Do you speak Galician?), which locals appreciate hearing from visitors.",
+  "generatedAt": "2026-07-04T16:19:40.889Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "santiago_de_compostela",
+      "name": "Santiago de Compostela",
+      "nameIt": "Santiago de Compostela",
+      "lat": 42.8805,
+      "lng": -8.5456,
+      "type": "CITY",
+      "description": "The spiritual capital of Galicia and endpoint of the Camino de Santiago pilgrimage, famed for its immense granite cathedral said to hold the relics of Saint James. Its atmospheric old town of narrow lanes, monasteries and lively squares is a UNESCO World Heritage Site.",
+      "imageQueries": [
+        "Santiago de Compostela Cathedral facade",
+        "Santiago de Compostela old town"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Catedral de Santiago de Compostela",
+          "detail": "Marvel at the immense granite cathedral housing the crypt believed to hold the relics of Saint James, and see the botafumeiro incense censer swing during special masses.",
+          "lat": 42.8806,
+          "lng": -8.5445
+        },
+        {
+          "id": "sant_2",
+          "text": "Praza do Obradoiro",
+          "detail": "Stand in the grand square in front of the cathedral's baroque facade, the traditional finish line for pilgrims completing the Camino de Santiago.",
+          "lat": 42.8804,
+          "lng": -8.5447
+        },
+        {
+          "id": "sant_3",
+          "text": "Museo das Peregrinacións",
+          "detail": "Learn the history of the Camino de Santiago pilgrimage routes and their cultural impact at this dedicated museum in the old town.",
+          "lat": 42.8809,
+          "lng": -8.5436
+        },
+        {
+          "id": "sant_4",
+          "text": "Mercado de Abastos",
+          "detail": "Wander the bustling stone-built food market to see fresh Galician seafood, cheeses and produce sold by local vendors.",
+          "lat": 42.8788,
+          "lng": -8.5453
+        },
+        {
+          "id": "sant_5",
+          "text": "Parque da Alameda",
+          "detail": "Stroll through this leafy park for classic postcard views back toward the cathedral spires over the old town rooftops.",
+          "lat": 42.8778,
+          "lng": -8.547
+        },
+        {
+          "id": "sant_6",
+          "text": "Monasterio de San Martiño Pinario",
+          "detail": "Explore one of Spain's largest monasteries, with an ornate church and museum just steps from the cathedral.",
+          "lat": 42.8814,
+          "lng": -8.544
+        },
+        {
+          "id": "sant_7",
+          "text": "Rúa do Franco and old town lanes",
+          "detail": "Wander the atmospheric granite streets lined with taverns, pilgrim shops and historic facades in the UNESCO-listed old quarter.",
+          "lat": 42.8798,
+          "lng": -8.544
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Pulpo á feira",
+          "detail": "Try Galicia's iconic octopus dish, boiled and sliced onto a wooden plate with paprika, sea salt and olive oil."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Empanada gallega",
+          "detail": "Sample the savory Galician pie filled with tuna, meat or seafood in a golden bread crust, sold by the slice in bakeries."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Tarta de Santiago",
+          "detail": "Finish a meal with this traditional almond cake dusted with powdered sugar in the shape of the Cross of Saint James."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Percebes and Galician seafood",
+          "detail": "Indulge in barnacles and other fresh shellfish pulled from the nearby Galician coast, served in old town marisquerías."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Queixo de tetilla with membrillo",
+          "detail": "Taste the mild, creamy cone-shaped Galician cheese, often paired with quince paste as a simple dessert or tapa."
+        },
+        {
+          "id": "sant_f6",
+          "text": "Ribeiro or Albariño wine",
+          "detail": "Pair your meal with a crisp local white wine, traditionally served in small ceramic bowls called cuncas in old-style taverns."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Pilgrim credential etiquette",
+          "detail": "Many visitors are Camino pilgrims carrying a stamped credential, so be respectful of the emotional significance of arriving at the cathedral."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Attend the Pilgrim's Mass",
+          "detail": "The daily Pilgrim's Mass at the cathedral is open to all visitors and occasionally features the famous botafumeiro swinging overhead."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Rain-ready city",
+          "detail": "Santiago is known for frequent rain, so carry an umbrella or light raincoat even in warmer months."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Sunday market rhythm",
+          "detail": "Shops and some restaurants may close or run limited hours on Sundays, so plan sightseeing and meals accordingly."
+        }
+      ]
+    },
+    {
+      "id": "a_coruna",
+      "name": "A Coruña",
+      "nameIt": "A Coruña",
+      "lat": 43.3623,
+      "lng": -8.4115,
+      "type": "CITY",
+      "description": "A vibrant Atlantic port city known for its glass-fronted galerías, sweeping promenade and the Tower of Hercules, the oldest working Roman lighthouse in the world. Its old quarter, beaches and lively tapas scene make it a rewarding coastal stop.",
+      "imageQueries": [
+        "Tower of Hercules A Coruna",
+        "A Coruna waterfront glass balconies"
+      ],
+      "activities": [
+        {
+          "id": "a_co_1",
+          "text": "Climb the Tower of Hercules",
+          "detail": "Ascend the 2nd-century Roman lighthouse, still in use today, for sweeping Atlantic views from its rocky headland park.",
+          "lat": 43.3856,
+          "lng": -8.4067
+        },
+        {
+          "id": "a_co_2",
+          "text": "Stroll the Paseo Marítimo",
+          "detail": "Walk or cycle along one of Europe's longest seaside promenades, lined with the city's famous glass galería facades.",
+          "lat": 43.3714,
+          "lng": -8.409
+        }
+      ],
+      "food": [],
+      "culture": []
+    },
+    {
+      "id": "vigo",
+      "name": "Vigo",
+      "nameIt": "Vigo",
+      "lat": 42.2406,
+      "lng": -8.7207,
+      "type": "CITY",
+      "description": "Galicia's largest city sits on a broad estuary and is a gateway to the Cíes Islands, blending a working port atmosphere with excellent seafood and a historic old town. It offers a lively, less touristy taste of urban Galician life.",
+      "imageQueries": [
+        "Vigo city harbor view",
+        "Vigo old town casco vello"
+      ],
+      "activities": [
+        {
+          "id": "vigo_1",
+          "text": "Sail to the Cíes Islands",
+          "detail": "Take the summer ferry from Vigo's harbor to this pristine archipelago with turquoise water and white-sand beaches inside the Atlantic Islands National Park.",
+          "lat": 42.227,
+          "lng": -8.899
+        },
+        {
+          "id": "vigo_2",
+          "text": "Wander the Casco Vello",
+          "detail": "Explore Vigo's old town with its granite alleys, tapas bars, and the lively Rúa Pescadería known locally as the 'Ostrería'.",
+          "lat": 42.238,
+          "lng": -8.7237
+        },
+        {
+          "id": "vigo_3",
+          "text": "Climb to Castelo do Castro",
+          "detail": "This hilltop fortress park offers sweeping views over the Ría de Vigo and the city's port.",
+          "lat": 42.235,
+          "lng": -8.728
+        },
+        {
+          "id": "vigo_4",
+          "text": "Visit Praza da Constitución",
+          "detail": "A charming arcaded square in the old town, popular for morning coffee and people-watching.",
+          "lat": 42.2385,
+          "lng": -8.7245
+        },
+        {
+          "id": "vigo_5",
+          "text": "Stroll the working port and marina",
+          "detail": "See Vigo's real identity as one of Europe's busiest fishing ports, with trawlers unloading alongside pleasure yachts.",
+          "lat": 42.24,
+          "lng": -8.725
+        },
+        {
+          "id": "vigo_6",
+          "text": "Browse MARCO contemporary art museum",
+          "detail": "Housed in a former prison, this museum showcases rotating contemporary art exhibitions in a striking building.",
+          "lat": 42.2367,
+          "lng": -8.7213
+        },
+        {
+          "id": "vigo_7",
+          "text": "Explore O Berbés fishing quarter",
+          "detail": "Wander the historic quarter where fishermen once lived, now filled with seafood restaurants near the old fish market.",
+          "lat": 42.2395,
+          "lng": -8.7255
+        }
+      ],
+      "food": [
+        {
+          "id": "vigo_f1",
+          "text": "Ostras at Rúa Pescadería",
+          "detail": "Buy fresh oysters shucked to order by the traditional 'ostreiras' (oyster women) right on the street known as 'A Pedra'."
+        },
+        {
+          "id": "vigo_f2",
+          "text": "Mexillóns (mussels)",
+          "detail": "Galicia's famed mussels, often served steamed in their own broth or 'a la marinera' with a tomato-wine sauce."
+        },
+        {
+          "id": "vigo_f3",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus sliced onto a wooden plate, dusted with paprika and coarse salt, a Galician classic."
+        },
+        {
+          "id": "vigo_f4",
+          "text": "Empanada gallega",
+          "detail": "A savory pie filled with tuna, cockles, or pork, sold by the slice in local bakeries and markets."
+        },
+        {
+          "id": "vigo_f5",
+          "text": "Percebes",
+          "detail": "Goose barnacles harvested from Galicia's rocky coast, a pricey but prized local delicacy."
+        },
+        {
+          "id": "vigo_f6",
+          "text": "Albariño wine",
+          "detail": "Pair your seafood with this crisp, aromatic white wine from the nearby Rías Baixas region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vigo_c1",
+          "text": "Book Cíes ferry and permits early",
+          "detail": "Access to the Cíes Islands is limited in summer, so ferry tickets and the required free park permit should be arranged in advance."
+        },
+        {
+          "id": "vigo_c2",
+          "text": "Meals run late",
+          "detail": "Like elsewhere in Spain, lunch is typically after 2pm and dinner after 9pm, so plan accordingly."
+        },
+        {
+          "id": "vigo_c3",
+          "text": "Greet the oyster women respectfully",
+          "detail": "The ostreiras at A Pedra are a local institution—buying a few oysters and chatting is a genuine Vigo experience."
+        },
+        {
+          "id": "vigo_c4",
+          "text": "Expect a working-class port vibe",
+          "detail": "Vigo is less polished than Santiago or San Sebastián, offering an authentic, unpretentious slice of Galician daily life."
+        }
+      ]
+    },
+    {
+      "id": "cies_islands",
+      "name": "Cíes Islands",
+      "nameIt": "Illas Cíes",
+      "lat": 42.2306,
+      "lng": -8.9066,
+      "type": "ISLAND",
+      "description": "A protected archipelago in the Ría de Vigo often called one of the world's best beaches, with turquoise waters, dunes and dramatic cliffs. Access is limited and by ferry only, preserving its pristine, uncrowded feel.",
+      "imageQueries": [
+        "Cies Islands beach turquoise water",
+        "Cies Islands aerial view"
+      ],
+      "activities": [
+        {
+          "id": "cies_1",
+          "text": "Sunbathe at Praia de Rodas",
+          "detail": "Walk the powdery white sand and turquoise shallows of this beach often ranked among the world's best.",
+          "lat": 42.2317,
+          "lng": -8.9058
+        },
+        {
+          "id": "cies_2",
+          "text": "Hike to Monte Faro lighthouse",
+          "detail": "Climb the steep path to the island's highest point for sweeping views over the Ría de Vigo and Atlantic.",
+          "lat": 42.2103,
+          "lng": -8.9036
+        },
+        {
+          "id": "cies_3",
+          "text": "Explore Alto do Príncipe viewpoint",
+          "detail": "A shorter, family-friendly climb offering dramatic cliff-and-ocean panoramas on Monteagudo island.",
+          "lat": 42.2245,
+          "lng": -8.91
+        },
+        {
+          "id": "cies_4",
+          "text": "Snorkel the clear coves",
+          "detail": "Slip into the calm, transparent water near Rodas or Figueiras to spot fish among the rocks.",
+          "lat": 42.233,
+          "lng": -8.907
+        },
+        {
+          "id": "cies_5",
+          "text": "Walk to Praia de Figueiras",
+          "detail": "A quieter beach on the northern island reached by a scenic coastal trail from the ferry dock.",
+          "lat": 42.236,
+          "lng": -8.911
+        },
+        {
+          "id": "cies_6",
+          "text": "Birdwatch the gull colonies",
+          "detail": "Observe one of Europe's largest yellow-legged gull colonies nesting on the island's cliffs."
+        },
+        {
+          "id": "cies_7",
+          "text": "Cross the sandbar to Praia das Cantadoiras",
+          "detail": "Follow the natural sand spit connecting Rodas to a wilder, more secluded beach."
+        },
+        {
+          "id": "cies_8",
+          "text": "Camp under the stars",
+          "detail": "Stay overnight at the island's single designated campsite behind Rodas beach, open only in summer with advance booking."
+        }
+      ],
+      "food": [
+        {
+          "id": "cies_f1",
+          "text": "Pulpo a la gallega",
+          "detail": "Tender boiled octopus sprinkled with paprika and olive oil, a Galician classic best enjoyed back in Vigo before or after your trip."
+        },
+        {
+          "id": "cies_f2",
+          "text": "Empanada gallega",
+          "detail": "A savory Galician pie filled with tuna, mussels or pork, ideal for packing as a beach picnic since food options on the islands are minimal."
+        },
+        {
+          "id": "cies_f3",
+          "text": "Mejillones al vapor",
+          "detail": "Fresh mussels steamed simply, reflecting the rich shellfish tradition of the surrounding Ría de Vigo."
+        },
+        {
+          "id": "cies_f4",
+          "text": "Percebes (goose barnacles)",
+          "detail": "A prized, pricey Galician delicacy harvested from the region's rocky Atlantic coastline."
+        },
+        {
+          "id": "cies_f5",
+          "text": "Albariño wine",
+          "detail": "A crisp, aromatic white wine from the nearby Rías Baixas region, perfect alongside seafood."
+        },
+        {
+          "id": "cies_f6",
+          "text": "Bar-restaurant at Praia de Rodas",
+          "detail": "The islands' only eatery, offering simple grilled fish and drinks for day-trippers with no other food outlets nearby."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cies_c1",
+          "text": "Book ferry and entry permits ahead",
+          "detail": "Daily visitor numbers are capped (around 1,800-2,200), so ferry tickets and the required island access permit must be reserved online in advance."
+        },
+        {
+          "id": "cies_c2",
+          "text": "Bring cash and supplies",
+          "detail": "There are no ATMs and only one small shop/bar, so pack water, snacks, sunscreen and cash for the day."
+        },
+        {
+          "id": "cies_c3",
+          "text": "Stay on marked paths",
+          "detail": "The islands are a protected natural park, so walking off designated trails or onto dunes is prohibited to preserve fragile ecosystems."
+        },
+        {
+          "id": "cies_c4",
+          "text": "Pack out all trash",
+          "detail": "There is minimal waste infrastructure, and visitors are expected to carry all rubbish back with them on the ferry."
+        }
+      ]
+    },
+    {
+      "id": "lugo",
+      "name": "Lugo",
+      "nameIt": "Lugo",
+      "lat": 43.0097,
+      "lng": -7.5567,
+      "type": "CITY",
+      "description": "A historic inland city encircled by the best-preserved and only complete Roman walls in the world, a UNESCO World Heritage Site you can walk along in full. Its compact old town offers charming plazas, cathedrals and traditional taverns.",
+      "imageQueries": [
+        "Lugo Roman walls aerial",
+        "Lugo city walls walkway"
+      ],
+      "activities": [
+        {
+          "id": "lugo_1",
+          "text": "Walk the Roman Walls",
+          "detail": "Circle the 2,117-metre, 2nd-century Muralla de Lugo, the only completely intact Roman wall circuit in the world, for panoramic views over the old town and Miño valley.",
+          "lat": 43.0117,
+          "lng": -7.5575
+        },
+        {
+          "id": "lugo_2",
+          "text": "Visit the Cathedral of Santa María",
+          "detail": "Explore this Romanesque-Baroque cathedral with its Chapel of Corpus Christi, where the Blessed Sacrament is displayed continuously as a rare Vatican privilege.",
+          "lat": 43.0089,
+          "lng": -7.559
+        },
+        {
+          "id": "lugo_3",
+          "text": "Relax in Praza Maior",
+          "detail": "Sit beneath the plane trees of Lugo's grand main square, lined with cafés and framed by the Concello and Iglesia de San Pedro.",
+          "lat": 43.0093,
+          "lng": -7.5581
+        },
+        {
+          "id": "lugo_4",
+          "text": "See the Roman Baths",
+          "detail": "Peek into the ruins of the ancient thermal baths beside the river, evidence of Lugo's origins as the Roman settlement of Lucus Augusti.",
+          "lat": 43.0104,
+          "lng": -7.5605
+        },
+        {
+          "id": "lugo_5",
+          "text": "Browse the Museo Provincial",
+          "detail": "Housed in the former Convent of San Francisco, this museum displays Roman mosaics, Galician ceramics and local archaeology.",
+          "lat": 43.0086,
+          "lng": -7.5595
+        },
+        {
+          "id": "lugo_6",
+          "text": "Wander Praza do Campo",
+          "detail": "Stroll through this lively medieval square with its central fountain, a hub for tapas bars and street life in the old town.",
+          "lat": 43.0083,
+          "lng": -7.5578
+        },
+        {
+          "id": "lugo_7",
+          "text": "Stroll along the Miño riverside",
+          "detail": "Follow the paths and Roman bridge over the Río Miño just outside the walls for a quieter, green escape from the old town."
+        }
+      ],
+      "food": [
+        {
+          "id": "lugo_f1",
+          "text": "Free tapas culture",
+          "detail": "Order a drink at almost any bar in Lugo and you'll receive a generous free tapa, a beloved local custom rare elsewhere in Spain."
+        },
+        {
+          "id": "lugo_f2",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus sliced onto wooden plates, dressed with paprika, olive oil and coarse salt, a Galician classic found on many menus."
+        },
+        {
+          "id": "lugo_f3",
+          "text": "Caldo gallego",
+          "detail": "A hearty broth of greens, potatoes, white beans and often pork, perfect for Lugo's cooler inland climate."
+        },
+        {
+          "id": "lugo_f4",
+          "text": "Empanada gallega",
+          "detail": "Savory pie filled with tuna, cockles or pork, sold by the slice in local bakeries and taverns."
+        },
+        {
+          "id": "lugo_f5",
+          "text": "Lacón con grelos",
+          "detail": "Cured pork shoulder simmered with turnip greens and potatoes, a traditional inland Galician dish especially popular around Lugo."
+        },
+        {
+          "id": "lugo_f6",
+          "text": "Tarta de Santiago",
+          "detail": "A dense almond cake dusted with powdered sugar in the shape of St. James's cross, ideal with coffee after a meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lugo_c1",
+          "text": "Order a drink to eat well",
+          "detail": "Since tapas usually come free with drinks in Lugo, locals treat bar-hopping in the old town as an affordable way to sample many dishes."
+        },
+        {
+          "id": "lugo_c2",
+          "text": "Walk the wall clockwise or counter",
+          "detail": "There's no fixed direction for walking the Roman walls, but early morning or evening offers the best light and fewer crowds."
+        },
+        {
+          "id": "lugo_c3",
+          "text": "Respect siesta hours",
+          "detail": "Many small shops and some restaurants close in the early afternoon, reopening later for dinner service around 9pm."
+        },
+        {
+          "id": "lugo_c4",
+          "text": "Galician is widely spoken",
+          "detail": "Signage and conversation often mix Galician and Spanish, and locals appreciate visitors attempting a few Galician words like 'grazas'."
+        }
+      ]
+    },
+    {
+      "id": "pontevedra",
+      "name": "Pontevedra",
+      "nameIt": "Pontevedra",
+      "lat": 42.431,
+      "lng": -8.6444,
+      "type": "TOWN",
+      "description": "A beautifully preserved medieval town famed for its pedestrian-friendly old quarter, granite arcaded squares and Baroque churches. It's often praised as one of Spain's most livable and charming small cities.",
+      "imageQueries": [
+        "Pontevedra old town square",
+        "Pontevedra Praza da Ferreria"
+      ],
+      "activities": [
+        {
+          "id": "pont_1",
+          "text": "Praza da Ferrería",
+          "detail": "The city's grand arcaded main square, lined with cafés and framed by the Ruínas de Santo Domingo and Convento de San Francisco, is the natural starting point for exploring the old town.",
+          "lat": 42.4318,
+          "lng": -8.6446
+        },
+        {
+          "id": "pont_2",
+          "text": "Capela da Virxe Peregrina",
+          "detail": "Admire this unusual 18th-century Baroque chapel built in the shape of a scallop shell, a nod to the Camino de Santiago pilgrims who pass through.",
+          "lat": 42.4321,
+          "lng": -8.6449
+        },
+        {
+          "id": "pont_3",
+          "text": "Basílica de Santa María a Maior",
+          "detail": "Wander through this Gothic-Plateresque church with an elaborately carved facade, funded partly by Pontevedra's medieval guild of sailors and fishermen.",
+          "lat": 42.4304,
+          "lng": -8.648
+        },
+        {
+          "id": "pont_4",
+          "text": "Museo de Pontevedra",
+          "detail": "This free multi-building museum houses Galician archaeology, silverwork and fine art, including a notable collection tracing the region's Celtic and Roman past.",
+          "lat": 42.431,
+          "lng": -8.6453
+        },
+        {
+          "id": "pont_5",
+          "text": "Stroll the Alameda and river Lérez",
+          "detail": "Walk the shaded Alameda promenade down to the Lérez river and cross the medieval Ponte do Burgo for views back over the old quarter.",
+          "lat": 42.43,
+          "lng": -8.643
+        },
+        {
+          "id": "pont_6",
+          "text": "Get lost in the pedestrian old town",
+          "detail": "Pontevedra's compact casco vello is almost entirely car-free, making it ideal for aimless wandering through granite lanes and small praza after praza.",
+          "lat": 42.4315,
+          "lng": -8.6455
+        },
+        {
+          "id": "pont_7",
+          "text": "Ruínas de Santo Domingo",
+          "detail": "Explore the atmospheric open-air ruins of a 14th-century Gothic monastery, now an evocative archaeological garden right in the town center.",
+          "lat": 42.4326,
+          "lng": -8.6459
+        }
+      ],
+      "food": [
+        {
+          "id": "pont_f1",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus sliced onto a wooden platter, dusted with paprika and coarse salt, is a Galician classic worth seeking out here."
+        },
+        {
+          "id": "pont_f2",
+          "text": "Empanada gallega",
+          "detail": "A savory pie usually filled with tuna, cockles or meat in a tomato-onion sofrito, sold by the slice in local bakeries and bars."
+        },
+        {
+          "id": "pont_f3",
+          "text": "Mejillones and almejas",
+          "detail": "Mussels and clams from the Ría de Pontevedra are served steamed or in garlicky sauces, reflecting the town's close ties to its estuary."
+        },
+        {
+          "id": "pont_f4",
+          "text": "Albariño wine",
+          "detail": "Pair any seafood meal with a crisp, aromatic Albariño from the nearby Rías Baixas vineyards, one of Spain's top white wine regions."
+        },
+        {
+          "id": "pont_f5",
+          "text": "Tapeo on Praza da Ferrería",
+          "detail": "Join locals for an evening of hopping between tapas bars around the main squares, sampling small plates of seafood and cured meats with wine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pont_c1",
+          "text": "Old town is pedestrian-only",
+          "detail": "Most of the historic center is closed to cars, so plan to explore on foot and expect a very quiet, relaxed pace even in the evenings."
+        },
+        {
+          "id": "pont_c2",
+          "text": "Galician is widely spoken",
+          "detail": "Street signs and menus often appear in Galician (galego) alongside Spanish, and locals take pride in the local language and identity."
+        },
+        {
+          "id": "pont_c3",
+          "text": "Meal times run late",
+          "detail": "Lunch typically starts around 2pm and dinner rarely begins before 9pm, so adjust your schedule to match local dining hours."
+        },
+        {
+          "id": "pont_c4",
+          "text": "Camino de Santiago crossroads",
+          "detail": "Pontevedra sits on the Camino Portugués, so you'll often see pilgrims passing through the old town marked by scallop shell signs."
+        }
+      ]
+    },
+    {
+      "id": "cabo_finisterre",
+      "name": "Cape Finisterre",
+      "nameIt": "Cabo Fisterra",
+      "lat": 42.8802,
+      "lng": -9.2711,
+      "type": "NATURE",
+      "description": "Once believed to be the end of the known world, this dramatic headland with its lighthouse marks the traditional finishing point for many Camino de Santiago pilgrims. Sunsets over the wild Atlantic here are legendary.",
+      "imageQueries": [
+        "Cabo Fisterra lighthouse sunset",
+        "Finisterre cape cliffs"
+      ],
+      "activities": [
+        {
+          "id": "cabo_1",
+          "text": "Faro de Fisterra lighthouse",
+          "detail": "Walk out to this working lighthouse perched on the rocky point once thought to be the edge of the world.",
+          "lat": 42.8798,
+          "lng": -9.2718
+        },
+        {
+          "id": "cabo_2",
+          "text": "Watch the sunset from Km 0",
+          "detail": "Join pilgrims and travelers gathering at the cliffs near the lighthouse to watch the sun sink into the Atlantic, often applauded by the crowd.",
+          "lat": 42.8799,
+          "lng": -9.2721
+        },
+        {
+          "id": "cabo_3",
+          "text": "Burn your boots or clothes ritual",
+          "detail": "Follow the old pilgrim tradition of burning a worn item of clothing or boots at the cape to symbolize the end of the Camino, though it's now discouraged for fire safety.",
+          "lat": 42.8797,
+          "lng": -9.2719
+        },
+        {
+          "id": "cabo_4",
+          "text": "Explore Praia de Mar de Fóra",
+          "detail": "Visit this wild, often wind-battered beach just below the cape, known for dramatic waves and a moody, end-of-the-world atmosphere.",
+          "lat": 42.8925,
+          "lng": -9.2688
+        },
+        {
+          "id": "cabo_5",
+          "text": "Hike the coastal path from Fisterra town",
+          "detail": "Walk the scenic 3km route from the fishing village of Fisterra up to the lighthouse, passing shrines and viewpoints along the way.",
+          "lat": 42.9051,
+          "lng": -9.2617
+        },
+        {
+          "id": "cabo_6",
+          "text": "Visit the Ermida de Nosa Señora das Areas",
+          "detail": "Stop at this small chapel on the way to the cape, tied to local maritime devotion and pilgrim tradition.",
+          "lat": 42.8956,
+          "lng": -9.265
+        },
+        {
+          "id": "cabo_7",
+          "text": "See the pilgrim milestone marker",
+          "detail": "Photograph the iconic 0.00 km stone marker signaling the symbolic end of the Camino de Santiago.",
+          "lat": 42.8796,
+          "lng": -9.2716
+        },
+        {
+          "id": "cabo_8",
+          "text": "Explore Castelo de San Carlos",
+          "detail": "Wander this small 18th-century fort in Fisterra town, now home to a modest maritime and fishing museum.",
+          "lat": 42.9057,
+          "lng": -9.2605
+        }
+      ],
+      "food": [
+        {
+          "id": "cabo_f1",
+          "text": "Pulpo á feira",
+          "detail": "Galicia's classic boiled octopus dish, sliced and dressed with olive oil, paprika, and coarse salt, widely available in Fisterra's restaurants."
+        },
+        {
+          "id": "cabo_f2",
+          "text": "Percebes (goose barnacles)",
+          "detail": "A prized and pricey local delicacy harvested from the rocky, wave-battered coastline near the cape."
+        },
+        {
+          "id": "cabo_f3",
+          "text": "Caldo galego",
+          "detail": "A hearty Galician broth made with greens, potatoes, and pork, perfect after a windy walk along the headland."
+        },
+        {
+          "id": "cabo_f4",
+          "text": "Empanada de mariscos",
+          "detail": "A savory seafood-filled pastry pie typical of coastal Galician towns like Fisterra."
+        },
+        {
+          "id": "cabo_f5",
+          "text": "Fresh grilled fish at the port",
+          "detail": "Sample the day's catch, often hake or sardines, grilled simply and served at harborside restaurants in Fisterra town."
+        },
+        {
+          "id": "cabo_f6",
+          "text": "Tarta de Santiago",
+          "detail": "A traditional almond cake dusted with powdered sugar in the shape of the St. James cross, a fitting sweet finish for pilgrims."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cabo_c1",
+          "text": "Respect the pilgrim rituals",
+          "detail": "Many walkers perform symbolic acts here like burning clothes or collecting a shell, so be mindful and respectful of these quiet personal moments."
+        },
+        {
+          "id": "cabo_c2",
+          "text": "Bring warm, windproof layers",
+          "detail": "The cape is famously windy and exposed even in summer, so pack accordingly regardless of the season."
+        },
+        {
+          "id": "cabo_c3",
+          "text": "Time your visit for sunset",
+          "detail": "Arrive at least an hour before sunset to find parking and a good spot, as the headland gets crowded at golden hour."
+        },
+        {
+          "id": "cabo_c4",
+          "text": "Check the Camino Fisterra-Muxía route",
+          "detail": "Many pilgrims extend their walk from Santiago to Fisterra and then on to Muxía, so trail markers and albergues are common in the area."
+        }
+      ]
+    },
+    {
+      "id": "ribeira_sacra",
+      "name": "Ribeira Sacra",
+      "nameIt": "Ribeira Sacra",
+      "lat": 42.4667,
+      "lng": -7.6167,
+      "type": "NATURE",
+      "description": "A stunning river canyon region where the Sil and Miño rivers carve deep gorges lined with ancient terraced vineyards and secluded monasteries. Boat trips on the Sil Canyon reveal breathtaking views of this dramatic landscape.",
+      "imageQueries": [
+        "Ribeira Sacra canyon vineyards",
+        "Sil River canyon boat"
+      ],
+      "activities": [
+        {
+          "id": "ribe_1",
+          "text": "Sil Canyon boat trip",
+          "detail": "Take a catamaran cruise from Doade or Los Peares along the Sil Canyon to see terraced vineyards clinging to near-vertical slopes.",
+          "lat": 42.4667,
+          "lng": -7.6167
+        },
+        {
+          "id": "ribe_2",
+          "text": "Santo Estevo Monastery",
+          "detail": "Wander the three cloisters of this former Benedictine monastery, now a parador, hidden deep in the gorge.",
+          "lat": 42.4494,
+          "lng": -7.6167
+        },
+        {
+          "id": "ribe_3",
+          "text": "Balcones de Madrid viewpoint",
+          "detail": "Take in one of the most photographed panoramas of the Sil Canyon from this cliffside lookout near Parada de Sil.",
+          "lat": 42.4569,
+          "lng": -7.6414
+        },
+        {
+          "id": "ribe_4",
+          "text": "San Pedro de Rocas hermitage",
+          "detail": "Visit one of Spain's oldest monastic sites, carved directly into the rock in the 6th century.",
+          "lat": 42.3903,
+          "lng": -7.5297
+        },
+        {
+          "id": "ribe_5",
+          "text": "Walk the heroic vineyard terraces",
+          "detail": "Follow footpaths through the socalcos, the ancient stone terraces where grapes are still harvested by hand.",
+          "lat": 42.4611,
+          "lng": -7.5844
+        },
+        {
+          "id": "ribe_6",
+          "text": "Bodega visit in the Amandi zone",
+          "detail": "Tour a small family winery near Sober to taste Mencía grown on some of Galicia's steepest slopes.",
+          "lat": 42.4308,
+          "lng": -7.5442
+        },
+        {
+          "id": "ribe_7",
+          "text": "Monforte de Lemos day trip",
+          "detail": "Explore the medieval Torre del Homenaje and Baroque Colegio del Cardenal in the region's main town.",
+          "lat": 42.5231,
+          "lng": -7.5147
+        },
+        {
+          "id": "ribe_8",
+          "text": "Santa Cristina monastery ruins",
+          "detail": "Discover this quiet, half-ruined Romanesque monastery tucked into the woods above the Sil.",
+          "lat": 42.4756,
+          "lng": -7.6497
+        }
+      ],
+      "food": [
+        {
+          "id": "ribe_f1",
+          "text": "Vino de Ribeira Sacra (Mencía)",
+          "detail": "Mineral, elegant red wines grown on impossibly steep river-facing terraces, a designation of origin worth tasting at source."
+        },
+        {
+          "id": "ribe_f2",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus dressed with paprika and olive oil, a Galician classic found in local taverns."
+        },
+        {
+          "id": "ribe_f3",
+          "text": "Lamprea do Miño",
+          "detail": "A prized seasonal delicacy, this river lamprey is traditionally stewed in its own blood with wine and onions."
+        },
+        {
+          "id": "ribe_f4",
+          "text": "Empanada gallega",
+          "detail": "A savory pie filled with tuna, pork, or seafood, sold by the slice in village bakeries."
+        },
+        {
+          "id": "ribe_f5",
+          "text": "Queixo de San Simón da Costa",
+          "detail": "A smoked, pear-shaped cow's milk cheese from nearby Lugo province, often paired with local honey."
+        },
+        {
+          "id": "ribe_f6",
+          "text": "Tarta de Santiago",
+          "detail": "A dense almond cake dusted with powdered sugar in the shape of the Cross of Saint James."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ribe_c1",
+          "text": "Heroic viticulture",
+          "detail": "The vineyards here are so steep they must be worked entirely by hand, a practice locals call 'viticultura heroica'."
+        },
+        {
+          "id": "ribe_c2",
+          "text": "Book boat trips ahead",
+          "detail": "Sil Canyon cruises run on limited schedules and sell out quickly in summer, so reserve in advance."
+        },
+        {
+          "id": "ribe_c3",
+          "text": "Monastic heritage runs deep",
+          "detail": "Dozens of monasteries and hermitages were built here by monks who first planted the region's vineyards centuries ago."
+        },
+        {
+          "id": "ribe_c4",
+          "text": "Pack sturdy shoes and layers",
+          "detail": "Cliffside paths and viewpoints can be uneven, and canyon weather shifts quickly between sun and mist."
+        }
+      ]
+    },
+    {
+      "id": "combarro",
+      "name": "Combarro",
+      "nameIt": "Combarro",
+      "lat": 42.4467,
+      "lng": -8.69,
+      "type": "VILLAGE",
+      "description": "A picturesque fishing village on the Ría de Pontevedra celebrated for its iconic hórreos (granite granaries) built right along the waterfront. Its narrow stone streets and seafood restaurants make it a favorite postcard stop.",
+      "imageQueries": [
+        "Combarro horreos waterfront",
+        "Combarro village Galicia"
+      ],
+      "activities": [
+        {
+          "id": "comb_1",
+          "text": "Walk the seafront hórreos",
+          "detail": "Stroll along the granite granaries perched on rocks right at the water's edge, Combarro's most photographed sight.",
+          "lat": 42.4396,
+          "lng": -8.6842
+        },
+        {
+          "id": "comb_2",
+          "text": "Wander the Casco Vello",
+          "detail": "Lose yourself in the tangle of narrow stone lanes like Rúa do Mar and Rúa da Fábrica lined with old fishermen's houses.",
+          "lat": 42.4392,
+          "lng": -8.6849
+        },
+        {
+          "id": "comb_3",
+          "text": "Spot the cruceiros",
+          "detail": "Look for the weathered stone crosses scattered through the village, remnants of centuries-old Galician religious tradition.",
+          "lat": 42.439,
+          "lng": -8.6845
+        },
+        {
+          "id": "comb_4",
+          "text": "Visit the Church of San Roque",
+          "detail": "This small parish church anchors the historic quarter and is a good landmark for exploring on foot.",
+          "lat": 42.4388,
+          "lng": -8.6851
+        },
+        {
+          "id": "comb_5",
+          "text": "Take a boat trip on the ría",
+          "detail": "Hire a small boat to see the mussel-farming rafts (bateas) floating offshore and views of Combarro from the water.",
+          "lat": 42.44,
+          "lng": -8.683
+        },
+        {
+          "id": "comb_6",
+          "text": "Relax at Praia de A Chousa",
+          "detail": "A small nearby beach good for a quiet swim or picnic after touring the village.",
+          "lat": 42.4413,
+          "lng": -8.6795
+        },
+        {
+          "id": "comb_7",
+          "text": "Photograph the sunset over the estuary",
+          "detail": "The waterfront promenade offers one of the best sunset views along the Ría de Pontevedra.",
+          "lat": 42.4397,
+          "lng": -8.6838
+        },
+        {
+          "id": "comb_8",
+          "text": "Day trip to Poio Monastery",
+          "detail": "Visit the nearby Monastery of San Xoán de Poio with its cloisters and gardens overlooking the ría.",
+          "lat": 42.4287,
+          "lng": -8.6503
+        }
+      ],
+      "food": [
+        {
+          "id": "comb_f1",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus sliced and dressed with paprika, olive oil and coarse salt, a Galician classic served everywhere here."
+        },
+        {
+          "id": "comb_f2",
+          "text": "Mejillones de batea",
+          "detail": "Fresh mussels farmed on the floating rafts visible just offshore, usually steamed or served in escabeche."
+        },
+        {
+          "id": "comb_f3",
+          "text": "Percebes",
+          "detail": "Prized goose barnacles harvested from the rocky Galician coast, a local delicacy worth splurging on."
+        },
+        {
+          "id": "comb_f4",
+          "text": "Empanada gallega",
+          "detail": "A savory pie filled with tuna, cockles or pork, sold in local bakeries and cafes."
+        },
+        {
+          "id": "comb_f5",
+          "text": "Zamburiñas a la plancha",
+          "detail": "Small local scallops grilled simply to bring out their sweetness, a common tapa in the village restaurants."
+        },
+        {
+          "id": "comb_f6",
+          "text": "Albariño wine",
+          "detail": "The crisp white wine of the Rías Baixas region pairs perfectly with the seafood served along the harbor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "comb_c1",
+          "text": "Respect the hórreos",
+          "detail": "These granaries are private family property, so admire and photograph them without climbing or touching."
+        },
+        {
+          "id": "comb_c2",
+          "text": "Visit early or late in the day",
+          "detail": "Combarro gets crowded with day-trippers at midday, so mornings or evenings offer a quieter, more atmospheric visit."
+        },
+        {
+          "id": "comb_c3",
+          "text": "Wear sturdy footwear",
+          "detail": "The old town's cobblestone streets and uneven waterfront paths are best explored in comfortable walking shoes."
+        },
+        {
+          "id": "comb_c4",
+          "text": "Park outside the village",
+          "detail": "Combarro's center is pedestrian-friendly and cramped for cars, so use the outskirts parking areas and walk in."
+        }
+      ]
+    },
+    {
+      "id": "baiona",
+      "name": "Baiona",
+      "nameIt": "Baiona",
+      "lat": 42.1167,
+      "lng": -8.85,
+      "type": "COASTAL",
+      "description": "A charming coastal town famous as the first place in Europe to receive news of Columbus's discovery of the Americas, marked by a replica of his ship La Pinta in the harbor. Its medieval parador castle and scenic coastline add to its appeal.",
+      "imageQueries": [
+        "Baiona harbor Pinta replica",
+        "Baiona parador castle"
+      ],
+      "activities": [
+        {
+          "id": "baio_1",
+          "text": "Explore the Monterreal Fortress",
+          "detail": "Walk the ancient walls of this seaside fortress that now encloses the Parador and offers sweeping Atlantic views.",
+          "lat": 42.118,
+          "lng": -8.8465
+        },
+        {
+          "id": "baio_2",
+          "text": "Visit the replica of La Pinta",
+          "detail": "See the full-size replica caravel in the harbor commemorating the ship's historic 1493 arrival with news of the Americas.",
+          "lat": 42.1199,
+          "lng": -8.8452
+        },
+        {
+          "id": "baio_3",
+          "text": "Climb to Monte Boi",
+          "detail": "Hike the small hill inside the fortress grounds for panoramic views over the bay and town.",
+          "lat": 42.1188,
+          "lng": -8.847
+        },
+        {
+          "id": "baio_4",
+          "text": "See the Virgen de la Roca statue",
+          "detail": "Visit this giant granite statue of the Virgin Mary perched on cliffs south of town, climbable inside for coastal views.",
+          "lat": 42.0985,
+          "lng": -8.859
+        },
+        {
+          "id": "baio_5",
+          "text": "Stroll the Paseo Marítimo",
+          "detail": "Follow the scenic waterfront promenade linking the old town to nearby beaches and coves.",
+          "lat": 42.121,
+          "lng": -8.848
+        },
+        {
+          "id": "baio_6",
+          "text": "Relax at Praia América",
+          "detail": "Spend time on this long sandy beach just outside town, popular for swimming and sunset walks.",
+          "lat": 42.13,
+          "lng": -8.86
+        },
+        {
+          "id": "baio_7",
+          "text": "Wander the old town streets",
+          "detail": "Explore Baiona's narrow medieval lanes lined with stone houses, taverns, and small shops.",
+          "lat": 42.1205,
+          "lng": -8.845
+        },
+        {
+          "id": "baio_8",
+          "text": "Browse the harbor market",
+          "detail": "Check out the daily catch and local produce sold near the port, a good spot to soak up local life.",
+          "lat": 42.1195,
+          "lng": -8.846
+        }
+      ],
+      "food": [
+        {
+          "id": "baio_f1",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus seasoned with paprika and olive oil, a Galician classic found in local taverns."
+        },
+        {
+          "id": "baio_f2",
+          "text": "Empanada gallega",
+          "detail": "Savory stuffed pastry typically filled with tuna, pork, or seafood, perfect for a quick bite by the harbor."
+        },
+        {
+          "id": "baio_f3",
+          "text": "Percebes",
+          "detail": "Prized gooseneck barnacles harvested from the rocky Galician coast, often served simply steamed."
+        },
+        {
+          "id": "baio_f4",
+          "text": "Mejillones a la marinera",
+          "detail": "Mussels cooked in a garlicky white wine and tomato sauce, reflecting the town's strong seafood tradition."
+        },
+        {
+          "id": "baio_f5",
+          "text": "Albariño wine",
+          "detail": "Crisp white wine from the nearby Rías Baixas region, a natural pairing with Baiona's seafood dishes."
+        },
+        {
+          "id": "baio_f6",
+          "text": "Tarta de Santiago",
+          "detail": "Traditional almond cake dusted with powdered sugar in the shape of the St. James cross, ideal with coffee."
+        }
+      ],
+      "culture": [
+        {
+          "id": "baio_c1",
+          "text": "Attend the Arribada Festival",
+          "detail": "Held in early March, this lively festival reenacts the arrival of La Pinta with parades and period costumes."
+        },
+        {
+          "id": "baio_c2",
+          "text": "Respect Galician meal times",
+          "detail": "Lunch typically runs late (2-4pm) and dinner starts around 9pm, so plan accordingly."
+        },
+        {
+          "id": "baio_c3",
+          "text": "Listen for Galician language",
+          "detail": "Many locals speak Galego alongside Spanish, and signage often appears in both."
+        },
+        {
+          "id": "baio_c4",
+          "text": "Dress modestly at religious sites",
+          "detail": "When visiting chapels or the Virgen de la Roca statue, modest clothing is appreciated."
+        }
+      ]
+    },
+    {
+      "id": "islas_ons",
+      "name": "Ons Island",
+      "nameIt": "Illa de Ons",
+      "lat": 42.3833,
+      "lng": -8.9333,
+      "type": "ISLAND",
+      "description": "Part of the Atlantic Islands National Park, this quieter sister to the Cíes Islands offers wild cliffs, hiking trails and pristine beaches with far fewer crowds. It's an easy ferry trip from Pontevedra's ría for a peaceful nature escape.",
+      "imageQueries": [
+        "Ons Island beach Galicia",
+        "Ons Island cliffs"
+      ],
+      "activities": [
+        {
+          "id": "isla_1",
+          "text": "Hike to Faro de Ons",
+          "detail": "Walk the paved road up to the lighthouse for sweeping views over the Ría de Pontevedra and the Atlantic.",
+          "lat": 42.3766,
+          "lng": -8.9328
+        },
+        {
+          "id": "isla_2",
+          "text": "Explore Buraco do Inferno",
+          "detail": "Peer into this dramatic sea-carved chasm on the island's wild west coast where waves crash through a collapsed cave.",
+          "lat": 42.3655,
+          "lng": -8.9355
+        },
+        {
+          "id": "isla_3",
+          "text": "Relax at Praia de Melide",
+          "detail": "This crescent beach backed by dunes is one of the island's best spots for swimming and sunbathing.",
+          "lat": 42.3945,
+          "lng": -8.9315
+        },
+        {
+          "id": "isla_4",
+          "text": "Walk the island's circular trail",
+          "detail": "A well-marked path loops around Ons past cliffs, heather-covered hills and old stone walls, taking about 3-4 hours to complete.",
+          "lat": 42.383,
+          "lng": -8.93
+        },
+        {
+          "id": "isla_5",
+          "text": "Visit Area dos Cans (Home cove)",
+          "detail": "A sheltered, turquoise-tinted beach on the sheltered eastern side, popular for calm-water swimming.",
+          "lat": 42.388,
+          "lng": -8.928
+        },
+        {
+          "id": "isla_6",
+          "text": "Browse the tiny village of O Curro",
+          "detail": "The island's only settlement has a handful of houses, a small church and a few shops selling local crafts.",
+          "lat": 42.3835,
+          "lng": -8.9305
+        }
+      ],
+      "food": [
+        {
+          "id": "isla_f1",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus sliced and dressed with olive oil, paprika and coarse salt, served at the island's small restaurants."
+        },
+        {
+          "id": "isla_f2",
+          "text": "Percebes",
+          "detail": "Goose barnacles harvested from Ons' rocky shores, prized as a Galician delicacy and best eaten simply steamed."
+        },
+        {
+          "id": "isla_f3",
+          "text": "Empanada de zamburiñas",
+          "detail": "A savory Galician pie filled with small scallops, a popular light lunch option on the island."
+        },
+        {
+          "id": "isla_f4",
+          "text": "Fresh grilled sardines",
+          "detail": "Sardines straight from local waters, grilled over coals and enjoyed at outdoor tables near the harbor."
+        },
+        {
+          "id": "isla_f5",
+          "text": "Albariño wine",
+          "detail": "Pair your seafood with a chilled glass of albariño, the crisp white wine from the neighboring Rías Baixas region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "isla_c1",
+          "text": "Book ferry tickets in advance",
+          "detail": "Boats to Ons run seasonally from Pontevedra, Sanxenxo, or Bueu and can sell out quickly in summer."
+        },
+        {
+          "id": "isla_c2",
+          "text": "Bring cash",
+          "detail": "Many of the small eateries and shops on the island don't accept cards, so carry euros."
+        },
+        {
+          "id": "isla_c3",
+          "text": "No cars on the island",
+          "detail": "Ons has no vehicle traffic, so all exploring is done on foot along marked trails."
+        },
+        {
+          "id": "isla_c4",
+          "text": "Respect the national park rules",
+          "detail": "As part of a protected national park, camping is only allowed in the designated campsite and visitors should stay on marked paths."
+        }
+      ]
+    },
+    {
+      "id": "cambados",
+      "name": "Cambados",
+      "nameIt": "Cambados",
+      "lat": 42.5136,
+      "lng": -8.8175,
+      "type": "TOWN",
+      "description": "The elegant capital of the Albariño wine region, known for its grand Plaza de Fefiñáns surrounded by stone mansions and wine bodegas. It's an ideal base for tasting Galicia's celebrated white wine paired with local seafood.",
+      "imageQueries": [
+        "Cambados Plaza de Fefinans",
+        "Cambados vineyards Albarino"
+      ],
+      "activities": [
+        {
+          "id": "camb_1",
+          "text": "Plaza de Fefiñáns",
+          "detail": "Stroll through this grand stone-paved square flanked by the 16th-century Fefiñáns palace and the Vinoteca do Pazo tasting room, the heart of Cambados.",
+          "lat": 42.5111,
+          "lng": -8.8156
+        },
+        {
+          "id": "camb_2",
+          "text": "Pazo de Fefiñáns wine tasting",
+          "detail": "Sample Albariño produced on the grounds of this historic manor house that gives the plaza its name.",
+          "lat": 42.5112,
+          "lng": -8.8157
+        },
+        {
+          "id": "camb_3",
+          "text": "Walk to A Fonte do Muíño and the seafront promenade",
+          "detail": "Follow the coastal path along the Ría de Arousa for views of moored boats and the setting sun.",
+          "lat": 42.5133,
+          "lng": -8.8095
+        },
+        {
+          "id": "camb_4",
+          "text": "Santa Mariña Dozo ruins",
+          "detail": "Explore the roofless Gothic church ruins, now an atmospheric open-air space and viewpoint over the town.",
+          "lat": 42.5098,
+          "lng": -8.8117
+        },
+        {
+          "id": "camb_5",
+          "text": "O Alba wine museum area near bodegas",
+          "detail": "Visit one of the small family-run Albariño bodegas on the outskirts for a tour explaining the local granite-and-trellis vine-growing method."
+        },
+        {
+          "id": "camb_6",
+          "text": "Cambados Saturday market",
+          "detail": "Browse stalls of local produce, cheeses, and seafood at the lively morning market in the town center."
+        },
+        {
+          "id": "camb_7",
+          "text": "Torre de San Sadurniño",
+          "detail": "See this medieval defensive tower near the harbor, one of the last remnants of Cambados' fortified past.",
+          "lat": 42.5142,
+          "lng": -8.8088
+        },
+        {
+          "id": "camb_8",
+          "text": "Boat trip on the Ría de Arousa",
+          "detail": "Take a short boat excursion to see the bateas (mussel rafts) that supply Galicia's famous shellfish."
+        }
+      ],
+      "food": [
+        {
+          "id": "camb_f1",
+          "text": "Albariño wine tasting",
+          "detail": "Taste the crisp, aromatic white wine that put Cambados on the map, ideally at a bodega or the Pazo de Fefiñáns."
+        },
+        {
+          "id": "camb_f2",
+          "text": "Percebes (goose barnacles)",
+          "detail": "Try these prized, oddly shaped shellfish harvested from the rocky Galician coast, usually simply boiled with salt."
+        },
+        {
+          "id": "camb_f3",
+          "text": "Empanada de zamburiñas",
+          "detail": "Sample the local savory pie filled with small queen scallops, a Cambados specialty."
+        },
+        {
+          "id": "camb_f4",
+          "text": "Pulpo á feira",
+          "detail": "Enjoy Galician-style boiled octopus sprinkled with paprika and olive oil, a classic pairing with Albariño."
+        },
+        {
+          "id": "camb_f5",
+          "text": "Mejillones and berberechos",
+          "detail": "Feast on fresh mussels and cockles from the ría, often served simply steamed to highlight their sweetness."
+        },
+        {
+          "id": "camb_f6",
+          "text": "Torta de Mondoñedo or local pastries",
+          "detail": "Finish a meal with a regional sweet from a Cambados bakery, paired with a glass of orujo or Albariño-based liqueur."
+        }
+      ],
+      "culture": [
+        {
+          "id": "camb_c1",
+          "text": "Wine harvest festival",
+          "detail": "If visiting in early August, catch the Fiesta del Albariño, Cambados' biggest celebration honoring its signature wine."
+        },
+        {
+          "id": "camb_c2",
+          "text": "Late dining hours",
+          "detail": "Restaurants typically don't open for dinner until 8:30 or 9pm, in keeping with Spanish custom."
+        },
+        {
+          "id": "camb_c3",
+          "text": "Respect bodega etiquette",
+          "detail": "Many small wineries require advance booking for tastings or tours, so call ahead rather than dropping in."
+        },
+        {
+          "id": "camb_c4",
+          "text": "Dress for wind and rain",
+          "detail": "The Ría de Arousa coast can be breezy and unpredictable even in summer, so bring a light jacket."
+        }
+      ]
+    },
+    {
+      "id": "as_catedrais_beach",
+      "name": "Cathedrals Beach",
+      "nameIt": "Praia das Catedrais",
+      "lat": 43.5511,
+      "lng": -7.1875,
+      "type": "COASTAL",
+      "description": "A spectacular beach on the northern coast named for its towering natural rock arches and cliffs that resemble cathedral naves, best seen at low tide. It's one of Galicia's most photographed natural landmarks.",
+      "imageQueries": [
+        "Praia das Catedrais rock arches",
+        "Cathedrals beach low tide"
+      ],
+      "activities": [
+        {
+          "id": "as_c_1",
+          "text": "Walk through the rock arches",
+          "detail": "At low tide you can walk on the sand beneath the towering stone arches that give the beach its cathedral-like nickname.",
+          "lat": 43.5581,
+          "lng": -7.2093
+        },
+        {
+          "id": "as_c_2",
+          "text": "Explore the sea caves and tunnels",
+          "detail": "Erosion has carved numerous caves and tunnels into the cliffs that are only reachable when the tide is out.",
+          "lat": 43.5578,
+          "lng": -7.2088
+        },
+        {
+          "id": "as_c_3",
+          "text": "Photograph the formations from the clifftop mirador",
+          "detail": "A viewpoint above the beach offers a sweeping panorama of the arches and coastline, ideal for sunrise or sunset shots."
+        },
+        {
+          "id": "as_c_4",
+          "text": "Hike the coastal path toward Ribadeo",
+          "detail": "A scenic footpath along the cliffs connects the beach to nearby villages with views over the Cantabrian Sea."
+        },
+        {
+          "id": "as_c_5",
+          "text": "Search the tide pools for marine life",
+          "detail": "Rock pools left by the receding tide reveal small crabs, anemones, and shells among the sculpted stone."
+        },
+        {
+          "id": "as_c_6",
+          "text": "Visit Ribadeo town and its lighthouse",
+          "detail": "The nearby town of Ribadeo has a historic quarter and a coastal lighthouse worth a short detour."
+        }
+      ],
+      "food": [
+        {
+          "id": "as_c_f1",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus seasoned with paprika and olive oil, a Galician classic often served on wooden platters."
+        },
+        {
+          "id": "as_c_f2",
+          "text": "Percebes",
+          "detail": "Prized goose barnacles harvested from the rugged Galician coast, boiled simply in seawater to highlight their briny flavor."
+        },
+        {
+          "id": "as_c_f3",
+          "text": "Empanada gallega",
+          "detail": "A savory pastry pie filled with tuna, cockles, or pork, popular as a portable snack in coastal Galicia."
+        },
+        {
+          "id": "as_c_f4",
+          "text": "Queso San Simón da Costa",
+          "detail": "A smoked cow's milk cheese from nearby Lugo province, often paired with local honey or membrillo."
+        },
+        {
+          "id": "as_c_f5",
+          "text": "Caldo gallego",
+          "detail": "A hearty broth of greens, potatoes, and beans that warms visitors after a breezy walk along the shore."
+        }
+      ],
+      "culture": [
+        {
+          "id": "as_c_c1",
+          "text": "Reserve free access in advance",
+          "detail": "From Easter through September, access to the beach requires a free timed permit booked online through the Xunta de Galicia website."
+        },
+        {
+          "id": "as_c_c2",
+          "text": "Check the tide tables before visiting",
+          "detail": "The arches and caves are only exposed at low tide, so plan your trip around the local tide schedule to avoid disappointment."
+        },
+        {
+          "id": "as_c_c3",
+          "text": "Leave the rocks and formations untouched",
+          "detail": "Visitors are asked not to climb on or remove stones to help preserve the fragile natural arches."
+        },
+        {
+          "id": "as_c_c4",
+          "text": "Arrive early for parking",
+          "detail": "Parking near the beach fills quickly in summer, so early arrival or use of the shuttle bus from nearby lots is recommended."
+        }
+      ]
+    },
+    {
+      "id": "ribadeo",
+      "name": "Ribadeo",
+      "nameIt": "Ribadeo",
+      "lat": 43.5397,
+      "lng": -7.0417,
+      "type": "TOWN",
+      "description": "A charming town on the estuary bordering Asturias, serving as the gateway to the nearby Cathedrals Beach and known for its colorful indiano mansions built by returning emigrants. Its scenic ría and coastal walks make it a worthwhile stop on Galicia's northern coast.",
+      "imageQueries": [
+        "Ribadeo estuary view",
+        "Ribadeo indiano houses"
+      ],
+      "activities": [
+        {
+          "id": "riba_1",
+          "text": "Praia das Catedrais",
+          "detail": "Walk among the dramatic arch-shaped rock formations of this famous beach at low tide, just outside town in the Aguiño/Santa Cecilia area (advance free permit required in summer).",
+          "lat": 43.5583,
+          "lng": -7.2064
+        },
+        {
+          "id": "riba_2",
+          "text": "Torre dos Moreno",
+          "detail": "Admire this flamboyant indiano mansion with its colorful tower, one of the best examples of the return-emigrant architecture that defines Ribadeo's skyline.",
+          "lat": 43.5372,
+          "lng": -7.0416
+        },
+        {
+          "id": "riba_3",
+          "text": "Parque de San Roque",
+          "detail": "Take in sweeping views over the Ribadeo estuary and the Cantabrian coast from this clifftop park in the town centre.",
+          "lat": 43.5395,
+          "lng": -7.0398
+        },
+        {
+          "id": "riba_4",
+          "text": "Ermita de Santa Cruz",
+          "detail": "Cross the footbridge to a tiny wooded island in the ría to visit this small hermitage surrounded by gardens and picnic spots.",
+          "lat": 43.5435,
+          "lng": -7.0369
+        },
+        {
+          "id": "riba_5",
+          "text": "Stroll the Paseo Marítimo",
+          "detail": "Follow the waterfront promenade along the ría for views of the Puente de los Santos bridge linking Galicia and Asturias.",
+          "lat": 43.5412,
+          "lng": -7.0385
+        },
+        {
+          "id": "riba_6",
+          "text": "Iglesia de Santa María do Campo",
+          "detail": "Visit Ribadeo's main parish church, a mix of Romanesque origins and later Baroque additions in the old quarter.",
+          "lat": 43.539,
+          "lng": -7.0408
+        },
+        {
+          "id": "riba_7",
+          "text": "Os Castros de Ribadeo",
+          "detail": "Explore the remains of an Iron Age Celtic hillfort settlement on the outskirts of town.",
+          "lat": 43.528,
+          "lng": -7.05
+        },
+        {
+          "id": "riba_8",
+          "text": "Boat trip on the Ría de Ribadeo",
+          "detail": "Take a short cruise on the estuary to see the coastline, cliffs, and the border between Galicia and Asturias from the water."
+        }
+      ],
+      "food": [
+        {
+          "id": "riba_f1",
+          "text": "Pulpo á feira",
+          "detail": "Tender boiled octopus sprinkled with paprika and olive oil, a Galician classic served in local tabernas."
+        },
+        {
+          "id": "riba_f2",
+          "text": "Percebes",
+          "detail": "Prized goose barnacles harvested along the rocky Galician coast, a local delicacy best enjoyed simply steamed."
+        },
+        {
+          "id": "riba_f3",
+          "text": "Queixo San Simón da Costa",
+          "detail": "A smoked, pear-shaped cow's milk cheese from the nearby Terra Chá region, often served with honey or membrillo."
+        },
+        {
+          "id": "riba_f4",
+          "text": "Empanada gallega",
+          "detail": "Savory stuffed pastry typically filled with tuna, cockles, or pork, sold in local bakeries and bars."
+        },
+        {
+          "id": "riba_f5",
+          "text": "Caldeirada de peixe",
+          "detail": "A hearty fish and potato stew reflecting Ribadeo's close ties to the sea and its fishing fleet."
+        },
+        {
+          "id": "riba_f6",
+          "text": "Mariscada mixta",
+          "detail": "A mixed seafood platter featuring clams, mussels, and prawns fresh from the ría, popular in the town's marisquerías."
+        }
+      ],
+      "culture": [
+        {
+          "id": "riba_c1",
+          "text": "Reserve Catedrais beach access ahead",
+          "detail": "During peak season the beach requires a free timed-entry permit obtained online in advance due to limited capacity."
+        },
+        {
+          "id": "riba_c2",
+          "text": "Check the tides",
+          "detail": "The famous rock arches at Catedrais are only accessible at low tide, so plan your visit around the tide table."
+        },
+        {
+          "id": "riba_c3",
+          "text": "Galician is widely spoken",
+          "detail": "Many locals converse in Galego alongside Spanish, and signage often appears in both languages."
+        },
+        {
+          "id": "riba_c4",
+          "text": "Meal times run late",
+          "detail": "Restaurants typically serve lunch from 2pm and dinner from 9pm, following the wider Spanish schedule."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Casa Marcelo",
+      "address": "Rúa Hortas 1, Santiago de Compostela",
+      "neighbourhood": "Santiago de Compostela",
+      "cuisine": "Contemporary Galician",
+      "priceRange": "€€€€",
+      "description": "Michelin-starred restaurant in a 16th-century palace offering inventive reinterpretations of traditional Galician cuisine.",
+      "mustOrder": "Market-driven tasting menu with seafood focus",
+      "lat": 42.8816,
+      "lng": -8.5454
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Maruja Limón",
+      "address": "Rúa de Orfebres 16, Santiago de Compostela",
+      "neighbourhood": "Santiago de Compostela",
+      "cuisine": "Modern Galician",
+      "priceRange": "€€€",
+      "description": "Cosy neighbourhood restaurant with a Michelin star serving refined regional dishes in an intimate setting.",
+      "mustOrder": "Scallops with brown butter and sea urchin",
+      "lat": 42.8806,
+      "lng": -8.5445
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "O Curro da Parra",
+      "address": "Rúa da Troia 19, Santiago de Compostela",
+      "neighbourhood": "Santiago de Compostela",
+      "cuisine": "Traditional Galician",
+      "priceRange": "€€",
+      "description": "Casual tavern-style restaurant famous for grilled meats and traditional Galician comfort food near the cathedral.",
+      "mustOrder": "Carne a la piedra (meat cooked on hot stone)",
+      "lat": 42.8835,
+      "lng": -8.5437
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "A Tafona",
+      "address": "Rúa da Algalia de Arriba 21, Santiago de Compostela",
+      "neighbourhood": "Santiago de Compostela",
+      "cuisine": "Galician Seafood",
+      "priceRange": "€€",
+      "description": "Traditional family-run restaurant specializing in fresh seafood prepared in classic Galician style.",
+      "mustOrder": "Percebes (goose barnacles) or Pulpo a la gallega (octopus)",
+      "lat": 42.8818,
+      "lng": -8.5401
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Martín Berasategui Vigo",
+      "address": "Avenida de Beiramar s/n, Vigo",
+      "neighbourhood": "Vigo",
+      "cuisine": "Contemporary Basque-Galician",
+      "priceRange": "€€€€",
+      "description": "Michelin three-star temple of modern gastronomy overlooking the Ría with innovative takes on Iberian cuisine.",
+      "mustOrder": "Chef's tasting menu with seasonal innovations",
+      "lat": 42.2329,
+      "lng": -8.7246
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "El Mosquito",
+      "address": "Rúa Pizarro 19, Vigo",
+      "neighbourhood": "Vigo",
+      "cuisine": "Galician Seafood",
+      "priceRange": "€€",
+      "description": "Historic family tavern in the casco viejo (old town) serving impeccably fresh seafood and Galician classics.",
+      "mustOrder": "Navajas (razor clams) or fresh fish of the day",
+      "lat": 42.2358,
+      "lng": -8.7286
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Estroladoiro",
+      "address": "Rúa do Príncep 2, Pontevedra",
+      "neighbourhood": "Pontevedra",
+      "cuisine": "Modern Galician",
+      "priceRange": "€€€",
+      "description": "Elegant modern restaurant in the charming old town specializing in updated traditional Galician cuisine.",
+      "mustOrder": "Local fish with seasonal vegetable preparations",
+      "lat": 42.433,
+      "lng": -8.6449
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Casa Fidel",
+      "address": "Rúa de la Peregrina 4, Pontevedra",
+      "neighbourhood": "Pontevedra",
+      "cuisine": "Traditional Galician",
+      "priceRange": "€€",
+      "description": "Unpretentious local favourite in the old town offering authentic Galician home cooking at accessible prices.",
+      "mustOrder": "Caldo gallego (Galician broth) or Lacón con grelos (pork with turnip greens)",
+      "lat": 42.4343,
+      "lng": -8.6427
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "O Retorno",
+      "address": "Rúa da Saudade 12, A Coruña",
+      "neighbourhood": "A Coruña",
+      "cuisine": "Contemporary Galician",
+      "priceRange": "€€€",
+      "description": "Michelin-starred restaurant emphasizing local ingredients and artistic presentation of regional Galician traditions.",
+      "mustOrder": "Local seafood preparations with vegetable sides",
+      "lat": 43.373,
+      "lng": -8.3902
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Taberna A Coruña",
+      "address": "Rúa de Olmos 14, A Coruña",
+      "neighbourhood": "A Coruña",
+      "cuisine": "Galician Seafood & Tapas",
+      "priceRange": "€€",
+      "description": "Lively tavern in the city centre with excellent pulpo a la gallega, fresh seafood and classic Galician raciones.",
+      "mustOrder": "Pulpo a la gallega or Mariscada (seafood platter)",
+      "lat": 43.3695,
+      "lng": -8.3875
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "A Cedeira",
+      "address": "Rúa da Fruta 1, Lugo",
+      "neighbourhood": "Lugo",
+      "cuisine": "Traditional Galician",
+      "priceRange": "€€",
+      "description": "Family restaurant near the cathedral serving hearty traditional Galician cuisine in a warm, casual atmosphere.",
+      "mustOrder": "Empanada gallega or Carne ao mellor (slow-cooked meat)",
+      "lat": 42.6603,
+      "lng": -8.6282
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Svetlana",
+      "address": "Rúa da Cruz 31, Lugo",
+      "neighbourhood": "Lugo",
+      "cuisine": "Contemporary European-Galician",
+      "priceRange": "€€€",
+      "description": "Modern restaurant in Lugo's old town blending Galician traditions with contemporary European techniques.",
+      "mustOrder": "House-cured fish or seasonal market dishes",
+      "lat": 42.6606,
+      "lng": -8.6255
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Casa Solla",
+      "address": "Avenida Sineiro 7, Poyo (Pontevedra)",
+      "neighbourhood": "Poyo",
+      "cuisine": "Contemporary Galician",
+      "priceRange": "€€€€",
+      "description": "Michelin two-star restaurant near Pontevedra in a traditional stone house crafting refined regional cuisine.",
+      "mustOrder": "Marinated fish with seasonal accompaniments or game preparations",
+      "lat": 42.4085,
+      "lng": -8.673
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "O Barco",
+      "address": "Rúa Pintor Telo 27, Baiona",
+      "neighbourhood": "Baiona",
+      "cuisine": "Galician Seafood",
+      "priceRange": "€€",
+      "description": "Waterfront seafood restaurant in the coastal town of Baiona serving exceptional fresh fish and shellfish.",
+      "mustOrder": "Percebes or grilled whole fish of the day",
+      "lat": 42.1238,
+      "lng": -8.8418
+    }
+  ]
+}
