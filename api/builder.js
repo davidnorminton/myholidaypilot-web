@@ -324,18 +324,40 @@ Respond with ONLY valid JSON, no fences:
 {"festivals":[{"name":"","regionId":"","regionName":"","month":1,"dayStart":null,"dayEnd":null,"description":"","location":"","type":"CULTURAL","isNational":false}]}`
     } else if (topic === 'history') {
       stageNo = 8
-      prompt = `Write a concise history guide for ${b.name} as 5 to 7 titled sections spanning antiquity to today. Each: title, body (2 to 4 sentences, plain prose). Respond with ONLY valid JSON, no fences: {"title":"A short history","subtitle":"How ${b.name} came to be","sections":[{"title":"","body":""}]}`
+      prompt = `Write ${b.name}'s history as a TIMELINE of 10 to 13 eras, from prehistory to today.
+
+For EACH era give:
+- period: a very short marker for the timeline spine, with a newline between number and unit where natural (examples: "10,000\nBC", "218\nBC", "1492", "1936", "TODAY")
+- label: the era's name (e.g. "Al-Andalus", "The Reconquista")
+- dates: the readable range (e.g. "711 – 1492")
+- summary: ONE punchy sentence.
+- text: 3 to 5 sentences of engaging detail, plain prose, no markdown.
+
+Order chronologically. Respond with ONLY valid JSON, no fences:
+{"eras":[{"period":"","label":"","dates":"","summary":"","text":""}]}`
     } else if (topic === 'food') {
       stageNo = 9
-      prompt = `Write a food & wine guide for ${b.name} as 5 to 7 titled sections (regional cuisines, signature dishes, wines, dining customs). Each: title, body (2 to 4 sentences). Respond with ONLY valid JSON, no fences: {"title":"Food & wine","subtitle":"Eating and drinking across ${b.name}","sections":[{"title":"","body":""}]}`
+      prompt = `Write a practical food & drink guide for ${b.name} as 5 to 7 themed sections a traveller would actually use (e.g. coffee/café culture, reading a menu, must-try dishes, where to eat, drinks & wine, dining customs & etiquette).
+
+Each section: title (short, may include the local word in brackets), icon (ONE of: coffee, restaurant, dining, bar, star), items (3 to 7).
+Each item: kind (one of: rule, dish, tip, place), label (short bold heading), text (1 to 3 sentences, plain prose).
+
+Be specific to ${b.name} — real dishes, real customs, honest tourist-trap warnings. Respond with ONLY valid JSON, no fences:
+{"sections":[{"title":"","icon":"restaurant","items":[{"kind":"rule","label":"","text":""}]}]}`
     } else if (topic === 'transport') {
       stageNo = 10
-      prompt = `Write a getting-around guide for ${b.name} as 5 to 7 titled sections (trains, driving, flights, city transport, practical tips). Each: title, body (2 to 4 sentences). Respond with ONLY valid JSON, no fences: {"title":"Getting around","subtitle":"Trains, roads and how to move around ${b.name}","sections":[{"title":"","body":""}]}`
+      prompt = `Write a practical getting-around guide for ${b.name} as 6 to 9 sections (national trains, city metro/buses, taxis & ride apps, driving, airports, ferries if relevant, tickets & passes, connectivity/SIM).
+
+Each section: title (short, may include the local word in brackets), icon (ONE of: train, transit, subway, taxi, boat, flight, warning, simcard, star), items (3 to 6).
+Each item: kind (one of: tip, warn, rule), label (short heading; warns may omit it), text (1 to 3 sentences, plain prose).
+
+Include real operator names, apps and honest warnings (fines, scams, strikes). Respond with ONLY valid JSON, no fences:
+{"sections":[{"title":"","icon":"train","items":[{"kind":"tip","label":"","text":""}]}]}`
     } else {
       throw fail(400, 'Unknown guide topic')
     }
 
-    const out = await generate(prompt, { maxTokens: topic === 'festivals' ? 8000 : 3000 })
+    const out = await generate(prompt, { maxTokens: topic === 'festivals' ? 8000 : 6000 })
 
     if (topic === 'festivals') {
       const regs = await db.select().from(buildRegions).where(eq(buildRegions.countryId, b.countryId))
@@ -364,6 +386,41 @@ Respond with ONLY valid JSON, no fences:
         title: 'Festivals & events',
         subtitle: `${fests.length} celebrations through the year — pick a day to see what's on.`,
         festivals: fests,
+      }
+    } else if (topic === 'history') {
+      const eras = (Array.isArray(out.eras) ? out.eras : []).slice(0, 15).map((e) => ({
+        kind: 'era',
+        period: String(e.period || '').slice(0, 20),
+        label: String(e.label || '').slice(0, 80),
+        dates: String(e.dates || '').slice(0, 60),
+        summary: String(e.summary || '').slice(0, 240),
+        text: String(e.text || '').slice(0, 1200),
+      })).filter((e) => e.label)
+      if (!eras.length) throw fail(502, 'The model did not return a timeline — try again')
+      guides[topic] = {
+        title: 'A Short History of ' + b.name,
+        subtitle: `From its beginnings to today — ${eras.length} eras that shaped it.`,
+        sections: [{ title: '', icon: '', items: eras }],
+      }
+    } else if (topic === 'food' || topic === 'transport') {
+      const OK_ICONS = ['coffee', 'restaurant', 'dining', 'bar', 'star', 'train', 'transit', 'subway', 'taxi', 'boat', 'flight', 'warning', 'simcard']
+      const OK_KINDS = ['rule', 'dish', 'tip', 'place', 'warn', 'course']
+      const sections = (Array.isArray(out.sections) ? out.sections : []).slice(0, 10).map((sec) => ({
+        title: String(sec.title || '').slice(0, 80),
+        icon: OK_ICONS.includes(sec.icon) ? sec.icon : (topic === 'food' ? 'restaurant' : 'star'),
+        items: (Array.isArray(sec.items) ? sec.items : []).slice(0, 8).map((it) => ({
+          kind: OK_KINDS.includes(it.kind) ? it.kind : 'tip',
+          ...(it.label ? { label: String(it.label).slice(0, 90) } : {}),
+          text: String(it.text || '').slice(0, 500),
+        })).filter((it) => it.text),
+      })).filter((sec) => sec.title && sec.items.length)
+      if (!sections.length) throw fail(502, 'The model did not return sections — try again')
+      guides[topic] = {
+        title: topic === 'food' ? 'Food & Drink' : 'Getting Around',
+        subtitle: topic === 'food'
+          ? `How to eat well in ${b.name} — customs, dishes and where to go.`
+          : `Trains, roads, taxis and how to move around ${b.name}.`,
+        sections,
       }
     } else {
       guides[topic] = out

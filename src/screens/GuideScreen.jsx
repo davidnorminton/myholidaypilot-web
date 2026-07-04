@@ -84,7 +84,7 @@ export default function GuideScreen({ topic }) {
 
   const isFestivals = Array.isArray(data.festivals)
   const sections = Array.isArray(data.sections) ? data.sections : []
-  const isTimeline = sections.length > 0 && sections.every((s) => (s.items || []).every((it) => it.kind === 'era'))
+  const isTimeline = sections.some((s) => (s.items || []).length > 0) && sections.every((s) => (s.items || []).every((it) => it.kind === 'era'))
 
   return (
     <div className="page">
@@ -108,6 +108,7 @@ export default function GuideScreen({ topic }) {
               return (
                 <section key={i} className="gsec">
                   {sec.title && <h2 className="gsec__title">{Icon && <Icon size={18} className="gsec__icon" />}{sec.title}</h2>}
+                  {sec.body && <p className="gsec__body">{sec.body}</p>}
                   <ul className="gsec__items">
                     {(sec.items || []).map((it, k) => <GuideItem key={k} it={it} />)}
                   </ul>
