@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import AdSlot from '../components/AdSlot.jsx'
 import { PageLoader } from '../components/Loading.jsx'
 import { usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
@@ -52,7 +51,6 @@ export default function BlogScreen() {
             </div>
           </Link>
         )}
-        {rest.length > 0 && <AdSlot format="leaderboard" slot="blog-leaderboard" />}
         <div className="grid grid--posts">
           {rest.slice(0, shown).map((p) => (
             <Link key={p.slug} to={paths.post(p.slug)} className="post-card">

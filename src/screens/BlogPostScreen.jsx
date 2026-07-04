@@ -1,5 +1,4 @@
 import { Link, useParams } from 'react-router-dom'
-import AdSlot from '../components/AdSlot.jsx'
 import { ArrowLeft } from 'lucide-react'
 import { PageLoader } from '../components/Loading.jsx'
 import { usePost, usePublishedPosts } from '../lib/blogStore.js'
@@ -55,10 +54,8 @@ export default function BlogPostScreen() {
         <div className="post__layout">
           <div className="post__main">
             <div className="post__body prose" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
-            <AdSlot format="in-article" slot="post-inarticle" />
           </div>
           <aside className="post__rail">
-            <AdSlot format="half-page" slot="post-rail" />
           </aside>
         </div>
 

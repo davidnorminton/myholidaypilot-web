@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import AdSlot from '../components/AdSlot.jsx'
 import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin, Wand2, Map as MapIcon, Car } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
@@ -202,7 +201,6 @@ export default function LandingScreen() {
         </div>
       </section>
 
-      <div className="wrap"><AdSlot format="leaderboard" slot="landing-leaderboard" /></div>
 
       <section className="wrap home-sec">
         <div className="home-sec__head">

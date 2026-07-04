@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import AdSlot from '../components/AdSlot.jsx'
 import { Search } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import RegionCard from '../components/RegionCard.jsx'
@@ -52,7 +51,6 @@ export default function RegionsScreen() {
       </header>
 
       <main className="wrap">
-        <AdSlot format="leaderboard" slot="regions-leaderboard" />
         <div className="grid grid--regions">
           {filtered === null && <CardSkeletons count={9} kind="r" />}
           {filtered && filtered.map((r) => <RegionCard key={r.id} region={r} />)}

@@ -8,7 +8,6 @@ import MapView from '../components/MapView.jsx'
 import PlaceCard from '../components/PlaceCard.jsx'
 import { PageLoader } from '../components/Loading.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
-import AdSlot from '../components/AdSlot.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import { useSeo } from '../lib/seo.js'
 import { useSettings } from '../lib/settings.js'
@@ -165,8 +164,6 @@ export default function RegionDetailScreen() {
             )}
           </div>
         )}
-
-        <AdSlot format="leaderboard" slot="region-leaderboard" />
 
         <CommentsSection countryId={COUNTRY} targetType="region" regionId={regionId} areaName={region.name} />
       </main>

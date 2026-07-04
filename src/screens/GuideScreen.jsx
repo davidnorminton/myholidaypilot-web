@@ -6,7 +6,6 @@ import {
 } from 'lucide-react'
 import { getGuide, getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
-import AdSlot from '../components/AdSlot.jsx'
 import { PageLoader } from '../components/Loading.jsx'
 import FestivalsCalendar from '../components/FestivalsCalendar.jsx'
 import { useSeo } from '../lib/seo.js'
@@ -109,14 +108,11 @@ export default function GuideScreen({ topic }) {
                   <ul className="gsec__items">
                     {(sec.items || []).map((it, k) => <GuideItem key={k} it={it} />)}
                   </ul>
-                  {i === 0 && <AdSlot format="in-article" slot="guide-inarticle" />}
                 </section>
               )
             })}
           </div>
         )}
-
-        {isFestivals && <AdSlot format="leaderboard" slot="guide-leaderboard" />}
 
         <Link to={paths.country()} className="back" style={{ marginTop: 8 }}><ArrowLeft size={17} /> Back to Italy</Link>
       </main>

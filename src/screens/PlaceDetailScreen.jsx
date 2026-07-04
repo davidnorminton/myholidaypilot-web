@@ -9,7 +9,6 @@ import Carousel from '../components/Carousel.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
 import SaveButton from '../components/SaveButton.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
-import AdSlot from '../components/AdSlot.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import { useAffiliates, placeOffers } from '../lib/affiliates.js'
 import { PageLoader } from '../components/Loading.jsx'
@@ -153,8 +152,6 @@ export default function PlaceDetailScreen() {
             {active === 'eat' && <Items items={place.food} />}
             {active === 'colour' && <Items items={place.culture} />}
           </div>
-
-          <AdSlot format="in-article" slot="place-inarticle" />
 
           {aff && (
             <AffiliateSection
