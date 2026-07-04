@@ -1,3 +1,15 @@
-node_modules
-dist
+# secrets & local state
+.env
+.env.local
+.env.*.local
+local.db
+blog_export.sql
+
+# dependencies & build
+node_modules/
+dist/
+
+# misc
 .DS_Store
+*.log
+.vercel
