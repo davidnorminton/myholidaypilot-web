@@ -185,6 +185,53 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     return send(res, 200, { count: places.length, places })
   }
 
+  // ── stage 3+4: activities, food & culture for ONE place ─────────────────────
+  // The client calls this per place so a long region fills in visibly and a
+  // failure never loses completed places (each returns done=true on success).
+  if (req.method === 'POST' && q.action === 'detail') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const [pl] = await db.select().from(buildPlaces)
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
+    if (!pl) throw fail(404, 'No such place')
+    const pd = pl.data
+    const [reg] = await db.select().from(buildRegions)
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    const regionName = reg?.data?.name || q.region
+
+    const prompt = `For ${pd.name} (${pd.nameIt}) in ${regionName}, ${b.name}, provide three lists a travel guide would show.
+
+${pd.description ? `Context: ${pd.description}` : ''}
+
+1. activities — 4 to 8 specific things to do here. Each: text (short title), detail (one sentence), and lat/lng if it's a distinct spot (else omit).
+2. food — 3 to 6 local dishes or food experiences to seek out here. Each: text (the dish/experience name), detail (one sentence describing it).
+3. culture — 2 to 4 practical local tips or cultural notes for a visitor here. Each: text (short tip), detail (one sentence).
+
+Be specific to ${pd.name} — real sights, real dishes, real customs. No markdown.
+
+Respond with ONLY valid JSON, no fences:
+{"activities":[{"text":"","detail":"","lat":0,"lng":0}],"food":[{"text":"","detail":""}],"culture":[{"text":"","detail":""}]}`
+
+    const out = await generate(prompt, { maxTokens: 2500 })
+    const pre = pd.id.slice(0, 4)
+    const mk = (arr, tag, withGeo) => (Array.isArray(arr) ? arr : []).slice(0, 8).map((x, i) => {
+      const o = { id: `${pre}_${tag}${i + 1}`, text: String(x.text || '').slice(0, 120), detail: String(x.detail || '').slice(0, 300) }
+      if (withGeo && Number(x.lat) && Number(x.lng)) { o.lat = Number(x.lat); o.lng = Number(x.lng) }
+      return o
+    }).filter((o) => o.text)
+
+    const data = {
+      ...pd,
+      activities: mk(out.activities, '', true),
+      food: mk(out.food, 'f', false),
+      culture: mk(out.culture, 'c', false),
+    }
+    await db.update(buildPlaces).set({ data, updatedAt: Date.now() })
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
+    await db.update(builds).set({ stage: Math.max(b.stage, 3), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+    return send(res, 200, { done: true, activities: data.activities.length, food: data.food.length, culture: data.culture.length })
+  }
+
   // ── delete one place ────────────────────────────────────────────────────────
   if (req.method === 'DELETE' && q.place) {
     await db.delete(buildPlaces)

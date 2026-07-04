@@ -222,10 +222,36 @@ function RegionPlaces({ countryId, region, onBack }) {
   const [error, setError] = useState('')
   const [confirm, setConfirm] = useState(false)
   const [editing, setEditing] = useState(null)
+  const [detailRun, setDetailRun] = useState(null)   // { current: placeId } while looping
+  const [detailErr, setDetailErr] = useState('')
   const d = region.data
 
   const load = () => api.builder.region(countryId, region.regionId).then((r) => setPlaces(r.places)).catch(() => setPlaces(false))
   useEffect(() => { load() }, [region.regionId])
+
+  // A place counts as "detailed" once it has any activities.
+  const isDetailed = (p) => (p.data.activities || []).length > 0
+
+  // Generate things-to-do + food + culture, ONE place at a time, in order.
+  // Already-detailed places are skipped, so a failed run resumes cleanly.
+  const generateDetails = async () => {
+    setDetailErr('')
+    const todo = (places || []).filter((p) => !isDetailed(p))
+    for (const p of todo) {
+      setDetailRun({ current: p.placeId })
+      try {
+        await api.builder.genDetail(countryId, region.regionId, p.placeId)
+        // refresh just this place's flag by reloading the list (cheap, keeps ticks live)
+        const r = await api.builder.region(countryId, region.regionId)
+        setPlaces(r.places)
+      } catch (e) {
+        setDetailErr(`Stopped at ${p.data.name}: ${e.message}. Fixed the cause? Click again — done places are skipped.`)
+        setDetailRun(null)
+        return
+      }
+    }
+    setDetailRun(null)
+  }
 
   const generate = async () => {
     setBusy(true); setError(''); setConfirm(false)
@@ -267,9 +293,28 @@ function RegionPlaces({ countryId, region, onBack }) {
         {places === null && <p className="admin-empty">Loading…</p>}
         {places && !has && !busy && <p className="admin-empty">No places yet — generate 5–15 for this region.</p>}
 
+        {has && (() => {
+          const done = places.filter(isDetailed).length
+          const running = !!detailRun
+          return (
+            <div className="bld__detailbar">
+              <button className="btn btn--soft" onClick={generateDetails} disabled={running || busy}>
+                {running ? <><RefreshCw size={14} className="pk__spin" /> Generating… ({done}/{places.length})</>
+                  : done === places.length ? <><RefreshCw size={14} /> Regenerate missing (all done)</>
+                  : done > 0 ? <><Sparkles size={14} /> Continue things to do &amp; eat ({done}/{places.length})</>
+                  : <><Sparkles size={14} /> Generate things to do &amp; eat</>}
+              </button>
+              <span className="bld__detailnote">Runs place by place — each ticks green when done, so a failure never redoes finished places.</span>
+            </div>
+          )
+        })()}
+        {detailErr && <p className="pk__warn">{detailErr}</p>}
+
         <div className="bld__regions">
           {(places || []).map((p) => (
             <PlaceRow key={p.id} countryId={countryId} regionId={region.regionId} place={p}
+              detailed={(p.data.activities || []).length > 0}
+              running={detailRun?.current === p.placeId}
               editing={editing === p.placeId}
               onEdit={() => setEditing(p.placeId)} onClose={() => setEditing(null)}
               onRemove={() => removePlace(p.placeId)} onSaved={load} />
@@ -281,7 +326,7 @@ function RegionPlaces({ countryId, region, onBack }) {
   )
 }
 
-function PlaceRow({ countryId, regionId, place, editing, onEdit, onClose, onRemove, onSaved }) {
+function PlaceRow({ countryId, regionId, place, detailed, running, editing, onEdit, onClose, onRemove, onSaved }) {
   const [form, setForm] = useState(place.data)
   const [busy, setBusy] = useState(false)
   useEffect(() => { setForm(place.data) }, [place.id])
@@ -295,10 +340,15 @@ function PlaceRow({ countryId, regionId, place, editing, onEdit, onClose, onRemo
 
   if (!editing) {
     return (
-      <div className="bld__region">
+      <div className={`bld__region ${running ? 'bld__region--running' : ''}`}>
+        <span className="bld__ptick">
+          {running ? <RefreshCw size={15} className="pk__spin" /> : detailed ? <span className="bld__done">✓</span> : <span className="bld__pdot" />}
+        </span>
         <span className="bld__rbody">
           <b>{d.name}</b> <span className="bld__rlocal">{d.type?.toLowerCase()}</span>
-          <span className="bld__rmeta">{d.description?.slice(0, 90)}…</span>
+          <span className="bld__rmeta">
+            {detailed ? `${(d.activities || []).length} to do · ${(d.food || []).length} to eat · ${(d.culture || []).length} tips` : d.description?.slice(0, 70) + '…'}
+          </span>
         </span>
         <button className="story__act" onClick={onEdit}><Pencil size={13} /> Edit</button>
         <button className="story__act bld__discard" onClick={onRemove}><Trash2 size={13} /></button>

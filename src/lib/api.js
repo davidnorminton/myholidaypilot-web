@@ -50,6 +50,7 @@ export const api = {
     genRegions: (country) => req('POST', `/builder?action=regions&country=${country}`),
     genPlaces: (country, region) => req('POST', `/builder?action=places&country=${country}&region=${region}`),
     deletePlace: (country, region, place) => req('DELETE', `/builder?country=${country}&region=${region}&place=${place}`),
+    genDetail: (country, region, place) => req('POST', `/builder?action=detail&country=${country}&region=${region}&place=${place}`),
     saveRegion: (country, region, data) => req('PATCH', `/builder?type=region&country=${country}&region=${region}`, { data }),
     savePlace: (country, region, place, data, image) => req('PATCH', `/builder?type=place&country=${country}&region=${region}&place=${place}`, { data, image }),
     discard: (country) => req('DELETE', `/builder?country=${country}`),
