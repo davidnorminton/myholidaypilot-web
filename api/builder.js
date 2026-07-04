@@ -127,6 +127,71 @@ Respond with ONLY valid JSON, no markdown, no fences:
     return send(res, 200, { count: regions.length, regions })
   }
 
+  // ── stage 2: generate places for ONE region ─────────────────────────────────
+  if (req.method === 'POST' && q.action === 'places') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const [reg] = await db.select().from(buildRegions)
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    if (!reg) throw fail(404, 'No such region')
+    const rd = reg.data
+
+    const prompt = `List the most worthwhile places to visit in ${rd.name} (${rd.nameIt}), ${b.name} — the towns, cities and notable spots a good travel guide would feature. Aim for the genuinely popular and rewarding ones, between 5 and 15 depending on the region's size.
+
+For EACH place give:
+- id: a lowercase slug (a-z, 0-9, underscores), unique within the region
+- name: the English/common name
+- nameLocal: the local-language name
+- type: one of CITY, TOWN, VILLAGE, COASTAL, NATURE, LANDMARK, ISLAND
+- lat, lng: decimal coordinates of the place
+- description: two sentences — what it is and why visit. No markdown.
+- imageQueries: two short search phrases that would find a good photo of it
+
+Order them roughly by how essential they are to the region. Respond with ONLY valid JSON, no fences:
+{"places":[{"id":"","name":"","nameLocal":"","type":"CITY","lat":0,"lng":0,"description":"","imageQueries":["",""]}]}`
+
+    const out = await generate(prompt, { maxTokens: 4000 })
+    if (!Array.isArray(out.places) || !out.places.length) throw fail(502, 'The model did not return places — try again')
+
+    // replace this region's places with the fresh set (regeneration is clean)
+    await db.delete(buildPlaces).where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region)))
+    const TYPES = ['CITY', 'TOWN', 'VILLAGE', 'COASTAL', 'NATURE', 'LANDMARK', 'ISLAND']
+    let i = 0
+    for (const p of out.places.slice(0, 15)) {
+      const placeId = slugify(p.id || p.name)
+      if (!placeId) continue
+      const data = {
+        id: placeId,
+        name: String(p.name || '').slice(0, 80),
+        nameIt: String(p.nameLocal || p.name || '').slice(0, 80),
+        lat: Number(p.lat) || 0,
+        lng: Number(p.lng) || 0,
+        type: TYPES.includes(String(p.type).toUpperCase()) ? String(p.type).toUpperCase() : 'TOWN',
+        description: String(p.description || '').slice(0, 600),
+        imageQueries: Array.isArray(p.imageQueries) ? p.imageQueries.slice(0, 2).map((x) => String(x).slice(0, 60)) : [],
+        activities: [], food: [], culture: [],   // stages 3–4
+      }
+      await db.insert(buildPlaces).values({ countryId: q.country, regionId: q.region, placeId, data, sort: i })
+        .onConflictDoUpdate({ target: [buildPlaces.countryId, buildPlaces.regionId, buildPlaces.placeId], set: { data, updatedAt: Date.now() } })
+      i++
+    }
+    // mark this region's places done; advance build stage to 2 once any region has places
+    await db.update(buildRegions).set({ placesDone: 1, updatedAt: Date.now() })
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    await db.update(builds).set({ stage: Math.max(b.stage, 2), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+
+    const places = await db.select().from(buildPlaces)
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region))).orderBy(asc(buildPlaces.sort))
+    return send(res, 200, { count: places.length, places })
+  }
+
+  // ── delete one place ────────────────────────────────────────────────────────
+  if (req.method === 'DELETE' && q.place) {
+    await db.delete(buildPlaces)
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
+    return send(res, 200, { ok: true })
+  }
+
   // ── manual edits ────────────────────────────────────────────────────────────
   if (req.method === 'PATCH') {
     const b = await readBody(req)

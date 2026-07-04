@@ -91,6 +91,7 @@ function BuildView({ countryId, onBack }) {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const [editing, setEditing] = useState(null)   // regionId being edited
+  const [openRegion, setOpenRegion] = useState(null)   // regionId whose places are shown
 
   const load = () => api.builder.get(countryId).then(setData).catch(() => setData(false))
   useEffect(() => { load() }, [countryId])
@@ -110,6 +111,11 @@ function BuildView({ countryId, onBack }) {
   if (data === false) return <p className="admin-empty">Couldn't load this build.</p>
 
   const { build, regions } = data
+
+  if (openRegion) {
+    const reg = regions.find((r) => r.regionId === openRegion)
+    if (reg) return <RegionPlaces countryId={countryId} region={reg} onBack={() => { setOpenRegion(null); load() }} />
+  }
 
   return (
     <div className="bld">
@@ -147,6 +153,7 @@ function BuildView({ countryId, onBack }) {
               editing={editing === r.regionId}
               onEdit={() => setEditing(r.regionId)}
               onClose={() => setEditing(null)}
+              onOpen={() => setOpenRegion(r.regionId)}
               onSaved={load} />
           ))}
         </div>
@@ -162,7 +169,7 @@ function BuildView({ countryId, onBack }) {
   )
 }
 
-function RegionRow({ countryId, region, editing, onEdit, onClose, onSaved }) {
+function RegionRow({ countryId, region, editing, onEdit, onClose, onOpen, onSaved }) {
   const d = region.data
   const [form, setForm] = useState(d)
   const [busy, setBusy] = useState(false)
@@ -177,13 +184,15 @@ function RegionRow({ countryId, region, editing, onEdit, onClose, onSaved }) {
 
   if (!editing) {
     return (
-      <div className="bld__region">
+      <div className="bld__region bld__region--click" onClick={onOpen}>
         <span className="bld__remoji">{d.emoji}</span>
         <span className="bld__rbody">
           <b>{d.name}</b> <span className="bld__rlocal">{d.nameIt}</span>
-          <span className="bld__rmeta"><MapPin size={11} /> {d.capital} · {d.placeCount} place{region.placeCount === 1 ? '' : 's'}</span>
+          <span className="bld__rmeta"><MapPin size={11} /> {d.capital} · {region.placeCount ? `${region.placeCount} place${region.placeCount === 1 ? '' : 's'}` : 'no places yet'}</span>
         </span>
-        <button className="story__act" onClick={onEdit}><Pencil size={13} /> Edit</button>
+        {region.placeCount > 0 && <span className="bld__done">✓</span>}
+        <button className="story__act" onClick={(e) => { e.stopPropagation(); onEdit() }}><Pencil size={13} /> Edit</button>
+        <ChevronRight size={16} />
       </div>
     )
   }
@@ -198,6 +207,113 @@ function RegionRow({ countryId, region, editing, onEdit, onClose, onSaved }) {
         <label>Lat<input type="number" value={form.lat} onChange={(e) => set({ lat: Number(e.target.value) })} /></label>
         <label>Lng<input type="number" value={form.lng} onChange={(e) => set({ lng: Number(e.target.value) })} /></label>
         <label className="bld__editfull">Best time to visit<input value={form.bestTimeToVisit} onChange={(e) => set({ bestTimeToVisit: e.target.value })} /></label>
+      </div>
+      <div className="bld__formacts">
+        <button className="btn btn--primary" onClick={save} disabled={busy}>{busy ? <RefreshCw size={13} className="pk__spin" /> : <Check size={13} />} Save</button>
+        <button className="btn btn--soft" onClick={onClose}><X size={13} /> Cancel</button>
+      </div>
+    </div>
+  )
+}
+
+function RegionPlaces({ countryId, region, onBack }) {
+  const [places, setPlaces] = useState(null)
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
+  const [confirm, setConfirm] = useState(false)
+  const [editing, setEditing] = useState(null)
+  const d = region.data
+
+  const load = () => api.builder.region(countryId, region.regionId).then((r) => setPlaces(r.places)).catch(() => setPlaces(false))
+  useEffect(() => { load() }, [region.regionId])
+
+  const generate = async () => {
+    setBusy(true); setError(''); setConfirm(false)
+    try { await api.builder.genPlaces(countryId, region.regionId); await load() }
+    catch (e) { setError(e.message) } finally { setBusy(false) }
+  }
+  const removePlace = async (placeId) => {
+    if (!window.confirm('Remove this place?')) return
+    await api.builder.deletePlace(countryId, region.regionId, placeId); load()
+  }
+
+  const has = places && places.length > 0
+
+  return (
+    <div className="bld">
+      <div className="bld__head">
+        <button className="story__act" onClick={onBack}><ArrowLeft size={14} /> Regions</button>
+        <h2 className="bld__title">{d.emoji} {d.name}</h2>
+      </div>
+
+      <section className="bld__stage">
+        <div className="bld__stagehead">
+          <h3>2 · Places in {d.name}</h3>
+          {!confirm ? (
+            <button className="btn btn--soft" onClick={() => setConfirm(true)} disabled={busy}>
+              {busy ? <><RefreshCw size={14} className="pk__spin" /> Generating…</>
+                : has ? <><RefreshCw size={14} /> Regenerate places</>
+                : <><Sparkles size={14} /> Generate places</>}
+            </button>
+          ) : (
+            <span className="bld__confirm">
+              {has ? 'Replace all places?' : `Generate places for ${d.name}?`}
+              <button className="btn btn--primary" onClick={generate}><Check size={13} /> Yes</button>
+              <button className="btn btn--soft" onClick={() => setConfirm(false)}><X size={13} /> No</button>
+            </span>
+          )}
+        </div>
+        {error && <p className="pk__warn">{error}</p>}
+        {places === null && <p className="admin-empty">Loading…</p>}
+        {places && !has && !busy && <p className="admin-empty">No places yet — generate 5–15 for this region.</p>}
+
+        <div className="bld__regions">
+          {(places || []).map((p) => (
+            <PlaceRow key={p.id} countryId={countryId} regionId={region.regionId} place={p}
+              editing={editing === p.placeId}
+              onEdit={() => setEditing(p.placeId)} onClose={() => setEditing(null)}
+              onRemove={() => removePlace(p.placeId)} onSaved={load} />
+          ))}
+        </div>
+      </section>
+      {has && <p className="bld__hint">Places saved. Activities, food and images attach to these in later stages.</p>}
+    </div>
+  )
+}
+
+function PlaceRow({ countryId, regionId, place, editing, onEdit, onClose, onRemove, onSaved }) {
+  const [form, setForm] = useState(place.data)
+  const [busy, setBusy] = useState(false)
+  useEffect(() => { setForm(place.data) }, [place.id])
+  const set = (patch) => setForm({ ...form, ...patch })
+  const save = async () => {
+    setBusy(true)
+    try { await api.builder.savePlace(countryId, regionId, place.placeId, form, place.image); await onSaved(); onClose() }
+    finally { setBusy(false) }
+  }
+  const d = place.data
+
+  if (!editing) {
+    return (
+      <div className="bld__region">
+        <span className="bld__rbody">
+          <b>{d.name}</b> <span className="bld__rlocal">{d.type?.toLowerCase()}</span>
+          <span className="bld__rmeta">{d.description?.slice(0, 90)}…</span>
+        </span>
+        <button className="story__act" onClick={onEdit}><Pencil size={13} /> Edit</button>
+        <button className="story__act bld__discard" onClick={onRemove}><Trash2 size={13} /></button>
+      </div>
+    )
+  }
+  return (
+    <div className="bld__region bld__region--edit">
+      <div className="bld__editgrid">
+        <label>Name<input value={form.name} onChange={(e) => set({ name: e.target.value })} /></label>
+        <label>Local name<input value={form.nameIt} onChange={(e) => set({ nameIt: e.target.value })} /></label>
+        <label>Type<input value={form.type} onChange={(e) => set({ type: e.target.value.toUpperCase() })} /></label>
+        <label>Lat<input type="number" value={form.lat} onChange={(e) => set({ lat: Number(e.target.value) })} /></label>
+        <label>Lng<input type="number" value={form.lng} onChange={(e) => set({ lng: Number(e.target.value) })} /></label>
+        <label className="bld__editfull">Description<textarea rows={3} value={form.description} onChange={(e) => set({ description: e.target.value })} /></label>
       </div>
       <div className="bld__formacts">
         <button className="btn btn--primary" onClick={save} disabled={busy}>{busy ? <RefreshCw size={13} className="pk__spin" /> : <Check size={13} />} Save</button>
