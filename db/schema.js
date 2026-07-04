@@ -184,3 +184,39 @@ export const sessions = sqliteTable('sessions', {
   expiresAt: integer('expires_at').notNull(),
   createdAt: integer('created_at').notNull().$defaultFn(now),
 }, (t) => ({ byUser: index('sess_user').on(t.userId) }))
+
+// ── country builder (staging workspace) ──────────────────────────────────────
+// The builder drafts a new country here stage by stage; a final export writes
+// Italy-identical JSON into public/data/{country}. Nested content (a region's
+// history, a place's activities/food) lives as JSON on the row for that stage.
+export const builds = sqliteTable('builds', {
+  countryId: text('country_id').primaryKey(),
+  name: text('name').notNull(),
+  flag: text('flag'),
+  blurb: text('blurb'),
+  stage: integer('stage').notNull().default(0),
+  guides: text('guides', { mode: 'json' }).$type().default(sql`'{}'`),  // festivals/history/food/transport
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+  updatedAt: integer('updated_at').notNull().$defaultFn(now),
+})
+export const buildRegions = sqliteTable('build_regions', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  countryId: text('country_id').notNull().references(() => builds.countryId, { onDelete: 'cascade' }),
+  regionId: text('region_id').notNull(),
+  data: text('data', { mode: 'json' }).$type().notNull(),
+  placesDone: integer('places_done').notNull().default(0),
+  sort: integer('sort').notNull().default(0),
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+  updatedAt: integer('updated_at').notNull().$defaultFn(now),
+}, (t) => ({ uq: uniqueIndex('build_region_uq').on(t.countryId, t.regionId) }))
+export const buildPlaces = sqliteTable('build_places', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  countryId: text('country_id').notNull().references(() => builds.countryId, { onDelete: 'cascade' }),
+  regionId: text('region_id').notNull(),
+  placeId: text('place_id').notNull(),
+  data: text('data', { mode: 'json' }).$type().notNull(),
+  image: text('image', { mode: 'json' }).$type(),
+  sort: integer('sort').notNull().default(0),
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+  updatedAt: integer('updated_at').notNull().$defaultFn(now),
+}, (t) => ({ uq: uniqueIndex('build_place_uq').on(t.countryId, t.regionId, t.placeId) }))

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Download, Pencil, Trash2, ArrowUpRight,
-  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles, Globe2, MessageSquare } from 'lucide-react'
+  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
@@ -17,6 +17,7 @@ import AdminSeo from '../components/admin/AdminSeo.jsx'
 import AdminGallery from '../components/admin/AdminGallery.jsx'
 import AdminComments from '../components/admin/AdminComments.jsx'
 import AdminStats from '../components/admin/AdminStats.jsx'
+import AdminBuilder from '../components/admin/AdminBuilder.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
 import AdminAi from '../components/admin/AdminAi.jsx'
@@ -33,6 +34,7 @@ const SECTIONS = [
   { id: 'comments', label: 'Comments', icon: MessageSquare },
   { id: 'seo', label: 'SEO', icon: Globe },
   { id: 'ai', label: 'AI', icon: Sparkles },
+  { id: 'builder', label: 'Country builder', icon: Hammer },
   { id: 'export', label: 'Export', icon: FileJson },
 ]
 
@@ -89,6 +91,7 @@ export default function AdminScreen() {
         {section === 'comments' && <AdminComments />}
         {section === 'seo' && <AdminSeo />}
         {section === 'ai' && <AdminAi />}
+        {section === 'builder' && <AdminBuilder />}
         {section === 'export' && <AdminExport regions={regions} />}
       </main>
     </div>

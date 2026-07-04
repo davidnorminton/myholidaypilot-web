@@ -42,6 +42,16 @@ export const api = {
     remove: (regionId, placeId) => req('DELETE', `/favourites?regionId=${encodeURIComponent(regionId)}&placeId=${encodeURIComponent(placeId)}`),
   },
   stats: () => req('GET', '/stats'),
+  builder: {
+    list: () => req('GET', '/builder'),
+    get: (country) => req('GET', `/builder?country=${country}`),
+    region: (country, region) => req('GET', `/builder?country=${country}&region=${region}`),
+    create: (payload) => req('POST', '/builder?action=create', payload),
+    genRegions: (country) => req('POST', `/builder?action=regions&country=${country}`),
+    saveRegion: (country, region, data) => req('PATCH', `/builder?type=region&country=${country}&region=${region}`, { data }),
+    savePlace: (country, region, place, data, image) => req('PATCH', `/builder?type=place&country=${country}&region=${region}&place=${place}`, { data, image }),
+    discard: (country) => req('DELETE', `/builder?country=${country}`),
+  },
   commentsAdmin: {
     list: () => req('GET', '/comments?admin=1'),
     setStatus: (id, status) => req('PATCH', '/comments', { id, status }),
