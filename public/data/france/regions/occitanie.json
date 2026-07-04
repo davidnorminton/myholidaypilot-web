@@ -1,0 +1,1785 @@
+{
+  "id": "occitanie",
+  "name": "Occitania",
+  "nameIt": "Occitanie",
+  "capital": "Toulouse",
+  "lat": 43.6,
+  "lng": 1.4,
+  "emoji": "🏔️",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": 44.7,
+    "south": 42.29,
+    "east": 4.44,
+    "west": -0.36
+  },
+  "history": "Occitania encompasses the vast territories of southern France that were historically part of the Kingdom of Aragon and various independent counties before French annexation. The region was a major center of medieval culture, particularly during the flourishing of troubadour poetry and courtly love traditions in the 12th and 13th centuries. The Albigensian Crusade of the early 13th century devastated the Cathar heresy movement centered in these lands, profoundly reshaping the region's religious and political landscape. By the 17th century, Occitania was fully integrated into the French state, though it retained distinct linguistic and cultural characteristics.",
+  "culturalNotes": "Occitania is renowned for its vibrant Occitan language and culture, which persists in local traditions, festivals, and regional pride distinct from northern French identity. The region is celebrated for its medieval architecture, including remarkable fortified cities and the stunning Cathar castles perched on dramatic cliffsides. Local gastronomy reflects Mediterranean and mountain influences, featuring cassoulet, foie gras, and wines from renowned appellations like Gaillac and Languedoc, while summer festivals and bullfighting traditions continue to animate its communities.",
+  "bestTimeToVisit": "May to October for Pyrenees hiking, medieval villages, and Canal du Midi exploration.",
+  "languageNotes": "Occitan, a Romance language spoken by minorities throughout the region, remains an important symbol of local identity, though French is the primary language. Useful local phrases include 'Adieu' for goodbye and 'Vole' for hello, reflecting the enduring presence of this ancient linguistic heritage.",
+  "generatedAt": "2026-07-04T19:47:37.233Z",
+  "placeCount": 15,
+  "places": [
+    {
+      "id": "toulouse",
+      "name": "Toulouse",
+      "nameIt": "Tolosa",
+      "lat": 43.6047,
+      "lng": 1.4442,
+      "type": "CITY",
+      "description": "The vibrant capital of Occitania, known as the Pink City for its distinctive terracotta brick buildings that line the Garonne River. It's a dynamic cultural hub with a rich medieval past, excellent museums, and a lively student atmosphere that makes it one of southern France's most engaging cities.",
+      "imageQueries": [
+        "Toulouse pink city Garonne",
+        "Toulouse cathedral Place du Capitole"
+      ],
+      "activities": [
+        {
+          "id": "toul_1",
+          "text": "Basilica of Saint-Sernin",
+          "detail": "Explore one of Europe's finest Romanesque churches, famous for its imposing brick tower and remarkable interior housing precious reliquaries.",
+          "lat": 43.3036,
+          "lng": 1.4422
+        },
+        {
+          "id": "toul_2",
+          "text": "Capitole Palace & Square",
+          "detail": "Visit the stunning Renaissance town hall dominating the main square, with its grand façade and ornate interiors reflecting Toulouse's civic pride.",
+          "lat": 43.305,
+          "lng": 1.4425
+        },
+        {
+          "id": "toul_3",
+          "text": "Canal du Midi Towpath Walk",
+          "detail": "Stroll or cycle along the UNESCO-listed 17th-century canal lined with plane trees, connecting Toulouse to the Mediterranean.",
+          "lat": 43.3033,
+          "lng": 1.4467
+        },
+        {
+          "id": "toul_4",
+          "text": "Musée des Augustins",
+          "detail": "Discover Romanesque sculpture, medieval art, and paintings in this former Augustinian monastery with a tranquil cloister.",
+          "lat": 43.305,
+          "lng": 1.4356
+        },
+        {
+          "id": "toul_5",
+          "text": "Garonne River Promenade",
+          "detail": "Walk along the leafy banks of the Garonne to admire the pink brick buildings reflected in the water and enjoy riverside cafés.",
+          "lat": 43.302,
+          "lng": 1.445
+        },
+        {
+          "id": "toul_6",
+          "text": "Cité de l'Espace",
+          "detail": "Tour this interactive space museum featuring a retired Mir space station module and exhibits on space exploration and astronomy.",
+          "lat": 43.5284,
+          "lng": 1.5041
+        }
+      ],
+      "food": [
+        {
+          "id": "toul_f1",
+          "text": "Cassoulet Toulousain",
+          "detail": "A hearty bean and duck confit stew that originated in the Occitania region, considered Toulouse's most iconic dish and perfect comfort food."
+        },
+        {
+          "id": "toul_f2",
+          "text": "Saucisse de Toulouse",
+          "detail": "Fresh, coarse-textured pork sausage flavored with garlic and spices, grilled or used in cassoulet, available at every market and butcher."
+        },
+        {
+          "id": "toul_f3",
+          "text": "Foie Gras",
+          "detail": "Creamy duck or goose liver pâté, a luxury delicacy from the broader Occitania region, served as terrine or seared at fine restaurants."
+        },
+        {
+          "id": "toul_f4",
+          "text": "Violettes de Toulouse",
+          "detail": "Candied violet flowers that became a symbol of the city, these sweet treats are available at specialty shops and make popular souvenirs."
+        },
+        {
+          "id": "toul_f5",
+          "text": "Garbure",
+          "detail": "A rustic vegetable and meat soup from southwestern France, often featuring cabbage, beans, and preserved duck, warming and deeply flavored."
+        }
+      ],
+      "culture": [
+        {
+          "id": "toul_c1",
+          "text": "Embrace café culture",
+          "detail": "Toulouse residents spend hours lingering over coffee or apéritif drinks at outdoor café tables, treating them as social spaces rather than quick stops."
+        },
+        {
+          "id": "toul_c2",
+          "text": "Expect bicycles everywhere",
+          "detail": "The city has invested heavily in cycling infrastructure, and locals use bikes for daily transport; be aware of bike lanes when walking."
+        },
+        {
+          "id": "toul_c3",
+          "text": "Learn about the Albigensian Crusade",
+          "detail": "Understanding this 13th-century religious conflict that shaped the region adds depth to understanding Toulouse's medieval history and monuments."
+        },
+        {
+          "id": "toul_c4",
+          "text": "Visit markets in the morning",
+          "detail": "French markets operate early and close by early afternoon; arrive by 10 AM to experience the best selection and authentic local shopping rhythm."
+        }
+      ]
+    },
+    {
+      "id": "carcassonne",
+      "name": "Carcassonne",
+      "nameIt": "Carcassona",
+      "lat": 43.2111,
+      "lng": 2.3637,
+      "type": "TOWN",
+      "description": "A spectacular medieval fortress town crowned by double ramparts and dramatic towers, perched above the Aude River valley. Its walled old town is one of Europe's finest examples of medieval military architecture and a UNESCO World Heritage Site that captivates visitors with its fairy-tale appearance.",
+      "imageQueries": [
+        "Carcassonne fortress walls sunset",
+        "Carcassonne medieval citadel"
+      ],
+      "activities": [
+        {
+          "id": "carc_1",
+          "text": "Walk the Ramparts",
+          "detail": "Traverse the double walls and 52 towers of the fortress for panoramic views of the Aude valley and the Pyrenees beyond.",
+          "lat": 43.2127,
+          "lng": 2.3636
+        },
+        {
+          "id": "carc_2",
+          "text": "Explore Château Comtal",
+          "detail": "Tour this 12th-century count's castle within the citadel, featuring a museum of medieval sculpture and original defensive architecture.",
+          "lat": 43.2135,
+          "lng": 2.365
+        },
+        {
+          "id": "carc_3",
+          "text": "Visit the Basilica of Saint-Nazaire",
+          "detail": "Marvel at this stunning Gothic-Romanesque church with intricate stained glass windows and a rose window dating from the 14th century.",
+          "lat": 43.212,
+          "lng": 2.3645
+        },
+        {
+          "id": "carc_4",
+          "text": "Stroll the Rue Cros-Mayrevieille",
+          "detail": "Wander this charming medieval street lined with shops, cafés, and artisan boutiques that capture the atmosphere of the old town.",
+          "lat": 43.2125,
+          "lng": 2.364
+        },
+        {
+          "id": "carc_5",
+          "text": "Picnic at the Aude River Banks",
+          "detail": "Relax below the fortress at this scenic spot offering views of the ramparts reflected in the water.",
+          "lat": 43.209,
+          "lng": 2.365
+        },
+        {
+          "id": "carc_6",
+          "text": "Day Trip to Lastours Castles",
+          "detail": "Visit four interconnected medieval ruins perched on a dramatic ridge 20 minutes away, offering stunning hiking and photography opportunities.",
+          "lat": 43.3667,
+          "lng": 2.2
+        }
+      ],
+      "food": [
+        {
+          "id": "carc_f1",
+          "text": "Cassoulet",
+          "detail": "This UNESCO-protected slow-cooked bean stew with duck confit, pork, and local sausage is a hearty regional specialty that defines Occitanian comfort food."
+        },
+        {
+          "id": "carc_f2",
+          "text": "Blanquette de Limoux",
+          "detail": "A creamy white wine-based stew of chicken or veal with mushrooms and pearl onions from the nearby Limoux region, often served with local wine."
+        },
+        {
+          "id": "carc_f3",
+          "text": "Crème Catalane",
+          "detail": "This rich custard-based dessert flavored with cinnamon and vanilla is a beloved treat traditionally eaten during local festivals."
+        },
+        {
+          "id": "carc_f4",
+          "text": "Flaune",
+          "detail": "A traditional Easter pastry filled with cheese, eggs, and herbs wrapped in fruit leaves, representing medieval Catalan heritage."
+        },
+        {
+          "id": "carc_f5",
+          "text": "Limoux Sparkling Wine Tasting",
+          "detail": "Sample Blanquette de Limoux or Crémant de Limoux from local producers just 15 kilometers away, the region's celebrated sparkling wine tradition."
+        }
+      ],
+      "culture": [
+        {
+          "id": "carc_c1",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "The citadel becomes crowded by midday, so arrive by 9 AM or after 5 PM to experience the ramparts and streets with fewer tourists and better photography light."
+        },
+        {
+          "id": "carc_c2",
+          "text": "Respect Medieval Street Protocols",
+          "detail": "The walled town has narrow streets designed for foot traffic; avoid blocking passages and be aware that many shops close between 12-3 PM for siesta."
+        },
+        {
+          "id": "carc_c3",
+          "text": "Attend a Midsummer Festival",
+          "detail": "The Fête Médiévale in summer brings period costumes, tournaments, and traditional music to the fortress, celebrating local heritage with authentic ceremony."
+        },
+        {
+          "id": "carc_c4",
+          "text": "Learn Basic French Courtesies",
+          "detail": "Greet shopkeepers with 'Bonjour' and say 'Au revoir' when leaving; politeness is especially valued in small medieval towns where tourism etiquette matters."
+        }
+      ]
+    },
+    {
+      "id": "montpellier",
+      "name": "Montpellier",
+      "nameIt": "Montpelhièr",
+      "lat": 43.6108,
+      "lng": 3.8767,
+      "type": "CITY",
+      "description": "A lively university city near the Mediterranean coast with elegant 18th-century architecture and a thriving contemporary arts scene. The Promenade du Peyrou offers commanding views, while the well-preserved old town mixes historic mansions with vibrant modern culture.",
+      "imageQueries": [
+        "Montpellier Promenade du Peyrou",
+        "Montpellier Place de la Comédie"
+      ],
+      "activities": [
+        {
+          "id": "mont_1",
+          "text": "Promenade du Peyrou",
+          "detail": "A grand 18th-century esplanade with panoramic views over the city and toward the Mediterranean, featuring an equestrian statue of Louis XIV and a water tower.",
+          "lat": 43.6108,
+          "lng": 3.8767
+        },
+        {
+          "id": "mont_2",
+          "text": "Musée Fabre",
+          "detail": "One of France's finest art museums housing an impressive collection from medieval times through contemporary works, with particular strength in 17th-century paintings.",
+          "lat": 43.6087,
+          "lng": 3.881
+        },
+        {
+          "id": "mont_3",
+          "text": "Old Town (Écusson)",
+          "detail": "A charming medieval quarter with narrow winding streets, Renaissance mansions (hôtels particuliers), and lively cafés housed within the old town walls.",
+          "lat": 43.6102,
+          "lng": 3.8845
+        },
+        {
+          "id": "mont_4",
+          "text": "Château de Flaugergues",
+          "detail": "A stunning 18th-century aristocratic residence surrounded by vineyards just outside the city, offering wine tastings and views of the Cevennes mountains.",
+          "lat": 43.5925,
+          "lng": 3.8542
+        },
+        {
+          "id": "mont_5",
+          "text": "Antigone District",
+          "detail": "A striking postmodern urban development designed by Ricardo Bofill in the 1980s, featuring neoclassical-inspired architecture and public spaces.",
+          "lat": 43.5993,
+          "lng": 3.8965
+        },
+        {
+          "id": "mont_6",
+          "text": "Jardin des Plantes",
+          "detail": "One of France's oldest botanical gardens, established in 1593, featuring Mediterranean and exotic plants in a peaceful setting.",
+          "lat": 43.6129,
+          "lng": 3.8704
+        }
+      ],
+      "food": [
+        {
+          "id": "mont_f1",
+          "text": "Brandade de Morue",
+          "detail": "A creamy, traditional Occitan dish of salt cod purée mixed with olive oil and sometimes potatoes, typically served warm on bread or as an appetizer."
+        },
+        {
+          "id": "mont_f2",
+          "text": "Tielles",
+          "detail": "Thin pastry pockets stuffed with octopus or squid, onions, and spices, a specialty from nearby Sète that reflects the region's seafaring heritage."
+        },
+        {
+          "id": "mont_f3",
+          "text": "Cassoulet",
+          "detail": "A hearty bean stew with duck, pork, and sausage originating from nearby Languedoc, best enjoyed in autumn and winter months."
+        },
+        {
+          "id": "mont_f4",
+          "text": "Muscat de Frontignan",
+          "detail": "A sweet fortified wine from the nearby Frontignan region, traditionally served as an aperitif or dessert wine, with floral and citrus notes."
+        },
+        {
+          "id": "mont_f5",
+          "text": "Flaune",
+          "detail": "A traditional Easter pastry filled with cheese, eggs, and herbs wrapped in fig leaves, representing local culinary heritage passed through generations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mont_c1",
+          "text": "University City Pace",
+          "detail": "Montpellier has a young, energetic vibe due to its large student population; expect vibrant nightlife, informal dining, and a casual atmosphere especially around Place de la Comédie."
+        },
+        {
+          "id": "mont_c2",
+          "text": "Afternoon Closures",
+          "detail": "Many smaller shops and some restaurants close between 12:30 and 15:00 for lunch, so plan accordingly and embrace the Mediterranean tradition of a leisurely midday break."
+        },
+        {
+          "id": "mont_c3",
+          "text": "Tram Etiquette",
+          "detail": "The free tram system is heavily used by locals; validate your ticket and keep to the right side of escalators, following the city's efficient public transport culture."
+        },
+        {
+          "id": "mont_c4",
+          "text": "Wine as Social Currency",
+          "detail": "Languedoc wines are integral to local identity and affordable; dining companions often discuss wine selections, so showing interest in the regional varietals is culturally appreciated."
+        }
+      ]
+    },
+    {
+      "id": "albi",
+      "name": "Albi",
+      "nameIt": "Albi",
+      "lat": 43.9273,
+      "lng": 2.1439,
+      "type": "TOWN",
+      "description": "A striking red-brick cathedral town on the Tarn River, dominated by the imposing Cathédrale Sainte-Cécile, one of the largest brick buildings in the world. The charming historic quarter with narrow streets and riverside gardens combines with the exceptional Toulouse-Lautrec Museum to make it an essential stop.",
+      "imageQueries": [
+        "Albi Cathédrale Sainte-Cécile",
+        "Albi Tarn river red brick"
+      ],
+      "activities": [
+        {
+          "id": "albi_1",
+          "text": "Cathédrale Sainte-Cécile",
+          "detail": "Explore this stunning 13th-century red-brick cathedral, one of the world's largest brick buildings, famous for its ornate interior decorations and vast nave.",
+          "lat": 43.9281,
+          "lng": 2.1421
+        },
+        {
+          "id": "albi_2",
+          "text": "Toulouse-Lautrec Museum",
+          "detail": "Visit the world's largest collection of Henri de Toulouse-Lautrec's works in the Palais de la Berbie, housed in a fortified archbishop's palace overlooking the Tarn.",
+          "lat": 43.9275,
+          "lng": 2.1382
+        },
+        {
+          "id": "albi_3",
+          "text": "Old Town Wandering",
+          "detail": "Navigate the narrow medieval streets of the historic quarter with half-timbered houses, hidden courtyards, and charming local shops in the heart of Albi.",
+          "lat": 43.929,
+          "lng": 2.143
+        },
+        {
+          "id": "albi_4",
+          "text": "Tarn River Gardens",
+          "detail": "Stroll along the riverside gardens and tree-lined paths that frame the cathedral with scenic views and peaceful green spaces perfect for relaxation.",
+          "lat": 43.93,
+          "lng": 2.145
+        },
+        {
+          "id": "albi_5",
+          "text": "Pont Vieux",
+          "detail": "Cross the picturesque Old Bridge, a 11th-century stone span offering classic views of the cathedral and historic waterfront from multiple angles.",
+          "lat": 43.9305,
+          "lng": 2.136
+        },
+        {
+          "id": "albi_6",
+          "text": "College of Saint-Salvy",
+          "detail": "Discover this former Jesuit college with its remarkable courtyard and Renaissance architecture nestled in the old town's quieter streets.",
+          "lat": 43.927,
+          "lng": 2.141
+        }
+      ],
+      "food": [
+        {
+          "id": "albi_f1",
+          "text": "Cassoulet",
+          "detail": "This hearty regional cassole of white beans, duck confit, and Toulouse sausage is a must-try winter specialty reflecting Occitan culinary heritage."
+        },
+        {
+          "id": "albi_f2",
+          "text": "Pastel Albigeois",
+          "detail": "A traditional pastry-wrapped meat pie filled with pork, veal, and herbs that reflects Albi's medieval merchant traditions and remains a local pride."
+        },
+        {
+          "id": "albi_f3",
+          "text": "Tarn River Trout",
+          "detail": "Fresh trout caught from the Tarn and prepared simply with local herbs is a seasonal delicacy found in riverside restaurants throughout the town."
+        },
+        {
+          "id": "albi_f4",
+          "text": "Garbure",
+          "detail": "A hearty vegetable and meat soup thick with cabbage, potatoes, and local pork that embodies rustic Occitan comfort food at its finest."
+        },
+        {
+          "id": "albi_f5",
+          "text": "Vin de Gaillac",
+          "detail": "The nearby Gaillac wine region produces distinctive local wines worth tasting, from whites and reds to sparkling varieties available at local wine bars."
+        }
+      ],
+      "culture": [
+        {
+          "id": "albi_c1",
+          "text": "River Town Pace",
+          "detail": "Albi moves at a relaxed riverside rhythm; plan to linger in cafés along the water and allow extra time for exploring the medieval streets without rushing."
+        },
+        {
+          "id": "albi_c2",
+          "text": "Brick Architecture Pride",
+          "detail": "The locals take great pride in Albi's distinctive red-brick construction and UNESCO heritage status, so express genuine appreciation for the architectural craftsmanship."
+        },
+        {
+          "id": "albi_c3",
+          "text": "Market Day Culture",
+          "detail": "Visit on Saturday mornings when the town square fills with fresh produce and local goods vendors; this is when locals gather and the town reveals its authentic character."
+        },
+        {
+          "id": "albi_c4",
+          "text": "Toulouse-Lautrec Connection",
+          "detail": "The artist was born in Albi and remains a cultural icon here; understanding his life and art adds meaningful context to your visit and local conversations."
+        }
+      ]
+    },
+    {
+      "id": "peyrepertuse",
+      "name": "Peyrepertuse",
+      "nameIt": "Peyrepertusa",
+      "lat": 42.8686,
+      "lng": 2.5511,
+      "type": "LANDMARK",
+      "description": "A dramatic clifftop castle ruin perched high above the Cathar lands, offering breathtaking views across the Pyrenean foothills and ravines. This imposing fortress is one of the most spectacularly situated castles in France and a key monument of Cathar history.",
+      "imageQueries": [
+        "Peyrepertuse castle clifftop",
+        "Peyrepertuse Cathar fortress aerial"
+      ],
+      "activities": [
+        {
+          "id": "peyr_1",
+          "text": "Explore the Upper Castle Ruins",
+          "detail": "Climb through the narrow passages and towers of the upper fortress to discover dungeons, guardrooms, and panoramic viewpoints across the Corbières valleys.",
+          "lat": 42.8447,
+          "lng": 2.6756
+        },
+        {
+          "id": "peyr_2",
+          "text": "Walk the Rampart Circuit",
+          "detail": "Follow the well-maintained footpath around the castle's outer walls for unobstructed views of the surrounding Pyrenean foothills and the Aude River gorge.",
+          "lat": 42.8447,
+          "lng": 2.6756
+        },
+        {
+          "id": "peyr_3",
+          "text": "Visit the Lower Courtyard Museum",
+          "detail": "Examine artifacts and interpretive displays in the lower fortress area that explain the castle's Cathar heritage and 13th-century siege history.",
+          "lat": 42.8443,
+          "lng": 2.6753
+        },
+        {
+          "id": "peyr_4",
+          "text": "Hike to Nearby Quéribus Castle",
+          "detail": "Undertake the challenging 2-hour trek to the neighboring Quéribus fortress for a comparison of two dramatic Cathar strongholds and extended ridge-line vistas.",
+          "lat": 42.8506,
+          "lng": 2.6894
+        },
+        {
+          "id": "peyr_5",
+          "text": "Photograph Sunset from the Donjon",
+          "detail": "Time your visit to catch the golden hour light striking the main keep tower, creating stunning photography opportunities of the castle against the Pyrenean backdrop.",
+          "lat": 42.8447,
+          "lng": 2.6756
+        },
+        {
+          "id": "peyr_6",
+          "text": "Attend Seasonal History Lectures",
+          "detail": "Check for summer evening talks delivered by local historians in the lower courtyard that cover Cathar history and medieval siege warfare.",
+          "lat": 42.8443,
+          "lng": 2.6753
+        }
+      ],
+      "food": [
+        {
+          "id": "peyr_f1",
+          "text": "Cassoulet de Castelnaudary",
+          "detail": "This slow-cooked bean stew with duck confit and sausage is a signature Occitan dish found in every local restaurant near Peyrepertuse."
+        },
+        {
+          "id": "peyr_f2",
+          "text": "Escargots à la Languedocienne",
+          "detail": "Snails prepared with garlic, parsley, and local herbs reflect the Languedoc region's pastoral traditions and are commonly served in village bistros."
+        },
+        {
+          "id": "peyr_f3",
+          "text": "Corbières Wine",
+          "detail": "The nearby Corbières wine region produces robust red wines from ancient vineyards that pair perfectly with regional game dishes."
+        },
+        {
+          "id": "peyr_f4",
+          "text": "Aligot",
+          "detail": "This creamy potato and cheese dish from the foothills is a warming comfort food served in restaurants throughout the Cathar region."
+        },
+        {
+          "id": "peyr_f5",
+          "text": "Trout from the Aude River",
+          "detail": "Fresh-caught trout from the river gorge below the castle is grilled simply with local herbs at traditional mountain auberges."
+        }
+      ],
+      "culture": [
+        {
+          "id": "peyr_c1",
+          "text": "Arrive Early to Beat Crowds",
+          "detail": "Summer weekends draw significant tourist traffic; arriving by 9 a.m. ensures peaceful exploration and better photography light on the ruins."
+        },
+        {
+          "id": "peyr_c2",
+          "text": "Respect Cathar Heritage Sites",
+          "detail": "The castle is a sacred monument to Cathar history and modern Cathars; speak respectfully about the 13th-century persecution when discussing the site with locals."
+        },
+        {
+          "id": "peyr_c3",
+          "text": "Wear Sturdy Hiking Boots",
+          "detail": "The approach path and internal castle grounds are steep, uneven, and occasionally slippery; proper footwear is essential for safe navigation."
+        },
+        {
+          "id": "peyr_c4",
+          "text": "Learn Basic Occitan Phrases",
+          "detail": "Greeting locals with a few words of Occitan or French shows respect for regional identity and may yield warmer interactions with village shopkeepers and guides."
+        }
+      ]
+    },
+    {
+      "id": "beziers",
+      "name": "Béziers",
+      "nameIt": "Besièrs",
+      "lat": 43.3441,
+      "lng": 3.2181,
+      "type": "CITY",
+      "description": "An ancient wine city overlooking the Canal du Midi, famous for its historic cathedral perched dramatically above the town and its important role in regional wine production. The elegant boulevards, riverside setting, and proximity to Mediterranean beaches make it a well-rounded destination.",
+      "imageQueries": [
+        "Béziers cathedral overlooking town",
+        "Béziers Canal du Midi"
+      ],
+      "activities": [
+        {
+          "id": "bezi_1",
+          "text": "Cathédrale Saint-Nazaire",
+          "detail": "Explore this stunning 13th-century Gothic cathedral perched dramatically on a cliff overlooking the town, offering breathtaking views and ornate interior details.",
+          "lat": 43.3414,
+          "lng": 3.2196
+        },
+        {
+          "id": "bezi_2",
+          "text": "Canal du Midi walk",
+          "detail": "Stroll or cycle along this UNESCO World Heritage canal lined with plane trees, connecting the Mediterranean to the Atlantic with charming locks and riverside cafés.",
+          "lat": 43.3389,
+          "lng": 3.2275
+        },
+        {
+          "id": "bezi_3",
+          "text": "Musée du Biterrois",
+          "detail": "Discover the region's history, archaeology, and wine culture through diverse collections in this comprehensive local museum.",
+          "lat": 43.3416,
+          "lng": 3.2182
+        },
+        {
+          "id": "bezi_4",
+          "text": "Wine tastings in local caves",
+          "detail": "Visit traditional wine cellars throughout Béziers to taste Languedoc wines, from robust reds to crisp whites produced in the surrounding vineyards.",
+          "lat": 43.3408,
+          "lng": 3.2158
+        },
+        {
+          "id": "bezi_5",
+          "text": "Allées Paul Riquet",
+          "detail": "Relax in this elegant tree-lined avenue in the town center, a perfect spot for cafés, shopping, and people-watching with Belle Époque charm."
+        },
+        {
+          "id": "bezi_6",
+          "text": "Réserve Africaine de Sigean",
+          "detail": "Visit this drive-through safari park just 25 kilometers away featuring African wildlife in a Mediterranean setting."
+        }
+      ],
+      "food": [
+        {
+          "id": "bezi_f1",
+          "text": "Languedoc wine and local charcuterie",
+          "detail": "Pair robust regional red wines with traditional cured meats like saucisson sec and jambon de pays for an authentic taste of local terroir."
+        },
+        {
+          "id": "bezi_f2",
+          "text": "Cassoulet",
+          "detail": "Savor this hearty slow-cooked bean and meat stew that defines Occitan comfort food, traditionally made with duck or pork."
+        },
+        {
+          "id": "bezi_f3",
+          "text": "Brandade de morue",
+          "detail": "Try this creamy salt cod purée blended with garlic and olive oil, a Mediterranean specialty served as an appetizer or light main."
+        },
+        {
+          "id": "bezi_f4",
+          "text": "Flaune (or Flaune biterroise)",
+          "detail": "Sample this traditional Easter pastry filled with candied fruits, cheese, and anise from Béziers' distinctive pastry heritage."
+        },
+        {
+          "id": "bezi_f5",
+          "text": "Fresh Mediterranean seafood",
+          "detail": "Enjoy locally caught fish and shellfish prepared simply with local olive oil, garlic, and herbs at waterfront restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bezi_c1",
+          "text": "Feria de Béziers timing",
+          "detail": "Visit in August for the famous bullfighting festival and street celebrations, or avoid mid-August if you prefer a quieter experience as locals escape the summer heat."
+        },
+        {
+          "id": "bezi_c2",
+          "text": "Slow pace and lunch culture",
+          "detail": "Embrace the long lunch tradition; shops close between noon and 2 PM, and restaurants expect diners to linger for leisurely meals."
+        },
+        {
+          "id": "bezi_c3",
+          "text": "Wine respect and knowledge",
+          "detail": "Locals take their wine seriously—show genuine interest when visiting caves, and avoid dismissing regional wines as the Languedoc has earned international recognition."
+        },
+        {
+          "id": "bezi_c4",
+          "text": "River and canal etiquette",
+          "detail": "The Orb River and Canal du Midi are cherished community spaces; respect posted hours for swimming areas and keep noise levels low in residential sections."
+        }
+      ]
+    },
+    {
+      "id": "pont_du_gard",
+      "name": "Pont du Gard",
+      "nameIt": "Pont du Gard",
+      "lat": 43.9476,
+      "lng": 4.5341,
+      "type": "LANDMARK",
+      "description": "An extraordinarily well-preserved three-tiered Roman aqueduct spanning the Gardon River, a masterpiece of engineering from the 1st century AD. It's one of the most impressive Roman structures in the world and a UNESCO World Heritage Site that showcases ancient Roman ingenuity.",
+      "imageQueries": [
+        "Pont du Gard Roman aqueduct",
+        "Pont du Gard Gardon river"
+      ],
+      "activities": [
+        {
+          "id": "pont_1",
+          "text": "Walk across the aqueduct",
+          "detail": "Traverse the top tier of the three-level structure for breathtaking views of the Gardon River and surrounding countryside.",
+          "lat": 43.9462,
+          "lng": 4.5355
+        },
+        {
+          "id": "pont_2",
+          "text": "Explore the museum complex",
+          "detail": "Visit the underground museum beneath the aqueduct to learn about Roman engineering, water systems, and the monument's 2,000-year history.",
+          "lat": 43.9462,
+          "lng": 4.5355
+        },
+        {
+          "id": "pont_3",
+          "text": "Swim in the Gardon River",
+          "detail": "Cool off in the shallow, clear waters directly beneath the aqueduct during summer months, a popular local activity.",
+          "lat": 43.9462,
+          "lng": 4.5355
+        },
+        {
+          "id": "pont_4",
+          "text": "Photograph from the eastern bank",
+          "detail": "Capture iconic images of the entire three-tiered structure from the opposite riverbank, particularly stunning at sunset.",
+          "lat": 43.9461,
+          "lng": 4.5375
+        },
+        {
+          "id": "pont_5",
+          "text": "Hike the Gardon River trail",
+          "detail": "Follow scenic walking paths along the river gorge with multiple viewpoints of the aqueduct and surrounding Provençal landscape.",
+          "lat": 43.945,
+          "lng": 4.53
+        },
+        {
+          "id": "pont_6",
+          "text": "Visit Remoulins village market",
+          "detail": "Browse the weekly markets in the nearby town of Remoulins for local produce, crafts, and regional specialties.",
+          "lat": 43.9333,
+          "lng": 4.5667
+        }
+      ],
+      "food": [
+        {
+          "id": "pont_f1",
+          "text": "Brandade de Nîmes",
+          "detail": "A creamy emulsion of salted cod, olive oil, and garlic originating from nearby Nîmes, often served as an appetizer with bread or vegetables."
+        },
+        {
+          "id": "pont_f2",
+          "text": "Tapenade",
+          "detail": "A classic Provençal spread made from black or green olives, capers, and anchovies, reflecting the region's Mediterranean heritage."
+        },
+        {
+          "id": "pont_f3",
+          "text": "Picodon cheese",
+          "detail": "A small, tangy goat cheese from the nearby Drôme region with a distinctive peppery flavor, often enjoyed with local wine."
+        },
+        {
+          "id": "pont_f4",
+          "text": "Côtes du Rhône wine",
+          "detail": "Sample the renowned red and rosé wines from the Rhône Valley vineyards surrounding the monument area."
+        },
+        {
+          "id": "pont_f5",
+          "text": "Bouillabaisse",
+          "detail": "A traditional Mediterranean fish stew with saffron and rouille, reflecting the region's proximity to Provençal coastal influences."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pont_c1",
+          "text": "Visit early morning or late afternoon",
+          "detail": "Arrive before 10 AM or after 5 PM to avoid large tour groups and experience the aqueduct in peaceful lighting conditions."
+        },
+        {
+          "id": "pont_c2",
+          "text": "Respect the heritage site rules",
+          "detail": "Stay on designated paths, do not climb on the structure itself, and be mindful of the monument's fragility despite its ancient durability."
+        },
+        {
+          "id": "pont_c3",
+          "text": "Learn the Roman engineering story",
+          "detail": "Understanding the aqueduct's role in supplying water to Nîmes 50 kilometers away enriches appreciation for this feat of ancient innovation."
+        },
+        {
+          "id": "pont_c4",
+          "text": "Embrace outdoor picnicking culture",
+          "detail": "The site welcomes visitors to bring local provisions and enjoy meals by the riverside, a cherished Provençal tradition near historical monuments."
+        }
+      ]
+    },
+    {
+      "id": "nimes",
+      "name": "Nîmes",
+      "nameIt": "Nimes",
+      "lat": 43.8345,
+      "lng": 4.3601,
+      "type": "CITY",
+      "description": "A city of extraordinary Roman heritage, home to the remarkably preserved Maison Carrée temple and an impressive amphitheater rivaling those of Rome. Its blend of ancient monuments, elegant squares, and the stunning Carré d'Art modern art museum creates a compelling contrast of old and new.",
+      "imageQueries": [
+        "Nîmes Maison Carrée temple",
+        "Nîmes Roman amphitheater arena"
+      ],
+      "activities": [
+        {
+          "id": "nime_1",
+          "text": "Explore the Maison Carrée",
+          "detail": "Walk through this remarkably intact first-century Roman temple, one of the best-preserved in the world, now housing a museum dedicated to Roman life in Nîmes.",
+          "lat": 43.8369,
+          "lng": 4.361
+        },
+        {
+          "id": "nime_2",
+          "text": "Visit the Amphitheatre of Nîmes",
+          "detail": "Climb the tiers of this two-story Roman arena built in the first century, which still hosts bullfights and concerts and rivals the Colosseum in grandeur.",
+          "lat": 43.8394,
+          "lng": 4.3655
+        },
+        {
+          "id": "nime_3",
+          "text": "Tour the Carré d'Art Museum",
+          "detail": "Discover contemporary art and design in this striking glass and steel building directly opposite the Maison Carrée, creating a dialogue between ancient and modern.",
+          "lat": 43.8377,
+          "lng": 4.3598
+        },
+        {
+          "id": "nime_4",
+          "text": "Stroll through the Jardins de la Fontaine",
+          "detail": "Wander this elegant 18th-century public garden featuring fountains, tree-lined paths, and views over the city from the Tour Magne, a remnant of Roman fortifications.",
+          "lat": 43.8444,
+          "lng": 4.3564
+        },
+        {
+          "id": "nime_5",
+          "text": "Discover the Musée de la Romanité",
+          "detail": "Explore one of France's finest museums showcasing Roman artifacts, mosaics, and sculptures that tell the story of Nîmes's importance as a major Roman city.",
+          "lat": 43.8389,
+          "lng": 4.3679
+        },
+        {
+          "id": "nime_6",
+          "text": "Admire Place aux Herbes",
+          "detail": "Relax in this charming arcaded square lined with Renaissance buildings, outdoor cafés, and flower markets that exemplify Nîmes's elegant architecture."
+        }
+      ],
+      "food": [
+        {
+          "id": "nime_f1",
+          "text": "Brandade de Morue",
+          "detail": "A creamy salt cod purée mixed with olive oil and garlic, a specialty from nearby Provence that reflects the Mediterranean influence on Nîmes's cuisine."
+        },
+        {
+          "id": "nime_f2",
+          "text": "Taureau à la Gardiane",
+          "detail": "A hearty beef stew with local wine, olives, and traditional Camargue ingredients, celebrating the region's ranching heritage."
+        },
+        {
+          "id": "nime_f3",
+          "text": "Croquettes de Nîmes",
+          "detail": "Local chestnut flour fritters or potato-based snacks, often found at outdoor markets and street vendors throughout the old town."
+        },
+        {
+          "id": "nime_f4",
+          "text": "Poutine Nîmoise",
+          "detail": "Small fried fish from the Rhône, dressed simply with olive oil and served as a light appetizer or snack rather than the Canadian dish of the same name."
+        },
+        {
+          "id": "nime_f5",
+          "text": "Fresh Produce at the Morning Markets",
+          "detail": "Browse Les Halles for Provençal vegetables, goat cheese, and local wines, a daily ritual reflecting the region's agricultural bounty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nime_c1",
+          "text": "Respect Bullfighting Traditions",
+          "detail": "Nîmes celebrates a strong bullfighting heritage with events like the Férias de Nîmes; while controversial, it remains culturally significant to understand its place here."
+        },
+        {
+          "id": "nime_c2",
+          "text": "Explore on Foot in the Old Town",
+          "detail": "The narrow, winding streets of the medieval center are best navigated on foot, revealing hidden squares, fountains, and local shops away from main thoroughfares."
+        },
+        {
+          "id": "nime_c3",
+          "text": "Visit During Feria Season",
+          "detail": "Spring and autumn férias transform Nîmes with parades, music, and festivities; timing your visit around these celebrations offers deeper insight into local culture."
+        },
+        {
+          "id": "nime_c4",
+          "text": "Practice Basic French Courtesy",
+          "detail": "While many in tourist areas speak English, locals appreciate greetings and polite French phrases, and this respect enhances interactions in this traditional French city."
+        }
+      ]
+    },
+    {
+      "id": "sete",
+      "name": "Sète",
+      "nameIt": "Sèta",
+      "lat": 43.3968,
+      "lng": 3.6948,
+      "type": "COASTAL",
+      "description": "A charming Mediterranean fishing port town renowned for its colorful canal-side buildings and vibrant seafood restaurants. The picturesque harbor, beaches, and relaxed seaside atmosphere make it an ideal destination for those seeking authentic coastal charm rather than developed resort tourism.",
+      "imageQueries": [
+        "Sète fishing port colorful boats",
+        "Sète Mediterranean harbor"
+      ],
+      "activities": [
+        {
+          "id": "sete_1",
+          "text": "Stroll the Canal de la Ville",
+          "detail": "Walk along the central canal lined with colorful waterfront buildings and watch fishing boats unload their daily catch at the quays.",
+          "lat": 43.3949,
+          "lng": 3.6978
+        },
+        {
+          "id": "sete_2",
+          "text": "Visit Musée Paul Valéry",
+          "detail": "Explore the clifftop museum dedicated to the symbolist poet Paul Valéry, with panoramic views of the Mediterranean and the harbor.",
+          "lat": 43.4058,
+          "lng": 3.6956
+        },
+        {
+          "id": "sete_3",
+          "text": "Swim at Plage de la Corniche",
+          "detail": "Enjoy sandy beaches along the seafront promenade, popular for swimming and sunbathing with views of the port.",
+          "lat": 43.3964,
+          "lng": 3.6845
+        },
+        {
+          "id": "sete_4",
+          "text": "Climb Mont Saint-Clair",
+          "detail": "Hike to the hilltop overlooking Sète for sweeping vistas of the lagoons, Mediterranean, and surrounding coastline.",
+          "lat": 43.4095,
+          "lng": 3.6921
+        },
+        {
+          "id": "sete_5",
+          "text": "Attend Joutes Nautiques",
+          "detail": "Experience the traditional water jousting tournament held in summer, where competitors in period costume clash on boats.",
+          "lat": 43.3949,
+          "lng": 3.6978
+        },
+        {
+          "id": "sete_6",
+          "text": "Tour the Fishing Fleet at Quai de Lattre de Tassigny",
+          "detail": "Watch the daily fish market and observe working trawlers in one of France's largest Mediterranean fishing ports.",
+          "lat": 43.3933,
+          "lng": 3.6965
+        }
+      ],
+      "food": [
+        {
+          "id": "sete_f1",
+          "text": "Tielles",
+          "detail": "Sète's signature dish of spiced mussels and squid baked in pastry, a savory-sweet pastry that reflects the town's Arabic and Mediterranean influences."
+        },
+        {
+          "id": "sete_f2",
+          "text": "Fresh Grilled Fish",
+          "detail": "Choose from the daily catch at waterfront restaurants serving simply grilled sea bream, sea bass, or sardines caught that morning."
+        },
+        {
+          "id": "sete_f3",
+          "text": "Moule à la Sétoise",
+          "detail": "Local mussels prepared in a rich sauce with white wine, garlic, and herbs, served at canal-side bistros throughout town."
+        },
+        {
+          "id": "sete_f4",
+          "text": "Bourride",
+          "detail": "Traditional Occitan fish stew combining white fish, shellfish, and aioli in a creamy broth, served with crusty bread."
+        },
+        {
+          "id": "sete_f5",
+          "text": "Oursinades",
+          "detail": "A festive sea urchin celebration held in February where locals gather to taste fresh sea urchins with white wine and bread."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sete_c1",
+          "text": "Learn to appreciate the Joutes tradition",
+          "detail": "The water jousting spectacle is deeply rooted in Sète's identity since the 17th century, drawing locals and visitors who view it as essential to the town's character."
+        },
+        {
+          "id": "sete_c2",
+          "text": "Shop at the morning fish market",
+          "detail": "Arrive early at the Quai de Lattre de Tassigny market to see fishmongers and locals selecting the day's catch in a centuries-old ritual."
+        },
+        {
+          "id": "sete_c3",
+          "text": "Embrace the Mediterranean pace",
+          "detail": "Life in Sète follows the rhythm of the sea and tides; expect longer lunch breaks, afternoon closures, and a relaxed approach to schedules that prioritizes leisure."
+        },
+        {
+          "id": "sete_c4",
+          "text": "Speak a few words of Occitan",
+          "detail": "While French is primary, locals appreciate visitors who acknowledge Occitan heritage, the regional Romance language still spoken by some longtime residents."
+        }
+      ]
+    },
+    {
+      "id": "rocamadour",
+      "name": "Rocamadour",
+      "nameIt": "Rocamador",
+      "lat": 44.8061,
+      "lng": 1.6173,
+      "type": "VILLAGE",
+      "description": "A breathtaking pilgrimage village clinging dramatically to a limestone cliff above a river gorge, with sanctuaries and chapels built into the rock itself. Its stacked medieval architecture creates one of France's most visually arresting settings, attracting both spiritual seekers and those drawn to extraordinary landscapes.",
+      "imageQueries": [
+        "Rocamadour cliff village sanctuaries",
+        "Rocamadour gorge pilgrimage"
+      ],
+      "activities": [
+        {
+          "id": "roca_1",
+          "text": "Climb the Grand Staircase",
+          "detail": "Ascend the 216 steps of the sacred staircase carved into the cliff face to reach the sanctuaries, a pilgrimage tradition since medieval times.",
+          "lat": 44.8047,
+          "lng": 1.6158
+        },
+        {
+          "id": "roca_2",
+          "text": "Visit the Sanctuaries",
+          "detail": "Explore the seven chapels and basilicas built directly into the limestone rock, including the Chapelle Miraculeuse and the Basilica of Saint-Sauveur.",
+          "lat": 44.805,
+          "lng": 1.6162
+        },
+        {
+          "id": "roca_3",
+          "text": "Walk the Medieval Streets",
+          "detail": "Wander through the narrow cobblestone alleyways lined with stone houses, shops, and cafés stacked vertically along the cliff.",
+          "lat": 44.8035,
+          "lng": 1.6155
+        },
+        {
+          "id": "roca_4",
+          "text": "Explore the Archaeological Museum",
+          "detail": "Discover artifacts and exhibits documenting Rocamadour's history as a major pilgrimage site since the 12th century.",
+          "lat": 44.804,
+          "lng": 1.615
+        },
+        {
+          "id": "roca_5",
+          "text": "Hike the Gorge Trails",
+          "detail": "Trek along paths through the Alzou River gorge for panoramic views of the village clinging impossibly to the cliffside.",
+          "lat": 44.798,
+          "lng": 1.62
+        },
+        {
+          "id": "roca_6",
+          "text": "Visit the Sanctuary of Our Lady",
+          "detail": "Pay respects at the most sacred chapel housing the Black Madonna statue, the primary object of pilgrimage for centuries.",
+          "lat": 44.8055,
+          "lng": 1.6165
+        }
+      ],
+      "food": [
+        {
+          "id": "roca_f1",
+          "text": "Rocamadour Cheese",
+          "detail": "This small, creamy unpasteurized goat cheese from the Lot region has a delicate flavor and is traditionally aged in leaves, best enjoyed fresh or semi-dried."
+        },
+        {
+          "id": "roca_f2",
+          "text": "Cassoulet Lotois",
+          "detail": "A hearty regional casserole of white beans, duck confit, and sausage that warms pilgrims and travelers in the cooler months."
+        },
+        {
+          "id": "roca_f3",
+          "text": "Confit de Canard",
+          "detail": "Duck legs preserved and cooked in their own fat, a staple of Occitanian cuisine found in many village restaurants with rich, tender meat."
+        },
+        {
+          "id": "roca_f4",
+          "text": "Walnut Cake (Gâteau aux Noix)",
+          "detail": "A traditional local dessert made with walnuts from the surrounding Lot region, often served with local wine or coffee."
+        },
+        {
+          "id": "roca_f5",
+          "text": "Truffade",
+          "detail": "A melted cheese and potato dish typical to rural Occitania, sometimes enhanced with garlic and served as a rustic comfort meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "roca_c1",
+          "text": "Respect Pilgrimage Customs",
+          "detail": "Many visitors still undertake the spiritual journey of climbing barefoot or in silent contemplation; dress modestly when entering the sanctuaries."
+        },
+        {
+          "id": "roca_c2",
+          "text": "Plan for Crowds",
+          "detail": "Rocamadour attracts over one million visitors annually, so visit early morning or off-season for a more peaceful experience on the staircase and in chapels."
+        },
+        {
+          "id": "roca_c3",
+          "text": "Watch Your Footing",
+          "detail": "The medieval streets and staircase are steep, narrow, and can be slippery when wet; wear sturdy shoes and allow extra time for navigation."
+        },
+        {
+          "id": "roca_c4",
+          "text": "Experience the Evening Illumination",
+          "detail": "The village is dramatically lit at night, transforming the cliff into a glowing spectacle that locals and visitors gather to witness from the gorge viewpoint below."
+        }
+      ]
+    },
+    {
+      "id": "cordes_sur_ciel",
+      "name": "Cordes-sur-Ciel",
+      "nameIt": "Còrdas",
+      "lat": 44.0569,
+      "lng": 1.9494,
+      "type": "VILLAGE",
+      "description": "A medieval hilltop village with narrow cobbled streets and 13th-century half-timbered houses that seem frozen in time, perched so high that it appears to float among the clouds. Its artistic community, galleries, and remarkable state of preservation make it one of France's most enchanting villages.",
+      "imageQueries": [
+        "Cordes-sur-Ciel hilltop village",
+        "Cordes-sur-Ciel medieval streets timber houses"
+      ],
+      "activities": [
+        {
+          "id": "cord_1",
+          "text": "Explore the Grande Rue",
+          "detail": "Walk the main cobbled street lined with 13th and 14th-century half-timbered houses, artisan shops, and galleries that showcase the village's medieval character."
+        },
+        {
+          "id": "cord_2",
+          "text": "Visit the Church of Saint-Michel",
+          "detail": "This 14th-century Gothic church features pointed arches and stained glass windows overlooking the village, accessible via steep stone steps from the center.",
+          "lat": 44.0506,
+          "lng": 1.9489
+        },
+        {
+          "id": "cord_3",
+          "text": "Tour the Maison du Grand Fauconnier",
+          "detail": "A restored 13th-century nobleman's house now displaying period furnishings and local history, with a tower offering panoramic views across the Cérou valley.",
+          "lat": 44.0509,
+          "lng": 1.9491
+        },
+        {
+          "id": "cord_4",
+          "text": "Browse artist studios and galleries",
+          "detail": "The village hosts working painters, sculptors, and craftspeople in their studios throughout the winding streets, many open to visitors.",
+          "lat": 44.0507,
+          "lng": 1.949
+        },
+        {
+          "id": "cord_5",
+          "text": "Viewpoint at the ramparts",
+          "detail": "Walk along the restored medieval fortifications at the village edges for sweeping views of the surrounding countryside and distant hills.",
+          "lat": 44.0504,
+          "lng": 1.9488
+        },
+        {
+          "id": "cord_6",
+          "text": "Musée de l'Art du Sucre (Sugar Art Museum)",
+          "detail": "A quirky museum displaying intricate sugar sculptures and confectionery art created by local artisans.",
+          "lat": 44.0508,
+          "lng": 1.9492
+        }
+      ],
+      "food": [
+        {
+          "id": "cord_f1",
+          "text": "Cassoulet Tarnais",
+          "detail": "A regional slow-cooked cassole of white beans, duck confit, and sausage that is a hearty specialty of the Tarn region around Cordes."
+        },
+        {
+          "id": "cord_f2",
+          "text": "Pâté de foie gras",
+          "detail": "Rich, smooth foie gras pâté typical of Occitania, often found at local charcuteries and served with toasted bread."
+        },
+        {
+          "id": "cord_f3",
+          "text": "Escalope de veau aux truffes",
+          "detail": "Veal cutlet with shaved black truffles, representing the refined country cooking of the Midi-Pyrénées plateau."
+        },
+        {
+          "id": "cord_f4",
+          "text": "Local goat cheese",
+          "detail": "Creamy or aged chèvre from nearby Aveyron farmsteads, often served fresh with honey or herbs at village restaurants."
+        },
+        {
+          "id": "cord_f5",
+          "text": "Crème catalane",
+          "detail": "A Catalan custard dessert flavored with cinnamon and citrus zest, reflecting the cultural blend of southern Occitania."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cord_c1",
+          "text": "Arrive early or late to avoid crowds",
+          "detail": "This popular village draws tour groups during midday; visiting before 10 AM or after 5 PM provides a more authentic, peaceful experience."
+        },
+        {
+          "id": "cord_c2",
+          "text": "Wear comfortable walking shoes",
+          "detail": "The entire village is built on steep gradients with uneven cobblestones, steps, and narrow passages that require sturdy footwear."
+        },
+        {
+          "id": "cord_c3",
+          "text": "Respect private homes and studios",
+          "detail": "While artist studios and galleries are open to visitors, many residences are private; always ask before photographing people or entering unmarked spaces."
+        },
+        {
+          "id": "cord_c4",
+          "text": "Learn basic Occitan greetings",
+          "detail": "The local language Occitan is still spoken here; locals appreciate visitors who acknowledge the region's cultural identity with a simple 'Adieu' (goodbye) or 'Bon dia' (good day)."
+        }
+      ]
+    },
+    {
+      "id": "collioure",
+      "name": "Collioure",
+      "nameIt": "Cotlliure",
+      "lat": 42.5137,
+      "lng": 3.081,
+      "type": "COASTAL",
+      "description": "A picturesque Catalan fishing village on the Mediterranean with pastel-colored buildings reflected in a perfect harbor, beloved by artists including Matisse and Derain. The combination of stunning natural beauty, artistic heritage, and excellent seafood creates an irresistibly charming Mediterranean escape.",
+      "imageQueries": [
+        "Collioure harbor colorful boats",
+        "Collioure Catalan village Mediterranean"
+      ],
+      "activities": [
+        {
+          "id": "coll_1",
+          "text": "Explore the Church of Notre-Dame-des-Anges",
+          "detail": "This iconic harbourside church with its distinctive bell tower reflected in the water is Collioure's most photographed landmark and offers glimpses into the village's religious heritage.",
+          "lat": 42.5136,
+          "lng": 3.0789
+        },
+        {
+          "id": "coll_2",
+          "text": "Visit the Musée d'Art Moderne",
+          "detail": "Housed in the former royal castle, this museum showcases works by Matisse, Derain, and other Fauvist painters who were captivated by Collioure's light and colors.",
+          "lat": 42.514,
+          "lng": 3.0805
+        },
+        {
+          "id": "coll_3",
+          "text": "Walk the Chemin de Fauvisme art trail",
+          "detail": "Follow the marked walking route through the village's streets and harbour that highlights the exact vantage points where famous artists set up their easels and painted."
+        },
+        {
+          "id": "coll_4",
+          "text": "Swim and sunbathe at Plage Boramar",
+          "detail": "This small sandy beach nestled between the church and rocky outcrops offers clear Mediterranean waters perfect for swimming and beach relaxation with village views.",
+          "lat": 42.5133,
+          "lng": 3.078
+        },
+        {
+          "id": "coll_5",
+          "text": "Hike to Fort Saint-Elme",
+          "detail": "Climb the winding path to this 16th-century fortress perched above the village for panoramic views of the coast and the Spanish border mountains.",
+          "lat": 42.5177,
+          "lng": 3.071
+        },
+        {
+          "id": "coll_6",
+          "text": "Browse the quayside fish market",
+          "detail": "Experience the daily morning catch being sold directly by local fishermen along the harbour, where you can select fresh seafood for cooking or eat at waterside restaurants.",
+          "lat": 42.5132,
+          "lng": 3.0795
+        }
+      ],
+      "food": [
+        {
+          "id": "coll_f1",
+          "text": "Anchovies à l'Escabèche",
+          "detail": "Collioure's most famous dish features marinated fresh anchovies pickled with vinegar, peppers, and bay leaves, reflecting both Catalan and Mediterranean traditions."
+        },
+        {
+          "id": "coll_f2",
+          "text": "Catalan Fish Suquet",
+          "detail": "A traditional fishermen's stew made with local Mediterranean fish, potatoes, and aioli, originating from Collioure's fishing heritage and still prepared in family recipes."
+        },
+        {
+          "id": "coll_f3",
+          "text": "Gambas à l'Ajillo",
+          "detail": "Pink prawns from the local catch sautéed simply with garlic and olive oil, served with crusty bread to soak up the fragrant cooking oil."
+        },
+        {
+          "id": "coll_f4",
+          "text": "Collioure Wine Tasting",
+          "detail": "Sample the local Banyuls and Collioure wines, sweet fortified wines and dry reds produced in the surrounding vineyards that pair perfectly with seafood and local tapas."
+        },
+        {
+          "id": "coll_f5",
+          "text": "Moules Farcies",
+          "detail": "Mussels stuffed with a mixture of herbs, breadcrumbs, and sometimes jamón, reflecting the Catalan influence on the village's culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "coll_c1",
+          "text": "Visit during early morning for authentic atmosphere",
+          "detail": "Arrive before 9am to experience the working fishing village at its most authentic, with fishermen unloading boats and locals setting up the market before tourist crowds arrive."
+        },
+        {
+          "id": "coll_c2",
+          "text": "Learn basic Catalan greetings",
+          "detail": "While French is spoken, locals deeply appreciate visitors who use simple Catalan phrases like 'Bon dia' (good morning) or 'Merci' in Catalan, honoring the region's distinct identity."
+        },
+        {
+          "id": "coll_c3",
+          "text": "Respect the siesta tradition",
+          "detail": "Many shops and restaurants close between 1pm and 4pm for lunch and rest, so plan activities accordingly and embrace the Mediterranean rhythm rather than fighting it."
+        },
+        {
+          "id": "coll_c4",
+          "text": "Dress for a working port",
+          "detail": "Remember Collioure remains an active fishing village where boats launch at dawn and nets dry on the quay, so wear practical shoes and be prepared for authentic fishing industry activity alongside tourism."
+        }
+      ]
+    },
+    {
+      "id": "avignon",
+      "name": "Avignon",
+      "nameIt": "Avinhon",
+      "lat": 43.9475,
+      "lng": 4.8061,
+      "type": "CITY",
+      "description": "A fortified city on the Rhône River, famous for the Palais des Papes, one of the largest and most important medieval buildings in Europe, and the iconic Pont d'Avignon. Its complete ramparts, vibrant cultural scene, and role in papal history make it an essential destination in southeastern France.",
+      "imageQueries": [
+        "Avignon Palais des Papes",
+        "Avignon Pont d'Avignon bridge"
+      ],
+      "activities": [
+        {
+          "id": "avig_1",
+          "text": "Palais des Papes",
+          "detail": "Explore this massive 14th-century papal palace with its Gothic architecture, frescoed chambers, and terrace overlooking the Rhône River.",
+          "lat": 43.9505,
+          "lng": 4.8055
+        },
+        {
+          "id": "avig_2",
+          "text": "Pont d'Avignon",
+          "detail": "Walk across the iconic 12th-century bridge (now partial) immortalized in the French nursery rhyme, offering views of the Rhône and surrounding ramparts.",
+          "lat": 43.954,
+          "lng": 4.809
+        },
+        {
+          "id": "avig_3",
+          "text": "Medieval Ramparts Walk",
+          "detail": "Circuit the complete 4.3-kilometer stone walls dating to the 14th century, providing panoramic views of the city and countryside.",
+          "lat": 43.951,
+          "lng": 4.807
+        },
+        {
+          "id": "avig_4",
+          "text": "Musée du Petit Palais",
+          "detail": "View an exceptional collection of medieval Italian and Provençal paintings housed in a former bishop's palace with a peaceful courtyard.",
+          "lat": 43.953,
+          "lng": 4.8065
+        },
+        {
+          "id": "avig_5",
+          "text": "Rocher des Doms Gardens",
+          "detail": "Stroll through landscaped gardens atop a rocky outcrop with shaded paths, a lake, and stunning vistas of the Palais and Pont d'Avignon.",
+          "lat": 43.9555,
+          "lng": 4.807
+        },
+        {
+          "id": "avig_6",
+          "text": "Synagogue of Avignon",
+          "detail": "Visit this ornate 18th-century synagogue in the medieval Jewish quarter, featuring elaborate interior decorations and historical significance.",
+          "lat": 43.949,
+          "lng": 4.804
+        }
+      ],
+      "food": [
+        {
+          "id": "avig_f1",
+          "text": "Soupe de Poisson Avignonnaise",
+          "detail": "A rich fish soup typical of the Rhône region, traditionally served with rouille, croutons, and Gruyère cheese."
+        },
+        {
+          "id": "avig_f2",
+          "text": "Daube Provençale",
+          "detail": "A slow-braised beef stew with red wine, herbs de Provence, and local vegetables, embodying the flavors of southern France."
+        },
+        {
+          "id": "avig_f3",
+          "text": "Melon de Cavaillon",
+          "detail": "Sweet, fragrant cantaloupe from the nearby Cavaillon region, eaten as a refreshing starter or dessert in summer."
+        },
+        {
+          "id": "avig_f4",
+          "text": "Calissons d'Aix",
+          "detail": "Almond paste and candied fruit confections from nearby Aix-en-Provence, a beloved local sweet treat available throughout the city."
+        },
+        {
+          "id": "avig_f5",
+          "text": "Brandade de Morue",
+          "detail": "A creamy Provençal dish of shredded salted cod blended with olive oil and garlic, served warm with bread."
+        },
+        {
+          "id": "avig_f6",
+          "text": "Wines from Châteauneuf-du-Pape",
+          "detail": "Sample bold, full-bodied red wines from the renowned appellation just north of Avignon, featuring Grenache and Syrah grapes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "avig_c1",
+          "text": "Respect Opening Hours",
+          "detail": "Many museums and the Palais close on Sundays or Mondays and have afternoon breaks; plan accordingly and check ahead."
+        },
+        {
+          "id": "avig_c2",
+          "text": "Festival d'Avignon Timing",
+          "detail": "July hosts the world-renowned theater festival with vibrant street performances and sold-out shows; book accommodations far in advance if visiting then."
+        },
+        {
+          "id": "avig_c3",
+          "text": "Papal History Context",
+          "detail": "Understanding that Avignon was the papal residence from 1309 to 1377 enriches visits to religious sites and helps explain the city's prominence."
+        }
+      ]
+    },
+    {
+      "id": "conques",
+      "name": "Conques",
+      "nameIt": "Conca",
+      "lat": 44.4165,
+      "lng": 2.4348,
+      "type": "VILLAGE",
+      "description": "A spectacularly positioned pilgrim village clinging to a steep hillside in a remote gorge, dominated by a magnificent Romanesque church housing exceptional medieval artwork. Its isolation, dramatic setting, and spiritual significance create an almost otherworldly experience off the beaten path.",
+      "imageQueries": [
+        "Conques village Romanesque church",
+        "Conques gorge hilltop"
+      ],
+      "activities": [
+        {
+          "id": "conq_1",
+          "text": "Sainte-Foy Basilica Interior",
+          "detail": "Explore the 11th-century Romanesque church with its stunning Treasury of reliquaries, including the famous golden statue of Saint Foy and intricate medieval metalwork.",
+          "lat": 44.7928,
+          "lng": 2.6411
+        },
+        {
+          "id": "conq_2",
+          "text": "Tympanum of Last Judgment",
+          "detail": "Study the intricately carved Romanesque tympanum above the west entrance depicting Christ's final judgment with exceptional detail and artistic mastery.",
+          "lat": 44.7929,
+          "lng": 2.6409
+        },
+        {
+          "id": "conq_3",
+          "text": "Village Rampart Walk",
+          "detail": "Stroll through narrow medieval streets lined with stone houses and climb the ancient defensive walls for panoramic views of the Ouche River gorge.",
+          "lat": 44.7935,
+          "lng": 2.6415
+        },
+        {
+          "id": "conq_4",
+          "text": "Museum of Pilgrimage",
+          "detail": "Visit this small museum documenting the history of the Santiago de Compostela pilgrimage route that passes through Conques, featuring artifacts and historical information."
+        },
+        {
+          "id": "conq_5",
+          "text": "Ouche River Gorge Hike",
+          "detail": "Take a scenic hiking trail down into the dramatic limestone gorge surrounding the village, offering spectacular views and geological formations.",
+          "lat": 44.7928,
+          "lng": 2.642
+        },
+        {
+          "id": "conq_6",
+          "text": "Cloisters and Chapter House",
+          "detail": "Walk through the adjacent cloisters of the basilica complex and visit the chapter house with its Romanesque capitals and peaceful garden atmosphere."
+        }
+      ],
+      "food": [
+        {
+          "id": "conq_f1",
+          "text": "Aligot",
+          "detail": "A creamy Occitan specialty of mashed potatoes, fresh cheese curds, and garlic beaten together into a stretchy, elegant dish traditionally served hot from the pan."
+        },
+        {
+          "id": "conq_f2",
+          "text": "Cassoulet de Castelnaudary",
+          "detail": "A hearty regional bean and duck confit stew from nearby Castelnaudary that exemplifies the rich slow-cooked cuisine of the Occitania region."
+        },
+        {
+          "id": "conq_f3",
+          "text": "Trout from Local Streams",
+          "detail": "Fresh-caught trout from the Ouche River and surrounding mountain streams, often prepared simply grilled or with local herbs."
+        },
+        {
+          "id": "conq_f4",
+          "text": "Tome de Rouergue",
+          "detail": "A local semi-hard cheese from the Aveyron department with nutty, earthy flavors that pairs well with crusty bread and regional wine."
+        },
+        {
+          "id": "conq_f5",
+          "text": "Fouace",
+          "detail": "A traditional sweet brioche-like bread studded with candied fruit and anise, historically eaten by pilgrims traveling the Santiago route."
+        }
+      ],
+      "culture": [
+        {
+          "id": "conq_c1",
+          "text": "Plan for Pilgrims",
+          "detail": "Conques remains an active stop on the Way of Saint James (Camino de Santiago), so expect to encounter pilgrims with backpacks, particularly in spring and autumn seasons."
+        },
+        {
+          "id": "conq_c2",
+          "text": "Modest Dress in Church",
+          "detail": "As a sacred pilgrimage site, visitors should dress respectfully when entering the basilica, covering shoulders and knees out of reverence for its spiritual purpose."
+        },
+        {
+          "id": "conq_c3",
+          "text": "Limited Services",
+          "detail": "This remote village has minimal infrastructure with only a few restaurants and shops, so plan meals ahead and bring cash as some establishments may not accept cards."
+        },
+        {
+          "id": "conq_c4",
+          "text": "Quiet Reflection Hours",
+          "detail": "The village is quietest in early morning and evening; arrive early or stay late to experience the spiritual atmosphere that makes Conques distinctive, avoiding midday tour groups."
+        }
+      ]
+    },
+    {
+      "id": "cevennes",
+      "name": "Cévennes",
+      "nameIt": "Cevenas",
+      "lat": 44.0893,
+      "lng": 3.7299,
+      "type": "NATURE",
+      "description": "A spectacular mountain range with dramatic gorges, dense forests, and charming stone villages that offer excellent hiking and natural beauty. The Cévennes National Park protects this pristine region and provides numerous trails for discovering waterfalls, remote villages, and unspoiled landscapes.",
+      "imageQueries": [
+        "Cévennes gorge mountain landscape",
+        "Cévennes hiking trails forest"
+      ],
+      "activities": [
+        {
+          "id": "ceve_1",
+          "text": "Gorges du Tarn Kayaking",
+          "detail": "Paddle through one of France's most dramatic river canyons with limestone cliffs rising 400 meters on either side.",
+          "lat": 44.2167,
+          "lng": 3.3833
+        },
+        {
+          "id": "ceve_2",
+          "text": "Mont Aigoual Summit Hike",
+          "detail": "Climb to the highest peak in the Cévennes at 1,567 meters for panoramic views of the Pyrenees and Mediterranean on clear days.",
+          "lat": 44.1186,
+          "lng": 3.5603
+        },
+        {
+          "id": "ceve_3",
+          "text": "Grotte de Dargilan Cave Tour",
+          "detail": "Explore this spectacular stalactite and stalagmite cave system with underground lakes and cathedral-like chambers.",
+          "lat": 44.1417,
+          "lng": 3.4333
+        },
+        {
+          "id": "ceve_4",
+          "text": "Corniche des Cévennes Drive",
+          "detail": "Drive the scenic ridge road between Florac and Saint-Jean-du-Gard with sweeping views of terraced valleys and stone villages.",
+          "lat": 44.2317,
+          "lng": 3.4617
+        },
+        {
+          "id": "ceve_5",
+          "text": "Waterfall of Cascade de l'Alzon",
+          "detail": "Hike to this hidden waterfall plunging 40 meters into a crystal-clear pool perfect for swimming in summer.",
+          "lat": 44.0833,
+          "lng": 3.6833
+        },
+        {
+          "id": "ceve_6",
+          "text": "Florac Medieval Town Exploration",
+          "detail": "Wander the narrow streets of this 12th-century stone village and visit the Renaissance château overlooking the Tarnon river.",
+          "lat": 44.3167,
+          "lng": 3.5917
+        }
+      ],
+      "food": [
+        {
+          "id": "ceve_f1",
+          "text": "Cévennes Mushrooms",
+          "detail": "Foraged wild mushrooms, particularly chanterelles and cèpes, prepared simply with garlic and parsley to highlight their earthy flavor."
+        },
+        {
+          "id": "ceve_f2",
+          "text": "Aligot",
+          "detail": "A regional specialty of mashed potatoes blended with fresh Laguiole cheese and butter, stretched into long strands and served as a main dish."
+        },
+        {
+          "id": "ceve_f3",
+          "text": "Cassoulet Cévenol",
+          "detail": "A hearty bean and meat stew featuring local sausages and duck, slow-cooked with white beans in the traditional manner."
+        },
+        {
+          "id": "ceve_f4",
+          "text": "Chestnut Specialties",
+          "detail": "Roasted chestnuts, chestnut flour bread (pain aux châtaignes), and chestnut purée desserts reflecting the region's historic chestnut groves."
+        },
+        {
+          "id": "ceve_f5",
+          "text": "Poutine des Cévennes",
+          "detail": "A traditional sweet or savory fritter made with cheese and herbs, not related to the Canadian dish, reflecting centuries-old regional recipes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ceve_c1",
+          "text": "Respect the Shepherd Trails",
+          "detail": "Many hiking paths follow ancient transhumance routes used by shepherds moving flocks seasonally; stay on marked trails and be aware of pastoral activities."
+        },
+        {
+          "id": "ceve_c2",
+          "text": "Protestant Heritage Sensitivity",
+          "detail": "The Cévennes has deep Protestant roots and sites related to the Wars of Religion; locals appreciate respectful interest in this significant regional history."
+        },
+        {
+          "id": "ceve_c3",
+          "text": "Weather Changes Rapidly",
+          "detail": "Mountain weather can shift dramatically in hours; always carry layers and rain gear even on sunny mornings, especially above 1,000 meters."
+        },
+        {
+          "id": "ceve_c4",
+          "text": "Village Closing Times",
+          "detail": "Many small village shops and restaurants close between noon and 2 PM, and some are shuttered entirely on Mondays; plan meals and purchases accordingly."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Le Jardin de l'Opéra",
+      "address": "1 Place Stanislas, Toulouse",
+      "neighbourhood": "Toulouse Centre",
+      "cuisine": "French Contemporary",
+      "priceRange": "€€€€",
+      "description": "Michelin-starred fine dining in a romantic garden setting with innovative seasonal cuisine.",
+      "mustOrder": "Foie gras terrine with truffle emulsion",
+      "lat": 43.6047,
+      "lng": 1.4405
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Michel Sarran",
+      "address": "21 Boulevard Armand Duportal, Toulouse",
+      "neighbourhood": "Toulouse Centre",
+      "cuisine": "French Modern",
+      "priceRange": "€€€€",
+      "description": "Two Michelin stars for chef Michel Sarran's refined Mediterranean-influenced cuisine.",
+      "mustOrder": "Langoustine royale",
+      "lat": 43.6019,
+      "lng": 1.437
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Au Petit Comptoir",
+      "address": "25 Rue de Béchade, Toulouse",
+      "neighbourhood": "Carmes, Toulouse",
+      "cuisine": "French Bistro",
+      "priceRange": "€€",
+      "description": "Charming neighbourhood bistro serving classic Occitan specialties in an intimate setting.",
+      "mustOrder": "Cassoulet",
+      "lat": 43.5961,
+      "lng": 1.4485
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Bouchon Lyonnais",
+      "address": "13 Rue de la Pomme, Toulouse",
+      "neighbourhood": "Vieux Toulouse",
+      "cuisine": "Lyonnais",
+      "priceRange": "€€",
+      "description": "Traditional Lyonnais bouchon with hearty regional dishes and charcuterie in a rustic atmosphere.",
+      "mustOrder": "Quenelles de brochet",
+      "lat": 43.6029,
+      "lng": 1.4398
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Le Grill du Four à Bois",
+      "address": "7 Rue Labeda, Montauban",
+      "neighbourhood": "Montauban Centre",
+      "cuisine": "Grilled Meats",
+      "priceRange": "€€",
+      "description": "Wood-fired grill restaurant specializing in quality meats and seasonal vegetables.",
+      "mustOrder": "Côte de boeuf",
+      "lat": 44.0095,
+      "lng": 1.3533
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Les Cols",
+      "address": "Ctra de la Canya s/n, Olot, Girona",
+      "neighbourhood": "Olot",
+      "cuisine": "Catalan Innovative",
+      "priceRange": "€€€€",
+      "description": "Just over the Spanish border, Michelin-starred restaurant pushing boundaries of Catalan cuisine.",
+      "mustOrder": "Volcanic stone preparations",
+      "lat": 42.1823,
+      "lng": 2.3689
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "La Table des Jacobins",
+      "address": "39 Rue Pargaminières, Albi",
+      "neighbourhood": "Albi Centre",
+      "cuisine": "French Modern",
+      "priceRange": "€€€",
+      "description": "Contemporary French cuisine in a historic setting near the cathedral, using local Tarn ingredients.",
+      "mustOrder": "Duck confit with local vegetables",
+      "lat": 43.9284,
+      "lng": 2.1399
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Hostellerie Bérard",
+      "address": "Rue Voltaire, Cordes-sur-Ciel",
+      "neighbourhood": "Cordes-sur-Ciel",
+      "cuisine": "French Regional",
+      "priceRange": "€€€",
+      "description": "Medieval hilltop village restaurant offering refined regional cuisine with stunning views.",
+      "mustOrder": "Truffle-infused risotto",
+      "lat": 43.9989,
+      "lng": 1.9516
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Le Comptoir des Mets",
+      "address": "9 Rue Pech-Marion, Carcassonne",
+      "neighbourhood": "Carcassonne Centre",
+      "cuisine": "Occitan Traditional",
+      "priceRange": "€€",
+      "description": "Authentic family-run bistro serving traditional Occitan dishes in the shadow of the ramparts.",
+      "mustOrder": "Cassoulet de Castelnaudary",
+      "lat": 43.2087,
+      "lng": 2.3648
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Comte Roger",
+      "address": "14 Rue Saint-Louis, Carcassonne",
+      "neighbourhood": "Carcassonne Cité",
+      "cuisine": "French Gastronomic",
+      "priceRange": "€€€",
+      "description": "Fine dining within the walled city featuring local Languedoc ingredients and wine pairings.",
+      "mustOrder": "Pigeon with blood orange",
+      "lat": 43.2105,
+      "lng": 2.363
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Babette's Table",
+      "address": "1 Rue de la Pomme, Carcassonne",
+      "neighbourhood": "Carcassonne Centre",
+      "cuisine": "Mediterranean Fusion",
+      "priceRange": "€€€",
+      "description": "Creative Mediterranean cuisine blending French and Spanish influences in a charming courtyard.",
+      "mustOrder": "Seafood paella with saffron",
+      "lat": 43.2084,
+      "lng": 2.3645
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Le Chapon Fin",
+      "address": "5 Rue Montmorency, Perpignan",
+      "neighbourhood": "Perpignan Centre",
+      "cuisine": "Catalan-French",
+      "priceRange": "€€",
+      "description": "Historic restaurant blending Catalan and French traditions with warm, welcoming service.",
+      "mustOrder": "Escalivada with anchovies",
+      "lat": 42.6987,
+      "lng": 2.8945
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Maison Puech",
+      "address": "Route de Rodez, Villefranche-de-Rouergue",
+      "neighbourhood": "Villefranche-de-Rouergue",
+      "cuisine": "Aveyron Regional",
+      "priceRange": "€€",
+      "description": "Country inn showcasing Aveyron specialties including foie gras and Roquefort in rustic charm.",
+      "mustOrder": "Aligot with Roquefort",
+      "lat": 44.4225,
+      "lng": 2.0215
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "La Mère Grand",
+      "address": "Place Jean Jaurès, Najac",
+      "neighbourhood": "Najac",
+      "cuisine": "French Country",
+      "priceRange": "€€",
+      "description": "Small village gem serving traditional French country cooking with local sourcing.",
+      "mustOrder": "Beef bourguignon",
+      "lat": 44.3908,
+      "lng": 1.8678
+    }
+  ]
+}

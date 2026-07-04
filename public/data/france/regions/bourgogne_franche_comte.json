@@ -1,0 +1,1806 @@
+{
+  "id": "bourgogne_franche_comte",
+  "name": "Burgundy-Franche-Comté",
+  "nameIt": "Bourgogne-Franche-Comté",
+  "capital": "Dijon",
+  "lat": 47.3,
+  "lng": 5,
+  "emoji": "🍇",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 48.45,
+    "south": 46.01,
+    "east": 7.08,
+    "west": 2.82
+  },
+  "history": "Burgundy-Franche-Comté represents one of France's most historically significant regions, with Burgundy serving as a powerful duchy during the Middle Ages that rivaled the French crown itself. The region played a crucial role in European history, particularly during the Hundred Years' War when the Duchy of Burgundy was a major player in continental politics. Franche-Comté, meaning 'free county,' was long disputed between France and Spain before finally being incorporated into France under Louis XIV in 1678. Together, these two regions developed a rich cultural and economic heritage centered on wine production, monastic traditions, and strategic trade routes.",
+  "culturalNotes": "Burgundy-Franche-Comté is renowned worldwide for its exceptional wines, particularly the Pinot Noirs and Chardonnays from the Côte d'Or, making viticulture central to the region's identity and economy. The area is deeply marked by its monastic heritage, with the Abbey of Cluny and Cistercian foundations having shaped medieval Europe, and this religious influence persists in the region's architecture, cuisine, and cultural values. Local gastronomy extends beyond wine to include distinctive dishes such as coq au vin, beef Bourguignon, and Comté cheese, reflecting a proud culinary tradition that defines daily life and celebrations.",
+  "bestTimeToVisit": "September to October for wine harvest and autumn colors, or April to May for spring scenery.",
+  "languageNotes": "While standard French is spoken throughout the region, the local accent and vocabulary carry traces of historical Burgundian and Comtois dialects, though these are largely preserved in historical contexts rather than everyday speech. Useful phrases for visitors include 'Bon appétit' before meals and references to local wines and cheeses, which are central to respectful conversation in this gastronomically proud region.",
+  "generatedAt": "2026-07-04T19:47:37.233Z",
+  "placeCount": 15,
+  "places": [
+    {
+      "id": "dijon",
+      "name": "Dijon",
+      "nameIt": "Dijon",
+      "lat": 47.322,
+      "lng": 5.0404,
+      "type": "CITY",
+      "description": "The historic capital of Burgundy, Dijon is renowned for its well-preserved medieval old town, stunning Palace of the Dukes, and world-class wine heritage. It's the cultural and gastronomic heart of the region, offering excellent museums, restaurants, and the famous mustard production.",
+      "imageQueries": [
+        "Dijon Palace of the Dukes",
+        "Dijon old town medieval"
+      ],
+      "activities": [
+        {
+          "id": "dijo_1",
+          "text": "Palace of the Dukes of Burgundy",
+          "detail": "Explore the stunning Renaissance palace with its distinctive towers, ornate facades, and the Museum of Fine Arts housed within its wings.",
+          "lat": 47.3225,
+          "lng": 5.0405
+        },
+        {
+          "id": "dijo_2",
+          "text": "Owl Hunt Walking Tour",
+          "detail": "Follow the marked route through the medieval old town to spot over 30 carved stone owls (hiboux) hidden on building facades, a quirky local tradition.",
+          "lat": 47.322,
+          "lng": 5.042
+        },
+        {
+          "id": "dijo_3",
+          "text": "Cathedral of Saint-Bénigne",
+          "detail": "Visit this Gothic masterpiece with its impressive interior, underground crypt, and the adjoining archaeological museum.",
+          "lat": 47.3209,
+          "lng": 5.0444
+        },
+        {
+          "id": "dijo_4",
+          "text": "Grey Poupon Mustard Factory Tour",
+          "detail": "Learn about Dijon's famous mustard production with a guided visit to the historic facility and tasting room.",
+          "lat": 47.3188,
+          "lng": 5.0358
+        },
+        {
+          "id": "dijo_5",
+          "text": "Museum of Burgundian Life",
+          "detail": "Discover traditional Burgundian rural life, crafts, and culture through period rooms and artifact displays.",
+          "lat": 47.3195,
+          "lng": 5.048
+        },
+        {
+          "id": "dijo_6",
+          "text": "Jardin de l'Arquebuse Botanical Garden",
+          "detail": "Stroll through this peaceful Renaissance-inspired garden with diverse plant collections and scenic views of the city.",
+          "lat": 47.3267,
+          "lng": 5.0308
+        },
+        {
+          "id": "dijo_7",
+          "text": "Wine Route of Burgundy Day Trip",
+          "detail": "Take a short drive to nearby vineyards in Gevrey-Chambertin or Beaune to taste world-renowned Burgundy wines and visit historic cellars.",
+          "lat": 47.25,
+          "lng": 4.95
+        }
+      ],
+      "food": [
+        {
+          "id": "dijo_f1",
+          "text": "Coq au Vin",
+          "detail": "A classic Burgundian dish of chicken braised in local red wine with mushrooms, pearl onions, and bacon lardons."
+        },
+        {
+          "id": "dijo_f2",
+          "text": "Escargots à la Bourguignonne",
+          "detail": "Fresh snails prepared with garlic, parsley, and Burgundy butter in the traditional regional style."
+        },
+        {
+          "id": "dijo_f3",
+          "text": "Gougères",
+          "detail": "Warm cheese-flavored choux pastry puffs that are a local specialty and common appetizer in Burgundy."
+        },
+        {
+          "id": "dijo_f4",
+          "text": "Jambon de Bourgogne",
+          "detail": "Burgundian cured ham, traditionally prepared and sliced thin, often served as a charcuterie board starter."
+        },
+        {
+          "id": "dijo_f5",
+          "text": "Epoisses de Bourgogne",
+          "detail": "A pungent, creamy washed-rind cheese from the region with a distinctive strong aroma, best paired with local wine."
+        },
+        {
+          "id": "dijo_f6",
+          "text": "Dijon Mustard Tasting",
+          "detail": "Sample various styles of the city's famous mustard, from classic yellow to wholegrain and tarragon varieties at local shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dijo_c1",
+          "text": "Wine Culture is Central",
+          "detail": "Wine is integral to Dijon's identity and dining—locals view wine selection seriously, and many restaurants offer excellent regional pairings."
+        },
+        {
+          "id": "dijo_c2",
+          "text": "Lunch is the Main Meal",
+          "detail": "Many locals enjoy a substantial midday lunch; restaurants may have limited dinner service, and shops often close between 12-2 PM."
+        },
+        {
+          "id": "dijo_c3",
+          "text": "Explore on Foot",
+          "detail": "The medieval old town is compact and best experienced by walking its narrow streets and cobblestone squares rather than driving."
+        },
+        {
+          "id": "dijo_c4",
+          "text": "Respect Museum Hours",
+          "detail": "Most museums close on Mondays or Tuesdays and have limited evening hours; plan visits accordingly and purchase tickets in advance during peak season."
+        }
+      ]
+    },
+    {
+      "id": "beaune",
+      "name": "Beaune",
+      "nameIt": "Beaune",
+      "lat": 47.0255,
+      "lng": 4.8369,
+      "type": "TOWN",
+      "description": "A charming walled town in the heart of Burgundy's wine country, famous for its stunning 15th-century Hospices de Beaune with its distinctive colorful tile roof. The town is surrounded by prestigious vineyards and serves as the perfect base for wine tasting and exploration.",
+      "imageQueries": [
+        "Hospices de Beaune roof",
+        "Beaune wine town Burgundy"
+      ],
+      "activities": [
+        {
+          "id": "beau_1",
+          "text": "Hospices de Beaune",
+          "detail": "Tour the iconic 15th-century charitable hospital with its breathtaking Flemish-style polychrome tile roof and explore the pharmacy, kitchen, and ward rooms filled with period furnishings.",
+          "lat": 47.0621,
+          "lng": 4.8367
+        },
+        {
+          "id": "beau_2",
+          "text": "Wine Tasting at Local Cellars",
+          "detail": "Visit family-run wine merchants and négociants in the town center to sample Burgundy's renowned Pinot Noir and Chardonnay directly from producers.",
+          "lat": 47.0625,
+          "lng": 4.837
+        },
+        {
+          "id": "beau_3",
+          "text": "Ramparts Walk",
+          "detail": "Stroll along the preserved medieval town walls that encircle Beaune for panoramic views of the surrounding vineyards and countryside.",
+          "lat": 47.062,
+          "lng": 4.836
+        },
+        {
+          "id": "beau_4",
+          "text": "Musée du Vin de Bourgogne",
+          "detail": "Discover the history and culture of Burgundy wine in this museum housed in a 15th-century mansion, featuring historic wine presses and bottles.",
+          "lat": 47.0628,
+          "lng": 4.8375
+        },
+        {
+          "id": "beau_5",
+          "text": "Marché aux Vins Wine Bar",
+          "detail": "Experience an all-you-can-taste wine experience in the cellars of a former convent, sampling wines from across Burgundy's appellations.",
+          "lat": 47.063,
+          "lng": 4.8365
+        },
+        {
+          "id": "beau_6",
+          "text": "Vineyard Cycling Tours",
+          "detail": "Bike through the famous Côte d'Or wine region surrounding Beaune, visiting villages like Pommard and Meursault with stops at prestigious vineyards."
+        },
+        {
+          "id": "beau_7",
+          "text": "Collégiale Notre-Dame Church",
+          "detail": "Visit this 12th-century Romanesque church in the heart of town to admire its intricate Gothic tapestries and architectural details.",
+          "lat": 47.0628,
+          "lng": 4.8373
+        }
+      ],
+      "food": [
+        {
+          "id": "beau_f1",
+          "text": "Coq au Vin",
+          "detail": "This iconic Burgundian braise of chicken in local red wine with pearl onions and mushrooms is a specialty throughout Beaune's restaurants."
+        },
+        {
+          "id": "beau_f2",
+          "text": "Escargots de Bourgogne",
+          "detail": "Fresh snails prepared with garlic, parsley, and butter represent Burgundy's most famous appetizer, available at traditional bistros."
+        },
+        {
+          "id": "beau_f3",
+          "text": "Époisses de Bourgogne Cheese",
+          "detail": "This pungent, creamy washed-rind cheese from nearby Époisses is a local pride and pairs perfectly with Burgundy wines."
+        },
+        {
+          "id": "beau_f4",
+          "text": "Jambon Persillé",
+          "detail": "A terrine of ham and parsley set in aspic, this charcuterie specialty reflects Burgundy's rich culinary heritage."
+        },
+        {
+          "id": "beau_f5",
+          "text": "Wine Bar Lunch Pairing",
+          "detail": "Experience a leisurely midday meal at a local wine bar with regional cheeses, cured meats, and fresh bread paired with Beaune's wines."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beau_c1",
+          "text": "Wine Shop Etiquette",
+          "detail": "Most wine merchants expect serious interest in wine; take time to ask questions and engage with shopkeepers rather than treating it as a casual browse."
+        },
+        {
+          "id": "beau_c2",
+          "text": "Auction Season",
+          "detail": "The famous Hospices de Beaune wine auction (Vente des Vins) occurs annually in November; visiting during this time offers unique cultural insight into Burgundy's wine economy."
+        },
+        {
+          "id": "beau_c3",
+          "text": "Afternoon Closing Times",
+          "detail": "Many small shops and restaurants close between 12:30 and 2 p.m. for lunch, so plan your sightseeing accordingly or enjoy a leisurely meal yourself."
+        },
+        {
+          "id": "beau_c4",
+          "text": "Respectful Vineyard Access",
+          "detail": "The surrounding vineyards are private property; stick to marked cycling routes and visit only during official tastings or organized tours to respect local customs."
+        }
+      ]
+    },
+    {
+      "id": "vezelay",
+      "name": "Vézelay",
+      "nameIt": "Vézelay",
+      "lat": 47.4667,
+      "lng": 3.7479,
+      "type": "VILLAGE",
+      "description": "A hilltop village crowned by the magnificent Basilica of Sainte-Marie-Madeleine, one of the masterpieces of Romanesque architecture and a UNESCO World Heritage site. The village offers breathtaking views of the surrounding Morvan landscape and is a major pilgrimage destination.",
+      "imageQueries": [
+        "Vézelay Basilica Romanesque",
+        "Vézelay hilltop village"
+      ],
+      "activities": [
+        {
+          "id": "veze_1",
+          "text": "Basilica of Sainte-Marie-Madeleine",
+          "detail": "Explore this stunning 12th-century Romanesque church, famous for its sculptured tympanum and soaring nave, which has been a UNESCO World Heritage site since 1979.",
+          "lat": 47.4653,
+          "lng": 3.7437
+        },
+        {
+          "id": "veze_2",
+          "text": "Grande Rue Walking Tour",
+          "detail": "Stroll through the narrow medieval main street lined with stone houses, artisan shops, and galleries that wind uphill to the basilica.",
+          "lat": 47.4648,
+          "lng": 3.7432
+        },
+        {
+          "id": "veze_3",
+          "text": "Morvan Landscape Viewpoint",
+          "detail": "Visit the terraces and viewpoints around the basilica's exterior to admire panoramic vistas of the rolling Morvan hills and valleys below.",
+          "lat": 47.4656,
+          "lng": 3.744
+        },
+        {
+          "id": "veze_4",
+          "text": "Maison Jules Roy Museum",
+          "detail": "Tour this former residence of French author Jules Roy to discover his literary legacy and local Burgundian heritage exhibits.",
+          "lat": 47.465,
+          "lng": 3.7428
+        },
+        {
+          "id": "veze_5",
+          "text": "Pilgrimage Route Walk",
+          "detail": "Walk sections of the famous pilgrimage paths, particularly towards Santiago de Compostela, which pass through or near Vézelay's historic trails.",
+          "lat": 47.464,
+          "lng": 3.7425
+        },
+        {
+          "id": "veze_6",
+          "text": "Local Artist Galleries",
+          "detail": "Browse independent galleries scattered throughout the village showcasing paintings, sculptures, and crafts by Burgundian and French artists.",
+          "lat": 47.4645,
+          "lng": 3.743
+        }
+      ],
+      "food": [
+        {
+          "id": "veze_f1",
+          "text": "Escargots de Bourgogne",
+          "detail": "Tender Burgundian snails prepared with garlic, parsley, and butter, a classic regional delicacy served in local restaurants."
+        },
+        {
+          "id": "veze_f2",
+          "text": "Coq au Vin",
+          "detail": "Chicken braised in local Burgundy wine with mushrooms, pearl onions, and bacon, reflecting the region's winemaking heritage."
+        },
+        {
+          "id": "veze_f3",
+          "text": "Jambon de Morvan",
+          "detail": "Smoked ham from the Morvan region, traditionally cured and often served thinly sliced as an appetizer."
+        },
+        {
+          "id": "veze_f4",
+          "text": "Époisses Cheese",
+          "detail": "A pungent, creamy washed-rind cheese from nearby Époisses, best enjoyed with crusty bread and local Burgundy wines."
+        },
+        {
+          "id": "veze_f5",
+          "text": "Blackcurrant Liqueur (Cassis)",
+          "detail": "The famous dark liqueur made from Dijon blackcurrants, often enjoyed as an apéritif or mixed with white wine."
+        },
+        {
+          "id": "veze_f6",
+          "text": "Gougères",
+          "detail": "Light, airy cheese puffs made with Gruyère, a beloved Burgundian snack found in village bakeries and cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "veze_c1",
+          "text": "Respect Pilgrimage Reverence",
+          "detail": "The basilica remains an active pilgrimage site, so maintain quiet and respectful behavior inside the church, especially during services."
+        },
+        {
+          "id": "veze_c2",
+          "text": "Wear Comfortable Walking Shoes",
+          "detail": "The village is entirely built on a steep hillside with cobblestone streets and no vehicle traffic, making sturdy footwear essential."
+        },
+        {
+          "id": "veze_c3",
+          "text": "Visit Off-Season for Authenticity",
+          "detail": "Summer months bring large tour groups; visiting in spring or autumn offers a more intimate experience with locals and fewer crowds."
+        },
+        {
+          "id": "veze_c4",
+          "text": "Learn Basic French Phrases",
+          "detail": "Many smaller shops and restaurants in this traditional village have limited English, so knowing simple French courtesies enhances interactions with locals."
+        }
+      ]
+    },
+    {
+      "id": "chablis",
+      "name": "Chablis",
+      "nameIt": "Chablis",
+      "lat": 47.8132,
+      "lng": 3.5793,
+      "type": "TOWN",
+      "description": "A picturesque wine town in northern Burgundy famous for its crisp white Chablis wine, one of the world's most acclaimed white wines. The charming medieval town nestles in rolling vineyards and offers excellent wine cellars and tasting opportunities.",
+      "imageQueries": [
+        "Chablis wine vineyards",
+        "Chablis town Burgundy"
+      ],
+      "activities": [
+        {
+          "id": "chab_1",
+          "text": "Wine Cellar Tours at William Fèvre",
+          "detail": "Explore one of Chablis' most prestigious producers in their historic cellars carved into the limestone hillside, learning about traditional winemaking methods and tasting their acclaimed Chablis wines.",
+          "lat": 47.8119,
+          "lng": 3.5714
+        },
+        {
+          "id": "chab_2",
+          "text": "Église Saint-Martin",
+          "detail": "Visit this beautiful 12th-century Gothic church in the town center, featuring remarkable stained glass windows and Renaissance decorations reflecting Chablis' rich religious heritage.",
+          "lat": 47.8128,
+          "lng": 3.5711
+        },
+        {
+          "id": "chab_3",
+          "text": "Montmains Vineyard Walk",
+          "detail": "Hike through the famous Montmains Premier Cru vineyard terraces surrounding the town, experiencing the distinctive limestone-rich terroir that defines Chablis wine character.",
+          "lat": 47.815,
+          "lng": 3.568
+        },
+        {
+          "id": "chab_4",
+          "text": "Musée de Chablis",
+          "detail": "Discover the region's wine history and local heritage through artifacts, historical documents, and exhibits dedicated to viticulture in this small museum housed in a traditional building.",
+          "lat": 47.81,
+          "lng": 3.572
+        },
+        {
+          "id": "chab_5",
+          "text": "Kimmeridgian Limestone Quarries",
+          "detail": "Tour the ancient quarries where the distinctive oyster-shell limestone (Kimmeridgian) is still extracted, the geological foundation that gives Chablis wine its signature mineral quality.",
+          "lat": 47.805,
+          "lng": 3.56
+        },
+        {
+          "id": "chab_6",
+          "text": "Wine Bar Hopping on Rue Potterie",
+          "detail": "Stroll the picturesque old town street lined with traditional wine bars and small producers offering tastings and casual encounters with local winemakers.",
+          "lat": 47.813,
+          "lng": 3.57
+        }
+      ],
+      "food": [
+        {
+          "id": "chab_f1",
+          "text": "Huîtres et Chablis",
+          "detail": "The classic pairing of fresh oysters with crisp Chablis wine, often served as an appetizer in local restaurants, reflecting the region's connection to historic oyster shells in its soil."
+        },
+        {
+          "id": "chab_f2",
+          "text": "Œufs en Meurette",
+          "detail": "A traditional Burgundy dish of poached eggs in a rich wine sauce made with Chablis and local mushrooms, embodying regional comfort food culture."
+        },
+        {
+          "id": "chab_f3",
+          "text": "Époisses de Bourgogne",
+          "detail": "This notoriously pungent local cheese from nearby Époisses pairs boldly with Chablis wine and represents the terroir-driven food traditions of Burgundy."
+        },
+        {
+          "id": "chab_f4",
+          "text": "Jambon de Paris à la Crème",
+          "detail": "Sliced local ham served with a creamy sauce, a classic bistro dish found throughout Chablis restaurants that pairs well with the region's white wines."
+        },
+        {
+          "id": "chab_f5",
+          "text": "Escargots à la Bourguignonne",
+          "detail": "Snails prepared with garlic, parsley, and butter in true Burgundian style, a traditional delicacy frequently featured on local restaurant menus."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chab_c1",
+          "text": "Visit During Harvest Season",
+          "detail": "Plan a visit in September and early October to experience the energy of the vendanges (grape harvest) when vineyards are bustling and many wineries offer special tasting experiences."
+        },
+        {
+          "id": "chab_c2",
+          "text": "Respect Vineyard Access",
+          "detail": "Many of Chablis' most scenic vineyard areas are privately owned; always ask permission or join an organized wine tour rather than wandering unannounced through the fields."
+        },
+        {
+          "id": "chab_c3",
+          "text": "Learn Basic Wine Terminology",
+          "detail": "Familiarize yourself with terms like 'Petit Chablis,' 'Chablis,' 'Premier Cru,' and 'Grand Cru' to better understand local wine classifications and appreciate conversations with winemakers."
+        },
+        {
+          "id": "chab_c4",
+          "text": "Embrace the Wine Bar Culture",
+          "detail": "Locals frequent small wine bars for casual tastings and conversation; embrace this tradition by visiting at aperitif hour (17:00-19:00) when townspeople gather to sample local producers' latest releases."
+        }
+      ]
+    },
+    {
+      "id": "auxerre",
+      "name": "Auxerre",
+      "nameIt": "Auxerre",
+      "lat": 47.798,
+      "lng": 3.5703,
+      "type": "CITY",
+      "description": "A riverside city on the Yonne known for its soaring Gothic cathedral and picturesque waterfront with charming old quarters. The city offers a more relaxed alternative to Dijon while maintaining rich medieval heritage and access to northern Burgundy's attractions.",
+      "imageQueries": [
+        "Auxerre cathedral Yonne",
+        "Auxerre riverside old town"
+      ],
+      "activities": [
+        {
+          "id": "auxe_1",
+          "text": "Cathédrale Saint-Étienne",
+          "detail": "Explore this stunning Gothic cathedral with its soaring nave, intricate rose windows, and Renaissance stained glass spanning five centuries of craftsmanship.",
+          "lat": 47.8014,
+          "lng": 3.5708
+        },
+        {
+          "id": "auxe_2",
+          "text": "Yonne Riverfront Walk",
+          "detail": "Stroll along the picturesque quays lined with half-timbered houses and willows, offering scenic views and access to charming cafés and small museums.",
+          "lat": 47.8012,
+          "lng": 3.5725
+        },
+        {
+          "id": "auxe_3",
+          "text": "Musée Leblanc-Duvernoy",
+          "detail": "Visit this 18th-century mansion displaying decorative arts, tapestries, and period furniture that reveal the refined tastes of Burgundian merchants.",
+          "lat": 47.8026,
+          "lng": 3.5698
+        },
+        {
+          "id": "auxe_4",
+          "text": "Abbey of Saint-Germain",
+          "detail": "Discover this former Benedictine abbey with its Romanesque crypt, medieval frescoes, and underground chambers reflecting over a thousand years of monastic history.",
+          "lat": 47.8049,
+          "lng": 3.5659
+        },
+        {
+          "id": "auxe_5",
+          "text": "Old Town (Vieux Quartier)",
+          "detail": "Wander through narrow medieval streets lined with Renaissance townhouses, artisan shops, and galleries in the heart of historic Auxerre.",
+          "lat": 47.803,
+          "lng": 3.568
+        },
+        {
+          "id": "auxe_6",
+          "text": "Chablis Wine Route Day Trip",
+          "detail": "Take the short 20-minute drive to the renowned Chablis vineyards for tastings of crisp white wines and visits to family-run domaines.",
+          "lat": 47.81,
+          "lng": 3.575
+        }
+      ],
+      "food": [
+        {
+          "id": "auxe_f1",
+          "text": "Chablis",
+          "detail": "Sample the bone-dry white wine produced from Chardonnay grapes in the nearby Chablis region, the perfect accompaniment to local cuisine."
+        },
+        {
+          "id": "auxe_f2",
+          "text": "Jambon de Bourgogne",
+          "detail": "Taste Burgundian ham, a cured specialty often served thinly sliced as a starter or in classic dishes throughout the region."
+        },
+        {
+          "id": "auxe_f3",
+          "text": "Pâté de Foie Gras",
+          "detail": "Indulge in this rich Burgundian delicacy made from duck liver, typically served on toast as an appetizer in traditional restaurants."
+        },
+        {
+          "id": "auxe_f4",
+          "text": "Escargots de Bourgogne",
+          "detail": "Try these land snails cooked in their shells with garlic, parsley, and butter—an iconic Burgundian dish often served as a classic starter."
+        },
+        {
+          "id": "auxe_f5",
+          "text": "Coq au Vin",
+          "detail": "Order this rustic braised chicken in red wine sauce, a signature Burgundian comfort food that showcases the region's culinary heritage."
+        },
+        {
+          "id": "auxe_f6",
+          "text": "Époisses Cheese",
+          "detail": "Sample this pungent, creamy washed-rind cheese from nearby, known for its bold aroma and rich flavor—best enjoyed with local bread and wine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "auxe_c1",
+          "text": "Respect the siesta tradition",
+          "detail": "Many shops and restaurants close between noon and 2 PM; plan accordingly and embrace the local rhythm of leisurely lunch breaks."
+        },
+        {
+          "id": "auxe_c2",
+          "text": "Learn basic French courtesies",
+          "detail": "Greet shopkeepers and servers with 'Bonjour' or 'Bonsoir' before speaking; politeness is deeply valued in this traditional French town."
+        },
+        {
+          "id": "auxe_c3",
+          "text": "Visit markets on weekends",
+          "detail": "Saturday morning markets near the cathedral feature fresh local produce, cheese, and crafts that reflect Burgundian rural traditions."
+        },
+        {
+          "id": "auxe_c4",
+          "text": "Dress modestly for churches",
+          "detail": "When visiting the cathedral and abbey, wear respectful clothing with covered shoulders and knees out of consideration for active religious spaces."
+        }
+      ]
+    },
+    {
+      "id": "pontarlier",
+      "name": "Pontarlier",
+      "nameIt": "Pontarlier",
+      "lat": 46.9047,
+      "lng": 6.3515,
+      "type": "TOWN",
+      "description": "A historic town in the Jura region famous as the capital of absinthe production and its traditional green spirit heritage. The town offers mountain gateway access and cultural heritage centered on its unique alcoholic traditions.",
+      "imageQueries": [
+        "Pontarlier absinthe distillery",
+        "Pontarlier Jura town"
+      ],
+      "activities": [
+        {
+          "id": "pont_1",
+          "text": "Absinthe Museum (Musée de l'Absinthe)",
+          "detail": "Explore the history and production of absinthe, Pontarlier's most famous export, with original distillery equipment and bottles from the 19th century.",
+          "lat": 46.8558,
+          "lng": 6.3467
+        },
+        {
+          "id": "pont_2",
+          "text": "Doubs River Gorge hiking",
+          "detail": "Trek through the dramatic limestone gorge of the Doubs River, accessible from Pontarlier with scenic trails and viewpoints into the Jura landscape."
+        },
+        {
+          "id": "pont_3",
+          "text": "Château de Joux",
+          "detail": "Visit this medieval fortress perched above the town offering panoramic views of the surrounding Jura mountains and valleys.",
+          "lat": 46.7953,
+          "lng": 6.2889
+        },
+        {
+          "id": "pont_4",
+          "text": "Historic town center stroll",
+          "detail": "Walk through Pontarlier's charming old streets lined with 18th-century architecture, fountains, and the central Place Saint-Louis.",
+          "lat": 46.8558,
+          "lng": 6.3467
+        },
+        {
+          "id": "pont_5",
+          "text": "Distillery tours (Pernod Ricard heritage sites)",
+          "detail": "Visit surviving absinthe distilleries or heritage sites to learn about traditional green spirit production methods that defined the town for centuries."
+        },
+        {
+          "id": "pont_6",
+          "text": "Lac de Chalain",
+          "detail": "Drive 30 minutes to this pristine glacial lake in the Jura for swimming, kayaking, and mountain views.",
+          "lat": 46.6531,
+          "lng": 5.8703
+        }
+      ],
+      "food": [
+        {
+          "id": "pont_f1",
+          "text": "Absinthe-based aperitifs and digestifs",
+          "detail": "Sample traditional absinthe prepared the authentic way with water and sugar, or enjoy modern absinthe cocktails in local cafés."
+        },
+        {
+          "id": "pont_f2",
+          "text": "Comté cheese",
+          "detail": "Taste this protected Appellation d'Origine Contrôlée hard cheese made in the surrounding Jura region, aged in local caves."
+        },
+        {
+          "id": "pont_f3",
+          "text": "Trout from the Doubs",
+          "detail": "Enjoy fresh freshwater trout prepared simply, often grilled or poached, sourced from the pristine Doubs River."
+        },
+        {
+          "id": "pont_f4",
+          "text": "Jura wine pairing",
+          "detail": "Pair meals with local yellow wines (vin jaune) or light Jura whites, traditionally produced in nearby vineyards."
+        },
+        {
+          "id": "pont_f5",
+          "text": "Mâche salad (Pontarlier greens)",
+          "detail": "Eat the local variety of lamb's lettuce, a tender leafy green that grows well in the cool Jura climate."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pont_c1",
+          "text": "Absinthe ritual respect",
+          "detail": "Understand that absinthe holds profound cultural significance in Pontarlier and is viewed as heritage, not merely a novelty drink."
+        },
+        {
+          "id": "pont_c2",
+          "text": "Quiet afternoons and early closures",
+          "detail": "The town observes traditional French rhythms with many shops and restaurants closing in early afternoon or on Mondays; plan accordingly."
+        },
+        {
+          "id": "pont_c3",
+          "text": "Mountain weather variability",
+          "detail": "The Jura location means weather changes quickly; bring layers even in summer and check conditions before hiking excursions."
+        },
+        {
+          "id": "pont_c4",
+          "text": "Distillery visiting etiquette",
+          "detail": "Call ahead to confirm tour availability at heritage sites, as many operate seasonally or require advance booking for group visits."
+        }
+      ]
+    },
+    {
+      "id": "arc_et_senans",
+      "name": "Arc-et-Senans",
+      "nameIt": "Arc-et-Senans",
+      "lat": 46.745,
+      "lng": 5.7732,
+      "type": "LANDMARK",
+      "description": "Home to the extraordinary Royal Saltworks, a UNESCO-listed 18th-century industrial complex designed as a perfect semi-circular city by architect Claude-Nicolas Ledoux. This remarkable site represents Enlightenment ideals of industrial architecture and urban planning.",
+      "imageQueries": [
+        "Arc-et-Senans Royal Saltworks",
+        "Arc-et-Senans UNESCO architecture"
+      ],
+      "activities": [
+        {
+          "id": "arc__1",
+          "text": "Royal Saltworks Tour",
+          "detail": "Explore the UNESCO-listed 18th-century industrial complex with its iconic semi-circular design and learn about salt production under the Ancien Régime.",
+          "lat": 47.0392,
+          "lng": 5.7658
+        },
+        {
+          "id": "arc__2",
+          "text": "Director's House Museum",
+          "detail": "Visit the elegant residence at the heart of the saltworks where the site director lived, showcasing period furnishings and the daily life of management.",
+          "lat": 47.0395,
+          "lng": 5.7655
+        },
+        {
+          "id": "arc__3",
+          "text": "Salt Crystallization Pools",
+          "detail": "Walk through the geometric evaporation ponds where brine was concentrated, a central feature of Ledoux's architectural vision.",
+          "lat": 47.0388,
+          "lng": 5.7648
+        },
+        {
+          "id": "arc__4",
+          "text": "Enlightenment Architecture Exhibition",
+          "detail": "Examine displays detailing Claude-Nicolas Ledoux's revolutionary urban planning theories and his vision of an ideal industrial city.",
+          "lat": 47.039,
+          "lng": 5.766
+        },
+        {
+          "id": "arc__5",
+          "text": "Picnic by the Loue River",
+          "detail": "Enjoy a meal near the nearby Loue River valley, which supplied the brine essential to the saltworks' operation.",
+          "lat": 47.042,
+          "lng": 5.77
+        }
+      ],
+      "food": [
+        {
+          "id": "arc__f1",
+          "text": "Jura Salt-Cured Ham",
+          "detail": "A regional specialty from nearby Jura, this air-dried ham is preserved using the salt historically produced at Arc-et-Senans."
+        },
+        {
+          "id": "arc__f2",
+          "text": "Comté Cheese",
+          "detail": "A protected Jura cheese made from local milk and traditionally aged, often paired with cured meats in the region."
+        },
+        {
+          "id": "arc__f3",
+          "text": "Poulet de Bresse",
+          "detail": "Free-range poultry from the nearby Bresse region, prepared simply to highlight its prized flavor and tender meat."
+        },
+        {
+          "id": "arc__f4",
+          "text": "Morels and Wild Mushrooms",
+          "detail": "Spring and autumn foraging yields these prized fungi, featured in cream sauces typical of Burgundy cuisine."
+        },
+        {
+          "id": "arc__f5",
+          "text": "Vin Jaune",
+          "detail": "A distinctive oxidized white wine from the Jura, aged six years in oak and known for its complex almond and walnut notes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arc__c1",
+          "text": "Guided Tours Required",
+          "detail": "Access to the saltworks interior and administrative buildings is by guided tour only; book ahead, especially in summer months."
+        },
+        {
+          "id": "arc__c2",
+          "text": "Respect Historic Preservation",
+          "detail": "The site is actively preserved as a UNESCO World Heritage property, so visitors should follow marked paths and heed barriers protecting original structures."
+        },
+        {
+          "id": "arc__c3",
+          "text": "French Rural Pace",
+          "detail": "Arc-et-Senans is a small village; allow time to adjust to a slower rhythm and plan visits accordingly, as local services have limited hours."
+        }
+      ]
+    },
+    {
+      "id": "besancon",
+      "name": "Besançon",
+      "nameIt": "Besançon",
+      "lat": 47.2397,
+      "lng": 6.0271,
+      "type": "CITY",
+      "description": "The capital of the Franche-Comté region, Besançon is dramatically situated within a meander of the Doubs River and features an impressive citadel designed by Vauban with panoramic views. The city combines military heritage, fine museums, and Renaissance architecture.",
+      "imageQueries": [
+        "Besançon Vauban citadel",
+        "Besançon Doubs river"
+      ],
+      "activities": [
+        {
+          "id": "besa_1",
+          "text": "Citadelle de Besançon",
+          "detail": "Explore Vauban's 17th-century fortress perched above the city, featuring museums on local history, natural science, and the French Resistance with sweeping views of the Doubs River meander.",
+          "lat": 47.2373,
+          "lng": 6.2241
+        },
+        {
+          "id": "besa_2",
+          "text": "Cathédrale Saint-Jean",
+          "detail": "Visit this Renaissance cathedral in the heart of the old town, notable for its ornate façade, impressive interior, and the astronomical clock built by the Huguenin family.",
+          "lat": 47.2372,
+          "lng": 6.0216
+        },
+        {
+          "id": "besa_3",
+          "text": "Musée des Beaux-Arts et d'Archéologie",
+          "detail": "Discover one of France's oldest museums housing Egyptian mummies, Renaissance paintings, and local archaeological treasures in the Palais Granvelle.",
+          "lat": 47.2375,
+          "lng": 6.0185
+        },
+        {
+          "id": "besa_4",
+          "text": "Walk the Old Town (Vieille Ville)",
+          "detail": "Stroll through Renaissance streets lined with elegant stone buildings, hidden courtyards, and boutiques that showcase the architectural heritage of this medieval quarter.",
+          "lat": 47.2376,
+          "lng": 6.022
+        },
+        {
+          "id": "besa_5",
+          "text": "Doubs River Promenade",
+          "detail": "Take a leisurely walk or boat ride along the Doubs to appreciate the dramatic natural meander that encircles Besançon and enjoy riverside parks.",
+          "lat": 47.245,
+          "lng": 6.015
+        },
+        {
+          "id": "besa_6",
+          "text": "Musée de la Monnaie et des Techniques horlogères",
+          "detail": "Learn about Besançon's historic role as a watchmaking center through displays of intricate timepieces and the craftsmanship that earned the city international renown.",
+          "lat": 47.239,
+          "lng": 6.02
+        }
+      ],
+      "food": [
+        {
+          "id": "besa_f1",
+          "text": "Meunier à la Bisontine",
+          "detail": "A local fish dish featuring pike or trout prepared with a creamy Jura wine sauce, reflecting the region's freshwater traditions."
+        },
+        {
+          "id": "besa_f2",
+          "text": "Comté Cheese",
+          "detail": "Sample aged wheels of this protected AOC cheese from nearby Jura mountains, best enjoyed at local fromageries or paired with Jura wines."
+        },
+        {
+          "id": "besa_f3",
+          "text": "Saucisse de Morge",
+          "detail": "A traditional Besançon sausage made from pork and herbs, typically served grilled or in local stews as a hearty regional specialty."
+        },
+        {
+          "id": "besa_f4",
+          "text": "Poularde Comtoise",
+          "detail": "Chicken from the Jura region braised in cream with mushrooms and Jura wine, showcasing the area's agricultural bounty."
+        },
+        {
+          "id": "besa_f5",
+          "text": "Jura Wine Tasting",
+          "detail": "Explore local yellow and vin de paille wines from nearby Jura vineyards, with cellars and wine bars throughout the city offering tastings and pairings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "besa_c1",
+          "text": "Respectful Citadelle Visits",
+          "detail": "The Citadelle remains an active military site; follow posted guidelines and be mindful of restricted areas while enjoying public museum sections and viewpoints."
+        },
+        {
+          "id": "besa_c2",
+          "text": "Market Day Timing",
+          "detail": "Visit Wednesday and Saturday morning markets in the Place de la Révolution for the freshest regional produce, cheeses, and crafts when locals do their shopping."
+        },
+        {
+          "id": "besa_c3",
+          "text": "Afternoon Closure Custom",
+          "detail": "Many smaller museums and shops close between noon and 2 p.m. for lunch; plan activities accordingly and embrace the French tradition of leisurely midday meals."
+        },
+        {
+          "id": "besa_c4",
+          "text": "River Access Etiquette",
+          "detail": "While the Doubs is scenic, respect swimming restrictions and life jacket requirements for boat activities; locals value the river's ecological preservation."
+        }
+      ]
+    },
+    {
+      "id": "morvan",
+      "name": "Morvan",
+      "nameIt": "Morvan",
+      "lat": 47.15,
+      "lng": 4,
+      "type": "NATURE",
+      "description": "A wild and forested mountain range in southern Burgundy offering outdoor activities including hiking, cycling, and water sports on its lakes. The landscape provides stunning natural beauty and escape from urban centers, with traditional villages scattered throughout.",
+      "imageQueries": [
+        "Morvan mountains Burgundy hiking",
+        "Morvan forest lakes"
+      ],
+      "activities": [
+        {
+          "id": "morv_1",
+          "text": "Lac des Settons",
+          "detail": "A scenic alpine lake perfect for swimming, kayaking, and windsurfing surrounded by forest trails and beaches.",
+          "lat": 47.2167,
+          "lng": 3.9667
+        },
+        {
+          "id": "morv_2",
+          "text": "Mont Beuvray Hiking",
+          "detail": "Climb the highest peak in Morvan at 901 meters for panoramic views across Burgundy and explore ancient Celtic oppidum ruins at the summit.",
+          "lat": 47.0467,
+          "lng": 4.0183
+        },
+        {
+          "id": "morv_3",
+          "text": "Cycling the Morvan Routes",
+          "detail": "Pedal through quiet forest roads and rolling terrain on well-marked routes designed for road and mountain biking enthusiasts."
+        },
+        {
+          "id": "morv_4",
+          "text": "Lac de Saint-Agnan Water Sports",
+          "detail": "A peaceful lake ideal for fishing, canoeing, and family picnicking with scenic shoreline walks through oak and beech forests.",
+          "lat": 47.1833,
+          "lng": 4.1667
+        },
+        {
+          "id": "morv_5",
+          "text": "Saulieu Abbey and Town",
+          "detail": "Visit this charming medieval town famous for its Romanesque basilica and gourmet restaurants, serving as a cultural gateway to Morvan.",
+          "lat": 47.2333,
+          "lng": 4.2167
+        },
+        {
+          "id": "morv_6",
+          "text": "Gorges de la Cure Canoeing",
+          "detail": "Paddle through dramatic limestone gorges with riverside cliffs and access to hidden beaches and natural swimming holes.",
+          "lat": 47.3333,
+          "lng": 3.8333
+        },
+        {
+          "id": "morv_7",
+          "text": "Val d'Yonne Valley Trail",
+          "detail": "Follow a gentle 25-kilometer hiking or cycling path along the Yonne river with traditional mill villages and riverside picnic spots."
+        }
+      ],
+      "food": [
+        {
+          "id": "morv_f1",
+          "text": "Jambon de Morvan",
+          "detail": "Locally cured and smoked ham made from free-range pigs, a Protected Designation of Origin product with deep smoky flavor and tender texture."
+        },
+        {
+          "id": "morv_f2",
+          "text": "Escargots de Bourgogne",
+          "detail": "Burgundy snails prepared with garlic, parsley, and butter—a regional delicacy often found in Morvan restaurant menus."
+        },
+        {
+          "id": "morv_f3",
+          "text": "Époisses de Bourgogne Cheese",
+          "detail": "A pungent, washed-rind cheese from nearby Burgundy with creamy interior, traditionally paired with Burgundy wine and crusty bread."
+        },
+        {
+          "id": "morv_f4",
+          "text": "Trout from Local Streams",
+          "detail": "Fresh-caught trout prepared simply grilled or in creamy Burgundy wine sauce, showcasing the region's pristine waters."
+        },
+        {
+          "id": "morv_f5",
+          "text": "Blackcurrant Liqueur and Pastries",
+          "detail": "Local cassis liqueur and crème de cassis used in pastries and desserts, reflecting Burgundy's famous fruit harvest."
+        }
+      ],
+      "culture": [
+        {
+          "id": "morv_c1",
+          "text": "Respect Forest Regulations",
+          "detail": "Morvan is a protected regional park; stick to marked trails, observe seasonal hunting closures, and always ask permission before foraging."
+        },
+        {
+          "id": "morv_c2",
+          "text": "Embrace the Slow Pace",
+          "detail": "Villages close early and services are limited in rural areas—plan meals in advance and don't expect urban convenience, which is part of Morvan's authentic charm."
+        },
+        {
+          "id": "morv_c3",
+          "text": "Visit During Off-Season",
+          "detail": "Spring and autumn offer the best combination of pleasant weather and fewer crowds, with locals more available for conversation and traditional activities ongoing."
+        }
+      ]
+    },
+    {
+      "id": "flavigny_sur_ozerain",
+      "name": "Flavigny-sur-Ozerain",
+      "nameIt": "Flavigny-sur-Ozerain",
+      "lat": 47.5667,
+      "lng": 4.3179,
+      "type": "VILLAGE",
+      "description": "A tiny medieval village preserved in time, famous as the filming location for the movie Chocolat and for its production of aniseed candies. The village offers cobbled streets, ancient abbey ruins, and artisanal shops in an exceptionally picturesque setting.",
+      "imageQueries": [
+        "Flavigny-sur-Ozerain Chocolat village",
+        "Flavigny medieval aniseed"
+      ],
+      "activities": [
+        {
+          "id": "flav_1",
+          "text": "Abbey of Sainte-Croix",
+          "detail": "Explore the ruins and remaining structures of this 8th-century Benedictine abbey that once dominated the village and now houses a museum of religious artifacts.",
+          "lat": 47.5233,
+          "lng": 4.5733
+        },
+        {
+          "id": "flav_2",
+          "text": "Anis de Flavigny Factory Tour",
+          "detail": "Visit the historic candy-making facility to see how traditional aniseed candies have been produced since 1591 using centuries-old techniques.",
+          "lat": 47.5231,
+          "lng": 4.5739
+        },
+        {
+          "id": "flav_3",
+          "text": "Chocolat Movie Locations",
+          "detail": "Walk the cobbled streets and identify filming locations from the 2000 film Chocolat, including the central square and village storefronts.",
+          "lat": 47.5235,
+          "lng": 4.5735
+        },
+        {
+          "id": "flav_4",
+          "text": "Medieval Ramparts Walk",
+          "detail": "Follow the preserved medieval fortification walls that encircle the village for panoramic views of the Ozerain Valley and surrounding Burgundy countryside.",
+          "lat": 47.5232,
+          "lng": 4.5736
+        },
+        {
+          "id": "flav_5",
+          "text": "Artisanal Shops and Galleries",
+          "detail": "Browse small workshops and boutiques selling local crafts, pottery, textiles, and candies along the narrow winding streets.",
+          "lat": 47.5234,
+          "lng": 4.5734
+        },
+        {
+          "id": "flav_6",
+          "text": "Church of Sainte-Genest",
+          "detail": "Visit this 13th-century parish church featuring Gothic architecture and original stained glass windows.",
+          "lat": 47.5236,
+          "lng": 4.5732
+        }
+      ],
+      "food": [
+        {
+          "id": "flav_f1",
+          "text": "Anis de Flavigny candies",
+          "detail": "These iconic aniseed-flavored hard candies coated in pastel colors are the village's signature product, sold throughout the abbey gift shop and local vendors."
+        },
+        {
+          "id": "flav_f2",
+          "text": "Burgundy escargots",
+          "detail": "Sample Burgundy snails prepared with garlic, parsley, and butter at local restaurants, a regional delicacy that pairs with local Pinot Noir."
+        },
+        {
+          "id": "flav_f3",
+          "text": "Coq au vin",
+          "detail": "This classic Burgundian stew of chicken braised in local red wine with pearl onions and mushrooms is served at village inns and small restaurants."
+        },
+        {
+          "id": "flav_f4",
+          "text": "Crème de cassis desserts",
+          "detail": "Taste blackcurrant liqueur-based sweets and tarts that showcase this famous Burgundy ingredient in the village's pastry shops."
+        },
+        {
+          "id": "flav_f5",
+          "text": "Local Pinot Noir and Chardonnay",
+          "detail": "Sample wines from nearby Burgundy vineyards at village cafés and restaurants, which benefit from the region's limestone-rich terroir."
+        }
+      ],
+      "culture": [
+        {
+          "id": "flav_c1",
+          "text": "Visit in spring or early autumn",
+          "detail": "Summer crowds can overwhelm the tiny village, while spring wildflowers and autumn colors provide the best experience for appreciating its medieval charm."
+        },
+        {
+          "id": "flav_c2",
+          "text": "Wear comfortable walking shoes",
+          "detail": "The village's steep cobbled streets and uneven medieval lanes require sturdy footwear, and most sites are only accessible on foot."
+        },
+        {
+          "id": "flav_c3",
+          "text": "Abbey museum has limited hours",
+          "detail": "The Abbey of Sainte-Croix and its museum operate seasonally and with restricted hours, so plan visits accordingly and check ahead during off-season."
+        },
+        {
+          "id": "flav_c4",
+          "text": "Learn about Chocolat filming history",
+          "detail": "The village proudly embraces its role as the filming location for the Johnny Depp film, and locals enjoy discussing which buildings and streets were featured."
+        }
+      ]
+    },
+    {
+      "id": "gevrey_chambertin",
+      "name": "Gevrey-Chambertin",
+      "nameIt": "Gevrey-Chambertin",
+      "lat": 47.5232,
+      "lng": 4.9132,
+      "type": "TOWN",
+      "description": "A prestigious wine village in the Côte de Nuits known for producing some of Burgundy's finest red wines, particularly the legendary Gevrey-Chambertin. The village combines wine tasting at historic cellars with medieval charm and vineyard-lined countryside.",
+      "imageQueries": [
+        "Gevrey-Chambertin wine Burgundy",
+        "Gevrey-Chambertin vineyard village"
+      ],
+      "activities": [
+        {
+          "id": "gevr_1",
+          "text": "Chambertin Grand Cru Vineyard Walk",
+          "detail": "Explore the famous Chambertin vineyard on foot, one of Burgundy's most celebrated terroirs, with views across the Côte de Nuits slopes.",
+          "lat": 48.1667,
+          "lng": 5.0333
+        },
+        {
+          "id": "gevr_2",
+          "text": "Domaine Armand Rousseau Cellars Tour",
+          "detail": "Visit one of Gevrey-Chambertin's most prestigious domaines to taste legendary Pinot Noirs in historic underground cellars dating back centuries.",
+          "lat": 48.1675,
+          "lng": 5.0342
+        },
+        {
+          "id": "gevr_3",
+          "text": "Medieval Church of Saint-Étienne",
+          "detail": "Admire this 13th-century church in the village center with its Romanesque architecture and stained glass, a focal point of Gevrey's heritage.",
+          "lat": 48.1672,
+          "lng": 5.0317
+        },
+        {
+          "id": "gevr_4",
+          "text": "Hospices de Gevrey-Chambertin",
+          "detail": "Tour the historic hospice with its distinctive Burgundian roof tiles and learn about the charitable institution's wine holdings.",
+          "lat": 48.168,
+          "lng": 5.0325
+        },
+        {
+          "id": "gevr_5",
+          "text": "Route des Grands Crus Drive",
+          "detail": "Drive the scenic wine route connecting Gevrey-Chambertin to neighboring villages like Morey-Saint-Denis and Chambolle-Musigny through terraced vineyards.",
+          "lat": 48.1667,
+          "lng": 5.0333
+        },
+        {
+          "id": "gevr_6",
+          "text": "Maison Leroy Wine Cellar",
+          "detail": "Descend into one of France's oldest wine cellars, where bottles have aged since the 18th century in limestone quarries beneath the village.",
+          "lat": 48.167,
+          "lng": 5.032
+        }
+      ],
+      "food": [
+        {
+          "id": "gevr_f1",
+          "text": "Coq au Vin",
+          "detail": "This classic Burgundian stew of rooster braised in local Gevrey-Chambertin wine with mushrooms and pearl onions is a signature dish reflecting the region's culinary tradition."
+        },
+        {
+          "id": "gevr_f2",
+          "text": "Œufs en Meurette",
+          "detail": "Poached eggs served in a rich sauce made with red Burgundy wine, bacon, and pearl onions, an iconic Burgundian preparation found at local restaurants."
+        },
+        {
+          "id": "gevr_f3",
+          "text": "Escargots à la Bourguignonne",
+          "detail": "Land snails prepared with garlic, parsley, and Burgundy wine butter, a regional delicacy best enjoyed at traditional bistros in the village."
+        },
+        {
+          "id": "gevr_f4",
+          "text": "Jambon de Bourgogne",
+          "detail": "Cured Burgundian ham traditionally served cold as an appetizer, often paired with Kir or local wine at village cafés."
+        },
+        {
+          "id": "gevr_f5",
+          "text": "Époisses Cheese Pairing",
+          "detail": "Sample the notoriously pungent local washed-rind cheese from nearby Epoisses alongside a glass of crisp white Burgundy or lighter red wines."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gevr_c1",
+          "text": "Respectful Cellar Etiquette",
+          "detail": "Always book vineyard and cellar visits in advance, arrive punctually, and follow your guide's instructions—these are working spaces where reverence for the wine-making process is expected."
+        },
+        {
+          "id": "gevr_c2",
+          "text": "Wine Tasting Protocol",
+          "detail": "In Burgundy, tastings are leisurely affairs; pace yourself, ask questions about terroir and vintage, and never rush through samples—quality over quantity is the regional philosophy."
+        },
+        {
+          "id": "gevr_c3",
+          "text": "Best Season for Visiting",
+          "detail": "Visit in September during harvest season for vibrant vineyard energy, or October-November for autumn colors and fewer crowds; avoid August when many domaines close for summer."
+        },
+        {
+          "id": "gevr_c4",
+          "text": "Language and Local Pride",
+          "detail": "Learn basic French phrases, as English is limited in small village establishments, and show genuine interest in Burgundian wine heritage—locals deeply respect serious wine enthusiasts."
+        }
+      ]
+    },
+    {
+      "id": "montbard",
+      "name": "Montbard",
+      "nameIt": "Montbard",
+      "lat": 47.6144,
+      "lng": 4.3539,
+      "type": "TOWN",
+      "description": "A historic town dominated by the ruins of its medieval castle and home to the Buffon Museum, dedicated to the famous naturalist who lived here. The town combines medieval fortifications with botanical gardens and cultural heritage.",
+      "imageQueries": [
+        "Montbard castle ruins",
+        "Montbard Buffon Museum"
+      ],
+      "activities": [
+        {
+          "id": "mont_1",
+          "text": "Explore Château de Montbard Ruins",
+          "detail": "Wander through the remains of this 12th-century fortress that dominates the town skyline, offering panoramic views of the Brenne valley and medieval rampart fragments.",
+          "lat": 47.6089,
+          "lng": 4.3356
+        },
+        {
+          "id": "mont_2",
+          "text": "Visit Buffon Museum",
+          "detail": "Discover the life and scientific work of Georges-Louis Leclerc, Comte de Buffon, the 18th-century naturalist who lived in Montbard, housed in his former residence.",
+          "lat": 47.6095,
+          "lng": 4.3344
+        },
+        {
+          "id": "mont_3",
+          "text": "Stroll through Jardins de l'Abbaye",
+          "detail": "Walk the botanical gardens featuring period plantings and designs that reflect the naturalist studies conducted here during Buffon's era.",
+          "lat": 47.6078,
+          "lng": 4.3365
+        },
+        {
+          "id": "mont_4",
+          "text": "Tour the Medieval Town Center",
+          "detail": "Navigate the narrow cobbled streets lined with Renaissance mansions and half-timbered houses dating back to the 16th and 17th centuries.",
+          "lat": 47.6105,
+          "lng": 4.334
+        },
+        {
+          "id": "mont_5",
+          "text": "Visit Église Saint-Urse",
+          "detail": "See this Gothic church with its characteristic Burgundian architecture and interior chapels spanning multiple centuries of regional religious art.",
+          "lat": 47.6112,
+          "lng": 4.3348
+        },
+        {
+          "id": "mont_6",
+          "text": "Walk the Brenne Riverside Path",
+          "detail": "Follow the scenic walking trail along the river that winds through Montbard, connecting the castle ruins to the lower town and offering natural views.",
+          "lat": 47.613,
+          "lng": 4.329
+        }
+      ],
+      "food": [
+        {
+          "id": "mont_f1",
+          "text": "Œufs en Meurette",
+          "detail": "A classic Burgundian dish of poached eggs in red wine sauce with pearl onions and mushrooms, reflecting the region's wine-country culinary traditions."
+        },
+        {
+          "id": "mont_f2",
+          "text": "Jambon de Morge",
+          "detail": "Local cured ham from the surrounding Burgundy region, often served as part of a charcuterie board with local cheeses and bread."
+        },
+        {
+          "id": "mont_f3",
+          "text": "Coq au Vin",
+          "detail": "Chicken braised in Burgundy wine with lardons, mushrooms, and onions—a signature dish of the region available in traditional restaurants throughout town."
+        },
+        {
+          "id": "mont_f4",
+          "text": "Époisses de Bourgogne",
+          "detail": "A pungent washed-rind cheese from nearby Époisses village, known for its strong aroma and creamy texture, available at local fromageries."
+        },
+        {
+          "id": "mont_f5",
+          "text": "Kir",
+          "detail": "A refreshing aperitif made with white wine and blackcurrant liqueur from Dijon, commonly offered in cafés and bars throughout Montbard."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mont_c1",
+          "text": "Visit during morning market hours",
+          "detail": "The town market operates in the early morning most days, offering the freshest local produce, cheese, and regional specialties in an authentic Burgundian setting."
+        },
+        {
+          "id": "mont_c2",
+          "text": "Respect the siesta tradition",
+          "detail": "Many shops and museums close between 12 and 2 p.m., so plan activities accordingly and enjoy a leisurely lunch like locals do."
+        },
+        {
+          "id": "mont_c3",
+          "text": "Learn about Buffon's legacy",
+          "detail": "The town is deeply proud of its connection to the Enlightenment naturalist; reading about his contributions before visiting enriches appreciation for the museums and gardens."
+        },
+        {
+          "id": "mont_c4",
+          "text": "Explore on foot or by bike",
+          "detail": "Montbard's compact medieval layout is best experienced without a car; the town provides bike rentals and walking routes connecting major historical sites."
+        }
+      ]
+    },
+    {
+      "id": "ornans",
+      "name": "Ornans",
+      "nameIt": "Ornans",
+      "lat": 46.895,
+      "lng": 6.1433,
+      "type": "TOWN",
+      "description": "A picturesque riverside town in the Doubs region famous for its birthplace connection to the painter Gustave Courbet and his mirror-like reflection in the Loue River. The town's artistic heritage is celebrated in the Courbet Museum within an elegant riverside mansion.",
+      "imageQueries": [
+        "Ornans Doubs river Courbet",
+        "Ornans Franche-Comté town"
+      ],
+      "activities": [
+        {
+          "id": "orna_1",
+          "text": "Musée Courbet",
+          "detail": "Explore the birthplace and museum dedicated to realist painter Gustave Courbet in an 18th-century riverside mansion showcasing his major works and life.",
+          "lat": 46.8526,
+          "lng": 6.4672
+        },
+        {
+          "id": "orna_2",
+          "text": "Loue River Walk",
+          "detail": "Stroll along the picturesque Loue River through Ornans where Courbet's famous paintings captured the water's mirror-like reflections and limestone cliffs.",
+          "lat": 46.853,
+          "lng": 6.468
+        },
+        {
+          "id": "orna_3",
+          "text": "Old Town Wandering",
+          "detail": "Meander through Ornans' medieval streets lined with stone houses featuring characteristic Jurassien architecture and riverside arcaded buildings.",
+          "lat": 46.8525,
+          "lng": 6.467
+        },
+        {
+          "id": "orna_4",
+          "text": "Limestone Cliffs Hiking",
+          "detail": "Hike the surrounding trails offering dramatic views of the white limestone escarpments that frame the Loue River valley and inspired Courbet's landscapes.",
+          "lat": 46.855,
+          "lng": 6.47
+        },
+        {
+          "id": "orna_5",
+          "text": "Pêcherie Museum",
+          "detail": "Visit this small museum documenting the traditional fishing heritage of the Loue River and local Jurassien fishing techniques.",
+          "lat": 46.852,
+          "lng": 6.4665
+        },
+        {
+          "id": "orna_6",
+          "text": "Ornans Market",
+          "detail": "Browse the weekly outdoor market featuring local Doubs produce, Comté cheese, and Jura wines in the town center squares.",
+          "lat": 46.8535,
+          "lng": 6.4675
+        }
+      ],
+      "food": [
+        {
+          "id": "orna_f1",
+          "text": "Trout from the Loue",
+          "detail": "Fresh locally-caught trout prepared simply grilled or in traditional Jurassien preparations with butter and local herbs from the river valleys."
+        },
+        {
+          "id": "orna_f2",
+          "text": "Comté Cheese",
+          "detail": "Sample aged Comté from the Doubs region, a protected denomination cheese made from Montbéliarde cattle milk in nearby Alpine-Jura dairies."
+        },
+        {
+          "id": "orna_f3",
+          "text": "Jura Wine Pairing",
+          "detail": "Taste local Jura wines including Savagnin and Poulsard varieties that pair traditionally with regional dishes and local gastronomy."
+        },
+        {
+          "id": "orna_f4",
+          "text": "Coq au Jura",
+          "detail": "Enjoy this regional speciality of rooster braised in local Jura wine, cream, and mushrooms representing classic Burgundy-Jura cuisine."
+        },
+        {
+          "id": "orna_f5",
+          "text": "Meurette Omelet",
+          "detail": "Try this traditional Jurassien dish of eggs poached in local red wine with pearl onions and mushrooms, served warm as a main course."
+        }
+      ],
+      "culture": [
+        {
+          "id": "orna_c1",
+          "text": "Courbet's Artistic Pilgrimage",
+          "detail": "Ornans deeply identifies with Gustave Courbet as its native son; respecting the painter's legacy by visiting the museum and his depicted locations is central to understanding the town."
+        },
+        {
+          "id": "orna_c2",
+          "text": "River Reverence",
+          "detail": "The Loue River is not merely scenery but the soul of Ornans; locals maintain deep environmental and spiritual connections to its waters and limestone geology."
+        },
+        {
+          "id": "orna_c3",
+          "text": "Seasonal Market Culture",
+          "detail": "Weekly markets remain vital social and commercial hubs where locals and visitors gather; visiting on market days (typically mornings) offers authentic community interaction and fresh regional products."
+        },
+        {
+          "id": "orna_c4",
+          "text": "Slow Tourism Ethos",
+          "detail": "Ornans embraces a slow-travel philosophy where visitors are expected to spend days rather than hours, appreciating quiet contemplation and artistic reflection rather than rapid monument-checking."
+        }
+      ]
+    },
+    {
+      "id": "nuits_saint_georges",
+      "name": "Nuits-Saint-Georges",
+      "nameIt": "Nuits-Saint-Georges",
+      "lat": 47.1347,
+      "lng": 4.7709,
+      "type": "TOWN",
+      "description": "A prestigious wine village in the Côte de Nuits famous for robust red wines and its annual charity wine auction, the Hospices de Nuits-Saint-Georges. The town offers excellent wine cellars, a charming medieval center, and access to the region's most celebrated vineyards.",
+      "imageQueries": [
+        "Nuits-Saint-Georges wine auction",
+        "Nuits-Saint-Georges Burgundy"
+      ],
+      "activities": [
+        {
+          "id": "nuit_1",
+          "text": "Wine Cellar Tours",
+          "detail": "Visit prestigious négociant and producer cellars such as Domaine de l'Arlot or Maison Faiveley to taste Pinot Noir and learn about aging in underground limestone caves.",
+          "lat": 47.1333,
+          "lng": 4.7333
+        },
+        {
+          "id": "nuit_2",
+          "text": "Hospices de Nuits-Saint-Georges",
+          "detail": "Explore this 17th-century charitable institution famous for hosting the annual wine auction (Les Hospices de Nuits) every March, with Renaissance architecture and historical wine collections.",
+          "lat": 47.1329,
+          "lng": 4.7342
+        },
+        {
+          "id": "nuit_3",
+          "text": "Medieval Town Center Walk",
+          "detail": "Stroll through narrow cobblestone streets lined with Renaissance buildings, including the Church of Saint-Symphorien and traditional stone facades in the historic core.",
+          "lat": 47.1325,
+          "lng": 4.734
+        },
+        {
+          "id": "nuit_4",
+          "text": "Vineyard Hikes in Côte de Nuits",
+          "detail": "Walk through UNESCO-listed classified vineyards on the hillsides surrounding the town, including parcels from acclaimed crus like Les Saint-Georges and Les Cailles.",
+          "lat": 47.135,
+          "lng": 4.735
+        },
+        {
+          "id": "nuit_5",
+          "text": "Musée de la Nuit",
+          "detail": "Visit this small museum dedicated to the region's winemaking heritage, displaying historical tools, bottles, and documentation of Burgundy's viticultural traditions.",
+          "lat": 47.133,
+          "lng": 4.7335
+        },
+        {
+          "id": "nuit_6",
+          "text": "Wine School Classes",
+          "detail": "Enroll in wine-tasting courses and viticulture workshops offered by local sommeliers and wine experts to deepen your understanding of Burgundy's terroir and production methods."
+        }
+      ],
+      "food": [
+        {
+          "id": "nuit_f1",
+          "text": "Coq au Vin",
+          "detail": "A classic Burgundian braised chicken dish made with local Pinot Noir, mushrooms, pearl onions, and lardons, best enjoyed in traditional village restaurants."
+        },
+        {
+          "id": "nuit_f2",
+          "text": "Escargots à la Bourguignonne",
+          "detail": "Land snails prepared with garlic, parsley, and butter sauce, a regional specialty that pairs perfectly with local white wine or lighter Pinot Noirs."
+        },
+        {
+          "id": "nuit_f3",
+          "text": "Jambon de Bourgogne",
+          "detail": "Burgundian cured ham, typically served thinly sliced as an aperitif or ingredient in regional dishes, showcasing the area's charcuterie tradition."
+        },
+        {
+          "id": "nuit_f4",
+          "text": "Époisses de Bourgogne",
+          "detail": "A pungent washed-rind cheese from nearby Époisses village with a creamy interior, traditionally washed in Marc de Bourgogne brandy and served with crusty bread."
+        },
+        {
+          "id": "nuit_f5",
+          "text": "Wine Pairing Tasting Menus",
+          "detail": "Multi-course dinners at local restaurants such as Le Gentleman or family-run bistros paired specifically with producers' Pinot Noirs and regional wines from the cellar."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nuit_c1",
+          "text": "Respect the Wine Auction Season",
+          "detail": "March brings the prestigious Hospices de Nuits auction; book accommodations well in advance as the town fills with international wine merchants, collectors, and enthusiasts."
+        },
+        {
+          "id": "nuit_c2",
+          "text": "Learn Basic Wine Etiquette",
+          "detail": "In cellars and restaurants, allow sommeliers to guide tastings, avoid wearing heavy perfume, and understand that most locals take their Pinot Noir seriously—casual wine criticism may not be welcomed."
+        },
+        {
+          "id": "nuit_c3",
+          "text": "Embrace Slow, Deliberate Dining",
+          "detail": "Burgundian meals are lengthy affairs meant for leisurely conversation; rushing through a restaurant meal or wine tasting is considered disrespectful to the producer and tradition."
+        },
+        {
+          "id": "nuit_c4",
+          "text": "Visit Producers by Appointment",
+          "detail": "Most small family domaines and négociants require advance booking for cellar visits; drop-in visits to prestigious estates are rarely accommodated, so plan ahead through tourism offices."
+        }
+      ]
+    },
+    {
+      "id": "cascades_du_herisson",
+      "name": "Cascades du Hérisson",
+      "nameIt": "Cascades du Hérisson",
+      "lat": 46.4667,
+      "lng": 5.7167,
+      "type": "NATURE",
+      "description": "A spectacular series of waterfalls cascading through lush Jura forest, one of the region's most dramatic natural attractions. The site offers excellent hiking trails with stunning views of multiple tiers of waterfalls and pristine woodland.",
+      "imageQueries": [
+        "Cascades du Hérisson waterfall",
+        "Hérisson waterfalls Jura"
+      ],
+      "activities": [
+        {
+          "id": "casc_1",
+          "text": "Waterfall Loop Hike",
+          "detail": "Trek the main 3.5 km circuit trail connecting all seven major waterfalls, starting from the Parking du Saut Girard.",
+          "lat": 46.4583,
+          "lng": 5.7317
+        },
+        {
+          "id": "casc_2",
+          "text": "Saut Girard Viewpoint",
+          "detail": "Visit the uppermost and most powerful waterfall where water plunges 35 meters into a dramatic rocky basin.",
+          "lat": 46.462,
+          "lng": 5.733
+        },
+        {
+          "id": "casc_3",
+          "text": "Eventail Waterfall Photography",
+          "detail": "Capture the ethereal Eventail (Fan) waterfall, named for its delicate spray pattern that spreads like a fan across the rocks.",
+          "lat": 46.455,
+          "lng": 5.728
+        },
+        {
+          "id": "casc_4",
+          "text": "Forest Bathing Walk",
+          "detail": "Stroll slowly through the old-growth Jura forest canopy between waterfalls to experience the region's pristine woodland ecosystem.",
+          "lat": 46.457,
+          "lng": 5.73
+        },
+        {
+          "id": "casc_5",
+          "text": "Cascades Trail Extension to Chalain Lake",
+          "detail": "Extend your hike beyond the main circuit toward Lac de Chalain for additional forest scenery and wildlife viewing opportunities.",
+          "lat": 46.45,
+          "lng": 5.74
+        },
+        {
+          "id": "casc_6",
+          "text": "Rock Pool Wading",
+          "detail": "Cool off in the natural pools at the base of the lower waterfalls during summer months (water is cold year-round).",
+          "lat": 46.448,
+          "lng": 5.725
+        }
+      ],
+      "food": [
+        {
+          "id": "casc_f1",
+          "text": "Comté Cheese",
+          "detail": "Sample this protected designation Jura cheese made from local Montbéliarde cattle, aged in nearby cooperative cellars."
+        },
+        {
+          "id": "casc_f2",
+          "text": "Morbier Cheese",
+          "detail": "Taste the distinctive striped Jura cheese with its characteristic line of vegetable ash running through the middle."
+        },
+        {
+          "id": "casc_f3",
+          "text": "Trout from Local Streams",
+          "detail": "Enjoy fresh-caught trout prepared simply at regional restaurants, sourced from the pristine Jura waterways."
+        },
+        {
+          "id": "casc_f4",
+          "text": "Jura Wine Pairing",
+          "detail": "Pair your meals with local Jura wines like Savagnin blanc or light Pinot Noir from nearby vineyards."
+        },
+        {
+          "id": "casc_f5",
+          "text": "Pain d'Épices",
+          "detail": "Try the traditional spiced gingerbread cake that is a specialty of the Bourgogne-Franche-Comté region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "casc_c1",
+          "text": "Arrive Early for Parking",
+          "detail": "The small parking area fills quickly on weekends and summer days, so arrive by 9 AM or visit midweek for better access."
+        },
+        {
+          "id": "casc_c2",
+          "text": "Weather-Dependent Water Flow",
+          "detail": "Visit in spring (April-May) or after heavy rain for the most dramatic waterfall displays, as summer heat can reduce water volume significantly."
+        },
+        {
+          "id": "casc_c3",
+          "text": "Respect Forest Boundaries",
+          "detail": "Stay on marked trails to protect the delicate Jura forest ecosystem and preserve the natural habitat for local wildlife."
+        },
+        {
+          "id": "casc_c4",
+          "text": "Bring Proper Hiking Footwear",
+          "detail": "The terrain is rocky and often wet with mist; waterproof hiking boots with good grip are essential for safe navigation."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Restaurant William Frachot",
+      "address": "Place Carnot, Dijon",
+      "neighbourhood": "Dijon Centre",
+      "cuisine": "French Contemporary",
+      "priceRange": "€€€",
+      "description": "Elegant Michelin-starred dining featuring inventive takes on Burgundian classics in a refined setting.",
+      "mustOrder": "Coq au Vin with modern presentation",
+      "lat": 47.322,
+      "lng": 5.0372
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Le Pré aux Clercs",
+      "address": "13 Place Bossuet, Dijon",
+      "neighbourhood": "Dijon Centre",
+      "cuisine": "French Gastronomic",
+      "priceRange": "€€€€",
+      "description": "Prestigious two-Michelin-starred restaurant showcasing chef Jean-Pierre Billoux's masterful classical French cuisine.",
+      "mustOrder": "Homard Thermidor",
+      "lat": 47.3235,
+      "lng": 5.0392
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Loiseau des Vignes",
+      "address": "31 Rue Maufoux, Beaune",
+      "neighbourhood": "Beaune Centre",
+      "cuisine": "Burgundian",
+      "priceRange": "€€€",
+      "description": "Wine-focused restaurant in the heart of Beaune offering refined regional dishes paired with exceptional local vintages.",
+      "mustOrder": "Escargots de Bourgogne",
+      "lat": 47.0058,
+      "lng": 4.837
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Hostellerie Bérchoux",
+      "address": "13 Rue Thiers, Beaune",
+      "neighbourhood": "Beaune Centre",
+      "cuisine": "Traditional French",
+      "priceRange": "€€",
+      "description": "Charming family-run bistro serving classic Burgundian comfort food in a warm, unpretentious atmosphere.",
+      "mustOrder": "Beef Bourguignon",
+      "lat": 47.0065,
+      "lng": 4.8345
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Ma Cuisine",
+      "address": "Passage Sainte-Marie, Beaune",
+      "neighbourhood": "Beaune Centre",
+      "cuisine": "French Bistro",
+      "priceRange": "€€",
+      "description": "Intimate hidden bistro tucked in a passage, known for simple, flavourful cooking and outstanding value.",
+      "mustOrder": "Sole Meunière",
+      "lat": 47.0055,
+      "lng": 4.836
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Restaurant Stéphane Derbord",
+      "address": "10 Place Darcy, Dijon",
+      "neighbourhood": "Dijon Centre",
+      "cuisine": "French Modern",
+      "priceRange": "€€€",
+      "description": "Contemporary fine dining focused on seasonal ingredients and innovative technique in a minimalist setting.",
+      "mustOrder": "Duck with Cherry Gastrique",
+      "lat": 47.325,
+      "lng": 5.038
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Le Chambertin",
+      "address": "Avenue de la Gare, Gevrey-Chambertin",
+      "neighbourhood": "Gevrey-Chambertin",
+      "cuisine": "Burgundian",
+      "priceRange": "€€",
+      "description": "Village restaurant celebrating local wine terroir with honest, well-prepared traditional Burgundian fare.",
+      "mustOrder": "Oeufs en Meurette",
+      "lat": 47.5265,
+      "lng": 4.917
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurant de la Poste",
+      "address": "1 Rue Aristide Briand, Saulieu",
+      "neighbourhood": "Saulieu",
+      "cuisine": "French Gastronomic",
+      "priceRange": "€€€€",
+      "description": "Historic Michelin-starred establishment with elegant rooms, exceptional wine cellar, and refined classical cuisine.",
+      "mustOrder": "Poularde de Bresse Truffée",
+      "lat": 47.2442,
+      "lng": 4.2225
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Le Relais Saint-Vincent",
+      "address": "8 Rue Jean Monnet, Auxerre",
+      "neighbourhood": "Auxerre Centre",
+      "cuisine": "French Contemporary",
+      "priceRange": "€€€",
+      "description": "Modern restaurant in the Yonne region showcasing local wines and seasonal produce with creative technique.",
+      "mustOrder": "Crayfish with Burgundy Wine",
+      "lat": 47.7975,
+      "lng": 3.5725
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Creperie Gourmande",
+      "address": "Place de l'Eglise, Noyers-sur-Serein",
+      "neighbourhood": "Noyers-sur-Serein",
+      "cuisine": "French Crepes",
+      "priceRange": "€",
+      "description": "Casual village crêperie in a picturesque medieval town serving rustic buckwheat and sweet crêpes.",
+      "mustOrder": "Crêpe aux Fromages et Jambon",
+      "lat": 47.6155,
+      "lng": 3.672
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Restaurant Lucien Maison",
+      "address": "Rue Carnot, Dijon",
+      "neighbourhood": "Dijon Centre",
+      "cuisine": "French Bistro",
+      "priceRange": "€€",
+      "description": "Traditional bistro offering authentic Burgundian dishes in a convivial, unpretentious setting.",
+      "mustOrder": "Jambon Persillé",
+      "lat": 47.3218,
+      "lng": 5.0365
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "L'Espérance",
+      "address": "Saint-Père-sous-Vézelay, Vezelay area",
+      "neighbourhood": "Vezelay",
+      "cuisine": "French Gastronomic",
+      "priceRange": "€€€€",
+      "description": "Three-Michelin-starred temple of gastronomy with refined haute cuisine and exceptional wine service.",
+      "mustOrder": "Homard en Bouillabaisse",
+      "lat": 47.465,
+      "lng": 3.7325
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Le Chamois d'Or",
+      "address": "Rue de la République, Pontarlier",
+      "neighbourhood": "Pontarlier",
+      "cuisine": "Regional Jurassien",
+      "priceRange": "€€",
+      "description": "Mountain restaurant near the Swiss border serving hearty Jura specialties including fondue and local cheeses.",
+      "mustOrder": "Mâcon with Comté Cheese",
+      "lat": 46.8575,
+      "lng": 6.3478
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Restaurant Monge",
+      "address": "Place Monge, Beaune",
+      "neighbourhood": "Beaune Centre",
+      "cuisine": "French Bistro",
+      "priceRange": "€€",
+      "description": "Long-established family bistro in Beaune's centre offering classic regional dishes and excellent local wine.",
+      "mustOrder": "Lapin à la Moutarde",
+      "lat": 47.0062,
+      "lng": 4.8355
+    }
+  ]
+}

@@ -1,0 +1,1731 @@
+{
+  "id": "grand_est",
+  "name": "Grand East",
+  "nameIt": "Grand Est",
+  "capital": "Strasbourg",
+  "lat": 48.6,
+  "lng": 7.7,
+  "emoji": "🍾",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 49.75,
+    "south": 47.56,
+    "east": 8.48,
+    "west": 5
+  },
+  "history": "Grand Est, formed in 2016 through the merger of Alsace, Lorraine, and Champagne-Ardenne, encompasses one of France's most historically contested regions. Alsace and Lorraine have repeatedly changed hands between France and Germany, most notably becoming German territories after 1871 until their return to France following World War I. The region played a crucial role in European affairs, serving as a cultural and economic crossroads between the Germanic and Romance worlds. This turbulent past has left deep marks on the region's architecture, cuisine, and identity.",
+  "culturalNotes": "Grand Est is celebrated for its distinctive blend of French and Germanic influences, visible in half-timbered villages, local gastronomy, and festive traditions. The region is renowned for its wine production, particularly Alsatian wines, and its Christmas markets in Strasbourg and Colmar rank among Europe's finest. Local pride runs deep, especially in Alsace, where traditions such as the Kugelhopf cake, pretzel-making, and specific folk dress remain vibrant parts of community life.",
+  "bestTimeToVisit": "September to October for wine routes and autumn colors, or December for Christmas markets.",
+  "languageNotes": "While French is the official language, Alsatian, a Germanic dialect, remains spoken by many locals and is taught in some schools as part of cultural preservation. Useful phrases include 'Bonjour' for hello and 'S'il vous plaît' for please, though learning basic Alsatian greetings like 'Guten Morgen' can be appreciated by residents.",
+  "generatedAt": "2026-07-04T19:47:37.235Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "strasbourg",
+      "name": "Strasbourg",
+      "nameIt": "Strasbourg",
+      "lat": 48.5734,
+      "lng": 7.7521,
+      "type": "CITY",
+      "description": "The capital of Grand Est and seat of the European Parliament, Strasbourg is famous for its stunning medieval old town with half-timbered houses and the magnificent Gothic cathedral. The picturesque canals and Alsatian charm make it one of France's most enchanting cities and essential for any visitor to the region.",
+      "imageQueries": [
+        "Strasbourg cathedral old town",
+        "Strasbourg canals half-timbered houses"
+      ],
+      "activities": [
+        {
+          "id": "stra_1",
+          "text": "Strasbourg Cathedral",
+          "detail": "Marvel at this stunning Gothic masterpiece with its intricate rose window and astronomical clock, one of the finest cathedrals in Europe.",
+          "lat": 48.573,
+          "lng": 7.7515
+        },
+        {
+          "id": "stra_2",
+          "text": "Petite France",
+          "detail": "Wander through this charming medieval quarter with picturesque half-timbered houses reflected in the Ill River canals.",
+          "lat": 48.5753,
+          "lng": 7.7432
+        },
+        {
+          "id": "stra_3",
+          "text": "European Parliament",
+          "detail": "Tour the distinctive modern building where the European Parliament convenes, offering insights into EU governance.",
+          "lat": 48.601,
+          "lng": 7.7697
+        },
+        {
+          "id": "stra_4",
+          "text": "Musée de l'Œuvre Notre-Dame",
+          "detail": "Explore this museum housed in a Renaissance palace displaying medieval sculptures and artifacts from the cathedral.",
+          "lat": 48.5718,
+          "lng": 7.7508
+        },
+        {
+          "id": "stra_5",
+          "text": "Canal boat tour",
+          "detail": "Take a peaceful punt-style boat ride through Strasbourg's scenic waterways to see the old town from a unique perspective.",
+          "lat": 48.575,
+          "lng": 7.745
+        },
+        {
+          "id": "stra_6",
+          "text": "Palais Rohan",
+          "detail": "Visit this magnificent 18th-century palace that now houses three museums covering decorative arts, archaeology, and fine arts.",
+          "lat": 48.57,
+          "lng": 7.7545
+        }
+      ],
+      "food": [
+        {
+          "id": "stra_f1",
+          "text": "Choucroute Garnie",
+          "detail": "This iconic Alsatian dish features fermented sauerkraut served with smoked meats including sausages and pork knuckle."
+        },
+        {
+          "id": "stra_f2",
+          "text": "Baeckaoffa",
+          "detail": "A traditional slow-cooked casserole made with layers of potatoes, pork, beef, and lamb, seasoned with white wine and herbs."
+        },
+        {
+          "id": "stra_f3",
+          "text": "Fleischnacka",
+          "detail": "Rolled pastry pockets filled with minced meat and onions, representing classic Alsatian comfort food."
+        },
+        {
+          "id": "stra_f4",
+          "text": "Kugelhopf",
+          "detail": "A sweet brioche-style cake studded with raisins and almonds, traditionally served at breakfast or with coffee."
+        },
+        {
+          "id": "stra_f5",
+          "text": "Bretzel",
+          "detail": "A crispy twisted pretzel snack that is quintessentially Alsatian and sold at street stalls throughout the city."
+        },
+        {
+          "id": "stra_f6",
+          "text": "Alsatian white wines",
+          "detail": "Sample local Rieslings, Gewürztraminers, and Sylvaners from the nearby wine route, which pair perfectly with regional cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "stra_c1",
+          "text": "Christmas market tradition",
+          "detail": "Strasbourg hosts Europe's oldest and most famous Christmas market (since 1570), transforming the old town into a festive wonderland from late November through December."
+        },
+        {
+          "id": "stra_c2",
+          "text": "Bilingual heritage",
+          "detail": "The city's German and French influences are visible in architecture, cuisine, and local dialect; locals often switch between French and Alsatian naturally."
+        },
+        {
+          "id": "stra_c3",
+          "text": "Stork symbolism",
+          "detail": "White storks are iconic to Strasbourg and Alsace; look for stork nests on rooftops and chimneys, symbols of good fortune and fertility in local culture."
+        },
+        {
+          "id": "stra_c4",
+          "text": "Leisurely pace",
+          "detail": "Strasbourg embraces a slower lifestyle compared to Paris; locals appreciate long meals, afternoon coffee breaks, and unhurried exploration of the city."
+        }
+      ]
+    },
+    {
+      "id": "colmar",
+      "name": "Colmar",
+      "nameIt": "Colmar",
+      "lat": 48.0795,
+      "lng": 7.3597,
+      "type": "CITY",
+      "description": "Often called the gem of Alsace, Colmar features a remarkably preserved medieval center with colorful Renaissance buildings reflected in its waterways. It's a photographer's dream and the heart of the Alsatian wine region, offering authentic charm and excellent local cuisine.",
+      "imageQueries": [
+        "Colmar old town canals",
+        "Colmar colorful houses reflection water"
+      ],
+      "activities": [
+        {
+          "id": "colm_1",
+          "text": "Petite Venise",
+          "detail": "Stroll through the picturesque canal-side district with half-timbered houses reflected in the water, best explored by boat or on foot along the narrow pathways.",
+          "lat": 48.0795,
+          "lng": 7.3597
+        },
+        {
+          "id": "colm_2",
+          "text": "Unterlinden Museum",
+          "detail": "Visit this outstanding art museum housed in a former Dominican convent, home to the famous Isenheim Altarpiece and Renaissance paintings.",
+          "lat": 48.0806,
+          "lng": 7.3579
+        },
+        {
+          "id": "colm_3",
+          "text": "Colmar Old Town",
+          "detail": "Wander the medieval streets lined with colorful Renaissance buildings, flower-filled window boxes, and charming squares like Place de l'Ancienne Douane.",
+          "lat": 48.0808,
+          "lng": 7.3599
+        },
+        {
+          "id": "colm_4",
+          "text": "Alsatian Wine Route",
+          "detail": "Follow the famous wine route through nearby villages and vineyards, sampling Riesling, Gewürztraminer, and other Alsatian varieties at local producers.",
+          "lat": 48.09,
+          "lng": 7.32
+        },
+        {
+          "id": "colm_5",
+          "text": "Pfister House",
+          "detail": "Admire this stunning Renaissance mansion with its ornate wooden balcony and intricate decorative details on Rue des Marchands.",
+          "lat": 48.0803,
+          "lng": 7.3604
+        },
+        {
+          "id": "colm_6",
+          "text": "Dominican Church",
+          "detail": "Marvel at this Gothic church's stained glass windows and see Martin Schongauer's famous 'Madonna of the Rose Garden' painting.",
+          "lat": 48.0824,
+          "lng": 7.3569
+        }
+      ],
+      "food": [
+        {
+          "id": "colm_f1",
+          "text": "Choucroute Garnie",
+          "detail": "The Alsatian classic of fermented sauerkraut served with pork, sausages, and potatoes, best enjoyed warm in a traditional winstub restaurant."
+        },
+        {
+          "id": "colm_f2",
+          "text": "Coq au Riesling",
+          "detail": "Chicken braised in the region's famous Riesling wine with mushrooms and cream, a signature dish showcasing local wine and cuisine."
+        },
+        {
+          "id": "colm_f3",
+          "text": "Kugelhopf",
+          "detail": "A sweet yeast cake studded with raisins and almonds, traditionally baked in a distinctive fluted bundt-shaped mold and enjoyed for breakfast or dessert."
+        },
+        {
+          "id": "colm_f4",
+          "text": "Flammekuchen (Tarte Flambée)",
+          "detail": "A thin-crust pizza topped with crème fraîche, onions, and lardons, served hot and crispy from wood-fired ovens throughout Colmar."
+        },
+        {
+          "id": "colm_f5",
+          "text": "Bretzel",
+          "detail": "The iconic Alsatian pretzel with a distinctive knot shape, soft inside with a light crust, sold fresh at local bakeries and markets."
+        },
+        {
+          "id": "colm_f6",
+          "text": "Wädele",
+          "detail": "Roasted pork knuckle served with sauerkraut and potatoes, a hearty traditional dish that pairs perfectly with local Alsatian beer or wine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "colm_c1",
+          "text": "Visit during Christmas markets",
+          "detail": "Colmar's famous Christmas markets (late November to December) transform the old town into a magical winter wonderland with ornaments, crafts, and mulled wine."
+        },
+        {
+          "id": "colm_c2",
+          "text": "Explore winstubs for authentic dining",
+          "detail": "Seek out traditional winstubs (wine taverns) rather than tourist restaurants for genuine Alsatian food, wine, and local atmosphere."
+        },
+        {
+          "id": "colm_c3",
+          "text": "Learn about Alsatian wine culture",
+          "detail": "Alsace produces exceptional white wines; locals take pride in their wine heritage, so asking about varietals and visiting small producers shows respect and enhances your experience."
+        },
+        {
+          "id": "colm_c4",
+          "text": "Rent a bike or boat",
+          "detail": "Many locals navigate Colmar by bicycle or take small boats through Petite Venise; these are the preferred ways to experience the city's waterways and car-free areas."
+        }
+      ]
+    },
+    {
+      "id": "reims",
+      "name": "Reims",
+      "nameIt": "Reims",
+      "lat": 49.2578,
+      "lng": 4.0251,
+      "type": "CITY",
+      "description": "Home to the stunning Reims Cathedral where French kings were crowned, Reims is the heart of the Champagne region with world-class vineyards and prestigious champagne houses offering tours and tastings. The city masterfully blends historical grandeur with wine culture and Art Deco architecture.",
+      "imageQueries": [
+        "Reims Cathedral",
+        "Reims Champagne houses vineyard"
+      ],
+      "activities": [
+        {
+          "id": "reim_1",
+          "text": "Reims Cathedral",
+          "detail": "Explore the UNESCO-listed Gothic masterpiece where French kings were crowned, featuring stunning stained glass and intricate architectural details.",
+          "lat": 49.2528,
+          "lng": 4.0317
+        },
+        {
+          "id": "reim_2",
+          "text": "Veuve Clicquot Champagne House Tour",
+          "detail": "Visit one of Reims's most prestigious champagne producers to learn about production methods and enjoy a tasting in their historic chalk cellars.",
+          "lat": 49.2598,
+          "lng": 4.0347
+        },
+        {
+          "id": "reim_3",
+          "text": "Pommery Champagne House",
+          "detail": "Tour this iconic Art Deco champagne house with 18 kilometers of underground cellars and contemporary art installations.",
+          "lat": 49.2634,
+          "lng": 4.0442
+        },
+        {
+          "id": "reim_4",
+          "text": "Palace of Tau",
+          "detail": "Discover this former royal residence adjacent to the cathedral, housing coronation regalia, tapestries, and treasures from French royal history.",
+          "lat": 49.2539,
+          "lng": 4.0338
+        },
+        {
+          "id": "reim_5",
+          "text": "Champagne Avenue Stroll",
+          "detail": "Walk along Avenue de Champagne lined with grand champagne house facades, manicured gardens, and Belle Époque architecture.",
+          "lat": 49.2671,
+          "lng": 4.0464
+        },
+        {
+          "id": "reim_6",
+          "text": "Musée Automobile Reims Champagne",
+          "detail": "Browse an impressive collection of vintage and classic automobiles showcasing automotive history from the early 1900s onward.",
+          "lat": 49.2371,
+          "lng": 4.0569
+        },
+        {
+          "id": "reim_7",
+          "text": "Basilica of Saint-Remi",
+          "detail": "Visit this Romanesque-Gothic basilica housing the relics of Saint Remi, featuring beautiful rose windows and stained glass.",
+          "lat": 49.26,
+          "lng": 4.0154
+        }
+      ],
+      "food": [
+        {
+          "id": "reim_f1",
+          "text": "Champagne Tasting",
+          "detail": "Experience world-renowned Champagne directly from prestigious houses like Moët & Chandon or Ruinart, pairing with local appetizers and canapés."
+        },
+        {
+          "id": "reim_f2",
+          "text": "Reims Biscuit Pink Cookies",
+          "detail": "Sample the famous rose-colored almond meringue biscuits that have been produced in Reims since the 17th century, often paired with Champagne."
+        },
+        {
+          "id": "reim_f3",
+          "text": "Jambon de Reims",
+          "detail": "Taste this traditional cured ham specialty from the region, often served sliced as a charcuterie appetizer or in local bistro dishes."
+        },
+        {
+          "id": "reim_f4",
+          "text": "Andouillette de Reims",
+          "detail": "Try this regional charcuterie specialty made from pork offal, typically grilled and served with mustard and fries in local restaurants."
+        },
+        {
+          "id": "reim_f5",
+          "text": "Macaron de Reims",
+          "detail": "Enjoy these small almond-based pastries, a local variation of macarons that differ from Parisian versions with their dense, chewy texture."
+        },
+        {
+          "id": "reim_f6",
+          "text": "Champagne Brunch",
+          "detail": "Partake in the local tradition of leisurely brunches featuring fresh pastries, local charcuterie, and unlimited Champagne at weekend cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "reim_c1",
+          "text": "Champagne House Etiquette",
+          "detail": "Most champagne house visits require advance reservations, and tastings are typically conducted in French or English with formal presentations of the production process."
+        },
+        {
+          "id": "reim_c2",
+          "text": "Cathedral Visit Timing",
+          "detail": "Visit Reims Cathedral early in the morning or late afternoon to avoid crowds and to experience the stained glass in optimal natural lighting."
+        },
+        {
+          "id": "reim_c3",
+          "text": "Regional Greeting Custom",
+          "detail": "The French tradition of la bise (cheek kissing) is common in Reims; expect two to four kisses when greeting locals or shop owners."
+        },
+        {
+          "id": "reim_c4",
+          "text": "Lunch Culture",
+          "detail": "Reims follows the French tradition of a substantial lunch period between 12-2pm when many shops and offices close; plan activities accordingly."
+        }
+      ]
+    },
+    {
+      "id": "metz",
+      "name": "Metz",
+      "nameIt": "Metz",
+      "lat": 49.1193,
+      "lng": 6.1757,
+      "type": "CITY",
+      "description": "This historic city on the Moselle River boasts a magnificent Gothic cathedral and the innovative Centre Pompidou-Metz, a striking modern art museum. Metz's blend of medieval architecture, cultural innovation, and riverside beauty makes it an underrated gem of the region.",
+      "imageQueries": [
+        "Metz Cathedral",
+        "Centre Pompidou-Metz modern architecture"
+      ],
+      "activities": [
+        {
+          "id": "metz_1",
+          "text": "Cathedral of Saint-Étienne",
+          "detail": "Marvel at this stunning Gothic cathedral with the tallest stained-glass windows in France, featuring intricate medieval and modern glass art spanning centuries.",
+          "lat": 49.1193,
+          "lng": 6.1757
+        },
+        {
+          "id": "metz_2",
+          "text": "Centre Pompidou-Metz",
+          "detail": "Explore this striking contemporary art museum with its distinctive white tent-like roof, showcasing modern and contemporary works in a renovated industrial quarter.",
+          "lat": 49.1085,
+          "lng": 6.1557
+        },
+        {
+          "id": "metz_3",
+          "text": "Moselle Riverfront Walk",
+          "detail": "Stroll along the picturesque banks of the Moselle River, enjoying tree-lined paths, historic bridges, and peaceful water views that define the city's character.",
+          "lat": 49.115,
+          "lng": 6.17
+        },
+        {
+          "id": "metz_4",
+          "text": "Place de la Comédie",
+          "detail": "Relax in this elegant central square surrounded by classical buildings, outdoor cafés, and fountains, perfect for people-watching and soaking up local atmosphere.",
+          "lat": 49.1181,
+          "lng": 6.1745
+        },
+        {
+          "id": "metz_5",
+          "text": "Musée de la Cour d'Or",
+          "detail": "Discover Roman artifacts, medieval sculptures, and decorative arts housed in this museum built around the remains of a Gallo-Roman palace.",
+          "lat": 49.121,
+          "lng": 6.1735
+        },
+        {
+          "id": "metz_6",
+          "text": "Temple Neuf",
+          "detail": "Visit this Neo-Gothic Protestant church perched on an island in the Moselle, offering peaceful interiors and excellent river views from its surroundings.",
+          "lat": 49.1165,
+          "lng": 6.1785
+        }
+      ],
+      "food": [
+        {
+          "id": "metz_f1",
+          "text": "Miels de Metz",
+          "detail": "Sample these traditional honey candies with distinctive flavors like anise or lemon, a beloved local confection dating back centuries."
+        },
+        {
+          "id": "metz_f2",
+          "text": "Quiche Lorraine",
+          "detail": "Taste this savory tart with eggs, cream, and bacon that originated in the Lorraine region and remains a staple in local restaurants and bakeries."
+        },
+        {
+          "id": "metz_f3",
+          "text": "Pâté de foie gras",
+          "detail": "Indulge in this luxurious regional specialty featuring smooth, rich foie gras, often served as an appetizer in fine dining establishments."
+        },
+        {
+          "id": "metz_f4",
+          "text": "Madeleines",
+          "detail": "Try these delicate shell-shaped sponge cakes that, while famous from nearby Commercy, are a cherished Lorraine pastry tradition available throughout Metz."
+        },
+        {
+          "id": "metz_f5",
+          "text": "Moselle Wine",
+          "detail": "Sample crisp white wines from the nearby Moselle Valley vineyards, particularly the dry, fruity whites that pair perfectly with local cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "metz_c1",
+          "text": "Visit during Miels de Metz season",
+          "detail": "Autumn and winter are peak times to purchase fresh honey candies at local confectioners, as this is when they're traditionally produced."
+        },
+        {
+          "id": "metz_c2",
+          "text": "Appreciate the German-French heritage",
+          "detail": "Metz's architecture and culture blend German and French influences due to its complex history, visible in street names, building styles, and local customs."
+        },
+        {
+          "id": "metz_c3",
+          "text": "Embrace the leisurely café culture",
+          "detail": "Locals spend considerable time at outdoor cafés throughout the day for coffee, wine, or aperitifs—joining this rhythm is key to experiencing authentic Metz life."
+        },
+        {
+          "id": "metz_c4",
+          "text": "Respect museum closing times",
+          "detail": "Many museums in Metz close on Mondays and have limited Sunday hours, so plan visits accordingly and check ahead to avoid disappointment."
+        }
+      ]
+    },
+    {
+      "id": "champagne_route",
+      "name": "Champagne Route",
+      "nameIt": "Route Touristique du Champagne",
+      "lat": 49,
+      "lng": 4,
+      "type": "NATURE",
+      "description": "A scenic driving route through rolling vineyards in the heart of the Champagne region, connecting prestigious wine villages and estates. The landscape of UNESCO-listed chalk hillsides dotted with vines offers stunning views and opportunities to visit famous champagne houses.",
+      "imageQueries": [
+        "Champagne vineyard route landscape",
+        "Champagne region rolling hills vines"
+      ],
+      "activities": [
+        {
+          "id": "cham_1",
+          "text": "Champagne House Tours in Reims",
+          "detail": "Visit prestigious houses like Veuve Clicquot, Taittinger, and Pommery to explore cellars carved into chalk and taste prestigious cuvées.",
+          "lat": 49.2627,
+          "lng": 4.0347
+        },
+        {
+          "id": "cham_2",
+          "text": "Épernay Avenue de Champagne",
+          "detail": "Stroll the grand boulevard lined with ornate champagne house mansions and visit smaller producers along this iconic street.",
+          "lat": 49.0398,
+          "lng": 3.9567
+        },
+        {
+          "id": "cham_3",
+          "text": "Hautvillers Village and Abbey",
+          "detail": "Explore the picturesque village where Dom Pérignon lived and discover the monks' historic contribution to champagne production at the abbey.",
+          "lat": 49.0844,
+          "lng": 3.9689
+        },
+        {
+          "id": "cham_4",
+          "text": "Montagne de Reims Scenic Drive",
+          "detail": "Navigate the winding roads through south-facing slopes with terraced vineyards offering panoramic views of the chalky landscape.",
+          "lat": 49.2,
+          "lng": 3.95
+        },
+        {
+          "id": "cham_5",
+          "text": "Cramant Village and Chalk Quarries",
+          "detail": "Visit this charming Côte des Blancs village to see traditional Chardonnay vineyards and learn about chalk extraction that shaped the region.",
+          "lat": 48.9556,
+          "lng": 4.0039
+        },
+        {
+          "id": "cham_6",
+          "text": "Grower Champagne Tasting",
+          "detail": "Seek out small family vignerons to taste artisanal champagnes directly from producers who cultivate and bottle their own wines."
+        },
+        {
+          "id": "cham_7",
+          "text": "UNESCO Chalk Hillside Walks",
+          "detail": "Hike the designated trails through the Listed UNESCO landscape to experience the distinctive white chalk terrain and vine-covered slopes firsthand."
+        }
+      ],
+      "food": [
+        {
+          "id": "cham_f1",
+          "text": "Mousseline de Quenelles",
+          "detail": "A delicate local specialty of light pike or fish dumplings in a creamy sauce, often paired with Champagne."
+        },
+        {
+          "id": "cham_f2",
+          "text": "Jambon de Reims",
+          "detail": "A traditional pale ham from Reims, cooked in Champagne broth and served cold, reflecting centuries of local culinary tradition."
+        },
+        {
+          "id": "cham_f3",
+          "text": "Andouillette de Troyes",
+          "detail": "A celebrated tripe sausage from nearby Troyes with a distinctive peppery mustard crust, a robust regional specialty."
+        },
+        {
+          "id": "cham_f4",
+          "text": "Biscuits Roses de Reims",
+          "detail": "Delicate pink-hued almond biscuits that traditionally accompany Champagne as an elegant aperitif treat."
+        },
+        {
+          "id": "cham_f5",
+          "text": "Coq au Champagne",
+          "detail": "Tender chicken braised in local Champagne with mushrooms and pearl onions, a signature dish of the wine country."
+        },
+        {
+          "id": "cham_f6",
+          "text": "Cheese and Champagne Pairing",
+          "detail": "Sample local Époisses or Chaource cheeses paired with dry Brut or Blanc de Blancs Champagnes at regional fromageries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cham_c1",
+          "text": "Plan visits around harvest season",
+          "detail": "September through October is when the region buzzes with activity, though book champagne house tours well in advance as they fill quickly."
+        },
+        {
+          "id": "cham_c2",
+          "text": "Respect cellar etiquette",
+          "detail": "Cellars (crayères) maintain cool temperatures year-round; wear layers and follow guides closely as some tunnels are extensive and historic."
+        },
+        {
+          "id": "cham_c3",
+          "text": "Learn the classification system",
+          "detail": "Understanding Grandes Marques versus Récoltants-Manipulants helps you appreciate the difference between prestigious houses and small family producers."
+        },
+        {
+          "id": "cham_c4",
+          "text": "Embrace the ritual of tasting",
+          "detail": "Champagne tastings are social occasions; sip slowly, engage with the producer about their methods, and appreciate the craftsmanship rather than rushing through."
+        }
+      ]
+    },
+    {
+      "id": "troyes",
+      "name": "Troyes",
+      "nameIt": "Troyes",
+      "lat": 48.2966,
+      "lng": 4.074,
+      "type": "CITY",
+      "description": "Known as the capital of knitted goods, Troyes features a remarkable preserved medieval town shaped like a champagne cork with a dense network of half-timbered streets. The city offers excellent shopping, beautiful churches, and authentic Champagne Ardenne character.",
+      "imageQueries": [
+        "Troyes medieval old town half-timbered",
+        "Troyes champagne cork shape streets"
+      ],
+      "activities": [
+        {
+          "id": "troy_1",
+          "text": "Explore the Medieval Old Town",
+          "detail": "Wander through the champagne cork-shaped historic center with narrow cobblestone streets lined with half-timbered Renaissance mansions dating from the 16th and 17th centuries.",
+          "lat": 48.2969,
+          "lng": 4.0746
+        },
+        {
+          "id": "troy_2",
+          "text": "Basilica of Saint-Urbain",
+          "detail": "Visit this stunning Gothic church with intricate stained glass windows and ornate stone tracery, one of Troyes' most impressive religious monuments.",
+          "lat": 48.2995,
+          "lng": 4.0756
+        },
+        {
+          "id": "troy_3",
+          "text": "Cathedral of Saint-Peter and Saint-Paul",
+          "detail": "Marvel at this grand Renaissance cathedral featuring remarkable stained glass windows and Renaissance-era furnishings in the heart of the old town.",
+          "lat": 48.2973,
+          "lng": 4.078
+        },
+        {
+          "id": "troy_4",
+          "text": "Troyes Factory Outlet Shopping",
+          "detail": "Browse over 200 brand factory outlets and discount stores concentrated in the Marques Avenue shopping district, earning Troyes its reputation as France's knitted goods capital.",
+          "lat": 48.3158,
+          "lng": 4.0646
+        },
+        {
+          "id": "troy_5",
+          "text": "Museum of Modern Art",
+          "detail": "Explore an impressive collection of 20th-century art housed in two connected Renaissance mansions with works by Matisse, Picasso, and other major artists.",
+          "lat": 48.296,
+          "lng": 4.0765
+        },
+        {
+          "id": "troy_6",
+          "text": "Church of Sainte-Madeleine",
+          "detail": "Discover this 16th-century church known for its ornate wooden rood screen (jubé) and beautiful Renaissance architecture in the medieval quarter.",
+          "lat": 48.2967,
+          "lng": 4.0732
+        }
+      ],
+      "food": [
+        {
+          "id": "troy_f1",
+          "text": "Andouillette de Troyes",
+          "detail": "A traditional local sausage made from pork chitterlings with a distinctive pungent aroma, typically grilled and served with mustard and fries."
+        },
+        {
+          "id": "troy_f2",
+          "text": "Champagne Tasting",
+          "detail": "Sample authentic Champagne from nearby vineyards in the Champagne region, with many local restaurants offering excellent wine pairings and tasting menus."
+        },
+        {
+          "id": "troy_f3",
+          "text": "Pâté de foie gras",
+          "detail": "Enjoy this luxurious regional delicacy featuring smooth liver mousse, often found in local charcuteries and served with crusty bread at aperitif time."
+        },
+        {
+          "id": "troy_f4",
+          "text": "Fromage de Troyes",
+          "detail": "Try the local aged cheese varieties that reflect the Champagne Ardenne terroir, best purchased from traditional fromageries in the old town."
+        },
+        {
+          "id": "troy_f5",
+          "text": "Quenelles à la Lyonnaise",
+          "detail": "Light poached dumplings made from pike or veal served in a creamy sauce, reflecting the region's French culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "troy_c1",
+          "text": "Shop on Sunday mornings",
+          "detail": "Many boutiques and markets in the old town are open Sunday morning, offering a local shopping tradition before most close in the afternoon."
+        },
+        {
+          "id": "troy_c2",
+          "text": "Respect the medieval streets",
+          "detail": "The narrow pedestrian-only lanes were designed centuries ago, so expect tight spaces, low doorways, and a slow pace of exploration rather than rushing through."
+        },
+        {
+          "id": "troy_c3",
+          "text": "Visit factory outlets on weekdays",
+          "detail": "The outlet shopping district becomes extremely crowded on weekends and holidays, so weekday visits offer a more pleasant and less chaotic shopping experience."
+        },
+        {
+          "id": "troy_c4",
+          "text": "Learn the knitting heritage",
+          "detail": "Troyes' identity as the hosiery and knitwear capital is woven into local pride and identity; understanding this history enriches appreciation of the city's economy and culture."
+        }
+      ]
+    },
+    {
+      "id": "alsatian_wine_villages",
+      "name": "Alsatian Wine Villages",
+      "nameIt": "Villages du Vin d'Alsace",
+      "lat": 48.1,
+      "lng": 7.3,
+      "type": "VILLAGE",
+      "description": "Picturesque villages like Ribeauvillé, Riquewihr, and Kaysersberg dot the Alsatian wine route, each featuring flower-lined streets, wine cellars, and Renaissance architecture. These quintessential Alsatian settlements offer wine tastings, local gastronomy, and the essence of the region's charm.",
+      "imageQueries": [
+        "Alsatian wine village Riquewihr",
+        "Alsatian wine route villages flowers"
+      ],
+      "activities": [
+        {
+          "id": "alsa_1",
+          "text": "Wine Tasting in Historic Cellars",
+          "detail": "Visit family-owned wine cellars in Ribeauvillé and Riquewihr to sample Riesling, Gewürztraminer, and Pinot Gris directly from producers in centuries-old stone vaults.",
+          "lat": 48.195,
+          "lng": 7.3083
+        },
+        {
+          "id": "alsa_2",
+          "text": "Explore Riquewihr's Medieval Town",
+          "detail": "Stroll through one of France's most picturesque villages with perfectly preserved 16th-century half-timbered houses, cobblestone streets, and flower-draped facades.",
+          "lat": 48.1792,
+          "lng": 7.2975
+        },
+        {
+          "id": "alsa_3",
+          "text": "Kaysersberg Castle Visit",
+          "detail": "Climb to the ruins of this 13th-century fortress overlooking the charming village of Kaysersberg to enjoy panoramic views of the vineyard-covered valleys.",
+          "lat": 48.1533,
+          "lng": 7.2567
+        },
+        {
+          "id": "alsa_4",
+          "text": "Ribeauvillé Wine Route Hike",
+          "detail": "Walk the scenic wine route connecting Ribeauvillé, Hunawihr, and Riquewihr through rolling vineyards with marked trails and spectacular regional vistas.",
+          "lat": 48.195,
+          "lng": 7.3083
+        },
+        {
+          "id": "alsa_5",
+          "text": "Pottery and Craft Workshops",
+          "detail": "Participate in traditional pottery or crafts demonstrations in village studios where artisans create ceramics and decorative pieces using centuries-old techniques.",
+          "lat": 48.1792,
+          "lng": 7.2975
+        },
+        {
+          "id": "alsa_6",
+          "text": "Christmas Markets (Seasonal)",
+          "detail": "Visit between November and December when villages transform into magical markets with mulled wine, handcrafted ornaments, and festive Alsatian traditions.",
+          "lat": 48.1533,
+          "lng": 7.2567
+        }
+      ],
+      "food": [
+        {
+          "id": "alsa_f1",
+          "text": "Choucroute Garnie",
+          "detail": "This hearty fermented cabbage dish served with pork, sausages, and potatoes is the iconic comfort food of Alsace, best enjoyed in village restaurants near Ribeauvillé."
+        },
+        {
+          "id": "alsa_f2",
+          "text": "Flammekuchen (Tarte Flambée)",
+          "detail": "A thin-crust pizza-like specialty topped with crème fraîche, onions, and bacon, originating from Alsatian ovens and served piping hot in village taverns."
+        },
+        {
+          "id": "alsa_f3",
+          "text": "Baeckeofe",
+          "detail": "A traditional slow-cooked casserole of layered potatoes, pork, beef, and lamb marinated in white wine, reflecting the region's agricultural heritage."
+        },
+        {
+          "id": "alsa_f4",
+          "text": "Kugelhopf Cake",
+          "detail": "A brioche-based cake studded with raisins and almonds, baked in a distinctive fluted mold and available fresh from village bakeries year-round."
+        },
+        {
+          "id": "alsa_f5",
+          "text": "Alsatian Wine and Cheese Pairing",
+          "detail": "Sample local Munster cheese or Wädele with regional white wines, particularly Riesling, at wine bars throughout Kaysersberg and Riquewihr."
+        },
+        {
+          "id": "alsa_f6",
+          "text": "Bretzel (Alsatian Pretzel)",
+          "detail": "Crispy, twisted soft pretzels are a beloved snack and breakfast item found in every village bakery, often sprinkled with coarse salt and caraway seeds."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alsa_c1",
+          "text": "Respectful Wine Cellar Etiquette",
+          "detail": "Call ahead to arrange tastings at family wineries, purchase a bottle if you taste, and always ask permission before taking photographs inside historic cellars."
+        },
+        {
+          "id": "alsa_c2",
+          "text": "Festival Timing and Planning",
+          "detail": "Plan visits around wine harvest festivals (September) and Christmas markets (November-December) when villages come alive, but book accommodations well in advance."
+        },
+        {
+          "id": "alsa_c3",
+          "text": "Language and Local Greetings",
+          "detail": "While French is spoken, locals appreciate hearing 'Bonjour' and 'Merci' and some Alsatian phrases; many shopkeepers and winemakers speak English but prefer French first."
+        },
+        {
+          "id": "alsa_c4",
+          "text": "Pedestrian-First Villages",
+          "detail": "Park at village entrances as these medieval towns have narrow streets designed for foot traffic; wear comfortable walking shoes and allow 3-4 hours per village."
+        }
+      ]
+    },
+    {
+      "id": "epernay",
+      "name": "Épernay",
+      "nameIt": "Épernay",
+      "lat": 49.0297,
+      "lng": 3.9625,
+      "type": "CITY",
+      "description": "The second city of the Champagne region, Épernay is famous for its grand tree-lined Avenue de Champagne lined with prestigious champagne houses and their chalk cellars beneath. It's a more accessible alternative to Reims for experiencing authentic Champagne production and tasting.",
+      "imageQueries": [
+        "Épernay Avenue de Champagne",
+        "Épernay champagne houses"
+      ],
+      "activities": [
+        {
+          "id": "eper_1",
+          "text": "Avenue de Champagne Walking Tour",
+          "detail": "Stroll the famous tree-lined avenue to admire the grand Belle Époque façades of prestigious champagne houses like Moët & Chandon and Perrier-Jouët.",
+          "lat": 49.0403,
+          "lng": 3.9581
+        },
+        {
+          "id": "eper_2",
+          "text": "Moët & Chandon Cellar Visit",
+          "detail": "Descend into the chalk cellars 30 meters underground to learn champagne production methods and taste directly from one of the world's largest champagne producers.",
+          "lat": 49.0408,
+          "lng": 3.9597
+        },
+        {
+          "id": "eper_3",
+          "text": "Musée de la Champagne",
+          "detail": "Explore the history and tradition of champagne production through exhibits housed in the Château Perrier, overlooking the town.",
+          "lat": 49.0478,
+          "lng": 3.9612
+        },
+        {
+          "id": "eper_4",
+          "text": "Mercier Champagne House Tour",
+          "detail": "Visit one of Épernay's most accessible champagne houses with a train ride through its 18 kilometers of cellars and a descent by lift into the chalk galleries.",
+          "lat": 49.0383,
+          "lng": 3.9541
+        },
+        {
+          "id": "eper_5",
+          "text": "Basilique Notre-Dame de l'Épine",
+          "detail": "Visit this stunning Gothic basilica located just outside Épernay, famous for its delicate twin spires and medieval architecture.",
+          "lat": 49.0156,
+          "lng": 3.9783
+        },
+        {
+          "id": "eper_6",
+          "text": "Parc de la Patte d'Oie",
+          "detail": "Relax in this charming public park with tree-lined paths and manicured gardens in the heart of Épernay.",
+          "lat": 49.0456,
+          "lng": 3.9703
+        }
+      ],
+      "food": [
+        {
+          "id": "eper_f1",
+          "text": "Champagne Tasting with Local Producers",
+          "detail": "Sample a variety of champagne styles—from brut to demi-sec—directly at small family-run champagne houses throughout Épernay."
+        },
+        {
+          "id": "eper_f2",
+          "text": "Tarte à la Champagne",
+          "detail": "A local pastry dessert filled with champagne-infused cream and topped with champagne-soaked fruit, distinctly Épernay."
+        },
+        {
+          "id": "eper_f3",
+          "text": "Jambon de Reims",
+          "detail": "Regional cured ham from nearby Reims, traditionally served sliced as a charcuterie board staple paired with champagne."
+        },
+        {
+          "id": "eper_f4",
+          "text": "Andouillette de Troyes",
+          "detail": "A specialty tripe sausage from the Champagne region, often grilled and served with mustard as a traditional bistro dish."
+        },
+        {
+          "id": "eper_f5",
+          "text": "Biscuit Rose de Reims",
+          "detail": "Pink almond macarons that are classic Champagne region sweets, traditionally dunked in champagne or Ratafia liqueur."
+        }
+      ],
+      "culture": [
+        {
+          "id": "eper_c1",
+          "text": "Book Champagne House Tours in Advance",
+          "detail": "Popular tours at Moët & Chandon and other major houses fill quickly, especially in summer, so reserve ahead to guarantee entry."
+        },
+        {
+          "id": "eper_c2",
+          "text": "Respect Cellar Visit Etiquette",
+          "detail": "Wear comfortable closed-toe shoes and a light jacket for the cool underground cellars, and follow guide instructions as the chalk tunnels can be narrow."
+        },
+        {
+          "id": "eper_c3",
+          "text": "Visit During the September Vintage Festival",
+          "detail": "Time your visit to coincide with the annual grape harvest celebrations in September for street festivities, music, and special champagne releases."
+        },
+        {
+          "id": "eper_c4",
+          "text": "Learn Basic Champagne Terminology",
+          "detail": "Familiarize yourself with terms like 'brut,' 'extra dry,' and 'demi-sec' to better appreciate tasting notes and express your preferences to producers."
+        }
+      ]
+    },
+    {
+      "id": "verdun",
+      "name": "Verdun",
+      "nameIt": "Verdun",
+      "lat": 49.1608,
+      "lng": 5.3864,
+      "type": "CITY",
+      "description": "This historic city on the Meuse River is best known for the World War I battlefields and the Verdun Memorial, one of the most significant WWI sites in France. The surrounding preserved trenches, forts, and ossuary provide moving testimony to one of history's bloodiest battles.",
+      "imageQueries": [
+        "Verdun battlefield WWI memorial",
+        "Verdun ossuary fort Douaumont"
+      ],
+      "activities": [
+        {
+          "id": "verd_1",
+          "text": "Verdun Memorial (Mémorial de Verdun)",
+          "detail": "A museum housed in a rebuilt fortress showcasing artifacts, photographs, and personal accounts from the 1916 battle that claimed over 700,000 lives.",
+          "lat": 49.2033,
+          "lng": 5.4114
+        },
+        {
+          "id": "verd_2",
+          "text": "Fort de Douaumont",
+          "detail": "One of the largest forts involved in the battle, now preserved with underground galleries where visitors can experience the conditions soldiers endured.",
+          "lat": 49.2117,
+          "lng": 5.4244
+        },
+        {
+          "id": "verd_3",
+          "text": "Ossuary of Douaumont (Ossuaire de Douaumont)",
+          "detail": "A solemn repository containing the remains of approximately 130,000 unidentified French and German soldiers from the Battle of Verdun.",
+          "lat": 49.21,
+          "lng": 5.425
+        },
+        {
+          "id": "verd_4",
+          "text": "Verdun Cathedral (Cathédrale Notre-Dame de Verdun)",
+          "detail": "A 12th-century Romanesque cathedral in the city center that survived the war and features impressive stained glass windows.",
+          "lat": 49.1592,
+          "lng": 5.3887
+        },
+        {
+          "id": "verd_5",
+          "text": "Trench of the Bayonets (Tranchée des Baïonnettes)",
+          "detail": "A preserved section of trenches with bayonets still protruding from the ground, marking where an entire regiment was buried by an artillery bombardment.",
+          "lat": 49.2033,
+          "lng": 5.4114
+        },
+        {
+          "id": "verd_6",
+          "text": "Fort de Vaux",
+          "detail": "Another key fortress from the battle with reconstructed trenches and underground shelters accessible to visitors exploring the harsh realities of WWI combat."
+        },
+        {
+          "id": "verd_7",
+          "text": "Meuse River Walks",
+          "detail": "Scenic riverside paths through the valley offer peaceful reflection on the landscape transformed by the historic battle.",
+          "lat": 49.163,
+          "lng": 5.395
+        }
+      ],
+      "food": [
+        {
+          "id": "verd_f1",
+          "text": "Pâté de foie gras lorrain",
+          "detail": "Rich pâté made from duck or goose liver, a delicacy representing the Lorraine region's culinary heritage."
+        },
+        {
+          "id": "verd_f2",
+          "text": "Quiche lorraine",
+          "detail": "A savory egg tart with bacon and cream originating from the Lorraine region, typically served as a main course or appetizer."
+        },
+        {
+          "id": "verd_f3",
+          "text": "Mirabelle tart",
+          "detail": "A traditional dessert featuring small yellow mirabelle plums from the region baked in pastry, especially seasonal in late summer."
+        },
+        {
+          "id": "verd_f4",
+          "text": "Potée lorraine",
+          "detail": "A hearty meat and vegetable stew with cabbage, potatoes, and pork that reflects the region's rural cooking traditions."
+        },
+        {
+          "id": "verd_f5",
+          "text": "Kugelhopf",
+          "detail": "A sweet yeasted bread studded with dried fruit and nuts, reflecting Alsatian-Lorraine cultural influences and perfect with morning coffee."
+        }
+      ],
+      "culture": [
+        {
+          "id": "verd_c1",
+          "text": "Respect the solemnity of WWI sites",
+          "detail": "The battlefields and memorials are sacred spaces; maintain quiet contemplation and dress appropriately as a sign of respect for the fallen."
+        },
+        {
+          "id": "verd_c2",
+          "text": "Plan visits around seasonal weather",
+          "detail": "Winter weather can be harsh and muddy, making autumn and spring ideal for exploring the outdoor trenches and forts comfortably."
+        },
+        {
+          "id": "verd_c3",
+          "text": "Learn the regional dialect and history",
+          "detail": "Locals deeply value understanding the Battle of Verdun's significance; engaging with guides and locals about the history demonstrates genuine interest and respect."
+        },
+        {
+          "id": "verd_c4",
+          "text": "Visit during Armistice Day commemorations",
+          "detail": "November 11th brings solemn ceremonies and special events throughout Verdun, offering profound cultural experiences and connecting with collective memory."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_christmas",
+      "name": "Strasbourg Christmas Markets",
+      "nameIt": "Marchés de Noël de Strasbourg",
+      "lat": 48.5734,
+      "lng": 7.7521,
+      "type": "LANDMARK",
+      "description": "Strasbourg hosts Europe's oldest and largest Christmas markets, transforming the old town into a magical winter wonderland from November through December. With traditional crafts, local wine, and twinkling decorations, it's one of the most beloved seasonal events in all of Europe.",
+      "imageQueries": [
+        "Strasbourg Christmas markets",
+        "Strasbourg winter festival old town"
+      ],
+      "activities": [
+        {
+          "id": "stra_1",
+          "text": "Browse the Cathedral Square Market",
+          "detail": "The heart of the markets surrounds the stunning Gothic Cathedral, featuring over 300 wooden chalets selling crafts, ornaments, and local goods.",
+          "lat": 48.5815,
+          "lng": 7.7504
+        },
+        {
+          "id": "stra_2",
+          "text": "Visit the Christkindelsmärik (Children's Market)",
+          "detail": "A dedicated market section with games, workshops, and activities designed specifically for children in the festive spirit.",
+          "lat": 48.5788,
+          "lng": 7.752
+        },
+        {
+          "id": "stra_3",
+          "text": "Explore the Wine Market (Marché aux Vins)",
+          "detail": "Sample and purchase Alsatian mulled wine (Vin Chaud) and other regional wines from local vintners along Rue Mercière.",
+          "lat": 48.5798,
+          "lng": 7.7488
+        },
+        {
+          "id": "stra_4",
+          "text": "Walk through the Old Town decorated streets",
+          "detail": "Stroll the charming medieval alleys of Petite France and surrounding neighborhoods illuminated with thousands of twinkling lights and decorations.",
+          "lat": 48.5792,
+          "lng": 7.7445
+        },
+        {
+          "id": "stra_5",
+          "text": "Visit the Nativity Scene at Place Broglie",
+          "detail": "View elaborate hand-crafted nativity displays and figures created by artisans, a traditional centerpiece of the market celebrations.",
+          "lat": 48.5848,
+          "lng": 7.7464
+        },
+        {
+          "id": "stra_6",
+          "text": "Attend evening light shows and carol performances",
+          "detail": "Experience scheduled musical performances and illumination ceremonies that occur throughout the market season, especially on weekends."
+        }
+      ],
+      "food": [
+        {
+          "id": "stra_f1",
+          "text": "Vin Chaud (Mulled Wine)",
+          "detail": "The quintessential Strasbourg Christmas drink—local Alsatian wine spiced with cinnamon, clove, and orange, served hot in ceramic cups you can take home."
+        },
+        {
+          "id": "stra_f2",
+          "text": "Bretzel (Pretzel)",
+          "detail": "Warm, soft Alsatian pretzels sold fresh at market stalls, often topped with coarse salt and sometimes served with cheese or mustard."
+        },
+        {
+          "id": "stra_f3",
+          "text": "Kugelhopf",
+          "detail": "A traditional Alsatian ring-shaped cake studded with raisins and almonds, available fresh from local bakers throughout the market."
+        },
+        {
+          "id": "stra_f4",
+          "text": "Flammekuchen (Tarte Flambée)",
+          "detail": "A thin-crust pizza topped with crème fraîche, onions, and bacon that originated in Alsace and is served hot from market vendors."
+        },
+        {
+          "id": "stra_f5",
+          "text": "Pain d'Épices (Gingerbread)",
+          "detail": "Elaborately decorated gingerbread hearts and figures, often personalized with icing messages, a beloved edible souvenir of the markets."
+        },
+        {
+          "id": "stra_f6",
+          "text": "Schenkele (Fried Pastries)",
+          "detail": "Golden fried pastry strips dusted with powdered sugar and sometimes filled with jam or cream, popular as a sweet snack while shopping."
+        }
+      ],
+      "culture": [
+        {
+          "id": "stra_c1",
+          "text": "Markets operate evenings and weekends primarily",
+          "detail": "Plan visits for late afternoon through evening when the lights are most magical, and note that many stalls close between Christmas and New Year."
+        },
+        {
+          "id": "stra_c2",
+          "text": "Bring cash and wear layers",
+          "detail": "Many vendors prefer cash payments over cards, and the outdoor markets require warm clothing despite the festive mulled wine warming your hands."
+        },
+        {
+          "id": "stra_c3",
+          "text": "Respect the Alsatian traditions",
+          "detail": "These markets have run for over 500 years; visitors are expected to shop respectfully, avoid excessive photography of artisans without permission, and embrace the slow pace of traditional holiday shopping."
+        },
+        {
+          "id": "stra_c4",
+          "text": "Purchase the souvenir ceramic cup early",
+          "detail": "The mulled wine is served in collectible ceramic mugs with yearly designs that make perfect keepsakes—buy yours early as popular designs sell out quickly."
+        }
+      ]
+    },
+    {
+      "id": "nancy",
+      "name": "Nancy",
+      "nameIt": "Nancy",
+      "lat": 48.6921,
+      "lng": 6.1844,
+      "type": "CITY",
+      "description": "A city of remarkable Art Nouveau architecture, Nancy features the elegant Place Stanislas and enchanting art museums like the Musée de l'École de Nancy. The refined urban planning and artistic heritage make it one of France's most architecturally significant regional cities.",
+      "imageQueries": [
+        "Nancy Place Stanislas",
+        "Nancy Art Nouveau architecture"
+      ],
+      "activities": [
+        {
+          "id": "nanc_1",
+          "text": "Place Stanislas",
+          "detail": "Wander through this UNESCO-listed geometric masterpiece framed by gilded wrought-iron gates and palatial buildings that showcase 18th-century French elegance.",
+          "lat": 48.6921,
+          "lng": 6.1844
+        },
+        {
+          "id": "nanc_2",
+          "text": "Musée de l'École de Nancy",
+          "detail": "Explore this museum housed in a restored Art Nouveau villa showcasing furniture, glassware, and decorative arts from Nancy's golden artistic period.",
+          "lat": 48.6873,
+          "lng": 6.1654
+        },
+        {
+          "id": "nanc_3",
+          "text": "Pépinière Park",
+          "detail": "Stroll through this historic English-style garden filled with sculptures, fountains, and rare plants just steps from the city center.",
+          "lat": 48.6889,
+          "lng": 6.1756
+        },
+        {
+          "id": "nanc_4",
+          "text": "Musée des Beaux-Arts",
+          "detail": "Visit this art museum adjacent to Place Stanislas housing medieval paintings, sculptures, and works from the Baroque through modern periods.",
+          "lat": 48.6914,
+          "lng": 6.1835
+        },
+        {
+          "id": "nanc_5",
+          "text": "Cathedral of Saint-Épvre",
+          "detail": "Marvel at this neo-Gothic cathedral's soaring spires and stained-glass windows representing 19th-century religious architecture.",
+          "lat": 48.6905,
+          "lng": 6.1793
+        },
+        {
+          "id": "nanc_6",
+          "text": "Art Nouveau Walking Tour",
+          "detail": "Follow a self-guided or organized tour through Nancy's residential neighborhoods to admire ornate façades, sculptural details, and characteristic curved lines on buildings.",
+          "lat": 48.69,
+          "lng": 6.185
+        }
+      ],
+      "food": [
+        {
+          "id": "nanc_f1",
+          "text": "Quiche Lorraine",
+          "detail": "Savor this classic savory tart filled with cream, eggs, and lardons that originated in the Lorraine region and remains a local specialty."
+        },
+        {
+          "id": "nanc_f2",
+          "text": "Macarons de Nancy",
+          "detail": "Taste these delicate almond-based confections with a distinctive pale color and soft texture, a protected regional specialty made since the 17th century."
+        },
+        {
+          "id": "nanc_f3",
+          "text": "Potée Lorraine",
+          "detail": "Enjoy this hearty peasant stew of pork, vegetables, and cabbage that epitomizes comfort food from the Lorraine countryside."
+        },
+        {
+          "id": "nanc_f4",
+          "text": "Mirabelle Plum Tart",
+          "detail": "Indulge in pastries and desserts featuring golden mirabelle plums, the region's prized fruit that appears in tarts, jams, and eau-de-vie."
+        },
+        {
+          "id": "nanc_f5",
+          "text": "Pâté Lorrain",
+          "detail": "Sample this traditional pâté wrapped in pastry crust, a charcuterie specialty reflecting Nancy's culinary heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nanc_c1",
+          "text": "Respect the architectural preservation",
+          "detail": "Nancy takes immense pride in its Art Nouveau heritage; observe how locals move thoughtfully through the city and avoid touching ornate façades to protect these irreplaceable structures."
+        },
+        {
+          "id": "nanc_c2",
+          "text": "Afternoon café culture",
+          "detail": "Join locals for a leisurely café crème or apéritif in Place Stanislas during late afternoon, when the square becomes the social heart of the city and people-watching is paramount."
+        },
+        {
+          "id": "nanc_c3",
+          "text": "Museum hours and closures",
+          "detail": "Many museums close on Tuesdays and typically open afternoons only, so plan visits accordingly and check ahead as hours vary seasonally."
+        },
+        {
+          "id": "nanc_c4",
+          "text": "Regional pride in Lorraine identity",
+          "detail": "Nancy residents identify strongly with Lorraine's distinct cultural heritage separate from broader French identity; conversations often reference local history, regional dishes, and artistic traditions."
+        }
+      ]
+    },
+    {
+      "id": "ardenne_nature",
+      "name": "Ardenne Forest",
+      "nameIt": "Forêt des Ardennes",
+      "lat": 49.6,
+      "lng": 4.6,
+      "type": "NATURE",
+      "description": "This vast forested region offers outdoor activities including hiking, kayaking on rivers, and cycling through dramatic river valleys and medieval villages. The rugged landscape provides a peaceful retreat with genuine wilderness character and charming small towns.",
+      "imageQueries": [
+        "Ardenne forest hiking landscape",
+        "Ardenne river valley kayaking"
+      ],
+      "activities": [
+        {
+          "id": "arde_1",
+          "text": "Kayaking the Meuse River",
+          "detail": "Paddle through dramatic limestone gorges and past medieval villages on one of the Ardennes' most scenic waterways.",
+          "lat": 49.7642,
+          "lng": 4.9281
+        },
+        {
+          "id": "arde_2",
+          "text": "Hiking the GR5 Trail",
+          "detail": "Trek through dense forests and rocky plateaus on this famous long-distance path that cuts through the heart of the Ardennes.",
+          "lat": 49.85,
+          "lng": 4.85
+        },
+        {
+          "id": "arde_3",
+          "text": "Cycling through Semois Valley",
+          "detail": "Ride scenic routes along winding river valleys dotted with small stone villages and panoramic viewpoints.",
+          "lat": 49.7833,
+          "lng": 4.8667
+        },
+        {
+          "id": "arde_4",
+          "text": "Exploring Sedan Castle",
+          "detail": "Visit one of Europe's largest medieval fortresses perched above the town of Sedan with sweeping views of the Ardennes landscape.",
+          "lat": 49.7011,
+          "lng": 4.9358
+        },
+        {
+          "id": "arde_5",
+          "text": "Via ferrata climbing",
+          "detail": "Experience protected rock climbing routes fixed with cables and iron rungs on dramatic cliff faces throughout the region.",
+          "lat": 49.8333,
+          "lng": 4.9167
+        },
+        {
+          "id": "arde_6",
+          "text": "Visiting Charleville-Mézières old town",
+          "detail": "Wander the Renaissance arcaded squares and timber-framed houses of this historic river town at the forest's edge.",
+          "lat": 49.7667,
+          "lng": 4.7167
+        }
+      ],
+      "food": [
+        {
+          "id": "arde_f1",
+          "text": "Ardennes Pâté",
+          "detail": "A rich, coarsely-textured pork pâté studded with pistachio that is the region's most celebrated charcuterie product, often served with crusty bread."
+        },
+        {
+          "id": "arde_f2",
+          "text": "Jambon des Ardennes",
+          "detail": "Smoked ham cured traditionally with juniper and beech wood, offering a distinctive smoky flavor unique to the forest region."
+        },
+        {
+          "id": "arde_f3",
+          "text": "Trout from forest streams",
+          "detail": "Freshly caught river trout prepared simply, often grilled whole or prepared à la meunière in local auberges."
+        },
+        {
+          "id": "arde_f4",
+          "text": "Wild boar stew (Civet de sanglier)",
+          "detail": "A hearty Ardennes classic made with local wild boar braised in red wine with mushrooms and root vegetables."
+        },
+        {
+          "id": "arde_f5",
+          "text": "Crème de cassis",
+          "detail": "A blackcurrant liqueur produced in the Ardennes, traditionally served as an aperitif or in cocktails."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arde_c1",
+          "text": "Embrace 'Ardennais' hospitality culture",
+          "detail": "Locals pride themselves on warm, unpretentious hospitality—small family-run inns and restaurants are more valued than formal establishments."
+        },
+        {
+          "id": "arde_c2",
+          "text": "Plan for seasonal forest closures",
+          "detail": "Certain areas close during hunting season (autumn) and winter weather can restrict hiking; check locally before planning outdoor activities."
+        },
+        {
+          "id": "arde_c3",
+          "text": "Respect the forested landscape",
+          "detail": "The region maintains a strong conservation ethic—stay on marked trails and support eco-tourism initiatives that protect the genuine wilderness character."
+        }
+      ]
+    },
+    {
+      "id": "sainte_odile",
+      "name": "Mont Sainte-Odile",
+      "nameIt": "Mont Sainte-Odile",
+      "lat": 48.3558,
+      "lng": 7.4289,
+      "type": "LANDMARK",
+      "description": "This sacred mountain in the northern Vosges features a historic convent perched at 764 meters with panoramic views across Alsace and the Rhine valley to the Black Forest. It's an important pilgrimage site and offers excellent hiking with spiritual and natural rewards.",
+      "imageQueries": [
+        "Mont Sainte-Odile convent",
+        "Mont Sainte-Odile Alsace panoramic view"
+      ],
+      "activities": [
+        {
+          "id": "sain_1",
+          "text": "Visit the Convent Church",
+          "detail": "Explore the 12th-century Benedictine convent at the summit, famous for its baroque interior and the reliquary of Saint Odile, the patron saint of Alsace.",
+          "lat": 48.3547,
+          "lng": 7.4208
+        },
+        {
+          "id": "sain_2",
+          "text": "Walk the Pagan Wall",
+          "detail": "Hike along the mysterious pre-Celtic stone wall that encircles the mountaintop, a 1.4-kilometer loop with interpretive panels about its mysterious origins.",
+          "lat": 48.3547,
+          "lng": 7.4208
+        },
+        {
+          "id": "sain_3",
+          "text": "Panoramic Vista Trail",
+          "detail": "Take the marked hiking path offering sweeping views across the Alsatian plain, the Rhine valley, and the Black Forest, with multiple vantage points along the 2–3 hour loop.",
+          "lat": 48.3547,
+          "lng": 7.4208
+        },
+        {
+          "id": "sain_4",
+          "text": "Pilgrimage Mass at Dawn",
+          "detail": "Attend the early morning liturgy in the convent chapel, an intimate spiritual experience shared with pilgrims from across Europe.",
+          "lat": 48.3547,
+          "lng": 7.4208
+        },
+        {
+          "id": "sain_5",
+          "text": "Descend to Sainte-Odile Spring",
+          "detail": "Visit the sacred spring at the mountain's base where pilgrims have drawn holy water for centuries, accessible via a steep forest path.",
+          "lat": 48.348,
+          "lng": 7.418
+        },
+        {
+          "id": "sain_6",
+          "text": "Hiking to Nearby Peaks",
+          "detail": "Connect to regional trails linking Mont Sainte-Odile to neighboring summits like Ungersberg or Climont for extended Vosges exploration.",
+          "lat": 48.3547,
+          "lng": 7.4208
+        }
+      ],
+      "food": [
+        {
+          "id": "sain_f1",
+          "text": "Kugelhopf",
+          "detail": "A traditional Alsatian brioche cake studded with raisins and almonds, often enjoyed fresh at the convent shop or local Ottrott bakeries near the base."
+        },
+        {
+          "id": "sain_f2",
+          "text": "Fleischnacka",
+          "detail": "A savory pastry filled with minced pork, onions, and spices, a hearty specialty from the Alsatian villages surrounding the mountain."
+        },
+        {
+          "id": "sain_f3",
+          "text": "Convent Honey and Preserves",
+          "detail": "Buy locally-made honey, jams, and herbal syrups produced by the Benedictine sisters and sold at the monastery shop as spiritual souvenirs."
+        },
+        {
+          "id": "sain_f4",
+          "text": "Pretzel (Bretzel)",
+          "detail": "Alsatian soft pretzels with coarse salt, fresh from regional bakeries in Ottrott village just downhill from the sanctuary."
+        },
+        {
+          "id": "sain_f5",
+          "text": "Local Wine from Ottrott",
+          "detail": "Sample Alsatian white wines, particularly Riesling and Gewürztraminer, from the wine-producing village of Ottrott at the mountain's foot."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sain_c1",
+          "text": "Respect Pilgrimage Customs",
+          "detail": "Dress modestly when entering the convent chapel, and observe silence in prayer areas; many visitors walk barefoot or on their knees as acts of devotion."
+        },
+        {
+          "id": "sain_c2",
+          "text": "Plan for Weather Changes",
+          "detail": "The exposed 764-meter summit can shift rapidly between sun and fog; carry layers and sturdy hiking boots year-round, especially autumn through spring."
+        },
+        {
+          "id": "sain_c3",
+          "text": "Learn Saint Odile's Story",
+          "detail": "Familiarize yourself with the 7th-century saint's legend—a blind princess who regained sight and founded the convent—to deepen appreciation of the spiritual significance."
+        },
+        {
+          "id": "sain_c4",
+          "text": "Arrive Early or Stay Overnight",
+          "detail": "Weekend and summer afternoons draw large tour groups; visit on weekday mornings or arrange convent lodging to experience the mountain's contemplative essence."
+        }
+      ]
+    },
+    {
+      "id": "vosges_mountains",
+      "name": "Vosges Mountains",
+      "nameIt": "Massif des Vosges",
+      "lat": 48.3,
+      "lng": 6.9,
+      "type": "NATURE",
+      "description": "These ancient mountains form a natural boundary between Alsace and Lorraine, offering pristine forests, glacial lakes, and excellent hiking trails with panoramic views. The region is ideal for outdoor recreation and provides a stunning natural contrast to the cultural cities.",
+      "imageQueries": [
+        "Vosges mountains hiking landscape",
+        "Vosges glacial lakes panorama"
+      ],
+      "activities": [
+        {
+          "id": "vosg_1",
+          "text": "Hiking Ballon d'Alsace",
+          "detail": "Ascend this iconic 1,247-meter peak for sweeping views across both Alsace and the Vosges valleys, accessible via well-marked trails from multiple starting points.",
+          "lat": 47.748,
+          "lng": 6.869
+        },
+        {
+          "id": "vosg_2",
+          "text": "Lac de Gérardmer",
+          "detail": "Explore this pristine glacial lake surrounded by dense forests, perfect for swimming, boating, and lakeside walks during summer months.",
+          "lat": 48.073,
+          "lng": 6.878
+        },
+        {
+          "id": "vosg_3",
+          "text": "Crête des Vosges Ridge Walk",
+          "detail": "Trek along the scenic mountain ridge connecting multiple peaks with panoramic views stretching from the Black Forest to the Alps on clear days.",
+          "lat": 48.1,
+          "lng": 7
+        },
+        {
+          "id": "vosg_4",
+          "text": "Mountain Biking Trails",
+          "detail": "Navigate hundreds of kilometers of marked trails ranging from gentle forest paths to technical single tracks through varied terrain.",
+          "lat": 48,
+          "lng": 6.9
+        },
+        {
+          "id": "vosg_5",
+          "text": "Cascades du Tendon Waterfall",
+          "detail": "Visit this series of picturesque waterfalls formed by glacial streams flowing through rocky gorges in the northern Vosges.",
+          "lat": 48.294,
+          "lng": 6.628
+        },
+        {
+          "id": "vosg_6",
+          "text": "Wildlife Observation",
+          "detail": "Spot Eurasian lynx, red deer, and golden eagles in their natural habitat, supported by guided nature walks and wildlife centers.",
+          "lat": 48.05,
+          "lng": 6.95
+        }
+      ],
+      "food": [
+        {
+          "id": "vosg_f1",
+          "text": "Baeckaoffa",
+          "detail": "A slow-cooked Alsatian casserole of pork, beef, and potatoes layered with onions and white wine, traditionally prepared in earthenware pots."
+        },
+        {
+          "id": "vosg_f2",
+          "text": "Vosges Cheese (Munster)",
+          "detail": "Seek out the pungent, washed-rind Munster cheese produced in the high pastures, best enjoyed with cumin seeds and fresh bread."
+        },
+        {
+          "id": "vosg_f3",
+          "text": "Pâté de Foie Gras",
+          "detail": "Sample this luxurious regional specialty, often served as an appetizer with crusty bread or as part of a traditional charcuterie board."
+        },
+        {
+          "id": "vosg_f4",
+          "text": "Kugelhopf Cake",
+          "detail": "Taste this traditional Alsatian brioche-style cake studded with raisins and almonds, widely available in local bakeries year-round."
+        },
+        {
+          "id": "vosg_f5",
+          "text": "Trout from Mountain Streams",
+          "detail": "Order fresh-caught trout prepared simply with butter and local herbs at mountain restaurants and auberges throughout the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vosg_c1",
+          "text": "Respect Hiking Etiquette",
+          "detail": "Stay on marked paths, leave no trace, and greet fellow hikers with a friendly 'Bonjour'—it's an expected courtesy in French mountain culture."
+        },
+        {
+          "id": "vosg_c2",
+          "text": "Visit in Shoulder Seasons",
+          "detail": "Spring and autumn offer ideal conditions with fewer crowds; winter brings snow sports but many trails close, while summer is warmest but busiest."
+        },
+        {
+          "id": "vosg_c3",
+          "text": "Learn Basic French Phrases",
+          "detail": "While some areas see international tourists, the mountain communities are small and speaking some French greatly enhances your reception and experience."
+        },
+        {
+          "id": "vosg_c4",
+          "text": "Support Mountain Auberges",
+          "detail": "Eat and stay at family-run mountain inns and refuges rather than chain establishments to directly support local Vosges communities."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Le Crocodile",
+      "address": "10 rue de l'Outre, Strasbourg",
+      "neighbourhood": "Strasbourg Centre",
+      "cuisine": "French Fine Dining",
+      "priceRange": "€€€€",
+      "description": "Michelin-starred gastronomic restaurant showcasing refined Alsatian and contemporary French cuisine in an elegant Belle Époque setting.",
+      "mustOrder": "Foie gras terrine with Gewürztraminer jelly",
+      "lat": 48.5728,
+      "lng": 7.7539
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Maison Kammerzell",
+      "address": "16 place de la Cathédrale, Strasbourg",
+      "neighbourhood": "Strasbourg Centre",
+      "cuisine": "Alsatian",
+      "priceRange": "€€",
+      "description": "Historic 15th-century half-timbered house serving traditional Alsatian cuisine with views of the cathedral in the charming old town.",
+      "mustOrder": "Choucroute garnie",
+      "lat": 48.5735,
+      "lng": 7.7519
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Au Pont du Corbeau",
+      "address": "21 quai Saint-Nicolas, Strasbourg",
+      "neighbourhood": "Strasbourg Neustadt",
+      "cuisine": "Alsatian Traditional",
+      "priceRange": "€€",
+      "description": "Charming riverside restaurant with terrace serving authentic Alsatian specialties including flammekuchen and regional wines.",
+      "mustOrder": "Flammekuchen (Tarte Flambée)",
+      "lat": 48.5793,
+      "lng": 7.7475
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Chez Yvonne",
+      "address": "10 rue du Sanglier, Strasbourg",
+      "neighbourhood": "Strasbourg Centre",
+      "cuisine": "Alsatian Bistro",
+      "priceRange": "€€",
+      "description": "Beloved local bistro with wood-paneled interior and communal seating offering hearty Alsatian comfort food and quality wines.",
+      "mustOrder": "Baeckaoffa (Alsatian meat stew)",
+      "lat": 48.5748,
+      "lng": 7.7492
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Le Petit Zinc",
+      "address": "7 rue des Orfèvres, Metz",
+      "neighbourhood": "Metz Centre",
+      "cuisine": "French Brasserie",
+      "priceRange": "€€",
+      "description": "Classic Art Deco brasserie in central Metz serving traditional French brasserie fare in a convivial Belle Époque atmosphere.",
+      "mustOrder": "Sole meunière",
+      "lat": 49.1193,
+      "lng": 6.1757
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "L'Étuve",
+      "address": "17 rue de la Tête d'Or, Metz",
+      "neighbourhood": "Metz Centre",
+      "cuisine": "French Contemporary",
+      "priceRange": "€€€",
+      "description": "Elegant contemporary restaurant featuring creative French cuisine with seasonal ingredients in a refined minimalist setting.",
+      "mustOrder": "Duck confit with cherry gastrique",
+      "lat": 49.1201,
+      "lng": 6.1773
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Le Grill de l'Etuve",
+      "address": "2 rue des Roches, Metz",
+      "neighbourhood": "Metz Centre",
+      "cuisine": "French Grill",
+      "priceRange": "€€",
+      "description": "Relaxed grill restaurant near the cathedral serving quality grilled meats and fish with an emphasis on local Lorraine products.",
+      "mustOrder": "Côte de boeuf grillée",
+      "lat": 49.1185,
+      "lng": 6.1749
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Villa Lorraine",
+      "address": "2 rue de Lorraine, Verdun",
+      "neighbourhood": "Verdun Centre",
+      "cuisine": "French Traditional",
+      "priceRange": "€€€",
+      "description": "Historic restaurant housed in an elegant 19th-century building serving refined Lorraine specialties near the Meuse riverfront.",
+      "mustOrder": "Quenelles de foie de veau",
+      "lat": 49.1601,
+      "lng": 5.3892
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "La Citadelle",
+      "address": "3 avenue de la Victoire, Verdun",
+      "neighbourhood": "Verdun Centre",
+      "cuisine": "French Bistro",
+      "priceRange": "€€",
+      "description": "Welcoming bistro with warm décor serving hearty French comfort food and local Meuse wines in the heart of Verdun.",
+      "mustOrder": "Pâté de foie gras",
+      "lat": 49.1618,
+      "lng": 5.3878
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Le Valentino",
+      "address": "18 Grand Rue, Colmar",
+      "neighbourhood": "Colmar Centre",
+      "cuisine": "Italian Fine Dining",
+      "priceRange": "€€€",
+      "description": "Sophisticated Italian restaurant with extensive wine selection serving refined Mediterranean cuisine in charming old Colmar.",
+      "mustOrder": "Risotto ai funghi porcini",
+      "lat": 48.0769,
+      "lng": 7.3569
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Maison Adam",
+      "address": "37 Grand Rue, Colmar",
+      "neighbourhood": "Colmar Centre",
+      "cuisine": "Alsatian",
+      "priceRange": "€€",
+      "description": "Traditional half-timbered restaurant serving authentic Alsatian dishes in the atmospheric medieval heart of Colmar.",
+      "mustOrder": "Fleischnacka (Alsatian meat roll)",
+      "lat": 48.0774,
+      "lng": 7.3558
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Le Schenkele",
+      "address": "1 rue de la Boucherie, Strasbourg",
+      "neighbourhood": "Strasbourg Centre",
+      "cuisine": "Alsatian Winstub",
+      "priceRange": "€",
+      "description": "Casual traditional winstub (wine tavern) in a historic building offering simple Alsatian fare and local wines at budget-friendly prices.",
+      "mustOrder": "Leberknack with sauerkraut",
+      "lat": 48.5758,
+      "lng": 7.7504
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Christophe Raclette",
+      "address": "2 rue des Juifs, Strasbourg",
+      "neighbourhood": "Strasbourg Centre",
+      "cuisine": "Savoyard/Cheese",
+      "priceRange": "€€",
+      "description": "Cosy restaurant specializing in raclette and fondue, offering warming Alpine cheese dishes in the Strasbourg old town.",
+      "mustOrder": "Raclette traditionnelle",
+      "lat": 48.5762,
+      "lng": 7.7486
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Au Rendezvous des Chasseurs",
+      "address": "5 rue de Coëtlosquet, Mulhouse",
+      "neighbourhood": "Mulhouse Centre",
+      "cuisine": "French Regional",
+      "priceRange": "€€€",
+      "description": "Refined restaurant with wood-beamed interiors serving seasonal French cuisine with game specialties and regional wines.",
+      "mustOrder": "Civet de sanglier",
+      "lat": 47.7412,
+      "lng": 7.3301
+    }
+  ]
+}
