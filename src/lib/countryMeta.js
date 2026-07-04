@@ -22,6 +22,8 @@ export const COUNTRY_META = [
     blurb: 'Castles, coastlines and pubs — 17 regions across four nations.' },
   { slug: 'united_states', name: 'United States', flag: '🇺🇸',
     blurb: 'Road trips, national parks and big-sky cities — coast to coast.' },
+  { slug: 'germany', name: 'Germany', flag: '🇩🇪',
+    blurb: 'Castles, forests and beer halls — region by region.' },
   { slug: 'japan', name: 'Japan', flag: '🇯🇵',
     blurb: 'Temples, ramen and bullet trains — 9 regions from Hokkaido to Okinawa.' },
 ]

@@ -34,11 +34,18 @@ const known = COUNTRY_META.map((m) => ({
 const extras = onDisk
   .filter((slug) => !COUNTRY_META.some((m) => m.slug === slug))
   .sort()
-  .map((slug) => ({
-    slug, name: titleCase(slug), flag: '🌍',
-    blurb: 'Mapped region by region.',
-    available: !HIDDEN.includes(slug),
-  }))
+  .map((slug) => {
+    // prefer the metadata set in the builder (written by import-country.mjs)
+    let cj = {}
+    try { cj = JSON.parse(fs.readFileSync(path.join(dataDir, slug, 'country.json'), 'utf8')) } catch { /* older imports */ }
+    return {
+      slug,
+      name: cj.name || titleCase(slug),
+      flag: cj.flag || '\u{1F30D}',
+      blurb: cj.blurb || 'Mapped region by region.',
+      available: !HIDDEN.includes(slug),
+    }
+  })
 
 const countries = [...known, ...extras]
 

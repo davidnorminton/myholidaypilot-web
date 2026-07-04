@@ -32,6 +32,12 @@ for (const [rel, obj] of Object.entries(bundle.files)) {
   fs.writeFileSync(full, JSON.stringify(obj, null, 2))
   written++
 }
+// carry the builder-set metadata (name, flag, blurb) with the data, so the
+// countries generator can use it without a manual countryMeta.js entry.
+fs.writeFileSync(path.join(root, 'country.json'), JSON.stringify({
+  name: bundle.name, flag: bundle.flag || '', blurb: bundle.blurb || '',
+}, null, 2))
+written++
 console.log(`\u2713 wrote ${written} files to ${path.relative(process.cwd(), root) || root}`)
 
 // Registry is now GENERATED from the data folders (scripts/gen-countries.mjs).
