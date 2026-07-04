@@ -314,6 +314,11 @@ export function setStory(tripId, story) {
   set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, story } : t)) })
 }
 
+// ── review ───────────────────────────────────────────────────────────────────
+export function setReview(tripId, review) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, review } : t)) })
+}
+
 // ── budget ───────────────────────────────────────────────────────────────────
 export function setBudget(tripId, budget) {
   set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, budget } : t)) })

@@ -12,6 +12,22 @@ const isProd = process.env.NODE_ENV === 'production' ||
 const isAdmin = (email) => adminEmails.length === 0 || adminEmails.includes((email || '').toLowerCase())
 
 async function profileFromReq(req) {
+  // Our own session (exchanged at sign-in) — outlives Google's 1-hour tokens.
+  const sess = (req.headers['x-session'] || '').toString()
+  if (sess) {
+    const db = getDb()
+    const [row] = await db.select({
+      token: schema.sessions.token, expiresAt: schema.sessions.expiresAt,
+      id: schema.users.id, email: schema.users.email, name: schema.users.name, picture: schema.users.picture,
+    }).from(schema.sessions)
+      .leftJoin(schema.users, eq(schema.users.id, schema.sessions.userId))
+      .where(eq(schema.sessions.token, sess))
+    if (row && row.expiresAt > Date.now() && row.id) {
+      return { id: row.id, email: (row.email || '').toLowerCase(), name: row.name || row.email, picture: row.picture || '' }
+    }
+    // fall through: an expired/unknown session may still ride with a Bearer token
+  }
+
   const auth = req.headers.authorization || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : null
   if (token && oauth) {

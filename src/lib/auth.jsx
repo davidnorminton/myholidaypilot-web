@@ -5,7 +5,7 @@
 //   VITE_GOOGLE_CLIENT_ID   (OAuth 2.0 Web client ID from Google Cloud)
 //   VITE_ADMIN_EMAILS       (comma-separated allowlist; empty = any signed-in user)
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'
-import { setApiAuth } from './api.js'
+import { setApiAuth, api } from './api.js'
 
 const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || ''
 const ADMIN_EMAILS = (import.meta.env.VITE_ADMIN_EMAILS || '')
@@ -58,6 +58,15 @@ export function AuthProvider({ children }) {
     }
     setUser(u)
     try { localStorage.setItem(USER_KEY, JSON.stringify(u)) } catch { /* ignore */ }
+    // Exchange the (1-hour) Google token for a 30-day session of our own so
+    // long editing stints don't start failing writes. Fire-and-forget.
+    setApiAuth({ credential: resp.credential })
+    api.session.start().then((sess) => {
+      const u2 = { ...u, session: sess.token, sessionExpiresAt: sess.expiresAt }
+      delete u2.credential
+      setUser(u2)
+      try { localStorage.setItem(USER_KEY, JSON.stringify(u2)) } catch { /* ignore */ }
+    }).catch(() => { /* keep riding the Google token */ })
   }, [])
 
   useEffect(() => {
@@ -72,6 +81,7 @@ export function AuthProvider({ children }) {
   }, [configured, handleCredential])
 
   const signOut = useCallback(() => {
+    api.session.end().catch(() => {})
     setUser(null)
     try { localStorage.removeItem(USER_KEY) } catch { /* ignore */ }
     if (window.google?.accounts?.id) window.google.accounts.id.disableAutoSelect()
@@ -90,8 +100,26 @@ export function AuthProvider({ children }) {
   // so an effect here would let the first API calls go out unauthenticated.
   if (!user) setApiAuth({})
   else if (user.dev) setApiAuth({ devEmail: user.email, devId: user.sub, devName: user.name })
+  else if (user.session && (!user.sessionExpiresAt || user.sessionExpiresAt > Date.now())) setApiAuth({ session: user.session })
   else if (user.credential) setApiAuth({ credential: user.credential })
   else setApiAuth({})
+
+  // Users signed in before sessions existed hold only a Google credential
+  // (1-hour expiry). Upgrade them to a session on load; if the credential has
+  // already expired, clear the stale sign-in so the UI honestly shows Sign in.
+  useEffect(() => {
+    if (!user || user.dev || user.session || !user.credential) return
+    api.session.start().then((sess) => {
+      const u2 = { ...user, session: sess.token, sessionExpiresAt: sess.expiresAt }
+      delete u2.credential
+      setUser(u2)
+      try { localStorage.setItem(USER_KEY, JSON.stringify(u2)) } catch { /* ignore */ }
+    }).catch(() => {
+      setUser(null)
+      try { localStorage.removeItem(USER_KEY) } catch { /* ignore */ }
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.sub])
 
   const isAdmin = !!user && (ADMIN_EMAILS.length === 0 || ADMIN_EMAILS.includes((user.email || '').toLowerCase()))
 

@@ -2,10 +2,13 @@
 // sign-in so the server can identify the user; everything else is plain fetch.
 let authHeader = {}
 
-export function setApiAuth({ credential, devEmail, devId, devName } = {}) {
-  if (credential) authHeader = { Authorization: `Bearer ${credential}` }
-  else if (devEmail) authHeader = { 'x-dev-email': devEmail, 'x-dev-id': devId || devEmail, 'x-dev-name': devName || '' }
-  else authHeader = {}
+export function setApiAuth({ credential, session, devEmail, devId, devName } = {}) {
+  authHeader = {}
+  if (session) authHeader['x-session'] = session
+  if (credential) authHeader.Authorization = `Bearer ${credential}`
+  if (!session && !credential && devEmail) {
+    authHeader = { 'x-dev-email': devEmail, 'x-dev-id': devId || devEmail, 'x-dev-name': devName || '' }
+  }
 }
 
 async function req(method, path, body) {
@@ -28,11 +31,21 @@ export const api = {
     })
   },
   me: () => req('GET', '/me'),
+  session: {
+    start: () => req('POST', '/session'),
+    end: () => req('DELETE', '/session'),
+  },
   syncUser: () => req('POST', '/me'),
   favourites: {
     list: () => req('GET', '/favourites'),
     add: (regionId, placeId) => req('POST', '/favourites', { regionId, placeId }),
     remove: (regionId, placeId) => req('DELETE', `/favourites?regionId=${encodeURIComponent(regionId)}&placeId=${encodeURIComponent(placeId)}`),
+  },
+  stats: () => req('GET', '/stats'),
+  commentsAdmin: {
+    list: () => req('GET', '/comments?admin=1'),
+    setStatus: (id, status) => req('PATCH', '/comments', { id, status }),
+    remove: (id) => req('DELETE', `/comments?id=${encodeURIComponent(id)}`),
   },
   gallery: {
     list: (country) => req('GET', `/gallery${country ? `?country=${country}` : ''}`),
@@ -51,6 +64,8 @@ export const api = {
     budget: (payload) => req('POST', '/ai?action=budget', payload),
     narrate: (payload) => req('POST', '/ai?action=narrate', payload),
     blogPost: (payload) => req('POST', '/ai?action=blog', payload),
+    place: (payload) => req('POST', '/ai?action=place', payload),
+    review: (payload) => req('POST', '/ai?action=review', payload),
   },
   visits: {
     list: () => req('GET', '/visits'),

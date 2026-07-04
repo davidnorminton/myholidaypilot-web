@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Check, Copy, MapPin } from 'lucide-react'
+import { Check, Copy, MapPin, ImageDown } from 'lucide-react'
 import { useTrips } from '../lib/trips.js'
+import { downloadMapImage } from '../lib/mapImage.js'
 import { getIndex } from '../lib/data.js'
 import { useVisits } from '../lib/visits.js'
 import { COUNTRIES } from '../lib/countries.js'
@@ -102,6 +103,10 @@ export default function BeenThereMap() {
 
       <button className="btn btn--soft" style={{ marginTop: 18 }} onClick={copy}>
         {copied ? <><Check size={15} /> Copied</> : <><Copy size={15} /> Copy your stats to share</>}
+      </button>
+      <button className="btn btn--soft" style={{ marginLeft: 10 }}
+        onClick={() => downloadMapImage({ countryName: countryMeta.name, regions, visitedIds: visitedRegions, placeCount: countryVisitedPlaces.length })}>
+        <ImageDown size={15} /> Download map image
       </button>
     </div>
   )

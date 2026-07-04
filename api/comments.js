@@ -1,5 +1,5 @@
-import { getDb, schema, eq, and, asc, desc, isNull } from './_lib/db.js'
-import { requireUser } from './_lib/auth.js'
+import { getDb, schema, eq, and, or, asc, desc, isNull } from './_lib/db.js'
+import { requireUser, requireAdmin } from './_lib/auth.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
 const { comments, users } = schema
 
@@ -24,6 +24,18 @@ export default handler(async (req, res) => {
   }
 
   // ── list (public) ──────────────────────────────────────────────────────────
+  if (req.method === 'GET' && (req.query || {}).admin) {
+    const user = await requireUser(req); requireAdmin(user)
+    const rows = await db.select({
+      id: comments.id, parentId: comments.parentId, body: comments.body, status: comments.status,
+      countryId: comments.countryId, targetType: comments.targetType,
+      regionId: comments.regionId, placeId: comments.placeId,
+      createdAt: comments.createdAt, authorName: users.name, authorEmail: users.email,
+    }).from(comments).leftJoin(users, eq(users.id, comments.userId))
+      .orderBy(desc(comments.createdAt)).limit(300)
+    return send(res, 200, rows)
+  }
+
   if (req.method === 'GET') {
     const { country, type, region, place } = req.query || {}
     if (!country || !type || !region) throw fail(400, 'country, type, region required')
@@ -33,7 +45,7 @@ export default handler(async (req, res) => {
       createdAt: comments.createdAt, userId: comments.userId,
       authorName: users.name, authorPicture: users.picture,
     }).from(comments).leftJoin(users, eq(users.id, comments.userId))
-      .where(areaWhere({ country, type, region, place }))
+      .where(and(areaWhere({ country, type, region, place }), eq(comments.status, 'visible')))
       .orderBy(asc(comments.createdAt))
     return send(res, 200, rows)
   }
@@ -64,6 +76,24 @@ export default handler(async (req, res) => {
       ...area, parentId: b.parentId || null, userId: user.id, body,
     }).returning()
     return send(res, 201, { ...row, authorName: user.name, authorPicture: user.picture })
+  }
+
+  // ── delete (admin, permanent) ──────────────────────────────────────────────
+  if (req.method === 'DELETE') {
+    const user = await requireUser(req); requireAdmin(user)
+    const { id } = req.query || {}
+    if (!id) throw fail(400, 'id required')
+    await db.delete(comments).where(or(eq(comments.id, id), eq(comments.parentId, id)))
+    return send(res, 200, { ok: true })
+  }
+
+  // ── moderate (admin): hide / unhide ────────────────────────────────────────
+  if (req.method === 'PATCH') {
+    const user = await requireUser(req); requireAdmin(user)
+    const b = await readBody(req)
+    if (!b.id || (b.status !== 'visible' && b.status !== 'hidden')) throw fail(400, 'id and status required')
+    await db.update(comments).set({ status: b.status, updatedAt: Date.now() }).where(eq(comments.id, b.id))
+    return send(res, 200, { ok: true })
   }
 
   throw fail(405, 'Method not allowed')

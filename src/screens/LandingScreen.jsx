@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin, Wand2, Map as MapIcon, Car } from 'lucide-react'
+import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2 } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { useSettings } from '../lib/settings.js'
@@ -170,6 +170,21 @@ export default function LandingScreen() {
             <span className="duo__reg">⛰️ Trentino</span>
           </div>
           <Link to={paths.account('map')} className="btn btn--soft"><MapIcon size={16} /> See your map</Link>
+        </article>
+
+        <article className="duo__card">
+          <p className="eyebrow">Trip ideas</p>
+          <h2 className="duo__title">Real trips, ready to copy</h2>
+          <p className="duo__sub">
+            Browse itineraries other travellers have planned and published — day by day, with the
+            sights and dinners chosen — and copy any of them straight into your own planner.
+          </p>
+          <div className="duo__mock duo__mock--gal" aria-hidden="true">
+            <span className="duo__result">Abruzzo long weekend · 3 days</span>
+            <span className="duo__arrow">→</span>
+            <span className="gq__chip is-on"><Copy size={11} /> Use this trip</span>
+          </div>
+          <Link to={paths.gallery()} className="btn btn--soft"><Globe2 size={16} /> Browse trip ideas</Link>
         </article>
       </section>
 

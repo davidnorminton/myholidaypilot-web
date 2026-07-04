@@ -10,6 +10,7 @@ import AddToTrip from '../components/AddToTrip.jsx'
 import SaveButton from '../components/SaveButton.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
+import AskPlace from '../components/AskPlace.jsx'
 import { useAffiliates, placeOffers } from '../lib/affiliates.js'
 import { PageLoader } from '../components/Loading.jsx'
 import { useSeo, canonicalUrl } from '../lib/seo.js'
@@ -160,6 +161,7 @@ export default function PlaceDetailScreen() {
             />
           )}
 
+          <AskPlace place={place} regionName={region?.name || ''} />
           <CommentsSection countryId={COUNTRY} targetType="place" regionId={regionId} placeId={placeId} areaName={place.name} />
         </main>
       </div>

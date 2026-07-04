@@ -78,7 +78,8 @@ export default function AdminBlog() {
       try {
         const existing = (list || []).map((p) => ({ title: p.title, tag: p.tag, dek: p.dek }))
         const styleSample = (list || []).find((p) => p.body)?.body?.slice(0, 1800) || ''
-        const res = await api.ai.blogPost({ topic: aiTopic, notes: aiNotes, existing, styleSample })
+        const topic = aiTopic.trim() || form.title || ''
+        const res = await api.ai.blogPost({ topic, notes: aiNotes, existing, styleSample })
         set({
           title: res.title,
           slug: form._orig ? form.slug : slugify(res.title),
@@ -112,12 +113,12 @@ export default function AdminBlog() {
               placeholder="angle, must-mention places, things to avoid…" />
           </label>
           <div className="admin__bar">
-            <button className="btn btn--soft" onClick={aiDraft} disabled={aiBusy || !aiTopic.trim()}>
+            <button className="btn btn--soft" onClick={aiDraft} disabled={aiBusy || (!aiTopic.trim() && !form.title)}>
               {aiBusy ? <><RefreshCw size={14} className="pk__spin" /> Drafting…</>
                 : form.body ? <><RefreshCw size={14} /> Regenerate draft</>
                 : <><Sparkles size={14} /> Draft this post</>}
             </button>
-            <span className="admin-note">Knows every published post — it complements the archive rather than repeating it. Fills the fields below; everything stays editable.</span>
+            <span className="admin-note">Knows every published post — it complements the archive rather than repeating it. Fills the fields below; everything stays editable. On an existing post, leave the topic blank to regenerate from its title.</span>
           </div>
           {aiError && <p className="admin-ai__error">{aiError}</p>}
         </div>

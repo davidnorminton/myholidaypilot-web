@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Download, Pencil, Trash2, ArrowUpRight,
-  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles, Globe2 } from 'lucide-react'
+  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles, Globe2, MessageSquare } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
@@ -15,6 +15,8 @@ import AdminHub from '../components/admin/AdminHub.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
 import AdminSeo from '../components/admin/AdminSeo.jsx'
 import AdminGallery from '../components/admin/AdminGallery.jsx'
+import AdminComments from '../components/admin/AdminComments.jsx'
+import AdminStats from '../components/admin/AdminStats.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
 import AdminAi from '../components/admin/AdminAi.jsx'
@@ -28,6 +30,7 @@ const SECTIONS = [
   { id: 'affiliates', label: 'Affiliates', icon: BadgePercent },
   { id: 'audience', label: 'Newsletter', icon: Mail },
   { id: 'gallery', label: 'Gallery', icon: Globe2 },
+  { id: 'comments', label: 'Comments', icon: MessageSquare },
   { id: 'seo', label: 'SEO', icon: Globe },
   { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'export', label: 'Export', icon: FileJson },
@@ -59,6 +62,7 @@ export default function AdminScreen() {
       <header className="sub-hero wrap">
         <p className="eyebrow">Admin</p>
         <h1 className="sub-hero__title">Content studio</h1>
+        <AdminStats />
         <p className="sub-hero__sub">Write posts and edit the guide. Changes show live on this device — use <b>Export</b> to download the JSON files and commit them.</p>
       </header>
 
@@ -82,6 +86,7 @@ export default function AdminScreen() {
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
         {section === 'gallery' && <AdminGallery />}
+        {section === 'comments' && <AdminComments />}
         {section === 'seo' && <AdminSeo />}
         {section === 'ai' && <AdminAi />}
         {section === 'export' && <AdminExport regions={regions} />}

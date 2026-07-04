@@ -62,6 +62,7 @@ export const comments = sqliteTable('comments', {
   parentId: text('parent_id'),
   userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
   body: text('body').notNull(),
+  status: text('status', { enum: ['visible', 'hidden'] }).notNull().default('visible'),
   createdAt: integer('created_at').notNull().$defaultFn(now),
   updatedAt: integer('updated_at').notNull().$defaultFn(now),
 }, (t) => ({
@@ -173,3 +174,13 @@ export const publicTrips = sqliteTable('public_trips', {
   ownerTrip: uniqueIndex('pub_owner_trip').on(t.userId, t.tripId),
   byStatus: index('pub_status').on(t.status, t.featured, t.createdAt),
 }))
+
+// ── sessions ─────────────────────────────────────────────────────────────────
+// Google ID tokens expire after ~1 hour; a session outlives them so long
+// admin/editing stints don't start failing writes mid-flow.
+export const sessions = sqliteTable('sessions', {
+  token: text('token').primaryKey(),
+  userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+  expiresAt: integer('expires_at').notNull(),
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+}, (t) => ({ byUser: index('sess_user').on(t.userId) }))

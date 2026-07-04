@@ -4,6 +4,7 @@ import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, 
 import { paths } from '../lib/paths.js'
 import { typeLabel, mapsUrl } from '../lib/format.js'
 import TripStory from './TripStory.jsx'
+import TripReview from './TripReview.jsx'
 import { movePlaceTo, addPlace, setPlaceDate, stayForDay } from '../lib/trips.js'
 import MapView from './MapView.jsx'
 import { bestRoute, kmBetween as legKm } from '../lib/route.js'
@@ -254,6 +255,7 @@ export default function Itinerary({ trip, onPlan }) {
   return (
     <div className="itin">
       <TripStory trip={trip} />
+      <TripReview trip={trip} />
 
       {isLive && days.some((d) => d.date === todayIso) && (
         <button className="itin-today" onClick={() => todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>

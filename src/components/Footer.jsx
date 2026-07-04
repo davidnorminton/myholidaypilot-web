@@ -22,6 +22,7 @@ export default function Footer() {
             <h3>Explore</h3>
             <Link to={paths.destinations()}>Destinations</Link>
             <Link to={paths.dayTrips()}>Day-trip finder</Link>
+            <Link to={paths.gallery()}>Trip ideas</Link>
             <Link to={paths.blog()}>The blog</Link>
           </div>
           <div className="footer__col">
@@ -39,7 +40,6 @@ export default function Footer() {
           <div className="footer__col">
             <h3>More</h3>
             <a href="mailto:hello@myholidaypilot.example">Contact</a>
-            <Link to={paths.admin()}>Admin</Link>
           </div>
         </nav>
       </div>

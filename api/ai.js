@@ -263,5 +263,94 @@ Respond with ONLY valid JSON, no fences: {"title":"","tag":"","excerpt":"","html
     })
   }
 
+  // ── ask about a place (scoped Q&A, any signed-in user) ────────────────────
+  if (req.method === 'POST' && action === 'place') {
+    const user = await requireUser(req)
+    const { key, model, dailyLimit } = await aiConfig(db)
+    if (!key) throw fail(400, 'AI is not configured yet')
+    if (!model) throw fail(400, 'No AI model selected yet')
+    await checkAllowance(db, user, dailyLimit)
+
+    const b = await readBody(req)
+    const question = String(b.question || '').trim().slice(0, 300)
+    const placeName = String(b.placeName || '').slice(0, 80)
+    const context = String(b.context || '').slice(0, 4000)
+    if (!question || !placeName) throw fail(400, 'A question and a place are required')
+
+    const prompt = `You are the travel guide for myholidaypilot answering ONE visitor question about ${placeName}, Italy.
+
+OUR GUIDE'S NOTES ON THE PLACE (primary source — prefer this):
+${context || '(none provided)'}
+
+QUESTION: ${question}
+
+Rules:
+- Answer in 2 to 5 sentences, plain text, no markdown, no lists.
+- Ground the answer in the notes above plus reliable general knowledge of the place. If something genuinely varies (opening hours, prices), say so honestly rather than inventing specifics.
+- If the question is unrelated to visiting this place, say you can only help with ${placeName}.
+
+Respond with ONLY valid JSON, no fences: {"answer":"..."}`
+
+    const r = await fetch(`${ANTHROPIC}/messages`, {
+      method: 'POST',
+      headers: { 'x-api-key': key, 'anthropic-version': VERSION, 'content-type': 'application/json' },
+      body: JSON.stringify({ model, max_tokens: 500, messages: [{ role: 'user', content: prompt }] }),
+    })
+    if (!r.ok) throw fail(r.status === 401 ? 400 : 502, `Anthropic: ${(await r.text()).slice(0, 200)}`)
+    const j = await r.json()
+    const text = (j.content || []).filter((c) => c.type === 'text').map((c) => c.text).join('')
+    let parsed
+    try { parsed = extractJson(text) } catch { throw fail(502, 'The model returned an unexpected format — try again') }
+    if (typeof parsed.answer !== 'string' || parsed.answer.length < 5) throw fail(502, 'The model returned an unexpected shape — try again')
+    return send(res, 200, { answer: parsed.answer.slice(0, 1500) })
+  }
+
+  // ── itinerary sense-check (any signed-in user) ─────────────────────────────
+  if (req.method === 'POST' && action === 'review') {
+    const user = await requireUser(req)
+    const { key, model, dailyLimit } = await aiConfig(db)
+    if (!key) throw fail(400, 'AI is not configured yet')
+    if (!model) throw fail(400, 'No AI model selected yet')
+    await checkAllowance(db, user, dailyLimit)
+
+    const b = await readBody(req)
+    const { tripName, startDate, endDate, adults = 2, children = 0, days = [] } = b || {}
+    if (!days.length) throw fail(400, 'Trip details required')
+
+    const dayLines = days.slice(0, 21).map((d) => `Day ${d.n} (${d.weekday}${d.km ? `, ~${d.km} km driving` : ''}): ${String(d.summary).slice(0, 220)}`).join('\n')
+
+    const prompt = `Review this trip plan like an experienced, kind Italy travel agent. Find the things worth flagging BEFORE they travel.
+
+Trip: ${String(tripName).slice(0, 80)} · ${startDate} to ${endDate} · ${adults} adult(s), ${children} child(ren)
+${dayLines}
+
+Look for: overloaded days; heavy driving days (especially with children); Monday museum closures and Sunday shop closures in Italy; days with no food picks; unrealistic pacing; anything seasonal about the dates. Also note ONE thing they've done well.
+
+Rules:
+- 3 to 6 observations, each ONE sentence, specific to their actual plan (mention the day number).
+- severity: "warn" for real problems, "tip" for improvements, "good" for the positive one.
+- Be honest — if the plan is genuinely well balanced, say so and keep the list short.
+
+Respond with ONLY valid JSON, no fences: {"observations":[{"severity":"warn","day":3,"text":"..."}]}`
+
+    const r = await fetch(`${ANTHROPIC}/messages`, {
+      method: 'POST',
+      headers: { 'x-api-key': key, 'anthropic-version': VERSION, 'content-type': 'application/json' },
+      body: JSON.stringify({ model, max_tokens: 900, messages: [{ role: 'user', content: prompt }] }),
+    })
+    if (!r.ok) throw fail(r.status === 401 ? 400 : 502, `Anthropic: ${(await r.text()).slice(0, 200)}`)
+    const j = await r.json()
+    const text = (j.content || []).filter((c) => c.type === 'text').map((c) => c.text).join('')
+    let parsed
+    try { parsed = extractJson(text) } catch { throw fail(502, 'The model returned an unexpected format — try again') }
+    if (!Array.isArray(parsed.observations)) throw fail(502, 'The model returned an unexpected shape — try again')
+    const obs = parsed.observations.slice(0, 6).map((o) => ({
+      severity: ['warn', 'tip', 'good'].includes(o.severity) ? o.severity : 'tip',
+      day: Number.isFinite(Number(o.day)) ? Number(o.day) : null,
+      text: String(o.text || '').slice(0, 240),
+    })).filter((o) => o.text)
+    return send(res, 200, { observations: obs })
+  }
+
   throw fail(405, 'Method not allowed')
 })
