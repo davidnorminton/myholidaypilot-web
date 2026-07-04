@@ -1,0 +1,1626 @@
+{
+  "id": "texas",
+  "name": "Texas",
+  "nameIt": "Texas",
+  "capital": "Austin",
+  "lat": 30.2672,
+  "lng": -97.7431,
+  "emoji": "⭐",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 36.5,
+    "south": 25.8,
+    "east": -93.5,
+    "west": -106.6
+  },
+  "history": "Texas was originally inhabited by Native American peoples including the Comanche and Apache. Spanish colonizers arrived in the 16th century, establishing missions and settlements, while Anglo-American settlers began arriving in large numbers in the early 19th century. Texas declared independence from Mexico in 1836 and operated as an independent nation for nearly a decade before joining the United States in 1845. The state's subsequent growth was shaped by cattle ranching, oil discovery, and its pivotal role in the Civil War and Reconstruction era.",
+  "culturalNotes": "Texas culture is defined by a strong independent spirit, cowboy heritage, and pride in its distinctive identity as a former republic. The state is known for its barbecue traditions, country music scene, rodeos, and the iconic imagery of the American West. A blend of Spanish, Mexican, Native American, and Anglo influences creates a unique cultural landscape, particularly evident in food, architecture, and festivals throughout the state.",
+  "bestTimeToVisit": "Visit in spring or fall to avoid extreme summer heat.",
+  "languageNotes": "English is the primary language, spoken with a distinctive Southern drawl and Texas accent featuring dropped g's and distinctive pronunciations. Spanish is widely spoken, especially in southern and border regions, reflecting the state's Mexican heritage and proximity to Mexico.",
+  "generatedAt": "2026-07-04T20:13:33.260Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "austin",
+      "name": "Austin",
+      "nameIt": "Austin",
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "type": "CITY",
+      "description": "Texas's vibrant capital city known for live music, tech innovation, and a progressive cultural scene. Visit for the iconic 6th Street nightlife, Congress Avenue bats, and excellent food and brewery scene.",
+      "imageQueries": [
+        "Austin skyline Congress Avenue",
+        "Austin 6th Street live music"
+      ],
+      "activities": [
+        {
+          "id": "aust_1",
+          "text": "Congress Avenue Bridge Bat Colony",
+          "detail": "Watch over 1.5 million Mexican free-tailed bats emerge at dusk from beneath the bridge, a spectacular natural phenomenon especially vibrant from May to November.",
+          "lat": 30.2672,
+          "lng": -97.7431
+        },
+        {
+          "id": "aust_2",
+          "text": "6th Street Live Music Venues",
+          "detail": "Experience Austin's legendary live music scene by bar-hopping along 6th Street where nearly every venue features local and touring bands nightly.",
+          "lat": 30.2675,
+          "lng": -97.7399
+        },
+        {
+          "id": "aust_3",
+          "text": "Lady Bird Lake Trail",
+          "detail": "Bike or jog the scenic 10-mile hike-and-bike trail circling Lady Bird Lake with views of downtown skyline, parks, and wildlife.",
+          "lat": 30.2672,
+          "lng": -97.7577
+        },
+        {
+          "id": "aust_4",
+          "text": "State Capitol Building and Grounds",
+          "detail": "Tour the pink granite capitol building and its surrounding 22-acre park, featuring monuments and native Texas plants, with free guided tours available.",
+          "lat": 30.2747,
+          "lng": -97.7403
+        },
+        {
+          "id": "aust_5",
+          "text": "South Congress Avenue (SoCo)",
+          "detail": "Stroll the eclectic retail and dining district known for vintage shops, street art, local boutiques, and the iconic South Congress Bridge graffiti.",
+          "lat": 30.259,
+          "lng": -97.7461
+        },
+        {
+          "id": "aust_6",
+          "text": "Barton Springs Pool",
+          "detail": "Swim in this spring-fed natural pool that maintains a refreshing 68-70 degrees year-round, located within Zilker Park.",
+          "lat": 30.2642,
+          "lng": -97.7725
+        },
+        {
+          "id": "aust_7",
+          "text": "Food Truck Circuit on East 6th Street",
+          "detail": "Explore the concentration of award-winning food trucks serving tacos, barbecue, and global cuisine along East 6th Street near Rainey Street.",
+          "lat": 30.2689,
+          "lng": -97.728
+        }
+      ],
+      "food": [
+        {
+          "id": "aust_f1",
+          "text": "Austin-Style BBQ Brisket",
+          "detail": "Sample slow-smoked brisket seasoned simply with salt and pepper from legendary pitmasters like Franklin Barbecue or la Barbecue, a Texas staple."
+        },
+        {
+          "id": "aust_f2",
+          "text": "Breakfast Tacos",
+          "detail": "Try the local breakfast staple of flour or corn tortillas filled with scrambled eggs, cheese, bacon, and salsa, available at taquerias throughout the city."
+        },
+        {
+          "id": "aust_f3",
+          "text": "Tex-Mex and Queso",
+          "detail": "Enjoy creamy queso dip with chorizo or jalapeños paired with chips at Austin's numerous Tex-Mex restaurants like Matt's El Rancho."
+        },
+        {
+          "id": "aust_f4",
+          "text": "Texas Czech Kolaches",
+          "detail": "Sample sweet or savory pastries with fruit or meat fillings reflecting the Czech immigrant heritage found at local bakeries and food trailers."
+        },
+        {
+          "id": "aust_f5",
+          "text": "Craft Beer and Brewery Tours",
+          "detail": "Discover Austin's thriving craft beer scene with over 30 breweries offering tours and tastings, from Austinite-owned spots to national favorites."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aust_c1",
+          "text": "Keep Austin Weird",
+          "detail": "Embrace the city's motto celebrating individuality, local businesses, and quirky culture; support independent shops and venues rather than chains."
+        },
+        {
+          "id": "aust_c2",
+          "text": "Live Music Everywhere",
+          "detail": "Austin has more live music venues per capita than any U.S. city—expect live performances at bars, coffee shops, parks, and street corners day and night."
+        },
+        {
+          "id": "aust_c3",
+          "text": "Tech and Innovation Hub",
+          "detail": "The city's identity blends music and nightlife with a booming tech sector; be aware of rapid growth, rising costs, and a young, entrepreneurial demographic."
+        },
+        {
+          "id": "aust_c4",
+          "text": "Outdoor Activity Culture",
+          "detail": "Austinites prioritize outdoor recreation year-round; hiking, biking, swimming, and paddling are central to local life, so plan activities accordingly."
+        }
+      ]
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "nameIt": "Dallas",
+      "lat": 32.7767,
+      "lng": -96.797,
+      "type": "CITY",
+      "description": "A major metropolitan hub with world-class museums, shopping, and dining in a modern skyline setting. Essential for its Dealey Plaza history, art district, and thriving business and cultural attractions.",
+      "imageQueries": [
+        "Dallas skyline downtown",
+        "Dallas Dealey Plaza Kennedy"
+      ],
+      "activities": [
+        {
+          "id": "dall_1",
+          "text": "Dealey Plaza",
+          "detail": "The historic site of President Kennedy's assassination in 1963, now a solemn memorial with the Sixth Floor Museum documenting the event and era.",
+          "lat": 32.7793,
+          "lng": -96.8084
+        },
+        {
+          "id": "dall_2",
+          "text": "Dallas Museum of Art",
+          "detail": "A world-class institution featuring over 24,000 artworks spanning ancient to contemporary periods, with free general admission.",
+          "lat": 32.7878,
+          "lng": -96.8033
+        },
+        {
+          "id": "dall_3",
+          "text": "Sixth Floor Museum",
+          "detail": "Located in the former Texas School Book Depository, this museum explores the life, death, and legacy of President John F. Kennedy.",
+          "lat": 32.7793,
+          "lng": -96.8084
+        },
+        {
+          "id": "dall_4",
+          "text": "Dallas Arts District",
+          "detail": "A vibrant neighborhood packed with galleries, theaters, restaurants, and public art installations spanning 19 city blocks.",
+          "lat": 32.7876,
+          "lng": -96.8009
+        },
+        {
+          "id": "dall_5",
+          "text": "Reunion Tower",
+          "detail": "An iconic 1970s observation tower offering 360-degree views of the Dallas skyline from its rotating restaurant and observation deck.",
+          "lat": 32.7752,
+          "lng": -96.8086
+        },
+        {
+          "id": "dall_6",
+          "text": "The Nasher Sculpture Center",
+          "detail": "A contemporary art museum specializing in modern and contemporary sculpture set in a minimalist architectural masterpiece.",
+          "lat": 32.7889,
+          "lng": -96.8014
+        },
+        {
+          "id": "dall_7",
+          "text": "Fair Park",
+          "detail": "A 277-acre historic park hosting the annual State Fair of Texas each fall, plus museums and cultural venues year-round.",
+          "lat": 32.7676,
+          "lng": -96.7635
+        }
+      ],
+      "food": [
+        {
+          "id": "dall_f1",
+          "text": "Texas Barbecue",
+          "detail": "Slow-smoked brisket and ribs served at legendary pit houses like Pecan Lodge, reflecting North Texas' deep-rooted barbecue tradition."
+        },
+        {
+          "id": "dall_f2",
+          "text": "Tex-Mex",
+          "detail": "Enchiladas, fajitas, and margaritas are staples throughout Dallas, with neighborhood spots serving authentic northern Mexican-influenced cuisine."
+        },
+        {
+          "id": "dall_f3",
+          "text": "Southern Comfort Food",
+          "detail": "Fried chicken, chicken fried steak, and sweet tea represent the classic Dallas dining experience rooted in Texas heritage."
+        },
+        {
+          "id": "dall_f4",
+          "text": "Fresh Seafood",
+          "detail": "Despite being landlocked, Dallas offers excellent Gulf Coast shrimp, oysters, and fish at upscale restaurants in the Arts District."
+        },
+        {
+          "id": "dall_f5",
+          "text": "Deep Dish Pizza",
+          "detail": "Italian-American pizza culture thrives in Dallas with local favorites serving creative takes on traditional deep-dish pies."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dall_c1",
+          "text": "Business attire is common",
+          "detail": "Dallas is a major corporate hub, so business casual or formal wear is standard in downtown areas and professional districts."
+        },
+        {
+          "id": "dall_c2",
+          "text": "Driving is essential",
+          "detail": "Dallas is sprawling and car-dependent; most attractions require driving or rideshare, as public transit is limited outside downtown."
+        },
+        {
+          "id": "dall_c3",
+          "text": "Southern hospitality prevails",
+          "detail": "Locals are known for friendliness and politeness; expect warm greetings and genuine helpfulness from residents and service staff."
+        },
+        {
+          "id": "dall_c4",
+          "text": "Respect the Kennedy history",
+          "detail": "Dealey Plaza remains a sensitive historical site; visitors should approach with appropriate solemnity and awareness of its significance."
+        }
+      ]
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "nameIt": "Houston",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "type": "CITY",
+      "description": "America's fourth-largest city featuring the Space Center Houston, diverse cuisine, and significant museums. Visit for its energy industry heritage, multicultural neighborhoods, and impressive cultural institutions.",
+      "imageQueries": [
+        "Space Center Houston rockets",
+        "Houston skyline night"
+      ],
+      "activities": [
+        {
+          "id": "hous_1",
+          "text": "Space Center Houston",
+          "detail": "Explore NASA's Mission Control, shuttle Endeavour, and interactive exhibits showcasing America's space exploration history.",
+          "lat": 29.5502,
+          "lng": -95.0975
+        },
+        {
+          "id": "hous_2",
+          "text": "Museum of Fine Arts, Houston",
+          "detail": "Discover one of the largest art museums in the United States with collections spanning ancient to contemporary works across multiple buildings.",
+          "lat": 29.8156,
+          "lng": -95.3917
+        },
+        {
+          "id": "hous_3",
+          "text": "Hermann Park",
+          "detail": "Stroll through this 445-acre urban park featuring a zoo, gardens, McGovern Centennial Lake, and the Hermann Park Railroad.",
+          "lat": 29.7189,
+          "lng": -95.3889
+        },
+        {
+          "id": "hous_4",
+          "text": "Houston Museum of Natural Science",
+          "detail": "Visit exhibits on paleontology, energy, gems, and the Burke Baker Planetarium in this world-class institution.",
+          "lat": 29.8227,
+          "lng": -95.3911
+        },
+        {
+          "id": "hous_5",
+          "text": "Montrose neighborhood exploration",
+          "detail": "Wander through this historic LGBTQ-friendly district known for vintage shops, eclectic restaurants, and vibrant street art.",
+          "lat": 29.7604,
+          "lng": -95.3863
+        },
+        {
+          "id": "hous_6",
+          "text": "Buffalo Bayou Park",
+          "detail": "Bike, hike, or paddle along this 160-acre park with trails, public art installations, and scenic views of downtown Houston.",
+          "lat": 29.7489,
+          "lng": -95.3667
+        },
+        {
+          "id": "hous_7",
+          "text": "Houston Theater District",
+          "detail": "Catch world-class performances including Broadway shows, symphony, opera, and ballet in downtown's architecturally stunning venues.",
+          "lat": 29.7604,
+          "lng": -95.3863
+        }
+      ],
+      "food": [
+        {
+          "id": "hous_f1",
+          "text": "Vietnamese pho",
+          "detail": "Experience authentic Vietnamese noodle soup in Midtown's thriving Vietnamese district, where family-run restaurants serve aromatic broths simmered for hours."
+        },
+        {
+          "id": "hous_f2",
+          "text": "Houston barbecue",
+          "detail": "Savor Texas-style smoked brisket, ribs, and sausage from legendary spots like The Pit Room and Pappas Bar-B-Q with authentic pit-smoked flavors."
+        },
+        {
+          "id": "hous_f3",
+          "text": "Crawfish boil",
+          "detail": "Enjoy spicy crawfish boiled with corn, potatoes, and Cajun seasoning, especially during spring season at dedicated crawfish restaurants and pop-up spots."
+        },
+        {
+          "id": "hous_f4",
+          "text": "Tex-Mex breakfast tacos",
+          "detail": "Start your day with traditional breakfast tacos filled with migas, chorizo, or barbacoa from local taquerias across the city."
+        },
+        {
+          "id": "hous_f5",
+          "text": "Fresh-pressed sugarcane juice",
+          "detail": "Refresh with sweet sugarcane juice and snacks at the numerous Asian markets and street vendors throughout Chinatown and Midtown."
+        },
+        {
+          "id": "hous_f6",
+          "text": "Nigerian jollof rice",
+          "detail": "Sample West African cuisine in the thriving Nigerian community, featuring fragrant tomato-based rice and grilled meats at authentic restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hous_c1",
+          "text": "Embrace the heat and humidity",
+          "detail": "Houston summers are extremely hot and humid; dress in light, breathable clothing and stay hydrated, as walking between distant attractions is rarely practical without a car or rideshare."
+        },
+        {
+          "id": "hous_c2",
+          "text": "Car culture is dominant",
+          "detail": "Houston is sprawling and car-dependent, so rent a vehicle or plan ride-shares in advance, as public transit exists but is limited compared to other major cities."
+        },
+        {
+          "id": "hous_c3",
+          "text": "Diverse dining is the norm",
+          "detail": "The city's multicultural population means world-class authentic cuisine from Vietnamese, Chinese, Indian, Nigerian, and Latin American communities is readily available and affordable."
+        },
+        {
+          "id": "hous_c4",
+          "text": "Casual dress code",
+          "detail": "Houstonians dress casually year-round; formal attire is rarely expected outside fine dining and certain cultural venues, reflecting the city's laid-back Southern character."
+        }
+      ]
+    },
+    {
+      "id": "san_antonio",
+      "name": "San Antonio",
+      "nameIt": "San Antonio",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "type": "CITY",
+      "description": "Historic city centered around the scenic River Walk with Spanish colonial missions and Tex-Mex heritage. Visit for the Alamo, charming riverside dining and shopping, and rich cultural history.",
+      "imageQueries": [
+        "San Antonio River Walk night",
+        "The Alamo San Antonio"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "The Alamo",
+          "detail": "Visit the iconic Spanish mission and the site of the 1836 battle, featuring exhibits on Texas independence and colonial history.",
+          "lat": 29.4261,
+          "lng": -98.4861
+        },
+        {
+          "id": "san__2",
+          "text": "River Walk",
+          "detail": "Stroll along the scenic network of walkways beside the San Antonio River lined with restaurants, shops, and galleries.",
+          "lat": 29.4241,
+          "lng": -98.4936
+        },
+        {
+          "id": "san__3",
+          "text": "San Antonio Missions National Historical Park",
+          "detail": "Explore four Spanish colonial missions spread across the city, UNESCO World Heritage sites showcasing 18th-century architecture and mission life.",
+          "lat": 29.3886,
+          "lng": -98.4322
+        },
+        {
+          "id": "san__4",
+          "text": "Pearl District",
+          "detail": "Browse this revitalized neighborhood with boutique shops, galleries, restaurants, and a farmers market in a historic pearl-processing plant complex.",
+          "lat": 29.4429,
+          "lng": -98.4861
+        },
+        {
+          "id": "san__5",
+          "text": "The Majestic Theatre",
+          "detail": "Catch live performances in this beautifully restored 1929 movie palace showcasing theater, music, and cultural events.",
+          "lat": 29.4265,
+          "lng": -98.4918
+        },
+        {
+          "id": "san__6",
+          "text": "Market Square",
+          "detail": "Experience El Mercado, the largest Mexican market in the United States, with colorful shops, folk art, and authentic Mexican cuisine.",
+          "lat": 29.4243,
+          "lng": -98.505
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Puffy Tacos",
+          "detail": "A San Antonio specialty featuring light, fried corn tortillas puffed up and filled with meat, cheese, and toppings, originating from local legend Henry Lopez."
+        },
+        {
+          "id": "san__f2",
+          "text": "Enchiladas Verdes",
+          "detail": "Corn tortillas rolled with chicken or beef and smothered in a savory green sauce made from tomatillos, a Tex-Mex staple throughout the city."
+        },
+        {
+          "id": "san__f3",
+          "text": "Migas",
+          "detail": "A traditional Tex-Mex breakfast dish of scrambled eggs mixed with crispy tortilla strips, peppers, onions, and cheese, commonly served with salsa."
+        },
+        {
+          "id": "san__f4",
+          "text": "Chili con Carne",
+          "detail": "San Antonio's signature comfort food of slow-cooked beef stew with chiles and spices, historically sold by street vendors called 'chili queens' along the River Walk."
+        },
+        {
+          "id": "san__f5",
+          "text": "Barbacoa",
+          "detail": "Tender, slow-roasted beef traditionally made in underground pits, served in tacos or standalone, reflecting northern Mexican cooking traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Fiesta San Antonio",
+          "detail": "Plan your visit around April to experience this 10-day celebration featuring parades, cultural events, and Tex-Mex food honoring the city's Spanish and Mexican heritage."
+        },
+        {
+          "id": "san__c2",
+          "text": "Spanish colonial history",
+          "detail": "San Antonio was founded as a Spanish settlement in 1718, so respectfully explore the missions and Spanish architecture as living monuments to this heritage."
+        },
+        {
+          "id": "san__c3",
+          "text": "River Walk dining customs",
+          "detail": "Evening strolls along the River Walk are a cherished local tradition; plan dinner or drinks riverside and expect vibrant crowds, especially on weekends."
+        },
+        {
+          "id": "san__c4",
+          "text": "Bilingual environment",
+          "detail": "Spanish is widely spoken in San Antonio, especially in markets and neighborhoods; learning basic Spanish phrases shows respect and enhances your cultural experience."
+        }
+      ]
+    },
+    {
+      "id": "galveston",
+      "name": "Galveston",
+      "nameIt": "Galveston",
+      "lat": 29.2827,
+      "lng": -94.7921,
+      "type": "COASTAL",
+      "description": "Historic beach city and cruise port with Gulf Coast attractions, Victorian architecture, and sandy beaches. Visit for beach relaxation, the Seawall entertainment district, and historic preservation efforts.",
+      "imageQueries": [
+        "Galveston Seawall beach",
+        "Galveston Victorian mansion"
+      ],
+      "activities": [
+        {
+          "id": "galv_1",
+          "text": "Galveston Seawall",
+          "detail": "Stroll or bike along the iconic 10-mile seawall with views of the Gulf of Mexico, offering restaurants, shops, and beach access throughout.",
+          "lat": 29.3019,
+          "lng": -94.7869
+        },
+        {
+          "id": "galv_2",
+          "text": "Moody Gardens",
+          "detail": "Explore this 142-acre botanical garden complex featuring pyramid-shaped conservatories with tropical plants, aquariums, and interactive exhibits.",
+          "lat": 29.3086,
+          "lng": -94.8238
+        },
+        {
+          "id": "galv_3",
+          "text": "The Strand Historic District",
+          "detail": "Walk through Victorian-era buildings now housing galleries, antique shops, restaurants, and bars in Galveston's preserved downtown commercial area.",
+          "lat": 29.3058,
+          "lng": -94.7922
+        },
+        {
+          "id": "galv_4",
+          "text": "Galveston Island Historic Pleasure Pier",
+          "detail": "Enjoy classic amusement rides, arcade games, restaurants, and live entertainment on this restored 1940s-style pier extending into the Gulf.",
+          "lat": 29.2903,
+          "lng": -94.7863
+        },
+        {
+          "id": "galv_5",
+          "text": "East Bay Bayou Tours",
+          "detail": "Take guided boat tours through coastal marshes and bayous to spot alligators, manatees, dolphins, and migratory birds in their natural habitat.",
+          "lat": 29.3192,
+          "lng": -94.9168
+        },
+        {
+          "id": "galv_6",
+          "text": "Ashton Villa",
+          "detail": "Tour this 1859 Victorian mansion museum featuring period furnishings, Civil War artifacts, and insights into 19th-century Galveston life.",
+          "lat": 29.305,
+          "lng": -94.7923
+        }
+      ],
+      "food": [
+        {
+          "id": "galv_f1",
+          "text": "Fresh Gulf Shrimp",
+          "detail": "Galveston's signature crustacean, served fried, grilled, or boiled at waterfront restaurants and casual seafood shacks throughout the city."
+        },
+        {
+          "id": "galv_f2",
+          "text": "Crawfish Boil",
+          "detail": "A seasonal Cajun tradition featuring crawfish boiled with corn, potatoes, and spices, popular at casual eateries and festivals spring through early summer."
+        },
+        {
+          "id": "galv_f3",
+          "text": "Gumbo",
+          "detail": "A thick, savory stew with okra, filé powder, and Gulf seafood or sausage, reflecting Galveston's Creole and Cajun culinary influences."
+        },
+        {
+          "id": "galv_f4",
+          "text": "Redfish",
+          "detail": "A local Gulf fish often blackened or grilled and served with Cajun seasonings at upscale seafood restaurants throughout the Seawall and Strand areas."
+        },
+        {
+          "id": "galv_f5",
+          "text": "King Cake",
+          "detail": "A colorful, oval pastry cake with cinnamon and sugar filling eaten during Mardi Gras season, available at local bakeries and festival vendors in spring."
+        }
+      ],
+      "culture": [
+        {
+          "id": "galv_c1",
+          "text": "Hurricane Season Awareness",
+          "detail": "Galveston experiences Atlantic hurricane season June through November; expect increased preparation activities and potential travel disruptions during peak months."
+        },
+        {
+          "id": "galv_c2",
+          "text": "Cruise Port Etiquette",
+          "detail": "As a major cruise departure port, arriving cruise passengers often fill streets and attractions in the morning; plan activities accordingly or visit during off-peak cruise days."
+        },
+        {
+          "id": "galv_c3",
+          "text": "Beach Safety Customs",
+          "detail": "Strong Gulf currents and occasional riptides are common; always swim near lifeguard stations and heed warning flags posted on the beach for water conditions."
+        },
+        {
+          "id": "galv_c4",
+          "text": "Mardi Gras Traditions",
+          "detail": "Galveston celebrates Mardi Gras with parades, masked balls, and street parties in early spring; book accommodations well in advance if visiting during this festive season."
+        }
+      ]
+    },
+    {
+      "id": "big_bend",
+      "name": "Big Bend National Park",
+      "nameIt": "Big Bend National Park",
+      "lat": 29.2496,
+      "lng": -103.2529,
+      "type": "NATURE",
+      "description": "Remote desert landscape straddling the Rio Grande with dramatic canyon formations and pristine night skies. Essential for hiking, river rafting, and experiencing vast untouched wilderness in West Texas.",
+      "imageQueries": [
+        "Big Bend canyon Rio Grande",
+        "Big Bend desert landscape sunset"
+      ],
+      "activities": [
+        {
+          "id": "big__1",
+          "text": "Hike the Chisos Mountains",
+          "detail": "Traverse scenic mountain trails offering panoramic desert vistas, with options ranging from short walks to strenuous summits like Emory Peak.",
+          "lat": 29.2519,
+          "lng": -103.2848
+        },
+        {
+          "id": "big__2",
+          "text": "Rio Grande River Rafting",
+          "detail": "Experience multiday or half-day guided rafting trips through iconic canyons including Santa Elena, Mariscal, and Boquillas with professional outfitters.",
+          "lat": 29.1833,
+          "lng": -103.5
+        },
+        {
+          "id": "big__3",
+          "text": "Stargazing at Night Sky Observatory",
+          "detail": "Witness some of North America's darkest skies and clearest views of the Milky Way at designated viewing areas, especially near Chisos Basin.",
+          "lat": 29.2519,
+          "lng": -103.2848
+        },
+        {
+          "id": "big__4",
+          "text": "Big Bend Hot Springs Walk",
+          "detail": "Hike to natural thermal pools along the Rio Grande where warm mineral waters emerge from the canyon floor for a unique desert bathing experience.",
+          "lat": 29.245,
+          "lng": -103.4083
+        },
+        {
+          "id": "big__5",
+          "text": "Santa Elena Canyon Trail",
+          "detail": "Walk along the Rio Grande beneath 1,500-foot limestone cliffs in one of Big Bend's most dramatic and accessible canyon formations.",
+          "lat": 29.1742,
+          "lng": -103.63
+        },
+        {
+          "id": "big__6",
+          "text": "Boquillas Canyon Scenic Drive",
+          "detail": "Drive to this remote eastern canyon for river views and easy walks along scenic overlooks above the narrow gorge.",
+          "lat": 29.36,
+          "lng": -102.95
+        },
+        {
+          "id": "big__7",
+          "text": "Lost Mine Trail Hike",
+          "detail": "Climb 4.8 miles through desert scrub and pine forest to a historic mining site with sweeping views of the Sierra del Carmen.",
+          "lat": 29.2456,
+          "lng": -103.2867
+        }
+      ],
+      "food": [
+        {
+          "id": "big__f1",
+          "text": "Border-style Carne Guisada",
+          "detail": "Slow-cooked beef stew with potatoes and chiles served with fresh flour tortillas, a hearty West Texas staple found in park lodges and nearby towns."
+        },
+        {
+          "id": "big__f2",
+          "text": "Fresh Flour Tortillas from Local Bakeries",
+          "detail": "Handmade warm tortillas prepared daily in Terlingua and Study Butte, essential accompaniment to any meal in the Big Bend region."
+        },
+        {
+          "id": "big__f3",
+          "text": "Desert Prickly Pear Preparations",
+          "detail": "Local restaurants feature prickly pear cactus in salsas, jams, and even margaritas, celebrating a traditional Chihuahuan Desert plant."
+        },
+        {
+          "id": "big__f4",
+          "text": "Chile Relleno with Local Poblanos",
+          "detail": "Roasted poblano peppers stuffed with cheese and topped with red chile sauce, reflecting authentic northern Mexican border cuisine."
+        },
+        {
+          "id": "big__f5",
+          "text": "Authentic Charro Beans",
+          "detail": "Pinto beans cooked with bacon, jalapeños, and onions, a savory bean dish that pairs perfectly with grilled meats at park dining facilities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "big__c1",
+          "text": "Extreme Weather Preparedness",
+          "detail": "Summer temperatures exceed 110°F and winter nights drop sharply; always carry abundant water, sun protection, and layers regardless of season."
+        },
+        {
+          "id": "big__c2",
+          "text": "Respect Rio Grande Border Presence",
+          "detail": "The river marks the U.S.-Mexico international border; do not cross into Mexico, and be aware of occasional Border Patrol checkpoints on park roads."
+        },
+        {
+          "id": "big__c3",
+          "text": "Fuel and Supply Planning",
+          "detail": "Big Bend is extremely remote with limited services; fill gas tanks and stock supplies in Terlingua or Alpine before entering the park, as distances between services exceed 100 miles."
+        },
+        {
+          "id": "big__c4",
+          "text": "Early Trail Starts in Summer",
+          "detail": "Begin hikes before dawn to avoid midday heat, as afternoon temperatures make desert hiking dangerous from June through August."
+        }
+      ]
+    },
+    {
+      "id": "marfa",
+      "name": "Marfa",
+      "nameIt": "Marfa",
+      "lat": 30.3061,
+      "lng": -104.0192,
+      "type": "TOWN",
+      "description": "Artsy West Texas town known for contemporary art galleries, the mysterious Marfa Lights phenomenon, and desert minimalism. Visit for its world-class art scene, unique desert atmosphere, and Prada Marfa installation.",
+      "imageQueries": [
+        "Marfa Prada installation",
+        "Marfa Lights phenomenon"
+      ],
+      "activities": [
+        {
+          "id": "marf_1",
+          "text": "Chinati Foundation",
+          "detail": "Explore this renowned contemporary art museum housed in former military buildings with large-scale installations and minimalist sculptures set against the desert landscape.",
+          "lat": 30.3048,
+          "lng": -103.6873
+        },
+        {
+          "id": "marf_2",
+          "text": "Prada Marfa",
+          "detail": "Visit this iconic 2005 art installation featuring a fake Prada boutique in the middle of the desert, designed by architects Elmgreen & Dragset.",
+          "lat": 30.2517,
+          "lng": -103.8058
+        },
+        {
+          "id": "marf_3",
+          "text": "Marfa Lights Viewing Area",
+          "detail": "Watch for the unexplained phenomenon of mysterious floating lights that appear near the town at night, best viewed from the designated observation point east of town.",
+          "lat": 30.3077,
+          "lng": -103.5862
+        },
+        {
+          "id": "marf_4",
+          "text": "El Paisano Hotel",
+          "detail": "Tour this historic 1930 hotel where Hollywood filmmakers and actors stayed during the filming of Giant, featuring classic Southwest architecture and a literary bar.",
+          "lat": 30.3062,
+          "lng": -103.679
+        },
+        {
+          "id": "marf_5",
+          "text": "Ballroom Marfa",
+          "detail": "Attend contemporary art exhibitions and performances in this multi-disciplinary arts venue housed in a 1920s building.",
+          "lat": 30.3075,
+          "lng": -103.6822
+        },
+        {
+          "id": "marf_6",
+          "text": "Fort D.A. Russell",
+          "detail": "Explore the restored historic military post with its parade grounds and period buildings that now serve as studios and galleries for local artists.",
+          "lat": 30.3064,
+          "lng": -103.6856
+        }
+      ],
+      "food": [
+        {
+          "id": "marf_f1",
+          "text": "Marfa Pizza Company",
+          "detail": "This local pizzeria serves New York-style pies with quality ingredients in a casual setting popular with the art community."
+        },
+        {
+          "id": "marf_f2",
+          "text": "Cochineal Restaurant",
+          "detail": "Upscale Southwestern cuisine featuring local ingredients and traditional flavors in an intimate downtown setting."
+        },
+        {
+          "id": "marf_f3",
+          "text": "Marfa Tacos",
+          "detail": "Authentic street-style tacos with handmade tortillas and regional specialties reflecting the area's Mexican heritage."
+        },
+        {
+          "id": "marf_f4",
+          "text": "Food Shark",
+          "detail": "A beloved local taco truck known for creative and generously-portioned Tex-Mex dishes at affordable prices."
+        }
+      ],
+      "culture": [
+        {
+          "id": "marf_c1",
+          "text": "Plan for extreme heat and isolation",
+          "detail": "Marfa sits in remote West Texas desert with limited services, so arrive with a full tank of gas, plenty of water, and realistic expectations about driving distances to amenities."
+        },
+        {
+          "id": "marf_c2",
+          "text": "Respect art installations as community landmarks",
+          "detail": "The art scene is central to Marfa's identity and economy, so treat galleries and public installations as sacred spaces rather than photo ops."
+        },
+        {
+          "id": "marf_c3",
+          "text": "Visit during cooler months",
+          "detail": "Spring and fall are ideal for exploring outdoor installations and the town, as summer temperatures regularly exceed 95°F and make outdoor activities uncomfortable."
+        }
+      ]
+    },
+    {
+      "id": "fort_worth",
+      "name": "Fort Worth",
+      "nameIt": "Fort Worth",
+      "lat": 32.7555,
+      "lng": -97.3308,
+      "type": "CITY",
+      "description": "Cowboy heritage city with world-renowned museums, the historic Stockyards, and Western culture. Visit for its cultural district museums, live Western shows, and authentic Texas ranch atmosphere.",
+      "imageQueries": [
+        "Fort Worth Stockyards cowboys",
+        "Fort Worth museum district"
+      ],
+      "activities": [
+        {
+          "id": "fort_1",
+          "text": "Fort Worth Stockyards",
+          "detail": "Experience the historic cattle market and Western heritage with live rodeos, saloons, and cowboy culture in this 125-acre National Historic District.",
+          "lat": 32.7555,
+          "lng": -97.2033
+        },
+        {
+          "id": "fort_2",
+          "text": "Kimbell Art Museum",
+          "detail": "Explore masterpieces of Western and world art in an iconic modernist building designed by Louis Kahn.",
+          "lat": 32.8125,
+          "lng": -97.2
+        },
+        {
+          "id": "fort_3",
+          "text": "Modern Art Museum of Fort Worth",
+          "detail": "View contemporary and modern art collections in a striking glass and steel structure overlooking a reflecting pond.",
+          "lat": 32.8142,
+          "lng": -97.2017
+        },
+        {
+          "id": "fort_4",
+          "text": "Fort Worth Water Gardens",
+          "detail": "Relax in this urban oasis featuring dramatic cascading water features, quiet meditation pools, and natural landscaping.",
+          "lat": 32.775,
+          "lng": -97.3186
+        },
+        {
+          "id": "fort_5",
+          "text": "Amon Carter Museum of American Art",
+          "detail": "Discover an extensive collection of American paintings, sculptures, and photographs from the 19th to 21st centuries.",
+          "lat": 32.8108,
+          "lng": -97.2067
+        },
+        {
+          "id": "fort_6",
+          "text": "Cowboys Red River",
+          "detail": "Catch live country music and honky-tonk dancing at this iconic saloon and music venue in the heart of the Stockyards.",
+          "lat": 32.7585,
+          "lng": -97.2025
+        },
+        {
+          "id": "fort_7",
+          "text": "Texas Motor Speedway",
+          "detail": "Experience high-speed racing action and motorsports events at this 1.5-mile D-shaped race track.",
+          "lat": 32.8359,
+          "lng": -97.3628
+        }
+      ],
+      "food": [
+        {
+          "id": "fort_f1",
+          "text": "Texas Barbecue Brisket",
+          "detail": "Savor slow-smoked brisket, a Fort Worth staple, typically served with white bread and pickles at legendary barbecue joints like Cattlemen's Steakhouse."
+        },
+        {
+          "id": "fort_f2",
+          "text": "Chicken Fried Steak",
+          "detail": "Enjoy this Texas comfort classic of breaded and fried beef steak served with creamy gravy, found throughout Fort Worth diners and restaurants."
+        },
+        {
+          "id": "fort_f3",
+          "text": "Fort Worth Stock Show Chili",
+          "detail": "Experience authentic Texas red chili, a no-beans recipe that has been perfected over decades at the annual Fort Worth Stock Show and Rodeo."
+        },
+        {
+          "id": "fort_f4",
+          "text": "Fresh Tex-Mex",
+          "detail": "Taste handmade flour tortillas, enchiladas verdes, and chile con queso at authentic Tex-Mex restaurants that define the regional cuisine."
+        },
+        {
+          "id": "fort_f5",
+          "text": "Pecan Pie",
+          "detail": "Indulge in this Texas dessert specialty made with local pecans, a sweet treat found at bakeries and restaurants throughout the city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fort_c1",
+          "text": "Dress Western",
+          "detail": "Visitors are warmly welcomed wearing cowboy boots, Stetson hats, and Western attire, especially in the Stockyards and at rodeos."
+        },
+        {
+          "id": "fort_c2",
+          "text": "Rodeo Etiquette",
+          "detail": "Stand for the National Anthem and opening ceremony at rodeos, and respect the skill and tradition of the riders and livestock handlers performing."
+        },
+        {
+          "id": "fort_c3",
+          "text": "Stockyards Tradition",
+          "detail": "The iconic twice-daily cattle drive through the Stockyards at 11:30 AM and 4 PM is a free, cherished Fort Worth tradition dating back to the 1800s."
+        },
+        {
+          "id": "fort_c4",
+          "text": "Museum District Free Hours",
+          "detail": "Many Cultural District museums offer free or reduced admission on select evenings, typically making art and culture accessible to all visitors."
+        }
+      ]
+    },
+    {
+      "id": "south_padre_island",
+      "name": "South Padre Island",
+      "nameIt": "South Padre Island",
+      "lat": 26.1136,
+      "lng": -97.1669,
+      "type": "ISLAND",
+      "description": "Subtropical island beach destination at Texas's southernmost tip with pristine shores and warm Gulf waters. Visit for beach relaxation, water sports, birding, and year-round warm weather.",
+      "imageQueries": [
+        "South Padre Island beach",
+        "South Padre Island sunset"
+      ],
+      "activities": [
+        {
+          "id": "sout_1",
+          "text": "Beach Relaxation & Swimming",
+          "detail": "Wade into the warm Gulf of Mexico waters year-round or lounge on the pristine sandy beaches that stretch along the island's eastern shore.",
+          "lat": 26.1136,
+          "lng": -97.1669
+        },
+        {
+          "id": "sout_2",
+          "text": "Birding at South Padre Island Birding and Nature Center",
+          "detail": "Explore native habitat and observation towers to spot migratory birds, herons, egrets, and raptors along the nature trails.",
+          "lat": 26.0714,
+          "lng": -97.1887
+        },
+        {
+          "id": "sout_3",
+          "text": "Kiteboarding & Windsurfing",
+          "detail": "Take advantage of consistent Gulf breezes and shallow warm waters at popular spots like the bay side for water sports enthusiasts.",
+          "lat": 26.1136,
+          "lng": -97.1669
+        },
+        {
+          "id": "sout_4",
+          "text": "Sea Turtle Hatchling Release",
+          "detail": "During nesting season (May-August), witness the South Padre Island birding center's efforts to release loggerhead and kemp's ridley sea turtle hatchlings back to the ocean.",
+          "lat": 26.0714,
+          "lng": -97.1887
+        },
+        {
+          "id": "sout_5",
+          "text": "Dolphin & Boat Tours",
+          "detail": "Embark on guided boat excursions from the marina to spot Atlantic bottlenose dolphins and explore the surrounding Gulf and bay ecosystems.",
+          "lat": 26.1187,
+          "lng": -97.1686
+        },
+        {
+          "id": "sout_6",
+          "text": "Laguna Madre Bay Exploration",
+          "detail": "Kayak or paddleboard through the shallow, tranquil bay waters teeming with fish, birds, and marine life on the island's western side.",
+          "lat": 26.1136,
+          "lng": -97.19
+        }
+      ],
+      "food": [
+        {
+          "id": "sout_f1",
+          "text": "Fresh Gulf Shrimp",
+          "detail": "Enjoy locally-caught shrimp prepared grilled, fried, or in ceviche at waterfront restaurants, showcasing the island's primary seafood harvest."
+        },
+        {
+          "id": "sout_f2",
+          "text": "Fish Tacos",
+          "detail": "Sample crispy or grilled fresh catch wrapped in soft tortillas with cabbage slaw, lime, and local salsas at casual beachside eateries."
+        },
+        {
+          "id": "sout_f3",
+          "text": "Ceviche",
+          "detail": "Try this refreshing raw fish dish marinated in lime juice with tomatoes, onions, and cilantro, popular throughout the island's Mexican-influenced cuisine."
+        },
+        {
+          "id": "sout_f4",
+          "text": "Coastal Mexican Cuisine",
+          "detail": "Experience authentic border-region dishes like enchiladas verdes, chiles rellenos, and fresh fish preparations reflecting South Padre's Mexican heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sout_c1",
+          "text": "Respect Sea Turtle Nesting",
+          "detail": "Avoid disturbing marked nesting areas on the beach during May through August, as sea turtles are protected species crucial to local conservation efforts."
+        },
+        {
+          "id": "sout_c2",
+          "text": "Beach Safety & Sun Protection",
+          "detail": "The subtropical sun is intense year-round; locals recommend sunscreen reapplication, beach umbrellas, and swimming during supervised hours to avoid strong currents."
+        },
+        {
+          "id": "sout_c3",
+          "text": "Bilingual Community",
+          "detail": "Spanish is widely spoken throughout South Padre Island, and embracing the island's Mexican cultural influences enhances the visitor experience and local respect."
+        },
+        {
+          "id": "sout_c4",
+          "text": "Hurricane Season Awareness",
+          "detail": "Visit during off-peak hurricane months (June-November have higher risk); locals recommend travel insurance and staying informed about weather during summer and fall trips."
+        }
+      ]
+    },
+    {
+      "id": "palo_duro_canyon",
+      "name": "Palo Duro Canyon State Park",
+      "nameIt": "Palo Duro Canyon State Park",
+      "lat": 35.1586,
+      "lng": -101.5894,
+      "type": "NATURE",
+      "description": "Texas's largest canyon with dramatic colorful rock formations and scenic hiking trails in the Texas Panhandle. Visit for stunning landscape photography, hiking, horseback riding, and outdoor adventure.",
+      "imageQueries": [
+        "Palo Duro Canyon colorful cliffs",
+        "Palo Duro Canyon hiking trail"
+      ],
+      "activities": [
+        {
+          "id": "palo_1",
+          "text": "Palo Duro Canyon Rim Trail",
+          "detail": "Hike the scenic 16-mile trail that winds along the canyon's edge offering panoramic views of the colorful rock formations and the Prairie Dog Town Fork Red River below.",
+          "lat": 35.1956,
+          "lng": -101.6456
+        },
+        {
+          "id": "palo_2",
+          "text": "Lighthouse Trail",
+          "detail": "Trek the popular 6-mile round-trip hike to the iconic Lighthouse rock formation, a distinctive 310-foot tall red and white striped pinnacle rising from the canyon floor.",
+          "lat": 35.1844,
+          "lng": -101.6367
+        },
+        {
+          "id": "palo_3",
+          "text": "Horseback Riding",
+          "detail": "Explore the canyon's trails on horseback through CCC Lake Riding Stables, which offers guided tours suitable for all experience levels.",
+          "lat": 35.1889,
+          "lng": -101.6478
+        },
+        {
+          "id": "palo_4",
+          "text": "Scenic Drive Loop",
+          "detail": "Drive the park's scenic loop road for stunning views of the canyon walls, pullouts for photography, and access to various trailheads.",
+          "lat": 35.19,
+          "lng": -101.64
+        },
+        {
+          "id": "palo_5",
+          "text": "Camping at Mesquite Grove",
+          "detail": "Camp among native mesquite trees with access to hiking trails and canyon views, offering rustic cabin and tent camping options.",
+          "lat": 35.1978,
+          "lng": -101.6489
+        },
+        {
+          "id": "palo_6",
+          "text": "CCC Lake",
+          "detail": "Visit this scenic lake created by the Civilian Conservation Corps for fishing, picnicking, and wildlife viewing in a peaceful canyon setting.",
+          "lat": 35.2067,
+          "lng": -101.6533
+        },
+        {
+          "id": "palo_7",
+          "text": "Photography at Sunset",
+          "detail": "Capture the dramatic color shifts of the canyon's red, orange, and purple rock layers during golden hour from scenic overlooks.",
+          "lat": 35.19,
+          "lng": -101.64
+        }
+      ],
+      "food": [
+        {
+          "id": "palo_f1",
+          "text": "Texas Panhandle Barbecue",
+          "detail": "Local pit-smoked brisket and ribs are a regional specialty found in nearby Canyon and Amarillo towns, representing authentic Texas barbecue tradition."
+        },
+        {
+          "id": "palo_f2",
+          "text": "Chicken Fried Steak",
+          "detail": "This Panhandle comfort food staple features breaded and fried thin-cut beef served with gravy, commonly found in local diners near the park."
+        },
+        {
+          "id": "palo_f3",
+          "text": "Pinto Beans and Cornbread",
+          "detail": "A classic Panhandle side dish combination reflecting cowboy and ranch culture that pairs well with grilled meats at park dining areas."
+        },
+        {
+          "id": "palo_f4",
+          "text": "Fresh Peach Cobbler",
+          "detail": "Local orchards and restaurants serve warm peach cobbler, a traditional Texas dessert especially popular during summer months in the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "palo_c1",
+          "text": "Early Morning Hikes",
+          "detail": "Start hikes early to avoid afternoon heat and summer thunderstorms common in the Texas Panhandle, and to experience the canyon's cooler temperatures."
+        },
+        {
+          "id": "palo_c2",
+          "text": "Respect the Canyon Environment",
+          "detail": "Stay on marked trails to protect fragile desert vegetation and prevent erosion in this sensitive ecosystem that took millions of years to form."
+        },
+        {
+          "id": "palo_c3",
+          "text": "Bring Extra Water",
+          "detail": "The arid Panhandle climate requires carrying significantly more water than typical hikes; aim for at least 3 liters per person even on shorter trails."
+        },
+        {
+          "id": "palo_c4",
+          "text": "Seasonal Weather Awareness",
+          "detail": "Summer temperatures exceed 95°F and winters can be harsh; spring and fall offer the most pleasant visiting conditions for outdoor activities."
+        }
+      ]
+    },
+    {
+      "id": "enchanted_rock",
+      "name": "Enchanted Rock State Park",
+      "nameIt": "Enchanted Rock State Park",
+      "lat": 30.5048,
+      "lng": -98.8187,
+      "type": "NATURE",
+      "description": "Massive pink granite dome rising 425 feet above the Hill Country landscape with scenic vistas and hiking. Visit for the challenging summit hike, panoramic views, and geological significance.",
+      "imageQueries": [
+        "Enchanted Rock granite dome",
+        "Enchanted Rock sunset view"
+      ],
+      "activities": [
+        {
+          "id": "ench_1",
+          "text": "Summit Hike to Enchanted Rock Dome",
+          "detail": "Climb the main pink granite dome via a well-marked trail gaining 425 feet in elevation with panoramic views of the Hill Country at the top.",
+          "lat": 30.5064,
+          "lng": -98.8317
+        },
+        {
+          "id": "ench_2",
+          "text": "Loop Trail Around Base",
+          "detail": "A gentler 4.4-mile loop circumnavigates the entire base of Enchanted Rock with varied terrain and scenic overlooks.",
+          "lat": 30.5064,
+          "lng": -98.8317
+        },
+        {
+          "id": "ench_3",
+          "text": "Spring Creek Trail",
+          "detail": "A shaded 1.5-mile nature walk following a seasonal creek bed through juniper and oak woodland with wildlife viewing opportunities.",
+          "lat": 30.504,
+          "lng": -98.834
+        },
+        {
+          "id": "ench_4",
+          "text": "Rock Climbing and Bouldering",
+          "detail": "The granite surfaces offer climbing routes for experienced climbers and numerous bouldering problems suitable for various skill levels.",
+          "lat": 30.5064,
+          "lng": -98.8317
+        },
+        {
+          "id": "ench_5",
+          "text": "Geological Observation",
+          "detail": "Study the distinctive pink granite formations and exfoliation patterns formed over 1 billion years ago, with interpretive signage throughout the park.",
+          "lat": 30.5064,
+          "lng": -98.8317
+        },
+        {
+          "id": "ench_6",
+          "text": "Picnicking and Wildlife Watching",
+          "detail": "Enjoy designated picnic areas while spotting mule deer, armadillos, roadrunners, and various bird species native to the Hill Country.",
+          "lat": 30.5064,
+          "lng": -98.8317
+        }
+      ],
+      "food": [
+        {
+          "id": "ench_f1",
+          "text": "Texas Hill Country Barbecue",
+          "detail": "Wood-smoked brisket, ribs, and sausage are served at nearby Fredericksburg establishments, representing the region's iconic BBQ tradition."
+        },
+        {
+          "id": "ench_f2",
+          "text": "Pecan Pie",
+          "detail": "Local bakeries and restaurants serve authentic pecan pie made with native Texas pecans, a beloved Hill Country dessert."
+        },
+        {
+          "id": "ench_f3",
+          "text": "Bluebonnet-Themed Foods",
+          "detail": "Seasonal springtime treats and dishes celebrate Texas bluebonnets, including bluebonnet ice cream and wildflower honey from local producers."
+        },
+        {
+          "id": "ench_f4",
+          "text": "Texas Chili",
+          "detail": "Traditional red chili without beans is a staple at nearby restaurants, reflecting authentic Texas cowboy cooking heritage."
+        },
+        {
+          "id": "ench_f5",
+          "text": "Kolache",
+          "detail": "Czech-influenced pastries filled with fruit, cheese, or meat reflect the cultural heritage of the surrounding Hill Country region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ench_c1",
+          "text": "Sunrise Visits",
+          "detail": "Arrive early in the morning to experience the park's quieter trails and stunning sunrise views over the granite dome, a preferred time for locals."
+        },
+        {
+          "id": "ench_c2",
+          "text": "Respect Fire Bans",
+          "detail": "The Hill Country frequently implements burn bans during dry seasons; always check current restrictions before visiting and follow all posted fire safety regulations."
+        },
+        {
+          "id": "ench_c3",
+          "text": "Native American Significance",
+          "detail": "The rock holds cultural importance to indigenous peoples of Texas; approach the landscape with respect and reverence for its historical and spiritual meaning."
+        },
+        {
+          "id": "ench_c4",
+          "text": "Water Availability",
+          "detail": "Bring adequate water as the granite terrain offers minimal shade and the Hill Country climate can be intensely hot and dry, especially in summer months."
+        }
+      ]
+    },
+    {
+      "id": "fredericksburg",
+      "name": "Fredericksburg",
+      "nameIt": "Fredericksburg",
+      "lat": 30.2729,
+      "lng": -98.8744,
+      "type": "TOWN",
+      "description": "Charming German heritage town in the Hill Country known for wineries, wildflowers, and local cuisine. Visit for wine tasting, spring wildflower viewing, and authentic German-Texas architecture and food.",
+      "imageQueries": [
+        "Fredericksburg wildflowers bluebonnets",
+        "Fredericksburg Texas German architecture"
+      ],
+      "activities": [
+        {
+          "id": "fred_1",
+          "text": "Wine Tasting on Main Street",
+          "detail": "Visit one of Fredericksburg's 40+ wineries clustered along Main Street and nearby, sampling Texas Hill Country wines in historic stone buildings.",
+          "lat": 30.2738,
+          "lng": -98.8738
+        },
+        {
+          "id": "fred_2",
+          "text": "Lady Bird Johnson Wildflower Center Day Trip",
+          "detail": "Drive 30 minutes to Austin to experience native Texas wildflowers in spring, with trails and botanical gardens celebrating the region's natural beauty."
+        },
+        {
+          "id": "fred_3",
+          "text": "Enchanted Rock State Natural Area",
+          "detail": "Hike the distinctive granite dome 18 miles north of town for panoramic Hill Country views and sunset photography opportunities.",
+          "lat": 30.5064,
+          "lng": -98.8314
+        },
+        {
+          "id": "fred_4",
+          "text": "German Architecture Walking Tour",
+          "detail": "Stroll Main Street and side streets to admire 19th-century German pioneer buildings, including the Old Gillespie County Courthouse and Sunday Houses.",
+          "lat": 30.2738,
+          "lng": -98.8738
+        },
+        {
+          "id": "fred_5",
+          "text": "Marktplatz Shopping District",
+          "detail": "Browse local artisan shops, galleries, and boutiques in the historic German-style market square selling crafts, antiques, and regional goods.",
+          "lat": 30.274,
+          "lng": -98.8735
+        },
+        {
+          "id": "fred_6",
+          "text": "Luckenbach Ghost Town",
+          "detail": "Visit this quirky unincorporated community 14 miles south where locals gather for music, dancing, and beer on the historic porch.",
+          "lat": 30.1667,
+          "lng": -98.8333
+        },
+        {
+          "id": "fred_7",
+          "text": "Pedernales Falls State Park",
+          "detail": "Explore limestone canyons and waterfalls along the Pedernales River, ideal for swimming, picnicking, and hiking trails.",
+          "lat": 30.3058,
+          "lng": -98.2394
+        }
+      ],
+      "food": [
+        {
+          "id": "fred_f1",
+          "text": "Sauerbraten",
+          "detail": "German pot roast marinated in vinegar and spices, slow-cooked until tender and served with red cabbage and dumplings at traditional German restaurants."
+        },
+        {
+          "id": "fred_f2",
+          "text": "Wursts and Schnitzel",
+          "detail": "Authentic German sausages and breaded pork cutlets prepared using family recipes passed down by German settlers, best sampled at local delis and restaurants."
+        },
+        {
+          "id": "fred_f3",
+          "text": "Peach Pie",
+          "detail": "Fresh Hill Country peaches baked into flaky pies, reflecting the region's agricultural heritage and sold at bakeries throughout downtown."
+        },
+        {
+          "id": "fred_f4",
+          "text": "Chicken Fried Steak with Cream Gravy",
+          "detail": "Texas-style breaded and fried beef steak topped with creamy gravy, combining German and cowboy traditions on local menus."
+        },
+        {
+          "id": "fred_f5",
+          "text": "Hill Country Cheese and Charcuterie",
+          "detail": "Sample locally-produced cheeses, smoked meats, and cured German sausages at specialty shops and farm-to-table restaurants downtown."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fred_c1",
+          "text": "Easter Fires Tradition",
+          "detail": "On Easter weekend, bonfires light hilltops at dawn following a 174-year-old German-Comanche peace legend unique to Fredericksburg."
+        },
+        {
+          "id": "fred_c2",
+          "text": "German Language and Customs",
+          "detail": "Many locals speak German, and you'll hear it spoken in shops and restaurants; the town hosts Oktoberfest and German-language festivals year-round."
+        },
+        {
+          "id": "fred_c3",
+          "text": "Sunday Houses Heritage",
+          "detail": "Historic 'Sunday Houses' are small cottages built by ranchers who traveled to town for weekend worship; many are preserved as museums and rentals explaining pioneer life."
+        },
+        {
+          "id": "fred_c4",
+          "text": "Spring Wildflower Season Peak Times",
+          "detail": "Visit March through May when bluebonnets and Indian paintbrush blanket the countryside; book accommodations well in advance during this peak tourism period."
+        }
+      ]
+    },
+    {
+      "id": "corpus_christi",
+      "name": "Corpus Christi",
+      "nameIt": "Corpus Christi",
+      "lat": 27.5598,
+      "lng": -97.3964,
+      "type": "COASTAL",
+      "description": "Coastal city with a maritime focus, beaches, and waterfront attractions along Corpus Christi Bay. Visit for the USS Lexington Museum, beach relaxation, water sports, and seafood dining.",
+      "imageQueries": [
+        "Corpus Christi USS Lexington",
+        "Corpus Christi beach waterfront"
+      ],
+      "activities": [
+        {
+          "id": "corp_1",
+          "text": "USS Lexington Museum",
+          "detail": "Tour the decommissioned aircraft carrier and explore flight decks, engine rooms, and naval exhibits spanning decades of maritime history.",
+          "lat": 27.5898,
+          "lng": -97.3964
+        },
+        {
+          "id": "corp_2",
+          "text": "Padre Island National Seashore",
+          "detail": "Drive or walk 70 miles of undeveloped barrier island beach featuring pristine sand, wildlife viewing, and shell collecting opportunities.",
+          "lat": 27.2171,
+          "lng": -97.1625
+        },
+        {
+          "id": "corp_3",
+          "text": "Beach relaxation at North Beach Park",
+          "detail": "Swim and sunbathe along the developed waterfront with amenities including pavilions, restaurants, and calm bay waters.",
+          "lat": 27.5743,
+          "lng": -97.3921
+        },
+        {
+          "id": "corp_4",
+          "text": "Water sports at Corpus Christi Bay",
+          "detail": "Rent kayaks, paddleboards, or take windsurfing lessons in the calm bay waters protected by barrier islands.",
+          "lat": 27.58,
+          "lng": -97.39
+        },
+        {
+          "id": "corp_5",
+          "text": "South Padre Island day trip",
+          "detail": "Ferry across to this popular barrier island for additional beaches, shops, and the Sea Turtle Inc. visitor center.",
+          "lat": 26.1126,
+          "lng": -97.1687
+        },
+        {
+          "id": "corp_6",
+          "text": "Art Museum of South Texas",
+          "detail": "View contemporary and regional art collections in an architecturally notable building along the waterfront.",
+          "lat": 27.5695,
+          "lng": -97.3937
+        },
+        {
+          "id": "corp_7",
+          "text": "Texas State Aquarium",
+          "detail": "Encounter Gulf of Mexico marine life including sea turtles, dolphins, and tropical fish in large interactive exhibits.",
+          "lat": 27.5747,
+          "lng": -97.3945
+        }
+      ],
+      "food": [
+        {
+          "id": "corp_f1",
+          "text": "Shrimp tacos",
+          "detail": "Local street food and restaurant staple featuring grilled or fried Gulf shrimp in corn tortillas with lime and cabbage slaw."
+        },
+        {
+          "id": "corp_f2",
+          "text": "Redfish (Red Drum)",
+          "detail": "Locally caught Gulf fish prepared blackened, grilled, or fried and widely available at waterfront seafood restaurants."
+        },
+        {
+          "id": "corp_f3",
+          "text": "Fresh Gulf oysters",
+          "detail": "Raw or chargrilled oysters harvested from the bay and served at oyster bars with cocktail sauce and hot sauce."
+        },
+        {
+          "id": "corp_f4",
+          "text": "Ceviche",
+          "detail": "Fresh seafood marinated in citrus juice with tomato, onion, and cilantro, reflecting coastal and Mexican influences."
+        },
+        {
+          "id": "corp_f5",
+          "text": "Gumbo",
+          "detail": "Creole and Cajun-style stew with seafood or meat, okra, and served over rice at traditional coastal restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "corp_c1",
+          "text": "Bay-focused lifestyle",
+          "detail": "Corpus Christi culture centers on water access and maritime activities, so plan most leisure time near the bay and beaches."
+        },
+        {
+          "id": "corp_c2",
+          "text": "Casual waterfront dining dress code",
+          "detail": "Beachside restaurants are very casual; sandals and lightweight clothing are standard even for dinner spots."
+        },
+        {
+          "id": "corp_c3",
+          "text": "Hurricane season awareness",
+          "detail": "Visit between May and November with awareness that tropical storms are possible; check forecasts and have flexible plans."
+        },
+        {
+          "id": "corp_c4",
+          "text": "Bilingual Spanish-English environment",
+          "detail": "Many signs and interactions are in both English and Spanish, reflecting the region's strong Hispanic heritage and proximity to Mexico."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Franklin Barbecue",
+      "address": "900 E 52nd St, Austin",
+      "neighbourhood": "East Austin",
+      "cuisine": "Barbecue",
+      "priceRange": "€€",
+      "description": "Legendary Texas barbecue institution famous for brisket that draws lines before opening daily.",
+      "mustOrder": "Brisket",
+      "lat": 30.2672,
+      "lng": -97.7431
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Uchi",
+      "address": "801 S Lamar Blvd, Austin",
+      "neighbourhood": "South Austin",
+      "cuisine": "Japanese",
+      "priceRange": "€€€€",
+      "description": "Innovative Japanese cuisine with exceptional sushi and creative small plates in an upscale setting.",
+      "mustOrder": "Omakase",
+      "lat": 30.2544,
+      "lng": -97.7547
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Pecan Lodge",
+      "address": "2702 Main St, Dallas",
+      "neighbourhood": "Deep Ellum",
+      "cuisine": "Barbecue",
+      "priceRange": "€€",
+      "description": "Dallas barbecue gem offering quality smoked meats in a casual, historic setting.",
+      "mustOrder": "Brisket Sandwich",
+      "lat": 32.7767,
+      "lng": -96.795
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Fogo de Chao",
+      "address": "4300 Belt Line Rd, Dallas",
+      "neighbourhood": "Addison",
+      "cuisine": "Brazilian Steakhouse",
+      "priceRange": "€€€€",
+      "description": "Upscale churrascaria experience with endless tableside grilled meats and premium cuts.",
+      "mustOrder": "Picanha",
+      "lat": 32.9566,
+      "lng": -96.8308
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Chez Zee American Bistro",
+      "address": "5406 Balcones Dr, Austin",
+      "neighbourhood": "North Austin",
+      "cuisine": "American Bistro",
+      "priceRange": "€€€",
+      "description": "Charming neighborhood bistro serving classic American fare with French influences and a warm atmosphere.",
+      "mustOrder": "Crab Cakes",
+      "lat": 30.385,
+      "lng": -97.7611
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "The Pit Room",
+      "address": "602 W Anderson Ln, Austin",
+      "neighbourhood": "North Austin",
+      "cuisine": "Barbecue",
+      "priceRange": "€€",
+      "description": "Contemporary barbecue spot with creative sides and excellent smoked meats in a modern setting.",
+      "mustOrder": "Smoked Turkey",
+      "lat": 30.3197,
+      "lng": -97.7573
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Torchy's Tacos",
+      "address": "Multiple Locations, Austin",
+      "neighbourhood": "Chain",
+      "cuisine": "Mexican",
+      "priceRange": "€",
+      "description": "Beloved casual taco chain offering creative, high-quality tacos with local ingredients.",
+      "mustOrder": "Trailer Park Taco",
+      "lat": 30.2672,
+      "lng": -97.7431
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Matt's El Rancho",
+      "address": "2952 Fort Worth Dr, Houston",
+      "neighbourhood": "Midtown",
+      "cuisine": "Mexican",
+      "priceRange": "€€",
+      "description": "Historic Houston institution serving traditional Mexican cuisine since 1952 with authentic recipes.",
+      "mustOrder": "Enchiladas Verdes",
+      "lat": 29.7589,
+      "lng": -95.3677
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Pappas Bros. Steakhouse",
+      "address": "5839 Westheimer Rd, Houston",
+      "neighbourhood": "Uptown",
+      "cuisine": "Steakhouse",
+      "priceRange": "€€€€",
+      "description": "Exceptional fine dining steakhouse with premium beef, extensive wine list, and elegant service.",
+      "mustOrder": "Prime Ribeye",
+      "lat": 29.7411,
+      "lng": -95.4531
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Black Swan",
+      "address": "512 S Jennings Ave, Fort Worth",
+      "neighbourhood": "Downtown",
+      "cuisine": "American Modern",
+      "priceRange": "€€€",
+      "description": "Sophisticated modern American cuisine with locally-sourced ingredients and refined plating.",
+      "mustOrder": "Duck Breast",
+      "lat": 32.7555,
+      "lng": -97.3308
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Joe T Garcia's",
+      "address": "2201 N Commerce St, Fort Worth",
+      "neighbourhood": "North Fort Worth",
+      "cuisine": "Mexican",
+      "priceRange": "€€",
+      "description": "Fort Worth institution since 1952 serving authentic Mexican food in a charming courtyard setting.",
+      "mustOrder": "Cheese Enchiladas",
+      "lat": 32.7825,
+      "lng": -97.3306
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Odd Duck",
+      "address": "513 S 1st St, Austin",
+      "neighbourhood": "South Austin",
+      "cuisine": "American Contemporary",
+      "priceRange": "€€€",
+      "description": "Creative seasonal American restaurant focusing on local ingredients and innovative preparations.",
+      "mustOrder": "Seasonal Tasting Menu",
+      "lat": 30.2626,
+      "lng": -97.7495
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "La Barbecue",
+      "address": "2640 E Cesar Chavez St, Austin",
+      "neighbourhood": "East Austin",
+      "cuisine": "Barbecue",
+      "priceRange": "€€",
+      "description": "Acclaimed barbecue spot with perfectly smoked brisket and authentic Texas-style preparation.",
+      "mustOrder": "Brisket",
+      "lat": 30.2648,
+      "lng": -97.7219
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Nandos Peri-Peri",
+      "address": "4517 San Felipe St, Houston",
+      "neighbourhood": "Uptown",
+      "cuisine": "Portuguese Chicken",
+      "priceRange": "€€",
+      "description": "Popular casual chain serving flame-grilled peri-peri chicken with vibrant African-Portuguese flavors.",
+      "mustOrder": "Quarter Chicken with Peri-Peri",
+      "lat": 29.7405,
+      "lng": -95.4653
+    }
+  ]
+}

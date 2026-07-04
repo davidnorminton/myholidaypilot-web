@@ -1,0 +1,1742 @@
+{
+  "id": "california",
+  "name": "California",
+  "nameIt": "California",
+  "capital": "Los Angeles",
+  "lat": 36.5,
+  "lng": -119.5,
+  "emoji": "☀️",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 42,
+    "south": 32.5,
+    "east": -114.1,
+    "west": -124.4
+  },
+  "history": "California was originally inhabited by numerous Native American tribes for thousands of years before Spanish explorers arrived in the 16th century. The Spanish established a series of missions and settlements along the coast, eventually leading to Mexican control after independence in 1821. The California Gold Rush of 1848-1849 brought hundreds of thousands of prospectors and settlers, dramatically transforming the region and accelerating its path to statehood in 1850. The state's development as an agricultural and industrial powerhouse throughout the 20th century made it one of the world's most influential economies.",
+  "culturalNotes": "California is defined by its diversity, immigrant heritage, and pioneering spirit, with cultures from around the world creating a dynamic multicultural society. The state is known for its innovation in technology and entertainment, its environmental consciousness, and its embrace of experimentation in food, art, and lifestyle. From the gold rush mentality of reinvention to contemporary movements in sustainable living and social progress, California culture celebrates ambition, creativity, and the possibility of transformation.",
+  "bestTimeToVisit": "Year-round sunshine; visit spring for wildflowers or summer for beaches.",
+  "languageNotes": "English is the primary language, but California is deeply multilingual with significant Spanish-speaking communities, particularly in Southern California and the Central Valley. Californians often use casual, laid-back speech patterns and colloquialisms like \"hella\" (meaning \"very\") in some regions, \"dude,\" and references to local geography and weather patterns unique to the state.",
+  "generatedAt": "2026-07-04T20:13:33.260Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "san_francisco",
+      "name": "San Francisco",
+      "nameIt": "San Francisco",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "type": "CITY",
+      "description": "California's iconic Bay Area city famous for the Golden Gate Bridge, Victorian architecture, and vibrant culture. A must-see destination with world-class museums, neighborhoods, and food scene.",
+      "imageQueries": [
+        "Golden Gate Bridge",
+        "San Francisco Bay"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Golden Gate Bridge",
+          "detail": "Walk or bike across San Francisco's most iconic suspension bridge for panoramic views of the bay and city skyline.",
+          "lat": 37.8199,
+          "lng": -122.4783
+        },
+        {
+          "id": "san__2",
+          "text": "Alcatraz Island Tour",
+          "detail": "Explore the notorious former federal penitentiary with an audio guide narrated by former inmates and guards.",
+          "lat": 37.8267,
+          "lng": -122.423
+        },
+        {
+          "id": "san__3",
+          "text": "Cable Car Rides",
+          "detail": "Experience the historic Victorian-era cable cars that climb the city's steep hills, particularly the Powell-Market line.",
+          "lat": 37.7949,
+          "lng": -122.4074
+        },
+        {
+          "id": "san__4",
+          "text": "Mission District Murals",
+          "detail": "Stroll through the vibrant Mission neighborhood to discover world-class street art and colorful murals covering building walls.",
+          "lat": 37.7599,
+          "lng": -122.4148
+        },
+        {
+          "id": "san__5",
+          "text": "de Young Museum",
+          "detail": "Visit this fine arts museum in Golden Gate Park featuring American art, world cultures, and rotating special exhibitions.",
+          "lat": 37.7694,
+          "lng": -122.4862
+        },
+        {
+          "id": "san__6",
+          "text": "Painted Ladies",
+          "detail": "Photograph the row of beautifully restored Victorian houses on Alamo Square with the city skyline in the background.",
+          "lat": 37.776,
+          "lng": -122.4386
+        },
+        {
+          "id": "san__7",
+          "text": "Chinatown Exploration",
+          "detail": "Wander through North America's largest Chinatown to discover traditional shops, temples, and hidden dim sum restaurants.",
+          "lat": 37.7948,
+          "lng": -122.4073
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Dungeness Crab Cioppino",
+          "detail": "A rich tomato-based seafood stew featuring local Dungeness crab, a San Francisco Bay Area specialty best enjoyed at Fisherman's Wharf."
+        },
+        {
+          "id": "san__f2",
+          "text": "Mission District Burrito",
+          "detail": "Oversized, flavor-packed burritos stuffed with grilled meat, beans, rice, and fresh ingredients that define Mission District food culture."
+        },
+        {
+          "id": "san__f3",
+          "text": "Sourdough Bread Bowl",
+          "detail": "San Francisco's legendary sourdough, baked with a distinctive tangy flavor from the local wild yeast, often served as a clam chowder bowl."
+        },
+        {
+          "id": "san__f4",
+          "text": "Dim Sum",
+          "detail": "Traditional Cantonese small plates served from carts in Chinatown restaurants, featuring dumplings, buns, and seafood specialties."
+        },
+        {
+          "id": "san__f5",
+          "text": "Fresh Oysters",
+          "detail": "Pacific oysters from nearby coastal waters, served raw on the half shell at waterfront seafood bars and restaurants."
+        },
+        {
+          "id": "san__f6",
+          "text": "Fortune Cookies",
+          "detail": "The crispy, sweet cookies with hidden messages inside were actually invented in San Francisco and remain an iconic local treat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Dress in Layers",
+          "detail": "San Francisco's weather is unpredictable with cool mornings and evenings; the famous Mark Twain quote about cold summers is apt."
+        },
+        {
+          "id": "san__c2",
+          "text": "Use Public Transit",
+          "detail": "The city is compact and hilly, so rely on buses, cable cars, and BART rather than driving to avoid congestion and parking challenges."
+        },
+        {
+          "id": "san__c3",
+          "text": "Respect Neighborhood Diversity",
+          "detail": "Each neighborhood has distinct character and communities; be culturally aware and respectful when visiting areas like Chinatown, the Mission, and SOMA."
+        },
+        {
+          "id": "san__c4",
+          "text": "Plan Around Fog",
+          "detail": "Summer fog often blankets the city by afternoon, so plan outdoor activities for mornings and dress warmly, especially on the waterfront."
+        }
+      ]
+    },
+    {
+      "id": "los_angeles",
+      "name": "Los Angeles",
+      "nameIt": "Los Angeles",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "type": "CITY",
+      "description": "The sprawling entertainment capital known for Hollywood, beaches, and diverse neighborhoods. Home to major attractions like Griffith Observatory, Getty Center, and countless cultural venues.",
+      "imageQueries": [
+        "Hollywood sign",
+        "Los Angeles skyline"
+      ],
+      "activities": [
+        {
+          "id": "los__1",
+          "text": "Griffith Observatory",
+          "detail": "Visit this iconic hilltop observatory for panoramic city views, free telescope viewing at night, and the famous copper dome visible across Los Angeles.",
+          "lat": 34.1184,
+          "lng": -118.2437
+        },
+        {
+          "id": "los__2",
+          "text": "Getty Center",
+          "detail": "Explore this world-class art museum featuring European paintings, sculptures, and photographs in a stunning modern architectural setting with sweeping city views.",
+          "lat": 34.078,
+          "lng": -118.474
+        },
+        {
+          "id": "los__3",
+          "text": "Santa Monica Pier",
+          "detail": "Walk this historic 1909 pier featuring Pacific Park amusement park, arcade games, street performers, and direct beach access.",
+          "lat": 34.0098,
+          "lng": -118.4971
+        },
+        {
+          "id": "los__4",
+          "text": "Hollywood Walk of Fame",
+          "detail": "Stroll down Hollywood Boulevard to see over 2,700 bronze stars embedded in the sidewalk honoring entertainment industry legends.",
+          "lat": 34.1016,
+          "lng": -118.3267
+        },
+        {
+          "id": "los__5",
+          "text": "Venice Beach Boardwalk",
+          "detail": "Experience the eclectic mix of muscle beach, street performers, vendors, and bohemian culture on this famous oceanfront promenade.",
+          "lat": 33.985,
+          "lng": -118.4695
+        },
+        {
+          "id": "los__6",
+          "text": "The Broad",
+          "detail": "Visit this contemporary art museum downtown showcasing modern and contemporary pieces in a striking honeycomb-patterned building.",
+          "lat": 34.0566,
+          "lng": -118.2471
+        },
+        {
+          "id": "los__7",
+          "text": "Mulholland Drive",
+          "detail": "Drive this scenic mountain road winding through the Hollywood Hills for stunning overlook views of the city lights and urban sprawl.",
+          "lat": 34.1243,
+          "lng": -118.381
+        }
+      ],
+      "food": [
+        {
+          "id": "los__f1",
+          "text": "Los Angeles-Style Fish Tacos",
+          "detail": "Crispy battered white fish or mahi-mahi topped with cabbage slaw, crema, and salsa served on corn tortillas, a quintessential Southern California street food."
+        },
+        {
+          "id": "los__f2",
+          "text": "In-N-Out Burger",
+          "detail": "California's iconic fast-casual burger chain serving fresh, simple double-doubles and animal-style fries that locals queue for across the city."
+        },
+        {
+          "id": "los__f3",
+          "text": "Korean BBQ",
+          "detail": "Grill-at-your-table Korean beef, pork, and seafood in the Koreatown neighborhood, accompanied by banchan side dishes and soju, reflecting LA's vibrant Korean community."
+        },
+        {
+          "id": "los__f4",
+          "text": "Danger Dog",
+          "detail": "A street food wrapped hot dog with grilled peppers and onions found on nearly every corner, particularly around Hollywood and downtown venues."
+        },
+        {
+          "id": "los__f5",
+          "text": "Carne Asada Fries",
+          "detail": "Loaded french fries topped with grilled marinated beef, cheese, sour cream, and guacamole, showcasing the city's Mexican-American culinary heritage."
+        },
+        {
+          "id": "los__f6",
+          "text": "Farmstand Bowl",
+          "detail": "Fresh grain bowls with locally sourced seasonal vegetables, proteins, and California-inspired ingredients reflecting the area's health-conscious dining culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "los__c1",
+          "text": "Expect Heavy Traffic and Plan Ahead",
+          "detail": "Los Angeles is car-dependent with notorious congestion, so budget extra time for travel, use navigation apps like Waze, and consider using rideshare during peak hours."
+        },
+        {
+          "id": "los__c2",
+          "text": "Casual Dress Code",
+          "detail": "LA has a notably laid-back dress culture; even upscale restaurants often welcome smart-casual attire, and beachwear-to-casual transitions throughout the day are normal."
+        },
+        {
+          "id": "los__c3",
+          "text": "Neighborhood Diversity",
+          "detail": "Los Angeles comprises distinct neighborhoods with different characters and demographics—from the trendy West Hollywood to bohemian Echo Park—so explore beyond tourist zones to experience authentic local culture."
+        },
+        {
+          "id": "los__c4",
+          "text": "Sun Protection Essential",
+          "detail": "Southern California's year-round sunshine is intense, so always wear sunscreen, sunglasses, and hats even on cloudy days to avoid burns and premature skin damage."
+        }
+      ]
+    },
+    {
+      "id": "san_diego",
+      "name": "San Diego",
+      "nameIt": "San Diego",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "type": "CITY",
+      "description": "Southern California's laid-back coastal city with perfect weather, beautiful beaches, and family attractions. Features the famous San Diego Zoo, Balboa Park, and a vibrant waterfront.",
+      "imageQueries": [
+        "San Diego Zoo",
+        "San Diego beaches"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "San Diego Zoo",
+          "detail": "One of the world's largest zoos featuring over 650 species across 100 acres in Balboa Park with innovative habitats and daily animal encounters.",
+          "lat": 32.7355,
+          "lng": -117.1497
+        },
+        {
+          "id": "san__2",
+          "text": "Balboa Park",
+          "detail": "A 1,200-acre cultural hub with 17 museums, Spanish colonial architecture, gardens, and performing arts venues spread across multiple neighborhoods.",
+          "lat": 32.7305,
+          "lng": -117.1452
+        },
+        {
+          "id": "san__3",
+          "text": "USS Midway Museum",
+          "detail": "A decommissioned aircraft carrier turned museum on the waterfront offering self-guided tours through naval history and flight simulators.",
+          "lat": 32.7126,
+          "lng": -117.1761
+        },
+        {
+          "id": "san__4",
+          "text": "Coronado Island Beach",
+          "detail": "Seven miles of pristine sandy beaches accessible by the iconic Coronado Bridge, known for calm waters and the Hotel del Coronado backdrop.",
+          "lat": 32.6862,
+          "lng": -117.1749
+        },
+        {
+          "id": "san__5",
+          "text": "Gaslamp Quarter",
+          "detail": "Historic downtown neighborhood with Victorian-era buildings, art galleries, boutiques, and restaurants housed in converted saloons and brick structures.",
+          "lat": 32.7149,
+          "lng": -117.1608
+        },
+        {
+          "id": "san__6",
+          "text": "La Jolla Cove",
+          "detail": "A secluded swimming spot with crystal-clear waters surrounded by dramatic cliffs, offering tide pools, sea lions, and excellent snorkeling.",
+          "lat": 32.8449,
+          "lng": -117.2723
+        },
+        {
+          "id": "san__7",
+          "text": "Sunset Cliffs Natural Park",
+          "detail": "Rugged coastal park with dramatic sandstone cliffs perfect for sunset viewing, tide pooling, and spotting migrating gray whales.",
+          "lat": 32.7575,
+          "lng": -117.252
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Fish Tacos",
+          "detail": "San Diego's signature street food made with fresh local catch, typically found at taco shops with crispy or grilled fish topped with cabbage and lime crema."
+        },
+        {
+          "id": "san__f2",
+          "text": "Carne Asada Fries",
+          "detail": "Loaded fries piled high with grilled marinated beef, melted cheese, sour cream, and guacamole, a beloved late-night regional favorite."
+        },
+        {
+          "id": "san__f3",
+          "text": "California Burritos",
+          "detail": "Flour tortillas filled with carne asada, french fries, guacamole, and cheese representing San Diego's evolved Mexican-American cuisine."
+        },
+        {
+          "id": "san__f4",
+          "text": "Puesto Rotisserie Chicken",
+          "detail": "Slow-roasted chicken marinated in local citrus and spices, served with fresh tortillas and fire-roasted salsa at casual neighborhood spots."
+        },
+        {
+          "id": "san__f5",
+          "text": "Fresh Seafood at the Harbor",
+          "detail": "Grilled mahi-mahi, yellowtail, and local catch at waterfront restaurants in Little Italy and the Embarcadero showcasing Pacific bounty."
+        },
+        {
+          "id": "san__f6",
+          "text": "Breakfast Burritos",
+          "detail": "Oversized flour tortillas stuffed with scrambled eggs, bacon or chorizo, hash browns, and cheese served at breakfast taquerias throughout the city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Perfect Weather Year-Round",
+          "detail": "San Diego enjoys mild winters and sunny summers with an average of 260 days of sunshine annually, so dress in layers and always bring sunscreen."
+        },
+        {
+          "id": "san__c2",
+          "text": "Car Culture and Parking",
+          "detail": "San Diego is car-dependent sprawl, so rent a vehicle or use ride-shares, as beaches and attractions are spread across 4,200 square miles."
+        },
+        {
+          "id": "san__c3",
+          "text": "Laid-Back Beach Attitude",
+          "detail": "The local vibe is relaxed and casual; expect flip-flops in restaurants, sunset gatherings on beaches, and a focus on outdoor living."
+        },
+        {
+          "id": "san__c4",
+          "text": "Mexican-American Heritage",
+          "detail": "San Diego's culture is deeply rooted in Mexican and Chicano traditions reflected in language, food, festivals, and neighborhoods like Barrio Logan."
+        }
+      ]
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite National Park",
+      "nameIt": "Yosemite",
+      "lat": 37.8651,
+      "lng": -119.5383,
+      "type": "NATURE",
+      "description": "One of America's most spectacular national parks featuring dramatic granite cliffs, waterfalls, and giant sequoias. Essential for outdoor enthusiasts and nature photographers seeking breathtaking mountain scenery.",
+      "imageQueries": [
+        "Yosemite Valley",
+        "Half Dome waterfall"
+      ],
+      "activities": [
+        {
+          "id": "yose_1",
+          "text": "Hike to Mist Trail and Vernal Fall",
+          "detail": "A scenic 5.5-mile round-trip hike that takes you alongside cascading water with spray from the 317-foot waterfall creating a misty experience, especially dramatic in spring.",
+          "lat": 37.7556,
+          "lng": -119.5358
+        },
+        {
+          "id": "yose_2",
+          "text": "Visit Glacier Point",
+          "detail": "Drive to this 7,214-foot overlook offering panoramic views of Half Dome, El Capitan, and Yosemite Valley that are particularly stunning at sunset.",
+          "lat": 37.7319,
+          "lng": -119.5872
+        },
+        {
+          "id": "yose_3",
+          "text": "Explore the Giant Sequoias",
+          "detail": "Walk among the world's largest trees by volume in the Mariposa Grove, featuring a peaceful forest trail with several of these ancient giants.",
+          "lat": 37.5054,
+          "lng": -119.6446
+        },
+        {
+          "id": "yose_4",
+          "text": "Rock climbing at El Capitan",
+          "detail": "Challenge yourself on the famous 3,000-foot granite monolith with routes ranging from beginner to expert, or simply watch climbers from the valley floor.",
+          "lat": 37.7315,
+          "lng": -119.6365
+        },
+        {
+          "id": "yose_5",
+          "text": "Mirror Lake Loop Trail",
+          "detail": "A 5-mile round-trip walk featuring reflections of Half Dome and surrounding cliffs in still water, best visited in spring when water levels are high.",
+          "lat": 37.7604,
+          "lng": -119.5264
+        },
+        {
+          "id": "yose_6",
+          "text": "Photograph Bridalveil Fall",
+          "detail": "Visit this iconic 620-foot waterfall accessible via a short 0.5-mile walk, where afternoon light creates spectacular rainbow effects in the mist.",
+          "lat": 37.7185,
+          "lng": -119.6426
+        },
+        {
+          "id": "yose_7",
+          "text": "Valley Loop Trail",
+          "detail": "A scenic 7.2-mile paved path offering classic views of Yosemite Valley's major landmarks including Half Dome and El Capitan from multiple vantage points.",
+          "lat": 37.7412,
+          "lng": -119.5921
+        }
+      ],
+      "food": [
+        {
+          "id": "yose_f1",
+          "text": "Ahwahnee Hotel Dining Room Experience",
+          "detail": "Fine dining in a historic 1920s-era lodge with floor-to-ceiling windows overlooking Yosemite Valley, featuring California cuisine and wine pairings."
+        },
+        {
+          "id": "yose_f2",
+          "text": "Curry Village Pizza",
+          "detail": "Casual outdoor dining option serving pizza and hearty meals at this historic village lodging area in the heart of Yosemite Valley."
+        },
+        {
+          "id": "yose_f3",
+          "text": "Mountain trout from Yosemite streams",
+          "detail": "Fresh-caught local trout prepared simply at park restaurants, representing the region's traditional High Sierra fishing heritage."
+        },
+        {
+          "id": "yose_f4",
+          "text": "Coffee and pastries at Yosemite Lodge Cafeteria",
+          "detail": "Start your morning with locally-roasted coffee and baked goods at this casual dining spot convenient to major valley attractions."
+        },
+        {
+          "id": "yose_f5",
+          "text": "Campfire cooking experience",
+          "detail": "Prepare meals over a campfire at one of Yosemite's campgrounds, a traditional way to experience outdoor dining in the Sierra Nevada."
+        }
+      ],
+      "culture": [
+        {
+          "id": "yose_c1",
+          "text": "Plan ahead for lodging and reservations",
+          "detail": "Accommodations within the park fill up months in advance, and popular activities require advance booking, especially during peak summer season."
+        },
+        {
+          "id": "yose_c2",
+          "text": "Respect wildlife and maintain distance",
+          "detail": "Bears and deer are common; store food properly in bear-proof lockers, never feed animals, and maintain at least 25 yards from bears and 5 yards from other wildlife."
+        },
+        {
+          "id": "yose_c3",
+          "text": "Weather changes rapidly at elevation",
+          "detail": "Pack layers and rain gear year-round, as conditions can shift quickly, and road closures due to snow are common in winter months."
+        },
+        {
+          "id": "yose_c4",
+          "text": "Leave No Trace principles are essential",
+          "detail": "The park culture emphasizes protecting wilderness; pack out all trash, stay on designated trails, and camp only in designated areas to preserve the landscape."
+        }
+      ]
+    },
+    {
+      "id": "lake_tahoe",
+      "name": "Lake Tahoe",
+      "nameIt": "Lake Tahoe",
+      "lat": 39.0968,
+      "lng": -120.0324,
+      "type": "NATURE",
+      "description": "A pristine alpine lake straddling the California-Nevada border, surrounded by ski resorts and hiking trails. Offers year-round recreation with stunning mountain views and crystal-clear waters.",
+      "imageQueries": [
+        "Lake Tahoe landscape",
+        "Lake Tahoe alpine"
+      ],
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Hiking to Emerald Bay",
+          "detail": "Trek to one of Lake Tahoe's most iconic coves with turquoise waters and a submerged Scandinavian castle replica, offering spectacular views of the surrounding peaks.",
+          "lat": 38.9511,
+          "lng": -120.0975
+        },
+        {
+          "id": "lake_2",
+          "text": "Skiing at Heavenly Mountain Resort",
+          "detail": "Experience world-class skiing with runs spanning California and Nevada, featuring terrain for all skill levels and panoramic lake views from the summit.",
+          "lat": 38.9554,
+          "lng": -119.9368
+        },
+        {
+          "id": "lake_3",
+          "text": "Stand-up Paddleboarding on the Lake",
+          "detail": "Paddle across the crystal-clear alpine waters to experience the lake's pristine beauty and mountain surroundings from the water's surface.",
+          "lat": 39.0968,
+          "lng": -120.0686
+        },
+        {
+          "id": "lake_4",
+          "text": "Visiting Sand Harbor State Park",
+          "detail": "Explore a sandy beach with clear waters, scenic views, and access to the Tahoe Shakespeare Festival venue nestled on the Nevada shore.",
+          "lat": 39.1056,
+          "lng": -119.9289
+        },
+        {
+          "id": "lake_5",
+          "text": "Mountain Biking the Flume Trail",
+          "detail": "Ride the famous single-track descent offering thrilling downhill sections with stunning lake and mountain vistas.",
+          "lat": 39.1228,
+          "lng": -119.9156
+        },
+        {
+          "id": "lake_6",
+          "text": "Kayaking Emerald Bay",
+          "detail": "Paddle into the secluded bay to reach Fannette Island, the only island in Lake Tahoe, surrounded by dramatic granite cliffs."
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "Fresh Caught Lake Tahoe Trout",
+          "detail": "Local restaurants serve pan-seared or grilled Tahoe's native mackinaw trout, celebrated for its delicate flavor and fresh availability."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Sierra Mountain Cuisine",
+          "detail": "Restaurants throughout the lake region emphasize locally-sourced ingredients including wild mushrooms, venison, and seasonal alpine produce."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Swedish Meatballs at Local Taverns",
+          "detail": "A nod to Tahoe's Scandinavian heritage, hearty Swedish meatballs are served in rich brown gravy at historic lodge restaurants and pubs."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Craft Brewery Scene",
+          "detail": "The Tahoe area hosts multiple breweries producing IPAs and mountain ales inspired by the region's outdoor culture and local water sources."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Chateauneuf-du-Pape Wine Pairings",
+          "detail": "Fine dining establishments around the lake feature wine lists heavy on Rhône Valley varietals that pair with Alpine and farm-to-table cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "Respect Quiet Hours and Wildlife",
+          "detail": "The Tahoe community values serenity and environmental protection, so avoid excessive noise during evenings and always maintain distance from native bears and wildlife."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Check Road Conditions in Winter",
+          "detail": "Winter visits require chains and careful planning as roads around the lake frequently close due to heavy snow, making flexibility essential for travel schedules."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Altitude Acclimatization",
+          "detail": "At 6,224 feet elevation, visitors should plan to arrive a day early and stay hydrated to acclimate to the alpine environment and minimize altitude-related discomfort."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Support Leave No Trace Principles",
+          "detail": "The local community is deeply committed to preserving Lake Tahoe's pristine waters and forests, so pack out all waste and stick to marked trails."
+        }
+      ]
+    },
+    {
+      "id": "big_sur",
+      "name": "Big Sur",
+      "nameIt": "Big Sur",
+      "lat": 36.2704,
+      "lng": -121.8084,
+      "type": "COASTAL",
+      "description": "One of the world's most scenic coastal drives featuring dramatic cliffs, pristine beaches, and redwood forests meeting the Pacific Ocean. A quintessential California experience with iconic landmarks like Bixby Bridge.",
+      "imageQueries": [
+        "Big Sur coastline",
+        "Bixby Bridge"
+      ],
+      "activities": [
+        {
+          "id": "big__1",
+          "text": "Bixby Bridge",
+          "detail": "Walk across or photograph this iconic 1932 concrete arch bridge spanning a dramatic coastal gorge with sweeping ocean views.",
+          "lat": 36.3808,
+          "lng": -121.4111
+        },
+        {
+          "id": "big__2",
+          "text": "McWay Falls",
+          "detail": "Hike the short, scenic trail in Julia Burns State Park to see a 80-foot waterfall cascading onto a pristine white sand beach.",
+          "lat": 36.2265,
+          "lng": -121.4712
+        },
+        {
+          "id": "big__3",
+          "text": "Pfeiffer Beach Purple Sand",
+          "detail": "Explore the rare manganese garnet-rich purple sand beach at sunset when the minerals glow most vividly against the ocean.",
+          "lat": 36.2378,
+          "lng": -121.4999
+        },
+        {
+          "id": "big__4",
+          "text": "Point Lobos State Natural Reserve",
+          "detail": "Hike coastal trails through cypress groves and past rocky coves where sea otters, seals, and migrating gray whales are commonly spotted.",
+          "lat": 36.274,
+          "lng": -121.9435
+        },
+        {
+          "id": "big__5",
+          "text": "Pfeiffer Big Sur State Park Redwoods",
+          "detail": "Walk among ancient coast redwoods in a verdant canyon with a river, experiencing the dramatic contrast between forest and ocean.",
+          "lat": 36.2465,
+          "lng": -121.7697
+        },
+        {
+          "id": "big__6",
+          "text": "Ventana Cone Trail",
+          "detail": "Trek to an elevated viewpoint with panoramic vistas of the entire Big Sur coastline and the Santa Lucia Mountains.",
+          "lat": 36.2588,
+          "lng": -121.7362
+        }
+      ],
+      "food": [
+        {
+          "id": "big__f1",
+          "text": "Fresh Caught Fish Tacos",
+          "detail": "Local seafood restaurants serve fresh rockfish or halibut caught daily in nearby waters, typically grilled and served with cabbage slaw and lime."
+        },
+        {
+          "id": "big__f2",
+          "text": "Artichoke Soup",
+          "detail": "A signature dish celebrating Monterey County's agricultural heritage, creamy and often served at Big Sur's coastal dining establishments."
+        },
+        {
+          "id": "big__f3",
+          "text": "Abalone",
+          "detail": "When available, sustainably-sourced abalone is prepared simply grilled or breaded, showcasing the region's rich diving and culinary tradition."
+        },
+        {
+          "id": "big__f4",
+          "text": "Wild Mushroom Risotto",
+          "detail": "Local chefs feature foraged mushrooms from the coastal forests in creamy risotto, a signature seasonal comfort dish."
+        },
+        {
+          "id": "big__f5",
+          "text": "Sourdough Bread with Local Butter",
+          "detail": "Fresh-baked sourdough from regional bakeries, often served with cultured butter from small Californian dairies, is a staple at most establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "big__c1",
+          "text": "Arrive Early for Parking",
+          "detail": "Popular pullouts and trailheads fill quickly, especially on weekends and holidays; arriving by mid-morning maximizes your chances of securing parking."
+        },
+        {
+          "id": "big__c2",
+          "text": "Respect the Road's Difficulty",
+          "detail": "Highway 1 through Big Sur features narrow lanes, sharp curves, and occasional landslides; drive slowly, use pullouts safely, and avoid night driving in unfamiliar sections."
+        },
+        {
+          "id": "big__c3",
+          "text": "Plan for Limited Services",
+          "detail": "Gas stations, restaurants, and lodging are sparse and often expensive; fill your tank and budget meals in Carmel or Cambria before arriving."
+        },
+        {
+          "id": "big__c4",
+          "text": "Leave No Trace Ethic",
+          "detail": "Big Sur's beauty relies on visitor respect for fragile ecosystems; stay on marked trails, take all trash, and avoid removing rocks or plants as souvenirs."
+        }
+      ]
+    },
+    {
+      "id": "santa_barbara",
+      "name": "Santa Barbara",
+      "nameIt": "Santa Barbara",
+      "lat": 34.4208,
+      "lng": -119.6982,
+      "type": "COASTAL",
+      "description": "A charming coastal town with Spanish colonial architecture, excellent wine country nearby, and beautiful beaches. Known for its elegant downtown, Mission, and Mediterranean climate.",
+      "imageQueries": [
+        "Santa Barbara Mission",
+        "Santa Barbara beach"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Santa Barbara Mission",
+          "detail": "Tour this 1786 Spanish colonial mission featuring twin bell towers, a museum, and serene gardens that showcase early California history.",
+          "lat": 34.4383,
+          "lng": -119.7157
+        },
+        {
+          "id": "sant_2",
+          "text": "Stearns Wharf",
+          "detail": "Walk California's oldest continuously operating pier with shops, restaurants, and sea views while watching for local sea lions and pelicans.",
+          "lat": 34.4117,
+          "lng": -119.6887
+        },
+        {
+          "id": "sant_3",
+          "text": "State Street Shopping & Dining",
+          "detail": "Explore Santa Barbara's main pedestrian thoroughfare lined with Spanish colonial-style buildings, boutiques, galleries, and restaurants.",
+          "lat": 34.4208,
+          "lng": -119.6914
+        },
+        {
+          "id": "sant_4",
+          "text": "Montecito Wine Tasting",
+          "detail": "Visit nearby Santa Ynez Valley wineries producing renowned Pinot Noir and Chardonnay within a short drive from downtown.",
+          "lat": 34.6553,
+          "lng": -119.6437
+        },
+        {
+          "id": "sant_5",
+          "text": "East Beach",
+          "detail": "Relax on Santa Barbara's largest, most popular beach with volleyball courts, lifeguard stations, and views of the Santa Ynez Mountains.",
+          "lat": 34.4074,
+          "lng": -119.6708
+        },
+        {
+          "id": "sant_6",
+          "text": "Lotusland",
+          "detail": "Tour this botanical garden estate featuring rare plants from around the world set in a Mediterranean landscape.",
+          "lat": 34.4247,
+          "lng": -119.7144
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Carne Asada",
+          "detail": "Grilled marinated beef served with fresh tortillas, lime, and salsa reflects Santa Barbara's strong Mexican culinary heritage."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Fresh Catch Fish Tacos",
+          "detail": "Local fishermen supply fresh halibut and mahi-mahi for tacos served at waterfront restaurants near Stearns Wharf."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Tri-Tip Santa Maria Style",
+          "detail": "This Santa Maria Valley specialty features grilled triangular beef cut seasoned with garlic, pepper, and salt, served at local steakhouses."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Olive Oil from Local Producers",
+          "detail": "Santa Barbara County olive groves produce award-winning extra virgin oils perfect for sampling at tasting rooms downtown."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Strawberry Shortcake",
+          "detail": "Celebrate the region's abundant strawberry harvest with this classic dessert featuring locally-grown berries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Spanish Colonial Architecture",
+          "detail": "Most buildings downtown follow a designated architectural style inspired by the Spanish Mission era, creating a cohesive Mediterranean aesthetic."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Wine Country Etiquette",
+          "detail": "Nearby wineries expect reservations in advance, and tastings typically cost $15-$30 per person, which may be waived with a purchase."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Outdoor-First Lifestyle",
+          "detail": "Locals embrace year-round Mediterranean weather for beach activities, hiking, and outdoor dining, with most attractions operating daily."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Farmers Market Tradition",
+          "detail": "Santa Barbara's Tuesday evening farmers market on Santa Barbara Street features local produce, crafts, and live music as a community gathering."
+        }
+      ]
+    },
+    {
+      "id": "monterey",
+      "name": "Monterey",
+      "nameIt": "Monterey",
+      "lat": 36.6002,
+      "lng": -121.8915,
+      "type": "COASTAL",
+      "description": "A picturesque coastal town famous for its world-class aquarium and charming Cannery Row with historic architecture. Perfect for marine wildlife viewing and enjoying fresh seafood.",
+      "imageQueries": [
+        "Monterey Bay Aquarium",
+        "Cannery Row"
+      ],
+      "activities": [
+        {
+          "id": "mont_1",
+          "text": "Monterey Bay Aquarium",
+          "detail": "Explore one of the world's premier aquariums featuring kelp forests, sea otters, and deep-sea exhibits with stunning ocean views.",
+          "lat": 36.6254,
+          "lng": -121.9023
+        },
+        {
+          "id": "mont_2",
+          "text": "Cannery Row",
+          "detail": "Stroll the historic waterfront street lined with converted sardine canneries, boutiques, restaurants, and galleries overlooking the bay.",
+          "lat": 36.621,
+          "lng": -121.8945
+        },
+        {
+          "id": "mont_3",
+          "text": "Point Lobos State Natural Reserve",
+          "detail": "Hike scenic coastal trails through cypress groves and dramatic coves where you can spot sea otters, harbor seals, and migrating gray whales.",
+          "lat": 36.5487,
+          "lng": -121.9402
+        },
+        {
+          "id": "mont_4",
+          "text": "Monterey Bay National Marine Sanctuary",
+          "detail": "Take a whale-watching boat tour to observe humpback whales, blue whales, and sea lions in their natural habitat during migration seasons.",
+          "lat": 36.6245,
+          "lng": -121.883
+        },
+        {
+          "id": "mont_5",
+          "text": "Custom House Plaza",
+          "detail": "Visit the historic adobe buildings and museum that showcase Monterey's Spanish colonial and Gold Rush era heritage.",
+          "lat": 36.601,
+          "lng": -121.8948
+        },
+        {
+          "id": "mont_6",
+          "text": "Pacific Grove Monarch Butterfly Sanctuary",
+          "detail": "Witness thousands of monarch butterflies clustering in pine and eucalyptus trees during their winter migration.",
+          "lat": 36.6238,
+          "lng": -121.9387
+        }
+      ],
+      "food": [
+        {
+          "id": "mont_f1",
+          "text": "Fresh Dungeness Crab",
+          "detail": "Sample locally caught Dungeness crab prepared simply with lemon and butter at waterfront restaurants, especially during winter season."
+        },
+        {
+          "id": "mont_f2",
+          "text": "Abalone",
+          "detail": "Enjoy this tender, locally-harvested mollusk breaded and pan-fried, a traditional Monterey Bay delicacy."
+        },
+        {
+          "id": "mont_f3",
+          "text": "Fish and Chips",
+          "detail": "Order crispy beer-battered local catch served with tartar sauce and views of the bay at Cannery Row establishments."
+        },
+        {
+          "id": "mont_f4",
+          "text": "Calamari",
+          "detail": "Try grilled or fried squid caught fresh from Monterey Bay, often served with marinara sauce at local seafood restaurants."
+        },
+        {
+          "id": "mont_f5",
+          "text": "Cioppino",
+          "detail": "Savor this Italian-American tomato-based seafood stew loaded with crab, shrimp, and fish, a Bay Area specialty popular in Monterey."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mont_c1",
+          "text": "Respect Marine Wildlife",
+          "detail": "Keep a safe distance from sea otters, seals, and other marine animals; they are protected and viewing from a distance preserves their natural behavior."
+        },
+        {
+          "id": "mont_c2",
+          "text": "Timing for Whale Watching",
+          "detail": "Plan visits between December and May for gray whale migrations and summer months for blue and humpback whales to maximize marine wildlife viewing."
+        },
+        {
+          "id": "mont_c3",
+          "text": "Cannery Row Crowds",
+          "detail": "Visit early morning or weekday afternoons to avoid the heaviest tourist crowds and enjoy a more authentic experience of this iconic street."
+        },
+        {
+          "id": "mont_c4",
+          "text": "Layers for Weather",
+          "detail": "Bring layers as Monterey's coastal climate can be cool and foggy even in summer, with temperatures varying significantly between sun and shade."
+        }
+      ]
+    },
+    {
+      "id": "death_valley",
+      "name": "Death Valley National Park",
+      "nameIt": "Death Valley",
+      "lat": 36.5323,
+      "lng": -116.8625,
+      "type": "NATURE",
+      "description": "America's hottest and lowest point, offering otherworldly desert landscapes with colorful badlands and unique geological features. A fascinating destination for extreme nature lovers and photographers.",
+      "imageQueries": [
+        "Death Valley badlands",
+        "Zabriskie Point"
+      ],
+      "activities": [
+        {
+          "id": "deat_1",
+          "text": "Badwater Basin",
+          "detail": "Visit the lowest point in North America at 282 feet below sea level, featuring vast salt flats and stunning views across the valley.",
+          "lat": 36.2336,
+          "lng": -116.8651
+        },
+        {
+          "id": "deat_2",
+          "text": "Zabriskie Point",
+          "detail": "Hike to this iconic overlook featuring colorful badlands with golden, purple, and brown hues, especially stunning at sunrise.",
+          "lat": 36.4269,
+          "lng": -116.7731
+        },
+        {
+          "id": "deat_3",
+          "text": "Sand Dunes",
+          "detail": "Explore the Mesquite Flat Sand Dunes where you can climb towering dunes and walk across rippled patterns in the sand.",
+          "lat": 36.45,
+          "lng": -116.893
+        },
+        {
+          "id": "deat_4",
+          "text": "Artist's Palette",
+          "detail": "Drive this scenic loop to see hillsides painted in natural mineral colors including reds, greens, purples, and yellows.",
+          "lat": 36.3631,
+          "lng": -116.8264
+        },
+        {
+          "id": "deat_5",
+          "text": "Telescope Peak Trail",
+          "detail": "Summit this challenging 14-mile round-trip hike from 5,000 feet to 11,049 feet, offering views of both Death Valley and Mount Whitney.",
+          "lat": 36.2172,
+          "lng": -116.8339
+        },
+        {
+          "id": "deat_6",
+          "text": "Racetrack Playa",
+          "detail": "Witness the mysterious moving rocks that slide across this remote dry lakebed, leaving trails in the salt-encrusted ground.",
+          "lat": 36.7331,
+          "lng": -117.4856
+        },
+        {
+          "id": "deat_7",
+          "text": "Golden Canyon Trail",
+          "detail": "Hike through this slot canyon with dramatic golden and russet colored walls, offering shorter and longer route options.",
+          "lat": 36.4244,
+          "lng": -116.7928
+        }
+      ],
+      "food": [
+        {
+          "id": "deat_f1",
+          "text": "Mine shaft mine-crafted meals at Furnace Creek Ranch",
+          "detail": "The only major dining option in the park serves hearty American comfort food designed to refuel after desert exploration."
+        },
+        {
+          "id": "deat_f2",
+          "text": "Dates from Death Valley dates",
+          "detail": "Local date products are sold at the visitor center, reflecting the small agricultural heritage of nearby Furnace Creek oasis."
+        },
+        {
+          "id": "deat_f3",
+          "text": "Packed trail snacks and water",
+          "detail": "Most visitors prepare picnic meals and bring abundant water, as the extreme heat and remote location make dining options scarce."
+        },
+        {
+          "id": "deat_f4",
+          "text": "Shoshone Village local goods",
+          "detail": "The nearby town of Shoshone offers a small restaurant serving basic fare in this gateway community south of Death Valley."
+        }
+      ],
+      "culture": [
+        {
+          "id": "deat_c1",
+          "text": "Prepare extensively for extreme heat",
+          "detail": "Bring at least 1 gallon of water per person per day, start hikes early, and check conditions as temperatures exceed 120°F in summer."
+        },
+        {
+          "id": "deat_c2",
+          "text": "Respect the Timbisha Shoshone heritage",
+          "detail": "The Timbisha Shoshone people are the ancestral inhabitants; visit their cultural sites respectfully and support their community enterprises."
+        },
+        {
+          "id": "deat_c3",
+          "text": "Plan for vast distances between services",
+          "detail": "The park spans 3,400 square miles with limited gas, food, and lodging; fill up fuel in Furnace Creek or prepare to drive 45+ minutes between destinations."
+        },
+        {
+          "id": "deat_c4",
+          "text": "Follow leave-no-trace principles strictly",
+          "detail": "Stay on marked trails to protect fragile desert ecosystems and avoid disturbing the geological and archaeological features that define the valley."
+        }
+      ]
+    },
+    {
+      "id": "joshua_tree",
+      "name": "Joshua Tree National Park",
+      "nameIt": "Joshua Tree",
+      "lat": 34.1357,
+      "lng": -116.3089,
+      "type": "NATURE",
+      "description": "A unique desert park featuring twisted Joshua Trees, massive boulders, and stunning rock formations in the Mojave Desert. Popular for hiking, rock climbing, and stargazing.",
+      "imageQueries": [
+        "Joshua Tree park",
+        "Joshua Tree rocks"
+      ],
+      "activities": [
+        {
+          "id": "josh_1",
+          "text": "Hiking Keys View Trail",
+          "detail": "A moderate 5-mile round-trip hike offering panoramic views of the Coachella Valley, San Andreas Fault, and on clear days, Mexico.",
+          "lat": 34.0059,
+          "lng": -116.3089
+        },
+        {
+          "id": "josh_2",
+          "text": "Rock Climbing at Hidden Valley",
+          "detail": "World-class boulder climbing destination with hundreds of routes suitable for beginners to advanced climbers among iconic granite formations.",
+          "lat": 34.0382,
+          "lng": -116.1982
+        },
+        {
+          "id": "josh_3",
+          "text": "Stargazing at Night Sky Programs",
+          "detail": "Joshua Tree is an International Dark Sky Park where ranger-led programs and personal observation reveal exceptional night sky visibility away from light pollution.",
+          "lat": 34.1356,
+          "lng": -116.1923
+        },
+        {
+          "id": "josh_4",
+          "text": "Exploring Skull Rock Trail",
+          "detail": "A scenic 1.8-mile loop through dense Joshua Tree woodland and boulder fields with interpretive signs about desert ecology.",
+          "lat": 34.0082,
+          "lng": -116.1631
+        },
+        {
+          "id": "josh_5",
+          "text": "Cholla Cactus Garden Walk",
+          "detail": "A short 0.25-mile loop through a dense forest of jumping cholla cacti, best visited in early morning when light illuminates the spines.",
+          "lat": 34.1825,
+          "lng": -116.3439
+        },
+        {
+          "id": "josh_6",
+          "text": "Barker Dam Nature Trail",
+          "detail": "A 1.4-mile round-trip hike featuring historic cattle ranching structures, petroglyphs, and wildlife viewing opportunities around a natural water source.",
+          "lat": 34.0631,
+          "lng": -116.1488
+        }
+      ],
+      "food": [
+        {
+          "id": "josh_f1",
+          "text": "Desert-Style Prickly Pear Cactus Dishes",
+          "detail": "Local restaurants in nearby towns serve traditional nopales (cactus pads) in salads, tacos, and aguas frescas reflecting Mojave Desert indigenous cuisine."
+        },
+        {
+          "id": "josh_f2",
+          "text": "Twentynine Palms Burros and Regional Mexican Food",
+          "detail": "The gateway town of Twentynine Palms offers authentic Mexican fare from family-run establishments serving regional specialties like chile rellenos and fresh tortillas."
+        },
+        {
+          "id": "josh_f3",
+          "text": "Joshua Tree Visitor Center Ranger-Recommended Local Honey",
+          "detail": "Desert wildflower honey produced by local beekeepers is sold at park gift shops and reflects the unique Mojave Desert flora."
+        },
+        {
+          "id": "josh_f4",
+          "text": "Crossroads Cafe Style Desert Comfort Food",
+          "detail": "Small cafes in Twentynine Palms and Joshua Tree town serve hearty breakfast and lunch fare popular with hikers and climbers refueling after outdoor activities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "josh_c1",
+          "text": "Arrive Early for Parking and Heat Management",
+          "detail": "Popular trailheads fill by mid-morning and desert temperatures exceed 100°F in summer, so start hikes at dawn and bring 2-3 liters of water per person."
+        },
+        {
+          "id": "josh_c2",
+          "text": "Respect Fragile Desert Ecology and Wildlife",
+          "detail": "Stay on marked trails to protect cryptobiotic soil crusts and native plants; observe wildlife like bighorn sheep and roadrunners from a distance without feeding or approaching."
+        },
+        {
+          "id": "josh_c3",
+          "text": "Plan for Limited Services Inside the Park",
+          "detail": "There are no gas stations, restaurants, or lodging within Joshua Tree National Park, so fuel up and purchase supplies in nearby towns like Twentynine Palms or Joshua Tree before entering."
+        },
+        {
+          "id": "josh_c4",
+          "text": "Check Park Alerts for Road and Weather Conditions",
+          "detail": "Desert flash floods, high winds, and sudden weather changes can close roads or trails, so consult the NPS website or stop at visitor centers upon arrival for current conditions."
+        }
+      ]
+    },
+    {
+      "id": "napa_valley",
+      "name": "Napa Valley",
+      "nameIt": "Napa Valley",
+      "lat": 38.2919,
+      "lng": -122.258,
+      "type": "CITY",
+      "description": "California's premier wine region offering world-renowned vineyards, upscale restaurants, and scenic valley views. A paradise for wine enthusiasts and those seeking refined culinary experiences.",
+      "imageQueries": [
+        "Napa Valley vineyards",
+        "Napa Valley landscape"
+      ],
+      "activities": [
+        {
+          "id": "napa_1",
+          "text": "Wine Tasting at Opus One",
+          "detail": "Tour the iconic architecture and taste Bordeaux-style blends at one of Napa's most prestigious wineries.",
+          "lat": 38.2975,
+          "lng": -122.2869
+        },
+        {
+          "id": "napa_2",
+          "text": "Oxbow Market",
+          "detail": "Browse local produce, artisan goods, and grab fresh prepared foods at this year-round public market in downtown Napa.",
+          "lat": 38.2975,
+          "lng": -122.2869
+        },
+        {
+          "id": "napa_3",
+          "text": "Napa Valley Wine Train",
+          "detail": "Experience a scenic three-hour journey through vineyards aboard a vintage train with a multi-course meal.",
+          "lat": 38.2908,
+          "lng": -122.2842
+        },
+        {
+          "id": "napa_4",
+          "text": "Domaine Chandon Sparkling Wine Tour",
+          "detail": "Learn about méthode champenoise and taste world-class sparkling wines in Yountville.",
+          "lat": 38.3629,
+          "lng": -122.3686
+        },
+        {
+          "id": "napa_5",
+          "text": "Culinary Institute of America at Greystone",
+          "detail": "Explore cooking demonstrations and wine classes at this renowned culinary school housed in a historic stone building.",
+          "lat": 38.4867,
+          "lng": -122.4589
+        },
+        {
+          "id": "napa_6",
+          "text": "Hiking at Robert Louis Stevenson State Park",
+          "detail": "Trek through oak woodlands and vineyards with views of Mount St. Helena near Calistoga.",
+          "lat": 38.5847,
+          "lng": -122.5539
+        },
+        {
+          "id": "napa_7",
+          "text": "Mud Bath Experience in Calistoga",
+          "detail": "Relax in naturally heated geothermal mud baths, a unique wellness tradition unique to this region.",
+          "lat": 38.5758,
+          "lng": -122.5767
+        }
+      ],
+      "food": [
+        {
+          "id": "napa_f1",
+          "text": "Napa Valley Cabernet Sauvignon",
+          "detail": "The region's flagship wine, known for rich, full-bodied reds aged in French oak barrels."
+        },
+        {
+          "id": "napa_f2",
+          "text": "Farm-to-Table Cuisine",
+          "detail": "Fine dining restaurants source fresh seasonal produce from local farms and pair dishes with regional wines."
+        },
+        {
+          "id": "napa_f3",
+          "text": "Mustard Greens with Creamed Corn",
+          "detail": "A classic Southern-influenced side dish found on many Napa Valley restaurant menus, often served at The Restaurant at Meadowood."
+        },
+        {
+          "id": "napa_f4",
+          "text": "Fresh Oysters from Tomales Bay",
+          "detail": "Local seafood delivered daily to upscale restaurants, often served raw on the half-shell with a crisp Sauvignon Blanc."
+        },
+        {
+          "id": "napa_f5",
+          "text": "Fried Chicken and Biscuits",
+          "detail": "Comfort food elevated with local ingredients and wine pairings, found at casual dining spots throughout the valley."
+        },
+        {
+          "id": "napa_f6",
+          "text": "Dungeness Crab Bisque",
+          "detail": "A rich seasonal soup showcasing locally-caught crab, popular during winter months at fine dining establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "napa_c1",
+          "text": "Book Wine Tastings in Advance",
+          "detail": "Most wineries require reservations days or weeks ahead, especially during peak season from May through October."
+        },
+        {
+          "id": "napa_c2",
+          "text": "Designated Driver is Essential",
+          "detail": "With extensive wine tasting, arrange a designated driver, hire a car service, or use the Napa Valley Wine Train to safely enjoy the region."
+        },
+        {
+          "id": "napa_c3",
+          "text": "Dress Code Awareness",
+          "detail": "Fine dining restaurants and upscale wineries often have smart-casual to business-casual dress codes; avoid very casual athletic wear."
+        },
+        {
+          "id": "napa_c4",
+          "text": "Wine Country Pace is Leisurely",
+          "detail": "Plan for unhurried days with long lunch breaks and early dinners, as the culture emphasizes savoring experiences rather than rushing through attractions."
+        }
+      ]
+    },
+    {
+      "id": "redwoods",
+      "name": "Redwood National Park",
+      "nameIt": "Redwoods",
+      "lat": 41.2132,
+      "lng": -124.0046,
+      "type": "NATURE",
+      "description": "Home to the world's tallest trees, these ancient coast redwoods create a magical forest environment in Northern California. An awe-inspiring destination for hiking and experiencing primordial nature.",
+      "imageQueries": [
+        "Coast redwoods forest",
+        "tallest trees California"
+      ],
+      "activities": [
+        {
+          "id": "redw_1",
+          "text": "Newton B. Drury Scenic Parkway",
+          "detail": "Drive this 31-mile loop through old-growth redwood groves with multiple pullouts and short walks through ancient trees.",
+          "lat": 41.2133,
+          "lng": -124.0045
+        },
+        {
+          "id": "redw_2",
+          "text": "Tall Trees Grove Hike",
+          "detail": "Trek to the grove containing some of the world's tallest redwoods, requiring a free permit and moderate 4-mile round-trip hike.",
+          "lat": 41.3067,
+          "lng": -124.0567
+        },
+        {
+          "id": "redw_3",
+          "text": "Fern Canyon Walk",
+          "detail": "Explore a lush 50-foot-tall canyon draped in ferns with a easy 1-mile loop trail through streams and primitive vegetation.",
+          "lat": 40.8533,
+          "lng": -124.402
+        },
+        {
+          "id": "redw_4",
+          "text": "Gold Bluffs Beach",
+          "detail": "Hike or ride horses along a scenic coastal beach backed by 900-foot cliffs with tide pools and wildlife viewing opportunities.",
+          "lat": 40.845,
+          "lng": -124.3933
+        },
+        {
+          "id": "redw_5",
+          "text": "Klamath River Overlook",
+          "detail": "Stand at this dramatic clifftop viewpoint where the Klamath River meets the Pacific Ocean with whale and seal watching potential.",
+          "lat": 41.5333,
+          "lng": -124.0867
+        },
+        {
+          "id": "redw_6",
+          "text": "Lady Bird Johnson Grove Trail",
+          "detail": "Walk a 1.4-mile loop through a quiet redwood grove named after the former First Lady with interpretive signs about forest ecology.",
+          "lat": 41.2167,
+          "lng": -124.0083
+        },
+        {
+          "id": "redw_7",
+          "text": "Crescent Beach and Enderts Beach",
+          "detail": "Accessible sandy beaches near Crescent City offering tide pooling, sea stacks, and opportunities to spot sea lions and seals.",
+          "lat": 41.3733,
+          "lng": -124.1883
+        }
+      ],
+      "food": [
+        {
+          "id": "redw_f1",
+          "text": "Fresh Pacific Salmon",
+          "detail": "Local restaurants and lodges serve recently caught salmon from the nearby Klamath and Trinity rivers, often grilled or smoked."
+        },
+        {
+          "id": "redw_f2",
+          "text": "Dungeness Crab",
+          "detail": "Seasonal sweet crab harvested from Northern California waters, typically served cracked with melted butter at local eateries."
+        },
+        {
+          "id": "redw_f3",
+          "text": "Wild Mushroom Dishes",
+          "detail": "Local chefs feature wild-foraged mushrooms like chanterelles and matsutake that thrive in the damp redwood forest ecosystem."
+        },
+        {
+          "id": "redw_f4",
+          "text": "Coastal Farm Vegetables",
+          "detail": "Farm-to-table restaurants throughout the region source seasonal produce like kale, root vegetables, and berries from Humboldt County farms."
+        }
+      ],
+      "culture": [
+        {
+          "id": "redw_c1",
+          "text": "Obtain required permits early",
+          "detail": "Some treks like Tall Trees Grove require free permits that can sell out, especially during summer peak season."
+        },
+        {
+          "id": "redw_c2",
+          "text": "Respect closed trail areas",
+          "detail": "The park frequently closes trails for ecological restoration and safety; always check current conditions before planning your route."
+        },
+        {
+          "id": "redw_c3",
+          "text": "Leave no trace ethics",
+          "detail": "This pristine ancient forest requires visitors to stay on marked trails, pack out all trash, and avoid picking plants or disturbing wildlife."
+        },
+        {
+          "id": "redw_c4",
+          "text": "Prepare for cool, wet weather",
+          "detail": "Northern California coast brings fog, rain, and temperatures around 50-60°F year-round, so layered clothing and waterproofs are essential."
+        }
+      ]
+    },
+    {
+      "id": "malibu",
+      "name": "Malibu",
+      "nameIt": "Malibu",
+      "lat": 34.0259,
+      "lng": -118.6825,
+      "type": "COASTAL",
+      "description": "An exclusive coastal enclave known for pristine beaches, celebrity homes, and dramatic Pacific views. Features stunning coves, hiking trails, and the famous Getty Villa.",
+      "imageQueries": [
+        "Malibu beaches",
+        "Malibu coastline"
+      ],
+      "activities": [
+        {
+          "id": "mali_1",
+          "text": "Getty Villa Malibu",
+          "detail": "Explore this stunning Roman-style museum housing an exceptional collection of Greek, Etruscan, and Roman antiquities overlooking the Pacific Ocean.",
+          "lat": 34.0195,
+          "lng": -118.5817
+        },
+        {
+          "id": "mali_2",
+          "text": "Zuma Beach",
+          "detail": "Enjoy this popular sandy beach known for its wide shoreline, clear waters, and accessibility for swimming and surfing.",
+          "lat": 34.0298,
+          "lng": -118.689
+        },
+        {
+          "id": "mali_3",
+          "text": "Solstice Canyon Hiking Trail",
+          "detail": "Hike through coastal canyons with ocean views and waterfalls, featuring a moderate 6.6-mile round-trip trail.",
+          "lat": 34.0365,
+          "lng": -118.7355
+        },
+        {
+          "id": "mali_4",
+          "text": "El Matador Beach",
+          "detail": "Visit this secluded cove with dramatic sea caves, rock formations, and tide pools perfect for photography and exploration.",
+          "lat": 34.028,
+          "lng": -118.702
+        },
+        {
+          "id": "mali_5",
+          "text": "Malibu Pier",
+          "detail": "Walk along this historic pier in the heart of Malibu to enjoy scenic ocean views and watch local surfers catch waves.",
+          "lat": 34.0328,
+          "lng": -118.6817
+        },
+        {
+          "id": "mali_6",
+          "text": "Point Dume State Beach",
+          "detail": "Explore this crescent-shaped beach with a hiking trail to a clifftop overlook offering panoramic Pacific vistas.",
+          "lat": 34.0385,
+          "lng": -118.805
+        }
+      ],
+      "food": [
+        {
+          "id": "mali_f1",
+          "text": "Fresh-caught seafood at Nobu Malibu",
+          "detail": "Experience Japanese-inspired coastal cuisine featuring pristine local fish and innovative preparations in an oceanfront setting."
+        },
+        {
+          "id": "mali_f2",
+          "text": "Fish tacos at Duke's Malibu",
+          "detail": "Savor casual beachfront dining with crispy fish tacos and fresh tropical drinks with views of Malibu Pier."
+        },
+        {
+          "id": "mali_f3",
+          "text": "Farm-to-table fare at Malibu Farm",
+          "detail": "Enjoy locally-sourced organic vegetables, grains, and proteins prepared with California coastal cuisine influences."
+        },
+        {
+          "id": "mali_f4",
+          "text": "Grilled fish at The Reel Inn",
+          "detail": "Try simple, fresh grilled fish and seafood prepared daily at this casual locals' favorite beachside restaurant."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mali_c1",
+          "text": "Respect private beach access",
+          "detail": "Many Malibu beaches are adjacent to private property; stick to public access points and respect posted boundaries."
+        },
+        {
+          "id": "mali_c2",
+          "text": "Plan for limited parking",
+          "detail": "Parking is scarce throughout Malibu, especially on weekends; arrive early or use lot-based parking at main beaches."
+        },
+        {
+          "id": "mali_c3",
+          "text": "Check tide tables for beach exploration",
+          "detail": "Malibu's coves and sea caves are best explored during low tide; always verify conditions before hiking to secluded areas."
+        },
+        {
+          "id": "mali_c4",
+          "text": "Dress in layers for coastal weather",
+          "detail": "Pacific winds can make mornings cool despite sunny appearance; bring a light jacket even in summer months."
+        }
+      ]
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia National Park",
+      "nameIt": "Sequoia",
+      "lat": 36.4864,
+      "lng": -118.7471,
+      "type": "NATURE",
+      "description": "Home to the largest trees on Earth by volume, the Giant Sequoias, set in stunning Sierra Nevada scenery. A remarkable destination for hiking and witnessing nature's grandeur.",
+      "imageQueries": [
+        "Giant Sequoia",
+        "Sequoia National Park"
+      ],
+      "activities": [
+        {
+          "id": "sequ_1",
+          "text": "Giant Forest Trail",
+          "detail": "Walk among the largest trees on Earth in this iconic grove featuring the General Sherman tree, the largest known tree by volume.",
+          "lat": 36.7154,
+          "lng": -118.7863
+        },
+        {
+          "id": "sequ_2",
+          "text": "Moro Rock Climb",
+          "detail": "Ascend 350 granite steps to this iconic 6,725-foot peak for panoramic views of the Sierra Nevada and Great Western Divide.",
+          "lat": 36.7089,
+          "lng": -118.7697
+        },
+        {
+          "id": "sequ_3",
+          "text": "Crescent Lake Hike",
+          "detail": "A moderate 1.8-mile roundtrip walk through forest and meadow to a pristine alpine lake reflecting surrounding peaks.",
+          "lat": 36.8528,
+          "lng": -118.6834
+        },
+        {
+          "id": "sequ_4",
+          "text": "Congress Trail Loop",
+          "detail": "This 2-mile path connects numerous massive sequoias and offers interpretive signs explaining the ecology of these ancient giants.",
+          "lat": 36.7154,
+          "lng": -118.7863
+        },
+        {
+          "id": "sequ_5",
+          "text": "Tunnel Log Drive-Through",
+          "detail": "Drive through a 275-foot tunnel carved into a fallen giant sequoia, a unique photographic stop along the main park road.",
+          "lat": 36.7224,
+          "lng": -118.7843
+        },
+        {
+          "id": "sequ_6",
+          "text": "Mineral King Valley Scenic Drive",
+          "detail": "Journey on a winding 25-mile road to a high alpine valley offering stellar hiking, crystalline lakes, and dramatic granite peaks.",
+          "lat": 36.4417,
+          "lng": -118.5833
+        },
+        {
+          "id": "sequ_7",
+          "text": "Watchtower Trail",
+          "detail": "A 2.6-mile hike ascending 1,500 feet to an old fire lookout with sweeping views of the western Sierra foothills.",
+          "lat": 36.6889,
+          "lng": -118.6944
+        }
+      ],
+      "food": [
+        {
+          "id": "sequ_f1",
+          "text": "Mountain-Caught Trout",
+          "detail": "Fresh trout from the park's pristine streams, typically grilled simply at lodges and nearby communities to highlight its delicate flavor."
+        },
+        {
+          "id": "sequ_f2",
+          "text": "Sierra Nevada Wild Berry Pie",
+          "detail": "Local bakeries feature pies made with manzanita berries, wild blueberries, and other high-altitude berries native to the region."
+        },
+        {
+          "id": "sequ_f3",
+          "text": "Venison and Game Meat Dishes",
+          "detail": "Restaurants in gateway towns like Three Rivers serve locally-sourced venison and wild game prepared in hearty, warming preparations."
+        },
+        {
+          "id": "sequ_f4",
+          "text": "Foothills Citrus Fruits",
+          "detail": "The lower elevations around Sequoia produce excellent oranges, lemons, and stone fruits available fresh at local markets in summer and fall."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sequ_c1",
+          "text": "Arrive Early for Popular Trailheads",
+          "detail": "The General Forest and popular hikes fill parking areas by mid-morning, so begin your day early to secure spots and avoid crowds."
+        },
+        {
+          "id": "sequ_c2",
+          "text": "Respect Sequoia Size Perspective",
+          "detail": "The massive scale of these trees can be difficult to grasp from photos—allow time to sit quietly among them to truly appreciate their grandeur and age."
+        },
+        {
+          "id": "sequ_c3",
+          "text": "Follow Weather and Road Closures",
+          "detail": "High elevation roads like Mineral King close seasonally due to snow, and afternoon thunderstorms are common in summer, so check conditions before heading out."
+        },
+        {
+          "id": "sequ_c4",
+          "text": "Pack Extra Water and Snacks",
+          "detail": "The park has limited food services, so bring ample water and provisions for day hikes, as the high elevation and dry climate increase dehydration risk."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "The French Laundry",
+      "address": "6640 Washington Street, Yountville",
+      "neighbourhood": "Yountville, Napa Valley",
+      "cuisine": "French",
+      "priceRange": "€€€€",
+      "description": "Fine dining institution with a nine-course tasting menu showcasing classical French technique and seasonal ingredients.",
+      "mustOrder": "Chef's tasting menu",
+      "lat": 38.2975,
+      "lng": -122.3654
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Chez Panisse",
+      "address": "1517 Shattuck Avenue, Berkeley",
+      "neighbourhood": "Berkeley",
+      "cuisine": "California/French",
+      "priceRange": "€€€",
+      "description": "Pioneer of farm-to-table cuisine featuring a fixed menu using locally-sourced, seasonal ingredients.",
+      "mustOrder": "Daily seasonal tasting menu",
+      "lat": 37.8716,
+      "lng": -122.2727
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Alinea",
+      "address": "1723 Halsted Street, Chicago",
+      "neighbourhood": "Pilsen",
+      "cuisine": "Modern American",
+      "priceRange": "€€€€",
+      "description": "Molecular gastronomy restaurant delivering an immersive multi-course experience with avant-garde presentations.",
+      "mustOrder": "Chef's tasting menu",
+      "lat": 41.8559,
+      "lng": -87.6453
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Noma",
+      "address": "Refshalevej 96, Copenhagen",
+      "neighbourhood": "Christianshavn",
+      "cuisine": "Nordic",
+      "priceRange": "€€€€",
+      "description": "World-renowned restaurant celebrating Nordic ingredients and culinary traditions through artistic plating.",
+      "mustOrder": "Tasting menu",
+      "lat": 55.1864,
+      "lng": 12.6084
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Benu",
+      "address": "22 Hawthorne Street, San Francisco",
+      "neighbourhood": "SOMA",
+      "cuisine": "Modern American",
+      "priceRange": "€€€€",
+      "description": "Creative tasting menu restaurant blending American ingredients with global techniques and artistic presentations.",
+      "mustOrder": "Chef's tasting menu",
+      "lat": 37.7864,
+      "lng": -122.3977
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Estela",
+      "address": "47 East Houston Street, New York",
+      "neighbourhood": "NoLita",
+      "cuisine": "Modern American",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant serving sophisticated American cuisine with Italian influences and impeccable technique.",
+      "mustOrder": "Grilled scallops with brown butter",
+      "lat": 40.7203,
+      "lng": -73.9901
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Saison",
+      "address": "178 Townsend Street, San Francisco",
+      "neighbourhood": "SOMA",
+      "cuisine": "French/Modern",
+      "priceRange": "€€€€",
+      "description": "Chef's counter restaurant offering an ultra-refined tasting menu with exceptional wine pairings.",
+      "mustOrder": "Chef's tasting menu",
+      "lat": 37.7793,
+      "lng": -122.3952
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "The Slanted Door",
+      "address": "Ferry Building, San Francisco",
+      "neighbourhood": "Embarcadero",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€",
+      "description": "Contemporary Vietnamese cuisine with bay views, featuring fresh ingredients and modern culinary techniques.",
+      "mustOrder": "Shaking beef",
+      "lat": 37.7854,
+      "lng": -122.4078
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "State Bird Provisions",
+      "address": "1529 Fillmore Street, San Francisco",
+      "neighbourhood": "Western Addition",
+      "cuisine": "Modern American",
+      "priceRange": "€€",
+      "description": "Innovative small plates served via dim sum cart, showcasing creative interpretations of global flavors.",
+      "mustOrder": "Foie gras dumplings",
+      "lat": 37.7823,
+      "lng": -122.4309
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Quince",
+      "address": "470 Pacific Avenue, San Francisco",
+      "neighbourhood": "Jackson Square",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Fine dining Italian restaurant featuring handmade pasta and seasonal tasting menus in an elegant setting.",
+      "mustOrder": "Tagliatelle al ragù",
+      "lat": 37.7944,
+      "lng": -122.4011
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Bouchon Bistro",
+      "address": "6534 Washington Street, Yountville",
+      "neighbourhood": "Yountville, Napa Valley",
+      "cuisine": "French Bistro",
+      "priceRange": "€€€",
+      "description": "Classic French bistro with elegant preparations of traditional dishes and an exceptional wine list.",
+      "mustOrder": "Coq au vin",
+      "lat": 38.2972,
+      "lng": -122.3676
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Atelier Crenn",
+      "address": "3127 Fillmore Street, San Francisco",
+      "neighbourhood": "Marina District",
+      "cuisine": "French/Modern",
+      "priceRange": "€€€€",
+      "description": "Elegant tasting menu restaurant showcasing French technique with innovative, poetic presentations.",
+      "mustOrder": "Chef's tasting menu",
+      "lat": 37.7956,
+      "lng": -122.4386
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Balboa Cafe",
+      "address": "3199 Fillmore Street, San Francisco",
+      "neighbourhood": "Marina District",
+      "cuisine": "American",
+      "priceRange": "€€",
+      "description": "Neighborhood bistro serving classic American comfort food with excellent cocktails and welcoming atmosphere.",
+      "mustOrder": "Burgers and fries",
+      "lat": 37.796,
+      "lng": -122.4388
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Madera",
+      "address": "One Stockbridge Road, Stockbridge",
+      "neighbourhood": "Stockbridge",
+      "cuisine": "Modern American",
+      "priceRange": "€€€",
+      "description": "Farm-to-table restaurant in Berkshires celebrating seasonal ingredients with elegant presentations.",
+      "mustOrder": "Roasted vegetables",
+      "lat": 42.3083,
+      "lng": -73.3267
+    }
+  ]
+}
