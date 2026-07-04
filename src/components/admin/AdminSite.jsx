@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Save, Check } from 'lucide-react'
 import ImageField from '../ImageField.jsx'
 import { api } from '../../lib/api.js'
+import { COUNTRIES } from '../../lib/countries.js'
 import { clearSettingsCache } from '../../lib/settings.js'
 
 // Site-wide content: the home hero (image + headline + subline) and an
@@ -12,6 +13,7 @@ export default function AdminSite({ regions = [] }) {
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [dirty, setDirty] = useState({})
+  const [hubCountry, setHubCountry] = useState('italy')
 
   useEffect(() => {
     api.settings.get().then((r) => setS(r || {})).catch(() => setS({}))
@@ -46,6 +48,30 @@ export default function AdminSite({ regions = [] }) {
           {saved ? <><Check size={15} /> Saved</> : <><Save size={15} /> {saving ? 'Saving…' : 'Save changes'}</>}
         </button>
         {changed && <span className="admin-note">{Object.keys(dirty).length} unsaved change{Object.keys(dirty).length === 1 ? '' : 's'}</span>}
+      </div>
+
+      <h3 className="admin-h3">Country hub images</h3>
+      <p className="admin-note">
+        The pictures on each country's hub cards (Regions, Festivals, History, Food, Getting around, Plan).
+        These override the country's hub.json, so they apply instantly — no redeploy needed.
+      </p>
+      <label className="admin-field" style={{ maxWidth: 220 }}>
+        <span className="admin-field__label">Country</span>
+        <select value={hubCountry} onChange={(e) => setHubCountry(e.target.value)}>
+          {COUNTRIES.filter((c) => c.available).map((c) => (
+            <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
+          ))}
+        </select>
+      </label>
+      <div className="admin-grid2">
+        {[
+          ['regions', 'Regions'], ['festivals', 'Festivals & events'], ['history', 'History'],
+          ['food', 'Food & wine'], ['transport', 'Getting around'], ['plan', 'Plan a trip'],
+        ].map(([id, label]) => (
+          <ImageField key={`${hubCountry}.${id}`} label={label}
+            value={val(`hub.${hubCountry}.${id}`)}
+            onChange={(v) => setVal(`hub.${hubCountry}.${id}`, v)} />
+        ))}
       </div>
 
       <h3 className="admin-h3">Home page hero</h3>

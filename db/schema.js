@@ -1,4 +1,4 @@
-import { sqliteTable, text, integer, real, index, uniqueIndex } from 'drizzle-orm/sqlite-core'
+import { sqliteTable, text, integer, real, blob, index, uniqueIndex } from 'drizzle-orm/sqlite-core'
 import { sql } from 'drizzle-orm'
 
 const now = () => Date.now()
@@ -220,3 +220,13 @@ export const buildPlaces = sqliteTable('build_places', {
   createdAt: integer('created_at').notNull().$defaultFn(now),
   updatedAt: integer('updated_at').notNull().$defaultFn(now),
 }, (t) => ({ uq: uniqueIndex('build_place_uq').on(t.countryId, t.regionId, t.placeId) }))
+
+// Uploaded media stored in the database — used when the filesystem is read-only
+// (Vercel). Served by /api/media?id=…
+export const media = sqliteTable('media', {
+  id: text('id').primaryKey(),
+  name: text('name'),
+  mime: text('mime').notNull(),
+  data: blob('data', { mode: 'buffer' }).notNull(),
+  createdAt: integer('created_at').notNull(),
+})

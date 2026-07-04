@@ -2,6 +2,7 @@ import { writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
 import sharp from 'sharp'
 import { requireUser, requireAdmin } from './_lib/auth.js'
+import { getDb, schema } from './_lib/db.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
 
 const ALLOWED = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/avif'])
@@ -37,10 +38,17 @@ export default handler(async (req, res) => {
   const name = `${slug(filename)}-${Date.now().toString(36)}.${ext}`
   const dir = path.resolve('public', 'images')
   try {
+    // Local dev: write into public/images so the file can be committed.
     await mkdir(dir, { recursive: true })
     await writeFile(path.join(dir, name), out)
+    return send(res, 201, { url: `/images/${name}`, bytes: out.length, storage: 'file' })
   } catch {
-    throw fail(501, 'Uploads need a writable filesystem. Run the app locally (npm run dev) to upload, then commit public/images/. Hosted serverless storage is read-only.')
+    // Serverless (read-only fs): store in the database, serve via /api/media.
+    const db = getDb()
+    const id = name.replace(/\.[^.]+$/, '')
+    await db.insert(schema.media).values({
+      id, name, mime: ext === 'webp' ? 'image/webp' : contentType, data: out, createdAt: Date.now(),
+    })
+    return send(res, 201, { url: `/api/media?id=${id}`, bytes: out.length, storage: 'db' })
   }
-  send(res, 201, { url: `/images/${name}`, bytes: out.length })
 })

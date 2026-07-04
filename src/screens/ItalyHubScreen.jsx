@@ -6,6 +6,7 @@ import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
+import { useSettings } from '../lib/settings.js'
 
 const EMOJI = { regions: '🗺️', festivals: '🎭', history: '🏛️', food: '🍝', transport: '🚆', plan: '🧭' }
 
@@ -24,6 +25,7 @@ export default function ItalyHubScreen() {
   const { country = 'italy' } = useParams()
   const meta = COUNTRIES.find((c) => c.slug === country)
   const [sections, setSections] = useState(null)
+  const site = useSettings()
   useSeo({ title: `${meta?.name || 'Travel'} travel guide`, description: `Everything to plan a ${meta?.name || ''} trip — the regions, festivals, food and how to get around.`, path: `/${country}` })
   useEffect(() => {
     if (!isAvailableCountry(country)) return
@@ -47,7 +49,7 @@ export default function ItalyHubScreen() {
 
       <main className="wrap">
         <div className="hub-grid">
-          {(sections || []).map((s) => (
+          {(sections || []).map((raw) => { const s = { ...raw, image: site[`hub.${country}.${raw.id}`] || raw.image }; return (
             <Link key={s.id} to={s.link} className="hub-card">
               <span className="hub-card__media" data-emoji={EMOJI[s.id] || meta?.flag || '🌍'}>
                 {s.image && <img src={s.image} alt={s.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />}
@@ -58,7 +60,7 @@ export default function ItalyHubScreen() {
                 <span className="hub-card__go">Open <ArrowRight size={15} /></span>
               </span>
             </Link>
-          ))}
+          )})}
         </div>
       </main>
     </div>
