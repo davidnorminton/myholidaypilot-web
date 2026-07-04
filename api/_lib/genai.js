@@ -7,13 +7,55 @@ const ANTHROPIC = 'https://api.anthropic.com/v1'
 const VERSION = '2023-06-01'
 
 export function extractJson(text) {
-  const cleaned = String(text).replace(/```json|```/g, '')
-  const a = cleaned.indexOf('{'), b = cleaned.lastIndexOf('}')
-  const la = cleaned.indexOf('['), lb = cleaned.lastIndexOf(']')
-  // support a top-level array too
-  if (la >= 0 && (a < 0 || la < a)) return JSON.parse(cleaned.slice(la, lb + 1))
-  if (a < 0 || b <= a) throw new Error('no json')
-  return JSON.parse(cleaned.slice(a, b + 1))
+  const cleaned = String(text).replace(/```json|```/g, '').trim()
+  const a = cleaned.indexOf('{'), la = cleaned.indexOf('[')
+  const startsArray = la >= 0 && (a < 0 || la < a)
+  const start = startsArray ? la : a
+  if (start < 0) throw new Error('no json')
+  const slice = cleaned.slice(start)
+  // 1) straight parse
+  try { return JSON.parse(slice) } catch { /* try repair */ }
+  // 2) parse up to the last balanced close (handles trailing prose)
+  const end = startsArray ? cleaned.lastIndexOf(']') : cleaned.lastIndexOf('}')
+  if (end > start) { try { return JSON.parse(cleaned.slice(start, end + 1)) } catch { /* try truncation repair */ } }
+  // 3) truncation repair: close open strings/brackets from a cut-off response,
+  //    dropping the last (incomplete) element so we salvage what completed.
+  return repairTruncated(slice)
+}
+
+// Salvage JSON cut off mid-stream (max_tokens). Strategy: scan char by char
+// tracking bracket depth; remember the index after every point where depth
+// returns to a 'safe' level (just inside the outermost array). Truncate there,
+// then close whatever brackets remain open. Recovers the complete elements.
+function repairTruncated(s) {
+  let inStr = false, esc = false
+  const stack = []                 // current open brackets
+  let safeLen = -1                 // length to which we can safely truncate
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i]
+    if (inStr) { if (esc) esc = false; else if (c === '\\') esc = true; else if (c === '"') inStr = false; continue }
+    if (c === '"') { inStr = true; continue }
+    if (c === '{' || c === '[') stack.push(c)
+    else if (c === '}' || c === ']') {
+      stack.pop()
+      // after closing an element that sits directly inside the outer array,
+      // this is a clean cut point (outer '[' plus maybe an outer '{' wrapper)
+      if (stack.length <= 2) safeLen = i + 1
+    }
+  }
+  if (safeLen < 0) throw new Error('unrepairable json')
+  let out = s.slice(0, safeLen)
+  // recompute what's still open and close it
+  const open = []; let is2 = false, e2 = false
+  for (let i = 0; i < out.length; i++) { const c = out[i]
+    if (is2) { if (e2) e2 = false; else if (c === '\\') e2 = true; else if (c === '"') is2 = false; continue }
+    if (c === '"') is2 = true
+    else if (c === '{') open.push('}')
+    else if (c === '[') open.push(']')
+    else if (c === '}' || c === ']') open.pop()
+  }
+  while (open.length) out += open.pop()
+  return JSON.parse(out)
 }
 
 export async function aiConfig(db) {
@@ -36,7 +78,12 @@ export async function generate(prompt, { maxTokens = 4000 } = {}) {
   if (!r.ok) throw fail(r.status === 401 ? 400 : 502, `Anthropic: ${(await r.text()).slice(0, 200)}`)
   const j = await r.json()
   const text = (j.content || []).filter((c) => c.type === 'text').map((c) => c.text).join('')
-  try { return extractJson(text) } catch { throw fail(502, 'The model returned an unexpected format — try again') }
+  try { return extractJson(text) } catch {
+    const hint = j.stop_reason === 'max_tokens'
+      ? 'The response was too long and got cut off — try again (fewer items) or regenerate.'
+      : 'The model returned an unexpected format — try again'
+    throw fail(502, hint)
+  }
 }
 
 export const slugify = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')

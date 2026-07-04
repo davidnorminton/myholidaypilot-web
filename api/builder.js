@@ -235,14 +235,14 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     if (!reg) throw fail(404, 'No such region')
     const rd = reg.data
 
-    const prompt = `Recommend 12 to 18 notable restaurants across ${rd.name} (${rd.nameIt}), ${b.name} — a spread of towns, price points and cuisines a travel guide would list. Real, well-regarded places.
+    const prompt = `Recommend 12 to 15 notable restaurants across ${rd.name} (${rd.nameIt}), ${b.name} — a spread of towns, price points and cuisines a travel guide would list. Real, well-regarded places.
 
 For EACH: name, address (street + town), neighbourhood (the town/area), cuisine (short), priceRange (one of €, €€, €€€, €€€€), description (one sentence), mustOrder (a signature dish), lat, lng (decimals).
 
 Respond with ONLY valid JSON, no fences:
 {"restaurants":[{"name":"","address":"","neighbourhood":"","cuisine":"","priceRange":"€€","description":"","mustOrder":"","lat":0,"lng":0}]}`
 
-    const out = await generate(prompt, { maxTokens: 4000 })
+    const out = await generate(prompt, { maxTokens: 6000 })
     if (!Array.isArray(out.restaurants) || !out.restaurants.length) throw fail(502, 'The model did not return restaurants — try again')
     const restaurants = out.restaurants.slice(0, 20).map((r, i) => ({
       number: i + 1, id: `rest_${i + 1}`,

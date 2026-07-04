@@ -222,7 +222,7 @@ function RegionPlaces({ countryId, region, onBack }) {
   const [detailErr, setDetailErr] = useState('')
   const [imgRun, setImgRun] = useState(null)
   const [imgErr, setImgErr] = useState('')
-  const [rstBusy, setRstBusy] = useState(false)
+  const [rstBusy, setRstBusy] = useState('')   // '' | 'restaurants' | 'prose'
   const [rstMsg, setRstMsg] = useState('')
   const d = region.data
 
@@ -277,14 +277,14 @@ function RegionPlaces({ countryId, region, onBack }) {
   }
 
   const generateRestaurants = async () => {
-    setRstBusy(true); setRstMsg('')
+    setRstBusy('restaurants'); setRstMsg('')
     try { const r = await api.builder.genRestaurants(countryId, region.regionId); setRstMsg(`${r.count} restaurants added ✓`) }
-    catch (e) { setRstMsg(e.message) } finally { setRstBusy(false) }
+    catch (e) { setRstMsg(e.message) } finally { setRstBusy('') }
   }
   const generateProse = async () => {
-    setRstBusy(true); setRstMsg('')
+    setRstBusy('prose'); setRstMsg('')
     try { await api.builder.genRegionProse(countryId, region.regionId); setRstMsg('Region history & notes added ✓') }
-    catch (e) { setRstMsg(e.message) } finally { setRstBusy(false) }
+    catch (e) { setRstMsg(e.message) } finally { setRstBusy('') }
   }
 
   const generate = async () => {
@@ -363,11 +363,11 @@ function RegionPlaces({ countryId, region, onBack }) {
 
         {has && (
           <div className="bld__detailbar bld__detailbar--region">
-            <button className="btn btn--soft" onClick={generateRestaurants} disabled={rstBusy}>
-              {rstBusy ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} Places to eat (region)
+            <button className="btn btn--soft" onClick={generateRestaurants} disabled={!!rstBusy}>
+              {rstBusy === 'restaurants' ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} Places to eat (region)
             </button>
-            <button className="btn btn--soft" onClick={generateProse} disabled={rstBusy}>
-              {rstBusy ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} History &amp; notes (region)
+            <button className="btn btn--soft" onClick={generateProse} disabled={!!rstBusy}>
+              {rstBusy === 'prose' ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} History &amp; notes (region)
             </button>
             {rstMsg && <span className="bld__detailnote">{rstMsg}</span>}
           </div>
