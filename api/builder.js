@@ -268,13 +268,13 @@ Respond with ONLY valid JSON, no fences:
     if (!reg) throw fail(404, 'No such region')
     const rd = reg.data
 
-    const prompt = `For ${rd.name} (${rd.nameIt}), ${b.name}, write three short guide passages, plain prose, no markdown:
+    const prompt = `For ${rd.name} (${rd.nameIt}), ${b.name}, write three short guide passages in plain prose (no markdown, no line breaks inside a value, use straight quotes only where essential):
 - history: 3 to 4 sentences on the region's past.
 - culturalNotes: 2 to 3 sentences on its character, traditions and what makes it distinct.
 - languageNotes: 1 to 2 sentences on local language, dialect or useful phrases.
 
-Respond with ONLY valid JSON, no fences: {"history":"","culturalNotes":"","languageNotes":""}`
-    const out = await generate(prompt, { maxTokens: 1200 })
+Respond with ONLY a single valid JSON object, no fences, no preamble. Escape any double-quotes inside the text as \\". Shape: {"history":"","culturalNotes":"","languageNotes":""}`
+    const out = await generate(prompt, { maxTokens: 1500 })
     const data = { ...rd,
       history: String(out.history || '').slice(0, 2000),
       culturalNotes: String(out.culturalNotes || '').slice(0, 2000),

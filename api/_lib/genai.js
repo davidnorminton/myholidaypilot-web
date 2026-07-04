@@ -18,9 +18,37 @@ export function extractJson(text) {
   // 2) parse up to the last balanced close (handles trailing prose)
   const end = startsArray ? cleaned.lastIndexOf(']') : cleaned.lastIndexOf('}')
   if (end > start) { try { return JSON.parse(cleaned.slice(start, end + 1)) } catch { /* try truncation repair */ } }
-  // 3) truncation repair: close open strings/brackets from a cut-off response,
+  // 3) sanitise raw newlines/tabs inside strings (a common prose breaker),
+  //    then retry a straight parse of the balanced slice.
+  const balancedEnd = startsArray ? cleaned.lastIndexOf(']') : cleaned.lastIndexOf('}')
+  if (balancedEnd > start) {
+    const sane = sanitiseControlChars(cleaned.slice(start, balancedEnd + 1))
+    try { return JSON.parse(sane) } catch { /* fall through to truncation repair */ }
+  }
+  // 4) truncation repair: close open strings/brackets from a cut-off response,
   //    dropping the last (incomplete) element so we salvage what completed.
   return repairTruncated(slice)
+}
+
+// Escape raw control chars (newlines/tabs/CR) that appear INSIDE JSON strings —
+// models sometimes emit literal newlines in prose values, which JSON.parse rejects.
+function sanitiseControlChars(s) {
+  let out = '', inStr = false, esc = false
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i]
+    if (inStr) {
+      if (esc) { out += c; esc = false; continue }
+      if (c === '\\') { out += c; esc = true; continue }
+      if (c === '"') { out += c; inStr = false; continue }
+      if (c === '\n') { out += '\\n'; continue }
+      if (c === '\r') { out += '\\r'; continue }
+      if (c === '\t') { out += '\\t'; continue }
+      out += c; continue
+    }
+    if (c === '"') { inStr = true; out += c; continue }
+    out += c
+  }
+  return out
 }
 
 // Salvage JSON cut off mid-stream (max_tokens). Strategy: scan char by char
