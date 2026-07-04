@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T18:32:22.912Z",
+  "appVersion": "1.0",
+  "totalRegions": 11,
+  "totalPlaces": 140,
+  "totalRestaurants": 157,
+  "totalChecklistItems": 0,
+  "totalImages": 14,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "minho_douro",
+      "name": "Minho and Douro",
+      "nameIt": "Minho e Douro",
+      "capital": "Porto",
+      "lat": 41.2,
+      "lng": -8.6,
+      "emoji": "🍇",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 41.9,
+        "south": 40.5,
+        "east": -7.4,
+        "west": -9
+      },
+      "placeCount": 12,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit from September to October for harvest season and perfect weather in Portugal's premier wine region.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0byUyMFBvcnR1Z2FsJTIwcmliZWlyYXxlbnwxfDB8fHwxNzgzMTg4NzczfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nick Karvounis"
+      }
+    },
+    {
+      "id": "beira_interior",
+      "name": "Beira Interior",
+      "nameIt": "Beira Interior",
+      "capital": "Guarda",
+      "lat": 40.5,
+      "lng": -7.3,
+      "emoji": "⛰️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 41.2,
+        "south": 39.8,
+        "east": -6.4,
+        "west": -8.2
+      },
+      "placeCount": 11,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Best visited in spring or autumn to enjoy the mountainous landscape and avoid harsh winters.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1714218950675-83526ef5ad1f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYXN0ZWxvJTIwQnJhbmNvJTIwSmFyZGltJTIwUGElQzMlQTdvJTIwRXBpc2NvcGFsfGVufDF8MHx8fDE3ODMxODg4NzJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kenny Van Roosbroek"
+      }
+    },
+    {
+      "id": "beira_litoral",
+      "name": "Beira Litoral",
+      "nameIt": "Beira Litoral",
+      "capital": "Covilhã",
+      "lat": 40.3,
+      "lng": -7.5,
+      "emoji": "🏔️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 41.1,
+        "south": 39.5,
+        "east": -6.6,
+        "west": -8.4
+      },
+      "placeCount": 10,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit from May to September for mild weather and to explore both coastal and mountain areas.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "estremadura",
+      "name": "Estremadura",
+      "nameIt": "Estremadura",
+      "capital": "Caldas da Rainha",
+      "lat": 39.4,
+      "lng": -9.1,
+      "emoji": "🏖️",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 39.9,
+        "south": 38.9,
+        "east": -8.4,
+        "west": -9.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to September for warm weather and beach activities along this picturesque coastline.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "ribatejo",
+      "name": "Ribatejo",
+      "nameIt": "Ribatejo",
+      "capital": "Santarém",
+      "lat": 39.2,
+      "lng": -8.7,
+      "emoji": "🐴",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 39.8,
+        "south": 38.6,
+        "east": -7.8,
+        "west": -9.3
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited in spring or autumn to experience horse culture and riverside landscapes comfortably.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "estremoz_borba",
+      "name": "Central Alentejo",
+      "nameIt": "Alentejo Central",
+      "capital": "Évora",
+      "lat": 38.7,
+      "lng": -8.3,
+      "emoji": "🏛️",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 39.2,
+        "south": 38.2,
+        "east": -7.5,
+        "west": -9
+      },
+      "placeCount": 12,
+      "restaurantCount": 13,
+      "bestTimeToVisit": "Visit from October to April to avoid intense summer heat while exploring Roman ruins and medieval towns.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "baixo_alentejo",
+      "name": "Lower Alentejo",
+      "nameIt": "Baixo Alentejo",
+      "capital": "Beja",
+      "lat": 37.9,
+      "lng": -8.2,
+      "emoji": "🌾",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 38.4,
+        "south": 37.4,
+        "east": -7.5,
+        "west": -8.9
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from October to April when temperatures are moderate and wildflowers bloom.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "algarve",
+      "name": "Algarve",
+      "nameIt": "Algarve",
+      "capital": "Faro",
+      "lat": 37.1,
+      "lng": -8.1,
+      "emoji": "☀️",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 37.5,
+        "south": 36.7,
+        "east": -7.1,
+        "west": -9
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from April to October for sunshine and beach weather, though summer crowds are intense.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "madeira",
+      "name": "Madeira",
+      "nameIt": "Madeira",
+      "capital": "Funchal",
+      "lat": 32.7,
+      "lng": -17,
+      "emoji": "🌺",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 32.9,
+        "south": 32.6,
+        "east": -16.6,
+        "west": -17.3
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit year-round for mild climate, but April to June offers the best combination of weather and fewer crowds.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "azores",
+      "name": "Azores",
+      "nameIt": "Açores",
+      "capital": "Ponta Delgada",
+      "lat": 37.9,
+      "lng": -25.7,
+      "emoji": "🌊",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 39.7,
+        "south": 36.8,
+        "east": -24.7,
+        "west": -31.3
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to September for the warmest and most stable weather in these remote Atlantic islands.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "lisboa",
+      "name": "Lisbon Region",
+      "nameIt": "Região de Lisboa",
+      "capital": "Lisbon",
+      "lat": 38.7,
+      "lng": -9.1,
+      "emoji": "🏰",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 39.2,
+        "south": 38.3,
+        "east": -8.6,
+        "west": -9.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit from April to June or September to October for pleasant weather and manageable tourist crowds.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

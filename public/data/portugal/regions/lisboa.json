@@ -1,0 +1,1585 @@
+{
+  "id": "lisboa",
+  "name": "Lisbon Region",
+  "nameIt": "Região de Lisboa",
+  "capital": "Lisbon",
+  "lat": 38.7,
+  "lng": -9.1,
+  "emoji": "🏰",
+  "colour": "ff4caf50",
+  "boundingBox": {
+    "north": 39.2,
+    "south": 38.3,
+    "east": -8.6,
+    "west": -9.5
+  },
+  "history": "The Lisbon Region has been a major settlement since Roman times, when it served as an important port city known as Olisipo. Following the Moorish occupation in the 8th century, the region was gradually reconquered by Christian forces, with Lisbon becoming the capital of Portugal in 1255. The 1755 earthquake devastated much of the region, but the subsequent reconstruction under the Marquês de Pombal shaped the rational street grid and neoclassical architecture that define central Lisbon today. The region experienced significant growth and modernization throughout the 20th century, becoming a cultural and economic hub of the Iberian Peninsula.",
+  "culturalNotes": "The Lisbon Region is renowned for its distinctive fado music, a melancholic genre born in the working-class neighborhoods that expresses themes of longing and fate. The area's character blends historic tile work (azulejos), traditional pastéis de Nata pastries, and a relaxed Mediterranean lifestyle with modern cosmopolitan energy. Lisbon's neighborhoods each maintain their own identity, from the bohemian Alfama district to the upscale Chiado, reflecting centuries of cultural layering and artistic tradition.",
+  "bestTimeToVisit": "Visit from April to June or September to October for pleasant weather and manageable tourist crowds.",
+  "languageNotes": "Portuguese is the official language, and while standard European Portuguese is widely understood, Lisboetas speak with a distinctive accent and local expressions. Useful phrases include \"Olá\" for hello and \"Por favor, uma bica\" when ordering a traditional small coffee at a local café.",
+  "generatedAt": "2026-07-04T18:32:22.912Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "lisbon_city",
+      "name": "Lisbon",
+      "nameIt": "Lisboa",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "type": "CITY",
+      "description": "Portugal's capital and largest city, perched on seven hills overlooking the Tagus River. Home to iconic landmarks like the Belém Tower, Jerónimos Monastery, and historic trams, alongside vibrant neighborhoods like Alfama and Bairro Alto.",
+      "imageQueries": [
+        "Lisbon city skyline Tagus River",
+        "Lisbon Belém Tower historic"
+      ],
+      "activities": [
+        {
+          "id": "lisb_1",
+          "text": "Belém Tower",
+          "detail": "This iconic 16th-century limestone tower once guarded the Tagus River mouth and now stands as Portugal's most recognizable monument, offering panoramic views from its upper levels.",
+          "lat": 38.6617,
+          "lng": -9.2158
+        },
+        {
+          "id": "lisb_2",
+          "text": "Jerónimos Monastery",
+          "detail": "A stunning example of Portuguese Manueline architecture built in the 16th century to commemorate Vasco da Gama's voyage, featuring ornate cloisters and the Church of Santa Maria de Belém.",
+          "lat": 38.6619,
+          "lng": -9.2045
+        },
+        {
+          "id": "lisb_3",
+          "text": "Historic Tram 28",
+          "detail": "Ride the famous yellow tram through Alfama and Bairro Alto neighborhoods, navigating steep hills and passing through centuries-old streets while experiencing authentic Lisbon.",
+          "lat": 38.7223,
+          "lng": -9.1393
+        },
+        {
+          "id": "lisb_4",
+          "text": "Alfama Neighborhood Walk",
+          "detail": "Explore the oldest district with winding medieval streets, traditional azulejo tiles, hidden patios, and fado music echoing from local restaurants and bars.",
+          "lat": 38.7142,
+          "lng": -9.1308
+        },
+        {
+          "id": "lisb_5",
+          "text": "São Jorge Castle",
+          "detail": "Perched on the city's highest hill, this 11th-century Moorish castle provides sweeping views across Lisbon to the Tagus River and features well-preserved ramparts and gardens.",
+          "lat": 38.7187,
+          "lng": -9.1346
+        },
+        {
+          "id": "lisb_6",
+          "text": "Pastéis de Nata at Pastéis de Belém",
+          "detail": "Visit the original bakery in Belém that has been making the city's most famous custard tarts with a secret recipe since 1837.",
+          "lat": 38.6627,
+          "lng": -9.2029
+        },
+        {
+          "id": "lisb_7",
+          "text": "Bairro Alto Nightlife",
+          "detail": "Experience the vibrant bar scene in this bohemian hilltop neighborhood, known for its bohemian vibe, vintage shops, and late-night street parties.",
+          "lat": 38.7155,
+          "lng": -9.1416
+        }
+      ],
+      "food": [
+        {
+          "id": "lisb_f1",
+          "text": "Bacalhau à Brás",
+          "detail": "Shredded salted cod fried with thin-cut potatoes and topped with black olives and parsley, representing one of Portugal's most beloved national dishes."
+        },
+        {
+          "id": "lisb_f2",
+          "text": "Arroz de Marisco",
+          "detail": "A rich seafood rice dish cooked with shrimp, clams, mussels, and crab in a savory broth, best enjoyed along the Tagus riverside."
+        },
+        {
+          "id": "lisb_f3",
+          "text": "Sardines Grelhadas",
+          "detail": "Fresh grilled sardines brushed with olive oil and sea salt, a summer delicacy especially popular at neighborhood restaurants and street food stalls."
+        },
+        {
+          "id": "lisb_f4",
+          "text": "Alheira",
+          "detail": "A traditional Portuguese sausage made with poultry, garlic, and spices, typically fried and served with mustard or as part of a traditional breakfast."
+        },
+        {
+          "id": "lisb_f5",
+          "text": "Pastel de Nata",
+          "detail": "A crispy custard tart with a flaky phyllo pastry crust dusted with cinnamon, best eaten fresh and warm from local bakeries."
+        },
+        {
+          "id": "lisb_f6",
+          "text": "Fado Dinner Experience",
+          "detail": "Dine in a traditional fado restaurant in Alfama while listening to melancholic fado music performed by local singers, combining food, wine, and cultural immersion."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lisb_c1",
+          "text": "Respect Fado Tradition",
+          "detail": "When attending a fado performance, maintain quiet respect and avoid interrupting singers; applause between songs is appropriate, but silence during performances is essential."
+        },
+        {
+          "id": "lisb_c2",
+          "text": "Sunday Tradition and Closures",
+          "detail": "Many smaller shops close on Sundays, so plan major shopping for weekdays; locals typically enjoy leisurely Sunday meals with family at restaurants."
+        },
+        {
+          "id": "lisb_c3",
+          "text": "Dress Code for Neighborhoods",
+          "detail": "Lisbon is fairly casual, but wear comfortable walking shoes as the city's steep hills and cobblestone streets require sturdy footwear; modest dress is respectful in religious sites."
+        },
+        {
+          "id": "lisb_c4",
+          "text": "Greetings and Language",
+          "detail": "While English is spoken in tourist areas, learning basic Portuguese phrases like 'Olá' and 'Obrigado' is appreciated; locals respond warmly to visitors making effort with the language."
+        }
+      ]
+    },
+    {
+      "id": "sintra_town",
+      "name": "Sintra",
+      "nameIt": "Sintra",
+      "lat": 38.8028,
+      "lng": -9.3887,
+      "type": "TOWN",
+      "description": "A magical hillside town northwest of Lisbon famous for its romantic palaces and lush forested landscape. Pena Palace, Quinta da Regaleira, and the historic Sintra-Cascais National Park make it a UNESCO World Heritage site and essential day trip.",
+      "imageQueries": [
+        "Sintra Pena Palace colorful",
+        "Quinta da Regaleira Sintra mystical"
+      ],
+      "activities": [
+        {
+          "id": "sint_1",
+          "text": "Pena Palace",
+          "detail": "A flamboyant 19th-century Romantic palace perched on a hilltop offering panoramic views of Sintra and the Atlantic coast, accessible by steep paths or shuttle bus.",
+          "lat": 38.7873,
+          "lng": -9.3898
+        },
+        {
+          "id": "sint_2",
+          "text": "Quinta da Regaleira",
+          "detail": "An ornate neo-Manueline estate featuring underground grottos, secret passages, and the famous Initiation Well—a mystical spiral staircase descending 27 meters.",
+          "lat": 38.7935,
+          "lng": -9.3975
+        },
+        {
+          "id": "sint_3",
+          "text": "Sintra National Palace",
+          "detail": "A royal residence at the town center with distinctive twin chimneys, showcasing Manueline and Islamic architecture spanning centuries of Portuguese royalty.",
+          "lat": 38.8038,
+          "lng": -9.3908
+        },
+        {
+          "id": "sint_4",
+          "text": "Monserrate Palace",
+          "detail": "An exotic Romantic estate surrounded by a stunning botanical garden mixing Portuguese, Indian, and Egyptian architectural styles.",
+          "lat": 38.7765,
+          "lng": -9.4123
+        },
+        {
+          "id": "sint_5",
+          "text": "Cascata da Regaleira hike",
+          "detail": "A scenic woodland trail through the Sintra-Cascais National Park leading to waterfalls and ancient moss-covered stone paths through dense Atlantic forest.",
+          "lat": 38.7945,
+          "lng": -9.3945
+        },
+        {
+          "id": "sint_6",
+          "text": "Convent of the Capuchos",
+          "detail": "A 16th-century Franciscan monastery carved into granite boulders with tiny cork-lined cells, offering a serene retreat nestled in the forest.",
+          "lat": 38.7651,
+          "lng": -9.4234
+        }
+      ],
+      "food": [
+        {
+          "id": "sint_f1",
+          "text": "Travesseiros de Sintra",
+          "detail": "Crispy pastry pillows filled with almond paste and egg custard cream, a centuries-old local pastry found in every bakery in Sintra."
+        },
+        {
+          "id": "sint_f2",
+          "text": "Queijada de Sintra",
+          "detail": "A sweet tart made with cheese, sugar, cinnamon, and eggs in a pastry shell, a traditional Sintra delicacy dating back to the convents."
+        },
+        {
+          "id": "sint_f3",
+          "text": "Sardine grilled at local tascos",
+          "detail": "Fresh Atlantic sardines grilled simply with sea salt and olive oil, a staple at family-run eateries throughout the region."
+        },
+        {
+          "id": "sint_f4",
+          "text": "Arroz de Marisco",
+          "detail": "A creamy seafood rice with prawns, mussels, clams, and squid cooked in a rich shellfish broth, reflecting the nearby coastal influence."
+        },
+        {
+          "id": "sint_f5",
+          "text": "Caldo Verde",
+          "detail": "A warming Portuguese kale and potato soup often served with crispy chorizo, perfect for cool misty days exploring the forested hills."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sint_c1",
+          "text": "Wear comfortable hiking shoes",
+          "detail": "Sintra's steep hillside terrain and forest trails demand proper footwear; many palace paths and access routes are cobbled or unpaved."
+        },
+        {
+          "id": "sint_c2",
+          "text": "Arrive early to beat crowds",
+          "detail": "Major palaces like Pena and Quinta da Regaleira attract thousands daily, so visiting before 10 AM ensures shorter queues and better photography."
+        },
+        {
+          "id": "sint_c3",
+          "text": "Embrace the romantic mystique",
+          "detail": "Sintra's reputation as a spiritual and artistic haven draws visitors seeking introspection; the misty, forested atmosphere and esoteric symbols throughout estates reflect this tradition."
+        },
+        {
+          "id": "sint_c4",
+          "text": "Buy a combined ticket",
+          "detail": "Purchase multi-site passes at tourist offices to access several palaces at a discount rather than paying per-site, maximizing your exploration budget."
+        }
+      ]
+    },
+    {
+      "id": "cascais_coastal",
+      "name": "Cascais",
+      "nameIt": "Cascais",
+      "lat": 38.6837,
+      "lng": -9.4216,
+      "type": "COASTAL",
+      "description": "A charming seaside resort town on the Estoril Coast with picturesque beaches, a working fishing harbor, and a relaxed seaside atmosphere. Connected to Lisbon by scenic train, it's ideal for beach time and fresh seafood dining.",
+      "imageQueries": [
+        "Cascais Portugal beach harbor",
+        "Cascais coastal town fishing village"
+      ],
+      "activities": [
+        {
+          "id": "casc_1",
+          "text": "Cascais Marina Stroll",
+          "detail": "Walk along the picturesque marina lined with fishing boats, restaurants, and shops in the heart of the town center.",
+          "lat": 38.6837,
+          "lng": -9.4211
+        },
+        {
+          "id": "casc_2",
+          "text": "Boca do Inferno",
+          "detail": "Visit this dramatic coastal cliff formation with crashing waves and sea caves just west of town, accessible by a short coastal walk.",
+          "lat": 38.6862,
+          "lng": -9.4288
+        },
+        {
+          "id": "casc_3",
+          "text": "Cidadela de Cascais",
+          "detail": "Explore this 16th-century fortress that now houses cultural exhibitions and offers panoramic ocean views from its walls.",
+          "lat": 38.6843,
+          "lng": -9.4199
+        },
+        {
+          "id": "casc_4",
+          "text": "Praia da Rainha Beach",
+          "detail": "Relax on this sheltered sandy beach in the town center, ideal for families and swimming with calm waters.",
+          "lat": 38.6833,
+          "lng": -9.4208
+        },
+        {
+          "id": "casc_5",
+          "text": "Museu do Mar",
+          "detail": "Discover maritime history and local fishing heritage through interactive exhibits focused on the Atlantic Ocean and Portuguese seafaring traditions.",
+          "lat": 38.6836,
+          "lng": -9.4224
+        },
+        {
+          "id": "casc_6",
+          "text": "Ponta da Adaga Lighthouse Hike",
+          "detail": "Hike along dramatic clifftop paths to reach a scenic lighthouse with views across the Estoril Coast towards Sintra.",
+          "lat": 38.7057,
+          "lng": -9.4506
+        },
+        {
+          "id": "casc_7",
+          "text": "Autódromo do Estoril",
+          "detail": "Tour the famous racing circuit just inland from Cascais where the Portuguese Grand Prix is held annually.",
+          "lat": 38.7458,
+          "lng": -9.3937
+        }
+      ],
+      "food": [
+        {
+          "id": "casc_f1",
+          "text": "Grilled Sardines",
+          "detail": "Fresh-caught sardines grilled whole over charcoal and served with lemon, a quintessential Cascais seaside dish found at waterfront restaurants."
+        },
+        {
+          "id": "casc_f2",
+          "text": "Arroz de Marisco",
+          "detail": "Rich seafood rice cooked with local catches including prawns, clams, and fish stock, reflecting the town's fishing heritage."
+        },
+        {
+          "id": "casc_f3",
+          "text": "Espada à Cascais",
+          "detail": "Scabbardfish prepared with banana, tomato sauce, and sometimes olives in a distinctive preparation named after the town."
+        },
+        {
+          "id": "casc_f4",
+          "text": "Cataplana de Marisco",
+          "detail": "Mixed shellfish and seafood steamed in a traditional copper clam-shaped vessel that seals in aromatic herbs and wine."
+        },
+        {
+          "id": "casc_f5",
+          "text": "Pastel de Nata with Coffee",
+          "detail": "Enjoy Cascais's version of the famous custard tart with a small strong espresso at a local café overlooking the marina."
+        }
+      ],
+      "culture": [
+        {
+          "id": "casc_c1",
+          "text": "Respect Beach Etiquette",
+          "detail": "Cascais beaches have designated swimming areas monitored by lifeguards; always swim between the red and yellow flags for safety."
+        },
+        {
+          "id": "casc_c2",
+          "text": "Timing Your Seafood Restaurant Visit",
+          "detail": "Arrive at waterfront restaurants by 7:30 PM for dinner to secure a table and experience the local custom of early evening dining with sunset views."
+        },
+        {
+          "id": "casc_c3",
+          "text": "Use the Train Connection",
+          "detail": "The Cascais-Lisbon train is a local lifeline used daily by commuters and tourists alike; buy a rechargeable Viva card at the station for seamless transfers."
+        },
+        {
+          "id": "casc_c4",
+          "text": "Market Day Tradition",
+          "detail": "Visit on weekday mornings when locals shop at the fish market near the marina to observe authentic daily life and purchase fresh seafood for self-catering."
+        }
+      ]
+    },
+    {
+      "id": "belem_landmark",
+      "name": "Belém District",
+      "nameIt": "Belém",
+      "lat": 38.6617,
+      "lng": -9.2045,
+      "type": "LANDMARK",
+      "description": "Historic riverside district of Lisbon featuring the iconic Belém Tower and magnificent Jerónimos Monastery, symbols of Portugal's Age of Discovery. This UNESCO site beautifully blends stunning architecture with riverside gardens and cultural museums.",
+      "imageQueries": [
+        "Belém Tower Lisbon Portugal",
+        "Jerónimos Monastery Lisboa"
+      ],
+      "activities": [
+        {
+          "id": "bele_1",
+          "text": "Belém Tower",
+          "detail": "Climb this iconic 16th-century riverside fortress to enjoy panoramic views of the Tagus River and the surrounding district.",
+          "lat": 38.662,
+          "lng": -9.2155
+        },
+        {
+          "id": "bele_2",
+          "text": "Jerónimos Monastery",
+          "detail": "Explore this stunning UNESCO-listed Gothic-Manueline monastery with intricate stone carvings and a serene cloister that once housed Hieronymite monks.",
+          "lat": 38.6615,
+          "lng": -9.2078
+        },
+        {
+          "id": "bele_3",
+          "text": "Museum of Ancient Glass",
+          "detail": "Discover an exceptional collection of Roman and Islamic glassware spanning 1,500 years of craftsmanship housed in the historic Palazzo Chiado.",
+          "lat": 38.6634,
+          "lng": -9.2082
+        },
+        {
+          "id": "bele_4",
+          "text": "Pastéis de Nata at Pastel de Belém",
+          "detail": "Visit this legendary pastry shop established in 1837 to taste the original custard tart recipe that became Portugal's most famous dessert.",
+          "lat": 38.6628,
+          "lng": -9.2072
+        },
+        {
+          "id": "bele_5",
+          "text": "Botanical Garden of Ajuda",
+          "detail": "Stroll through 18th-century terraced gardens overlooking the river with exotic plants and peaceful walkways perfect for afternoon relaxation.",
+          "lat": 38.6588,
+          "lng": -9.2165
+        },
+        {
+          "id": "bele_6",
+          "text": "Maritime Museum",
+          "detail": "Learn about Portugal's Age of Discovery through exhibits of historical ships, navigation instruments, and maritime artifacts displayed across multiple pavilions.",
+          "lat": 38.6614,
+          "lng": -9.2044
+        }
+      ],
+      "food": [
+        {
+          "id": "bele_f1",
+          "text": "Pastéis de Nata",
+          "detail": "Crispy pastry tarts filled with creamy custard and dusted with cinnamon, originating from the Jerónimos Monastery centuries ago."
+        },
+        {
+          "id": "bele_f2",
+          "text": "Arroz de Marisco",
+          "detail": "Creamy seafood rice cooked with shrimp, clams, and mussels reflecting Belém's riverside fishing heritage and Portuguese coastal traditions."
+        },
+        {
+          "id": "bele_f3",
+          "text": "Sardines Grilled with Sea Salt",
+          "detail": "Fresh Atlantic sardines simply grilled and seasoned with coarse sea salt, representing the district's connection to Portugal's fishing culture."
+        },
+        {
+          "id": "bele_f4",
+          "text": "Bacalhau à Brás",
+          "detail": "Shredded salt cod combined with crispy fried potatoes and black olives, a beloved Portuguese classic readily available in local restaurants."
+        },
+        {
+          "id": "bele_f5",
+          "text": "Pastel de Nata com Chá",
+          "detail": "The traditional pairing of warm custard tart with a cup of strong Portuguese tea, enjoyed as an afternoon ritual in Belém's cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bele_c1",
+          "text": "Respect Monument Opening Hours",
+          "detail": "Many museums and historical sites close on Mondays and have reduced hours on Sundays, so plan visits accordingly."
+        },
+        {
+          "id": "bele_c2",
+          "text": "Arrive Early for Popular Sites",
+          "detail": "Belém Tower and Jerónimos Monastery attract large crowds; visiting before 10 AM helps avoid peak tourist times."
+        },
+        {
+          "id": "bele_c3",
+          "text": "Dress Respectfully in Religious Spaces",
+          "detail": "When entering the monastery and church, cover shoulders and knees as a sign of respect for the active religious site."
+        },
+        {
+          "id": "bele_c4",
+          "text": "Learn Basic Portuguese Greetings",
+          "detail": "Locals appreciate visitors attempting 'Olá' (hello) and 'Obrigado' (thank you), which enhances interactions with shopkeepers and restaurant staff."
+        }
+      ]
+    },
+    {
+      "id": "estoril_coastal",
+      "name": "Estoril",
+      "nameIt": "Estoril",
+      "lat": 38.7036,
+      "lng": -9.4494,
+      "type": "COASTAL",
+      "description": "Upscale seaside resort town east of Cascais known for its grand casino, elegant promenade, and sandy beaches. A playground for Portuguese and international visitors seeking sun, entertainment, and coastal sophistication.",
+      "imageQueries": [
+        "Estoril beach casino Portugal",
+        "Estoril coastal resort"
+      ],
+      "activities": [
+        {
+          "id": "esto_1",
+          "text": "Casino Estoril",
+          "detail": "Experience Portugal's largest casino with gaming tables, restaurants, and entertainment shows in an iconic Belle Époque building overlooking the coast.",
+          "lat": 38.7019,
+          "lng": -9.4097
+        },
+        {
+          "id": "esto_2",
+          "text": "Estoril Beach",
+          "detail": "Swim and sunbathe on this sheltered, well-maintained sandy beach framed by the elegant promenade and backed by upscale hotels.",
+          "lat": 38.7025,
+          "lng": -9.408
+        },
+        {
+          "id": "esto_3",
+          "text": "Estoril Promenade Walk",
+          "detail": "Stroll the tree-lined waterfront boulevard lined with gardens, cafés, and views of the Cascais coastline, perfect for evening walks.",
+          "lat": 38.7015,
+          "lng": -9.409
+        },
+        {
+          "id": "esto_4",
+          "text": "Oeiras Museum",
+          "detail": "Explore Portuguese art and regional history in this museum housed in a former royal estate just inland from the beach.",
+          "lat": 38.6975,
+          "lng": -9.415
+        },
+        {
+          "id": "esto_5",
+          "text": "Tamariz Beach",
+          "detail": "Visit this smaller, rockier beach adjacent to Estoril known for tide pools and a historic outdoor swimming pool complex.",
+          "lat": 38.704,
+          "lng": -9.412
+        },
+        {
+          "id": "esto_6",
+          "text": "Chapel of São João Baptista",
+          "detail": "Tour this 17th-century whitewashed chapel perched on the cliffs, offering panoramic coastal views and historical significance.",
+          "lat": 38.705,
+          "lng": -9.413
+        }
+      ],
+      "food": [
+        {
+          "id": "esto_f1",
+          "text": "Arroz de Marisco",
+          "detail": "A luxurious seafood rice dish loaded with shellfish, squid, and fish, specialty of Estoril's upscale beachfront restaurants."
+        },
+        {
+          "id": "esto_f2",
+          "text": "Espada com Banana",
+          "detail": "Sliced scabbardfish paired with fried banana, a uniquely Portuguese combination beloved in coastal dining establishments."
+        },
+        {
+          "id": "esto_f3",
+          "text": "Pastéis de Nata from local confeitarias",
+          "detail": "Crispy custard tarts from Estoril's traditional pastry shops, best enjoyed warm with coffee or wine at a seaside café."
+        },
+        {
+          "id": "esto_f4",
+          "text": "Grilled Dourada",
+          "detail": "Fresh gilt-head bream seasoned simply with olive oil and lemon, reflecting the daily catch from local fish markets."
+        },
+        {
+          "id": "esto_f5",
+          "text": "Caldo Verde",
+          "detail": "Creamy potato and kale soup with sliced chouriço, a warming Portuguese classic served in virtually every traditional restaurant."
+        }
+      ],
+      "culture": [
+        {
+          "id": "esto_c1",
+          "text": "Dress code at Casino",
+          "detail": "The casino requires smart casual attire in the evening, with jackets preferred for men in certain gaming areas; bring your passport for entry."
+        },
+        {
+          "id": "esto_c2",
+          "text": "Beach culture etiquette",
+          "detail": "Estoril beaches are family-friendly and relatively formal compared to other Portuguese resorts; toplessness is accepted but full nudity is not."
+        },
+        {
+          "id": "esto_c3",
+          "text": "Dining hours and reservations",
+          "detail": "Dinner service begins late (around 20:00), and upscale restaurants expect reservations; lunch typically runs 12:30–15:00."
+        },
+        {
+          "id": "esto_c4",
+          "text": "Siesta respect",
+          "detail": "Shops and some services close between 13:00–15:00 for lunch; plan activities accordingly and embrace the leisurely afternoon pace."
+        }
+      ]
+    },
+    {
+      "id": "monsanto_nature",
+      "name": "Monsanto Forest Park",
+      "nameIt": "Parque Florestal de Monsanto",
+      "lat": 38.745,
+      "lng": -9.205,
+      "type": "NATURE",
+      "description": "Lisbon's largest green space with 1000 acres of forest, hiking trails, and panoramic viewpoints overlooking the city and Tagus River. A peaceful escape from urban hustle offering nature walks and spectacular sunset vistas.",
+      "imageQueries": [
+        "Monsanto Forest Park Lisbon viewpoint",
+        "Monsanto Park hiking trails"
+      ],
+      "activities": [
+        {
+          "id": "mons_1",
+          "text": "Hiking the Main Trail Network",
+          "detail": "Explore over 7 kilometers of well-marked trails winding through pine and eucalyptus forests with varying difficulty levels suitable for all fitness levels.",
+          "lat": 38.7189,
+          "lng": -9.185
+        },
+        {
+          "id": "mons_2",
+          "text": "Sunset Viewing at Cristo Rei Viewpoint",
+          "detail": "Walk to the elevated panoramic spot offering sweeping views of Lisbon's skyline, the Cristo Rei monument across the Tagus, and the 25 de Abril Bridge at golden hour.",
+          "lat": 38.7224,
+          "lng": -9.1894
+        },
+        {
+          "id": "mons_3",
+          "text": "Visit the Monsanto Botanical Garden",
+          "detail": "Discover a curated collection of native Portuguese plants and Mediterranean species arranged in themed garden sections throughout the forest park.",
+          "lat": 38.715,
+          "lng": -9.182
+        },
+        {
+          "id": "mons_4",
+          "text": "Picnicking at Designated Rest Areas",
+          "detail": "Use the park's scattered picnic zones equipped with benches and tables to enjoy traditional Portuguese pastries and local cheese while surrounded by forest.",
+          "lat": 38.717,
+          "lng": -9.187
+        },
+        {
+          "id": "mons_5",
+          "text": "Bird Watching and Nature Photography",
+          "detail": "The forest hosts various bird species including buzzards and sparrowhawks, making it ideal for ornithologists and photographers seeking natural Lisbon wildlife.",
+          "lat": 38.72,
+          "lng": -9.188
+        },
+        {
+          "id": "mons_6",
+          "text": "Cycling Through Forest Paths",
+          "detail": "Rent a bike from nearby shops and traverse the gentler, wider trails that accommodate cyclists while maintaining the peaceful natural atmosphere.",
+          "lat": 38.718,
+          "lng": -9.186
+        }
+      ],
+      "food": [
+        {
+          "id": "mons_f1",
+          "text": "Pastel de Nata",
+          "detail": "Seek out this iconic Portuguese custard tart with crispy pastry from the cafés near the park entrance, perfect for a quick snack before hiking."
+        },
+        {
+          "id": "mons_f2",
+          "text": "Queijo da Serra",
+          "detail": "This creamy, soft sheep's cheese from the nearby Serra region pairs excellently with bread and fruit for a park picnic experience."
+        },
+        {
+          "id": "mons_f3",
+          "text": "Sardines with Cornbread",
+          "detail": "A traditional Portuguese combination often found in nearby local restaurants, featuring fresh grilled sardines served with dense, hearty cornbread."
+        },
+        {
+          "id": "mons_f4",
+          "text": "Fresh Orange Juice from Park Vendors",
+          "detail": "Local vendors throughout Monsanto offer freshly squeezed orange and citrus juices ideal for hydration during afternoon walks."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mons_c1",
+          "text": "Arrive Early for Solitude",
+          "detail": "Portuguese locals visit Monsanto primarily on weekends and late afternoons, so early morning visits guarantee a more peaceful, authentic forest experience away from crowds."
+        },
+        {
+          "id": "mons_c2",
+          "text": "Respect Quiet Hours and Nature",
+          "detail": "The park operates with an implicit cultural expectation of minimal noise and disturbance; keep music off, speak softly, and stay on marked trails to honor the space."
+        },
+        {
+          "id": "mons_c3",
+          "text": "Dress in Layers for Variable Weather",
+          "detail": "The elevation and forest canopy create microclimates; locals always bring light jackets and extra layers even on warm Lisbon days for comfort throughout your visit."
+        },
+        {
+          "id": "mons_c4",
+          "text": "Use Public Transportation to Access",
+          "detail": "Most Portuguese visitors arrive via Lisbon's tram and bus system rather than driving; parking is limited and locals prefer the tram journey as part of the outing experience."
+        }
+      ]
+    },
+    {
+      "id": "alfama_landmark",
+      "name": "Alfama District",
+      "nameIt": "Alfama",
+      "lat": 38.7141,
+      "lng": -9.1307,
+      "type": "LANDMARK",
+      "description": "Lisbon's oldest and most atmospheric neighborhood, a maze of narrow medieval streets cascading down to the Tagus with traditional fado music venues and historic charm. Climb to São Jorge Castle for stunning city views and wander the authentic Portuguese quarters.",
+      "imageQueries": [
+        "Alfama Lisbon narrow streets medieval",
+        "Alfama São Jorge Castle"
+      ],
+      "activities": [
+        {
+          "id": "alfa_1",
+          "text": "São Jorge Castle",
+          "detail": "Climb to this 11th-century fortress perched above Alfama for panoramic views of the Tagus River and the entire Lisbon skyline.",
+          "lat": 38.7145,
+          "lng": -9.1342
+        },
+        {
+          "id": "alfa_2",
+          "text": "Fado Music at Típico Venue",
+          "detail": "Experience an intimate fado performance in a traditional restaurant where local singers perform melancholic Portuguese songs with raw emotion.",
+          "lat": 38.7095,
+          "lng": -9.1305
+        },
+        {
+          "id": "alfa_3",
+          "text": "Alfama Street Wandering",
+          "detail": "Get lost in the labyrinth of narrow medieval streets, arched passageways, and hidden squares that define the neighborhood's authentic character."
+        },
+        {
+          "id": "alfa_4",
+          "text": "Cathedral (Sé de Lisboa)",
+          "detail": "Visit Lisbon's stunning Romanesque cathedral with its fortress-like towers and beautifully preserved interior near the heart of Alfama.",
+          "lat": 38.7087,
+          "lng": -9.1328
+        },
+        {
+          "id": "alfa_5",
+          "text": "Miradouro da Senhora do Monte Viewpoint",
+          "detail": "Hike to this elevated terrace for breathtaking sunset views over Alfama, the Tagus, and the Cristo Rei monument across the river.",
+          "lat": 38.7165,
+          "lng": -9.1265
+        },
+        {
+          "id": "alfa_6",
+          "text": "Tejo Riverfront Walk",
+          "detail": "Stroll along the waterfront promenade at the base of Alfama where traditional fishing boats and riverside restaurants offer authentic atmosphere."
+        }
+      ],
+      "food": [
+        {
+          "id": "alfa_f1",
+          "text": "Arroz de Marisco",
+          "detail": "A rich seafood rice dish cooked with local Tagus catch, saffron, and white wine that showcases the neighborhood's maritime heritage."
+        },
+        {
+          "id": "alfa_f2",
+          "text": "Petingas Fritas",
+          "detail": "Crispy fried small fish served as a traditional Alfama bar snack, best enjoyed with a glass of white wine at a riverside tavern."
+        },
+        {
+          "id": "alfa_f3",
+          "text": "Bacalhau à Brás",
+          "detail": "Shredded salt cod fried with matchstick potatoes and topped with black olives and fried onions, a beloved Portuguese classic found throughout the district."
+        },
+        {
+          "id": "alfa_f4",
+          "text": "Sardines Assadas",
+          "detail": "Fresh grilled sardines simply seasoned with sea salt and lemon, seasonal delicacy that defines Alfama's rustic coastal dining culture."
+        },
+        {
+          "id": "alfa_f5",
+          "text": "Pastel de Nata with Fado",
+          "detail": "Enjoy warm custard tarts at a traditional café while listening to street fado musicians, capturing the neighborhood's soul through food and music."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alfa_c1",
+          "text": "Fado is Sacred",
+          "detail": "Respect the emotional intensity of fado performances by remaining silent and attentive; this melancholic music form is considered a spiritual expression of Portuguese identity."
+        },
+        {
+          "id": "alfa_c2",
+          "text": "Streets Have No Logic",
+          "detail": "The medieval layout was never planned with numbered streets or clear directions, so embrace getting lost and ask locals for directions rather than relying solely on maps."
+        },
+        {
+          "id": "alfa_c3",
+          "text": "Locals Value Authenticity",
+          "detail": "Avoid overly touristy restaurants with laminated menus and instead seek family-run tascas (small taverns) where residents dine and fado is genuinely performed."
+        },
+        {
+          "id": "alfa_c4",
+          "text": "Evening is Peak Time",
+          "detail": "Alfama comes alive after sunset when fado venues fill with locals and visitors; daytime can feel quiet, so plan major activities and dining for evening hours."
+        }
+      ]
+    },
+    {
+      "id": "obidos_town",
+      "name": "Óbidos",
+      "nameIt": "Óbidos",
+      "lat": 39.3605,
+      "lng": -9.1546,
+      "type": "TOWN",
+      "description": "A picturesque fortified medieval village north of Lisbon enclosed by complete castle walls, with whitewashed houses and cobblestone streets. Famous as a literary town and for its romantic ambiance, it's one of Portugal's most photogenic destinations.",
+      "imageQueries": [
+        "Óbidos medieval village castle walls",
+        "Óbidos Portugal whitewashed houses"
+      ],
+      "activities": [
+        {
+          "id": "obid_1",
+          "text": "Walk the Castle Walls",
+          "detail": "Circumnavigate the complete medieval fortifications that encircle Óbidos for panoramic views of the village and surrounding countryside.",
+          "lat": 39.3597,
+          "lng": -9.1556
+        },
+        {
+          "id": "obid_2",
+          "text": "Visit the Castle Interior",
+          "detail": "Explore the 12th-century castle keep which now houses a hotel but allows day visitors to tour its tower and ramparts for historical perspective.",
+          "lat": 39.3607,
+          "lng": -9.1566
+        },
+        {
+          "id": "obid_3",
+          "text": "Browse the Literary Cafés",
+          "detail": "Discover independent bookshops and literary-themed cafés scattered throughout the village that celebrate Óbidos' status as Portugal's first UNESCO City of Literature.",
+          "lat": 39.3597,
+          "lng": -9.1556
+        },
+        {
+          "id": "obid_4",
+          "text": "Explore the Whitewashed Streets",
+          "detail": "Wander the narrow cobblestone alleys lined with characteristic whitewashed houses adorned with blue and yellow trim, stopping at artisan shops and galleries.",
+          "lat": 39.3597,
+          "lng": -9.1556
+        },
+        {
+          "id": "obid_5",
+          "text": "Visit the Museu de Óbidos",
+          "detail": "Tour this modest museum housed in a former mansion displaying religious art, ceramics, and local historical artifacts from various periods.",
+          "lat": 39.3603,
+          "lng": -9.1559
+        },
+        {
+          "id": "obid_6",
+          "text": "Attend the Chocolate Festival",
+          "detail": "If visiting in April, participate in the annual Óbidos International Chocolate Festival featuring artisan chocolatiers and chocolate-themed events.",
+          "lat": 39.3597,
+          "lng": -9.1556
+        }
+      ],
+      "food": [
+        {
+          "id": "obid_f1",
+          "text": "Ginjinha in Chocolate Cup",
+          "detail": "Sample the local cherry liqueur served in a small edible chocolate cup at one of the village's traditional tascas or gift shops."
+        },
+        {
+          "id": "obid_f2",
+          "text": "Caldeirada de Peixe",
+          "detail": "Enjoy this traditional Portuguese fish stew made with mixed fresh catches and vegetables, typical of the coastal region north of Lisbon."
+        },
+        {
+          "id": "obid_f3",
+          "text": "Pastéis de Nata",
+          "detail": "Taste these custard-filled pastries with crispy, flaky pastry layers at local bakeries, a quintessential Portuguese sweet treat."
+        },
+        {
+          "id": "obid_f4",
+          "text": "Arroz de Marisco",
+          "detail": "Savor seafood rice cooked with local shellfish, shrimp, and broth that reflects the proximity to both the ocean and Óbidos Lagoon."
+        },
+        {
+          "id": "obid_f5",
+          "text": "Queijadas de Óbidos",
+          "detail": "Try these traditional small cheese pastries made with local whey cheese and cinnamon, a regional specialty you'll find in most bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "obid_c1",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Arrive before 10 a.m. or after 4 p.m. to avoid peak tourist crowds and experience the village's authentic atmosphere and better photography light."
+        },
+        {
+          "id": "obid_c2",
+          "text": "Dress Comfortably for Cobblestones",
+          "detail": "Wear sturdy walking shoes as the entire village is built on uneven medieval cobblestone streets with steep inclines, especially near the walls."
+        },
+        {
+          "id": "obid_c3",
+          "text": "Respect the Living Heritage",
+          "detail": "Remember that local residents still inhabit the medieval houses; be mindful when photographing and keep noise levels low, particularly in residential areas."
+        },
+        {
+          "id": "obid_c4",
+          "text": "Learn the Literary Connection",
+          "detail": "Understand that the village was gifted by King Denis to his bride Isabella in 1282, establishing its romantic legacy that later inspired its literary designation."
+        }
+      ]
+    },
+    {
+      "id": "cabo_roca_landmark",
+      "name": "Cabo da Roca",
+      "nameIt": "Cabo da Roca",
+      "lat": 38.716,
+      "lng": -9.4988,
+      "type": "LANDMARK",
+      "description": "The westernmost point of continental Europe, marked by a dramatic cliff lighthouse overlooking the Atlantic Ocean near Sintra. A must-visit for its spectacular coastal views and the romantic significance of standing at Europe's edge.",
+      "imageQueries": [
+        "Cabo da Roca lighthouse cliff",
+        "Cape Rock Lisbon westernmost Europe"
+      ],
+      "activities": [
+        {
+          "id": "cabo_1",
+          "text": "Visit the Lighthouse",
+          "detail": "Explore the iconic red and white striped lighthouse perched on the cliff edge, which has guided ships since 1772 and offers panoramic Atlantic views.",
+          "lat": 38.7171,
+          "lng": -9.4996
+        },
+        {
+          "id": "cabo_2",
+          "text": "Walk the Cliff Edge Paths",
+          "detail": "Follow the dramatic coastal trails that hug the 140-meter cliffs with breathtaking views of the Atlantic Ocean and the rocky coastline below.",
+          "lat": 38.7175,
+          "lng": -9.499
+        },
+        {
+          "id": "cabo_3",
+          "text": "Get the Cabo da Roca Certificate",
+          "detail": "Purchase an official certificate at the visitor center confirming you have visited Europe's westernmost continental point, a popular souvenir for travelers.",
+          "lat": 38.7171,
+          "lng": -9.4996
+        },
+        {
+          "id": "cabo_4",
+          "text": "Photograph the Sunset",
+          "detail": "Witness the dramatic sunset over the Atlantic from the cliff edge, one of Portugal's most photographed natural phenomena.",
+          "lat": 38.7168,
+          "lng": -9.5
+        },
+        {
+          "id": "cabo_5",
+          "text": "Explore Nearby Sintra",
+          "detail": "Visit the nearby hilltop town of Sintra, just 30 kilometers away, famous for its romantic palaces including Pena Palace and Quinta da Regaleira.",
+          "lat": 38.8034,
+          "lng": -9.3905
+        }
+      ],
+      "food": [
+        {
+          "id": "cabo_f1",
+          "text": "Grilled Sardines (Sardinhas Assadas)",
+          "detail": "Fresh Atlantic sardines grilled over charcoal, a traditional Portuguese coastal preparation found at local restaurants near Cabo da Roca."
+        },
+        {
+          "id": "cabo_f2",
+          "text": "Cataplana de Marisco",
+          "detail": "A traditional copper pan seafood stew combining shellfish, fish, and aromatics, reflecting the region's rich maritime heritage."
+        },
+        {
+          "id": "cabo_f3",
+          "text": "Bacalhau à Brás",
+          "detail": "Shredded salt cod mixed with thin-cut fried potatoes and black olives, a beloved Portuguese dish available throughout the Sintra region."
+        },
+        {
+          "id": "cabo_f4",
+          "text": "Pastéis de Nata from Sintra",
+          "detail": "Creamy custard tarts with crispy pastry layers and cinnamon, a specialty of nearby Sintra that pairs perfectly with Portuguese coffee."
+        },
+        {
+          "id": "cabo_f5",
+          "text": "Fresh Fish with Piri Piri",
+          "detail": "Local Atlantic white fish prepared simply grilled or baked with traditional Portuguese hot peppers and garlic."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cabo_c1",
+          "text": "Respect the Wind and Weather",
+          "detail": "The cliff winds are powerful and unpredictable; stay behind safety barriers and be cautious with loose items, as the Atlantic coast can turn quickly."
+        },
+        {
+          "id": "cabo_c2",
+          "text": "Visit Early or Late to Avoid Crowds",
+          "detail": "Cabo da Roca is extremely popular with tour groups; visiting at dawn or sunset offers a more peaceful experience and better photography opportunities."
+        },
+        {
+          "id": "cabo_c3",
+          "text": "Portuguese Hospitality Customs",
+          "detail": "Locals appreciate polite greetings in Portuguese; a simple 'Olá' or 'Boa tarde' goes a long way, and tipping 5-10% is customary at restaurants."
+        },
+        {
+          "id": "cabo_c4",
+          "text": "Understand the Historical Significance",
+          "detail": "The site holds deep romantic symbolism in Portuguese culture as the 'end of the land and the beginning of the sea,' inspiring poets and explorers throughout history."
+        }
+      ]
+    },
+    {
+      "id": "bairro_alto_landmark",
+      "name": "Bairro Alto District",
+      "nameIt": "Bairro Alto",
+      "lat": 38.7155,
+      "lng": -9.1432,
+      "type": "LANDMARK",
+      "description": "Lisbon's trendy hillside neighborhood famous for its vibrant nightlife, street art, vintage shops, and traditional tascas serving authentic Portuguese food. Ride the historic Elevador da Bica funicular and explore bohemian culture and contemporary creativity.",
+      "imageQueries": [
+        "Bairro Alto Lisbon street art graffiti",
+        "Bairro Alto nightlife bars Lisbon"
+      ],
+      "activities": [
+        {
+          "id": "bair_1",
+          "text": "Elevador da Bica",
+          "detail": "Ride this historic wooden funicular railway from Calçada do Combro up the steep hillside, offering views over the Tagus and a quintessential Lisbon experience since 1884.",
+          "lat": 38.7088,
+          "lng": -9.1444
+        },
+        {
+          "id": "bair_2",
+          "text": "Street Art Walking Tour",
+          "detail": "Explore the narrow streets and alleyways filled with vibrant murals, stencil work, and contemporary graffiti by local and international artists that define Bairro Alto's bohemian character.",
+          "lat": 38.7125,
+          "lng": -9.1425
+        },
+        {
+          "id": "bair_3",
+          "text": "Vintage Shopping on Rua da Atalaia",
+          "detail": "Browse independent vintage boutiques, second-hand record shops, and quirky antique stores selling everything from retro clothing to Portuguese ceramics and vinyl records."
+        },
+        {
+          "id": "bair_4",
+          "text": "Church of São Roque",
+          "detail": "Visit this 16th-century Jesuit church with its ornate interior and museum containing precious religious artifacts and Portuguese azulejo tiles.",
+          "lat": 38.7141,
+          "lng": -9.1407
+        },
+        {
+          "id": "bair_5",
+          "text": "Miradouro de São Pedro de Alcântara",
+          "detail": "Climb to this hilltop viewpoint near the church to enjoy panoramic views of Lisbon's downtown, the castle, and the Tagus River, perfect for sunset watching.",
+          "lat": 38.7145,
+          "lng": -9.1415
+        },
+        {
+          "id": "bair_6",
+          "text": "Night Life Bar Hopping",
+          "detail": "Experience Bairro Alto's legendary nightlife by moving between intimate tascas, bohemian bars, and late-night clubs that come alive after midnight with locals and visitors."
+        }
+      ],
+      "food": [
+        {
+          "id": "bair_f1",
+          "text": "Francesinha",
+          "detail": "A pressed sandwich layered with cured meats, cheese, and a rich beer sauce that's hearty and indulgent, often served in small tasca restaurants throughout the neighborhood."
+        },
+        {
+          "id": "bair_f2",
+          "text": "Arroz de Marisco",
+          "detail": "A creamy, flavorful rice dish loaded with fresh seafood including clams, mussels, and shrimp, representing authentic Portuguese coastal cuisine adapted for Lisbon."
+        },
+        {
+          "id": "bair_f3",
+          "text": "Pastéis de Nata",
+          "detail": "Crispy custard tarts with caramelized edges and creamy filling that are best enjoyed warm from local bakeries, a quintessential Portuguese pastry found everywhere in the district."
+        },
+        {
+          "id": "bair_f4",
+          "text": "Alheira",
+          "detail": "A traditional Portuguese smoked sausage made with bread, meat, and garlic, typically grilled and served as a tasca appetizer or light meal with mustard."
+        },
+        {
+          "id": "bair_f5",
+          "text": "Tasca Dining Experience",
+          "detail": "Eat at one of the traditional hole-in-the-wall taverns serving simple, authentic Portuguese home cooking with wine in intimate, convivial settings full of locals and character."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bair_c1",
+          "text": "Embrace Late-Night Culture",
+          "detail": "Bairro Alto truly comes alive after 11 PM when locals gather in bars and restaurants; visiting earlier in the evening means missing the authentic neighborhood energy and community spirit."
+        },
+        {
+          "id": "bair_c2",
+          "text": "Respect Residential Noise",
+          "detail": "Many residents live above bars and restaurants; while nightlife is celebrated, keeping noise respectful in early morning hours and being aware of neighbors reflects local courtesy."
+        },
+        {
+          "id": "bair_c3",
+          "text": "Bring Cash for Small Venues",
+          "detail": "Traditional tascas and many vintage shops operate on a cash-only basis, so carrying euros ensures you can fully experience the neighborhood's authentic local establishments without difficulty."
+        },
+        {
+          "id": "bair_c4",
+          "text": "Navigate Steep Streets Carefully",
+          "detail": "Bairro Alto's hilly terrain with narrow, uneven cobblestone streets requires comfortable walking shoes and careful footing, especially at night when streets are crowded and dimly lit."
+        }
+      ]
+    },
+    {
+      "id": "palmela_town",
+      "name": "Palmela",
+      "nameIt": "Palmela",
+      "lat": 38.5658,
+      "lng": -9.0973,
+      "type": "TOWN",
+      "description": "A historic town south of Lisbon dominated by a medieval castle overlooking wine country and the Tagus valley. Known for wine production and its annual music festival, it offers cultural heritage and scenic rural countryside views.",
+      "imageQueries": [
+        "Palmela castle Portugal medieval",
+        "Palmela wine region valley"
+      ],
+      "activities": [
+        {
+          "id": "palm_1",
+          "text": "Palmela Castle",
+          "detail": "Explore this 12th-century hilltop fortress with panoramic views over the Tagus valley and surrounding wine estates, featuring restored ramparts and a small museum.",
+          "lat": 38.6378,
+          "lng": -9.1053
+        },
+        {
+          "id": "palm_2",
+          "text": "Tagus Valley Wine Route",
+          "detail": "Visit local wineries and quintas producing renowned Palmela wines, particularly red blends and Moscatel, with tastings and cellar tours available.",
+          "lat": 38.632,
+          "lng": -9.118
+        },
+        {
+          "id": "palm_3",
+          "text": "Church of Santiago",
+          "detail": "View this 16th-century parish church in the town center featuring Manueline architecture and traditional Portuguese azulejo tilework.",
+          "lat": 38.6405,
+          "lng": -9.112
+        },
+        {
+          "id": "palm_4",
+          "text": "Festa da Música (Festa NOS Primavera Sound equivalent)",
+          "detail": "Attend the major annual music festival typically held in summer, drawing international and Portuguese artists to outdoor venues across the town.",
+          "lat": 38.64,
+          "lng": -9.11
+        },
+        {
+          "id": "palm_5",
+          "text": "Countryside walks through cork forests",
+          "detail": "Hike through rural trails surrounding Palmela past cork oak groves and small agricultural holdings offering authentic rural landscape views.",
+          "lat": 38.645,
+          "lng": -9.095
+        },
+        {
+          "id": "palm_6",
+          "text": "Convento do Carmo",
+          "detail": "Visit the Carmelite convent ruins nearby Palmela, a serene historical site surrounded by natural countryside.",
+          "lat": 38.65,
+          "lng": -9.12
+        }
+      ],
+      "food": [
+        {
+          "id": "palm_f1",
+          "text": "Moscatel de Palmela",
+          "detail": "Taste the region's famous sweet fortified wine made from Muscat grapes, a traditional dessert wine unique to Palmela's terroir."
+        },
+        {
+          "id": "palm_f2",
+          "text": "Arroz de marisco",
+          "detail": "Sample this seafood rice dish combining local ingredients with traditional Portuguese coastal cooking techniques."
+        },
+        {
+          "id": "palm_f3",
+          "text": "Peixe à Brás",
+          "detail": "Enjoy shredded fish fried in thin julienne and served with potato straw and olives, a classic Setúbal region preparation."
+        },
+        {
+          "id": "palm_f4",
+          "text": "Queijo caseiro",
+          "detail": "Try homemade farmstead cheese from local producers, often paired with wine at rural properties and local markets."
+        },
+        {
+          "id": "palm_f5",
+          "text": "Pastéis de Palmela",
+          "detail": "Taste these regional pastries traditionally filled with chocolate or custard, sold at local bakeries and festival stalls."
+        }
+      ],
+      "culture": [
+        {
+          "id": "palm_c1",
+          "text": "Wine harvest season etiquette",
+          "detail": "Visit during September-October to experience vendimia celebrations, but respect private quinta properties and only enter wineries with prior arrangements or official tours."
+        },
+        {
+          "id": "palm_c2",
+          "text": "Siesta tradition and opening hours",
+          "detail": "Many local shops and restaurants close from 13:00 to 15:00 for lunch, and the town adopts a slow afternoon pace reflecting rural Portuguese customs."
+        },
+        {
+          "id": "palm_c3",
+          "text": "Castle festival gatherings",
+          "detail": "Locals and visitors traditionally gather at Palmela Castle for sunset viewpoints and seasonal celebrations, making it a social hub rather than just a tourist attraction."
+        },
+        {
+          "id": "palm_c4",
+          "text": "Portuguese wine knowledge appreciation",
+          "detail": "Learning basic wine terminology and showing genuine interest in local winemakers' stories earns respect and often leads to more authentic cellar experiences beyond standard tastings."
+        }
+      ]
+    },
+    {
+      "id": "queluz_landmark",
+      "name": "Queluz",
+      "nameIt": "Queluz",
+      "lat": 38.7494,
+      "lng": -9.255,
+      "type": "LANDMARK",
+      "description": "Home to the stunning Queluz National Palace, an 18th-century rococo residence that served as a royal summer retreat. Now a museum, it showcases exquisite architecture, formal gardens, and Portuguese royal history just outside Lisbon.",
+      "imageQueries": [
+        "Queluz National Palace Portugal",
+        "Queluz rococo palace gardens"
+      ],
+      "activities": [
+        {
+          "id": "quel_1",
+          "text": "Queluz National Palace Tour",
+          "detail": "Explore the magnificent 18th-century rococo palace with its ornate rooms, throne chamber, and royal apartments that reveal Portuguese royal history and aristocratic life.",
+          "lat": 38.7504,
+          "lng": -9.255
+        },
+        {
+          "id": "quel_2",
+          "text": "Palace Formal Gardens Walk",
+          "detail": "Stroll through the meticulously manicured baroque and rococo gardens featuring geometric patterns, fountains, topiary, and landscaped terraces surrounding the palace.",
+          "lat": 38.751,
+          "lng": -9.2545
+        },
+        {
+          "id": "quel_3",
+          "text": "Azulejo Tile Appreciation",
+          "detail": "Observe the intricate hand-painted Portuguese ceramic tiles decorating palace walls, corridors, and gardens that exemplify traditional azulejo craftsmanship.",
+          "lat": 38.7504,
+          "lng": -9.255
+        },
+        {
+          "id": "quel_4",
+          "text": "Palace Museum Collections",
+          "detail": "View royal furnishings, paintings, sculptures, and decorative arts spanning centuries of Portuguese and European aristocratic taste and craftsmanship.",
+          "lat": 38.7504,
+          "lng": -9.255
+        },
+        {
+          "id": "quel_5",
+          "text": "Local Queluz Village Exploration",
+          "detail": "Walk through the charming streets surrounding the palace to discover traditional Portuguese architecture, local shops, and neighborhood cafés away from Lisbon crowds.",
+          "lat": 38.7515,
+          "lng": -9.254
+        }
+      ],
+      "food": [
+        {
+          "id": "quel_f1",
+          "text": "Pastéis de Nata",
+          "detail": "Crispy, flaky pastry tarts with creamy custard filling and cinnamon are a quintessential Portuguese treat available in local bakeries near Queluz."
+        },
+        {
+          "id": "quel_f2",
+          "text": "Francesinha",
+          "detail": "A hearty Portuguese sandwich with roasted meats, cheese, and a savory beer sauce that reflects the country's casual dining traditions."
+        },
+        {
+          "id": "quel_f3",
+          "text": "Arroz de Marisco",
+          "detail": "A rich seafood rice dish combining shrimp, mussels, and other shellfish cooked with saffron and broth, representing Portuguese coastal cuisine."
+        },
+        {
+          "id": "quel_f4",
+          "text": "Caldo Verde",
+          "detail": "A traditional green vegetable soup made with kale, potatoes, and olive oil that is both comforting and authentically Portuguese in every local establishment."
+        },
+        {
+          "id": "quel_f5",
+          "text": "Bacalhau à Brás",
+          "detail": "Shredded salted cod mixed with crispy fried potatoes and olives, a beloved Portuguese classic available in regional restaurants and family-run eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "quel_c1",
+          "text": "Respect Palace Visiting Hours",
+          "detail": "Plan your visit carefully as the palace maintains specific operating hours and occasionally closes for royal events or maintenance; check ahead before traveling."
+        },
+        {
+          "id": "quel_c2",
+          "text": "Portuguese Afternoon Customs",
+          "detail": "Many local shops and cafés may close between 1–3 PM for a midday break, so schedule your exploration accordingly to avoid disappointment when seeking refreshments."
+        },
+        {
+          "id": "quel_c3",
+          "text": "Photography Etiquette",
+          "detail": "While photography is generally permitted in palace gardens and exteriors, some interior rooms may restrict flash or tripods, so check signage and respect posted guidelines."
+        },
+        {
+          "id": "quel_c4",
+          "text": "Portuguese Hospitality Appreciation",
+          "detail": "Locals appreciate visitors who greet with a simple 'Olá' or 'Bom dia' and make efforts to speak basic Portuguese; small courtesies enhance your welcome in this cultural space."
+        }
+      ]
+    },
+    {
+      "id": "tejo_estuary_nature",
+      "name": "Tagus Estuary Nature Reserve",
+      "nameIt": "Reserva Natural do Estuário do Tejo",
+      "lat": 38.695,
+      "lng": -8.945,
+      "type": "NATURE",
+      "description": "A vital wetland habitat east of Lisbon protecting thousands of migrating birds and diverse ecosystems along the Tagus River. Ideal for birdwatching, nature photography, and understanding Portugal's natural conservation efforts.",
+      "imageQueries": [
+        "Tagus Estuary birdwatching nature reserve",
+        "Tejo River wetlands Portugal"
+      ],
+      "activities": [
+        {
+          "id": "tejo_1",
+          "text": "Birdwatching at Alcochete Salterns",
+          "detail": "Observe thousands of migratory waders, herons, and spoonbills in their natural habitat across the salt ponds and mudflats.",
+          "lat": 38.7628,
+          "lng": -8.9756
+        },
+        {
+          "id": "tejo_2",
+          "text": "Kayaking the Tagus Channels",
+          "detail": "Paddle through narrow waterways bordered by reed beds and marshlands to spot otters, fish eagles, and wading birds up close.",
+          "lat": 38.78,
+          "lng": -8.95
+        },
+        {
+          "id": "tejo_3",
+          "text": "Visit the Interpretive Centre at Pancas",
+          "detail": "Learn about the estuary's ecosystems, conservation efforts, and migratory patterns through exhibits and guided nature walks.",
+          "lat": 38.805,
+          "lng": -8.865
+        },
+        {
+          "id": "tejo_4",
+          "text": "Nature Photography at Samouco",
+          "detail": "Capture stunning images of roosting flamingos, avocets, and sandpipers against the backdrop of the estuary at sunrise or sunset.",
+          "lat": 38.7445,
+          "lng": -9.025
+        },
+        {
+          "id": "tejo_5",
+          "text": "Hiking the Ribatejo Trails",
+          "detail": "Walk marked paths through cork oak forests and wetland edges that offer panoramic views of the estuary and surrounding agricultural landscapes.",
+          "lat": 38.82,
+          "lng": -8.9
+        },
+        {
+          "id": "tejo_6",
+          "text": "Tidal Flat Exploration at Lezíria Grande",
+          "detail": "Wade through shallow tidal areas during low tide to observe crabs, mollusks, and shorebirds in their feeding grounds."
+        }
+      ],
+      "food": [
+        {
+          "id": "tejo_f1",
+          "text": "Arroz de Marisco",
+          "detail": "A creamy rice dish cooked with local shellfish from the estuary including clams, mussels, and shrimp, reflecting the region's maritime heritage."
+        },
+        {
+          "id": "tejo_f2",
+          "text": "Eel Stew (Enguias à Moda de Aveiro)",
+          "detail": "Fresh eels from the estuary braised with tomatoes, garlic, and coriander in a traditional preparation from Portugal's central coast."
+        },
+        {
+          "id": "tejo_f3",
+          "text": "Grilled Sea Bass (Robalo Grelhado)",
+          "detail": "Whole sea bass caught from local waters, grilled simply with olive oil, lemon, and sea salt at riverside restaurants."
+        },
+        {
+          "id": "tejo_f4",
+          "text": "Percebes (Goose Barnacles)",
+          "detail": "Tender crustaceans harvested from rocky outcrops along the estuary mouth, boiled and served with garlic butter as a delicacy."
+        },
+        {
+          "id": "tejo_f5",
+          "text": "Bread and Cheese of Ribatejo",
+          "detail": "Local artisanal bread paired with creamy white cheese from inland farms, reflecting the agricultural tradition surrounding the reserve."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tejo_c1",
+          "text": "Respect Nesting Seasons",
+          "detail": "Many bird species breed between March and July; stay on designated paths and maintain distance to avoid disturbing nests and reducing breeding success."
+        },
+        {
+          "id": "tejo_c2",
+          "text": "Engage with Local Fishermen",
+          "detail": "The estuary supports traditional fishing communities who warmly share knowledge about seasonal bird arrivals and sustainable harvesting practices if approached respectfully."
+        },
+        {
+          "id": "tejo_c3",
+          "text": "Portuguese Conservation Ethos",
+          "detail": "The reserve is a source of pride for local environmental efforts; visitors will find guides and locals eager to explain Portugal's commitment to protecting this Ramsar wetland of international importance."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Belcanto",
+      "address": "Largo de São Carlos 10, Lisboa",
+      "neighbourhood": "Chiado, Lisboa",
+      "cuisine": "Modern Portuguese",
+      "priceRange": "€€€€",
+      "description": "Two Michelin stars showcasing innovative Portuguese cuisine with exceptional technical skill and local ingredients.",
+      "mustOrder": "Chef's tasting menu with seasonal vegetables and Portuguese seafood",
+      "lat": 38.7144,
+      "lng": -9.1411
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Pharmaceutica Portuguesa",
+      "address": "Rua das Portas de Santo Antão 2, Lisboa",
+      "neighbourhood": "Baixa, Lisboa",
+      "cuisine": "Portuguese",
+      "priceRange": "€€",
+      "description": "Historic converted pharmacy restaurant serving traditional Portuguese fare in an atmospheric vintage setting.",
+      "mustOrder": "Arroz de Marisco (seafood rice)",
+      "lat": 38.7167,
+      "lng": -9.1361
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Alma",
+      "address": "Rua das Flores 13-15, Lisboa",
+      "neighbourhood": "Alfama, Lisboa",
+      "cuisine": "Contemporary Portuguese",
+      "priceRange": "€€€",
+      "description": "Intimate one Michelin star restaurant in Alfama celebrating seasonal Portuguese ingredients with refined technique.",
+      "mustOrder": "Duck confit with turnip greens",
+      "lat": 38.7096,
+      "lng": -9.1303
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Casa de Comidas",
+      "address": "Travessa da Espera 38, Lisboa",
+      "neighbourhood": "Príncipe Real, Lisboa",
+      "cuisine": "Portuguese",
+      "priceRange": "€€",
+      "description": "Charming family-run tavern serving honest, traditional Portuguese home cooking in a cozy neighborhood setting.",
+      "mustOrder": "Bacalhau à Brás (salt cod with matchstick potatoes)",
+      "lat": 38.719,
+      "lng": -9.1425
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "A Travessa",
+      "address": "Travessa do Convento das Bernardas 2A, Lisboa",
+      "neighbourhood": "Alcântara, Lisboa",
+      "cuisine": "International",
+      "priceRange": "€€€",
+      "description": "Converted warehouse restaurant with creative international cuisine, art installations, and sophisticated atmosphere.",
+      "mustOrder": "Grilled fish with seasonal vegetables",
+      "lat": 38.7041,
+      "lng": -9.1657
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "O Fado",
+      "address": "Rua dos Remédios 195, Lisboa",
+      "neighbourhood": "Alfama, Lisboa",
+      "cuisine": "Portuguese",
+      "priceRange": "€€",
+      "description": "Authentic fado restaurant in Alfama serving traditional Portuguese dishes with live music performances.",
+      "mustOrder": "Sardines grilled with lemon",
+      "lat": 38.7067,
+      "lng": -9.1287
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Gambrinus",
+      "address": "Rua das Portas de Santo Antão 25, Lisboa",
+      "neighbourhood": "Baixa, Lisboa",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Legendary seafood restaurant since 1936 with wood-paneled interiors and exceptional fresh fish and shellfish.",
+      "mustOrder": "Grilled sole or lobster thermidor",
+      "lat": 38.7168,
+      "lng": -9.1354
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Taverna do Embuçado",
+      "address": "Beco do Jasmim 5, Lisboa",
+      "neighbourhood": "Alfama, Lisboa",
+      "cuisine": "Portuguese",
+      "priceRange": "€",
+      "description": "Budget-friendly hole-in-the-wall in Alfama serving generous portions of traditional Portuguese home cooking.",
+      "mustOrder": "Caldo verde and grilled chicken",
+      "lat": 38.7085,
+      "lng": -9.131
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Minibar",
+      "address": "Rua Portas de Santo Antão 58, Lisboa",
+      "neighbourhood": "Baixa, Lisboa",
+      "cuisine": "Modern Portuguese",
+      "priceRange": "€€€€",
+      "description": "Chef José Avillez's sophisticated minibar concept with creative small plates and impeccable execution.",
+      "mustOrder": "Codfish creamed soup in a cup",
+      "lat": 38.7169,
+      "lng": -9.1348
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Cantinho do Avillez",
+      "address": "Rua dos Fanqueiros 248, Lisboa",
+      "neighbourhood": "Baixa, Lisboa",
+      "cuisine": "Portuguese",
+      "priceRange": "€€",
+      "description": "Chef José Avillez's casual restaurant serving elevated Portuguese classics in a lively downtown setting.",
+      "mustOrder": "Francesinha sandwich or grilled fish",
+      "lat": 38.7133,
+      "lng": -9.1338
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "O Asiático",
+      "address": "Rua de São Paulo 128, Lisboa",
+      "neighbourhood": "Cais do Sodré, Lisboa",
+      "cuisine": "Portuguese Fusion",
+      "priceRange": "€€",
+      "description": "Casual restaurant blending Portuguese tradition with Asian influences in a vibrant riverside neighborhood.",
+      "mustOrder": "Curry spiced octopus or fusion rice bowls",
+      "lat": 38.7041,
+      "lng": -9.1449
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Solar dos Presuntos",
+      "address": "Rua das Portas de Santo Antão 150, Lisboa",
+      "neighbourhood": "Baixa, Lisboa",
+      "cuisine": "Portuguese",
+      "priceRange": "€€",
+      "description": "Traditional Portuguese restaurant established in 1974 serving excellent cured meats, seafood, and regional specialties.",
+      "mustOrder": "Presunto ibérico (Iberian ham) and roasted fish",
+      "lat": 38.7175,
+      "lng": -9.133
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Rei dos Frangos",
+      "address": "Rua da Atalaia 39, Amora",
+      "neighbourhood": "Caparica, Caparica",
+      "cuisine": "Portuguese Grill",
+      "priceRange": "€",
+      "description": "Famous no-frills grilled chicken restaurant in Caparica district, beloved by locals for quality and value.",
+      "mustOrder": "Grilled chicken with piri piri and rice",
+      "lat": 38.6456,
+      "lng": -9.185
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Vela Latina",
+      "address": "Rua Azul 4, Cascais",
+      "neighbourhood": "Cascais",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Beachfront seafood restaurant in Cascais with fresh daily catches and panoramic Atlantic views.",
+      "mustOrder": "Grilled branzino or seafood cataplana",
+      "lat": 38.6829,
+      "lng": -9.4175
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "O Bouquet da Sintra",
+      "address": "Avenida Barbosa du Bocage 12, Sintra",
+      "neighbourhood": "Sintra",
+      "cuisine": "Portuguese",
+      "priceRange": "€€",
+      "description": "Traditional restaurant in historic Sintra serving authentic Portuguese regional cuisine with local character.",
+      "mustOrder": "Grilled trout or rabbit stew",
+      "lat": 38.8064,
+      "lng": -9.3829
+    }
+  ]
+}
