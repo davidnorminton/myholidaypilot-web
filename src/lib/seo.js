@@ -58,7 +58,7 @@ export function useSeo({ title, description, path = '/', image, type = 'website'
 // ── sitemap + robots generation (used by the admin SEO tool) ─────────────────
 const GUIDE_TOPICS = ['festivals', 'history', 'food', 'transport']
 
-export function buildSitemap({ url, regions = [], places = [], posts = [] }) {
+export function buildSitemap({ url, regions = [], places = [], posts = [], gallery = [] }) {
   const base = url.replace(/\/+$/, '')
   const today = new Date().toISOString().slice(0, 10)
   const rows = []
@@ -73,6 +73,8 @@ export function buildSitemap({ url, regions = [], places = [], posts = [] }) {
   places.forEach((p) => add(`/italy/${p.regionId}/${p.placeId}`, '0.6'))
   add('/blog', '0.6')
   posts.forEach((p) => add(`/blog/${p.slug}`, '0.6', p.lastmod || today))
+  add('/gallery', '0.7')
+  gallery.forEach((g) => add(`/gallery/${g.slug}`, '0.6'))
   add('/app', '0.5')
 
   const body = rows.map((u) =>

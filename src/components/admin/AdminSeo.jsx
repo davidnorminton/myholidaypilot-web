@@ -22,11 +22,12 @@ export default function AdminSeo() {
     Promise.all([
       getIndex().then((d) => d.regions || []),
       getPlacesIndex().then((d) => d || []),
-      api.posts.list()
+      api.posts.list(),
+      api.gallery.list().catch(() => [])
         .then((rows) => (rows || []).map((p) => ({ slug: p.slug, lastmod: p.publishedAt ? new Date(p.publishedAt).toISOString().slice(0, 10) : undefined })))
         .catch(() => BUNDLED.map((p) => ({ slug: p.slug, lastmod: p.date }))),
     ])
-      .then(([regions, places, posts]) => setData({ regions, places, posts }))
+      .then(([regions, places, posts, gallery]) => setData({ regions, places, posts, gallery }))
       .catch(() => setErr(true))
   }
   useEffect(() => { load() }, [])

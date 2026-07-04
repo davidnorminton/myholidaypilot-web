@@ -145,3 +145,31 @@ export const aiUsage = sqliteTable('ai_usage', {
 }, (t) => ({
   userDay: uniqueIndex('ai_usage_user_day').on(t.userId, t.day),
 }))
+
+// ── public trip gallery ──────────────────────────────────────────────────────
+// A publication is a sanitised SNAPSHOT built server-side from the stored
+// trip at publish time; republishing the same trip updates the same row/slug.
+export const publicTrips = sqliteTable('public_trips', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  slug: text('slug').notNull().unique(),
+  userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+  tripId: text('trip_id').notNull(),
+  countryId: text('country_id').notNull().default('italy'),
+  title: text('title').notNull(),
+  story: text('story'),
+  days: integer('days').notNull(),
+  placeCount: integer('place_count').notNull(),
+  regionNames: text('region_names', { mode: 'json' }).$type().default(sql`'[]'`),
+  coverRegionId: text('cover_region_id'),
+  coverPlaceId: text('cover_place_id'),
+  authorName: text('author_name'),
+  data: text('data', { mode: 'json' }).$type().notNull(),
+  featured: integer('featured').notNull().default(0),
+  status: text('status', { enum: ['live', 'hidden'] }).notNull().default('live'),
+  copies: integer('copies').notNull().default(0),
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+  updatedAt: integer('updated_at').notNull().$defaultFn(now),
+}, (t) => ({
+  ownerTrip: uniqueIndex('pub_owner_trip').on(t.userId, t.tripId),
+  byStatus: index('pub_status').on(t.status, t.featured, t.createdAt),
+}))

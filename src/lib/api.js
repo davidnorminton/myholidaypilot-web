@@ -34,6 +34,17 @@ export const api = {
     add: (regionId, placeId) => req('POST', '/favourites', { regionId, placeId }),
     remove: (regionId, placeId) => req('DELETE', `/favourites?regionId=${encodeURIComponent(regionId)}&placeId=${encodeURIComponent(placeId)}`),
   },
+  gallery: {
+    list: (country) => req('GET', `/gallery${country ? `?country=${country}` : ''}`),
+    get: (slug) => req('GET', `/gallery?slug=${encodeURIComponent(slug)}`),
+    mine: () => req('GET', '/gallery?mine=1'),
+    publish: (tripId, attribution) => req('POST', '/gallery?action=publish', { tripId, attribution }),
+    copied: (slug) => req('POST', '/gallery?action=copied', { slug }),
+    unpublish: (tripId) => req('DELETE', `/gallery?tripId=${encodeURIComponent(tripId)}`),
+    adminList: () => req('GET', '/gallery?admin=1'),
+    adminPatch: (id, patch) => req('PATCH', '/gallery', { id, ...patch }),
+    adminRemove: (id) => req('DELETE', `/gallery?id=${encodeURIComponent(id)}`),
+  },
   ai: {
     models: () => req('GET', '/ai?action=models'),
     packing: (payload) => req('POST', '/ai?action=packing', payload),

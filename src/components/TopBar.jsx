@@ -12,6 +12,7 @@ const LINKS = [
   { to: paths.plan(), label: 'Plan' },
   { to: paths.guided(), label: 'Guided planner' },
   { to: paths.dayTrips(), label: 'Day trips' },
+  { to: '/gallery', label: 'Trip ideas' },
   { to: paths.blog(), label: 'Blog' },
   { to: paths.app(), label: 'Get the app' },
 ]

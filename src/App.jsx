@@ -18,6 +18,7 @@ import TripsScreen from './screens/TripsScreen.jsx'
 import SharedTripScreen from './screens/SharedTripScreen.jsx'
 import AccountScreen from './screens/AccountScreen.jsx'
 import GuidedPlannerScreen from './screens/GuidedPlannerScreen.jsx'
+import { GalleryScreen, GalleryTripScreen } from './screens/GalleryScreens.jsx'
 import DayTripsScreen from './screens/DayTripsScreen.jsx'
 import PlanGate from './components/PlanGate.jsx'
 import { useAuth } from './lib/auth.jsx'
@@ -50,6 +51,8 @@ export default function App() {
           <Route path="/saved" element={<SavedScreen />} />
           <Route path="/trips" element={<RequireAuth><TripsScreen /></RequireAuth>} />
           <Route path="/guided" element={<GuidedPlannerScreen />} />
+          <Route path="/gallery" element={<GalleryScreen />} />
+          <Route path="/gallery/:slug" element={<GalleryTripScreen />} />
           <Route path="/day-trips" element={<DayTripsScreen />} />
           <Route path="/account" element={<RequireAuth><AccountScreen /></RequireAuth>} />
           <Route path="/account/:section" element={<RequireAuth><AccountScreen /></RequireAuth>} />

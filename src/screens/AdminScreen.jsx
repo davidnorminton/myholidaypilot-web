@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  Plus, Download, Pencil, Trash2, ArrowUpRight, ShieldAlert,
-  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles } from 'lucide-react'
-import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
+  Plus, Download, Pencil, Trash2, ArrowUpRight,
+  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles, Globe2 } from 'lucide-react'
+import { useAuth } from '../lib/auth.jsx'
+import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import AdminPlaces from '../components/admin/AdminPlaces.jsx'
@@ -13,6 +14,7 @@ import AdminExport from '../components/admin/AdminExport.jsx'
 import AdminHub from '../components/admin/AdminHub.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
 import AdminSeo from '../components/admin/AdminSeo.jsx'
+import AdminGallery from '../components/admin/AdminGallery.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
 import AdminAi from '../components/admin/AdminAi.jsx'
@@ -25,36 +27,31 @@ const SECTIONS = [
   { id: 'images', label: 'Images', icon: ImageIcon },
   { id: 'affiliates', label: 'Affiliates', icon: BadgePercent },
   { id: 'audience', label: 'Newsletter', icon: Mail },
+  { id: 'gallery', label: 'Gallery', icon: Globe2 },
   { id: 'seo', label: 'SEO', icon: Globe },
   { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'export', label: 'Export', icon: FileJson },
 ]
 
 export default function AdminScreen() {
-  const { user, isAdmin, configured, isDev, devSignIn, signOut } = useAuth()
+  const { user, isAdmin, isDev, devSignIn } = useAuth()
   const [section, setSection] = useState('journal')
   const [regions, setRegions] = useState([])
 
   useEffect(() => { getIndex().then((d) => setRegions(d.regions || [])).catch(() => setRegions([])) }, [])
 
-  if (!user) {
-    return (
-      <Gate title="Sign in to continue" sub="The admin area lets you write posts and manage the guide's content.">
-        {configured ? <GoogleSignInButton size="large" /> : (
-          <>
-            <p className="gate__note">Google sign-in isn't configured. Add <code>VITE_GOOGLE_CLIENT_ID</code> (and <code>VITE_ADMIN_EMAILS</code>) to <code>.env</code> to enable it.</p>
-            {isDev && <button className="btn btn--primary" onClick={devSignIn}>Continue in dev mode</button>}
-          </>
-        )}
-      </Gate>
-    )
-  }
-  if (!isAdmin) {
-    return (
-      <Gate title="Not an admin" sub={`You're signed in as ${user.email}, which isn't on the admin allowlist.`} icon={<ShieldAlert size={26} />}>
-        <button className="btn btn--soft" onClick={signOut}>Sign out</button>
-      </Gate>
-    )
+  // Anyone who isn't a signed-in admin sees the site's ordinary 404 — the
+  // admin area shouldn't advertise its existence. (In local dev, a dev
+  // sign-in button is still offered so the studio stays reachable.)
+  if (!user || !isAdmin) {
+    if (isDev && !user) {
+      return (
+        <Gate title="Sign in to continue" sub="Local development sign-in.">
+          <button className="btn btn--primary" onClick={devSignIn}>Continue in dev mode</button>
+        </Gate>
+      )
+    }
+    return <NotFoundScreen />
   }
 
   return (
@@ -84,6 +81,7 @@ export default function AdminScreen() {
         {section === 'images' && <AdminImages regions={regions} />}
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
+        {section === 'gallery' && <AdminGallery />}
         {section === 'seo' && <AdminSeo />}
         {section === 'ai' && <AdminAi />}
         {section === 'export' && <AdminExport regions={regions} />}

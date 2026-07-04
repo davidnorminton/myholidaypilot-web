@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Trash2, X, Check, MapPin, StickyNote, CalendarRange,
-  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins } from 'lucide-react'
+  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins, Globe2 } from 'lucide-react'
 import {
   useTrips, activeTrip, createTrip, deleteTrip, renameTrip, setActiveTrip,
   removePlace, togglePlaceDone, updateNote, setTripDates, addPlace,
@@ -22,6 +22,7 @@ import AddPlaceWizard from '../components/AddPlaceWizard.jsx'
 import PlacePlanner from '../components/PlacePlanner.jsx'
 import PackingList from '../components/PackingList.jsx'
 import BudgetPanel from '../components/BudgetPanel.jsx'
+import PublishTrip from '../components/PublishTrip.jsx'
 import Itinerary from '../components/Itinerary.jsx'
 
 const SUGGESTIONS = ['Rome', 'Florence', 'Venice', 'Naples', 'Amalfi', 'Milan']
@@ -38,6 +39,7 @@ export default function PlanScreen() {
   const [pickingCountry, setPickingCountry] = useState(false)
   const [packingOpen, setPackingOpen] = useState(false)
   const [budgetOpen, setBudgetOpen] = useState(false)
+  const [publishOpen, setPublishOpen] = useState(false)
   const share = async () => {
     try { await navigator.clipboard.writeText(shareUrl(trip)); setShared(true); setTimeout(() => setShared(false), 2000) }
     catch { prompt('Copy this trip link:', shareUrl(trip)) }
@@ -172,6 +174,7 @@ export default function PlanScreen() {
                   <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
                   <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
                   <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                  <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Publish</button>
                   <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
                 </>
               )}
@@ -237,6 +240,7 @@ export default function PlanScreen() {
       )}
       {packingOpen && trip && <PackingList trip={trip} onClose={() => setPackingOpen(false)} />}
       {budgetOpen && trip && <BudgetPanel trip={trip} onClose={() => setBudgetOpen(false)} />}
+      {publishOpen && trip && <PublishTrip trip={trip} onClose={() => setPublishOpen(false)} />}
       {pickingCountry && (
         <CountryPicker onPick={(c) => { createTrip(`Trip ${snap.trips.length + 1}`, c); setPickingCountry(false) }}
           onClose={() => setPickingCountry(false)} />

@@ -239,13 +239,13 @@ export default function GuidedPlannerScreen() {
               </button>
             ) : (
               <div className="gplan__signin">
-                <p>Sign in to save this trip to your account and fine-tune every day.</p>
                 {configured ? <GoogleSignInButton />
                   : isDev ? <button className="btn btn--primary" onClick={devSignIn}>Continue in dev mode</button>
                   : <p className="gq__hint">Sign-in isn't configured yet.</p>}
               </div>
             )}
             <button className="btn btn--soft" onClick={() => { setStep(0); setPlan(null); setTried([]) }}>Start over</button>
+            {!user && <p className="gplan__savenote">Sign in to save this trip to your account and fine-tune every day.</p>}
           </footer>
         </div>
       )}

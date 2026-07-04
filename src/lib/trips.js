@@ -283,6 +283,32 @@ export function setPlaceDate(tripId, regionId, placeId, date) {
 // Re-derive a place's done ("locked in") state from whether it's planned —
 // used when the planner popup closes, so a manual untick doesn't linger after
 // the person has clearly planned the place.
+// ── gallery copy ─────────────────────────────────────────────────────────────
+// Materialise a published snapshot into a fresh trip of your own. Relative
+// day numbers become real dates starting three weeks from today; shift them
+// afterwards with the normal date controls.
+export function importGalleryTrip(snap) {
+  const start = new Date(); start.setDate(start.getDate() + 21)
+  const iso = (dayN) => {
+    if (!dayN) return ''
+    const d = new Date(start); d.setDate(d.getDate() + (dayN - 1))
+    return d.toISOString().slice(0, 10)
+  }
+  const id = createTrip(snap.title || 'Copied trip', snap.countryId || 'italy')
+  setTripDates(id, iso(1), iso(snap.days || 1))
+  for (const p of snap.places || []) {
+    addPlace(id, { regionId: p.regionId, regionName: p.regionName, placeId: p.placeId, name: p.name, type: p.type, lat: p.lat, lng: p.lng })
+    if (p.day) setPlaceDate(id, p.regionId, p.placeId, iso(p.day))
+    for (const a of p.attractions || []) togglePlaceItem(id, p.regionId, p.placeId, 'attractions', { id: a.id, text: a.text, lat: a.lat, lng: a.lng }, iso(a.day))
+    for (const r of p.restaurants || []) togglePlaceItem(id, p.regionId, p.placeId, 'restaurants', { id: r.id, name: r.name, cuisine: r.cuisine, mustOrder: r.mustOrder, lat: r.lat, lng: r.lng }, iso(r.day))
+  }
+  for (const s of snap.stays || []) {
+    if (s.name) addStay(id, { name: s.name, type: s.type || 'hotel', from: iso(s.fromDay), to: iso(s.toDay) })
+  }
+  setActiveTrip(id)
+  return id
+}
+
 // ── story ────────────────────────────────────────────────────────────────────
 export function setStory(tripId, story) {
   set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, story } : t)) })

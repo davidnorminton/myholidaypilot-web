@@ -1,6 +1,9 @@
 export function send(res, status, data) {
   res.statusCode = status
   res.setHeader('Content-Type', 'application/json')
+  // API responses are live data — never cache them (browser, service worker,
+  // or Vercel edge). Static /data JSON keeps its CDN caching separately.
+  res.setHeader('Cache-Control', 'no-store')
   res.end(JSON.stringify(data))
 }
 
