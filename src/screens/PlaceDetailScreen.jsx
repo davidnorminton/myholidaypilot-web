@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { ArrowLeft, MapPin, Compass, UtensilsCrossed, Sparkles, ArrowUpRight, ChevronRight, Info, Image as ImageIcon } from 'lucide-react'
+import { ArrowLeft, MapPin, Compass, UtensilsCrossed, Sparkles, ArrowUpRight, ChevronRight, Info } from 'lucide-react'
 import { getRegion, placeImages } from '../lib/data.js'
 import { regionColour, typeLabel, mapsUrl } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
@@ -63,7 +63,6 @@ export default function PlaceDetailScreen() {
   const hero = images[0]?.url
   const viewTabs = [
     { id: 'info', label: 'Info', icon: Info },
-    ...(images.length ? [{ id: 'photos', label: 'Photos', icon: ImageIcon }] : []),
     ...(place.activities?.length ? [{ id: 'do', label: 'Things to do', icon: Compass, count: place.activities.length }] : []),
     ...(place.food?.length ? [{ id: 'eat', label: 'What to eat', icon: UtensilsCrossed, count: place.food.length }] : []),
     ...(place.culture?.length ? [{ id: 'colour', label: 'Local tips', icon: Sparkles, count: place.culture.length }] : []),
@@ -112,6 +111,7 @@ export default function PlaceDetailScreen() {
           <div className="pd-panel">
             {active === 'info' && (
               <>
+                {images.length > 0 && <Carousel images={images} label={place.name} />}
                 <p className="pd-lede">{place.description}</p>
                 <dl className="pd-glance">
                   <div className="pd-glance__row"><dt>Type</dt><dd>{typeLabel(place.type)}</dd></div>
@@ -130,8 +130,6 @@ export default function PlaceDetailScreen() {
                 }} />
               </>
             )}
-
-            {active === 'photos' && images.length > 0 && <Carousel images={images} label={place.name} />}
 
             {active === 'do' && (() => {
               const acts = (place.activities || []).map((a, i) => ({ ...a, n: i + 1 }))
