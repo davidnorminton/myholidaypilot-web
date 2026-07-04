@@ -206,15 +206,6 @@ export default function LandingScreen() {
               <ArrowRight size={18} className="dest__go" />
             </Link>
           ))}
-          {COUNTRIES.filter((c) => !c.available).slice(0, 2).map((c) => (
-            <div key={c.slug} className="dest dest--soon">
-              <span className="dest__flag">{c.flag}</span>
-              <div>
-                <h3 className="dest__name">{c.name}</h3>
-                <p className="dest__meta">Coming soon</p>
-              </div>
-            </div>
-          ))}
         </div>
       </section>
 

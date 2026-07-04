@@ -1,0 +1,1523 @@
+{
+  "id": "chugoku",
+  "name": "Chūgoku",
+  "nameIt": "中国",
+  "capital": "Hiroshima",
+  "lat": 34.5,
+  "lng": 132.5,
+  "emoji": "🏯",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": 35.5,
+    "south": 33.2,
+    "east": 134.8,
+    "west": 130.2
+  },
+  "history": "The Chūgoku region, comprising the five prefectures of Hiroshima, Okayama, Shimane, Tottori, and Yamaguchi, has a rich medieval history shaped by powerful daimyo clans and strategic positioning between Honshu's interior and the Seto Inland Sea. During the Edo period, the region became economically prosperous through castle towns and maritime trade, with Hiroshima emerging as a significant political and cultural center. The region's modern history was forever marked by the atomic bombing of Hiroshima in 1945, an event that transformed the city into a symbol of peace and remembrance. Post-war Chūgoku has rebuilt itself as an important industrial and cultural hub in western Japan.",
+  "culturalNotes": "Chūgoku is known for its distinctive blend of samurai heritage and merchant culture, visible in well-preserved castle towns and historical neighborhoods like those in Kurashiki and Takayama. The region has a strong tradition of craftsmanship, producing famous ceramics, sake, and textiles, while its proximity to the Seto Inland Sea has fostered a unique maritime culture. Local festivals and traditions emphasize community bonds and seasonal celebrations, reflecting the region's deep connection to nature and historical continuity.",
+  "bestTimeToVisit": "Spring and autumn offer ideal weather for sightseeing and exploring historical sites.",
+  "languageNotes": "The Chūgoku dialect, part of the Western Japanese language group, features distinctive phonetic characteristics and vocabulary that differ noticeably from standard Tokyo Japanese. Visitors will find that standard Japanese works well for communication, though locals may appreciate efforts to understand regional phrases and expressions unique to their prefectures.",
+  "generatedAt": "2026-07-04T20:30:44.593Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima",
+      "nameIt": "広島",
+      "lat": 34.3853,
+      "lng": 132.4553,
+      "type": "CITY",
+      "description": "Japan's most historically significant city, home to the Peace Memorial Park and Museum documenting the 1945 atomic bombing and its aftermath. A poignant and essential destination that combines solemn remembrance with vibrant modern urban culture.",
+      "imageQueries": [
+        "Hiroshima Peace Memorial Park",
+        "Hiroshima atomic bomb dome"
+      ],
+      "activities": [
+        {
+          "id": "hiro_1",
+          "text": "Peace Memorial Park and Museum",
+          "detail": "The central memorial complex documenting the atomic bombing of August 6, 1945, with exhibits, the iconic A-Bomb Dome, and cenotaph for victims.",
+          "lat": 34.3955,
+          "lng": 132.4527
+        },
+        {
+          "id": "hiro_2",
+          "text": "Hiroshima Castle",
+          "detail": "A reconstructed 16th-century feudal castle offering panoramic city views and exhibits on samurai history and the castle's role through WWII.",
+          "lat": 34.4065,
+          "lng": 132.4841
+        },
+        {
+          "id": "hiro_3",
+          "text": "Itsukushima Shrine on Miyajima Island",
+          "detail": "A UNESCO World Heritage Shinto shrine famous for its floating torii gate, located on nearby Miyajima Island accessible by train and ferry.",
+          "lat": 34.2956,
+          "lng": 132.3196
+        },
+        {
+          "id": "hiro_4",
+          "text": "Hiroshima Museum of Art",
+          "detail": "Houses a diverse collection of Western and Japanese art, including works responding to war and peace themes relevant to the city's history.",
+          "lat": 34.3939,
+          "lng": 132.4505
+        },
+        {
+          "id": "hiro_5",
+          "text": "Okonomiyaki Street (Okonomi-mura)",
+          "detail": "A dedicated alley with 24 traditional okonomiyaki restaurants where locals gather to watch chefs prepare Hiroshima's signature layered savory pancakes.",
+          "lat": 34.3966,
+          "lng": 132.4747
+        },
+        {
+          "id": "hiro_6",
+          "text": "Shukkeien Garden",
+          "detail": "A serene Edo-period landscape garden featuring a central pond, walking paths, and tea house, offering peaceful respite from urban energy.",
+          "lat": 34.4041,
+          "lng": 132.4652
+        }
+      ],
+      "food": [
+        {
+          "id": "hiro_f1",
+          "text": "Hiroshima-style Okonomiyaki",
+          "detail": "A layered savory pancake with cabbage, noodles, eggs, and meat or seafood, cooked on a flat griddle and topped with okonomiyaki sauce and bonito flakes—distinct from Osaka's mixed version."
+        },
+        {
+          "id": "hiro_f2",
+          "text": "Anago Meshi (Conger Eel Rice Bowl)",
+          "detail": "Grilled fresh conger eel glazed with soy-based sauce served over steamed rice, a regional specialty showcasing seafood from the Seto Inland Sea."
+        },
+        {
+          "id": "hiro_f3",
+          "text": "Tsukiji Sushi",
+          "detail": "Fresh local sushi featuring seasonal catches from nearby waters, often with distinctive preparations using Hiroshima's seafood heritage."
+        },
+        {
+          "id": "hiro_f4",
+          "text": "Momiji Manju",
+          "detail": "A maple leaf-shaped sponge cake filled with red bean paste or custard cream, a popular souvenir from Miyajima Island."
+        },
+        {
+          "id": "hiro_f5",
+          "text": "Sake Tasting at Local Breweries",
+          "detail": "Hiroshima prefecture produces premium sake; sake bars and brewery tours offer tastings of local varieties with guidance from knowledgeable staff."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hiro_c1",
+          "text": "Respectful behavior at Peace Memorial sites",
+          "detail": "Maintain quiet, contemplative demeanor in the museum and park; photography is permitted but visitors should be sensitive to the solemnity of the space and other visitors' reflections."
+        },
+        {
+          "id": "hiro_c2",
+          "text": "Okonomiyaki dining etiquette",
+          "detail": "Sit at the counter to watch chefs work and engage in casual conversation; tipping is not customary, and it's acceptable to eat directly from the shared plate or transfer to your own."
+        },
+        {
+          "id": "hiro_c3",
+          "text": "Summer festival season",
+          "detail": "Hiroshima hosts major festivals like the Hiroshima Flower Festival in spring and Peace Memorial events in August; visiting during these times offers deeper cultural immersion but requires advance planning for accommodations."
+        },
+        {
+          "id": "hiro_c4",
+          "text": "Hiroshima dialect and friendliness",
+          "detail": "Locals are known for warmth and directness; learning a few basic Japanese phrases is appreciated, and many residents in tourism areas speak some English but may not assume visitors understand Japanese customs."
+        }
+      ]
+    },
+    {
+      "id": "miyajima",
+      "name": "Miyajima",
+      "nameIt": "宮島",
+      "lat": 34.2957,
+      "lng": 132.325,
+      "type": "ISLAND",
+      "description": "Home to the iconic floating torii gate of Itsukushima Shrine, one of Japan's most photographed landmarks that appears to float on water during high tide. The island is a UNESCO World Heritage site offering temples, hiking trails, and stunning views across the Seto Inland Sea.",
+      "imageQueries": [
+        "Miyajima floating torii gate",
+        "Itsukushima Shrine Miyajima"
+      ],
+      "activities": [
+        {
+          "id": "miya_1",
+          "text": "Itsukushima Shrine and Floating Torii Gate",
+          "detail": "Visit Japan's most iconic shrine with its famous vermillion torii gate that appears to float on water during high tide, a UNESCO World Heritage site.",
+          "lat": 34.2953,
+          "lng": 132.3247
+        },
+        {
+          "id": "miya_2",
+          "text": "Mount Misen Hike",
+          "detail": "Trek to the 535-meter summit via forest trails for panoramic views of the Seto Inland Sea and surrounding islands, or take the ropeway for a shorter ascent.",
+          "lat": 34.2867,
+          "lng": 132.3298
+        },
+        {
+          "id": "miya_3",
+          "text": "Daisho-in Temple",
+          "detail": "Explore this important Buddhist temple complex featuring a five-story pagoda, elaborate halls, and a peaceful garden with walking trails.",
+          "lat": 34.2881,
+          "lng": 132.3289
+        },
+        {
+          "id": "miya_4",
+          "text": "Momiji Manju Sampling",
+          "detail": "Visit artisan shops along the pedestrian streets to taste freshly made maple leaf-shaped cakes, Miyajima's signature souvenir filled with red bean paste or chocolate.",
+          "lat": 34.2944,
+          "lng": 132.3243
+        },
+        {
+          "id": "miya_5",
+          "text": "Senjokaki Hall",
+          "detail": "Tour this historic building with tatami mats covering 857 square meters where feudal lords once held ceremonies and viewed the torii gate.",
+          "lat": 34.2968,
+          "lng": 132.3267
+        },
+        {
+          "id": "miya_6",
+          "text": "Itsukushima Shrine Treasure Hall",
+          "detail": "View historical artifacts and national treasures including ancient scrolls, armor, and religious objects in this museum adjacent to the shrine.",
+          "lat": 34.2945,
+          "lng": 132.325
+        }
+      ],
+      "food": [
+        {
+          "id": "miya_f1",
+          "text": "Momiji Manju",
+          "detail": "Miyajima's iconic maple leaf-shaped sponge cake traditionally filled with sweet red bean paste, often enjoyed fresh from local bakeries."
+        },
+        {
+          "id": "miya_f2",
+          "text": "Anago Don",
+          "detail": "Grilled conger eel glazed with a sweet soy sauce served over rice, a local specialty that highlights the island's seafood traditions."
+        },
+        {
+          "id": "miya_f3",
+          "text": "Hiroshima-style Okonomiyaki",
+          "detail": "Savory layered pancake made with cabbage, meat, noodles, and topped with okonomiyaki sauce and bonito flakes, a regional specialty from nearby Hiroshima."
+        },
+        {
+          "id": "miya_f4",
+          "text": "Grilled Oysters",
+          "detail": "Fresh Hiroshima oysters grilled in the shell over charcoal and seasoned simply with salt or soy sauce, reflecting the region's famous oyster harvests."
+        },
+        {
+          "id": "miya_f5",
+          "text": "Sake Tasting",
+          "detail": "Sample local sake from breweries in the Akitsu area connected by ferry, featuring varieties crafted with water from the Seto Inland Sea region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "miya_c1",
+          "text": "Respect Tide Times for Torii Photography",
+          "detail": "Plan your shrine visit around high and low tides; the torii gate's appearance changes dramatically and visiting at high tide offers the famous 'floating' effect."
+        },
+        {
+          "id": "miya_c2",
+          "text": "Dress Appropriately for Temple Visits",
+          "detail": "Remove shoes when entering temple buildings and halls, and avoid wearing revealing clothing as a sign of respect in these sacred spaces."
+        },
+        {
+          "id": "miya_c3",
+          "text": "Avoid Feeding Deer",
+          "detail": "The island's semi-wild deer are considered sacred; feeding them encourages aggressive behavior and disrupts their natural diet, so observe from a distance instead."
+        },
+        {
+          "id": "miya_c4",
+          "text": "Arrive Early to Avoid Crowds",
+          "detail": "Miyajima attracts thousands of daily visitors; arriving at dawn or visiting in shoulder seasons provides a more peaceful and authentic experience of the shrine."
+        }
+      ]
+    },
+    {
+      "id": "okayama",
+      "name": "Okayama",
+      "nameIt": "岡山",
+      "lat": 34.655,
+      "lng": 133.9204,
+      "type": "CITY",
+      "description": "Known for Okayama Castle and the stunning Korakuen Garden, one of Japan's three great gardens with carefully designed landscapes and seasonal beauty. The city serves as a gateway to exploring the Seto Inland Sea and offers excellent local cuisine and cultural experiences.",
+      "imageQueries": [
+        "Korakuen Garden Okayama",
+        "Okayama Castle"
+      ],
+      "activities": [
+        {
+          "id": "okay_1",
+          "text": "Okayama Castle",
+          "detail": "Explore this striking black feudal castle, reconstructed in 1966, which offers panoramic views of the city and the Seto Inland Sea from its upper floors.",
+          "lat": 34.6655,
+          "lng": 133.9357
+        },
+        {
+          "id": "okay_2",
+          "text": "Korakuen Garden",
+          "detail": "Wander through one of Japan's three great gardens featuring carefully designed landscapes, tea houses, and seasonal displays that change throughout the year.",
+          "lat": 34.6673,
+          "lng": 133.9447
+        },
+        {
+          "id": "okay_3",
+          "text": "Naoshima Art Island Ferry",
+          "detail": "Take a ferry from Okayama to Naoshima, famous for contemporary art museums and outdoor installations set against scenic island landscapes.",
+          "lat": 34.5103,
+          "lng": 133.9243
+        },
+        {
+          "id": "okay_4",
+          "text": "Okayama Orient Museum",
+          "detail": "Discover Islamic ceramics, glass, and metalwork spanning centuries in this museum dedicated to the art and culture of the Islamic world.",
+          "lat": 34.6683,
+          "lng": 133.9283
+        },
+        {
+          "id": "okay_5",
+          "text": "Hayashibara Museum of Art",
+          "detail": "View Japanese painting, calligraphy, and decorative arts from the medieval period to contemporary works in a modern museum setting.",
+          "lat": 34.6663,
+          "lng": 133.9383
+        },
+        {
+          "id": "okay_6",
+          "text": "Kibitsu Shrine",
+          "detail": "Visit this ancient shrine known for its unique shuttle-shaped ema (prayer plaques) and atmospheric approach lined with stone lanterns and forested paths.",
+          "lat": 34.6197,
+          "lng": 133.9722
+        },
+        {
+          "id": "okay_7",
+          "text": "Seto Inland Sea Cycling",
+          "detail": "Rent a bicycle and explore the scenic islands and coastal routes of the Seto Inland Sea, connecting small villages and beach communities.",
+          "lat": 34.3,
+          "lng": 133.8
+        }
+      ],
+      "food": [
+        {
+          "id": "okay_f1",
+          "text": "Okayama Ramen",
+          "detail": "Savor locally distinctive ramen topped with pork bone-based broth, typically garnished with kikurage (wood ear mushrooms) and distinctive local variations."
+        },
+        {
+          "id": "okay_f2",
+          "text": "Barazushi",
+          "detail": "Try this local scattered sushi dish where seasoned rice is topped with colorful ingredients like chirashi-style vegetables, egg, and seafood in a single bowl."
+        },
+        {
+          "id": "okay_f3",
+          "text": "Kibi Dango",
+          "detail": "Sample these soft, mochi-like dumplings made from kibi (millet) flour and filled with sweet red bean paste, a famous Okayama souvenir."
+        },
+        {
+          "id": "okay_f4",
+          "text": "White Peaches (Hakutou)",
+          "detail": "Taste Okayama's prized white peaches, known for exceptional sweetness and delicate flavor, best enjoyed fresh during summer season."
+        },
+        {
+          "id": "okay_f5",
+          "text": "Oysters from Hinase",
+          "detail": "Enjoy fresh oysters harvested from the nearby Hinase area, grilled, raw, or steamed, showcasing the region's coastal bounty."
+        },
+        {
+          "id": "okay_f6",
+          "text": "Kibidango Specialty Shops",
+          "detail": "Visit traditional sweet shops like Kibidango-no-Furusato to experience freshly made kibidango with green tea in their small, historic establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "okay_c1",
+          "text": "Temple and Shrine Etiquette",
+          "detail": "When visiting shrines like Kibitsu, remove shoes before entering buildings, bow at torii gates, and respect quiet spaces—many visitors write wishes on ema plaques."
+        },
+        {
+          "id": "okay_c2",
+          "text": "Garden Seasonal Appreciation",
+          "detail": "Japanese gardens like Korakuen are designed for seasonal viewing; visiting in spring (cherry blossoms), summer, autumn, or winter each reveals different designed aesthetics and moods."
+        },
+        {
+          "id": "okay_c3",
+          "text": "Local Transportation",
+          "detail": "Purchase a Okayama IC card or day pass for seamless travel on local buses and trams; many tourist attractions offer discounted combo tickets when purchased together."
+        },
+        {
+          "id": "okay_c4",
+          "text": "Island Ferry Timing",
+          "detail": "Check ferry schedules in advance to Naoshima and other Seto Inland Sea islands, as services are less frequent than urban transit and weather can affect departures."
+        }
+      ]
+    },
+    {
+      "id": "kurashiki",
+      "name": "Kurashiki",
+      "nameIt": "倉敷",
+      "lat": 34.5896,
+      "lng": 133.7722,
+      "type": "TOWN",
+      "description": "A beautifully preserved merchant town with a picturesque canal-side district featuring white-walled warehouses converted into museums, galleries, and cafes. The charming Bikan district transports visitors to the Edo period while hosting world-class art museums and local craft shops.",
+      "imageQueries": [
+        "Kurashiki Bikan district canal",
+        "Kurashiki white warehouse"
+      ],
+      "activities": [
+        {
+          "id": "kura_1",
+          "text": "Ohara Museum of Art",
+          "detail": "Japan's first private art museum housing European masterpieces, Japanese works, and contemporary pieces in a striking white-walled building.",
+          "lat": 34.595,
+          "lng": 133.7721
+        },
+        {
+          "id": "kura_2",
+          "text": "Bikan Canal Walk",
+          "detail": "Stroll the picturesque waterway lined with 200-year-old white-walled warehouses now converted into galleries, cafes, and boutique shops.",
+          "lat": 34.5952,
+          "lng": 133.772
+        },
+        {
+          "id": "kura_3",
+          "text": "Kurashiki Folkcraft Museum",
+          "detail": "Explore traditional Japanese mingei (folk crafts) displayed in a restored Edo-period merchant house with textiles, ceramics, and woodwork.",
+          "lat": 34.5948,
+          "lng": 133.7714
+        },
+        {
+          "id": "kura_4",
+          "text": "Ivy Square",
+          "detail": "A restored red-brick textile factory complex from the Meiji era now hosting shops, restaurants, and galleries with romantic ivy-covered architecture.",
+          "lat": 34.5933,
+          "lng": 133.7738
+        },
+        {
+          "id": "kura_5",
+          "text": "Japanese Rural Toy Museum",
+          "detail": "A charming collection of vintage handmade toys and folk crafts from across Japan displayed in traditional warehouse settings.",
+          "lat": 34.5947,
+          "lng": 133.7716
+        },
+        {
+          "id": "kura_6",
+          "text": "Achi Shrine",
+          "detail": "A small but historically significant shrine overlooking the Bikan district, offering views of the canal and surrounding rooftops.",
+          "lat": 34.5968,
+          "lng": 133.7721
+        }
+      ],
+      "food": [
+        {
+          "id": "kura_f1",
+          "text": "Okayama densetsu tori",
+          "detail": "Tender chicken grilled with soy-based tare sauce, a regional specialty reflecting Okayama Prefecture's culinary tradition."
+        },
+        {
+          "id": "kura_f2",
+          "text": "Kakigori shaved ice with kuromame syrup",
+          "detail": "Finely shaved ice topped with sweet black soybean syrup, a refreshing summer treat popular in the historic district's cafes."
+        },
+        {
+          "id": "kura_f3",
+          "text": "Kurashiki oden",
+          "detail": "A local slow-cooked hotpot featuring seasonal vegetables, tofu, and fish cakes simmered in rich dashi broth served at traditional restaurants."
+        },
+        {
+          "id": "kura_f4",
+          "text": "White peach sweets and manju",
+          "detail": "Local confections highlighting Okayama's famous white peaches, sold as fresh treats or packed in traditional wagashi-style cakes."
+        },
+        {
+          "id": "kura_f5",
+          "text": "Kasaoka ramen",
+          "detail": "A nearby regional ramen style featuring seafood-based broth, reflecting the proximity to coastal Kasaoka town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kura_c1",
+          "text": "Respect warehouse interiors",
+          "detail": "Many converted warehouses are working galleries and shops with narrow passageways; move slowly, speak quietly, and purchase to support artisans."
+        },
+        {
+          "id": "kura_c2",
+          "text": "Visit early morning or late afternoon",
+          "detail": "The Bikan district becomes crowded with tour groups mid-day, so arrive by 8 AM or after 4 PM for a more authentic atmosphere."
+        },
+        {
+          "id": "kura_c3",
+          "text": "Wear comfortable walking shoes",
+          "detail": "The entire historic district is best explored on foot with uneven stone paths and traditional stepping stones, so sturdy footwear is essential."
+        },
+        {
+          "id": "kura_c4",
+          "text": "Photography etiquette in shops",
+          "detail": "Always ask permission before photographing inside galleries and craft shops, as many artists and owners prefer privacy for their displays."
+        }
+      ]
+    },
+    {
+      "id": "matsue",
+      "name": "Matsue",
+      "nameIt": "松江",
+      "lat": 35.4708,
+      "lng": 133.055,
+      "type": "CITY",
+      "description": "Home to the beautifully preserved Matsue Castle, one of Japan's finest remaining original castles surrounded by scenic moats and gardens. The city is also famous for Lake Shinji views, samurai districts, and as a gateway to the Izumo region's mythological sites.",
+      "imageQueries": [
+        "Matsue Castle",
+        "Lake Shinji Matsue sunset"
+      ],
+      "activities": [
+        {
+          "id": "mats_1",
+          "text": "Matsue Castle",
+          "detail": "Climb the five-story original keep of this beautifully preserved 17th-century castle, one of Japan's dozen remaining original structures, with views over the surrounding moat and city.",
+          "lat": 35.4656,
+          "lng": 133.0848
+        },
+        {
+          "id": "mats_2",
+          "text": "Lake Shinji Sunset",
+          "detail": "Watch the sun descend over Japan's seventh-largest lake from the waterfront promenade or a scenic spot like Yomegashira, a natural vantage point famous among locals for its reflection views.",
+          "lat": 35.45,
+          "lng": 133.05
+        },
+        {
+          "id": "mats_3",
+          "text": "Samurai and Bukeyashiki Districts",
+          "detail": "Stroll the preserved samurai neighborhoods with traditional wooden townhouses, stone walls, and period gardens, particularly around Tanabe and Shiomi areas near the castle.",
+          "lat": 35.465,
+          "lng": 133.075
+        },
+        {
+          "id": "mats_4",
+          "text": "Izumo Taisha Grand Shrine",
+          "detail": "Visit the ancient Shinto shrine dedicated to Okuninushi, one of Japan's most important spiritual sites, located an hour west in the Izumo region where gods are said to gather.",
+          "lat": 35.4033,
+          "lng": 132.7558
+        },
+        {
+          "id": "mats_5",
+          "text": "Adachi Museum of Art",
+          "detail": "Explore this world-class museum featuring Japanese paintings, calligraphy, and a stunning dry landscape garden designed as a living artwork, located 25 minutes south of central Matsue.",
+          "lat": 35.3647,
+          "lng": 133.1461
+        },
+        {
+          "id": "mats_6",
+          "text": "Matsue Vogel Park",
+          "detail": "Walk among hundreds of bird species in Japanese and international aviaries, set within landscaped gardens along the Ohashigawa River.",
+          "lat": 35.4881,
+          "lng": 133.0647
+        },
+        {
+          "id": "mats_7",
+          "text": "Lacquerware Shopping at Matsue Shiotsuchi",
+          "detail": "Browse traditional Matsue-ori and Sekishu-washi textiles, along with lacquered tea bowls and decorative items in the historic merchant quarter.",
+          "lat": 35.468,
+          "lng": 133.08
+        }
+      ],
+      "food": [
+        {
+          "id": "mats_f1",
+          "text": "Shimane Wagyu",
+          "detail": "Savor locally-raised high-quality beef grilled at yakitori or yakiniku restaurants, prized for its marbling and tender texture from the prefecture's pristine grazing lands."
+        },
+        {
+          "id": "mats_f2",
+          "text": "Shijimi Clam Miso Soup",
+          "detail": "Taste Lake Shinji's signature small freshwater clams in a delicate, umami-rich broth that locals eat for breakfast or as a side dish at traditional restaurants."
+        },
+        {
+          "id": "mats_f3",
+          "text": "Izumo Soba",
+          "detail": "Sample the region's famous buckwheat noodles served with a darker, richer soy-based sauce and often topped with grated radish, eaten throughout Matsue and the Izumo area."
+        },
+        {
+          "id": "mats_f4",
+          "text": "Anago (Conger Eel) Rice Bowl",
+          "detail": "Enjoy freshly grilled saltwater conger eel glazed with sweet sauce served over warm rice, a speciality of Matsue's riverside restaurants."
+        },
+        {
+          "id": "mats_f5",
+          "text": "Matsue Zenzai",
+          "detail": "Try this warm red bean sweet soup with mochi, traditionally served at tea houses and street stalls, especially popular during cooler seasons."
+        },
+        {
+          "id": "mats_f6",
+          "text": "Sumo-tori Nabe",
+          "detail": "Experience a hearty hot pot meal originally eaten by sumo wrestlers, featuring local vegetables, tofu, and meat simmered together at table-side restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mats_c1",
+          "text": "Respect the Sacred Seasons at Izumo Taisha",
+          "detail": "The Shinto deity Okuninushi is believed to gather at Izumo Taisha during October (called 'Kamiariwizuki' in the region), so dress modestly and participate quietly in rituals."
+        },
+        {
+          "id": "mats_c2",
+          "text": "Wear Comfortable Shoes for Castle Exploration",
+          "detail": "Matsue Castle's interior features steep wooden stairs and narrow passages requiring either careful climbing or removal of shoes; flat soles or slip-ons are practical."
+        },
+        {
+          "id": "mats_c3",
+          "text": "Check Local Shrine Etiquette",
+          "detail": "When visiting temples and shrines, bow before passing through torii gates, rinse hands and mouth at water basins, and avoid pointing or loud conversation in sacred spaces."
+        },
+        {
+          "id": "mats_c4",
+          "text": "Best Visiting Months Are Spring and Autumn",
+          "detail": "Cherry blossom season (late March-April) and autumn foliage (October-November) draw crowds but offer the most pleasant weather; summer is humid and winters can be rainy."
+        }
+      ]
+    },
+    {
+      "id": "naagi",
+      "name": "Naagi",
+      "nameIt": "那智",
+      "lat": 35.435,
+      "lng": 133.24,
+      "type": "NATURE",
+      "description": "Home to the spectacular Nachi Falls (one of Japan's most dramatic waterfalls) and the ancient Kumano Nachi Taisha shrine perched on the mountainside. This spiritual destination combines natural beauty with deep religious significance along the UNESCO Kumano Kodo pilgrimage routes.",
+      "imageQueries": [
+        "Nachi Falls",
+        "Kumano Nachi Taisha shrine"
+      ],
+      "activities": [
+        {
+          "id": "naag_1",
+          "text": "Nachi Falls viewing",
+          "detail": "Experience Japan's tallest single-drop waterfall at 133 meters, best viewed from the dedicated observation platform where mist and spray create a mesmerizing atmosphere.",
+          "lat": 33.6761,
+          "lng": 135.9194
+        },
+        {
+          "id": "naag_2",
+          "text": "Kumano Nachi Taisha shrine visit",
+          "detail": "Explore this ancient shrine perched on the mountainside overlooking Nachi Falls, one of the three grand shrines of Kumano with over 1,400 years of spiritual heritage.",
+          "lat": 33.6759,
+          "lng": 135.9202
+        },
+        {
+          "id": "naag_3",
+          "text": "Kumano Kodo pilgrimage hike",
+          "detail": "Trek portions of the UNESCO-registered pilgrimage routes that connect sacred sites through pristine forest and mountain terrain, ranging from 2 to 8 hours depending on the chosen route.",
+          "lat": 33.65,
+          "lng": 135.93
+        },
+        {
+          "id": "naag_4",
+          "text": "Seiganto-ji temple exploration",
+          "detail": "Visit this unique three-story pagoda standing directly against the backdrop of Nachi Falls, creating one of Japan's most photographed compositions of spirituality and nature.",
+          "lat": 33.6763,
+          "lng": 135.9188
+        },
+        {
+          "id": "naag_5",
+          "text": "Hiryunotaki waterfall hike",
+          "detail": "Discover this lesser-known 100-meter waterfall hidden in the mountains near Nachi, accessible via a scenic hiking trail through old-growth forest.",
+          "lat": 33.665,
+          "lng": 135.935
+        },
+        {
+          "id": "naag_6",
+          "text": "Forest bathing in Kumano",
+          "detail": "Practice shinrin-yoku (forest bathing) along the quiet woodland paths of the Kumano region, immersing yourself in the therapeutic atmosphere of ancient cedar and cypress groves."
+        }
+      ],
+      "food": [
+        {
+          "id": "naag_f1",
+          "text": "Kama-zushi",
+          "detail": "A local pressed sushi specialty where vinegared rice and local fish are compressed in wooden molds, reflecting Kumano's mountainous geography where fresh sashimi was historically difficult to obtain."
+        },
+        {
+          "id": "naag_f2",
+          "text": "Kakinoha-zushi (persimmon leaf sushi)",
+          "detail": "Sushi wrapped in pickled persimmon leaves, a Wakayama regional specialty that adds subtle flavor and aroma while preserving the rice in the humid mountain climate."
+        },
+        {
+          "id": "naag_f3",
+          "text": "Kujira (whale meat)",
+          "detail": "Nachi's coastal waters have a centuries-old whaling tradition; sample grilled or simmered whale at local restaurants, experiencing this controversial but historically significant local protein."
+        },
+        {
+          "id": "naag_f4",
+          "text": "Umeboshi and ume products",
+          "detail": "Wakayama prefecture is famous for pickled plums; seek out local varieties in Nachi where traditional ume farming continues in the surrounding valleys."
+        },
+        {
+          "id": "naag_f5",
+          "text": "Tounyu ramen",
+          "detail": "A creamy sesame-based ramen unique to the region, often served with local mountain vegetables and reflecting the spiritual vegetarian traditions of the shrine pilgrims."
+        }
+      ],
+      "culture": [
+        {
+          "id": "naag_c1",
+          "text": "Respect shrine etiquette",
+          "detail": "When visiting Kumano Nachi Taisha, bow before passing through torii gates, rinse hands and mouth at purification basins, and remove shoes when entering sacred indoor spaces."
+        },
+        {
+          "id": "naag_c2",
+          "text": "Pilgrimage is spiritual, not just hiking",
+          "detail": "The Kumano Kodo routes are sacred pilgrimage paths where locals and visitors traditionally walk for spiritual cleansing; approach with meditative intent rather than purely recreational hiking mindset."
+        },
+        {
+          "id": "naag_c3",
+          "text": "Early morning visits are preferred",
+          "detail": "Visit Nachi Falls and the shrine in early morning when mist rises from the forest and crowds are minimal, honoring the contemplative atmosphere the sacred sites are meant to inspire."
+        },
+        {
+          "id": "naag_c4",
+          "text": "Obtain a pilgrimage stamp book",
+          "detail": "Purchase a goshuin-chō (pilgrimage record book) at the shrine to collect official stamps at each sacred site, a meaningful tradition that connects you to centuries of pilgrims."
+        }
+      ]
+    },
+    {
+      "id": "onomichi",
+      "name": "Onomichi",
+      "nameIt": "尾道",
+      "lat": 34.382,
+      "lng": 133.3036,
+      "type": "COASTAL",
+      "description": "A nostalgic port town beloved by filmmakers and artists, featuring narrow lanes lined with temples, traditional shops, and atmospheric hillside streets. The town offers stunning views of the Seto Inland Sea and easy access to Shimanami Kaido, a famous cycling route connecting nearby islands.",
+      "imageQueries": [
+        "Onomichi hillside temples",
+        "Onomichi port town canal"
+      ],
+      "activities": [
+        {
+          "id": "onom_1",
+          "text": "Walk the Temple Trail",
+          "detail": "Explore the hillside path connecting 25 temples, including the iconic Senkoji Temple with its red lantern and sweeping sea views.",
+          "lat": 34.3839,
+          "lng": 133.3115
+        },
+        {
+          "id": "onom_2",
+          "text": "Cycle the Shimanami Kaido",
+          "detail": "Rent a bicycle and ride the scenic 70 km route across six islands connected by bridges, starting from Onomichi's waterfront.",
+          "lat": 34.379,
+          "lng": 133.3085
+        },
+        {
+          "id": "onom_3",
+          "text": "Visit Onomichi Museum of Art",
+          "detail": "See contemporary and traditional artworks in a museum that reflects the town's long history as a muse for painters and filmmakers.",
+          "lat": 34.3815,
+          "lng": 133.3165
+        },
+        {
+          "id": "onom_4",
+          "text": "Wander the Historic Alleyways",
+          "detail": "Stroll narrow lanes like Sandō-shotengai where wooden machiya buildings house vintage shops, cafes, and art galleries.",
+          "lat": 34.3825,
+          "lng": 133.312
+        },
+        {
+          "id": "onom_5",
+          "text": "Take a Seto Inland Sea Ferry Ride",
+          "detail": "Board a local ferry to appreciate the archipelago's landscape and stop at nearby islands like Innoshima or Mukaishima.",
+          "lat": 34.378,
+          "lng": 133.31
+        },
+        {
+          "id": "onom_6",
+          "text": "Explore Film Location Sites",
+          "detail": "Follow marked routes to buildings and streets featured in Japanese New Wave cinema, including works by Masaki Kobayashi and Nobuhiko Ōbayashi."
+        }
+      ],
+      "food": [
+        {
+          "id": "onom_f1",
+          "text": "Onomichi Ramen",
+          "detail": "Local specialty with a rich pork-and-fish-based broth, topped with pork belly, shallots, and a soft-boiled egg, served at family-run noodle shops."
+        },
+        {
+          "id": "onom_f2",
+          "text": "Takoyaki from Tateba",
+          "detail": "Octopus-filled battered balls sold from historic street stalls, crispy outside and creamy inside, a quick snack as you navigate the lanes."
+        },
+        {
+          "id": "onom_f3",
+          "text": "Fresh Seto Inland Sea Sashimi",
+          "detail": "Waterfront restaurants serve seasonal seafood—flounder, sea bream, and squid—caught daily from the surrounding waters."
+        },
+        {
+          "id": "onom_f4",
+          "text": "Onomichi Kushikatsu",
+          "detail": "Deep-fried skewered vegetables and meats dipped in a shared tonkatsu sauce, a casual dining tradition at izakayas throughout town."
+        },
+        {
+          "id": "onom_f5",
+          "text": "Denro Manju",
+          "detail": "Traditional red-bean filled steamed cakes with a soft, pillowy texture, sold at small confectioneries as a local souvenir."
+        }
+      ],
+      "culture": [
+        {
+          "id": "onom_c1",
+          "text": "Respect Temple Etiquette",
+          "detail": "Many temples charge a small entry fee; remove shoes before entering buildings and bow respectfully when passing through torii gates."
+        },
+        {
+          "id": "onom_c2",
+          "text": "Timing for Crowds",
+          "detail": "Visit early morning or on weekdays to enjoy the atmospheric narrow lanes without the mid-day tourist rush that peaks in late afternoon."
+        },
+        {
+          "id": "onom_c3",
+          "text": "Bike Safety and Courtesy",
+          "detail": "If cycling the Shimanami Kaido, stay on designated paths, yield to pedestrians, and return rentals to designated shops—cycling etiquette is taken seriously."
+        },
+        {
+          "id": "onom_c4",
+          "text": "Support Local Artists and Artisans",
+          "detail": "Many family-run galleries and shops in traditional buildings welcome browsers; purchasing directly from makers preserves the town's creative culture."
+        }
+      ]
+    },
+    {
+      "id": "hagi",
+      "name": "Hagi",
+      "nameIt": "萩",
+      "lat": 34.4061,
+      "lng": 131.4028,
+      "type": "TOWN",
+      "description": "A beautifully preserved castle town featuring samurai and merchant quarters with traditional architecture, famous for its ceramics heritage and Hagi-yaki pottery. The town offers a glimpse into Edo-period life with museums, traditional crafts workshops, and coastal scenery.",
+      "imageQueries": [
+        "Hagi samurai district",
+        "Hagi pottery ceramics"
+      ],
+      "activities": [
+        {
+          "id": "hagi_1",
+          "text": "Hagi Castle Ruins",
+          "detail": "Explore the remains of this 17th-century castle set on a hilltop overlooking the town, with reconstructed gates and pleasant walking paths through the grounds.",
+          "lat": 34.4056,
+          "lng": 131.4019
+        },
+        {
+          "id": "hagi_2",
+          "text": "Pottery Studio Visits",
+          "detail": "Tour working kilns and pottery workshops throughout town where artisans create traditional Hagi-yaki ceramics using local clay, often with opportunities to watch or try your hand at the wheel.",
+          "lat": 34.4062,
+          "lng": 131.3987
+        },
+        {
+          "id": "hagi_3",
+          "text": "Samurai and Merchant Quarter Walking Tour",
+          "detail": "Stroll through beautifully preserved streets lined with whitewashed merchant houses, samurai residences, and traditional wooden buildings that authentically represent Edo-period urban life.",
+          "lat": 34.4039,
+          "lng": 131.4045
+        },
+        {
+          "id": "hagi_4",
+          "text": "Hagi Uragami Museum",
+          "detail": "This museum houses one of Japan's finest collections of Hagi ceramics spanning centuries, displayed in a modern building overlooking the coastal landscape.",
+          "lat": 34.4072,
+          "lng": 131.3822
+        },
+        {
+          "id": "hagi_5",
+          "text": "Coastal Scenic Walks",
+          "detail": "Walk along the rocky shoreline and beaches near the town center for views of the Nihon Kai Sea and traditional fishing villages nestled between mountains and water.",
+          "lat": 34.412,
+          "lng": 131.392
+        },
+        {
+          "id": "hagi_6",
+          "text": "Teramachi Temple Street",
+          "detail": "Visit a narrow lane lined with several Buddhist temples, including the historic Shoin-ji and Koin-ji, offering peaceful atmosphere and spiritual atmosphere distinct from the town's secular attractions."
+        }
+      ],
+      "food": [
+        {
+          "id": "hagi_f1",
+          "text": "Hagi-yaki Lunch Set",
+          "detail": "A multi-course meal served in locally made Hagi ceramic dishes, emphasizing seasonal ingredients and the tactile beauty of eating from hand-thrown pottery."
+        },
+        {
+          "id": "hagi_f2",
+          "text": "Awa-gyū (Tokushima Beef)",
+          "detail": "Premium grilled or hotpot beef from nearby Tokushima Prefecture, featuring tender marbling and rich flavor, often featured at upscale local restaurants."
+        },
+        {
+          "id": "hagi_f3",
+          "text": "Hagi Sushi",
+          "detail": "Fresh sashimi and sushi featuring catches from the Nihon Kai Sea, particularly sweet shrimp and seasonal white fish prepared by masters in traditional establishments."
+        },
+        {
+          "id": "hagi_f4",
+          "text": "Iwakaki (Rock Oysters)",
+          "detail": "Sweet, plump oysters harvested from local coastal waters, typically enjoyed grilled with salt or in light broths during autumn and winter months."
+        },
+        {
+          "id": "hagi_f5",
+          "text": "Sake from Local Breweries",
+          "detail": "Sample junmai daiginjo and other sake styles from Hagi's historic sake breweries, which have operated for over two centuries using local spring water."
+        },
+        {
+          "id": "hagi_f6",
+          "text": "Hagi Udon",
+          "detail": "Thick, chewy wheat noodles in a mild broth made with dashi from local fish, often topped with vegetables and served in traditional ceramic bowls."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hagi_c1",
+          "text": "Hagi-yaki Appreciation",
+          "detail": "Ceramics are central to Hagi's identity—pieces are intentionally rustic with natural glaze irregularities, so embrace imperfection as beauty rather than expecting polished uniformity."
+        },
+        {
+          "id": "hagi_c2",
+          "text": "Respectful Pottery Studio Etiquette",
+          "detail": "When visiting active kilns and workshops, ask permission before photographing artists at work, remove shoes when entering traditional spaces, and purchase something if you spend extended time observing."
+        },
+        {
+          "id": "hagi_c3",
+          "text": "Seasonal Visiting",
+          "detail": "Spring (cherry blossoms) and autumn offer ideal weather for walking the castle grounds and merchant streets, while winter oyster season is celebrated but brings cooler, windier coastal conditions."
+        },
+        {
+          "id": "hagi_c4",
+          "text": "Limited English Resources",
+          "detail": "English signage is minimal compared to major cities, so obtaining a detailed map with Japanese characters or hiring a local guide enhances understanding of historical context and pottery traditions."
+        }
+      ]
+    },
+    {
+      "id": "iwakuni",
+      "name": "Iwakuni",
+      "nameIt": "岩国",
+      "lat": 34.1667,
+      "lng": 132.2167,
+      "type": "TOWN",
+      "description": "Famous for the iconic Kintai Bridge, a stunning arched wooden bridge spanning the Nishiki River with distinctive wooden construction dating back centuries. The town blends historical significance with natural beauty and offers access to Iwakuni Castle with sweeping river valley views.",
+      "imageQueries": [
+        "Kintai Bridge Iwakuni",
+        "Iwakuni Castle"
+      ],
+      "activities": [
+        {
+          "id": "iwak_1",
+          "text": "Walk across Kintai Bridge",
+          "detail": "Cross the iconic five-arched wooden bridge spanning the Nishiki River, admiring its traditional construction and enjoying views of the surrounding landscape.",
+          "lat": 34.1697,
+          "lng": 132.2179
+        },
+        {
+          "id": "iwak_2",
+          "text": "Explore Iwakuni Castle",
+          "detail": "Visit the reconstructed hilltop castle offering panoramic views of the Nishiki River valley and access to samurai history exhibits.",
+          "lat": 34.1678,
+          "lng": 132.2226
+        },
+        {
+          "id": "iwak_3",
+          "text": "Stroll through Kikko Park",
+          "detail": "Walk through this riverside park featuring seasonal cherry blossoms, maple trees, and traditional Japanese landscaping adjacent to Kintai Bridge.",
+          "lat": 34.169,
+          "lng": 132.216
+        },
+        {
+          "id": "iwak_4",
+          "text": "Visit Iwakuni Art Museum",
+          "detail": "Explore local and regional art collections housed in a modern building overlooking the Nishiki River valley.",
+          "lat": 34.172,
+          "lng": 132.224
+        },
+        {
+          "id": "iwak_5",
+          "text": "Hike to Yoshida Shrine viewpoint",
+          "detail": "Trek through forested paths to reach an elevated shrine with commanding views of the river and surrounding town.",
+          "lat": 34.185,
+          "lng": 132.23
+        },
+        {
+          "id": "iwak_6",
+          "text": "Take a cormorant fishing tour",
+          "detail": "Experience the traditional summer evening spectacle of ukai (cormorant fishing) on the Nishiki River with trained birds.",
+          "lat": 34.1697,
+          "lng": 132.2179
+        }
+      ],
+      "food": [
+        {
+          "id": "iwak_f1",
+          "text": "Iwakuni sushi",
+          "detail": "A local specialty featuring sushi pressed into a wooden box with layers of vinegared rice, fish, and vegetables in a distinctive rectangular presentation."
+        },
+        {
+          "id": "iwak_f2",
+          "text": "Ayu (sweetfish) grilled whole",
+          "detail": "Fresh river ayu from the Nishiki River grilled whole over charcoal, prized for its delicate sweetness and tender texture."
+        },
+        {
+          "id": "iwak_f3",
+          "text": "Tori soboro don",
+          "detail": "A warming rice bowl topped with ground chicken, egg, and seasonal vegetables unique to Iwakuni's local culinary tradition."
+        },
+        {
+          "id": "iwak_f4",
+          "text": "Aka miso (red miso) from local makers",
+          "detail": "Iwakuni's distinctive rich and deeply flavored red miso, available at specialty shops and used in local cooking."
+        },
+        {
+          "id": "iwak_f5",
+          "text": "Unagi (eel) from the Nishiki River",
+          "detail": "Grilled freshwater eel prepared as kabayaki or in donburi, taking advantage of the river's pristine water and eel populations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "iwak_c1",
+          "text": "Respect bridge crossing etiquette",
+          "detail": "Walk mindfully across Kintai Bridge and avoid stopping in the center during peak hours; locals and regular visitors maintain steady foot traffic."
+        },
+        {
+          "id": "iwak_c2",
+          "text": "Timing visits around seasons",
+          "detail": "Spring brings cherry blossoms and autumn showcases brilliant maple foliage, making these peak seasons for crowds but offering spectacular natural beauty."
+        },
+        {
+          "id": "iwak_c3",
+          "text": "Learn basic samurai history",
+          "detail": "Understanding Iwakuni's role as a castle town under the Kikkawa clan enhances appreciation of local museums, shrines, and architectural details throughout town."
+        },
+        {
+          "id": "iwak_c4",
+          "text": "Purchase traditional souvenirs thoughtfully",
+          "detail": "Support local artisans by seeking out handmade wooden crafts and bridge-themed souvenirs rather than mass-produced items in tourist shops."
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_islands",
+      "name": "Seto Inland Sea Islands",
+      "nameIt": "瀬戸内海",
+      "lat": 34.452,
+      "lng": 133.2,
+      "type": "ISLAND",
+      "description": "A collection of picturesque islands scattered across the Seto Inland Sea, including Naoshima and Teshima known for world-class contemporary art museums and installations. The islands offer scenic ferry journeys, beach access, and a peaceful escape combining natural beauty with cutting-edge cultural experiences.",
+      "imageQueries": [
+        "Naoshima contemporary art",
+        "Seto Inland Sea islands ferry"
+      ],
+      "activities": [
+        {
+          "id": "hiro_1",
+          "text": "Benesse House Museum",
+          "detail": "A world-renowned contemporary art museum on Naoshima showcasing cutting-edge installations and works by international artists in a striking architectural setting.",
+          "lat": 34.3819,
+          "lng": 133.9253
+        },
+        {
+          "id": "hiro_2",
+          "text": "Chichu Art Museum",
+          "detail": "An underground art museum on Naoshima featuring mostly natural light and earth tones, housing major works by Monet, James Turrell, and Walter De Maria.",
+          "lat": 34.3799,
+          "lng": 133.9268
+        },
+        {
+          "id": "hiro_3",
+          "text": "Teshima Art Museum",
+          "detail": "A minimalist architectural masterpiece on Teshima designed by Tadao Ando, housing a single major contemporary art installation in a serene hilltop setting.",
+          "lat": 34.4197,
+          "lng": 134.1289
+        },
+        {
+          "id": "hiro_4",
+          "text": "Ferry journeys between islands",
+          "detail": "Scenic boat rides connecting the main islands offer stunning views of the Seto Inland Sea's characteristic pine-dotted landscape and traditional fishing villages.",
+          "lat": 34.4,
+          "lng": 134
+        },
+        {
+          "id": "hiro_5",
+          "text": "Kasaoka Island hopping",
+          "detail": "Explore the quieter Kasaoka Islands cluster with bicycles and local ferries, visiting small shrines, sandy beaches, and rural communities untouched by major tourism.",
+          "lat": 34.7622,
+          "lng": 133.5289
+        },
+        {
+          "id": "hiro_6",
+          "text": "Onomichi historic town walk",
+          "detail": "Stroll through this traditional port town on the Hiroshima mainland with temple-filled hillsides, narrow lanes, and well-preserved wooden merchant houses dating back centuries.",
+          "lat": 34.3832,
+          "lng": 133.7447
+        },
+        {
+          "id": "hiro_7",
+          "text": "Shikoku Island beaches",
+          "detail": "Access pristine sandy beaches on the quieter southern islands, ideal for swimming, picnicking, and experiencing the calm waters of the inland sea.",
+          "lat": 34.3,
+          "lng": 134.2
+        }
+      ],
+      "food": [
+        {
+          "id": "hiro_f1",
+          "text": "Seto Inland Sea sea bream (tai)",
+          "detail": "Fresh grilled or sashimi preparation of the region's prized seabream, a local specialty caught daily in these waters and served at waterfront restaurants."
+        },
+        {
+          "id": "hiro_f2",
+          "text": "Okonomiyaki",
+          "detail": "The Hiroshima-style layered savory pancake with cabbage, proteins, and sauce is widely available in port towns and island restaurants as a hearty local comfort food."
+        },
+        {
+          "id": "hiro_f3",
+          "text": "Shirasu (whitebait) over rice",
+          "detail": "Tiny freshly-caught whitebait served warm over steamed rice with soy sauce and seaweed, a signature dish at casual island eateries celebrating the sea's bounty."
+        },
+        {
+          "id": "hiro_f4",
+          "text": "Kakigori ice shaved with island citrus",
+          "detail": "Summer refreshment made from shaved ice topped with locally-produced lemon, yuzu, or bitter orange syrup reflecting the islands' citrus agriculture."
+        },
+        {
+          "id": "hiro_f5",
+          "text": "Nori seaweed cultivation experience",
+          "detail": "Some islands offer visitors the chance to harvest and taste freshly-picked nori seaweed sheets, understanding the traditional harvesting methods still used today."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hiro_c1",
+          "text": "Ferry schedules dictate planning",
+          "detail": "Island ferries run on fixed schedules with reduced service in winter and evenings, so plan activities and accommodation with departure times in mind to avoid being stranded."
+        },
+        {
+          "id": "hiro_c2",
+          "text": "Bicycles are essential transportation",
+          "detail": "Most islands lack public transport; rent a bicycle at ferry terminals to navigate villages, beaches, and art sites at a pace that suits island life."
+        },
+        {
+          "id": "hiro_c3",
+          "text": "Respect quiet hours and temples",
+          "detail": "These are still working communities—keep noise low, avoid photographing residents without permission, and show reverence at active shrines and temples."
+        },
+        {
+          "id": "hiro_c4",
+          "text": "Cash-only establishments prevail",
+          "detail": "Many small restaurants, shops, and accommodations on islands do not accept cards, so withdraw sufficient yen at Onomichi or larger towns before island visits."
+        }
+      ]
+    },
+    {
+      "id": "kure",
+      "name": "Kure",
+      "nameIt": "呉",
+      "lat": 34.2503,
+      "lng": 132.5653,
+      "type": "COASTAL",
+      "description": "A maritime city housing Japan's fascinating naval history museum and the preserved battleship Yamato Memorial Museum, documenting the warship's history. The port city offers excellent fresh seafood, maritime heritage sites, and serves as a practical base for exploring nearby Hiroshima region attractions.",
+      "imageQueries": [
+        "Kure Yamato Battleship Museum",
+        "Kure naval port"
+      ],
+      "activities": [
+        {
+          "id": "kure_1",
+          "text": "Yamato Museum",
+          "detail": "Explore the history of Japan's largest battleship through detailed exhibits, scale models, and immersive displays documenting the Yamato's construction and final mission.",
+          "lat": 34.2381,
+          "lng": 132.5686
+        },
+        {
+          "id": "kure_2",
+          "text": "Japan Maritime Self-Defense Force Museum",
+          "detail": "Tour Japan's official naval museum featuring submarines, destroyers, and extensive exhibits on naval warfare and maritime defense history.",
+          "lat": 34.2389,
+          "lng": 132.5703
+        },
+        {
+          "id": "kure_3",
+          "text": "Kure Port and Waterfront Walk",
+          "detail": "Stroll along the revitalized port area with views of active naval vessels, modern waterfront facilities, and scenic harbor photography opportunities.",
+          "lat": 34.2395,
+          "lng": 132.565
+        },
+        {
+          "id": "kure_4",
+          "text": "Kure City Museum of Art",
+          "detail": "View contemporary Japanese art and rotating exhibitions in this modern museum located near the city center with focus on regional artists.",
+          "lat": 34.2453,
+          "lng": 132.5656
+        },
+        {
+          "id": "kure_5",
+          "text": "Senzaki Waterfront Park",
+          "detail": "Visit this scenic park with recreational facilities, walking paths along the Seto Inland Sea, and seasonal cherry blossoms in spring.",
+          "lat": 34.2341,
+          "lng": 132.558
+        },
+        {
+          "id": "kure_6",
+          "text": "Kure Submarine Museum",
+          "detail": "Board and explore the decommissioned submarine Akatsuki to experience submarine crew life and Cold War-era naval technology.",
+          "lat": 34.2405,
+          "lng": 132.5718
+        }
+      ],
+      "food": [
+        {
+          "id": "kure_f1",
+          "text": "Kure Curry",
+          "detail": "A local specialty curry dish often served over rice with tender pork or seafood, reflecting the city's naval heritage and becoming a signature comfort food."
+        },
+        {
+          "id": "kure_f2",
+          "text": "Oysters (Kaki)",
+          "detail": "Fresh oysters from nearby Hiroshima Bay served grilled, raw, or in hot pots during winter months, showcasing the region's premier shellfish harvesting."
+        },
+        {
+          "id": "kure_f3",
+          "text": "Anago (Conger Eel)",
+          "detail": "Grilled or steamed conger eel served over rice or as sashimi, a regional delicacy prepared with traditional Seto Inland Sea techniques."
+        },
+        {
+          "id": "kure_f4",
+          "text": "Okonomiyaki",
+          "detail": "Hiroshima-style savory pancakes with layered ingredients including noodles, cabbage, and protein, reflecting the broader Chūgoku region's culinary tradition."
+        },
+        {
+          "id": "kure_f5",
+          "text": "Fresh Sashimi and Sushi",
+          "detail": "Daily catches of local seafood served at harbor-side restaurants featuring seasonal fish, squid, and shellfish at peak freshness."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kure_c1",
+          "text": "Naval History Respect",
+          "detail": "Visitors should approach Yamato Museum and naval sites with respectful demeanor as these are solemn memorials to fallen sailors and significant wartime history."
+        },
+        {
+          "id": "kure_c2",
+          "text": "Port City Rhythm",
+          "detail": "Kure maintains active military and civilian shipping operations, so visiting the waterfront early morning offers the best views of naval activity and fewer crowds."
+        },
+        {
+          "id": "kure_c3",
+          "text": "Regional Dialect",
+          "detail": "Locals speak Hiroshima-ben dialect which differs noticeably from standard Japanese; patience and a smile help when communicating with older shopkeepers and restaurant staff."
+        },
+        {
+          "id": "kure_c4",
+          "text": "Seasonal Typhoon Awareness",
+          "detail": "As a coastal port city, Kure can experience typhoons from July through September; check weather forecasts and heed local advisories during these months."
+        }
+      ]
+    },
+    {
+      "id": "takayama",
+      "name": "Takayama",
+      "nameIt": "高山",
+      "lat": 36.1455,
+      "lng": 137.2453,
+      "type": "TOWN",
+      "description": "Though in Gifu, this mountain town is essential for Chugoku travelers seeking traditional Japanese character with beautifully preserved merchant houses and sake breweries. The town features morning markets, mountain scenery, and provides access to Shirakawa-go village for deep cultural immersion.",
+      "imageQueries": [
+        "Takayama old town preserved",
+        "Takayama morning market"
+      ],
+      "activities": [
+        {
+          "id": "taka_1",
+          "text": "Sanmachi Suji",
+          "detail": "Walk through three charming streets lined with beautifully preserved merchant houses, sake breweries, and traditional shops dating back to the Edo period.",
+          "lat": 36.1433,
+          "lng": 137.2477
+        },
+        {
+          "id": "taka_2",
+          "text": "Takayama Jinya",
+          "detail": "Tour the former government administrative building showcasing authentic samurai-era architecture and period furnishings from the Edo and Meiji periods.",
+          "lat": 36.1447,
+          "lng": 137.2499
+        },
+        {
+          "id": "taka_3",
+          "text": "Morning Markets (Asaichi)",
+          "detail": "Shop at two historic morning markets—Jinya-mae and Miyagawa—where local farmers sell fresh vegetables, fruits, flowers, and handcrafted goods.",
+          "lat": 36.1448,
+          "lng": 137.251
+        },
+        {
+          "id": "taka_4",
+          "text": "Sake Brewery Tours",
+          "detail": "Visit working sake breweries like Sakurayama Hanamura or Fujita Sake Brewery to learn traditional brewing methods and sample premium local sake.",
+          "lat": 36.1439,
+          "lng": 137.2461
+        },
+        {
+          "id": "taka_5",
+          "text": "Hida Folk Village",
+          "detail": "Explore an open-air museum with over 30 traditional farmhouses relocated from surrounding villages, offering insight into rural mountain life.",
+          "lat": 36.1298,
+          "lng": 137.2206
+        },
+        {
+          "id": "taka_6",
+          "text": "Takayama Showa Museum",
+          "detail": "Step back into 1960s Japan with this quirky museum featuring vintage toys, household items, and nostalgic memorabilia filling three restored wooden buildings.",
+          "lat": 36.1414,
+          "lng": 137.2501
+        },
+        {
+          "id": "taka_7",
+          "text": "Shirakawa-go Access",
+          "detail": "Take a day trip 50 kilometers northwest to this UNESCO World Heritage village famous for gassho-zukuri farmhouses with steep thatched roofs.",
+          "lat": 36.2631,
+          "lng": 137.5901
+        }
+      ],
+      "food": [
+        {
+          "id": "taka_f1",
+          "text": "Hida Beef",
+          "detail": "Sample grilled or simmered premium wagyu from Hida region cattle, known for marbling and tenderness, served at upscale restaurants and casual grills."
+        },
+        {
+          "id": "taka_f2",
+          "text": "Takayama Ramen",
+          "detail": "Try local ramen with thin noodles in a rich, soy-based broth often topped with chashu pork, pickled vegetables, and a raw egg."
+        },
+        {
+          "id": "taka_f3",
+          "text": "Sansai Tempura",
+          "detail": "Taste lightly battered and deep-fried wild mountain vegetables and edible plants unique to the Hida highlands."
+        },
+        {
+          "id": "taka_f4",
+          "text": "Gohei Mochi",
+          "detail": "Enjoy grilled rice cakes coated with a savory miso-walnut sauce, a regional snack sold at morning markets and traditional shops."
+        },
+        {
+          "id": "taka_f5",
+          "text": "Sake Tasting",
+          "detail": "Participate in guided tastings at breweries sampling junmai, ginjo, and aged varieties paired with local sake snacks and pickles."
+        },
+        {
+          "id": "taka_f6",
+          "text": "Hoba Miso",
+          "detail": "Try miso paste grilled on a large magnolia leaf with vegetables and mushrooms, a traditional dish served in local restaurants and at lunch sets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "taka_c1",
+          "text": "Arrive early for markets",
+          "detail": "Jinya-mae and Miyagawa markets begin at dawn and are liveliest before 9 AM, so plan morning visits to see the best selection and energy."
+        },
+        {
+          "id": "taka_c2",
+          "text": "Respect brewery etiquette",
+          "detail": "When visiting sake breweries, remove shoes or wear provided slippers, ask before photographing, and purchase something if sampling is offered."
+        },
+        {
+          "id": "taka_c3",
+          "text": "Learn basic greetings",
+          "detail": "English is limited outside main tourist areas; learning 'arigatou gozaimasu' (thank you), 'onegaishimasu' (please), and 'sumimasen' (excuse me) greatly enriches interactions."
+        },
+        {
+          "id": "taka_c4",
+          "text": "Autumn and winter visits",
+          "detail": "Visit October through November for clear mountain scenery and sake season, or December through February to experience heavy snow and fewer crowds."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Okonomiyaki Kiji",
+      "address": "1-chōme-4-4 Shintenchi, Naka Ward",
+      "neighbourhood": "Hiroshima",
+      "cuisine": "Okonomiyaki",
+      "priceRange": "€€",
+      "description": "Historic okonomiyaki restaurant established in 1950, famous for its layered Hiroshima-style preparation with noodles and egg.",
+      "mustOrder": "Hiroshima-style okonomiyaki with pork and squid",
+      "lat": 34.3966,
+      "lng": 132.4759
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Sushidai",
+      "address": "2-chōme-2-1 Ujina-minami, Minami Ward",
+      "neighbourhood": "Hiroshima",
+      "cuisine": "Sushi",
+      "priceRange": "€€€",
+      "description": "Intimate sushi counter near Hiroshima port featuring fresh daily catches and traditional Edomae techniques.",
+      "mustOrder": "Omakase selection with local fish",
+      "lat": 34.3647,
+      "lng": 132.4511
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Ajisai",
+      "address": "1-chōme-25-17 Hondōri, Naka Ward",
+      "neighbourhood": "Hiroshima",
+      "cuisine": "Japanese fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary Japanese cuisine blending traditional flavors with modern plating in the heart of downtown Hiroshima.",
+      "mustOrder": "Seasonal kaiseki set menu",
+      "lat": 34.3937,
+      "lng": 132.4704
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Kushikatsu Daruma",
+      "address": "3-chōme-1-1 Yanagi, Naka Ward",
+      "neighbourhood": "Hiroshima",
+      "cuisine": "Kushikatsu",
+      "priceRange": "€€",
+      "description": "Casual counter-style restaurant serving crispy deep-fried skewers with tangy dipping sauce, local favorite since 1999.",
+      "mustOrder": "Assorted kushikatsu platter",
+      "lat": 34.3954,
+      "lng": 132.4638
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Onomichi Ramen Yokocho",
+      "address": "1-chōme-25-8 Tsuchidōri, Onomichi",
+      "neighbourhood": "Onomichi",
+      "cuisine": "Ramen",
+      "priceRange": "€",
+      "description": "Atmospheric alley with eight small ramen shops, each serving Onomichi's signature style with soy broth and local toppings.",
+      "mustOrder": "Onomichi ramen with grilled fish cake",
+      "lat": 34.3826,
+      "lng": 133.3125
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Imaasahi",
+      "address": "2-chōme-2-19 Minato-machi, Onomichi",
+      "neighbourhood": "Onomichi",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Waterfront izakaya specializing in fresh local catch from the Seto Inland Sea with seasonal preparations.",
+      "mustOrder": "Grilled local white fish",
+      "lat": 34.3801,
+      "lng": 133.3106
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Tatsuta",
+      "address": "3-chōme-3-1 Otemachi, Okayama",
+      "neighbourhood": "Okayama",
+      "cuisine": "Japanese kaiseki",
+      "priceRange": "€€€€",
+      "description": "Fine dining restaurant offering elaborate seasonal kaiseki meals using premium local ingredients in an elegant traditional setting.",
+      "mustOrder": "Kaiseki omakase course",
+      "lat": 34.6549,
+      "lng": 133.9355
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Donki Hote",
+      "address": "2-chōme-2-1 Ekimotomachi, Okayama",
+      "neighbourhood": "Okayama",
+      "cuisine": "Okayama tonkatsu",
+      "priceRange": "€€",
+      "description": "Local institution famous for thick-cut tonkatsu breaded and fried to crispy perfection, served with special sauce.",
+      "mustOrder": "Premium pork tonkatsu",
+      "lat": 34.6628,
+      "lng": 133.9397
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Agarikiya",
+      "address": "2-chōme-1-21 Motomachi, Kurashiki",
+      "neighbourhood": "Kurashiki",
+      "cuisine": "Local regional",
+      "priceRange": "€€",
+      "description": "Charming restaurant in historic Bikan district serving traditional Kurashiki dishes in a restored warehouse setting.",
+      "mustOrder": "Demi-glace hamburger steak",
+      "lat": 34.5892,
+      "lng": 133.7699
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Beni-Shoga",
+      "address": "1-chōme-13-7 Honmachi, Takayama",
+      "neighbourhood": "Takayama",
+      "cuisine": "Hida beef",
+      "priceRange": "€€€",
+      "description": "Premium yakiniku restaurant specializing in Hida beef, one of Japan's finest wagyu varieties, grilled tableside.",
+      "mustOrder": "Hida beef sirloin and ribeye selection",
+      "lat": 36.1447,
+      "lng": 137.2512
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Syunsai Yoshida",
+      "address": "1-chōme-52 Hanasatocho, Matsue",
+      "neighbourhood": "Matsue",
+      "cuisine": "Kaiseki",
+      "priceRange": "€€€",
+      "description": "Refined kaiseki dining overlooking Lake Shinji, featuring seasonal local ingredients and Lake Shinji's famous shijimi clams.",
+      "mustOrder": "Shijimi clam soup with seasonal kaiseki",
+      "lat": 35.4674,
+      "lng": 133.0553
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Ichidai",
+      "address": "2-chōme-6-37 Baba, Tottori",
+      "neighbourhood": "Tottori",
+      "cuisine": "Crab",
+      "priceRange": "€€€",
+      "description": "Specialized restaurant serving Tottori's prized snow crabs prepared steamed, grilled, and in broths during winter season.",
+      "mustOrder": "Whole grilled snow crab",
+      "lat": 35.5006,
+      "lng": 134.2354
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Kamoizumi Brewery Restaurant",
+      "address": "1-chōme-1-20 Saijō-nishi, Higashi-Hiroshima",
+      "neighbourhood": "Higashi-Hiroshima",
+      "cuisine": "Japanese",
+      "priceRange": "€€",
+      "description": "Restaurant attached to historic sake brewery offering local dishes paired with freshly brewed sake varieties.",
+      "mustOrder": "Sake-steamed chicken with fresh sake pairing",
+      "lat": 34.5989,
+      "lng": 132.7488
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Ikkyoan",
+      "address": "3-chōme-8-4 Saikoku, Onomichi",
+      "neighbourhood": "Onomichi",
+      "cuisine": "Ramen",
+      "priceRange": "€",
+      "description": "Small legendary ramen shop in Onomichi serving rich soy-based broth with distinctive local char siu and fish cake.",
+      "mustOrder": "Onomichi ramen special",
+      "lat": 34.3889,
+      "lng": 133.3167
+    }
+  ]
+}

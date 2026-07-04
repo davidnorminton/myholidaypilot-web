@@ -7,12 +7,8 @@ export const COUNTRIES = [
     blurb: 'Atlantic light and azulejos — 11 regions from the Minho to Madeira.' },
   { slug: 'usa',      name: 'United States', flag: '🇺🇸', available: false,
     blurb: 'Fifty states of road trips, parks and cities.' },
-  { slug: 'france',   name: 'France',   flag: '🇫🇷', available: true },
-  { slug: 'greece',   name: 'Greece',   flag: '🇬🇷', available: true },
-  { slug: 'united_kingdom', name: 'United Kingdom', flag: '🇬🇧', available: true,
-    blurb: '17 regions to explore, town by town.' },
-  { slug: 'united_states', name: 'United States', flag: '🇺🇸', available: true,
-    blurb: '13 regions to explore, town by town.' },
+  { slug: 'france',   name: 'France',   flag: '🇫🇷', available: false },
+  { slug: 'greece',   name: 'Greece',   flag: '🇬🇷', available: false },
 ]
 
 export const isAvailableCountry = (slug) => COUNTRIES.some((c) => c.slug === slug && c.available)
