@@ -1,0 +1,1255 @@
+{
+  "id": "glarus",
+  "name": "Glarus",
+  "nameIt": "Glarus",
+  "capital": "Glarus",
+  "lat": 46.98,
+  "lng": 8.76,
+  "emoji": "⛷️",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 47.35,
+    "south": 46.6,
+    "east": 9.15,
+    "west": 8.3
+  },
+  "history": "Glarus has a rich medieval past as a territory that became part of the Swiss Confederation in 1352, establishing itself as an independent canton in 1833 after separating from St. Gallen. The region was historically shaped by its Alpine geography and textile industries, which flourished from the 18th century onwards and brought prosperity to the valley. The area witnessed significant religious and political upheaval during the Reformation, with the canton developing a unique democratic tradition centered on the Landsgemeinde, an open-air assembly where citizens gather to vote on cantonal matters.",
+  "culturalNotes": "Glarus is renowned for its strong Alpine traditions and picturesque mountain landscapes that define daily life and identity. The canton maintains distinctive customs including traditional Glarnisch cheese production and the famous Glarus traditions of yodeling and folk music that reflect its pastoral heritage. The region is also known for its commitment to direct democracy and environmental stewardship, with residents actively engaged in preserving both cultural practices and the pristine natural environment.",
+  "bestTimeToVisit": "Summer is ideal for mountain hiking and scenic drives through dramatic Alpine valleys and glaciated peaks.",
+  "languageNotes": "The local dialect is Glarner Alemannisch, a Swiss German variant that reflects the Alpine character of the region. While High German and English are widely understood, visitors will appreciate hearing and attempting local expressions like \"Grüezi\" for hello or \"Danke viil\" for thank you.",
+  "generatedAt": "2026-07-04T22:12:40.175Z",
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "glarus_town",
+      "name": "Glarus",
+      "nameIt": "Glarus",
+      "lat": 46.9975,
+      "lng": 8.9244,
+      "type": "CITY",
+      "description": "The capital of the canton, this charming Alpine town features a stunning main square rebuilt after a devastating fire in 1861, with elegant Neoclassical architecture and the impressive Glarus Cathedral. It serves as the cultural and economic heart of the region, offering museums, galleries, and authentic Swiss hospitality.",
+      "imageQueries": [
+        "Glarus town square Switzerland",
+        "Glarus Cathedral main street"
+      ],
+      "activities": [
+        {
+          "id": "glar_1",
+          "text": "Explore Glarus Cathedral",
+          "detail": "Visit this impressive Neo-Gothic cathedral dominating the main square, rebuilt after the 1861 fire with striking architecture and ornate interior design.",
+          "lat": 46.8381,
+          "lng": 8.6496
+        },
+        {
+          "id": "glar_2",
+          "text": "Wander the Main Square (Marktplatz)",
+          "detail": "Stroll through this beautifully reconstructed central plaza with elegant Neoclassical facades, cafés, and the heart of the town's social and cultural life.",
+          "lat": 46.8383,
+          "lng": 8.6497
+        },
+        {
+          "id": "glar_3",
+          "text": "Glarus Museum",
+          "detail": "Discover local history, art, and Alpine culture through exhibits covering the town's reconstruction and regional heritage.",
+          "lat": 46.8375,
+          "lng": 8.651
+        },
+        {
+          "id": "glar_4",
+          "text": "Hiking to Säntis",
+          "detail": "Tackle the challenging alpine hike from Glarus to the 2,502-meter Säntis peak for panoramic views across northeastern Switzerland.",
+          "lat": 47.2333,
+          "lng": 8.8333
+        },
+        {
+          "id": "glar_5",
+          "text": "Visit the Textile Museum (Industrie- und Fachmuseum)",
+          "detail": "Learn about Glarus's historic textile industry, which shaped the region's economy and continues to influence local identity.",
+          "lat": 46.8365,
+          "lng": 8.652
+        },
+        {
+          "id": "glar_6",
+          "text": "Walk along the Linth River",
+          "detail": "Enjoy scenic riverside paths and bridges that offer peaceful views of the valley and surrounding Alpine peaks."
+        }
+      ],
+      "food": [
+        {
+          "id": "glar_f1",
+          "text": "Glarner Pasteten",
+          "detail": "Savor these traditional Glarus meat pies with a flaky pastry crust, filled with locally sourced pork, herbs, and spices, often enjoyed as a lunch specialty."
+        },
+        {
+          "id": "glar_f2",
+          "text": "Älplermagronen",
+          "detail": "Try this Alpine comfort dish of pasta layered with potatoes, cheese, and onions, served with applesauce—a hearty regional favorite."
+        },
+        {
+          "id": "glar_f3",
+          "text": "Glarner Läberli",
+          "detail": "Sample these traditional spiced gingerbread cookies, often made with local recipes and sold during festivals and at bakeries throughout town."
+        },
+        {
+          "id": "glar_f4",
+          "text": "Local Cheese from Säntis Region",
+          "detail": "Taste authentic Alpine cheeses produced in the surrounding Glarus hills, known for their distinctive flavor from mountain pasture grazing."
+        },
+        {
+          "id": "glar_f5",
+          "text": "Appenzell-style Chäs-Fondue",
+          "detail": "Experience this creamy cheese fondue adapted in the region using local dairy products and wines, perfect for a warming evening meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "glar_c1",
+          "text": "Respect Landsgemeinde Traditions",
+          "detail": "Glarus still practices the historic open-air assembly (Landsgemeinde) on the first Sunday of May, where locals gather to vote on canton matters—an important civic tradition to observe respectfully."
+        },
+        {
+          "id": "glar_c2",
+          "text": "Appreciate the 1861 Fire Legacy",
+          "detail": "The town's architecture and layout reflect meticulous post-fire reconstruction, so locals take pride in this resilience; learning this history enhances appreciation for the Neoclassical beauty you see."
+        },
+        {
+          "id": "glar_c3",
+          "text": "Visit Museums During Weekday Afternoons",
+          "detail": "Many local museums and cultural institutions close on Mondays and keep limited hours, so plan visits for weekday afternoons to avoid disappointment."
+        },
+        {
+          "id": "glar_c4",
+          "text": "Embrace Alpine Hospitality Customs",
+          "detail": "Locals value straightforward, warm greetings and appreciation for their mountain heritage; a simple 'Grüezi' greeting and interest in regional history will be warmly received."
+        }
+      ]
+    },
+    {
+      "id": "santis_region",
+      "name": "Säntis",
+      "nameIt": "Säntis",
+      "lat": 47.2489,
+      "lng": 8.8247,
+      "type": "NATURE",
+      "description": "The highest peak in the Appenzell Alps at 2,502 meters, Säntis offers breathtaking panoramic views over six countries and is accessible via scenic hiking trails or cable car from Schwägalp. On clear days, visitors can see from the Black Forest to Mont Blanc.",
+      "imageQueries": [
+        "Säntis peak Switzerland views",
+        "Säntis cable car Schwägalp"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Cable Car to Summit",
+          "detail": "Take the Säntis cable car from Schwägalp station for a swift ascent to the 2,502-meter peak with minimal effort.",
+          "lat": 47.2495,
+          "lng": 9.3458
+        },
+        {
+          "id": "sant_2",
+          "text": "Panoramic Summit Walk",
+          "detail": "Complete the easy circular trail around Säntis's summit to fully appreciate views spanning six countries from the Black Forest to Mont Blanc.",
+          "lat": 47.2501,
+          "lng": 9.3461
+        },
+        {
+          "id": "sant_3",
+          "text": "Hiking from Schwägalp",
+          "detail": "Undertake the scenic 2-3 hour hiking route from Schwägalp valley station to the summit through alpine meadows and rocky terrain.",
+          "lat": 47.2417,
+          "lng": 9.3408
+        },
+        {
+          "id": "sant_4",
+          "text": "Visit the Summit Restaurant",
+          "detail": "Dine at the Säntis restaurant perched at the peak, offering local specialties and unobstructed panoramic views during your meal.",
+          "lat": 47.2501,
+          "lng": 9.3461
+        },
+        {
+          "id": "sant_5",
+          "text": "Appenzell Alps Photography Trail",
+          "detail": "Follow designated photo spots around the summit and accessible peaks nearby to capture the distinctive rolling alpine landscape.",
+          "lat": 47.247,
+          "lng": 9.344
+        },
+        {
+          "id": "sant_6",
+          "text": "Säntis Weather Station Tour",
+          "detail": "Learn about alpine meteorology and climate research at the historic weather station located at the summit.",
+          "lat": 47.2501,
+          "lng": 9.3461
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Appenzeller Käsespätzle",
+          "detail": "A regional specialty of egg noodles layered with aged Appenzeller cheese and crispy onions, served piping hot at mountain restaurants."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Älplermagronen",
+          "detail": "Alpine pasta dish combining macaroni, potatoes, and cheese in a creamy sauce, traditionally eaten by mountain herders and still popular at the summit."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Appenzeller Mostbröckli",
+          "detail": "Thin slices of air-dried beef from the Appenzell region, available at local mountain huts and a perfect high-altitude snack."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Fresh Alpenmilch Käse",
+          "detail": "Sample creamy unpasteurized alpine milk cheese produced in nearby Appenzell dairies, often available at the summit restaurant."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Bratwurst with Senf",
+          "detail": "Grilled local sausages served with regional mustard variants, a hearty option at Säntis's mountain facilities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Bring Layers and Weather Gear",
+          "detail": "Säntis's exposed summit experiences rapidly changing weather and temperatures 10-15°C cooler than the valley, making proper clothing essential year-round."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Respect Alpine Meadow Boundaries",
+          "detail": "Hikers should stay on marked paths to protect delicate alpine flora and grazing pastures used by local farmers since medieval times."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Learn about Appenzell Traditions",
+          "detail": "The surrounding region maintains strong dairy and cheese-making heritage; visiting local farms or museums enriches understanding of mountain culture."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Clear Day Protocol",
+          "detail": "Locals emphasize that visibility to six countries requires genuinely clear conditions; plan visits during high-pressure weather systems for optimal panoramic views."
+        }
+      ]
+    },
+    {
+      "id": "panix_pass",
+      "name": "Panix Pass",
+      "nameIt": "Panixerpass",
+      "lat": 46.8411,
+      "lng": 8.9017,
+      "type": "LANDMARK",
+      "description": "One of Switzerland's most scenic mountain passes at 2,407 meters, offering dramatic views of glaciers and rugged Alpine terrain between Glarus and the Uri valleys. The pass is popular for hiking and provides access to pristine wilderness areas.",
+      "imageQueries": [
+        "Panix Pass Switzerland mountain",
+        "Panixerpass glacier views"
+      ],
+      "activities": [
+        {
+          "id": "pani_1",
+          "text": "Panixerpass Summit Hike",
+          "detail": "Trek to the 2,407-meter pass summit for panoramic views of the Säntis massif and surrounding Alpine peaks.",
+          "lat": 46.8067,
+          "lng": 8.9742
+        },
+        {
+          "id": "pani_2",
+          "text": "Panixer Glacier Viewing",
+          "detail": "Observe the receding Panixer Glacier from designated viewpoints along the pass road, documenting its retreat over decades.",
+          "lat": 46.8083,
+          "lng": 8.9733
+        },
+        {
+          "id": "pani_3",
+          "text": "Schächenthal Valley Trek",
+          "detail": "Descend the Uri side of the pass into the dramatic Schächenthal valley, known for its narrow gorges and pristine streams.",
+          "lat": 46.7958,
+          "lng": 8.9625
+        },
+        {
+          "id": "pani_4",
+          "text": "Mountain Biking Panixerpass Road",
+          "detail": "Ride the challenging serpentine road from the Glarus side, gaining elevation through 22 hairpin turns with increasingly expansive views.",
+          "lat": 46.795,
+          "lng": 8.985
+        },
+        {
+          "id": "pani_5",
+          "text": "Säntis Ridge Walking",
+          "detail": "Access multi-hour ridge walks from the pass connecting nearby peaks with exposure to raw limestone formations and glacier-carved valleys.",
+          "lat": 46.81,
+          "lng": 8.97
+        },
+        {
+          "id": "pani_6",
+          "text": "Wildflower Photography Spring to Summer",
+          "detail": "Capture alpine wildflower meadows blooming from June through August on the surrounding slopes and pass approaches.",
+          "lat": 46.8067,
+          "lng": 8.9742
+        },
+        {
+          "id": "pani_7",
+          "text": "Geological Study of Säntis Formation",
+          "detail": "Examine the exposed Säntis limestone and shale layers along the pass, revealing Mesozoic marine sediments from ancient Tethys Ocean.",
+          "lat": 46.8067,
+          "lng": 8.9742
+        }
+      ],
+      "food": [
+        {
+          "id": "pani_f1",
+          "text": "Älplermagronen",
+          "detail": "A regional pasta dish combining egg noodles, potatoes, and cheese, served with crispy onions and apple compote, traditional to Alpine valleys."
+        },
+        {
+          "id": "pani_f2",
+          "text": "Glarner Pastete",
+          "detail": "A savory meat pie filled with veal or pork, mushrooms, and local herbs, reflecting Glarus canton's culinary heritage."
+        },
+        {
+          "id": "pani_f3",
+          "text": "Fondue Alpestre",
+          "detail": "A melted cheese blend using local Glarus and Uri mountain cheeses, served with bread and paired with local white wines."
+        },
+        {
+          "id": "pani_f4",
+          "text": "Bratwurst from Mountain Dairies",
+          "detail": "Smoked sausages made from Alpine dairy herd meat, often grilled at pass huts and served with fresh mountain bread."
+        },
+        {
+          "id": "pani_f5",
+          "text": "Tarte aux Myrtilles",
+          "detail": "A bilberry tart using wild berries foraged from the surrounding Alpine slopes, served warm in mountain restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pani_c1",
+          "text": "Pass Road Safety Timing",
+          "detail": "Travel the narrow, winding pass road between mid-June and mid-October; snow and rockfall closures are common outside this window, and conditions change rapidly."
+        },
+        {
+          "id": "pani_c2",
+          "text": "Respect Mountain Hut Etiquette",
+          "detail": "Alpine huts along the pass operate on an honor system; register arrivals, respect quiet hours after 10 PM, and carry sufficient cash as card readers are unreliable."
+        },
+        {
+          "id": "pani_c3",
+          "text": "Learn Basic Mountain Weather Signs",
+          "detail": "Alpine weather shifts within 15 minutes; observe cloud movement over the Säntis massif and retreat to lower elevations if clouds descend rapidly or thunder approaches."
+        },
+        {
+          "id": "pani_c4",
+          "text": "Support Local Dairy Cooperatives",
+          "detail": "Purchase cheese and dairy products directly from cooperative stands near the pass to support traditional Alpine farming families who maintain the landscape and cultural identity."
+        }
+      ]
+    },
+    {
+      "id": "tschingelhoren",
+      "name": "Tschingelhoren",
+      "nameIt": "Tschingelhoren",
+      "lat": 46.9528,
+      "lng": 8.8986,
+      "type": "NATURE",
+      "description": "A striking 2,186-meter peak known for its distinctive pale limestone formations and panoramic views of the Glarus Alps. The mountain is a favorite destination for hikers seeking dramatic scenery and accessible Alpine experiences.",
+      "imageQueries": [
+        "Tschingelhoren mountain Glarus",
+        "Tschingelhoren pale limestone peaks"
+      ],
+      "activities": [
+        {
+          "id": "tsch_1",
+          "text": "Hiking to the Summit",
+          "detail": "Follow the well-marked trail from Fronalpstock or Linthal valley to reach the 2,186-meter peak, typically taking 3–4 hours for a rewarding alpine panorama.",
+          "lat": 46.6533,
+          "lng": 8.9317
+        },
+        {
+          "id": "tsch_2",
+          "text": "Photography of Limestone Formations",
+          "detail": "Capture the distinctive pale limestone cliffs and geological formations that make Tschingelhoren instantly recognizable across the Glarus Alps."
+        },
+        {
+          "id": "tsch_3",
+          "text": "Wildlife Observation",
+          "detail": "Spot alpine marmots, chamois, and golden eagles in their natural habitat while traversing the higher meadows and rocky slopes."
+        },
+        {
+          "id": "tsch_4",
+          "text": "Sunrise Hike from Glarus Valley",
+          "detail": "Depart early from the Linthal or Glarus base to watch the sun illuminate the surrounding peaks from Tschingelhoren's summit.",
+          "lat": 46.6533,
+          "lng": 8.9317
+        },
+        {
+          "id": "tsch_5",
+          "text": "Traverse to Säntis Massif",
+          "detail": "Combine Tschingelhoren with a multi-day Alpine crossing toward the Säntis region for experienced hikers seeking extended ridge walking."
+        },
+        {
+          "id": "tsch_6",
+          "text": "Botanical Survey",
+          "detail": "Explore subalpine and alpine vegetation zones, including rare limestone-loving plants and seasonal wildflower displays in early summer."
+        }
+      ],
+      "food": [
+        {
+          "id": "tsch_f1",
+          "text": "Älplermagronen",
+          "detail": "This Glarus specialty of layered pasta, potatoes, and cheese curds is traditionally served at mountain huts and valley restaurants with applesauce."
+        },
+        {
+          "id": "tsch_f2",
+          "text": "Magliäs Fondue",
+          "detail": "Melted cheese served as a communal dish is a cherished Glarus tradition, often enjoyed after long hikes at local inns."
+        },
+        {
+          "id": "tsch_f3",
+          "text": "Glarner Fleisch (Braised Meat)",
+          "detail": "Slow-braised beef or venison with red wine and root vegetables reflects regional Alpine cooking and is served at valley guesthouses."
+        },
+        {
+          "id": "tsch_f4",
+          "text": "Fresh Mountain Dairy Products",
+          "detail": "Stop at local dairies or mountain restaurants for fresh butter, cream, and hard Alpine cheeses produced in the surrounding Glarus valleys."
+        },
+        {
+          "id": "tsch_f5",
+          "text": "Rösti with Cheese",
+          "detail": "Crispy potato pancakes topped with melted cheese and sometimes topped with an egg, a hearty staple at hiking huts and village cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tsch_c1",
+          "text": "Start Early and Check Weather",
+          "detail": "Mountain conditions change rapidly; locals recommend departing before 7 AM and consulting current forecasts, as sudden fog or storms are common."
+        },
+        {
+          "id": "tsch_c2",
+          "text": "Respect Protected Areas",
+          "detail": "The limestone formation and surrounding slopes are ecologically sensitive; stay on marked trails and avoid disturbing vegetation or wildlife."
+        },
+        {
+          "id": "tsch_c3",
+          "text": "Greet Fellow Hikers",
+          "detail": "Swiss mountain culture values friendly acknowledgment—a simple 'Grüezi' or 'Grüetzi' exchange is expected when passing other walkers on the trail."
+        },
+        {
+          "id": "tsch_c4",
+          "text": "Wear Proper Alpine Gear",
+          "detail": "Even summer hikes demand sturdy boots, layers, and rain protection; weather at 2,186 meters can be harsh despite fair conditions in the valley."
+        }
+      ]
+    },
+    {
+      "id": "elm_village",
+      "name": "Elm",
+      "nameIt": "Elm",
+      "lat": 46.8903,
+      "lng": 8.9619,
+      "type": "VILLAGE",
+      "description": "A picturesque Alpine village famous as a center for traditional hand-painted textiles and crafts, with charming wooden buildings reflecting Glarus heritage. The village serves as a gateway to stunning hiking trails and the surrounding Glarus mountains.",
+      "imageQueries": [
+        "Elm village Glarus Switzerland",
+        "Elm traditional Swiss crafts"
+      ],
+      "activities": [
+        {
+          "id": "elm__1",
+          "text": "Visit the Textile Museum",
+          "detail": "Explore Elm's renowned hand-painted textile tradition and see historic examples of the Schinnereihandwerk (hand-painted linen) that made the village famous.",
+          "lat": 46.8567,
+          "lng": 8.9283
+        },
+        {
+          "id": "elm__2",
+          "text": "Hike to the Säntis",
+          "detail": "Undertake a popular full-day alpine hike from Elm to the Säntis peak, offering panoramic views of the Appenzell Alps and surrounding glacial valleys.",
+          "lat": 47.2269,
+          "lng": 9.045
+        },
+        {
+          "id": "elm__3",
+          "text": "Explore the Sernf Gorge",
+          "detail": "Walk through the dramatic limestone gorge with turquoise waters and towering canyon walls, accessible via easy trails from the village center.",
+          "lat": 46.8533,
+          "lng": 8.92
+        },
+        {
+          "id": "elm__4",
+          "text": "Tour a Traditional Weaving Workshop",
+          "detail": "Visit a working artisan studio to watch local craftspeople hand-paint and weave traditional linen textiles using centuries-old techniques.",
+          "lat": 46.8575,
+          "lng": 8.9275
+        },
+        {
+          "id": "elm__5",
+          "text": "Climb Mount Säntis via Schäfler Pass",
+          "detail": "Challenge yourself with a moderate alpine route that passes through high meadows and offers intimate views of the Glarus mountains.",
+          "lat": 46.9,
+          "lng": 8.95
+        },
+        {
+          "id": "elm__6",
+          "text": "Stroll Through Historic Village Streets",
+          "detail": "Wander past well-preserved wooden chalets with decorative shutters and window boxes, photographing the quintessential Appenzell Alpine architecture."
+        }
+      ],
+      "food": [
+        {
+          "id": "elm__f1",
+          "text": "Älplermagronen",
+          "detail": "A hearty local pasta dish made with potatoes, macaroni, cheese, and topped with fried onions, representing traditional Alpine mountain cuisine."
+        },
+        {
+          "id": "elm__f2",
+          "text": "Appenzell Cheese",
+          "detail": "Taste the pungent, herb-infused hard cheese produced in nearby dairies using milk from Alpine pastures and aged in traditional cellars."
+        },
+        {
+          "id": "elm__f3",
+          "text": "Birchermüesli",
+          "detail": "Sample this Swiss breakfast staple of rolled oats, fresh local fruit, yogurt, and nuts, believed to have origins in the nearby Alpine regions."
+        },
+        {
+          "id": "elm__f4",
+          "text": "Bratwurst",
+          "detail": "Enjoy grilled Swiss-style bratwurst sausage at mountain restaurants, often served with rosti or fresh bread during hiking season."
+        },
+        {
+          "id": "elm__f5",
+          "text": "Local Honey and Herbal Infusions",
+          "detail": "Purchase artisan honey from Alpine wildflower meadows and herbal teas using mountain plants at village shops and farmers' markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "elm__c1",
+          "text": "Respect Hiking Trails and Seasons",
+          "detail": "Follow marked trails strictly, respect private property boundaries, and check weather forecasts before hiking, as mountain conditions change rapidly in summer and snow closes passes by October."
+        },
+        {
+          "id": "elm__c2",
+          "text": "Learn Basic Swiss German Phrases",
+          "detail": "While most locals speak English, learning simple greetings in Swiss German such as 'Grüezi' and 'Merci' is greatly appreciated and enhances your connection with artisans and shopkeepers."
+        },
+        {
+          "id": "elm__c3",
+          "text": "Shop Local for Authentic Textiles",
+          "detail": "Purchase hand-painted linens and crafts directly from village studios and cooperatives rather than tourist shops to ensure authenticity and support local artisans."
+        },
+        {
+          "id": "elm__c4",
+          "text": "Plan Meals and Transport Ahead",
+          "detail": "Restaurants and shops have limited hours, especially off-season, and public transport (PostBus) runs infrequently, so confirm schedules and book accommodations well in advance."
+        }
+      ]
+    },
+    {
+      "id": "glarus_valley",
+      "name": "Glarus Valley",
+      "nameIt": "Glarnerland",
+      "lat": 46.93,
+      "lng": 8.94,
+      "type": "NATURE",
+      "description": "A broad Alpine valley stretching north-south between dramatic mountain peaks, offering lush meadows, rushing streams, and excellent infrastructure for outdoor activities. The valley represents the heart of the canton and is perfect for experiencing authentic Swiss Alpine landscape.",
+      "imageQueries": [
+        "Glarus Valley Switzerland mountains",
+        "Glarnerland meadows panorama"
+      ],
+      "activities": [
+        {
+          "id": "glar_1",
+          "text": "Hiking the Säntis Trail",
+          "detail": "Trek to the 2,502-meter Säntis peak via well-marked alpine paths offering panoramic views across the Appenzell Alps and northeastern Switzerland.",
+          "lat": 47.228,
+          "lng": 9.245
+        },
+        {
+          "id": "glar_2",
+          "text": "Klöntal Lake Loop",
+          "detail": "A scenic valley walk around turquoise Klöntal lake surrounded by steep rock walls, combining easy walking with dramatic mountain photography opportunities.",
+          "lat": 47.073,
+          "lng": 9.093
+        },
+        {
+          "id": "glar_3",
+          "text": "Rafting on the Linth River",
+          "detail": "Experience white-water rafting or kayaking on the glacier-fed Linth as it rushes through the valley, suitable for various skill levels.",
+          "lat": 47.05,
+          "lng": 9.07
+        },
+        {
+          "id": "glar_4",
+          "text": "Mountaineering at Tödi",
+          "detail": "Climb the Glarus Alps' highest peak (3,614 meters) via alpine routes that require mountaineering experience and provide stunning glacier and rock scenery.",
+          "lat": 46.768,
+          "lng": 8.923
+        },
+        {
+          "id": "glar_5",
+          "text": "Cycling the Valley Floor",
+          "detail": "Ride dedicated cycling paths following the Linth Valley floor between Glarus town and surrounding villages, ideal for leisurely family cycling.",
+          "lat": 47.04,
+          "lng": 9.07
+        },
+        {
+          "id": "glar_6",
+          "text": "Climbing at Gärn Rocks",
+          "detail": "Access traditional and sport climbing routes on natural rock formations within the valley, popular with climbers of all skill levels.",
+          "lat": 47.065,
+          "lng": 9.15
+        }
+      ],
+      "food": [
+        {
+          "id": "glar_f1",
+          "text": "Alpenkäse (Alpine Cheese)",
+          "detail": "Sample Glarus' famous hard Alpine cheese, traditionally made from unpasteurized milk in mountain dairies, with a nutty flavor and crumbly texture."
+        },
+        {
+          "id": "glar_f2",
+          "text": "Bratwurst and Rösti",
+          "detail": "Try locally-produced bratwurst paired with crispy rösti (shredded potato pancakes), a hearty Glarus Alpine staple found in mountain restaurants."
+        },
+        {
+          "id": "glar_f3",
+          "text": "Älplermagronen",
+          "detail": "Enjoy this regional pasta dish mixed with potatoes, cheese, and onions, then topped with applesauce—comfort food of valley farmers and herders."
+        },
+        {
+          "id": "glar_f4",
+          "text": "Ziegenkäse (Goat Cheese)",
+          "detail": "Taste small-scale goat cheese productions from local dairies, ranging from fresh and creamy to aged varieties with distinctive Alpine herb flavors."
+        },
+        {
+          "id": "glar_f5",
+          "text": "Kirsch and Zwetschgen",
+          "detail": "Sample local fruit brandies distilled from cherries and plums grown in the valley's microclimate, often sipped as digestifs after meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "glar_c1",
+          "text": "Sunday Alpine Processions",
+          "detail": "The valley maintains traditional Catholic processions and Alpine folk traditions; Sundays often feature community gatherings and religious observances deeply rooted in local identity."
+        },
+        {
+          "id": "glar_c2",
+          "text": "Valley Cowbell Traditions",
+          "detail": "Glarus valley cows wear distinctive hand-cast bells unique to each family; visitors may encounter bell-making workshops and hear the iconic sound defining Alpine pastures."
+        },
+        {
+          "id": "glar_c3",
+          "text": "Mountain Dairy Visits",
+          "detail": "Visit functioning alpine dairies (Sennereien) during summer months to witness traditional cheese-making; many offer tastings and explain centuries-old production methods."
+        },
+        {
+          "id": "glar_c4",
+          "text": "Local Dialect Awareness",
+          "detail": "The Glarus dialect differs markedly from standard German; locals appreciate visitors' attempts to engage with regional language and customs rather than assuming English."
+        }
+      ]
+    },
+    {
+      "id": "fridolinsmunster",
+      "name": "St. Fridolin's Church",
+      "nameIt": "Fridolinsmünster",
+      "lat": 46.9948,
+      "lng": 8.9259,
+      "type": "LANDMARK",
+      "description": "An important medieval church in Glarus town dedicated to the region's patron saint, featuring Romanesque architecture and significant religious artworks. The church is central to understanding Glarus's religious and cultural heritage.",
+      "imageQueries": [
+        "Fridolinsmünster Glarus church",
+        "St Fridolin Church Switzerland"
+      ],
+      "activities": [
+        {
+          "id": "frid_1",
+          "text": "Admire the Romanesque Architecture",
+          "detail": "Study the church's distinctive rounded arches, sturdy columns, and ornamental stonework that exemplify 12th-century Alpine religious design."
+        },
+        {
+          "id": "frid_2",
+          "text": "View the Choir Stalls and Wooden Carvings",
+          "detail": "Examine the intricately carved wooden choir stalls inside the church, which showcase skilled craftsmanship from the medieval and Renaissance periods."
+        },
+        {
+          "id": "frid_3",
+          "text": "Attend a Sunday Service",
+          "detail": "Experience the living religious tradition of the church by attending a Protestant service, as the church has been Reformed since the 16th century."
+        },
+        {
+          "id": "frid_4",
+          "text": "Study the Stained Glass Windows",
+          "detail": "Observe the detailed stained glass windows that illustrate scenes from St. Fridolin's life and religious narratives important to the Glarus region."
+        },
+        {
+          "id": "frid_5",
+          "text": "Explore the Church Treasury",
+          "detail": "Request access to view sacred vessels, vestments, and manuscripts held in the church's collection that document centuries of worship history."
+        },
+        {
+          "id": "frid_6",
+          "text": "Walk Around the Church Exterior",
+          "detail": "Circle the building to appreciate its exterior stonework, buttresses, and the relationship between the church and Glarus's historic town center."
+        }
+      ],
+      "food": [
+        {
+          "id": "frid_f1",
+          "text": "Glarus Bratwurst",
+          "detail": "A spiced pork sausage specialty from the canton, often grilled and served with mustard and crusty bread at local restaurants near the church."
+        },
+        {
+          "id": "frid_f2",
+          "text": "Mutschli (Glarus Cheese Pie)",
+          "detail": "A savory pastry filled with cheese, leeks, and spices that represents the region's agricultural heritage and is available at local bakeries."
+        },
+        {
+          "id": "frid_f3",
+          "text": "Glarner Pastete",
+          "detail": "A traditional meat pie wrapped in pastry dough, typically filled with veal or pork and herbs, served at restaurants throughout Glarus town."
+        },
+        {
+          "id": "frid_f4",
+          "text": "Älplermagronen",
+          "detail": "Alpine pasta combined with potatoes, cheese, and onions—a hearty local comfort food reflecting mountain culinary traditions."
+        },
+        {
+          "id": "frid_f5",
+          "text": "Glarner Honig (Glarus Honey)",
+          "detail": "Local honey from the surrounding Alpine meadows, available at market stalls and local shops, embodying the region's natural bounty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "frid_c1",
+          "text": "Respect Quiet Hours in the Church",
+          "detail": "Remember that St. Fridolin's remains an active place of worship; speak quietly and avoid visiting during services unless you intend to participate respectfully."
+        },
+        {
+          "id": "frid_c2",
+          "text": "Learn About St. Fridolin's Significance",
+          "detail": "The 6th-century Irish monk is Glarus's patron saint, and understanding his legend—that he brought Christianity and prosperity to the region—deepens appreciation for the church's cultural importance."
+        },
+        {
+          "id": "frid_c3",
+          "text": "Visit During Glarus Landsgemeinde Season",
+          "detail": "If possible, time your visit around late April or May when the canton holds its traditional open-air parliament, reflecting the democratic traditions deeply rooted in this community."
+        },
+        {
+          "id": "frid_c4",
+          "text": "Explore the Town Center Connection",
+          "detail": "The church sits at the heart of Glarus's Hauptplatz (main square), so visiting allows you to understand how medieval religious architecture shaped the town's layout and civic identity."
+        }
+      ]
+    },
+    {
+      "id": "appenzell_alps",
+      "name": "Appenzell Alps",
+      "nameIt": "Appenzeller Alpen",
+      "lat": 47.32,
+      "lng": 8.9,
+      "type": "NATURE",
+      "description": "A stunning mountain range forming the northeastern boundary of Glarus canton, featuring rolling peaks, pristine forests, and traditional Alpine pastures. This region offers excellent hiking and is known for its unspoiled natural beauty and cultural traditions.",
+      "imageQueries": [
+        "Appenzell Alps Säntis",
+        "Appenzeller Alpen hiking trails"
+      ],
+      "activities": [
+        {
+          "id": "appe_1",
+          "text": "Säntis Summit Hike",
+          "detail": "Trek to the 2,502-meter peak offering panoramic views across six countries and featuring the historic Säntis mountain station.",
+          "lat": 47.2483,
+          "lng": 9.3458
+        },
+        {
+          "id": "appe_2",
+          "text": "Appenzell Alps Trail Network",
+          "detail": "Navigate the extensive marked hiking routes connecting traditional villages, Alpine meadows, and mountain huts throughout the region.",
+          "lat": 47.3167,
+          "lng": 9.4167
+        },
+        {
+          "id": "appe_3",
+          "text": "Alpstein Massif Exploration",
+          "detail": "Explore this dramatic limestone formation with its steep cliffs, deep valleys, and world-class rock climbing opportunities."
+        },
+        {
+          "id": "appe_4",
+          "text": "Traditional Cheese Dairy Visit",
+          "detail": "Tour active Alpine dairy farms where Appenzell cheese is produced using centuries-old methods in mountain huts.",
+          "lat": 47.3333,
+          "lng": 9.3667
+        },
+        {
+          "id": "appe_5",
+          "text": "Säntis Cable Car Experience",
+          "detail": "Ride the modern cable car from Schwägalp to the summit for quick access to views and mountain restaurants.",
+          "lat": 47.2467,
+          "lng": 9.3433
+        },
+        {
+          "id": "appe_6",
+          "text": "Alpine Meadow Photography",
+          "detail": "Capture the region's stunning wildflower meadows, traditional chalets, and mountain scenery during spring and early summer blooms."
+        }
+      ],
+      "food": [
+        {
+          "id": "appe_f1",
+          "text": "Appenzeller Cheese",
+          "detail": "Sample the region's famous semi-hard cheese with its distinctive herb blend, eaten fresh or aged for deeper flavor."
+        },
+        {
+          "id": "appe_f2",
+          "text": "Appenzeller Biber",
+          "detail": "Enjoy these spiced gingerbread cookies with intricate embossed designs, a traditional specialty of the Appenzell region."
+        },
+        {
+          "id": "appe_f3",
+          "text": "Bratwurst and Local Sausages",
+          "detail": "Taste the herbed, finely-ground sausages unique to the Appenzell Alps, often grilled at mountain restaurants."
+        },
+        {
+          "id": "appe_f4",
+          "text": "Alpine Dairy Milk Products",
+          "detail": "Try fresh mountain yogurt, butter, and fresh milk from high-altitude pastures with distinct flavor from Alpine herbs."
+        },
+        {
+          "id": "appe_f5",
+          "text": "Älplermagronen",
+          "detail": "Experience this hearty pasta and potato dish topped with cheese and crispy onions, a traditional Alpine comfort meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "appe_c1",
+          "text": "Respect Alpine Dairy Traditions",
+          "detail": "Many mountain farms operate with centuries-old customs; ask permission before photographing cows or entering pastures, and support local producers."
+        },
+        {
+          "id": "appe_c2",
+          "text": "Hiking Protocol",
+          "detail": "Stay on marked trails, close all gates behind you, and greet other hikers with 'Grüezi'—local friendliness is expected on the mountains."
+        },
+        {
+          "id": "appe_c3",
+          "text": "Traditional Costume Significance",
+          "detail": "You may encounter locals in traditional Appenzell dress during festivals and markets; these represent regional pride and should be appreciated respectfully."
+        },
+        {
+          "id": "appe_c4",
+          "text": "Mountain Restaurant Etiquette",
+          "detail": "Alpine huts often require reservation for meals, especially on weekends; tip staff 5-10% and expect slower service due to remote location."
+        }
+      ]
+    },
+    {
+      "id": "clarenbach",
+      "name": "Clarenbach",
+      "nameIt": "Clarenbach",
+      "lat": 46.8544,
+      "lng": 8.9789,
+      "type": "VILLAGE",
+      "description": "A small mountain village offering authentic Alpine village atmosphere with traditional architecture and access to excellent hiking routes. The village provides a peaceful base for exploring the southern Glarus mountains.",
+      "imageQueries": [
+        "Clarenbach village Glarus",
+        "Clarenbach Alpine Switzerland"
+      ],
+      "activities": [
+        {
+          "id": "clar_1",
+          "text": "Hiking to Säntis",
+          "detail": "A challenging day hike from Clarenbach to the nearby Säntis peak offering panoramic views of the Appenzell Alps and Glarus valley.",
+          "lat": 47.2253,
+          "lng": 9.2544
+        },
+        {
+          "id": "clar_2",
+          "text": "Braunwald Village Walk",
+          "detail": "Explore the car-free mountain village of Braunwald, accessible via cable car from nearby Linthal, featuring traditional chalets and Alpine meadows.",
+          "lat": 46.9967,
+          "lng": 8.9644
+        },
+        {
+          "id": "clar_3",
+          "text": "Linthal Valley Cycling",
+          "detail": "Cycle through the scenic Linthal valley on well-maintained regional routes connecting traditional villages and mountain streams.",
+          "lat": 46.9967,
+          "lng": 9.0644
+        },
+        {
+          "id": "clar_4",
+          "text": "Traditional Alphorn Playing Demonstration",
+          "detail": "Visit local farmers or cultural centers in the region to hear authentic Alphorn performances, a living tradition in Glarus valleys.",
+          "lat": 47.0344,
+          "lng": 9.1078
+        },
+        {
+          "id": "clar_5",
+          "text": "Clarenbach Church Architecture Tour",
+          "detail": "Study the small village church featuring traditional Glarner stone construction and religious heritage dating back several centuries.",
+          "lat": 47.0344,
+          "lng": 9.1078
+        },
+        {
+          "id": "clar_6",
+          "text": "Wildlishohe Ridge Traverse",
+          "detail": "Undertake a moderate ridge walk from Clarenbach offering sweeping vistas of the Glarus Alps and limestone formations characteristic of the region."
+        }
+      ],
+      "food": [
+        {
+          "id": "clar_f1",
+          "text": "Glarner Pastry (Glarner Wädeli)",
+          "detail": "A traditional flaky pastry filled with dried fruit and nuts, a regional specialty served with coffee in mountain villages throughout Glarus."
+        },
+        {
+          "id": "clar_f2",
+          "text": "Älplermagronen",
+          "detail": "A hearty Alpine pasta dish layered with potatoes, cheese, and onions, commonly prepared in mountain huts and village restaurants."
+        },
+        {
+          "id": "clar_f3",
+          "text": "Appenzeller Cheese",
+          "detail": "A pungent semi-hard cheese from the neighboring Appenzell region, aged and served at local farms with fresh bread and fruit."
+        },
+        {
+          "id": "clar_f4",
+          "text": "Bratwurst from Local Butchers",
+          "detail": "Smoked sausages prepared according to traditional Alpine recipes, available fresh at village meat shops and served at mountain rest stops."
+        },
+        {
+          "id": "clar_f5",
+          "text": "Mountain Spring Water and Herbal Teas",
+          "detail": "Pure alpine water sourced locally and herbal infusions made from mountain herbs gathered in the surrounding meadows during summer months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "clar_c1",
+          "text": "Respect Mountain Weather Changes",
+          "detail": "Alpine weather can shift rapidly; locals advise bringing layered clothing and checking forecasts before hiking, as conditions change within minutes."
+        },
+        {
+          "id": "clar_c2",
+          "text": "Greet with Local Swiss Courtesy",
+          "detail": "Use 'Grüezi' as a greeting and 'Auf Wiedersehen' when departing; these traditional salutations are deeply valued in conservative Alpine communities."
+        },
+        {
+          "id": "clar_c3",
+          "text": "Support Local Agriculture",
+          "detail": "Purchase directly from farmers and village shops rather than chain stores; the local economy depends on agritourism and traditional farming practices."
+        },
+        {
+          "id": "clar_c4",
+          "text": "Follow Alpine Hiking Protocols",
+          "detail": "Stay on marked trails, close all gates behind you, and avoid disturbing grazing animals; these customs protect private Alpine pastures and livestock."
+        }
+      ]
+    },
+    {
+      "id": "naefels_huelsikon",
+      "name": "Näfels-Huelsikon",
+      "nameIt": "Näfels-Huelsikon",
+      "lat": 47.0958,
+      "lng": 8.9469,
+      "type": "TOWN",
+      "description": "A historic town in the north of Glarus canton, site of an important 1388 battle and home to the Freulerpalast, an impressive Renaissance palace showcasing regional history. The town offers cultural attractions and serves as a gateway to northern Glarus.",
+      "imageQueries": [
+        "Näfels Huelsikon Switzerland",
+        "Freulerpalast Renaissance palace"
+      ],
+      "activities": [
+        {
+          "id": "naef_1",
+          "text": "Freulerpalast Museum",
+          "detail": "Explore this magnificent Renaissance palace that houses exhibitions on regional history, traditional crafts, and local heritage of the Glarus region.",
+          "lat": 47.0479,
+          "lng": 8.9665
+        },
+        {
+          "id": "naef_2",
+          "text": "Battle of Näfels Historic Site",
+          "detail": "Visit the location of the pivotal 1388 battle where the Glarus militia defeated the Habsburg army, a defining moment in Swiss independence.",
+          "lat": 47.0476,
+          "lng": 8.9648
+        },
+        {
+          "id": "naef_3",
+          "text": "St. Fridolin Church",
+          "detail": "Discover this historic church in nearby Glarus town with its distinctive architecture and religious significance dating back centuries.",
+          "lat": 47.0397,
+          "lng": 8.9715
+        },
+        {
+          "id": "naef_4",
+          "text": "Linthebene Valley Walks",
+          "detail": "Walk through the picturesque valley landscapes surrounding Näfels-Huelsikon, offering views of the Appenzell Alps and traditional Swiss countryside.",
+          "lat": 47.05,
+          "lng": 8.97
+        },
+        {
+          "id": "naef_5",
+          "text": "Local Crafts Markets",
+          "detail": "Browse seasonal markets showcasing traditional Glarus textiles, linen products, and regional artisan goods."
+        },
+        {
+          "id": "naef_6",
+          "text": "Säntis Mountain Access",
+          "detail": "Use Näfels as a gateway to hiking trails leading toward the Säntis massif and northern Glarus alpine terrain."
+        }
+      ],
+      "food": [
+        {
+          "id": "naef_f1",
+          "text": "Glarus Bratwurst",
+          "detail": "Sample the region's famous pork sausage, traditionally prepared and grilled, often served at local restaurants and markets."
+        },
+        {
+          "id": "naef_f2",
+          "text": "Glarus Schabziger (Sapsago)",
+          "detail": "Taste this unique green cheese made from skimmed milk and herbs, a protected specialty product of the Glarus region with a distinctive clover flavor."
+        },
+        {
+          "id": "naef_f3",
+          "text": "Älplermagronen",
+          "detail": "Try this hearty Alpine pasta dish with potatoes, cheese, and onions, a traditional comfort food in the canton."
+        },
+        {
+          "id": "naef_f4",
+          "text": "Appenzell Cheese",
+          "detail": "Enjoy the aromatic washed-rind cheese from nearby Appenzell region, frequently available in local cheese shops and restaurants."
+        },
+        {
+          "id": "naef_f5",
+          "text": "Kirschentorte (Cherry Cake)",
+          "detail": "Indulge in this regional Swiss-style cherry cake, a local specialty often found in traditional bakeries and cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "naef_c1",
+          "text": "Respect for Swiss History",
+          "detail": "Understand that the 1388 Battle of Näfels is a source of deep pride for locals and represents an important chapter in Swiss freedom and independence."
+        },
+        {
+          "id": "naef_c2",
+          "text": "Textile Heritage",
+          "detail": "Glarus has a strong tradition of linen and textile production; visitors may encounter references to this craft heritage throughout the region."
+        },
+        {
+          "id": "naef_c3",
+          "text": "Local Dialect",
+          "detail": "Many residents speak Swiss German (Glärner dialect) in daily conversation, though English and Standard German are widely understood in tourist areas."
+        },
+        {
+          "id": "naef_c4",
+          "text": "Quiet Respect for Museums",
+          "detail": "Observe traditional Swiss decorum when visiting the Freulerpalast and other cultural sites—quiet, respectful behavior is expected and appreciated."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Säntis",
+      "address": "Hauptstrasse 50, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Traditional Swiss cuisine in a historic setting with local specialties and hearty alpine dishes.",
+      "mustOrder": "Älplermagronen",
+      "lat": 46.9885,
+      "lng": 8.9625
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Restaurant Frutt",
+      "address": "Frutt, Glarus",
+      "neighbourhood": "Glarus (mountain)",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Mountain restaurant accessible by cable car offering panoramic views and traditional Glarner cuisine.",
+      "mustOrder": "Bratwurst with rösti",
+      "lat": 47.0142,
+      "lng": 8.9267
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Adler",
+      "address": "Marktplatz 2, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Swiss/International",
+      "priceRange": "€€€",
+      "description": "Elegant historic inn dating back centuries with refined Swiss and international cuisine.",
+      "mustOrder": "Filet of alpine char",
+      "lat": 46.9872,
+      "lng": 8.9632
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Restaurant Bahnhof",
+      "address": "Bahnhofstrasse 14, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Classic railway station restaurant serving traditional comfort food and local specialties.",
+      "mustOrder": "Geschnetzeltes (sliced veal)",
+      "lat": 46.9842,
+      "lng": 8.9651
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Zur Post",
+      "address": "Hauptstrasse 61, Näfels",
+      "neighbourhood": "Näfels",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Historic post house inn with warm atmosphere serving traditional Glarner and Swiss fare.",
+      "mustOrder": "Glarner Fleischknack",
+      "lat": 46.9742,
+      "lng": 9.0108
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Restaurant Glarnischhütte",
+      "address": "Glarnischweg, Glarus",
+      "neighbourhood": "Glarus (hiking area)",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Alpine hut restaurant ideal for hikers offering hearty mountain cuisine and spectacular views.",
+      "mustOrder": "Fondue",
+      "lat": 47.0075,
+      "lng": 8.9445
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Rössli",
+      "address": "Hauptstrasse 27, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Family-run restaurant with cozy atmosphere serving reliable traditional Swiss dishes.",
+      "mustOrder": "Rösti with bacon and eggs",
+      "lat": 46.9881,
+      "lng": 8.9608
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Pizzeria Dal Forno",
+      "address": "Hauptstrasse 35, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Authentic Italian pizzeria with wood-fired oven and homemade pasta specialties.",
+      "mustOrder": "Pizza Margherita",
+      "lat": 46.9883,
+      "lng": 8.9618
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Restaurant Karussell",
+      "address": "Hafnerstrasse 3, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "International",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant with international cuisine and a focus on quality ingredients and presentation.",
+      "mustOrder": "Duck breast with cherry sauce",
+      "lat": 46.9895,
+      "lng": 8.9645
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Gasthaus zur Linde",
+      "address": "Dorfstrasse 12, Ennenda",
+      "neighbourhood": "Ennenda",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Traditional village inn with homey atmosphere and classic Swiss regional specialties.",
+      "mustOrder": "Älplermagronen",
+      "lat": 46.9645,
+      "lng": 8.9875
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Restaurant Grünwald",
+      "address": "Grünwaldstrasse 15, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Swiss/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant blending Swiss tradition with Mediterranean influences in an intimate setting.",
+      "mustOrder": "Lamb chops with herbs",
+      "lat": 46.9905,
+      "lng": 8.9585
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Taverna Ticinese",
+      "address": "Hauptstrasse 42, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Italian (Ticino)",
+      "priceRange": "€€",
+      "description": "Cozy Italian-Swiss restaurant featuring Ticinese specialties and warm Mediterranean hospitality.",
+      "mustOrder": "Risotto al funghi",
+      "lat": 46.9879,
+      "lng": 8.9625
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Restaurant Waldstatt",
+      "address": "Waldweg 8, Glarus",
+      "neighbourhood": "Glarus (forest area)",
+      "cuisine": "Swiss",
+      "priceRange": "€€",
+      "description": "Forest-side restaurant popular with locals offering traditional hearty fare and game specialties.",
+      "mustOrder": "Venison ragout",
+      "lat": 46.9755,
+      "lng": 8.9485
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Bäckerei-Café Kappeler",
+      "address": "Hauptstrasse 24, Glarus",
+      "neighbourhood": "Glarus",
+      "cuisine": "Café/Swiss",
+      "priceRange": "€",
+      "description": "Traditional bakery café offering fresh baked goods, light lunches, and quality Swiss coffee.",
+      "mustOrder": "Glarner Wädeli (pastry)",
+      "lat": 46.9884,
+      "lng": 8.9615
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Restaurant Säntisblick",
+      "address": "Panoramaweg 2, Elm",
+      "neighbourhood": "Elm",
+      "cuisine": "Swiss",
+      "priceRange": "€€€",
+      "description": "Scenic restaurant with spectacular mountain views serving refined Swiss cuisine and local wines.",
+      "mustOrder": "Char with almonds",
+      "lat": 46.8985,
+      "lng": 9.0645
+    }
+  ]
+}

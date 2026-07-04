@@ -1,0 +1,209 @@
+{
+  "title": "Getting Around",
+  "subtitle": "Trains, roads, taxis and how to move around Switzerland.",
+  "sections": [
+    {
+      "title": "National Trains [SBB/CFF/FFS]",
+      "icon": "train",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Reliability & frequency",
+          "text": "Swiss Federal Railways (SBB/CFF) run trains every 15–30 minutes on major routes, even on Sundays. Trains are almost always on time; delays over 3 minutes are rare and qualify you for compensation via the SBB app or ticket counter."
+        },
+        {
+          "kind": "tip",
+          "label": "Book in advance for discounts",
+          "text": "Buying tickets 1–2 weeks ahead on SBB.ch can save 20–40% on long-distance trains. Last-minute bookings cost full price, but you won't lose money if you cancel within 15 minutes of purchase."
+        },
+        {
+          "kind": "rule",
+          "label": "Validate tickets before boarding",
+          "text": "All paper tickets must be stamped at orange machines on the platform before boarding, or you risk a 100 CHF fine. Digital tickets from the SBB app are automatically valid."
+        },
+        {
+          "kind": "warn",
+          "text": "Rail strikes occasionally occur (typically 1–2 per year); check SBB.ch or the app for disruptions. During strikes, SBB often runs skeleton schedules and provides bus replacements."
+        }
+      ]
+    },
+    {
+      "title": "City Transit: Metros, Trams & Buses",
+      "icon": "transit",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Zone-based fares",
+          "text": "Most Swiss cities use zone systems: Zurich (ZVV), Geneva (TPG), Basel (BVB) and Bern (Libero). One ticket covers all modes (bus, tram, metro, local trains) within those zones for 1 hour."
+        },
+        {
+          "kind": "tip",
+          "label": "Real-time apps",
+          "text": "Download the city operator's app (e.g., ZVV, Citynavi for Bern) or use Google Maps for live departure boards, delays and route planning. Apps usually show which exit to use for your destination."
+        },
+        {
+          "kind": "warn",
+          "text": "Fare dodging carries a 100 CHF spot fine, plus potential legal follow-up. Inspectors conduct random checks, especially on trams and late-night buses."
+        },
+        {
+          "kind": "rule",
+          "label": "Prams & luggage rules",
+          "text": "Baby prams occupy a reserved area on most buses and trams; fold them or use the designated spaces. Large suitcases are allowed but should not block aisles."
+        }
+      ]
+    },
+    {
+      "title": "Taxis & Ride Apps",
+      "icon": "taxi",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Licensed taxi apps",
+          "text": "Use Uber, Bolt, or Taxi 444 (Switzerland-specific). All are regulated and show the fare estimate before you book; cash payment is usually not an option."
+        },
+        {
+          "kind": "warn",
+          "text": "Street hailing is rare; taxis are metered but difficult to flag down outside city centers. Always use an app or call your hotel concierge for a pre-booked taxi at 41 (0)44 forms number."
+        },
+        {
+          "kind": "tip",
+          "label": "Tipping custom",
+          "text": "Rounding up to the nearest 5 or 10 CHF is customary but not mandatory. You can tip through the app or leave cash."
+        },
+        {
+          "kind": "warn",
+          "text": "Surge pricing on Uber/Bolt during peak hours (evenings, weekends) can double fares. Public transit is often faster and cheaper in cities."
+        }
+      ]
+    },
+    {
+      "title": "Driving & Car Rentals",
+      "icon": "warning",
+      "items": [
+        {
+          "kind": "rule",
+          "label": "Vignette requirement",
+          "text": "All cars on Swiss motorways must display a annual vignette sticker (40 CHF). Rent cars pre-equipped or buy one at the border, petrol stations, or online; fines for non-compliance are 200 CHF."
+        },
+        {
+          "kind": "rule",
+          "label": "Speed limits & enforcement",
+          "text": "Motorways: 120 km/h, main roads: 100 km/h, towns: 50 km/h or 30 km/h zones. Speeding fines start at 40 CHF for minor violations and rise steeply; radar checks are frequent."
+        },
+        {
+          "kind": "warn",
+          "text": "Drink-driving limit is 0.5 mg/ml (stricter than many EU countries). Breathalyzers are common at checkpoints; penalties include heavy fines and license suspension."
+        },
+        {
+          "kind": "tip",
+          "label": "Alpine passes & parking",
+          "text": "Many alpine passes (Gotthard, San Bernardino) are toll-free with a vignette. Winter tyres are mandatory November–March in Alpine regions; rental cars come equipped. Parking in cities is metered and expensive (5–15 CHF/hour)."
+        },
+        {
+          "kind": "warn",
+          "text": "Sunday driving bans for trucks mean reduced traffic but potential congestion around Saturday–Sunday transition. Plan mountain drives for early morning or avoid weekends."
+        }
+      ]
+    },
+    {
+      "title": "Airports [Zurich, Geneva, Basel]",
+      "icon": "flight",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Train connections",
+          "text": "All three major Swiss airports have direct rail links: Zurich (SBB), Geneva (SNCF/SBB), and Basel (SBB). Trains depart every 15–30 minutes to city centers; journey times are 12–25 minutes and cost 15–20 CHF."
+        },
+        {
+          "kind": "tip",
+          "label": "Arrival connections",
+          "text": "Buy airport tickets at the train desk, machine, or SBB app before heading to the platform (located in the airport basement). No validation is needed for airport-purchased tickets."
+        },
+        {
+          "kind": "warn",
+          "text": "Taxis from airports are expensive (60–100 CHF to city center). Ride apps (Uber, Bolt) offer only slightly cheaper alternatives. Train is the fastest and cheapest option."
+        },
+        {
+          "kind": "rule",
+          "label": "Check-in & gate procedures",
+          "text": "Arrive 2 hours before EU/Schengen flights and 3 hours for intercontinental flights. Airport signs are clear and multilingual; follow blue departure/baggage signs."
+        }
+      ]
+    },
+    {
+      "title": "Lakes & Ferries [Boats]",
+      "icon": "boat",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Scenic boat routes",
+          "text": "Lake cruises on Zurich Lake, Lake Geneva, and Lake Lucerne are scenic alternatives to trains and included on many regional passes. Ferries are frequent (every 30–60 minutes) and run year-round on main routes."
+        },
+        {
+          "kind": "tip",
+          "label": "Integrated ticketing",
+          "text": "Most lake ferries accept the same regional pass (e.g., ZVV in Zurich, Libero in Bern). A standard zone ticket typically covers a short ferry journey within the same region."
+        },
+        {
+          "kind": "warn",
+          "text": "Winter schedules (November–March) are reduced; check operator websites (ZSG, CGN, ZVV) for timetables. Some smaller routes close entirely in winter."
+        }
+      ]
+    },
+    {
+      "title": "Tickets & Passes",
+      "icon": "star",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Swiss Travel Pass (multi-day)",
+          "text": "Valid for 3, 4, 8 or 15 days; covers unlimited trains, buses, ferries, and metro/tram across Switzerland. Non-residents save 30–50% versus buying daily tickets. Buy online or at any train station."
+        },
+        {
+          "kind": "tip",
+          "label": "City-specific passes",
+          "text": "Zurich Card, Geneva Pass, and Bern Card include 72 hours of free city transit and museum discounts. Usually 72 CHF–100 CHF for 72 hours; worth it if you plan multiple museum visits and stay in the city."
+        },
+        {
+          "kind": "tip",
+          "label": "Half-Fare Card",
+          "text": "If staying longer than a week, buy a Half-Fare Card (165 CHF for a year) for 50% off all SBB/regional trains. Break-even is around 8–10 long-distance journeys."
+        },
+        {
+          "kind": "rule",
+          "label": "How to buy tickets",
+          "text": "Use the SBB app (fastest, digital receipt), self-service machines (accept card & cash), or ticket counters (for complex journeys). Airport and major stations have English-language machines."
+        },
+        {
+          "kind": "warn",
+          "text": "Mobile ticket fraud is rare but possible; only buy from official SBB.ch, city operator apps, or physical machines. Third-party resellers (StubHub, etc.) are not recommended for Swiss transport."
+        }
+      ]
+    },
+    {
+      "title": "Connectivity & Mobile Networks",
+      "icon": "simcard",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Major providers & plans",
+          "text": "Swisscom, Vodafone, and Salt are the three main carriers; all offer 5–10 GB tourist plans for 20–40 CHF per week. Prepaid SIM cards are sold at airport kiosks, train stations, and convenience stores."
+        },
+        {
+          "kind": "tip",
+          "label": "WiFi availability",
+          "text": "Free WiFi is common in hotels, cafes, and libraries (connect to SBB_Free at train stations). Most restaurants and shops require a Swiss mobile number or app login for WiFi access."
+        },
+        {
+          "kind": "warn",
+          "text": "EU roaming works in Switzerland but charges 50–60 CHF per GB. A local SIM is much cheaper if you plan to stay more than a few days."
+        },
+        {
+          "kind": "tip",
+          "label": "Offline maps & transit apps",
+          "text": "Download offline maps (Google Maps, Maps.me) and the SBB app before traveling in areas with poor coverage (mountains, valleys). Transit apps work offline for reference but not real-time updates."
+        }
+      ]
+    }
+  ]
+}

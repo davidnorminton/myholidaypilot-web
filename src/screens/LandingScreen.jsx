@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Compass, Utensils, BookOpen, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2 } from 'lucide-react'
+import { ArrowRight, Compass, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2, CalendarDays, Landmark, UtensilsCrossed, TrainFront } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { useSettings } from '../lib/settings.js'
@@ -44,21 +44,36 @@ export default function LandingScreen() {
         </div>
       </section>
 
-      <section className="wrap band">
+      <section className="wrap band band--six">
         <div className="feature">
           <span className="feature__label"><Compass size={15} /> Region by region</span>
-          <h3>Countries, taken one region at a time</h3>
-          <p>Every region has its own character and kitchen. We map each one properly — Italy and Spain now, growing from there.</p>
+          <h3>Every region, properly mapped</h3>
+          <p>Each country broken into its real regions — and every region into its towns, cities, islands and parks, with the character of each.</p>
         </div>
         <div className="feature">
-          <span className="feature__label"><Utensils size={15} /> Do &amp; eat</span>
+          <span className="feature__label"><MapPin size={15} /> Places in depth</span>
           <h3>What each place is actually for</h3>
-          <p>Things to do in every town — walks, hiking trails, viewpoints, museums — plus local restaurants and the dish to order.</p>
+          <p>Every place comes with things to do — walks, viewpoints, museums, beaches — the food to try there, and the local customs worth knowing.</p>
         </div>
         <div className="feature">
-          <span className="feature__label"><BookOpen size={15} /> Stories, not listings</span>
-          <h3>The why, not just the where</h3>
-          <p>History, customs and culture for every place you'll stand in, so it means something when you get there.</p>
+          <span className="feature__label"><UtensilsCrossed size={15} /> Where to eat</span>
+          <h3>Restaurants worth crossing town for</h3>
+          <p>A curated list for every region — from old-school institutions to market stalls — each with the dish to order when you sit down.</p>
+        </div>
+        <div className="feature">
+          <span className="feature__label"><CalendarDays size={15} /> Festivals &amp; events</span>
+          <h3>Time your trip to something special</h3>
+          <p>A festival calendar for every country — carnivals, food fairs, saints' days and national holidays — so you can plan around the day it all happens.</p>
+        </div>
+        <div className="feature">
+          <span className="feature__label"><Landmark size={15} /> History, told properly</span>
+          <h3>The story behind the country</h3>
+          <p>A timeline from prehistory to today for every country — so the ruins, castles and old towns mean something when you stand in them.</p>
+        </div>
+        <div className="feature">
+          <span className="feature__label"><TrainFront size={15} /> Eat &amp; move like a local</span>
+          <h3>Food customs and getting around</h3>
+          <p>Practical guides to each country's food culture — how to order, what to avoid — and its trains, taxis and tickets, with honest warnings.</p>
         </div>
       </section>
 
