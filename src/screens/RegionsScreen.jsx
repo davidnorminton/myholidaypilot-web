@@ -36,9 +36,9 @@ export default function RegionsScreen() {
       <header className="hero">
         <div className="wrap hero__inner">
           <p className="eyebrow"><Link to={paths.country(country)} className="eyebrow__link">{meta?.name}</Link> · Regions</p>
-          <h1 className="hero__title">Regions of Italy</h1>
+          <h1 className="hero__title">Regions of {meta?.name}</h1>
           <p className="hero__sub">
-            Twenty regions — their towns, their tables, their stories.
+            {regions ? `${regions.length} regions` : 'The regions'} — their towns, their tables, their stories.
             {totalPlaces ? ` ${totalPlaces} places to wander.` : ''} Pick somewhere to begin.
           </p>
           <label className="search">

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, MapPin, CalendarRange, Navigation } from 'lucide-react'
 import { getRegion, getImages } from '../lib/data.js'
+import { COUNTRIES } from '../lib/countries.js'
 import { regionColour, mapsQuery } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 import MapView from '../components/MapView.jsx'
@@ -23,6 +24,7 @@ const TABS = [
 export default function RegionDetailScreen() {
   const site = useSettings()
   const { country = 'italy', regionId } = useParams()
+  const countryName = (COUNTRIES.find((c) => c.slug === country) || {}).name || ''
   const navigate = useNavigate()
   const aff = useAffiliates()
   const [region, setRegion] = useState(null)
@@ -137,7 +139,7 @@ export default function RegionDetailScreen() {
                   <p className="resto__meta">{r.cuisine}{r.neighbourhood ? ` · ${r.neighbourhood}` : ''}</p>
                   <p className="resto__desc">{r.description}</p>
                   {r.mustOrder && <p className="resto__order"><b>Must order</b> — {r.mustOrder}</p>}
-                  <a className="resto__map" href={mapsQuery([r.name, r.address || r.neighbourhood, region.name, 'Italy'])}
+                  <a className="resto__map" href={mapsQuery([r.name, r.address || r.neighbourhood, region.name, countryName])}
                      target="_blank" rel="noreferrer">
                     <Navigation size={13} /> Directions
                   </a>
