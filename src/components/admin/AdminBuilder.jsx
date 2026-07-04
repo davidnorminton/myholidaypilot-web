@@ -14,6 +14,10 @@ const STAGES = [
   'Region dining', 'Festivals', 'History', 'Food & wine', 'Getting around',
 ]
 
+function Badge({ on, partial, label }) {
+  return <span className={`bld__badge ${on ? 'is-on' : partial ? 'is-partial' : 'is-off'}`}>{label}</span>
+}
+
 export default function AdminBuilder() {
   const [builds, setBuilds] = useState(null)
   const [active, setActive] = useState(null)   // countryId being viewed
@@ -185,8 +189,14 @@ function RegionRow({ countryId, region, editing, onEdit, onClose, onOpen, onSave
         <span className="bld__rbody">
           <b>{d.name}</b> <span className="bld__rlocal">{d.nameIt}</span>
           <span className="bld__rmeta"><MapPin size={11} /> {d.capital} · {region.placeCount ? `${region.placeCount} place${region.placeCount === 1 ? '' : 's'}` : 'no places yet'}</span>
+          <span className="bld__badges">
+            <Badge on={region.placeCount > 0} label={`${region.placeCount || 0} places`} />
+            <Badge on={region.detailedPlaces === region.placeCount && region.placeCount > 0} partial={region.detailedPlaces > 0 && region.detailedPlaces < region.placeCount} label={`${region.detailedPlaces || 0}/${region.placeCount || 0} detailed`} />
+            <Badge on={region.imagedPlaces === region.placeCount && region.placeCount > 0} partial={region.imagedPlaces > 0 && region.imagedPlaces < region.placeCount} label={`${region.imagedPlaces || 0}/${region.placeCount || 0} images`} />
+            <Badge on={region.hasRestaurants} label={region.hasRestaurants ? `${region.restaurantCount} to eat` : 'no dining'} />
+            <Badge on={region.hasProse} label={region.hasProse ? 'history ✓' : 'no history'} />
+          </span>
         </span>
-        {region.placeCount > 0 && <span className="bld__done">✓</span>}
         <button className="story__act" onClick={onEdit}><Pencil size={13} /> Edit</button>
         <button className="btn btn--soft bld__placesbtn" onClick={onOpen}><MapPin size={13} /> Places <ChevronRight size={14} /></button>
       </div>
@@ -225,6 +235,10 @@ function RegionPlaces({ countryId, region, onBack }) {
   const [rstBusy, setRstBusy] = useState('')   // '' | 'restaurants' | 'prose'
   const [rstMsg, setRstMsg] = useState('')
   const d = region.data
+  // persistent state from the stored region data (survives navigation)
+  const [regionData, setRegionData] = useState(d)
+  const hasRestaurants = (regionData.restaurants || []).length > 0
+  const hasProse = !!(regionData.history || '').trim()
 
   const load = () => api.builder.region(countryId, region.regionId).then((r) => setPlaces(r.places)).catch(() => setPlaces(false))
   useEffect(() => { load() }, [region.regionId])
@@ -276,14 +290,17 @@ function RegionPlaces({ countryId, region, onBack }) {
     else if (failed.length) setImgErr(`No photo found for ${failed.length}: ${failed.join(', ')}. Add these manually below.`)
   }
 
+  const refreshRegion = async () => {
+    try { const r = await api.builder.region(countryId, region.regionId); if (r.region?.data) setRegionData(r.region.data) } catch { /* ignore */ }
+  }
   const generateRestaurants = async () => {
     setRstBusy('restaurants'); setRstMsg('')
-    try { const r = await api.builder.genRestaurants(countryId, region.regionId); setRstMsg(`${r.count} restaurants added ✓`) }
+    try { const r = await api.builder.genRestaurants(countryId, region.regionId); await refreshRegion(); setRstMsg(`${r.count} restaurants saved ✓`) }
     catch (e) { setRstMsg(e.message) } finally { setRstBusy('') }
   }
   const generateProse = async () => {
     setRstBusy('prose'); setRstMsg('')
-    try { await api.builder.genRegionProse(countryId, region.regionId); setRstMsg('Region history & notes added ✓') }
+    try { await api.builder.genRegionProse(countryId, region.regionId); await refreshRegion(); setRstMsg('History & notes saved ✓') }
     catch (e) { setRstMsg(e.message) } finally { setRstBusy('') }
   }
 
@@ -364,10 +381,14 @@ function RegionPlaces({ countryId, region, onBack }) {
         {has && (
           <div className="bld__detailbar bld__detailbar--region">
             <button className="btn btn--soft" onClick={generateRestaurants} disabled={!!rstBusy}>
-              {rstBusy === 'restaurants' ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} Places to eat (region)
+              {rstBusy === 'restaurants' ? <RefreshCw size={14} className="pk__spin" />
+                : hasRestaurants ? <RefreshCw size={14} /> : <Sparkles size={14} />}
+              {hasRestaurants ? `Places to eat ✓ (${(d.restaurants || []).length})` : 'Places to eat (region)'}
             </button>
             <button className="btn btn--soft" onClick={generateProse} disabled={!!rstBusy}>
-              {rstBusy === 'prose' ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} History &amp; notes (region)
+              {rstBusy === 'prose' ? <RefreshCw size={14} className="pk__spin" />
+                : hasProse ? <RefreshCw size={14} /> : <Sparkles size={14} />}
+              {hasProse ? 'History & notes ✓' : 'History & notes (region)'}
             </button>
             {rstMsg && <span className="bld__detailnote">{rstMsg}</span>}
           </div>

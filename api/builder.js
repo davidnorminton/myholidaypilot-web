@@ -42,9 +42,19 @@ export default handler(async (req, res) => {
     // per-region place counts
     const withCounts = []
     for (const r of regions) {
-      const places = await db.select({ id: buildPlaces.id }).from(buildPlaces)
+      const places = await db.select().from(buildPlaces)
         .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, r.regionId)))
-      withCounts.push({ ...r, placeCount: places.length })
+      const detailed = places.filter((p) => (p.data.activities || []).length > 0).length
+      const withImage = places.filter((p) => p.image).length
+      withCounts.push({
+        ...r,
+        placeCount: places.length,
+        detailedPlaces: detailed,
+        imagedPlaces: withImage,
+        hasRestaurants: (r.data.restaurants || []).length > 0,
+        restaurantCount: (r.data.restaurants || []).length,
+        hasProse: !!(r.data.history || '').trim(),
+      })
     }
     return send(res, 200, { build: b, regions: withCounts })
   }
