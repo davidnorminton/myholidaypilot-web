@@ -2391,3 +2391,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .bld__badge.is-on{background:color-mix(in srgb,var(--ok) 16%,transparent); color:var(--ok)}
 .bld__badge.is-partial{background:color-mix(in srgb,var(--gold) 16%,transparent); color:var(--gold)}
 .bld__badge.is-off{background:var(--surface-2); color:var(--faint)}
+
+.bld__has{border-color:color-mix(in srgb,var(--ok) 40%,var(--line)); color:var(--ok)}
+.bld__has svg{color:var(--ok)}
+.bld__detailnote--err{color:#b4552d}
