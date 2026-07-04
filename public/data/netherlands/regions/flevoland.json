@@ -1,0 +1,1389 @@
+{
+  "id": "flevoland",
+  "name": "Flevoland",
+  "nameIt": "Flevoland",
+  "capital": "Lelystad",
+  "lat": 52.47,
+  "lng": 5.47,
+  "emoji": "🌊",
+  "colour": "ffe91e63",
+  "boundingBox": {
+    "north": 52.8,
+    "south": 52,
+    "east": 6,
+    "west": 5
+  },
+  "history": "Flevoland is the Netherlands' youngest province, created entirely through large-scale land reclamation projects in the 20th century. The Dutch drained the Zuiderzee (now the IJsselmeer) in phases, with the first polder completed in 1930 and the final area incorporated in 1968. This engineering feat transformed what was once open water into productive farmland and new towns, showcasing Dutch expertise in water management. The province's creation represents one of the most ambitious hydraulic engineering projects in European history.",
+  "culturalNotes": "Flevoland embodies modern Dutch planning and efficiency, with its towns designed on a grid system and its landscape shaped by rational agricultural principles rather than centuries of organic growth. The province has developed a distinct identity as a land of new beginnings, attracting entrepreneurs and families seeking fresh opportunities. Traditional Dutch culture persists here, but with a forward-looking character that sets it apart from older provinces with more established customs and heritage.",
+  "bestTimeToVisit": "Visit from June to September for water sports and cycling across polders.",
+  "languageNotes": "Dutch is spoken throughout Flevoland, with the local accent influenced by standard Dutch rather than by a strong historical dialect, since the region's population is relatively recent. Standard Dutch phrases are universally understood and appreciated by locals.",
+  "generatedAt": "2026-07-04T22:31:59.965Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "lelystad",
+      "name": "Lelystad",
+      "nameIt": "Lelystad",
+      "lat": 52.5167,
+      "lng": 5.4667,
+      "type": "CITY",
+      "description": "The capital of Flevoland and a modern planned city built on reclaimed polder land, showcasing impressive Dutch engineering and urban design. It offers museums, waterfront activities, and serves as the gateway to exploring this unique province.",
+      "imageQueries": [
+        "Lelystad city waterfront",
+        "Lelystad modern architecture polder"
+      ],
+      "activities": [
+        {
+          "id": "lely_1",
+          "text": "Aviodome Aviation Museum",
+          "detail": "Explore the history of Dutch aviation and space exploration in this iconic dome-shaped museum housing historic aircraft and interactive exhibits.",
+          "lat": 52.4189,
+          "lng": 5.2117
+        },
+        {
+          "id": "lely_2",
+          "text": "Bataviawerf Shipyard Museum",
+          "detail": "Watch skilled craftspeople reconstruct a 17th-century Dutch East India Company ship using traditional methods at this working museum.",
+          "lat": 52.5145,
+          "lng": 5.3417
+        },
+        {
+          "id": "lely_3",
+          "text": "Waterfront Promenade Cycling",
+          "detail": "Rent a bicycle and ride along the scenic IJsselmeer waterfront, experiencing the flat polder landscape and modern city design.",
+          "lat": 52.5185,
+          "lng": 5.3263
+        },
+        {
+          "id": "lely_4",
+          "text": "Naturum Flevowad Visitor Centre",
+          "detail": "Learn about the unique ecological development of the reclaimed polder through interactive displays and guided nature walks in the adjacent wetlands.",
+          "lat": 52.5256,
+          "lng": 5.2889
+        },
+        {
+          "id": "lely_5",
+          "text": "IJsselmeer Water Sports",
+          "detail": "Engage in windsurfing, sailing, or kitesurfing on the calm waters of the IJsselmeer lake that borders the city.",
+          "lat": 52.5185,
+          "lng": 5.3263
+        },
+        {
+          "id": "lely_6",
+          "text": "City Architecture Walking Tour",
+          "detail": "Discover the modernist town planning and distinctive 1960s-80s architecture that defines Lelystad's unique urban design.",
+          "lat": 52.5185,
+          "lng": 5.3263
+        }
+      ],
+      "food": [
+        {
+          "id": "lely_f1",
+          "text": "Paling (Smoked Eel)",
+          "detail": "Sample locally-caught smoked eel, a traditional Dutch delicacy from the IJsselmeer, often served with rye bread and mustard."
+        },
+        {
+          "id": "lely_f2",
+          "text": "Kibbeling",
+          "detail": "Try this popular Dutch fast food of battered and deep-fried fish pieces, typically found at waterfront stands and fish restaurants."
+        },
+        {
+          "id": "lely_f3",
+          "text": "Pannekoken",
+          "detail": "Enjoy Dutch pancakes served sweet or savory at traditional restaurants, reflecting the Netherlands' beloved comfort food tradition."
+        },
+        {
+          "id": "lely_f4",
+          "text": "Waterland Cheese",
+          "detail": "Visit local cheese shops to taste fresh regional cheeses from surrounding Flevoland farms and traditional Dutch creameries."
+        },
+        {
+          "id": "lely_f5",
+          "text": "IJsselmeer Fish Platters",
+          "detail": "Order fresh-caught fish plates at waterfront restaurants featuring local perch, pike, and bream prepared simply to highlight their quality."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lely_c1",
+          "text": "Embrace Cycling Culture",
+          "detail": "Lelystad is intensely bike-oriented with dedicated cycling paths everywhere; renting a bicycle is the most authentic and practical way to explore."
+        },
+        {
+          "id": "lely_c2",
+          "text": "Respect Polder Heritage",
+          "detail": "The city's existence is a point of Dutch national pride as a feat of engineering and land reclamation; appreciate the deliberate urban planning evident throughout."
+        },
+        {
+          "id": "lely_c3",
+          "text": "Visit During Summer Events",
+          "detail": "Plan around local festivals and waterfront events during summer months when the city hosts sailing races, markets, and cultural celebrations."
+        },
+        {
+          "id": "lely_c4",
+          "text": "Dutch Directness in Service",
+          "detail": "Expect straightforward, efficient service at restaurants and shops; Dutch hospitality values honesty and practicality over formality."
+        }
+      ]
+    },
+    {
+      "id": "almere",
+      "name": "Almere",
+      "nameIt": "Almere",
+      "lat": 52.3667,
+      "lng": 5.2167,
+      "type": "CITY",
+      "description": "The Netherlands' fastest-growing city and one of Europe's largest artificial cities, known for innovative architecture and contemporary art installations. It features creative neighborhoods, modern museums, and a vibrant cultural scene.",
+      "imageQueries": [
+        "Almere city modern architecture",
+        "Almere Netherlands contemporary art"
+      ],
+      "activities": [
+        {
+          "id": "alme_1",
+          "text": "Kunstlinie Street Art Route",
+          "detail": "Explore Almere's extensive collection of colorful murals and contemporary street art scattered across neighborhoods like City Centre and Haven.",
+          "lat": 52.3702,
+          "lng": 5.2215
+        },
+        {
+          "id": "alme_2",
+          "text": "Outdoorsmuseum Expositie",
+          "detail": "Visit this open-air contemporary art museum featuring large-scale sculptures and installations reflecting Almere's identity as a modern artistic hub.",
+          "lat": 52.3758,
+          "lng": 5.2089
+        },
+        {
+          "id": "alme_3",
+          "text": "Almere Beach Club Scene",
+          "detail": "Relax at modern beach pavilions along the Markermeer waterfront with sandy shores, waterfront dining, and water sports facilities.",
+          "lat": 52.3814,
+          "lng": 5.2567
+        },
+        {
+          "id": "alme_4",
+          "text": "Cinemec Film Museum",
+          "detail": "Discover Dutch cinema history and contemporary film culture at this dedicated institution showcasing rare films and interactive exhibits.",
+          "lat": 52.3688,
+          "lng": 5.2267
+        },
+        {
+          "id": "alme_5",
+          "text": "Cycling Through Polder Landscape",
+          "detail": "Rent a bike and traverse the flat, scenic polder routes surrounding Almere with views of characteristic Dutch waterways and windmills.",
+          "lat": 52.37,
+          "lng": 5.22
+        },
+        {
+          "id": "alme_6",
+          "text": "Weerwater Lake Recreation",
+          "detail": "Enjoy swimming, sailing, and windsurfing at this popular artificial lake with modern facilities and designated recreational zones."
+        }
+      ],
+      "food": [
+        {
+          "id": "alme_f1",
+          "text": "Kibbeling",
+          "detail": "Try this Dutch deep-fried battered fish snack, typically served with spicy mayo or tartar sauce at local beach pavilions."
+        },
+        {
+          "id": "alme_f2",
+          "text": "Paling Gerookt",
+          "detail": "Sample smoked eel, a regional delicacy from the Markermeer waters, traditionally served with a slice of rye bread."
+        },
+        {
+          "id": "alme_f3",
+          "text": "Stroopwafels from Local Bakeries",
+          "detail": "Taste freshly-made waffle cookies with caramel syrup filling, a quintessential Dutch treat available at contemporary bakeries throughout Almere."
+        },
+        {
+          "id": "alme_f4",
+          "text": "Waterfront Restaurant Dining",
+          "detail": "Experience modern Dutch cuisine with international influences at trendy restaurants along the Markermeer with views of contemporary architecture."
+        },
+        {
+          "id": "alme_f5",
+          "text": "Indonesian Rijsttafel",
+          "detail": "Enjoy this multicourse feast of various Indonesian dishes reflecting the Netherlands' culinary heritage, available at several specialized restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alme_c1",
+          "text": "Embrace Cycling Culture",
+          "detail": "Almere residents cycle extensively for daily transport; rent a bike and follow local routes, always respecting designated bike lanes and traffic rules."
+        },
+        {
+          "id": "alme_c2",
+          "text": "Appreciate Modern Architecture",
+          "detail": "The city intentionally showcases experimental 1970s-1980s architecture and contemporary design, so take time to admire planned neighborhoods and innovative building forms."
+        },
+        {
+          "id": "alme_c3",
+          "text": "Visit During Cultural Events",
+          "detail": "Almere hosts regular art festivals, music events, and design fairs; check local schedules as the city prioritizes contemporary cultural programming year-round."
+        },
+        {
+          "id": "alme_c4",
+          "text": "Respect Dutch Directness",
+          "detail": "Dutch people, including locals in Almere, value straightforward communication and directness; don't take blunt opinions personally as it reflects cultural norms rather than rudeness."
+        }
+      ]
+    },
+    {
+      "id": "markermeer",
+      "name": "Markermeer Lake",
+      "nameIt": "Markermeer",
+      "lat": 52.45,
+      "lng": 5.3,
+      "type": "NATURE",
+      "description": "A large freshwater lake created during polder reclamation, offering excellent sailing, windsurfing, and water sports opportunities. The lake is surrounded by picturesque shores and is a haven for water enthusiasts and nature lovers.",
+      "imageQueries": [
+        "Markermeer sailing lake",
+        "Markermeer water sports Flevoland"
+      ],
+      "activities": [
+        {
+          "id": "mark_1",
+          "text": "Windsurfing at Pampus Beach",
+          "detail": "Experience consistent wind conditions and shallow waters ideal for windsurfers of all levels at this popular beach spot on Markermeer's eastern shore.",
+          "lat": 52.4519,
+          "lng": 5.2833
+        },
+        {
+          "id": "mark_2",
+          "text": "Sailing across Markermeer",
+          "detail": "Charter a sailboat or join a sailing tour to explore the open waters of this 680-square-kilometer lake, which offers excellent conditions for both beginners and experienced sailors.",
+          "lat": 52.45,
+          "lng": 5.3
+        },
+        {
+          "id": "mark_3",
+          "text": "Bird Watching at Markermeer Nature Reserve",
+          "detail": "Observe migratory and resident waterfowl, including spoonbills, herons, and cormorants, especially during spring and autumn migration periods.",
+          "lat": 52.4,
+          "lng": 5.25
+        },
+        {
+          "id": "mark_4",
+          "text": "Cycling along Markermeer Dikes",
+          "detail": "Ride the scenic cycling routes that follow the protective dikes surrounding the lake, offering panoramic water views and access to small waterside villages.",
+          "lat": 52.45,
+          "lng": 5.3
+        },
+        {
+          "id": "mark_5",
+          "text": "Visit Volendam Fishing Village",
+          "detail": "Explore this historic harbor town adjacent to Markermeer known for traditional Dutch fishing culture, picturesque wooden houses, and fresh seafood restaurants.",
+          "lat": 52.4794,
+          "lng": 5.0583
+        },
+        {
+          "id": "mark_6",
+          "text": "Kitesurfing at Zuidoost Beach",
+          "detail": "Take advantage of strong thermal winds and flat water conditions perfect for kitesurfing during summer months at this dedicated water sports beach."
+        }
+      ],
+      "food": [
+        {
+          "id": "mark_f1",
+          "text": "Kibbeling",
+          "detail": "Freshly battered and deep-fried fish pieces, typically cod or whiting, served with lemon and mayo, a beloved Dutch snack readily found at lakeside fish stalls."
+        },
+        {
+          "id": "mark_f2",
+          "text": "Smoked Eel (Gerookt Paling)",
+          "detail": "Traditional smoked eel caught from Markermeer and local waterways, served sliced with bread or as part of a seafood platter at waterfront restaurants."
+        },
+        {
+          "id": "mark_f3",
+          "text": "Waterzooi",
+          "detail": "A creamy fish and vegetable stew originating from the Low Countries, featuring fresh lake fish and seasonal vegetables, a warming specialty in regional restaurants."
+        },
+        {
+          "id": "mark_f4",
+          "text": "Fresh Mussels (Mosselen)",
+          "detail": "Seasonal mussels from nearby waters steamed in white wine with shallots and herbs, a delicacy available September through April at waterside dining establishments."
+        },
+        {
+          "id": "mark_f5",
+          "text": "Paling in 't Groen",
+          "detail": "Traditional Dutch preparation of fresh eel with sorrel sauce and potatoes, reflecting centuries of Markermeer fishing heritage and available in local restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mark_c1",
+          "text": "Respect Water Safety Rules",
+          "detail": "Always check weather conditions and water safety advisories before engaging in any water sports, as Markermeer can experience sudden wind changes and strong currents."
+        },
+        {
+          "id": "mark_c2",
+          "text": "Reserve Accommodations Early in Summer",
+          "detail": "Peak season from June through August fills waterfront lodges and sailing accommodations quickly, so book several months in advance for desired lakeside stays."
+        },
+        {
+          "id": "mark_c3",
+          "text": "Learn Basic Dutch Maritime Etiquette",
+          "detail": "If renting a sailboat or participating in water activities, familiarize yourself with Dutch maritime rules and proper yacht club courtesy to ensure harmonious interactions with local water enthusiasts."
+        },
+        {
+          "id": "mark_c4",
+          "text": "Visit Local Fish Markets Early Morning",
+          "detail": "Arrive at harbors like Volendam at dawn to witness the traditional fish auctions and purchase the freshest catches directly from fishermen before heading out on the water."
+        }
+      ]
+    },
+    {
+      "id": "urk",
+      "name": "Urk",
+      "nameIt": "Urk",
+      "lat": 52.6667,
+      "lng": 5.6,
+      "type": "COASTAL",
+      "description": "A charming former island village with traditional fishing heritage, colorful wooden houses, and narrow streets that retain authentic Dutch character. It's one of the most picturesque settlements in Flevoland with excellent seafood restaurants and maritime atmosphere.",
+      "imageQueries": [
+        "Urk village traditional houses",
+        "Urk fishing harbor Netherlands"
+      ],
+      "activities": [
+        {
+          "id": "urk_1",
+          "text": "Urk Lighthouse",
+          "detail": "Climb this iconic red and white striped lighthouse for panoramic views of the IJsselmeer and the village below.",
+          "lat": 52.6586,
+          "lng": 5.6017
+        },
+        {
+          "id": "urk_2",
+          "text": "Harbor Stroll",
+          "detail": "Walk through the working fishing harbor early in the morning to see traditional wooden boats and watch the daily catch being unloaded.",
+          "lat": 52.6571,
+          "lng": 5.5989
+        },
+        {
+          "id": "urk_3",
+          "text": "Urk Museum",
+          "detail": "Explore the maritime history and traditional dress collection in this small museum housed in a historic captain's house.",
+          "lat": 52.6576,
+          "lng": 5.6003
+        },
+        {
+          "id": "urk_4",
+          "text": "Narrow Streets Photography",
+          "detail": "Wander the labyrinth of narrow cobblestone streets lined with pastel-colored wooden houses, perfect for capturing authentic Dutch charm.",
+          "lat": 52.658,
+          "lng": 5.6
+        },
+        {
+          "id": "urk_5",
+          "text": "IJsselmeer Beach",
+          "detail": "Relax at the sandy beach area north of the village where locals and visitors swim and windsurf.",
+          "lat": 52.662,
+          "lng": 5.605
+        },
+        {
+          "id": "urk_6",
+          "text": "St. Urbanus Church",
+          "detail": "Visit this 16th-century church with its distinctive tower, a landmark visible throughout the island village.",
+          "lat": 52.6565,
+          "lng": 5.6015
+        }
+      ],
+      "food": [
+        {
+          "id": "urk_f1",
+          "text": "Kibbeling",
+          "detail": "Battered and deep-fried fish pieces, typically cod or whiting, served with tartare sauce as a popular harbor snack."
+        },
+        {
+          "id": "urk_f2",
+          "text": "Smoked Eel",
+          "detail": "Traditional smoked eel caught from local waters, considered a delicacy and specialty of Urk's fishing heritage."
+        },
+        {
+          "id": "urk_f3",
+          "text": "Fresh Paling (Eel) Sandwich",
+          "detail": "Thick slices of smoked or baked eel served on fresh bread with onions and pickles at harborside stalls."
+        },
+        {
+          "id": "urk_f4",
+          "text": "Mussels and Oysters",
+          "detail": "Fresh shellfish from the IJsselmeer prepared simply steamed or grilled at the local seafood restaurants."
+        },
+        {
+          "id": "urk_f5",
+          "text": "Fish Soup (Soep)",
+          "detail": "Hearty traditional soup made with mixed local catch, vegetables, and served with crusty bread at maritime eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "urk_c1",
+          "text": "Traditional Dress Heritage",
+          "detail": "Some locals still wear traditional Urk costumes on Sundays and holidays; respect photography etiquette by asking permission before photographing residents."
+        },
+        {
+          "id": "urk_c2",
+          "text": "Early Harbor Activity",
+          "detail": "Visit the harbor before 8 AM to experience authentic fishing culture when boats return and fish are auctioned; afternoon sees fewer activities."
+        },
+        {
+          "id": "urk_c3",
+          "text": "Dutch Politeness Protocol",
+          "detail": "Greet shopkeepers and restaurant staff with 'Goedemorgen' or 'Goedemiddag' before ordering; it's considered respectful in this traditionally close-knit community."
+        },
+        {
+          "id": "urk_c4",
+          "text": "Quiet Respect Hours",
+          "detail": "The village maintains a peaceful atmosphere with limited nightlife; restaurants close relatively early and noise is kept minimal, reflecting its traditional character."
+        }
+      ]
+    },
+    {
+      "id": "emmeloord",
+      "name": "Emmeloord",
+      "nameIt": "Emmeloord",
+      "lat": 52.7,
+      "lng": 5.8,
+      "type": "TOWN",
+      "description": "A planned town in North Flevoland with a distinctive circular layout and central church tower visible across the polder landscape. It serves as a regional hub and exemplifies Dutch polder town design principles.",
+      "imageQueries": [
+        "Emmeloord town circular design",
+        "Emmeloord polder Netherlands"
+      ],
+      "activities": [
+        {
+          "id": "emme_1",
+          "text": "Northerners Museum",
+          "detail": "Explore the cultural history and heritage of North Flevoland and its polder communities in this regional museum.",
+          "lat": 52.5581,
+          "lng": 5.7847
+        },
+        {
+          "id": "emme_2",
+          "text": "Circular Town Walk",
+          "detail": "Stroll the planned circular layout of Emmeloord's streets and admire the distinctive radial design centered on the iconic church tower.",
+          "lat": 52.5585,
+          "lng": 5.786
+        },
+        {
+          "id": "emme_3",
+          "text": "Emmelhaven Waterfront",
+          "detail": "Walk along the marina and waterfront promenade where recreational boats dock and locals gather for waterside dining and views.",
+          "lat": 52.5521,
+          "lng": 5.7943
+        },
+        {
+          "id": "emme_4",
+          "text": "Flevopolder Cycling Route",
+          "detail": "Bike through the surrounding flat polder landscape on well-maintained cycling paths that connect farms, villages, and water channels.",
+          "lat": 52.5585,
+          "lng": 5.786
+        },
+        {
+          "id": "emme_5",
+          "text": "Ketelhuis Arts Centre",
+          "detail": "Visit this cultural venue for contemporary art exhibitions, theater performances, and local creative events throughout the year.",
+          "lat": 52.5587,
+          "lng": 5.7833
+        }
+      ],
+      "food": [
+        {
+          "id": "emme_f1",
+          "text": "Paling (smoked eel)",
+          "detail": "Sample the traditional smoked eel, a regional delicacy caught from the polder's waters and prepared by local fish specialists."
+        },
+        {
+          "id": "emme_f2",
+          "text": "Cheese from local dairy",
+          "detail": "Try fresh Dutch cheese made by family farms in North Flevoland, often available at the weekly market."
+        },
+        {
+          "id": "emme_f3",
+          "text": "Polder vegetables",
+          "detail": "Taste seasonal vegetables grown in the rich reclaimed polder soil, typically featured in farm restaurants and markets."
+        },
+        {
+          "id": "emme_f4",
+          "text": "Waterland Dining Experience",
+          "detail": "Enjoy fresh fish and local produce at waterfront restaurants overlooking Emmelhaven's marina and boats."
+        }
+      ],
+      "culture": [
+        {
+          "id": "emme_c1",
+          "text": "Embrace the cycling culture",
+          "detail": "Rent a bike and join locals on daily commutes—cycling is the primary mode of transport in Emmeloord and the flat polder terrain makes it effortless."
+        },
+        {
+          "id": "emme_c2",
+          "text": "Visit the weekly market",
+          "detail": "The town market (typically held on Thursdays or Saturdays) is where residents gather to buy fresh produce, cheese, and local goods while socializing."
+        },
+        {
+          "id": "emme_c3",
+          "text": "Respect polder engineering heritage",
+          "detail": "Understand that every street, waterway, and building in Emmeloord reflects careful Dutch water management and town planning—many locals take pride in this achievement."
+        },
+        {
+          "id": "emme_c4",
+          "text": "Attend local festivals",
+          "detail": "Check the calendar for seasonal events like polder festivals or market celebrations where you'll experience authentic community gatherings and traditional regional customs."
+        }
+      ]
+    },
+    {
+      "id": "dronten",
+      "name": "Dronten",
+      "nameIt": "Dronten",
+      "lat": 52.5333,
+      "lng": 5.9,
+      "type": "TOWN",
+      "description": "A historic town blending old and new, with charming medieval-style architecture and modern amenities in a polder setting. It offers a pleasant town center with shops, restaurants, and serves as an access point to surrounding natural areas.",
+      "imageQueries": [
+        "Dronten town center",
+        "Dronten Flevoland architecture"
+      ],
+      "activities": [
+        {
+          "id": "dron_1",
+          "text": "Dronten Town Center Walk",
+          "detail": "Stroll through the compact, pedestrian-friendly center with its characteristic modern Dutch architecture and local shops, restaurants, and cafés."
+        },
+        {
+          "id": "dron_2",
+          "text": "Zuiderzeemuseum Visit",
+          "detail": "Explore the open-air museum in nearby Enkhuizen (30 km away) showcasing traditional Dutch maritime culture, historic buildings, and crafts from the former Zuiderzee region.",
+          "lat": 52.7149,
+          "lng": 5.2818
+        },
+        {
+          "id": "dron_3",
+          "text": "Cycling Around Polders",
+          "detail": "Rent a bicycle and ride the flat polder routes surrounding Dronten, passing farmland, waterways, and windmills typical of reclaimed Flevoland."
+        },
+        {
+          "id": "dron_4",
+          "text": "Markermeer Water Activities",
+          "detail": "Visit nearby Markermeer lake for sailing, windsurfing, or fishing opportunities from local marinas and water sports centers."
+        },
+        {
+          "id": "dron_5",
+          "text": "De Biesbos Nature Reserve",
+          "detail": "Take a day trip to this pristine wetland reserve (40 km south) for kayaking, bird watching, and experiencing authentic Dutch water-based ecosystems."
+        }
+      ],
+      "food": [
+        {
+          "id": "dron_f1",
+          "text": "Paling (Smoked Eel)",
+          "detail": "A regional delicacy from the Zuiderzee waters, traditionally smoked and served with bread and mustard at local restaurants and markets."
+        },
+        {
+          "id": "dron_f2",
+          "text": "Poffertjes with Powdered Sugar",
+          "detail": "Enjoy these small, fluffy Dutch pancakes dusted with confectioner's sugar, commonly found at street stalls and cafés throughout town."
+        },
+        {
+          "id": "dron_f3",
+          "text": "Kibbeling (Battered Fish)",
+          "detail": "Crispy battered and deep-fried fish pieces, typically sold at casual food stands and a quintessential Dutch snack near waterfront areas."
+        },
+        {
+          "id": "dron_f4",
+          "text": "Local Cheese and Bread",
+          "detail": "Visit the weekly farmers market or local dairy shops for fresh Flevoland cheeses and artisan Dutch bread varieties paired with local butter."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dron_c1",
+          "text": "Cycling is the Primary Transport",
+          "detail": "Dronten residents prioritize bicycles over cars; rent a bike to fit in and navigate safely on designated cycling paths."
+        },
+        {
+          "id": "dron_c2",
+          "text": "Market Days Matter",
+          "detail": "Visit on market days (typically Wednesday and Saturday) when local farmers, cheese makers, and flower vendors set up stalls in the town center."
+        },
+        {
+          "id": "dron_c3",
+          "text": "Respect Polder Heritage",
+          "detail": "The town's existence is tied to land reclamation; locals take pride in water management and environmental stewardship—observe signage protecting water systems and natural areas."
+        },
+        {
+          "id": "dron_c4",
+          "text": "Dutch Directness in Service",
+          "detail": "Shop owners and café staff are friendly but straightforward; don't expect extended small talk, and it's appreciated if you attempt basic Dutch greetings."
+        }
+      ]
+    },
+    {
+      "id": "southwestern_delta",
+      "name": "IJsselmeer Waterfront",
+      "nameIt": "IJsselmeer",
+      "lat": 52.55,
+      "lng": 5.1,
+      "type": "NATURE",
+      "description": "The western edge of Flevoland along the historic IJsselmeer lake, offering scenic cycling routes, sailing opportunities, and views across one of the Netherlands' most important water bodies. It's ideal for outdoor recreation and experiencing the Dutch water landscape.",
+      "imageQueries": [
+        "IJsselmeer sailing lake",
+        "IJsselmeer cycling Flevoland"
+      ],
+      "activities": [
+        {
+          "id": "sout_1",
+          "text": "Cycling along the IJsselmeer Dike",
+          "detail": "Follow the scenic waterfront cycling route that runs along the historic dike with open views across the lake and access to small villages like Urk and Enkhuizen.",
+          "lat": 52.5,
+          "lng": 5.5
+        },
+        {
+          "id": "sout_2",
+          "text": "Sailing and Windsurfing",
+          "detail": "Launch from marinas at Lelystad or nearby waterfront towns to experience the IJsselmeer's consistent winds and open water conditions.",
+          "lat": 52.47,
+          "lng": 5.47
+        },
+        {
+          "id": "sout_3",
+          "text": "Visit Lelystad Aviation Museum",
+          "detail": "Explore aircraft history and vintage planes at this museum housed in historic hangars near the Flevoland waterfront.",
+          "lat": 52.46,
+          "lng": 5.53
+        },
+        {
+          "id": "sout_4",
+          "text": "Bird Watching at Oostvaardersplassen",
+          "detail": "Observe migratory waterfowl and rare species in this nature reserve adjacent to the IJsselmeer, especially during spring and autumn migrations.",
+          "lat": 52.41,
+          "lng": 5.35
+        },
+        {
+          "id": "sout_5",
+          "text": "Traditional Fishing Boat Tours",
+          "detail": "Take guided trips on historic fishing vessels departing from waterfront docks to learn about IJsselmeer's maritime heritage.",
+          "lat": 52.5,
+          "lng": 5.5
+        },
+        {
+          "id": "sout_6",
+          "text": "Beach Clubs and Waterfront Dining",
+          "detail": "Relax at casual beach pavilions along the IJsselmeer shore offering sunset views and recreational swimming in designated areas.",
+          "lat": 52.48,
+          "lng": 5.48
+        }
+      ],
+      "food": [
+        {
+          "id": "sout_f1",
+          "text": "Paling (smoked eel)",
+          "detail": "Fresh-caught IJsselmeer eel smoked and served with mustard, a traditional delicacy reflecting the lake's fishing heritage."
+        },
+        {
+          "id": "sout_f2",
+          "text": "IJsselmeer Fish Platters",
+          "detail": "Mixed grilled freshwater fish including pike-perch, bream, and catfish, typically served at waterfront restaurants with local vegetables."
+        },
+        {
+          "id": "sout_f3",
+          "text": "Kibbeling",
+          "detail": "Battered and fried fish pieces, commonly sold at waterfront snack stands and made from IJsselmeer catch."
+        },
+        {
+          "id": "sout_f4",
+          "text": "Stroopwafels with Local Honey",
+          "detail": "Dutch waffle cookies drizzled with syrup, often enjoyed with coffee at lakeside cafés and made with honey from Flevoland producers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sout_c1",
+          "text": "Respect Cycling Culture",
+          "detail": "The IJsselmeer waterfront is best explored by bike; rent one locally and follow designated cycling paths rather than roads."
+        },
+        {
+          "id": "sout_c2",
+          "text": "Water Safety Awareness",
+          "detail": "The IJsselmeer is a working waterway with professional shipping; stay in designated recreational areas and heed warning signs near dikes."
+        },
+        {
+          "id": "sout_c3",
+          "text": "Seasonal Timing Matters",
+          "detail": "Visit from May to September for optimal weather and open beach clubs; winter offers quieter cycling but many facilities close."
+        }
+      ]
+    },
+    {
+      "id": "nationaal_park_oostvaardersplassen",
+      "name": "Oostvaardersplassen Nature Reserve",
+      "nameIt": "Oostvaardersplassen",
+      "lat": 52.35,
+      "lng": 5.25,
+      "type": "NATURE",
+      "description": "A significant wetland and bird sanctuary featuring diverse wildlife including wild horses, deer, and hundreds of bird species in their natural habitat. It's a premier destination for nature observation, birdwatching, and understanding Dutch polder ecosystem restoration.",
+      "imageQueries": [
+        "Oostvaardersplassen nature reserve birds",
+        "Oostvaardersplassen wild horses"
+      ],
+      "activities": [
+        {
+          "id": "nati_1",
+          "text": "Birdwatching from observation towers",
+          "detail": "Climb the wooden towers scattered throughout the reserve to spot rare migratory birds, herons, and eagles in their natural wetland habitat.",
+          "lat": 52.5667,
+          "lng": 5.3167
+        },
+        {
+          "id": "nati_2",
+          "text": "Wild horse and deer observation",
+          "detail": "Walk or cycle designated trails to observe the Konik ponies and red deer that roam freely in managed herds across the polder landscape.",
+          "lat": 52.57,
+          "lng": 5.32
+        },
+        {
+          "id": "nati_3",
+          "text": "Photography at sunrise",
+          "detail": "Arrive early morning when mist rises from the water and light is optimal for capturing wildlife and landscape photography."
+        },
+        {
+          "id": "nati_4",
+          "text": "Cycle the perimeter route",
+          "detail": "Follow the 25-kilometer cycling path that encircles the reserve, offering multiple viewpoints and access to different ecosystems."
+        },
+        {
+          "id": "nati_5",
+          "text": "Visit the visitor center at Lepelaarplassen",
+          "detail": "Learn about polder management, ecosystem restoration, and view exhibits on the reserve's creation and wildlife before exploring the wetlands.",
+          "lat": 52.56,
+          "lng": 5.29
+        },
+        {
+          "id": "nati_6",
+          "text": "Kayaking in designated areas",
+          "detail": "Paddle quietly through shallow waterways to approach waterfowl and experience the wetland from water level."
+        },
+        {
+          "id": "nati_7",
+          "text": "Guided nature walks",
+          "detail": "Join expert-led tours during peak migration seasons to identify species and understand the ecological significance of the reserve."
+        }
+      ],
+      "food": [
+        {
+          "id": "nati_f1",
+          "text": "Fresh polder fish (pike-perch and eel)",
+          "detail": "Seek out local restaurants in nearby Lelystad that serve freshly caught fish from the surrounding waters, often smoked or grilled."
+        },
+        {
+          "id": "nati_f2",
+          "text": "Dutch cheese and local dairy",
+          "detail": "Visit farm shops and local markets for Flevoland cheeses and milk products that showcase the polder's agricultural heritage."
+        },
+        {
+          "id": "nati_f3",
+          "text": "Asparagus dishes (seasonal spring)",
+          "detail": "Sample fresh white asparagus prepared with hollandaise sauce at local eateries when in season, a regional specialty from the fertile polder soil."
+        },
+        {
+          "id": "nati_f4",
+          "text": "Pancakes (pannenkoeken) at reserve cafés",
+          "detail": "Stop at small pavilion restaurants within or near the reserve for sweet or savory Dutch pancakes with local toppings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nati_c1",
+          "text": "Respect wildlife distances",
+          "detail": "Keep at least 50 meters from animals and remain quiet to avoid disturbing nesting birds and sensitive species during breeding season."
+        },
+        {
+          "id": "nati_c2",
+          "text": "Visit during migration seasons",
+          "detail": "Plan your visit for spring (March-May) or autumn (August-October) when bird populations peak and the reserve is most active and rewarding."
+        },
+        {
+          "id": "nati_c3",
+          "text": "Book guided tours in advance",
+          "detail": "Professional guides are essential for identifying species and understanding polder ecology; many tours require reservation, especially on weekends."
+        },
+        {
+          "id": "nati_c4",
+          "text": "Bring binoculars and field guides",
+          "detail": "Come prepared with quality optics and a Dutch bird identification guide, as the reserve's remote areas lack signage for species identification."
+        }
+      ]
+    },
+    {
+      "id": "batavia_stad",
+      "name": "Batavia Stad Fashion Outlet",
+      "nameIt": "Batavia Stad",
+      "lat": 52.4167,
+      "lng": 5.0833,
+      "type": "LANDMARK",
+      "description": "Europe's largest designer fashion outlet village located near Lelystad, offering shopping, dining, and entertainment options. While primarily commercial, it's a notable attraction combining Dutch commerce with attractive modern architecture.",
+      "imageQueries": [
+        "Batavia Stad outlet shopping",
+        "Batavia Stad Lelystad"
+      ],
+      "activities": [
+        {
+          "id": "bata_1",
+          "text": "Designer Brand Shopping",
+          "detail": "Browse over 250 boutiques featuring luxury brands like Gucci, Prada, and Calvin Klein at 30-70% discounts in the open-air village layout.",
+          "lat": 52.4583,
+          "lng": 5.1944
+        },
+        {
+          "id": "bata_2",
+          "text": "Dining at Waterfront Restaurants",
+          "detail": "Enjoy meals at waterside cafés and restaurants along the marina area overlooking the Markermeer lake with views of traditional Dutch scenery."
+        },
+        {
+          "id": "bata_3",
+          "text": "Explore Modern Architecture",
+          "detail": "Walk through the pedestrian-friendly village designed with Dutch contemporary architecture, featuring charming streetscapes and public plazas reminiscent of traditional Dutch town squares."
+        },
+        {
+          "id": "bata_4",
+          "text": "Visit the Outlet Cinema",
+          "detail": "Catch a film at the onsite cinema complex located within the shopping village, offering entertainment between shopping sessions."
+        },
+        {
+          "id": "bata_5",
+          "text": "Kids' Play Areas",
+          "detail": "The outlet features family-friendly zones with playgrounds and entertainment facilities designed for children during shopping trips."
+        },
+        {
+          "id": "bata_6",
+          "text": "Seasonal Events and Markets",
+          "detail": "Batavia Stad hosts regular promotional events, fashion shows, and occasional outdoor markets throughout the year, especially during holiday seasons."
+        }
+      ],
+      "food": [
+        {
+          "id": "bata_f1",
+          "text": "Poffertjes",
+          "detail": "Small, fluffy Dutch pancakes served warm with powdered sugar and butter, a classic Dutch treat available at multiple cafés throughout the outlet."
+        },
+        {
+          "id": "bata_f2",
+          "text": "Bitterballen with Mustard",
+          "detail": "Crispy, deep-fried meatball croquettes served as an appetizer with spicy mustard, reflecting traditional Dutch pub food culture."
+        },
+        {
+          "id": "bata_f3",
+          "text": "Fresh IJsselmeer Fish",
+          "detail": "Local catch from the nearby lake served at waterfront restaurants, typically prepared simply grilled or smoked to highlight the freshness of regional seafood."
+        },
+        {
+          "id": "bata_f4",
+          "text": "Dutch Cheese Platters",
+          "detail": "Curated selections of aged Gouda and Edam cheeses served with bread and local accompaniments at café dining areas."
+        },
+        {
+          "id": "bata_f5",
+          "text": "Stroopwafels",
+          "detail": "Crispy waffle cookies filled with caramel syrup, sold at various food stalls and ideal as a sweet snack while shopping."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bata_c1",
+          "text": "Plan for Weather",
+          "detail": "The outlet is largely outdoor with covered walkways, so check forecasts and dress for changeable Dutch weather including potential rain and wind from the nearby Markermeer."
+        },
+        {
+          "id": "bata_c2",
+          "text": "Cycling Access",
+          "detail": "Flevoland is highly cycle-friendly; consider renting a bike to explore the surrounding polder landscape and arrive at the outlet, reflecting typical Dutch transportation culture."
+        },
+        {
+          "id": "bata_c3",
+          "text": "Shop Tax-Free",
+          "detail": "Non-EU visitors can claim VAT refunds on purchases over €25 at designated tax-free shops; bring passport and allow extra time for processing at departure."
+        },
+        {
+          "id": "bata_c4",
+          "text": "Dutch Directness in Service",
+          "detail": "Staff may be more straightforward and less formal than in other European retail settings; this reflects Dutch cultural communication style and is not meant as rudeness."
+        }
+      ]
+    },
+    {
+      "id": "ketelhuis",
+      "name": "Ketelhuis Theatre",
+      "nameIt": "Ketelhuis",
+      "lat": 52.3408,
+      "lng": 5.2289,
+      "type": "LANDMARK",
+      "description": "A cultural venue in Almere housed in a renovated historic industrial building, hosting theater, dance, and performances. It represents the creative transformation of polder infrastructure into vibrant cultural spaces.",
+      "imageQueries": [
+        "Ketelhuis theatre Almere",
+        "Ketelhuis cultural venue Netherlands"
+      ],
+      "activities": [
+        {
+          "id": "kete_1",
+          "text": "Attend a Theatre Performance",
+          "detail": "Watch contemporary theater productions, dance performances, and experimental works in the intimate renovated industrial space.",
+          "lat": 52.3418,
+          "lng": 5.2187
+        },
+        {
+          "id": "kete_2",
+          "text": "Explore the Building Architecture",
+          "detail": "Discover how this former polder industrial facility has been creatively transformed into a modern cultural venue with exposed brick and original structural elements."
+        },
+        {
+          "id": "kete_3",
+          "text": "Visit During an Evening Performance",
+          "detail": "Experience the atmospheric lighting and acoustics of the restored industrial space during a nighttime theater or music event."
+        },
+        {
+          "id": "kete_4",
+          "text": "Take a Guided Venue Tour",
+          "detail": "Learn about Ketelhuis's history as part of Flevoland's infrastructure development and its cultural renaissance through organized backstage or architectural tours."
+        },
+        {
+          "id": "kete_5",
+          "text": "Browse the Lobby Exhibitions",
+          "detail": "View contemporary art installations and visual displays often featured in the public foyer areas between performances."
+        }
+      ],
+      "food": [
+        {
+          "id": "kete_f1",
+          "text": "Polder-Fresh Vegetable Dishes",
+          "detail": "Sample locally-grown vegetables from Flevoland's agricultural heartland, often featured in Almere restaurants near cultural venues."
+        },
+        {
+          "id": "kete_f2",
+          "text": "Dutch Cheese Board",
+          "detail": "Enjoy traditional Dutch cheeses like Edam or Gouda served at the Ketelhuis café or nearby Almere dining establishments."
+        },
+        {
+          "id": "kete_f3",
+          "text": "Bitterballen and Beer",
+          "detail": "Try these crispy Dutch meat croquettes paired with local Dutch beer, a classic pre-show snack at cultural venues."
+        },
+        {
+          "id": "kete_f4",
+          "text": "Herring (Haring)",
+          "detail": "Experience the traditional Dutch raw herring preparation, commonly available at local food vendors throughout Almere."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kete_c1",
+          "text": "Arrive Early for Events",
+          "detail": "Dutch audiences typically arrive 15-20 minutes before performances, allowing time to settle and soak in the venue's industrial-chic atmosphere."
+        },
+        {
+          "id": "kete_c2",
+          "text": "Respect the Modern Polder Heritage",
+          "detail": "Ketelhuis represents Flevoland's unique story as a reclaimed polder landscape, and locals take pride in how contemporary culture has revitalized post-industrial infrastructure."
+        },
+        {
+          "id": "kete_c3",
+          "text": "Check Performance Languages",
+          "detail": "Many performances are in Dutch with occasional English or international productions, so verify language beforehand when booking tickets."
+        },
+        {
+          "id": "kete_c4",
+          "text": "Embrace the Creative Experimental Scene",
+          "detail": "Almere's cultural venues, including Ketelhuis, are known for supporting emerging and experimental artists, so expect avant-garde and unconventional performances."
+        }
+      ]
+    },
+    {
+      "id": "lepelenburg",
+      "name": "Lepelenburg Park",
+      "nameIt": "Lepelenburg",
+      "lat": 52.3,
+      "lng": 5.2,
+      "type": "NATURE",
+      "description": "A scenic waterfront park in Almere featuring green spaces, walking and cycling paths, and recreational facilities along the water. It's a pleasant spot for outdoor activities and enjoying the modern polder landscape.",
+      "imageQueries": [
+        "Lepelenburg park Almere",
+        "Lepelenburg waterfront Netherlands"
+      ],
+      "activities": [
+        {
+          "id": "lepe_1",
+          "text": "Waterfront Walking Path",
+          "detail": "Stroll along the scenic promenade that traces the park's edge, offering views of the Markermeer lake and modern Almere skyline."
+        },
+        {
+          "id": "lepe_2",
+          "text": "Cycling Routes",
+          "detail": "Rent a bike and explore the extensive network of paved cycling paths that connect Lepelenburg to surrounding polder neighborhoods and nature areas."
+        },
+        {
+          "id": "lepe_3",
+          "text": "Picnicking by the Water",
+          "detail": "Find grassy spots near the shoreline to set up a picnic while watching sailboats and water sports enthusiasts on the lake."
+        },
+        {
+          "id": "lepe_4",
+          "text": "Bird Watching",
+          "detail": "Observe migratory and resident waterfowl including cormorants, herons, and gulls that frequent the park's waterside habitats."
+        },
+        {
+          "id": "lepe_5",
+          "text": "Playground Visit",
+          "detail": "Bring children to the well-maintained playgrounds featuring modern equipment designed for various age groups throughout the park."
+        },
+        {
+          "id": "lepe_6",
+          "text": "Waterside Café Stop",
+          "detail": "Visit one of the park's casual outdoor cafés for coffee or light refreshments with direct views over the Markermeer.",
+          "lat": 52.3468,
+          "lng": 5.2228
+        }
+      ],
+      "food": [
+        {
+          "id": "lepe_f1",
+          "text": "Poffertjes",
+          "detail": "Enjoy these tiny Dutch pancakes dusted with powdered sugar, commonly sold at park vendors and local cafés throughout Almere."
+        },
+        {
+          "id": "lepe_f2",
+          "text": "Haring (Raw Herring)",
+          "detail": "Try this traditional Dutch prepared fish, often served at waterfront food stands near the park with onions and pickles."
+        },
+        {
+          "id": "lepe_f3",
+          "text": "Stroopwafels",
+          "detail": "Sample these iconic Dutch waffle cookies filled with caramel syrup, perfect for a sweet snack while relaxing in the park."
+        },
+        {
+          "id": "lepe_f4",
+          "text": "Bitterballen",
+          "detail": "Order these crispy fried potato and meat croquettes at the park's cafés, typically served as an appetizer with mustard."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lepe_c1",
+          "text": "Dutch Cycling Culture",
+          "detail": "Expect to see locals of all ages commuting and recreating by bicycle; rent a bike to experience this quintessential Dutch lifestyle firsthand."
+        },
+        {
+          "id": "lepe_c2",
+          "text": "Polder Landscape Pride",
+          "detail": "Recognize that Flevoland is a reclaimed polder created from former seabed, and locals take pride in this modern feat of water management and planning."
+        },
+        {
+          "id": "lepe_c3",
+          "text": "Outdoor Recreation Etiquette",
+          "detail": "Keep to marked paths, respect the natural areas, and follow posted rules about water access; the Dutch maintain parks with strict environmental care."
+        }
+      ]
+    },
+    {
+      "id": "cycling_routes",
+      "name": "Polder Cycling Network",
+      "nameIt": "Polderroutes",
+      "lat": 52.5,
+      "lng": 5.5,
+      "type": "NATURE",
+      "description": "Flevoland's extensive network of flat cycling routes across the polder, offering some of the best cycling conditions in Europe with scenic rural landscapes. The region's pancake-flat terrain and well-maintained paths make it ideal for leisurely bicycle touring.",
+      "imageQueries": [
+        "Flevoland cycling polder routes",
+        "Netherlands cycling Flevoland landscape"
+      ],
+      "activities": [
+        {
+          "id": "cycl_1",
+          "text": "Cycle the Zuiderzeepad",
+          "detail": "A 75-kilometer scenic route connecting historic waterfront towns and offering views of traditional Dutch water management infrastructure.",
+          "lat": 52.5,
+          "lng": 5.5
+        },
+        {
+          "id": "cycl_2",
+          "text": "Visit Lelystad Centre",
+          "detail": "Explore the modern city center and its cycling-friendly infrastructure, home to the Aviodome aviation museum and maritime heritage sites.",
+          "lat": 52.4639,
+          "lng": 5.4712
+        },
+        {
+          "id": "cycl_3",
+          "text": "Tour the Tulip Fields near Zeewolde",
+          "detail": "Ride through vibrant spring bulb fields (April-May) and visit local growers' farms that offer fresh flower purchases.",
+          "lat": 52.3167,
+          "lng": 5.75
+        },
+        {
+          "id": "cycl_4",
+          "text": "Explore Polder Museum at Breezand",
+          "detail": "Learn about Flevoland's reclamation history and the engineering feats that created the polder landscape you're cycling through.",
+          "lat": 52.7,
+          "lng": 5.7
+        },
+        {
+          "id": "cycl_5",
+          "text": "Cycle Around Markermeer Waterfront",
+          "detail": "Follow scenic paths along the artificial lake with stops at small harbors, beach pavilions, and water sports facilities.",
+          "lat": 52.65,
+          "lng": 5.4
+        },
+        {
+          "id": "cycl_6",
+          "text": "Visit Urk Harbor Town",
+          "detail": "Take a day trip to this picturesque former island fishing village with cobblestone streets and traditional Dutch architecture.",
+          "lat": 52.6667,
+          "lng": 5.6167
+        },
+        {
+          "id": "cycl_7",
+          "text": "Rent a Polderkano and Cycle Combo",
+          "detail": "Combine cycling routes with renting traditional flat-bottomed boats to explore the region's extensive water channels and drainage systems."
+        }
+      ],
+      "food": [
+        {
+          "id": "cycl_f1",
+          "text": "Paling (smoked eel)",
+          "detail": "Freshly smoked eel from local fisheries is a regional specialty often sold at harbors and village markets along cycling routes."
+        },
+        {
+          "id": "cycl_f2",
+          "text": "Flevoland Asparagus",
+          "detail": "This region's white asparagus is celebrated throughout the Netherlands; seek it at farm stands during spring harvest season."
+        },
+        {
+          "id": "cycl_f3",
+          "text": "Kibbeling with Remoulade",
+          "detail": "Crispy battered fish pieces served with creamy remoulade sauce, available at casual harbor side eateries and food stands."
+        },
+        {
+          "id": "cycl_f4",
+          "text": "Cheese from Urk",
+          "detail": "Local artisanal cheese producers in nearby Urk offer traditional Dutch varieties that pair perfectly with rest stops during rides."
+        },
+        {
+          "id": "cycl_f5",
+          "text": "Waterland Pancakes (Pannenkoeken)",
+          "detail": "Savory and sweet Dutch pancakes served at countryside farm restaurants with regional jam, cheese, or ham fillings."
+        },
+        {
+          "id": "cycl_f6",
+          "text": "Fresh Herring (Haring)",
+          "detail": "Raw marinated herring caught from local waters is served as a traditional snack at harbors and food markets throughout the polder."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cycl_c1",
+          "text": "Respect the Cycling Priority",
+          "detail": "In Flevoland, bicycles have dedicated paths and right-of-way at intersections; always use marked cycle routes and follow traffic signals designed for cyclists."
+        },
+        {
+          "id": "cycl_c2",
+          "text": "Pack Rain Gear Year-Round",
+          "detail": "The flat polder landscape offers no shelter from sudden weather changes, so always carry a waterproof jacket regardless of forecast conditions."
+        },
+        {
+          "id": "cycl_c3",
+          "text": "Follow Leave-No-Trace Ethics",
+          "detail": "The polder is a carefully managed ecosystem with protected water levels and agricultural areas; stay on designated paths and dispose of rubbish properly."
+        },
+        {
+          "id": "cycl_c4",
+          "text": "Greet Fellow Cyclists Casually",
+          "detail": "Dutch cyclists typically exchange friendly nods or brief greetings on shared paths; a simple 'Hallo!' or wave is culturally appropriate and appreciated."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "De Librije",
+      "address": "Zutphensestraat 46, Zwolle",
+      "neighbourhood": "Zwolle",
+      "cuisine": "Modern European",
+      "priceRange": "€€€€",
+      "description": "Three Michelin-starred fine dining restaurant showcasing innovative seasonal cuisine with exceptional technique.",
+      "mustOrder": "Chef's tasting menu with wine pairing",
+      "lat": 52.5089,
+      "lng": 6.0917
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Restaurant Catch by Simonis",
+      "address": "Zuiderzeestraatweg 6, Lelystad",
+      "neighbourhood": "Lelystad",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Premium seafood restaurant with a focus on fresh fish and elegant presentation in a contemporary setting.",
+      "mustOrder": "Lobster thermidor or daily fish special",
+      "lat": 52.4606,
+      "lng": 5.4764
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Restaurant Aan de Poel",
+      "address": "Polderzijlweg 1, Almere",
+      "neighbourhood": "Almere",
+      "cuisine": "Dutch Contemporary",
+      "priceRange": "€€€",
+      "description": "Waterfront restaurant offering refined Dutch cuisine with seasonal ingredients in a modern ambiance.",
+      "mustOrder": "Smoked eel with apple and horseradish",
+      "lat": 52.3792,
+      "lng": 5.2089
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "De Watertuin",
+      "address": "Cyclopslaan 5, Almere",
+      "neighbourhood": "Almere",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Casual waterside dining with diverse international menu and relaxed family-friendly atmosphere.",
+      "mustOrder": "Fish and chips or international pasta dishes",
+      "lat": 52.3706,
+      "lng": 5.2245
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Restaurant Savarin",
+      "address": "Langestraat 10, Dronten",
+      "neighbourhood": "Dronten",
+      "cuisine": "French-Belgian",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant serving classical French-Belgian cuisine with meticulous attention to preparation and flavors.",
+      "mustOrder": "Duck à l'orange or beef preparations",
+      "lat": 52.6613,
+      "lng": 5.642
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Greetje aan Zee",
+      "address": "Meerpaalweg 2, Urk",
+      "neighbourhood": "Urk",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Authentic harbor-side fish restaurant with traditional preparation and fresh daily catches in casual setting.",
+      "mustOrder": "Smoked eel and grilled sea bass",
+      "lat": 52.6604,
+      "lng": 5.596
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Restaurant De Slaet",
+      "address": "Havenstraat 40, Lelystad",
+      "neighbourhood": "Lelystad",
+      "cuisine": "International Casual",
+      "priceRange": "€€",
+      "description": "Relaxed waterfront brasserie offering international comfort food and local specialties with marina views.",
+      "mustOrder": "Pan-fried fish or mussels in season",
+      "lat": 52.4634,
+      "lng": 5.4802
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurant De Watertuin Lelystad",
+      "address": "Agora 10, Lelystad",
+      "neighbourhood": "Lelystad",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€",
+      "description": "Mediterranean-inspired casual restaurant featuring fresh ingredients and light preparations in modern space.",
+      "mustOrder": "Seafood pasta or grilled fish platters",
+      "lat": 52.4565,
+      "lng": 5.4678
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Bries Bries",
+      "address": "Soestdijkstraat 4, Almere",
+      "neighbourhood": "Almere",
+      "cuisine": "French Bistro",
+      "priceRange": "€€€",
+      "description": "Charming French bistro with classic dishes prepared with precision in an intimate warm atmosphere.",
+      "mustOrder": "Coq au vin or French onion soup",
+      "lat": 52.3724,
+      "lng": 5.2156
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Restaurant Fortuna",
+      "address": "Langekade 32, Kampen",
+      "neighbourhood": "Kampen",
+      "cuisine": "Dutch Traditional",
+      "priceRange": "€€",
+      "description": "Family-run restaurant celebrating Dutch heritage with hearty traditional dishes and warm hospitality.",
+      "mustOrder": "Pea soup or braised beef",
+      "lat": 52.5564,
+      "lng": 5.8915
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Restaurant Zilt & Zoet",
+      "address": "Zuiderzeestraatweg 10, Lelystad",
+      "neighbourhood": "Lelystad",
+      "cuisine": "Contemporary Dutch",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant balancing traditional Dutch ingredients with modern cooking techniques and plating.",
+      "mustOrder": "Local fish with seasonal vegetables",
+      "lat": 52.4605,
+      "lng": 5.4781
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Restaurant De Jonge",
+      "address": "Stationsplein 12, Almere",
+      "neighbourhood": "Almere",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Central station area restaurant offering diverse international menu appealing to various palates and occasions.",
+      "mustOrder": "Steak or fresh fish selection",
+      "lat": 52.3775,
+      "lng": 5.2173
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Het Wapen van Kampen",
+      "address": "Oudestraat 158, Kampen",
+      "neighbourhood": "Kampen",
+      "cuisine": "Dutch Regional",
+      "priceRange": "€€",
+      "description": "Historic restaurant honoring Kampen's cultural heritage with regional specialties in traditional setting.",
+      "mustOrder": "Kampen's local fish preparations",
+      "lat": 52.5603,
+      "lng": 5.8768
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Restaurant Aan de Vecht",
+      "address": "Vecht 55, Dronten",
+      "neighbourhood": "Dronten",
+      "cuisine": "French Contemporary",
+      "priceRange": "€€€",
+      "description": "Riverside fine dining with refined French-inspired menu and attention to ingredient quality and presentation.",
+      "mustOrder": "Seasonal fish or game preparations",
+      "lat": 52.6752,
+      "lng": 5.6589
+    }
+  ]
+}

@@ -1,0 +1,1387 @@
+{
+  "id": "utrecht",
+  "name": "Utrecht",
+  "nameIt": "Utrecht",
+  "capital": "Utrecht",
+  "lat": 52.09,
+  "lng": 5.12,
+  "emoji": "🚴",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 52.35,
+    "south": 51.8,
+    "east": 5.7,
+    "west": 4.5
+  },
+  "history": "Utrecht has been a significant settlement since Roman times, when it served as a military fortress on the Rhine frontier. During the Middle Ages, it became an important religious center and one of the wealthiest cities in the Netherlands, thanks to its position as a bishop's seat and a major trading hub. The city's golden age continued through the Dutch Golden Age, when it thrived as a cultural and economic powerhouse. Today, Utrecht's medieval streets and impressive Dom Tower stand as testament to its centuries-long influence.",
+  "culturalNotes": "Utrecht is known for its progressive, youthful character, shaped by its large student population and vibrant creative scene. The city has a distinctive approach to urban cycling and sustainable living, with extensive bike infrastructure that residents take great pride in. Its compact medieval center, lined with charming cafes and independent shops, reflects a strong local commitment to community and cultural expression rather than mass tourism.",
+  "bestTimeToVisit": "Visit year-round, but spring and summer are ideal for cycling and canal exploration.",
+  "languageNotes": "Dutch is the primary language, and while English is widely spoken among younger residents, learning basic Dutch phrases like 'Dank je wel' (thank you) and 'Hoe gaat het?' (how are you?) is appreciated. The local dialect contains subtle variations from standard Dutch, but visitors will find standard Dutch perfectly adequate for most interactions.",
+  "generatedAt": "2026-07-04T22:31:59.965Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "utrecht_city",
+      "name": "Utrecht City Centre",
+      "nameIt": "Utrecht Centrum",
+      "lat": 52.0907,
+      "lng": 5.1214,
+      "type": "CITY",
+      "description": "The vibrant heart of Utrecht features stunning medieval architecture, the iconic Dom Tower, and picturesque canals lined with cafes and shops. This is the cultural and commercial hub where most visitors spend their time exploring museums, markets, and historic streets.",
+      "imageQueries": [
+        "Utrecht Dom Tower canal",
+        "Utrecht city centre historic"
+      ],
+      "activities": [
+        {
+          "id": "utre_1",
+          "text": "Dom Tower Climb",
+          "detail": "Ascend the 465 steps of Utrecht's iconic 14th-century tower for panoramic views of the city and surrounding countryside.",
+          "lat": 52.0905,
+          "lng": 5.1211
+        },
+        {
+          "id": "utre_2",
+          "text": "Railway Museum Visit",
+          "detail": "Explore the Dutch railway heritage in this engaging museum housed in a former station building with vintage locomotives and interactive exhibits.",
+          "lat": 52.0881,
+          "lng": 5.1103
+        },
+        {
+          "id": "utre_3",
+          "text": "Canal-side Cafe Culture",
+          "detail": "Stroll the picturesque Oudegracht and Nieuwegracht canals lined with terraces and cafes perfect for people-watching and casual dining.",
+          "lat": 52.0922,
+          "lng": 5.1232
+        },
+        {
+          "id": "utre_4",
+          "text": "Central Museum",
+          "detail": "Discover Dutch design, contemporary art, and fashion collections in this acclaimed museum showcasing Utrecht's creative legacy.",
+          "lat": 52.0909,
+          "lng": 5.1194
+        },
+        {
+          "id": "utre_5",
+          "text": "Vredenburg Music Venue",
+          "detail": "Experience live performances ranging from classical to electronic music in this modern concert hall integrated into the city center.",
+          "lat": 52.0902,
+          "lng": 5.1181
+        },
+        {
+          "id": "utre_6",
+          "text": "Mariaplaats Street Market",
+          "detail": "Browse fresh produce, flowers, and local goods at this traditional daily market square in the heart of the city center.",
+          "lat": 52.0927,
+          "lng": 5.1209
+        }
+      ],
+      "food": [
+        {
+          "id": "utre_f1",
+          "text": "Stroopwafels",
+          "detail": "Sample these iconic Dutch syrup-filled waffle cookies sold fresh at local bakeries and market stalls throughout the city center."
+        },
+        {
+          "id": "utre_f2",
+          "text": "Poffertjes with Powdered Sugar",
+          "detail": "Try these miniature fluffy Dutch pancakes dusted with confectioner's sugar, a beloved street food and dessert unique to the Netherlands."
+        },
+        {
+          "id": "utre_f3",
+          "text": "Bitterballen",
+          "detail": "Enjoy these crispy fried balls filled with ragout, a classic Dutch appetizer served in pubs and cafes across the city center."
+        },
+        {
+          "id": "utre_f4",
+          "text": "Herring (Haring)",
+          "detail": "Taste fresh raw herring prepared the traditional Dutch way, typically served with onions and pickles at fish stalls and restaurants."
+        },
+        {
+          "id": "utre_f5",
+          "text": "Cheese Tasting",
+          "detail": "Sample aged Gouda and other regional Dutch cheeses at specialty shops and markets specializing in local artisanal varieties."
+        }
+      ],
+      "culture": [
+        {
+          "id": "utre_c1",
+          "text": "Cycling is Essential",
+          "detail": "Rent a bicycle to navigate the city like locals; most shops and restaurants have dedicated bike parking, and many streets prioritize cycling paths."
+        },
+        {
+          "id": "utre_c2",
+          "text": "Canal-level Bars and Basements",
+          "detail": "Many historic buildings have bars and shops at canal water level (rather than street level), a quirk reflecting Utrecht's medieval flood management."
+        },
+        {
+          "id": "utre_c3",
+          "text": "Dutch Directness in Service",
+          "detail": "Service staff and shop owners are friendly but direct; they value efficiency and honesty over excessive formality, so don't be put off by bluntness."
+        },
+        {
+          "id": "utre_c4",
+          "text": "Gezelligheid Philosophy",
+          "detail": "Embrace 'gezelligheid'—the Dutch concept of cozy conviviality—by lingering at cafes, engaging in conversation, and enjoying unhurried social time."
+        }
+      ]
+    },
+    {
+      "id": "dom_tower",
+      "name": "Dom Tower",
+      "nameIt": "Domtoren",
+      "lat": 52.0905,
+      "lng": 5.1241,
+      "type": "LANDMARK",
+      "description": "This 14th-century Gothic tower stands 112 meters tall and dominates Utrecht's skyline with its distinctive silhouette. Climbing its 465 steps rewards visitors with panoramic views of the city and surrounding Dutch landscape.",
+      "imageQueries": [
+        "Domtoren Utrecht tower",
+        "Dom Tower Utrecht view"
+      ],
+      "activities": [
+        {
+          "id": "dom__1",
+          "text": "Climb to the Observation Deck",
+          "detail": "Ascend the 465 steps to the top for sweeping 360-degree views of Utrecht's medieval center and the surrounding polder landscape.",
+          "lat": 52.0905,
+          "lng": 5.1214
+        },
+        {
+          "id": "dom__2",
+          "text": "Explore the Tower's Interior Museum",
+          "detail": "Learn about the Dom Tower's 14th-century construction, its role in Utrecht's history, and see the bell chamber with original mechanisms.",
+          "lat": 52.0905,
+          "lng": 5.1214
+        },
+        {
+          "id": "dom__3",
+          "text": "Visit the Adjacent Dom Church Ruins",
+          "detail": "Walk through the remnants of the attached St. Martin's Cathedral, destroyed in a 1674 storm, to understand Utrecht's religious significance.",
+          "lat": 52.0908,
+          "lng": 5.1217
+        },
+        {
+          "id": "dom__4",
+          "text": "Attend a Carillon Concert",
+          "detail": "Listen to traditional bell music performed from the tower's carillon, especially during summer evening concerts held on Fridays.",
+          "lat": 52.0905,
+          "lng": 5.1214
+        },
+        {
+          "id": "dom__5",
+          "text": "Photography Tour of the Square",
+          "detail": "Capture iconic images of the tower from Dom Square (Domplein), particularly during golden hour when its Gothic facade is beautifully lit.",
+          "lat": 52.0906,
+          "lng": 5.1215
+        },
+        {
+          "id": "dom__6",
+          "text": "Guided History Tour",
+          "detail": "Join a professional tour to learn detailed stories about the tower's construction, the 1674 storm, and its significance to Dutch maritime history.",
+          "lat": 52.0905,
+          "lng": 5.1214
+        }
+      ],
+      "food": [
+        {
+          "id": "dom__f1",
+          "text": "Stoemp",
+          "detail": "A traditional Dutch comfort dish of mashed potatoes with vegetables and meat, commonly served in nearby restaurants around Domplein."
+        },
+        {
+          "id": "dom__f2",
+          "text": "Poffertjes from Street Vendors",
+          "detail": "Tiny, fluffy pancakes dusted with powdered sugar and sold from carts near the tower square, perfect for a quick snack."
+        },
+        {
+          "id": "dom__f3",
+          "text": "Bossche Bol",
+          "detail": "A chocolate-covered cream puff pastry from Den Bosch available in local cafes near Dom Tower, offering indulgent Dutch sweetness."
+        },
+        {
+          "id": "dom__f4",
+          "text": "Bitterballen",
+          "detail": "Deep-fried meat ragout croquettes served hot with mustard, a classic Utrecht snack found in pubs surrounding the tower."
+        },
+        {
+          "id": "dom__f5",
+          "text": "Kibbeling",
+          "detail": "Battered and fried fish pieces sold from local food stalls, reflecting Utrecht's historical connection to fishing traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dom__c1",
+          "text": "Best Visiting Hours",
+          "detail": "Arrive early morning or late afternoon to avoid crowds and enjoy the clearest views; the tower closes at 17:00 in winter months."
+        },
+        {
+          "id": "dom__c2",
+          "text": "Respectful Behavior at Ruins",
+          "detail": "The adjacent Dom Church ruins are sacred ground to locals; maintain quiet reverence and avoid treating it as merely a photo backdrop."
+        },
+        {
+          "id": "dom__c3",
+          "text": "Weather Considerations",
+          "detail": "Dutch wind can be strong at 112 meters; wear appropriate clothing and check forecasts before climbing, as the observation deck closes in severe weather."
+        },
+        {
+          "id": "dom__c4",
+          "text": "Local Pride and History",
+          "detail": "Utrechters deeply value their tower as a symbol of independence and resilience; engaging with locals about its 1674 survival story shows cultural respect."
+        }
+      ]
+    },
+    {
+      "id": "railway_museum",
+      "name": "Dutch Railway Museum",
+      "nameIt": "Nederlands Spoorwegmuseum",
+      "lat": 52.0886,
+      "lng": 5.1703,
+      "type": "LANDMARK",
+      "description": "Located in a historic railway station, this museum showcases the history of Dutch railways with vintage trains, interactive exhibits, and railway memorabilia. It's a must-visit for train enthusiasts and offers engaging experiences for families.",
+      "imageQueries": [
+        "Nederlands Spoorwegmuseum trains",
+        "Dutch Railway Museum Utrecht"
+      ],
+      "activities": [
+        {
+          "id": "rail_1",
+          "text": "Explore the Historic Station Building",
+          "detail": "Walk through the beautifully restored 19th-century railway station that houses the museum, featuring original architecture and period details."
+        },
+        {
+          "id": "rail_2",
+          "text": "Ride the Museum Train",
+          "detail": "Board vintage steam and electric trains for short scenic journeys around the museum grounds and surrounding Utrecht countryside.",
+          "lat": 52.0891,
+          "lng": 5.1078
+        },
+        {
+          "id": "rail_3",
+          "text": "Visit the Vintage Locomotive Collection",
+          "detail": "View meticulously preserved Dutch and international steam locomotives, electric trains, and railway carriages spanning over 150 years of railway history."
+        },
+        {
+          "id": "rail_4",
+          "text": "Experience Interactive Railway Exhibits",
+          "detail": "Engage with hands-on displays where visitors can learn about railway operations, signaling systems, and the evolution of train technology."
+        },
+        {
+          "id": "rail_5",
+          "text": "Explore the Signal Box",
+          "detail": "Climb to the working signal box to see operational railway signals and learn how Dutch rail traffic has been controlled throughout history."
+        },
+        {
+          "id": "rail_6",
+          "text": "Tour the Railway Workshop",
+          "detail": "Observe skilled craftspeople restoring historic trains and railway equipment in the working restoration workshop visible from the museum floor."
+        },
+        {
+          "id": "rail_7",
+          "text": "Browse Railway Memorabilia Collections",
+          "detail": "Examine vintage tickets, uniforms, timetables, posters, and other authentic artifacts that document Dutch railway culture and passenger experiences."
+        }
+      ],
+      "food": [
+        {
+          "id": "rail_f1",
+          "text": "Dutch Pea Soup (Erwtensoep)",
+          "detail": "A hearty split-pea soup with smoked sausage and vegetables, a traditional Dutch comfort food perfect for warming up between museum visits."
+        },
+        {
+          "id": "rail_f2",
+          "text": "Stroopwafels",
+          "detail": "Thin waffle cookies with caramel syrup filling, a classic Dutch treat available at the museum café that pairs well with coffee."
+        },
+        {
+          "id": "rail_f3",
+          "text": "Bitterballen",
+          "detail": "Fried croquettes filled with ragout or beef, a popular Dutch appetizer and snack sold at the museum's food vendors."
+        },
+        {
+          "id": "rail_f4",
+          "text": "Dutch Cheese Platter",
+          "detail": "A selection of regional cheeses like Gouda and Edam, often served with bread and pickles at the museum's on-site restaurant."
+        },
+        {
+          "id": "rail_f5",
+          "text": "Poffertjes",
+          "detail": "Tiny fluffy Dutch pancakes dusted with powdered sugar and served with butter, a sweet snack available at the museum café."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rail_c1",
+          "text": "Plan for Extended Hours",
+          "detail": "The museum is best explored over 3-4 hours, so arrive early in the day to enjoy both indoor exhibits and outdoor train rides without feeling rushed."
+        },
+        {
+          "id": "rail_c2",
+          "text": "Dutch Directness in Service",
+          "detail": "Museum staff are helpful but matter-of-fact in typical Dutch fashion; don't interpret brief interactions as unfriendliness but rather efficient professionalism."
+        },
+        {
+          "id": "rail_c3",
+          "text": "Bicycle Culture Context",
+          "detail": "Utrecht is a cyclist's city, so observe that many visitors arrive by bike and the museum provides secure bicycle parking facilities."
+        },
+        {
+          "id": "rail_c4",
+          "text": "Tipping Customs",
+          "detail": "Tipping is not expected in Dutch museums or cafés, though small amounts are appreciated; rounding up bills is a common practice."
+        }
+      ]
+    },
+    {
+      "id": "rietveld_schroeder",
+      "name": "Rietveld Schröder House",
+      "nameIt": "Rietveld Schröder Huis",
+      "lat": 52.0756,
+      "lng": 5.1562,
+      "type": "LANDMARK",
+      "description": "This UNESCO World Heritage site is an architectural masterpiece from 1924 designed by Gerrit Rietveld, exemplifying the De Stijl movement with its innovative use of color and space. Guided tours provide insight into modernist design principles and early 20th-century living.",
+      "imageQueries": [
+        "Rietveld Schröder House Utrecht",
+        "De Stijl architecture Utrecht"
+      ],
+      "activities": [
+        {
+          "id": "riet_1",
+          "text": "Guided Tour of the House",
+          "detail": "Experience a mandatory guided tour (available in Dutch and English) that explores Rietveld's innovative open-plan design, movable walls, and the De Stijl principles applied throughout the 1924 residence.",
+          "lat": 52.0896,
+          "lng": 5.1372
+        },
+        {
+          "id": "riet_2",
+          "text": "Study the Primary Color Palette",
+          "detail": "Observe how Rietveld's signature use of red, blue, and yellow geometric forms define spaces and create visual movement throughout the interior and exterior of the house.",
+          "lat": 52.0896,
+          "lng": 5.1372
+        },
+        {
+          "id": "riet_3",
+          "text": "Examine the Movable Interior Walls",
+          "detail": "See firsthand how the innovative sliding and folding partition system allows the upper floor to transform from separate rooms into one open living space, a revolutionary concept for residential design."
+        },
+        {
+          "id": "riet_4",
+          "text": "Visit the Centraal Museum Utrecht",
+          "detail": "Located nearby, this museum holds additional De Stijl works and provides broader context for understanding Rietveld's architectural philosophy and the movement's impact on modernism.",
+          "lat": 52.0862,
+          "lng": 5.1241
+        },
+        {
+          "id": "riet_5",
+          "text": "Photography in the Garden",
+          "detail": "Capture the exterior's clean lines and color blocks from the surrounding garden, which showcases how the house integrates with its landscape through geometric principle."
+        },
+        {
+          "id": "riet_6",
+          "text": "Inspect the Custom Furniture",
+          "detail": "Study Rietveld-designed furniture pieces including the famous Red and Blue Chair, which demonstrate how functional design and artistic expression merge in De Stijl ideology."
+        }
+      ],
+      "food": [
+        {
+          "id": "riet_f1",
+          "text": "Stroopwafels",
+          "detail": "These thin waffle cookies filled with caramel syrup are a classic Dutch treat found at local cafés and bakeries near the museum district, perfect for a quick snack between cultural visits."
+        },
+        {
+          "id": "riet_f2",
+          "text": "Bitterballen",
+          "detail": "Deep-fried croquettes filled with ragout served with mustard are a traditional Dutch appetizer available at nearby pubs and restaurants in the Zuilen neighborhood."
+        },
+        {
+          "id": "riet_f3",
+          "text": "Poffertjes",
+          "detail": "Fluffy mini pancakes dusted with powdered sugar are a beloved Dutch street food sold by vendors throughout Utrecht's city center, just a short walk from the Schröder House."
+        },
+        {
+          "id": "riet_f4",
+          "text": "Cheese at Local Markets",
+          "detail": "Utrecht's weekly markets offer fresh Gouda and Edam cheese, which visitors can enjoy with bread and local accompaniments at nearby cafés or picnic areas."
+        },
+        {
+          "id": "riet_f5",
+          "text": "Stamppot",
+          "detail": "This traditional Dutch comfort dish of mashed potatoes mixed with vegetables and meat is served at casual neighborhood restaurants in the surrounding Zuilen district."
+        }
+      ],
+      "culture": [
+        {
+          "id": "riet_c1",
+          "text": "Book Tours in Advance",
+          "detail": "The Rietveld Schröder House only admits visitors via pre-booked guided tours with limited daily capacity, so reservations should be made weeks ahead, especially during peak tourist season."
+        },
+        {
+          "id": "riet_c2",
+          "text": "Respect Minimalist Etiquette",
+          "detail": "Visitors are expected to move quietly and respectfully through the spaces to preserve the contemplative experience the architect intended; photography restrictions are enforced to protect the delicate interior."
+        },
+        {
+          "id": "riet_c3",
+          "text": "Understand De Stijl Context",
+          "detail": "Familiarize yourself with De Stijl principles—geometric abstraction, primary colors, and rejection of decoration—before visiting to fully appreciate Rietveld's revolutionary design choices."
+        },
+        {
+          "id": "riet_c4",
+          "text": "Dutch Directness in Museums",
+          "detail": "Dutch museum staff are characteristically straightforward and efficient; questions are welcome but expect brief, factual answers focused on the architecture and historical significance."
+        }
+      ]
+    },
+    {
+      "id": "central_museum",
+      "name": "Central Museum",
+      "nameIt": "Centraal Museum",
+      "lat": 52.0909,
+      "lng": 5.1149,
+      "type": "LANDMARK",
+      "description": "Utrecht's premier art museum houses an extensive collection of Dutch art, design, and fashion spanning from medieval times to contemporary work. The museum's diverse exhibitions and beautiful canal-side location make it essential for art lovers.",
+      "imageQueries": [
+        "Centraal Museum Utrecht",
+        "Central Museum art collection"
+      ],
+      "activities": [
+        {
+          "id": "cent_1",
+          "text": "Explore the Dutch Design Collection",
+          "detail": "View iconic furniture, textiles, and industrial design pieces that showcase Netherlands' influence on modern design movements."
+        },
+        {
+          "id": "cent_2",
+          "text": "Medieval Art Gallery",
+          "detail": "Discover religious paintings, sculptures, and manuscripts from Utrecht's important medieval period as a spiritual center.",
+          "lat": 52.0902,
+          "lng": 5.1213
+        },
+        {
+          "id": "cent_3",
+          "text": "Contemporary Art Exhibitions",
+          "detail": "Rotate through modern and contemporary installations and paintings that challenge traditional art perspectives."
+        },
+        {
+          "id": "cent_4",
+          "text": "Fashion & Textile Displays",
+          "detail": "Examine historical Dutch clothing, haute couture, and fabric design that illustrates fashion evolution from the Renaissance onward."
+        },
+        {
+          "id": "cent_5",
+          "text": "Canal-side Terrace Visit",
+          "detail": "Relax on the museum's outdoor terrace overlooking the Oudegracht canal with views of historic waterfront buildings.",
+          "lat": 52.09,
+          "lng": 5.121
+        },
+        {
+          "id": "cent_6",
+          "text": "Photography & Visual Culture Wing",
+          "detail": "Browse Dutch documentary photography and visual media collections that document social and cultural history."
+        }
+      ],
+      "food": [
+        {
+          "id": "cent_f1",
+          "text": "Stroopwafels",
+          "detail": "Sweet waffle cookies filled with caramel syrup, best enjoyed warm from local bakeries near the museum."
+        },
+        {
+          "id": "cent_f2",
+          "text": "Bitterballen",
+          "detail": "Deep-fried meatball snacks with creamy ragout filling, a classic Dutch appetizer found in nearby brown cafés."
+        },
+        {
+          "id": "cent_f3",
+          "text": "Poffertjes",
+          "detail": "Tiny fluffy Dutch pancakes dusted with powdered sugar and topped with butter, sold by street vendors around Utrecht."
+        },
+        {
+          "id": "cent_f4",
+          "text": "Cheese Platter with Local Gouda",
+          "detail": "Sample Utrecht region's aged Gouda and other Dutch cheeses at canal-side restaurants near the museum."
+        },
+        {
+          "id": "cent_f5",
+          "text": "Haring",
+          "detail": "Raw herring fish served with onions and pickles, a traditional Dutch delicacy available at local seafood stands."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cent_c1",
+          "text": "Arrive Early on Weekends",
+          "detail": "The museum draws significant crowds on Saturday and Sunday, so visiting in the morning ensures shorter lines and better viewing experience."
+        },
+        {
+          "id": "cent_c2",
+          "text": "Dutch Directness in Service",
+          "detail": "Staff and locals are characteristically direct and efficient rather than overly formal; don't interpret brevity as rudeness."
+        },
+        {
+          "id": "cent_c3",
+          "text": "Bike Culture Awareness",
+          "detail": "Utrecht is highly bicycle-oriented; stay alert when walking near bike lanes and respect the local cycling priority system."
+        },
+        {
+          "id": "cent_c4",
+          "text": "Museum Card Benefits",
+          "detail": "A Museumkaart provides free or discounted entry to hundreds of Dutch museums; consider purchasing if visiting multiple venues."
+        }
+      ]
+    },
+    {
+      "id": "dom_cathedral",
+      "name": "Utrecht Cathedral",
+      "nameIt": "Domkerk",
+      "lat": 52.0908,
+      "lng": 5.123,
+      "type": "LANDMARK",
+      "description": "This magnificent Gothic cathedral, dating back to the 14th century, features intricate architectural details and beautiful stained glass windows. Visitors can explore the interior and learn about Utrecht's religious history and artistic heritage.",
+      "imageQueries": [
+        "Domkerk Utrecht cathedral",
+        "Utrecht Cathedral Gothic"
+      ],
+      "activities": [
+        {
+          "id": "dom__1",
+          "text": "Climb the Dom Tower",
+          "detail": "Ascend the 465 steps of the adjacent Dom Tower for panoramic views of Utrecht and the surrounding countryside from the 112-meter-high platform.",
+          "lat": 52.0905,
+          "lng": 5.1211
+        },
+        {
+          "id": "dom__2",
+          "text": "Admire the Stained Glass Windows",
+          "detail": "Examine the intricate medieval and Renaissance stained glass throughout the cathedral, particularly those in the choir depicting biblical scenes and local saints."
+        },
+        {
+          "id": "dom__3",
+          "text": "Explore the Cathedral Interior",
+          "detail": "Walk through the five aisles and experience the soaring Gothic ribbed vaults, decorative pillars, and ornate chapels that showcase Utrecht's artistic heritage."
+        },
+        {
+          "id": "dom__4",
+          "text": "Visit the Cathedral Museum",
+          "detail": "Learn about the Domkerk's 800-year history, view religious artifacts, vestments, and manuscripts in the museum housed within the cathedral complex."
+        },
+        {
+          "id": "dom__5",
+          "text": "Attend Evensong or Organ Concert",
+          "detail": "Experience the cathedral's impressive pipe organ and acoustics during scheduled classical music performances or traditional evening services."
+        },
+        {
+          "id": "dom__6",
+          "text": "Explore the Dom Cloisters",
+          "detail": "Stroll through the peaceful Gothic cloisters adjacent to the cathedral, featuring arched passages and a serene courtyard for reflection."
+        }
+      ],
+      "food": [
+        {
+          "id": "dom__f1",
+          "text": "Stoemp",
+          "detail": "A traditional Dutch comfort dish of mashed potatoes mixed with vegetables like kale or carrots, commonly served as a side or main course in local restaurants."
+        },
+        {
+          "id": "dom__f2",
+          "text": "Stroopwafels",
+          "detail": "Sweet Dutch waffles filled with caramel syrup, best enjoyed at local bakeries near the cathedral or with coffee at nearby cafés."
+        },
+        {
+          "id": "dom__f3",
+          "text": "Bitterballen",
+          "detail": "Crispy fried croquettes filled with ragout, a beloved Dutch appetizer served in pubs and restaurants throughout Utrecht's city center."
+        },
+        {
+          "id": "dom__f4",
+          "text": "Poffertjes",
+          "detail": "Tiny, fluffy Dutch pancakes dusted with powdered sugar, available from street vendors and cafés around the cathedral square."
+        },
+        {
+          "id": "dom__f5",
+          "text": "Kibbeling",
+          "detail": "Battered and deep-fried fish pieces served with lemon and tartar sauce, a popular Dutch snack found at waterfront vendors near the cathedral area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dom__c1",
+          "text": "Respect Service Times",
+          "detail": "The cathedral remains an active place of worship; visitors should be respectful during religious services and keep voices low while exploring."
+        },
+        {
+          "id": "dom__c2",
+          "text": "Dutch Directness in Directions",
+          "detail": "Utrecht locals are characteristically direct and helpful when asked for directions; don't be put off by their blunt manner as it reflects cultural honesty rather than rudeness."
+        },
+        {
+          "id": "dom__c3",
+          "text": "Cycling Culture Awareness",
+          "detail": "Utrecht is one of the world's most bike-friendly cities; stay alert to cyclists when walking outside the cathedral and respect dedicated cycling lanes."
+        },
+        {
+          "id": "dom__c4",
+          "text": "Quiet Observation Expected",
+          "detail": "Dutch visitors typically explore cathedrals quietly and reflectively; loud conversations or excessive photography during services may be considered disrespectful."
+        }
+      ]
+    },
+    {
+      "id": "oudegracht",
+      "name": "Oudegracht Canal",
+      "nameIt": "Oudegracht",
+      "lat": 52.092,
+      "lng": 5.12,
+      "type": "LANDMARK",
+      "description": "Utrecht's oldest canal is lined with charming cafes, restaurants, and historic buildings built directly along the waterfront at street level. This picturesque setting is perfect for leisurely walks, dining, and experiencing authentic Dutch canal culture.",
+      "imageQueries": [
+        "Oudegracht Utrecht canal",
+        "Utrecht canal waterfront cafes"
+      ],
+      "activities": [
+        {
+          "id": "oude_1",
+          "text": "Waterfront Cafe Hopping",
+          "detail": "Stroll between the numerous street-level terraces and cafes lining both banks, sampling drinks and snacks while watching boats pass by."
+        },
+        {
+          "id": "oude_2",
+          "text": "Canal-Side Photography",
+          "detail": "Capture the picturesque reflections of historic facades, wooden loading doors (laadkamers), and charming bridges that define Oudegracht's character.",
+          "lat": 52.0906,
+          "lng": 5.1211
+        },
+        {
+          "id": "oude_3",
+          "text": "Rent a Canal Boat",
+          "detail": "Explore Utrecht's canal network from the water by renting a small electric boat or kayak from operators based along Oudegracht.",
+          "lat": 52.092,
+          "lng": 5.1215
+        },
+        {
+          "id": "oude_4",
+          "text": "Visit the Laadkamers",
+          "detail": "Explore the historic warehouse rooms built into the canal embankments (unique to Utrecht), many now converted into galleries, boutiques, and studios.",
+          "lat": 52.091,
+          "lng": 5.12
+        },
+        {
+          "id": "oude_5",
+          "text": "Evening Canal Walk",
+          "detail": "Stroll the towpath at dusk when the historic buildings are subtly lit and the atmosphere becomes particularly romantic and peaceful."
+        },
+        {
+          "id": "oude_6",
+          "text": "Museum Speelklok Visit",
+          "detail": "Stop by this quirky museum near Oudegracht showcasing mechanical music instruments and antique street organs.",
+          "lat": 52.0895,
+          "lng": 5.1189
+        }
+      ],
+      "food": [
+        {
+          "id": "oude_f1",
+          "text": "Stroopwafels from Local Vendors",
+          "detail": "Sample these thin waffle cookies with caramel syrup filling, best enjoyed warm from street vendors along the canal."
+        },
+        {
+          "id": "oude_f2",
+          "text": "Bitterballen with Mustard",
+          "detail": "Try these deep-fried Dutch meatball appetizers served with spicy mustard at waterfront bars and restaurants."
+        },
+        {
+          "id": "oude_f3",
+          "text": "Paling (Smoked Eel)",
+          "detail": "Order smoked eel, a local delicacy traditionally caught in Utrecht's waterways, at restaurants with canal-side seating."
+        },
+        {
+          "id": "oude_f4",
+          "text": "Kaas Kroket (Cheese Croquette)",
+          "detail": "Enjoy crispy fried croquettes filled with melted Gouda cheese, served at casual waterfront eateries."
+        },
+        {
+          "id": "oude_f5",
+          "text": "Dutch Pancakes (Pannenkoeken)",
+          "detail": "Indulge in thin savory or sweet pancakes available at numerous cafes, often with local toppings like smoked salmon or bacon."
+        }
+      ],
+      "culture": [
+        {
+          "id": "oude_c1",
+          "text": "Canal Etiquette and Boat Traffic",
+          "detail": "Respect waterway pedestrians and give way to passing boats; the canal is actively used for transportation, not just sightseeing."
+        },
+        {
+          "id": "oude_c2",
+          "text": "Historic Building Respect",
+          "detail": "Many facades along Oudegracht are protected monuments dating back centuries—admire from a distance and avoid intrusive photography of residents."
+        },
+        {
+          "id": "oude_c3",
+          "text": "Outdoor Seating Culture",
+          "detail": "Dutch cafe culture thrives outdoors year-round with heated lamps in cooler months; locals linger for hours over single drinks or coffee."
+        },
+        {
+          "id": "oude_c4",
+          "text": "Sunday Stillness and Closures",
+          "detail": "Many smaller shops and some restaurants have limited Sunday hours, so plan major activities for weekdays or Saturday if visiting."
+        }
+      ]
+    },
+    {
+      "id": "university_hall",
+      "name": "Utrecht University",
+      "nameIt": "Universiteit Utrecht",
+      "lat": 52.0897,
+      "lng": 5.1287,
+      "type": "LANDMARK",
+      "description": "Founded in 1636, this prestigious university has shaped Dutch intellectual life and its campus features beautiful historic buildings and courtyards integrated throughout the city center. The university's academic legacy and architectural contributions make it culturally significant.",
+      "imageQueries": [
+        "Utrecht University campus",
+        "Universiteit Utrecht historic building"
+      ],
+      "activities": [
+        {
+          "id": "univ_1",
+          "text": "Dom Tower Climb",
+          "detail": "Ascend the 465 steps of Utrecht's iconic 14th-century cathedral tower for panoramic views of the city and university district.",
+          "lat": 52.0905,
+          "lng": 5.1214
+        },
+        {
+          "id": "univ_2",
+          "text": "University Museum Explore",
+          "detail": "Visit the Museum Speelklok to see its extraordinary collection of mechanical musical instruments and automatons housed in a historic canal palace.",
+          "lat": 52.0916,
+          "lng": 5.1186
+        },
+        {
+          "id": "univ_3",
+          "text": "Paushuize Courtyard Walk",
+          "detail": "Stroll through the serene Renaissance courtyard of the Paushuize, one of the university's oldest and most architecturally significant buildings.",
+          "lat": 52.0898,
+          "lng": 5.1227
+        },
+        {
+          "id": "univ_4",
+          "text": "Canal-Side Cycling",
+          "detail": "Rent a bicycle and ride along the picturesque Oudegracht canal, which winds through the university quarter with waterside cafés and historic facades.",
+          "lat": 52.092,
+          "lng": 5.12
+        },
+        {
+          "id": "univ_5",
+          "text": "Rietveld Schröder House Tour",
+          "detail": "Visit this UNESCO-listed modernist masterpiece designed by Gerrit Rietveld, located just outside the city center and representing a revolutionary approach to residential design."
+        },
+        {
+          "id": "univ_6",
+          "text": "Central Library Discovery",
+          "detail": "Explore the university's state-of-the-art TiU library with its impressive architecture, reading rooms, and student atmosphere in the heart of campus."
+        }
+      ],
+      "food": [
+        {
+          "id": "univ_f1",
+          "text": "Stroopwafels",
+          "detail": "Savor Utrecht's famous thin waffle cookies filled with caramel syrup, best enjoyed warm from local vendors near the Dom Tower or university cafés."
+        },
+        {
+          "id": "univ_f2",
+          "text": "Poffertjes",
+          "detail": "Try these puffy Dutch mini pancakes dusted with powdered sugar and topped with butter, a beloved street food throughout Utrecht's city center."
+        },
+        {
+          "id": "univ_f3",
+          "text": "Bitterballen",
+          "detail": "Sample these crispy deep-fried balls filled with a savory ragout, a classic Dutch beer snack found in brown cafés near campus."
+        },
+        {
+          "id": "univ_f4",
+          "text": "Haring (Raw Herring)",
+          "detail": "Experience the local tradition of eating raw herring with onions and pickles, traditionally held by the tail and eaten in one bite."
+        },
+        {
+          "id": "univ_f5",
+          "text": "Indonesian Rijsttafel",
+          "detail": "Enjoy a elaborate rice table dinner reflecting Utrecht's historical Dutch-Indonesian connections, with numerous small curried dishes and sambals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "univ_c1",
+          "text": "Bicycle Culture Respect",
+          "detail": "Always use dedicated bike lanes and park your bicycle securely; cycling is the primary transport mode for students and locals, not just tourism."
+        },
+        {
+          "id": "univ_c2",
+          "text": "Brown Café Etiquette",
+          "detail": "Embrace the cozy pub culture by visiting traditional brown cafés (bruine kroegen) where students and faculty gather for gezelligheid, a uniquely Dutch sense of conviviality and comfort."
+        },
+        {
+          "id": "univ_c3",
+          "text": "Academic Heritage Appreciation",
+          "detail": "Recognize that many university buildings are active academic spaces, not museums; respect classroom schedules and restricted areas while exploring the historic campus."
+        },
+        {
+          "id": "univ_c4",
+          "text": "Canal-Side Dining Tradition",
+          "detail": "Join locals in settling along the Oudegracht waterfront for drinks and dinner, where terraces face the water and create the city's most vibrant social atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "servaas_basilica",
+      "name": "St. Servaas Basilica",
+      "nameIt": "Servaasbasiliek",
+      "lat": 52.0945,
+      "lng": 5.1155,
+      "type": "LANDMARK",
+      "description": "This Romanesque basilica dating to the 11th century is one of Utrecht's oldest buildings and features remarkable architectural details and religious artwork. It represents an important pilgrimage site and exemplifies medieval ecclesiastical architecture.",
+      "imageQueries": [
+        "St Servaas Basilica Utrecht",
+        "Servaasbasiliek Romanesque"
+      ],
+      "activities": [
+        {
+          "id": "serv_1",
+          "text": "Admire the Romanesque Architecture",
+          "detail": "Study the 11th-century stone columns, rounded arches, and decorative capitals that define the basilica's distinctive Romanesque style."
+        },
+        {
+          "id": "serv_2",
+          "text": "Visit the Crypt",
+          "detail": "Descend beneath the main church to explore the underground chamber housing relics and featuring early medieval stonework.",
+          "lat": 52.0905,
+          "lng": 5.1211
+        },
+        {
+          "id": "serv_3",
+          "text": "Examine the Altar and Choir",
+          "detail": "View the ornate altar area and wooden choir stalls featuring intricate carvings and religious iconography from various periods."
+        },
+        {
+          "id": "serv_4",
+          "text": "Study Medieval Frescoes",
+          "detail": "Look for remaining frescoes and wall paintings that illustrate biblical scenes and provide insight into medieval artistic techniques."
+        },
+        {
+          "id": "serv_5",
+          "text": "Ring the Historic Bells",
+          "detail": "Time your visit to hear the basilica's ancient bells during services or special occasions, which date back centuries."
+        },
+        {
+          "id": "serv_6",
+          "text": "Attend a Choral Service",
+          "detail": "Experience the acoustics and spiritual atmosphere by attending a sung service, often featuring Gregorian chant or classical sacred music."
+        }
+      ],
+      "food": [
+        {
+          "id": "serv_f1",
+          "text": "Stroopwafels",
+          "detail": "Sample these thin waffle cookies with caramel syrup filling from local bakeries near the basilica in Utrecht's medieval center."
+        },
+        {
+          "id": "serv_f2",
+          "text": "Poffertjes",
+          "detail": "Try these small fluffy Dutch pancakes dusted with powdered sugar, a traditional Utrecht street food sold near historic churches."
+        },
+        {
+          "id": "serv_f3",
+          "text": "Bitterballen with Mustard",
+          "detail": "Enjoy these deep-fried beef ragout croquettes served with spicy brown mustard at nearby traditional Dutch cafés."
+        },
+        {
+          "id": "serv_f4",
+          "text": "Utrecht Cheese",
+          "detail": "Purchase local aged Gouda or Edam cheese from nearby shops to taste the region's renowned dairy products."
+        }
+      ],
+      "culture": [
+        {
+          "id": "serv_c1",
+          "text": "Dress Respectfully",
+          "detail": "Wear modest clothing covering shoulders and knees, as this is an active religious site where services are regularly held."
+        },
+        {
+          "id": "serv_c2",
+          "text": "Quiet Contemplation Expected",
+          "detail": "Maintain hushed voices and avoid flash photography inside the basilica to respect the sacred space and other visitors in prayer."
+        },
+        {
+          "id": "serv_c3",
+          "text": "Pilgrimage Heritage",
+          "detail": "Understand that St. Servaas remains a significant pilgrimage destination in the Dutch religious calendar, particularly during holy days and feast days."
+        }
+      ]
+    },
+    {
+      "id": "universiteitsmuseum",
+      "name": "University Museum",
+      "nameIt": "Universiteitsmuseum",
+      "lat": 52.0896,
+      "lng": 5.131,
+      "type": "LANDMARK",
+      "description": "Located within the university, this museum showcases the institution's scientific and artistic heritage through collections of historic scientific instruments and academic artifacts. It provides fascinating insights into the development of science and education in the Netherlands.",
+      "imageQueries": [
+        "Universiteitsmuseum Utrecht",
+        "University Museum Utrecht collection"
+      ],
+      "activities": [
+        {
+          "id": "univ_1",
+          "text": "Explore Historic Scientific Instruments",
+          "detail": "Browse the museum's collection of 17th and 18th-century telescopes, microscopes, and anatomical models that document the evolution of scientific discovery in the Netherlands."
+        },
+        {
+          "id": "univ_2",
+          "text": "View the Anatomy Theater Display",
+          "detail": "Examine artifacts and historical documentation related to Utrecht University's famous anatomy theater, where pioneering medical education and demonstrations took place.",
+          "lat": 52.0893,
+          "lng": 5.1212
+        },
+        {
+          "id": "univ_3",
+          "text": "Discover Academic Regalia and Ceremonial Objects",
+          "detail": "Observe the ornate robes, insignia, and ceremonial items that illustrate the university's academic traditions and institutional hierarchy throughout the centuries."
+        },
+        {
+          "id": "univ_4",
+          "text": "Study the Botanical and Natural History Collections",
+          "detail": "View preserved specimens and historical plant collections that reflect the university's contributions to natural sciences and botanical research."
+        },
+        {
+          "id": "univ_5",
+          "text": "Attend Temporary Exhibitions",
+          "detail": "Check the museum's rotating exhibitions that focus on specific aspects of scientific heritage or contemporary academic achievement in the Dutch university system."
+        }
+      ],
+      "food": [
+        {
+          "id": "univ_f1",
+          "text": "Stroopwafels",
+          "detail": "Try these traditional Dutch waffle cookies with caramel filling, widely available in Utrecht's cafés near the university district."
+        },
+        {
+          "id": "univ_f2",
+          "text": "Poffertjes",
+          "detail": "Sample these small, fluffy Dutch pancakes dusted with powdered sugar, sold at street stalls throughout the academic quarter."
+        },
+        {
+          "id": "univ_f3",
+          "text": "Bitterballen",
+          "detail": "Enjoy these crispy fried balls filled with ragout, a classic Dutch snack served in university neighborhood pubs and restaurants."
+        },
+        {
+          "id": "univ_f4",
+          "text": "Cheese and Bread at Local Markets",
+          "detail": "Visit nearby markets to purchase authentic Dutch cheeses and artisanal breads typical of the Utrecht region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "univ_c1",
+          "text": "Respect University Spaces",
+          "detail": "Remember this is an active university campus; be mindful of student study areas and observe posted access restrictions in certain academic buildings."
+        },
+        {
+          "id": "univ_c2",
+          "text": "Plan Visits During Academic Hours",
+          "detail": "The museum operates with specific hours that may align with university schedules, so verify opening times before visiting to avoid disappointment."
+        },
+        {
+          "id": "univ_c3",
+          "text": "Embrace Dutch Directness",
+          "detail": "Museum staff and locals appreciate straightforward communication and questions; don't be surprised by candid, efficient interactions typical of Dutch culture."
+        }
+      ]
+    },
+    {
+      "id": "het_utrechts_archief",
+      "name": "Utrecht Archive",
+      "nameIt": "Het Utrechts Archief",
+      "lat": 52.0902,
+      "lng": 5.1165,
+      "type": "LANDMARK",
+      "description": "This comprehensive archive houses centuries of Utrecht's history through documents, photographs, and artifacts that trace the city's development. Visitors can explore exhibitions that bring Utrecht's fascinating past to life.",
+      "imageQueries": [
+        "Het Utrechts Archief Utrecht",
+        "Utrecht Archive historic"
+      ],
+      "activities": [
+        {
+          "id": "het__1",
+          "text": "Explore the Medieval Utrecht Exhibition",
+          "detail": "Discover manuscripts, maps, and artifacts documenting Utrecht's role as a major religious and commercial center during the Middle Ages.",
+          "lat": 52.0902,
+          "lng": 5.1219
+        },
+        {
+          "id": "het__2",
+          "text": "View the Photography Collection",
+          "detail": "Browse thousands of photographs spanning from the 19th century to present day that document the city's urban development and everyday life.",
+          "lat": 52.0902,
+          "lng": 5.1219
+        },
+        {
+          "id": "het__3",
+          "text": "Research at the Reading Room",
+          "detail": "Access digitized documents and original records in the archive's study room to trace family history or specific historical periods.",
+          "lat": 52.0902,
+          "lng": 5.1219
+        },
+        {
+          "id": "het__4",
+          "text": "Attend Temporary Exhibitions",
+          "detail": "Check the rotating exhibitions that focus on specific themes from Utrecht's past, such as trade, architecture, or notable historical figures.",
+          "lat": 52.0902,
+          "lng": 5.1219
+        },
+        {
+          "id": "het__5",
+          "text": "Take a Guided Heritage Walk",
+          "detail": "Join organized tours that connect archive collections to actual locations around Utrecht's city center and historic neighborhoods.",
+          "lat": 52.0902,
+          "lng": 5.1219
+        },
+        {
+          "id": "het__6",
+          "text": "Study the Cathedral Records",
+          "detail": "Examine documents related to the Dom Cathedral and Utrecht's ecclesiastical history, central to understanding the region's development.",
+          "lat": 52.0902,
+          "lng": 5.1219
+        }
+      ],
+      "food": [
+        {
+          "id": "het__f1",
+          "text": "Stropwafels",
+          "detail": "Sample these Utrecht-made syrup waffles with caramel filling, a local specialty best enjoyed warm from traditional bakeries near the archive."
+        },
+        {
+          "id": "het__f2",
+          "text": "Zuurkool met Worst",
+          "detail": "Try this Dutch comfort food of braised sauerkraut served with smoked sausage, available at casual eateries throughout Utrecht's city center."
+        },
+        {
+          "id": "het__f3",
+          "text": "Uit de Muur Frites",
+          "detail": "Experience Utrecht's famous thick-cut fries served with various toppings at the iconic street food stand located in the Neude square nearby."
+        },
+        {
+          "id": "het__f4",
+          "text": "Gevulde Koeken",
+          "detail": "Taste these spiced almond pastries filled with prune paste, a traditional Utrecht treat found in local bakeries and pastry shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "het__c1",
+          "text": "Plan visits around exhibition hours",
+          "detail": "The archive has specific opening hours and some sections require advance registration, so check ahead before traveling across the city to visit."
+        },
+        {
+          "id": "het__c2",
+          "text": "Respect quiet research environment",
+          "detail": "The reading room maintains library-like silence to protect both materials and other researchers, so maintain a low voice and mindful behavior."
+        },
+        {
+          "id": "het__c3",
+          "text": "Learn about Utrecht's canal culture",
+          "detail": "As you explore archive history, appreciate that many documented events connect to the surrounding canals and waterways that shaped the city's identity."
+        },
+        {
+          "id": "het__c4",
+          "text": "Bring a camera for exterior photos",
+          "detail": "While photography inside exhibitions may be restricted, the archive's building and surrounding Domplein area offer excellent opportunities for architectural photography."
+        }
+      ]
+    },
+    {
+      "id": "wonderwerkplaats",
+      "name": "Wonderwerkplaats",
+      "nameIt": "Wonderwerkplaats",
+      "lat": 52.1015,
+      "lng": 5.1456,
+      "type": "LANDMARK",
+      "description": "This interactive science and art museum is specifically designed for children and families, offering hands-on experiments and creative workshops. It's an excellent destination for engaging young visitors with STEM and artistic concepts.",
+      "imageQueries": [
+        "Wonderwerkplaats Utrecht children",
+        "Wonderwerkplaats interactive museum"
+      ],
+      "activities": [
+        {
+          "id": "wond_1",
+          "text": "Water Lab Experiments",
+          "detail": "Children explore fluid dynamics and physics through interactive water tables where they can build channels, dams, and observe how water behaves in different scenarios.",
+          "lat": 52.0894,
+          "lng": 5.1078
+        },
+        {
+          "id": "wond_2",
+          "text": "Art Studio Workshops",
+          "detail": "Participate in rotating creative sessions where kids can paint, sculpt, and experiment with mixed media under guidance from experienced instructors.",
+          "lat": 52.0894,
+          "lng": 5.1078
+        },
+        {
+          "id": "wond_3",
+          "text": "Light and Shadow Theater",
+          "detail": "An interactive installation where visitors create silhouettes and learn about light projection, optical illusions, and theatrical storytelling techniques.",
+          "lat": 52.0894,
+          "lng": 5.1078
+        },
+        {
+          "id": "wond_4",
+          "text": "Maker Space Construction Zone",
+          "detail": "Kids design and build structures using recycled materials, cardboard, wood scraps, and tools in a supervised creative engineering environment.",
+          "lat": 52.0894,
+          "lng": 5.1078
+        },
+        {
+          "id": "wond_5",
+          "text": "Sound and Acoustics Lab",
+          "detail": "Children experiment with musical instruments, sound waves, and acoustic principles through hands-on installations and DIY instrument-building activities.",
+          "lat": 52.0894,
+          "lng": 5.1078
+        },
+        {
+          "id": "wond_6",
+          "text": "Robot Programming Station",
+          "detail": "Young visitors learn coding basics and robotics by programming and controlling simple robots through intuitive interfaces designed for beginners."
+        }
+      ],
+      "food": [
+        {
+          "id": "wond_f1",
+          "text": "Poffertjes",
+          "detail": "Tiny Dutch pancakes dusted with powdered sugar, commonly found at Dutch cafés and street vendors throughout Utrecht, offering a sweet treat between museum activities."
+        },
+        {
+          "id": "wond_f2",
+          "text": "Stroopwafels",
+          "detail": "Thin waffle cookies with caramel syrup filling, a classic Dutch snack perfect for sharing with children and widely available at local shops near the museum."
+        },
+        {
+          "id": "wond_f3",
+          "text": "Kroket",
+          "detail": "Crispy fried roll filled with ragout or meat, a popular Dutch snack sold at snackbars throughout Utrecht that makes for an easy quick lunch."
+        },
+        {
+          "id": "wond_f4",
+          "text": "Dutch Pancakes (Pannenkoeken)",
+          "detail": "Thin, savory or sweet pancakes served at family-friendly restaurants around Utrecht, available with various toppings suitable for all ages."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wond_c1",
+          "text": "Book Ahead for Workshops",
+          "detail": "Popular hands-on workshops fill quickly during school holidays and weekends, so reservations are highly recommended to ensure participation in desired activities."
+        },
+        {
+          "id": "wond_c2",
+          "text": "Dutch Directness with Children",
+          "detail": "Dutch staff and visitors are typically very direct and informal, even with children, so don't be surprised by matter-of-fact instruction styles that encourage independence."
+        },
+        {
+          "id": "wond_c3",
+          "text": "Bicycle Culture in Utrecht",
+          "detail": "Utrecht is the cycling capital of the Netherlands, so arriving by bike is common; secure bicycle parking is available near the museum."
+        },
+        {
+          "id": "wond_c4",
+          "text": "Free Play Philosophy",
+          "detail": "Dutch educational culture emphasizes unstructured play and self-directed learning, so the museum encourages children to explore freely with minimal adult direction."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Uit de Keuken",
+      "address": "Voorstraat 79, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Dutch",
+      "priceRange": "€€",
+      "description": "Casual, no-reservation neighborhood spot serving elevated Dutch comfort food with seasonal ingredients.",
+      "mustOrder": "Braised beef cheek with root vegetables",
+      "lat": 52.0907,
+      "lng": 5.1204
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Restaurant Zuiver",
+      "address": "Janskerkhof 6, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Intimate fine dining restaurant focused on pure, high-quality ingredients with creative plating.",
+      "mustOrder": "Chef's tasting menu with wine pairings",
+      "lat": 52.0918,
+      "lng": 5.1184
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Tilt",
+      "address": "Nobelstraat 45, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "French",
+      "priceRange": "€€€€",
+      "description": "Fine dining destination with Michelin acclaim, offering refined French cuisine in an elegant setting.",
+      "mustOrder": "Duck breast with cherry gastrique",
+      "lat": 52.086,
+      "lng": 5.1179
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Bries",
+      "address": "Vredenburg 46, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "French Bistro",
+      "priceRange": "€€€",
+      "description": "Authentic Parisian-style bistro with classic French dishes and an excellent wine list.",
+      "mustOrder": "Coq au vin",
+      "lat": 52.0901,
+      "lng": 5.1155
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Broodzaak",
+      "address": "Lange Nieuwstraat 34, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Bakery/Café",
+      "priceRange": "€",
+      "description": "Artisanal bakery and casual café beloved for exceptional bread, pastries, and simple lunch fare.",
+      "mustOrder": "Fresh croissant with daily soup",
+      "lat": 52.0911,
+      "lng": 5.1227
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Ket Kip",
+      "address": "Wijde Heisteeg 13, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Thai",
+      "priceRange": "€€",
+      "description": "Vibrant Thai street food concept with bold flavors, casual vibe, and excellent value.",
+      "mustOrder": "Green curry with chicken",
+      "lat": 52.0925,
+      "lng": 5.1206
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Zurich",
+      "address": "Nachtegaallaan 48, Utrecht",
+      "neighbourhood": "Zuilen",
+      "cuisine": "Swiss",
+      "priceRange": "€€€",
+      "description": "Cozy Swiss restaurant specializing in fondue, raclette, and alpine comfort food.",
+      "mustOrder": "Cheese fondue Neuchâtel",
+      "lat": 52.0808,
+      "lng": 5.1101
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Muh",
+      "address": "Twijnstraat 6, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Asian Fusion",
+      "priceRange": "€€€",
+      "description": "Modern Asian fusion restaurant blending Japanese, Thai, and Chinese influences with artistic presentation.",
+      "mustOrder": "Miso-glazed black cod",
+      "lat": 52.0889,
+      "lng": 5.1166
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Winkel van Sinkel",
+      "address": "Twijnstraat 8, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Modern Dutch",
+      "priceRange": "€€€",
+      "description": "Historic department store restaurant offering contemporary Dutch cuisine with canal views.",
+      "mustOrder": "Local fish of the day with seasonal vegetables",
+      "lat": 52.0889,
+      "lng": 5.1168
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Knus",
+      "address": "Vismarkt 3, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€",
+      "description": "Charming Mediterranean spot with Spanish and Italian influences, intimate and warmly lit.",
+      "mustOrder": "Burrata with heirloom tomato and basil",
+      "lat": 52.0905,
+      "lng": 5.1192
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Restaurant Aardbol",
+      "address": "Grasbrug 2, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Contemporary European",
+      "priceRange": "€€€",
+      "description": "Stylish restaurant on a charming bridge, focusing on seasonal menus and local sourcing.",
+      "mustOrder": "Seasonal risotto with wild mushrooms",
+      "lat": 52.0898,
+      "lng": 5.1144
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Bries Wijnbar",
+      "address": "Oudegracht 54, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Wine Bar / European",
+      "priceRange": "€€",
+      "description": "Casual wine bar along the historic canal with charcuterie, cheese, and simple refined dishes.",
+      "mustOrder": "Charcuterie board with local cheese selection",
+      "lat": 52.0909,
+      "lng": 5.1132
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Restaurant Seinpost",
+      "address": "Oudegracht 134, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "Dutch-International",
+      "priceRange": "€€",
+      "description": "Waterfront brasserie with relaxed atmosphere, serving traditional and modern dishes with canal ambiance.",
+      "mustOrder": "Grilled river trout with lemon butter",
+      "lat": 52.0892,
+      "lng": 5.1103
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Halte",
+      "address": "Wolvenplein 1, Utrecht",
+      "neighbourhood": "Binnenstad",
+      "cuisine": "French-Dutch Fusion",
+      "priceRange": "€€€",
+      "description": "Sophisticated neighborhood restaurant blending French technique with Dutch ingredients and restraint.",
+      "mustOrder": "Pan-seared scallops with brown butter emulsion",
+      "lat": 52.0927,
+      "lng": 5.1074
+    }
+  ]
+}
