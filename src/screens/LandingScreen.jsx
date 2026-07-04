@@ -33,11 +33,11 @@ export default function LandingScreen() {
           </h1>
           <p className="land-hero__sub">
             {site['home.sub'] || `Handcrafted guides to the world’s regions — where to go, what to eat, and the
-            stories behind it. We start with Italy and grow from there.`}
+            stories behind it. Italy and Spain now, more on the way.`}
           </p>
           <div className="land-hero__cta">
-            <Link to={paths.country()} className="btn btn--primary">
-              Explore Italy <ArrowRight size={17} />
+            <Link to={paths.destinations()} className="btn btn--primary">
+              Explore destinations <ArrowRight size={17} />
             </Link>
             <Link to={paths.guided()} className="btn btn--ghost">Draft my trip in 30 seconds</Link>
           </div>
@@ -48,7 +48,7 @@ export default function LandingScreen() {
         <div className="feature">
           <span className="feature__label"><Compass size={15} /> Region by region</span>
           <h3>Countries, taken one region at a time</h3>
-          <p>Every region has its own character and kitchen. We map each one properly — starting with Italy, growing from there.</p>
+          <p>Every region has its own character and kitchen. We map each one properly — Italy and Spain now, growing from there.</p>
         </div>
         <div className="feature">
           <span className="feature__label"><Utensils size={15} /> Do &amp; eat</span>
@@ -194,17 +194,19 @@ export default function LandingScreen() {
           <Link to={paths.destinations()} className="sec-link">All destinations <ArrowRight size={15} /></Link>
         </div>
         <div className="dest-row">
-          <Link to={paths.country()} className="dest dest--on">
-            <span className="dest__flag">🇮🇹</span>
-            <div>
-              <h3 className="dest__name">Italy</h3>
-              <p className="dest__meta">
-                {stats ? `${stats.regions} regions · ${stats.places} places` : 'Ready to explore'}
-              </p>
-            </div>
-            <ArrowRight size={18} className="dest__go" />
-          </Link>
-          {COUNTRIES.filter((c) => !c.available).slice(0, 3).map((c) => (
+          {COUNTRIES.filter((c) => c.available).map((c) => (
+            <Link key={c.slug} to={paths.country(c.slug)} className="dest dest--on">
+              <span className="dest__flag">{c.flag}</span>
+              <div>
+                <h3 className="dest__name">{c.name}</h3>
+                <p className="dest__meta">
+                  {c.slug === 'italy' && stats ? `${stats.regions} regions · ${stats.places} places` : c.blurb || 'Ready to explore'}
+                </p>
+              </div>
+              <ArrowRight size={18} className="dest__go" />
+            </Link>
+          ))}
+          {COUNTRIES.filter((c) => !c.available).slice(0, 2).map((c) => (
             <div key={c.slug} className="dest dest--soon">
               <span className="dest__flag">{c.flag}</span>
               <div>
