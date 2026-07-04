@@ -1,0 +1,1613 @@
+{
+  "id": "wales_north",
+  "name": "North Wales",
+  "nameIt": "Gogledd Cymru",
+  "capital": "Bangor",
+  "lat": 53.2,
+  "lng": -4.1,
+  "emoji": "🏔️",
+  "colour": "ff9c27b0",
+  "boundingBox": {
+    "north": 53.4,
+    "south": 52.7,
+    "east": -2.8,
+    "west": -5.5
+  },
+  "history": "North Wales has a rich history shaped by its mountainous terrain and position on the border with England. The region was home to powerful Welsh kingdoms during the medieval period, most notably Gwynedd, which resisted Norman conquest longer than other Welsh territories. The construction of Edward I's castles in the late 13th century marked English military dominance, though Welsh culture and identity persisted through centuries of political change. The industrial revolution brought slate quarrying and mining to areas like Snowdonia, transforming the landscape and creating distinctive communities that thrived until the 20th century.",
+  "culturalNotes": "North Wales is the heartland of Welsh language and cultural tradition, with Welsh speakers comprising a significant portion of the population, particularly in rural areas. The region is known for its eisteddfodau, competitive festivals celebrating Welsh music, poetry and culture that date back centuries. The dramatic landscapes of Snowdonia and the Conwy Valley have inspired artists and writers, while traditional crafts, slate work, and hill farming remain important to local identity.",
+  "bestTimeToVisit": "May to September for Snowdonia hiking and coastal town visits.",
+  "languageNotes": "Welsh is widely spoken in North Wales, especially in Gwynedd and Conwy, and many place names and signs appear in Welsh first. Useful phrases include 'Helô' for hello, 'Diolch' for thank you, and 'Bore da' for good morning, and locals appreciate visitors' efforts to acknowledge the language even in predominantly English conversations.",
+  "generatedAt": "2026-07-04T19:23:41.437Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "caernarfon_castle",
+      "name": "Caernarfon Castle",
+      "nameIt": "Castell Caernarfon",
+      "lat": 53.1424,
+      "lng": -4.2747,
+      "type": "LANDMARK",
+      "description": "One of Europe's most impressive medieval fortresses, built by Edward I in the 13th century with distinctive polygonal towers overlooking the Menai Strait. It's an UNESCO World Heritage site and the symbolic seat of Welsh princes, offering breathtaking views and centuries of history.",
+      "imageQueries": [
+        "Caernarfon Castle Wales",
+        "Caernarfon Castle towers"
+      ],
+      "activities": [
+        {
+          "id": "caer_1",
+          "text": "Climb the Eagle Tower",
+          "detail": "Ascend the castle's most iconic polygonal tower for panoramic views of the Menai Strait, Anglesey, and Snowdonia mountains.",
+          "lat": 53.4807,
+          "lng": -4.2626
+        },
+        {
+          "id": "caer_2",
+          "text": "Walk the Castle Walls",
+          "detail": "Explore the complete circuit of the medieval walls and towers built by Edward I, experiencing the fortress's impressive defensive architecture.",
+          "lat": 53.4807,
+          "lng": -4.2626
+        },
+        {
+          "id": "caer_3",
+          "text": "Visit the Princes of Wales Exhibition",
+          "detail": "Learn about the symbolic significance of Caernarfon as the seat of Welsh princes and the investiture ceremonies held here since 1969.",
+          "lat": 53.4807,
+          "lng": -4.2626
+        },
+        {
+          "id": "caer_4",
+          "text": "Photograph from the Harbour",
+          "detail": "Walk along Caernarfon's waterfront to capture the castle's reflection in the water and understand its strategic position on the Menai Strait.",
+          "lat": 53.4815,
+          "lng": -4.264
+        },
+        {
+          "id": "caer_5",
+          "text": "Explore the Castle's History Centre",
+          "detail": "Discover interactive exhibits detailing the castle's construction, the conquest of Wales, and its role in English military strategy.",
+          "lat": 53.4807,
+          "lng": -4.2626
+        },
+        {
+          "id": "caer_6",
+          "text": "Attend a Summer Event",
+          "detail": "Experience medieval reenactments, open-air theatre, and historical demonstrations frequently held within the castle grounds during summer months."
+        }
+      ],
+      "food": [
+        {
+          "id": "caer_f1",
+          "text": "Welsh Cawl",
+          "detail": "A hearty traditional stew made with beef or lamb, potatoes, carrots, and leeks, served at local pubs and restaurants throughout Caernarfon."
+        },
+        {
+          "id": "caer_f2",
+          "text": "Bara Brith",
+          "detail": "A traditional Welsh spiced fruit bread made with tea-soaked dried fruit, available at bakeries and cafes near the castle."
+        },
+        {
+          "id": "caer_f3",
+          "text": "Fresh Menai Mussels",
+          "detail": "Local mussels harvested from the Menai Strait, often steamed and served in cream sauce at waterfront restaurants in Caernarfon."
+        },
+        {
+          "id": "caer_f4",
+          "text": "Welsh Rarebit",
+          "detail": "A rich cheese sauce served over toasted bread, a classic Welsh comfort food found in traditional cafes and pubs near the castle."
+        },
+        {
+          "id": "caer_f5",
+          "text": "Laverbread Breakfast",
+          "detail": "A distinctive Welsh dish of cooked seaweed mixed with oatmeal and fried, traditionally eaten at breakfast in local establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "caer_c1",
+          "text": "Learn Welsh Pronunciation",
+          "detail": "Attempt to pronounce 'Caernarfon' correctly (KY-nar-von) and show respect for local Welsh culture and language throughout your visit."
+        },
+        {
+          "id": "caer_c2",
+          "text": "Respect Royal Heritage",
+          "detail": "The castle holds deep significance for Welsh identity and the investiture of Princes of Wales; approach this history with appropriate reverence and cultural sensitivity."
+        },
+        {
+          "id": "caer_c3",
+          "text": "Visit Year-Round",
+          "detail": "The castle and surrounding town are accessible throughout the year, but summer offers more events and longer daylight hours for exploration."
+        },
+        {
+          "id": "caer_c4",
+          "text": "Allow Time for Wandering",
+          "detail": "Beyond the castle itself, Caernarfon's medieval town walls, local shops, and waterfront promenade deserve unhurried exploration to appreciate the full historical context."
+        }
+      ]
+    },
+    {
+      "id": "snowdonia_national_park",
+      "name": "Snowdonia National Park",
+      "nameIt": "Parc Cenedlaethol Eryri",
+      "lat": 53.0687,
+      "lng": -3.9281,
+      "type": "NATURE",
+      "description": "Wales's largest national park featuring Snowdon, the highest peak in Wales, surrounded by dramatic mountains, glacial lakes, and ancient forests. It's essential for hiking, mountaineering, scenic drives, and immersing yourself in pristine Welsh wilderness.",
+      "imageQueries": [
+        "Snowdonia mountains Wales",
+        "Mount Snowdon Eryri"
+      ],
+      "activities": [
+        {
+          "id": "snow_1",
+          "text": "Climb Mount Snowdon",
+          "detail": "Ascend Wales's highest peak (1,085m) via one of six established routes, ranging from gentle to challenging, with rewarding panoramic views across North Wales.",
+          "lat": 53.0685,
+          "lng": -3.9365
+        },
+        {
+          "id": "snow_2",
+          "text": "Snowdon Mountain Railway",
+          "detail": "Ride the historic rack-and-pinion railway from Llanberis station to the summit, offering a scenic alternative to hiking with views of Llyn Padarn and surrounding peaks.",
+          "lat": 53.1097,
+          "lng": -4.1253
+        },
+        {
+          "id": "snow_3",
+          "text": "Explore Llyn Idwal",
+          "detail": "Hike around this glacial lake nestled in Cwm Idwal, surrounded by dramatic cliffs and waterfalls, popular for geology enthusiasts and moderate walkers.",
+          "lat": 53.1177,
+          "lng": -3.9593
+        },
+        {
+          "id": "snow_4",
+          "text": "Zip World Penrhyn Quarry",
+          "detail": "Experience Europe's longest zip line and adventure park set within a historic slate quarry, offering adrenaline activities for all fitness levels.",
+          "lat": 53.1417,
+          "lng": -4.0075
+        },
+        {
+          "id": "snow_5",
+          "text": "Drive the Llanberis Pass",
+          "detail": "Take the scenic A4086 drive through North Wales's most dramatic mountain pass, with pull-offs for photography and access to numerous hiking trails.",
+          "lat": 53.1088,
+          "lng": -4.0281
+        },
+        {
+          "id": "snow_6",
+          "text": "Kayak on Llyn Peris",
+          "detail": "Paddle across this pristine mountain lake with views of Snowdon and the surrounding ridges, accessible through local water sports operators.",
+          "lat": 53.1092,
+          "lng": -4.1217
+        },
+        {
+          "id": "snow_7",
+          "text": "Visit Betws-y-Coed Forest",
+          "detail": "Explore ancient woodlands in the park's eastern region featuring waterfalls, riverside walks, and the Swallow Falls, ideal for photographers and nature lovers.",
+          "lat": 53.0964,
+          "lng": -3.8011
+        }
+      ],
+      "food": [
+        {
+          "id": "snow_f1",
+          "text": "Welsh Lamb Cawl",
+          "detail": "A hearty one-pot stew of slow-cooked lamb, root vegetables, and leeks, traditionally served in mountain villages and warming hiker refuges throughout Snowdonia."
+        },
+        {
+          "id": "snow_f2",
+          "text": "Bara Brith",
+          "detail": "A fruit-filled tea bread made with dried fruits soaked in tea, eaten sliced with butter and found in local bakeries and tea rooms across the park."
+        },
+        {
+          "id": "snow_f3",
+          "text": "Welsh Rarebit",
+          "detail": "A savoury cheese sauce served on toasted bread, sometimes topped with a poached egg, commonly found in pubs and cafés in towns like Caernarfon and Llanberis."
+        },
+        {
+          "id": "snow_f4",
+          "text": "Fresh Trout from Local Streams",
+          "detail": "Catch-of-the-day freshwater trout, often pan-fried and served in restaurants and inns, sourced from the park's pristine rivers and lakes."
+        },
+        {
+          "id": "snow_f5",
+          "text": "Snowdonia Cheese",
+          "detail": "Award-winning local cheeses made from Welsh milk, including varieties from producers like Y Fenni, available at market stalls and food shops throughout the region."
+        },
+        {
+          "id": "snow_f6",
+          "text": "Bara Ceirch (Oatcake)",
+          "detail": "A traditional Welsh oatmeal cake served warm with butter or cheese, sold at farm shops and used as sustenance by local hikers and outdoor enthusiasts."
+        }
+      ],
+      "culture": [
+        {
+          "id": "snow_c1",
+          "text": "Welsh Language Respect",
+          "detail": "Many locals speak Welsh alongside English; learning a few phrases like 'Helô' (hello) and 'Diolch' (thank you) is appreciated and enhances your experience."
+        },
+        {
+          "id": "snow_c2",
+          "text": "Mountain Safety Culture",
+          "detail": "The Welsh mountains demand respect—always check weather, carry adequate gear, and follow the mountain safety adage 'there's no such thing as bad weather, only bad preparation.'"
+        },
+        {
+          "id": "snow_c3",
+          "text": "Quiet Respect in Natural Spaces",
+          "detail": "Keep noise levels low and respect the wilderness; locals value conservation and expect visitors to take litter with them and stay on marked paths."
+        },
+        {
+          "id": "snow_c4",
+          "text": "Community Events & Eisteddfod Traditions",
+          "detail": "Snowdonia celebrates Welsh cultural events year-round, including local eisteddfodau (competitive festivals) and summer fairs that showcase music, language, and crafts."
+        }
+      ]
+    },
+    {
+      "id": "bangor",
+      "name": "Bangor",
+      "nameIt": "Bangor",
+      "lat": 53.2281,
+      "lng": -4.1274,
+      "type": "CITY",
+      "description": "A vibrant university city and gateway to North Wales with a picturesque pier, cathedral, and strong cultural heritage. It serves as an excellent base for exploring Snowdonia and the Menai Strait, with lively restaurants, shops, and museums.",
+      "imageQueries": [
+        "Bangor pier Wales",
+        "Bangor city North Wales"
+      ],
+      "activities": [
+        {
+          "id": "bang_1",
+          "text": "Bangor Pier",
+          "detail": "Walk along this Victorian pier extending into the Menai Strait, offering panoramic views of Snowdonia and traditional seaside charm with cafes and entertainment.",
+          "lat": 53.2288,
+          "lng": -4.1264
+        },
+        {
+          "id": "bang_2",
+          "text": "Bangor Cathedral",
+          "detail": "Visit one of Wales's oldest cathedrals, dating back to the 6th century, featuring beautiful stained glass and a peaceful cloistered garden in the city centre.",
+          "lat": 53.2276,
+          "lng": -4.1287
+        },
+        {
+          "id": "bang_3",
+          "text": "Penrhyn Castle",
+          "detail": "Explore this 19th-century mock-Norman castle set in 60 acres of grounds, featuring impressive architecture, art collections, and exhibitions about its industrial heritage.",
+          "lat": 53.2447,
+          "lng": -4.0957
+        },
+        {
+          "id": "bang_4",
+          "text": "Museum of Welsh Life at Penrhyn",
+          "detail": "Discover Welsh cultural artifacts and exhibitions exploring the region's slate mining heritage and traditional crafts within the castle grounds.",
+          "lat": 53.2447,
+          "lng": -4.0957
+        },
+        {
+          "id": "bang_5",
+          "text": "Menai Strait Walks",
+          "detail": "Take scenic walks along the Menai Strait shoreline connecting Bangor to nearby villages, offering views of the Menai Bridge and Anglesey.",
+          "lat": 53.2288,
+          "lng": -4.1264
+        },
+        {
+          "id": "bang_6",
+          "text": "Bangor University Campus",
+          "detail": "Stroll through the historic university campus overlooking the Menai Strait, featuring Victorian and modern architecture in a vibrant academic setting.",
+          "lat": 53.231,
+          "lng": -4.134
+        }
+      ],
+      "food": [
+        {
+          "id": "bang_f1",
+          "text": "Cawl",
+          "detail": "This traditional Welsh stew made with beef, potatoes, leeks, and root vegetables is a hearty comfort food found in many local pubs and restaurants."
+        },
+        {
+          "id": "bang_f2",
+          "text": "Welsh Lamb with Mint Sauce",
+          "detail": "Local lamb from surrounding farms prepared with traditional mint sauce is a signature dish reflecting the region's agricultural heritage."
+        },
+        {
+          "id": "bang_f3",
+          "text": "Bara Brith",
+          "detail": "This spiced fruit bread soaked in tea is a beloved Welsh teatime treat available in local bakeries and cafes throughout Bangor."
+        },
+        {
+          "id": "bang_f4",
+          "text": "Fresh Fish from Menai Strait",
+          "detail": "Local restaurants serve freshly caught sea bass, cod, and other fish sourced directly from the Menai Strait's waters."
+        },
+        {
+          "id": "bang_f5",
+          "text": "Welsh Cakes",
+          "detail": "These traditional griddle-cooked cakes with dried fruit and spices are a common street food and bakery item sold warm with a dusting of sugar."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bang_c1",
+          "text": "Welsh Language Presence",
+          "detail": "Street signs and public notices are bilingual in Welsh and English; while English-speaking visitors are welcome, showing respect for Welsh language and culture is appreciated."
+        },
+        {
+          "id": "bang_c2",
+          "text": "University City Atmosphere",
+          "detail": "Bangor has a youthful, vibrant culture driven by its large student population, with frequent cultural events, music venues, and a lively evening scene."
+        },
+        {
+          "id": "bang_c3",
+          "text": "Slate Heritage Pride",
+          "detail": "The region's identity is deeply tied to its slate mining past; this industrial heritage is celebrated in museums, architecture, and local storytelling."
+        },
+        {
+          "id": "bang_c4",
+          "text": "Gateway to Snowdonia",
+          "detail": "Bangor is known as an excellent base for outdoor adventures; locals are accustomed to visitors seeking hiking, outdoor pursuits, and mountain exploration."
+        }
+      ]
+    },
+    {
+      "id": "conwy_castle",
+      "name": "Conwy Castle",
+      "nameIt": "Castell Conwy",
+      "lat": 53.2074,
+      "lng": -3.8272,
+      "type": "LANDMARK",
+      "description": "A masterpiece of medieval military architecture built by Edward I with eight towers still intact, commanding views over the Conwy River and estuary. The associated walled town is equally charming, with narrow streets, shops, and restaurants creating an authentic medieval atmosphere.",
+      "imageQueries": [
+        "Conwy Castle Wales",
+        "Conwy Castle medieval"
+      ],
+      "activities": [
+        {
+          "id": "conw_1",
+          "text": "Explore the Eight Towers",
+          "detail": "Climb the narrow spiral staircases within the castle's eight towers for panoramic views of the Conwy estuary, Snowdonia mountains, and the medieval town below.",
+          "lat": 53.2832,
+          "lng": -3.8271
+        },
+        {
+          "id": "conw_2",
+          "text": "Walk the Town Walls",
+          "detail": "Traverse nearly a mile of the original 13th-century defensive walls that encircle Conwy town, with access points near the castle and views into medieval streets.",
+          "lat": 53.283,
+          "lng": -3.828
+        },
+        {
+          "id": "conw_3",
+          "text": "Visit Plas Mawr",
+          "detail": "Tour this ornate Elizabethan merchant's house within the walled town to see authentic period furnishings, plasterwork, and an insight into Tudor-era domestic life.",
+          "lat": 53.2825,
+          "lng": -3.8265
+        },
+        {
+          "id": "conw_4",
+          "text": "Explore High Street and Local Shops",
+          "detail": "Wander the narrow medieval streets lined with independent shops, galleries, and tea rooms selling local crafts, Welsh woolen goods, and traditional sweets.",
+          "lat": 53.2828,
+          "lng": -3.826
+        },
+        {
+          "id": "conw_5",
+          "text": "Conwy Suspension Bridge Visit",
+          "detail": "Walk across Thomas Telford's 1826 iron suspension bridge spanning the Conwy River, now a museum showcasing Victorian engineering.",
+          "lat": 53.284,
+          "lng": -3.8255
+        },
+        {
+          "id": "conw_6",
+          "text": "Conwy Quay Riverside Walk",
+          "detail": "Stroll along the waterfront past fishing boats and historic quay buildings, offering photo opportunities of the castle reflected in the river.",
+          "lat": 53.2835,
+          "lng": -3.829
+        }
+      ],
+      "food": [
+        {
+          "id": "conw_f1",
+          "text": "Welsh Lamb Cawl",
+          "detail": "A traditional slow-cooked stew of Welsh lamb, root vegetables, and leeks served in local restaurants and pubs throughout the town."
+        },
+        {
+          "id": "conw_f2",
+          "text": "Fresh Mussels from Conwy Estuary",
+          "detail": "Locally harvested mussels steamed in white wine and served at seafood restaurants and the quay-side eateries."
+        },
+        {
+          "id": "conw_f3",
+          "text": "Bara Brith",
+          "detail": "A traditional Welsh spiced fruit bread with dried fruit soaked in tea, sold in bakeries and tea rooms throughout Conwy."
+        },
+        {
+          "id": "conw_f4",
+          "text": "Conwy Mussels and Cockles",
+          "detail": "Shellfish harvested from local waters and traditionally served with crusty bread and Welsh butter at seaside restaurants."
+        },
+        {
+          "id": "conw_f5",
+          "text": "Welsh Rarebit",
+          "detail": "A cheese-based sauce served on toasted bread, a classic comfort food found in traditional pubs and cafes in the town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "conw_c1",
+          "text": "Respect Opening Hours and Tides",
+          "detail": "The castle and town walls have seasonal hours; plan visits for daylight, and note that the quay area can be affected by tidal changes affecting river access."
+        },
+        {
+          "id": "conw_c2",
+          "text": "Learn Basic Welsh Greetings",
+          "detail": "Though English is widely spoken, locals appreciate visitors using Welsh greetings like 'Helo' (hello) and 'Diolch' (thank you) in small shops and cafes."
+        },
+        {
+          "id": "conw_c3",
+          "text": "Allow Time for the Medieval Atmosphere",
+          "detail": "Conwy is best experienced by walking slowly through narrow streets and taking photographs from the quay at sunset, rather than rushing through the castle alone."
+        }
+      ]
+    },
+    {
+      "id": "llandudno",
+      "name": "Llandudno",
+      "nameIt": "Llandudno",
+      "lat": 53.3256,
+      "lng": -3.8262,
+      "type": "COASTAL",
+      "description": "North Wales's premier seaside resort with a elegant Victorian pier, sandy beaches flanked by Great Orme and Little Orme headlands, and charming promenade. It combines old-fashioned British seaside charm with modern attractions and is perfect for families and beach lovers.",
+      "imageQueries": [
+        "Llandudno pier Wales",
+        "Llandudno beach Victorian"
+      ],
+      "activities": [
+        {
+          "id": "llan_1",
+          "text": "Llandudno Pier",
+          "detail": "Stroll along this elegant Victorian pier built in 1878, featuring arcades, cafés, and views along the bay.",
+          "lat": 53.3241,
+          "lng": -3.8267
+        },
+        {
+          "id": "llan_2",
+          "text": "Great Orme Tramway",
+          "detail": "Ride the Victorian cable tramway to the summit of Great Orme headland for panoramic coastal views and walking trails.",
+          "lat": 53.3348,
+          "lng": -3.8496
+        },
+        {
+          "id": "llan_3",
+          "text": "Mines Explorer at Great Orme",
+          "detail": "Descend into Bronze Age copper mines tunneled deep into the Great Orme mountain with guided tours and underground lake views.",
+          "lat": 53.3365,
+          "lng": -3.852
+        },
+        {
+          "id": "llan_4",
+          "text": "Beach Activities",
+          "detail": "Enjoy sheltered golden sands perfect for swimming, paddling, and traditional seaside games on the North Shore Beach.",
+          "lat": 53.3241,
+          "lng": -3.83
+        },
+        {
+          "id": "llan_5",
+          "text": "Llandudno Museum",
+          "detail": "Explore local history, Victorian memorabilia, and maritime heritage in this intimate museum housed in a former Victorian building.",
+          "lat": 53.3232,
+          "lng": -3.8218
+        },
+        {
+          "id": "llan_6",
+          "text": "Happy Valley",
+          "detail": "Walk through this wooded valley with ornamental gardens nestled between the Great and Little Orme headlands.",
+          "lat": 53.3292,
+          "lng": -3.8389
+        },
+        {
+          "id": "llan_7",
+          "text": "Bodysgallen Hall & Spa",
+          "detail": "Visit this historic 17th-century manor house with gardens and afternoon tea experiences just inland from the seafront.",
+          "lat": 53.3156,
+          "lng": -3.8179
+        }
+      ],
+      "food": [
+        {
+          "id": "llan_f1",
+          "text": "Welsh Cakes",
+          "detail": "Sweet griddle cakes studded with dried fruit and spices, a traditional Welsh treat found at local bakeries and seaside vendors."
+        },
+        {
+          "id": "llan_f2",
+          "text": "Fish and Chips",
+          "detail": "Fresh locally-caught fish battered and deep-fried, best enjoyed with mushy peas at beachfront chippy establishments."
+        },
+        {
+          "id": "llan_f3",
+          "text": "Bara Brith",
+          "detail": "A traditional Welsh fruit bread made with dried fruit soaked in tea, served warm with butter at local cafés."
+        },
+        {
+          "id": "llan_f4",
+          "text": "Laver Bread",
+          "detail": "Seaweed collected from local waters, mixed with oatmeal and rolled into patties, then fried—a distinctly Welsh coastal specialty."
+        },
+        {
+          "id": "llan_f5",
+          "text": "Welsh Lamb",
+          "detail": "Local restaurants serve tender lamb dishes, traditionally raised on North Wales hillsides and prepared with local herbs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "llan_c1",
+          "text": "Peak Season Crowds",
+          "detail": "Llandudno becomes extremely busy in summer holidays (July-August) and bank holidays; visit in shoulder seasons (May-June or September) for a more pleasant experience."
+        },
+        {
+          "id": "llan_c2",
+          "text": "Promenade Etiquette",
+          "detail": "The seafront is a cherished gathering space for generations of British families; dress for changeable Welsh weather and respect designated swimming areas."
+        },
+        {
+          "id": "llan_c3",
+          "text": "Welsh Language Presence",
+          "detail": "While English dominates, you'll see bilingual signs throughout town; learning basic Welsh greetings like 'Helo' and 'Diolch yn fawr' is appreciated by locals."
+        },
+        {
+          "id": "llan_c4",
+          "text": "Tidal Beach Access",
+          "detail": "The beach changes significantly with tide times; check tide tables before planning your day as some beach areas become inaccessible at high tide."
+        }
+      ]
+    },
+    {
+      "id": "betws_y_coed",
+      "name": "Betws-y-Coed",
+      "nameIt": "Betws-y-Coed",
+      "lat": 53.0987,
+      "lng": -3.7987,
+      "type": "VILLAGE",
+      "description": "A picturesque mountain village nestled in the Snowdonia foothills, famous for its stunning waterfalls, riverside walks, and Victorian charm. It's the adventure capital of North Wales, offering outdoor activities, artisan shops, and excellent cafes.",
+      "imageQueries": [
+        "Betws-y-Coed waterfall",
+        "Betws-y-Coed village Wales"
+      ],
+      "activities": [
+        {
+          "id": "betw_1",
+          "text": "Swallow Falls",
+          "detail": "Walk to this dramatic 21-metre waterfall cascading through woodland, the most iconic cascade in the area and a short stroll from the village center.",
+          "lat": 53.1147,
+          "lng": -3.8147
+        },
+        {
+          "id": "betw_2",
+          "text": "Pont-y-Pair Bridge Walk",
+          "detail": "Cross the medieval stone bridge and explore the riverside trail with views of the Afon Llugwy flowing through rocky gorges.",
+          "lat": 53.1167,
+          "lng": -3.8167
+        },
+        {
+          "id": "betw_3",
+          "text": "Conwy Falls",
+          "detail": "Hike to this impressive two-stage waterfall where the river drops spectacularly into a deep pool, surrounded by ancient oak woodland.",
+          "lat": 53.1227,
+          "lng": -3.8347
+        },
+        {
+          "id": "betw_4",
+          "text": "Miners' Track to Snowdon",
+          "detail": "Start the popular hiking route up Wales' highest mountain from the nearby Pen-y-Gwryd area, offering breathtaking mountain scenery.",
+          "lat": 53.0908,
+          "lng": -3.8561
+        },
+        {
+          "id": "betw_5",
+          "text": "Ugly House (Ty Hyll)",
+          "detail": "Tour this rare 15th-century timber-framed cottage preserved as a museum of rural Welsh life, located just outside the village.",
+          "lat": 53.1087,
+          "lng": -3.8247
+        },
+        {
+          "id": "betw_6",
+          "text": "Riverside Walk to Pandy Mill",
+          "detail": "Follow the gentle riverside trail downstream to historic Pandy Mill, passing through native woodland and past old stone bridges.",
+          "lat": 53.1189,
+          "lng": -3.8089
+        },
+        {
+          "id": "betw_7",
+          "text": "Betws Red Dragon Maze",
+          "detail": "Navigate this fun family-friendly hedge maze carved into the hillside with views over the village and surrounding mountains.",
+          "lat": 53.1098,
+          "lng": -3.8156
+        }
+      ],
+      "food": [
+        {
+          "id": "betw_f1",
+          "text": "Welsh Lamb Cawl",
+          "detail": "This traditional slow-cooked stew of local lamb with root vegetables and broth is a hearty staple found in village pubs and restaurants."
+        },
+        {
+          "id": "betw_f2",
+          "text": "Snowdonia Cheese",
+          "detail": "Sample creamy Welsh cheese made locally from Snowdonia creameries, often served with crusty bread in cafes throughout Betws-y-Coed."
+        },
+        {
+          "id": "betw_f3",
+          "text": "Fresh Trout from the Afon Llugwy",
+          "detail": "The river's cold, clear waters provide excellent trout, which many local restaurants prepare simply grilled or pan-fried."
+        },
+        {
+          "id": "betw_f4",
+          "text": "Welsh Bara Brith",
+          "detail": "This spiced fruit bread made with dried fruits soaked in tea is a traditional Welsh treat sold warm in local bakeries and tea rooms."
+        },
+        {
+          "id": "betw_f5",
+          "text": "Cwm Prysor Estate Game",
+          "detail": "Local venison and game from nearby estates appear on fine dining menus, reflecting the region's hunting heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "betw_c1",
+          "text": "Respect the Mountains",
+          "detail": "Weather in Snowdonia changes rapidly; always check forecasts and bring waterproofs even on seemingly clear days, as locals do."
+        },
+        {
+          "id": "betw_c2",
+          "text": "Welsh Language Presence",
+          "detail": "Many signs and locals use Welsh; learning simple phrases like 'Helo' (hello) and 'Diolch' (thank you) is appreciated and shows cultural respect."
+        },
+        {
+          "id": "betw_c3",
+          "text": "Peak Season Crowds",
+          "detail": "Visit in spring or autumn to avoid summer congestion; locals and guides recommend weekday visits for a more authentic village experience."
+        },
+        {
+          "id": "betw_c4",
+          "text": "Outdoor Shop Culture",
+          "detail": "The village has several specialized outdoor and adventure retailers where staff offer expert local knowledge—it's worth chatting with them about conditions and hidden trails."
+        }
+      ]
+    },
+    {
+      "id": "anglesey_island",
+      "name": "Anglesey",
+      "nameIt": "Ynys Môn",
+      "lat": 53.2644,
+      "lng": -4.2265,
+      "type": "ISLAND",
+      "description": "Wales's largest island connected by the iconic Menai Bridge, offering pristine beaches, dramatic coastal paths, and a strong Welsh cultural identity. It features hidden coves, standing stones, and charming villages like Beaumaris with its stunning castle.",
+      "imageQueries": [
+        "Anglesey island Wales",
+        "Menai Bridge Anglesey"
+      ],
+      "activities": [
+        {
+          "id": "angl_1",
+          "text": "Beaumaris Castle",
+          "detail": "Explore this spectacular 13th-century Edward I fortress with concentric walls and a water-filled moat, now one of Wales's most perfectly preserved medieval castles.",
+          "lat": 53.3627,
+          "lng": -4.0947
+        },
+        {
+          "id": "angl_2",
+          "text": "Menai Bridge Crossing",
+          "detail": "Walk or cycle across Thomas Telford's iconic 1826 suspension bridge connecting Anglesey to mainland Wales, offering stunning views of the Menai Strait.",
+          "lat": 53.2261,
+          "lng": -4.1664
+        },
+        {
+          "id": "angl_3",
+          "text": "Newborough Beach and Forest",
+          "detail": "Discover three miles of golden sand backed by ancient woodland and dunes, perfect for swimming, walking, and spotting local wildlife including red squirrels.",
+          "lat": 53.1509,
+          "lng": -4.2425
+        },
+        {
+          "id": "angl_4",
+          "text": "Bryn Celli Ddu Neolithic Tomb",
+          "detail": "Visit this 4,000-year-old passage grave on the island's west side, one of Wales's most important prehistoric monuments with a reconstructed roof chamber.",
+          "lat": 53.2099,
+          "lng": -4.3198
+        },
+        {
+          "id": "angl_5",
+          "text": "South Stack Lighthouse Walk",
+          "detail": "Hike the dramatic clifftop path near Holyhead to this striking 1809 lighthouse perched on a rocky stack with views of Irish coastal waters.",
+          "lat": 53.3147,
+          "lng": -4.6559
+        },
+        {
+          "id": "angl_6",
+          "text": "Amlwch Heritage Copper Mine",
+          "detail": "Explore the remains of Wales's largest copper mine with museum exhibits detailing the 18th and 19th-century industrial heritage that shaped the island.",
+          "lat": 53.3908,
+          "lng": -4.3589
+        },
+        {
+          "id": "angl_7",
+          "text": "Cemlyn Bay Coastal Path",
+          "detail": "Walk the scenic shingle ridge separating Cemlyn Bay from the Irish Sea, a haven for birdwatchers and nature lovers seeking pristine sandy coves.",
+          "lat": 53.3774,
+          "lng": -4.3836
+        }
+      ],
+      "food": [
+        {
+          "id": "angl_f1",
+          "text": "Anglesey Sea Salt",
+          "detail": "Sample this award-winning sea salt harvested from the Menai Strait, hand-raked using traditional methods and used in gourmet cuisine across Wales."
+        },
+        {
+          "id": "angl_f2",
+          "text": "Bara Brith",
+          "detail": "Try this traditional Welsh fruit bread soaked in tea, dense with dried fruits and spices, often served toasted with butter in local cafés and bakeries."
+        },
+        {
+          "id": "angl_f3",
+          "text": "Fresh Coastal Seafood",
+          "detail": "Enjoy locally caught lobster, crab, and seabass prepared simply in Beaumaris and Menai Bridge restaurants taking advantage of the island's fishing heritage."
+        },
+        {
+          "id": "angl_f4",
+          "text": "Welsh Lamb and Cawl",
+          "detail": "Taste this hearty traditional stew of Welsh lamb, root vegetables, and leeks, a warming staple found in farmhouse restaurants across Anglesey."
+        },
+        {
+          "id": "angl_f5",
+          "text": "Laverbread",
+          "detail": "Sample this nutritious local seaweed delicacy boiled and formed into patties, often fried and served for breakfast or as a side dish with seafood."
+        },
+        {
+          "id": "angl_f6",
+          "text": "Welsh Cakes (Cakes Popty)",
+          "detail": "Indulge in these warm spiced griddle cakes studded with currants and dusted with sugar, a beloved snack sold at markets and village bakeries throughout the island."
+        }
+      ],
+      "culture": [
+        {
+          "id": "angl_c1",
+          "text": "Welsh Language Presence",
+          "detail": "Anglesey is a Welsh-language stronghold where you'll see bilingual signage and hear Welsh spoken widely; learning a few phrases shows respect and is warmly appreciated by locals."
+        },
+        {
+          "id": "angl_c2",
+          "text": "Eisteddfod Tradition",
+          "detail": "The island hosts celebrated local eisteddfodau (cultural festivals) celebrating Welsh music, poetry, and language; attending one offers insight into living Welsh culture."
+        },
+        {
+          "id": "angl_c3",
+          "text": "Coastal Access Rights",
+          "detail": "Wales's coastal access path gives visitors the right to walk most of Anglesey's shoreline; respect marked trails, private property, and seasonal nesting areas for protected seabirds."
+        },
+        {
+          "id": "angl_c4",
+          "text": "Sunday Closures",
+          "detail": "Some smaller villages and attractions still observe traditional Sunday closing hours reflecting the island's strong Christian heritage; plan visits to major sites accordingly."
+        }
+      ]
+    },
+    {
+      "id": "beaumaris_castle",
+      "name": "Beaumaris Castle",
+      "nameIt": "Castell Biwmares",
+      "lat": 53.3022,
+      "lng": -4.0959,
+      "type": "LANDMARK",
+      "description": "The last and most architecturally perfect of Edward I's castles, featuring concentric walls and designed by the famous military architect James of St George. Its waterside setting in charming Beaumaris village makes it one of Wales's most photographed monuments.",
+      "imageQueries": [
+        "Beaumaris Castle Wales",
+        "Beaumaris Castle water"
+      ],
+      "activities": [
+        {
+          "id": "beau_1",
+          "text": "Explore the Concentric Walls",
+          "detail": "Walk the inner and outer defensive walls to understand James of St George's revolutionary military design and enjoy views across the Menai Strait.",
+          "lat": 53.3016,
+          "lng": -4.0938
+        },
+        {
+          "id": "beau_2",
+          "text": "Visit the Castle Museum",
+          "detail": "View exhibits on Edward I's conquest of Wales, medieval life, and the castle's 750-year history in the visitor centre.",
+          "lat": 53.3018,
+          "lng": -4.0935
+        },
+        {
+          "id": "beau_3",
+          "text": "Photograph from the Waterside",
+          "detail": "Access the castle's waterfront setting on the Menai Strait where you'll find the most picturesque angles for photos.",
+          "lat": 53.3019,
+          "lng": -4.095
+        },
+        {
+          "id": "beau_4",
+          "text": "Climb the Gatehouse Towers",
+          "detail": "Ascend the twin towers of the impressive gatehouse for panoramic views of Anglesey and the Snowdonia mountains.",
+          "lat": 53.3014,
+          "lng": -4.092
+        },
+        {
+          "id": "beau_5",
+          "text": "Walk the Beaumaris Village High Street",
+          "detail": "Stroll through this charming Georgian coastal village with local shops, galleries, and historic architecture surrounding the castle.",
+          "lat": 53.303,
+          "lng": -4.09
+        }
+      ],
+      "food": [
+        {
+          "id": "beau_f1",
+          "text": "Fresh Anglesey Sea Bass",
+          "detail": "Locally caught fish from the Menai Strait, typically grilled or pan-fried and served in waterfront restaurants with spectacular castle views."
+        },
+        {
+          "id": "beau_f2",
+          "text": "Welsh Cawl",
+          "detail": "A traditional Welsh stew made with beef or lamb, root vegetables, and leeks, often served in village pubs as hearty comfort food."
+        },
+        {
+          "id": "beau_f3",
+          "text": "Bara Brith Tea",
+          "detail": "A Welsh spiced fruit bread soaked in tea, typically served warm with butter at local cafés and tearooms throughout Beaumaris."
+        },
+        {
+          "id": "beau_f4",
+          "text": "Menai Mussels",
+          "detail": "Fresh mussels harvested from the Menai Strait, traditionally steamed with white wine and served at the village's seafood establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beau_c1",
+          "text": "Dual Language Signage",
+          "detail": "All signs at the castle and throughout Beaumaris are in both Welsh (Cymraeg) and English, reflecting Wales's living cultural heritage."
+        },
+        {
+          "id": "beau_c2",
+          "text": "Tidal Access Timing",
+          "detail": "The castle's waterside location means some areas may be inaccessible during high tide, so check tide times before visiting the foreshore."
+        },
+        {
+          "id": "beau_c3",
+          "text": "Welsh Language Appreciation",
+          "detail": "Learning basic Welsh phrases like 'Helô' (hello) and 'Diolch' (thank you) is warmly appreciated by locals in this stronghold of Welsh culture."
+        }
+      ]
+    },
+    {
+      "id": "caerphilly_mountain",
+      "name": "Penmaenmawr Mountain",
+      "nameIt": "Mynydd Penmaenmawr",
+      "lat": 53.2426,
+      "lng": -3.9187,
+      "type": "NATURE",
+      "description": "A dramatic coastal mountain with spectacular views across the Irish Sea and Snowdonia, accessible via scenic hiking trails from the seaside town. The panoramic vistas and relatively accessible paths make it popular with walkers seeking coastal and mountain views.",
+      "imageQueries": [
+        "Penmaenmawr mountain Wales",
+        "Penmaenmawr views"
+      ],
+      "activities": [
+        {
+          "id": "caer_1",
+          "text": "Summit Walk to Pen y Dref",
+          "detail": "The main ascent to the 532m peak offers panoramic views across the Irish Sea to the Isle of Man and Snowdonia mountains.",
+          "lat": 53.385,
+          "lng": -3.725
+        },
+        {
+          "id": "caer_2",
+          "text": "Coastal Path from Penmaenmawr Town",
+          "detail": "A scenic lower-level walk along the shoreline connecting the seaside promenade with the mountain base via established trails.",
+          "lat": 53.3758,
+          "lng": -3.72
+        },
+        {
+          "id": "caer_3",
+          "text": "Neolithic Stone Axe Factory Site",
+          "detail": "Explore the archaeological remains of one of Britain's most important Neolithic axe-making sites on the mountain's slopes.",
+          "lat": 53.384,
+          "lng": -3.728
+        },
+        {
+          "id": "caer_4",
+          "text": "Photography from Snowdonia Viewpoint",
+          "detail": "Capture the distant Snowdonia peaks and Conwy Valley from established viewing areas across the Irish Sea.",
+          "lat": 53.3855,
+          "lng": -3.724
+        },
+        {
+          "id": "caer_5",
+          "text": "Rock Scrambling on Eastern Slopes",
+          "detail": "Experience moderate scrambling sections on the rocky eastern face for more adventurous walkers.",
+          "lat": 53.387,
+          "lng": -3.715
+        },
+        {
+          "id": "caer_6",
+          "text": "Circular Loop via Dwygyfylchi",
+          "detail": "A longer hillwalking route combining Penmaenmawr with the adjacent Dwygyfylchi area for extended exploration.",
+          "lat": 53.382,
+          "lng": -3.73
+        }
+      ],
+      "food": [
+        {
+          "id": "caer_f1",
+          "text": "Welsh Cakes",
+          "detail": "Traditional griddle-cooked cakes with dried fruit and spices, widely available at local tea rooms and shops in the town below."
+        },
+        {
+          "id": "caer_f2",
+          "text": "Fresh Catch Fish and Chips",
+          "detail": "Local fish caught from Conwy Bay, served by beachfront establishments in Penmaenmawr with views of your dining mountain."
+        },
+        {
+          "id": "caer_f3",
+          "text": "Bara Brith",
+          "detail": "A Welsh fruit bread soaked overnight in tea, served warm with butter at traditional cafés throughout the seaside town."
+        },
+        {
+          "id": "caer_f4",
+          "text": "Cawl",
+          "detail": "A hearty Welsh stew made with lamb or beef and root vegetables, perfect warming fare at local pubs after mountain walks."
+        },
+        {
+          "id": "caer_f5",
+          "text": "Penmaenmawr Mussels",
+          "detail": "Locally harvested from Conwy Bay, often prepared simply steamed or in a cream sauce at waterfront restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "caer_c1",
+          "text": "Start Early for Weather",
+          "detail": "Welsh coastal mountains can experience rapid weather changes; begin walks early morning for clearer views and safer conditions."
+        },
+        {
+          "id": "caer_c2",
+          "text": "Respect Welsh Bilingual Signage",
+          "detail": "Many local signs use both Welsh and English; learning basic Welsh place names enriches understanding of the landscape's heritage."
+        },
+        {
+          "id": "caer_c3",
+          "text": "Check Tidal Information",
+          "detail": "Some lower coastal paths may be affected by high tides; consult local tide tables before planning your route."
+        },
+        {
+          "id": "caer_c4",
+          "text": "Support Local Conservation",
+          "detail": "The mountain's Neolithic significance and natural ecology are protected; stay on marked paths to preserve archaeological and environmental heritage."
+        }
+      ]
+    },
+    {
+      "id": "caernarfon_town",
+      "name": "Caernarfon",
+      "nameIt": "Caernarfon",
+      "lat": 53.1424,
+      "lng": -4.2747,
+      "type": "TOWN",
+      "description": "A historic town dominated by its magnificent castle, with colorful waterfront buildings, boat trips on the Menai Strait, and a strong Welsh cultural heart. The town blends medieval heritage with modern amenities and serves as a hub for exploring northwest Wales.",
+      "imageQueries": [
+        "Caernarfon town Wales",
+        "Caernarfon waterfront"
+      ],
+      "activities": [
+        {
+          "id": "caer_1",
+          "text": "Caernarfon Castle",
+          "detail": "Explore this iconic 13th-century fortress with its distinctive polygonal towers, interactive exhibitions, and panoramic views of the Menai Strait from the battlements.",
+          "lat": 53.1408,
+          "lng": -4.2758
+        },
+        {
+          "id": "caer_2",
+          "text": "Menai Strait Boat Trips",
+          "detail": "Take a scenic cruise along the Menai Strait to spot seals, seabirds, and enjoy views of Snowdonia, with departures from the town quay.",
+          "lat": 53.1415,
+          "lng": -4.2728
+        },
+        {
+          "id": "caer_3",
+          "text": "Welsh Highland Railway",
+          "detail": "Ride this narrow-gauge heritage railway through Snowdonia's stunning landscapes on vintage steam and diesel trains departing from Caernarfon station.",
+          "lat": 53.1437,
+          "lng": -4.2669
+        },
+        {
+          "id": "caer_4",
+          "text": "Segontium Roman Fort",
+          "detail": "Visit the remains of this 1st-century Roman auxiliary fort with an onsite museum displaying artifacts and explaining Roman occupation of Wales.",
+          "lat": 53.1467,
+          "lng": -4.2822
+        },
+        {
+          "id": "caer_5",
+          "text": "The Old Town Walk",
+          "detail": "Stroll through Caernarfon's medieval streets past colorful waterfront buildings, local shops, and galleries that capture the town's Welsh character.",
+          "lat": 53.141,
+          "lng": -4.275
+        },
+        {
+          "id": "caer_6",
+          "text": "Cadbury Castle Visitor Centre",
+          "detail": "Learn about local history, geology, and culture through interactive displays covering everything from medieval times to modern-day Caernarfon.",
+          "lat": 53.139,
+          "lng": -4.2695
+        }
+      ],
+      "food": [
+        {
+          "id": "caer_f1",
+          "text": "Welsh Cawl",
+          "detail": "A traditional slow-cooked stew of beef or lamb with root vegetables, leeks, and potatoes that appears on menus throughout town as a hearty Welsh classic."
+        },
+        {
+          "id": "caer_f2",
+          "text": "Bara Brith",
+          "detail": "A spiced Welsh fruit bread studded with dried fruits and traditionally served with butter at cafés and bakeries around Caernarfon's town center."
+        },
+        {
+          "id": "caer_f3",
+          "text": "Sewin (Sea Trout)",
+          "detail": "Fresh locally-caught sea trout from the Menai Strait, often poached or grilled and featured at waterfront restaurants during summer months."
+        },
+        {
+          "id": "caer_f4",
+          "text": "Welsh Rarebit",
+          "detail": "A savory cheese sauce on toast, sometimes with ham or leeks added, available as a light lunch at traditional cafés throughout the town."
+        },
+        {
+          "id": "caer_f5",
+          "text": "Laverbread",
+          "detail": "A regional delicacy made from seaweed, traditionally rolled in oatmeal and fried, found at specialty food shops and traditional Welsh restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "caer_c1",
+          "text": "Learn Basic Welsh",
+          "detail": "The town is a Welsh-language stronghold; locals appreciate visitors who attempt Welsh greetings like 'Helo' (hello) and 'Diolch' (thank you)."
+        },
+        {
+          "id": "caer_c2",
+          "text": "Eisteddfod Tradition",
+          "detail": "Caernarfon hosts cultural celebrations featuring Welsh music, language, and traditions; check local calendars for festivals celebrating Welsh heritage throughout the year."
+        },
+        {
+          "id": "caer_c3",
+          "text": "Respect Welsh Signage",
+          "detail": "Bilingual Welsh-English signs are standard; Welsh place names and street signs reflect the town's cultural identity and commitment to the language."
+        },
+        {
+          "id": "caer_c4",
+          "text": "Sunday Lunch Culture",
+          "detail": "Traditional Sunday roast is a cherished local custom; many pubs and restaurants feature this meal as a social gathering centered on family and community."
+        }
+      ]
+    },
+    {
+      "id": "great_orme",
+      "name": "Great Orme",
+      "nameIt": "Pen y Gogarth",
+      "lat": 53.3334,
+      "lng": -3.85,
+      "type": "LANDMARK",
+      "description": "A dramatic limestone headland towering over Llandudno with scenic cable car, ancient copper mines, and panoramic views of the North Wales coast. It's perfect for adventure seekers, offering walks, wildlife viewing, and an insight into Bronze Age mining history.",
+      "imageQueries": [
+        "Great Orme Llandudno",
+        "Great Orme cable car"
+      ],
+      "activities": [
+        {
+          "id": "grea_1",
+          "text": "Great Orme Cable Car",
+          "detail": "Ride the Victorian cable car from the base station in Llandudno up to the summit for spectacular coastal views and access to the headland's attractions.",
+          "lat": 53.3283,
+          "lng": -3.3269
+        },
+        {
+          "id": "grea_2",
+          "text": "Great Orme Mines",
+          "detail": "Explore one of the world's largest Bronze Age copper mines with guided underground tours revealing 4,000 years of mining history and ancient artifacts.",
+          "lat": 53.3332,
+          "lng": -3.3189
+        },
+        {
+          "id": "grea_3",
+          "text": "Summit Walk and Viewpoint",
+          "detail": "Hike the scenic trails across the 207-meter headland for panoramic views across Conwy Bay, Snowdonia, and the North Wales coast.",
+          "lat": 53.3343,
+          "lng": -3.3221
+        },
+        {
+          "id": "grea_4",
+          "text": "Marine Drive Scenic Route",
+          "detail": "Drive or cycle the dramatic Marine Drive that loops around the headland's base with pullouts for photography and access to small beaches.",
+          "lat": 53.3268,
+          "lng": -3.3318
+        },
+        {
+          "id": "grea_5",
+          "text": "Great Orme Country Park Wildlife Viewing",
+          "detail": "Spot wild Kashmir goats, Kashmiri ponies, and seabirds including razorbills and guillemots in their natural habitat on the headland.",
+          "lat": 53.334,
+          "lng": -3.32
+        },
+        {
+          "id": "grea_6",
+          "text": "Happy Valley Gardens",
+          "detail": "Stroll through Victorian-era gardens nestled on the eastern slopes offering themed sections and quiet spots with coastal views.",
+          "lat": 53.3268,
+          "lng": -3.3155
+        }
+      ],
+      "food": [
+        {
+          "id": "grea_f1",
+          "text": "Local Welsh Lamb",
+          "detail": "Sample slow-cooked Welsh lamb dishes at Llandudno's nearby restaurants, often prepared with mint sauce and root vegetables sourced from North Wales farms."
+        },
+        {
+          "id": "grea_f2",
+          "text": "Fresh Catch Fish and Chips",
+          "detail": "Enjoy traditional fish and chips from Llandudno's seafront using fresh catch from local Welsh waters, best eaten at the base of the cable car."
+        },
+        {
+          "id": "grea_f3",
+          "text": "Welsh Cakes (Ceirch Teisen)",
+          "detail": "Try warm Welsh cakes with dried fruit and spices from local bakeries in Llandudno, a traditional Welsh tea-time treat sold throughout the resort."
+        },
+        {
+          "id": "grea_f4",
+          "text": "Bara Brith",
+          "detail": "Taste this traditional spiced fruit bread soaked in tea, widely available at local cafés and tea rooms near the Great Orme attractions."
+        },
+        {
+          "id": "grea_f5",
+          "text": "Conwy Mussels",
+          "detail": "Experience locally harvested mussels from nearby Conwy estuary, often served steamed in white wine at seafront restaurants in adjacent Llandudno."
+        }
+      ],
+      "culture": [
+        {
+          "id": "grea_c1",
+          "text": "Respect the Wild Animals",
+          "detail": "The Kashmir goats and ponies roaming freely are semi-wild and should not be fed or touched; observe them from a distance and keep dogs under control."
+        },
+        {
+          "id": "grea_c2",
+          "text": "Welsh Language Appreciation",
+          "detail": "Many local signs use Welsh alongside English (Pen y Gogarth means 'head of the goat'); learning a few Welsh phrases like 'Helo' enhances your cultural respect."
+        },
+        {
+          "id": "grea_c3",
+          "text": "Weather Preparedness",
+          "detail": "The summit is exposed and weather can change rapidly; bring waterproof jackets and sturdy walking shoes even on clear days, as mist frequently rolls in from the sea."
+        },
+        {
+          "id": "grea_c4",
+          "text": "Bronze Age Heritage Respect",
+          "detail": "The mines are a protected archaeological site; stay on designated paths during tours and do not remove any stones or artifacts as they preserve 4,000 years of history."
+        }
+      ]
+    },
+    {
+      "id": "conwy_town",
+      "name": "Conwy",
+      "nameIt": "Conwy",
+      "lat": 53.2074,
+      "lng": -3.8272,
+      "type": "TOWN",
+      "description": "A medieval walled town with narrow cobbled streets, historic buildings, and the impressive Conwy Castle dominating the skyline. It's one of the best-preserved walled towns in Britain, perfect for exploration and offers excellent restaurants and accommodations.",
+      "imageQueries": [
+        "Conwy walled town Wales",
+        "Conwy medieval streets"
+      ],
+      "activities": [
+        {
+          "id": "conw_1",
+          "text": "Conwy Castle",
+          "detail": "Explore this magnificent 13th-century fortress built by Edward I with eight towers offering panoramic views of the town and estuary.",
+          "lat": 53.2832,
+          "lng": -3.8271
+        },
+        {
+          "id": "conw_2",
+          "text": "Town Walls Walk",
+          "detail": "Walk the complete circuit of the 15th-century defensive walls that encircle the old town, one of the finest examples in Britain.",
+          "lat": 53.283,
+          "lng": -3.828
+        },
+        {
+          "id": "conw_3",
+          "text": "Plas Mawr",
+          "detail": "Tour this beautifully preserved Elizabethan mansion with period rooms, ornate plasterwork, and insights into Tudor-era life.",
+          "lat": 53.2828,
+          "lng": -3.8282
+        },
+        {
+          "id": "conw_4",
+          "text": "Smallest House in Britain",
+          "detail": "Visit the quirky 3.49-meter-wide cottage on the quayside, once home to a fisherman and now a curiosity attracting visitors worldwide.",
+          "lat": 53.2832,
+          "lng": -3.8255
+        },
+        {
+          "id": "conw_5",
+          "text": "Conwy Estuary",
+          "detail": "Spot wading birds, seals, and other wildlife along the picturesque tidal estuary bordering the town.",
+          "lat": 53.285,
+          "lng": -3.82
+        },
+        {
+          "id": "conw_6",
+          "text": "High Street Cobbled Streets",
+          "detail": "Wander the narrow medieval streets lined with independent shops, galleries, and traditional Welsh architecture.",
+          "lat": 53.2828,
+          "lng": -3.829
+        }
+      ],
+      "food": [
+        {
+          "id": "conw_f1",
+          "text": "Fresh Sea Bass",
+          "detail": "Enjoy locally caught bass prepared simply grilled or pan-fried, a specialty of waterfront restaurants overlooking the estuary."
+        },
+        {
+          "id": "conw_f2",
+          "text": "Welsh Cawl",
+          "detail": "Taste this traditional slow-cooked broth made with beef or lamb, root vegetables, and leeks, served in local pubs and restaurants."
+        },
+        {
+          "id": "conw_f3",
+          "text": "Conwy Mussels",
+          "detail": "Sample fresh mussels harvested from local beds and prepared steamed with white wine and garlic at quayside eateries."
+        },
+        {
+          "id": "conw_f4",
+          "text": "Welsh Rarebit",
+          "detail": "Try this classic Welsh cheese sauce served over toasted bread, a comfort food staple found in traditional cafes and inns."
+        },
+        {
+          "id": "conw_f5",
+          "text": "Bara Brith Tea Cake",
+          "detail": "Seek out this traditional spiced fruit bread soaked in tea, served toasted with butter at local bakeries and tea rooms."
+        }
+      ],
+      "culture": [
+        {
+          "id": "conw_c1",
+          "text": "Allow time for tidal planning",
+          "detail": "Conwy's tidal range is significant, so check tide times if planning waterfront activities or estuary walks."
+        },
+        {
+          "id": "conw_c2",
+          "text": "Welsh language presence",
+          "detail": "Many signs and some locals use Welsh alongside English, and learning a few Welsh phrases is appreciated by the community."
+        },
+        {
+          "id": "conw_c3",
+          "text": "Respect the historic streets",
+          "detail": "The narrow cobbled streets can be slippery and crowded; wear appropriate footwear and move slowly to enjoy the medieval atmosphere."
+        },
+        {
+          "id": "conw_c4",
+          "text": "Visit outside peak season",
+          "detail": "Summer months bring heavy tourist crowds; visiting in spring or autumn offers a more authentic experience of local life."
+        }
+      ]
+    },
+    {
+      "id": "mount_snowdon",
+      "name": "Mount Snowdon",
+      "nameIt": "Yr Wyddfa",
+      "lat": 53.0687,
+      "lng": -3.9281,
+      "type": "LANDMARK",
+      "description": "Wales's highest mountain at 1,085 meters, accessible via hiking trails or the scenic mountain railway for stunning summit views across Wales and the Irish Sea. It's the iconic centerpiece of Snowdonia, offering experiences for all fitness levels.",
+      "imageQueries": [
+        "Mount Snowdon summit",
+        "Snowdon mountain railway"
+      ],
+      "activities": [
+        {
+          "id": "moun_1",
+          "text": "Snowdon Mountain Railway",
+          "detail": "A historic rack railway that ascends 3,560 feet from Llanberis station to the summit, offering spectacular views without strenuous hiking.",
+          "lat": 53.3768,
+          "lng": -4.0036
+        },
+        {
+          "id": "moun_2",
+          "text": "Pyg Track Hike",
+          "detail": "One of the most popular and scenic hiking routes starting from Pen-y-Pass car park, offering dramatic views of glacial valleys and dramatic ridges.",
+          "lat": 53.3865,
+          "lng": -3.9872
+        },
+        {
+          "id": "moun_3",
+          "text": "Summit Café and Visitor Centre",
+          "detail": "The rotating café at the 3,560-foot summit provides refreshments and panoramic 360-degree views across Wales and on clear days to the Irish Sea.",
+          "lat": 53.3853,
+          "lng": -3.9925
+        },
+        {
+          "id": "moun_4",
+          "text": "Crib Goch Ridge Walk",
+          "detail": "A challenging scramble offering exposed ridgeline views and a true mountaineering experience for fit hikers with good head for heights.",
+          "lat": 53.3857,
+          "lng": -3.9945
+        },
+        {
+          "id": "moun_5",
+          "text": "Miners' Track Walk",
+          "detail": "A gentler, well-maintained path with historical interest following old copper mining routes, suitable for families and moderate fitness levels.",
+          "lat": 53.391,
+          "lng": -3.9765
+        },
+        {
+          "id": "moun_6",
+          "text": "Llanberis Pass Scenic Drive",
+          "detail": "A winding mountain road connecting Llanberis and Capel Curig with dramatic cliff views and multiple pull-offs for photography.",
+          "lat": 53.389,
+          "lng": -3.998
+        },
+        {
+          "id": "moun_7",
+          "text": "Snowdon Summit Sunrise Hike",
+          "detail": "An early-morning ascent to witness dawn breaking across North Wales, popular among photographers and nature enthusiasts.",
+          "lat": 53.3853,
+          "lng": -3.9925
+        }
+      ],
+      "food": [
+        {
+          "id": "moun_f1",
+          "text": "Welsh Lamb Cawl",
+          "detail": "A traditional Welsh stew made with local lamb, root vegetables, and leeks, widely served in mountain villages and mountain lodges near Snowdon."
+        },
+        {
+          "id": "moun_f2",
+          "text": "Bara Brith",
+          "detail": "A spiced Welsh fruit bread made with dried fruits soaked in tea, commonly enjoyed with butter as a post-hike snack in Snowdonia tearooms."
+        },
+        {
+          "id": "moun_f3",
+          "text": "Snowdon Ranger Pie",
+          "detail": "A hearty local meat pie named after the historic Snowdon Ranger path, filled with Welsh beef and seasonal vegetables."
+        },
+        {
+          "id": "moun_f4",
+          "text": "Welsh Cheddar and Leek Cheese",
+          "detail": "Local artisan cheeses combining sharp Welsh cheddar with leeks, available in village shops and at the mountain railway stations."
+        },
+        {
+          "id": "moun_f5",
+          "text": "Slate Mountain Trout",
+          "detail": "Fresh-caught trout from Snowdonia's glacial lakes, prepared simply and served in village restaurants near Llanberis and Capel Curig."
+        },
+        {
+          "id": "moun_f6",
+          "text": "Welsh Breakfast (Full Welsh)",
+          "detail": "A hearty morning meal featuring bacon, eggs, sausages, tomatoes, mushrooms, and Welsh bread—essential fuel before climbing."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moun_c1",
+          "text": "Weather Changes Rapidly",
+          "detail": "Mountain conditions can shift dramatically within minutes; always check forecasts, carry waterproof layers, and be prepared to descend if visibility deteriorates or clouds roll in."
+        },
+        {
+          "id": "moun_c2",
+          "text": "Respect the Mountain and Paths",
+          "detail": "Stay on marked trails to protect fragile Alpine vegetation and prevent erosion; Snowdon is a sacred site in Welsh culture and many locals prefer visitors to treat it with reverence."
+        },
+        {
+          "id": "moun_c3",
+          "text": "Learn Basic Welsh Place Names",
+          "detail": "Using Welsh names like 'Yr Wyddfa' shows respect to local culture; many signs are bilingual Welsh-English, and locals appreciate visitors' efforts to acknowledge Welsh heritage."
+        },
+        {
+          "id": "moun_c4",
+          "text": "Peak Season Crowds",
+          "detail": "Snowdon is extremely popular May through September; visit early morning, off-season, or weekdays to avoid crowds and experience the mountain more peacefully."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Y Bistro",
+      "address": "4 Chapel Street, Llanrwst",
+      "neighbourhood": "Llanrwst",
+      "cuisine": "French-Welsh fusion",
+      "priceRange": "€€€",
+      "description": "An intimate neighbourhood bistro serving refined French cuisine with Welsh ingredients in a charming riverside setting.",
+      "mustOrder": "Duck confit with local vegetables",
+      "lat": 53.1567,
+      "lng": -3.8133
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "The Kinmel Arms",
+      "address": "St George Road, Abergele",
+      "neighbourhood": "Abergele",
+      "cuisine": "British gastro-pub",
+      "priceRange": "€€",
+      "description": "A relaxed countryside pub with an excellent reputation for locally-sourced seasonal dishes and real ales.",
+      "mustOrder": "Welsh beef and ale pie",
+      "lat": 53.582,
+      "lng": -3.5827
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Plas Bodegroes",
+      "address": "Nefyn, Gwynedd",
+      "neighbourhood": "Nefyn",
+      "cuisine": "Modern British",
+      "priceRange": "€€€€",
+      "description": "A prestigious country house restaurant offering fine dining with panoramic sea views and impeccable service.",
+      "mustOrder": "Turbot with seasonal preparations",
+      "lat": 52.8708,
+      "lng": -4.4233
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Porth Tocyn Hotel Restaurant",
+      "address": "Abersoch, Gwynedd",
+      "neighbourhood": "Abersoch",
+      "cuisine": "Modern Welsh",
+      "priceRange": "€€€",
+      "description": "Clifftop hotel restaurant with outstanding views serving creative Welsh-inspired cuisine and fresh seafood.",
+      "mustOrder": "Local sea bass with seaweed butter",
+      "lat": 52.8299,
+      "lng": -4.414
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Castle Hotel Restaurant",
+      "address": "High Street, Conwy",
+      "neighbourhood": "Conwy",
+      "cuisine": "Welsh traditional",
+      "priceRange": "€€",
+      "description": "Historic hotel restaurant in a 16th-century building offering traditional Welsh fare in a charming walled town.",
+      "mustOrder": "Cawl (Welsh broth stew)",
+      "lat": 53.2829,
+      "lng": -3.8289
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Café Niceto",
+      "address": "Bangor Street, Caernarfon",
+      "neighbourhood": "Caernarfon",
+      "cuisine": "Tapas-Mediterranean",
+      "priceRange": "€€",
+      "description": "A vibrant café-bar offering Spanish tapas and Mediterranean small plates in a lively, welcoming atmosphere.",
+      "mustOrder": "Patatas bravas and jamón ibérico",
+      "lat": 53.1427,
+      "lng": -4.2743
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Blas",
+      "address": "Pensarn Road, Caernarfon",
+      "neighbourhood": "Caernarfon",
+      "cuisine": "Welsh contemporary",
+      "priceRange": "€€€",
+      "description": "Award-winning restaurant celebrating Welsh ingredients and culinary heritage with creative, modern presentations.",
+      "mustOrder": "Welsh lamb with seasonal vegetables",
+      "lat": 53.1441,
+      "lng": -4.2751
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Y Popty",
+      "address": "Lombard Street, Bangor",
+      "neighbourhood": "Bangor",
+      "cuisine": "Café-bakery Welsh",
+      "priceRange": "€",
+      "description": "A delightful Welsh-language bakery café famous for homemade breads, cakes, and traditional Welsh breakfast.",
+      "mustOrder": "Welsh bara brith and coffee",
+      "lat": 53.2293,
+      "lng": -4.1269
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Dinings",
+      "address": "Market Street, Bangor",
+      "neighbourhood": "Bangor",
+      "cuisine": "Japanese",
+      "priceRange": "€€€",
+      "description": "A sophisticated Japanese restaurant offering authentic sushi, sashimi, and cooked dishes with exceptional attention to detail.",
+      "mustOrder": "Omakase tasting menu",
+      "lat": 53.229,
+      "lng": -4.1265
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "The Eagle Inn",
+      "address": "Betws-y-Coed",
+      "neighbourhood": "Betws-y-Coed",
+      "cuisine": "British traditional",
+      "priceRange": "€€",
+      "description": "A quintessential Welsh country inn in Snowdonia offering hearty traditional British fare and real ales.",
+      "mustOrder": "Steak and ale pie",
+      "lat": 53.0967,
+      "lng": -3.8189
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Sion Elwy",
+      "address": "High Street, Llanrwst",
+      "neighbourhood": "Llanrwst",
+      "cuisine": "Welsh gastropub",
+      "priceRange": "€€",
+      "description": "Traditional Welsh pub restaurant with strong emphasis on local meats and seasonal produce in a historic setting.",
+      "mustOrder": "Smoked salmon and Welsh cheese board",
+      "lat": 53.1575,
+      "lng": -3.8145
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Pen-y-Gwryd Hotel",
+      "address": "Nantgwynant, Snowdonia",
+      "neighbourhood": "Snowdonia",
+      "cuisine": "British comfort food",
+      "priceRange": "€€",
+      "description": "A legendary mountain inn offering hearty comfort food with mountaineering heritage, ideal for walkers and adventurers.",
+      "mustOrder": "Hearty mountain stew",
+      "lat": 53.0644,
+      "lng": -4.0138
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Restaurant Terrace",
+      "address": "The Promenade, Llandudno",
+      "neighbourhood": "Llandudno",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Elegant seaside restaurant overlooking the bay offering refined European cuisine with local Welsh ingredients.",
+      "mustOrder": "Pan-seared scallops with Welsh crab bisque",
+      "lat": 53.3269,
+      "lng": -3.8258
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "The Groes Inn",
+      "address": "Tyn-y-Groes, Conwy Valley",
+      "neighbourhood": "Tyn-y-Groes",
+      "cuisine": "Welsh traditional",
+      "priceRange": "€€",
+      "description": "Wales' oldest inn (1573) serving authentic Welsh dishes and traditional fare in a historic atmosphere with character.",
+      "mustOrder": "Welsh rarebit and local ale",
+      "lat": 53.2456,
+      "lng": -3.8912
+    }
+  ]
+}
