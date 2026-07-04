@@ -20,8 +20,10 @@ export const COUNTRY_META = [
     blurb: 'Islands, ruins and long lunches — 13 regions from Crete to Thrace.' },
   { slug: 'united_kingdom', name: 'United Kingdom', flag: '🇬🇧',
     blurb: 'Castles, coastlines and pubs — 17 regions across four nations.' },
-  { slug: 'usa', name: 'United States', flag: '🇺🇸',
-    blurb: 'Fifty states of road trips, parks and cities.' },
+  { slug: 'united_states', name: 'United States', flag: '🇺🇸',
+    blurb: 'Road trips, national parks and big-sky cities — coast to coast.' },
+  { slug: 'japan', name: 'Japan', flag: '🇯🇵',
+    blurb: 'Temples, ramen and bullet trains — 9 regions from Hokkaido to Okinawa.' },
 ]
 
 // Slugs listed here stay invisible even when their data folder exists.

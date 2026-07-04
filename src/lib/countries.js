@@ -8,14 +8,18 @@ export const COUNTRIES = [
     blurb: "Sun, tapas and flamenco — 18 regions from the Pyrenees to the Canaries." },
   { slug: 'portugal', name: "Portugal", flag: '🇵🇹', available: true,
     blurb: "Atlantic light and azulejos — 11 regions from the Minho to Madeira." },
-  { slug: 'france', name: "France", flag: '🇫🇷', available: false,
+  { slug: 'france', name: "France", flag: '🇫🇷', available: true,
     blurb: "Vineyards, villages and grand cities — all 13 regions, table by table." },
-  { slug: 'greece', name: "Greece", flag: '🇬🇷', available: false,
+  { slug: 'greece', name: "Greece", flag: '🇬🇷', available: true,
     blurb: "Islands, ruins and long lunches — 13 regions from Crete to Thrace." },
-  { slug: 'united_kingdom', name: "United Kingdom", flag: '🇬🇧', available: false,
+  { slug: 'united_kingdom', name: "United Kingdom", flag: '🇬🇧', available: true,
     blurb: "Castles, coastlines and pubs — 17 regions across four nations." },
-  { slug: 'usa', name: "United States", flag: '🇺🇸', available: false,
-    blurb: "Fifty states of road trips, parks and cities." },
+  { slug: 'united_states', name: "United States", flag: '🇺🇸', available: true,
+    blurb: "Road trips, national parks and big-sky cities — coast to coast." },
+  { slug: 'japan', name: "Japan", flag: '🇯🇵', available: true,
+    blurb: "Temples, ramen and bullet trains — 9 regions from Hokkaido to Okinawa." },
+  { slug: 'germany', name: "Germany", flag: '🌍', available: true,
+    blurb: "Mapped region by region." },
 ]
 
 export const isAvailableCountry = (slug) => COUNTRIES.some((c) => c.slug === slug && c.available)
