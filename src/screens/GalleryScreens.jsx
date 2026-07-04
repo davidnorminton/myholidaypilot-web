@@ -226,7 +226,7 @@ export function GalleryTripScreen() {
               </header>
               {places.map((p) => (
                 <div key={`${p.regionId}/${p.placeId}`} className="gplan__place">
-                  <h3><MapPin size={14} /> <Link to={paths.place(p.regionId, p.placeId)}>{p.name}</Link>
+                  <h3><MapPin size={14} /> <Link to={paths.place(p.regionId, p.placeId, pub?.countryId || 'italy')}>{p.name}</Link>
                     <span className="galtrip__region">{p.regionName}</span></h3>
                   {p.note && <p className="galtrip__note">"{p.note}"</p>}
                   <ul>

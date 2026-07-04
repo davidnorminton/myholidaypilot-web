@@ -96,7 +96,7 @@ export default function GuideScreen({ topic }) {
 
       <main className="wrap guide">
         {isFestivals && data.festivals.length > 0 && (
-          <FestivalsCalendar festivals={data.festivals} regionMap={regionMap} />
+          <FestivalsCalendar festivals={data.festivals} regionMap={regionMap} country={country} />
         )}
 
         {isTimeline && <Timeline items={sections.flatMap((s) => s.items)} />}

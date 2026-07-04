@@ -277,7 +277,7 @@ function PlaceRow({ tripId, place: p, onPlan }) {
         <div className="trip-row__main">
           {p.isCustom
             ? <span className="trip-row__name">{p.name}</span>
-            : <Link to={paths.place(p.regionId, p.placeId)} className="trip-row__name trip-row__name--link">{p.name}</Link>}
+            : <Link to={paths.place(p.regionId, p.placeId, trip.countryId || 'italy')} className="trip-row__name trip-row__name--link">{p.name}</Link>}
           <span className="trip-row__type">{typeLabel(p.type)}{p.isCustom ? ' · your own' : ''}</span>
           {planned
             ? <button className="trip-row__plan-meta" onClick={onPlan}>{summary}</button>

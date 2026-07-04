@@ -127,7 +127,7 @@ function FestCard({ f, region, highlighted }) {
           <p className="fcard__date">{dateLabel(f)}</p>
           <p className="fcard__where">
             {f.location} · {f.isNational ? 'National' : (region
-              ? <Link to={paths.region(f.regionId)} className="fcard__region" onClick={(e) => e.stopPropagation()}>{region.emoji} {region.name}</Link>
+              ? <Link to={paths.region(f.regionId, country)} className="fcard__region" onClick={(e) => e.stopPropagation()}>{region.emoji} {region.name}</Link>
               : f.regionName)}
           </p>
         </div>

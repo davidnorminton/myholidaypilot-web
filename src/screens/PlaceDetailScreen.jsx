@@ -58,7 +58,7 @@ export default function PlaceDetailScreen() {
   })
 
   if (region === null) return <PageLoader label="Opening place" />
-  if (region === false || (region && !place)) return <NotFound regionId={regionId} />
+  if (region === false || (region && !place)) return <NotFound regionId={regionId} country={country} />
 
   const hero = images[0]?.url
   const viewTabs = [
@@ -186,7 +186,7 @@ function Items({ items, numbered }) {
   )
 }
 
-function NotFound({ regionId }) {
+function NotFound({ regionId, country }) {
   return (
     <div className="page wrap">
       <Link to={paths.region(regionId, country)} className="back" style={{ marginTop: 24 }}>

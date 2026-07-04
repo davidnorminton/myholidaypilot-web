@@ -105,7 +105,7 @@ export default function RegionDetailScreen() {
             )}
             <div className="grid grid--places">
               {(region.places || []).map((p, i) => (
-                <PlaceCard key={p.id} regionId={regionId} place={p} image={images[p.id]?.[0]?.url} number={i + 1} />
+                <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={images[p.id]?.[0]?.url} number={i + 1} />
               ))}
             </div>
           </>

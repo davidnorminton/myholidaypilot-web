@@ -1,15 +1,29 @@
 #!/usr/bin/env node
-// Writes an exported country bundle into public/data/{country}/… and flips the
-// country to available in src/lib/countries.js.
+// Writes an exported country bundle into <project>/public/data/{country}/… and
+// flips the country to available in src/lib/countries.js.
+//
+// Paths are anchored to the PROJECT ROOT (the script's parent folder), so it
+// writes to the right place no matter which directory you run it from.
+//
 // Usage: node scripts/import-country.mjs path/to/country-export.json
 import fs from 'node:fs'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+if (!fs.existsSync(path.join(ROOT, 'package.json'))) {
+  console.error(`! Could not find package.json at ${ROOT} — is the script inside the project's scripts/ folder?`)
+  process.exit(1)
+}
 
 const src = process.argv[2]
 if (!src) { console.error('Usage: node scripts/import-country.mjs <bundle.json>'); process.exit(1) }
-const bundle = JSON.parse(fs.readFileSync(src, 'utf8'))
+const srcPath = path.resolve(process.cwd(), src)   // bundle path is relative to where you ran it
+if (!fs.existsSync(srcPath)) { console.error(`! Bundle not found: ${srcPath}`); process.exit(1) }
+
+const bundle = JSON.parse(fs.readFileSync(srcPath, 'utf8'))
 const cid = bundle.countryId
-const root = path.join('public', 'data', cid)
+const root = path.join(ROOT, 'public', 'data', cid)
 
 let written = 0
 for (const [rel, obj] of Object.entries(bundle.files)) {
@@ -18,9 +32,9 @@ for (const [rel, obj] of Object.entries(bundle.files)) {
   fs.writeFileSync(full, JSON.stringify(obj, null, 2))
   written++
 }
-console.log(`\u2713 wrote ${written} files to ${root}`)
+console.log(`\u2713 wrote ${written} files to ${path.relative(process.cwd(), root) || root}`)
 
-const regPath = path.join('src', 'lib', 'countries.js')
+const regPath = path.join(ROOT, 'src', 'lib', 'countries.js')
 let reg = fs.readFileSync(regPath, 'utf8')
 const re = new RegExp(`(slug:\\s*'${cid}'[^}]*available:\\s*)false`)
 if (re.test(reg)) {
@@ -28,10 +42,10 @@ if (re.test(reg)) {
   fs.writeFileSync(regPath, reg)
   console.log(`\u2713 ${cid} set available: true in countries.js`)
 } else if (reg.includes(`slug: '${cid}'`)) {
-  console.log(`\u2022 ${cid} already available (or manually set)`)
+  console.log(`\u2022 ${cid} already available in countries.js`)
 } else {
   console.log(`! ${cid} not in countries.js — add: { slug: '${cid}', name: '${bundle.name}', flag: '${bundle.flag || ''}', available: true }`)
 }
 console.log(`\nStats: ${bundle.stats.regions} regions \u00b7 ${bundle.stats.places} places \u00b7 ${bundle.stats.restaurants} restaurants \u00b7 ${bundle.stats.images} images`)
-if (bundle.missingImages?.length) console.log(`Missing images (${bundle.missingImages.length}): ${bundle.missingImages.join(', ')}`)
+if (bundle.missingImages?.length) console.log(`Missing images (${bundle.missingImages.length}): ${bundle.missingImages.slice(0, 20).join(', ')}${bundle.missingImages.length > 20 ? '…' : ''}`)
 console.log('\nNow: npm run build, commit, push. Live on deploy.')

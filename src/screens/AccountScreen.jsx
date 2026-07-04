@@ -8,6 +8,7 @@ import { useAuth } from '../lib/auth.jsx'
 import { useTrips, activeTrip } from '../lib/trips.js'
 import { useFavourites } from '../lib/favourites.js'
 import { getPlacesIndex, getImages } from '../lib/data.js'
+import { COUNTRIES } from '../lib/countries.js'
 import { api } from '../lib/api.js'
 import { downloadTripPdf } from '../lib/tripPdf.js'
 import { paths } from '../lib/paths.js'
@@ -37,8 +38,13 @@ export default function AccountScreen() {
   const [images, setImages] = useState({})
   const [myComments, setMyComments] = useState(null)
   useEffect(() => {
-    getPlacesIndex().then(setIndex).catch(() => setIndex([]))
-    getImages().then(setImages).catch(() => {})
+    const avail = COUNTRIES.filter((c) => c.available).map((c) => c.slug)
+    Promise.all(avail.map((slug) =>
+      getPlacesIndex(slug).then((rows) => rows.map((p) => ({ ...p, countryId: slug }))).catch(() => [])
+    )).then((lists) => setIndex(lists.flat()))
+    Promise.all(avail.map((slug) =>
+      getImages(slug).then((m) => [slug, m]).catch(() => [slug, {}])
+    )).then((pairs) => setImages(Object.fromEntries(pairs)))
   }, [])
   useEffect(() => {
     let on = true
@@ -49,10 +55,10 @@ export default function AccountScreen() {
   const byKey = useMemo(() => Object.fromEntries(index.map((p) => [`${p.regionId}/${p.placeId}`, p])), [index])
   const savedPlaces = useMemo(() => [...favIds].map((k) => byKey[k]).filter(Boolean), [favIds, byKey])
   const coverOf = (t) => {
-    for (const p of t.places) { const u = images[p.regionId]?.[p.placeId]?.[0]?.url; if (u) return u }
+    for (const p of t.places) { const u = images[t.countryId || 'italy']?.[p.regionId]?.[p.placeId]?.[0]?.url; if (u) return u }
     return null
   }
-  const imgOf = (p) => images[p.regionId]?.[p.placeId]?.[0]?.url || null
+  const imgOf = (p) => images[p.countryId || 'italy']?.[p.regionId]?.[p.placeId]?.[0]?.url || null
 
   const active = SECTIONS.some((x) => x.id === section) ? section : 'overview'
 
@@ -167,7 +173,7 @@ function SavedPanel({ places, imgOf }) {
     <div>
       <div className="account__savedgrid">
         {places.map((p) => (
-          <Link key={`${p.regionId}/${p.placeId}`} to={paths.place(p.regionId, p.placeId)} className="account__saved">
+          <Link key={`${p.regionId}/${p.placeId}`} to={paths.place(p.regionId, p.placeId, p.countryId)} className="account__saved">
             {imgOf(p) && <img src={imgOf(p)} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />}
             <span className="account__saved-name">{p.name}</span>
             <span className="account__saved-region">{p.regionName}</span>
@@ -186,7 +192,7 @@ function CommentsPanel({ comments, byKey }) {
     <ul className="account__comments">
       {comments.map((c) => {
         const place = c.placeId ? byKey[`${c.regionId}/${c.placeId}`] : null
-        const to = c.targetType === 'place' && c.placeId ? paths.place(c.regionId, c.placeId) : paths.region(c.regionId)
+        const to = c.targetType === 'place' && c.placeId ? paths.place(c.regionId, c.placeId, c.countryId || 'italy') : paths.region(c.regionId, c.countryId || 'italy')
         const where = place ? `${place.name}, ${place.regionName}` : c.regionId.replace(/-/g, ' ')
         return (
           <li key={c.id} className="account__comment">

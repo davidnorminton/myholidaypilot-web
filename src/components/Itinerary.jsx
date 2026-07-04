@@ -344,7 +344,7 @@ export default function Itinerary({ trip, onPlan }) {
               {d.places.map((p, i) => (
                 <Fragment key={keyOf(p)}>
                   {i > 0 && <Hop from={d.places[i - 1]} to={p} />}
-                  <ItinPlace p={p} onPlan={onPlan} live={isLive && d.date === todayIso} {...cardState(p, d.date)} />
+                  <ItinPlace country={trip.countryId} p={p} onPlan={onPlan} live={isLive && d.date === todayIso} {...cardState(p, d.date)} />
                 </Fragment>
               ))}
             </div>
@@ -360,7 +360,7 @@ export default function Itinerary({ trip, onPlan }) {
             <span className="iday__where">{unscheduled.length} {unscheduled.length === 1 ? 'place' : 'places'} — drag onto a day, or open one to pick</span>
           </header>
           <div className="iday__places">
-            {unscheduled.map((p) => <ItinPlace key={keyOf(p)} p={p} onPlan={onPlan} {...cardState(p, '')} />)}
+            {unscheduled.map((p) => <ItinPlace country={trip.countryId} key={keyOf(p)} p={p} onPlan={onPlan} {...cardState(p, '')} />)}
           </div>
         </section>
       )}
@@ -380,7 +380,7 @@ export default function Itinerary({ trip, onPlan }) {
   )
 }
 
-function ItinPlace({ p, onPlan, dragging, dropBefore, onGrip, live = false }) {
+function ItinPlace({ p, country, onPlan, dragging, dropBefore, onGrip, live = false }) {
   const nothing = !(p.attractions?.length) && !(p.restaurants?.length)
   return (
     <article data-key={keyOf(p)} data-day={p.date || ''}
@@ -389,7 +389,7 @@ function ItinPlace({ p, onPlan, dragging, dropBefore, onGrip, live = false }) {
         <span className="ip__grip" onPointerDown={onGrip} role="button" aria-label="Drag to reorder"><GripVertical size={16} /></span>
         {p.isCustom
           ? <span className="ip__name">{p.name}</span>
-          : <Link to={paths.place(p.regionId, p.placeId)} className="ip__name" draggable={false}>{p.name}</Link>}
+          : <Link to={paths.place(p.regionId, p.placeId, country || 'italy')} className="ip__name" draggable={false}>{p.name}</Link>}
         <span className="ip__type">{typeLabel(p.type)} · {p.regionName || 'Your own'}
           {p.done && p.visitedAt && <span className="ip__visited"> · visited {new Date(p.visitedAt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}</span>}
         </span>

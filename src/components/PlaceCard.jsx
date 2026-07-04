@@ -3,9 +3,9 @@ import { typeLabel } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 import SaveButton from './SaveButton.jsx'
 
-export default function PlaceCard({ regionId, place, image, number }) {
+export default function PlaceCard({ regionId, country, place, image, number }) {
   return (
-    <Link to={paths.place(regionId, place.id)} className="pcard">
+    <Link to={paths.place(regionId, place.id, country)} className="pcard">
       <div className="pcard__media">
         {image
           ? <img src={image} alt={place.name} loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} />
