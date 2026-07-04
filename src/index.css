@@ -87,8 +87,7 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 
 /* ── Region detail hero ────────────────────────────────── */
 .rd-hero{
-  background:linear-gradient(180deg, color-mix(in srgb,var(--accent) 16%, var(--paper)), var(--paper));
-  border-bottom:1px solid var(--line); padding-block:18px 30px;
+  padding-block:18px 30px;
 }
 .back{
   display:inline-flex; align-items:center; gap:6px; font-size:14px; font-weight:500;
@@ -2395,3 +2394,5 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .bld__has{border-color:color-mix(in srgb,var(--ok) 40%,var(--line)); color:var(--ok)}
 .bld__has svg{color:var(--ok)}
 .bld__detailnote--err{color:#b4552d}
+
+.bld__guideacts{display:flex; gap:6px}

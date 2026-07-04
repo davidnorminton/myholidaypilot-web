@@ -60,6 +60,7 @@ export const api = {
     savePlace: (country, region, place, data, image) => req('PATCH', `/builder?type=place&country=${country}&region=${region}&place=${place}`, { data, image }),
     discard: (country) => req('DELETE', `/builder?country=${country}`),
     export: (country) => req('GET', `/builder?action=export&country=${country}`),
+    guideFile: (country, topic) => req('GET', `/builder?action=guidefile&country=${country}&topic=${topic}`),
   },
   commentsAdmin: {
     list: () => req('GET', '/comments?admin=1'),

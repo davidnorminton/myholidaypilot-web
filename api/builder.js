@@ -34,7 +34,7 @@ export default handler(async (req, res) => {
     return send(res, 200, out)
   }
 
-  if (req.method === 'GET' && q.country && !q.region && q.action !== 'export') {
+  if (req.method === 'GET' && q.country && !q.region && !q.action) {
     const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
     if (!b) throw fail(404, 'No such build')
     const regions = await db.select().from(buildRegions)
@@ -304,7 +304,24 @@ Respond with ONLY a single valid JSON object, no fences, no preamble. Escape any
     let prompt, stageNo
     if (topic === 'festivals') {
       stageNo = 7
-      prompt = `List 10 to 16 of the most notable festivals and annual events across ${b.name} a traveller might plan around. For each: name, month (e.g. "February" or "June–July"), place (town/region), description (one sentence). Respond with ONLY valid JSON, no fences: {"version":1,"title":"Festivals & events","subtitle":"Italy's calendar of celebrations","festivals":[{"name":"","month":"","place":"","description":""}]}`.replace('Italy', b.name)
+      const regs = await db.select().from(buildRegions).where(eq(buildRegions.countryId, b.countryId)).orderBy(asc(buildRegions.sort))
+      const regionList = regs.map((r) => `${r.regionId} (${r.data.name})`).join(', ')
+      prompt = `List 35 to 45 of the most notable festivals, national holidays and annual events across ${b.name} a traveller might plan around — the famous ones, the regional gems, and the national holidays. Spread them across the whole year and across regions.
+
+For EACH festival give:
+- name: the festival's name
+- regionId: EXACTLY one id from this list: ${regionList}. For national holidays use the id of the capital's region.
+- regionName: that region's display name
+- month: the month as a NUMBER 1-12 (if it spans months, the main month)
+- dayStart: day of month it starts (number), or null if it varies year to year
+- dayEnd: day it ends (number), or null
+- description: one to two sentences — what it is and why it's special. No markdown.
+- location: the town/city (or "All regions" for national holidays)
+- type: one of CARNIVAL, RELIGIOUS, HISTORICAL, MUSIC, FOOD, CULTURAL, NATIONAL
+- isNational: true only for nationwide public holidays
+
+Respond with ONLY valid JSON, no fences:
+{"festivals":[{"name":"","regionId":"","regionName":"","month":1,"dayStart":null,"dayEnd":null,"description":"","location":"","type":"CULTURAL","isNational":false}]}`
     } else if (topic === 'history') {
       stageNo = 8
       prompt = `Write a concise history guide for ${b.name} as 5 to 7 titled sections spanning antiquity to today. Each: title, body (2 to 4 sentences, plain prose). Respond with ONLY valid JSON, no fences: {"title":"A short history","subtitle":"How ${b.name} came to be","sections":[{"title":"","body":""}]}`
@@ -318,10 +335,42 @@ Respond with ONLY a single valid JSON object, no fences, no preamble. Escape any
       throw fail(400, 'Unknown guide topic')
     }
 
-    const out = await generate(prompt, { maxTokens: 3000 })
-    guides[topic] = out
+    const out = await generate(prompt, { maxTokens: topic === 'festivals' ? 8000 : 3000 })
+
+    if (topic === 'festivals') {
+      const regs = await db.select().from(buildRegions).where(eq(buildRegions.countryId, b.countryId))
+      const regById = Object.fromEntries(regs.map((r) => [r.regionId, r.data.name]))
+      const TYPES = ['CARNIVAL', 'RELIGIOUS', 'HISTORICAL', 'MUSIC', 'FOOD', 'CULTURAL', 'NATIONAL']
+      const firstRegion = regs[0]?.regionId || ''
+      const fests = (Array.isArray(out.festivals) ? out.festivals : []).slice(0, 80).map((f, i) => {
+        const regionId = regById[f.regionId] ? f.regionId : firstRegion
+        const num = (v) => (Number.isFinite(Number(v)) && v !== null && v !== '' ? Number(v) : null)
+        return {
+          id: `f${String(i + 1).padStart(3, '0')}`,
+          name: String(f.name || '').slice(0, 120),
+          regionId,
+          regionName: regById[regionId] || '',
+          month: Math.min(12, Math.max(1, Number(f.month) || 1)),
+          dayStart: num(f.dayStart),
+          dayEnd: num(f.dayEnd),
+          description: String(f.description || '').slice(0, 400),
+          location: String(f.location || '').slice(0, 100),
+          type: TYPES.includes(String(f.type).toUpperCase()) ? String(f.type).toUpperCase() : 'CULTURAL',
+          isNational: !!f.isNational,
+        }
+      }).filter((f) => f.name)
+      guides[topic] = {
+        version: 1,
+        title: 'Festivals & events',
+        subtitle: `${fests.length} celebrations through the year — pick a day to see what's on.`,
+        festivals: fests,
+      }
+    } else {
+      guides[topic] = out
+    }
+
     await db.update(builds).set({ guides, stage: Math.max(b.stage, stageNo), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
-    return send(res, 200, { done: true, topic })
+    return send(res, 200, { done: true, topic, count: topic === 'festivals' ? guides[topic].festivals.length : undefined })
   }
 
   // ── stage 3+4: activities, food & culture for ONE place ─────────────────────
@@ -396,6 +445,15 @@ Respond with ONLY valid JSON, no fences:
       return send(res, 200, { ok: true })
     }
     throw fail(400, 'Unknown patch type')
+  }
+
+  // ── download ONE guide file (drop straight into public/data/{c}/guide/) ─────
+  if (req.method === 'GET' && q.action === 'guidefile') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const g = (b.guides || {})[q.topic]
+    if (!g) throw fail(404, 'That guide has not been generated yet')
+    return send(res, 200, g)
   }
 
   // ── export: assemble the whole build into Italy-shaped files ─────────────────

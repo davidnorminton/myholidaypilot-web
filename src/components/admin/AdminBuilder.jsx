@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
   Globe2, Plus, RefreshCw, Sparkles, ChevronRight, Trash2, ArrowLeft,
-  Pencil, Check, X, MapPin,
-} from 'lucide-react'
+  Pencil, Check, X, MapPin, Download } from 'lucide-react'
 import { api } from '../../lib/api.js'
 
 // The country builder: a staged workspace that drafts a whole country with
@@ -506,6 +505,17 @@ function GuidesPanel({ countryId, build, onSaved }) {
     try { await api.builder.genGuide(countryId, topic); await onSaved() }
     catch (e) { setErr(`${topic}: ${e.message}`) } finally { setBusy('') }
   }
+  const downloadOne = async (topic) => {
+    try {
+      const g = await api.builder.guideFile(countryId, topic)
+      const blob = new Blob([JSON.stringify(g, null, 2)], { type: 'application/json' })
+      const a = document.createElement('a')
+      a.href = URL.createObjectURL(blob)
+      a.download = `${topic}.json`
+      a.click()
+      URL.revokeObjectURL(a.href)
+    } catch (e) { setErr(`${topic}: ${e.message}`) }
+  }
   // Each guide section is generated separately — mirrors the four hub cards
   // (everything except Regions and Plan-a-trip, which aren't AI content).
   const items = [
@@ -528,11 +538,19 @@ function GuidesPanel({ countryId, build, onSaved }) {
                 {has && <span className="bld__done">✓ {count(guides[topic])}</span>}
               </div>
               <p className="bld__guideblurb">{blurb}</p>
-              <button className="btn btn--soft" onClick={() => run(topic)} disabled={!!busy}>
-                {busy === topic ? <><RefreshCw size={13} className="pk__spin" /> Generating…</>
-                  : has ? <><RefreshCw size={13} /> Regenerate</>
-                  : <><Sparkles size={13} /> Generate</>}
-              </button>
+              <div className="bld__guideacts">
+                <button className="btn btn--soft" onClick={() => run(topic)} disabled={!!busy}>
+                  {busy === topic ? <><RefreshCw size={13} className="pk__spin" /> Generating…</>
+                    : has ? <><RefreshCw size={13} /> Regenerate</>
+                    : <><Sparkles size={13} /> Generate</>}
+                </button>
+                {has && (
+                  <button className="btn btn--soft" title={`Download ${topic}.json — drop into public/data/${countryId}/guide/`}
+                    onClick={() => downloadOne(topic)}>
+                    <Download size={13} />
+                  </button>
+                )}
+              </div>
             </div>
           )
         })}
