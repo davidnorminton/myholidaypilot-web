@@ -185,6 +185,124 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     return send(res, 200, { count: places.length, places })
   }
 
+  // ── stage 5: one Unsplash image for ONE place ───────────────────────────────
+  if (req.method === 'POST' && q.action === 'image') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const [pl] = await db.select().from(buildPlaces)
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
+    if (!pl) throw fail(404, 'No such place')
+
+    const rows = await db.select().from(schema.siteSettings)
+    const uKey = Object.fromEntries(rows.map((r) => [r.key, r.value]))['secret.unsplashKey']
+    if (!uKey) throw fail(400, 'Add your Unsplash Access Key in Admin → AI first')
+
+    const query = (pl.data.imageQueries?.[0]) || `${pl.data.name} ${b.name}`
+    const u = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape&content_filter=high`
+    const r = await fetch(u, { headers: { Authorization: `Client-ID ${uKey}` } })
+    if (!r.ok) throw fail(r.status === 401 ? 400 : 502, `Unsplash: ${(await r.text()).slice(0, 160)}`)
+    const j = await r.json()
+    const hit = j.results?.[0]
+    if (!hit) throw fail(502, `No image found for "${query}" — edit the place's image query and retry`)
+    const image = {
+      index: 0, assetPath: '', isLocal: false,
+      url: `${hit.urls.raw}&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080`,
+      credit: hit.user?.name || '',
+    }
+    await db.update(buildPlaces).set({ image, updatedAt: Date.now() })
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
+    await db.update(builds).set({ stage: Math.max(b.stage, 5), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+    return send(res, 200, { done: true, image })
+  }
+
+  // ── stage 6: region restaurants (where to eat) ──────────────────────────────
+  if (req.method === 'POST' && q.action === 'restaurants') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const [reg] = await db.select().from(buildRegions)
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    if (!reg) throw fail(404, 'No such region')
+    const rd = reg.data
+
+    const prompt = `Recommend 12 to 18 notable restaurants across ${rd.name} (${rd.nameIt}), ${b.name} — a spread of towns, price points and cuisines a travel guide would list. Real, well-regarded places.
+
+For EACH: name, address (street + town), neighbourhood (the town/area), cuisine (short), priceRange (one of €, €€, €€€, €€€€), description (one sentence), mustOrder (a signature dish), lat, lng (decimals).
+
+Respond with ONLY valid JSON, no fences:
+{"restaurants":[{"name":"","address":"","neighbourhood":"","cuisine":"","priceRange":"€€","description":"","mustOrder":"","lat":0,"lng":0}]}`
+
+    const out = await generate(prompt, { maxTokens: 4000 })
+    if (!Array.isArray(out.restaurants) || !out.restaurants.length) throw fail(502, 'The model did not return restaurants — try again')
+    const restaurants = out.restaurants.slice(0, 20).map((r, i) => ({
+      number: i + 1, id: `rest_${i + 1}`,
+      name: String(r.name || '').slice(0, 120), address: String(r.address || '').slice(0, 160),
+      neighbourhood: String(r.neighbourhood || '').slice(0, 80), cuisine: String(r.cuisine || '').slice(0, 60),
+      priceRange: ['€', '€€', '€€€', '€€€€'].includes(r.priceRange) ? r.priceRange : '€€',
+      description: String(r.description || '').slice(0, 300), mustOrder: String(r.mustOrder || '').slice(0, 120),
+      lat: Number(r.lat) || 0, lng: Number(r.lng) || 0,
+    })).filter((r) => r.name)
+    const data = { ...rd, restaurants, restaurantCount: restaurants.length }
+    await db.update(buildRegions).set({ data, updatedAt: Date.now() })
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    await db.update(builds).set({ stage: Math.max(b.stage, 6), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+    return send(res, 200, { count: restaurants.length })
+  }
+
+  // ── stage 7: region prose (history, culturalNotes, languageNotes) ───────────
+  if (req.method === 'POST' && q.action === 'regionprose') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const [reg] = await db.select().from(buildRegions)
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    if (!reg) throw fail(404, 'No such region')
+    const rd = reg.data
+
+    const prompt = `For ${rd.name} (${rd.nameIt}), ${b.name}, write three short guide passages, plain prose, no markdown:
+- history: 3 to 4 sentences on the region's past.
+- culturalNotes: 2 to 3 sentences on its character, traditions and what makes it distinct.
+- languageNotes: 1 to 2 sentences on local language, dialect or useful phrases.
+
+Respond with ONLY valid JSON, no fences: {"history":"","culturalNotes":"","languageNotes":""}`
+    const out = await generate(prompt, { maxTokens: 1200 })
+    const data = { ...rd,
+      history: String(out.history || '').slice(0, 2000),
+      culturalNotes: String(out.culturalNotes || '').slice(0, 2000),
+      languageNotes: String(out.languageNotes || '').slice(0, 1000) }
+    await db.update(buildRegions).set({ data, updatedAt: Date.now() })
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    return send(res, 200, { done: true })
+  }
+
+  // ── stages 7–10: country-level guides (festivals/history/food/transport) ────
+  if (req.method === 'POST' && q.action === 'guide') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const topic = q.topic
+    const guides = { ...(b.guides || {}) }
+
+    let prompt, stageNo
+    if (topic === 'festivals') {
+      stageNo = 7
+      prompt = `List 10 to 16 of the most notable festivals and annual events across ${b.name} a traveller might plan around. For each: name, month (e.g. "February" or "June–July"), place (town/region), description (one sentence). Respond with ONLY valid JSON, no fences: {"version":1,"title":"Festivals & events","subtitle":"Italy's calendar of celebrations","festivals":[{"name":"","month":"","place":"","description":""}]}`.replace('Italy', b.name)
+    } else if (topic === 'history') {
+      stageNo = 8
+      prompt = `Write a concise history guide for ${b.name} as 5 to 7 titled sections spanning antiquity to today. Each: title, body (2 to 4 sentences, plain prose). Respond with ONLY valid JSON, no fences: {"title":"A short history","subtitle":"How ${b.name} came to be","sections":[{"title":"","body":""}]}`
+    } else if (topic === 'food') {
+      stageNo = 9
+      prompt = `Write a food & wine guide for ${b.name} as 5 to 7 titled sections (regional cuisines, signature dishes, wines, dining customs). Each: title, body (2 to 4 sentences). Respond with ONLY valid JSON, no fences: {"title":"Food & wine","subtitle":"Eating and drinking across ${b.name}","sections":[{"title":"","body":""}]}`
+    } else if (topic === 'transport') {
+      stageNo = 10
+      prompt = `Write a getting-around guide for ${b.name} as 5 to 7 titled sections (trains, driving, flights, city transport, practical tips). Each: title, body (2 to 4 sentences). Respond with ONLY valid JSON, no fences: {"title":"Getting around","subtitle":"Trains, roads and how to move around ${b.name}","sections":[{"title":"","body":""}]}`
+    } else {
+      throw fail(400, 'Unknown guide topic')
+    }
+
+    const out = await generate(prompt, { maxTokens: 3000 })
+    guides[topic] = out
+    await db.update(builds).set({ guides, stage: Math.max(b.stage, stageNo), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+    return send(res, 200, { done: true, topic })
+  }
+
   // ── stage 3+4: activities, food & culture for ONE place ─────────────────────
   // The client calls this per place so a long region fills in visibly and a
   // failure never loses completed places (each returns done=true on success).

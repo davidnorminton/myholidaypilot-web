@@ -8,6 +8,7 @@ import { api } from '../../lib/api.js'
 export default function AdminAi() {
   const [settings, setSettings] = useState(null)
   const [keyInput, setKeyInput] = useState('')
+  const [unsplashInput, setUnsplashInput] = useState('')
   const [model, setModel] = useState('')
   const [models, setModels] = useState(null)
   const [busy, setBusy] = useState(false)
@@ -22,12 +23,14 @@ export default function AdminAi() {
   }, [])
 
   const savedKeyMask = settings?.['secret.anthropicKey']
+  const savedUnsplashMask = settings?.['secret.unsplashKey']
 
   const save = async () => {
     setBusy(true); setError('')
     try {
       const patch = {}
       if (keyInput.trim()) patch['secret.anthropicKey'] = keyInput.trim()
+      if (unsplashInput.trim()) patch['secret.unsplashKey'] = unsplashInput.trim()
       if (model) patch['ai.model'] = model
       if (Object.keys(patch).length) await api.settings.save(patch)
       const s = await api.settings.getAll()
@@ -65,6 +68,17 @@ export default function AdminAi() {
           value={keyInput} onChange={(e) => setKeyInput(e.target.value)} />
       </label>
 
+      <h3 className="admin-h3" style={{ marginTop: 26 }}><KeyRound size={16} /> Unsplash Access Key</h3>
+      <p className="admin-note">
+        Used by the Country builder to fetch one photo per place. Get a free key at unsplash.com/developers.
+        {savedUnsplashMask ? <> Current key: <code>{savedUnsplashMask}</code></> : ' No key saved yet.'}
+      </p>
+      <label className="admin-field admin-field--full">
+        <span className="admin-field__label">{savedUnsplashMask ? 'Replace Unsplash key' : 'Unsplash Access Key'}</span>
+        <input type="password" autoComplete="off" placeholder="Access Key…"
+          value={unsplashInput} onChange={(e) => setUnsplashInput(e.target.value)} />
+      </label>
+
       <h3 className="admin-h3" style={{ marginTop: 26 }}><Sparkles size={16} /> Model</h3>
       <p className="admin-note">
         Fetched live from the Anthropic API so new models appear automatically. Used by the
@@ -89,7 +103,7 @@ export default function AdminAi() {
       {error && <p className="admin-ai__error">{error}</p>}
 
       <div className="admin__bar" style={{ marginTop: 18 }}>
-        <button className="btn btn--primary" onClick={save} disabled={busy || (!keyInput.trim() && !model)}>
+        <button className="btn btn--primary" onClick={save} disabled={busy || (!keyInput.trim() && !unsplashInput.trim() && !model)}>
           {saved ? <><Check size={15} /> Saved</> : <><Save size={15} /> {busy ? 'Saving…' : 'Save AI settings'}</>}
         </button>
       </div>

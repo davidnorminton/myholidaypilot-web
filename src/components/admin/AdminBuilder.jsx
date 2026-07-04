@@ -159,12 +159,7 @@ function BuildView({ countryId, onBack }) {
         </div>
       </section>
 
-      {regions.length > 0 && (
-        <p className="bld__hint">
-          Stages 2–10 (places, activities, dining, guides) build on these regions — coming as the builder grows.
-          Edit any region above now; your changes are saved to the workspace.
-        </p>
-      )}
+      {regions.length > 0 && <GuidesPanel countryId={countryId} build={build} onSaved={load} />}
     </div>
   )
 }
@@ -224,6 +219,10 @@ function RegionPlaces({ countryId, region, onBack }) {
   const [editing, setEditing] = useState(null)
   const [detailRun, setDetailRun] = useState(null)   // { current: placeId } while looping
   const [detailErr, setDetailErr] = useState('')
+  const [imgRun, setImgRun] = useState(null)
+  const [imgErr, setImgErr] = useState('')
+  const [rstBusy, setRstBusy] = useState(false)
+  const [rstMsg, setRstMsg] = useState('')
   const d = region.data
 
   const load = () => api.builder.region(countryId, region.regionId).then((r) => setPlaces(r.places)).catch(() => setPlaces(false))
@@ -251,6 +250,34 @@ function RegionPlaces({ countryId, region, onBack }) {
       }
     }
     setDetailRun(null)
+  }
+
+  const hasImage = (p) => !!p.image
+  const generateImages = async () => {
+    setImgErr('')
+    const todo = (places || []).filter((p) => !hasImage(p))
+    for (const p of todo) {
+      setImgRun({ current: p.placeId })
+      try {
+        await api.builder.genImage(countryId, region.regionId, p.placeId)
+        const r = await api.builder.region(countryId, region.regionId); setPlaces(r.places)
+      } catch (e) {
+        setImgErr(`Stopped at ${p.data.name}: ${e.message}. Click again to resume — done places are skipped.`)
+        setImgRun(null); return
+      }
+    }
+    setImgRun(null)
+  }
+
+  const generateRestaurants = async () => {
+    setRstBusy(true); setRstMsg('')
+    try { const r = await api.builder.genRestaurants(countryId, region.regionId); setRstMsg(`${r.count} restaurants added ✓`) }
+    catch (e) { setRstMsg(e.message) } finally { setRstBusy(false) }
+  }
+  const generateProse = async () => {
+    setRstBusy(true); setRstMsg('')
+    try { await api.builder.genRegionProse(countryId, region.regionId); setRstMsg('Region history & notes added ✓') }
+    catch (e) { setRstMsg(e.message) } finally { setRstBusy(false) }
   }
 
   const generate = async () => {
@@ -310,11 +337,41 @@ function RegionPlaces({ countryId, region, onBack }) {
         })()}
         {detailErr && <p className="pk__warn">{detailErr}</p>}
 
+        {has && (() => {
+          const done = places.filter(hasImage).length
+          const running = !!imgRun
+          return (
+            <div className="bld__detailbar">
+              <button className="btn btn--soft" onClick={generateImages} disabled={running || busy}>
+                {running ? <><RefreshCw size={14} className="pk__spin" /> Fetching images… ({done}/{places.length})</>
+                  : done === places.length ? <><RefreshCw size={14} /> Refresh missing images (all have one)</>
+                  : done > 0 ? <><Sparkles size={14} /> Continue images ({done}/{places.length})</>
+                  : <><Sparkles size={14} /> Add an image to each place</>}
+              </button>
+              <span className="bld__detailnote">One Unsplash photo per place — ticks as it goes, resumes on failure.</span>
+            </div>
+          )
+        })()}
+        {imgErr && <p className="pk__warn">{imgErr}</p>}
+
+        {has && (
+          <div className="bld__detailbar bld__detailbar--region">
+            <button className="btn btn--soft" onClick={generateRestaurants} disabled={rstBusy}>
+              {rstBusy ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} Places to eat (region)
+            </button>
+            <button className="btn btn--soft" onClick={generateProse} disabled={rstBusy}>
+              {rstBusy ? <RefreshCw size={14} className="pk__spin" /> : <Sparkles size={14} />} History &amp; notes (region)
+            </button>
+            {rstMsg && <span className="bld__detailnote">{rstMsg}</span>}
+          </div>
+        )}
+
         <div className="bld__regions">
           {(places || []).map((p) => (
             <PlaceRow key={p.id} countryId={countryId} regionId={region.regionId} place={p}
               detailed={(p.data.activities || []).length > 0}
-              running={detailRun?.current === p.placeId}
+              image={p.image}
+              running={detailRun?.current === p.placeId || imgRun?.current === p.placeId}
               editing={editing === p.placeId}
               onEdit={() => setEditing(p.placeId)} onClose={() => setEditing(null)}
               onRemove={() => removePlace(p.placeId)} onSaved={load} />
@@ -326,7 +383,7 @@ function RegionPlaces({ countryId, region, onBack }) {
   )
 }
 
-function PlaceRow({ countryId, regionId, place, detailed, running, editing, onEdit, onClose, onRemove, onSaved }) {
+function PlaceRow({ countryId, regionId, place, detailed, image, running, editing, onEdit, onClose, onRemove, onSaved }) {
   const [form, setForm] = useState(place.data)
   const [busy, setBusy] = useState(false)
   useEffect(() => { setForm(place.data) }, [place.id])
@@ -344,6 +401,7 @@ function PlaceRow({ countryId, regionId, place, detailed, running, editing, onEd
         <span className="bld__ptick">
           {running ? <RefreshCw size={15} className="pk__spin" /> : detailed ? <span className="bld__done">✓</span> : <span className="bld__pdot" />}
         </span>
+        <span className="bld__pthumb">{image?.url ? <img src={image.url} alt="" /> : <span className="bld__pthumb--empty" />}</span>
         <span className="bld__rbody">
           <b>{d.name}</b> <span className="bld__rlocal">{d.type?.toLowerCase()}</span>
           <span className="bld__rmeta">
@@ -370,5 +428,38 @@ function PlaceRow({ countryId, regionId, place, detailed, running, editing, onEd
         <button className="btn btn--soft" onClick={onClose}><X size={13} /> Cancel</button>
       </div>
     </div>
+  )
+}
+
+function GuidesPanel({ countryId, build, onSaved }) {
+  const [busy, setBusy] = useState('')
+  const [msg, setMsg] = useState('')
+  const guides = build.guides || {}
+  const run = async (topic) => {
+    setBusy(topic); setMsg('')
+    try { await api.builder.genGuide(countryId, topic); await onSaved(); setMsg(`${topic} guide generated ✓`) }
+    catch (e) { setMsg(e.message) } finally { setBusy('') }
+  }
+  const items = [
+    ['festivals', 'Festivals & events'],
+    ['history', 'History'],
+    ['food', 'Food & wine'],
+    ['transport', 'Getting around'],
+  ]
+  return (
+    <section className="bld__stage">
+      <div className="bld__stagehead"><h3>7–10 · Country guides</h3></div>
+      <p className="admin-note">One call each — the four guide pages every country has.</p>
+      <div className="bld__guides">
+        {items.map(([topic, label]) => (
+          <button key={topic} className="btn btn--soft" onClick={() => run(topic)} disabled={!!busy}>
+            {busy === topic ? <RefreshCw size={14} className="pk__spin" />
+              : guides[topic] ? <RefreshCw size={14} /> : <Sparkles size={14} />}
+            {label}{guides[topic] ? ' ✓' : ''}
+          </button>
+        ))}
+      </div>
+      {msg && <p className="bld__detailnote" style={{ marginTop: 10 }}>{msg}</p>}
+    </section>
   )
 }
