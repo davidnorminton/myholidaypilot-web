@@ -184,15 +184,15 @@ function RegionRow({ countryId, region, editing, onEdit, onClose, onOpen, onSave
 
   if (!editing) {
     return (
-      <div className="bld__region bld__region--click" onClick={onOpen}>
+      <div className="bld__region">
         <span className="bld__remoji">{d.emoji}</span>
         <span className="bld__rbody">
           <b>{d.name}</b> <span className="bld__rlocal">{d.nameIt}</span>
           <span className="bld__rmeta"><MapPin size={11} /> {d.capital} · {region.placeCount ? `${region.placeCount} place${region.placeCount === 1 ? '' : 's'}` : 'no places yet'}</span>
         </span>
         {region.placeCount > 0 && <span className="bld__done">✓</span>}
-        <button className="story__act" onClick={(e) => { e.stopPropagation(); onEdit() }}><Pencil size={13} /> Edit</button>
-        <ChevronRight size={16} />
+        <button className="story__act" onClick={onEdit}><Pencil size={13} /> Edit</button>
+        <button className="btn btn--soft bld__placesbtn" onClick={onOpen}><MapPin size={13} /> Places <ChevronRight size={14} /></button>
       </div>
     )
   }

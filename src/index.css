@@ -2355,3 +2355,5 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .bld__done{color:var(--ok); font-weight:800; font-size:14px}
 .bld__confirm{display:inline-flex; align-items:center; gap:8px; font-size:13px; color:var(--ink-soft)}
 .bld__editgrid textarea{grid-column:1/-1; padding:7px 9px; border:1px solid var(--line); border-radius:8px; background:var(--paper); color:var(--ink); font-size:13.5px; font-family:inherit; resize:vertical}
+
+.bld__placesbtn{padding:6px 10px; font-size:12.5px; display:inline-flex; align-items:center; gap:5px}
