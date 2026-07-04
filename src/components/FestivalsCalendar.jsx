@@ -20,7 +20,7 @@ function dateLabel(f) {
   return `${f.dayStart} ${ms}`
 }
 
-export default function FestivalsCalendar({ festivals, regionMap = {} }) {
+export default function FestivalsCalendar({ festivals, regionMap = {}, country = 'italy' }) {
   const now = new Date()
   const year = now.getFullYear()
   const [month, setMonth] = useState(now.getMonth() + 1) // 1-12
@@ -105,7 +105,7 @@ export default function FestivalsCalendar({ festivals, regionMap = {} }) {
 
       {shown.length > 0 ? (
         <div className="fest-list">
-          {shown.map((f) => <FestCard key={f.id} f={f} region={regionMap[f.regionId]} highlighted={day != null} />)}
+          {shown.map((f) => <FestCard country={country} key={f.id} f={f} region={regionMap[f.regionId]} highlighted={day != null} />)}
         </div>
       ) : (
         <div className="cal__empty"><span className="cal__empty-emoji">🎭</span><p>No events this month.</p></div>
@@ -114,7 +114,7 @@ export default function FestivalsCalendar({ festivals, regionMap = {} }) {
   )
 }
 
-function FestCard({ f, region, highlighted }) {
+function FestCard({ f, region, highlighted, country }) {
   const [open, setOpen] = useState(highlighted)
   return (
     <article className={`fcard ${highlighted ? 'is-hl' : ''}`} onClick={() => setOpen((o) => !o)}>
