@@ -14,7 +14,10 @@
     "db:reset": "rm -f local.db && npm run db:migrate && npm run db:seed",
     "dev:web": "vite",
     "dev:api": "node dev-server.mjs",
-    "lint:hooks": "eslint --config eslint.hooks.config.mjs src --no-warn-ignored"
+    "lint:hooks": "eslint --config eslint.hooks.config.mjs src --no-warn-ignored",
+    "gen:countries": "node scripts/gen-countries.mjs",
+    "prebuild": "node scripts/gen-countries.mjs",
+    "predev": "node scripts/gen-countries.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
