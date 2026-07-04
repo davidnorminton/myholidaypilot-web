@@ -26,6 +26,30 @@ const onDisk = fs.existsSync(dataDir)
 
 const titleCase = (slug) => slug.split(/[_-]+/).map((w) => w[0].toUpperCase() + w.slice(1)).join(' ')
 
+// slug → ISO 3166-1 alpha-2, so flags (and proper names) resolve automatically
+// for any country, even without a countryMeta entry or country.json.
+const ISO = {
+  italy: 'IT', spain: 'ES', portugal: 'PT', france: 'FR', greece: 'GR', united_kingdom: 'GB',
+  united_states: 'US', usa: 'US', japan: 'JP', germany: 'DE', sweden: 'SE', norway: 'NO',
+  denmark: 'DK', finland: 'FI', iceland: 'IS', ireland: 'IE', netherlands: 'NL', belgium: 'BE',
+  luxembourg: 'LU', switzerland: 'CH', austria: 'AT', poland: 'PL', czechia: 'CZ',
+  czech_republic: 'CZ', slovakia: 'SK', hungary: 'HU', slovenia: 'SI', croatia: 'HR',
+  bosnia_and_herzegovina: 'BA', serbia: 'RS', montenegro: 'ME', albania: 'AL',
+  north_macedonia: 'MK', bulgaria: 'BG', romania: 'RO', moldova: 'MD', ukraine: 'UA',
+  estonia: 'EE', latvia: 'LV', lithuania: 'LT', malta: 'MT', cyprus: 'CY', turkey: 'TR',
+  morocco: 'MA', tunisia: 'TN', egypt: 'EG', south_africa: 'ZA', kenya: 'KE', tanzania: 'TZ',
+  canada: 'CA', mexico: 'MX', brazil: 'BR', argentina: 'AR', chile: 'CL', peru: 'PE',
+  colombia: 'CO', ecuador: 'EC', costa_rica: 'CR', cuba: 'CU', china: 'CN', india: 'IN',
+  thailand: 'TH', vietnam: 'VN', cambodia: 'KH', laos: 'LA', malaysia: 'MY', singapore: 'SG',
+  indonesia: 'ID', philippines: 'PH', south_korea: 'KR', taiwan: 'TW', australia: 'AU',
+  new_zealand: 'NZ', fiji: 'FJ', israel: 'IL', jordan: 'JO', united_arab_emirates: 'AE',
+  saudi_arabia: 'SA', qatar: 'QA', oman: 'OM', georgia: 'GE', armenia: 'AM', azerbaijan: 'AZ',
+  russia: 'RU', kazakhstan: 'KZ', uzbekistan: 'UZ', mongolia: 'MN', nepal: 'NP',
+  sri_lanka: 'LK', maldives: 'MV', madagascar: 'MG', mauritius: 'MU', seychelles: 'SC',
+}
+const isoFlag = (code) => code ? String.fromCodePoint(...[...code].map((c) => 0x1F1A5 + c.charCodeAt(0))) : ''
+const isoName = (code) => { try { return new Intl.DisplayNames(['en'], { type: 'region' }).of(code) } catch { return '' } }
+
 // curated order first; then any data folders not in the meta list, alphabetically
 const known = COUNTRY_META.map((m) => ({
   ...m,
@@ -35,13 +59,14 @@ const extras = onDisk
   .filter((slug) => !COUNTRY_META.some((m) => m.slug === slug))
   .sort()
   .map((slug) => {
-    // prefer the metadata set in the builder (written by import-country.mjs)
+    // precedence: builder-set country.json → ISO lookup → title-case + globe
     let cj = {}
     try { cj = JSON.parse(fs.readFileSync(path.join(dataDir, slug, 'country.json'), 'utf8')) } catch { /* older imports */ }
+    const iso = ISO[slug]
     return {
       slug,
-      name: cj.name || titleCase(slug),
-      flag: cj.flag || '\u{1F30D}',
+      name: cj.name || (iso && isoName(iso)) || titleCase(slug),
+      flag: cj.flag || (iso && isoFlag(iso)) || '\u{1F30D}',
       blurb: cj.blurb || 'Mapped region by region.',
       available: !HIDDEN.includes(slug),
     }

@@ -1,0 +1,1620 @@
+{
+  "id": "arctic_norway",
+  "name": "Arctic Norway",
+  "nameIt": "Finnmark og Svalbard",
+  "capital": "Honningsvåg",
+  "lat": 70.9,
+  "lng": 25.5,
+  "emoji": "❄️",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": 81,
+    "south": 70,
+    "east": 35,
+    "west": 20
+  },
+  "history": "Arctic Norway's far north was inhabited by the Sami people for millennia, who developed a distinctive culture adapted to reindeer herding and fishing across the circumpolar landscape. Norwegian settlement intensified during the medieval period, particularly around fishing communities in Finnmark, while Svalbard remained largely unexplored until the early 17th century. The region became strategically important during the Cold War due to its proximity to the Soviet Union, leading to fortified settlements and military presence that shaped modern development. Today, Finnmark and Svalbard stand as symbols of Norway's Arctic identity, with communities resilient against harsh conditions and geographic isolation.",
+  "culturalNotes": "The Sami heritage remains central to Arctic Norway's identity, visible in traditional clothing, joik singing, and reindeer herding practices that continue in Finnmark's interior. The midnight sun and polar night create a unique rhythm of life, influencing everything from daily routines to festivals and the region's spiritual connection to the landscape. Arctic communities are known for their warmth and strong sense of togetherness, reflected in local food traditions like Arctic char and king crab, and a deep respect for the natural environment that sustains them.",
+  "bestTimeToVisit": "March to April for Northern Lights and dog sledding, or June to August for the midnight sun.",
+  "languageNotes": "Norwegian is the primary language, but Northern Sami is spoken by indigenous communities and holds official minority status in parts of Finnmark. Learning basic Norwegian phrases like \"Hei, hvordan går det?\" (Hello, how are you?) and \"Takk\" (Thank you) is appreciated, though English is widely understood in tourist areas and among younger residents.",
+  "generatedAt": "2026-07-04T21:41:51.129Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "troms",
+      "name": "Tromsø",
+      "nameIt": "Tromsø",
+      "lat": 69.6492,
+      "lng": 18.9553,
+      "type": "CITY",
+      "description": "Norway's largest city in the Arctic, famous as the gateway to northern lights viewing and home to the stunning Arctic Cathedral. It offers excellent restaurants, museums, and serves as a hub for dog sledding, whale watching, and aurora tours.",
+      "imageQueries": [
+        "Tromsø Arctic Cathedral night",
+        "Tromsø northern lights city"
+      ],
+      "activities": [
+        {
+          "id": "trom_1",
+          "text": "Northern Lights Hunting",
+          "detail": "Join a guided aurora tour during winter months (September to March) to chase the dancing green lights across the Arctic sky from dark locations outside the city.",
+          "lat": 69.6492,
+          "lng": 18.9553
+        },
+        {
+          "id": "trom_2",
+          "text": "Arctic Cathedral (Ishavskatedralen)",
+          "detail": "Visit this iconic modernist cathedral with its striking white triangular architecture, located on the eastern side of the fjord and best photographed at sunset or under the Northern Lights.",
+          "lat": 69.6528,
+          "lng": 19.0329
+        },
+        {
+          "id": "trom_3",
+          "text": "Dog Sledding Expedition",
+          "detail": "Experience traditional Arctic dog sledding across snowy terrain with experienced mushers who guide teams of huskies through the winter landscape.",
+          "lat": 69.6492,
+          "lng": 18.9553
+        },
+        {
+          "id": "trom_4",
+          "text": "Whale Watching Safari",
+          "detail": "Embark on a boat tour (October to January) to spot humpback and killer whales feeding in the fjords around Tromsø.",
+          "lat": 69.6492,
+          "lng": 18.9553
+        },
+        {
+          "id": "trom_5",
+          "text": "Polaria Arctic Experience Centre",
+          "detail": "Explore interactive exhibits about Arctic wildlife, climate, and Sami culture, plus watch the aquarium featuring Arctic fish species in this distinctive building.",
+          "lat": 69.6478,
+          "lng": 19.0203
+        },
+        {
+          "id": "trom_6",
+          "text": "Cable Car to Fjellheisen",
+          "detail": "Ride the scenic cable car 421 meters up Tromsøhalvøya mountain for panoramic views of the city, fjords, and islands, especially stunning during twilight hours.",
+          "lat": 69.6667,
+          "lng": 19.0167
+        },
+        {
+          "id": "trom_7",
+          "text": "Tromsø Brewery and Distillery Tours",
+          "detail": "Visit local craft breweries and the Arctic Vodka distillery to taste spirits and beers made with Arctic ingredients and pure glacial water.",
+          "lat": 69.6492,
+          "lng": 18.9553
+        }
+      ],
+      "food": [
+        {
+          "id": "trom_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Sample this prized Arctic delicacy, typically served boiled or grilled, sourced fresh from the Barents Sea and featured prominently on local menus."
+        },
+        {
+          "id": "trom_f2",
+          "text": "Arctic Char (Røye)",
+          "detail": "Enjoy this delicate white fish native to Arctic waters, often prepared simply with butter and herbs to highlight its subtle flavor."
+        },
+        {
+          "id": "trom_f3",
+          "text": "Reindeer Stew (Finnbiff)",
+          "detail": "Try this traditional Sami dish of tender reindeer meat braised with sour cream, mushrooms, and lingonberries, served with flatbread or mashed potatoes."
+        },
+        {
+          "id": "trom_f4",
+          "text": "Sea Urchin (Sjøpølse)",
+          "detail": "Experience this local specialty, eaten fresh from the shell with a squeeze of lemon, harvested from the cold fjord waters around Tromsø."
+        },
+        {
+          "id": "trom_f5",
+          "text": "Arctic Cloudberries (Multebær)",
+          "detail": "Taste these golden berries unique to Nordic tundras, typically served as desserts, jams, or in traditional sweet dishes during late summer."
+        },
+        {
+          "id": "trom_f6",
+          "text": "Bacalao (Dried Stockfish Stew)",
+          "detail": "Enjoy this hearty winter comfort dish of rehydrated stockfish cooked with tomatoes and potatoes, reflecting Tromsø's fishing heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "trom_c1",
+          "text": "Embrace Polar Night and Midnight Sun",
+          "detail": "Understand that Tromsø experiences complete darkness from November to January (polar night) and 24-hour daylight from May to July, which profoundly shapes local life and activities."
+        },
+        {
+          "id": "trom_c2",
+          "text": "Respect Sami Heritage",
+          "detail": "Acknowledge that Tromsø sits in traditional Sami lands; seek out Sami-owned businesses, cultural events, and exhibitions to learn about indigenous Arctic culture respectfully."
+        },
+        {
+          "id": "trom_c3",
+          "text": "Dress Extremely Warmly",
+          "detail": "Winter temperatures drop to -15°C or lower; locals wear multiple layers, insulated jackets, thermal underwear, and quality Arctic gear—inadequate clothing makes outdoor activities miserable."
+        },
+        {
+          "id": "trom_c4",
+          "text": "Book Tours and Activities in Advance",
+          "detail": "Tromsø's small population and Arctic location mean popular aurora tours, dog sledding, and whale watching fill quickly, especially during peak season from November to January."
+        }
+      ]
+    },
+    {
+      "id": "nordkapp",
+      "name": "North Cape",
+      "nameIt": "Nordkapp",
+      "lat": 70.8116,
+      "lng": 25.6475,
+      "type": "LANDMARK",
+      "description": "The northernmost point of Europe accessible by road, situated on a dramatic cliff face at 71 degrees north. It is an iconic pilgrimage destination offering midnight sun in summer and extraordinary views of the Arctic landscape.",
+      "imageQueries": [
+        "North Cape Nordkapp cliff monument",
+        "Nordkapp midnight sun"
+      ],
+      "activities": [
+        {
+          "id": "nord_1",
+          "text": "Visit the North Cape Monument",
+          "detail": "Stand at Europe's northernmost point on the iconic globe sculpture at the cliff edge, marking 71°10'21\" north latitude.",
+          "lat": 70.8119,
+          "lng": 25.6452
+        },
+        {
+          "id": "nord_2",
+          "text": "Midnight Sun viewing",
+          "detail": "Experience the sun circling the horizon without setting from May to July, a phenomenon unique to high Arctic latitudes.",
+          "lat": 70.8119,
+          "lng": 25.6452
+        },
+        {
+          "id": "nord_3",
+          "text": "North Cape Hall exhibition",
+          "detail": "Explore the underground multimedia museum showcasing Arctic history, Sámi culture, and the region's natural phenomena.",
+          "lat": 70.8115,
+          "lng": 25.6445
+        },
+        {
+          "id": "nord_4",
+          "text": "Nordkapp plateau hike",
+          "detail": "Trek across the Arctic tundra landscape around the plateau to experience raw, windswept Arctic terrain and wildlife viewing opportunities.",
+          "lat": 70.81,
+          "lng": 25.64
+        },
+        {
+          "id": "nord_5",
+          "text": "Barents Sea cliff walk",
+          "detail": "Walk along the dramatic 307-meter cliffs overlooking the Barents Sea, offering panoramic Arctic vistas and seabird colonies."
+        },
+        {
+          "id": "nord_6",
+          "text": "Northern Lights hunting",
+          "detail": "Join aurora borealis expeditions from September to March when dark skies provide optimal conditions for viewing the green celestial displays."
+        },
+        {
+          "id": "nord_7",
+          "text": "Visit Nordkapp Chapel",
+          "detail": "Pay respects at the small white chapel near the monument, dedicated to those lost at sea and symbolizing hope in the Arctic wilderness.",
+          "lat": 70.812,
+          "lng": 25.6435
+        }
+      ],
+      "food": [
+        {
+          "id": "nord_f1",
+          "text": "King Crab (Kamsjøkrabben)",
+          "detail": "Fresh Arctic king crab harvested from Barents Sea waters, typically served boiled with melted butter and local bread at waterfront restaurants."
+        },
+        {
+          "id": "nord_f2",
+          "text": "Arctic Char",
+          "detail": "Delicate white fish native to Arctic waters, often prepared simply grilled or smoked to highlight its rich, clean flavor."
+        },
+        {
+          "id": "nord_f3",
+          "text": "Sámi Traditional Meat Stew",
+          "detail": "Hearty reindeer or Arctic game stew slow-cooked with lingonberries and juniper, reflecting indigenous culinary traditions of the region."
+        },
+        {
+          "id": "nord_f4",
+          "text": "Stockfish (Klippfisk)",
+          "detail": "Dried Arctic cod that has been prepared this way for centuries, reconstituted and served in traditional Norwegian fish cakes or stews."
+        },
+        {
+          "id": "nord_f5",
+          "text": "Midnight Sun Salmon",
+          "detail": "Fresh salmon caught during the midnight sun season, grilled under the 24-hour daylight for a unique dining experience."
+        },
+        {
+          "id": "nord_f6",
+          "text": "Arctic Berry Desserts",
+          "detail": "Local cloudberries, lingonberries, and sea buckthorn incorporated into creams, tarts, and traditional Norwegian desserts celebrating Arctic harvests."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nord_c1",
+          "text": "Respect Sámi heritage",
+          "detail": "The North Cape region is traditional Sámi homeland; seek out authentic Sámi experiences and support indigenous-owned businesses and cultural centers."
+        },
+        {
+          "id": "nord_c2",
+          "text": "Prepare for extreme weather",
+          "detail": "Arctic conditions change rapidly with sudden storms, strong winds, and limited visibility; dress in multiple layers and check forecasts before outdoor activities."
+        },
+        {
+          "id": "nord_c3",
+          "text": "Embrace the seasonal extremes",
+          "detail": "Summer visitors experience 24-hour daylight while winter brings polar night; plan activities accordingly and understand these are defining features of Arctic life."
+        },
+        {
+          "id": "nord_c4",
+          "text": "Book accommodations early",
+          "detail": "North Cape is remote with limited lodging; summer midnight sun season and winter aurora season fill quickly, requiring advance reservations months ahead."
+        }
+      ]
+    },
+    {
+      "id": "longyearbyen",
+      "name": "Longyearbyen",
+      "nameIt": "Longyearbyen",
+      "lat": 78.2232,
+      "lng": 15.6267,
+      "type": "TOWN",
+      "description": "The largest settlement in Svalbard, a Norwegian archipelago deep in the Arctic with unique governance and a frontier atmosphere. It is a gateway to polar wildlife, dog sledding, snowmobiling, and has a distinctive Arctic character unlike anywhere else in Norway.",
+      "imageQueries": [
+        "Longyearbyen Svalbard settlement",
+        "Longyearbyen arctic town snow"
+      ],
+      "activities": [
+        {
+          "id": "long_1",
+          "text": "Dog Sledding",
+          "detail": "Experience traditional Arctic dog sledding across snowy terrain, a quintessential Svalbard winter activity offered by local mushers from November to April.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        },
+        {
+          "id": "long_2",
+          "text": "Snowmobiling Expeditions",
+          "detail": "Rent a snowmobile to explore vast frozen landscapes, glaciers, and remote valleys surrounding Longyearbyen during the winter months.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        },
+        {
+          "id": "long_3",
+          "text": "Global Seed Vault Tour",
+          "detail": "Visit the Svalbard Global Seed Vault built into a mountainside, a fascinating archive preserving crop diversity for humanity's future.",
+          "lat": 78.2416,
+          "lng": 15.5289
+        },
+        {
+          "id": "long_4",
+          "text": "Northern Lights Viewing",
+          "detail": "Hunt for the aurora borealis during polar night from September to March, often from guided tours or simply stepping outside town on clear nights.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        },
+        {
+          "id": "long_5",
+          "text": "Svalbard Museum",
+          "detail": "Explore exhibits on Arctic wildlife, mining history, and local culture in this compact museum showcasing the archipelago's unique heritage.",
+          "lat": 78.221,
+          "lng": 15.647
+        },
+        {
+          "id": "long_6",
+          "text": "Polar Bear Safaris",
+          "detail": "Join guided boat or snowmobile expeditions beyond town to spot polar bears and other Arctic wildlife in their natural habitat.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        },
+        {
+          "id": "long_7",
+          "text": "Isbjørnbutikken Brewery Tour",
+          "detail": "Visit the Arctic microbrewery to sample locally-crafted beers made specifically for Arctic conditions and the unique frontier culture.",
+          "lat": 78.222,
+          "lng": 15.646
+        }
+      ],
+      "food": [
+        {
+          "id": "long_f1",
+          "text": "King Crab",
+          "detail": "Fresh Arctic king crab caught from Barents Sea waters, typically served simply boiled or in pasta dishes at local restaurants."
+        },
+        {
+          "id": "long_f2",
+          "text": "Arctic Char",
+          "detail": "Locally-caught cold-water fish with delicate pink flesh, often smoked or pan-seared and served with root vegetables."
+        },
+        {
+          "id": "long_f3",
+          "text": "Svalbard Reindeer",
+          "detail": "Tender local reindeer meat prepared as steaks, stews, or traditional dishes reflecting Sámi and Norse culinary traditions."
+        },
+        {
+          "id": "long_f4",
+          "text": "Seaweed Bread",
+          "detail": "Distinctive dark bread incorporating Arctic seaweed, a unique Longyearbyen specialty found in local bakeries."
+        },
+        {
+          "id": "long_f5",
+          "text": "Arctic Cloudberries",
+          "detail": "Golden foraged berries served fresh in summer or as jams and desserts year-round, a prized local delicacy."
+        },
+        {
+          "id": "long_f6",
+          "text": "Bacalao",
+          "detail": "Salt-cured Arctic cod prepared in traditional Norwegian style, reflecting historical ties to fishing communities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "long_c1",
+          "text": "Polar Bear Awareness",
+          "detail": "Carry a rifle or join a guide when venturing outside town limits; polar bears are a genuine hazard and locals take precautions seriously."
+        },
+        {
+          "id": "long_c2",
+          "text": "Frontier Mentality",
+          "detail": "Longyearbyen maintains a unique 'anything goes' atmosphere with liberal immigration laws and a young, transient population seeking adventure."
+        },
+        {
+          "id": "long_c3",
+          "text": "No Burials Allowed",
+          "detail": "Due to permafrost, the dead cannot be buried; locals are traditionally cremated or flown to mainland Norway, a striking local reality."
+        },
+        {
+          "id": "long_c4",
+          "text": "Extreme Seasons",
+          "detail": "Prepare mentally for polar night (November–January) with continuous darkness and midnight sun (May–July) with 24-hour daylight affecting sleep and mood."
+        }
+      ]
+    },
+    {
+      "id": "hammerfest",
+      "name": "Hammerfest",
+      "nameIt": "Hammerfest",
+      "lat": 70.9789,
+      "lng": 23.6794,
+      "type": "CITY",
+      "description": "One of the world's northernmost cities, Hammerfest combines Arctic culture with maritime heritage and is known for king crab fishing and northern lights. The charming harbor town offers authentic coastal experiences and serves as a stop on the North Cape route.",
+      "imageQueries": [
+        "Hammerfest harbor Arctic city",
+        "Hammerfest northern lights"
+      ],
+      "activities": [
+        {
+          "id": "hamm_1",
+          "text": "Northern Lights Hunting",
+          "detail": "Chase the aurora borealis from September to March in one of the world's best viewing locations, with guided tours departing from the harbor.",
+          "lat": 70.9836,
+          "lng": 25.6452
+        },
+        {
+          "id": "hamm_2",
+          "text": "King Crab Safari",
+          "detail": "Join a fishing expedition to catch and taste fresh king crab directly from the Arctic waters surrounding Hammerfest.",
+          "lat": 70.9836,
+          "lng": 25.6452
+        },
+        {
+          "id": "hamm_3",
+          "text": "Hammerfest Museum",
+          "detail": "Explore Arctic indigenous Sámi culture, maritime history, and local Arctic wildlife exhibits in this compact heritage museum.",
+          "lat": 70.9847,
+          "lng": 25.6473
+        },
+        {
+          "id": "hamm_4",
+          "text": "Midnight Sun Viewing",
+          "detail": "Experience the continuous daylight from May to July by hiking or walking along the harbor and surrounding hills at any hour.",
+          "lat": 70.9836,
+          "lng": 25.6452
+        },
+        {
+          "id": "hamm_5",
+          "text": "Melkøya Island LNG Plant Tour",
+          "detail": "Visit the striking industrial facility on the island just offshore to understand Hammerfest's role in Arctic energy production.",
+          "lat": 70.9915,
+          "lng": 25.6692
+        },
+        {
+          "id": "hamm_6",
+          "text": "Kvaløya Island Exploration",
+          "detail": "Drive or boat to the nearby island to hike Arctic tundra terrain and spot reindeer herds and sea eagles.",
+          "lat": 70.95,
+          "lng": 25.5
+        }
+      ],
+      "food": [
+        {
+          "id": "hamm_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Fresh Arctic king crab served simply boiled with butter and bread, showcasing the sweet, tender meat caught in local waters."
+        },
+        {
+          "id": "hamm_f2",
+          "text": "Bacalao (Dried Salted Cod)",
+          "detail": "Traditional Norwegian preparation of salted and dried Arctic cod, rehydrated and served in stews or with vegetables, reflecting centuries of maritime food preservation."
+        },
+        {
+          "id": "hamm_f3",
+          "text": "Arctic Char (Røye)",
+          "detail": "Delicate freshwater fish sourced from Arctic rivers, often pan-fried or smoked and served with local herbs."
+        },
+        {
+          "id": "hamm_f4",
+          "text": "Sámi Meat Stew (Finnbiff)",
+          "detail": "Traditional indigenous stew made with reindeer meat, sour cream, and lingonberries, honoring the region's Sámi heritage."
+        },
+        {
+          "id": "hamm_f5",
+          "text": "Cloudberry Dessert (Multekrem)",
+          "detail": "Whipped cloudberries from Arctic bogs folded with cream and sugar, a delicate local delicacy available in summer months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hamm_c1",
+          "text": "Dress for Extreme Cold",
+          "detail": "Even in summer, bring waterproof, insulated layers as Arctic wind and sudden weather changes are constant; winter temperatures drop to -10°C or below."
+        },
+        {
+          "id": "hamm_c2",
+          "text": "Respect Sámi Heritage",
+          "detail": "The indigenous Sámi people have inhabited this Arctic region for centuries; seek out authentic Sámi cultural experiences and avoid treating their traditions as mere curiosities."
+        },
+        {
+          "id": "hamm_c3",
+          "text": "Plan Around Daylight Extremes",
+          "detail": "In summer (May–July) the sun never sets, while in winter (November–January) there are only a few hours of twilight; adjust sleep and activity schedules accordingly."
+        },
+        {
+          "id": "hamm_c4",
+          "text": "Book Tours in Advance",
+          "detail": "Northern lights tours, king crab safaris, and other seasonal activities fill quickly, especially in peak aurora season (September–March), so reserve early."
+        }
+      ]
+    },
+    {
+      "id": "alta",
+      "name": "Alta",
+      "nameIt": "Alta",
+      "lat": 69.975,
+      "lng": 23.2711,
+      "type": "TOWN",
+      "description": "Famous for its exceptional northern lights visibility and home to ancient rock carvings dating back 6,000 years at Hjemmeluft. The town offers excellent aurora viewing conditions, rafting on the Alta River, and important Sámi cultural heritage.",
+      "imageQueries": [
+        "Alta northern lights aurora",
+        "Alta rock carvings Hjemmeluft"
+      ],
+      "activities": [
+        {
+          "id": "alta_1",
+          "text": "Northern Lights Viewing",
+          "detail": "Alta sits well within the aurora oval and offers some of Norway's best chances to see the Northern Lights from September through March, with numerous guided tours and lodges optimized for viewing.",
+          "lat": 69.9667,
+          "lng": 23.0833
+        },
+        {
+          "id": "alta_2",
+          "text": "Hjemmeluft Rock Carvings",
+          "detail": "Visit this UNESCO World Heritage site featuring ancient petroglyphs and rock carvings dating back 6,000 years, showcasing Stone Age and Bronze Age hunting scenes.",
+          "lat": 69.9483,
+          "lng": 23.0317
+        },
+        {
+          "id": "alta_3",
+          "text": "Alta River Rafting",
+          "detail": "Experience thrilling whitewater rafting on the Alta River, which offers rapids suitable for various skill levels during the summer season.",
+          "lat": 69.9667,
+          "lng": 23.0833
+        },
+        {
+          "id": "alta_4",
+          "text": "Sámi Culture Experience",
+          "detail": "Learn about indigenous Sámi traditions, reindeer herding, and traditional lavvu (Sámi tent) life at local cultural centers and camps around Alta.",
+          "lat": 69.9667,
+          "lng": 23.0833
+        },
+        {
+          "id": "alta_5",
+          "text": "Alta Museum",
+          "detail": "Explore exhibitions on local history, indigenous Sámi heritage, and the Northern Lights phenomenon at this comprehensive regional museum.",
+          "lat": 69.9717,
+          "lng": 23.0917
+        },
+        {
+          "id": "alta_6",
+          "text": "Arctic Fishing",
+          "detail": "Fish for arctic char and other species in the pristine rivers and lakes surrounding Alta during summer months."
+        },
+        {
+          "id": "alta_7",
+          "text": "Midnight Sun Hiking",
+          "detail": "Hike through landscapes bathed in continuous daylight during summer months, typically June through July, with stunning views of surrounding mountains and fjords."
+        }
+      ],
+      "food": [
+        {
+          "id": "alta_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Fresh king crab harvested from Arctic waters is a local specialty often served boiled with bread and butter or in traditional seafood dishes at Alta's restaurants."
+        },
+        {
+          "id": "alta_f2",
+          "text": "Arctic Char",
+          "detail": "This delicate freshwater fish native to northern Norwegian rivers is prepared grilled, smoked, or in creamy sauces and is considered a regional delicacy."
+        },
+        {
+          "id": "alta_f3",
+          "text": "Sámi Traditional Cuisine (Finnbiff)",
+          "detail": "This traditional Scandinavian-Sámi stew made with reindeer meat, sour cream, and lingonberries reflects the indigenous heritage and is served in local restaurants and cultural venues."
+        },
+        {
+          "id": "alta_f4",
+          "text": "Stockfish (Klippfisk)",
+          "detail": "Traditionally dried and salted Arctic fish that has been a staple in northern Norwegian cuisine for centuries, often rehydrated and prepared in traditional recipes."
+        },
+        {
+          "id": "alta_f5",
+          "text": "Cloudberry Desserts",
+          "detail": "Local cloudberries, a rare Arctic fruit, are featured in jams, desserts, and traditional sweet dishes that showcase the region's unique wild flora."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alta_c1",
+          "text": "Plan Northern Lights Trips September to March",
+          "detail": "The aurora season in Alta runs from September through March, with December and January offering the longest dark nights and highest probability of sightings."
+        },
+        {
+          "id": "alta_c2",
+          "text": "Respect Sámi Traditions and Sacred Sites",
+          "detail": "The region is home to indigenous Sámi people; visitors should show respect for their cultural sites, reindeer herds, and traditional practices by following local guidelines."
+        },
+        {
+          "id": "alta_c3",
+          "text": "Prepare for Extreme Weather and Darkness",
+          "detail": "Winter temperatures drop well below freezing and the region experiences polar night in winter; proper Arctic gear and mental preparation for darkness are essential."
+        },
+        {
+          "id": "alta_c4",
+          "text": "Learn Basic Norwegian Phrases",
+          "detail": "While English is widely spoken in tourist areas, learning basic Norwegian greetings and phrases shows respect and enhances interactions with locals in this remote Arctic community."
+        }
+      ]
+    },
+    {
+      "id": "nordkapp_plateau",
+      "name": "North Cape Plateau",
+      "nameIt": "Nordkapplatået",
+      "lat": 70.8133,
+      "lng": 25.6456,
+      "type": "NATURE",
+      "description": "The windswept Arctic plateau surrounding North Cape, offering stark tundra landscapes and access to the northernmost point of continental Europe. The area provides dramatic hiking opportunities and views of the Barents Sea stretching to the horizon.",
+      "imageQueries": [
+        "North Cape plateau tundra landscape",
+        "Nordkapplatået Arctic terrain"
+      ],
+      "activities": [
+        {
+          "id": "nord_1",
+          "text": "Visit North Cape Monument",
+          "detail": "Stand at the iconic globe monument marking Europe's northernmost point on the mainland, accessible by vehicle or a challenging hike across the plateau.",
+          "lat": 70.8121,
+          "lng": 25.6476
+        },
+        {
+          "id": "nord_2",
+          "text": "Hike the Nordkapplatået Trail",
+          "detail": "Trek across the windswept tundra plateau with panoramic views of the Barents Sea and Arctic landscape, with routes ranging from easy walks to full-day expeditions."
+        },
+        {
+          "id": "nord_3",
+          "text": "Witness the Midnight Sun",
+          "detail": "Experience the continuous daylight from mid-May to late July when the sun never dips below the horizon, creating surreal 24-hour daylight conditions."
+        },
+        {
+          "id": "nord_4",
+          "text": "Observe Northern Lights",
+          "detail": "Return during autumn and winter months (September to March) to watch the Aurora Borealis dance across the Arctic sky from this northern vantage point."
+        },
+        {
+          "id": "nord_5",
+          "text": "Visit Nordkapp Hall",
+          "detail": "Explore the visitor center built inside the plateau featuring exhibitions on Arctic culture, geology, and indigenous Sámi heritage with café and gift shop.",
+          "lat": 70.8116,
+          "lng": 25.6454
+        },
+        {
+          "id": "nord_6",
+          "text": "Birdwatching at Gjesvær Islands",
+          "detail": "Take a boat trip to nearby islands to observe Arctic seabirds including puffins, eagles, and guillemots nesting on dramatic cliff faces.",
+          "lat": 70.8833,
+          "lng": 25.6167
+        },
+        {
+          "id": "nord_7",
+          "text": "Photography Safari",
+          "detail": "Capture dramatic Arctic landscapes, wildlife, and seasonal light phenomena with guided photography tours tailored to capture the plateau's extreme beauty."
+        }
+      ],
+      "food": [
+        {
+          "id": "nord_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Fresh Arctic king crab harvested from the Barents Sea, typically served boiled with bread and local butter in restaurant and market stalls."
+        },
+        {
+          "id": "nord_f2",
+          "text": "Arctic Char",
+          "detail": "Locally caught cold-water fish with delicate flavor, often smoked or prepared simply with lemon and herbs at traditional Norwegian restaurants on the plateau."
+        },
+        {
+          "id": "nord_f3",
+          "text": "Sámi Reindeer Meat (Reinsdyrkjøtt)",
+          "detail": "Traditional dish from indigenous Sámi culture, served as steaks, stews, or dried as a regional specialty in local establishments."
+        },
+        {
+          "id": "nord_f4",
+          "text": "Salt Cod (Klippfisk)",
+          "detail": "Dried and salted Arctic cod prepared traditionally by local communities, a historical staple that remains available at heritage restaurants and markets."
+        },
+        {
+          "id": "nord_f5",
+          "text": "Arctic Cloudberries (Molter)",
+          "detail": "Golden berries foraged from the tundra during late summer, served fresh with cream as dessert or preserved as jams and liqueurs unique to the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nord_c1",
+          "text": "Dress for Extreme Weather",
+          "detail": "The plateau's weather changes rapidly and temperatures plummet; bring multiple layers, waterproof gear, and wind-resistant clothing even in summer months."
+        },
+        {
+          "id": "nord_c2",
+          "text": "Respect Sámi Heritage",
+          "detail": "The region is traditional Sámi indigenous land; visit cultural centers and museums respectfully, support Sámi-owned businesses, and learn about reindeer herding practices."
+        },
+        {
+          "id": "nord_c3",
+          "text": "Plan Around Daylight Cycles",
+          "detail": "Summer visits offer continuous daylight which disrupts sleep patterns, while winter darkness demands flexible scheduling around brief twilight hours and aurora activity."
+        },
+        {
+          "id": "nord_c4",
+          "text": "Book Accommodations Early",
+          "detail": "The remote location has limited lodging; reserve hotels and guided tours months in advance, especially during Midnight Sun season (May-July) and aurora season (September-March)."
+        }
+      ]
+    },
+    {
+      "id": "svalbard_wildlife",
+      "name": "Svalbard Wildlife",
+      "nameIt": "Svalbard Dyreliv",
+      "lat": 78.2232,
+      "lng": 15.6267,
+      "type": "NATURE",
+      "description": "Svalbard is renowned for pristine Arctic wildlife including polar bears, walruses, arctic foxes, and numerous seabird colonies. Guided expeditions by boat and snowmobile offer unparalleled opportunities to see these creatures in their natural habitat.",
+      "imageQueries": [
+        "Svalbard polar bear wildlife",
+        "Svalbard walrus arctic expedition"
+      ],
+      "activities": [
+        {
+          "id": "sval_1",
+          "text": "Polar Bear Safaris by Snowmobile",
+          "detail": "Join guided snowmobile expeditions across the frozen tundra to track polar bears in their natural habitat, typically departing from Longyearbyen during winter months.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        },
+        {
+          "id": "sval_2",
+          "text": "Walrus Haul-out Boat Tours",
+          "detail": "Take boat expeditions to Storfjorden and the eastern coasts to observe massive walrus colonies hauled out on ice floes and rocky shores.",
+          "lat": 78.1044,
+          "lng": 17.0349
+        },
+        {
+          "id": "sval_3",
+          "text": "Birdwatching at Hornstund",
+          "detail": "Visit this dramatic bird cliff sanctuary home to thousands of guillemots, kittiwakes, and puffins nesting on steep rock faces during summer months.",
+          "lat": 77.4167,
+          "lng": 15.5667
+        },
+        {
+          "id": "sval_4",
+          "text": "Arctic Fox Observation Hikes",
+          "detail": "Hike the tundra landscape around Longyearbyen and nearby valleys to spot arctic foxes hunting lemmings and scavenging along the coast.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        },
+        {
+          "id": "sval_5",
+          "text": "Beluga Whale Boat Cruises",
+          "detail": "Embark on summer boat trips to fjords like Isbjørnhamna where belugas congregate in shallow waters to feed and breed.",
+          "lat": 78.3044,
+          "lng": 16.1833
+        },
+        {
+          "id": "sval_6",
+          "text": "Reindeer Herding Expeditions",
+          "detail": "Join guided snowmobile or hiking tours to encounter wild Svalbard reindeer herds that roam the Arctic tundra year-round.",
+          "lat": 78.2232,
+          "lng": 15.6267
+        }
+      ],
+      "food": [
+        {
+          "id": "sval_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Fresh Arctic king crab harvested from Barents Sea waters, served grilled or boiled at local restaurants like Svalbardbutikken, is a prized local delicacy."
+        },
+        {
+          "id": "sval_f2",
+          "text": "Halibut and Arctic Char",
+          "detail": "Locally caught fish from pristine Arctic waters, typically prepared simply grilled or smoked to showcase the clean, cold-water flavors."
+        },
+        {
+          "id": "sval_f3",
+          "text": "Musk Ox Stew (Moskusolje)",
+          "detail": "Traditional hearty stew made from musk ox meat hunted in the Arctic, served in traditional Norwegian style at local restaurants."
+        },
+        {
+          "id": "sval_f4",
+          "text": "Svalbard Pizza with Arctic Toppings",
+          "detail": "Local pizzerias incorporate Arctic ingredients like reindeer, musk ox, and king crab onto thin-crust pizzas reflecting the region's unique fauna."
+        },
+        {
+          "id": "sval_f5",
+          "text": "Arctic Berries (Multebær and Tyttebær)",
+          "detail": "Cloudberries and lingonberries harvested from the tundra appear in desserts, jams, and traditional berry compotes served throughout the season."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sval_c1",
+          "text": "Polar Bear Safety Protocols",
+          "detail": "Always hire licensed guides for wilderness activities and never venture outside settlements alone, as polar bear encounters require professional safety procedures and proper weapons."
+        },
+        {
+          "id": "sval_c2",
+          "text": "Extreme Weather Preparedness",
+          "detail": "Bring extreme cold-weather gear even for short trips; temperatures drop to -40°C in winter and whiteout conditions can develop rapidly without warning."
+        },
+        {
+          "id": "sval_c3",
+          "text": "Respect Wilderness Boundaries",
+          "detail": "Much of Svalbard is protected nature reserve; stay on marked paths, never approach wildlife directly, and follow strict guidelines from local tourism authorities."
+        },
+        {
+          "id": "sval_c4",
+          "text": "Arctic Night and Midnight Sun Adaptation",
+          "detail": "Winter brings polar night (November-January) and summer offers midnight sun (April-August); adjust sleep schedules accordingly and expect dramatic light changes affecting wildlife visibility."
+        }
+      ]
+    },
+    {
+      "id": "honningsvag",
+      "name": "Honningsvåg",
+      "nameIt": "Honningsvåg",
+      "lat": 70.9833,
+      "lng": 25.9833,
+      "type": "COASTAL",
+      "description": "The gateway town to North Cape, situated on a picturesque harbor with fishing heritage and Arctic character. It serves as a convenient base for exploring the Nordkapp region and offers fresh seafood, local shops, and maritime museums.",
+      "imageQueries": [
+        "Honningsvåg harbor fishing town",
+        "Honningsvåg Arctic coast"
+      ],
+      "activities": [
+        {
+          "id": "honn_1",
+          "text": "North Cape Monument Visit",
+          "detail": "Travel 34 km north to the iconic globe monument at the northernmost point of Europe, accessible by bus or car from Honningsvåg.",
+          "lat": 70.8119,
+          "lng": 25.6456
+        },
+        {
+          "id": "honn_2",
+          "text": "Nordkapp Hall",
+          "detail": "Explore the underground visitor center carved into the mountain at North Cape, featuring exhibitions about Arctic culture and geography.",
+          "lat": 70.8117,
+          "lng": 25.645
+        },
+        {
+          "id": "honn_3",
+          "text": "Honningsvåg Harbor Walk",
+          "detail": "Stroll along the working fishing harbor to observe traditional boats, local fishermen, and the maritime pulse of this Arctic town.",
+          "lat": 70.9803,
+          "lng": 25.9858
+        },
+        {
+          "id": "honn_4",
+          "text": "Finnmark Folk Museum",
+          "detail": "Visit this local museum in town to learn about Sámi culture, fishing heritage, and Arctic history of the North Cape region.",
+          "lat": 70.9816,
+          "lng": 25.9872
+        },
+        {
+          "id": "honn_5",
+          "text": "Three Countries Viewpoint",
+          "detail": "Drive 42 km east to Nordkinn Peninsula to see the borders of Norway, Finland, and Russia converge from a marked observation point.",
+          "lat": 70.7425,
+          "lng": 27.4278
+        },
+        {
+          "id": "honn_6",
+          "text": "King Crab Safari",
+          "detail": "Book a guided boat tour from the harbor to catch and experience the harvesting of Arctic king crab in the Barents Sea.",
+          "lat": 70.9803,
+          "lng": 25.9858
+        }
+      ],
+      "food": [
+        {
+          "id": "honn_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Fresh Arctic king crab caught locally and served simply boiled or grilled at harbourside restaurants with melted butter and lemon."
+        },
+        {
+          "id": "honn_f2",
+          "text": "Arctic Cod (Torsk)",
+          "detail": "Local white fish typically prepared as fish soup, fish cakes, or pan-fried fillets, reflecting centuries of fishing tradition."
+        },
+        {
+          "id": "honn_f3",
+          "text": "Salty Arctic Char",
+          "detail": "Smoked or fresh Arctic char, often served with traditional bread and sour cream at local eateries."
+        },
+        {
+          "id": "honn_f4",
+          "text": "Halibut (Kveite)",
+          "detail": "Premium white fish from the Barents Sea, often served grilled whole or as fillets in restaurants overlooking the harbor."
+        },
+        {
+          "id": "honn_f5",
+          "text": "Arctic Fish Soup (Fiskebolle)",
+          "detail": "Creamy soup made with local white fish, potatoes, and leeks, a warming staple in Arctic coastal cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "honn_c1",
+          "text": "Midnight Sun Season (May-July)",
+          "detail": "Plan visits during summer months to experience the phenomenon of continuous daylight, when the sun never fully sets."
+        },
+        {
+          "id": "honn_c2",
+          "text": "Respect Fishing Community",
+          "detail": "This is an active working harbor—observe from designated areas and respect local fishermen's schedules and privacy."
+        },
+        {
+          "id": "honn_c3",
+          "text": "Arctic Weather Preparedness",
+          "detail": "Even in summer, pack waterproof jackets and warm layers, as Arctic weather changes rapidly and can be harsh year-round."
+        },
+        {
+          "id": "honn_c4",
+          "text": "Book Tours in Advance",
+          "detail": "Many activities like king crab safaris and North Cape tours require advance booking, especially during peak summer season."
+        }
+      ]
+    },
+    {
+      "id": "barentsburg",
+      "name": "Barentsburg",
+      "nameIt": "Barentsburg",
+      "lat": 74.5047,
+      "lng": 19.0369,
+      "type": "TOWN",
+      "description": "A Russian settlement on Svalbard with a unique Soviet-era atmosphere and authentic Arctic character often overlooked by tourists. Day trips from Longyearbyen offer insight into Russian Arctic life, coal mining heritage, and an unconventional Arctic experience.",
+      "imageQueries": [
+        "Barentsburg Svalbard Russian settlement",
+        "Barentsburg Arctic town"
+      ],
+      "activities": [
+        {
+          "id": "bare_1",
+          "text": "Soviet Monument and Lenin Statue",
+          "detail": "Visit the iconic Lenin statue overlooking the settlement, a striking reminder of Soviet heritage and the town's Cold War-era founding.",
+          "lat": 74.4347,
+          "lng": 19.0367
+        },
+        {
+          "id": "bare_2",
+          "text": "Barentsburg Coal Mine Tour",
+          "detail": "Explore the still-operating coal mine that built the settlement, descending into tunnels to understand Arctic mining operations and Soviet industrial ambitions.",
+          "lat": 74.433,
+          "lng": 19.035
+        },
+        {
+          "id": "bare_3",
+          "text": "Pomor Museum",
+          "detail": "Browse exhibits on Russian Arctic exploration, Pomor traders, and local history housed in a small museum documenting centuries of Russian presence in Svalbard.",
+          "lat": 74.434,
+          "lng": 19.036
+        },
+        {
+          "id": "bare_4",
+          "text": "Hiking to Glacier Views",
+          "detail": "Trek from the settlement toward surrounding glaciers and Arctic tundra for stark landscapes and wildlife spotting opportunities in the high Arctic.",
+          "lat": 74.435,
+          "lng": 19.04
+        },
+        {
+          "id": "bare_5",
+          "text": "Barentsburg Town Center Walk",
+          "detail": "Stroll through Soviet-style apartment blocks, the cultural house, and harbor to absorb the authentic Russian Arctic atmosphere largely unchanged since the Cold War.",
+          "lat": 74.4335,
+          "lng": 19.036
+        },
+        {
+          "id": "bare_6",
+          "text": "Russian Orthodox Church Visit",
+          "detail": "View the small Orthodox chapel with its distinctive onion dome, reflecting the spiritual life and Russian cultural identity of the community.",
+          "lat": 74.4345,
+          "lng": 19.0355
+        }
+      ],
+      "food": [
+        {
+          "id": "bare_f1",
+          "text": "Arctic Char",
+          "detail": "Fresh local fish from Arctic waters, typically prepared simply grilled or smoked, showcasing the bounty of Svalbard's waters."
+        },
+        {
+          "id": "bare_f2",
+          "text": "Russian Pelmeni",
+          "detail": "Meat-filled dumplings served in broth, a traditional Russian comfort food frequently found in local cafés and restaurants reflecting Soviet culinary heritage."
+        },
+        {
+          "id": "bare_f3",
+          "text": "Reindeer Stew",
+          "detail": "Hearty Arctic dish featuring locally hunted or herded reindeer meat slow-cooked with root vegetables, warming and protein-rich for the extreme climate."
+        },
+        {
+          "id": "bare_f4",
+          "text": "Black Bread (Borodinsky)",
+          "detail": "Dense Russian rye bread with distinctive molasses and caraway flavors, shipped from Russia and served with most meals as a cultural staple."
+        },
+        {
+          "id": "bare_f5",
+          "text": "King Crab",
+          "detail": "Prized Arctic crustacean harvested from nearby waters, often boiled and served with melted butter as a luxury local delicacy."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bare_c1",
+          "text": "Russian Language and Cyrillic Signs",
+          "detail": "English proficiency is limited; Russian dominates signage and daily life, so learning basic Russian phrases and recognizing Cyrillic alphabet aids navigation."
+        },
+        {
+          "id": "bare_c2",
+          "text": "Soviet Customs and Formality",
+          "detail": "The community maintains Soviet-era etiquette including formal greetings and reserved demeanor; respectful, modest behavior is appreciated by residents."
+        },
+        {
+          "id": "bare_c3",
+          "text": "Extreme Arctic Conditions",
+          "detail": "Prepare for polar night (November–January) and extreme cold; winter travel requires specialized gear and daylight is virtually absent, limiting outdoor activities seasonally."
+        },
+        {
+          "id": "bare_c4",
+          "text": "Mining Heritage Pride",
+          "detail": "The settlement's identity centers on coal mining and Soviet resilience; locals take pride in Arctic hardship and industrial legacy, reflected in town monuments and narratives."
+        }
+      ]
+    },
+    {
+      "id": "skaidi",
+      "name": "Skáidi",
+      "nameIt": "Skáidi",
+      "lat": 70.3667,
+      "lng": 23.0333,
+      "type": "VILLAGE",
+      "description": "A small Sámi reindeer herding village offering authentic Arctic indigenous culture and connection to traditional lifestyles. Visitors can experience traditional lavvu dwellings, reindeer sledding, and learn about Sámi traditions in an intimate setting.",
+      "imageQueries": [
+        "Skáidi Sámi reindeer herding",
+        "Skáidi Arctic village lavvu"
+      ],
+      "activities": [
+        {
+          "id": "skai_1",
+          "text": "Reindeer Sledding",
+          "detail": "Experience traditional Sámi transportation by riding in a pulka (sled) drawn by reindeer across Arctic snow and tundra landscape.",
+          "lat": 70.0597,
+          "lng": 25.1753
+        },
+        {
+          "id": "skai_2",
+          "text": "Lavvu Dwelling Visit",
+          "detail": "Stay or visit inside an authentic lavvu (Sámi tent) to experience traditional Sámi shelter and learn about historical nomadic life.",
+          "lat": 70.0597,
+          "lng": 25.1753
+        },
+        {
+          "id": "skai_3",
+          "text": "Sámi Cultural Museum Tour",
+          "detail": "Explore exhibits of traditional Sámi clothing, tools, and artifacts that document the region's indigenous heritage and reindeer herding practices."
+        },
+        {
+          "id": "skai_4",
+          "text": "Northern Lights Viewing",
+          "detail": "Chase the Aurora Borealis during winter months from this remote Arctic location with minimal light pollution for optimal viewing."
+        },
+        {
+          "id": "skai_5",
+          "text": "Tundra Hiking and Snowshoeing",
+          "detail": "Trek across the Arctic tundra landscape on foot or snowshoes to experience pristine wilderness and learn about indigenous land use."
+        },
+        {
+          "id": "skai_6",
+          "text": "Reindeer Herd Interaction",
+          "detail": "Participate in feeding and caring for reindeer herds alongside local Sámi herders to understand their daily pastoral work."
+        }
+      ],
+      "food": [
+        {
+          "id": "skai_f1",
+          "text": "Reindeer Stew (Finnbiff)",
+          "detail": "Tender reindeer meat slow-cooked with sour cream, lingonberries, and traditional spices served with boiled potatoes and pickled cucumber."
+        },
+        {
+          "id": "skai_f2",
+          "text": "Smoked Reindeer (Finnbiff Røkt)",
+          "detail": "Locally smoked reindeer meat with rich, preserved flavor often served with flatbread and traditional Sámi accompaniments."
+        },
+        {
+          "id": "skai_f3",
+          "text": "Arctic Fish Soup",
+          "detail": "Traditional soup made with local Arctic char or whitefish, cream, and root vegetables reflecting centuries of Sámi fishing tradition."
+        },
+        {
+          "id": "skai_f4",
+          "text": "Sámi Flatbread (Čeakcu)",
+          "detail": "Traditional unleavened bread cooked over open fire in the lavvu, served warm with butter and reindeer products."
+        },
+        {
+          "id": "skai_f5",
+          "text": "Cloudberry Dessert",
+          "detail": "Arctic cloudberries foraged from the tundra served fresh with cream or preserved as jam, a seasonal delicacy unique to northern regions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "skai_c1",
+          "text": "Respect Reindeer Herding Schedules",
+          "detail": "Visit during appropriate seasons for reindeer activities; spring and autumn migrations are sensitive times when herds require uninterrupted movement."
+        },
+        {
+          "id": "skai_c2",
+          "text": "Learn Basic Sámi Greetings",
+          "detail": "Locals appreciate visitors who attempt Sámi words like 'Buorre beaivi' (good day), showing respect for indigenous language and culture."
+        },
+        {
+          "id": "skai_c3",
+          "text": "Dress Warmly for Extreme Conditions",
+          "detail": "Arctic temperatures drop severely; proper insulated clothing and gear are essential for safety and comfort during outdoor activities."
+        },
+        {
+          "id": "skai_c4",
+          "text": "Ask Permission Before Photography",
+          "detail": "Request consent before photographing people, reindeer herds, or cultural ceremonies, as many locals prefer privacy regarding their traditional practices."
+        }
+      ]
+    },
+    {
+      "id": "nyalesund",
+      "name": "Ny-Ålesund",
+      "nameIt": "Ny-Ålesund",
+      "lat": 78.925,
+      "lng": 11.93,
+      "type": "VILLAGE",
+      "description": "The world's northernmost settlement with permanent inhabitants, located on Spitsbergen island in Svalbard at nearly 79 degrees north. This research station and former coal mining settlement offers extraordinary Arctic nature, polar bear encounters, and pristine wilderness.",
+      "imageQueries": [
+        "Ny-Ålesund Spitsbergen northernmost",
+        "Ny-Ålesund Arctic research station"
+      ],
+      "activities": [
+        {
+          "id": "nyal_1",
+          "text": "Polar Bear Safaris",
+          "detail": "Join armed guides on snowmobile or boat expeditions to spot polar bears in their natural habitat, the primary wildlife draw for visitors to Ny-Ålesund.",
+          "lat": 78.925,
+          "lng": 11.9305
+        },
+        {
+          "id": "nyal_2",
+          "text": "Visit the Global Seed Vault",
+          "detail": "Tour the nearby Svalbard Global Seed Vault entrance, a few kilometers away, to learn about this Arctic preservation facility housing millions of crop seeds.",
+          "lat": 78.2232,
+          "lng": 15.5267
+        },
+        {
+          "id": "nyal_3",
+          "text": "Hike to Zeppelin Observatory",
+          "detail": "Trek to the atmospheric research station on the mountain above Ny-Ålesund for panoramic Arctic views and insight into climate monitoring.",
+          "lat": 78.9308,
+          "lng": 11.8883
+        },
+        {
+          "id": "nyal_4",
+          "text": "Kayaking in Kongsfjorden",
+          "detail": "Paddle among icebergs and glaciers in the fjord adjacent to Ny-Ålesund, spotting seabirds, seals, and dramatic ice formations.",
+          "lat": 79.0167,
+          "lng": 11.5
+        },
+        {
+          "id": "nyal_5",
+          "text": "Midnight Sun Photography",
+          "detail": "Experience 24-hour daylight from April to August and capture surreal Arctic landscapes with continuous natural light.",
+          "lat": 78.925,
+          "lng": 11.9305
+        },
+        {
+          "id": "nyal_6",
+          "text": "Visit the Restored Coal Mines",
+          "detail": "Explore the remnants of the early 20th-century Store Norske coal mining operations that established Ny-Ålesund's settlement.",
+          "lat": 78.925,
+          "lng": 11.9305
+        }
+      ],
+      "food": [
+        {
+          "id": "nyal_f1",
+          "text": "Arctic Char",
+          "detail": "Fresh local fish from Arctic waters, typically prepared simply grilled or smoked to highlight its delicate flavor."
+        },
+        {
+          "id": "nyal_f2",
+          "text": "King Crab Soup",
+          "detail": "Rich, warming soup made from Barents Sea king crab, a signature dish reflecting Svalbard's marine bounty."
+        },
+        {
+          "id": "nyal_f3",
+          "text": "Reindeer Stew",
+          "detail": "Hearty traditional Norwegian preparation using local reindeer meat, root vegetables, and lingonberries for Arctic sustenance."
+        },
+        {
+          "id": "nyal_f4",
+          "text": "Hardanger Cheese",
+          "detail": "Traditional Norwegian brown cheese available in local stores, a dense and sweet accompaniment to bread and Arctic meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nyal_c1",
+          "text": "Polar Bear Awareness",
+          "detail": "Never venture outside settlements alone; polar bears are a genuine threat and firearms or armed guides are mandatory for all excursions."
+        },
+        {
+          "id": "nyal_c2",
+          "text": "Research Station Respect",
+          "detail": "Ny-Ålesund is primarily a working international research community, not a typical tourist destination, so expect limited services and prioritize scientific activities."
+        },
+        {
+          "id": "nyal_c3",
+          "text": "Extreme Weather Preparedness",
+          "detail": "Arctic conditions can shift rapidly; bring layered clothing, waterproof gear, and be prepared for canceled activities due to storms or polar bear sightings."
+        },
+        {
+          "id": "nyal_c4",
+          "text": "Limited Accommodation",
+          "detail": "Book lodging well in advance as Ny-Ålesund has only a few guesthouses and research station beds; spontaneous visits are rarely possible."
+        }
+      ]
+    },
+    {
+      "id": "vardo",
+      "name": "Vardø",
+      "nameIt": "Vardø",
+      "lat": 70.3705,
+      "lng": 31.1107,
+      "type": "COASTAL",
+      "description": "One of the world's northernmost towns and one of Norway's oldest fishing settlements, Vardø sits on a dramatic Arctic peninsula. It offers authentic coastal culture, the stunning Vardø Lighthouse, excellent fishing heritage, and a pristine Arctic atmosphere.",
+      "imageQueries": [
+        "Vardø lighthouse Arctic coast",
+        "Vardø fishing town Norway"
+      ],
+      "activities": [
+        {
+          "id": "vard_1",
+          "text": "Vardø Lighthouse",
+          "detail": "Visit Norway's most northeastern lighthouse, perched dramatically on the Arctic coast and offering panoramic views of the Barents Sea.",
+          "lat": 70.3703,
+          "lng": 31.1109
+        },
+        {
+          "id": "vard_2",
+          "text": "Vardøhus Fortress",
+          "detail": "Explore the historic 17th-century star-shaped fortress that once protected Norway's Arctic territories and now stands as a cultural landmark.",
+          "lat": 70.3689,
+          "lng": 31.1085
+        },
+        {
+          "id": "vard_3",
+          "text": "King Crab Safari",
+          "detail": "Join a guided boat tour to hunt for the invasive king crabs in the Barents Sea, a unique Arctic fishing experience and culinary adventure.",
+          "lat": 70.3708,
+          "lng": 31.11
+        },
+        {
+          "id": "vard_4",
+          "text": "Barents Sea Fishing",
+          "detail": "Book a charter boat for traditional Arctic fishing where you can catch cod, halibut, or other North Atlantic species in pristine waters.",
+          "lat": 70.371,
+          "lng": 31.111
+        },
+        {
+          "id": "vard_5",
+          "text": "Arctic Museum (Nordnorsk Kunstmuseum)",
+          "detail": "Discover contemporary Arctic art and local maritime history in this regional museum celebrating northern Norwegian culture.",
+          "lat": 70.3695,
+          "lng": 31.1078
+        },
+        {
+          "id": "vard_6",
+          "text": "Midnight Sun or Polar Night Experience",
+          "detail": "Experience the Arctic's extreme daylight cycles—continuous daylight in summer or extended darkness in winter—depending on your travel season."
+        }
+      ],
+      "food": [
+        {
+          "id": "vard_f1",
+          "text": "King Crab (Kongekrabbe)",
+          "detail": "Taste the sweet, succulent meat of the giant king crabs caught fresh in local waters, typically prepared simply with butter and served at coastal restaurants."
+        },
+        {
+          "id": "vard_f2",
+          "text": "Arctic Cod (Torsk)",
+          "detail": "Sample the local staple of fresh Arctic cod, often prepared as fish soup, grilled fillets, or traditional salt cod dishes that reflect centuries of fishing heritage."
+        },
+        {
+          "id": "vard_f3",
+          "text": "Snow Crab Soup",
+          "detail": "Enjoy a warming coastal specialty made with locally caught snow crab, cream, and Arctic herbs, perfect for cold Arctic evenings."
+        },
+        {
+          "id": "vard_f4",
+          "text": "Stockfish (Tørrfisk)",
+          "detail": "Try the traditional preserved fish preparation where cod is dried in the Arctic air, creating a chewy delicacy that has been a local food for generations."
+        },
+        {
+          "id": "vard_f5",
+          "text": "Fisherman's Stew (Fiskeboller)",
+          "detail": "Taste homemade fish balls made from local catch, served in a creamy seafood broth that represents authentic Arctic coastal cooking."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vard_c1",
+          "text": "Respect the Arctic Rhythm",
+          "detail": "Vardø's extreme seasonal light cycles dominate daily life—summer tourists should expect nearly 24-hour daylight while winter visitors experience prolonged darkness, both requiring mental and physical adjustment."
+        },
+        {
+          "id": "vard_c2",
+          "text": "Fishing Heritage is Sacred",
+          "detail": "Vardø's identity is rooted in its fishing past and present; show genuine interest in maritime traditions, local boats, and fishermen's stories rather than treating them as mere attractions."
+        },
+        {
+          "id": "vard_c3",
+          "text": "Weather Demands Preparation",
+          "detail": "Arctic conditions can change rapidly and dramatically; always dress in waterproof, insulated layers regardless of season, and check forecasts before outdoor activities."
+        },
+        {
+          "id": "vard_c4",
+          "text": "Embrace Slow Travel",
+          "detail": "As one of Norway's oldest and most remote settlements, Vardø rewards visitors who slow down and spend several days experiencing authentic coastal life rather than rushing through in hours."
+        }
+      ]
+    },
+    {
+      "id": "kirkenes",
+      "name": "Kirkenes",
+      "nameIt": "Kirkenes",
+      "lat": 69.7282,
+      "lng": 29.0471,
+      "type": "TOWN",
+      "description": "The easternmost town in Finnmark near the Russian border, historically significant for Arctic geopolitics and home to unique Arctic experiences. It offers king crab safaris, snow hotel experiences, northern lights viewing, and a distinctive cultural blend.",
+      "imageQueries": [
+        "Kirkenes Arctic town Russia border",
+        "Kirkenes king crab safari"
+      ],
+      "activities": [
+        {
+          "id": "kirk_1",
+          "text": "King Crab Safari",
+          "detail": "Hunt for giant red king crabs in the Barents Sea during guided boat expeditions, typically available October through January when the crabs are most active.",
+          "lat": 69.7282,
+          "lng": 30.0461
+        },
+        {
+          "id": "kirk_2",
+          "text": "Snowhotel Kirkenes",
+          "detail": "Stay overnight in a hotel built entirely of snow and ice, rebuilt each winter with rooms featuring ice sculptures and reindeer hides.",
+          "lat": 69.7268,
+          "lng": 30.0425
+        },
+        {
+          "id": "kirk_3",
+          "text": "Northern Lights Hunting",
+          "detail": "Chase the aurora borealis across Arctic skies from September to March with local guides who know the best viewing spots away from light pollution."
+        },
+        {
+          "id": "kirk_4",
+          "text": "Grense Jakobselv Border Walk",
+          "detail": "Hike to the northernmost tripoint where Norway, Finland, and Russia meet at a monument on the frozen landscape, approximately 10 kilometers from town.",
+          "lat": 69.6061,
+          "lng": 30.9803
+        },
+        {
+          "id": "kirk_5",
+          "text": "Russian Border Crossing",
+          "detail": "Take a guided tour across the border to Nikel, Russia, experiencing Soviet-era architecture and the stark contrast of Arctic geopolitics."
+        },
+        {
+          "id": "kirk_6",
+          "text": "Arctic Wildlife Safari",
+          "detail": "Spot white-tailed eagles, arctic foxes, and other subarctic fauna on guided excursions across the tundra landscape."
+        },
+        {
+          "id": "kirk_7",
+          "text": "Kirkenes War Memorial and Museum",
+          "detail": "Visit sites commemorating World War II history, including the Kirkenes Hotel's basement bomb shelter used during the German occupation.",
+          "lat": 69.7246,
+          "lng": 30.0438
+        }
+      ],
+      "food": [
+        {
+          "id": "kirk_f1",
+          "text": "King Crab Soup",
+          "detail": "A rich, creamy soup featuring chunks of freshly caught king crab meat, local to restaurants serving Arctic seafood specialties."
+        },
+        {
+          "id": "kirk_f2",
+          "text": "Stockfish and Arctic Char",
+          "detail": "Traditional Norwegian dried fish preparations, often served with butter and potatoes, reflecting centuries of Arctic fishing heritage."
+        },
+        {
+          "id": "kirk_f3",
+          "text": "Reindeer Stew",
+          "detail": "Slow-cooked tender reindeer meat with juniper berries and lingonberries, a Sámi and Norwegian staple in the region."
+        },
+        {
+          "id": "kirk_f4",
+          "text": "Snow Hotel Dinner Experience",
+          "detail": "Dine in the ice restaurant served on ice plates, featuring local Arctic ingredients in a unique frozen dining atmosphere."
+        },
+        {
+          "id": "kirk_f5",
+          "text": "Arctic King Crab Dinner",
+          "detail": "Fresh king crab legs boiled simply and served with melted butter, a signature dish celebrating Kirkenes's fishing economy."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kirk_c1",
+          "text": "Border Town Protocol",
+          "detail": "Kirkenes's proximity to Russia means security awareness is important; respect photography restrictions near border areas and carry documentation for any cross-border activities."
+        },
+        {
+          "id": "kirk_c2",
+          "text": "Arctic Darkness Embrace",
+          "detail": "From November to January, Kirkenes experiences polar night with no sunlight; locals embrace this by focusing on indoor activities, aurora hunting, and coziness rather than viewing it as a hardship."
+        },
+        {
+          "id": "kirk_c3",
+          "text": "Sámi Heritage Recognition",
+          "detail": "The region has significant Sámi indigenous roots; support local Sámi artisans and cultural centers, and be respectful when discussing traditional reindeer herding practices still active in the area."
+        },
+        {
+          "id": "kirk_c4",
+          "text": "Winter as Main Season",
+          "detail": "Unlike most of Norway, Kirkenes's tourist season peaks in winter rather than summer, so plan accordingly and expect most outdoor activities to be winter-focused."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Sorrisniva Aventoura",
+      "address": "Sorrisnivavegen 1, Alta",
+      "neighbourhood": "Alta",
+      "cuisine": "Norwegian",
+      "priceRange": "€€€",
+      "description": "Adventure lodge restaurant specializing in Arctic cuisine with reindeer and local fish in a stunning northern lights viewing location.",
+      "mustOrder": "Arctic char with cloudberry sauce",
+      "lat": 70.0012,
+      "lng": 23.2711
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Bolla Restaurant & Bar",
+      "address": "Storgata 24, Alta",
+      "neighbourhood": "Alta city centre",
+      "cuisine": "Modern Norwegian",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant in Alta's heart offering locally-sourced Arctic ingredients with creative Nordic presentations.",
+      "mustOrder": "King crab risotto",
+      "lat": 70.0041,
+      "lng": 23.2714
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Finnmark Brygghus",
+      "address": "Storgata 35, Hammerfest",
+      "neighbourhood": "Hammerfest city centre",
+      "cuisine": "Scandinavian",
+      "priceRange": "€€",
+      "description": "Casual brewery restaurant housed in a historic building serving hearty Nordic fare and craft beers.",
+      "mustOrder": "Fish soup with homemade bread",
+      "lat": 70.9843,
+      "lng": 25.9774
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Ricks Seafood & Champagne Bar",
+      "address": "Strandgata 35, Hammerfest",
+      "neighbourhood": "Hammerfest waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€€€",
+      "description": "Upscale seafood restaurant with panoramic Arctic Ocean views and an extensive champagne selection.",
+      "mustOrder": "Fresh king crab with garlic butter",
+      "lat": 70.9865,
+      "lng": 25.9715
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Pølsekiosken I Honningsvåg",
+      "address": "Nordkappgata 4, Honningsvåg",
+      "neighbourhood": "Honningsvåg",
+      "cuisine": "Fast Food",
+      "priceRange": "€",
+      "description": "Beloved local hot dog stand famous for quality sausages and a quintessential North Cape pit stop.",
+      "mustOrder": "King crab hot dog",
+      "lat": 70.9843,
+      "lng": 25.9853
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "North Cape Seafood Restaurant",
+      "address": "Nordkappveien 1, Honningsvåg",
+      "neighbourhood": "Near North Cape",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Restaurant at the iconic North Cape location serving fresh seafood with views over the Arctic Ocean.",
+      "mustOrder": "Arctic cod with seasonal vegetables",
+      "lat": 71.1699,
+      "lng": 25.6473
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Svalbard Brewery",
+      "address": "Longyearbyveien 30, Longyearbyen",
+      "neighbourhood": "Longyearbyen",
+      "cuisine": "Scandinavian",
+      "priceRange": "€€",
+      "description": "Casual brewery restaurant producing craft beers on-site and serving traditional Arctic comfort food.",
+      "mustOrder": "Musk ox stew with dark bread",
+      "lat": 78.2232,
+      "lng": 15.6267
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurant Barentz",
+      "address": "Spitsbergen Guesthouse, Longyearbyen",
+      "neighbourhood": "Longyearbyen city centre",
+      "cuisine": "Modern Scandinavian",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant focusing on Svalbard ingredients like Arctic char, reindeer, and locally foraged herbs.",
+      "mustOrder": "Pan-seared reindeer with lingonberry reduction",
+      "lat": 78.2237,
+      "lng": 15.6289
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Kroa",
+      "address": "Store Olsen Gate 84, Longyearbyen",
+      "neighbourhood": "Longyearbyen",
+      "cuisine": "Norwegian comfort food",
+      "priceRange": "€€",
+      "description": "Cozy neighborhood restaurant serving hearty traditional Norwegian dishes in a warm, welcoming atmosphere.",
+      "mustOrder": "Fårikål (lamb and cabbage stew)",
+      "lat": 78.2249,
+      "lng": 15.6301
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Huset Pizzeria & Restaurant",
+      "address": "Longyearbyen, Spitsbergen",
+      "neighbourhood": "Longyearbyen",
+      "cuisine": "Italian & Pizza",
+      "priceRange": "€€",
+      "description": "Popular pizzeria offering wood-fired pizzas and Italian dishes with Arctic twists using local ingredients.",
+      "mustOrder": "King crab and garlic pizza",
+      "lat": 78.221,
+      "lng": 15.635
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Reindeer Lodge Restaurant",
+      "address": "Sjølystrandveien, Tromsø",
+      "neighbourhood": "Tromsø outskirts",
+      "cuisine": "Arctic Game",
+      "priceRange": "€€€",
+      "description": "Rustic lodge restaurant specializing in traditional Sámi and reindeer cuisine with authentic Arctic ambiance.",
+      "mustOrder": "Grilled reindeer loin with berry sauce",
+      "lat": 69.6492,
+      "lng": 18.9553
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Bardus Bistro",
+      "address": "Grønnegata 12, Tromsø",
+      "neighbourhood": "Tromsø city centre",
+      "cuisine": "Modern Norwegian",
+      "priceRange": "€€€",
+      "description": "Upscale bistro in Tromsø's vibrant centre showcasing Northern Norwegian seafood and Arctic game.",
+      "mustOrder": "Snow crab salad with herbs from Finnmark",
+      "lat": 69.6496,
+      "lng": 18.9494
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Skarven Restaurant",
+      "address": "Kaigata 11, Tromsø",
+      "neighbourhood": "Tromsø waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€€€",
+      "description": "Fine dining waterfront restaurant featuring premium Arctic seafood with Nordic preparations and panoramic fjord views.",
+      "mustOrder": "Grilled halibut with coastal herbs and sea urchin sauce",
+      "lat": 69.6502,
+      "lng": 18.9527
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Risøtopia",
+      "address": "Sjøgata 35, Tromsø",
+      "neighbourhood": "Tromsø city centre",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Casual Italian restaurant beloved by locals for authentic risottos and pasta made with Arctic ingredients.",
+      "mustOrder": "Seafood risotto with local white fish",
+      "lat": 69.6501,
+      "lng": 18.948
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Kompaniet",
+      "address": "Strandgata 2, Alta",
+      "neighbourhood": "Alta waterfront",
+      "cuisine": "Norwegian",
+      "priceRange": "€€",
+      "description": "Waterfront institution serving traditional Norwegian dishes and fresh Arctic fish in a historic riverside setting.",
+      "mustOrder": "Bacalao (salt cod) with potatoes and onions",
+      "lat": 70.0048,
+      "lng": 23.2705
+    }
+  ]
+}

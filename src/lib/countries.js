@@ -20,7 +20,9 @@ export const COUNTRIES = [
     blurb: "Castles, forests and beer halls — region by region." },
   { slug: 'japan', name: "Japan", flag: '🇯🇵', available: true,
     blurb: "Temples, ramen and bullet trains — 9 regions from Hokkaido to Okinawa." },
-  { slug: 'sweden', name: "Sweden", flag: '🌍', available: true,
+  { slug: 'norway', name: "Norway", flag: '🇳🇴', available: true,
+    blurb: "Mapped region by region." },
+  { slug: 'sweden', name: "Sweden", flag: '🇸🇪', available: true,
     blurb: "Mapped region by region." },
 ]
 
