@@ -20,16 +20,16 @@ export const getPlacesIndex = (country = 'italy') => getJSON(`${country}/places-
 export const getGuide = (topic, country = 'italy') => getJSON(`${country}/guide/${topic}.json`)
 export async function getHub(country = 'italy') {
   const base = await getJSON(`${country}/hub.json`).catch(() => ({ sections: [] }))
-  return hubOverride() || base
+  return country === 'italy' ? (hubOverride() || base) : base
 }
 
 export async function getRegion(id, country = 'italy') {
   const baseRegion = await getJSON(`${country}/regions/${id}.json`)
-  return regionOverride(id) || baseRegion
+  return country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
 }
 export async function getImages(country = 'italy') {
   const baseImages = await getJSON(`${country}/images.json`).catch(() => ({}))
-  return imagesOverride() || baseImages
+  return country === 'italy' ? (imagesOverride() || baseImages) : baseImages
 }
 export async function getAffiliates() {
   const baseAff = await getJSON('affiliates.json')
