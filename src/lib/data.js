@@ -39,7 +39,7 @@ export async function getAffiliates() {
 // fetch the on-disk base (ignoring overrides) — used by Export to diff/regenerate
 export const getBaseRegion = (id, country = 'italy') => getJSON(`${country}/regions/${id}.json`)
 
-export async function placeImages(regionId, placeId) {
-  const all = await getImages().catch(() => ({}))
+export async function placeImages(regionId, placeId, country = 'italy') {
+  const all = await getImages(country).catch(() => ({}))
   return all?.[regionId]?.[placeId] ?? []
 }

@@ -40,14 +40,14 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<LandingScreen />} />
           <Route path="/destinations" element={<CountriesScreen />} />
-          <Route path="/italy" element={<ItalyHubScreen />} />
-          <Route path="/italy/regions" element={<RegionsScreen />} />
-          <Route path="/italy/festivals" element={<GuideScreen topic="festivals" />} />
-          <Route path="/italy/history" element={<GuideScreen topic="history" />} />
-          <Route path="/italy/food" element={<GuideScreen topic="food" />} />
-          <Route path="/italy/transport" element={<GuideScreen topic="transport" />} />
-          <Route path="/italy/:regionId" element={<RegionDetailScreen />} />
-          <Route path="/italy/:regionId/:placeId" element={<PlaceDetailScreen />} />
+          <Route path="/:country" element={<ItalyHubScreen />} />
+          <Route path="/:country/regions" element={<RegionsScreen />} />
+          <Route path="/:country/festivals" element={<GuideScreen topic="festivals" />} />
+          <Route path="/:country/history" element={<GuideScreen topic="history" />} />
+          <Route path="/:country/food" element={<GuideScreen topic="food" />} />
+          <Route path="/:country/transport" element={<GuideScreen topic="transport" />} />
+          <Route path="/:country/:regionId" element={<RegionDetailScreen />} />
+          <Route path="/:country/:regionId/:placeId" element={<PlaceDetailScreen />} />
           <Route path="/saved" element={<SavedScreen />} />
           <Route path="/trips" element={<RequireAuth><TripsScreen /></RequireAuth>} />
           <Route path="/guided" element={<GuidedPlannerScreen />} />

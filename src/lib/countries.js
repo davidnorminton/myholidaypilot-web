@@ -8,3 +8,5 @@ export const COUNTRIES = [
   { slug: 'france',   name: 'France',   flag: '🇫🇷', available: false },
   { slug: 'greece',   name: 'Greece',   flag: '🇬🇷', available: false },
 ]
+
+export const isAvailableCountry = (slug) => COUNTRIES.some((c) => c.slug === slug && c.available)

@@ -3,10 +3,10 @@ import { MapPin } from 'lucide-react'
 import { regionColour } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 
-export default function RegionCard({ region }) {
+export default function RegionCard({ region, country }) {
   const accent = regionColour(region.colour)
   return (
-    <Link to={paths.region(region.id)} className="rcard" style={{ '--accent': accent }}>
+    <Link to={paths.region(region.id, country)} className="rcard" style={{ '--accent': accent }}>
       <div className="rcard__media">
         {region.heroImage?.url
           ? <img src={region.heroImage.url} alt={region.name} loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} />

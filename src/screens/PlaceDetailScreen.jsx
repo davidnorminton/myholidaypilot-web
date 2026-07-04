@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, MapPin, Compass, UtensilsCrossed, Sparkles, ArrowUpRight, ChevronRight, Info, Image as ImageIcon } from 'lucide-react'
 import { getRegion, placeImages } from '../lib/data.js'
 import { regionColour, typeLabel, mapsUrl } from '../lib/format.js'
-import { paths, COUNTRY } from '../lib/paths.js'
+import { paths } from '../lib/paths.js'
 import MapView from '../components/MapView.jsx'
 import Carousel from '../components/Carousel.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
@@ -16,7 +16,7 @@ import { PageLoader } from '../components/Loading.jsx'
 import { useSeo, canonicalUrl } from '../lib/seo.js'
 
 export default function PlaceDetailScreen() {
-  const { regionId, placeId } = useParams()
+  const { country = 'italy', regionId, placeId } = useParams()
   const [region, setRegion] = useState(null)
   const [images, setImages] = useState([])
   const [tab, setTab] = useState(null)
@@ -25,10 +25,10 @@ export default function PlaceDetailScreen() {
   useEffect(() => {
     let live = true
     setTab(null)
-    getRegion(regionId).then((d) => live && setRegion(d)).catch(() => live && setRegion(false))
-    placeImages(regionId, placeId).then((imgs) => live && setImages(imgs)).catch(() => {})
+    getRegion(regionId, country).then((d) => live && setRegion(d)).catch(() => live && setRegion(false))
+    placeImages(regionId, placeId, country).then((imgs) => live && setImages(imgs)).catch(() => {})
     return () => { live = false }
-  }, [regionId, placeId])
+  }, [regionId, placeId, country])
 
   const place = useMemo(
     () => (region && region.places ? region.places.find((p) => p.id === placeId) : null),
@@ -45,13 +45,13 @@ export default function PlaceDetailScreen() {
     jsonLd: place ? [{
       '@context': 'https://schema.org', '@type': 'TouristAttraction', name: place.name,
       description: place.description,
-      address: { '@type': 'PostalAddress', addressRegion: region.name, addressCountry: 'IT' },
+      address: { '@type': 'PostalAddress', addressRegion: region.name, addressCountry: (country === 'italy' ? 'IT' : country === 'spain' ? 'ES' : '') },
       geo: { '@type': 'GeoCoordinates', latitude: place.lat, longitude: place.lng },
     }, {
       '@context': 'https://schema.org', '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Italy', item: canonicalUrl('/italy') },
-        { '@type': 'ListItem', position: 2, name: region.name, item: canonicalUrl(`/italy/${regionId}`) },
+        { '@type': 'ListItem', position: 1, name: country === 'italy' ? 'Italy' : country, item: canonicalUrl(`/${country}`) },
+        { '@type': 'ListItem', position: 2, name: region.name, item: canonicalUrl(`/${country}/${regionId}`) },
         { '@type': 'ListItem', position: 3, name: place.name, item: canonicalUrl(`/italy/${regionId}/${placeId}`) },
       ],
     }] : undefined,
@@ -89,7 +89,7 @@ export default function PlaceDetailScreen() {
 
       <div className="pd-sheet">
         <nav className="wrap pd-crumb">
-          <Link to={paths.region(regionId)} className="pd-crumb__back">
+          <Link to={paths.region(regionId, country)} className="pd-crumb__back">
             <span className="pd-crumb__emoji" aria-hidden>{region.emoji}</span>
             {region.name}
           </Link>
@@ -118,7 +118,7 @@ export default function PlaceDetailScreen() {
                   <div className="pd-glance__row">
                     <dt>Region</dt>
                     <dd>
-                      <Link to={paths.region(regionId)} className="pd-glance__region">
+                      <Link to={paths.region(regionId, country)} className="pd-glance__region">
                         <span className="pd-glance__emoji" aria-hidden>{region.emoji}</span> {region.name}
                       </Link>
                     </dd>
@@ -162,7 +162,7 @@ export default function PlaceDetailScreen() {
           )}
 
           <AskPlace place={place} regionName={region?.name || ''} />
-          <CommentsSection countryId={COUNTRY} targetType="place" regionId={regionId} placeId={placeId} areaName={place.name} />
+          <CommentsSection countryId={country} targetType="place" regionId={regionId} placeId={placeId} areaName={place.name} />
         </main>
       </div>
     </div>
@@ -189,7 +189,7 @@ function Items({ items, numbered }) {
 function NotFound({ regionId }) {
   return (
     <div className="page wrap">
-      <Link to={paths.region(regionId)} className="back" style={{ marginTop: 24 }}>
+      <Link to={paths.region(regionId, country)} className="back" style={{ marginTop: 24 }}>
         <ArrowLeft size={17} /> Back
       </Link>
       <p className="empty">That place could not be found.</p>

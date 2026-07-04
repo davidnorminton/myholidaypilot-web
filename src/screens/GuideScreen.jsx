@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import {
   ArrowLeft, AlertTriangle, Coffee, Utensils, Star, Wine, TrainFront,
   Bus, TramFront, Car, Ship, Plane, Smartphone, Lightbulb,
 } from 'lucide-react'
 import { getGuide, getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
+import { COUNTRIES } from '../lib/countries.js'
 import { PageLoader } from '../components/Loading.jsx'
 import FestivalsCalendar from '../components/FestivalsCalendar.jsx'
 import { useSeo } from '../lib/seo.js'
@@ -50,30 +51,32 @@ function Timeline({ items }) {
 }
 
 export default function GuideScreen({ topic }) {
+  const { country = 'italy' } = useParams()
+  const cmeta = COUNTRIES.find((c) => c.slug === country)
   const [data, setData] = useState(null)
   const [regionMap, setRegionMap] = useState({})
 
   const g = data && data !== false ? data : null
-  useSeo({ title: g?.title, description: g?.subtitle || g?.intro, path: `/italy/${topic}` })
+  useSeo({ title: g?.title, description: g?.subtitle || g?.intro, path: `/${country}/${topic}` })
 
   useEffect(() => {
     let live = true
     setData(null)
-    getGuide(topic).then((d) => live && setData(d)).catch(() => live && setData(false))
-    getIndex().then((d) => {
+    getGuide(topic, country).then((d) => live && setData(d)).catch(() => live && setData(false))
+    getIndex(country).then((d) => {
       if (!live) return
       const m = {}
       for (const r of (d.regions || [])) m[r.id] = { name: r.name, emoji: r.emoji }
       setRegionMap(m)
     }).catch(() => {})
     return () => { live = false }
-  }, [topic])
+  }, [topic, country])
 
   if (data === null) return <PageLoader label="Opening guide" />
   if (data === false) {
     return (
       <div className="page wrap">
-        <Link to={paths.country()} className="back" style={{ marginTop: 24 }}><ArrowLeft size={17} /> Italy</Link>
+        <Link to={paths.country(country)} className="back" style={{ marginTop: 24 }}><ArrowLeft size={17} /> {cmeta?.name}</Link>
         <p className="empty">That guide could not be found.</p>
       </div>
     )
@@ -86,7 +89,7 @@ export default function GuideScreen({ topic }) {
   return (
     <div className="page">
       <header className="sub-hero wrap">
-        <p className="eyebrow"><Link to={paths.country()} className="eyebrow__link">{data.eyebrow || 'Italy'}</Link></p>
+        <p className="eyebrow"><Link to={paths.country(country)} className="eyebrow__link">{data.eyebrow || cmeta?.name}</Link></p>
         <h1 className="sub-hero__title">{data.title}</h1>
         {(data.subtitle || data.intro) && <p className="sub-hero__sub">{data.subtitle || data.intro}</p>}
       </header>
@@ -114,7 +117,7 @@ export default function GuideScreen({ topic }) {
           </div>
         )}
 
-        <Link to={paths.country()} className="back" style={{ marginTop: 8 }}><ArrowLeft size={17} /> Back to Italy</Link>
+        <Link to={paths.country(country)} className="back" style={{ marginTop: 8 }}><ArrowLeft size={17} /> Back to {cmeta?.name}</Link>
       </main>
     </div>
   )

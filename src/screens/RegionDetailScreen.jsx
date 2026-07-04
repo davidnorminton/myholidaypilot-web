@@ -3,7 +3,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, MapPin, CalendarRange, Navigation } from 'lucide-react'
 import { getRegion, getImages } from '../lib/data.js'
 import { regionColour, mapsQuery } from '../lib/format.js'
-import { paths, COUNTRY } from '../lib/paths.js'
+import { paths } from '../lib/paths.js'
 import MapView from '../components/MapView.jsx'
 import PlaceCard from '../components/PlaceCard.jsx'
 import { PageLoader } from '../components/Loading.jsx'
@@ -22,7 +22,7 @@ const TABS = [
 
 export default function RegionDetailScreen() {
   const site = useSettings()
-  const { regionId } = useParams()
+  const { country = 'italy', regionId } = useParams()
   const navigate = useNavigate()
   const aff = useAffiliates()
   const [region, setRegion] = useState(null)
@@ -31,10 +31,10 @@ export default function RegionDetailScreen() {
 
   useEffect(() => {
     let live = true
-    getRegion(regionId).then((d) => live && setRegion(d)).catch(() => live && setRegion(false))
-    getImages().then((d) => live && setImages(d?.[regionId] || {})).catch(() => {})
+    getRegion(regionId, country).then((d) => live && setRegion(d)).catch(() => live && setRegion(false))
+    getImages(country).then((d) => live && setImages(d?.[regionId] || {})).catch(() => {})
     return () => { live = false }
-  }, [regionId])
+  }, [regionId, country])
 
   const accent = useMemo(() => regionColour(region?.colour), [region])
 
@@ -56,7 +56,7 @@ export default function RegionDetailScreen() {
           <div className="rd-hero__veil" />
         </>}
         <div className="wrap">
-          <Link to={paths.country()} className="back"><ArrowLeft size={17} /> All regions</Link>
+          <Link to={paths.country(country)} className="back"><ArrowLeft size={17} /> All regions</Link>
           <div className="rd-hero__head">
             <span className="rd-hero__emoji" aria-hidden>{region.emoji}</span>
             <div>
@@ -99,7 +99,7 @@ export default function RegionDetailScreen() {
                   .filter((p) => p.lat && p.lng)
                   .map((p) => ({
                     lng: p.lng, lat: p.lat, number: p.n, label: `${p.n}. ${p.name}`, color: accent,
-                    onClick: () => navigate(paths.place(regionId, p.id)),
+                    onClick: () => navigate(paths.place(regionId, p.id, country)),
                   }))}
               />
             )}
@@ -165,7 +165,7 @@ export default function RegionDetailScreen() {
           </div>
         )}
 
-        <CommentsSection countryId={COUNTRY} targetType="region" regionId={regionId} areaName={region.name} />
+        <CommentsSection countryId={country} targetType="region" regionId={regionId} areaName={region.name} />
       </main>
     </div>
   )
