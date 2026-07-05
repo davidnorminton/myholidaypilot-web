@@ -17,7 +17,8 @@
     "lint:hooks": "eslint --config eslint.hooks.config.mjs src --no-warn-ignored",
     "gen:countries": "node scripts/gen-countries.mjs",
     "prebuild": "node scripts/gen-countries.mjs",
-    "predev": "node scripts/gen-countries.mjs"
+    "predev": "node scripts/gen-countries.mjs",
+    "test": "vitest run tests --environment jsdom"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
@@ -33,13 +34,17 @@
     "sharp": "^0.35.3"
   },
   "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "@vitejs/plugin-react": "^4.3.4",
     "concurrently": "^9.2.3",
     "dotenv": "^17.4.2",
     "drizzle-kit": "^0.31.10",
     "eslint": "^10.6.0",
     "eslint-plugin-react-hooks": "^7.1.1",
+    "jsdom": "^29.1.1",
     "vite": "^5.4.11",
-    "vite-plugin-pwa": "^1.3.0"
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^4.1.9"
   }
 }
