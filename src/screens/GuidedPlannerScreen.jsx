@@ -100,15 +100,14 @@ export default function GuidedPlannerScreen() {
           {step === 0 && (
             <section className="gq__step">
               <h2><Globe2 size={19} /> Where to?</h2>
-              <div className="gq__cards">
-                {COUNTRIES.map((c) => (
-                  <button key={c.slug} disabled={!c.available}
-                    className={`gq__card ${quiz.country === c.slug ? 'is-on' : ''} ${c.available ? '' : 'gq__card--soon'}`}
-                    onClick={() => setQuiz((q) => ({ ...q, country: c.slug }))}>
-                    <b>{c.flag} {c.name}</b><span>{c.available ? (c.blurb || '') : 'Coming soon'}</span>
-                  </button>
-                ))}
-              </div>
+              <label className="gq__select gq__select--big">
+                <span className="gq__selectlabel">Destination</span>
+                <select value={quiz.country} onChange={(e) => setQuiz((q) => ({ ...q, country: e.target.value }))}>
+                  {COUNTRIES.filter((c) => c.available).slice().sort((a, b) => a.name.localeCompare(b.name)).map((c) => (
+                    <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
+                  ))}
+                </select>
+              </label>
             </section>
           )}
 

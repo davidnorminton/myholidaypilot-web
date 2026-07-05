@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  Plus, Trash2, X, Check, MapPin, StickyNote, CalendarRange,
+  Plus, Trash2, X, Check, StickyNote, CalendarRange,
   Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins, Globe2 } from 'lucide-react'
 import {
   useTrips, activeTrip, createTrip, deleteTrip, renameTrip, setActiveTrip,
@@ -282,9 +282,7 @@ function PlaceRow({ tripId, country, place: p, onPlan }) {
           aria-label={p.done ? 'Mark not visited' : 'Mark visited'}>
           {p.done && <Check size={14} />}
         </button>
-        {p.image
-          ? <img className="trip-row__thumb" src={p.image} alt="" loading="lazy" />
-          : <span className="trip-row__thumb trip-row__thumb--blank"><MapPin size={15} /></span>}
+        {p.image && <img className="trip-row__thumb" src={p.image} alt="" loading="lazy" />}
         <div className="trip-row__id">
           {p.isCustom
             ? <span className="trip-row__name">{p.name}</span>

@@ -68,15 +68,36 @@ export default function AdminScreen() {
         <p className="sub-hero__sub">Write posts and edit the guide. Changes show live on this device — use <b>Export</b> to download the JSON files and commit them.</p>
       </header>
 
-      <nav className="tabs admin-tabs wrap">
-        {SECTIONS.map((s) => {
-          const Icon = s.icon
-          return (
-            <button key={s.id} className={`tab ${section === s.id ? 'tab--on' : ''}`} onClick={() => setSection(s.id)}>
-              <Icon size={15} strokeWidth={2.2} /> {s.label}
-            </button>
-          )
-        })}
+      <nav className="admin-nav wrap">
+        <label className="admin-nav__select">
+          <span className="admin-nav__label">Section</span>
+          <select value={section} onChange={(e) => setSection(e.target.value)}>
+            <optgroup label="Content">
+              <option value="journal">Blog</option>
+              <option value="site">Site</option>
+              <option value="hub">Italy page</option>
+              <option value="places">Places</option>
+              <option value="images">Images</option>
+              <option value="gallery">Gallery</option>
+            </optgroup>
+            <optgroup label="Build">
+              <option value="builder">Country builder</option>
+              <option value="ai">AI</option>
+              <option value="export">Export</option>
+            </optgroup>
+            <optgroup label="Growth">
+              <option value="audience">Newsletter</option>
+              <option value="affiliates">Affiliates</option>
+              <option value="comments">Comments</option>
+              <option value="seo">SEO</option>
+            </optgroup>
+          </select>
+        </label>
+        {(() => {
+          const cur = SECTIONS.find((s) => s.id === section)
+          const Icon = cur?.icon
+          return cur ? <span className="admin-nav__current">{Icon && <Icon size={16} strokeWidth={2.2} />} {cur.label}</span> : null
+        })()}
       </nav>
 
       <main className="wrap admin">

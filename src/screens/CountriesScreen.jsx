@@ -19,7 +19,7 @@ const CONTINENT = {
 const continentOf = (slug) => CONTINENT[slug] || 'Other'
 
 export default function CountriesScreen() {
-  const live = useMemo(() => COUNTRIES.filter((c) => c.available), [])
+  const live = useMemo(() => COUNTRIES.filter((c) => c.available).sort((a, b) => a.name.localeCompare(b.name)), [])
   const continents = useMemo(() => {
     const set = [...new Set(live.map((c) => continentOf(c.slug)))]
     const order = ['Europe', 'Americas', 'Asia', 'Oceania', 'Africa', 'Other']
