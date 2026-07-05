@@ -159,28 +159,42 @@ export default function PlanScreen() {
                   onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
                 <Pencil size={15} className="trip__pencil" aria-hidden />
               </span>
+            </div>
+
+            <div className="trip__toolbar">
               {view === 'build' ? (
                 <>
-                  <button className="trip__view" onClick={() => setView('itinerary')}><CalendarRange size={16} /> View trip</button>
-                  <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
-                  <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
-                  <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
-                  <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
-                  <button className="btn btn--primary trip__add" onClick={() => openWizard({ mode: 'ideas' })}><Plus size={16} /> Add places</button>
+                  <div className="trip__tools">
+                    <button className="trip__view" onClick={() => setView('itinerary')}><CalendarRange size={16} /> View trip</button>
+                    <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                    <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
+                    <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
+                    <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+                  </div>
+                  <div className="trip__primary">
+                    <button className="btn btn--primary trip__add" onClick={() => openWizard({ mode: 'ideas' })}><Plus size={16} /> Add places</button>
+                    <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
+                      <Trash2 size={16} />
+                    </button>
+                  </div>
                 </>
               ) : (
                 <>
-                  <button className="trip__view" onClick={() => setView('build')}><ArrowLeft size={16} /> Edit trip</button>
-                  <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
-                  <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
-                  <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
-                  <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Publish</button>
-                  <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+                  <div className="trip__tools">
+                    <button className="trip__view" onClick={() => setView('build')}><ArrowLeft size={16} /> Edit trip</button>
+                    <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
+                    <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
+                    <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                    <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Publish</button>
+                    <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+                  </div>
+                  <div className="trip__primary">
+                    <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
+                      <Trash2 size={16} />
+                    </button>
+                  </div>
                 </>
               )}
-              <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
-                <Trash2 size={16} />
-              </button>
             </div>
 
             {view === 'build' && (<>
@@ -271,21 +285,25 @@ function PlaceRow({ tripId, country, place: p, onPlan }) {
         {p.image
           ? <img className="trip-row__thumb" src={p.image} alt="" loading="lazy" />
           : <span className="trip-row__thumb trip-row__thumb--blank"><MapPin size={15} /></span>}
-        <div className="trip-row__main">
+        <div className="trip-row__id">
           {p.isCustom
             ? <span className="trip-row__name">{p.name}</span>
             : <Link to={paths.place(p.regionId, p.placeId, country || 'italy')} className="trip-row__name trip-row__name--link">{p.name}</Link>}
           <span className="trip-row__type">{typeLabel(p.type)}{p.isCustom ? ' · your own' : ''}</span>
-          {planned
-            ? <button className="trip-row__plan-meta" onClick={onPlan}>{summary}</button>
-            : <button className="trip-row__plan-prompt" onClick={onPlan}>+ Pick a day, sights & restaurants</button>}
         </div>
-        <button className="trip-row__plan" onClick={onPlan} aria-label="Plan this place"><CalendarCheck size={15} /> Plan</button>
-        <button className={`trip-row__note ${hasNote ? 'is-on' : ''}`} onClick={() => setEditing((v) => !v)}>
-          <StickyNote size={15} /> <span className="trip-row__notelabel">{hasNote ? 'Edit note' : 'Make note'}</span>
-        </button>
         <button className="trip-row__rm" onClick={() => removePlace(tripId, p.regionId, p.placeId)} aria-label="Remove">
           <X size={16} />
+        </button>
+      </div>
+      <div className="trip-row__summary">
+        {planned
+          ? <button className="trip-row__plan-meta" onClick={onPlan}>{summary}</button>
+          : <button className="trip-row__plan-prompt" onClick={onPlan}>+ Pick a day, sights &amp; restaurants</button>}
+      </div>
+      <div className="trip-row__actions">
+        <button className="trip-row__plan" onClick={onPlan}><CalendarCheck size={15} /> Plan</button>
+        <button className={`trip-row__note ${hasNote ? 'is-on' : ''}`} onClick={() => setEditing((v) => !v)}>
+          <StickyNote size={15} /> <span className="trip-row__notelabel">{hasNote ? 'Edit note' : 'Make note'}</span>
         </button>
       </div>
       {(editing || hasNote) && (
