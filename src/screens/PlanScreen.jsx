@@ -8,6 +8,7 @@ import {
   removePlace, togglePlaceDone, updateNote, setTripDates, addPlace,
   healTripCoords,
 } from '../lib/trips.js'
+import { useSettings } from '../lib/settings.js'
 import { downloadTripPdf } from '../lib/tripPdf.js'
 import { shareUrl } from '../lib/tripShare.js'
 import TripReadiness from '../components/TripReadiness.jsx'
@@ -32,6 +33,8 @@ export default function PlanScreen() {
   useEffect(() => { getPlacesIndex().then(healTripCoords).catch(() => {}) }, [])
   const snap = useTrips()
   const trip = activeTrip(snap)
+  const site = useSettings()
+  const planHeroImg = (trip && site[`hub.${trip.countryId}.plan`]) || site['hub.default.plan'] || ''
   const [wizard, setWizard] = useState(null)
   const [planFor, setPlanFor] = useState(null)
   const [view, setView] = useState('build')
@@ -89,13 +92,18 @@ export default function PlanScreen() {
 
   return (
     <div className="page">
-      <header className="sub-hero wrap">
-        <p className="eyebrow">myholidaypilot</p>
-        <h1 className="sub-hero__title">Plan my trip</h1>
-        <p className="sub-hero__sub">
-          However you like to plan — by mood, by map, or by a place you already love — start here.
-          Saved on this device for now.
-        </p>
+      <header className="sub-hero wrap plan-hero">
+        <div className="plan-hero__text">
+          <p className="eyebrow">myholidaypilot</p>
+          <h1 className="sub-hero__title">Plan my trip</h1>
+          <p className="sub-hero__sub">
+            However you like to plan — by mood, by map, or by a place you already love — start here.
+            Saved on this device for now.
+          </p>
+        </div>
+        <div className="plan-hero__media" data-emoji="🧭">
+          {planHeroImg && <img src={planHeroImg} alt="" />}
+        </div>
       </header>
 
       <main className="wrap">
