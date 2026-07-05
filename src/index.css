@@ -2503,7 +2503,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .gq__select--big select{min-width:280px; font-size:16px; padding:13px 40px 13px 16px}
 
 /* --- Admin: section dropdown replaces the tab strip --- */
-.admin-nav{display:flex; align-items:flex-end; gap:16px; margin:8px 0 24px; padding-bottom:18px; border-bottom:1px solid var(--line)}
+.admin-nav{display:flex; align-items:flex-end; gap:16px; margin-block:8px 24px; padding-bottom:18px; border-bottom:1px solid var(--line)}
 .admin-nav__select{display:inline-flex; flex-direction:column; gap:5px}
 .admin-nav__label{font-size:11.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-muted, #7c766c); font-weight:600}
 .admin-nav__select select{
