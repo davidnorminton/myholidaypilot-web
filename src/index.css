@@ -2587,3 +2587,39 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 }
 .plan-hero .guided__title, .plan-hero .dtf__title, .plan-hero .gal__title{ margin-inline:0 }
 .plan-hero .guided__sub, .plan-hero .dtf__sub, .plan-hero .gal__sub{ margin-inline:0; max-width:46ch }
+
+/* --- Scroll reveal --- */
+.reveal{opacity:0; transform:translateY(22px); transition:opacity .7s ease, transform .7s cubic-bezier(.22,.61,.36,1)}
+.reveal--in{opacity:1; transform:none}
+@media (prefers-reduced-motion: reduce){ .reveal{opacity:1; transform:none; transition:none} }
+
+/* --- Split sections (title left, body right, alternating) --- */
+.splits{display:flex; flex-direction:column; gap:0; padding-block:20px 40px}
+.split{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; padding:44px 0; border-top:0.5px solid var(--line)}
+.split:first-child{border-top:0}
+.split--reverse .split__label{order:2}
+.split--reverse .split__body{order:1}
+.split__label{display:flex; flex-direction:column; gap:12px}
+.split__title{font-family:var(--serif); font-weight:400; font-size:clamp(26px,3vw,36px); line-height:1.1; letter-spacing:-.015em; margin:0; color:var(--ink)}
+.split__body p{font-size:clamp(16px,1.6vw,18px); line-height:1.65; color:var(--muted); margin:0}
+.split__body{padding-top:6px}
+@media (max-width:760px){
+  .split, .split--reverse{grid-template-columns:1fr; gap:14px; padding:30px 0}
+  .split--reverse .split__label{order:0}
+  .split--reverse .split__body{order:0}
+}
+
+/* --- Ken Burns hero drift --- */
+@keyframes kenburns{0%{transform:scale(1.05) translate(0,0)} 100%{transform:scale(1.14) translate(-1.5%,-1.5%)}}
+.land-hero__bg--kb{animation:kenburns 22s ease-out forwards}
+@media (prefers-reduced-motion: reduce){ .land-hero__bg--kb{animation:none} }
+
+/* --- Hover polish on destination + top rows --- */
+.dcard, .topdest__row{transition:transform .16s ease, box-shadow .16s ease, background .16s ease}
+
+/* --- Hero title fade-in on load --- */
+@keyframes heroIn{from{opacity:0; transform:translateY(16px)} to{opacity:1; transform:none}}
+.land-hero__title{animation:heroIn .8s cubic-bezier(.22,.61,.36,1) both}
+.land-hero__sub{animation:heroIn .8s cubic-bezier(.22,.61,.36,1) .12s both}
+.land-hero__cta{animation:heroIn .8s cubic-bezier(.22,.61,.36,1) .24s both}
+@media (prefers-reduced-motion: reduce){ .land-hero__title,.land-hero__sub,.land-hero__cta{animation:none} }

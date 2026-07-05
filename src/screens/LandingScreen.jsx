@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Compass, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2, CalendarDays, Landmark, UtensilsCrossed, TrainFront } from 'lucide-react'
+import { ArrowRight, Compass, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2, Landmark, UtensilsCrossed } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
+import { Reveal } from '../components/Reveal.jsx'
 import { useSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { POSTS } from '../lib/blog.js'
@@ -32,7 +33,7 @@ export default function LandingScreen() {
   return (
     <div className="page">
       <section className="land-hero">
-        <img className="land-hero__bg" src={site['home.hero'] || HERO} alt="" />
+        <img className="land-hero__bg land-hero__bg--kb" src={site['home.hero'] || HERO} alt="" />
         <div className="land-hero__veil" />
         <div className="wrap land-hero__inner">
           <p className="eyebrow eyebrow--light">Your travel copilot</p>
@@ -54,37 +55,36 @@ export default function LandingScreen() {
         </div>
       </section>
 
-      <section className="wrap band band--six">
-        <div className="feature">
-          <span className="feature__label"><Compass size={15} /> Region by region</span>
-          <h3>Every region, properly mapped</h3>
-          <p>Each country broken into its real regions — and every region into its towns, cities, islands and parks, with the character of each.</p>
-        </div>
-        <div className="feature">
-          <span className="feature__label"><MapPin size={15} /> Places in depth</span>
-          <h3>What each place is actually for</h3>
-          <p>Every place comes with things to do — walks, viewpoints, museums, beaches — the food to try there, and the local customs worth knowing.</p>
-        </div>
-        <div className="feature">
-          <span className="feature__label"><UtensilsCrossed size={15} /> Where to eat</span>
-          <h3>Restaurants worth crossing town for</h3>
-          <p>A curated list for every region — from old-school institutions to market stalls — each with the dish to order when you sit down.</p>
-        </div>
-        <div className="feature">
-          <span className="feature__label"><CalendarDays size={15} /> Festivals &amp; events</span>
-          <h3>Time your trip to something special</h3>
-          <p>A festival calendar for every country — carnivals, food fairs, saints' days and national holidays — so you can plan around the day it all happens.</p>
-        </div>
-        <div className="feature">
-          <span className="feature__label"><Landmark size={15} /> History, told properly</span>
-          <h3>The story behind the country</h3>
-          <p>A timeline from prehistory to today for every country — so the ruins, castles and old towns mean something when you stand in them.</p>
-        </div>
-        <div className="feature">
-          <span className="feature__label"><TrainFront size={15} /> Eat &amp; move like a local</span>
-          <h3>Food customs and getting around</h3>
-          <p>Practical guides to each country's food culture — how to order, what to avoid — and its trains, taxis and tickets, with honest warnings.</p>
-        </div>
+      <section className="wrap splits">
+        <Reveal className="split">
+          <div className="split__label">
+            <span className="feature__label"><Compass size={15} /> Region by region</span>
+            <h3 className="split__title">Every place, mapped and worth your time</h3>
+          </div>
+          <div className="split__body">
+            <p>Each country is broken into its real regions, and every region into its towns, cities, islands and parks. Every place comes with the things to do there — walks, viewpoints, museums, beaches — the food to try, and the local customs worth knowing before you go.</p>
+          </div>
+        </Reveal>
+
+        <Reveal className="split split--reverse">
+          <div className="split__label">
+            <span className="feature__label"><UtensilsCrossed size={15} /> Eat &amp; celebrate</span>
+            <h3 className="split__title">Where to eat, and when to be there</h3>
+          </div>
+          <div className="split__body">
+            <p>A curated list of restaurants for every region — from old-school institutions to market stalls — each with the dish to order when you sit down. Plus a festival calendar for every country, so you can time your trip to the carnival, food fair or saint's day when it all happens.</p>
+          </div>
+        </Reveal>
+
+        <Reveal className="split">
+          <div className="split__label">
+            <span className="feature__label"><Landmark size={15} /> Understand it</span>
+            <h3 className="split__title">The story behind the country</h3>
+          </div>
+          <div className="split__body">
+            <p>A timeline from prehistory to today for every country — so the ruins, castles and old towns mean something when you stand in them. And practical guides to getting around: trains, taxis and tickets, with the honest warnings a good local would give you.</p>
+          </div>
+        </Reveal>
       </section>
 
       <section className="wrap planner-feat">
@@ -215,7 +215,7 @@ export default function LandingScreen() {
 
       <section className="wrap home-sec">
         <div className="home-sec__head">
-          <h2 className="sec-title">Top destinations</h2>
+          <h2 className="sec-title reveal-title">Top destinations</h2>
           <Link to={paths.destinations()} className="sec-link">All destinations <ArrowRight size={15} /></Link>
         </div>
         <ol className="topdest">
