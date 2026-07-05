@@ -31,9 +31,15 @@ async function profileFromReq(req) {
   const auth = req.headers.authorization || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : null
   if (token && oauth) {
-    const ticket = await oauth.verifyIdToken({ idToken: token, audience: clientId })
-    const p = ticket.getPayload()
-    return { id: p.sub, email: (p.email || '').toLowerCase(), name: p.name || p.email, picture: p.picture || '' }
+    // An expired/garbled Google token must read as "not signed in" (401),
+    // not an unhandled 500 — tokens expire hourly and stale tabs send them.
+    try {
+      const ticket = await oauth.verifyIdToken({ idToken: token, audience: clientId })
+      const p = ticket.getPayload()
+      return { id: p.sub, email: (p.email || '').toLowerCase(), name: p.name || p.email, picture: p.picture || '' }
+    } catch {
+      return null
+    }
   }
   // Dev fallback — only when Google isn't configured AND not in production.
   if (!oauth && !isProd) {
