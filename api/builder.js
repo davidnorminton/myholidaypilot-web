@@ -209,19 +209,30 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
 
     const query = (pl.data.imageQueries?.[0]) || `${pl.data.name} ${b.name}`
     const u = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape&content_filter=high`
-    const r = await fetch(u, { headers: { Authorization: `Client-ID ${uKey}` } })
+    // Guard the outbound call with a timeout so a hanging Unsplash request
+    // returns a clean error instead of letting the whole function 502.
+    let r
+    try {
+      const ctrl = new AbortController()
+      const t = setTimeout(() => ctrl.abort(), 12000)
+      r = await fetch(u, { headers: { Authorization: `Client-ID ${uKey}` }, signal: ctrl.signal })
+      clearTimeout(t)
+    } catch (e) {
+      throw fail(502, e.name === 'AbortError'
+        ? 'Unsplash took too long to respond (timeout) — likely rate-limited; wait and retry.'
+        : `Could not reach Unsplash: ${String(e.message || e).slice(0, 120)}`)
+    }
     if (!r.ok) {
-      const body = (await r.text()).slice(0, 200)
-      // 429 = rate limit (retry later). 401/403 = bad key or exhausted demo
-      // quota (won't fix itself by waiting). Pass status through so the UI
-      // can tell them apart.
+      let body = ''
+      try { body = (await r.text()).slice(0, 200) } catch { /* ignore */ }
       const label = r.status === 429 ? 'Rate Limit Exceeded (429)'
         : r.status === 401 ? 'Unauthorized (401) — check your Unsplash Access Key'
         : r.status === 403 ? 'Forbidden (403) — demo quota likely exhausted; apply for Production access or check your key'
         : `HTTP ${r.status}`
       throw fail(r.status === 401 ? 400 : 502, `Unsplash ${label}: ${body}`)
     }
-    const j = await r.json()
+    let j
+    try { j = await r.json() } catch { throw fail(502, 'Unsplash returned an unreadable response — retry.') }
     const hit = j.results?.[0]
     if (!hit) throw fail(502, `No image found for "${query}" — edit the place's image query and retry`)
     const image = {
