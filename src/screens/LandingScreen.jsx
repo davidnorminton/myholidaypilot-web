@@ -10,6 +10,16 @@ import { useSeo } from '../lib/seo.js'
 
 const HERO = 'https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600'
 
+
+// Global tourist-arrival ranking (most-visited first) — used to order the
+// "Top destinations" list. Countries not listed fall to the end.
+const VISIT_RANK = {
+  france: 1, spain: 2, united_states: 3, italy: 4, united_kingdom: 6,
+  germany: 7, greece: 9, japan: 11, portugal: 14, netherlands: 15,
+  poland: 16, switzerland: 18, sweden: 22, norway: 24, south_korea: 25,
+}
+const visitRank = (slug) => VISIT_RANK[slug] ?? 999
+
 export default function LandingScreen() {
   const site = useSettings()
   useSeo({ path: '/' })
@@ -205,23 +215,28 @@ export default function LandingScreen() {
 
       <section className="wrap home-sec">
         <div className="home-sec__head">
-          <h2 className="sec-title">Choose a destination</h2>
+          <h2 className="sec-title">Top destinations</h2>
           <Link to={paths.destinations()} className="sec-link">All destinations <ArrowRight size={15} /></Link>
         </div>
-        <div className="dest-row">
-          {COUNTRIES.filter((c) => c.available).map((c) => (
-            <Link key={c.slug} to={paths.country(c.slug)} className="dest dest--on">
-              <span className="dest__flag">{c.flag}</span>
-              <div>
-                <h3 className="dest__name">{c.name}</h3>
-                <p className="dest__meta">
-                  {c.slug === 'italy' && stats ? `${stats.regions} regions · ${stats.places} places` : c.blurb || 'Ready to explore'}
-                </p>
-              </div>
-              <ArrowRight size={18} className="dest__go" />
-            </Link>
-          ))}
-        </div>
+        <ol className="topdest">
+          {COUNTRIES.filter((c) => c.available)
+            .slice()
+            .sort((a, b) => visitRank(a.slug) - visitRank(b.slug))
+            .slice(0, 10)
+            .map((c, i) => (
+              <li key={c.slug}>
+                <Link to={paths.country(c.slug)} className="topdest__row">
+                  <span className="topdest__rank">{i + 1}</span>
+                  <span className="topdest__flag">{c.flag}</span>
+                  <span className="topdest__name">{c.name}</span>
+                  <span className="topdest__meta">
+                    {c.slug === 'italy' && stats ? `${stats.regions} regions · ${stats.places} places` : c.blurb}
+                  </span>
+                  <ArrowRight size={17} className="topdest__go" />
+                </Link>
+              </li>
+            ))}
+        </ol>
       </section>
 
 

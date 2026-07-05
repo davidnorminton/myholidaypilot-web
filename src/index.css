@@ -2536,3 +2536,27 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
   .sec-title{font-size:clamp(22px,7vw,30px)}
   .dest-row{grid-template-columns:1fr; gap:10px}
 }
+
+/* --- Landing: Top destinations ranked list --- */
+.topdest{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.topdest__row{
+  display:flex; align-items:center; gap:16px; padding:15px 18px; text-decoration:none;
+  border-radius:12px; transition:background .12s;
+}
+.topdest__row:hover{background:#fff}
+.topdest__rank{
+  flex:none; width:26px; font-family:var(--serif); font-size:20px; font-weight:400;
+  color:var(--gold); text-align:center; line-height:1;
+}
+.topdest__flag{flex:none; font-size:24px; line-height:1}
+.topdest__name{flex:none; font-family:var(--serif); font-size:19px; color:var(--ink); min-width:150px}
+.topdest__meta{flex:1; min-width:0; font-size:14px; color:var(--muted); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.topdest__go{flex:none; color:var(--faint); transition:color .12s, transform .12s}
+.topdest__row:hover .topdest__go{color:var(--gold); transform:translateX(3px)}
+.topdest li + li{border-top:0.5px solid var(--line)}
+@media (max-width:640px){
+  .topdest__row{gap:12px; padding:13px 10px}
+  .topdest__name{min-width:0; flex:1; font-size:17px}
+  .topdest__meta{display:none}
+  .topdest__go{display:none}
+}
