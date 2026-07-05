@@ -2580,3 +2580,10 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
   .plan-hero__media{width:100%; aspect-ratio:16/7}
   .plan-hero__media::after{font-size:44px}
 }
+
+/* --- Page heroes: match the Plan layout (wide, text-left, image-right) --- */
+.guided__head.plan-hero, .dtf__head.plan-hero, .gal__head.plan-hero{
+  max-width:1100px; margin-inline:auto; text-align:left;
+}
+.plan-hero .guided__title, .plan-hero .dtf__title, .plan-hero .gal__title{ margin-inline:0 }
+.plan-hero .guided__sub, .plan-hero .dtf__sub, .plan-hero .gal__sub{ margin-inline:0; max-width:46ch }
