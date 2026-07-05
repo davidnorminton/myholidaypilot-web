@@ -13,7 +13,7 @@ import { shareUrl } from '../lib/tripShare.js'
 import TripReadiness from '../components/TripReadiness.jsx'
 import StaysEditor from '../components/StaysEditor.jsx'
 import TravelEditor from '../components/TravelEditor.jsx'
-import CountryPicker from '../components/CountryPicker.jsx'
+import NewTripFlow from '../components/NewTripFlow.jsx'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { typeLabel } from '../lib/format.js'
@@ -241,10 +241,7 @@ export default function PlanScreen() {
       {packingOpen && trip && <PackingList trip={trip} onClose={() => setPackingOpen(false)} />}
       {budgetOpen && trip && <BudgetPanel trip={trip} onClose={() => setBudgetOpen(false)} />}
       {publishOpen && trip && <PublishTrip trip={trip} onClose={() => setPublishOpen(false)} />}
-      {pickingCountry && (
-        <CountryPicker onPick={(c) => { createTrip(`Trip ${snap.trips.length + 1}`, c); setPickingCountry(false) }}
-          onClose={() => setPickingCountry(false)} />
-      )}
+      <NewTripFlow open={pickingCountry} onClose={() => setPickingCountry(false)} />
       {planFor && trip && (
         <PlacePlanner key={`${planFor.regionId}/${planFor.placeId}`} tripId={trip.id} regionId={planFor.regionId} placeId={planFor.placeId}
           range={{ start: trip.startDate, end: trip.endDate }} onClose={() => setPlanFor(null)} />
