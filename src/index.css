@@ -2595,11 +2595,11 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 
 /* --- Split sections (title left, body right, alternating) --- */
 .splits{display:flex; flex-direction:column; gap:0; padding-block:20px 40px}
-.split{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; padding:44px 0; border-top:0.5px solid var(--line)}
+.split{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; padding:44px 0; border-top:0.5px solid var(--line)}
 .split:first-child{border-top:0}
 .split--reverse .split__label{order:2}
 .split--reverse .split__body{order:1}
-.split__label{display:flex; flex-direction:column; gap:12px; align-items:center; text-align:center}
+.split__label{display:flex; flex-direction:column; gap:12px}
 .split__title{font-family:var(--serif); font-weight:400; font-size:clamp(26px,3vw,36px); line-height:1.1; letter-spacing:-.015em; margin:0; color:var(--ink)}
 .split__body p{font-size:clamp(16px,1.6vw,18px); line-height:1.65; color:var(--muted); margin:0}
 .split__body{padding-top:6px}
