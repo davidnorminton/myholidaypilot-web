@@ -294,6 +294,20 @@ Respond with ONLY a single valid JSON object, no fences, no preamble. Escape any
     return send(res, 200, { done: true })
   }
 
+  // set (or clear) a region's hero image explicitly (URL from admin)
+  if (req.method === 'POST' && q.action === 'regionhero') {
+    const body = await readBody(req)
+    const [reg] = await db.select().from(buildRegions)
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    if (!reg) throw fail(404, 'No such region')
+    const url = String(body.url || '').trim()
+    const data = { ...reg.data,
+      heroImage: url ? { index: 0, assetPath: '', isLocal: false, url, credit: String(body.credit || '') } : null }
+    await db.update(buildRegions).set({ data, updatedAt: Date.now() })
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    return send(res, 200, { done: true })
+  }
+
   // ── stages 7–10: country-level guides (festivals/history/food/transport) ────
   if (req.method === 'POST' && q.action === 'guide') {
     const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
@@ -559,8 +573,12 @@ Respond with ONLY valid JSON, no fences:
         placeCount: placeObjs.length, places: placeObjs,
         restaurantCount: restaurants.length, restaurants,
       }
-      // region summary for index.json (hero = first place's image if any)
-      const hero = rPlaces.find((p) => p.image)?.image || { index: 0, assetPath: '', isLocal: false, url: '', credit: '' }
+      // region summary for index.json — hero priority:
+      // 1) explicit hero set in the builder, else 2) first place's image
+      const firstPlaceImg = rPlaces.find((p) => p.image)?.image
+      const hero = (rd.heroImage && rd.heroImage.url)
+        ? rd.heroImage
+        : (firstPlaceImg || { index: 0, assetPath: '', isLocal: false, url: '', credit: '' })
       indexRegions.push({
         id: rd.id, name: rd.name, nameIt: rd.nameIt, capital: rd.capital,
         lat: rd.lat, lng: rd.lng, emoji: rd.emoji, colour: rd.colour, boundingBox: rd.boundingBox,

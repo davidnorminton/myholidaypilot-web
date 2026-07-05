@@ -8,6 +8,11 @@ import { clearSettingsCache } from '../../lib/settings.js'
 // Site-wide content: the home hero (image + headline + subline) and an
 // optional hero image override per region (defaults to the region's first
 // place photo when blank).
+const HUB_SECTIONS = [
+  ['regions', 'Regions'], ['festivals', 'Festivals & events'], ['history', 'History'],
+  ['food', 'Food & wine'], ['transport', 'Getting around'], ['plan', 'Plan a trip'],
+]
+
 export default function AdminSite({ regions = [] }) {
   const [s, setS] = useState(null)
   const [saving, setSaving] = useState(false)
@@ -69,11 +74,20 @@ export default function AdminSite({ regions = [] }) {
           ? 'These images are used by every country that has no image of its own set below. Set six here and the whole site is covered.'
           : `Overrides for ${(COUNTRIES.find((c) => c.slug === hubCountry) || {}).name} only — leave blank to use the default image.`}
       </p>
+      {hubCountry !== 'default' && (
+        <button className="btn btn--soft" style={{ marginBottom: 12 }}
+          onClick={() => {
+            HUB_SECTIONS.forEach(([id]) => {
+              const cur = val(`hub.${hubCountry}.${id}`)
+              if (cur) setVal(`hub.default.${id}`, cur)
+            })
+            setHubCountry('default')
+          }}>
+          Copy these to Default (use for all countries)
+        </button>
+      )}
       <div className="admin-grid2">
-        {[
-          ['regions', 'Regions'], ['festivals', 'Festivals & events'], ['history', 'History'],
-          ['food', 'Food & wine'], ['transport', 'Getting around'], ['plan', 'Plan a trip'],
-        ].map(([id, label]) => (
+        {HUB_SECTIONS.map(([id, label]) => (
           <ImageField key={`${hubCountry}.${id}`} label={label}
             value={val(`hub.${hubCountry}.${id}`)}
             onChange={(v) => setVal(`hub.${hubCountry}.${id}`, v)} />

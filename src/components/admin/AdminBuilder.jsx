@@ -232,6 +232,8 @@ function RegionPlaces({ countryId, region, onBack }) {
   const [imgRun, setImgRun] = useState(null)
   const [imgErr, setImgErr] = useState('')
   const [rstBusy, setRstBusy] = useState('')   // '' | 'restaurants' | 'prose'
+  const [heroUrl, setHeroUrl] = useState(region.data?.heroImage?.url || '')
+  const [heroBusy, setHeroBusy] = useState(false)
   const [rstMsg, setRstMsg] = useState('')
   const d = region.data
   // persistent state from the stored region data (survives navigation)
@@ -390,6 +392,22 @@ function RegionPlaces({ countryId, region, onBack }) {
               {hasProse ? 'History & notes ✓' : 'History & notes (region)'}
             </button>
             {rstMsg && <span className="bld__detailnote">{rstMsg}</span>}
+          </div>
+        )}
+
+        {has && (
+          <div className="bld__regionhero">
+            <label className="admin-field__label">Region hero image (optional)</label>
+            <div className="bld__herorow">
+              <input className="bld__input" placeholder="Image URL — leave blank to use the first place's image"
+                value={heroUrl} onChange={(e) => setHeroUrl(e.target.value)} />
+              <button className="btn btn--soft" disabled={heroBusy}
+                onClick={async () => {
+                  setHeroBusy(true)
+                  try { await api.builder.setRegionHero(countryId, region.regionId, heroUrl.trim(), '') ; setRstMsg('Region hero saved ✓') }
+                  catch (e) { setRstMsg(e.message) } finally { setHeroBusy(false) }
+                }}>Save hero</button>
+            </div>
           </div>
         )}
 
