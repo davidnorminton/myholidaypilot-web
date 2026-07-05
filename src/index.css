@@ -2479,3 +2479,23 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .gq__select select:hover{border-color:var(--ink-muted, #b0a99c)}
 .gq__select select:focus{outline:none; border-color:var(--gold); box-shadow:0 0 0 3px color-mix(in srgb, var(--gold) 20%, transparent)}
 .dtf__countries{margin-bottom:20px}
+
+/* --- Destinations: compact country cards --- */
+.dest-filter{margin-bottom:20px}
+.dest-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:12px}
+.dcard{
+  display:flex; align-items:center; gap:14px; padding:16px 18px;
+  border:0.5px solid var(--line); border-radius:13px; background:#fff; text-decoration:none;
+  transition:border-color .12s, box-shadow .12s, transform .12s;
+}
+.dcard:hover{border-color:var(--ink-muted, #b0a99c); box-shadow:0 3px 14px rgba(0,0,0,.06); transform:translateY(-1px)}
+.dcard__flag{font-size:26px; line-height:1; flex:none}
+.dcard__name{flex:1; font-size:17px; font-weight:600; color:var(--ink); font-family:var(--font-serif, Georgia, serif)}
+.dcard__go{flex:none; color:var(--ink-muted, #7c766c); transition:color .12s, transform .12s}
+.dcard:hover .dcard__go{color:var(--gold); transform:translateX(2px)}
+@media (max-width: 520px){
+  .dest-grid{grid-template-columns:1fr 1fr; gap:10px}
+  .dcard{flex-direction:column; text-align:center; gap:8px; padding:16px 12px}
+  .dcard__name{flex:none; font-size:15px}
+  .dcard__go{display:none}
+}
