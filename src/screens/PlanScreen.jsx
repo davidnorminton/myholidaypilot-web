@@ -108,7 +108,8 @@ export default function PlanScreen() {
                 {t.name}<span className="trip-pill__n">{t.places.length}</span>
               </button>
             ))}
-            <button className="trip-pill trip-pill--new" onClick={() => setPickingCountry(true)}>
+            <button className="trip-pill trip-pill--new"
+              onClick={() => { console.log('[mhp-debug] New trip clicked — opening picker'); setPickingCountry(true) }}>
               <Plus size={15} /> New trip
             </button>
           </div>
