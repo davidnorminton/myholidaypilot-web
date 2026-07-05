@@ -87,7 +87,7 @@ export default function LandingScreen() {
         </Reveal>
       </section>
 
-      <section className="wrap planner-feat">
+      <Reveal className="wrap planner-feat" as="section">
         <div className="planner-feat__copy">
           <p className="eyebrow">The trip planner</p>
           <h2 className="planner-feat__title">From saved places to a day-by-day plan</h2>
@@ -141,7 +141,7 @@ export default function LandingScreen() {
             <div className="pm__map"><MapPin size={13} /> Day map · best route · PDF &amp; share link</div>
           </div>
         </div>
-      </section>
+      </Reveal>
 
       <section className="wrap duo">
         <article className="duo__card">
@@ -215,17 +215,17 @@ export default function LandingScreen() {
 
       <section className="wrap home-sec">
         <div className="home-sec__head">
-          <h2 className="sec-title reveal-title">Top destinations</h2>
+          <Reveal as="h2" className="sec-title">Top destinations</Reveal>
           <Link to={paths.destinations()} className="sec-link">All destinations <ArrowRight size={15} /></Link>
         </div>
-        <ol className="topdest">
+        <Reveal as="ol" className="topdest">
           {COUNTRIES.filter((c) => c.available)
             .slice()
             .sort((a, b) => visitRank(a.slug) - visitRank(b.slug))
             .slice(0, 10)
             .map((c, i) => (
               <li key={c.slug}>
-                <Link to={paths.country(c.slug)} className="topdest__row">
+                <Link to={paths.country(c.slug)} className="topdest__row reveal-row" style={{ transitionDelay: `${i * 45}ms` }}>
                   <span className="topdest__rank">{i + 1}</span>
                   <span className="topdest__flag">{c.flag}</span>
                   <span className="topdest__name">{c.name}</span>
@@ -236,13 +236,13 @@ export default function LandingScreen() {
                 </Link>
               </li>
             ))}
-        </ol>
+        </Reveal>
       </section>
 
 
       <section className="wrap home-sec">
         <div className="home-sec__head">
-          <h2 className="sec-title">From the blog</h2>
+          <Reveal as="h2" className="sec-title">From the blog</Reveal>
           <Link to={paths.blog()} className="sec-link">All posts <ArrowRight size={15} /></Link>
         </div>
         <div className="grid grid--posts">

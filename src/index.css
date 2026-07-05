@@ -2599,7 +2599,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .split:first-child{border-top:0}
 .split--reverse .split__label{order:2}
 .split--reverse .split__body{order:1}
-.split__label{display:flex; flex-direction:column; gap:12px}
+.split__label{display:flex; flex-direction:column; gap:12px; align-items:center; text-align:center}
 .split__title{font-family:var(--serif); font-weight:400; font-size:clamp(26px,3vw,36px); line-height:1.1; letter-spacing:-.015em; margin:0; color:var(--ink)}
 .split__body p{font-size:clamp(16px,1.6vw,18px); line-height:1.65; color:var(--muted); margin:0}
 .split__body{padding-top:6px}
@@ -2623,3 +2623,13 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .land-hero__sub{animation:heroIn .8s cubic-bezier(.22,.61,.36,1) .12s both}
 .land-hero__cta{animation:heroIn .8s cubic-bezier(.22,.61,.36,1) .24s both}
 @media (prefers-reduced-motion: reduce){ .land-hero__title,.land-hero__sub,.land-hero__cta{animation:none} }
+
+/* --- Reveal variants --- */
+
+/* staggered rows inside a revealed list */
+.topdest.reveal .topdest__row.reveal-row{opacity:0; transform:translateX(-10px); transition:opacity .5s ease, transform .5s ease}
+.topdest.reveal--in .topdest__row.reveal-row{opacity:1; transform:none}
+@media (prefers-reduced-motion: reduce){
+  .reveal-title{opacity:1; transform:none; animation:none}
+  .topdest .topdest__row.reveal-row{opacity:1; transform:none; transition:none}
+}
