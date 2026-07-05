@@ -63,17 +63,20 @@ export function GalleryScreen() {
       </header>
 
       <div className="gal__filters">
-        <div className="gq__chips">
-          {COUNTRIES.map((c) => (
-            <button key={c.slug} disabled={!c.available}
-              className={`gq__chip ${country === c.slug ? 'is-on' : ''}`}
-              onClick={() => setCountry(c.slug)}>{c.flag} {c.name}{c.available ? '' : ' · soon'}</button>
-          ))}
-        </div>
-        <div className="gq__chips">
-          {LENGTHS.map((l) => (
-            <button key={l.id} className={`gq__chip ${len === l.id ? 'is-on' : ''}`} onClick={() => setLen(l.id)}>{l.label}</button>
-          ))}
+        <div className="gq__row">
+          <label className="gq__select">
+            <span className="gq__selectlabel">Destination</span>
+            <select value={country} onChange={(e) => setCountry(e.target.value)}>
+              {COUNTRIES.filter((c) => c.available).map((c) => (
+                <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
+              ))}
+            </select>
+          </label>
+          <div className="gq__chips">
+            {LENGTHS.map((l) => (
+              <button key={l.id} className={`gq__chip ${len === l.id ? 'is-on' : ''}`} onClick={() => setLen(l.id)}>{l.label}</button>
+            ))}
+          </div>
         </div>
         {regions.length > 2 && (
           <div className="gq__chips">

@@ -88,11 +88,14 @@ export default function DayTripsScreen() {
       </header>
 
       <div className="dtf__countries">
-        {COUNTRIES.map((c) => (
-          <button key={c.slug} disabled={!c.available}
-            className={`gq__chip ${country === c.slug ? 'is-on' : ''}`}
-            onClick={() => setCountry(c.slug)}>{c.flag} {c.name}{c.available ? '' : ' · soon'}</button>
-        ))}
+        <label className="gq__select">
+          <span className="gq__selectlabel">Destination</span>
+          <select value={country} onChange={(e) => setCountry(e.target.value)}>
+            {COUNTRIES.filter((c) => c.available).map((c) => (
+              <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
+            ))}
+          </select>
+        </label>
       </div>
 
       {!base ? (
