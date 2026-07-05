@@ -210,7 +210,17 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     const query = (pl.data.imageQueries?.[0]) || `${pl.data.name} ${b.name}`
     const u = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape&content_filter=high`
     const r = await fetch(u, { headers: { Authorization: `Client-ID ${uKey}` } })
-    if (!r.ok) throw fail(r.status === 401 ? 400 : 502, `Unsplash: ${(await r.text()).slice(0, 160)}`)
+    if (!r.ok) {
+      const body = (await r.text()).slice(0, 200)
+      // 429 = rate limit (retry later). 401/403 = bad key or exhausted demo
+      // quota (won't fix itself by waiting). Pass status through so the UI
+      // can tell them apart.
+      const label = r.status === 429 ? 'Rate Limit Exceeded (429)'
+        : r.status === 401 ? 'Unauthorized (401) — check your Unsplash Access Key'
+        : r.status === 403 ? 'Forbidden (403) — demo quota likely exhausted; apply for Production access or check your key'
+        : `HTTP ${r.status}`
+      throw fail(r.status === 401 ? 400 : 502, `Unsplash ${label}: ${body}`)
+    }
     const j = await r.json()
     const hit = j.results?.[0]
     if (!hit) throw fail(502, `No image found for "${query}" — edit the place's image query and retry`)

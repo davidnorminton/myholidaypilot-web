@@ -274,21 +274,31 @@ function RegionPlaces({ countryId, region, onBack }) {
     const todo = (places || []).filter((p) => !hasImage(p))
     const failed = []
     let rateLimited = false
+    let lastError = ''
     for (const p of todo) {
       setImgRun({ current: p.placeId })
       try {
         await api.builder.genImage(countryId, region.regionId, p.placeId)
         const r = await api.builder.region(countryId, region.regionId); setPlaces(r.places)
       } catch (e) {
-        // Rate limit = stop early (retry after the hour); any other failure
-        // (no photo found, etc.) = skip this place and keep going.
-        if (/rate|429|limit/i.test(e.message)) { rateLimited = true; break }
+        lastError = e.message
+        // Only a genuine HTTP 429 / "Rate Limit Exceeded" means wait-and-retry.
+        // Anything else (bad key, no photo, quota exhausted) is a real error we
+        // must surface — not silently blamed on the hourly window.
+        if (/\b429\b|rate limit exceeded/i.test(e.message)) { rateLimited = true; break }
         failed.push(p.data.name)
       }
     }
     setImgRun(null)
-    if (rateLimited) setImgErr('Unsplash hourly limit hit — wait for the hour to roll over and click again; done places are skipped.')
-    else if (failed.length) setImgErr(`No photo found for ${failed.length}: ${failed.join(', ')}. Add these manually below.`)
+    if (rateLimited) {
+      setImgErr('Unsplash rate limit (429) hit — wait for the hour to roll over and click again; done places are skipped.')
+    } else if (failed.length === todo.length && lastError) {
+      // every place failed the same way → it's not "no photo found", it's a
+      // key/quota/config problem. Show the actual Unsplash error.
+      setImgErr(`Image fetch failed — this looks like a key or account issue, not the hourly limit. Unsplash said: ${lastError}`)
+    } else if (failed.length) {
+      setImgErr(`No photo found for ${failed.length}: ${failed.join(', ')}. Add these manually below.`)
+    }
   }
 
   const refreshRegion = async () => {
