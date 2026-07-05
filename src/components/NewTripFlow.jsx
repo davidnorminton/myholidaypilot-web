@@ -10,15 +10,11 @@ export default function NewTripFlow({ open, onClose }) {
   const navigate = useNavigate()
   const snap = useTrips()
   if (!open) return null
-  console.log('[mhp-debug] NewTripFlow mounted — picker should be visible')
   const pick = (countryId) => {
-    console.log('[mhp-debug] country picked:', countryId)
     const id = createTrip(`Trip ${snap.trips.length + 1}`, countryId)
-    console.log('[mhp-debug] trip created:', id)
     setActiveTrip(id)
     onClose()
     navigate(paths.plan())
-    console.log('[mhp-debug] flow complete')
-  }
+    }
   return <CountryPicker onPick={pick} onClose={onClose} />
 }

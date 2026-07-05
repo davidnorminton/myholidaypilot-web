@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom'
 import { X } from 'lucide-react'
 import { COUNTRIES } from '../lib/countries.js'
 
@@ -28,7 +29,7 @@ const S = {
 }
 
 export default function CountryPicker({ onPick, onClose }) {
-  return (
+  const modal = (
     <div className="cpick__backdrop" style={S.backdrop} onClick={onClose}>
       <div className="cpick" style={S.panel} role="dialog" aria-label="Choose a country" onClick={(e) => e.stopPropagation()}>
         <header className="cpick__head" style={S.head}>
@@ -50,4 +51,5 @@ export default function CountryPicker({ onPick, onClose }) {
       </div>
     </div>
   )
+  return typeof document !== 'undefined' ? createPortal(modal, document.body) : modal
 }
