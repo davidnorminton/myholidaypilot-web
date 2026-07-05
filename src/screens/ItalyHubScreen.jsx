@@ -49,7 +49,7 @@ export default function ItalyHubScreen() {
 
       <main className="wrap">
         <div className="hub-grid">
-          {(sections || []).map((raw) => { const s = { ...raw, image: site[`hub.${country}.${raw.id}`] || raw.image }; return (
+          {(sections || []).map((raw) => { const s = { ...raw, image: site[`hub.${country}.${raw.id}`] || site[`hub.default.${raw.id}`] || raw.image }; return (
             <Link key={s.id} to={s.link} className="hub-card">
               <span className="hub-card__media" data-emoji={EMOJI[s.id] || meta?.flag || '🌍'}>
                 {s.image && <img src={s.image} alt={s.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />}

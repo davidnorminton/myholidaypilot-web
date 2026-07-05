@@ -13,7 +13,7 @@ export default function AdminSite({ regions = [] }) {
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [dirty, setDirty] = useState({})
-  const [hubCountry, setHubCountry] = useState('italy')
+  const [hubCountry, setHubCountry] = useState('default')
 
   useEffect(() => {
     api.settings.get().then((r) => setS(r || {})).catch(() => setS({}))
@@ -55,14 +55,20 @@ export default function AdminSite({ regions = [] }) {
         The pictures on each country's hub cards (Regions, Festivals, History, Food, Getting around, Plan).
         These override the country's hub.json, so they apply instantly — no redeploy needed.
       </p>
-      <label className="admin-field" style={{ maxWidth: 220 }}>
+      <label className="admin-field" style={{ maxWidth: 260 }}>
         <span className="admin-field__label">Country</span>
         <select value={hubCountry} onChange={(e) => setHubCountry(e.target.value)}>
+          <option value="default">🌍 Default — all countries</option>
           {COUNTRIES.filter((c) => c.available).map((c) => (
             <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
           ))}
         </select>
       </label>
+      <p className="admin-note" style={{ marginTop: 6 }}>
+        {hubCountry === 'default'
+          ? 'These images are used by every country that has no image of its own set below. Set six here and the whole site is covered.'
+          : `Overrides for ${(COUNTRIES.find((c) => c.slug === hubCountry) || {}).name} only — leave blank to use the default image.`}
+      </p>
       <div className="admin-grid2">
         {[
           ['regions', 'Regions'], ['festivals', 'Festivals & events'], ['history', 'History'],
