@@ -1,0 +1,1373 @@
+{
+  "id": "west_pomerania",
+  "name": "West Pomerania",
+  "nameIt": "Zachodniopomorskie",
+  "capital": "Szczecin",
+  "lat": 53.4,
+  "lng": 14.5,
+  "emoji": "🌊",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 54,
+    "south": 52.5,
+    "east": 16.5,
+    "west": 13
+  },
+  "history": "West Pomerania has a complex and layered history shaped by its position on the Baltic coast and at the crossroads of Polish, German, and Scandinavian influences. The region was historically known as Pomerania and changed hands multiple times between Polish rulers, the German state of Prussia, and Sweden before becoming firmly part of Poland after World War II. The cities of Szczecin and Swinoujscie were heavily damaged during the war but were rebuilt as symbols of Polish recovery and sovereignty. Today the region represents a blend of Slavic traditions with Germanic architectural and cultural remnants from its earlier periods.",
+  "culturalNotes": "West Pomerania is defined by its maritime heritage and coastal character, with fishing traditions and seafaring culture deeply embedded in daily life and local cuisine. The region celebrates its Baltic identity through numerous festivals, museums dedicated to shipbuilding and naval history, and a strong connection to traditional wooden boat craftsmanship. Local pride centers on the Oder River and the ports of Szczecin, which have served as cultural and economic hubs for centuries and continue to shape the region's outward-looking, cosmopolitan character.",
+  "bestTimeToVisit": "Visit from June to September for coastal scenery and beach resorts.",
+  "languageNotes": "Polish is the official language, though the local Pomeranian dialect adds color to everyday speech with distinctive phonetic features and vocabulary inherited from Kashubian and Baltic influences. Visitors will find that standard Polish serves well, though learning phrases like 'Dzien dobry' (good day) and 'Dziękuję' (thank you) is warmly appreciated by locals who value courtesy and connection.",
+  "generatedAt": "2026-07-05T09:04:30.847Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "szczecin",
+      "name": "Szczecin",
+      "nameIt": "Szczecin",
+      "lat": 53.429,
+      "lng": 14.553,
+      "type": "CITY",
+      "description": "The dynamic regional capital and Poland's main seaport, featuring the impressive Castle of the Dukes of Pomerania and a vibrant riverside promenade. It's an essential stop for history, culture, and urban exploration with excellent museums and architecture.",
+      "imageQueries": [
+        "Szczecin Castle Pomerania",
+        "Szczecin waterfront Oder River"
+      ],
+      "activities": [
+        {
+          "id": "szcz_1",
+          "text": "Castle of the Dukes of Pomerania",
+          "detail": "This Renaissance palace dominates the city center and houses the National Museum with collections spanning medieval art, weapons, and regional history.",
+          "lat": 53.4283,
+          "lng": 14.5589
+        },
+        {
+          "id": "szcz_2",
+          "text": "Riverside Promenade (Wały Chrobrego)",
+          "detail": "A scenic waterfront boulevard along the Oder River lined with historic buildings, cafes, and parks offering views of the harbor and opposite bank.",
+          "lat": 53.4308,
+          "lng": 14.5411
+        },
+        {
+          "id": "szcz_3",
+          "text": "Cathedral of St. James",
+          "detail": "A Gothic masterpiece with a soaring interior and the famous Pomeranian coat of arms, located in the heart of the Old Town.",
+          "lat": 53.4267,
+          "lng": 14.5631
+        },
+        {
+          "id": "szcz_4",
+          "text": "Museum of Contemporary Art",
+          "detail": "Poland's leading contemporary art institution showcasing Polish and international modern works in a converted warehouse space.",
+          "lat": 53.4201,
+          "lng": 14.5389
+        },
+        {
+          "id": "szcz_5",
+          "text": "Pomeranian Dukes' Cemetery",
+          "detail": "A serene Gothic and Renaissance burial ground with ornate tombstones and chapels reflecting centuries of regional aristocratic history.",
+          "lat": 53.4298,
+          "lng": 14.5559
+        },
+        {
+          "id": "szcz_6",
+          "text": "Harbor Cruises",
+          "detail": "Boat tours departing from the waterfront that navigate the Oder River estuary and Poland's busiest seaport, offering maritime heritage insights."
+        }
+      ],
+      "food": [
+        {
+          "id": "szcz_f1",
+          "text": "Żurek",
+          "detail": "A traditional sour rye soup served in a bread bowl, flavored with fermented rye starter and pork, warming and distinctly Polish."
+        },
+        {
+          "id": "szcz_f2",
+          "text": "Herring Platters",
+          "detail": "Fresh Baltic herring prepared multiple ways—marinated, smoked, or in cream sauce—reflecting Szczecin's fishing port heritage."
+        },
+        {
+          "id": "szcz_f3",
+          "text": "Pomeranian Duck (Kaczka Pomorska)",
+          "detail": "Slow-roasted regional duck served with red cabbage and potatoes, a celebratory dish featured in traditional restaurants."
+        },
+        {
+          "id": "szcz_f4",
+          "text": "Pierniki",
+          "detail": "Thick gingerbread cookies with jam or chocolate filling, a beloved local sweet treat sold at markets and bakeries."
+        },
+        {
+          "id": "szcz_f5",
+          "text": "Salmon Soup (Zupa Łososiowa)",
+          "detail": "A creamy Baltic salmon bisque flavored with dill, reflecting the city's maritime bounty and Scandinavian influences."
+        }
+      ],
+      "culture": [
+        {
+          "id": "szcz_c1",
+          "text": "Learn basic Polish greetings",
+          "detail": "Locals appreciate visitors who attempt 'Dzień dobry' (good day) and 'Dziękuję' (thank you), as English is less common outside tourist areas."
+        },
+        {
+          "id": "szcz_c2",
+          "text": "Visit on market days",
+          "detail": "The Old Town Square hosts vibrant weekend markets where you can experience local vendors, regional crafts, and community life authentically."
+        },
+        {
+          "id": "szcz_c3",
+          "text": "Respect World War II heritage",
+          "detail": "Szczecin was heavily damaged and rebuilt; monuments and museums address this sobering history as a key part of local identity."
+        },
+        {
+          "id": "szcz_c4",
+          "text": "Embrace waterfront culture",
+          "detail": "The Oder River and port define Szczecin's identity, so riverside walks, harbor observation, and seafood dining are core to the local experience."
+        }
+      ]
+    },
+    {
+      "id": "swinoujscie",
+      "name": "Świnoujście",
+      "nameIt": "Świnoujście",
+      "lat": 53.911,
+      "lng": 14.256,
+      "type": "COASTAL",
+      "description": "Poland's northernmost coastal resort town with wide sandy beaches and a pier extending into the Baltic Sea, famous for its lighthouse and elegant spa atmosphere. It's the primary seaside destination for relaxation and beach activities in the region.",
+      "imageQueries": [
+        "Świnoujście lighthouse Baltic",
+        "Świnoujście beach pier"
+      ],
+      "activities": [
+        {
+          "id": "swin_1",
+          "text": "Świnoujście Pier",
+          "detail": "Walk or stroll along Poland's longest pier extending 560 meters into the Baltic Sea, offering panoramic views and a classic seaside promenade experience.",
+          "lat": 53.9117,
+          "lng": 14.2397
+        },
+        {
+          "id": "swin_2",
+          "text": "East Lighthouse (Latarnia Wschodnia)",
+          "detail": "Climb the iconic red-and-white striped lighthouse built in 1857 for sweeping views of the coastline and Pomeranian Bay.",
+          "lat": 53.9139,
+          "lng": 14.2481
+        },
+        {
+          "id": "swin_3",
+          "text": "West Lighthouse (Latarnia Zachodnia)",
+          "detail": "Visit the historic lighthouse on the western side of the harbor, accessible by a scenic waterfront walk and offering maritime heritage insights.",
+          "lat": 53.9072,
+          "lng": 14.2206
+        },
+        {
+          "id": "swin_4",
+          "text": "Beach Swimming and Sunbathing",
+          "detail": "Enjoy the wide sandy beaches along the Baltic coastline, which are cleaned regularly and equipped with modern facilities and seasonal lifeguard supervision.",
+          "lat": 53.91,
+          "lng": 14.235
+        },
+        {
+          "id": "swin_5",
+          "text": "Spa and Wellness Treatments",
+          "detail": "Experience traditional Baltic spa culture at local wellness centers offering mud treatments, salt therapy, and health-focused relaxation unique to Polish coastal resorts.",
+          "lat": 53.912,
+          "lng": 14.242
+        },
+        {
+          "id": "swin_6",
+          "text": "Oder River Mouth (Ujście Odry)",
+          "detail": "Take a boat tour or walk along the estuary where the Oder River meets the Baltic Sea, popular for bird watching and nature observation."
+        },
+        {
+          "id": "swin_7",
+          "text": "Museum of Deep-Sea Fisheries",
+          "detail": "Learn about the region's maritime heritage and traditional fishing methods through exhibits focused on the North Atlantic and Baltic fishing industry.",
+          "lat": 53.9095,
+          "lng": 14.2365
+        }
+      ],
+      "food": [
+        {
+          "id": "swin_f1",
+          "text": "Żurek (Sour Rye Soup)",
+          "detail": "A hearty traditional Polish soup made from fermented rye flour with pork and potatoes, often served in a rye bread bowl and popular in coastal regions."
+        },
+        {
+          "id": "swin_f2",
+          "text": "Smoked Baltic Herring",
+          "detail": "Fresh herring caught from the Baltic Sea and smoked using traditional methods, commonly served as an appetizer or sandwich filling."
+        },
+        {
+          "id": "swin_f3",
+          "text": "Pierniki (Gingerbread)",
+          "detail": "Torun-style gingerbread cookies with honey and spices, though local variations are sold throughout Świnoujście's seafront shops and cafés."
+        },
+        {
+          "id": "swin_f4",
+          "text": "Krab and Seafood Platters",
+          "detail": "Fresh Baltic crab, mussels, and other shellfish prepared simply to highlight local catch, available at waterfront restaurants near the pier."
+        },
+        {
+          "id": "swin_f5",
+          "text": "Paczki (Fried Pastries)",
+          "detail": "Sweet fried doughnuts filled with jam or custard, a beloved Polish treat especially popular during holidays and available year-round at local bakeries."
+        },
+        {
+          "id": "swin_f6",
+          "text": "Obwarzanek (Boiled Bread Ring)",
+          "detail": "A traditional Warsaw-style boiled bread ring topped with sesame or poppy seeds, sold by street vendors and bakeries throughout the town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "swin_c1",
+          "text": "Spa Town Etiquette",
+          "detail": "Świnoujście maintains a relaxed, health-conscious atmosphere where early morning walks and wellness routines are part of local culture; respect quiet hours and dress modestly in town center areas."
+        },
+        {
+          "id": "swin_c2",
+          "text": "Baltic Sea Respect",
+          "detail": "The Baltic waters are cold year-round and currents can be strong; always swim in designated areas, heed warning flags, and never underestimate the sea conditions."
+        },
+        {
+          "id": "swin_c3",
+          "text": "Seasonal Tourism Patterns",
+          "detail": "Summer (June-August) is peak season with crowded beaches and full services, while winter and shoulder seasons offer solitude; many attractions operate year-round despite fewer visitors."
+        },
+        {
+          "id": "swin_c4",
+          "text": "Polish Hospitality Customs",
+          "detail": "Locals appreciate politeness and basic Polish greetings like 'Dzień dobry' (good morning); tipping 10% is customary in restaurants and appreciated by service staff."
+        }
+      ]
+    },
+    {
+      "id": "miedzyzdroje",
+      "name": "Międzyzdroje",
+      "nameIt": "Międzyzdroje",
+      "lat": 53.875,
+      "lng": 14.433,
+      "type": "COASTAL",
+      "description": "A charming seaside town nestled between wooded cliffs on the Baltic shore, offering both beach relaxation and forest walks through the nearby Pomeranian Cliff Coast. It's perfect for combining nature with traditional resort amenities.",
+      "imageQueries": [
+        "Międzyzdroje cliffs Baltic Sea",
+        "Międzyzdroje beach pier"
+      ],
+      "activities": [
+        {
+          "id": "mied_1",
+          "text": "Beach relaxation and swimming",
+          "detail": "The main sandy beach stretches along the Baltic shore, offering safe swimming areas and typical seaside resort amenities including beach bars and umbrellas for rent.",
+          "lat": 53.7167,
+          "lng": 14.4333
+        },
+        {
+          "id": "mied_2",
+          "text": "Pomeranian Cliff Coast hiking",
+          "detail": "Walk the scenic trails along the dramatic white chalk cliffs that rise above the coastline, with viewpoints overlooking the Baltic Sea and forested ravines.",
+          "lat": 53.72,
+          "lng": 14.45
+        },
+        {
+          "id": "mied_3",
+          "text": "Wolin National Park exploration",
+          "detail": "Visit the nearby national park on Wolin Island to see European bison, elk, and deer in their natural habitat, plus additional hiking trails through pristine forests.",
+          "lat": 53.75,
+          "lng": 14.5
+        },
+        {
+          "id": "mied_4",
+          "text": "Pier promenade stroll",
+          "detail": "Walk along the historic wooden pier extending into the Baltic, a traditional resort feature offering sea views and access to waterfront cafes and shops.",
+          "lat": 53.716,
+          "lng": 14.434
+        },
+        {
+          "id": "mied_5",
+          "text": "Forest canopy walks",
+          "detail": "Experience the elevated wooden walkways through the surrounding pine forests, providing an immersive nature experience without strenuous hiking.",
+          "lat": 53.725,
+          "lng": 14.42
+        },
+        {
+          "id": "mied_6",
+          "text": "Międzyzdroje Museum visit",
+          "detail": "Learn about the town's resort history and local maritime heritage in this small museum dedicated to 19th-century spa culture and coastal life.",
+          "lat": 53.7155,
+          "lng": 14.4355
+        }
+      ],
+      "food": [
+        {
+          "id": "mied_f1",
+          "text": "Fresh Baltic herring",
+          "detail": "Locally caught herring prepared simply—smoked, pickled, or grilled—showcases the region's fishing traditions and is served at nearly every waterfront restaurant."
+        },
+        {
+          "id": "mied_f2",
+          "text": "Żurek (sour rye soup)",
+          "detail": "A traditional Polish soup made from fermented rye flour with potatoes and usually pork, reflecting local Pomeranian culinary heritage and comfort-food culture."
+        },
+        {
+          "id": "mied_f3",
+          "text": "Pomeranian fish platters",
+          "detail": "Mixed platters of local white fish such as cod, flounder, and sea trout, typically grilled or pan-fried and served with seasonal vegetables at beachfront venues."
+        },
+        {
+          "id": "mied_f4",
+          "text": "Kluski (potato dumplings)",
+          "detail": "Soft potato and flour dumplings served as a side dish, often accompanying meat or fish dishes and representing regional Polish comfort cooking traditions."
+        },
+        {
+          "id": "mied_f5",
+          "text": "Local amber honey and pastries",
+          "detail": "The region is known for high-quality honey from forest flowers; seek out local bakeries selling honey-sweetened pastries and cakes reflecting regional sweets traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mied_c1",
+          "text": "Peak season and quieter months",
+          "detail": "July and August bring crowds and higher prices; visit in June or September for pleasant weather with fewer tourists and a more authentic local atmosphere."
+        },
+        {
+          "id": "mied_c2",
+          "text": "Respect forest trail etiquette",
+          "detail": "Stick to marked paths in the cliffs and forests, as the chalk terrain is fragile and erosion is a concern; take only photos and leave no trace."
+        },
+        {
+          "id": "mied_c3",
+          "text": "Traditional resort greeting culture",
+          "detail": "Międzyzdroje maintains old-fashioned spa-town politeness; locals appreciate a friendly 'Dzień dobry' (good day) greeting, especially in smaller cafes and shops away from the beach."
+        },
+        {
+          "id": "mied_c4",
+          "text": "Currency and language practicality",
+          "detail": "Polish złoty is the currency; English is spoken in tourist areas but learning a few basic Polish phrases is appreciated and enhances interactions with locals in quieter spots."
+        }
+      ]
+    },
+    {
+      "id": "kamien_pomorski",
+      "name": "Kamień Pomorski",
+      "nameIt": "Kamień Pomorski",
+      "lat": 53.958,
+      "lng": 14.662,
+      "type": "TOWN",
+      "description": "A historic port town on the Oder Lagoon with a magnificent Gothic cathedral and well-preserved medieval Old Town squares. It offers authentic charm and maritime heritage without the overcrowding of larger resorts.",
+      "imageQueries": [
+        "Kamień Pomorski cathedral",
+        "Kamień Pomorski Old Town"
+      ],
+      "activities": [
+        {
+          "id": "kami_1",
+          "text": "Cathedral of St. John the Baptist",
+          "detail": "Explore this stunning 14th-century Gothic cathedral dominating the Old Town skyline, featuring intricate brick architecture and a soaring interior.",
+          "lat": 53.6681,
+          "lng": 14.5989
+        },
+        {
+          "id": "kami_2",
+          "text": "Oder Lagoon Waterfront Walk",
+          "detail": "Stroll along the scenic harbour promenade to observe traditional fishing boats, sail yachts, and enjoy views across the brackish lagoon.",
+          "lat": 53.672,
+          "lng": 14.603
+        },
+        {
+          "id": "kami_3",
+          "text": "Medieval Old Town Square",
+          "detail": "Wander the well-preserved Rynek (town square) lined with pastel-coloured merchants' houses dating to the 15th-17th centuries.",
+          "lat": 53.6685,
+          "lng": 14.5995
+        },
+        {
+          "id": "kami_4",
+          "text": "Town Wall and Fortifications",
+          "detail": "Walk segments of the original medieval defensive walls and visit remaining bastions that protected the historic port.",
+          "lat": 53.67,
+          "lng": 14.596
+        },
+        {
+          "id": "kami_5",
+          "text": "Maritime Museum",
+          "detail": "Learn about Kamień's fishing heritage and maritime trade through exhibits of nets, traditional boats, and seafaring artifacts.",
+          "lat": 53.6675,
+          "lng": 14.601
+        },
+        {
+          "id": "kami_6",
+          "text": "Beach at nearby Dziwnów",
+          "detail": "Take a short trip to this sandy Baltic beach town just 15 kilometers away for seaside swimming and a wider holiday atmosphere.",
+          "lat": 53.6133,
+          "lng": 14.3267
+        }
+      ],
+      "food": [
+        {
+          "id": "kami_f1",
+          "text": "Smoked Flounder (Flądra Wędzona)",
+          "detail": "Fresh-caught local flounder from the Oder Lagoon, traditionally smoked over alder wood and served with rye bread."
+        },
+        {
+          "id": "kami_f2",
+          "text": "Fish Soup (Żurek or Zuppa Rybna)",
+          "detail": "A hearty regional soup made with mixed lagoon fish, potatoes, and sour rye starter, often served in bread bowls at waterfront restaurants."
+        },
+        {
+          "id": "kami_f3",
+          "text": "Herring Preparations (Śledź)",
+          "detail": "Pickled, marinated, or smoked herring served as appetizers or part of traditional Polish seafood platters, reflecting Baltic fishing traditions."
+        },
+        {
+          "id": "kami_f4",
+          "text": "Pomeranian Dumplings (Pierniki Pomorskie)",
+          "detail": "Local pastries filled with meat, mushrooms, or sauerkraut, a regional specialty found in bakeries throughout the Old Town."
+        },
+        {
+          "id": "kami_f5",
+          "text": "Lagoon Pike-Perch (Sandacz)",
+          "detail": "Delicate white fish native to the Oder Lagoon, typically pan-fried and served with seasonal vegetables at local restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kami_c1",
+          "text": "Visit during summer festivals",
+          "detail": "Kamień hosts maritime and cultural festivals in July and August when locals celebrate with traditional music, crafts, and seafood markets."
+        },
+        {
+          "id": "kami_c2",
+          "text": "Respect quiet afternoon hours",
+          "detail": "Many shops and restaurants close or observe reduced hours between 14:00–17:00, reflecting Polish tradition of afternoon rest and family time."
+        },
+        {
+          "id": "kami_c3",
+          "text": "Use the waterfront ferries",
+          "detail": "Small local ferries and water taxis connect Kamień to nearby villages; locals use them regularly and they offer authentic transport experiences."
+        },
+        {
+          "id": "kami_c4",
+          "text": "Speak basic Polish phrases",
+          "detail": "English is limited outside tourist areas; learning simple greetings and food terms shows respect and enhances interactions with locals."
+        }
+      ]
+    },
+    {
+      "id": "uznam_island",
+      "name": "Usedom Island",
+      "nameIt": "Uznam",
+      "lat": 53.82,
+      "lng": 14.02,
+      "type": "ISLAND",
+      "description": "A German-Polish island shared by both nations, featuring pristine beaches, resort towns like Ahlbeck and Heringsdorf, and the charming village of Peenemünde. The island combines excellent coastal scenery with cross-border cultural experiences.",
+      "imageQueries": [
+        "Usedom Island beach",
+        "Heringsdorf pier Usedom"
+      ],
+      "activities": [
+        {
+          "id": "uzna_1",
+          "text": "Ahlbeck Pier and Promenade",
+          "detail": "Stroll along the iconic 280-meter wooden pier built in 1882, enjoying views of the Baltic Sea and the Belle Époque architecture of this German resort town.",
+          "lat": 53.8756,
+          "lng": 14.0089
+        },
+        {
+          "id": "uzna_2",
+          "text": "Heringsdorf Beach and Spa",
+          "detail": "Relax on the expansive sandy beaches of this elegant Polish-German resort known for its healing seawater pools and grand 19th-century villas.",
+          "lat": 53.8614,
+          "lng": 14.1489
+        },
+        {
+          "id": "uzna_3",
+          "text": "Peenemünde U-boat Memorial",
+          "detail": "Explore the German submarine memorial and museum at this historic WWII military site on the island's western tip.",
+          "lat": 54.1522,
+          "lng": 13.7747
+        },
+        {
+          "id": "uzna_4",
+          "text": "Uznam Nature Reserve Cycling",
+          "detail": "Bike through the protected wetlands and forests of the Oder estuary, spotting migratory birds and enjoying pristine natural landscapes.",
+          "lat": 53.9,
+          "lng": 14.05
+        },
+        {
+          "id": "uzna_5",
+          "text": "Świnoujście Harbor Walk",
+          "detail": "Visit Poland's major Baltic port town on the island's eastern edge, watching ferries and merchant ships while exploring the waterfront promenade.",
+          "lat": 53.9103,
+          "lng": 14.2419
+        },
+        {
+          "id": "uzna_6",
+          "text": "Bansin Beach and Seawater Baths",
+          "detail": "Experience the traditional German spa resort of Bansin with its historic bathhouses and calm, family-friendly beaches.",
+          "lat": 53.8841,
+          "lng": 13.9456
+        }
+      ],
+      "food": [
+        {
+          "id": "uzna_f1",
+          "text": "Usedom Herring (Usedomer Hering)",
+          "detail": "Fresh-caught Baltic herring prepared with local herbs and served smoked or marinated, a traditional island specialty found in waterfront restaurants."
+        },
+        {
+          "id": "uzna_f2",
+          "text": "Pomeranian Potato Soup (Pommersche Kartoffelsuppe)",
+          "detail": "Hearty regional soup made with potatoes, mushrooms, and smoked bacon, representing classic West Pomeranian comfort food."
+        },
+        {
+          "id": "uzna_f3",
+          "text": "Flounder from the Baltic (Scholle)",
+          "detail": "Pan-fried local flounder drizzled with brown butter and lemon, showcasing the island's fresh daily catch."
+        },
+        {
+          "id": "uzna_f4",
+          "text": "Usedom Amber Bakery Goods",
+          "detail": "Local bakeries produce distinctive bread and pastries using traditional recipes, often featuring rye and seeded varieties sold in resort-town shops."
+        },
+        {
+          "id": "uzna_f5",
+          "text": "Polish Żurek (Sour Rye Soup)",
+          "detail": "Traditional Polish fermented rye soup with sauerkraut and pork, available throughout the Polish side of the island."
+        }
+      ],
+      "culture": [
+        {
+          "id": "uzna_c1",
+          "text": "Border Crossing Protocol",
+          "detail": "While Usedom is a shared island, EU citizens can move freely between German and Polish zones, but always carry ID documentation as random checks occur."
+        },
+        {
+          "id": "uzna_c2",
+          "text": "Spa Culture and Traditions",
+          "detail": "Usedom's resort towns maintain 19th-century spa traditions where visitors still use designated swimming hours and respect quiet times in public bathing facilities."
+        },
+        {
+          "id": "uzna_c3",
+          "text": "Language Courtesy",
+          "detail": "While German dominates on the western side and Polish on the eastern side, learning basic greetings in both languages is appreciated by locals and enhances cross-border interactions."
+        },
+        {
+          "id": "uzna_c4",
+          "text": "Beach Promenade Etiquette",
+          "detail": "Beachgoers traditionally use designated changing cabins (Strandkörbe) rather than changing openly, and respect for quiet hours in resort areas is expected after 22:00."
+        }
+      ]
+    },
+    {
+      "id": "wolin_island",
+      "name": "Wolin Island",
+      "nameIt": "Wolin",
+      "lat": 53.837,
+      "lng": 14.356,
+      "type": "ISLAND",
+      "description": "Home to the dramatic Pomeranian Cliff Coast cliffs reaching up to 91 meters, featuring hiking trails and views over the Baltic, plus the historic town of Wolin itself. It's essential for nature lovers seeking dramatic coastal landscapes.",
+      "imageQueries": [
+        "Wolin cliffs Baltic Sea",
+        "Pomeranian Cliff Coast"
+      ],
+      "activities": [
+        {
+          "id": "woli_1",
+          "text": "Pomeranian Cliff Coast Hiking",
+          "detail": "Walk the dramatic clifftop trails along the Baltic coast where chalk cliffs reach up to 91 meters, offering panoramic sea views and access to hidden beaches below.",
+          "lat": 53.8811,
+          "lng": 14.5544
+        },
+        {
+          "id": "woli_2",
+          "text": "Explore Wolin Town Center",
+          "detail": "Wander the medieval streets of Wolin, visiting the cathedral ruins, market square, and local museums documenting Viking settlement and medieval trade history.",
+          "lat": 53.8347,
+          "lng": 14.6089
+        },
+        {
+          "id": "woli_3",
+          "text": "Uznamski Bridge Viewpoint",
+          "detail": "Cross the iconic drawbridge connecting Wolin to Usedom Island for stunning views of the Oder River estuary and surrounding islands.",
+          "lat": 53.8128,
+          "lng": 14.6578
+        },
+        {
+          "id": "woli_4",
+          "text": "Wolin National Park Tour",
+          "detail": "Explore the protected wetlands, forests, and coastal habitats where white-tailed eagles, wild boar, and over 250 bird species can be spotted.",
+          "lat": 53.85,
+          "lng": 14.55
+        },
+        {
+          "id": "woli_5",
+          "text": "Kastelania Beach Swimming",
+          "detail": "Relax on the sandy beach near the cliff base, accessible by stairs from the clifftop, ideal for swimming and sunbathing during summer months.",
+          "lat": 53.8842,
+          "lng": 14.542
+        },
+        {
+          "id": "woli_6",
+          "text": "Canoe the Oder River",
+          "detail": "Paddle through the Oder estuary to experience the island's wetlands, birdlife, and peaceful waterways connecting to the Baltic Sea.",
+          "lat": 53.82,
+          "lng": 14.62
+        }
+      ],
+      "food": [
+        {
+          "id": "woli_f1",
+          "text": "Fresh Baltic Herring",
+          "detail": "Sample locally caught herring prepared simply grilled or smoked, a staple protein reflecting centuries of fishing tradition on Wolin."
+        },
+        {
+          "id": "woli_f2",
+          "text": "Pomeranian Duck with Apple",
+          "detail": "Enjoy tender duck roasted with local apples and spices, a regional specialty served in restaurants throughout the island."
+        },
+        {
+          "id": "woli_f3",
+          "text": "Żurek (Rye Soup)",
+          "detail": "Try this traditional sour rye soup with potatoes, mushrooms, and often pork, served hot in local taverns and homes."
+        },
+        {
+          "id": "woli_f4",
+          "text": "Amber-Smoked Fish",
+          "detail": "Local fishmongers and restaurants offer fish smoked over amber-wood, a traditional Pomeranian smoking technique creating unique flavor."
+        },
+        {
+          "id": "woli_f5",
+          "text": "Fresh Strawberries with Cream",
+          "detail": "Visit summer markets for locally grown strawberries paired with thick Polish cream, abundant from June through July."
+        }
+      ],
+      "culture": [
+        {
+          "id": "woli_c1",
+          "text": "Respect Cliff Safety Zones",
+          "detail": "Stay on marked trails when exploring the Pomeranian Cliffs as erosion is active and some areas are cordoned off for visitor safety."
+        },
+        {
+          "id": "woli_c2",
+          "text": "Learn Viking Heritage",
+          "detail": "Wolin was a major Viking trading port in the 10th century; locals take pride in this history and appreciate visitors engaging with museums and archaeological sites."
+        },
+        {
+          "id": "woli_c3",
+          "text": "Visit in Shoulder Seasons",
+          "detail": "Spring and autumn offer the best weather for hiking and fewer crowds than summer, while winter access to cliff trails is often restricted due to weather."
+        },
+        {
+          "id": "woli_c4",
+          "text": "Speak Polish or German",
+          "detail": "While some tourism staff speak English, learning basic Polish greetings and German phrases is appreciated as Wolin draws visitors from both cultures."
+        }
+      ]
+    },
+    {
+      "id": "drawsko_pomorskie",
+      "name": "Drawsko Pomorskie",
+      "nameIt": "Drawsko Pomorskie",
+      "lat": 53.527,
+      "lng": 15.502,
+      "type": "TOWN",
+      "description": "An inland town known for its beautiful lakes and outdoor activities, particularly water sports and cycling routes through the Pomeranian Lake District. It provides a peaceful alternative to coastal tourism.",
+      "imageQueries": [
+        "Drawsko Pomorskie lakes",
+        "Pomeranian Lake District"
+      ],
+      "activities": [
+        {
+          "id": "draw_1",
+          "text": "Lake Drawsko Water Sports",
+          "detail": "The main lake offers swimming, windsurfing, and sailing during summer months with rental facilities available along the shore.",
+          "lat": 53.5039,
+          "lng": 15.7314
+        },
+        {
+          "id": "draw_2",
+          "text": "Cycling Routes Through Lake District",
+          "detail": "Well-marked trails connect Drawsko to surrounding villages and lakes, ranging from 20 to 60 kilometers with varying difficulty levels.",
+          "lat": 53.51,
+          "lng": 15.74
+        },
+        {
+          "id": "draw_3",
+          "text": "Drawsko Castle Ruins",
+          "detail": "Explore the remains of a 14th-century Gothic castle that once dominated the town, now partially restored with informational displays.",
+          "lat": 53.5045,
+          "lng": 15.728
+        },
+        {
+          "id": "draw_4",
+          "text": "Pomeranian Lake District Nature Reserve",
+          "detail": "A protected area ideal for birdwatching, hiking, and photography with diverse flora and fauna across multiple interconnected lakes.",
+          "lat": 53.52,
+          "lng": 15.75
+        },
+        {
+          "id": "draw_5",
+          "text": "Fishing on Local Lakes",
+          "detail": "Drawsko's lakes are stocked with pike, perch, and carp; permits and guides can be arranged through local tourism offices."
+        },
+        {
+          "id": "draw_6",
+          "text": "St. Bogislaw Church",
+          "detail": "A Gothic brick church from the 15th century featuring original architecture and serving as the town's spiritual and historical landmark.",
+          "lat": 53.5052,
+          "lng": 15.7265
+        }
+      ],
+      "food": [
+        {
+          "id": "draw_f1",
+          "text": "Freshwater Pike Prepared Whole",
+          "detail": "A regional specialty where locally-caught pike from Drawsko's lakes is roasted or poached with herbs and served at traditional restaurants."
+        },
+        {
+          "id": "draw_f2",
+          "text": "Pomeranian Potato Pancakes (Placki Ziemniaczane)",
+          "detail": "Crispy potato fritters served with sour cream or apple sauce, a common dish throughout the region and particularly satisfying after outdoor activities."
+        },
+        {
+          "id": "draw_f3",
+          "text": "Smoked Eel from Local Lakes",
+          "detail": "A delicacy in the Pomeranian Lake District, smoked eel is available at local markets and restaurants, often served as an appetizer."
+        },
+        {
+          "id": "draw_f4",
+          "text": "Fresh Perch Fillets",
+          "detail": "Pan-fried or breaded perch caught from Drawsko's waters, typically served with potatoes and fresh vegetables at lakeside dining establishments."
+        },
+        {
+          "id": "draw_f5",
+          "text": "Żurek (Sour Rye Soup)",
+          "detail": "A traditional Polish soup made with fermented rye flour, featuring pork and served in a bread bowl, comfort food essential to Pomeranian cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "draw_c1",
+          "text": "Respect Quiet Hours and Nature Preservation",
+          "detail": "The town enforces quiet hours (typically 22:00-06:00 on weekdays) and locals take lake conservation seriously, so minimize noise near water and trails."
+        },
+        {
+          "id": "draw_c2",
+          "text": "Cycling Culture Dominates Transportation",
+          "detail": "Most locals commute by bicycle, so rental bikes are readily available and trails have priority; expect to see families cycling to shops and restaurants."
+        },
+        {
+          "id": "draw_c3",
+          "text": "Summer Tourism Peak Season",
+          "detail": "July and August are crowded with Polish families; May-June and September offer better conditions for solo travelers seeking solitude."
+        },
+        {
+          "id": "draw_c4",
+          "text": "Polish Hospitality and Food Sharing",
+          "detail": "Locals are warm and often invite visitors to family gatherings; accepting food or drinks offered is considered respectful, and sharing meals is important to community life."
+        }
+      ]
+    },
+    {
+      "id": "peenemunde",
+      "name": "Peenemünde",
+      "nameIt": "Peenemünde",
+      "lat": 54.182,
+      "lng": 13.772,
+      "type": "VILLAGE",
+      "description": "A German village on Usedom Island historically significant for WWII rocketry and now home to a fascinating technical museum dedicated to space exploration. It offers unique historical insight combined with waterfront scenery.",
+      "imageQueries": [
+        "Peenemünde museum",
+        "Peenemünde Usedom"
+      ],
+      "activities": [
+        {
+          "id": "peen_1",
+          "text": "German Technology Museum (Deutsches Technikmuseum Peenemünde)",
+          "detail": "Explore the comprehensive museum documenting V-2 rocket development, space exploration history, and WWII-era aeronautics with restored artifacts and interactive exhibits.",
+          "lat": 54.0897,
+          "lng": 13.7758
+        },
+        {
+          "id": "peen_2",
+          "text": "Historical Army Research Center Tour",
+          "detail": "Visit the preserved grounds of the former Heeresversuchsanstalt (Army Research Center) where rockets were developed, featuring bunkers and original infrastructure.",
+          "lat": 54.0889,
+          "lng": 13.772
+        },
+        {
+          "id": "peen_3",
+          "text": "Baltic Sea Waterfront Walk",
+          "detail": "Stroll along Peenemünde's scenic coastal promenade offering views of the Peene River estuary and access to small beaches.",
+          "lat": 54.092,
+          "lng": 13.78
+        },
+        {
+          "id": "peen_4",
+          "text": "Usedom Island Cycling Routes",
+          "detail": "Bike through the surrounding forests and coastal paths of Usedom, connecting Peenemünde to nearby villages with well-marked trails.",
+          "lat": 54.09,
+          "lng": 13.775
+        },
+        {
+          "id": "peen_5",
+          "text": "Power Plant Ruins Exploration",
+          "detail": "Examine the remnants of the industrial power installations that supported the rocket facility, now accessible as historical monuments.",
+          "lat": 54.0875,
+          "lng": 13.768
+        },
+        {
+          "id": "peen_6",
+          "text": "Peenebrücke Historic Bridge",
+          "detail": "Photograph and walk across this restored railway bridge connecting the peninsula, offering panoramic views of the estuary.",
+          "lat": 54.105,
+          "lng": 13.79
+        }
+      ],
+      "food": [
+        {
+          "id": "peen_f1",
+          "text": "Fischbrötchen (Fish Sandwich)",
+          "detail": "A traditional northern German sandwich featuring fresh Baltic herring or smoked fish on rye bread, commonly found at local harbourside vendors."
+        },
+        {
+          "id": "peen_f2",
+          "text": "Usedom Räucherfisch (Smoked Fish)",
+          "detail": "Locally caught and traditionally smoked fish such as eel and mackerel, a specialty reflecting the island's fishing heritage."
+        },
+        {
+          "id": "peen_f3",
+          "text": "Mecklenburg Mecklenburg Potato Soup",
+          "detail": "A hearty regional soup combining potatoes, bacon, and herbs typical of West Pomeranian home cooking."
+        },
+        {
+          "id": "peen_f4",
+          "text": "Labskaus",
+          "detail": "A sailor's stew of corned beef, potatoes, and onions with beetroot and herring, representing maritime food traditions of the Baltic coast."
+        },
+        {
+          "id": "peen_f5",
+          "text": "Pommerscher Rullade (Pomeranian Roulade)",
+          "detail": "Thinly sliced beef rolled with mustard, bacon, and onions, representing classic East German and Pomeranian regional cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "peen_c1",
+          "text": "WWII Sensitivity and Respect",
+          "detail": "Visitors should approach the site with historical respect, as Peenemünde represents complex wartime history; local guides emphasize educational rather than celebratory perspectives."
+        },
+        {
+          "id": "peen_c2",
+          "text": "German Punctuality and Museum Hours",
+          "detail": "Plan visits precisely according to published museum hours, which are strictly observed; arrive early as the museum has limited daily capacity."
+        },
+        {
+          "id": "peen_c3",
+          "text": "Local Pride in Engineering Heritage",
+          "detail": "Residents take considerable pride in the scientific and technological achievements documented here, appreciating thoughtful questions about innovation history over sensationalism."
+        },
+        {
+          "id": "peen_c4",
+          "text": "German Coastal Formality",
+          "detail": "While friendly, locals maintain formal greeting customs; using 'Herr' and 'Frau' titles and speaking quietly in public spaces reflects regional German courtesy norms."
+        }
+      ]
+    },
+    {
+      "id": "stettin_trails",
+      "name": "Pomeranian Dukes' Castle Complex",
+      "nameIt": "Zamek Książąt Pomorskich",
+      "lat": 53.428,
+      "lng": 14.554,
+      "type": "LANDMARK",
+      "description": "An architecturally stunning Renaissance castle in Szczecin serving as the symbol of the Pomeranian region, with beautiful interiors and museums exploring regional history. It's essential for understanding the region's cultural heritage.",
+      "imageQueries": [
+        "Pomeranian Dukes Castle Szczecin",
+        "Zamek Książąt Pomorskich"
+      ],
+      "activities": [
+        {
+          "id": "stet_1",
+          "text": "Explore the Renaissance Interiors",
+          "detail": "Walk through the meticulously restored ducal chambers, courtyards, and galleries showcasing original architectural details and period furnishings that define 16th-century Pomeranian nobility.",
+          "lat": 53.429,
+          "lng": 14.5549
+        },
+        {
+          "id": "stet_2",
+          "text": "Visit the Museum of the Pomeranian Dukes",
+          "detail": "Examine artifacts, portraits, and regalia documenting the ruling dynasties and their influence on regional development from medieval times through the Renaissance.",
+          "lat": 53.429,
+          "lng": 14.5549
+        },
+        {
+          "id": "stet_3",
+          "text": "Attend a Concert or Cultural Event",
+          "detail": "Check the castle's calendar for chamber music performances, theatrical productions, and exhibitions often held in the historic halls and courtyards during spring and summer."
+        },
+        {
+          "id": "stet_4",
+          "text": "Walk the Castle Courtyards and Arcades",
+          "detail": "Stroll through the atmospheric inner courtyards lined with Renaissance arcades, perfect for photography and understanding the castle's strategic defensive design.",
+          "lat": 53.429,
+          "lng": 14.5549
+        },
+        {
+          "id": "stet_5",
+          "text": "Climb the Defensive Tower",
+          "detail": "Ascend to the top of the castle tower for panoramic views of Szczecin's Oder River waterfront and the surrounding Old Town district.",
+          "lat": 53.429,
+          "lng": 14.5549
+        },
+        {
+          "id": "stet_6",
+          "text": "View the Historical Arms and Armor Collection",
+          "detail": "Inspect weapons, shields, and military regalia spanning centuries of Pomeranian warfare and courtly tradition in the dedicated gallery."
+        }
+      ],
+      "food": [
+        {
+          "id": "stet_f1",
+          "text": "Pomeranian Fish Soup (Żur Pomorski)",
+          "detail": "A tangy rye-based soup with fish, potatoes, and regional herbs that reflects the area's Baltic coastal heritage and fishing traditions."
+        },
+        {
+          "id": "stet_f2",
+          "text": "Szczecin Duck with Apple Compote",
+          "detail": "Succulent roasted duck served with tart apple sauce, a classic noble dish historically prepared in regional manor kitchens."
+        },
+        {
+          "id": "stet_f3",
+          "text": "Pomeranian Meatballs (Klopsiki Pomorskie)",
+          "detail": "Beef or mixed-meat patties bound with breadcrumbs and served in a sour cream sauce, a hearty regional specialty found in traditional restaurants near the castle."
+        },
+        {
+          "id": "stet_f4",
+          "text": "Herring Preparations (Śledź)",
+          "detail": "Fresh or marinated herring served in various styles—with cream, mustard, or beetroot—reflecting Pomerania's connection to the Baltic fishing industry."
+        },
+        {
+          "id": "stet_f5",
+          "text": "Pomeranian Honey Cake (Piernik Pomorski)",
+          "detail": "A spiced honey cake with jam filling, often enjoyed as a regional dessert and traditional souvenir from Szczecin's bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "stet_c1",
+          "text": "Plan Visits Around Museum Hours",
+          "detail": "The castle operates with seasonal hours and occasional closures for events, so confirm opening times and any special exhibitions before your visit."
+        },
+        {
+          "id": "stet_c2",
+          "text": "Respect Sacred Spaces During Services",
+          "detail": "The castle chapel remains an active place of worship, so be respectful if services are occurring and dress modestly when entering religious areas."
+        },
+        {
+          "id": "stet_c3",
+          "text": "Learn Basic Polish Phrases",
+          "detail": "While staff often speak English, locals appreciate visitors who attempt Polish greetings and courtesies, particularly in surrounding Szczecin neighborhoods."
+        },
+        {
+          "id": "stet_c4",
+          "text": "Understand Pomeranian Regional Pride",
+          "detail": "The castle represents deep cultural identity for the Pomeranian people; showing genuine interest in its history and heritage is valued and enriches conversations with locals."
+        }
+      ]
+    },
+    {
+      "id": "eberswald",
+      "name": "Eberswaldes Region",
+      "nameIt": "Eberswald",
+      "lat": 53.64,
+      "lng": 14.03,
+      "type": "NATURE",
+      "description": "A scenic area featuring the German side of the shared border region with pristine forests, the Oder Lagoon, and quiet rural charm. It offers peaceful nature experiences and authentic countryside exploration.",
+      "imageQueries": [
+        "Eberswald Oder Lagoon",
+        "Eberswald forest landscape"
+      ],
+      "activities": [
+        {
+          "id": "eber_1",
+          "text": "Oder Lagoon Kayaking",
+          "detail": "Paddle through the shallow waters and wetlands of the Oder Lagoon, observing migratory birds and pristine natural habitat along the German-Polish border.",
+          "lat": 53.7833,
+          "lng": 14.4167
+        },
+        {
+          "id": "eber_2",
+          "text": "Peenemünde Forest Trails",
+          "detail": "Hike through ancient forests featuring pine and beech woodlands with well-marked trails offering peaceful woodland walks and occasional wildlife sightings."
+        },
+        {
+          "id": "eber_3",
+          "text": "Border Museum at Eberswalde",
+          "detail": "Visit the local museum documenting the region's divided history and the cultural heritage of the German-Polish border communities.",
+          "lat": 53.8358,
+          "lng": 13.7893
+        },
+        {
+          "id": "eber_4",
+          "text": "Cycling the Oder Valley Route",
+          "detail": "Ride the scenic cycle path following the Oder River valley through rural villages, farmland, and nature reserves with minimal traffic.",
+          "lat": 53.75,
+          "lng": 14.35
+        },
+        {
+          "id": "eber_5",
+          "text": "Birdwatching at Haff Pomerania",
+          "detail": "Visit this Important Bird Area during spring and autumn migrations to spot thousands of waterfowl, cranes, and waders in their natural habitat.",
+          "lat": 53.8,
+          "lng": 14.5
+        },
+        {
+          "id": "eber_6",
+          "text": "Village Heritage Walks",
+          "detail": "Explore traditional half-timbered farmhouses and village architecture in settlements like Altwarp and Ahlbeck, experiencing authentic rural German countryside."
+        }
+      ],
+      "food": [
+        {
+          "id": "eber_f1",
+          "text": "Pomeranian Goulash",
+          "detail": "A hearty regional stew made with beef, potatoes, and local root vegetables, often served with dark rye bread in countryside restaurants."
+        },
+        {
+          "id": "eber_f2",
+          "text": "Smoked Eel from the Lagoon",
+          "detail": "Freshly caught and traditionally smoked eel from the Oder Lagoon, served as a local delicacy in regional fish restaurants."
+        },
+        {
+          "id": "eber_f3",
+          "text": "Poppy Seed Cake (Mohnkuchen)",
+          "detail": "A traditional Pomeranian sweet cake with ground poppy seeds and vanilla cream, commonly found in local bakeries and cafes."
+        },
+        {
+          "id": "eber_f4",
+          "text": "Fresh Pike Preparations",
+          "detail": "Pike caught from the lagoon and local waterways, prepared simply grilled or in traditional pan-fried preparations with butter and herbs."
+        },
+        {
+          "id": "eber_f5",
+          "text": "Black Bread with Local Cheese",
+          "detail": "Authentic Pomeranian dark rye bread paired with regional cow's milk cheese from small-scale dairies throughout the countryside."
+        }
+      ],
+      "culture": [
+        {
+          "id": "eber_c1",
+          "text": "Border Crossing Etiquette",
+          "detail": "While the German-Polish border is open, carry identification documents and respect marked nature reserves where photography may be restricted for bird conservation."
+        },
+        {
+          "id": "eber_c2",
+          "text": "Seasonal Visiting Patterns",
+          "detail": "Visit during spring (April-May) and autumn (September-October) for optimal birdwatching and mild weather; many rural establishments have limited winter hours."
+        },
+        {
+          "id": "eber_c3",
+          "text": "Local Shop Hours and Rhythms",
+          "detail": "Small village shops and restaurants often close by 6 PM and many are closed Mondays; plan meals accordingly and ask locals for recommendations."
+        },
+        {
+          "id": "eber_c4",
+          "text": "German Language Preference",
+          "detail": "English is less common in rural areas; learning basic German phrases is appreciated and helpful for interactions with locals and small business owners."
+        }
+      ]
+    },
+    {
+      "id": "luneburg_heath",
+      "name": "Luneburg Heath Nature Reserve",
+      "nameIt": "Lüneburger Heide",
+      "lat": 53.197,
+      "lng": 14.875,
+      "type": "NATURE",
+      "description": "A vast moorland and nature reserve extending into Brandenburg with unique heathland ecosystems, walking trails, and traditional farming villages. It's ideal for hiking and experiencing pristine natural environments away from development.",
+      "imageQueries": [
+        "Lüneburger Heide moorland",
+        "Luneburg Heath hiking"
+      ],
+      "activities": [
+        {
+          "id": "lune_1",
+          "text": "Hiking the Wilsede Circuit",
+          "detail": "Trek the popular circular route through open heathland and birch forests around the village of Wilsede, offering panoramic views of the moorland landscape.",
+          "lat": 53.1667,
+          "lng": 9.9167
+        },
+        {
+          "id": "lune_2",
+          "text": "Visit the Shepherd's Museum in Wilsede",
+          "detail": "Explore this small museum dedicated to the traditional shepherding heritage that has shaped the Lüneburg Heath for centuries.",
+          "lat": 53.1667,
+          "lng": 9.9167
+        },
+        {
+          "id": "lune_3",
+          "text": "Cycling along marked trails",
+          "detail": "Ride designated cycling paths through the reserve's quieter sections, connecting traditional villages and offering a slower-paced exploration of the moorland.",
+          "lat": 53.15,
+          "lng": 10
+        },
+        {
+          "id": "lune_4",
+          "text": "Birdwatching at seasonal wetlands",
+          "detail": "Observe migratory and resident bird species in the marshy areas and pools scattered throughout the heath during spring and autumn.",
+          "lat": 53.2,
+          "lng": 9.85
+        },
+        {
+          "id": "lune_5",
+          "text": "Horse riding excursions",
+          "detail": "Experience the moorland on horseback through local riding centers, following traditional routes used by shepherds and farmers.",
+          "lat": 53.16,
+          "lng": 9.92
+        },
+        {
+          "id": "lune_6",
+          "text": "Photography at the Totengrund Valley",
+          "detail": "Capture the distinctive heathland landscape in this scenic depression filled with purple heather blooms in late summer.",
+          "lat": 53.1633,
+          "lng": 9.95
+        }
+      ],
+      "food": [
+        {
+          "id": "lune_f1",
+          "text": "Heidschnucken lamb",
+          "detail": "Tender meat from the indigenous heath sheep breed, traditionally roasted or stewed and served in village restaurants as a regional specialty."
+        },
+        {
+          "id": "lune_f2",
+          "text": "Heather honey",
+          "detail": "Local honey with a distinctive amber color and slightly bitter taste produced by bees foraging on the blooming heathland, available at farm shops."
+        },
+        {
+          "id": "lune_f3",
+          "text": "Buchweizenpfannkuchen",
+          "detail": "Buckwheat pancakes, a traditional Lower Saxon dish often served with applesauce or mushroom gravy in country inns throughout the reserve area."
+        },
+        {
+          "id": "lune_f4",
+          "text": "Wildschwein eintopf",
+          "detail": "Wild boar stew thickened with root vegetables and herbs, representing the hunting traditions of the region's countryside."
+        },
+        {
+          "id": "lune_f5",
+          "text": "Kartoffelbrot",
+          "detail": "Dense potato bread made with local potatoes and rye flour, sold fresh at village bakeries and farmhouse cafes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lune_c1",
+          "text": "Respect closed moorland areas",
+          "detail": "Certain sections are protected for breeding birds and vegetation regeneration, so stay on marked trails and obey seasonal closures signposted throughout the reserve."
+        },
+        {
+          "id": "lune_c2",
+          "text": "Visit during heather bloom",
+          "detail": "The moorland transforms from August to September when heather flowers bloom in purple hues, creating the most visually striking time to explore the landscape."
+        },
+        {
+          "id": "lune_c3",
+          "text": "Support traditional shepherding",
+          "detail": "Purchase local products and stay in family-run guesthouses to help sustain the traditional pastoral way of life that maintains the open heathland ecosystem."
+        },
+        {
+          "id": "lune_c4",
+          "text": "Pack weather-appropriate clothing",
+          "detail": "The exposed moorland offers little shelter, so bring waterproof jackets and sturdy footwear as conditions can change rapidly throughout the day."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Pomerania",
+      "address": "Wały Chrobrego 3, Szczecin",
+      "neighbourhood": "Szczecin Old Town",
+      "cuisine": "Polish Contemporary",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant overlooking the Oder River with refined Polish dishes and an excellent wine selection.",
+      "mustOrder": "Duck breast with cherry sauce",
+      "lat": 53.4289,
+      "lng": 14.5431
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Farina",
+      "address": "Mickiewicza 29, Szczecin",
+      "neighbourhood": "Szczecin City Centre",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Authentic Italian restaurant known for handmade pasta and classic Mediterranean flavours in a warm, intimate setting.",
+      "mustOrder": "Pappardelle al cinghiale",
+      "lat": 53.4315,
+      "lng": 14.5287
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Bohema",
+      "address": "Wyszyńskiego 33, Szczecin",
+      "neighbourhood": "Szczecin",
+      "cuisine": "Polish",
+      "priceRange": "€€",
+      "description": "Traditional Polish bistro with hearty regional specialties and a cosy atmosphere popular with locals.",
+      "mustOrder": "Żurek (sour rye soup)",
+      "lat": 53.4351,
+      "lng": 14.5312
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Karczma pod Filarami",
+      "address": "Staromłyńska 27, Szczecin",
+      "neighbourhood": "Szczecin Old Town",
+      "cuisine": "Polish Regional",
+      "priceRange": "€",
+      "description": "Historic tavern-style restaurant offering authentic Pomeranian cuisine at budget-friendly prices.",
+      "mustOrder": "Pomeranian dumplings",
+      "lat": 53.4265,
+      "lng": 14.5398
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "La Taperia",
+      "address": "Героев Вармии 1, Szczecin",
+      "neighbourhood": "Szczecin",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€",
+      "description": "Vibrant Spanish tapas bar offering small plates, Iberian ham, and Spanish wines in a lively social setting.",
+      "mustOrder": "Jamón ibérico with pan con tomate",
+      "lat": 53.4298,
+      "lng": 14.5401
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "U Mewy",
+      "address": "Żeromskiego 40, Świnoujście",
+      "neighbourhood": "Świnoujście Waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Beachfront seafood restaurant specializing in fresh fish and Baltic catch with harbour views.",
+      "mustOrder": "Grilled Baltic salmon",
+      "lat": 53.9147,
+      "lng": 14.2525
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Café Continental",
+      "address": "Niepodległości 1, Świnoujście",
+      "neighbourhood": "Świnoujście City Centre",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Upscale café-restaurant blending European cuisines with attention to presentation and quality ingredients.",
+      "mustOrder": "Seafood risotto",
+      "lat": 53.9105,
+      "lng": 14.2411
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Stara Goscinnica",
+      "address": "Rynek 24, Stargard",
+      "neighbourhood": "Stargard Old Town",
+      "cuisine": "Polish",
+      "priceRange": "€",
+      "description": "Charming old inn on the town square serving traditional Polish comfort food in historic Gothic surroundings.",
+      "mustOrder": "Bigos (hunter's stew)",
+      "lat": 53.3333,
+      "lng": 15.0378
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Kulinarna Przystań",
+      "address": "Księcia Józefa 22, Kamień Pomorski",
+      "neighbourhood": "Kamień Pomorski Harbour",
+      "cuisine": "Seafood Polish",
+      "priceRange": "€€",
+      "description": "Casual waterfront eatery featuring fresh daily catch and regional Pomeranian seafood specialties.",
+      "mustOrder": "Fried flounder with lemon",
+      "lat": 53.9578,
+      "lng": 14.7394
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Polskie Smaki",
+      "address": "Kościelna 5, Goleniów",
+      "neighbourhood": "Goleniów Town Centre",
+      "cuisine": "Polish Traditional",
+      "priceRange": "€",
+      "description": "No-frills family restaurant delivering authentic Polish home cooking and generous portions.",
+      "mustOrder": "Piernik (traditional honey cake)",
+      "lat": 53.5717,
+      "lng": 14.9361
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Szpilka",
+      "address": "Detki 23, Szczecin",
+      "neighbourhood": "Szczecin",
+      "cuisine": "Vegetarian Contemporary",
+      "priceRange": "€€",
+      "description": "Modern vegetarian restaurant with creative plant-based dishes and a minimalist Scandinavian-influenced design.",
+      "mustOrder": "Vegetable tart with wild mushroom ragout",
+      "lat": 53.4407,
+      "lng": 14.5298
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Restauracja Trojmiasto",
+      "address": "Sienna 26, Szczecin",
+      "neighbourhood": "Szczecin",
+      "cuisine": "Polish Fish",
+      "priceRange": "€€€",
+      "description": "Fine dining establishment celebrating Pomeranian fishing heritage with sophisticated seafood preparations.",
+      "mustOrder": "Grilled turbot with seasonal vegetables",
+      "lat": 53.4341,
+      "lng": 14.5267
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Grażyna",
+      "address": "Piastowska 30, Kołobrzeg",
+      "neighbourhood": "Kołobrzeg Waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Established beachside restaurant famous for its fish soup and grilled seafood with Baltic Sea views.",
+      "mustOrder": "Fish soup (żurek rybny)",
+      "lat": 54.1757,
+      "lng": 15.5769
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Herbalist",
+      "address": "Wyszyńskiego 2, Szczecin",
+      "neighbourhood": "Szczecin",
+      "cuisine": "Polish Modern",
+      "priceRange": "€€€",
+      "description": "Contemporary Polish restaurant emphasizing seasonal ingredients and herbalist-inspired flavour combinations.",
+      "mustOrder": "Herb-crusted local beef with wild mushrooms",
+      "lat": 53.4335,
+      "lng": 14.5289
+    }
+  ]
+}
