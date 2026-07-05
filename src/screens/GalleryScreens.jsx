@@ -4,6 +4,7 @@ import {
   MapPin, CalendarRange, Copy, Compass, Utensils, BedDouble, Check, ArrowLeft, Star,
 } from 'lucide-react'
 import { api } from '../lib/api.js'
+import { useSettings } from '../lib/settings.js'
 import { getImages } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { importGalleryTrip } from '../lib/trips.js'
@@ -21,6 +22,7 @@ const LENGTHS = [
 
 // ── the gallery grid ──────────────────────────────────────────────────────────
 export function GalleryScreen() {
+  const site = useSettings()
   useSeo({
     title: 'Trip ideas — real itineraries to copy',
     description: 'Real trips, planned day by day by real travellers — browse by region and length, then copy one into your own planner.',
@@ -53,13 +55,18 @@ export function GalleryScreen() {
 
   return (
     <div className="page wrap gal">
-      <header className="gal__head">
-        <p className="eyebrow">Trip ideas</p>
-        <h1 className="gal__title">Real trips, ready to copy</h1>
-        <p className="gal__sub">
-          Itineraries planned day by day by real travellers — sights, dinners, routes and all.
-          Find one that fits, then make it yours.
-        </p>
+      <header className="gal__head plan-hero">
+        <div className="plan-hero__text">
+          <p className="eyebrow">Trip ideas</p>
+          <h1 className="gal__title">Real trips, ready to copy</h1>
+          <p className="gal__sub">
+            Itineraries planned day by day by real travellers — sights, dinners, routes and all.
+            Find one that fits, then make it yours.
+          </p>
+        </div>
+        <div className="plan-hero__media" data-emoji="💡">
+          {site['page.tripideas'] && <img src={site['page.tripideas']} alt="" />}
+        </div>
       </header>
 
       <div className="gal__filters">

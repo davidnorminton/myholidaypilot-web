@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { COUNTRIES } from '../lib/countries.js'
 import { paths } from '../lib/paths.js'
+import PageHero from '../components/PageHero.jsx'
 
 // Continent grouping for the filter — a country not listed falls under "Other".
 const CONTINENT = {
@@ -31,11 +32,8 @@ export default function CountriesScreen() {
 
   return (
     <div className="page">
-      <header className="sub-hero wrap">
-        <p className="eyebrow">myholidaypilot</p>
-        <h1 className="sub-hero__title">Destinations</h1>
-        <p className="sub-hero__sub">Pick where to wander — every country mapped region by region.</p>
-      </header>
+      <PageHero id="destinations" eyebrow="myholidaypilot" title="Destinations" emoji="🗺️"
+        sub="Pick where to wander — every country mapped region by region." />
       <main className="wrap">
         {continents.length > 1 && (
           <div className="dest-filter">

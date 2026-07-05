@@ -8,6 +8,12 @@ import { clearSettingsCache } from '../../lib/settings.js'
 // Site-wide content: the home hero (image + headline + subline) and an
 // optional hero image override per region (defaults to the region's first
 // place photo when blank).
+const PAGE_IMAGES = [
+  ['plan', 'Plan my trip'], ['guided', 'Guided planner'],
+  ['daytrips', 'Day-trip finder'], ['tripideas', 'Trip ideas'],
+  ['destinations', 'Destinations'],
+]
+
 const HUB_SECTIONS = [
   ['regions', 'Regions'], ['festivals', 'Festivals & events'], ['history', 'History'],
   ['food', 'Food & wine'], ['transport', 'Getting around'], ['plan', 'Plan a trip'],
@@ -91,6 +97,18 @@ export default function AdminSite({ regions = [] }) {
           <ImageField key={`${hubCountry}.${id}`} label={label}
             value={val(`hub.${hubCountry}.${id}`)}
             onChange={(v) => setVal(`hub.${hubCountry}.${id}`, v)} />
+        ))}
+      </div>
+
+      <h3 className="admin-h3">Page images</h3>
+      <p className="admin-note">
+        The picture beside the title on each main page (like the trip planner). Set once — used across the whole site.
+      </p>
+      <div className="admin-grid2">
+        {PAGE_IMAGES.map(([id, label]) => (
+          <ImageField key={id} label={label}
+            value={val(`page.${id}`)}
+            onChange={(v) => setVal(`page.${id}`, v)} />
         ))}
       </div>
 

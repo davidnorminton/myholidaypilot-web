@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { MapPin, Search, TrainFront, Car, ArrowRight } from 'lucide-react'
 import { getPlacesIndex, getImages } from '../lib/data.js'
+import { useSettings } from '../lib/settings.js'
 import { kmBetween } from '../lib/route.js'
 import { nearestStation } from '../lib/transport.js'
 import { typeLabel } from '../lib/format.js'
@@ -20,6 +21,7 @@ const TYPE_FILTERS = ['ALL', 'TOWN', 'CITY', 'COAST', 'MOUNTAIN', 'LAKE', 'LANDM
 const driveMins = (km) => Math.round((km / 55) * 60)
 
 export default function DayTripsScreen() {
+  const site = useSettings()
   useSeo({
     title: 'Day-trip finder',
     description: 'Pick your base and see every worthwhile day trip within reach — ranked by distance, with drive times.',
@@ -78,13 +80,18 @@ export default function DayTripsScreen() {
 
   return (
     <div className="page wrap dtf">
-      <header className="dtf__head">
-        <p className="eyebrow">Day-trip finder</p>
-        <h1 className="dtf__title">Where can I get to from here?</h1>
-        <p className="dtf__sub">
-          Pick your base — a hotel town, a city, anywhere — and see every place worth a day trip,
-          ranked by distance.
-        </p>
+      <header className="dtf__head plan-hero">
+        <div className="plan-hero__text">
+          <p className="eyebrow">Day-trip finder</p>
+          <h1 className="dtf__title">Where can I get to from here?</h1>
+          <p className="dtf__sub">
+            Pick your base — a hotel town, a city, anywhere — and see every place worth a day trip,
+            ranked by distance.
+          </p>
+        </div>
+        <div className="plan-hero__media" data-emoji="🚗">
+          {site['page.daytrips'] && <img src={site['page.daytrips']} alt="" />}
+        </div>
       </header>
 
       <div className="dtf__countries">

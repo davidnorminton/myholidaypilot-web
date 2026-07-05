@@ -10,12 +10,14 @@ import { generatePlan, INTERESTS, PACES, STYLES } from '../lib/generateTrip.js'
 import { createTrip, setTripDates, addPlace, setPlaceDate, togglePlaceItem, setActiveTrip } from '../lib/trips.js'
 import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
 import { paths } from '../lib/paths.js'
+import { useSettings } from '../lib/settings.js'
 import { useSeo } from '../lib/seo.js'
 
 const fmtShort = (d) => new Date(d + 'T12:00').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' })
 const defaultStart = () => { const d = new Date(); d.setDate(d.getDate() + 21); return d.toISOString().slice(0, 10) }
 
 export default function GuidedPlannerScreen() {
+  const site = useSettings()
   useSeo({
     title: 'Guided planner — a ready-made trip in 30 seconds',
     description: 'Answer five quick questions and get a complete day-by-day itinerary — places, things to do, where to eat — ready to fine-tune.',
@@ -80,13 +82,18 @@ export default function GuidedPlannerScreen() {
 
   return (
     <div className="page wrap guided">
-      <header className="guided__head">
-        <p className="eyebrow">Guided planner</p>
-        <h1 className="guided__title">A ready-made trip in five questions</h1>
-        <p className="guided__sub">
-          Answer a handful of questions and we'll draft the whole thing — days, sights, dinners —
-          from our hand-curated guides. Then fine-tune every detail in the <Link to={paths.plan()}>planner</Link>.
-        </p>
+      <header className="guided__head plan-hero">
+        <div className="plan-hero__text">
+          <p className="eyebrow">Guided planner</p>
+          <h1 className="guided__title">A ready-made trip in five questions</h1>
+          <p className="guided__sub">
+            Answer a handful of questions and we'll draft the whole thing — days, sights, dinners —
+            from our hand-curated guides. Then fine-tune every detail in the <Link to={paths.plan()}>planner</Link>.
+          </p>
+        </div>
+        <div className="plan-hero__media" data-emoji="✨">
+          {site['page.guided'] && <img src={site['page.guided']} alt="" />}
+        </div>
       </header>
 
       {step < 5 && (

@@ -34,7 +34,7 @@ export default function PlanScreen() {
   const snap = useTrips()
   const trip = activeTrip(snap)
   const site = useSettings()
-  const planHeroImg = (trip && site[`hub.${trip.countryId}.plan`]) || site['hub.default.plan'] || ''
+  const planHeroImg = site['page.plan'] || (trip && site[`hub.${trip.countryId}.plan`]) || site['hub.default.plan'] || ''
   const [wizard, setWizard] = useState(null)
   const [planFor, setPlanFor] = useState(null)
   const [view, setView] = useState('build')
