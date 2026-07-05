@@ -1,0 +1,1610 @@
+{
+  "id": "gyeongnam",
+  "name": "South Gyeongsang",
+  "nameIt": "경상남도",
+  "capital": "Changwon",
+  "lat": 35.2278,
+  "lng": 128.5833,
+  "emoji": "🎭",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 35.9,
+    "south": 34.5,
+    "east": 129.2,
+    "west": 127.5
+  },
+  "history": "South Gyeongsang Province has been a vital region of Korean civilization since ancient times, serving as the heartland of the Silla Kingdom during the Three Kingdoms period and later becoming a center of Buddhist culture. During the Joseon Dynasty, the region developed into a prosperous agricultural and trading hub, while its coastal areas became important ports for maritime commerce. The province suffered significantly during the Korean War, but rebuilt itself to become an industrial and manufacturing center in modern South Korea. Today it remains one of the nation's most economically important regions, balancing its historical heritage with contemporary development.",
+  "culturalNotes": "South Gyeongsang is known for its strong sense of regional identity and pride, with residents celebrated for their entrepreneurial spirit and business acumen. The region is famous for its temples and historical sites, particularly around Gyeongju, which was the ancient capital of Silla and contains numerous UNESCO World Heritage sites and archaeological treasures. Traditional crafts, local festivals, and seafood cuisine reflecting its coastal geography are integral to the province's cultural character and remain deeply valued by its people.",
+  "bestTimeToVisit": "Visit in spring or autumn for coastal scenery and cultural festivals.",
+  "languageNotes": "The South Gyeongsang dialect, known as the Yeongnam dialect, is characterized by distinctive pronunciation and vocabulary that differ notably from standard Seoul Korean, particularly in its intonation and certain vowel sounds. Visitors will find that locals are generally welcoming and patient with outsiders, and learning simple phrases like 'gomawo' (thank you) or 'annyeonghaseyo' (hello) in the local style is appreciated.",
+  "generatedAt": "2026-07-05T08:37:16.616Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "busan",
+      "name": "Busan",
+      "nameIt": "부산",
+      "lat": 35.1796,
+      "lng": 129.0756,
+      "type": "CITY",
+      "description": "South Korea's second-largest city and primary port, Busan is a vibrant coastal metropolis famous for its beaches, seafood markets, and modern skyline. Essential stops include Gamcheon Culture Village, Jagalchi Fish Market, and Haeundae Beach.",
+      "imageQueries": [
+        "Busan city skyline night",
+        "Gamcheon Culture Village Busan"
+      ],
+      "activities": [
+        {
+          "id": "busa_1",
+          "text": "Gamcheon Culture Village",
+          "detail": "Explore this hillside village of colorful houses, street art, and local cafes built on the slopes above Suyeong Harbor.",
+          "lat": 35.0795,
+          "lng": 129.0754
+        },
+        {
+          "id": "busa_2",
+          "text": "Jagalchi Fish Market",
+          "detail": "Browse Korea's largest seafood market where vendors sell fresh fish, octopus, and shellfish, many prepared for immediate eating.",
+          "lat": 35.0972,
+          "lng": 129.0736
+        },
+        {
+          "id": "busa_3",
+          "text": "Haeundae Beach",
+          "detail": "Relax on Busan's most popular sandy beach with clear waters, water sports facilities, and a lively promenade of cafes and restaurants.",
+          "lat": 35.1593,
+          "lng": 129.1606
+        },
+        {
+          "id": "busa_4",
+          "text": "Beomeosa Temple",
+          "detail": "Visit this serene Buddhist temple nestled in forested mountains offering peaceful gardens, traditional architecture, and hiking trails.",
+          "lat": 35.3311,
+          "lng": 129.0457
+        },
+        {
+          "id": "busa_5",
+          "text": "Busan Tower",
+          "detail": "Ascend this 120-meter tower in Yongdusan Park for panoramic views of the harbor, city skyline, and surrounding coastline.",
+          "lat": 35.1016,
+          "lng": 129.0518
+        },
+        {
+          "id": "busa_6",
+          "text": "Taejongdae Cliff",
+          "detail": "Walk scenic coastal trails and ride the cable car to dramatic cliff viewpoints overlooking the Southern Sea at the tip of the Yeongdo peninsula.",
+          "lat": 35.0742,
+          "lng": 129.0997
+        },
+        {
+          "id": "busa_7",
+          "text": "Nampodong Street",
+          "detail": "Shop and dine in this historic downtown district known for fashion boutiques, street food stalls, and bustling pedestrian commerce.",
+          "lat": 35.0981,
+          "lng": 129.0695
+        }
+      ],
+      "food": [
+        {
+          "id": "busa_f1",
+          "text": "Milmyeon",
+          "detail": "A cold noodle soup served with sliced raw squid, the signature summer dish of Busan that originated in nearby Masan."
+        },
+        {
+          "id": "busa_f2",
+          "text": "Jagalchi raw fish (회)",
+          "detail": "Fresh sashimi-grade fish and seafood prepared tableside at the market with spicy gochujang sauce and fresh vegetables."
+        },
+        {
+          "id": "busa_f3",
+          "text": "Busan-style kalguksu",
+          "detail": "Hand-cut wheat noodles in a rich seafood broth, often topped with mussels and squid for added coastal flavor."
+        },
+        {
+          "id": "busa_f4",
+          "text": "Ttaetgook",
+          "detail": "A warm rice cake soup made with Korean rice cakes, fish cakes, and broth, traditionally eaten on New Year's Day but available year-round."
+        },
+        {
+          "id": "busa_f5",
+          "text": "Octopus nakji-bokkeum",
+          "detail": "Stir-fried octopus with gochugaru, garlic, and vegetables, a spicy seafood specialty served hot off the griddle."
+        },
+        {
+          "id": "busa_f6",
+          "text": "Sea urchin (uni) and abalone",
+          "detail": "Freshly harvested sea urchin and abalone available raw or lightly prepared at Jagalchi Market for premium seafood lovers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "busa_c1",
+          "text": "Haggling at Jagalchi Market",
+          "detail": "Vendors expect and welcome negotiation on prices, especially for larger purchases or multiple items, making it a customary part of the shopping experience."
+        },
+        {
+          "id": "busa_c2",
+          "text": "Removing shoes indoors",
+          "detail": "When entering temples, traditional restaurants, or homes, always remove your shoes as a sign of respect and cleanliness."
+        },
+        {
+          "id": "busa_c3",
+          "text": "Seafood etiquette",
+          "detail": "When eating raw fish or seafood, use the provided metal chopsticks and spoon rather than personal utensils, and offer to serve others first before serving yourself."
+        },
+        {
+          "id": "busa_c4",
+          "text": "Public transportation card",
+          "detail": "Purchase a rechargeable Cashbee or T-money card at convenience stores for seamless payment on buses, subways, and ferries throughout the city."
+        }
+      ]
+    },
+    {
+      "id": "jinjucastle",
+      "name": "Jinju",
+      "nameIt": "진주",
+      "lat": 35.1883,
+      "lng": 128.0855,
+      "type": "CITY",
+      "description": "A historic city centered around the impressive Jinju Castle, site of significant resistance during the Japanese invasions of Korea. The castle and surrounding Namgang River offer beautiful scenery, especially during the autumn lantern festival.",
+      "imageQueries": [
+        "Jinju Castle Korea",
+        "Jinju Namgang Yu등Festival"
+      ],
+      "activities": [
+        {
+          "id": "jinj_1",
+          "text": "Jinju Castle",
+          "detail": "Walk the restored fortress walls and visit the museum documenting the 1592 Imjin War resistance, with views over the Namgang River.",
+          "lat": 35.1839,
+          "lng": 128.0854
+        },
+        {
+          "id": "jinj_2",
+          "text": "Namgang Lantern Festival",
+          "detail": "Experience Korea's largest lantern festival held along the river in October, with thousands of illuminated lanterns reflecting off the water.",
+          "lat": 35.19,
+          "lng": 128.09
+        },
+        {
+          "id": "jinj_3",
+          "text": "Namgang River Walk",
+          "detail": "Stroll the scenic riverside promenade lined with parks, traditional pavilions, and seasonal cherry blossoms in spring.",
+          "lat": 35.185,
+          "lng": 128.085
+        },
+        {
+          "id": "jinj_4",
+          "text": "Gyeongnamdo Folk Museum",
+          "detail": "Explore traditional Korean life, crafts, and architecture through exhibits housed in restored traditional buildings near the castle.",
+          "lat": 35.182,
+          "lng": 128.088
+        },
+        {
+          "id": "jinj_5",
+          "text": "Sacheongang River Wetlands",
+          "detail": "Observe migratory birds and natural wetland ecosystems at this protected area popular for photography and nature walks.",
+          "lat": 35.095,
+          "lng": 128.068
+        },
+        {
+          "id": "jinj_6",
+          "text": "Jingyeong Palace Ruins",
+          "detail": "Visit the archaeological remains of the Joseon dynasty administrative palace with interpretive displays about local history.",
+          "lat": 35.1765,
+          "lng": 128.092
+        }
+      ],
+      "food": [
+        {
+          "id": "jinj_f1",
+          "text": "Jinju Bibimbap",
+          "detail": "A signature local dish of rice topped with seasoned vegetables, beef, and a fried egg, mixed with gochujang at the table."
+        },
+        {
+          "id": "jinj_f2",
+          "text": "Namgang Jjimgalbi",
+          "detail": "Tender steamed short ribs marinated in a sweet soy sauce, a specialty of restaurants along the Namgang River."
+        },
+        {
+          "id": "jinj_f3",
+          "text": "Jinju Geotjeori",
+          "detail": "Spicy seasoned salad of thinly sliced raw vegetables and meat, typically served as a banchan or light main dish."
+        },
+        {
+          "id": "jinj_f4",
+          "text": "Bogyeoksal",
+          "detail": "Grilled pork belly with perilla leaves and ssamjang, popular in Jinju's traditional Korean BBQ restaurants."
+        },
+        {
+          "id": "jinj_f5",
+          "text": "Namgang Freshwater Fish",
+          "detail": "Local restaurants serve grilled or braised sweetfish and other Namgang river fish, especially in autumn."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jinj_c1",
+          "text": "Respect the War Legacy",
+          "detail": "Jinju Castle carries deep historical significance as a site of heroic resistance; approach respectfully and learn the stories of those who fought during the 1592 invasions."
+        },
+        {
+          "id": "jinj_c2",
+          "text": "Festival Season Timing",
+          "detail": "Plan visits in October for the Namgang Lantern Festival when the city draws crowds, or visit spring for cherry blossoms and fewer tourists."
+        },
+        {
+          "id": "jinj_c3",
+          "text": "Temple Etiquette",
+          "detail": "If visiting nearby Buddhist temples, remove shoes before entering buildings and speak quietly to respect those in prayer."
+        },
+        {
+          "id": "jinj_c4",
+          "text": "Local Greetings",
+          "detail": "Learning basic Korean phrases like 'annyeonghaseyo' (hello) and 'gamsa hamnida' (thank you) is appreciated by local vendors and restaurant owners."
+        }
+      ]
+    },
+    {
+      "id": "tongyeong",
+      "name": "Tongyeong",
+      "nameIt": "통영",
+      "lat": 34.8303,
+      "lng": 128.4286,
+      "type": "COASTAL",
+      "description": "A charming coastal town known as the Naples of Korea, famous for its picturesque harbor, fresh seafood, and artistic community. The cable car provides views over the Geoje and nearby islands.",
+      "imageQueries": [
+        "Tongyeong harbor Korea",
+        "Tongyeong cable car"
+      ],
+      "activities": [
+        {
+          "id": "tong_1",
+          "text": "Tongyeong Cable Car",
+          "detail": "Ride the scenic cable car up Mireuk Mountain for panoramic views of the harbor, nearby islands, and the Geoje Bridge.",
+          "lat": 34.8297,
+          "lng": 128.4264
+        },
+        {
+          "id": "tong_2",
+          "text": "Dongpirang Wall Art Village",
+          "detail": "Wander through this hillside neighborhood filled with colorful murals, small galleries, and artistic installations created by local and visiting artists.",
+          "lat": 34.8256,
+          "lng": 128.4334
+        },
+        {
+          "id": "tong_3",
+          "text": "Tongyeong Harbor Walk",
+          "detail": "Stroll along the picturesque waterfront lined with fishing boats, seafood restaurants, and small galleries reflecting the town's maritime heritage.",
+          "lat": 34.8289,
+          "lng": 128.4301
+        },
+        {
+          "id": "tong_4",
+          "text": "Yi Sunsin Park",
+          "detail": "Pay respects at this historical park dedicated to Admiral Yi Sunsin, featuring statues, exhibits, and views over the harbor.",
+          "lat": 34.8269,
+          "lng": 128.4276
+        },
+        {
+          "id": "tong_5",
+          "text": "Tongyeong Aquarium",
+          "detail": "Explore marine life native to the South Sea, including fish species important to local fishing culture and ecosystem education.",
+          "lat": 34.8222,
+          "lng": 128.4389
+        },
+        {
+          "id": "tong_6",
+          "text": "Island Hopping Tours",
+          "detail": "Take ferry tours to nearby islands such as Geoje and smaller archipelago islands to experience fishing villages and coastal scenery.",
+          "lat": 34.8289,
+          "lng": 128.4301
+        },
+        {
+          "id": "tong_7",
+          "text": "Tongyeong Art Museum",
+          "detail": "Visit this waterfront museum showcasing contemporary Korean art and rotating exhibitions celebrating the region's creative community.",
+          "lat": 34.8244,
+          "lng": 128.4356
+        }
+      ],
+      "food": [
+        {
+          "id": "tong_f1",
+          "text": "Fresly Caught Raw Fish (Hoe)",
+          "detail": "Enjoy sashimi-style sliced fish like flounder and grouper sourced directly from the morning's catch at harborside restaurants."
+        },
+        {
+          "id": "tong_f2",
+          "text": "Charcoal-Grilled Mackerel (Godeungeo-gui)",
+          "detail": "Savor freshly grilled mackerel seasoned simply with salt, a signature dish highlighting the region's abundant local seafood."
+        },
+        {
+          "id": "tong_f3",
+          "text": "Sea Urchin (Uni)",
+          "detail": "Taste creamy, fresh sea urchin served over rice or eaten directly, a delicacy particularly prized in Tongyeong's seafood markets."
+        },
+        {
+          "id": "tong_f4",
+          "text": "Squid Simmered in Soy (Nakji Jorim)",
+          "detail": "Try tender squid braised with soy sauce, sesame, and garlic, a local comfort food often served family-style at waterfront restaurants."
+        },
+        {
+          "id": "tong_f5",
+          "text": "Seafood Hotpot (Jjigae)",
+          "detail": "Order a bubbling stew filled with local fish, shellfish, vegetables, and fermented paste for a communal dining experience."
+        },
+        {
+          "id": "tong_f6",
+          "text": "Sea Vegetable Soup (Miyeok Guk)",
+          "detail": "Enjoy a light, mineral-rich soup made with locally harvested sea mustard, often eaten for breakfast at traditional noodle shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tong_c1",
+          "text": "Fishing Heritage Respect",
+          "detail": "Tongyeong's identity is rooted in fishing; respect working fishermen and their boats, and consider visiting early morning fish markets to understand daily life."
+        },
+        {
+          "id": "tong_c2",
+          "text": "Admiral Yi Sunsin Significance",
+          "detail": "The 16th-century naval commander is revered locally and nationally; understanding his legacy adds meaning to monuments and historical sites throughout town."
+        },
+        {
+          "id": "tong_c3",
+          "text": "Artistic Community Etiquette",
+          "detail": "The town is home to many working artists; support local galleries and studios by purchasing directly from creators and asking permission before photographing murals."
+        },
+        {
+          "id": "tong_c4",
+          "text": "Seasonal Seafood Cycles",
+          "detail": "Visit during appropriate seasons for specific catches—summer for flounder and grouper, winter for sea urchin and mackerel—to experience authentic local dining."
+        }
+      ]
+    },
+    {
+      "id": "geoje",
+      "name": "Geoje",
+      "nameIt": "거제",
+      "lat": 34.8792,
+      "lng": 128.6117,
+      "type": "ISLAND",
+      "description": "South Korea's second-largest island featuring stunning coastal scenery, naval history, and beaches. Popular attractions include Oedo Island with its botanical garden and scenic coastal roads.",
+      "imageQueries": [
+        "Geoje Island Korea",
+        "Oedo Island botanical garden"
+      ],
+      "activities": [
+        {
+          "id": "geoj_1",
+          "text": "Oedo Island Botanical Garden",
+          "detail": "Explore a picturesque man-made island featuring over 4,000 species of plants arranged across beautifully landscaped gardens with coastal views.",
+          "lat": 34.5589,
+          "lng": 128.6247
+        },
+        {
+          "id": "geoj_2",
+          "text": "Okpo Bay Naval Battle Monument",
+          "detail": "Visit this memorial site commemorating the historic 1592 naval victory by Admiral Yi Sun-sin during the Japanese invasions, overlooking the strategic bay.",
+          "lat": 34.5744,
+          "lng": 128.6089
+        },
+        {
+          "id": "geoj_3",
+          "text": "Geoje Poonggyeong Road",
+          "detail": "Drive or cycle this scenic 22km coastal route featuring stunning ocean vistas, rocky cliffs, and photo stops along the southern shoreline.",
+          "lat": 34.55,
+          "lng": 128.62
+        },
+        {
+          "id": "geoj_4",
+          "text": "Mongdol Beach",
+          "detail": "Relax on this unique pebble beach known for its smooth round stones and calm waters, popular for families and sunset viewing.",
+          "lat": 34.6089,
+          "lng": 128.5744
+        },
+        {
+          "id": "geoj_5",
+          "text": "Hakdong Mongdol Theme Park",
+          "detail": "Experience interactive exhibits about pebble geology and coastal formations while enjoying views of the characteristic stone beaches.",
+          "lat": 34.61,
+          "lng": 128.57
+        },
+        {
+          "id": "geoj_6",
+          "text": "German Village (Geoje Dongbu)",
+          "detail": "Wander through a charming reconstructed Alpine village with European-style architecture, cafés, and photo opportunities reflecting Korean appreciation of German culture.",
+          "lat": 34.6234,
+          "lng": 128.6378
+        }
+      ],
+      "food": [
+        {
+          "id": "geoj_f1",
+          "text": "Geoje Hoe (회)",
+          "detail": "Fresh raw fish sliced from local catches served with soy sauce and wasabi, reflecting the island's rich fishing heritage and coastal location."
+        },
+        {
+          "id": "geoj_f2",
+          "text": "Gejae Gat Kimchi",
+          "detail": "Locally-made kimchi using mustard greens specific to the Geoje region, known for its distinctive bitter-sweet flavor and crisp texture."
+        },
+        {
+          "id": "geoj_f3",
+          "text": "Geoje Black Pork (흑돼지)",
+          "detail": "Premium grilled black pork from local farms, celebrated for its tender meat and rich flavor, often served at beachside restaurants."
+        },
+        {
+          "id": "geoj_f4",
+          "text": "Abalone (전복) Porridge",
+          "detail": "Creamy rice porridge made with locally-harvested abalone, a traditional post-diving meal among the island's haenyeo (female divers)."
+        }
+      ],
+      "culture": [
+        {
+          "id": "geoj_c1",
+          "text": "Respect for Maritime History",
+          "detail": "Geoje deeply honors its naval heritage and Admiral Yi Sun-sin; visiting war monuments with respectful behavior is important to locals."
+        },
+        {
+          "id": "geoj_c2",
+          "text": "Haenyeo (해녀) Tradition",
+          "detail": "The island maintains an active female diving community harvesting seafood; you may encounter them at coastal areas and markets, and their traditions are central to local identity."
+        },
+        {
+          "id": "geoj_c3",
+          "text": "Seasonal Island Accessibility",
+          "detail": "Ferry schedules to nearby islands like Oedo can be unpredictable during rough seas; check conditions and book tickets in advance rather than assuming walk-up availability."
+        }
+      ]
+    },
+    {
+      "id": "namhae",
+      "name": "Namhae",
+      "nameIt": "남해",
+      "lat": 34.8608,
+      "lng": 128.1517,
+      "type": "ISLAND",
+      "description": "A scenic island connected to the mainland by bridge, known for its quiet villages, beautiful coastlines, and cultural heritage. Famous for the German Village themed settlement and sea farms producing abalone and sea cucumber.",
+      "imageQueries": [
+        "Namhae Island Korea",
+        "Namhae German Village"
+      ],
+      "activities": [
+        {
+          "id": "namh_1",
+          "text": "German Village",
+          "detail": "Explore a charming themed settlement with European-style architecture, cafes, and gift shops built to recreate a German immigrant experience.",
+          "lat": 34.8206,
+          "lng": 128.4514
+        },
+        {
+          "id": "namh_2",
+          "text": "Daraengi Coastal Road",
+          "detail": "Drive or cycle this scenic 10km seaside route offering panoramic ocean views and stops at small fishing villages and photo spots.",
+          "lat": 34.8384,
+          "lng": 128.4789
+        },
+        {
+          "id": "namh_3",
+          "text": "Boriam Temple",
+          "detail": "Visit this clifftop Buddhist temple perched above the sea with stunning views, accessible by a steep stone staircase carved into the rock face.",
+          "lat": 34.8089,
+          "lng": 128.4356
+        },
+        {
+          "id": "namh_4",
+          "text": "Abalone and Sea Cucumber Farms",
+          "detail": "Take a guided tour of working seafood farms to learn about local aquaculture and purchase fresh sea products directly from producers.",
+          "lat": 34.8456,
+          "lng": 128.4672
+        },
+        {
+          "id": "namh_5",
+          "text": "Mullyeong Gil Coastal Trail",
+          "detail": "Hike this well-maintained 7km trail along dramatic cliffs and quiet beaches connecting multiple scenic viewpoints.",
+          "lat": 34.8234,
+          "lng": 128.4445
+        },
+        {
+          "id": "namh_6",
+          "text": "Nammun Port Fish Market",
+          "detail": "Browse fresh catch, dried seafood, and local snacks at this active fishing port where you can negotiate prices and sample street food.",
+          "lat": 34.8567,
+          "lng": 128.4389
+        }
+      ],
+      "food": [
+        {
+          "id": "namh_f1",
+          "text": "Nakji Bokkeum",
+          "detail": "Spicy stir-fried octopus, a specialty of the region's fishing tradition, often served as a main course with rice and side dishes."
+        },
+        {
+          "id": "namh_f2",
+          "text": "Geotjeori Gimbap",
+          "detail": "Namhae-style kimbap made with fresh local seafood including sea cucumber and abalone, wrapped in seaweed with rice and vegetables."
+        },
+        {
+          "id": "namh_f3",
+          "text": "Jjim Bap",
+          "detail": "A local one-bowl dish combining steamed abalone, sea cucumber, and seasonal vegetables over rice with a savory broth."
+        },
+        {
+          "id": "namh_f4",
+          "text": "Mulhoe",
+          "detail": "Raw fish soup made with fresh catch from the day, served cold in a tangy broth, a refreshing summer specialty along the coast."
+        },
+        {
+          "id": "namh_f5",
+          "text": "Seafood Jjim",
+          "detail": "Steamed basket of mixed shellfish, fish, and vegetables seasoned simply to highlight the freshness of Namhae's daily harvest."
+        }
+      ],
+      "culture": [
+        {
+          "id": "namh_c1",
+          "text": "Seasonal Seafood Availability",
+          "detail": "Plan your visit around abalone (spring) and sea cucumber (autumn) harvest seasons to enjoy these specialties at peak freshness and best prices."
+        },
+        {
+          "id": "namh_c2",
+          "text": "Fishing Village Etiquette",
+          "detail": "When visiting working ports and farms, ask permission before photographing and respect operating hours; early morning visits yield the most authentic atmosphere."
+        },
+        {
+          "id": "namh_c3",
+          "text": "Island Pace and Closures",
+          "detail": "Many small restaurants and shops close by 8 PM and some facilities have reduced hours in winter; plan activities accordingly and call ahead for reservations."
+        },
+        {
+          "id": "namh_c4",
+          "text": "Bridge Toll System",
+          "detail": "The Namhae Bridge connecting to the mainland charges a toll; keep small bills or coins ready, and note that some tolls apply per crossing direction."
+        }
+      ]
+    },
+    {
+      "id": "jirisan",
+      "name": "Jirisan National Park",
+      "nameIt": "지리산",
+      "lat": 35.3058,
+      "lng": 127.7306,
+      "type": "NATURE",
+      "description": "One of Korea's most revered mountains straddling three provinces, offering excellent hiking trails with panoramic mountain views and diverse wildlife. The park is accessible from multiple entrances in South Gyeongsang.",
+      "imageQueries": [
+        "Jirisan National Park Korea",
+        "Jirisan mountain hiking"
+      ],
+      "activities": [
+        {
+          "id": "jiri_1",
+          "text": "Cheonwangbong Peak Hike",
+          "detail": "Trek to Jirisan's highest summit at 1,915m for sweeping views across three provinces and the southern coast on clear days.",
+          "lat": 35.3047,
+          "lng": 127.6328
+        },
+        {
+          "id": "jiri_2",
+          "text": "Nogodan Ridge Trail",
+          "detail": "Walk the scenic alpine ridge offering wildflower meadows in spring and summer with views of the Geumsan Valley below.",
+          "lat": 35.2889,
+          "lng": 127.5831
+        },
+        {
+          "id": "jiri_3",
+          "text": "Seomjingang River Viewing",
+          "detail": "Explore the river valley on the park's southern edge where water activities and riverside villages provide a gentler contrast to mountain trails.",
+          "lat": 35.2556,
+          "lng": 127.6389
+        },
+        {
+          "id": "jiri_4",
+          "text": "Jirisan Templestay at Ssanggye-sa",
+          "detail": "Experience Buddhist monastic life with meditation, temple meals, and cultural teachings in this 900-year-old mountain temple within the park.",
+          "lat": 35.2917,
+          "lng": 127.5694
+        },
+        {
+          "id": "jiri_5",
+          "text": "Piagol Valley Waterfall Trail",
+          "detail": "Hike through a scenic gorge to discover seasonal waterfalls and pristine forest streams on the eastern approach.",
+          "lat": 35.3194,
+          "lng": 127.7083
+        },
+        {
+          "id": "jiri_6",
+          "text": "Yeonhacheon Valley Camping",
+          "detail": "Camp near the northern entrance in this lush valley known for clear streams and accessible family-friendly forest paths.",
+          "lat": 35.35,
+          "lng": 127.55
+        },
+        {
+          "id": "jiri_7",
+          "text": "Bijarim Forest and Camellia Grove",
+          "detail": "Visit the protected old-growth forest and wild camellia clusters blooming from November to March on the park's western slopes.",
+          "lat": 35.2778,
+          "lng": 127.4972
+        }
+      ],
+      "food": [
+        {
+          "id": "jiri_f1",
+          "text": "Jirisan Mountain Chicken (닭볶음탕)",
+          "detail": "Local specialty of free-range mountain chicken braised with wild vegetables, served hot in a clay pot at park-entrance villages."
+        },
+        {
+          "id": "jiri_f2",
+          "text": "Sanchae Namul (산채나물)",
+          "detail": "Mountain vegetable side dishes featuring wild ferns, aralia shoots, and seasoned greens foraged from Jirisan slopes."
+        },
+        {
+          "id": "jiri_f3",
+          "text": "Jirisan Trout (송어)",
+          "detail": "Fresh cold-water trout from mountain streams, grilled or served raw as sashimi in restaurants near the Seomjingang River."
+        },
+        {
+          "id": "jiri_f4",
+          "text": "Medicinal Herb Tea (산삼차)",
+          "detail": "Brewed wild ginseng and forest herb infusions sold at park visitor centers and mountain lodges for warming and vitality."
+        },
+        {
+          "id": "jiri_f5",
+          "text": "Makgeolli at Mountain Lodges",
+          "detail": "Local rice wine served alongside pajeon (vegetable pancakes) at traditional guesthouses, especially popular after hiking."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jiri_c1",
+          "text": "Mountain Etiquette",
+          "detail": "Greet other hikers with a nod and yield to descending hikers on narrow paths; removing shoes before entering temples and lodges is essential."
+        },
+        {
+          "id": "jiri_c2",
+          "text": "Peak Season Timing",
+          "detail": "Spring (April-May) and autumn (September-October) are ideal but crowded; visit weekdays if possible and start early to secure parking at trailheads."
+        },
+        {
+          "id": "jiri_c3",
+          "text": "Weather Preparation",
+          "detail": "Mountain weather changes rapidly; carry rain gear and warm layers year-round as temperatures drop significantly above 1,500m elevation."
+        },
+        {
+          "id": "jiri_c4",
+          "text": "Local Entrance Villages",
+          "detail": "The towns of Gurye, Namwon, and Hadong surrounding the park offer traditional markets, overnight lodging, and regional guides essential for planning multi-day treks."
+        }
+      ]
+    },
+    {
+      "id": "hallyeosanghaepark",
+      "name": "Hallyeo Marine National Park",
+      "nameIt": "한려해상국립공원",
+      "lat": 34.85,
+      "lng": 128.5,
+      "type": "COASTAL",
+      "description": "A stunning marine park encompassing numerous islands and coastal areas between Tongyeong and Geoje, featuring crystal-clear waters and dramatic rock formations. Best explored by boat tours or island-hopping ferries.",
+      "imageQueries": [
+        "Hallyeo Marine National Park",
+        "Hallyeosanghae islands Korea"
+      ],
+      "activities": [
+        {
+          "id": "hall_1",
+          "text": "Island-hopping ferry tours",
+          "detail": "Take passenger ferries between major islands like Geoje, Namhae, and Bijindo to experience the park's scattered archipelago and dramatic coastal scenery.",
+          "lat": 34.8,
+          "lng": 128.6
+        },
+        {
+          "id": "hall_2",
+          "text": "Kayaking through sea caves",
+          "detail": "Paddle through hidden sea caves and narrow channels around smaller islands where towering rock formations create dramatic natural tunnels and grottos.",
+          "lat": 34.75,
+          "lng": 128.65
+        },
+        {
+          "id": "hall_3",
+          "text": "Olle trail hiking on Namhae",
+          "detail": "Walk the famous Namhae Olle coastal trails that wind along cliffs and beaches with stunning ocean vistas and access to secluded coves.",
+          "lat": 34.82,
+          "lng": 128.42
+        },
+        {
+          "id": "hall_4",
+          "text": "Tongyeong harbor boat cruise",
+          "detail": "Board sightseeing boats departing from Tongyeong to tour the innermost bays and observe fishing villages nestled between vertical rock formations.",
+          "lat": 34.8286,
+          "lng": 128.425
+        },
+        {
+          "id": "hall_5",
+          "text": "Snorkeling and diving spots",
+          "detail": "Explore pristine underwater ecosystems around designated diving sites where visibility is excellent and marine life is abundant.",
+          "lat": 34.85,
+          "lng": 128.75
+        },
+        {
+          "id": "hall_6",
+          "text": "Sunrise viewing at Yeongok Beach",
+          "detail": "Wake early to watch the sunrise over the southern coast from this popular Geoje beach framed by rocky outcrops.",
+          "lat": 34.88,
+          "lng": 128.71
+        }
+      ],
+      "food": [
+        {
+          "id": "hall_f1",
+          "text": "Raw fish and sashimi (hoe)",
+          "detail": "The park's fishing heritage means ultra-fresh catches served as hoe at harborside restaurants, often featuring local catches like grouper and sea bream."
+        },
+        {
+          "id": "hall_f2",
+          "text": "Sea urchin (uni) and sea cucumber",
+          "detail": "Dive-harvested uni and sea cucumber are local delicacies, served fresh at seaside restaurants and markets, particularly on Geoje and Namhae."
+        },
+        {
+          "id": "hall_f3",
+          "text": "Grilled mackerel and local fish",
+          "detail": "Vendor stalls and restaurants grill fresh mackerel and seasonal catches over charcoal, a staple meal for both locals and visitors."
+        },
+        {
+          "id": "hall_f4",
+          "text": "Abalone porridge (jeonbok juk)",
+          "detail": "Soft rice porridge made with tender abalone sourced from local waters, served in seafood restaurants throughout the coastal towns."
+        },
+        {
+          "id": "hall_f5",
+          "text": "Seaweed and wakame dishes",
+          "detail": "Locally harvested seaweed appears in soups, side dishes, and as a standalone snack, reflecting the park's rich kelp forests."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hall_c1",
+          "text": "Respect fishing operations",
+          "detail": "The park remains an active fishing area; avoid interfering with boats, nets, and drying racks, and purchase from local fishermen to support the community."
+        },
+        {
+          "id": "hall_c2",
+          "text": "Book ferries in advance",
+          "detail": "Island ferry schedules are seasonal and weather-dependent, so reserve tickets ahead and check timetables to avoid unexpected cancellations."
+        },
+        {
+          "id": "hall_c3",
+          "text": "Wear proper footwear for rocky terrain",
+          "detail": "Sharp rocks and slippery surfaces are common around the islands; sturdy hiking shoes and water sandals are essential safety items."
+        }
+      ]
+    },
+    {
+      "id": "gimhae",
+      "name": "Gimhae",
+      "nameIt": "김해",
+      "lat": 35.2278,
+      "lng": 128.8776,
+      "type": "CITY",
+      "description": "An ancient kingdom's former capital with significant archaeological sites and the famous Gaya Kingdom heritage. Home to Gimhae International Airport and notable historical museums.",
+      "imageQueries": [
+        "Gimhae Gaya Kingdom",
+        "Gimhae pottery museum"
+      ],
+      "activities": [
+        {
+          "id": "gimh_1",
+          "text": "Gaya National Museum",
+          "detail": "Explore extensive artifacts and relics from the ancient Gaya Kingdom, including gold crowns, weapons, and pottery that showcase the region's 2,000-year history.",
+          "lat": 35.2297,
+          "lng": 128.8931
+        },
+        {
+          "id": "gimh_2",
+          "text": "Dae Gaya Tomb Complex",
+          "detail": "Visit the preserved burial mounds of Gaya royalty and nobility scattered across the city, representing one of Korea's most important archaeological sites.",
+          "lat": 35.2389,
+          "lng": 128.8972
+        },
+        {
+          "id": "gimh_3",
+          "text": "Gimhae Goryeoksa Temple",
+          "detail": "Tour this historic Buddhist temple known for its serene grounds and ancient architectural elements connected to the Gaya Kingdom period.",
+          "lat": 35.1847,
+          "lng": 128.8839
+        },
+        {
+          "id": "gimh_4",
+          "text": "Suseong Pool",
+          "detail": "Walk around this scenic artificial pond with recreational pathways, a popular spot for locals and visitors seeking peaceful outdoor time.",
+          "lat": 35.1756,
+          "lng": 128.8731
+        },
+        {
+          "id": "gimh_5",
+          "text": "Gimhae International Airport Terminal",
+          "detail": "Explore the modern airport's cultural exhibition space showcasing local Gaya Kingdom heritage and regional crafts before or after flights.",
+          "lat": 35.1794,
+          "lng": 128.9553
+        },
+        {
+          "id": "gimh_6",
+          "text": "Donyeojin Historic Site",
+          "detail": "Walk through the reconstructed ancient settlement area with informational displays about daily life during the Gaya Kingdom era."
+        }
+      ],
+      "food": [
+        {
+          "id": "gimh_f1",
+          "text": "Gimhae Makguksu",
+          "detail": "Chilled buckwheat noodle soup served with sesame dressing, a regional specialty particularly refreshing during hot Korean summers."
+        },
+        {
+          "id": "gimh_f2",
+          "text": "Gimhae Agujim",
+          "detail": "Steamed monkfish dish seasoned with gochujang and vegetables, reflecting the area's historical port trade and fresh seafood accessibility."
+        },
+        {
+          "id": "gimh_f3",
+          "text": "Nakji Bokkeum",
+          "detail": "Stir-fried octopus with spicy gochugaru sauce and vegetables, a popular local preparation showcasing the region's coastal fishing heritage."
+        },
+        {
+          "id": "gimh_f4",
+          "text": "Gaya-style Kimchi",
+          "detail": "Traditionally fermented kimchi using locally grown vegetables and regional seasoning methods passed down through generations."
+        },
+        {
+          "id": "gimh_f5",
+          "text": "Galbijjim",
+          "detail": "Braised beef short ribs with medicinal herbs and aromatics, a celebratory dish reflecting Gaya Kingdom royal court dining traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gimh_c1",
+          "text": "Archaeological Sensitivity",
+          "detail": "Many tomb sites and historical areas are active excavation zones; respect barrier markings and follow posted guidelines to protect irreplaceable cultural heritage."
+        },
+        {
+          "id": "gimh_c2",
+          "text": "Gaya Kingdom Pride",
+          "detail": "Locals deeply value their region's ancient kingdom history; showing genuine interest in Gaya artifacts and sites will be warmly received by residents."
+        },
+        {
+          "id": "gimh_c3",
+          "text": "Museum Etiquette",
+          "detail": "Most historical museums require quiet behavior and prohibit photography in certain artifact galleries; observe other visitors and staff instructions carefully."
+        },
+        {
+          "id": "gimh_c4",
+          "text": "Seasonal Temple Visits",
+          "detail": "Buddhist temples in Gimhae host seasonal festivals and meditation programs; inquire at information centers about special cultural events during your visit dates."
+        }
+      ]
+    },
+    {
+      "id": "sancheong",
+      "name": "Sancheong",
+      "nameIt": "산청",
+      "lat": 35.3831,
+      "lng": 127.8733,
+      "type": "TOWN",
+      "description": "A peaceful mountain town famous for its tea plantations, traditional Korean medicine heritage, and access to hiking trails. The area produces high-quality green tea and offers a slower pace of travel.",
+      "imageQueries": [
+        "Sancheong tea plantation Korea",
+        "Sancheong mountain town"
+      ],
+      "activities": [
+        {
+          "id": "sanc_1",
+          "text": "Hwagye Tea Plantation Visit",
+          "detail": "Walk through rolling green tea fields on the slopes of Jiri Mountain and learn about Sancheong's renowned green tea production directly from local growers.",
+          "lat": 35.395,
+          "lng": 127.865
+        },
+        {
+          "id": "sanc_2",
+          "text": "Jiri Mountain Hiking",
+          "detail": "Trek one of South Korea's most famous mountains with well-marked trails ranging from easy valley walks to challenging ridge hikes offering panoramic views.",
+          "lat": 35.328,
+          "lng": 127.733
+        },
+        {
+          "id": "sanc_3",
+          "text": "Korean Medicine Museum",
+          "detail": "Explore Sancheong's traditional herbal medicine heritage through exhibits on medicinal plants and historical practices that have made the region famous for wellness tourism.",
+          "lat": 35.405,
+          "lng": 127.878
+        },
+        {
+          "id": "sanc_4",
+          "text": "Dong-Nyeong Suspension Bridge",
+          "detail": "Walk across this scenic bridge spanning a mountain valley for dramatic views of the surrounding peaks and tea plantations.",
+          "lat": 35.384,
+          "lng": 127.892
+        },
+        {
+          "id": "sanc_5",
+          "text": "Sancheong Medicinal Herb Market",
+          "detail": "Browse fresh and dried medicinal herbs, ginseng, and traditional remedies at the town's central market where locals and visitors source wellness ingredients.",
+          "lat": 35.4,
+          "lng": 127.87
+        },
+        {
+          "id": "sanc_6",
+          "text": "Seom Island (Seom-do)",
+          "detail": "Visit a small forested island in the nearby Namgang River valley accessible by ferry, offering peaceful nature walks and local rest areas.",
+          "lat": 35.36,
+          "lng": 127.915
+        }
+      ],
+      "food": [
+        {
+          "id": "sanc_f1",
+          "text": "Sancheong Green Tea and Snacks",
+          "detail": "Sample fresh-brewed local green tea paired with traditional tea snacks like injeolmi (bean powder rice cakes) at dedicated tea houses throughout town."
+        },
+        {
+          "id": "sanc_f2",
+          "text": "Ginseng Chicken Soup (Samgyetang)",
+          "detail": "Eat tender chicken stuffed with ginseng, jujubes, and garlic in a nourishing broth, a signature dish using Sancheong's famous medicinal ginseng."
+        },
+        {
+          "id": "sanc_f3",
+          "text": "Medicinal Herb Rice (Yaksik)",
+          "detail": "Try sticky rice cooked with various medicinal herbs, chestnuts, and jujubes, reflecting the region's wellness-focused cuisine."
+        },
+        {
+          "id": "sanc_f4",
+          "text": "Memil Guksu (Buckwheat Noodles)",
+          "detail": "Enjoy cold buckwheat noodles served with a savory broth, a traditional mountain town specialty often found in local restaurants."
+        },
+        {
+          "id": "sanc_f5",
+          "text": "Fresh Mountain Vegetables (Sannamul)",
+          "detail": "Taste seasoned wild greens and shoots foraged from Jiri Mountain slopes, typically served as side dishes or main vegetable courses."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sanc_c1",
+          "text": "Visit during Tea Harvest Season",
+          "detail": "Spring (April-May) and early summer (June) are ideal times to visit tea plantations when new leaves are being harvested and processing facilities are most active."
+        },
+        {
+          "id": "sanc_c2",
+          "text": "Respect Hiking Culture",
+          "detail": "Most trails have designated paths and facilities; follow the marked routes, bring sufficient water, and be prepared for mountain weather changes even in seemingly clear conditions."
+        },
+        {
+          "id": "sanc_c3",
+          "text": "Wellness-Focused Mindset",
+          "detail": "Sancheong emphasizes slow travel and health tourism; plan to spend several days rather than rushing through, with time for tea appreciation, herbal treatments, and meditative walks."
+        },
+        {
+          "id": "sanc_c4",
+          "text": "Local Tea Etiquette",
+          "detail": "At tea houses and farms, it's customary to try samples offered by owners or staff; accepting graciously and asking questions about production methods is appreciated and enhances the experience."
+        }
+      ]
+    },
+    {
+      "id": "goseong",
+      "name": "Goseong",
+      "nameIt": "고성",
+      "lat": 34.6892,
+      "lng": 128.4428,
+      "type": "TOWN",
+      "description": "A coastal town known for its natural beauty, including the dramatic Goseong Dinosaur Museum and pristine beaches. The region is rich in fossil records and offers quiet seaside retreats.",
+      "imageQueries": [
+        "Goseong Dinosaur Museum",
+        "Goseong beach Korea"
+      ],
+      "activities": [
+        {
+          "id": "gose_1",
+          "text": "Goseong Dinosaur Museum",
+          "detail": "Explore one of Korea's premier dinosaur museums featuring fossils, footprints, and exhibits showcasing the Cretaceous period discoveries from the region.",
+          "lat": 34.8866,
+          "lng": 128.4283
+        },
+        {
+          "id": "gose_2",
+          "text": "Nampo Beach",
+          "detail": "Relax on this serene sandy beach known for its calm waters and clean shores, perfect for swimming and seaside walks.",
+          "lat": 34.8547,
+          "lng": 128.5067
+        },
+        {
+          "id": "gose_3",
+          "text": "Sangju Beach",
+          "detail": "Visit a quieter coastal area popular with locals featuring rock formations and tide pools ideal for exploration.",
+          "lat": 34.9203,
+          "lng": 128.4617
+        },
+        {
+          "id": "gose_4",
+          "text": "Goseong Fossil Site Hike",
+          "detail": "Trek through coastal trails where Cretaceous fossils are visible in cliff faces and rock formations along the shoreline.",
+          "lat": 34.8721,
+          "lng": 128.4156
+        },
+        {
+          "id": "gose_5",
+          "text": "Dongbae Beach",
+          "detail": "Experience a less crowded beach with scenic cliffs and opportunities for photography and quiet contemplation.",
+          "lat": 34.8789,
+          "lng": 128.5312
+        },
+        {
+          "id": "gose_6",
+          "text": "Local Seafood Markets",
+          "detail": "Browse fresh catches at harbourside markets where you can purchase or sample locally caught fish and shellfish.",
+          "lat": 34.8634,
+          "lng": 128.4834
+        }
+      ],
+      "food": [
+        {
+          "id": "gose_f1",
+          "text": "Goseong Saengsae Hoe",
+          "detail": "Fresh raw fish platters featuring locally caught varieties served with seasoned rice and traditional banchan side dishes."
+        },
+        {
+          "id": "gose_f2",
+          "text": "Jjim (Steamed Fish)",
+          "detail": "Whole fish steamed with vegetables and soy-based broth, a traditional preparation highlighting the day's fresh catch."
+        },
+        {
+          "id": "gose_f3",
+          "text": "Sora (Sea Snail) Bokkeum",
+          "detail": "Stir-fried periwinkles seasoned with gochugaru and garlic, a popular coastal snack reflecting the region's marine bounty."
+        },
+        {
+          "id": "gose_f4",
+          "text": "Eomuk (Fish Cake) Skewers",
+          "detail": "Homemade fish cakes grilled and served with dipping sauce, a common street food made from local fish varieties."
+        },
+        {
+          "id": "gose_f5",
+          "text": "Clam and Seaweed Soup",
+          "detail": "Hearty soup combining locally harvested clams and wakame seaweed in a light broth, often served as a breakfast staple."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gose_c1",
+          "text": "Respect Fossil Sites",
+          "detail": "Do not remove rocks or fossils from protected areas; these sites are scientific heritage and often legally protected."
+        },
+        {
+          "id": "gose_c2",
+          "text": "Beach Etiquette",
+          "detail": "Goseong beaches observe quiet hours in early morning and late evening; keep noise levels low to respect the peaceful coastal environment."
+        },
+        {
+          "id": "gose_c3",
+          "text": "Seafood Market Customs",
+          "detail": "It is common to negotiate prices gently at local harbourside markets, and vendors appreciate visitors who show genuine interest in their products."
+        },
+        {
+          "id": "gose_c4",
+          "text": "Local Festival Awareness",
+          "detail": "The Goseong Dinosaur Festival typically occurs in summer; visiting during this time offers cultural performances and organized fossil-related activities."
+        }
+      ]
+    },
+    {
+      "id": "sacheon",
+      "name": "Sacheon",
+      "nameIt": "사천",
+      "lat": 34.9739,
+      "lng": 128.0747,
+      "type": "COASTAL",
+      "description": "A coastal city famous for ceramics production and the Sacheon Airshow, one of Asia's largest air shows held biennially. The city combines industrial heritage with natural coastal attractions.",
+      "imageQueries": [
+        "Sacheon airshow Korea",
+        "Sacheon ceramics"
+      ],
+      "activities": [
+        {
+          "id": "sach_1",
+          "text": "Sacheon Airshow",
+          "detail": "Asia's largest biennial air show featuring military and civilian aircraft demonstrations, typically held in October at Sacheon Airport.",
+          "lat": 34.9833,
+          "lng": 128.0667
+        },
+        {
+          "id": "sach_2",
+          "text": "Sacheon Ceramic Museum",
+          "detail": "A museum dedicated to the city's ceramic heritage, showcasing traditional pottery techniques and historical pieces from the region's long production history.",
+          "lat": 34.9755,
+          "lng": 128.0608
+        },
+        {
+          "id": "sach_3",
+          "text": "Sinbangasil Beach",
+          "detail": "A scenic coastal beach offering sandy shores and views of the South Sea, popular for swimming and sunset viewing during summer months.",
+          "lat": 34.895,
+          "lng": 128.1217
+        },
+        {
+          "id": "sach_4",
+          "text": "Kwangpo-ri Shell Midden",
+          "detail": "An archaeological site showcasing shell deposits from the Neolithic period, providing insight into prehistoric settlement patterns along Korea's coast.",
+          "lat": 34.9667,
+          "lng": 128.05
+        },
+        {
+          "id": "sach_5",
+          "text": "Sacheon Marine Park",
+          "detail": "A waterfront recreational area featuring walking paths, observation decks, and gardens overlooking the coast with opportunities for fishing and boating.",
+          "lat": 34.9722,
+          "lng": 128.0778
+        },
+        {
+          "id": "sach_6",
+          "text": "Nonsan Park",
+          "detail": "A hillside park offering panoramic views of Sacheon and the surrounding coastline, with hiking trails and seasonal wildflower displays."
+        }
+      ],
+      "food": [
+        {
+          "id": "sach_f1",
+          "text": "Sacheon Nakji (Octopus)",
+          "detail": "Freshly caught octopus prepared grilled or in spicy stir-fries, a specialty of this coastal region known for its tender and flavorful preparation."
+        },
+        {
+          "id": "sach_f2",
+          "text": "Sacheon Galbijjim",
+          "detail": "Slow-braised short ribs with soy sauce and vegetables, a local comfort food often found in family-run restaurants throughout the city."
+        },
+        {
+          "id": "sach_f3",
+          "text": "Saengsaenhan Saenggaseo (Fresh Raw Fish)",
+          "detail": "Premium fresh sashimi and raw fish platters sourced from daily catches at the local harbor, served at waterfront restaurants."
+        },
+        {
+          "id": "sach_f4",
+          "text": "Jogae-guk (Shellfish Soup)",
+          "detail": "A hearty soup made with clams, mussels, and other local shellfish in a clear or spicy broth, reflecting the area's marine bounty."
+        },
+        {
+          "id": "sach_f5",
+          "text": "Sacheon-style Naengmyeon (Cold Noodles)",
+          "detail": "Regional variation of buckwheat noodles served ice-cold with locally caught seafood and tangy broth, popular during summer."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sach_c1",
+          "text": "Respect for Maritime Traditions",
+          "detail": "Sacheon's identity is deeply rooted in fishing and ocean culture; locals appreciate visitors who show respect for the harbor areas and fishing communities."
+        },
+        {
+          "id": "sach_c2",
+          "text": "Ceramic Craftsmanship Legacy",
+          "detail": "The city has centuries of pottery-making heritage; visiting ceramic studios and workshops is encouraged, and artisans appreciate genuine interest in traditional techniques."
+        },
+        {
+          "id": "sach_c3",
+          "text": "Seasonal Airshow Celebrations",
+          "detail": "During the biennial Sacheon Airshow, the entire city celebrates with festive energy; book accommodations well in advance as the event draws large international crowds."
+        },
+        {
+          "id": "sach_c4",
+          "text": "Local Seafood Market Etiquette",
+          "detail": "Visiting the traditional fish market early in the morning is a quintessential Sacheon experience; wearing comfortable shoes and being prepared for the busy, wet environment is practical."
+        }
+      ]
+    },
+    {
+      "id": "miryang",
+      "name": "Miryang",
+      "nameIt": "밀양",
+      "lat": 35.5008,
+      "lng": 128.7514,
+      "type": "TOWN",
+      "description": "An inland town known for its folk traditions, hot springs, and the historic Miryang Areana cultural center. Famous for the Miryang Eoje Festival celebrating local culture.",
+      "imageQueries": [
+        "Miryang hot spring Korea",
+        "Miryang traditional culture"
+      ],
+      "activities": [
+        {
+          "id": "miry_1",
+          "text": "Miryang Areana",
+          "detail": "A state-of-the-art cultural and sports complex hosting concerts, exhibitions, and local festivals year-round.",
+          "lat": 35.4919,
+          "lng": 128.7457
+        },
+        {
+          "id": "miry_2",
+          "text": "Miryang Eoje Festival",
+          "detail": "Annual spring festival celebrating local folk traditions, music, dance, and regional heritage with parades and performances.",
+          "lat": 35.4919,
+          "lng": 128.7457
+        },
+        {
+          "id": "miry_3",
+          "text": "Miryang Hot Springs (Oncheon)",
+          "detail": "Natural thermal waters known for their mineral content, with several public and private bath facilities offering relaxation and wellness treatments.",
+          "lat": 35.485,
+          "lng": 128.752
+        },
+        {
+          "id": "miry_4",
+          "text": "Miryang Ichon Village",
+          "detail": "A traditional folk village showcasing hanok houses and local artisan crafts where visitors can experience historical daily life and purchase handmade goods.",
+          "lat": 35.485,
+          "lng": 128.748
+        },
+        {
+          "id": "miry_5",
+          "text": "Buril Falls (Miryang Falls)",
+          "detail": "A scenic waterfall nestled in the surrounding mountains, popular for hiking and photography during spring and autumn.",
+          "lat": 35.502,
+          "lng": 128.765
+        },
+        {
+          "id": "miry_6",
+          "text": "Miryang Traditional Market",
+          "detail": "A bustling indoor and outdoor market where locals shop for fresh produce, street food, and regional specialties, best visited in the morning."
+        }
+      ],
+      "food": [
+        {
+          "id": "miry_f1",
+          "text": "Miryang Spa Chicken (Miryang Sauna Chicken)",
+          "detail": "A local specialty of marinated chicken cooked with potatoes, perilla leaves, and doenjang (soybean paste) in a clay pot, often served near hot spring areas."
+        },
+        {
+          "id": "miry_f2",
+          "text": "Gyeongsan Galbijjim",
+          "detail": "Tender braised short ribs in a savory soy-based broth, a regional preparation famous throughout South Gyeongsang Province."
+        },
+        {
+          "id": "miry_f3",
+          "text": "Miryang Makgeolli",
+          "detail": "Local rice wine produced in small breweries throughout the region, traditionally paired with jeon (Korean pancakes) and seasonal banchan."
+        },
+        {
+          "id": "miry_f4",
+          "text": "Jobaji (Sweet Potato Noodles)",
+          "detail": "Chewy, slightly sweet noodles made from sweet potato starch, served cold or in soups, a local comfort food specialty."
+        },
+        {
+          "id": "miry_f5",
+          "text": "Dried Persimmon (Gotgam)",
+          "detail": "Miryang's famous dried persimmons with a sweet, chewy texture, often enjoyed as a snack or souvenir item."
+        }
+      ],
+      "culture": [
+        {
+          "id": "miry_c1",
+          "text": "Respect for folk traditions",
+          "detail": "Miryang deeply values its regional heritage and folk customs; attending or showing interest in the Eoje Festival or local events is appreciated by residents."
+        },
+        {
+          "id": "miry_c2",
+          "text": "Hot spring etiquette",
+          "detail": "When visiting oncheon facilities, remember to shower thoroughly before entering the bath, follow gender-separated bathing areas, and keep noise levels low as a sign of respect."
+        },
+        {
+          "id": "miry_c3",
+          "text": "Local shopping customs",
+          "detail": "Markets and small shops often prefer cash payments, and haggling is common and expected at traditional markets; building rapport with vendors enhances the experience."
+        },
+        {
+          "id": "miry_c4",
+          "text": "Evening stroll culture",
+          "detail": "Locals enjoy evening walks around downtown and market areas; joining this social custom is a relaxed way to observe daily life and discover neighborhood restaurants."
+        }
+      ]
+    },
+    {
+      "id": "hadong",
+      "name": "Hadong",
+      "nameIt": "하동",
+      "lat": 35.0589,
+      "lng": 127.7331,
+      "type": "TOWN",
+      "description": "A picturesque riverside town along the Seomjin River famous for premium tea cultivation and natural beauty. The area offers scenic drives along the river and traditional tea houses.",
+      "imageQueries": [
+        "Hadong tea fields Korea",
+        "Seomjin River Hadong"
+      ],
+      "activities": [
+        {
+          "id": "hado_1",
+          "text": "Seomjin River Scenic Drive",
+          "detail": "Drive along the picturesque riverside route that winds through tea plantations and offers stunning valley views, especially beautiful during spring and autumn.",
+          "lat": 34.7339,
+          "lng": 127.7361
+        },
+        {
+          "id": "hado_2",
+          "text": "Hadong Tea Plantation Visit",
+          "detail": "Tour the famous green tea fields on the slopes above the Seomjin River where you can learn about premium tea cultivation and purchase directly from producers.",
+          "lat": 34.7361,
+          "lng": 127.7426
+        },
+        {
+          "id": "hado_3",
+          "text": "Hwagae Market",
+          "detail": "Browse this traditional riverside market known for local produce, wild vegetables, and tea products, best visited in the early morning.",
+          "lat": 34.735,
+          "lng": 127.739
+        },
+        {
+          "id": "hado_4",
+          "text": "Seomjin River Bamboo Rafting",
+          "detail": "Experience a traditional bamboo raft ride down the gentle Seomjin River, offering a peaceful perspective of the surrounding landscape.",
+          "lat": 34.728,
+          "lng": 127.75
+        },
+        {
+          "id": "hado_5",
+          "text": "Traditional Tea House Experience",
+          "detail": "Sit in a riverside tea house to taste freshly brewed Hadong green tea paired with light snacks while overlooking the water.",
+          "lat": 34.734,
+          "lng": 127.737
+        },
+        {
+          "id": "hado_6",
+          "text": "Cheongsudong Valley Hiking",
+          "detail": "Hike through this scenic valley area featuring waterfalls and forested trails with views over the tea-covered hillsides.",
+          "lat": 34.685,
+          "lng": 127.72
+        }
+      ],
+      "food": [
+        {
+          "id": "hado_f1",
+          "text": "Hadong Green Tea",
+          "detail": "The region's signature product is premium green tea grown on riverside slopes, best enjoyed fresh and often served in local tea houses with traditional snacks."
+        },
+        {
+          "id": "hado_f2",
+          "text": "Jjim (Steamed River Fish)",
+          "detail": "Fresh fish from the Seomjin River steamed with vegetables and soy-based sauce, a specialty of riverside restaurants in Hadong."
+        },
+        {
+          "id": "hado_f3",
+          "text": "Wild Vegetable Bibimbap",
+          "detail": "Rice topped with an assortment of foraged mountain vegetables, sesame oil, and gochujang, showcasing the region's natural bounty."
+        },
+        {
+          "id": "hado_f4",
+          "text": "Jogae-jun (Shellfish Pancakes)",
+          "detail": "Pan-fried flour-battered freshwater shellfish and vegetables from the Seomjin River, served as a local delicacy."
+        },
+        {
+          "id": "hado_f5",
+          "text": "Tea-infused Desserts",
+          "detail": "Local sweets and pastries made with Hadong green tea, including tea-flavored cookies and cakes available at market stalls."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hado_c1",
+          "text": "Tea Picking Season (April-May)",
+          "detail": "Visit during spring to witness the vibrant tea harvest season when fields are most active and some plantations offer picking experiences for visitors."
+        },
+        {
+          "id": "hado_c2",
+          "text": "Respect for Tea Culture",
+          "detail": "In tea houses, observe the traditional preparation ritual and handle cups with both hands when receiving them as a sign of respect."
+        },
+        {
+          "id": "hado_c3",
+          "text": "Local Farm-to-Table Tradition",
+          "detail": "Many restaurants source ingredients from nearby farms and the river, so asking about daily specials showcases respect for the local agricultural heritage."
+        },
+        {
+          "id": "hado_c4",
+          "text": "Early Morning Market Etiquette",
+          "detail": "Arrive early at Hwagae Market to experience authentic local commerce and engage politely with vendors who appreciate courteous bargaining."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Tosokchon",
+      "address": "Jungang-daero 202, Jung-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Korean Chicken",
+      "priceRange": "€€",
+      "description": "Iconic samgyetang (ginseng chicken soup) restaurant famous across Korea with rich broth and tender meat.",
+      "mustOrder": "Samgyetang",
+      "lat": 35.1595,
+      "lng": 129.0736
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Jinokhwe",
+      "address": "Gwangbok-ro 25beon-gil, Jung-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Korean BBQ",
+      "priceRange": "€€€",
+      "description": "High-quality Korean beef barbecue with premium cuts and attentive table service in the heart of downtown.",
+      "mustOrder": "Hanwoo galbi (short ribs)",
+      "lat": 35.1017,
+      "lng": 129.0324
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Seongeup Kalguksu",
+      "address": "Seongeup-ro 216, Gujwa-eup",
+      "neighbourhood": "Jeju Island (adjacent to South Gyeongsang)",
+      "cuisine": "Korean Noodle Soup",
+      "priceRange": "€",
+      "description": "Beloved neighborhood kalguksu spot serving hand-cut noodles in anchovy and kelp broth since 1987.",
+      "mustOrder": "Kalguksu",
+      "lat": 33.3925,
+      "lng": 126.6584
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Dogil",
+      "address": "Jungang-ro 33-1, Masanhappo-gu",
+      "neighbourhood": "Changwon",
+      "cuisine": "Korean BBQ",
+      "priceRange": "€€",
+      "description": "Local favorite for dwaeji-gui (pork barbecue) with affordable pricing and quality marinated cuts.",
+      "mustOrder": "Dwaeji galbi mari (pork short rib rolls)",
+      "lat": 35.2271,
+      "lng": 128.5795
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Haetsal Sikdang",
+      "address": "Chunghyo-ro 148, Saha-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Contemporary seafood restaurant overlooking Nakdong River estuary with daily fresh catches and refined preparation.",
+      "mustOrder": "Grilled wild fish with seasonal vegetables",
+      "lat": 35.0951,
+      "lng": 128.9844
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Yatai Ramen",
+      "address": "Beomil-ro 57, Suyeong-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Japanese Ramen",
+      "priceRange": "€€",
+      "description": "Authentic Japanese tonkotsu ramen with slow-simmered pork bone broth and house-made noodles in casual setting.",
+      "mustOrder": "Tonkotsu ramen",
+      "lat": 35.1527,
+      "lng": 129.1251
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Jungang Hoe Sikdang",
+      "address": "Gwangbok-ro 26beon-gil, Jung-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Sashimi/Raw Fish",
+      "priceRange": "€€€€",
+      "description": "Premium sashimi restaurant in downtown Busan with expert fish selection from daily auction and pristine preparation.",
+      "mustOrder": "Hoe-deopbap (sashimi rice bowl)",
+      "lat": 35.1015,
+      "lng": 129.033
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Kkori Kkomjjim",
+      "address": "Seogupo-ro 107, Seogwipo",
+      "neighbourhood": "Seogwipo",
+      "cuisine": "Korean Braised Oxtail",
+      "priceRange": "€€",
+      "description": "Casual spot specializing in comforting braised oxtail (kkori kkomjjim) served with rice and banchan.",
+      "mustOrder": "Kkori kkomjjim (braised oxtail)",
+      "lat": 33.2385,
+      "lng": 126.5681
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Pujini",
+      "address": "Deokpo-ro 161, Geoje",
+      "neighbourhood": "Geoje",
+      "cuisine": "Korean Fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary Korean restaurant on scenic Geoje island featuring seasonal ingredients and creative traditional interpretations.",
+      "mustOrder": "Locally-sourced seasonal set menu",
+      "lat": 34.8867,
+      "lng": 128.6054
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Gujeolpan Jungsik",
+      "address": "Masan-ro 20, Masanhappo-gu",
+      "neighbourhood": "Changwon",
+      "cuisine": "Korean Fine Dining",
+      "priceRange": "€€€€",
+      "description": "Upscale Korean cuisine restaurant serving beautifully plated traditional dishes in an elegant contemporary space.",
+      "mustOrder": "Nine-section gujeolpan (Korean nine-hole dish)",
+      "lat": 35.2198,
+      "lng": 128.5722
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Nakji Bokkeum Golmok",
+      "address": "Namdae-ro 40beon-gil, Seo-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Stir-Fried Octopus",
+      "priceRange": "€€",
+      "description": "Alley of seven restaurants all serving nakji bokkeum (spicy stir-fried octopus); try any established stall for consistency.",
+      "mustOrder": "Nakji bokkeum with rice and banchan",
+      "lat": 35.1407,
+      "lng": 129.0212
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Garosu Garden",
+      "address": "Youngho-ro 291, Nam-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Korean Contemporary",
+      "priceRange": "€€€",
+      "description": "Garden-set restaurant in Busan's cultural district offering modern Korean cuisine with artistic plating.",
+      "mustOrder": "Chef's seasonal tasting menu",
+      "lat": 35.1362,
+      "lng": 129.0791
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Chungmu Gimbap Alley",
+      "address": "Janggun-ro, Tongyeong",
+      "neighbourhood": "Tongyeong",
+      "cuisine": "Korean Gimbap",
+      "priceRange": "€",
+      "description": "Historic alley in Tongyeong with family-run gimbap restaurants serving the local specialty with squid and boiled egg.",
+      "mustOrder": "Chungmu gimbap",
+      "lat": 34.8306,
+      "lng": 128.4286
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Gwangan Meat",
+      "address": "Gwanganbeach-ro 42beon-gil, Suyeong-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Korean Premium Beef",
+      "priceRange": "€€€€",
+      "description": "Beachfront Korean beef specialist near Gwangalli Beach with prime dry-aged hanwoo and ocean views.",
+      "mustOrder": "Prime hanwoo ribeye",
+      "lat": 35.1549,
+      "lng": 129.1215
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Nampo Jjim Sikdang",
+      "address": "Jungang-daero 6beon-gil, Jung-gu",
+      "neighbourhood": "Busan",
+      "cuisine": "Korean Braised Seafood",
+      "priceRange": "€€",
+      "description": "Established seafood jjim (braised) restaurant in Nampo-dong with generous portions and authentic preparation.",
+      "mustOrder": "Seafood jjim (mixed braised seafood)",
+      "lat": 35.0977,
+      "lng": 129.0338
+    }
+  ]
+}

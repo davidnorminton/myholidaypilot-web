@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-05T08:37:16.616Z",
+  "appVersion": "1.0",
+  "totalRegions": 16,
+  "totalPlaces": 202,
+  "totalRestaurants": 233,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "nameIt": "서울",
+      "capital": "Seoul",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "emoji": "🏙️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 37.8,
+        "south": 37.4,
+        "east": 127.2,
+        "west": 126.7
+      },
+      "placeCount": 15,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring (April-May) or autumn (September-October) for mild weather and clear skies.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "incheon",
+      "name": "Incheon",
+      "nameIt": "인천",
+      "capital": "Incheon",
+      "lat": 37.4419,
+      "lng": 126.7036,
+      "emoji": "⛴️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 37.8,
+        "south": 37,
+        "east": 126.9,
+        "west": 125.9
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or autumn for comfortable coastal weather and beach exploration.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gyeonggi",
+      "name": "Gyeonggi",
+      "nameIt": "경기도",
+      "capital": "Suwon",
+      "lat": 37.2756,
+      "lng": 127.0093,
+      "emoji": "🏞️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 38.8,
+        "south": 36.8,
+        "east": 128.1,
+        "west": 126.2
+      },
+      "placeCount": 12,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or fall for pleasant temperatures and agricultural scenery.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gangwon",
+      "name": "Gangwon",
+      "nameIt": "강원도",
+      "capital": "Chuncheon",
+      "lat": 37.8813,
+      "lng": 127.7298,
+      "emoji": "⛰️",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 38.5,
+        "south": 37,
+        "east": 129.6,
+        "west": 127
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in summer for mountain hiking and winter for skiing at world-class resorts.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "chungbuk",
+      "name": "North Chungcheong",
+      "nameIt": "충청북도",
+      "capital": "Cheongju",
+      "lat": 36.6424,
+      "lng": 127.489,
+      "emoji": "🏔️",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 37.3,
+        "south": 35.9,
+        "east": 128.6,
+        "west": 127
+      },
+      "placeCount": 11,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or autumn for temple visits and mountain scenery.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "chungnam",
+      "name": "South Chungcheong",
+      "nameIt": "충청남도",
+      "capital": "Daejeon",
+      "lat": 36.3504,
+      "lng": 127.3845,
+      "emoji": "🌊",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 37.2,
+        "south": 35.8,
+        "east": 128.1,
+        "west": 126
+      },
+      "placeCount": 11,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in spring or autumn to explore coastal areas and cultural heritage sites.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "daejeon",
+      "name": "Daejeon",
+      "nameIt": "대전",
+      "capital": "Daejeon",
+      "lat": 36.3504,
+      "lng": 127.3845,
+      "emoji": "🔬",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 36.55,
+        "south": 36.25,
+        "east": 127.65,
+        "west": 127.15
+      },
+      "placeCount": 11,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit year-round for museums and technology attractions with best conditions in spring and autumn.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "jeonbuk",
+      "name": "North Jeolla",
+      "nameIt": "전라북도",
+      "capital": "Jeonju",
+      "lat": 35.8242,
+      "lng": 127.1077,
+      "emoji": "🍜",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 36.6,
+        "south": 35.2,
+        "east": 127.7,
+        "west": 126.6
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in spring or autumn for food festivals and traditional cultural experiences.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "jeonnam",
+      "name": "South Jeolla",
+      "nameIt": "전라남도",
+      "capital": "Gwangju",
+      "lat": 34.8118,
+      "lng": 126.8854,
+      "emoji": "🏝️",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 35.5,
+        "south": 33.9,
+        "east": 127.7,
+        "west": 125.8
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in spring or autumn for island exploration and fresh seafood.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gwangju",
+      "name": "Gwangju",
+      "nameIt": "광주",
+      "capital": "Gwangju",
+      "lat": 35.1595,
+      "lng": 126.8526,
+      "emoji": "🎨",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 35.35,
+        "south": 34.95,
+        "east": 127.05,
+        "west": 126.65
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in spring for flower festivals and year-round for art and cultural museums.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gyeongbuk",
+      "name": "North Gyeongsang",
+      "nameIt": "경상북도",
+      "capital": "Andong",
+      "lat": 36.5725,
+      "lng": 128.7298,
+      "emoji": "⛩️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 37.3,
+        "south": 35.5,
+        "east": 129.6,
+        "west": 128.2
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in autumn for fall colors and cultural heritage exploration or spring for pleasant weather.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "daegu",
+      "name": "Daegu",
+      "nameIt": "대구",
+      "capital": "Daegu",
+      "lat": 35.8714,
+      "lng": 128.6014,
+      "emoji": "🏙️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 36.05,
+        "south": 35.65,
+        "east": 128.8,
+        "west": 128.4
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or autumn to avoid summer heat and explore textile museums and temples.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gyeongnam",
+      "name": "South Gyeongsang",
+      "nameIt": "경상남도",
+      "capital": "Changwon",
+      "lat": 35.2278,
+      "lng": 128.5833,
+      "emoji": "🎭",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 35.9,
+        "south": 34.5,
+        "east": 129.2,
+        "west": 127.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or autumn for coastal scenery and cultural festivals.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "busan",
+      "name": "Busan",
+      "nameIt": "부산",
+      "capital": "Busan",
+      "lat": 35.1796,
+      "lng": 129.0756,
+      "emoji": "🌅",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 35.4,
+        "south": 34.9,
+        "east": 129.3,
+        "west": 128.8
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or autumn for pleasant coastal weather and beach activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "ulsan",
+      "name": "Ulsan",
+      "nameIt": "울산",
+      "capital": "Ulsan",
+      "lat": 35.5394,
+      "lng": 129.3139,
+      "emoji": "🏭",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 35.75,
+        "south": 35.25,
+        "east": 129.55,
+        "west": 129.05
+      },
+      "placeCount": 11,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit in spring or autumn for industrial heritage tours and nearby mountain attractions.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "jeju",
+      "name": "Jeju",
+      "nameIt": "제주도",
+      "capital": "Jeju City",
+      "lat": 33.359,
+      "lng": 126.5338,
+      "emoji": "🌴",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 33.6,
+        "south": 33.1,
+        "east": 126.9,
+        "west": 126.2
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in spring or autumn for mild weather and clear views; winter for whale watching.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}
