@@ -4,6 +4,7 @@ import { ArrowLeft, MapPin, Compass, UtensilsCrossed, Sparkles, ArrowUpRight, Ch
 import { getRegion, placeImages } from '../lib/data.js'
 import { regionColour, typeLabel, mapsUrl } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
+import { imgUrl } from '../lib/imgUrl.js'
 import MapView from '../components/MapView.jsx'
 import Carousel from '../components/Carousel.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
@@ -72,7 +73,7 @@ export default function PlaceDetailScreen() {
   return (
     <div className="page place" style={{ '--accent': accent }}>
       <header className={`pd-hero ${hero ? '' : 'pd-hero--noimg'}`}>
-        {hero && <img className="pd-hero__img" src={hero} alt={place.name} onError={(e) => { e.currentTarget.style.display = 'none' }} />}
+        {hero && <img className="pd-hero__img" src={imgUrl(hero, 1600)} alt={place.name} onError={(e) => { e.currentTarget.style.display = 'none' }} />}
         {hero && <div className="pd-hero__veil" />}
         <SaveButton regionId={regionId} placeId={placeId} className="pd-save" label />
         <div className="wrap pd-hero__content">

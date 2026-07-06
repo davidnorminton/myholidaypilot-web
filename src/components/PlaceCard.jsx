@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { typeLabel } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
+import { imgUrl } from '../lib/imgUrl.js'
 import SaveButton from './SaveButton.jsx'
 
 export default function PlaceCard({ regionId, country, place, image, number }) {
@@ -8,7 +9,7 @@ export default function PlaceCard({ regionId, country, place, image, number }) {
     <Link to={paths.place(regionId, place.id, country)} className="pcard">
       <div className="pcard__media">
         {image
-          ? <img src={image} alt={place.name} loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} />
+          ? <img src={imgUrl(image, 400)} alt={place.name} loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} />
           : <div className="pcard__media--blank" aria-hidden>{place.name.charAt(0)}</div>}
         {number != null && <span className="pcard__num" aria-hidden>{number}</span>}
         <span className="chip pcard__type">{typeLabel(place.type)}</span>

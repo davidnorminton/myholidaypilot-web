@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { MapPin } from 'lucide-react'
 import { regionColour } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
+import { imgUrl } from '../lib/imgUrl.js'
 
 export default function RegionCard({ region, country, image }) {
   const accent = regionColour(region.colour)
@@ -10,7 +11,7 @@ export default function RegionCard({ region, country, image }) {
     <Link to={paths.region(region.id, country)} className="rcard" style={{ '--accent': accent }}>
       <div className="rcard__media">
         {src
-          ? <img src={src} alt={region.name} loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} />
+          ? <img src={imgUrl(src, 400)} alt={region.name} loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} />
           : <div className="rcard__media--blank" />}
         <span className="rcard__emoji" aria-hidden>{region.emoji}</span>
       </div>

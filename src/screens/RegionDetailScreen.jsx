@@ -5,6 +5,7 @@ import { getRegion, getImages } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { regionColour, mapsQuery } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
+import { imgUrl } from '../lib/imgUrl.js'
 import MapView from '../components/MapView.jsx'
 import PlaceCard from '../components/PlaceCard.jsx'
 import { PageLoader } from '../components/Loading.jsx'
@@ -63,7 +64,7 @@ export default function RegionDetailScreen() {
     <div className="page" style={{ '--accent': accent }}>
       <div className={`rd-hero ${heroImage ? 'rd-hero--img' : ''}`}>
         {heroImage && <>
-          <img className="rd-hero__bg" src={heroImage} alt="" />
+          <img className="rd-hero__bg" src={imgUrl(heroImage, 1600)} alt="" />
           <div className="rd-hero__veil" />
         </>}
         <div className="wrap">
