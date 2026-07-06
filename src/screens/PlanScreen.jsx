@@ -177,6 +177,7 @@ export default function PlanScreen() {
                     <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
                     <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
                     <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
+                    <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Publish</button>
                     <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
                   </div>
                   <div className="trip__primary">

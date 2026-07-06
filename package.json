@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -k -n web,api -c cyan,green \"vite\" \"node dev-server.mjs\"",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "node db/migrate.mjs",
@@ -18,7 +18,8 @@
     "gen:countries": "node scripts/gen-countries.mjs",
     "prebuild": "node scripts/gen-countries.mjs",
     "predev": "node scripts/gen-countries.mjs",
-    "test": "vitest run tests --environment jsdom"
+    "test": "vitest run tests --environment jsdom",
+    "prerender": "node scripts/prerender.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
