@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { getIndex, getImages } from '../lib/data.js'
+import { getIndex, getImages, getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import RegionCard from '../components/RegionCard.jsx'
 import { CardSkeletons } from '../components/Loading.jsx'
@@ -14,11 +14,19 @@ export default function RegionsScreen() {
   useSeo({ title: `Regions of ${meta?.name || ''}`, description: `All the regions of ${meta?.name || ''} — their towns, tables and stories.`, path: `/${country}/regions` })
   const [regions, setRegions] = useState(null)
   const [images, setImages] = useState({})
+  const [placesByRegion, setPlacesByRegion] = useState({})
   const [q, setQ] = useState('')
 
   useEffect(() => {
     getIndex(country).then((d) => setRegions(d.regions || [])).catch(() => setRegions([]))
     getImages(country).then(setImages).catch(() => setImages({}))
+    getPlacesIndex(country).then((list) => {
+      const byRegion = {}
+      for (const p of (list || [])) {
+        (byRegion[p.regionId] = byRegion[p.regionId] || []).push(p.name, p.nameIt)
+      }
+      setPlacesByRegion(byRegion)
+    }).catch(() => setPlacesByRegion({}))
   }, [country])
 
   // Resolve a card image per region: explicit heroImage, else the first place
@@ -36,10 +44,16 @@ export default function RegionsScreen() {
 
   const filtered = useMemo(() => {
     if (!regions) return null
-    const s = q.trim().toLowerCase()
+    const norm = (x) => (x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    const s = norm(q.trim())
     if (!s) return regions
-    return regions.filter((r) => `${r.name} ${r.capital || ''}`.toLowerCase().includes(s))
-  }, [regions, q])
+    return regions.filter((r) => {
+      if (norm(`${r.name} ${r.capital || ''}`).includes(s)) return true
+      // also match any place (town/city/landmark) within this region
+      const names = placesByRegion[r.id] || []
+      return names.some((n) => norm(n).includes(s))
+    })
+  }, [regions, q, placesByRegion])
 
   const totalPlaces = useMemo(
     () => (regions ? regions.reduce((n, r) => n + (r.placeCount || 0), 0) : null),
@@ -61,7 +75,7 @@ export default function RegionsScreen() {
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
-              placeholder="Search regions or capitals"
+              placeholder="Search regions, capitals or places"
               aria-label="Search regions"
             />
           </label>
