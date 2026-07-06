@@ -60,6 +60,8 @@ const nameFor = (slug, cj) => cj?.name || countryMetaMod.COUNTRY_META?.find?.((c
   || slug.split(/[_-]/).map((w) => w[0].toUpperCase() + w.slice(1)).join(' ')
 
 let pages = 0
+const sitemapUrls = []                     // { loc, priority } collected as we render
+const addUrl = (urlPath, priority) => sitemapUrls.push({ loc: SITE + (urlPath === '/' ? '' : urlPath), priority })
 const countries = fs.existsSync(dataDir)
   ? fs.readdirSync(dataDir).filter((d) => fs.existsSync(path.join(dataDir, d, 'index.json')))
   : []
@@ -94,7 +96,7 @@ const countries = fs.existsSync(dataDir)
       + (liveNames.length ? `<h2>Destinations</h2><ul>${liveNames.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : '')
       + `</main>`,
   }))
-  pages++
+  addUrl('/', '1.0'); pages++
 }
 
 // ── destinations index ───────────────────────────────────────────────────────
@@ -110,7 +112,7 @@ const countries = fs.existsSync(dataDir)
     bodyHtml: `<main><h1>Destinations</h1><p>Pick where to wander — every country mapped region by region.</p>`
       + (liveNames.length ? `<ul>${liveNames.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : '') + `</main>`,
   }))
-  pages++
+  addUrl('/destinations', '0.6'); pages++
 }
 
 for (const slug of countries) {
@@ -131,7 +133,7 @@ for (const slug of countries) {
       + (regionNames.length ? `<h2>Regions</h2><ul>${regionNames.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : '')
       + `</main>`,
   }))
-  pages++
+  addUrl(`/${slug}`, '0.9'); pages++
 
   // regions + places
   for (const rSummary of (index.regions || [])) {
@@ -163,7 +165,7 @@ for (const slug of countries) {
           }).join('')}</ul>` : '')
         + `</main>`,
     }))
-    pages++
+    addUrl(`/${slug}/${rSummary.id}`, '0.8'); pages++
 
     for (const p of places) {
       const desc = truncate(p.description || `${p.name} in ${rf.name}, ${name}.`)
@@ -192,9 +194,97 @@ for (const slug of countries) {
           + list(p.culture, 'Local customs & good to know')
           + `</main>`,
       }))
-      pages++
+      addUrl(`/${slug}/${rSummary.id}/${p.id}`, '0.6'); pages++
     }
   }
+}
+
+// ── blog posts ───────────────────────────────────────────────────────────────
+// Bundled posts (src/lib/blog.js) always prerender. Published posts live in the
+// database — we read them if build-time credentials are present, but NEVER fail
+// the build if the DB is unreachable (missing creds, network): the content
+// pages and bundled posts still ship.
+{
+  const slugify = (s) => String(s || '').toLowerCase().trim()
+    .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+  const bySlug = new Map()
+
+  // 1. bundled posts
+  try {
+    const mod = await import(path.join(root, 'src/lib/blog.js'))
+    for (const p of (mod.POSTS || [])) {
+      const slug = slugify(p.slug || p.title)
+      if (slug) bySlug.set(slug, { slug, title: p.title, dek: p.dek, tag: p.tag, author: p.author, body: p.body || [], coverImage: p.coverImage })
+    }
+  } catch { /* no bundled posts */ }
+
+  // 2. published DB posts (optional, best-effort)
+  if (process.env.DATABASE_URL) {
+    try {
+      const { getDb } = await import(path.join(root, 'db/client.js'))
+      const schema = await import(path.join(root, 'db/schema.js'))
+      const { eq } = await import('drizzle-orm')
+      const db = getDb()
+      const rows = await db.select().from(schema.blogPosts).where(eq(schema.blogPosts.status, 'published'))
+      for (const r of rows) {
+        const slug = slugify(r.slug || r.title)
+        if (slug) bySlug.set(slug, { slug, title: r.title, dek: r.dek, tag: r.tag, author: r.author,
+          body: Array.isArray(r.body) ? r.body : [], coverImage: r.coverImage, publishedAt: r.publishedAt })
+      }
+      console.log(`  blog: ${rows.length} published posts from DB`)
+    } catch (e) {
+      console.warn(`  blog: skipped DB posts (${e.message.split('\n')[0]}) — bundled posts still prerendered`)
+    }
+  } else {
+    console.log('  blog: no DATABASE_URL at build — only bundled posts prerendered')
+  }
+
+  const posts = [...bySlug.values()]
+  if (posts.length) {
+    // /blog index
+    write('/blog', render({
+      urlPath: '/blog',
+      title: 'The journal — travel notes & guides | myholidaypilot',
+      description: 'Travel writing from myholidaypilot: how to travel region by region, eat like a local, and time your trips.',
+      jsonLd: { '@context': 'https://schema.org', '@type': 'Blog', name: 'myholidaypilot journal', url: `${SITE}/blog` },
+      bodyHtml: `<main><h1>The journal</h1><ul>${posts.map((p) =>
+        `<li><a href="${SITE}/blog/${p.slug}">${esc(p.title)}</a>${p.dek ? ` — ${esc(p.dek)}` : ''}</li>`).join('')}</ul></main>`,
+    }))
+    addUrl('/blog', '0.6'); pages++
+
+    // each post
+    for (const p of posts) {
+      const paras = (p.body || []).filter((x) => typeof x === 'string')
+      const desc = truncate(p.dek || paras[0] || p.title)
+      write(`/blog/${p.slug}`, render({
+        urlPath: `/blog/${p.slug}`,
+        title: `${p.title} | myholidaypilot`,
+        description: desc,
+        image: p.coverImage,
+        jsonLd: { '@context': 'https://schema.org', '@type': 'Article', headline: p.title,
+          description: desc, author: { '@type': p.author ? 'Person' : 'Organization', name: p.author || 'myholidaypilot' },
+          image: p.coverImage || undefined, url: `${SITE}/blog/${p.slug}`,
+          datePublished: p.publishedAt ? new Date(p.publishedAt).toISOString() : undefined },
+        bodyHtml: `<main><article><h1>${esc(p.title)}</h1>`
+          + (p.dek ? `<p>${esc(p.dek)}</p>` : '')
+          + (p.author ? `<p>By ${esc(p.author)}</p>` : '')
+          + paras.map((t) => `<p>${esc(t)}</p>`).join('')
+          + `</article></main>`,
+      }))
+      addUrl(`/blog/${p.slug}`, '0.6'); pages++
+    }
+  }
+}
+
+// ── sitemap.xml + robots.txt (complete, all countries) ───────────────────────
+{
+  const today = new Date().toISOString().slice(0, 10)
+  const body = sitemapUrls.map((u) =>
+    `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><priority>${u.priority}</priority></url>`).join('\n')
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`
+  fs.writeFileSync(path.join(dist, 'sitemap.xml'), xml)
+  fs.writeFileSync(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`)
+  console.log(`✓ wrote sitemap.xml (${sitemapUrls.length} urls) + robots.txt`)
 }
 
 console.log(`✓ prerendered ${pages} content pages into dist/ (${countries.length} countries)`)
