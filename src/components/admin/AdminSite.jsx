@@ -116,12 +116,6 @@ export default function AdminSite({ regions = [] }) {
       <p className="admin-note">Leave any field blank to use the built-in default.</p>
       <ImageField label="Hero background image" value={val('home.hero')} onChange={(v) => setVal('home.hero', v)} full />
       <label className="admin-field admin-field--full">
-        <span className="admin-field__label">Contact email (shown on the Contact page)</span>
-        <input type="email" value={val('contact.email')} onChange={(e) => setVal('contact.email', e.target.value)}
-          placeholder="hello@myholidaypilot.com" />
-      </label>
-
-      <label className="admin-field admin-field--full">
         <span className="admin-field__label">Headline (use | for a line break)</span>
         <input value={val('home.title')} onChange={(e) => setVal('home.title', e.target.value)} placeholder="See more.|Plan less." />
       </label>

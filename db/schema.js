@@ -98,6 +98,18 @@ export const subscribers = sqliteTable('subscribers', {
   createdAt: integer('created_at').notNull().$defaultFn(now),
 })
 
+// ── contact messages ────────────────────────────────────────────────────────
+// Submissions from the public Contact form.
+export const contactMessages = sqliteTable('contact_messages', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  name: text('name').notNull(),
+  email: text('email').notNull(),
+  subject: text('subject'),
+  body: text('body').notNull(),
+  handled: integer('handled').notNull().$defaultFn(() => 0),
+  createdAt: integer('created_at').notNull().$defaultFn(now),
+})
+
 // ── airports ─────────────────────────────────────────────────────────────────
 // Arrival/departure airports offered in the trip planner, per country.
 export const airports = sqliteTable('airports', {

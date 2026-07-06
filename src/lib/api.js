@@ -122,6 +122,11 @@ export const api = {
     add: (data) => req('POST', '/comments', data),
     remove: (id) => req('DELETE', `/comments/${id}`),
   },
+  contact: {
+    send: (data) => req('POST', '/contact', data),
+    list: () => req('GET', '/contact'),
+    setHandled: (id, handled) => req('PATCH', '/contact', { id, handled }),
+  },
   posts: {
     list: (all) => req('GET', all ? '/posts?all=1' : '/posts'),
     get: (slug) => req('GET', `/posts/${slug}`),

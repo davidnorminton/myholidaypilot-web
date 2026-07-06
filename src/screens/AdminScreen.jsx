@@ -15,6 +15,7 @@ import AdminGallery from '../components/admin/AdminGallery.jsx'
 import AdminComments from '../components/admin/AdminComments.jsx'
 import AdminStats from '../components/admin/AdminStats.jsx'
 import AdminMissingImages from '../components/admin/AdminMissingImages.jsx'
+import AdminContact from '../components/admin/AdminContact.jsx'
 import AdminBuilder from '../components/admin/AdminBuilder.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
@@ -29,6 +30,7 @@ const SECTIONS = [
   { id: 'audience', label: 'Newsletter', icon: Mail },
   { id: 'gallery', label: 'Gallery', icon: Globe2 },
   { id: 'comments', label: 'Comments', icon: MessageSquare },
+  { id: 'contact', label: 'Contact', icon: Mail },
   { id: 'seo', label: 'SEO', icon: Globe },
   { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'builder', label: 'Country builder', icon: Hammer },
@@ -87,6 +89,7 @@ export default function AdminScreen() {
               <option value="audience">Newsletter</option>
               <option value="affiliates">Affiliates</option>
               <option value="comments">Comments</option>
+              <option value="contact">Contact</option>
               <option value="seo">SEO</option>
             </optgroup>
           </select>
@@ -107,6 +110,7 @@ export default function AdminScreen() {
         {section === 'audience' && <AdminAudience />}
         {section === 'gallery' && <AdminGallery />}
         {section === 'comments' && <AdminComments />}
+        {section === 'contact' && <AdminContact />}
         {section === 'seo' && <AdminSeo />}
         {section === 'ai' && <AdminAi />}
         {section === 'builder' && <AdminBuilder />}
