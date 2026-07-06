@@ -1,8 +1,8 @@
-ALTER TABLE users ADD COLUMN password_hash TEXT;
+ALTER TABLE users ADD COLUMN password_hash TEXT;--> statement-breakpoint
 CREATE TABLE IF NOT EXISTS login_attempts (
   id TEXT PRIMARY KEY,
   email TEXT NOT NULL,
   window_start INTEGER NOT NULL,
   count INTEGER NOT NULL DEFAULT 1
-);
+);--> statement-breakpoint
 CREATE INDEX IF NOT EXISTS idx_login_attempts_email ON login_attempts(email);
