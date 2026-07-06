@@ -139,20 +139,43 @@ for (const slug of countries) {
     if (!rf) continue
     const places = rf.places || []
     const placeList = places.map((p) => p.name).filter(Boolean)
+    const restaurants = rf.restaurants || []
     write(`/${slug}/${rSummary.id}`, render({
       urlPath: `/${slug}/${rSummary.id}`,
       title: `${rf.name}, ${name} — what to do, where to eat | myholidaypilot`,
       description: truncate(rf.history || rf.culturalNotes || `Things to do in ${rf.name}, ${name}: ${placeList.slice(0, 6).join(', ')}.`),
       image: rSummary.heroImage?.url,
       jsonLd: { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
-      bodyHtml: `<main><h1>${esc(rf.name)}</h1><p>${esc(rf.history || rf.culturalNotes || '')}</p>`
-        + (placeList.length ? `<h2>Places</h2><ul>${placeList.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : '')
+      bodyHtml: `<main><nav>${esc(name)}</nav><h1>${esc(rf.name)}</h1>`
+        + (rf.nameIt && rf.nameIt !== rf.name ? `<p>${esc(rf.nameIt)}</p>` : '')
+        + (rf.history ? `<h2>History</h2><p>${esc(rf.history)}</p>` : '')
+        + (rf.culturalNotes ? `<h2>Culture</h2><p>${esc(rf.culturalNotes)}</p>` : '')
+        + (rf.languageNotes ? `<h2>Language</h2><p>${esc(rf.languageNotes)}</p>` : '')
+        + (rf.bestTimeToVisit ? `<h2>Best time to visit</h2><p>${esc(rf.bestTimeToVisit)}</p>` : '')
+        + (placeList.length ? `<h2>Places to visit</h2><ul>${places.map((p) => {
+            const d = p.description ? ` — ${esc(truncate(p.description, 120))}` : ''
+            return `<li>${esc(p.name)}${d}</li>`
+          }).join('')}</ul>` : '')
+        + (restaurants.length ? `<h2>Where to eat</h2><ul>${restaurants.map((r) => {
+            const bits = [r.cuisine, r.neighbourhood || r.address].filter(Boolean).map(esc).join(', ')
+            const dish = r.mustOrder ? ` Order: ${esc(r.mustOrder)}.` : ''
+            return `<li>${esc(r.name)}${bits ? ` (${bits})` : ''}.${dish}</li>`
+          }).join('')}</ul>` : '')
         + `</main>`,
     }))
     pages++
 
     for (const p of places) {
       const desc = truncate(p.description || `${p.name} in ${rf.name}, ${name}.`)
+      // Each activity/food/culture item is { text, detail } — include BOTH so
+      // crawlers get the substance, not just the label.
+      const list = (arr, heading) => (Array.isArray(arr) && arr.length)
+        ? `<h2>${heading}</h2><ul>${arr.map((t) => {
+            const label = esc(t.text || t.name || t)
+            const detail = t.detail ? ` — ${esc(t.detail)}` : ''
+            return `<li>${label}${detail}</li>`
+          }).join('')}</ul>`
+        : ''
       write(`/${slug}/${rSummary.id}/${p.id}`, render({
         urlPath: `/${slug}/${rSummary.id}/${p.id}`,
         title: `${p.name}, ${rf.name} — ${name} travel guide | myholidaypilot`,
@@ -162,9 +185,11 @@ for (const slug of countries) {
           description: desc, address: { '@type': 'PostalAddress', addressRegion: rf.name, addressCountry: name },
           url: `${SITE}/${slug}/${rSummary.id}/${p.id}` },
         bodyHtml: `<main><nav>${esc(name)} › ${esc(rf.name)}</nav><h1>${esc(p.name)}</h1>`
+          + (p.nameIt && p.nameIt !== p.name ? `<p>${esc(p.nameIt)}</p>` : '')
           + `<p>${esc(p.description || '')}</p>`
-          + (Array.isArray(p.activities) && p.activities.length ? `<h2>Things to do</h2><ul>${p.activities.map((t) => `<li>${esc(t.text || t.name || t)}</li>`).join('')}</ul>` : '')
-          + (Array.isArray(p.food) && p.food.length ? `<h2>Food to try</h2><ul>${p.food.map((t) => `<li>${esc(t.text || t.name || t)}</li>`).join('')}</ul>` : '')
+          + list(p.activities, 'Things to do')
+          + list(p.food, 'Food to try')
+          + list(p.culture, 'Local customs & good to know')
           + `</main>`,
       }))
       pages++
