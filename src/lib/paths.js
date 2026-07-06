@@ -4,6 +4,7 @@ export const COUNTRY = 'italy'
 
 export const paths = {
   home: () => '/',
+  contact: () => '/contact',
   destinations: () => '/destinations',
   country: (c = COUNTRY) => `/${c}`,
   italyRegions: (c = COUNTRY) => `/${c}/regions`,

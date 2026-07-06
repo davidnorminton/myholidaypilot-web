@@ -2691,3 +2691,14 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .desttop__row:hover .desttop__go{color:var(--gold); transform:translateX(2px)}
 .desttop__list li + li{border-top:0.5px solid var(--line-soft, var(--line))}
 @media (max-width: 640px){ .desttop__cols{grid-template-columns:1fr; gap:0} }
+
+/* --- Contact page --- */
+.contact{display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; padding-bottom:40px}
+.contact__card{background:var(--surface, #fffefb); border:0.5px solid var(--line); border-radius:16px; padding:28px; text-align:center}
+.contact__icon{color:var(--gold); margin-bottom:10px}
+.contact__lead{font-size:16px; color:var(--ink-soft); line-height:1.55; margin:0 0 18px}
+.contact__btn{display:inline-flex; align-items:center; gap:8px}
+.contact__notes{display:flex; flex-direction:column; gap:16px}
+.contact__notes p{margin:0; font-size:15px; line-height:1.6; color:var(--muted)}
+.contact__notes strong{color:var(--ink); font-weight:600}
+@media (max-width:720px){ .contact{grid-template-columns:1fr; gap:20px} }

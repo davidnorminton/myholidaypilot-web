@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h3>More</h3>
-            <a href="mailto:hello@myholidaypilot.example">Contact</a>
+            <Link to={paths.contact()}>Contact</Link>
           </div>
         </nav>
       </div>

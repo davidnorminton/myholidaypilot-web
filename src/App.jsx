@@ -10,6 +10,7 @@ import RegionDetailScreen from './screens/RegionDetailScreen.jsx'
 import PlaceDetailScreen from './screens/PlaceDetailScreen.jsx'
 import PlanScreen from './screens/PlanScreen.jsx'
 import BlogScreen from './screens/BlogScreen.jsx'
+import ContactScreen from './screens/ContactScreen.jsx'
 import BlogPostScreen from './screens/BlogPostScreen.jsx'
 import AppScreen from './screens/AppScreen.jsx'
 import AdminScreen from './screens/AdminScreen.jsx'
@@ -59,6 +60,7 @@ export default function App() {
           <Route path="/trip/:code" element={<SharedTripScreen />} />
           <Route path="/plan" element={<RequireAuth><PlanScreen /></RequireAuth>} />
           <Route path="/blog" element={<BlogScreen />} />
+          <Route path="/contact" element={<ContactScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />
           <Route path="/app" element={<AppScreen />} />
           <Route path="/admin" element={<AdminScreen />} />
