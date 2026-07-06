@@ -1,0 +1,1617 @@
+{
+  "id": "central_plains",
+  "name": "Central Plains",
+  "nameIt": "ภาคกลาง",
+  "capital": "Ayutthaya",
+  "lat": 14.3568,
+  "lng": 100.5864,
+  "emoji": "🏛️",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 15.5,
+    "south": 13.5,
+    "east": 101.5,
+    "west": 99.5
+  },
+  "history": "The Central Plains region has been the heartland of Thai civilization for centuries, serving as the cradle of major kingdoms including Sukhothai, Ayutthaya, and the current Chakri Dynasty based in Bangkok. Ayutthaya, established in 1351, became one of the world's largest and most cosmopolitan cities by the 17th century before its fall to Burmese forces in 1767. The region's strategic location along the Chao Phraya River has made it an economic and political center throughout Thai history, with Bangkok emerging as the modern capital since 1782. Today, the Central Plains remain Thailand's most developed and densely populated area, containing the nation's seat of power and serving as the gateway to understanding Thai culture and governance.",
+  "culturalNotes": "The Central Plains represent the cultural core of Thailand, where classical Thai traditions in art, architecture, and Buddhism are most prominently preserved and practiced. The region is famous for its temples, royal palaces, and intricate craftsmanship, particularly in silk weaving, ceramics, and traditional dance forms like the classical Khon masked dance. The people of the Central Plains, especially in Bangkok, are known for their strong sense of national pride, devotion to the monarchy, and adherence to formal social hierarchies that reflect centuries of courtly tradition.",
+  "bestTimeToVisit": "November to February offers the best weather for visiting temples and historical sites.",
+  "languageNotes": "The Central Thai dialect (Phasa Klaang) spoken in Bangkok and the Central Plains is the standard Thai language taught in schools and used in media, making it the most widely understood throughout the country. Useful phrases include 'Sawasdee krap' (hello for men) or 'Sawasdee ka' (hello for women), 'Khop khun krap/ka' (thank you), and 'Mai phet' (not spicy), which is particularly helpful when dining.",
+  "generatedAt": "2026-07-06T18:17:07.037Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "nameIt": "กรุงเทพมหานคร",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "type": "CITY",
+      "description": "Thailand's bustling capital and largest city, home to ornate temples, palaces, and world-class museums alongside vibrant street food and nightlife. A cultural and commercial hub that anchors any Central Plains itinerary with unmissable sites like the Grand Palace and Wat Phra Kaew.",
+      "imageQueries": [
+        "Bangkok Grand Palace golden spires",
+        "Bangkok Chao Phraya River temples night"
+      ],
+      "activities": [
+        {
+          "id": "bang_1",
+          "text": "Grand Palace and Wat Phra Kaew",
+          "detail": "Thailand's most sacred temple complex featuring the Emerald Buddha and ornate golden structures within the walled grounds of the official royal residence.",
+          "lat": 13.6507,
+          "lng": 100.4955
+        },
+        {
+          "id": "bang_2",
+          "text": "Wat Arun (Temple of Dawn)",
+          "detail": "An iconic riverside temple with a towering central prang (spire) adorned with colorful porcelain, best visited at sunset from the Chao Phraya River.",
+          "lat": 13.6426,
+          "lng": 100.4863
+        },
+        {
+          "id": "bang_3",
+          "text": "Chao Phraya River Cruise",
+          "detail": "A scenic boat journey along Bangkok's main waterway passing temples, palaces, traditional wooden houses, and floating markets at various times of day.",
+          "lat": 13.7563,
+          "lng": 100.4955
+        },
+        {
+          "id": "bang_4",
+          "text": "Damnoen Saduak Floating Market",
+          "detail": "Thailand's most famous floating market where vendors sell fresh produce and goods from wooden boats in narrow canals, best visited early morning.",
+          "lat": 13.3196,
+          "lng": 99.9268
+        },
+        {
+          "id": "bang_5",
+          "text": "Jim Thompson House",
+          "detail": "A museum of traditional Thai teakwood architecture showcasing the fascinating life and art collection of an American silk entrepreneur.",
+          "lat": 13.7361,
+          "lng": 100.5234
+        },
+        {
+          "id": "bang_6",
+          "text": "Chatuchak Weekend Market",
+          "detail": "One of the world's largest markets with over 15,000 stalls selling everything from antiques to live animals, operating Saturdays and Sundays.",
+          "lat": 13.801,
+          "lng": 100.5538
+        },
+        {
+          "id": "bang_7",
+          "text": "National Museum Bangkok",
+          "detail": "Thailand's premier museum housing extensive collections of Buddhist art, royal regalia, and historical artifacts spanning multiple centuries.",
+          "lat": 13.7611,
+          "lng": 100.4944
+        }
+      ],
+      "food": [
+        {
+          "id": "bang_f1",
+          "text": "Pad Thai",
+          "detail": "Stir-fried rice noodles with eggs, tofu or shrimp, bean sprouts, and crushed peanuts, served with lime wedge and chili—Bangkok's iconic street food."
+        },
+        {
+          "id": "bang_f2",
+          "text": "Tom Yum Goong",
+          "detail": "A spicy and sour soup with shrimp, lemongrass, galangal, and lime juice that exemplifies Thai flavor complexity and is served in countless Bangkok restaurants."
+        },
+        {
+          "id": "bang_f3",
+          "text": "Satay (Sate Moo/Gai)",
+          "detail": "Grilled meat skewers of pork or chicken served with peanut sauce and cucumber relish, a ubiquitous street snack found at night markets throughout the city."
+        },
+        {
+          "id": "bang_f4",
+          "text": "Khao Soi",
+          "detail": "Crispy and soft noodles in a rich coconut curry broth topped with pickled mustard greens and fried shallots, a northern Thai specialty found in central Bangkok."
+        },
+        {
+          "id": "bang_f5",
+          "text": "Mango Sticky Rice",
+          "detail": "Sweet sticky rice drizzled with coconut cream and topped with fresh ripe mango, a beloved Thai dessert widely available at street stalls and restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bang_c1",
+          "text": "Dress respectfully at temples",
+          "detail": "Wear covered shoulders and knees when visiting wats; remove shoes before entering sacred spaces and never point feet toward Buddha images."
+        },
+        {
+          "id": "bang_c2",
+          "text": "Respect the monarchy",
+          "detail": "Never disrespect the King, Queen, or royal family in word or action, as Thai law protects the monarchy and locals hold them in high reverence."
+        },
+        {
+          "id": "bang_c3",
+          "text": "Learn basic Thai greetings",
+          "detail": "A simple 'Sawadee krap' (male) or 'Sawadee ka' (female) with a wai (palms together bow) is deeply appreciated and shows respect to locals."
+        },
+        {
+          "id": "bang_c4",
+          "text": "Bargain at markets but not restaurants",
+          "detail": "Negotiating prices is expected at floating markets and street stalls, but fixed-price shops and restaurants have set costs that should not be haggled."
+        }
+      ]
+    },
+    {
+      "id": "ayutthaya",
+      "name": "Ayutthaya",
+      "nameIt": "อยุธยา",
+      "lat": 14.3595,
+      "lng": 100.5654,
+      "type": "CITY",
+      "description": "A UNESCO World Heritage Site and former Thai capital with hundreds of temple ruins scattered across the riverside landscape, offering glimpses into 400 years of Southeast Asian history. The atmospheric remains of ancient structures make it one of Thailand's most evocative historical destinations.",
+      "imageQueries": [
+        "Ayutthaya temple ruins ancient",
+        "Ayutthaya Wat Mahathat Buddha head tree"
+      ],
+      "activities": [
+        {
+          "id": "ayut_1",
+          "text": "Wat Mahathat",
+          "detail": "Explore the iconic temple with a Buddha head entwined in tree roots, one of Ayutthaya's most photographed ruins.",
+          "lat": 14.3529,
+          "lng": 100.5753
+        },
+        {
+          "id": "ayut_2",
+          "text": "Wat Chaiwatthanaram",
+          "detail": "Walk among the restored riverside temple with distinctive prangs and intricate carvings reflecting classical Thai architecture.",
+          "lat": 14.3461,
+          "lng": 100.5633
+        },
+        {
+          "id": "ayut_3",
+          "text": "Ayutthaya Historical Park by bicycle",
+          "detail": "Rent a bicycle to navigate the sprawling UNESCO-protected area and discover hidden temples and ruins at your own pace.",
+          "lat": 14.3529,
+          "lng": 100.5753
+        },
+        {
+          "id": "ayut_4",
+          "text": "Wat Phra Si Sanphet",
+          "detail": "Visit the largest temple complex in ancient Ayutthaya with three distinctive chedis that dominate the landscape.",
+          "lat": 14.3507,
+          "lng": 100.5683
+        },
+        {
+          "id": "ayut_5",
+          "text": "Chao Sam Phraya National Museum",
+          "detail": "View artifacts, sculptures, and treasures recovered from Ayutthaya's temples to understand the city's artistic heritage.",
+          "lat": 14.3543,
+          "lng": 100.5715
+        },
+        {
+          "id": "ayut_6",
+          "text": "Longtail boat tour on the Chao Phraya River",
+          "detail": "Experience Ayutthaya from the water to see temple ruins from different angles and visit floating markets.",
+          "lat": 14.35,
+          "lng": 100.56
+        },
+        {
+          "id": "ayut_7",
+          "text": "Wat Yai Chai Mongkhon",
+          "detail": "Climb the large chedi for panoramic views of Ayutthaya and pay respects at this working temple with seated Buddha images.",
+          "lat": 14.3387,
+          "lng": 100.5841
+        }
+      ],
+      "food": [
+        {
+          "id": "ayut_f1",
+          "text": "Boat noodles (rad kaeng)",
+          "detail": "A legendary Ayutthaya specialty of small bowls of noodles in rich, concentrated broth that originated from meals served on boats."
+        },
+        {
+          "id": "ayut_f2",
+          "text": "Grilled fish cakes (tod man pla)",
+          "detail": "Seasoned fish paste molded around a stick and grilled, often served with sweet and spicy dipping sauce near riverfront stalls."
+        },
+        {
+          "id": "ayut_f3",
+          "text": "Mango sticky rice (khao man mamuang)",
+          "detail": "Sweet sticky rice paired with fresh mango, a refreshing dessert found at markets throughout Ayutthaya during mango season."
+        },
+        {
+          "id": "ayut_f4",
+          "text": "Rice soup with pork offal (jok)",
+          "detail": "A traditional breakfast dish of congee topped with tender pork, liver, and crispy fried shallots served at early morning markets."
+        },
+        {
+          "id": "ayut_f5",
+          "text": "River prawns with tamarind (goong pad makham)",
+          "detail": "Fresh giant river prawns cooked with tamarind paste, a dish highlighting Ayutthaya's riverside location and fresh seafood."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ayut_c1",
+          "text": "Dress respectfully at temples",
+          "detail": "Cover shoulders and knees when entering sacred sites, remove shoes before entering buildings, and never point feet at Buddha images."
+        },
+        {
+          "id": "ayut_c2",
+          "text": "Visit early morning or late afternoon",
+          "detail": "Ayutthaya's open-air ruins offer little shade, so explore during cooler hours and you'll see monks and locals in their daily routines."
+        },
+        {
+          "id": "ayut_c3",
+          "text": "Learn about the Burmese siege",
+          "detail": "Understanding the 1767 destruction of the city by Burmese forces adds poignancy to the ruins and explains Ayutthaya's fragmented landscape."
+        },
+        {
+          "id": "ayut_c4",
+          "text": "Show respect to the Thai monarchy",
+          "detail": "Royal family images and statues are revered throughout Ayutthaya, so avoid disrespectful comments or actions toward any royal imagery."
+        }
+      ]
+    },
+    {
+      "id": "lopburi",
+      "name": "Lopburi",
+      "nameIt": "ลพบุรี",
+      "lat": 14.8,
+      "lng": 100.6667,
+      "type": "CITY",
+      "description": "Known as the city of monkeys, Lopburi is famed for its troops of macaques inhabiting ancient temples and streets, creating a unique and entertaining cultural experience. The town also boasts impressive Khmer and Thai architecture, including the striking Phra Prang Sam Yot.",
+      "imageQueries": [
+        "Lopburi monkeys temples city",
+        "Lopburi Phra Prang Sam Yot"
+      ],
+      "activities": [
+        {
+          "id": "lopb_1",
+          "text": "Phra Prang Sam Yot",
+          "detail": "Explore this iconic three-spired Khmer temple surrounded by playful macaques, offering stunning architecture and photo opportunities from multiple levels.",
+          "lat": 14.8046,
+          "lng": 100.6225
+        },
+        {
+          "id": "lopb_2",
+          "text": "Monkey Watching Tour",
+          "detail": "Join a guided tour through Lopburi's streets and temples to observe troops of macaques in their natural habitat and learn about their behavior and social structure.",
+          "lat": 14.802,
+          "lng": 100.623
+        },
+        {
+          "id": "lopb_3",
+          "text": "San Phra Kan Shrine",
+          "detail": "Visit this sacred outdoor shrine dedicated to King Narai where hundreds of monkeys gather, especially lively during feeding times and local festivals.",
+          "lat": 14.7998,
+          "lng": 100.6192
+        },
+        {
+          "id": "lopb_4",
+          "text": "Lopburi National Museum",
+          "detail": "Discover artifacts from the Dvaravati and Khmer periods, including Buddha images and historical pieces that illustrate the region's rich cultural heritage.",
+          "lat": 14.801,
+          "lng": 100.618
+        },
+        {
+          "id": "lopb_5",
+          "text": "Phra Narai Ratchanivet Palace",
+          "detail": "Tour the 17th-century royal palace built by King Narai with its well-preserved pavilions, gardens, and historical chambers showcasing Ayutthaya-era grandeur.",
+          "lat": 14.8025,
+          "lng": 100.624
+        },
+        {
+          "id": "lopb_6",
+          "text": "Wang Sam Phraya Park",
+          "detail": "Stroll through this scenic riverside park with ancient ruins, peaceful walking paths, and occasional monkey sightings in a more relaxed setting than temple areas.",
+          "lat": 14.805,
+          "lng": 100.621
+        }
+      ],
+      "food": [
+        {
+          "id": "lopb_f1",
+          "text": "Khao Tom Lopburi",
+          "detail": "A savory rice porridge unique to Lopburi, served with various toppings like pork, shrimp, or vegetables, often eaten for breakfast."
+        },
+        {
+          "id": "lopb_f2",
+          "text": "Sai Oua (Northern Sausage)",
+          "detail": "Spiced pork sausage grilled and served with sticky rice, a regional specialty reflecting northern Thai influences in Lopburi's cuisine."
+        },
+        {
+          "id": "lopb_f3",
+          "text": "Larb Pla (Fish Salad)",
+          "detail": "A spicy and tangy minced fish salad tossed with lime juice, fish sauce, and fresh herbs, showcasing local river fish varieties."
+        },
+        {
+          "id": "lopb_f4",
+          "text": "Mango Sticky Rice with Local Mangoes",
+          "detail": "Sweet sticky rice paired with the region's famously sweet mangoes, a beloved dessert during mango season from March to May."
+        },
+        {
+          "id": "lopb_f5",
+          "text": "Grilled River Prawns",
+          "detail": "Fresh-caught prawns from the Lopburi River grilled simply with garlic and served with dipping sauce, highlighting local aquatic ingredients."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lopb_c1",
+          "text": "Respect Monkey Boundaries",
+          "detail": "Keep a safe distance from macaques, avoid direct eye contact, and secure loose items like glasses and bags as monkeys are known to snatch them."
+        },
+        {
+          "id": "lopb_c2",
+          "text": "Temple Etiquette",
+          "detail": "Wear modest clothing covering shoulders and knees when visiting temples, remove shoes before entering sacred areas, and always show respect to Buddha images."
+        },
+        {
+          "id": "lopb_c3",
+          "text": "Monkey Festival Timing",
+          "detail": "Visit during November's Lopburi Monkey Festival for organized feasts and celebrations, but expect crowded conditions; quieter temple visits are better in other months."
+        },
+        {
+          "id": "lopb_c4",
+          "text": "Local Photography Customs",
+          "detail": "Ask permission before photographing monks or at private shrines, and be mindful that some temple areas restrict photography to protect sacred spaces."
+        }
+      ]
+    },
+    {
+      "id": "sukhothai",
+      "name": "Sukhothai",
+      "nameIt": "สุโขทัย",
+      "lat": 17.0089,
+      "lng": 99.8242,
+      "type": "CITY",
+      "description": "Home to a UNESCO-listed historical park featuring over 40 temple ruins from the golden age of Thai civilization (13th-15th centuries), accessible by bicycle or scooter for an immersive exploration. The serene landscape and well-preserved ruins offer one of Thailand's most spiritually rewarding archaeological experiences.",
+      "imageQueries": [
+        "Sukhothai historical park temples",
+        "Sukhothai Wat Mahathat Buddha reflection"
+      ],
+      "activities": [
+        {
+          "id": "sukh_1",
+          "text": "Explore Sukhothai Historical Park",
+          "detail": "Rent a bicycle or scooter to tour the vast open-air museum containing over 40 temple ruins spread across 70 square kilometers, with the best preserved structures concentrated in the central zone.",
+          "lat": 17.0108,
+          "lng": 99.8135
+        },
+        {
+          "id": "sukh_2",
+          "text": "Visit Wat Mahathat",
+          "detail": "Admire the iconic lotus-bud crowned prang and seated Buddha images at Sukhothai's most significant temple, which once served as the spiritual center of the kingdom.",
+          "lat": 17.0131,
+          "lng": 99.8119
+        },
+        {
+          "id": "sukh_3",
+          "text": "Climb Wat Si Chum",
+          "detail": "Ascend the narrow internal staircase of this square mondop temple to view the massive 15-meter seated Buddha image and enjoy panoramic views of the surrounding ruins.",
+          "lat": 17.0204,
+          "lng": 99.8052
+        },
+        {
+          "id": "sukh_4",
+          "text": "Bicycle through rice paddies at sunrise",
+          "detail": "Experience the serene rural landscape surrounding the historical park on two wheels during early morning hours when mist rises from flooded fields and local life awakens.",
+          "lat": 17.01,
+          "lng": 99.81
+        },
+        {
+          "id": "sukh_5",
+          "text": "Visit Ramkhamhaeng National Museum",
+          "detail": "Study artifacts, sculptures, and the famous Ramkhamhaeng Stone inscription that documents the prosperity and administration of Sukhothai's golden age.",
+          "lat": 17.0156,
+          "lng": 99.8185
+        },
+        {
+          "id": "sukh_6",
+          "text": "Explore Wat Saphan Hin",
+          "detail": "Hike up to this hilltop temple complex featuring a long laterite bridge and commanding views of the entire historical park and surrounding countryside.",
+          "lat": 17.0076,
+          "lng": 99.8266
+        },
+        {
+          "id": "sukh_7",
+          "text": "Attend the Sukhothai Loy Krathong Festival",
+          "detail": "Experience Thailand's most celebrated water festival in November, where thousands of illuminated floats drift across Sukhothai's reflection pools in a breathtaking display.",
+          "lat": 17.0108,
+          "lng": 99.8135
+        }
+      ],
+      "food": [
+        {
+          "id": "sukh_f1",
+          "text": "Sukhothai noodles (rad na Sukhothai)",
+          "detail": "Silky egg noodles topped with a savory tapioca-based gravy and tender pork, a signature dish unique to the region that reflects Sukhothai's culinary heritage."
+        },
+        {
+          "id": "sukh_f2",
+          "text": "Khao tom mud fish (ข้าวต้มปลาดุก)",
+          "detail": "Rice cooked with catfish in an earthy, aromatic broth seasoned with turmeric and local herbs, traditionally eaten at breakfast in Northern Central Plains communities."
+        },
+        {
+          "id": "sukh_f3",
+          "text": "Kaeng hang lay (แกงห้อยไก่)",
+          "detail": "A mild Burmese-influenced curry with pork belly and ginger that showcases Sukhothai's historical trade connections and is best enjoyed with sticky rice."
+        },
+        {
+          "id": "sukh_f4",
+          "text": "Sai oua (ไส้อั่ว)",
+          "detail": "Northern-style grilled sausage seasoned with galangal, lemongrass, and dried chilies, reflecting the fusion cuisine found in Sukhothai's border region."
+        },
+        {
+          "id": "sukh_f5",
+          "text": "Fresh spring rolls with peanut sauce",
+          "detail": "Local markets and family-run restaurants serve delicate rice paper rolls filled with herbs, vegetables, and shrimp, accompanied by house-made peanut dipping sauce."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sukh_c1",
+          "text": "Dress respectfully for temple visits",
+          "detail": "Wear long pants or skirts and cover your shoulders when entering active temples and Buddha image areas, as Sukhothai remains a sacred pilgrimage destination for Thai Buddhists."
+        },
+        {
+          "id": "sukh_c2",
+          "text": "Plan your cycling route with midday breaks",
+          "detail": "The sun is intense across the open historical park; start early, rest during peak heat hours (11am-3pm) at a café, and bring plenty of water to stay safe and comfortable."
+        },
+        {
+          "id": "sukh_c3",
+          "text": "Learn basic Thai greetings and wai etiquette",
+          "detail": "Greet locals with a wai (pressing palms together) and respectful 'Sawasdee krap/ka'; Sukhothai residents appreciate visitors' efforts to honor Thai customs and Buddhist culture."
+        }
+      ]
+    },
+    {
+      "id": "phitsanulok",
+      "name": "Phitsanulok",
+      "nameIt": "พิษณุโลก",
+      "lat": 16.8259,
+      "lng": 100.2588,
+      "type": "CITY",
+      "description": "A gateway city to the northern Central Plains with the beautiful riverside Wat Phra Si Rattana Mahathat temple and vibrant night bazaar along the Nan River. Known for its excellent bronze Buddha casting tradition and convenient transit connections to other regions.",
+      "imageQueries": [
+        "Phitsanulok Wat Phra Si Rattana Mahathat",
+        "Phitsanulok Nan River night bazaar"
+      ],
+      "activities": [
+        {
+          "id": "phit_1",
+          "text": "Wat Phra Si Rattana Mahathat",
+          "detail": "The city's most revered temple features a stunning golden chedi and riverside setting, housing important Buddha relics and attracting pilgrims year-round.",
+          "lat": 16.8207,
+          "lng": 100.2724
+        },
+        {
+          "id": "phit_2",
+          "text": "Buddha Casting Workshops",
+          "detail": "Visit working foundries in the Old City where artisans use traditional lost-wax techniques to create bronze Buddha statues, many available for purchase.",
+          "lat": 16.8189,
+          "lng": 100.2689
+        },
+        {
+          "id": "phit_3",
+          "text": "Phitsanulok Night Bazaar",
+          "detail": "A lively riverside market operating after sunset along the Nan River offering local crafts, souvenirs, street food, and traditional goods.",
+          "lat": 16.822,
+          "lng": 100.271
+        },
+        {
+          "id": "phit_4",
+          "text": "Nan River Boat Tours",
+          "detail": "Scenic long-tail boat journeys along the Nan River provide views of temples, local life, and the surrounding countryside from a different perspective.",
+          "lat": 16.823,
+          "lng": 100.27
+        },
+        {
+          "id": "phit_5",
+          "text": "Phitsanulok Museum",
+          "detail": "The city museum displays local history, traditional crafts, bronze casting artifacts, and regional archaeological finds related to the Sukhothai period.",
+          "lat": 16.815,
+          "lng": 100.265
+        },
+        {
+          "id": "phit_6",
+          "text": "Wat Nang Phaya",
+          "detail": "An ancient temple in the Old City showcasing Sukhothai architectural style with restored chedis and Buddha images reflecting the region's historical heritage.",
+          "lat": 16.8172,
+          "lng": 100.2695
+        },
+        {
+          "id": "phit_7",
+          "text": "Local Markets and Handicraft Shops",
+          "detail": "Browse the Old City's narrow streets lined with bronze shops, silk vendors, and traditional craft stores selling authentic Central Plains handicrafts.",
+          "lat": 16.8185,
+          "lng": 100.268
+        }
+      ],
+      "food": [
+        {
+          "id": "phit_f1",
+          "text": "Kaeng Om Phitsanulok",
+          "detail": "A rich, mild curry made with turmeric and various vegetables or meat, traditionally served in earthenware pots and considered the city's signature dish."
+        },
+        {
+          "id": "phit_f2",
+          "text": "Fried Fish with Tamarind Sauce",
+          "detail": "Freshwater fish from the Nan River, crispy-fried and coated with tangy-sweet tamarind reduction, a staple at riverside restaurants."
+        },
+        {
+          "id": "phit_f3",
+          "text": "Sai Oua (Northern Sausage)",
+          "detail": "Though more associated with the North, Phitsanulok serves excellent versions of this herb-filled pork sausage, grilled and served with sticky rice."
+        },
+        {
+          "id": "phit_f4",
+          "text": "Sticky Rice with Mango",
+          "detail": "Sweet ripe mango paired with coconut-infused sticky rice, a refreshing dessert reflecting the region's agricultural bounty, especially in summer months."
+        },
+        {
+          "id": "phit_f5",
+          "text": "Night Bazaar Street Food",
+          "detail": "Sample grilled skewers, sausages, noodle soups, and spring rolls from vendors operating along the Nan River night market after sunset."
+        }
+      ],
+      "culture": [
+        {
+          "id": "phit_c1",
+          "text": "River Reverence",
+          "detail": "The Nan River is central to local life and spirituality; visitors should show respect when crossing bridges or participating in any water-based activities."
+        },
+        {
+          "id": "phit_c2",
+          "text": "Bronze Casting Tradition",
+          "detail": "Phitsanulok's bronze Buddha casting heritage dating back centuries remains a point of community pride; purchasing pieces directly from workshops supports local artisans."
+        },
+        {
+          "id": "phit_c3",
+          "text": "Temple Etiquette",
+          "detail": "Dress modestly with covered shoulders and knees when visiting Wat Phra Si Rattana Mahathat, and remove shoes before entering main sanctuaries as a sign of respect."
+        },
+        {
+          "id": "phit_c4",
+          "text": "Market Haggling Customs",
+          "detail": "At the night bazaar and local shops, gentle negotiation on prices is expected and welcomed, but maintain a friendly demeanor as excessive haggling is considered rude."
+        }
+      ]
+    },
+    {
+      "id": "kamphaeng_phet",
+      "name": "Kamphaeng Phet",
+      "nameIt": "กำแพงเพชร",
+      "lat": 16.4833,
+      "lng": 99.5167,
+      "type": "CITY",
+      "description": "A riverside town featuring the atmospheric Kamphaeng Phet Historical Park with temple ruins and rampart walls dating back centuries, set against the backdrop of forested mountains. Less crowded than Sukhothai, it offers authentic exploration of Thai historical architecture.",
+      "imageQueries": [
+        "Kamphaeng Phet historical park ruins",
+        "Kamphaeng Phet temples forest mountains"
+      ],
+      "activities": [
+        {
+          "id": "kamp_1",
+          "text": "Kamphaeng Phet Historical Park",
+          "detail": "Explore the ruins of ancient temples and defensive rampart walls spread across 289 hectares, including Wat Phra That and Wat Phra Borom That, showcasing 15th-16th century Sukhothai-era architecture.",
+          "lat": 15.4704,
+          "lng": 99.5187
+        },
+        {
+          "id": "kamp_2",
+          "text": "Wat Phra Kaew",
+          "detail": "Visit this well-preserved temple within the historical park featuring a distinctive square base and ornate carvings, representing one of the park's most intact structures.",
+          "lat": 15.4741,
+          "lng": 99.5218
+        },
+        {
+          "id": "kamp_3",
+          "text": "Khlong Wang River walk",
+          "detail": "Stroll along the riverside promenade offering views of the forested mountains and local fishing activity, particularly peaceful during early morning or sunset.",
+          "lat": 15.4656,
+          "lng": 99.5167
+        },
+        {
+          "id": "kamp_4",
+          "text": "Nong Bua Floating Market",
+          "detail": "Experience the less-touristy floating market where locals trade produce and goods from wooden boats, best visited early morning.",
+          "lat": 15.4783,
+          "lng": 99.5394
+        },
+        {
+          "id": "kamp_5",
+          "text": "Camping and trekking in forested hills",
+          "detail": "Arrange guided treks through the mountain forests surrounding Kamphaeng Phet to spot wildlife and experience nature largely untouched by mass tourism.",
+          "lat": 15.455,
+          "lng": 99.51
+        },
+        {
+          "id": "kamp_6",
+          "text": "Baan Prasat Museum",
+          "detail": "Tour this small private museum housed in traditional Thai teak buildings displaying local archaeological finds, Buddha images, and historical artifacts.",
+          "lat": 15.4692,
+          "lng": 99.5272
+        }
+      ],
+      "food": [
+        {
+          "id": "kamp_f1",
+          "text": "Kaeng Som Pla Tod",
+          "detail": "A sour curry soup with fried fish and turmeric that is a regional specialty, balancing salty, sour, and slightly spicy flavors typical of Northern Thai cuisine."
+        },
+        {
+          "id": "kamp_f2",
+          "text": "Sai Oua",
+          "detail": "Local-style northern sausage filled with minced pork, herbs, and spices, best grilled fresh at morning markets or night stalls throughout town."
+        },
+        {
+          "id": "kamp_f3",
+          "text": "Nam Prik Ong with Sticky Rice",
+          "detail": "A tomato-based chili dip served with sticky rice and fresh vegetables, a simple but flavorful dish commonly eaten at local family meals."
+        },
+        {
+          "id": "kamp_f4",
+          "text": "Kaeng Hang Lay",
+          "detail": "Burmese-influenced curry with tender pork belly, peanuts, and potatoes, reflecting Kamphaeng Phet's historical position near the Myanmar border."
+        },
+        {
+          "id": "kamp_f5",
+          "text": "Fresh River Fish from Khlong Wang",
+          "detail": "Local catch grilled whole or prepared as spicy salad (Som Tam Pla), showcasing the river's contribution to daily meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kamp_c1",
+          "text": "Visit temples early morning",
+          "detail": "Arrive at historical park temples before 9 AM to experience the peaceful atmosphere and avoid heat, when monks may be performing morning rituals."
+        },
+        {
+          "id": "kamp_c2",
+          "text": "Respect the ramparts and ruins",
+          "detail": "Do not climb on ancient walls or remove any artifacts; many structures are fragile and the site holds deep spiritual significance for locals."
+        },
+        {
+          "id": "kamp_c3",
+          "text": "Dress modestly at religious sites",
+          "detail": "Wear long pants or skirts and cover shoulders when visiting temples and the historical park out of respect for Buddhist customs."
+        },
+        {
+          "id": "kamp_c4",
+          "text": "Learn basic Thai greetings",
+          "detail": "Kamphaeng Phet sees fewer international tourists than Sukhothai, so locals greatly appreciate visitors attempting Thai phrases like 'Sawasdee krap' (hello) and 'Khop khun krap' (thank you)."
+        }
+      ]
+    },
+    {
+      "id": "kanchanaburi",
+      "name": "Kanchanaburi",
+      "nameIt": "กาญจนบุรี",
+      "lat": 14.0227,
+      "lng": 99.5342,
+      "type": "TOWN",
+      "description": "Located along the River Kwai and famous for the historical Bridge over the River Kwai and poignant war museums documenting World War II history. The area also offers limestone caves, waterfalls, and pleasant riverside accommodations making it both educational and scenic.",
+      "imageQueries": [
+        "Bridge over River Kwai Kanchanaburi",
+        "Kanchanaburi River Kwai boat temples"
+      ],
+      "activities": [
+        {
+          "id": "kanc_1",
+          "text": "Bridge over the River Kwai",
+          "detail": "Walk across the iconic steel bridge built during WWII, now a symbol of Kanchanaburi's history and engineering feat.",
+          "lat": 14.0145,
+          "lng": 99.1986
+        },
+        {
+          "id": "kanc_2",
+          "text": "Thai-Burma Railway Centre",
+          "detail": "Explore a comprehensive museum documenting the construction of the Death Railway and personal stories of prisoners of war.",
+          "lat": 14.0236,
+          "lng": 99.1956
+        },
+        {
+          "id": "kanc_3",
+          "text": "Erawan National Park",
+          "detail": "Hike through jungle terrain to discover a stunning seven-tiered waterfall cascading through emerald pools perfect for swimming.",
+          "lat": 14.3549,
+          "lng": 99.1089
+        },
+        {
+          "id": "kanc_4",
+          "text": "Hellfire Pass Memorial Museum",
+          "detail": "Visit this solemn site documenting the brutal construction of a challenging railway section where thousands died.",
+          "lat": 14.2114,
+          "lng": 98.9503
+        },
+        {
+          "id": "kanc_5",
+          "text": "Sai Yok National Park",
+          "detail": "Explore limestone caves, river activities, and scenic bamboo raft trips along the Khwae Noi River.",
+          "lat": 14.5031,
+          "lng": 99.0281
+        },
+        {
+          "id": "kanc_6",
+          "text": "Wat Tham Khao Pun",
+          "detail": "Visit a beautiful riverside temple nestled against limestone cliffs with Buddha images and peaceful meditation areas.",
+          "lat": 14.5341,
+          "lng": 99.0503
+        },
+        {
+          "id": "kanc_7",
+          "text": "Death War Cemetery",
+          "detail": "Pay respects at the solemn cemetery honoring Allied prisoners of war who died during railway construction.",
+          "lat": 14.0236,
+          "lng": 99.1878
+        }
+      ],
+      "food": [
+        {
+          "id": "kanc_f1",
+          "text": "Kaeng Som Pla Tod",
+          "detail": "A sour curry with fried fish, turmeric, and shrimp paste that balances heat with tangy flavors typical of Central Plains cuisine."
+        },
+        {
+          "id": "kanc_f2",
+          "text": "Pad Thai Kanchanaburi",
+          "detail": "Stir-fried rice noodles with local River Kwai shrimp, egg, and tamarind paste served at riverside vendors."
+        },
+        {
+          "id": "kanc_f3",
+          "text": "Sawasdee River Kwai Catfish",
+          "detail": "Grilled or steamed freshwater catfish from the River Kwai, often prepared with herbs and lime juice at local restaurants."
+        },
+        {
+          "id": "kanc_f4",
+          "text": "Mango Sticky Rice with Local Mango",
+          "detail": "Sweet glutinous rice paired with seasonal Nam Doc Mai mangoes grown in nearby orchards, available at markets and dessert stalls."
+        },
+        {
+          "id": "kanc_f5",
+          "text": "Grilled River Prawns",
+          "detail": "Large freshwater prawns from the Khwae River grilled with garlic and served as a riverside specialty along the waterfront."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kanc_c1",
+          "text": "Respectful behavior at war sites",
+          "detail": "Dress modestly and speak quietly at museums and cemeteries; these are solemn memorial spaces honoring the deceased."
+        },
+        {
+          "id": "kanc_c2",
+          "text": "River Kwai remains emotionally significant",
+          "detail": "Understand that the river and bridge carry deep historical weight for Thai people and survivors' families; approach with reverence."
+        },
+        {
+          "id": "kanc_c3",
+          "text": "Peak season avoidance",
+          "detail": "Visit during cooler months (November to February) rather than hot season (March-May) when temperatures exceed 35°C and crowds peak."
+        },
+        {
+          "id": "kanc_c4",
+          "text": "Local riverside etiquette",
+          "detail": "When dining or relaxing by the river, be mindful of sunrise and sunset times when locals often gather for evening activities and prayer."
+        }
+      ]
+    },
+    {
+      "id": "hua_hin",
+      "name": "Hua Hin",
+      "nameIt": "หัวหิน",
+      "lat": 12.5683,
+      "lng": 99.9542,
+      "type": "COASTAL",
+      "description": "A charming seaside resort town with long sandy beaches, a historic railway station, and the royal summer palace, offering a more relaxed beach experience than Bangkok. Known for fresh seafood markets, water sports, and proximity to natural attractions like Khao Sam Roi Yot National Park.",
+      "imageQueries": [
+        "Hua Hin beach seaside town",
+        "Hua Hin railway station vintage"
+      ],
+      "activities": [
+        {
+          "id": "hua__1",
+          "text": "Hua Hin Railway Station",
+          "detail": "Visit Thailand's oldest railway station, built in 1910 with charming Victorian architecture and a museum inside the historic station building.",
+          "lat": 12.5625,
+          "lng": 99.9519
+        },
+        {
+          "id": "hua__2",
+          "text": "Marukhathaiyawan Palace",
+          "detail": "Tour the royal summer residence of King Rama VI, featuring beautiful golden teak wood architecture and art deco design overlooking the Gulf of Thailand.",
+          "lat": 12.4444,
+          "lng": 99.9722
+        },
+        {
+          "id": "hua__3",
+          "text": "Hua Hin Beach",
+          "detail": "Enjoy the main sandy beach for swimming, sunbathing, and water sports including jet skiing, parasailing, and paddleboarding.",
+          "lat": 12.5667,
+          "lng": 99.95
+        },
+        {
+          "id": "hua__4",
+          "text": "Khao Sam Roi Yot National Park",
+          "detail": "Explore limestone hills, sea caves including Phraya Nakhon Cave with its famous pavilion, and secluded beaches within a 50-kilometer drive south.",
+          "lat": 12.2347,
+          "lng": 100.0567
+        },
+        {
+          "id": "hua__5",
+          "text": "Hua Hin Night Market and Seafood",
+          "detail": "Browse the bustling evening market for fresh seafood, grilled fish, shrimp, and local snacks while experiencing authentic Thai street vendor culture.",
+          "lat": 12.5631,
+          "lng": 99.9542
+        },
+        {
+          "id": "hua__6",
+          "text": "Cicada Market",
+          "detail": "Visit this open-air weekend market featuring local handicrafts, clothing, food stalls, and live music performances in a festive atmosphere.",
+          "lat": 12.55,
+          "lng": 99.9667
+        },
+        {
+          "id": "hua__7",
+          "text": "Hua Hin Floating Market",
+          "detail": "Experience the peaceful morning floating market where vendors sell fresh produce, flowers, and cooked dishes from boats along the canal.",
+          "lat": 12.5428,
+          "lng": 99.9625
+        }
+      ],
+      "food": [
+        {
+          "id": "hua__f1",
+          "text": "Grilled Seafood (Pla Yang)",
+          "detail": "Fresh whole fish, squid, or shrimp grilled over charcoal at beachside restaurants and night markets, often served with spicy chili dipping sauce."
+        },
+        {
+          "id": "hua__f2",
+          "text": "Hua Hin Sausage (Sai Hua Hin)",
+          "detail": "A local specialty of seasoned pork sausage made with herbs and spices, typically grilled and served with sticky rice and spicy dipping sauce."
+        },
+        {
+          "id": "hua__f3",
+          "text": "Shrimp and Pork Pancakes (Kaeng Pla)",
+          "detail": "Delicate crepe-like pancakes filled with fresh shrimp and pork, served with tamarind-based sweet and savory sauce."
+        },
+        {
+          "id": "hua__f4",
+          "text": "Thai Crab Curry (Gaeng Som)",
+          "detail": "A sour and spicy curry featuring fresh blue crabs, turmeric, and shallots that is a regional specialty of the Hua Hin area."
+        },
+        {
+          "id": "hua__f5",
+          "text": "Fresh Fruit Smoothies and Desserts",
+          "detail": "Tropical smoothies made from local mangosteen, dragon fruit, and papaya, often served as refreshing beach-side treats."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hua__c1",
+          "text": "Dress respectfully at temples and royal sites",
+          "detail": "Cover shoulders and knees when visiting Marukhathaiyawan Palace and local Buddhist temples, and always show reverence toward royal imagery."
+        },
+        {
+          "id": "hua__c2",
+          "text": "Haggle at markets but respectfully",
+          "detail": "Light bargaining is expected at night markets and Cicada Market, but always maintain a friendly smile and never be aggressive with vendors."
+        },
+        {
+          "id": "hua__c3",
+          "text": "Avoid pointing feet at people or Buddha images",
+          "detail": "Keep feet pointing away from sacred objects and people as pointing with the foot is considered highly disrespectful in Thai culture."
+        },
+        {
+          "id": "hua__c4",
+          "text": "Visit beaches early in the morning",
+          "detail": "Thai visitors and locals typically enjoy beaches before 10 AM to avoid intense midday sun, making early visits more culturally immersive."
+        }
+      ]
+    },
+    {
+      "id": "khao_sam_roi_yot",
+      "name": "Khao Sam Roi Yot National Park",
+      "nameIt": "เขาสามร้อยยอด",
+      "lat": 12.4333,
+      "lng": 99.9167,
+      "type": "NATURE",
+      "description": "A stunning coastal national park featuring dramatic limestone cliffs, pristine beaches, sea caves, and diverse wildlife in a protected landscape south of Hua Hin. Ideal for hiking, swimming, exploring caves, and spotting hornbills and other tropical species.",
+      "imageQueries": [
+        "Khao Sam Roi Yot limestone cliffs beach",
+        "Khao Sam Roi Yot Phraya Nakhon cave"
+      ],
+      "activities": [
+        {
+          "id": "khao_1",
+          "text": "Phraya Nakhon Cave Hike",
+          "detail": "Trek up limestone stairs through jungle to discover a dramatic sea cave with a natural skylight and historic pavilion built inside, offering sweeping coastal views.",
+          "lat": 12.3667,
+          "lng": 99.9333
+        },
+        {
+          "id": "khao_2",
+          "text": "Sam Roi Yot Beach Swimming",
+          "detail": "Swim and relax on the park's main sandy beach sheltered by dramatic limestone cliffs, ideal for families and those seeking calm waters.",
+          "lat": 12.365,
+          "lng": 99.935
+        },
+        {
+          "id": "khao_3",
+          "text": "Kaeo Cave Exploration",
+          "detail": "Paddle or wade through a sea cave accessible by boat at high tide, featuring stalactites and an enchanting interior waterway.",
+          "lat": 12.37,
+          "lng": 99.94
+        },
+        {
+          "id": "khao_4",
+          "text": "Hornbill Spotting Trek",
+          "detail": "Guided early-morning hike through forested trails where visitors can observe great hornbills, pied hornbills, and other tropical bird species in their natural habitat.",
+          "lat": 12.36,
+          "lng": 99.93
+        },
+        {
+          "id": "khao_5",
+          "text": "Rock Climbing at Limestone Cliffs",
+          "detail": "Challenge yourself on bolted sport climbing routes set into the park's iconic limestone formations, suitable for various skill levels with professional guides available."
+        },
+        {
+          "id": "khao_6",
+          "text": "Sai Cave Visit",
+          "detail": "Explore a freshwater cave system featuring stalactites and stalagmites, accessible via a short walk through the forest."
+        },
+        {
+          "id": "khao_7",
+          "text": "Snorkeling and Island Boat Tours",
+          "detail": "Take boat trips to nearby islands and coral areas for snorkeling, encountering tropical fish and marine ecosystems in protected waters."
+        }
+      ],
+      "food": [
+        {
+          "id": "khao_f1",
+          "text": "Grilled Blue Crab (ปู่อบเกลือ)",
+          "detail": "Fresh local blue crabs from the Gulf coast are salt-baked or grilled whole, yielding sweet tender meat best enjoyed with lime and chili dip."
+        },
+        {
+          "id": "khao_f2",
+          "text": "Southern Thai Curry with Fish (แกงส้มปลา)",
+          "detail": "Tangy tamarind-based curry featuring local sea fish, bamboo shoots, and herbs typical of the Central Plains coastal region."
+        },
+        {
+          "id": "khao_f3",
+          "text": "Fresh Seafood at Beachfront Stalls",
+          "detail": "Vendor stalls near Sam Roi Yot Beach serve grilled prawns, squid, and fish caught daily, cooked to order with garlic, chili, and herbs."
+        },
+        {
+          "id": "khao_f4",
+          "text": "Khao Tom Seafood (ข้าวต้มอาหารทะเล)",
+          "detail": "Soupy rice congee topped with local shrimp, crab, or fish, finished with fresh herbs and served hot as a comforting local breakfast or light meal."
+        },
+        {
+          "id": "khao_f5",
+          "text": "Satay Skewers (สะเต๊ะ)",
+          "detail": "Grilled meat or seafood skewers served with peanut sauce, a beloved street food available at park entrances and nearby villages."
+        }
+      ],
+      "culture": [
+        {
+          "id": "khao_c1",
+          "text": "Respect Shrine and Religious Sites",
+          "detail": "The Phraya Nakhon Pavilion inside the cave holds cultural and spiritual significance; remove shoes when entering and dress respectfully around any shrines."
+        },
+        {
+          "id": "khao_c2",
+          "text": "Hire Local Guides for Cave Safety",
+          "detail": "Using registered park guides for cave exploration and hiking ensures respect for conservation rules, improves wildlife spotting, and keeps you safe in challenging terrain."
+        },
+        {
+          "id": "khao_c3",
+          "text": "Support Local Fishing Communities",
+          "detail": "Purchase seafood and crafts directly from local vendors and communities living around the park to contribute to sustainable livelihoods alongside tourism."
+        },
+        {
+          "id": "khao_c4",
+          "text": "Visit During Dry Season",
+          "detail": "November to February offers the best weather and accessibility; visiting during this respectful tourism window reduces pressure on park infrastructure and local services."
+        }
+      ]
+    },
+    {
+      "id": "si_satchanalai",
+      "name": "Si Satchanalai",
+      "nameIt": "ศรีสัชนาลัย",
+      "lat": 17.2667,
+      "lng": 99.7667,
+      "type": "TOWN",
+      "description": "A quieter historical town north of Sukhothai with its own historical park containing beautiful temple ruins set in a more intimate landscape with river views. Known for traditional pottery production and offering a less touristy alternative to nearby Sukhothai.",
+      "imageQueries": [
+        "Si Satchanalai historical park temples",
+        "Si Satchanalai pottery village traditional"
+      ],
+      "activities": [
+        {
+          "id": "si_s_1",
+          "text": "Explore Si Satchanalai Historical Park",
+          "detail": "Wander through the 127-hectare park containing over 200 temple ruins dating from the 13th-15th centuries, including the iconic Wat Khao and Wat Chang Lom with their distinctive architectural styles.",
+          "lat": 17.4228,
+          "lng": 99.7939
+        },
+        {
+          "id": "si_s_2",
+          "text": "Visit Wat Khao",
+          "detail": "Climb to this hilltop temple for panoramic views of the historical park and surrounding countryside, featuring a well-preserved chedi and Buddha images set against the forested landscape.",
+          "lat": 17.4285,
+          "lng": 99.8
+        },
+        {
+          "id": "si_s_3",
+          "text": "Tour the Pottery Kilns",
+          "detail": "Visit active and historic ceramic workshops in the town where potters continue the 700-year tradition of producing celadon and terracotta wares using traditional methods and local clay.",
+          "lat": 17.41,
+          "lng": 99.785
+        },
+        {
+          "id": "si_s_4",
+          "text": "Kayak on the Yom River",
+          "detail": "Paddle through scenic stretches of the river that borders the historical park, offering wildlife viewing and a peaceful perspective on the landscape that connects to Sukhothai's waterways.",
+          "lat": 17.415,
+          "lng": 99.79
+        },
+        {
+          "id": "si_s_5",
+          "text": "Climb Wat Chang Lom",
+          "detail": "Ascend this 12th-century temple featuring a distinctive circular base with elephant buttresses, offering close views of stone carvings and a quieter alternative to the more crowded Sukhothai temples.",
+          "lat": 17.421,
+          "lng": 99.795
+        },
+        {
+          "id": "si_s_6",
+          "text": "Explore Local Markets",
+          "detail": "Browse the small morning market in town for fresh produce, local snacks, and handmade crafts that provide insight into daily life beyond the historical park."
+        }
+      ],
+      "food": [
+        {
+          "id": "si_s_f1",
+          "text": "Kaeng Som with Fresh Fish",
+          "detail": "A tangy, turmeric-based curry with local freshwater fish from the Yom River, shrimp paste, and vegetables that represents the region's riverside culinary tradition."
+        },
+        {
+          "id": "si_s_f2",
+          "text": "Khao Tom Mud Crab",
+          "detail": "Rice soup made with fresh mud crabs caught from local waterways, served in a light broth with herbs and traditionally eaten as a breakfast or light lunch dish."
+        },
+        {
+          "id": "si_s_f3",
+          "text": "Sticky Rice with Grilled Pork Neck",
+          "detail": "Charcoal-grilled pork neck (kor moo) served with glutinous rice, a simple but flavorful preparation popular at local market stalls and small restaurants."
+        },
+        {
+          "id": "si_s_f4",
+          "text": "Celadon-Fired Sweet Desserts",
+          "detail": "Visit pottery shops to purchase traditional sweets and pastries that are traditionally baked in the same kilns as the famous celadon pottery, giving them a unique artisanal quality."
+        },
+        {
+          "id": "si_s_f5",
+          "text": "Fresh Spring Rolls with Local Herbs",
+          "detail": "Hand-rolled rice paper wraps filled with morning-picked herbs, vegetables, and sometimes local fish, served with peanut or fish sauce dipping preparations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "si_s_c1",
+          "text": "Visit Pottery Studios in Afternoon",
+          "detail": "Most potters work in the early morning hours, so plan visits between 2-5 PM when kilns are being loaded and artisans are more available for interaction and purchasing directly from makers."
+        },
+        {
+          "id": "si_s_c2",
+          "text": "Respectful Temple Etiquette",
+          "detail": "Wear modest clothing covering shoulders and knees, remove shoes before entering temple buildings, and never point feet toward Buddha images; the town's temples remain active places of worship despite their historical significance."
+        },
+        {
+          "id": "si_s_c3",
+          "text": "Support Local Artisans Directly",
+          "detail": "Purchase pottery and crafts directly from family workshops rather than tourist shops to support the traditional ceramic families who have preserved this heritage for generations."
+        },
+        {
+          "id": "si_s_c4",
+          "text": "Learn Basic Thai Greetings",
+          "detail": "English is rarely spoken in this quieter town compared to Sukhothai, so learning 'Sawasdee krap' (hello) and 'Kop khun krap' (thank you) greatly enhances interactions with locals and shows respect for the culture."
+        }
+      ]
+    },
+    {
+      "id": "erawan_national_park",
+      "name": "Erawan National Park",
+      "nameIt": "อุทยานแห่งชาติเอราวัณ",
+      "lat": 14.3667,
+      "lng": 99.1,
+      "type": "NATURE",
+      "description": "Famous for its spectacular seven-tiered Erawan Waterfall cascading through forested terrain near Kanchanaburi, offering refreshing pools for swimming at each level. A popular day trip destination with hiking trails, wildlife, and natural beauty that showcases Central Thailand's lush interior.",
+      "imageQueries": [
+        "Erawan waterfall seven tiers",
+        "Erawan National Park jungle hiking"
+      ],
+      "activities": [
+        {
+          "id": "eraw_1",
+          "text": "Hike to Erawan Waterfall",
+          "detail": "Trek through the forest along the main trail to reach all seven tiers of the iconic cascading waterfall, with the journey taking 1.5 to 2 hours round trip.",
+          "lat": 14.3544,
+          "lng": 99.1958
+        },
+        {
+          "id": "eraw_2",
+          "text": "Swim in Tier 1 Pool",
+          "detail": "Cool off in the largest and most accessible emerald pool at the base of the waterfall, ideal for families and those wanting a refreshing dip without strenuous hiking.",
+          "lat": 14.352,
+          "lng": 99.1975
+        },
+        {
+          "id": "eraw_3",
+          "text": "Explore Upper Waterfall Tiers",
+          "detail": "Continue beyond tier 2 to reach the quieter upper levels (tiers 3-7) for a more secluded experience and progressively smaller pools surrounded by primary forest.",
+          "lat": 14.358,
+          "lng": 99.192
+        },
+        {
+          "id": "eraw_4",
+          "text": "Wildlife Spotting Trek",
+          "detail": "Walk the park's secondary trails early in the morning to spot gibbons, hornbills, wild boar, and other native Central Thai fauna in their natural habitat.",
+          "lat": 14.355,
+          "lng": 99.19
+        },
+        {
+          "id": "eraw_5",
+          "text": "Visit the Visitor Center",
+          "detail": "Learn about the park's ecology, geology, and conservation efforts through exhibits and displays explaining the unique ecosystem of Erawan National Park.",
+          "lat": 14.349,
+          "lng": 99.2
+        },
+        {
+          "id": "eraw_6",
+          "text": "Picnic at Designated Areas",
+          "detail": "Use the park's designated picnic grounds with tables and shelters to enjoy lunch while surrounded by dense tropical forest and the sound of flowing water."
+        }
+      ],
+      "food": [
+        {
+          "id": "eraw_f1",
+          "text": "Som tam (Green Papaya Salad)",
+          "detail": "A spicy and refreshing Isaan-style salad made with shredded unripe papaya, lime juice, fish sauce, and chilies, commonly sold at park food stalls and nearby restaurants."
+        },
+        {
+          "id": "eraw_f2",
+          "text": "Grilled freshwater fish (Pla tod)",
+          "detail": "Whole fish caught from local streams or farms, grilled over charcoal and seasoned with salt and herbs, representing authentic Central Thai riverside cuisine."
+        },
+        {
+          "id": "eraw_f3",
+          "text": "Sticky rice (Khao Kao)",
+          "detail": "Glutinous rice cooked in bamboo baskets, a staple carbohydrate served alongside curries and grilled dishes at park vendors and nearby Kanchanaburi eateries."
+        },
+        {
+          "id": "eraw_f4",
+          "text": "Gaeng som (Sour Curry)",
+          "detail": "A tangy yellow curry made with turmeric, shrimp paste, and local vegetables or fish, reflecting Central Thai coastal-influenced flavors despite inland location."
+        },
+        {
+          "id": "eraw_f5",
+          "text": "Fresh spring rolls (Summer rolls)",
+          "detail": "Rice paper wraps filled with fresh herbs, vegetables, and sometimes shrimp, served with peanut sauce at park food vendors for a light refreshing snack."
+        }
+      ],
+      "culture": [
+        {
+          "id": "eraw_c1",
+          "text": "Respect the forest spirits",
+          "detail": "Thai visitors often pay respect at spirit houses or shrines along the trail, so approach sacred areas respectfully and avoid disturbing offerings or shrines."
+        },
+        {
+          "id": "eraw_c2",
+          "text": "Wear appropriate footwear",
+          "detail": "The trails can be slippery year-round due to water spray and wet rocks, so sturdy hiking shoes with good grip are essential for safety on the multi-tier hike."
+        },
+        {
+          "id": "eraw_c3",
+          "text": "Visit early in the day",
+          "detail": "Thais typically arrive at national parks early morning to avoid crowds, enjoy cooler temperatures, and increase chances of seeing wildlife before the park becomes busy."
+        },
+        {
+          "id": "eraw_c4",
+          "text": "Bring reef-safe sunscreen",
+          "detail": "While not directly at a reef, Thai conservation culture emphasizes protecting natural ecosystems, so use reef-safe products to avoid harming the park's aquatic life and forest streams."
+        }
+      ]
+    },
+    {
+      "id": "prachuap_khiri_khan",
+      "name": "Prachuap Khiri Khan",
+      "nameIt": "ประจวบคีรีขันธ์",
+      "lat": 11.8186,
+      "lng": 99.8042,
+      "type": "COASTAL",
+      "description": "A scenic coastal town south of Hua Hin with dramatic limestone hills rising directly from the beach and a pleasant town center featuring seafood restaurants and shops. Known for its picturesque harbor, accessible hilltop temples, and gateway access to southern Thailand.",
+      "imageQueries": [
+        "Prachuap Khiri Khan limestone hills beach",
+        "Prachuap Khiri Khan harbor town sunset"
+      ],
+      "activities": [
+        {
+          "id": "prac_1",
+          "text": "Khao Sam Roi Yot National Park",
+          "detail": "Explore limestone peaks, sea caves, and hidden beaches within this protected coastal park just north of town, accessible by car or motorbike.",
+          "lat": 12.2289,
+          "lng": 99.9544
+        },
+        {
+          "id": "prac_2",
+          "text": "Wat Thammikaram",
+          "detail": "Climb the steep steps up Prachuap Hill to this hilltop temple with panoramic views of the bay, harbor, and surrounding limestone cliffs.",
+          "lat": 12.5665,
+          "lng": 99.8052
+        },
+        {
+          "id": "prac_3",
+          "text": "Ao Prachuap Beach Walk",
+          "detail": "Stroll along the scenic crescent beach in the town center, watching fishing boats and enjoying seafood restaurants along the waterfront.",
+          "lat": 12.5647,
+          "lng": 99.8068
+        },
+        {
+          "id": "prac_4",
+          "text": "Khao Chong Krajok Cave",
+          "detail": "Visit this accessible sea cave within Khao Sam Roi Yot where monks have meditated, featuring stalactites and a freshwater pool.",
+          "lat": 12.218,
+          "lng": 99.9658
+        },
+        {
+          "id": "prac_5",
+          "text": "Practical Shooting Range Visit",
+          "detail": "Several ranges near town offer experiences shooting Thai firearms under instruction, popular with tourists seeking an unusual activity.",
+          "lat": 12.562,
+          "lng": 99.81
+        },
+        {
+          "id": "prac_6",
+          "text": "Ban Ao Noi Kayaking",
+          "detail": "Paddle through mangrove channels and limestone karsts in the quieter southern bay area, often with local guides available.",
+          "lat": 12.485,
+          "lng": 99.818
+        }
+      ],
+      "food": [
+        {
+          "id": "prac_f1",
+          "text": "Grilled Seafood (Pla Yang)",
+          "detail": "Fresh fish, squid, and shrimp grilled over charcoal at waterfront restaurants, often seasoned simply with salt, lime, and chilies to highlight the catch."
+        },
+        {
+          "id": "prac_f2",
+          "text": "Crab Curry (Gaeng Som Poo)",
+          "detail": "A sour and spicy southern Thai curry with fresh crab meat, turmeric, and local herbs, representing the region's coastal seafood tradition."
+        },
+        {
+          "id": "prac_f3",
+          "text": "Dried Squid Snacks (Pla Muk Haeng)",
+          "detail": "Chewy sun-dried squid sold at local markets and shops, often eaten as a snack with sweet chili sauce or grilled fresh."
+        },
+        {
+          "id": "prac_f4",
+          "text": "Fresh Shrimp Paste (Kapi Sod)",
+          "detail": "Local fermented shrimp paste made daily in nearby fishing villages, served fresh at markets and used as a condiment in many local dishes."
+        },
+        {
+          "id": "prac_f5",
+          "text": "Seafood Night Market (Rot Daeng)",
+          "detail": "The evening market near the harbor offers grilled fish, mussels, and shrimp cooked to order by vendors, best visited after 17:00."
+        }
+      ],
+      "culture": [
+        {
+          "id": "prac_c1",
+          "text": "Respect Temple Etiquette",
+          "detail": "Wear modest clothing covering shoulders and knees when visiting Wat Thammikaram and remove shoes before entering any temple spaces."
+        },
+        {
+          "id": "prac_c2",
+          "text": "Morning Alms-Giving Tradition",
+          "detail": "Early morning, Buddhist monks walk the streets collecting food donations; it is respectful to give food or money if approached, using both hands."
+        },
+        {
+          "id": "prac_c3",
+          "text": "Fishing Town Rhythms",
+          "detail": "The town operates on fishing schedules; markets are liveliest early morning and evening when boats return, and many restaurants close between lunch and dinner service."
+        },
+        {
+          "id": "prac_c4",
+          "text": "Monarchy Reverence",
+          "detail": "Thailand takes royal imagery seriously; never speak negatively about the monarchy and stand respectfully during the national anthem, played twice daily."
+        }
+      ]
+    },
+    {
+      "id": "tak",
+      "name": "Tak",
+      "nameIt": "ตาก",
+      "lat": 16.8833,
+      "lng": 98.9167,
+      "type": "TOWN",
+      "description": "A river town along the Ping River in the northwestern Central Plains, serving as a gateway to northern Thailand and known for traditional teak wood production. The town offers authentic Thai provincial culture with less tourist infrastructure but genuine hospitality and local experiences.",
+      "imageQueries": [
+        "Tak Ping River town Thailand",
+        "Tak teak wood crafts traditional"
+      ],
+      "activities": [
+        {
+          "id": "tak_1",
+          "text": "Tak Floating Market",
+          "detail": "Visit this riverside market in the early morning to see locals selling produce, handicrafts, and souvenirs from wooden boats along the Ping River.",
+          "lat": 16.8642,
+          "lng": 99.1275
+        },
+        {
+          "id": "tak_2",
+          "text": "Teak Wood Furniture Workshops",
+          "detail": "Tour working teak wood factories and showrooms where artisans craft traditional furniture and woodwork using timber from the surrounding forests.",
+          "lat": 16.8719,
+          "lng": 99.1156
+        },
+        {
+          "id": "tak_3",
+          "text": "Wat Chaisi",
+          "detail": "Explore this important local temple featuring traditional Thai architecture and serving as a spiritual center for the community.",
+          "lat": 16.8656,
+          "lng": 99.1289
+        },
+        {
+          "id": "tak_4",
+          "text": "Ping River Rafting",
+          "detail": "Take a bamboo or wooden raft downstream through scenic countryside and small villages, experiencing the natural landscape that defines the region."
+        },
+        {
+          "id": "tak_5",
+          "text": "Sukhothai Historical Park Day Trip",
+          "detail": "Make the 90-minute journey south to Thailand's ancient capital to see UNESCO-listed temples and ruins showcasing 13th-century Thai civilization.",
+          "lat": 17.038,
+          "lng": 99.7144
+        },
+        {
+          "id": "tak_6",
+          "text": "Mae Sot Border Town",
+          "detail": "Drive 60km north to this frontier town on the Myanmar border for unique cross-cultural markets, jade trading, and authentic border-region cuisine."
+        }
+      ],
+      "food": [
+        {
+          "id": "tak_f1",
+          "text": "Kaeng Hang Lay",
+          "detail": "A rich Burmese-influenced pork belly curry slow-cooked with turmeric and ginger, reflecting the region's proximity to Myanmar border."
+        },
+        {
+          "id": "tak_f2",
+          "text": "Larb Teak (Teak Fish Salad)",
+          "detail": "Fresh local fish from the Ping River tossed with lime juice, chili, mint, and roasted rice powder in the northeastern-influenced style."
+        },
+        {
+          "id": "tak_f3",
+          "text": "Sai Oua (Northern Sausage)",
+          "detail": "Grilled pork sausage flavored with lemongrass, garlic, and chili, sold by street vendors and at local markets as an authentic northern speciality."
+        },
+        {
+          "id": "tak_f4",
+          "text": "Khao Soi Tak",
+          "detail": "The local variation of the northern noodle curry features rich coconut-based broth with egg noodles and pickled vegetables."
+        },
+        {
+          "id": "tak_f5",
+          "text": "Fresh Ping River Catfish",
+          "detail": "Grilled or prepared as a spicy soup with local herbs, featuring the sweet freshwater fish caught daily from the nearby river."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tak_c1",
+          "text": "Respectful Temple Etiquette",
+          "detail": "Dress modestly with covered shoulders and knees when visiting temples, remove shoes before entering, and never point feet toward Buddha images or monks."
+        },
+        {
+          "id": "tak_c2",
+          "text": "Learning Basic Thai Phrases",
+          "detail": "English is less common here than in major tourist areas, so learning simple greetings like 'Sawasdee krap' (hello) and 'Khob khun krap' (thank you) greatly enhances interactions with locals."
+        },
+        {
+          "id": "tak_c3",
+          "text": "Photographing Local Life",
+          "detail": "Always ask permission before photographing people, especially monks and elders, as it shows respect and is considered polite in Thai culture."
+        },
+        {
+          "id": "tak_c4",
+          "text": "Market Bargaining Customs",
+          "detail": "At the floating market and local shops, gentle negotiation on prices is expected and welcomed, but maintain a friendly smile and never show frustration during the process."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Baan Issues",
+      "address": "78 Moo 4, Tambon Nong Pla Lai, Ayutthaya",
+      "neighbourhood": "Ayutthaya",
+      "cuisine": "Thai Contemporary",
+      "priceRange": "€€€",
+      "description": "Riverside fine dining in a restored teak house showcasing refined Thai cuisine with artistic plating.",
+      "mustOrder": "Soft-shell crab curry with Thai basil and jasmine rice",
+      "lat": 13.6432,
+      "lng": 100.5735
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Krua Bang Khun Thian",
+      "address": "120 Moo 5, Tambon Bang Khun Thian, Samut Sakhon",
+      "neighbourhood": "Samut Sakhon",
+      "cuisine": "Thai Seafood",
+      "priceRange": "€",
+      "description": "Authentic seaside shack famous for ultra-fresh seafood grilled over charcoal with minimal fuss.",
+      "mustOrder": "Grilled blue crab with garlic and chili",
+      "lat": 13.5481,
+      "lng": 100.3169
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Supatra's House",
+      "address": "14/69 Soi Rommanee, Tambon Phra Nakhon Si Ayutthaya, Ayutthaya",
+      "neighbourhood": "Ayutthaya Old City",
+      "cuisine": "Thai Classic",
+      "priceRange": "€€",
+      "description": "Heritage wooden house restaurant serving traditional Ayutthayan recipes in an atmospheric garden setting.",
+      "mustOrder": "Massaman curry with duck and peanuts",
+      "lat": 13.3597,
+      "lng": 100.7664
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Som Tam Conti",
+      "address": "Soi Sukhumvit 38, Prakanong, Bangkok (Khlong Toei District border)",
+      "neighbourhood": "Bangkok-Samut Prakan Border",
+      "cuisine": "Thai Isaan",
+      "priceRange": "€",
+      "description": "Casual som tam and grilled meat specialist with devoted local following for authentic Northeastern flavors.",
+      "mustOrder": "Som tam with salted crab and sticky rice",
+      "lat": 13.6247,
+      "lng": 100.5909
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Wat Chedi",
+      "address": "46 Tambol Wat Chedi, Lopburi",
+      "neighbourhood": "Lopburi",
+      "cuisine": "Thai Regional",
+      "priceRange": "€€",
+      "description": "Countryside temple-adjacent restaurant offering local Lopburi specialties in a peaceful garden compound.",
+      "mustOrder": "Sticky rice with grilled river fish and nam jim jaew",
+      "lat": 14.7972,
+      "lng": 100.6267
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Baan Rachasap",
+      "address": "78 Soi Phetchkasem 33, Phetchaburi",
+      "neighbourhood": "Phetchaburi",
+      "cuisine": "Thai Coastal",
+      "priceRange": "€€",
+      "description": "Charming restored Thai house serving fresh seafood and local desserts with royal-household cooking techniques.",
+      "mustOrder": "Kaeng pa with local freshwater fish and wild herbs",
+      "lat": 13.1123,
+      "lng": 100.3968
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Krua Aroy Aroy",
+      "address": "99 Thanon Naresuan, Samut Sakhon",
+      "neighbourhood": "Samut Sakhon Town Center",
+      "cuisine": "Thai Seafood",
+      "priceRange": "€",
+      "description": "No-frills market restaurant famous for its fiercely fresh catch, prepared simply with perfect seasoning.",
+      "mustOrder": "Fried whole snapper with garlic and three-flavor dipping sauce",
+      "lat": 13.5481,
+      "lng": 100.2893
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Le Du",
+      "address": "399 Silom Road, Bang Rak, Bangkok (Central Plains gateway)",
+      "neighbourhood": "Bangkok-Silom",
+      "cuisine": "Thai Modern",
+      "priceRange": "€€€€",
+      "description": "Michelin-starred progressive Thai restaurant elevating regional Central Plains ingredients with contemporary technique.",
+      "mustOrder": "Kaeng tai pla reimagined with seasonal seafood",
+      "lat": 13.727,
+      "lng": 100.5233
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Mango Tree",
+      "address": "37 Thanon Samsen, Phra Nakhon, Bangkok (accessible from Ayutthaya)",
+      "neighbourhood": "Bangkok-Samsen",
+      "cuisine": "Thai Fine Dining",
+      "priceRange": "€€€",
+      "description": "Elegant riverside restaurant presenting refined Central Thai cuisine in a colonial setting with temple views.",
+      "mustOrder": "Shrimp and pork crêpe with sweet tamarind sauce",
+      "lat": 13.7593,
+      "lng": 100.4945
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Ban Rai Nam",
+      "address": "Moo 7, Tambon Ban Rai, Saraburi",
+      "neighbourhood": "Saraburi",
+      "cuisine": "Thai Rural",
+      "priceRange": "€",
+      "description": "Rustic farm-to-table spot in the countryside serving organic vegetables and locally-raised meat simply prepared.",
+      "mustOrder": "Grilled chicken with sticky rice and fresh herbs",
+      "lat": 14.5362,
+      "lng": 100.915
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Hua Seng Hong",
+      "address": "145 Thanon Petchkasem, Hua Hin",
+      "neighbourhood": "Hua Hin",
+      "cuisine": "Thai Seafood",
+      "priceRange": "€€",
+      "description": "Long-established seaside institution renowned for impeccably fresh seafood and classic Thai beach-town preparations.",
+      "mustOrder": "Steamed flower crab with lime and chili",
+      "lat": 12.5684,
+      "lng": 99.9533
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Baan Tawai",
+      "address": "82 Tambon Wang Chin, Phichit",
+      "neighbourhood": "Phichit",
+      "cuisine": "Thai Central",
+      "priceRange": "€€",
+      "description": "Wooden riverside house specializing in traditional Phichit dishes made with sticky rice and freshwater catch.",
+      "mustOrder": "Fried fish with tamarind and garlic",
+      "lat": 15.5401,
+      "lng": 100.3396
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "The Deck",
+      "address": "36 Moo 2, Tambon Noen Pla, Chumphon (southernmost Central Plains)",
+      "neighbourhood": "Chumphon",
+      "cuisine": "Thai Fusion Seafood",
+      "priceRange": "€€€",
+      "description": "Modern beachfront venue blending local Gulf seafood with subtle international influences in a relaxed setting.",
+      "mustOrder": "Grouper fillet with southern Thai curry paste and fresh turmeric",
+      "lat": 8.7259,
+      "lng": 99.18
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Jok Khlong Preng",
+      "address": "88 Soi 4, Tambon Talat, Samut Prakan",
+      "neighbourhood": "Samut Prakan",
+      "cuisine": "Thai Breakfast/Rice Porridge",
+      "priceRange": "€",
+      "description": "Family-run congee specialist beloved for silky rice porridge with perfectly poached egg and condiment spreads.",
+      "mustOrder": "Century egg and pork porridge with crispy shallots",
+      "lat": 13.6033,
+      "lng": 100.5947
+    }
+  ]
+}

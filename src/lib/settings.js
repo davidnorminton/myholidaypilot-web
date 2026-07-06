@@ -18,3 +18,10 @@ export function useSettings() {
   useEffect(() => { let on = true; getSettings().then((v) => on && setS(v)); return () => { on = false } }, [])
   return s || {}
 }
+
+// Whether visitor-facing AI features are enabled (admin toggle in AI settings).
+// Defaults to true unless explicitly set to '0'.
+export function useFrontendAi() {
+  const s = useSettings()
+  return s?.frontendAiEnabled !== '0'
+}

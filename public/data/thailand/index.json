@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-06T18:17:07.038Z",
+  "appVersion": "1.0",
+  "totalRegions": 9,
+  "totalPlaces": 125,
+  "totalRestaurants": 130,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "bangkok_metropolitan",
+      "name": "Bangkok Metropolitan",
+      "nameIt": "กรุงเทพมหานคร",
+      "capital": "Bangkok",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "emoji": "🏙️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 14.1,
+        "south": 13.4,
+        "east": 100.9,
+        "west": 100.2
+      },
+      "placeCount": 15,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit November to February for cooler, dry weather ideal for urban exploration.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "central_plains",
+      "name": "Central Plains",
+      "nameIt": "ภาคกลาง",
+      "capital": "Ayutthaya",
+      "lat": 14.3568,
+      "lng": 100.5864,
+      "emoji": "🏛️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 15.5,
+        "south": 13.5,
+        "east": 101.5,
+        "west": 99.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "November to February offers the best weather for visiting temples and historical sites.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "northern",
+      "name": "Northern Thailand",
+      "nameIt": "ภาคเหนือ",
+      "capital": "Chiang Mai",
+      "lat": 18.7883,
+      "lng": 98.9853,
+      "emoji": "⛰️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 20.4,
+        "south": 17,
+        "east": 101.5,
+        "west": 97.3
+      },
+      "placeCount": 14,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "October to February provides cool mountain weather perfect for trekking and festivals.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "northeastern",
+      "name": "Northeastern Thailand (Isan)",
+      "nameIt": "ภาคอีสาน",
+      "capital": "Khon Kaen",
+      "lat": 16.4411,
+      "lng": 102.8329,
+      "emoji": "🏜️",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 17.5,
+        "south": 14.5,
+        "east": 105.6,
+        "west": 100.5
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "November to February is ideal with dry, cool conditions for exploring temples and Mekong River sites.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "eastern",
+      "name": "Eastern Thailand",
+      "nameIt": "ภาคตะวันออก",
+      "capital": "Pattaya",
+      "lat": 12.9271,
+      "lng": 100.8765,
+      "emoji": "🏖️",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 13.5,
+        "south": 11.5,
+        "east": 102.5,
+        "west": 100
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "November to February offers pleasant weather for beach activities and island hopping.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "western",
+      "name": "Western Thailand",
+      "nameIt": "ภาคตะวันตก",
+      "capital": "Kanchanaburi",
+      "lat": 14.0227,
+      "lng": 99.5342,
+      "emoji": "🌲",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 15.5,
+        "south": 12.5,
+        "east": 100.5,
+        "west": 98.2
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "November to February provides cool, dry weather suitable for national park visits and hiking.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "central_coast",
+      "name": "Central Coast",
+      "nameIt": "ชายฝั่งกลาง",
+      "capital": "Hua Hin",
+      "lat": 12.5684,
+      "lng": 99.9558,
+      "emoji": "🌊",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 13.2,
+        "south": 11.8,
+        "east": 100.5,
+        "west": 99.2
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "November to February is best for beach relaxation and water sports with calm seas.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "southern_peninsula",
+      "name": "Southern Peninsula",
+      "nameIt": "ภาคใต้",
+      "capital": "Hat Yai",
+      "lat": 7.0064,
+      "lng": 100.4661,
+      "emoji": "🏝️",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 9,
+        "south": 6.4,
+        "east": 101.8,
+        "west": 99.6
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "December to March offers the driest weather for island exploration and diving.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "andaman_coast",
+      "name": "Andaman Coast",
+      "nameIt": "ชายฝั่งอันดามัน",
+      "capital": "Phuket",
+      "lat": 8.65,
+      "lng": 98.4038,
+      "emoji": "🌴",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 9.5,
+        "south": 7.2,
+        "east": 99.3,
+        "west": 97.3
+      },
+      "placeCount": 14,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "November to April provides calm seas and sunny weather ideal for beach and island activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

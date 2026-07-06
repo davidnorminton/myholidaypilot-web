@@ -11,6 +11,7 @@ export default function AdminAi() {
   const [unsplashInput, setUnsplashInput] = useState('')
   const [model, setModel] = useState('')
   const [models, setModels] = useState(null)
+  const [frontendAi, setFrontendAi] = useState(true)
   const [busy, setBusy] = useState(false)
   const [saved, setSaved] = useState(false)
   const [error, setError] = useState('')
@@ -19,6 +20,7 @@ export default function AdminAi() {
     api.settings.getAll().then((s) => {
       setSettings(s || {})
       setModel(s?.['ai.model'] || '')
+      setFrontendAi(s?.['frontendAiEnabled'] !== '0')   // default on
     }).catch(() => setSettings({}))
   }, [])
 
@@ -53,11 +55,39 @@ export default function AdminAi() {
     } finally { setBusy(false) }
   }
 
+  // Toggle saves immediately so it takes effect at once.
+  const toggleFrontendAi = async () => {
+    const next = !frontendAi
+    setFrontendAi(next)
+    try { await api.settings.save({ frontendAiEnabled: next ? '1' : '0' }) }
+    catch (e) { setFrontendAi(!next); setError(e.message || 'Could not update the toggle') }
+  }
+
   if (settings === null) return <p className="admin-note">Loading AI settings…</p>
 
   return (
     <div className="admin-ai">
-      <h3 className="admin-h3"><KeyRound size={16} /> Anthropic API key</h3>
+      <div className="ai-toggle">
+        <div className="ai-toggle__text">
+          <h3 className="admin-h3" style={{ margin: 0 }}><Sparkles size={16} /> Frontend AI features</h3>
+          <p className="admin-note" style={{ margin: '4px 0 0' }}>
+            When off, visitor-facing AI tools (packing list, budget estimate, trip story, ask-about-a-place)
+            are hidden and blocked. Admin AI tools (blog & place generation) are unaffected.
+          </p>
+        </div>
+        <button
+          type="button"
+          role="switch"
+          aria-checked={frontendAi}
+          className={`switch ${frontendAi ? 'is-on' : ''}`}
+          onClick={toggleFrontendAi}
+          aria-label="Toggle frontend AI features"
+        >
+          <span className="switch__knob" />
+        </button>
+      </div>
+
+      <h3 className="admin-h3" style={{ marginTop: 26 }}><KeyRound size={16} /> Anthropic API key</h3>
       <p className="admin-note">
         Stored server-side and never sent to visitors' browsers. All Claude calls run through this
         site's own API. {savedKeyMask ? <>Current key: <code>{savedKeyMask}</code></> : 'No key saved yet.'}

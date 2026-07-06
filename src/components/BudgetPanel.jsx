@@ -4,6 +4,7 @@ import { X, Coins, Sparkles, RefreshCw, Pencil } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { computeBudget, fmtMoney } from '../lib/budget.js'
 import { setBudget, setBudgetOverride } from '../lib/trips.js'
+import { useFrontendAi } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 
 const STYLES = [
@@ -17,6 +18,7 @@ const STYLES = [
 // is editable — a typed value replaces the estimate and totals recompute
 // instantly, no second API call.
 export default function BudgetPanel({ trip, onClose }) {
+  const aiOn = useFrontendAi()
   const saved = trip.budget
   const [adults, setAdults] = useState(saved?.inputs?.adults ?? trip.packing?.adults ?? 2)
   const [children, setChildren] = useState(saved?.inputs?.children ?? trip.packing?.children ?? 0)
@@ -103,11 +105,11 @@ export default function BudgetPanel({ trip, onClose }) {
             </label>
           </div>
           <div className="pk__who" style={{ marginTop: 12 }}>
-            <button className="btn btn--primary" onClick={generate} disabled={busy || !trip.startDate || !trip.places.length}>
+            {aiOn && <button className="btn btn--primary" onClick={generate} disabled={busy || !trip.startDate || !trip.places.length}>
               {busy ? <><RefreshCw size={15} className="pk__spin" /> Estimating…</>
                 : saved ? <><Sparkles size={15} /> Re-estimate</>
                 : <><Sparkles size={15} /> Estimate my budget</>}
-            </button>
+            </button>}
           </div>
           {!trip.startDate && <p className="pk__warn">Set your trip dates first — the budget depends on them.</p>}
           {error && <p className="pk__warn">{error}</p>}

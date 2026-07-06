@@ -12,11 +12,13 @@ import SaveButton from '../components/SaveButton.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import AskPlace from '../components/AskPlace.jsx'
+import { useFrontendAi } from '../lib/settings.js'
 import { useAffiliates, placeOffers } from '../lib/affiliates.js'
 import { PageLoader } from '../components/Loading.jsx'
 import { useSeo, canonicalUrl } from '../lib/seo.js'
 
 export default function PlaceDetailScreen() {
+  const aiOn = useFrontendAi()
   const { country = 'italy', regionId, placeId } = useParams()
   const [region, setRegion] = useState(null)
   const [images, setImages] = useState([])
@@ -160,7 +162,7 @@ export default function PlaceDetailScreen() {
             />
           )}
 
-          <AskPlace place={place} regionName={region?.name || ''} />
+          {aiOn && <AskPlace place={place} regionName={region?.name || ''} />}
           <CommentsSection countryId={country} targetType="place" regionId={regionId} placeId={placeId} areaName={place.name} />
         </main>
       </div>

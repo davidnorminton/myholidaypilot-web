@@ -4,12 +4,14 @@ import { X, Luggage, Sparkles, RefreshCw, FileDown } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { dayWeather } from '../lib/weather.js'
 import { setPacking, togglePackingItem } from '../lib/trips.js'
+import { useFrontendAi } from '../lib/settings.js'
 import { downloadPackingPdf } from '../lib/packingPdf.js'
 
 // AI packing list: reads the trip (dates, places, chosen activities), fetches
 // the forecast where available, asks who's travelling, and has Claude draft a
 // checklist. The result is stored on the trip, so it syncs and persists.
 export default function PackingList({ trip, onClose }) {
+  const aiOn = useFrontendAi()
   const [adults, setAdults] = useState(trip.packing?.adults ?? 2)
   const [children, setChildren] = useState(trip.packing?.children ?? 0)
   const [busy, setBusy] = useState(false)
@@ -88,11 +90,11 @@ export default function PackingList({ trip, onClose }) {
             <label>Children
               <input type="number" min="0" max="12" value={children} onChange={(e) => setChildren(Math.max(0, Number(e.target.value) || 0))} />
             </label>
-            <button className="btn btn--primary" onClick={generate} disabled={busy || !trip.startDate || !trip.places.length}>
+            {aiOn && <button className="btn btn--primary" onClick={generate} disabled={busy || !trip.startDate || !trip.places.length}>
               {busy ? <><RefreshCw size={15} className="pk__spin" /> Generating list…</>
                 : packing ? <><Sparkles size={15} /> Regenerate</>
                 : <><Sparkles size={15} /> Generate my list</>}
-            </button>
+            </button>}
           </div>
           {!trip.startDate && <p className="pk__warn">Set your trip dates first — the list depends on them.</p>}
           {error && <p className="pk__warn">{error}</p>}

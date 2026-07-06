@@ -21,6 +21,16 @@ async function aiConfig(db) {
   return { key: all['secret.anthropicKey'], model: all['ai.model'], dailyLimit: Number(all['ai.dailyLimit']) || 10 }
 }
 
+// Frontend AI kill-switch: when `frontendAiEnabled` is set to '0', the
+// user-facing AI features (packing, budget, narrate, review) are turned off.
+// Admins bypass this so the admin tools keep working. Enforced server-side so
+// it can't be circumvented by calling the API directly.
+async function requireFrontendAiOn(db, user) {
+  if (user.role === 'admin') return
+  const [row] = await db.select().from(siteSettings).where(eq(siteSettings.key, 'frontendAiEnabled'))
+  if (row && row.value === '0') throw fail(403, 'AI features are currently turned off')
+}
+
 // Free-but-not-abusable: each user gets a daily allowance of AI calls
 // (configurable via the ai.dailyLimit setting; admins are exempt).
 async function checkAllowance(db, user, limit) {
@@ -54,6 +64,7 @@ export default handler(async (req, res) => {
   // ── generate a packing list for a trip (any signed-in user) ───────────────
   if (req.method === 'POST' && action === 'packing') {
     const user = await requireUser(req)
+    await requireFrontendAiOn(db, user)
     const { key, model, dailyLimit } = await aiConfig(db)
     if (!key) throw fail(400, 'AI is not configured yet')
     if (!model) throw fail(400, 'No AI model selected yet')
@@ -100,6 +111,7 @@ Respond with ONLY valid JSON, no markdown fences, in exactly this shape:
   // ── estimate budget rates for a trip (any signed-in user) ─────────────────
   if (req.method === 'POST' && action === 'budget') {
     const user = await requireUser(req)
+    await requireFrontendAiOn(db, user)
     const { key, model, dailyLimit } = await aiConfig(db)
     if (!key) throw fail(400, 'AI is not configured yet')
     if (!model) throw fail(400, 'No AI model selected yet')
@@ -154,6 +166,7 @@ Respond with ONLY valid JSON, no markdown fences, exactly this shape (omit fligh
   // ── narrate a trip as a short story (any signed-in user) ──────────────────
   if (req.method === 'POST' && action === 'narrate') {
     const user = await requireUser(req)
+    await requireFrontendAiOn(db, user)
     const { key, model, dailyLimit } = await aiConfig(db)
     if (!key) throw fail(400, 'AI is not configured yet')
     if (!model) throw fail(400, 'No AI model selected yet')
@@ -309,6 +322,7 @@ Respond with ONLY valid JSON, no fences: {"answer":"..."}`
   // ── itinerary sense-check (any signed-in user) ─────────────────────────────
   if (req.method === 'POST' && action === 'review') {
     const user = await requireUser(req)
+    await requireFrontendAiOn(db, user)
     const { key, model, dailyLimit } = await aiConfig(db)
     if (!key) throw fail(400, 'AI is not configured yet')
     if (!model) throw fail(400, 'No AI model selected yet')

@@ -5,6 +5,7 @@ import { paths } from '../lib/paths.js'
 import { typeLabel, mapsUrl } from '../lib/format.js'
 import TripStory from './TripStory.jsx'
 import TripReview from './TripReview.jsx'
+import { useFrontendAi } from '../lib/settings.js'
 import { movePlaceTo, addPlace, setPlaceDate, stayForDay } from '../lib/trips.js'
 import MapView from './MapView.jsx'
 import { bestRoute, kmBetween as legKm } from '../lib/route.js'
@@ -21,6 +22,7 @@ const sameOver = (a, b) =>
       (a.beforeKey && b.beforeKey && a.beforeKey.regionId === b.beforeKey.regionId && a.beforeKey.placeId === b.beforeKey.placeId)))
 
 export default function Itinerary({ trip, onPlan }) {
+  const aiOn = useFrontendAi()
   const [drag, setDrag] = useState(null)       // { regionId, placeId, name }
   const [over, setOver] = useState(null)       // { date, beforeKey }
   const [dayFilter, setDayFilter] = useState(null)
@@ -254,8 +256,8 @@ export default function Itinerary({ trip, onPlan }) {
 
   return (
     <div className="itin">
-      <TripStory trip={trip} />
-      <TripReview trip={trip} />
+      {aiOn && <TripStory trip={trip} />}
+      {aiOn && <TripReview trip={trip} />}
 
       {isLive && days.some((d) => d.date === todayIso) && (
         <button className="itin-today" onClick={() => todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
