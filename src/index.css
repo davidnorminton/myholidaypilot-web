@@ -2676,3 +2676,18 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .mip__saving{position:absolute; inset:0; display:grid; place-items:center; background:rgba(31,122,77,.35); color:#fff}
 .mip__upload{border-top:0.5px solid var(--line); padding-top:14px}
 @media (max-width: 860px){ .mi__layout{grid-template-columns:1fr} }
+
+/* --- Destinations: top 10 two-column block --- */
+.desttop{margin-bottom:32px; padding-bottom:28px; border-bottom:0.5px solid var(--line)}
+.desttop__title{font-family:var(--serif); font-weight:400; font-size:clamp(24px,3vw,32px); margin:0 0 16px; letter-spacing:-.01em}
+.desttop__cols{display:grid; grid-template-columns:1fr 1fr; gap:8px 40px}
+.desttop__list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.desttop__row{display:flex; align-items:center; gap:14px; padding:11px 12px; text-decoration:none; border-radius:10px; transition:background .12s}
+.desttop__row:hover{background:#fff}
+.desttop__rank{flex:none; width:24px; font-family:var(--serif); font-size:19px; color:var(--gold); text-align:center; line-height:1}
+.desttop__flag{flex:none; font-size:22px; line-height:1}
+.desttop__name{flex:1; min-width:0; font-family:var(--serif); font-size:18px; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.desttop__go{flex:none; color:var(--faint); transition:color .12s, transform .12s}
+.desttop__row:hover .desttop__go{color:var(--gold); transform:translateX(2px)}
+.desttop__list li + li{border-top:0.5px solid var(--line-soft, var(--line))}
+@media (max-width: 640px){ .desttop__cols{grid-template-columns:1fr; gap:0} }

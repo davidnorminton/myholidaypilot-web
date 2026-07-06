@@ -19,6 +19,16 @@ const CONTINENT = {
 }
 const continentOf = (slug) => CONTINENT[slug] || 'Other'
 
+
+// Ordered by international tourist arrivals (most-visited first) — same basis
+// as the landing page's top destinations. Unlisted countries sort last.
+const VISIT_RANK = {
+  france: 1, spain: 2, united_states: 3, italy: 4, united_kingdom: 6,
+  germany: 7, greece: 9, japan: 11, portugal: 14, netherlands: 15,
+  poland: 16, switzerland: 18, sweden: 22, norway: 24, south_korea: 25,
+}
+const visitRank = (slug) => VISIT_RANK[slug] ?? 999
+
 export default function CountriesScreen() {
   const live = useMemo(() => COUNTRIES.filter((c) => c.available).sort((a, b) => a.name.localeCompare(b.name)), [])
   const continents = useMemo(() => {
@@ -27,6 +37,7 @@ export default function CountriesScreen() {
     return set.sort((a, b) => order.indexOf(a) - order.indexOf(b))
   }, [live])
   const [filter, setFilter] = useState('all')
+  const top10 = live.slice().sort((a, b) => visitRank(a.slug) - visitRank(b.slug)).slice(0, 10)
 
   const shown = filter === 'all' ? live : live.filter((c) => continentOf(c.slug) === filter)
 
@@ -35,6 +46,37 @@ export default function CountriesScreen() {
       <PageHero id="destinations" eyebrow="myholidaypilot" title="Destinations" emoji="🗺️"
         sub="Pick where to wander — every country mapped region by region." />
       <main className="wrap">
+        {top10.length >= 4 && (
+          <section className="desttop">
+            <h2 className="desttop__title">Top destinations</h2>
+            <div className="desttop__cols">
+              <ol className="desttop__list" start={1}>
+                {top10.slice(0, 5).map((c, i) => (
+                  <li key={c.slug}>
+                    <Link to={paths.country(c.slug)} className="desttop__row">
+                      <span className="desttop__rank">{i + 1}</span>
+                      <span className="desttop__flag">{c.flag}</span>
+                      <span className="desttop__name">{c.name}</span>
+                      <ArrowRight size={16} className="desttop__go" />
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+              <ol className="desttop__list" start={6}>
+                {top10.slice(5, 10).map((c, i) => (
+                  <li key={c.slug}>
+                    <Link to={paths.country(c.slug)} className="desttop__row">
+                      <span className="desttop__rank">{i + 6}</span>
+                      <span className="desttop__flag">{c.flag}</span>
+                      <span className="desttop__name">{c.name}</span>
+                      <ArrowRight size={16} className="desttop__go" />
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </section>
+        )}
         {continents.length > 1 && (
           <div className="dest-filter">
             <label className="gq__select">
