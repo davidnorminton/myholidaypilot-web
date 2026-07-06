@@ -35,7 +35,8 @@ export default function LandingScreen() {
       <section className="land-hero">
         <img className="land-hero__bg land-hero__bg--kb" src={site['home.hero'] || HERO} alt="" />
         <div className="land-hero__veil" />
-        <div className="wrap land-hero__inner">
+        <div className="wrap">
+          <div className="land-hero__inner">
           <p className="eyebrow eyebrow--light">Your travel copilot</p>
           <h1 className="land-hero__title">
             {site['home.title']
@@ -51,6 +52,7 @@ export default function LandingScreen() {
               Explore destinations <ArrowRight size={17} />
             </Link>
             <Link to={paths.guided()} className="btn btn--ghost">Draft my trip in 30 seconds</Link>
+          </div>
           </div>
         </div>
       </section>
