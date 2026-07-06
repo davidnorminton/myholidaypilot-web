@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Logo from './Logo.jsx'
@@ -40,10 +41,18 @@ export default function TopBar() {
         </div>
       </div>
 
-      {open && (
+      {open && createPortal(
         <>
-          <div className="navdrawer__scrim" onClick={() => setOpen(false)} />
-          <nav className="navdrawer navdrawer--side">
+          <div className="navdrawer__scrim" onClick={() => setOpen(false)}
+            style={{ position: 'fixed', inset: 0, zIndex: 9997, background: 'rgba(20,16,12,.32)' }} />
+          <nav className="navdrawer navdrawer--side"
+            style={{
+              position: 'fixed', top: 0, left: 0, bottom: 0, right: 'auto',
+              width: 'min(300px, 84vw)', zIndex: 9998,
+              background: 'var(--surface, #fffefb)', borderRight: '1px solid var(--line, #e5e1d8)',
+              padding: '18px 14px', display: 'flex', flexDirection: 'column', gap: 4,
+              boxShadow: '14px 0 44px rgba(0,0,0,.12)', overflowY: 'auto',
+            }}>
             <div className="navdrawer__head">
               <span className="navdrawer__title">Menu</span>
               <button className="navdrawer__close" onClick={() => setOpen(false)} aria-label="Close menu"><X size={20} /></button>
@@ -54,7 +63,8 @@ export default function TopBar() {
               </NavLink>
             ))}
           </nav>
-        </>
+        </>,
+        document.body
       )}
     </header>
   )
