@@ -2758,3 +2758,31 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .eauth__go{width:100%; justify-content:center; margin-top:2px}
 .auth__or{display:flex; align-items:center; gap:10px; margin:12px 0; color:var(--faint); font-size:12px}
 .auth__or::before, .auth__or::after{content:''; flex:1; height:1px; background:var(--line)}
+
+/* --- Site search (header) --- */
+.sitesearch{position:relative; display:flex; align-items:center}
+.sitesearch__icon{position:absolute; left:11px; color:var(--muted); pointer-events:none}
+.sitesearch__input{
+  width:150px; padding:8px 12px 8px 32px; border:1px solid var(--line); border-radius:999px;
+  background:#fff; font:inherit; font-size:13.5px; color:var(--ink); transition:width .18s ease, border-color .12s;
+}
+.sitesearch__input::placeholder{color:var(--faint)}
+.sitesearch.is-focus .sitesearch__input{width:240px; border-color:var(--ink-muted, #b0a99c)}
+.sitesearch__input:focus{outline:none; box-shadow:0 0 0 3px color-mix(in srgb, var(--gold) 15%, transparent)}
+.sitesearch__drop{
+  position:absolute; top:calc(100% + 8px); right:0; width:320px; max-height:400px; overflow:auto;
+  background:#fff; border:0.5px solid var(--line); border-radius:13px; box-shadow:0 14px 44px rgba(0,0,0,.14);
+  padding:6px; z-index:60;
+}
+.sitesearch__row{display:flex; align-items:center; gap:10px; width:100%; padding:9px 10px; border:0; border-radius:9px;
+  background:none; cursor:pointer; text-align:left; font:inherit}
+.sitesearch__row.is-sel{background:color-mix(in srgb, var(--gold) 10%, #fff)}
+.sitesearch__rowicon{flex:none; width:20px; text-align:center; font-size:15px; color:var(--muted); display:inline-flex; justify-content:center}
+.sitesearch__rowlabel{flex:none; max-width:55%; font-size:14px; font-weight:600; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.sitesearch__rowsub{flex:1; min-width:0; font-size:12px; color:var(--muted); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:right}
+.sitesearch__empty{padding:14px 12px; font-size:13.5px; color:var(--muted)}
+@media (max-width: 860px){
+  .sitesearch__input{width:36px; padding-left:32px; cursor:pointer}
+  .sitesearch.is-focus .sitesearch__input{width:180px; cursor:text}
+  .sitesearch__drop{right:-60px; width:min(320px, calc(100vw - 24px))}
+}

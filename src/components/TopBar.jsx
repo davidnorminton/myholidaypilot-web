@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react'
 import Logo from './Logo.jsx'
 import { paths } from '../lib/paths.js'
 import AuthButton from './AuthButton.jsx'
+import SiteSearch from './SiteSearch.jsx'
 
 const cls = ({ isActive }) => 'nav__link' + (isActive ? ' nav__link--on' : '')
 
@@ -14,7 +15,6 @@ const LINKS = [
   { to: paths.dayTrips(), label: 'Day trips' },
   { to: '/gallery', label: 'Trip ideas' },
   { to: paths.blog(), label: 'Blog' },
-  { to: paths.app(), label: 'Get the app' },
 ]
 
 export default function TopBar() {
@@ -36,6 +36,7 @@ export default function TopBar() {
         </nav>
 
         <div className="topbar__right">
+          <SiteSearch />
           <AuthButton />
           <button className="hamburger" onClick={() => setOpen((v) => !v)} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
             {open ? <X size={22} /> : <Menu size={22} />}
