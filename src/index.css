@@ -2634,3 +2634,45 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
   .reveal-title{opacity:1; transform:none; animation:none}
   .topdest .topdest__row.reveal-row{opacity:1; transform:none; transition:none}
 }
+
+/* --- Missing images browser --- */
+.mi__head{display:flex; align-items:flex-start; justify-content:space-between; gap:16px; margin-bottom:18px}
+.mi__layout{display:grid; grid-template-columns:minmax(280px, 380px) 1fr; gap:20px; align-items:start}
+.mi__tree{border:0.5px solid var(--line); border-radius:12px; overflow:hidden; background:#fff}
+.mi__row{display:flex; align-items:center; gap:8px; width:100%; text-align:left; border:0; background:none;
+  cursor:pointer; padding:10px 14px; font:inherit; color:var(--ink); border-top:0.5px solid var(--line)}
+.mi__country:first-child > .mi__row{border-top:0}
+.mi__row:hover{background:color-mix(in srgb, var(--ink) 3%, #fff)}
+.mi__row--country{font-weight:600}
+.mi__row--region{padding-left:30px; font-size:14px; color:var(--ink-soft)}
+.mi__row--place{padding-left:50px; font-size:13.5px; color:var(--muted)}
+.mi__row--place.is-active{background:color-mix(in srgb, var(--gold) 12%, #fff); color:var(--ink)}
+.mi__chev{flex:none; transition:transform .15s; color:var(--muted)}
+.mi__chev.is-open{transform:rotate(90deg)}
+.mi__flag{font-size:18px; flex:none}
+.mi__name{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.mi__count{flex:none; font-size:12px; font-weight:600; color:var(--gold); background:color-mix(in srgb,var(--gold) 12%,#fff);
+  padding:2px 9px; border-radius:999px}
+.mi__placeicon{flex:none; color:var(--faint)}
+.mi__empty, .mi__panelempty{display:flex; flex-direction:column; align-items:center; gap:10px; padding:50px 20px;
+  color:var(--muted); text-align:center}
+.mi__panel{border:0.5px solid var(--line); border-radius:12px; background:#fff; min-height:320px}
+
+/* image picker sidebar */
+.mip{padding:16px}
+.mip__head{display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px}
+.mip__eyebrow{font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted)}
+.mip__name{margin:2px 0 0; font-family:var(--serif); font-weight:400; font-size:22px; color:var(--ink)}
+.mip__x{border:0; background:none; cursor:pointer; color:var(--muted); padding:4px}
+.mip__searchbar{display:flex; gap:8px; margin-bottom:12px}
+.mip__searchbar input{flex:1; padding:9px 12px; border:1px solid var(--line); border-radius:9px; font:inherit; font-size:14px}
+.mip__err{color:#c0392b; font-size:13px; margin:0 0 10px}
+.mip__grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; margin-bottom:16px}
+.mip__thumb{position:relative; aspect-ratio:4/3; border:0; border-radius:9px; overflow:hidden; cursor:pointer; padding:0;
+  background:var(--surface-2); transition:transform .12s, box-shadow .12s}
+.mip__thumb:hover{transform:scale(1.03); box-shadow:0 3px 12px rgba(0,0,0,.15)}
+.mip__thumb img{width:100%; height:100%; object-fit:cover; display:block}
+.mip__thumb.is-saving{outline:2px solid var(--ok); outline-offset:-2px}
+.mip__saving{position:absolute; inset:0; display:grid; place-items:center; background:rgba(31,122,77,.35); color:#fff}
+.mip__upload{border-top:0.5px solid var(--line); padding-top:14px}
+@media (max-width: 860px){ .mi__layout{grid-template-columns:1fr} }

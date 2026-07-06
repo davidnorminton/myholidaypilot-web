@@ -6,7 +6,7 @@ import { paths } from '../lib/paths.js'
 import { Reveal } from '../components/Reveal.jsx'
 import { useSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
-import { POSTS } from '../lib/blog.js'
+import { usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
 
 const HERO = 'https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600'
@@ -22,6 +22,7 @@ const VISIT_RANK = {
 const visitRank = (slug) => VISIT_RANK[slug] ?? 999
 
 export default function LandingScreen() {
+  const latestPosts = usePublishedPosts()
   const site = useSettings()
   useSeo({ path: '/' })
   const [stats, setStats] = useState(null)
@@ -248,7 +249,7 @@ export default function LandingScreen() {
           <Link to={paths.blog()} className="sec-link">All posts <ArrowRight size={15} /></Link>
         </div>
         <div className="grid grid--posts">
-          {POSTS.slice(0, 3).map((p) => (
+          {(latestPosts || []).slice(0, 3).map((p) => (
             <Link key={p.slug} to={paths.post(p.slug)} className="post-card">
               <div className="post-card__media"><img src={p.cover} alt="" loading="lazy" /></div>
               <div className="post-card__body">

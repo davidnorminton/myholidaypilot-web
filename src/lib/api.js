@@ -53,6 +53,8 @@ export const api = {
     genDetail: (country, region, place) => req('POST', `/builder?action=detail&country=${country}&region=${region}&place=${place}`),
     genImage: (country, region, place) => req('POST', `/builder?action=image&country=${country}&region=${region}&place=${place}`),
     setImage: (country, region, place, url, credit) => req('POST', `/builder?action=setimage&country=${country}&region=${region}&place=${place}`, { url, credit }),
+    missing: () => req('GET', '/builder?action=missing'),
+    imageSearch: (query) => req('GET', `/builder?action=imagesearch&query=${encodeURIComponent(query)}`),
     genRestaurants: (country, region) => req('POST', `/builder?action=restaurants&country=${country}&region=${region}`),
     genRegionProse: (country, region) => req('POST', `/builder?action=regionprose&country=${country}&region=${region}`),
     genGuide: (country, topic) => req('POST', `/builder?action=guide&country=${country}&topic=${topic}`),

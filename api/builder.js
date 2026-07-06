@@ -23,7 +23,7 @@ export default handler(async (req, res) => {
   const q = req.query || {}
 
   // ── reads ──────────────────────────────────────────────────────────────────
-  if (req.method === 'GET' && !q.country) {
+  if (req.method === 'GET' && !q.country && !q.action) {
     const rows = await db.select().from(builds)
     // attach region counts
     const out = []
@@ -255,6 +255,68 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     await db.update(buildPlaces).set({ image, updatedAt: Date.now() })
       .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
     return send(res, 200, { done: true, image })
+  }
+
+  // ── missing images: hierarchical summary across all builds ──────────────────
+  // Returns countries → regions → places that have no image, with counts.
+  if (req.method === 'GET' && q.action === 'missing') {
+    const allBuilds = await db.select().from(builds)
+    const out = []
+    for (const b of allBuilds) {
+      const regs = await db.select().from(buildRegions)
+        .where(eq(buildRegions.countryId, b.countryId)).orderBy(asc(buildRegions.sort))
+      const regionsOut = []
+      let countryMissing = 0
+      for (const r of regs) {
+        const pls = await db.select().from(buildPlaces)
+          .where(and(eq(buildPlaces.countryId, b.countryId), eq(buildPlaces.regionId, r.regionId)))
+          .orderBy(asc(buildPlaces.sort))
+        const missing = pls.filter((p) => !p.image)
+        if (missing.length) {
+          regionsOut.push({
+            regionId: r.regionId, name: r.data.name, missing: missing.length, total: pls.length,
+            places: missing.map((p) => ({ placeId: p.placeId, name: p.data.name,
+              query: p.data.imageQueries?.[0] || `${p.data.name} ${b.name}` })),
+          })
+          countryMissing += missing.length
+        }
+      }
+      if (countryMissing) {
+        out.push({ countryId: b.countryId, name: b.name, flag: b.flag || '',
+          missing: countryMissing, regions: regionsOut })
+      }
+    }
+    return send(res, 200, { countries: out })
+  }
+
+  // ── Unsplash multi-result search (returns options to choose from) ───────────
+  if (req.method === 'GET' && q.action === 'imagesearch') {
+    const rows = await db.select().from(schema.siteSettings)
+    const uKey = Object.fromEntries(rows.map((r) => [r.key, r.value]))['secret.unsplashKey']
+    if (!uKey) throw fail(400, 'Add your Unsplash Access Key in Admin → AI first')
+    const query = String(q.query || '').trim()
+    if (!query) throw fail(400, 'Missing search query')
+    const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=9&orientation=landscape&content_filter=high`
+    let r
+    try {
+      const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 12000)
+      r = await fetch(url, { headers: { Authorization: `Client-ID ${uKey}` }, signal: ctrl.signal })
+      clearTimeout(t)
+    } catch (e) {
+      throw fail(502, e.name === 'AbortError' ? 'Unsplash timed out — likely rate-limited; wait and retry.' : `Could not reach Unsplash: ${String(e.message).slice(0, 100)}`)
+    }
+    if (!r.ok) {
+      const label = r.status === 429 ? 'Rate Limit Exceeded (429)' : r.status === 401 ? 'Unauthorized (401) — check your key' : r.status === 403 ? 'Forbidden (403) — demo quota likely exhausted' : `HTTP ${r.status}`
+      throw fail(r.status === 401 ? 400 : 502, `Unsplash ${label}`)
+    }
+    let j; try { j = await r.json() } catch { throw fail(502, 'Unsplash returned an unreadable response') }
+    const results = (j.results || []).map((hit) => ({
+      thumb: hit.urls?.thumb || hit.urls?.small,
+      url: `${hit.urls.raw}&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080`,
+      credit: hit.user?.name || '',
+      link: hit.links?.html || '',
+    }))
+    return send(res, 200, { results })
   }
 
   // ── stage 6: region restaurants (where to eat) ──────────────────────────────
