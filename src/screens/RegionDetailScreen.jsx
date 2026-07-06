@@ -70,7 +70,6 @@ export default function RegionDetailScreen() {
         <div className="wrap">
           <Link to={paths.country(country)} className="back"><ArrowLeft size={17} /> All regions</Link>
           <div className="rd-hero__head">
-            <span className="rd-hero__emoji" aria-hidden>{region.emoji}</span>
             <div>
               <h1 className="rd-hero__name">{region.name} <BeenHereButton regionId={regionId} /></h1>
               <p className="rd-hero__meta">
@@ -117,7 +116,7 @@ export default function RegionDetailScreen() {
             )}
             <div className="grid grid--places">
               {(region.places || []).map((p, i) => (
-                <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={images[p.id]?.[0]?.url} number={i + 1} />
+                <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={images[p.id]?.[0]?.url} number={i + 1} index={i} />
               ))}
             </div>
           </>

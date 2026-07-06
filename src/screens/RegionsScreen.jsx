@@ -71,7 +71,7 @@ export default function RegionsScreen() {
       <main className="wrap">
         <div className="grid grid--regions">
           {filtered === null && <CardSkeletons count={9} kind="r" />}
-          {filtered && filtered.map((r) => <RegionCard key={r.id} region={r} country={country} image={firstImage(r)} />)}
+          {filtered && filtered.map((r, idx) => <RegionCard key={r.id} region={r} country={country} image={firstImage(r)} index={idx} />)}
         </div>
         {filtered && filtered.length === 0 && (
           <p className="empty">No region matches “{q}”. Try a capital like Rome or Naples.</p>
