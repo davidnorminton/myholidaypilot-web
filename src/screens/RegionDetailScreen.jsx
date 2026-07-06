@@ -40,11 +40,20 @@ export default function RegionDetailScreen() {
 
   const accent = useMemo(() => regionColour(region?.colour), [region])
 
+  // Region hero image: explicit admin override, else the first place in the
+  // region that actually has an image (not every place has one, so scan).
+  const heroImage = useMemo(() => {
+    if (!region) return null
+    return site[`regionHero.${regionId}`]
+      || (region.places || []).map((pl) => images[pl.id]?.[0]?.url).find(Boolean)
+      || null
+  }, [region, images, site, regionId])
+
   useSeo({
     title: region ? region.name : undefined,
     description: region ? `${region.name}${region.nameIt && region.nameIt !== region.name ? ` (${region.nameIt})` : ''} — towns, restaurants and things to do across ${region.places?.length || 0} places.` : undefined,
     path: `/italy/${regionId}`,
-    image: region ? (site[`regionHero.${regionId}`] || (region.places || []).map((pl) => images[pl.id]?.[0]?.url).find(Boolean)) : undefined,
+    image: heroImage || undefined,
   })
 
   if (region === null) return <PageLoader label="Opening region" />
@@ -52,9 +61,9 @@ export default function RegionDetailScreen() {
 
   return (
     <div className="page" style={{ '--accent': accent }}>
-      <div className={`rd-hero ${site[`regionHero.${regionId}`] ? 'rd-hero--img' : ''}`}>
-        {site[`regionHero.${regionId}`] && <>
-          <img className="rd-hero__bg" src={site[`regionHero.${regionId}`]} alt="" />
+      <div className={`rd-hero ${heroImage ? 'rd-hero--img' : ''}`}>
+        {heroImage && <>
+          <img className="rd-hero__bg" src={heroImage} alt="" />
           <div className="rd-hero__veil" />
         </>}
         <div className="wrap">
