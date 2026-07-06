@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Search, MapPin, Map as MapIcon, Globe2 } from 'lucide-react'
+import { Search, X, MapPin, Map as MapIcon, Globe2 } from 'lucide-react'
 import { COUNTRIES } from '../lib/countries.js'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
@@ -40,15 +40,17 @@ export default function SiteSearch() {
   const [focus, setFocus] = useState(false)
   const [idx, setIdx] = useState(null)
   const [sel, setSel] = useState(0)
+  const [expanded, setExpanded] = useState(false)
   const navigate = useNavigate()
   const boxRef = useRef(null)
+  const inputRef = useRef(null)
 
   // lazy-load on first focus
   useEffect(() => { if (focus && !idx) loadIndex().then(setIdx) }, [focus, idx])
 
   // close on outside click
   useEffect(() => {
-    const onDoc = (e) => { if (boxRef.current && !boxRef.current.contains(e.target)) setFocus(false) }
+    const onDoc = (e) => { if (boxRef.current && !boxRef.current.contains(e.target)) { setFocus(false); setExpanded(false) } }
     document.addEventListener('mousedown', onDoc)
     return () => document.removeEventListener('mousedown', onDoc)
   }, [])
@@ -77,24 +79,36 @@ export default function SiteSearch() {
 
   useEffect(() => { setSel(0) }, [q])
 
-  const go = (r) => { setQ(''); setFocus(false); navigate(r.to) }
+  const go = (r) => { setQ(''); setFocus(false); setExpanded(false); navigate(r.to) }
 
   const onKey = (e) => {
+    if (e.key === 'Escape') { setFocus(false); setExpanded(false); return }
     if (!results || !results.length) return
     if (e.key === 'ArrowDown') { e.preventDefault(); setSel((s) => Math.min(s + 1, results.length - 1)) }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setSel((s) => Math.max(s - 1, 0)) }
     else if (e.key === 'Enter') { e.preventDefault(); go(results[sel]) }
-    else if (e.key === 'Escape') { setFocus(false) }
   }
 
   const open = focus && q.trim().length >= 2
 
   return (
-    <div className={`sitesearch ${focus ? 'is-focus' : ''}`} ref={boxRef} role="search">
+    <div className={`sitesearch ${focus ? 'is-focus' : ''} ${expanded ? 'is-expanded' : ''}`} ref={boxRef} role="search">
+      {/* mobile: collapsed icon-only trigger */}
+      <button className="sitesearch__trigger" aria-label="Search"
+        onClick={() => { setExpanded(true); setFocus(true); requestAnimationFrame(() => inputRef.current?.focus()) }}>
+        <Search size={18} />
+      </button>
+
       <Search size={15} className="sitesearch__icon" aria-hidden />
-      <input className="sitesearch__input" placeholder="Search places…" value={q}
+      <input ref={inputRef} className="sitesearch__input" placeholder="Search places…" value={q}
         onChange={(e) => setQ(e.target.value)} onFocus={() => setFocus(true)} onKeyDown={onKey}
         aria-label="Search countries, regions and places" />
+      {expanded && (
+        <button className="sitesearch__cancel" aria-label="Close search"
+          onClick={() => { setExpanded(false); setFocus(false); setQ('') }}>
+          <X size={18} />
+        </button>
+      )}
       {open && (
         <div className="sitesearch__drop" role="listbox">
           {results === null && <div className="sitesearch__empty">Searching…</div>}

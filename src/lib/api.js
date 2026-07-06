@@ -21,14 +21,55 @@ async function req(method, path, body) {
   return res.status === 204 ? null : res.json()
 }
 
+
+function fileToDataUrl(file) {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader()
+    r.onerror = () => reject(new Error('Could not read the file'))
+    r.onload = () => resolve(r.result)
+    r.readAsDataURL(file)
+  })
+}
+
+// Downscale to <= 2000px on the long edge and JPEG-encode, so the base64
+// payload stays well under the serverless body limit. Returns a data URL, or
+// throws (caller falls back to the raw file for tiny images / SVGs).
+async function compressImage(file, maxEdge = 2000, quality = 0.82) {
+  if (!file.type.startsWith('image/') || file.type === 'image/gif' || file.type === 'image/svg+xml') {
+    throw new Error('skip-compression')
+  }
+  const dataUrl = await fileToDataUrl(file)
+  const img = await new Promise((resolve, reject) => {
+    const im = new Image()
+    im.onload = () => resolve(im)
+    im.onerror = () => reject(new Error('decode failed'))
+    im.src = dataUrl
+  })
+  const scale = Math.min(1, maxEdge / Math.max(img.width, img.height))
+  const w = Math.round(img.width * scale)
+  const h = Math.round(img.height * scale)
+  const canvas = document.createElement('canvas')
+  canvas.width = w; canvas.height = h
+  const ctx = canvas.getContext('2d')
+  ctx.drawImage(img, 0, 0, w, h)
+  const out = canvas.toDataURL('image/jpeg', quality)
+  // if somehow larger than the original (rare), keep original
+  if (out.length >= dataUrl.length) throw new Error('no-gain')
+  return out
+}
+
 export const api = {
-  upload(file) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader()
-      reader.onerror = () => reject(new Error('Could not read the file'))
-      reader.onload = () => req('POST', '/upload', { filename: file.name, contentType: file.type, dataBase64: reader.result }).then(resolve, reject)
-      reader.readAsDataURL(file)
-    })
+  async upload(file) {
+    // Vercel serverless bodies are capped at ~4.5 MB, and base64 inflates
+    // size by ~33%. Downscale + re-encode in the browser so the request is
+    // always comfortably under the limit (and uploads are faster). The server
+    // still converts to WebP and downsizes further; this just guarantees the
+    // request fits.
+    const prepared = await compressImage(file).catch(() => null)
+    const filename = file.name
+    const contentType = prepared ? 'image/jpeg' : file.type
+    const dataBase64 = prepared || await fileToDataUrl(file)
+    return req('POST', '/upload', { filename, contentType, dataBase64 })
   },
   me: () => req('GET', '/me'),
   session: {
