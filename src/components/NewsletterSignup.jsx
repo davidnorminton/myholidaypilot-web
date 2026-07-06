@@ -15,7 +15,7 @@ export default function NewsletterSignup() {
 
   return (
     <div className="nl">
-      <p className="nl__title">Get our Italy guides</p>
+      <p className="nl__title">Get our travel guides</p>
       {state === 'done' ? (
         <p className="nl__done">Thanks — you’re on the list.</p>
       ) : (

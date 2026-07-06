@@ -23,6 +23,7 @@ const visitRank = (slug) => VISIT_RANK[slug] ?? 999
 
 export default function LandingScreen() {
   const latestPosts = usePublishedPosts()
+  const liveCount = COUNTRIES.filter((c) => c.available).length
   const site = useSettings()
   useSeo({ path: '/' })
   const [stats, setStats] = useState(null)
@@ -46,7 +47,7 @@ export default function LandingScreen() {
           </h1>
           <p className="land-hero__sub">
             {site['home.sub'] || `Handcrafted guides to the world’s regions — where to go, what to eat, and the
-            stories behind it. Italy and Spain now, more on the way.`}
+            stories behind it. ${liveCount} countries mapped, more on the way.`}
           </p>
           <div className="land-hero__cta">
             <Link to={paths.destinations()} className="btn btn--primary">

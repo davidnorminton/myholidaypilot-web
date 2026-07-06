@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import {
-  Plus, Download, Pencil, Trash2, ArrowUpRight,
-  PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, LayoutGrid, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff } from 'lucide-react'
+import { Plus, Download, Pencil, Trash2, ArrowUpRight, PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
@@ -11,7 +9,6 @@ import AdminPlaces from '../components/admin/AdminPlaces.jsx'
 import AdminImages from '../components/admin/AdminImages.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
 import AdminExport from '../components/admin/AdminExport.jsx'
-import AdminHub from '../components/admin/AdminHub.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
 import AdminSeo from '../components/admin/AdminSeo.jsx'
 import AdminGallery from '../components/admin/AdminGallery.jsx'
@@ -26,7 +23,6 @@ import AdminAi from '../components/admin/AdminAi.jsx'
 const SECTIONS = [
   { id: 'site', label: 'Site', icon: Home },
   { id: 'journal', label: 'Blog', icon: PenLine },
-  { id: 'hub', label: 'Italy page', icon: LayoutGrid },
   { id: 'places', label: 'Places', icon: MapPin },
   { id: 'images', label: 'Images', icon: ImageIcon },
   { id: 'affiliates', label: 'Affiliates', icon: BadgePercent },
@@ -77,7 +73,6 @@ export default function AdminScreen() {
             <optgroup label="Content">
               <option value="journal">Blog</option>
               <option value="site">Site</option>
-              <option value="hub">Italy page</option>
               <option value="places">Places</option>
               <option value="images">Images</option>
               <option value="gallery">Gallery</option>
@@ -106,7 +101,6 @@ export default function AdminScreen() {
       <main className="wrap admin">
         {section === 'journal' && <AdminBlog />}
         {section === 'site' && <AdminSite regions={regions} />}
-        {section === 'hub' && <AdminHub />}
         {section === 'places' && <AdminPlaces regions={regions} />}
         {section === 'images' && <AdminImages regions={regions} />}
         {section === 'affiliates' && <AdminAffiliates />}
