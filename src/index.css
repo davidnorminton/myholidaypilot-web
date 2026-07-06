@@ -2737,3 +2737,12 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 
 /* honeypot — visually hidden, off-screen, not for humans */
 .contact__hp{position:absolute; left:-9999px; width:1px; height:1px; opacity:0; pointer-events:none}
+
+/* --- Place detail hero: no-image state uses body colour, dark text --- */
+.pd-hero--noimg{background:var(--paper); min-height:0}
+.pd-hero--noimg .pd-hero__content{padding-block:40px 20px}
+.pd-hero--noimg .pd-hero__name{color:var(--ink); text-shadow:none}
+.pd-hero--noimg .pd-hero__alt{color:var(--muted)}
+.pd-hero--noimg .chip--solid{background:var(--ink); color:#fff}
+.pd-hero--noimg .pd-save{background:#fff; color:var(--ink); border:1px solid var(--line); backdrop-filter:none}
+.pd-hero--noimg .pd-save:hover, .pd-hero--noimg .pd-save.is-on{color:#fff; background:rgba(187,58,44,.9); border-color:transparent}

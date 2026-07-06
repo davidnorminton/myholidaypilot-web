@@ -11,7 +11,7 @@ import { clearSettingsCache } from '../../lib/settings.js'
 const PAGE_IMAGES = [
   ['plan', 'Plan my trip'], ['guided', 'Guided planner'],
   ['daytrips', 'Day-trip finder'], ['tripideas', 'Trip ideas'],
-  ['destinations', 'Destinations'],
+  ['destinations', 'Destinations'], ['contact', 'Contact us'],
 ]
 
 const HUB_SECTIONS = [

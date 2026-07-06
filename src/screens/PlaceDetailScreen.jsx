@@ -71,9 +71,9 @@ export default function PlaceDetailScreen() {
 
   return (
     <div className="page place" style={{ '--accent': accent }}>
-      <header className="pd-hero">
+      <header className={`pd-hero ${hero ? '' : 'pd-hero--noimg'}`}>
         {hero && <img className="pd-hero__img" src={hero} alt={place.name} onError={(e) => { e.currentTarget.style.display = 'none' }} />}
-        <div className="pd-hero__veil" />
+        {hero && <div className="pd-hero__veil" />}
         <SaveButton regionId={regionId} placeId={placeId} className="pd-save" label />
         <div className="wrap pd-hero__content">
           <div className="pd-hero__bottom">
