@@ -1,0 +1,1546 @@
+{
+  "id": "west",
+  "name": "West Region",
+  "nameIt": "West Region",
+  "capital": "Jurong",
+  "lat": 1.3399,
+  "lng": 103.7467,
+  "emoji": "🦁",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": 1.385,
+    "south": 1.3,
+    "east": 103.79,
+    "west": 103.69
+  },
+  "history": "The West Region of Singapore has evolved from a sparsely populated area of kampungs and fishing villages into a vibrant residential and commercial zone over the past several decades. During the colonial period, the western areas were largely agricultural, with rubber plantations and coconut groves dotting the landscape. The region's transformation accelerated after Singapore's independence in 1965, with large-scale housing developments like Jurong pioneering Singapore's public housing program. Today, the West Region stands as a testament to Singapore's rapid modernization and urban planning success.",
+  "culturalNotes": "The West Region is characterized by its blend of traditional Malay-Muslim heritage and modern urban development, particularly visible in areas like Clementi and Jurong. The region hosts several important cultural institutions and religious sites, including mosques and Hindu temples, reflecting Singapore's multicultural fabric. Markets and hawker centers throughout the west remain vital social hubs where residents of all backgrounds gather for meals and community interaction.",
+  "bestTimeToVisit": "Visit November to February for comfortable exploration of attractions like the Zoo and Science Centre.",
+  "languageNotes": "English is widely spoken across the West Region, though Mandarin Chinese, Malay, and Tamil are also common among residents. Useful phrases include \"Boleh tolong?\" (Can you help?) in Malay and \"Terima kasih\" (Thank you), which locals appreciate when visitors attempt the local language.",
+  "generatedAt": "2026-07-06T21:27:49.165Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "jurong_bird_park",
+      "name": "Jurong Bird Park",
+      "nameIt": "裕廊飞禽公园",
+      "lat": 1.3204,
+      "lng": 103.7064,
+      "type": "LANDMARK",
+      "description": "One of the world's largest bird parks housing over 2,500 birds from 400 species across themed zones and aviaries. It's a must-visit for wildlife enthusiasts and families seeking interactive animal encounters and stunning bird displays.",
+      "imageQueries": [
+        "Jurong Bird Park flamingos",
+        "Jurong Bird Park waterfall aviary"
+      ],
+      "activities": [
+        {
+          "id": "juro_1",
+          "text": "Bird Shows at Amphitheatre",
+          "detail": "Watch trained birds perform aerial tricks and acrobatics in the main amphitheatre, featuring eagles, parrots, and other species in daily scheduled shows.",
+          "lat": 1.3205,
+          "lng": 103.7118
+        },
+        {
+          "id": "juro_2",
+          "text": "Walk-through Waterfall Aviary",
+          "detail": "Stroll through a lush tropical setting with cascading waterfalls where free-flying birds such as kingfishers and herons roam freely around you.",
+          "lat": 1.3198,
+          "lng": 103.7125
+        },
+        {
+          "id": "juro_3",
+          "text": "Interactive Feeding Experience",
+          "detail": "Hand-feed colourful lorikeets and other friendly birds at designated feeding stations throughout the park using provided nectar cups.",
+          "lat": 1.321,
+          "lng": 103.713
+        },
+        {
+          "id": "juro_4",
+          "text": "Penguin Pool Observation",
+          "detail": "Observe African penguins swimming and diving in a temperature-controlled pool designed to replicate their natural Antarctic habitat.",
+          "lat": 1.3188,
+          "lng": 103.7115
+        },
+        {
+          "id": "juro_5",
+          "text": "Flamingo Lake Walk",
+          "detail": "Admire hundreds of vibrant pink flamingos wading in shallow waters while exploring the scenic lakeside pathways.",
+          "lat": 1.3215,
+          "lng": 103.7105
+        },
+        {
+          "id": "juro_6",
+          "text": "Owl and Nocturnal Birds Zone",
+          "detail": "Discover rarely seen nocturnal species in a dimly-lit environment that simulates nighttime, featuring owls and frogmouths.",
+          "lat": 1.3192,
+          "lng": 103.7135
+        }
+      ],
+      "food": [
+        {
+          "id": "juro_f1",
+          "text": "Chicken Rice",
+          "detail": "A classic Singaporean comfort food of fragrant steamed rice cooked with chicken broth, served with tender poached or roasted chicken."
+        },
+        {
+          "id": "juro_f2",
+          "text": "Laksa",
+          "detail": "A rich and spicy coconut-based noodle soup with prawns or chicken, lime leaves, and chilli paste, quintessentially Southeast Asian."
+        },
+        {
+          "id": "juro_f3",
+          "text": "Satay with Peanut Sauce",
+          "detail": "Grilled meat skewers (chicken, beef, or prawns) dipped in creamy, spiced peanut sauce, a popular hawker stall offering."
+        },
+        {
+          "id": "juro_f4",
+          "text": "Popiah (Spring Rolls)",
+          "detail": "Thin crepes filled with stir-fried vegetables, tofu, and sometimes prawns, served with sweet chilli sauce, a light Singaporean snack."
+        },
+        {
+          "id": "juro_f5",
+          "text": "Teh Tarik",
+          "detail": "Sweetened condensed milk tea 'pulled' between two cups to create a frothy, aromatic beverage, best enjoyed at the park's cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "juro_c1",
+          "text": "Respect Photography Rules",
+          "detail": "Many bird displays have flash photography restrictions to avoid stressing the animals; check signage and follow guides' instructions carefully."
+        },
+        {
+          "id": "juro_c2",
+          "text": "Dress for Tropical Heat",
+          "detail": "Wear light, breathable clothing, sunscreen, and a hat, as the park offers limited shade and the West Region can be intensely hot and humid."
+        },
+        {
+          "id": "juro_c3",
+          "text": "Plan Around Show Times",
+          "detail": "Check the bird show schedule upon entry and arrive early to secure good seating, as these are popular attractions that fill quickly."
+        },
+        {
+          "id": "juro_c4",
+          "text": "Use the Sky Ride Wisely",
+          "detail": "The monorail-style Sky Ride connects different zones but can have queues during peak hours; visit less popular zones first to maximize time."
+        }
+      ]
+    },
+    {
+      "id": "sentosa_island",
+      "name": "Sentosa Island",
+      "nameIt": "圣淘沙岛",
+      "lat": 1.2496,
+      "lng": 103.8303,
+      "type": "ISLAND",
+      "description": "Singapore's premier island resort destination featuring world-class attractions including Universal Studios, S.E.A. Aquarium, and pristine beaches. It offers diverse entertainment, water sports, and leisure activities making it essential for any visitor to the west region.",
+      "imageQueries": [
+        "Sentosa Island beach resort",
+        "Sentosa Universal Studios Singapore"
+      ],
+      "activities": [
+        {
+          "id": "sent_1",
+          "text": "Universal Studios Singapore",
+          "detail": "A sprawling movie-themed amusement park featuring roller coasters, 3D attractions, and themed zones based on Hollywood franchises.",
+          "lat": 1.2442,
+          "lng": 103.823
+        },
+        {
+          "id": "sent_2",
+          "text": "S.E.A. Aquarium",
+          "detail": "One of the world's largest aquariums housing over 40,000 marine animals across multiple zones representing different ocean habitats.",
+          "lat": 1.2447,
+          "lng": 103.8237
+        },
+        {
+          "id": "sent_3",
+          "text": "Sentosa Beach",
+          "detail": "A pristine sandy beach perfect for swimming, sunbathing, and water sports like parasailing and jet skiing with clear tropical waters.",
+          "lat": 1.2481,
+          "lng": 103.83
+        },
+        {
+          "id": "sent_4",
+          "text": "Fort Siloso",
+          "detail": "A restored 19th-century coastal fort offering historical exhibits, cannons, and panoramic views of the southern coastline and sea.",
+          "lat": 1.2406,
+          "lng": 103.8089
+        },
+        {
+          "id": "sent_5",
+          "text": "Wings of Time Show",
+          "detail": "A spectacular outdoor multimedia show featuring pyrotechnics, laser displays, and water fountains set against the night sky.",
+          "lat": 1.2443,
+          "lng": 103.8266
+        },
+        {
+          "id": "sent_6",
+          "text": "Sentosa Merlion",
+          "detail": "An iconic 37-meter tall statue combining a lion's head and fish tail, offering observation decks with 360-degree island views.",
+          "lat": 1.2495,
+          "lng": 103.8305
+        },
+        {
+          "id": "sent_7",
+          "text": "Adventure Cove Waterpark",
+          "detail": "A tropical waterpark featuring slides, wave pools, and a rainbow reef aquarium ideal for families and adventure seekers."
+        },
+        {
+          "id": "sent_8",
+          "text": "Sentosa Boardwalk",
+          "detail": "A scenic coastal promenade with mangrove views, perfect for leisurely walks, dining, and watching sunset over the sea."
+        }
+      ],
+      "food": [
+        {
+          "id": "sent_f1",
+          "text": "Chilli Crab",
+          "detail": "Fresh whole crabs cooked in a savory-sweet tomato and chilli sauce, a signature Singapore dish often enjoyed at beachside restaurants."
+        },
+        {
+          "id": "sent_f2",
+          "text": "Laksa",
+          "detail": "A rich coconut-based curry noodle soup with seafood or meat, representing the multicultural blend of Chinese, Malay, and Indian cuisines."
+        },
+        {
+          "id": "sent_f3",
+          "text": "Satay",
+          "detail": "Grilled meat skewers marinated in spices and served with peanut sauce, a beloved Malay-influenced street food available at casual dining spots."
+        },
+        {
+          "id": "sent_f4",
+          "text": "Fresh Seafood BBQ",
+          "detail": "Beachfront dining featuring grilled prawns, fish, and shellfish seasoned with local spices, offering authentic island dining experiences."
+        },
+        {
+          "id": "sent_f5",
+          "text": "Hainanese Chicken Rice",
+          "detail": "Poached chicken served with fragrant oily rice and ginger-chilli sauce, a simple yet iconic Singaporean comfort food."
+        },
+        {
+          "id": "sent_f6",
+          "text": "Tropical Fruit Smoothies",
+          "detail": "Refreshing beverages made from local mangoes, papaya, and coconut, perfect for cooling down in the island's tropical heat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sent_c1",
+          "text": "Respect Beach Customs",
+          "detail": "Follow designated swimming areas, observe modest beachwear standards out of respect for mixed cultural communities, and avoid loud behavior near residential areas."
+        },
+        {
+          "id": "sent_c2",
+          "text": "Temple Etiquette",
+          "detail": "Remove shoes before entering temples or sacred spaces, dress respectfully with covered shoulders and knees, and ask permission before photographing religious sites."
+        },
+        {
+          "id": "sent_c3",
+          "text": "Peak Hours Awareness",
+          "detail": "Visit attractions early morning or late afternoon to avoid massive crowds, especially during school holidays and weekends when locals flock to the island."
+        },
+        {
+          "id": "sent_c4",
+          "text": "Cashless Payments",
+          "detail": "Singapore is largely cashless with widespread credit card and digital payment acceptance, though carrying some cash is still practical for small vendors and tips."
+        }
+      ]
+    },
+    {
+      "id": "singapore_zoo",
+      "name": "Singapore Zoo",
+      "nameIt": "新加坡动物园",
+      "lat": 1.4043,
+      "lng": 103.7929,
+      "type": "LANDMARK",
+      "description": "A world-renowned open-concept zoo housing over 2,800 animals in naturalistic habitats without cages. It's celebrated for its innovative design and conservation efforts, making it one of Asia's premier zoological attractions.",
+      "imageQueries": [
+        "Singapore Zoo white tigers",
+        "Singapore Zoo primates landscape"
+      ],
+      "activities": [
+        {
+          "id": "sing_1",
+          "text": "Proboscis Monkey Encounter",
+          "detail": "Watch the unique long-nosed primates in their riverside habitat during scheduled feeding times when keepers share fascinating facts about their behavior.",
+          "lat": 1.4048,
+          "lng": 103.7618
+        },
+        {
+          "id": "sing_2",
+          "text": "Splash Splash Show",
+          "detail": "Enjoy an interactive water-based animal performance featuring sea lions and other aquatic animals in the open-air amphitheater.",
+          "lat": 1.4055,
+          "lng": 103.7625
+        },
+        {
+          "id": "sing_3",
+          "text": "Treetops Walk",
+          "detail": "Stroll along elevated wooden bridges through the canopy to observe arboreal animals like gibbons and flying lemurs in their natural setting.",
+          "lat": 1.4035,
+          "lng": 103.764
+        },
+        {
+          "id": "sing_4",
+          "text": "Fragile Forest",
+          "detail": "Walk through a climate-controlled greenhouse populated with free-roaming butterflies, birds, and reptiles in a rainforest environment.",
+          "lat": 1.4042,
+          "lng": 103.7608
+        },
+        {
+          "id": "sing_5",
+          "text": "Reptile Garden Experience",
+          "detail": "Get close to snakes, lizards, and crocodiles while learning about reptile conservation and handling from expert keepers.",
+          "lat": 1.4065,
+          "lng": 103.7635
+        },
+        {
+          "id": "sing_6",
+          "text": "Night Safari Optional Tour",
+          "detail": "Experience the adjacent Night Safari park to see nocturnal animals in specially designed habitats lit by moonlight-equivalent lighting."
+        }
+      ],
+      "food": [
+        {
+          "id": "sing_f1",
+          "text": "Chicken Rice at Zoo Hawker Stalls",
+          "detail": "Enjoy Singapore's most iconic dish of poached chicken served with fragrant rice cooked in chicken stock, available at multiple food outlets throughout the zoo."
+        },
+        {
+          "id": "sing_f2",
+          "text": "Laksa",
+          "detail": "Try this rich spiced noodle soup with coconut milk, tamarind, and seafood or chicken, a beloved Singaporean comfort food sold at zoo eateries."
+        },
+        {
+          "id": "sing_f3",
+          "text": "Satay Skewers",
+          "detail": "Sample grilled meat skewers served with peanut sauce and fresh cucumber, a popular local street food available at zoo food stalls."
+        },
+        {
+          "id": "sing_f4",
+          "text": "Chendol",
+          "detail": "Refresh with this traditional dessert of shaved ice topped with coconut milk, palm sugar syrup, and green rice flour strands."
+        },
+        {
+          "id": "sing_f5",
+          "text": "Fresh Tropical Fruit Juices",
+          "detail": "Drink freshly squeezed sugar cane, papaya, watermelon, or mango juice at the zoo's juice stands throughout the park."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sing_c1",
+          "text": "Arrive Early to Beat Crowds",
+          "detail": "Singaporeans and tourists alike flock to the zoo on weekends and public holidays, so arriving by 9 AM ensures better animal viewing and shorter queues."
+        },
+        {
+          "id": "sing_c2",
+          "text": "Respect Animal Spaces and Signs",
+          "detail": "Follow all barrier guidelines and keeper instructions strictly, as the open-concept design requires visitors to maintain appropriate distances for animal welfare."
+        },
+        {
+          "id": "sing_c3",
+          "text": "Dress for Heat and Sun",
+          "detail": "Singapore's tropical climate means intense sun and humidity year-round, so wear sunscreen, light clothing, and bring water or purchase drinks at multiple zoo outlets."
+        },
+        {
+          "id": "sing_c4",
+          "text": "Use Cashless Payment",
+          "detail": "Most food and souvenir stalls accept credit cards and mobile payments like PayNow and Apple Pay, though some smaller vendors may prefer cash."
+        }
+      ]
+    },
+    {
+      "id": "bukit_timah_nature_reserve",
+      "name": "Bukit Timah Nature Reserve",
+      "nameIt": "武吉知马自然保护区",
+      "lat": 1.3615,
+      "lng": 103.8174,
+      "type": "NATURE",
+      "description": "Singapore's largest nature reserve featuring dense primary and secondary rainforest with diverse wildlife and hiking trails. It's perfect for nature lovers seeking an authentic tropical forest experience within the urban landscape.",
+      "imageQueries": [
+        "Bukit Timah Nature Reserve forest trail",
+        "Bukit Timah hiking Singapore"
+      ],
+      "activities": [
+        {
+          "id": "buki_1",
+          "text": "Main Summit Trail",
+          "detail": "Hike the primary trail to Bukit Timah's 163-meter peak for panoramic views of the reserve and surrounding Singapore.",
+          "lat": 1.3553,
+          "lng": 103.818
+        },
+        {
+          "id": "buki_2",
+          "text": "Primary Rainforest Walk",
+          "detail": "Explore one of Singapore's last remaining primary forests with towering trees, ferns, and native bird species along designated paths.",
+          "lat": 1.356,
+          "lng": 103.8165
+        },
+        {
+          "id": "buki_3",
+          "text": "Wildlife Spotting",
+          "detail": "Observe common residents including long-tailed macaques, flying lemurs, various bird species, and occasionally monitor lizards throughout the reserve.",
+          "lat": 1.355,
+          "lng": 103.8175
+        },
+        {
+          "id": "buki_4",
+          "text": "Interpretation Signage Tour",
+          "detail": "Follow educational boards scattered throughout the reserve that explain local flora, fauna, and forest ecology in English and Chinese.",
+          "lat": 1.3555,
+          "lng": 103.817
+        },
+        {
+          "id": "buki_5",
+          "text": "Secondary Forest Trail",
+          "detail": "Walk through regenerating secondary forest to understand Singapore's forest recovery and see pioneer plant species.",
+          "lat": 1.3545,
+          "lng": 103.819
+        },
+        {
+          "id": "buki_6",
+          "text": "Photography Spots",
+          "detail": "Capture the dense canopy, buttress tree roots, and morning light filtering through the forest at various scenic clearings.",
+          "lat": 1.3552,
+          "lng": 103.8172
+        }
+      ],
+      "food": [
+        {
+          "id": "buki_f1",
+          "text": "Local Kopitiam Coffee",
+          "detail": "Stop at nearby hawker centers or cafes for traditional Singapore-style kopi (coffee with condensed milk) before or after your hike."
+        },
+        {
+          "id": "buki_f2",
+          "text": "Nasi Lemak",
+          "detail": "Enjoy this Malaysian-influenced coconut rice dish with sambal, fried anchovies, and boiled eggs at adjacent food courts in the surrounding neighborhoods."
+        },
+        {
+          "id": "buki_f3",
+          "text": "Mee Rebus",
+          "detail": "Try this yellow noodle dish in spiced gravy, commonly found at nearby hawker stalls frequented by hikers in the Bukit Timah area."
+        },
+        {
+          "id": "buki_f4",
+          "text": "Fresh Tropical Fruits",
+          "detail": "Purchase freshly cut papaya, pineapple, or watermelon from nearby fruit vendors to refuel after the hike."
+        }
+      ],
+      "culture": [
+        {
+          "id": "buki_c1",
+          "text": "Respect Wildlife Distance",
+          "detail": "Maintain at least 3 meters from macaques and do not feed them, as they are wild animals and can be aggressive if habituated to human food."
+        },
+        {
+          "id": "buki_c2",
+          "text": "Early Morning Visits",
+          "detail": "Arrive before 8 AM for the best wildlife sightings, cooler temperatures, and to avoid afternoon crowds typical on weekends."
+        },
+        {
+          "id": "buki_c3",
+          "text": "Proper Footwear Essential",
+          "detail": "Wear sturdy hiking shoes with good grip due to muddy, uneven terrain and exposed tree roots that are slippery when wet."
+        },
+        {
+          "id": "buki_c4",
+          "text": "Pack Your Own Water",
+          "detail": "Bring sufficient water and snacks as there are no food facilities within the reserve itself, only at the visitor center entrance."
+        }
+      ]
+    },
+    {
+      "id": "pasir_ris_park",
+      "name": "Pasir Ris Park",
+      "nameIt": "巴西立公园",
+      "lat": 1.3758,
+      "lng": 103.9492,
+      "type": "COASTAL",
+      "description": "A sprawling coastal park with mangrove forests, sandy beaches, and scenic waterfront promenades. It's ideal for cycling, picnicking, and observing diverse coastal ecosystems and bird species.",
+      "imageQueries": [
+        "Pasir Ris Park mangrove",
+        "Pasir Ris Park beach cycling"
+      ],
+      "activities": [
+        {
+          "id": "pasi_1",
+          "text": "Mangrove Boardwalk Trail",
+          "detail": "Walk through elevated wooden pathways among dense mangrove forests to spot mudskippers, crabs, and migratory birds in their natural habitat.",
+          "lat": 1.3745,
+          "lng": 103.9367
+        },
+        {
+          "id": "pasi_2",
+          "text": "Cycling Along Coastal Loop",
+          "detail": "Rent a bicycle and ride the scenic 8km loop around the park's perimeter with views of the sea and East Coast."
+        },
+        {
+          "id": "pasi_3",
+          "text": "Sandy Beach Picnicking",
+          "detail": "Spread out on the park's sandy beaches with facilities for grilling and relaxing by the waterfront."
+        },
+        {
+          "id": "pasi_4",
+          "text": "Bird Watching at Wetland Areas",
+          "detail": "Observe migratory and resident bird species including herons, egrets, and eagles, especially during early morning hours.",
+          "lat": 1.3708,
+          "lng": 103.934
+        },
+        {
+          "id": "pasi_5",
+          "text": "Waterfront Promenade Walk",
+          "detail": "Stroll along the scenic promenade with rest pavilions and views across the Johor Strait towards Malaysia."
+        },
+        {
+          "id": "pasi_6",
+          "text": "Photography at Sunset Point",
+          "detail": "Capture golden hour photographs of the coastline and mangrove reflections from designated viewpoints."
+        }
+      ],
+      "food": [
+        {
+          "id": "pasi_f1",
+          "text": "Chilli Crab",
+          "detail": "Fresh mud crabs from nearby coastal areas prepared with spicy tomato-chilli sauce, a Singapore coastal specialty."
+        },
+        {
+          "id": "pasi_f2",
+          "text": "Grilled Seafood Picnic Pack",
+          "detail": "Many hawker stalls near the park sell pre-marinated fish, prawns, and squid ideal for park barbecue pits."
+        },
+        {
+          "id": "pasi_f3",
+          "text": "Laksa from nearby Pasir Ris hawker centre",
+          "detail": "Creamy coconut curry noodle soup, a beloved local comfort food found at the hawker centre adjacent to the park entrance."
+        },
+        {
+          "id": "pasi_f4",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat skewers with peanut sauce from park food vendors, perfect for casual waterfront dining."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pasi_c1",
+          "text": "Peak visiting hours",
+          "detail": "Visit early morning or weekday afternoons to avoid crowds; weekends attract many local families and cyclists."
+        },
+        {
+          "id": "pasi_c2",
+          "text": "Mangrove preservation respect",
+          "detail": "Stay on designated boardwalks and trails to protect the fragile mangrove ecosystem and nesting areas."
+        },
+        {
+          "id": "pasi_c3",
+          "text": "Seasonal bird migration timing",
+          "detail": "October to March brings the richest bird diversity during migratory season, making it the best period for bird watching."
+        },
+        {
+          "id": "pasi_c4",
+          "text": "Pack mosquito repellent",
+          "detail": "Bring insect repellent as the coastal wetland areas attract mosquitoes, particularly during humid afternoons."
+        }
+      ]
+    },
+    {
+      "id": "jurong_lake",
+      "name": "Jurong Lake",
+      "nameIt": "裕廊湖",
+      "lat": 1.3408,
+      "lng": 103.7408,
+      "type": "NATURE",
+      "description": "A recreational freshwater lake with scenic parks and waterfront activities including kayaking and cycling. The surrounding areas offer peaceful green spaces and family-friendly recreational opportunities.",
+      "imageQueries": [
+        "Jurong Lake Singapore sunset",
+        "Jurong Lake kayaking"
+      ],
+      "activities": [
+        {
+          "id": "juro_1",
+          "text": "Kayaking on Jurong Lake",
+          "detail": "Rent a kayak and paddle across the calm freshwater lake, exploring the scenic waterfront and observing local bird species in their natural habitat.",
+          "lat": 1.3521,
+          "lng": 103.7399
+        },
+        {
+          "id": "juro_2",
+          "text": "Cycling around Jurong Lake Park",
+          "detail": "Follow the dedicated cycling paths that loop around the lake, offering a scenic 10km route suitable for all fitness levels with multiple rest stops.",
+          "lat": 1.3509,
+          "lng": 103.741
+        },
+        {
+          "id": "juro_3",
+          "text": "Picnicking at Jurong Lake Park",
+          "detail": "Set up a picnic on the manicured lawns with views of the water, ideal for families and groups seeking a relaxed afternoon in green surroundings.",
+          "lat": 1.3515,
+          "lng": 103.7395
+        },
+        {
+          "id": "juro_4",
+          "text": "Bird Watching at Jurong Lake",
+          "detail": "Visit during early morning hours to spot migratory birds and local species like herons and egrets around the lake's wetland edges.",
+          "lat": 1.3525,
+          "lng": 103.7405
+        },
+        {
+          "id": "juro_5",
+          "text": "Waterfront Jogging Trails",
+          "detail": "Run along the scenic waterfront paths that connect Jurong Lake Park with nearby residential areas, offering peaceful views throughout your workout.",
+          "lat": 1.3512,
+          "lng": 103.7415
+        },
+        {
+          "id": "juro_6",
+          "text": "Photography at Sunset Point",
+          "detail": "Capture the golden hour reflection of the lake and surrounding greenery from designated viewpoints near the park's western edge.",
+          "lat": 1.3508,
+          "lng": 103.738
+        }
+      ],
+      "food": [
+        {
+          "id": "juro_f1",
+          "text": "Lakeside Hawker Centre Noodles",
+          "detail": "Local stalls near the lake serve fresh wok-tossed noodles and laksa, popular among cyclists and joggers for quick refueling."
+        },
+        {
+          "id": "juro_f2",
+          "text": "Chilled Sugarcane Juice",
+          "detail": "Vendors at park entrances sell freshly pressed sugarcane juice, a refreshing beverage after water sports or recreational activities."
+        },
+        {
+          "id": "juro_f3",
+          "text": "Chicken Rice from Jurong West Food Court",
+          "detail": "Hainanese chicken rice from nearby hawker centres in Jurong West provides affordable, authentic local sustenance within walking distance of the lake."
+        },
+        {
+          "id": "juro_f4",
+          "text": "Iced Teh Tarik",
+          "detail": "Pulled milk tea served ice-cold at waterfront kiosks offers a quintessential local refreshment while enjoying the lakeside atmosphere."
+        }
+      ],
+      "culture": [
+        {
+          "id": "juro_c1",
+          "text": "Respect Quiet Hours and Wildlife",
+          "detail": "The lake is home to protected bird species and wetland ecosystems, so avoid loud music and stay on marked paths to minimize disturbance to nature."
+        },
+        {
+          "id": "juro_c2",
+          "text": "Peak Hours Are Weekends",
+          "detail": "Jurong Lake is busiest on weekend mornings and evenings when families and recreational groups gather, so visit on weekday afternoons for a quieter experience."
+        },
+        {
+          "id": "juro_c3",
+          "text": "Bring Your Own Water and Sun Protection",
+          "detail": "Limited shade and food vendors around the lake mean you should carry water, sunscreen, and hats—especially during midday hours in Singapore's tropical climate."
+        },
+        {
+          "id": "juro_c4",
+          "text": "Follow Park Rules for Water Activities",
+          "detail": "Life jackets are mandatory for kayaking, designated swimming areas are limited, and activity rentals operate during specific hours so plan accordingly."
+        }
+      ]
+    },
+    {
+      "id": "western_water_sports_centre",
+      "name": "East Coast Beach / Changi Beach",
+      "nameIt": "昌宜海滩",
+      "lat": 1.4021,
+      "lng": 103.9769,
+      "type": "COASTAL",
+      "description": "One of Singapore's most popular recreational beaches offering swimming, water sports, and beachside dining. It's perfect for experiencing casual seaside relaxation with local food stalls and family amenities.",
+      "imageQueries": [
+        "Changi Beach Singapore",
+        "Changi Beach water sports"
+      ],
+      "activities": [
+        {
+          "id": "west_1",
+          "text": "Swimming and Beach Lounging",
+          "detail": "The main sandy beach offers safe swimming conditions with lifeguard stations and is ideal for families and casual swimmers looking to cool off."
+        },
+        {
+          "id": "west_2",
+          "text": "Windsurfing and Water Sports",
+          "detail": "Several water sports operators along the beach rent windsurfing boards, kayaks, and jet skis for visitors seeking more active beach experiences."
+        },
+        {
+          "id": "west_3",
+          "text": "Sunset Viewing at East Coast Park",
+          "detail": "The expansive 15km East Coast Park provides scenic walking and cycling paths with stunning sunset views over the Straits of Singapore, lat: 1.3026, lng: 103.9242"
+        },
+        {
+          "id": "west_4",
+          "text": "Beachside Cycling",
+          "detail": "Rent a bicycle and explore the dedicated cycling paths that stretch along the entire East Coast Park shoreline, perfect for a leisurely afternoon ride."
+        },
+        {
+          "id": "west_5",
+          "text": "Food Court Dining Experience",
+          "detail": "Visit the hawker centres and food courts near the beach where local vendors serve affordable seafood and traditional Singapore dishes in a casual open-air setting."
+        },
+        {
+          "id": "west_6",
+          "text": "Seaside Picnicking",
+          "detail": "Spread a mat on the grass areas near the beach, purchase food from nearby stalls, and enjoy an affordable meal with ocean views."
+        }
+      ],
+      "food": [
+        {
+          "id": "west_f1",
+          "text": "Chilli Crab",
+          "detail": "Fresh mud crabs cooked in a thick, spicy tomato-based sauce is a signature Singapore seafood dish found at beachside restaurants and food courts."
+        },
+        {
+          "id": "west_f2",
+          "text": "Satay with Peanut Sauce",
+          "detail": "Grilled meat skewers served with rich peanut sauce and rice cakes, a beloved hawker staple widely available at East Coast food stalls."
+        },
+        {
+          "id": "west_f3",
+          "text": "Laksa",
+          "detail": "A rich and spicy coconut noodle soup with seafood or chicken, representing Singapore's multicultural culinary heritage and popular at local food courts."
+        },
+        {
+          "id": "west_f4",
+          "text": "Grilled Seafood Platters",
+          "detail": "Fresh fish, prawns, and shellfish grilled over charcoal with garlic and chilli, specialties of the beachfront seafood restaurants."
+        },
+        {
+          "id": "west_f5",
+          "text": "Ice Kacang",
+          "detail": "A refreshing shaved ice dessert topped with coloured syrup, evaporated milk, and red beans, perfect for cooling down after beach activities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "west_c1",
+          "text": "Beach Dress Code",
+          "detail": "While beachwear is acceptable at the beach itself, wear a shirt or cover-up when moving to nearby shops, food courts, or public areas as a sign of respect."
+        },
+        {
+          "id": "west_c2",
+          "text": "Peak Hours and Crowds",
+          "detail": "Weekends and public holidays see large crowds; visit on weekday mornings for a more relaxed experience and easier parking."
+        },
+        {
+          "id": "west_c3",
+          "text": "Hawker Etiquette",
+          "detail": "When dining at food courts, it's acceptable to occupy a table by placing a packet of tissues or small item on a chair to reserve it while you queue for food."
+        },
+        {
+          "id": "west_c4",
+          "text": "Respect for Local Customs",
+          "detail": "Remove shoes when entering food courts, avoid pointing at vendors, and always greet with 'Thank you' (Terima kasih) or a smile when purchasing from local stall owners."
+        }
+      ]
+    },
+    {
+      "id": "night_safari",
+      "name": "Night Safari",
+      "nameIt": "夜间野生动物园",
+      "lat": 1.4062,
+      "lng": 103.7902,
+      "type": "LANDMARK",
+      "description": "The world's first nocturnal zoo featuring over 2,800 animals active at night in naturalistic settings viewed from tram rides. It offers a unique after-dark wildlife experience showcasing creatures that are rarely seen during the day.",
+      "imageQueries": [
+        "Night Safari Singapore tram ride",
+        "Night Safari leopards nocturnal"
+      ],
+      "activities": [
+        {
+          "id": "nigh_1",
+          "text": "Tram Ride Through Animal Zones",
+          "detail": "Board the open-sided tram to journey through seven themed zones including Leopard Trail and Primate Kingdom, observing nocturnal animals in their naturalistic habitats without leaving your seat.",
+          "lat": 1.4048,
+          "lng": 103.7889
+        },
+        {
+          "id": "nigh_2",
+          "text": "Walking Trails and Guided Walks",
+          "detail": "Explore designated walking paths like the Fishing Cat Trail on foot to spot smaller nocturnal creatures and experience the night forest atmosphere more intimately than from the tram."
+        },
+        {
+          "id": "nigh_3",
+          "text": "Rangers' Camp Encounters",
+          "detail": "Participate in scheduled ranger-led encounters where keepers share insights about specific animals and demonstrate feeding or behavioral highlights not visible from the main tram route."
+        },
+        {
+          "id": "nigh_4",
+          "text": "Creatures of the Night Show",
+          "detail": "Attend the amphitheater performance featuring live demonstrations of nocturnal animal behaviors and facts presented by trained handlers with dramatic lighting and sound effects."
+        },
+        {
+          "id": "nigh_5",
+          "text": "Night Photography Tour",
+          "detail": "Join specialized guided photography sessions with tips on capturing nocturnal wildlife in low-light conditions, available on select evenings with expert photo guides."
+        },
+        {
+          "id": "nigh_6",
+          "text": "Dining at Safari Junction Restaurant",
+          "detail": "Experience dinner overlooking the animal zones from this themed restaurant, allowing you to dine while observing creatures active in the night around you.",
+          "lat": 1.4042,
+          "lng": 103.79
+        }
+      ],
+      "food": [
+        {
+          "id": "nigh_f1",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat on bamboo sticks with peanut sauce, a Southeast Asian classic available at multiple food stalls throughout the park that pairs well with evening exploration."
+        },
+        {
+          "id": "nigh_f2",
+          "text": "Laksa",
+          "detail": "Rich coconut-based noodle soup with seafood or chicken, a traditional Singaporean comfort dish served hot at Safari Junction and food vendors, warming on cool night visits."
+        },
+        {
+          "id": "nigh_f3",
+          "text": "Chicken Rice",
+          "detail": "Poached or roasted chicken served with fragrant rice cooked in chicken stock and chili paste, Singapore's iconic everyday meal available at kiosks throughout the park."
+        },
+        {
+          "id": "nigh_f4",
+          "text": "Roti Prata",
+          "detail": "Crispy Indian flatbread served with curry dipping sauce, a popular late-evening snack at Night Safari food stalls that reflects Singapore's multicultural food heritage."
+        },
+        {
+          "id": "nigh_f5",
+          "text": "Fresh Sugarcane Juice",
+          "detail": "Freshly pressed and chilled sugarcane beverage, a refreshing night-time drink sold at multiple refreshment stands that provides natural hydration during your tram journey."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nigh_c1",
+          "text": "Arrive Early for Better Animal Activity",
+          "detail": "Visit within the first two hours after opening as nocturnal animals are most active immediately after dusk, making early arrival crucial for optimal wildlife viewing experiences."
+        },
+        {
+          "id": "nigh_c2",
+          "text": "Dress Warmly and Bring Layers",
+          "detail": "Despite Singapore's tropical climate, nighttime temperatures drop and tram rides expose you to evening breezes, so light jackets or cardigans are practical additions to your outfit."
+        },
+        {
+          "id": "nigh_c3",
+          "text": "Respect Animal Boundaries and Flash Photography Rules",
+          "detail": "Flash photography and loud noises disturb nocturnal creatures' natural behaviors, so follow posted guidelines and ranger instructions to ensure both animal welfare and your viewing experience."
+        },
+        {
+          "id": "nigh_c4",
+          "text": "Book Tram Rides in Advance",
+          "detail": "English-language guided tram tours fill quickly during weekends and peak seasons, so pre-booking through the official website ensures guaranteed seats and better tour timing."
+        }
+      ]
+    },
+    {
+      "id": "kranji_reservoir",
+      "name": "Kranji Reservoir",
+      "nameIt": "克兰芝水库",
+      "lat": 1.4289,
+      "lng": 103.7502,
+      "type": "NATURE",
+      "description": "A scenic freshwater reservoir surrounded by recreational parks and wetlands, popular for cycling and birdwatching. It's a serene natural spot ideal for outdoor activities and observing migratory bird species.",
+      "imageQueries": [
+        "Kranji Reservoir Singapore",
+        "Kranji Reservoir birdwatching"
+      ],
+      "activities": [
+        {
+          "id": "kran_1",
+          "text": "Cycling around the Reservoir Loop",
+          "detail": "Ride the dedicated cycling path that circles Kranji Reservoir, offering scenic views and a moderate 25 km route suitable for all skill levels.",
+          "lat": 1.4225,
+          "lng": 103.738
+        },
+        {
+          "id": "kran_2",
+          "text": "Birdwatching at Kranji Wetland",
+          "detail": "Observe migratory and resident bird species including herons, egrets, and eagles in the wetland areas, particularly during migration seasons from September to March.",
+          "lat": 1.418,
+          "lng": 103.735
+        },
+        {
+          "id": "kran_3",
+          "text": "Jogging on Kranji Park Trail",
+          "detail": "Run along the tree-lined paths within Kranji Park adjacent to the reservoir, enjoying a cool shaded environment away from urban heat.",
+          "lat": 1.421,
+          "lng": 103.74
+        },
+        {
+          "id": "kran_4",
+          "text": "Picnicking at Designated Picnic Spots",
+          "detail": "Set up a meal at designated picnic areas around the reservoir equipped with tables and shelters, perfect for families and groups.",
+          "lat": 1.42,
+          "lng": 103.737
+        },
+        {
+          "id": "kran_5",
+          "text": "Photography at Sunset Point",
+          "detail": "Capture golden hour reflections of the water and surrounding vegetation from elevated vantage points along the western bank.",
+          "lat": 1.424,
+          "lng": 103.732
+        },
+        {
+          "id": "kran_6",
+          "text": "Nature Walk through Wetland Boardwalk",
+          "detail": "Stroll on raised wooden boardwalks through the wetland areas to observe aquatic plants, insects, and birds without disturbing their habitats.",
+          "lat": 1.416,
+          "lng": 103.736
+        }
+      ],
+      "food": [
+        {
+          "id": "kran_f1",
+          "text": "Chili Crab at Nearby Seafood Restaurants",
+          "detail": "Sample Singapore's iconic spicy and sweet chili crab dish at casual seafood establishments near the reservoir entrance."
+        },
+        {
+          "id": "kran_f2",
+          "text": "Laksa from Local Hawker Stalls",
+          "detail": "Enjoy this rich coconut-based noodle soup with seafood or chicken, a warming comfort food available at nearby food courts."
+        },
+        {
+          "id": "kran_f3",
+          "text": "Grilled Stingray (Ikan Bakar)",
+          "detail": "Experience freshly grilled stingray wrapped in banana leaves with spicy sambal paste, a beloved Malay-Chinese delicacy."
+        },
+        {
+          "id": "kran_f4",
+          "text": "Picnic Snacks from Local Kopitiam",
+          "detail": "Purchase homemade pastries, kaya toast, or boiled eggs from neighborhood coffee shops to bring as portable reservoir picnic fare."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kran_c1",
+          "text": "Respect Birdwatching Etiquette",
+          "detail": "Keep noise levels low and maintain distance from birds during observation; use binoculars rather than approaching wildlife directly to avoid disturbance."
+        },
+        {
+          "id": "kran_c2",
+          "text": "Check Weather and Seasonal Patterns",
+          "detail": "Visit during dry weather and note that birdwatching is most rewarding during early morning hours and migration seasons when species variety peaks."
+        },
+        {
+          "id": "kran_c3",
+          "text": "Follow Park Rules and Conservation Guidelines",
+          "detail": "Stay on designated paths, do not litter, and refrain from feeding wildlife to maintain the ecological integrity of this protected natural space."
+        },
+        {
+          "id": "kran_c4",
+          "text": "Bring Sun Protection and Hydration",
+          "detail": "The open reservoir offers minimal shade, so apply sunscreen, wear hats, and carry sufficient water to stay comfortable during outdoor activities."
+        }
+      ]
+    },
+    {
+      "id": "chinese_garden",
+      "name": "Chinese Garden of Jurong",
+      "nameIt": "裕廊中华花园",
+      "lat": 1.3233,
+      "lng": 103.7147,
+      "type": "LANDMARK",
+      "description": "A stunning Chinese classical garden spanning 13.5 hectares with pagodas, bridges, and traditional landscaping reflecting classical design principles. It offers cultural immersion and peaceful aesthetics, complemented by the adjacent Japanese Garden.",
+      "imageQueries": [
+        "Chinese Garden Jurong pagoda",
+        "Chinese Garden Singapore landscape"
+      ],
+      "activities": [
+        {
+          "id": "chin_1",
+          "text": "Explore the Jade Pagoda",
+          "detail": "Climb the iconic nine-storey white pagoda at the garden's heart for panoramic views of the landscaped grounds and surrounding Jurong area.",
+          "lat": 1.3253,
+          "lng": 103.7167
+        },
+        {
+          "id": "chin_2",
+          "text": "Walk the Classical Bridges",
+          "detail": "Traverse the ornamental arched and zigzag bridges that connect different garden sections while enjoying reflections in the ponds below.",
+          "lat": 1.3251,
+          "lng": 103.7172
+        },
+        {
+          "id": "chin_3",
+          "text": "Visit the Suzhou-style Pavilions",
+          "detail": "Rest in the traditional open-air pavilions designed with authentic Ming and Qing dynasty architecture throughout the garden.",
+          "lat": 1.3245,
+          "lng": 103.7165
+        },
+        {
+          "id": "chin_4",
+          "text": "Admire Bonsai and Rockery Collections",
+          "detail": "Study the intricate miniature trees and carefully arranged stone formations that exemplify classical Chinese horticultural techniques.",
+          "lat": 1.3248,
+          "lng": 103.717
+        },
+        {
+          "id": "chin_5",
+          "text": "Photograph the Moon Gate Entrances",
+          "detail": "Frame photos through the symbolic circular moon gates that frame views of garden scenes and represent completeness in Chinese design.",
+          "lat": 1.3255,
+          "lng": 103.716
+        },
+        {
+          "id": "chin_6",
+          "text": "Explore the Chinese Herb and Medicinal Plant Section",
+          "detail": "Learn about traditional Chinese medicine through labeled specimens of ginseng, goji berries, and other healing plants grown within the garden."
+        }
+      ],
+      "food": [
+        {
+          "id": "chin_f1",
+          "text": "Dim Sum at nearby Jurong Restaurants",
+          "detail": "Enjoy steamed dumplings, har gow, and siu mai at the numerous dim sum establishments within walking distance of the garden entrance."
+        },
+        {
+          "id": "chin_f2",
+          "text": "Chinese Tea Service in Garden Pavilions",
+          "detail": "Sip premium oolong or jasmine tea served traditionally in the garden's teahouses while overlooking classical pond scenery."
+        },
+        {
+          "id": "chin_f3",
+          "text": "Laksa and Local Hawker Fare",
+          "detail": "Visit the nearby Jurong West hawker centers for authentic spicy laksa, char kway teow, and other Singaporean-Chinese favorites after garden exploration."
+        },
+        {
+          "id": "chin_f4",
+          "text": "Mooncakes and Traditional Pastries",
+          "detail": "Purchase handmade mooncakes and egg tarts from specialty vendors near the garden, especially during Mid-Autumn Festival celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chin_c1",
+          "text": "Respect Quiet Hours and Meditation Spaces",
+          "detail": "Maintain hushed tones in designated meditation areas and pavilions where locals practice tai chi or contemplation in early mornings."
+        },
+        {
+          "id": "chin_c2",
+          "text": "Learn Feng Shui Principles While Walking",
+          "detail": "Notice how water features, stone placements, and pathways follow feng shui philosophy; many signs explain the symbolic meanings of design elements."
+        },
+        {
+          "id": "chin_c3",
+          "text": "Wear Comfortable Walking Shoes",
+          "detail": "The 13.5-hectare garden involves considerable walking on uneven stone paths, bridges, and slopes, so sturdy footwear is essential."
+        },
+        {
+          "id": "chin_c4",
+          "text": "Visit During Festival Seasons for Enhanced Experience",
+          "detail": "The garden hosts special cultural events and decorations during Chinese New Year, Mid-Autumn Festival, and Lantern Festival celebrations."
+        }
+      ]
+    },
+    {
+      "id": "pulau_ubin",
+      "name": "Pulau Ubin",
+      "nameIt": "乌敏岛",
+      "lat": 1.4047,
+      "lng": 103.9641,
+      "type": "ISLAND",
+      "description": "A rustic island village accessible by bumboat offering kampong charm, cycling trails, and pristine beaches away from urban development. It's a hidden gem for those seeking authentic rural Singapore and natural coastal landscapes.",
+      "imageQueries": [
+        "Pulau Ubin island Singapore",
+        "Pulau Ubin cycling trails"
+      ],
+      "activities": [
+        {
+          "id": "pula_1",
+          "text": "Cycling Around the Island",
+          "detail": "Rent a bicycle and explore the flat terrain and coastal paths that connect kampong settlements, beaches, and mangrove areas across the island.",
+          "lat": 1.4038,
+          "lng": 103.9661
+        },
+        {
+          "id": "pula_2",
+          "text": "Chek Jawa Wetlands",
+          "detail": "Visit this pristine tidal flat reserve featuring rock pools, seagrass beds, and mangroves rich with crabs, fish, and migratory birds.",
+          "lat": 1.4091,
+          "lng": 103.9747
+        },
+        {
+          "id": "pula_3",
+          "text": "Coral Garden Snorkeling",
+          "detail": "Wade or snorkel in the shallow waters off the northeastern coast to observe hard corals, sea cucumbers, and tropical fish in their natural state.",
+          "lat": 1.412,
+          "lng": 103.98
+        },
+        {
+          "id": "pula_4",
+          "text": "Kampong Walks",
+          "detail": "Stroll through the traditional Malay and Chinese fishing villages with wooden houses, fishponds, and narrow pathways that preserve rural Singapore's heritage.",
+          "lat": 1.405,
+          "lng": 103.964
+        },
+        {
+          "id": "pula_5",
+          "text": "Puaka Hill Viewpoint",
+          "detail": "Climb the modest hill for panoramic views of the Straits of Johor, nearby islands, and the island's forested interior.",
+          "lat": 1.401,
+          "lng": 103.968
+        },
+        {
+          "id": "pula_6",
+          "text": "Beach Relaxation at Mamam Beach",
+          "detail": "Enjoy one of Pulau Ubin's sandy beaches with calm waters, picnic facilities, and views toward Malaysia across the strait.",
+          "lat": 1.395,
+          "lng": 103.956
+        },
+        {
+          "id": "pula_7",
+          "text": "Mangrove Kayaking",
+          "detail": "Paddle through protected mangrove channels to observe fiddler crabs, mudskippers, and roosting herons in their natural wetland habitat.",
+          "lat": 1.4085,
+          "lng": 103.97
+        }
+      ],
+      "food": [
+        {
+          "id": "pula_f1",
+          "text": "Fresh Grilled Seafood at Kampong Stalls",
+          "detail": "Sample freshly caught grouper, crab, or prawns grilled over charcoal at simple open-air food stalls run by local fishermen's families."
+        },
+        {
+          "id": "pula_f2",
+          "text": "Nasi Kuning with Sambal",
+          "detail": "Eat fragrant turmeric rice served with spicy sambal and fresh catch, a staple meal at the island's modest food shops."
+        },
+        {
+          "id": "pula_f3",
+          "text": "Coconut Water from Young Coconuts",
+          "detail": "Drink refreshing young coconut water sold directly from the nut at beachside vendors, a hydrating local tradition."
+        },
+        {
+          "id": "pula_f4",
+          "text": "Otah-Otah (Grilled Fish Cake)",
+          "detail": "Taste this Malay specialty of seasoned fish wrapped in banana leaf and grilled until fragrant, sold at kampong food stalls."
+        },
+        {
+          "id": "pula_f5",
+          "text": "Laksa or Curry Noodles",
+          "detail": "Enjoy spiced noodle soups served at the island's simple restaurants, often made with local seafood or chicken."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pula_c1",
+          "text": "Respect Prayer Times and Spaces",
+          "detail": "Several residents observe Islamic prayer times; be mindful of mosques and prayer areas, and avoid eating or loud activity during these periods."
+        },
+        {
+          "id": "pula_c2",
+          "text": "Greet Elders and Kampong Residents Politely",
+          "detail": "A simple greeting or nod to locals maintaining their homes or fishing shows respect and openness to brief friendly exchanges about island life."
+        },
+        {
+          "id": "pula_c3",
+          "text": "Take Away Your Trash",
+          "detail": "The island has minimal waste infrastructure; carry all rubbish with you to preserve the pristine natural environment villagers have maintained."
+        },
+        {
+          "id": "pula_c4",
+          "text": "Ask Before Photographing Homes or People",
+          "detail": "While the kampong is picturesque, residents value privacy; always ask permission before photographing houses, fishponds, or individuals going about daily life."
+        }
+      ]
+    },
+    {
+      "id": "universal_studios_singapore",
+      "name": "Universal Studios Singapore",
+      "nameIt": "新加坡环球影城",
+      "lat": 1.2546,
+      "lng": 103.8235,
+      "type": "LANDMARK",
+      "description": "Asia's first Universal theme park featuring seven themed zones with thrilling rides and entertainment based on blockbuster films. It's the premier destination for families and thrill-seekers combining Hollywood magic with tropical island setting.",
+      "imageQueries": [
+        "Universal Studios Singapore rides",
+        "Universal Studios Singapore Transformers"
+      ],
+      "activities": [
+        {
+          "id": "univ_1",
+          "text": "Transformers The Ride 3D",
+          "detail": "Experience a motion simulator dark ride where you join the Autobots in an intense battle against the Decepticons using cutting-edge 3D projection technology.",
+          "lat": 1.2553,
+          "lng": 103.7618
+        },
+        {
+          "id": "univ_2",
+          "text": "Revenge of the Mummy",
+          "detail": "Race through an Egyptian tomb on this high-speed indoor roller coaster with sharp turns, sudden launches, and thrilling backward sections.",
+          "lat": 1.2553,
+          "lng": 103.7618
+        },
+        {
+          "id": "univ_3",
+          "text": "Jurassic Park River Adventure",
+          "detail": "Embark on a water ride through a dinosaur-infested jungle culminating in a 25-meter plunge that soaks riders with an explosive splash.",
+          "lat": 1.2553,
+          "lng": 103.7618
+        },
+        {
+          "id": "univ_4",
+          "text": "Harry Potter and the Forbidden Journey",
+          "detail": "Soar over Hogwarts castle on this thrilling roller coaster that weaves through iconic locations from the beloved wizarding world.",
+          "lat": 1.2553,
+          "lng": 103.7618
+        },
+        {
+          "id": "univ_5",
+          "text": "Lights, Camera, Action!",
+          "detail": "Watch stunt performers demonstrate explosive action sequences and Hollywood special effects techniques in a live outdoor show.",
+          "lat": 1.2553,
+          "lng": 103.7618
+        },
+        {
+          "id": "univ_6",
+          "text": "Meet Character Meet-and-Greets",
+          "detail": "Interact with beloved film characters like Shrek, Donkey, and Universal mascots throughout the park for photo opportunities.",
+          "lat": 1.2553,
+          "lng": 103.7618
+        }
+      ],
+      "food": [
+        {
+          "id": "univ_f1",
+          "text": "Mel's Diner Cheeseburger",
+          "detail": "Enjoy a classic American-style cheeseburger with crispy fries at this retro diner-themed restaurant in the Hollywood zone."
+        },
+        {
+          "id": "univ_f2",
+          "text": "Butterbeer",
+          "detail": "Sip this signature wizarding beverage exclusive to the Harry Potter themed area—a sweet butterscotch and cream frozen drink beloved by fans."
+        },
+        {
+          "id": "univ_f3",
+          "text": "Amity Fried Chicken",
+          "detail": "Taste crispy fried chicken served with coleslaw and sides at this coastal-themed restaurant inspired by the Jaws movie area."
+        },
+        {
+          "id": "univ_f4",
+          "text": "Egyptian Naan Bread with Dips",
+          "detail": "Sample soft, freshly-baked Indian naan bread served with curry and yogurt dips at vendors in the Ancient Egypt zone."
+        },
+        {
+          "id": "univ_f5",
+          "text": "Donkey's Kebab",
+          "detail": "Grab a flavorful skewered meat kebab served with pita bread and sauces inspired by the Shrek-themed Far Far Away area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "univ_c1",
+          "text": "Arrive Early or Use Express Pass",
+          "detail": "Singapore residents and tourists should purchase Universal Express Pass or arrive at park opening to minimize queue times, especially during weekends and school holidays."
+        },
+        {
+          "id": "univ_c2",
+          "text": "Respect Queue Etiquette",
+          "detail": "Singaporeans value orderly queuing; always respect queue lines, allow people to exit before entering attractions, and avoid cutting in line."
+        },
+        {
+          "id": "univ_c3",
+          "text": "Plan for Tropical Weather",
+          "detail": "Bring sunscreen, light clothing, and an umbrella as Singapore's tropical heat and sudden afternoon thunderstorms can affect outdoor activities and comfort."
+        },
+        {
+          "id": "univ_c4",
+          "text": "Check Dining Reservations",
+          "detail": "Book restaurant reservations in advance through the park's official channels to secure seats at popular themed dining venues, particularly during peak seasons."
+        }
+      ]
+    },
+    {
+      "id": "sea_aquarium",
+      "name": "S.E.A. Aquarium",
+      "nameIt": "海事博物馆水族馆",
+      "lat": 1.2496,
+      "lng": 103.8329,
+      "type": "LANDMARK",
+      "description": "The world's largest aquarium by water volume featuring over 40,000 marine animals across 45 habitats. It showcases diverse ocean ecosystems and offers immersive underwater experiences through massive viewing panels and interactive zones.",
+      "imageQueries": [
+        "S.E.A. Aquarium manta ray",
+        "S.E.A. Aquarium Singapore underwater"
+      ],
+      "activities": [
+        {
+          "id": "sea__1",
+          "text": "Walk through the Open Ocean Habitat",
+          "detail": "Marvel at the massive 36-meter viewing panel where manta rays, groupers, and jacks swim alongside visitors in one of the largest single aquarium panels in the world.",
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        {
+          "id": "sea__2",
+          "text": "Explore the Seahorse Avenue",
+          "detail": "Discover delicate seahorses and sea dragons in a dedicated exhibition showcasing these iconic but vulnerable species in their natural habitats.",
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        {
+          "id": "sea__3",
+          "text": "Touch stingrays at the Touch Pool",
+          "detail": "Get hands-on with gentle stingrays in shallow pools where trained staff guide you through safe interaction with these graceful creatures.",
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        {
+          "id": "sea__4",
+          "text": "Watch the shark feeding show",
+          "detail": "Observe expert divers hand-feed multiple shark species while providing educational insights into shark behavior and conservation."
+        },
+        {
+          "id": "sea__5",
+          "text": "Visit the Tropical Seas habitat",
+          "detail": "Immerse yourself in vibrant coral reefs teeming with colorful tropical fish, sea turtles, and other creatures representing Southeast Asian marine biodiversity."
+        },
+        {
+          "id": "sea__6",
+          "text": "Explore Jellyfish Plasmavida installation",
+          "detail": "Experience an art-meets-science exhibition featuring hypnotic jellyfish displays with ambient lighting that creates a meditative underwater atmosphere."
+        }
+      ],
+      "food": [
+        {
+          "id": "sea__f1",
+          "text": "Seafood laksa",
+          "detail": "A rich, spicy coconut-based noodle soup loaded with fresh prawns, squid, and fish cake reflecting Singapore's multicultural hawker heritage."
+        },
+        {
+          "id": "sea__f2",
+          "text": "Chili crab",
+          "detail": "Sweet mud crab coated in a sticky, spicy tomato and chili sauce, a Singapore signature dish available at the aquarium's dining venues."
+        },
+        {
+          "id": "sea__f3",
+          "text": "Fish ball noodles",
+          "detail": "Springy, handmade fish balls served in a savory broth with noodles, representing the local comfort food culture of Sentosa Island."
+        },
+        {
+          "id": "sea__f4",
+          "text": "Satay skewers",
+          "detail": "Grilled meat skewers brushed with peanut sauce and served with cucumber and onion, reflecting Malay culinary traditions found throughout Singapore."
+        },
+        {
+          "id": "sea__f5",
+          "text": "Oyster omelette",
+          "detail": "A crispy pan-fried egg dish studded with fresh oysters and served with a tangy-sweet sauce, popular among seafood lovers in the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sea__c1",
+          "text": "Plan for extended visits",
+          "detail": "Singaporeans and tourists typically spend 3-4 hours exploring the 45 habitats, so arrive early and wear comfortable shoes to maximize your experience."
+        },
+        {
+          "id": "sea__c2",
+          "text": "Respect quiet viewing zones",
+          "detail": "The aquarium designates certain areas like the jellyfish and seahorse sections as calm zones; keep noise levels low and avoid flash photography to protect animal welfare."
+        },
+        {
+          "id": "sea__c3",
+          "text": "Engage with multilingual signage",
+          "detail": "All exhibits feature information in English, Mandarin, and Malay reflecting Singapore's diverse population, making it an inclusive experience for all visitors."
+        },
+        {
+          "id": "sea__c4",
+          "text": "Use the app for guided tours",
+          "detail": "Download the S.E.A. Aquarium mobile app for AR experiences, real-time show schedules, and interactive learning content that enhances your marine education journey."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Jumbo Seafood",
+      "address": "1 River Road, #01-01 Clarke Quay, Singapore 179246",
+      "neighbourhood": "Clarke Quay",
+      "cuisine": "Chinese Seafood",
+      "priceRange": "€€€",
+      "description": "Iconic chilli crab institution with river views and consistently excellent fresh seafood preparations.",
+      "mustOrder": "Chilli Crab",
+      "lat": 1.2887,
+      "lng": 103.8477
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Tippling Club",
+      "address": "38 Tanjong Pagar Road, Singapore 088447",
+      "neighbourhood": "Tanjong Pagar",
+      "cuisine": "Modern European",
+      "priceRange": "€€€€",
+      "description": "Award-winning fine dining with innovative cocktails and experimental tasting menus in an intimate setting.",
+      "mustOrder": "Chef's Tasting Menu with Cocktail Pairings",
+      "lat": 1.2758,
+      "lng": 103.8401
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Candlenut",
+      "address": "17 Ann Siang Road, Singapore 069686",
+      "neighbourhood": "Ann Siang Hill",
+      "cuisine": "Peranakan",
+      "priceRange": "€€€",
+      "description": "Singapore's first Michelin-starred Peranakan restaurant showcasing refined heritage cuisine in a restored shophouse.",
+      "mustOrder": "Ayam Buah Keluak",
+      "lat": 1.2797,
+      "lng": 103.8444
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Outram Park Fried Chicken",
+      "address": "160 Outram Road, Singapore 169040",
+      "neighbourhood": "Outram Park",
+      "cuisine": "Chinese Street Food",
+      "priceRange": "€",
+      "description": "Humble hawker stall famous for perfectly crispy fried chicken with addictive chilli sauce and loyal queues.",
+      "mustOrder": "Fried Chicken with Chilli",
+      "lat": 1.2823,
+      "lng": 103.8341
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Kinki Restaurant & Bar",
+      "address": "11 Keong Saik Road, Singapore 089137",
+      "neighbourhood": "Keong Saik",
+      "cuisine": "Japanese Izakaya",
+      "priceRange": "€€€",
+      "description": "Buzzing izakaya with authentic yakitori and robata grilling, popular for after-work crowds and late-night dining.",
+      "mustOrder": "Yakitori Assorted Skewers",
+      "lat": 1.2788,
+      "lng": 103.8365
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Momiji Cafe",
+      "address": "20 Mosque Street, Singapore 059508",
+      "neighbourhood": "Chinatown",
+      "cuisine": "Japanese Cafe",
+      "priceRange": "€€",
+      "description": "Charming Japanese cafe serving seasonal set lunches and excellent coffee in a restored colonial shophouse.",
+      "mustOrder": "Seasonal Bento Set",
+      "lat": 1.2842,
+      "lng": 103.8437
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Shisen Hanten",
+      "address": "220 Clementi Road, Singapore 129742",
+      "neighbourhood": "Clementi",
+      "cuisine": "Sichuan Chinese",
+      "priceRange": "€€€",
+      "description": "Renowned Michelin-starred Sichuan restaurant delivering authentic numbing and spicy dishes with impeccable technique.",
+      "mustOrder": "Dan Dan Noodles",
+      "lat": 1.3101,
+      "lng": 103.7642
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Labrador Park Hawker Stalls",
+      "address": "Labrador Park, Labrador Villa Road, Singapore 118629",
+      "neighbourhood": "Labrador Park",
+      "cuisine": "Hawker/Multicultural",
+      "priceRange": "€",
+      "description": "Seaside hawker center with multiple stalls offering diverse cuisines and waterfront views of Southern Islands.",
+      "mustOrder": "Mixed Hawker Selection",
+      "lat": 1.2653,
+      "lng": 103.8125
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Rang Mahal",
+      "address": "7 Raffles Boulevard, #03-00 Marina Square, Singapore 039595",
+      "neighbourhood": "Marina Bay",
+      "cuisine": "Indian",
+      "priceRange": "€€€",
+      "description": "Fine dining Indian restaurant with elegant ambiance, award-winning tandoor preparations and refined curries.",
+      "mustOrder": "Tandoori Chicken",
+      "lat": 1.2904,
+      "lng": 103.8598
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Wah Lok Cantonese Restaurant",
+      "address": "405 Havelock Road, Singapore 169633",
+      "neighbourhood": "River Valley",
+      "cuisine": "Cantonese",
+      "priceRange": "€€€",
+      "description": "Sophisticated dim sum and Cantonese cuisine restaurant known for premium ingredients and traditional preparations.",
+      "mustOrder": "Dim Sum Assortment & Roast Duck",
+      "lat": 1.2884,
+      "lng": 103.8297
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Eu Yan Sang Herbal Cuisine",
+      "address": "260 South Bridge Road, Singapore 058808",
+      "neighbourhood": "Chinatown",
+      "cuisine": "Chinese Herbal",
+      "priceRange": "€€",
+      "description": "Unique restaurant specializing in Chinese medicinal cuisine, blending wellness principles with traditional flavours.",
+      "mustOrder": "Herbal Soup with Ginseng",
+      "lat": 1.2842,
+      "lng": 103.8424
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Piedra Negra",
+      "address": "50 Boat Quay, Singapore 049818",
+      "neighbourhood": "Boat Quay",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€€",
+      "description": "Waterfront Spanish tapas bar with authentic cured meats, seafood dishes and excellent Spanish wines.",
+      "mustOrder": "Jamón Ibérico & Pan con Tomate",
+      "lat": 1.29,
+      "lng": 103.8508
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Greyhound Cafe",
+      "address": "51 Telok Ayer Street, Singapore 068582",
+      "neighbourhood": "Telok Ayer",
+      "cuisine": "Thai Contemporary",
+      "priceRange": "€€",
+      "description": "Modern Thai restaurant with railway-heritage shophouse setting, known for refined curries and fresh preparations.",
+      "mustOrder": "Green Curry with Chicken",
+      "lat": 1.2857,
+      "lng": 103.8483
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Burnt Ends",
+      "address": "20 Dempsey Road, Singapore 247700",
+      "neighbourhood": "Dempsey Hill",
+      "cuisine": "Modern BBQ/Steakhouse",
+      "priceRange": "€€€€",
+      "description": "Acclaimed open-fire grill restaurant with prime cuts and theatrical cooking, set in a colonial bungalow.",
+      "mustOrder": "Grilled Wagyu & Wood-fired Vegetables",
+      "lat": 1.3163,
+      "lng": 103.8068
+    }
+  ]
+}

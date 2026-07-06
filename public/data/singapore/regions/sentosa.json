@@ -1,0 +1,1513 @@
+{
+  "id": "sentosa",
+  "name": "Sentosa Island",
+  "nameIt": "Sentosa Island",
+  "capital": "Sentosa",
+  "lat": 1.2494,
+  "lng": 103.8303,
+  "emoji": "🏝️",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 1.265,
+    "south": 1.23,
+    "east": 103.85,
+    "west": 103.8
+  },
+  "history": "Sentosa Island was originally known as Pulau Blakang Mati, meaning 'the island behind' in Malay, and served as a quarantine station and military outpost during British colonial rule. In 1972, the Singapore government began developing it into a leisure and recreation destination, transforming it from a largely undeveloped area into a modern resort island. The island's strategic location and rich history of colonial fortifications remain visible in landmarks like Fort Siloso, which now operates as a museum. Today, Sentosa stands as a testament to Singapore's rapid modernization and urban planning capabilities.",
+  "culturalNotes": "Sentosa Island reflects Singapore's multicultural identity, blending Malay heritage, Chinese traditions, and modern cosmopolitan influences. The island serves as a cultural bridge, hosting diverse attractions from the culturally-themed Streets of Dream to family-friendly venues that celebrate various traditions. Its development has maintained pockets of natural beauty and historical sites, making it a space where tradition and contemporary leisure coexist.",
+  "bestTimeToVisit": "Visit between November and March for the best weather and fewer crowds.",
+  "languageNotes": "English is widely spoken throughout Sentosa Island, though Malay, Mandarin Chinese, and Tamil are also common in Singapore. Useful phrases include 'Terima kasih' (thank you in Malay) and 'Xie xie' (thank you in Mandarin), and most signs and information are multilingual.",
+  "generatedAt": "2026-07-06T21:27:49.165Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "universal_studios_singapore",
+      "name": "Universal Studios Singapore",
+      "nameIt": "Universal Studios Singapore",
+      "lat": 1.2553,
+      "lng": 103.8235,
+      "type": "LANDMARK",
+      "description": "Southeast Asia's first major Hollywood theme park featuring themed lands with thrilling rides, shows, and attractions based on blockbuster films and franchises. It's the centerpiece attraction of Sentosa Island and a must-visit for families and thrill-seekers alike.",
+      "imageQueries": [
+        "Universal Studios Singapore entrance",
+        "Universal Studios Singapore roller coaster"
+      ],
+      "activities": [
+        {
+          "id": "univ_1",
+          "text": "Transformers The Ride 3D",
+          "detail": "Experience a high-octane dark ride where you join the Autobots in an immersive battle against the Decepticons using cutting-edge 3D technology and motion simulator effects.",
+          "lat": 1.2442,
+          "lng": 103.8228
+        },
+        {
+          "id": "univ_2",
+          "text": "Revenge of the Mummy",
+          "detail": "Race through an Egyptian tomb on this indoor roller coaster with sharp turns, sudden launches, and special effects that create an intense supernatural adventure.",
+          "lat": 1.2445,
+          "lng": 103.8225
+        },
+        {
+          "id": "univ_3",
+          "text": "Madagascar: A Crate Adventure",
+          "detail": "Board a dark ride adventure with the beloved animal characters from the Madagascar films, featuring animatronics, projections, and humorous storytelling.",
+          "lat": 1.2438,
+          "lng": 103.8235
+        },
+        {
+          "id": "univ_4",
+          "text": "Battlestar Galactica: Human vs. Cylon",
+          "detail": "Choose between two dueling roller coasters where humans and cylons compete on side-by-side tracks with twists, loops, and high-speed thrills.",
+          "lat": 1.2451,
+          "lng": 103.8218
+        },
+        {
+          "id": "univ_5",
+          "text": "Shrek 4-D Adventure",
+          "detail": "Watch an animated film experience combining 3D projection with practical in-theater effects like water sprays and seat movements for family-friendly entertainment.",
+          "lat": 1.2433,
+          "lng": 103.824
+        },
+        {
+          "id": "univ_6",
+          "text": "Jurassic Park Rapids Adventure",
+          "detail": "Ride a water-based adventure through prehistoric environments with dinosaur encounters, culminating in a thrilling flume drop."
+        },
+        {
+          "id": "univ_7",
+          "text": "Hollywood Dreams Parade",
+          "detail": "Catch the daily parade featuring floats based on Universal's biggest franchises with music, dancers, and character meet-and-greets."
+        }
+      ],
+      "food": [
+        {
+          "id": "univ_f1",
+          "text": "Mummy Meatballs",
+          "detail": "Savory Egyptian-inspired meatballs wrapped in phyllo dough served with a spiced tomato sauce, found in the Ancient Egypt themed land."
+        },
+        {
+          "id": "univ_f2",
+          "text": "Transformers Energon Energy Drink",
+          "detail": "A glowing blue electrolyte beverage with tropical fruit flavors available throughout the park as a themed refreshment."
+        },
+        {
+          "id": "univ_f3",
+          "text": "Butterbeer",
+          "detail": "A sweet butterscotch-flavored beverage with whipped cream topping inspired by the wizarding world theme areas."
+        },
+        {
+          "id": "univ_f4",
+          "text": "King Kong's Rib Rack",
+          "detail": "Slow-cooked barbecue ribs with a smoky glaze served with sides, themed to the King Kong attraction area."
+        },
+        {
+          "id": "univ_f5",
+          "text": "Madagascar Macarons",
+          "detail": "Colorful French macarons with exotic tropical flavors like mango and passion fruit sold in the Madagascar-themed section."
+        }
+      ],
+      "culture": [
+        {
+          "id": "univ_c1",
+          "text": "Purchase a Fast Pass in advance",
+          "detail": "Universal Express Pass allows you to skip queues at major attractions; buying online before your visit offers discounts compared to gate prices."
+        },
+        {
+          "id": "univ_c2",
+          "text": "Arrive early for popular attractions",
+          "detail": "Lines form quickly after park opening, especially for Transformers and Revenge of the Mummy, so head to these first before mid-day crowds arrive."
+        },
+        {
+          "id": "univ_c3",
+          "text": "Respect local dress codes in themed areas",
+          "detail": "While casual attire is standard, some themed lands may have cultural elements; dress modestly out of respect for Singapore's diverse community."
+        },
+        {
+          "id": "univ_c4",
+          "text": "Use the mobile app for wait times",
+          "detail": "The official Universal Studios Singapore app provides real-time queue information and show schedules to help you plan your day efficiently."
+        }
+      ]
+    },
+    {
+      "id": "s_e_a_aquarium",
+      "name": "S.E.A. Aquarium",
+      "nameIt": "S.E.A. Aquarium",
+      "lat": 1.2494,
+      "lng": 103.8188,
+      "type": "LANDMARK",
+      "description": "One of the world's largest aquariums showcasing over 40,000 marine animals across themed zones representing Southeast Asian waters and beyond. It offers immersive underwater experiences and is particularly captivating for children and marine life enthusiasts.",
+      "imageQueries": [
+        "SEA Aquarium Singapore",
+        "SEA Aquarium manta rays"
+      ],
+      "activities": [
+        {
+          "id": "s_e__1",
+          "text": "Open Ocean Free Swimming",
+          "detail": "Watch divers feed massive stingrays and groupers in the 40-meter long Open Ocean habitat, the largest aquarium zone.",
+          "lat": 1.2499,
+          "lng": 103.8303
+        },
+        {
+          "id": "s_e__2",
+          "text": "Touch Pool Encounter",
+          "detail": "Interact directly with horseshoe crabs, sea cucumbers, and starfish in the shallow touch pools designed for hands-on learning.",
+          "lat": 1.2499,
+          "lng": 103.8303
+        },
+        {
+          "id": "s_e__3",
+          "text": "Jellyfish Sensation",
+          "detail": "Explore the ethereal Jellyfish Sensations zone featuring bioluminescent and color-shifting jellyfish species in darkened viewing chambers.",
+          "lat": 1.2499,
+          "lng": 103.8303
+        },
+        {
+          "id": "s_e__4",
+          "text": "Seahorse and Seaweed Forest Walk",
+          "detail": "Stroll through the naturalistic Seahorse and Seaweed Forest tunnel showcasing delicate seahorses and leafy sea dragons in their native habitat.",
+          "lat": 1.2499,
+          "lng": 103.8303
+        },
+        {
+          "id": "s_e__5",
+          "text": "Croc Pool Adventure",
+          "detail": "Observe saltwater crocodiles and monitor lizards in the Southeast Asian river zone, with informative keeper talks throughout the day.",
+          "lat": 1.2499,
+          "lng": 103.8303
+        },
+        {
+          "id": "s_e__6",
+          "text": "Ray Feeding Experience",
+          "detail": "Participate in an optional guided experience where you can feed stingrays and eagle rays under staff supervision in designated zones.",
+          "lat": 1.2499,
+          "lng": 103.8303
+        }
+      ],
+      "food": [
+        {
+          "id": "s_e__f1",
+          "text": "Laksa",
+          "detail": "Spiced coconut noodle soup with prawns or fish, a Southeast Asian staple available at aquarium cafés with local flavor."
+        },
+        {
+          "id": "s_e__f2",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat skewers with peanut sauce, a popular quick snack sold at food stalls throughout the aquarium."
+        },
+        {
+          "id": "s_e__f3",
+          "text": "Fish and Chips",
+          "detail": "Battered fresh fish with crispy chips, a casual dining option reflecting Singapore's multicultural food scene."
+        },
+        {
+          "id": "s_e__f4",
+          "text": "Chilled Sugarcane Juice",
+          "detail": "Freshly pressed sugarcane juice served ice-cold, a refreshing local beverage perfect for hydrating during your aquarium visit."
+        }
+      ],
+      "culture": [
+        {
+          "id": "s_e__c1",
+          "text": "Respect Quiet Observation Times",
+          "detail": "Many visitors prefer early morning or weekday visits for peaceful viewing, so avoid loud conversations near displays to respect other guests' experiences."
+        },
+        {
+          "id": "s_e__c2",
+          "text": "Remove Shoes in Certain Areas",
+          "detail": "Some themed zones and rest areas may request shoe removal or have designated slippers, following Southeast Asian customs of cleanliness."
+        },
+        {
+          "id": "s_e__c3",
+          "text": "Photography Etiquette",
+          "detail": "While photography is permitted, avoid using flash near sensitive animals like seahorses and jellyfish, as it causes them stress."
+        },
+        {
+          "id": "s_e__c4",
+          "text": "Peak Hours Strategy",
+          "detail": "Visit during off-peak times (weekday mornings or after 4 PM) to avoid weekend crowds common in Singapore's major attractions."
+        }
+      ]
+    },
+    {
+      "id": "siloso_beach",
+      "name": "Siloso Beach",
+      "nameIt": "Siloso Beach",
+      "lat": 1.2465,
+      "lng": 103.8123,
+      "type": "COASTAL",
+      "description": "Sentosa's most popular beach with golden sand, clear waters, and a vibrant beachfront promenade lined with bars, restaurants, and water sports facilities. It's perfect for swimming, sunbathing, and enjoying sunset views with a tropical atmosphere.",
+      "imageQueries": [
+        "Siloso Beach Sentosa",
+        "Siloso Beach sunset"
+      ],
+      "activities": [
+        {
+          "id": "silo_1",
+          "text": "Swimming and Sunbathing",
+          "detail": "Enjoy the pristine golden sand and calm waters ideal for swimming, with lifeguards on duty during peak hours and designated swimming zones marked by buoys."
+        },
+        {
+          "id": "silo_2",
+          "text": "Parasailing",
+          "detail": "Experience thrilling aerial views of Sentosa and the southern islands while being towed behind a speedboat, available through beachfront operators.",
+          "lat": 1.2428,
+          "lng": 103.8297
+        },
+        {
+          "id": "silo_3",
+          "text": "Jet Skiing",
+          "detail": "Rent high-speed jet skis from the water sports centers along the beach to explore the coastal waters independently or with guidance.",
+          "lat": 1.2428,
+          "lng": 103.8297
+        },
+        {
+          "id": "silo_4",
+          "text": "Sunset Dining at Beachfront Bars",
+          "detail": "Relax at one of the many bars and restaurants along the promenade with unobstructed ocean views, ideal for evening drinks and aperitifs.",
+          "lat": 1.2425,
+          "lng": 103.8295
+        },
+        {
+          "id": "silo_5",
+          "text": "Windsurfing and Stand-Up Paddleboarding",
+          "detail": "Rent boards and take lessons in water sports at the designated zones, suitable for both beginners and experienced enthusiasts.",
+          "lat": 1.2428,
+          "lng": 103.8297
+        },
+        {
+          "id": "silo_6",
+          "text": "Beachside Volleyball",
+          "detail": "Join casual beach volleyball games on the sand courts or organize matches with friends at the designated recreational areas."
+        },
+        {
+          "id": "silo_7",
+          "text": "Night Beach Walk",
+          "detail": "Stroll the illuminated promenade after sunset to experience the vibrant nightlife atmosphere with live music and bustling venues."
+        }
+      ],
+      "food": [
+        {
+          "id": "silo_f1",
+          "text": "Fish and Chips",
+          "detail": "Fresh battered fish served with crispy chips and tartar sauce, a classic beachside comfort food available at most casual waterfront restaurants."
+        },
+        {
+          "id": "silo_f2",
+          "text": "Grilled Seafood Platter",
+          "detail": "Selection of freshly grilled prawns, squid, and fish seasoned simply with lemon and herbs, reflecting Singapore's coastal dining culture."
+        },
+        {
+          "id": "silo_f3",
+          "text": "Satay Skewers",
+          "detail": "Marinated meat grilled on bamboo skewers served with spicy peanut sauce, a beloved Southeast Asian street food staple found at beach bars."
+        },
+        {
+          "id": "silo_f4",
+          "text": "Laksa",
+          "detail": "Spiced coconut broth with rice noodles and seafood or chicken, representing Singapore's multicultural hawker food tradition available nearby."
+        },
+        {
+          "id": "silo_f5",
+          "text": "Chili Crab",
+          "detail": "Whole crab cooked in a thick spicy tomato-chili sauce, an iconic Singapore dish served at several upscale beachfront dining establishments."
+        },
+        {
+          "id": "silo_f6",
+          "text": "Tropical Fruit Shakes",
+          "detail": "Fresh blended drinks made from mango, papaya, or passion fruit, perfect for cooling down after beach activities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "silo_c1",
+          "text": "Respect Beach Regulations",
+          "detail": "Observe designated swimming zones, obey lifeguard flags, and follow posted rules about alcohol and music volume to maintain the beach's family-friendly atmosphere."
+        },
+        {
+          "id": "silo_c2",
+          "text": "Dress Code Sensitivity",
+          "detail": "While beachwear is acceptable on the sand, wear a cover-up or modest clothing when entering restaurants and bars to respect local customs in Singapore."
+        },
+        {
+          "id": "silo_c3",
+          "text": "Tipping Etiquette",
+          "detail": "Tipping is not mandatory in Singapore but rounding up bills or leaving 5-10% for good service is appreciated at restaurants and bars."
+        },
+        {
+          "id": "silo_c4",
+          "text": "Peak Hours Awareness",
+          "detail": "Weekends and public holidays draw large crowds; visit on weekday mornings for a more peaceful beach experience and easier access to facilities."
+        }
+      ]
+    },
+    {
+      "id": "merlion_walk",
+      "name": "Merlion Walk",
+      "nameIt": "Merlion Walk",
+      "lat": 1.2533,
+      "lng": 103.8263,
+      "type": "LANDMARK",
+      "description": "An iconic pathway to the two-headed Merlion statue, one of Singapore's most recognizable symbols featuring a lion head and fish tail. The location offers excellent photo opportunities and provides insight into Singapore's cultural heritage and mythology.",
+      "imageQueries": [
+        "Sentosa Merlion Walk",
+        "Merlion statue Singapore"
+      ],
+      "activities": [
+        {
+          "id": "merl_1",
+          "text": "Photograph the Merlion Statue",
+          "detail": "Capture iconic images of the two-headed Merlion statue, Singapore's most recognizable symbol, with the best angles from the designated viewing platforms around the structure.",
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        {
+          "id": "merl_2",
+          "text": "Visit the Merlion Walk Information Center",
+          "detail": "Learn about the mythology and history behind the Merlion symbol, including its significance to Singapore's cultural heritage through interactive displays and exhibits.",
+          "lat": 1.352,
+          "lng": 103.8199
+        },
+        {
+          "id": "merl_3",
+          "text": "Explore Sentosa Island Beaches",
+          "detail": "Walk along the nearby pristine beaches such as Siloso Beach or Tanjong Beach, which are accessible from Merlion Walk and offer swimming and relaxation opportunities.",
+          "lat": 1.3499,
+          "lng": 103.8303
+        },
+        {
+          "id": "merl_4",
+          "text": "Stroll the Coastal Pathway",
+          "detail": "Take a leisurely walk along the scenic waterfront promenade connecting Merlion Walk to other Sentosa attractions, with views of the Singapore Strait and surrounding islands.",
+          "lat": 1.3525,
+          "lng": 103.8215
+        },
+        {
+          "id": "merl_5",
+          "text": "Sunset Viewing at Merlion",
+          "detail": "Experience the stunning golden hour light at the Merlion statue, ideal for photography and enjoying panoramic views of Singapore's skyline and harbor.",
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        {
+          "id": "merl_6",
+          "text": "Visit Nearby Art and Sculpture Installations",
+          "detail": "Discover contemporary art pieces and cultural sculptures scattered throughout Sentosa Island's public spaces near the Merlion Walk area.",
+          "lat": 1.3515,
+          "lng": 103.821
+        }
+      ],
+      "food": [
+        {
+          "id": "merl_f1",
+          "text": "Chili Crab",
+          "detail": "A signature Singapore dish featuring fresh crab coated in a tangy, spicy tomato-based sauce, commonly served at seafood restaurants near Sentosa's waterfront."
+        },
+        {
+          "id": "merl_f2",
+          "text": "Laksa",
+          "detail": "A rich and aromatic noodle soup with coconut milk, spices, and seafood or chicken, representing Singapore's multicultural cuisine and available at food courts on Sentosa."
+        },
+        {
+          "id": "merl_f3",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat skewers served with peanut sauce, a beloved street food that reflects Singapore's Malay culinary traditions."
+        },
+        {
+          "id": "merl_f4",
+          "text": "Fresh Seafood at Beachfront Restaurants",
+          "detail": "Dine on locally-caught fish, prawns, and shellfish prepared by waterfront establishments with views of the Strait and Merlion statue."
+        },
+        {
+          "id": "merl_f5",
+          "text": "Roti Prata",
+          "detail": "Crispy Indian-style flatbread typically served with curry dipping sauces, a popular breakfast and snack option at hawker stalls near Sentosa attractions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "merl_c1",
+          "text": "Respect Photography Etiquette",
+          "detail": "While photography is encouraged, be mindful of other visitors and avoid blocking pathways; designated photo zones exist for the best Merlion shots without disrupting foot traffic."
+        },
+        {
+          "id": "merl_c2",
+          "text": "Learn the Merlion Mythology",
+          "detail": "The Merlion represents Singapore's history as a fishing village (fish tail) and its strength as a lion, blending local legend with maritime heritage that explains why this symbol is deeply meaningful to Singaporeans."
+        },
+        {
+          "id": "merl_c3",
+          "text": "Visit During Off-Peak Hours",
+          "detail": "Early mornings or late afternoons offer fewer crowds and better lighting for photography, allowing a more peaceful experience to appreciate the cultural significance of the site."
+        },
+        {
+          "id": "merl_c4",
+          "text": "Dress Appropriately for Tropical Climate",
+          "detail": "Wear light, breathable clothing, sunscreen, and comfortable walking shoes as the Merlion Walk involves outdoor exposure to Singapore's hot and humid weather, especially on Sentosa Island."
+        }
+      ]
+    },
+    {
+      "id": "art_science_museum",
+      "name": "ArtScience Museum",
+      "nameIt": "ArtScience Museum",
+      "lat": 1.2546,
+      "lng": 103.8238,
+      "type": "LANDMARK",
+      "description": "A unique museum housed in Marina Bay's iconic lotus-shaped building, featuring innovative exhibitions that blend art, science, technology, and culture. It offers thought-provoking experiences and is ideal for visitors seeking creative and intellectual engagement.",
+      "imageQueries": [
+        "ArtScience Museum Sentosa",
+        "ArtScience Museum lotus"
+      ],
+      "activities": [
+        {
+          "id": "art__1",
+          "text": "Explore the Future World Exhibition",
+          "detail": "Immerse yourself in interactive installations exploring artificial intelligence, robotics, and digital innovation across multiple galleries designed to challenge your perception of technology.",
+          "lat": 1.2858,
+          "lng": 103.7618
+        },
+        {
+          "id": "art__2",
+          "text": "Experience the Lotus-Shaped Architecture Tour",
+          "detail": "Discover how the museum's distinctive white lotus-inspired building was designed and learn about its structural innovations through guided architectural commentary.",
+          "lat": 1.2858,
+          "lng": 103.7618
+        },
+        {
+          "id": "art__3",
+          "text": "Participate in Hands-On Science Workshops",
+          "detail": "Engage in interactive demonstrations and workshops where you can experiment with scientific principles through art-based installations and creative problem-solving activities.",
+          "lat": 1.2858,
+          "lng": 103.7618
+        },
+        {
+          "id": "art__4",
+          "text": "Visit the Rotating Art Exhibitions",
+          "detail": "See regularly changing contemporary art and design exhibitions that showcase works by international and local artists tackling current social and cultural themes.",
+          "lat": 1.2858,
+          "lng": 103.7618
+        },
+        {
+          "id": "art__5",
+          "text": "Enjoy Marina Bay Waterfront Views",
+          "detail": "Step outside to the museum's terrace area offering panoramic views of Marina Bay Sands, the Singapore skyline, and Gardens by the Bay across the water.",
+          "lat": 1.2858,
+          "lng": 103.7618
+        },
+        {
+          "id": "art__6",
+          "text": "Attend Evening Light Shows and Projections",
+          "detail": "Experience the museum's exterior illuminated with artistic light installations and projection mappings during evening hours, transforming the lotus structure into a multimedia canvas."
+        }
+      ],
+      "food": [
+        {
+          "id": "art__f1",
+          "text": "ArtScience Café's Fusion Pastries",
+          "detail": "Enjoy innovative pastries and coffee at the in-house café, featuring East-meets-West flavors that reflect the museum's creative philosophy."
+        },
+        {
+          "id": "art__f2",
+          "text": "Local Singaporean Laksa",
+          "detail": "Visit nearby Sentosa food vendors for authentic Laksa, a rich coconut-based curry noodle soup that's a true Singaporean comfort food staple."
+        },
+        {
+          "id": "art__f3",
+          "text": "Chilli Crab at Marina Bay Sands Dining",
+          "detail": "Experience Singapore's iconic chilli crab dish at nearby restaurants, featuring succulent crab smothered in a tangy, spicy tomato-based sauce."
+        },
+        {
+          "id": "art__f4",
+          "text": "Afternoon Tea Service",
+          "detail": "Indulge in contemporary afternoon tea offerings available at the museum's café, featuring creative takes on traditional British tea service with Asian-inspired items."
+        },
+        {
+          "id": "art__f5",
+          "text": "Satay Skewers from Local Vendors",
+          "detail": "Sample grilled meat skewers served with peanut sauce available at nearby Sentosa venues, a beloved Southeast Asian street food favorite."
+        }
+      ],
+      "culture": [
+        {
+          "id": "art__c1",
+          "text": "Dress Code for Climate",
+          "detail": "Singapore's tropical heat is intense; wear light, breathable clothing and comfortable shoes as you'll be walking through multiple exhibition spaces in air-conditioned but warm environments."
+        },
+        {
+          "id": "art__c2",
+          "text": "Photography Etiquette",
+          "detail": "Check exhibition signage as some art installations prohibit photography to protect artists' work and preserve the experience for other visitors without distraction."
+        },
+        {
+          "id": "art__c3",
+          "text": "Reserve Time for Reflection",
+          "detail": "The museum encourages contemplative engagement with exhibits rather than rushing; allow at least 2-3 hours to meaningfully experience the thought-provoking installations."
+        },
+        {
+          "id": "art__c4",
+          "text": "Respect Quiet Exhibition Zones",
+          "detail": "Certain galleries are designated for silent reflection and meditation; maintain respectful noise levels and be mindful of other visitors seeking immersive experiences."
+        }
+      ]
+    },
+    {
+      "id": "butterfly_park",
+      "name": "Butterfly Park & Insectarium",
+      "nameIt": "Butterfly Park & Insectarium",
+      "lat": 1.2484,
+      "lng": 103.8168,
+      "type": "NATURE",
+      "description": "An indoor tropical garden housing thousands of living butterflies and insects in naturalistic habitats, offering educational experiences about biodiversity. It's a serene and colorful attraction perfect for nature lovers and families with children.",
+      "imageQueries": [
+        "Sentosa Butterfly Park",
+        "butterfly park Singapore"
+      ],
+      "activities": [
+        {
+          "id": "butt_1",
+          "text": "Walk Through the Butterfly Garden",
+          "detail": "Stroll through the main indoor tropical garden where thousands of live butterflies from around the world fly freely among native plants and flowers.",
+          "lat": 1.2447,
+          "lng": 103.8303
+        },
+        {
+          "id": "butt_2",
+          "text": "Observe the Insect Enclosures",
+          "detail": "View naturalistic habitats displaying beetles, stick insects, scorpions, and other arthropods in carefully maintained terrariums and enclosures.",
+          "lat": 1.2447,
+          "lng": 103.8303
+        },
+        {
+          "id": "butt_3",
+          "text": "Attend Educational Talks",
+          "detail": "Participate in guided presentations by knowledgeable staff about butterfly lifecycle, insect behavior, and tropical biodiversity throughout the day."
+        },
+        {
+          "id": "butt_4",
+          "text": "Photography in Bloom",
+          "detail": "Capture stunning photos of butterflies perched on flowering plants and in flight within the lush garden setting designed for optimal viewing."
+        },
+        {
+          "id": "butt_5",
+          "text": "Visit the Cocoon Display",
+          "detail": "Learn about metamorphosis by observing butterfly pupae and cocoons at various stages of development in dedicated viewing areas."
+        },
+        {
+          "id": "butt_6",
+          "text": "Explore the Bug Museum Section",
+          "detail": "Discover mounted insect specimens, fossils, and interactive displays explaining entomology and insect diversity from around the globe."
+        }
+      ],
+      "food": [
+        {
+          "id": "butt_f1",
+          "text": "Laksa at Sentosa Food Court",
+          "detail": "Enjoy this iconic Singaporean coconut curry noodle soup with seafood or chicken, available at nearby dining facilities on Sentosa Island."
+        },
+        {
+          "id": "butt_f2",
+          "text": "Chili Crab",
+          "detail": "Experience this famous Singaporean dish of stir-fried crab in a tangy, spicy tomato-based sauce at restaurants in the Sentosa vicinity."
+        },
+        {
+          "id": "butt_f3",
+          "text": "Satay Skewers",
+          "detail": "Try grilled meat skewers served with rich peanut sauce, a beloved local street food available at nearby hawker stalls and food courts."
+        },
+        {
+          "id": "butt_f4",
+          "text": "Teh Tarik",
+          "detail": "Sip this popular pulled milk tea served hot, a refreshing local beverage available at cafés and food vendors throughout Sentosa."
+        }
+      ],
+      "culture": [
+        {
+          "id": "butt_c1",
+          "text": "Respect the Enclosed Ecosystem",
+          "detail": "Avoid touching butterflies and insects unless instructed; the delicate creatures and controlled environment require careful, hands-off observation for visitor and animal safety."
+        },
+        {
+          "id": "butt_c2",
+          "text": "Dress Appropriately for Humidity",
+          "detail": "Wear light, breathable clothing as the indoor tropical garden maintains high humidity and warm temperatures to mimic natural butterfly habitats."
+        },
+        {
+          "id": "butt_c3",
+          "text": "Visit Early for Best Viewing",
+          "detail": "Arrive in the morning when butterflies are most active and the garden is less crowded, enhancing your ability to observe and photograph the insects."
+        },
+        {
+          "id": "butt_c4",
+          "text": "Use the Gift Shop Mindfully",
+          "detail": "Browse educational materials and insect-themed souvenirs, but be aware that some items may feature insects or contain information about conservation efforts."
+        }
+      ]
+    },
+    {
+      "id": "canopy_walk",
+      "name": "Canopy Walk",
+      "nameIt": "Canopy Walk",
+      "lat": 1.2512,
+      "lng": 103.8109,
+      "type": "NATURE",
+      "description": "An elevated treetop walkway through lush secondary forest canopy, providing a unique perspective of Sentosa's natural ecosystem and wildlife. It combines adventure with nature immersion and offers peaceful encounters with tropical flora and fauna.",
+      "imageQueries": [
+        "Sentosa Canopy Walk",
+        "Canopy Walk treetop Singapore"
+      ],
+      "activities": [
+        {
+          "id": "cano_1",
+          "text": "Canopy Walk Traversal",
+          "detail": "Walk the 250-meter elevated boardwalk suspended among the treetops, offering close encounters with secondary forest canopy at heights up to 25 meters."
+        },
+        {
+          "id": "cano_2",
+          "text": "Wildlife Spotting",
+          "detail": "Observe native species including long-tailed macaques, monitor lizards, and various tropical bird species in their natural habitat from the elevated perspective."
+        },
+        {
+          "id": "cano_3",
+          "text": "Forest Photography",
+          "detail": "Capture the dense canopy, filtered sunlight through leaves, and wildlife moments from unique vantage points not accessible from ground level."
+        },
+        {
+          "id": "cano_4",
+          "text": "Guided Nature Interpretation",
+          "detail": "Join a ranger-led tour to learn about tropical ecosystem dynamics, plant identification, and the conservation efforts within Sentosa's secondary forest."
+        },
+        {
+          "id": "cano_5",
+          "text": "Canopy Observation Deck",
+          "detail": "Stand on the main viewing platform for panoramic forest views and opportunities to spot birds and canopy insects in the surrounding treetops."
+        },
+        {
+          "id": "cano_6",
+          "text": "Early Morning Bird Watching",
+          "detail": "Arrive early when birds are most active to observe species like Asian Koels, Crested Serpent Eagles, and various sunbird species during peak feeding times."
+        }
+      ],
+      "food": [
+        {
+          "id": "cano_f1",
+          "text": "Laksa",
+          "detail": "This rich coconut curry noodle soup with shrimp, fish cake, and bean sprouts is a quintessential Singaporean comfort food available at nearby Sentosa dining venues."
+        },
+        {
+          "id": "cano_f2",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat skewers served with peanut sauce and cucumber, reflecting Malay culinary traditions and offering a convenient snack for visitors exploring the island."
+        },
+        {
+          "id": "cano_f3",
+          "text": "Chilli Crab",
+          "detail": "Fresh crab cooked in a thick, spicy tomato-based sauce that is a signature Singapore dish, available at restaurants throughout Sentosa Island."
+        },
+        {
+          "id": "cano_f4",
+          "text": "Tropical Fruit Smoothies",
+          "detail": "Fresh blended drinks made from local fruits like mango, papaya, and passion fruit provide refreshment after the walk in the humid tropical climate."
+        },
+        {
+          "id": "cano_f5",
+          "text": "Nasi Lemak",
+          "detail": "Fragrant coconut rice served with sambal, fried anchovies, peanuts, and hard-boiled egg, offering authentic Malaysian flavors at nearby food courts."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cano_c1",
+          "text": "Respect Forest Boundaries",
+          "detail": "Stay on designated boardwalks and pathways to protect the delicate secondary forest ecosystem and avoid disturbing wildlife habitats."
+        },
+        {
+          "id": "cano_c2",
+          "text": "Dress for Humidity",
+          "detail": "Wear lightweight, moisture-wicking clothing and bring plenty of water as the tropical canopy environment remains hot and humid even with shade coverage."
+        },
+        {
+          "id": "cano_c3",
+          "text": "Wildlife Observation Etiquette",
+          "detail": "Keep noise levels low, move slowly, and do not feed or touch animals; this preserves natural behaviors and ensures visitor and wildlife safety."
+        },
+        {
+          "id": "cano_c4",
+          "text": "Reserve in Peak Season",
+          "detail": "Book tickets in advance during school holidays and weekends as the Canopy Walk attracts significant visitor numbers and daily capacity is managed."
+        }
+      ]
+    },
+    {
+      "id": "tiger_sky_tower",
+      "name": "Tiger Sky Tower",
+      "nameIt": "Tiger Sky Tower",
+      "lat": 1.248,
+      "lng": 103.8165,
+      "type": "LANDMARK",
+      "description": "A rotating observation tower offering 360-degree panoramic views of Sentosa Island, the Singapore Strait, and the Malaysian coastline from 110 meters high. It provides stunning photo opportunities, especially at sunset or night when the islands light up.",
+      "imageQueries": [
+        "Tiger Sky Tower Sentosa",
+        "Tiger Sky Tower views"
+      ],
+      "activities": [
+        {
+          "id": "tige_1",
+          "text": "360-Degree Panoramic Viewing",
+          "detail": "Ride the rotating observation deck to capture sweeping views of Sentosa Island, the Singapore Strait, and the Malaysian coastline from 110 meters high.",
+          "lat": 1.2494,
+          "lng": 103.8303
+        },
+        {
+          "id": "tige_2",
+          "text": "Sunset Photography Session",
+          "detail": "Time your visit for late afternoon to golden hour when the sky transforms into vibrant hues and the surrounding islands begin to light up for optimal photo opportunities.",
+          "lat": 1.2494,
+          "lng": 103.8303
+        },
+        {
+          "id": "tige_3",
+          "text": "Night Skyline Viewing",
+          "detail": "Experience the glittering lights of Singapore's skyline, Sentosa's attractions, and distant Malaysian cities after dark from this elevated vantage point.",
+          "lat": 1.2494,
+          "lng": 103.8303
+        },
+        {
+          "id": "tige_4",
+          "text": "Guided Tower Tour",
+          "detail": "Join an informative session where staff explain geographical landmarks, historical sites, and points of interest visible from the observation deck.",
+          "lat": 1.2494,
+          "lng": 103.8303
+        },
+        {
+          "id": "tige_5",
+          "text": "Bird's-Eye View of Sentosa Attractions",
+          "detail": "Spot other Sentosa landmarks like Universal Studios Singapore, S.E.A. Aquarium, and the Siloso Beach from the tower's height for perspective on the island's layout.",
+          "lat": 1.2494,
+          "lng": 103.8303
+        }
+      ],
+      "food": [
+        {
+          "id": "tige_f1",
+          "text": "Laksa at Nearby Sentosa Food Court",
+          "detail": "Sample this spiced coconut curry noodle soup, a quintessential Singapore comfort food, at vendors in the Sentosa complex near the tower."
+        },
+        {
+          "id": "tige_f2",
+          "text": "Chilli Crab",
+          "detail": "Try Singapore's iconic dish of mud crab cooked in sweet and spicy tomato-based sauce, available at Sentosa's seafood restaurants."
+        },
+        {
+          "id": "tige_f3",
+          "text": "Ice Kachang",
+          "detail": "Cool off with this shaved ice dessert topped with coloured syrups, condensed milk, and beans, a beloved local treat perfect after your tower ascent."
+        },
+        {
+          "id": "tige_f4",
+          "text": "Chicken Rice",
+          "detail": "Grab this simple yet flavourful dish of poached or roasted chicken served with fragrant rice and chilli sauce from local hawker stalls on Sentosa."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tige_c1",
+          "text": "Respect Photography Etiquette",
+          "detail": "Ask permission before photographing other visitors, and be mindful of personal space on the rotating deck, especially during peak tourist hours."
+        },
+        {
+          "id": "tige_c2",
+          "text": "Dress Code Practicality",
+          "detail": "Wear comfortable walking shoes and light clothing as the tower can be breezy at 110 meters, and avoid loose items that may blow away during rotation."
+        },
+        {
+          "id": "tige_c3",
+          "text": "Plan Around Peak Hours",
+          "detail": "Visit early morning or late afternoon to avoid large tour groups and enjoy a more peaceful experience with clearer sightlines for photography."
+        }
+      ]
+    },
+    {
+      "id": "fort_siloso",
+      "name": "Fort Siloso",
+      "nameIt": "Fort Siloso",
+      "lat": 1.2447,
+      "lng": 103.8095,
+      "type": "LANDMARK",
+      "description": "A meticulously restored 19th-century military fort offering insights into Singapore's colonial history and World War II heritage through museums and exhibitions. The fort features authentic barracks, ammunition storage, and underground tunnels that bring history to life.",
+      "imageQueries": [
+        "Fort Siloso Sentosa",
+        "Fort Siloso cannon"
+      ],
+      "activities": [
+        {
+          "id": "fort_1",
+          "text": "Explore the Underground Tunnels",
+          "detail": "Walk through the restored network of tunnels and chambers that once connected the fort's defensive positions and provided shelter during attacks.",
+          "lat": 1.2447,
+          "lng": 103.8097
+        },
+        {
+          "id": "fort_2",
+          "text": "Visit the Fort Museum",
+          "detail": "Discover exhibits detailing Singapore's military history, colonial-era artifacts, and personal accounts from soldiers who defended the fort during World War II.",
+          "lat": 1.2447,
+          "lng": 103.8097
+        },
+        {
+          "id": "fort_3",
+          "text": "Inspect the Gun Emplacements",
+          "detail": "Examine the restored 6-inch and 12-pounder guns positioned at various bastions, which once defended Singapore's southern coastline from naval threats.",
+          "lat": 1.2447,
+          "lng": 103.8097
+        },
+        {
+          "id": "fort_4",
+          "text": "Tour the Barracks and Officers' Quarters",
+          "detail": "Step inside the meticulously restored living quarters to understand the daily life of British and Allied soldiers stationed at the fort."
+        },
+        {
+          "id": "fort_5",
+          "text": "Walk the Battlements and Ramparts",
+          "detail": "Stroll along the fortified walls and ramparts offering panoramic views of the southern coast and strategic perspectives on the fort's defensive design.",
+          "lat": 1.2447,
+          "lng": 103.8097
+        },
+        {
+          "id": "fort_6",
+          "text": "View the War Exhibits and Memorabilia",
+          "detail": "Browse displays of weapons, uniforms, photographs, and personal effects documenting the fort's role during the Japanese occupation of Singapore."
+        }
+      ],
+      "food": [
+        {
+          "id": "fort_f1",
+          "text": "Chicken Rice at Sentosa Hawker Centre",
+          "detail": "Enjoy Singapore's iconic chicken rice dish, available at nearby food outlets, featuring succulent steamed or roasted chicken served with fragrant rice cooked in chicken stock."
+        },
+        {
+          "id": "fort_f2",
+          "text": "Laksa",
+          "detail": "Savor this rich and aromatic coconut curry noodle soup, a beloved Singaporean comfort food combining rice noodles with prawns, fish cake, and hard-boiled egg."
+        },
+        {
+          "id": "fort_f3",
+          "text": "Satay Skewers",
+          "detail": "Try grilled meat skewers served with creamy peanut sauce, a popular Malaysian and Singaporean street snack available at nearby food vendors in Sentosa."
+        },
+        {
+          "id": "fort_f4",
+          "text": "Chilli Crab",
+          "detail": "Experience Singapore's signature dish of fresh crab cooked in a savory-sweet tomato and chili sauce, best enjoyed at restaurants near the Sentosa area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fort_c1",
+          "text": "Respect Historical Sensitivity",
+          "detail": "Be mindful when viewing World War II exhibits and remains, as these represent tragic events; maintain quiet reverence in memorial areas dedicated to fallen soldiers."
+        },
+        {
+          "id": "fort_c2",
+          "text": "Visit Early for Better Experience",
+          "detail": "Arrive in the morning to avoid crowds and take advantage of natural light for exploring the dark tunnels and underground chambers safely."
+        },
+        {
+          "id": "fort_c3",
+          "text": "Wear Comfortable Footwear",
+          "detail": "The fort involves walking on uneven terrain, climbing stairs, and navigating stone passages, so sturdy, closed-toe shoes are essential for safety and comfort."
+        },
+        {
+          "id": "fort_c4",
+          "text": "Learn the Colonial and War History",
+          "detail": "Take time to read informational plaques and signage throughout the fort to better understand Singapore's strategic importance and the impact of World War II on its people."
+        }
+      ]
+    },
+    {
+      "id": "songs_of_the_sea",
+      "name": "Songs of the Sea",
+      "nameIt": "Songs of the Sea",
+      "lat": 1.246,
+      "lng": 103.812,
+      "type": "LANDMARK",
+      "description": "A spectacular open-air musical extravaganza featuring water jets, pyrotechnics, lasers, and acrobatic performances synchronized to contemporary and classical music. It's an enchanting evening experience presented right on Siloso Beach.",
+      "imageQueries": [
+        "Songs of the Sea Sentosa",
+        "Songs of the Sea performance"
+      ],
+      "activities": [
+        {
+          "id": "song_1",
+          "text": "Watch Songs of the Sea Performance",
+          "detail": "Experience the 40-minute synchronized musical show featuring water jets, pyrotechnics, lasers, and acrobatic performers on Siloso Beach.",
+          "lat": 1.2437,
+          "lng": 103.8303
+        },
+        {
+          "id": "song_2",
+          "text": "Explore Siloso Beach",
+          "detail": "Stroll along the sandy beach before or after the show, enjoying the coastal views and beachside atmosphere.",
+          "lat": 1.244,
+          "lng": 103.8305
+        },
+        {
+          "id": "song_3",
+          "text": "Visit Sentosa Island Attractions",
+          "detail": "Combine your visit with nearby attractions like Universal Studios Singapore, S.E.A. Aquarium, or the Merlion statue.",
+          "lat": 1.2495,
+          "lng": 103.8303
+        },
+        {
+          "id": "song_4",
+          "text": "Sunset Viewing at Beach",
+          "detail": "Arrive early to enjoy the golden hour sunset over the sea before the evening performance begins.",
+          "lat": 1.2437,
+          "lng": 103.8303
+        },
+        {
+          "id": "song_5",
+          "text": "Photography Spot Setup",
+          "detail": "Position yourself along the beach to capture the spectacular light displays and water fountain effects during the show.",
+          "lat": 1.2437,
+          "lng": 103.8303
+        }
+      ],
+      "food": [
+        {
+          "id": "song_f1",
+          "text": "Laksa",
+          "detail": "A creamy coconut curry noodle soup rich with seafood, a quintessential Singaporean comfort dish available at nearby hawker stalls."
+        },
+        {
+          "id": "song_f2",
+          "text": "Chilli Crab",
+          "detail": "Fresh crab cooked in a thick, spicy tomato-based sauce, a beloved local delicacy often enjoyed with steamed buns for sauce-soaking."
+        },
+        {
+          "id": "song_f3",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat skewers served with peanut sauce, a popular beachside snack commonly sold near Siloso Beach."
+        },
+        {
+          "id": "song_f4",
+          "text": "Seafood Steamboat",
+          "detail": "A communal hot pot experience with fresh prawns, fish, and vegetables cooked at your table, perfect for groups enjoying the beach setting."
+        },
+        {
+          "id": "song_f5",
+          "text": "Carrot Cake (Chai Tow Kueh)",
+          "detail": "A savory pan-fried radish cake with egg and preserved radish, a classic Singaporean street food easily found in the area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "song_c1",
+          "text": "Arrive Early for Good Seating",
+          "detail": "The show is extremely popular; arrive 45-60 minutes early to secure good viewing spots on the beach, especially during weekends and peak seasons."
+        },
+        {
+          "id": "song_c2",
+          "text": "Dress Code and Weather",
+          "detail": "Wear light, breathable clothing and bring a light jacket as sea breezes can be cool in the evening; apply sunscreen earlier in the day."
+        },
+        {
+          "id": "song_c3",
+          "text": "Respect Beach Etiquette",
+          "detail": "Keep the beach clean by disposing of trash properly and avoid leaving personal items unattended; Sentosa maintains strict environmental standards."
+        },
+        {
+          "id": "song_c4",
+          "text": "Plan Transportation in Advance",
+          "detail": "Use the free Sentosa Monorail, cable car, or dedicated beach shuttle services to reach Siloso Beach, as parking can be limited during peak show times."
+        }
+      ]
+    },
+    {
+      "id": "madame_tussauds",
+      "name": "Madame Tussauds Singapore",
+      "nameIt": "Madame Tussauds Singapore",
+      "lat": 1.2538,
+      "lng": 103.8258,
+      "type": "LANDMARK",
+      "description": "A wax museum featuring lifelike figures of celebrities, historical figures, and cultural icons from around the world in interactive themed zones. Visitors can pose with their favorite stars and enjoy entertainment-focused exhibits in a fun, family-friendly environment.",
+      "imageQueries": [
+        "Madame Tussauds Singapore",
+        "Madame Tussauds wax figures"
+      ],
+      "activities": [
+        {
+          "id": "mada_1",
+          "text": "Photo with Celebrity Wax Figures",
+          "detail": "Pose alongside lifelike wax statues of international celebrities, actors, and musicians in themed rooms designed for interactive photo opportunities.",
+          "lat": 1.2442,
+          "lng": 103.8304
+        },
+        {
+          "id": "mada_2",
+          "text": "Marvel Universe Experience Zone",
+          "detail": "Explore an immersive Marvel-themed section featuring wax figures of popular superheroes and characters with interactive special effects.",
+          "lat": 1.2442,
+          "lng": 103.8304
+        },
+        {
+          "id": "mada_3",
+          "text": "Historical Figures Gallery",
+          "detail": "View meticulously crafted wax representations of world leaders, scientists, and historical icons displayed in period-appropriate settings.",
+          "lat": 1.2442,
+          "lng": 103.8304
+        },
+        {
+          "id": "mada_4",
+          "text": "Sports Stars Collection",
+          "detail": "Encounter wax figures of legendary athletes and sports personalities from various disciplines arranged in dynamic poses.",
+          "lat": 1.2442,
+          "lng": 103.8304
+        },
+        {
+          "id": "mada_5",
+          "text": "Asian Icons Showcase",
+          "detail": "Discover wax figures celebrating Asian entertainment stars, Bollywood actors, and regional cultural personalities.",
+          "lat": 1.2442,
+          "lng": 103.8304
+        },
+        {
+          "id": "mada_6",
+          "text": "Interactive Green Screen Photo Studio",
+          "detail": "Create personalized digital photos by posing in front of green screen backdrops featuring famous movie and concert venues.",
+          "lat": 1.2442,
+          "lng": 103.8304
+        }
+      ],
+      "food": [
+        {
+          "id": "mada_f1",
+          "text": "Laksa at nearby hawker stalls",
+          "detail": "Enjoy this iconic Singaporean noodle soup with curry broth, rice noodles, and seafood available at food courts near Sentosa attractions."
+        },
+        {
+          "id": "mada_f2",
+          "text": "Satay skewers",
+          "detail": "Sample grilled meat skewers served with peanut sauce, a popular Malay-influenced snack found throughout Sentosa's dining areas."
+        },
+        {
+          "id": "mada_f3",
+          "text": "Chili crab at Sentosa restaurants",
+          "detail": "Taste Singapore's famous dish of crab cooked in a savory-sweet chili tomato sauce at restaurants within walking distance."
+        },
+        {
+          "id": "mada_f4",
+          "text": "Chicken rice",
+          "detail": "Experience this simple yet beloved Singaporean comfort food with fragrant oiled rice and tender poached or roasted chicken."
+        },
+        {
+          "id": "mada_f5",
+          "text": "Durian desserts",
+          "detail": "Try king of fruits-inspired treats like durian ice cream or durian pastries available at Sentosa's specialty dessert shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mada_c1",
+          "text": "Respect photography etiquette",
+          "detail": "While photos with wax figures are encouraged, be mindful of other visitors and avoid blocking sightlines; queues move best when people are considerate."
+        },
+        {
+          "id": "mada_c2",
+          "text": "Visit during off-peak hours",
+          "detail": "Weekday mornings and early afternoons typically see fewer crowds than weekend afternoons, allowing more time to enjoy each exhibit without rushing."
+        },
+        {
+          "id": "mada_c3",
+          "text": "Dress code is casual but comfortable",
+          "detail": "Sentosa's tropical climate means light clothing is appropriate; wear comfortable walking shoes as the museum involves standing and moving between themed zones."
+        },
+        {
+          "id": "mada_c4",
+          "text": "Combine with other Sentosa attractions",
+          "detail": "Plan your visit as part of a larger Sentosa day trip with nearby attractions like Universal Studios or beaches to maximize your time on the island."
+        }
+      ]
+    },
+    {
+      "id": "imbiah_lookout",
+      "name": "Imbiah Lookout",
+      "nameIt": "Imbiah Lookout",
+      "lat": 1.2497,
+      "lng": 103.8175,
+      "type": "NATURE",
+      "description": "A scenic vantage point in the heart of Sentosa offering elevated views of the island's attractions, surrounding beaches, and the Singapore skyline. The area features lush gardens, walking trails, and is an excellent spot for photography and enjoying cool breezes.",
+      "imageQueries": [
+        "Imbiah Lookout Sentosa",
+        "Imbiah Lookout views"
+      ],
+      "activities": [
+        {
+          "id": "imbi_1",
+          "text": "Panoramic Photography",
+          "detail": "Capture sweeping views of Sentosa's beaches, the southern islands, and Singapore's skyline from multiple vantage points along the lookout platform."
+        },
+        {
+          "id": "imbi_2",
+          "text": "Garden Walk",
+          "detail": "Stroll through the lush tropical gardens surrounding the lookout area, featuring native plants and well-maintained pathways with interpretive signage."
+        },
+        {
+          "id": "imbi_3",
+          "text": "Sunset Viewing",
+          "detail": "Experience the golden hour from this elevated position as the sun sets over the Straits of Singapore and nearby islands."
+        },
+        {
+          "id": "imbi_4",
+          "text": "Nature Trail Exploration",
+          "detail": "Follow the marked walking trails that connect Imbiah Lookout to other parts of Sentosa, passing through forested areas with wildlife spotting opportunities."
+        },
+        {
+          "id": "imbi_5",
+          "text": "Skywalk Visit",
+          "detail": "Access the nearby Sentosa Skywalk, a suspended walkway offering thrilling elevated views and unique perspectives of the island landscape.",
+          "lat": 1.2494,
+          "lng": 103.8303
+        },
+        {
+          "id": "imbi_6",
+          "text": "Merlion Viewing",
+          "detail": "View the iconic Sentosa Merlion statue from a distance, one of Singapore's most recognizable landmarks.",
+          "lat": 1.2495,
+          "lng": 103.8307
+        }
+      ],
+      "food": [
+        {
+          "id": "imbi_f1",
+          "text": "Local Hawker Center Nasi Lemak",
+          "detail": "Find authentic fragrant coconut rice with sambal, anchovies, and hard-boiled eggs at nearby Sentosa food courts and hawker stalls."
+        },
+        {
+          "id": "imbi_f2",
+          "text": "Laksa",
+          "detail": "Sample the rich coconut-based curry noodle soup with seafood or chicken, a beloved Singaporean comfort food available at nearby dining venues."
+        },
+        {
+          "id": "imbi_f3",
+          "text": "Satay Skewers",
+          "detail": "Enjoy grilled meat skewers with peanut sauce from vendors and restaurants near the lookout area, a popular local snack."
+        },
+        {
+          "id": "imbi_f4",
+          "text": "Chilled Sugarcane Juice",
+          "detail": "Refresh yourself with freshly pressed sugarcane juice, commonly sold by mobile vendors throughout Sentosa during warm afternoons."
+        }
+      ],
+      "culture": [
+        {
+          "id": "imbi_c1",
+          "text": "Respect Quiet Hours",
+          "detail": "Be mindful of early morning and evening as peaceful times for contemplation; keep noise levels low to preserve the serene atmosphere valued by locals."
+        },
+        {
+          "id": "imbi_c2",
+          "text": "Dress for Tropical Weather",
+          "detail": "Wear light, breathable clothing and apply sunscreen as the elevated lookout offers minimal shade and UV exposure is intense year-round."
+        },
+        {
+          "id": "imbi_c3",
+          "text": "Stay on Marked Paths",
+          "detail": "Follow designated trails and don't venture into restricted garden areas, as this protects both the ecosystem and ensures visitor safety on the island."
+        }
+      ]
+    },
+    {
+      "id": "sentosa_boardwalk",
+      "name": "Sentosa Boardwalk",
+      "nameIt": "Sentosa Boardwalk",
+      "lat": 1.2515,
+      "lng": 103.8195,
+      "type": "COASTAL",
+      "description": "A scenic waterfront promenade connecting attractions across the island with retail shops, restaurants, and picturesque views of the coast and neighboring islands. It's ideal for leisurely strolls, dining, and soaking in the tropical island atmosphere.",
+      "imageQueries": [
+        "Sentosa Boardwalk",
+        "Sentosa Boardwalk waterfront"
+      ],
+      "activities": [
+        {
+          "id": "sent_1",
+          "text": "Leisurely Boardwalk Stroll",
+          "detail": "Walk the scenic 1.5 km waterfront promenade with unobstructed views of the Straits of Singapore and nearby islands like Kusu Island and St. John's Island.",
+          "lat": 1.2492,
+          "lng": 103.8303
+        },
+        {
+          "id": "sent_2",
+          "text": "Sunset Viewing",
+          "detail": "Time your visit for late afternoon to catch the golden hour light reflecting off the water, a favorite photo spot for visitors and locals alike.",
+          "lat": 1.2492,
+          "lng": 103.8303
+        },
+        {
+          "id": "sent_3",
+          "text": "Retail Shopping",
+          "detail": "Browse the duty-free shopping outlets and boutique stores lining the boardwalk for souvenirs, fashion, and luxury goods unique to Sentosa.",
+          "lat": 1.2492,
+          "lng": 103.8303
+        },
+        {
+          "id": "sent_4",
+          "text": "Waterfront Dining",
+          "detail": "Enjoy meals at multiple restaurants and cafes positioned right along the promenade with al fresco seating overlooking the coastline.",
+          "lat": 1.2492,
+          "lng": 103.8303
+        },
+        {
+          "id": "sent_5",
+          "text": "Photography at Beach Access Points",
+          "detail": "Stop at designated viewing platforms and beach access areas to capture professional-quality photos of Singapore's southern coastline and passing vessels.",
+          "lat": 1.2492,
+          "lng": 103.8303
+        },
+        {
+          "id": "sent_6",
+          "text": "Island-Hopping Planning",
+          "detail": "Use the boardwalk as a launch point to book tours and ferries to nearby islands such as Lazarus Island, Sisters' Islands, or Pulau Semakau.",
+          "lat": 1.2492,
+          "lng": 103.8303
+        }
+      ],
+      "food": [
+        {
+          "id": "sent_f1",
+          "text": "Chili Crab",
+          "detail": "A signature Singapore dish featuring mud crab cooked in a savory-sweet chili and tomato sauce, commonly served at boardwalk seafood restaurants."
+        },
+        {
+          "id": "sent_f2",
+          "text": "Laksa",
+          "detail": "A rich coconut curry noodle soup with shrimp and fish cake, available at several casual food outlets along the boardwalk."
+        },
+        {
+          "id": "sent_f3",
+          "text": "Satay Skewers",
+          "detail": "Grilled meat (chicken, beef, or seafood) on bamboo sticks served with peanut sauce, a popular quick bite from food stalls near the promenade."
+        },
+        {
+          "id": "sent_f4",
+          "text": "Fresh Seafood Platters",
+          "detail": "Boardwalk restaurants specialize in steamed or grilled fresh catch featuring prawns, grouper, and squid sourced from local waters."
+        },
+        {
+          "id": "sent_f5",
+          "text": "Ice Kacang",
+          "detail": "A refreshing shaved ice dessert topped with syrup, condensed milk, and various toppings, perfect for cooling down during tropical heat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sent_c1",
+          "text": "Respect Beach Closure Signs",
+          "detail": "Certain areas of the boardwalk have designated swimming and non-swimming zones; always observe signage to avoid strong currents and water traffic."
+        },
+        {
+          "id": "sent_c2",
+          "text": "Dress Modestly at Sunset",
+          "detail": "While the boardwalk is casual, wearing light, breathable clothing and avoiding overly revealing attire respects the multicultural and family-friendly atmosphere of the island."
+        },
+        {
+          "id": "sent_c3",
+          "text": "Peak Hours Are Weekends and Evenings",
+          "detail": "Visit early morning or weekday afternoons to experience a quieter boardwalk, as locals and tourists flood the promenade during Friday to Sunday evenings and public holidays."
+        },
+        {
+          "id": "sent_c4",
+          "text": "Tipping is Not Mandatory but Appreciated",
+          "detail": "Singapore's service industry does not expect tips as gratuity is often included in bills, but rounding up or leaving 10 percent is welcome at casual dining spots."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Trapizza",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Contemporary Italian pizzeria and restaurant with wood-fired ovens serving authentic Neapolitan pizza and fresh pasta.",
+      "mustOrder": "Margherita Pizza",
+      "lat": 1.2476,
+      "lng": 103.8247
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Tanjong Beach Club",
+      "address": "120 Tanjong Beach Walk, Sentosa Island",
+      "neighbourhood": "Tanjong Beach",
+      "cuisine": "International",
+      "priceRange": "€€€",
+      "description": "Beachfront dining destination with Mediterranean-inspired cuisine and vibrant cocktail scene overlooking the Singapore Strait.",
+      "mustOrder": "Grilled Fish of the Day",
+      "lat": 1.2505,
+      "lng": 103.8308
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Coastes",
+      "address": "51 The Sentosa, Sentosa Island",
+      "neighbourhood": "Siloso Beach",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Stylish beachfront restaurant offering Mediterranean cuisine with sunset views and a relaxed island atmosphere.",
+      "mustOrder": "Pan-Seared Sea Bass",
+      "lat": 1.2497,
+      "lng": 103.8189
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Ristorante Italiano",
+      "address": "50 Imbiah Road, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Fine dining Italian restaurant featuring classic dishes prepared with imported ingredients and an extensive wine collection.",
+      "mustOrder": "Osso Buco",
+      "lat": 1.2445,
+      "lng": 103.8277
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Vansh",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Indian",
+      "priceRange": "€€€",
+      "description": "Contemporary Indian restaurant featuring modern interpretations of regional Indian cuisine in an elegant setting.",
+      "mustOrder": "Butter Chicken",
+      "lat": 1.2476,
+      "lng": 103.8247
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Folksa Cafe & Bakery",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Café/International",
+      "priceRange": "€€",
+      "description": "Casual café and bakery offering pastries, sandwiches and light meals with a comfortable neighbourhood vibe.",
+      "mustOrder": "Croissants",
+      "lat": 1.2476,
+      "lng": 103.8247
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Slurp",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Japanese",
+      "priceRange": "€€",
+      "description": "Casual Japanese ramen and noodle bar serving authentic bowls with rich broths and quality toppings.",
+      "mustOrder": "Tonkotsu Ramen",
+      "lat": 1.2476,
+      "lng": 103.8247
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "The Cliff",
+      "address": "2 Bukit Manis Road, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "International",
+      "priceRange": "€€€€",
+      "description": "Upscale fine dining restaurant perched on cliffs with panoramic island views and contemporary international cuisine.",
+      "mustOrder": "Wagyu Beef",
+      "lat": 1.2532,
+      "lng": 103.8298
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Sorsó",
+      "address": "Quayside Isle, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Spanish",
+      "priceRange": "€€€",
+      "description": "Spanish restaurant and bar featuring tapas, paella and Mediterranean dishes in a vibrant waterfront location.",
+      "mustOrder": "Paella Valenciana",
+      "lat": 1.2495,
+      "lng": 103.8195
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Bellini",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Elegant Italian fine dining establishment with classic preparations and an impressive selection of Italian wines.",
+      "mustOrder": "Homemade Tagliatelle Bolognese",
+      "lat": 1.2476,
+      "lng": 103.8247
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "The Banana Leaf",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Indian",
+      "priceRange": "€€",
+      "description": "Casual South Indian restaurant serving authentic banana leaf rice, curries and traditional comfort food.",
+      "mustOrder": "Banana Leaf Rice with Sambar",
+      "lat": 1.2476,
+      "lng": 103.8247
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Kilo Lounge",
+      "address": "50 Imbiah Road, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Sophisticated lounge and restaurant offering Mediterranean cuisine with stylish ambiance and craft cocktails.",
+      "mustOrder": "Duck Confit",
+      "lat": 1.2445,
+      "lng": 103.8277
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Pinchos",
+      "address": "Quayside Isle, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€€",
+      "description": "Spanish tapas bar and restaurant specializing in small plates, jamón and sherries in a lively social setting.",
+      "mustOrder": "Jamón Ibérico",
+      "lat": 1.2495,
+      "lng": 103.8195
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Sentosa Makan Sutra Food Court",
+      "address": "26 Sentosa Gateway, Sentosa Island",
+      "neighbourhood": "Sentosa Central",
+      "cuisine": "Asian Street Food",
+      "priceRange": "€",
+      "description": "Casual hawker-style food court featuring a variety of Singapore's best street food and local favourites at budget prices.",
+      "mustOrder": "Laksa or Chicken Rice",
+      "lat": 1.2476,
+      "lng": 103.8247
+    }
+  ]
+}
