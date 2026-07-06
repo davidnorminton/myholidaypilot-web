@@ -207,8 +207,8 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 
 @media (max-width:560px){
   .wrap{padding-inline:18px}
-  .grid--regions{grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:14px}
-  .grid--places{grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px}
+  .grid--regions{grid-template-columns:1fr; gap:14px}
+  .grid--places{grid-template-columns:1fr; gap:14px}
   .rd-hero__emoji{width:54px; height:54px; font-size:26px}
 }
 @media (prefers-reduced-motion:reduce){
@@ -2740,7 +2740,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 
 /* --- Place detail hero: no-image state uses body colour, dark text --- */
 .pd-hero--noimg{background:var(--paper); min-height:0}
-.pd-hero--noimg .pd-hero__content{padding-block:40px 20px}
+.pd-hero--noimg .pd-hero__content{padding-block:72px 56px}
 .pd-hero--noimg .pd-hero__name{color:var(--ink); text-shadow:none}
 .pd-hero--noimg .pd-hero__alt{color:var(--muted)}
 .pd-hero--noimg .chip--solid{background:var(--ink); color:#fff}
@@ -2841,3 +2841,8 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .smartimg{opacity:0; transition:opacity .45s ease}
 .smartimg.is-loaded{opacity:1}
 @media (prefers-reduced-motion: reduce){ .smartimg{transition:none} .smartimg.is-loaded{opacity:1} }
+
+/* --- Gallery card country flag --- */
+.gal__flag{position:absolute; top:8px; right:8px; display:inline-flex; align-items:center; justify-content:center;
+  width:30px; height:30px; font-size:17px; line-height:1; background:rgba(255,255,255,.92); backdrop-filter:blur(4px);
+  border-radius:999px; box-shadow:0 2px 8px rgba(0,0,0,.18)}

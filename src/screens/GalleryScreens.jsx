@@ -105,12 +105,15 @@ export function GalleryScreen() {
       )}
 
       <div className="gal__grid">
-        {shown.map((r) => (
+        {shown.map((r) => {
+          const flag = COUNTRIES.find((c) => c.slug === r.countryId)?.flag
+          return (
           <Link key={r.id} to={`/gallery/${r.slug}`} className="gal__card">
             <div className="gal__media">
               {coverOf(r)
                 ? <img src={coverOf(r)} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />
                 : <span className="gal__ph"><MapPin size={20} /></span>}
+              {flag && <span className="gal__flag" aria-hidden>{flag}</span>}
               {!!r.featured && <span className="gal__feat"><Star size={11} /> Featured</span>}
             </div>
             <div className="gal__body">
@@ -126,7 +129,8 @@ export function GalleryScreen() {
               </p>
             </div>
           </Link>
-        ))}
+          )
+        })}
       </div>
     </div>
   )
