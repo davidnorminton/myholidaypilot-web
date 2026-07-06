@@ -6,7 +6,6 @@ import { getDb, schema } from './_lib/db.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
 
 const ALLOWED = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/avif'])
-const FALLBACK_EXT = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp', 'image/gif': 'gif', 'image/avif': 'avif' }
 const slug = (s) => (s || 'image').toLowerCase().replace(/\.[^.]+$/, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 50) || 'image'
 const MAX_WIDTH = 1600
 
@@ -22,6 +21,8 @@ export default handler(async (req, res) => {
   if (input.length > 10 * 1024 * 1024) throw fail(400, 'Image is larger than 10 MB')
 
   // Auto-orient, downscale to a sensible max width, and convert to WebP.
+  // SECURITY: if sharp can't parse it, it isn't a valid image — reject rather
+  // than store the raw bytes (a payload masquerading as an image).
   let out, ext
   try {
     out = await sharp(input, { animated: contentType === 'image/gif' })
@@ -31,8 +32,7 @@ export default handler(async (req, res) => {
       .toBuffer()
     ext = 'webp'
   } catch {
-    out = input                                   // if processing fails, keep the original
-    ext = FALLBACK_EXT[contentType]
+    throw fail(400, 'That file could not be read as an image')
   }
 
   const name = `${slug(filename)}-${Date.now().toString(36)}.${ext}`
@@ -47,7 +47,7 @@ export default handler(async (req, res) => {
     const db = getDb()
     const id = name.replace(/\.[^.]+$/, '')
     await db.insert(schema.media).values({
-      id, name, mime: ext === 'webp' ? 'image/webp' : contentType, data: out, createdAt: Date.now(),
+      id, name, mime: 'image/webp', data: out, createdAt: Date.now(),
     })
     return send(res, 201, { url: `/api/media?id=${id}`, bytes: out.length, storage: 'db' })
   }

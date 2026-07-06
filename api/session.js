@@ -15,6 +15,11 @@ export default handler(async (req, res) => {
     const user = await requireUser(req)             // verifies the fresh Google token
     const token = crypto.randomBytes(32).toString('hex')
     const expiresAt = Date.now() + THIRTY_DAYS
+    // housekeeping: sweep expired sessions so the table doesn't grow forever
+    try {
+      const { lt } = await import('drizzle-orm')
+      await db.delete(sessions).where(lt(sessions.expiresAt, Date.now()))
+    } catch { /* non-fatal */ }
     await db.insert(sessions).values({ token, userId: user.id, expiresAt })
     return send(res, 200, { token, expiresAt, role: user.role })
   }

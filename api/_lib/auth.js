@@ -9,7 +9,13 @@ const adminEmails = (process.env.ADMIN_EMAILS || process.env.VITE_ADMIN_EMAILS |
 const isProd = process.env.NODE_ENV === 'production' ||
   (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'development')
 
-const isAdmin = (email) => adminEmails.length === 0 || adminEmails.includes((email || '').toLowerCase())
+// Admin check. SECURITY: if ADMIN_EMAILS is unset we fail CLOSED in
+// production (nobody is admin) rather than open (everybody is). The
+// permissive empty-list behaviour survives only in local dev, where the
+// dev sign-in is already admin anyway.
+const isAdmin = (email) => adminEmails.length === 0
+  ? !isProd
+  : adminEmails.includes((email || '').toLowerCase())
 
 async function profileFromReq(req) {
   // Our own session (exchanged at sign-in) — outlives Google's 1-hour tokens.
