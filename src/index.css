@@ -2819,3 +2819,8 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
   .sitesearch.is-focus .sitesearch__input{width:100%}
   .sitesearch__drop{left:0; right:0; width:auto}
 }
+
+/* --- Drawer menu items with icons --- */
+.navdrawer__link{display:flex; align-items:center; gap:12px}
+.navdrawer__icon{flex:none; color:var(--muted, #7c766c)}
+.navdrawer__link:hover .navdrawer__icon, .navdrawer__link.nav__link--on .navdrawer__icon{color:var(--gold)}

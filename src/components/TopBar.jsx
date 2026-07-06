@@ -1,19 +1,19 @@
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Compass, Map as MapIcon, Wand2, Car, Lightbulb, BookOpen } from 'lucide-react'
 import Logo from './Logo.jsx'
 import { paths } from '../lib/paths.js'
 import AuthButton from './AuthButton.jsx'
 import SiteSearch from './SiteSearch.jsx'
 
 const LINKS = [
-  { to: paths.destinations(), label: 'Destinations' },
-  { to: paths.plan(), label: 'Plan' },
-  { to: paths.guided(), label: 'Guided planner' },
-  { to: paths.dayTrips(), label: 'Day trips' },
-  { to: '/gallery', label: 'Trip ideas' },
-  { to: paths.blog(), label: 'Blog' },
+  { to: paths.destinations(), label: 'Destinations', icon: Compass },
+  { to: paths.plan(), label: 'Plan', icon: MapIcon },
+  { to: paths.guided(), label: 'Guided planner', icon: Wand2 },
+  { to: paths.dayTrips(), label: 'Day trips', icon: Car },
+  { to: '/gallery', label: 'Trip ideas', icon: Lightbulb },
+  { to: paths.blog(), label: 'Blog', icon: BookOpen },
 ]
 
 export default function TopBar() {
@@ -59,6 +59,7 @@ export default function TopBar() {
             </div>
             {LINKS.map((l) => (
               <NavLink key={l.to} to={l.to} className="navdrawer__link" onClick={() => setOpen(false)}>
+                <l.icon size={18} strokeWidth={2} className="navdrawer__icon" />
                 {l.label}
               </NavLink>
             ))}
