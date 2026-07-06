@@ -64,6 +64,55 @@ const countries = fs.existsSync(dataDir)
   ? fs.readdirSync(dataDir).filter((d) => fs.existsSync(path.join(dataDir, d, 'index.json')))
   : []
 
+// ── home page ───────────────────────────────────────────────────────────────
+// Assembled from the static, high-value parts (headline, pitch, feature
+// sections, destination list). Dynamic bits (live blog, rankings) stay
+// client-side — crawlers get the substance, humans get the full SPA.
+{
+  const liveNames = countries
+    .map((slug) => nameFor(slug, readJson(path.join(dataDir, slug, 'country.json'), {})))
+    .sort((a, b) => a.localeCompare(b))
+  write('/', render({
+    urlPath: '/',
+    title: 'myholidaypilot — travel guides, region by region',
+    description: 'Handcrafted travel guides to the world’s regions — where to go, what to eat, and the stories behind it. Plan a trip region by region.',
+    jsonLd: {
+      '@context': 'https://schema.org', '@type': 'WebSite', name: 'myholidaypilot', url: SITE,
+      description: 'Handcrafted travel guides, region by region.',
+      potentialAction: { '@type': 'SearchAction', target: `${SITE}/destinations`, 'query-input': 'required name=q' },
+    },
+    bodyHtml: `<main>`
+      + `<p>Your travel copilot</p>`
+      + `<h1>See more. Plan less.</h1>`
+      + `<p>Handcrafted guides to the world’s regions — where to go, what to eat, and the stories behind it. New countries added all the time.</p>`
+      + `<h2>Every place, mapped and worth your time</h2>`
+      + `<p>Each country is broken into its real regions, and every region into its towns, cities, islands and parks. Every place comes with the things to do there, the food to try, and the local customs worth knowing.</p>`
+      + `<h2>Where to eat, and when to be there</h2>`
+      + `<p>A curated list of restaurants for every region — each with the dish to order. Plus a festival calendar for every country, so you can time your trip.</p>`
+      + `<h2>The story behind the country</h2>`
+      + `<p>A timeline from prehistory to today for every country, plus practical guides to getting around: trains, taxis and tickets, with honest local warnings.</p>`
+      + (liveNames.length ? `<h2>Destinations</h2><ul>${liveNames.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : '')
+      + `</main>`,
+  }))
+  pages++
+}
+
+// ── destinations index ───────────────────────────────────────────────────────
+{
+  const liveNames = countries
+    .map((slug) => nameFor(slug, readJson(path.join(dataDir, slug, 'country.json'), {})))
+    .sort((a, b) => a.localeCompare(b))
+  write('/destinations', render({
+    urlPath: '/destinations',
+    title: 'Destinations — every country, region by region | myholidaypilot',
+    description: truncate('Browse travel guides by country: ' + liveNames.join(', ') + '. Each mapped region by region.'),
+    jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Destinations', url: `${SITE}/destinations` },
+    bodyHtml: `<main><h1>Destinations</h1><p>Pick where to wander — every country mapped region by region.</p>`
+      + (liveNames.length ? `<ul>${liveNames.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : '') + `</main>`,
+  }))
+  pages++
+}
+
 for (const slug of countries) {
   const cDir = path.join(dataDir, slug)
   const index = readJson(path.join(cDir, 'index.json'), { regions: [] })
