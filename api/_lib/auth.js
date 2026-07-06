@@ -64,6 +64,18 @@ export async function requireUser(req) {
   // unconfigured and not in production). Real Google users honour ADMIN_EMAILS.
   const role = (p.dev || isAdmin(p.email)) ? 'admin' : 'user'
   const db = getDb()
+  // Account linking: if this email already has an account (e.g. created with
+  // a password), a Google sign-in joins THAT account rather than violating
+  // the unique(email) constraint. The existing row's id stays canonical so
+  // trips/favourites keep working.
+  const [existing] = await db.select({ id: schema.users.id })
+    .from(schema.users).where(eq(schema.users.email, p.email))
+  if (existing && existing.id !== p.id) {
+    await db.update(schema.users)
+      .set({ name: p.name, picture: p.picture || undefined, role })
+      .where(eq(schema.users.id, existing.id))
+    return { ...p, id: existing.id, role }
+  }
   await db.insert(schema.users)
     .values({ id: p.id, email: p.email, name: p.name, picture: p.picture, role })
     .onConflictDoUpdate({ target: schema.users.id, set: { email: p.email, name: p.name, picture: p.picture, role } })

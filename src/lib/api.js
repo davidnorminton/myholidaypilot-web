@@ -122,6 +122,10 @@ export const api = {
     add: (data) => req('POST', '/comments', data),
     remove: (id) => req('DELETE', `/comments/${id}`),
   },
+  authEmail: {
+    signup: (data) => req('POST', '/auth?action=signup', data),
+    login: (data) => req('POST', '/auth?action=login', data),
+  },
   contact: {
     send: (data) => req('POST', '/contact', data),
     list: () => req('GET', '/contact'),

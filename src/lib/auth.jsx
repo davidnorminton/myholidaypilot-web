@@ -87,6 +87,19 @@ export function AuthProvider({ children }) {
     if (window.google?.accounts?.id) window.google.accounts.id.disableAutoSelect()
   }, [])
 
+  // Email/password sign-in and sign-up. On success the server returns the
+  // same session shape the Google flow produces, so downstream is identical.
+  const emailAuth = useCallback(async (mode, form) => {
+    const r = mode === 'signup' ? await api.authEmail.signup(form) : await api.authEmail.login(form)
+    const u = {
+      name: r.name, email: (r.email || '').toLowerCase(), picture: r.picture || '',
+      sub: null, session: r.token, sessionExpiresAt: r.expiresAt, local: true,
+    }
+    setUser(u)
+    try { localStorage.setItem(USER_KEY, JSON.stringify(u)) } catch { /* ignore */ }
+    return u
+  }, [])
+
   // Local-only sign-in so the admin UI is testable in dev without a client ID.
   const devSignIn = useCallback(() => {
     const u = { name: 'Local Admin', email: 'dev@local', picture: '', sub: 'dev', dev: true }
@@ -123,7 +136,7 @@ export function AuthProvider({ children }) {
 
   const isAdmin = !!user && (ADMIN_EMAILS.length === 0 || ADMIN_EMAILS.includes((user.email || '').toLowerCase()))
 
-  const value = { user, isAdmin, configured, ready, isDev: import.meta.env.DEV, signOut, devSignIn }
+  const value = { user, isAdmin, configured, ready, isDev: import.meta.env.DEV, signOut, devSignIn, emailAuth }
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 

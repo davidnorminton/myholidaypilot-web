@@ -2746,3 +2746,15 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .pd-hero--noimg .chip--solid{background:var(--ink); color:#fff}
 .pd-hero--noimg .pd-save{background:#fff; color:var(--ink); border:1px solid var(--line); backdrop-filter:none}
 .pd-hero--noimg .pd-save:hover, .pd-hero--noimg .pd-save.is-on{color:#fff; background:rgba(187,58,44,.9); border-color:transparent}
+
+/* --- Email/password auth form --- */
+.auth__menu--signin{min-width:270px; padding:14px}
+.eauth__tabs{display:flex; gap:4px; margin-bottom:12px; background:color-mix(in srgb, var(--ink) 4%, var(--paper)); border-radius:9px; padding:3px}
+.eauth__tabs button{flex:1; padding:7px 0; border:0; border-radius:7px; background:transparent; font:inherit; font-size:13px; font-weight:600; color:var(--muted); cursor:pointer}
+.eauth__tabs button.is-on{background:#fff; color:var(--ink); box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.eauth__input{display:block; width:100%; margin-bottom:8px; padding:10px 12px; border:1px solid var(--line); border-radius:9px; font:inherit; font-size:14px; background:#fff}
+.eauth__input:focus{outline:none; border-color:var(--gold); box-shadow:0 0 0 3px color-mix(in srgb, var(--gold) 18%, transparent)}
+.eauth__err{color:#c0392b; font-size:12.5px; margin:2px 0 8px}
+.eauth__go{width:100%; justify-content:center; margin-top:2px}
+.auth__or{display:flex; align-items:center; gap:10px; margin:12px 0; color:var(--faint); font-size:12px}
+.auth__or::before, .auth__or::after{content:''; flex:1; height:1px; background:var(--line)}

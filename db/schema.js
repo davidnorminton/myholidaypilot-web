@@ -11,7 +11,19 @@ export const users = sqliteTable('users', {
   name: text('name'),
   picture: text('picture'),
   role: text('role', { enum: ['user', 'admin'] }).notNull().default('user'),
+  // scrypt hash for email/password accounts; null for Google-only accounts.
+  passwordHash: text('password_hash'),
   createdAt: integer('created_at').notNull().$defaultFn(now),
+})
+
+// ── login attempts ──────────────────────────────────────────────────────────
+// Brute-force throttle for password logins (DB-backed — serverless functions
+// share no memory). One row per email per window.
+export const loginAttempts = sqliteTable('login_attempts', {
+  id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+  email: text('email').notNull(),
+  windowStart: integer('window_start').notNull(),
+  count: integer('count').notNull().default(1),
 })
 
 // ── favourites ──────────────────────────────────────────────────────────────
