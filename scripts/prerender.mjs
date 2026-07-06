@@ -110,7 +110,10 @@ const countries = fs.existsSync(dataDir)
     description: truncate('Browse travel guides by country: ' + liveNames.join(', ') + '. Each mapped region by region.'),
     jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Destinations', url: `${SITE}/destinations` },
     bodyHtml: `<main><h1>Destinations</h1><p>Pick where to wander — every country mapped region by region.</p>`
-      + (liveNames.length ? `<ul>${liveNames.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : '') + `</main>`,
+      + (countries.length ? `<ul>${countries.map((slug) => {
+          const n = nameFor(slug, readJson(path.join(dataDir, slug, 'country.json'), {}))
+          return `<li><a href="${SITE}/${slug}">${esc(n)}</a></li>`
+        }).sort().join('')}</ul>` : '') + `</main>`,
   }))
   addUrl('/destinations', '0.6'); pages++
 }
@@ -129,11 +132,45 @@ for (const slug of countries) {
     title: `${name} travel guide — region by region | myholidaypilot`,
     description: truncate(`${blurb} ${regionNames.length ? 'Regions: ' + regionNames.join(', ') + '.' : ''}`),
     jsonLd: { '@context': 'https://schema.org', '@type': 'TouristDestination', name, description: blurb, url: `${SITE}/${slug}` },
-    bodyHtml: `<main><h1>${esc(name)}</h1><p>${esc(blurb)}</p>`
-      + (regionNames.length ? `<h2>Regions</h2><ul>${regionNames.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : '')
+    bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a></nav><h1>${esc(name)}</h1><p>${esc(blurb)}</p>`
+      + ((index.regions || []).length ? `<h2>Regions</h2><ul>${(index.regions || []).map((r) =>
+          `<li><a href="${SITE}/${slug}/${r.id}">${esc(r.name)}</a></li>`).join('')}</ul>` : '')
       + `</main>`,
   }))
   addUrl(`/${slug}`, '0.9'); pages++
+
+  // country-level guide pages (festivals / history / food / transport)
+  for (const topic of ['festivals', 'history', 'food', 'transport']) {
+    const g = readJson(path.join(cDir, 'guide', `${topic}.json`))
+    if (!g) continue
+    let inner = ''
+    if (topic === 'festivals' && Array.isArray(g.festivals)) {
+      inner = `<ul>${g.festivals.map((f) => {
+        const when = [f.month, f.regionName].filter(Boolean).map(esc).join(', ')
+        const d = f.description || f.detail
+        return `<li>${esc(f.name)}${when ? ` (${when})` : ''}${d ? ` — ${esc(truncate(d, 140))}` : ''}</li>`
+      }).join('')}</ul>`
+    } else if (Array.isArray(g.sections)) {
+      inner = g.sections.map((sec) => {
+        const items = (sec.items || []).map((it) => {
+          const label = it.label || it.period || it.name || ''
+          const text = it.text || it.detail || it.description || ''
+          return `<li>${label ? `<strong>${esc(label)}</strong>` : ''}${label && text ? ' — ' : ''}${esc(text)}</li>`
+        }).join('')
+        return (sec.title ? `<h3>${esc(sec.title)}</h3>` : '') + (items ? `<ul>${items}</ul>` : '')
+      }).join('')
+    }
+    const gtitle = g.title || topic
+    write(`/${slug}/${topic}`, render({
+      urlPath: `/${slug}/${topic}`,
+      title: `${gtitle} — ${name} travel guide | myholidaypilot`,
+      description: truncate(g.subtitle || `${gtitle} in ${name}.`),
+      jsonLd: { '@context': 'https://schema.org', '@type': 'Article', headline: `${gtitle} — ${name}`, url: `${SITE}/${slug}/${topic}` },
+      bodyHtml: `<main><nav><a href="${SITE}/${slug}">${esc(name)}</a></nav><h1>${esc(gtitle)}</h1>`
+        + (g.subtitle ? `<p>${esc(g.subtitle)}</p>` : '') + inner + `</main>`,
+    }))
+    addUrl(`/${slug}/${topic}`, '0.7'); pages++
+  }
 
   // regions + places
   for (const rSummary of (index.regions || [])) {
@@ -148,15 +185,15 @@ for (const slug of countries) {
       description: truncate(rf.history || rf.culturalNotes || `Things to do in ${rf.name}, ${name}: ${placeList.slice(0, 6).join(', ')}.`),
       image: rSummary.heroImage?.url,
       jsonLd: { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
-      bodyHtml: `<main><nav>${esc(name)}</nav><h1>${esc(rf.name)}</h1>`
+      bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a> › <a href="${SITE}/${slug}">${esc(name)}</a></nav><h1>${esc(rf.name)}</h1>`
         + (rf.nameIt && rf.nameIt !== rf.name ? `<p>${esc(rf.nameIt)}</p>` : '')
         + (rf.history ? `<h2>History</h2><p>${esc(rf.history)}</p>` : '')
         + (rf.culturalNotes ? `<h2>Culture</h2><p>${esc(rf.culturalNotes)}</p>` : '')
         + (rf.languageNotes ? `<h2>Language</h2><p>${esc(rf.languageNotes)}</p>` : '')
         + (rf.bestTimeToVisit ? `<h2>Best time to visit</h2><p>${esc(rf.bestTimeToVisit)}</p>` : '')
-        + (placeList.length ? `<h2>Places to visit</h2><ul>${places.map((p) => {
+        + (places.length ? `<h2>Places to visit</h2><ul>${places.map((p) => {
             const d = p.description ? ` — ${esc(truncate(p.description, 120))}` : ''
-            return `<li>${esc(p.name)}${d}</li>`
+            return `<li><a href="${SITE}/${slug}/${rSummary.id}/${p.id}">${esc(p.name)}</a>${d}</li>`
           }).join('')}</ul>` : '')
         + (restaurants.length ? `<h2>Where to eat</h2><ul>${restaurants.map((r) => {
             const bits = [r.cuisine, r.neighbourhood || r.address].filter(Boolean).map(esc).join(', ')
@@ -186,7 +223,7 @@ for (const slug of countries) {
         jsonLd: { '@context': 'https://schema.org', '@type': 'TouristAttraction', name: p.name,
           description: desc, address: { '@type': 'PostalAddress', addressRegion: rf.name, addressCountry: name },
           url: `${SITE}/${slug}/${rSummary.id}/${p.id}` },
-        bodyHtml: `<main><nav>${esc(name)} › ${esc(rf.name)}</nav><h1>${esc(p.name)}</h1>`
+        bodyHtml: `<main><nav><a href="${SITE}/${slug}">${esc(name)}</a> › <a href="${SITE}/${slug}/${rSummary.id}">${esc(rf.name)}</a></nav><h1>${esc(p.name)}</h1>`
           + (p.nameIt && p.nameIt !== p.name ? `<p>${esc(p.nameIt)}</p>` : '')
           + `<p>${esc(p.description || '')}</p>`
           + list(p.activities, 'Things to do')
@@ -247,8 +284,12 @@ for (const slug of countries) {
       title: 'The journal — travel notes & guides | myholidaypilot',
       description: 'Travel writing from myholidaypilot: how to travel region by region, eat like a local, and time your trips.',
       jsonLd: { '@context': 'https://schema.org', '@type': 'Blog', name: 'myholidaypilot journal', url: `${SITE}/blog` },
-      bodyHtml: `<main><h1>The journal</h1><ul>${posts.map((p) =>
-        `<li><a href="${SITE}/blog/${p.slug}">${esc(p.title)}</a>${p.dek ? ` — ${esc(p.dek)}` : ''}</li>`).join('')}</ul></main>`,
+      bodyHtml: `<main><h1>The journal</h1><p>Travel notes and guides — how to travel region by region, eat like a local, and time your trips.</p>`
+        + `<ul>${posts.map((p) => {
+            const ex = p.dek || (Array.isArray(p.body) ? p.body.find((x) => typeof x === 'string') : '') || ''
+            const tag = p.tag ? `${esc(p.tag)} · ` : ''
+            return `<li><a href="${SITE}/blog/${p.slug}">${esc(p.title)}</a>${ex ? `<br>${tag}${esc(truncate(ex, 140))}` : ''}</li>`
+          }).join('')}</ul></main>`,
     }))
     addUrl('/blog', '0.6'); pages++
 

@@ -45,7 +45,10 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         navigateFallback: '/index.html',
-        navigateFallbackDenylist: [/^\/api\//],   // never serve the app shell for API calls
+        // Never serve the app shell for API calls, the sitemap/robots files, or
+        // anything with a file extension (e.g. .xml, .txt) — let those hit the
+        // server so the real static file is returned instead of "Lost the trail".
+        navigateFallbackDenylist: [/^\/api\//, /^\/sitemap\.xml$/, /^\/robots\.txt$/, /\.[a-z0-9]+$/i],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           { // site data (regions, places, guides, hub) — fresh when online, available offline
