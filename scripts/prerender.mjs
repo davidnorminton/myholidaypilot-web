@@ -41,7 +41,9 @@ function render({ urlPath, title, description, image, jsonLd, bodyHtml }) {
   if (image) html = html.replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${esc(image)}$2`)
   html = html.replace(/(<meta property="og:title")/, `<meta property="og:url" content="${esc(canonical)}" />\n    $1`)
   if (jsonLd) {
-    html = html.replace('</head>', `  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n  </head>`)
+    const blocks = Array.isArray(jsonLd) ? jsonLd : [jsonLd]
+    const scripts = blocks.map((b) => `  <script type="application/ld+json">${JSON.stringify(b)}</script>`).join('\n')
+    html = html.replace('</head>', `${scripts}\n  </head>`)
   }
   // inject crawler-readable content into #root
   html = html.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`)
@@ -61,7 +63,13 @@ const nameFor = (slug, cj) => cj?.name || countryMetaMod.COUNTRY_META?.find?.((c
 
 let pages = 0
 const sitemapUrls = []                     // { loc, priority } collected as we render
-const addUrl = (urlPath, priority) => sitemapUrls.push({ loc: SITE + (urlPath === '/' ? '' : urlPath), priority })
+const TODAY = new Date().toISOString().slice(0, 10)
+const toDate = (v) => { try { return v ? new Date(v).toISOString().slice(0, 10) : null } catch { return null } }
+const addUrl = (urlPath, priority, lastmod) => sitemapUrls.push({ loc: SITE + (urlPath === '/' ? '' : urlPath), priority, lastmod: lastmod || TODAY })
+// BreadcrumbList JSON-LD from [{name, url}] crumbs — Google renders these as the
+// breadcrumb trail in search results instead of a bare URL.
+const breadcrumb = (crumbs) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) })
 const countries = fs.existsSync(dataDir)
   ? fs.readdirSync(dataDir).filter((d) => fs.existsSync(path.join(dataDir, d, 'index.json')))
   : []
@@ -122,6 +130,19 @@ for (const slug of countries) {
   const cDir = path.join(dataDir, slug)
   const index = readJson(path.join(cDir, 'index.json'), { regions: [] })
   const cj = readJson(path.join(cDir, 'country.json'), {})
+  // Images live separately, keyed region → place → [{ url }]. Used for og:image
+  // so shared links show the right photo (not the generic homepage fallback).
+  const images = readJson(path.join(cDir, 'images.json'), {})
+  const placeImage = (regionId, placeId) => images[regionId]?.[placeId]?.[0]?.url || null
+  // First place in a region that actually has an image set — not every place
+  // has one, so scan rather than assume places[0] has it.
+  const firstRegionImage = (regionId, placesArr) => {
+    for (const pl of (placesArr || [])) {
+      const u = placeImage(regionId, pl.id)
+      if (u) return u
+    }
+    return null
+  }
   const name = nameFor(slug, cj)
   const blurb = cj.blurb || `Travel guide to ${name} — region by region.`
 
@@ -183,8 +204,11 @@ for (const slug of countries) {
       urlPath: `/${slug}/${rSummary.id}`,
       title: `${rf.name}, ${name} — what to do, where to eat | myholidaypilot`,
       description: truncate(rf.history || rf.culturalNotes || `Things to do in ${rf.name}, ${name}: ${placeList.slice(0, 6).join(', ')}.`),
-      image: rSummary.heroImage?.url,
-      jsonLd: { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
+      image: rSummary.heroImage?.url || firstRegionImage(rSummary.id, places),
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
+        breadcrumb([{ name: 'Destinations', url: `${SITE}/destinations` }, { name, url: `${SITE}/${slug}` }, { name: rf.name, url: `${SITE}/${slug}/${rSummary.id}` }]),
+      ],
       bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a> › <a href="${SITE}/${slug}">${esc(name)}</a></nav><h1>${esc(rf.name)}</h1>`
         + (rf.nameIt && rf.nameIt !== rf.name ? `<p>${esc(rf.nameIt)}</p>` : '')
         + (rf.history ? `<h2>History</h2><p>${esc(rf.history)}</p>` : '')
@@ -202,7 +226,7 @@ for (const slug of countries) {
           }).join('')}</ul>` : '')
         + `</main>`,
     }))
-    addUrl(`/${slug}/${rSummary.id}`, '0.8'); pages++
+    addUrl(`/${slug}/${rSummary.id}`, '0.8', toDate(rf.generatedAt)); pages++
 
     for (const p of places) {
       const desc = truncate(p.description || `${p.name} in ${rf.name}, ${name}.`)
@@ -219,10 +243,13 @@ for (const slug of countries) {
         urlPath: `/${slug}/${rSummary.id}/${p.id}`,
         title: `${p.name}, ${rf.name} — ${name} travel guide | myholidaypilot`,
         description: desc,
-        image: p.image?.url,
-        jsonLd: { '@context': 'https://schema.org', '@type': 'TouristAttraction', name: p.name,
-          description: desc, address: { '@type': 'PostalAddress', addressRegion: rf.name, addressCountry: name },
-          url: `${SITE}/${slug}/${rSummary.id}/${p.id}` },
+        image: placeImage(rSummary.id, p.id),
+        jsonLd: [
+          { '@context': 'https://schema.org', '@type': 'TouristAttraction', name: p.name,
+            description: desc, address: { '@type': 'PostalAddress', addressRegion: rf.name, addressCountry: name },
+            url: `${SITE}/${slug}/${rSummary.id}/${p.id}` },
+          breadcrumb([{ name: 'Destinations', url: `${SITE}/destinations` }, { name, url: `${SITE}/${slug}` }, { name: rf.name, url: `${SITE}/${slug}/${rSummary.id}` }, { name: p.name, url: `${SITE}/${slug}/${rSummary.id}/${p.id}` }]),
+        ],
         bodyHtml: `<main><nav><a href="${SITE}/${slug}">${esc(name)}</a> › <a href="${SITE}/${slug}/${rSummary.id}">${esc(rf.name)}</a></nav><h1>${esc(p.name)}</h1>`
           + (p.nameIt && p.nameIt !== p.name ? `<p>${esc(p.nameIt)}</p>` : '')
           + `<p>${esc(p.description || '')}</p>`
@@ -231,7 +258,7 @@ for (const slug of countries) {
           + list(p.culture, 'Local customs & good to know')
           + `</main>`,
       }))
-      addUrl(`/${slug}/${rSummary.id}/${p.id}`, '0.6'); pages++
+      addUrl(`/${slug}/${rSummary.id}/${p.id}`, '0.6', toDate(rf.generatedAt)); pages++
     }
   }
 }
@@ -319,9 +346,8 @@ for (const slug of countries) {
 
 // ── sitemap.xml + robots.txt (complete, all countries) ───────────────────────
 {
-  const today = new Date().toISOString().slice(0, 10)
   const body = sitemapUrls.map((u) =>
-    `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><priority>${u.priority}</priority></url>`).join('\n')
+    `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`
   fs.writeFileSync(path.join(dist, 'sitemap.xml'), xml)
   fs.writeFileSync(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`)

@@ -28,6 +28,18 @@ export async function getRegion(id, country = 'italy') {
   return country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
 }
 export async function getImages(country = 'italy') {
+  // Prefer live images from the builder DB (so images set in the builder show
+  // up immediately, no deploy). Fall back to the static images.json bundled at
+  // build time if the API is unreachable or returns nothing.
+  try {
+    const res = await fetch(`/api/images?country=${encodeURIComponent(country)}`)
+    if (res.ok) {
+      const live = await res.json()
+      if (live && Object.keys(live).length) {
+        return country === 'italy' ? (imagesOverride() || live) : live
+      }
+    }
+  } catch { /* fall through to static */ }
   const baseImages = await getJSON(`${country}/images.json`).catch(() => ({}))
   return country === 'italy' ? (imagesOverride() || baseImages) : baseImages
 }
