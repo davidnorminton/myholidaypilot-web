@@ -1,6 +1,8 @@
+import { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
+// Eager: the content pages that are the common entry points / first paint.
 import LandingScreen from './screens/LandingScreen.jsx'
 import CountriesScreen from './screens/CountriesScreen.jsx'
 import ItalyHubScreen from './screens/ItalyHubScreen.jsx'
@@ -8,19 +10,22 @@ import RegionsScreen from './screens/RegionsScreen.jsx'
 import GuideScreen from './screens/GuideScreen.jsx'
 import RegionDetailScreen from './screens/RegionDetailScreen.jsx'
 import PlaceDetailScreen from './screens/PlaceDetailScreen.jsx'
-import PlanScreen from './screens/PlanScreen.jsx'
-import BlogScreen from './screens/BlogScreen.jsx'
-import ContactScreen from './screens/ContactScreen.jsx'
-import BlogPostScreen from './screens/BlogPostScreen.jsx'
-import AppScreen from './screens/AppScreen.jsx'
-import AdminScreen from './screens/AdminScreen.jsx'
-import SavedScreen from './screens/SavedScreen.jsx'
-import TripsScreen from './screens/TripsScreen.jsx'
-import SharedTripScreen from './screens/SharedTripScreen.jsx'
-import AccountScreen from './screens/AccountScreen.jsx'
-import GuidedPlannerScreen from './screens/GuidedPlannerScreen.jsx'
-import { GalleryScreen, GalleryTripScreen } from './screens/GalleryScreens.jsx'
-import DayTripsScreen from './screens/DayTripsScreen.jsx'
+// Lazy: heavier / secondary screens — split into their own chunks so a visitor
+// landing on a content page doesn't download the planner, admin, gallery, etc.
+const PlanScreen = lazy(() => import('./screens/PlanScreen.jsx'))
+const BlogScreen = lazy(() => import('./screens/BlogScreen.jsx'))
+const ContactScreen = lazy(() => import('./screens/ContactScreen.jsx'))
+const BlogPostScreen = lazy(() => import('./screens/BlogPostScreen.jsx'))
+const AppScreen = lazy(() => import('./screens/AppScreen.jsx'))
+const AdminScreen = lazy(() => import('./screens/AdminScreen.jsx'))
+const SavedScreen = lazy(() => import('./screens/SavedScreen.jsx'))
+const TripsScreen = lazy(() => import('./screens/TripsScreen.jsx'))
+const SharedTripScreen = lazy(() => import('./screens/SharedTripScreen.jsx'))
+const AccountScreen = lazy(() => import('./screens/AccountScreen.jsx'))
+const GuidedPlannerScreen = lazy(() => import('./screens/GuidedPlannerScreen.jsx'))
+const GalleryScreen = lazy(() => import('./screens/GalleryScreens.jsx').then((m) => ({ default: m.GalleryScreen })))
+const GalleryTripScreen = lazy(() => import('./screens/GalleryScreens.jsx').then((m) => ({ default: m.GalleryTripScreen })))
+const DayTripsScreen = lazy(() => import('./screens/DayTripsScreen.jsx'))
 import PlanGate from './components/PlanGate.jsx'
 import { useAuth } from './lib/auth.jsx'
 
@@ -37,6 +42,7 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
+      <Suspense fallback={<div className="page wrap" style={{ minHeight: '60vh' }} />}>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<LandingScreen />} />
@@ -67,6 +73,7 @@ export default function App() {
           <Route path="*" element={<NotFoundScreen />} />
         </Route>
       </Routes>
+      </Suspense>
     </>
   )
 }
