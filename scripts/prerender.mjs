@@ -220,7 +220,10 @@ for (const slug of countries) {
       preloadImagesFor: slug,
       title: `${rf.name}, ${name} — what to do, where to eat | myholidaypilot`,
       description: truncate(rf.history || rf.culturalNotes || `Things to do in ${rf.name}, ${name}: ${placeList.slice(0, 6).join(', ')}.`),
-      image: rSummary.heroImage?.url || firstRegionImage(rSummary.id, places),
+      // Use the baked cardImage (hero → first place with an image, DB-synced)
+      // so the preload URL matches exactly what the region page renders — the
+      // browser preload becomes a cache hit and the hero paints immediately.
+      image: rSummary.cardImage || rSummary.heroImage?.url || firstRegionImage(rSummary.id, places),
       jsonLd: [
         { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
         breadcrumb([{ name: 'Destinations', url: `${SITE}/destinations` }, { name, url: `${SITE}/${slug}` }, { name: rf.name, url: `${SITE}/${slug}/${rSummary.id}` }]),
