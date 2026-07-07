@@ -2869,3 +2869,15 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 /* --- Region content sheet: scrolls over the sticky image hero --- */
 .rd-sheet{position:relative; z-index:1; background:var(--paper); min-height:60vh; border-radius:20px 20px 0 0; margin-top:-20px}
 .rd-sheet .tabs{border-radius:20px 20px 0 0}
+
+/* --- Generic place placeholder (no photo) --- */
+.placeph{position:absolute; inset:0; width:100%; height:100%; overflow:hidden;
+  background:
+    radial-gradient(120% 120% at 30% 20%, color-mix(in srgb, var(--accent) 22%, var(--surface-2)) 0%, transparent 60%),
+    linear-gradient(150deg, color-mix(in srgb, var(--accent) 20%, #efece5) 0%, color-mix(in srgb, var(--accent) 34%, #d9d4c8) 100%);
+}
+.placeph__art{position:absolute; inset:0; width:100%; height:100%}
+.placeph__lines{stroke:color-mix(in srgb, var(--accent) 45%, #fff); opacity:.35}
+.placeph__compass{stroke:color-mix(in srgb, var(--accent) 55%, #fff); opacity:.7}
+.placeph__needle{fill:color-mix(in srgb, var(--accent) 60%, #fff); opacity:.85}
+.placeph__hub{fill:#fff; opacity:.9}

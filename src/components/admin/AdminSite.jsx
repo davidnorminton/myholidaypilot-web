@@ -61,7 +61,19 @@ export default function AdminSite({ regions = [] }) {
         {changed && <span className="admin-note">{Object.keys(dirty).length} unsaved change{Object.keys(dirty).length === 1 ? '' : 's'}</span>}
       </div>
 
-      <h3 className="admin-h3">Country hub images</h3>
+      <h3 className="admin-h3">Default place image</h3>
+      <p className="admin-note" style={{ marginTop: 4 }}>
+        Shown on any place that has no photo of its own — on place cards, region pages and place pages.
+        Leave blank to fall back to the built-in placeholder. Applies site-wide, instantly, no redeploy.
+      </p>
+      <ImageField
+        label="Default place image"
+        value={val('defaultPlaceImage')}
+        onChange={(v) => setVal('defaultPlaceImage', v)}
+        full
+      />
+
+      <h3 className="admin-h3" style={{ marginTop: 28 }}>Country hub images</h3>
       <p className="admin-note">
         The pictures on each country's hub cards (Regions, Festivals, History, Food, Getting around, Plan).
         These override the country's hub.json, so they apply instantly — no redeploy needed.

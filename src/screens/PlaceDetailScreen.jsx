@@ -12,13 +12,14 @@ import SaveButton from '../components/SaveButton.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import AskPlace from '../components/AskPlace.jsx'
-import { useFrontendAi } from '../lib/settings.js'
+import { useFrontendAi, useSettings } from '../lib/settings.js'
 import { useAffiliates, placeOffers } from '../lib/affiliates.js'
 import { PageLoader } from '../components/Loading.jsx'
 import { useSeo, canonicalUrl } from '../lib/seo.js'
 
 export default function PlaceDetailScreen() {
   const aiOn = useFrontendAi()
+  const settings = useSettings()
   const { country = 'italy', regionId, placeId } = useParams()
   const [region, setRegion] = useState(null)
   const [images, setImages] = useState([])
@@ -66,7 +67,7 @@ export default function PlaceDetailScreen() {
   if (region === null) return <PageLoader label="Opening place" />
   if (region === false || (region && !place)) return <NotFound regionId={regionId} country={country} />
 
-  const hero = place?.image || images[0]?.url
+  const hero = place?.image || images[0]?.url || settings?.defaultPlaceImage
   const viewTabs = [
     { id: 'info', label: 'Info', icon: Info },
     ...(place.activities?.length ? [{ id: 'do', label: 'Things to do', icon: Compass, count: place.activities.length }] : []),
