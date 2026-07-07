@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, MapPin, CalendarRange, Navigation } from 'lucide-react'
-import { getRegion, getImages } from '../lib/data.js'
+import { getRegion } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { regionColour, mapsQuery } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
@@ -29,26 +29,28 @@ export default function RegionDetailScreen() {
   const navigate = useNavigate()
   const aff = useAffiliates()
   const [region, setRegion] = useState(null)
-  const [images, setImages] = useState({})
   const [tab, setTab] = useState('places')
 
   useEffect(() => {
     let live = true
+    // Region file now carries each place's image (baked at build time) and the
+    // region's own hero — so the place cards render from this single fetch, no
+    // separate whole-country image download.
     getRegion(regionId, country).then((d) => live && setRegion(d)).catch(() => live && setRegion(false))
-    getImages(country).then((d) => live && setImages(d?.[regionId] || {})).catch(() => {})
     return () => { live = false }
   }, [regionId, country])
 
   const accent = useMemo(() => regionColour(region?.colour), [region])
 
   // Region hero image: explicit admin override, else the first place in the
-  // region that actually has an image (not every place has one, so scan).
+  // region that has an image (baked into place.image at build time).
   const heroImage = useMemo(() => {
     if (!region) return null
     return site[`regionHero.${regionId}`]
-      || (region.places || []).map((pl) => images[pl.id]?.[0]?.url).find(Boolean)
+      || region.heroImage?.url
+      || (region.places || []).map((p) => p.image).find(Boolean)
       || null
-  }, [region, images, site, regionId])
+  }, [region, site, regionId])
 
   useSeo({
     title: region ? region.name : undefined,
@@ -116,7 +118,7 @@ export default function RegionDetailScreen() {
             )}
             <div className="grid grid--places">
               {(region.places || []).map((p, i) => (
-                <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={images[p.id]?.[0]?.url} number={i + 1} index={i} />
+                <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={p.image} number={i + 1} index={i} />
               ))}
             </div>
           </>

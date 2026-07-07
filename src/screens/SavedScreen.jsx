@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Heart } from 'lucide-react'
-import { getPlacesIndex, getImages } from '../lib/data.js'
+import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { useFavourites } from '../lib/favourites.js'
 import { useAuth } from '../lib/auth.jsx'
@@ -13,18 +13,15 @@ export default function SavedScreen() {
   const { user } = useAuth()
   const { ids, ready } = useFavourites()
   const [index, setIndex] = useState(null)
-  const [images, setImages] = useState({})
 
   useEffect(() => {
     // A saved place can belong to any available country — load each country's
-    // index and tag entries so links and images resolve to the right one.
+    // index (which now carries each place's image) and tag entries so links
+    // and thumbnails resolve to the right one. No separate image fetch.
     const avail = COUNTRIES.filter((c) => c.available).map((c) => c.slug)
     Promise.all(avail.map((slug) =>
       getPlacesIndex(slug).then((rows) => rows.map((p) => ({ ...p, countryId: slug }))).catch(() => [])
     )).then((lists) => setIndex(lists.flat()))
-    Promise.all(avail.map((slug) =>
-      getImages(slug).then((m) => [slug, m]).catch(() => [slug, {}])
-    )).then((pairs) => setImages(Object.fromEntries(pairs)))
   }, [])
 
   const saved = useMemo(() => {
@@ -55,7 +52,7 @@ export default function SavedScreen() {
             {saved.map((p) => (
               <PlaceCard key={`${p.regionId}/${p.placeId}`} regionId={p.regionId} country={p.countryId}
                 place={{ id: p.placeId, name: p.name, nameIt: p.nameIt, type: p.type }}
-                image={images[p.countryId]?.[p.regionId]?.[p.placeId]?.[0]?.url} />
+                image={p.image} />
             ))}
           </div>
         )}

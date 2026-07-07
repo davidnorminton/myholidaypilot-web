@@ -21,7 +21,7 @@ const countries = fs.existsSync(dataDir)
   ? fs.readdirSync(dataDir).filter((d) => fs.existsSync(path.join(dataDir, d, 'index.json')))
   : []
 
-let total = 0
+let total = 0, placeTotal = 0
 for (const slug of countries) {
   const idxPath = path.join(dataDir, slug, 'index.json')
   const index = readJson(idxPath)
@@ -42,9 +42,39 @@ for (const slug of countries) {
       }
     }
     if (card) { r.cardImage = card; baked++ }
+
+    // Also bake each place's image into the region file, so the region detail
+    // page's place cards render from the region file alone — no separate
+    // whole-country image fetch.
+    const rfPath = path.join(dataDir, slug, 'regions', `${r.id}.json`)
+    const rf = readJson(rfPath)
+    if (rf?.places) {
+      let pb = 0
+      const reg = images[r.id] || {}
+      for (const p of rf.places) {
+        const u = reg[p.id]?.[0]?.url
+        if (u) { p.image = u; pb++ }
+      }
+      if (pb) { fs.writeFileSync(rfPath, JSON.stringify(rf)); placeTotal += pb }
+    }
   }
+
+  // Bake images into places-index.json too — the flat per-country list that
+  // saved/trips/gallery/day-trips pages load. Lets them show thumbnails from
+  // the list they already fetch, instead of downloading the whole image set.
+  const piPath = path.join(dataDir, slug, 'places-index.json')
+  const pi = readJson(piPath)
+  if (Array.isArray(pi)) {
+    let pib = 0
+    for (const p of pi) {
+      const u = images[p.regionId]?.[p.placeId]?.[0]?.url
+      if (u) { p.image = u; pib++ }
+    }
+    if (pib) { fs.writeFileSync(piPath, JSON.stringify(pi)); console.log(`  ${slug}: baked ${pib} images into places-index`) }
+  }
+
   fs.writeFileSync(idxPath, JSON.stringify(index))
-  console.log(`  ${slug}: baked ${baked}/${index.regions.length} region card images`)
+  console.log(`  ${slug}: baked ${baked}/${index.regions.length} region cards`)
   total += baked
 }
-console.log(`✓ baked ${total} region card images into index.json`)
+console.log(`✓ baked ${total} region card images + ${placeTotal} place images into the static files`)

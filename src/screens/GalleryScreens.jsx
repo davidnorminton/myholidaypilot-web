@@ -5,7 +5,7 @@ import {
 } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { useSettings } from '../lib/settings.js'
-import { getImages } from '../lib/data.js'
+import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { importGalleryTrip } from '../lib/trips.js'
 import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
@@ -37,7 +37,11 @@ export function GalleryScreen() {
   useEffect(() => {
     setRows(null)
     api.gallery.list(country).then(setRows).catch(() => setRows([]))
-    getImages(country).then(setImages).catch(() => {})
+    getPlacesIndex(country).then((list) => {
+      const m = {}
+      for (const pl of (list || [])) if (pl.image) m[`${pl.regionId}/${pl.placeId}`] = pl.image
+      setImages(m)
+    }).catch(() => {})
   }, [country])
 
   const regions = useMemo(() => {
@@ -51,7 +55,7 @@ export function GalleryScreen() {
     LENGTHS.find((l) => l.id === len).test(r.days)
   ), [rows, region, len])
 
-  const coverOf = (r) => images[r.coverRegionId]?.[r.coverPlaceId]?.[0]?.url || null
+  const coverOf = (r) => images[`${r.coverRegionId}/${r.coverPlaceId}`] || null
 
   return (
     <div className="page wrap gal">

@@ -29,6 +29,9 @@ export default function PlaceDetailScreen() {
     let live = true
     setTab(null)
     getRegion(regionId, country).then((d) => live && setRegion(d)).catch(() => live && setRegion(false))
+    // Full gallery (multiple images) loads lazily and only matters for the
+    // in-page gallery; the hero comes from the baked place.image below so it
+    // shows immediately without waiting on the whole-country image set.
     placeImages(regionId, placeId, country).then((imgs) => live && setImages(imgs)).catch(() => {})
     return () => { live = false }
   }, [regionId, placeId, country])
@@ -43,7 +46,7 @@ export default function PlaceDetailScreen() {
     title: place ? `${place.name}, ${region.name}` : undefined,
     description: place?.description,
     path: `/italy/${regionId}/${placeId}`,
-    image: images[0]?.url,
+    image: place?.image || images[0]?.url,
     type: 'article',
     jsonLd: place ? [{
       '@context': 'https://schema.org', '@type': 'TouristAttraction', name: place.name,
@@ -63,7 +66,7 @@ export default function PlaceDetailScreen() {
   if (region === null) return <PageLoader label="Opening place" />
   if (region === false || (region && !place)) return <NotFound regionId={regionId} country={country} />
 
-  const hero = images[0]?.url
+  const hero = place?.image || images[0]?.url
   const viewTabs = [
     { id: 'info', label: 'Info', icon: Info },
     ...(place.activities?.length ? [{ id: 'do', label: 'Things to do', icon: Compass, count: place.activities.length }] : []),

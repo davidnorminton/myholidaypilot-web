@@ -7,7 +7,7 @@ import {
 import { useAuth } from '../lib/auth.jsx'
 import { useTrips, activeTrip } from '../lib/trips.js'
 import { useFavourites } from '../lib/favourites.js'
-import { getPlacesIndex, getImages } from '../lib/data.js'
+import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { api } from '../lib/api.js'
 import { downloadTripPdf } from '../lib/tripPdf.js'
@@ -35,16 +35,12 @@ export default function AccountScreen() {
   useSeo({ title: 'My home', description: 'Your trips, saved places and comments in one place.', path: '/account' })
 
   const [index, setIndex] = useState([])
-  const [images, setImages] = useState({})
   const [myComments, setMyComments] = useState(null)
   useEffect(() => {
     const avail = COUNTRIES.filter((c) => c.available).map((c) => c.slug)
     Promise.all(avail.map((slug) =>
       getPlacesIndex(slug).then((rows) => rows.map((p) => ({ ...p, countryId: slug }))).catch(() => [])
     )).then((lists) => setIndex(lists.flat()))
-    Promise.all(avail.map((slug) =>
-      getImages(slug).then((m) => [slug, m]).catch(() => [slug, {}])
-    )).then((pairs) => setImages(Object.fromEntries(pairs)))
   }, [])
   useEffect(() => {
     let on = true
@@ -55,10 +51,10 @@ export default function AccountScreen() {
   const byKey = useMemo(() => Object.fromEntries(index.map((p) => [`${p.regionId}/${p.placeId}`, p])), [index])
   const savedPlaces = useMemo(() => [...favIds].map((k) => byKey[k]).filter(Boolean), [favIds, byKey])
   const coverOf = (t) => {
-    for (const p of t.places) { const u = images[t.countryId || 'italy']?.[p.regionId]?.[p.placeId]?.[0]?.url; if (u) return u }
+    for (const p of t.places) { const u = byKey[`${p.regionId}/${p.placeId}`]?.image; if (u) return u }
     return null
   }
-  const imgOf = (p) => images[p.countryId || 'italy']?.[p.regionId]?.[p.placeId]?.[0]?.url || null
+  const imgOf = (p) => byKey[`${p.regionId}/${p.placeId}`]?.image || p.image || null
 
   const active = SECTIONS.some((x) => x.id === section) ? section : 'overview'
 

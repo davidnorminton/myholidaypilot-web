@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { MapPin, Search, TrainFront, Car, ArrowRight } from 'lucide-react'
-import { getPlacesIndex, getImages } from '../lib/data.js'
+import { getPlacesIndex } from '../lib/data.js'
 import { useSettings } from '../lib/settings.js'
 import { kmBetween } from '../lib/route.js'
 import { nearestStation } from '../lib/transport.js'
@@ -30,7 +30,6 @@ export default function DayTripsScreen() {
   const [params] = useSearchParams()
   const [country, setCountry] = useState('italy')
   const [places, setPlaces] = useState(null)
-  const [images, setImages] = useState({})
   const [q, setQ] = useState('')
   const [base, setBase] = useState(null)
   const [range, setRange] = useState(100)
@@ -39,7 +38,6 @@ export default function DayTripsScreen() {
   useEffect(() => {
     setPlaces(null); setBase(null)
     getPlacesIndex(country).then(setPlaces).catch(() => setPlaces([]))
-    getImages(country).then(setImages).catch(() => {})
   }, [country])
 
   // deep link: /#/day-trips?from=regionId/placeId
@@ -76,7 +74,7 @@ export default function DayTripsScreen() {
     return () => { on = false }
   }, [base?.lat, base?.lng])
 
-  const imgOf = (p) => images[p.regionId]?.[p.placeId]?.[0]?.url || null
+  const imgOf = (p) => p.image || null
 
   return (
     <div className="page wrap dtf">

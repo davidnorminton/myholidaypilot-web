@@ -2,7 +2,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import { Plus, MapPin, CalendarRange, Trash2, ArrowRight, FileDown, Check, Copy } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useTrips, deleteTrip, setActiveTrip, duplicateTrip } from '../lib/trips.js'
-import { getImages } from '../lib/data.js'
+import { getPlacesIndex } from '../lib/data.js'
+import { COUNTRIES } from '../lib/countries.js'
 import { downloadTripPdf } from '../lib/tripPdf.js'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
@@ -16,11 +17,21 @@ export default function TripsScreen() {
   useSeo({ title: 'My trips', description: 'All your saved trips in one place.', path: '/trips' })
   const snap = useTrips()
   const navigate = useNavigate()
-  const [images, setImages] = useState({})
-  useEffect(() => { getImages().then(setImages).catch(() => {}) }, [])
+  const [imgMap, setImgMap] = useState({})
+  useEffect(() => {
+    // Trips can span countries; load each live country's places-index (which
+    // now carries each place's image) and build one region/place → image map.
+    const avail = COUNTRIES.filter((c) => c.available).map((c) => c.slug)
+    Promise.all(avail.map((slug) => getPlacesIndex(slug).catch(() => [])))
+      .then((lists) => {
+        const m = {}
+        for (const list of lists) for (const p of list) if (p.image) m[`${p.regionId}/${p.placeId}`] = p.image
+        setImgMap(m)
+      })
+  }, [])
   const coverOf = (t) => {
     for (const p of t.places) {
-      const u = images[p.regionId]?.[p.placeId]?.[0]?.url
+      const u = imgMap[`${p.regionId}/${p.placeId}`]
       if (u) return u
     }
     return null
