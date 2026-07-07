@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Compass, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2, Landmark, UtensilsCrossed } from 'lucide-react'
+import { ArrowRight, Compass, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, Globe2, Landmark, UtensilsCrossed, ChevronDown } from 'lucide-react'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { Reveal } from '../components/Reveal.jsx'
@@ -274,7 +274,7 @@ export default function LandingScreen() {
             { q: 'When is the best time to book a holiday?', a: 'It depends on the destination — every region page includes the best months to visit, and every country has a festival calendar so you can time your trip around the events worth travelling for.' },
           ].map((f, i) => (
             <details key={i} className="tripdetails__q">
-              <summary>{f.q}</summary>
+              <summary><span>{f.q}</span><ChevronDown size={16} className="tripdetails__chev" aria-hidden /></summary>
               <p>{f.a}</p>
             </details>
           ))}

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { MapPin, Heart, CalendarRange, Luggage } from 'lucide-react'
+import { MapPin, Heart, CalendarRange, Luggage, ChevronDown } from 'lucide-react'
 import { useSeo } from '../lib/seo.js'
 import { paths } from '../lib/paths.js'
 
