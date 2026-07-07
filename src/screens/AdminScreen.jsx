@@ -83,6 +83,7 @@ export default function AdminScreen() {
             </optgroup>
             <optgroup label="Build">
               <option value="builder">Country builder</option>
+              <option value="details">Trip details</option>
               <option value="missing">Missing images</option>
               <option value="ai">AI</option>
               <option value="export">Export</option>
