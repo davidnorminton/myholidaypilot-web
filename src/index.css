@@ -1938,10 +1938,18 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 .aff-line__sep{font-style:normal; color:var(--faint); margin:0 7px}
 
 /* region hero with admin image */
-.rd-hero--img{position:relative; overflow:hidden}
+.rd-hero--img{
+  position:sticky; top:0; z-index:0;
+  min-height:clamp(340px,52vh,520px);
+  display:flex; align-items:flex-end;
+  overflow:hidden;
+  padding-block:0;
+  background:linear-gradient(160deg, color-mix(in srgb,var(--accent) 55%,var(--ink)), var(--ink));
+}
+.rd-hero--img .wrap{position:relative; z-index:1; width:100%; padding-block:0 34px}
 .rd-hero__bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
-.rd-hero__veil{position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,17,12,.55), rgba(20,17,12,.72))}
-.rd-hero--img .wrap{position:relative; z-index:1}
+.rd-hero__veil{position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,17,12,.28) 0%, rgba(20,17,12,.35) 50%, rgba(20,17,12,.72) 100%)}
+.rd-hero--img .back{margin-top:18px}
 .rd-hero--img .rd-hero__name,.rd-hero--img .rd-hero__meta,.rd-hero--img .rd-hero__when{color:#fff}
 
 /* landing planner mock — current planner look */
@@ -2857,3 +2865,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .switch__knob{position:absolute; top:3px; left:3px; width:24px; height:24px; border-radius:50%; background:#fff;
   box-shadow:0 1px 3px rgba(0,0,0,.25); transition:transform .18s ease}
 .switch.is-on .switch__knob{transform:translateX(22px)}
+
+/* --- Region content sheet: scrolls over the sticky image hero --- */
+.rd-sheet{position:relative; z-index:1; background:var(--paper); min-height:60vh; border-radius:20px 20px 0 0; margin-top:-20px}
+.rd-sheet .tabs{border-radius:20px 20px 0 0}

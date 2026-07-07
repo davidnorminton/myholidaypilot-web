@@ -85,6 +85,7 @@ export default function RegionDetailScreen() {
         </div>
       </div>
 
+      <div className={heroImage ? 'rd-sheet' : ''}>
       <nav className="tabs wrap">
         {TABS.map((t) => (
           <button
@@ -180,6 +181,7 @@ export default function RegionDetailScreen() {
 
         <CommentsSection countryId={country} targetType="region" regionId={regionId} areaName={region.name} />
       </main>
+      </div>
     </div>
   )
 }
