@@ -27,21 +27,29 @@ export async function getRegion(id, country = 'italy') {
   const baseRegion = await getJSON(`${country}/regions/${id}.json`)
   return country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
 }
+const imagesCache = new Map()
 export async function getImages(country = 'italy') {
   // Prefer live images from the builder DB (so images set in the builder show
   // up immediately, no deploy). Fall back to the static images.json bundled at
   // build time if the API is unreachable or returns nothing.
-  try {
-    const res = await fetch(`/api/images?country=${encodeURIComponent(country)}`)
-    if (res.ok) {
-      const live = await res.json()
-      if (live && Object.keys(live).length) {
-        return country === 'italy' ? (imagesOverride() || live) : live
+  // Memoised per country: navigating between pages of the same country reuses
+  // the same promise instead of re-hitting the serverless function each time.
+  if (imagesCache.has(country)) return imagesCache.get(country)
+  const p = (async () => {
+    try {
+      const res = await fetch(`/api/images?country=${encodeURIComponent(country)}`)
+      if (res.ok) {
+        const live = await res.json()
+        if (live && Object.keys(live).length) {
+          return country === 'italy' ? (imagesOverride() || live) : live
+        }
       }
-    }
-  } catch { /* fall through to static */ }
-  const baseImages = await getJSON(`${country}/images.json`).catch(() => ({}))
-  return country === 'italy' ? (imagesOverride() || baseImages) : baseImages
+    } catch { /* fall through to static */ }
+    const baseImages = await getJSON(`${country}/images.json`).catch(() => ({}))
+    return country === 'italy' ? (imagesOverride() || baseImages) : baseImages
+  })()
+  imagesCache.set(country, p)
+  return p
 }
 export async function getAffiliates() {
   const baseAff = await getJSON('affiliates.json')

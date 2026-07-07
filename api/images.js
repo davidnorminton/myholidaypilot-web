@@ -29,8 +29,9 @@ export default handler(async (req, res) => {
     ;(out[r.regionId] = out[r.regionId] || {})[r.placeId] = [r.image]
   }
 
-  // short cache: images change rarely, but we want builder edits to show up
-  // quickly. 60s edge cache with stale-while-revalidate keeps it snappy.
-  res.setHeader('Cache-Control', 'public, max-age=60, s-maxage=60, stale-while-revalidate=300')
+  // Cache aggressively at the edge: images change rarely, and stale-while-
+  // revalidate serves instantly from cache while refreshing in the background.
+  // 5-min fresh, 1-day stale window — builder edits still surface within minutes.
+  res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=300, stale-while-revalidate=86400')
   return send(res, 200, out)
 })

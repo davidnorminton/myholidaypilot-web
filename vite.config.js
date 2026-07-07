@@ -61,10 +61,22 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: { cacheName: 'mhp-images', expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 30 } },
           },
-          { // remote photos (Unsplash)
+          { // remote photos (Unsplash) — CacheFirst: once cached, serve from
+            // cache with no network. The URL already encodes size/format, so a
+            // given URL's bytes never change; re-fetching (SWR) was wasteful.
             urlPattern: ({ url }) => url.origin === 'https://images.unsplash.com',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'mhp-remote-img',
+              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          { // live image manifest from the DB — SWR so builder edits show up
+            // but repeat navigations are instant from cache.
+            urlPattern: ({ url }) => url.pathname === '/api/images',
             handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'mhp-remote-img', expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 30 } },
+            options: { cacheName: 'mhp-img-manifest', expiration: { maxEntries: 30, maxAgeSeconds: 60 * 60 * 24 } },
           },
         ],
       },
