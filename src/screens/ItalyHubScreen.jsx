@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
-import { getHub } from '../lib/data.js'
+import { getHub, getIndex } from '../lib/data.js'
 import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
 import { useSettings } from '../lib/settings.js'
+import TripDetails from '../components/TripDetails.jsx'
 
 const EMOJI = { regions: '🗺️', festivals: '🎭', history: '🏛️', food: '🍝', transport: '🚆', plan: '🧭' }
 
@@ -25,6 +26,7 @@ export default function ItalyHubScreen() {
   const { country = 'italy' } = useParams()
   const meta = COUNTRIES.find((c) => c.slug === country)
   const [sections, setSections] = useState(null)
+  const [details, setDetails] = useState(null)
   const site = useSettings()
   useSeo({ title: `${meta?.name || 'Travel'} travel guide`, description: `Everything to plan a ${meta?.name || ''} trip — the regions, festivals, food and how to get around.`, path: `/${country}` })
   useEffect(() => {
@@ -33,6 +35,7 @@ export default function ItalyHubScreen() {
       const secs = d.sections || []
       setSections(secs.length ? secs : defaultSections(country))
     }).catch(() => setSections(defaultSections(country)))
+    getIndex(country).then((d) => setDetails(d?.details || null)).catch(() => setDetails(null))
   }, [country])
 
   if (!isAvailableCountry(country)) return <NotFoundScreen />
@@ -48,6 +51,7 @@ export default function ItalyHubScreen() {
       </header>
 
       <main className="wrap">
+        <TripDetails details={details} title={`Plan your trip to ${meta?.name || ''}`} />
         <div className="hub-grid">
           {(sections || []).map((raw) => { const s = { ...raw, image: site[`hub.${country}.${raw.id}`] || site[`hub.default.${raw.id}`] || raw.image }; return (
             <Link key={s.id} to={s.link} className="hub-card">

@@ -44,9 +44,9 @@ export default function PlaceDetailScreen() {
   const accent = useMemo(() => regionColour(region?.colour), [region])
 
   useSeo({
-    title: place ? `${place.name}, ${region.name}` : undefined,
+    title: place ? `${place.name}, ${region.name} — things to do, food & tips` : undefined,
     description: place?.description,
-    path: `/italy/${regionId}/${placeId}`,
+    path: `/${country}/${regionId}/${placeId}`,
     image: place?.image || images[0]?.url,
     type: 'article',
     jsonLd: place ? [{

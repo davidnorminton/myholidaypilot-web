@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Plus, Download, Pencil, Trash2, ArrowUpRight, PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff } from 'lucide-react'
+import { Plus, Download, Pencil, Trash2, ArrowUpRight, PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff, CalendarRange } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
@@ -19,6 +19,7 @@ import AdminContact from '../components/admin/AdminContact.jsx'
 import AdminBuilder from '../components/admin/AdminBuilder.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
+import AdminDetails from '../components/admin/AdminDetails.jsx'
 import AdminAi from '../components/admin/AdminAi.jsx'
 
 const SECTIONS = [
@@ -32,6 +33,7 @@ const SECTIONS = [
   { id: 'comments', label: 'Comments', icon: MessageSquare },
   { id: 'contact', label: 'Contact', icon: Mail },
   { id: 'seo', label: 'SEO', icon: Globe },
+  { id: 'details', label: 'Trip details', icon: CalendarRange },
   { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'builder', label: 'Country builder', icon: Hammer },
   { id: 'missing', label: 'Missing images', icon: ImageOff },
@@ -104,6 +106,7 @@ export default function AdminScreen() {
       <main className="wrap admin">
         {section === 'journal' && <AdminBlog />}
         {section === 'site' && <AdminSite regions={regions} />}
+        {section === 'details' && <AdminDetails />}
         {section === 'places' && <AdminPlaces regions={regions} />}
         {section === 'images' && <AdminImages regions={regions} />}
         {section === 'affiliates' && <AdminAffiliates />}

@@ -14,6 +14,7 @@ import CommentsSection from '../components/CommentsSection.jsx'
 import { useSeo } from '../lib/seo.js'
 import { useSettings } from '../lib/settings.js'
 import BeenHereButton from '../components/BeenHereButton.jsx'
+import TripDetails from '../components/TripDetails.jsx'
 import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
 const TABS = [
@@ -53,9 +54,9 @@ export default function RegionDetailScreen() {
   }, [region, site, regionId])
 
   useSeo({
-    title: region ? region.name : undefined,
+    title: region ? `Things to do in ${region.name} — places, food & trip ideas` : undefined,
     description: region ? `${region.name}${region.nameIt && region.nameIt !== region.name ? ` (${region.nameIt})` : ''} — towns, restaurants and things to do across ${region.places?.length || 0} places.` : undefined,
-    path: `/italy/${regionId}`,
+    path: `/${country}/${regionId}`,
     image: heroImage || undefined,
   })
 
@@ -66,7 +67,7 @@ export default function RegionDetailScreen() {
     <div className="page" style={{ '--accent': accent }}>
       <div className={`rd-hero ${heroImage ? 'rd-hero--img' : ''}`}>
         {heroImage && <>
-          <img className="rd-hero__bg" src={imgUrl(heroImage, 1600)} alt="" loading="eager" fetchPriority="high" decoding="async" />
+          <img className="rd-hero__bg" src={imgUrl(heroImage, 1600)} alt={region.name} loading="eager" fetchPriority="high" decoding="async" />
           <div className="rd-hero__veil" />
         </>}
         <div className="wrap">
@@ -86,6 +87,7 @@ export default function RegionDetailScreen() {
       </div>
 
       <div className={heroImage ? 'rd-sheet' : ''}>
+      <div className="wrap"><TripDetails details={region.details} title={`Plan your trip to ${region.name}`} /></div>
       <nav className="tabs wrap">
         {TABS.map((t) => (
           <button

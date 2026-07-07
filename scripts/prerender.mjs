@@ -81,6 +81,32 @@ const TODAY = new Date().toISOString().slice(0, 10)
 const toDate = (v) => { try { return v ? new Date(v).toISOString().slice(0, 10) : null } catch { return null } }
 const addUrl = (urlPath, priority, lastmod) => sitemapUrls.push({ loc: SITE + (urlPath === '/' ? '' : urlPath), priority, lastmod: lastmod || TODAY })
 // BreadcrumbList JSON-LD from [{name, url}] crumbs — Google renders these as the
+// Render a trip-details block (from the admin generator) as SEO-friendly HTML,
+// and its FAQ as FAQPage JSON-LD. Used on country and region pages.
+function detailsHtml(d, title = 'Plan your trip') {
+  if (!d) return ''
+  let h = `<section><h2>${esc(title)}</h2>`
+  if (d.intro) h += `<p>${esc(d.intro)}</p>`
+  if (d.gettingThere) h += `<h3>Getting there &amp; around</h3><p>${esc(d.gettingThere)}</p>`
+  if (d.daysNeeded) h += `<h3>How long to stay</h3><p>${esc(d.daysNeeded)}</p>`
+  if (d.bestTime) h += `<h3>When to go</h3><p>${esc(d.bestTime)}</p>`
+  if (Array.isArray(d.itinerary) && d.itinerary.length) {
+    h += `<h3>Suggested itinerary</h3><ol>` + d.itinerary.map((it) =>
+      `<li><strong>${esc(it.title || `Day ${it.day}`)}</strong> — ${esc(it.text || '')}</li>`).join('') + `</ol>`
+  }
+  if (Array.isArray(d.faq) && d.faq.length) {
+    h += `<h3>Frequently asked questions</h3>` + d.faq.map((f) =>
+      `<h4>${esc(f.q)}</h4><p>${esc(f.a)}</p>`).join('')
+  }
+  return h + `</section>`
+}
+function faqJsonLd(d) {
+  if (!Array.isArray(d?.faq) || !d.faq.length) return null
+  return { '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
+}
+
 // breadcrumb trail in search results instead of a bare URL.
 const breadcrumb = (crumbs) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) })
@@ -93,18 +119,22 @@ const countries = fs.existsSync(dataDir)
 // sections, destination list). Dynamic bits (live blog, rankings) stay
 // client-side — crawlers get the substance, humans get the full SPA.
 {
-  const liveNames = countries
-    .map((slug) => nameFor(slug, readJson(path.join(dataDir, slug, 'country.json'), {})))
-    .sort((a, b) => a.localeCompare(b))
+  const livePairs = countries
+    .map((slug) => ({ slug, name: nameFor(slug, readJson(path.join(dataDir, slug, 'country.json'), {})) }))
+    .sort((a, b) => a.name.localeCompare(b.name))
   write('/', render({
     urlPath: '/',
-    title: 'myholidaypilot — travel guides, region by region',
-    description: 'Handcrafted travel guides to the world’s regions — where to go, what to eat, and the stories behind it. Plan a trip region by region.',
-    jsonLd: {
+    title: 'myholidaypilot — holiday trip planner & travel guides, region by region',
+    description: 'Plan your holiday region by region: handcrafted travel guides with things to do, where to eat and festival dates — plus a free trip planner to build your day-by-day itinerary.',
+    jsonLd: [{
       '@context': 'https://schema.org', '@type': 'WebSite', name: 'myholidaypilot', url: SITE,
       description: 'Handcrafted travel guides, region by region.',
-      potentialAction: { '@type': 'SearchAction', target: `${SITE}/destinations`, 'query-input': 'required name=q' },
-    },
+      // (no SearchAction: the site search is client-side with no crawlable
+      // /search?q= results URL, and a malformed target is worse than none)
+    }, {
+      '@context': 'https://schema.org', '@type': 'Organization',
+      name: 'myholidaypilot', url: SITE, logo: `${SITE}/logo.png`,
+    }],
     bodyHtml: `<main>`
       + `<p>Your travel copilot</p>`
       + `<h1>See more. Plan less.</h1>`
@@ -115,7 +145,7 @@ const countries = fs.existsSync(dataDir)
       + `<p>A curated list of restaurants for every region — each with the dish to order. Plus a festival calendar for every country, so you can time your trip.</p>`
       + `<h2>The story behind the country</h2>`
       + `<p>A timeline from prehistory to today for every country, plus practical guides to getting around: trains, taxis and tickets, with honest local warnings.</p>`
-      + (liveNames.length ? `<h2>Destinations</h2><ul>${liveNames.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : '')
+      + (livePairs.length ? `<h2>Destinations</h2><ul>${livePairs.map(({ slug, name: n }) => `<li><a href="${SITE}/${slug}">${esc(n)}</a></li>`).join('')}</ul>` : '')
       + `</main>`,
   }))
   addUrl('/', '1.0'); pages++
@@ -138,6 +168,7 @@ const countries = fs.existsSync(dataDir)
         }).sort().join('')}</ul>` : '') + `</main>`,
   }))
   addUrl('/destinations', '0.6'); pages++
+  addUrl('/trip-planner', '0.8')
 }
 
 for (const slug of countries) {
@@ -165,10 +196,14 @@ for (const slug of countries) {
   write(`/${slug}`, render({
     urlPath: `/${slug}`,
     preloadImagesFor: slug,
-    title: `${name} travel guide — region by region | myholidaypilot`,
+    title: `${name} travel guide — regions, places & holiday planning | myholidaypilot`,
     description: truncate(`${blurb} ${regionNames.length ? 'Regions: ' + regionNames.join(', ') + '.' : ''}`),
-    jsonLd: { '@context': 'https://schema.org', '@type': 'TouristDestination', name, description: blurb, url: `${SITE}/${slug}` },
+    jsonLd: [
+      { '@context': 'https://schema.org', '@type': 'TouristDestination', name, description: blurb, url: `${SITE}/${slug}` },
+      ...(faqJsonLd(index.details) ? [faqJsonLd(index.details)] : []),
+    ],
     bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a></nav><h1>${esc(name)}</h1><p>${esc(blurb)}</p>`
+      + detailsHtml(index.details, `Plan your trip to ${name}`)
       + ((index.regions || []).length ? `<h2>Regions</h2><ul>${(index.regions || []).map((r) =>
           `<li><a href="${SITE}/${slug}/${r.id}">${esc(r.name)}</a></li>`).join('')}</ul>` : '')
       + `</main>`,
@@ -218,18 +253,26 @@ for (const slug of countries) {
     write(`/${slug}/${rSummary.id}`, render({
       urlPath: `/${slug}/${rSummary.id}`,
       preloadImagesFor: slug,
-      title: `${rf.name}, ${name} — what to do, where to eat | myholidaypilot`,
-      description: truncate(rf.history || rf.culturalNotes || `Things to do in ${rf.name}, ${name}: ${placeList.slice(0, 6).join(', ')}.`),
+      title: `Things to do in ${rf.name}, ${name} — places, food & trip ideas | myholidaypilot`,
+      description: truncate(`Plan a holiday in ${rf.name}, ${name}: ${placeList.slice(0, 5).join(', ')} — with where to eat and when to go. ${rf.history || rf.culturalNotes || ''}`),
       // Use the baked cardImage (hero → first place with an image, DB-synced)
       // so the preload URL matches exactly what the region page renders — the
       // browser preload becomes a cache hit and the hero paints immediately.
       image: rSummary.cardImage || rSummary.heroImage?.url || firstRegionImage(rSummary.id, places),
       jsonLd: [
-        { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
+        Object.assign(
+          { '@context': 'https://schema.org', '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` },
+          rf.history || rf.culturalNotes ? { description: truncate(rf.history || rf.culturalNotes, 300) } : {},
+          rSummary.cardImage ? { image: rSummary.cardImage } : {},
+          rSummary.lat && rSummary.lng ? { geo: { '@type': 'GeoCoordinates', latitude: rSummary.lat, longitude: rSummary.lng } } : {},
+          places.length ? { containsPlace: places.slice(0, 12).map((pl) => ({ '@type': 'TouristAttraction', name: pl.name, url: `${SITE}/${slug}/${rSummary.id}/${pl.id}` })) } : {},
+        ),
         breadcrumb([{ name: 'Destinations', url: `${SITE}/destinations` }, { name, url: `${SITE}/${slug}` }, { name: rf.name, url: `${SITE}/${slug}/${rSummary.id}` }]),
+        ...(faqJsonLd(rf.details) ? [faqJsonLd(rf.details)] : []),
       ],
       bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a> › <a href="${SITE}/${slug}">${esc(name)}</a></nav><h1>${esc(rf.name)}</h1>`
         + (rf.nameIt && rf.nameIt !== rf.name ? `<p>${esc(rf.nameIt)}</p>` : '')
+        + detailsHtml(rf.details, `Plan your trip to ${rf.name}`)
         + (rf.history ? `<h2>History</h2><p>${esc(rf.history)}</p>` : '')
         + (rf.culturalNotes ? `<h2>Culture</h2><p>${esc(rf.culturalNotes)}</p>` : '')
         + (rf.languageNotes ? `<h2>Language</h2><p>${esc(rf.languageNotes)}</p>` : '')
@@ -261,13 +304,18 @@ for (const slug of countries) {
       write(`/${slug}/${rSummary.id}/${p.id}`, render({
         urlPath: `/${slug}/${rSummary.id}/${p.id}`,
         preloadImagesFor: slug,
-        title: `${p.name}, ${rf.name} — ${name} travel guide | myholidaypilot`,
+        title: `${p.name}, ${rf.name} — things to do, food & tips | myholidaypilot`,
         description: desc,
         image: placeImage(rSummary.id, p.id),
         jsonLd: [
-          { '@context': 'https://schema.org', '@type': 'TouristAttraction', name: p.name,
-            description: desc, address: { '@type': 'PostalAddress', addressRegion: rf.name, addressCountry: name },
-            url: `${SITE}/${slug}/${rSummary.id}/${p.id}` },
+          Object.assign(
+            { '@context': 'https://schema.org', '@type': 'TouristAttraction', name: p.name,
+              description: desc, address: { '@type': 'PostalAddress', addressRegion: rf.name, addressCountry: name },
+              url: `${SITE}/${slug}/${rSummary.id}/${p.id}`,
+              containedInPlace: { '@type': 'TouristDestination', name: `${rf.name}, ${name}`, url: `${SITE}/${slug}/${rSummary.id}` } },
+            p.lat && p.lng ? { geo: { '@type': 'GeoCoordinates', latitude: p.lat, longitude: p.lng } } : {},
+            placeImage(rSummary.id, p.id) ? { image: placeImage(rSummary.id, p.id) } : {},
+          ),
           breadcrumb([{ name: 'Destinations', url: `${SITE}/destinations` }, { name, url: `${SITE}/${slug}` }, { name: rf.name, url: `${SITE}/${slug}/${rSummary.id}` }, { name: p.name, url: `${SITE}/${slug}/${rSummary.id}/${p.id}` }]),
         ],
         bodyHtml: `<main><nav><a href="${SITE}/${slug}">${esc(name)}</a> › <a href="${SITE}/${slug}/${rSummary.id}">${esc(rf.name)}</a></nav><h1>${esc(p.name)}</h1>`
@@ -281,6 +329,48 @@ for (const slug of countries) {
       addUrl(`/${slug}/${rSummary.id}/${p.id}`, '0.6', toDate(rf.generatedAt)); pages++
     }
   }
+}
+
+// ── /trip-planner: prerendered landing page for the planner tool ─────────────
+// A dedicated, crawlable page targeting "holiday trip planner" queries — the
+// homepage mentions the planner, but a focused page is what can rank for it.
+{
+  const faq = [
+    { q: 'Is the myholidaypilot trip planner free?', a: 'Yes — building itineraries, saving places, packing lists and budgets are all free. Sign in with Google or email to save trips across devices.' },
+    { q: 'Can I plan a multi-day holiday itinerary?', a: 'Yes. Pick the places you want to visit and arrange them into a day-by-day itinerary, with a map of each day and travel times between stops.' },
+    { q: 'Does it work for any destination?', a: 'The planner covers every country on myholidaypilot — each broken into regions, with hand-picked places, restaurants and festivals to add to your trip.' },
+    { q: 'Can I export or share my itinerary?', a: 'Yes — download your trip as a PDF to take offline, or share a link so friends and family can see (and copy) the plan.' },
+    { q: 'Does the planner suggest what to pack and budget?', a: 'Yes — generate a packing list tailored to your trip dates and destinations, and estimate a budget for accommodation, food and activities.' },
+  ]
+  write('/trip-planner', render({
+    urlPath: '/trip-planner',
+    title: 'Free holiday trip planner — build a day-by-day itinerary | myholidaypilot',
+    description: 'Plan your holiday for free: pick places region by region, build a day-by-day itinerary on a map, and get packing lists and budget estimates. Export to PDF or share with friends.',
+    jsonLd: [
+      { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'myholidaypilot trip planner',
+        url: `${SITE}/trip-planner`, applicationCategory: 'TravelApplication',
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP' } },
+      { '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+      breadcrumb([{ name: 'Home', url: SITE }, { name: 'Trip planner', url: `${SITE}/trip-planner` }]),
+    ],
+    bodyHtml: `<main><h1>Free holiday trip planner</h1>
+<p>Build a day-by-day itinerary for your next holiday — pick from hand-curated places region by region, see each day on a map, and keep packing lists and budgets in one place.</p>
+<h2>How it works</h2>
+<ol>
+<li><strong>Pick a destination</strong> — browse <a href="${SITE}/destinations">every country</a> region by region, each with its towns, landmarks and restaurants.</li>
+<li><strong>Save the places you love</strong> — tap the heart on any place to add it to your trip.</li>
+<li><strong>Arrange your days</strong> — drag places into a day-by-day itinerary and see each day mapped.</li>
+<li><strong>Get ready</strong> — generate a packing list for your dates, estimate a budget, and export the whole plan as a PDF.</li>
+</ol>
+<h2>Everything in one place</h2>
+<p>Festival calendars so you can time your trip, curated restaurants with the dish to order, honest local tips, and a timeline of each country's history — all connected to your plan.</p>
+<h2>Frequently asked questions</h2>
+${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
+<p><a href="${SITE}/plan">Start planning your trip</a> or <a href="${SITE}/destinations">browse destinations</a>.</p>
+</main>`,
+  }))
+  pages++
 }
 
 // ── blog posts ───────────────────────────────────────────────────────────────

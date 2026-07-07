@@ -9,6 +9,7 @@ import {
   healTripCoords,
 } from '../lib/trips.js'
 import { useSettings } from '../lib/settings.js'
+import { useSeo } from '../lib/seo.js'
 import { downloadTripPdf } from '../lib/tripPdf.js'
 import { shareUrl } from '../lib/tripShare.js'
 import TripReadiness from '../components/TripReadiness.jsx'
@@ -30,6 +31,7 @@ const SUGGESTIONS = ['Rome', 'Florence', 'Venice', 'Naples', 'Amalfi', 'Milan']
 const HIGHLIGHTS = ['Rome', 'Florence', 'Venice', 'Amalfi Coast', 'Cinque Terre', 'Pompeii']
 
 export default function PlanScreen() {
+  useSeo({ title: 'Holiday trip planner — build your itinerary', description: 'A free holiday trip planner: pick places, build a day-by-day itinerary, and get packing lists and budgets for your trip.', path: '/plan' })
   useEffect(() => { getPlacesIndex().then(healTripCoords).catch(() => {}) }, [])
   const snap = useTrips()
   const trip = activeTrip(snap)

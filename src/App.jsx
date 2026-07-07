@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 // Eager: the content pages that are the common entry points / first paint.
+import TripPlannerScreen from './screens/TripPlannerScreen.jsx'
 import LandingScreen from './screens/LandingScreen.jsx'
 import CountriesScreen from './screens/CountriesScreen.jsx'
 import ItalyHubScreen from './screens/ItalyHubScreen.jsx'
@@ -46,6 +47,7 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<LandingScreen />} />
+          <Route path="/trip-planner" element={<TripPlannerScreen />} />
           <Route path="/destinations" element={<CountriesScreen />} />
           <Route path="/:country" element={<ItalyHubScreen />} />
           <Route path="/:country/regions" element={<RegionsScreen />} />

@@ -14,7 +14,7 @@ import { Wand2 } from 'lucide-react'
 const fmt = (d) => d ? new Date(d + 'T12:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : ''
 
 export default function TripsScreen() {
-  useSeo({ title: 'My trips', description: 'All your saved trips in one place.', path: '/trips' })
+  useSeo({ title: 'Holiday trip planner — my trips', description: 'Plan your holiday: build day-by-day itineraries with places, packing lists and budgets — a free trip planner.', path: '/trips' })
   const snap = useTrips()
   const navigate = useNavigate()
   const [imgMap, setImgMap] = useState({})

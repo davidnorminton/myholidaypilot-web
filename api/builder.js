@@ -610,6 +610,80 @@ Respond with ONLY valid JSON, no fences:
     return send(res, 200, g)
   }
 
+  // ── trip details: SEO planning content for a region or the whole country ────
+  // POST ?action=details&country=X[&region=Y] → generates a structured block
+  // (intro, getting there, days needed, itinerary, FAQ) from the build data and
+  // stores it on the region (data.details) or country (guides.details). It is
+  // synced into the static files at build time and prerendered for SEO.
+  if (req.method === 'POST' && q.action === 'details') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+
+    const shape = `Respond ONLY with JSON, no prose around it:
+{"intro":"2-3 sentence overview a traveller planning a holiday would want first",
+ "gettingThere":"how to get there and get around: airports, trains, driving — 2-4 sentences, practical",
+ "daysNeeded":"how many days to spend and why — 1-2 sentences",
+ "bestTime":"when to go, month by month feel — 1-2 sentences",
+ "itinerary":[{"day":1,"title":"","text":"1-2 sentences"},{"day":2,"title":"","text":""},{"day":3,"title":"","text":""}],
+ "faq":[{"q":"a real question travellers search for","a":"a direct, factual 1-3 sentence answer"}]}
+Give exactly 5 faq entries. Questions should match what people type into Google (e.g. "Is X worth visiting?", "How many days do you need in X?"). Be specific and factual; no marketing fluff.`
+
+    let details
+    if (q.region) {
+      const [r] = await db.select().from(buildRegions)
+        .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+      if (!r) throw fail(404, 'No such region')
+      const places = await db.select().from(buildPlaces)
+        .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region)))
+      const placeNames = places.map((p) => p.data?.name).filter(Boolean).slice(0, 15)
+      const prompt = `You are writing trip-planning content for ${r.data.name}, a region of ${b.name}, for a travel guide.
+Known places in the region: ${placeNames.join(', ') || 'n/a'}.
+Capital: ${r.data.capital || 'n/a'}. Best time to visit: ${r.data.bestTimeToVisit || 'n/a'}.
+Context: ${String(r.data.history || '').slice(0, 600)}
+
+${shape}`
+      details = await generate(prompt, { maxTokens: 3000 })
+      await db.update(buildRegions)
+        .set({ data: { ...r.data, details }, updatedAt: Date.now() })
+        .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    } else {
+      const regs = await db.select().from(buildRegions).where(eq(buildRegions.countryId, q.country))
+      const regionNames = regs.map((r) => r.data?.name).filter(Boolean)
+      const prompt = `You are writing trip-planning content for ${b.name} as a whole, for a travel guide's country page.
+Its regions: ${regionNames.join(', ') || 'n/a'}.
+
+${shape.replace('"itinerary":[{"day":1', '"itinerary":[{"day":1').replace('exactly 5 faq', 'exactly 5 faq')}
+For the itinerary, sketch a first-visit route across 2-3 regions rather than one town.`
+      details = await generate(prompt, { maxTokens: 3000 })
+      await db.update(builds)
+        .set({ guides: { ...(b.guides || {}), details }, updatedAt: Date.now() })
+        .where(eq(builds.countryId, q.country))
+    }
+    return send(res, 200, { details })
+  }
+
+  // ── manual details save (edit or clear) ──────────────────────────────────────
+  if (req.method === 'POST' && q.action === 'setdetails') {
+    const body = await readBody(req)
+    const details = body.details || null
+    if (q.region) {
+      const [r] = await db.select().from(buildRegions)
+        .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+      if (!r) throw fail(404, 'No such region')
+      const data = { ...r.data }
+      if (details) data.details = details; else delete data.details
+      await db.update(buildRegions).set({ data, updatedAt: Date.now() })
+        .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    } else {
+      const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+      if (!b) throw fail(404, 'No such build')
+      const guides = { ...(b.guides || {}) }
+      if (details) guides.details = details; else delete guides.details
+      await db.update(builds).set({ guides, updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+    }
+    return send(res, 200, { ok: true })
+  }
+
   // ── export: assemble the whole build into Italy-shaped files ─────────────────
   if (req.method === 'GET' && q.action === 'export') {
     const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))

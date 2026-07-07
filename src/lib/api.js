@@ -85,6 +85,8 @@ export const api = {
   stats: () => req('GET', '/stats'),
   builder: {
     list: () => req('GET', '/builder'),
+    genDetails: (country, region) => req('POST', `/builder?action=details&country=${country}${region ? `&region=${region}` : ''}`),
+    setDetails: (country, region, details) => req('POST', `/builder?action=setdetails&country=${country}${region ? `&region=${region}` : ''}`, { details }),
     get: (country) => req('GET', `/builder?country=${country}`),
     region: (country, region) => req('GET', `/builder?country=${country}&region=${region}`),
     create: (payload) => req('POST', '/builder?action=create', payload),
