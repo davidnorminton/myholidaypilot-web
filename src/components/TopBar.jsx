@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Menu, X, Compass, Map as MapIcon, Wand2, Car, Lightbulb, BookOpen } from 'lucide-react'
+import { Menu, X, Compass, Map as MapIcon, Wand2, Car, Lightbulb, BookOpen, Route as RouteIcon } from 'lucide-react'
 import Logo from './Logo.jsx'
 import { paths } from '../lib/paths.js'
 import AuthButton from './AuthButton.jsx'
@@ -9,6 +9,7 @@ import SiteSearch from './SiteSearch.jsx'
 
 const LINKS = [
   { to: paths.destinations(), label: 'Destinations', icon: Compass },
+  { to: '/trip-planner', label: 'Trip planner', icon: RouteIcon },
   { to: paths.plan(), label: 'Plan', icon: MapIcon },
   { to: paths.guided(), label: 'Guided planner', icon: Wand2 },
   { to: paths.dayTrips(), label: 'Day trips', icon: Car },

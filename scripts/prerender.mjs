@@ -122,6 +122,13 @@ const countries = fs.existsSync(dataDir)
   const livePairs = countries
     .map((slug) => ({ slug, name: nameFor(slug, readJson(path.join(dataDir, slug, 'country.json'), {})) }))
     .sort((a, b) => a.name.localeCompare(b.name))
+  const homeFaq = [
+    { q: 'What is myholidaypilot?', a: 'A travel guide and free trip planner. Every country is broken into its real regions, and every region into its towns, cities and landmarks — with things to do, restaurants and the dish to order, festivals, and honest local tips.' },
+    { q: 'Is myholidaypilot free to use?', a: 'Yes. Browsing every guide and using the trip planner — itineraries, packing lists, budgets and PDF export — is free. Sign in with Google or email to save trips across devices.' },
+    { q: 'How does the trip planner work?', a: 'Save the places you like as you browse, arrange them into a day-by-day itinerary on a map, then generate a packing list and budget for your dates. You can export the plan as a PDF or share it with friends.' },
+    { q: 'Which countries are covered?', a: 'Countries across Europe, Asia and North America — each mapped region by region — with new countries added regularly.' },
+    { q: 'When is the best time to book a holiday?', a: 'It depends on the destination — every region page includes the best months to visit, and every country has a festival calendar so you can time your trip around the events worth travelling for.' },
+  ]
   write('/', render({
     urlPath: '/',
     title: 'myholidaypilot — holiday trip planner & travel guides, region by region',
@@ -134,6 +141,9 @@ const countries = fs.existsSync(dataDir)
     }, {
       '@context': 'https://schema.org', '@type': 'Organization',
       name: 'myholidaypilot', url: SITE, logo: `${SITE}/logo.png`,
+    }, {
+      '@context': 'https://schema.org', '@type': 'FAQPage',
+      mainEntity: homeFaq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     }],
     bodyHtml: `<main>`
       + `<p>Your travel copilot</p>`
@@ -145,6 +155,7 @@ const countries = fs.existsSync(dataDir)
       + `<p>A curated list of restaurants for every region — each with the dish to order. Plus a festival calendar for every country, so you can time your trip.</p>`
       + `<h2>The story behind the country</h2>`
       + `<p>A timeline from prehistory to today for every country, plus practical guides to getting around: trains, taxis and tickets, with honest local warnings.</p>`
+      + `<h2>Frequently asked questions</h2>` + homeFaq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')
       + (livePairs.length ? `<h2>Destinations</h2><ul>${livePairs.map(({ slug, name: n }) => `<li><a href="${SITE}/${slug}">${esc(n)}</a></li>`).join('')}</ul>` : '')
       + `</main>`,
   }))

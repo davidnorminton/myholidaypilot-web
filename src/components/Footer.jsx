@@ -27,7 +27,8 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h3>Plan</h3>
-            <Link to={paths.plan()}>Trip planner</Link>
+            <Link to="/trip-planner">Trip planner</Link>
+            <Link to={paths.plan()}>Plan a trip</Link>
             <Link to={paths.guided()}>Guided planner</Link>
             <Link to={paths.account('map')}>Your travel map</Link>
           </div>

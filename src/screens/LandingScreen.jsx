@@ -263,6 +263,24 @@ export default function LandingScreen() {
         </div>
       </section>
 
+      <section className="wrap home-sec">
+        <Reveal as="h2" className="sec-title">Frequently asked questions</Reveal>
+        <div className="tripdetails__faq home-faq">
+          {[
+            { q: 'What is myholidaypilot?', a: 'A travel guide and free trip planner. Every country is broken into its real regions, and every region into its towns, cities and landmarks — with things to do, restaurants and the dish to order, festivals, and honest local tips.' },
+            { q: 'Is myholidaypilot free to use?', a: 'Yes. Browsing every guide and using the trip planner — itineraries, packing lists, budgets and PDF export — is free. Sign in with Google or email to save trips across devices.' },
+            { q: 'How does the trip planner work?', a: 'Save the places you like as you browse, arrange them into a day-by-day itinerary on a map, then generate a packing list and budget for your dates. You can export the plan as a PDF or share it with friends.' },
+            { q: 'Which countries are covered?', a: 'Countries across Europe, Asia and North America — each mapped region by region — with new countries added regularly.' },
+            { q: 'When is the best time to book a holiday?', a: 'It depends on the destination — every region page includes the best months to visit, and every country has a festival calendar so you can time your trip around the events worth travelling for.' },
+          ].map((f, i) => (
+            <details key={i} className="tripdetails__q">
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
     </div>
   )
 }
