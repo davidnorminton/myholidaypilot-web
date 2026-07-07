@@ -75,7 +75,7 @@ export default function PlaceDetailScreen() {
   return (
     <div className="page place" style={{ '--accent': accent }}>
       <header className={`pd-hero ${hero ? '' : 'pd-hero--noimg'}`}>
-        {hero && <img className="pd-hero__img" src={imgUrl(hero, 1600)} alt={place.name} onError={(e) => { e.currentTarget.style.display = 'none' }} />}
+        {hero && <img className="pd-hero__img" src={imgUrl(hero, 1600)} alt={place.name} loading="eager" fetchPriority="high" decoding="async" onError={(e) => { e.currentTarget.style.display = 'none' }} />}
         {hero && <div className="pd-hero__veil" />}
         <SaveButton regionId={regionId} placeId={placeId} className="pd-save" label />
         <div className="wrap pd-hero__content">

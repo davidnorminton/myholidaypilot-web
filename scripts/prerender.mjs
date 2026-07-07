@@ -10,6 +10,8 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+// same transform the app uses, so the preloaded URL exactly matches what React
+// requests — the browser preload becomes a cache hit, not a duplicate download
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
@@ -21,6 +23,7 @@ if (!fs.existsSync(path.join(dist, 'index.html'))) {
   console.error('prerender: dist/index.html not found — run vite build first'); process.exit(0)
 }
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8')
+const { imgUrl } = await import(path.join(root, 'src/lib/imgUrl.js'))
 
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -30,7 +33,7 @@ const truncate = (s, n = 155) => { s = (s || '').replace(/\s+/g, ' ').trim(); re
 // Build one prerendered page: swap <title>, description, canonical, OG tags,
 // inject JSON-LD, and place real content inside #root (React overwrites it on
 // hydration, but crawlers read it as-is).
-function render({ urlPath, title, description, image, jsonLd, bodyHtml }) {
+function render({ urlPath, title, description, image, jsonLd, bodyHtml, preloadImagesFor }) {
   let html = template
   const canonical = SITE + (urlPath === '/' ? '' : urlPath)
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
@@ -38,7 +41,18 @@ function render({ urlPath, title, description, image, jsonLd, bodyHtml }) {
   html = html.replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${esc(canonical)}$2`)
   html = html.replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(title)}$2`)
   html = html.replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${esc(description)}$2`)
-  if (image) html = html.replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${esc(image)}$2`)
+  if (image) {
+    html = html.replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${esc(image)}$2`)
+    // Preload the hero at the size the app will render it (1600 bucket): the
+    // browser starts downloading it the moment HTML arrives — before any JS.
+    const heroHref = imgUrl(image, 1600)
+    html = html.replace('</head>', `  <link rel="preload" as="image" href="${esc(heroHref)}" fetchpriority="high" />\n  </head>`)
+  }
+  if (preloadImagesFor) {
+    // start the image-manifest fetch as soon as the HTML arrives, in parallel
+    // with the JS — cards get their URLs the moment React asks for them.
+    html = html.replace('</head>', `  <link rel="preload" as="fetch" href="/api/images?country=${esc(preloadImagesFor)}" crossorigin="anonymous" />\n  </head>`)
+  }
   html = html.replace(/(<meta property="og:title")/, `<meta property="og:url" content="${esc(canonical)}" />\n    $1`)
   if (jsonLd) {
     const blocks = Array.isArray(jsonLd) ? jsonLd : [jsonLd]
@@ -150,6 +164,7 @@ for (const slug of countries) {
   const regionNames = (index.regions || []).map((r) => r.name).filter(Boolean)
   write(`/${slug}`, render({
     urlPath: `/${slug}`,
+    preloadImagesFor: slug,
     title: `${name} travel guide — region by region | myholidaypilot`,
     description: truncate(`${blurb} ${regionNames.length ? 'Regions: ' + regionNames.join(', ') + '.' : ''}`),
     jsonLd: { '@context': 'https://schema.org', '@type': 'TouristDestination', name, description: blurb, url: `${SITE}/${slug}` },
@@ -202,6 +217,7 @@ for (const slug of countries) {
     const restaurants = rf.restaurants || []
     write(`/${slug}/${rSummary.id}`, render({
       urlPath: `/${slug}/${rSummary.id}`,
+      preloadImagesFor: slug,
       title: `${rf.name}, ${name} — what to do, where to eat | myholidaypilot`,
       description: truncate(rf.history || rf.culturalNotes || `Things to do in ${rf.name}, ${name}: ${placeList.slice(0, 6).join(', ')}.`),
       image: rSummary.heroImage?.url || firstRegionImage(rSummary.id, places),
@@ -241,6 +257,7 @@ for (const slug of countries) {
         : ''
       write(`/${slug}/${rSummary.id}/${p.id}`, render({
         urlPath: `/${slug}/${rSummary.id}/${p.id}`,
+        preloadImagesFor: slug,
         title: `${p.name}, ${rf.name} — ${name} travel guide | myholidaypilot`,
         description: desc,
         image: placeImage(rSummary.id, p.id),

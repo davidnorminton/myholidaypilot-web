@@ -11,7 +11,7 @@ export default function RegionCard({ region, country, image, index = 99 }) {
     <Link to={paths.region(region.id, country)} className="rcard" style={{ '--accent': accent }}>
       <div className="rcard__media">
         {src
-          ? <SmartImage src={src} alt={region.name} width={400} priority={index < 6} />
+          ? <SmartImage src={src} alt={region.name} width={400} priority={index < 4} />
           : <div className="rcard__media--blank" />}
         <span className="rcard__emoji" aria-hidden>{region.emoji}</span>
       </div>

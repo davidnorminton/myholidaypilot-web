@@ -64,7 +64,7 @@ export default function RegionDetailScreen() {
     <div className="page" style={{ '--accent': accent }}>
       <div className={`rd-hero ${heroImage ? 'rd-hero--img' : ''}`}>
         {heroImage && <>
-          <img className="rd-hero__bg" src={imgUrl(heroImage, 1600)} alt="" />
+          <img className="rd-hero__bg" src={imgUrl(heroImage, 1600)} alt="" loading="eager" fetchPriority="high" decoding="async" />
           <div className="rd-hero__veil" />
         </>}
         <div className="wrap">

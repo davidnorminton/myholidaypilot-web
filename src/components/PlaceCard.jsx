@@ -9,7 +9,7 @@ export default function PlaceCard({ regionId, country, place, image, number, ind
     <Link to={paths.place(regionId, place.id, country)} className="pcard">
       <div className="pcard__media">
         {image
-          ? <SmartImage src={image} alt={place.name} width={400} priority={index < 8} />
+          ? <SmartImage src={image} alt={place.name} width={400} priority={index < 4} />
           : <div className="pcard__media--blank" aria-hidden>{place.name.charAt(0)}</div>}
         {number != null && <span className="pcard__num" aria-hidden>{number}</span>}
         <span className="chip pcard__type">{typeLabel(place.type)}</span>
