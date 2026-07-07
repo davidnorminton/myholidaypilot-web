@@ -54,21 +54,21 @@ export default defineConfig({
           { // site data (regions, places, guides, hub) — fresh when online, available offline
             urlPattern: ({ url }) => url.pathname.startsWith('/data/'),
             handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'mhp-data', expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 7 } },
+            options: { cacheName: 'mhp-data', expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 7, purgeOnQuotaError: true } },
           },
           { // self-hosted uploaded images
             urlPattern: ({ url }) => url.pathname.startsWith('/images/'),
             handler: 'CacheFirst',
-            options: { cacheName: 'mhp-images', expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 30 } },
+            options: { cacheName: 'mhp-images', expiration: { maxEntries: 120, maxAgeSeconds: 60 * 60 * 24 * 30, purgeOnQuotaError: true } },
           },
           { // remote photos (Unsplash) — CacheFirst: once cached, serve from
-            // cache with no network. The URL already encodes size/format, so a
-            // given URL's bytes never change; re-fetching (SWR) was wasteful.
+            // cache with no network. purgeOnQuotaError lets it evict oldest
+            // entries when storage is full instead of throwing QuotaExceeded.
             urlPattern: ({ url }) => url.origin === 'https://images.unsplash.com',
             handler: 'CacheFirst',
             options: {
               cacheName: 'mhp-remote-img',
-              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              expiration: { maxEntries: 120, maxAgeSeconds: 60 * 60 * 24 * 30, purgeOnQuotaError: true },
               cacheableResponse: { statuses: [0, 200] },
             },
           },
@@ -76,7 +76,7 @@ export default defineConfig({
             // but repeat navigations are instant from cache.
             urlPattern: ({ url }) => url.pathname === '/api/images',
             handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'mhp-img-manifest', expiration: { maxEntries: 30, maxAgeSeconds: 60 * 60 * 24 } },
+            options: { cacheName: 'mhp-img-manifest', expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24, purgeOnQuotaError: true } },
           },
           { // public site settings (hub images, hero, toggles) — SWR so the hub
             // cards render from cache instantly instead of waiting on the DB.
