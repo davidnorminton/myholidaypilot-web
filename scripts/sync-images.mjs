@@ -27,6 +27,15 @@ const args = process.argv.slice(2)
 const replace = args.includes('--replace')
 const onlyCountry = args.find((a) => !a.startsWith('--'))
 
+// Safety: only run against a real configured database. Without DATABASE_URL we
+// would hit an empty local build DB and sync nothing useful — so skip entirely
+// and leave the committed static images.json untouched. (Merges never wipe, but
+// skipping avoids noise and accidental churn in CI/build environments.)
+if (!process.env.DATABASE_URL) {
+  console.log('sync-images: no DATABASE_URL — skipping (static images.json left as-is)')
+  process.exit(0)
+}
+
 const { getDb } = await import(path.join(root, 'db/client.js'))
 const schema = await import(path.join(root, 'db/schema.js'))
 const { eq } = await import('drizzle-orm')
