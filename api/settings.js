@@ -15,6 +15,7 @@ export default handler(async (req, res) => {
         // admin view: include ai.* config, mask secrets to their tail
         const user = await requireUser(req)
         requireAdmin(user)
+        res.setHeader('Cache-Control', 'private, no-store')   // never cache admin/secret view
         const out = {}
         for (const [k, v] of Object.entries(all)) {
           out[k] = k.startsWith('secret.') ? `••••${String(v).slice(-4)}` : v
@@ -26,6 +27,11 @@ export default handler(async (req, res) => {
       for (const [k, v] of Object.entries(all)) {
         if (!k.startsWith('secret.') && !k.startsWith('ai.')) pub[k] = v
       }
+      // Public settings are identical for everyone and change rarely (admin
+      // edits). Cache hard at the edge with stale-while-revalidate so the hub
+      // images (which read these values) aren't gated behind a cold DB query
+      // on every page load. Admin edits surface within a few minutes.
+      res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=300, stale-while-revalidate=86400')
       return send(res, 200, pub)
     } catch {
       return send(res, 200, {})   // table not migrated yet — defaults apply
