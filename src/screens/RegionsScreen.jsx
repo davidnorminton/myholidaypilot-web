@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { getIndex, getImages, getPlacesIndex } from '../lib/data.js'
+import { getIndex, getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import RegionCard from '../components/RegionCard.jsx'
 import { CardSkeletons } from '../components/Loading.jsx'
@@ -13,13 +13,15 @@ export default function RegionsScreen() {
   const meta = COUNTRIES.find((c) => c.slug === country)
   useSeo({ title: `Regions of ${meta?.name || ''}`, description: `All the regions of ${meta?.name || ''} — their towns, tables and stories.`, path: `/${country}/regions` })
   const [regions, setRegions] = useState(null)
-  const [images, setImages] = useState({})
   const [placesByRegion, setPlacesByRegion] = useState({})
   const [q, setQ] = useState('')
 
   useEffect(() => {
+    // Regions + their card images arrive together in index.json (cardImage is
+    // baked at build time) — cards render immediately, no image fetch gate.
     getIndex(country).then((d) => setRegions(d.regions || [])).catch(() => setRegions([]))
-    getImages(country).then(setImages).catch(() => setImages({}))
+    // Places index is only needed to search-by-place; load it lazily so it
+    // never blocks the cards from rendering.
     getPlacesIndex(country).then((list) => {
       const byRegion = {}
       for (const p of (list || [])) {
@@ -29,18 +31,9 @@ export default function RegionsScreen() {
     }).catch(() => setPlacesByRegion({}))
   }, [country])
 
-  // Resolve a card image per region: explicit heroImage, else the first place
-  // in that region that actually has an image (images keyed region → place).
-  const firstImage = (r) => {
-    if (r.heroImage?.url) return r.heroImage.url
-    const reg = images[r.id]
-    if (!reg) return null
-    for (const placeId of Object.keys(reg)) {
-      const u = reg[placeId]?.[0]?.url
-      if (u) return u
-    }
-    return null
-  }
+  // Card image is baked into the region summary at build time (hero → first
+  // place with an image). No runtime image lookup needed.
+  const firstImage = (r) => r.cardImage || r.heroImage?.url || null
 
   const filtered = useMemo(() => {
     if (!regions) return null

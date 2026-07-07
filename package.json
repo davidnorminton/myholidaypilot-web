@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -k -n web,api -c cyan,green \"vite\" \"node dev-server.mjs\"",
-    "build": "vite build && node scripts/prerender.mjs",
+    "build": "node scripts/bake-card-images.mjs && vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "node db/migrate.mjs",
@@ -19,7 +19,8 @@
     "prebuild": "node scripts/gen-countries.mjs",
     "predev": "node scripts/gen-countries.mjs",
     "test": "vitest run tests --environment jsdom",
-    "prerender": "node scripts/prerender.mjs"
+    "prerender": "node scripts/prerender.mjs",
+    "bake": "node scripts/bake-card-images.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
