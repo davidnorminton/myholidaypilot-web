@@ -107,6 +107,10 @@ export default function PlanScreen() {
   return (
     <div className="page">
       <main className="wrap planpage">
+        <header className="planpage__head">
+          <h1 className="planpage__title">Trip planner</h1>
+          <p className="planpage__sub">Build your day-by-day itinerary — pick the places, arrange the days, and add packing and budget as you go.</p>
+        </header>
         {snap.trips.length > 0 && (
           <div className="trip-bar">
             <Link to={paths.trips()} className="trip-pill trip-pill--all">All trips</Link>
