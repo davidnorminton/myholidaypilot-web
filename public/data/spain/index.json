@@ -1,1 +1,481 @@
-{"schemaVersion":3,"exportedAt":"2026-07-04T16:19:40.890Z","appVersion":"1.0","totalRegions":18,"totalPlaces":244,"totalRestaurants":259,"totalChecklistItems":0,"totalImages":105,"affiliateIds":{},"regions":[{"id":"andalusia","name":"Andalusia","nameIt":"Andalucía","capital":"Seville","lat":37.5,"lng":-4.5,"emoji":"💃","colour":"ff4caf50","boundingBox":{"north":38.7,"south":36,"east":-1.6,"west":-7.5},"placeCount":15,"restaurantCount":14,"bestTimeToVisit":"Visit in spring (March-May) or fall for warm days without the scorching summer heat.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1688404808661-92f72f2ea258?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTZXZpbGxlJTIwUGxhemElMjBkZSUyMEVzcGFuYXxlbnwxfDB8fHwxNzgzMTc1ODQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Taisia Karaseva"},"cardImage":"https://images.unsplash.com/photo-1688404808661-92f72f2ea258?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTZXZpbGxlJTIwUGxhemElMjBkZSUyMEVzcGFuYXxlbnwxfDB8fHwxNzgzMTc1ODQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"catalonia","name":"Catalonia","nameIt":"Catalunya","capital":"Barcelona","lat":41.8,"lng":1.5,"emoji":"🏖️","colour":"ff2196f3","boundingBox":{"north":42.9,"south":40.5,"east":3.3,"west":0.1},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Late spring and early autumn offer pleasant weather for city and coastal exploring.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1739532827391-45e14eed59c3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXJjZWxvbmElMjBTYWdyYWRhJTIwRmFtaWxpYSUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzE3NjI3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Boris Hadjur"},"cardImage":"https://images.unsplash.com/photo-1739532827391-45e14eed59c3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXJjZWxvbmElMjBTYWdyYWRhJTIwRmFtaWxpYSUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzE3NjI3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"madrid","name":"Madrid","nameIt":"Comunidad de Madrid","capital":"Madrid","lat":40.4,"lng":-3.7,"emoji":"🏛️","colour":"ffff9800","boundingBox":{"north":41.2,"south":39.9,"east":-3,"west":-4.6},"placeCount":12,"restaurantCount":15,"bestTimeToVisit":"Spring and fall provide mild temperatures ideal for sightseeing.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1725112675082-5fc786ea4269?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWRyaWQlMjBHcmFuJTIwVmlhJTIwc2t5bGluZXxlbnwxfDB8fHwxNzgzMTc2NDg2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Arthur Hutterer"},"cardImage":"https://images.unsplash.com/photo-1725112675082-5fc786ea4269?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWRyaWQlMjBHcmFuJTIwVmlhJTIwc2t5bGluZXxlbnwxfDB8fHwxNzgzMTc2NDg2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"valencia","name":"Valencian Community","nameIt":"Comunitat Valenciana","capital":"Valencia","lat":39.3,"lng":-0.6,"emoji":"🍊","colour":"ff9c27b0","boundingBox":{"north":40.8,"south":37.8,"east":0.7,"west":-1.8},"placeCount":14,"restaurantCount":15,"bestTimeToVisit":"Spring for Las Fallas festival or fall for beach weather without summer crowds.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1719401542194-95139aed215c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYWxlbmNpYSUyMENpdHklMjBvZiUyMEFydHMlMjBhbmQlMjBTY2llbmNlc3xlbnwxfDB8fHwxNzgzMTc2NjExfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Claudio Schwarz"},"cardImage":"https://images.unsplash.com/photo-1719401542194-95139aed215c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYWxlbmNpYSUyMENpdHklMjBvZiUyMEFydHMlMjBhbmQlMjBTY2llbmNlc3xlbnwxfDB8fHwxNzgzMTc2NjExfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"basque_country","name":"Basque Country","nameIt":"País Vasco / Euskadi","capital":"Vitoria-Gasteiz","lat":43.1,"lng":-2.6,"emoji":"🍽️","colour":"ffe91e63","boundingBox":{"north":43.5,"south":42.5,"east":-1.7,"west":-3.5},"placeCount":14,"restaurantCount":15,"bestTimeToVisit":"Summer months offer the best weather for exploring the coast and cities.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1636556602097-2435ad5198ef?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCaWxiYW8lMjBHdWdnZW5oZWltJTIwTXVzZXVtfGVufDF8MHx8fDE3ODMxODA1MzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"David Vives"},"cardImage":"https://images.unsplash.com/photo-1636556602097-2435ad5198ef?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCaWxiYW8lMjBHdWdnZW5oZWltJTIwTXVzZXVtfGVufDF8MHx8fDE3ODMxODA1MzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"galicia","name":"Galicia","nameIt":"Galicia","capital":"Santiago de Compostela","lat":42.8,"lng":-7.9,"emoji":"🌊","colour":"ff009688","boundingBox":{"north":43.8,"south":41.9,"east":-6.7,"west":-9.3},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Summer is best for pleasant weather along the Atlantic coast and pilgrimage routes.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1623708290096-e582241aae99?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYW50aWFnbyUyMGRlJTIwQ29tcG9zdGVsYSUyMENhdGhlZHJhbCUyMGZhY2FkZXxlbnwxfDB8fHwxNzgzMTgwNTc4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Juan Gomez"},"cardImage":"https://images.unsplash.com/photo-1623708290096-e582241aae99?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYW50aWFnbyUyMGRlJTIwQ29tcG9zdGVsYSUyMENhdGhlZHJhbCUyMGZhY2FkZXxlbnwxfDB8fHwxNzgzMTgwNTc4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"castile_and_leon","name":"Castile and León","nameIt":"Castilla y León","capital":"Valladolid","lat":41.8,"lng":-4.7,"emoji":"🏰","colour":"ff795548","boundingBox":{"north":43.2,"south":40.2,"east":-2,"west":-7.1},"placeCount":15,"restaurantCount":14,"bestTimeToVisit":"Late spring through early autumn is ideal for exploring historic towns.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1609055126911-64b3f3b6997f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWxhbWFuY2ElMjBQbGF6YSUyME1heW9yfGVufDF8MHx8fDE3ODMxODA2MjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Beth Macdonald"},"cardImage":"https://images.unsplash.com/photo-1609055126911-64b3f3b6997f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWxhbWFuY2ElMjBQbGF6YSUyME1heW9yfGVufDF8MHx8fDE3ODMxODA2MjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"castilla_la_mancha","name":"Castilla-La Mancha","nameIt":"Castilla-La Mancha","capital":"Toledo","lat":39.5,"lng":-3,"emoji":"🌾","colour":"ff3f51b5","boundingBox":{"north":41.2,"south":38,"east":-1.3,"west":-5.4},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Spring and fall avoid the extreme summer heat of the plateau.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1720993396272-fd552cd668f6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUb2xlZG8lMjBTcGFpbiUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzE4MTUxNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Alex"},"cardImage":"https://images.unsplash.com/photo-1720993396272-fd552cd668f6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUb2xlZG8lMjBTcGFpbiUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzE4MTUxNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"aragon","name":"Aragon","nameIt":"Aragón","capital":"Zaragoza","lat":41.3,"lng":-0.9,"emoji":"⛰️","colour":"ffcddc39","boundingBox":{"north":42.9,"south":39.9,"east":0.8,"west":-2.2},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Summer for Pyrenean hiking, winter for skiing in the mountains.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1663408445669-d5e96e38fdfc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXNpbGljYSUyMGRlbCUyMFBpbGFyJTIwWmFyYWdvemF8ZW58MXwwfHx8MTc4MzE4MTU1N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Jordi Vich Navarro"},"cardImage":"https://images.unsplash.com/photo-1663408445669-d5e96e38fdfc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXNpbGljYSUyMGRlbCUyMFBpbGFyJTIwWmFyYWdvemF8ZW58MXwwfHx8MTc4MzE4MTU1N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"canary_islands","name":"Canary Islands","nameIt":"Islas Canarias","capital":"Las Palmas de Gran Canaria / Santa Cruz de Tenerife","lat":28.3,"lng":-15.6,"emoji":"🌋","colour":"ffff5722","boundingBox":{"north":29.5,"south":27.6,"east":-13.4,"west":-18.2},"placeCount":15,"restaurantCount":14,"bestTimeToVisit":"Year-round destination thanks to a mild subtropical climate, best in winter for northern escapees.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1551341900-ee1c29a24544?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3VudCUyMFRlaWRlJTIwdm9sY2FubyUyMFRlbmVyaWZlfGVufDF8MHx8fDE3ODMxODE1OTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"Joshua Humpfer"},"cardImage":"https://images.unsplash.com/photo-1551341900-ee1c29a24544?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3VudCUyMFRlaWRlJTIwdm9sY2FubyUyMFRlbmVyaWZlfGVufDF8MHx8fDE3ODMxODE1OTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"balearic_islands","name":"Balearic Islands","nameIt":"Illes Balears","capital":"Palma de Mallorca","lat":39.6,"lng":2.9,"emoji":"⛵","colour":"ff4caf50","boundingBox":{"north":40.1,"south":38.6,"east":4.3,"west":1.2},"placeCount":15,"restaurantCount":15,"bestTimeToVisit":"Late spring to early autumn is best for beaches and nightlife.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"https://images.unsplash.com/photo-1600589155522-ca8818011211?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYWxtYSUyMENhdGhlZHJhbCUyME1hbGxvcmNhfGVufDF8MHx8fDE3ODMxODE2NDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080","credit":"David Vives"},"cardImage":"https://images.unsplash.com/photo-1600589155522-ca8818011211?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYWxtYSUyMENhdGhlZHJhbCUyME1hbGxvcmNhfGVufDF8MHx8fDE3ODMxODE2NDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"},{"id":"asturias","name":"Asturias","nameIt":"Asturias","capital":"Oviedo","lat":43.3,"lng":-6,"emoji":"🏞️","colour":"ff2196f3","boundingBox":{"north":43.7,"south":42.9,"east":-4.5,"west":-7.1},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Summer offers the best weather for hiking the green coastal mountains.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"cantabria","name":"Cantabria","nameIt":"Cantabria","capital":"Santander","lat":43.2,"lng":-4,"emoji":"🐄","colour":"ffff9800","boundingBox":{"north":43.5,"south":42.8,"east":-3.1,"west":-4.9},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"Summer months bring the mildest weather to this green northern coast.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"navarre","name":"Navarre","nameIt":"Navarra","capital":"Pamplona","lat":42.7,"lng":-1.6,"emoji":"🐂","colour":"ff9c27b0","boundingBox":{"north":43.3,"south":41.9,"east":-0.7,"west":-2.5},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Early July for the Running of the Bulls, or spring/fall for quieter visits.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"la_rioja","name":"La Rioja","nameIt":"La Rioja","capital":"Logroño","lat":42.3,"lng":-2.5,"emoji":"🍷","colour":"ffe91e63","boundingBox":{"north":42.7,"south":41.9,"east":-1.7,"west":-3.1},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Fall harvest season (September-October) is ideal for wine touring.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"extremadura","name":"Extremadura","nameIt":"Extremadura","capital":"Mérida","lat":39.2,"lng":-6.1,"emoji":"🏺","colour":"ff009688","boundingBox":{"north":40.5,"south":37.9,"east":-4.6,"west":-7.5},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"Spring and autumn avoid the intense summer heat of this inland region.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"murcia","name":"Region of Murcia","nameIt":"Región de Murcia","capital":"Murcia","lat":38,"lng":-1.5,"emoji":"🌴","colour":"ff795548","boundingBox":{"north":38.8,"south":37.4,"east":-0.7,"west":-2.4},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"Spring and fall offer warm days for beaches without peak summer heat.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"ceuta_melilla","name":"Ceuta and Melilla","nameIt":"Ceuta y Melilla","capital":"Ceuta / Melilla","lat":35.5,"lng":-4,"emoji":"🕌","colour":"ff3f51b5","boundingBox":{"north":35.95,"south":35.15,"east":-2.8,"west":-5.4},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Spring and autumn offer comfortable temperatures for exploring these North African enclaves.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}}]}
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T16:19:40.890Z",
+  "appVersion": "1.0",
+  "totalRegions": 18,
+  "totalPlaces": 244,
+  "totalRestaurants": 259,
+  "totalChecklistItems": 0,
+  "totalImages": 105,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "andalusia",
+      "name": "Andalusia",
+      "nameIt": "Andalucía",
+      "capital": "Seville",
+      "lat": 37.5,
+      "lng": -4.5,
+      "emoji": "💃",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 38.7,
+        "south": 36,
+        "east": -1.6,
+        "west": -7.5
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit in spring (March-May) or fall for warm days without the scorching summer heat.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1688404808661-92f72f2ea258?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTZXZpbGxlJTIwUGxhemElMjBkZSUyMEVzcGFuYXxlbnwxfDB8fHwxNzgzMTc1ODQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Taisia Karaseva"
+      }
+    },
+    {
+      "id": "catalonia",
+      "name": "Catalonia",
+      "nameIt": "Catalunya",
+      "capital": "Barcelona",
+      "lat": 41.8,
+      "lng": 1.5,
+      "emoji": "🏖️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 42.9,
+        "south": 40.5,
+        "east": 3.3,
+        "west": 0.1
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Late spring and early autumn offer pleasant weather for city and coastal exploring.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1739532827391-45e14eed59c3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXJjZWxvbmElMjBTYWdyYWRhJTIwRmFtaWxpYSUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzE3NjI3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Boris Hadjur"
+      }
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "nameIt": "Comunidad de Madrid",
+      "capital": "Madrid",
+      "lat": 40.4,
+      "lng": -3.7,
+      "emoji": "🏛️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 41.2,
+        "south": 39.9,
+        "east": -3,
+        "west": -4.6
+      },
+      "placeCount": 12,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Spring and fall provide mild temperatures ideal for sightseeing.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1725112675082-5fc786ea4269?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWRyaWQlMjBHcmFuJTIwVmlhJTIwc2t5bGluZXxlbnwxfDB8fHwxNzgzMTc2NDg2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Arthur Hutterer"
+      }
+    },
+    {
+      "id": "valencia",
+      "name": "Valencian Community",
+      "nameIt": "Comunitat Valenciana",
+      "capital": "Valencia",
+      "lat": 39.3,
+      "lng": -0.6,
+      "emoji": "🍊",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 40.8,
+        "south": 37.8,
+        "east": 0.7,
+        "west": -1.8
+      },
+      "placeCount": 14,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Spring for Las Fallas festival or fall for beach weather without summer crowds.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1719401542194-95139aed215c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYWxlbmNpYSUyMENpdHklMjBvZiUyMEFydHMlMjBhbmQlMjBTY2llbmNlc3xlbnwxfDB8fHwxNzgzMTc2NjExfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Claudio Schwarz"
+      }
+    },
+    {
+      "id": "basque_country",
+      "name": "Basque Country",
+      "nameIt": "País Vasco / Euskadi",
+      "capital": "Vitoria-Gasteiz",
+      "lat": 43.1,
+      "lng": -2.6,
+      "emoji": "🍽️",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 43.5,
+        "south": 42.5,
+        "east": -1.7,
+        "west": -3.5
+      },
+      "placeCount": 14,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Summer months offer the best weather for exploring the coast and cities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1636556602097-2435ad5198ef?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCaWxiYW8lMjBHdWdnZW5oZWltJTIwTXVzZXVtfGVufDF8MHx8fDE3ODMxODA1MzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "David Vives"
+      }
+    },
+    {
+      "id": "galicia",
+      "name": "Galicia",
+      "nameIt": "Galicia",
+      "capital": "Santiago de Compostela",
+      "lat": 42.8,
+      "lng": -7.9,
+      "emoji": "🌊",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 43.8,
+        "south": 41.9,
+        "east": -6.7,
+        "west": -9.3
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Summer is best for pleasant weather along the Atlantic coast and pilgrimage routes.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1623708290096-e582241aae99?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYW50aWFnbyUyMGRlJTIwQ29tcG9zdGVsYSUyMENhdGhlZHJhbCUyMGZhY2FkZXxlbnwxfDB8fHwxNzgzMTgwNTc4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Juan Gomez"
+      }
+    },
+    {
+      "id": "castile_and_leon",
+      "name": "Castile and León",
+      "nameIt": "Castilla y León",
+      "capital": "Valladolid",
+      "lat": 41.8,
+      "lng": -4.7,
+      "emoji": "🏰",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 43.2,
+        "south": 40.2,
+        "east": -2,
+        "west": -7.1
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Late spring through early autumn is ideal for exploring historic towns.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1609055126911-64b3f3b6997f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWxhbWFuY2ElMjBQbGF6YSUyME1heW9yfGVufDF8MHx8fDE3ODMxODA2MjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Beth Macdonald"
+      }
+    },
+    {
+      "id": "castilla_la_mancha",
+      "name": "Castilla-La Mancha",
+      "nameIt": "Castilla-La Mancha",
+      "capital": "Toledo",
+      "lat": 39.5,
+      "lng": -3,
+      "emoji": "🌾",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 41.2,
+        "south": 38,
+        "east": -1.3,
+        "west": -5.4
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Spring and fall avoid the extreme summer heat of the plateau.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1720993396272-fd552cd668f6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUb2xlZG8lMjBTcGFpbiUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzE4MTUxNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Alex"
+      }
+    },
+    {
+      "id": "aragon",
+      "name": "Aragon",
+      "nameIt": "Aragón",
+      "capital": "Zaragoza",
+      "lat": 41.3,
+      "lng": -0.9,
+      "emoji": "⛰️",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 42.9,
+        "south": 39.9,
+        "east": 0.8,
+        "west": -2.2
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Summer for Pyrenean hiking, winter for skiing in the mountains.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1663408445669-d5e96e38fdfc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXNpbGljYSUyMGRlbCUyMFBpbGFyJTIwWmFyYWdvemF8ZW58MXwwfHx8MTc4MzE4MTU1N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jordi Vich Navarro"
+      }
+    },
+    {
+      "id": "canary_islands",
+      "name": "Canary Islands",
+      "nameIt": "Islas Canarias",
+      "capital": "Las Palmas de Gran Canaria / Santa Cruz de Tenerife",
+      "lat": 28.3,
+      "lng": -15.6,
+      "emoji": "🌋",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 29.5,
+        "south": 27.6,
+        "east": -13.4,
+        "west": -18.2
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Year-round destination thanks to a mild subtropical climate, best in winter for northern escapees.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1551341900-ee1c29a24544?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3VudCUyMFRlaWRlJTIwdm9sY2FubyUyMFRlbmVyaWZlfGVufDF8MHx8fDE3ODMxODE1OTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Joshua Humpfer"
+      }
+    },
+    {
+      "id": "balearic_islands",
+      "name": "Balearic Islands",
+      "nameIt": "Illes Balears",
+      "capital": "Palma de Mallorca",
+      "lat": 39.6,
+      "lng": 2.9,
+      "emoji": "⛵",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 40.1,
+        "south": 38.6,
+        "east": 4.3,
+        "west": 1.2
+      },
+      "placeCount": 15,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Late spring to early autumn is best for beaches and nightlife.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1600589155522-ca8818011211?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYWxtYSUyMENhdGhlZHJhbCUyME1hbGxvcmNhfGVufDF8MHx8fDE3ODMxODE2NDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "David Vives"
+      }
+    },
+    {
+      "id": "asturias",
+      "name": "Asturias",
+      "nameIt": "Asturias",
+      "capital": "Oviedo",
+      "lat": 43.3,
+      "lng": -6,
+      "emoji": "🏞️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 43.7,
+        "south": 42.9,
+        "east": -4.5,
+        "west": -7.1
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Summer offers the best weather for hiking the green coastal mountains.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "nameIt": "Cantabria",
+      "capital": "Santander",
+      "lat": 43.2,
+      "lng": -4,
+      "emoji": "🐄",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 43.5,
+        "south": 42.8,
+        "east": -3.1,
+        "west": -4.9
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Summer months bring the mildest weather to this green northern coast.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "navarre",
+      "name": "Navarre",
+      "nameIt": "Navarra",
+      "capital": "Pamplona",
+      "lat": 42.7,
+      "lng": -1.6,
+      "emoji": "🐂",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 43.3,
+        "south": 41.9,
+        "east": -0.7,
+        "west": -2.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Early July for the Running of the Bulls, or spring/fall for quieter visits.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "la_rioja",
+      "name": "La Rioja",
+      "nameIt": "La Rioja",
+      "capital": "Logroño",
+      "lat": 42.3,
+      "lng": -2.5,
+      "emoji": "🍷",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 42.7,
+        "south": 41.9,
+        "east": -1.7,
+        "west": -3.1
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Fall harvest season (September-October) is ideal for wine touring.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "extremadura",
+      "name": "Extremadura",
+      "nameIt": "Extremadura",
+      "capital": "Mérida",
+      "lat": 39.2,
+      "lng": -6.1,
+      "emoji": "🏺",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 40.5,
+        "south": 37.9,
+        "east": -4.6,
+        "west": -7.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Spring and autumn avoid the intense summer heat of this inland region.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "murcia",
+      "name": "Region of Murcia",
+      "nameIt": "Región de Murcia",
+      "capital": "Murcia",
+      "lat": 38,
+      "lng": -1.5,
+      "emoji": "🌴",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 38.8,
+        "south": 37.4,
+        "east": -0.7,
+        "west": -2.4
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Spring and fall offer warm days for beaches without peak summer heat.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "ceuta_melilla",
+      "name": "Ceuta and Melilla",
+      "nameIt": "Ceuta y Melilla",
+      "capital": "Ceuta / Melilla",
+      "lat": 35.5,
+      "lng": -4,
+      "emoji": "🕌",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 35.95,
+        "south": 35.15,
+        "east": -2.8,
+        "west": -5.4
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Spring and autumn offer comfortable temperatures for exploring these North African enclaves.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

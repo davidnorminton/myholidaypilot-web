@@ -39,7 +39,7 @@ export default function PlanScreen() {
   const planHeroImg = site['page.plan'] || (trip && site[`hub.${trip.countryId}.plan`]) || site['hub.default.plan'] || ''
   const [wizard, setWizard] = useState(null)
   const [planFor, setPlanFor] = useState(null)
-  const [view, setView] = useState('build')
+  const [step, setStep] = useState('basics')   // basics | places | days
   const [shared, setShared] = useState(false)
   const [pickingCountry, setPickingCountry] = useState(false)
   const [packingOpen, setPackingOpen] = useState(false)
@@ -94,27 +94,13 @@ export default function PlanScreen() {
 
   return (
     <div className="page">
-      <header className="sub-hero wrap plan-hero">
-        <div className="plan-hero__text">
-          <p className="eyebrow">myholidaypilot</p>
-          <h1 className="sub-hero__title">Plan my trip</h1>
-          <p className="sub-hero__sub">
-            However you like to plan — by mood, by map, or by a place you already love — start here.
-            Saved on this device for now.
-          </p>
-        </div>
-        <div className="plan-hero__media" data-emoji="🧭">
-          {planHeroImg && <img src={planHeroImg} alt="" />}
-        </div>
-      </header>
-
-      <main className="wrap">
+      <main className="wrap planpage">
         {snap.trips.length > 0 && (
           <div className="trip-bar">
             <Link to={paths.trips()} className="trip-pill trip-pill--all">All trips</Link>
             {snap.trips.map((t) => (
               <button key={t.id} className={`trip-pill ${t.id === snap.activeTripId ? 'trip-pill--on' : ''}`}
-                onClick={() => { setActiveTrip(t.id); setView('build') }}>
+                onClick={() => { setActiveTrip(t.id); setStep('basics') }}>
                 {t.name}<span className="trip-pill__n">{t.places.length}</span>
               </button>
             ))}
@@ -160,102 +146,97 @@ export default function PlanScreen() {
           </div>
         )}
 
-        {/* Active trip with places */}
+        {/* Active trip with places — workspace: steps | content | map */}
         {trip && trip.places.length > 0 && (
-          <section className="trip">
-            <div className="trip__head">
+          <section className="planws">
+            <aside className="planws__side">
+              <p className="planws__sidelabel">Build your trip</p>
+              {[
+                { id: 'basics', n: 1, label: 'Dates & travel', done: !!trip.startDate },
+                { id: 'places', n: 2, label: 'Places', done: trip.places.length > 0 },
+                { id: 'days', n: 3, label: 'Day by day', done: trip.places.some((p) => p.date) },
+              ].map((st) => (
+                <button key={st.id} className={`planws__step ${step === st.id ? 'is-on' : ''} ${st.done ? 'is-done' : ''}`}
+                  onClick={() => setStep(st.id)}>
+                  <span className="planws__stepnum">{st.done ? <Check size={13} /> : st.n}</span>
+                  {st.label}
+                </button>
+              ))}
+              <p className="planws__sidelabel planws__sidelabel--opt">Optional</p>
+              <button className="planws__step planws__step--opt" onClick={() => setBudgetOpen(true)}>
+                <span className="planws__stepnum"><Coins size={13} /></span> Budget
+              </button>
+              <button className="planws__step planws__step--opt" onClick={() => setPackingOpen(true)}>
+                <span className="planws__stepnum"><Luggage size={13} /></span> Packing list
+              </button>
+            </aside>
+
+            <div className="planws__toolbar">
               <span className="trip__namewrap">
                 <input className="trip__name" value={trip.name}
                   onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
                 <Pencil size={15} className="trip__pencil" aria-hidden />
               </span>
+              <div className="planws__actions">
+                <button className="trip__view" onClick={() => setStep('days')}><CalendarRange size={16} /> View trip</button>
+                <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+                <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+                <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Add to trip ideas</button>
+                <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
+                  <Trash2 size={16} />
+                </button>
+              </div>
             </div>
 
-            <div className="trip__toolbar">
-              {view === 'build' ? (
-                <>
-                  <div className="trip__tools">
-                    <button className="trip__view" onClick={() => setView('itinerary')}><CalendarRange size={16} /> View trip</button>
-                    <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
-                    <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
-                    <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
-                    <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Publish</button>
-                    <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+            <div className="planws__main">
+              {step === 'basics' && (<>
+                <div className="trip-status">
+                  <TripReadiness trip={trip} />
+                  <p className="trip__summary">
+                    <b>{trip.places.length}</b> {trip.places.length === 1 ? 'place' : 'places'}
+                    {regionCount > 0 && <> across <b>{regionCount}</b> {regionCount === 1 ? 'region' : 'regions'}</>}
+                    {doneCount > 0 && <> · {doneCount} locked in</>} — looking good.
+                  </p>
+                  <div className="trip__dates">
+                    <span className="trip__dateslabel"><CalendarRange size={15} /> Trip dates</span>
+                    <label>Arriving <input type="date" value={trip.startDate || ''} onChange={(e) => setTripDates(trip.id, e.target.value, trip.endDate || '')} /></label>
+                    <span className="trip__datesarrow">→</span>
+                    <label>Leaving <input type="date" value={trip.endDate || ''} onChange={(e) => setTripDates(trip.id, trip.startDate || '', e.target.value)} /></label>
+                    <span className="trip__dateshint">Moving the arrival date shifts the whole trip with it.</span>
                   </div>
-                  <div className="trip__primary">
-                    <button className="btn btn--primary trip__add" onClick={() => openWizard({ mode: 'ideas' })}><Plus size={16} /> Add places</button>
-                    <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
-                      <Trash2 size={16} />
-                    </button>
+                </div>
+                <StaysEditor trip={trip} />
+                <TravelEditor trip={trip} />
+              </>)}
+
+              {step === 'places' && (<>
+                {tip && <div className="trip-tip"><Lightbulb size={16} /> {tip}</div>}
+                {groups.map(([groupName, places]) => (
+                  <div key={groupName} className="trip-group">
+                    <h3 className="trip-group__title">{groupName}</h3>
+                    <ul className="trip-list">
+                      {places.map((p) => <PlaceRow country={trip.countryId} key={`${p.regionId}/${p.placeId}`} tripId={trip.id} place={p} onPlan={() => setPlanFor(p)} />)}
+                    </ul>
                   </div>
-                </>
-              ) : (
-                <>
-                  <div className="trip__tools">
-                    <button className="trip__view" onClick={() => setView('build')}><ArrowLeft size={16} /> Edit trip</button>
-                    <button className="trip__view" onClick={() => setPackingOpen(true)}><Luggage size={16} /> Packing</button>
-                    <button className="trip__view" onClick={() => setBudgetOpen(true)}><Coins size={16} /> Budget</button>
-                    <button className="trip__view" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
-                    <button className="trip__view" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Publish</button>
-                    <button className="trip__view" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
-                  </div>
-                  <div className="trip__primary">
-                    <button className="trip__del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip">
-                      <Trash2 size={16} />
-                    </button>
-                  </div>
-                </>
-              )}
+                ))}
+                <button className="trip-addmore" onClick={() => openWizard({ mode: 'ideas' })}>
+                  <Plus size={16} /> Add more places
+                </button>
+              </>)}
+
+              {step === 'days' && <Itinerary trip={trip} onPlan={(p) => setPlanFor(p)} />}
             </div>
 
-            {view === 'build' && (<>
-            <div className="trip-status">
-              <TripReadiness trip={trip} />
-              <p className="trip__summary">
-                <b>{trip.places.length}</b> {trip.places.length === 1 ? 'place' : 'places'}
-                {regionCount > 0 && <> across <b>{regionCount}</b> {regionCount === 1 ? 'region' : 'regions'}</>}
-                {doneCount > 0 && <> · {doneCount} locked in</>} — looking good.
+            <aside className="planws__map">
+              {mapMarkers.length > 0
+                ? <MapView height="100%" center={[mapMarkers[0].lng, mapMarkers[0].lat]} zoom={6} markers={mapMarkers} />
+                : <div className="planws__mapempty">Add places to see them on the map</div>}
+              <p className="planws__legend">
+                <span className="lg lg--p" /> places
+                <span className="lg lg--a" /> things to do
+                <span className="lg lg--r" /> restaurants
               </p>
-              <div className="trip__dates">
-                <span className="trip__dateslabel"><CalendarRange size={15} /> Trip dates</span>
-                <label>Arriving <input type="date" value={trip.startDate || ''} onChange={(e) => setTripDates(trip.id, e.target.value, trip.endDate || '')} /></label>
-                <span className="trip__datesarrow">→</span>
-                <label>Leaving <input type="date" value={trip.endDate || ''} onChange={(e) => setTripDates(trip.id, trip.startDate || '', e.target.value)} /></label>
-                <span className="trip__dateshint">Moving the arrival date shifts the whole trip with it.</span>
-              </div>
-            </div>
-
-
-            <StaysEditor trip={trip} />
-            <TravelEditor trip={trip} />
-
-            {tip && <div className="trip-tip"><Lightbulb size={16} /> {tip}</div>}
-
-            {mapMarkers.length > 0 && (
-              <>
-                <MapView height={330} center={[mapMarkers[0].lng, mapMarkers[0].lat]} zoom={6} markers={mapMarkers} />
-                <p className="trip-maplegend">
-                  <span className="lg lg--p" /> places
-                  <span className="lg lg--a" /> things to do
-                  <span className="lg lg--r" /> restaurants
-                </p>
-              </>
-            )}
-
-            {groups.map(([groupName, places]) => (
-              <div key={groupName} className="trip-group">
-                <h3 className="trip-group__title">{groupName}</h3>
-                <ul className="trip-list">
-                  {places.map((p) => <PlaceRow country={trip.countryId} key={`${p.regionId}/${p.placeId}`} tripId={trip.id} place={p} onPlan={() => setPlanFor(p)} />)}
-                </ul>
-              </div>
-            ))}
-
-            <button className="trip-addmore" onClick={() => openWizard({ mode: 'ideas' })}>
-              <Plus size={16} /> Add more places
-            </button>
-            </>)}
-            {view === 'itinerary' && <Itinerary trip={trip} onPlan={(p) => setPlanFor(p)} />}
+            </aside>
           </section>
         )}
       </main>

@@ -6,7 +6,7 @@ import { paths } from '../lib/paths.js'
 import { Reveal } from '../components/Reveal.jsx'
 import FeaturedDestinations from '../components/FeaturedDestinations.jsx'
 import BlogCarousel from '../components/BlogCarousel.jsx'
-import { useSettings } from '../lib/settings.js'
+import { useSettings, getSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
@@ -27,6 +27,14 @@ export default function LandingScreen() {
   const latestPosts = usePublishedPosts()
   const liveCount = COUNTRIES.filter((c) => c.available).length
   const site = useSettings()
+  // Resolve the hero only after settings load, so the bundled fallback never
+  // flashes/downloads first when an admin hero is set.
+  const [heroSrc, setHeroSrc] = useState(null)
+  useEffect(() => {
+    let live = true
+    getSettings().then((s2) => live && setHeroSrc(s2?.['home.hero'] || HERO)).catch(() => live && setHeroSrc(HERO))
+    return () => { live = false }
+  }, [])
   useSeo({ path: '/' })
   const [stats, setStats] = useState(null)
   useEffect(() => {
@@ -37,7 +45,7 @@ export default function LandingScreen() {
   return (
     <div className="page">
       <section className="land-hero">
-        <img className="land-hero__bg land-hero__bg--kb" src={site['home.hero'] || HERO} alt="" />
+        {heroSrc && <img className="land-hero__bg land-hero__bg--kb" src={heroSrc} alt="" fetchPriority="high" decoding="async" />}
         <div className="land-hero__veil" />
         <div className="wrap">
           <div className="land-hero__inner">
