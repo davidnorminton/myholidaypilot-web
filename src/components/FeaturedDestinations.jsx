@@ -28,10 +28,17 @@ export function useFeaturedPlaces() {
         if (!live) return
         const byCountry = Object.fromEntries(pairs)
         const out = picks.map((x) => {
-          const hit = (byCountry[x.c] || []).find((pl) => pl.regionId === x.r && pl.placeId === x.p)
-          if (!hit) return null
+          const list = byCountry[x.c] || []
           const country = COUNTRIES.find((c) => c.slug === x.c)
-          return { ...x, name: hit.name, regionName: hit.regionName, image: hit.image, countryName: country?.name }
+          if (x.p) {
+            const hit = list.find((pl) => pl.regionId === x.r && pl.placeId === x.p)
+            if (!hit) return null
+            return { ...x, isRegion: false, name: hit.name, regionName: hit.regionName, image: hit.image, countryName: country?.name }
+          }
+          // region pick (no placeId): resolve the region name + a cover image
+          const inRegion = list.filter((pl) => pl.regionId === x.r)
+          if (!inRegion.length) return null
+          return { ...x, isRegion: true, name: inRegion[0].regionName, regionName: inRegion[0].regionName, image: inRegion.find((pl) => pl.image)?.image || null, countryName: country?.name }
         }).filter(Boolean)
         setResolved(out)
       })
@@ -65,15 +72,15 @@ export default function FeaturedDestinations() {
       </div>
       <div className="featured__scroller" ref={scroller}>
         {resolved.map((f, i) => (
-          <Link key={`${f.c}/${f.r}/${f.p}`} to={paths.place(f.r, f.p, f.c)} className="featured__card">
+          <Link key={`${f.c}/${f.r}/${f.p || 'region'}`} to={f.isRegion ? paths.region(f.r, f.c) : paths.place(f.r, f.p, f.c)} className="featured__card">
             <div className="featured__media">
               {f.image
                 ? <SmartImage src={f.image} alt={f.name} width={600} priority={i < 4} />
                 : <span className="featured__blank" />}
             </div>
-            <p className="featured__kicker">{f.countryName}</p>
+            <p className="featured__kicker">{f.countryName}{f.isRegion ? ' · Region' : ''}</p>
             <h3 className="featured__name">{f.name}</h3>
-            <span className="featured__cta">Discover</span>
+            <span className="featured__cta">{f.isRegion ? 'Explore region' : 'Discover'}</span>
           </Link>
         ))}
       </div>

@@ -3030,6 +3030,11 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .featpick__btns button{display:inline-flex; padding:5px; border:1px solid var(--line); border-radius:7px; background:var(--surface); cursor:pointer; color:var(--muted)}
 .featpick__btns button:hover:not(:disabled){color:var(--ink)}
 .featpick__btns button:disabled{opacity:.35; cursor:default}
+.featpick__region{display:flex; gap:8px; margin-top:8px}
+.featpick__region select{flex:1; padding:9px 10px; border:1px solid var(--line); border-radius:10px; background:var(--surface)}
+.featpick__addregion{display:inline-flex; align-items:center; gap:6px; padding:9px 14px; border:1px solid var(--line); border-radius:10px; background:var(--surface); cursor:pointer; font-weight:600; white-space:nowrap}
+.featpick__addregion:hover:not(:disabled){background:var(--surface-2)}
+.featpick__addregion:disabled{opacity:.5; cursor:default}
 
 
 /* --- Header primary nav (Mindtrip-style) --- */

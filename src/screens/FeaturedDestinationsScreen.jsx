@@ -27,15 +27,15 @@ export default function FeaturedDestinationsScreen() {
           : (
             <div className="featured__pagegrid">
               {resolved.map((f, i) => (
-                <Link key={`${f.c}/${f.r}/${f.p}`} to={paths.place(f.r, f.p, f.c)} className="featured__card">
+                <Link key={`${f.c}/${f.r}/${f.p || 'region'}`} to={f.isRegion ? paths.region(f.r, f.c) : paths.place(f.r, f.p, f.c)} className="featured__card">
                   <div className="featured__media">
                     {f.image
                       ? <SmartImage src={f.image} alt={f.name} width={600} priority={i < 4} />
                       : <span className="featured__blank" />}
                   </div>
-                  <p className="featured__kicker">{f.countryName}</p>
+                  <p className="featured__kicker">{f.countryName}{f.isRegion ? ' · Region' : ''}</p>
                   <h3 className="featured__name">{f.name}</h3>
-                  <span className="featured__cta">Discover</span>
+                  <span className="featured__cta">{f.isRegion ? 'Explore region' : 'Discover'}</span>
                 </Link>
               ))}
             </div>
