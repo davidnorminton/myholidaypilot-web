@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Save, Check } from 'lucide-react'
 import ImageField from '../ImageField.jsx'
+import FeaturedPicker from './FeaturedPicker.jsx'
 import { api } from '../../lib/api.js'
 import { COUNTRIES } from '../../lib/countries.js'
 import { clearSettingsCache } from '../../lib/settings.js'
@@ -72,6 +73,13 @@ export default function AdminSite({ regions = [] }) {
         onChange={(v) => setVal('defaultPlaceImage', v)}
         full
       />
+
+      <h3 className="admin-h3" style={{ marginTop: 28 }}>Featured destinations</h3>
+      <p className="admin-note" style={{ marginTop: 4 }}>
+        Hand-pick the places shown in the "Featured destinations" grid on the home page.
+        Places only (not regions or countries). The first pick is the large lead card. Saves with the Save button.
+      </p>
+      <FeaturedPicker value={val('featuredPlaces')} onChange={(v) => setVal('featuredPlaces', v)} />
 
       <h3 className="admin-h3" style={{ marginTop: 28 }}>Country hub images</h3>
       <p className="admin-note">

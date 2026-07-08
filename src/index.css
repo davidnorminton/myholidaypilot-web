@@ -3,9 +3,9 @@
    floods its own colour (var(--accent)) through context views.
    ============================================================ */
 :root{
-  --paper:#f2f1ec; --surface:#fffefb; --surface-2:#f7f5f0;
+  --paper:#ffffff; --surface:#ffffff; --surface-2:#f7f6f3;
   --ink:#1c1a17; --ink-soft:#46423b; --muted:#7c766c; --faint:#a8a195;
-  --line:#e5e1d8; --line-soft:#edeae2;
+  --line:#e8e5df; --line-soft:#f0eee9;
   --gold:#b8542e; --danger:#bb3a2c; --ok:#1f7a4d;   /* --gold: warm clay accent (was muddy ochre) */
   --accent:#8a8378;                 /* overridden per region */
   --serif:'Instrument Serif', Georgia, 'Times New Roman', serif;
@@ -25,7 +25,7 @@ body{
 a{color:inherit; text-decoration:none}
 img{display:block; max-width:100%}
 button{font-family:inherit; cursor:pointer; border:none; background:none}
-.wrap{max-width:1100px; margin-inline:auto; padding-inline:24px}
+.wrap{max-width:1280px; margin-inline:auto; padding-inline:28px}
 .page{min-height:100vh; padding-bottom:64px; animation:fade .4s ease both}
 @keyframes fade{from{opacity:0; transform:translateY(6px)}to{opacity:1; transform:none}}
 
@@ -2933,3 +2933,41 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 
 /* --- Home FAQ --- */
 .home-faq{width:100%; margin-top:6px}
+
+/* --- Featured destinations (home) --- */
+.featured{margin-top:34px}
+.featured__grid{display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:200px; gap:14px}
+.featured__card{position:relative; display:block; border-radius:18px; overflow:hidden; background:var(--surface-2)}
+.featured__card--lead{grid-column:span 2; grid-row:span 2}
+.featured__card img{width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s ease}
+.featured__card:hover img{transform:scale(1.045)}
+.featured__blank{position:absolute; inset:0; background:linear-gradient(150deg, var(--surface-2), var(--line-soft))}
+.featured__veil{position:absolute; inset:0; background:linear-gradient(180deg, transparent 40%, rgba(15,13,10,.62) 100%)}
+.featured__label{position:absolute; left:16px; right:16px; bottom:14px; color:#fff; display:flex; flex-direction:column; gap:2px}
+.featured__label strong{font-family:var(--serif); font-weight:400; font-size:22px; line-height:1.15; text-shadow:0 1px 10px rgba(0,0,0,.35)}
+.featured__card--lead .featured__label strong{font-size:30px}
+.featured__label span{font-size:12.5px; opacity:.92}
+@media (max-width:900px){ .featured__grid{grid-template-columns:repeat(2,1fr); grid-auto-rows:180px} }
+@media (max-width:560px){ .featured__grid{grid-template-columns:1fr; grid-auto-rows:220px} .featured__card--lead{grid-column:span 1; grid-row:span 1} }
+
+/* --- Featured places picker (admin) --- */
+.featpick{margin-top:10px}
+.featpick__add{display:flex; gap:10px; align-items:flex-start}
+.featpick__add select{flex:none; padding:9px 10px; border:1px solid var(--line); border-radius:10px; background:var(--surface)}
+.featpick__search{position:relative; flex:1}
+.featpick__search input{width:100%; padding:9px 12px; border:1px solid var(--line); border-radius:10px; background:var(--surface)}
+.featpick__results{position:absolute; top:calc(100% + 4px); left:0; right:0; z-index:20; background:var(--surface);
+  border:1px solid var(--line); border-radius:12px; box-shadow:0 10px 30px rgba(20,17,12,.12); overflow:hidden}
+.featpick__results button{display:flex; align-items:center; gap:7px; width:100%; text-align:left; padding:9px 12px;
+  border:0; background:none; cursor:pointer; font-size:13.5px}
+.featpick__results button:hover{background:var(--surface-2)}
+.featpick__results button span{color:var(--muted); font-size:12.5px}
+.featpick__list{list-style:none; margin:12px 0 0; padding:0; display:flex; flex-direction:column; gap:6px}
+.featpick__item{display:flex; align-items:center; gap:8px; padding:8px 12px; background:var(--surface-2);
+  border:1px solid var(--line); border-radius:10px; font-size:13.5px}
+.featpick__lead{color:var(--gold); flex:none}
+.featpick__label{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.featpick__btns{display:flex; gap:4px}
+.featpick__btns button{display:inline-flex; padding:5px; border:1px solid var(--line); border-radius:7px; background:var(--surface); cursor:pointer; color:var(--muted)}
+.featpick__btns button:hover:not(:disabled){color:var(--ink)}
+.featpick__btns button:disabled{opacity:.35; cursor:default}

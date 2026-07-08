@@ -4,6 +4,7 @@ import { ArrowRight, Compass, Check, MapPin, Wand2, Map as MapIcon, Car, Copy, G
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { Reveal } from '../components/Reveal.jsx'
+import FeaturedDestinations from '../components/FeaturedDestinations.jsx'
 import { useSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { usePublishedPosts } from '../lib/blogStore.js'
@@ -58,6 +59,8 @@ export default function LandingScreen() {
           </div>
         </div>
       </section>
+
+      <FeaturedDestinations />
 
       <section className="wrap splits">
         <Reveal className="split">
