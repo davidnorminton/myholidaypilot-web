@@ -12,7 +12,7 @@ import SiteSearch from './SiteSearch.jsx'
 const HEADER_LINKS = [
   { to: paths.destinations(), label: 'Destinations' },
   { to: '/trip-planner', label: 'Trip planner' },
-  { to: '/gallery', label: 'Trip ideas' },
+  { to: '/trip-ideas', label: 'Trip ideas' },
 ]
 
 const LINKS = [
@@ -21,7 +21,7 @@ const LINKS = [
   { to: paths.plan(), label: 'Plan', icon: MapIcon },
   { to: paths.guided(), label: 'Guided planner', icon: Wand2 },
   { to: paths.dayTrips(), label: 'Day trips', icon: Car },
-  { to: '/gallery', label: 'Trip ideas', icon: Lightbulb },
+  { to: '/trip-ideas', label: 'Trip ideas', icon: Lightbulb },
   { to: paths.blog(), label: 'Blog', icon: BookOpen },
 ]
 

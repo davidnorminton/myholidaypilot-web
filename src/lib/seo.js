@@ -73,8 +73,8 @@ export function buildSitemap({ url, regions = [], places = [], posts = [], galle
   places.forEach((p) => add(`/italy/${p.regionId}/${p.placeId}`, '0.6'))
   add('/blog', '0.6')
   posts.forEach((p) => add(`/blog/${p.slug}`, '0.6', p.lastmod || today))
-  add('/gallery', '0.7')
-  gallery.forEach((g) => add(`/gallery/${g.slug}`, '0.6'))
+  add('/trip-ideas', '0.7')
+  gallery.forEach((g) => add(`/trip-ideas/${g.slug}`, '0.6'))
   add('/app', '0.5')
 
   const body = rows.map((u) =>

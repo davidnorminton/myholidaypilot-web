@@ -26,9 +26,9 @@ export function GalleryScreen() {
   useSeo({
     title: 'Trip ideas — real itineraries to copy',
     description: 'Real trips, planned day by day by real travellers — browse by region and length, then copy one into your own planner.',
-    path: '/gallery',
+    path: '/trip-ideas',
   })
-  const [country, setCountry] = useState('italy')
+  const [country, setCountry] = useState('all')
   const [rows, setRows] = useState(null)
   const [images, setImages] = useState({})
   const [region, setRegion] = useState('all')
@@ -36,12 +36,18 @@ export function GalleryScreen() {
 
   useEffect(() => {
     setRows(null)
-    api.gallery.list(country).then(setRows).catch(() => setRows([]))
-    getPlacesIndex(country).then((list) => {
+    api.gallery.list(country === 'all' ? undefined : country).then(async (list) => {
+      setRows(list)
+      // cover images come from each trip's country places-index
+      const slugs = country === 'all'
+        ? [...new Set((list || []).map((r) => r.countryId).filter(Boolean))]
+        : [country]
       const m = {}
-      for (const pl of (list || [])) if (pl.image) m[`${pl.regionId}/${pl.placeId}`] = pl.image
+      await Promise.all(slugs.map((slug) => getPlacesIndex(slug).then((idx) => {
+        for (const pl of (idx || [])) if (pl.image) m[`${pl.regionId}/${pl.placeId}`] = pl.image
+      }).catch(() => {})))
       setImages(m)
-    }).catch(() => {})
+    }).catch(() => setRows([]))
   }, [country])
 
   const regions = useMemo(() => {
@@ -61,13 +67,10 @@ export function GalleryScreen() {
     <div className="page wrap gal">
       <header className="gal__head gal__head--plain">
         <h1 className="gal__title">Trip ideas</h1>
-      </header>
-
-      <div className="gal__filters">
-        <div className="gq__row">
-          <label className="gq__select">
-            <span className="gq__selectlabel">Destination</span>
+        <div className="gq__row gq__row--inline">
+          <label className="gq__select gq__select--bare">
             <select value={country} onChange={(e) => setCountry(e.target.value)}>
+              <option value="all">🌍 All destinations</option>
               {COUNTRIES.filter((c) => c.available).map((c) => (
                 <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
               ))}
@@ -79,6 +82,9 @@ export function GalleryScreen() {
             ))}
           </div>
         </div>
+      </header>
+
+      <div className="gal__filters">
         {regions.length > 2 && (
           <div className="gq__chips">
             {regions.map((r) => (
@@ -102,7 +108,7 @@ export function GalleryScreen() {
         {shown.map((r) => {
           const flag = COUNTRIES.find((c) => c.slug === r.countryId)?.flag
           return (
-          <Link key={r.id} to={`/gallery/${r.slug}`} className="gal__card">
+          <Link key={r.id} to={`/trip-ideas/${r.slug}`} className="gal__card">
             <div className="gal__media">
               {coverOf(r)
                 ? <img src={coverOf(r)} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />
@@ -145,7 +151,7 @@ export function GalleryTripScreen() {
   useSeo({
     title: pub ? `${pub.title} — a ${pub.days}-day trip to copy` : 'Trip idea',
     description: pub?.story ? pub.story.slice(0, 155) : 'A real itinerary, planned day by day — copy it into your own planner.',
-    path: `/gallery/${slug}`,
+    path: `/trip-ideas/${slug}`,
   })
 
   const snap = pub?.data
@@ -177,7 +183,7 @@ export function GalleryTripScreen() {
   if (pub === null) return (
     <div className="page wrap">
       <p className="account__empty" style={{ marginTop: 60 }}>
-        That trip isn't in the gallery (it may have been unpublished). <Link to="/gallery">Browse trip ideas</Link>.
+        That trip isn't in the gallery (it may have been unpublished). <Link to="/trip-ideas">Browse trip ideas</Link>.
       </p>
     </div>
   )
@@ -249,7 +255,7 @@ export function GalleryTripScreen() {
           ))}
         </div>
 
-        <p className="galtrip__back"><Link to="/gallery"><ArrowLeft size={15} /> More trip ideas</Link></p>
+        <p className="galtrip__back"><Link to="/trip-ideas"><ArrowLeft size={15} /> More trip ideas</Link></p>
       </div>
     </div>
   )

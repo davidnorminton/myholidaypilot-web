@@ -2218,10 +2218,10 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 /* ── public trip gallery ── */
 .gal__head{padding:34px 0 6px}
 .gal__eyebrow{font-size:11.5px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--gold)}
-.gal__title{font-family:var(--sans); font-size:clamp(28px,4.4vw,40px); font-weight:400; margin:8px 0 6px}
+.gal__title{font-family:var(--sans); font-size:clamp(28px,4.4vw,40px); font-weight:800; margin:8px 0 6px}
 .gal__sub{color:var(--muted); font-size:15px; max-width:56ch; line-height:1.6; margin:0 0 18px}
 .gal__filters{display:flex; flex-direction:column; gap:8px; margin-bottom:22px}
-.gal__head--plain{padding:8px 0 4px}
+.gal__head--plain{display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:wrap; padding:8px 0 4px}
 .gal__head--plain .gal__title{font-size:clamp(32px,4.6vw,46px); margin:0}
 .gal__grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:22px; padding-bottom:56px}
 .gal__card{display:flex; flex-direction:column; color:var(--ink); text-decoration:none}
@@ -3045,3 +3045,6 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   .planws__main{grid-column:1}
   .planws__map{grid-column:1; position:static; height:320px; margin-top:8px}
 }
+.gq__row--inline{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.gq__select--bare .gq__selectlabel{display:none}
+.gq__select--bare select{padding:9px 12px; border:1px solid var(--line); border-radius:999px; background:var(--surface); font-weight:600}

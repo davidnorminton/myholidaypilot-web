@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate, useParams } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 // Eager: the content pages that are the common entry points / first paint.
@@ -60,8 +60,11 @@ export default function App() {
           <Route path="/saved" element={<SavedScreen />} />
           <Route path="/trips" element={<RequireAuth><TripsScreen /></RequireAuth>} />
           <Route path="/guided" element={<GuidedPlannerScreen />} />
-          <Route path="/gallery" element={<GalleryScreen />} />
-          <Route path="/gallery/:slug" element={<GalleryTripScreen />} />
+          <Route path="/trip-ideas" element={<GalleryScreen />} />
+          <Route path="/trip-ideas/:slug" element={<GalleryTripScreen />} />
+          {/* old URLs redirect */}
+          <Route path="/gallery" element={<Navigate to="/trip-ideas" replace />} />
+          <Route path="/gallery/:slug" element={<GalleryRedirect />} />
           <Route path="/day-trips" element={<DayTripsScreen />} />
           <Route path="/account" element={<RequireAuth><AccountScreen /></RequireAuth>} />
           <Route path="/account/:section" element={<RequireAuth><AccountScreen /></RequireAuth>} />
@@ -78,4 +81,10 @@ export default function App() {
       </Suspense>
     </>
   )
+}
+
+// Old /gallery/:slug URLs → /trip-ideas/:slug
+function GalleryRedirect() {
+  const { slug } = useParams()
+  return <Navigate to={`/trip-ideas/${slug}`} replace />
 }
