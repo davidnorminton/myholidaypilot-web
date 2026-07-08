@@ -27,7 +27,12 @@ function PointForm({ trip, which, onDone }) {
   const [otherMode, setOtherMode] = useState(false)
   useEffect(() => {
     let on = true
-    api.airports.list(trip.countryId || 'italy').then((r) => { if (on) setAirports(r || []) }).catch(() => { if (on) setAirports([]) })
+    api.airports.list(trip.countryId || 'italy').then((r) => {
+      if (!on) return
+      setAirports(r || [])
+      // No curated list for this country → fall straight through to map search
+      if (!r || r.length === 0) setOtherMode(true)
+    }).catch(() => { if (on) { setAirports([]); setOtherMode(true) } })
     return () => { on = false }
   }, [])
   const airportHits = (airports || []).filter((a) => {
@@ -46,7 +51,8 @@ function PointForm({ trip, which, onDone }) {
     timer.current = setTimeout(async () => {
       setBusy(true)
       const anchor = trip.places.find((p) => p.lat && p.lng)
-      setResults(await searchPlaces(text, anchor ? { proximity: anchor } : {}))
+      const biased = type === 'airport' && !/airport|aeroport|aeropuerto|flughafen/i.test(text) ? `${text} airport` : text
+      setResults(await searchPlaces(biased, anchor ? { proximity: anchor } : {}))
       setBusy(false)
     }, 450)
   }

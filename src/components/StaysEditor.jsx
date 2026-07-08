@@ -72,7 +72,7 @@ function StayForm({ trip, initial, onDone }) {
         <ul className="stayform__results">
           {results.map((r, i) => (
             <li key={i}>
-              <button onClick={() => { setCoords(r); setResults([]) }}><MapPin size={13} /> {r.label}</button>
+              <button onClick={() => { setName(r.label.split(',')[0]); setCoords(r); setResults([]) }}><MapPin size={13} /> {r.label}</button>
             </li>
           ))}
         </ul>
