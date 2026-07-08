@@ -43,7 +43,7 @@ export default function CountriesScreen() {
 
   return (
     <div className="page">
-      <PageHero id="destinations" eyebrow="myholidaypilot" title="Destinations" emoji="🗺️"
+      <PageHero id="destinations" eyebrow="myholidaypilot" title="Destinations" emoji="🗺️" bleed
         sub="Pick where to wander — every country mapped region by region." />
       <main className="wrap">
         {top10.length >= 4 && (

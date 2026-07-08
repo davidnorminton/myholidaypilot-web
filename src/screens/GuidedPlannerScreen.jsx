@@ -121,8 +121,8 @@ export default function GuidedPlannerScreen() {
   const canNext = step !== 3 || quiz.interests.length > 0
 
   return (
-    <div className="page wrap guided">
-      <header className="guided__head plan-hero">
+    <div className="page guided">
+      <header className="guided__head plan-hero plan-hero--bleed">
         <div className="plan-hero__text">
           <p className="eyebrow">Guided planner</p>
           <h1 className="guided__title">A ready-made trip in five questions</h1>
@@ -135,6 +135,8 @@ export default function GuidedPlannerScreen() {
           {site['page.guided'] && <img src={site['page.guided']} alt="" />}
         </div>
       </header>
+
+      <div className="wrap">
 
       {step < 5 && (
         <div className="gq">
@@ -304,6 +306,7 @@ export default function GuidedPlannerScreen() {
       {step === 5 && !plan && !busy && (
         <p className="gq__hint">Couldn't draft a trip — try different answers.</p>
       )}
+      </div>
 
       {pubTrip && (
         <PublishTrip trip={pubTrip} cover={coverHint()} onClose={() => setPubOpen(false)} />

@@ -28,7 +28,6 @@ import BudgetPanel from '../components/BudgetPanel.jsx'
 import PublishTrip from '../components/PublishTrip.jsx'
 import Itinerary from '../components/Itinerary.jsx'
 
-const SUGGESTIONS = ['Rome', 'Florence', 'Venice', 'Naples', 'Amalfi', 'Milan']
 const HIGHLIGHTS = ['Rome', 'Florence', 'Venice', 'Amalfi Coast', 'Cinque Terre', 'Pompeii']
 
 export default function PlanScreen() {
@@ -46,6 +45,18 @@ export default function PlanScreen() {
   const [packingOpen, setPackingOpen] = useState(false)
   const [budgetOpen, setBudgetOpen] = useState(false)
   const [publishOpen, setPublishOpen] = useState(false)
+  // "Or jump to" chips follow the trip's destination (was hardcoded Italy).
+  const country = trip?.countryId || 'italy'
+  const [suggestions, setSuggestions] = useState([])
+  useEffect(() => {
+    let on = true
+    getPlacesIndex(country).then((idx) => {
+      if (!on || !idx) return
+      const cities = idx.filter((p) => p.type === 'CITY')
+      setSuggestions((cities.length >= 4 ? cities : idx).slice(0, 6).map((p) => p.name))
+    }).catch(() => {})
+    return () => { on = false }
+  }, [country])
   const share = async () => {
     try { await navigator.clipboard.writeText(shareUrl(trip)); setShared(true); setTimeout(() => setShared(false), 2000) }
     catch { prompt('Copy this trip link:', shareUrl(trip)) }
@@ -138,12 +149,14 @@ export default function PlanScreen() {
                 <span className="start-card__go">Add highlights <ChevronRight size={15} /></span>
               </button>
             </div>
-            <div className="plan-start__chips">
-              <span className="plan-start__chiplabel">Or jump to:</span>
-              {SUGGESTIONS.map((s) => (
-                <button key={s} className="chip-suggest" onClick={() => openWizard({ query: s, mode: 'search' })}>{s}</button>
-              ))}
-            </div>
+            {suggestions.length > 0 && (
+              <div className="plan-start__chips">
+                <span className="plan-start__chiplabel">Or jump to:</span>
+                {suggestions.map((s) => (
+                  <button key={s} className="chip-suggest" onClick={() => openWizard({ query: s, mode: 'search' })}>{s}</button>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
