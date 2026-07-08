@@ -106,7 +106,7 @@ export default function PlanScreen() {
 
   return (
     <div className="page">
-      <main className="wrap planpage">
+      <div className="wrap">
         <header className="planpage__head">
           <h1 className="planpage__title">Trip planner</h1>
           <p className="planpage__sub">Build your day-by-day itinerary — pick the places, arrange the days, and add packing and budget as you go.</p>
@@ -125,7 +125,9 @@ export default function PlanScreen() {
             </button>
           </div>
         )}
+      </div>
 
+      <main className="wrap planpage">
         {/* Guided start for the unsure user */}
         {(!trip || trip.places.length === 0) && (
           <div className="plan-start">
