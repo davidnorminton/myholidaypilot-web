@@ -61,10 +61,10 @@ export default function TopBar() {
             style={{ position: 'fixed', inset: 0, zIndex: 9997, background: 'rgba(20,16,12,.38)' }} />
           <nav className="navdrawer navdrawer--panel"
             style={{
-              position: 'fixed', top: 10, left: 10, bottom: 10, right: 'auto',
-              width: 'min(320px, calc(100vw - 20px))', zIndex: 9998,
-              background: 'var(--surface, #ffffff)', border: '1px solid var(--line, #e8e5df)',
-              borderRadius: 22, padding: '18px 16px 16px',
+              position: 'fixed', top: 0, left: 0, bottom: 0, right: 'auto',
+              width: 'min(320px, 88vw)', zIndex: 9998,
+              background: 'var(--surface, #ffffff)', borderRight: '1px solid var(--line, #e8e5df)',
+              borderRadius: '0 22px 22px 0', padding: '18px 16px 16px',
               display: 'flex', flexDirection: 'column', gap: 4,
               boxShadow: '0 24px 70px rgba(20,16,12,.22)', overflowY: 'auto',
             }}>

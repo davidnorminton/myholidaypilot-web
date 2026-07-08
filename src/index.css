@@ -2980,6 +2980,5 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .navdrawer__brandrow{display:flex; align-items:center; justify-content:space-between; padding:2px 4px 12px; border-bottom:1px solid var(--line-soft); margin-bottom:8px}
 .navdrawer__brandrow .brand__name{font-size:16px}
 .navdrawer__links{flex:1; display:flex; flex-direction:column; gap:2px; padding-top:4px}
-.navdrawer__foot{border-top:1px solid var(--line-soft); padding-top:14px; margin-top:10px; display:flex}
-.navdrawer__foot > *{width:100%}
-.navdrawer__foot .authbtn, .navdrawer__foot button{width:100%; justify-content:center}
+.navdrawer__foot{border-top:1px solid var(--line-soft); padding-top:14px; margin-top:10px; display:flex; align-items:center}
+.navdrawer__foot .auth__signin{width:100%; justify-content:center}
