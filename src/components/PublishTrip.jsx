@@ -8,7 +8,7 @@ import { paths } from '../lib/paths.js'
 // Publish a trip to the public gallery. The server snapshots the SYNCED copy
 // of the trip and sanitises it (relative days, no addresses, no personal
 // fields) — so what strangers see is decided server-side, not here.
-export default function PublishTrip({ trip, onClose }) {
+export default function PublishTrip({ trip, onClose, cover }) {
   const [mine, setMine] = useState(undefined)      // my publications
   const [attribution, setAttribution] = useState(false)
   const [busy, setBusy] = useState(false)
@@ -27,7 +27,7 @@ export default function PublishTrip({ trip, onClose }) {
   const publish = async () => {
     setBusy(true); setError('')
     try {
-      const res = await api.gallery.publish(trip.id, attribution)
+      const res = await api.gallery.publish(trip.id, attribution, cover)
       setDone(res.slug)
       const rows = await api.gallery.mine().catch(() => null)
       if (rows) setMine(rows)

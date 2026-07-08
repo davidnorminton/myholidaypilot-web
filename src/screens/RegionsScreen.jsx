@@ -56,7 +56,7 @@ export default function RegionsScreen() {
   return (
     <div className="page">
       <header className="hero">
-        <div className="wrap hero__inner">
+        <div className="wrap">
           <p className="eyebrow"><Link to={paths.country(country)} className="eyebrow__link">{meta?.name}</Link> · Regions</p>
           <h1 className="hero__title">Regions of {meta?.name}</h1>
           <p className="hero__sub">

@@ -96,7 +96,13 @@ export default handler(async (req, res) => {
 
     const authorName = b.attribution ? (user.name || null) : null
     const regionNames = [...new Set(snap.places.map((p) => p.regionName).filter(Boolean))]
-    const cover = snap.places.find((p) => p.regionId && p.placeId) || {}
+    // The client may hint a cover place (e.g. one it knows has a card image);
+    // honour it only if it's actually part of this trip, else fall back to the
+    // first real place.
+    const hinted = b.cover && b.cover.placeId
+      ? snap.places.find((p) => p.regionId === b.cover.regionId && p.placeId === b.cover.placeId)
+      : null
+    const cover = hinted || snap.places.find((p) => p.regionId && p.placeId) || {}
 
     const [existing] = await db.select().from(publicTrips).where(eq(publicTrips.tripId, b.tripId))
     const fields = {

@@ -73,6 +73,10 @@ async function pushChanges() {
   }
 }
 
+// Force any pending debounced sync to run now and wait for it — used before
+// publishing a freshly-created trip so the server has it before it snapshots.
+export async function flushTrips() { clearTimeout(pushTimer); await pushChanges() }
+
 // Called from Layout when auth changes. On sign-in: pull the account's trips,
 // merge with anything local (local trips not yet on the server are adopted
 // into the account), then keep pushing changes in the background.

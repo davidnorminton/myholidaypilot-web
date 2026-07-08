@@ -41,7 +41,6 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 
 /* ── Home hero ─────────────────────────────────────────── */
 .hero{padding-top:clamp(48px,8vw,104px); margin-bottom:clamp(28px,4vw,48px)}
-.hero__inner{max-width:none}
 .hero__title{
   font-family:var(--sans); font-weight:800; line-height:.92;
   font-size:clamp(72px,15vw,168px); letter-spacing:-.01em; margin:0;
@@ -2168,6 +2167,26 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 .pk__item:hover{background:var(--surface-2)}
 .pk__item input{width:16px; height:16px; accent-color:var(--ok)}
 .pk__item.is-done span{text-decoration:line-through; color:var(--faint)}
+
+/* ── Add-to-trip picker ─────────────────────────────────────── */
+.atp{width:min(460px,100%)}
+.atp__body{padding:2px 18px 16px; overflow-y:auto}
+.atp__place{font-size:13.5px; color:var(--muted); margin:0 0 12px}
+.atp__place b{color:var(--ink); font-weight:700}
+.atp__list{list-style:none; margin:0 0 12px; padding:0; display:flex; flex-direction:column; gap:8px}
+.atp__trip{width:100%; display:flex; align-items:center; gap:10px; padding:11px 14px; border-radius:12px;
+  border:1px solid var(--line); background:var(--paper); text-align:left; cursor:pointer}
+.atp__trip:hover{background:var(--surface-2)}
+.atp__trip.is-on{border-color:var(--accent); background:var(--surface)}
+.atp__tripname{font-weight:700; color:var(--ink); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.atp__tripmeta{font-size:12.5px; color:var(--faint); flex-shrink:0}
+.atp__check{display:grid; place-items:center; width:26px; height:26px; border-radius:999px; color:var(--muted); flex-shrink:0}
+.atp__trip.is-on .atp__check{color:var(--accent)}
+.atp__new{width:100%; display:flex; align-items:center; justify-content:center; gap:8px; padding:11px 14px;
+  border-radius:12px; border:1px dashed var(--line); background:transparent; color:var(--ink); font-weight:600; cursor:pointer}
+.atp__new:hover{background:var(--surface-2); border-color:var(--accent)}
+.atp__empty{font-size:13.5px; color:var(--muted); margin:0 0 12px}
+.atp__foot{display:flex; gap:10px; padding:12px 18px 16px; border-top:1px solid var(--line-soft)}
 
 /* budget panel */
 .bgt{width:min(600px,100%)}

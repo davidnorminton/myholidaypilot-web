@@ -165,7 +165,7 @@ export default function DayTripsScreen() {
                   <div className="dtf__body">
                     <Link to={paths.place(p.regionId, p.placeId)} className="dtf__name">{p.name}</Link>
                     <span className="dtf__meta">{typeLabel(p.type)}{p.regionId !== base.regionId ? ` · ${p.regionName}` : ''}</span>
-                    <AddToTrip place={{ regionId: p.regionId, regionName: p.regionName, placeId: p.placeId, name: p.name, type: p.type, lat: p.lat, lng: p.lng }} compact />
+                    <AddToTrip place={{ regionId: p.regionId, regionName: p.regionName, placeId: p.placeId, name: p.name, type: p.type, lat: p.lat, lng: p.lng }} countryId={country} compact />
                   </div>
                 </article>
               ))}

@@ -2,12 +2,13 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import {
   Wand2, ArrowRight, ArrowLeft, RefreshCw, CalendarRange, MapPin,
-  Compass, Utensils, Check, PencilRuler, Globe2,
+  Compass, Utensils, Check, PencilRuler, Globe2, Share2,
 } from 'lucide-react'
 import { getIndex, getPlacesIndex, getRegion } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { generatePlan, INTERESTS, PACES, STYLES } from '../lib/generateTrip.js'
-import { createTrip, setTripDates, addPlace, setPlaceDate, togglePlaceItem, setActiveTrip } from '../lib/trips.js'
+import { createTrip, setTripDates, addPlace, setPlaceDate, togglePlaceItem, setActiveTrip, flushTrips, getSnapshot } from '../lib/trips.js'
+import PublishTrip from '../components/PublishTrip.jsx'
 import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
 import { paths } from '../lib/paths.js'
 import { useSettings } from '../lib/settings.js'
@@ -33,6 +34,9 @@ export default function GuidedPlannerScreen() {
   const [busy, setBusy] = useState(false)
   const [tried, setTried] = useState([])   // regions already shown (for regenerate)
   const [seed, setSeed] = useState(1)
+  const [savedId, setSavedId] = useState(null)   // trip materialised from this plan
+  const [pubOpen, setPubOpen] = useState(false)
+  const [pubBusy, setPubBusy] = useState(false)
 
   useEffect(() => {
     setDeps(null)
@@ -50,6 +54,7 @@ export default function GuidedPlannerScreen() {
     setBusy(true)
     const p = await generatePlan(quiz, deps, { seed: opts.seed ?? seed, exclude: opts.exclude ?? [] })
     setPlan(p)
+    setSavedId(null); setPubOpen(false)   // a fresh draft is a different trip
     if (p) setTried((t) => [...new Set([...t, p.region.id])])
     setBusy(false)
     setStep(5)
@@ -61,8 +66,10 @@ export default function GuidedPlannerScreen() {
     generate({ seed: nextSeed, exclude: tried })
   }
 
-  const saveTrip = () => {
-    if (!plan) return
+  // Turn the generated plan into a real (account-synced) trip. Idempotent per
+  // plan: called by both "Save & open" and "Publish", but only creates once.
+  const materialise = () => {
+    if (savedId) return savedId
     const id = createTrip(plan.name, quiz.country)
     setTripDates(id, plan.startDate, plan.endDate)
     for (const day of plan.days) {
@@ -73,9 +80,42 @@ export default function GuidedPlannerScreen() {
         for (const r of p.restaurants) togglePlaceItem(id, p.regionId, p.placeId, 'restaurants', r, day.date)
       }
     }
+    setSavedId(id)
+    return id
+  }
+
+  const saveTrip = () => {
+    if (!plan) return
+    const id = materialise()
     setActiveTrip(id)
     navigate(paths.plan())
   }
+
+  // First place in the itinerary that carries a card image, so the published
+  // trip-ideas card is guaranteed a photo rather than the placeholder pin.
+  // (places-index images are baked at build time, so this resolves on prod.)
+  const coverHint = () => {
+    if (!plan) return undefined
+    for (const d of plan.days) for (const p of d.places) if (p.image) return { regionId: p.regionId, placeId: p.placeId }
+    return undefined
+  }
+
+  const publishToIdeas = async () => {
+    if (!plan || pubBusy) return
+    setPubBusy(true)
+    try {
+      const id = materialise()
+      setActiveTrip(id)
+      await flushTrips()          // make sure the server has the trip before it snapshots
+      setPubOpen(true)
+    } catch (e) {
+      alert(e?.message || 'Could not prepare this trip for publishing.')
+    } finally {
+      setPubBusy(false)
+    }
+  }
+
+  const pubTrip = pubOpen && savedId ? getSnapshot().trips.find((t) => t.id === savedId) : null
 
   const steps = ['Where', 'When', 'Pace', 'Interests', 'Style']
   const canNext = step !== 3 || quiz.interests.length > 0
@@ -240,9 +280,14 @@ export default function GuidedPlannerScreen() {
 
           <footer className="gplan__foot">
             {user ? (
-              <button className="btn btn--primary" onClick={saveTrip}>
-                <Check size={16} /> Save &amp; open in the planner
-              </button>
+              <>
+                <button className="btn btn--primary" onClick={saveTrip}>
+                  <Check size={16} /> Save &amp; open in the planner
+                </button>
+                <button className="btn btn--soft" onClick={publishToIdeas} disabled={pubBusy}>
+                  <Share2 size={16} /> {pubBusy ? 'Preparing…' : 'Publish to trip ideas'}
+                </button>
+              </>
             ) : (
               <div className="gplan__signin">
                 {configured ? <GoogleSignInButton />
@@ -250,7 +295,7 @@ export default function GuidedPlannerScreen() {
                   : <p className="gq__hint">Sign-in isn't configured yet.</p>}
               </div>
             )}
-            <button className="btn btn--soft" onClick={() => { setStep(0); setPlan(null); setTried([]) }}>Start over</button>
+            <button className="btn btn--soft" onClick={() => { setStep(0); setPlan(null); setTried([]); setSavedId(null); setPubOpen(false) }}>Start over</button>
             {!user && <p className="gplan__savenote">Sign in to save this trip to your account and fine-tune every day.</p>}
           </footer>
         </div>
@@ -258,6 +303,10 @@ export default function GuidedPlannerScreen() {
 
       {step === 5 && !plan && !busy && (
         <p className="gq__hint">Couldn't draft a trip — try different answers.</p>
+      )}
+
+      {pubTrip && (
+        <PublishTrip trip={pubTrip} cover={coverHint()} onClose={() => setPubOpen(false)} />
       )}
     </div>
   )

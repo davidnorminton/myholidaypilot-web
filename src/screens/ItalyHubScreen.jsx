@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { getHub, getIndex } from '../lib/data.js'
 import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
+import { createTrip, setActiveTrip } from '../lib/trips.js'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
@@ -25,6 +26,7 @@ const defaultSections = (country) => ([
 export default function ItalyHubScreen() {
   const { country = 'italy' } = useParams()
   const meta = COUNTRIES.find((c) => c.slug === country)
+  const navigate = useNavigate()
   const [sections, setSections] = useState(null)
   const [details, setDetails] = useState(null)
   const site = useSettings()
@@ -40,10 +42,18 @@ export default function ItalyHubScreen() {
 
   if (!isAvailableCountry(country)) return <NotFoundScreen />
 
+  // The "Plan a trip" card starts a fresh trip based here — named for the
+  // country — and drops you straight into the planner.
+  const startPlanning = () => {
+    const id = createTrip(`My trip to ${meta?.name || 'my destination'}`, country)
+    setActiveTrip(id)
+    navigate(paths.plan())
+  }
+
   return (
     <div className="page">
       <header className="hero">
-        <div className="wrap hero__inner">
+        <div className="wrap">
           <p className="eyebrow"><Link to={paths.destinations()} className="eyebrow__link">Destinations</Link> · {meta?.name}</p>
           <h1 className="hero__title">{meta?.name}</h1>
           <p className="hero__sub">Everything you need to plan it — the regions, the festivals, the food, and how to get around.</p>
@@ -54,7 +64,12 @@ export default function ItalyHubScreen() {
         <TripDetails details={details} title={`Plan your trip to ${meta?.name || ''}`} />
         <div className="hub-grid">
           {(sections || []).map((raw) => { const s = { ...raw, image: site[`hub.${country}.${raw.id}`] || site[`hub.default.${raw.id}`] || raw.image }; return (
-            <Link key={s.id} to={s.link} className="hub-card">
+            <Link
+              key={s.id}
+              to={s.id === 'plan' ? paths.plan() : s.link}
+              onClick={s.id === 'plan' ? (e) => { e.preventDefault(); startPlanning() } : undefined}
+              className="hub-card"
+            >
               <span className="hub-card__media" data-emoji={EMOJI[s.id] || meta?.flag || '🌍'}>
                 {s.image && <img src={s.image} alt={s.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />}
               </span>

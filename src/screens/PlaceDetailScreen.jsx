@@ -134,7 +134,7 @@ export default function PlaceDetailScreen() {
                 </dl>
                 <AddToTrip place={{
                   regionId, placeId, name: place.name, regionName: region.name, type: place.type, image: hero,
-                }} />
+                }} countryId={country} />
               </>
             )}
 

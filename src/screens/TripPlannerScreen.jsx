@@ -27,7 +27,7 @@ export default function TripPlannerScreen() {
   return (
     <div className="page">
       <header className="hero">
-        <div className="wrap hero__inner">
+        <div className="wrap">
           <p className="eyebrow">Trip planner</p>
           <h1 className="hero__title">Holiday trip planner</h1>
           <p className="hero__sub">Build a day-by-day itinerary — hand-curated places, maps for every day, packing lists and budgets in one place.</p>
