@@ -1,21 +1,22 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { useSettings } from '../lib/settings.js'
 import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { paths } from '../lib/paths.js'
 import SmartImage from './SmartImage.jsx'
 
-// Featured destinations: places (not regions/countries) hand-picked in the
-// admin (Site → Featured destinations), shown as a large image grid on the
-// home page — Lonely Planet style. Stored as a JSON list of
-// {c: countrySlug, r: regionId, p: placeId} in the `featuredPlaces` setting.
+// Featured destinations: places hand-picked in the admin (Site → Featured
+// destinations), shown Lonely Planet-style — a horizontal row of equal cards,
+// image on top, region label + place name below, and a Discover pill.
 export default function FeaturedDestinations() {
   const site = useSettings()
   const picks = useMemo(() => {
     try { return JSON.parse(site.featuredPlaces || '[]') } catch { return [] }
   }, [site.featuredPlaces])
   const [resolved, setResolved] = useState(null)
+  const scroller = useRef(null)
 
   useEffect(() => {
     if (!picks.length) { setResolved([]); return }
@@ -29,30 +30,43 @@ export default function FeaturedDestinations() {
           const hit = (byCountry[x.c] || []).find((pl) => pl.regionId === x.r && pl.placeId === x.p)
           if (!hit) return null
           const country = COUNTRIES.find((c) => c.slug === x.c)
-          return { ...x, name: hit.name, regionName: hit.regionName, image: hit.image, flag: country?.flag, countryName: country?.name }
+          return { ...x, name: hit.name, regionName: hit.regionName, image: hit.image, countryName: country?.name }
         }).filter(Boolean)
         setResolved(out)
       })
     return () => { live = false }
   }, [picks])
 
+  const nudge = (dir) => {
+    const el = scroller.current
+    if (!el) return
+    const card = el.querySelector('.featured__card')
+    const step = card ? card.offsetWidth + 18 : 340
+    el.scrollBy({ left: dir * step, behavior: 'smooth' })
+  }
+
   if (!resolved || resolved.length === 0) return null
   return (
     <section className="wrap featured">
-      <div className="home-sec__head">
-        <h2 className="sec-title">Featured destinations</h2>
+      <div className="featured__head">
+        <h2 className="featured__title">Featured destinations</h2>
+        <div className="featured__ctrls">
+          <Link to={paths.destinations()} className="featured__viewall">View all</Link>
+          <button type="button" className="featured__arrow" onClick={() => nudge(-1)} aria-label="Scroll back"><ArrowLeft size={18} /></button>
+          <button type="button" className="featured__arrow featured__arrow--fill" onClick={() => nudge(1)} aria-label="Scroll forward"><ArrowRight size={18} /></button>
+        </div>
       </div>
-      <div className="featured__grid">
+      <div className="featured__scroller" ref={scroller}>
         {resolved.map((f, i) => (
-          <Link key={`${f.c}/${f.r}/${f.p}`} to={paths.place(f.r, f.p, f.c)} className={`featured__card ${i === 0 ? 'featured__card--lead' : ''}`}>
-            {f.image
-              ? <SmartImage src={f.image} alt={f.name} width={i === 0 ? 800 : 400} priority={i < 3} />
-              : <span className="featured__blank" />}
-            <span className="featured__veil" />
-            <span className="featured__label">
-              <strong>{f.name}</strong>
-              <span>{f.flag} {f.regionName}</span>
-            </span>
+          <Link key={`${f.c}/${f.r}/${f.p}`} to={paths.place(f.r, f.p, f.c)} className="featured__card">
+            <div className="featured__media">
+              {f.image
+                ? <SmartImage src={f.image} alt={f.name} width={600} priority={i < 4} />
+                : <span className="featured__blank" />}
+            </div>
+            <p className="featured__kicker">{f.countryName}</p>
+            <h3 className="featured__name">{f.name}</h3>
+            <span className="featured__cta">Discover</span>
           </Link>
         ))}
       </div>

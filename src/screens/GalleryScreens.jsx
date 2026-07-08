@@ -59,18 +59,8 @@ export function GalleryScreen() {
 
   return (
     <div className="page wrap gal">
-      <header className="gal__head plan-hero">
-        <div className="plan-hero__text">
-          <p className="eyebrow">Trip ideas</p>
-          <h1 className="gal__title">Real trips, ready to copy</h1>
-          <p className="gal__sub">
-            Itineraries planned day by day by real travellers — sights, dinners, routes and all.
-            Find one that fits, then make it yours.
-          </p>
-        </div>
-        <div className="plan-hero__media" data-emoji="💡">
-          {site['page.tripideas'] && <img src={site['page.tripideas']} alt="" />}
-        </div>
+      <header className="gal__head gal__head--plain">
+        <h1 className="gal__title">Trip ideas</h1>
       </header>
 
       <div className="gal__filters">
@@ -117,19 +107,17 @@ export function GalleryScreen() {
               {coverOf(r)
                 ? <img src={coverOf(r)} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />
                 : <span className="gal__ph"><MapPin size={20} /></span>}
+              <span className="gal__badge">{r.placeCount} place{r.placeCount === 1 ? '' : 's'} · {r.days} day{r.days === 1 ? '' : 's'}</span>
               {flag && <span className="gal__flag" aria-hidden>{flag}</span>}
               {!!r.featured && <span className="gal__feat"><Star size={11} /> Featured</span>}
             </div>
             <div className="gal__body">
               <h2 className="gal__name">{r.title}</h2>
-              <p className="gal__meta">
-                {r.days} day{r.days === 1 ? '' : 's'} · {r.placeCount} place{r.placeCount === 1 ? '' : 's'}
-                {r.regionNames?.length ? ` · ${r.regionNames.slice(0, 2).join(', ')}` : ''}
-              </p>
-              {r.story && <p className="gal__excerpt">{r.story.slice(0, 130)}…</p>}
+              <p className="gal__loc"><MapPin size={14} /> {r.regionNames?.length ? r.regionNames.slice(0, 2).join(', ') : 'Multiple regions'}</p>
               <p className="gal__foot">
-                {r.authorName ? `by ${r.authorName}` : 'by a traveller'}
-                {r.copies > 0 && <span> · copied {r.copies}×</span>}
+                <span className="gal__avatar" aria-hidden>{(r.authorName || 'T').charAt(0)}</span>
+                {r.authorName || 'a traveller'}
+                {r.copies > 0 && <span className="gal__copies"> · copied {r.copies}×</span>}
               </p>
             </div>
           </Link>
