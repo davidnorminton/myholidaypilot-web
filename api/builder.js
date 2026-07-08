@@ -250,7 +250,9 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
   if (req.method === 'POST' && q.action === 'setimage') {
     const b = await readBody(req)
     const url = String(b.url || '').trim()
-    if (!/^https?:\/\//.test(url)) throw fail(400, 'A valid image URL is required')
+    // Accept absolute http(s) URLs (pasted) and app-relative URLs from our own
+    // uploader (/images/… on disk, /api/media?id=… when stored in the DB).
+    if (!/^(https?:\/\/|\/)/.test(url)) throw fail(400, 'A valid image URL is required')
     const image = { index: 0, assetPath: '', isLocal: false, url, credit: String(b.credit || '').slice(0, 120) }
     await db.update(buildPlaces).set({ image, updatedAt: Date.now() })
       .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
