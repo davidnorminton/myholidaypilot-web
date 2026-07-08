@@ -176,6 +176,7 @@ export const api = {
   },
   posts: {
     list: (all) => req('GET', all ? '/posts?all=1' : '/posts'),
+    page: (limit, offset) => req('GET', `/posts?limit=${limit}&offset=${offset}`),
     get: (slug) => req('GET', `/posts/${slug}`),
     create: (data) => req('POST', '/posts', data),
     update: (slug, data) => req('PATCH', `/posts/${slug}`, data),

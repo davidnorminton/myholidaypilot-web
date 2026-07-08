@@ -355,7 +355,7 @@ for (const slug of countries) {
   ]
   write('/trip-planner', render({
     urlPath: '/trip-planner',
-    title: 'Free holiday trip planner — build a day-by-day itinerary | myholidaypilot',
+    title: 'Holiday trip planner — build a day-by-day itinerary | myholidaypilot',
     description: 'Plan your holiday for free: pick places region by region, build a day-by-day itinerary on a map, and get packing lists and budget estimates. Export to PDF or share with friends.',
     jsonLd: [
       { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'myholidaypilot trip planner',
@@ -365,7 +365,7 @@ for (const slug of countries) {
         mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
       breadcrumb([{ name: 'Home', url: SITE }, { name: 'Trip planner', url: `${SITE}/trip-planner` }]),
     ],
-    bodyHtml: `<main><h1>Free holiday trip planner</h1>
+    bodyHtml: `<main><h1>Holiday trip planner</h1>
 <p>Build a day-by-day itinerary for your next holiday — pick from hand-curated places region by region, see each day on a map, and keep packing lists and budgets in one place.</p>
 <h2>How it works</h2>
 <ol>

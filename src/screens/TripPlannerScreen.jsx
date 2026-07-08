@@ -20,7 +20,7 @@ const STEPS = [
 
 export default function TripPlannerScreen() {
   useSeo({
-    title: 'Free holiday trip planner — build a day-by-day itinerary',
+    title: 'Holiday trip planner — build a day-by-day itinerary',
     description: 'Plan your holiday for free: pick places region by region, build a day-by-day itinerary on a map, and get packing lists and budget estimates.',
     path: '/trip-planner',
   })
@@ -29,7 +29,7 @@ export default function TripPlannerScreen() {
       <header className="hero">
         <div className="wrap hero__inner">
           <p className="eyebrow">Trip planner</p>
-          <h1 className="hero__title">Free holiday trip planner</h1>
+          <h1 className="hero__title">Holiday trip planner</h1>
           <p className="hero__sub">Build a day-by-day itinerary — hand-curated places, maps for every day, packing lists and budgets in one place.</p>
           <p style={{ marginTop: 18 }}>
             <Link to={paths.plan()} className="btn btn--primary">Start planning</Link>

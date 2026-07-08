@@ -10,10 +10,15 @@ export default handler(async (req, res) => {
   if (req.method === 'GET') {
     const user = await optionalUser(req)
     const all = req.query?.all === '1' && user?.role === 'admin'
-    const rows = all
-      ? await db.select().from(blogPosts).orderBy(desc(blogPosts.publishedAt))
-      : await db.select().from(blogPosts).where(eq(blogPosts.status, 'published')).orderBy(desc(blogPosts.publishedAt))
-    return send(res, 200, rows)
+    // Optional paging (?limit=&offset=) for the home carousel's load-more;
+    // without params the full list returns as before.
+    const limit = Math.min(Number(req.query?.limit) || 0, 50)
+    const offset = Math.max(Number(req.query?.offset) || 0, 0)
+    let qy = all
+      ? db.select().from(blogPosts).orderBy(desc(blogPosts.publishedAt))
+      : db.select().from(blogPosts).where(eq(blogPosts.status, 'published')).orderBy(desc(blogPosts.publishedAt))
+    if (limit) qy = qy.limit(limit).offset(offset)
+    return send(res, 200, await qy)
   }
   if (req.method === 'POST') {
     const user = await requireUser(req); requireAdmin(user)

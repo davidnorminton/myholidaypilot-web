@@ -5,6 +5,7 @@ import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { Reveal } from '../components/Reveal.jsx'
 import FeaturedDestinations from '../components/FeaturedDestinations.jsx'
+import BlogCarousel from '../components/BlogCarousel.jsx'
 import { useSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { usePublishedPosts } from '../lib/blogStore.js'
@@ -247,24 +248,7 @@ export default function LandingScreen() {
       </section>
 
 
-      <section className="wrap home-sec">
-        <div className="home-sec__head">
-          <Reveal as="h2" className="sec-title">From the blog</Reveal>
-          <Link to={paths.blog()} className="sec-link">All posts <ArrowRight size={15} /></Link>
-        </div>
-        <div className="grid grid--posts">
-          {(latestPosts || []).slice(0, 3).map((p) => (
-            <Link key={p.slug} to={paths.post(p.slug)} className="post-card">
-              <div className="post-card__media"><img src={p.cover} alt="" loading="lazy" /></div>
-              <div className="post-card__body">
-                <span className="post-card__tag">{p.tag}</span>
-                <h3 className="post-card__title">{p.title}</h3>
-                <p className="post-card__excerpt">{p.excerpt}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <BlogCarousel />
 
       <section className="wrap home-sec">
         <Reveal as="h2" className="sec-title">Frequently asked questions</Reveal>
