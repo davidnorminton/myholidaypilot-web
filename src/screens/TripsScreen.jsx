@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react'
 import { useTrips, deleteTrip, setActiveTrip, duplicateTrip } from '../lib/trips.js'
 import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
-import { downloadTripPdf } from '../lib/tripPdf.js'
+// PDF generation (jspdf + html2canvas, ~760K) loads only when asked for
+const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).downloadTripPdf(...a)
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
 import PlannerGuide from '../components/PlannerGuide.jsx'

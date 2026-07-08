@@ -281,7 +281,7 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 /* ============================================================
    Sub hero (Destinations / Blog headers)
    ============================================================ */
-.sub-hero{padding-block:clamp(36px,6vw,72px) 8px; max-width:1100px}
+.sub-hero{padding-block:clamp(36px,6vw,72px) 8px}
 .sub-hero__title{font-family:var(--sans); font-weight:800; font-size:clamp(44px,8vw,84px); line-height:.96; margin:4px 0 0; letter-spacing:-.01em}
 .sub-hero__sub{color:var(--ink-soft); font-size:clamp(16px,2.2vw,19px); margin:14px 0 0; max-width:48ch}
 

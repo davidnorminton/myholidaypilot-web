@@ -42,11 +42,11 @@ export function GalleryScreen() {
       const slugs = country === 'all'
         ? [...new Set((list || []).map((r) => r.countryId).filter(Boolean))]
         : [country]
-      const m = {}
-      await Promise.all(slugs.map((slug) => getPlacesIndex(slug).then((idx) => {
+      slugs.forEach((slug) => getPlacesIndex(slug).then((idx) => {
+        const m = {}
         for (const pl of (idx || [])) if (pl.image) m[`${pl.regionId}/${pl.placeId}`] = pl.image
-      }).catch(() => {})))
-      setImages(m)
+        setImages((prev) => ({ ...prev, ...m }))
+      }).catch(() => {}))
     }).catch(() => setRows([]))
   }, [country])
 

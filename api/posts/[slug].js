@@ -11,6 +11,8 @@ export default handler(async (req, res) => {
     const [row] = await db.select().from(blogPosts).where(eq(blogPosts.slug, slug))
     if (!row) throw fail(404, 'Not found')
     if (row.status !== 'published') requireAdmin(await optionalUser(req)) // drafts: admins only
+    // Published posts are public — edge-cache; edits appear within 5 min.
+    else res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400')
     return send(res, 200, row)
   }
   if (req.method === 'PATCH') {

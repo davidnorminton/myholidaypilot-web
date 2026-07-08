@@ -18,7 +18,11 @@ export default handler(async (req, res) => {
       ? db.select().from(blogPosts).orderBy(desc(blogPosts.publishedAt))
       : db.select().from(blogPosts).where(eq(blogPosts.status, 'published')).orderBy(desc(blogPosts.publishedAt))
     if (limit) qy = qy.limit(limit).offset(offset)
-    return send(res, 200, await qy)
+    // Public list — edge-cached; new/edited posts appear within 5 min.
+    if (!all) res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400')
+    const rows = await qy
+    // Cards don't need article bodies — the post page fetches its own by slug.
+    return send(res, 200, all ? rows : rows.map(({ body, ...card }) => card))
   }
   if (req.method === 'POST') {
     const user = await requireUser(req); requireAdmin(user)

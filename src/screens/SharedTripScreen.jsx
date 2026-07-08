@@ -3,7 +3,8 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 import { CalendarRange, MapPin, Utensils, Compass, Download, ArrowRight, BedDouble } from 'lucide-react'
 import { decodeTrip } from '../lib/tripShare.js'
 import { importTrip } from '../lib/trips.js'
-import { downloadTripPdf } from '../lib/tripPdf.js'
+// PDF generation (jspdf + html2canvas, ~760K) loads only when asked for
+const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).downloadTripPdf(...a)
 import MapView from '../components/MapView.jsx'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'

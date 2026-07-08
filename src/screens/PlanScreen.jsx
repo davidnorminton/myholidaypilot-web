@@ -10,7 +10,8 @@ import {
 } from '../lib/trips.js'
 import { useSettings } from '../lib/settings.js'
 import { useSeo } from '../lib/seo.js'
-import { downloadTripPdf } from '../lib/tripPdf.js'
+// PDF generation (jspdf + html2canvas, ~760K) loads only when asked for
+const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).downloadTripPdf(...a)
 import { shareUrl } from '../lib/tripShare.js'
 import TripReadiness from '../components/TripReadiness.jsx'
 import StaysEditor from '../components/StaysEditor.jsx'

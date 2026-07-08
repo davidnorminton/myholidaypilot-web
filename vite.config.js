@@ -85,6 +85,18 @@ export default defineConfig({
             handler: 'StaleWhileRevalidate',
             options: { cacheName: 'mhp-settings', expiration: { maxEntries: 4, maxAgeSeconds: 60 * 60 * 24 } },
           },
+          {
+            // public trip-ideas list (per-country variants) — instant repeats, refreshed in background
+            urlPattern: ({ url }) => url.pathname === '/api/gallery' && !url.search.includes('mine') && !url.search.includes('admin') && !url.search.includes('slug'),
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'mhp-gallery', expiration: { maxEntries: 24, maxAgeSeconds: 60 * 60 * 24, purgeOnQuotaError: true } },
+          },
+          {
+            // public blog posts (list, pages, single) — instant repeats, refreshed in background
+            urlPattern: ({ url }) => url.pathname.startsWith('/api/posts') && !url.search.includes('all'),
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'mhp-posts', expiration: { maxEntries: 40, maxAgeSeconds: 60 * 60 * 24, purgeOnQuotaError: true } },
+          },
         ],
       },
       devOptions: { enabled: false },   // don't run the SW during `npm run dev`

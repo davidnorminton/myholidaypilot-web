@@ -10,7 +10,8 @@ import { useFavourites } from '../lib/favourites.js'
 import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { api } from '../lib/api.js'
-import { downloadTripPdf } from '../lib/tripPdf.js'
+// PDF generation (jspdf + html2canvas, ~760K) loads only when asked for
+const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).downloadTripPdf(...a)
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
 import BeenThereMap from '../components/BeenThereMap.jsx'

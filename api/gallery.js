@@ -48,6 +48,8 @@ export default handler(async (req, res) => {
   if (req.method === 'GET' && q.slug) {
     const [row] = await db.select().from(publicTrips).where(eq(publicTrips.slug, q.slug))
     if (!row || row.status !== 'live') throw fail(404, 'Trip not found')
+    // Public content — cache at the edge; publish/unpublish shows within 5 min.
+    res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400')
     return send(res, 200, row)
   }
 
@@ -72,6 +74,8 @@ export default handler(async (req, res) => {
       .orderBy(desc(publicTrips.featured), desc(publicTrips.createdAt))
       .limit(200)
     if (q.country) rows = rows.filter((r) => r.countryId === q.country)
+    // Public list — edge-cached; new publications appear within 5 min.
+    res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400')
     return send(res, 200, rows.map(({ data, ...card }) => card))
   }
 
