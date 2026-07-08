@@ -2825,25 +2825,21 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .navdrawer__link:hover .navdrawer__icon, .navdrawer__link.nav__link--on .navdrawer__icon{color:var(--gold)}
 
 /* --- Search: desktop full-width; mobile icon → header takeover --- */
-.sitesearch__trigger{display:none}
-@media (max-width: 720px){
-  /* collapsed: show only the icon button, hide the field */
-  .topbar__right .sitesearch{flex:0 0 auto; margin-left:0}
-  .sitesearch__trigger{display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px;
-    border:0; border-radius:10px; background:none; color:var(--ink-soft); cursor:pointer}
-  .sitesearch__trigger:hover{background:var(--surface-2)}
-  .sitesearch__icon, .sitesearch__input, .sitesearch__cancel{display:none}
-
-  /* expanded: the search takes over the whole header row */
-  .sitesearch.is-expanded{position:fixed; inset:0 0 auto 0; height:var(--topbar-h); z-index:70;
-    display:flex; align-items:center; gap:8px; padding:0 12px; background:var(--surface); flex:1 1 auto; margin:0}
-  .sitesearch.is-expanded .sitesearch__trigger{display:none}
-  .sitesearch.is-expanded .sitesearch__icon{display:block; left:24px}
-  .sitesearch.is-expanded .sitesearch__input{display:block; width:100%; flex:1; padding-left:36px}
-  .sitesearch.is-expanded .sitesearch__cancel{display:inline-flex; align-items:center; justify-content:center;
-    width:38px; height:38px; flex:none; border:0; border-radius:9px; background:none; color:var(--ink-soft); cursor:pointer}
-  .sitesearch.is-expanded .sitesearch__drop{position:fixed; top:var(--topbar-h); left:0; right:0; width:auto; border-radius:0 0 14px 14px}
-}
+/* Search is icon-only at every width; clicking expands it to take over the
+   whole header row (the old mobile behaviour, now the default). */
+.topbar__right .sitesearch{flex:0 0 auto; margin-left:0}
+.sitesearch__trigger{display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px;
+  border:0; border-radius:10px; background:none; color:var(--ink-soft); cursor:pointer}
+.sitesearch__trigger:hover{background:var(--surface-2)}
+.sitesearch__icon, .sitesearch__input, .sitesearch__cancel{display:none}
+.sitesearch.is-expanded{position:fixed; inset:0 0 auto 0; height:var(--topbar-h); z-index:70;
+  display:flex; align-items:center; gap:8px; padding:0 12px; background:var(--surface); flex:1 1 auto; margin:0}
+.sitesearch.is-expanded .sitesearch__trigger{display:none}
+.sitesearch.is-expanded .sitesearch__icon{display:block; left:24px}
+.sitesearch.is-expanded .sitesearch__input{display:block; width:100%; flex:1; padding-left:36px}
+.sitesearch.is-expanded .sitesearch__cancel{display:inline-flex; align-items:center; justify-content:center;
+  width:38px; height:38px; flex:none; border:0; border-radius:9px; background:none; color:var(--ink-soft); cursor:pointer}
+.sitesearch.is-expanded .sitesearch__drop{position:fixed; top:var(--topbar-h); left:0; right:0; width:auto; border-radius:0 0 14px 14px; max-width:none}
 
 /* --- Per-image fade-in: each photo appears as it loads, not all at once --- */
 .smartimg{opacity:0; transition:opacity .45s ease}
@@ -2971,3 +2967,19 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .featpick__btns button{display:inline-flex; padding:5px; border:1px solid var(--line); border-radius:7px; background:var(--surface); cursor:pointer; color:var(--muted)}
 .featpick__btns button:hover:not(:disabled){color:var(--ink)}
 .featpick__btns button:disabled{opacity:.35; cursor:default}
+
+
+/* --- Header primary nav (Mindtrip-style) --- */
+.topbar__nav{display:flex; align-items:center; gap:4px; margin-left:18px}
+.topbar__navlink{padding:8px 12px; border-radius:999px; font-size:14.5px; font-weight:600; color:var(--ink-soft); text-decoration:none; transition:background .14s ease, color .14s ease}
+.topbar__navlink:hover{background:var(--surface-2); color:var(--ink)}
+.topbar__navlink.active{color:var(--ink); background:var(--surface-2)}
+@media (max-width:860px){ .topbar__nav{display:none} }
+
+/* --- Drawer panel (rounded overlay) --- */
+.navdrawer__brandrow{display:flex; align-items:center; justify-content:space-between; padding:2px 4px 12px; border-bottom:1px solid var(--line-soft); margin-bottom:8px}
+.navdrawer__brandrow .brand__name{font-size:16px}
+.navdrawer__links{flex:1; display:flex; flex-direction:column; gap:2px; padding-top:4px}
+.navdrawer__foot{border-top:1px solid var(--line-soft); padding-top:14px; margin-top:10px; display:flex}
+.navdrawer__foot > *{width:100%}
+.navdrawer__foot .authbtn, .navdrawer__foot button{width:100%; justify-content:center}

@@ -7,6 +7,14 @@ import { paths } from '../lib/paths.js'
 import AuthButton from './AuthButton.jsx'
 import SiteSearch from './SiteSearch.jsx'
 
+// Primary items shown directly in the header (Mindtrip-style); the drawer
+// carries the full list.
+const HEADER_LINKS = [
+  { to: paths.destinations(), label: 'Destinations' },
+  { to: '/trip-planner', label: 'Trip planner' },
+  { to: '/gallery', label: 'Trip ideas' },
+]
+
 const LINKS = [
   { to: paths.destinations(), label: 'Destinations', icon: Compass },
   { to: '/trip-planner', label: 'Trip planner', icon: RouteIcon },
@@ -34,6 +42,11 @@ export default function TopBar() {
             <span className="brand__mark"><Logo size={40} /></span>
             <span className="brand__name"><span className="brand__my">my</span>holidaypilot</span>
           </Link>
+          <nav className="topbar__nav" aria-label="Primary">
+            {HEADER_LINKS.map((l) => (
+              <NavLink key={l.to} to={l.to} className="topbar__navlink">{l.label}</NavLink>
+            ))}
+          </nav>
         </div>
 
         <div className="topbar__right">
@@ -45,25 +58,34 @@ export default function TopBar() {
       {open && createPortal(
         <>
           <div className="navdrawer__scrim" onClick={() => setOpen(false)}
-            style={{ position: 'fixed', inset: 0, zIndex: 9997, background: 'rgba(20,16,12,.32)' }} />
-          <nav className="navdrawer navdrawer--side"
+            style={{ position: 'fixed', inset: 0, zIndex: 9997, background: 'rgba(20,16,12,.38)' }} />
+          <nav className="navdrawer navdrawer--panel"
             style={{
-              position: 'fixed', top: 0, left: 0, bottom: 0, right: 'auto',
-              width: 'min(300px, 84vw)', zIndex: 9998,
-              background: 'var(--surface, #fffefb)', borderRight: '1px solid var(--line, #e5e1d8)',
-              padding: '18px 14px', display: 'flex', flexDirection: 'column', gap: 4,
-              boxShadow: '14px 0 44px rgba(0,0,0,.12)', overflowY: 'auto',
+              position: 'fixed', top: 10, left: 10, bottom: 10, right: 'auto',
+              width: 'min(320px, calc(100vw - 20px))', zIndex: 9998,
+              background: 'var(--surface, #ffffff)', border: '1px solid var(--line, #e8e5df)',
+              borderRadius: 22, padding: '18px 16px 16px',
+              display: 'flex', flexDirection: 'column', gap: 4,
+              boxShadow: '0 24px 70px rgba(20,16,12,.22)', overflowY: 'auto',
             }}>
-            <div className="navdrawer__head">
-              <span className="navdrawer__title">Menu</span>
+            <div className="navdrawer__brandrow">
+              <Link to={paths.home()} className="brand" onClick={() => setOpen(false)} aria-label="myholidaypilot home">
+                <span className="brand__mark"><Logo size={34} /></span>
+                <span className="brand__name"><span className="brand__my">my</span>holidaypilot</span>
+              </Link>
               <button className="navdrawer__close" onClick={() => setOpen(false)} aria-label="Close menu"><X size={20} /></button>
             </div>
-            {LINKS.map((l) => (
-              <NavLink key={l.to} to={l.to} className="navdrawer__link" onClick={() => setOpen(false)}>
-                <l.icon size={18} strokeWidth={2} className="navdrawer__icon" />
-                {l.label}
-              </NavLink>
-            ))}
+            <div className="navdrawer__links">
+              {LINKS.map((l) => (
+                <NavLink key={l.to} to={l.to} className="navdrawer__link" onClick={() => setOpen(false)}>
+                  <l.icon size={18} strokeWidth={2} className="navdrawer__icon" />
+                  {l.label}
+                </NavLink>
+              ))}
+            </div>
+            <div className="navdrawer__foot">
+              <AuthButton />
+            </div>
           </nav>
         </>,
         document.body
