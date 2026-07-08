@@ -7,6 +7,10 @@ import { useAffiliates, buildUrl, REGION_IATA } from '../lib/affiliates.js'
 import AffLink from './AffLink.jsx'
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
+// ISO codes for Mapbox's country filter, keyed by our country slugs.
+const ISO = { italy: 'it', spain: 'es', portugal: 'pt', france: 'fr', germany: 'de', greece: 'gr',
+  japan: 'jp', netherlands: 'nl', norway: 'no', poland: 'pl', singapore: 'sg', south_korea: 'kr',
+  sweden: 'se', switzerland: 'ch', thailand: 'th', turkey: 'tr', united_kingdom: 'gb', united_states: 'us' }
 const TYPES = [
   { id: 'airport', label: 'Airport', icon: Plane },
   { id: 'train', label: 'Train station', icon: TrainFront },
@@ -52,7 +56,10 @@ function PointForm({ trip, which, onDone }) {
       setBusy(true)
       const anchor = trip.places.find((p) => p.lat && p.lng)
       const biased = type === 'airport' && !/airport|aeroport|aeropuerto|flughafen/i.test(text) ? `${text} airport` : text
-      setResults(await searchPlaces(biased, anchor ? { proximity: anchor } : {}))
+      setResults(await searchPlaces(biased, {
+        ...(anchor ? { proximity: anchor } : {}),
+        ...(ISO[trip.countryId] ? { country: ISO[trip.countryId] } : {}),
+      }))
       setBusy(false)
     }, 450)
   }

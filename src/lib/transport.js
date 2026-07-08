@@ -5,11 +5,12 @@ import { kmBetween } from './route.js'
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 const cache = new Map()
 
-export async function searchPlaces(query, { proximity } = {}) {
+export async function searchPlaces(query, { proximity, country } = {}) {
   if (!TOKEN || !query.trim()) return []
   try {
     const prox = proximity ? `&proximity=${proximity.lng},${proximity.lat}` : ''
-    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?access_token=${TOKEN}&limit=4&types=poi,place,address${prox}&language=en`
+    const ctry = country ? `&country=${country}` : ''
+    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?access_token=${TOKEN}&limit=4&types=poi,place,address${prox}${ctry}&language=en`
     const res = await fetch(url)
     if (!res.ok) return []
     const j = await res.json()
