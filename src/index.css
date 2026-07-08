@@ -40,8 +40,8 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .foot{color:var(--faint); font-size:13px; padding-block:40px 0; border-top:1px solid var(--line-soft); margin-top:40px}
 
 /* ── Home hero ─────────────────────────────────────────── */
-.hero{padding-top:clamp(48px,8vw,104px)}
-.hero__inner{max-width:1100px}
+.hero{padding-top:clamp(48px,8vw,104px); margin-bottom:clamp(28px,4vw,48px)}
+.hero__inner{max-width:none}
 .hero__title{
   font-family:var(--sans); font-weight:800; line-height:.92;
   font-size:clamp(72px,15vw,168px); letter-spacing:-.01em; margin:0;
@@ -3048,3 +3048,4 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .gq__row--inline{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
 .gq__select--bare .gq__selectlabel{display:none}
 .gq__select--bare select{padding:9px 12px; border:1px solid var(--line); border-radius:999px; background:var(--surface); font-weight:600}
+.featured__pagegrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:22px; padding-bottom:56px}

@@ -24,6 +24,7 @@ const TripsScreen = lazy(() => import('./screens/TripsScreen.jsx'))
 const SharedTripScreen = lazy(() => import('./screens/SharedTripScreen.jsx'))
 const AccountScreen = lazy(() => import('./screens/AccountScreen.jsx'))
 const GuidedPlannerScreen = lazy(() => import('./screens/GuidedPlannerScreen.jsx'))
+const FeaturedDestinationsScreen = lazy(() => import('./screens/FeaturedDestinationsScreen.jsx'))
 const GalleryScreen = lazy(() => import('./screens/GalleryScreens.jsx').then((m) => ({ default: m.GalleryScreen })))
 const GalleryTripScreen = lazy(() => import('./screens/GalleryScreens.jsx').then((m) => ({ default: m.GalleryTripScreen })))
 const DayTripsScreen = lazy(() => import('./screens/DayTripsScreen.jsx'))
@@ -60,6 +61,7 @@ export default function App() {
           <Route path="/saved" element={<SavedScreen />} />
           <Route path="/trips" element={<RequireAuth><TripsScreen /></RequireAuth>} />
           <Route path="/guided" element={<GuidedPlannerScreen />} />
+          <Route path="/featured-destinations" element={<FeaturedDestinationsScreen />} />
           <Route path="/trip-ideas" element={<GalleryScreen />} />
           <Route path="/trip-ideas/:slug" element={<GalleryTripScreen />} />
           {/* old URLs redirect */}
