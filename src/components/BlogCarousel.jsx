@@ -5,6 +5,7 @@ import { api } from '../lib/api.js'
 import { normalize } from '../lib/blogStore.js'
 import { POSTS as BUNDLED } from '../lib/blog.js'
 import { paths } from '../lib/paths.js'
+import SmartImage from './SmartImage.jsx'
 
 const PAGE = 4
 
@@ -67,7 +68,7 @@ export default function BlogCarousel() {
         {posts.map((p) => (
           <Link key={p.slug} to={paths.post(p.slug)} className="featured__card">
             <div className="featured__media">
-              {p.cover ? <img src={p.cover} alt="" loading="lazy" /> : <span className="featured__blank" />}
+              {p.cover ? <SmartImage src={p.cover} alt="" width={320} /> : <span className="featured__blank" />}
             </div>
             <p className="featured__kicker">{p.tag || 'Journal'}</p>
             <h3 className="featured__name featured__name--post">{p.title}</h3>

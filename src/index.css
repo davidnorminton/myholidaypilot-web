@@ -220,7 +220,7 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .topbar{position:sticky; top:0; z-index:50; height:var(--topbar-h);
   background:color-mix(in srgb, var(--paper) 86%, transparent); backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line)}
-.topbar__inner{height:100%; display:flex; align-items:center; gap:18px}
+.topbar__inner{height:100%; display:flex; align-items:center; gap:18px; position:relative}
 .brand{display:flex; align-items:center; gap:9px; margin-right:auto}
 .brand__mark{width:40px; height:40px; display:grid; place-items:center}
 .brand__mark img{width:40px; height:40px}
@@ -1196,8 +1196,8 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
    ============================================================ */
 .topbar__right{display:flex; align-items:center; gap:12px}
 .hamburger{display:none; width:40px; height:40px; border-radius:10px; align-items:center; justify-content:center;
-  color:var(--ink); border:1px solid var(--line-strong,var(--line)); background:var(--surface)}
-.hamburger:hover{border-color:var(--gold)}
+  color:var(--ink); border:0; background:none; cursor:pointer}
+.hamburger:hover{background:var(--surface-2)}
 .navdrawer{position:fixed; top:var(--topbar-h); left:0; right:0; z-index:55; background:var(--surface);
   border-bottom:1px solid var(--line); box-shadow:var(--shadow-lift); display:flex; flex-direction:column; padding:8px}
 .navdrawer__link{padding:14px 16px; border-radius:10px; font-size:16px; font-weight:600; color:var(--ink-soft)}
@@ -3084,7 +3084,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 
 
 /* --- Header primary nav (Mindtrip-style) --- */
-.topbar__nav{display:flex; align-items:center; gap:4px; margin-left:18px}
+.topbar__nav{position:absolute; left:50%; transform:translateX(-50%); display:flex; align-items:center; gap:4px}
 .topbar__navlink{padding:8px 12px; border-radius:999px; font-size:14.5px; font-weight:600; color:var(--ink-soft); text-decoration:none; transition:background .14s ease, color .14s ease}
 .topbar__navlink:hover{background:var(--surface-2); color:var(--ink)}
 .topbar__navlink.active{color:var(--ink); background:var(--surface-2)}

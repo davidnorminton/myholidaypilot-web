@@ -36,7 +36,7 @@ export default function TopBar() {
       <div className="wrap topbar__inner">
         <div className="topbar__left">
           <button className="hamburger" onClick={() => setOpen((v) => !v)} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
-            {open ? <X size={22} /> : <Menu size={22} />}
+            {open ? <X size={30} /> : <Menu size={30} />}
           </button>
           <Link to={paths.home()} className="brand" aria-label="myholidaypilot home">
             <span className="brand__mark"><Logo size={40} /></span>

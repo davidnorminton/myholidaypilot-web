@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { PageLoader } from '../components/Loading.jsx'
+import SmartImage from '../components/SmartImage.jsx'
 import { usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
 import { paths } from '../lib/paths.js'
@@ -42,7 +43,7 @@ export default function BlogScreen() {
       <main className="wrap">
         {lead && (
           <Link to={paths.post(lead.slug)} className="post-lead">
-            <div className="post-lead__media"><img src={lead.cover} alt={lead.title} onError={(e) => { e.currentTarget.style.display = 'none' }} /></div>
+            <div className="post-lead__media"><SmartImage src={lead.cover} alt={lead.title} width={700} priority /></div>
             <div className="post-lead__body">
               <span className="post-card__tag">{lead.tag}</span>
               <h2 className="post-lead__title">{lead.title}</h2>
@@ -54,7 +55,7 @@ export default function BlogScreen() {
         <div className="grid grid--posts">
           {rest.slice(0, shown).map((p) => (
             <Link key={p.slug} to={paths.post(p.slug)} className="post-card">
-              <div className="post-card__media"><img src={p.cover} alt={p.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} /></div>
+              <div className="post-card__media"><SmartImage src={p.cover} alt={p.title} width={400} /></div>
               <div className="post-card__body">
                 <span className="post-card__tag">{p.tag}</span>
                 <h3 className="post-card__title">{p.title}</h3>

@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { PageLoader } from '../components/Loading.jsx'
+import SmartImage from '../components/SmartImage.jsx'
 import { usePost, usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
 import { paths } from '../lib/paths.js'
@@ -42,7 +43,7 @@ export default function BlogPostScreen() {
     <article className="page post">
       {post.cover && (
         <div className="post__hero">
-          <img src={post.cover} alt={post.title} onError={(e) => { e.currentTarget.style.display = 'none' }} />
+          <SmartImage src={post.cover} alt={post.title} width={1200} priority />
           <div className="post__veil" />
         </div>
       )}
@@ -65,7 +66,7 @@ export default function BlogPostScreen() {
             <div className="post-more__grid">
               {more.map((p) => (
                 <Link key={p.slug} to={paths.post(p.slug)} className="post-card">
-                  <div className="post-card__media"><img src={p.cover} alt={p.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} /></div>
+                  <div className="post-card__media"><SmartImage src={p.cover} alt={p.title} width={400} /></div>
                   <div className="post-card__body">
                     <span className="post-card__tag">{p.tag}</span>
                     <h3 className="post-card__title">{p.title}</h3>
