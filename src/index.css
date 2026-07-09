@@ -152,11 +152,11 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .resto__order b{color:var(--ink-soft); font-weight:600}
 
 .about{display:flex; flex-direction:column; gap:20px}
-.about__block{display:flex; align-items:stretch; overflow:hidden}
-.about__text{flex:1; order:1; margin:0; padding:28px 32px; background:var(--surface-2);
+.about__block{display:flex; align-items:stretch; overflow:hidden; min-height:80px}
+.about__text{flex:1; order:1; margin:0; padding:28px 32px;
   font-size:16px; line-height:1.7; color:var(--ink-soft)}
-.about__panel{flex:0 0 42%; order:2; display:flex; align-items:center; padding:28px 32px}
-.about__title{font-family:var(--sans); font-weight:800; font-size:26px; line-height:1.12; margin:0; color:#000}
+.about__panel{flex:0 0 42%; order:2; display:flex; align-items:center; justify-content:center; padding:28px 32px}
+.about__title{font-family:var(--sans); font-weight:800; font-size:55px; line-height:1.04; margin:0; color:#000; text-align:center; text-transform:uppercase}
 .about__block--flip .about__text{order:2}
 .about__block--flip .about__panel{order:1}
 @media (max-width:640px){ .about__block{flex-direction:column} .about__text, .about__panel{flex:auto; order:0} }
@@ -1312,7 +1312,7 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 /* festivals: two-column hero — text left, month dropdown + calendar right */
 .fest-hero{display:flex; gap:44px; align-items:flex-start}
 .fest-hero__text{flex:1; min-width:0}
-.fest-hero__panel{flex:none; width:min(440px,44vw)}
+.fest-hero__panel{flex:1; min-width:0}
 .fest-picker{position:relative; display:flex; align-items:center; margin-bottom:14px}
 .fest-picker__ic{position:absolute; left:15px; color:var(--gold); pointer-events:none}
 .fest-picker__select{width:100%; appearance:none; -webkit-appearance:none; margin:0; padding:14px 44px;
