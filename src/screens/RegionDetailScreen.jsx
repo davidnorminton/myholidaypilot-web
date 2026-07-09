@@ -15,6 +15,7 @@ import { useSeo } from '../lib/seo.js'
 import { useSettings } from '../lib/settings.js'
 import BeenHereButton from '../components/BeenHereButton.jsx'
 import TripDetails from '../components/TripDetails.jsx'
+import ViatorTours from '../components/ViatorTours.jsx'
 import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
 const TABS = [
@@ -180,6 +181,8 @@ export default function RegionDetailScreen() {
             )}
           </div>
         )}
+
+        <ViatorTours country={country} regionId={regionId} name={region.name} />
 
         <CommentsSection countryId={country} targetType="region" regionId={regionId} areaName={region.name} />
       </main>

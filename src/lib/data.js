@@ -27,6 +27,12 @@ export async function getRegion(id, country = 'italy') {
   const baseRegion = await getJSON(`${country}/regions/${id}.json`)
   return country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
 }
+
+// Viator tours baked per region by scripts/sync-viator.mjs. Missing file → [].
+// Fetched at runtime only (never prerendered) so this content stays out of the
+// static HTML — Viator content must not be search-indexed.
+export const getViatorTours = (regionId, country = 'italy') =>
+  getJSON(`${country}/viator/${regionId}.json`).then((v) => (Array.isArray(v) ? v : [])).catch(() => [])
 const imagesCache = new Map()
 export async function getImages(country = 'italy') {
   // Prefer live images from the builder DB (so images set in the builder show
