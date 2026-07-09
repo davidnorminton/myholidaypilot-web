@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Star, Clock, ExternalLink } from 'lucide-react'
 import { getViatorTours, getViatorPlaceTours } from '../lib/data.js'
+import { detectCurrency, displayPrice } from '../lib/currency.js'
 
 const SHOW = 10   // cards shown before "Show more"
 
@@ -13,6 +14,7 @@ const SHOW = 10   // cards shown before "Show more"
 export default function ViatorTours({ country, regionId, placeId, name, embedded = false }) {
   const [data, setData] = useState(null)
   const [expanded, setExpanded] = useState(false)
+  const ccy = useMemo(() => detectCurrency(), [])
 
   useEffect(() => {
     let live = true
@@ -28,11 +30,7 @@ export default function ViatorTours({ country, regionId, placeId, name, embedded
   const { tours, total, url } = data
   const visible = expanded ? tours : tours.slice(0, SHOW)
 
-  const price = (t) => {
-    if (t.price == null) return ''
-    try { return new Intl.NumberFormat('en-GB', { style: 'currency', currency: t.currency || 'GBP', maximumFractionDigits: 0 }).format(t.price) }
-    catch { return `${t.currency || ''} ${t.price}` }
-  }
+  const price = (t) => (t.price == null ? '' : displayPrice(t.price, t.currency || 'EUR', ccy))
 
   return (
     <section className="viator" data-nosnippet aria-label={`Tours and activities in ${name}`}>

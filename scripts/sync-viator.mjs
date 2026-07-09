@@ -7,7 +7,7 @@
 // still succeed on machines that don't have the key.
 //
 //   VIATOR_API_KEY   your exp-api-key (Vercel env var / .env) — REQUIRED
-//   VIATOR_CURRENCY  default GBP
+//   VIATOR_CURRENCY  default EUR
 //   VIATOR_LANG      default en-GB
 //
 // Three modes:
@@ -34,7 +34,7 @@ const dataDir = path.join(root, 'public', 'data')
 
 const KEY = (process.env.VIATOR_API_KEY || '').trim()
 const BASE = (process.env.VIATOR_API_BASE || 'https://api.viator.com/partner').replace(/\/$/, '')
-const CURRENCY = process.env.VIATOR_CURRENCY || 'GBP'
+const CURRENCY = process.env.VIATOR_CURRENCY || 'EUR'
 const LANG = process.env.VIATOR_LANG || 'en-GB'
 
 const argv = process.argv.slice(2)
