@@ -1,1 +1,325 @@
-{"schemaVersion":3,"exportedAt":"2026-07-04T22:31:59.965Z","appVersion":"1.0","totalRegions":12,"totalPlaces":152,"totalRestaurants":168,"totalChecklistItems":0,"totalImages":0,"affiliateIds":{},"regions":[{"id":"groningen","name":"Groningen","nameIt":"Groningen","capital":"Groningen","lat":53.22,"lng":6.57,"emoji":"🌾","colour":"ff4caf50","boundingBox":{"north":53.5,"south":52.9,"east":7.2,"west":6},"placeCount":10,"restaurantCount":14,"bestTimeToVisit":"Visit from May to September for warm weather and outdoor activities.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"friesland","name":"Friesland","nameIt":"Fryslân","capital":"Leeuwarden","lat":53.2,"lng":5.8,"emoji":"🚤","colour":"ff2196f3","boundingBox":{"north":53.5,"south":52.7,"east":6.5,"west":5},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Best visited from June to August for water sports and outdoor festivals.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"drenthe","name":"Drenthe","nameIt":"Drenthe","capital":"Assen","lat":52.95,"lng":6.55,"emoji":"🏞️","colour":"ffff9800","boundingBox":{"north":53.3,"south":52.5,"east":7.3,"west":5.8},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Visit from April to October to explore forests, heaths, and prehistoric sites.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"overijssel","name":"Overijssel","nameIt":"Overijssel","capital":"Zwolle","lat":52.5,"lng":6.25,"emoji":"🌊","colour":"ff9c27b0","boundingBox":{"north":52.95,"south":51.95,"east":7.3,"west":5.5},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Best visited from May to September for water activities and cycling.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"flevoland","name":"Flevoland","nameIt":"Flevoland","capital":"Lelystad","lat":52.47,"lng":5.47,"emoji":"🌊","colour":"ffe91e63","boundingBox":{"north":52.8,"south":52,"east":6,"west":5},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Visit from June to September for water sports and cycling across polders.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"gelderland","name":"Gelderland","nameIt":"Gelderland","capital":"Arnhem","lat":52.08,"lng":5.87,"emoji":"🏰","colour":"ff009688","boundingBox":{"north":52.4,"south":51.5,"east":6.9,"west":4.8},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Best visited from April to October for natural scenery and historic estates.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"utrecht","name":"Utrecht","nameIt":"Utrecht","capital":"Utrecht","lat":52.09,"lng":5.12,"emoji":"🚴","colour":"ff795548","boundingBox":{"north":52.35,"south":51.8,"east":5.7,"west":4.5},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Visit year-round, but spring and summer are ideal for cycling and canal exploration.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"north_holland","name":"North Holland","nameIt":"Noord-Holland","capital":"Haarlem","lat":52.5,"lng":5.1,"emoji":"🌷","colour":"ff3f51b5","boundingBox":{"north":52.97,"south":51.95,"east":5.8,"west":4.5},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Visit from April to May for tulips and April to September for beaches.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"south_holland","name":"South Holland","nameIt":"Zuid-Holland","capital":"The Hague","lat":51.96,"lng":4.47,"emoji":"🏖️","colour":"ffcddc39","boundingBox":{"north":52.3,"south":51.5,"east":5.2,"west":3.6},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Best visited from May to September for beaches and outdoor activities.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"zeeland","name":"Zeeland","nameIt":"Zeeland","capital":"Middelburg","lat":51.5,"lng":3.61,"emoji":"🏝️","colour":"ffff5722","boundingBox":{"north":51.85,"south":51.25,"east":4.2,"west":3.2},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Best visited from June to September for beach holidays and water sports.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"north_brabant","name":"North Brabant","nameIt":"Noord-Brabant","capital":"s-Hertogenbosch","lat":51.5,"lng":5.3,"emoji":"🎉","colour":"ff4caf50","boundingBox":{"north":51.95,"south":50.75,"east":6.2,"west":4.5},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Visit from April to October, especially around Carnival season (February/March).","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"limburg","name":"Limburg","nameIt":"Limburg","capital":"Maastricht","lat":50.85,"lng":5.7,"emoji":"⛰️","colour":"ff2196f3","boundingBox":{"north":51.35,"south":50.45,"east":6.3,"west":5.5},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Best visited from May to September for hiking, wine tasting, and outdoor activities.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}}]}
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T22:31:59.965Z",
+  "appVersion": "1.0",
+  "totalRegions": 12,
+  "totalPlaces": 152,
+  "totalRestaurants": 168,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "groningen",
+      "name": "Groningen",
+      "nameIt": "Groningen",
+      "capital": "Groningen",
+      "lat": 53.22,
+      "lng": 6.57,
+      "emoji": "🌾",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 53.5,
+        "south": 52.9,
+        "east": 7.2,
+        "west": 6
+      },
+      "placeCount": 10,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from May to September for warm weather and outdoor activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "friesland",
+      "name": "Friesland",
+      "nameIt": "Fryslân",
+      "capital": "Leeuwarden",
+      "lat": 53.2,
+      "lng": 5.8,
+      "emoji": "🚤",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 53.5,
+        "south": 52.7,
+        "east": 6.5,
+        "west": 5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from June to August for water sports and outdoor festivals.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "drenthe",
+      "name": "Drenthe",
+      "nameIt": "Drenthe",
+      "capital": "Assen",
+      "lat": 52.95,
+      "lng": 6.55,
+      "emoji": "🏞️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 53.3,
+        "south": 52.5,
+        "east": 7.3,
+        "west": 5.8
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from April to October to explore forests, heaths, and prehistoric sites.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "overijssel",
+      "name": "Overijssel",
+      "nameIt": "Overijssel",
+      "capital": "Zwolle",
+      "lat": 52.5,
+      "lng": 6.25,
+      "emoji": "🌊",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 52.95,
+        "south": 51.95,
+        "east": 7.3,
+        "west": 5.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from May to September for water activities and cycling.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "flevoland",
+      "name": "Flevoland",
+      "nameIt": "Flevoland",
+      "capital": "Lelystad",
+      "lat": 52.47,
+      "lng": 5.47,
+      "emoji": "🌊",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 52.8,
+        "south": 52,
+        "east": 6,
+        "west": 5
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from June to September for water sports and cycling across polders.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "gelderland",
+      "name": "Gelderland",
+      "nameIt": "Gelderland",
+      "capital": "Arnhem",
+      "lat": 52.08,
+      "lng": 5.87,
+      "emoji": "🏰",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 52.4,
+        "south": 51.5,
+        "east": 6.9,
+        "west": 4.8
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from April to October for natural scenery and historic estates.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "utrecht",
+      "name": "Utrecht",
+      "nameIt": "Utrecht",
+      "capital": "Utrecht",
+      "lat": 52.09,
+      "lng": 5.12,
+      "emoji": "🚴",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 52.35,
+        "south": 51.8,
+        "east": 5.7,
+        "west": 4.5
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit year-round, but spring and summer are ideal for cycling and canal exploration.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "north_holland",
+      "name": "North Holland",
+      "nameIt": "Noord-Holland",
+      "capital": "Haarlem",
+      "lat": 52.5,
+      "lng": 5.1,
+      "emoji": "🌷",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 52.97,
+        "south": 51.95,
+        "east": 5.8,
+        "west": 4.5
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from April to May for tulips and April to September for beaches.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "south_holland",
+      "name": "South Holland",
+      "nameIt": "Zuid-Holland",
+      "capital": "The Hague",
+      "lat": 51.96,
+      "lng": 4.47,
+      "emoji": "🏖️",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 52.3,
+        "south": 51.5,
+        "east": 5.2,
+        "west": 3.6
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from May to September for beaches and outdoor activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "zeeland",
+      "name": "Zeeland",
+      "nameIt": "Zeeland",
+      "capital": "Middelburg",
+      "lat": 51.5,
+      "lng": 3.61,
+      "emoji": "🏝️",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 51.85,
+        "south": 51.25,
+        "east": 4.2,
+        "west": 3.2
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from June to September for beach holidays and water sports.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "north_brabant",
+      "name": "North Brabant",
+      "nameIt": "Noord-Brabant",
+      "capital": "s-Hertogenbosch",
+      "lat": 51.5,
+      "lng": 5.3,
+      "emoji": "🎉",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 51.95,
+        "south": 50.75,
+        "east": 6.2,
+        "west": 4.5
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from April to October, especially around Carnival season (February/March).",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "limburg",
+      "name": "Limburg",
+      "nameIt": "Limburg",
+      "capital": "Maastricht",
+      "lat": 50.85,
+      "lng": 5.7,
+      "emoji": "⛰️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 51.35,
+        "south": 50.45,
+        "east": 6.3,
+        "west": 5.5
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from May to September for hiking, wine tasting, and outdoor activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

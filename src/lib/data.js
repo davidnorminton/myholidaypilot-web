@@ -33,6 +33,11 @@ export async function getRegion(id, country = 'italy') {
 // static HTML — Viator content must not be search-indexed.
 export const getViatorTours = (regionId, country = 'italy') =>
   getJSON(`${country}/viator/${regionId}.json`).then((v) => (Array.isArray(v) ? v : [])).catch(() => [])
+
+// Place-level tours (distinct destination / attraction). Missing → []; the
+// component falls back to the parent region's tours when a place has none.
+export const getViatorPlaceTours = (placeId, country = 'italy') =>
+  getJSON(`${country}/viator/places/${placeId}.json`).then((v) => (Array.isArray(v) ? v : [])).catch(() => [])
 const imagesCache = new Map()
 export async function getImages(country = 'italy') {
   // Prefer live images from the builder DB (so images set in the builder show

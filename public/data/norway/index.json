@@ -1,1 +1,221 @@
-{"schemaVersion":3,"exportedAt":"2026-07-04T21:41:51.129Z","appVersion":"1.0","totalRegions":8,"totalPlaces":102,"totalRestaurants":115,"totalChecklistItems":0,"totalImages":0,"affiliateIds":{},"regions":[{"id":"eastern_norway","name":"Eastern Norway","nameIt":"Østlandet","capital":"Oslo","lat":60.5,"lng":11,"emoji":"🏛️","colour":"ff4caf50","boundingBox":{"north":61.5,"south":59,"east":12.5,"west":9},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"May to September for outdoor activities, or December for winter sports and Christmas markets.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"southeastern_norway","name":"Southeastern Norway","nameIt":"Sørlandet","capital":"Kristiansand","lat":58.5,"lng":8.5,"emoji":"🏖️","colour":"ff2196f3","boundingBox":{"north":59.5,"south":57.8,"east":9.5,"west":6.5},"placeCount":12,"restaurantCount":15,"bestTimeToVisit":"June to August for beaches and coastal activities, with warm summers.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"southern_norway","name":"Southern Norway","nameIt":"Agder","capital":"Arendal","lat":58.3,"lng":9,"emoji":"🌊","colour":"ffff9800","boundingBox":{"north":59,"south":57.5,"east":10,"west":7.5},"placeCount":11,"restaurantCount":14,"bestTimeToVisit":"June to August for coastal exploration and hiking.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"western_norway","name":"Western Norway","nameIt":"Vestlandet","capital":"Bergen","lat":60.4,"lng":5.5,"emoji":"⛰️","colour":"ff9c27b0","boundingBox":{"north":61.3,"south":58.8,"east":7.5,"west":4.5},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"June to August for fjord cruises and hiking, though expect rain year-round.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"fjord_norway","name":"Fjord Norway","nameIt":"Fjordlandet","capital":"Stavanger","lat":58.9,"lng":5.8,"emoji":"🛥️","colour":"ffe91e63","boundingBox":{"north":60,"south":58,"east":7,"west":4.5},"placeCount":12,"restaurantCount":15,"bestTimeToVisit":"May to September for fjord navigation and outdoor exploration.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"central_norway","name":"Central Norway","nameIt":"Trøndelag","capital":"Trondheim","lat":63.5,"lng":10.5,"emoji":"🏔️","colour":"ff009688","boundingBox":{"north":65,"south":62.5,"east":13,"west":8},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"June to September for hiking and mountain scenery.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"northern_norway","name":"Northern Norway","nameIt":"Nord-Norge","capital":"Tromsø","lat":68.5,"lng":17,"emoji":"🌌","colour":"ff795548","boundingBox":{"north":70.5,"south":66,"east":31,"west":13},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"September to March for Northern Lights, or June to August for midnight sun.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"arctic_norway","name":"Arctic Norway","nameIt":"Finnmark og Svalbard","capital":"Honningsvåg","lat":70.9,"lng":25.5,"emoji":"❄️","colour":"ff3f51b5","boundingBox":{"north":81,"south":70,"east":35,"west":20},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"March to April for Northern Lights and dog sledding, or June to August for the midnight sun.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}}]}
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T21:41:51.129Z",
+  "appVersion": "1.0",
+  "totalRegions": 8,
+  "totalPlaces": 102,
+  "totalRestaurants": 115,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "eastern_norway",
+      "name": "Eastern Norway",
+      "nameIt": "Østlandet",
+      "capital": "Oslo",
+      "lat": 60.5,
+      "lng": 11,
+      "emoji": "🏛️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 61.5,
+        "south": 59,
+        "east": 12.5,
+        "west": 9
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to September for outdoor activities, or December for winter sports and Christmas markets.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "southeastern_norway",
+      "name": "Southeastern Norway",
+      "nameIt": "Sørlandet",
+      "capital": "Kristiansand",
+      "lat": 58.5,
+      "lng": 8.5,
+      "emoji": "🏖️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 59.5,
+        "south": 57.8,
+        "east": 9.5,
+        "west": 6.5
+      },
+      "placeCount": 12,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "June to August for beaches and coastal activities, with warm summers.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "southern_norway",
+      "name": "Southern Norway",
+      "nameIt": "Agder",
+      "capital": "Arendal",
+      "lat": 58.3,
+      "lng": 9,
+      "emoji": "🌊",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 59,
+        "south": 57.5,
+        "east": 10,
+        "west": 7.5
+      },
+      "placeCount": 11,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "June to August for coastal exploration and hiking.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "western_norway",
+      "name": "Western Norway",
+      "nameIt": "Vestlandet",
+      "capital": "Bergen",
+      "lat": 60.4,
+      "lng": 5.5,
+      "emoji": "⛰️",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 61.3,
+        "south": 58.8,
+        "east": 7.5,
+        "west": 4.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "June to August for fjord cruises and hiking, though expect rain year-round.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "fjord_norway",
+      "name": "Fjord Norway",
+      "nameIt": "Fjordlandet",
+      "capital": "Stavanger",
+      "lat": 58.9,
+      "lng": 5.8,
+      "emoji": "🛥️",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 60,
+        "south": 58,
+        "east": 7,
+        "west": 4.5
+      },
+      "placeCount": 12,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "May to September for fjord navigation and outdoor exploration.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "central_norway",
+      "name": "Central Norway",
+      "nameIt": "Trøndelag",
+      "capital": "Trondheim",
+      "lat": 63.5,
+      "lng": 10.5,
+      "emoji": "🏔️",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 65,
+        "south": 62.5,
+        "east": 13,
+        "west": 8
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "June to September for hiking and mountain scenery.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "northern_norway",
+      "name": "Northern Norway",
+      "nameIt": "Nord-Norge",
+      "capital": "Tromsø",
+      "lat": 68.5,
+      "lng": 17,
+      "emoji": "🌌",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 70.5,
+        "south": 66,
+        "east": 31,
+        "west": 13
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "September to March for Northern Lights, or June to August for midnight sun.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "arctic_norway",
+      "name": "Arctic Norway",
+      "nameIt": "Finnmark og Svalbard",
+      "capital": "Honningsvåg",
+      "lat": 70.9,
+      "lng": 25.5,
+      "emoji": "❄️",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 81,
+        "south": 70,
+        "east": 35,
+        "west": 20
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "March to April for Northern Lights and dog sledding, or June to August for the midnight sun.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

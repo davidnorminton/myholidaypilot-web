@@ -1,21 +1,25 @@
 import { useEffect, useState } from 'react'
 import { Star, Clock, ExternalLink } from 'lucide-react'
-import { getViatorTours } from '../lib/data.js'
+import { getViatorTours, getViatorPlaceTours } from '../lib/data.js'
 
-// "Things to do" — Viator tours for a region, deep-linking to viator.com (a
-// 30-day cookie accrues our commission). Rendered CLIENT-SIDE ONLY: the data is
-// fetched at runtime (never prerendered) and its source path is disallowed in
-// robots.txt, so Viator's unique content stays out of the search index — which
-// is a contractual requirement. Renders nothing until/unless tours load.
-export default function ViatorTours({ country, regionId, name }) {
+// "Things to do" — Viator tours for a region or place, deep-linking to
+// viator.com (a 30-day cookie accrues our commission). Rendered CLIENT-SIDE
+// ONLY: the data is fetched at runtime (never prerendered) and its source path
+// is disallowed in robots.txt, so Viator's unique content stays out of the
+// search index — a contractual requirement. Renders nothing until tours load.
+// With a placeId, shows that place's tours, falling back to the region's.
+export default function ViatorTours({ country, regionId, placeId, name }) {
   const [tours, setTours] = useState(null)
 
   useEffect(() => {
     let live = true
     setTours(null)
-    getViatorTours(regionId, country).then((t) => live && setTours(t))
+    const load = placeId
+      ? getViatorPlaceTours(placeId, country).then((t) => (t.length ? t : getViatorTours(regionId, country)))
+      : getViatorTours(regionId, country)
+    load.then((t) => live && setTours(t))
     return () => { live = false }
-  }, [country, regionId])
+  }, [country, regionId, placeId])
 
   if (!tours || !tours.length) return null
 

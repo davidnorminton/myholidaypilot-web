@@ -40,7 +40,7 @@ const LANG = process.env.VIATOR_LANG || 'en-GB'
 const argv = process.argv.slice(2)
 const has = (f) => argv.includes(f)
 const val = (f, d) => { const a = argv.find((x) => x.startsWith(`${f}=`)); return a ? a.slice(f.length + 1) : d }
-const MODE = has('--probe') ? 'probe' : has('--map') ? 'map' : 'ingest'
+const MODE = has('--probe') ? 'probe' : has('--map-places') ? 'mapPlaces' : has('--map') ? 'map' : 'ingest'
 const ONLY_COUNTRY = val('--country', '')
 const LIMIT = Math.min(Number(val('--limit', '12')) || 12, 50)
 
@@ -121,11 +121,11 @@ function toCard(p) {
   }
 }
 
-async function searchProducts(destId, count = LIMIT) {
+async function searchProducts(filtering, count = LIMIT) {
   const data = await vfetch('/products/search', {
     method: 'POST',
     body: {
-      filtering: { destination: String(destId) },
+      filtering,                              // { destination } or { attractionId }
       sorting: { sort: 'DEFAULT' },           // Viator's featured/merchandising order
       pagination: { start: 1, count },
       currency: CURRENCY,
@@ -147,11 +147,35 @@ if (MODE === 'probe') {
   const sample = arr.find((d) => d.type === 'CITY') || arr[0]
   const sampleId = sample?.destinationId
   console.log(`\nsync-viator --probe: /products/search for destId ${sampleId} (${sample?.name}) …`)
-  const products = await searchProducts(sampleId, 1)
+  const products = await searchProducts({ destination: String(sampleId) }, 1)
   console.log('  raw first product:', JSON.stringify(products[0], null, 2))
   console.log('  → mapped card:', JSON.stringify(toCard(products[0] || {}), null, 2))
+
+  // Attractions (for Step 2b: attraction-linked tours). Wrapped so a wrong
+  // request shape doesn't abort the whole probe — we just report it.
+  let sampleAttraction = null, attractionProduct = null
+  console.log(`\nsync-viator --probe: /attractions/search in destId ${sampleId} …`)
+  try {
+    const ares = await vfetch('/attractions/search', {
+      method: 'POST',
+      body: { destinationId: sampleId, sorting: { sort: 'DEFAULT' }, pagination: { start: 1, count: 3 } },
+    })
+    const attrs = ares.attractions || []
+    sampleAttraction = attrs[0] || null
+    console.log(`  attractions: ${attrs.length}`)
+    console.log('  sample attraction:', JSON.stringify(sampleAttraction, null, 2))
+    const attractionId = sampleAttraction?.attractionId ?? sampleAttraction?.seoId
+    if (attractionId) {
+      const byAttr = await searchProducts({ attractionId }, 1)
+      attractionProduct = byAttr[0] || null
+      console.log(`  first product for attractionId ${attractionId}:`, attractionProduct?.productCode || '(none)')
+    }
+  } catch (e) {
+    console.log('  ⚠ attractions probe failed — note the request shape to verify:', e.message)
+  }
+
   const out = path.join(root, 'viator-probe.json')
-  writeJson(out, { sampleDestination: arr[0], sampleProduct: products[0] || null, mappedCard: toCard(products[0] || {}) })
+  writeJson(out, { sampleDestination: arr[0], sampleProduct: products[0] || null, mappedCard: toCard(products[0] || {}), sampleAttraction, attractionProduct })
   console.log(`\nWrote ${out} — check the field names line up before ingesting.`)
   process.exit(0)
 }
@@ -206,6 +230,45 @@ if (MODE === 'map') {
   process.exit(0)
 }
 
+// ────────────────────────── MAP PLACES ───────────────────────────────
+if (MODE === 'mapPlaces') {
+  console.log('sync-viator --map-places: fetching /destinations …')
+  const dests = (await vfetch('/destinations')).destinations || []
+  const coordOf = (d) => ({ lat: d?.center?.latitude ?? d?.latitude, lng: d?.center?.longitude ?? d?.longitude })
+  const byNameAll = new Map()
+  for (const d of dests) { const k = norm(d.name); if (!byNameAll.has(k)) byNameAll.set(k, []); byNameAll.get(k).push(d) }
+  const nearestOf = (list, p) => list.map((d) => ({ d, km: haversineKm({ lat: p.lat, lng: p.lng }, coordOf(d)) })).sort((a, b) => a.km - b.km)[0]
+  const cityDests = dests.filter((d) => ['CITY', 'TOWN', 'AREA'].includes(d.type))
+
+  const regionMap = readJson(path.join(dataDir, 'viator-destinations.json'), {})
+  const placeMap = readJson(path.join(dataDir, 'viator-places.json'), {})
+  let matched = 0, skipped = 0
+  for (const country of countries()) {
+    const raw = readJson(path.join(dataDir, country, 'places-index.json'), [])
+    const list = Array.isArray(raw) ? raw : (raw.places || [])
+    placeMap[country] ||= {}
+    for (const p of list) {
+      if (!Number.isFinite(p.lat) || !Number.isFinite(p.lng)) continue
+      // name match (coord-verified), else nearest city/town within a tight radius
+      const named = byNameAll.get(norm(p.name)) || []
+      let best = named.length ? nearestOf(named, p) : null
+      if (best && best.km > 60) best = null
+      if (!best) { const n = nearestOf(cityDests, p); if (n && n.km <= 35) best = n }
+      if (!best) { skipped++; continue }
+      // if the place resolves to the same destination as its region, skip it —
+      // the place page falls back to the region's tours, no need to duplicate.
+      const regionDest = regionMap[country]?.[p.regionId]?.destId
+      if (best.d.destinationId === regionDest) { skipped++; continue }
+      placeMap[country][p.placeId] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, km: Math.round(best.km) }
+      matched++
+    }
+  }
+  writeJson(path.join(dataDir, 'viator-places.json'), placeMap)
+  console.log(`\nMatched ${matched} places to a distinct Viator destination (${skipped} → region fallback).`)
+  console.log('Review viator-places.json, then run the ingest.')
+  process.exit(0)
+}
+
 // ─────────────────────────────── INGEST ──────────────────────────────
 const map = readJson(path.join(dataDir, 'viator-destinations.json'), null)
 if (!map) { console.error('sync-viator: no viator-destinations.json — run `--map` first.'); process.exit(1) }
@@ -216,7 +279,7 @@ for (const country of countries()) {
   for (const [regionId, m] of Object.entries(regions)) {
     if (!m?.destId) continue
     try {
-      const products = await searchProducts(m.destId)
+      const products = await searchProducts({ destination: String(m.destId) })
       const tours = products.map(toCard).filter((t) => t.code && t.url)
       writeJson(path.join(dataDir, country, 'viator', `${regionId}.json`), tours)
       tours.length ? wrote++ : empty++
@@ -227,4 +290,26 @@ for (const country of countries()) {
     }
   }
 }
-console.log(`\nsync-viator: wrote ${wrote} region files (${empty} empty).`)
+
+// Place-level tours (only for places mapped to a DISTINCT destination — the
+// rest fall back to their region's tours on the client).
+const placeMap = readJson(path.join(dataDir, 'viator-places.json'), null)
+let pWrote = 0
+if (placeMap) {
+  for (const country of countries()) {
+    for (const [placeId, m] of Object.entries(placeMap[country] || {})) {
+      if (!m?.destId) continue
+      try {
+        const products = await searchProducts({ destination: String(m.destId) })
+        const tours = products.map(toCard).filter((t) => t.code && t.url)
+        writeJson(path.join(dataDir, country, 'viator', 'places', `${placeId}.json`), tours)
+        if (tours.length) pWrote++
+        process.stdout.write(`  ${country}/place/${placeId} (${m.destName}) → ${tours.length}\n`)
+        await sleep(120)
+      } catch (e) {
+        console.warn(`  ✗ ${country}/place/${placeId}: ${e.message}`)
+      }
+    }
+  }
+}
+console.log(`\nsync-viator: wrote ${wrote} region files (${empty} empty)${placeMap ? `, ${pWrote} place files` : ''}.`)

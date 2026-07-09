@@ -8,6 +8,7 @@ import { imgUrl } from '../lib/imgUrl.js'
 import MapView from '../components/MapView.jsx'
 import Carousel from '../components/Carousel.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
+import ViatorTours from '../components/ViatorTours.jsx'
 import SaveButton from '../components/SaveButton.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
@@ -167,6 +168,8 @@ export default function PlaceDetailScreen() {
           )}
 
           {aiOn && <AskPlace place={place} regionName={region?.name || ''} />}
+          <ViatorTours country={country} regionId={regionId} placeId={placeId} name={place.name} />
+
           <CommentsSection countryId={country} targetType="place" regionId={regionId} placeId={placeId} areaName={place.name} />
         </main>
       </div>

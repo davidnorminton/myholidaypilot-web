@@ -1,1 +1,351 @@
-{"schemaVersion":3,"exportedAt":"2026-07-04T19:47:37.235Z","appVersion":"1.0","totalRegions":13,"totalPlaces":180,"totalRestaurants":184,"totalChecklistItems":0,"totalImages":0,"affiliateIds":{},"regions":[{"id":"ile_de_france","name":"Île-de-France","nameIt":"Île-de-France","capital":"Paris","lat":48.7,"lng":2.4,"emoji":"🗼","colour":"ff4caf50","boundingBox":{"north":49.27,"south":48.12,"east":3.59,"west":1.42},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"April to June and September to October offer pleasant weather and fewer crowds than summer.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"provence_alpes_cote_azur","name":"Provence-Alpes-Côte d'Azur","nameIt":"Provence-Alpes-Côte d'Azur","capital":"Marseille","lat":43.9,"lng":5.9,"emoji":"🌊","colour":"ff2196f3","boundingBox":{"north":44.99,"south":43.14,"east":8.23,"west":4.19},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"May to September for warm weather and Mediterranean sunshine, avoiding July-August peak season.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"auvergne_rhone_alpes","name":"Auvergne-Rhône-Alpes","nameIt":"Auvergne-Rhône-Alpes","capital":"Lyon","lat":45.5,"lng":4.8,"emoji":"⛰️","colour":"ffff9800","boundingBox":{"north":46.67,"south":44.17,"east":6.44,"west":2.59},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"June to September for hiking and outdoor activities, or December to March for winter sports.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"nouvelle_aquitaine","name":"New Aquitaine","nameIt":"Nouvelle-Aquitaine","capital":"Bordeaux","lat":45,"lng":-0.4,"emoji":"🍷","colour":"ff9c27b0","boundingBox":{"north":46.26,"south":42.74,"east":2.55,"west":-2.29},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"May to October for wine tours and coastal activities, with September being ideal for harvest season.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"bretagne","name":"Brittany","nameIt":"Bretagne","capital":"Rennes","lat":48.1,"lng":-3.3,"emoji":"⛵","colour":"ffe91e63","boundingBox":{"north":48.9,"south":47.25,"east":-1.85,"west":-4.88},"placeCount":14,"restaurantCount":15,"bestTimeToVisit":"May to September for coastal exploration and Celtic heritage, with July-August being warmest.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"normandie","name":"Normandy","nameIt":"Normandie","capital":"Rouen","lat":49.3,"lng":0.3,"emoji":"🏖️","colour":"ff009688","boundingBox":{"north":50.06,"south":48.74,"east":2.56,"west":-1.92},"placeCount":15,"restaurantCount":15,"bestTimeToVisit":"May to September for beach and countryside visits, with April and October offering pleasant spring/autumn weather.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"hauts_de_france","name":"Hauts-de-France","nameIt":"Hauts-de-France","capital":"Lille","lat":50.4,"lng":2.8,"emoji":"🏰","colour":"ff795548","boundingBox":{"north":51.16,"south":49.54,"east":4.55,"west":1.48},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"May to September for warm days and exploring medieval towns and WWI heritage sites.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"occitanie","name":"Occitania","nameIt":"Occitanie","capital":"Toulouse","lat":43.6,"lng":1.4,"emoji":"🏔️","colour":"ff3f51b5","boundingBox":{"north":44.7,"south":42.29,"east":4.44,"west":-0.36},"placeCount":15,"restaurantCount":14,"bestTimeToVisit":"May to October for Pyrenees hiking, medieval villages, and Canal du Midi exploration.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"bourgogne_franche_comte","name":"Burgundy-Franche-Comté","nameIt":"Bourgogne-Franche-Comté","capital":"Dijon","lat":47.3,"lng":5,"emoji":"🍇","colour":"ffcddc39","boundingBox":{"north":48.45,"south":46.01,"east":7.08,"west":2.82},"placeCount":15,"restaurantCount":14,"bestTimeToVisit":"September to October for wine harvest and autumn colors, or April to May for spring scenery.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"centre_val_de_loire","name":"Centre-Val de Loire","nameIt":"Centre-Val de Loire","capital":"Orléans","lat":47.4,"lng":1.9,"emoji":"🏛️","colour":"ffff5722","boundingBox":{"north":48.66,"south":46.22,"east":3.57,"west":0.35},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"April to October for château visits and Loire Valley cycling, with May and September being especially pleasant.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"pays_de_la_loire","name":"Pays de la Loire","nameIt":"Pays de la Loire","capital":"Nantes","lat":47.2,"lng":-1.5,"emoji":"🌳","colour":"ff4caf50","boundingBox":{"north":48.15,"south":46.44,"east":0.8,"west":-2.75},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"May to September for beaches, châteaux, and Atlantic coast exploration.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"grand_est","name":"Grand East","nameIt":"Grand Est","capital":"Strasbourg","lat":48.6,"lng":7.7,"emoji":"🍾","colour":"ff2196f3","boundingBox":{"north":49.75,"south":47.56,"east":8.48,"west":5},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"September to October for wine routes and autumn colors, or December for Christmas markets.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"corsica","name":"Corsica","nameIt":"Corse","capital":"Ajaccio","lat":42,"lng":9,"emoji":"🏝️","colour":"ffff9800","boundingBox":{"north":43.02,"south":41.37,"east":9.56,"west":8.19},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"May to June or September to October for warm weather, beaches, and hiking without extreme summer heat.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}}]}
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T19:47:37.235Z",
+  "appVersion": "1.0",
+  "totalRegions": 13,
+  "totalPlaces": 180,
+  "totalRestaurants": 184,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "ile_de_france",
+      "name": "Île-de-France",
+      "nameIt": "Île-de-France",
+      "capital": "Paris",
+      "lat": 48.7,
+      "lng": 2.4,
+      "emoji": "🗼",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 49.27,
+        "south": 48.12,
+        "east": 3.59,
+        "west": 1.42
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "April to June and September to October offer pleasant weather and fewer crowds than summer.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "provence_alpes_cote_azur",
+      "name": "Provence-Alpes-Côte d'Azur",
+      "nameIt": "Provence-Alpes-Côte d'Azur",
+      "capital": "Marseille",
+      "lat": 43.9,
+      "lng": 5.9,
+      "emoji": "🌊",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 44.99,
+        "south": 43.14,
+        "east": 8.23,
+        "west": 4.19
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to September for warm weather and Mediterranean sunshine, avoiding July-August peak season.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "auvergne_rhone_alpes",
+      "name": "Auvergne-Rhône-Alpes",
+      "nameIt": "Auvergne-Rhône-Alpes",
+      "capital": "Lyon",
+      "lat": 45.5,
+      "lng": 4.8,
+      "emoji": "⛰️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 46.67,
+        "south": 44.17,
+        "east": 6.44,
+        "west": 2.59
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "June to September for hiking and outdoor activities, or December to March for winter sports.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "nouvelle_aquitaine",
+      "name": "New Aquitaine",
+      "nameIt": "Nouvelle-Aquitaine",
+      "capital": "Bordeaux",
+      "lat": 45,
+      "lng": -0.4,
+      "emoji": "🍷",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 46.26,
+        "south": 42.74,
+        "east": 2.55,
+        "west": -2.29
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to October for wine tours and coastal activities, with September being ideal for harvest season.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "bretagne",
+      "name": "Brittany",
+      "nameIt": "Bretagne",
+      "capital": "Rennes",
+      "lat": 48.1,
+      "lng": -3.3,
+      "emoji": "⛵",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 48.9,
+        "south": 47.25,
+        "east": -1.85,
+        "west": -4.88
+      },
+      "placeCount": 14,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "May to September for coastal exploration and Celtic heritage, with July-August being warmest.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "normandie",
+      "name": "Normandy",
+      "nameIt": "Normandie",
+      "capital": "Rouen",
+      "lat": 49.3,
+      "lng": 0.3,
+      "emoji": "🏖️",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 50.06,
+        "south": 48.74,
+        "east": 2.56,
+        "west": -1.92
+      },
+      "placeCount": 15,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "May to September for beach and countryside visits, with April and October offering pleasant spring/autumn weather.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "hauts_de_france",
+      "name": "Hauts-de-France",
+      "nameIt": "Hauts-de-France",
+      "capital": "Lille",
+      "lat": 50.4,
+      "lng": 2.8,
+      "emoji": "🏰",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 51.16,
+        "south": 49.54,
+        "east": 4.55,
+        "west": 1.48
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to September for warm days and exploring medieval towns and WWI heritage sites.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "occitanie",
+      "name": "Occitania",
+      "nameIt": "Occitanie",
+      "capital": "Toulouse",
+      "lat": 43.6,
+      "lng": 1.4,
+      "emoji": "🏔️",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 44.7,
+        "south": 42.29,
+        "east": 4.44,
+        "west": -0.36
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to October for Pyrenees hiking, medieval villages, and Canal du Midi exploration.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "bourgogne_franche_comte",
+      "name": "Burgundy-Franche-Comté",
+      "nameIt": "Bourgogne-Franche-Comté",
+      "capital": "Dijon",
+      "lat": 47.3,
+      "lng": 5,
+      "emoji": "🍇",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 48.45,
+        "south": 46.01,
+        "east": 7.08,
+        "west": 2.82
+      },
+      "placeCount": 15,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "September to October for wine harvest and autumn colors, or April to May for spring scenery.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "centre_val_de_loire",
+      "name": "Centre-Val de Loire",
+      "nameIt": "Centre-Val de Loire",
+      "capital": "Orléans",
+      "lat": 47.4,
+      "lng": 1.9,
+      "emoji": "🏛️",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 48.66,
+        "south": 46.22,
+        "east": 3.57,
+        "west": 0.35
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "April to October for château visits and Loire Valley cycling, with May and September being especially pleasant.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "pays_de_la_loire",
+      "name": "Pays de la Loire",
+      "nameIt": "Pays de la Loire",
+      "capital": "Nantes",
+      "lat": 47.2,
+      "lng": -1.5,
+      "emoji": "🌳",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 48.15,
+        "south": 46.44,
+        "east": 0.8,
+        "west": -2.75
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to September for beaches, châteaux, and Atlantic coast exploration.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "grand_est",
+      "name": "Grand East",
+      "nameIt": "Grand Est",
+      "capital": "Strasbourg",
+      "lat": 48.6,
+      "lng": 7.7,
+      "emoji": "🍾",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 49.75,
+        "south": 47.56,
+        "east": 8.48,
+        "west": 5
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "September to October for wine routes and autumn colors, or December for Christmas markets.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "corsica",
+      "name": "Corsica",
+      "nameIt": "Corse",
+      "capital": "Ajaccio",
+      "lat": 42,
+      "lng": 9,
+      "emoji": "🏝️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 43.02,
+        "south": 41.37,
+        "east": 9.56,
+        "west": 8.19
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "May to June or September to October for warm weather, beaches, and hiking without extreme summer heat.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}

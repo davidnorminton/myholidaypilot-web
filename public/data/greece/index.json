@@ -1,1 +1,351 @@
-{"schemaVersion":3,"exportedAt":"2026-07-04T18:58:59.850Z","appVersion":"1.0","totalRegions":13,"totalPlaces":171,"totalRestaurants":186,"totalChecklistItems":0,"totalImages":0,"affiliateIds":{},"regions":[{"id":"attica","name":"Attica","nameIt":"Αττική","capital":"Athens","lat":37.97,"lng":23.72,"emoji":"🏛️","colour":"ff4caf50","boundingBox":{"north":38.81,"south":37.6,"east":24.24,"west":23.07},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"Visit from April to May or September to October for pleasant weather and fewer crowds around the ancient sites.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"central_greece","name":"Central Greece","nameIt":"Στερεά Ελλάδα","capital":"Lamia","lat":38.88,"lng":22.43,"emoji":"⛰️","colour":"ff2196f3","boundingBox":{"north":39.35,"south":38.35,"east":23.6,"west":21.05},"placeCount":14,"restaurantCount":15,"bestTimeToVisit":"Best visited in spring or autumn to enjoy the Meteora monasteries and mountain scenery with moderate temperatures.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"thessaly","name":"Thessaly","nameIt":"Θεσσαλία","capital":"Larissa","lat":39.15,"lng":22.41,"emoji":"🌾","colour":"ffff9800","boundingBox":{"north":39.6,"south":38.75,"east":23.3,"west":21.4},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Visit from April to May or September to October for ideal weather to explore Mount Pelion and the Meteora.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"epirus","name":"Epirus","nameIt":"Ήπειρος","capital":"Ioannina","lat":39.28,"lng":20.85,"emoji":"🏞️","colour":"ff9c27b0","boundingBox":{"north":39.95,"south":38.8,"east":21.65,"west":19.7},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Best visited in late spring through early autumn to experience the Vikos Gorge and mountain villages in pleasant weather.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"western_greece","name":"Western Greece","nameIt":"Δυτική Ελλάδα","capital":"Patras","lat":38.25,"lng":21.74,"emoji":"🌊","colour":"ffe91e63","boundingBox":{"north":38.85,"south":37.6,"east":22.95,"west":20.75},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Visit from May to October for warm weather perfect for beach exploration and the charming towns of the Peloponnese coast.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"peloponnese","name":"Peloponnese","nameIt":"Πελοπόννησος","capital":"Corinth","lat":37.6,"lng":22.87,"emoji":"🏺","colour":"ff009688","boundingBox":{"north":38.4,"south":36.75,"east":24.08,"west":21.6},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"Best visited in spring or autumn for comfortable exploration of ancient ruins and coastal towns.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"ionian_islands","name":"Ionian Islands","nameIt":"Ιόνια Νησιά","capital":"Corfu","lat":38.65,"lng":20.27,"emoji":"🏝️","colour":"ff795548","boundingBox":{"north":39.75,"south":37.05,"east":21.05,"west":19.3},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Visit from May to September for warm, sunny weather ideal for island hopping and water activities.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"thessaloniki","name":"Central Macedonia","nameIt":"Κεντρική Μακεδονία","capital":"Thessaloniki","lat":40.64,"lng":22.95,"emoji":"🏙️","colour":"ff3f51b5","boundingBox":{"north":41.2,"south":40.05,"east":23.85,"west":21.7},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Best visited from April to May or September to October for exploring the city and nearby Mount Olympus with pleasant temperatures.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"eastern_macedonia","name":"Eastern Macedonia and Thrace","nameIt":"Ανατολική Μακεδονία και Θράκη","capital":"Komotini","lat":41.1,"lng":24.91,"emoji":"🌲","colour":"ffcddc39","boundingBox":{"north":41.73,"south":40.55,"east":26.63,"west":23.3},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Visit from May to September to explore the mountainous terrain and Black Sea coast with comfortable weather.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"sporades","name":"Sporades","nameIt":"Σποράδες","capital":"Volos","lat":39.35,"lng":23.74,"emoji":"🌅","colour":"ffff5722","boundingBox":{"north":39.8,"south":38.85,"east":24.5,"west":23.1},"placeCount":13,"restaurantCount":15,"bestTimeToVisit":"Best visited from May to September for perfect beach weather and island exploration in the Aegean Sea.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"northern_aegean","name":"Northern Aegean Islands","nameIt":"Βόρειο Αιγαίο","capital":"Mytilene","lat":39.15,"lng":25.91,"emoji":"🗻","colour":"ff4caf50","boundingBox":{"north":39.65,"south":38.6,"east":26.95,"west":24.7},"placeCount":12,"restaurantCount":14,"bestTimeToVisit":"Visit from May to September for warm weather and excellent conditions for exploring the larger islands and their wineries.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"southern_aegean","name":"Southern Aegean","nameIt":"Νότιο Αιγαίο","capital":"Rhodes","lat":36.43,"lng":27.79,"emoji":"☀️","colour":"ff2196f3","boundingBox":{"north":37.25,"south":35.6,"east":29.38,"west":26.7},"placeCount":14,"restaurantCount":14,"bestTimeToVisit":"Best visited from April to May or September to October for warm, sunny weather without extreme summer heat.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}},{"id":"crete","name":"Crete","nameIt":"Κρήτη","capital":"Heraklion","lat":35.24,"lng":25.13,"emoji":"🏖️","colour":"ffff9800","boundingBox":{"north":35.7,"south":34.8,"east":26.4,"west":23.5},"placeCount":13,"restaurantCount":14,"bestTimeToVisit":"Visit from April to May or September to October for enjoyable beach weather and exploration of Minoan ruins.","heroImage":{"index":0,"assetPath":"","isLocal":false,"url":"","credit":""}}]}
+{
+  "schemaVersion": 3,
+  "exportedAt": "2026-07-04T18:58:59.850Z",
+  "appVersion": "1.0",
+  "totalRegions": 13,
+  "totalPlaces": 171,
+  "totalRestaurants": 186,
+  "totalChecklistItems": 0,
+  "totalImages": 0,
+  "affiliateIds": {},
+  "regions": [
+    {
+      "id": "attica",
+      "name": "Attica",
+      "nameIt": "Αττική",
+      "capital": "Athens",
+      "lat": 37.97,
+      "lng": 23.72,
+      "emoji": "🏛️",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 38.81,
+        "south": 37.6,
+        "east": 24.24,
+        "west": 23.07
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Visit from April to May or September to October for pleasant weather and fewer crowds around the ancient sites.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "central_greece",
+      "name": "Central Greece",
+      "nameIt": "Στερεά Ελλάδα",
+      "capital": "Lamia",
+      "lat": 38.88,
+      "lng": 22.43,
+      "emoji": "⛰️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 39.35,
+        "south": 38.35,
+        "east": 23.6,
+        "west": 21.05
+      },
+      "placeCount": 14,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Best visited in spring or autumn to enjoy the Meteora monasteries and mountain scenery with moderate temperatures.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "thessaly",
+      "name": "Thessaly",
+      "nameIt": "Θεσσαλία",
+      "capital": "Larissa",
+      "lat": 39.15,
+      "lng": 22.41,
+      "emoji": "🌾",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 39.6,
+        "south": 38.75,
+        "east": 23.3,
+        "west": 21.4
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from April to May or September to October for ideal weather to explore Mount Pelion and the Meteora.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "epirus",
+      "name": "Epirus",
+      "nameIt": "Ήπειρος",
+      "capital": "Ioannina",
+      "lat": 39.28,
+      "lng": 20.85,
+      "emoji": "🏞️",
+      "colour": "ff9c27b0",
+      "boundingBox": {
+        "north": 39.95,
+        "south": 38.8,
+        "east": 21.65,
+        "west": 19.7
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited in late spring through early autumn to experience the Vikos Gorge and mountain villages in pleasant weather.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "western_greece",
+      "name": "Western Greece",
+      "nameIt": "Δυτική Ελλάδα",
+      "capital": "Patras",
+      "lat": 38.25,
+      "lng": 21.74,
+      "emoji": "🌊",
+      "colour": "ffe91e63",
+      "boundingBox": {
+        "north": 38.85,
+        "south": 37.6,
+        "east": 22.95,
+        "west": 20.75
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from May to October for warm weather perfect for beach exploration and the charming towns of the Peloponnese coast.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "peloponnese",
+      "name": "Peloponnese",
+      "nameIt": "Πελοπόννησος",
+      "capital": "Corinth",
+      "lat": 37.6,
+      "lng": 22.87,
+      "emoji": "🏺",
+      "colour": "ff009688",
+      "boundingBox": {
+        "north": 38.4,
+        "south": 36.75,
+        "east": 24.08,
+        "west": 21.6
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Best visited in spring or autumn for comfortable exploration of ancient ruins and coastal towns.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "ionian_islands",
+      "name": "Ionian Islands",
+      "nameIt": "Ιόνια Νησιά",
+      "capital": "Corfu",
+      "lat": 38.65,
+      "lng": 20.27,
+      "emoji": "🏝️",
+      "colour": "ff795548",
+      "boundingBox": {
+        "north": 39.75,
+        "south": 37.05,
+        "east": 21.05,
+        "west": 19.3
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from May to September for warm, sunny weather ideal for island hopping and water activities.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "thessaloniki",
+      "name": "Central Macedonia",
+      "nameIt": "Κεντρική Μακεδονία",
+      "capital": "Thessaloniki",
+      "lat": 40.64,
+      "lng": 22.95,
+      "emoji": "🏙️",
+      "colour": "ff3f51b5",
+      "boundingBox": {
+        "north": 41.2,
+        "south": 40.05,
+        "east": 23.85,
+        "west": 21.7
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from April to May or September to October for exploring the city and nearby Mount Olympus with pleasant temperatures.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "eastern_macedonia",
+      "name": "Eastern Macedonia and Thrace",
+      "nameIt": "Ανατολική Μακεδονία και Θράκη",
+      "capital": "Komotini",
+      "lat": 41.1,
+      "lng": 24.91,
+      "emoji": "🌲",
+      "colour": "ffcddc39",
+      "boundingBox": {
+        "north": 41.73,
+        "south": 40.55,
+        "east": 26.63,
+        "west": 23.3
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from May to September to explore the mountainous terrain and Black Sea coast with comfortable weather.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "sporades",
+      "name": "Sporades",
+      "nameIt": "Σποράδες",
+      "capital": "Volos",
+      "lat": 39.35,
+      "lng": 23.74,
+      "emoji": "🌅",
+      "colour": "ffff5722",
+      "boundingBox": {
+        "north": 39.8,
+        "south": 38.85,
+        "east": 24.5,
+        "west": 23.1
+      },
+      "placeCount": 13,
+      "restaurantCount": 15,
+      "bestTimeToVisit": "Best visited from May to September for perfect beach weather and island exploration in the Aegean Sea.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "northern_aegean",
+      "name": "Northern Aegean Islands",
+      "nameIt": "Βόρειο Αιγαίο",
+      "capital": "Mytilene",
+      "lat": 39.15,
+      "lng": 25.91,
+      "emoji": "🗻",
+      "colour": "ff4caf50",
+      "boundingBox": {
+        "north": 39.65,
+        "south": 38.6,
+        "east": 26.95,
+        "west": 24.7
+      },
+      "placeCount": 12,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from May to September for warm weather and excellent conditions for exploring the larger islands and their wineries.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "southern_aegean",
+      "name": "Southern Aegean",
+      "nameIt": "Νότιο Αιγαίο",
+      "capital": "Rhodes",
+      "lat": 36.43,
+      "lng": 27.79,
+      "emoji": "☀️",
+      "colour": "ff2196f3",
+      "boundingBox": {
+        "north": 37.25,
+        "south": 35.6,
+        "east": 29.38,
+        "west": 26.7
+      },
+      "placeCount": 14,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Best visited from April to May or September to October for warm, sunny weather without extreme summer heat.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    },
+    {
+      "id": "crete",
+      "name": "Crete",
+      "nameIt": "Κρήτη",
+      "capital": "Heraklion",
+      "lat": 35.24,
+      "lng": 25.13,
+      "emoji": "🏖️",
+      "colour": "ffff9800",
+      "boundingBox": {
+        "north": 35.7,
+        "south": 34.8,
+        "east": 26.4,
+        "west": 23.5
+      },
+      "placeCount": 13,
+      "restaurantCount": 14,
+      "bestTimeToVisit": "Visit from April to May or September to October for enjoyable beach weather and exploration of Minoan ruins.",
+      "heroImage": {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "",
+        "credit": ""
+      }
+    }
+  ]
+}
