@@ -7,10 +7,12 @@ import { createTrip, setActiveTrip } from '../lib/trips.js'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { paths } from '../lib/paths.js'
 import { useSeo } from '../lib/seo.js'
-import { useSettings } from '../lib/settings.js'
 import TripDetails from '../components/TripDetails.jsx'
 
-const EMOJI = { regions: '🗺️', festivals: '🎭', history: '🏛️', food: '🍝', transport: '🚆', plan: '🧭' }
+// Solid card colours (David's design). Falls back to the cycle for any extra
+// or custom hub ids.
+const CARD_BG = { regions: '#fe9ee8', festivals: '#fecf1e', history: '#87d2fe', food: '#9ee8a4', transport: '#fec89e', plan: '#c3a9fe' }
+const BG_CYCLE = ['#fe9ee8', '#fecf1e', '#87d2fe', '#9ee8a4', '#fec89e', '#c3a9fe']
 
 // If a country's hub.json is missing (or empty), fall back to the standard
 // six cards so the page never renders blank.
@@ -29,7 +31,6 @@ export default function ItalyHubScreen() {
   const navigate = useNavigate()
   const [sections, setSections] = useState(null)
   const [details, setDetails] = useState(null)
-  const site = useSettings()
   useSeo({ title: `${meta?.name || 'Travel'} travel guide`, description: `Everything to plan a ${meta?.name || ''} trip — the regions, festivals, food and how to get around.`, path: `/${country}` })
   useEffect(() => {
     if (!isAvailableCountry(country)) return
@@ -63,23 +64,21 @@ export default function ItalyHubScreen() {
       <main className="wrap">
         <TripDetails details={details} title={`Plan your trip to ${meta?.name || ''}`} />
         <div className="hub-grid">
-          {(sections || []).map((raw) => { const s = { ...raw, image: site[`hub.${country}.${raw.id}`] || site[`hub.default.${raw.id}`] || raw.image }; return (
+          {(sections || []).map((s, i) => (
             <Link
               key={s.id}
               to={s.id === 'plan' ? paths.plan() : s.link}
               onClick={s.id === 'plan' ? (e) => { e.preventDefault(); startPlanning() } : undefined}
               className="hub-card"
+              style={{ background: CARD_BG[s.id] || BG_CYCLE[i % BG_CYCLE.length] }}
             >
-              <span className="hub-card__media" data-emoji={EMOJI[s.id] || meta?.flag || '🌍'}>
-                {s.image && <img src={s.image} alt={s.title} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />}
-              </span>
               <span className="hub-card__body">
                 <span className="hub-card__title">{s.title}</span>
                 <span className="hub-card__blurb">{s.blurb}</span>
-                <span className="hub-card__go">Open <ArrowRight size={15} /></span>
+                <span className="hub-card__go">View all <ArrowRight size={15} /></span>
               </span>
             </Link>
-          )})}
+          ))}
         </div>
       </main>
     </div>
