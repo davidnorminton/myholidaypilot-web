@@ -95,7 +95,7 @@ export default function PlaceDetailScreen() {
         </div>
         {hero && (
           <div className="plan-hero__media">
-            <img src={imgUrl(hero, 1200)} alt={place.name} loading="eager" fetchPriority="high" decoding="async"
+            <img src={imgUrl(hero, 800)} alt={place.name} loading="eager" fetchPriority="high" decoding="async"
               onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
           </div>
         )}
