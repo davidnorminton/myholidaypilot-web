@@ -20,6 +20,7 @@ import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
 const TABS = [
   { id: 'places', label: 'Places to visit' },
+  { id: 'plan', label: 'Plan your trip' },
   { id: 'eat', label: 'Where to eat' },
   { id: 'about', label: 'About' },
 ]
@@ -88,7 +89,6 @@ export default function RegionDetailScreen() {
       </div>
 
       <div className={heroImage ? 'rd-sheet' : ''}>
-      <div className="wrap"><TripDetails details={region.details} title={`Plan your trip to ${region.name}`} /></div>
       <nav className="tabs wrap">
         {TABS.map((t) => (
           <button
@@ -126,6 +126,10 @@ export default function RegionDetailScreen() {
               ))}
             </div>
           </>
+        )}
+
+        {tab === 'plan' && (
+          <TripDetails details={region.details} title={`Plan your trip to ${region.name}`} />
         )}
 
         {tab === 'eat' && (
@@ -173,6 +177,7 @@ export default function RegionDetailScreen() {
             <AboutBlock title="Culture & traditions" text={region.culturalNotes} />
             <AboutBlock title="Language & dialect" text={region.languageNotes} />
             <AboutBlock title="Best time to visit" text={region.bestTimeToVisit} />
+            <ViatorTours country={country} regionId={regionId} name={region.name} />
             {aff && (
               <AffiliateSection
                 title={`Plan your trip to ${region.name}`}
@@ -181,8 +186,6 @@ export default function RegionDetailScreen() {
             )}
           </div>
         )}
-
-        <ViatorTours country={country} regionId={regionId} name={region.name} />
 
         <CommentsSection countryId={country} targetType="region" regionId={regionId} areaName={region.name} />
       </main>

@@ -166,7 +166,7 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .pd-hero__name{font-family:var(--sans); font-weight:800; color:#fff; font-size:clamp(44px,8vw,82px); line-height:.98; margin:10px 0 0; letter-spacing:-.01em; text-shadow:0 2px 30px rgba(0,0,0,.35)}
 .pd-hero__alt{color:rgba(255,255,255,.78); font-style:italic; font-family:var(--sans); font-size:22px; margin:4px 0 0}
 
-.pd-body{padding-top:30px; max-width:760px}
+.pd-body{padding-top:30px}
 .pd-lede{font-size:clamp(18px,2.4vw,21px); line-height:1.6; color:var(--ink-soft); margin:0 0 20px}
 .maplink{
   display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:12.5px;

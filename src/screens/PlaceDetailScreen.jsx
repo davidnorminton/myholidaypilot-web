@@ -160,6 +160,8 @@ export default function PlaceDetailScreen() {
             {active === 'colour' && <Items items={place.culture} />}
           </div>
 
+          <ViatorTours country={country} regionId={regionId} placeId={placeId} name={place.name} />
+
           {aff && (
             <AffiliateSection
               title={`Plan your visit to ${place.name}`}
@@ -168,7 +170,6 @@ export default function PlaceDetailScreen() {
           )}
 
           {aiOn && <AskPlace place={place} regionName={region?.name || ''} />}
-          <ViatorTours country={country} regionId={regionId} placeId={placeId} name={place.name} />
 
           <CommentsSection countryId={country} targetType="place" regionId={regionId} placeId={placeId} areaName={place.name} />
         </main>
