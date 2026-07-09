@@ -32,7 +32,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
 const dataDir = path.join(root, 'public', 'data')
 
-const KEY = process.env.VIATOR_API_KEY
+const KEY = (process.env.VIATOR_API_KEY || '').trim()
 const BASE = (process.env.VIATOR_API_BASE || 'https://api.viator.com/partner').replace(/\/$/, '')
 const CURRENCY = process.env.VIATOR_CURRENCY || 'GBP'
 const LANG = process.env.VIATOR_LANG || 'en-GB'
@@ -48,6 +48,7 @@ if (!KEY) {
   console.log('sync-viator: no VIATOR_API_KEY — skipping (static files left as-is)')
   process.exit(0)
 }
+console.log(`sync-viator: ${MODE} · base ${BASE} · key ${KEY.slice(0, 3)}…${KEY.slice(-3)} (${KEY.length} chars)`)
 
 const readJson = (p, fb) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')) } catch { return fb } }
 const writeJson = (p, v) => { fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, JSON.stringify(v)) }
@@ -87,12 +88,16 @@ async function vfetch(pathname, { method = 'GET', body } = {}, attempt = 0) {
 function pickThumb(images) {
   const list = Array.isArray(images) ? images : []
   const cover = list.find((i) => i?.isCover) || list[0]
-  const variants = cover?.variants || []
+  const variants = (cover?.variants || []).filter((v) => v?.url && v.width)
   if (!variants.length) return ''
-  // prefer a ~400–600px wide variant; fall back to the largest
-  const sorted = [...variants].filter((v) => v?.url).sort((a, b) => (a.width || 0) - (b.width || 0))
-  const mid = sorted.find((v) => (v.width || 0) >= 400) || sorted[sorted.length - 1]
-  return mid?.url || ''
+  // cards are 4:3, so prefer a landscape variant ~440–760px wide; the square
+  // NxN variants are a last resort.
+  const landscape = variants.filter((v) => v.width >= (v.height || 0) * 1.2)
+  const pool = (landscape.length ? landscape : variants).sort((a, b) => a.width - b.width)
+  const pick = pool.find((v) => v.width >= 440 && v.width <= 760)
+    || pool.find((v) => v.width >= 400)
+    || pool[pool.length - 1]
+  return pick?.url || ''
 }
 function durationLabel(d) {
   const m = d?.fixedDurationInMinutes ?? d?.variableDurationFromMinutes
@@ -161,8 +166,15 @@ if (MODE === 'map') {
     lat: d?.center?.latitude ?? d?.coordinates?.latitude ?? d?.latitude,
     lng: d?.center?.longitude ?? d?.coordinates?.longitude ?? d?.longitude,
   })
-  const byName = new Map()
-  for (const d of dests) { const k = norm(d.name); if (!byName.has(k)) byName.set(k, d) }
+  const byNameAll = new Map()
+  for (const d of dests) {
+    const k = norm(d.name)
+    if (!byNameAll.has(k)) byNameAll.set(k, [])
+    byNameAll.get(k).push(d)
+  }
+  const nearestOf = (list, r) => list
+    .map((d) => ({ d, km: haversineKm({ lat: r.lat, lng: r.lng }, coordOf(d)) }))
+    .sort((a, b) => a.km - b.km)[0]
 
   const map = readJson(path.join(dataDir, 'viator-destinations.json'), {})
   let matched = 0; const weak = []
@@ -171,18 +183,18 @@ if (MODE === 'map') {
     if (!idx?.regions) continue
     map[country] ||= {}
     for (const r of idx.regions) {
-      // 1) name match on region or capital; 2) nearest by coordinates
-      const nameHit = byName.get(norm(r.name)) || byName.get(norm(r.capital))
-      let best = nameHit ? { d: nameHit, km: 0, via: byName.get(norm(r.name)) ? 'name' : 'capital' } : null
+      // 1) name/capital match, disambiguated to the same-named destination
+      //    NEAREST our region's coords (so "Naples" → Italy, not Florida)
+      const named = [...(byNameAll.get(norm(r.name)) || []), ...(byNameAll.get(norm(r.capital)) || [])]
+      let best = named.length ? { ...nearestOf(named, r), via: 'name' } : null
+      if (best && Number.isFinite(best.km) && best.km > 250) best = null   // same name, wrong place
+      // 2) otherwise nearest CITY/REGION by coordinates
       if (!best && Number.isFinite(r.lat) && Number.isFinite(r.lng)) {
-        for (const d of dests) {
-          if (!['CITY', 'REGION', 'TOWN', 'AREA'].includes(d.type)) continue
-          const km = haversineKm({ lat: r.lat, lng: r.lng }, coordOf(d))
-          if (!best || km < best.km) best = { d, km, via: 'nearest' }
-        }
+        const n = nearestOf(dests.filter((d) => ['CITY', 'REGION', 'TOWN', 'AREA'].includes(d.type)), r)
+        if (n) best = { ...n, via: 'nearest' }
       }
       if (!best || (best.via === 'nearest' && best.km > 150)) { weak.push(`${country}/${r.id} (${r.name})`); continue }
-      map[country][r.id] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, via: best.via, km: Math.round(best.km) }
+      map[country][r.id] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, via: best.via, km: Math.round(best.km || 0) }
       matched++
     }
   }
