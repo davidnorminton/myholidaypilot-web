@@ -38,7 +38,7 @@ export default function PlanScreen() {
   const planHeroImg = site['page.plan'] || (trip && site[`hub.${trip.countryId}.plan`]) || site['hub.default.plan'] || ''
   const [wizard, setWizard] = useState(null)
   const [planFor, setPlanFor] = useState(null)
-  const [step, setStep] = useState('basics')   // basics | places | days
+  const [step, setStep] = useState('places')   // places | days
   const [shared, setShared] = useState(false)
   const [packingOpen, setPackingOpen] = useState(false)
   const [budgetOpen, setBudgetOpen] = useState(false)
@@ -152,6 +152,13 @@ export default function PlanScreen() {
                 {heroStart && <span className="planform__chip"><CalendarRange size={14} /> {fmtRange(heroStart, heroEnd)}</span>}
               </div>
             )}
+            {trip && (
+              <div className="planform__optional">
+                <span className="planform__optlabel">Optional</span>
+                <StaysEditor trip={trip} />
+                <TravelEditor trip={trip} />
+              </div>
+            )}
           </div>
         </header>
       </div>
@@ -201,9 +208,8 @@ export default function PlanScreen() {
             <aside className="planws__side">
               <p className="planws__sidelabel">Build your trip</p>
               {[
-                { id: 'basics', n: 1, label: 'Dates & travel', done: !!trip.startDate },
-                { id: 'places', n: 2, label: 'Places', done: trip.places.length > 0 },
-                { id: 'days', n: 3, label: 'Day by day', done: trip.places.some((p) => p.date) },
+                { id: 'places', n: 1, label: 'Places', done: trip.places.length > 0 },
+                { id: 'days', n: 2, label: 'Day by day', done: trip.places.some((p) => p.date) },
               ].map((st) => (
                 <button key={st.id} className={`planws__step ${step === st.id ? 'is-on' : ''} ${st.done ? 'is-done' : ''}`}
                   onClick={() => setStep(st.id)}>
@@ -238,11 +244,6 @@ export default function PlanScreen() {
             </div>
 
             <div className="planws__main">
-              {step === 'basics' && (<>
-                <StaysEditor trip={trip} />
-                <TravelEditor trip={trip} />
-              </>)}
-
               {step === 'places' && (<>
                 {tip && <div className="trip-tip"><Lightbulb size={16} /> {tip}</div>}
                 {groups.map(([groupName, places]) => (
