@@ -3028,7 +3028,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .viator{margin:36px 0}
 .viator__head{display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin-bottom:16px}
 .viator__title{font-family:var(--sans); font-weight:800; font-size:clamp(22px,3vw,30px); margin:0}
-.viator__note{font-size:12.5px; color:var(--faint)}
+.viator__note{display:block; font-size:12.5px; color:var(--faint); margin:14px 0 0}
 .viator__grid{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px}
 .viator__card{display:flex; flex-direction:column; text-decoration:none; color:var(--ink); border-radius:14px; overflow:hidden; border:1px solid var(--line-soft); background:var(--paper); transition:box-shadow .15s, transform .15s}
 .viator__card:hover{box-shadow:0 10px 28px rgba(0,0,0,.10); transform:translateY(-2px)}

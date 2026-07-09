@@ -47,9 +47,6 @@ export default function Footer() {
 
       <div className="wrap footer__bar">
         <span>© {year} myholidaypilot. All rights reserved.</span>
-        <span className="footer__disc">
-          Some links are affiliate links; booking through them may earn us a commission at no extra cost to you.
-        </span>
       </div>
     </footer>
   )

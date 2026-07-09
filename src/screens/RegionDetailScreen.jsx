@@ -109,27 +109,11 @@ export default function RegionDetailScreen() {
 
       <main className="wrap rd-body">
         {tab === 'places' && (
-          <>
-            {region.places?.some((p) => p.lat && p.lng) && (
-              <MapView
-                height={300}
-                center={[region.lng, region.lat]}
-                zoom={8}
-                markers={(region.places || [])
-                  .map((p, i) => ({ ...p, n: i + 1 }))
-                  .filter((p) => p.lat && p.lng)
-                  .map((p) => ({
-                    lng: p.lng, lat: p.lat, number: p.n, label: `${p.n}. ${p.name}`, color: accent,
-                    onClick: () => navigate(paths.place(regionId, p.id, country)),
-                  }))}
-              />
-            )}
-            <div className="grid grid--places">
-              {(region.places || []).map((p, i) => (
-                <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={p.image} number={i + 1} index={i} />
-              ))}
-            </div>
-          </>
+          <div className="grid grid--places">
+            {(region.places || []).map((p, i) => (
+              <PlaceCard key={p.id} regionId={regionId} country={country} place={p} image={p.image} index={i} />
+            ))}
+          </div>
         )}
 
         {tab === 'do' && (

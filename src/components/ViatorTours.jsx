@@ -31,10 +31,11 @@ export default function ViatorTours({ country, regionId, placeId, name, embedded
 
   return (
     <section className="viator" data-nosnippet aria-label={`Tours and activities in ${name}`}>
-      <div className="viator__head">
-        {!embedded && <h2 className="viator__title">Things to do in {name}</h2>}
-        <span className="viator__note">Tours by Viator — booking may earn us a commission, at no extra cost to you.</span>
-      </div>
+      {!embedded && (
+        <div className="viator__head">
+          <h2 className="viator__title">Things to do in {name}</h2>
+        </div>
+      )}
       <div className="viator__grid">
         {tours.map((t) => (
           <a key={t.code} className="viator__card" href={t.url} target="_blank" rel="nofollow noopener sponsored">
@@ -60,6 +61,7 @@ export default function ViatorTours({ country, regionId, placeId, name, embedded
           </a>
         ))}
       </div>
+      <p className="viator__note">Tours by Viator — booking may earn us a commission, at no extra cost to you.</p>
     </section>
   )
 }
