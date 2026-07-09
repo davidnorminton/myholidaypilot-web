@@ -4,7 +4,7 @@ import {
   Plus, Trash2, X, Check, StickyNote, CalendarRange,
   Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins, Globe2 } from 'lucide-react'
 import {
-  useTrips, activeTrip, createTrip, deleteTrip, renameTrip, setActiveTrip,
+  useTrips, activeTrip, createTrip, deleteTrip, renameTrip,
   removePlace, togglePlaceDone, updateNote, setTripDates, addPlace,
   healTripCoords,
 } from '../lib/trips.js'
@@ -15,7 +15,6 @@ const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).down
 import { shareUrl } from '../lib/tripShare.js'
 import StaysEditor from '../components/StaysEditor.jsx'
 import TravelEditor from '../components/TravelEditor.jsx'
-import NewTripFlow from '../components/NewTripFlow.jsx'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
@@ -41,7 +40,6 @@ export default function PlanScreen() {
   const [planFor, setPlanFor] = useState(null)
   const [step, setStep] = useState('basics')   // basics | places | days
   const [shared, setShared] = useState(false)
-  const [pickingCountry, setPickingCountry] = useState(false)
   const [packingOpen, setPackingOpen] = useState(false)
   const [budgetOpen, setBudgetOpen] = useState(false)
   const [publishOpen, setPublishOpen] = useState(false)
@@ -127,6 +125,7 @@ export default function PlanScreen() {
           <div className="planpage__headtext">
             <h1 className="planpage__title">Trip planner</h1>
             <p className="planpage__sub">Build your day-by-day itinerary — pick the places, arrange the days, and add packing and budget as you go.</p>
+            <Link to={paths.trips()} className="planpage__prevlink">View previous planned trips <ChevronRight size={15} /></Link>
           </div>
           <div className="planpage__form">
             <div className="planform">
@@ -155,20 +154,6 @@ export default function PlanScreen() {
             )}
           </div>
         </header>
-        {snap.trips.length > 0 && (
-          <div className="trip-bar">
-            <Link to={paths.trips()} className="trip-pill trip-pill--all">All trips</Link>
-            {snap.trips.map((t) => (
-              <button key={t.id} className={`trip-pill ${t.id === snap.activeTripId ? 'trip-pill--on' : ''}`}
-                onClick={() => { setActiveTrip(t.id); setStep('basics') }}>
-                {t.name}<span className="trip-pill__n">{t.places.length}</span>
-              </button>
-            ))}
-            <button className="trip-pill trip-pill--new" onClick={() => setPickingCountry(true)}>
-              <Plus size={15} /> New trip
-            </button>
-          </div>
-        )}
       </div>
 
       <main className="wrap planpage">
@@ -296,7 +281,6 @@ export default function PlanScreen() {
       {packingOpen && trip && <PackingList trip={trip} onClose={() => setPackingOpen(false)} />}
       {budgetOpen && trip && <BudgetPanel trip={trip} onClose={() => setBudgetOpen(false)} />}
       {publishOpen && trip && <PublishTrip trip={trip} onClose={() => setPublishOpen(false)} />}
-      <NewTripFlow open={pickingCountry} onClose={() => setPickingCountry(false)} />
       {planFor && trip && (
         <PlacePlanner key={`${planFor.regionId}/${planFor.placeId}`} tripId={trip.id} regionId={planFor.regionId} placeId={planFor.placeId}
           range={{ start: trip.startDate, end: trip.endDate }} onClose={() => setPlanFor(null)} />
