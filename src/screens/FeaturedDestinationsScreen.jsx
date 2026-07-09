@@ -30,7 +30,7 @@ export default function FeaturedDestinationsScreen() {
                 <Link key={`${f.c}/${f.r}/${f.p || 'region'}`} to={f.isRegion ? paths.region(f.r, f.c) : paths.place(f.r, f.p, f.c)} className="featured__card">
                   <div className="featured__media">
                     {f.image
-                      ? <SmartImage src={f.image} alt={f.name} width={600} priority={i < 4} />
+                      ? <SmartImage src={f.image} alt={f.name} width={320} priority={i < 4} />
                       : <span className="featured__blank" />}
                   </div>
                   <p className="featured__kicker">{f.countryName}{f.isRegion ? ' · Region' : ''}</p>

@@ -25,7 +25,7 @@ function PrimaryCard({ offer }) {
   const Icon = ICONS[offer.icon] || Ticket
   return (
     <a className="aff-card" href={offer.url} target="_blank" rel={REL}>
-      <span className="aff-card__ic"><Icon size={19} strokeWidth={2} /></span>
+      <span className="aff-card__ic"><Icon size={30} strokeWidth={1.8} /></span>
       <span className="aff-card__text">
         <span className="aff-card__title">{offer.title}</span> <span className="aff-card__sub">{offer.sub}</span>
       </span>
@@ -37,7 +37,7 @@ function PrimaryCard({ offer }) {
 function ProvidersCard({ offer }) {
   return (
     <div className="aff-card aff-card--providers">
-      <span className="aff-card__ic"><Ticket size={19} strokeWidth={2} /></span>
+      <span className="aff-card__ic"><Ticket size={30} strokeWidth={1.8} /></span>
       <span className="aff-card__text">
         <span className="aff-card__title">{offer.title}</span> <span className="aff-card__sub">{offer.sub}</span>
       </span>

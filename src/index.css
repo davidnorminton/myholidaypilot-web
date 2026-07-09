@@ -458,11 +458,11 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .aff__grid{display:flex; flex-direction:column; gap:10px}
 
 .aff-card{display:flex; flex-direction:row; align-items:center; gap:16px; background:var(--ink);
-  border:1px solid var(--ink); border-radius:16px; padding:20px 24px; color:#fff;
+  border:1px solid var(--ink); padding:20px 24px; color:#fff;
   transition:filter .18s ease}
 a.aff-card:hover{filter:brightness(1.18)}
-.aff-card__ic{width:44px; height:44px; flex:none; border-radius:12px; display:grid; place-items:center;
-  color:#fff; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.16)}
+.aff-card__ic{width:44px; height:44px; flex:none; display:grid; place-items:center; color:#fff}
+.aff-card__ic svg{width:30px; height:30px}
 .aff-card__text{flex:1; min-width:0; line-height:1.4}
 .aff-card__title{font-weight:700; font-size:16px; color:#fff}
 .aff-card__sub{font-size:14.5px; color:rgba(255,255,255,.66)}
