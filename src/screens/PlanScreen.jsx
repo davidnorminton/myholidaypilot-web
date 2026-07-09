@@ -13,12 +13,12 @@ import { useSeo } from '../lib/seo.js'
 // PDF generation (jspdf + html2canvas, ~760K) loads only when asked for
 const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).downloadTripPdf(...a)
 import { shareUrl } from '../lib/tripShare.js'
-import TripReadiness from '../components/TripReadiness.jsx'
 import StaysEditor from '../components/StaysEditor.jsx'
 import TravelEditor from '../components/TravelEditor.jsx'
 import NewTripFlow from '../components/NewTripFlow.jsx'
 import { getPlacesIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
+import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
 import { typeLabel } from '../lib/format.js'
 import MapView from '../components/MapView.jsx'
 import AddPlaceWizard from '../components/AddPlaceWizard.jsx'
@@ -45,6 +45,15 @@ export default function PlanScreen() {
   const [packingOpen, setPackingOpen] = useState(false)
   const [budgetOpen, setBudgetOpen] = useState(false)
   const [publishOpen, setPublishOpen] = useState(false)
+  // Hero form (destination + holiday dates). Dates drive the active trip; the
+  // country selection is captured here for now (wiring it to create/switch
+  // trips comes next).
+  const [heroCountry, setHeroCountry] = useState(trip?.countryId || 'italy')
+  const [heroStart, setHeroStart] = useState(trip?.startDate || '')
+  const [heroEnd, setHeroEnd] = useState(trip?.endDate || '')
+  useEffect(() => {
+    if (trip) { setHeroCountry(trip.countryId); setHeroStart(trip.startDate || ''); setHeroEnd(trip.endDate || '') }
+  }, [trip?.id]) // sync hero form when the active trip changes
   // "Or jump to" chips follow the trip's destination (was hardcoded Italy).
   const country = trip?.countryId || 'italy'
   const [suggestions, setSuggestions] = useState([])
@@ -97,7 +106,14 @@ export default function PlanScreen() {
     return out
   }, [trip])
   const doneCount = trip ? trip.places.filter((p) => p.done).length : 0
-  const regionCount = groups.filter(([k]) => k !== 'Your own places').length
+
+  const availCountries = useMemo(() => COUNTRIES.filter((c) => isAvailableCountry(c.slug)), [])
+  const heroCountryName = (COUNTRIES.find((c) => c.slug === heroCountry) || {}).name || ''
+  const setHeroDates = (s, e) => { setHeroStart(s); setHeroEnd(e); if (trip) setTripDates(trip.id, s, e) }
+  const fmtRange = (s, e) => {
+    const f = (d) => (d ? new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : '')
+    return e ? `${f(s)} – ${f(e)}` : f(s)
+  }
 
   const tip = !trip ? null
     : !trip.startDate ? 'Add your travel dates to start shaping the days.'
@@ -107,9 +123,37 @@ export default function PlanScreen() {
   return (
     <div className="page">
       <div className="wrap">
-        <header className="planpage__head">
-          <h1 className="planpage__title">Trip planner</h1>
-          <p className="planpage__sub">Build your day-by-day itinerary — pick the places, arrange the days, and add packing and budget as you go.</p>
+        <header className="planpage__head planpage__head--split">
+          <div className="planpage__headtext">
+            <h1 className="planpage__title">Trip planner</h1>
+            <p className="planpage__sub">Build your day-by-day itinerary — pick the places, arrange the days, and add packing and budget as you go.</p>
+          </div>
+          <div className="planpage__form">
+            <div className="planform">
+              <label className="planform__field">
+                <span className="planform__label">Destination</span>
+                <select className="planform__select" value={heroCountry} onChange={(e) => setHeroCountry(e.target.value)}>
+                  {availCountries.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
+                </select>
+              </label>
+              <div className="planform__dates">
+                <label className="planform__field">
+                  <span className="planform__label">From</span>
+                  <input type="date" value={heroStart} onChange={(e) => setHeroDates(e.target.value, heroEnd)} />
+                </label>
+                <label className="planform__field">
+                  <span className="planform__label">To</span>
+                  <input type="date" value={heroEnd} onChange={(e) => setHeroDates(heroStart, e.target.value)} />
+                </label>
+              </div>
+            </div>
+            {(heroCountryName || heroStart) && (
+              <div className="planform__summary">
+                {heroCountryName && <span className="planform__chip"><Globe2 size={14} /> {heroCountryName}</span>}
+                {heroStart && <span className="planform__chip"><CalendarRange size={14} /> {fmtRange(heroStart, heroEnd)}</span>}
+              </div>
+            )}
+          </div>
         </header>
         {snap.trips.length > 0 && (
           <div className="trip-bar">
@@ -210,21 +254,6 @@ export default function PlanScreen() {
 
             <div className="planws__main">
               {step === 'basics' && (<>
-                <div className="trip-status">
-                  <TripReadiness trip={trip} />
-                  <p className="trip__summary">
-                    <b>{trip.places.length}</b> {trip.places.length === 1 ? 'place' : 'places'}
-                    {regionCount > 0 && <> across <b>{regionCount}</b> {regionCount === 1 ? 'region' : 'regions'}</>}
-                    {doneCount > 0 && <> · {doneCount} locked in</>} — looking good.
-                  </p>
-                  <div className="trip__dates">
-                    <span className="trip__dateslabel"><CalendarRange size={15} /> Trip dates</span>
-                    <label>Arriving <input type="date" value={trip.startDate || ''} onChange={(e) => setTripDates(trip.id, e.target.value, trip.endDate || '')} /></label>
-                    <span className="trip__datesarrow">→</span>
-                    <label>Leaving <input type="date" value={trip.endDate || ''} onChange={(e) => setTripDates(trip.id, trip.startDate || '', e.target.value)} /></label>
-                    <span className="trip__dateshint">Moving the arrival date shifts the whole trip with it.</span>
-                  </div>
-                </div>
                 <StaysEditor trip={trip} />
                 <TravelEditor trip={trip} />
               </>)}
