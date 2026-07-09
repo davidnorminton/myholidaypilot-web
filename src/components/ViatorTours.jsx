@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { Star, Clock, ExternalLink } from 'lucide-react'
 import { getViatorTours, getViatorPlaceTours } from '../lib/data.js'
 
+const SHOW = 10   // cards shown before "Show more"
+
 // "Things to do" — Viator tours for a region or place, deep-linking to
 // viator.com (a 30-day cookie accrues our commission). Rendered CLIENT-SIDE
 // ONLY: the data is fetched at runtime (never prerendered) and its source path
@@ -9,19 +11,22 @@ import { getViatorTours, getViatorPlaceTours } from '../lib/data.js'
 // search index — a contractual requirement. Renders nothing until tours load.
 // With a placeId, shows that place's tours, falling back to the region's.
 export default function ViatorTours({ country, regionId, placeId, name, embedded = false }) {
-  const [tours, setTours] = useState(null)
+  const [data, setData] = useState(null)
+  const [expanded, setExpanded] = useState(false)
 
   useEffect(() => {
     let live = true
-    setTours(null)
+    setData(null); setExpanded(false)
     const load = placeId
-      ? getViatorPlaceTours(placeId, country).then((t) => (t.length ? t : getViatorTours(regionId, country)))
+      ? getViatorPlaceTours(placeId, country).then((d) => (d.tours.length ? d : getViatorTours(regionId, country)))
       : getViatorTours(regionId, country)
-    load.then((t) => live && setTours(t))
+    load.then((d) => live && setData(d))
     return () => { live = false }
   }, [country, regionId, placeId])
 
-  if (!tours || !tours.length) return null
+  if (!data || !data.tours.length) return null
+  const { tours, total, url } = data
+  const visible = expanded ? tours : tours.slice(0, SHOW)
 
   const price = (t) => {
     if (t.price == null) return ''
@@ -37,7 +42,7 @@ export default function ViatorTours({ country, regionId, placeId, name, embedded
         </div>
       )}
       <div className="viator__grid">
-        {tours.map((t) => (
+        {visible.map((t) => (
           <a key={t.code} className="viator__card" href={t.url} target="_blank" rel="nofollow noopener sponsored">
             <div className="viator__media">
               {t.image
@@ -61,6 +66,20 @@ export default function ViatorTours({ country, regionId, placeId, name, embedded
           </a>
         ))}
       </div>
+
+      <div className="viator__actions">
+        {tours.length > SHOW && !expanded && (
+          <button type="button" className="viator__more" onClick={() => setExpanded(true)}>
+            Show more
+          </button>
+        )}
+        {url && (
+          <a className="viator__all" href={url} target="_blank" rel="nofollow noopener sponsored">
+            View all{total > tours.length ? ` ${total}` : ''} on Viator <ExternalLink size={14} />
+          </a>
+        )}
+      </div>
+
       <p className="viator__note">Tours by Viator — booking may earn us a commission, at no extra cost to you.</p>
     </section>
   )

@@ -42,7 +42,7 @@ const has = (f) => argv.includes(f)
 const val = (f, d) => { const a = argv.find((x) => x.startsWith(`${f}=`)); return a ? a.slice(f.length + 1) : d }
 const MODE = has('--probe') ? 'probe' : has('--map-places') ? 'mapPlaces' : has('--map') ? 'map' : 'ingest'
 const ONLY_COUNTRY = val('--country', '')
-const LIMIT = Math.min(Number(val('--limit', '12')) || 12, 50)
+const LIMIT = Math.min(Number(val('--limit', '24')) || 24, 50)
 
 if (!KEY) {
   console.log('sync-viator: no VIATOR_API_KEY — skipping (static files left as-is)')
@@ -131,7 +131,7 @@ async function searchProducts(filtering, count = LIMIT) {
       currency: CURRENCY,
     },
   })
-  return Array.isArray(data.products) ? data.products : []
+  return { products: Array.isArray(data.products) ? data.products : [], total: data.totalCount ?? 0 }
 }
 
 const countries = () => (ONLY_COUNTRY ? [ONLY_COUNTRY] : fs.readdirSync(dataDir)
@@ -147,7 +147,7 @@ if (MODE === 'probe') {
   const sample = arr.find((d) => d.type === 'CITY') || arr[0]
   const sampleId = sample?.destinationId
   console.log(`\nsync-viator --probe: /products/search for destId ${sampleId} (${sample?.name}) …`)
-  const products = await searchProducts({ destination: String(sampleId) }, 1)
+  const { products } = await searchProducts({ destination: String(sampleId) }, 1)
   console.log('  raw first product:', JSON.stringify(products[0], null, 2))
   console.log('  → mapped card:', JSON.stringify(toCard(products[0] || {}), null, 2))
 
@@ -166,7 +166,7 @@ if (MODE === 'probe') {
     console.log('  sample attraction:', JSON.stringify(sampleAttraction, null, 2))
     const attractionId = sampleAttraction?.attractionId ?? sampleAttraction?.seoId
     if (attractionId) {
-      const byAttr = await searchProducts({ attractionId }, 1)
+      const { products: byAttr } = await searchProducts({ attractionId }, 1)
       attractionProduct = byAttr[0] || null
       console.log(`  first product for attractionId ${attractionId}:`, attractionProduct?.productCode || '(none)')
     }
@@ -218,7 +218,7 @@ if (MODE === 'map') {
         if (n) best = { ...n, via: 'nearest' }
       }
       if (!best || (best.via === 'nearest' && best.km > 150)) { weak.push(`${country}/${r.id} (${r.name})`); continue }
-      map[country][r.id] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, via: best.via, km: Math.round(best.km || 0) }
+      map[country][r.id] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, via: best.via, km: Math.round(best.km || 0), url: best.d.destinationUrl || best.d.url || null }
       matched++
     }
   }
@@ -259,7 +259,7 @@ if (MODE === 'mapPlaces') {
       // the place page falls back to the region's tours, no need to duplicate.
       const regionDest = regionMap[country]?.[p.regionId]?.destId
       if (best.d.destinationId === regionDest) { skipped++; continue }
-      placeMap[country][p.placeId] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, km: Math.round(best.km) }
+      placeMap[country][p.placeId] = { destId: best.d.destinationId, destName: best.d.name, type: best.d.type, km: Math.round(best.km), url: best.d.destinationUrl || best.d.url || null }
       matched++
     }
   }
@@ -279,9 +279,9 @@ for (const country of countries()) {
   for (const [regionId, m] of Object.entries(regions)) {
     if (!m?.destId) continue
     try {
-      const products = await searchProducts({ destination: String(m.destId) })
+      const { products, total } = await searchProducts({ destination: String(m.destId) })
       const tours = products.map(toCard).filter((t) => t.code && t.url)
-      writeJson(path.join(dataDir, country, 'viator', `${regionId}.json`), tours)
+      writeJson(path.join(dataDir, country, 'viator', `${regionId}.json`), { tours, total, url: m.url || null })
       tours.length ? wrote++ : empty++
       process.stdout.write(`  ${country}/${regionId} (${m.destName}) → ${tours.length}\n`)
       await sleep(120)                          // stay comfortably under 150 req / 10s
@@ -300,9 +300,9 @@ if (placeMap) {
     for (const [placeId, m] of Object.entries(placeMap[country] || {})) {
       if (!m?.destId) continue
       try {
-        const products = await searchProducts({ destination: String(m.destId) })
+        const { products, total } = await searchProducts({ destination: String(m.destId) })
         const tours = products.map(toCard).filter((t) => t.code && t.url)
-        writeJson(path.join(dataDir, country, 'viator', 'places', `${placeId}.json`), tours)
+        writeJson(path.join(dataDir, country, 'viator', 'places', `${placeId}.json`), { tours, total, url: m.url || null })
         if (tours.length) pWrote++
         process.stdout.write(`  ${country}/place/${placeId} (${m.destName}) → ${tours.length}\n`)
         await sleep(120)

@@ -28,16 +28,21 @@ export async function getRegion(id, country = 'italy') {
   return country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
 }
 
-// Viator tours baked per region by scripts/sync-viator.mjs. Missing file → [].
-// Fetched at runtime only (never prerendered) so this content stays out of the
-// static HTML — Viator content must not be search-indexed.
-export const getViatorTours = (regionId, country = 'italy') =>
-  getJSON(`${country}/viator/${regionId}.json`).then((v) => (Array.isArray(v) ? v : [])).catch(() => [])
+// Viator tours baked per region/place by scripts/sync-viator.mjs, as
+// { tours, total, url }. Fetched at runtime only (never prerendered) so this
+// content stays out of the static HTML — Viator content must not be indexed.
+const normViator = (v) => Array.isArray(v)
+  ? { tours: v, total: v.length, url: null }
+  : (v && Array.isArray(v.tours) ? { tours: v.tours, total: v.total ?? v.tours.length, url: v.url ?? null } : { tours: [], total: 0, url: null })
+const emptyViator = () => ({ tours: [], total: 0, url: null })
 
-// Place-level tours (distinct destination / attraction). Missing → []; the
-// component falls back to the parent region's tours when a place has none.
+export const getViatorTours = (regionId, country = 'italy') =>
+  getJSON(`${country}/viator/${regionId}.json`).then(normViator).catch(emptyViator)
+
+// Place-level tours (distinct destination). Missing → empty; the component
+// falls back to the parent region's tours when a place has none.
 export const getViatorPlaceTours = (placeId, country = 'italy') =>
-  getJSON(`${country}/viator/places/${placeId}.json`).then((v) => (Array.isArray(v) ? v : [])).catch(() => [])
+  getJSON(`${country}/viator/places/${placeId}.json`).then(normViator).catch(emptyViator)
 const imagesCache = new Map()
 export async function getImages(country = 'italy') {
   // Prefer live images from the builder DB (so images set in the builder show
