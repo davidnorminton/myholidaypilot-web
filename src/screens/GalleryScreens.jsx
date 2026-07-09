@@ -119,7 +119,7 @@ export function GalleryScreen() {
           <Link key={r.id} to={`/trip-ideas/${r.slug}`} className="gal__card">
             <div className="gal__media">
               {coverOf(r)
-                ? <SmartImage src={coverOf(r)} alt="" width={500} />
+                ? <SmartImage src={coverOf(r)} alt="" width={300} />
                 : <span className="gal__ph"><MapPin size={20} /></span>}
               <span className="gal__badge">{r.placeCount} place{r.placeCount === 1 ? '' : 's'} · {r.days} day{r.days === 1 ? '' : 's'}</span>
               {flag && <span className="gal__flag" aria-hidden>{flag}</span>}

@@ -1310,8 +1310,8 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 @media (max-width:560px){ .cal__months{grid-template-columns:repeat(6,1fr)} }
 
 /* festivals: two-column hero — text left, month dropdown + calendar right */
-.fest-hero{display:flex; gap:44px; align-items:flex-start}
-.fest-hero__text{flex:1; min-width:0}
+.fest-hero{display:flex; gap:44px; align-items:stretch}
+.fest-hero__text{flex:1; min-width:0; display:flex; flex-direction:column; justify-content:center}
 .fest-hero__panel{flex:1; min-width:0}
 .fest-picker{position:relative; display:flex; align-items:center; margin-bottom:14px}
 .fest-picker__ic{position:absolute; left:15px; color:var(--gold); pointer-events:none}
