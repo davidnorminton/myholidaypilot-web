@@ -17,7 +17,7 @@ export default function BeenHereButton({ regionId, countryId = 'italy', classNam
   return (
     <button className={`beenhere ${active ? 'beenhere--on' : ''} ${className}`} onClick={onClick}
       aria-pressed={active} title={active ? 'On your travel map — tap to remove' : 'Mark as visited'}>
-      <MapPinCheck size={15} /> {active ? 'Been here' : 'Been here?'}
+      <MapPinCheck size={15} /> {active ? 'I have been here' : 'Have you been here?'}
     </button>
   )
 }
