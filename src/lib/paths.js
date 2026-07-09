@@ -11,7 +11,7 @@ export const paths = {
   guide: (topic, c = COUNTRY) => `/${c}/${topic}`,
   region: (regionId, c = COUNTRY) => `/${c}/${regionId}`,
   place: (regionId, placeId, c = COUNTRY) => `/${c}/${regionId}/${placeId}`,
-  plan: () => '/plan',
+  plan: () => '/trip-planner',
   blog: () => '/blog',
   post: (slug) => `/blog/${slug}`,
   app: () => '/app',

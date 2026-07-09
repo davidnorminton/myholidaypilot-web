@@ -282,6 +282,12 @@ export function setPlaceDate(tripId, regionId, placeId, date) {
   })
 }
 
+// Mark a place as the base for the whole trip — the day picker then pre-selects
+// it on every day.
+export function setPlaceAllDays(tripId, regionId, placeId, on) {
+  updatePlace(tripId, regionId, placeId, (p) => ({ ...p, allDays: !!on }))
+}
+
 // A place counts as "locked in" once it has a day or any picks; clears when
 // everything is removed. Manual ticks still work in between.
 // Re-derive a place's done ("locked in") state from whether it's planned —

@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k -n web,api -c cyan,green \"vite\" \"node dev-server.mjs\"",
+    "dev": "concurrently -k -n web,api -c cyan,green \"vite\" \"node --watch dev-server.mjs\"",
     "build": "node scripts/sync-images.mjs || true; node scripts/sync-details.mjs || true; node scripts/sync-viator.mjs || true; node scripts/bake-card-images.mjs && vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
     "db:generate": "drizzle-kit generate",

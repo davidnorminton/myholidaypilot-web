@@ -17,7 +17,13 @@ async function req(method, path, body) {
     headers: { 'Content-Type': 'application/json', ...authHeader },
     body: body ? JSON.stringify(body) : undefined,
   })
-  if (!res.ok) throw new Error((await res.json().catch(() => ({})))?.error || res.statusText)
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}))
+    // In local dev the API includes the stack for unexpected errors — surface
+    // the failing line so bugs point at themselves.
+    const where = data?.stack && import.meta.env.DEV ? ` @ ${String(data.stack).split('\n')[1]?.trim() || ''}` : ''
+    throw new Error((data?.error || res.statusText) + where)
+  }
   return res.status === 204 ? null : res.json()
 }
 

@@ -1,12 +1,12 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble, Plane, TrainFront, ChevronRight } from 'lucide-react'
+import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble, Plane, TrainFront, ChevronRight, Trash2 } from 'lucide-react'
 import { paths } from '../lib/paths.js'
 import { typeLabel, mapsUrl } from '../lib/format.js'
 import TripStory from './TripStory.jsx'
 import TripReview from './TripReview.jsx'
 import { useFrontendAi } from '../lib/settings.js'
-import { movePlaceTo, addPlace, setPlaceDate, stayForDay } from '../lib/trips.js'
+import { movePlaceTo, addPlace, setPlaceDate, stayForDay, removePlace } from '../lib/trips.js'
 import MapView from './MapView.jsx'
 import { bestRoute, kmBetween as legKm } from '../lib/route.js'
 import { dayWeather } from '../lib/weather.js'
@@ -362,7 +362,7 @@ export default function Itinerary({ trip, onPlan }) {
             <span className="iday__where">{unscheduled.length} {unscheduled.length === 1 ? 'place' : 'places'} — drag onto a day, or open one to pick</span>
           </header>
           <div className="iday__places">
-            {unscheduled.map((p) => <ItinPlace country={trip.countryId} key={keyOf(p)} p={p} onPlan={onPlan} {...cardState(p, '')} />)}
+            {unscheduled.map((p) => <ItinPlace country={trip.countryId} key={keyOf(p)} p={p} onPlan={onPlan} onRemove={() => removePlace(trip.id, p.regionId, p.placeId)} {...cardState(p, '')} />)}
           </div>
         </section>
       )}
@@ -382,7 +382,7 @@ export default function Itinerary({ trip, onPlan }) {
   )
 }
 
-function ItinPlace({ p, country, onPlan, dragging, dropBefore, onGrip, live = false }) {
+function ItinPlace({ p, country, onPlan, dragging, dropBefore, onGrip, live = false , onRemove }) {
   const nothing = !(p.attractions?.length) && !(p.restaurants?.length)
   return (
     <article data-key={keyOf(p)} data-day={p.date || ''}
@@ -401,6 +401,7 @@ function ItinPlace({ p, country, onPlan, dragging, dropBefore, onGrip, live = fa
           </a>
         )}
         <button className="ip__edit" onClick={() => onPlan(p)}><Pencil size={13} /> Edit</button>
+        {onRemove && <button className="ip__edit ip__remove" onClick={onRemove} aria-label={`Remove ${p.name}`}><Trash2 size={13} /> Delete</button>}
       </div>
       {p.attractions?.length > 0 && (
         <div className="ip__group">

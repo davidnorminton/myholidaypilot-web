@@ -19,9 +19,16 @@ export async function readBody(req) {
 export function fail(status, message) { const e = new Error(message); e.status = status; return e }
 
 // Wraps a handler with JSON error handling so routes can just `throw fail(...)`.
+// Unexpected (non-fail) errors are logged with their stack, and in local dev
+// the stack rides along in the response so the client can show where it broke.
+const isProd = process.env.NODE_ENV === 'production' ||
+  (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'development')
 export function handler(fn) {
   return async (req, res) => {
     try { await fn(req, res) }
-    catch (e) { send(res, e.status || 500, { error: e.message || 'Server error' }) }
+    catch (e) {
+      if (!e.status) console.error(`[api] ${req.method} ${req.url || ''} —`, e.stack || e)
+      send(res, e.status || 500, { error: e.message || 'Server error', ...(!isProd && !e.status ? { stack: e.stack } : {}) })
+    }
   }
 }

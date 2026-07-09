@@ -3,7 +3,6 @@ import { Routes, Route, Navigate, useParams } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 // Eager: the content pages that are the common entry points / first paint.
-import TripPlannerScreen from './screens/TripPlannerScreen.jsx'
 import LandingScreen from './screens/LandingScreen.jsx'
 import CountriesScreen from './screens/CountriesScreen.jsx'
 import ItalyHubScreen from './screens/ItalyHubScreen.jsx'
@@ -48,7 +47,6 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<LandingScreen />} />
-          <Route path="/trip-planner" element={<TripPlannerScreen />} />
           <Route path="/destinations" element={<CountriesScreen />} />
           <Route path="/:country" element={<ItalyHubScreen />} />
           <Route path="/:country/regions" element={<RegionsScreen />} />
@@ -71,7 +69,8 @@ export default function App() {
           <Route path="/account" element={<RequireAuth><AccountScreen /></RequireAuth>} />
           <Route path="/account/:section" element={<RequireAuth><AccountScreen /></RequireAuth>} />
           <Route path="/trip/:code" element={<SharedTripScreen />} />
-          <Route path="/plan" element={<RequireAuth><PlanScreen /></RequireAuth>} />
+          <Route path="/trip-planner" element={<RequireAuth><PlanScreen /></RequireAuth>} />
+          <Route path="/plan" element={<Navigate to="/trip-planner" replace />} />
           <Route path="/blog" element={<BlogScreen />} />
           <Route path="/contact" element={<ContactScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />

@@ -5,7 +5,7 @@ import {
 } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { useSettings } from '../lib/settings.js'
-import { getPlacesIndex } from '../lib/data.js'
+import { getImages } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { importGalleryTrip } from '../lib/trips.js'
 import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
@@ -39,13 +39,20 @@ export function GalleryScreen() {
     setRows(null)
     api.gallery.list(country === 'all' ? undefined : country).then(async (list) => {
       setRows(list)
-      // cover images come from each trip's country places-index
+      // Cover images come from each country's images.json (regionId → placeId
+      // → [{url}]), the same source place pages use. The places-index doesn't
+      // carry images, so it can't be the lookup.
       const slugs = country === 'all'
         ? [...new Set((list || []).map((r) => r.countryId).filter(Boolean))]
         : [country]
-      slugs.forEach((slug) => getPlacesIndex(slug).then((idx) => {
+      slugs.forEach((slug) => getImages(slug).then((all) => {
         const m = {}
-        for (const pl of (idx || [])) if (pl.image) m[`${pl.regionId}/${pl.placeId}`] = pl.image
+        for (const [regionId, places] of Object.entries(all || {})) {
+          for (const [placeId, arr] of Object.entries(places || {})) {
+            const u = arr?.[0]?.url
+            if (u) m[`${regionId}/${placeId}`] = u
+          }
+        }
         setImages((prev) => ({ ...prev, ...m }))
       }).catch(() => {}))
     }).catch(() => setRows([]))
