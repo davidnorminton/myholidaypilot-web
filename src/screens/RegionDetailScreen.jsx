@@ -165,10 +165,14 @@ export default function RegionDetailScreen() {
 
         {tab === 'about' && (
           <div className="about">
-            <AboutBlock title="History" text={region.history} />
-            <AboutBlock title="Culture & traditions" text={region.culturalNotes} />
-            <AboutBlock title="Language & dialect" text={region.languageNotes} />
-            <AboutBlock title="Best time to visit" text={region.bestTimeToVisit} />
+            {[
+              { title: 'History', text: region.history },
+              { title: 'Culture & traditions', text: region.culturalNotes },
+              { title: 'Language & dialect', text: region.languageNotes },
+              { title: 'Best time to visit', text: region.bestTimeToVisit },
+            ].filter((b) => b.text).map((b, i) => (
+              <AboutBlock key={b.title} title={b.title} text={b.text} index={i} />
+            ))}
           </div>
         )}
 
@@ -186,11 +190,16 @@ export default function RegionDetailScreen() {
   )
 }
 
-function AboutBlock({ title, text }) {
+// Hub-card palette, reused for the About title panels.
+const ABOUT_BG = ['#fe9ee8', '#fecf1e', '#87d2fe', '#9ee8a4', '#fec89e', '#c3a9fe']
+
+function AboutBlock({ title, text, index = 0 }) {
   if (!text) return null
   return (
-    <section className="about__block">
-      <h3 className="about__title">{title}</h3>
+    <section className={`about__block ${index % 2 === 1 ? 'about__block--flip' : ''}`}>
+      <div className="about__panel" style={{ background: ABOUT_BG[index % ABOUT_BG.length] }}>
+        <h3 className="about__title">{title}</h3>
+      </div>
       <p className="about__text">{text}</p>
     </section>
   )

@@ -86,6 +86,18 @@ export default function GuideScreen({ topic }) {
   const sections = Array.isArray(data.sections) ? data.sections : []
   const isTimeline = sections.some((s) => (s.items || []).length > 0) && sections.every((s) => (s.items || []).every((it) => it.kind === 'era'))
 
+  if (isFestivals && data.festivals.length > 0) {
+    return (
+      <div className="page">
+        <FestivalsCalendar
+          festivals={data.festivals} regionMap={regionMap} country={country}
+          title={data.title} subtitle={data.subtitle || data.intro}
+          eyebrow={data.eyebrow || cmeta?.name} backLabel={cmeta?.name}
+        />
+      </div>
+    )
+  }
+
   return (
     <div className="page">
       <header className="sub-hero wrap">
@@ -95,10 +107,6 @@ export default function GuideScreen({ topic }) {
       </header>
 
       <main className="wrap guide">
-        {isFestivals && data.festivals.length > 0 && (
-          <FestivalsCalendar festivals={data.festivals} regionMap={regionMap} country={country} />
-        )}
-
         {isTimeline && <Timeline items={sections.flatMap((s) => s.items)} />}
 
         {!isTimeline && sections.length > 0 && (

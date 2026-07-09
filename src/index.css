@@ -151,10 +151,15 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .resto__order{font-size:13.5px; color:var(--muted); margin:0}
 .resto__order b{color:var(--ink-soft); font-weight:600}
 
-.about{max-width:680px; display:grid; gap:28px}
-.about__block{border-left:3px solid color-mix(in srgb,var(--accent) 60%,var(--line)); padding-left:20px}
-.about__title{font-family:var(--sans); font-weight:800; font-size:26px; margin:0 0 8px}
-.about__text{font-size:16px; line-height:1.7; color:var(--ink-soft); margin:0}
+.about{display:flex; flex-direction:column; gap:20px}
+.about__block{display:flex; align-items:stretch; overflow:hidden}
+.about__text{flex:1; order:1; margin:0; padding:28px 32px; background:var(--surface-2);
+  font-size:16px; line-height:1.7; color:var(--ink-soft)}
+.about__panel{flex:0 0 42%; order:2; display:flex; align-items:center; padding:28px 32px}
+.about__title{font-family:var(--sans); font-weight:800; font-size:26px; line-height:1.12; margin:0; color:#000}
+.about__block--flip .about__text{order:2}
+.about__block--flip .about__panel{order:1}
+@media (max-width:640px){ .about__block{flex-direction:column} .about__text, .about__panel{flex:auto; order:0} }
 
 /* ── Place detail ──────────────────────────────────────── */
 .pd-hero{position:sticky; top:0; z-index:0; min-height:clamp(340px,52vh,520px); display:flex; align-items:flex-end; overflow:hidden; background:linear-gradient(160deg, color-mix(in srgb,var(--accent) 55%,var(--ink)), var(--ink))}
@@ -1303,6 +1308,21 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 .cal__empty{text-align:center; padding:40px 20px; background:var(--surface-2); border:1px dashed var(--line); border-radius:var(--r); color:var(--muted)}
 .cal__empty-emoji{font-size:36px; display:block; margin-bottom:8px}
 @media (max-width:560px){ .cal__months{grid-template-columns:repeat(6,1fr)} }
+
+/* festivals: two-column hero — text left, month dropdown + calendar right */
+.fest-hero{display:flex; gap:44px; align-items:flex-start}
+.fest-hero__text{flex:1; min-width:0}
+.fest-hero__panel{flex:none; width:min(440px,44vw)}
+.fest-picker{position:relative; display:flex; align-items:center; margin-bottom:14px}
+.fest-picker__ic{position:absolute; left:15px; color:var(--gold); pointer-events:none}
+.fest-picker__select{width:100%; appearance:none; -webkit-appearance:none; margin:0; padding:14px 44px;
+  font-family:var(--sans); font-size:16px; font-weight:700; color:var(--ink); background:var(--surface);
+  border:1px solid var(--line); border-radius:12px; box-shadow:var(--shadow); cursor:pointer}
+.fest-picker__select:hover{border-color:var(--gold)}
+.fest-picker__chev{position:absolute; right:14px; color:var(--muted); pointer-events:none}
+.fest-cal{max-width:none; width:100%}
+.fest-below{margin-top:6px}
+@media (max-width:860px){ .fest-hero{flex-direction:column; gap:22px} .fest-hero__panel{width:100%; max-width:440px} }
 
 /* festival cards */
 .fest-list{display:flex; flex-direction:column; gap:10px}

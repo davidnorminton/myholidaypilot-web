@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ChevronLeft, ChevronRight, ChevronDown, CalendarRange } from 'lucide-react'
+import { ArrowLeft, ChevronDown, CalendarRange } from 'lucide-react'
 import { paths } from '../lib/paths.js'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -20,7 +20,7 @@ function dateLabel(f) {
   return `${f.dayStart} ${ms}`
 }
 
-export default function FestivalsCalendar({ festivals, regionMap = {}, country = 'italy' }) {
+export default function FestivalsCalendar({ festivals, regionMap = {}, country = 'italy', title, subtitle, eyebrow, backLabel }) {
   const now = new Date()
   const year = now.getFullYear()
   const [month, setMonth] = useState(now.getMonth() + 1) // 1-12
@@ -49,7 +49,6 @@ export default function FestivalsCalendar({ festivals, regionMap = {}, country =
 
   const shown = day == null ? monthFests : monthFests.filter((f) => f.dayStart != null && day >= f.dayStart && day <= (f.dayEnd ?? f.dayStart))
 
-  const go = (delta) => { setMonth((m) => ((m - 1 + delta + 12) % 12) + 1); setDay(null) }
   const pickMonth = (m) => { setMonth(m); setDay(null) }
 
   const lead = firstWeekday(year, month)
@@ -61,56 +60,66 @@ export default function FestivalsCalendar({ festivals, regionMap = {}, country =
   const today = month === now.getMonth() + 1 ? now.getDate() : null
 
   return (
-    <div className="cal">
-      <div className="cal__nav">
-        <button className="cal__arrow" onClick={() => go(-1)} aria-label="Previous month"><ChevronLeft size={20} /></button>
-        <div className="cal__title"><CalendarRange size={16} /> {MONTHS[month - 1]} <span className="cal__year">{year}</span></div>
-        <button className="cal__arrow" onClick={() => go(1)} aria-label="Next month"><ChevronRight size={20} /></button>
-      </div>
-
-      <div className="cal__months">
-        {ABBR.map((m, i) => (
-          <button key={m} className={`cal__month ${i + 1 === month ? 'is-on' : ''} ${counts[i + 1] ? 'has-ev' : ''}`} onClick={() => pickMonth(i + 1)}>
-            {m}{counts[i + 1] > 0 && <span className="cal__dot">{counts[i + 1]}</span>}
-          </button>
-        ))}
-      </div>
-
-      <div className="cal__grid">
-        <div className="cal__dows">{DOW.map((d, i) => <span key={i}>{d}</span>)}</div>
-        {weeks.map((wk, wi) => (
-          <div className="cal__week" key={wi}>
-            {wk.map((d, di) => {
-              if (d == null) return <span key={di} className="cal__cell cal__cell--empty" />
-              const hasEv = eventDays.has(d)
-              const sel = d === day
-              const isToday = d === today
-              return (
-                <button key={di}
-                  className={`cal__cell ${hasEv ? 'has-ev' : ''} ${sel ? 'is-sel' : ''} ${isToday && !sel ? 'is-today' : ''}`}
-                  onClick={hasEv ? () => setDay(sel ? null : d) : undefined}
-                  disabled={!hasEv} aria-label={`${d} ${MONTHS[month - 1]}`}>
-                  {d}
-                </button>
-              )
-            })}
-          </div>
-        ))}
-      </div>
-
-      <p className="cal__hint">
-        {day != null ? <>Showing {day} {MONTHS[month - 1]} · <button className="cal__clear" onClick={() => setDay(null)}>clear</button></>
-          : `${monthFests.length} event${monthFests.length === 1 ? '' : 's'} in ${MONTHS[month - 1]}`}
-      </p>
-
-      {shown.length > 0 ? (
-        <div className="fest-list">
-          {shown.map((f) => <FestCard country={country} key={f.id} f={f} region={regionMap[f.regionId]} highlighted={day != null} />)}
+    <>
+      <header className="sub-hero wrap fest-hero">
+        <div className="fest-hero__text">
+          <p className="eyebrow"><Link to={paths.country(country)} className="eyebrow__link">{eyebrow}</Link></p>
+          <h1 className="sub-hero__title">{title}</h1>
+          {subtitle && <p className="sub-hero__sub">{subtitle}</p>}
         </div>
-      ) : (
-        <div className="cal__empty"><span className="cal__empty-emoji">🎭</span><p>No events this month.</p></div>
-      )}
-    </div>
+
+        <div className="fest-hero__panel">
+          <div className="fest-picker">
+            <CalendarRange size={18} className="fest-picker__ic" />
+            <select className="fest-picker__select" value={month} onChange={(e) => pickMonth(Number(e.target.value))} aria-label="Choose month">
+              {MONTHS.map((m, i) => (
+                <option key={m} value={i + 1}>{m} {year}{counts[i + 1] ? ` — ${counts[i + 1]} event${counts[i + 1] === 1 ? '' : 's'}` : ''}</option>
+              ))}
+            </select>
+            <ChevronDown size={18} className="fest-picker__chev" />
+          </div>
+
+          <div className="cal__grid fest-cal">
+            <div className="cal__dows">{DOW.map((d, i) => <span key={i}>{d}</span>)}</div>
+            {weeks.map((wk, wi) => (
+              <div className="cal__week" key={wi}>
+                {wk.map((d, di) => {
+                  if (d == null) return <span key={di} className="cal__cell cal__cell--empty" />
+                  const hasEv = eventDays.has(d)
+                  const sel = d === day
+                  const isToday = d === today
+                  return (
+                    <button key={di}
+                      className={`cal__cell ${hasEv ? 'has-ev' : ''} ${sel ? 'is-sel' : ''} ${isToday && !sel ? 'is-today' : ''}`}
+                      onClick={hasEv ? () => setDay(sel ? null : d) : undefined}
+                      disabled={!hasEv} aria-label={`${d} ${MONTHS[month - 1]}`}>
+                      {d}
+                    </button>
+                  )
+                })}
+              </div>
+            ))}
+          </div>
+        </div>
+      </header>
+
+      <main className="wrap fest-below">
+        <p className="cal__hint">
+          {day != null ? <>Showing {day} {MONTHS[month - 1]} · <button className="cal__clear" onClick={() => setDay(null)}>clear</button></>
+            : `${monthFests.length} event${monthFests.length === 1 ? '' : 's'} in ${MONTHS[month - 1]}`}
+        </p>
+
+        {shown.length > 0 ? (
+          <div className="fest-list">
+            {shown.map((f) => <FestCard country={country} key={f.id} f={f} region={regionMap[f.regionId]} highlighted={day != null} />)}
+          </div>
+        ) : (
+          <div className="cal__empty"><span className="cal__empty-emoji">🎭</span><p>No events this month.</p></div>
+        )}
+
+        <Link to={paths.country(country)} className="back" style={{ marginTop: 18 }}><ArrowLeft size={17} /> Back to {backLabel || 'destinations'}</Link>
+      </main>
+    </>
   )
 }
 
