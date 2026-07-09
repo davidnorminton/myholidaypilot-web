@@ -16,7 +16,6 @@ const PlanScreen = lazy(() => import('./screens/PlanScreen.jsx'))
 const BlogScreen = lazy(() => import('./screens/BlogScreen.jsx'))
 const ContactScreen = lazy(() => import('./screens/ContactScreen.jsx'))
 const BlogPostScreen = lazy(() => import('./screens/BlogPostScreen.jsx'))
-const AppScreen = lazy(() => import('./screens/AppScreen.jsx'))
 const AdminScreen = lazy(() => import('./screens/AdminScreen.jsx'))
 const SavedScreen = lazy(() => import('./screens/SavedScreen.jsx'))
 const TripsScreen = lazy(() => import('./screens/TripsScreen.jsx'))
@@ -74,7 +73,6 @@ export default function App() {
           <Route path="/blog" element={<BlogScreen />} />
           <Route path="/contact" element={<ContactScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />
-          <Route path="/app" element={<AppScreen />} />
           <Route path="/admin" element={<AdminScreen />} />
           <Route path="*" element={<NotFoundScreen />} />
         </Route>

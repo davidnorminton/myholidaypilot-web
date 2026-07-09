@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h3>Discover</h3>
-            <Link to={paths.app()}>Get the app</Link>
+            <Link to="/featured-destinations">Featured destinations</Link>
             <Link to={paths.saved()}>Saved places</Link>
             <Link to={paths.account()}>My home</Link>
           </div>

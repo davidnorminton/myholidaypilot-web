@@ -76,7 +76,6 @@ export function buildSitemap({ url, regions = [], places = [], posts = [], galle
   add('/trip-ideas', '0.7')
   add('/featured-destinations', '0.6')
   gallery.forEach((g) => add(`/trip-ideas/${g.slug}`, '0.6'))
-  add('/app', '0.5')
 
   const body = rows.map((u) =>
     `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')

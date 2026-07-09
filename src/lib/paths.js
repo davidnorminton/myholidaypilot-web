@@ -14,7 +14,6 @@ export const paths = {
   plan: () => '/trip-planner',
   blog: () => '/blog',
   post: (slug) => `/blog/${slug}`,
-  app: () => '/app',
   admin: () => '/admin',
   saved: () => '/saved',
   trips: () => '/trips',

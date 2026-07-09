@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Menu, X, Compass, Wand2, Car, Lightbulb, BookOpen, Route as RouteIcon } from 'lucide-react'
+import { Menu, X, Compass, Star, Wand2, Car, Lightbulb, BookOpen, Route as RouteIcon } from 'lucide-react'
 import Logo from './Logo.jsx'
 import { paths } from '../lib/paths.js'
 import AuthButton from './AuthButton.jsx'
@@ -17,6 +17,7 @@ const HEADER_LINKS = [
 
 const LINKS = [
   { to: paths.destinations(), label: 'Destinations', icon: Compass },
+  { to: '/featured-destinations', label: 'Featured destinations', icon: Star },
   { to: paths.plan(), label: 'Trip planner', icon: RouteIcon },
   { to: paths.guided(), label: 'Guided planner', icon: Wand2 },
   { to: paths.dayTrips(), label: 'Day trips', icon: Car },
