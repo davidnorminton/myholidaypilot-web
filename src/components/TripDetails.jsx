@@ -22,8 +22,10 @@ export default function TripDetails({ details, title = 'Plan your trip' }) {
         <div className="tripdetails__grid">
           {cells.map((c) => (
             <div key={c.label} className="tripdetails__cell">
-              <span className="tripdetails__chip"><c.icon size={16} /></span>
-              <h3>{c.label}</h3>
+              <div className="tripdetails__cellhead">
+                <span className="tripdetails__chip"><c.icon size={30} /></span>
+                <h3>{c.label}</h3>
+              </div>
               <p>{c.text}</p>
             </div>
           ))}

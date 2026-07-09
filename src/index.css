@@ -40,7 +40,7 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .foot{color:var(--faint); font-size:13px; padding-block:40px 0; border-top:1px solid var(--line-soft); margin-top:40px}
 
 /* ── Home hero ─────────────────────────────────────────── */
-.hero{padding-top:clamp(48px,8vw,104px); margin-bottom:clamp(28px,4vw,48px)}
+.hero{padding-top:clamp(48px,8vw,104px); margin-bottom:25px}
 .hero__title{
   font-family:var(--sans); font-weight:800; line-height:.92;
   font-size:clamp(72px,15vw,168px); letter-spacing:-.01em; margin:0;
@@ -2950,11 +2950,12 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .tripdetails__title{font-family:var(--sans); font-size:clamp(24px,3.2vw,32px); margin:0 0 10px}
 .tripdetails__intro{color:var(--muted); max-width:72ch; font-size:16px; line-height:1.65; margin:0 0 20px}
 .tripdetails__grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:14px; margin-bottom:24px}
-.tripdetails__cell{position:relative; padding:18px 18px 16px; background:var(--surface-2); border:1px solid var(--line); border-radius:16px; transition:transform .16s ease, box-shadow .16s ease}
+.tripdetails__cell{position:relative; padding:18px 18px 16px; background:var(--surface-2); border:1px solid var(--line); border-radius:0; transition:transform .16s ease, box-shadow .16s ease}
 .tripdetails__cell:hover{transform:translateY(-2px); box-shadow:0 8px 22px rgba(30,25,18,.08)}
-.tripdetails__chip{display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:10px;
-  background:color-mix(in srgb, var(--accent, var(--gold)) 14%, #fff); color:var(--accent, var(--gold)); margin-bottom:10px}
-.tripdetails__cell h3{font-size:14.5px; margin:0 0 6px}
+.tripdetails__cellhead{display:flex; align-items:center; gap:10px; margin-bottom:8px}
+.tripdetails__chip{display:inline-flex; align-items:center; justify-content:center; flex:none; color:var(--accent, var(--gold))}
+.tripdetails__chip svg{width:30px; height:30px}
+.tripdetails__cell h3{font-size:22px; margin:0; line-height:1.15}
 .tripdetails__cell p{font-size:14px; color:var(--muted); line-height:1.6; margin:0}
 .tripdetails__sub{font-family:var(--sans); font-size:20px; margin:0 0 14px}
 /* itinerary timeline */

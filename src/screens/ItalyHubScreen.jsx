@@ -62,7 +62,6 @@ export default function ItalyHubScreen() {
       </header>
 
       <main className="wrap">
-        <TripDetails details={details} title={`Plan your trip to ${meta?.name || ''}`} />
         <div className="hub-grid">
           {(sections || []).map((s, i) => (
             <Link
@@ -75,11 +74,12 @@ export default function ItalyHubScreen() {
               <span className="hub-card__body">
                 <span className="hub-card__title">{s.title}</span>
                 <span className="hub-card__blurb">{s.blurb}</span>
-                <span className="hub-card__go">View all <ArrowRight size={15} /></span>
+                <span className="hub-card__go">{s.id === 'plan' ? 'Plan your trip' : 'View all'} <ArrowRight size={15} /></span>
               </span>
             </Link>
           ))}
         </div>
+        <TripDetails details={details} title={`Plan your trip to ${meta?.name || ''}`} />
       </main>
     </div>
   )
