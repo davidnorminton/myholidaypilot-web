@@ -20,6 +20,7 @@ import { useAffiliates, regionOffers } from '../lib/affiliates.js'
 
 const TABS = [
   { id: 'places', label: 'Places to visit' },
+  { id: 'do', label: 'Things to do' },
   { id: 'plan', label: 'Plan your trip' },
   { id: 'eat', label: 'Where to eat' },
   { id: 'about', label: 'About' },
@@ -67,28 +68,31 @@ export default function RegionDetailScreen() {
 
   return (
     <div className="page" style={{ '--accent': accent }}>
-      <div className={`rd-hero ${heroImage ? 'rd-hero--img' : ''}`}>
-        {heroImage && <>
-          <img className="rd-hero__bg" src={imgUrl(heroImage, 1600)} alt={region.name} loading="eager" fetchPriority="high" decoding="async" />
-          <div className="rd-hero__veil" />
-        </>}
-        <div className="wrap">
-          <Link to={paths.country(country)} className="back"><ArrowLeft size={17} /> All regions</Link>
-          <div className="rd-hero__head">
-            <div>
-              <h1 className="rd-hero__name">{region.name} <BeenHereButton regionId={regionId} /></h1>
-              <p className="rd-hero__meta">
-                <span><MapPin size={14} /> {region.capital}</span>
-                {region.bestTimeToVisit && (
-                  <span className="rd-hero__when"><CalendarRange size={14} /> {shortBestTime(region.bestTimeToVisit)}</span>
-                )}
-              </p>
-            </div>
+      <header className={`sub-hero wrap plan-hero plan-hero--bleed place-hero ${heroImage ? '' : 'place-hero--noimg'}`}>
+        <div className="plan-hero__text">
+          <Link to={paths.country(country)} className="place-hero__crumb">
+            <ArrowLeft size={15} /> All {countryName} regions
+          </Link>
+          <h1 className="sub-hero__title">{region.name}</h1>
+          {region.nameIt && region.nameIt !== region.name && <p className="place-hero__alt">{region.nameIt}</p>}
+          <p className="place-hero__meta">
+            <span><MapPin size={15} /> {region.capital}</span>
+            {region.bestTimeToVisit && <span><CalendarRange size={15} /> {shortBestTime(region.bestTimeToVisit)}</span>}
+          </p>
+          {region.details?.intro && <p className="sub-hero__sub">{region.details.intro}</p>}
+          <div className="place-hero__actions">
+            <BeenHereButton regionId={regionId} countryId={country} className="pd-action" />
           </div>
         </div>
-      </div>
+        {heroImage && (
+          <div className="plan-hero__media">
+            <img src={imgUrl(heroImage, 1200)} alt={region.name} loading="eager" fetchPriority="high" decoding="async"
+              onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+          </div>
+        )}
+      </header>
 
-      <div className={heroImage ? 'rd-sheet' : ''}>
+      <div className="pd-sheet">
       <nav className="tabs wrap">
         {TABS.map((t) => (
           <button
@@ -126,6 +130,10 @@ export default function RegionDetailScreen() {
               ))}
             </div>
           </>
+        )}
+
+        {tab === 'do' && (
+          <ViatorTours country={country} regionId={regionId} name={region.name} embedded />
         )}
 
         {tab === 'plan' && (
@@ -180,7 +188,6 @@ export default function RegionDetailScreen() {
           </div>
         )}
 
-        <ViatorTours country={country} regionId={regionId} name={region.name} />
         {aff && (
           <AffiliateSection
             title={`Plan your trip to ${region.name}`}
