@@ -177,14 +177,15 @@ export default function RegionDetailScreen() {
             <AboutBlock title="Culture & traditions" text={region.culturalNotes} />
             <AboutBlock title="Language & dialect" text={region.languageNotes} />
             <AboutBlock title="Best time to visit" text={region.bestTimeToVisit} />
-            <ViatorTours country={country} regionId={regionId} name={region.name} />
-            {aff && (
-              <AffiliateSection
-                title={`Plan your trip to ${region.name}`}
-                offers={regionOffers(aff, { regionId, regionName: region.name, capital: region.capital })}
-              />
-            )}
           </div>
+        )}
+
+        <ViatorTours country={country} regionId={regionId} name={region.name} />
+        {aff && (
+          <AffiliateSection
+            title={`Plan your trip to ${region.name}`}
+            offers={regionOffers(aff, { regionId, regionName: region.name, capital: region.capital })}
+          />
         )}
 
         <CommentsSection countryId={country} targetType="region" regionId={regionId} areaName={region.name} />

@@ -10,7 +10,7 @@ import { useAuth } from '../lib/auth.jsx'
 // Adding a place used to silently toggle it on the *active* trip. Now the
 // button opens a picker so you can choose which of your trips to add it to
 // (or spin up a new one) — the place can live in several trips at once.
-export default function AddToTrip({ place, compact = false, countryId }) {
+export default function AddToTrip({ place, compact = false, countryId, triggerClass }) {
   const { user } = useAuth()
   const snap = useTrips()
   const [open, setOpen] = useState(false)
@@ -45,13 +45,15 @@ export default function AddToTrip({ place, compact = false, countryId }) {
   return (
     <div className="addtrip">
       <button
-        className={`btn-add ${inCount ? 'btn-add--on' : ''} ${compact ? 'btn-add--sm' : ''}`}
+        className={triggerClass
+          ? `${triggerClass} ${inCount ? 'is-on' : ''}`
+          : `btn-add ${inCount ? 'btn-add--on' : ''} ${compact ? 'btn-add--sm' : ''}`}
         onClick={openPicker}
       >
         {inCount ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}
         {inCount ? `In ${inCount} trip${inCount > 1 ? 's' : ''}` : 'Add to trip'}
       </button>
-      {snap.trips.length > 0 && <Link to={paths.plan()} className="addtrip__manage">Plan</Link>}
+      {!triggerClass && snap.trips.length > 0 && <Link to={paths.plan()} className="addtrip__manage">Plan</Link>}
 
       {open && createPortal(
         <div className="pk__backdrop" onClick={() => setOpen(false)}>

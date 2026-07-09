@@ -8,7 +8,7 @@ import { getViatorTours, getViatorPlaceTours } from '../lib/data.js'
 // is disallowed in robots.txt, so Viator's unique content stays out of the
 // search index — a contractual requirement. Renders nothing until tours load.
 // With a placeId, shows that place's tours, falling back to the region's.
-export default function ViatorTours({ country, regionId, placeId, name }) {
+export default function ViatorTours({ country, regionId, placeId, name, embedded = false }) {
   const [tours, setTours] = useState(null)
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function ViatorTours({ country, regionId, placeId, name }) {
   return (
     <section className="viator" data-nosnippet aria-label={`Tours and activities in ${name}`}>
       <div className="viator__head">
-        <h2 className="viator__title">Things to do in {name}</h2>
+        {!embedded && <h2 className="viator__title">Things to do in {name}</h2>}
         <span className="viator__note">Tours by Viator — booking may earn us a commission, at no extra cost to you.</span>
       </div>
       <div className="viator__grid">

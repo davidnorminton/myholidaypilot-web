@@ -1,12 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { ArrowLeft, MapPin, Compass, UtensilsCrossed, Sparkles, ArrowUpRight, ChevronRight, Info } from 'lucide-react'
+import { ArrowLeft, Compass, UtensilsCrossed, Sparkles } from 'lucide-react'
 import { getRegion, placeImages } from '../lib/data.js'
-import { regionColour, typeLabel, mapsUrl } from '../lib/format.js'
+import { regionColour } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 import { imgUrl } from '../lib/imgUrl.js'
-import MapView from '../components/MapView.jsx'
-import Carousel from '../components/Carousel.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
 import ViatorTours from '../components/ViatorTours.jsx'
 import SaveButton from '../components/SaveButton.jsx'
@@ -70,39 +68,40 @@ export default function PlaceDetailScreen() {
 
   const hero = place?.image || images[0]?.url || settings?.defaultPlaceImage
   const viewTabs = [
-    { id: 'info', label: 'Info', icon: Info },
-    ...(place.activities?.length ? [{ id: 'do', label: 'Things to do', icon: Compass, count: place.activities.length }] : []),
+    { id: 'do', label: 'Things to do', icon: Compass },
     ...(place.food?.length ? [{ id: 'eat', label: 'What to eat', icon: UtensilsCrossed, count: place.food.length }] : []),
     ...(place.culture?.length ? [{ id: 'colour', label: 'Local tips', icon: Sparkles, count: place.culture.length }] : []),
   ]
-  const active = tab && viewTabs.some((t) => t.id === tab) ? tab : 'info'
+  const active = tab && viewTabs.some((t) => t.id === tab) ? tab : 'do'
 
   return (
     <div className="page place" style={{ '--accent': accent }}>
-      <header className={`pd-hero ${hero ? '' : 'pd-hero--noimg'}`}>
-        {hero && <img className="pd-hero__img" src={imgUrl(hero, 1600)} alt={place.name} loading="eager" fetchPriority="high" decoding="async" onError={(e) => { e.currentTarget.style.display = 'none' }} />}
-        {hero && <div className="pd-hero__veil" />}
-        <SaveButton regionId={regionId} placeId={placeId} className="pd-save" label />
-        <div className="wrap pd-hero__content">
-          <div className="pd-hero__bottom">
-            <span className="chip chip--solid">{typeLabel(place.type)}</span>
-            <h1 className="pd-hero__name">{place.name}</h1>
-            {place.nameIt && place.nameIt !== place.name && (
-              <p className="pd-hero__alt">{place.nameIt}</p>
-            )}
+      <header className={`sub-hero wrap plan-hero plan-hero--bleed place-hero ${hero ? '' : 'place-hero--noimg'}`}>
+        <div className="plan-hero__text">
+          <Link to={paths.region(regionId, country)} className="place-hero__crumb">
+            <ArrowLeft size={15} /> <span aria-hidden>{region.emoji}</span> {region.name}
+          </Link>
+          <h1 className="sub-hero__title">{place.name}</h1>
+          {place.nameIt && place.nameIt !== place.name && <p className="place-hero__alt">{place.nameIt}</p>}
+          {place.description && <p className="sub-hero__sub">{place.description}</p>}
+          <div className="place-hero__actions">
+            <SaveButton regionId={regionId} placeId={placeId} className="pd-action" label />
+            <AddToTrip
+              place={{ regionId, placeId, name: place.name, regionName: region.name, type: place.type, image: hero }}
+              countryId={country}
+              triggerClass="pd-action"
+            />
           </div>
         </div>
+        {hero && (
+          <div className="plan-hero__media">
+            <img src={imgUrl(hero, 1200)} alt={place.name} loading="eager" fetchPriority="high" decoding="async"
+              onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+          </div>
+        )}
       </header>
 
       <div className="pd-sheet">
-        <nav className="wrap pd-crumb">
-          <Link to={paths.region(regionId, country)} className="pd-crumb__back">
-            <span className="pd-crumb__emoji" aria-hidden>{region.emoji}</span>
-            {region.name}
-          </Link>
-          <ChevronRight size={14} className="pd-crumb__sep" aria-hidden />
-          <span className="pd-crumb__here">{place.name}</span>
-        </nav>
         <main className="wrap pd-body">
           <nav className="tabs pd-tabs">
             {viewTabs.map((t) => {
@@ -117,50 +116,10 @@ export default function PlaceDetailScreen() {
           </nav>
 
           <div className="pd-panel">
-            {active === 'info' && (
-              <>
-                {images.length > 0 && <Carousel images={images} label={place.name} />}
-                <p className="pd-lede">{place.description}</p>
-                <dl className="pd-glance">
-                  <div className="pd-glance__row"><dt>Type</dt><dd>{typeLabel(place.type)}</dd></div>
-                  <div className="pd-glance__row">
-                    <dt>Region</dt>
-                    <dd>
-                      <Link to={paths.region(regionId, country)} className="pd-glance__region">
-                        <span className="pd-glance__emoji" aria-hidden>{region.emoji}</span> {region.name}
-                      </Link>
-                    </dd>
-                  </div>
-                  <div className="pd-glance__row"><dt>Coordinates</dt><dd className="mono">{place.lat.toFixed(3)}, {place.lng.toFixed(3)}</dd></div>
-                </dl>
-                <AddToTrip place={{
-                  regionId, placeId, name: place.name, regionName: region.name, type: place.type, image: hero,
-                }} countryId={country} />
-              </>
-            )}
-
-            {active === 'do' && (() => {
-              const acts = (place.activities || []).map((a, i) => ({ ...a, n: i + 1 }))
-              return (
-                <>
-                  <MapView height={360} center={[place.lng, place.lat]} zoom={12}
-                    markers={[
-                      { lng: place.lng, lat: place.lat, label: place.name, color: accent },
-                      ...acts.filter((a) => a.lat && a.lng)
-                        .map((a) => ({ lng: a.lng, lat: a.lat, number: a.n, label: `${a.n}. ${a.text}`, color: '#1f6f54' })),
-                    ]} />
-                  <a className="pd-maplink" href={mapsUrl(place.lat, place.lng)} target="_blank" rel="noreferrer">
-                    <MapPin size={15} /> Open in Maps <ArrowUpRight size={14} />
-                  </a>
-                  <div className="pd-tabmaplist"><Items items={acts} numbered /></div>
-                </>
-              )
-            })()}
+            {active === 'do' && <ViatorTours country={country} regionId={regionId} placeId={placeId} name={place.name} embedded />}
             {active === 'eat' && <Items items={place.food} />}
             {active === 'colour' && <Items items={place.culture} />}
           </div>
-
-          <ViatorTours country={country} regionId={regionId} placeId={placeId} name={place.name} />
 
           {aff && (
             <AffiliateSection
