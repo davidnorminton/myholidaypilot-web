@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import {
-  ArrowLeft, AlertTriangle, Coffee, Utensils, Star, Wine, TrainFront,
-  Bus, TramFront, Car, Ship, Plane, Smartphone, Lightbulb,
-} from 'lucide-react'
+import { ArrowLeft, AlertTriangle, Lightbulb } from 'lucide-react'
 import { getGuide, getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import { COUNTRIES } from '../lib/countries.js'
@@ -11,11 +8,8 @@ import { PageLoader } from '../components/Loading.jsx'
 import FestivalsCalendar from '../components/FestivalsCalendar.jsx'
 import { useSeo } from '../lib/seo.js'
 
-const ICONS = {
-  coffee: Coffee, restaurant: Utensils, dining: Utensils, star: Star, bar: Wine,
-  train: TrainFront, transit: Bus, subway: TramFront, taxi: Car, boat: Ship,
-  warning: AlertTriangle, flight: Plane, simcard: Smartphone,
-}
+// Hub-card palette, reused for the guide section title panels (same as About).
+const ABOUT_BG = ['#fe9ee8', '#fecf1e', '#87d2fe', '#9ee8a4', '#fec89e', '#c3a9fe']
 
 function GuideItem({ it }) {
   const cls = it.kind === 'warn' ? 'gitem gitem--warn' : it.kind === 'tip' ? 'gitem gitem--tip' : 'gitem'
@@ -110,19 +104,22 @@ export default function GuideScreen({ topic }) {
         {isTimeline && <Timeline items={sections.flatMap((s) => s.items)} />}
 
         {!isTimeline && sections.length > 0 && (
-          <div className="guide-body">
-            {sections.map((sec, i) => {
-              const Icon = ICONS[sec.icon]
-              return (
-                <section key={i} className="gsec">
-                  {sec.title && <h2 className="gsec__title">{Icon && <Icon size={18} className="gsec__icon" />}{sec.title}</h2>}
+          <div className="about guide-about">
+            {sections.map((sec, i) => (
+              <section key={i} className={`about__block ${i % 2 === 1 ? 'about__block--flip' : ''}`}>
+                <div className="about__panel" style={{ background: ABOUT_BG[i % ABOUT_BG.length] }}>
+                  <h2 className="about__title">{sec.title}</h2>
+                </div>
+                <div className="about__text gsec__content">
                   {sec.body && <p className="gsec__body">{sec.body}</p>}
-                  <ul className="gsec__items">
-                    {(sec.items || []).map((it, k) => <GuideItem key={k} it={it} />)}
-                  </ul>
-                </section>
-              )
-            })}
+                  {(sec.items || []).length > 0 && (
+                    <ul className="gsec__items">
+                      {(sec.items || []).map((it, k) => <GuideItem key={k} it={it} />)}
+                    </ul>
+                  )}
+                </div>
+              </section>
+            ))}
           </div>
         )}
 
