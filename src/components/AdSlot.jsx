@@ -1,8 +1,10 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { getConsent, onConsent } from '../lib/consent.js'
 
 // Set VITE_ADSENSE_CLIENT (e.g. "ca-pub-1234567890123456") and give each AdSlot a
 // real numeric `slot` to serve live Google AdSense. Until then, a clearly-labelled
 // mockup renders in its place so you can see where ads go.
+// Ads only ever load once the visitor has accepted cookies (see CookieBanner).
 const CLIENT = import.meta.env.VITE_ADSENSE_CLIENT || ''
 
 let scriptRequested = false
@@ -17,8 +19,11 @@ function loadAdSense() {
 }
 
 export default function AdSlot({ slot, format = 'leaderboard' }) {
-  // Serve real ads only when a publisher id AND a numeric slot id are provided.
-  const real = !!CLIENT && !!slot && /^\d{6,}$/.test(String(slot))
+  const [consent, setConsentState] = useState(getConsent())
+  useEffect(() => onConsent(setConsentState), [])
+  // Serve real ads only when a publisher id AND a numeric slot id are provided
+  // AND the visitor has accepted cookies.
+  const real = !!CLIENT && !!slot && /^\d{6,}$/.test(String(slot)) && consent === 'accepted'
   const insRef = useRef(null)
 
   useEffect(() => {

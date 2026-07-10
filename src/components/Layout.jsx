@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Outlet } from 'react-router-dom'
 import TopBar from './TopBar.jsx'
 import Footer from './Footer.jsx'
+import CookieBanner from './CookieBanner.jsx'
 import { useAuth } from '../lib/auth.jsx'
 import { syncFavourites, clearFavourites } from '../lib/favourites.js'
 import { syncTrips } from '../lib/trips.js'
@@ -19,6 +20,7 @@ export default function Layout() {
       <TopBar />
       <Outlet />
       <Footer />
+      <CookieBanner />
     </>
   )
 }

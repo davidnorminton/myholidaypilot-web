@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Send } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { api } from '../lib/api.js'
 
 export default function NewsletterSignup() {
@@ -15,21 +15,22 @@ export default function NewsletterSignup() {
 
   return (
     <div className="nl">
-      <p className="nl__title">Get our travel guides</p>
+      <p className="nl__title">Join our Newsletter</p>
       {state === 'done' ? (
         <p className="nl__done">Thanks — you’re on the list.</p>
       ) : (
         <>
           <p className="nl__sub">Region notes and trip tips, now and then. No spam.</p>
           <div className="nl__row">
-            <input className="nl__input" type="email" placeholder="you@email.com" value={email}
+            <input className="nl__input" type="email" placeholder="EMAIL ADDRESS" value={email}
               onChange={(e) => { setEmail(e.target.value); if (state === 'error') setState('idle') }}
               onKeyDown={(e) => e.key === 'Enter' && submit()} aria-label="Email address" />
-            <button className="btn btn--primary nl__btn" onClick={submit} disabled={state === 'busy'}>
-              <Send size={14} /> {state === 'busy' ? '…' : 'Subscribe'}
+            <button className="nl__btn" onClick={submit} disabled={state === 'busy'}>
+              {state === 'busy' ? '…' : 'Sign up'}
             </button>
           </div>
           {state === 'error' && <p className="nl__err">Please enter a valid email and try again.</p>}
+          <p className="nl__note">Subscribe to myholidaypilot newsletters. Read our <Link to="/privacy">Privacy Policy</Link>.</p>
         </>
       )}
     </div>

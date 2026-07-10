@@ -13,7 +13,8 @@ export default function Footer() {
             <span className="brand__mark"><Logo size={40} /></span>
             <span className="brand__name"><span className="brand__my">my</span>holidaypilot</span>
           </Link>
-          <p className="footer__tag">Plan your trip region by region — the towns, the food, and the stories in between.</p>
+          <p className="footer__tag">Our guides. Your trips.</p>
+          <hr className="footer__rule" />
           <NewsletterSignup />
         </div>
 
@@ -38,8 +39,20 @@ export default function Footer() {
             <Link to={paths.account()}>My home</Link>
           </div>
           <div className="footer__col">
+            <h3>Top countries</h3>
+            <Link to={paths.country('france')}>France</Link>
+            <Link to={paths.country('italy')}>Italy</Link>
+            <Link to={paths.country('united_kingdom')}>United Kingdom</Link>
+            <Link to={paths.country('united_states')}>USA</Link>
+            <Link to={paths.country('spain')}>Spain</Link>
+          </div>
+          <div className="footer__col">
             <h3>More</h3>
+            <Link to="/how-it-works">How the planner works</Link>
             <Link to={paths.contact()}>Contact</Link>
+            <Link to="/privacy">Privacy policy</Link>
+            <Link to="/terms">Terms of use</Link>
+            <Link to="/cookies">Cookie policy</Link>
           </div>
         </nav>
       </div>
