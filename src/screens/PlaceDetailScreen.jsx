@@ -5,20 +5,20 @@ import { getRegion, placeImages } from '../lib/data.js'
 import { regionColour } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 import { imgUrl } from '../lib/imgUrl.js'
+import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
 import ViatorTours from '../components/ViatorTours.jsx'
 import SaveButton from '../components/SaveButton.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import AskPlace from '../components/AskPlace.jsx'
-import { useFrontendAi, useSettings } from '../lib/settings.js'
+import { useFrontendAi } from '../lib/settings.js'
 import { useAffiliates, placeOffers } from '../lib/affiliates.js'
 import { PageLoader } from '../components/Loading.jsx'
 import { useSeo, canonicalUrl } from '../lib/seo.js'
 
 export default function PlaceDetailScreen() {
   const aiOn = useFrontendAi()
-  const settings = useSettings()
   const { country = 'italy', regionId, placeId } = useParams()
   const [region, setRegion] = useState(null)
   const [images, setImages] = useState([])
@@ -66,7 +66,7 @@ export default function PlaceDetailScreen() {
   if (region === null) return <PageLoader label="Opening place" />
   if (region === false || (region && !place)) return <NotFound regionId={regionId} country={country} />
 
-  const hero = place?.image || images[0]?.url || settings?.defaultPlaceImage
+  const hero = place?.image || images[0]?.url || null
   const viewTabs = [
     { id: 'do', label: 'Things to do', icon: Compass },
     ...(place.food?.length ? [{ id: 'eat', label: 'What to eat', icon: UtensilsCrossed, count: place.food.length }] : []),
@@ -93,12 +93,14 @@ export default function PlaceDetailScreen() {
             />
           </div>
         </div>
-        {hero && (
-          <div className="plan-hero__media">
+        <div className="plan-hero__media">
+          {hero ? (
             <img src={imgUrl(hero, 800)} alt={place.name} loading="eager" fetchPriority="high" decoding="async"
               onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
-          </div>
-        )}
+          ) : (
+            <PlacePlaceholder iconSize={56} />
+          )}
+        </div>
       </header>
 
       <div className="pd-sheet">

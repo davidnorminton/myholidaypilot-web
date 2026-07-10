@@ -1,16 +1,13 @@
 import { Link } from 'react-router-dom'
 import { typeLabel } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
-import { useSettings } from '../lib/settings.js'
 import SaveButton from './SaveButton.jsx'
 import SmartImage from './SmartImage.jsx'
 import PlacePlaceholder from './PlacePlaceholder.jsx'
 
 export default function PlaceCard({ regionId, country, place, image, number, index = 99 }) {
-  const settings = useSettings()
-  // Image priority: the place's own photo → the admin default place image →
-  // the built-in placeholder.
-  const src = image || settings?.defaultPlaceImage || null
+  // The place's own photo, else the built-in placeholder (purple + camera).
+  const src = image || null
   return (
     <Link to={paths.place(regionId, place.id, country)} className="pcard">
       <div className="pcard__media">

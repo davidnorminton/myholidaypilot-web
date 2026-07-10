@@ -116,6 +116,7 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
   const [region, setRegion] = useState(null)
   const [viator, setViator] = useState(null)
   const [tab, setTab] = useState('do')
+  const [dragId, setDragId] = useState(null)   // id being dragged in the saved list
 
   useEffect(() => { getPlacesIndex(countryId).then(setPlaces).catch(() => setPlaces([])) }, [countryId])
   useEffect(() => {
@@ -209,19 +210,22 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
               {dayAttractions.length === 0 && dayRestaurants.length === 0 && !dayStay && <p className="pp-note">Nothing selected yet.</p>}
               <ul className="setloc__savedlist">
                 {dayAttractions.map((a, i) => (
-                  <li key={a.id} draggable
-                    onDragStart={(e) => { e.dataTransfer.setData('text/plain', a.id); e.dataTransfer.effectAllowed = 'move' }}
-                    onDragOver={(e) => e.preventDefault()}
+                  <li key={a.id} draggable={dayAttractions.length > 1}
+                    className={a.id === dragId ? 'is-dragging' : ''}
+                    onDragStart={(e) => { setDragId(a.id); try { e.dataTransfer.setData('text/plain', a.id); e.dataTransfer.effectAllowed = 'move' } catch { /* ignore */ } }}
+                    onDragEnd={() => setDragId(null)}
+                    onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = 'move' }}
                     onDrop={(e) => {
                       e.preventDefault()
-                      const fromId = e.dataTransfer.getData('text/plain')
+                      const fromId = dragId || e.dataTransfer.getData('text/plain')
+                      setDragId(null)
                       if (!fromId || fromId === a.id) return
                       const ids = dayAttractions.map((x) => x.id).filter((id) => id !== fromId)
                       ids.splice(i, 0, fromId)
                       reorderPlaceItems(tripId, selected.regionId, selected.placeId, 'attractions', day, ids)
                     }}>
                     {dayAttractions.length > 1 && <GripVertical size={14} className="setloc__grip" aria-hidden />}
-                    {a.image && <img src={a.image} alt="" className="setloc__savedimg" />}
+                    {a.image && <img src={a.image} alt="" className="setloc__savedimg" draggable={false} />}
                     <span>{a.text}</span>
                   </li>
                 ))}
