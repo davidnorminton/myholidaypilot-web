@@ -71,8 +71,6 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .rcard__media{position:relative; aspect-ratio:5/4; background:var(--surface-2); overflow:hidden}
 .rcard__media img{width:100%; height:100%; object-fit:cover; transition:transform .5s ease}
 .rcard:hover .rcard__media img{transform:scale(1.045)}
-.rcard__media--blank{width:100%; height:100%; background:
-  linear-gradient(135deg, color-mix(in srgb,var(--accent) 22%,var(--surface)), var(--surface))}
 .rcard__emoji{
   position:absolute; left:12px; bottom:12px; width:42px; height:42px; border-radius:50%;
   display:grid; place-items:center; font-size:21px; background:var(--surface);
@@ -483,8 +481,14 @@ a.aff-card:hover .aff-card__cta svg{transform:translate(2px,-2px)}
 .aff-prov svg{color:var(--ink)}
 
 @media (max-width:560px){
-  .aff-card{flex-wrap:wrap}
-  .aff-card__cta, .aff-card__providers{margin-left:60px; justify-content:flex-start}
+  .aff-card{gap:12px; padding:15px 14px}
+  .aff-card__ic{width:34px; height:34px}
+  .aff-card__ic svg{width:23px; height:23px}
+  .aff-card__title{display:block; font-size:15px}
+  .aff-card__sub{display:block; font-size:13px; margin-top:2px}
+  .aff-card--providers{flex-wrap:wrap}
+  .aff-card__providers{flex:1 0 100%; margin-left:0; margin-top:2px; justify-content:flex-start; gap:6px}
+  .aff-prov{padding:7px 12px; font-size:12px}
 }
 
 /* ============================================================
@@ -2911,6 +2915,16 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .sitesearch__drop{left:0; right:0; width:auto}
 
 
+/* --- Drawer + scrim entrance/exit --- */
+.navdrawer--panel{animation:drawerIn .24s cubic-bezier(.22,.61,.36,1)}
+.navdrawer__scrim{animation:scrimIn .2s ease}
+@keyframes scrimIn{from{opacity:0}}
+.navdrawer--panel.is-closing{animation:drawerOut .22s cubic-bezier(.55,.06,.68,.19) forwards}
+.navdrawer__scrim.is-closing{animation:scrimOut .2s ease forwards}
+@keyframes drawerOut{to{transform:translateX(-100%)}}
+@keyframes scrimOut{to{opacity:0}}
+@media (prefers-reduced-motion: reduce){ .navdrawer--panel,.navdrawer__scrim,.navdrawer--panel.is-closing,.navdrawer__scrim.is-closing{animation:none} }
+
 /* --- Drawer menu items with icons --- */
 .navdrawer__link{display:flex; align-items:center; gap:12px}
 .navdrawer__icon{flex:none; color:var(--muted, #7c766c)}
@@ -2924,11 +2938,14 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
   border:0; border-radius:10px; background:none; color:var(--ink-soft); cursor:pointer}
 .sitesearch__trigger:hover{background:var(--surface-2)}
 .sitesearch__icon, .sitesearch__input, .sitesearch__cancel{display:none}
-.sitesearch.is-expanded{position:fixed; inset:0 0 auto 0; height:var(--topbar-h); z-index:70;
-  display:flex; align-items:center; gap:8px; padding:0 12px; background:var(--surface); flex:1 1 auto; margin:0}
+.sitesearch.is-expanded{position:relative; z-index:70; flex:1 1 auto; min-width:0;
+  display:flex; align-items:center; gap:6px; padding:0; margin-left:8px; background:none}
 .sitesearch.is-expanded .sitesearch__trigger{display:none}
-.sitesearch.is-expanded .sitesearch__icon{display:block; left:24px}
-.sitesearch.is-expanded .sitesearch__input{display:block; width:100%; flex:1; padding-left:36px}
+.sitesearch.is-expanded .sitesearch__icon{display:block; left:12px}
+.sitesearch.is-expanded .sitesearch__input{display:block; width:100%; flex:1; padding-left:36px;
+  animation:searchIn .18s ease; transform-origin:right center}
+@keyframes searchIn{from{opacity:0; transform:translateX(14px)}}
+@media (prefers-reduced-motion: reduce){ .sitesearch.is-expanded .sitesearch__input{animation:none} }
 .sitesearch.is-expanded .sitesearch__cancel{display:inline-flex; align-items:center; justify-content:center;
   width:38px; height:38px; flex:none; border:0; border-radius:9px; background:none; color:var(--ink-soft); cursor:pointer}
 .sitesearch.is-expanded .sitesearch__drop{position:fixed; top:var(--topbar-h); left:0; right:0; width:auto; border-radius:0 0 14px 14px; max-width:none}
@@ -3146,8 +3163,13 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planbuild__act--del{color:#a11}
 .tvp__backdrop{position:fixed; inset:0; z-index:85; background:rgba(20,17,12,.45); animation:fade .2s ease both}
 .tvp{position:fixed; top:0; right:0; bottom:0; width:min(560px,94vw); background:var(--paper); border-left:1px solid var(--line);
-  display:flex; flex-direction:column; box-shadow:-18px 0 48px rgba(0,0,0,.22); animation:tvpin .25s ease both}
-@keyframes tvpin{from{transform:translateX(30px); opacity:0} to{transform:none; opacity:1}}
+  display:flex; flex-direction:column; box-shadow:-18px 0 48px rgba(0,0,0,.22); animation:tvpin .24s cubic-bezier(.22,.61,.36,1) both}
+@keyframes tvpin{from{transform:translateX(100%)} to{transform:none}}
+.tvp.is-closing{animation:tvpout .22s cubic-bezier(.55,.06,.68,.19) both}
+@keyframes tvpout{to{transform:translateX(100%)}}
+.tvp__backdrop{animation:scrimIn .2s ease}
+.tvp__backdrop.is-closing{animation:scrimOut .2s ease forwards}
+@media (prefers-reduced-motion: reduce){ .tvp,.tvp.is-closing,.tvp__backdrop,.tvp__backdrop.is-closing{animation:none} }
 .tvp__head{display:flex; align-items:center; justify-content:space-between; gap:12px; padding:16px 18px; border-bottom:1px solid var(--line); flex:none}
 .tvp__head h2{display:flex; align-items:center; gap:9px; font-size:18px; font-weight:800; margin:0; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 .tvp__head svg{color:var(--gold); flex:none}

@@ -3,6 +3,7 @@ import { MapPin } from 'lucide-react'
 import { regionColour } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 import SmartImage from './SmartImage.jsx'
+import PlacePlaceholder from './PlacePlaceholder.jsx'
 
 export default function RegionCard({ region, country, image, index = 99 }) {
   const accent = regionColour(region.colour)
@@ -12,7 +13,7 @@ export default function RegionCard({ region, country, image, index = 99 }) {
       <div className="rcard__media">
         {src
           ? <SmartImage src={src} alt={region.name} width={400} priority={index < 4} />
-          : <div className="rcard__media--blank" />}
+          : <PlacePlaceholder />}
         <span className="rcard__emoji" aria-hidden>{region.emoji}</span>
       </div>
       <div className="rcard__body">

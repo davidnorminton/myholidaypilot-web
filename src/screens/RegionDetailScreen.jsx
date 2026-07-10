@@ -8,6 +8,7 @@ import { paths } from '../lib/paths.js'
 import { imgUrl } from '../lib/imgUrl.js'
 import MapView from '../components/MapView.jsx'
 import PlaceCard from '../components/PlaceCard.jsx'
+import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
 import { PageLoader } from '../components/Loading.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
@@ -84,12 +85,14 @@ export default function RegionDetailScreen() {
             <BeenHereButton regionId={regionId} countryId={country} className="pd-action" />
           </div>
         </div>
-        {heroImage && (
-          <div className="plan-hero__media">
+        <div className="plan-hero__media">
+          {heroImage ? (
             <img src={imgUrl(heroImage, 800)} alt={region.name} loading="eager" fetchPriority="high" decoding="async"
               onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
-          </div>
-        )}
+          ) : (
+            <PlacePlaceholder iconSize={56} />
+          )}
+        </div>
       </header>
 
       <div className="pd-sheet">

@@ -27,15 +27,22 @@ const LINKS = [
 
 export default function TopBar() {
   const [open, setOpen] = useState(false)
+  const [closing, setClosing] = useState(false)
+  // Animated close: keep the drawer mounted while the exit animation runs.
+  const closeDrawer = () => {
+    if (!open || closing) return
+    setClosing(true)
+    setTimeout(() => { setOpen(false); setClosing(false) }, 220)
+  }
   const loc = useLocation()
-  useEffect(() => { setOpen(false) }, [loc.pathname]) // close menu on navigation
+  useEffect(() => { setOpen(false); setClosing(false) }, [loc.pathname]) // close menu on navigation
   useEffect(() => { document.body.style.overflow = open ? 'hidden' : ''; return () => { document.body.style.overflow = '' } }, [open])
 
   return (
     <header className="topbar">
       <div className="wrap topbar__inner">
         <div className="topbar__left">
-          <button className="hamburger" onClick={() => setOpen((v) => !v)} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
+          <button className="hamburger" onClick={() => (open ? closeDrawer() : setOpen(true))} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
             {open ? <X size={30} /> : <Menu size={30} />}
           </button>
           <Link to={paths.home()} className="brand" aria-label="myholidaypilot home">
@@ -57,9 +64,9 @@ export default function TopBar() {
 
       {open && createPortal(
         <>
-          <div className="navdrawer__scrim" onClick={() => setOpen(false)}
+          <div className={`navdrawer__scrim ${closing ? 'is-closing' : ''}`} onClick={closeDrawer}
             style={{ position: 'fixed', inset: 0, zIndex: 9997, background: 'rgba(20,16,12,.38)' }} />
-          <nav className="navdrawer navdrawer--panel"
+          <nav className={`navdrawer navdrawer--panel ${closing ? 'is-closing' : ''}`}
             style={{
               position: 'fixed', top: 0, left: 0, bottom: 0, right: 'auto',
               width: 'min(320px, 88vw)', zIndex: 9998,
@@ -69,15 +76,15 @@ export default function TopBar() {
               boxShadow: '0 24px 70px rgba(20,16,12,.22)', overflowY: 'auto',
             }}>
             <div className="navdrawer__brandrow">
-              <Link to={paths.home()} className="brand" onClick={() => setOpen(false)} aria-label="myholidaypilot home">
+              <Link to={paths.home()} className="brand" onClick={closeDrawer} aria-label="myholidaypilot home">
                 <span className="brand__mark"><Logo size={34} /></span>
                 <span className="brand__name"><span className="brand__my">my</span>holidaypilot</span>
               </Link>
-              <button className="navdrawer__close" onClick={() => setOpen(false)} aria-label="Close menu"><X size={20} /></button>
+              <button className="navdrawer__close" onClick={closeDrawer} aria-label="Close menu"><X size={20} /></button>
             </div>
             <div className="navdrawer__links">
               {LINKS.map((l) => (
-                <NavLink key={l.to} to={l.to} className="navdrawer__link" onClick={() => setOpen(false)}>
+                <NavLink key={l.to} to={l.to} className="navdrawer__link" onClick={closeDrawer}>
                   <l.icon size={18} strokeWidth={2} className="navdrawer__icon" />
                   {l.label}
                 </NavLink>
