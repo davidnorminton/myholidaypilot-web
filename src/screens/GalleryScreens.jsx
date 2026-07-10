@@ -163,15 +163,28 @@ export function GalleryTripScreen() {
   })
 
   const snap = pub?.data
+  // A place belongs to every day it has dated picks on (the planner's
+  // day-by-day model hangs a whole trip off one base place), plus its own day.
   const days = useMemo(() => {
     if (!snap) return []
-    const by = new Map()
-    for (const p of snap.places) {
-      const k = p.day || 0
-      if (!by.has(k)) by.set(k, [])
-      by.get(k).push(p)
+    const itemsFor = (p, d) => ({
+      attractions: (p.attractions || []).filter((a) => a.day === d || (!a.day && (p.day || null) === d)),
+      restaurants: (p.restaurants || []).filter((r) => r.day === d || (!r.day && (p.day || null) === d)),
+    })
+    const total = Math.min(60, Math.max(1, snap.days || 1, ...snap.places.map((p) => p.day || 0)))
+    const out = []
+    for (let d = 1; d <= total; d++) {
+      const entries = snap.places
+        .map((p) => ({ p, it: itemsFor(p, d) }))
+        .filter(({ p, it }) => p.day === d || it.attractions.length || it.restaurants.length)
+      out.push([d, entries])
     }
-    return [...by.entries()].sort(([a], [b]) => a - b)
+    const anytime = snap.places
+      .map((p) => ({ p, it: itemsFor(p, null) }))
+      .filter(({ p, it }) => !p.day && (it.attractions.length || it.restaurants.length ||
+        ((p.attractions || []).length === 0 && (p.restaurants || []).length === 0)))
+    if (anytime.length) out.push([0, anytime])
+    return out
   }, [snap])
 
   const markers = (snap?.places || []).filter((p) => p.lat && p.lng)
@@ -244,16 +257,17 @@ export function GalleryTripScreen() {
                   </span>
                 )}
               </header>
-              {places.map((p) => (
+              {places.length === 0 && <p className="galtrip__free">Free day — nothing planned.</p>}
+              {places.map(({ p, it }) => (
                 <div key={`${p.regionId}/${p.placeId}`} className="gplan__place">
                   <h3><MapPin size={14} /> <Link to={paths.place(p.regionId, p.placeId, pub?.countryId || 'italy')}>{p.name}</Link>
                     <span className="galtrip__region">{p.regionName}</span></h3>
                   {p.note && <p className="galtrip__note">"{p.note}"</p>}
                   <ul>
-                    {p.attractions.filter((a) => (a.day || null) === (p.day || null) || a.day === dayN).map((a) => (
+                    {it.attractions.map((a) => (
                       <li key={a.id}><Compass size={12} /> {a.text}</li>
                     ))}
-                    {p.restaurants.filter((r) => (r.day || null) === (p.day || null) || r.day === dayN).map((r) => (
+                    {it.restaurants.map((r) => (
                       <li key={r.id}><Utensils size={12} /> {r.name}{r.mustOrder ? ` — try the ${r.mustOrder}` : ''}</li>
                     ))}
                   </ul>

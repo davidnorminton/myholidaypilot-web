@@ -2,11 +2,11 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Plus, Trash2, X, Check, StickyNote, CalendarRange,
-  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins, Globe2 } from 'lucide-react'
+  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins, Globe2, Ticket } from 'lucide-react'
 import {
   useTrips, activeTrip, createTrip, deleteTrip, renameTrip,
   removePlace, togglePlaceDone, updateNote, setTripDates,
-  setTravelPoint, removeStay,
+  setTravelPoint, removeStay, setTripCountry, setDaySaved, clearSavedDays,
   healTripCoords,
 } from '../lib/trips.js'
 import { useSettings } from '../lib/settings.js'
@@ -24,6 +24,7 @@ import AddPlaceWizard from '../components/AddPlaceWizard.jsx'
 import PlacePlanner from '../components/PlacePlanner.jsx'
 import DayLocationPicker from '../components/DayLocationPicker.jsx'
 import TripViewPanel from '../components/TripViewPanel.jsx'
+import BookingsPanel from '../components/BookingsPanel.jsx'
 import PackingList from '../components/PackingList.jsx'
 import BudgetPanel from '../components/BudgetPanel.jsx'
 import PublishTrip from '../components/PublishTrip.jsx'
@@ -56,8 +57,7 @@ export default function PlanScreen() {
   const [heroStart, setHeroStart] = useState(trip?.startDate || lsGet('planHero.start'))
   const [heroEnd, setHeroEnd] = useState(trip?.endDate || lsGet('planHero.end'))
   const [revealed, setRevealed] = useState(false)
-  const [selectedDay, setSelectedDay] = useState(1)
-  const [savedDays, setSavedDays] = useState({})
+  const [selectedDay, setSelectedDay] = useState(() => parseInt(lsGet('planHero.selDay'), 10) || 1)
   const [confirmClear, setConfirmClear] = useState(false)
   const builderRef = useRef(null)
   useEffect(() => {
@@ -66,6 +66,7 @@ export default function PlanScreen() {
   useEffect(() => {
     try { localStorage.setItem('planHero.country', heroCountry); localStorage.setItem('planHero.start', heroStart); localStorage.setItem('planHero.end', heroEnd) } catch { /* ignore */ }
   }, [heroCountry, heroStart, heroEnd])
+  useEffect(() => { try { localStorage.setItem('planHero.selDay', String(selectedDay)) } catch { /* ignore */ } }, [selectedDay])
   const share = async () => {
     try { await navigator.clipboard.writeText(shareUrl(trip)); setShared(true); setTimeout(() => setShared(false), 2000) }
     catch { prompt('Copy this trip link:', shareUrl(trip)) }
@@ -108,7 +109,7 @@ export default function PlanScreen() {
   }
   // Builder stays hidden until a destination + dates are set and "Create" is
   // tapped; an existing trip with places is already past that point.
-  const showBuilder = revealed || (trip && trip.places.length > 0)
+  const showBuilder = revealed || (trip && (trip.places.length > 0 || (trip.startDate && trip.countryId)))
   // One entry per day of the holiday, numbered with its date.
   const dayList = useMemo(() => {
     if (!trip?.startDate) return []
@@ -120,6 +121,31 @@ export default function PlanScreen() {
     }
     return out
   }, [trip?.startDate, trip?.endDate])
+  useEffect(() => {
+    if (dayList.length && selectedDay > dayList.length) setSelectedDay(1)
+  }, [dayList.length]) // trip dates shortened — snap back to Day 1
+  // Changing destination forks a fresh trip for the new country once the
+  // current one holds anything beyond the country itself (dates, places,
+  // flights or stays) — the old trip stays saved in "previous planned trips".
+  // Nothing is written to the new trip until the user picks something for it.
+  const onCountryChange = (v) => {
+    setHeroCountry(v)
+    if (!trip || !v || trip.countryId === v) return
+    const hasContent = !!trip.startDate || trip.places.length > 0 || (trip.stays || []).length > 0 ||
+      !!trip.travel?.arrive || !!trip.travel?.depart || !!trip.travel?.home
+    const cName = availCountries.find((c) => c.slug === v)?.name || 'my destination'
+    if (!hasContent) {
+      // Untouched trip: switch it in place (no trip spam), keeping the
+      // auto-generated name honest. A custom name is left alone.
+      const oldName = availCountries.find((c) => c.slug === trip.countryId)?.name
+      setTripCountry(trip.id, v)
+      if (trip.name === 'My trip' || (oldName && trip.name === `My trip to ${oldName}`)) renameTrip(trip.id, `My trip to ${cName}`)
+      return
+    }
+    createTrip(`My trip to ${cName}`, v)
+    setSelectedDay(1)
+    setRevealed(false)
+  }
   const onCreate = () => {
     let id = trip?.id
     if (!id) id = createTrip(`My trip to ${heroCountryName || 'my destination'}`, heroCountry)
@@ -134,7 +160,9 @@ export default function PlanScreen() {
     if (trip) {
       setTravelPoint(trip.id, 'arrive', null)
       setTravelPoint(trip.id, 'depart', null)
+      setTravelPoint(trip.id, 'home', null)
       for (const s of (trip.stays || [])) removeStay(trip.id, s.id)
+      clearSavedDays(trip.id)
     }
   }
 
@@ -156,7 +184,7 @@ export default function PlanScreen() {
             <div className="planform">
               <label className="planform__field">
                 <span className="planform__label">Destination</span>
-                <select className="planform__select" value={heroCountry} onChange={(e) => setHeroCountry(e.target.value)}>
+                <select className="planform__select" value={heroCountry} onChange={(e) => onCountryChange(e.target.value)}>
                   <option value="">Select a destination</option>
                   {availCountries.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
                 </select>
@@ -216,15 +244,25 @@ export default function PlanScreen() {
           <aside className="planws__side">
             {dayList.length > 0 && (<>
               <p className="planws__sidelabel">Set locations</p>
-              {dayList.map((d) => (
-                <button key={d.n} className={`planws__step ${step === 'setloc' && selectedDay === d.n ? 'is-on' : ''}`}
-                  onClick={() => { setSelectedDay(d.n); setStep('setloc') }}>
-                  <span className="planws__stepnum">{d.n}</span>
-                  <span className="planws__daylabel">{d.label}</span>
-                </button>
-              ))}
+              {dayList.map((d) => {
+                const saved = !!(trip.savedDays || {})[d.date]
+                const hasContent = trip.places.some((p) => p.date === d.date ||
+                  (p.attractions || []).some((x) => x.date === d.date) || (p.restaurants || []).some((x) => x.date === d.date))
+                return (
+                  <button key={d.n} className={`planws__step ${step === 'setloc' && selectedDay === d.n ? 'is-on' : ''} ${saved ? 'is-done' : ''}`}
+                    onClick={() => { setSelectedDay(d.n); setStep('setloc') }}>
+                    <span className="planws__stepnum">{saved ? <Check size={13} /> : d.n}</span>
+                    <span className="planws__daylabel">{d.label}</span>
+                    {!saved && hasContent && <span className="planws__daydot" aria-label="In progress" />}
+                  </button>
+                )
+              })}
             </>)}
 
+            <p className="planws__sidelabel">Book</p>
+            <button className={`planws__step ${step === 'book' ? 'is-on' : ''}`} onClick={() => setStep('book')}>
+              <span className="planws__stepnum"><Ticket size={13} /></span> Book your trip
+            </button>
             <p className="planws__sidelabel planws__sidelabel--opt">Optional</p>
             <button className="planws__step planws__step--opt" onClick={() => setBudgetOpen(true)}>
               <span className="planws__stepnum"><Coins size={13} /></span> Budget
@@ -239,7 +277,11 @@ export default function PlanScreen() {
             {step === 'setloc' && selectedDay && dayList[selectedDay - 1] && (
               <DayLocationPicker key={selectedDay} tripId={trip.id} countryId={trip.countryId}
                 day={dayList[selectedDay - 1].date} dayNumber={selectedDay} dayLabel={dayList[selectedDay - 1].label}
-                saved={!!savedDays[selectedDay]} setSaved={(v) => setSavedDays((prev) => ({ ...prev, [selectedDay]: v }))} />
+                saved={!!(trip.savedDays || {})[dayList[selectedDay - 1].date]}
+                setSaved={(v) => setDaySaved(trip.id, dayList[selectedDay - 1].date, v)}
+                nextDay={selectedDay < dayList.length ? dayList[selectedDay] : null}
+                onNext={selectedDay < dayList.length ? () => { setSelectedDay(selectedDay + 1); setStep('setloc') } : null}
+                onReview={() => setStep('book')} />
             )}
             {step === 'setloc' && (!selectedDay || !dayList[selectedDay - 1]) && (
               <p className="setloc__hint">Set your trip dates above to plan day by day.</p>
@@ -259,6 +301,8 @@ export default function PlanScreen() {
                 <Plus size={16} /> Add more places
               </button>
             </>)}
+
+            {step === 'book' && <BookingsPanel trip={trip} />}
 
             {step === 'days' && <Itinerary trip={trip} onPlan={(p) => setPlanFor(p)} />}
           </div>

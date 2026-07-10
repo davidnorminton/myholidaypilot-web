@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Search, Check, Compass, BedDouble, MapPin, CalendarCheck, Plus, Trash2, Ticket } from 'lucide-react'
+import { Search, Check, Compass, BedDouble, MapPin, CalendarCheck, Plus, Trash2, Ticket, ChevronRight, UtensilsCrossed, GripVertical } from 'lucide-react'
 import { getPlacesIndex, getRegion, getViatorPlaceTours, getViatorTours } from '../lib/data.js'
-import { useTrips, addPlace, setPlaceDate, togglePlaceItem, setPlaceAllDays, addStay, updateStay, removeStay } from '../lib/trips.js'
+import { useTrips, addPlace, setPlaceDate, togglePlaceItem, setPlaceAllDays, addStay, updateStay, removeStay, reorderPlaceItems } from '../lib/trips.js'
 import { detectCurrency, displayPrice } from '../lib/currency.js'
-import { useAffiliates, buildUrl } from '../lib/affiliates.js'
+import { useAffiliates } from '../lib/affiliates.js'
+import { bookingUrl } from '../lib/bookingLinks.js'
 import AffLink from './AffLink.jsx'
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
@@ -45,7 +46,9 @@ function DayStay({ trip, tripId, day, lastDay, placeName, regionName }) {
     setName(''); setCoords(null); setResults([]); setAddress('')
   }
 
-  const bookingLink = affCfg && placeName ? buildUrl(affCfg.booking, { location: `${placeName} ${regionName || ''}`.trim() }) : null
+  const bookingLink = affCfg && placeName
+    ? bookingUrl(affCfg, { location: `${placeName} ${regionName || ''}`.trim(), checkin: day, checkout: lastDay && lastDay > day ? lastDay : '' })
+    : null
   const coversRest = stay && (!lastDay || (stay.to || stay.from) >= lastDay)
 
   return (
@@ -102,14 +105,14 @@ function DayStay({ trip, tripId, day, lastDay, placeName, regionName }) {
 
 // Inline (non-modal) day picker: search a region/place, then plan the day —
 // things to do, Viator experiences, and accommodation.
-export default function DayLocationPicker({ tripId, countryId, day, dayNumber, dayLabel, saved, setSaved }) {
+export default function DayLocationPicker({ tripId, countryId, day, dayNumber, dayLabel, saved, setSaved, nextDay, onNext, onReview }) {
   const snap = useTrips()
   const trip = snap.trips.find((t) => t.id === tripId)
   const base = trip?.places.find((p) => p.allDays) || null
   const ccy = useMemo(() => detectCurrency(), [])
   const [places, setPlaces] = useState(null)
   const [q, setQ] = useState('')
-  const [selected, setSelected] = useState(base ? { regionId: base.regionId, placeId: base.placeId, name: base.name, regionName: base.regionName } : null)
+  const [selected, setSelected] = useState(base ? { regionId: base.regionId, placeId: base.placeId, name: base.name, regionName: base.regionName, countryId: base.countryId || countryId } : null)
   const [region, setRegion] = useState(null)
   const [viator, setViator] = useState(null)
   const [tab, setTab] = useState('do')
@@ -117,11 +120,14 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
   useEffect(() => { getPlacesIndex(countryId).then(setPlaces).catch(() => setPlaces([])) }, [countryId])
   useEffect(() => {
     if (!selected) { setRegion(null); setViator(null); return }
+    // The place knows which country its guide lives in — the trip's destination
+    // may have changed since it was added.
+    const cc = selected.countryId || countryId
     let on = true
     setViator(null)
-    getRegion(selected.regionId, countryId).then((r) => on && setRegion(r)).catch(() => on && setRegion(false))
-    getViatorPlaceTours(selected.placeId, countryId)
-      .then((d) => (d.tours.length ? d : getViatorTours(selected.regionId, countryId)))
+    getRegion(selected.regionId, cc).then((r) => on && setRegion(r)).catch(() => on && setRegion(false))
+    getViatorPlaceTours(selected.placeId, cc)
+      .then((d) => (d.tours.length ? d : getViatorTours(selected.regionId, cc)))
       .then((d) => on && setViator(d.tours))
       .catch(() => on && setViator([]))
     return () => { on = false }
@@ -137,9 +143,9 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
   }, [places, q])
 
   const pick = (p) => {
-    addPlace(tripId, { regionId: p.regionId, placeId: p.placeId, name: p.name, regionName: p.regionName, type: p.type, lat: p.lat, lng: p.lng })
+    addPlace(tripId, { regionId: p.regionId, placeId: p.placeId, name: p.name, regionName: p.regionName, type: p.type, lat: p.lat, lng: p.lng, countryId })
     setPlaceDate(tripId, p.regionId, p.placeId, day)
-    setSelected({ regionId: p.regionId, placeId: p.placeId, name: p.name, regionName: p.regionName })
+    setSelected({ regionId: p.regionId, placeId: p.placeId, name: p.name, regionName: p.regionName, countryId })
     setQ('')
   }
 
@@ -148,10 +154,14 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
   const activities = src?.activities || []
   const selA = new Set((place?.attractions || []).filter((x) => (x.date || '') === day).map((x) => x.id))
   const dayAttractions = (place?.attractions || []).filter((x) => (x.date || '') === day)
+  const selR = new Set((place?.restaurants || []).filter((x) => (x.date || '') === day).map((x) => x.id))
+  const dayRestaurants = (place?.restaurants || []).filter((x) => (x.date || '') === day)
+  const restaurants = (region && region.restaurants) || []
   const dayStay = (trip?.stays || []).find((s) => s.from && s.from <= day && (s.to || s.from) >= day)
 
   const addViator = (t) => togglePlaceItem(tripId, selected.regionId, selected.placeId, 'attractions',
-    { id: `viator-${t.code}`, text: t.title, image: t.image, url: t.url }, day)
+    { id: `viator-${t.code}`, text: t.title, image: t.image, url: t.url,
+      ...(Number.isFinite(t.lat) && Number.isFinite(t.lng) ? { lat: t.lat, lng: t.lng } : {}) }, day)
 
   return (
     <div className="setloc">
@@ -195,16 +205,34 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
 
           {saved ? (
             <div className="setloc__saved">
-              <p className="setloc__savedlabel">Planned for this day</p>
-              {dayAttractions.length === 0 && !dayStay && <p className="pp-note">Nothing selected yet.</p>}
+              <p className="setloc__savedlabel">Planned for this day{dayAttractions.length > 1 ? ' — drag to set the order' : ''}</p>
+              {dayAttractions.length === 0 && dayRestaurants.length === 0 && !dayStay && <p className="pp-note">Nothing selected yet.</p>}
               <ul className="setloc__savedlist">
-                {dayAttractions.map((a) => (
-                  <li key={a.id}>
+                {dayAttractions.map((a, i) => (
+                  <li key={a.id} draggable
+                    onDragStart={(e) => { e.dataTransfer.setData('text/plain', a.id); e.dataTransfer.effectAllowed = 'move' }}
+                    onDragOver={(e) => e.preventDefault()}
+                    onDrop={(e) => {
+                      e.preventDefault()
+                      const fromId = e.dataTransfer.getData('text/plain')
+                      if (!fromId || fromId === a.id) return
+                      const ids = dayAttractions.map((x) => x.id).filter((id) => id !== fromId)
+                      ids.splice(i, 0, fromId)
+                      reorderPlaceItems(tripId, selected.regionId, selected.placeId, 'attractions', day, ids)
+                    }}>
+                    {dayAttractions.length > 1 && <GripVertical size={14} className="setloc__grip" aria-hidden />}
                     {a.image && <img src={a.image} alt="" className="setloc__savedimg" />}
                     <span>{a.text}</span>
                   </li>
                 ))}
               </ul>
+              {dayRestaurants.length > 0 && (
+                <ul className="setloc__savedlist setloc__savedlist--eat">
+                  {dayRestaurants.map((r) => (
+                    <li key={r.id}><UtensilsCrossed size={14} className="setloc__grip" aria-hidden /> <span>{r.name}{r.cuisine ? ` · ${r.cuisine}` : ''}</span></li>
+                  ))}
+                </ul>
+              )}
               {dayStay && (
                 <div className="setloc__savedstay">
                   <BedDouble size={15} />
@@ -213,6 +241,16 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
                     <span className="setloc__savedstaymeta">{dayStay.type}{dayStay.address ? ` · ${dayStay.address}` : ''}</span>
                   </div>
                 </div>
+              )}
+              {onNext && nextDay && (
+                <button className="setloc__next" onClick={onNext}>
+                  Next: Day {nextDay.n} · {nextDay.label} <ChevronRight size={15} />
+                </button>
+              )}
+              {!nextDay && onReview && (
+                <button className="setloc__next" onClick={onReview}>
+                  Review &amp; book your trip <ChevronRight size={15} />
+                </button>
               )}
             </div>
           ) : (
@@ -223,6 +261,9 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
                 </button>
                 <button role="tab" aria-selected={tab === 'viator'} className={`pp-tab ${tab === 'viator' ? 'is-on' : ''}`} onClick={() => setTab('viator')}>
                   <Ticket size={15} /> Experiences
+                </button>
+                <button role="tab" aria-selected={tab === 'eat'} className={`pp-tab ${tab === 'eat' ? 'is-on' : ''}`} onClick={() => setTab('eat')}>
+                  <UtensilsCrossed size={15} /> Eat {selR.size > 0 && <span className="pp-tab__n">{selR.size}</span>}
                 </button>
                 <button role="tab" aria-selected={tab === 'stay'} className={`pp-tab ${tab === 'stay' ? 'is-on' : ''}`} onClick={() => setTab('stay')}>
                   <BedDouble size={15} /> Accommodation
@@ -242,6 +283,7 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
                     </li>
                   ))}
                   {activities.length === 0 && region && <li className="pp-note">No listed things to do for this place yet.</li>}
+                  {region === false && <li className="pp-note">Couldn't load the guide for this place.</li>}
                 </ul>
               )}
 
@@ -272,6 +314,23 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
                     <p className="setloc__vnote">Experiences by Viator — booking through the trip may earn us a commission.</p>
                   )}
                 </div>
+              )}
+
+              {tab === 'eat' && (
+                <ul className="pp-list">
+                  {restaurants.slice(0, 14).map((r) => (
+                    <li key={r.id} className={`pp-item ${selR.has(r.id) ? 'pp-item--on' : ''}`}
+                      onClick={() => togglePlaceItem(tripId, selected.regionId, selected.placeId, 'restaurants', { id: r.id, name: r.name, cuisine: r.cuisine, priceRange: r.priceRange, mustOrder: r.mustOrder, lat: r.lat, lng: r.lng }, day)}>
+                      <span className="pp-check">{selR.has(r.id) && <Check size={13} />}</span>
+                      <span className="pp-item__text">
+                        <span className="pp-item__title">{r.name} {r.priceRange && <em className="pp-price">{r.priceRange}</em>}</span>
+                        <span className="pp-item__sub">{r.cuisine}{r.neighbourhood ? ` · ${r.neighbourhood}` : ''}</span>
+                      </span>
+                    </li>
+                  ))}
+                  {restaurants.length === 0 && region && <li className="pp-note">No places to eat in the guide for this region yet.</li>}
+                  {region === false && <li className="pp-note">Couldn't load the guide for this place.</li>}
+                </ul>
               )}
 
               {tab === 'stay' && trip && (

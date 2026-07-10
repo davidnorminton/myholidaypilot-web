@@ -151,6 +151,7 @@ export const api = {
   },
   airports: {
     list: (country = 'italy') => req('GET', `/airports?country=${encodeURIComponent(country)}`),
+    near: (lat, lng) => req('GET', `/airports?near=${lat},${lng}`),
   },
   trips: {
     list: () => req('GET', '/trips'),

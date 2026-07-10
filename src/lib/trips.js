@@ -130,6 +130,31 @@ export function renameTrip(id, name) {
   set({ ...state, trips: state.trips.map((t) => (t.id === id ? { ...t, name } : t)) })
 }
 export function setActiveTrip(id) { set({ ...state, activeTripId: id }) }
+// Destination changed in the planner — airports, guides and Viator all key off it.
+export function setTripCountry(id, countryId) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === id ? { ...t, countryId } : t)) })
+}
+// A day's "saved" flag — the day picker collapses to its summary when set.
+// Keyed by the day's date so the flags survive reloads and follow date shifts.
+export function setDaySaved(id, date, on) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === id ? { ...t, savedDays: { ...(t.savedDays || {}), [date]: !!on } } : t)) })
+}
+export function clearSavedDays(id) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === id ? { ...t, savedDays: {} } : t)) })
+}
+// Reorder one day's picks (attractions or restaurants) on a place. Items from
+// other days keep their positions — only the given day's items swap slots.
+export function reorderPlaceItems(tripId, regionId, placeId, kind, day, orderedIds) {
+  updatePlace(tripId, regionId, placeId, (p) => {
+    const arr = [...(p[kind] || [])]
+    const slots = arr.map((x, i) => ((x.date || '') === day ? i : -1)).filter((i) => i >= 0)
+    const byId = new Map(arr.filter((x) => (x.date || '') === day).map((x) => [x.id, x]))
+    const ordered = orderedIds.map((id) => byId.get(id)).filter(Boolean)
+    if (ordered.length !== slots.length) return p   // ids out of sync — leave untouched
+    slots.forEach((slot, i) => { arr[slot] = ordered[i] })
+    return { ...p, [kind]: arr }
+  })
+}
 
 export function addPlace(tripId, place) {
   set({

@@ -5,13 +5,16 @@
     "category": "Hotels",
     "_comment": "WHERE TO REGISTER: Join the Booking.com Affiliate Partner Programme at https://www.booking.com/affiliate-program/v2/index.html. After approval, your dashboard provides an Affiliate ID (aid) and lets you create tracking 'label' values. Put those in 'params' below.",
     "registerUrl": "https://www.booking.com/affiliate-program/v2/index.html",
-    "urlTemplate": "https://www.booking.com/search.html?ss={location}&lang=en-gb&aid={aid}&label={label}",
+    "urlTemplate": "https://www.booking.com/searchresults.html?ss={location}&checkin={checkin}&checkout={checkout}&group_adults={group_adults}&lang=en-gb&aid={aid}&label={label}",
     "_dynamicParams": [
-      "location"
+      "location",
+      "checkin",
+      "checkout"
     ],
     "params": {
       "aid": "1234567",
-      "label": "italytravel-app-hotels"
+      "label": "italytravel-app-hotels",
+      "group_adults": "2"
     }
   },
   "getyourguide": {
@@ -76,11 +79,13 @@
     "id": "skyscanner",
     "name": "Skyscanner",
     "category": "Flights",
-    "_comment": "WHERE TO REGISTER: Join Skyscanner Partners at https://www.partners.skyscanner.net/. After approval you'll get an affiliateId. adults is a standard search parameter. Put them in 'params' below.",
+    "_comment": "WHERE TO REGISTER: Join Skyscanner Partners at https://www.partners.skyscanner.net/ (runs on impact.com). After approval you'll get a mediaPartnerId — put it in params.affiliateId below. URL format follows their referrals browse-view: origin/destination accept a country code or IATA.",
     "registerUrl": "https://www.partners.skyscanner.net/",
-    "urlTemplate": "https://www.skyscanner.net/transport/flights/anywhere/{iata}/?adults={adults}&affiliateId={affiliateId}",
+    "urlTemplate": "https://www.skyscanner.net/g/referrals/v1/flights/browse-view/?origin={origin}&destination={iata}&outboundDate={outboundDate}&adults={adults}&mediaPartnerId={affiliateId}",
     "_dynamicParams": [
-      "iata"
+      "iata",
+      "origin",
+      "outboundDate"
     ],
     "params": {
       "adults": "1",

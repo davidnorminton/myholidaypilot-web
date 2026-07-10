@@ -21,14 +21,32 @@ export default function SharedTripScreen() {
   const { user } = useAuth()
   useSeo({ title: trip ? `${trip.name} (shared trip)` : 'Shared trip', path: '/plan' })
 
+  // One section per day of the trip's date range — a place appears under every
+  // day it has dated picks on (the planner hangs whole trips off one base
+  // place), plus its own day. Undated places with undated picks go to Anytime.
   const days = useMemo(() => {
-    const by = new Map()
-    for (const p of (trip?.places || [])) {
-      const k = p.date || ''
-      if (!by.has(k)) by.set(k, [])
-      by.get(k).push(p)
+    if (!trip) return []
+    const dates = []
+    if (trip.startDate) {
+      const start = new Date(trip.startDate + 'T12:00')
+      const end = trip.endDate ? new Date(trip.endDate + 'T12:00') : start
+      for (let d = new Date(start), n = 0; d <= end && n < 60; d.setDate(d.getDate() + 1), n++) {
+        dates.push(d.toISOString().slice(0, 10))
+      }
     }
-    return [...by.entries()].sort(([a], [b]) => (a || '9999').localeCompare(b || '9999'))
+    const known = new Set(dates)
+    for (const p of (trip.places || [])) {
+      const ks = [p.date || '', ...(p.attractions || []).map((a) => itemDay(a, p)), ...(p.restaurants || []).map((r) => itemDay(r, p))]
+      for (const k of ks) if (k && !known.has(k)) { known.add(k); dates.push(k) }
+    }
+    dates.sort()
+    const itemsOn = (p, k) => (p.attractions || []).some((a) => itemDay(a, p) === k) ||
+      (p.restaurants || []).some((r) => itemDay(r, p) === k)
+    const out = dates.map((k) => [k, (trip.places || []).filter((p) => (p.date || '') === k || itemsOn(p, k))])
+    const anytime = (trip.places || []).filter((p) => !p.date &&
+      (itemsOn(p, '') || (((p.attractions || []).length === 0) && ((p.restaurants || []).length === 0))))
+    if (anytime.length) out.push(['', anytime])
+    return out
   }, [trip])
 
   if (!trip) {
@@ -95,6 +113,7 @@ export default function SharedTripScreen() {
               {markers.length > 0 && (
                 <div className="iday__map"><MapView height={210} center={[markers[0].lng, markers[0].lat]} zoom={10} markers={markers} /></div>
               )}
+              {places.length === 0 && <p className="galtrip__free">Free day — nothing planned.</p>}
               {places.map((p, i) => (
                 <article key={i} className="shared-place">
                   <h3 className="shared-place__name"><MapPin size={15} /> {p.name} <span className="shared-place__region">{p.regionName}</span></h3>

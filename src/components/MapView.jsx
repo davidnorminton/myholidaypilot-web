@@ -69,6 +69,10 @@ export default function MapView({ center, zoom = 11, markers = [], height = 320,
         })
         if (markers.length > 1) {
           map.fitBounds(bounds, { padding: 56, maxZoom: 13, duration: 0 })
+        } else if (markers.length === 1 && !center) {
+          // No explicit center + one marker: without this, Mapbox sits at its
+          // [0,0] default (open ocean).
+          map.jumpTo({ center: [markers[0].lng, markers[0].lat], zoom: Math.min(zoom, 11) })
         }
         if (route && route.length > 1) {
           map.on('load', () => {

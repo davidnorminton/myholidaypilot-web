@@ -106,6 +106,50 @@ function durationLabel(d) {
   const h = Math.round((m / 60) * 10) / 10
   return `${h % 1 === 0 ? h : h.toFixed(1)}h`
 }
+// ── coordinates: product start points via /products/bulk + /locations/bulk ──
+// The search response carries no coordinates; each product's logistics has
+// start-point location refs, which /locations/bulk resolves to a lat/long
+// center. Tours without a resolvable fixed point simply get no pin (hotel
+// pickups, roaming day trips) — never a fake town-centre pin. Any failure
+// degrades to tours without coordinates.
+const locCache = new Map()   // ref → {lat,lng} | null
+let coordsDisabled = false   // 403 = Basic-access key; skip for the whole run
+async function enrichCoords(tours) {
+  if (!tours.length || coordsDisabled) return tours
+  try {
+    const prods = await vfetch('/products/bulk', { method: 'POST', body: { productCodes: tours.map((t) => t.code) } })
+    const list = Array.isArray(prods) ? prods : (prods?.products || [])
+    const startRef = new Map()
+    for (const p of list) {
+      const ref = p?.logistics?.start?.[0]?.location?.ref
+      if (p?.productCode && ref) startRef.set(p.productCode, ref)
+    }
+    const missing = [...new Set(startRef.values())].filter((r) => !locCache.has(r))
+    for (let i = 0; i < missing.length; i += 400) {
+      const chunk = missing.slice(i, i + 400)
+      const locs = await vfetch('/locations/bulk', { method: 'POST', body: { locations: chunk } })
+      for (const l of (Array.isArray(locs) ? locs : (locs?.locations || []))) {
+        const c = l?.center
+        locCache.set(l?.reference, (Number.isFinite(c?.latitude) && Number.isFinite(c?.longitude)) ? { lat: c.latitude, lng: c.longitude } : null)
+      }
+      for (const r of chunk) if (!locCache.has(r)) locCache.set(r, null)
+      await sleep(120)
+    }
+    return tours.map((t) => {
+      const c = locCache.get(startRef.get(t.code)) || null
+      return c ? { ...t, lat: c.lat, lng: c.lng } : t
+    })
+  } catch (e) {
+    if (/403/.test(e.message)) {
+      coordsDisabled = true
+      console.warn('    (coords disabled for this run — /products/bulk needs Full Access; request it free via the partner dashboard → Tools → Affiliate API)')
+    } else {
+      console.warn(`    (coords skipped: ${e.message})`)
+    }
+    return tours
+  }
+}
+
 function toCard(p) {
   return {
     code: p.productCode,
@@ -174,10 +218,49 @@ if (MODE === 'probe') {
     console.log('  ⚠ attractions probe failed — note the request shape to verify:', e.message)
   }
 
+  // coordinates probe — verify /products/bulk + /locations/bulk shapes
+  let sampleBulkProduct = null, sampleLocation = null
+  try {
+    const codes = products.slice(0, 3).map((p) => p.productCode).filter(Boolean)
+    console.log(`\nsync-viator --probe: /products/bulk for ${codes.join(', ')} …`)
+    const bulk = await vfetch('/products/bulk', { method: 'POST', body: { productCodes: codes } })
+    const blist = Array.isArray(bulk) ? bulk : (bulk?.products || [])
+    sampleBulkProduct = blist[0] || null
+    const refs = blist.map((p) => p?.logistics?.start?.[0]?.location?.ref).filter(Boolean)
+    console.log(`  bulk products: ${blist.length}, start refs: ${refs.join(', ') || '(none)'}`)
+    if (refs.length) {
+      const locs = await vfetch('/locations/bulk', { method: 'POST', body: { locations: refs } })
+      const llist = Array.isArray(locs) ? locs : (locs?.locations || [])
+      sampleLocation = llist[0] || null
+      console.log('  sample location:', JSON.stringify(sampleLocation, null, 2))
+    }
+  } catch (e) {
+    console.log('  ⚠ coords probe failed — verify endpoint availability on this tier:', e.message)
+  }
+
   const out = path.join(root, 'viator-probe.json')
-  writeJson(out, { sampleDestination: arr[0], sampleProduct: products[0] || null, mappedCard: toCard(products[0] || {}), sampleAttraction, attractionProduct })
+  writeJson(out, { sampleDestination: arr[0], sampleProduct: products[0] || null, mappedCard: toCard(products[0] || {}), sampleAttraction, attractionProduct, sampleBulkProduct, sampleLocation })
   console.log(`\nWrote ${out} — check the field names line up before ingesting.`)
   process.exit(0)
+}
+
+// Constrain destination matching to the target country's subtree so the
+// nearest-fallback can't jump a border (southeastern Norway once matched
+// Skagen, Denmark — the literal nearest big city, across the strait).
+// Uses lookupId ancestry ("8.77.902" = world.norway.oslo). Returns null when
+// the country node can't be identified — callers fall back to the global pool.
+const COUNTRY_ALIASES = {
+  united_states: ['usa', 'united states', 'united states of america'],
+  united_kingdom: ['united kingdom', 'uk', 'great britain'],
+  south_korea: ['south korea', 'korea republic of', 'republic of korea'],
+}
+function countryScope(dests, slug) {
+  const names = new Set(COUNTRY_ALIASES[slug] || [slug.replace(/_/g, ' ')])
+  const node = dests.find((d) => d.type === 'COUNTRY' && names.has(norm(d.name)))
+  if (!node?.lookupId) return null
+  const prefix = `${node.lookupId}.`
+  const scoped = dests.filter((d) => String(d.lookupId || '').startsWith(prefix))
+  return scoped.length ? scoped : null
 }
 
 // ──────────────────────────────── MAP ────────────────────────────────
@@ -206,15 +289,24 @@ if (MODE === 'map') {
     const idx = readJson(path.join(dataDir, country, 'index.json'), null)
     if (!idx?.regions) continue
     map[country] ||= {}
+    const scoped = countryScope(dests, country)
+    if (!scoped) console.log(`  ⚠ ${country}: country node not found — matching against the global pool`)
+    const scopedIds = scoped ? new Set(scoped.map((d) => d.destinationId)) : null
     for (const r of idx.regions) {
       // 1) name/capital match, disambiguated to the same-named destination
-      //    NEAREST our region's coords (so "Naples" → Italy, not Florida)
-      const named = [...(byNameAll.get(norm(r.name)) || []), ...(byNameAll.get(norm(r.capital)) || [])]
+      //    NEAREST our region's coords (so "Naples" → Italy, not Florida) and
+      //    constrained to this country's subtree when we know it
+      let named = [...(byNameAll.get(norm(r.name)) || []), ...(byNameAll.get(norm(r.capital)) || [])]
+      if (scopedIds) {
+        const inC = named.filter((d) => scopedIds.has(d.destinationId))
+        if (inC.length) named = inC
+      }
       let best = named.length ? { ...nearestOf(named, r), via: 'name' } : null
       if (best && Number.isFinite(best.km) && best.km > 250) best = null   // same name, wrong place
-      // 2) otherwise nearest CITY/REGION by coordinates
+      // 2) otherwise nearest CITY/REGION by coordinates — in-country only
       if (!best && Number.isFinite(r.lat) && Number.isFinite(r.lng)) {
-        const n = nearestOf(dests.filter((d) => ['CITY', 'REGION', 'TOWN', 'AREA'].includes(d.type)), r)
+        const pool = (scoped || dests).filter((d) => ['CITY', 'REGION', 'TOWN', 'AREA'].includes(d.type))
+        const n = nearestOf(pool, r)
         if (n) best = { ...n, via: 'nearest' }
       }
       if (!best || (best.via === 'nearest' && best.km > 150)) { weak.push(`${country}/${r.id} (${r.name})`); continue }
@@ -238,7 +330,6 @@ if (MODE === 'mapPlaces') {
   const byNameAll = new Map()
   for (const d of dests) { const k = norm(d.name); if (!byNameAll.has(k)) byNameAll.set(k, []); byNameAll.get(k).push(d) }
   const nearestOf = (list, p) => list.map((d) => ({ d, km: haversineKm({ lat: p.lat, lng: p.lng }, coordOf(d)) })).sort((a, b) => a.km - b.km)[0]
-  const cityDests = dests.filter((d) => ['CITY', 'TOWN', 'AREA'].includes(d.type))
 
   const regionMap = readJson(path.join(dataDir, 'viator-destinations.json'), {})
   const placeMap = readJson(path.join(dataDir, 'viator-places.json'), {})
@@ -247,13 +338,21 @@ if (MODE === 'mapPlaces') {
     const raw = readJson(path.join(dataDir, country, 'places-index.json'), [])
     const list = Array.isArray(raw) ? raw : (raw.places || [])
     placeMap[country] ||= {}
+    const scoped = countryScope(dests, country)
+    const scopedIds = scoped ? new Set(scoped.map((d) => d.destinationId)) : null
+    const cityPool = (scoped || dests).filter((d) => ['CITY', 'TOWN', 'AREA'].includes(d.type))
     for (const p of list) {
       if (!Number.isFinite(p.lat) || !Number.isFinite(p.lng)) continue
-      // name match (coord-verified), else nearest city/town within a tight radius
-      const named = byNameAll.get(norm(p.name)) || []
+      // name match (coord-verified, in-country when known), else nearest
+      // city/town within a tight radius
+      let named = byNameAll.get(norm(p.name)) || []
+      if (scopedIds) {
+        const inC = named.filter((d) => scopedIds.has(d.destinationId))
+        if (inC.length) named = inC
+      }
       let best = named.length ? nearestOf(named, p) : null
       if (best && best.km > 60) best = null
-      if (!best) { const n = nearestOf(cityDests, p); if (n && n.km <= 35) best = n }
+      if (!best) { const n = nearestOf(cityPool, p); if (n && n.km <= 35) best = n }
       if (!best) { skipped++; continue }
       // if the place resolves to the same destination as its region, skip it —
       // the place page falls back to the region's tours, no need to duplicate.
@@ -280,10 +379,10 @@ for (const country of countries()) {
     if (!m?.destId) continue
     try {
       const { products, total } = await searchProducts({ destination: String(m.destId) })
-      const tours = products.map(toCard).filter((t) => t.code && t.url)
+      const tours = await enrichCoords(products.map(toCard).filter((t) => t.code && t.url))
       writeJson(path.join(dataDir, country, 'viator', `${regionId}.json`), { tours, total, url: m.url || null })
       tours.length ? wrote++ : empty++
-      process.stdout.write(`  ${country}/${regionId} (${m.destName}) → ${tours.length}\n`)
+      process.stdout.write(`  ${country}/${regionId} (${m.destName}) → ${tours.length} (${tours.filter((t) => t.lat != null).length} pinned)\n`)
       await sleep(120)                          // stay comfortably under 150 req / 10s
     } catch (e) {
       console.warn(`  ✗ ${country}/${regionId}: ${e.message}`)
@@ -301,10 +400,10 @@ if (placeMap) {
       if (!m?.destId) continue
       try {
         const { products, total } = await searchProducts({ destination: String(m.destId) })
-        const tours = products.map(toCard).filter((t) => t.code && t.url)
+        const tours = await enrichCoords(products.map(toCard).filter((t) => t.code && t.url))
         writeJson(path.join(dataDir, country, 'viator', 'places', `${placeId}.json`), { tours, total, url: m.url || null })
         if (tours.length) pWrote++
-        process.stdout.write(`  ${country}/place/${placeId} (${m.destName}) → ${tours.length}\n`)
+        process.stdout.write(`  ${country}/place/${placeId} (${m.destName}) → ${tours.length} (${tours.filter((t) => t.lat != null).length} pinned)\n`)
         await sleep(120)
       } catch (e) {
         console.warn(`  ✗ ${country}/place/${placeId}: ${e.message}`)
