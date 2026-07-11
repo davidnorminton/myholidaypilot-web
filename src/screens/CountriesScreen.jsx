@@ -45,10 +45,27 @@ export default function CountriesScreen() {
 
   const shown = filter === 'all' ? live : live.filter((c) => continentOf(c.slug) === filter)
 
+  // Hero mosaic: the top destinations that have a country image set. Falls
+  // back to the page's static hero image until at least 4 exist.
+  const mosaic = useMemo(() => {
+    const ordered = live.slice().sort((a, b) => visitRank(a.slug) - visitRank(b.slug))
+    return ordered.filter((c) => site[`countryHero.${c.slug}`]).slice(0, 5)
+  }, [live, site])
+
   return (
     <div className="page">
       <PageHero id="destinations" eyebrow="myholidaypilot" title="Destinations" emoji="🗺️" bleed
-        sub="Pick where to wander — every country mapped region by region." />
+        sub="Pick where to wander — every country mapped region by region."
+        media={mosaic.length >= 4 ? (
+          <div className={`destmosaic ${mosaic.length >= 5 ? 'is-5' : 'is-4'}`} aria-label="Explore top destinations">
+            {mosaic.map((c, i) => (
+              <Link key={c.slug} to={paths.country(c.slug)} className="destmosaic__tile" style={{ gridArea: 'abcde'[i] }}>
+                <SmartImage src={site[`countryHero.${c.slug}`]} alt={c.name} width={i === 0 ? 500 : 300} priority={i < 3} />
+                <span className="destmosaic__name">{c.flag} {c.name}</span>
+              </Link>
+            ))}
+          </div>
+        ) : null} />
       <main className="wrap">
         {top10.length >= 4 && (
           <section className="desttop">

@@ -3,7 +3,7 @@ import { useSettings } from '../lib/settings.js'
 // A page hero matching the Plan page: eyebrow + title + summary on the left,
 // a settable image (or emoji-on-gradient fallback) on the right. The image is
 // set per page in Admin → Site → Page images, under the key `page.<id>`.
-export default function PageHero({ id, eyebrow, title, sub, emoji = '🧭', bleed = false }) {
+export default function PageHero({ id, eyebrow, title, sub, emoji = '🧭', bleed = false, media = null }) {
   const site = useSettings()
   const img = site[`page.${id}`] || ''
   return (
@@ -13,9 +13,13 @@ export default function PageHero({ id, eyebrow, title, sub, emoji = '🧭', blee
         <h1 className="sub-hero__title">{title}</h1>
         {sub && <p className="sub-hero__sub">{sub}</p>}
       </div>
-      <div className="plan-hero__media" data-emoji={emoji}>
-        {img && <img src={img} alt="" />}
-      </div>
+      {media ? (
+        <div className="plan-hero__media plan-hero__media--custom">{media}</div>
+      ) : (
+        <div className="plan-hero__media" data-emoji={emoji}>
+          {img && <img src={img} alt="" />}
+        </div>
+      )}
     </header>
   )
 }
