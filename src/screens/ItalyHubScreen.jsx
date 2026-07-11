@@ -1,11 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, ArrowLeft } from 'lucide-react'
 import { getHub, getIndex } from '../lib/data.js'
 import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
 import { createTrip, setActiveTrip } from '../lib/trips.js'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { paths } from '../lib/paths.js'
+import { useSettings } from '../lib/settings.js'
+import { imgUrl } from '../lib/imgUrl.js'
+import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
 import { useSeo } from '../lib/seo.js'
 import TripDetails from '../components/TripDetails.jsx'
 
@@ -26,6 +29,7 @@ const defaultSections = (country) => ([
 ])
 
 export default function ItalyHubScreen() {
+  const site = useSettings()
   const { country = 'italy' } = useParams()
   const meta = COUNTRIES.find((c) => c.slug === country)
   const navigate = useNavigate()
@@ -51,13 +55,23 @@ export default function ItalyHubScreen() {
     navigate(paths.plan())
   }
 
+  const countryHero = site[`countryHero.${country}`] || ''
+
   return (
     <div className="page">
-      <header className="hero">
-        <div className="wrap">
-          <p className="eyebrow"><Link to={paths.destinations()} className="eyebrow__link">Destinations</Link> · {meta?.name}</p>
-          <h1 className="hero__title">{meta?.name}</h1>
-          <p className="hero__sub">Everything you need to plan it — the regions, the festivals, the food, and how to get around.</p>
+      <header className={`sub-hero wrap plan-hero plan-hero--bleed place-hero ${countryHero ? '' : 'place-hero--noimg'}`}>
+        <div className="plan-hero__text">
+          <Link to={paths.destinations()} className="place-hero__crumb"><ArrowLeft size={15} /> All destinations</Link>
+          <h1 className="sub-hero__title">{meta?.name}</h1>
+          <p className="sub-hero__sub">Everything you need to plan it — the regions, the festivals, the food, and how to get around.</p>
+        </div>
+        <div className="plan-hero__media">
+          {countryHero ? (
+            <img src={imgUrl(countryHero, 800)} alt={meta?.name} loading="eager" fetchPriority="high" decoding="async"
+              onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+          ) : (
+            <PlacePlaceholder iconSize={56} />
+          )}
         </div>
       </header>
 

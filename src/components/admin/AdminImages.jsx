@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Plus, Trash2, Save, Download, ArrowUp, ArrowDown, Search } from 'lucide-react'
-import { getImages, getRegion } from '../../lib/data.js'
+import { getImages, getRegion, getPlacesIndex } from '../../lib/data.js'
 import { saveImages, download } from '../../lib/cms.js'
 import { RegionPicker } from './Bits.jsx'
 import UploadButton from '../UploadButton.jsx'
@@ -217,6 +217,80 @@ function RegionImages({ country, regionId, onBack }) {
   )
 }
 
+// Country main image: pick from every place photo in the country (live DB or
+// static fallback via getImages), or set a custom URL/upload. Stored as the
+// countryHero.<slug> site setting — used by the destinations cards and the
+// country page hero.
+function CountryHeroPicker({ countryId }) {
+  const [imgs, setImgs] = useState(null)
+  const [names, setNames] = useState({})
+  const [current, setCurrent] = useState('')
+  const [custom, setCustom] = useState('')
+  const [busy, setBusy] = useState(false)
+
+  useEffect(() => {
+    let on = true
+    getImages(countryId).then((all) => on && setImgs(all || {})).catch(() => on && setImgs({}))
+    getPlacesIndex(countryId).then((list) => {
+      if (!on) return
+      const m = {}
+      for (const pl of (Array.isArray(list) ? list : (list?.places || []))) m[pl.id] = pl.name
+      setNames(m)
+    }).catch(() => {})
+    api.settings.getAll().then((sAll) => on && setCurrent(sAll?.[`countryHero.${countryId}`] || '')).catch(() => {})
+    return () => { on = false }
+  }, [countryId])
+
+  const options = useMemo(() => {
+    if (!imgs) return []
+    const out = []
+    for (const [regionId, places] of Object.entries(imgs)) {
+      if (regionId === '__regions') continue
+      for (const [placeId, list] of Object.entries(places || {})) {
+        const u = list?.[0]?.url
+        if (u) out.push({ url: u, label: names[placeId] || placeId, regionId })
+      }
+    }
+    return out
+  }, [imgs, names])
+
+  const setHero = async (url) => {
+    setBusy(true)
+    try { await api.settings.save({ [`countryHero.${countryId}`]: url }); setCurrent(url); setCustom('') }
+    catch (e) { alert(e.message || 'Save failed') }
+    finally { setBusy(false) }
+  }
+
+  return (
+    <section className="cms-sec">
+      <div className="cms-sec__head"><h3>Country image</h3></div>
+      <p className="admin-note">The country's main image — shown on the Destinations page cards and the country page hero. Pick one of its place photos, or set a custom one.</p>
+      {imgs === null && <p className="admin-empty">Loading photos…</p>}
+      {imgs !== null && options.length === 0 && <p className="cms-items__empty">No place photos in this country yet.</p>}
+      {options.length > 0 && (
+        <ul className="cms-herogrid">
+          {options.map((o) => (
+            <li key={`${o.regionId}/${o.label}/${o.url}`}>
+              <button className={`cms-heropick ${o.url === current ? 'is-on' : ''}`} disabled={busy}
+                onClick={() => setHero(o.url)} title={`Use ${o.label}'s photo`}>
+                <img src={o.url} alt="" loading="lazy" />
+                <span>{o.label}</span>
+                {o.url === current && <em className="cms-heropick__on"><CheckIcon size={13} /> Country image</em>}
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+      <div className="imgfield__row cms-herocustom">
+        <input value={custom} placeholder="Custom image URL or upload" onChange={(e) => setCustom(e.target.value)} />
+        <UploadButton onUploaded={setCustom} className="imgfield__btn" />
+        <button className="btn btn--primary" disabled={busy || !custom.trim()} onClick={() => setHero(custom.trim())}><Save size={14} /> Set</button>
+        {current && <button className="btn btn--soft" disabled={busy} onClick={() => setHero('')}>Clear</button>}
+      </div>
+    </section>
+  )
+}
+
 export default function AdminImages({ regions }) {
   const [builds, setBuilds] = useState(null)
   const [countryId, setCountryId] = useState('')
@@ -252,6 +326,8 @@ export default function AdminImages({ regions }) {
       </div>
 
       {!countryId && <p className="admin-empty">Pick a country to manage its region and place images.</p>}
+
+      {countryId && <CountryHeroPicker countryId={countryId === '__italy_static' ? 'italy' : countryId} />}
 
       {countryId === '__italy_static' && <LegacyItalyImages regions={regions} />}
 

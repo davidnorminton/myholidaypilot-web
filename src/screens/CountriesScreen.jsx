@@ -4,6 +4,9 @@ import { ArrowRight } from 'lucide-react'
 import { COUNTRIES } from '../lib/countries.js'
 import { paths } from '../lib/paths.js'
 import PageHero from '../components/PageHero.jsx'
+import SmartImage from '../components/SmartImage.jsx'
+import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
+import { useSettings } from '../lib/settings.js'
 
 // Continent grouping for the filter — a country not listed falls under "Other".
 const CONTINENT = {
@@ -30,6 +33,7 @@ const VISIT_RANK = {
 const visitRank = (slug) => VISIT_RANK[slug] ?? 999
 
 export default function CountriesScreen() {
+  const site = useSettings()
   const live = useMemo(() => COUNTRIES.filter((c) => c.available).sort((a, b) => a.name.localeCompare(b.name)), [])
   const continents = useMemo(() => {
     const set = [...new Set(live.map((c) => continentOf(c.slug)))]
@@ -91,13 +95,19 @@ export default function CountriesScreen() {
           </div>
         )}
         <div className="dest-grid">
-          {shown.map((c) => (
-            <Link key={c.slug} to={paths.country(c.slug)} className="dcard">
-              <span className="dcard__flag">{c.flag}</span>
-              <span className="dcard__name">{c.name}</span>
-              <ArrowRight size={17} className="dcard__go" />
-            </Link>
-          ))}
+          {shown.map((c, i) => {
+            const hero = site[`countryHero.${c.slug}`] || ''
+            return (
+              <Link key={c.slug} to={paths.country(c.slug)} className="dcard">
+                <span className="dcard__media">
+                  {hero ? <SmartImage src={hero} alt={c.name} width={320} priority={i < 4} /> : <PlacePlaceholder />}
+                </span>
+                <span className="dcard__kicker">{c.flag} {c.continent || 'Destination'}</span>
+                <span className="dcard__name">{c.name}</span>
+                <span className="dcard__cta">Explore <ArrowRight size={14} /></span>
+              </Link>
+            )
+          })}
         </div>
       </main>
     </div>
