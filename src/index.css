@@ -2681,7 +2681,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
   flex:none; width:50%; align-self:stretch;
   aspect-ratio:auto; border-radius:0; min-height:clamp(320px,40vw,520px);
 }
-.plan-hero--bleed .sub-hero__title{ font-size:clamp(56px,9vw,120px); line-height:.94 }
+.plan-hero--bleed .sub-hero__title{ font-size:clamp(56px,9vw,80px); line-height:.94 }
 .plan-hero--bleed .guided__title{ font-size:clamp(40px,7vw,88px); line-height:.96; margin:6px 0 14px }
 .plan-hero--bleed .sub-hero__sub, .plan-hero--bleed .guided__sub{ max-width:44ch }
 /* Dark hero treatment (country / region / place pages). The two colours live
@@ -3009,7 +3009,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .tripdetails__chip svg{width:30px; height:30px}
 .tripdetails__cell h3{font-size:22px; margin:0; line-height:1.15; color:#fff}
 .tripdetails__cell p{font-size:16px; color:#f8f8f8; line-height:1.6; margin:0}
-.tripdetails__sub{font-family:var(--sans); font-size:28px; margin:0 0 14px}
+.tripdetails__sub{font-family:var(--sans); font-size:40px; text-align:center; margin:46px 0 14px}
 /* itinerary timeline */
 .tripdetails__itin{margin-bottom:24px}
 .itin{list-style:none; margin:0; padding:0; position:relative}
@@ -3036,14 +3036,14 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .itday__text{margin:0; padding:0 4px 22px; font-size:16px; line-height:1.7; color:var(--ink-soft); max-width:76ch}
 /* FAQ accordions */
 .tripdetails__faq{width:100%}
-.tripdetails__q{background:var(--surface-2); border:1px solid var(--line); border-radius:14px; margin-bottom:8px; overflow:hidden}
-.tripdetails__q summary{display:flex; align-items:center; justify-content:space-between; gap:14px; cursor:pointer;
-  font-weight:600; font-size:14.5px; padding:14px 16px; list-style:none; transition:background .14s ease}
+.tripdetails__q{background:#131212; border:none; border-radius:0; margin-bottom:8px; overflow:hidden}
+.tripdetails__q summary{display:flex; align-items:center; justify-content:space-between; gap:14px; cursor:pointer; color:#fff;
+  font-weight:600; font-size:17.5px; padding:14px 16px; list-style:none; transition:background .14s ease}
 .tripdetails__q summary::-webkit-details-marker{display:none}
-.tripdetails__q summary:hover{background:color-mix(in srgb, var(--accent, var(--gold)) 6%, var(--surface-2))}
-.tripdetails__chev{flex:none; color:var(--muted); transition:transform .18s ease}
+.tripdetails__q summary:hover{background:#1f1d1d}
+.tripdetails__chev{flex:none; color:rgba(255,255,255,.6); transition:transform .18s ease}
 .tripdetails__q[open] .tripdetails__chev{transform:rotate(180deg)}
-.tripdetails__q p{font-size:14px; color:var(--muted); line-height:1.65; margin:0; padding:16px 16px 18px; border-top:1px solid var(--line)}
+.tripdetails__q p{font-size:16px; color:#fff; line-height:1.65; margin:0; padding:16px 16px 18px; border-top:1px solid rgba(255,255,255,.14)}
 @media (max-width:560px){ .tripdetails__grid{grid-template-columns:1fr} }
 
 
