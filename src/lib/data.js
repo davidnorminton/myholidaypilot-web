@@ -25,7 +25,25 @@ export async function getHub(country = 'italy') {
 
 export async function getRegion(id, country = 'italy') {
   const baseRegion = await getJSON(`${country}/regions/${id}.json`)
-  return country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
+  const region = country === 'italy' ? (regionOverride(id) || baseRegion) : baseRegion
+  // Overlay live images from the builder DB (via /api/images) so admin edits
+  // show without a deploy: the region hero and each place's card image.
+  try {
+    const all = await getImages(country)
+    const live = all?.[id]
+    const hero = all?.__regions?.[id]
+    if (live || hero) {
+      return {
+        ...region,
+        ...(hero?.url ? { heroImage: hero } : {}),
+        places: (region.places || []).map((p) => {
+          const u = live?.[p.id]?.[0]?.url
+          return u ? { ...p, image: u } : p
+        }),
+      }
+    }
+  } catch { /* static data stands */ }
+  return region
 }
 
 // Viator tours baked per region/place by scripts/sync-viator.mjs, as

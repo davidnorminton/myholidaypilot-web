@@ -9,7 +9,7 @@
 import { getDb, schema, eq } from './_lib/db.js'
 import { send, fail, handler } from './_lib/util.js'
 
-const { buildPlaces } = schema
+const { buildPlaces, buildRegions } = schema
 
 export default handler(async (req, res) => {
   if (req.method !== 'GET') throw fail(405, 'Method not allowed')
@@ -28,6 +28,14 @@ export default handler(async (req, res) => {
     if (!r.image) continue
     ;(out[r.regionId] = out[r.regionId] || {})[r.placeId] = [r.image]
   }
+
+  // Region heroes ride along under a reserved key (never collides with a real
+  // region id). Consumers do keyed lookups, so unknown keys are inert.
+  const regs = await db.select({ regionId: buildRegions.regionId, data: buildRegions.data })
+    .from(buildRegions).where(eq(buildRegions.countryId, country))
+  const heroes = {}
+  for (const r of regs) if (r.data?.heroImage?.url) heroes[r.regionId] = r.data.heroImage
+  if (Object.keys(heroes).length) out.__regions = heroes
 
   // Cache aggressively at the edge: images change rarely, and stale-while-
   // revalidate serves instantly from cache while refreshing in the background.

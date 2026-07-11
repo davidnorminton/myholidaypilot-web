@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { getIndex, getPlacesIndex } from '../lib/data.js'
+import { getIndex, getPlacesIndex, getImages } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import RegionCard from '../components/RegionCard.jsx'
 import { CardSkeletons } from '../components/Loading.jsx'
@@ -14,6 +14,7 @@ export default function RegionsScreen() {
   useSeo({ title: `Regions of ${meta?.name || ''}`, description: `All the regions of ${meta?.name || ''} — their towns, tables and stories.`, path: `/${country}/regions` })
   const [regions, setRegions] = useState(null)
   const [placesByRegion, setPlacesByRegion] = useState({})
+  const [liveHeroes, setLiveHeroes] = useState({})
   const [q, setQ] = useState('')
 
   useEffect(() => {
@@ -29,11 +30,12 @@ export default function RegionsScreen() {
       }
       setPlacesByRegion(byRegion)
     }).catch(() => setPlacesByRegion({}))
+    getImages(country).then((all) => setLiveHeroes(all?.__regions || {})).catch(() => setLiveHeroes({}))
   }, [country])
 
-  // Card image is baked into the region summary at build time (hero → first
-  // place with an image). No runtime image lookup needed.
-  const firstImage = (r) => r.cardImage || r.heroImage?.url || null
+  // Card image: an admin-set hero from the builder DB wins (live, no deploy),
+  // else the summary baked at build time (hero → first place with an image).
+  const firstImage = (r) => liveHeroes[r.id]?.url || r.cardImage || r.heroImage?.url || null
 
   const filtered = useMemo(() => {
     if (!regions) return null
