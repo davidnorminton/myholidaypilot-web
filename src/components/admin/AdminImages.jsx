@@ -291,9 +291,9 @@ function CountryHeroPicker({ countryId }) {
   )
 }
 
-export default function AdminImages({ regions }) {
+export default function AdminImages({ regions, fixedCountry = '' }) {
   const [builds, setBuilds] = useState(null)
-  const [countryId, setCountryId] = useState('')
+  const [countryId, setCountryId] = useState(fixedCountry)
   const [regionsData, setRegionsData] = useState(null)
   const [regionId, setRegionId] = useState('')
 
@@ -311,19 +311,21 @@ export default function AdminImages({ regions }) {
 
   return (
     <div className="cms">
-      <div className="cms-pickrow">
-        <label className="admin-field">
-          <span className="admin-field__label">Country</span>
-          <select value={countryId} onChange={(e) => setCountryId(e.target.value)}>
-            <option value="">Choose a country…</option>
-            {buildList.map((b) => {
-              const id = b.countryId || b.id
-              return <option key={id} value={id}>{b.flag ? `${b.flag} ` : ''}{b.name || id}</option>
-            })}
-            {!hasItalyBuild && <option value="__italy_static">🇮🇹 Italy (static images.json)</option>}
-          </select>
-        </label>
-      </div>
+      {!fixedCountry && (
+        <div className="cms-pickrow">
+          <label className="admin-field">
+            <span className="admin-field__label">Country</span>
+            <select value={countryId} onChange={(e) => setCountryId(e.target.value)}>
+              <option value="">Choose a country…</option>
+              {buildList.map((b) => {
+                const id = b.countryId || b.id
+                return <option key={id} value={id}>{b.flag ? `${b.flag} ` : ''}{b.name || id}</option>
+              })}
+              {!hasItalyBuild && <option value="__italy_static">🇮🇹 Italy (static images.json)</option>}
+            </select>
+          </label>
+        </div>
+      )}
 
       {!countryId && <p className="admin-empty">Pick a country to manage its region and place images.</p>}
 

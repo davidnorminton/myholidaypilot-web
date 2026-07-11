@@ -40,8 +40,8 @@ const DRAFTS = {
 
 const empty = () => Object.fromEntries(FIELDS.map(([k]) => [k, '']))
 
-export default function AdminFacts() {
-  const [slug, setSlug] = useState('')
+export default function AdminFacts({ fixedSlug = '' }) {
+  const [slug, setSlug] = useState(fixedSlug)
   const [all, setAll] = useState(null)
   const [form, setForm] = useState(empty())
   const [saved, setSaved] = useState(false)
@@ -102,15 +102,17 @@ export default function AdminFacts() {
 
   return (
     <div className="cms">
-      <div className="cms-pickrow">
-        <label className="admin-field">
-          <span className="admin-field__label">Country</span>
-          <select value={slug} onChange={(e) => setSlug(e.target.value)}>
-            <option value="">Choose a country…</option>
-            {COUNTRIES.map((c) => <option key={c.slug} value={c.slug}>{c.flag} {c.name}{all[`countryFacts.${c.slug}`] ? ' ✓' : ''}</option>)}
-          </select>
-        </label>
-      </div>
+      {!fixedSlug && (
+        <div className="cms-pickrow">
+          <label className="admin-field">
+            <span className="admin-field__label">Country</span>
+            <select value={slug} onChange={(e) => setSlug(e.target.value)}>
+              <option value="">Choose a country…</option>
+              {COUNTRIES.map((c) => <option key={c.slug} value={c.slug}>{c.flag} {c.name}{all[`countryFacts.${c.slug}`] ? ' ✓' : ''}</option>)}
+            </select>
+          </label>
+        </div>
+      )}
 
       {!slug && <p className="admin-empty">Pick a country to edit the fact strip shown under its page hero. A ✓ means facts are already saved.</p>}
 

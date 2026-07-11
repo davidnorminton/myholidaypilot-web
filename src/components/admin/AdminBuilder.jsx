@@ -53,7 +53,7 @@ export default function AdminBuilder() {
   )
 }
 
-function NewBuild({ onCreated }) {
+export function NewBuild({ onCreated }) {
   const [open, setOpen] = useState(false)
   const [name, setName] = useState('')
   const [flag, setFlag] = useState('')
@@ -89,7 +89,7 @@ function NewBuild({ onCreated }) {
   )
 }
 
-function BuildView({ countryId, onBack }) {
+export function BuildView({ countryId, onBack, embedded = false }) {
   const [data, setData] = useState(null)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
@@ -123,7 +123,7 @@ function BuildView({ countryId, onBack }) {
   return (
     <div className="bld">
       <div className="bld__head">
-        <button className="story__act" onClick={onBack}><ArrowLeft size={14} /> All builds</button>
+        {!embedded && <button className="story__act" onClick={onBack}><ArrowLeft size={14} /> All builds</button>}
         <h2 className="bld__title">{build.flag} {build.name}</h2>
         <button className="story__act bld__discard" onClick={discard}><Trash2 size={13} /> Discard</button>
       </div>

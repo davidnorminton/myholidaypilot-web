@@ -6,8 +6,7 @@ import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import AdminPlaces from '../components/admin/AdminPlaces.jsx'
-import AdminImages from '../components/admin/AdminImages.jsx'
-import AdminFacts from '../components/admin/AdminFacts.jsx'
+import AdminCountries from '../components/admin/AdminCountries.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
 import AdminExport from '../components/admin/AdminExport.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
@@ -17,27 +16,22 @@ import AdminComments from '../components/admin/AdminComments.jsx'
 import AdminStats from '../components/admin/AdminStats.jsx'
 import AdminMissingImages from '../components/admin/AdminMissingImages.jsx'
 import AdminContact from '../components/admin/AdminContact.jsx'
-import AdminBuilder from '../components/admin/AdminBuilder.jsx'
 import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
-import AdminDetails from '../components/admin/AdminDetails.jsx'
 import AdminAi from '../components/admin/AdminAi.jsx'
 
 const SECTIONS = [
   { id: 'site', label: 'Site', icon: Home },
   { id: 'journal', label: 'Blog', icon: PenLine },
   { id: 'places', label: 'Places', icon: MapPin },
-  { id: 'images', label: 'Images', icon: ImageIcon },
+  { id: 'countries', label: 'Countries', icon: Globe2 },
   { id: 'affiliates', label: 'Affiliates', icon: BadgePercent },
   { id: 'audience', label: 'Newsletter', icon: Mail },
   { id: 'gallery', label: 'Gallery', icon: Globe2 },
   { id: 'comments', label: 'Comments', icon: MessageSquare },
   { id: 'contact', label: 'Contact', icon: Mail },
   { id: 'seo', label: 'SEO', icon: Globe },
-  { id: 'details', label: 'Trip details', icon: CalendarRange },
-  { id: 'facts', label: 'Country facts', icon: Info },
   { id: 'ai', label: 'AI', icon: Sparkles },
-  { id: 'builder', label: 'Country builder', icon: Hammer },
   { id: 'missing', label: 'Missing images', icon: ImageOff },
   { id: 'export', label: 'Export', icon: FileJson },
 ]
@@ -80,13 +74,10 @@ export default function AdminScreen() {
               <option value="journal">Blog</option>
               <option value="site">Site</option>
               <option value="places">Places</option>
-              <option value="images">Images</option>
-              <option value="facts">Country facts</option>
+              <option value="countries">Countries</option>
               <option value="gallery">Gallery</option>
             </optgroup>
             <optgroup label="Build">
-              <option value="builder">Country builder</option>
-              <option value="details">Trip details</option>
               <option value="missing">Missing images</option>
               <option value="ai">AI</option>
               <option value="export">Export</option>
@@ -110,10 +101,8 @@ export default function AdminScreen() {
       <main className="wrap admin">
         {section === 'journal' && <AdminBlog />}
         {section === 'site' && <AdminSite regions={regions} />}
-        {section === 'details' && <AdminDetails />}
         {section === 'places' && <AdminPlaces regions={regions} />}
-        {section === 'images' && <AdminImages regions={regions} />}
-        {section === 'facts' && <AdminFacts />}
+        {section === 'countries' && <AdminCountries regions={regions} />}
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
         {section === 'gallery' && <AdminGallery />}
@@ -121,7 +110,6 @@ export default function AdminScreen() {
         {section === 'contact' && <AdminContact />}
         {section === 'seo' && <AdminSeo />}
         {section === 'ai' && <AdminAi />}
-        {section === 'builder' && <AdminBuilder />}
         {section === 'missing' && <AdminMissingImages />}
         {section === 'export' && <AdminExport regions={regions} />}
       </main>

@@ -5,7 +5,7 @@ import { api } from '../../lib/api.js'
 // Generate SEO trip-planning details (intro, getting there, itinerary, FAQ)
 // for a country and each of its regions. Stored in the builder DB; synced to
 // the static files (and prerendered) on the next deploy.
-export default function AdminDetails() {
+export default function AdminDetails({ fixedCountry = '' }) {
   const [countries, setCountries] = useState(null)
   const [country, setCountry] = useState('')
   const [regions, setRegions] = useState(null)
@@ -16,7 +16,8 @@ export default function AdminDetails() {
   useEffect(() => {
     api.builder.list().then((rows) => {
       setCountries(rows || [])
-      if (rows?.length && !country) setCountry(rows[0].countryId)
+      if (fixedCountry) setCountry(fixedCountry)
+      else if (rows?.length && !country) setCountry(rows[0].countryId)
     }).catch(() => setCountries([]))
   }, [])
 
@@ -83,12 +84,14 @@ export default function AdminDetails() {
       {countries && countries.length === 0 && <p className="admin-note">No builds yet — build a country first.</p>}
       {countries && countries.length > 0 && (
         <>
-          <label className="admin-field">
-            <span className="admin-field__label">Country</span>
-            <select value={country} onChange={(e) => setCountry(e.target.value)}>
-              {countries.map((c) => <option key={c.countryId} value={c.countryId}>{c.flag ? `${c.flag} ` : ''}{c.name}</option>)}
-            </select>
-          </label>
+          {!fixedCountry && (
+            <label className="admin-field">
+              <span className="admin-field__label">Country</span>
+              <select value={country} onChange={(e) => setCountry(e.target.value)}>
+                {countries.map((c) => <option key={c.countryId} value={c.countryId}>{c.flag ? `${c.flag} ` : ''}{c.name}</option>)}
+              </select>
+            </label>
+          )}
           {error && <p className="admin-error">{error}</p>}
           {regions === null ? <p className="admin-note">Loading…</p> : (
             <div className="details-list">

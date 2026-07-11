@@ -845,8 +845,10 @@ body.dragging-noselect .ip__edit, body.dragging-noselect a{cursor:grabbing}
 .pd-sheet{position:relative; z-index:1; background:var(--paper); min-height:60vh}
 
 /* Place hero (destinations-style) + hero action pills (Save / Add to trip) */
-.place-hero__crumb{display:inline-flex; align-items:center; gap:7px; font-weight:700; font-size:14px; color:var(--muted); text-decoration:none}
-.place-hero__crumb:hover{color:var(--accent); text-decoration:underline; text-underline-offset:3px}
+.place-hero__crumb{display:inline-flex; align-items:center; gap:8px; font-weight:700; font-size:13px;
+  text-transform:uppercase; letter-spacing:.06em; background:#fff; color:#000; padding:6px 12px;
+  text-decoration:none; margin-bottom:clamp(44px,6vw,90px)}
+.place-hero__crumb:hover{text-decoration:underline; text-underline-offset:3px}
 .place-hero__alt{color:var(--muted); font-style:italic; font-size:clamp(17px,2vw,22px); margin:6px 0 0}
 .place-hero__actions{display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:24px}
 .pd-action, .save-btn.pd-action, .beenhere.pd-action{display:inline-flex; align-items:center; gap:8px; height:44px; padding:0 18px; border-radius:999px;
@@ -2682,6 +2684,20 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .plan-hero--bleed .sub-hero__title{ font-size:clamp(56px,9vw,120px); line-height:.94 }
 .plan-hero--bleed .guided__title{ font-size:clamp(40px,7vw,88px); line-height:.96; margin:6px 0 14px }
 .plan-hero--bleed .sub-hero__sub, .plan-hero--bleed .guided__sub{ max-width:44ch }
+/* Dark hero treatment (country / region / place pages). The two colours live
+   here: charcoal panel + the yellow sub block. */
+.plan-hero--bleed.place-hero{background:#2b2d2e}
+.place-hero .sub-hero__title{color:#fff}
+.place-hero .sub-hero__sub{display:inline-block; background:#f7c744; color:#141414; padding:16px 20px;
+  margin-top:22px; line-height:1.6; font-size:17px}
+.place-hero__alt{color:rgba(255,255,255,.72)}
+.place-hero__meta{color:rgba(255,255,255,.72)}
+.place-hero .btn--primary{background:#fff; color:#111; border-color:#fff}
+.place-hero .btn--primary:hover{filter:brightness(.92)}
+.place-hero .btn--soft{background:transparent; color:#fff; border-color:rgba(255,255,255,.55)}
+.place-hero .btn--soft:hover{border-color:#fff}
+.place-hero--flush{margin-bottom:0 !important}
+
 @media (max-width: 820px){
   .plan-hero.plan-hero--bleed{ flex-direction:column }
   .plan-hero--bleed .plan-hero__media{ width:100%; min-height:0; aspect-ratio:16/9 }
@@ -3286,7 +3302,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .hiw__facts svg{color:var(--gold); flex:none}
 .hiw__cta{display:flex; gap:12px; flex-wrap:wrap; margin-top:28px}
 /* --- country fact strip --- */
-.cfacts-band{border-top:1px solid var(--line); border-bottom:1px solid var(--line); margin:26px 0 4px}
+.cfacts-band{border-bottom:1px solid var(--line); margin:0 0 35px}
 .cfacts{display:flex; flex-wrap:wrap; gap:0; margin:0 auto; padding:16px 0}
 .cfacts__item{flex:1 1 auto; min-width:140px; padding:2px 26px; border-left:1px solid var(--line)}
 .cfacts__item:first-child{border-left:0; padding-left:0}
@@ -3298,6 +3314,17 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 }
 .cfacts-form{display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px 16px; margin-bottom:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* --- admin countries hub --- */
+.chub__pickrow{align-items:flex-end}
+.chub__stats{display:grid; grid-template-columns:repeat(auto-fill, minmax(130px,1fr)); gap:10px; margin:14px 0 18px}
+.cstat{padding:12px 14px; background:var(--surface); border:1px solid var(--line)}
+.cstat b{display:block; font-size:20px; line-height:1.1}
+.cstat span{font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted)}
+.cstat--warn b{color:#b4231a}
+.chub__tools{display:flex; gap:6px; flex-wrap:wrap; margin:0 0 16px; border-bottom:1px solid var(--line); padding-bottom:10px}
+.chub__tool{display:inline-flex; align-items:center; gap:7px; padding:8px 14px; border:1px solid var(--line); background:var(--surface); font-weight:700; font-size:13px; cursor:pointer}
+.chub__tool.is-on{background:var(--ink); color:#fff; border-color:var(--ink)}
+.chub__tool--refresh{margin-left:auto}
 /* --- admin images: country → regions → places --- */
 .cms-backlink{display:inline-flex; align-items:center; gap:4px; margin:0 0 12px; padding:6px 10px; border:0; background:none; color:var(--gold); font-weight:700; font-size:13.5px; cursor:pointer}
 .cms-regionlist{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px}

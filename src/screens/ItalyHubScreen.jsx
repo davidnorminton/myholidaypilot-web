@@ -65,7 +65,7 @@ export default function ItalyHubScreen() {
 
   return (
     <div className="page">
-      <header className={`sub-hero wrap plan-hero plan-hero--bleed place-hero ${countryHero ? '' : 'place-hero--noimg'}`}>
+      <header className={`sub-hero wrap plan-hero plan-hero--bleed place-hero ${factRows.length ? 'place-hero--flush' : ''} ${countryHero ? '' : 'place-hero--noimg'}`}>
         <div className="plan-hero__text">
           <Link to={paths.destinations()} className="place-hero__crumb"><ArrowLeft size={15} /> All destinations</Link>
           <h1 className="sub-hero__title">{meta?.name}</h1>
