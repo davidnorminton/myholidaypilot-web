@@ -15,8 +15,10 @@ export default function TripDetails({ details, title = 'Plan your trip' }) {
   return (
     <section className="tripdetails">
       <p className="tripdetails__eyebrow">Plan your trip</p>
-      <h2 className="tripdetails__title">{title}</h2>
-      {d.intro && <p className="tripdetails__intro">{d.intro}</p>}
+      <div className="tripdetails__head">
+        <h2 className="tripdetails__title">{title}</h2>
+        {d.intro && <p className="tripdetails__intro">{d.intro}</p>}
+      </div>
 
       {cells.length > 0 && (
         <div className="tripdetails__grid">

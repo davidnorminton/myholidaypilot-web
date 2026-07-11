@@ -2981,8 +2981,10 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .tripdetails{margin:28px 0 10px}
 .tripdetails__eyebrow{font-family:var(--mono, 'Geist Mono', monospace); font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); margin:0 0 6px; display:flex; align-items:center; gap:10px}
 .tripdetails__eyebrow::before{content:''; width:26px; height:1.5px; background:var(--gold)}
-.tripdetails__title{font-family:var(--sans); font-size:clamp(24px,3.2vw,32px); margin:0 0 10px}
-.tripdetails__intro{color:var(--muted); max-width:72ch; font-size:16px; line-height:1.65; margin:0 0 20px}
+.tripdetails__head{display:flex; align-items:center; justify-content:space-between; gap:36px; margin-bottom:22px}
+.tripdetails__title{font-family:var(--sans); font-size:clamp(24px,3.2vw,32px); margin:0; flex:none}
+.tripdetails__intro{color:var(--muted); max-width:56ch; font-size:16px; line-height:1.65; margin:0}
+@media (max-width:720px){ .tripdetails__head{flex-direction:column; align-items:flex-start; gap:10px} }
 .tripdetails__grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:14px; margin-bottom:24px}
 .tripdetails__cell{position:relative; padding:26px 28px 24px; background:#607d8b; border:0; border-radius:0; transition:transform .16s ease, box-shadow .16s ease}
 .tripdetails__cell:hover{transform:translateY(-2px); box-shadow:0 8px 22px rgba(30,25,18,.16)}
@@ -2991,7 +2993,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .tripdetails__chip svg{width:30px; height:30px}
 .tripdetails__cell h3{font-size:22px; margin:0; line-height:1.15; color:#fff}
 .tripdetails__cell p{font-size:16px; color:#f8f8f8; line-height:1.6; margin:0}
-.tripdetails__sub{font-family:var(--sans); font-size:20px; margin:0 0 14px}
+.tripdetails__sub{font-family:var(--sans); font-size:28px; margin:0 0 14px}
 /* itinerary timeline */
 .tripdetails__itin{margin-bottom:24px}
 .itin{list-style:none; margin:0; padding:0; position:relative}
@@ -3005,6 +3007,11 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .itin__body{padding-top:5px}
 .itin__name{font-size:15px}
 .itin__body p{font-size:14px; color:var(--muted); line-height:1.6; margin:4px 0 0}
+/* guide timeline (scoped: .itin is shared with the planner itinerary) */
+.tripdetails__itin .itin__step{margin:32px 0}
+.tripdetails__itin .itin__step:first-child{margin-top:0}
+.tripdetails__itin .itin__name{font-size:22px}
+.tripdetails__itin .itin__body p{font-size:16px}
 /* FAQ accordions */
 .tripdetails__faq{width:100%}
 .tripdetails__q{background:var(--surface-2); border:1px solid var(--line); border-radius:14px; margin-bottom:8px; overflow:hidden}
