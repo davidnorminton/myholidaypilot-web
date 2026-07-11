@@ -108,17 +108,17 @@ export default function LandingScreen() {
           <p className="eyebrow">The trip planner</p>
           <h2 className="planner-feat__title">From saved places to a day-by-day plan</h2>
           <p className="planner-feat__sub">
-            Save the towns you like the look of, set your dates, and shape the trip into days —
-            with the attractions and restaurants you've chosen pinned to each stop, all on one map.
-            Free with a Google sign-in — your trips are saved to your account and follow you across devices.
+            Pick a destination and dates, then build each day — things to do, bookable
+            experiences, places to eat and where you're staying, all pinned to one map.
+            No account needed to plan; sign in with Google and your trips sync across devices.
           </p>
           <ul className="planner-feat__list">
-            <li><Check size={15} /> Save places as you browse</li>
-            <li><Check size={15} /> Build days and drag them into order</li>
-            <li><Check size={15} /> Pick attractions &amp; restaurants per stop</li>
-            <li><Check size={15} /> Stays, flights &amp; best-route days</li>
+            <li><Check size={15} /> Plan each day: sights, food &amp; experiences</li>
+            <li><Check size={15} /> Drag a day's picks into the perfect order</li>
+            <li><Check size={15} /> Flights from your home airport, stays per night</li>
             <li><Check size={15} /> Day maps, weather &amp; distances</li>
-            <li><Check size={15} /> A printable PDF &amp; share link</li>
+            <li><Check size={15} /> Review &amp; book everything in one place</li>
+            <li><Check size={15} /> A printable PDF, share link &amp; trip ideas gallery</li>
           </ul>
           <div className="planner-feat__ctas">
             <Link to={paths.plan()} className="btn btn--primary">Start a trip <ArrowRight size={17} /></Link>

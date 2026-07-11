@@ -257,6 +257,7 @@ export function GalleryTripScreen() {
                   </span>
                 )}
               </header>
+              {snap.dayNotes?.[dayN] && <p className="galtrip__daynote">“{snap.dayNotes[dayN]}”</p>}
               {places.length === 0 && <p className="galtrip__free">Free day — nothing planned.</p>}
               {places.map(({ p, it }) => (
                 <div key={`${p.regionId}/${p.placeId}`} className="gplan__place">

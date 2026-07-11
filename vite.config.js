@@ -78,6 +78,12 @@ export default defineConfig({
             handler: 'StaleWhileRevalidate',
             options: { cacheName: 'mhp-img-manifest', expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24, purgeOnQuotaError: true } },
           },
+          { // site settings (country heroes, facts, page images) — needed for
+            // pages to render fully offline; SWR keeps admin edits flowing.
+            urlPattern: ({ url }) => url.pathname === '/api/settings',
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'mhp-settings', expiration: { maxEntries: 4, maxAgeSeconds: 60 * 60 * 24, purgeOnQuotaError: true } },
+          },
           { // public site settings (hub images, hero, toggles) — SWR so the hub
             // cards render from cache instantly instead of waiting on the DB.
             // Only the public GET (no ?all); the admin view sends no-store.

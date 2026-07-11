@@ -3335,6 +3335,19 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   font-size:13px; text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .destmosaic.is-5 [style*="grid-area: a"] .destmosaic__name{font-size:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* publish extras */
+.pub__signin{margin-top:14px}
+.pub__sectionlabel{font-weight:800; font-size:13.5px; margin:16px 0 8px}
+.pub__sectionlabel em{font-style:normal; font-weight:500; color:var(--muted); margin-left:6px; font-size:12.5px}
+.pub__covergrid{display:grid; grid-template-columns:repeat(4,1fr); gap:6px}
+.pub__cover{padding:0; border:2px solid var(--line); background:none; cursor:pointer; overflow:hidden}
+.pub__cover img{display:block; width:100%; aspect-ratio:4/3; object-fit:cover}
+.pub__cover.is-on{border-color:var(--gold)}
+.pub__daynotes{margin-top:4px}
+.pub__daynote{display:flex; align-items:center; gap:10px; margin-bottom:6px}
+.pub__daynote span{flex:none; width:52px; font-weight:700; font-size:12.5px}
+.pub__daynote input{flex:1; min-width:0; padding:8px 10px; border:1px solid var(--line); font-size:13px}
+.galtrip__daynote{font-style:italic; color:var(--ink-soft); font-size:15px; margin:2px 0 10px}
 /* --- admin countries hub --- */
 .chub__pickrow{align-items:flex-end}
 .chub__stats{display:grid; grid-template-columns:repeat(auto-fill, minmax(130px,1fr)); gap:10px; margin:14px 0 18px}

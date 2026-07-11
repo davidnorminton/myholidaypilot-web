@@ -93,6 +93,18 @@ export default handler(async (req, res) => {
     try { tripData = typeof tripRow.data === 'string' ? JSON.parse(tripRow.data) : tripRow.data } catch { tripData = {} }
     const snap = sanitise(tripData)
     if (!snap.places.length) throw fail(400, 'Add some places before publishing')
+    // Optional author notes per day, typed at publish time. Whitelisted hard:
+    // integer day keys within the trip's span, plain strings, capped length.
+    if (b.dayNotes && typeof b.dayNotes === 'object') {
+      const notes = {}
+      for (const [k, v] of Object.entries(b.dayNotes)) {
+        const n = parseInt(k, 10)
+        if (Number.isInteger(n) && n >= 1 && n <= Math.max(1, snap.days || 1) && typeof v === 'string' && v.trim()) {
+          notes[n] = v.trim().slice(0, 220)
+        }
+      }
+      if (Object.keys(notes).length) snap.dayNotes = notes
+    }
 
     const authorName = b.attribution ? (user.name || null) : null
     const regionNames = [...new Set(snap.places.map((p) => p.regionName).filter(Boolean))]

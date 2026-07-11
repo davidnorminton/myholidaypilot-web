@@ -123,7 +123,7 @@ export const api = {
     list: (country) => req('GET', `/gallery${country ? `?country=${country}` : ''}`),
     get: (slug) => req('GET', `/gallery?slug=${encodeURIComponent(slug)}`),
     mine: () => req('GET', '/gallery?mine=1'),
-    publish: (tripId, attribution, cover) => req('POST', '/gallery?action=publish', { tripId, attribution, cover }),
+    publish: (tripId, attribution, cover, dayNotes) => req('POST', '/gallery?action=publish', { tripId, attribution, cover, dayNotes }),
     copied: (slug) => req('POST', '/gallery?action=copied', { slug }),
     unpublish: (tripId) => req('DELETE', `/gallery?tripId=${encodeURIComponent(tripId)}`),
     adminList: () => req('GET', '/gallery?admin=1'),
