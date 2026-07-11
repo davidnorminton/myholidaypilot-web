@@ -37,17 +37,18 @@ export default function TripDetails({ details, title = 'Plan your trip' }) {
       {Array.isArray(d.itinerary) && d.itinerary.length > 0 && (
         <div className="tripdetails__itin">
           <h3 className="tripdetails__sub">A perfect first visit</h3>
-          <ol className="itin">
+          <div className="itdays">
             {d.itinerary.map((it, i) => (
-              <li key={i} className="itin__step">
-                <span className="itin__num" aria-hidden>{it.day || i + 1}</span>
-                <div className="itin__body">
-                  <strong className="itin__name">{it.title || `Day ${it.day || i + 1}`}</strong>
-                  <p>{it.text}</p>
-                </div>
-              </li>
+              <details key={i} className="itday">
+                <summary>
+                  <span className="itday__label">Day {it.day || i + 1}:</span>
+                  <span className="itday__title">{it.title || 'Explore'}</span>
+                  <ChevronDown size={26} className="itday__chev" aria-hidden />
+                </summary>
+                <p className="itday__text">{it.text}</p>
+              </details>
             ))}
-          </ol>
+          </div>
         </div>
       )}
 

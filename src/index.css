@@ -2999,7 +2999,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .tripdetails__eyebrow::before{content:''; width:26px; height:1.5px; background:var(--gold)}
 .tripdetails__head{display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:36px; margin-bottom:22px}
 .tripdetails__title{font-family:var(--sans); font-size:clamp(24px,3.2vw,32px); margin:0}
-.tripdetails__intro{color:var(--muted); font-size:16px; line-height:1.65; margin:0}
+.tripdetails__intro{color:#000; font-size:18px; line-height:1.65; margin:0}
 @media (max-width:720px){ .tripdetails__head{grid-template-columns:1fr; gap:10px} }
 .tripdetails__grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:14px; margin-bottom:24px}
 .tripdetails__cell{position:relative; padding:26px 28px 24px; background:#607d8b; border:0; border-radius:0; transition:transform .16s ease, box-shadow .16s ease}
@@ -3023,11 +3023,17 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .itin__body{padding-top:5px}
 .itin__name{font-size:15px}
 .itin__body p{font-size:14px; color:var(--muted); line-height:1.6; margin:4px 0 0}
-/* guide timeline (scoped: .itin is shared with the planner itinerary) */
-.tripdetails__itin .itin__step{margin:32px 0}
-.tripdetails__itin .itin__step:first-child{margin-top:0}
-.tripdetails__itin .itin__name{font-size:22px}
-.tripdetails__itin .itin__body p{font-size:16px}
+/* guide itinerary: full-width day accordions (LP-style) */
+.itdays{border-top:1px solid var(--line)}
+.itday{border-bottom:1px solid var(--line)}
+.itday summary{display:flex; align-items:baseline; gap:16px; padding:22px 4px; cursor:pointer; list-style:none}
+.itday summary::-webkit-details-marker{display:none}
+.itday__label{flex:none; font-weight:800; font-size:clamp(22px,2.6vw,30px); color:var(--ink)}
+.itday__title{flex:1; min-width:0; font-size:clamp(20px,2.6vw,30px); font-weight:600; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.01em; line-height:1.2}
+.itday__chev{flex:none; align-self:center; color:var(--muted); transition:transform .2s ease}
+.itday[open] .itday__chev{transform:rotate(180deg)}
+.itday summary:hover .itday__title{color:var(--ink)}
+.itday__text{margin:0; padding:0 4px 22px; font-size:16px; line-height:1.7; color:var(--ink-soft); max-width:76ch}
 /* FAQ accordions */
 .tripdetails__faq{width:100%}
 .tripdetails__q{background:var(--surface-2); border:1px solid var(--line); border-radius:14px; margin-bottom:8px; overflow:hidden}
@@ -3307,7 +3313,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .cfacts__item{flex:1 1 auto; min-width:140px; padding:2px 26px; border-left:1px solid var(--line)}
 .cfacts__item:first-child{border-left:0; padding-left:0}
 .cfacts dt{font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:0 0 3px}
-.cfacts dd{margin:0; font-size:15px; font-weight:700; line-height:1.4}
+.cfacts dd{margin:0; font-size:18px; font-weight:700; line-height:1.4}
 @media (max-width:760px){
   .cfacts{display:grid; grid-template-columns:1fr 1fr; gap:14px 20px; padding:16px 0}
   .cfacts__item{border-left:0; padding:0; min-width:0}
