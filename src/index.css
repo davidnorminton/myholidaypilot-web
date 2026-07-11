@@ -3281,6 +3281,24 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .hiw__facts p{display:flex; align-items:center; gap:9px; margin:0; font-size:14px; color:var(--ink-soft)}
 .hiw__facts svg{color:var(--gold); flex:none}
 .hiw__cta{display:flex; gap:12px; flex-wrap:wrap; margin-top:28px}
+/* --- admin images: country → regions → places --- */
+.cms-backlink{display:inline-flex; align-items:center; gap:4px; margin:0 0 12px; padding:6px 10px; border:0; background:none; color:var(--gold); font-weight:700; font-size:13.5px; cursor:pointer}
+.cms-regionlist{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px}
+.cms-regionrow{display:flex; align-items:center; gap:12px; width:100%; text-align:left; padding:10px 12px; border:1px solid var(--line); background:var(--surface); cursor:pointer}
+.cms-regionrow:hover{border-color:var(--gold)}
+.cms-regionrow__thumb{width:64px; height:44px; flex:none; display:grid; place-items:center; overflow:hidden; background:var(--surface-2); color:var(--faint)}
+.cms-regionrow__thumb img{width:100%; height:100%; object-fit:cover}
+.cms-regionrow__name{font-weight:700; font-size:14.5px}
+.cms-regionrow__meta{margin-left:auto; font-size:12.5px; color:var(--muted)}
+.cms-herogrid{list-style:none; margin:10px 0 0; padding:0; display:grid; grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:10px}
+.cms-heropick{position:relative; width:100%; padding:0; border:2px solid var(--line); background:var(--surface); cursor:pointer; display:block}
+.cms-heropick img{display:block; width:100%; aspect-ratio:4/3; object-fit:cover}
+.cms-heropick span{display:block; padding:6px 8px; font-size:12px; font-weight:600; text-align:left}
+.cms-heropick.is-on{border-color:var(--gold)}
+.cms-heropick__on{position:absolute; top:6px; left:6px; display:inline-flex; align-items:center; gap:4px; padding:3px 8px; background:var(--gold); color:#fff; font-size:11px; font-weight:700; font-style:normal}
+.cms-herocustom{margin-top:14px}
+.cms-img__name{display:block; font-size:13.5px; margin-bottom:4px}
+.cms-img__save{padding:8px 14px; font-size:12.5px}
 .planpage__form{flex:1; min-width:0}
 .planform{display:flex; flex-direction:column; gap:14px; background:rgb(135 210 254); border:0; border-radius:0; padding:22px; position:relative}
 .planform::after{content:""; position:absolute; top:0; bottom:0; left:100%; width:100vw; background:rgb(135 210 254)}
