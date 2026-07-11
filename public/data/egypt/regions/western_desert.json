@@ -1,0 +1,1553 @@
+{
+  "id": "western_desert",
+  "name": "Western Desert",
+  "nameIt": "الصحراء الغربية",
+  "capital": "Marsa Matruh",
+  "lat": 27.2359,
+  "lng": 28.3684,
+  "emoji": "🏜️",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 31.5,
+    "south": 22,
+    "east": 30,
+    "west": 24
+  },
+  "history": "The Western Desert, also known as the Libyan Desert, has been inhabited for thousands of years and served as a crucial crossroads for trade routes connecting the Nile Valley with distant lands. During ancient times, it was home to nomadic Bedouin tribes and oasis settlements that thrived on caravan commerce and agriculture. The region witnessed significant activity during the colonial period and World War II, when strategic military campaigns unfolded across its vast expanse. Today, the Western Desert remains a testament to human resilience and adaptation in one of Earth's most challenging environments.",
+  "culturalNotes": "The Western Desert is characterized by the hardy spirit of its predominantly Bedouin inhabitants, who have maintained pastoral traditions and deep connections to the land for generations. The region's oases, such as Siwa and Bahariya, showcase unique cultural identities with distinct dialects, crafts, and customs that differ notably from the rest of Egypt. Tourism to these remote settlements offers visitors a glimpse into traditional ways of life, including handicrafts, date palm cultivation, and age-old hospitality practices that define desert culture.",
+  "bestTimeToVisit": "October to April is best for desert exploration and visiting oases.",
+  "languageNotes": "Arabic is the primary language, though the local dialect differs from standard Egyptian Arabic with influences from Bedouin speech patterns and Amazigh elements, particularly in the more isolated oases. Useful phrases include \"Salaam alaikum\" (peace be upon you) for greetings and \"Shukran\" (thank you), though English is increasingly spoken in tourist areas.",
+  "generatedAt": "2026-07-11T07:53:45.938Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "siwa_oasis",
+      "name": "Siwa Oasis",
+      "nameIt": "واحة سيوة",
+      "lat": 29.2025,
+      "lng": 25.5135,
+      "type": "NATURE",
+      "description": "A remote and stunning oasis settlement surrounded by date palms, salt lakes, and golden sand dunes, famous for its unique Berber culture and traditions. The oasis is home to the ancient Temple of the Oracle and offers visitors an authentic experience largely untouched by mass tourism.",
+      "imageQueries": [
+        "Siwa Oasis Egypt palm trees",
+        "Siwa Oasis salt lakes sunset"
+      ],
+      "activities": [
+        {
+          "id": "siwa_1",
+          "text": "Visit the Temple of the Oracle",
+          "detail": "Explore the ancient limestone temple dedicated to Amun where Alexander the Great reportedly sought prophecy, perched on a rocky outcrop overlooking the oasis.",
+          "lat": 29.2047,
+          "lng": 25.5164
+        },
+        {
+          "id": "siwa_2",
+          "text": "Swim in Cleopatra's Bath",
+          "detail": "Cool off in this natural freshwater spring pool surrounded by palm trees, traditionally believed to have been visited by Cleopatra herself.",
+          "lat": 29.2117,
+          "lng": 25.5067
+        },
+        {
+          "id": "siwa_3",
+          "text": "Trek the Sand Dunes",
+          "detail": "Experience guided camel or 4x4 excursions across the golden dunes surrounding the oasis, with opportunities to camp under the stars and witness desert sunsets.",
+          "lat": 29.2,
+          "lng": 25.5
+        },
+        {
+          "id": "siwa_4",
+          "text": "Explore Shali Old Town",
+          "detail": "Wander through the atmospheric mud-brick ruins of the medieval fortress town with its narrow winding streets and distinctive architecture built without mortar.",
+          "lat": 29.2057,
+          "lng": 25.5119
+        },
+        {
+          "id": "siwa_5",
+          "text": "Visit the Salt Lakes",
+          "detail": "Float effortlessly in the hypersaline waters of Gaet'un and Zeitoun lakes, experiencing natural buoyancy similar to the Dead Sea.",
+          "lat": 29.2167,
+          "lng": 25.5333
+        },
+        {
+          "id": "siwa_6",
+          "text": "Tour Date Palm Groves",
+          "detail": "Walk through extensive date plantations with a local guide to learn about cultivation practices and taste fresh dates directly from the trees.",
+          "lat": 29.2,
+          "lng": 25.51
+        },
+        {
+          "id": "siwa_7",
+          "text": "Visit the Siwa Museum",
+          "detail": "Discover Berber artifacts, traditional jewelry, textiles, and historical objects that showcase the oasis's unique cultural heritage.",
+          "lat": 29.2046,
+          "lng": 25.5104
+        }
+      ],
+      "food": [
+        {
+          "id": "siwa_f1",
+          "text": "Siwan Olives",
+          "detail": "The oasis is famous for its exceptional green and black olives, considered among Egypt's finest, often served as a staple with fresh bread and cheese."
+        },
+        {
+          "id": "siwa_f2",
+          "text": "Foggou (Siwan Soup)",
+          "detail": "A traditional hearty soup made with fresh vegetables, legumes, and sometimes meat, seasoned with local herbs and traditionally served during gatherings."
+        },
+        {
+          "id": "siwa_f3",
+          "text": "Asida",
+          "detail": "A sweet dessert made from flour, butter, and honey, often served during celebrations and special occasions as a beloved local treat."
+        },
+        {
+          "id": "siwa_f4",
+          "text": "Fresh Date Products",
+          "detail": "Sample date paste, date syrup, and dried dates produced locally, representing the oasis's primary agricultural product and cultural symbol."
+        },
+        {
+          "id": "siwa_f5",
+          "text": "Siwan Fish from Brackish Lakes",
+          "detail": "Freshly caught fish from the oasis lakes, grilled simply with local spices and olive oil, reflecting traditional fishing practices."
+        }
+      ],
+      "culture": [
+        {
+          "id": "siwa_c1",
+          "text": "Respect Local Dress Codes",
+          "detail": "Siwa remains conservative; visitors should dress modestly, particularly women, covering shoulders and knees as a sign of respect for Berber traditions."
+        },
+        {
+          "id": "siwa_c2",
+          "text": "Learn Basic Siwan Greetings",
+          "detail": "While Arabic is spoken, the indigenous Siwan language (Siwi) is still used by locals; learning a few greetings shows respect and enriches cultural interactions."
+        },
+        {
+          "id": "siwa_c3",
+          "text": "Ask Permission Before Photography",
+          "detail": "Always request consent before photographing local people, especially women and children, as privacy and dignity are highly valued in Siwan culture."
+        },
+        {
+          "id": "siwa_c4",
+          "text": "Embrace Communal Meal Customs",
+          "detail": "Dining is often a communal experience; accept invitations graciously and eat with your right hand, as this reflects proper etiquette in Berber society."
+        }
+      ]
+    },
+    {
+      "id": "matrouh_city",
+      "name": "Marsa Matrouh",
+      "nameIt": "مرسى مطروح",
+      "lat": 31.3546,
+      "lng": 27.2383,
+      "type": "COASTAL",
+      "description": "A charming Mediterranean coastal city with pristine white-sand beaches and crystal-clear turquoise waters, serving as Egypt's primary western beach resort. It offers a relaxing escape with excellent seafood, water sports, and proximity to historical WWII sites.",
+      "imageQueries": [
+        "Marsa Matrouh beach Egypt",
+        "Marsa Matrouh Mediterranean coast"
+      ],
+      "activities": [
+        {
+          "id": "matr_1",
+          "text": "Beaches of Marsa Matrouh",
+          "detail": "Swim and sunbathe on the main municipal beach with soft white sand and calm turquoise waters, ideal for families and water sports enthusiasts.",
+          "lat": 31.3521,
+          "lng": 27.2453
+        },
+        {
+          "id": "matr_2",
+          "text": "Cleopatra's Bath",
+          "detail": "Visit the small natural inlet allegedly visited by Cleopatra, featuring sheltered swimming waters and scenic rock formations just west of the town center.",
+          "lat": 31.3468,
+          "lng": 27.2268
+        },
+        {
+          "id": "matr_3",
+          "text": "WWII Military Museum",
+          "detail": "Explore tanks, artillery, and memorabilia from the North African Campaign housed in the restored Italian garrison building overlooking the harbor.",
+          "lat": 31.3505,
+          "lng": 27.249
+        },
+        {
+          "id": "matr_4",
+          "text": "Snorkeling and Diving",
+          "detail": "Discover vibrant coral reefs and Mediterranean marine life in the crystal-clear waters off the coast, with multiple dive operators offering guided trips.",
+          "lat": 31.35,
+          "lng": 27.25
+        },
+        {
+          "id": "matr_5",
+          "text": "Rommel's Headquarters",
+          "detail": "Tour the underground command center used by Field Marshal Erwin Rommel during WWII, preserved as a historic monument about 10 km east of town.",
+          "lat": 31.358,
+          "lng": 27.305
+        },
+        {
+          "id": "matr_6",
+          "text": "Sunset Corniche Walk",
+          "detail": "Stroll along the waterfront promenade at dusk to experience local life, street vendors, and panoramic views of the Mediterranean.",
+          "lat": 31.352,
+          "lng": 27.24
+        }
+      ],
+      "food": [
+        {
+          "id": "matr_f1",
+          "text": "Fresh Grilled Fish",
+          "detail": "Order the daily catch grilled whole with lemon, olive oil, and garlic at beachfront restaurants, showcasing the Mediterranean's finest seafood."
+        },
+        {
+          "id": "matr_f2",
+          "text": "Sayadiyah",
+          "detail": "Enjoy this traditional Egyptian dish of rice layered with fresh fish, topped with fried onions and a savory tomato-based sauce unique to coastal regions."
+        },
+        {
+          "id": "matr_f3",
+          "text": "Shrimp Kafta",
+          "detail": "Try minced shrimp mixed with spices, herbs, and breadcrumbs then grilled on skewers, a specialty at local seafood restaurants along the harbor."
+        },
+        {
+          "id": "matr_f4",
+          "text": "Feta Cheese and Fresh Olives",
+          "detail": "Sample locally-produced or imported Mediterranean cheeses and brined olives served as meze appetizers with bread at traditional gatherings."
+        },
+        {
+          "id": "matr_f5",
+          "text": "Sea Urchin Roe",
+          "detail": "Experience the delicacy of uni served fresh from local divers, typically eaten raw with lemon as a premium Mediterranean specialty during summer months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "matr_c1",
+          "text": "Conservative Dress",
+          "detail": "Respect local customs by wearing modest swimwear and covering shoulders and knees when away from the beach, particularly in the town center and markets."
+        },
+        {
+          "id": "matr_c2",
+          "text": "Haggling is Welcome",
+          "detail": "Negotiate prices at beach vendor stalls and small markets as part of normal commerce; expect friendly banter and expect to pay 20-30% less than initial asking prices."
+        },
+        {
+          "id": "matr_c3",
+          "text": "Friday is Holy Day",
+          "detail": "Many shops and restaurants close or have limited hours on Friday mornings during prayer times; plan activities accordingly and respect the peaceful atmosphere."
+        },
+        {
+          "id": "matr_c4",
+          "text": "WWII Historical Sensitivity",
+          "detail": "Approach WWII sites and museums with respect as they honor fallen soldiers; guides appreciate genuine interest in the region's significant military history."
+        }
+      ]
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "nameIt": "الإسكندرية",
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "type": "CITY",
+      "description": "Egypt's second-largest city and historic Mediterranean port, founded by Alexander the Great and home to the legendary ancient Library. Today it offers the Citadel of Qaitbay, beautiful corniche walks, and a cosmopolitan atmosphere blending ancient history with modern culture.",
+      "imageQueries": [
+        "Alexandria Egypt Citadel Qaitbay",
+        "Alexandria corniche Mediterranean"
+      ],
+      "activities": [
+        {
+          "id": "alex_1",
+          "text": "Citadel of Qaitbay",
+          "detail": "A 15th-century fortress built on the site of the ancient Lighthouse of Alexandria, offering stunning Mediterranean views and insights into Mamluk military architecture.",
+          "lat": 31.2626,
+          "lng": 29.8636
+        },
+        {
+          "id": "alex_2",
+          "text": "Bibliotheca Alexandrina",
+          "detail": "A modern library honoring the ancient Library of Alexandria, featuring manuscripts, books, and rotating exhibitions on Egyptian and world history.",
+          "lat": 31.2141,
+          "lng": 29.9207
+        },
+        {
+          "id": "alex_3",
+          "text": "Corniche Walk",
+          "detail": "A picturesque waterfront promenade stretching along the Mediterranean coast, perfect for sunset strolls, people-watching, and enjoying sea breezes.",
+          "lat": 31.2805,
+          "lng": 29.9369
+        },
+        {
+          "id": "alex_4",
+          "text": "Catacombs of Kom el Shoqafa",
+          "detail": "A sprawling underground burial complex from the Roman period showcasing a blend of Egyptian, Greek, and Roman artistic traditions carved into rock chambers.",
+          "lat": 31.1956,
+          "lng": 29.9081
+        },
+        {
+          "id": "alex_5",
+          "text": "Roman Amphitheater",
+          "detail": "A well-preserved Roman theater from the 2nd century CE featuring original marble seats and intimate acoustics, located in the Kom el Dikka archaeological site.",
+          "lat": 31.2029,
+          "lng": 29.9128
+        },
+        {
+          "id": "alex_6",
+          "text": "Abu Qir Bay",
+          "detail": "A scenic coastal bay ideal for swimming, seafood dining, and viewing the site of Napoleon's historic naval defeat in 1798."
+        },
+        {
+          "id": "alex_7",
+          "text": "Montaza Palace and Gardens",
+          "detail": "An opulent royal palace surrounded by lush botanical gardens overlooking the Mediterranean, offering a glimpse into Egyptian aristocratic life.",
+          "lat": 31.3087,
+          "lng": 30.0404
+        }
+      ],
+      "food": [
+        {
+          "id": "alex_f1",
+          "text": "Sayyadiyah",
+          "detail": "A traditional Alexandrian rice dish layered with fresh fish, topped with crispy fried onions and served with a tangy tomato sauce—a specialty reflecting the city's fishing heritage."
+        },
+        {
+          "id": "alex_f2",
+          "text": "Fresh Grilled Seafood",
+          "detail": "Whole fish, shrimp, and squid grilled over charcoal at waterfront restaurants along the corniche, typically seasoned simply with lemon, garlic, and olive oil."
+        },
+        {
+          "id": "alex_f3",
+          "text": "Falafel and Koshari",
+          "detail": "Crispy chickpea fritters and the iconic Egyptian street food of lentils, rice, and pasta topped with tomato sauce and vinegar, available at casual eateries throughout the city."
+        },
+        {
+          "id": "alex_f4",
+          "text": "Pastirma Sandwich",
+          "detail": "Thinly sliced cured beef with distinctive spice coating, served in fresh pita bread with tomatoes and pickles—a quick, satisfying local favorite."
+        },
+        {
+          "id": "alex_f5",
+          "text": "Umm Ali",
+          "detail": "A warm, indulgent dessert of layered pastry, nuts, coconut, and milk—traditionally eaten after Ramadan iftar meals and available year-round at cafes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alex_c1",
+          "text": "Dress respectfully at religious sites",
+          "detail": "Visitors entering mosques or attending religious observances should wear modest clothing covering shoulders and knees, and women may be asked to wear headscarves."
+        },
+        {
+          "id": "alex_c2",
+          "text": "Ramadan customs",
+          "detail": "During Ramadan, many restaurants close during daylight hours and the city transforms with evening festivities; be respectful of fasting locals and enjoy the vibrant nighttime atmosphere."
+        },
+        {
+          "id": "alex_c3",
+          "text": "Haggling at markets",
+          "detail": "Bargaining is expected and enjoyed at local souks and street stalls, but less so in modern shops; approaching negotiations with humor and patience is appreciated."
+        },
+        {
+          "id": "alex_c4",
+          "text": "Greetings and hospitality",
+          "detail": "Alexandrians are warm and welcoming; accepting tea or coffee when offered is polite, and using Arabic phrases like 'Salam Alaikum' (peace be upon you) shows respect and openness."
+        }
+      ]
+    },
+    {
+      "id": "bahariya_oasis",
+      "name": "Bahariya Oasis",
+      "nameIt": "واحة البحرية",
+      "lat": 28.3575,
+      "lng": 28.8675,
+      "type": "NATURE",
+      "description": "A picturesque desert oasis dotted with palm groves, hot springs, and archaeological sites including the Valley of the Golden Mummies. It serves as an excellent base for exploring the Black Desert and White Desert, offering stunning natural landscapes and ancient Pharaonic monuments.",
+      "imageQueries": [
+        "Bahariya Oasis Egypt palm groves",
+        "Bahariya Black Desert White Desert"
+      ],
+      "activities": [
+        {
+          "id": "baha_1",
+          "text": "Valley of the Golden Mummies",
+          "detail": "Explore the largest cache of mummies discovered in Egypt, with over 250 burials from the Greco-Roman period featuring gilded masks and intricate burial goods.",
+          "lat": 28.3667,
+          "lng": 28.8667
+        },
+        {
+          "id": "baha_2",
+          "text": "Black Desert Expedition",
+          "detail": "Drive through the otherworldly Black Desert with its distinctive dark volcanic hills and unique geological formations formed by iron oxide deposits.",
+          "lat": 28.4,
+          "lng": 28.9
+        },
+        {
+          "id": "baha_3",
+          "text": "White Desert National Park",
+          "detail": "Witness the stunning white chalk rock formations shaped like mushrooms and towers that create a lunar landscape, especially magical at sunset.",
+          "lat": 28.5667,
+          "lng": 28.7333
+        },
+        {
+          "id": "baha_4",
+          "text": "Bahariya Hot Springs",
+          "detail": "Soak in natural warm mineral-rich hot springs including Bir al-Ghaba and other thermal pools believed to have therapeutic properties.",
+          "lat": 28.3556,
+          "lng": 28.8556
+        },
+        {
+          "id": "baha_5",
+          "text": "Temple of Alexander the Great",
+          "detail": "Visit the ruins of an ancient Ptolemaic temple dedicated to Alexander the Great, featuring well-preserved hieroglyphic inscriptions and stone reliefs.",
+          "lat": 28.3622,
+          "lng": 28.8533
+        },
+        {
+          "id": "baha_6",
+          "text": "Oasis Town Market Tour",
+          "detail": "Wander through the main market of Bawiti village to experience local commerce, handicrafts, and traditional Bedouin goods.",
+          "lat": 28.3578,
+          "lng": 28.8578
+        }
+      ],
+      "food": [
+        {
+          "id": "baha_f1",
+          "text": "Lamb Tagine with Dates",
+          "detail": "A slow-cooked Moroccan-influenced stew of tender lamb with dried dates, almonds, and warm spices served with flatbread."
+        },
+        {
+          "id": "baha_f2",
+          "text": "Fresh Date Pastries",
+          "detail": "Sweet pastries stuffed with local dates from the palm groves, often drizzled with honey and sprinkled with nuts."
+        },
+        {
+          "id": "baha_f3",
+          "text": "Bedouin Bread and Local Cheese",
+          "detail": "Freshly baked unleavened bread paired with crumbly white cheese made by local Bedouin communities, sometimes flavored with herbs."
+        },
+        {
+          "id": "baha_f4",
+          "text": "Desert Vegetable Stew",
+          "detail": "A hearty mix of seasonal vegetables grown in the oasis including squash, eggplant, and tomatoes, spiced with cumin and coriander."
+        },
+        {
+          "id": "baha_f5",
+          "text": "Mint Tea with Fresh Dates",
+          "detail": "The traditional sweet mint tea served with local fresh or dried dates as an afternoon refreshment throughout the oasis."
+        }
+      ],
+      "culture": [
+        {
+          "id": "baha_c1",
+          "text": "Dress Modestly in the Oasis",
+          "detail": "Visitors should wear loose, long clothing that covers shoulders and knees out of respect for local Islamic customs and to protect from sun exposure."
+        },
+        {
+          "id": "baha_c2",
+          "text": "Greet with Traditional Courtesy",
+          "detail": "Use 'As-salamu alaikum' (peace be upon you) as a greeting and show respect to elders; accepting tea when offered is considered polite and part of Bedouin hospitality."
+        },
+        {
+          "id": "baha_c3",
+          "text": "Visit Sites with Local Guides",
+          "detail": "Hiring registered guides from Bawiti village not only ensures accurate historical information but also supports the local economy and provides safety in remote desert areas."
+        },
+        {
+          "id": "baha_c4",
+          "text": "Respect Photography Restrictions",
+          "detail": "Always ask permission before photographing people, especially women and children, and be aware that certain archaeological sites may have photography limitations."
+        }
+      ]
+    },
+    {
+      "id": "white_desert",
+      "name": "White Desert National Park",
+      "nameIt": "صحراء بيضاء",
+      "lat": 28.35,
+      "lng": 28.75,
+      "type": "NATURE",
+      "description": "A surreal landscape of white chalk formations towering above golden sand, creating an otherworldly scenery unique to Egypt's Western Desert. The park is perfect for camping under the stars and exploring otherworldly rock formations shaped by wind and time.",
+      "imageQueries": [
+        "White Desert Egypt chalk formations",
+        "White Desert National Park camping"
+      ],
+      "activities": [
+        {
+          "id": "whit_1",
+          "text": "Chalk Formation Hiking",
+          "detail": "Trek through the iconic white limestone pillars and mushroom-shaped rock formations that give the park its otherworldly appearance."
+        },
+        {
+          "id": "whit_2",
+          "text": "Sunrise at Black Desert Overlook",
+          "detail": "Wake before dawn to witness the contrast between the white chalk cliffs and the black iron oxide rocks as the sun rises over the horizon.",
+          "lat": 27.9167,
+          "lng": 28.3833
+        },
+        {
+          "id": "whit_3",
+          "text": "Stargazing and Night Camping",
+          "detail": "Experience some of Egypt's clearest night skies by camping in the open desert and observing constellations undisturbed by light pollution."
+        },
+        {
+          "id": "whit_4",
+          "text": "Photography Expedition",
+          "detail": "Capture the surreal landscape of towering white formations against golden sand and dramatic shadows cast during golden hour."
+        },
+        {
+          "id": "whit_5",
+          "text": "Jeep Safari Tour",
+          "detail": "Traverse the vast desert terrain in a 4x4 vehicle to access remote rock formations and panoramic viewpoints across the park."
+        },
+        {
+          "id": "whit_6",
+          "text": "Fossil Hunting Walk",
+          "detail": "Explore the ancient seabed deposits and search for fossilized shells and marine remains embedded in the white chalk formations."
+        }
+      ],
+      "food": [
+        {
+          "id": "whit_f1",
+          "text": "Bedouin Tagine",
+          "detail": "A slow-cooked stew of lamb or chicken with vegetables and dried fruits, traditionally prepared in a conical clay pot over desert fire."
+        },
+        {
+          "id": "whit_f2",
+          "text": "Fresh Flatbread with Zaatar",
+          "detail": "Unleavened bread baked over hot coals and served with a blend of thyme, sesame, and olive oil, a staple of desert camping meals."
+        },
+        {
+          "id": "whit_f3",
+          "text": "Date and Nut Paste",
+          "detail": "Energy-rich dates mixed with almonds and pistachios, essential sustenance for long desert treks under the hot sun."
+        },
+        {
+          "id": "whit_f4",
+          "text": "Mint Tea (Shai bi Nana)",
+          "detail": "Freshly brewed hot mint tea served in small glasses, a cooling and refreshing beverage offered throughout the day in the desert."
+        }
+      ],
+      "culture": [
+        {
+          "id": "whit_c1",
+          "text": "Respect Bedouin Guides",
+          "detail": "Show appreciation for local guides' deep knowledge of navigation and desert survival; their expertise is essential for safe exploration."
+        },
+        {
+          "id": "whit_c2",
+          "text": "Camp Etiquette",
+          "detail": "Participate in communal evening meals and conversations around the fire, as hospitality and sharing meals are central to Bedouin culture."
+        },
+        {
+          "id": "whit_c3",
+          "text": "Desert Safety Protocol",
+          "detail": "Always inform guides of your plans, stay hydrated, and never venture alone into formations; the desert can be disorienting and temperatures extreme."
+        },
+        {
+          "id": "whit_c4",
+          "text": "Leave No Trace",
+          "detail": "Respect the pristine white landscape by removing all waste and not writing on or damaging the fragile chalk formations."
+        }
+      ]
+    },
+    {
+      "id": "black_desert",
+      "name": "Black Desert",
+      "nameIt": "الصحراء السوداء",
+      "lat": 28.4,
+      "lng": 28.9,
+      "type": "NATURE",
+      "description": "A striking expanse of dark volcanic mountains and black-topped hills contrasting sharply with golden sand, creating dramatic scenic beauty. The desert offers excellent opportunities for hiking, photography, and experiencing the raw majesty of Egypt's desert landscape.",
+      "imageQueries": [
+        "Black Desert Egypt volcanic mountains",
+        "Black Desert dark mountains sand"
+      ],
+      "activities": [
+        {
+          "id": "blac_1",
+          "text": "Hike the Black Mountains",
+          "detail": "Trek among the distinctive dark volcanic peaks that give the Black Desert its name, offering panoramic views of contrasting black rock against golden sand.",
+          "lat": 27.8167,
+          "lng": 28.35
+        },
+        {
+          "id": "blac_2",
+          "text": "Visit the White Desert nearby",
+          "detail": "Explore the adjacent White Desert with its chalk-white rock formations and mushroom-shaped hoodoos, creating a striking contrast to the Black Desert's dark landscape.",
+          "lat": 27.8333,
+          "lng": 28.4167
+        },
+        {
+          "id": "blac_3",
+          "text": "Sunrise Photography at Jabal al-Dist",
+          "detail": "Capture the dramatic interplay of light and shadow on the black volcanic hills during early morning hours when the sun illuminates the rugged terrain.",
+          "lat": 27.7833,
+          "lng": 28.3333
+        },
+        {
+          "id": "blac_4",
+          "text": "Camp under the stars",
+          "detail": "Experience a night in the Black Desert with minimal light pollution, offering exceptional stargazing opportunities and an intimate connection with the desert environment.",
+          "lat": 27.8167,
+          "lng": 28.35
+        },
+        {
+          "id": "blac_5",
+          "text": "Rock formations exploration",
+          "detail": "Scramble through narrow valleys and examine the unique basalt and obsidian rock formations that showcase Egypt's volcanic geological history.",
+          "lat": 27.8,
+          "lng": 28.3667
+        },
+        {
+          "id": "blac_6",
+          "text": "Desert wildlife spotting",
+          "detail": "Look for desert-adapted species including sand vipers, scarab beetles, and occasionally desert foxes active during cooler evening hours.",
+          "lat": 27.8167,
+          "lng": 28.35
+        }
+      ],
+      "food": [
+        {
+          "id": "blac_f1",
+          "text": "Bedouin bread and goat cheese",
+          "detail": "Fresh flatbread cooked over open fires paired with tangy goat cheese made by local desert communities using traditional methods."
+        },
+        {
+          "id": "blac_f2",
+          "text": "Date and nut paste",
+          "detail": "A sweet energy-rich combination of dried dates blended with almonds or pistachios, commonly eaten by desert travelers for sustained nourishment."
+        },
+        {
+          "id": "blac_f3",
+          "text": "Lamb tagine with desert herbs",
+          "detail": "Slow-cooked lamb stew infused with wild herbs collected from the desert, creating a savory dish unique to the region's Bedouin cuisine."
+        },
+        {
+          "id": "blac_f4",
+          "text": "Mint tea",
+          "detail": "Strong brewed tea with fresh mint leaves served hot in small glasses, essential for hydration and hospitality in desert culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "blac_c1",
+          "text": "Respect Bedouin guides and customs",
+          "detail": "Hire local Bedouin guides who know safe routes and weather patterns, and show respect for their traditions by accepting offered hospitality and tea."
+        },
+        {
+          "id": "blac_c2",
+          "text": "Prepare for extreme conditions",
+          "detail": "Bring substantial water supplies, sun protection, and inform others of your itinerary as the remote desert offers no services or emergency infrastructure."
+        },
+        {
+          "id": "blac_c3",
+          "text": "Photography etiquette with locals",
+          "detail": "Always ask permission before photographing Bedouin people or their camps, as some communities prefer privacy and respect traditional beliefs about image-taking."
+        },
+        {
+          "id": "blac_c4",
+          "text": "Visit during cooler months",
+          "detail": "Plan visits between October and April when daytime temperatures are manageable; summer heat exceeds 50°C and makes exploration dangerous."
+        }
+      ]
+    },
+    {
+      "id": "farafra_oasis",
+      "name": "Farafra Oasis",
+      "nameIt": "واحة الفرافرة",
+      "lat": 27.0769,
+      "lng": 28.9675,
+      "type": "NATURE",
+      "description": "The most isolated and least developed oasis in Egypt, maintaining a traditional atmosphere with small villages surrounded by date palms and desert dunes. It's an ideal destination for travelers seeking authentic desert culture and as a gateway to the stunning White Desert nearby.",
+      "imageQueries": [
+        "Farafra Oasis Egypt village",
+        "Farafra Oasis traditional settlement"
+      ],
+      "activities": [
+        {
+          "id": "fara_1",
+          "text": "White Desert National Park",
+          "detail": "Explore the otherworldly landscape of chalky white rock formations and natural sculptures located about 45km north of Farafra town.",
+          "lat": 27.3667,
+          "lng": 28.6167
+        },
+        {
+          "id": "fara_2",
+          "text": "Black Desert",
+          "detail": "Visit the contrasting dark volcanic hills and scattered obsidian rocks situated east of Farafra, stunning during sunset.",
+          "lat": 27.25,
+          "lng": 28.75
+        },
+        {
+          "id": "fara_3",
+          "text": "Magic Spring",
+          "detail": "Bathe in the natural hot spring with mineral-rich warm waters believed to have therapeutic properties, located on the outskirts of town.",
+          "lat": 27.0667,
+          "lng": 28.9667
+        },
+        {
+          "id": "fara_4",
+          "text": "Date Palm Groves Walk",
+          "detail": "Wander through traditional irrigated date palm plantations surrounding Farafra town to observe local agricultural practices.",
+          "lat": 27.0667,
+          "lng": 28.9667
+        },
+        {
+          "id": "fara_5",
+          "text": "Badr Museum",
+          "detail": "Tour this small museum housed in a traditional mud-brick building displaying local crafts, pottery, and cultural artifacts from the oasis.",
+          "lat": 27.0667,
+          "lng": 28.9667
+        },
+        {
+          "id": "fara_6",
+          "text": "Desert Camping and Stargazing",
+          "detail": "Experience authentic desert nights under unpolluted skies with Bedouin-style camping in the surrounding dunes."
+        }
+      ],
+      "food": [
+        {
+          "id": "fara_f1",
+          "text": "Melokhia",
+          "detail": "A traditional leafy green stew cooked slowly with garlic and served with rice or bread, a staple comfort food across the oasis."
+        },
+        {
+          "id": "fara_f2",
+          "text": "Fresh Dates and Date Paste",
+          "detail": "Sample sun-ripened dates harvested locally from Farafra's abundant palm groves, often made into rich paste for breakfast."
+        },
+        {
+          "id": "fara_f3",
+          "text": "Lamb Tagine",
+          "detail": "Slow-cooked lamb with dried apricots and spices served in a traditional clay pot, reflecting Bedouin culinary traditions."
+        },
+        {
+          "id": "fara_f4",
+          "text": "Aish Baladi with Local Cheese",
+          "detail": "Thick flatbread made daily in communal ovens paired with fresh white cheese produced traditionally in the oasis."
+        },
+        {
+          "id": "fara_f5",
+          "text": "Desert Herbs Tea",
+          "detail": "Herbal infusions made from dried plants and wild herbs gathered from the surrounding desert, served hot or cold."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fara_c1",
+          "text": "Respect Prayer Times and Modesty",
+          "detail": "Dress conservatively and avoid traveling during the five daily prayer times when most businesses close and the community gathers."
+        },
+        {
+          "id": "fara_c2",
+          "text": "Accept Hospitality Graciously",
+          "detail": "Bedouin and oasis residents practice generous hospitality; accepting offered tea or food is considered respectful and part of social etiquette."
+        },
+        {
+          "id": "fara_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "English is rarely spoken in Farafra; learning phrases like Salam Alaikum (greetings) greatly enhances interactions with locals."
+        },
+        {
+          "id": "fara_c4",
+          "text": "Photography Courtesy",
+          "detail": "Always ask permission before photographing people, especially women, as privacy and modesty are highly valued in this conservative community."
+        }
+      ]
+    },
+    {
+      "id": "dakhla_oasis",
+      "name": "Dakhla Oasis",
+      "nameIt": "واحة الداخلة",
+      "lat": 25.5,
+      "lng": 29,
+      "type": "NATURE",
+      "description": "A lush oasis famous for its hot springs, ancient mud-brick architecture, and vibrant local culture in towns like Mut and Al-Qasr. The oasis provides an excellent base for desert exploration and offers numerous thermal pools and archaeological sites from the pharaonic period.",
+      "imageQueries": [
+        "Dakhla Oasis Egypt hot springs",
+        "Dakhla Oasis Al-Qasr ancient architecture"
+      ],
+      "activities": [
+        {
+          "id": "dakh_1",
+          "text": "Bathe in Mut Hot Springs",
+          "detail": "Soak in the naturally heated mineral pools near the town of Mut, believed to have therapeutic properties and perfect for relaxation after desert travel.",
+          "lat": 25.4167,
+          "lng": 29.0167
+        },
+        {
+          "id": "dakh_2",
+          "text": "Explore Al-Qasr Old Town",
+          "detail": "Wander through the narrow mud-brick streets and ancient architecture of Al-Qasr, featuring traditional houses, a mosque, and a medieval marketplace largely unchanged for centuries.",
+          "lat": 25.4644,
+          "lng": 29.1167
+        },
+        {
+          "id": "dakh_3",
+          "text": "Visit Ismant el-Kharab Temple",
+          "detail": "Tour the remains of this Ptolemaic temple dedicated to the god Thoth, featuring hieroglyphic inscriptions and offering insight into the oasis's pharaonic importance.",
+          "lat": 25.3833,
+          "lng": 29.1333
+        },
+        {
+          "id": "dakh_4",
+          "text": "Trek through the White Desert",
+          "detail": "Embark on a desert expedition to witness the ethereal white limestone rock formations and vast dunes surrounding the oasis.",
+          "lat": 25.5,
+          "lng": 29.2
+        },
+        {
+          "id": "dakh_5",
+          "text": "Visit the Ethnographic Museum in Mut",
+          "detail": "Discover traditional Dakhlan crafts, textiles, pottery, and cultural artifacts that illustrate daily life in the oasis over centuries.",
+          "lat": 25.4167,
+          "lng": 29.0167
+        },
+        {
+          "id": "dakh_6",
+          "text": "Bicycle Through Palm Groves",
+          "detail": "Ride through the lush agricultural lands and date palm plantations that sustain the oasis, spotting local farming practices and hidden pools.",
+          "lat": 25.42,
+          "lng": 29.05
+        }
+      ],
+      "food": [
+        {
+          "id": "dakh_f1",
+          "text": "Tagine with Local Lamb",
+          "detail": "A slow-cooked stew of tender lamb with vegetables and aromatic spices served in traditional earthenware, often featuring apricots or dates from the oasis."
+        },
+        {
+          "id": "dakh_f2",
+          "text": "Stuffed Mulawah (Dakhlan Bread)",
+          "detail": "Thin, layered flatbread stuffed with meat, cheese, or herbs, folded into triangles and pan-fried until crispy—a beloved street food in Mut and Al-Qasr."
+        },
+        {
+          "id": "dakh_f3",
+          "text": "Fresh Date and Almond Paste",
+          "detail": "Smooth paste made from Dakhla's renowned dates blended with local almonds, eaten with fresh bread as a nutritious breakfast or snack."
+        },
+        {
+          "id": "dakh_f4",
+          "text": "Kushari (Oasis Style)",
+          "detail": "The Egyptian comfort food of rice, lentils, and pasta topped with tomato sauce and chickpeas, prepared with local variations and fresh ingredients."
+        },
+        {
+          "id": "dakh_f5",
+          "text": "Grilled Desert Fish from the Oasis Pools",
+          "detail": "Fresh tilapia or other oasis fish simply seasoned with salt, lemon, and local herbs, grilled over charcoal for authentic desert dining."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dakh_c1",
+          "text": "Dress Respectfully",
+          "detail": "Wear modest clothing covering shoulders and knees, especially when visiting Al-Qasr and local homes, to honor Islamic customs and local sensibilities."
+        },
+        {
+          "id": "dakh_c2",
+          "text": "Greet with Right Hand",
+          "detail": "Always offer your right hand for greetings and when giving or receiving items, as the left hand is considered unclean in Egyptian tradition."
+        },
+        {
+          "id": "dakh_c3",
+          "text": "Accept Hospitality Graciously",
+          "detail": "Local families frequently offer mint tea and dates to visitors; accepting at least a sip is a sign of respect and helps build genuine connections."
+        },
+        {
+          "id": "dakh_c4",
+          "text": "Ask Permission Before Photography",
+          "detail": "Always request consent before photographing people, especially in traditional areas like Al-Qasr, where some residents prefer privacy and cultural preservation."
+        }
+      ]
+    },
+    {
+      "id": "el_kharga_oasis",
+      "name": "Kharga Oasis",
+      "nameIt": "واحة الخارجة",
+      "lat": 25.4539,
+      "lng": 30.5406,
+      "type": "NATURE",
+      "description": "The largest oasis in the Western Desert with a rich history spanning from ancient Pharaonic times to the Islamic era, featuring important archaeological sites and museums. The oasis town serves as a major travel hub and offers authentic desert hospitality with numerous historical monuments.",
+      "imageQueries": [
+        "Kharga Oasis Egypt palm oasis",
+        "Kharga Oasis ancient temple"
+      ],
+      "activities": [
+        {
+          "id": "el_k_1",
+          "text": "Explore Temple of Hibis",
+          "detail": "Visit this beautifully preserved Ptolemaic temple dedicated to Amun, featuring colorful hieroglyphic reliefs and standing as one of the finest Greek-period temples in Egypt.",
+          "lat": 25.4127,
+          "lng": 30.5469
+        },
+        {
+          "id": "el_k_2",
+          "text": "Tour Kharga Archaeological Museum",
+          "detail": "Browse artifacts spanning Pharaonic to Islamic periods, including mummies, pottery, and carved stone pieces that illustrate the oasis's rich history.",
+          "lat": 25.4455,
+          "lng": 30.5378
+        },
+        {
+          "id": "el_k_3",
+          "text": "Visit Bagawat Necropolis",
+          "detail": "Wander through this Coptic Christian cemetery with dozens of mud-brick chapel tombs dating from the 4th-6th centuries, many featuring original frescoes.",
+          "lat": 25.4219,
+          "lng": 30.5597
+        },
+        {
+          "id": "el_k_4",
+          "text": "Explore Qasr al-Zaiyan Fort",
+          "detail": "Discover this ancient fortress with mud-brick walls offering views across the oasis, believed to date back to Ptolemaic times and later inhabited during Islamic rule.",
+          "lat": 25.4389,
+          "lng": 30.5541
+        },
+        {
+          "id": "el_k_5",
+          "text": "Trek through Date Palm Groves",
+          "detail": "Walk among the verdant agricultural areas surrounding Kharga town where locals cultivate dates, olives, and vegetables in the fertile oasis soil.",
+          "lat": 25.445,
+          "lng": 30.55
+        },
+        {
+          "id": "el_k_6",
+          "text": "Visit Nadura Temple",
+          "detail": "See the remains of this Ptolemaic temple situated on a hill overlooking the oasis, providing panoramic views and insights into ancient religious practices.",
+          "lat": 25.3828,
+          "lng": 30.5736
+        }
+      ],
+      "food": [
+        {
+          "id": "el_k_f1",
+          "text": "Date Stuffed with Almond Paste",
+          "detail": "Fresh local Kharga dates pitted and filled with almond or walnut paste, a traditional sweet treat reflecting the oasis's most famous agricultural product."
+        },
+        {
+          "id": "el_k_f2",
+          "text": "Koshari",
+          "detail": "Egyptian comfort food combining lentils, rice, and pasta topped with tangy tomato sauce and crispy fried onions, widely available in Kharga's local restaurants."
+        },
+        {
+          "id": "el_k_f3",
+          "text": "Tagine of Lamb with Dried Fruits",
+          "detail": "Slow-cooked Bedouin stew featuring tender lamb, apricots, and dates served in a traditional earthenware pot, reflecting desert nomadic culinary traditions."
+        },
+        {
+          "id": "el_k_f4",
+          "text": "Fresh Kharga Olive Oil",
+          "detail": "Sample locally pressed olive oil from oasis groves, golden and fruity, used fresh on salads or bread as an authentic regional staple."
+        },
+        {
+          "id": "el_k_f5",
+          "text": "Ful Medames",
+          "detail": "Creamy fava bean paste seasoned with garlic, lemon, and cumin, traditionally served for breakfast with pita bread and hard-boiled eggs throughout the oasis."
+        }
+      ],
+      "culture": [
+        {
+          "id": "el_k_c1",
+          "text": "Dress Conservatively in Town",
+          "detail": "Respect local Islamic customs by wearing modest clothing covering shoulders and knees, particularly when visiting mosques or interacting with residents in the town center."
+        },
+        {
+          "id": "el_k_c2",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "English is limited in Kharga; knowing simple Arabic phrases like 'As-salamu alaikum' (peace be upon you) and 'Shukran' (thank you) greatly enhances interactions with locals."
+        },
+        {
+          "id": "el_k_c3",
+          "text": "Embrace Desert Hospitality Customs",
+          "detail": "Accept tea or coffee when offered by residents or guides, as refusing is considered impolite; this gesture of generosity is fundamental to Bedouin culture."
+        },
+        {
+          "id": "el_k_c4",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Plan outdoor activities for cooler hours as midday temperatures exceed 40°C, respecting local practice of rest during peak heat and dining late in the evening."
+        }
+      ]
+    },
+    {
+      "id": "temple_of_oracle",
+      "name": "Temple of the Oracle",
+      "nameIt": "معبد الوحي",
+      "lat": 29.2083,
+      "lng": 25.4917,
+      "type": "LANDMARK",
+      "description": "An ancient Greek temple located in Siwa Oasis dedicated to the god Amun, famous for its oracle that was consulted by Alexander the Great. The ruins offer fascinating insights into Greco-Egyptian culture and provide stunning views of the surrounding oasis landscape.",
+      "imageQueries": [
+        "Temple of Oracle Siwa Egypt",
+        "Temple Amun Siwa ancient ruins"
+      ],
+      "activities": [
+        {
+          "id": "temp_1",
+          "text": "Explore Temple Ruins",
+          "detail": "Walk through the remains of the ancient sanctuary where the oracle priest delivered prophecies, examining the carved stone blocks and understanding the temple's layout.",
+          "lat": 29.2021,
+          "lng": 25.3915
+        },
+        {
+          "id": "temp_2",
+          "text": "Visit Alexander the Great's Chamber",
+          "detail": "See the inner sanctum where Alexander the Great is believed to have consulted the oracle and received his divine confirmation as pharaoh.",
+          "lat": 29.2021,
+          "lng": 25.3915
+        },
+        {
+          "id": "temp_3",
+          "text": "Sunset View from Temple Heights",
+          "detail": "Climb to the elevated ruins at golden hour to photograph the temple silhouetted against the oasis landscape and distant sand dunes.",
+          "lat": 29.2021,
+          "lng": 25.3915
+        },
+        {
+          "id": "temp_4",
+          "text": "Archaeological Museum Visit",
+          "detail": "Tour Siwa's local museum in town to see artifacts recovered from the temple and learn about the oracle's historical significance.",
+          "lat": 29.2024,
+          "lng": 25.391
+        },
+        {
+          "id": "temp_5",
+          "text": "Guided Historical Tour",
+          "detail": "Hire a local Siwan guide to explain the Greco-Egyptian religious syncretism and the oracle's role in ancient Mediterranean politics."
+        },
+        {
+          "id": "temp_6",
+          "text": "Photography of Stone Carvings",
+          "detail": "Document the remaining hieroglyphics and Greek inscriptions on temple walls that reveal the bilingual nature of the sanctuary."
+        }
+      ],
+      "food": [
+        {
+          "id": "temp_f1",
+          "text": "Siwan Olives and Olive Oil",
+          "detail": "Sample the region's famous green olives and cold-pressed oil, which have been produced in Siwa for centuries using traditional methods."
+        },
+        {
+          "id": "temp_f2",
+          "text": "Tagine with Local Vegetables",
+          "detail": "Enjoy a slow-cooked Moroccan-style stew featuring dates, onions, and seasonal oasis vegetables served with flatbread."
+        },
+        {
+          "id": "temp_f3",
+          "text": "Fresh Date Feast",
+          "detail": "Taste Siwa's prized dates, particularly the soft, sweet varieties harvested locally and often served with fresh goat cheese."
+        },
+        {
+          "id": "temp_f4",
+          "text": "Siwan Barley Bread",
+          "detail": "Experience traditional barley flatbread baked in communal ovens, a staple carbohydrate in the oasis diet for generations."
+        },
+        {
+          "id": "temp_f5",
+          "text": "Stuffed Eggplant Mahshi",
+          "detail": "Savor eggplants filled with spiced meat and rice, reflecting the blend of Egyptian and North African culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "temp_c1",
+          "text": "Dress Respectfully at Temple",
+          "detail": "Wear modest clothing covering shoulders and knees when visiting the sacred site, as it remains spiritually significant to local Siwan communities."
+        },
+        {
+          "id": "temp_c2",
+          "text": "Hire Local Guides",
+          "detail": "Support Siwan guides who possess deep oral histories about the oracle and can explain cultural meanings lost in academic texts."
+        },
+        {
+          "id": "temp_c3",
+          "text": "Ask Permission Before Photography",
+          "detail": "Request consent from any local residents or custodians before photographing, and avoid photographing people without permission."
+        },
+        {
+          "id": "temp_c4",
+          "text": "Visit During Cooler Hours",
+          "detail": "Plan temple visits for early morning or late afternoon, as midday heat is intense and locals traditionally rest during this time."
+        }
+      ]
+    },
+    {
+      "id": "alamein",
+      "name": "El Alamein",
+      "nameIt": "العلمين",
+      "lat": 30.8133,
+      "lng": 28.9667,
+      "type": "TOWN",
+      "description": "A historic coastal town famous as the site of the pivotal World War II Battle of El Alamein, now home to significant war museums and memorials. The town offers beautiful Mediterranean beaches alongside important military heritage sites attracting history enthusiasts from around the world.",
+      "imageQueries": [
+        "El Alamein WWII museum Egypt",
+        "El Alamein war cemetery beach"
+      ],
+      "activities": [
+        {
+          "id": "alam_1",
+          "text": "El Alamein War Museum",
+          "detail": "Explore extensive exhibits documenting the 1942 battle with tanks, weapons, photographs, and personal artifacts from Allied and Axis forces.",
+          "lat": 30.8058,
+          "lng": 28.9456
+        },
+        {
+          "id": "alam_2",
+          "text": "Commonwealth War Cemetery",
+          "detail": "Visit the solemn memorial site containing over 7,000 graves of British, Commonwealth, and Allied soldiers who died in the North African campaign.",
+          "lat": 30.8092,
+          "lng": 28.9381
+        },
+        {
+          "id": "alam_3",
+          "text": "German War Cemetery",
+          "detail": "Pay respects at this dignified memorial housing remains of over 4,000 German and Italian soldiers, with exhibits on Axis perspectives of the campaign.",
+          "lat": 30.8198,
+          "lng": 28.9278
+        },
+        {
+          "id": "alam_4",
+          "text": "El Alamein Beach",
+          "detail": "Relax on pristine Mediterranean sandy beaches perfect for swimming and picnicking while overlooking historic battlefields.",
+          "lat": 30.8045,
+          "lng": 28.9512
+        },
+        {
+          "id": "alam_5",
+          "text": "Military Ridge Tours",
+          "detail": "Join guided tours across preserved trench systems and gun positions to understand the strategic layout of the 1942 defensive lines.",
+          "lat": 30.815,
+          "lng": 28.94
+        },
+        {
+          "id": "alam_6",
+          "text": "Italian War Memorial",
+          "detail": "Contemplate this striking monument dedicated to Italian soldiers, featuring architectural grandeur reflecting their sacrifice in the desert campaign."
+        }
+      ],
+      "food": [
+        {
+          "id": "alam_f1",
+          "text": "Grilled Sea Bream (Denees)",
+          "detail": "Fresh Mediterranean sea bream grilled whole with lemon, garlic, and olive oil is a signature coastal dish throughout El Alamein."
+        },
+        {
+          "id": "alam_f2",
+          "text": "Egyptian Koshari",
+          "detail": "This beloved street food combines lentils, pasta, rice, and chickpeas topped with spiced tomato sauce and crispy fried onions."
+        },
+        {
+          "id": "alam_f3",
+          "text": "Mezze Platter",
+          "detail": "Assorted small dishes featuring hummus, baba ganoush, falafel, stuffed grape leaves, and fresh pita bread perfect for sharing."
+        },
+        {
+          "id": "alam_f4",
+          "text": "Octopus Salade (Salata Khartoush)",
+          "detail": "Tender boiled octopus mixed with fresh tomatoes, cucumber, parsley, lemon juice, and olive oil showcases local seafood traditions."
+        },
+        {
+          "id": "alam_f5",
+          "text": "Shrimp Saganaki",
+          "detail": "Plump Mediterranean shrimp sautéed in white wine with tomatoes and topped with melted cheese, blending Greek and Egyptian flavors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alam_c1",
+          "text": "Respectful Cemetery Conduct",
+          "detail": "Dress modestly and maintain quiet reverence when visiting war cemeteries, as these are active memorial sites of deep spiritual significance."
+        },
+        {
+          "id": "alam_c2",
+          "text": "Best Visit Timing",
+          "detail": "Visit during autumn and winter months (October-March) when Mediterranean temperatures are mild; summer heat exceeds 35°C and makes outdoor touring uncomfortable."
+        },
+        {
+          "id": "alam_c3",
+          "text": "Local Hospitality Customs",
+          "detail": "Accept offered tea or coffee when visiting local establishments as a gesture of welcome, and show appreciation for their willingness to share wartime stories."
+        },
+        {
+          "id": "alam_c4",
+          "text": "Photography Sensitivity",
+          "detail": "Ask permission before photographing at cemeteries and memorial sites, and avoid casual or disrespectful poses that locals may find offensive."
+        }
+      ]
+    },
+    {
+      "id": "mersa_matruh_beaches",
+      "name": "Agiba Beach",
+      "nameIt": "شاطئ العقيبة",
+      "lat": 31.3333,
+      "lng": 27.0833,
+      "type": "COASTAL",
+      "description": "A spectacular crescent beach near Marsa Matrouh enclosed by dramatic white limestone cliffs, offering pristine turquoise waters perfect for swimming and snorkeling. The beach is one of Egypt's most scenic coastal spots, ideal for those seeking untouched natural beauty.",
+      "imageQueries": [
+        "Agiba Beach Egypt white cliffs",
+        "Agiba Beach turquoise water"
+      ],
+      "activities": [
+        {
+          "id": "mers_1",
+          "text": "Swimming in Turquoise Waters",
+          "detail": "Dive into the pristine Mediterranean waters sheltered by the crescent bay, ideal for swimming with excellent visibility and gentle currents."
+        },
+        {
+          "id": "mers_2",
+          "text": "Snorkeling Along the Reef",
+          "detail": "Explore the shallow coral formations and marine life just offshore, where colorful fish and sea creatures thrive in the clear turquoise sea."
+        },
+        {
+          "id": "mers_3",
+          "text": "Limestone Cliff Exploration",
+          "detail": "Hike along and photograph the dramatic white limestone cliffs that frame the beach, offering stunning vistas of the Mediterranean coastline."
+        },
+        {
+          "id": "mers_4",
+          "text": "Sunset Viewing at the Cliffs",
+          "detail": "Watch the sun descend over the Mediterranean from the elevated cliff edges, creating golden light on the white rock formations."
+        },
+        {
+          "id": "mers_5",
+          "text": "Beachcombing for Shells",
+          "detail": "Stroll along the sandy shore to collect shells and sea glass, taking advantage of the relatively undeveloped state of this remote beach."
+        },
+        {
+          "id": "mers_6",
+          "text": "Scuba Diving Excursion",
+          "detail": "Arrange diving trips with local operators based in Marsa Matrouh to explore deeper waters and underwater caves near the beach."
+        }
+      ],
+      "food": [
+        {
+          "id": "mers_f1",
+          "text": "Grilled Mediterranean Fish",
+          "detail": "Fresh-caught local sea bass or bream grilled whole with olive oil, lemon, and herbs at beachside restaurants in nearby Marsa Matrouh."
+        },
+        {
+          "id": "mers_f2",
+          "text": "Octopus Salad (Salade Bab el-Hout)",
+          "detail": "Tender boiled octopus mixed with fresh tomatoes, onions, cilantro, and lemon juice, a regional specialty of Egypt's North Coast."
+        },
+        {
+          "id": "mers_f3",
+          "text": "Koshari",
+          "detail": "Egypt's beloved comfort dish of lentils, chickpeas, pasta, and rice topped with tomato sauce and crispy onions, available at local eateries."
+        },
+        {
+          "id": "mers_f4",
+          "text": "Shrimp Saganaki",
+          "detail": "Fresh Mediterranean shrimp fried with tomato sauce and melted cheese, reflecting the coastal Mediterranean influences of the region."
+        },
+        {
+          "id": "mers_f5",
+          "text": "Stuffed Calamari (Kalamar Mahshi)",
+          "detail": "Squid filled with rice, herbs, and spices then baked or grilled, showcasing the freshest seafood of the Western Desert coast."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mers_c1",
+          "text": "Respect Local Beach Customs",
+          "detail": "Dress modestly when not swimming, and be mindful that this is a family-friendly beach where conservative swimwear is appreciated by locals."
+        },
+        {
+          "id": "mers_c2",
+          "text": "Visit in Shoulder Seasons",
+          "detail": "Plan visits during spring (April-May) or fall (September-October) to avoid peak summer crowds and extreme heat while enjoying ideal sea conditions."
+        },
+        {
+          "id": "mers_c3",
+          "text": "Hire a Local Guide",
+          "detail": "Engage guides from Marsa Matrouh who know tide patterns, safe snorkeling spots, and hidden cliff paths, enhancing both safety and experience."
+        },
+        {
+          "id": "mers_c4",
+          "text": "Bring Your Own Provisions",
+          "detail": "Stock up on water, food, and supplies in Marsa Matrouh town before heading to the beach, as amenities are minimal at this remote location."
+        }
+      ]
+    },
+    {
+      "id": "qasr_el_wisaya",
+      "name": "Qasr al-Wis",
+      "nameIt": "قصر الويس",
+      "lat": 26.8,
+      "lng": 29.5,
+      "type": "LANDMARK",
+      "description": "An ancient fortress settlement in Dakhla Oasis with well-preserved mud-brick structures and traditional Islamic architecture, showcasing life in a medieval desert community. The site offers visitors a glimpse into centuries-old desert settlement patterns and traditional construction techniques.",
+      "imageQueries": [
+        "Qasr al-Wis mud brick settlement",
+        "Qasr al-Wis Dakhla Oasis fortress"
+      ],
+      "activities": [
+        {
+          "id": "qasr_1",
+          "text": "Explore Mud-Brick Residences",
+          "detail": "Wander through the narrow lanes between preserved traditional houses built from mud brick and straw, observing the clever ventilation systems and compact layouts designed for desert living.",
+          "lat": 25.4903,
+          "lng": 29.0186
+        },
+        {
+          "id": "qasr_2",
+          "text": "Visit the Historic Mosque",
+          "detail": "Study the modest but well-preserved mosque at the heart of the settlement, featuring traditional Islamic architectural elements and serving as the community's spiritual center for centuries.",
+          "lat": 25.4908,
+          "lng": 29.0189
+        },
+        {
+          "id": "qasr_3",
+          "text": "Document Traditional Architecture",
+          "detail": "Photograph the intricate wooden mashrabiya screens, carved doorways, and decorative plasterwork that exemplify Mamluk-era craftsmanship adapted to desert materials."
+        },
+        {
+          "id": "qasr_4",
+          "text": "Climb to Panoramic Viewpoint",
+          "detail": "Ascend to higher structures within the fortress to view the surrounding Dakhla Oasis landscape and understand how the settlement was strategically positioned along historic trade routes.",
+          "lat": 25.4912,
+          "lng": 29.0192
+        },
+        {
+          "id": "qasr_5",
+          "text": "Study Water Management Systems",
+          "detail": "Examine the well systems and cisterns that were crucial to survival in this arid environment, learning how medieval desert communities engineered water storage and distribution."
+        },
+        {
+          "id": "qasr_6",
+          "text": "Browse Local Crafts Market",
+          "detail": "Purchase handmade pottery, textiles, and basketwork from nearby artisans in Dakhla who maintain traditional production methods similar to those used historically at Qasr al-Wis."
+        }
+      ],
+      "food": [
+        {
+          "id": "qasr_f1",
+          "text": "Ful Medames with Dakhla Olive Oil",
+          "detail": "Savor slow-cooked fava beans seasoned with local pressed olive oil from Dakhla's oasis date palm groves, traditionally eaten for breakfast throughout the Western Desert region."
+        },
+        {
+          "id": "qasr_f2",
+          "text": "Date-Stuffed Bread",
+          "detail": "Try locally baked bread with date paste filling, a staple preserved food that sustained medieval desert settlements like Qasr al-Wis through lean seasons."
+        },
+        {
+          "id": "qasr_f3",
+          "text": "Lamb Tagine with Dried Apricots",
+          "detail": "Experience slow-roasted lamb with dried apricots and warming spices, a traditional Dakhla preparation that reflects the oasis's historic trade in preserved fruits and spices."
+        },
+        {
+          "id": "qasr_f4",
+          "text": "Fresh Dakhla Dates",
+          "detail": "Sample the sweet local dates harvested from the oasis's thousands of date palms, which have been a primary food source and trade commodity for inhabitants throughout Qasr al-Wis's history."
+        },
+        {
+          "id": "qasr_f5",
+          "text": "Fortified Barley and Herb Soup",
+          "detail": "Taste a warming soup made with barley, desert herbs, and preserved vegetables, reflecting the resourceful cuisine of medieval fortress dwellers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "qasr_c1",
+          "text": "Dress Respectfully in the Heat",
+          "detail": "Wear light, loose-fitting clothes that cover shoulders and knees out of respect for local Islamic customs, while also protecting yourself from intense desert sun exposure."
+        },
+        {
+          "id": "qasr_c2",
+          "text": "Request Permission Before Photographing Locals",
+          "detail": "Always ask villagers' consent before taking photographs, as the Dakhla community values privacy and cultural respect despite welcoming historical interest in the fortress."
+        },
+        {
+          "id": "qasr_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Use simple Arabic phrases like 'Assalamu alaikum' (peace be upon you) and 'Shukran' (thank you), which locals greatly appreciate and enhance your interaction with guides and vendors."
+        },
+        {
+          "id": "qasr_c4",
+          "text": "Respect Prayer Times",
+          "detail": "Plan activities around the five daily Islamic prayer times, as the community observes these faithfully and some businesses may close temporarily during prayers."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Siwa House Hotel Restaurant",
+      "address": "Main Street, Siwa Oasis",
+      "neighbourhood": "Siwa Oasis",
+      "cuisine": "Egyptian, Mediterranean",
+      "priceRange": "€€",
+      "description": "Traditional family-run restaurant in a heritage hotel serving authentic Siwan cuisine with views of date palm groves.",
+      "mustOrder": "Siwan lamb tagine with dates",
+      "lat": 29.2033,
+      "lng": 25.5155
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Adrere Amellal Restaurant",
+      "address": "Desert Road, Siwa Oasis",
+      "neighbourhood": "Siwa Oasis",
+      "cuisine": "Berber, Egyptian",
+      "priceRange": "€€€",
+      "description": "Eco-lodge restaurant offering farm-to-table Siwan specialties in an intimate mud-brick setting with solar-powered ambiance.",
+      "mustOrder": "Stuffed camel meat with herbs",
+      "lat": 29.2078,
+      "lng": 25.5089
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Shali Restaurant",
+      "address": "Near Shali Gate, Siwa Oasis",
+      "neighbourhood": "Siwa Oasis",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Budget-friendly local spot near the historic mud-brick fortress serving simple, hearty Egyptian dishes.",
+      "mustOrder": "Koshari with local vegetables",
+      "lat": 29.2067,
+      "lng": 25.5172
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "The Oasis Hotel Restaurant",
+      "address": "Central Square, Marsa Matruh",
+      "neighbourhood": "Marsa Matruh",
+      "cuisine": "Mediterranean, Seafood",
+      "priceRange": "€€€",
+      "description": "Upscale beachfront dining with fresh Mediterranean catches and coastal views over Cleopatra's Beach.",
+      "mustOrder": "Grilled sea bass with Mediterranean herbs",
+      "lat": 31.3547,
+      "lng": 27.2456
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Abu Qir Restaurant",
+      "address": "Harbor Road, Marsa Matruh",
+      "neighbourhood": "Marsa Matruh",
+      "cuisine": "Seafood, Egyptian",
+      "priceRange": "€€",
+      "description": "Casual harborside eatery specializing in fresh daily catches and traditional fishermen's preparations.",
+      "mustOrder": "Mixed grilled seafood platter",
+      "lat": 31.3502,
+      "lng": 27.2534
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "El Gezira Restaurant",
+      "address": "Beach Street, Marsa Matruh",
+      "neighbourhood": "Marsa Matruh",
+      "cuisine": "Egyptian, Arabic",
+      "priceRange": "€",
+      "description": "Simple, no-frills local restaurant frequented by residents for authentic Egyptian home cooking.",
+      "mustOrder": "Molokhia with rice and grilled fish",
+      "lat": 31.3561,
+      "lng": 27.2398
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Qasr Al Bahr Restaurant",
+      "address": "Corniche Road, Mersa Matruh",
+      "neighbourhood": "Mersa Matruh",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Resort-style restaurant with panoramic sea views offering contemporary Mediterranean cuisine.",
+      "mustOrder": "Lobster thermidor",
+      "lat": 31.3489,
+      "lng": 27.2467
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Badawiya Restaurant",
+      "address": "Main Road, Matrouh City",
+      "neighbourhood": "Matrouh",
+      "cuisine": "Bedouin, Egyptian",
+      "priceRange": "€€",
+      "description": "Atmospheric venue celebrating Bedouin heritage with traditional slow-cooked stews and desert-inspired flavors.",
+      "mustOrder": "Bedouin camel stew with couscous",
+      "lat": 31.3475,
+      "lng": 27.2445
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "El Rayan Restaurant",
+      "address": "Station Road, Sollum",
+      "neighbourhood": "Sollum",
+      "cuisine": "Egyptian, Libyan",
+      "priceRange": "€",
+      "description": "Crossroads restaurant near the Libyan border offering a fusion of Egyptian and Libyan border cuisine.",
+      "mustOrder": "Libyan soup with flatbread",
+      "lat": 31.7939,
+      "lng": 25.5642
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Waha Restaurant",
+      "address": "Oasis Street, Bahareya Oasis",
+      "neighbourhood": "Bahareya Oasis",
+      "cuisine": "Egyptian, Oasis",
+      "priceRange": "€€",
+      "description": "Family-run oasis restaurant showcasing local produce from surrounding date plantations and farms.",
+      "mustOrder": "Stuffed chicken with dates and nuts",
+      "lat": 28.3656,
+      "lng": 28.8502
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Desert Camp Restaurant",
+      "address": "Near White Desert, Bahareya Oasis",
+      "neighbourhood": "Bahareya Oasis",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Bedouin-style camp restaurant offering traditional nomadic cuisine under starlit skies.",
+      "mustOrder": "Bedouin bread with stewed lamb",
+      "lat": 28.3701,
+      "lng": 28.8456
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Al Faraan Restaurant",
+      "address": "Main Street, Dakhla Oasis",
+      "neighbourhood": "Dakhla Oasis",
+      "cuisine": "Egyptian, Oasis",
+      "priceRange": "€€",
+      "description": "Authentic oasis dining featuring Dakhla's signature dishes and organic vegetables from local gardens.",
+      "mustOrder": "Dakhla lamb with date sauce",
+      "lat": 25.4891,
+      "lng": 29.3103
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Mut House Hotel Restaurant",
+      "address": "Near City Center, Mut, Dakhla",
+      "neighbourhood": "Dakhla Oasis",
+      "cuisine": "Egyptian",
+      "priceRange": "€€",
+      "description": "Heritage hotel restaurant serving traditional Dakhlan cuisine in a restored mud-brick building.",
+      "mustOrder": "Roasted desert rabbit with herbs",
+      "lat": 25.4867,
+      "lng": 29.3078
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Kharga Oasis Restaurant",
+      "address": "Government Square, Al-Kharga",
+      "neighbourhood": "Kharga Oasis",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Local favorite serving straightforward Egyptian classics popular with oasis residents.",
+      "mustOrder": "Ful medames with fresh pita",
+      "lat": 25.4556,
+      "lng": 30.5389
+    }
+  ]
+}

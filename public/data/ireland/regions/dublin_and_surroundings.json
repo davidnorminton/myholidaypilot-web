@@ -1,0 +1,1612 @@
+{
+  "id": "dublin_and_surroundings",
+  "name": "Dublin and the Midlands",
+  "nameIt": "Baile Átha Cliath agus an Lár-Tír",
+  "capital": "Dublin",
+  "lat": 53.35,
+  "lng": -6.26,
+  "emoji": "🏛️",
+  "colour": "ff4caf50",
+  "boundingBox": {
+    "north": 53.8,
+    "south": 52.9,
+    "east": -5.8,
+    "west": -7.2
+  },
+  "history": "Dublin's history stretches back over a thousand years, from its foundation as a Viking settlement in the 9th century to its emergence as a medieval walled city under Norman rule. The city became the seat of English power in Ireland and later the heart of the Irish independence movement, with pivotal events like the 1916 Easter Rising reshaping the nation's destiny. The Midlands, by contrast, developed more gradually as an agricultural and market-town region, with towns like Athlone and Mullingar serving as important crossroads for trade and communication. Together, these regions witnessed the full arc of Irish history, from conquest and colonialism to independence and modern statehood.",
+  "culturalNotes": "Dublin is known for its literary heritage, producing world-famous writers like Joyce, Beckett and Wilde, and maintains a vibrant pub culture where conversation and storytelling are celebrated arts. The Midlands embody a quieter, more rural Irish character with strong farming traditions, traditional music sessions, and close-knit community values that reflect the broader Irish countryside. Both regions share a deep connection to Irish language revival efforts, though English dominates daily life, and both honour their Celtic and Christian heritage through festivals, monuments and local customs.",
+  "bestTimeToVisit": "Visit in spring (April-May) or autumn (September-October) to avoid summer crowds while enjoying mild weather.",
+  "languageNotes": "While English is the primary language, Irish (Gaeilge) is taught in schools and used in official contexts, with some phrases like 'Dia duit' (hello) and 'Slán' (goodbye) still part of everyday courtesy. Dubliners and Midlanders speak with distinct accents; Dublin speech is rapid and often witty, while Midlands accents carry softer, more rural inflections typical of Ireland's interior regions.",
+  "generatedAt": "2026-07-11T08:11:27.386Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "dublin_city",
+      "name": "Dublin",
+      "nameIt": "Baile Átha Cliath",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "type": "CITY",
+      "description": "Ireland's vibrant capital city, home to iconic landmarks like Trinity College, the Guinness Storehouse, and the Ha'penny Bridge spanning the River Liffey. The city blends Georgian architecture, literary heritage, world-class museums, and a legendary pub culture that makes it one of Europe's most visited destinations.",
+      "imageQueries": [
+        "Dublin Ha'penny Bridge Liffey",
+        "Dublin Trinity College Georgian"
+      ],
+      "activities": [
+        {
+          "id": "dubl_1",
+          "text": "Trinity College & The Book of Kells",
+          "detail": "Explore Ireland's oldest university and view the 9th-century illuminated manuscript in the Long Room, one of the world's most beautiful libraries.",
+          "lat": 53.3432,
+          "lng": -6.2546
+        },
+        {
+          "id": "dubl_2",
+          "text": "Guinness Storehouse",
+          "detail": "Visit the seven-story attraction dedicated to Ireland's most famous stout, featuring interactive exhibits and a complimentary pint at the Gravity Bar with 360° city views.",
+          "lat": 53.3415,
+          "lng": -6.2879
+        },
+        {
+          "id": "dubl_3",
+          "text": "Ha'penny Bridge & Temple Bar",
+          "detail": "Walk across Dublin's iconic cast-iron pedestrian bridge and explore the narrow cobbled streets of Temple Bar, the city's lively cultural quarter filled with traditional pubs and restaurants.",
+          "lat": 53.3448,
+          "lng": -6.2603
+        },
+        {
+          "id": "dubl_4",
+          "text": "Dublin Castle",
+          "detail": "Tour the 13th-century Norman castle at the heart of the city, featuring State Apartments and the Chapel Royal with guided tours explaining Dublin's medieval history.",
+          "lat": 53.3414,
+          "lng": -6.2622
+        },
+        {
+          "id": "dubl_5",
+          "text": "National Museum of Ireland",
+          "detail": "Discover Irish history and archaeology across multiple locations, with the Archaeology branch at Kildare Street housing prehistoric gold artifacts and Viking treasures.",
+          "lat": 53.3363,
+          "lng": -6.2608
+        },
+        {
+          "id": "dubl_6",
+          "text": "Kilmainham Gaol",
+          "detail": "Explore this restored 18th-century prison where Irish independence leaders were held, now a powerful museum documenting the struggle for Irish freedom.",
+          "lat": 53.3413,
+          "lng": -6.3071
+        },
+        {
+          "id": "dubl_7",
+          "text": "St. Stephen's Green & Grafton Street",
+          "detail": "Stroll through the city's main shopping district and relax in the 22-acre Victorian park surrounded by Georgian townhouses and street performers.",
+          "lat": 53.3386,
+          "lng": -6.2609
+        }
+      ],
+      "food": [
+        {
+          "id": "dubl_f1",
+          "text": "Coddle",
+          "detail": "A traditional Dublin working-class stew made with sausages, bacon, potatoes, and onions, historically cooked in one pot and best enjoyed in old-school local pubs."
+        },
+        {
+          "id": "dubl_f2",
+          "text": "Seafood Chowder",
+          "detail": "A creamy Irish soup loaded with fresh Dublin Bay prawns, mussels, and white fish, typically served with brown bread at waterfront restaurants and seafood specialists."
+        },
+        {
+          "id": "dubl_f3",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake made from grated raw potato and mashed potato, folded around savory fillings like bacon and cheese, found in Temple Bar restaurants."
+        },
+        {
+          "id": "dubl_f4",
+          "text": "Colcannon",
+          "detail": "A simple comfort dish of mashed potatoes mixed with cabbage or kale and butter, often served as a side with meat or as a vegetarian main course."
+        },
+        {
+          "id": "dubl_f5",
+          "text": "Irish Brown Bread & Butter",
+          "detail": "Dense, hearty wholemeal bread baked fresh daily in Dublin bakeries and served with salted butter, fundamental to the Irish breakfast and afternoon tea."
+        },
+        {
+          "id": "dubl_f6",
+          "text": "Proper Irish Breakfast (Full Fry)",
+          "detail": "A substantial morning meal featuring bacon rashers, pork sausages, black pudding, eggs, grilled tomatoes, mushrooms, and toast, served in traditional cafés and hotels."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dubl_c1",
+          "text": "Pub Culture & Opening Hours",
+          "detail": "Pubs are central to Dublin social life; they open from 10:30 AM and most serve until 2 AM, with a traditional 'last orders' bell rung before closing."
+        },
+        {
+          "id": "dubl_c2",
+          "text": "Haggling & Tipping",
+          "detail": "Haggling is not customary in Dublin shops or restaurants; tipping around 10-15% is appreciated in restaurants and for taxi drivers, though not obligatory."
+        },
+        {
+          "id": "dubl_c3",
+          "text": "Literary Heritage & Walking Tours",
+          "detail": "Dublin is the home of Joyce, Beckett, and Wilde; guided literary walking tours are popular and many locals enjoy discussing Irish authors in pubs during evening conversations."
+        },
+        {
+          "id": "dubl_c4",
+          "text": "Luas Tram & Bus Transport",
+          "detail": "The Luas tram system and extensive Dublin Bus network are the primary public transport; purchase a Leap Card for seamless travel across both systems at discounted rates."
+        }
+      ]
+    },
+    {
+      "id": "newgrange",
+      "name": "Newgrange",
+      "nameIt": "Sí an Brú",
+      "lat": 53.6944,
+      "lng": -6.4769,
+      "type": "LANDMARK",
+      "description": "A massive Neolithic passage tomb built around 3200 BCE, older than Stonehenge and the Egyptian pyramids, located in the Boyne Valley. Its architectural precision and the famous winter solstice light phenomenon make it one of the world's most extraordinary prehistoric monuments.",
+      "imageQueries": [
+        "Newgrange passage tomb Ireland",
+        "Newgrange winter solstice light"
+      ],
+      "activities": [
+        {
+          "id": "newg_1",
+          "text": "Newgrange Passage Tomb Tour",
+          "detail": "Enter the 5,000-year-old chamber and experience the precisely aligned passage leading to the central burial chamber, guided by expert interpreters.",
+          "lat": 53.6956,
+          "lng": -6.4749
+        },
+        {
+          "id": "newg_2",
+          "text": "Winter Solstice Light Experience",
+          "detail": "Book a ticket in the annual lottery to witness the rare phenomenon where sunlight illuminates the inner chamber for 17 minutes at dawn on the winter solstice (December 21).",
+          "lat": 53.6956,
+          "lng": -6.4749
+        },
+        {
+          "id": "newg_3",
+          "text": "Boyne Valley Archaeological Sites",
+          "detail": "Visit the nearby passage tombs of Knowth and Dowth, part of the UNESCO World Heritage landscape containing over 40 Neolithic monuments.",
+          "lat": 53.6936,
+          "lng": -6.4615
+        },
+        {
+          "id": "newg_4",
+          "text": "Newgrange Farm Experience",
+          "detail": "Explore a working farm adjacent to the monument where visitors can see traditional Irish farming demonstrations and medieval reconstructions.",
+          "lat": 53.6975,
+          "lng": -6.4721
+        },
+        {
+          "id": "newg_5",
+          "text": "Brú na Bóinne Visitor Centre",
+          "detail": "Learn the history and archaeology of the Boyne Valley complex through interactive exhibits and 3D reconstructions before or after visiting the tomb.",
+          "lat": 53.6936,
+          "lng": -6.4615
+        },
+        {
+          "id": "newg_6",
+          "text": "Riverside Walk at the Boyne",
+          "detail": "Take a scenic walk along the Boyne River valley surrounding Newgrange to appreciate the Neolithic landscape and understand why ancients chose this location.",
+          "lat": 53.6956,
+          "lng": -6.4749
+        }
+      ],
+      "food": [
+        {
+          "id": "newg_f1",
+          "text": "Colcannon",
+          "detail": "A traditional Irish dish of mashed potatoes mixed with cabbage or kale, butter, and scallions, commonly served at pubs throughout the Midlands."
+        },
+        {
+          "id": "newg_f2",
+          "text": "Boxty",
+          "detail": "A potato pancake unique to the Boyne Valley and Northern Ireland, made with grated raw potato and potato flour, typically served with savory fillings."
+        },
+        {
+          "id": "newg_f3",
+          "text": "Irish Brown Soda Bread",
+          "detail": "A dark, dense bread made with wholemeal flour and buttermilk, baked fresh at local bakeries and served with butter and jam at traditional cafés."
+        },
+        {
+          "id": "newg_f4",
+          "text": "Boyne Valley Seafood Chowder",
+          "detail": "A creamy soup featuring locally sourced fish and shellfish, reflecting the region's proximity to coastal fishing areas and river salmon."
+        },
+        {
+          "id": "newg_f5",
+          "text": "Coddle",
+          "detail": "A Dublin-origin comfort food of sausages, bacon, potatoes, and onions slowly cooked together, widely available at traditional Irish pubs near Newgrange."
+        }
+      ],
+      "culture": [
+        {
+          "id": "newg_c1",
+          "text": "Book Winter Solstice Early",
+          "detail": "Tickets for the winter solstice light event sell out months in advance through an Irish Office of Public Works lottery system, so plan a year ahead if this is your priority."
+        },
+        {
+          "id": "newg_c2",
+          "text": "Respect the Monument's Sacred Nature",
+          "detail": "Many Irish people regard Newgrange as a sacred Neolithic site connected to ancestral spirituality, so approach with reverence and follow all guide instructions carefully."
+        },
+        {
+          "id": "newg_c3",
+          "text": "Visit Off-Peak for Quieter Experience",
+          "detail": "Early morning visits on weekdays in shoulder seasons (May or September) offer a more contemplative experience with fewer crowds than summer tourist season."
+        },
+        {
+          "id": "newg_c4",
+          "text": "Learn Irish Context First",
+          "detail": "Spending 30 minutes at the Brú na Bóinne Visitor Centre before entering the tomb dramatically enhances understanding of Neolithic Irish culture and the monument's significance."
+        }
+      ]
+    },
+    {
+      "id": "athlone",
+      "name": "Athlone",
+      "nameIt": "Baile Átha Luain",
+      "lat": 53.4247,
+      "lng": -7.9369,
+      "type": "TOWN",
+      "description": "A charming riverside town on the River Shannon at the heart of Ireland's Midlands, serving as a gateway to the lakes and waterways of the region. It offers boat tours, cultural attractions, and easy access to some of Ireland's most scenic natural areas.",
+      "imageQueries": [
+        "Athlone River Shannon bridge",
+        "Athlone Midlands Ireland town"
+      ],
+      "activities": [
+        {
+          "id": "athl_1",
+          "text": "Athlone Castle",
+          "detail": "A 13th-century Norman castle overlooking the River Shannon with museum exhibits on local history, medieval life, and the town's strategic importance.",
+          "lat": 53.6268,
+          "lng": -7.9375
+        },
+        {
+          "id": "athl_2",
+          "text": "Shannon River Boat Tours",
+          "detail": "Guided cruises departing from Athlone that explore the waterways, passing through locks and revealing the region's wildlife and lakeside scenery.",
+          "lat": 53.627,
+          "lng": -7.9365
+        },
+        {
+          "id": "athl_3",
+          "text": "Hodson Bay Hotel Marina",
+          "detail": "A starting point for self-guided boat rentals and fishing trips on Lough Ree, one of Ireland's largest lakes.",
+          "lat": 53.645,
+          "lng": -7.92
+        },
+        {
+          "id": "athl_4",
+          "text": "Left Bank Art District",
+          "detail": "A pedestrian quarter on the western bank featuring galleries, craft shops, restaurants, and street art celebrating local creativity.",
+          "lat": 53.6265,
+          "lng": -7.945
+        },
+        {
+          "id": "athl_5",
+          "text": "Athlone Town Heritage Centre",
+          "detail": "An interactive museum housed in a restored turf-roofed cottage documenting the town's settlement, monastic roots, and role in Irish waterway transport.",
+          "lat": 53.6272,
+          "lng": -7.9368
+        },
+        {
+          "id": "athl_6",
+          "text": "Clonmacnoise Monastic Site",
+          "detail": "A short trip south to an early medieval monastic settlement with high crosses, round towers, and churches spanning 1,200 years of history.",
+          "lat": 53.5592,
+          "lng": -7.8525
+        }
+      ],
+      "food": [
+        {
+          "id": "athl_f1",
+          "text": "Fresh Shannon Trout",
+          "detail": "Locally-caught trout from the river, typically prepared simply with butter and lemon at riverside restaurants to showcase the delicate flavor."
+        },
+        {
+          "id": "athl_f2",
+          "text": "Irish Coddle",
+          "detail": "A hearty one-pot stew of sausages, bacon, potatoes, and onions that reflects traditional Midlands comfort cooking."
+        },
+        {
+          "id": "athl_f3",
+          "text": "Smoked Salmon from Local Smokeries",
+          "detail": "Artisanal smoked salmon prepared using traditional methods by producers in the surrounding region, served on brown bread with cream cheese."
+        },
+        {
+          "id": "athl_f4",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake filled with savory fillings like seafood or vegetables, common in Midlands pubs and cafés."
+        },
+        {
+          "id": "athl_f5",
+          "text": "Whelan's Pub Stew",
+          "detail": "A rich beef and Guinness stew served in authentic town pubs, representing generations of local pub food tradition."
+        }
+      ],
+      "culture": [
+        {
+          "id": "athl_c1",
+          "text": "Embrace the Pub Culture",
+          "detail": "Athlone's pubs are community gathering spaces where locals welcome visitors into conversations over a pint; lingering and chatting is expected and appreciated."
+        },
+        {
+          "id": "athl_c2",
+          "text": "Respect Waterway Heritage",
+          "detail": "The River Shannon and its waterways are central to local identity and livelihood; visitors should follow posted navigation rules and support sustainable boat operators."
+        },
+        {
+          "id": "athl_c3",
+          "text": "Visit in Summer for Festivals",
+          "detail": "Athlone hosts river-based festivals and events, particularly June through September, when the town's outdoor character and community spirit are most vibrant."
+        },
+        {
+          "id": "athl_c4",
+          "text": "Learn About Monastic History",
+          "detail": "The region's identity is deeply rooted in early Christian monastic tradition; taking time to visit local heritage sites shows respect for local cultural pride and understanding."
+        }
+      ]
+    },
+    {
+      "id": "boyne_valley",
+      "name": "Boyne Valley",
+      "nameIt": "Gleann an Bhóinn",
+      "lat": 53.69,
+      "lng": -6.45,
+      "type": "NATURE",
+      "description": "A fertile river valley north of Dublin renowned for its concentration of Neolithic and Bronze Age monuments, including Newgrange, Knowth, and Dowth. This UNESCO-recognized landscape offers a profound journey through 5,000 years of human history and stunning countryside walks.",
+      "imageQueries": [
+        "Boyne Valley monuments Ireland",
+        "Boyne Valley Knowth ancient"
+      ],
+      "activities": [
+        {
+          "id": "boyn_1",
+          "text": "Newgrange Passage Tomb",
+          "detail": "Explore Europe's oldest known astronomical monument, a 5,200-year-old passage tomb aligned to the winter solstice sunrise, with guided tours revealing its engineering marvel and decorated stone art.",
+          "lat": 53.6947,
+          "lng": -6.4788
+        },
+        {
+          "id": "boyn_2",
+          "text": "Knowth Megalithic Complex",
+          "detail": "Visit this vast Bronze Age site with two passage tombs and dozens of satellite tumuli, featuring intricate carved stones and panoramic views across the Boyne Valley landscape.",
+          "lat": 53.6918,
+          "lng": -6.4607
+        },
+        {
+          "id": "boyn_3",
+          "text": "Dowth Passage Tomb",
+          "detail": "Discover one of Ireland's largest passage tombs with two internal chambers, ancient spiral and geometric carvings, and the atmospheric chambered interior accessible by guided tour.",
+          "lat": 53.6889,
+          "lng": -6.4407
+        },
+        {
+          "id": "boyn_4",
+          "text": "Brú na Bóinne Visitor Centre",
+          "detail": "Begin your visit at this modern interpretive centre near the monuments with exhibitions on Neolithic life, a cinema experience, and essential information before exploring the heritage sites.",
+          "lat": 53.6922,
+          "lng": -6.4685
+        },
+        {
+          "id": "boyn_5",
+          "text": "Riverside Walk from Oldbridge to Droichead Átha",
+          "detail": "Stroll along the Boyne River towpath through peaceful countryside, passing the historic Oldbridge battle site and enjoying views of lush farmland and medieval bridge architecture.",
+          "lat": 53.7389,
+          "lng": -6.4185
+        },
+        {
+          "id": "boyn_6",
+          "text": "Hill of Tara Day Trip",
+          "detail": "Travel south to this sacred Iron Age site where High Kings of Ireland were crowned, offering 360-degree views across the central plain and rich Celtic mythology.",
+          "lat": 53.6092,
+          "lng": -6.5878
+        },
+        {
+          "id": "boyn_7",
+          "text": "Drogheda Medieval Town Walk",
+          "detail": "Explore the historic walled port town on the Boyne's mouth featuring St. Laurence's Gate, the Millmount Museum, and cobbled streets with Tudor and Norman architecture.",
+          "lat": 53.7189,
+          "lng": -6.3539
+        }
+      ],
+      "food": [
+        {
+          "id": "boyn_f1",
+          "text": "Colcannon",
+          "detail": "A traditional Irish dish of mashed potatoes mixed with cabbage or kale and butter, often served with creamed leeks, representing centuries of rural farming heritage in the Midlands region."
+        },
+        {
+          "id": "boyn_f2",
+          "text": "Boxty",
+          "detail": "A potato pancake made with grated raw potato, mashed potato, and flour, cooked on a griddle and traditionally served with meat stew or butter and sugar, a specialty of the northern Irish regions."
+        },
+        {
+          "id": "boyn_f3",
+          "text": "Local Meath Lamb or Beef",
+          "detail": "Farm-raised meat from the fertile Boyne Valley grasslands, typically slow-cooked in traditional Irish stew or served as premium cuts in local restaurants with root vegetables."
+        },
+        {
+          "id": "boyn_f4",
+          "text": "Wheaten Bread",
+          "detail": "A dense, slightly sweet soda bread made with wholemeal flour and buttermilk, baked fresh in local bakeries and served warm with butter or alongside Irish breakfast."
+        },
+        {
+          "id": "boyn_f5",
+          "text": "Seafood Chowder",
+          "detail": "A creamy soup from nearby coastal towns featuring local mussels, prawns, and white fish from Irish waters, often enjoyed in Drogheda's waterfront establishments."
+        },
+        {
+          "id": "boyn_f6",
+          "text": "Bara Brack",
+          "detail": "A traditional fruit bread made with dried fruit soaked in tea, baked with spices, and often served sliced with butter at afternoon tea throughout rural Meath communities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "boyn_c1",
+          "text": "Book Newgrange Tours in Advance",
+          "detail": "Winter solstice visits and daytime tours sell out months ahead, so reserve tickets early, especially if you want to witness the rare sunlight illuminating the inner chamber."
+        },
+        {
+          "id": "boyn_c2",
+          "text": "Respect Sacred Spaces",
+          "detail": "These Neolithic sites hold spiritual significance for many Irish people; walk respectfully, stay on designated paths, and be mindful that some locals view these monuments as ancestral burial grounds."
+        },
+        {
+          "id": "boyn_c3",
+          "text": "Learn Local Irish Pronunciation",
+          "detail": "Place names like Gleann an Bhóinn (Boyne), Brú na Bóinne, and Droichead Átha reflect Irish language heritage; locals appreciate visitors attempting Gaelic pronunciations and understanding bilingual signage."
+        },
+        {
+          "id": "boyn_c4",
+          "text": "Visit During Off-Peak Hours",
+          "detail": "Summer crowds and tour buses arrive mid-morning; early morning or late afternoon visits offer quieter contemplation of monuments and clearer photography without overwhelming visitor numbers."
+        }
+      ]
+    },
+    {
+      "id": "clonmacnoise",
+      "name": "Clonmacnoise",
+      "nameIt": "Cluain Mhic Nóis",
+      "lat": 53.3567,
+      "lng": -7.8114,
+      "type": "LANDMARK",
+      "description": "An atmospheric Early Christian monastic settlement on the banks of the River Shannon, featuring round towers, ancient churches, and high crosses dating from the 6th century onward. Its romantic ruins set amid peaceful meadows make it one of Ireland's most spiritually evocative archaeological sites.",
+      "imageQueries": [
+        "Clonmacnoise round tower",
+        "Clonmacnoise monastic site Ireland"
+      ],
+      "activities": [
+        {
+          "id": "clon_1",
+          "text": "Explore the Round Tower",
+          "detail": "Climb the restored 12th-century round tower that offers panoramic views of the Shannon valley and monastic site from its narrow windows.",
+          "lat": 53.3447,
+          "lng": -7.8037
+        },
+        {
+          "id": "clon_2",
+          "text": "Visit the High Crosses",
+          "detail": "Study the intricately carved Celtic high crosses, particularly the South Cross and North Cross, which showcase remarkable 9th-century stone work depicting biblical scenes.",
+          "lat": 53.3447,
+          "lng": -7.8037
+        },
+        {
+          "id": "clon_3",
+          "text": "Tour the Ancient Churches",
+          "detail": "Walk through the remains of seven churches spanning the 6th to 12th centuries, including the Cathedral and the Church of the Nuns, each with distinct architectural features."
+        },
+        {
+          "id": "clon_4",
+          "text": "Walk the Shannon Towpath",
+          "detail": "Follow the scenic riverside path alongside the River Shannon through meadows, offering peaceful views and opportunities to spot local wildlife.",
+          "lat": 53.345,
+          "lng": -7.805
+        },
+        {
+          "id": "clon_5",
+          "text": "Visit the Site Museum",
+          "detail": "Examine medieval artifacts, stone fragments, and interpretive displays that explain the monastery's history and significance as a center of learning and pilgrimage.",
+          "lat": 53.3442,
+          "lng": -7.8032
+        },
+        {
+          "id": "clon_6",
+          "text": "Attend a Guided Heritage Tour",
+          "detail": "Join a knowledgeable local guide to learn detailed stories of the monks who lived here and the site's role in Early Christian Ireland."
+        }
+      ],
+      "food": [
+        {
+          "id": "clon_f1",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake served with savoury fillings or as a street food, commonly found in local cafés near the site."
+        },
+        {
+          "id": "clon_f2",
+          "text": "Colcannon",
+          "detail": "Creamy mashed potatoes mixed with cabbage or kale, a hearty comfort dish served at nearby pubs in Athlone and Ballinasloe."
+        },
+        {
+          "id": "clon_f3",
+          "text": "Shannon River Brown Trout",
+          "detail": "Fresh-caught local trout prepared simply grilled or pan-fried, available at traditional Irish pubs within a few miles of the monastery."
+        },
+        {
+          "id": "clon_f4",
+          "text": "Soda Bread",
+          "detail": "Dense, slightly sweet traditional Irish bread made with wholemeal flour and buttermilk, served fresh at local bakeries and tea rooms."
+        },
+        {
+          "id": "clon_f5",
+          "text": "Irish Stew",
+          "detail": "A warming one-pot dish of lamb, potatoes, and onions simmered slowly, served at cosy pubs along the Shannon corridor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "clon_c1",
+          "text": "Respect the Sacred Site",
+          "detail": "Although open to visitors, Clonmacnoise remains spiritually significant; dress modestly and speak quietly to honour its monastic heritage and ongoing religious reverence."
+        },
+        {
+          "id": "clon_c2",
+          "text": "Visit Outside Peak Hours",
+          "detail": "Arrive early morning or late afternoon to experience the atmospheric solitude that made this a centre of contemplative monasticism, avoiding midday tour groups."
+        },
+        {
+          "id": "clon_c3",
+          "text": "Check the Tides and Weather",
+          "detail": "The Shannon meadows can become muddy in wet weather and waterlogged near the river after rain, so wear appropriate footwear and check forecasts."
+        },
+        {
+          "id": "clon_c4",
+          "text": "Learn the Irish Names",
+          "detail": "Using the Irish name 'Cluain Mhic Nóis' and learning basic Irish phrases shows respect to local culture and enhances conversations with guides and villagers."
+        }
+      ]
+    },
+    {
+      "id": "drogheda",
+      "name": "Drogheda",
+      "nameIt": "Droichead Átha",
+      "lat": 53.7177,
+      "lng": -6.3536,
+      "type": "TOWN",
+      "description": "A historic medieval walled town on the River Boyne near the Boyne Valley monuments, with rich literary and historical associations. Its well-preserved streetscapes, St. Laurence's Gate, and proximity to Newgrange and the Boyne battlefield make it an excellent base for exploring the northeast.",
+      "imageQueries": [
+        "Drogheda St Laurence Gate medieval",
+        "Drogheda River Boyne Ireland"
+      ],
+      "activities": [
+        {
+          "id": "drog_1",
+          "text": "St. Laurence's Gate",
+          "detail": "Walk through this imposing 13th-century barbican gate, one of Ireland's finest medieval structures, which once guarded the walled town's entrance.",
+          "lat": 53.7195,
+          "lng": -6.3547
+        },
+        {
+          "id": "drog_2",
+          "text": "Newgrange Monument",
+          "detail": "Visit this 5,000-year-old passage tomb in the Boyne Valley, just 20 minutes south, famous for its winter solstice light phenomenon and prehistoric significance.",
+          "lat": 53.6937,
+          "lng": -6.4747
+        },
+        {
+          "id": "drog_3",
+          "text": "The Boyne Battlefield",
+          "detail": "Explore the site of the 1690 Battle of the Boyne, a pivotal moment in Irish history, with visitor centre and walking trails along the river.",
+          "lat": 53.7406,
+          "lng": -6.3369
+        },
+        {
+          "id": "drog_4",
+          "text": "St. Peter's Church",
+          "detail": "View the church where the preserved head of St. Oliver Plunkett, a locally revered martyr, is kept in a shrine.",
+          "lat": 53.7188,
+          "lng": -6.3513
+        },
+        {
+          "id": "drog_5",
+          "text": "Drogheda Town Walk",
+          "detail": "Stroll the narrow medieval streetscapes and Georgian architecture of the town centre, particularly around Lawrence Street and West Street.",
+          "lat": 53.7186,
+          "lng": -6.354
+        },
+        {
+          "id": "drog_6",
+          "text": "Knowth Passage Tomb",
+          "detail": "Explore this massive Neolithic monument in the Boyne Valley with two passage tombs and intricate Stone Age carvings, accessible by guided tour only.",
+          "lat": 53.6878,
+          "lng": -6.4675
+        }
+      ],
+      "food": [
+        {
+          "id": "drog_f1",
+          "text": "Boyne Valley Smoked Salmon",
+          "detail": "Sample locally smoked salmon sourced from nearby rivers and smokeries, a regional specialty reflecting the area's river heritage."
+        },
+        {
+          "id": "drog_f2",
+          "text": "Collie Wobblers",
+          "detail": "Try these Drogheda-specific potato and vegetable croquettes, a traditional working-class comfort food unique to the town."
+        },
+        {
+          "id": "drog_f3",
+          "text": "Irish Coddle",
+          "detail": "Order this hearty stew of pork, potatoes, onions and stock in local pubs, a warming traditional dish particularly popular in the Midlands."
+        },
+        {
+          "id": "drog_f4",
+          "text": "Brown Bread and Seafood Chowder",
+          "detail": "Enjoy creamy seafood chowder paired with fresh Irish brown bread at waterfront restaurants along the Boyne."
+        }
+      ],
+      "culture": [
+        {
+          "id": "drog_c1",
+          "text": "Drogheda's Literary Heritage",
+          "detail": "The town inspired works by Jonathan Swift and has deep connections to Irish literary tradition; many locals are proud of these associations."
+        },
+        {
+          "id": "drog_c2",
+          "text": "Religious Significance",
+          "detail": "Drogheda is a pilgrimage destination for Irish Catholics due to St. Oliver Plunkett's shrine; respectful behaviour in churches is important to residents."
+        },
+        {
+          "id": "drog_c3",
+          "text": "River Boyne Respect",
+          "detail": "The Boyne is central to Irish identity and has religious significance; locals appreciate visitors who approach battlefield and river sites with historical awareness."
+        },
+        {
+          "id": "drog_c4",
+          "text": "Traditional Pub Culture",
+          "detail": "Visit local pubs like Carberry's or The Stockpot in the evening when locals gather; conversation and storytelling are valued over loud music."
+        }
+      ]
+    },
+    {
+      "id": "mullingar",
+      "name": "Mullingar",
+      "nameIt": "An Muileann gCearr",
+      "lat": 53.5265,
+      "lng": -7.3476,
+      "type": "TOWN",
+      "description": "The county town of Westmeath in the heart of the Midlands, known for its lakeland setting, fishing heritage, and traditional Irish character. It serves as a pleasant base for exploring the lakes and waterways of central Ireland, with good restaurants and traditional music venues.",
+      "imageQueries": [
+        "Mullingar Westmeath Ireland",
+        "Mullingar lake town Midlands"
+      ],
+      "activities": [
+        {
+          "id": "mull_1",
+          "text": "Mullingar Cathedral",
+          "detail": "A striking Neo-Gothic cathedral completed in 1936 with twin spires, featuring ornate interior mosaics and stained glass windows.",
+          "lat": 53.5244,
+          "lng": -7.3456
+        },
+        {
+          "id": "mull_2",
+          "text": "Fishing on Lough Derravaragh",
+          "detail": "Cast for pike, perch, and roach on one of the Midlands' most productive lakes, accessible from Mullingar's waterfront.",
+          "lat": 53.5089,
+          "lng": -7.3289
+        },
+        {
+          "id": "mull_3",
+          "text": "Royal Canal Greenway",
+          "detail": "Walk or cycle the restored towpath stretching from Mullingar toward Dublin, passing through peaceful waterside landscapes and heritage locks.",
+          "lat": 53.53,
+          "lng": -7.34
+        },
+        {
+          "id": "mull_4",
+          "text": "Belvedere House and Gardens",
+          "detail": "Explore the 18th-century demesne with manicured lawns, lake views, and the dramatic 'Jealous Wall' folly, located 3km south of town.",
+          "lat": 53.4956,
+          "lng": -7.3467
+        },
+        {
+          "id": "mull_5",
+          "text": "Athlone Castle and Medieval Town",
+          "detail": "Visit the restored Anglo-Norman castle 25km south and walk Athlone's historic riverside quarter with museums and riverside dining.",
+          "lat": 53.4287,
+          "lng": -7.9395
+        },
+        {
+          "id": "mull_6",
+          "text": "Traditional music sessions at Grinnell's or The Oldcastle",
+          "detail": "Catch authentic live Irish traditional music in intimate pub settings, typically Thursday to Sunday evenings.",
+          "lat": 53.5244,
+          "lng": -7.3478
+        }
+      ],
+      "food": [
+        {
+          "id": "mull_f1",
+          "text": "Midlands pike and perch",
+          "detail": "Freshly caught lake fish prepared simply grilled or fried, reflecting Mullingar's strong fishing tradition and available at lakeside restaurants."
+        },
+        {
+          "id": "mull_f2",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake filled with meat or vegetables, a regional speciality of the Midlands found at casual eateries."
+        },
+        {
+          "id": "mull_f3",
+          "text": "Black pudding and soda bread breakfast",
+          "detail": "Rich local blood pudding served with warm homemade soda bread and butter, the classic Irish morning meal at any local café."
+        },
+        {
+          "id": "mull_f4",
+          "text": "Westmeath lamb stew",
+          "detail": "Slow-cooked lamb with root vegetables and pearl barley, reflecting the pastoral farming heritage of the county."
+        },
+        {
+          "id": "mull_f5",
+          "text": "Brown bread and seafood chowder",
+          "detail": "Creamy chowder made with local freshwater fish and served with warm wheaten bread at traditional pubs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mull_c1",
+          "text": "Pub culture is central",
+          "detail": "Mullingar's social life revolves around pubs as community gathering spots; visit in the evening to experience locals at ease and authentic conversation."
+        },
+        {
+          "id": "mull_c2",
+          "text": "Fishing etiquette matters",
+          "detail": "If engaging local anglers or booking fishing guides, respect private water rights and always ask permission before accessing shorelines."
+        },
+        {
+          "id": "mull_c3",
+          "text": "Traditional music is living heritage",
+          "detail": "Sessions are participatory—musicians may invite visitors to join if you play, but silent, respectful listening is always welcome."
+        },
+        {
+          "id": "mull_c4",
+          "text": "Market day rhythms",
+          "detail": "Friday remains the traditional market day in Mullingar; the town centre bustles with local produce vendors and farmers, offering authentic rural atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "hill_of_tara",
+      "name": "Hill of Tara",
+      "nameIt": "Teamhair na Rí",
+      "lat": 53.5614,
+      "lng": -6.5919,
+      "type": "LANDMARK",
+      "description": "An ancient hilltop site in County Meath that served as the ceremonial and political center of High Kings of Ireland, with evidence of habitation spanning over 4,000 years. Today its earthen monuments and sweeping views across the Irish landscape offer a profound sense of historical significance.",
+      "imageQueries": [
+        "Hill of Tara monument Ireland",
+        "Hill of Tara ancient king seat"
+      ],
+      "activities": [
+        {
+          "id": "hill_1",
+          "text": "Climb the Mound of the Hostages",
+          "detail": "Ascend this passage tomb, the oldest structure on the Hill dating to around 3000 BCE, and explore its narrow stone corridor leading to a central chamber.",
+          "lat": 53.5868,
+          "lng": -6.5942
+        },
+        {
+          "id": "hill_2",
+          "text": "Walk the Rath of the Kings",
+          "detail": "Traverse the largest earthen enclosure on site, a massive circular rampart that once defined the royal residence and coronation ground of High Kings.",
+          "lat": 53.5865,
+          "lng": -6.5945
+        },
+        {
+          "id": "hill_3",
+          "text": "Visit the Banqueting Hall foundations",
+          "detail": "Examine the archaeological remains of the legendary Óenach (royal assembly hall) where kings were crowned and important councils convened.",
+          "lat": 53.5872,
+          "lng": -6.5938
+        },
+        {
+          "id": "hill_4",
+          "text": "Experience panoramic views from the summit",
+          "detail": "Stand atop the hill to survey across the Meath countryside toward distant mountains and understand why this location held such strategic and ceremonial importance.",
+          "lat": 53.5868,
+          "lng": -6.5942
+        },
+        {
+          "id": "hill_5",
+          "text": "Explore the Forrad earthwork",
+          "detail": "Investigate this smaller enclosure believed to be connected to Druidic rituals and astronomical alignments marking Celtic festivals.",
+          "lat": 53.5863,
+          "lng": -6.5948
+        },
+        {
+          "id": "hill_6",
+          "text": "Visit the visitor centre interpretation",
+          "detail": "Learn the detailed history and mythology of Tara through exhibits that contextualise the earthworks and their role in Irish kingship.",
+          "lat": 53.5858,
+          "lng": -6.5952
+        }
+      ],
+      "food": [
+        {
+          "id": "hill_f1",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake from the Midlands region, made with grated raw potato and served with butter or savory fillings at local cafés near Tara."
+        },
+        {
+          "id": "hill_f2",
+          "text": "Colcannon",
+          "detail": "A hearty Meath speciality of mashed potatoes mixed with cabbage or kale, traditionally served with melted butter and eaten at country pubs throughout County Meath."
+        },
+        {
+          "id": "hill_f3",
+          "text": "Local dairy cheese and wheaten bread",
+          "detail": "Sample artisanal Irish cheeses from Meath producers alongside freshly baked soda bread or wheaten bread at farm shops near the Hill."
+        },
+        {
+          "id": "hill_f4",
+          "text": "Irish stew",
+          "detail": "A warming traditional dish of lamb or mutton, potatoes, onions and herbs that reflects the pastoral heritage of the Midlands and is served at nearby country inns."
+        },
+        {
+          "id": "hill_f5",
+          "text": "Seafood from nearby River Boyne",
+          "detail": "Fresh-caught salmon and trout from the historic Boyne Valley are featured at restaurants in Navan and surrounding villages within 15 minutes of Tara."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hill_c1",
+          "text": "Respect the sacred site etiquette",
+          "detail": "Although freely accessible, remember Tara remains spiritually significant to many Irish people and Pagan practitioners—avoid loud noise and treat the earthworks with reverence."
+        },
+        {
+          "id": "hill_c2",
+          "text": "Best visited in spring or autumn",
+          "detail": "Summer brings crowds and obscuring vegetation, while winter weather can be harsh; May and September offer clearer views and fewer tourists."
+        },
+        {
+          "id": "hill_c3",
+          "text": "Allow time for contemplation",
+          "detail": "Irish sacred sites traditionally invite quiet reflection rather than rushed touring; locals value spending an hour or more on the Hill to absorb its atmosphere and history."
+        },
+        {
+          "id": "hill_c4",
+          "text": "Learn key Irish mythology beforehand",
+          "detail": "Familiarize yourself with tales of the Tuatha Dé Danann, High Kings, and druidic ceremonies to deepen your understanding of what you're witnessing on the ground."
+        }
+      ]
+    },
+    {
+      "id": "trim_castle",
+      "name": "Trim",
+      "nameIt": "Baile Áth Trim",
+      "lat": 53.5621,
+      "lng": -6.7886,
+      "type": "TOWN",
+      "description": "A picturesque riverside town dominated by Trim Castle, one of Ireland's largest and finest Norman castles overlooking the River Boyne. Its medieval character, scenic location, and proximity to Newgrange and the Hill of Tara make it an ideal stop for history enthusiasts.",
+      "imageQueries": [
+        "Trim Castle Boyne Ireland",
+        "Trim medieval castle fortress"
+      ],
+      "activities": [
+        {
+          "id": "trim_1",
+          "text": "Trim Castle",
+          "detail": "Explore one of Ireland's largest Norman castles with its iconic keep and riverside setting, offering guided tours and panoramic views of the Boyne Valley.",
+          "lat": 53.5636,
+          "lng": -6.7864
+        },
+        {
+          "id": "trim_2",
+          "text": "Newgrange Monument",
+          "detail": "Visit this UNESCO World Heritage Site just 30 minutes away, a 5,200-year-old passage tomb with remarkable winter solstice alignment.",
+          "lat": 53.6945,
+          "lng": -6.4788
+        },
+        {
+          "id": "trim_3",
+          "text": "Hill of Tara",
+          "detail": "Walk the ancient ceremonial and burial site of Irish high kings, featuring the Mound of the Hostages and sweeping views across the Midlands.",
+          "lat": 53.6276,
+          "lng": -6.5966
+        },
+        {
+          "id": "trim_4",
+          "text": "Boyne Valley Walk",
+          "detail": "Follow scenic riverside trails along the River Boyne through meadows and woodlands, ideal for photography and nature observation.",
+          "lat": 53.568,
+          "lng": -6.785
+        },
+        {
+          "id": "trim_5",
+          "text": "Trim Town Heritage Trail",
+          "detail": "Self-guided walking tour through medieval streets discovering Medieval Cathedral, Sheep Gate, and historic stone bridges.",
+          "lat": 53.564,
+          "lng": -6.787
+        },
+        {
+          "id": "trim_6",
+          "text": "Knowth Passage Tomb",
+          "detail": "Explore another Neolithic passage tomb complex near Newgrange featuring intricate stone carvings and dual passages.",
+          "lat": 53.6956,
+          "lng": -6.4567
+        }
+      ],
+      "food": [
+        {
+          "id": "trim_f1",
+          "text": "Colcannon",
+          "detail": "A traditional Irish dish of mashed potatoes mixed with cabbage or kale, butter, and spring onions, served warm as a comfort classic."
+        },
+        {
+          "id": "trim_f2",
+          "text": "Local Beef and Guinness Stew",
+          "detail": "Rich, slow-cooked stew using Meath beef and Guinness beer, root vegetables, and pearl barley, reflecting the region's farming heritage."
+        },
+        {
+          "id": "trim_f3",
+          "text": "Boxty",
+          "detail": "A Boyne Valley specialty of potato pancakes made from grated raw potato and potato flour, served crispy with savory or sweet fillings."
+        },
+        {
+          "id": "trim_f4",
+          "text": "Meath Lamb",
+          "detail": "Prime lamb from the surrounding grasslands, often roasted or stewed and served in local restaurants as a regional signature."
+        },
+        {
+          "id": "trim_f5",
+          "text": "Soda Bread with Local Butter",
+          "detail": "Traditional Irish soda bread baked fresh daily and served with creamy local butter, a staple of afternoon tea in Trim pubs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "trim_c1",
+          "text": "Medieval Festival Timing",
+          "detail": "Plan visits around Trim's Medieval Festival (usually summer) when the town hosts jousting, markets, and period reenactments celebrating its Norman heritage."
+        },
+        {
+          "id": "trim_c2",
+          "text": "Pub Culture and Storytelling",
+          "detail": "Visit local pubs like the Finnegan Pub where locals share stories and traditional music sessions often occur; tipping 10% is customary."
+        },
+        {
+          "id": "trim_c3",
+          "text": "Respect Sacred Sites",
+          "detail": "Newgrange and Hill of Tara are living cultural landmarks; follow guided tour protocols and be mindful of their spiritual significance to Irish heritage."
+        },
+        {
+          "id": "trim_c4",
+          "text": "Best Visiting Months",
+          "detail": "May through September offers the warmest weather and clearest skies for castle exploration and riverside walks, with June having the longest daylight."
+        }
+      ]
+    },
+    {
+      "id": "kilbeggan",
+      "name": "Kilbeggan",
+      "nameIt": "Cill Bhéagáin",
+      "lat": 53.4772,
+      "lng": -7.4833,
+      "type": "TOWN",
+      "description": "A charming small village in Westmeath home to Kilbeggan Distillery, one of the world's oldest licensed whiskey distilleries in continuous operation since 1757. Visitors can explore the historic distillery, learn the whiskey-making process, and enjoy tastings in this picturesque Midlands setting.",
+      "imageQueries": [
+        "Kilbeggan Distillery whiskey Ireland",
+        "Kilbeggan village Westmeath"
+      ],
+      "activities": [
+        {
+          "id": "kilb_1",
+          "text": "Kilbeggan Distillery Tour",
+          "detail": "Explore Ireland's oldest licensed distillery in continuous operation since 1757, including the original copper pot stills and learn the traditional whiskey-making process.",
+          "lat": 53.5281,
+          "lng": -7.4889
+        },
+        {
+          "id": "kilb_2",
+          "text": "Whiskey Tasting & Sampling",
+          "detail": "Sample Kilbeggan single pot still whiskey and other Irish expressions in the distillery's tasting room with expert guidance.",
+          "lat": 53.5281,
+          "lng": -7.4889
+        },
+        {
+          "id": "kilb_3",
+          "text": "Lough Owel Scenic Walk",
+          "detail": "Stroll around the shores of this pristine lake just outside the village, offering peaceful waterside views and birdwatching opportunities.",
+          "lat": 53.535,
+          "lng": -7.465
+        },
+        {
+          "id": "kilb_4",
+          "text": "St. Fiachra's Church Visit",
+          "detail": "Discover this historic parish church in the village centre, notable for its traditional Irish ecclesiastical architecture and local heritage.",
+          "lat": 53.5265,
+          "lng": -7.4875
+        },
+        {
+          "id": "kilb_5",
+          "text": "Local Pubs & Traditional Music",
+          "detail": "Experience authentic Irish hospitality at village pubs where traditional music sessions often occur, particularly on weekends.",
+          "lat": 53.527,
+          "lng": -7.489
+        },
+        {
+          "id": "kilb_6",
+          "text": "Athlone Castle & River Shannon",
+          "detail": "Visit the nearby medieval castle in Athlone (8km away) overlooking the River Shannon, offering historical exhibits and riverside walks.",
+          "lat": 53.4228,
+          "lng": -7.9375
+        }
+      ],
+      "food": [
+        {
+          "id": "kilb_f1",
+          "text": "Irish Stew",
+          "detail": "A traditional Midlands comfort dish of lamb or mutton with potatoes, onions, and herbs, served warm in local pubs and restaurants."
+        },
+        {
+          "id": "kilb_f2",
+          "text": "Colcannon",
+          "detail": "A classic Irish side dish of mashed potatoes mixed with cabbage or kale, often served with butter and spring onions at traditional meals."
+        },
+        {
+          "id": "kilb_f3",
+          "text": "Smoked Salmon from Athlone",
+          "detail": "Locally sourced smoked salmon from the nearby River Shannon, available fresh at village shops and served at distillery visitor experiences."
+        },
+        {
+          "id": "kilb_f4",
+          "text": "Whiskey-Infused Desserts",
+          "detail": "Sample local bakery items and desserts made with Kilbeggan whiskey, including whiskey cream cakes and toffee offerings."
+        },
+        {
+          "id": "kilb_f5",
+          "text": "Black Pudding Breakfast",
+          "detail": "Authentic Irish breakfast featuring local black pudding, rashers, and eggs, served at village cafés and bed-and-breakfasts."
+        },
+        {
+          "id": "kilb_f6",
+          "text": "Boxty",
+          "detail": "A Midlands potato pancake made with grated and mashed potatoes, traditionally served with savoury or sweet fillings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kilb_c1",
+          "text": "Respect Distillery Heritage",
+          "detail": "Kilbeggan residents take pride in their 267-year distilling tradition; showing genuine interest in the craft and history is appreciated."
+        },
+        {
+          "id": "kilb_c2",
+          "text": "Irish Hospitality Hours",
+          "detail": "Pubs are central to village life; visiting during evening hours (especially Friday and Saturday) offers the warmest welcome and most authentic atmosphere."
+        },
+        {
+          "id": "kilb_c3",
+          "text": "Weather Preparedness",
+          "detail": "The Midlands weather is unpredictable with frequent rain; bring waterproof clothing even on seemingly clear days for outdoor activities."
+        },
+        {
+          "id": "kilb_c4",
+          "text": "Local Irish Greetings",
+          "detail": "A simple 'Howya' or 'Good morning' to shopkeepers and villagers reflects respect for local customs and often opens friendly conversations."
+        }
+      ]
+    },
+    {
+      "id": "athenry",
+      "name": "Athenry",
+      "nameIt": "Baile Átha an Rí",
+      "lat": 53.2994,
+      "lng": -8.7453,
+      "type": "TOWN",
+      "description": "A well-preserved medieval walled town in County Galway at the southern edge of the Midlands region, featuring intact town walls, a 13th-century castle, and historic street layout. Its authentic medieval character and proximity to Galway make it a worthwhile detour for those exploring the region.",
+      "imageQueries": [
+        "Athenry medieval walls Ireland",
+        "Athenry castle town Galway"
+      ],
+      "activities": [
+        {
+          "id": "athe_1",
+          "text": "Medieval Town Walls Walk",
+          "detail": "Stroll along the largely intact 13th-century stone walls that encircle the town centre, offering views of the street layout and defensive structures that make Athenry unique in Ireland.",
+          "lat": 53.3012,
+          "lng": -8.7456
+        },
+        {
+          "id": "athe_2",
+          "text": "Athenry Castle",
+          "detail": "Explore the ruins of this 13th-century Norman castle with its distinctive keep, situated within the walled town and open to visitors during summer months.",
+          "lat": 53.3015,
+          "lng": -8.745
+        },
+        {
+          "id": "athe_3",
+          "text": "Church of St. Caran",
+          "detail": "Visit this medieval parish church with its tower and graveyard, integral to the town's ecclesiastical heritage and visible from the town walls.",
+          "lat": 53.3008,
+          "lng": -8.7465
+        },
+        {
+          "id": "athe_4",
+          "text": "Athenry Heritage Centre",
+          "detail": "Learn the town's medieval and social history through displays, artifacts, and local knowledge shared by staff in the town centre.",
+          "lat": 53.301,
+          "lng": -8.7455
+        },
+        {
+          "id": "athe_5",
+          "text": "Market Square",
+          "detail": "Wander the historic square at the heart of Athenry's medieval street grid, lined with period buildings and local shops.",
+          "lat": 53.3018,
+          "lng": -8.746
+        },
+        {
+          "id": "athe_6",
+          "text": "Athenry Racecourse",
+          "detail": "Catch a day's racing or visit during non-race days to see this long-established sporting venue just outside the walled town.",
+          "lat": 53.305,
+          "lng": -8.74
+        }
+      ],
+      "food": [
+        {
+          "id": "athe_f1",
+          "text": "Galway Bay Seafood",
+          "detail": "Sample locally caught oysters, mussels, and salmon from nearby Galway Bay at traditional pubs and restaurants in town."
+        },
+        {
+          "id": "athe_f2",
+          "text": "Irish Stew",
+          "detail": "Enjoy hearty plates of mutton, potato, and onion stew, a staple of Irish country cooking served warm in local establishments."
+        },
+        {
+          "id": "athe_f3",
+          "text": "Boxty",
+          "detail": "Try this traditional potato pancake, either filled with cheese and vegetables or served plain, a specialty of the Midlands region."
+        },
+        {
+          "id": "athe_f4",
+          "text": "Colcannon",
+          "detail": "Taste mashed potatoes blended with cabbage or kale and butter, a classic Irish comfort dish found in pubs throughout Athenry."
+        },
+        {
+          "id": "athe_f5",
+          "text": "Brown Soda Bread",
+          "detail": "Purchase freshly baked soda bread from local bakeries, traditionally made with wholemeal flour and served with butter and jam."
+        }
+      ],
+      "culture": [
+        {
+          "id": "athe_c1",
+          "text": "Market Day Tradition",
+          "detail": "Visit on market days (typically Wednesday and Saturday) when the town centre fills with stalls, locals, and traditional commerce reflecting centuries of practice."
+        },
+        {
+          "id": "athe_c2",
+          "text": "Medieval Street Layout Respect",
+          "detail": "Navigate the town on foot to properly appreciate the preserved medieval grid pattern; cars are secondary to the pedestrian-scaled streets within the walls."
+        },
+        {
+          "id": "athe_c3",
+          "text": "Local Pub Culture",
+          "detail": "Engage with locals in pubs like Molloy's or Ryan's, where conversation and traditional music sessions are central to social life."
+        },
+        {
+          "id": "athe_c4",
+          "text": "Quiet Closing Hours",
+          "detail": "Plan activities before early evening, as Athenry is a small working town that quiets down significantly after 6 PM on weekdays."
+        }
+      ]
+    },
+    {
+      "id": "phoenix_park",
+      "name": "Phoenix Park",
+      "nameIt": "Páirc an Fhionnuisce",
+      "lat": 53.3518,
+      "lng": -6.327,
+      "type": "NATURE",
+      "description": "One of Europe's largest enclosed parks in Dublin's west side, spanning 707 hectares with tree-lined avenues, monuments, and herds of free-roaming deer. It offers peaceful natural escape from the city while containing important historical sites like the Áras an Uachtaráin presidential residence.",
+      "imageQueries": [
+        "Phoenix Park Dublin deer",
+        "Phoenix Park monument trees"
+      ],
+      "activities": [
+        {
+          "id": "phoe_1",
+          "text": "Walk or cycle the Chesterfield Avenue",
+          "detail": "The park's main tree-lined avenue stretches 4 km from the gates to the Áras an Uachtaráin, offering a scenic route through the heart of Phoenix Park.",
+          "lat": 53.3519,
+          "lng": -6.3105
+        },
+        {
+          "id": "phoe_2",
+          "text": "Visit Áras an Uachtaráin",
+          "detail": "The official residence of the Irish President is set within the park and offers guided tours on Saturdays to see the state rooms and gardens.",
+          "lat": 53.3534,
+          "lng": -6.3248
+        },
+        {
+          "id": "phoe_3",
+          "text": "Observe the free-roaming herds",
+          "detail": "Over 600 fallow and sika deer roam freely throughout the park and can be viewed from designated areas, particularly in early morning or late afternoon.",
+          "lat": 53.3519,
+          "lng": -6.3105
+        },
+        {
+          "id": "phoe_4",
+          "text": "Explore the Phoenix Monument",
+          "detail": "A tall Corinthian column crowned with a phoenix bird statue, erected in 1747 and visible from various points across the park.",
+          "lat": 53.3519,
+          "lng": -6.318
+        },
+        {
+          "id": "phoe_5",
+          "text": "Visit Dublin Zoo",
+          "detail": "Located within the park's northern section, this long-established zoo features animals from around the world and is a popular family attraction.",
+          "lat": 53.3621,
+          "lng": -6.3058
+        },
+        {
+          "id": "phoe_6",
+          "text": "Walk through the People's Gardens",
+          "detail": "A Victorian garden area with ornamental plantings, pathways, and seating, originally designed for public enjoyment near the park's southern entrance.",
+          "lat": 53.3435,
+          "lng": -6.3132
+        },
+        {
+          "id": "phoe_7",
+          "text": "Discover the papal cross site",
+          "detail": "The location where Pope John Paul II celebrated an outdoor mass in 1979, attended by nearly one million people, marked by a permanent cross.",
+          "lat": 53.3619,
+          "lng": -6.3223
+        }
+      ],
+      "food": [
+        {
+          "id": "phoe_f1",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake often filled with meat or vegetables, commonly found at Dublin cafés near Phoenix Park entrances."
+        },
+        {
+          "id": "phoe_f2",
+          "text": "Coddle",
+          "detail": "A hearty Dublin stew made with sausages, bacon, potatoes, and onions, representing authentic working-class Irish comfort food."
+        },
+        {
+          "id": "phoe_f3",
+          "text": "Brown bread and butter",
+          "detail": "Freshly baked Irish soda bread served with salted butter at park-side cafés, a simple staple reflecting traditional Irish baking."
+        },
+        {
+          "id": "phoe_f4",
+          "text": "Seafood chowder",
+          "detail": "A creamy soup featuring local Irish seafood, typically served with crusty bread at restaurants near the park's Parkgate Street entrance."
+        },
+        {
+          "id": "phoe_f5",
+          "text": "Colcannon",
+          "detail": "Mashed potatoes mixed with kale or cabbage and butter, a traditional Irish side dish or light meal available at local eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "phoe_c1",
+          "text": "Respect the deer",
+          "detail": "The park's free-roaming deer are wild animals; keep a safe distance, do not feed them, and supervise children carefully around herds."
+        },
+        {
+          "id": "phoe_c2",
+          "text": "Use metric distances",
+          "detail": "Park signage and distances are posted in kilometres and metres as per Irish standard, so adjust expectations accordingly if familiar with imperial measurements."
+        },
+        {
+          "id": "phoe_c3",
+          "text": "Dress for changeable weather",
+          "detail": "Dublin's west-side park is exposed to Atlantic weather patterns; bring layers and rain gear even on seemingly clear days."
+        },
+        {
+          "id": "phoe_c4",
+          "text": "Visit early for best conditions",
+          "detail": "Early morning visits offer the best chances to see deer undisturbed, enjoy quieter paths, and experience the park's peaceful natural character before crowds arrive."
+        }
+      ]
+    },
+    {
+      "id": "howth",
+      "name": "Howth",
+      "nameIt": "Binn Éadair",
+      "lat": 53.3866,
+      "lng": -6.0643,
+      "type": "COASTAL",
+      "description": "A scenic coastal village northeast of Dublin perched on a dramatic peninsula, offering cliff walks with Irish Sea views, a working fishing harbor, and traditional seafood restaurants. The cliff path loop provides some of the most accessible and rewarding coastal walking near Dublin.",
+      "imageQueries": [
+        "Howth cliff walk Dublin coast",
+        "Howth harbor fishing village Ireland"
+      ],
+      "activities": [
+        {
+          "id": "howt_1",
+          "text": "Howth Cliff Path Loop",
+          "detail": "A 6 km coastal walking trail circling the peninsula with dramatic sea cliffs, viewpoints over the Irish Sea, and access to Bailey Lighthouse.",
+          "lat": 53.3871,
+          "lng": -6.0589
+        },
+        {
+          "id": "howt_2",
+          "text": "Howth Harbour Fishing Village",
+          "detail": "A working fishing harbor where you can watch daily catch being landed, browse seafood stalls, and see traditional fishing boats in operation.",
+          "lat": 53.3886,
+          "lng": -6.0612
+        },
+        {
+          "id": "howt_3",
+          "text": "Bailey Lighthouse Visit",
+          "detail": "An 18th-century lighthouse at the tip of the peninsula offering panoramic Irish Sea views and accessible via the cliff path.",
+          "lat": 53.3744,
+          "lng": -6.0679
+        },
+        {
+          "id": "howt_4",
+          "text": "Howth Castle and Demesne",
+          "detail": "A historic castle with gardens set on 30 acres offering woodland walks, rhododendron displays in spring, and glimpses of aristocratic Irish heritage.",
+          "lat": 53.3959,
+          "lng": -6.0459
+        },
+        {
+          "id": "howt_5",
+          "text": "Deer Park and Nature Reserve",
+          "detail": "A 116-acre park with walking trails through woodland, home to fallow deer herds, and providing quieter alternatives to the busier cliff path.",
+          "lat": 53.393,
+          "lng": -6.0534
+        },
+        {
+          "id": "howt_6",
+          "text": "East Pier Seafood Market",
+          "detail": "A daily market where local fishmongers sell fresh catch straight from the boats, ideal for sourcing ingredients or prepared seafood to take away."
+        }
+      ],
+      "food": [
+        {
+          "id": "howt_f1",
+          "text": "Fresh Dublin Bay Prawns",
+          "detail": "Langoustines landed daily at Howth Harbour and served simply grilled or boiled in local restaurants, showcasing the peninsula's premier seafood."
+        },
+        {
+          "id": "howt_f2",
+          "text": "Smoked Mackerel",
+          "detail": "Local mackerel caught in the Irish Sea and traditionally smoked, served flaked in salads or as a starter in Howth's seafood establishments."
+        },
+        {
+          "id": "howt_f3",
+          "text": "Fish and Chips from Harbour Vendors",
+          "detail": "Hand-battered fresh white fish fried to order at waterfront stalls using that morning's catch, a quintessential Howth experience."
+        },
+        {
+          "id": "howt_f4",
+          "text": "Seafood Chowder",
+          "detail": "A creamy soup featuring local mussels, prawns, and white fish, offered in nearly every traditional pub and restaurant around the harbor."
+        },
+        {
+          "id": "howt_f5",
+          "text": "Howth Mussels",
+          "detail": "Fresh mussels harvested locally and served steamed with white wine, cream, or garlic in waterfront restaurants during autumn and winter months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "howt_c1",
+          "text": "Respect Fishing Operations",
+          "detail": "The harbor remains a working fishing village; avoid walking on piers during early morning landings and be mindful of nets and equipment."
+        },
+        {
+          "id": "howt_c2",
+          "text": "Dress for Coastal Weather",
+          "detail": "Howth's peninsula climate is windier and cooler than central Dublin; bring layers and waterproof jackets even in summer as sea fog rolls in quickly."
+        },
+        {
+          "id": "howt_c3",
+          "text": "Time Your Visit Around Tides",
+          "detail": "Some beach coves and lower paths are accessible only at low tide; check tide times before planning your cliff path walk to avoid being cut off."
+        },
+        {
+          "id": "howt_c4",
+          "text": "Support Local Fishmongers",
+          "detail": "Howth's identity centers on its fishing tradition; buying directly from harbor vendors and eating at family-run seafood restaurants supports the working community."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Aniar",
+      "address": "Barrow Street, Dublin",
+      "neighbourhood": "Dublin 4",
+      "cuisine": "Irish Contemporary",
+      "priceRange": "€€€€",
+      "description": "Michelin-starred restaurant showcasing seasonal Irish ingredients with refined technique and elegant presentation.",
+      "mustOrder": "Dry-aged fish with seaweed butter",
+      "lat": 53.3386,
+      "lng": -6.2329
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Chop House",
+      "address": "Shelbourne Road, Dublin",
+      "neighbourhood": "Dublin 4",
+      "cuisine": "Irish Steakhouse",
+      "priceRange": "€€€",
+      "description": "Contemporary chophouse specializing in dry-aged Irish beef and premium cuts in a sophisticated setting.",
+      "mustOrder": "32oz Ribeye with truffle béarnaise",
+      "lat": 53.3397,
+      "lng": -6.2285
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Soba Tucson",
+      "address": "Leeson Street, Dublin",
+      "neighbourhood": "Dublin 2",
+      "cuisine": "Japanese Ramen",
+      "priceRange": "€€",
+      "description": "Casual Japanese ramen specialist serving authentic broths and noodle dishes with quality toppings.",
+      "mustOrder": "Tonkotsu ramen with chashu pork",
+      "lat": 53.3309,
+      "lng": -6.2579
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Etto",
+      "address": "Upper Baggot Street, Dublin",
+      "neighbourhood": "Dublin 2",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Intimate Italian restaurant focusing on fresh pasta, seasonal ingredients, and classic Piedmont-inspired cooking.",
+      "mustOrder": "Handmade tagliatelle with wild boar ragù",
+      "lat": 53.3327,
+      "lng": -6.2495
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Brother Hubbard",
+      "address": "Capel Street, Dublin",
+      "neighbourhood": "Dublin 1",
+      "cuisine": "Middle Eastern Brunch",
+      "priceRange": "€€",
+      "description": "Popular casual spot known for inventive brunch dishes with Middle Eastern and Mediterranean influences.",
+      "mustOrder": "Spiced eggs with burnt butter and dukkah",
+      "lat": 53.3494,
+      "lng": -6.2641
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Yan Ji",
+      "address": "Lower Leeson Street, Dublin",
+      "neighbourhood": "Dublin 2",
+      "cuisine": "Chinese Sichuan",
+      "priceRange": "€€",
+      "description": "Authentic Sichuan Chinese restaurant delivering bold flavors and traditional dishes in a lively atmosphere.",
+      "mustOrder": "Mapo tofu with minced pork",
+      "lat": 53.3295,
+      "lng": -6.2565
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Castlebellingham House",
+      "address": "Main Street, Castlebellingham",
+      "neighbourhood": "Castlebellingham, Louth",
+      "cuisine": "Irish Fine Dining",
+      "priceRange": "€€€",
+      "description": "Elegant country house restaurant offering modern Irish cuisine in a historic Victorian setting between Dublin and Belfast.",
+      "mustOrder": "Beef Wellington with root vegetable terrine",
+      "lat": 53.8547,
+      "lng": -6.1564
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Café Munchkins",
+      "address": "Main Street, Droichead Átha",
+      "neighbourhood": "Droichead Átha, Louth",
+      "cuisine": "International Café",
+      "priceRange": "€",
+      "description": "Friendly casual café serving homemade soups, sandwiches, and light meals popular with locals.",
+      "mustOrder": "Homemade vegetable soup with brown bread",
+      "lat": 53.8071,
+      "lng": -6.4271
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Delvin Deli & Restaurant",
+      "address": "Main Street, Delvin",
+      "neighbourhood": "Delvin, Westmeath",
+      "cuisine": "Irish Contemporary",
+      "priceRange": "€€",
+      "description": "Casual restaurant combining deli counter with restaurant offering fresh local ingredients and comfort food.",
+      "mustOrder": "Chargrilled steak sandwich with caramelized onions",
+      "lat": 53.5159,
+      "lng": -7.3871
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Grits & Grains",
+      "address": "Church Street, Athlone",
+      "neighbourhood": "Athlone, Westmeath",
+      "cuisine": "Irish Modern",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant in the heart of Athlone focusing on local suppliers and seasonal ingredients.",
+      "mustOrder": "Pan-seared salmon with roasted vegetables",
+      "lat": 53.4236,
+      "lng": -7.9434
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Olivetto",
+      "address": "Main Street, Tullamore",
+      "neighbourhood": "Tullamore, Offaly",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Welcoming Italian restaurant serving traditional pasta, risotto, and seafood in a warm family-style setting.",
+      "mustOrder": "Risotto ai funghi with truffle oil",
+      "lat": 53.2744,
+      "lng": -7.4956
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Bellinterim Brewing Company",
+      "address": "Bloominggrove, Athenry",
+      "neighbourhood": "Athenry, Galway",
+      "cuisine": "Brewery Fare",
+      "priceRange": "€€",
+      "description": "Working brewery and restaurant offering craft beers paired with quality pub food and stone-baked pizzas.",
+      "mustOrder": "House pizza with local ingredients and craft beer",
+      "lat": 53.3021,
+      "lng": -8.7445
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Somerville House",
+      "address": "South Great George's Street, Dublin",
+      "neighbourhood": "Dublin 2",
+      "cuisine": "Irish Contemporary",
+      "priceRange": "€€€",
+      "description": "Upscale Irish restaurant with an open kitchen showcasing quality local ingredients and refined plating.",
+      "mustOrder": "Duck confit with cherry gastrique",
+      "lat": 53.34,
+      "lng": -6.265
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "The Widow's Son",
+      "address": "High Street, Athenry",
+      "neighbourhood": "Athenry, Galway",
+      "cuisine": "Irish Gastropub",
+      "priceRange": "€€",
+      "description": "Traditional Irish gastropub offering elevated pub classics and local craft beers in a historic setting.",
+      "mustOrder": "Braised beef and Guinness pie",
+      "lat": 53.3025,
+      "lng": -8.7429
+    }
+  ]
+}

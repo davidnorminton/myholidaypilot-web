@@ -1,0 +1,1385 @@
+{
+  "id": "lolland_falster",
+  "name": "Lolland-Falster",
+  "nameIt": "Lolland-Falster",
+  "capital": "Nakskov",
+  "lat": 54.8,
+  "lng": 11.5,
+  "emoji": "🚴",
+  "colour": "ffe91e63",
+  "boundingBox": {
+    "north": 55.1,
+    "south": 54.4,
+    "east": 12.1,
+    "west": 10.9
+  },
+  "history": "Lolland-Falster comprises two connected islands in southern Denmark with a rich medieval heritage, including the impressive Corselitze Church and remnants of Viking settlements. The region developed as an agricultural center during the Middle Ages, with its fertile soil supporting farming and trade along the Baltic routes. In the 19th and 20th centuries, the islands became known for sugar production and industrial development, though agriculture remained central to local life. The construction of bridges connecting the islands to each other and eventually to Zealand transformed the region's economy and demographics.",
+  "culturalNotes": "Lolland-Falster retains a distinctly rural character with strong ties to fishing, farming, and maritime traditions that shape local identity. The region is home to traditional Danish summer houses, preserved farmsteads, and a slower pace of life compared to Copenhagen, reflecting its island heritage. Local festivals celebrate agricultural seasons and maritime customs, and the islands' landscapes of open fields and coastal areas remain central to how residents connect with their environment.",
+  "bestTimeToVisit": "Visit May to September for cycling, beaches, and charming island villages.",
+  "languageNotes": "Standard Danish is spoken throughout the region, though older residents may retain slight regional inflections characteristic of southern Denmark. Useful phrases include \"Hej\" (hello), \"Tak\" (thank you), and \"Skål\" (cheers), which reflect the warm hospitality typical of Danish communities.",
+  "generatedAt": "2026-07-10T21:16:04.583Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "nykobing_falster",
+      "name": "Nykøbing Falster",
+      "nameIt": "Nykøbing Falster",
+      "lat": 54.7667,
+      "lng": 11.8833,
+      "type": "CITY",
+      "description": "The largest city in Lolland-Falster with a charming medieval town center and vibrant waterfront along the Guldborg Strait. It serves as the cultural and commercial hub, featuring museums, shops, and excellent restaurants with local character.",
+      "imageQueries": [
+        "Nykøbing Falster harbor waterfront",
+        "Nykøbing Falster town center Denmark"
+      ],
+      "activities": [
+        {
+          "id": "nyko_1",
+          "text": "Nykøbing Falster Museum",
+          "detail": "Explore the town's history and maritime heritage through exhibits on local culture, archaeology, and the region's trading past.",
+          "lat": 54.7681,
+          "lng": 12.1925
+        },
+        {
+          "id": "nyko_2",
+          "text": "Guldborg Strait Waterfront Walk",
+          "detail": "Stroll along the picturesque harbor promenade lined with historic buildings, offering views of the water and access to cafés and shops.",
+          "lat": 54.7703,
+          "lng": 12.1934
+        },
+        {
+          "id": "nyko_3",
+          "text": "Medieval Town Center Exploration",
+          "detail": "Wander the charming narrow streets and squares of the old town, featuring period architecture, local shops, and the historic Nykøbing Church.",
+          "lat": 54.7688,
+          "lng": 12.1895
+        },
+        {
+          "id": "nyko_4",
+          "text": "Lolland-Falster Art Museum",
+          "detail": "View contemporary and classical Danish art in a modern setting that showcases regional and national artists.",
+          "lat": 54.772,
+          "lng": 12.188
+        },
+        {
+          "id": "nyko_5",
+          "text": "Cycling Routes to Nearby Villages",
+          "detail": "Rent a bicycle and pedal through the flat Lolland-Falster countryside to discover rural hamlets, farmland, and windmills.",
+          "lat": 54.7681,
+          "lng": 12.1925
+        }
+      ],
+      "food": [
+        {
+          "id": "nyko_f1",
+          "text": "Smørrebrød with Local Fish",
+          "detail": "Try open-faced Danish rye bread sandwiches topped with fresh herring, plaice, or other catches from the Guldborg Strait."
+        },
+        {
+          "id": "nyko_f2",
+          "text": "Æbleskiver",
+          "detail": "Sample these warm, round Danish pancakes dusted with powdered sugar and served with jam, a beloved local comfort food."
+        },
+        {
+          "id": "nyko_f3",
+          "text": "Lolland Asparagus Dishes",
+          "detail": "During spring, seek out local white asparagus prepared simply with butter and sauce, a seasonal specialty of the region."
+        },
+        {
+          "id": "nyko_f4",
+          "text": "Local Craft Beer",
+          "detail": "Visit microbreweries and cafés serving Lolland-Falster craft beers that reflect the area's brewing heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nyko_c1",
+          "text": "Market Day Tradition",
+          "detail": "Visit the town center on market days to experience local vendors selling fresh produce, crafts, and regional goods in a festive atmosphere."
+        },
+        {
+          "id": "nyko_c2",
+          "text": "Bicycle Culture",
+          "detail": "Like all of Denmark, cycling is the primary local transport; rent a bike and follow painted lanes to navigate the town and countryside authentically."
+        },
+        {
+          "id": "nyko_c3",
+          "text": "Summer Harbor Festivals",
+          "detail": "Plan your visit around local waterfront events and festivals in summer when the harbor comes alive with music, food stalls, and maritime celebrations."
+        }
+      ]
+    },
+    {
+      "id": "mon_cliffs",
+      "name": "Møn Cliffs",
+      "nameIt": "Møns Klint",
+      "lat": 54.9383,
+      "lng": 12.45,
+      "type": "COASTAL",
+      "description": "A spectacular UNESCO-listed chalk cliff landscape stretching 7 km along the coast, rising up to 128 meters above the sea with stunning white walls and beech forests. This is Denmark's most dramatic natural formation and offers breathtaking views, hiking trails, and a visitor center.",
+      "imageQueries": [
+        "Møn Klint chalk cliffs Denmark",
+        "Møns Klint white cliffs aerial view"
+      ],
+      "activities": [
+        {
+          "id": "mon__1",
+          "text": "Cliff Edge Walk",
+          "detail": "Hike along the rim of the 7 km chalk cliff formation with panoramic Baltic Sea views and dramatic white walls rising 128 meters.",
+          "lat": 54.9381,
+          "lng": 12.4397
+        },
+        {
+          "id": "mon__2",
+          "text": "Møn Cliffs Visitor Center",
+          "detail": "Explore interactive exhibits about the geology, Ice Age history, and natural environment of the UNESCO-listed landscape.",
+          "lat": 54.9398,
+          "lng": 12.4489
+        },
+        {
+          "id": "mon__3",
+          "text": "Beech Forest Trails",
+          "detail": "Walk beneath ancient beech trees that crown the cliff tops, offering shaded forest paths and native woodland ecosystems.",
+          "lat": 54.935,
+          "lng": 12.435
+        },
+        {
+          "id": "mon__4",
+          "text": "Descend to Liselund Beach",
+          "detail": "Climb down the steep wooden stairs to the pebbled beach below for swimming, fossil hunting, and closer views of the chalk walls.",
+          "lat": 54.928,
+          "lng": 12.4285
+        },
+        {
+          "id": "mon__5",
+          "text": "Photography from Abelines Mølle",
+          "detail": "Capture iconic cliff views from this elevated vantage point near the restored mill structure at the eastern end of the formation.",
+          "lat": 54.945,
+          "lng": 12.465
+        },
+        {
+          "id": "mon__6",
+          "text": "Kayaking Along the Base",
+          "detail": "Paddle sea kayaks along the coast to view the towering white cliffs from water level and explore hidden coves.",
+          "lat": 54.938,
+          "lng": 12.44
+        }
+      ],
+      "food": [
+        {
+          "id": "mon__f1",
+          "text": "Local Fresh-Caught Plaice",
+          "detail": "Enjoy flødeboller-style breaded plaice (flyndefilet) from restaurants near the cliffs, sourced from the Baltic Sea."
+        },
+        {
+          "id": "mon__f2",
+          "text": "Danish Smørrebrød with Local Cheese",
+          "detail": "Sample traditional open-faced rye bread topped with aged Danish cheeses from nearby Falster dairy farms."
+        },
+        {
+          "id": "mon__f3",
+          "text": "Kirsebær Dessert (Cherry Cake)",
+          "detail": "Taste the regional cherry cake specialty popular in South Zealand, often served with whipped cream at local cafés."
+        },
+        {
+          "id": "mon__f4",
+          "text": "Liselund Estate Strawberries",
+          "detail": "Visit local farm stands for seasonal strawberries grown on estates near the cliffs, eaten fresh or in jam."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mon__c1",
+          "text": "Chalk Dust Awareness",
+          "detail": "Wear appropriate footwear on cliff edges as chalk surfaces can be slippery and unstable, especially after rain."
+        },
+        {
+          "id": "mon__c2",
+          "text": "Respect Forest Conservation",
+          "detail": "Stay on marked trails through the beech forests to protect protected plant species and prevent erosion of this UNESCO World Heritage site."
+        },
+        {
+          "id": "mon__c3",
+          "text": "Visit Center First",
+          "detail": "Start at the Møn Cliffs Visitor Center to learn about glacial geology and Ice Age formation before exploring, enhancing your understanding of the landscape."
+        }
+      ]
+    },
+    {
+      "id": "saksk_bing",
+      "name": "Sakskøbing",
+      "nameIt": "Sakskøbing",
+      "lat": 54.8167,
+      "lng": 11.6333,
+      "type": "TOWN",
+      "description": "A historic market town in Lolland with well-preserved medieval streets, colorful half-timbered houses, and a charming old-town atmosphere. It's an excellent base for exploring rural Lolland and features local shops and cafes.",
+      "imageQueries": [
+        "Sakskøbing town Denmark historic",
+        "Sakskøbing half-timbered houses"
+      ],
+      "activities": [
+        {
+          "id": "saks_1",
+          "text": "Sakskøbing Town Square Walk",
+          "detail": "Stroll through the historic market square surrounded by colorful half-timbered merchant houses dating back to the medieval period.",
+          "lat": 54.7744,
+          "lng": 11.9853
+        },
+        {
+          "id": "saks_2",
+          "text": "St. Lawrence Church",
+          "detail": "Visit this Gothic brick church in the town center, notable for its medieval architecture and ornate interior.",
+          "lat": 54.7747,
+          "lng": 11.986
+        },
+        {
+          "id": "saks_3",
+          "text": "Lolland-Falster Museum",
+          "detail": "Explore local history and cultural artifacts in this regional museum housed in a historic building.",
+          "lat": 54.775,
+          "lng": 11.9845
+        },
+        {
+          "id": "saks_4",
+          "text": "Cycle Along Rural Lolland",
+          "detail": "Rent a bicycle and explore the flat countryside around Sakskøbing with its farmland, small villages, and quiet country roads."
+        },
+        {
+          "id": "saks_5",
+          "text": "Local Shops and Antique Hunting",
+          "detail": "Browse independent boutiques and antique shops lining the narrow medieval streets for unique Danish crafts and vintage finds."
+        },
+        {
+          "id": "saks_6",
+          "text": "Café Culture in Old Town",
+          "detail": "Relax at one of the cozy cafés tucked into historic buildings serving coffee and traditional Danish pastries."
+        }
+      ],
+      "food": [
+        {
+          "id": "saks_f1",
+          "text": "Smørrebrød",
+          "detail": "Open-faced rye bread sandwiches topped with cold cuts, fish, eggs, and pickled vegetables, a Danish staple served in local cafés."
+        },
+        {
+          "id": "saks_f2",
+          "text": "Local Dairy Products",
+          "detail": "Sample fresh butter and cheese from nearby Lolland farms at the market and local shops, reflecting the region's agricultural heritage."
+        },
+        {
+          "id": "saks_f3",
+          "text": "Æbleskiver",
+          "detail": "Fluffy spherical pancakes filled with jam and dusted with powdered sugar, a traditional Danish treat found at local bakeries."
+        },
+        {
+          "id": "saks_f4",
+          "text": "Fresh Herring Preparations",
+          "detail": "Try locally-caught herring prepared in various ways such as pickled, smoked, or marinated, reflecting Lolland's maritime traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "saks_c1",
+          "text": "Slow Pace and Small-Town Rhythm",
+          "detail": "Sakskøbing operates at a relaxed pace typical of rural Denmark; many shops close for lunch and on Sunday afternoons."
+        },
+        {
+          "id": "saks_c2",
+          "text": "Medieval Street Layout Preservation",
+          "detail": "The town maintains its original medieval street pattern and building styles, so wear comfortable walking shoes to fully appreciate the narrow, winding passages."
+        },
+        {
+          "id": "saks_c3",
+          "text": "Local Market Traditions",
+          "detail": "The town square remains a gathering place for locals; visiting on market days or during seasonal festivals offers authentic interaction with the community."
+        }
+      ]
+    },
+    {
+      "id": "maribo",
+      "name": "Maribo",
+      "nameIt": "Maribo",
+      "lat": 54.7583,
+      "lng": 11.5167,
+      "type": "TOWN",
+      "description": "Lolland's cultural heart, known for its beautiful cathedral, picturesque lakes, and the Lolland-Falster Museum documenting regional history. The town has a relaxed, artistic vibe with galleries, antique shops, and lakeside walks.",
+      "imageQueries": [
+        "Maribo cathedral Denmark",
+        "Maribo lakes town Lolland"
+      ],
+      "activities": [
+        {
+          "id": "mari_1",
+          "text": "Maribo Cathedral",
+          "detail": "A magnificent Gothic brick cathedral dating to the 15th century, featuring impressive interior architecture and stained glass windows that dominate the town's skyline.",
+          "lat": 54.7575,
+          "lng": 11.5186
+        },
+        {
+          "id": "mari_2",
+          "text": "Lolland-Falster Museum",
+          "detail": "Regional museum showcasing the cultural and natural history of Lolland-Falster, including artifacts, exhibitions, and insights into local heritage and traditions.",
+          "lat": 54.7558,
+          "lng": 11.5167
+        },
+        {
+          "id": "mari_3",
+          "text": "Lake Maribo Walk",
+          "detail": "Scenic lakeside promenade around the picturesque Maribo Lake, perfect for leisurely strolls, birdwatching, and enjoying the natural landscape.",
+          "lat": 54.758,
+          "lng": 11.51
+        },
+        {
+          "id": "mari_4",
+          "text": "Local Art Galleries",
+          "detail": "Browse independent galleries scattered throughout the town center featuring contemporary and traditional Danish artwork from regional artists.",
+          "lat": 54.757,
+          "lng": 11.517
+        },
+        {
+          "id": "mari_5",
+          "text": "Antique Shops",
+          "detail": "Wander through charming antique and second-hand shops in the historic town center offering vintage furniture, collectibles, and local crafts.",
+          "lat": 54.7565,
+          "lng": 11.518
+        },
+        {
+          "id": "mari_6",
+          "text": "Bangsbo Gardens",
+          "detail": "Peaceful botanical gardens offering seasonal plantings, walking paths, and a quiet retreat in the heart of town."
+        }
+      ],
+      "food": [
+        {
+          "id": "mari_f1",
+          "text": "Smørrebrød",
+          "detail": "Traditional Danish open-faced rye bread sandwich topped with local ingredients like pickled herring, egg, or cold cuts, widely available at local cafés."
+        },
+        {
+          "id": "mari_f2",
+          "text": "Local Freshwater Fish",
+          "detail": "Pike and perch caught from Maribo Lake and prepared simply grilled or in traditional Danish fish dishes at lakeside restaurants."
+        },
+        {
+          "id": "mari_f3",
+          "text": "Danish Rye Bread",
+          "detail": "Dense, dark rugbrød sourced from local bakeries, often served with butter and cheese, a staple of the regional diet."
+        },
+        {
+          "id": "mari_f4",
+          "text": "Apple Desserts",
+          "detail": "Seasonal apple cakes and pastries made from local Lolland orchards, reflecting the region's agricultural heritage."
+        },
+        {
+          "id": "mari_f5",
+          "text": "Craft Coffee Culture",
+          "detail": "Small independent cafés serving specialty coffee and homemade pastries, reflecting the town's relaxed, artistic atmosphere."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mari_c1",
+          "text": "Respect Cathedral Visiting Hours",
+          "detail": "Maribo Cathedral remains an active place of worship; visit respectfully during designated tourist hours and avoid services."
+        },
+        {
+          "id": "mari_c2",
+          "text": "Embrace the Slow Pace",
+          "detail": "Maribo thrives on a relaxed rhythm with many shops and cafés closing early in the evening; plan activities accordingly and enjoy the contemplative atmosphere."
+        },
+        {
+          "id": "mari_c3",
+          "text": "Explore on Foot or Bicycle",
+          "detail": "The compact town center and lakeside are best experienced by walking or cycling, which aligns with Danish transport culture and local preferences."
+        },
+        {
+          "id": "mari_c4",
+          "text": "Danish Summer Season Peak",
+          "detail": "Visit May through September for optimal weather, gallery openings, and lakeside events; winter visits offer a quieter but colder experience."
+        }
+      ]
+    },
+    {
+      "id": "gedser",
+      "name": "Gedser",
+      "nameIt": "Gedser",
+      "lat": 54.5667,
+      "lng": 11.9333,
+      "type": "COASTAL",
+      "description": "Denmark's southernmost town, positioned at the tip of Falster with maritime heritage and a working fishing harbor. It offers fresh seafood, lighthouse views, and a unique position as the gateway between Denmark and Germany.",
+      "imageQueries": [
+        "Gedser harbor Denmark southernmost",
+        "Gedser lighthouse Falster"
+      ],
+      "activities": [
+        {
+          "id": "geds_1",
+          "text": "Gedser Lighthouse",
+          "detail": "Climb the iconic red and white striped lighthouse at Denmark's southernmost point for panoramic views of the Baltic Sea and German coastline.",
+          "lat": 54.5689,
+          "lng": 12.0325
+        },
+        {
+          "id": "geds_2",
+          "text": "Gedser Fishery and Maritime Museum",
+          "detail": "Explore the working harbor's history through exhibits on local fishing traditions, boat building, and the town's role as a maritime gateway.",
+          "lat": 54.5695,
+          "lng": 12.0328
+        },
+        {
+          "id": "geds_3",
+          "text": "Gedser Fish Harbor",
+          "detail": "Stroll the active fishing harbor where boats dock daily and watch fishermen unload the catch that supplies local restaurants.",
+          "lat": 54.5698,
+          "lng": 12.0335
+        },
+        {
+          "id": "geds_4",
+          "text": "Gedser Brewery Tour",
+          "detail": "Visit the small local brewery to sample craft beers made with Danish traditions and learn about their brewing process.",
+          "lat": 54.568,
+          "lng": 12.032
+        },
+        {
+          "id": "geds_5",
+          "text": "Cycling to Marielyst",
+          "detail": "Rent a bike and ride along the scenic Falster coast heading north toward Marielyst, passing through rural Danish countryside."
+        },
+        {
+          "id": "geds_6",
+          "text": "Gedser Beach and Seaside Walks",
+          "detail": "Walk the pebbly and sandy beaches at Denmark's southern tip, popular for spotting migrating birds and enjoying sea views.",
+          "lat": 54.567,
+          "lng": 12.034
+        }
+      ],
+      "food": [
+        {
+          "id": "geds_f1",
+          "text": "Fresh Smørrebrød with Local Catch",
+          "detail": "Open-faced sandwich topped with the day's fresh fish catch from Gedser harbor, typically served with rye bread and local condiments."
+        },
+        {
+          "id": "geds_f2",
+          "text": "Fiskefrikadeller",
+          "detail": "Danish fish cakes made from minced fish, onion, and herbs, served with remoulade sauce and boiled potatoes at harbor-side restaurants."
+        },
+        {
+          "id": "geds_f3",
+          "text": "Gedser Herring Preparations",
+          "detail": "Pickled or smoked herring sourced directly from local boats, often served as a starter with aquavit at traditional seafood establishments."
+        },
+        {
+          "id": "geds_f4",
+          "text": "Mussel and Oyster Platters",
+          "detail": "Fresh shellfish harvested from nearby waters and served raw or steamed, available at restaurants overlooking the harbor."
+        },
+        {
+          "id": "geds_f5",
+          "text": "Flødeboller",
+          "detail": "Danish chocolate-covered marshmallow confection made locally and commonly found in Gedser's cafés and sweet shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "geds_c1",
+          "text": "Harbor Etiquette",
+          "detail": "Respect fishing operations by staying clear of working boats and docks during early morning hours when the fleet returns with the night's catch."
+        },
+        {
+          "id": "geds_c2",
+          "text": "Seafood Freshness Expectation",
+          "detail": "Dining in Gedser means fish and seafood are prepared the same day they're caught, so expect menus to change based on daily harbor activity."
+        },
+        {
+          "id": "geds_c3",
+          "text": "Gateway Position Awareness",
+          "detail": "Gedser's proximity to Germany (visible across the water) shapes its identity; many locals speak German and the town hosts cross-border cyclists and travelers."
+        },
+        {
+          "id": "geds_c4",
+          "text": "Seasonal Fishing Calendar",
+          "detail": "Visit during spring and autumn for peak fishing seasons when harbor activity is highest and the freshest seafood appears on local menus."
+        }
+      ]
+    },
+    {
+      "id": "fej",
+      "name": "Fejø",
+      "nameIt": "Fejø",
+      "lat": 54.67,
+      "lng": 11.4667,
+      "type": "ISLAND",
+      "description": "A peaceful island destination accessible by ferry, known for its quiet rural character, scenic cycling routes, and unspoiled natural beauty. Perfect for escaping crowds and experiencing traditional Danish island life.",
+      "imageQueries": [
+        "Fejø island Denmark ferry",
+        "Fejø cycling rural landscape"
+      ],
+      "activities": [
+        {
+          "id": "fej_1",
+          "text": "Cycle the Island Loop",
+          "detail": "Rent a bicycle and explore Fejø's quiet rural roads, passing through farmland, small villages, and coastal views on a scenic 30-40 km route.",
+          "lat": 54.565,
+          "lng": 11.752
+        },
+        {
+          "id": "fej_2",
+          "text": "Visit Fejø Lighthouse",
+          "detail": "Explore the historic white lighthouse standing on the island's northern point, offering panoramic views of the surrounding waters and countryside.",
+          "lat": 54.593,
+          "lng": 11.758
+        },
+        {
+          "id": "fej_3",
+          "text": "Walk Fejø Beach and Nature Reserve",
+          "detail": "Stroll along the island's quiet sandy beaches and explore protected natural areas where you may spot native birds and coastal plants.",
+          "lat": 54.565,
+          "lng": 11.735
+        },
+        {
+          "id": "fej_4",
+          "text": "Kayaking Around the Island",
+          "detail": "Paddle around Fejø's coastline by kayak to experience the island from the water and access remote coves and wildlife viewing areas.",
+          "lat": 54.565,
+          "lng": 11.752
+        },
+        {
+          "id": "fej_5",
+          "text": "Visit Local Farm Shops",
+          "detail": "Browse small family-run shops selling homemade preserves, local cheese, eggs, and organic produce directly from island farms.",
+          "lat": 54.563,
+          "lng": 11.758
+        },
+        {
+          "id": "fej_6",
+          "text": "Explore Fejø Village Church",
+          "detail": "Visit the charming small church in the village center, a traditional Danish structure with roots dating back centuries and featuring local artwork."
+        }
+      ],
+      "food": [
+        {
+          "id": "fej_f1",
+          "text": "Smørrebrød with Local Fish",
+          "detail": "Enjoy traditional open-faced rye bread sandwiches topped with freshly caught local fish, often prepared at small cafés using daily catches."
+        },
+        {
+          "id": "fej_f2",
+          "text": "Island Cheese",
+          "detail": "Taste locally produced farmhouse cheese made from cow and sheep milk, typically sold at farm shops with traditional Danish production methods."
+        },
+        {
+          "id": "fej_f3",
+          "text": "Æbleskiver",
+          "detail": "Eat these traditional round Danish pancakes, often served as a sweet treat with jam and powdered sugar at local bakeries or farm cafés."
+        },
+        {
+          "id": "fej_f4",
+          "text": "Fresh Strawberries and Berries",
+          "detail": "Buy seasonal berries and strawberries directly from island farms or farm stands during summer months, picked daily at peak ripeness."
+        },
+        {
+          "id": "fej_f5",
+          "text": "Rugbrød (Dark Rye Bread)",
+          "detail": "Experience authentic Danish dark rye bread baked locally using traditional recipes, commonly served at meals and available from bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fej_c1",
+          "text": "Ferry Etiquette Matters",
+          "detail": "The ferry is the only transport link to the island; arrive early, respect boarding times, and plan your visit around ferry schedules which operate on set hours."
+        },
+        {
+          "id": "fej_c2",
+          "text": "Embrace Slow Island Pace",
+          "detail": "Fejø operates on island time with limited services and early closing times; expect shops to close by 5-6 PM and plan accordingly without rushing."
+        },
+        {
+          "id": "fej_c3",
+          "text": "Greet People Warmly",
+          "detail": "Danish islanders appreciate polite greetings and respect for privacy; a simple 'Hej' to locals is welcome, but intrusive questions about personal life are not."
+        },
+        {
+          "id": "fej_c4",
+          "text": "Respect Natural Areas",
+          "detail": "Stay on marked paths, leave no trace, and avoid disturbing wildlife and protected habitats; the island's appeal depends on visitors maintaining its unspoiled character."
+        }
+      ]
+    },
+    {
+      "id": "aaleb_ksminde",
+      "name": "Aalebæksminde",
+      "nameIt": "Aalebæksminde",
+      "lat": 54.825,
+      "lng": 12.3667,
+      "type": "COASTAL",
+      "description": "A scenic coastal village on Møn's eastern shore with a small harbor, beach access, and charming local restaurants. It's an ideal spot for seafood dining while gazing at the Baltic Sea.",
+      "imageQueries": [
+        "Aalebæksminde harbor Møn Denmark",
+        "Aalebæksminde coastal village beach"
+      ],
+      "activities": [
+        {
+          "id": "aale_1",
+          "text": "Harbor Walk",
+          "detail": "Stroll along the working fishing harbor to watch boats unload the day's catch and observe local maritime life.",
+          "lat": 54.9833,
+          "lng": 12.4667
+        },
+        {
+          "id": "aale_2",
+          "text": "Beach Swimming",
+          "detail": "Access the sandy beach directly from the village for Baltic Sea swimming during warmer months.",
+          "lat": 54.9835,
+          "lng": 12.467
+        },
+        {
+          "id": "aale_3",
+          "text": "Møn Cliffs Hiking",
+          "detail": "Hike to the nearby white chalk cliffs of Møn for dramatic coastal views and photographs of Denmark's most distinctive geological formation."
+        },
+        {
+          "id": "aale_4",
+          "text": "Local Fish Auctions",
+          "detail": "Visit the small fish market during morning hours to purchase fresh-caught Baltic seafood directly from fishermen.",
+          "lat": 54.983,
+          "lng": 12.4665
+        },
+        {
+          "id": "aale_5",
+          "text": "Kayaking Excursions",
+          "detail": "Rent a kayak to explore the coastal waters and nearby coves along Møn's eastern shoreline."
+        },
+        {
+          "id": "aale_6",
+          "text": "Photography at Sunset",
+          "detail": "Capture the harbor and Baltic Sea at golden hour when fishing boats return and light reflects beautifully off the water.",
+          "lat": 54.9833,
+          "lng": 12.4667
+        }
+      ],
+      "food": [
+        {
+          "id": "aale_f1",
+          "text": "Fresh Plaice (Skrubbe)",
+          "detail": "Sample locally-caught plaice prepared simply grilled or pan-fried with lemon and butter at harborside restaurants."
+        },
+        {
+          "id": "aale_f2",
+          "text": "Smoked Eel (Røget Ål)",
+          "detail": "Try the regional specialty of smoked eel, traditionally caught in local waters and served warm or cold with dark bread."
+        },
+        {
+          "id": "aale_f3",
+          "text": "Seafood Soup (Fiskesoppa)",
+          "detail": "Enjoy a hearty soup made with the day's catch, local vegetables, and cream served in village restaurants."
+        },
+        {
+          "id": "aale_f4",
+          "text": "Pickled Herring (Syltet Sild)",
+          "detail": "Taste the traditional Danish preparation of herring with mustard and onions, a common appetizer in local establishments."
+        },
+        {
+          "id": "aale_f5",
+          "text": "Shrimp Sandwich (Rejsandwich)",
+          "detail": "Order fresh Baltic shrimp piled high on rye bread with mayonnaise and lemon at casual harborside cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aale_c1",
+          "text": "Early Dining Hours",
+          "detail": "Restaurants serve dinner earlier than Copenhagen; plan to eat between 17:00 and 19:00 for best service and atmosphere."
+        },
+        {
+          "id": "aale_c2",
+          "text": "Cash Payment Preferred",
+          "detail": "Smaller village establishments may prefer or only accept cash, so bring Danish kroner for restaurants and shops."
+        },
+        {
+          "id": "aale_c3",
+          "text": "Fishing Culture Respect",
+          "detail": "The village's livelihood depends on fishing; observe quietly during early morning auctions and avoid photographing fishermen without permission."
+        },
+        {
+          "id": "aale_c4",
+          "text": "Seasonal Closures",
+          "detail": "Many restaurants close or reduce hours in winter months, so confirm opening times if visiting October through March."
+        }
+      ]
+    },
+    {
+      "id": "stege",
+      "name": "Stege",
+      "nameIt": "Stege",
+      "lat": 54.8667,
+      "lng": 12.2833,
+      "type": "TOWN",
+      "description": "Møn's main town with a well-preserved medieval core, cobbled streets, and the impressive Stege Tower offering panoramic views. This historic trading town combines maritime heritage with charming shops and local eateries.",
+      "imageQueries": [
+        "Stege tower Møn Denmark medieval",
+        "Stege old town cobbled streets"
+      ],
+      "activities": [
+        {
+          "id": "steg_1",
+          "text": "Stege Tower (Stegotårn)",
+          "detail": "Climb the 14th-century defensive tower for sweeping views across Møn and the Baltic Sea from its panoramic gallery.",
+          "lat": 54.7485,
+          "lng": 12.2857
+        },
+        {
+          "id": "steg_2",
+          "text": "Medieval Old Town Walk",
+          "detail": "Stroll the narrow cobbled streets lined with half-timbered houses and well-preserved merchant buildings dating back to the 1400s.",
+          "lat": 54.7475,
+          "lng": 12.285
+        },
+        {
+          "id": "steg_3",
+          "text": "Stege Nor Harbour",
+          "detail": "Explore the picturesque natural harbour where fishing boats and sailboats anchor, offering a peaceful waterfront atmosphere.",
+          "lat": 54.752,
+          "lng": 12.292
+        },
+        {
+          "id": "steg_4",
+          "text": "Stege Museum",
+          "detail": "Discover local maritime history, medieval artifacts, and exhibits on the town's role as a Hanseatic trading post.",
+          "lat": 54.748,
+          "lng": 12.2865
+        },
+        {
+          "id": "steg_5",
+          "text": "Cycling to Møn's Limestone Cliffs",
+          "detail": "Take a scenic bike ride to the dramatic white chalk cliffs of Møn Klint, located about 15 kilometers south of Stege.",
+          "lat": 54.9333,
+          "lng": 12.45
+        },
+        {
+          "id": "steg_6",
+          "text": "St. Petri Church",
+          "detail": "Visit this Gothic church with its impressive brick architecture and historical significance dating to the 14th century.",
+          "lat": 54.749,
+          "lng": 12.2875
+        }
+      ],
+      "food": [
+        {
+          "id": "steg_f1",
+          "text": "Smørrebrød",
+          "detail": "Traditional open-faced Danish sandwiches topped with herring, shrimp, egg, or cold cuts on rye bread, served at local cafés and restaurants."
+        },
+        {
+          "id": "steg_f2",
+          "text": "Fresh Baltic Fish",
+          "detail": "Seasonal local catch including plaice and cod prepared simply grilled or pan-fried, reflecting Stege's maritime heritage."
+        },
+        {
+          "id": "steg_f3",
+          "text": "Danish Pastries (Wienerbrød)",
+          "detail": "Sweet laminated pastries filled with custard, jam, or marzipan available at traditional bakeries throughout the town."
+        },
+        {
+          "id": "steg_f4",
+          "text": "Møn Cheese",
+          "detail": "Local artisanal cheeses from nearby farms, often featured at Stege's shops and served at restaurants with local pride."
+        },
+        {
+          "id": "steg_f5",
+          "text": "Frikadeller",
+          "detail": "Danish meatballs served with pickled cucumber and mustard sauce, a classic comfort food found at traditional eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "steg_c1",
+          "text": "Respect Cobbled Streets",
+          "detail": "Wear comfortable shoes with good grip as the medieval cobblestones are uneven and can be slippery, especially in wet weather."
+        },
+        {
+          "id": "steg_c2",
+          "text": "Quiet Hours Observed",
+          "detail": "Danes value tranquility; avoid loud noise and unnecessary disturbances, particularly in residential areas during evening and early morning."
+        },
+        {
+          "id": "steg_c3",
+          "text": "Shop Closing Times",
+          "detail": "Many local shops close by 5–6 PM on weekdays and remain closed on Sundays, so plan accordingly for shopping and dining."
+        },
+        {
+          "id": "steg_c4",
+          "text": "Cycling Culture",
+          "detail": "Bicycles are the primary transport method; respect cycle lanes and expect locals to navigate by bike even in the compact town center."
+        }
+      ]
+    },
+    {
+      "id": "n_rrebelle",
+      "name": "Nørrebelle",
+      "nameIt": "Nørrebelle",
+      "lat": 54.7417,
+      "lng": 11.6417,
+      "type": "VILLAGE",
+      "description": "A quaint village in central Lolland known for its red brick church and rural charm, serving as a cultural landmark with local traditions. It represents the quiet, authentic countryside character of the region.",
+      "imageQueries": [
+        "Nørrebelle village Lolland Denmark",
+        "Nørrebelle church rural landscape"
+      ],
+      "activities": [
+        {
+          "id": "n_rr_1",
+          "text": "Nørrebelle Church",
+          "detail": "Visit the distinctive red brick church at the heart of the village, a 12th-century Romanesque structure that serves as the village's most recognizable landmark and spiritual center.",
+          "lat": 54.7833,
+          "lng": 11.5167
+        },
+        {
+          "id": "n_rr_2",
+          "text": "Rural Countryside Walks",
+          "detail": "Explore the flat, open farmland surrounding Nørrebelle on foot or by bicycle, experiencing the authentic Lolland landscape dotted with small fields and traditional farmhouses."
+        },
+        {
+          "id": "n_rr_3",
+          "text": "Local Farm Visits",
+          "detail": "Meet local farmers and learn about traditional Danish agricultural practices, grain production, and rural life that have defined this region for centuries."
+        },
+        {
+          "id": "n_rr_4",
+          "text": "Cycle Routes to Neighboring Villages",
+          "detail": "Ride the well-marked cycling paths connecting Nørrebelle to surrounding Lolland communities like Kragelund and Højreby, experiencing the interconnected village culture of the region."
+        },
+        {
+          "id": "n_rr_5",
+          "text": "Seasonal Village Events",
+          "detail": "Attend harvest festivals, church gatherings, and traditional Danish celebrations held throughout the year that showcase local customs and community spirit."
+        }
+      ],
+      "food": [
+        {
+          "id": "n_rr_f1",
+          "text": "Smørrebrød with Local Ham",
+          "detail": "Enjoy open-faced rye bread sandwiches topped with locally-sourced Danish ham, a staple of rural Lolland cuisine found in village shops and farm kitchens."
+        },
+        {
+          "id": "n_rr_f2",
+          "text": "Fresh Dairy Products",
+          "detail": "Taste butter, cheese, and milk from regional farms that supply the village, reflecting Lolland's strong dairy farming heritage."
+        },
+        {
+          "id": "n_rr_f3",
+          "text": "Rye Bread (Rugbrød)",
+          "detail": "Experience dense, hearty dark rye bread baked using traditional methods, a dietary cornerstone in Danish villages that pairs with most local meals."
+        },
+        {
+          "id": "n_rr_f4",
+          "text": "Root Vegetable Stews",
+          "detail": "Sample warming stews made with locally-grown carrots, parsnips, and potatoes, typical of rural Danish comfort food served in farmhouse kitchens."
+        }
+      ],
+      "culture": [
+        {
+          "id": "n_rr_c1",
+          "text": "Respect Church Visiting Hours",
+          "detail": "The red brick church is central to village identity; visit during posted hours and be respectful of active services and private prayers."
+        },
+        {
+          "id": "n_rr_c2",
+          "text": "Embrace Slow Travel Pace",
+          "detail": "Nørrebelle operates on rural time—shops and services have limited hours, so plan ahead and allow ample time to experience the village's quiet, unhurried rhythm."
+        },
+        {
+          "id": "n_rr_c3",
+          "text": "Learn Basic Danish Greetings",
+          "detail": "While many speak English, locals appreciate visitors who attempt Danish phrases like 'Hej' (hello) and 'Tak' (thank you), reflecting respect for traditional village culture."
+        }
+      ]
+    },
+    {
+      "id": "lindholm_nature",
+      "name": "Lindholm Nature Reserve",
+      "nameIt": "Lindholm Naturreservat",
+      "lat": 54.6833,
+      "lng": 11.6667,
+      "type": "NATURE",
+      "description": "A protected wetland and forest reserve offering excellent birdwatching, walking trails, and opportunities to observe native Danish wildlife. This natural sanctuary is essential for nature lovers and provides insight into the region's ecological richness.",
+      "imageQueries": [
+        "Lindholm nature reserve Denmark birds",
+        "Lindholm wetland forest trails"
+      ],
+      "activities": [
+        {
+          "id": "lind_1",
+          "text": "Birdwatching at Lindholm Wetlands",
+          "detail": "Observe migratory and resident bird species including white-tailed eagles, marsh harriers, and bitterns across the reserve's extensive wetland habitat.",
+          "lat": 54.6847,
+          "lng": 11.5067
+        },
+        {
+          "id": "lind_2",
+          "text": "Forest Walking Trails",
+          "detail": "Navigate marked trails through native beech and oak forests to discover diverse understory plants and small mammals in their natural environment.",
+          "lat": 54.6825,
+          "lng": 11.5089
+        },
+        {
+          "id": "lind_3",
+          "text": "Wildlife Photography Spots",
+          "detail": "Access designated observation points with natural cover and clear sightlines for photographing deer, foxes, and waterfowl throughout the reserve."
+        },
+        {
+          "id": "lind_4",
+          "text": "Seasonal Wildflower Tours",
+          "detail": "Visit during spring and summer to see native Danish wildflowers including wood anemones, lady's slipper orchids, and sundews in boggy areas.",
+          "lat": 54.686,
+          "lng": 11.511
+        },
+        {
+          "id": "lind_5",
+          "text": "Wetland Pond Exploration",
+          "detail": "Walk boardwalk paths around shallow ponds to observe aquatic insects, amphibians, and waterfowl in undisturbed wetland conditions."
+        },
+        {
+          "id": "lind_6",
+          "text": "Educational Guided Nature Walks",
+          "detail": "Join reserve staff-led tours to learn about conservation efforts, local ecology, and the reserve's role in protecting endangered Danish ecosystems."
+        }
+      ],
+      "food": [
+        {
+          "id": "lind_f1",
+          "text": "Lolland Local Rye Bread",
+          "detail": "Try authentic Danish rugbrød made with whole rye grain from regional farms, traditionally served with local cheese and cured meats in nearby Maribo."
+        },
+        {
+          "id": "lind_f2",
+          "text": "Freshwater Fish from Local Waters",
+          "detail": "Sample pike-perch and eel caught from the reserve's adjacent waterways, often prepared simply grilled or smoked at regional restaurants."
+        },
+        {
+          "id": "lind_f3",
+          "text": "Lolland Asparagus (seasonal)",
+          "detail": "In spring, seek out fresh white and green asparagus from local farms around the Lolland region, served at farm shops and nearby restaurants."
+        },
+        {
+          "id": "lind_f4",
+          "text": "Danish Wild Game Stew",
+          "detail": "Experience venison and wild boar stews, reflecting the region's hunting traditions and featuring local forest ingredients at Maribo's traditional inns."
+        },
+        {
+          "id": "lind_f5",
+          "text": "Farmhouse Butter and Cheese",
+          "detail": "Purchase small-batch dairy products from nearby Lolland farms, showcasing traditional Danish cheese-making methods and local milk varieties."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lind_c1",
+          "text": "Respect Quiet Hours for Wildlife",
+          "detail": "Maintain silence and move slowly during early morning and dusk hours when birds and animals are most active and sensitive to disturbance."
+        },
+        {
+          "id": "lind_c2",
+          "text": "Stick to Marked Trails Only",
+          "detail": "Danish nature reserves require visitors to remain on designated paths to protect fragile wetland vegetation and prevent erosion of the forest floor."
+        },
+        {
+          "id": "lind_c3",
+          "text": "Check Weather and Season Before Visiting",
+          "detail": "Winter flooding and summer heat can affect trail accessibility; locals recommend visiting in spring (April-May) or autumn (September-October) for optimal conditions."
+        },
+        {
+          "id": "lind_c4",
+          "text": "Bring Binoculars and Field Guides",
+          "detail": "Danish birdwatchers value preparation and observation skills; having proper equipment and identification guides enhances the experience and shows respect for the preserve's purpose."
+        }
+      ]
+    },
+    {
+      "id": "knuthenborg_safari",
+      "name": "Knuthenborg Safari Park",
+      "nameIt": "Knuthenborg Safari Park",
+      "lat": 54.8333,
+      "lng": 11.55,
+      "type": "LANDMARK",
+      "description": "Denmark's only safari park located on Lolland, featuring free-roaming animals, exotic species, and family-friendly activities in a 60-hectare landscape. An entertaining destination especially popular with families seeking wildlife encounters.",
+      "imageQueries": [
+        "Knuthenborg Safari Park Denmark animals",
+        "Knuthenborg wildlife drive-through"
+      ],
+      "activities": [
+        {
+          "id": "knut_1",
+          "text": "Drive-Through Safari",
+          "detail": "Experience free-roaming animals including zebras, giraffes, and antelopes from your own vehicle as you navigate the 60-hectare park.",
+          "lat": 54.7533,
+          "lng": 11.5167
+        },
+        {
+          "id": "knut_2",
+          "text": "Walk-Through Exotic Animal Areas",
+          "detail": "Explore designated walking zones to see lemurs, monkeys, and other smaller exotic species up close in naturalistic habitats.",
+          "lat": 54.7533,
+          "lng": 11.5167
+        },
+        {
+          "id": "knut_3",
+          "text": "Feeding Experience with Giraffes",
+          "detail": "Get the rare opportunity to hand-feed giraffes directly, creating memorable wildlife interactions for visitors of all ages.",
+          "lat": 54.7533,
+          "lng": 11.5167
+        },
+        {
+          "id": "knut_4",
+          "text": "Petting Zoo and Domestic Animal Area",
+          "detail": "Interact with farm animals and domesticated creatures in a family-friendly section designed for younger children.",
+          "lat": 54.7533,
+          "lng": 11.5167
+        },
+        {
+          "id": "knut_5",
+          "text": "Playground and Picnic Facilities",
+          "detail": "Take advantage of the park's recreational areas with children's play equipment and designated picnic spots throughout the grounds.",
+          "lat": 54.7533,
+          "lng": 11.5167
+        },
+        {
+          "id": "knut_6",
+          "text": "Educational Animal Shows",
+          "detail": "Attend scheduled presentations where park staff demonstrate animal behaviors and share fascinating facts about the exotic species.",
+          "lat": 54.7533,
+          "lng": 11.5167
+        }
+      ],
+      "food": [
+        {
+          "id": "knut_f1",
+          "text": "Danish Smørrebrød",
+          "detail": "Traditional open-faced sandwiches with toppings like herring, roast beef, or shrimp on rye bread, commonly served at the park's cafeteria."
+        },
+        {
+          "id": "knut_f2",
+          "text": "Flødeboller",
+          "detail": "Danish confectionery treats consisting of chocolate-covered foam with a marshmallow center, a popular snack throughout Denmark."
+        },
+        {
+          "id": "knut_f3",
+          "text": "Hot Dogs and Sausages",
+          "detail": "Grilled Danish pølser (sausages) served in bread with crispy onions and various condiments, a casual dining staple at the park."
+        },
+        {
+          "id": "knut_f4",
+          "text": "Local Lolland Cheese",
+          "detail": "Fresh cheeses produced in the Lolland-Falster region, often featured in lunch platters or available for purchase at the park's gift shop."
+        },
+        {
+          "id": "knut_f5",
+          "text": "Soft Serve Ice Cream",
+          "detail": "Creamy Danish ice cream available at the park's refreshment stands, particularly popular on warm summer days during visits."
+        }
+      ],
+      "culture": [
+        {
+          "id": "knut_c1",
+          "text": "Arrive Early for Best Wildlife Viewing",
+          "detail": "Animals are most active and visible in early morning hours, so arriving when the park opens maximizes your safari experience."
+        },
+        {
+          "id": "knut_c2",
+          "text": "Drive Slowly and Respect Distance",
+          "detail": "Danish safari etiquette requires keeping your vehicle at a safe, slow speed and maintaining appropriate distance from free-roaming animals for their wellbeing."
+        },
+        {
+          "id": "knut_c3",
+          "text": "Swedish and German Visitors Common",
+          "detail": "Being one of Scandinavia's few safari parks, expect a mix of international visitors, and staff typically speak multiple languages including English."
+        },
+        {
+          "id": "knut_c4",
+          "text": "Family-Oriented Danish Tradition",
+          "detail": "Knuthenborg reflects Danish culture's emphasis on outdoor family activities and nature experiences accessible to all ages and abilities."
+        }
+      ]
+    },
+    {
+      "id": "nakskov",
+      "name": "Nakskov",
+      "nameIt": "Nakskov",
+      "lat": 54.75,
+      "lng": 11.1167,
+      "type": "TOWN",
+      "description": "Lolland's second-largest town on the west coast with maritime heritage, an active harbor, and waterfront promenades. It offers a genuine working-town atmosphere with good restaurants and access to coastal cycling routes.",
+      "imageQueries": [
+        "Nakskov harbor Denmark west coast",
+        "Nakskov waterfront town Lolland"
+      ],
+      "activities": [
+        {
+          "id": "naks_1",
+          "text": "Nakskov Harbor Walk",
+          "detail": "Stroll along the revitalized waterfront promenade to observe working fishing boats, maritime heritage, and local waterside cafés.",
+          "lat": 54.7596,
+          "lng": 11.1457
+        },
+        {
+          "id": "naks_2",
+          "text": "Nakskov Museum",
+          "detail": "Explore the town's maritime history and local heritage through exhibits showcasing shipbuilding, trade, and fishing industries that shaped the community.",
+          "lat": 54.7589,
+          "lng": 11.1449
+        },
+        {
+          "id": "naks_3",
+          "text": "St. Nicholas Church",
+          "detail": "Visit this Gothic brick church dating back to the 15th century, featuring distinctive Danish architectural elements and a peaceful interior.",
+          "lat": 54.7612,
+          "lng": 11.1475
+        },
+        {
+          "id": "naks_4",
+          "text": "Coastal Cycling Route to Albuen",
+          "detail": "Pedal along one of Denmark's well-maintained coastal cycle routes heading northeast toward Albuen nature reserve with views of the Lolland coast.",
+          "lat": 54.7596,
+          "lng": 11.1457
+        },
+        {
+          "id": "naks_5",
+          "text": "Nakskov Brewery Heritage",
+          "detail": "Discover the town's former brewing tradition by visiting local establishments that reference this historical industry and sample contemporary craft beers.",
+          "lat": 54.7589,
+          "lng": 11.1449
+        },
+        {
+          "id": "naks_6",
+          "text": "Lolland Art Museum nearby",
+          "detail": "Take a short trip to view contemporary and local artwork in the region's gallery spaces celebrating Danish design and visual culture."
+        }
+      ],
+      "food": [
+        {
+          "id": "naks_f1",
+          "text": "Smørrebrød with local smoked fish",
+          "detail": "Enjoy open-faced rye bread topped with Danish-smoked herring or mackerel from the harbor, dressed with pickled vegetables and crème fraîche."
+        },
+        {
+          "id": "naks_f2",
+          "text": "Fresh seafood platters",
+          "detail": "Order daily catches prepared simply at waterfront restaurants, featuring plaice, cod, and prawns sourced directly from Nakskov's working fishing fleet."
+        },
+        {
+          "id": "naks_f3",
+          "text": "Æbleskiver with berry compote",
+          "detail": "Sample these spherical Danish pancakes filled with jam or custard, a traditional treat especially popular at local cafés and markets."
+        },
+        {
+          "id": "naks_f4",
+          "text": "Lolland pickled vegetables",
+          "detail": "Try locally-prepared preserves and pickled cucumbers that reflect the agricultural heritage of the Lolland region served as sides to main dishes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "naks_c1",
+          "text": "Respect the working harbor",
+          "detail": "The harbor remains an active commercial fishing port, so observe from designated walkways and avoid interfering with vessel operations or dock activities."
+        },
+        {
+          "id": "naks_c2",
+          "text": "Visit during summer markets",
+          "detail": "Nakskov hosts seasonal outdoor markets from May through September where locals gather for fresh produce, crafts, and community events—the best time to experience authentic town life."
+        },
+        {
+          "id": "naks_c3",
+          "text": "Learn Danish maritime customs",
+          "detail": "The town takes pride in its seafaring heritage; locals appreciate visitors who show genuine interest in the fishing industry and maritime history rather than treating it as merely picturesque backdrop."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Restaurant Bellinucci",
+      "address": "Banegårdspladsen 4, Nakskov",
+      "neighbourhood": "Nakskov",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Cozy Italian trattoria serving traditional pasta and risotto dishes in a warm, intimate setting.",
+      "mustOrder": "Homemade Tagliatelle al Ragù",
+      "lat": 54.7616,
+      "lng": 11.1467
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Frisenborg Slot Restaurant",
+      "address": "Frisenborg Allé 2, Toreby",
+      "neighbourhood": "Toreby",
+      "cuisine": "Danish/European",
+      "priceRange": "€€€",
+      "description": "Fine dining restaurant set in a historic castle with seasonal menus featuring local ingredients.",
+      "mustOrder": "Duck Breast with Berry Sauce",
+      "lat": 54.8256,
+      "lng": 11.3542
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Restaurant Solbakken",
+      "address": "Strandvejen 45, Maribo",
+      "neighbourhood": "Maribo",
+      "cuisine": "Scandinavian",
+      "priceRange": "€€",
+      "description": "Lakeside restaurant offering fresh Scandinavian cuisine with views over Maribo Lakes.",
+      "mustOrder": "Grilled Whitefish with Dill Butter",
+      "lat": 54.7797,
+      "lng": 11.4281
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Møller's Restaurant",
+      "address": "Jernbanegade 18, Nakskov",
+      "neighbourhood": "Nakskov",
+      "cuisine": "Danish",
+      "priceRange": "€€",
+      "description": "Traditional Danish steakhouse and brasserie with a reputation for quality meat and classic preparations.",
+      "mustOrder": "Danish Beef Tenderloin with Bernaise",
+      "lat": 54.7612,
+      "lng": 11.1489
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Piratgrillen",
+      "address": "Havn 1, Nakskov",
+      "neighbourhood": "Nakskov Harbour",
+      "cuisine": "Seafood/Grill",
+      "priceRange": "€€",
+      "description": "Casual harbourfront grill restaurant specializing in fresh seafood and grilled fish.",
+      "mustOrder": "Grilled Lobster Tail",
+      "lat": 54.763,
+      "lng": 11.136
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Restaurant Crossroads",
+      "address": "Søgade 23, Rødby",
+      "neighbourhood": "Rødby",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Modern casual restaurant offering international comfort food with Danish touches.",
+      "mustOrder": "Burger with Smoked Cheese and Crispy Bacon",
+      "lat": 54.6425,
+      "lng": 11.3581
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Sandvig Slot Herregård",
+      "address": "Sandvigvej 15, Sakskøbing",
+      "neighbourhood": "Sakskøbing",
+      "cuisine": "Danish/Seasonal",
+      "priceRange": "€€€",
+      "description": "Manor house restaurant serving refined seasonal Danish cuisine in an elegant country setting.",
+      "mustOrder": "Roasted Game with Root Vegetables",
+      "lat": 54.8347,
+      "lng": 11.2689
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Café Kalkbrænderiet",
+      "address": "Rådhuspladsen 8, Maribo",
+      "neighbourhood": "Maribo",
+      "cuisine": "Café/Danish",
+      "priceRange": "€",
+      "description": "Charming café in a historic building offering light lunches, pastries, and traditional Danish smørrebrød.",
+      "mustOrder": "Smørrebrød with Shrimp and Remoulade",
+      "lat": 54.7809,
+      "lng": 11.4269
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Restaurant Søgarden",
+      "address": "Søgade 5, Maribo",
+      "neighbourhood": "Maribo",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€",
+      "description": "Mediterranean restaurant with an emphasis on fresh vegetables and olive oil-based dishes.",
+      "mustOrder": "Sea Bass en Papillote with Herbs",
+      "lat": 54.7801,
+      "lng": 11.4261
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Kong Frederiksens Restaurant",
+      "address": "Torvet 12, Nakskov",
+      "neighbourhood": "Nakskov Town Centre",
+      "cuisine": "Danish/French",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant blending Danish and French culinary traditions in a historic town setting.",
+      "mustOrder": "Pan-Seared Scallops with Cauliflower Purée",
+      "lat": 54.7608,
+      "lng": 11.1501
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Præstekjøbenhavn",
+      "address": "Kirkestræde 10, Nakskov",
+      "neighbourhood": "Nakskov",
+      "cuisine": "Danish",
+      "priceRange": "€€",
+      "description": "Cozy neighbourhood restaurant with rustic Danish decor serving hearty traditional fare.",
+      "mustOrder": "Frikadeller (Danish Meatballs) with Pickled Beets",
+      "lat": 54.762,
+      "lng": 11.1478
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Restaurant Avisen",
+      "address": "Banegårdspladsen 5, Nakskov",
+      "neighbourhood": "Nakskov Station",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Modern brasserie near the train station offering contemporary dishes in a relaxed, stylish atmosphere.",
+      "mustOrder": "Chicken Schnitzel with Lemon and Capers",
+      "lat": 54.7614,
+      "lng": 11.147
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Spisehuset i Maribo",
+      "address": "Østergade 24, Maribo",
+      "neighbourhood": "Maribo",
+      "cuisine": "Danish/New Nordic",
+      "priceRange": "€€€",
+      "description": "Contemporary dining establishment celebrating New Nordic cuisine with local, seasonal ingredients.",
+      "mustOrder": "Venison with Juniper Berry Sauce",
+      "lat": 54.7815,
+      "lng": 11.4287
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Rasmus Kro",
+      "address": "Hovedgaden 45, Kragelund",
+      "neighbourhood": "Kragelund",
+      "cuisine": "Danish",
+      "priceRange": "€",
+      "description": "Traditional Danish country inn serving simple, wholesome home-cooked meals in a rustic setting.",
+      "mustOrder": "Pork Schnitzel with Red Cabbage",
+      "lat": 54.8159,
+      "lng": 11.5103
+    }
+  ]
+}

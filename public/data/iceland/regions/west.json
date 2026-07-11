@@ -1,0 +1,1456 @@
+{
+  "id": "west",
+  "name": "West",
+  "nameIt": "Vesturland",
+  "capital": "Borgarnes",
+  "lat": 64.48,
+  "lng": -21.85,
+  "emoji": "🌊",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 64.95,
+    "south": 64.15,
+    "east": -20.5,
+    "west": -23.5
+  },
+  "history": "West Iceland has been settled since the Viking age, with Norse explorers establishing farms and communities along its fjords and coastal areas. The region played a crucial role in Iceland's medieval period, serving as a center of political power and cultural development. During the harsh centuries of Danish rule and volcanic hardships, communities here demonstrated remarkable resilience, maintaining their traditions and literary heritage. The whaling and fishing industries became vital to the economy from the 17th century onward, shaping the region's character until modern times.",
+  "culturalNotes": "West Iceland is known for its intimate connection to Viking heritage and the sagas, with many settlements directly tied to the stories of Iceland's settlement era. The region maintains strong traditions of horsemanship, sheep farming, and small-scale fishing that reflect centuries of rural life. Locals take pride in their distinctive landscape of dramatic fjords, waterfalls, and mountains, which inspire a deep cultural appreciation for nature and self-reliance.",
+  "bestTimeToVisit": "Visit May to September for hiking and exploring fjords, though winter offers fewer tourists and dramatic scenery.",
+  "languageNotes": "Icelanders speak Icelandic, a language that has changed remarkably little since medieval times, and West Iceland's dialect preserves traditional pronunciation patterns. Useful phrases include \"Halló\" for hello and \"Takk\" for thank you, though English is widely spoken among younger residents and in tourist areas.",
+  "generatedAt": "2026-07-11T08:23:47.146Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "snafellsjokull",
+      "name": "Snæfellsjökull",
+      "nameIt": "Snæfellsjökull",
+      "lat": 64.8042,
+      "lng": -23.7756,
+      "type": "LANDMARK",
+      "description": "An iconic glacier-capped stratovolcano on the Snæfellsnes Peninsula that inspired Jules Verne's Journey to the Center of the Earth. The mountain dominates the landscape and offers rewarding hiking with panoramic views across the peninsula and into the Arctic.",
+      "imageQueries": [
+        "Snæfellsjökull glacier volcano",
+        "Snæfellsnes Peninsula mountain"
+      ],
+      "activities": [
+        {
+          "id": "snaf_1",
+          "text": "Summit hike to Snæfellsjökull peak",
+          "detail": "A challenging day hike to the 1,446-meter summit rewards climbers with views across the Snæfellsnes Peninsula and toward Greenland on clear days.",
+          "lat": 64.8068,
+          "lng": -23.7769
+        },
+        {
+          "id": "snaf_2",
+          "text": "Explore Snæfellsjökull National Park",
+          "detail": "Walk marked trails through diverse landscapes including lava fields, coastal cliffs, and glacier-fed streams within this protected area.",
+          "lat": 64.81,
+          "lng": -23.75
+        },
+        {
+          "id": "snaf_3",
+          "text": "Visit Kirkjufell and Kirkjufellsfoss waterfall",
+          "detail": "Photograph the iconic cone-shaped mountain and its cascading waterfall, located just east of Snæfellsjökull on the peninsula.",
+          "lat": 64.8814,
+          "lng": -23.3164
+        },
+        {
+          "id": "snaf_4",
+          "text": "Glacier hiking on Snæfellsjökull glacier",
+          "detail": "Join guided tours across the active glacier to experience crevasses, ice formations, and the volcano's frozen crown.",
+          "lat": 64.8068,
+          "lng": -23.7769
+        },
+        {
+          "id": "snaf_5",
+          "text": "Visit Arnarstapi fishing village",
+          "detail": "Explore this charming coastal settlement with basalt cliffs, sea caves, and traditional Icelandic turf-roofed houses.",
+          "lat": 64.8358,
+          "lng": -23.8136
+        },
+        {
+          "id": "snaf_6",
+          "text": "Walk Holmavík cave routes",
+          "detail": "Discover sea caves and natural formations along the peninsula's coastline near the village of Holmavík.",
+          "lat": 64.8347,
+          "lng": -23.8194
+        }
+      ],
+      "food": [
+        {
+          "id": "snaf_f1",
+          "text": "Fresh Arctic char from local rivers",
+          "detail": "Snæfellsnes Peninsula restaurants serve this delicate freshwater fish caught in glacial streams and prepared simply with local herbs."
+        },
+        {
+          "id": "snaf_f2",
+          "text": "Lamb stew (Kjötsúpa)",
+          "detail": "A traditional Icelandic comfort dish featuring slow-cooked lamb with root vegetables, commonly served in peninsula guesthouses."
+        },
+        {
+          "id": "snaf_f3",
+          "text": "Fresh seafood at Arnarstapi harbor",
+          "detail": "Local restaurants near the fishing villages offer daily catches of cod, halibut, and lobster prepared in Nordic style."
+        },
+        {
+          "id": "snaf_f4",
+          "text": "Rye bread baked in geothermal springs",
+          "detail": "A unique Icelandic specialty where bread dough is buried near hot springs; available at local bakeries and cafes on the peninsula."
+        },
+        {
+          "id": "snaf_f5",
+          "text": "Skyr yogurt with local berries",
+          "detail": "This creamy Icelandic dairy product is commonly topped with wild cloudberries and crowberries harvested from the peninsula's moorlands."
+        }
+      ],
+      "culture": [
+        {
+          "id": "snaf_c1",
+          "text": "Respect the mountain's literary significance",
+          "detail": "Locals take pride in Snæfellsjökull's inspiration for Jules Verne's classic novel; references to the story appear throughout the region."
+        },
+        {
+          "id": "snaf_c2",
+          "text": "Check weather conditions before hiking",
+          "detail": "The mountain is notorious for rapid weather changes; always consult local guides and forecasts even in summer, as conditions can shift within hours."
+        },
+        {
+          "id": "snaf_c3",
+          "text": "Support small family-run businesses",
+          "detail": "The peninsula's communities depend on tourism; eating at local restaurants, staying in guesthouses, and hiring local guides directly benefits residents."
+        },
+        {
+          "id": "snaf_c4",
+          "text": "Practice leave-no-trace ethics on lava fields",
+          "detail": "The volcanic landscape is fragile and protected; stay on marked paths, avoid removing moss or rocks, and respect signs marking restricted areas."
+        }
+      ]
+    },
+    {
+      "id": "stykkisholmur",
+      "name": "Stykkishólmur",
+      "nameIt": "Stykkishólmur",
+      "lat": 64.8633,
+      "lng": -22.7275,
+      "type": "TOWN",
+      "description": "A charming harbor town on the Snæfellsnes Peninsula known for its colorful houses, maritime heritage, and access to nearby bird cliffs and basalt formations. It serves as an excellent base for exploring the peninsula's natural attractions and features good restaurants and accommodations.",
+      "imageQueries": [
+        "Stykkishólmur harbor town Iceland",
+        "Stykkishólmur colorful houses"
+      ],
+      "activities": [
+        {
+          "id": "styk_1",
+          "text": "Stykkishólmur Harbor Walk",
+          "detail": "Stroll the picturesque harbor lined with colorful wooden houses and watch fishing boats, then explore the small marina shops and cafés.",
+          "lat": 64.8617,
+          "lng": -21.9347
+        },
+        {
+          "id": "styk_2",
+          "text": "Súgandisey Island Lighthouse",
+          "detail": "Visit the iconic red and white striped lighthouse on the small island just offshore, accessible by a short causeway with panoramic views of Breiðafjörður Bay.",
+          "lat": 64.8629,
+          "lng": -21.9363
+        },
+        {
+          "id": "styk_3",
+          "text": "Snæfellsjökull Glacier Views",
+          "detail": "Drive or hike to viewpoints on the Snæfellsnes Peninsula to see the iconic glacier-capped volcano, often visible from town on clear days.",
+          "lat": 64.8617,
+          "lng": -21.9347
+        },
+        {
+          "id": "styk_4",
+          "text": "Berserkjahraun Lava Field",
+          "detail": "Explore the dramatic black lava formations and moss-covered rocks on this otherworldly landscape about 15 minutes south of town.",
+          "lat": 64.82,
+          "lng": -21.88
+        },
+        {
+          "id": "styk_5",
+          "text": "Bird Watching at Álftanesi",
+          "detail": "Visit the nearby bird cliffs and rocky peninsulas to spot puffins, guillemots, and other seabirds, especially during summer breeding season.",
+          "lat": 64.845,
+          "lng": -21.96
+        },
+        {
+          "id": "styk_6",
+          "text": "Stykkishólmur Museum",
+          "detail": "Learn about the town's maritime heritage and local history in this small but engaging museum housed in a traditional Icelandic building.",
+          "lat": 64.8617,
+          "lng": -21.9347
+        }
+      ],
+      "food": [
+        {
+          "id": "styk_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Sample locally-caught arctic char prepared simply grilled or smoked, showcasing the pristine waters surrounding the Snæfellsnes Peninsula."
+        },
+        {
+          "id": "styk_f2",
+          "text": "Icelandic Fish Soup",
+          "detail": "Warm, creamy soup made with fresh local fish, potatoes, and root vegetables, a traditional comfort food in coastal Icelandic towns."
+        },
+        {
+          "id": "styk_f3",
+          "text": "Langoustine (Scampi)",
+          "detail": "Tender langoustines from Breiðafjörður Bay, often served simply grilled with lemon or in traditional Icelandic preparations."
+        },
+        {
+          "id": "styk_f4",
+          "text": "Rye Bread Baked in Geothermal Heat",
+          "detail": "Dense, slightly sweet Icelandic rye bread traditionally baked using the country's natural hot springs, available at local bakeries."
+        },
+        {
+          "id": "styk_f5",
+          "text": "Seafood Platters at Harbor Restaurants",
+          "detail": "Multi-course presentations featuring mussels, fish, and shellfish sourced fresh from the surrounding waters."
+        }
+      ],
+      "culture": [
+        {
+          "id": "styk_c1",
+          "text": "Weather Changes Rapidly",
+          "detail": "Pack layers and waterproof gear as Snæfellsnes Peninsula weather can shift dramatically within hours, even during summer."
+        },
+        {
+          "id": "styk_c2",
+          "text": "Respect Wildlife Distance",
+          "detail": "When viewing puffins and seabirds, maintain respectful distance and avoid sudden movements to prevent disturbing nesting birds and breeding colonies."
+        },
+        {
+          "id": "styk_c3",
+          "text": "Small Town Rhythms",
+          "detail": "Stykkishólmur is a working fishing community; shops may have limited hours outside summer, and Sunday is a quiet day for locals."
+        },
+        {
+          "id": "styk_c4",
+          "text": "Icelandic Hospitality and Names",
+          "detail": "Icelanders use first names in all contexts and are generally reserved but warm; locals appreciate genuine interest in their natural environment and heritage."
+        }
+      ]
+    },
+    {
+      "id": "kirkjufell",
+      "name": "Kirkjufell",
+      "nameIt": "Kirkjufell",
+      "lat": 64.8817,
+      "lng": -22.0437,
+      "type": "LANDMARK",
+      "description": "One of Iceland's most photographed mountains, this distinctive cone-shaped peak rises dramatically from the Snæfellsnes Peninsula with waterfalls cascading nearby. The relatively easy hike to the summit rewards visitors with stunning 360-degree views of the coastline and surrounding landscape.",
+      "imageQueries": [
+        "Kirkjufell mountain Iceland",
+        "Kirkjufell hiking cone peak"
+      ],
+      "activities": [
+        {
+          "id": "kirk_1",
+          "text": "Kirkjufell Summit Hike",
+          "detail": "A 2-3 hour round-trip trail ascending 463 meters with increasing steepness toward the peak, offering 360-degree views of Snæfellsnes Peninsula, coastline, and nearby Kirkjufellsfoss waterfall.",
+          "lat": 64.8847,
+          "lng": -22.0169
+        },
+        {
+          "id": "kirk_2",
+          "text": "Kirkjufellsfoss Waterfall Photography",
+          "detail": "A scenic 12-meter waterfall cascading near the base of Kirkjufell, best photographed in early morning or evening light with the mountain as a dramatic backdrop.",
+          "lat": 64.8855,
+          "lng": -22.0181
+        },
+        {
+          "id": "kirk_3",
+          "text": "Snæfellsnes Peninsula Loop Drive",
+          "detail": "A scenic 240-kilometer circular route around the peninsula visiting volcanic landscapes, black sand beaches, and coastal cliffs with Kirkjufell as a central landmark.",
+          "lat": 64.8847,
+          "lng": -22.0169
+        },
+        {
+          "id": "kirk_4",
+          "text": "Búðir Black Beach Exploration",
+          "detail": "A nearby black sand beach with distinctive basalt rock formations and abandoned turf-roofed church ruins, located approximately 15 kilometers west of Kirkjufell.",
+          "lat": 64.7467,
+          "lng": -22.3644
+        },
+        {
+          "id": "kirk_5",
+          "text": "Arnarstapi Cliff Walk",
+          "detail": "A scenic coastal trail through a fishing village with dramatic lava rock formations, sea caves, and panoramic Atlantic Ocean views, situated about 20 kilometers from Kirkjufell.",
+          "lat": 64.7608,
+          "lng": -22.3817
+        },
+        {
+          "id": "kirk_6",
+          "text": "Hellnar Sea Cave Discovery",
+          "detail": "A charming village with accessible sea caves carved into coastal cliffs where visitors can walk through dramatic rock formations and observe local birdlife.",
+          "lat": 64.7635,
+          "lng": -22.4033
+        },
+        {
+          "id": "kirk_7",
+          "text": "Snæfellsjökull Glacier Viewing",
+          "detail": "Views of the iconic glacier-capped volcano at the peninsula's western tip, approximately 50 kilometers away, famous from Jules Verne's 'Journey to the Center of the Earth.'",
+          "lat": 64.8053,
+          "lng": -22.8131
+        }
+      ],
+      "food": [
+        {
+          "id": "kirk_f1",
+          "text": "Fresh Icelandic Arctic Char",
+          "detail": "Local restaurants in nearby Grundarfjörður serve this delicate freshwater fish caught from pristine peninsula rivers, typically prepared simply with Icelandic butter and seasonal vegetables."
+        },
+        {
+          "id": "kirk_f2",
+          "text": "Icelandic Lamb Stew (Kjötsúpa)",
+          "detail": "A hearty traditional dish of slow-cooked lamb with root vegetables and herbs, warming and nourishing after a day of hiking around the peninsula."
+        },
+        {
+          "id": "kirk_f3",
+          "text": "Fresh Seafood at Grundarfjörður Harbor",
+          "detail": "The nearby fishing village offers daily catches of lobster, cod, and haddock prepared at local restaurants with minimal seasoning to highlight the ingredient quality."
+        },
+        {
+          "id": "kirk_f4",
+          "text": "Icelandic Rye Bread (Rúgbrauð)",
+          "detail": "Dense, slightly sweet dark bread traditionally baked using geothermal heat, commonly served with local butter and paired with Icelandic fish dishes at peninsula restaurants."
+        },
+        {
+          "id": "kirk_f5",
+          "text": "Skyr Icelandic Yogurt",
+          "detail": "A creamy, protein-rich dairy product available at all local shops and restaurants, often served with berries and used as a base for Icelandic desserts."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kirk_c1",
+          "text": "Respect Mountain and Weather Safety",
+          "detail": "Kirkjufell's exposed location makes weather change rapidly; always check forecasts before hiking and turn back if conditions deteriorate, as locals prioritize safety over summit attempts."
+        },
+        {
+          "id": "kirk_c2",
+          "text": "Leave No Trace Hiking Practice",
+          "detail": "Icelanders are deeply protective of their natural landscape; stay on marked trails, pack out all waste, and avoid disturbing moss and lichen that take decades to regenerate."
+        },
+        {
+          "id": "kirk_c3",
+          "text": "Photography Etiquette at Popular Spots",
+          "detail": "While Kirkjufell is heavily photographed, respect other visitors' experience and avoid trespassing on private land surrounding the mountain, particularly near nearby farms and houses."
+        },
+        {
+          "id": "kirk_c4",
+          "text": "Support Local Businesses Year-Round",
+          "detail": "Many small peninsula villages rely on tourism; purchasing from local shops, restaurants, and guides helps sustain communities that depend on respectful, sustainable visitor engagement."
+        }
+      ]
+    },
+    {
+      "id": "borgarnes",
+      "name": "Borgarnes",
+      "nameIt": "Borgarnes",
+      "lat": 64.4833,
+      "lng": -21.9167,
+      "type": "TOWN",
+      "description": "A strategic gateway town between Reykjavik and the Golden Circle, offering access to nearby waterfall Borgarfoss and turf-roofed historical sites. The town is notably less touristy than Reykjavik while maintaining good facilities and serving as an ideal jumping-off point for West Iceland exploration.",
+      "imageQueries": [
+        "Borgarnes Iceland town",
+        "Borgarnes waterfall"
+      ],
+      "activities": [
+        {
+          "id": "borg_1",
+          "text": "Borgarfoss Waterfall",
+          "detail": "A modest but picturesque waterfall located just outside town, easily accessible by a short walk and offering a gentle introduction to West Iceland's water features.",
+          "lat": 64.4833,
+          "lng": -21.9333
+        },
+        {
+          "id": "borg_2",
+          "text": "Deildartunguhver Hot Spring",
+          "detail": "One of Iceland's most powerful hot springs with steaming water flowing at 180 liters per second, located about 30 minutes from Borgarnes and surrounded by geothermal activity.",
+          "lat": 64.6308,
+          "lng": -21.9158
+        },
+        {
+          "id": "borg_3",
+          "text": "Snorrastaðir Turf House",
+          "detail": "A restored traditional turf-roofed Icelandic dwelling offering insight into rural life and architecture from centuries past, with knowledgeable local guides available.",
+          "lat": 64.5528,
+          "lng": -21.8722
+        },
+        {
+          "id": "borg_4",
+          "text": "Borgarnes Settlement Centre",
+          "detail": "A museum documenting the Viking settlement of Iceland and the town's own 1000-year history, providing context for the region's cultural significance.",
+          "lat": 64.4847,
+          "lng": -21.9287
+        },
+        {
+          "id": "borg_5",
+          "text": "Reykholt Historical Site",
+          "detail": "An important medieval settlement 30 minutes away where Iceland's most famous saga writer Snorri Sturluson lived, featuring a hot spring pool and historical ruins.",
+          "lat": 64.6667,
+          "lng": -21.8333
+        },
+        {
+          "id": "borg_6",
+          "text": "Hraunfossar and Barnafoss Waterfalls",
+          "detail": "A stunning pair of cascading waterfalls about 40 minutes from Borgarnes where water emerges from lava fields and drops into a canyon below.",
+          "lat": 64.6758,
+          "lng": -21.9025
+        }
+      ],
+      "food": [
+        {
+          "id": "borg_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Local restaurants serve this delicate freshwater fish caught from nearby rivers, typically prepared simply with butter and Icelandic herbs to highlight its subtle flavor."
+        },
+        {
+          "id": "borg_f2",
+          "text": "Icelandic Lamb Stew",
+          "detail": "A hearty traditional dish of slow-cooked lamb with root vegetables and spices, perfect for warming up after exploring the cold Icelandic landscape."
+        },
+        {
+          "id": "borg_f3",
+          "text": "Rye Bread Baked in Hot Spring Water",
+          "detail": "A unique Icelandic specialty where bread dough is buried near geothermal vents and slow-cooked overnight, creating a dense and slightly sweet loaf found in local bakeries."
+        },
+        {
+          "id": "borg_f4",
+          "text": "Seafood Soup",
+          "detail": "A creamy West Icelandic preparation featuring locally caught fish, prawns, and mussels, reflecting the region's access to fresh marine ingredients."
+        },
+        {
+          "id": "borg_f5",
+          "text": "Local Dairy Products",
+          "detail": "Borgarnes and surrounding areas are known for producing Icelandic dairy including rich skyr yogurt and cheeses, available at local shops and farmers' markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "borg_c1",
+          "text": "Respect Geothermal Features",
+          "detail": "Hot springs and geothermal areas around Borgarnes are sacred to locals; always stay on marked paths and never enter restricted zones, as these areas are both culturally important and potentially dangerous."
+        },
+        {
+          "id": "borg_c2",
+          "text": "Embrace Unpredictable Weather",
+          "detail": "Icelandic weather changes rapidly even in summer, so locals dress in layers and are prepared to adjust plans accordingly—bring waterproof gear regardless of forecasts."
+        },
+        {
+          "id": "borg_c3",
+          "text": "Support Local Over Chain Businesses",
+          "detail": "Borgarnes residents appreciate visitors who eat at family-run restaurants and stay in locally-owned guesthouses rather than large hotel chains, keeping tourism revenue in the community."
+        },
+        {
+          "id": "borg_c4",
+          "text": "Learn Basic Icelandic Greetings",
+          "detail": "While English is widely spoken, locals appreciate genuine attempts to use Icelandic phrases like 'Halló' and 'Takk' as a sign of respect for their language and culture."
+        }
+      ]
+    },
+    {
+      "id": "snaefellsnes",
+      "name": "Snæfellsnes Peninsula",
+      "nameIt": "Snæfellsnes",
+      "lat": 64.9167,
+      "lng": -22.9167,
+      "type": "NATURE",
+      "description": "A dramatic 50-kilometer peninsula often called Iceland in miniature, featuring black sand beaches, volcanic landscapes, basalt columns, and remote fishing villages. The scenic drive around the peninsula offers some of Iceland's most varied and photogenic natural attractions in one compact region.",
+      "imageQueries": [
+        "Snæfellsnes Peninsula Iceland drive",
+        "Snæfellsnes black sand beaches"
+      ],
+      "activities": [
+        {
+          "id": "snae_1",
+          "text": "Snæfellsjökull Glacier Hike",
+          "detail": "Climb to the 1,446-meter summit of Iceland's most famous glacier-capped volcano, which inspired Jules Verne's Journey to the Center of the Earth.",
+          "lat": 64.8044,
+          "lng": -23.7742
+        },
+        {
+          "id": "snae_2",
+          "text": "Kirkjufell Mountain Photography",
+          "detail": "Visit Iceland's most photographed cone-shaped mountain, a 463-meter peak that rises dramatically from the landscape near the village of Grundarfjörður.",
+          "lat": 64.8862,
+          "lng": -23.3108
+        },
+        {
+          "id": "snae_3",
+          "text": "Londrangar Basalt Cliffs",
+          "detail": "Explore these striking twin sea stacks and dramatic basalt formations on the peninsula's western coast, popular for birdwatching and dramatic photography.",
+          "lat": 64.8239,
+          "lng": -23.8789
+        },
+        {
+          "id": "snae_4",
+          "text": "Black Sand Beach at Djúpalónssandur",
+          "detail": "Walk across a remote black volcanic sand beach scattered with wreckage from a 1948 British trawler and historic stone weights used to test fishermen's strength.",
+          "lat": 64.8397,
+          "lng": -23.8192
+        },
+        {
+          "id": "snae_5",
+          "text": "Stykkishólmur Harbor Village Exploration",
+          "detail": "Wander this charming fishing town with colorful Icelandic houses, sample local seafood, and visit the modern Library building or take a boat tour to Breiðafjörður islands.",
+          "lat": 64.8681,
+          "lng": -23.7299
+        },
+        {
+          "id": "snae_6",
+          "text": "Arnarstapi Coastal Cliffs Walk",
+          "detail": "Hike along dramatic coastal cliffs with basalt formations, sea caves, and views of Snæfellsjökull glacier from this small seaside settlement.",
+          "lat": 64.8389,
+          "lng": -23.8067
+        },
+        {
+          "id": "snae_7",
+          "text": "Hellnar Cave and Beach",
+          "detail": "Visit this quiet coastal village with natural hot springs, a pebble beach, and access to sea caves formed by ancient lava flows.",
+          "lat": 64.8443,
+          "lng": -23.8289
+        }
+      ],
+      "food": [
+        {
+          "id": "snae_f1",
+          "text": "Fresh Arctic Char from Stykkishólmur",
+          "detail": "Sample locally-caught Arctic char, a delicate freshwater fish that thrives in Iceland's cold waters and is a specialty in peninsula restaurants."
+        },
+        {
+          "id": "snae_f2",
+          "text": "Langoustine (Scampi) Soup",
+          "detail": "Try creamy soup made from langoustines caught in Breiðafjörður bay, a local delicacy served in Stykkishólmur and other coastal restaurants."
+        },
+        {
+          "id": "snae_f3",
+          "text": "Dried Fish (Plokkfiskur)",
+          "detail": "Experience this traditional Icelandic dish of dried haddock mixed with potatoes and butter, a fisherman's staple throughout the peninsula's villages."
+        },
+        {
+          "id": "snae_f4",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Enjoy slow-cooked lamb with root vegetables, a hearty local favorite prepared in many peninsula guesthouses and small restaurants."
+        },
+        {
+          "id": "snae_f5",
+          "text": "Fresh Seafood at Stykkishólmur Harbor",
+          "detail": "Dine directly at harbor-front restaurants where the daily catch—including cod, halibut, and mussels—arrives fresh from local fishing boats."
+        }
+      ],
+      "culture": [
+        {
+          "id": "snae_c1",
+          "text": "Respect Protected Bird Nesting Sites",
+          "detail": "Stay on marked paths and do not approach cliff edges during breeding season (May–August) as puffins, kittiwakes, and other seabirds nest along the peninsula's coastline."
+        },
+        {
+          "id": "snae_c2",
+          "text": "Drive Carefully on Narrow Roads",
+          "detail": "The scenic ring road around Snæfellsnes is narrow, winding, and subject to sudden weather changes; drive slowly, use headlights, and pull over to let other vehicles pass."
+        },
+        {
+          "id": "snae_c3",
+          "text": "Small Villages Operate Limited Hours",
+          "detail": "Gas stations, shops, and restaurants in remote settlements like Hellnar and Arnarstapi have restricted opening hours; plan fuel and meal stops ahead of time."
+        },
+        {
+          "id": "snae_c4",
+          "text": "Embrace Icelandic Sauna and Hot Spring Culture",
+          "detail": "Visit local geothermal pools and hot springs (like those near Hellnar) where locals bathe year-round; swimming is a cherished part of Icelandic life and a warm refuge in cold weather."
+        }
+      ]
+    },
+    {
+      "id": "grundarfoss",
+      "name": "Grundarfoss",
+      "nameIt": "Grundarfoss",
+      "lat": 64.8908,
+      "lng": -21.8408,
+      "type": "LANDMARK",
+      "description": "A powerful two-tiered waterfall in a remote gorge near Grundarfjörður, offering a dramatic sight with its lower cascade tumbling into a scenic valley. The relatively short hike through lush terrain provides a quieter waterfall experience compared to Iceland's more famous falls.",
+      "imageQueries": [
+        "Grundarfoss waterfall Iceland",
+        "Grundarfoss two-tiered cascade"
+      ],
+      "activities": [
+        {
+          "id": "grun_1",
+          "text": "Hike to Grundarfoss Waterfall",
+          "detail": "Trek through lush valley terrain to reach the dramatic two-tiered waterfall cascading into a remote gorge near Grundarfjörður.",
+          "lat": 64.8608,
+          "lng": -21.9289
+        },
+        {
+          "id": "grun_2",
+          "text": "Photograph the Lower Cascade",
+          "detail": "Position yourself at the base viewpoint to capture the thundering lower tier as it plunges into the scenic valley below.",
+          "lat": 64.8615,
+          "lng": -21.9295
+        },
+        {
+          "id": "grun_3",
+          "text": "Explore Grundarfjörður Village",
+          "detail": "Visit the charming fishing village nearby to see traditional Icelandic architecture and access local services and accommodation.",
+          "lat": 64.8544,
+          "lng": -21.9344
+        },
+        {
+          "id": "grun_4",
+          "text": "Bird Watching in the Gorge",
+          "detail": "Observe arctic terns, white-tailed eagles, and other seabirds that nest in the cliffs surrounding the waterfall area.",
+          "lat": 64.861,
+          "lng": -21.929
+        },
+        {
+          "id": "grun_5",
+          "text": "Walk the Snæfellsnes Peninsula Loop",
+          "detail": "Extend your visit by exploring nearby Snæfellsnes Peninsula attractions including Kirkjufell mountain and black sand beaches.",
+          "lat": 64.865,
+          "lng": -21.92
+        }
+      ],
+      "food": [
+        {
+          "id": "grun_f1",
+          "text": "Fresh Arctic Char from Local Rivers",
+          "detail": "Sample locally caught arctic char, a prized freshwater fish prepared simply grilled or smoked at Grundarfjörður restaurants."
+        },
+        {
+          "id": "grun_f2",
+          "text": "Icelandic Lamb Stew (Kjötsúpa)",
+          "detail": "Warm yourself with this traditional slow-cooked lamb and root vegetable stew, a staple at local dining establishments."
+        },
+        {
+          "id": "grun_f3",
+          "text": "Fresh Fish of the Day",
+          "detail": "Order the daily catch at harbourside restaurants in Grundarfjörður, typically featuring cod, haddock, or pollock."
+        },
+        {
+          "id": "grun_f4",
+          "text": "Rye Bread Baked in Hot Springs",
+          "detail": "Try authentic Icelandic geothermal rye bread (hverabrauð), sometimes available at local bakeries and cafés in the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "grun_c1",
+          "text": "Respect the Weather and Season",
+          "detail": "Visit during summer months (June-August) for safe hiking conditions; winter access to Grundarfoss is dangerous due to ice and snow."
+        },
+        {
+          "id": "grun_c2",
+          "text": "Leave No Trace Hiking",
+          "detail": "Stay on marked paths to protect the delicate Icelandic moss and vegetation, and pack out all waste from this remote location."
+        },
+        {
+          "id": "grun_c3",
+          "text": "Icelandic Hospitality Customs",
+          "detail": "Greet locals with a firm handshake and respectful nod; Icelanders value directness and self-reliance, so minimal small talk is appreciated."
+        },
+        {
+          "id": "grun_c4",
+          "text": "Bridge the Remote Gap",
+          "detail": "Grundarfoss sits in a sparsely populated area, so fill up fuel and supplies in larger towns like Borgarnes before heading to the Snæfellsnes region."
+        }
+      ]
+    },
+    {
+      "id": "hellnar",
+      "name": "Hellnar",
+      "nameIt": "Hellnar",
+      "lat": 64.9344,
+      "lng": -23.2031,
+      "type": "VILLAGE",
+      "description": "A tiny coastal village marking the start of an excellent coastal hiking trail with dramatic cliffs, sea arches, and birdwatching opportunities overlooking the Arctic. The remote location and stunning seaside cliffs make it an ideal destination for those seeking solitude and natural beauty.",
+      "imageQueries": [
+        "Hellnar Iceland coastal cliffs",
+        "Hellnar arch rock formation"
+      ],
+      "activities": [
+        {
+          "id": "hell_1",
+          "text": "Hellnar to Stykkishólmur Coastal Trail",
+          "detail": "Hike the dramatic 10 km coastal path featuring sea cliffs, natural rock arches, and views of basalt formations along the Snæfellsnes Peninsula.",
+          "lat": 64.8617,
+          "lng": -23.8733
+        },
+        {
+          "id": "hell_2",
+          "text": "Birdwatching at Sea Cliffs",
+          "detail": "Observe Arctic seabirds including puffins, razorbills, and guillemots nesting on the towering cliffs during summer months.",
+          "lat": 64.8617,
+          "lng": -23.8733
+        },
+        {
+          "id": "hell_3",
+          "text": "Explore Hellnar Settlement Ruins",
+          "detail": "Discover the remains of the historic fishing village with old stone foundations and a small turf-roofed church among coastal grasslands.",
+          "lat": 64.8625,
+          "lng": -23.872
+        },
+        {
+          "id": "hell_4",
+          "text": "Sea Arch Photography at Gatklettur",
+          "detail": "Visit the distinctive natural rock arch formation rising from the sea, accessible via short walks from Hellnar and a favorite subject for photographers.",
+          "lat": 64.864,
+          "lng": -23.868
+        },
+        {
+          "id": "hell_5",
+          "text": "Sunset Viewing at Cliffs",
+          "detail": "Experience the Arctic summer light lingering over the Atlantic Ocean from the dramatic clifftop vantage points surrounding the village.",
+          "lat": 64.8617,
+          "lng": -23.8733
+        },
+        {
+          "id": "hell_6",
+          "text": "Tide Pool Exploration",
+          "detail": "Search the rocky shores and shallow pools at low tide for starfish, sea urchins, and other Arctic marine life.",
+          "lat": 64.862,
+          "lng": -23.875
+        }
+      ],
+      "food": [
+        {
+          "id": "hell_f1",
+          "text": "Fresh Icelandic Arctic Char",
+          "detail": "Locally caught from nearby streams and rivers, typically prepared simply grilled or pan-fried to highlight the delicate flavor of this cold-water fish."
+        },
+        {
+          "id": "hell_f2",
+          "text": "Icelandic Lamb Stew",
+          "detail": "A traditional slow-cooked dish combining locally-raised lamb with root vegetables and herbs, warming and hearty after coastal hikes."
+        },
+        {
+          "id": "hell_f3",
+          "text": "Sea Urchin (Uni) Roe",
+          "detail": "A delicacy harvested from Arctic waters, eaten fresh or served on traditional Icelandic flatbread with local butter and sea salt."
+        },
+        {
+          "id": "hell_f4",
+          "text": "Fresh-caught Atlantic Cod",
+          "detail": "The historic protein of Icelandic fishermen, often served with butter, lemon, and potatoes at local guesthouses and farm restaurants."
+        },
+        {
+          "id": "hell_f5",
+          "text": "Icelandic Rye Bread",
+          "detail": "Dense, slightly sweet bread traditionally cooked using geothermal heat, served warm with local cheese and cured meats."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hell_c1",
+          "text": "Come Prepared for Extreme Weather",
+          "detail": "Winds can be fierce and weather changes rapidly in this remote location; bring layers, waterproof gear, and check conditions before hiking."
+        },
+        {
+          "id": "hell_c2",
+          "text": "Respect Nesting Bird Seasons",
+          "detail": "During breeding season (May-August), maintain distance from cliff edges and nesting areas to avoid disturbing Arctic bird colonies."
+        },
+        {
+          "id": "hell_c3",
+          "text": "Limited Services Require Planning",
+          "detail": "Hellnar has no shops or restaurants; bring supplies, water, and food from nearby towns like Stykkishólmur or Grundarfjörður."
+        },
+        {
+          "id": "hell_c4",
+          "text": "Leave No Trace Ethics",
+          "detail": "This pristine wilderness area expects visitors to carry out all waste and stay on marked trails to preserve the fragile Arctic landscape."
+        }
+      ]
+    },
+    {
+      "id": "arnarstapi",
+      "name": "Arnastapi",
+      "nameIt": "Arnarstapi",
+      "lat": 64.9308,
+      "lng": -23.1897,
+      "type": "VILLAGE",
+      "description": "A scenic coastal hamlet featuring a striking natural arch formation and hiking trails along dramatic cliffsides teeming with seabirds and nesting puffins. The village is connected to Hellnar by one of Iceland's most scenic coastal walks, passing through volcanic lava formations.",
+      "imageQueries": [
+        "Arnarstapi arch Iceland",
+        "Arnarstapi puffins cliffs"
+      ],
+      "activities": [
+        {
+          "id": "arna_1",
+          "text": "Arnastapi Natural Arch Exploration",
+          "detail": "Walk to the dramatic basalt arch formation rising from the sea, the village's most iconic landmark accessible via a short trail from the harbor.",
+          "lat": 64.8756,
+          "lng": -24.0789
+        },
+        {
+          "id": "arna_2",
+          "text": "Puffin Watching",
+          "detail": "Observe nesting Atlantic puffins on the cliffsides during breeding season (May to August) from designated viewing areas along the coastal paths.",
+          "lat": 64.8756,
+          "lng": -24.0789
+        },
+        {
+          "id": "arna_3",
+          "text": "Hellnar Coastal Walk",
+          "detail": "Hike the scenic 4km trail connecting Arnastapi to the neighboring hamlet of Hellnar, passing through lava formations and offering seabird viewpoints.",
+          "lat": 64.8756,
+          "lng": -24.0789
+        },
+        {
+          "id": "arna_4",
+          "text": "Coastal Cliff Hiking",
+          "detail": "Traverse the dramatic volcanic cliffsides with panoramic views of the Snæfellsnes Peninsula coastline and access to sea caves and rock formations.",
+          "lat": 64.8756,
+          "lng": -24.0789
+        },
+        {
+          "id": "arna_5",
+          "text": "Bird Photography",
+          "detail": "Capture images of razorbills, guillemots, and other seabirds that nest abundantly on the cliffs surrounding the village."
+        },
+        {
+          "id": "arna_6",
+          "text": "Lava Field Exploration",
+          "detail": "Walk through the unique Snæfellsjökull lava landscape with moss-covered rocks and volcanic formations that characterize the Snæfellsnes geography."
+        }
+      ],
+      "food": [
+        {
+          "id": "arna_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Sample locally caught Arctic char, a delicate freshwater fish often prepared simply grilled or smoked at small local eateries."
+        },
+        {
+          "id": "arna_f2",
+          "text": "Icelandic Lamb",
+          "detail": "Try slow-roasted or stewed lamb dishes using meat from sheep grazing the surrounding peninsula pastures."
+        },
+        {
+          "id": "arna_f3",
+          "text": "Seafood Soup",
+          "detail": "Enjoy warming fish or shellfish soups made with locally caught ingredients, typical comfort food in coastal Icelandic villages."
+        },
+        {
+          "id": "arna_f4",
+          "text": "Rye Bread from Hot Springs",
+          "detail": "Experience traditionally baked rye bread using geothermal heat from nearby hot springs, a regional specialty of the Snæfellsnes area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arna_c1",
+          "text": "Respect Puffin Nesting Areas",
+          "detail": "Stay on marked trails and maintain distance from nesting birds during breeding season, as disturbing them can cause colony abandonment."
+        },
+        {
+          "id": "arna_c2",
+          "text": "Weather Preparedness is Essential",
+          "detail": "Pack waterproof gear and warm layers year-round, as Icelandic coastal weather changes rapidly and conditions can become hazardous quickly."
+        },
+        {
+          "id": "arna_c3",
+          "text": "Small Village Logistics",
+          "detail": "Arnastapi has minimal services and no ATMs; purchase supplies in larger towns like Stykkishólmur beforehand and bring cash for any local purchases."
+        },
+        {
+          "id": "arna_c4",
+          "text": "Leave No Trace Principle",
+          "detail": "Remove all litter and stay on established paths to preserve the pristine volcanic landscape and protect fragile Icelandic ecosystems."
+        }
+      ]
+    },
+    {
+      "id": "grundarfjordur",
+      "name": "Grundarfjörður",
+      "nameIt": "Grundarfjörður",
+      "lat": 64.8578,
+      "lng": -21.9319,
+      "type": "TOWN",
+      "description": "A working fishing town on the north shore of Snæfellsnes known for its authentic Icelandic character and proximity to dramatic coastal formations and hiking. The town offers a less touristed experience while providing access to some of the peninsula's finest natural attractions.",
+      "imageQueries": [
+        "Grundarfjörður Iceland fishing town",
+        "Grundarfjörður Snæfellsnes"
+      ],
+      "activities": [
+        {
+          "id": "grun_1",
+          "text": "Kirkjufell Hike",
+          "detail": "Climb Iceland's most photographed mountain, a 463-meter cone-shaped peak with panoramic views of Grundarfjörður and Snæfellsnes peninsula.",
+          "lat": 64.8808,
+          "lng": -22.0447
+        },
+        {
+          "id": "grun_2",
+          "text": "Grundarfjörður Harbor Walk",
+          "detail": "Stroll the working fishing harbor to observe traditional Icelandic fishing culture, colorful boats, and local fishermen at work.",
+          "lat": 64.8788,
+          "lng": -22.2423
+        },
+        {
+          "id": "grun_3",
+          "text": "Ólafsvík Hot Springs",
+          "detail": "Soak in geothermal hot springs in nearby Ólafsvík, a 15-minute drive south offering naturally heated pools with mountain views.",
+          "lat": 64.8878,
+          "lng": -22.0717
+        },
+        {
+          "id": "grun_4",
+          "text": "Stykkishólmur Day Trip",
+          "detail": "Visit the neighboring artist village 20 minutes away known for colorful houses, galleries, and the Stykkishólmur harbor.",
+          "lat": 64.8639,
+          "lng": -22.7383
+        },
+        {
+          "id": "grun_5",
+          "text": "Snæfellsjökull National Park Exploration",
+          "detail": "Explore the park's lava fields, coastal cliffs, and the legendary Snæfellsjökull glacier visible from town on clear days.",
+          "lat": 64.8045,
+          "lng": -23.7725
+        },
+        {
+          "id": "grun_6",
+          "text": "Arnarstapi Sea Cliffs",
+          "detail": "Walk among dramatic basalt columns and sea caves at this coastal formation 20 minutes south, rich with birdlife and geological interest.",
+          "lat": 64.7583,
+          "lng": -23.8167
+        }
+      ],
+      "food": [
+        {
+          "id": "grun_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Sample locally caught arctic char prepared simply grilled or smoked, a staple of Grundarfjörður's fishing tradition served at local restaurants."
+        },
+        {
+          "id": "grun_f2",
+          "text": "Plokkfiskur",
+          "detail": "Try this traditional Icelandic fish stew made from fresh local catch, potatoes, and onions in a creamy sauce, common in working fishing towns."
+        },
+        {
+          "id": "grun_f3",
+          "text": "Langoustine (Humar)",
+          "detail": "Seek out fresh langoustine from Grundarfjörður's waters, often simply prepared with butter or in seafood platters at harbor restaurants."
+        },
+        {
+          "id": "grun_f4",
+          "text": "Icelandic Rye Bread",
+          "detail": "Enjoy traditional rúgbrauð, a dense dark rye bread sometimes baked in geothermal springs, available at local bakeries and cafés."
+        },
+        {
+          "id": "grun_f5",
+          "text": "Fresh Fish of the Day",
+          "detail": "Ask locals for the daily catch at Grundarfjörður's small restaurants, which changes seasonally based on what fishermen bring in that morning."
+        }
+      ],
+      "culture": [
+        {
+          "id": "grun_c1",
+          "text": "Respect Fishing Culture",
+          "detail": "The town's economy centers on fishing; be mindful when photographing boats or harbor activity and respect working areas as active fishing zones."
+        },
+        {
+          "id": "grun_c2",
+          "text": "Unpredictable Weather",
+          "detail": "Snæfellsnes weather changes rapidly; bring waterproof layers and check conditions before hiking even if forecast seems clear in town."
+        },
+        {
+          "id": "grun_c3",
+          "text": "Small-Town Pace",
+          "detail": "Grundarfjörður is a genuine working town, not a tourist resort—shops and restaurants have limited hours, so plan accordingly and embrace the slower rhythm."
+        },
+        {
+          "id": "grun_c4",
+          "text": "Kirkjufell Sunrise Rush",
+          "detail": "The mountain is busiest at sunrise; hike early or late afternoon for a more authentic experience and to avoid crowds."
+        }
+      ]
+    },
+    {
+      "id": "olafsvik",
+      "name": "Ólafsvík",
+      "nameIt": "Ólafsvík",
+      "lat": 64.8847,
+      "lng": -22.2622,
+      "type": "TOWN",
+      "description": "Iceland's oldest trading port, this charming town on the Snæfellsnes Peninsula retains maritime heritage and serves as a gateway to the peninsula's most dramatic coastal scenery. Its historic character and location make it an excellent base for exploration with good local amenities.",
+      "imageQueries": [
+        "Ólafsvík Iceland harbor",
+        "Ólafsvík historic fishing town"
+      ],
+      "activities": [
+        {
+          "id": "olaf_1",
+          "text": "Snæfellsjökull National Park exploration",
+          "detail": "Hike to Iceland's iconic glacier-capped volcano on the peninsula's western tip, accessible via well-marked trails from Ólafsvík.",
+          "lat": 64.8847,
+          "lng": -23.7731
+        },
+        {
+          "id": "olaf_2",
+          "text": "Ólafsvík Harbor walk",
+          "detail": "Stroll the historic working fishing harbor to observe traditional boats and maritime activity that has defined the town since medieval times.",
+          "lat": 64.8945,
+          "lng": -23.7234
+        },
+        {
+          "id": "olaf_3",
+          "text": "Stykkishólmur ferry to Flatey Island",
+          "detail": "Take a scenic boat journey from nearby Stykkishólmur to explore the car-free island and its puffin colonies during summer months.",
+          "lat": 64.9167,
+          "lng": -23.3333
+        },
+        {
+          "id": "olaf_4",
+          "text": "Kirkjufell mountain hike",
+          "detail": "Climb to the iconic cone-shaped peak near Grundarfjörður for panoramic views of the peninsula's dramatic coastline and valleys.",
+          "lat": 64.884,
+          "lng": -23.3083
+        },
+        {
+          "id": "olaf_5",
+          "text": "Búdir black sand beach and church",
+          "detail": "Visit the striking black sand beach near the historic turf-roofed Búdir church, one of Iceland's most photographed coastal scenes.",
+          "lat": 64.8453,
+          "lng": -23.8713
+        },
+        {
+          "id": "olaf_6",
+          "text": "Rauðfeldsgjá gorge waterfall",
+          "detail": "Walk through a narrow rocky gorge to reach a hidden waterfall cascading directly into the sea on the southern coast.",
+          "lat": 64.7533,
+          "lng": -23.8067
+        }
+      ],
+      "food": [
+        {
+          "id": "olaf_f1",
+          "text": "Fresh Arctic char",
+          "detail": "This delicate white fish from pristine Icelandic rivers is a local specialty, typically prepared simply grilled or pan-fried to highlight its subtle flavor."
+        },
+        {
+          "id": "olaf_f2",
+          "text": "Plokkfiskur",
+          "detail": "A traditional Icelandic fish stew combining fresh local catch with potatoes and onions in a creamy broth, served in harbor-side restaurants."
+        },
+        {
+          "id": "olaf_f3",
+          "text": "Langoustine (Nephrops)",
+          "detail": "These Nordic scampi are landed fresh at Ólafsvík's fishing port and prepared grilled or in seafood soups by local chefs."
+        },
+        {
+          "id": "olaf_f4",
+          "text": "Rye bread cooked in geothermal springs",
+          "detail": "Dense, slightly sweet traditional Icelandic bread baked using natural steam from hot springs, sold at local bakeries and markets."
+        },
+        {
+          "id": "olaf_f5",
+          "text": "Fresh seafood soup",
+          "detail": "Hearty broth featuring the day's catch from local boats, combined with seasonal vegetables and served in cafés overlooking the harbor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "olaf_c1",
+          "text": "Respect fishing traditions",
+          "detail": "The town's identity is deeply rooted in its fishing heritage dating to the Middle Ages; observe the working harbor respectfully and support local seafood businesses."
+        },
+        {
+          "id": "olaf_c2",
+          "text": "Plan around weather windows",
+          "detail": "West Iceland's dramatic coastal weather can change rapidly, so book activities flexibly and always check forecasts before heading to exposed areas."
+        },
+        {
+          "id": "olaf_c3",
+          "text": "Visit during summer for puffin season",
+          "detail": "Late May through August offers the best chance to see puffin colonies on nearby cliffs and islands, when local tour operators run specialized trips."
+        },
+        {
+          "id": "olaf_c4",
+          "text": "Learn basic Icelandic geography names",
+          "detail": "Understanding that 'jökull' means glacier and 'fell' means mountain will enhance navigation and conversations with locals about the dramatic landscape."
+        }
+      ]
+    },
+    {
+      "id": "raudisandur",
+      "name": "Rauðisandur",
+      "nameIt": "Rauðisandur",
+      "lat": 64.8817,
+      "lng": -24.5133,
+      "type": "COASTAL",
+      "description": "A stunning remote beach with distinctive red sand stretching for kilometers beneath towering cliffs on the Snæfellsnes Peninsula's western tip. The beach's isolation, dramatic setting, and unique red coloration make it one of Iceland's most ethereal and photogenic coastal locations.",
+      "imageQueries": [
+        "Rauðisandur red sand beach Iceland",
+        "Rauðisandur red beach cliffs"
+      ],
+      "activities": [
+        {
+          "id": "raud_1",
+          "text": "Red Sand Photography",
+          "detail": "Capture the beach's rust-colored sand against grey cliffs and turquoise waters, especially during golden hour when light transforms the landscape."
+        },
+        {
+          "id": "raud_2",
+          "text": "Coastal Hiking",
+          "detail": "Trek along the cliff-top paths above Rauðisandur to explore the dramatic geology and spot seabirds nesting on the volcanic rock faces.",
+          "lat": 64.7856,
+          "lng": -22.2789
+        },
+        {
+          "id": "raud_3",
+          "text": "Beach Beachcombing",
+          "detail": "Walk the kilometers of red sand to discover volcanic pebbles, driftwood, and shells while absorbing the isolation and scale of the peninsula."
+        },
+        {
+          "id": "raud_4",
+          "text": "Bird Watching",
+          "detail": "Observe Arctic terns, white-tailed eagles, and puffins from late spring through summer on the surrounding cliffs and offshore rocks."
+        },
+        {
+          "id": "raud_5",
+          "text": "Tide Pool Exploration",
+          "detail": "Investigate shallow pools at low tide to find starfish, sea anemones, and other marine life among the rocks fringing the beach."
+        },
+        {
+          "id": "raud_6",
+          "text": "Snæfellsjökull Vista Hike",
+          "detail": "On clear days, hike to elevated vantage points on the peninsula to view the distant glacier-capped Snæfellsjökull volcano across the bay.",
+          "lat": 64.7934,
+          "lng": -22.2456
+        }
+      ],
+      "food": [
+        {
+          "id": "raud_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Seek locally-caught Arctic char at nearby fishing villages like Ólafsvík, prepared simply grilled or smoked to highlight its delicate flavor."
+        },
+        {
+          "id": "raud_f2",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Warm yourself with hearty kjötsúpa, a traditional slow-cooked lamb and root vegetable stew commonly served in rural Snæfellsnes farmsteads."
+        },
+        {
+          "id": "raud_f3",
+          "text": "Rye Bread from Earth Ovens",
+          "detail": "Experience traditional Icelandic geothermal rye bread, slow-baked overnight using natural hot springs near geothermal areas in West Iceland."
+        },
+        {
+          "id": "raud_f4",
+          "text": "Salted Dried Fish",
+          "detail": "Try harðfiskur, traditionally-prepared salted and dried fish that has sustained Icelandic coastal communities for centuries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "raud_c1",
+          "text": "Respect Weather and Isolation",
+          "detail": "The peninsula's remoteness means conditions change rapidly; always carry waterproof gear, inform others of your plans, and check forecasts before visiting."
+        },
+        {
+          "id": "raud_c2",
+          "text": "Leave No Trace",
+          "detail": "Iceland's fragile landscapes demand that visitors pack out all waste, stay on designated paths, and avoid disturbing nesting birds during spring and summer."
+        },
+        {
+          "id": "raud_c3",
+          "text": "Embrace the Silence",
+          "detail": "Rauðisandur's profound quietness is a central part of its spiritual appeal; locals value peaceful, contemplative visits over crowded tourism experiences."
+        }
+      ]
+    },
+    {
+      "id": "londrangar",
+      "name": "Lóndrangar",
+      "nameIt": "Lóndrangar",
+      "lat": 64.8717,
+      "lng": -24.5417,
+      "type": "LANDMARK",
+      "description": "Two dramatic sea stacks rising from the ocean near Iceland's westernmost point, forming one of the most striking coastal formations on the Snæfellsnes Peninsula. The isolated location and towering rock formations against the Arctic waters create unforgettable photography and hiking opportunities.",
+      "imageQueries": [
+        "Lóndrangar sea stacks Iceland",
+        "Lóndrangar black cliffs ocean"
+      ],
+      "activities": [
+        {
+          "id": "lond_1",
+          "text": "Sea Stack Photography",
+          "detail": "Capture the iconic twin rock formations rising 61 meters from the Atlantic, especially dramatic during golden hour and in stormy conditions.",
+          "lat": 64.8847,
+          "lng": -22.3969
+        },
+        {
+          "id": "lond_2",
+          "text": "Coastal Hiking Trail",
+          "detail": "Trek along the clifftop paths surrounding Lóndrangar for sweeping ocean views and access to hidden coves along the Snæfellsnes coastline.",
+          "lat": 64.885,
+          "lng": -22.397
+        },
+        {
+          "id": "lond_3",
+          "text": "Birdwatching",
+          "detail": "Observe nesting seabirds including fulmars, kittiwakes, and the occasional white-tailed eagle from designated viewing areas near the stacks.",
+          "lat": 64.8845,
+          "lng": -22.3965
+        },
+        {
+          "id": "lond_4",
+          "text": "Snæfellsjökull Glacier Views",
+          "detail": "On clear days, witness the snow-capped Snæfellsjökull glacier dominating the horizon to the east from the Lóndrangar vantage point.",
+          "lat": 64.8847,
+          "lng": -22.3969
+        },
+        {
+          "id": "lond_5",
+          "text": "Rock Formation Exploration",
+          "detail": "Study the basalt hexagonal columns and geological layering of the sea stacks from multiple angles along the shore.",
+          "lat": 64.8847,
+          "lng": -22.3969
+        },
+        {
+          "id": "lond_6",
+          "text": "Sunset Vigil",
+          "detail": "Witness the Arctic sun dipping toward the horizon over the Atlantic, casting dramatic shadows across the rock formations during summer months.",
+          "lat": 64.8847,
+          "lng": -22.3969
+        }
+      ],
+      "food": [
+        {
+          "id": "lond_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Seek out locally caught char at nearby Stykkishólmur restaurants, prepared simply grilled to highlight the delicate flavor of Icelandic waters."
+        },
+        {
+          "id": "lond_f2",
+          "text": "Fermented Shark (Hákarl)",
+          "detail": "Try this traditional Icelandic delicacy at local establishments, though most visitors find it an acquired taste due to its pungent ammonia aroma."
+        },
+        {
+          "id": "lond_f3",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Sample slow-cooked lamb with root vegetables, a warming classic served in regional restaurants around the Snæfellsnes Peninsula."
+        },
+        {
+          "id": "lond_f4",
+          "text": "Fresh Seafood Soup",
+          "detail": "Order creamy fish or shellfish soup made with daily catches from the coastal villages, often featuring mussels and local white fish."
+        },
+        {
+          "id": "lond_f5",
+          "text": "Dark Rye Bread (Rúgbrauð)",
+          "detail": "Taste geothermally-baked rye bread with a dense, slightly sweet character, sometimes cooked using hot springs near the peninsula."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lond_c1",
+          "text": "Weather Preparedness",
+          "detail": "Always carry waterproof layers and check conditions before visiting, as Lóndrangar's exposed coastal location brings rapidly changing and severe weather year-round."
+        },
+        {
+          "id": "lond_c2",
+          "text": "Respect Protected Areas",
+          "detail": "Stay on marked trails and observe distance from nesting birds during breeding season (April–August) to protect vulnerable seabird colonies."
+        },
+        {
+          "id": "lond_c3",
+          "text": "Local Navigation Custom",
+          "detail": "Icelanders expect visitors to be self-reliant; inform someone of your hiking plans and expected return time, as rescue services may be distant from this remote location."
+        },
+        {
+          "id": "lond_c4",
+          "text": "Photography Ethics",
+          "detail": "While stunning for photos, avoid disturbing wildlife or trespassing on private land; the area around Lóndrangar includes privately managed property."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Óshlid",
+      "address": "Óshlid 4, Borgarnes",
+      "neighbourhood": "Borgarnes",
+      "cuisine": "Icelandic/Nordic",
+      "priceRange": "€€€",
+      "description": "Upscale dining focused on local ingredients and traditional Icelandic preparations in a charming riverside location.",
+      "mustOrder": "Arctic char with root vegetables",
+      "lat": 64.4838,
+      "lng": -21.9144
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Sigló",
+      "address": "Aðalstræti 4, Akranes",
+      "neighbourhood": "Akranes",
+      "cuisine": "Seafood/Icelandic",
+      "priceRange": "€€€",
+      "description": "Contemporary seafood restaurant with harbor views, emphasizing fresh local catch and creative presentations.",
+      "mustOrder": "Pan-seared scallops with saffron",
+      "lat": 64.3203,
+      "lng": -22.0894
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Hagi",
+      "address": "Hagi 1, Borgarnes",
+      "neighbourhood": "Borgarnes",
+      "cuisine": "Icelandic",
+      "priceRange": "€€",
+      "description": "Casual, family-friendly restaurant known for hearty Icelandic comfort food and generous portions.",
+      "mustOrder": "Lamb stew with dark rye bread",
+      "lat": 64.4825,
+      "lng": -21.9256
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "The Freezer Cafe",
+      "address": "Aðalstræti 61, Akranes",
+      "neighbourhood": "Akranes",
+      "cuisine": "Café/Light meals",
+      "priceRange": "€",
+      "description": "Laid-back café offering excellent coffee, sandwiches, and baked goods in a welcoming atmosphere.",
+      "mustOrder": "Sourdough sandwich with cured fish",
+      "lat": 64.3195,
+      "lng": -22.0921
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Restaurant Fjörður",
+      "address": "Sæbraut 58, Borgarnes",
+      "neighbourhood": "Borgarnes",
+      "cuisine": "Seafood/Nordic",
+      "priceRange": "€€€",
+      "description": "Elegant waterfront restaurant specializing in seasonal seafood and modern Nordic cuisine.",
+      "mustOrder": "Grilled halibut with brown butter",
+      "lat": 64.4801,
+      "lng": -21.9234
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Brauð & Co",
+      "address": "Tangata 2, Borgarnes",
+      "neighbourhood": "Borgarnes",
+      "cuisine": "Bakery/Café",
+      "priceRange": "€",
+      "description": "Popular artisanal bakery chain offering fresh sourdough, pastries, and excellent coffee for breakfast and lunch.",
+      "mustOrder": "Chocolate croissant and cappuccino",
+      "lat": 64.4832,
+      "lng": -21.9189
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Langholt Bistro",
+      "address": "Langholt 19, Akranes",
+      "neighbourhood": "Akranes",
+      "cuisine": "Icelandic/European",
+      "priceRange": "€€",
+      "description": "Cozy neighborhood bistro serving traditional Icelandic dishes with European influences.",
+      "mustOrder": "Beef tongue with mushroom sauce",
+      "lat": 64.3172,
+      "lng": -22.0876
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Höfði",
+      "address": "Höfðastígur 12, Stykkishólmur",
+      "neighbourhood": "Stykkishólmur",
+      "cuisine": "Seafood/Icelandic",
+      "priceRange": "€€€",
+      "description": "Intimate harborside restaurant showcasing fresh local seafood with minimalist presentation and excellent service.",
+      "mustOrder": "Lobster with root vegetable purée",
+      "lat": 64.8636,
+      "lng": -22.7405
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Café Duus",
+      "address": "Aðalstræti 22, Stykkishólmur",
+      "neighbourhood": "Stykkishólmur",
+      "cuisine": "Café/Icelandic",
+      "priceRange": "€€",
+      "description": "Charming café in a historic building offering homemade soups, sandwiches, and local specialties.",
+      "mustOrder": "Fish soup with fresh bread",
+      "lat": 64.8641,
+      "lng": -22.7391
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Eldstófa",
+      "address": "Hólmstræti 1, Borgarnes",
+      "neighbourhood": "Borgarnes",
+      "cuisine": "Nordic/International",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment showcasing innovative Nordic cuisine using premium local and seasonal ingredients.",
+      "mustOrder": "Multi-course tasting menu with Icelandic lamb",
+      "lat": 64.4847,
+      "lng": -21.9178
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Samkaup Úrval",
+      "address": "Kaupvangur 12, Akranes",
+      "neighbourhood": "Akranes",
+      "cuisine": "Deli/Light meals",
+      "priceRange": "€",
+      "description": "Quality deli counter within a supermarket offering prepared meals, fresh seafood, and prepared Icelandic specialties.",
+      "mustOrder": "Smoked Arctic char salad",
+      "lat": 64.3187,
+      "lng": -22.0902
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Steinn Vín",
+      "address": "Stykkishólmur, Main street",
+      "neighbourhood": "Stykkishólmur",
+      "cuisine": "Wine bar/Small plates",
+      "priceRange": "€€",
+      "description": "Relaxed wine bar featuring local wines, craft beers, and simple Icelandic small plates.",
+      "mustOrder": "Local cheese board with rye bread",
+      "lat": 64.8635,
+      "lng": -22.7398
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Tjöruhúsið",
+      "address": "Hfn 2, Borgarnes",
+      "neighbourhood": "Borgarnes",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Atmospheric harbor restaurant housed in a historic building, specializing in fresh fish and traditional preparations.",
+      "mustOrder": "Whole grilled sea trout",
+      "lat": 64.4798,
+      "lng": -21.9241
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Sævarborg",
+      "address": "Útnesvegi 6, Stykkishólmur",
+      "neighbourhood": "Stykkishólmur",
+      "cuisine": "Icelandic/Casual",
+      "priceRange": "€",
+      "description": "Casual eatery near the harbor offering simple, flavorful Icelandic dishes and hearty portions.",
+      "mustOrder": "Fish and chips with homemade tartar sauce",
+      "lat": 64.8618,
+      "lng": -22.7489
+    }
+  ]
+}

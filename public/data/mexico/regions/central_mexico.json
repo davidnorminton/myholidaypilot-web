@@ -1,0 +1,1627 @@
+{
+  "id": "central_mexico",
+  "name": "Central Mexico (Mexico State, Puebla & Tlaxcala)",
+  "nameIt": "Centro de México",
+  "capital": "Mexico City",
+  "lat": 19.5,
+  "lng": -98.5,
+  "emoji": "🏛️",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": 20.62,
+    "south": 18.15,
+    "east": -97,
+    "west": -101.95
+  },
+  "history": "Central Mexico served as the heartland of the Aztec Empire until Spanish conquest in 1521, with Mexico City (formerly Tenochtitlan) becoming the capital of New Spain. The region experienced centuries of colonial rule that blended indigenous and European traditions, creating a unique cultural synthesis visible in its architecture, religion, and daily life. The nineteenth and twentieth centuries saw Central Mexico at the center of Mexico's independence movement and the Mexican Revolution, shaping the nation's political and social development. Today, the area remains the most densely populated and economically powerful region of Mexico, home to the capital and seat of national government.",
+  "culturalNotes": "Central Mexico is distinguished by its profound indigenous heritage, particularly Nahuatl and Otomi cultures, which coexist with urban modernity in Mexico City and surrounding areas. The region is famous for its colonial-era cities, vibrant markets, and traditional crafts including ceramics and textiles, as well as its celebration of pre-Hispanic festivals and Day of the Dead observances. The cuisine reflects layers of history, blending ancient ingredients like corn, beans, and chilies with Spanish influences, creating iconic dishes such as mole and pozole that define Mexican gastronomy.",
+  "bestTimeToVisit": "October to April features dry, pleasant weather perfect for sightseeing and cultural exploration.",
+  "languageNotes": "Spanish is the primary language, though indigenous languages including Nahuatl and Otomi are still spoken in rural communities and among indigenous populations. Useful phrases include 'Hola, ¿cómo estás?' (Hello, how are you?) and 'Un café, por favor' (A coffee, please), while learning basic Spanish greatly enhances interaction with locals in markets and traditional neighborhoods.",
+  "generatedAt": "2026-07-10T21:33:11.518Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "mexico_city",
+      "name": "Mexico City",
+      "nameIt": "Ciudad de México",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "type": "CITY",
+      "description": "The capital and largest city of Mexico, built on the ruins of the Aztec capital Tenochtitlan, featuring world-class museums, historic plazas, and vibrant neighborhoods. A must-visit for its Templo Mayor, Museo Frida Kahlo, Palacio Nacional murals, and bustling cultural scene.",
+      "imageQueries": [
+        "Mexico City Zócalo",
+        "Mexico City skyline"
+      ],
+      "activities": [
+        {
+          "id": "mexi_1",
+          "text": "Templo Mayor",
+          "detail": "Explore the excavated ruins of the Aztec temple complex in the heart of the city, with an excellent on-site museum displaying artifacts and explaining pre-Columbian civilization.",
+          "lat": 19.4373,
+          "lng": -99.1322
+        },
+        {
+          "id": "mexi_2",
+          "text": "Museo Frida Kahlo",
+          "detail": "Visit the iconic blue house where artist Frida Kahlo lived and worked, displaying her paintings, personal belongings, and studio spaces in an intimate setting.",
+          "lat": 19.4285,
+          "lng": -99.1729
+        },
+        {
+          "id": "mexi_3",
+          "text": "Palacio Nacional",
+          "detail": "Admire Diego Rivera's sweeping murals depicting Mexican history covering the interior walls of the National Palace, the seat of presidential power since colonial times.",
+          "lat": 19.4338,
+          "lng": -99.1349
+        },
+        {
+          "id": "mexi_4",
+          "text": "Zócalo and Catedral Metropolitana",
+          "detail": "Stroll through one of the world's largest plazas surrounded by colonial architecture, including the massive 16th-century cathedral built atop an Aztec temple site.",
+          "lat": 19.4343,
+          "lng": -99.1329
+        },
+        {
+          "id": "mexi_5",
+          "text": "Museo Nacional de Antropología",
+          "detail": "Marvel at the world-class collection of pre-Hispanic artifacts including the Aztec Sun Stone and intricate jade masks in this comprehensive anthropology museum.",
+          "lat": 19.4267,
+          "lng": -99.1878
+        },
+        {
+          "id": "mexi_6",
+          "text": "Xochimilco Floating Gardens",
+          "detail": "Take a trajinera boat ride through these ancient canals and gardens, once the agricultural heart of Tenochtitlan, now a UNESCO World Heritage site with vibrant local culture.",
+          "lat": 19.2832,
+          "lng": -99.0964
+        },
+        {
+          "id": "mexi_7",
+          "text": "Barrio de la Merced Market",
+          "detail": "Immerse yourself in the sensory overload of Mexico City's largest traditional market, selling everything from fresh produce to crafts across labyrinthine aisles.",
+          "lat": 19.4301,
+          "lng": -99.1243
+        }
+      ],
+      "food": [
+        {
+          "id": "mexi_f1",
+          "text": "Tacos al Pastor",
+          "detail": "Succulent marinated pork cooked on a vertical spit and shaved onto corn tortillas, often served with pineapple, onion, and cilantro in a perfect Middle Eastern-Mexican fusion."
+        },
+        {
+          "id": "mexi_f2",
+          "text": "Mole Poblano",
+          "detail": "A complex, rich sauce made from 20+ ingredients including chiles, chocolate, and spices, traditionally served over chicken and a specialty from nearby Puebla."
+        },
+        {
+          "id": "mexi_f3",
+          "text": "Chiles Rellenos",
+          "detail": "Poblano peppers stuffed with cheese or meat, dipped in egg batter and fried, then smothered in tomato sauce—a beloved comfort food throughout the region."
+        },
+        {
+          "id": "mexi_f4",
+          "text": "Tamales",
+          "detail": "Steamed corn dough filled with meats, cheeses, or vegetables and wrapped in corn husks, commonly sold by street vendors in the early morning and evening."
+        },
+        {
+          "id": "mexi_f5",
+          "text": "Elote and Esquites",
+          "detail": "Grilled or boiled corn on the cob (elote) or corn kernels (esquites) served with mayonnaise, cotija cheese, and chili powder—a quintessential street snack."
+        },
+        {
+          "id": "mexi_f6",
+          "text": "Caldo de Camarón",
+          "detail": "A warming shrimp broth soup often loaded with vegetables and served with lime and tostadas, popular in Mexico City's seafood restaurants and markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mexi_c1",
+          "text": "Metro Etiquette",
+          "detail": "The Metro is fast and affordable but crowded during rush hours; women and elderly passengers have reserved cars, and pickpocketing occurs so keep valuables secure."
+        },
+        {
+          "id": "mexi_c2",
+          "text": "Spanish Language Basics",
+          "detail": "While English is spoken in tourist areas, learning basic Spanish phrases shows respect and helps in markets, neighborhoods, and smaller restaurants away from tourist centers."
+        },
+        {
+          "id": "mexi_c3",
+          "text": "Altitude Adjustment",
+          "detail": "Mexico City sits at 7,350 feet elevation; visitors may experience mild altitude sickness the first day or two—take it slow, stay hydrated, and avoid strenuous activity initially."
+        },
+        {
+          "id": "mexi_c4",
+          "text": "Bargaining in Markets",
+          "detail": "Haggling is expected in traditional markets and with street vendors but not in shops; polite negotiation can yield better prices, especially for multiple items or crafts."
+        }
+      ]
+    },
+    {
+      "id": "puebla_city",
+      "name": "Puebla",
+      "nameIt": "Puebla de los Ángeles",
+      "lat": 19.0413,
+      "lng": -98.2062,
+      "type": "CITY",
+      "description": "A UNESCO World Heritage colonial city famous for its colorful azulejo-tiled buildings, baroque architecture, and culinary traditions including mole poblano. The stunning cathedral and vibrant historic center make it one of Mexico's most picturesque destinations.",
+      "imageQueries": [
+        "Puebla colonial architecture tiles",
+        "Puebla Cathedral Mexico"
+      ],
+      "activities": [
+        {
+          "id": "pueb_1",
+          "text": "Puebla Cathedral",
+          "detail": "Explore Mexico's largest cathedral, completed in 1649, featuring ornate baroque interiors, gilded chapels, and stunning religious artwork in the heart of the zócalo.",
+          "lat": 19.0396,
+          "lng": -98.2038
+        },
+        {
+          "id": "pueb_2",
+          "text": "Barrio del Artista (Artists' Quarter)",
+          "detail": "Wander through this charming neighborhood filled with colonial-era buildings, local artist studios, galleries, and cobblestone streets lined with azulejo-decorated facades.",
+          "lat": 19.0378,
+          "lng": -98.1987
+        },
+        {
+          "id": "pueb_3",
+          "text": "Biblioteca Palafoxiana",
+          "detail": "Visit one of the Americas' oldest libraries, founded in 1646, housed in a stunning baroque building with over 40,000 books and manuscripts.",
+          "lat": 19.0408,
+          "lng": -98.2025
+        },
+        {
+          "id": "pueb_4",
+          "text": "Talavera Pottery Workshops",
+          "detail": "Watch artisans hand-paint and craft traditional Talavera ceramic tiles and pottery using centuries-old techniques in working studios throughout the city.",
+          "lat": 19.04,
+          "lng": -98.195
+        },
+        {
+          "id": "pueb_5",
+          "text": "Fort of Loreto and Guadalupe",
+          "detail": "Climb to these hilltop forts overlooking the city to see where Mexican forces defeated the French army on May 5, 1862, commemorated as Cinco de Mayo.",
+          "lat": 19.0551,
+          "lng": -98.1844
+        },
+        {
+          "id": "pueb_6",
+          "text": "Historic Center Walking Tour",
+          "detail": "Stroll through the UNESCO-listed colonial heart, discovering pastel-colored buildings adorned with azulejos, hidden plazas, churches, and 16th-century Spanish architecture.",
+          "lat": 19.04,
+          "lng": -98.2
+        },
+        {
+          "id": "pueb_7",
+          "text": "Amparo Museum",
+          "detail": "Explore this world-class art museum housed in restored colonial mansions, featuring pre-Hispanic artifacts, colonial religious art, and contemporary Mexican works.",
+          "lat": 19.0405,
+          "lng": -98.2012
+        }
+      ],
+      "food": [
+        {
+          "id": "pueb_f1",
+          "text": "Mole Poblano",
+          "detail": "Puebla's signature dish is a complex, slow-cooked sauce combining over 20 ingredients including chocolate, chiles, spices, and nuts, traditionally served over chicken."
+        },
+        {
+          "id": "pueb_f2",
+          "text": "Chiles en Nogada",
+          "detail": "A seasonal dish (August-September) featuring a poblano chile stuffed with picadillo, covered in walnut cream sauce, and topped with pomegranate seeds representing the Mexican flag."
+        },
+        {
+          "id": "pueb_f3",
+          "text": "Cemita Poblana",
+          "detail": "A iconic local sandwich made with a special sesame-seeded roll, filled with breaded meat, quesillo cheese, avocado, and pepperoni, unique to Puebla."
+        },
+        {
+          "id": "pueb_f4",
+          "text": "Pipián Poblano",
+          "detail": "A pumpkin seed-based green sauce served with chicken or turkey, representing another of Puebla's classic mole variations with a lighter, more herbaceous flavor."
+        },
+        {
+          "id": "pueb_f5",
+          "text": "Chocolate de Puebla",
+          "detail": "Experience traditional hot chocolate made with stone-ground cacao, almonds, and spices, often whisked with a wooden molinillo, best enjoyed at historic chocolate shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pueb_c1",
+          "text": "Azulejo Tradition",
+          "detail": "The city's distinctive hand-painted ceramic tiles reflect Moorish and Spanish colonial influences, and many shops still sell authentic Talavera pieces as souvenirs and decor."
+        },
+        {
+          "id": "pueb_c2",
+          "text": "Religious Processions",
+          "detail": "Puebla maintains strong Catholic traditions with frequent religious festivals and processions, especially around Holy Week and patron saint celebrations, which visitors can respectfully observe."
+        },
+        {
+          "id": "pueb_c3",
+          "text": "Siesta Culture",
+          "detail": "Many shops and restaurants close during afternoon siesta hours (typically 2-4 PM), so plan your activities accordingly and embrace the slower pace of colonial-era life."
+        },
+        {
+          "id": "pueb_c4",
+          "text": "Family-Oriented Dining",
+          "detail": "Meals are social occasions meant to be lingered over, particularly comida (lunch), so expect leisurely pacing and warm hospitality when dining in local establishments rather than quick service."
+        }
+      ]
+    },
+    {
+      "id": "tepotzotlan",
+      "name": "Tepotzotlán",
+      "nameIt": "Tepotzotlán",
+      "lat": 19.7461,
+      "lng": -99.2089,
+      "type": "TOWN",
+      "description": "A charming colonial town in Mexico State known for its stunning Baroque church of San Francisco Javier and excellent ethnographic museum in a former hacienda. It offers a quintessential Mexican town experience just an hour from Mexico City.",
+      "imageQueries": [
+        "Tepotzotlán San Francisco Javier church",
+        "Tepotzotlán colonial town Mexico"
+      ],
+      "activities": [
+        {
+          "id": "tepo_1",
+          "text": "Explore the Church of San Francisco Javier",
+          "detail": "Marvel at this stunning example of Mexican Baroque architecture with its ornate façade, gilded interior altarpieces, and intricate stone carvings dating back to the 18th century.",
+          "lat": 19.7329,
+          "lng": -99.2714
+        },
+        {
+          "id": "tepo_2",
+          "text": "Visit the National Museum of the Viceroyalty",
+          "detail": "Tour this ethnographic museum housed in a former Jesuit hacienda with exhibits on colonial art, indigenous crafts, religious artifacts, and regional history.",
+          "lat": 19.7325,
+          "lng": -99.2713
+        },
+        {
+          "id": "tepo_3",
+          "text": "Wander the Historic Town Plaza",
+          "detail": "Stroll through the charming central plaza surrounded by colonial-era buildings, local shops, and cafes where you can observe everyday Mexican town life.",
+          "lat": 19.7335,
+          "lng": -99.2705
+        },
+        {
+          "id": "tepo_4",
+          "text": "Attend a Local Fiesta",
+          "detail": "If visiting in September, experience the town's patron saint celebrations with processions, traditional music, fireworks, and local food vendors throughout the streets.",
+          "lat": 19.7329,
+          "lng": -99.2714
+        },
+        {
+          "id": "tepo_5",
+          "text": "Shop at Artisan Markets",
+          "detail": "Browse local crafts including pottery, textiles, and wooden toys at shops and market stalls that showcase traditional Mexican handicrafts.",
+          "lat": 19.733,
+          "lng": -99.271
+        },
+        {
+          "id": "tepo_6",
+          "text": "Explore Nearby Acolman Convent",
+          "detail": "Visit this 16th-century Augustinian monastery just minutes away, featuring early Mexican colonial architecture and peaceful gardens.",
+          "lat": 19.745,
+          "lng": -99.255
+        }
+      ],
+      "food": [
+        {
+          "id": "tepo_f1",
+          "text": "Barbacoa",
+          "detail": "Slow-roasted lamb or beef seasoned with chiles and spices, traditionally served on weekends with consomé broth and fresh corn tortillas."
+        },
+        {
+          "id": "tepo_f2",
+          "text": "Mole Poblano",
+          "detail": "Rich sauce made with chocolate, chiles, and dozens of spices served over chicken or turkey, representing the region's culinary heritage."
+        },
+        {
+          "id": "tepo_f3",
+          "text": "Quesadillas de Flor de Calabaza",
+          "detail": "Fresh corn tortillas stuffed with zucchini blossoms and cheese, a seasonal delicacy often sold by street vendors in the town center."
+        },
+        {
+          "id": "tepo_f4",
+          "text": "Pulque",
+          "detail": "Traditional pre-Hispanic fermented agave beverage still enjoyed locally at cantinas and pulquerías, with a mild alcoholic content and creamy texture."
+        },
+        {
+          "id": "tepo_f5",
+          "text": "Pan de Muerto and Local Pastries",
+          "detail": "Sweet bread available year-round but especially prominent during Día de Muertos, along with other traditional Mexican pan dulce from local bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tepo_c1",
+          "text": "Respect Church Hours and Dress Code",
+          "detail": "The church is an active place of worship; dress modestly with covered shoulders and knees, and visit outside of mass times or join respectfully if attending services."
+        },
+        {
+          "id": "tepo_c2",
+          "text": "Learn Basic Spanish Phrases",
+          "detail": "While some tourism workers speak English, most locals speak primarily Spanish, so learning simple greetings and food terms enhances interactions and shows respect."
+        },
+        {
+          "id": "tepo_c3",
+          "text": "Visit Museums Early",
+          "detail": "The National Museum of the Viceroyalty and other cultural sites can become crowded on weekends and holidays, so arrive in the morning for a better experience."
+        },
+        {
+          "id": "tepo_c4",
+          "text": "Join Local Celebrations if Invited",
+          "detail": "Tepotzotlán residents are generally welcoming to respectful visitors; if invited to family gatherings or local events, participating shows appreciation for their hospitality and traditions."
+        }
+      ]
+    },
+    {
+      "id": "cholula",
+      "name": "Cholula",
+      "nameIt": "Cholula",
+      "lat": 19.0608,
+      "lng": -98.3064,
+      "type": "TOWN",
+      "description": "Home to the largest pyramid by volume in the world, the Great Pyramid of Cholula, topped with a colonial church that offers panoramic views of the surrounding area. This ancient pilgrimage site blends pre-Hispanic history with colonial charm in a walkable town center.",
+      "imageQueries": [
+        "Great Pyramid Cholula Mexico",
+        "Cholula church on pyramid"
+      ],
+      "activities": [
+        {
+          "id": "chol_1",
+          "text": "Climb the Great Pyramid of Cholula",
+          "detail": "Ascend the massive pre-Hispanic pyramid, the largest by volume in the world, and visit the Spanish colonial Church of Our Lady of Remedios perched on its summit for panoramic views of the surrounding valleys and volcanoes.",
+          "lat": 19.0577,
+          "lng": -98.305
+        },
+        {
+          "id": "chol_2",
+          "text": "Explore the Pyramid Tunnels",
+          "detail": "Walk through the archaeological tunnels carved into the Great Pyramid that reveal its internal structure and multiple construction phases dating back to 300 BCE.",
+          "lat": 19.0577,
+          "lng": -98.305
+        },
+        {
+          "id": "chol_3",
+          "text": "Visit the Cholula Archaeological Museum",
+          "detail": "Learn about pre-Hispanic Cholula civilization, including ceramics, sculptures, and artifacts that document the city's role as an ancient religious center.",
+          "lat": 19.0588,
+          "lng": -98.3048
+        },
+        {
+          "id": "chol_4",
+          "text": "Wander the Historic Town Center",
+          "detail": "Stroll through Cholula's colonial streets lined with whitewashed buildings, local shops, and the main plaza, experiencing the blend of indigenous and Spanish architecture.",
+          "lat": 19.0612,
+          "lng": -98.3061
+        },
+        {
+          "id": "chol_5",
+          "text": "Visit the Santuario de Nuestra Señora de los Remedios",
+          "detail": "Experience the 16th-century parish church at the base of the pyramid, featuring indigenous-influenced baroque architecture and interior murals.",
+          "lat": 19.0563,
+          "lng": -98.3055
+        },
+        {
+          "id": "chol_6",
+          "text": "Tour the Convento de San Gabriel",
+          "detail": "Explore one of Mexico's first convents, built in the 16th century with distinctive open-air chapel and cloisters that showcase early colonial religious architecture.",
+          "lat": 19.0629,
+          "lng": -98.3081
+        }
+      ],
+      "food": [
+        {
+          "id": "chol_f1",
+          "text": "Mole Poblano",
+          "detail": "A complex sauce made with chocolate, chiles, spices, and sometimes nuts, traditionally served over chicken and considered one of Puebla's most iconic dishes."
+        },
+        {
+          "id": "chol_f2",
+          "text": "Cemitas Poblanas",
+          "detail": "Crusty sandwich rolls filled with breaded meat, avocado, cheese, and chipotle served at local panaderias throughout town."
+        },
+        {
+          "id": "chol_f3",
+          "text": "Chile en Nogada",
+          "detail": "A seasonal poblano chile stuffed with meat and fruit, topped with walnut cream sauce and pomegranate seeds, representing the colors of the Mexican flag."
+        },
+        {
+          "id": "chol_f4",
+          "text": "Pulque",
+          "detail": "A traditional pre-Hispanic fermented agave drink still served in local pulquerias as an authentic cultural beverage experience."
+        },
+        {
+          "id": "chol_f5",
+          "text": "Pan de Muerto and Regional Sweet Breads",
+          "detail": "Seasonal bread available year-round from local bakeries, with a slightly sweet flavor and traditional sugar topping reflecting Oaxacan and Puebla traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chol_c1",
+          "text": "Respect the Sacred Site",
+          "detail": "Remember that the Great Pyramid remains a significant spiritual location to indigenous communities; approach the summit and tunnels respectfully and consider hiring a local guide for deeper cultural context."
+        },
+        {
+          "id": "chol_c2",
+          "text": "Visit During Fiestas",
+          "detail": "Cholula celebrates its patron saint festivals in August with processions, traditional dances, and market activities that showcase authentic local religious traditions and community life."
+        },
+        {
+          "id": "chol_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While some vendors cater to tourists, speaking basic Spanish shows respect and opens doors to deeper conversations with locals in markets and small family restaurants."
+        },
+        {
+          "id": "chol_c4",
+          "text": "Explore Beyond the Pyramid",
+          "detail": "The surrounding towns of San Andrés Cholula and Tonanzintla (famous for its ornate baroque church with indigenous interior decoration) offer authentic experiences away from main tourist areas."
+        }
+      ]
+    },
+    {
+      "id": "popocatepetl",
+      "name": "Popocatépetl and Iztaccíhuatl",
+      "nameIt": "Popocatépetl e Iztaccíhuatl",
+      "lat": 19.0225,
+      "lng": -98.6272,
+      "type": "NATURE",
+      "description": "Two of Mexico's highest and most iconic volcanoes located on the border of Mexico State and Puebla, offering hiking, climbing, and stunning views of snow-capped peaks. The pass between them provides dramatic photography and access to alpine scenery rarely seen in central Mexico.",
+      "imageQueries": [
+        "Popocatépetl volcano Mexico",
+        "Iztaccíhuatl snow peak"
+      ],
+      "activities": [
+        {
+          "id": "popo_1",
+          "text": "Iztaccíhuatl Summit Trek",
+          "detail": "A multi-day hike ascending Mexico's third-highest peak at 5,230 meters, passing through alpine meadows and rocky terrain with views of Popocatépetl across the pass.",
+          "lat": 19.1733,
+          "lng": -98.6433
+        },
+        {
+          "id": "popo_2",
+          "text": "Paso de Cortés Crossing",
+          "detail": "A scenic 3,680-meter mountain pass between the two volcanoes offering dramatic photography, hiking trails, and panoramic views of both peaks and the Valley of Mexico.",
+          "lat": 19.1917,
+          "lng": -98.6317
+        },
+        {
+          "id": "popo_3",
+          "text": "Popocatépetl Base Camp Visit",
+          "detail": "Access the areas around Mexico's second-highest volcano (5,426 meters) for hiking, wildlife observation, and views of volcanic features, though summit ascents are often restricted due to volcanic activity.",
+          "lat": 19.0225,
+          "lng": -98.6272
+        },
+        {
+          "id": "popo_4",
+          "text": "Alpine Meadow Wildflower Hikes",
+          "detail": "Spring and early summer hikes through high-altitude meadows carpeted with endemic alpine flowers including Indian paintbrush and alpine lupines unique to central Mexico.",
+          "lat": 19.16,
+          "lng": -98.65
+        },
+        {
+          "id": "popo_5",
+          "text": "Zoquiapan Refuge Mountaineering",
+          "detail": "Stay at the mountain refuge on Iztaccíhuatl's slopes to acclimatize and attempt alpine climbing with experienced guides in a controlled environment.",
+          "lat": 19.15,
+          "lng": -98.655
+        },
+        {
+          "id": "popo_6",
+          "text": "Wildlife and Cloud Forest Exploration",
+          "detail": "Observe endemic species including mountain eagles, volcanic rabbits, and alpine deer while traversing the transition zones between cloud forest and tundra-like alpine terrain."
+        },
+        {
+          "id": "popo_7",
+          "text": "Thermal Springs at Nearby Villages",
+          "detail": "Visit hot springs in surrounding communities like Amecameca to relax in naturally heated mineral waters after mountain activities.",
+          "lat": 19.1213,
+          "lng": -98.7513
+        }
+      ],
+      "food": [
+        {
+          "id": "popo_f1",
+          "text": "Pulque and Pulque-Based Drinks",
+          "detail": "Sample this pre-Hispanic fermented agave beverage in local cantinas and markets around Amecameca, the historic gateway town to both volcanoes."
+        },
+        {
+          "id": "popo_f2",
+          "text": "Mole Poblano",
+          "detail": "This complex sauce with chocolate, chiles, and spices is a specialty of Puebla state, available in restaurants throughout the region surrounding the volcanoes."
+        },
+        {
+          "id": "popo_f3",
+          "text": "Chalupas Poblanas",
+          "detail": "Small fried tortilla boats filled with shredded chicken, topped with salsa verde and cream, a regional specialty found in Puebla-side villages near the volcanoes."
+        },
+        {
+          "id": "popo_f4",
+          "text": "Quesadillas de Flor de Calabaza",
+          "detail": "Squash-blossom filled cheese quesadillas are a seasonal delicacy in mountain communities and market towns near the base of both volcanoes."
+        },
+        {
+          "id": "popo_f5",
+          "text": "Barbacoa de Borrego",
+          "detail": "Slow-cooked lamb or mutton wrapped in maguey leaves, a traditional highland preparation found in Tlaxcala-side villages and weekend markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "popo_c1",
+          "text": "Respect Indigenous Sacred Sites",
+          "detail": "Both volcanoes hold deep significance in Nahua and Aztec cosmology; treat the mountains with reverence and avoid disrespecting sacred sites or leaving trash."
+        },
+        {
+          "id": "popo_c2",
+          "text": "Altitude Acclimatization is Essential",
+          "detail": "The high elevation (3,000-5,400 meters) causes altitude sickness; arrive early, ascend gradually, stay hydrated, and consider staying in Amecameca for acclimatization before attempting summits."
+        },
+        {
+          "id": "popo_c3",
+          "text": "Volcanic Activity Monitoring",
+          "detail": "Popocatépetl has regular volcanic activity; check current conditions with local authorities and guides before attempting any ascent, as routes may be restricted without notice."
+        },
+        {
+          "id": "popo_c4",
+          "text": "Guide Hiring and Safety Protocols",
+          "detail": "Always hire certified local guides from Amecameca or established mountaineering services; solo climbing is dangerous and often prohibited, and guides provide essential knowledge of weather and terrain."
+        }
+      ]
+    },
+    {
+      "id": "tlaxcala_city",
+      "name": "Tlaxcala",
+      "nameIt": "Tlaxcala de Xicohténcatl",
+      "lat": 19.3185,
+      "lng": -98.2393,
+      "type": "CITY",
+      "description": "The capital of Tlaxcala State, one of Mexico's smallest states, featuring a charming main plaza, the ornate Sanctuary of Ocotlán, and important pre-Hispanic sites. It offers a quieter alternative to major tourist destinations while maintaining rich cultural and historical significance.",
+      "imageQueries": [
+        "Tlaxcala Sanctuary Ocotlán",
+        "Tlaxcala city Mexico"
+      ],
+      "activities": [
+        {
+          "id": "tlax_1",
+          "text": "Sanctuary of Ocotlán",
+          "detail": "Marvel at this 18th-century Baroque masterpiece perched on a hilltop with ornate façade and interior frescoes overlooking the city.",
+          "lat": 19.3186,
+          "lng": -98.2375
+        },
+        {
+          "id": "tlax_2",
+          "text": "Plaza Mayor (Zócalo)",
+          "detail": "Stroll the charming main square lined with colonial arcades, the Palacio de Gobierno, and the Cathedral of San Luis Obispo.",
+          "lat": 19.3141,
+          "lng": -98.2383
+        },
+        {
+          "id": "tlax_3",
+          "text": "Cacaxtla Archaeological Site",
+          "detail": "Explore this pre-Hispanic hilltop settlement known for vibrant murals depicting warriors and jaguars dating to the 8th-12th centuries.",
+          "lat": 19.2536,
+          "lng": -98.0897
+        },
+        {
+          "id": "tlax_4",
+          "text": "Xochitécatl Archaeological Site",
+          "detail": "Climb the pyramid complex with views across the valley, featuring ritual structures and pottery remnants from 1200 BCE onward.",
+          "lat": 19.2603,
+          "lng": -98.0778
+        },
+        {
+          "id": "tlax_5",
+          "text": "Museo de la Memoria",
+          "detail": "Discover local history and indigenous heritage through exhibits on Tlaxcalan culture, colonial period, and the state's role in the conquest.",
+          "lat": 19.3133,
+          "lng": -98.238
+        },
+        {
+          "id": "tlax_6",
+          "text": "Parque Recreativo La Malinche",
+          "detail": "Hike or explore trails around La Malinche volcano, Mexico's fourth-highest peak, offering views and cooler mountain air.",
+          "lat": 19.2783,
+          "lng": -98.0333
+        }
+      ],
+      "food": [
+        {
+          "id": "tlax_f1",
+          "text": "Mole Prieto Tlaxcalteca",
+          "detail": "A rich, dark mole sauce unique to Tlaxcala made with chocolate, chiles, and local spices, traditionally served over chicken or turkey."
+        },
+        {
+          "id": "tlax_f2",
+          "text": "Pulque",
+          "detail": "Sample this traditional pre-Hispanic fermented agave beverage at local pulquerías, a drink deeply rooted in regional culture."
+        },
+        {
+          "id": "tlax_f3",
+          "text": "Chalupas Tlaxcaltecas",
+          "detail": "Crispy fried tortilla boats topped with chorizo, cheese, lettuce, and salsa—a beloved street food and local specialty."
+        },
+        {
+          "id": "tlax_f4",
+          "text": "Cecina",
+          "detail": "Thin-sliced dried and grilled beef, a regional preparation often served with tortillas and onion at local markets and comedores."
+        },
+        {
+          "id": "tlax_f5",
+          "text": "Tamales de Rajas",
+          "detail": "Masa steamed with roasted poblano peppers and cheese, a seasonal favorite found at markets and traditional restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tlax_c1",
+          "text": "Slow pace and siesta tradition",
+          "detail": "Many shops and services close 2-4 PM for lunch and rest; plan activities accordingly and embrace the relaxed rhythm of local life."
+        },
+        {
+          "id": "tlax_c2",
+          "text": "Indigenous Tlaxcalan heritage",
+          "detail": "The Tlaxcalans were crucial allies to Cortés and maintained distinct identity; respect for pre-Hispanic history and indigenous contributions is woven throughout the city."
+        },
+        {
+          "id": "tlax_c3",
+          "text": "Festival calendar importance",
+          "detail": "Religious and cultural celebrations, especially during Day of the Dead and local saint festivals, are central to community identity and offer authentic experiences if visiting during these times."
+        },
+        {
+          "id": "tlax_c4",
+          "text": "Spanish fluency helpful",
+          "detail": "English is less widely spoken than in major tourist zones, so basic Spanish phrases are practical for dining, navigation, and deeper cultural interaction."
+        }
+      ]
+    },
+    {
+      "id": "cacaxtla",
+      "name": "Cacaxtla",
+      "nameIt": "Cacaxtla",
+      "lat": 19.2844,
+      "lng": -98.1369,
+      "type": "LANDMARK",
+      "description": "An impressive pre-Hispanic archaeological site featuring the Pyramid of the Painted Wall with vibrant murals depicting ancient battles and deities. The site's colorful frescoes are among the best-preserved pre-Hispanic artwork in Mexico.",
+      "imageQueries": [
+        "Cacaxtla murals Mexico",
+        "Cacaxtla archaeological site"
+      ],
+      "activities": [
+        {
+          "id": "caca_1",
+          "text": "Explore the Pyramid of the Painted Wall",
+          "detail": "Climb the main structure to view the iconic murals depicting the Battle of the Two Peoples and ancient Olmec-influenced artwork on the pyramid's facade.",
+          "lat": 19.2847,
+          "lng": -97.8956
+        },
+        {
+          "id": "caca_2",
+          "text": "Visit the Temple of the Feathered Serpent",
+          "detail": "Examine the smaller ceremonial structure adjacent to the main pyramid, decorated with surviving polychrome frescoes of serpents and deities.",
+          "lat": 19.2845,
+          "lng": -97.895
+        },
+        {
+          "id": "caca_3",
+          "text": "Study the Mural of the Red Hand",
+          "detail": "View the iconic handprints and warrior scenes painted in red ochre, representing some of Cacaxtla's most distinctive artistic elements.",
+          "lat": 19.2848,
+          "lng": -97.8955
+        },
+        {
+          "id": "caca_4",
+          "text": "Tour the Site Museum",
+          "detail": "Examine artifacts, ceramic vessels, and explanatory panels detailing the Cacaxtla culture and the site's historical significance during the Late Classic period."
+        },
+        {
+          "id": "caca_5",
+          "text": "Hike the Surrounding Grounds",
+          "detail": "Walk the archaeological zone's pathways to spot lesser-known structures and enjoy panoramic views of the Pueblan and Tlaxcalan valleys.",
+          "lat": 19.284,
+          "lng": -97.896
+        },
+        {
+          "id": "caca_6",
+          "text": "Attend a Guided Mural Interpretation Session",
+          "detail": "Join expert guides who explain the symbolic meanings of the glyphs and battle scenes depicted in the frescoes."
+        }
+      ],
+      "food": [
+        {
+          "id": "caca_f1",
+          "text": "Mole Poblano",
+          "detail": "This regional specialty combines chocolate, chiles, and spices in a complex sauce traditionally served with chicken or turkey, reflecting Pueblan culinary heritage."
+        },
+        {
+          "id": "caca_f2",
+          "text": "Chiles Rellenos",
+          "detail": "Fresh poblano peppers stuffed with cheese or meat, dipped in egg batter and served in tomato sauce, a classic Pueblan dish found in nearby restaurants."
+        },
+        {
+          "id": "caca_f3",
+          "text": "Tlacoyos",
+          "detail": "Thick corn tortillas stuffed with beans, cheese, or squash blossoms and topped with salsa, a traditional Central Mexican snack available at local vendors."
+        },
+        {
+          "id": "caca_f4",
+          "text": "Barbacoa de Borrego",
+          "detail": "Slow-roasted lamb wrapped in maguey leaves, a specialty of the Tlaxcalan region traditionally served with tortillas and consomé."
+        },
+        {
+          "id": "caca_f5",
+          "text": "Pulque",
+          "detail": "The fermented sap of the agave plant, a pre-Hispanic beverage still consumed locally in small establishments near the archaeological zone."
+        }
+      ],
+      "culture": [
+        {
+          "id": "caca_c1",
+          "text": "Respect Photo Restrictions in Sacred Areas",
+          "detail": "Some mural zones prohibit photography to protect the pigments; always check signage and follow site attendants' guidance."
+        },
+        {
+          "id": "caca_c2",
+          "text": "Visit Early Morning for Better Light and Fewer Crowds",
+          "detail": "The best viewing of frescoes occurs in early daylight hours, and arriving before 10 a.m. allows quieter exploration of the murals."
+        },
+        {
+          "id": "caca_c3",
+          "text": "Hire a Local Guide for Deeper Understanding",
+          "detail": "English-speaking guides available at the entrance provide invaluable context on Cacaxtla's artistic and historical significance that enriches the experience."
+        },
+        {
+          "id": "caca_c4",
+          "text": "Wear Comfortable Walking Shoes and Sun Protection",
+          "detail": "The site involves climbing uneven stone structures and has limited shade, so sturdy footwear, sunscreen, and a hat are essential."
+        }
+      ]
+    },
+    {
+      "id": "xochicalco",
+      "name": "Xochicalco",
+      "nameIt": "Xochicalco",
+      "lat": 18.8122,
+      "lng": -99.2778,
+      "type": "LANDMARK",
+      "description": "A UNESCO World Heritage archaeological site perched on a hilltop featuring the stunning Pyramid of the Feathered Serpent with intricately carved reliefs and an ancient solar observatory. Its dramatic location and detailed stonework make it one of Mexico's most impressive pre-Hispanic ruins.",
+      "imageQueries": [
+        "Xochicalco pyramid Mexico",
+        "Xochicalco Feathered Serpent"
+      ],
+      "activities": [
+        {
+          "id": "xoch_1",
+          "text": "Explore the Pyramid of the Feathered Serpent",
+          "detail": "Marvel at the main ceremonial structure adorned with intricately carved reliefs depicting the feathered serpent deity and astronomical symbols that dominated the site's religious significance.",
+          "lat": 18.7992,
+          "lng": -99.2758
+        },
+        {
+          "id": "xoch_2",
+          "text": "Visit the Solar Observatory",
+          "detail": "Descend into the underground chamber where ancient astronomers tracked the sun's path through a narrow shaft to observe celestial events and mark important calendar dates.",
+          "lat": 18.7995,
+          "lng": -99.2762
+        },
+        {
+          "id": "xoch_3",
+          "text": "Walk the Hilltop Ceremonial Complex",
+          "detail": "Navigate the elevated plaza area to view multiple pyramids, ball courts, and residential platforms that showcase the site's urban planning and strategic defensive position.",
+          "lat": 18.7988,
+          "lng": -99.276
+        },
+        {
+          "id": "xoch_4",
+          "text": "Study Relief Carvings and Glyphs",
+          "detail": "Examine the detailed stone carvings throughout the site that depict Mesoamerican rulers, calendrical notations, and mythological narratives preserved in remarkable detail."
+        },
+        {
+          "id": "xoch_5",
+          "text": "Enjoy Panoramic Valley Views",
+          "detail": "Take in sweeping vistas of the Morelos and Puebla valleys from the hilltop location, understanding why this strategic position was chosen for the ancient city."
+        },
+        {
+          "id": "xoch_6",
+          "text": "Tour the On-Site Museum",
+          "detail": "Review artifacts, sculptures, and explanatory displays that contextualize the site's history as a major power center between the Classic and Post-Classic periods."
+        }
+      ],
+      "food": [
+        {
+          "id": "xoch_f1",
+          "text": "Mole Poblano",
+          "detail": "This complex sauce combining chilies, spices, chocolate, and nuts represents Puebla's culinary heritage and is a signature dish available in nearby towns."
+        },
+        {
+          "id": "xoch_f2",
+          "text": "Chiles Rellenos",
+          "detail": "Fresh poblano peppers stuffed with cheese or meat, battered and fried, then covered in tomato sauce—a regional specialty from the surrounding area."
+        },
+        {
+          "id": "xoch_f3",
+          "text": "Barbacoa de Borrego",
+          "detail": "Slow-roasted lamb wrapped in maguey leaves, a traditional preparation common in central Mexican cuisine available at local markets and restaurants."
+        },
+        {
+          "id": "xoch_f4",
+          "text": "Tlacoyos",
+          "detail": "Thick corn masa cakes filled with beans, cheese, or requesón, cooked on a griddle and served with salsa and nopales—a popular street food throughout the region."
+        },
+        {
+          "id": "xoch_f5",
+          "text": "Pulque or Mezcal Tasting",
+          "detail": "Sample traditional fermented agave beverages at local establishments, continuing a practice that dates back to pre-Hispanic times in this region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "xoch_c1",
+          "text": "Respect Sacred Spaces",
+          "detail": "Remember that these ruins held deep religious significance for ancient peoples; approach ceremonial areas with reverence and avoid touching carved surfaces to preserve them."
+        },
+        {
+          "id": "xoch_c2",
+          "text": "Visit During Cooler Hours",
+          "detail": "The hilltop location offers little shade; arrive early morning or late afternoon to avoid intense midday heat and enjoy more comfortable exploration."
+        },
+        {
+          "id": "xoch_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While some signage exists in English, the surrounding communities speak Spanish primarily, and guides often explain details more richly in Spanish."
+        },
+        {
+          "id": "xoch_c4",
+          "text": "Bring Adequate Water and Sun Protection",
+          "detail": "The exposed archaeological site provides minimal shelter; visitors should carry plenty of water, sunscreen, and a hat to stay safe during exploration."
+        }
+      ]
+    },
+    {
+      "id": "malinalco",
+      "name": "Malinalco",
+      "nameIt": "Malinalco",
+      "lat": 18.9989,
+      "lng": -99.5039,
+      "type": "TOWN",
+      "description": "A picturesque colonial town built into a hillside with a rare Aztec temple carved directly into rock, the Temple of the Eagle and Jaguar Warriors. The town's artistic character, market, and proximity to nature make it popular with day-trippers from Mexico City.",
+      "imageQueries": [
+        "Malinalco Aztec temple rock",
+        "Malinalco colonial town Mexico"
+      ],
+      "activities": [
+        {
+          "id": "mali_1",
+          "text": "Temple of the Eagle and Jaguar Warriors",
+          "detail": "Climb to this 15th-century Aztec shrine carved directly into the hillside rock face, featuring intricate stone carvings and offering panoramic views of the valley.",
+          "lat": 18.6494,
+          "lng": -99.5061
+        },
+        {
+          "id": "mali_2",
+          "text": "Convent of the Transfiguration",
+          "detail": "Explore this 16th-century colonial monastery with its baroque façade, peaceful cloisters, and religious artwork documenting the Spanish conversion of indigenous peoples.",
+          "lat": 18.6512,
+          "lng": -99.5056
+        },
+        {
+          "id": "mali_3",
+          "text": "Centro Cultural Casa Grande",
+          "detail": "Visit this contemporary art and cultural center housed in a restored colonial mansion, featuring rotating exhibitions of local and regional artists.",
+          "lat": 18.6508,
+          "lng": -99.5068
+        },
+        {
+          "id": "mali_4",
+          "text": "Malinalco Market",
+          "detail": "Browse the vibrant local market filled with handicrafts, textiles, clay pottery, and fresh produce that reflect the region's indigenous artisan traditions.",
+          "lat": 18.652,
+          "lng": -99.5074
+        },
+        {
+          "id": "mali_5",
+          "text": "Hiking to Cerro de los Idolos",
+          "detail": "Trek through pine forests to this hilltop where pre-Hispanic ceremonial sites and stunning vistas of the surrounding mountains await.",
+          "lat": 18.658,
+          "lng": -99.512
+        },
+        {
+          "id": "mali_6",
+          "text": "Tenacatita River Swimming Holes",
+          "detail": "Cool off in natural rock pools and waterfalls along this river that winds through lush vegetation just outside town.",
+          "lat": 18.645,
+          "lng": -99.51
+        }
+      ],
+      "food": [
+        {
+          "id": "mali_f1",
+          "text": "Mole Pipián",
+          "detail": "A traditional sauce made with ground pumpkin seeds, herbs, and chilies served over chicken, representing centuries of Oaxacan-influenced regional cooking."
+        },
+        {
+          "id": "mali_f2",
+          "text": "Barbacoa de Carnero",
+          "detail": "Slow-roasted lamb wrapped in maguey leaves and cooked underground, a ceremonial dish still prepared for festivals and special occasions in the region."
+        },
+        {
+          "id": "mali_f3",
+          "text": "Pulque Fresco",
+          "detail": "The fermented beverage made from maguey sap, traditionally consumed here and often flavored with fruits or nuts at local pulquerías."
+        },
+        {
+          "id": "mali_f4",
+          "text": "Quesadillas de Flor de Calabaza",
+          "detail": "Handmade tortillas filled with squash blossoms, cheese, and epazote, a seasonal specialty reflecting indigenous ingredient traditions."
+        },
+        {
+          "id": "mali_f5",
+          "text": "Pan de Maíz",
+          "detail": "Locally baked corn bread made with traditional stone-ground masa, sold fresh at the market and in family bakeries throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mali_c1",
+          "text": "Dress for hillside terrain",
+          "detail": "Wear comfortable hiking shoes and bring plenty of water, as Malinalco's cobblestone streets and archaeological sites involve significant climbing and uneven walking paths."
+        },
+        {
+          "id": "mali_c2",
+          "text": "Respect sacred spaces",
+          "detail": "The Temple of the Eagle and Jaguar Warriors and surrounding areas remain spiritually significant to local indigenous communities, so be respectful when visiting and follow posted guidelines."
+        },
+        {
+          "id": "mali_c3",
+          "text": "Visit on weekdays for authenticity",
+          "detail": "While weekends draw many Mexico City day-trippers, visiting Tuesday through Thursday allows you to experience the town's local rhythms and market culture more intimately."
+        },
+        {
+          "id": "mali_c4",
+          "text": "Learn basic Spanish",
+          "detail": "Many artisans, market vendors, and residents speak limited English, so basic Spanish phrases will enhance your interactions and appreciation of local crafts."
+        }
+      ]
+    },
+    {
+      "id": "tlatelolco",
+      "name": "Tlatelolco",
+      "nameIt": "Tlatelolco",
+      "lat": 19.4487,
+      "lng": -99.1356,
+      "type": "LANDMARK",
+      "description": "An ancient Aztec marketplace site in Mexico City with overlaid Spanish colonial architecture, including the impressive Santiago Tlatelolco church and pyramid remains. It represents the cultural and architectural fusion that defines Mexico City's history.",
+      "imageQueries": [
+        "Tlatelolco Mexico City ruins",
+        "Santiago Tlatelolco church"
+      ],
+      "activities": [
+        {
+          "id": "tlat_1",
+          "text": "Explore Santiago Tlatelolco Church",
+          "detail": "Tour the 16th-century baroque church built atop the Aztec temple, featuring a striking façade and interior that blend indigenous and Spanish colonial design.",
+          "lat": 25.1452,
+          "lng": -99.136
+        },
+        {
+          "id": "tlat_2",
+          "text": "Climb the Pyramid Remains",
+          "detail": "Ascend the partially excavated Aztec temple pyramid to understand the original pre-Hispanic marketplace layout and gain views of the surrounding plaza.",
+          "lat": 25.1449,
+          "lng": -99.1365
+        },
+        {
+          "id": "tlat_3",
+          "text": "Visit the Museo de Tlatelolco",
+          "detail": "Examine artifacts, codices, and exhibits detailing the Aztec marketplace, Spanish conquest, and colonial period housed in a restored colonial building.",
+          "lat": 25.1451,
+          "lng": -99.1361
+        },
+        {
+          "id": "tlat_4",
+          "text": "Walk the Plaza de las Tres Culturas",
+          "detail": "Stroll through the open plaza surrounded by Aztec ruins, colonial architecture, and modern buildings representing Mexico's layered history.",
+          "lat": 25.145,
+          "lng": -99.1363
+        },
+        {
+          "id": "tlat_5",
+          "text": "Photograph the architectural contrasts",
+          "detail": "Capture compelling images of pre-Columbian stone foundations directly adjacent to Spanish colonial structures and contemporary Mexican architecture.",
+          "lat": 25.1451,
+          "lng": -99.136
+        },
+        {
+          "id": "tlat_6",
+          "text": "Attend evening light shows",
+          "detail": "Experience projected historical narratives and architectural illuminations that bring Tlatelolco's layered past to life after sunset."
+        }
+      ],
+      "food": [
+        {
+          "id": "tlat_f1",
+          "text": "Tlatelolco market tamales",
+          "detail": "Seek freshly made tamales from street vendors near the plaza, traditionally filled with chicken, mole, or rajas, continuing the marketplace's ancient food-trading tradition."
+        },
+        {
+          "id": "tlat_f2",
+          "text": "Esquites (corn in cream)",
+          "detail": "Try this beloved street snack of corn kernels in creamy sauce with cotija cheese and chili, sold by vendors throughout the plaza."
+        },
+        {
+          "id": "tlat_f3",
+          "text": "Mole negro oaxaqueño",
+          "detail": "Sample this complex, dark mole sauce blending indigenous and Spanish influences, often served with chicken at nearby restaurants."
+        },
+        {
+          "id": "tlat_f4",
+          "text": "Chilaquiles verdes",
+          "detail": "Enjoy fried tortilla strips smothered in green salsa, cream, and cheese—a quintessential Mexico City breakfast found at adjacent eateries."
+        },
+        {
+          "id": "tlat_f5",
+          "text": "Atole and pan de muerto (seasonal)",
+          "detail": "During Day of the Dead season, taste this indigenous corn drink paired with traditional bread at local stands honoring Mesoamerican heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tlat_c1",
+          "text": "Respect the sacred layering",
+          "detail": "Understand that Tlatelolco represents deep spiritual continuity for many Mexicans; tread respectfully on both Aztec and colonial sacred spaces."
+        },
+        {
+          "id": "tlat_c2",
+          "text": "Visit early or on weekday mornings",
+          "detail": "Arrive before crowds gather to experience the plaza's contemplative atmosphere and better photograph the architectural details without congestion."
+        },
+        {
+          "id": "tlat_c3",
+          "text": "Learn the conquest narrative context",
+          "detail": "Tlatelolco was the site of the final Aztec resistance in 1521; understanding this history enriches appreciation of the site's emotional and cultural significance."
+        },
+        {
+          "id": "tlat_c4",
+          "text": "Speak Spanish for richer interactions",
+          "detail": "While English is spoken by some staff, conversing in Spanish with vendors and locals deepens connection to community traditions and marketplace culture."
+        }
+      ]
+    },
+    {
+      "id": "toluca",
+      "name": "Toluca",
+      "nameIt": "Toluca de Lerdo",
+      "lat": 19.2827,
+      "lng": -99.6547,
+      "type": "CITY",
+      "description": "The capital of Mexico State with a rich cultural heritage, excellent museums including the Museum of Contemporary Art, and proximity to the volcanic landscape of Nevado de Toluca. It serves as a gateway to alpine activities and features important colonial architecture.",
+      "imageQueries": [
+        "Toluca Mexico museum",
+        "Toluca city Mexico State"
+      ],
+      "activities": [
+        {
+          "id": "tolu_1",
+          "text": "Nevado de Toluca National Park",
+          "detail": "Explore Mexico's fourth-highest volcano with alpine meadows, crater lakes, and hiking trails offering panoramic views of the surrounding valleys.",
+          "lat": 19.1097,
+          "lng": -99.7589
+        },
+        {
+          "id": "tolu_2",
+          "text": "Museum of Contemporary Art (MARCO)",
+          "detail": "Browse rotating exhibitions of modern Mexican and international art in a striking glass building located in the city center.",
+          "lat": 19.2854,
+          "lng": -99.6549
+        },
+        {
+          "id": "tolu_3",
+          "text": "Toluca Cathedral & Historic Center",
+          "detail": "Walk through the colonial-era downtown featuring the 18th-century Catedral Metropolitana and surrounding plazas with preserved architectural heritage.",
+          "lat": 19.2867,
+          "lng": -99.6575
+        },
+        {
+          "id": "tolu_4",
+          "text": "Cosmovitral Botanical Garden",
+          "detail": "Visit this art nouveau structure housing exotic plants and flowers, famous for its stained-glass ceiling depicting mystical and natural themes.",
+          "lat": 19.2844,
+          "lng": -99.6624
+        },
+        {
+          "id": "tolu_5",
+          "text": "Friday Market (Tianguis del Viernes)",
+          "detail": "Experience one of Mexico's largest indigenous markets with traditional textiles, crafts, fresh produce, and local food stalls.",
+          "lat": 19.2835,
+          "lng": -99.6501
+        },
+        {
+          "id": "tolu_6",
+          "text": "Calimaya Museum",
+          "detail": "Explore pre-Hispanic artifacts, colonial art, and ethnographic collections housed in a restored 16th-century mansion.",
+          "lat": 19.2851,
+          "lng": -99.6563
+        }
+      ],
+      "food": [
+        {
+          "id": "tolu_f1",
+          "text": "Chorizo Tolucano",
+          "detail": "A distinctive spiced pork sausage unique to the region, grilled and served with warm tortillas and jalapeños for a traditional breakfast or street food."
+        },
+        {
+          "id": "tolu_f2",
+          "text": "Quesadillas de Hongos",
+          "detail": "Handmade corn tortilla quesadillas stuffed with wild mushrooms foraged from the high-altitude forests surrounding Toluca."
+        },
+        {
+          "id": "tolu_f3",
+          "text": "Chinicuiles",
+          "detail": "Edible maguey worms served as a delicacy, typically sautéed with garlic and onions or included in tacos as a protein-rich local specialty."
+        },
+        {
+          "id": "tolu_f4",
+          "text": "Tamales de Rajas",
+          "detail": "Steamed corn masa wrapped around poblano pepper strips and cheese, a warming traditional dish particularly popular in the cooler mountain climate."
+        },
+        {
+          "id": "tolu_f5",
+          "text": "Pulque",
+          "detail": "The fermented sap of the maguey plant, traditionally consumed as a milky beverage in local pulquerías and markets throughout the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tolu_c1",
+          "text": "Market Etiquette at Tianguis",
+          "detail": "Haggling is expected and welcomed at the Friday market; vendors appreciate respectful negotiation, and arriving early morning yields the best selection and prices."
+        },
+        {
+          "id": "tolu_c2",
+          "text": "High Altitude Preparation",
+          "detail": "Toluca sits at 2,680 meters elevation; allow time to acclimatize, stay hydrated, and take activities slowly to avoid altitude sickness during your visit."
+        },
+        {
+          "id": "tolu_c3",
+          "text": "Nevado Weather & Timing",
+          "detail": "Access to Nevado de Toluca is typically best from May to October; arrive early as mountain weather changes rapidly and roads may close due to fog or snow."
+        },
+        {
+          "id": "tolu_c4",
+          "text": "Indigenous Heritage",
+          "detail": "The region has strong Mazahua and Otomí indigenous populations; purchasing directly from market vendors and attending local festivals respectfully supports traditional communities."
+        }
+      ]
+    },
+    {
+      "id": "taxco",
+      "name": "Taxco",
+      "nameIt": "Taxco de Alarcón",
+      "lat": 18.5524,
+      "lng": -99.6113,
+      "type": "TOWN",
+      "description": "A stunning hillside colonial town famous for its silver jewelry production and dramatic architecture draped across steep terrain, dominated by the whitewashed Santa Prisca Church. It's a popular destination for shopping, photography, and experiencing traditional colonial Mexican aesthetics.",
+      "imageQueries": [
+        "Taxco colonial town Mexico",
+        "Santa Prisca Church Taxco"
+      ],
+      "activities": [
+        {
+          "id": "taxc_1",
+          "text": "Santa Prisca Church",
+          "detail": "Marvel at the elaborate 18th-century Baroque façade and gilded interior of Taxco's iconic whitewashed church dominating the main plaza.",
+          "lat": 18.5517,
+          "lng": -99.6408
+        },
+        {
+          "id": "taxc_2",
+          "text": "Silver Workshop Tours",
+          "detail": "Visit family-run taller (workshop) studios in the historic center to watch artisans crafting jewelry using traditional techniques passed down through generations.",
+          "lat": 18.552,
+          "lng": -99.641
+        },
+        {
+          "id": "taxc_3",
+          "text": "Museo de la Platería Guillermo Spratling",
+          "detail": "Explore Mexico's premier silver museum showcasing pre-Columbian pieces and the evolution of Taxco's jewelry craft from the 1930s onward.",
+          "lat": 18.5525,
+          "lng": -99.6415
+        },
+        {
+          "id": "taxc_4",
+          "text": "Plazuela de Bernal",
+          "detail": "Wander this charming secondary plaza with colonial arcades, local artisan stalls, and cafés offering views down Taxco's steep cobblestone streets.",
+          "lat": 18.551,
+          "lng": -99.642
+        },
+        {
+          "id": "taxc_5",
+          "text": "Cable Car Ride to Teleférico",
+          "detail": "Ascend the hillside via cable car for sweeping panoramic views of the entire town and surrounding mountains, especially stunning at sunset.",
+          "lat": 18.55,
+          "lng": -99.64
+        },
+        {
+          "id": "taxc_6",
+          "text": "Mercado Central",
+          "detail": "Browse the covered market for local crafts, textiles, dried chiles, and prepared foods while experiencing everyday Taxco life beyond the tourist center.",
+          "lat": 18.5515,
+          "lng": -99.6425
+        },
+        {
+          "id": "taxc_7",
+          "text": "Taxco Walking Tour of Barrios",
+          "detail": "Explore narrow alleyways and residential neighborhoods like Barrio Viejo to see colonial architecture, local shrines, and authentic community spaces away from main plazas."
+        }
+      ],
+      "food": [
+        {
+          "id": "taxc_f1",
+          "text": "Pozole Rojo",
+          "detail": "A hearty traditional stew of hominy and pork topped with shredded cabbage, radish, lime, and crispy tostadas, served especially on Sundays and feast days."
+        },
+        {
+          "id": "taxc_f2",
+          "text": "Enchiladas Taxqueñas",
+          "detail": "Tortillas dipped in local mole negro and filled with chicken, then topped with crema and fresh cheese, a signature preparation specific to the region."
+        },
+        {
+          "id": "taxc_f3",
+          "text": "Barbacoa de Borrego",
+          "detail": "Slow-roasted lamb wrapped in maguey leaves and cooked in an underground pit, served in the market and at family comedores with consomé broth."
+        },
+        {
+          "id": "taxc_f4",
+          "text": "Chiles Rellenos con Queso de Bola",
+          "detail": "Poblano peppers stuffed with Oaxaca cheese (queso de bola), battered and fried, then smothered in tomato sauce, reflecting regional cheese traditions."
+        },
+        {
+          "id": "taxc_f5",
+          "text": "Tejate (Tejate Taxqueño)",
+          "detail": "A pre-Hispanic corn and cacao beverage served cold with cinnamon and sugar, sometimes found at markets and traditional celebrations in the cooler mountain climate."
+        },
+        {
+          "id": "taxc_f6",
+          "text": "Tamales de Rajas",
+          "detail": "Corn masa tamales filled with roasted poblano peppers and fresh cheese, wrapped in corn husks and steamed, a local staple sold by street vendors in early morning."
+        }
+      ],
+      "culture": [
+        {
+          "id": "taxc_c1",
+          "text": "Silver is Currency Here",
+          "detail": "Nearly every storefront and conversation involves silver jewelry; haggling is expected and culturally normal, especially in workshops and smaller stalls away from tourist-marked shops."
+        },
+        {
+          "id": "taxc_c2",
+          "text": "Steep Terrain Requires Patience",
+          "detail": "Taxco's steep cobblestone streets demand comfortable walking shoes and a slow pace; many locals navigate by memory and centuries-old shortcuts, so getting lost is part of the experience."
+        },
+        {
+          "id": "taxc_c3",
+          "text": "Colonial Siesta Tradition",
+          "detail": "Many small shops and restaurants close midday (1–4 PM) for comida and rest; plan major activities for morning or late afternoon to align with local rhythms."
+        },
+        {
+          "id": "taxc_c4",
+          "text": "Fiesta de Santa Prisca (January)",
+          "detail": "The town's major religious and cultural celebration honoring its patron saint features processions, fireworks, regional food stalls, and fills accommodations weeks in advance."
+        }
+      ]
+    },
+    {
+      "id": "teotihuacan",
+      "name": "Teotihuacán",
+      "nameIt": "Teotihuacán",
+      "lat": 19.6924,
+      "lng": -98.8449,
+      "type": "LANDMARK",
+      "description": "One of the world's largest pre-Hispanic city ruins featuring the iconic Pyramids of the Sun and Moon and the Avenue of the Dead, offering insights into an advanced pre-Aztec civilization. Its monumental scale and mysterious history make it one of Mexico's most visited archaeological sites.",
+      "imageQueries": [
+        "Pyramid of the Sun Teotihuacán",
+        "Teotihuacán Avenue of the Dead"
+      ],
+      "activities": [
+        {
+          "id": "teot_1",
+          "text": "Climb the Pyramid of the Sun",
+          "detail": "Ascend the 65-meter (213-foot) pre-Hispanic pyramid for panoramic views of the entire archaeological complex and surrounding landscape.",
+          "lat": 19.6848,
+          "lng": -98.8447
+        },
+        {
+          "id": "teot_2",
+          "text": "Walk the Avenue of the Dead",
+          "detail": "Traverse the 2-kilometer ceremonial thoroughfare that connects the Pyramids of the Sun and Moon, lined with smaller pyramids and palaces.",
+          "lat": 19.6868,
+          "lng": -98.8438
+        },
+        {
+          "id": "teot_3",
+          "text": "Explore the Pyramid of the Moon",
+          "detail": "Visit the northern temple complex and climb to its summit for intimate views of the Avenue of the Dead and architectural details of ritual spaces.",
+          "lat": 19.6958,
+          "lng": -98.8438
+        },
+        {
+          "id": "teot_4",
+          "text": "Visit the Museo de la Cultura Teotihuacana",
+          "detail": "Examine artifacts, jade masks, pottery, and obsidian tools that reveal daily life and religious practices of the ancient city's inhabitants.",
+          "lat": 19.6888,
+          "lng": -98.8447
+        },
+        {
+          "id": "teot_5",
+          "text": "Explore the Palace of Quetzalpapalotl",
+          "detail": "Discover a well-preserved elite residential compound with intricate stone carvings of feathered serpents and mythological creatures near the Pyramid of the Moon.",
+          "lat": 19.6945,
+          "lng": -98.8445
+        },
+        {
+          "id": "teot_6",
+          "text": "Tour the Temple of Quetzalcoatl",
+          "detail": "Study the ornate carved serpent heads and geometric patterns of this important religious structure in the Citadel complex, showcasing advanced artistic craftsmanship.",
+          "lat": 19.6778,
+          "lng": -98.8438
+        }
+      ],
+      "food": [
+        {
+          "id": "teot_f1",
+          "text": "Pulque",
+          "detail": "Sample this pre-Hispanic fermented agave drink still produced locally and consumed traditionally as an offering to the gods and during ceremonial occasions."
+        },
+        {
+          "id": "teot_f2",
+          "text": "Barbacoa de Borrego",
+          "detail": "Try slow-roasted lamb wrapped in maguey leaves, a regional specialty reflecting centuries of cooking traditions in the highland valleys surrounding Teotihuacán."
+        },
+        {
+          "id": "teot_f3",
+          "text": "Tlacoyos",
+          "detail": "Enjoy these thick corn cakes stuffed with beans, requesón, or squash blossoms, sold at local markets and food stands throughout the archaeological site."
+        },
+        {
+          "id": "teot_f4",
+          "text": "Mole Poblano",
+          "detail": "Taste the complex sauce of 20+ ingredients including chilies, chocolate, and spices served with chicken or turkey, representing Pueblan culinary heritage."
+        },
+        {
+          "id": "teot_f5",
+          "text": "Quesadillas with Huitlacoche",
+          "detail": "Sample corn fungus, considered a delicacy since pre-Hispanic times and prepared with epazote and served in fresh tortillas at market vendors."
+        },
+        {
+          "id": "teot_f6",
+          "text": "Nopal and Chapulines",
+          "detail": "Enjoy grilled cactus paddle and roasted grasshoppers seasoned with lime and salt, traditional foods that sustained the ancient Teotihuacán people."
+        }
+      ],
+      "culture": [
+        {
+          "id": "teot_c1",
+          "text": "Arrive Early for Solitude",
+          "detail": "Visit at dawn or on weekdays to experience the ruins with fewer crowds and better conditions for climbing pyramids and photographing archaeological features."
+        },
+        {
+          "id": "teot_c2",
+          "text": "Respect Archaeological Restrictions",
+          "detail": "Stay on designated pathways, do not touch or remove artifacts, and follow guide instructions, as the site is sacred to indigenous communities and a protected UNESCO World Heritage site."
+        },
+        {
+          "id": "teot_c3",
+          "text": "Bring Sun Protection and Water",
+          "detail": "The site offers minimal shade and high altitude exposure; wear sunscreen, hats, and carry plenty of water as the thin mountain air (2,250 meters) and intense sun intensify quickly."
+        },
+        {
+          "id": "teot_c4",
+          "text": "Learn Basic Spanish for Local Interaction",
+          "detail": "While guides and vendors speak some English, learning simple phrases helps respectfully engage with local artisans, food vendors, and unlocks deeper cultural conversations about the site's significance."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Contramar",
+      "address": "Avenida México 239, Centro",
+      "neighbourhood": "Coyoacán, Mexico City",
+      "cuisine": "Mexican Contemporary",
+      "priceRange": "€€€€",
+      "description": "Iconic chef Gabriela Cámara's seafood-focused restaurant set in a colonial house with a lush garden.",
+      "mustOrder": "Grilled fish of the day with herb sauce",
+      "lat": 19.0214,
+      "lng": -99.1614
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Pujol",
+      "address": "Calle Eugenia 14, Polanco",
+      "neighbourhood": "Polanco, Mexico City",
+      "cuisine": "Mexican Fine Dining",
+      "priceRange": "€€€€",
+      "description": "World-renowned temple of haute Mexican cuisine in an intimate setting with interactive tasting menus.",
+      "mustOrder": "Mole negro with tortilla and edible soil",
+      "lat": 19.4329,
+      "lng": -99.1988
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Fonda Fina",
+      "address": "Calle Sur 6 #401, Centro Histórico",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Puebla Traditional",
+      "priceRange": "€€",
+      "description": "Charming family-run fondita serving authentic Puebla classics in a restored colonial building.",
+      "mustOrder": "Mole poblano with chicken",
+      "lat": 19.0327,
+      "lng": -98.2324
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "La Pasión por la Cocina",
+      "address": "Calle 3 Oriente 510, Centro",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Contemporary Mexican",
+      "priceRange": "€€€",
+      "description": "Creative kitchen celebrating Puebla ingredients with modern techniques in an intimate historic setting.",
+      "mustOrder": "Huitlacoche tamal with Mexican truffle",
+      "lat": 19.0344,
+      "lng": -98.2297
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Casa Santo Domingo",
+      "address": "Avenida 2 Poniente 103, Centro Histórico",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Mexican Gourmet",
+      "priceRange": "€€€€",
+      "description": "Fine dining restaurant within a converted convent with refined dishes showcasing regional Puebla products.",
+      "mustOrder": "Chiles en nogada (seasonal)",
+      "lat": 19.0375,
+      "lng": -98.2309
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "El Meson del Molcajete",
+      "address": "Calle Maximino Avila Camacho 308, Centro",
+      "neighbourhood": "Tlaxcala City",
+      "cuisine": "Tlaxcala Traditional",
+      "priceRange": "€€",
+      "description": "Casual restaurant specializing in stone mortar dishes and authentic Tlaxcalan barbacoa traditions.",
+      "mustOrder": "Barbacoa de borrego with consomé",
+      "lat": 19.3184,
+      "lng": -98.2394
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Atún Atún",
+      "address": "Calle 2 Oriente 11, Centro",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Popular casual seafood spot in the historic center with fresh daily catches and ceviche specialties.",
+      "mustOrder": "Ceviche mixto with crispy tortilla",
+      "lat": 19.0355,
+      "lng": -98.2305
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "La Antigua Taberna",
+      "address": "Avenida Cholula 4808, Centro Comercial",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Spanish-Mexican Fusion",
+      "priceRange": "€€€",
+      "description": "Colonial-style tavern blending Spanish heritage with Puebla traditions in a charming historic building.",
+      "mustOrder": "Costillas al horno with mole rojo",
+      "lat": 19.0298,
+      "lng": -98.1967
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Xochi",
+      "address": "Avenida Paseo de la Reforma 505, Cuauhtémoc",
+      "neighbourhood": "Mexico City",
+      "cuisine": "Mexican Indigenous",
+      "priceRange": "€€€€",
+      "description": "Chef Rodolfo Guzmán's radical indigenous Mexican cuisine exploring pre-Hispanic ingredients and techniques.",
+      "mustOrder": "Tejate (pre-Hispanic drink) with seasonal preparation",
+      "lat": 19.4352,
+      "lng": -99.1861
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Casa Poblana",
+      "address": "Calle 6 Oriente 416, Centro Histórico",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Regional Puebla",
+      "priceRange": "€€",
+      "description": "Homestyle cooking celebrating Puebla's culinary heritage in an intimate colonial courtyard setting.",
+      "mustOrder": "Pipián with chicken and tortillas",
+      "lat": 19.0346,
+      "lng": -98.2274
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Restaurante Sacristía de Santa Rosa",
+      "address": "Calle 3 Poniente 303, Centro",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Puebla Haute Cuisine",
+      "priceRange": "€€€€",
+      "description": "Elegant fine dining in a restored 16th-century baroque chapel featuring refined interpretations of regional classics.",
+      "mustOrder": "Chile poblano relleno de queso oaxaca",
+      "lat": 19.0356,
+      "lng": -98.235
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Quintonil",
+      "address": "Avenida Paseo de la Reforma 222, Juárez",
+      "neighbourhood": "Mexico City",
+      "cuisine": "Contemporary Mexican",
+      "priceRange": "€€€€",
+      "description": "Chef Jorge Vallejo's revolutionary restaurant focusing on seasonal Mexican ingredients with artistic presentations.",
+      "mustOrder": "Charred corn with crispy pork and epazote",
+      "lat": 19.4299,
+      "lng": -99.1686
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Cholula Gourmet",
+      "address": "Calle 3 Poniente 207, Centro",
+      "neighbourhood": "Cholula, Puebla",
+      "cuisine": "Contemporary Mexican",
+      "priceRange": "€€€",
+      "description": "Sophisticated dining near the Great Pyramid with innovative takes on traditional Cholula and Puebla dishes.",
+      "mustOrder": "Mole with local chocolate and chiles",
+      "lat": 19.0629,
+      "lng": -98.3045
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Mesón del Ángel",
+      "address": "Calle Oriente 6 #107, Centro Histórico",
+      "neighbourhood": "Puebla City",
+      "cuisine": "Traditional Mexican",
+      "priceRange": "€",
+      "description": "Budget-friendly traditional market-style eatery serving authentic working-person's Puebla cuisine daily.",
+      "mustOrder": "Tamales verdes with fresh cheese",
+      "lat": 19.0342,
+      "lng": -98.2281
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "La Casona de Tita",
+      "address": "Calle 2 Norte 3, Centro",
+      "neighbourhood": "San Martín Texmelucan, Puebla",
+      "cuisine": "Puebla Regional",
+      "priceRange": "€€",
+      "description": "Family-owned traditional kitchen in a colonial mansion specializing in authentic Texmelucan and Puebla cooking.",
+      "mustOrder": "Barbacoa with pan de muerto",
+      "lat": 19.145,
+      "lng": -98.3664
+    }
+  ]
+}

@@ -1,0 +1,1598 @@
+{
+  "id": "luxor_thebes",
+  "name": "Luxor & Thebes",
+  "nameIt": "الأقصر وطيبة",
+  "capital": "Luxor",
+  "lat": 25.6872,
+  "lng": 32.6396,
+  "emoji": "👑",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 26.2,
+    "south": 25.2,
+    "east": 33,
+    "west": 32
+  },
+  "history": "Luxor, ancient Thebes, served as the capital of Egypt during the New Kingdom and was one of the world's greatest cities, home to the pharaohs of the 18th through 20th dynasties. The city was the religious and political heart of Egypt, with the magnificent temples of Karnak and Luxor dominating its landscape as centers of worship and royal power. As the empire declined, Thebes gradually lost prominence, though its temples remained pilgrimage sites throughout antiquity. The modern city of Luxor has grown around these monumental ruins, preserving them as some of Egypt's most significant archaeological treasures.",
+  "culturalNotes": "Luxor embodies the grandeur of pharaonic Egypt, where ancient temples and tombs define the character of daily life and tourism. The local population takes pride in their heritage, and traditional craftswork including papyrus painting, stone carving, and textiles reflects centuries of artistic tradition passed down through families. The rhythm of life here is shaped by the Nile and the seasons, with the region maintaining strong connections to Islamic and Egyptian customs alongside its ancient history.",
+  "bestTimeToVisit": "October to April offers comfortable weather for exploring pharaonic temples and tombs.",
+  "languageNotes": "Egyptian Arabic is spoken in Luxor, with a southern Upper Egyptian dialect that differs somewhat from Cairo Arabic. Useful phrases include 'As-salamu alaikum' for greeting, 'Shukran' for thank you, and 'Aywa' for yes, which will earn appreciation from local residents.",
+  "generatedAt": "2026-07-11T07:53:45.938Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "luxor_city",
+      "name": "Luxor",
+      "nameIt": "الأقصر",
+      "lat": 25.2854,
+      "lng": 32.6421,
+      "type": "CITY",
+      "description": "The modern city of Luxor sits on the east bank of the Nile and serves as the primary hub for visiting ancient Thebes. It offers excellent hotels, restaurants, and access to the region's most spectacular monuments.",
+      "imageQueries": [
+        "Luxor city Nile Egypt",
+        "Luxor waterfront temples"
+      ],
+      "activities": [
+        {
+          "id": "luxo_1",
+          "text": "Karnak Temple Complex",
+          "detail": "Explore the massive temple precinct with towering pylons, the Great Hypostyle Hall, and sacred lake, dedicated primarily to Amun-Ra and spanning over 3,000 years of construction.",
+          "lat": 25.7397,
+          "lng": 32.6637
+        },
+        {
+          "id": "luxo_2",
+          "text": "Luxor Temple",
+          "detail": "Visit this beautifully preserved temple on the east bank with colossal statues of Ramesses II and an avenue of sphinxes connecting it to Karnak.",
+          "lat": 25.7299,
+          "lng": 32.6395
+        },
+        {
+          "id": "luxo_3",
+          "text": "Valley of the Kings",
+          "detail": "Cross the Nile to explore the royal necropolis carved into rock cliffs, containing the tombs of pharaohs including Tutankhamun, accessible via ferry from the west bank.",
+          "lat": 25.7404,
+          "lng": 32.6027
+        },
+        {
+          "id": "luxo_4",
+          "text": "Valley of the Queens",
+          "detail": "Discover the burial sites of royal wives and children on the west bank, featuring vibrant paintings and smaller but elegantly decorated tombs.",
+          "lat": 25.7497,
+          "lng": 32.5993
+        },
+        {
+          "id": "luxo_5",
+          "text": "Mortuary Temple of Hatshepsut",
+          "detail": "Admire this iconic terraced temple dedicated to the female pharaoh, rising dramatically from the desert floor with remarkable limestone colonnades.",
+          "lat": 25.7401,
+          "lng": 32.6062
+        },
+        {
+          "id": "luxo_6",
+          "text": "Colossi of Memnon",
+          "detail": "Stand before these two massive seated statues of Amenhotep III guarding the entrance to his mortuary temple on the west bank.",
+          "lat": 25.7365,
+          "lng": 32.6098
+        },
+        {
+          "id": "luxo_7",
+          "text": "Luxor Museum",
+          "detail": "View well-curated Egyptian artifacts including statues, reliefs, and mummies in a modern setting overlooking the Nile.",
+          "lat": 25.7285,
+          "lng": 32.644
+        },
+        {
+          "id": "luxo_8",
+          "text": "Nile River Felucca Sailing",
+          "detail": "Take a traditional wooden sailboat at sunset or sunrise to experience the river and landscape as ancient Egyptians did.",
+          "lat": 25.733,
+          "lng": 32.642
+        }
+      ],
+      "food": [
+        {
+          "id": "luxo_f1",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian street food combining rice, lentils, pasta, chickpeas, and tomato sauce topped with crispy fried onions and spiced vinegar."
+        },
+        {
+          "id": "luxo_f2",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic, lemon, and olive oil, typically eaten for breakfast with bread and fresh vegetables."
+        },
+        {
+          "id": "luxo_f3",
+          "text": "Stuffed Pigeon (Hamam Mahshi)",
+          "detail": "Whole pigeon filled with rice, herbs, and spices, then roasted until golden, a specialty dish served in upscale restaurants along the Nile."
+        },
+        {
+          "id": "luxo_f4",
+          "text": "Fresh Nile Tilapia (Samak)",
+          "detail": "Grilled whole fish caught fresh from the Nile, seasoned simply with lemon, garlic, and herbs, best enjoyed at riverside restaurants."
+        },
+        {
+          "id": "luxo_f5",
+          "text": "Basboosa",
+          "detail": "A sweet coconut and semolina cake soaked in sugar syrup and topped with an almond, commonly found in local bakeries and cafes."
+        },
+        {
+          "id": "luxo_f6",
+          "text": "Ta'ameya",
+          "detail": "Egyptian-style falafel made from fava beans rather than chickpeas, crispy outside and creamy inside, served in pita bread with tahini sauce."
+        }
+      ],
+      "culture": [
+        {
+          "id": "luxo_c1",
+          "text": "Dress Modestly in Religious Spaces",
+          "detail": "Wear long pants or skirts and cover shoulders when visiting temples and mosques as a sign of respect for sacred sites."
+        },
+        {
+          "id": "luxo_c2",
+          "text": "Haggle in Markets",
+          "detail": "Bargaining is expected and enjoyed in local souks and shops; start at half the asking price and work toward a mutually agreeable figure."
+        },
+        {
+          "id": "luxo_c3",
+          "text": "Greet with 'As-salamu alaikum'",
+          "detail": "Using the traditional Islamic greeting meaning 'peace be upon you' shows respect and will be warmly received by locals throughout Luxor."
+        },
+        {
+          "id": "luxo_c4",
+          "text": "Hire a Licensed Egyptologist Guide",
+          "detail": "Many monuments are best understood with expert interpretation; official guides provide deep historical context and access to restricted areas within temples."
+        }
+      ]
+    },
+    {
+      "id": "valley_of_kings",
+      "name": "Valley of the Kings",
+      "nameIt": "وادي الملوك",
+      "lat": 25.2404,
+      "lng": 32.602,
+      "type": "LANDMARK",
+      "description": "This vast necropolis on the west bank contains 62 royal tombs carved into rock cliffs, including the famous tomb of Tutankhamun. It remains the most iconic archaeological site in Egypt and a must-see for understanding pharaonic burial practices.",
+      "imageQueries": [
+        "Valley of the Kings tombs",
+        "Valley of the Kings Tutankhamun"
+      ],
+      "activities": [
+        {
+          "id": "vall_1",
+          "text": "Tutankhamun's Tomb (KV62)",
+          "detail": "Explore the most famous royal tomb in the Valley, containing the nearly intact burial of the young pharaoh with his treasures still partially on display within the tomb.",
+          "lat": 25.7404,
+          "lng": 32.6036
+        },
+        {
+          "id": "vall_2",
+          "text": "Ramesses VI Tomb (KV9)",
+          "detail": "Walk through one of the largest and most elaborately decorated tombs in the Valley with stunning wall paintings and hieroglyphic inscriptions spanning multiple chambers.",
+          "lat": 25.7406,
+          "lng": 32.6041
+        },
+        {
+          "id": "vall_3",
+          "text": "Tomb of Thutmose III (KV34)",
+          "detail": "Climb the steep staircase into this secluded tomb hidden high in the cliffs, featuring the unique cartography of the cosmos on its ceiling.",
+          "lat": 25.7428,
+          "lng": 32.6052
+        },
+        {
+          "id": "vall_4",
+          "text": "Valley of the Kings Visitor Center",
+          "detail": "Begin your visit at this modern museum and orientation center to learn about the tombs, burial practices, and pharaonic history before exploring the necropolis.",
+          "lat": 25.738,
+          "lng": 32.5997
+        },
+        {
+          "id": "vall_5",
+          "text": "Tomb of Seti I (KV7)",
+          "detail": "Descend into one of the deepest and most beautifully preserved tombs, featuring intricate reliefs and the famous astronomical ceiling in the burial chamber.",
+          "lat": 25.7418,
+          "lng": 32.6028
+        },
+        {
+          "id": "vall_6",
+          "text": "Valley of the Queens (Wadi al-Harim)",
+          "detail": "Visit this adjacent necropolis across the valley to see the tombs of royal wives and children, including the impressive tomb of Nefertari.",
+          "lat": 25.7531,
+          "lng": 32.5987
+        },
+        {
+          "id": "vall_7",
+          "text": "Sunrise viewpoint from cliff tops",
+          "detail": "Hike to the elevated ridges surrounding the Valley for panoramic views of the necropolis and West Bank landscape at dawn.",
+          "lat": 25.745,
+          "lng": 32.608
+        }
+      ],
+      "food": [
+        {
+          "id": "vall_f1",
+          "text": "Koshari",
+          "detail": "This Egyptian comfort food combines lentils, rice, pasta, and chickpeas topped with spiced tomato sauce and vinegar, commonly sold at cafés near the Valley entrance."
+        },
+        {
+          "id": "vall_f2",
+          "text": "Ful medames",
+          "detail": "A traditional breakfast staple of slow-cooked fava beans served with olive oil and eaten with fresh pita bread, deeply rooted in Egyptian culture."
+        },
+        {
+          "id": "vall_f3",
+          "text": "Grilled kofta and lamb kebab",
+          "detail": "Freshly grilled meat kebabs seasoned with cumin and herbs, served at local restaurants near the visitor center with traditional Egyptian accompaniments."
+        },
+        {
+          "id": "vall_f4",
+          "text": "Falafel sandwiches",
+          "detail": "Deep-fried chickpea patties stuffed into pita with tahini sauce, fresh vegetables, and pickles, available at casual eateries throughout the Valley area."
+        },
+        {
+          "id": "vall_f5",
+          "text": "Fresh mango juice and hibiscus tea",
+          "detail": "Refreshing local beverages made from seasonal Egyptian mangoes and dried hibiscus flowers, essential for rehydration during hot days exploring the tombs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vall_c1",
+          "text": "Respect sacred spaces",
+          "detail": "Understand that you are walking through an ancient necropolis and sacred burial ground; move respectfully, keep voices low, and never touch tomb walls or artifacts."
+        },
+        {
+          "id": "vall_c2",
+          "text": "Hire a licensed Egyptologist guide",
+          "detail": "A knowledgeable guide dramatically enhances your experience by explaining hieroglyphics, burial practices, and the significance of various chambers and artwork in the tombs."
+        },
+        {
+          "id": "vall_c3",
+          "text": "Dress modestly and prepare for heat",
+          "detail": "Wear long, loose-fitting light-colored clothing to respect local customs and protect yourself from intense sun exposure; bring substantial water and sun protection."
+        },
+        {
+          "id": "vall_c4",
+          "text": "Understand ticket and photography rules",
+          "detail": "Note that tickets for individual tombs must be purchased separately, photography inside tombs may be prohibited or restricted, and some chambers require separate paid access."
+        }
+      ]
+    },
+    {
+      "id": "karnak_temple",
+      "name": "Karnak Temple",
+      "nameIt": "معبد الكرنك",
+      "lat": 25.3186,
+      "lng": 32.663,
+      "type": "LANDMARK",
+      "description": "This massive temple complex dedicated to Amun-Ra is the largest religious structure ever built, featuring towering pylons, colossal statues, and the hypostyle hall with 134 columns. Walking through Karnak is essential to comprehending the scale and ambition of ancient Egyptian architecture.",
+      "imageQueries": [
+        "Karnak Temple columns Egypt",
+        "Karnak hypostyle hall"
+      ],
+      "activities": [
+        {
+          "id": "karn_1",
+          "text": "Explore the Great Hypostyle Hall",
+          "detail": "Walk among 134 towering columns in the temple's most iconic chamber, where sunlight filters through the clerestory to illuminate hieroglyphic carvings on the walls.",
+          "lat": 25.7404,
+          "lng": 32.6589
+        },
+        {
+          "id": "karn_2",
+          "text": "Visit the Sacred Lake",
+          "detail": "Stroll around this rectangular reservoir where priests once purified themselves before rituals, offering a peaceful contrast to the monumental structures.",
+          "lat": 25.7393,
+          "lng": 32.6605
+        },
+        {
+          "id": "karn_3",
+          "text": "Climb the Pylons",
+          "detail": "Ascend the massive mud-brick and stone pylons, particularly the First and Second Pylons, for elevated views of the temple complex and the Nile Valley beyond.",
+          "lat": 25.741,
+          "lng": 32.657
+        },
+        {
+          "id": "karn_4",
+          "text": "Examine the Obelisk of Thutmose I",
+          "detail": "Study this single surviving 66-foot granite obelisk in the Central Court, one of the finest examples of ancient Egyptian monumental art still standing at the temple.",
+          "lat": 25.7388,
+          "lng": 32.66
+        },
+        {
+          "id": "karn_5",
+          "text": "Tour the Temple of Khonsu",
+          "detail": "Explore this well-preserved smaller temple within the complex dedicated to the moon god, featuring its own pylon, courtyard, and hypostyle hall with clear hieroglyphic inscriptions.",
+          "lat": 25.737,
+          "lng": 32.6595
+        },
+        {
+          "id": "karn_6",
+          "text": "Visit during Sound and Light Show",
+          "detail": "Return in the evening to experience the temple illuminated with colored lights and narration in multiple languages, bringing the mythology and history to life after sunset."
+        }
+      ],
+      "food": [
+        {
+          "id": "karn_f1",
+          "text": "Ful Medames",
+          "detail": "This creamy slow-cooked fava bean dish seasoned with garlic, lemon, and cumin is a staple breakfast in Luxor and widely available at local cafés near the temple entrance."
+        },
+        {
+          "id": "karn_f2",
+          "text": "Koshari",
+          "detail": "A popular Egyptian street food combining rice, lentils, pasta, and spiced tomato sauce topped with fried onions, offering hearty sustenance for temple exploration."
+        },
+        {
+          "id": "karn_f3",
+          "text": "Fresh Date and Walnut Pastries",
+          "detail": "Luxor's local bakeries near Karnak sell these sweet phyllo pastries filled with dates and nuts, perfect for afternoon snacks while touring the complex."
+        },
+        {
+          "id": "karn_f4",
+          "text": "Grilled Nile Tilapia",
+          "detail": "Fresh-caught tilapia seasoned with herbs and grilled whole is served in restaurants throughout Luxor, showcasing the region's connection to the Nile's bounty."
+        },
+        {
+          "id": "karn_f5",
+          "text": "Hibiscus Tea (Karkade)",
+          "detail": "This crimson-colored beverage made from dried hibiscus flowers is refreshing in Luxor's heat and sold by vendors throughout the temple grounds."
+        }
+      ],
+      "culture": [
+        {
+          "id": "karn_c1",
+          "text": "Dress Respectfully",
+          "detail": "Wear modest clothing covering shoulders and knees as a sign of respect for this sacred site and to align with local customs, even though the temple is now primarily archaeological."
+        },
+        {
+          "id": "karn_c2",
+          "text": "Hire a Licensed Guide",
+          "detail": "Official guides at the entrance provide contextual knowledge about hieroglyphic inscriptions and architectural significance that greatly enhance understanding of the complex layout and history."
+        },
+        {
+          "id": "karn_c3",
+          "text": "Visit Early or Late",
+          "detail": "Arrive before 8 AM or after 4 PM to avoid peak tour groups and intense afternoon heat, allowing for more contemplative exploration of the massive temple structures."
+        },
+        {
+          "id": "karn_c4",
+          "text": "Photography Etiquette",
+          "detail": "While photography is generally permitted, be respectful of other visitors and avoid using flash in areas with delicate hieroglyphic carvings that are still being studied."
+        }
+      ]
+    },
+    {
+      "id": "luxor_temple",
+      "name": "Luxor Temple",
+      "nameIt": "معبد الأقصر",
+      "lat": 25.2845,
+      "lng": 32.639,
+      "type": "LANDMARK",
+      "description": "This beautifully preserved temple on the east bank was built by Amenhotep III and expanded by Ramesses II, featuring magnificent colossal statues and intricate carvings. Its riverside location and excellent condition make it one of Egypt's most accessible and visually impressive temples.",
+      "imageQueries": [
+        "Luxor Temple statues",
+        "Luxor Temple evening light"
+      ],
+      "activities": [
+        {
+          "id": "luxo_1",
+          "text": "Explore the Great Colonnade",
+          "detail": "Walk through the impressive row of towering papyrus-form columns built by Amenhotep III, one of the temple's most visually striking features with intricate hieroglyphic reliefs.",
+          "lat": 25.7345,
+          "lng": 32.6396
+        },
+        {
+          "id": "luxo_2",
+          "text": "Study the Colossal Statues of Ramesses II",
+          "detail": "Stand before the pair of 67-foot granite statues of Ramesses II that flank the pylon entrance, showcasing masterful pharaonic sculpture and power.",
+          "lat": 25.7365,
+          "lng": 32.6384
+        },
+        {
+          "id": "luxo_3",
+          "text": "Visit the Sacred Barque Shrine",
+          "detail": "Examine the inner sanctuary where the sacred boat of the god Amun was kept, featuring detailed carvings that reveal religious rituals and daily temple life.",
+          "lat": 25.7335,
+          "lng": 32.6405
+        },
+        {
+          "id": "luxo_4",
+          "text": "Climb to the Pylon for River Views",
+          "detail": "Ascend the massive entrance pylon for panoramic views of the Nile River and surrounding Luxor cityscape, best visited at sunset.",
+          "lat": 25.7365,
+          "lng": 32.6384
+        },
+        {
+          "id": "luxo_5",
+          "text": "Photograph the Evening Light Show",
+          "detail": "Capture the temple's intricate wall carvings and statues during the golden hour when the low sun illuminates hieroglyphics in sharp relief.",
+          "lat": 25.7345,
+          "lng": 32.6396
+        },
+        {
+          "id": "luxo_6",
+          "text": "Examine the Opet Festival Reliefs",
+          "detail": "Study the detailed wall carvings depicting the ancient Opet Festival procession, which shows how Luxor Temple was used during major religious celebrations.",
+          "lat": 25.734,
+          "lng": 32.64
+        }
+      ],
+      "food": [
+        {
+          "id": "luxo_f1",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian layered dish combining rice, pasta, lentils, chickpeas, and spiced tomato sauce, often sold by street vendors near the temple entrance."
+        },
+        {
+          "id": "luxo_f2",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic, lemon, and olive oil, traditionally eaten for breakfast at local cafes surrounding the temple complex."
+        },
+        {
+          "id": "luxo_f3",
+          "text": "Grilled Nile Perch",
+          "detail": "Fresh fish caught from the nearby Nile River, grilled whole with herbs and lemon, available at riverside restaurants overlooking Luxor Temple."
+        },
+        {
+          "id": "luxo_f4",
+          "text": "Ta'ameya",
+          "detail": "Egyptian-style falafel made from fava beans rather than chickpeas, served in pita bread with tahini sauce at vendors throughout the temple precinct."
+        },
+        {
+          "id": "luxo_f5",
+          "text": "Basboosa",
+          "detail": "A sweet semolina and coconut cake soaked in simple syrup, commonly purchased as a pastry treat from local bakeries near the temple gates."
+        }
+      ],
+      "culture": [
+        {
+          "id": "luxo_c1",
+          "text": "Dress Modestly and Respectfully",
+          "detail": "Wear shoulders and knees covered out of respect for the sacred site and Egyptian cultural norms, especially when entering inner temple chambers."
+        },
+        {
+          "id": "luxo_c2",
+          "text": "Hire a Licensed Guide",
+          "detail": "A knowledgeable Egyptologist guide significantly enhances understanding of the hieroglyphics, mythology, and historical context that official guides are trained to explain."
+        },
+        {
+          "id": "luxo_c3",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Arrive before 9 AM or after 4 PM to avoid intense heat, large tour groups, and to experience the temple's carvings illuminated by softer, more dramatic light."
+        },
+        {
+          "id": "luxo_c4",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Simple phrases like 'As-salamu alaykum' (peace be upon you) and 'Shukran' (thank you) will be appreciated by staff and enhance positive interactions at the site."
+        }
+      ]
+    },
+    {
+      "id": "valley_of_nobles",
+      "name": "Valley of the Nobles",
+      "nameIt": "وادي النبلاء",
+      "lat": 25.23,
+      "lng": 32.598,
+      "type": "LANDMARK",
+      "description": "This west bank site contains over 400 tombs of nobles, administrators, and wealthy citizens dating from the 18th to 20th dynasties, decorated with vivid scenes of daily life and the afterlife. The tombs offer intimate glimpses into how ancient Egyptians lived and what they valued.",
+      "imageQueries": [
+        "Valley of the Nobles tombs",
+        "Valley of the Nobles wall paintings"
+      ],
+      "activities": [
+        {
+          "id": "vall_1",
+          "text": "Explore Tomb of Sennefer",
+          "detail": "Visit one of the most beautifully decorated tombs with vivid paintings of grapevines covering the ceiling and scenes of daily life along the walls.",
+          "lat": 25.7394,
+          "lng": 32.6039
+        },
+        {
+          "id": "vall_2",
+          "text": "Tour Tomb of Kheti",
+          "detail": "Examine detailed reliefs depicting hunting scenes, agricultural activities, and religious ceremonies that reveal elite entertainment and spiritual practices.",
+          "lat": 25.7387,
+          "lng": 32.6045
+        },
+        {
+          "id": "vall_3",
+          "text": "Study Tomb of Amenhotep",
+          "detail": "Observe intricate painted scenes showing the tomb owner's family, servants, and possessions meant to accompany him in the afterlife.",
+          "lat": 25.7401,
+          "lng": 32.6035
+        },
+        {
+          "id": "vall_4",
+          "text": "Walk the Valley pathways",
+          "detail": "Navigate the limestone cliffs and wadi paths connecting multiple tombs while observing the natural landscape that shaped ancient settlement patterns."
+        },
+        {
+          "id": "vall_5",
+          "text": "Photograph hieroglyphic inscriptions",
+          "detail": "Document well-preserved texts and cartouches that record the names, titles, and biographical details of nobles and their families."
+        },
+        {
+          "id": "vall_6",
+          "text": "Examine false doors and offering tables",
+          "detail": "Study the architectural features designed to allow the deceased's ka (spirit) to receive food offerings and maintain connection to the living world."
+        }
+      ],
+      "food": [
+        {
+          "id": "vall_f1",
+          "text": "Koshari",
+          "detail": "A hearty layered dish of lentils, rice, pasta, and chickpeas topped with tomato sauce and fried onions, widely available in Luxor's cafés."
+        },
+        {
+          "id": "vall_f2",
+          "text": "Ful medames",
+          "detail": "Slowly stewed fava beans seasoned with garlic, lemon, and oil, traditionally eaten for breakfast near archaeological sites."
+        },
+        {
+          "id": "vall_f3",
+          "text": "Falafel and fresh pita",
+          "detail": "Crispy chickpea fritters served with warm flatbread and tahini sauce, a quick lunch option near the Valley entrance."
+        },
+        {
+          "id": "vall_f4",
+          "text": "Grilled Nile perch",
+          "detail": "Fresh fish from the Nile River seasoned with cumin and served at local restaurants along the west bank."
+        },
+        {
+          "id": "vall_f5",
+          "text": "Hibiscus tea (karkade)",
+          "detail": "A refreshing cold or hot beverage made from dried hibiscus flowers, perfect for staying hydrated during tomb exploration."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vall_c1",
+          "text": "Hire a licensed Egyptologist guide",
+          "detail": "A knowledgeable guide dramatically enhances understanding of hieroglyphics, burial practices, and the historical significance of scenes depicted in the tombs."
+        },
+        {
+          "id": "vall_c2",
+          "text": "Respect photography restrictions",
+          "detail": "Many tombs prohibit photography to preserve paint and prevent theft; always ask permission before photographing and honor these boundaries."
+        },
+        {
+          "id": "vall_c3",
+          "text": "Dress modestly and bring water",
+          "detail": "Wear light, covered clothing suitable for a conservative region and bring ample water as the Valley offers minimal shade and can reach extreme temperatures."
+        },
+        {
+          "id": "vall_c4",
+          "text": "Visit early morning for best light",
+          "detail": "Arrive before 9 AM to see vivid paint colors in natural light, avoid crowds, and experience the site as archaeologists work during cooler hours."
+        }
+      ]
+    },
+    {
+      "id": "mortuary_temple_hatshepsut",
+      "name": "Mortuary Temple of Hatshepsut",
+      "nameIt": "معبد حتشبسوت الجنائزي",
+      "lat": 25.2394,
+      "lng": 32.5976,
+      "type": "LANDMARK",
+      "description": "This iconic terraced temple built into a limestone cliff for the female pharaoh Hatshepsut is a masterpiece of ancient architecture with elegant colonnades and intricate reliefs. Its dramatic setting and unique design make it one of Egypt's most photographed monuments.",
+      "imageQueries": [
+        "Hatshepsut Temple terraces",
+        "Hatshepsut Temple cliffs"
+      ],
+      "activities": [
+        {
+          "id": "mort_1",
+          "text": "Explore the Temple's Three Terraces",
+          "detail": "Walk through the iconic colonnaded levels carved into the limestone cliff, admiring the elegant columns and architectural design that rises dramatically from the desert floor.",
+          "lat": 25.7396,
+          "lng": 32.6071
+        },
+        {
+          "id": "mort_2",
+          "text": "Study the Hathor Chapel Reliefs",
+          "detail": "Examine the intricately carved reliefs and hieroglyphics in the Hathor Chapel on the southern colonnade, depicting religious ceremonies and offerings.",
+          "lat": 25.7393,
+          "lng": 32.6074
+        },
+        {
+          "id": "mort_3",
+          "text": "View the Punt Expedition Reliefs",
+          "detail": "Discover the detailed scenes on the middle terrace showing Hatshepsut's famous trading expedition to the Land of Punt, including depictions of exotic goods and plants.",
+          "lat": 25.7398,
+          "lng": 32.6068
+        },
+        {
+          "id": "mort_4",
+          "text": "Hike to the Temple at Sunrise",
+          "detail": "Arrive early to experience the temple bathed in golden morning light, with fewer crowds and excellent photography opportunities of the dramatic cliff setting.",
+          "lat": 25.7396,
+          "lng": 32.6071
+        },
+        {
+          "id": "mort_5",
+          "text": "Visit the Chapel of Anubis",
+          "detail": "Ascend to the northernmost chapel dedicated to the god Anubis, featuring well-preserved painted reliefs and a serene atmosphere away from the main tourist areas."
+        },
+        {
+          "id": "mort_6",
+          "text": "Photograph from the Opposite Ridge",
+          "detail": "Cross to the eastern cliffs to capture sweeping views of the entire temple complex set against the limestone escarpment for iconic landscape photography.",
+          "lat": 25.741,
+          "lng": 32.609
+        }
+      ],
+      "food": [
+        {
+          "id": "mort_f1",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian comfort food layering rice, lentils, and pasta topped with spiced tomato sauce and crispy fried onions, widely available at local restaurants in the Luxor area."
+        },
+        {
+          "id": "mort_f2",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic, lemon, and olive oil, traditionally eaten for breakfast and served in small restaurants near the temple entrance."
+        },
+        {
+          "id": "mort_f3",
+          "text": "Grilled Nile Perch",
+          "detail": "Fresh-caught fish from the Nile River, seasoned simply and grilled whole, a specialty at waterfront dining establishments in nearby Luxor town."
+        },
+        {
+          "id": "mort_f4",
+          "text": "Baba Ghanoush with Fresh Flatbread",
+          "detail": "Smoky roasted eggplant puree mixed with tahini and lemon, served with warm pita bread at local cafes throughout the West Bank."
+        },
+        {
+          "id": "mort_f5",
+          "text": "Hibiscus Tea (Karkade)",
+          "detail": "A traditional Egyptian beverage made from dried hibiscus flowers, refreshing and commonly served at tea stalls and restaurants throughout Luxor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mort_c1",
+          "text": "Dress Respectfully",
+          "detail": "Cover shoulders and knees as a sign of respect for the sacred site and local customs, despite Egypt's warm climate."
+        },
+        {
+          "id": "mort_c2",
+          "text": "Hire a Licensed Guide",
+          "detail": "Local Egyptologists provide invaluable context about hieroglyphics, Hatshepsut's legacy, and the temple's astronomical alignments that enhance understanding of the site."
+        },
+        {
+          "id": "mort_c3",
+          "text": "Observe Prayer Times",
+          "detail": "Be aware that nearby villages observe Islamic prayer times, and showing sensitivity during these periods is appreciated by local communities."
+        },
+        {
+          "id": "mort_c4",
+          "text": "Photography Etiquette",
+          "detail": "Ask permission before photographing local people, and avoid flash photography of the fragile reliefs to protect the ancient paint pigments that remain visible."
+        }
+      ]
+    },
+    {
+      "id": "valley_of_queens",
+      "name": "Valley of the Queens",
+      "nameIt": "وادي الملكات",
+      "lat": 25.2282,
+      "lng": 32.587,
+      "type": "LANDMARK",
+      "description": "This necropolis contains the tombs of royal wives and children, most famously Queen Nefertari whose beautifully decorated tomb is among the finest in Egypt. The site provides fascinating insight into the status and artistry associated with royal women.",
+      "imageQueries": [
+        "Valley of the Queens Nefertari",
+        "Valley of the Queens paintings"
+      ],
+      "activities": [
+        {
+          "id": "vall_1",
+          "text": "Visit Tomb of Queen Nefertari (QV66)",
+          "detail": "Explore the most beautifully decorated royal tomb in the Valley, famous for its vibrant paintings of the queen and scenes from the Book of the Dead, requiring a separate ticket and timed entry.",
+          "lat": 25.7395,
+          "lng": 32.6012
+        },
+        {
+          "id": "vall_2",
+          "text": "Tour Tomb of Queen Titi (QV52)",
+          "detail": "View the tomb of a 20th Dynasty queen featuring well-preserved hieroglyphic inscriptions and images showing her status and religious significance.",
+          "lat": 25.7401,
+          "lng": 32.6018
+        },
+        {
+          "id": "vall_3",
+          "text": "Explore Tomb of Prince Khaemwaset (QV44)",
+          "detail": "Visit the burial site of Ramesses II's son, notable for its inscriptions detailing the prince's titles and the artistic conventions used for royal children.",
+          "lat": 25.7388,
+          "lng": 32.6005
+        },
+        {
+          "id": "vall_4",
+          "text": "Walk the Valley pathways at sunrise",
+          "detail": "Hike through the desert landscape early morning when temperatures are cooler and the golden light illuminates the limestone cliffs and tomb entrances dramatically.",
+          "lat": 25.7393,
+          "lng": 32.6015
+        },
+        {
+          "id": "vall_5",
+          "text": "Study hieroglyphic scenes in Tomb of Queen Ahmose (QV41)",
+          "detail": "Examine intricate relief carvings depicting the queen in divine and domestic scenes, offering insight into royal women's portrayed roles and artistic mastery."
+        },
+        {
+          "id": "vall_6",
+          "text": "Visit the Valley of the Queens Museum",
+          "detail": "Browse artifacts, mummies, and explanatory displays about the royal women buried here and their historical significance in ancient Egypt.",
+          "lat": 25.738,
+          "lng": 32.6008
+        }
+      ],
+      "food": [
+        {
+          "id": "vall_f1",
+          "text": "Koshari",
+          "detail": "A hearty Egyptian street food combining rice, lentils, pasta, and chickpeas topped with tomato and vinegar sauce, widely available in Luxor near archaeological sites."
+        },
+        {
+          "id": "vall_f2",
+          "text": "Ful Medames",
+          "detail": "A traditional breakfast dish of slow-cooked fava beans seasoned with garlic, lemon, and olive oil, commonly served in local cafes throughout Luxor."
+        },
+        {
+          "id": "vall_f3",
+          "text": "Fresh date-stuffed pastries",
+          "detail": "Local bakeries near Valley entrances sell warm pastries filled with dates and honey, a sweet energy food perfect for between tomb visits."
+        },
+        {
+          "id": "vall_f4",
+          "text": "Mezze platter with local cheeses",
+          "detail": "A spread of hummus, baba ganoush, fresh vegetables, and local white cheese available at restaurants in nearby villages serving Theban specialties."
+        },
+        {
+          "id": "vall_f5",
+          "text": "Sugarcane juice",
+          "detail": "Freshly pressed cane juice, a refreshing drink sold at small stands throughout Luxor and especially near tourist sites on hot days."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vall_c1",
+          "text": "Dress modestly and respectfully",
+          "detail": "Wear loose-fitting, long clothing covering shoulders and knees as a sign of respect for this sacred burial site and local cultural norms in Egypt."
+        },
+        {
+          "id": "vall_c2",
+          "text": "Book Nefertari tomb tickets in advance",
+          "detail": "Entry to Queen Nefertari's tomb is strictly limited by timed tickets and high demand; purchase ahead to guarantee access to this most famous site."
+        },
+        {
+          "id": "vall_c3",
+          "text": "Hire a knowledgeable Egyptologist guide",
+          "detail": "Local guides fluent in Egyptology and hieroglyphic interpretation greatly enhance understanding of the queens' statuses, artistic techniques, and religious beliefs represented in the tombs."
+        },
+        {
+          "id": "vall_c4",
+          "text": "Respect photography restrictions",
+          "detail": "Many tombs prohibit flash photography or cameras entirely to protect fragile pigments and paintings; always ask guards before taking images."
+        }
+      ]
+    },
+    {
+      "id": "colossi_of_memnon",
+      "name": "Colossi of Memnon",
+      "nameIt": "تماثيل ممنون",
+      "lat": 25.2354,
+      "lng": 32.5985,
+      "type": "LANDMARK",
+      "description": "These two enormous 18-meter-high limestone statues once guarded a mortuary temple on the west bank and are among the oldest surviving monuments in the region. They offer a striking introduction to the sheer scale of pharaonic monuments.",
+      "imageQueries": [
+        "Colossi of Memnon statues",
+        "Colossi of Memnon sunset"
+      ],
+      "activities": [
+        {
+          "id": "colo_1",
+          "text": "Photograph the Colossi at sunrise",
+          "detail": "Arrive early to capture the statues in golden light before crowds gather, when the desert landscape is most dramatic.",
+          "lat": 25.7395,
+          "lng": 32.6034
+        },
+        {
+          "id": "colo_2",
+          "text": "Walk around the statue bases",
+          "detail": "Circle both colossi to examine carved hieroglyphic inscriptions and graffiti left by ancient Greek and Roman visitors.",
+          "lat": 25.7395,
+          "lng": 32.6034
+        },
+        {
+          "id": "colo_3",
+          "text": "Visit the mortuary temple ruins",
+          "detail": "Explore the fragmentary remains of Amenhotep III's temple immediately behind the statues to understand the original religious context.",
+          "lat": 25.7387,
+          "lng": 32.6034
+        },
+        {
+          "id": "colo_4",
+          "text": "Hire a local guide",
+          "detail": "Engage a knowledgeable Luxor guide to explain the pharaonic history, hieroglyphic meanings, and acoustic phenomenon of the singing statues.",
+          "lat": 25.7395,
+          "lng": 32.6034
+        },
+        {
+          "id": "colo_5",
+          "text": "Sketch or paint the monuments",
+          "detail": "Bring art supplies to capture these colossal figures, a favorite spot for artists working on the West Bank."
+        },
+        {
+          "id": "colo_6",
+          "text": "Visit nearby Valley of the Kings",
+          "detail": "Combine this site with a tour of royal tombs just 3 kilometers south to experience the full scope of pharaonic funerary architecture.",
+          "lat": 25.7404,
+          "lng": 32.6026
+        }
+      ],
+      "food": [
+        {
+          "id": "colo_f1",
+          "text": "Koshari",
+          "detail": "A layered Egyptian comfort dish combining rice, lentils, pasta, and spiced tomato sauce, commonly served at local vendors near tourist sites."
+        },
+        {
+          "id": "colo_f2",
+          "text": "Ful medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic and olive oil, typically eaten for breakfast with pita bread at small local cafés."
+        },
+        {
+          "id": "colo_f3",
+          "text": "Grilled lamb kebab",
+          "detail": "Minced or cubed lamb seasoned with cumin and herbs, charcoal-grilled and served with tahini sauce at West Bank restaurants."
+        },
+        {
+          "id": "colo_f4",
+          "text": "Hibiscus tea (Karkade)",
+          "detail": "A tart, refreshing cold beverage made from dried hibiscus flowers, perfect for cooling down after exploring the monuments under desert sun."
+        },
+        {
+          "id": "colo_f5",
+          "text": "Fresh falafel",
+          "detail": "Crispy chickpea fritters served warm with tahini and fresh tomatoes, available from street vendors throughout Luxor and near the site."
+        }
+      ],
+      "culture": [
+        {
+          "id": "colo_c1",
+          "text": "Dress modestly in the heat",
+          "detail": "Wear loose, light-colored clothing covering shoulders and knees as a sign of respect in this sacred area, and bring a scarf for sun protection."
+        },
+        {
+          "id": "colo_c2",
+          "text": "Greet guides and locals respectfully",
+          "detail": "A simple 'As-salamu alaykum' (peace be upon you) greeting is appreciated and opens doors to genuine conversations about local history and customs."
+        },
+        {
+          "id": "colo_c3",
+          "text": "Respect photography rules",
+          "detail": "Ask permission before photographing local people, and avoid flash photography near the statues at sunset when others are meditating or praying at this sacred site."
+        },
+        {
+          "id": "colo_c4",
+          "text": "Bring plenty of water",
+          "detail": "The West Bank has minimal shade; carrying 2–3 liters of water is essential and shows self-awareness about desert conditions that locals navigate daily."
+        }
+      ]
+    },
+    {
+      "id": "medinet_habu",
+      "name": "Medinet Habu Temple",
+      "nameIt": "معبد مدينة هابو",
+      "lat": 25.2266,
+      "lng": 32.5985,
+      "type": "LANDMARK",
+      "description": "This massive temple complex built by Ramesses III contains excellent relief carvings depicting battles, religious ceremonies, and daily life, along with well-preserved administrative buildings and fortifications. It serves as one of our best sources for understanding the organization and prosperity of New Kingdom Egypt.",
+      "imageQueries": [
+        "Medinet Habu Temple carvings",
+        "Medinet Habu ruins"
+      ],
+      "activities": [
+        {
+          "id": "medi_1",
+          "text": "Explore the First Pylon",
+          "detail": "Study the towering gateway decorated with reliefs of Ramesses III smiting enemies, one of the most dramatic battle scenes in Egypt.",
+          "lat": 25.7396,
+          "lng": 32.6039
+        },
+        {
+          "id": "medi_2",
+          "text": "Walk the Hypostyle Hall",
+          "detail": "Marvel at the forest of columns supporting the roof while admiring intricate carvings of religious processions and offerings to the gods."
+        },
+        {
+          "id": "medi_3",
+          "text": "View the Medinet Habu Administrative Buildings",
+          "detail": "Examine the well-preserved palace quarters, storerooms, and administrative structures that reveal how the temple complex functioned as a major economic center."
+        },
+        {
+          "id": "medi_4",
+          "text": "Study the Battle of the Sea Peoples Relief",
+          "detail": "Examine the detailed carved record on the second pylon documenting Ramesses III's naval victory, one of the oldest known battle depictions."
+        },
+        {
+          "id": "medi_5",
+          "text": "Visit the Sacred Lake",
+          "detail": "Walk around the rectangular pool used for ritual purification ceremonies and reflect on its role in temple daily life."
+        },
+        {
+          "id": "medi_6",
+          "text": "Explore the Secondary Chapels",
+          "detail": "Discover smaller shrine rooms dedicated to various deities and royal family members branching from the main sanctuary."
+        },
+        {
+          "id": "medi_7",
+          "text": "Climb to the Roof Terraces",
+          "detail": "Ascend to upper levels for panoramic views of the entire Theban necropolis and the Nile Valley beyond."
+        }
+      ],
+      "food": [
+        {
+          "id": "medi_f1",
+          "text": "Koshary",
+          "detail": "A beloved Egyptian street food layering rice, lentils, pasta, and spiced tomato sauce topped with crispy fried onions, commonly found in Luxor restaurants near the temple."
+        },
+        {
+          "id": "medi_f2",
+          "text": "Ful Medames",
+          "detail": "A traditional slow-cooked fava bean dish seasoned with garlic and lemon, typically eaten for breakfast at local cafés throughout Luxor."
+        },
+        {
+          "id": "medi_f3",
+          "text": "Grilled Fish from the Nile",
+          "detail": "Fresh tilapia or other Nile fish grilled whole and served with herbs and lemon at waterfront restaurants in Luxor, reflecting ancient Egyptian diet."
+        },
+        {
+          "id": "medi_f4",
+          "text": "Konafa",
+          "detail": "A sticky pastry dessert made with shredded phyllo, nuts, and honey syrup, popular at local bakeries near the temple complex."
+        },
+        {
+          "id": "medi_f5",
+          "text": "Egyptian Bread with Dukkah",
+          "detail": "Warm aish baladi (traditional flatbread) served with dukkah, a blend of sesame seeds, hazelnuts, and spices for dipping."
+        }
+      ],
+      "culture": [
+        {
+          "id": "medi_c1",
+          "text": "Dress modestly and respectfully",
+          "detail": "Wear loose-fitting, lightweight clothing covering shoulders and knees out of respect for the sacred site and local customs in conservative Thebes."
+        },
+        {
+          "id": "medi_c2",
+          "text": "Hire a knowledgeable Egyptologist guide",
+          "detail": "A specialized guide fluent in hieroglyphic interpretation will unlock the meaning of the reliefs and explain the temple's historical significance far beyond what casual reading provides."
+        },
+        {
+          "id": "medi_c3",
+          "text": "Visit early morning before crowds",
+          "detail": "Arrive at sunrise to experience the temple's architectural drama with natural light, fewer tourists, and cooler temperatures ideal for detailed carving appreciation."
+        },
+        {
+          "id": "medi_c4",
+          "text": "Respect photography restrictions in chapels",
+          "detail": "While outdoor reliefs allow photography, some inner sanctuaries prohibit it; always ask guides before photographing to honor ongoing spiritual use by local communities."
+        }
+      ]
+    },
+    {
+      "id": "thoth_temple",
+      "name": "Temple of Thoth (Tod)",
+      "nameIt": "معبد ثوت",
+      "lat": 25.1887,
+      "lng": 32.6551,
+      "type": "LANDMARK",
+      "description": "This smaller but important temple dedicated to Thoth, the ibis-headed god of wisdom, dates from multiple periods and features well-preserved reliefs and hieroglyphic inscriptions. It offers a quieter experience while showcasing the refinement of New Kingdom temple decoration.",
+      "imageQueries": [
+        "Temple of Thoth Egypt",
+        "Thoth temple carvings"
+      ],
+      "activities": [
+        {
+          "id": "thot_1",
+          "text": "Study Hieroglyphic Inscriptions",
+          "detail": "Examine the well-preserved carved hieroglyphs dedicated to Thoth and decipher cartouches of pharaohs using the guide panels provided.",
+          "lat": 25.6833,
+          "lng": 32.6667
+        },
+        {
+          "id": "thot_2",
+          "text": "View the Thoth Reliefs",
+          "detail": "Observe the detailed limestone reliefs depicting Thoth in his ibis form and his role as god of wisdom and record-keeping."
+        },
+        {
+          "id": "thot_3",
+          "text": "Explore the Inner Sanctuary",
+          "detail": "Access the smaller inner chambers to see the refined New Kingdom decorative details and original paint traces on the walls."
+        },
+        {
+          "id": "thot_4",
+          "text": "Walk the Quieter Grounds",
+          "detail": "Enjoy the less crowded temple atmosphere compared to Karnak and Luxor temples, allowing for peaceful contemplation."
+        },
+        {
+          "id": "thot_5",
+          "text": "Photograph the Pylon Gateway",
+          "detail": "Capture images of the temple's entrance pylon with its astronomical and religious inscriptions against the Luxor landscape."
+        },
+        {
+          "id": "thot_6",
+          "text": "Attend the Evening Light Show",
+          "detail": "Experience the temple illuminated at dusk when hieroglyphic details become more visible and the atmosphere becomes more intimate."
+        }
+      ],
+      "food": [
+        {
+          "id": "thot_f1",
+          "text": "Koshari",
+          "detail": "This mixed rice, lentil, and pasta dish topped with tomato sauce and crispy onions is a beloved local staple found at nearby vendors."
+        },
+        {
+          "id": "thot_f2",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava bean paste seasoned with garlic and lemon is traditionally eaten for breakfast at local cafés near the temple."
+        },
+        {
+          "id": "thot_f3",
+          "text": "Grilled Nile Tilapia",
+          "detail": "Fresh fish from the Nile caught daily and grilled with lemon and herbs is served at restaurants overlooking the river near Luxor."
+        },
+        {
+          "id": "thot_f4",
+          "text": "Mahshi",
+          "detail": "Vegetables stuffed with rice and herbs such as tomatoes, peppers, and zucchini are a popular home-cooked dish available at local eateries."
+        },
+        {
+          "id": "thot_f5",
+          "text": "Fresh Mango Juice",
+          "detail": "Luxor's abundant mangoes are pressed into thick, sweet juice sold by street vendors throughout the town year-round."
+        }
+      ],
+      "culture": [
+        {
+          "id": "thot_c1",
+          "text": "Remove Shoes in Sanctuaries",
+          "detail": "Many Egyptian temples request visitors remove footwear when entering the innermost sanctuary spaces as a sign of respect to the sacred areas."
+        },
+        {
+          "id": "thot_c2",
+          "text": "Hire a Licensed Egyptologist Guide",
+          "detail": "A knowledgeable guide enhances understanding of Thoth's theological significance and the temple's construction phases across dynasties."
+        },
+        {
+          "id": "thot_c3",
+          "text": "Respect Photography Restrictions",
+          "detail": "Some inner chambers prohibit flash photography or tripods; always check with staff before photographing hieroglyphic details."
+        },
+        {
+          "id": "thot_c4",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Arrive before 9 AM or after 4 PM to avoid afternoon heat and crowds, allowing deeper engagement with the temple's spiritual atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "ramesseum",
+      "name": "Ramesseum",
+      "nameIt": "الرامسيوم",
+      "lat": 25.2324,
+      "lng": 32.5947,
+      "type": "LANDMARK",
+      "description": "This mortuary temple of Ramesses II on the west bank features colossal statuary, astronomical ceilings, and extensive administrative records carved into stone. It demonstrates the architectural legacy and divine ambitions of one of Egypt's most powerful pharaohs.",
+      "imageQueries": [
+        "Ramesseum temple Ramesses II",
+        "Ramesseum colossal statues"
+      ],
+      "activities": [
+        {
+          "id": "rame_1",
+          "text": "Explore the Hypostyle Hall",
+          "detail": "Walk among the massive stone columns of the great hall where astronomical ceilings depict constellations and the pharaoh's journey through the afterlife.",
+          "lat": 25.7395,
+          "lng": 32.6042
+        },
+        {
+          "id": "rame_2",
+          "text": "View the Colossal Statues of Ramesses II",
+          "detail": "Stand before the remains of the enormous seated statues that once flanked the temple entrance, demonstrating the pharaoh's divine power and architectural ambition.",
+          "lat": 25.7398,
+          "lng": 32.6048
+        },
+        {
+          "id": "rame_3",
+          "text": "Study the Battle of Kadesh Relief",
+          "detail": "Examine the detailed carved narrative on the temple walls depicting Ramesses II's military campaign, one of ancient Egypt's most famous battles.",
+          "lat": 25.7392,
+          "lng": 32.6045
+        },
+        {
+          "id": "rame_4",
+          "text": "Visit the Administrative Records Chamber",
+          "detail": "View stone-carved inventories and records that document the temple's vast wealth, personnel, and economic operations during the New Kingdom.",
+          "lat": 25.7388,
+          "lng": 32.604
+        },
+        {
+          "id": "rame_5",
+          "text": "Photograph from the Upper Terrace",
+          "detail": "Climb to the elevated platform for panoramic views of the Nile Valley and surrounding Theban necropolis, particularly stunning at sunset.",
+          "lat": 25.74,
+          "lng": 32.605
+        },
+        {
+          "id": "rame_6",
+          "text": "Examine the Pylon Inscriptions",
+          "detail": "Study the hieroglyphic texts and royal cartouches carved into the entrance pylons that glorify Ramesses II's reign and divine legitimacy.",
+          "lat": 25.7405,
+          "lng": 32.6035
+        }
+      ],
+      "food": [
+        {
+          "id": "rame_f1",
+          "text": "Koshari from local vendors",
+          "detail": "A hearty mix of rice, lentils, pasta, and spiced tomato sauce topped with fried onions, commonly sold by vendors near the temple entrance."
+        },
+        {
+          "id": "rame_f2",
+          "text": "Ful Medames at a nearby café",
+          "detail": "Slow-cooked fava bean paste seasoned with garlic and olive oil, traditionally eaten for breakfast or lunch by locals working in the Luxor antiquities sector."
+        },
+        {
+          "id": "rame_f3",
+          "text": "Fresh Nile fish (Tilapia or Catfish)",
+          "detail": "Locally caught fish grilled or fried and served at restaurants on the west bank, often prepared with cumin and fresh lemon juice."
+        },
+        {
+          "id": "rame_f4",
+          "text": "Ta'ameya (Egyptian falafel)",
+          "detail": "Deep-fried patties made from fava beans rather than chickpeas, served with tahini sauce and commonly available at street stalls throughout the Theban region."
+        },
+        {
+          "id": "rame_f5",
+          "text": "Hibiscus tea (Karkade)",
+          "detail": "A tart, refreshing beverage made from dried hibiscus flowers steeped in hot water, traditionally served cold during warm afternoons in Luxor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rame_c1",
+          "text": "Dress respectfully for temple grounds",
+          "detail": "Wear modest clothing covering shoulders and knees out of respect for the sacred site, and note that some inner chambers may require additional discretion."
+        },
+        {
+          "id": "rame_c2",
+          "text": "Hire a licensed Egyptologist guide",
+          "detail": "The detailed hieroglyphic narratives and astronomical symbolism are best understood with expert interpretation, and guides provide essential context about Ramesses II's reign and New Kingdom practices."
+        },
+        {
+          "id": "rame_c3",
+          "text": "Observe photography restrictions",
+          "detail": "Certain inner sanctums and reliefs may prohibit photography; always ask guides or posted signage before photographing, and be mindful during prayer times if local worshippers are present."
+        },
+        {
+          "id": "rame_c4",
+          "text": "Visit early morning or late afternoon",
+          "detail": "Temperatures on the exposed west bank are intense midday; visiting between 6–8 AM or after 3 PM provides comfort and superior lighting for photography and detailed observation."
+        }
+      ]
+    },
+    {
+      "id": "dra_abu_naga",
+      "name": "Dra Abu el-Naga",
+      "nameIt": "درع أبو النجا",
+      "lat": 25.248,
+      "lng": 32.595,
+      "type": "LANDMARK",
+      "description": "This hillside necropolis contains 17th Dynasty royal tombs as well as New Kingdom private tombs with colorful paintings and inscriptions. The site represents an important transition period in Egyptian burial practices and offers spectacular views of the Nile valley.",
+      "imageQueries": [
+        "Dra Abu Naga tombs",
+        "Dra Abu Naga hill Egypt"
+      ],
+      "activities": [
+        {
+          "id": "dra__1",
+          "text": "Explore Royal Tombs of the 17th Dynasty",
+          "detail": "Visit the underground chambers of early New Kingdom pharaohs with hieroglyphic inscriptions and witness the transition from Middle Kingdom to New Kingdom burial customs.",
+          "lat": 25.7394,
+          "lng": 32.6089
+        },
+        {
+          "id": "dra__2",
+          "text": "View Colorful Tomb Paintings",
+          "detail": "Examine the well-preserved polychrome wall decorations in private tombs that depict daily life, religious scenes, and afterlife journeys with vibrant pigments still visible.",
+          "lat": 25.7394,
+          "lng": 32.6089
+        },
+        {
+          "id": "dra__3",
+          "text": "Hike the Hillside Pathways",
+          "detail": "Walk the terraced paths through the necropolis to experience the dramatic landscape and gain panoramic views across the Nile Valley and West Bank.",
+          "lat": 25.7394,
+          "lng": 32.6089
+        },
+        {
+          "id": "dra__4",
+          "text": "Visit Tomb of Ahmose",
+          "detail": "Enter the burial chamber of this important 17th Dynasty pharaoh to see the architectural innovations and decorative schemes that bridged two Egyptian periods."
+        },
+        {
+          "id": "dra__5",
+          "text": "Study Funerary Inscriptions",
+          "detail": "Photograph and document the hieroglyphic texts and offering lists that provide insight into religious beliefs and administrative structures of the era."
+        },
+        {
+          "id": "dra__6",
+          "text": "Photograph Nile Valley Views",
+          "detail": "Capture sunrise or sunset views from the hillside overlooking the cultivated floodplain, archaeological sites, and modern Luxor in the distance.",
+          "lat": 25.7394,
+          "lng": 32.6089
+        },
+        {
+          "id": "dra__7",
+          "text": "Join a Guided Epigraphic Tour",
+          "detail": "Hire a local Egyptologist to interpret specific tomb paintings and texts, explaining symbolic meanings and historical context in detail."
+        }
+      ],
+      "food": [
+        {
+          "id": "dra__f1",
+          "text": "Koshari",
+          "detail": "A popular Egyptian street food mixing rice, lentils, chickpeas, and pasta topped with tomato sauce and vinegar, commonly sold in Luxor's markets near archaeological sites."
+        },
+        {
+          "id": "dra__f2",
+          "text": "Ful Medames",
+          "detail": "A traditional breakfast of slow-cooked fava beans seasoned with garlic, lemon, and olive oil, often served with fresh pita bread in local eateries."
+        },
+        {
+          "id": "dra__f3",
+          "text": "Stuffed Pigeon (Hamam Mahshi)",
+          "detail": "Tender roasted pigeon filled with seasoned rice and herbs, a delicacy prepared in Luxor restaurants and special local gatherings."
+        },
+        {
+          "id": "dra__f4",
+          "text": "Fresh Nile Tilapia",
+          "detail": "Grilled or fried fish caught from the Nile River, seasoned simply with local spices and lemon, served at waterfront restaurants throughout Luxor."
+        },
+        {
+          "id": "dra__f5",
+          "text": "Hibiscus Tea (Karkade)",
+          "detail": "A cooling red beverage made from dried hibiscus flowers, sweetened with sugar and served cold at archaeological site cafes and local vendors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dra__c1",
+          "text": "Hire Local Guides",
+          "detail": "Employ registered guides from Luxor who can navigate the site safely, provide historical context, and often have family connections to the region spanning generations."
+        },
+        {
+          "id": "dra__c2",
+          "text": "Respect Tomb Interiors",
+          "detail": "Remove shoes or wear protective coverings inside burial chambers, avoid touching painted walls, and refrain from using flash photography to preserve fragile ancient pigments."
+        },
+        {
+          "id": "dra__c3",
+          "text": "Visit During Cooler Hours",
+          "detail": "Arrive early morning or late afternoon to avoid intense midday heat on the exposed hillside; bring ample water and sun protection as shade is limited."
+        },
+        {
+          "id": "dra__c4",
+          "text": "Understand Local Access Rules",
+          "detail": "Some tombs require separate tickets or permissions; check current access policies at the Luxor antiquities office as conservation work occasionally closes sections temporarily."
+        }
+      ]
+    },
+    {
+      "id": "nile_river",
+      "name": "Nile River",
+      "nameIt": "النيل",
+      "lat": 25.26,
+      "lng": 32.62,
+      "type": "NATURE",
+      "description": "The lifeblood of Luxor, the Nile offers felucca sailboat rides with views of both banks' monuments and provides the setting that made ancient Thebes possible. A Nile cruise or sailing experience is essential to understanding the geography and beauty of the region.",
+      "imageQueries": [
+        "Nile River Luxor boats",
+        "Luxor felucca sailing sunset"
+      ],
+      "activities": [
+        {
+          "id": "nile_1",
+          "text": "Felucca Sailboat Ride",
+          "detail": "Glide across the Nile in a traditional wooden sailboat at sunset, experiencing the river as ancient Egyptians did while viewing the Valley of the Kings and West Bank monuments.",
+          "lat": 25.7282,
+          "lng": 32.6397
+        },
+        {
+          "id": "nile_2",
+          "text": "East Bank Temple Views from Water",
+          "detail": "Cruise past the Luxor Temple and Karnak Temple complex from the river, gaining perspective on how these monuments dominated the ancient Theban skyline.",
+          "lat": 25.7369,
+          "lng": 32.6397
+        },
+        {
+          "id": "nile_3",
+          "text": "West Bank Necropolis Boat Access",
+          "detail": "Take a motorboat across to the West Bank to access the Valley of the Kings, Valley of the Queens, and mortuary temples, understanding why the Nile's west bank was chosen for tombs.",
+          "lat": 25.7404,
+          "lng": 32.6037
+        },
+        {
+          "id": "nile_4",
+          "text": "Dawn Nile Cruise",
+          "detail": "Experience the river at sunrise when mist rises from the water and local felucca fishermen cast their nets, capturing the timeless rhythm of Luxor life.",
+          "lat": 25.7282,
+          "lng": 32.6397
+        },
+        {
+          "id": "nile_5",
+          "text": "Banana Island Visit",
+          "detail": "Tour the small island in the Nile where local farmers grow bananas and other crops, learning about traditional agriculture along the river.",
+          "lat": 25.745,
+          "lng": 32.625
+        },
+        {
+          "id": "nile_6",
+          "text": "Nile Corniche Walk",
+          "detail": "Stroll along the riverside promenade in Luxor town to observe modern life on the Nile's banks, local vendors, and children playing by the water's edge.",
+          "lat": 25.6866,
+          "lng": 32.6397
+        }
+      ],
+      "food": [
+        {
+          "id": "nile_f1",
+          "text": "Grilled Nile Tilapia",
+          "detail": "Fresh whole tilapia caught from the river, seasoned with lime and herbs, grilled over charcoal and served with rice and vegetables at riverside restaurants."
+        },
+        {
+          "id": "nile_f2",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian street food combining rice, lentils, pasta, and spiced tomato sauce topped with fried onions, sold by vendors along the Nile Corniche."
+        },
+        {
+          "id": "nile_f3",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic, lemon, and olive oil, traditionally eaten for breakfast by locals living along the Nile's banks."
+        },
+        {
+          "id": "nile_f4",
+          "text": "Nile Perch (Bolti)",
+          "detail": "Large freshwater fish native to the Nile, baked or fried whole and served with tahini sauce, popular in local waterside eateries."
+        },
+        {
+          "id": "nile_f5",
+          "text": "Fresh Nile Vegetables",
+          "detail": "Molokhia (jute leaves) and other greens grown in Nile Valley fields, traditionally stewed and served with rice or bread at family-run restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nile_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Morning and afternoon cruises may be affected by Islamic prayer times; plan activities accordingly and avoid loud noise during Azan (call to prayer)."
+        },
+        {
+          "id": "nile_c2",
+          "text": "Dress Modestly on Cruises",
+          "detail": "While on felucca boats or near temples, wear light but covering clothing to show respect for local customs and protect from intense sun reflection off the water."
+        },
+        {
+          "id": "nile_c3",
+          "text": "Negotiate Felucca Prices",
+          "detail": "Always agree on the price and duration of a felucca ride before boarding, as rates are not standardized and haggling is expected practice with boat captains."
+        },
+        {
+          "id": "nile_c4",
+          "text": "Understand Water Safety Customs",
+          "detail": "Many locals do not swim in the Nile due to historical and religious reasons; avoid swimming and be mindful that the river holds deep cultural significance beyond tourism."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "1886 Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor City Centre",
+      "cuisine": "International, Egyptian",
+      "priceRange": "€€€",
+      "description": "Elegant riverside dining with Nile views and refined Mediterranean-Egyptian fusion cuisine in a historic setting.",
+      "mustOrder": "Grilled fish with local herbs and Nile perch",
+      "lat": 25.2854,
+      "lng": 32.6421
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Sofra Restaurant",
+      "address": "Khaled Ibn Al-Walid Street, Luxor",
+      "neighbourhood": "Downtown Luxor",
+      "cuisine": "Egyptian, Traditional",
+      "priceRange": "€",
+      "description": "Authentic local eatery serving hearty Egyptian home cooking in a casual, welcoming atmosphere favored by residents.",
+      "mustOrder": "Koshari and ful medames",
+      "lat": 25.2875,
+      "lng": 32.6398
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Karnak Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor Waterfront",
+      "cuisine": "Egyptian, Mediterranean",
+      "priceRange": "€€",
+      "description": "Traditional restaurant with outstanding Nile views serving authentic Egyptian meze and grilled specialties.",
+      "mustOrder": "Grilled pigeon (hamam) with rice",
+      "lat": 25.2923,
+      "lng": 32.6441
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Jolanda's Restaurant",
+      "address": "West Bank, Luxor",
+      "neighbourhood": "West Bank (Thebes)",
+      "cuisine": "International, Egyptian",
+      "priceRange": "€€",
+      "description": "Long-established family-run restaurant offering quality international and Egyptian cuisine with a loyal tourist and local clientele.",
+      "mustOrder": "Stuffed pigeon and Egyptian salads",
+      "lat": 25.2767,
+      "lng": 32.5941
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Marsam Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor City Centre",
+      "cuisine": "Egyptian, Grilled",
+      "priceRange": "€€",
+      "description": "Casual riverside grill specializing in fresh fish and meat dishes with an informal, bustling local atmosphere.",
+      "mustOrder": "Grilled sea bass and Egyptian mixed grill",
+      "lat": 25.2841,
+      "lng": 32.6429
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Al-Gezira Hotel Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor Waterfront",
+      "cuisine": "Egyptian, International",
+      "priceRange": "€€",
+      "description": "Hotel-based restaurant with excellent Nile views offering both Egyptian classics and international options in a refined casual setting.",
+      "mustOrder": "Fresh Nile fish with local spices",
+      "lat": 25.2897,
+      "lng": 32.6413
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Chez Denise Restaurant",
+      "address": "West Bank near Valley of the Kings, Luxor",
+      "neighbourhood": "West Bank (Thebes)",
+      "cuisine": "French, Mediterranean",
+      "priceRange": "€€€",
+      "description": "Intimate French bistro in a village setting offering refined European cuisine in a charming, artistic atmosphere.",
+      "mustOrder": "Duck confit and seasonal fish preparations",
+      "lat": 25.2639,
+      "lng": 32.6012
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Oasis Cafe & Restaurant",
+      "address": "Sharia Mohamed Farid, Luxor",
+      "neighbourhood": "Downtown Luxor",
+      "cuisine": "Egyptian, Café",
+      "priceRange": "€",
+      "description": "Popular casual café-restaurant serving traditional Egyptian breakfast, lunch and street food in a lively local setting.",
+      "mustOrder": "Fuul, ta'ameya and fresh juice",
+      "lat": 25.2868,
+      "lng": 32.6375
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Nobles Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor City Centre",
+      "cuisine": "Egyptian, International",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant featuring Egyptian and international cuisine with professional service and elegant ambiance overlooking the Nile.",
+      "mustOrder": "Lobster tail and Egyptian mezze platter",
+      "lat": 25.2829,
+      "lng": 32.6437
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Zayka Indian Restaurant",
+      "address": "Khaled Ibn Al-Walid Street, Luxor",
+      "neighbourhood": "Downtown Luxor",
+      "cuisine": "Indian, South Asian",
+      "priceRange": "€€",
+      "description": "Well-executed Indian restaurant offering authentic curries and tandoori specialties, popular with both tourists and expat residents.",
+      "mustOrder": "Butter chicken and naan bread",
+      "lat": 25.2884,
+      "lng": 32.6389
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Al-Mahrousa Restaurant",
+      "address": "West Bank near Deir al-Medina, Luxor",
+      "neighbourhood": "West Bank (Thebes)",
+      "cuisine": "Egyptian, Traditional",
+      "priceRange": "€",
+      "description": "Modest family restaurant in a village setting serving genuine Egyptian home cooking appreciated by archaeologists and adventurous travelers.",
+      "mustOrder": "Slow-cooked tagines and fresh bread",
+      "lat": 25.2517,
+      "lng": 32.6089
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Moon Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor Waterfront",
+      "cuisine": "Egyptian, Seafood",
+      "priceRange": "€€",
+      "description": "Popular riverside establishment known for fresh seafood and traditional Egyptian dishes with lively evening atmosphere.",
+      "mustOrder": "Grilled shrimp and whole grilled fish",
+      "lat": 25.2905,
+      "lng": 32.6425
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Luxor Panorama Restaurant",
+      "address": "Sharia El-Karnak, Luxor",
+      "neighbourhood": "Luxor City Centre",
+      "cuisine": "Egyptian, International",
+      "priceRange": "€€€",
+      "description": "Rooftop restaurant offering panoramic temple views with quality Egyptian and Mediterranean cuisine and attentive service.",
+      "mustOrder": "Grilled fish with garlic sauce and Egyptian vegetables",
+      "lat": 25.2903,
+      "lng": 32.6398
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Sunset Restaurant",
+      "address": "West Bank overlooking Valley, Luxor",
+      "neighbourhood": "West Bank (Thebes)",
+      "cuisine": "Egyptian, Mediterranean",
+      "priceRange": "€€",
+      "description": "Scenic West Bank location famous for stunning sunset views paired with solid Egyptian and Mediterranean cooking.",
+      "mustOrder": "Mixed Egyptian mezze and grilled local fish",
+      "lat": 25.2701,
+      "lng": 32.5867
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "La Mama Restaurant",
+      "address": "Corniche El-Nil, Luxor",
+      "neighbourhood": "Luxor City Centre",
+      "cuisine": "Italian, Mediterranean",
+      "priceRange": "€€",
+      "description": "Friendly Italian restaurant with riverside location offering fresh pasta, pizza and Mediterranean dishes with good wine selection.",
+      "mustOrder": "Homemade pasta carbonara and fresh fish risotto",
+      "lat": 25.2847,
+      "lng": 32.6419
+    }
+  ]
+}

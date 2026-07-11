@@ -1,0 +1,1400 @@
+{
+  "id": "north_zealand",
+  "name": "North Zealand",
+  "nameIt": "Nordsjælland",
+  "capital": "Hillerød",
+  "lat": 56,
+  "lng": 12.3,
+  "emoji": "🏛️",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 56.2,
+    "south": 55.8,
+    "east": 12.8,
+    "west": 11.8
+  },
+  "history": "North Zealand has been inhabited since prehistoric times, with evidence of settlements dating back to the Stone Age. The region became increasingly important during the Viking Age and medieval period, serving as a strategic area for Danish kings who built numerous castles and fortifications there. Frederiksborg Castle, constructed in the early 17th century, stands as one of Scandinavia's most impressive Renaissance palaces and reflects the region's historical significance. The area developed into a prosperous agricultural and later industrial region, while maintaining its cultural heritage through preserved estates and traditional villages.",
+  "culturalNotes": "North Zealand is known for its blend of pastoral countryside and affluent suburban character, with grand estates and manor houses dotting the landscape. The region has a strong tradition of outdoor activities and connection to nature, reflected in its forests, lakes and coastal areas that have made it a popular retreat for Copenhagen residents. Local pride centers on preserving historical sites, supporting artisan crafts, and maintaining the distinctive Danish countryside aesthetic that defines Nordsjælland's identity.",
+  "bestTimeToVisit": "Visit spring through autumn to explore royal castles and coastal landscapes near Copenhagen.",
+  "languageNotes": "The local dialect is a variant of standard Danish with subtle regional characteristics typical of Zealand. Visitors will find that standard Danish or English serves well, though locals appreciate efforts to use basic Danish phrases like \"tak\" (thank you) and \"ja tak\" (yes please).",
+  "generatedAt": "2026-07-10T21:16:04.583Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "helsing_r",
+      "name": "Helsingør",
+      "nameIt": "Helsingør",
+      "lat": 56.0365,
+      "lng": 12.6127,
+      "type": "CITY",
+      "description": "A historic port city famous as the setting of Shakespeare's Hamlet, dominated by the magnificent Kronborg Castle overlooking the Øresund Strait. It's an essential stop for its rich maritime history, impressive Renaissance castle, and vibrant harbor atmosphere with excellent restaurants and museums.",
+      "imageQueries": [
+        "Kronborg Castle Helsingør",
+        "Helsingør harbor Denmark"
+      ],
+      "activities": [
+        {
+          "id": "hels_1",
+          "text": "Kronborg Castle",
+          "detail": "Explore this iconic Renaissance fortress overlooking the Øresund Strait, famous as the setting for Hamlet, with rooms, ramparts, and a museum documenting its role in Danish history.",
+          "lat": 56.0365,
+          "lng": 12.6247
+        },
+        {
+          "id": "hels_2",
+          "text": "Maritime Museum of Denmark",
+          "detail": "Discover Denmark's naval heritage through ship models, maritime artifacts, and interactive exhibits tracing the country's seafaring traditions.",
+          "lat": 56.0347,
+          "lng": 12.6139
+        },
+        {
+          "id": "hels_3",
+          "text": "Øresund Strait Waterfront Walk",
+          "detail": "Stroll along the harborfront promenade with views across the strait to Sweden, lined with cafés, galleries, and historic warehouses converted into shops and restaurants.",
+          "lat": 56.0356,
+          "lng": 12.62
+        },
+        {
+          "id": "hels_4",
+          "text": "Karmeliterklosteret (Carmelite Convent)",
+          "detail": "Visit this well-preserved 15th-century monastery with its distinctive brick Gothic architecture and peaceful cloisters in the heart of the old town.",
+          "lat": 56.0382,
+          "lng": 12.6173
+        },
+        {
+          "id": "hels_5",
+          "text": "Helsingor Cathedral (St. Olai Church)",
+          "detail": "Admire this Gothic cathedral dating back to the 15th century, featuring intricate woodwork, a famous organ, and important Danish royal connections.",
+          "lat": 56.0379,
+          "lng": 12.6181
+        },
+        {
+          "id": "hels_6",
+          "text": "Swedish Coast Day Trip",
+          "detail": "Take the short ferry or train across the Øresund to Helsingborg, Sweden for a quick cultural comparison and additional Nordic charm just 4 kilometers away."
+        }
+      ],
+      "food": [
+        {
+          "id": "hels_f1",
+          "text": "Smørrebrød with Local Fish",
+          "detail": "Sample traditional Danish open-faced rye bread sandwiches topped with fresh catches from the Øresund, often featuring shrimp, smoked eel, or pickled herring."
+        },
+        {
+          "id": "hels_f2",
+          "text": "Fried Plaice (Stegt Flynder)",
+          "detail": "Enjoy whole plaice caught in local waters, simply fried and served with lemon and remoulade sauce at harborfront seafood restaurants."
+        },
+        {
+          "id": "hels_f3",
+          "text": "Danish Pastry (Wienerbrød)",
+          "detail": "Indulge in fresh-baked Danish pastries from local bakeries, a quintessential pastry with various fillings found throughout the city's breakfast culture."
+        },
+        {
+          "id": "hels_f4",
+          "text": "Fårikål-style Lamb Stew",
+          "detail": "Sample hearty Nordic lamb and vegetable stews reflecting Scandinavian comfort food traditions at traditional Danish restaurants."
+        },
+        {
+          "id": "hels_f5",
+          "text": "Fresh Oysters and Mussels",
+          "detail": "Experience seasonal shellfish harvested from the surrounding waters, served raw or steamed at waterfront restaurants and seafood markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hels_c1",
+          "text": "Embrace 'Hygge' Culture",
+          "detail": "Danes highly value cozy comfort; take time to relax in harbor-view cafés with coffee or mulled wine rather than rushing through attractions."
+        },
+        {
+          "id": "hels_c2",
+          "text": "Respect Cycling Etiquette",
+          "detail": "Helsingør is bike-friendly with dedicated lanes; stay aware of cyclists as they have right-of-way and are integral to daily Danish life."
+        },
+        {
+          "id": "hels_c3",
+          "text": "Visit Kronborg at Sunset",
+          "detail": "Plan your castle visit for late afternoon to experience the fortress illuminated by golden light with the Swedish coast shimmering across the strait."
+        },
+        {
+          "id": "hels_c4",
+          "text": "Learn the Hamlet Connection",
+          "detail": "While Shakespeare never visited, Kronborg inspired his play; locals take pride in this literary legacy, and references appear throughout museums and tours."
+        }
+      ]
+    },
+    {
+      "id": "fredensborg_palace",
+      "name": "Fredensborg Palace",
+      "nameIt": "Fredensborg Slot",
+      "lat": 55.9889,
+      "lng": 12.5436,
+      "type": "LANDMARK",
+      "description": "The royal summer residence of the Danish royal family, set in a stunning baroque palace with beautifully manicured gardens and a peaceful lake setting. Visitors can admire the exterior and gardens, making it one of North Zealand's most picturesque and culturally significant sites.",
+      "imageQueries": [
+        "Fredensborg Palace Denmark",
+        "Fredensborg Slot gardens"
+      ],
+      "activities": [
+        {
+          "id": "fred_1",
+          "text": "Explore the Palace Exterior",
+          "detail": "Admire the baroque architecture and ornate facade of Fredensborg Slot, one of Denmark's finest royal residences with distinctive copper roofs."
+        },
+        {
+          "id": "fred_2",
+          "text": "Walk the Palace Gardens",
+          "detail": "Stroll through the meticulously manicured baroque gardens featuring geometric hedgerows, flowering beds, and classical garden design stretching across the palace grounds.",
+          "lat": 55.9847,
+          "lng": 12.3425
+        },
+        {
+          "id": "fred_3",
+          "text": "Visit the Chapel",
+          "detail": "Step inside the palace chapel to see ornate religious artwork and experience the serene interior space used by the Danish royal family."
+        },
+        {
+          "id": "fred_4",
+          "text": "Relax by the Lake",
+          "detail": "Enjoy the peaceful lakeside setting adjacent to the palace where you can take photographs and appreciate the reflection of the palace in the water.",
+          "lat": 55.9841,
+          "lng": 12.3433
+        },
+        {
+          "id": "fred_5",
+          "text": "Attend a Royal Concert",
+          "detail": "Check the palace calendar for occasional classical music concerts and cultural events held in the palace during summer months."
+        },
+        {
+          "id": "fred_6",
+          "text": "Explore the Palace Museum",
+          "detail": "View exhibitions featuring Danish royal history, period furniture, and artwork displayed in select rooms open to the public."
+        }
+      ],
+      "food": [
+        {
+          "id": "fred_f1",
+          "text": "Smørrebrød",
+          "detail": "Seek out traditional open-faced Danish rye bread sandwiches with toppings like herring, roast beef, or shrimp at local cafes near the palace."
+        },
+        {
+          "id": "fred_f2",
+          "text": "Danish Pastries",
+          "detail": "Enjoy authentic wienerbrød and spandauer pastries at nearby bakeries in Fredensborg town, perfect for morning refreshment during your visit."
+        },
+        {
+          "id": "fred_f3",
+          "text": "Fresh Lake Fish",
+          "detail": "Sample locally-caught pike and perch prepared at restaurants in the Fredensborg area, reflecting the region's abundant freshwater fishing tradition."
+        },
+        {
+          "id": "fred_f4",
+          "text": "New Nordic Cuisine",
+          "detail": "Dine at upscale restaurants in North Zealand that feature seasonal, locally-sourced ingredients inspired by Scandinavian culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fred_c1",
+          "text": "Respect Royal Privacy",
+          "detail": "Remember that Fredensborg is an active royal residence; maintain quiet respect and photograph only from designated public areas to honor the royal family's summer sanctuary."
+        },
+        {
+          "id": "fred_c2",
+          "text": "Visit During Public Hours",
+          "detail": "The palace interior and gardens have limited public access; check ahead for official opening dates and hours, as access varies seasonally and during royal events."
+        },
+        {
+          "id": "fred_c3",
+          "text": "Understand Danish Royal Heritage",
+          "detail": "Learn about the Danish monarchy's significance and the palace's role in royal family traditions; many Danes take pride in their royal history and constitutional monarchy."
+        },
+        {
+          "id": "fred_c4",
+          "text": "Dress Appropriately for Seasons",
+          "detail": "North Zealand weather can be cool and windy even in summer; bring layers and comfortable walking shoes for exploring the expansive gardens and palace grounds."
+        }
+      ]
+    },
+    {
+      "id": "hundested",
+      "name": "Hundested",
+      "nameIt": "Hundested",
+      "lat": 56.1122,
+      "lng": 12.0989,
+      "type": "COASTAL",
+      "description": "A charming seaside town on the north coast known for its long sandy beaches and excellent sailing conditions on the Kattegat sea. It offers a relaxed beach atmosphere with opportunities for water sports, fresh seafood dining, and scenic coastal walks.",
+      "imageQueries": [
+        "Hundested beach Denmark",
+        "Hundested harbor"
+      ],
+      "activities": [
+        {
+          "id": "hund_1",
+          "text": "Hundested Beach",
+          "detail": "A long sandy beach ideal for swimming, sunbathing, and family outings along the Kattegat coastline.",
+          "lat": 56.1289,
+          "lng": 11.8519
+        },
+        {
+          "id": "hund_2",
+          "text": "Sailing and Windsurfing",
+          "detail": "The calm waters of Kattegat provide excellent conditions for sailing schools and windsurfing enthusiasts throughout the year."
+        },
+        {
+          "id": "hund_3",
+          "text": "Hundested Harbour Walk",
+          "detail": "Stroll through the working fishing harbour to observe local boats, fresh catch displays, and maritime activity.",
+          "lat": 56.128,
+          "lng": 11.8556
+        },
+        {
+          "id": "hund_4",
+          "text": "Coastal Hiking Trails",
+          "detail": "Scenic walking paths along the North Zealand coastline offering views of cliffs, forests, and the sea."
+        },
+        {
+          "id": "hund_5",
+          "text": "Hundested Fyr (Lighthouse)",
+          "detail": "A historic lighthouse offering panoramic views of the Kattegat and surrounding coastal landscape.",
+          "lat": 56.132,
+          "lng": 11.848
+        },
+        {
+          "id": "hund_6",
+          "text": "Kayaking and Paddleboarding",
+          "detail": "Rent equipment to explore the shallow waters and coves around Hundested at a leisurely pace."
+        }
+      ],
+      "food": [
+        {
+          "id": "hund_f1",
+          "text": "Fresh Grilled Fish",
+          "detail": "Local restaurants serve daily catches from Hundested's fishing fleet, typically prepared simply with lemon and butter."
+        },
+        {
+          "id": "hund_f2",
+          "text": "Smørrebrød with Seafood",
+          "detail": "Traditional Danish open-faced sandwiches topped with local shrimp, smoked fish, or pickled herring available at harbourside cafés."
+        },
+        {
+          "id": "hund_f3",
+          "text": "Mussel Soup",
+          "detail": "A creamy seasonal soup made from fresh mussels caught in the Kattegat, served with crusty bread."
+        },
+        {
+          "id": "hund_f4",
+          "text": "Fish Chowder",
+          "detail": "Hearty Nordic chowder combining local white fish, potatoes, and cream, a warming dish after seaside activities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hund_c1",
+          "text": "Fishing Tradition",
+          "detail": "Hundested remains an active fishing community; respect the working harbour and observe fishermen's routines during early morning hours."
+        },
+        {
+          "id": "hund_c2",
+          "text": "Seasonal Beach Culture",
+          "detail": "Summer brings vibrant beach social life and outdoor dining; shoulder seasons offer quieter, more contemplative coastal experiences."
+        },
+        {
+          "id": "hund_c3",
+          "text": "Danish Coastal Etiquette",
+          "detail": "Beaches are family-friendly and often clothing-optional in designated areas; familiarise yourself with local beach sections before settling."
+        }
+      ]
+    },
+    {
+      "id": "hiller_d",
+      "name": "Hillerød",
+      "nameIt": "Hillerød",
+      "lat": 55.9295,
+      "lng": 12.3055,
+      "type": "CITY",
+      "description": "Home to Denmark's most impressive Renaissance castle, Frederiksborg, set on three small islands within a beautiful lake and surrounded by a royal deer park. The town serves as the cultural heart of North Zealand with museums, gardens, and easy access to forest walks.",
+      "imageQueries": [
+        "Frederiksborg Castle Denmark",
+        "Hillerød lake castle"
+      ],
+      "activities": [
+        {
+          "id": "hill_1",
+          "text": "Frederiksborg Castle Tour",
+          "detail": "Explore Denmark's largest Renaissance castle with its ornate rooms, royal chapel, and the Museum of National History spanning 500 years of Danish royal history.",
+          "lat": 55.9355,
+          "lng": 12.3061
+        },
+        {
+          "id": "hill_2",
+          "text": "Castle Lake Walk",
+          "detail": "Stroll around the serene lake surrounding Frederiksborg Castle, spotting deer in the royal park and enjoying views of the castle reflected in the water.",
+          "lat": 55.936,
+          "lng": 12.305
+        },
+        {
+          "id": "hill_3",
+          "text": "Slotshaven (Castle Gardens)",
+          "detail": "Walk through the meticulously landscaped formal gardens and baroque gardens adjacent to the castle, featuring fountains, hedges, and seasonal flowers.",
+          "lat": 55.9345,
+          "lng": 12.308
+        },
+        {
+          "id": "hill_4",
+          "text": "Hillerød Town Centre Shopping",
+          "detail": "Browse the pedestrianized Slotsgate and surrounding streets for Danish design shops, local boutiques, and traditional half-timbered buildings.",
+          "lat": 55.937,
+          "lng": 12.3095
+        },
+        {
+          "id": "hill_5",
+          "text": "Gribskov Forest Hikes",
+          "detail": "Access extensive hiking trails through Denmark's largest forest north of the castle, with marked routes ranging from easy walks to challenging treks.",
+          "lat": 55.945,
+          "lng": 12.25
+        },
+        {
+          "id": "hill_6",
+          "text": "Æbelhaven (Apple Garden)",
+          "detail": "Visit this historic apple orchard garden showcasing traditional Danish fruit cultivation and old apple varieties on the castle grounds.",
+          "lat": 55.934,
+          "lng": 12.307
+        }
+      ],
+      "food": [
+        {
+          "id": "hill_f1",
+          "text": "Smørrebrød at Local Cafés",
+          "detail": "Sample traditional open-faced Danish sandwiches with layers of rye bread, herring, roast beef, or shrimp topped with remoulade and crispy onions at cafés around Slotsgate."
+        },
+        {
+          "id": "hill_f2",
+          "text": "Danish Pastries (Wienerbrød)",
+          "detail": "Enjoy fresh butter pastries with jam, custard, or chocolate from local bakeries, a quintessential Danish breakfast or afternoon treat in Hillerød."
+        },
+        {
+          "id": "hill_f3",
+          "text": "Venison from Royal Deer Park",
+          "detail": "Try roasted venison or venison ragout at fine dining restaurants, sourced from the deer historically hunted in Frederiksborg's royal park."
+        },
+        {
+          "id": "hill_f4",
+          "text": "Apple-based Desserts",
+          "detail": "Sample apple cake, apple crumble, or stewed apples with custard reflecting the region's historic apple growing tradition from Æbelhaven."
+        },
+        {
+          "id": "hill_f5",
+          "text": "Danish Brewery Beer Tastings",
+          "detail": "Visit local breweries or beer halls to taste craft Danish lagers and ales paired with traditional Danish pub food like meatballs and pickled herring."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hill_c1",
+          "text": "Castle Etiquette",
+          "detail": "Respect quiet zones in Frederiksborg Castle where photography may be restricted and wear comfortable shoes for extensive walking on uneven castle floors and grounds."
+        },
+        {
+          "id": "hill_c2",
+          "text": "Cycling Culture",
+          "detail": "Rent a bicycle to explore Hillerød like locals do; the town has extensive cycle paths and bike parking, and it's the primary transport for day trips to nearby forests and villages."
+        },
+        {
+          "id": "hill_c3",
+          "text": "Royal Heritage Pride",
+          "detail": "Locals take pride in Frederiksborg's royal significance and Danish history; engage respectfully with castle guides and avoid treating the royal palace casually as merely a tourist photo spot."
+        },
+        {
+          "id": "hill_c4",
+          "text": "Danish Hygge Tradition",
+          "detail": "Embrace 'hygge' by spending afternoon time in cozy cafés with coffee and pastries, taking leisurely walks in nature, and enjoying quiet moments—core to the Danish way of life in this region."
+        }
+      ]
+    },
+    {
+      "id": "frederiksborg_castle",
+      "name": "Frederiksborg Castle",
+      "nameIt": "Frederiksborg Slot",
+      "lat": 55.9333,
+      "lng": 12.3031,
+      "type": "LANDMARK",
+      "description": "Denmark's largest castle, featuring stunning baroque architecture set dramatically on three islands in a scenic lake, housing the Museum of National History. It's one of Northern Europe's most magnificent castles and a UNESCO World Heritage consideration with spectacular grounds.",
+      "imageQueries": [
+        "Frederiksborg Castle interior",
+        "Frederiksborg Slot lake"
+      ],
+      "activities": [
+        {
+          "id": "fred_1",
+          "text": "Explore the Museum of National History",
+          "detail": "Walk through richly decorated rooms spanning from the Renaissance to the 20th century, featuring royal portraits, furniture, and Danish historical artifacts across multiple floors.",
+          "lat": 55.8747,
+          "lng": 12.3033
+        },
+        {
+          "id": "fred_2",
+          "text": "Tour the Royal Chapel",
+          "detail": "Visit the ornate baroque chapel with its original decorations, royal pews, and stunning frescoes that have been meticulously restored.",
+          "lat": 55.8747,
+          "lng": 12.3033
+        },
+        {
+          "id": "fred_3",
+          "text": "Walk the Baroque Gardens",
+          "detail": "Stroll through the formally landscaped gardens surrounding the castle with geometric hedge patterns, fountains, and views across the three islands and lake.",
+          "lat": 55.8747,
+          "lng": 12.3033
+        },
+        {
+          "id": "fred_4",
+          "text": "Visit the Castle Library and Archive",
+          "detail": "Discover historic manuscripts, royal documents, and one of Denmark's important cultural collections housed in the castle's lower levels.",
+          "lat": 55.8747,
+          "lng": 12.3033
+        },
+        {
+          "id": "fred_5",
+          "text": "Photograph from the Castle Bridge",
+          "detail": "Capture iconic views of the castle reflected in the lake from the main approach bridge, especially stunning at sunset.",
+          "lat": 55.8745,
+          "lng": 12.3015
+        },
+        {
+          "id": "fred_6",
+          "text": "Explore the Kitchen Wing",
+          "detail": "See the original royal kitchens and service areas that reveal the daily operations and culinary heritage of the castle's inhabitants.",
+          "lat": 55.8747,
+          "lng": 12.3033
+        }
+      ],
+      "food": [
+        {
+          "id": "fred_f1",
+          "text": "Smørrebrød at Castle Café",
+          "detail": "Open-faced Danish sandwiches with traditional toppings like herring, roast beef, and egg served in the castle's café overlooking the grounds."
+        },
+        {
+          "id": "fred_f2",
+          "text": "Danish Pastries (Wienerbrød)",
+          "detail": "Sweet layered pastries filled with jam, custard, or chocolate, commonly enjoyed with coffee during a castle visit."
+        },
+        {
+          "id": "fred_f3",
+          "text": "Local Brewery Beer from North Zealand",
+          "detail": "Sample craft beers from nearby Frederiksborg Brewery or other regional Danish breweries that reflect the area's brewing heritage."
+        },
+        {
+          "id": "fred_f4",
+          "text": "Gravlax with Rye Bread",
+          "detail": "Cured salmon served alongside traditional Danish rye bread, representing classic Nordic cuisine available at castle dining venues."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fred_c1",
+          "text": "Reserve tickets in advance during peak season",
+          "detail": "Summer months and weekends draw large crowds, so purchasing tickets online before arrival ensures faster entry and better planning."
+        },
+        {
+          "id": "fred_c2",
+          "text": "Respect chapel photography restrictions",
+          "detail": "Some areas of the Royal Chapel prohibit photography due to the sacred nature of the space and restoration efforts."
+        },
+        {
+          "id": "fred_c3",
+          "text": "Allow at least 3-4 hours for your visit",
+          "detail": "The castle is vast with multiple floors and gardens, so plan sufficient time to properly explore rather than rushing through the exhibits."
+        },
+        {
+          "id": "fred_c4",
+          "text": "Learn about Danish royal history beforehand",
+          "detail": "Familiarity with key Danish monarchs and the castle's role as a royal residence from 1602 onwards enhances appreciation of the exhibits and architecture."
+        }
+      ]
+    },
+    {
+      "id": "hornb_k",
+      "name": "Hornbæk",
+      "nameIt": "Hornbæk",
+      "lat": 56.0689,
+      "lng": 12.44,
+      "type": "COASTAL",
+      "description": "A fashionable beach resort town on the Øresund coast with a long sandy beach, charming harbor, and excellent restaurants and cafes. It attracts both families and young professionals with its blend of seaside relaxation, water sports, and modern Scandinavian dining scene.",
+      "imageQueries": [
+        "Hornbæk beach Denmark",
+        "Hornbæk harbor Denmark"
+      ],
+      "activities": [
+        {
+          "id": "horn_1",
+          "text": "Hornbæk Beach",
+          "detail": "A long, sandy beach perfect for swimming, sunbathing, and water sports including windsurfing and kitesurfing along the Øresund coast.",
+          "lat": 56.0117,
+          "lng": 12.4656
+        },
+        {
+          "id": "horn_2",
+          "text": "Hornbæk Harbor Walk",
+          "detail": "Stroll through the charming harbor area lined with fishing boats, local shops, and waterfront cafés offering views across the Øresund Strait.",
+          "lat": 56.0106,
+          "lng": 12.4641
+        },
+        {
+          "id": "horn_3",
+          "text": "Sailing and Water Sports",
+          "detail": "Rent sailboats or take windsurfing lessons at one of several local water sports clubs that take advantage of Hornbæk's excellent wind and water conditions.",
+          "lat": 56.0117,
+          "lng": 12.4656
+        },
+        {
+          "id": "horn_4",
+          "text": "Coastal Path to Helsinge",
+          "detail": "Walk or bike the scenic coastal path heading north from Hornbæk through beach forest and sandy dunes toward neighboring villages.",
+          "lat": 56.015,
+          "lng": 12.47
+        },
+        {
+          "id": "horn_5",
+          "text": "Hornbæk Waterfront Dining",
+          "detail": "Experience fresh seafood and modern Scandinavian cuisine at waterfront restaurants with direct views of the harbor and Swedish coast.",
+          "lat": 56.01,
+          "lng": 12.463
+        },
+        {
+          "id": "horn_6",
+          "text": "Tvorup Klint Beach",
+          "detail": "Visit the dramatic chalk cliffs and beach just north of Hornbæk, accessible by a short walk or bike ride along the coastal path.",
+          "lat": 56.035,
+          "lng": 12.475
+        }
+      ],
+      "food": [
+        {
+          "id": "horn_f1",
+          "text": "Fresh Øresund Fish",
+          "detail": "Enjoy daily catches of flounders, sea bass, and mackerel prepared simply grilled or smoked, reflecting the harbor's active fishing tradition."
+        },
+        {
+          "id": "horn_f2",
+          "text": "Smørrebrød with Seafood",
+          "detail": "Sample traditional open-faced rye bread sandwiches topped with local shrimp, herring, or fish preparations at harbor-side cafés."
+        },
+        {
+          "id": "horn_f3",
+          "text": "Steamed Mussels and Clams",
+          "detail": "Taste locally harvested mussels and clams steamed with white wine, garlic, and herbs at waterfront seafood restaurants."
+        },
+        {
+          "id": "horn_f4",
+          "text": "Danish New Nordic Cuisine",
+          "detail": "Dine at contemporary restaurants featuring locally-sourced seasonal ingredients prepared with modern Scandinavian techniques and presentation."
+        },
+        {
+          "id": "horn_f5",
+          "text": "Frikadeller with Local Produce",
+          "detail": "Try Denmark's beloved meatball dish served with pickled cucumbers and potato salad at casual lunch spots throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "horn_c1",
+          "text": "Embrace Hygge Culture",
+          "detail": "Locals prioritize coziness and togetherness; linger over coffee at a harborside café and embrace the relaxed pace without rushing."
+        },
+        {
+          "id": "horn_c2",
+          "text": "Respect Beach Customs",
+          "detail": "Hornbæk attracts naturists to designated sections of beach; be aware of local beach norms and respect privacy in these areas."
+        },
+        {
+          "id": "horn_c3",
+          "text": "Bike as Primary Transport",
+          "detail": "Most locals and visitors cycle rather than drive in this compact coastal town; rent a bike to experience Hornbæk like residents do."
+        },
+        {
+          "id": "horn_c4",
+          "text": "Summer Season Peak",
+          "detail": "July and August bring crowds and higher prices; visit in June or September for pleasant weather with fewer tourists and quieter experiences."
+        }
+      ]
+    },
+    {
+      "id": "gilleleje",
+      "name": "Gilleleje",
+      "nameIt": "Gilleleje",
+      "lat": 55.9873,
+      "lng": 12.03,
+      "type": "COASTAL",
+      "description": "A picturesque fishing village on the Kattegat coast famous for its working harbor and exceptional seafood, particularly fresh fish and smørrebrød. It offers an authentic Danish coastal experience with charming narrow streets, local fish restaurants, and beautiful waterfront walks.",
+      "imageQueries": [
+        "Gilleleje fishing harbor",
+        "Gilleleje Denmark beach"
+      ],
+      "activities": [
+        {
+          "id": "gill_1",
+          "text": "Explore Gilleleje Harbor",
+          "detail": "Wander through the active fishing harbor to watch boats unload fresh catches and observe local fishermen at work, especially lively in early morning hours.",
+          "lat": 56.1186,
+          "lng": 12.0286
+        },
+        {
+          "id": "gill_2",
+          "text": "Walk the Waterfront Promenade",
+          "detail": "Stroll along the scenic coastal path with views across the Kattegat Sea, ideal for sunset walks and photography.",
+          "lat": 56.119,
+          "lng": 12.03
+        },
+        {
+          "id": "gill_3",
+          "text": "Visit Gilleleje Church",
+          "detail": "Tour this historic 12th-century whitewashed church featuring traditional Danish architecture and positioned prominently overlooking the village.",
+          "lat": 56.1165,
+          "lng": 12.0255
+        },
+        {
+          "id": "gill_4",
+          "text": "Bicycle Along Coastal Routes",
+          "detail": "Rent a bicycle to explore the North Zealand coastline and neighboring villages connected by well-maintained Danish cycling paths.",
+          "lat": 56.1186,
+          "lng": 12.0286
+        },
+        {
+          "id": "gill_5",
+          "text": "Browse Local Antique Shops",
+          "detail": "Discover vintage Danish furniture, maritime artifacts, and coastal collectibles in the charming narrow streets of the old village center.",
+          "lat": 56.117,
+          "lng": 12.027
+        },
+        {
+          "id": "gill_6",
+          "text": "Fish from the Pier",
+          "detail": "Cast a line from the harbor pier to catch mackerel, sea trout, or other local species, a popular activity for both visitors and residents.",
+          "lat": 56.1186,
+          "lng": 12.0286
+        }
+      ],
+      "food": [
+        {
+          "id": "gill_f1",
+          "text": "Fresh Grilled Mackerel",
+          "detail": "Enjoy locally caught mackerel grilled simply with lemon and served at harborside restaurants, a Gilleleje specialty that showcases the day's catch."
+        },
+        {
+          "id": "gill_f2",
+          "text": "Smørrebrød with Shrimp and Fish",
+          "detail": "Try traditional open-faced Danish sandwiches topped with local shrimp, smoked fish, or herring on rye bread, often prepared with house-made remoulade."
+        },
+        {
+          "id": "gill_f3",
+          "text": "Fish Soup",
+          "detail": "Sample creamy seafood soup made with mixed catch from the harbor, typically served with rye bread and a splash of aquavit."
+        },
+        {
+          "id": "gill_f4",
+          "text": "Herring Preparations",
+          "detail": "Taste various pickled and marinated herring dishes, a traditional Danish staple available fresh or preserved at local fish shops and restaurants."
+        },
+        {
+          "id": "gill_f5",
+          "text": "Fish and Chips",
+          "detail": "Order crispy battered local fish served with hand-cut potatoes at casual harbor eateries, a casual take on Gilleleje's seafood tradition."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gill_c1",
+          "text": "Visit Early for Harbor Activity",
+          "detail": "Arrive before 9 AM to witness the busiest fishing activity and auctions of fresh catch, which represents the authentic working life of the village."
+        },
+        {
+          "id": "gill_c2",
+          "text": "Respect Local Fishing Customs",
+          "detail": "Don't interfere with boats or gear in the harbor, and ask permission before photographing fishermen or their catches out of respect for their livelihood."
+        },
+        {
+          "id": "gill_c3",
+          "text": "Learn Danish Coastal Dining",
+          "detail": "Danes typically eat lunch around noon and dinner around 6–7 PM; restaurants may close between service periods, so plan dining times accordingly."
+        },
+        {
+          "id": "gill_c4",
+          "text": "Use Cash at Smaller Establishments",
+          "detail": "While cards are widely accepted, some traditional fish shops and smaller restaurants prefer cash, so carry Danish kroner for a smoother experience."
+        }
+      ]
+    },
+    {
+      "id": "tisvilde",
+      "name": "Tisvilde",
+      "nameIt": "Tisvilde",
+      "lat": 56.0978,
+      "lng": 12.5667,
+      "type": "COASTAL",
+      "description": "A pristine beach area within the Tisvilde Hegn forest, offering one of Denmark's most beautiful stretches of sandy coastline backed by dramatic sand dunes and ancient forest. It's ideal for beach walks, swimming, and experiencing unspoiled Danish coastal nature.",
+      "imageQueries": [
+        "Tisvilde beach Denmark",
+        "Tisvilde Hegn forest"
+      ],
+      "activities": [
+        {
+          "id": "tisv_1",
+          "text": "Beach swimming",
+          "detail": "Wade into the clear waters of the Øresund coast, one of Denmark's cleanest and most inviting beaches with lifeguard presence during summer months."
+        },
+        {
+          "id": "tisv_2",
+          "text": "Tisvilde Hegn forest walk",
+          "detail": "Explore the ancient beech forest directly behind the beach, featuring marked trails through pristine woodland that connects the dunes to the interior forest ecosystem.",
+          "lat": 56.0456,
+          "lng": 12.5889
+        },
+        {
+          "id": "tisv_3",
+          "text": "Sand dune exploration",
+          "detail": "Climb the dramatic natural sand dunes that rise behind the beach, offering panoramic views across the coastline and into the forest interior.",
+          "lat": 56.045,
+          "lng": 12.59
+        },
+        {
+          "id": "tisv_4",
+          "text": "Coastal hiking trail",
+          "detail": "Follow the scenic walking path along the shoreline that stretches north and south from Tisvilde, offering uninterrupted views of the Øresund Strait and Swedish coast."
+        },
+        {
+          "id": "tisv_5",
+          "text": "Wildlife observation",
+          "detail": "Watch for deer, foxes, and native bird species within Tisvilde Hegn forest, particularly during early morning or dusk hours when wildlife is most active."
+        },
+        {
+          "id": "tisv_6",
+          "text": "Sunset viewing at the beach",
+          "detail": "Position yourself on the western-facing sandy shore for spectacular sunset views over the water, a quintessential Danish coastal experience."
+        }
+      ],
+      "food": [
+        {
+          "id": "tisv_f1",
+          "text": "Smørrebrød from local beachside cafés",
+          "detail": "Fresh open-faced rye bread sandwiches with locally sourced toppings like smoked fish, shrimp, and remoulade, typically served at beach pavilions overlooking the water."
+        },
+        {
+          "id": "tisv_f2",
+          "text": "Fresh caught plaice (Rødspætter)",
+          "detail": "Local flatfish grilled or pan-fried simply with butter and lemon, reflecting the day's catch from the nearby Øresund fishing waters."
+        },
+        {
+          "id": "tisv_f3",
+          "text": "Danish pastries from Tisvilde bakery",
+          "detail": "Authentic wienerbrød and other laminated pastries from local bakers, perfect for breakfast before a beach walk through the forest."
+        },
+        {
+          "id": "tisv_f4",
+          "text": "Seasonal strawberry desserts",
+          "detail": "In summer months, seek out fresh Danish strawberry tarts and berry plates at local cafés, celebrating the region's agricultural heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tisv_c1",
+          "text": "Respect forest boundaries",
+          "detail": "The Tisvilde Hegn is a protected natural area; stay on marked trails and avoid picking plants or disturbing wildlife to preserve this ancient ecosystem."
+        },
+        {
+          "id": "tisv_c2",
+          "text": "Swimming etiquette and seasons",
+          "detail": "Danes swim year-round; summer months (June-August) offer warmer water and more social beach culture, while winter swimming is a popular local tradition requiring proper preparation."
+        },
+        {
+          "id": "tisv_c3",
+          "text": "Beach access customs",
+          "detail": "Most beach areas are free and open to the public; however, some sections near residential properties should be respected, and visitors should use designated parking areas to avoid congestion."
+        }
+      ]
+    },
+    {
+      "id": "helsinge",
+      "name": "Helsinge",
+      "nameIt": "Helsinge",
+      "lat": 55.8739,
+      "lng": 12.2797,
+      "type": "TOWN",
+      "description": "A charming inland market town serving as a gateway to North Zealand's forest and lake areas, with traditional Danish architecture and a relaxed community atmosphere. It's a good base for exploring the surrounding countryside and accessing the Gribskov forest.",
+      "imageQueries": [
+        "Helsinge Denmark town",
+        "Helsinge market square"
+      ],
+      "activities": [
+        {
+          "id": "hels_1",
+          "text": "Gribskov Forest Cycling",
+          "detail": "Explore Denmark's largest beech forest with well-marked cycling trails ranging from easy loops to longer routes, departing directly from Helsinge town center.",
+          "lat": 55.9667,
+          "lng": 12.3167
+        },
+        {
+          "id": "hels_2",
+          "text": "Helsinge Town Square Market",
+          "detail": "Visit the traditional market square in central Helsinge where locals gather, featuring seasonal produce, crafts, and a genuine Danish market-town atmosphere.",
+          "lat": 55.9675,
+          "lng": 12.3175
+        },
+        {
+          "id": "hels_3",
+          "text": "Arresø Lake Walks",
+          "detail": "Walk the shores of Denmark's largest lake situated near Helsinge, offering scenic paths, bird-watching opportunities, and views across the water.",
+          "lat": 55.985,
+          "lng": 12.295
+        },
+        {
+          "id": "hels_4",
+          "text": "Fredensborg Palace Grounds",
+          "detail": "Visit the royal summer residence about 10 km away with its elegant gardens and baroque architecture, accessible via easy cycling from Helsinge.",
+          "lat": 55.995,
+          "lng": 12.37
+        },
+        {
+          "id": "hels_5",
+          "text": "Local Farm Shops",
+          "detail": "Stop at nearby rural farm shops selling fresh organic produce, homemade preserves, and local dairy products that define North Zealand's agricultural heritage.",
+          "lat": 55.9667,
+          "lng": 12.3167
+        },
+        {
+          "id": "hels_6",
+          "text": "Hiking Gribskov Trails",
+          "detail": "Trek through beech groves and past forest lakes on dedicated hiking paths, with routes suitable for all fitness levels starting from Helsinge.",
+          "lat": 55.9667,
+          "lng": 12.3167
+        }
+      ],
+      "food": [
+        {
+          "id": "hels_f1",
+          "text": "Smørrebrød with Local Cheese",
+          "detail": "Try traditional open-faced Danish sandwiches topped with locally-produced cheeses and cured meats at Helsinge's traditional cafés and bakeries."
+        },
+        {
+          "id": "hels_f2",
+          "text": "Forest Mushroom Dishes",
+          "detail": "Sample seasonal preparations of wild mushrooms foraged from Gribskov forest, featured in local restaurants during autumn months."
+        },
+        {
+          "id": "hels_f3",
+          "text": "Freshwater Fish from Arresø",
+          "detail": "Enjoy pike-perch and eel caught from nearby Arresø lake, prepared simply and served in traditional Danish style at local inns."
+        },
+        {
+          "id": "hels_f4",
+          "text": "Rundstykker with Local Butter",
+          "detail": "Taste warm Danish pastries and rolls served with fresh butter from regional dairies, a staple at Helsinge bakeries since early morning."
+        },
+        {
+          "id": "hels_f5",
+          "text": "Farm-Produced Organic Vegetables",
+          "detail": "Purchase and prepare seasonal organic vegetables from surrounding North Zealand farms, showcasing local agricultural traditions at their peak."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hels_c1",
+          "text": "Embrace Slow Living Pace",
+          "detail": "Helsinge operates on a relaxed Danish rhythm where locals prioritize cycling, outdoor time, and community gathering over urban hustle."
+        },
+        {
+          "id": "hels_c2",
+          "text": "Cycle as Transport",
+          "detail": "Rent a bicycle to explore like locals do; it's the primary way Helsinge residents access the forest, lake, and surrounding villages."
+        },
+        {
+          "id": "hels_c3",
+          "text": "Respect Forest Rules",
+          "detail": "When exploring Gribskov, stay on marked trails and respect the Danish custom of forest preservation; the forest is a shared community resource."
+        },
+        {
+          "id": "hels_c4",
+          "text": "Visit on Market Days",
+          "detail": "Plan activities around traditional market days in Helsinge town square when locals gather and the community atmosphere is most authentic and vibrant."
+        }
+      ]
+    },
+    {
+      "id": "gribskov",
+      "name": "Gribskov Forest",
+      "nameIt": "Gribskov",
+      "lat": 55.85,
+      "lng": 12.35,
+      "type": "NATURE",
+      "description": "Denmark's largest beech forest, offering scenic hiking and cycling trails through pristine woodland with numerous lakes scattered throughout. It's perfect for outdoor enthusiasts seeking peaceful natural landscapes away from urban areas.",
+      "imageQueries": [
+        "Gribskov forest Denmark",
+        "Gribskov beech forest hiking"
+      ],
+      "activities": [
+        {
+          "id": "grib_1",
+          "text": "Hiking the Gribskov Trail",
+          "detail": "Follow the main 40 km loop trail through beech forests, passing lakes and woodland clearings with marked signage throughout."
+        },
+        {
+          "id": "grib_2",
+          "text": "Lake Søhøjlandet Swimming",
+          "detail": "Take a refreshing swim in one of the forest's glacial lakes during summer months, with designated bathing areas and nearby facilities.",
+          "lat": 55.9456,
+          "lng": 12.3267
+        },
+        {
+          "id": "grib_3",
+          "text": "Cycling Through Forest Roads",
+          "detail": "Ride on well-maintained gravel and forest roads suitable for all skill levels, with scenic views of mature beech trees and seasonal wildflowers."
+        },
+        {
+          "id": "grib_4",
+          "text": "Visit Høvdingen Tower",
+          "detail": "Climb the 45-meter observation tower for panoramic views across North Zealand's forested landscape and distant views toward the coast.",
+          "lat": 55.938,
+          "lng": 12.3445
+        },
+        {
+          "id": "grib_5",
+          "text": "Bird Watching at Skim Enge Meadow",
+          "detail": "Observe migratory and resident birds in this wetland area within the forest, particularly during spring and autumn seasons.",
+          "lat": 55.9512,
+          "lng": 12.3156
+        },
+        {
+          "id": "grib_6",
+          "text": "Picnicking by Forest Lakes",
+          "detail": "Pack a traditional Danish lunch and enjoy it at scenic picnic spots near lakes like Søhøjlandet or Gurre Sø."
+        }
+      ],
+      "food": [
+        {
+          "id": "grib_f1",
+          "text": "Smørrebrød with Local Ingredients",
+          "detail": "Visit nearby Helsinge village for open-faced rye bread sandwiches topped with Danish butter, fresh greens, and locally-sourced cold meats."
+        },
+        {
+          "id": "grib_f2",
+          "text": "Venison from North Zealand Forests",
+          "detail": "Sample grilled or braised deer meat at forest-edge restaurants, a regional specialty reflecting the area's hunting traditions."
+        },
+        {
+          "id": "grib_f3",
+          "text": "Fresh Beech Nuts (Bøgenødder)",
+          "detail": "In autumn, forage or purchase freshly roasted beech nuts, a traditional Danish forest snack with a subtle, nutty flavor."
+        },
+        {
+          "id": "grib_f4",
+          "text": "Danish Forest Mushroom Soup",
+          "detail": "Try seasonal mushroom soups made from chanterelles and other varieties foraged from the beech forest, served at local inns."
+        }
+      ],
+      "culture": [
+        {
+          "id": "grib_c1",
+          "text": "Respect Forest Quiet Hours",
+          "detail": "Keep noise levels low and avoid loud activities between dusk and dawn to preserve the peaceful woodland atmosphere and wildlife."
+        },
+        {
+          "id": "grib_c2",
+          "text": "Use Designated Paths Only",
+          "detail": "Stay on marked trails to protect the delicate beech forest ecosystem and prevent soil erosion in this protected natural area."
+        },
+        {
+          "id": "grib_c3",
+          "text": "Danish Allemansretten Principles",
+          "detail": "While not legally required in Denmark as in Scandinavia, follow the spirit of respectful outdoor access by leaving no trace and taking only photographs."
+        }
+      ]
+    },
+    {
+      "id": "elsinore_harbour",
+      "name": "Øresund Strait Coastal Path",
+      "nameIt": "Øresund Kyststien",
+      "lat": 56.044,
+      "lng": 12.62,
+      "type": "NATURE",
+      "description": "A scenic walking and cycling path running along the dramatic Øresund Strait coastline with views toward Sweden, connecting several coastal towns and villages. It showcases North Zealand's beautiful seaside landscape and provides opportunities for spotting marine wildlife.",
+      "imageQueries": [
+        "Øresund coast path Denmark",
+        "Øresund Strait cycling"
+      ],
+      "activities": [
+        {
+          "id": "elsi_1",
+          "text": "Walk or cycle the full coastal path",
+          "detail": "Experience the 35 km route from Helsingør to Kalkbrænderihavnen with unobstructed views across the Øresund Strait toward the Swedish coast."
+        },
+        {
+          "id": "elsi_2",
+          "text": "Visit Kronborg Castle in Helsingør",
+          "detail": "Explore the Renaissance fortress that inspired Shakespeare's Hamlet, located at the northern terminus of the path with commanding strait views.",
+          "lat": 56.0385,
+          "lng": 12.6256
+        },
+        {
+          "id": "elsi_3",
+          "text": "Spot seals and sea eagles",
+          "detail": "Use binoculars along the quieter sections between Espergærde and Hornbæk to observe grey seals hauling out on rocks and white-tailed eagles hunting over the water."
+        },
+        {
+          "id": "elsi_4",
+          "text": "Stop at Hornbæk Strand beach",
+          "detail": "Break your journey at this popular sandy beach with a charming fishing village atmosphere, restaurants, and easy access back to the path.",
+          "lat": 56.0937,
+          "lng": 12.4617
+        },
+        {
+          "id": "elsi_5",
+          "text": "Explore Tisvilde Hegn forest",
+          "detail": "Detour into Denmark's largest beech forest near Tisvilde, which offers shaded trails and connects to the coastal path at multiple points.",
+          "lat": 56.0703,
+          "lng": 12.5517
+        },
+        {
+          "id": "elsi_6",
+          "text": "Visit the Louisiana Museum of Modern Art",
+          "detail": "Located near Humlebæk, this world-renowned art museum sits directly on the coast with sculpture gardens overlooking the Øresund Strait.",
+          "lat": 56.1068,
+          "lng": 12.5719
+        },
+        {
+          "id": "elsi_7",
+          "text": "Kayak or paddleboard on the Øresund",
+          "detail": "Launch from designated beach areas near Espergærde or Hornbæk for a water-level perspective of the coastline and Swedish shores."
+        }
+      ],
+      "food": [
+        {
+          "id": "elsi_f1",
+          "text": "Fresh smørrebrød with local catch",
+          "detail": "Order open-faced sandwiches topped with smoked mackerel, herring, or freshly caught plaice at waterfront restaurants in Helsingør or Hornbæk."
+        },
+        {
+          "id": "elsi_f2",
+          "text": "Æbleskiver",
+          "detail": "Try these round Danish pancake balls, often served warm with powdered sugar and jam at cafés along the path, especially in smaller villages."
+        },
+        {
+          "id": "elsi_f3",
+          "text": "Steamed mussels (muslinger)",
+          "detail": "Enjoy locally sourced mussels steamed in white wine and herbs, a specialty at casual seafood restaurants from Hornbæk southward."
+        },
+        {
+          "id": "elsi_f4",
+          "text": "Flødeboller",
+          "detail": "Seek out these chocolate-covered marshmallow and almond treats at local bakeries, a classic Danish confection perfect for trail snacking."
+        },
+        {
+          "id": "elsi_f5",
+          "text": "Grilled fish at beachside restaurants",
+          "detail": "Sample daily catch prepared simply over an open flame at rustic dining spots in Tisvilde or Espergærde villages."
+        }
+      ],
+      "culture": [
+        {
+          "id": "elsi_c1",
+          "text": "Respect the Danish cycling culture",
+          "detail": "Cyclists have equal priority with pedestrians on the path; keep to designated sides, signal turns, and yield to faster riders coming from behind."
+        },
+        {
+          "id": "elsi_c2",
+          "text": "Check tide times and weather",
+          "detail": "Some sections near Espergærde and Hornbæk can be affected by high tides; local tourism offices provide tide tables and seasonal closure information."
+        },
+        {
+          "id": "elsi_c3",
+          "text": "Embrace 'friluftsliv' outdoor living",
+          "detail": "Danes practice 'friluftsliv' (open-air living) year-round; locals use the path in all seasons, so come prepared for changing weather rather than waiting for perfect conditions."
+        },
+        {
+          "id": "elsi_c4",
+          "text": "Use designated rest areas and facilities",
+          "detail": "The path is dotted with official shelters, benches, and pit toilets; use these rather than straying into private properties, which are strictly respected in Denmark."
+        }
+      ]
+    },
+    {
+      "id": "dronningm_lle",
+      "name": "Dronningmølle",
+      "nameIt": "Dronningmølle",
+      "lat": 55.8889,
+      "lng": 12.5167,
+      "type": "TOWN",
+      "description": "A quiet inland town surrounded by lakes and forest, known for its natural springs and spa heritage dating back to the 19th century. It offers a peaceful retreat with wellness facilities, lakeside walks, and access to beautiful surrounding nature.",
+      "imageQueries": [
+        "Dronningmølle Denmark spa",
+        "Dronningmølle lakes"
+      ],
+      "activities": [
+        {
+          "id": "dron_1",
+          "text": "Dronningmølle Spa & Wellness Centre",
+          "detail": "Visit the historic spa facility that has welcomed guests since the 19th century to experience thermal springs and modern wellness treatments.",
+          "lat": 55.8844,
+          "lng": 12.4156
+        },
+        {
+          "id": "dron_2",
+          "text": "Esrum Lake Walk",
+          "detail": "Take a peaceful lakeside walk around Esrum Lake, one of Denmark's largest lakes, with scenic forest paths and opportunities for birdwatching.",
+          "lat": 55.89,
+          "lng": 12.395
+        },
+        {
+          "id": "dron_3",
+          "text": "Esrum Abbey Ruins",
+          "detail": "Explore the atmospheric medieval monastery ruins dating back to 1151, set in a forest clearing near Esrum Lake.",
+          "lat": 55.875,
+          "lng": 12.385
+        },
+        {
+          "id": "dron_4",
+          "text": "Gribskov Forest Cycling",
+          "detail": "Cycle through the extensive Gribskov forest network with well-marked trails suitable for all skill levels.",
+          "lat": 55.9,
+          "lng": 12.38
+        },
+        {
+          "id": "dron_5",
+          "text": "Natural Springs Tasting",
+          "detail": "Experience the town's famous natural mineral springs that made it a sought-after spa destination in the 1800s.",
+          "lat": 55.8844,
+          "lng": 12.4156
+        },
+        {
+          "id": "dron_6",
+          "text": "Dronningmølle Town Museum",
+          "detail": "Learn about the town's spa heritage and local history through exhibits in this small but informative community museum."
+        }
+      ],
+      "food": [
+        {
+          "id": "dron_f1",
+          "text": "Smørrebrød with Local Smoked Fish",
+          "detail": "Try traditional open-faced rye bread sandwiches topped with locally smoked fish from regional waters."
+        },
+        {
+          "id": "dron_f2",
+          "text": "Danish Forest Mushroom Dishes",
+          "detail": "Seek out seasonal preparations featuring mushrooms foraged from the surrounding Gribskov forest."
+        },
+        {
+          "id": "dron_f3",
+          "text": "Freshwater Lake Pike",
+          "detail": "Sample pike caught from Esrum Lake, traditionally prepared with butter and herbs at local restaurants."
+        },
+        {
+          "id": "dron_f4",
+          "text": "Rye Bread from Local Bakeries",
+          "detail": "Purchase dark Danish rugbrød from town bakeries, baked daily using traditional methods."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dron_c1",
+          "text": "Respect Spa Etiquette",
+          "detail": "When visiting wellness facilities, follow quiet zone rules and allow adequate time for relaxation as per Scandinavian spa customs."
+        },
+        {
+          "id": "dron_c2",
+          "text": "Embrace Outdoor Culture",
+          "detail": "Locals prioritize outdoor activities year-round; dress appropriately for weather and join in forest walks and cycling as a way to experience community life."
+        },
+        {
+          "id": "dron_c3",
+          "text": "Visit During Spa Season",
+          "detail": "Summer months (June-August) are peak season for spa visits and lakeside activities, though spring and autumn offer quieter, equally beautiful alternatives."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Sletten Fiskerestaurant",
+      "address": "Strandvejen 267, Skodsborg",
+      "neighbourhood": "Skodsborg",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Waterfront seafood restaurant with fresh daily catches and panoramic views of the Øresund strait.",
+      "mustOrder": "Grilled lobster with drawn butter",
+      "lat": 55.8667,
+      "lng": 12.5833
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Møllestien",
+      "address": "Hovedgaden 2, Fredensborg",
+      "neighbourhood": "Fredensborg",
+      "cuisine": "Nordic/French",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant near Fredensborg Palace showcasing refined Nordic cuisine with French influences.",
+      "mustOrder": "Duck breast with cherry gastrique",
+      "lat": 56.0031,
+      "lng": 12.3425
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Birkegården",
+      "address": "Skovshoved Strandvej 80, Vedbæk",
+      "neighbourhood": "Vedbæk",
+      "cuisine": "Danish/Modern",
+      "priceRange": "€€€",
+      "description": "Charming beachfront cottage restaurant serving seasonal Danish cuisine with locally sourced ingredients.",
+      "mustOrder": "Whole roasted plaice",
+      "lat": 55.8438,
+      "lng": 12.5703
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Restaurant Marienborg",
+      "address": "Frederiksborg Slot, Hillerød",
+      "neighbourhood": "Hillerød",
+      "cuisine": "Nordic",
+      "priceRange": "€€€",
+      "description": "Fine dining venue within Frederiksborg Castle grounds offering Nordic cuisine and castle views.",
+      "mustOrder": "Venison with parsnip purée",
+      "lat": 56.0456,
+      "lng": 12.3067
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Grønnegården",
+      "address": "Strandvejen 403, Hellerup",
+      "neighbourhood": "Hellerup",
+      "cuisine": "Vegetarian/Organic",
+      "priceRange": "€€",
+      "description": "Farm-to-table organic restaurant emphasizing seasonal vegetables and sustainable practices.",
+      "mustOrder": "Root vegetable tarte tatin",
+      "lat": 55.7833,
+      "lng": 12.5333
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Gilleleie Fiskerestaurant",
+      "address": "Nordre Strandvej 4, Gilleleie",
+      "neighbourhood": "Gilleleie",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Casual harbourside restaurant in a working fishing village serving ultra-fresh seafood daily.",
+      "mustOrder": "Mixed fish platter",
+      "lat": 56.1167,
+      "lng": 12.3167
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Tre Små Røde Huse",
+      "address": "Havnestrøget 16, Hornbæk",
+      "neighbourhood": "Hornbæk",
+      "cuisine": "Danish/Seafood",
+      "priceRange": "€€",
+      "description": "Cosy traditional Danish restaurant in red-painted cottages overlooking the beach and harbour.",
+      "mustOrder": "Smørrebrød with shrimp and egg",
+      "lat": 56.0833,
+      "lng": 12.45
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurant Arken",
+      "address": "Skovshoved Strandvej 100, Klampenborg",
+      "neighbourhood": "Klampenborg",
+      "cuisine": "Contemporary Danish",
+      "priceRange": "€€€€",
+      "description": "Upscale dining with views of the Øresund, focusing on innovative Nordic cuisine and fine wine.",
+      "mustOrder": "Langoustine with cauliflower and caviar",
+      "lat": 55.7595,
+      "lng": 12.5765
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Frk. Sørensen",
+      "address": "Strandvejen 73, Skodsborg",
+      "neighbourhood": "Skodsborg",
+      "cuisine": "Modern Danish",
+      "priceRange": "€€€",
+      "description": "Contemporary café-restaurant with minimalist design serving refined Danish comfort food.",
+      "mustOrder": "Braised beef with pickled vegetables",
+      "lat": 55.8683,
+      "lng": 12.5797
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Spisehuset",
+      "address": "Jernbanegade 4, Fredensborg",
+      "neighbourhood": "Fredensborg",
+      "cuisine": "Danish",
+      "priceRange": "€€",
+      "description": "Traditional Danish restaurant with warm atmosphere near the train station, popular with locals.",
+      "mustOrder": "Frikadeller with pickled cucumber",
+      "lat": 56.0019,
+      "lng": 12.3414
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Kastrup Røgeri & Restaurant",
+      "address": "Strandvejen 508, Kastrup",
+      "neighbourhood": "Kastrup",
+      "cuisine": "Seafood/Smoked Fish",
+      "priceRange": "€€",
+      "description": "Family-run smokehouse and restaurant specializing in traditionally smoked fish and seafood.",
+      "mustOrder": "Smoked salmon platter",
+      "lat": 55.6167,
+      "lng": 12.65
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Restaurant Leonora",
+      "address": "Hovedgaden 49, Birkerød",
+      "neighbourhood": "Birkerød",
+      "cuisine": "International/Modern",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant in a historic building serving international cuisine with Danish influences.",
+      "mustOrder": "Pan-seared scallops with asparagus",
+      "lat": 55.8667,
+      "lng": 12.4167
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Kaas & Co.",
+      "address": "Strandvejen 111, Vedbæk",
+      "neighbourhood": "Vedbæk",
+      "cuisine": "French/Danish",
+      "priceRange": "€€€",
+      "description": "Small neighborhood bistro known for cheese selections and classic French-Danish dishes.",
+      "mustOrder": "Cheese board with homemade bread",
+      "lat": 55.8443,
+      "lng": 12.5721
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Hørup Mølle Restaurant",
+      "address": "Hørup Mølle Vej 8, Allerød",
+      "neighbourhood": "Allerød",
+      "cuisine": "Nordic/Contemporary",
+      "priceRange": "€€€",
+      "description": "Restaurant in a renovated historic mill serving contemporary Nordic cuisine with forest views.",
+      "mustOrder": "Roasted pork loin with apple compote",
+      "lat": 55.883,
+      "lng": 12.4267
+    }
+  ]
+}

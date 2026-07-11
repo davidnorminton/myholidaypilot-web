@@ -1,0 +1,1353 @@
+{
+  "id": "south_east",
+  "name": "Southeast",
+  "nameIt": "An Deisceart Thoir",
+  "capital": "Waterford",
+  "lat": 52.25,
+  "lng": -7.59,
+  "emoji": "🏖️",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 52.84,
+    "south": 51.63,
+    "east": -7.21,
+    "west": -8.47
+  },
+  "history": "Southeast Ireland has a rich medieval heritage, with the region playing a crucial role during the Norman invasion of the 12th century, particularly around Waterford and the fertile lands of County Tipperary. The area developed as a prosperous trading hub, with ports like Waterford and Dunmore East becoming important commercial centers throughout the medieval and early modern periods. The region experienced significant hardship during the Great Famine of the 1840s, which left deep marks on the landscape and population. In more recent times, the Southeast has undergone economic transformation, blending its agricultural traditions with modern industry and tourism.",
+  "culturalNotes": "The Southeast is known for its strong agricultural heritage, particularly dairy farming and market gardening, which continue to shape the region's identity and economy. Traditional music and dance remain vibrant here, with local céilís and festivals celebrating Irish culture throughout the year. The region is also renowned for its craftsmanship, from pottery and weaving to food production, reflecting a proud tradition of skilled trades passed down through generations.",
+  "bestTimeToVisit": "Best visited May to September for coastal walks and sunny weather.",
+  "languageNotes": "While English is the primary language, Irish (Gaeilge) is taught in schools and heard in cultural contexts, with place names often retaining their Irish origins. Locals commonly use colloquial phrases like 'howya' as a greeting and are known for their warm, conversational manner of speech typical of southern Irish dialect.",
+  "generatedAt": "2026-07-11T08:11:27.386Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "waterford_city",
+      "name": "Waterford City",
+      "nameIt": "Port Láirge",
+      "lat": 52.2597,
+      "lng": -3.5031,
+      "type": "CITY",
+      "description": "Ireland's oldest city, founded by Vikings, featuring the iconic Reginald's Tower and a beautifully restored medieval riverfront. The compact city center offers excellent restaurants, galleries, and a rich history spanning over a thousand years.",
+      "imageQueries": [
+        "Reginald's Tower Waterford",
+        "Waterford City riverside medieval"
+      ],
+      "activities": [
+        {
+          "id": "wate_1",
+          "text": "Reginald's Tower",
+          "detail": "Climb to the top of this iconic Norman tower built in 1003 for panoramic views over Waterford and the River Suir, with exhibits on the city's Viking and medieval history.",
+          "lat": 52.2576,
+          "lng": -3.5107
+        },
+        {
+          "id": "wate_2",
+          "text": "Medieval Museum",
+          "detail": "Explore three centuries of Waterford's history through artifacts including the medieval charters and the preserved clothing of Henry VIII's son, housed in a beautifully restored 18th-century building.",
+          "lat": 52.2581,
+          "lng": -3.5118
+        },
+        {
+          "id": "wate_3",
+          "text": "Waterford Greenway Walk",
+          "detail": "Stroll or cycle the scenic 46 km greenway trail linking Waterford to Dungarvan along a restored railway route through coastal and countryside landscapes.",
+          "lat": 52.255,
+          "lng": -3.51
+        },
+        {
+          "id": "wate_4",
+          "text": "Viking Triangle Walking Tour",
+          "detail": "Follow a guided or self-guided route through the compact historic district bounded by the river, discovering Viking streets, fortifications, and medieval architecture.",
+          "lat": 52.2575,
+          "lng": -3.513
+        },
+        {
+          "id": "wate_5",
+          "text": "Waterford Treasures",
+          "detail": "Experience this immersive museum showcasing the city's 1,100-year story with interactive displays and artifact collections spanning Viking, Norman, and Georgian periods.",
+          "lat": 52.258,
+          "lng": -3.5115
+        },
+        {
+          "id": "wate_6",
+          "text": "River Suir Boat Tours",
+          "detail": "Take a guided cruise along the River Suir to see Waterford's waterfront heritage, local wildlife, and access points to Dunmore East fishing village.",
+          "lat": 52.2576,
+          "lng": -3.5107
+        },
+        {
+          "id": "wate_7",
+          "text": "Waterford City Walls",
+          "detail": "Walk the partially preserved medieval walls dating from the 13th century that once enclosed the city, offering glimpses into medieval defensive architecture.",
+          "lat": 52.2585,
+          "lng": -3.5125
+        }
+      ],
+      "food": [
+        {
+          "id": "wate_f1",
+          "text": "Waterford Blaa",
+          "detail": "A soft, doughy oval bread roll unique to Waterford, traditionally filled with bacon and cheese or sausage and eaten for breakfast or lunch."
+        },
+        {
+          "id": "wate_f2",
+          "text": "Fresh Seafood from Dunmore East",
+          "detail": "Sample locally caught catch-of-the-day such as sea bass, turbot, or lobster at waterfront restaurants, sourced from Ireland's busiest fishing port just 15 km away."
+        },
+        {
+          "id": "wate_f3",
+          "text": "Butlerstown Black Pudding",
+          "detail": "Try this traditional Irish blood sausage from nearby producers, served as part of a full Irish breakfast or sliced in local restaurants."
+        },
+        {
+          "id": "wate_f4",
+          "text": "Waterford Craft Beers",
+          "detail": "Discover local microbreweries producing craft ales and stouts at city-center pubs that showcase independent Irish brewing heritage."
+        },
+        {
+          "id": "wate_f5",
+          "text": "Irish Soda Bread",
+          "detail": "Experience traditional soda bread made locally with wholemeal or white flour and served warm with butter at cafés throughout the city center."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wate_c1",
+          "text": "Pub Culture and Traditional Music",
+          "detail": "Visit local pubs in the evenings where impromptu or scheduled traditional Irish music sessions are common; ordering a drink and settling in is an expected way to experience local social life."
+        },
+        {
+          "id": "wate_c2",
+          "text": "Waterford Festival Timing",
+          "detail": "Plan your visit around major events like Winterval (December) or the Waterford Light Festival to experience the city's vibrant community celebrations and seasonal markets."
+        },
+        {
+          "id": "wate_c3",
+          "text": "Compact Walking City",
+          "detail": "The medieval city center is entirely walkable and best explored on foot; parking is limited so locals and visitors typically navigate by walking or using local buses."
+        },
+        {
+          "id": "wate_c4",
+          "text": "Viking Heritage Pride",
+          "detail": "Waterford residents take great pride in their Viking and medieval history, so showing genuine interest in the city's 1,100-year story and heritage sites is warmly appreciated."
+        }
+      ]
+    },
+    {
+      "id": "dunmore_east",
+      "name": "Dunmore East",
+      "nameIt": "Dún Mór Thoir",
+      "lat": 52.1397,
+      "lng": -3.2939,
+      "type": "COASTAL",
+      "description": "A charming fishing village with colorful boats, sandy beaches, and a genuine working harbor atmosphere that captures authentic Irish coastal life. Popular for its seafood restaurants, cliff walks, and relaxed village character.",
+      "imageQueries": [
+        "Dunmore East fishing village boats",
+        "Dunmore East beach harbor"
+      ],
+      "activities": [
+        {
+          "id": "dunm_1",
+          "text": "Explore the Working Harbor",
+          "detail": "Wander the active fishing harbor to watch boats unload their daily catch and observe the genuine working rhythm of this traditional Irish fishing village.",
+          "lat": 52.1639,
+          "lng": -3.9858
+        },
+        {
+          "id": "dunm_2",
+          "text": "Dunmore East Cliff Walk",
+          "detail": "Follow the scenic coastal path along dramatic cliffs with panoramic views of Waterford Harbor and the Celtic Sea, perfect for a two-hour round walk.",
+          "lat": 52.1625,
+          "lng": -3.9742
+        },
+        {
+          "id": "dunm_3",
+          "text": "Strand Beach",
+          "detail": "Enjoy swimming and beachcombing on this sandy Blue Flag beach backed by grassy dunes, ideal for families and water sports enthusiasts.",
+          "lat": 52.1563,
+          "lng": -3.9801
+        },
+        {
+          "id": "dunm_4",
+          "text": "Dunmore East Pottery Studio",
+          "detail": "Visit local artisans creating handmade ceramics and pottery inspired by coastal life, with opportunities to purchase unique pieces.",
+          "lat": 52.1645,
+          "lng": -3.9845
+        },
+        {
+          "id": "dunm_5",
+          "text": "Historic Church of the Assumption",
+          "detail": "Step inside this 19th-century church at the heart of the village to appreciate its traditional Irish Catholic architecture and local heritage.",
+          "lat": 52.1652,
+          "lng": -3.9867
+        },
+        {
+          "id": "dunm_6",
+          "text": "Seasonal Fishing Festival",
+          "detail": "Plan a visit around July for the Dunmore East Festival celebrating fishing heritage with boat races, seafood stalls, live music, and community parades."
+        }
+      ],
+      "food": [
+        {
+          "id": "dunm_f1",
+          "text": "Fresh Local Catch Seafood",
+          "detail": "Sample the daily fresh fish and seafood landed at the harbor that same morning, expertly prepared at waterfront restaurants like The Candlelight or The Haven."
+        },
+        {
+          "id": "dunm_f2",
+          "text": "Irish Fish & Chips",
+          "detail": "Order traditional battered cod or haddock with hand-cut chips from local takeaways using fish unloaded hours earlier from the harbor boats."
+        },
+        {
+          "id": "dunm_f3",
+          "text": "Seafood Chowder",
+          "detail": "Enjoy creamy traditional Irish seafood chowder brimming with local mussels, prawns, and white fish, served with crusty brown bread."
+        },
+        {
+          "id": "dunm_f4",
+          "text": "Smoked Mackerel",
+          "detail": "Taste locally smoked mackerel prepared using traditional methods, often served warm with fresh lemon and crusty bread in village restaurants."
+        },
+        {
+          "id": "dunm_f5",
+          "text": "Boxty & Local Fish",
+          "detail": "Try the Irish potato pancake boxty filled or served alongside fresh local white fish, a traditional Waterford comfort food specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dunm_c1",
+          "text": "Respect the Working Harbor",
+          "detail": "The harbor is an active commercial fishing space, not a tourist attraction—stay clear of working areas, watch your step on wet docks, and avoid blocking fishermen's access to their boats."
+        },
+        {
+          "id": "dunm_c2",
+          "text": "Visit Early for Authentic Atmosphere",
+          "detail": "Arrive in early morning hours to experience the genuine bustle of the fishing village when boats are unloading and the harbor is most alive with activity."
+        },
+        {
+          "id": "dunm_c3",
+          "text": "Embrace Coastal Weather",
+          "detail": "Pack waterproof jackets and layers, as Waterford's southeast coast is subject to sudden wind and rain changes typical of Irish coastal villages year-round."
+        },
+        {
+          "id": "dunm_c4",
+          "text": "Support Local Fishermen",
+          "detail": "Buy seafood directly from harborside vendors or restaurants serving local catch to help sustain the traditional fishing community that defines Dunmore East's character."
+        }
+      ]
+    },
+    {
+      "id": "dungarvan",
+      "name": "Dungarvan",
+      "nameIt": "Dún Garbhán",
+      "lat": 52.0795,
+      "lng": -3.6061,
+      "type": "TOWN",
+      "description": "An attractive market town on Dungarvan Bay with a long curved seafront, excellent restaurants, and a vibrant creative community. It serves as a gateway to West Waterford's stunning coastal scenery and mountain passes.",
+      "imageQueries": [
+        "Dungarvan Bay waterfront",
+        "Dungarvan town Waterford"
+      ],
+      "activities": [
+        {
+          "id": "dung_1",
+          "text": "Dungarvan Seafront Walk",
+          "detail": "Stroll the curved promenade along Dungarvan Bay, lined with colourful buildings, shops, and cafés with views across the water to the Drum Hills.",
+          "lat": 51.8406,
+          "lng": -7.9868
+        },
+        {
+          "id": "dung_2",
+          "text": "Dungarvan Castle & Museum",
+          "detail": "Explore the 13th-century Norman castle ruins and learn about the town's medieval history through exhibits in the adjacent museum.",
+          "lat": 51.8393,
+          "lng": -7.9893
+        },
+        {
+          "id": "dung_3",
+          "text": "Abbeyside Historic Quarter",
+          "detail": "Wander the narrow lanes and laneways of this monastic settlement across the Colligan River, featuring St Augustine's Church and centuries-old stone buildings.",
+          "lat": 51.8378,
+          "lng": -7.984
+        },
+        {
+          "id": "dung_4",
+          "text": "Helwick Head Walk",
+          "detail": "Hike the coastal path to this dramatic headland offering panoramic views of Dungarvan Bay and the Waterford coastline.",
+          "lat": 51.83,
+          "lng": -7.965
+        },
+        {
+          "id": "dung_5",
+          "text": "Dungarvan Arts Centre",
+          "detail": "Visit this hub of the town's vibrant creative community, hosting exhibitions, theatre, and live music in a restored Victorian building."
+        },
+        {
+          "id": "dung_6",
+          "text": "Colligan Strand Beach",
+          "detail": "Enjoy this sandy beach just outside town, popular for swimming, walking, and watching traditional currachs launch from the shore.",
+          "lat": 51.835,
+          "lng": -7.975
+        }
+      ],
+      "food": [
+        {
+          "id": "dung_f1",
+          "text": "Fresh Seafood Chowder",
+          "detail": "A creamy local soup made with locally caught white fish, mussels, and prawns from Dungarvan Bay, served in waterfront restaurants."
+        },
+        {
+          "id": "dung_f2",
+          "text": "Dungarvan Crab & Lobster",
+          "detail": "Fresh crustaceans landed daily at the town's working harbour are simply prepared and served in local restaurants with traditional brown bread."
+        },
+        {
+          "id": "dung_f3",
+          "text": "Boxty with Local Fish",
+          "detail": "The Irish potato pancake is filled with smoked fish or local catch, reflecting both local tradition and the region's fishing heritage."
+        },
+        {
+          "id": "dung_f4",
+          "text": "West Waterford Lamb",
+          "detail": "Locally reared lamb from the surrounding hills, often roasted or prepared as slow-cooked stew in traditional Irish style."
+        },
+        {
+          "id": "dung_f5",
+          "text": "Dungarvan Artisan Coffee Culture",
+          "detail": "The town has developed a thriving specialty coffee scene with local roasters and independent cafés serving quality espresso drinks."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dung_c1",
+          "text": "Arts & Creative Hub Status",
+          "detail": "Dungarvan has become a magnet for artists, musicians, and makers, so visit during summer festivals, check local galleries, and chat with shopkeepers about the creative scene."
+        },
+        {
+          "id": "dung_c2",
+          "text": "Working Fishing Town Traditions",
+          "detail": "The harbour remains active with traditional fishing boats and currachs; early mornings offer authentic glimpses of the catch landing and selling at the quay."
+        },
+        {
+          "id": "dung_c3",
+          "text": "Local Festival Calendar",
+          "detail": "The town hosts year-round events including the Dungarvan Waterfront Festival in summer and traditional music sessions in pubs on weekend evenings."
+        },
+        {
+          "id": "dung_c4",
+          "text": "Gateway to West Waterford Exploration",
+          "detail": "Use Dungarvan as a base to explore mountain passes, hidden beaches, and small villages inland; locals are helpful with recommendations for scenic drives and walking routes."
+        }
+      ]
+    },
+    {
+      "id": "lismore",
+      "name": "Lismore",
+      "nameIt": "Lios Mór",
+      "lat": 52.0212,
+      "lng": -3.7534,
+      "type": "VILLAGE",
+      "description": "A picturesque village dominated by the dramatic Lismore Castle perched above the River Blackwater, surrounded by gardens and woodland. The setting is quintessentially Irish with steep streets, heritage shops, and access to beautiful river valley walks.",
+      "imageQueries": [
+        "Lismore Castle Waterford",
+        "Lismore village River Blackwater"
+      ],
+      "activities": [
+        {
+          "id": "lism_1",
+          "text": "Lismore Castle and Gardens",
+          "detail": "Explore the imposing 12th-century castle overlooking the Blackwater with its magnificent Victorian gardens, woodland walks, and river views.",
+          "lat": 52.0039,
+          "lng": -7.9456
+        },
+        {
+          "id": "lism_2",
+          "text": "Blackwater River Walk",
+          "detail": "Follow scenic riverside paths along the Blackwater Valley offering peaceful nature walks, bird watching, and views of the surrounding countryside.",
+          "lat": 52.0052,
+          "lng": -7.9431
+        },
+        {
+          "id": "lism_3",
+          "text": "St Carthage's Cathedral",
+          "detail": "Visit this historic 17th-century cathedral in the village centre featuring original stonework and local religious heritage.",
+          "lat": 52.0042,
+          "lng": -7.9467
+        },
+        {
+          "id": "lism_4",
+          "text": "Lismore Heritage Centre",
+          "detail": "Learn about the village's monastic past and medieval history through exhibits covering St Carthage and local archaeological discoveries.",
+          "lat": 52.0048,
+          "lng": -7.9471
+        },
+        {
+          "id": "lism_5",
+          "text": "Main Street Shopping",
+          "detail": "Browse independent heritage shops and boutiques selling local crafts, antiques, and Irish goods along the picturesque steep main street.",
+          "lat": 52.0046,
+          "lng": -7.9469
+        },
+        {
+          "id": "lism_6",
+          "text": "Ballysaggart Walks",
+          "detail": "Discover woodland trails and hillside paths in the surrounding countryside offering panoramic views of the Blackwater Valley.",
+          "lat": 52.0156,
+          "lng": -7.9512
+        }
+      ],
+      "food": [
+        {
+          "id": "lism_f1",
+          "text": "Blackwater Smoked Salmon",
+          "detail": "Freshly smoked salmon sourced from local waters, served in village restaurants and available at farm shops as a regional specialty."
+        },
+        {
+          "id": "lism_f2",
+          "text": "Irish Farmhouse Cheese Plate",
+          "detail": "Local artisan cheeses paired with brown soda bread, featuring cheeses from nearby Waterford and Tipperary producers."
+        },
+        {
+          "id": "lism_f3",
+          "text": "Colcannon",
+          "detail": "Traditional creamed potato and cabbage dish served warm as a comfort food staple in local pubs and family restaurants."
+        },
+        {
+          "id": "lism_f4",
+          "text": "Seafood Chowder",
+          "detail": "Creamy soup featuring local freshwater fish and shellfish, typically served with crusty bread in village pubs."
+        },
+        {
+          "id": "lism_f5",
+          "text": "Boxty",
+          "detail": "Soft potato pancakes traditionally served with savory or sweet fillings, available at cafés as an authentic Irish breakfast item."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lism_c1",
+          "text": "Respect Castle Visiting Hours",
+          "detail": "Lismore Castle operates on seasonal hours and may close for private events, so check ahead before planning a visit."
+        },
+        {
+          "id": "lism_c2",
+          "text": "Embrace the Pace",
+          "detail": "This is a quiet village where life moves slowly; shops may close for lunch and Sunday is traditionally quiet, so plan accordingly."
+        },
+        {
+          "id": "lism_c3",
+          "text": "Local Pub Culture",
+          "detail": "Village pubs are social hubs where locals gather; striking up conversation is welcomed and offers authentic insight into community life."
+        },
+        {
+          "id": "lism_c4",
+          "text": "Steep Street Navigation",
+          "detail": "Main Street has considerable gradients and uneven cobbles, so wear comfortable walking shoes and take your time exploring the village."
+        }
+      ]
+    },
+    {
+      "id": "copper_coast",
+      "name": "Copper Coast",
+      "nameIt": "Cósta an Chóir",
+      "lat": 52.1667,
+      "lng": -3.5833,
+      "type": "COASTAL",
+      "description": "A scenic stretch of rugged coastline between Dungarvan and Tramore featuring dramatic cliffs, mining heritage, and hidden coves ideal for exploration. The area offers excellent walking trails and geological interest tied to Ireland's copper mining past.",
+      "imageQueries": [
+        "Copper Coast cliffs Waterford",
+        "Copper Coast Ireland geology"
+      ],
+      "activities": [
+        {
+          "id": "copp_1",
+          "text": "Copper Coast Cliff Walk",
+          "detail": "A spectacular 12km coastal trail linking Dungarvan to Tramore with views of dramatic sea cliffs, abandoned copper mines, and hidden coves.",
+          "lat": 52.0436,
+          "lng": -7.6211
+        },
+        {
+          "id": "copp_2",
+          "text": "Tankardstown Mine Exploration",
+          "detail": "Visit the remains of this 19th-century copper mine with interpretive signage explaining the area's industrial heritage and Victorian-era extraction methods.",
+          "lat": 52.0361,
+          "lng": -7.6472
+        },
+        {
+          "id": "copp_3",
+          "text": "Stradbally Cove Swimming",
+          "detail": "A sheltered blue-flag beach tucked beneath cliffs, ideal for swimming and exploring tidal pools during low tide.",
+          "lat": 52.0489,
+          "lng": -7.5967
+        },
+        {
+          "id": "copp_4",
+          "text": "Geological Fossil Hunting",
+          "detail": "Search the Devonian period rock formations and shale beaches for fossils and mineral specimens that reveal the area's ancient seafloor origins.",
+          "lat": 52.04,
+          "lng": -7.61
+        },
+        {
+          "id": "copp_5",
+          "text": "Dungarvan Harbour Walk",
+          "detail": "Stroll the medieval harbour town's waterfront with views across Dungarvan Bay and access to local pubs and seafood restaurants.",
+          "lat": 52.0859,
+          "lng": -7.7847
+        },
+        {
+          "id": "copp_6",
+          "text": "Seaweed Foraging Tours",
+          "detail": "Join guided expeditions to harvest edible seaweed species from the rocky shore, learning traditional coastal food practices.",
+          "lat": 52.045,
+          "lng": -7.62
+        }
+      ],
+      "food": [
+        {
+          "id": "copp_f1",
+          "text": "Fresh Dungarvan Mussels",
+          "detail": "Sweet, tender mussels harvested from Dungarvan Bay, typically steamed with white wine and served in waterfront restaurants."
+        },
+        {
+          "id": "copp_f2",
+          "text": "Smoked Mackerel",
+          "detail": "Locally caught Atlantic mackerel cold-smoked over oak, a traditional coastal delicacy found in local fishmongers and farm shops."
+        },
+        {
+          "id": "copp_f3",
+          "text": "Waterford Blaa with Drisheen",
+          "detail": "A soft white bread roll filled with drisheen (blood sausage) and butter, a historic Waterford breakfast tradition still served at local cafés."
+        },
+        {
+          "id": "copp_f4",
+          "text": "Seaweed Butter and Preserves",
+          "detail": "Artisanal products made from locally harvested dulse and sea lettuce, infusing traditional Irish butter and jams with coastal flavours."
+        },
+        {
+          "id": "copp_f5",
+          "text": "Rock Oysters from Tramore Bay",
+          "detail": "Briny, mineral-rich oysters farmed in the sheltered waters near Tramore, best enjoyed raw on the half-shell at harbourside venues."
+        }
+      ],
+      "culture": [
+        {
+          "id": "copp_c1",
+          "text": "Respect Mine Site Safety",
+          "detail": "Many copper mines remain unstable with hidden shafts; stick to marked trails and designated viewing areas, and never enter abandoned mine entrances."
+        },
+        {
+          "id": "copp_c2",
+          "text": "Visit During Neap Tides",
+          "detail": "Plan cove exploration and fossil hunting during neap tides when water levels are lowest, exposing more beach and rock formations safely."
+        },
+        {
+          "id": "copp_c3",
+          "text": "Learn the Mining Heritage",
+          "detail": "The Copper Coast's prosperity in the 1800s shaped local identity; locals appreciate visitors who take time to understand the area's industrial past at visitor centres."
+        },
+        {
+          "id": "copp_c4",
+          "text": "Support Local Fishing Communities",
+          "detail": "Buy directly from independent fish stalls and family-run restaurants in Dungarvan to sustain the working harbour traditions that define the coast."
+        }
+      ]
+    },
+    {
+      "id": "tramore",
+      "name": "Tramore",
+      "nameIt": "Trá Mór",
+      "lat": 52.1608,
+      "lng": -3.2678,
+      "type": "COASTAL",
+      "description": "A classic Irish seaside resort with a long sandy beach, seafront promenade, and vintage amusement park creating a nostalgic holiday atmosphere. Popular with families and surfers, it offers traditional seaside entertainment combined with natural beach beauty.",
+      "imageQueries": [
+        "Tramore Beach Ireland",
+        "Tramore seaside promenade"
+      ],
+      "activities": [
+        {
+          "id": "tram_1",
+          "text": "Tramore Beach",
+          "detail": "A long, sandy Blue Flag beach ideal for swimming, sunbathing, and family seaside days with lifeguard patrols during summer months.",
+          "lat": 52.1614,
+          "lng": -3.2753
+        },
+        {
+          "id": "tram_2",
+          "text": "Tramore Amusement Park",
+          "detail": "A vintage seaside amusement park featuring traditional rides including a wooden roller coaster, dodgems, and arcade games that evokes nostalgic Irish holiday memories.",
+          "lat": 52.1589,
+          "lng": -3.2729
+        },
+        {
+          "id": "tram_3",
+          "text": "Seafront Promenade Walk",
+          "detail": "A scenic coastal path stretching along the beach with views of Tramore Bay, ideal for leisurely walks, cycling, or spotting local birdlife.",
+          "lat": 52.161,
+          "lng": -3.274
+        },
+        {
+          "id": "tram_4",
+          "text": "Surfing at Tramore Strand",
+          "detail": "One of Ireland's most popular surf breaks with consistent Atlantic swells, offering lessons and board hire for beginners to experienced surfers.",
+          "lat": 52.162,
+          "lng": -3.277
+        },
+        {
+          "id": "tram_5",
+          "text": "Doneraile Open Farm",
+          "detail": "A family-friendly working farm near Tramore offering animal encounters, tractor rides, and insight into rural Irish agricultural life.",
+          "lat": 52.18,
+          "lng": -3.25
+        },
+        {
+          "id": "tram_6",
+          "text": "Metal Man Monument",
+          "detail": "A distinctive 18th-century iron statue standing on the eastern headland, traditionally visited by locals who believe rubbing it brings good fortune.",
+          "lat": 52.155,
+          "lng": -3.255
+        }
+      ],
+      "food": [
+        {
+          "id": "tram_f1",
+          "text": "Fresh Fish and Chips",
+          "detail": "Locally caught fish battered and fried, best enjoyed with thick-cut chips and eaten on the beach overlooking Tramore Bay."
+        },
+        {
+          "id": "tram_f2",
+          "text": "Seafood Chowder",
+          "detail": "A creamy Irish soup loaded with local mussels, prawns, and white fish served with brown soda bread in seaside restaurants."
+        },
+        {
+          "id": "tram_f3",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake filled with cheese and ham, commonly found at local cafes and food vendors along the promenade."
+        },
+        {
+          "id": "tram_f4",
+          "text": "Irish Cream Tea",
+          "detail": "Scones served with clotted cream and jam accompanied by strong Irish tea, a quintessential seaside resort tradition."
+        },
+        {
+          "id": "tram_f5",
+          "text": "Bacon and Cabbage",
+          "detail": "A hearty traditional Irish dish of boiled bacon and cabbage, reflecting the working-class seaside town's culinary heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tram_c1",
+          "text": "Summer Holiday Season Peak",
+          "detail": "Tramore is busiest during July and August when Irish families holiday here; visit in shoulder seasons (May-June or September) for fewer crowds and better prices."
+        },
+        {
+          "id": "tram_c2",
+          "text": "Respect Beach Safety Flags",
+          "detail": "Beaches display colored flags indicating water conditions; red flags mean dangerous swimming, so always check before entering the sea."
+        },
+        {
+          "id": "tram_c3",
+          "text": "Traditional Seaside Etiquette",
+          "detail": "Embrace the casual, family-friendly atmosphere by strolling the promenade at dusk, enjoying ice cream, and participating in casual beach games like frisbee or paddling."
+        },
+        {
+          "id": "tram_c4",
+          "text": "Local Pub Culture",
+          "detail": "Evening socializing centers on the town's pubs where locals and visitors mix; a pint of Guinness and traditional Irish music sessions are common weekend features."
+        }
+      ]
+    },
+    {
+      "id": "ardmore",
+      "name": "Ardmore",
+      "nameIt": "Ard Mór",
+      "lat": 51.9444,
+      "lng": -3.5833,
+      "type": "COASTAL",
+      "description": "A peaceful coastal village featuring an ancient round tower and early Christian church on dramatic cliff headlands, with a small sandy beach and rocky coves. The location combines spiritual heritage with spectacular coastal scenery and excellent cliff-top walks.",
+      "imageQueries": [
+        "Ardmore Round Tower",
+        "Ardmore Beach cliffs"
+      ],
+      "activities": [
+        {
+          "id": "ardm_1",
+          "text": "Climb Ardmore Round Tower",
+          "detail": "Ascend the 97-foot early Christian round tower dating to the 12th century for panoramic views of the coastline and village below.",
+          "lat": 37.9794,
+          "lng": -7.6847
+        },
+        {
+          "id": "ardm_2",
+          "text": "Visit Ardmore Cathedral",
+          "detail": "Explore the ruins of the early Christian cathedral adjacent to the round tower, featuring Ogham stones and medieval graveslabs.",
+          "lat": 37.9794,
+          "lng": -7.6847
+        },
+        {
+          "id": "ardm_3",
+          "text": "Walk the Cliff-Top Path",
+          "detail": "Follow the dramatic coastal footpath along the headlands for sweeping Atlantic views, wildflower meadows, and access to hidden coves."
+        },
+        {
+          "id": "ardm_4",
+          "text": "Ardmore Beach Swimming",
+          "detail": "Enjoy the sheltered sandy beach at the foot of the village, ideal for swimming and beachcombing in summer months.",
+          "lat": 37.9756,
+          "lng": -7.6823
+        },
+        {
+          "id": "ardm_5",
+          "text": "Explore St. Declan's Well",
+          "detail": "Visit the sacred holy well associated with the village's patron saint, built into the cliff face and accessed via stone steps.",
+          "lat": 37.9748,
+          "lng": -7.6805
+        },
+        {
+          "id": "ardm_6",
+          "text": "Photography at Sunset",
+          "detail": "Capture the round tower and cathedral silhouetted against the Atlantic during golden hour from the cliff-top viewpoint."
+        }
+      ],
+      "food": [
+        {
+          "id": "ardm_f1",
+          "text": "Smoked Seafood Platters",
+          "detail": "Locally-smoked mackerel, salmon, and trout served fresh from Ardmore's fishing tradition, often available at village restaurants."
+        },
+        {
+          "id": "ardm_f2",
+          "text": "Colcannon",
+          "detail": "Traditional Irish potato and cabbage dish, a local staple served warm with butter and often featuring spring onions from nearby farms."
+        },
+        {
+          "id": "ardm_f3",
+          "text": "Fresh Catch Fish & Chips",
+          "detail": "Daily-landed white fish, typically whiting or haddock, battered and fried with thick-cut chips and served at the village takeaway."
+        },
+        {
+          "id": "ardm_f4",
+          "text": "Brown Bread",
+          "detail": "Soda bread baked fresh by local bakeries, traditionally served warm with Irish butter and local honey or jam."
+        },
+        {
+          "id": "ardm_f5",
+          "text": "Seafood Chowder",
+          "detail": "Creamy soup combining prawns, mussels, and white fish with leeks and potatoes, reflecting the village's coastal heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ardm_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "The round tower and cathedral remain active spiritual locations; maintain quiet reverence and avoid climbing on ancient stones."
+        },
+        {
+          "id": "ardm_c2",
+          "text": "Tide Times Essential",
+          "detail": "Check local tide times before exploring beaches and coves, as some areas become inaccessible at high tide without warning."
+        },
+        {
+          "id": "ardm_c3",
+          "text": "St. Declan's Pilgrimage Tradition",
+          "detail": "July 24th marks St. Declan's Feast Day when locals and pilgrims gather for processions and celebrations honoring the village's founding saint."
+        },
+        {
+          "id": "ardm_c4",
+          "text": "Weather-Dependent Plans",
+          "detail": "Coastal weather changes rapidly; carry waterproof layers and footwear suitable for muddy cliff paths even on apparently clear days."
+        }
+      ]
+    },
+    {
+      "id": "dunmore_head",
+      "name": "Dunmore Head",
+      "nameIt": "Ceann Dún Mór",
+      "lat": 51.8833,
+      "lng": -3.6667,
+      "type": "LANDMARK",
+      "description": "A dramatic headland marking the southernmost point of the Waterford coast with towering sea cliffs, a lighthouse, and panoramic Atlantic views. It's an essential stop for photographers and nature lovers seeking raw coastal drama.",
+      "imageQueries": [
+        "Dunmore Head lighthouse Waterford",
+        "Dunmore Head cliffs"
+      ],
+      "activities": [
+        {
+          "id": "dunm_1",
+          "text": "Dunmore Head Lighthouse Visit",
+          "detail": "Explore the working lighthouse perched at the cliff edge, offering guided tours and spectacular 360-degree Atlantic views from the lantern room.",
+          "lat": 51.9667,
+          "lng": -9.8833
+        },
+        {
+          "id": "dunm_2",
+          "text": "Cliff-Edge Photography Walk",
+          "detail": "Navigate the dramatic sea cliffs towering 210 meters above the Atlantic, capturing views of Dunmore Head's raw geology and crashing waves below.",
+          "lat": 51.9667,
+          "lng": -9.8833
+        },
+        {
+          "id": "dunm_3",
+          "text": "Coastal Path to Ardmore Round Tower",
+          "detail": "Hike the scenic cliff-top trail eastward to the ancient seventh-century Ardmore Round Tower and monastic site, about 8 kilometers away.",
+          "lat": 51.9617,
+          "lng": -9.7483
+        },
+        {
+          "id": "dunm_4",
+          "text": "Seabird Watching",
+          "detail": "Observe Atlantic seabirds including gannets, razorbills, and puffins nesting on offshore stacks and cliff ledges during spring and summer months.",
+          "lat": 51.9667,
+          "lng": -9.8833
+        },
+        {
+          "id": "dunm_5",
+          "text": "Sunset Viewing at the Headland",
+          "detail": "Position yourself at the cliff's edge during golden hour to witness the sun descending over the Atlantic with the lighthouse beam beginning its evening rotation.",
+          "lat": 51.9667,
+          "lng": -9.8833
+        },
+        {
+          "id": "dunm_6",
+          "text": "Local Heritage Museum Visit",
+          "detail": "Explore Dunmore East village's small maritime museum documenting the region's fishing heritage and lighthouse history, located a few kilometers away.",
+          "lat": 51.9733,
+          "lng": -9.855
+        }
+      ],
+      "food": [
+        {
+          "id": "dunm_f1",
+          "text": "Fresh Atlantic Catch at Dunmore East Harbour",
+          "detail": "Sample locally caught white fish, mackerel, and shellfish prepared simply at waterfront restaurants in nearby Dunmore East village."
+        },
+        {
+          "id": "dunm_f2",
+          "text": "Seafood Chowder",
+          "detail": "Order the creamy traditional Irish seafood chowder featuring mixed fish, mussels, and prawns from local catches, served with soda bread."
+        },
+        {
+          "id": "dunm_f3",
+          "text": "Smoked Mackerel",
+          "detail": "Try locally smoked mackerel from Dunmore East's fishing fleet, traditionally prepared with Irish sea salt and served with brown bread and butter."
+        },
+        {
+          "id": "dunm_f4",
+          "text": "Colcannon",
+          "detail": "Enjoy this classic Irish comfort dish of creamed potatoes mixed with cabbage or kale, commonly served in local pubs with fresh local butter."
+        },
+        {
+          "id": "dunm_f5",
+          "text": "Irish Brown Bread with Local Cheese",
+          "detail": "Pair warm brown bread from village bakeries with artisanal cheese from nearby Waterford producers at a clifftop picnic."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dunm_c1",
+          "text": "Respect Lighthouse Grounds Access",
+          "detail": "The lighthouse is an active navigation aid with restricted access—check ahead for tour availability and stay within designated visitor areas near the structure."
+        },
+        {
+          "id": "dunm_c2",
+          "text": "Coastal Safety Awareness",
+          "detail": "The cliffs are unstable and have caused fatal accidents; always remain behind safety barriers, never approach the cliff edge during high winds, and supervise children closely."
+        },
+        {
+          "id": "dunm_c3",
+          "text": "Local Fishing Community Courtesy",
+          "detail": "Dunmore East remains a working fishing village—greet locals respectfully, support small family-run businesses, and avoid photographing fishermen or boats without permission."
+        },
+        {
+          "id": "dunm_c4",
+          "text": "Weather-Dependent Timing",
+          "detail": "Atlantic weather changes rapidly; visit during daylight hours, check forecasts before heading out, and be prepared for sudden fog or strong winds that can obscure views."
+        }
+      ]
+    },
+    {
+      "id": "cappoquin",
+      "name": "Cappoquin",
+      "nameIt": "Ceapachóin",
+      "lat": 52.0347,
+      "lng": -3.8481,
+      "type": "TOWN",
+      "description": "A quiet riverside town on the scenic Blackwater Valley, known for its antique shops, traditional character, and proximity to some of Ireland's best river scenery. It's an ideal base for exploring the mountainous hinterland and enjoying rural Irish hospitality.",
+      "imageQueries": [
+        "Cappoquin Blackwater Valley",
+        "Cappoquin town Ireland"
+      ],
+      "activities": [
+        {
+          "id": "capp_1",
+          "text": "Blackwater River Walk",
+          "detail": "Stroll along the scenic riverside paths that wind through the Blackwater Valley, offering peaceful views and opportunities to spot local wildlife.",
+          "lat": 52.0089,
+          "lng": -7.9956
+        },
+        {
+          "id": "capp_2",
+          "text": "Lismore Castle Exploration",
+          "detail": "Visit the nearby medieval castle perched dramatically above the Blackwater River, featuring impressive gardens and historical exhibits just 10 km south.",
+          "lat": 52.0053,
+          "lng": -7.9411
+        },
+        {
+          "id": "capp_3",
+          "text": "Antique and Craft Shopping",
+          "detail": "Browse the town's numerous antique shops and local craft stores along Main Street, where you can find vintage furniture, books, and traditional Irish crafts."
+        },
+        {
+          "id": "capp_4",
+          "text": "Mount Melleray Abbey",
+          "detail": "Explore this working Cistercian monastery nestled in the Knockmealdown Mountains, open to visitors seeking quiet contemplation and mountain views.",
+          "lat": 52.0156,
+          "lng": -8.0489
+        },
+        {
+          "id": "capp_5",
+          "text": "Blackwater Fishing",
+          "detail": "Arrange a guided fishing trip on the Blackwater River, known as one of Ireland's premier salmon and trout rivers."
+        },
+        {
+          "id": "capp_6",
+          "text": "Nire Valley Hiking",
+          "detail": "Access mountain trails in the nearby Nire Valley for challenging hikes with panoramic views of the Comeraghs and Knockmealdowns.",
+          "lat": 52.0234,
+          "lng": -7.8945
+        }
+      ],
+      "food": [
+        {
+          "id": "capp_f1",
+          "text": "Fresh Blackwater Salmon",
+          "detail": "Sample locally-caught salmon prepared simply to highlight the fish's quality, often available at local restaurants and pubs."
+        },
+        {
+          "id": "capp_f2",
+          "text": "Irish Stew",
+          "detail": "Enjoy this traditional hearty stew made with local lamb, potatoes, and onions, a staple comfort dish throughout rural Waterford."
+        },
+        {
+          "id": "capp_f3",
+          "text": "Farmhouse Cheese",
+          "detail": "Taste artisanal cheeses from nearby Waterford farmstead producers, often paired with local bread and served in village establishments."
+        },
+        {
+          "id": "capp_f4",
+          "text": "Boxty",
+          "detail": "Try this traditional Irish potato pancake served with savory or sweet fillings, reflecting regional culinary heritage."
+        },
+        {
+          "id": "capp_f5",
+          "text": "Brown Soda Bread",
+          "detail": "Experience warm, freshly-baked Irish brown soda bread, typically served at local cafés and bakeries throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "capp_c1",
+          "text": "Visit During Quiet Hours",
+          "detail": "Cappoquin is a sleepy riverside town, so expect limited services and early closing times; plan shopping and dining before 6 PM on weekdays."
+        },
+        {
+          "id": "capp_c2",
+          "text": "Respect Rural Traditions",
+          "detail": "This is working farmland and a genuine Irish community, not a tourist theme park, so dress modestly and be respectful when photographing locals or private properties."
+        },
+        {
+          "id": "capp_c3",
+          "text": "Learn About River Heritage",
+          "detail": "The Blackwater River has shaped the town's identity for centuries as a navigation and fishing route; locals appreciate genuine interest in this history."
+        },
+        {
+          "id": "capp_c4",
+          "text": "Support Local Establishments",
+          "detail": "Small family-run pubs and shops are the lifeblood of Cappoquin; visiting these independently-owned businesses is more valued than chain tourism."
+        }
+      ]
+    },
+    {
+      "id": "youghal",
+      "name": "Youghal",
+      "nameIt": "Eochaille",
+      "lat": 51.9547,
+      "lng": -3.8839,
+      "type": "COASTAL",
+      "description": "A historic walled town at the mouth of the Blackwater River with Georgian architecture, a long beach, and centuries of maritime heritage visible in its streetscape. It's featured in famous films and offers both cultural interest and seaside charm.",
+      "imageQueries": [
+        "Youghal walled town beach",
+        "Youghal historic waterfront"
+      ],
+      "activities": [
+        {
+          "id": "youg_1",
+          "text": "Walk the Town Walls",
+          "detail": "Explore the surviving sections of Youghal's 13th-century defensive walls that once enclosed the entire settlement, offering views over the town and river.",
+          "lat": 51.9517,
+          "lng": -8.2447
+        },
+        {
+          "id": "youg_2",
+          "text": "Visit St. Mary's Collegiate Church",
+          "detail": "Explore this 13th-century Gothic church with its distinctive tower, containing tombs of local nobility and fine medieval stonework.",
+          "lat": 51.9528,
+          "lng": -8.2443
+        },
+        {
+          "id": "youg_3",
+          "text": "Youghal Beach",
+          "detail": "Enjoy a long sandy beach perfect for swimming, walking, and spotting seabirds at the mouth of the Blackwater River.",
+          "lat": 51.948,
+          "lng": -8.24
+        },
+        {
+          "id": "youg_4",
+          "text": "Tynte Castle",
+          "detail": "View the impressive 15th-century tower house that dominates the eastern end of Main Street, once home to the Tynte family.",
+          "lat": 51.954,
+          "lng": -8.238
+        },
+        {
+          "id": "youg_5",
+          "text": "Clock Gate Tower",
+          "detail": "Photograph this iconic 17th-century gateway tower with its distinctive clock face, a landmark featured in numerous films and TV productions.",
+          "lat": 51.9535,
+          "lng": -8.2455
+        },
+        {
+          "id": "youg_6",
+          "text": "Blackwater River Walk",
+          "detail": "Follow the scenic riverside paths where fishing boats still work and historic quays reveal the town's maritime trading heritage.",
+          "lat": 51.952,
+          "lng": -8.235
+        }
+      ],
+      "food": [
+        {
+          "id": "youg_f1",
+          "text": "Fresh Blackwater Salmon",
+          "detail": "Sample locally-caught Atlantic salmon, a seasonal delicacy that has been harvested from the Blackwater estuary for centuries."
+        },
+        {
+          "id": "youg_f2",
+          "text": "Seafood Chowder",
+          "detail": "Try the creamy local chowder loaded with fresh mussels, prawns, and white fish from the day's catch at riverside restaurants."
+        },
+        {
+          "id": "youg_f3",
+          "text": "Cork Drisheen",
+          "detail": "Taste this traditional blood sausage, a regional Cork specialty often served with colcannon at local breakfast spots."
+        },
+        {
+          "id": "youg_f4",
+          "text": "Smoked Fish from Local Smokeries",
+          "detail": "Visit local producers to buy or sample oak-smoked mackerel and trout, traditional methods still used along the Blackwater."
+        },
+        {
+          "id": "youg_f5",
+          "text": "Oysters",
+          "detail": "Enjoy fresh oysters harvested from nearby beds, particularly prized during autumn and winter months at local seafood restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "youg_c1",
+          "text": "Film Location Heritage",
+          "detail": "Youghal's distinctive architecture has featured in major productions including Moby Dick and Emmy-winning television series, making it a working film location where you may encounter productions."
+        },
+        {
+          "id": "youg_c2",
+          "text": "Fishing Town Rhythms",
+          "detail": "The town's pace and character revolve around tidal times and fishing seasons; visit the working quays early morning to see the authentic maritime life that defines Youghal."
+        },
+        {
+          "id": "youg_c3",
+          "text": "Georgian Streetscape Appreciation",
+          "detail": "Main Street's elegant 18th-century townhouses represent a prosperous trading period; look above shop fronts to notice sash windows and period details often obscured by modern shopfronts."
+        },
+        {
+          "id": "youg_c4",
+          "text": "Local Pubs as Community Centers",
+          "detail": "Traditional pubs here serve as gathering places where locals discuss town history and fishing; visiting one in the evening offers genuine insight into Youghal's character."
+        }
+      ]
+    },
+    {
+      "id": "dromana",
+      "name": "Dromana",
+      "nameIt": "Dromhgheal",
+      "lat": 51.9756,
+      "lng": -3.7858,
+      "type": "VILLAGE",
+      "description": "A scenic village featuring the ornate Dromana Gate, a Gothic folly overlooking the Blackwater estuary with beautiful grounds and riverside walks. It provides a peaceful retreat with architectural interest and access to excellent walking country.",
+      "imageQueries": [
+        "Dromana Gate Waterford",
+        "Dromana estate Blackwater"
+      ],
+      "activities": [
+        {
+          "id": "drom_1",
+          "text": "Dromana Gate",
+          "detail": "Explore this striking Gothic Revival folly built in 1836, with ornate stonework and sweeping views over the Blackwater estuary and surrounding countryside.",
+          "lat": 51.9456,
+          "lng": -7.8234
+        },
+        {
+          "id": "drom_2",
+          "text": "Blackwater River Walks",
+          "detail": "Follow riverside paths along the Blackwater estuary, offering peaceful woodland trails and opportunities to spot herons, cormorants, and other waterbirds.",
+          "lat": 51.9445,
+          "lng": -7.821
+        },
+        {
+          "id": "drom_3",
+          "text": "Dromana Grounds",
+          "detail": "Wander the manicured estate grounds surrounding the Gate, featuring mature trees, ornamental plantings, and quiet picnic spots with river views.",
+          "lat": 51.946,
+          "lng": -7.824
+        },
+        {
+          "id": "drom_4",
+          "text": "Lismore Castle Gardens",
+          "detail": "Visit the nearby riverside gardens at Lismore Castle, just 8 km away, featuring Victorian plantings and views of the castle reflected in the Blackwater.",
+          "lat": 51.9328,
+          "lng": -7.7456
+        },
+        {
+          "id": "drom_5",
+          "text": "Ardmore Round Tower",
+          "detail": "Travel to the nearby village of Ardmore to see this 12th-century round tower and early Christian ruins perched on coastal cliffs overlooking Ardmore Bay.",
+          "lat": 51.8945,
+          "lng": -7.6789
+        }
+      ],
+      "food": [
+        {
+          "id": "drom_f1",
+          "text": "Blackwater Salmon",
+          "detail": "Sample locally caught Atlantic salmon from the Blackwater River, prepared simply grilled or poached to highlight its delicate flavour at village establishments."
+        },
+        {
+          "id": "drom_f2",
+          "text": "Waterford Blaa",
+          "detail": "Try this soft, floury white bread roll unique to Waterford, traditionally filled with bacon and cheese for breakfast or as a hearty sandwich."
+        },
+        {
+          "id": "drom_f3",
+          "text": "Seafood Chowder",
+          "detail": "Order a creamy chowder loaded with local mussels, prawns, and white fish from the south coast waters, served with brown bread."
+        },
+        {
+          "id": "drom_f4",
+          "text": "Dromana Farmhouse Cheese",
+          "detail": "Taste artisanal cheese made on local farms in the Waterford region, reflecting the area's strong dairy farming tradition."
+        }
+      ],
+      "culture": [
+        {
+          "id": "drom_c1",
+          "text": "Respect Private Grounds",
+          "detail": "The Dromana Gate and immediate surroundings are on private estate land; always check opening times and access restrictions before visiting."
+        },
+        {
+          "id": "drom_c2",
+          "text": "Timing Your Visit",
+          "detail": "Visit during daylight hours to fully appreciate the Gothic architecture and river views, with spring and autumn offering the most pleasant weather for riverside walking."
+        },
+        {
+          "id": "drom_c3",
+          "text": "Local Heritage Pride",
+          "detail": "The Dromana Gate is a cherished local landmark and symbol of 19th-century Anglo-Irish architecture; visitors should appreciate its historical significance respectfully."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "The Munster Oyster",
+      "address": "6 Dominic Street, Dungarvan",
+      "neighbourhood": "Dungarvan, County Waterford",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Celebrated seafood restaurant showcasing the best of Dungarvan's coastal catch with creative preparations.",
+      "mustOrder": "Native oysters with Guinness mignonette",
+      "lat": 52.0861,
+      "lng": -7.9386
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Café Nóva",
+      "address": "12 Main Street, Waterford",
+      "neighbourhood": "Waterford City",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Intimate city-centre restaurant offering refined contemporary cuisine with an excellent wine list.",
+      "mustOrder": "Pan-seared sea bass with seasonal vegetables",
+      "lat": 52.2553,
+      "lng": -7.5898
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Chai Baby",
+      "address": "54 The Quay, Waterford",
+      "neighbourhood": "Waterford City",
+      "cuisine": "Indian",
+      "priceRange": "€€",
+      "description": "Friendly Indian restaurant on the quays offering authentic curries and vibrant flavours in a casual setting.",
+      "mustOrder": "Lamb rogan josh",
+      "lat": 52.258,
+      "lng": -7.596
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Vaughan's",
+      "address": "Main Street, Dunmore East",
+      "neighbourhood": "Dunmore East, County Waterford",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Working fishing village establishment famous for exceptionally fresh fish and shellfish at honest prices.",
+      "mustOrder": "Grilled catch of the day",
+      "lat": 52.1475,
+      "lng": -7.5967
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Bellini",
+      "address": "The Old Post Office, High Street, Wexford",
+      "neighbourhood": "Wexford Town",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Stylish Italian fine dining in a historic building, delivering authentic pasta and Italian classics with flair.",
+      "mustOrder": "Handmade ravioli with seasonal filling",
+      "lat": 52.3402,
+      "lng": -6.4613
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Amphitheatre Café",
+      "address": "Dunbrody Famine Ship, Campile",
+      "neighbourhood": "Campile, County Wexford",
+      "cuisine": "Irish Contemporary",
+      "priceRange": "€€",
+      "description": "Heritage site café offering quality Irish fare with river views and educational atmosphere near Hook Peninsula.",
+      "mustOrder": "Local seafood chowder",
+      "lat": 52.2234,
+      "lng": -6.9433
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "The Tannery",
+      "address": "Quay Street, Dungarvan",
+      "neighbourhood": "Dungarvan, County Waterford",
+      "cuisine": "Modern European",
+      "priceRange": "€€€€",
+      "description": "Award-winning restaurant by chef Paul Flynn in a restored tannery building, delivering creative seasonal cuisine.",
+      "mustOrder": "House smoked salmon with brown bread",
+      "lat": 52.0878,
+      "lng": -7.9381
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "The Farmer's Market Restaurant",
+      "address": "Main Street, Tramore",
+      "neighbourhood": "Tramore, County Waterford",
+      "cuisine": "Irish Contemporary",
+      "priceRange": "€€",
+      "description": "Casual seaside restaurant celebrating local produce with a relaxed atmosphere perfect for families.",
+      "mustOrder": "Fish and chips with house tartare sauce",
+      "lat": 52.1604,
+      "lng": -7.6464
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "La Bohème",
+      "address": "George's Street, Wexford",
+      "neighbourhood": "Wexford Town",
+      "cuisine": "French",
+      "priceRange": "€€€",
+      "description": "Charming French bistro offering classic Gallic dishes and an extensive wine selection in an intimate setting.",
+      "mustOrder": "Coq au vin",
+      "lat": 52.338,
+      "lng": -6.463
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Clonmel Cookery School Restaurant",
+      "address": "Abbey Street, Clonmel",
+      "neighbourhood": "Clonmel, County Tipperary",
+      "cuisine": "Modern Irish",
+      "priceRange": "€€€",
+      "description": "Restaurant attached to acclaimed cookery school, serving inventive Irish cuisine prepared with precision.",
+      "mustOrder": "Herb-roasted Irish lamb",
+      "lat": 52.3442,
+      "lng": -7.7054
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Copper Hen",
+      "address": "Dunmore Road, Waterford",
+      "neighbourhood": "Waterford City",
+      "cuisine": "Contemporary European",
+      "priceRange": "€€€",
+      "description": "Stylish neighbourhood restaurant with warm atmosphere, offering locally-sourced dishes with Mediterranean influences.",
+      "mustOrder": "Duck confit",
+      "lat": 52.2465,
+      "lng": -7.575
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "The Strand Restaurant",
+      "address": "Strand Street, Duncannon",
+      "neighbourhood": "Duncannon, County Wexford",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Beachfront restaurant with stunning views, specialising in fresh local seafood and traditional Irish cooking.",
+      "mustOrder": "Mussels in white wine and garlic",
+      "lat": 52.2139,
+      "lng": -6.8932
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "House Restaurant",
+      "address": "Cork Street, Waterford",
+      "neighbourhood": "Waterford City",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Neighbourhood gem with creative small plates, natural wines, and a focus on quality ingredients and technique.",
+      "mustOrder": "Chef's tasting menu",
+      "lat": 52.254,
+      "lng": -7.588
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Harvest Restaurant",
+      "address": "Main Street, Lismore",
+      "neighbourhood": "Lismore, County Waterford",
+      "cuisine": "Irish Contemporary",
+      "priceRange": "€€",
+      "description": "Village restaurant in charming castle town celebrating local artisan producers and traditional Irish flavours.",
+      "mustOrder": "Locally-reared beef with root vegetables",
+      "lat": 52.0089,
+      "lng": -7.9616
+    }
+  ]
+}

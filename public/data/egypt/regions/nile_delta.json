@@ -1,0 +1,1387 @@
+{
+  "id": "nile_delta",
+  "name": "Nile Delta",
+  "nameIt": "دلتا النيل",
+  "capital": "Tanta",
+  "lat": 30.7865,
+  "lng": 30.9853,
+  "emoji": "🌾",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 31.6,
+    "south": 30.2,
+    "east": 32,
+    "west": 29.8
+  },
+  "history": "The Nile Delta has been the cradle of Egyptian civilization for millennia, serving as the fertile heart of ancient Egypt where pharaohs built their northern capitals and monuments. During the Ptolemaic period following Alexander the Great's conquest, the delta became even more cosmopolitan, with Alexandria emerging as a center of learning and trade. The region remained crucial through Islamic centuries, with medieval Cairo sitting at its apex, and continued to develop as a major agricultural and commercial hub. In modern times, the delta has been reshaped by the Aswan High Dam and intensive irrigation systems, transforming it into one of the world's most densely populated agricultural areas.",
+  "culturalNotes": "The Nile Delta is distinctly Egyptian in its traditions, where rural fellahin communities maintain strong ties to agricultural rhythms and family-centered customs that have endured for generations. The region blends ancient pharaonic heritage with Islamic culture, evident in its mosques, festivals, and daily practices, while also preserving Coptic Christian communities that trace their lineage back centuries. The delta's character is defined by its warm hospitality, vibrant markets, intricate canal systems, and a deep connection to the river that has always defined life here.",
+  "bestTimeToVisit": "October to April is best for visiting the agricultural heartland and avoiding summer heat.",
+  "languageNotes": "The local dialect is Egyptian Arabic, distinctly different from Modern Standard Arabic, characterized by colloquial expressions and a melodic intonation. Useful phrases include 'Sabah al-khair' for good morning, 'Shukran' for thank you, and 'Ma'a salama' for goodbye, though English is increasingly spoken in urban areas and among younger generations.",
+  "generatedAt": "2026-07-11T07:53:45.938Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "nameIt": "الإسكندرية",
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "type": "CITY",
+      "description": "Egypt's second-largest city and ancient Mediterranean port founded by Alexander the Great, featuring the iconic Citadel of Qaitbay built on the site of the ancient Lighthouse of Alexandria. The city blends Greco-Roman history with Hellenistic culture, offering museums, beaches, and a cosmopolitan atmosphere unmatched elsewhere in Egypt.",
+      "imageQueries": [
+        "Citadel of Qaitbay Alexandria",
+        "Alexandria waterfront Mediterranean"
+      ],
+      "activities": [
+        {
+          "id": "alex_1",
+          "text": "Citadel of Qaitbay",
+          "detail": "Explore this 15th-century fortress built on the ruins of the ancient Lighthouse of Alexandria, offering panoramic Mediterranean views and displays of maritime history.",
+          "lat": 31.2625,
+          "lng": 29.8831
+        },
+        {
+          "id": "alex_2",
+          "text": "Alexandria National Museum",
+          "detail": "Tour this mansion filled with Greco-Roman statues, mummies, and artifacts spanning 3,000 years of Egyptian and Hellenistic civilization.",
+          "lat": 31.2944,
+          "lng": 29.9117
+        },
+        {
+          "id": "alex_3",
+          "text": "Bibliotheca Alexandrina",
+          "detail": "Visit the modern revival of the ancient library with millions of books, manuscripts, and rotating exhibitions celebrating Mediterranean scholarship.",
+          "lat": 31.3125,
+          "lng": 29.9068
+        },
+        {
+          "id": "alex_4",
+          "text": "Corniche waterfront walk",
+          "detail": "Stroll the seafront boulevard lined with cafes, beaches, and colonial architecture while watching fishing boats and cargo ships pass.",
+          "lat": 31.2833,
+          "lng": 29.9167
+        },
+        {
+          "id": "alex_5",
+          "text": "Catacombs of Kom el Shoqafa",
+          "detail": "Descend into this underground burial complex showcasing a fusion of Egyptian and Roman funerary practices with intricate carvings and sculptural details.",
+          "lat": 31.2919,
+          "lng": 29.9036
+        },
+        {
+          "id": "alex_6",
+          "text": "Pompey's Pillar",
+          "detail": "Visit this towering red granite column erected in 292 CE, standing amid temple ruins and offering insight into Roman-era Alexandria.",
+          "lat": 31.2819,
+          "lng": 29.8975
+        },
+        {
+          "id": "alex_7",
+          "text": "Montaza Palace and Gardens",
+          "detail": "Wander through lush royal gardens surrounding this early 20th-century palace on a peninsula, combining Ottoman and modern architecture.",
+          "lat": 31.3353,
+          "lng": 30.0072
+        }
+      ],
+      "food": [
+        {
+          "id": "alex_f1",
+          "text": "Sayadiya",
+          "detail": "A coastal specialty of fresh fish baked with fragrant rice infused with cumin and topped with crispy fried onions, reflecting Alexandria's seafaring heritage."
+        },
+        {
+          "id": "alex_f2",
+          "text": "Calamari and shrimp grilled",
+          "detail": "Freshly caught squid and prawns seasoned simply with lemon, garlic, and olive oil, best enjoyed at waterfront fish restaurants along the Corniche."
+        },
+        {
+          "id": "alex_f3",
+          "text": "Alexandrian mixed grill",
+          "detail": "A plate combining kebab, kofta, and grilled liver served with baladi bread, tahini, and fresh salad—a hearty local favorite."
+        },
+        {
+          "id": "alex_f4",
+          "text": "Falafel sandwich",
+          "detail": "Crispy chickpea fritters stuffed into pita bread with hummus, pickled vegetables, and tahini sauce, sold at street stands and casual eateries throughout the city."
+        },
+        {
+          "id": "alex_f5",
+          "text": "Om Ali",
+          "detail": "A warm, creamy dessert of layered pastry, milk, coconut, and raisins baked until golden, commonly served at the end of meals."
+        },
+        {
+          "id": "alex_f6",
+          "text": "Fresh juice and sugarcane",
+          "detail": "Vibrant seasonal juices of mango, guava, or orange, and freshly pressed sugarcane juice served ice-cold from street carts as refreshing local drinks."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alex_c1",
+          "text": "Dress modestly at religious sites",
+          "detail": "When visiting mosques or conservative areas, wear loose clothing covering shoulders and knees to show respect for local Islamic customs."
+        },
+        {
+          "id": "alex_c2",
+          "text": "Bargaining is expected in markets",
+          "detail": "Haggling over prices is a normal and enjoyable part of shopping in Alexandria's souks and bazaars, so engage with vendors in a friendly manner."
+        },
+        {
+          "id": "alex_c3",
+          "text": "Evening social culture",
+          "detail": "Alexandrians gather at cafes and along the Corniche after sunset to socialize, drink tea or coffee, and smoke shisha—joining this relaxed evening rhythm is welcomed."
+        },
+        {
+          "id": "alex_c4",
+          "text": "Respect during prayer times",
+          "detail": "Be aware that Muslims pray five times daily; shops may close briefly and the atmosphere quiets, so avoid disturbances and show consideration during these hours."
+        }
+      ]
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "nameIt": "القاهرة",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "type": "CITY",
+      "description": "Egypt's sprawling capital city at the apex of the Nile Delta, home to the Egyptian Museum, Islamic Cairo's medieval architecture, and the Giza Plateau with its pyramids and sphinx. While technically at the delta's edge, Cairo is the gateway to and cultural heart of understanding the region.",
+      "imageQueries": [
+        "Cairo skyline Nile",
+        "Egyptian Museum Cairo"
+      ],
+      "activities": [
+        {
+          "id": "cair_1",
+          "text": "Egyptian Museum",
+          "detail": "Explore thousands of artifacts including Tutankhamun's treasures and royal mummies in this iconic museum overlooking Tahrir Square.",
+          "lat": 30.0479,
+          "lng": 31.2325
+        },
+        {
+          "id": "cair_2",
+          "text": "Islamic Cairo",
+          "detail": "Wander through medieval bazaars, mosques, and madrasas in the UNESCO-listed old city, centered around Khan el-Khalili market.",
+          "lat": 30.0626,
+          "lng": 31.2629
+        },
+        {
+          "id": "cair_3",
+          "text": "Giza Plateau Pyramids",
+          "detail": "Visit the Great Pyramid of Khufu, Pyramid of Khafre, and the enigmatic Sphinx across the Nile on Cairo's western edge.",
+          "lat": 29.9755,
+          "lng": 31.1345
+        },
+        {
+          "id": "cair_4",
+          "text": "Citadel of Saladin",
+          "detail": "Tour this 12th-century fortress complex with panoramic city views, featuring the alabaster Mohammed Ali Mosque and military museums.",
+          "lat": 30.0286,
+          "lng": 31.2644
+        },
+        {
+          "id": "cair_5",
+          "text": "Al-Azhar Mosque",
+          "detail": "Visit one of Islam's oldest and most prestigious institutions, a stunning mosque and university complex dating back to 970 CE.",
+          "lat": 30.0619,
+          "lng": 31.2627
+        },
+        {
+          "id": "cair_6",
+          "text": "Coptic Cairo",
+          "detail": "Explore the ancient Christian quarter with the Hanging Church, Ben Ezra Synagogue, and the Coptic Museum.",
+          "lat": 30.0012,
+          "lng": 31.2346
+        },
+        {
+          "id": "cair_7",
+          "text": "Nile River Felucca Cruise",
+          "detail": "Sail on a traditional wooden sailboat along the Nile at sunset, experiencing local river life and city views from the water.",
+          "lat": 30.0444,
+          "lng": 31.2357
+        }
+      ],
+      "food": [
+        {
+          "id": "cair_f1",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian comfort dish combining rice, lentils, pasta, and chickpeas topped with spicy tomato sauce and crispy fried onions."
+        },
+        {
+          "id": "cair_f2",
+          "text": "Ful Medames",
+          "detail": "A traditional breakfast of slow-cooked fava beans mashed with garlic, lemon, and olive oil, typically eaten with fresh pita bread."
+        },
+        {
+          "id": "cair_f3",
+          "text": "Molokhia",
+          "detail": "A leafy green vegetable stew cooked with garlic and served over rice or bread, considered Egypt's national dish."
+        },
+        {
+          "id": "cair_f4",
+          "text": "Konafa",
+          "detail": "A crispy layered pastry dessert filled with nuts or cream, soaked in honey syrup and often enjoyed with tea or coffee."
+        },
+        {
+          "id": "cair_f5",
+          "text": "Stuffed Pigeon (Hamam Mahshi)",
+          "detail": "Whole pigeons seasoned and filled with spiced rice and meat, a special occasion dish reflecting Egyptian culinary tradition."
+        },
+        {
+          "id": "cair_f6",
+          "text": "Egyptian Street Falafel",
+          "detail": "Deep-fried balls of ground fava beans or chickpeas seasoned with herbs, served in pita with tahini sauce and vegetables."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cair_c1",
+          "text": "Dress Modestly",
+          "detail": "Wear loose, long clothing covering shoulders and knees, especially when visiting mosques and Islamic Cairo, as a sign of respect."
+        },
+        {
+          "id": "cair_c2",
+          "text": "Haggling is Expected",
+          "detail": "In Khan el-Khalili and street markets, vendors expect negotiation; start at 50-60% of the asking price and settle in the middle."
+        },
+        {
+          "id": "cair_c3",
+          "text": "Ramadan Etiquette",
+          "detail": "During Ramadan, avoid eating and drinking publicly during daylight hours out of respect; many restaurants close during the day but open festively at sunset."
+        },
+        {
+          "id": "cair_c4",
+          "text": "Use Right Hand for Eating",
+          "detail": "The left hand is considered unclean in Egyptian culture; always eat, greet, and offer items with your right hand."
+        }
+      ]
+    },
+    {
+      "id": "rosetta",
+      "name": "Rosetta",
+      "nameIt": "رشيد",
+      "lat": 31.3958,
+      "lng": 30.4175,
+      "type": "TOWN",
+      "description": "Historic port town where the famous Rosetta Stone was discovered in 1799, featuring well-preserved Ottoman and Mamluk architecture along the Nile. The town offers a glimpse into medieval Egyptian riverside life with traditional merchant houses and mosques.",
+      "imageQueries": [
+        "Rosetta town Nile architecture",
+        "Rosetta Stone discovery site"
+      ],
+      "activities": [
+        {
+          "id": "rose_1",
+          "text": "Rosetta Stone Museum",
+          "detail": "Visit the local museum housing exhibits about the famous Rosetta Stone discovery and its significance to Egyptology and deciphering hieroglyphics.",
+          "lat": 31.3891,
+          "lng": 30.4155
+        },
+        {
+          "id": "rose_2",
+          "text": "El-Masbah Mosque",
+          "detail": "Explore this well-preserved 18th-century Ottoman mosque featuring traditional Islamic architecture with intricate wooden ceilings and carved stonework.",
+          "lat": 31.3905,
+          "lng": 30.4168
+        },
+        {
+          "id": "rose_3",
+          "text": "Fort Qaitbay Ruins",
+          "detail": "Walk through the remnants of this 15th-century Mamluk fortress that once guarded the harbor and offers views of the Nile Delta.",
+          "lat": 31.3878,
+          "lng": 30.4142
+        },
+        {
+          "id": "rose_4",
+          "text": "Traditional Merchant Houses Walking Tour",
+          "detail": "Stroll through the medina to admire the distinctive mashrabiya-screened windows and ornate doorways of Ottoman-era merchant residences.",
+          "lat": 31.3895,
+          "lng": 30.416
+        },
+        {
+          "id": "rose_5",
+          "text": "Nile River Waterfront Promenade",
+          "detail": "Walk along the riverside to observe traditional felucca boats and experience the working port atmosphere that has existed for centuries.",
+          "lat": 31.392,
+          "lng": 30.4175
+        },
+        {
+          "id": "rose_6",
+          "text": "Abu Mandour Mosque",
+          "detail": "Visit this smaller but beautifully decorated mosque known for its local devotional importance and traditional Egyptian Islamic design elements.",
+          "lat": 31.3885,
+          "lng": 30.415
+        }
+      ],
+      "food": [
+        {
+          "id": "rose_f1",
+          "text": "Fresh Nile Fish Fillet (Fillet Samak)",
+          "detail": "Grilled or fried freshly caught fish from the Nile, typically seasoned with cumin and served with lemon and local spices."
+        },
+        {
+          "id": "rose_f2",
+          "text": "Konafa bil-Assal",
+          "detail": "A traditional sweet pastry filled with nuts and soaked in honey, commonly enjoyed as a local dessert throughout the Delta region."
+        },
+        {
+          "id": "rose_f3",
+          "text": "Koshari",
+          "detail": "Egypt's beloved layered dish combining rice, lentils, pasta, and chickpeas topped with tomato sauce and crispy fried onions."
+        },
+        {
+          "id": "rose_f4",
+          "text": "Taameya (Egyptian Falafel)",
+          "detail": "Deep-fried patties made from fava beans rather than chickpeas, served in bread with tahini sauce and fresh vegetables."
+        },
+        {
+          "id": "rose_f5",
+          "text": "Mulukhiyah",
+          "detail": "A leafy green stew traditionally cooked with garlic and coriander, served with rice or bread and considered a staple of Delta cuisine."
+        },
+        {
+          "id": "rose_f6",
+          "text": "Fresh Date and Sesame Sweets",
+          "detail": "Local confections made from dates grown in the Delta region combined with sesame paste, reflecting agricultural traditions of the Nile valley."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rose_c1",
+          "text": "Respect for Religious Sites",
+          "detail": "Remove shoes before entering mosques, dress modestly with covered shoulders and knees, and avoid visiting during prayer times unless invited."
+        },
+        {
+          "id": "rose_c2",
+          "text": "Afternoon Siesta Tradition",
+          "detail": "Many shops and offices close between 1-4 PM during the hot afternoon; plan your sightseeing accordingly and embrace the local rhythm of life."
+        },
+        {
+          "id": "rose_c3",
+          "text": "Haggling at Markets",
+          "detail": "In the souks and with street vendors, bargaining is expected and part of the social interaction; start at 60-70% of the asking price."
+        },
+        {
+          "id": "rose_c4",
+          "text": "Tea and Hospitality Customs",
+          "detail": "Accept offered tea or coffee as a sign of respect and hospitality; refusing outright may be considered impolite, though accepting a small gesture is sufficient."
+        }
+      ]
+    },
+    {
+      "id": "damietta",
+      "name": "Damietta",
+      "nameIt": "دمياط",
+      "lat": 31.4155,
+      "lng": 31.8144,
+      "type": "COASTAL",
+      "description": "Ancient Mediterranean port city at the eastern mouth of the Nile Delta, famous for furniture production and fishing heritage with a picturesque waterfront. The city offers seafood restaurants, beaches, and a working port atmosphere distinct from tourist-focused destinations.",
+      "imageQueries": [
+        "Damietta port Mediterranean",
+        "Damietta Nile Delta waterfront"
+      ],
+      "activities": [
+        {
+          "id": "dami_1",
+          "text": "Damietta Corniche Walk",
+          "detail": "Stroll along the waterfront promenade overlooking the Nile mouth and Mediterranean, lined with cafés and fishing boats.",
+          "lat": 31.4158,
+          "lng": 31.8066
+        },
+        {
+          "id": "dami_2",
+          "text": "Furniture Workshop Tours",
+          "detail": "Visit traditional woodworking studios in the old city to watch craftsmen hand-craft the ornate wooden furniture Damietta is renowned for.",
+          "lat": 31.42,
+          "lng": 31.805
+        },
+        {
+          "id": "dami_3",
+          "text": "Fish Market at Dawn",
+          "detail": "Experience the bustling early-morning fish auction at the working port where fresh Mediterranean and Nile catches are sold to restaurants and vendors.",
+          "lat": 31.418,
+          "lng": 31.81
+        },
+        {
+          "id": "dami_4",
+          "text": "Damietta Museum",
+          "detail": "Explore artifacts and exhibits covering the city's ancient maritime history, Ottoman period, and role as a major Crusades-era port.",
+          "lat": 31.417,
+          "lng": 31.807
+        },
+        {
+          "id": "dami_5",
+          "text": "Red Island Beach",
+          "detail": "Relax at this local beach on the eastern side of the Nile Delta mouth, quieter and less touristy than Mediterranean resort areas.",
+          "lat": 31.425,
+          "lng": 31.82
+        },
+        {
+          "id": "dami_6",
+          "text": "Pottery and Ceramics Studios",
+          "detail": "Visit artisan workshops in the medina producing traditional glazed ceramics and earthenware using techniques passed down for generations.",
+          "lat": 31.419,
+          "lng": 31.804
+        }
+      ],
+      "food": [
+        {
+          "id": "dami_f1",
+          "text": "Fresh Grilled Hammour (Grouper)",
+          "detail": "Whole Mediterranean grouper seasoned simply with lemon, garlic, and olive oil, grilled over charcoal at waterfront seafood restaurants."
+        },
+        {
+          "id": "dami_f2",
+          "text": "Shrimp Sayadiyah",
+          "detail": "Large Gulf shrimp served over fragrant rice cooked with fish stock, caramelized onions, and warm spices."
+        },
+        {
+          "id": "dami_f3",
+          "text": "Fesikh (Salted Mullet)",
+          "detail": "Traditional fermented and salted mullet fish, a salty delicacy typically eaten during spring holidays, available at local markets and traditional eateries."
+        },
+        {
+          "id": "dami_f4",
+          "text": "Damietta's Cured Fish Roe (Bottarga)",
+          "detail": "Sun-dried mullet roe pressed into blocks, shaved thinly over pasta or bread—a prized specialty linked to the city's fishing heritage."
+        },
+        {
+          "id": "dami_f5",
+          "text": "Seafood Mezze at Waterfront Restaurants",
+          "detail": "Platters of grilled fish, calamari, octopus, and shrimp appetizers served with tahini, hummus, and fresh bread overlooking the port."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dami_c1",
+          "text": "Visit During Fishing Season",
+          "detail": "The city's rhythm and restaurant quality peak from autumn through spring when Mediterranean catches are abundant; summer can feel quieter."
+        },
+        {
+          "id": "dami_c2",
+          "text": "Respect Working Port Customs",
+          "detail": "Damietta remains a functional fishing and commercial port, not a tourist resort—dress modestly, avoid photographing port security areas, and expect a working-class atmosphere rather than polished tourism infrastructure."
+        },
+        {
+          "id": "dami_c3",
+          "text": "Haggle at Furniture Souks",
+          "detail": "Bargaining is expected when commissioning custom wooden furniture or purchasing items in the old medina; establishing rapport with shopkeepers often leads to better prices and insider recommendations."
+        },
+        {
+          "id": "dami_c4",
+          "text": "Friday is Family Day",
+          "detail": "Egyptians visit the Corniche and beaches en masse on Fridays after prayers; expect crowds but also authentic local energy and extended family dining experiences at seaside restaurants."
+        }
+      ]
+    },
+    {
+      "id": "port_said",
+      "name": "Port Said",
+      "nameIt": "بورسعيد",
+      "lat": 31.2565,
+      "lng": 32.2841,
+      "type": "COASTAL",
+      "description": "Strategic Mediterranean city guarding the northern entrance of the Suez Canal, featuring a distinctive colonial architecture and vibrant international port culture. The city offers duty-free shopping, beaches, and views of massive cargo ships transiting the canal.",
+      "imageQueries": [
+        "Port Said Suez Canal entrance",
+        "Port Said Mediterranean waterfront"
+      ],
+      "activities": [
+        {
+          "id": "port_1",
+          "text": "Suez Canal Viewing Platform",
+          "detail": "Watch massive container ships and tankers pass through one of the world's busiest shipping channels from dedicated observation areas along the canal.",
+          "lat": 31.2565,
+          "lng": 32.2841
+        },
+        {
+          "id": "port_2",
+          "text": "Port Said National Museum",
+          "detail": "Explore artifacts from pharaonic, Greco-Roman, and modern eras, including exhibits on the canal's construction and the city's colonial heritage.",
+          "lat": 31.2578,
+          "lng": 32.2889
+        },
+        {
+          "id": "port_3",
+          "text": "Sharm El-Nada Beach",
+          "detail": "Swim and relax at this popular Mediterranean beach with views of the harbor and access to water sports and seaside cafes.",
+          "lat": 31.2621,
+          "lng": 32.2921
+        },
+        {
+          "id": "port_4",
+          "text": "Duty-Free Shopping District",
+          "detail": "Browse tax-free goods including electronics, perfumes, textiles, and imported products in shops concentrated near the waterfront.",
+          "lat": 31.255,
+          "lng": 32.28
+        },
+        {
+          "id": "port_5",
+          "text": "Military Museum",
+          "detail": "Discover military history related to the Suez Canal conflicts and Egyptian defense through weaponry, uniforms, and documentary displays.",
+          "lat": 31.261,
+          "lng": 32.2915
+        },
+        {
+          "id": "port_6",
+          "text": "Colonial Architecture Walking Tour",
+          "detail": "Stroll through neighborhoods to admire late 19th and early 20th-century European-style buildings reflecting the city's international commercial past."
+        }
+      ],
+      "food": [
+        {
+          "id": "port_f1",
+          "text": "Fresh Grilled Fish with Tahini",
+          "detail": "Locally-caught Mediterranean fish, typically sea bass or bream, charred on open flames and served with tahini sauce and lemon."
+        },
+        {
+          "id": "port_f2",
+          "text": "Koshary",
+          "detail": "A Egyptian comfort food combining pasta, rice, lentils, chickpeas, and spiced tomato sauce topped with crispy fried onions, popular street food throughout the city."
+        },
+        {
+          "id": "port_f3",
+          "text": "Stuffed Squid (Calamari Mahshi)",
+          "detail": "Fresh squid cleaned and filled with seasoned rice and herbs, then baked or grilled, reflecting the Mediterranean seafood tradition."
+        },
+        {
+          "id": "port_f4",
+          "text": "Falafel and Koshari Sandwich",
+          "detail": "Crispy chickpea fritters wrapped in warm pita with tahini, fresh vegetables, and hot sauce, sold at street vendors throughout the port area."
+        },
+        {
+          "id": "port_f5",
+          "text": "Seafood Mezze Platter",
+          "detail": "A selection of small dishes including grilled shrimp, octopus salad, hummus, baba ganoush, and fresh bread, ideal for tasting multiple flavors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "port_c1",
+          "text": "Respect the Port's Strategic Importance",
+          "detail": "Photography of the Suez Canal, military installations, or ships may be restricted; always ask permission before taking pictures near sensitive areas."
+        },
+        {
+          "id": "port_c2",
+          "text": "Arabic Greetings Go Far",
+          "detail": "Learning basic Arabic phrases like 'As-salamu alaykum' (peace be upon you) and 'Shukran' (thank you) is appreciated in this traditionally Egyptian city with fewer English speakers than tourist resorts."
+        },
+        {
+          "id": "port_c3",
+          "text": "Dress Modestly, Especially Away from Beach",
+          "detail": "While the waterfront is more relaxed, covering shoulders and knees is respectful when visiting markets, museums, or local neighborhoods."
+        },
+        {
+          "id": "port_c4",
+          "text": "Haggling is Expected in Markets",
+          "detail": "Negotiating prices at duty-free shops and street vendors is a normal part of commerce; begin at 60-70% of the asking price for goods."
+        }
+      ]
+    },
+    {
+      "id": "tanta",
+      "name": "Tanta",
+      "nameIt": "طنطا",
+      "lat": 30.7865,
+      "lng": 31.0011,
+      "type": "CITY",
+      "description": "Major city in the heart of the Nile Delta's agricultural region and an important pilgrimage destination for Sufi Muslims, featuring the Mosque of Sayyid Ahmad al-Badawi. The city comes alive during its famous moulid festival and serves as a commercial hub for delta agriculture.",
+      "imageQueries": [
+        "Tanta Mosque Ahmad al-Badawi",
+        "Tanta Egypt delta city"
+      ],
+      "activities": [
+        {
+          "id": "tant_1",
+          "text": "Mosque of Sayyid Ahmad al-Badawi",
+          "detail": "Visit the grand mosque and spiritual heart of Tanta, where the revered Sufi saint is entombed and millions of pilgrims gather during the annual moulid festival.",
+          "lat": 30.7865,
+          "lng": 31.0011
+        },
+        {
+          "id": "tant_2",
+          "text": "Al-Moulid Festival",
+          "detail": "Experience the vibrant week-long celebration held twice yearly (spring and autumn) featuring Quranic recitations, Sufi dhikr circles, traditional music, and massive crowds of devotees.",
+          "lat": 30.7865,
+          "lng": 31.0011
+        },
+        {
+          "id": "tant_3",
+          "text": "Tanta Museum",
+          "detail": "Explore local history, Pharaonic artifacts, and exhibits on the city's role as a delta agricultural and commercial center.",
+          "lat": 30.7903,
+          "lng": 31.0027
+        },
+        {
+          "id": "tant_4",
+          "text": "Delta Agricultural Markets",
+          "detail": "Walk through bustling open-air markets selling fresh produce, cotton goods, and local crafts that reflect the region's farming heritage.",
+          "lat": 30.785,
+          "lng": 31.005
+        },
+        {
+          "id": "tant_5",
+          "text": "Friday Prayers at Local Mosques",
+          "detail": "Attend communal prayers at smaller neighborhood mosques to experience authentic daily religious life and local devotion.",
+          "lat": 30.7875,
+          "lng": 31.003
+        }
+      ],
+      "food": [
+        {
+          "id": "tant_f1",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian street dish combining rice, lentils, pasta, and chickpeas topped with spiced tomato sauce and crispy fried onions, widely available at casual eateries throughout Tanta."
+        },
+        {
+          "id": "tant_f2",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic, lemon, and olive oil, traditionally eaten for breakfast and served with warm pita bread."
+        },
+        {
+          "id": "tant_f3",
+          "text": "Liver Sandwich (Kushari el-Kebda)",
+          "detail": "Spiced fried liver served in flatbread with tahini sauce and fresh vegetables, a savory delta specialty found at street vendors."
+        },
+        {
+          "id": "tant_f4",
+          "text": "Fresh Nile Fish (Tilapia or Catfish)",
+          "detail": "Grilled or fried freshwater fish caught from the nearby Nile branches, prepared simply with lemon and spices at local restaurants."
+        },
+        {
+          "id": "tant_f5",
+          "text": "Konafa and Basbousa",
+          "detail": "Traditional sweet pastries—konafa with cheese and syrup, and basbousa with coconut and condensed milk—enjoyed during moulid celebrations and religious holidays."
+        },
+        {
+          "id": "tant_f6",
+          "text": "Fresh Sugarcane Juice",
+          "detail": "Freshly pressed juice from locally grown sugarcane, served cold as a refreshing beverage during hot months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tant_c1",
+          "text": "Respect Sacred Spaces",
+          "detail": "Dress modestly when visiting the Mosque of Sayyid Ahmad al-Badawi and remove shoes before entering; women may need to use separate prayer areas."
+        },
+        {
+          "id": "tant_c2",
+          "text": "Moulid Festival Timing",
+          "detail": "Plan visits around the moulid (typically in May/June and September/October) if seeking the full festive atmosphere, but expect extreme crowding—come early and stay alert in large gatherings."
+        },
+        {
+          "id": "tant_c3",
+          "text": "Haggling in Markets",
+          "detail": "Expect and engage in friendly bargaining at agricultural markets and street stalls; vendors view negotiation as part of normal commerce rather than rudeness."
+        },
+        {
+          "id": "tant_c4",
+          "text": "Local Hospitality",
+          "detail": "Accept offered tea or simple refreshments graciously, as hospitality is a cornerstone of delta culture; refusal can be seen as discourteous."
+        }
+      ]
+    },
+    {
+      "id": "mansoura",
+      "name": "Mansoura",
+      "nameIt": "المنصورة",
+      "lat": 31.0461,
+      "lng": 31.3604,
+      "type": "CITY",
+      "description": "Historic city on the Damietta branch of the Nile known for its role in medieval Islamic history and Pharaonic monuments, home to the Museum of Mansoura and surrounded by fertile agricultural lands. The city offers a more authentic glimpse into delta life than major tourist centers.",
+      "imageQueries": [
+        "Mansoura Nile city Egypt",
+        "Mansoura Museum Damietta branch"
+      ],
+      "activities": [
+        {
+          "id": "mans_1",
+          "text": "Museum of Mansoura",
+          "detail": "Explore artifacts spanning Pharaonic, Greco-Roman, and Islamic periods, including mummies, pottery, and inscribed stones that chronicle the region's layered history.",
+          "lat": 31.0387,
+          "lng": 31.361
+        },
+        {
+          "id": "mans_2",
+          "text": "Damietta Branch Nile Walk",
+          "detail": "Stroll along the waterfront promenade to observe local fishermen, felucca sailboats, and sunset views while experiencing everyday delta life away from Cairo's crowds.",
+          "lat": 31.0406,
+          "lng": 31.3625
+        },
+        {
+          "id": "mans_3",
+          "text": "Battle of Mansoura Memorial Site",
+          "detail": "Visit the location where the Mamluk sultan Baibars defeated the Crusaders in 1250, a pivotal moment in medieval Islamic military history commemorated with plaques and local monuments.",
+          "lat": 31.038,
+          "lng": 31.359
+        },
+        {
+          "id": "mans_4",
+          "text": "Agricultural Market (Suq el-Khضرار)",
+          "detail": "Wander through the vibrant produce market where farmers sell fresh vegetables, fruits, and herbs directly from the surrounding delta fields, offering authentic local commerce.",
+          "lat": 31.0425,
+          "lng": 31.364
+        },
+        {
+          "id": "mans_5",
+          "text": "Al-Fursan Mosque",
+          "detail": "Admire this Ottoman-era mosque featuring elegant Islamic architecture with intricate tilework and a peaceful courtyard reflecting centuries of local religious practice.",
+          "lat": 31.0398,
+          "lng": 31.3605
+        },
+        {
+          "id": "mans_6",
+          "text": "Delta Agricultural Research Station",
+          "detail": "Tour the working research facility to learn about modern cultivation techniques and crop development in the Nile Delta's uniquely fertile environment."
+        }
+      ],
+      "food": [
+        {
+          "id": "mans_f1",
+          "text": "Molokhia",
+          "detail": "A traditional leafy green stew thickened with jute leaves, garlic, and spices, served over rice or bread—a delta staple since Pharaonic times."
+        },
+        {
+          "id": "mans_f2",
+          "text": "Freshwater Fish from the Nile",
+          "detail": "Grilled or fried tilapia and catfish caught daily from the Damietta branch, simply seasoned with lemon and spices for authentic riverside dining."
+        },
+        {
+          "id": "mans_f3",
+          "text": "Koshari",
+          "detail": "Layers of rice, lentils, pasta, and tomato sauce topped with crispy fried onions—a beloved Egyptian comfort food found at street stalls throughout the city."
+        },
+        {
+          "id": "mans_f4",
+          "text": "Delta Rice Dishes",
+          "detail": "Rice cultivated in the surrounding wetlands prepared in savory pilafs with vegetables, meat, or seafood, reflecting the region's agricultural heritage."
+        },
+        {
+          "id": "mans_f5",
+          "text": "Gibna Bayda (White Cheese)",
+          "detail": "Fresh, creamy local cheese made from water buffalo milk, often enjoyed at breakfast with bread, honey, and jam."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mans_c1",
+          "text": "Greet with respect and patience",
+          "detail": "Address elders and shop owners with titles like 'Hajj' or 'Um/Abu,' speak softly, and allow conversation to flow naturally before conducting business—rushing is considered rude."
+        },
+        {
+          "id": "mans_c2",
+          "text": "Dress modestly, especially away from the Nile",
+          "detail": "Wear loose-fitting clothing covering shoulders and knees to show respect for local Islamic customs and to blend in comfortably with the community."
+        },
+        {
+          "id": "mans_c3",
+          "text": "Visit during cooler hours",
+          "detail": "Plan outdoor activities for early morning or late afternoon, as the delta heat is intense midday and locals typically rest indoors during these peak hours."
+        },
+        {
+          "id": "mans_c4",
+          "text": "Accept tea and hospitality graciously",
+          "detail": "When offered tea or food by locals, accepting with thanks strengthens social bonds; declining politely once is acceptable, but a second offer is sincere."
+        }
+      ]
+    },
+    {
+      "id": "zagazig",
+      "name": "Zagazig",
+      "nameIt": "الزقازيق",
+      "lat": 30.5894,
+      "lng": 31.5123,
+      "type": "CITY",
+      "description": "Capital of Sharqiyah Governorate located in the eastern delta, serving as a gateway to Pharaonic sites and a market hub for regional agriculture. The city provides access to lesser-known archaeological sites and a view of modern Egyptian provincial life.",
+      "imageQueries": [
+        "Zagazig Egypt delta city",
+        "Zagazig market bazaar"
+      ],
+      "activities": [
+        {
+          "id": "zaga_1",
+          "text": "Zagazig Museum",
+          "detail": "Displays artifacts from nearby Bubastis and local Pharaonic sites, offering insight into the region's ancient importance as a religious and trade center.",
+          "lat": 30.5859,
+          "lng": 31.505
+        },
+        {
+          "id": "zaga_2",
+          "text": "Bubastis Archaeological Site",
+          "detail": "Explore ruins of the ancient city dedicated to the cat goddess Bastet, located about 25 km north, with temple remains and an open-air museum.",
+          "lat": 30.8095,
+          "lng": 31.5547
+        },
+        {
+          "id": "zaga_3",
+          "text": "Friday Market (Souk)",
+          "detail": "A bustling weekly market where local farmers sell fresh produce, livestock, and crafts, reflecting the city's role as an agricultural hub.",
+          "lat": 30.5835,
+          "lng": 31.5035
+        },
+        {
+          "id": "zaga_4",
+          "text": "El-Sharqeyah Club Gardens",
+          "detail": "A local recreational park in the city center featuring gardens and public spaces popular with residents for evening strolls.",
+          "lat": 30.588,
+          "lng": 31.506
+        },
+        {
+          "id": "zaga_5",
+          "text": "Tanis (San el-Hagar) Day Trip",
+          "detail": "Visit the ruins of the ancient royal capital about 60 km northeast, home to tombs of Pharaohs and significant archaeological discoveries.",
+          "lat": 31.0544,
+          "lng": 31.8467
+        }
+      ],
+      "food": [
+        {
+          "id": "zaga_f1",
+          "text": "Koshari",
+          "detail": "A beloved Egyptian comfort food combining rice, lentils, pasta, and topped with a spicy tomato sauce and crispy fried onions, widely available at street vendors."
+        },
+        {
+          "id": "zaga_f2",
+          "text": "Fesikh",
+          "detail": "Fermented and salted mullet fish, a traditional delicacy especially prepared during spring holidays, with a distinctive pungent flavor unique to Egyptian cuisine."
+        },
+        {
+          "id": "zaga_f3",
+          "text": "Ful Medames",
+          "detail": "Slow-cooked fava beans seasoned with garlic, lemon, and olive oil, served as a staple breakfast or appetizer in local cafes and family homes."
+        },
+        {
+          "id": "zaga_f4",
+          "text": "Hamam Mahshi",
+          "detail": "Roasted pigeon stuffed with rice and spices, a festive dish prepared in local homes and specialty restaurants, considered a delicacy in the Nile Delta region."
+        },
+        {
+          "id": "zaga_f5",
+          "text": "Fresh Delta Produce Markets",
+          "detail": "Purchase fresh vegetables, citrus fruits, and dates directly from farmers at local markets, showcasing the agricultural abundance of the Sharqiyah region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zaga_c1",
+          "text": "Greetings and Respect",
+          "detail": "Egyptians value formal greetings; use 'As-salamu alaikum' (peace be upon you) and address elders respectfully, as this reflects important cultural customs in provincial settings."
+        },
+        {
+          "id": "zaga_c2",
+          "text": "Market Haggling Etiquette",
+          "detail": "Bargaining is expected at souks but should be done politely and good-naturedly; vendors appreciate when visitors show genuine interest and patience in negotiation."
+        },
+        {
+          "id": "zaga_c3",
+          "text": "Ramadan Awareness",
+          "detail": "During Ramadan, eating or drinking in public during daylight hours is considered disrespectful; many restaurants close during the day and the rhythm of city life changes significantly."
+        },
+        {
+          "id": "zaga_c4",
+          "text": "Modest Dress",
+          "detail": "Conservative clothing is appropriate, especially when visiting religious sites or rural areas; women should wear loose-fitting clothes and cover shoulders and knees."
+        }
+      ]
+    },
+    {
+      "id": "burullus",
+      "name": "Burullus",
+      "nameIt": "برلس",
+      "lat": 31.5828,
+      "lng": 31.4522,
+      "type": "COASTAL",
+      "description": "Charming Mediterranean fishing village on the edge of Lake Burullus, a important wetland and bird sanctuary within a lagoon ecosystem. The village offers fresh seafood, boat excursions, and opportunities to observe migratory bird species in their natural habitat.",
+      "imageQueries": [
+        "Burullus Lake Egypt wetland",
+        "Burullus village fishing boats"
+      ],
+      "activities": [
+        {
+          "id": "buru_1",
+          "text": "Lake Burullus Boat Tour",
+          "detail": "Take a traditional wooden felucca or motorboat across the lagoon to observe migratory waterfowl, herons, and flamingos in their natural wetland habitat.",
+          "lat": 31.5833,
+          "lng": 31.1667
+        },
+        {
+          "id": "buru_2",
+          "text": "Bird Watching at Sunrise",
+          "detail": "Visit the lake's eastern marshes at dawn when migrating species are most active, particularly during autumn and spring seasons.",
+          "lat": 31.58,
+          "lng": 31.17
+        },
+        {
+          "id": "buru_3",
+          "text": "Fish Market Tour",
+          "detail": "Walk through the early morning catch at the village fish market to see nets full of mullet, sea bass, and shrimp, and arrange fresh seafood for lunch.",
+          "lat": 31.585,
+          "lng": 31.165
+        },
+        {
+          "id": "buru_4",
+          "text": "Mangrove and Reed Bed Exploration",
+          "detail": "Paddle through the shallow lagoon's dense reed beds and salt marsh vegetation that provide habitat for nesting birds and fish breeding grounds.",
+          "lat": 31.575,
+          "lng": 31.16
+        },
+        {
+          "id": "buru_5",
+          "text": "Visit Burullus Protected Area Centre",
+          "detail": "Learn about the Ramsar wetland site's biodiversity, conservation efforts, and ecological importance at the visitor information center.",
+          "lat": 31.59,
+          "lng": 31.17
+        },
+        {
+          "id": "buru_6",
+          "text": "Sunset Walk Along the Village Shore",
+          "detail": "Stroll the waterfront as fishermen repair nets and prepare boats, watching the sky reflect off the lagoon during golden hour.",
+          "lat": 31.585,
+          "lng": 31.162
+        }
+      ],
+      "food": [
+        {
+          "id": "buru_f1",
+          "text": "Grilled Mullet (Bolti Mashwi)",
+          "detail": "Fresh-caught grey mullet seasoned simply with salt, lemon, and herbs, grilled over charcoal or open flame until the skin crisps."
+        },
+        {
+          "id": "buru_f2",
+          "text": "Shrimp Sayadiyah",
+          "detail": "Local take on the classic Egyptian rice dish, topped with fried shrimp, crispy onions, and a fragrant spice blend of cumin and coriander."
+        },
+        {
+          "id": "buru_f3",
+          "text": "Lakeside Seafood Mezze",
+          "detail": "Assorted grilled and fried fish, shrimp, and octopus served with fresh bread, tahini sauce, and local pickled vegetables."
+        },
+        {
+          "id": "buru_f4",
+          "text": "Fish Soup (Shorbet Samak)",
+          "detail": "A hearty broth made from local catch, tomatoes, garlic, and whatever seasonal fish is abundant, served bubbling hot with lemon."
+        },
+        {
+          "id": "buru_f5",
+          "text": "Fried Fish Roe (Tarama)",
+          "detail": "Salted and dried mullet roe, either eaten as a savory snack with bread or mixed into a creamy dip with tahini and lemon."
+        }
+      ],
+      "culture": [
+        {
+          "id": "buru_c1",
+          "text": "Respect Fishing Schedules",
+          "detail": "Most boat tours and fresh seafood are available early morning through midday; plan activities around the fishing fleet's departure and return times."
+        },
+        {
+          "id": "buru_c2",
+          "text": "Dress Modestly and Bring Sun Protection",
+          "detail": "The village is conservative; wear loose, light clothing that covers shoulders and knees, and bring a wide-brimmed hat and sunscreen for the reflective water."
+        },
+        {
+          "id": "buru_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "English is limited among fishermen and vendors; simple Arabic phrases like 'Salam alaikum' (peace be upon you) and 'Shukran' (thank you) will earn goodwill."
+        },
+        {
+          "id": "buru_c4",
+          "text": "Visit During Migration Season",
+          "detail": "October to March and March to May are peak seasons for bird watching; summer visits offer fewer birds but quieter, more authentic village experiences."
+        }
+      ]
+    },
+    {
+      "id": "lake_burullus",
+      "name": "Lake Burullus",
+      "nameIt": "بحيرة برلس",
+      "lat": 31.55,
+      "lng": 31.35,
+      "type": "NATURE",
+      "description": "Protected lagoon and wetland sanctuary spanning over 460 square kilometers, designated as a Ramsar site for its ecological importance as a migratory bird habitat. The lake offers opportunities for birdwatching, traditional fish farming observation, and experiencing the delta's natural ecosystem.",
+      "imageQueries": [
+        "Lake Burullus bird sanctuary",
+        "Lake Burullus Egypt wetland ecosystem"
+      ],
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Bird Watching at Dawn",
+          "detail": "Observe migratory species including flamingos, herons, and eagles during early morning hours when birds are most active across the lagoon's open waters.",
+          "lat": 31.5167,
+          "lng": 31.0667
+        },
+        {
+          "id": "lake_2",
+          "text": "Traditional Fish Trap Tours",
+          "detail": "Visit local fishermen using traditional traps and nets to catch tilapia and mullet, learning centuries-old techniques still practiced in the delta.",
+          "lat": 31.52,
+          "lng": 31.08
+        },
+        {
+          "id": "lake_3",
+          "text": "Kayaking Through Reed Channels",
+          "detail": "Paddle through narrow waterways lined with papyrus and reeds to experience the wetland ecosystem up close and spot wildlife in sheltered areas.",
+          "lat": 31.515,
+          "lng": 31.065
+        },
+        {
+          "id": "lake_4",
+          "text": "Sunset Boat Cruise",
+          "detail": "Take an evening boat ride across the lagoon to witness the landscape transform in golden light while listening to local boatmen's stories about the lake's ecology.",
+          "lat": 31.52,
+          "lng": 31.07
+        },
+        {
+          "id": "lake_5",
+          "text": "Ramsar Wetland Visitor Center",
+          "detail": "Learn about the lake's designation as a protected Ramsar site and its importance for migratory bird conservation through displays and guided information.",
+          "lat": 31.518,
+          "lng": 31.062
+        },
+        {
+          "id": "lake_6",
+          "text": "Photography at Al-Matariya Settlement",
+          "detail": "Document traditional delta village life and waterside architecture in the settlement area adjacent to the lake's eastern shore.",
+          "lat": 31.525,
+          "lng": 31.09
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "Fresh Tilapia Grilled with Za'atar",
+          "detail": "Whole tilapia caught from the lake that morning, grilled over charcoal and seasoned with za'atar, lemon, and olive oil by local fishermen's families."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Mullet Roe (Bottarga) on Bread",
+          "detail": "Salted and dried mullet roe, a delicacy from the lake, shaved thinly over fresh baladi bread with olive oil and served as an appetizer."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Fish Soup with Delta Vegetables",
+          "detail": "Hearty soup made from mixed lake fish, tomatoes, onions, and locally grown spinach and okra, flavored with garlic and coriander."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Stuffed Whole Fish (Samak Mahshi)",
+          "detail": "Fresh lake fish stuffed with herbs, onions, and tomatoes, then baked or grilled and served with rice, representing traditional delta cooking."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Falafel from Delta Fava Beans",
+          "detail": "Crispy falafel made from locally grown fava beans, served with tahini sauce and fresh salad greens from riverside gardens."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "Respectful Photography with Fishermen",
+          "detail": "Always ask permission before photographing local fishermen at work, as many prefer privacy while using traditional methods and may offer better access if approached respectfully."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Dress for Heat and Sun Protection",
+          "detail": "The delta offers minimal shade; wear lightweight long sleeves, a wide-brimmed hat, and high SPF sunscreen, as locals dress conservatively for both sun and cultural reasons."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Visit During Migration Season",
+          "detail": "Plan your trip between October and April when migratory birds are present in peak numbers, making birdwatching significantly more rewarding than summer months."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Greet with Arabic Pleasantries",
+          "detail": "Local fishermen and residents appreciate visitors who greet them with 'As-salamu alaykum' (peace be upon you) and learn basic Arabic phrases, showing cultural respect."
+        }
+      ]
+    },
+    {
+      "id": "lake_manzala",
+      "name": "Lake Manzala",
+      "nameIt": "بحيرة المنزلة",
+      "lat": 31.3,
+      "lng": 31.8,
+      "type": "NATURE",
+      "description": "Egypt's largest northern lake and a vital fishing ground covering over 1,400 square kilometers, supporting thousands of traditional fishermen and abundant birdlife. The lake represents the ecological heart of the Nile Delta with opportunities for boat tours and observing traditional delta livelihoods.",
+      "imageQueries": [
+        "Lake Manzala Egypt fishing",
+        "Lake Manzala bird migration"
+      ],
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Fishermen's Boat Tour",
+          "detail": "Join local fishermen on traditional wooden boats (feluccas) to witness dawn or sunset fishing techniques passed down through generations.",
+          "lat": 31.3833,
+          "lng": 31.5667
+        },
+        {
+          "id": "lake_2",
+          "text": "Birdwatching at El-Manzala Lagoon",
+          "detail": "Observe migratory and resident birds including herons, egrets, and flamingos during early morning excursions across the shallow waters.",
+          "lat": 31.35,
+          "lng": 31.6
+        },
+        {
+          "id": "lake_3",
+          "text": "Visit Manzala Fish Markets",
+          "detail": "Explore the bustling waterside fish markets in towns like Ras El Bar where the daily catch is sorted, sold, and prepared fresh.",
+          "lat": 31.4617,
+          "lng": 31.5083
+        },
+        {
+          "id": "lake_4",
+          "text": "Traditional Net-Casting Workshop",
+          "detail": "Learn the circular throwing technique of cast nets (shabaka) from experienced fishermen who demonstrate this ancient skill.",
+          "lat": 31.3833,
+          "lng": 31.5667
+        },
+        {
+          "id": "lake_5",
+          "text": "Sunset Ride to Ras El Bar Beach",
+          "detail": "Travel across the lake's northern edge to the Mediterranean beach resort town with golden sands and fresh seafood restaurants."
+        },
+        {
+          "id": "lake_6",
+          "text": "Delta Ecology Center Visit",
+          "detail": "Understand the fragile wetland ecosystem supporting thousands of species through guided interpretive programs at local conservation centers."
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "Grilled Lake Fish (Samak Meshwi)",
+          "detail": "Freshly caught tilapia or catfish from Manzala grilled over charcoal with lemon, garlic, and herbs, served whole at waterside restaurants."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Fessikh",
+          "detail": "Salted and fermented fish (traditionally mullet) eaten cold with onions and vinegar, a traditional Delta specialty especially during Easter celebrations."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Shrimp and Molokhia Soup",
+          "detail": "Lake shrimp combined with molokhia (mallow leaf) in a rich broth, representing the meeting of lake and Delta agriculture."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Sayadiya (Fish and Rice)",
+          "detail": "Perfectly cooked lake fish layered with spiced rice and topped with crispy onions and almonds, a ceremonial dish of the Delta region."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Fresh Crab and Mussel Plates",
+          "detail": "Seasonal crustaceans harvested from Manzala's brackish waters, boiled or lightly spiced and served as mezze appetizers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "Respect Fishing Schedules",
+          "detail": "Most fishermen work at dawn and dusk; plan activities accordingly and ask permission before photographing boats or nets, as fishing is their livelihood."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Dress for Water and Sun",
+          "detail": "Bring lightweight long sleeves, a hat, and sunscreen as the lake offers little shade; the sun reflects intensely off the water."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Learn Basic Greetings in Arabic",
+          "detail": "Visitors who greet fishermen with 'As-salamu alaykum' (السلام عليكم) and show genuine interest in their work receive warmer welcomes and better stories."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Seasonal Awareness",
+          "detail": "Avoid visiting during heavy winds (winter months) when boats don't go out; spring and fall offer the best combination of calm waters and abundant birdlife."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "El Tagamo3 Restaurant",
+      "address": "Sharia Al-Gezira, Zagazig",
+      "neighbourhood": "Zagazig",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "A beloved local institution serving authentic Delta dishes in a casual, family-friendly atmosphere.",
+      "mustOrder": "Koshari and grilled pigeon",
+      "lat": 30.5891,
+      "lng": 31.5047
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Abu Shakra",
+      "address": "Sharia Saad Zaghloul, Tanta",
+      "neighbourhood": "Tanta Downtown",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Legendary Cairo chain with a strong presence in Tanta, famous for its liver and bean dishes.",
+      "mustOrder": "Chicken liver and fava beans",
+      "lat": 30.7869,
+      "lng": 31.0012
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Nile Breeze Restaurant",
+      "address": "Corniche El-Nil, Mansoura",
+      "neighbourhood": "Mansoura Waterfront",
+      "cuisine": "Egyptian & Mediterranean",
+      "priceRange": "€€",
+      "description": "Riverside dining spot offering traditional Delta cuisine with views over the Nile branch.",
+      "mustOrder": "Grilled mullet and molokhia",
+      "lat": 31.0409,
+      "lng": 31.3747
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "El Omda Restaurant",
+      "address": "Sharia Port Said, Mansoura",
+      "neighbourhood": "Mansoura Central",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "A no-frills favorite among locals serving traditional farmhouse-style cooking.",
+      "mustOrder": "Ful medames and ta'ameya",
+      "lat": 31.0352,
+      "lng": 31.3809
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Abu Qir Seafood House",
+      "address": "Sharia Al-Horiya, Abu Qir",
+      "neighbourhood": "Abu Qir",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "The gateway to Mediterranean seafood, featuring the freshest catches prepared simply and excellently.",
+      "mustOrder": "Grilled sea bass and shrimp saganaki",
+      "lat": 31.3542,
+      "lng": 30.4075
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Citadel Restaurant",
+      "address": "Sharia Al-Nile, Rosetta",
+      "neighbourhood": "Rosetta Old Town",
+      "cuisine": "Egyptian & Mediterranean",
+      "priceRange": "€€",
+      "description": "Historic riverside restaurant in the ancient port town offering regional Delta specialties.",
+      "mustOrder": "Salt-crusted fish and stuffed calamari",
+      "lat": 31.4029,
+      "lng": 30.4241
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "El Fayrouz",
+      "address": "Sharia Zaghloul, Tanta",
+      "neighbourhood": "Tanta Downtown",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Simple, welcoming spot packed with workers and families eating authentic local fare.",
+      "mustOrder": "Shawarma and mixed grill",
+      "lat": 30.7856,
+      "lng": 31.0041
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Panorama Restaurant",
+      "address": "Corniche Road, Kafr El-Sheikh",
+      "neighbourhood": "Kafr El-Sheikh Waterfront",
+      "cuisine": "Egyptian & Fish",
+      "priceRange": "€€",
+      "description": "Modern establishment with canal views specializing in freshwater fish preparations from the Delta.",
+      "mustOrder": "Tilapia and carp with herbs",
+      "lat": 31.1089,
+      "lng": 30.9426
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Al-Harameen",
+      "address": "Sharia Mohamed Farid, Zagazig",
+      "neighbourhood": "Zagazig Downtown",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Traditional grill house where locals queue for perfectly charred meats and vegetables.",
+      "mustOrder": "Kebab and kofta skewers",
+      "lat": 30.5847,
+      "lng": 31.5081
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Mer Mediterranean",
+      "address": "Sharia Al-Gezira, Port Said",
+      "neighbourhood": "Port Said Downtown",
+      "cuisine": "Mediterranean & Seafood",
+      "priceRange": "€€€",
+      "description": "Upscale waterfront dining celebrating the Mediterranean heritage of this historic port city.",
+      "mustOrder": "Lobster thermidor and sea urchin",
+      "lat": 31.2629,
+      "lng": 32.2854
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Um Ali Pastry House",
+      "address": "Sharia Saad Zaghloul, Damanhur",
+      "neighbourhood": "Damanhur Central",
+      "cuisine": "Egyptian Desserts & Light Meals",
+      "priceRange": "€",
+      "description": "Traditional sweet shop and cafe famous throughout the Delta for its authentic pastries.",
+      "mustOrder": "Um Ali pudding and basboosa",
+      "lat": 30.4697,
+      "lng": 30.4693
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "El Nile Restaurant",
+      "address": "Corniche El-Nil, Damietta",
+      "neighbourhood": "Damietta Waterfront",
+      "cuisine": "Egyptian & Seafood",
+      "priceRange": "€€",
+      "description": "Overlooking the mouth of the Nile, this place specializes in Delta fish and Mediterranean flavors.",
+      "mustOrder": "Grilled prawns and molokhia with fish",
+      "lat": 31.4169,
+      "lng": 31.8169
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Al-Safina",
+      "address": "Sharia El-Corniche, Mansoura",
+      "neighbourhood": "Mansoura Waterfront",
+      "cuisine": "Egyptian",
+      "priceRange": "€€",
+      "description": "Boat-themed restaurant capturing the spirit of Delta waterways with excellent traditional cooking.",
+      "mustOrder": "Shrimp saganaki and grilled tilapia",
+      "lat": 31.0433,
+      "lng": 31.3689
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Zahrat El-Nile",
+      "address": "Sharia Al-Horiya, Talkha",
+      "neighbourhood": "Talkha",
+      "cuisine": "Egyptian",
+      "priceRange": "€",
+      "description": "Village restaurant celebrating genuine Delta agriculture with farm-to-table vegetables and grains.",
+      "mustOrder": "Eggplant dishes and fresh salads",
+      "lat": 30.9592,
+      "lng": 31.5747
+    }
+  ]
+}
