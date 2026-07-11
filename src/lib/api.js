@@ -138,6 +138,7 @@ export const api = {
     blogPost: (payload) => req('POST', '/ai?action=blog', payload),
     place: (payload) => req('POST', '/ai?action=place', payload),
     review: (payload) => req('POST', '/ai?action=review', payload),
+    countryFacts: (payload) => req('POST', '/ai?action=countryfacts', payload),
   },
   visits: {
     list: () => req('GET', '/visits'),

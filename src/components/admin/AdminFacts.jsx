@@ -46,6 +46,8 @@ export default function AdminFacts() {
   const [form, setForm] = useState(empty())
   const [saved, setSaved] = useState(false)
   const [busy, setBusy] = useState(false)
+  const [filling, setFilling] = useState(false)
+  const [note, setNote] = useState('')
 
   useEffect(() => { api.settings.getAll().then((s) => setAll(s || {})).catch(() => setAll({})) }, [])
   useEffect(() => {
@@ -59,7 +61,24 @@ export default function AdminFacts() {
 
   const hasSaved = !!all[`countryFacts.${slug}`]
   const set = (k, v) => setForm((f) => ({ ...f, [k]: v }))
-  const prefill = () => { if (DRAFTS[slug]) setForm({ ...empty(), ...DRAFTS[slug] }) }
+  // AI fills the six fields; the hand-written draft is the fallback when AI
+  // isn't configured or errors. Either way: review before saving.
+  const fill = async () => {
+    setFilling(true); setNote('')
+    const name = COUNTRIES.find((c) => c.slug === slug)?.name || slug
+    try {
+      const { facts } = await api.ai.countryFacts({ country: name })
+      setForm({ ...empty(), ...facts })
+      setNote('Filled by AI — check every field before saving, especially the emergency number and plugs.')
+    } catch (e) {
+      if (DRAFTS[slug]) {
+        setForm({ ...empty(), ...DRAFTS[slug] })
+        setNote(`AI unavailable (${e.message || 'error'}) — loaded the built-in draft instead. Verify before saving.`)
+      } else {
+        setNote(`AI unavailable: ${e.message || 'error'}. Fill the fields manually.`)
+      }
+    } finally { setFilling(false) }
+  }
 
   const save = async () => {
     setBusy(true)
@@ -99,9 +118,10 @@ export default function AdminFacts() {
         <section className="cms-sec">
           <div className="cms-sec__head">
             <h3>Facts — {COUNTRIES.find((c) => c.slug === slug)?.name}</h3>
-            {DRAFTS[slug] && <button className="cms-add" onClick={prefill}><Wand2 size={15} /> Prefill draft</button>}
+            <button className="cms-add" onClick={fill} disabled={filling}><Wand2 size={15} /> {filling ? 'Filling…' : 'Fill with AI'}</button>
           </div>
-          <p className="admin-note">These show as the fact strip under the country hero. Prefill loads a hand-written draft — <b>verify the emergency number and plugs before saving</b>. Empty fields are simply not shown.</p>
+          <p className="admin-note">These show as the fact strip under the country hero. <b>Verify the emergency number and plugs before saving</b> — AI drafts are a starting point, not a source of truth. Empty fields are simply not shown.</p>
+          {note && <p className="admin-note admin-note--hot">{note}</p>}
           <div className="cfacts-form">
             {FIELDS.map(([k, label]) => (
               <label key={k} className="admin-field">

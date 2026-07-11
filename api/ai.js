@@ -319,6 +319,48 @@ Respond with ONLY valid JSON, no fences: {"answer":"..."}`
     return send(res, 200, { answer: parsed.answer.slice(0, 1500) })
   }
 
+  // ── country fact strip (admin) ──────────────────────────────────────────────
+  if (req.method === 'POST' && action === 'countryfacts') {
+    await requireAdmin(req)
+    const { key, model } = await aiConfig(db)
+    if (!key) throw fail(400, 'AI is not configured yet')
+    if (!model) throw fail(400, 'No AI model selected yet')
+
+    const b = await readBody(req)
+    const countryName = String(b.country || '').trim().slice(0, 60)
+    if (!countryName) throw fail(400, 'A country is required')
+
+    const prompt = `Provide the standard traveller fact strip for ${countryName}. These are stable, verifiable facts — be precise and conventional, do not guess.
+
+Formatting conventions:
+- capital: the capital city name only.
+- languages: official/main spoken languages, comma-separated, most common first.
+- currency: name with symbol in brackets, e.g. "Euro (€)", "Japanese yen (¥)".
+- timezone: GMT offset plus zone abbreviation, e.g. "GMT+1 (CET)". If the country spans several zones, give the range, e.g. "GMT−5 to −10 (6 zones)".
+- plugs: plug letter types and voltage, e.g. "Type C / F · 230V".
+- emergency: the number(s); where services differ use the form "110 police · 119 fire & ambulance".
+
+Respond with ONLY valid JSON, no fences:
+{"capital":"...","languages":"...","currency":"...","timezone":"...","plugs":"...","emergency":"..."}`
+
+    const r = await fetch(`${ANTHROPIC}/messages`, {
+      method: 'POST',
+      headers: { 'x-api-key': key, 'anthropic-version': VERSION, 'content-type': 'application/json' },
+      body: JSON.stringify({ model, max_tokens: 400, messages: [{ role: 'user', content: prompt }] }),
+    })
+    if (!r.ok) throw fail(r.status === 401 ? 400 : 502, `Anthropic: ${(await r.text()).slice(0, 200)}`)
+    const j = await r.json()
+    const text = (j.content || []).filter((c) => c.type === 'text').map((c) => c.text).join('')
+    let parsed
+    try { parsed = extractJson(text) } catch { throw fail(502, 'The model returned an unexpected format — try again') }
+    const facts = {}
+    for (const k of ['capital', 'languages', 'currency', 'timezone', 'plugs', 'emergency']) {
+      if (typeof parsed[k] === 'string' && parsed[k].trim()) facts[k] = parsed[k].trim().slice(0, 120)
+    }
+    if (!facts.capital) throw fail(502, 'The model returned an unexpected shape — try again')
+    return send(res, 200, { facts })
+  }
+
   // ── itinerary sense-check (any signed-in user) ─────────────────────────────
   if (req.method === 'POST' && action === 'review') {
     const user = await requireUser(req)
