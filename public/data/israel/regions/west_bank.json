@@ -1,0 +1,1541 @@
+{
+  "id": "west_bank",
+  "name": "West Bank",
+  "nameIt": "הגדה המערבית",
+  "capital": "Ramallah",
+  "lat": 31.95,
+  "lng": 35.2,
+  "emoji": "🏔️",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 32.4,
+    "south": 31.4,
+    "east": 35.5,
+    "west": 34.9
+  },
+  "history": "The West Bank has been inhabited for millennia and holds profound significance in Jewish, Christian, and Islamic traditions as the biblical heartland of ancient kingdoms. Under Ottoman rule for centuries, it came under British Mandate following World War I, then was captured and occupied by Israel during the 1967 Six-Day War. Since then it has remained under Israeli military control with varying degrees of Palestinian self-governance, becoming the focal point of the Israeli-Palestinian conflict and ongoing peace negotiations. The territory encompasses ancient cities like Jericho, Bethlehem, and Hebron, each layered with religious and historical importance.",
+  "culturalNotes": "Palestinian culture in the West Bank is deeply rooted in Arab traditions, Islamic faith, and a strong connection to the land, expressed through olive farming, traditional crafts, and family-centered social structures. The region is known for its distinctive embroidery patterns, ceramic work, and culinary heritage that reflects centuries of Mediterranean and Middle Eastern influence. Despite political tensions, vibrant cultural practices persist including music, dabke dancing, and communal gatherings that maintain Palestinian identity and resilience.",
+  "bestTimeToVisit": "October to April to avoid extreme heat and enjoy pleasant autumn and spring weather.",
+  "languageNotes": "Arabic is the primary language spoken throughout the West Bank, specifically Palestinian Arabic which has its own local dialect and colloquialisms distinct from Modern Standard Arabic. Useful phrases include 'Marhaba' (hello), 'Shukran' (thank you), and 'Inshallah' (God willing), and English is increasingly understood in urban centers and tourist areas, though learning basic Arabic phrases is greatly appreciated by locals.",
+  "generatedAt": "2026-07-11T17:36:44.236Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "nameIt": "بيت لحم",
+      "lat": 31.9454,
+      "lng": 35.2023,
+      "type": "CITY",
+      "description": "The birthplace of Jesus and one of Christianity's holiest sites, centered around the Church of the Nativity. A vibrant Palestinian city with rich cultural heritage, markets, and spiritual significance that draws pilgrims and tourists worldwide.",
+      "imageQueries": [
+        "Church of the Nativity Bethlehem",
+        "Bethlehem Manger Square"
+      ],
+      "activities": [
+        {
+          "id": "beth_1",
+          "text": "Church of the Nativity",
+          "detail": "Visit the ancient basilica built over the cave where Jesus is believed to have been born, featuring the Star of Bethlehem marker and ornate chapels.",
+          "lat": 31.9454,
+          "lng": 35.2034
+        },
+        {
+          "id": "beth_2",
+          "text": "Manger Square",
+          "detail": "Explore the main plaza surrounded by churches, shops, and cafés, especially lively during Christmas celebrations and evening gatherings.",
+          "lat": 31.9465,
+          "lng": 35.2027
+        },
+        {
+          "id": "beth_3",
+          "text": "Palestinian Heritage Museum",
+          "detail": "Discover traditional Palestinian culture, crafts, costumes, and household items spanning centuries of local life and traditions.",
+          "lat": 31.942,
+          "lng": 35.208
+        },
+        {
+          "id": "beth_4",
+          "text": "Shepherds' Field",
+          "detail": "Visit the pastoral landscape east of Bethlehem where shepherds are said to have been watching their flocks when angels announced Jesus's birth.",
+          "lat": 31.938,
+          "lng": 35.217
+        },
+        {
+          "id": "beth_5",
+          "text": "Bethlehem Old Souk",
+          "detail": "Wander the narrow winding streets of the traditional market selling spices, souvenirs, olive wood carvings, and Palestinian handicrafts.",
+          "lat": 31.945,
+          "lng": 35.204
+        },
+        {
+          "id": "beth_6",
+          "text": "Rachel's Tomb",
+          "detail": "Pay respects at this sacred Jewish and Muslim pilgrimage site believed to mark the burial place of the biblical matriarch Rachel.",
+          "lat": 31.929,
+          "lng": 35.209
+        }
+      ],
+      "food": [
+        {
+          "id": "beth_f1",
+          "text": "Maftoul with Chicken",
+          "detail": "Pearl couscous cooked with tender chicken, herbs, and spices, offering a hearty Palestinian comfort food often served for family meals."
+        },
+        {
+          "id": "beth_f2",
+          "text": "Musakhan",
+          "detail": "Taboon bread topped with roasted chicken, caramelized onions, sumac, and pine nuts, a signature Palestinian dish with tangy and savory flavors."
+        },
+        {
+          "id": "beth_f3",
+          "text": "Hummus and Baba Ganoush",
+          "detail": "Creamy chickpea and roasted eggplant dips drizzled with olive oil and sprinkled with sumac and pine nuts, served with warm pita bread."
+        },
+        {
+          "id": "beth_f4",
+          "text": "Stuffed Grape Leaves (Dolma)",
+          "detail": "Tender grape leaves rolled with rice, ground meat, and herbs, steamed until tender and often served as an appetizer or light main course."
+        },
+        {
+          "id": "beth_f5",
+          "text": "Knafeh",
+          "detail": "A sweet pastry dessert made with shredded phyllo, melted cheese, topped with pistachios and soaked in rose or orange blossom syrup."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beth_c1",
+          "text": "Dress Modestly",
+          "detail": "Respect the conservative religious environment by wearing modest clothing that covers shoulders and knees, especially when visiting churches and holy sites."
+        },
+        {
+          "id": "beth_c2",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Using 'As-salamu alaikum' (peace be upon you) and 'Shukran' (thank you) shows respect to local Palestinians and enhances your interactions."
+        },
+        {
+          "id": "beth_c3",
+          "text": "Timing for Church Visits",
+          "detail": "Plan visits to the Church of the Nativity early morning or late afternoon to avoid midday crowds and to experience a more contemplative atmosphere."
+        },
+        {
+          "id": "beth_c4",
+          "text": "Respect Prayer Times",
+          "detail": "Be aware that calls to prayer occur five times daily and that many shops may close briefly; plan activities accordingly and maintain quiet reverence during these times."
+        }
+      ]
+    },
+    {
+      "id": "jericho",
+      "name": "Jericho",
+      "nameIt": "أريحا",
+      "lat": 31.8603,
+      "lng": 35.4533,
+      "type": "CITY",
+      "description": "The world's oldest continuously inhabited city and lowest city on Earth, famous for its biblical walls and ancient archaeological sites. Known for its lush oasis setting, Mount of Temptation, and the Hisham Palace with stunning Byzantine mosaics.",
+      "imageQueries": [
+        "Jericho archaeological site ancient walls",
+        "Mount of Temptation Jericho"
+      ],
+      "activities": [
+        {
+          "id": "jeri_1",
+          "text": "Climb Mount of Temptation",
+          "detail": "Ascend to the Greek Orthodox monastery perched on a cliff overlooking Jericho, offering panoramic views and religious significance tied to Jesus's temptation.",
+          "lat": 31.8667,
+          "lng": 35.45
+        },
+        {
+          "id": "jeri_2",
+          "text": "Explore Hisham's Palace",
+          "detail": "Wander through the 8th-century Umayyad palace ruins famous for exquisite Byzantine mosaics, carved stonework, and one of the largest decorative wheels in Islamic art.",
+          "lat": 31.8761,
+          "lng": 35.4344
+        },
+        {
+          "id": "jeri_3",
+          "text": "Visit the Ancient Walls of Jericho",
+          "detail": "See the archaeological site of Tell es-Sultan, where some of the world's oldest defensive walls stand, dating back to 9000 BCE and connected to biblical accounts.",
+          "lat": 31.8722,
+          "lng": 35.4456
+        },
+        {
+          "id": "jeri_4",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience the world's lowest and most mineral-rich body of water just 30 kilometers away, where the extreme salinity allows you to effortlessly float.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "jeri_5",
+          "text": "Stroll Through the Old City Souk",
+          "detail": "Wander the bustling marketplace in downtown Jericho selling fresh produce, spices, traditional textiles, and Palestinian handicrafts.",
+          "lat": 31.8708,
+          "lng": 35.4517
+        },
+        {
+          "id": "jeri_6",
+          "text": "Tour the Jericho Cypress Trees",
+          "detail": "Visit the ancient sycamore and cypress groves that have grown in Jericho's oasis for millennia, some believed to be thousands of years old.",
+          "lat": 31.87,
+          "lng": 35.455
+        }
+      ],
+      "food": [
+        {
+          "id": "jeri_f1",
+          "text": "Falafel",
+          "detail": "Crispy chickpea fritters seasoned with cumin and herbs, typically served with tahini sauce and eaten as a street food or in pita bread throughout Jericho."
+        },
+        {
+          "id": "jeri_f2",
+          "text": "Musakhan",
+          "detail": "Palestinian signature dish of roasted chicken marinated in sumac, olive oil, and onions, served on crispy flatbread—a specialty in the West Bank region."
+        },
+        {
+          "id": "jeri_f3",
+          "text": "Fresh Dates",
+          "detail": "Jericho's famous sweet dates from its oasis date palms, eaten fresh or stuffed with nuts, sold at local markets and considered the finest in the region."
+        },
+        {
+          "id": "jeri_f4",
+          "text": "Hummus",
+          "detail": "Creamy chickpea paste blended with tahini, lemon, and garlic, often topped with olive oil and pine nuts, a daily staple in Palestinian cuisine."
+        },
+        {
+          "id": "jeri_f5",
+          "text": "Mansaf",
+          "detail": "Traditional lamb or goat stew cooked in yogurt sauce and served over rice, eaten communally and especially popular for family meals and celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jeri_c1",
+          "text": "Respect Religious Sites",
+          "detail": "Dress modestly when visiting the Mount of Temptation monastery and other religious locations, and remove shoes when entering prayer areas."
+        },
+        {
+          "id": "jeri_c2",
+          "text": "Learn About Palestinian History",
+          "detail": "Jericho is deeply significant to Palestinian identity and culture; local guides and museum staff are eager to share the city's long history and current context."
+        },
+        {
+          "id": "jeri_c3",
+          "text": "Embrace Slow Hospitality",
+          "detail": "Palestinians take time with guests—accept offered tea or coffee graciously, as refusing can be seen as impolite; conversation and relationship-building are valued."
+        },
+        {
+          "id": "jeri_c4",
+          "text": "Check Security Status",
+          "detail": "Visit during daylight hours and check current travel advisories, as Jericho's proximity to Israeli settlements means conditions can change; hire local guides for safety and insight."
+        }
+      ]
+    },
+    {
+      "id": "ramallah",
+      "name": "Ramallah",
+      "nameIt": "رام الله",
+      "lat": 31.9454,
+      "lng": 35.1971,
+      "type": "CITY",
+      "description": "The de facto capital of the Palestinian Authority and the West Bank's cultural and political center. A modern, cosmopolitan city with vibrant cafés, galleries, restaurants, and a youthful atmosphere distinct from other Palestinian towns.",
+      "imageQueries": [
+        "Ramallah city center Palestine",
+        "Ramallah cafes downtown"
+      ],
+      "activities": [
+        {
+          "id": "rama_1",
+          "text": "Visit the Arafat Compound",
+          "detail": "Explore the preserved headquarters and residence of Yasser Arafat, offering insight into Palestinian political history and leadership.",
+          "lat": 31.9454,
+          "lng": 35.2028
+        },
+        {
+          "id": "rama_2",
+          "text": "Browse Ramallah's Art Galleries",
+          "detail": "Discover contemporary Palestinian art at galleries like Dar Annadwa and Al-Ma'mal Foundation spread throughout the city center.",
+          "lat": 31.9465,
+          "lng": 35.2045
+        },
+        {
+          "id": "rama_3",
+          "text": "Stroll through downtown Ramallah",
+          "detail": "Walk along Al-Irsal Street and around Manara Square to experience the city's vibrant café culture, shops, and social atmosphere.",
+          "lat": 31.9465,
+          "lng": 35.204
+        },
+        {
+          "id": "rama_4",
+          "text": "Palestinian Museum",
+          "detail": "Explore exhibits on Palestinian culture, history, and identity in this architecturally significant institution near the city.",
+          "lat": 31.938,
+          "lng": 35.195
+        },
+        {
+          "id": "rama_5",
+          "text": "Visit Birzeit University Campus",
+          "detail": "Tour the nearby prestigious Palestinian university known for its architecture and role in Palestinian intellectual life, just north of Ramallah.",
+          "lat": 31.9668,
+          "lng": 35.198
+        }
+      ],
+      "food": [
+        {
+          "id": "rama_f1",
+          "text": "Maftoul with Chicken",
+          "detail": "A Palestinian comfort dish of pearl couscous cooked with tender chicken, herbs, and aromatic spices, commonly served at local restaurants."
+        },
+        {
+          "id": "rama_f2",
+          "text": "Musakhan",
+          "detail": "Flatbread topped with sumac-spiced chicken, caramelized onions, and pine nuts, a signature Palestinian dish found throughout Ramallah's eateries."
+        },
+        {
+          "id": "rama_f3",
+          "text": "Fresh Hummus at Hummus Abu Hassan",
+          "detail": "Creamy chickpea dip drizzled with olive oil and served warm with pita bread at this beloved local institution in the city center."
+        },
+        {
+          "id": "rama_f4",
+          "text": "Knafeh",
+          "detail": "A sweet Palestinian dessert of shredded pastry, melted cheese, and syrup, best enjoyed fresh from bakeries near Manara Square."
+        },
+        {
+          "id": "rama_f5",
+          "text": "Falafel Sandwich",
+          "detail": "Deep-fried chickpea patties stuffed into pita with tahini sauce, fresh vegetables, and hot sauce from street vendors and casual cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rama_c1",
+          "text": "Respect Prayer Times",
+          "detail": "The city observes Islamic prayer times; some businesses may close briefly, and visitors should be respectful of prayer schedules and mosque areas."
+        },
+        {
+          "id": "rama_c2",
+          "text": "Embrace Café Culture",
+          "detail": "Ramallah's identity revolves around its coffeehouses and cafés where locals gather to socialize, debate, and conduct business—join in without obligation."
+        },
+        {
+          "id": "rama_c3",
+          "text": "Learn Basic Arabic Phrases",
+          "detail": "While many young Ramallah residents speak English, learning greetings like 'Marhaba' (hello) and 'Shukran' (thank you) is greatly appreciated."
+        },
+        {
+          "id": "rama_c4",
+          "text": "Dress Modestly",
+          "detail": "Although Ramallah is cosmopolitan, conservative dress—avoiding very short skirts or revealing clothing—shows respect for local customs."
+        }
+      ]
+    },
+    {
+      "id": "hebron",
+      "name": "Hebron",
+      "nameIt": "الخليل",
+      "lat": 31.5353,
+      "lng": 35.2093,
+      "type": "CITY",
+      "description": "One of the holiest cities in Judaism and Islam, home to the Cave of the Patriarchs where Abraham, Isaac, and Jacob are believed to be buried. A significant historical city with an atmospheric old market, though politically sensitive and requiring careful navigation.",
+      "imageQueries": [
+        "Cave of the Patriarchs Hebron",
+        "Hebron Ibrahimi Mosque"
+      ],
+      "activities": [
+        {
+          "id": "hebr_1",
+          "text": "Cave of the Patriarchs (Ibrahimi Mosque)",
+          "detail": "Visit one of Islam's holiest sites and Judaism's second-holiest, believed to contain the tombs of Abraham, Isaac, Jacob and their wives, with separate prayer areas for Muslims and Jews.",
+          "lat": 31.9454,
+          "lng": 35.2038
+        },
+        {
+          "id": "hebr_2",
+          "text": "Old City Souq",
+          "detail": "Wander the atmospheric narrow alleys of Hebron's historic marketplace filled with spice vendors, textile shops, and traditional Palestinian goods, though note that some areas have security barriers.",
+          "lat": 31.9468,
+          "lng": 35.2045
+        },
+        {
+          "id": "hebr_3",
+          "text": "Shuhada Street",
+          "detail": "Walk through the city's main commercial street, historically significant but now largely closed to Palestinians due to Israeli security measures, reflecting the complex political situation.",
+          "lat": 31.9475,
+          "lng": 35.2015
+        },
+        {
+          "id": "hebr_4",
+          "text": "Glass Factory Workshop",
+          "detail": "Observe traditional Palestinian glassblowing techniques at one of Hebron's historic glass-making workshops, where artisans create colored glassware using centuries-old methods.",
+          "lat": 31.946,
+          "lng": 35.205
+        },
+        {
+          "id": "hebr_5",
+          "text": "Palestinian Heritage Museum",
+          "detail": "Explore exhibits showcasing Palestinian history, traditional costumes, and archaeological artifacts documenting the region's cultural heritage.",
+          "lat": 31.947,
+          "lng": 35.204
+        }
+      ],
+      "food": [
+        {
+          "id": "hebr_f1",
+          "text": "Maklouba",
+          "detail": "A traditional Palestinian rice dish cooked with meat, vegetables, and spices, then inverted onto a platter to display layers, often served at family gatherings and local restaurants."
+        },
+        {
+          "id": "hebr_f2",
+          "text": "Musakhan",
+          "detail": "Chicken roasted with sumac, onions, and olive oil served on taboon bread, a signature Palestinian dish particularly popular in the Hebron region."
+        },
+        {
+          "id": "hebr_f3",
+          "text": "Kanafeh",
+          "detail": "A sweet pastry dessert made with shredded phyllo dough, cheese, and pistachios, soaked in sugar syrup and served warm, available from local bakeries throughout the Old City."
+        },
+        {
+          "id": "hebr_f4",
+          "text": "Hummus with Meat (Hummus Wa Lahme)",
+          "detail": "Creamy chickpea hummus topped with minced lamb or beef, pine nuts, and olive oil, served as a breakfast or mezze staple in Hebron's traditional restaurants."
+        },
+        {
+          "id": "hebr_f5",
+          "text": "Fresh Pomegranate Juice",
+          "detail": "Hebron region produces high-quality pomegranates; fresh-squeezed juice is widely available at market stalls and cafes, particularly popular in autumn."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hebr_c1",
+          "text": "Understand the political sensitivity",
+          "detail": "Hebron is divided into Palestinian and Israeli-controlled areas with a significant Israeli settler presence; be respectful, avoid political discussions, and follow local guidance regarding movement restrictions."
+        },
+        {
+          "id": "hebr_c2",
+          "text": "Dress modestly",
+          "detail": "As a holy city sacred to both religions, visitors should wear conservative clothing covering shoulders and knees, particularly when visiting religious sites like the Cave of the Patriarchs."
+        },
+        {
+          "id": "hebr_c3",
+          "text": "Visit with a local guide",
+          "detail": "Hiring a knowledgeable Palestinian guide enhances understanding of the city's complex history and current situation while ensuring safer navigation through sensitive areas."
+        },
+        {
+          "id": "hebr_c4",
+          "text": "Respect prayer times and religious sites",
+          "detail": "Many shops close during Islamic prayer times and visitors should not enter mosques or shrines during active worship; ask permission before photographing religious sites or people."
+        }
+      ]
+    },
+    {
+      "id": "nablus",
+      "name": "Nablus",
+      "nameIt": "نابلس",
+      "lat": 32.2228,
+      "lng": 35.2345,
+      "type": "CITY",
+      "description": "An ancient Palestinian city set in a valley between Mount Ebal and Mount Gerizim, known for its Ottoman architecture and vibrant souk (market). Famous for its local cuisine, particularly kanafeh pastry, and as a center of Palestinian culture and commerce.",
+      "imageQueries": [
+        "Nablus souk market Old City",
+        "Nablus Mount Gerizim"
+      ],
+      "activities": [
+        {
+          "id": "nabl_1",
+          "text": "Old City Souk",
+          "detail": "Wander through the labyrinthine covered markets selling spices, textiles, olive oil, and traditional crafts in the heart of Ottoman-era Nablus.",
+          "lat": 32.2265,
+          "lng": 35.2344
+        },
+        {
+          "id": "nabl_2",
+          "text": "Mount Gerizim",
+          "detail": "Hike or drive to this sacred mountain overlooking Nablus where the Samaritan community still celebrates Passover, offering panoramic views and religious historical significance.",
+          "lat": 32.2087,
+          "lng": 35.2725
+        },
+        {
+          "id": "nabl_3",
+          "text": "An-Nasr Mosque",
+          "detail": "Visit this beautifully preserved mosque in the Old City featuring intricate Ottoman architecture and a serene courtyard, active since the 16th century.",
+          "lat": 32.2273,
+          "lng": 35.2339
+        },
+        {
+          "id": "nabl_4",
+          "text": "Mount Ebal",
+          "detail": "Ascend this biblical mountain on Nablus's northern edge for sweeping valley views and to visit the ancient altar site traditionally associated with Joshua.",
+          "lat": 32.2441,
+          "lng": 35.2344
+        },
+        {
+          "id": "nabl_5",
+          "text": "Hisham's Palace ruins exploration",
+          "detail": "Explore the remains of the 8th-century Umayyad palace just outside Nablus, featuring intricate mosaics and architectural fragments from the Islamic golden age.",
+          "lat": 32.1933,
+          "lng": 35.2017
+        },
+        {
+          "id": "nabl_6",
+          "text": "Palestinian Heritage Museum",
+          "detail": "Experience displays of traditional Palestinian embroidery, ceramics, and household items that document the region's cultural identity and craftsmanship.",
+          "lat": 32.2258,
+          "lng": 35.2331
+        }
+      ],
+      "food": [
+        {
+          "id": "nabl_f1",
+          "text": "Kanafeh",
+          "detail": "Nablus's most famous dessert of crispy shredded pastry soaked in sugar syrup and topped with melted cheese, best eaten warm and fresh from local bakeries."
+        },
+        {
+          "id": "nabl_f2",
+          "text": "Maklouba",
+          "detail": "A savory rice and meat dish cooked in a pot then dramatically flipped upside-down onto a platter, traditionally made with chicken, eggplant, or cauliflower."
+        },
+        {
+          "id": "nabl_f3",
+          "text": "Stuffed lamb neck (Daoud Pasha style)",
+          "detail": "Tender lamb neck slow-cooked and traditionally stuffed with rice, pine nuts, and spices, showcasing Ottoman culinary influence in the region."
+        },
+        {
+          "id": "nabl_f4",
+          "text": "Hummus masabaha",
+          "detail": "Warm chickpeas blended with tahini and lemon juice, served in a bowl with whole chickpeas and olive oil, eaten with warm pita bread for breakfast."
+        },
+        {
+          "id": "nabl_f5",
+          "text": "Za'atar manakish",
+          "detail": "Flatbread topped with a blend of thyme, sesame seeds, and sumac, baked in traditional ovens and often eaten for breakfast with tea or coffee."
+        },
+        {
+          "id": "nabl_f6",
+          "text": "Palestinian olive oil tasting",
+          "detail": "Sample locally produced extra-virgin olive oil during harvest season, a cornerstone of Palestinian agriculture and cuisine for centuries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nabl_c1",
+          "text": "Respect prayer times and dress modestly",
+          "detail": "Many locals observe daily prayers and appreciate when visitors dress conservatively, particularly when visiting mosques or the Old City during prayer times."
+        },
+        {
+          "id": "nabl_c2",
+          "text": "Use Arabic greetings",
+          "detail": "Learning basic Arabic phrases like 'Salam alaikum' (peace be upon you) and 'Shukran' (thank you) shows respect and opens doors to warmer interactions with locals."
+        },
+        {
+          "id": "nabl_c3",
+          "text": "Negotiate in the souk with courtesy",
+          "detail": "Bargaining is expected in markets, but approach it as a friendly interaction rather than confrontation, and accept tea or coffee offered by shopkeepers as part of building rapport."
+        },
+        {
+          "id": "nabl_c4",
+          "text": "Visit family-run establishments",
+          "detail": "Nablus thrives on family businesses and hospitality; eating at small family restaurants and shops supports the community and offers authentic, home-cooked experiences."
+        }
+      ]
+    },
+    {
+      "id": "masada",
+      "name": "Masada",
+      "nameIt": "מצדה",
+      "lat": 31.3149,
+      "lng": 35.3509,
+      "type": "LANDMARK",
+      "description": "An ancient fortified palace atop a dramatic mesa overlooking the Dead Sea, with profound historical and symbolic significance in Jewish history. The site features well-preserved Roman siege works and offers spectacular views combined with compelling archaeological remains.",
+      "imageQueries": [
+        "Masada fortress cliff Dead Sea",
+        "Masada ancient palace ruins"
+      ],
+      "activities": [
+        {
+          "id": "masa_1",
+          "text": "Sunrise hike via Snake Path",
+          "detail": "Trek the ancient zigzagging trail up the eastern face of the mesa, traditionally taken by pilgrims and now popular for experiencing Masada's majesty at dawn.",
+          "lat": 31.3164,
+          "lng": 35.3532
+        },
+        {
+          "id": "masa_2",
+          "text": "Roman siege ramp exploration",
+          "detail": "Walk along the partially reconstructed ramp on the western side built by Roman legions under Silva, one of the most intact examples of Roman siege engineering.",
+          "lat": 31.3142,
+          "lng": 35.3497
+        },
+        {
+          "id": "masa_3",
+          "text": "Palace of Herod tour",
+          "detail": "Explore the three-tiered northern palace with its columned portico and thermal baths, showcasing luxury construction from the 1st century BCE.",
+          "lat": 31.3182,
+          "lng": 35.3545
+        },
+        {
+          "id": "masa_4",
+          "text": "Storerooms and cistern system",
+          "detail": "Examine the remarkable network of underground cisterns and storage facilities that allowed the fortress to sustain a large population during sieges.",
+          "lat": 31.3168,
+          "lng": 35.3525
+        },
+        {
+          "id": "masa_5",
+          "text": "Dead Sea panorama viewpoint",
+          "detail": "Stand at the eastern cliff edge for unobstructed views across the Dead Sea toward the Jordanian mountains, particularly striking at sunset.",
+          "lat": 31.3175,
+          "lng": 35.356
+        },
+        {
+          "id": "masa_6",
+          "text": "Roman camp perimeter walk",
+          "detail": "Circle the mesa's base to view the remains of eight Roman siege camps positioned around Masada's walls.",
+          "lat": 31.3145,
+          "lng": 35.3515
+        }
+      ],
+      "food": [
+        {
+          "id": "masa_f1",
+          "text": "Zaatar-crusted fresh fish",
+          "detail": "Locally caught tilapia from the Dead Sea region, seasoned with wild thyme and olive oil, reflecting ancient dietary staples of the region."
+        },
+        {
+          "id": "masa_f2",
+          "text": "Labneh with olive oil and sumac",
+          "detail": "Thick yogurt dip traditional to the Judean Desert, often served at nearby kibbutz restaurants with crusty pita and local olives."
+        },
+        {
+          "id": "masa_f3",
+          "text": "Roasted lamb kebab",
+          "detail": "Grilled meat seasoned with Middle Eastern spices, commonly served at visitor centers and nearby Bedouin-style restaurants in the Dead Sea region."
+        },
+        {
+          "id": "masa_f4",
+          "text": "Date and nut bars",
+          "detail": "Energy-dense confections made from Judean Desert dates and local nuts, sold at the site as traditional provisions echoing ancient travel food."
+        },
+        {
+          "id": "masa_f5",
+          "text": "Bitter herbs salad",
+          "detail": "Greens foraged from the Judean Desert including wild greens and herbs, served fresh as a nod to Passover and ancient tradition."
+        }
+      ],
+      "culture": [
+        {
+          "id": "masa_c1",
+          "text": "Respect the site's sacred significance",
+          "detail": "Masada holds profound meaning as a symbol of Jewish resistance and cultural survival; approach with reverence and refrain from casual behavior on the plateau."
+        },
+        {
+          "id": "masa_c2",
+          "text": "Start early to avoid heat",
+          "detail": "The exposed mesa reaches extreme temperatures by midday, and the Snake Path offers no shade; begin your ascent before 7 AM, especially in summer."
+        },
+        {
+          "id": "masa_c3",
+          "text": "Attend the evening light show",
+          "detail": "The nightly multimedia presentation at the visitor center provides essential historical context about the 73 CE siege and Zealot resistance that many visitors consider essential to understanding the site's meaning."
+        },
+        {
+          "id": "masa_c4",
+          "text": "Dress modestly and bring water",
+          "detail": "Out of respect for the site's religious significance and practical necessity in the desert climate, wear covered shoulders and carry at least 2 liters of water per person."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea",
+      "name": "Dead Sea",
+      "nameIt": "البحر الميت",
+      "lat": 31.5006,
+      "lng": 35.4973,
+      "type": "NATURE",
+      "description": "The lowest point on Earth and the world's saltiest body of water, famous for its unique therapeutic properties and mineral-rich mud. Visitors float effortlessly in its buoyant waters and experience the surreal landscape of desert meeting water at the edge of Palestine.",
+      "imageQueries": [
+        "Dead Sea floating swimmers",
+        "Dead Sea mud therapeutic"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience the unique buoyancy of the world's saltiest body of water where your body naturally floats without effort due to the 34% salinity.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_2",
+          "text": "Dead Sea Mud Treatment",
+          "detail": "Apply the mineral-rich black mud from the Dead Sea's shores to your skin, believed to have therapeutic and healing properties for various skin conditions.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_3",
+          "text": "Ein Gedi Nature Reserve",
+          "detail": "Explore freshwater springs, waterfalls, and hiking trails in this oasis on the Dead Sea's western shore with views of the Judean Desert.",
+          "lat": 31.46,
+          "lng": 35.41
+        },
+        {
+          "id": "dead_4",
+          "text": "Masada Archaeological Site",
+          "detail": "Visit the ancient clifftop fortress overlooking the Dead Sea, significant in Jewish history, accessible by cable car or hiking trail.",
+          "lat": 31.31,
+          "lng": 35.35
+        },
+        {
+          "id": "dead_5",
+          "text": "Dead Sea Panoramic Views",
+          "detail": "Drive along the scenic Dead Sea coastline to witness the surreal landscape where the lowest point on Earth meets dramatic desert terrain.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_6",
+          "text": "Qumran Caves",
+          "detail": "Visit the archaeological site where the Dead Sea Scrolls were discovered, offering insights into ancient Jewish history and desert life.",
+          "lat": 31.93,
+          "lng": 35.45
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Falafel",
+          "detail": "Deep-fried chickpea patties seasoned with herbs and spices, a staple street food and appetizer throughout the West Bank region near the Dead Sea."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Zaratar (Za'atar Bread)",
+          "detail": "Freshly baked flatbread topped with za'atar spice blend, olive oil, and sesame seeds, commonly sold at local bakeries and roadside vendors."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Hummus",
+          "detail": "Creamy chickpea dip blended with tahini, lemon juice, and garlic, served as an appetizer or side dish at nearly every Palestinian restaurant."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Mansaf",
+          "detail": "Traditional lamb dish served in a yogurt-based sauce with rice or flatbread, representing Palestinian and Levantine culinary heritage."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Stuffed Grape Leaves (Dolma)",
+          "detail": "Grape leaves rolled with rice, herbs, and sometimes meat, steamed until tender and served as a savory appetizer or light meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Bring Swimwear and Cover",
+          "detail": "Pack modest swimwear as the Dead Sea attracts visitors of all backgrounds; respect local customs by covering shoulders and knees when not swimming."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Protect Your Eyes and Wounds",
+          "detail": "The salt concentration is extremely high and can irritate eyes and open cuts; wear goggles while floating and avoid submerging your face."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Greet with Respect",
+          "detail": "Use Arabic greetings like 'As-salamu alaikum' (peace be upon you) when meeting locals; handshakes are common but wait for women to initiate contact."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Visit During Cooler Months",
+          "detail": "The Dead Sea region is extremely hot; visit between October and April for comfortable temperatures and better conditions for outdoor activities."
+        }
+      ]
+    },
+    {
+      "id": "mount_gerizim",
+      "name": "Mount Gerizim",
+      "nameIt": "جبل الجرزيم",
+      "lat": 32.2179,
+      "lng": 35.2698,
+      "type": "LANDMARK",
+      "description": "A sacred mountain overlooking Nablus with ancient religious significance for both Judaism and Samaritanism, offering panoramic views of the West Bank. The site features a historic Samaritan temple and is an important pilgrimage destination with archaeological layers spanning millennia.",
+      "imageQueries": [
+        "Mount Gerizim Nablus view",
+        "Mount Gerizim Samaritan temple"
+      ],
+      "activities": [
+        {
+          "id": "moun_1",
+          "text": "Visit the Samaritan Temple Ruins",
+          "detail": "Explore the archaeological remains of the ancient Samaritan temple that once stood atop the mountain, dating back to the 4th century BCE and destroyed by John Hyrcanus.",
+          "lat": 32.2084,
+          "lng": 35.2747
+        },
+        {
+          "id": "moun_2",
+          "text": "Panoramic Viewpoint of Nablus",
+          "detail": "Stand at the summit to take in expansive views across the city of Nablus and the surrounding West Bank landscape, especially striking at sunset.",
+          "lat": 32.2089,
+          "lng": 35.2751
+        },
+        {
+          "id": "moun_3",
+          "text": "Samaritan Museum Tour",
+          "detail": "Visit the small museum documenting Samaritan history, religion, and artifacts including ancient scrolls and religious manuscripts unique to this community.",
+          "lat": 32.208,
+          "lng": 35.2745
+        },
+        {
+          "id": "moun_4",
+          "text": "Walking the Ancient Pilgrimage Routes",
+          "detail": "Hike the traditional paths used by Samaritan pilgrims during Passover and other religious festivals, connecting sacred sites across the mountain.",
+          "lat": 32.2085,
+          "lng": 35.275
+        },
+        {
+          "id": "moun_5",
+          "text": "Archaeological Layer Examination",
+          "detail": "Study the visible stratified remains spanning from Canaanite, Israelite, Hellenistic, and Islamic periods embedded in the mountain's excavated sections.",
+          "lat": 32.209,
+          "lng": 35.2748
+        },
+        {
+          "id": "moun_6",
+          "text": "Samaritan Cemetery Visit",
+          "detail": "Walk through the historic Samaritan burial ground containing graves of community members spanning centuries, reflecting their enduring presence on the mountain.",
+          "lat": 32.2075,
+          "lng": 35.274
+        }
+      ],
+      "food": [
+        {
+          "id": "moun_f1",
+          "text": "Samaritan Passover Bread (Matzah)",
+          "detail": "Experience traditionally handmade unleavened bread prepared by the Samaritan community using centuries-old methods, especially available during Passover pilgrimage season."
+        },
+        {
+          "id": "moun_f2",
+          "text": "Nablus Knafeh",
+          "detail": "Sample this iconic Palestinian dessert of shredded pastry with melted white cheese and simple syrup, for which Nablus is famous throughout the region."
+        },
+        {
+          "id": "moun_f3",
+          "text": "Samaritan Lamb Dishes",
+          "detail": "Try traditional lamb preparations prepared according to Samaritan dietary laws and cooking methods that have remained unchanged for generations."
+        },
+        {
+          "id": "moun_f4",
+          "text": "Palestinian Hummus from Local Vendors",
+          "detail": "Enjoy freshly made hummus sold by vendors at the base of the mountain or in nearby Nablus, often topped with warm olive oil and spices."
+        },
+        {
+          "id": "moun_f5",
+          "text": "Samaritan Olive Oil",
+          "detail": "Purchase locally produced olive oil from Samaritan families who cultivate olives on the mountain's terraces, known for its quality and purity."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moun_c1",
+          "text": "Respect Samaritan Religious Observance",
+          "detail": "Be aware that the Samaritan community actively practices their faith on the mountain; dress modestly and avoid visiting during private religious ceremonies or Passover observances."
+        },
+        {
+          "id": "moun_c2",
+          "text": "Security Checkpoint Navigation",
+          "detail": "Expect Israeli military checkpoints controlling access to the site; carry identification documents and allow extra time for security procedures."
+        },
+        {
+          "id": "moun_c3",
+          "text": "Limited Visitor Infrastructure",
+          "detail": "The mountain offers minimal amenities such as bathrooms or refreshment stands, so bring plenty of water and plan accordingly for the climb."
+        },
+        {
+          "id": "moun_c4",
+          "text": "Permission for Photography",
+          "detail": "Ask permission before photographing Samaritan community members or religious sites, as some individuals prefer not to be photographed for religious reasons."
+        }
+      ]
+    },
+    {
+      "id": "jenin",
+      "name": "Jenin",
+      "nameIt": "جنين",
+      "lat": 32.2728,
+      "lng": 35.2881,
+      "type": "CITY",
+      "description": "A northern Palestinian city serving as a major commercial hub with a rich history of resistance and cultural pride. Known for its produce markets, olive groves, and vibrant community atmosphere, though less frequented by tourists than other major cities.",
+      "imageQueries": [
+        "Jenin city market Palestine",
+        "Jenin northern West Bank"
+      ],
+      "activities": [
+        {
+          "id": "jeni_1",
+          "text": "Jenin Produce Market",
+          "detail": "Browse the bustling central market filled with fresh vegetables, fruits, and olive oil from surrounding agricultural areas, experiencing the daily rhythm of Palestinian commerce.",
+          "lat": 32.27,
+          "lng": 35.2631
+        },
+        {
+          "id": "jeni_2",
+          "text": "Jenin Governorate Museum",
+          "detail": "Explore exhibits documenting local history, traditional Palestinian culture, and the city's significant role in the Palestinian national movement.",
+          "lat": 32.2715,
+          "lng": 35.2645
+        },
+        {
+          "id": "jeni_3",
+          "text": "Olive Grove Walks",
+          "detail": "Walk through the extensive olive groves surrounding Jenin, particularly during harvest season (October-November) to witness traditional harvesting practices."
+        },
+        {
+          "id": "jeni_4",
+          "text": "Jenin Theatre & Cultural Center",
+          "detail": "Attend performances, exhibitions, or community events showcasing Palestinian music, theater, and contemporary art in this vibrant cultural venue.",
+          "lat": 32.268,
+          "lng": 35.262
+        },
+        {
+          "id": "jeni_5",
+          "text": "Jabriya Old Town",
+          "detail": "Wander through the narrow streets and traditional stone architecture of the older quarters to experience authentic Palestinian urban life."
+        },
+        {
+          "id": "jeni_6",
+          "text": "Camp Jenin Memorial Sites",
+          "detail": "Visit areas commemorating significant historical events and resistance heritage important to Palestinian collective memory and identity."
+        }
+      ],
+      "food": [
+        {
+          "id": "jeni_f1",
+          "text": "Jenin Olive Oil",
+          "detail": "Sample locally pressed extra virgin olive oil from family groves, known for its quality and often purchased directly from producers at the market."
+        },
+        {
+          "id": "jeni_f2",
+          "text": "Maklouba",
+          "detail": "Enjoy this traditional upside-down rice and vegetable dish with chicken or lamb, a signature Palestinian comfort food served at local homes and restaurants."
+        },
+        {
+          "id": "jeni_f3",
+          "text": "Za'atar Bread",
+          "detail": "Eat fresh flatbread seasoned with za'atar herb mixture, widely available from neighborhood bakeries and street vendors throughout the city."
+        },
+        {
+          "id": "jeni_f4",
+          "text": "Stuffed Grape Leaves (Warak Enab)",
+          "detail": "Taste grape leaves rolled with rice and spices, a labor-intensive traditional dish commonly prepared in Jenin households for family meals."
+        },
+        {
+          "id": "jeni_f5",
+          "text": "Fresh Vegetable Salads",
+          "detail": "Experience seasonal Palestinian salads like tabbouleh and fattoush made with produce from local markets, emphasizing fresh herbs and local tomatoes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jeni_c1",
+          "text": "Greet with Respect",
+          "detail": "Use Arabic greetings like 'As-salamu alaikum' (peace be upon you) and expect warm, hospitable responses; handshakes are common, though some may prefer hand-over-heart gestures."
+        },
+        {
+          "id": "jeni_c2",
+          "text": "Respect Prayer Times",
+          "detail": "Be aware that many businesses close or have reduced hours during the five daily Islamic prayer times, particularly midday and evening prayers."
+        },
+        {
+          "id": "jeni_c3",
+          "text": "Dress Modestly",
+          "detail": "Wear conservative clothing, especially women should cover shoulders, knees, and avoid tight-fitting garments to show respect for local cultural and religious norms."
+        },
+        {
+          "id": "jeni_c4",
+          "text": "Accept Hospitality Graciously",
+          "detail": "Palestinian hosts will likely offer coffee, tea, or food; politely accepting builds goodwill, while refusing may be seen as rude, though a simple 'thank you' suffices."
+        }
+      ]
+    },
+    {
+      "id": "bethany",
+      "name": "Bethany",
+      "nameIt": "العيزرية",
+      "lat": 31.9259,
+      "lng": 35.2847,
+      "type": "TOWN",
+      "description": "A small village east of Jerusalem believed to be the home of Lazarus and a significant site in Christian pilgrimage tradition. The Church of Lazarus stands as a major attraction for those following biblical sites across the Holy Land.",
+      "imageQueries": [
+        "Bethany Church of Lazarus",
+        "Al-Eizariya village church"
+      ],
+      "activities": [
+        {
+          "id": "beth_1",
+          "text": "Church of Lazarus",
+          "detail": "Visit the primary pilgrimage site believed to mark where Jesus raised Lazarus from the dead, featuring a restored Byzantine church with underground tomb chamber.",
+          "lat": 31.9272,
+          "lng": 35.2847
+        },
+        {
+          "id": "beth_2",
+          "text": "Tomb of Lazarus",
+          "detail": "Descend into the ancient burial cave beneath the church where tradition holds Lazarus was entombed before his resurrection.",
+          "lat": 31.9272,
+          "lng": 35.2847
+        },
+        {
+          "id": "beth_3",
+          "text": "Village Walking Tour",
+          "detail": "Stroll through narrow stone streets lined with Palestinian homes, olive groves, and small shops reflecting traditional Judean village life."
+        },
+        {
+          "id": "beth_4",
+          "text": "Bethany Archaeological Site",
+          "detail": "Explore excavated remains and artifacts from Byzantine and earlier periods that document the village's ancient settlement history."
+        },
+        {
+          "id": "beth_5",
+          "text": "Prayer and Reflection at Church Courtyard",
+          "detail": "Spend quiet time in the peaceful courtyard surrounded by stone arches where pilgrims gather for meditation and worship.",
+          "lat": 31.9272,
+          "lng": 35.2847
+        },
+        {
+          "id": "beth_6",
+          "text": "Mount of Olives Viewpoint",
+          "detail": "Hike to nearby elevated areas offering views toward Jerusalem and the surrounding West Bank landscape dotted with olive trees."
+        }
+      ],
+      "food": [
+        {
+          "id": "beth_f1",
+          "text": "Musakhan",
+          "detail": "Palestinian roasted chicken served on flatbread with sumac, onions, and olive oil, a signature dish throughout the region."
+        },
+        {
+          "id": "beth_f2",
+          "text": "Hummus with Za'atar",
+          "detail": "Creamy chickpea puree topped with zaatar spice blend and olive oil, commonly eaten for breakfast or as a meze."
+        },
+        {
+          "id": "beth_f3",
+          "text": "Mansaf",
+          "detail": "Lamb cooked in yogurt sauce (jameed) and served over rice, a festive Palestinian dish often prepared for special occasions."
+        },
+        {
+          "id": "beth_f4",
+          "text": "Stuffed Grape Leaves (Dolma)",
+          "detail": "Fresh grape leaves filled with seasoned rice and herbs, reflecting centuries of Palestinian culinary tradition in the region."
+        },
+        {
+          "id": "beth_f5",
+          "text": "Palestinian Olive Oil",
+          "detail": "Sample locally pressed extra virgin olive oil from village groves, often used generously on breads and salads."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beth_c1",
+          "text": "Modest Dress Expected",
+          "detail": "Visitors should wear conservative clothing covering shoulders and knees as a sign of respect in this Christian pilgrimage village and Palestinian community."
+        },
+        {
+          "id": "beth_c2",
+          "text": "Greetings and Hospitality",
+          "detail": "Palestinians typically offer strong Arabic coffee (qahwa) and dates to visitors; accepting these gestures is considered respectful and appreciated."
+        },
+        {
+          "id": "beth_c3",
+          "text": "Photography Sensitivity",
+          "detail": "Always ask permission before photographing residents or inside the church; some areas may have restrictions during active prayer times."
+        },
+        {
+          "id": "beth_c4",
+          "text": "Checkpoint Navigation",
+          "detail": "Be prepared for Israeli security checkpoints on routes to and from Bethany; have identification ready and allow extra travel time."
+        }
+      ]
+    },
+    {
+      "id": "ramadan",
+      "name": "Rawabi",
+      "nameIt": "روابي",
+      "lat": 31.9667,
+      "lng": 35.1833,
+      "type": "TOWN",
+      "description": "A modern planned Palestinian city north of Ramallah, designed as a contemporary urban development with modern amenities and infrastructure. It represents Palestinian aspirations for urban development and offers a stark contrast to older Palestinian cities.",
+      "imageQueries": [
+        "Rawabi Palestinian city modern",
+        "Rawabi planned community buildings"
+      ],
+      "activities": [
+        {
+          "id": "rama_1",
+          "text": "Rawabi Central Plaza",
+          "detail": "The heart of the city featuring modern fountains, green spaces, and cafes where locals gather for evening walks and social activities.",
+          "lat": 31.9456,
+          "lng": 35.2089
+        },
+        {
+          "id": "rama_2",
+          "text": "Rawabi Shopping District",
+          "detail": "A contemporary retail area with Palestinian and international shops, boutiques, and restaurants showcasing modern Palestinian consumer culture.",
+          "lat": 31.945,
+          "lng": 35.2095
+        },
+        {
+          "id": "rama_3",
+          "text": "Amphitheater & Cultural Venue",
+          "detail": "An outdoor performance space hosting concerts, theatrical productions, and community events that reflect Palestinian artistic expression.",
+          "lat": 31.9465,
+          "lng": 35.207
+        },
+        {
+          "id": "rama_4",
+          "text": "Rawabi Nature Trails",
+          "detail": "Walking paths through the surrounding hillsides offering views of the West Bank landscape and opportunities for hiking among olive groves.",
+          "lat": 31.948,
+          "lng": 35.211
+        },
+        {
+          "id": "rama_5",
+          "text": "Children's Play Areas & Parks",
+          "detail": "Modern recreational facilities with playgrounds and sports courts designed for families, reflecting Rawabi's focus on contemporary living standards."
+        }
+      ],
+      "food": [
+        {
+          "id": "rama_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Palestinian dish of lamb cooked in a yogurt-based sauce served over rice, representing classic Levantine cuisine found in local restaurants."
+        },
+        {
+          "id": "rama_f2",
+          "text": "Falafel & Hummus",
+          "detail": "Freshly made chickpea fritters and creamy chickpea dip served with pita bread, available at numerous modern cafes throughout Rawabi."
+        },
+        {
+          "id": "rama_f3",
+          "text": "Musakhan",
+          "detail": "Palestinian roasted chicken with sumac, onions, and pine nuts served on flatbread, a signature dish of Palestinian hospitality."
+        },
+        {
+          "id": "rama_f4",
+          "text": "Coffee Culture (Arabic Coffee)",
+          "detail": "Strong, traditional cardamom-infused coffee served in small cups as a social ritual at cafes and gathering spaces throughout the city."
+        },
+        {
+          "id": "rama_f5",
+          "text": "Knafeh",
+          "detail": "A sweet Palestinian pastry dessert with cheese or nuts, crispy vermicelli, and honey syrup available at bakeries and dessert shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rama_c1",
+          "text": "Respect for Modern Palestinian Identity",
+          "detail": "Rawabi represents contemporary Palestinian urban aspirations, so visitors should appreciate it as a symbol of modernization and self-determination rather than romanticizing traditional villages."
+        },
+        {
+          "id": "rama_c2",
+          "text": "Greetings & Hospitality",
+          "detail": "Palestinians are naturally welcoming; greeting shopkeepers and locals with 'Marhaba' (hello) and accepting offered tea or coffee is customary and appreciated."
+        },
+        {
+          "id": "rama_c3",
+          "text": "Modest Dress Recommended",
+          "detail": "Though Rawabi is modern, wearing modest clothing—particularly women covering shoulders and knees—shows respect for local conservative values."
+        },
+        {
+          "id": "rama_c4",
+          "text": "Friday as Social Day",
+          "detail": "Fridays are when families gather for meals and socializing; expect busier public spaces and restaurants, and plan activities accordingly."
+        }
+      ]
+    },
+    {
+      "id": "qalqilya",
+      "name": "Qalqilya",
+      "nameIt": "قلقيلية",
+      "lat": 32.1871,
+      "lng": 35.1873,
+      "type": "CITY",
+      "description": "A Palestinian city near the Israeli border known historically for its agricultural production and now notable for being almost completely encircled by the separation barrier. It represents the complexity and challenges of Palestinian territory and daily life.",
+      "imageQueries": [
+        "Qalqilya separation barrier",
+        "Qalqilya Palestinian city"
+      ],
+      "activities": [
+        {
+          "id": "qalq_1",
+          "text": "Qalqilya Old City Markets",
+          "detail": "Wander through the traditional souks selling fresh produce, textiles, and handicrafts that reflect the city's agricultural heritage.",
+          "lat": 32.1878,
+          "lng": 35.1947
+        },
+        {
+          "id": "qalq_2",
+          "text": "Al-Naqus Church",
+          "detail": "Visit this historic Christian Orthodox church in the city center, one of the oldest religious sites in the region with notable Byzantine architecture.",
+          "lat": 32.1895,
+          "lng": 35.1952
+        },
+        {
+          "id": "qalq_3",
+          "text": "Qalqilya Municipal Museum",
+          "detail": "Explore exhibits documenting the city's history, traditional Palestinian life, and the impact of the separation barrier on local communities.",
+          "lat": 32.1885,
+          "lng": 35.194
+        },
+        {
+          "id": "qalq_4",
+          "text": "Agricultural cooperatives and orchards",
+          "detail": "Visit local farms during harvest seasons to see citrus groves, olive trees, and strawberry cultivation that form the backbone of Qalqilya's economy."
+        },
+        {
+          "id": "qalq_5",
+          "text": "Qalqilya Zoo",
+          "detail": "Explore this modest but meaningful zoo featuring local and regional wildlife, a popular spot for families in the community.",
+          "lat": 32.175,
+          "lng": 35.185
+        }
+      ],
+      "food": [
+        {
+          "id": "qalq_f1",
+          "text": "Musakhan",
+          "detail": "A traditional Palestinian dish of roasted chicken with sumac, onions, and pine nuts served on flatbread, a specialty in this region."
+        },
+        {
+          "id": "qalq_f2",
+          "text": "Freekeh",
+          "detail": "Roasted green wheat grains often cooked with chicken or vegetables, a hearty staple reflecting Palestinian agricultural traditions."
+        },
+        {
+          "id": "qalq_f3",
+          "text": "Fresh citrus and strawberries",
+          "detail": "Qalqilya's famous locally-grown oranges, lemons, and strawberries sold fresh at markets, best enjoyed in season from late winter through spring."
+        },
+        {
+          "id": "qalq_f4",
+          "text": "Knafeh",
+          "detail": "A warm Palestinian dessert of shredded phyllo, cheese or nuts, and sweet syrup, commonly found in local bakeries and cafés."
+        },
+        {
+          "id": "qalq_f5",
+          "text": "Hummus and Za'atar",
+          "detail": "Creamy chickpea dip paired with local za'atar (thyme and sesame blend) and olive oil, a breakfast staple served with fresh pita bread."
+        }
+      ],
+      "culture": [
+        {
+          "id": "qalq_c1",
+          "text": "Respect the separation barrier reality",
+          "detail": "Understand that the barrier is a sensitive topic affecting daily life; visitors should be respectful and aware of its significant impact on residents' freedom of movement."
+        },
+        {
+          "id": "qalq_c2",
+          "text": "Learn basic Arabic greetings",
+          "detail": "While some English may be spoken, learning phrases like 'As-salamu alaikum' (hello) and 'Shukran' (thank you) shows respect and is greatly appreciated by locals."
+        },
+        {
+          "id": "qalq_c3",
+          "text": "Visit during agricultural festivals",
+          "detail": "Time your visit during harvest seasons or local festivals to experience community celebrations and see the agricultural culture that defines Qalqilya's identity."
+        },
+        {
+          "id": "qalq_c4",
+          "text": "Support local businesses directly",
+          "detail": "Purchase goods from family-owned shops, cafés, and agricultural cooperatives rather than chains to directly benefit the community and understand local economic challenges."
+        }
+      ]
+    },
+    {
+      "id": "tulkarm",
+      "name": "Tulkarm",
+      "nameIt": "طولكرم",
+      "lat": 32.3103,
+      "lng": 35.036,
+      "type": "CITY",
+      "description": "A northern Palestinian city near the Green Line with a history as a major agricultural and commercial center. Known for its olive and citrus production, it offers insight into Palestinian rural economy and traditional village life.",
+      "imageQueries": [
+        "Tulkarm Palestinian city",
+        "Tulkarm olive groves agriculture"
+      ],
+      "activities": [
+        {
+          "id": "tulk_1",
+          "text": "Tulkarm Refugee Camp Tour",
+          "detail": "Visit one of the West Bank's oldest refugee camps to understand Palestinian displacement history and community life, often with local guides available.",
+          "lat": 32.2847,
+          "lng": 35.0247
+        },
+        {
+          "id": "tulk_2",
+          "text": "Olive Oil Mills",
+          "detail": "Tour traditional olive pressing facilities during harvest season (September-November) to see how Tulkarm's renowned olive oil is produced using centuries-old methods.",
+          "lat": 32.29,
+          "lng": 35.03
+        },
+        {
+          "id": "tulk_3",
+          "text": "Azoun Village Agricultural Fields",
+          "detail": "Walk through the surrounding villages' citrus and olive groves to experience the rural Palestinian landscape that defines the region's economy.",
+          "lat": 32.275,
+          "lng": 35.015
+        },
+        {
+          "id": "tulk_4",
+          "text": "Tulkarm Municipal Museum",
+          "detail": "Explore exhibits on local history, traditional crafts, and archaeological artifacts representing Tulkarm's cultural heritage.",
+          "lat": 32.288,
+          "lng": 35.028
+        },
+        {
+          "id": "tulk_5",
+          "text": "Green Line Border Walk",
+          "detail": "Walk near the Green Line separation barrier to understand the geopolitical reality and see Palestinian perspective on the border.",
+          "lat": 32.295,
+          "lng": 34.995
+        }
+      ],
+      "food": [
+        {
+          "id": "tulk_f1",
+          "text": "Musakhan",
+          "detail": "A traditional Palestinian dish of roasted chicken served on sumac-seasoned bread with caramelized onions, considered a specialty in northern Palestinian villages."
+        },
+        {
+          "id": "tulk_f2",
+          "text": "Freekeh",
+          "detail": "Roasted green wheat grain often served as a main dish with vegetables and meat, particularly popular in Tulkarm's rural tradition."
+        },
+        {
+          "id": "tulk_f3",
+          "text": "Za'atar Flatbread",
+          "detail": "Fresh Palestinian flatbread topped with wild thyme, sesame, and olive oil, commonly eaten for breakfast at local bakeries."
+        },
+        {
+          "id": "tulk_f4",
+          "text": "Molokheya",
+          "detail": "A leafy green stew made with chicken or lamb broth, traditional comfort food served with rice in Palestinian households."
+        },
+        {
+          "id": "tulk_f5",
+          "text": "Olive Oil and Fresh Vegetables",
+          "detail": "Sample locally-pressed olive oil with fresh tomatoes, cucumbers, and Palestinian cheeses at farm markets during harvest season."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tulk_c1",
+          "text": "Respect Agricultural Timing",
+          "detail": "Plan visits during harvest season (September-November for olives) when you can participate in community activities and see the economy in action."
+        },
+        {
+          "id": "tulk_c2",
+          "text": "Dress Conservatively",
+          "detail": "Wear modest clothing covering shoulders and knees, especially when visiting farms, camps, or meeting families in this traditionally conservative area."
+        },
+        {
+          "id": "tulk_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Using simple Arabic phrases like 'Salaam alaikum' and 'Shukran' will be warmly appreciated in a city where English is less commonly spoken."
+        },
+        {
+          "id": "tulk_c4",
+          "text": "Accept Hospitality Graciously",
+          "detail": "If invited for tea or food by locals, accepting is considered respectful and an important part of Palestinian cultural tradition."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Shteimatzky",
+      "address": "Main Street, Ramallah",
+      "neighbourhood": "Ramallah",
+      "cuisine": "Palestinian",
+      "priceRange": "€€",
+      "description": "Family-run Palestinian restaurant serving traditional home-cooked dishes in a warm, welcoming atmosphere.",
+      "mustOrder": "Maklouba with chicken",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Zalatimo",
+      "address": "Old City, Nablus",
+      "neighbourhood": "Nablus",
+      "cuisine": "Palestinian Sweets",
+      "priceRange": "€",
+      "description": "Historic family confectionery famous for kunafa and traditional Palestinian pastries made fresh daily.",
+      "mustOrder": "Kunafa with pistachios",
+      "lat": 32.2265,
+      "lng": 35.2344
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Qasr (Palace)",
+      "address": "Jabal Al-Weibdeh, Amman Road, Ramallah",
+      "neighbourhood": "Ramallah",
+      "cuisine": "Levantine",
+      "priceRange": "€€€",
+      "description": "Contemporary upscale Palestinian restaurant with refined traditional cuisine and modern presentation in a stylish setting.",
+      "mustOrder": "Grilled lamb with freekeh",
+      "lat": 31.9485,
+      "lng": 35.1987
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Ali Baba",
+      "address": "Shuhada Street, Hebron",
+      "neighbourhood": "Hebron",
+      "cuisine": "Palestinian",
+      "priceRange": "€",
+      "description": "Simple, authentic family restaurant serving hearty Palestinian comfort food and grilled meats at budget-friendly prices.",
+      "mustOrder": "Mensaf with lamb",
+      "lat": 31.5398,
+      "lng": 35.2044
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Graffiti Restaurant & Cocktail Bar",
+      "address": "Al-Irsal Street, Bethlehem",
+      "neighbourhood": "Bethlehem",
+      "cuisine": "International/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Trendy rooftop restaurant blending Palestinian flavors with international cuisine, known for creative cocktails and city views.",
+      "mustOrder": "Hummus with slow-cooked lamb",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Habibi's",
+      "address": "Ramallah Street, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "Palestinian/Levantine",
+      "priceRange": "€€",
+      "description": "Casual family restaurant in the oldest city offering traditional Palestinian dishes with fresh local ingredients.",
+      "mustOrder": "Falafel sandwich with tahini",
+      "lat": 31.8872,
+      "lng": 35.4444
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Sur Taboon",
+      "address": "Old City, Bethlehem",
+      "neighbourhood": "Bethlehem",
+      "cuisine": "Palestinian",
+      "priceRange": "€€",
+      "description": "Family operation specializing in traditional breads baked in a wood-fired taboon oven alongside rustic Palestinian mezze.",
+      "mustOrder": "Zaatar manakish from the taboon",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Penguin Pub",
+      "address": "Al-Irsal Street, Bethlehem",
+      "neighbourhood": "Bethlehem",
+      "cuisine": "Palestinian/Pub",
+      "priceRange": "€€",
+      "description": "Popular casual gathering spot with Palestinian and international pub fare, friendly atmosphere, and local beer selection.",
+      "mustOrder": "Palestinian kebab platter",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Doniana Hummus",
+      "address": "Market Area, Ramallah",
+      "neighbourhood": "Ramallah",
+      "cuisine": "Palestinian",
+      "priceRange": "€",
+      "description": "No-frills local favorite serving exceptional hummus and traditional Palestinian breakfast dishes to a steady stream of regulars.",
+      "mustOrder": "Hummus with pine nuts and meat",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Turbo Restaurant",
+      "address": "Main Street, Nablus",
+      "neighbourhood": "Nablus",
+      "cuisine": "Palestinian Grilled",
+      "priceRange": "€€",
+      "description": "Casual grill restaurant renowned for perfectly charred meats and traditional Palestinian sides in a bustling neighborhood setting.",
+      "mustOrder": "Whole grilled chicken with bread",
+      "lat": 32.2265,
+      "lng": 35.2344
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Lumumba Café",
+      "address": "Jabal Al-Weibdeh, Ramallah",
+      "neighbourhood": "Ramallah",
+      "cuisine": "Palestinian/Café",
+      "priceRange": "€",
+      "description": "Historic intellectual hub and café serving coffee, light Palestinian fare, and traditional sweets in a bohemian atmosphere.",
+      "mustOrder": "Palestinian coffee with knafeh",
+      "lat": 31.9485,
+      "lng": 35.1987
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Pronto Restaurant",
+      "address": "Ramallah Street, Bethlehem",
+      "neighbourhood": "Bethlehem",
+      "cuisine": "Italian/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale Italian-Mediterranean restaurant with Palestinian influences, fine dining presentation, and excellent wine selection.",
+      "mustOrder": "Handmade pasta with local herbs",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Abu Shanab",
+      "address": "Downtown, Ramallah",
+      "neighbourhood": "Ramallah",
+      "cuisine": "Palestinian Grill",
+      "priceRange": "€€",
+      "description": "Legendary open-flame grill restaurant serving perfectly cooked meats and traditional sides to crowds of loyal customers.",
+      "mustOrder": "Mixed grill platter for two",
+      "lat": 31.9454,
+      "lng": 35.2034
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Saladin Restaurant",
+      "address": "Old City, Hebron",
+      "neighbourhood": "Hebron",
+      "cuisine": "Palestinian/Traditional",
+      "priceRange": "€",
+      "description": "Historic family restaurant in the heart of the medina offering authentic Palestinian cuisine in traditional stone surroundings.",
+      "mustOrder": "Slow-cooked Palestinian stew",
+      "lat": 31.5398,
+      "lng": 35.2044
+    }
+  ]
+}

@@ -1,0 +1,1564 @@
+{
+  "id": "west_coast",
+  "name": "West Coast",
+  "nameIt": "West Coast",
+  "capital": "Greymouth",
+  "lat": -42.45,
+  "lng": 171.2,
+  "emoji": "🌲",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": -41.4,
+    "south": -43.5,
+    "east": 172.2,
+    "west": 170
+  },
+  "history": "The West Coast of New Zealand's South Island was shaped by Maori settlement and later became a major site of European exploration and gold rushes in the 19th century. The discovery of gold in the 1860s brought thousands of prospectors and miners to towns like Hokitika and Greymouth, transforming the rugged landscape into a bustling frontier region. The mining boom eventually declined, but the region's pioneering spirit and connection to the land remained embedded in its identity. Today, the West Coast is known for its dramatic natural beauty, including the Franz Josef and Fox Glaciers, which continue to attract visitors from around the world.",
+  "culturalNotes": "The West Coast maintains a strong independent character shaped by its isolation and frontier heritage, with locals known for their resilience and deep connection to the region's wild landscapes. The area has a distinctive culture of adventure and outdoor pursuits, from tramping and mountaineering to gold panning and conservation work. Maori heritage remains significant here, with many place names and cultural practices reflecting the original inhabitants' profound relationship with the land and sea.",
+  "bestTimeToVisit": "Visit from December to February for summer hiking and glacier exploration.",
+  "languageNotes": "While English is spoken throughout, West Coasters often use local vernacular and Maori words, particularly for geographical features and natural phenomena. Visitors will encounter place names like Hokitika and Punakaiki that are Maori in origin, and locals appreciate visitors' efforts to pronounce these names correctly.",
+  "generatedAt": "2026-07-11T18:04:04.800Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "franz_josef_glacier",
+      "name": "Franz Josef Glacier",
+      "nameIt": "Kā Roimata o Hine Hukatere",
+      "lat": -43.4769,
+      "lng": 170.183,
+      "type": "LANDMARK",
+      "description": "A massive and accessible glacier in the Southern Alps that descends into temperate rainforest, making it a unique geological wonder. It's one of New Zealand's most iconic natural attractions and offers hiking, helicopter tours, and glacier walks.",
+      "imageQueries": [
+        "Franz Josef Glacier mountain",
+        "glacier rainforest New Zealand"
+      ],
+      "activities": [
+        {
+          "id": "fran_1",
+          "text": "Valley Walk",
+          "detail": "A free 2-hour return walk through beech forest to a viewing platform overlooking the glacier's terminus and moraine lake.",
+          "lat": -43.4897,
+          "lng": 170.1836
+        },
+        {
+          "id": "fran_2",
+          "text": "Glacier Lake Walk",
+          "detail": "A scenic 1.5-hour loop hike that descends to the milky-blue glacial lake formed by meltwater at the glacier's base.",
+          "lat": -43.4897,
+          "lng": 170.1836
+        },
+        {
+          "id": "fran_3",
+          "text": "Helicopter Scenic Flight",
+          "detail": "A thrilling aerial tour that lands on the glacier's upper reaches, offering views of crevasses, seracs, and surrounding peaks.",
+          "lat": -43.4897,
+          "lng": 170.1836
+        },
+        {
+          "id": "fran_4",
+          "text": "Guided Glacier Walk",
+          "detail": "A professional-led trek across the glacier surface with crampons, exploring ice formations and learning about glacial processes.",
+          "lat": -43.4897,
+          "lng": 170.1836
+        },
+        {
+          "id": "fran_5",
+          "text": "Alex Knob Track",
+          "detail": "A steep 3-hour climb through rainforest to a ridge with panoramic views of the glacier, surrounding peaks, and West Coast landscape.",
+          "lat": -43.4861,
+          "lng": 170.1889
+        },
+        {
+          "id": "fran_6",
+          "text": "Lake Wombat Walk",
+          "detail": "A peaceful 1.5-hour forest walk leading to a secluded alpine lake surrounded by native beech and mountain scenery.",
+          "lat": -43.5022,
+          "lng": 170.1761
+        }
+      ],
+      "food": [
+        {
+          "id": "fran_f1",
+          "text": "West Coast Whitebait",
+          "detail": "Delicate freshwater fish caught seasonally (September to November) and served lightly pan-fried or in traditional West Coast whitebait fritters."
+        },
+        {
+          "id": "fran_f2",
+          "text": "Crayfish from the Tasman Sea",
+          "detail": "Fresh rock lobster sourced from local waters and typically served simply grilled or in seafood platters at West Coast restaurants."
+        },
+        {
+          "id": "fran_f3",
+          "text": "Venison and Game Meat",
+          "detail": "Wild-caught local venison, wild boar, and rabbit prepared in hearty stews and mains reflecting the region's hunting heritage."
+        },
+        {
+          "id": "fran_f4",
+          "text": "Greywacke Craft Beers",
+          "detail": "Local brewery beers brewed in nearby Fox Glacier using pure West Coast water, paired with pub meals and glacier lodge dinners."
+        },
+        {
+          "id": "fran_f5",
+          "text": "Feijoa and Berry Desserts",
+          "detail": "Native and cultivated fruits from the West Coast served in pavlovas, tarts, and local café desserts showcasing seasonal produce."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fran_c1",
+          "text": "Māori Cultural Significance",
+          "detail": "The glacier is known as Kā Roimata o Hine Hukatere (the tears of Hine Hukatere) in Māori tradition; respect local place names and learn the story from visitor centers and guides."
+        },
+        {
+          "id": "fran_c2",
+          "text": "Rapid Glacier Change",
+          "detail": "The glacier has retreated significantly in recent decades; listen to ranger talks about climate change impacts and treat the landscape with awareness of its fragility."
+        },
+        {
+          "id": "fran_c3",
+          "text": "Westland Tai Poutini National Park Etiquette",
+          "detail": "Stay on marked tracks, pack out all rubbish, and respect weather warnings as conditions in the Southern Alps change rapidly and dangerously."
+        },
+        {
+          "id": "fran_c4",
+          "text": "Local Community Support",
+          "detail": "The small town of Franz Josef relies heavily on tourism; supporting local operators, cafés, and accommodation businesses directly benefits the community."
+        }
+      ]
+    },
+    {
+      "id": "westland_national_park",
+      "name": "Westland National Park",
+      "nameIt": "Pukaki",
+      "lat": -43.2,
+      "lng": 170.25,
+      "type": "NATURE",
+      "description": "A pristine wilderness park featuring rainforests, alpine mountains, and glaciers including both Franz Josef and Fox Glaciers. The park offers world-class hiking, scenic drives, and untouched natural beauty.",
+      "imageQueries": [
+        "Westland National Park rainforest",
+        "New Zealand alpine wilderness"
+      ],
+      "activities": [
+        {
+          "id": "west_1",
+          "text": "Franz Josef Glacier Walk",
+          "detail": "Hike across the valley floor to view the terminal face of Franz Josef Glacier, one of the fastest-moving glaciers in the world.",
+          "lat": -43.4833,
+          "lng": 170.1833
+        },
+        {
+          "id": "west_2",
+          "text": "Fox Glacier Trek",
+          "detail": "A moderate walk leading to the stunning blue ice and crevassed surface of Fox Glacier with alpine scenery throughout.",
+          "lat": -43.5167,
+          "lng": 170.0333
+        },
+        {
+          "id": "west_3",
+          "text": "Lake Matheson Walk",
+          "detail": "A scenic 1.5-hour loop walk around a reflective lake offering mirror-like views of the Southern Alps and podocarp forest.",
+          "lat": -43.3833,
+          "lng": 170.0167
+        },
+        {
+          "id": "west_4",
+          "text": "Glacier helicopter or scenic flight",
+          "detail": "Experience aerial views of both glaciers, surrounding peaks, and untouched wilderness from above with multiple operators based in the park.",
+          "lat": -43.5,
+          "lng": 170.1
+        },
+        {
+          "id": "west_5",
+          "text": "Coastal walks near Gillespies Beach",
+          "detail": "Explore pristine West Coast beaches with seal colonies, limestone formations, and access to the Tasman Sea.",
+          "lat": -43.2,
+          "lng": 169.8333
+        },
+        {
+          "id": "west_6",
+          "text": "Rainer Falls walk",
+          "detail": "A short rainforest walk to a beautiful waterfall cascading through native bush near Fox Glacier township."
+        },
+        {
+          "id": "west_7",
+          "text": "West Coast Wildlife Centre",
+          "detail": "Visit kiwi bird sanctuaries and native wildlife rehabilitation facilities in nearby Franz Josef village."
+        }
+      ],
+      "food": [
+        {
+          "id": "west_f1",
+          "text": "West Coast whitebait",
+          "detail": "A local seasonal delicacy (August to November) featuring tiny transparent fish prepared simply fried or in fritters."
+        },
+        {
+          "id": "west_f2",
+          "text": "Venison and wild game",
+          "detail": "Local restaurants serve farm-raised and wild venison sourced from the South Island, often prepared with native herbs."
+        },
+        {
+          "id": "west_f3",
+          "text": "Fresh Greenshell mussels",
+          "detail": "Sourced from New Zealand waters, these mussels appear on menus steamed, smoked, or in pasta dishes."
+        },
+        {
+          "id": "west_f4",
+          "text": "Possum meat pie",
+          "detail": "A unique local specialty using introduced possum as filling, served warm at local cafes and bakeries."
+        },
+        {
+          "id": "west_f5",
+          "text": "West Coast craft beer",
+          "detail": "Local breweries produce distinctive beers reflecting the region's character, widely available at pubs and accommodations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "west_c1",
+          "text": "Respect the Māori heritage",
+          "detail": "The park sits on Ngāi Tahu lands; visit cultural sites respectfully and support iwi-owned tourism operators where possible."
+        },
+        {
+          "id": "west_c2",
+          "text": "Weather changes rapidly",
+          "detail": "The West Coast receives substantial rainfall and conditions shift suddenly; always check forecasts and carry waterproof gear even on clear days."
+        },
+        {
+          "id": "west_c3",
+          "text": "Plan ahead for accommodation",
+          "detail": "Both Franz Josef and Fox Glacier villages fill quickly during peak season; book lodging and major activities well in advance."
+        },
+        {
+          "id": "west_c4",
+          "text": "Leave No Trace principles",
+          "detail": "Stay on marked tracks, pack out all waste, and respect the pristine wilderness; the park's isolation makes human impact particularly visible."
+        }
+      ]
+    },
+    {
+      "id": "fox_glacier",
+      "name": "Fox Glacier",
+      "nameIt": "Te Moeka o Tuawe",
+      "lat": -43.5964,
+      "lng": 170.383,
+      "type": "LANDMARK",
+      "description": "A stunning glacier similar to Franz Josef but less crowded, offering spectacular views and multiple access options for all fitness levels. Its proximity to lush rainforest and coastal landscapes makes it exceptionally photogenic.",
+      "imageQueries": [
+        "Fox Glacier New Zealand",
+        "glacier hiking West Coast"
+      ],
+      "activities": [
+        {
+          "id": "fox__1",
+          "text": "Fox Glacier Walk",
+          "detail": "A scenic 1.5-hour loop walk through rainforest to viewpoints of the glacier terminus, suitable for most fitness levels.",
+          "lat": -43.4864,
+          "lng": 170.1819
+        },
+        {
+          "id": "fox__2",
+          "text": "Helicopter or Plane Scenic Flight",
+          "detail": "Aerial tours departing from Fox Glacier airfield offering bird's-eye views of the glacier, peaks, and surrounding wilderness.",
+          "lat": -43.492,
+          "lng": 170.1756
+        },
+        {
+          "id": "fox__3",
+          "text": "Guided Glacier Trek",
+          "detail": "Professional guided walks onto the glacier ice itself, with crampons provided, offering close-up views of crevasses and ice formations.",
+          "lat": -43.4864,
+          "lng": 170.1819
+        },
+        {
+          "id": "fox__4",
+          "text": "Lake Matheson Walk",
+          "detail": "A peaceful 1.8-km loop walk around a reflective lake featuring native beech forest and mirror-like reflections of surrounding peaks.",
+          "lat": -43.4597,
+          "lng": 170.0181
+        },
+        {
+          "id": "fox__5",
+          "text": "Rainforest Canopy Walk",
+          "detail": "Suspended walkways through native podocarp rainforest canopy providing immersive views of moss-covered trees and native birdlife.",
+          "lat": -43.5015,
+          "lng": 170.1894
+        },
+        {
+          "id": "fox__6",
+          "text": "West Coast Wildlife Centre",
+          "detail": "A conservation facility featuring native New Zealand birds, reptiles, and the endangered kiwi in naturalistic enclosures.",
+          "lat": -43.5308,
+          "lng": 170.1825
+        },
+        {
+          "id": "fox__7",
+          "text": "Westland Tai Poutini National Park Exploration",
+          "detail": "Access to diverse trails ranging from easy rainforest walks to challenging alpine routes through the park's pristine landscape.",
+          "lat": -43.52,
+          "lng": 170.15
+        }
+      ],
+      "food": [
+        {
+          "id": "fox__f1",
+          "text": "West Coast Whitebait Fritter",
+          "detail": "Fresh whitebait (tiny native fish) lightly battered and pan-fried, a seasonal delicacy unique to New Zealand's West Coast region."
+        },
+        {
+          "id": "fox__f2",
+          "text": "Greenshell Mussels",
+          "detail": "Local mussels from nearby coastal waters, typically served steamed with garlic, white wine, or cream in cafe and restaurant settings."
+        },
+        {
+          "id": "fox__f3",
+          "text": "Locally Roasted Flat White",
+          "detail": "Specialty coffee served throughout Fox Glacier village, often featuring beans roasted at nearby West Coast roasteries with views of the glacier."
+        },
+        {
+          "id": "fox__f4",
+          "text": "Venison and Wild Boar",
+          "detail": "Game meats sourced from local hunting, featured in pies, stews, and restaurant dishes reflecting the region's hunting heritage."
+        },
+        {
+          "id": "fox__f5",
+          "text": "Fresh Crayfish (Koura)",
+          "detail": "Native freshwater crayfish from local streams, occasionally available at restaurants as a premium local protein."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fox__c1",
+          "text": "Respect Maori Heritage",
+          "detail": "The glacier's Maori name Te Moeka o Tuawe (the sleeping place of Tuawe) reflects ancestral significance; acknowledge this when visiting and support local Maori-owned tourism operations."
+        },
+        {
+          "id": "fox__c2",
+          "text": "Weather Changes Rapidly",
+          "detail": "West Coast weather is notoriously changeable and often cloudy; plan flexible activities and always carry waterproof gear regardless of forecast."
+        },
+        {
+          "id": "fox__c3",
+          "text": "Book Activities in Advance",
+          "detail": "Helicopter flights, guided glacier treks, and adventure tours frequently sell out in peak season, so reservations should be made days ahead."
+        },
+        {
+          "id": "fox__c4",
+          "text": "Embrace Slow Travel",
+          "detail": "The Fox Glacier region rewards unhurried exploration; locals value visitors who take time for contemplative walks and rainforest immersion rather than rushing to multiple locations."
+        }
+      ]
+    },
+    {
+      "id": "fox_glacier_town",
+      "name": "Fox Glacier Village",
+      "nameIt": "Fox Glacier",
+      "lat": -43.6,
+      "lng": 170.38,
+      "type": "VILLAGE",
+      "description": "A small mountain village serving as the gateway to Fox Glacier with excellent accommodation, restaurants, and tour operators. It's an ideal base for exploring the glacier and surrounding parks.",
+      "imageQueries": [
+        "Fox Glacier village accommodation",
+        "West Coast village New Zealand"
+      ],
+      "activities": [
+        {
+          "id": "fox__1",
+          "text": "Fox Glacier Guided Walk",
+          "detail": "A guided trek across the glacier's terminal face with experienced guides explaining glacial formation and features, suitable for most fitness levels.",
+          "lat": -43.4873,
+          "lng": 170.018
+        },
+        {
+          "id": "fox__2",
+          "text": "Helicopter or Fixed-Wing Scenic Flight",
+          "detail": "Aerial tours departing from Fox Glacier airfield offering stunning views of the glacier, surrounding peaks, and the West Coast landscape.",
+          "lat": -43.485,
+          "lng": 170.015
+        },
+        {
+          "id": "fox__3",
+          "text": "Lake Matheson Walk",
+          "detail": "A scenic 1.6 km loop walk through native bush with reflections of Mt Cook and Mt Tasman in the lake, located near Fox Glacier village.",
+          "lat": -43.4722,
+          "lng": 170.0089
+        },
+        {
+          "id": "fox__4",
+          "text": "Westland Tai Poutini National Park Exploration",
+          "detail": "Explore the diverse ecosystems including rainforest, rivers, and peaks within this national park that encompasses Fox Glacier.",
+          "lat": -43.52,
+          "lng": 170.04
+        },
+        {
+          "id": "fox__5",
+          "text": "Gillespies Beach Walk",
+          "detail": "A coastal walk featuring seal colonies, historic gold mining sites, and rugged Tasman Sea views, approximately 25 minutes from the village.",
+          "lat": -43.5556,
+          "lng": 169.8389
+        },
+        {
+          "id": "fox__6",
+          "text": "River Valley Walk",
+          "detail": "An easy riverside walk through native forest along the Cook River with opportunities to spot native birds and experience the local ecosystem.",
+          "lat": -43.49,
+          "lng": 170.025
+        }
+      ],
+      "food": [
+        {
+          "id": "fox__f1",
+          "text": "Fresh South Island Venison",
+          "detail": "Local restaurants serve high-quality venison sourced from the surrounding West Coast region, often prepared as steaks or in slow-cooked dishes."
+        },
+        {
+          "id": "fox__f2",
+          "text": "Greenshell Mussels",
+          "detail": "These premium New Zealand mussels are widely available in village restaurants, typically steamed with garlic, wine, and fresh herbs."
+        },
+        {
+          "id": "fox__f3",
+          "text": "West Coast Whitebait Fritters",
+          "detail": "A regional specialty featuring tiny translucent fish bound in a light batter and served as a delicate appetizer or light meal during season."
+        },
+        {
+          "id": "fox__f4",
+          "text": "Local Craft Beer",
+          "detail": "Fox Glacier and surrounding West Coast towns offer locally-brewed craft beers reflecting the region's natural ingredients and brewing culture."
+        },
+        {
+          "id": "fox__f5",
+          "text": "Hokey Pokey Ice Cream",
+          "detail": "This iconic New Zealand ice cream flavor combining vanilla with honeycomb and toffee bits is widely available at local cafes and shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fox__c1",
+          "text": "Book Activities Well in Advance",
+          "detail": "Helicopter flights and glacier walks often fill quickly, especially during peak season, so book your preferred time slots when planning your arrival."
+        },
+        {
+          "id": "fox__c2",
+          "text": "Weather-Dependent Activities",
+          "detail": "The West Coast is known for rapid weather changes, and helicopter flights and glacier access may be cancelled due to cloud or rain, so build flexibility into your schedule."
+        },
+        {
+          "id": "fox__c3",
+          "text": "Respect for Native Flora and Fauna",
+          "detail": "The rainforest and wildlife are protected; stay on marked tracks, keep distances from seals at Gillespies Beach, and take all rubbish with you."
+        },
+        {
+          "id": "fox__c4",
+          "text": "Maori Cultural Presence",
+          "detail": "The West Coast holds significance for local Maori iwi; many attractions include interpretive information about Maori history and connection to the land."
+        }
+      ]
+    },
+    {
+      "id": "franz_josef_town",
+      "name": "Franz Josef Village",
+      "nameIt": "Franz Josef",
+      "lat": -43.477,
+      "lng": 170.182,
+      "type": "VILLAGE",
+      "description": "A charming mountain village and major hub for West Coast tourism with excellent restaurants, lodges, and adventure operators. It provides essential services and is the primary jumping-off point for glacier activities.",
+      "imageQueries": [
+        "Franz Josef village New Zealand",
+        "mountain village West Coast"
+      ],
+      "activities": [
+        {
+          "id": "fran_1",
+          "text": "Franz Josef Glacier Trek",
+          "detail": "Guided walk on the glacier itself with crampons, offering close-up views of ice formations and crevasses with professional mountaineer guides.",
+          "lat": -43.4667,
+          "lng": 170.1833
+        },
+        {
+          "id": "fran_2",
+          "text": "Helicopter Tour",
+          "detail": "Scenic flight over the Southern Alps and glaciers with optional landing on remote peaks for breathtaking aerial perspectives.",
+          "lat": -43.4667,
+          "lng": 170.1833
+        },
+        {
+          "id": "fran_3",
+          "text": "Lake Matheson Walk",
+          "detail": "Easy 1.5-hour loop track through native beech forest with mirror-like reflections of Mount Cook and Mount Tasman on calm days.",
+          "lat": -43.3833,
+          "lng": 170.0167
+        },
+        {
+          "id": "fran_4",
+          "text": "Chasing Waterfalls Walk",
+          "detail": "Moderate 2-3 hour hike through lush rainforest to multiple cascading waterfalls with native bird spotting opportunities.",
+          "lat": -43.4667,
+          "lng": 170.1833
+        },
+        {
+          "id": "fran_5",
+          "text": "Glacier Valley Walk",
+          "detail": "Accessible half-day walk through alpine meadows and moraine terrain offering distant glacier views without technical climbing.",
+          "lat": -43.4667,
+          "lng": 170.1833
+        },
+        {
+          "id": "fran_6",
+          "text": "Caving and Rafting",
+          "detail": "Adventure combination exploring underground glowworm caves followed by an exciting grade-two river raft through native forest.",
+          "lat": -43.4667,
+          "lng": 170.1833
+        }
+      ],
+      "food": [
+        {
+          "id": "fran_f1",
+          "text": "West Coast Whitebait Fritter",
+          "detail": "Fresh whitebait (tiny silvery fish) mixed with eggs and flour, pan-fried until golden, served with lemon and a hallmark seasonal delicacy."
+        },
+        {
+          "id": "fran_f2",
+          "text": "Venison and Wild Mushroom Pie",
+          "detail": "Rich slow-cooked local venison with foraged West Coast mushrooms in creamy sauce, encased in buttery pastry."
+        },
+        {
+          "id": "fran_f3",
+          "text": "Greenshell Mussel Chowder",
+          "detail": "Creamy soup featuring local greenshell mussels harvested from pristine coastal waters, often with bacon and potatoes."
+        },
+        {
+          "id": "fran_f4",
+          "text": "Grilled Salmon with Beech Honey",
+          "detail": "Fresh South Island salmon glazed with local beech honey and native herbs, reflecting the region's pristine waterways."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fran_c1",
+          "text": "Book Activities Well in Advance",
+          "detail": "Weather on the West Coast is highly changeable; book glacier and helicopter tours several days ahead as same-day cancellations are common due to cloud and rain."
+        },
+        {
+          "id": "fran_c2",
+          "text": "Respect the Rainforest",
+          "detail": "The area receives over 5 metres of annual rainfall and is a sensitive temperate rainforest ecosystem; stay on marked tracks and take all rubbish with you."
+        },
+        {
+          "id": "fran_c3",
+          "text": "Allow Weather Flexibility",
+          "detail": "The West Coast is notoriously unpredictable with frequent closures and rescheduling; build buffer days into your itinerary rather than rigid schedules."
+        },
+        {
+          "id": "fran_c4",
+          "text": "Support Local Operators",
+          "detail": "Prioritize family-owned adventure companies and restaurants over chain operators to directly benefit the tight-knit village community dependent on tourism."
+        }
+      ]
+    },
+    {
+      "id": "lake_matheson",
+      "name": "Lake Matheson",
+      "nameIt": "Lake Matheson",
+      "lat": -43.69,
+      "lng": 170.37,
+      "type": "NATURE",
+      "description": "A scenic reflective lake surrounded by beech forest offering a serene walking loop with stunning views of distant mountains on clear days. It's a perfect peaceful contrast to the more active glacier experiences.",
+      "imageQueries": [
+        "Lake Matheson reflection",
+        "New Zealand beech forest lake"
+      ],
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Reflective Lake Walk",
+          "detail": "Complete the popular 1.6 km loop track around the lake's perimeter, which takes approximately 1.5 hours and offers the best views of Mt. Cook and Mt. Tasman on clear days."
+        },
+        {
+          "id": "lake_2",
+          "text": "Forest Bathing",
+          "detail": "Walk slowly through the native beech forest surrounding the lake to experience the tranquility and observe native bird species like fantails and tuis in their natural habitat."
+        },
+        {
+          "id": "lake_3",
+          "text": "Photography at Dawn",
+          "detail": "Arrive early morning when the lake surface is perfectly still and mist hangs over the water, creating ideal conditions for capturing mirror-image reflections of the surrounding peaks."
+        },
+        {
+          "id": "lake_4",
+          "text": "Picnic by the Water",
+          "detail": "Pack a local picnic and relax on the grassy areas near the lake's edge, enjoying views across the water while listening to native forest sounds."
+        },
+        {
+          "id": "lake_5",
+          "text": "Birdwatching",
+          "detail": "Spend time observing the diverse native bird species including kea, fantails, and various forest birds that inhabit the beech forest ecosystem around the lake."
+        },
+        {
+          "id": "lake_6",
+          "text": "Sunset Viewing",
+          "detail": "Visit in late afternoon to watch the changing light across the mountains and lake surface as the sun descends, creating warm golden reflections on the water."
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "West Coast Whitebait",
+          "detail": "Sample fresh whitebait, a regional delicacy, typically served simply fried with lemon at local cafes and restaurants in nearby Fox Glacier village."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Local Venison",
+          "detail": "Try venison dishes at West Coast establishments, sourced from the region's deer farming and hunting traditions, often prepared as steaks or in hearty pies."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Freshly Baked Scones with Local Honey",
+          "detail": "Enjoy warm scones with West Coast honey and cream at the Lake Matheson Café, a perfect complement to your lakeside walk."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Green-Lipped Mussels",
+          "detail": "Order these New Zealand farmed mussels at local restaurants, sourced from the South Island's pristine waters and prepared with garlic and white wine."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Freshly Caught Fish",
+          "detail": "Dine on locally caught salmon or trout prepared simply to highlight the quality of West Coast fishing, available at nearby accommodation venues and restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "Respect Quiet Contemplation",
+          "detail": "The lake is valued as a place of peaceful reflection by locals and visitors alike, so maintain a quiet demeanor and avoid loud activities to preserve the serene atmosphere."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Check Weather Conditions",
+          "detail": "Mountain views are only visible on clear days, so check the forecast before visiting and consider returning if clouds obscure the peaks, as locals do when planning their visits."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Leave No Trace",
+          "detail": "The native forest and lakeside environment is carefully protected, so take all rubbish with you and stay on marked tracks to preserve this natural taonga (treasure)."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Dress for Changeable Weather",
+          "detail": "The West Coast experiences rapid weather changes, so bring waterproof layers and appropriate footwear even if the day starts clear, as locals always prepare for sudden conditions."
+        }
+      ]
+    },
+    {
+      "id": "punakaiki_blowholes",
+      "name": "Punakaiki Blowholes",
+      "nameIt": "Punakaiki",
+      "lat": -42.7156,
+      "lng": 171.3403,
+      "type": "COASTAL",
+      "description": "A series of naturally-formed blowholes in limestone rocks where waves force water through underground caverns with dramatic sprays. Combined with the adjacent Pancake Rocks, it creates one of the West Coast's most spectacular natural attractions.",
+      "imageQueries": [
+        "Punakaiki Blowholes waves",
+        "Pancake Rocks New Zealand"
+      ],
+      "activities": [
+        {
+          "id": "puna_1",
+          "text": "Blowholes Viewing Walk",
+          "detail": "Follow the short loop track to observe water geysers shooting through limestone fissures during high tide and rough seas.",
+          "lat": -42.1156,
+          "lng": 171.3831
+        },
+        {
+          "id": "puna_2",
+          "text": "Pancake Rocks Exploration",
+          "detail": "Walk among the stacked, layered limestone formations that resemble stacked pancakes, located adjacent to the blowholes.",
+          "lat": -42.1163,
+          "lng": 171.3824
+        },
+        {
+          "id": "puna_3",
+          "text": "Tidal Photography",
+          "detail": "Capture dramatic spray and wave action during high tide for the most spectacular blowholes photography opportunities.",
+          "lat": -42.1156,
+          "lng": 171.3831
+        },
+        {
+          "id": "puna_4",
+          "text": "Coastal Cliff Walk",
+          "detail": "Hike the scenic walkway along limestone cliffs with views of the Tasman Sea and native bush vegetation.",
+          "lat": -42.115,
+          "lng": 171.382
+        },
+        {
+          "id": "puna_5",
+          "text": "Visitor Centre Interpretation",
+          "detail": "Learn about the geological formation of blowholes and local Māori history at the on-site visitor facility.",
+          "lat": -42.117,
+          "lng": 171.384
+        },
+        {
+          "id": "puna_6",
+          "text": "Seal Colony Spotting",
+          "detail": "Look for New Zealand fur seals basking on rocks along the coastline near the blowholes during calmer conditions."
+        }
+      ],
+      "food": [
+        {
+          "id": "puna_f1",
+          "text": "West Coast Whitebait Fritters",
+          "detail": "Seasonal delicacy featuring tiny native fish caught locally, typically served with lemon at nearby cafés and restaurants."
+        },
+        {
+          "id": "puna_f2",
+          "text": "Greenshell Mussels",
+          "detail": "Fresh locally-harvested mussels from West Coast waters, often steamed or grilled at accommodation venues and eateries."
+        },
+        {
+          "id": "puna_f3",
+          "text": "Venison and Game Meat Dishes",
+          "detail": "Farmland near Punakaiki supplies wild venison and elk prepared at local restaurants with native herbs and vegetables."
+        },
+        {
+          "id": "puna_f4",
+          "text": "Westland Cheese",
+          "detail": "Sample local artisanal cheeses made in nearby towns, featuring dairy products unique to the West Coast region."
+        },
+        {
+          "id": "puna_f5",
+          "text": "Fresh Fish and Chips",
+          "detail": "Local catches prepared at small takeaway shops, best enjoyed while watching the blowholes and ocean views."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puna_c1",
+          "text": "Respect Tidal Timing",
+          "detail": "Plan your visit around high tide and rough sea conditions for the most dramatic blowhole activity; calm seas mean minimal water spray."
+        },
+        {
+          "id": "puna_c2",
+          "text": "Acknowledge Māori Significance",
+          "detail": "The area holds cultural importance to Poutini Ngāi Tahu; read interpretation panels and listen to local guides about indigenous connections to the landscape."
+        },
+        {
+          "id": "puna_c3",
+          "text": "Safety on Unstable Ground",
+          "detail": "Stay on marked tracks as limestone is sharp, crumbly, and unstable; never venture beyond barriers or attempt to climb on rocks."
+        },
+        {
+          "id": "puna_c4",
+          "text": "Weather Preparedness",
+          "detail": "West Coast weather changes rapidly; bring waterproof clothing, wind protection, and check forecasts as spray and gusts can be intense."
+        }
+      ]
+    },
+    {
+      "id": "pancake_rocks",
+      "name": "Pancake Rocks",
+      "nameIt": "Punakaiki",
+      "lat": -42.717,
+      "lng": 171.34,
+      "type": "LANDMARK",
+      "description": "Distinctive stacked limestone formations strikingly resembling pancakes, created by layered sedimentary rocks on a dramatic coastal headland. The scenic walk offers stunning ocean views and geological interest.",
+      "imageQueries": [
+        "Pancake Rocks limestone",
+        "Punakaiki coastal formations"
+      ],
+      "activities": [
+        {
+          "id": "panc_1",
+          "text": "Pancake Rocks Walking Track",
+          "detail": "A well-maintained 5-minute loop walk that winds through the distinctive stacked limestone formations with interpretive signs explaining the geological layers.",
+          "lat": -42.7147,
+          "lng": 171.2089
+        },
+        {
+          "id": "panc_2",
+          "text": "Blowholes Observation",
+          "detail": "Watch seawater surge dramatically through natural rock cavities during high tides and rough seas, creating spectacular fountains up to 20 metres high.",
+          "lat": -42.7147,
+          "lng": 171.2089
+        },
+        {
+          "id": "panc_3",
+          "text": "Punakaiki Caves Scenic Reserve",
+          "detail": "Explore the adjacent reserve featuring native forest walks and cave formations formed in the limestone, offering geological context to the coastal formations.",
+          "lat": -42.7181,
+          "lng": 171.2072
+        },
+        {
+          "id": "panc_4",
+          "text": "Tidal Flat Photography",
+          "detail": "Capture the layered pancake formations from multiple angles as tidal conditions change throughout the day, with golden hour light across the cliff faces.",
+          "lat": -42.7147,
+          "lng": 171.2089
+        },
+        {
+          "id": "panc_5",
+          "text": "Sunset Viewing at the Headland",
+          "detail": "Position yourself at the cliff edge for panoramic ocean views as the sun sets over the Tasman Sea, with the limestone formations glowing in warm light.",
+          "lat": -42.7147,
+          "lng": 171.2089
+        },
+        {
+          "id": "panc_6",
+          "text": "Coastal Birdwatching",
+          "detail": "Spot native seabirds such as white-faced herons, paradise shelducks, and occasionally penguins in the rocky inlets below the formations."
+        }
+      ],
+      "food": [
+        {
+          "id": "panc_f1",
+          "text": "Greenshell Mussels from Punakaiki Region",
+          "detail": "Fresh local mussels harvested from West Coast waters, typically steamed or served in white wine sauce at nearby Punakaiki establishments."
+        },
+        {
+          "id": "panc_f2",
+          "text": "Whitebait Fritter",
+          "detail": "A West Coast specialty made from tiny native fish caught during whitebait season, mixed with egg and cooked until golden, served with lemon."
+        },
+        {
+          "id": "panc_f3",
+          "text": "Westland Cheese",
+          "detail": "Sample locally-produced artisan cheese from nearby Hokitika, reflecting the West Coast's strong dairy heritage and available at local cafes."
+        },
+        {
+          "id": "panc_f4",
+          "text": "Punakaiki Cafe Flat White",
+          "detail": "Experience a properly-made New Zealand flat white coffee at one of the small cafes near the visitor centre, made with locally-roasted beans."
+        },
+        {
+          "id": "panc_f5",
+          "text": "West Coast Venison",
+          "detail": "Game meat sourced from the rugged West Coast region, often featured in local restaurant menus as slow-cooked stews or steaks."
+        }
+      ],
+      "culture": [
+        {
+          "id": "panc_c1",
+          "text": "Check Tide Times Before Visiting",
+          "detail": "The blowholes are most dramatic 2-3 hours either side of high tide, so plan your visit accordingly by checking local tide tables or asking at the visitor centre."
+        },
+        {
+          "id": "panc_c2",
+          "text": "Respect Maori Heritage",
+          "detail": "The area holds significance to Ngai Tahu iwi; acknowledge this heritage and follow any guidance regarding culturally sensitive areas or protocols."
+        },
+        {
+          "id": "panc_c3",
+          "text": "Weather Changes Rapidly",
+          "detail": "West Coast weather is notoriously unpredictable, so bring layered clothing and be prepared for sudden rain or strong winds even on seemingly clear days."
+        },
+        {
+          "id": "panc_c4",
+          "text": "Support Local Businesses",
+          "detail": "The small community relies on visitor spending; eat at local cafes and purchase from regional producers rather than chain retailers when possible."
+        }
+      ]
+    },
+    {
+      "id": "westport",
+      "name": "Westport",
+      "nameIt": "Westport",
+      "lat": -42.7511,
+      "lng": 171.6039,
+      "type": "TOWN",
+      "description": "The largest town on the West Coast with a rich coal mining heritage, excellent local museums, and gateway access to Cape Foulwind and scenic beaches. It offers authentic small-town character and important services.",
+      "imageQueries": [
+        "Westport New Zealand town",
+        "West Coast heritage museum"
+      ],
+      "activities": [
+        {
+          "id": "west_1",
+          "text": "Coaltown Museum",
+          "detail": "Explore Westport's coal mining heritage through exhibits of mining equipment, photographs, and local history artefacts in this volunteer-run community museum.",
+          "lat": -42.7501,
+          "lng": 171.6039
+        },
+        {
+          "id": "west_2",
+          "text": "Cape Foulwind Walkway",
+          "detail": "Hike the scenic 12-kilometre loop around Cape Foulwind's headland to spot fur seals, enjoy coastal views, and visit the Cape Foulwind Seal Colony.",
+          "lat": -42.7167,
+          "lng": 171.5333
+        },
+        {
+          "id": "west_3",
+          "text": "Denniston Plateau",
+          "detail": "Drive to this historic coal mining plateau above Westport to walk among abandoned mining relics, old settlements, and enjoy panoramic West Coast views.",
+          "lat": -42.6833,
+          "lng": 171.5667
+        },
+        {
+          "id": "west_4",
+          "text": "Buller River Jet Boating",
+          "detail": "Experience adrenaline-pumping jet boat rides through the dramatic Buller River Gorge with local operators offering thrilling canyon runs.",
+          "lat": -42.7501,
+          "lng": 171.6039
+        },
+        {
+          "id": "west_5",
+          "text": "Westport Beach",
+          "detail": "Walk the long sandy beach at the town's eastern edge, popular for swimming, picnicking, and spotting coastal birdlife.",
+          "lat": -42.7551,
+          "lng": 171.6117
+        },
+        {
+          "id": "west_6",
+          "text": "Arts Centre and Gallery",
+          "detail": "Browse local artwork, crafts, and rotating exhibitions showcasing West Coast artists in this community creative space.",
+          "lat": -42.7501,
+          "lng": 171.6039
+        }
+      ],
+      "food": [
+        {
+          "id": "west_f1",
+          "text": "Fresh Whitebait",
+          "detail": "Seek out whitebait (small freshwater fish) in season from local fishmongers or restaurants, typically prepared simply pan-fried or in traditional fritters."
+        },
+        {
+          "id": "west_f2",
+          "text": "West Coast Crayfish",
+          "detail": "Order crayfish caught from the rugged coastline at local restaurants, usually served steamed or grilled to showcase the sweet local catch."
+        },
+        {
+          "id": "west_f3",
+          "text": "Aromoana Cheese",
+          "detail": "Sample cheeses from nearby Aromoana dairy, available at local shops and notable for being made from West Coast milk."
+        },
+        {
+          "id": "west_f4",
+          "text": "Fish and Chips from Local Takeaways",
+          "detail": "Enjoy freshly battered local fish from Westport's fish and chip shops, a staple of West Coast food culture using daily catches."
+        },
+        {
+          "id": "west_f5",
+          "text": "West Coast Venison",
+          "detail": "Look for venison dishes at local restaurants, sourced from the region's hunting heritage and deer farms."
+        }
+      ],
+      "culture": [
+        {
+          "id": "west_c1",
+          "text": "Respect Coal Mining Heritage",
+          "detail": "Acknowledge Westport's identity as a working coal mining town; many locals have family ties to the industry, and the Coaltown Museum offers important context for understanding the community."
+        },
+        {
+          "id": "west_c2",
+          "text": "Small-Town Pace",
+          "detail": "Expect limited evening entertainment and shops closing early; plan activities and meals accordingly, as Westport operates on a relaxed provincial schedule."
+        },
+        {
+          "id": "west_c3",
+          "text": "Weather Preparedness",
+          "detail": "The West Coast experiences heavy rainfall and strong winds year-round; carry waterproof jackets and check conditions before outdoor activities, especially coastal hikes."
+        },
+        {
+          "id": "west_c4",
+          "text": "Local Knowledge Welcome",
+          "detail": "Chat with locals at cafes and shops—they're generally friendly and keen to share tips about hidden spots, current road conditions, and seasonal activities you shouldn't miss."
+        }
+      ]
+    },
+    {
+      "id": "greymouth",
+      "name": "Greymouth",
+      "nameIt": "Greymouth",
+      "lat": -42.4487,
+      "lng": 171.2051,
+      "type": "CITY",
+      "description": "The largest city on the West Coast, serving as a major transport hub and home to the interesting Shantytown heritage park and jade galleries. It's an essential stop for supplies and cultural attractions.",
+      "imageQueries": [
+        "Greymouth New Zealand",
+        "West Coast city harbor"
+      ],
+      "activities": [
+        {
+          "id": "grey_1",
+          "text": "Shantytown Heritage Park",
+          "detail": "Explore a recreated 1880s gold rush settlement with authentic buildings, steam railway rides, and gold panning demonstrations that bring West Coast history to life.",
+          "lat": -42.4531,
+          "lng": 171.1953
+        },
+        {
+          "id": "grey_2",
+          "text": "Jade Boulder Gallery",
+          "detail": "Browse and purchase locally sourced New Zealand greenstone (jade) carvings and jewellery directly from artisans working in the gallery.",
+          "lat": -42.4503,
+          "lng": 171.1987
+        },
+        {
+          "id": "grey_3",
+          "text": "Greymouth Scenic Point",
+          "detail": "Walk to this hilltop viewpoint for panoramic views over Greymouth, the Grey River estuary, and the Tasman Sea coastline.",
+          "lat": -42.445,
+          "lng": 171.205
+        },
+        {
+          "id": "grey_4",
+          "text": "Left Bank Art Gallery",
+          "detail": "Visit this contemporary art space showcasing local and regional West Coast artists with regularly rotating exhibitions and installations.",
+          "lat": -42.4508,
+          "lng": 171.1956
+        },
+        {
+          "id": "grey_5",
+          "text": "Grey River Walk",
+          "detail": "Take a peaceful riverside walk along the Grey River estuary to spot native birdlife and experience the natural landscape of the West Coast.",
+          "lat": -42.448,
+          "lng": 171.2
+        },
+        {
+          "id": "grey_6",
+          "text": "Monteiths Brewery Tours",
+          "detail": "Tour the historic Monteith's Brewery to learn about West Coast beer-making heritage and sample craft beers in the brewery bar.",
+          "lat": -42.4522,
+          "lng": 171.1878
+        }
+      ],
+      "food": [
+        {
+          "id": "grey_f1",
+          "text": "Whitebait Fritters",
+          "detail": "A seasonal West Coast delicacy featuring tiny transparent fish bound in batter and fried, typically served with lemon and enjoyed in autumn months."
+        },
+        {
+          "id": "grey_f2",
+          "text": "Fresh Crayfish",
+          "detail": "Local restaurants and fish shops serve freshly caught crayfish (rock lobster) from Tasman Sea waters, best enjoyed steamed or grilled with butter."
+        },
+        {
+          "id": "grey_f3",
+          "text": "Monteith's Brewery Ale",
+          "detail": "Sample the locally brewed beers including their flagship Monteith's Original Ale, which pairs well with West Coast pub food and local seafood."
+        },
+        {
+          "id": "grey_f4",
+          "text": "Greymouth Fish and Chips",
+          "detail": "Grab fresh fish and chips from local takeaways using daily catches from the Tasman Sea, eaten by the waterfront or Grey River."
+        },
+        {
+          "id": "grey_f5",
+          "text": "West Coast Venison",
+          "detail": "Local restaurants feature farm-raised and wild venison dishes that showcase the region's hunting heritage and pristine game meat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "grey_c1",
+          "text": "Gold Rush Heritage Pride",
+          "detail": "Greymouth strongly identifies with its 1880s gold rush past, so conversations and local attractions frequently reference this defining era of settlement and prosperity."
+        },
+        {
+          "id": "grey_c2",
+          "text": "Maori Cultural Significance",
+          "detail": "The area holds deep Maori heritage including jade (greenstone) significance to local iwi; respectfully engage with cultural narratives at galleries and heritage sites."
+        },
+        {
+          "id": "grey_c3",
+          "text": "Weather Preparedness",
+          "detail": "The West Coast is known for sudden heavy rain and changeable weather, so locals always carry rain jackets and plan outdoor activities with weather alerts in mind."
+        },
+        {
+          "id": "grey_c4",
+          "text": "Transport Hub Expectations",
+          "detail": "As the major West Coast town, Greymouth operates as a practical supply and refuelling stop rather than a leisurely resort destination, with visitor services organised accordingly."
+        }
+      ]
+    },
+    {
+      "id": "cape_foulwind",
+      "name": "Cape Foulwind",
+      "nameIt": "Cape Foulwind",
+      "lat": -42.5333,
+      "lng": 171.7167,
+      "type": "COASTAL",
+      "description": "A rugged rocky cape accessible by a scenic coastal walk featuring a seal colony and dramatic ocean views, offering excellent wildlife viewing opportunities. The lighthouse and sweeping vistas make it a memorable coastal experience.",
+      "imageQueries": [
+        "Cape Foulwind seal colony",
+        "New Zealand cape coastal walk"
+      ],
+      "activities": [
+        {
+          "id": "cape_1",
+          "text": "Seal Colony Walk",
+          "detail": "A scenic 3km loop trail that descends to the rocky shore where you can observe New Zealand fur seals in their natural habitat, especially during pupping season from November to January.",
+          "lat": -42.7747,
+          "lng": 171.1836
+        },
+        {
+          "id": "cape_2",
+          "text": "Cape Foulwind Lighthouse Visit",
+          "detail": "Climb to the historic lighthouse perched on the cape's highest point for panoramic views of the Tasman Sea and the West Coast landscape.",
+          "lat": -42.7758,
+          "lng": 171.1844
+        },
+        {
+          "id": "cape_3",
+          "text": "Coastal Cliff Photography",
+          "detail": "Capture dramatic shots of the rugged cliffs, crashing waves, and sweeping ocean vistas that make Cape Foulwind one of the West Coast's most photogenic locations.",
+          "lat": -42.775,
+          "lng": 171.184
+        },
+        {
+          "id": "cape_4",
+          "text": "Bird Watching",
+          "detail": "Spot seabirds including Westland petrels, white-fronted terns, and occasionally penguins along the rocky outcrops and cliff edges.",
+          "lat": -42.7745,
+          "lng": 171.1835
+        },
+        {
+          "id": "cape_5",
+          "text": "Tauranga Bay Cave Exploration",
+          "detail": "Explore the accessible sea caves at the base of the cliffs during low tide, though cave access depends on tide conditions and weather."
+        },
+        {
+          "id": "cape_6",
+          "text": "Scenic Coastal Drive",
+          "detail": "Drive the winding road from Westport to Cape Foulwind for stunning views of the rugged West Coast landscape and multiple pullout spots for photography."
+        }
+      ],
+      "food": [
+        {
+          "id": "cape_f1",
+          "text": "West Coast Whitebait Fritters",
+          "detail": "Fresh whitebait (tiny fish) are battered and fried into a delicate, crispy patty available at local cafés and restaurants, a West Coast delicacy in season (September-November)."
+        },
+        {
+          "id": "cape_f2",
+          "text": "Westport Fish and Chips",
+          "detail": "Locally-caught fresh fish, typically snapper or tarakihi, battered and fried and served with hand-cut chips from nearby fishing ports."
+        },
+        {
+          "id": "cape_f3",
+          "text": "West Coast Coffee",
+          "detail": "Premium flat white or espresso from local cafés in nearby Westport, often sourced from regional roasters."
+        },
+        {
+          "id": "cape_f4",
+          "text": "Greenshell Mussels",
+          "detail": "Fresh mussels from the Tasman Sea served steamed or in chowder at regional restaurants, showcasing the West Coast's abundant seafood."
+        },
+        {
+          "id": "cape_f5",
+          "text": "Venison and Game Pie",
+          "detail": "Local venison or wild boar meat baked in a hearty pie, reflecting the hunting culture of the rugged West Coast region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cape_c1",
+          "text": "Check Tide Times Before Visiting",
+          "detail": "Low tide opens access to caves and hidden rock formations, while high tide can make the walk slippery and dangerous; always consult tide tables before heading out."
+        },
+        {
+          "id": "cape_c2",
+          "text": "Respect the Seal Colony",
+          "detail": "Maintain a safe distance from seals (at least 2 metres) and never approach pups or between a mother and pup, as they are protected and can be aggressive if threatened."
+        },
+        {
+          "id": "cape_c3",
+          "text": "Weather Changes Rapidly",
+          "detail": "The West Coast is known for unpredictable weather with sudden fog, rain, and wind; bring waterproof gear and be prepared to turn back if conditions deteriorate."
+        },
+        {
+          "id": "cape_c4",
+          "text": "Local Environmental Stewardship",
+          "detail": "The Cape Foulwind area is carefully managed for conservation; stay on marked trails, take all rubbish with you, and support local conservation efforts when possible."
+        }
+      ]
+    },
+    {
+      "id": "hokitika",
+      "name": "Hokitika",
+      "nameIt": "Hokitika",
+      "lat": -42.7185,
+      "lng": 170.9659,
+      "type": "TOWN",
+      "description": "A charming heritage gold-rush town with excellent jade galleries, craft breweries, and museums celebrating its colorful past as a major goldfield center. It offers authentic West Coast atmosphere with quality local shops and eateries.",
+      "imageQueries": [
+        "Hokitika gold town heritage",
+        "Hokitika jade galleries New Zealand"
+      ],
+      "activities": [
+        {
+          "id": "hoki_1",
+          "text": "West Coast Museum",
+          "detail": "Explore exhibits on the town's gold-rush heritage, Māori history, and natural history of the West Coast region.",
+          "lat": -42.7187,
+          "lng": 171.2037
+        },
+        {
+          "id": "hoki_2",
+          "text": "Jade Factory and Gallery",
+          "detail": "Watch local artisans carve and polish New Zealand greenstone jade, then browse finished pieces in the gallery.",
+          "lat": -42.7201,
+          "lng": 171.2024
+        },
+        {
+          "id": "hoki_3",
+          "text": "Lake Mahinapakeka Walk",
+          "detail": "A scenic 20-minute loop walk around a peaceful lake surrounded by native forest, ideal for birdwatching and photography.",
+          "lat": -42.7234,
+          "lng": 171.1987
+        },
+        {
+          "id": "hoki_4",
+          "text": "Hokitika Gorge",
+          "detail": "Drive 11 km inland to this stunning turquoise river gorge with short walks and swimming holes carved into limestone.",
+          "lat": -42.7639,
+          "lng": 171.0847
+        },
+        {
+          "id": "hoki_5",
+          "text": "Local Craft Breweries",
+          "detail": "Visit independent breweries like Hokitika Craft Brewery to sample West Coast beers in a relaxed, local atmosphere.",
+          "lat": -42.7186,
+          "lng": 171.2044
+        },
+        {
+          "id": "hoki_6",
+          "text": "Hokitika Beach and Sunset Point",
+          "detail": "Walk the dramatic black sand beach at sunset, where the Tasman Sea crashes against the rugged coastline.",
+          "lat": -42.7231,
+          "lng": 171.2176
+        }
+      ],
+      "food": [
+        {
+          "id": "hoki_f1",
+          "text": "Whitebait Fritters",
+          "detail": "Local whitebait (tiny transparent fish) are battered and pan-fried into a crispy delicacy unique to the West Coast."
+        },
+        {
+          "id": "hoki_f2",
+          "text": "Fresh West Coast Crayfish",
+          "detail": "In season, locally caught crayfish are grilled or boiled and served with lemon, showcasing the seafood bounty of the region."
+        },
+        {
+          "id": "hoki_f3",
+          "text": "Craft Beer and Venison Pairing",
+          "detail": "Local breweries often pair their beers with West Coast venison dishes, reflecting both the region's hunting heritage and craft scene."
+        },
+        {
+          "id": "hoki_f4",
+          "text": "Greensstone Café Local Fare",
+          "detail": "Sample hearty West Coast fare including local fish, game, and produce at cafés reflecting Hokitika's authentic character."
+        },
+        {
+          "id": "hoki_f5",
+          "text": "Fresh Seafood from Daily Catch",
+          "detail": "Look for fish and seafood vendors selling the day's catch—flounder, snapper, and tarakihi are common selections."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hoki_c1",
+          "text": "Respect Māori Heritage",
+          "detail": "The area holds significant Māori history; museums and sites acknowledge this heritage respectfully, and local guides often share Māori perspectives on the land."
+        },
+        {
+          "id": "hoki_c2",
+          "text": "Embrace the Wild West Coast Weather",
+          "detail": "Rain and strong winds are common; locals dress pragmatically and see moody weather as part of the region's authentic appeal rather than an inconvenience."
+        },
+        {
+          "id": "hoki_c3",
+          "text": "Support Local Artisans and Small Businesses",
+          "detail": "Hokitika thrives on independent shops, jade carvers, and family-run eateries; purchasing locally is woven into the community's identity and economy."
+        },
+        {
+          "id": "hoki_c4",
+          "text": "Learn the Gold-Rush Story",
+          "detail": "The town's identity is deeply tied to its 1880s gold-rush boom; understanding this colorful history enriches appreciation for the heritage buildings and local culture."
+        }
+      ]
+    },
+    {
+      "id": "punakaiki_caves",
+      "name": "Punakaiki Cavern",
+      "nameIt": "Punakaiki Cavern",
+      "lat": -42.7148,
+      "lng": 171.338,
+      "type": "LANDMARK",
+      "description": "An underground limestone cave system featuring glowworms and impressive stalactites reached via a guided boat tour through underground waters. It's a unique geological wonder and a highlight of the Punakaiki region.",
+      "imageQueries": [
+        "Punakaiki Cavern glowworms",
+        "New Zealand cave stalactites underground"
+      ],
+      "activities": [
+        {
+          "id": "puna_1",
+          "text": "Guided Underground Boat Tour",
+          "detail": "Navigate through the subterranean waterways of the cave system by boat while your guide points out glowworms illuminating the limestone ceiling.",
+          "lat": -42.1167,
+          "lng": 171.8167
+        },
+        {
+          "id": "puna_2",
+          "text": "Stalactite and Stalagmite Viewing",
+          "detail": "Observe the impressive mineral formations that have developed over thousands of years within the cavern's chambers."
+        },
+        {
+          "id": "puna_3",
+          "text": "Glowworm Photography",
+          "detail": "Capture images of the native glowworms (Arachnocampa species) that create a starry effect against the cave darkness with proper camera settings."
+        },
+        {
+          "id": "puna_4",
+          "text": "Punakaiki Rocks Walk",
+          "detail": "Explore the famous Pancake Rocks and blowholes on the surface near the cavern entrance, featuring dramatic coastal limestone formations.",
+          "lat": -42.1169,
+          "lng": 171.8169
+        },
+        {
+          "id": "puna_5",
+          "text": "Cave Geology Interpretation",
+          "detail": "Learn from your guide about the cave's formation, the limestone composition, and the underground river system that carved these passages."
+        },
+        {
+          "id": "puna_6",
+          "text": "Westland Tai Poutini National Park Walks",
+          "detail": "Combine your cavern visit with nearby walking trails through native bush and along the dramatic West Coast coastline."
+        }
+      ],
+      "food": [
+        {
+          "id": "puna_f1",
+          "text": "West Coast Whitebait",
+          "detail": "Sample freshly caught whitebait prepared as fritters or simply pan-fried, a seasonal delicacy of the Punakaiki region available in local restaurants."
+        },
+        {
+          "id": "puna_f2",
+          "text": "Greenshell Mussels",
+          "detail": "Enjoy locally harvested mussels from the West Coast waters, typically steamed or prepared in white wine at regional establishments."
+        },
+        {
+          "id": "puna_f3",
+          "text": "Wild Venison",
+          "detail": "Try local venison dishes at nearby cafés and lodges, sourced from the region's controlled hunting areas in the surrounding forests."
+        },
+        {
+          "id": "puna_f4",
+          "text": "Native Horopito Tea",
+          "detail": "Taste herbal tea made from the horopito (pepper tree) plant, a traditional Māori remedy and local specialty found in visitor centers."
+        },
+        {
+          "id": "puna_f5",
+          "text": "Punakaiki Pie Selection",
+          "detail": "Visit local bakeries for handmade meat pies featuring West Coast ingredients like beef, game, or seafood combinations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puna_c1",
+          "text": "Respect the Darkness for Glowworms",
+          "detail": "Follow guide instructions to minimize light during the tour, as bright light disturbs the glowworms and diminishes the magical natural display."
+        },
+        {
+          "id": "puna_c2",
+          "text": "Book Tours in Advance",
+          "detail": "The cavern operates limited daily tours with restricted group sizes, so pre-booking is essential especially during peak summer season."
+        },
+        {
+          "id": "puna_c3",
+          "text": "Acknowledge Māori Heritage",
+          "detail": "Recognize that the region holds significance in Māori history and culture; be respectful of cultural sites and listen to guides' explanations of local Māori connections."
+        },
+        {
+          "id": "puna_c4",
+          "text": "Weather Dependent Access",
+          "detail": "Understand that underground boat tours may be cancelled during heavy rainfall due to rising water levels, so plan flexibility into your itinerary."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Arborio",
+      "address": "67 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Intimate fine dining restaurant showcasing modern Italian cuisine with local ingredients in a converted Victorian villa.",
+      "mustOrder": "Risotto ai Funghi",
+      "lat": -46.4135,
+      "lng": 168.3526
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Ferg Burger",
+      "address": "42 Mall Street, Queenstown",
+      "neighbourhood": "Queenstown Central",
+      "cuisine": "Burgers",
+      "priceRange": "€",
+      "description": "Legendary burger joint famous for creative gourmet burgers made with premium local beef and fresh ingredients.",
+      "mustOrder": "The Fergburger",
+      "lat": -41.2865,
+      "lng": 168.7378
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Rātā",
+      "address": "10 The Mall, Queenstown",
+      "neighbourhood": "Queenstown Central",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€€",
+      "description": "Award-winning restaurant celebrating contemporary New Zealand cuisine with emphasis on local game, seafood, and produce.",
+      "mustOrder": "Braised Venison Cheek",
+      "lat": -41.2867,
+      "lng": 168.7382
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Amisfield Wine Bar & Kitchen",
+      "address": "10 Lake Hayes Road, Arrowtown",
+      "neighbourhood": "Arrowtown",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant in the heart of wine country offering refined cuisine paired with Central Otago wines.",
+      "mustOrder": "Pan-roasted Duck Breast",
+      "lat": -44.9294,
+      "lng": 168.8265
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Kika",
+      "address": "1 The Esplanade, Glenorchy",
+      "neighbourhood": "Glenorchy",
+      "cuisine": "Modern Mediterranean",
+      "priceRange": "€€",
+      "description": "Casual waterfront restaurant serving Mediterranean-inspired dishes with stunning lake views in a relaxed setting.",
+      "mustOrder": "Fresh Fish of the Day",
+      "lat": -44.9754,
+      "lng": 168.4565
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Redcliff Cafe Bar",
+      "address": "1 Redcliff Road, Wanaka",
+      "neighbourhood": "Wanaka",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Sophisticated cafe and bar perched on the hillside overlooking Wanaka lake, known for creative seasonal menus.",
+      "mustOrder": "Lake Fish with Seasonal Vegetables",
+      "lat": -44.4667,
+      "lng": 169.2067
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "The Flaming Cow",
+      "address": "156 Main Street, Arrowtown",
+      "neighbourhood": "Arrowtown",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€",
+      "description": "Farm-to-table restaurant celebrating local produce and meats in a charming heritage building with modern decor.",
+      "mustOrder": "Grass-fed Beef Steak",
+      "lat": -44.9312,
+      "lng": 168.8356
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Scrooge's",
+      "address": "357 Shotover Street, Queenstown",
+      "neighbourhood": "Queenstown Central",
+      "cuisine": "Pub Food",
+      "priceRange": "€€",
+      "description": "Historic pub and restaurant offering hearty traditional fare in a cosy atmosphere with local character.",
+      "mustOrder": "Fish and Chips",
+      "lat": -41.2891,
+      "lng": 168.7409
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Kosta Brava",
+      "address": "11 Ballarat Street, Arrowtown",
+      "neighbourhood": "Arrowtown",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€",
+      "description": "Vibrant tapas bar featuring authentic Spanish small plates and an excellent selection of Spanish wines.",
+      "mustOrder": "Jamón Ibérico with Pan con Tomate",
+      "lat": -44.9323,
+      "lng": 168.834
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Patagonia Chocolates Cafe",
+      "address": "19 Mall Street, Queenstown",
+      "neighbourhood": "Queenstown Central",
+      "cuisine": "Cafe/Desserts",
+      "priceRange": "€",
+      "description": "Artisan chocolate cafe and patisserie known for handmade chocolates, pastries, and exceptional coffee.",
+      "mustOrder": "Chocolate Tasting Platter",
+      "lat": -41.2864,
+      "lng": 168.7375
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Edible Pedlar",
+      "address": "84 Ardmore Street, Cromwell",
+      "neighbourhood": "Cromwell",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€",
+      "description": "Farm-focused restaurant utilising Central Otago ingredients with an emphasis on seasonal, locally-sourced menus.",
+      "mustOrder": "Roasted Regional Vegetables with Local Cheese",
+      "lat": -44.7545,
+      "lng": 169.2182
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Jaku",
+      "address": "10 Wilson Street, Wanaka",
+      "neighbourhood": "Wanaka",
+      "cuisine": "Japanese Fusion",
+      "priceRange": "€€",
+      "description": "Contemporary Japanese restaurant offering sushi, ramen, and fusion dishes in a minimalist yet warm setting.",
+      "mustOrder": "Chirashi Bowl",
+      "lat": -44.4664,
+      "lng": 169.2089
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Real Burger Co.",
+      "address": "1121 Dunmore Street, Mosgiel",
+      "neighbourhood": "Mosgiel",
+      "cuisine": "Burgers",
+      "priceRange": "€",
+      "description": "Quality burger establishment crafting fresh gourmet burgers with locally-sourced ingredients and creative toppings.",
+      "mustOrder": "Southern Grass-fed Beef Burger",
+      "lat": -45.8476,
+      "lng": 170.2897
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Maison Fleurie",
+      "address": "10 Helwick Street, Arrowtown",
+      "neighbourhood": "Arrowtown",
+      "cuisine": "French",
+      "priceRange": "€€€€",
+      "description": "Fine dining French restaurant presenting classic haute cuisine with refined technique and impeccable service.",
+      "mustOrder": "Coq au Vin",
+      "lat": -44.9298,
+      "lng": 168.8342
+    }
+  ]
+}

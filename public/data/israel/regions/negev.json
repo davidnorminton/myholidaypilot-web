@@ -1,0 +1,1560 @@
+{
+  "id": "negev",
+  "name": "Negev",
+  "nameIt": "הנגב",
+  "capital": "Beersheba",
+  "lat": 31.25,
+  "lng": 34.8,
+  "emoji": "🏜️",
+  "colour": "ffff5722",
+  "boundingBox": {
+    "north": 31.6,
+    "south": 29.9,
+    "east": 35.4,
+    "west": 34.2
+  },
+  "history": "The Negev has been inhabited since ancient times, serving as a crossroads for Nabatean traders and later Byzantine settlements. After centuries of decline, the region was largely sparsely populated during the Ottoman and early modern periods, with Bedouin communities maintaining a nomadic lifestyle across its desert landscape. The establishment of the State of Israel in 1948 brought renewed development, including the founding of Beersheba as a major urban center in 1949. Modern development has transformed the Negev into an important agricultural and industrial region, though its desert character and historical significance remain central to its identity.",
+  "culturalNotes": "The Negev represents the pioneering spirit of early Israel, with kibbutzim and moshavim communities that exemplify collective agricultural settlement. The region maintains strong Bedouin cultural influences, and the coexistence of Israeli Jewish and Arab Bedouin populations creates a unique multicultural character. The harsh desert environment has shaped a resilient, resourceful culture that celebrates innovation in water conservation and sustainable agriculture.",
+  "bestTimeToVisit": "October to April for desert exploration with cooler temperatures and clear skies.",
+  "languageNotes": "Hebrew is the primary language, with Arabic widely spoken among the Bedouin population and in mixed communities. Useful phrases include \"Shalom\" (hello/goodbye) and \"Toda\" (thank you) in Hebrew, while many locals in Beersheba and tourist areas speak English.",
+  "generatedAt": "2026-07-11T17:36:44.236Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "beer_sheva",
+      "name": "Beersheba",
+      "nameIt": "באר שבע",
+      "lat": 31.2508,
+      "lng": 34.7883,
+      "type": "CITY",
+      "description": "The largest city in the Negev, Beersheba is a modern regional hub with a growing tech scene, museums, and vibrant culture. Visit for its Old City Ottoman architecture, the Bedouin market, and excellent restaurants that showcase contemporary Israeli dining.",
+      "imageQueries": [
+        "Beersheba Old City Ottoman architecture",
+        "Beersheba Bedouin market Israel"
+      ],
+      "activities": [
+        {
+          "id": "beer_1",
+          "text": "Old City Ottoman Quarter",
+          "detail": "Explore the restored 19th-century Ottoman architecture and narrow streets in Beersheba's historic center, featuring restored buildings that now house galleries and cafes.",
+          "lat": 31.2518,
+          "lng": 34.7913
+        },
+        {
+          "id": "beer_2",
+          "text": "Bedouin Market",
+          "detail": "Visit the famous Thursday morning souk where Bedouin traders sell livestock, produce, textiles, and crafts in a lively traditional market atmosphere.",
+          "lat": 31.2485,
+          "lng": 34.7875
+        },
+        {
+          "id": "beer_3",
+          "text": "Museum of Bedouin Culture",
+          "detail": "Discover authentic Bedouin lifestyle, textiles, and traditions through exhibits housed in a reconstructed traditional settlement.",
+          "lat": 31.241,
+          "lng": 34.7885
+        },
+        {
+          "id": "beer_4",
+          "text": "Ben-Gurion University Campus",
+          "detail": "Walk through the modern campus known for its innovative architecture and technology programs, reflecting Beersheba's growing tech hub status.",
+          "lat": 31.2613,
+          "lng": 34.7947
+        },
+        {
+          "id": "beer_5",
+          "text": "Old Railway Station",
+          "detail": "Visit the restored Ottoman-era railway station, now a cultural and commercial hub featuring shops, galleries, and the Old Station Visitor Center.",
+          "lat": 31.2498,
+          "lng": 34.7918
+        },
+        {
+          "id": "beer_6",
+          "text": "Negev Museum of Art",
+          "detail": "Explore contemporary Israeli and international art in this modern museum showcasing rotating exhibitions and installations.",
+          "lat": 31.2539,
+          "lng": 34.7902
+        }
+      ],
+      "food": [
+        {
+          "id": "beer_f1",
+          "text": "Bedouin Hummus",
+          "detail": "Creamy chickpea paste served warm with olive oil and spices, traditionally enjoyed at Bedouin-run restaurants in the Old City and market areas."
+        },
+        {
+          "id": "beer_f2",
+          "text": "Shakshuka",
+          "detail": "Eggs poached in spiced tomato sauce, a Bedouin and Middle Eastern staple best experienced at family-run breakfast spots throughout Beersheba."
+        },
+        {
+          "id": "beer_f3",
+          "text": "Lamb Mansaf",
+          "detail": "Tender lamb cooked in yogurt sauce with herbs and served over rice, a traditional Bedouin dish reflecting the region's pastoral heritage."
+        },
+        {
+          "id": "beer_f4",
+          "text": "Sabich",
+          "detail": "A local Israeli sandwich of fried eggplant, hard-boiled eggs, tahini, and salad served on pita, widely available at street vendors and casual eateries."
+        },
+        {
+          "id": "beer_f5",
+          "text": "Date and Nut Pastries",
+          "detail": "Sweet phyllo pastries filled with dates and nuts, a Negev specialty reflecting the region's date palm cultivation and Bedouin sweets tradition."
+        },
+        {
+          "id": "beer_f6",
+          "text": "Contemporary Israeli Fine Dining",
+          "detail": "Beersheba's growing restaurant scene offers innovative modern Israeli cuisine blending Mediterranean, Levantine, and Jewish traditions in upscale venues."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beer_c1",
+          "text": "Thursday Market Timing",
+          "detail": "Plan visits to the Bedouin market for early Thursday mornings when the market is most active; afternoons see significantly fewer vendors and livestock."
+        },
+        {
+          "id": "beer_c2",
+          "text": "Respect at Religious Sites",
+          "detail": "Dress modestly and remove shoes when entering mosques or prayer areas; avoid visiting during Friday prayers when some sites are closed to tourists."
+        },
+        {
+          "id": "beer_c3",
+          "text": "Negotiating at Markets",
+          "detail": "Haggling is expected and culturally appropriate at the Bedouin market and with street vendors; fair negotiation is part of the traditional trading experience."
+        },
+        {
+          "id": "beer_c4",
+          "text": "Hospitality Customs",
+          "detail": "Accept tea or coffee offered by shopkeepers and hosts as a sign of welcome and respect; refusing may be seen as impolite in traditional Bedouin culture."
+        }
+      ]
+    },
+    {
+      "id": "mitzpe_ramon",
+      "name": "Mitzpe Ramon",
+      "nameIt": "מצפה רמון",
+      "lat": 30.5975,
+      "lng": 34.7645,
+      "type": "TOWN",
+      "description": "A dramatic desert town perched on the edge of the Ramon Crater, Israel's largest natural erosion crater with stunning multicolored geological formations. This is the perfect base for hiking, astronomy, and experiencing the raw beauty of the Negev's desert landscape.",
+      "imageQueries": [
+        "Ramon Crater Mitzpe Ramon Israel",
+        "Mitzpe Ramon desert sunset"
+      ],
+      "activities": [
+        {
+          "id": "mitz_1",
+          "text": "Ramon Crater Rim Walk",
+          "detail": "Hike along the edge of the 40km-long crater with panoramic views of layered multicolored rock formations and desert valleys.",
+          "lat": 30.5975,
+          "lng": 34.7639
+        },
+        {
+          "id": "mitz_2",
+          "text": "Star Gazing at Mitzpe Ramon Observatory",
+          "detail": "Visit the town's dark-sky observatory to observe celestial objects through telescopes in one of Israel's clearest night-sky locations.",
+          "lat": 30.5964,
+          "lng": 34.7626
+        },
+        {
+          "id": "mitz_3",
+          "text": "Nahal Roded Canyon Trek",
+          "detail": "Descend into a dramatic canyon with sculptural rock formations, flowing water sections, and archaeological remains accessible by hiking.",
+          "lat": 30.5822,
+          "lng": 34.7447
+        },
+        {
+          "id": "mitz_4",
+          "text": "Sunset at the Crater Vista Point",
+          "detail": "Watch the Ramon Crater's multicolored geological layers shift through reds, purples, and oranges as the sun sets over the Negev.",
+          "lat": 30.5975,
+          "lng": 34.7639
+        },
+        {
+          "id": "mitz_5",
+          "text": "Alpaca Ranch Visit",
+          "detail": "Interact with and trek alongside alpacas through desert terrain on the outskirts of town, a unique Negev experience.",
+          "lat": 30.6123,
+          "lng": 34.7501
+        },
+        {
+          "id": "mitz_6",
+          "text": "Desert Botanical Garden",
+          "detail": "Explore native Negev desert plants and succulents cultivated in a garden showcasing the region's unique flora.",
+          "lat": 30.5941,
+          "lng": 34.7589
+        }
+      ],
+      "food": [
+        {
+          "id": "mitz_f1",
+          "text": "Bedouin Pita with Za'atar",
+          "detail": "Fresh warm pita bread drizzled with olive oil and sprinkled with za'atar herb blend, a staple snack throughout the Negev."
+        },
+        {
+          "id": "mitz_f2",
+          "text": "Date Paste and Honey Treats",
+          "detail": "Local confections made from dates harvested in the Negev region, often combined with nuts and served as a desert delicacy."
+        },
+        {
+          "id": "mitz_f3",
+          "text": "Shakshuka",
+          "detail": "Eggs poached in spiced tomato sauce, a hearty breakfast dish widely served in local cafés and reflecting Bedouin culinary traditions."
+        },
+        {
+          "id": "mitz_f4",
+          "text": "Lamb Kebab",
+          "detail": "Grilled lamb skewers seasoned with Middle Eastern spices, a protein-heavy meal suited to the desert landscape's traditional shepherd culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mitz_c1",
+          "text": "Dress for Extreme Temperature Shifts",
+          "detail": "Bring layers and sun protection as desert temperatures swing dramatically between scorching days and surprisingly cold nights."
+        },
+        {
+          "id": "mitz_c2",
+          "text": "Respect Bedouin Customs",
+          "detail": "If visiting local Bedouin communities or markets, dress modestly and ask permission before photographing people or their homes."
+        },
+        {
+          "id": "mitz_c3",
+          "text": "Plan Water and Supplies Ahead",
+          "detail": "Stock up on water and provisions in town before heading into the crater or remote hiking areas, as amenities are sparse in the desert."
+        },
+        {
+          "id": "mitz_c4",
+          "text": "Night Sky Etiquette",
+          "detail": "The town maintains dark-sky preservation; avoid bright lights at night and respect designated stargazing areas to protect the astronomical experience."
+        }
+      ]
+    },
+    {
+      "id": "eilat",
+      "name": "Eilat",
+      "nameIt": "אילת",
+      "lat": 29.5577,
+      "lng": 34.9517,
+      "type": "COASTAL",
+      "description": "Israel's southernmost resort city on the Red Sea, famous for world-class snorkeling, diving, and beaches with vibrant coral reefs and tropical fish. It offers a complete contrast to the desert with water sports, luxury hotels, and a lively nightlife scene.",
+      "imageQueries": [
+        "Eilat Red Sea coral reef snorkeling",
+        "Eilat Israel beach resort"
+      ],
+      "activities": [
+        {
+          "id": "eila_1",
+          "text": "Snorkeling at Coral Beach",
+          "detail": "Wade directly from the shore into pristine Red Sea waters teeming with colorful coral formations and tropical fish species.",
+          "lat": 29.5507,
+          "lng": 34.9517
+        },
+        {
+          "id": "eila_2",
+          "text": "Scuba Diving at The Lagoon",
+          "detail": "Explore deeper reefs and underwater canyons with certified dive operators offering sites suitable for all experience levels.",
+          "lat": 29.5519,
+          "lng": 34.9481
+        },
+        {
+          "id": "eila_3",
+          "text": "Dolphin Reef Marine Park",
+          "detail": "Swim alongside bottlenose dolphins in a natural lagoon environment while supporting marine conservation efforts.",
+          "lat": 29.5298,
+          "lng": 34.9226
+        },
+        {
+          "id": "eila_4",
+          "text": "Timna Park",
+          "detail": "Visit this ancient copper mining site 25 kilometers north featuring dramatic red rock formations, natural arches, and hiking trails.",
+          "lat": 29.8078,
+          "lng": 34.9514
+        },
+        {
+          "id": "eila_5",
+          "text": "Eilat Promenade",
+          "detail": "Stroll along the waterfront boulevard lined with shops, restaurants, and bars offering views of the Red Sea and nearby Aqaba."
+        },
+        {
+          "id": "eila_6",
+          "text": "Tank and Reef Underwater Observatory",
+          "detail": "Descend into a submerged chamber seven meters below sea level to observe fish and coral without getting wet.",
+          "lat": 29.5039,
+          "lng": 34.9289
+        }
+      ],
+      "food": [
+        {
+          "id": "eila_f1",
+          "text": "St. Peter's Fish (Amnun)",
+          "detail": "A whole grilled tilapia caught fresh from the Red Sea, typically served with lemon and spices at waterfront restaurants."
+        },
+        {
+          "id": "eila_f2",
+          "text": "Hummus and Fresh Pita",
+          "detail": "Creamy chickpea dip topped with olive oil and paprika, served with warm pita bread—a staple at local eateries and street vendors."
+        },
+        {
+          "id": "eila_f3",
+          "text": "Shakshuka",
+          "detail": "Eggs poached in spiced tomato sauce, often prepared with cheese or meat, reflecting both Israeli and Bedouin culinary traditions."
+        },
+        {
+          "id": "eila_f4",
+          "text": "Grilled Seafood Platters",
+          "detail": "Mixed platters of locally caught fish, shrimp, and squid prepared with Mediterranean and Middle Eastern seasonings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "eila_c1",
+          "text": "Summer Heat Precautions",
+          "detail": "Eilat experiences extreme temperatures exceeding 40°C (104°F) from May to September; plan outdoor activities early morning or evening."
+        },
+        {
+          "id": "eila_c2",
+          "text": "Red Sea Crossing Sensitivities",
+          "detail": "Respect the historical and religious significance of the Red Sea; avoid disrespectful behavior or comments about the Egyptian and Saudi borders visible across the water."
+        },
+        {
+          "id": "eila_c3",
+          "text": "Sabbath Observance",
+          "detail": "While more secular than other Israeli cities, some restaurants and shops close or operate limited hours on Friday evening and Saturday; plan accordingly."
+        },
+        {
+          "id": "eila_c4",
+          "text": "Water Safety and Sun Protection",
+          "detail": "The intense desert sun and reflective water require high SPF sunscreen reapplied frequently; always snorkel or dive with guides familiar with strong currents and marine life."
+        }
+      ]
+    },
+    {
+      "id": "timna_park",
+      "name": "Timna Valley Park",
+      "nameIt": "עמק תמנע",
+      "lat": 29.7719,
+      "lng": 34.9306,
+      "type": "NATURE",
+      "description": "An ancient mining region turned open-air archaeological and geological park with stunning red sandstone formations, historic mines, and hiking trails. The dramatic landscape and unique rock formations make it one of the Negev's most visually striking destinations.",
+      "imageQueries": [
+        "Timna Valley Park red rocks Israel",
+        "Timna ancient copper mines Negev"
+      ],
+      "activities": [
+        {
+          "id": "timn_1",
+          "text": "Hike the Colored Canyon",
+          "detail": "Walk through towering red and multicolored sandstone cliffs on a moderate trail that showcases the park's most dramatic geological formations.",
+          "lat": 29.7481,
+          "lng": 34.9456
+        },
+        {
+          "id": "timn_2",
+          "text": "Visit the Ancient Copper Mines",
+          "detail": "Explore the remains of Egyptian and Nabatean copper mining operations, including shafts and chambers carved into the rock over 3,000 years ago.",
+          "lat": 29.752,
+          "lng": 34.938
+        },
+        {
+          "id": "timn_3",
+          "text": "Climb the Natural Arch (Solomon's Pillars)",
+          "detail": "Ascend to two towering sandstone columns rising 50 meters above the valley floor, accessible via hiking trail with panoramic views of the entire park.",
+          "lat": 29.7612,
+          "lng": 34.9342
+        },
+        {
+          "id": "timn_4",
+          "text": "Geological Museum Tour",
+          "detail": "Learn about the valley's 800 million-year geological history, including exhibits on copper mining, rock formation, and ancient trade routes.",
+          "lat": 29.7495,
+          "lng": 34.949
+        },
+        {
+          "id": "timn_5",
+          "text": "Sunrise or Sunset Photography",
+          "detail": "Capture the dramatic transformation of the red sandstone formations as light angles shift, turning the rocks into shades of crimson and gold.",
+          "lat": 29.755,
+          "lng": 34.94
+        },
+        {
+          "id": "timn_6",
+          "text": "Four-Wheel Drive Valley Tour",
+          "detail": "Take a guided jeep tour through remote sections of the park to reach lesser-known rock formations and archaeological sites inaccessible on foot."
+        },
+        {
+          "id": "timn_7",
+          "text": "Timna Lake Walk",
+          "detail": "Stroll around the scenic artificial lake surrounded by red cliffs, popular for birdwatching and quiet reflection.",
+          "lat": 29.768,
+          "lng": 34.928
+        }
+      ],
+      "food": [
+        {
+          "id": "timn_f1",
+          "text": "Bedouin Tea and Fresh Pita",
+          "detail": "Enjoy strong, sweet mint or black tea served with warm pita bread at the park's visitor facilities, prepared in traditional Negev Bedouin style."
+        },
+        {
+          "id": "timn_f2",
+          "text": "Hummus and Local Herbs",
+          "detail": "Try creamy hummus topped with za'atar and dukkah spice blends sourced from nearby Negev communities, served with pita or vegetables."
+        },
+        {
+          "id": "timn_f3",
+          "text": "Date and Nut Energy Bars",
+          "detail": "Purchase locally-made snacks combining dates, almonds, and walnuts from vendors near the park entrance, ideal for hiking fuel."
+        },
+        {
+          "id": "timn_f4",
+          "text": "Shakshuka at Kibbutz Cafes",
+          "detail": "Visit nearby kibbutz dining facilities outside the park for traditional eggs poached in spiced tomato sauce, a hearty Negev staple."
+        },
+        {
+          "id": "timn_f5",
+          "text": "Fresh Pomegranate Juice",
+          "detail": "Drink freshly pressed pomegranate juice available seasonally from local farms in the surrounding Negev region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "timn_c1",
+          "text": "Bring Ample Water",
+          "detail": "The Negev desert offers minimal shade and intense sun; carry at least 2-3 liters of water per person and wear sun protection, as the park has no water stations on trails."
+        },
+        {
+          "id": "timn_c2",
+          "text": "Respect Archaeological Sites",
+          "detail": "Do not remove artifacts, touch ancient inscriptions, or stray from marked trails, as the park is an active archaeological area and preservation is essential."
+        },
+        {
+          "id": "timn_c3",
+          "text": "Plan for Early Morning or Late Afternoon Visits",
+          "detail": "Summer midday temperatures in the exposed valley exceed 40°C; visit during cooler hours and avoid peak heat for both safety and better photography."
+        },
+        {
+          "id": "timn_c4",
+          "text": "Learn the Mining History",
+          "detail": "Understanding the 3,000-year legacy of copper extraction by Egyptians, Nabateans, and Edomites enriches appreciation for the landscape and cultural significance of the site."
+        }
+      ]
+    },
+    {
+      "id": "sde_boker",
+      "name": "Sde Boker",
+      "nameIt": "שדה בוקר",
+      "lat": 30.8467,
+      "lng": 34.7622,
+      "type": "VILLAGE",
+      "description": "A kibbutz and national landmark where Israel's founder David Ben-Gurion lived and is now buried, set in a beautiful desert valley with a nearby spring and nature reserve. It embodies the pioneering spirit of the Negev and offers excellent hiking and historical significance.",
+      "imageQueries": [
+        "Sde Boker kibbutz Ben-Gurion Israel",
+        "Sde Boker desert spring hiking"
+      ],
+      "activities": [
+        {
+          "id": "sde__1",
+          "text": "Ben-Gurion House and Museum",
+          "detail": "Tour the modest home where Israel's founder lived from 1953 until his death, displaying his personal library and original furnishings.",
+          "lat": 31.0552,
+          "lng": 34.7667
+        },
+        {
+          "id": "sde__2",
+          "text": "Ben-Gurion's Grave",
+          "detail": "Visit the simple hilltop burial site overlooking the Negev desert where David Ben-Gurion and his wife Paula are interred.",
+          "lat": 31.0545,
+          "lng": 34.768
+        },
+        {
+          "id": "sde__3",
+          "text": "Nahal Zin Hiking Trail",
+          "detail": "Trek through the spectacular desert canyon with dramatic sandstone cliffs and seasonal water pools, ranging from easy to moderate difficulty.",
+          "lat": 31.048,
+          "lng": 34.759
+        },
+        {
+          "id": "sde__4",
+          "text": "Ein Avdat Spring and Nature Reserve",
+          "detail": "Explore the lush oasis fed by a natural spring with botanical diversity unusual for the Negev, featuring a short waterfall and rich birdlife.",
+          "lat": 31.042,
+          "lng": 34.775
+        },
+        {
+          "id": "sde__5",
+          "text": "Kibbutz History Walking Tour",
+          "detail": "Stroll through the kibbutz grounds to learn about communal agricultural pioneering life and the development of Negev settlement.",
+          "lat": 31.056,
+          "lng": 34.767
+        },
+        {
+          "id": "sde__6",
+          "text": "Desert Botanical Garden",
+          "detail": "Discover native Negev plants and desert-adapted species displayed in a small curated garden showcasing regional flora.",
+          "lat": 31.055,
+          "lng": 34.7685
+        }
+      ],
+      "food": [
+        {
+          "id": "sde__f1",
+          "text": "Kibbutz Dining Hall Experience",
+          "detail": "Join communal meals at the kibbutz restaurant serving hearty Mediterranean fare with fresh vegetables grown on kibbutz land."
+        },
+        {
+          "id": "sde__f2",
+          "text": "Bedouin-Inspired Lamb Dishes",
+          "detail": "Sample slow-roasted lamb preparations influenced by regional Bedouin cuisine, often served with rice and local herbs."
+        },
+        {
+          "id": "sde__f3",
+          "text": "Sabra and Cactus Pear Juice",
+          "detail": "Taste fresh-pressed juice from the native prickly pear cacti grown throughout the Negev region, a sweet and refreshing local specialty."
+        },
+        {
+          "id": "sde__f4",
+          "text": "Whole Wheat Kibbutz Bread",
+          "detail": "Enjoy dense, freshly-baked whole grain bread made daily at the kibbutz bakery, a staple of communal dining."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sde__c1",
+          "text": "Visit Early or Late",
+          "detail": "Arrive in early morning or late afternoon to avoid extreme desert heat and crowds at the Ben-Gurion sites."
+        },
+        {
+          "id": "sde__c2",
+          "text": "Respect the Living Kibbutz",
+          "detail": "Remember Sde Boker remains an active kibbutz community; stick to designated tourist areas and be mindful of residents' privacy."
+        },
+        {
+          "id": "sde__c3",
+          "text": "Bring Plenty of Water",
+          "detail": "The desert environment offers minimal shade on trails; carry at least 2 liters of water per person for any hiking activity."
+        },
+        {
+          "id": "sde__c4",
+          "text": "Understand Pioneer Context",
+          "detail": "The site celebrates Israel's founding narrative and pioneering ethos; approach the historical exhibits with awareness of complex local and regional history."
+        }
+      ]
+    },
+    {
+      "id": "negev_highlands",
+      "name": "Negev Highlands",
+      "nameIt": "הנגב המישור",
+      "lat": 30.9,
+      "lng": 34.8,
+      "type": "NATURE",
+      "description": "A vast desert plateau dotted with ancient Nabatean cities, craters, and endless hiking trails offering some of Israel's most remote wilderness experiences. The region is perfect for trekking, off-road exploration, and experiencing untouched desert solitude.",
+      "imageQueries": [
+        "Negev Highlands desert landscape Israel",
+        "Negev wilderness hiking trails"
+      ],
+      "activities": [
+        {
+          "id": "nege_1",
+          "text": "Mitzpe Ramon Crater Hike",
+          "detail": "Trek the rim and descend into Israel's largest erosion crater with spectacular layered geology and desert vistas.",
+          "lat": 30.5931,
+          "lng": 34.7624
+        },
+        {
+          "id": "nege_2",
+          "text": "Nabatean City of Avdat",
+          "detail": "Explore the ruins of this 2,000-year-old Nabatean trading post perched on a hilltop with preserved temples and cisterns.",
+          "lat": 30.7981,
+          "lng": 34.7393
+        },
+        {
+          "id": "nege_3",
+          "text": "Ein Avdat Spring Hike",
+          "detail": "Walk through a narrow canyon to a natural spring surrounded by chalk cliffs and ancient water channels built by Nabateans.",
+          "lat": 30.8142,
+          "lng": 34.7553
+        },
+        {
+          "id": "nege_4",
+          "text": "Makhtesh Ramon Multi-Day Trek",
+          "detail": "Undertake a remote desert backpacking expedition across the crater floor encountering colored rock formations and minimal human presence.",
+          "lat": 30.5931,
+          "lng": 34.7624
+        },
+        {
+          "id": "nege_5",
+          "text": "Shivta Ancient Settlement",
+          "detail": "Discover this intact Nabatean village with standing structures, churches, and agricultural terraces dating to the Byzantine period.",
+          "lat": 30.8431,
+          "lng": 34.5153
+        },
+        {
+          "id": "nege_6",
+          "text": "Off-Road Desert Exploration",
+          "detail": "Navigate 4x4 trails through colored sandstone formations and isolated wadis accessible only by vehicle in the southern highlands.",
+          "lat": 30.5,
+          "lng": 34.75
+        }
+      ],
+      "food": [
+        {
+          "id": "nege_f1",
+          "text": "Bedouin Pita and Labneh",
+          "detail": "Freshly baked flatbread served with thick strained yogurt and olive oil, a staple of nomadic desert communities in the region."
+        },
+        {
+          "id": "nege_f2",
+          "text": "Mansaf",
+          "detail": "A traditional Bedouin dish of meat cooked in fermented yogurt sauce served over rice, reflecting the pastoral heritage of Negev inhabitants."
+        },
+        {
+          "id": "nege_f3",
+          "text": "Desert Herb Tea (Za'atar Tea)",
+          "detail": "Wild mountain herbs steeped in hot water, commonly offered by Bedouin guides and locals as a cooling respite during desert treks."
+        },
+        {
+          "id": "nege_f4",
+          "text": "Roasted Camel or Goat",
+          "detail": "Slow-roasted meat seasoned with desert spices, available at Bedouin encampments and authentic local restaurants in Mitzpe Ramon."
+        },
+        {
+          "id": "nege_f5",
+          "text": "Kibbutz Dates and Almonds",
+          "detail": "Locally grown dates and almonds from kibbutzim throughout the highlands, sold fresh or as energy snacks for hikers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nege_c1",
+          "text": "Respect Bedouin Customs",
+          "detail": "When encountering Bedouin communities, accept offered tea as a sign of hospitality and remove shoes when entering tents or family spaces."
+        },
+        {
+          "id": "nege_c2",
+          "text": "Prepare for Extreme Isolation",
+          "detail": "The highlands lack reliable cell service and facilities; inform someone of your hiking plans, carry plenty of water, and be self-sufficient."
+        },
+        {
+          "id": "nege_c3",
+          "text": "Desert Navigation Skills Required",
+          "detail": "Many trails are unmarked or poorly marked; hire local guides for multi-day treks and carry GPS or detailed maps to avoid getting lost."
+        },
+        {
+          "id": "nege_c4",
+          "text": "Visit During Cooler Months",
+          "detail": "November to March is the ideal season as summer temperatures exceed 40°C; locals and guides strongly advise against desert activities in summer heat."
+        }
+      ]
+    },
+    {
+      "id": "avdat",
+      "name": "Avdat",
+      "nameIt": "עבדת",
+      "lat": 30.8031,
+      "lng": 34.4186,
+      "type": "LANDMARK",
+      "description": "A dramatic hilltop ruins of an ancient Nabatean city perched on a desert peak with commanding views and well-preserved structures dating back 2,000 years. The archaeological site offers both historical importance and stunning vistas across the desert landscape.",
+      "imageQueries": [
+        "Avdat Nabatean ruins Israel hilltop",
+        "Avdat ancient city Negev archaeology"
+      ],
+      "activities": [
+        {
+          "id": "avda_1",
+          "text": "Explore the Nabatean Temple",
+          "detail": "Climb through the reconstructed ruins of the main temple dedicated to the Nabatean gods, featuring restored columns and stone foundations from the 1st century CE.",
+          "lat": 31.0395,
+          "lng": 34.7592
+        },
+        {
+          "id": "avda_2",
+          "text": "Walk the Desert Citadel Fortifications",
+          "detail": "Trace the ancient defensive walls and gates that protected the city's hilltop position, offering insight into Nabatean military architecture and trade route security.",
+          "lat": 31.0398,
+          "lng": 34.7595
+        },
+        {
+          "id": "avda_3",
+          "text": "Visit the Byzantine Church",
+          "detail": "Examine the well-preserved remains of an early Christian church built atop Nabatean foundations, showcasing the site's religious evolution over centuries.",
+          "lat": 31.0391,
+          "lng": 34.7588
+        },
+        {
+          "id": "avda_4",
+          "text": "Panoramic Desert Viewpoint",
+          "detail": "Stand at the highest point of the ruins to view sweeping vistas across the Negev desert, the Ramon Crater, and ancient caravan routes stretching to the horizon.",
+          "lat": 31.0405,
+          "lng": 34.76
+        },
+        {
+          "id": "avda_5",
+          "text": "Inspect the Nabatean Dwellings",
+          "detail": "Explore remnants of residential structures with cisterns designed to capture precious desert rainfall, illustrating how inhabitants managed water in an arid environment.",
+          "lat": 31.0389,
+          "lng": 34.7585
+        },
+        {
+          "id": "avda_6",
+          "text": "Archaeological Museum Tour",
+          "detail": "Visit the on-site museum displaying pottery, coins, and artifacts from daily Nabatean life that illuminate trade connections with Arabia, Egypt, and the Mediterranean."
+        }
+      ],
+      "food": [
+        {
+          "id": "avda_f1",
+          "text": "Bedouin-style Zarb",
+          "detail": "Tender meat and vegetables slow-roasted in underground pits using desert heat, a traditional preparation method still honored in nearby Bedouin settlements."
+        },
+        {
+          "id": "avda_f2",
+          "text": "Pita with Zaatar and Local Olive Oil",
+          "detail": "Freshly baked flatbread dipped in the Negev's signature blend of wild thyme, sumac, and sesame seeds mixed with locally pressed olive oil."
+        },
+        {
+          "id": "avda_f3",
+          "text": "Labne from Negev Goat Herds",
+          "detail": "Creamy strained yogurt cheese flavored with herbs and eaten with vegetables, showcasing dairy traditions from pastoral communities in the surrounding desert."
+        },
+        {
+          "id": "avda_f4",
+          "text": "Date and Almond Pastries",
+          "detail": "Sweet pastries filled with Negev-grown dates and almonds, reflecting the region's ancient role in the spice and produce trade routes."
+        },
+        {
+          "id": "avda_f5",
+          "text": "Bedouin Coffee Ceremony",
+          "detail": "Strong dark coffee infused with cardamom and served in small cups, an essential hospitality ritual offered at nearby Bedouin camps and local guesthouses."
+        }
+      ],
+      "culture": [
+        {
+          "id": "avda_c1",
+          "text": "Arrive Early for Heat and Solitude",
+          "detail": "Visit in early morning to avoid midday desert heat and experience the ruins with fewer crowds, allowing for deeper contemplation of the ancient atmosphere."
+        },
+        {
+          "id": "avda_c2",
+          "text": "Respect Sacred and Archaeological Areas",
+          "detail": "Do not touch artifacts or remove stones; the site is both an active archaeological area and historically significant to local Bedouin heritage."
+        },
+        {
+          "id": "avda_c3",
+          "text": "Bring Abundant Water and Sun Protection",
+          "detail": "The exposed hilltop offers little shade and desert conditions are extreme; carry at least 2-3 liters of water per person and wear strong sunscreen and a hat."
+        },
+        {
+          "id": "avda_c4",
+          "text": "Learn Nabatean Trade History",
+          "detail": "Understanding that Avdat was a crucial stop on the Incense Route connecting Arabia to Mediterranean ports enriches your appreciation of the site's strategic importance."
+        }
+      ]
+    },
+    {
+      "id": "shivta",
+      "name": "Shivta",
+      "nameIt": "שבטה",
+      "lat": 30.7478,
+      "lng": 34.3564,
+      "type": "LANDMARK",
+      "description": "An exceptionally well-preserved ancient Nabatean city featuring intact Byzantine churches, residential buildings, and sophisticated water-management systems in a remote desert setting. It offers a window into ancient desert civilization with minimal crowds and remarkable architectural details.",
+      "imageQueries": [
+        "Shivta Nabatean city Byzantine churches",
+        "Shivta ancient ruins Negev Israel"
+      ],
+      "activities": [
+        {
+          "id": "shiv_1",
+          "text": "Explore the Northern Church",
+          "detail": "Examine one of three Byzantine churches with remarkably preserved mosaic floors, carved stone crosses, and intact architectural elements spanning the 5th-6th centuries.",
+          "lat": 31.0067,
+          "lng": 34.7572
+        },
+        {
+          "id": "shiv_2",
+          "text": "Tour residential quarters",
+          "detail": "Walk through multi-story Nabatean houses with visible room divisions, stone doorways, and domestic spaces that reveal daily life in an ancient desert settlement.",
+          "lat": 31.0072,
+          "lng": 34.7568
+        },
+        {
+          "id": "shiv_3",
+          "text": "Study water management systems",
+          "detail": "Observe the sophisticated network of channels, cisterns, and collection systems that allowed Nabateans to harvest scarce desert rainfall for agriculture and survival.",
+          "lat": 31.0065,
+          "lng": 34.7575
+        },
+        {
+          "id": "shiv_4",
+          "text": "Visit the Central Church",
+          "detail": "Discover the largest Byzantine structure at Shivta with preserved baptismal font, altar area, and intricate stone carvings demonstrating religious significance.",
+          "lat": 31.0069,
+          "lng": 34.757
+        },
+        {
+          "id": "shiv_5",
+          "text": "Hike surrounding desert landscape",
+          "detail": "Walk the Negev hills around Shivta to experience the harsh terrain the ancients adapted to and appreciate the site's remote strategic location."
+        },
+        {
+          "id": "shiv_6",
+          "text": "Examine grape and wine production remains",
+          "detail": "Identify ancient presses and storage facilities that show how Nabateans cultivated vineyards in the desert using their advanced water techniques."
+        }
+      ],
+      "food": [
+        {
+          "id": "shiv_f1",
+          "text": "Bedouin coffee and dates",
+          "detail": "Seek out traditional strong cardamom-spiced coffee served with fresh or dried dates, a custom unchanged since ancient Nabatean times in desert hospitality."
+        },
+        {
+          "id": "shiv_f2",
+          "text": "Negev lamb dishes",
+          "detail": "Look for locally herded lamb prepared with za'atar and regional herbs at nearby Bedouin communities around the Shivta area."
+        },
+        {
+          "id": "shiv_f3",
+          "text": "Wild herbs and foraged greens",
+          "detail": "Try dishes featuring desert herbs like za'atar, thyme, and oregano that grow in the Negev and connect modern dining to ancient dietary practices."
+        },
+        {
+          "id": "shiv_f4",
+          "text": "Pita bread and olive oil",
+          "detail": "Enjoy fresh pita made by local Bedouins with premium Negev olive oil, a simple combination reflecting millennia of desert staple foods."
+        }
+      ],
+      "culture": [
+        {
+          "id": "shiv_c1",
+          "text": "Visit with a local guide",
+          "detail": "Hire a guide from nearby Bedouin communities or kibbutzim to unlock details about settlement patterns and daily life that aren't visible from signage alone."
+        },
+        {
+          "id": "shiv_c2",
+          "text": "Bring substantial water and sun protection",
+          "detail": "The site is remote and exposed with minimal shade; carry 2+ liters of water, hat, and sunscreen as the Negev desert offers no facilities or respite."
+        },
+        {
+          "id": "shiv_c3",
+          "text": "Respect the archaeological context",
+          "detail": "Walking paths are informal and stones are fragile; stay aware of where you step and refrain from touching mosaics or carved details to preserve this unexcavated site."
+        },
+        {
+          "id": "shiv_c4",
+          "text": "Plan for solitude and quiet reflection",
+          "detail": "Shivta attracts few tourists compared to Nabatean sites like Petra; expect a contemplative experience where you can absorb ancient atmosphere without crowds."
+        }
+      ]
+    },
+    {
+      "id": "makhtesh_ramon",
+      "name": "Makhtesh Ramon",
+      "nameIt": "מכתש רמון",
+      "lat": 30.5986,
+      "lng": 34.7631,
+      "type": "NATURE",
+      "description": "The world's largest erosion crater featuring multicolored geological layers, rare minerals, and otherworldly landscapes visible from the rim and explorable on desert trails. This geological wonder is a paradise for hikers, photographers, and geology enthusiasts.",
+      "imageQueries": [
+        "Makhtesh Ramon crater geological layers",
+        "Ramon crater desert formations Israel"
+      ],
+      "activities": [
+        {
+          "id": "makh_1",
+          "text": "Rim Walk at the Edge",
+          "detail": "Hike the paved and natural trails along the crater's rim for panoramic views of the multicolored geological layers and the vast crater floor below.",
+          "lat": 30.9794,
+          "lng": 34.7619
+        },
+        {
+          "id": "makh_2",
+          "text": "Descent to the Crater Floor",
+          "detail": "Trek down marked trails into the erosion crater itself to experience the otherworldly landscape up close and examine rare minerals and rock formations.",
+          "lat": 30.9693,
+          "lng": 34.7741
+        },
+        {
+          "id": "makh_3",
+          "text": "Uvda Viewpoint Visit",
+          "detail": "Drive or hike to this iconic observation point on the northern rim for some of the most striking sunset and sunrise photography opportunities in the region.",
+          "lat": 30.9969,
+          "lng": 34.7539
+        },
+        {
+          "id": "makh_4",
+          "text": "Geological Exploration Tour",
+          "detail": "Join a guided geology-focused tour to learn about the crater's formation, its unique mineral deposits, and the 250-million-year-old geological history exposed in its walls.",
+          "lat": 30.9693,
+          "lng": 34.7741
+        },
+        {
+          "id": "makh_5",
+          "text": "Photography at Sunrise",
+          "detail": "Arrive before dawn to capture the crater's famous multicolored rock formations illuminated by the rising sun, a prime location for landscape and geological photography.",
+          "lat": 30.9794,
+          "lng": 34.7619
+        },
+        {
+          "id": "makh_6",
+          "text": "Visitor Center Museum",
+          "detail": "Explore the Makhtesh Ramon Visitor Center to view exhibits on the crater's geology, ancient history, and ecology before heading out on trails.",
+          "lat": 30.9656,
+          "lng": 34.7674
+        }
+      ],
+      "food": [
+        {
+          "id": "makh_f1",
+          "text": "Bedouin-Style Lamb Tagine",
+          "detail": "Slow-cooked lamb with dates, apricots, and warming spices, a traditional Negev desert dish served in local restaurants near the visitor center."
+        },
+        {
+          "id": "makh_f2",
+          "text": "Fresh Desert Salads with Za'atar",
+          "detail": "Seasonal vegetables dressed simply with local za'atar herb blend and olive oil, reflecting traditional Bedouin cuisine available at nearby lodges."
+        },
+        {
+          "id": "makh_f3",
+          "text": "Homemade Pita and Local Hummus",
+          "detail": "Warm flatbread paired with creamy hummus prepared using time-honored recipes by Bedouin families in nearby settlements."
+        },
+        {
+          "id": "makh_f4",
+          "text": "Camel Meat Kebab",
+          "detail": "Grilled camel meat kebabs, a regional specialty reflecting the Negev's desert heritage, offered at several local eateries."
+        },
+        {
+          "id": "makh_f5",
+          "text": "Desert Coffee Ceremony",
+          "detail": "Traditional Bedouin coffee (qahwa) served strong and black in small cups, often accompanied by dates, as a symbol of hospitality in the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "makh_c1",
+          "text": "Respect Bedouin Traditions",
+          "detail": "If visiting Bedouin settlements or local camps, dress modestly and ask permission before photographing people or private spaces."
+        },
+        {
+          "id": "makh_c2",
+          "text": "Start Early and Bring Water",
+          "detail": "Begin hikes at dawn to avoid midday desert heat; carry at least 2-3 liters of water per person as the crater offers minimal shade and no water sources."
+        },
+        {
+          "id": "makh_c3",
+          "text": "Hebrew and Arabic Signage",
+          "detail": "Trail signs are posted in Hebrew and Arabic; download offline maps or hire a guide as cell service can be unreliable in the crater."
+        },
+        {
+          "id": "makh_c4",
+          "text": "Sunset as Sacred Time",
+          "detail": "The Negev people often pause at sunset; joining the quiet moment at the rim at day's end is both a practical rest and a respectful cultural acknowledgment of the landscape's spiritual significance."
+        }
+      ]
+    },
+    {
+      "id": "kibbutz_lotan",
+      "name": "Kibbutz Lotan",
+      "nameIt": "קיבוץ לוטן",
+      "lat": 29.8269,
+      "lng": 34.9578,
+      "type": "VILLAGE",
+      "description": "An eco-friendly kibbutz near Eilat known for sustainable living practices, wildlife viewing, and bird-watching sanctuary hosting migratory species. It's an excellent spot for experiencing alternative Israeli community life while observing diverse desert wildlife.",
+      "imageQueries": [
+        "Kibbutz Lotan eco-sustainable Israel",
+        "Lotan bird watching Eilat Negev"
+      ],
+      "activities": [
+        {
+          "id": "kibb_1",
+          "text": "Bird-watching at the Fish Ponds",
+          "detail": "Observe migratory species and resident birds at the kibbutz's constructed wetland ponds, particularly during spring and autumn migration seasons.",
+          "lat": 29.8447,
+          "lng": 34.9389
+        },
+        {
+          "id": "kibb_2",
+          "text": "Ecocenter Tour",
+          "detail": "Learn about Lotan's renewable energy systems, water recycling facilities, and sustainable agriculture practices through guided visits to the kibbutz's green infrastructure.",
+          "lat": 29.8436,
+          "lng": 34.9378
+        },
+        {
+          "id": "kibb_3",
+          "text": "Desert Wildlife Observation",
+          "detail": "Spot ibex, gazelles, and other desert fauna in the surrounding Negev landscape through guided nature walks or self-guided exploration.",
+          "lat": 29.845,
+          "lng": 34.94
+        },
+        {
+          "id": "kibb_4",
+          "text": "Visitors Center Exhibition",
+          "detail": "Explore interactive displays about the kibbutz's eco-initiatives, desert ecology, and the history of kibbutz life in the Negev region."
+        },
+        {
+          "id": "kibb_5",
+          "text": "Sunset Desert Hike",
+          "detail": "Take an evening trek through the surrounding desert terrain to experience the dramatic landscape colors and nocturnal wildlife activity.",
+          "lat": 29.843,
+          "lng": 34.935
+        },
+        {
+          "id": "kibb_6",
+          "text": "Volunteer Work Experience",
+          "detail": "Participate in kibbutz agricultural or environmental projects such as date palm harvesting or habitat restoration work."
+        }
+      ],
+      "food": [
+        {
+          "id": "kibb_f1",
+          "text": "Kibbutz Dining Hall Buffet",
+          "detail": "Experience communal Israeli meals featuring fresh vegetables from Lotan's organic gardens, local dairy products, and traditional kibbutz-style preparations."
+        },
+        {
+          "id": "kibb_f2",
+          "text": "Date Products from Local Palms",
+          "detail": "Sample date spreads, dried dates, and date-based confections produced from the kibbutz's own date palm groves in the Negev."
+        },
+        {
+          "id": "kibb_f3",
+          "text": "Desert Herbs and Salads",
+          "detail": "Enjoy salads and dishes incorporating wild desert herbs and vegetables grown in the kibbutz's sustainable greenhouse systems."
+        },
+        {
+          "id": "kibb_f4",
+          "text": "Freshly Baked Whole Grain Bread",
+          "detail": "Try whole grain and artisanal breads made with flour from grains grown locally or sourced through regional organic networks."
+        },
+        {
+          "id": "kibb_f5",
+          "text": "Negev Goat Cheese",
+          "detail": "Taste locally produced or regionally sourced goat cheese, a specialty of the Negev desert region available at kibbutz dining facilities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kibb_c1",
+          "text": "Respect Kibbutz Daily Rhythms",
+          "detail": "Plan visits around kibbutz schedules; communal meals are typically at set times, and many activities are coordinated with work routines and guest accommodations."
+        },
+        {
+          "id": "kibb_c2",
+          "text": "Sustainable Practice Awareness",
+          "detail": "Engage respectfully with the kibbutz's environmental values by using water conservatively, following posted guidelines, and participating mindfully in eco-tours."
+        },
+        {
+          "id": "kibb_c3",
+          "text": "Early Morning Observation",
+          "detail": "Arrive at bird-watching areas before dawn when migratory species are most active and the desert light is optimal for wildlife photography."
+        },
+        {
+          "id": "kibb_c4",
+          "text": "Guest Accommodation Etiquette",
+          "detail": "Lotan welcomes visitors and volunteers; book accommodations in advance, respect communal spaces, and be prepared for modest guest facilities aligned with kibbutz values."
+        }
+      ]
+    },
+    {
+      "id": "nabatean_incense_route",
+      "name": "Nabatean Incense Route",
+      "nameIt": "דרך קטורת נבטים",
+      "lat": 30.75,
+      "lng": 34.5,
+      "type": "LANDMARK",
+      "description": "A UNESCO World Heritage trade route connecting four ancient Nabatean cities across the Negev, featuring numerous archaeological sites and hiking trails through desert history. This cultural landscape offers both educational insights and stunning desert scenery linking ancient commerce routes.",
+      "imageQueries": [
+        "Nabatean Incense Route UNESCO heritage",
+        "Nabatean cities Negev Israel ancient route"
+      ],
+      "activities": [
+        {
+          "id": "naba_1",
+          "text": "Explore Avdat ruins",
+          "detail": "Walk through the remains of this major Nabatean city perched on a hilltop with terraced vineyards, cisterns, and Byzantine churches offering panoramic desert views.",
+          "lat": 31.0417,
+          "lng": 34.4208
+        },
+        {
+          "id": "naba_2",
+          "text": "Trek the Incense Route hiking trail",
+          "detail": "Follow the ancient trade route on foot between the four UNESCO cities of Avdat, Mamshit, Shivta, and Halutza through marked desert pathways."
+        },
+        {
+          "id": "naba_3",
+          "text": "Tour Mamshit archaeological site",
+          "detail": "Discover this well-preserved Nabatean city with intact streets, residences, temples, and a caravanserai showcasing daily life and commerce infrastructure.",
+          "lat": 31.0208,
+          "lng": 34.7219
+        },
+        {
+          "id": "naba_4",
+          "text": "Visit Shivta Byzantine churches",
+          "detail": "Examine three standing Byzantine churches built atop Nabatean foundations, featuring original stone architecture and intricate channel systems for water management.",
+          "lat": 31.0133,
+          "lng": 34.6394
+        },
+        {
+          "id": "naba_5",
+          "text": "Camp in the Negev desert",
+          "detail": "Stay overnight at designated sites near the route to experience the desert landscape as ancient merchants did and observe star-filled night skies."
+        },
+        {
+          "id": "naba_6",
+          "text": "Visit the Incense Route Museum in Mitzpe Ramon",
+          "detail": "Learn the history of Nabatean trade, see artifacts including incense vessels and coins, and understand the route's economic importance.",
+          "lat": 31.0425,
+          "lng": 34.7625
+        },
+        {
+          "id": "naba_7",
+          "text": "Hike to Halutza ruins",
+          "detail": "Trek across sand dunes to this remote Nabatean city partially buried in sand, featuring only visible architectural foundations and ancient cisterns.",
+          "lat": 31.0042,
+          "lng": 34.5525
+        }
+      ],
+      "food": [
+        {
+          "id": "naba_f1",
+          "text": "Bedouin-style zarb (buried meat)",
+          "detail": "Tender lamb or chicken slow-cooked underground with vegetables in the traditional method still used by local Bedouin communities in the Negev."
+        },
+        {
+          "id": "naba_f2",
+          "text": "Hummus with Za'atar and local olive oil",
+          "detail": "Creamy chickpea dip topped with the regional herb blend za'atar and premium Negev olive oil, served with fresh pita bread."
+        },
+        {
+          "id": "naba_f3",
+          "text": "Date-filled ma'amoul cookies",
+          "detail": "Traditional Nabatean and Arab sweet cookies stuffed with dates and spices, reflecting the region's historical importance in date trade."
+        },
+        {
+          "id": "naba_f4",
+          "text": "Goat cheese from local kibbutzim",
+          "detail": "Fresh or aged goat cheese produced by settlements in the Negev, often served with local herbs and accompanying the region's ancient dairy traditions."
+        },
+        {
+          "id": "naba_f5",
+          "text": "Bedouin coffee and cardamom",
+          "detail": "Strong, bitter coffee infused with cardamom seeds served in small cups as a gesture of hospitality, continuing customs observed along the ancient trade routes."
+        },
+        {
+          "id": "naba_f6",
+          "text": "Negev wine tasting",
+          "detail": "Sample wines from local Negev vineyards planted in ancient Nabatean terraced fields, connecting modern viticulture to 2,000-year-old agricultural practices."
+        }
+      ],
+      "culture": [
+        {
+          "id": "naba_c1",
+          "text": "Respect Bedouin customs if visiting inhabited areas",
+          "detail": "Greet Bedouin communities with appropriate Arabic phrases and accept offered tea or coffee as a sign of respect for their continued presence on ancestral lands."
+        },
+        {
+          "id": "naba_c2",
+          "text": "Visit in cooler months (October-April)",
+          "detail": "The desert heat is extreme in summer months; local guides and inhabitants recommend planning visits during autumn through spring for safety and comfort."
+        },
+        {
+          "id": "naba_c3",
+          "text": "Hire local Bedouin guides",
+          "detail": "Experienced guides from nearby Bedouin communities offer invaluable insights into both archaeological sites and traditional desert navigation techniques."
+        },
+        {
+          "id": "naba_c4",
+          "text": "Wear modest clothing and sunprotection",
+          "detail": "Long, light-colored clothing is culturally appropriate when visiting communities and essential for sun protection in the intense desert environment."
+        }
+      ]
+    },
+    {
+      "id": "palmachim_winery",
+      "name": "Palmachim Desert Winery",
+      "nameIt": "יקבי פלמחים",
+      "lat": 30.9894,
+      "lng": 34.6694,
+      "type": "LANDMARK",
+      "description": "A pioneering Negev winery producing award-winning wines from desert grapes, with tasting rooms and dining experiences showcasing the region's emerging wine culture. It represents modern Israeli agricultural innovation in the arid climate.",
+      "imageQueries": [
+        "Palmachim Negev desert winery tasting",
+        "Israeli desert wine Negev vineyard"
+      ],
+      "activities": [
+        {
+          "id": "palm_1",
+          "text": "Wine Tasting Tour",
+          "detail": "Sample Palmachim's signature desert wines including Cabernet Sauvignon and Chardonnay while learning about their winemaking process adapted to the Negev's extreme climate.",
+          "lat": 31.3667,
+          "lng": 34.7333
+        },
+        {
+          "id": "palm_2",
+          "text": "Vineyard Walking Tour",
+          "detail": "Stroll through the actual grape-growing fields to understand how the winery manages irrigation and heat stress in the desert environment.",
+          "lat": 31.3667,
+          "lng": 34.7333
+        },
+        {
+          "id": "palm_3",
+          "text": "Dining Experience at Winery Restaurant",
+          "detail": "Enjoy a meal paired with Palmachim wines while overlooking the Negev landscape, featuring locally-sourced ingredients and Mediterranean cuisine.",
+          "lat": 31.3667,
+          "lng": 34.7333
+        },
+        {
+          "id": "palm_4",
+          "text": "Desert Sunset Wine Bar",
+          "detail": "Relax on the terrace during golden hour with a glass of wine and appetizers while watching the sun set over the Negev plains."
+        },
+        {
+          "id": "palm_5",
+          "text": "Winemaking Workshop",
+          "detail": "Participate in seasonal activities such as grape harvest education or blending demonstrations to understand viticulture in desert conditions."
+        }
+      ],
+      "food": [
+        {
+          "id": "palm_f1",
+          "text": "Goat Cheese and Date Pairing",
+          "detail": "Local Negev goat cheese paired with fresh dates and Palmachim wine, highlighting the region's agricultural products in a simple, elegant combination."
+        },
+        {
+          "id": "palm_f2",
+          "text": "Lamb Tagine with Desert Herbs",
+          "detail": "Slow-cooked lamb infused with thyme and rosemary native to the Negev, served at the winery restaurant and paired with red wine selections."
+        },
+        {
+          "id": "palm_f3",
+          "text": "Hummus and Pita from Regional Producers",
+          "detail": "Creamy hummus made from local chickpeas served with warm pita bread, a staple accompaniment to wine tastings and light lunches."
+        },
+        {
+          "id": "palm_f4",
+          "text": "Negev Salad with Wild Herbs",
+          "detail": "Fresh seasonal vegetables combined with foraged desert herbs like za'atar and mint, dressed simply to complement white wine pairings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "palm_c1",
+          "text": "Dress for Desert Heat",
+          "detail": "Wear lightweight, light-colored clothing and bring a hat and sunscreen, as the Negev receives intense sun exposure even in cooler months."
+        },
+        {
+          "id": "palm_c2",
+          "text": "Respect Tasting Room Hours",
+          "detail": "Visits typically require advance booking or reservation, particularly during peak summer season, as the winery operates with limited touring groups."
+        },
+        {
+          "id": "palm_c3",
+          "text": "Hebrew Language Appreciation",
+          "detail": "While English is spoken, learning basic Hebrew phrases for wine terms and greetings shows respect and enhances interactions with staff."
+        },
+        {
+          "id": "palm_c4",
+          "text": "Celebrate Israeli Wine Pride",
+          "detail": "Palmachim represents modern Israeli innovation and agricultural resilience in harsh climates; visitors should appreciate this context when discussing wines with staff."
+        }
+      ]
+    },
+    {
+      "id": "white_canyon",
+      "name": "White Canyon",
+      "nameIt": "קניון לבן",
+      "lat": 30.7139,
+      "lng": 34.3417,
+      "type": "NATURE",
+      "description": "A stunning slot canyon with chalk-white walls and a flowing stream through the desert, offering an unusual and refreshing hiking experience amid dramatic geological formations. The contrasting white rocks and water create a surreal oasis landscape in the arid Negev.",
+      "imageQueries": [
+        "White Canyon Negev chalk walls stream",
+        "Nachal Qanyon white canyon Israel hiking"
+      ],
+      "activities": [
+        {
+          "id": "whit_1",
+          "text": "Slot Canyon Hiking",
+          "detail": "Wade and scramble through the narrow white chalk canyon following the stream that flows year-round, navigating natural pools and geological formations.",
+          "lat": 31.0342,
+          "lng": 34.7658
+        },
+        {
+          "id": "whit_2",
+          "text": "Chalk Wall Photography",
+          "detail": "Capture the dramatic contrast between the brilliant white canyon walls and the flowing water, especially striking during golden hour light."
+        },
+        {
+          "id": "whit_3",
+          "text": "Stream Swimming",
+          "detail": "Cool off in the natural pools scattered throughout the canyon, which provide refreshing respite from the surrounding desert heat."
+        },
+        {
+          "id": "whit_4",
+          "text": "Geological Observation",
+          "detail": "Study the exposed chalk and limestone layers that reveal millions of years of geological history and the unique erosion patterns that created the slot canyon."
+        },
+        {
+          "id": "whit_5",
+          "text": "Desert Oasis Exploration",
+          "detail": "Observe the unique desert vegetation and wildlife adapted to the microclimate around the permanent water source within the arid Negev landscape."
+        },
+        {
+          "id": "whit_6",
+          "text": "Sunrise Hike",
+          "detail": "Start early to experience the canyon with minimal crowds and watch the morning light gradually illuminate the white walls with warm golden tones."
+        }
+      ],
+      "food": [
+        {
+          "id": "whit_f1",
+          "text": "Bedouin Coffee",
+          "detail": "Enjoy strong, cardamom-infused Arabic coffee served in small cups by local Bedouin guides or at nearby encampments in the Negev region."
+        },
+        {
+          "id": "whit_f2",
+          "text": "Pita and Hummus",
+          "detail": "Pack or purchase fresh pita bread with creamy hummus made locally, a staple fuel for desert hikers throughout the Negev."
+        },
+        {
+          "id": "whit_f3",
+          "text": "Labneh",
+          "detail": "Bring this tangy strained yogurt cheese, a protein-rich Negev staple that travels well and provides sustenance during canyon exploration."
+        },
+        {
+          "id": "whit_f4",
+          "text": "Date Bars",
+          "detail": "Sample locally-made date confections and energy bars prepared by Bedouin communities, perfect for trail snacking."
+        },
+        {
+          "id": "whit_f5",
+          "text": "Fresh Mint Tea",
+          "detail": "Sip refreshing mint tea prepared with water from the canyon stream, a cooling and traditional Negev desert beverage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "whit_c1",
+          "text": "Respect Flash Flood Warnings",
+          "detail": "Always check weather conditions before entering the canyon as rare but intense rainfall in winter can cause dangerous flash floods that sweep through the slot canyon rapidly."
+        },
+        {
+          "id": "whit_c2",
+          "text": "Hire a Local Guide",
+          "detail": "Consider engaging a Bedouin guide from the nearby communities who possess intimate knowledge of safe routes, water sources, and local history of the canyon."
+        },
+        {
+          "id": "whit_c3",
+          "text": "Practice Leave-No-Trace Hiking",
+          "detail": "The fragile desert ecosystem and pristine white canyon require visitors to pack out all trash and avoid damaging vegetation around the stream."
+        },
+        {
+          "id": "whit_c4",
+          "text": "Dress Modestly",
+          "detail": "When interacting with Bedouin communities in the region, modest clothing is appreciated as a sign of respect for local cultural and religious customs."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Tura",
+      "address": "Derech Eilat 40, Beersheba",
+      "neighbourhood": "Beersheba",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Award-winning restaurant showcasing modern Mediterranean cuisine with seasonal local ingredients and creative plating.",
+      "mustOrder": "Roasted lamb with seasonal vegetables",
+      "lat": 31.2508,
+      "lng": 34.7914
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Hakosem",
+      "address": "Derech Eilat 12, Beersheba",
+      "neighbourhood": "Beersheba",
+      "cuisine": "Israeli",
+      "priceRange": "€€",
+      "description": "Casual Israeli grill restaurant famous for quality meat dishes and traditional side dishes in a relaxed atmosphere.",
+      "mustOrder": "Lamb chops with tehina",
+      "lat": 31.2501,
+      "lng": 34.7898
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Café Café",
+      "address": "Hertzel Street, Beersheba",
+      "neighbourhood": "Beersheba",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Popular all-day dining spot serving brunch, pasta, and salads with a vibrant café atmosphere.",
+      "mustOrder": "Benedict eggs with smoked salmon",
+      "lat": 31.252,
+      "lng": 34.7925
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Sapir Winery Restaurant",
+      "address": "Kibbutz Sapir, Moshav Road, Negev Region",
+      "neighbourhood": "Kibbutz Sapir",
+      "cuisine": "Israeli/Fusion",
+      "priceRange": "€€€",
+      "description": "Farm-to-table dining experience featuring locally-sourced ingredients paired with the kibbutz's own wines.",
+      "mustOrder": "Herb-crusted fish with wine reduction",
+      "lat": 31.4202,
+      "lng": 34.7698
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Eucalyptus",
+      "address": "Ha'oved Street, Mitzpe Ramon",
+      "neighbourhood": "Mitzpe Ramon",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant with panoramic views of the Ramon Crater, serving contemporary Mediterranean cuisine.",
+      "mustOrder": "Seared tuna with local herbs",
+      "lat": 30.8192,
+      "lng": 34.7642
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Nana's Bakery & Café",
+      "address": "Nahal Negev Street, Mitzpe Ramon",
+      "neighbourhood": "Mitzpe Ramon",
+      "cuisine": "Bakery/Café",
+      "priceRange": "€",
+      "description": "Charming bakery café known for fresh pastries, coffee, and homemade sandwiches with desert views.",
+      "mustOrder": "Freshly baked croissants",
+      "lat": 30.821,
+      "lng": 34.7655
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Mitzpe Negev Restaurant",
+      "address": "Derech Eilat, Sde Boker",
+      "neighbourhood": "Sde Boker",
+      "cuisine": "Israeli",
+      "priceRange": "€€",
+      "description": "Family-friendly kibbutz restaurant offering traditional Israeli fare with a focus on local produce and homestyle cooking.",
+      "mustOrder": "Chicken schnitzel with roasted potatoes",
+      "lat": 31.0361,
+      "lng": 34.7631
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "The Negev Visitor Center Restaurant",
+      "address": "Kibbutz Nir-Am, Junction 40, Negev",
+      "neighbourhood": "Kibbutz Nir-Am",
+      "cuisine": "Israeli",
+      "priceRange": "€€",
+      "description": "Casual visitor center restaurant serving wholesome Israeli dishes in a welcoming kibbutz setting.",
+      "mustOrder": "Israeli salad plate with hummus and pita",
+      "lat": 31.6147,
+      "lng": 34.3858
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Shuka Negev Market",
+      "address": "Derech Eilat 56, Beersheba",
+      "neighbourhood": "Beersheba",
+      "cuisine": "Street Food/Market",
+      "priceRange": "€",
+      "description": "Vibrant market restaurant offering fresh Mediterranean street food, grilled items, and casual dining.",
+      "mustOrder": "Sabich (roasted eggplant sandwich)",
+      "lat": 31.251,
+      "lng": 34.791
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Pascale's Table",
+      "address": "Moshe Dayan Street, Beersheba",
+      "neighbourhood": "Beersheba",
+      "cuisine": "French-Mediterranean",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment featuring classic French technique with Mediterranean influences and an extensive wine list.",
+      "mustOrder": "Duck confit with berry gastrique",
+      "lat": 31.2515,
+      "lng": 34.7945
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Abu Shukri's",
+      "address": "HaAtzmaut Street, Arad",
+      "neighbourhood": "Arad",
+      "cuisine": "Palestinian/Israeli",
+      "priceRange": "€",
+      "description": "Historic hummus and falafel stand famous for authentic Palestinian recipes and generous portions.",
+      "mustOrder": "Hummus special with warm pita",
+      "lat": 31.9476,
+      "lng": 35.2095
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Temptation Restaurant",
+      "address": "Ben Gurion Boulevard, Arad",
+      "neighbourhood": "Arad",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale desert restaurant combining Mediterranean flavors with modern presentation and attentive service.",
+      "mustOrder": "Lamb tajine with dates and almonds",
+      "lat": 31.9488,
+      "lng": 35.211
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Café Ktsot",
+      "address": "Negev Shalom Street, Ofakim",
+      "neighbourhood": "Ofakim",
+      "cuisine": "International/Café",
+      "priceRange": "€€",
+      "description": "Contemporary café and restaurant offering diverse international menu with local Israeli specialties.",
+      "mustOrder": "Shakshuka with spiced tomato sauce",
+      "lat": 31.3103,
+      "lng": 34.6142
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Manta Ray Restaurant",
+      "address": "Eilat Coastal Road, Eilat",
+      "neighbourhood": "Eilat",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Waterfront seafood restaurant with Red Sea views, specializing in fresh fish and international preparations.",
+      "mustOrder": "Grilled sea bass with lemon butter",
+      "lat": 29.5577,
+      "lng": 34.9478
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Blue Hole Diving & Restaurant",
+      "address": "Coral Beach, Eilat",
+      "neighbourhood": "Eilat",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€",
+      "description": "Casual beachfront restaurant with direct access to diving sites, serving Mediterranean cuisine with fresh seafood.",
+      "mustOrder": "Mixed grill platter with tahini sauce",
+      "lat": 29.5042,
+      "lng": 34.9233
+    }
+  ]
+}

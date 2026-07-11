@@ -1,0 +1,1521 @@
+{
+  "id": "northeast",
+  "name": "Northeast",
+  "nameIt": "Đông Bắc",
+  "capital": "Hai Phong",
+  "lat": 20.9,
+  "lng": 106.7,
+  "emoji": "🏔️",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 21.9,
+    "south": 20.2,
+    "east": 107.6,
+    "west": 105.6
+  },
+  "history": "The Northeast region of Vietnam, also known as Đông Bắc, holds profound historical significance as the heartland of Vietnamese resistance and independence. This area witnessed pivotal moments in Vietnam's struggle against French colonialism, with Hà Giang and Cao Bằng serving as bases for revolutionary movements in the early 20th century. The region was instrumental during the First Indochina War, particularly following the decisive Battle of Điện Biên Phủ in 1954, which effectively ended French colonial rule. The Northeast's rugged terrain and strategic position have made it a cultural and political cornerstone throughout Vietnamese history.",
+  "culturalNotes": "The Northeast is renowned for its breathtaking karst landscapes, including the famous Hạ Long Bay with its limestone cliffs and emerald waters, alongside vibrant ethnic minority communities such as the Tày, Nùng, and H'Mông peoples. The region maintains strong traditions of handicrafts, particularly silk weaving and stone carving, while its cuisine features distinctive flavors emphasizing fresh herbs, river fish, and locally grown rice. The area's character is defined by its blend of natural beauty, historical depth, and the warm hospitality of its diverse populations who have preserved traditional ways of life for generations.",
+  "bestTimeToVisit": "October to April provides pleasant weather for visiting Ha Long Bay and exploring limestone karsts.",
+  "languageNotes": "While Vietnamese is the primary language, the Northeast is home to numerous ethnic minority languages including Tày, Nùng, and various H'Mông dialects that reflect the region's cultural diversity. Local dialects of Vietnamese spoken in the Northeast carry distinct phonetic characteristics, and visitors will find that learning basic Mandarin or French phrases alongside Vietnamese can be helpful in remote mountainous areas where older generations may speak these languages.",
+  "generatedAt": "2026-07-11T17:49:12.432Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "ha_long_bay",
+      "name": "Ha Long Bay",
+      "nameIt": "Vịnh Hạ Long",
+      "lat": 20.9101,
+      "lng": 107.1839,
+      "type": "COASTAL",
+      "description": "A UNESCO World Heritage Site featuring thousands of limestone karsts rising from emerald waters, creating one of Southeast Asia's most iconic seascapes. Visitors explore by cruise, kayak, and visit floating villages and caves.",
+      "imageQueries": [
+        "Ha Long Bay limestone karsts",
+        "Ha Long Bay cruise Vietnam"
+      ],
+      "activities": [
+        {
+          "id": "ha_l_1",
+          "text": "Cruise through Karst Formations",
+          "detail": "Navigate between thousands of limestone peaks on a traditional junk boat or modern cruise, passing through narrow channels and beneath towering cliffs.",
+          "lat": 20.8105,
+          "lng": 107.1839
+        },
+        {
+          "id": "ha_l_2",
+          "text": "Explore Sung Sot Cave",
+          "detail": "Visit one of Ha Long Bay's largest and most impressive caves, featuring stalactites, stalagmites, and two grand chambers with scenic views from the entrance.",
+          "lat": 20.8167,
+          "lng": 107.1667
+        },
+        {
+          "id": "ha_l_3",
+          "text": "Kayak to Quiet Lagoons",
+          "detail": "Paddle through serene emerald waters surrounded by karsts, accessing smaller hidden coves and lagoons unreachable by larger boats.",
+          "lat": 20.82,
+          "lng": 107.17
+        },
+        {
+          "id": "ha_l_4",
+          "text": "Visit Floating Villages",
+          "detail": "Tour traditional fishing communities like Cat Ba and Cua Van, where residents live in wooden boats and fish farms, offering insight into local maritime life.",
+          "lat": 20.8317,
+          "lng": 107.0383
+        },
+        {
+          "id": "ha_l_5",
+          "text": "Climb Ti Top Island",
+          "detail": "Hike to the summit of this small island for panoramic views of Ha Long Bay's karst landscape and the surrounding seascape.",
+          "lat": 20.85,
+          "lng": 107.1833
+        },
+        {
+          "id": "ha_l_6",
+          "text": "Explore Thien Cung Cave",
+          "detail": "Discover this smaller but atmospheric cave accessible by boat, featuring impressive rock formations and a freshwater pool inside.",
+          "lat": 20.815,
+          "lng": 107.175
+        },
+        {
+          "id": "ha_l_7",
+          "text": "Visit Dao Titop Beach",
+          "detail": "Relax on this sandy beach nestled between karsts, ideal for swimming and as a lunch stop on day cruises."
+        }
+      ],
+      "food": [
+        {
+          "id": "ha_l_f1",
+          "text": "Fresh Seafood Hot Pot",
+          "detail": "A communal bubbling broth filled with local catches including fish, shrimp, squid, and crab, cooked tableside and dipped in fish sauce or peanut sauce."
+        },
+        {
+          "id": "ha_l_f2",
+          "text": "Halong Bay Squid",
+          "detail": "Grilled or stir-fried fresh squid caught daily by local fishermen, often seasoned simply with garlic, chili, and lime to highlight its tender sweetness."
+        },
+        {
+          "id": "ha_l_f3",
+          "text": "Shrimp Paste Rice",
+          "detail": "Steamed rice served with a pungent shrimp paste (mam tom) mixed with lime, chili, and herbs, representing authentic local fisherman cuisine."
+        },
+        {
+          "id": "ha_l_f4",
+          "text": "Crab Fried Rice",
+          "detail": "Fragrant rice stir-fried with fresh lump crab meat, egg, and scallions, commonly served on cruises as a signature dish."
+        },
+        {
+          "id": "ha_l_f5",
+          "text": "Fish Cake Soup",
+          "detail": "A light broth with chewy homemade fish cakes (cha ca), fresh herbs, and vegetables, popular as a breakfast or light lunch option."
+        },
+        {
+          "id": "ha_l_f6",
+          "text": "Grilled Fish with Dill",
+          "detail": "Whole fresh fish from the bay grilled over charcoal and served with fresh dill, lime, and a dipping sauce of fish sauce and chili."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ha_l_c1",
+          "text": "Respect Floating Village Customs",
+          "detail": "Ask permission before photographing residents or entering homes, avoid loud behavior, and purchase items directly from villagers rather than middlemen to support the community."
+        },
+        {
+          "id": "ha_l_c2",
+          "text": "Dress Modestly on Cruises",
+          "detail": "While swimwear is acceptable at designated beach stops, wear respectful clothing when visiting caves or villages and temples to show cultural sensitivity."
+        },
+        {
+          "id": "ha_l_c3",
+          "text": "Bargain Politely at Markets",
+          "detail": "Light haggling is expected at floating markets and souvenir stalls, but remain friendly and respectful; aggressive negotiation is considered rude."
+        },
+        {
+          "id": "ha_l_c4",
+          "text": "Follow Cave Etiquette",
+          "detail": "Stay with your guide, do not touch stalactites or formations, and keep noise minimal to preserve the natural environment and respect the sacred significance of these spaces to locals."
+        }
+      ]
+    },
+    {
+      "id": "hai_phong",
+      "name": "Hai Phong",
+      "nameIt": "Hải Phòng",
+      "lat": 20.8445,
+      "lng": 106.6839,
+      "type": "CITY",
+      "description": "Vietnam's major northern port city and gateway to Ha Long Bay, known for its French colonial architecture, bustling seafood markets, and vibrant waterfront. It serves as the primary jumping-off point for Ha Long Bay tours.",
+      "imageQueries": [
+        "Hai Phong city Vietnam",
+        "Hai Phong colonial architecture"
+      ],
+      "activities": [
+        {
+          "id": "hai__1",
+          "text": "Ha Long Bay Day Tour",
+          "detail": "Take a guided cruise from Hai Phong port to explore the UNESCO World Heritage limestone karsts, emerald waters, and floating villages of Ha Long Bay, typically a full-day excursion.",
+          "lat": 20.8517,
+          "lng": 107.1838
+        },
+        {
+          "id": "hai__2",
+          "text": "Du Hang Pagoda",
+          "detail": "Visit this 14th-century Buddhist temple carved into a cave at the base of a limestone mountain, featuring intricate altar chambers and peaceful meditation spaces.",
+          "lat": 20.8267,
+          "lng": 106.7383
+        },
+        {
+          "id": "hai__3",
+          "text": "Hai Phong Opera House",
+          "detail": "Admire this elegant French colonial building completed in 1912, featuring neoclassical architecture with a yellow and white facade, located in the city center.",
+          "lat": 20.8533,
+          "lng": 106.6825
+        },
+        {
+          "id": "hai__4",
+          "text": "Ngo Mon Gate & City Walls",
+          "detail": "Explore the restored gates and remnants of the old walled citadel that once protected the colonial-era city center.",
+          "lat": 20.8567,
+          "lng": 106.6883
+        },
+        {
+          "id": "hai__5",
+          "text": "Hai Phong Night Market",
+          "detail": "Wander through the lively evening market near Quang Trung street selling fresh seafood, produce, textiles, and street food snacks.",
+          "lat": 20.8508,
+          "lng": 106.6842
+        },
+        {
+          "id": "hai__6",
+          "text": "Cat Ba Island Exploration",
+          "detail": "Take a short ferry from Hai Phong to explore Cat Ba Island's beaches, hiking trails, and seaside towns as a scenic alternative to Ha Long Bay.",
+          "lat": 20.7225,
+          "lng": 107.0408
+        }
+      ],
+      "food": [
+        {
+          "id": "hai__f1",
+          "text": "Crab Soup (Canh Cua)",
+          "detail": "A signature Hai Phong dish featuring tender crab meat in a light, aromatic broth infused with herbs and vegetables, best enjoyed fresh at waterfront restaurants."
+        },
+        {
+          "id": "hai__f2",
+          "text": "Grilled Squid (Mực Nướng)",
+          "detail": "Fresh local squid caught from the Gulf of Tonkin, grilled over charcoal and seasoned simply with salt, pepper, and lime, a staple at seafood markets and beach stalls."
+        },
+        {
+          "id": "hai__f3",
+          "text": "Shrimp Cakes (Bánh Cuốn Tôm)",
+          "detail": "Thin rice paper rolls filled with ground shrimp, pork, and herbs, typically served with dipping sauce and found at local street vendors throughout the city."
+        },
+        {
+          "id": "hai__f4",
+          "text": "Red Snapper (Cá Hồng Nướng)",
+          "detail": "Whole fresh red snapper from local waters, grilled or steamed with ginger and scallions, commonly featured at Hai Phong's acclaimed seafood establishments."
+        },
+        {
+          "id": "hai__f5",
+          "text": "Hai Phong Clams (Nghêu Hấp)",
+          "detail": "Fresh clams steamed with lemongrass, garlic, and chili, reflecting the city's deep connection to coastal seafood traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hai__c1",
+          "text": "Respect Temple Customs",
+          "detail": "Remove shoes and speak softly when visiting Buddhist temples like Du Hang Pagoda, and avoid pointing at religious statues or altars."
+        },
+        {
+          "id": "hai__c2",
+          "text": "Haggle at Markets",
+          "detail": "Friendly bargaining is expected and appreciated at night markets and seafood vendors; starting at 70-80% of the asking price is customary."
+        },
+        {
+          "id": "hai__c3",
+          "text": "Seafood Freshness Protocol",
+          "detail": "When dining at waterfront restaurants, it is common and encouraged to select your own live seafood from tanks before cooking to ensure peak freshness."
+        },
+        {
+          "id": "hai__c4",
+          "text": "Colonial Architecture Pride",
+          "detail": "Locals are proud of Hai Phong's French colonial heritage; showing interest in the historic buildings and discussing the city's architectural significance is appreciated."
+        }
+      ]
+    },
+    {
+      "id": "cat_ba_island",
+      "name": "Cat Ba Island",
+      "nameIt": "Đảo Cát Bà",
+      "lat": 20.7206,
+      "lng": 107.0608,
+      "type": "ISLAND",
+      "description": "The largest island in Ha Long Bay with dramatic cliffs, pristine beaches, and adventure activities like rock climbing and trekking through national parks. It offers a more relaxed alternative to cruise tourism with stunning views.",
+      "imageQueries": [
+        "Cat Ba Island Vietnam",
+        "Cat Ba climbing cliffs"
+      ],
+      "activities": [
+        {
+          "id": "cat__1",
+          "text": "Rock Climbing at Cat Ba Island",
+          "detail": "Scale the dramatic limestone cliffs with guided climbing routes ranging from beginner to advanced levels, offering stunning views of Ha Long Bay.",
+          "lat": 20.7847,
+          "lng": 106.3789
+        },
+        {
+          "id": "cat__2",
+          "text": "Cat Ba National Park Trekking",
+          "detail": "Hike through dense jungle trails in the national park to spot rare wildlife including the endangered Cat Ba langur and reach scenic viewpoints overlooking the bay.",
+          "lat": 20.7682,
+          "lng": 106.3582
+        },
+        {
+          "id": "cat__3",
+          "text": "Cannon Fort (Pháo Đài)",
+          "detail": "Explore this French colonial-era military fortress with bunkers and tunnels offering panoramic views of Cat Ba Island and surrounding waters.",
+          "lat": 20.8107,
+          "lng": 106.3759
+        },
+        {
+          "id": "cat__4",
+          "text": "Kayaking in Ha Long Bay",
+          "detail": "Paddle through limestone karsts and hidden lagoons, visiting floating villages and exploring sea caves inaccessible by larger boats.",
+          "lat": 20.822,
+          "lng": 106.385
+        },
+        {
+          "id": "cat__5",
+          "text": "Cat Ba Beach Swimming",
+          "detail": "Relax on the island's main sandy beach with calm waters ideal for swimming and sunbathing, lined with local restaurants and bars.",
+          "lat": 20.8167,
+          "lng": 106.3783
+        },
+        {
+          "id": "cat__6",
+          "text": "Hospital Cave (Hang Spital)",
+          "detail": "Visit this historic cave used as a secret hospital during the French Indochina War, accessible by a scenic trek through the national park.",
+          "lat": 20.768,
+          "lng": 106.351
+        },
+        {
+          "id": "cat__7",
+          "text": "Monkey Island Day Trip",
+          "detail": "Take a boat excursion to this nearby islet where you can observe troops of macaques in their natural habitat and enjoy pristine beaches.",
+          "lat": 20.795,
+          "lng": 106.348
+        }
+      ],
+      "food": [
+        {
+          "id": "cat__f1",
+          "text": "Fresh Seafood Grilled at Beachside Restaurants",
+          "detail": "Order locally-caught fish, squid, shrimp, and crab grilled to order with salt and lime, a signature dining experience on Cat Ba's waterfront."
+        },
+        {
+          "id": "cat__f2",
+          "text": "Bánh Mì Crab",
+          "detail": "A local variation of Vietnamese banh mi sandwich filled with fresh crab meat, pâté, and pickled vegetables, commonly sold by street vendors."
+        },
+        {
+          "id": "cat__f3",
+          "text": "Mussels and Sea Urchin at Floating Fish Farms",
+          "detail": "Visit working fish farms where you can eat ultra-fresh mussels and sea urchin prepared simply with garlic and herbs, harvested moments before cooking."
+        },
+        {
+          "id": "cat__f4",
+          "text": "Cơm Niêu (Clay Pot Rice)",
+          "detail": "A local comfort food where fragrant rice is cooked in a clay pot with pork, chicken, or seafood, creating a crispy, flavorful bottom layer."
+        },
+        {
+          "id": "cat__f5",
+          "text": "Fresh Fruit Smoothies",
+          "detail": "Enjoy blended drinks made with tropical fruits like passion fruit, mango, and papaya, sold at beachside cafes and local juice stands."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cat__c1",
+          "text": "Respect Local Fishing Communities",
+          "detail": "Cat Ba's economy depends on fishing; be respectful when photographing fishermen or visiting floating villages, and consider purchasing seafood directly from local vendors."
+        },
+        {
+          "id": "cat__c2",
+          "text": "Learn Basic Vietnamese Phrases",
+          "detail": "While tourism is growing, English is limited outside main tourist areas; learning simple greetings and food words in Vietnamese is appreciated by locals."
+        },
+        {
+          "id": "cat__c3",
+          "text": "Dress Modestly at Sacred Sites",
+          "detail": "When visiting temples or cultural heritage sites like Cannon Fort, wear respectful clothing covering shoulders and knees out of cultural courtesy."
+        },
+        {
+          "id": "cat__c4",
+          "text": "Support Sustainable Tourism Practices",
+          "detail": "Choose eco-friendly tour operators and avoid single-use plastics to help preserve the island's delicate limestone ecosystem and marine environment."
+        }
+      ]
+    },
+    {
+      "id": "quang_ninh",
+      "name": "Quang Ninh",
+      "nameIt": "Quảng Ninh",
+      "lat": 20.9401,
+      "lng": 107.0722,
+      "type": "CITY",
+      "description": "The coastal province containing Ha Long Bay and offering access to pristine beaches, island-hopping opportunities, and outdoor adventures. It's ideal for travelers seeking nature-based exploration beyond the typical bay cruise.",
+      "imageQueries": [
+        "Quang Ninh province Vietnam",
+        "Quang Ninh coast beaches"
+      ],
+      "activities": [
+        {
+          "id": "quan_1",
+          "text": "Ha Long Bay Cruise",
+          "detail": "Explore the UNESCO World Heritage limestone karsts and emerald waters via traditional junk boat or modern catamaran, often including stops at Surprise Cave and floating villages.",
+          "lat": 20.8517,
+          "lng": 107.1828
+        },
+        {
+          "id": "quan_2",
+          "text": "Cat Ba Island Trekking",
+          "detail": "Hike through Cat Ba National Park's dense forests and limestone peaks, with trails offering views of the Gulf of Tonkin and opportunities to spot rare wildlife.",
+          "lat": 20.7238,
+          "lng": 107.0404
+        },
+        {
+          "id": "quan_3",
+          "text": "Bai Tu Long Bay Island Hopping",
+          "detail": "Visit the less-crowded sister bay to Ha Long with secluded islands, pristine beaches, and opportunities for kayaking and swimming in quieter waters.",
+          "lat": 20.9167,
+          "lng": 107.3333
+        },
+        {
+          "id": "quan_4",
+          "text": "Yen Tu Mountain Pilgrimage",
+          "detail": "Ascend Vietnam's sacred Buddhist mountain via cable car or hiking trails to visit ancient temples, pagodas, and enjoy panoramic views of the surrounding region.",
+          "lat": 21.0667,
+          "lng": 106.8333
+        },
+        {
+          "id": "quan_5",
+          "text": "Co To Island Beach Stay",
+          "detail": "Travel to this remote northern island for pristine white-sand beaches, coral reefs suitable for snorkeling, and a peaceful escape from tourism crowds.",
+          "lat": 21.1333,
+          "lng": 107.6667
+        },
+        {
+          "id": "quan_6",
+          "text": "Kayaking Through Karst Formations",
+          "detail": "Paddle through narrow channels and hidden lagoons between limestone cliffs in Ha Long or Bai Tu Long bays, with opportunities to explore caves and grottoes.",
+          "lat": 20.8517,
+          "lng": 107.1828
+        },
+        {
+          "id": "quan_7",
+          "text": "Dong Xuan Market Exploration",
+          "detail": "Browse Halong City's main market for fresh seafood, local produce, handicrafts, and gain insight into daily Vietnamese coastal life and trading traditions.",
+          "lat": 20.8563,
+          "lng": 107.1834
+        }
+      ],
+      "food": [
+        {
+          "id": "quan_f1",
+          "text": "Squid Grilled with Salt and Pepper",
+          "detail": "Fresh local squid seasoned simply with sea salt and cracked pepper, charred over charcoal to create a smoky, tender delicacy that showcases the catch of the day."
+        },
+        {
+          "id": "quan_f2",
+          "text": "Crab Paste Rice Soup",
+          "detail": "A traditional Quang Ninh specialty where crab meat and liver are pounded into a paste, mixed into rice porridge, and topped with crispy shallots and herbs."
+        },
+        {
+          "id": "quan_f3",
+          "text": "Fresh Seafood Hot Pot",
+          "detail": "A communal dining experience featuring locally caught prawns, fish, squid, and shellfish cooked in aromatic broth at the table with fresh vegetables and dipping sauces."
+        },
+        {
+          "id": "quan_f4",
+          "text": "Mam Tom (Shrimp Paste)",
+          "detail": "A pungent fermented shrimp paste that is a staple condiment in Quang Ninh cuisine, served with vegetables and rice to add intense umami flavor to meals."
+        },
+        {
+          "id": "quan_f5",
+          "text": "Bun Ca (Fish Cake Noodle Soup)",
+          "detail": "Rice vermicelli noodles in a fragrant broth with locally-made fish cakes, fresh herbs, and spring rolls, reflecting the region's strong seafood heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "quan_c1",
+          "text": "Respect Local Fishing Communities",
+          "detail": "Many villages in Quang Ninh depend on fishing; be courteous when visiting floating villages and avoid photographing residents without permission, as tourism can disrupt daily life."
+        },
+        {
+          "id": "quan_c2",
+          "text": "Dress Modestly at Religious Sites",
+          "detail": "When visiting temples and pagodas, especially on Yen Tu Mountain, wear long pants or skirts and cover shoulders as a sign of respect for sacred spaces."
+        },
+        {
+          "id": "quan_c3",
+          "text": "Haggle Respectfully at Markets",
+          "detail": "Bargaining is expected at Dong Xuan Market and local stalls, but maintain a friendly tone and accept prices graciously; aggressive haggling is considered disrespectful."
+        },
+        {
+          "id": "quan_c4",
+          "text": "Learn Basic Vietnamese Phrases",
+          "detail": "Outside tourist areas, English is limited; locals appreciate visitors who attempt basic greetings and courtesy phrases like 'Xin chào' (hello) and 'Cảm ơn' (thank you)."
+        }
+      ]
+    },
+    {
+      "id": "lang_son",
+      "name": "Lang Son",
+      "nameIt": "Lạng Sơn",
+      "lat": 21.8518,
+      "lng": 106.7625,
+      "type": "CITY",
+      "description": "A border town northeast of Hanoi set amid limestone mountains and valleys, known for its historic caves, local markets, and proximity to China. It offers authentic mountainous scenery and ethnic minority culture.",
+      "imageQueries": [
+        "Lang Son Vietnam",
+        "Lang Son caves limestone"
+      ],
+      "activities": [
+        {
+          "id": "lang_1",
+          "text": "Tam Thanh Cave",
+          "detail": "Explore this vast limestone cavern with multiple chambers and underground streams, located about 25 km south of Lang Son city center.",
+          "lat": 21.8167,
+          "lng": 106.7667
+        },
+        {
+          "id": "lang_2",
+          "text": "Nhi Thanh Cave",
+          "detail": "Visit a scenic cave system featuring stalactites and stalagmites alongside a clear stream, accessible by a short hike from the main road.",
+          "lat": 21.8333,
+          "lng": 106.75
+        },
+        {
+          "id": "lang_3",
+          "text": "Dong Dang Border Gate",
+          "detail": "Walk across the historic border crossing between Vietnam and China to experience the unique transnational atmosphere and view the frontier landscape.",
+          "lat": 21.9667,
+          "lng": 106.8333
+        },
+        {
+          "id": "lang_4",
+          "text": "Lang Son Central Market",
+          "detail": "Browse the bustling morning market for fresh local produce, handicrafts, and textiles from Nung, Tay, and other ethnic minority groups.",
+          "lat": 21.8506,
+          "lng": 106.7589
+        },
+        {
+          "id": "lang_5",
+          "text": "Ky Lua Citadel",
+          "detail": "Tour the remnants of a French colonial-era fortress offering panoramic views of the surrounding valleys and limestone peaks.",
+          "lat": 21.8333,
+          "lng": 106.7167
+        },
+        {
+          "id": "lang_6",
+          "text": "Mac Kieu Mountain Trek",
+          "detail": "Hike through dense forest and limestone terrain for encounters with local Nung villages and stunning valley vistas.",
+          "lat": 21.85,
+          "lng": 106.8
+        }
+      ],
+      "food": [
+        {
+          "id": "lang_f1",
+          "text": "Com Tam (Broken Rice)",
+          "detail": "Fragrant jasmine-scented broken rice served with grilled meat, fried egg, and pickled vegetables, a staple breakfast dish throughout Lang Son."
+        },
+        {
+          "id": "lang_f2",
+          "text": "Canh Cua (Crab Soup)",
+          "detail": "Delicate soup made with freshwater crabs from local streams, flavored with lemongrass, dill, and tomato."
+        },
+        {
+          "id": "lang_f3",
+          "text": "Nem Cua Be (Fresh Spring Rolls)",
+          "detail": "Translucent rice paper rolls filled with crab, shrimp, and herbs from ethnic minority recipes unique to the border region."
+        },
+        {
+          "id": "lang_f4",
+          "text": "Thang Co (Horse Meat Stew)",
+          "detail": "A traditional highland dish of slow-cooked horse meat with organs and spices, reflecting Nung and Tay ethnic cuisine."
+        },
+        {
+          "id": "lang_f5",
+          "text": "Banh Chung (Square Sticky Rice Cake)",
+          "detail": "Glutinous rice cake wrapped in banana leaves with pork and mung bean filling, especially popular during lunar new year celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lang_c1",
+          "text": "Border Etiquette",
+          "detail": "Carry your passport at all times near Dong Dang; locals and authorities expect proper documentation, and the atmosphere changes noticeably near the frontier."
+        },
+        {
+          "id": "lang_c2",
+          "text": "Early Market Visits",
+          "detail": "Arrive at markets before 7 am to experience authentic local trading and avoid crowds; vendors are friendliest and selection is freshest in early morning hours."
+        },
+        {
+          "id": "lang_c3",
+          "text": "Ethnic Minority Respect",
+          "detail": "Ask permission before photographing villagers or their homes, as several ethnic groups live in surrounding areas and prefer to maintain privacy."
+        },
+        {
+          "id": "lang_c4",
+          "text": "Seasonal Cave Visits",
+          "detail": "Visit caves during dry season (October to April) when water levels are lower and paths are safer; monsoon flooding can make some sites inaccessible."
+        }
+      ]
+    },
+    {
+      "id": "cao_bang",
+      "name": "Cao Bang",
+      "nameIt": "Cao Bằng",
+      "lat": 22.65,
+      "lng": 106.25,
+      "type": "CITY",
+      "description": "A mountainous northeastern province featuring Ban Gioc Waterfall and pristine karst landscapes, popular with trekkers and those seeking off-the-beaten-path experiences. The scenery rivals Ha Long Bay but with far fewer tourists.",
+      "imageQueries": [
+        "Cao Bang Vietnam",
+        "Ban Gioc Waterfall"
+      ],
+      "activities": [
+        {
+          "id": "cao__1",
+          "text": "Ban Gioc Waterfall Trek",
+          "detail": "Hike to Vietnam's largest waterfall on the Chinese border, where a 30-meter cascade splits between two countries and creates a misty emerald pool ideal for swimming.",
+          "lat": 22.8003,
+          "lng": 106.2589
+        },
+        {
+          "id": "cao__2",
+          "text": "Nguom Ngao Cave Exploration",
+          "detail": "Navigate through a spectacular 2-kilometer limestone cave with stalactites, stalagmites, and underground streams near Ban Gioc that requires a guide and headlamp.",
+          "lat": 22.8058,
+          "lng": 106.2647
+        },
+        {
+          "id": "cao__3",
+          "text": "Karst Landscape Motorbike Tour",
+          "detail": "Ride through dramatic limestone peaks and valleys between Cao Bang town and Ban Gioc, stopping at mountain villages and scenic overlooks along winding mountain roads.",
+          "lat": 22.9167,
+          "lng": 106.1167
+        },
+        {
+          "id": "cao__4",
+          "text": "Hua Ma and Thac Dray Waterfall Loop",
+          "detail": "Trek to multiple lesser-known waterfalls in thick jungle habitat where you can spot rare wildlife and swim in pristine natural pools without crowds.",
+          "lat": 22.7833,
+          "lng": 106.3333
+        },
+        {
+          "id": "cao__5",
+          "text": "Cao Bang Town Walking Tour",
+          "detail": "Explore the provincial capital's French colonial architecture, morning markets, and local temples to understand regional history and contemporary daily life.",
+          "lat": 22.9167,
+          "lng": 106.1167
+        },
+        {
+          "id": "cao__6",
+          "text": "Ethnic Minority Village Homestays",
+          "detail": "Stay overnight with Tay or Nung families in traditional stilt houses, participate in cooking and farming, and learn about mountain community customs directly.",
+          "lat": 22.85,
+          "lng": 106.25
+        }
+      ],
+      "food": [
+        {
+          "id": "cao__f1",
+          "text": "Cơm Lam (Sticky Bamboo Rice)",
+          "detail": "Glutinous rice cooked inside bamboo tubes with pork, beans, and mushrooms, imparting a subtle bamboo flavor and served as a signature mountain dish."
+        },
+        {
+          "id": "cao__f2",
+          "text": "Thang Co (Horse Meat Stew)",
+          "detail": "A traditional highland dish of slow-cooked horse meat with medicinal herbs, organs, and bones that locals believe builds strength and warmth in cold mountain weather."
+        },
+        {
+          "id": "cao__f3",
+          "text": "Mắm Tôm (Fermented Shrimp Paste)",
+          "detail": "Pungent fermented shrimp paste made locally and served as a condiment with vegetables and rice, essential to Cao Bang cuisine despite its acquired strong aroma."
+        },
+        {
+          "id": "cao__f4",
+          "text": "Cua Sông (Freshwater Crab)",
+          "detail": "Wild crabs from local streams prepared simply with herbs or in a spiced dipping sauce, prized for sweet meat and seasonal availability."
+        },
+        {
+          "id": "cao__f5",
+          "text": "Bánh Chưng (Square Sticky Rice Cake)",
+          "detail": "Traditional holiday cake of glutinous rice, pork, and mung beans wrapped in banana leaves, available year-round but especially significant during Tet."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cao__c1",
+          "text": "Respect Mountain Safety Protocols",
+          "detail": "Always hire local guides for trekking and cave exploration, as terrain is challenging, weather changes rapidly, and guides provide crucial knowledge about safe routes and water conditions."
+        },
+        {
+          "id": "cao__c2",
+          "text": "Greet Elders Respectfully",
+          "detail": "When visiting villages, bow slightly and address older community members formally; refusing offered tea or hospitality is considered disrespectful in Tay and Nung cultures."
+        },
+        {
+          "id": "cao__c3",
+          "text": "Dress Modestly in Villages",
+          "detail": "Wear long pants and covered shoulders when visiting ethnic minority homestays to show respect for local values, especially during religious or family gatherings."
+        },
+        {
+          "id": "cao__c4",
+          "text": "Ask Permission Before Photography",
+          "detail": "Always request consent before photographing local people, particularly children, as some villages prefer privacy and some ethnic groups hold beliefs about image capture."
+        }
+      ]
+    },
+    {
+      "id": "ban_gioc_waterfall",
+      "name": "Ban Gioc Waterfall",
+      "nameIt": "Thác Bản Giốc",
+      "lat": 22.5533,
+      "lng": 106.2744,
+      "type": "NATURE",
+      "description": "One of Vietnam's most impressive waterfalls straddling the Vietnam-China border, surrounded by dramatic limestone formations and bamboo forests. It's a rewarding destination for hikers and nature photographers seeking dramatic scenery.",
+      "imageQueries": [
+        "Ban Gioc Waterfall Vietnam",
+        "Ban Gioc cascades limestone"
+      ],
+      "activities": [
+        {
+          "id": "ban__1",
+          "text": "Hike to Ban Gioc Waterfall viewpoint",
+          "detail": "Trek through bamboo forests and limestone terrain to reach the main cascading waterfall that drops 30 meters across the Vietnam-China border.",
+          "lat": 22.3414,
+          "lng": 106.2658
+        },
+        {
+          "id": "ban__2",
+          "text": "Explore Nguom Ngao Cave",
+          "detail": "Visit this stunning limestone cave located near the waterfall featuring stalactites, stalagmites, and a cool underground stream.",
+          "lat": 22.3389,
+          "lng": 106.2615
+        },
+        {
+          "id": "ban__3",
+          "text": "Swim in the emerald pool",
+          "detail": "Wade or swim in the crystal-clear jade-colored pool at the base of the waterfall during warmer months.",
+          "lat": 22.3414,
+          "lng": 106.2658
+        },
+        {
+          "id": "ban__4",
+          "text": "Photograph limestone formations",
+          "detail": "Capture dramatic images of the jagged limestone cliffs that frame the waterfall, especially stunning during golden hour.",
+          "lat": 22.3414,
+          "lng": 106.2658
+        },
+        {
+          "id": "ban__5",
+          "text": "Visit Tha Teng village",
+          "detail": "Experience traditional Tay ethnic minority culture and homestays in this nearby village overlooking the border landscape.",
+          "lat": 22.345,
+          "lng": 106.268
+        },
+        {
+          "id": "ban__6",
+          "text": "Bamboo forest trek",
+          "detail": "Walk through dense bamboo groves that surround the area, offering serene natural scenery and fresh mountain air."
+        },
+        {
+          "id": "ban__7",
+          "text": "Border viewpoint walk",
+          "detail": "Stroll along paths near the Vietnam-China border to observe the geographical marker and cross-border landscape."
+        }
+      ],
+      "food": [
+        {
+          "id": "ban__f1",
+          "text": "Canh cua (crab soup)",
+          "detail": "A local specialty featuring freshwater crabs from mountain streams, cooked in a light, aromatic broth with vegetables."
+        },
+        {
+          "id": "ban__f2",
+          "text": "Com lam (bamboo rice)",
+          "detail": "Sticky rice cooked inside bamboo tubes over an open fire, a traditional dish reflective of the region's bamboo forests."
+        },
+        {
+          "id": "ban__f3",
+          "text": "Dried river fish (ca kho)",
+          "detail": "Sun-dried freshwater fish from local streams, braised with turmeric and lemongrass, offering an authentic mountain flavor."
+        },
+        {
+          "id": "ban__f4",
+          "text": "Spring rolls with local herbs",
+          "detail": "Fresh rolls filled with indigenous mountain herbs, vegetables, and optional pork, served with peanut dipping sauce."
+        },
+        {
+          "id": "ban__f5",
+          "text": "Tay ethnic minority sticky rice",
+          "detail": "Hand-pounded glutinous rice served with grilled fish or wild vegetables, a staple of the local Tay culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ban__c1",
+          "text": "Respect the border area",
+          "detail": "Do not cross the marked border line into China, as the area is monitored and crossing is strictly prohibited without permits."
+        },
+        {
+          "id": "ban__c2",
+          "text": "Visit during dry season",
+          "detail": "Plan your trip between September and November for the best conditions; the waterfall is more navigable and the weather is stable."
+        },
+        {
+          "id": "ban__c3",
+          "text": "Hire a local guide",
+          "detail": "Local guides from Tay ethnic villages provide essential knowledge about trails, safety, and cultural insights that enhance the experience."
+        },
+        {
+          "id": "ban__c4",
+          "text": "Wear proper hiking gear",
+          "detail": "The terrain is rocky and slippery, especially near the waterfall; sturdy shoes and careful footing are essential for safety."
+        }
+      ]
+    },
+    {
+      "id": "ha_giang",
+      "name": "Ha Giang",
+      "nameIt": "Hà Giang",
+      "lat": 22.8067,
+      "lng": 104.9792,
+      "type": "CITY",
+      "description": "A remote mountainous province home to ethnic minorities, dramatic limestone peaks, and the famous Ha Giang Loop motorcycle route considered one of Vietnam's most scenic rides. It offers authentic cultural encounters and stunning highland scenery.",
+      "imageQueries": [
+        "Ha Giang Loop Vietnam",
+        "Ha Giang mountains ethnic minorities"
+      ],
+      "activities": [
+        {
+          "id": "ha_g_1",
+          "text": "Ha Giang Loop Motorcycle Ride",
+          "detail": "A 350km circular route through dramatic limestone peaks, ethnic minority villages, and mountain passes offering some of Southeast Asia's most breathtaking scenery.",
+          "lat": 22.8,
+          "lng": 104.98
+        },
+        {
+          "id": "ha_g_2",
+          "text": "Visit Dong Van Karst Plateau",
+          "detail": "Explore the UNESCO-recognized limestone karst landscape with ancient rock formations, minority settlements, and panoramic viewpoints across the highlands.",
+          "lat": 23.2,
+          "lng": 105.1
+        },
+        {
+          "id": "ha_g_3",
+          "text": "Trek to Lung Cu Flag Pole",
+          "detail": "Hike to Vietnam's northernmost point marked by a flag pole at 1,534 meters elevation on the Chinese border with sweeping valley views.",
+          "lat": 23.4,
+          "lng": 105.2
+        },
+        {
+          "id": "ha_g_4",
+          "text": "Explore Meo Vac Town and Markets",
+          "detail": "Wander this remote town's Sunday market where Hmong and Tay ethnic groups trade traditional textiles, produce, and handicrafts.",
+          "lat": 23.23,
+          "lng": 105.15
+        },
+        {
+          "id": "ha_g_5",
+          "text": "Stay in Minority Villages",
+          "detail": "Overnight with Hmong, Tay, or Dao families in traditional stilt houses to experience daily life, home cooking, and authentic cultural exchange."
+        },
+        {
+          "id": "ha_g_6",
+          "text": "Yen Minh District Exploration",
+          "detail": "Visit limestone caves, waterfalls, and traditional indigo-dyed textile workshops in this quieter northern region.",
+          "lat": 23.1,
+          "lng": 104.95
+        },
+        {
+          "id": "ha_g_7",
+          "text": "Nho Que River Valley Scenic Drive",
+          "detail": "Drive along the dramatic river gorge with hairpin turns offering stunning photo opportunities and access to remote villages.",
+          "lat": 22.95,
+          "lng": 105.05
+        }
+      ],
+      "food": [
+        {
+          "id": "ha_g_f1",
+          "text": "Thang Co (Horse Meat Stew)",
+          "detail": "A traditional Hmong specialty made with horse meat, organs, and herbs, considered a delicacy at celebrations and family gatherings."
+        },
+        {
+          "id": "ha_g_f2",
+          "text": "Sticky Rice with Leaf-Wrapped Dishes",
+          "detail": "Glutinous rice served with bamboo leaf-wrapped combinations of meat, mushrooms, and local herbs cooked by ethnic minority families."
+        },
+        {
+          "id": "ha_g_f3",
+          "text": "Com Lam (Bamboo Tube Rice)",
+          "detail": "Sticky rice cooked inside bamboo tubes that impart a subtle bamboo flavor, commonly sold at markets and roadside stalls."
+        },
+        {
+          "id": "ha_g_f4",
+          "text": "Fresh Highland Vegetables",
+          "detail": "Seasonal vegetables grown in cooler mountain soil including water spinach, morning glory, and local greens prepared simply with garlic and salt."
+        },
+        {
+          "id": "ha_g_f5",
+          "text": "Ethnic Minority Hot Pot",
+          "detail": "Local hotpot featuring wild game, freshwater fish, and foraged mountain vegetables served communally in family homestays."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ha_g_c1",
+          "text": "Respect Local Dress and Photography",
+          "detail": "Always ask permission before photographing ethnic minorities, and avoid wearing revealing clothing as a sign of respect in conservative villages."
+        },
+        {
+          "id": "ha_g_c2",
+          "text": "Learn Basic Greetings in Local Languages",
+          "detail": "Hmong and Tay people appreciate visitors learning phrases like 'Xin chào' (Vietnamese) or 'Nyob zoo' (Hmong) to show cultural respect."
+        },
+        {
+          "id": "ha_g_c3",
+          "text": "Participate in Communal Meals",
+          "detail": "When invited to eat with families, accept food graciously and wait for elders to begin eating; refusing food can be seen as disrespectful."
+        },
+        {
+          "id": "ha_g_c4",
+          "text": "Plan Around Ethnic Markets",
+          "detail": "Sunday and weekend markets in Meo Vac and Cao Bang are busiest and most vibrant; visit early morning for the best experience and authentic atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "bac_kan",
+      "name": "Bac Kan",
+      "nameIt": "Bắc Kạn",
+      "lat": 22.1842,
+      "lng": 105.8405,
+      "type": "CITY",
+      "description": "A lesser-known mountain province featuring Ba Be Lake, Vietnam's largest natural lake surrounded by limestone peaks and pristine forests. It's ideal for kayaking, swimming, and experiencing untouched northern nature.",
+      "imageQueries": [
+        "Ba Be Lake Vietnam",
+        "Bac Kan province"
+      ],
+      "activities": [
+        {
+          "id": "bac__1",
+          "text": "Kayak Ba Be Lake",
+          "detail": "Paddle across Vietnam's largest natural freshwater lake surrounded by limestone cliffs and emerald forests, typically a half or full day excursion.",
+          "lat": 21.8333,
+          "lng": 105.6333
+        },
+        {
+          "id": "bac__2",
+          "text": "Visit Dau Dang Waterfall",
+          "detail": "Trek through dense forest to reach a multi-tiered waterfall cascading into a natural pool perfect for swimming.",
+          "lat": 21.8167,
+          "lng": 105.65
+        },
+        {
+          "id": "bac__3",
+          "text": "Explore Ang Pagoda",
+          "detail": "Climb the stone steps to this ancient Buddhist temple perched on a hillside overlooking Ba Be Lake with panoramic views.",
+          "lat": 21.8289,
+          "lng": 105.6381
+        },
+        {
+          "id": "bac__4",
+          "text": "Trek through Ba Be National Park",
+          "detail": "Hike into the protected forest reserve to spot rare wildlife, discover hidden valleys, and experience pristine northern nature.",
+          "lat": 21.8306,
+          "lng": 105.6153
+        },
+        {
+          "id": "bac__5",
+          "text": "Visit Tay ethnic villages",
+          "detail": "Experience traditional stilt houses and learn about the daily life of the Tay people, the largest ethnic minority in the region.",
+          "lat": 21.8278,
+          "lng": 105.6306
+        },
+        {
+          "id": "bac__6",
+          "text": "Night fishing by boat",
+          "detail": "Join local fishermen on traditional boats using lights and nets to fish Ba Be Lake under the stars, an authentic local experience."
+        }
+      ],
+      "food": [
+        {
+          "id": "bac__f1",
+          "text": "Grilled freshwater fish (Cá nướng)",
+          "detail": "Ba Be Lake's fresh catch grilled with herbs and served with rice, showcasing the region's abundant fish species like snakehead and catfish."
+        },
+        {
+          "id": "bac__f2",
+          "text": "Sticky rice with forest herbs (Cơm lam)",
+          "detail": "Rice cooked inside bamboo segments with wild herbs and mushrooms foraged from the forest, a specialty of northern mountain communities."
+        },
+        {
+          "id": "bac__f3",
+          "text": "Spring rolls with wild vegetables (Cuốn hấp)",
+          "detail": "Fresh rolls filled with local greens, mushrooms, and sometimes freshwater snails, reflecting the area's rich forest biodiversity."
+        },
+        {
+          "id": "bac__f4",
+          "text": "Tay ethnic sticky rice cake (Bánh chưng)",
+          "detail": "Square sticky rice cakes wrapped in dong leaves with pork and beans, traditionally eaten during festivals and family gatherings."
+        },
+        {
+          "id": "bac__f5",
+          "text": "Roasted wild boar (Lợn rừng nướng)",
+          "detail": "Game meat from the surrounding forests seasoned with local spices and grilled, a rare delicacy in mountain restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bac__c1",
+          "text": "Respect for ethnic minorities",
+          "detail": "The Tay, Dao, and other minorities have distinct customs; greet elders respectfully and ask permission before photographing villages or ceremonies."
+        },
+        {
+          "id": "bac__c2",
+          "text": "Best time for visiting",
+          "detail": "Visit between September and November or March to May for mild weather and clear lake views; avoid heavy monsoon rains from May to August."
+        },
+        {
+          "id": "bac__c3",
+          "text": "Local transportation norms",
+          "detail": "Roads are winding and narrow; hire local guides or experienced drivers familiar with mountain routes rather than attempting independent navigation."
+        },
+        {
+          "id": "bac__c4",
+          "text": "Festival participation",
+          "detail": "The Tay people celebrate their new year and lunar festivals with traditional music and rituals; inquire locally about upcoming events and show genuine interest rather than treating them as tourist attractions."
+        }
+      ]
+    },
+    {
+      "id": "ba_be_lake",
+      "name": "Ba Be Lake",
+      "nameIt": "Hồ Ba Bê",
+      "lat": 22.2433,
+      "lng": 105.6233,
+      "type": "NATURE",
+      "description": "Vietnam's largest natural freshwater lake set in a pristine national park with limestone mountains and caves, offering kayaking, swimming, and trekking opportunities. It's a tranquil escape known for its clear waters and minimal tourism.",
+      "imageQueries": [
+        "Ba Be Lake Vietnam",
+        "Ba Be limestone mountains"
+      ],
+      "activities": [
+        {
+          "id": "ba_b_1",
+          "text": "Kayaking on Ba Be Lake",
+          "detail": "Paddle across the pristine freshwater lake surrounded by limestone cliffs and forest, with calm waters ideal for all skill levels.",
+          "lat": 22.2403,
+          "lng": 105.6547
+        },
+        {
+          "id": "ba_b_2",
+          "text": "Pac Ngoi Village Homestay",
+          "detail": "Stay overnight in a traditional stilt house with a local Tay ethnic family and participate in daily activities like fishing and cooking.",
+          "lat": 22.245,
+          "lng": 105.662
+        },
+        {
+          "id": "ba_b_3",
+          "text": "Hang Puong Cave Exploration",
+          "detail": "Kayak into this massive limestone cave that opens onto the lake, featuring stalactites and a tunnel passage through the mountain.",
+          "lat": 22.238,
+          "lng": 105.658
+        },
+        {
+          "id": "ba_b_4",
+          "text": "Dau Dang Waterfall Trek",
+          "detail": "Hike to a scenic two-tiered waterfall at the northern end of the lake through dense forest and mountain terrain.",
+          "lat": 22.265,
+          "lng": 105.64
+        },
+        {
+          "id": "ba_b_5",
+          "text": "Swimming and Beach Relaxation",
+          "detail": "Swim in the clear, cool freshwater lake at designated beaches or quieter coves near the main Ba Be village.",
+          "lat": 22.242,
+          "lng": 105.656
+        },
+        {
+          "id": "ba_b_6",
+          "text": "Hang Dau Dang Cave Visit",
+          "detail": "Explore an archaeologically significant cave with ancient stalactites, accessible by a short trek from the lake's north shore.",
+          "lat": 22.268,
+          "lng": 105.638
+        },
+        {
+          "id": "ba_b_7",
+          "text": "Ba Be National Park Trekking",
+          "detail": "Hike through pristine forest trails to observe local flora, fauna, and panoramic viewpoints of the lake and surrounding mountains.",
+          "lat": 22.25,
+          "lng": 105.65
+        }
+      ],
+      "food": [
+        {
+          "id": "ba_b_f1",
+          "text": "Fresh Grilled Fish (Cá Nướng)",
+          "detail": "Locally caught freshwater fish from the lake, grilled whole with herbs and served with rice and dipping sauce at waterside restaurants."
+        },
+        {
+          "id": "ba_b_f2",
+          "text": "Tay Ethnic Sticky Rice (Cơm Lam)",
+          "detail": "Glutinous rice cooked inside bamboo segments, a traditional specialty of the Tay people in the Ba Be region, often served with grilled fish."
+        },
+        {
+          "id": "ba_b_f3",
+          "text": "Snail Soup (Canh Ốc)",
+          "detail": "Fresh freshwater snails simmered in a light broth with herbs and vegetables, a common protein dish in local homestays."
+        },
+        {
+          "id": "ba_b_f4",
+          "text": "Mountain Goat Stew (Thịt Dê Nướng)",
+          "detail": "Slow-cooked goat meat with wild herbs and root vegetables, representing traditional highland cooking methods of ethnic minorities."
+        },
+        {
+          "id": "ba_b_f5",
+          "text": "Bamboo Shoot Dishes (Măng Rừng)",
+          "detail": "Fresh bamboo shoots harvested from surrounding forests, prepared steamed or in soups, highlighting local foraged ingredients."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ba_b_c1",
+          "text": "Respect Local Fishing Customs",
+          "detail": "Many residents depend on small-scale fishing for income; ask permission before photographing boats or fishermen, and support locally-caught fish purchases."
+        },
+        {
+          "id": "ba_b_c2",
+          "text": "Visit Homestays for Authentic Experience",
+          "detail": "Staying with Tay ethnic families is expected to involve shared meals and modest participation in household tasks as a sign of respect and gratitude."
+        },
+        {
+          "id": "ba_b_c3",
+          "text": "Early Morning Lake Activities",
+          "detail": "Locals wake before sunrise for fishing and bathing; plan early morning kayaks or swims to experience the lake as residents do and avoid peak heat."
+        },
+        {
+          "id": "ba_b_c4",
+          "text": "Minimize Plastic and Waste",
+          "detail": "Ba Be's pristine environment depends on visitors respecting the 'leave no trace' principle; the lake has minimal tourism infrastructure and limited waste management."
+        }
+      ]
+    },
+    {
+      "id": "thai_nguyen",
+      "name": "Thai Nguyen",
+      "nameIt": "Thái Nguyên",
+      "lat": 21.5964,
+      "lng": 105.8467,
+      "type": "CITY",
+      "description": "A provincial city known as Vietnam's tea capital, where visitors can tour tea plantations and learn about tea production in the surrounding hills. It offers a more cultural and agricultural experience compared to coastal attractions.",
+      "imageQueries": [
+        "Thai Nguyen tea Vietnam",
+        "Thai Nguyen tea plantations"
+      ],
+      "activities": [
+        {
+          "id": "thai_1",
+          "text": "Tan Cuong Tea Plantations",
+          "detail": "Visit sprawling tea estates in the hills surrounding Thai Nguyen where you can walk among terraced tea bushes, observe harvesting methods, and learn about Vietnam's most famous tea-growing region.",
+          "lat": 21.5972,
+          "lng": 105.8411
+        },
+        {
+          "id": "thai_2",
+          "text": "Thai Nguyen National Museum",
+          "detail": "Explore this museum dedicated to Vietnamese resistance history and local heritage, housed in a historic building with exhibits on the region's role in Vietnam's independence movements.",
+          "lat": 21.5936,
+          "lng": 105.8369
+        },
+        {
+          "id": "thai_3",
+          "text": "Nuc Nuoc Lake",
+          "detail": "Stroll around this peaceful lake in the city center, popular for morning walks and offering views of surrounding hills with local vendors selling street snacks along the shore.",
+          "lat": 21.5893,
+          "lng": 105.8347
+        },
+        {
+          "id": "thai_4",
+          "text": "Thai Nguyen Tea Processing Factory Tour",
+          "detail": "Visit an active tea factory to see the complete process from fresh leaves to finished product, with opportunities to taste freshly brewed teas and purchase directly from producers.",
+          "lat": 21.5945,
+          "lng": 105.8389
+        },
+        {
+          "id": "thai_5",
+          "text": "Dong Kinh Market",
+          "detail": "Browse this bustling local market where vendors sell fresh tea leaves, local produce, handicrafts, and dried goods, offering an authentic glimpse into daily life in Thai Nguyen.",
+          "lat": 21.5952,
+          "lng": 105.8341
+        },
+        {
+          "id": "thai_6",
+          "text": "Tay Yen Tu Mountain",
+          "detail": "Trek up this nearby mountain known for its temples and pagodas, offering panoramic views of tea plantations and the surrounding valley with cooler air and spiritual sites."
+        }
+      ],
+      "food": [
+        {
+          "id": "thai_f1",
+          "text": "Thai Nguyen Green Tea",
+          "detail": "Sample the region's signature product, a delicate green tea known for its sweet flavor and fragrance, best enjoyed fresh from local tea houses or plantations."
+        },
+        {
+          "id": "thai_f2",
+          "text": "Com Tam (Broken Rice)",
+          "detail": "Try this humble local dish of broken rice served with grilled meats, vegetables, and pickled vegetables, common at roadside stalls and affordable family restaurants."
+        },
+        {
+          "id": "thai_f3",
+          "text": "Banh Chung (Square Sticky Rice Cake)",
+          "detail": "Taste this traditional Vietnamese cake made from glutinous rice and filled with pork and mung beans, especially common during Tet celebrations and available year-round."
+        },
+        {
+          "id": "thai_f4",
+          "text": "Local Freshwater Fish Dishes",
+          "detail": "Enjoy grilled or steamed fish from nearby rivers and lakes, often prepared simply with herbs and served at local restaurants near Nuc Nuoc Lake."
+        },
+        {
+          "id": "thai_f5",
+          "text": "Che Ba Mau (Three-Color Dessert)",
+          "detail": "Refresh yourself with this popular Vietnamese iced dessert made from layers of coconut cream, pandan, and azuki beans, sold at street vendors throughout the city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "thai_c1",
+          "text": "Tea Culture and Hospitality",
+          "detail": "Locals take tea very seriously as both daily ritual and gift; accepting tea when offered is a sign of respect, and many conversations happen over cups of freshly brewed tea."
+        },
+        {
+          "id": "thai_c2",
+          "text": "Early Morning Market Visits",
+          "detail": "Visit markets and tea plantations early, as the best activity and freshest products occur between 5-7 AM when locals shop and tea leaves are at their peak."
+        },
+        {
+          "id": "thai_c3",
+          "text": "Respectful Temple and Pagoda Etiquette",
+          "detail": "Remove shoes before entering temples, avoid pointing at religious images, and dress modestly; many sites remain active worship places where visitors are welcome but should be quiet and respectful."
+        },
+        {
+          "id": "thai_c4",
+          "text": "Bargaining and Direct Dealing",
+          "detail": "In markets and with tea farmers, modest bargaining is expected and appreciated, and buying directly from producers rather than shops supports local livelihoods and gets better prices."
+        }
+      ]
+    },
+    {
+      "id": "mong_cai",
+      "name": "Mong Cai",
+      "nameIt": "Móng Cái",
+      "lat": 21.5286,
+      "lng": 107.9975,
+      "type": "TOWN",
+      "description": "A coastal border town at the northern tip of Vietnam where the country meets China, known for its seafood, fishing industry, and proximity to beautiful beaches. It offers a genuine glimpse of local life and cross-border culture.",
+      "imageQueries": [
+        "Mong Cai Vietnam border",
+        "Mong Cai coastal town"
+      ],
+      "activities": [
+        {
+          "id": "mong_1",
+          "text": "Tra Co Beach",
+          "detail": "A long sandy beach north of Mong Cai town offering swimming, sunbathing, and views of fishing boats; it's one of the northernmost beaches in Vietnam.",
+          "lat": 21.5283,
+          "lng": 107.9825
+        },
+        {
+          "id": "mong_2",
+          "text": "Mong Cai Market",
+          "detail": "The bustling central market where locals buy fresh seafood, produce, and goods; it's an energetic place to experience daily life and haggle for souvenirs.",
+          "lat": 21.5203,
+          "lng": 107.9667
+        },
+        {
+          "id": "mong_3",
+          "text": "Border Gate at Km 0",
+          "detail": "The iconic stone marker and gate marking Vietnam's northernmost point where the country meets China; visitors can walk to it and take photos.",
+          "lat": 21.5328,
+          "lng": 107.9875
+        },
+        {
+          "id": "mong_4",
+          "text": "Fishing Village Tours",
+          "detail": "Early morning boat tours through local fishing communities to observe traditional aquaculture and fish farming operations in the Gulf of Tonkin.",
+          "lat": 21.515,
+          "lng": 107.96
+        },
+        {
+          "id": "mong_5",
+          "text": "Mong Cai Port",
+          "detail": "Watch the active harbor where fishing vessels dock and seafood is unloaded; the port atmosphere captures the town's livelihood and cross-border trade.",
+          "lat": 21.518,
+          "lng": 107.958
+        },
+        {
+          "id": "mong_6",
+          "text": "Quan Lan Island Day Trip",
+          "detail": "A short boat ride to this nearby island featuring pristine beaches, hiking trails, and homestays; ideal for a half-day escape from the town center.",
+          "lat": 21.4667,
+          "lng": 107.9
+        }
+      ],
+      "food": [
+        {
+          "id": "mong_f1",
+          "text": "Fresh Grilled Squid (Mực Nướng)",
+          "detail": "Sweet whole squid brushed with fish sauce and grilled over charcoal, a signature dish found at beachside stalls and seafood restaurants throughout Mong Cai."
+        },
+        {
+          "id": "mong_f2",
+          "text": "Crab Soup (Canh Cua)",
+          "detail": "A rich, aromatic broth made with fresh local crabs, tomatoes, and herbs; commonly served as a warming dish at family-run seafood eateries."
+        },
+        {
+          "id": "mong_f3",
+          "text": "Shrimp Paste Rice (Cơm Tôm Chua)",
+          "detail": "Rice mixed with shrimp paste, sour fruits, and fresh herbs; a pungent and flavorful local specialty reflecting the town's seafood traditions."
+        },
+        {
+          "id": "mong_f4",
+          "text": "Mussels in Black Bean Sauce (Ngao Sốt Đen)",
+          "detail": "Fresh mussels harvested from local waters cooked in a savory black bean and garlic sauce; best enjoyed with rice at waterfront restaurants."
+        },
+        {
+          "id": "mong_f5",
+          "text": "Fish Cake Street Food (Chả Cá Mỏng Cái)",
+          "detail": "Fried or steamed fish cakes made from local catches, sold by vendors near the market and served with dipping sauces; an affordable snack."
+        },
+        {
+          "id": "mong_f6",
+          "text": "Seafood Hot Pot (Lẩu Hải Sản)",
+          "detail": "A bubbling pot of broth at the table where you cook fresh shrimp, fish, squid, and vegetables; a communal dining experience popular in the evening."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mong_c1",
+          "text": "Border Town Customs",
+          "detail": "Mong Cai is heavily influenced by Chinese culture due to proximity; you'll notice Chinese signage, currency exchange shops, and many residents speak Cantonese or Mandarin alongside Vietnamese."
+        },
+        {
+          "id": "mong_c2",
+          "text": "Early Morning Fish Auctions",
+          "detail": "Visit the port before 6 AM to witness the daily fish auction where boats unload their catches and buyers bid quickly; it's the pulse of local commerce."
+        },
+        {
+          "id": "mong_c3",
+          "text": "Haggling and Cash Only",
+          "detail": "Markets and small vendors expect cash in Vietnamese dong or Chinese yuan, and prices are often negotiable; card payments are rare outside larger establishments."
+        },
+        {
+          "id": "mong_c4",
+          "text": "Respect the Fishing Community",
+          "detail": "Locals are hardworking fishermen; dress modestly, ask permission before photographing people or boats, and avoid touching nets or equipment in the harbor."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Quán Cơm Tấm Sài Gòn",
+      "address": "123 Nguyễn Huệ, Hạ Long",
+      "neighbourhood": "Hạ Long",
+      "cuisine": "Vietnamese",
+      "priceRange": "€",
+      "description": "Casual local eatery serving authentic broken rice with grilled meats and crispy egg in a no-frills setting.",
+      "mustOrder": "Cơm tấm với thịt nướng",
+      "lat": 20.9519,
+      "lng": 107.0374
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Gia Trang Restaurant",
+      "address": "18 Hạ Hải, Hạ Long",
+      "neighbourhood": "Hạ Long City Centre",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Waterfront seafood specialist with fresh catch daily and panoramic views over Hạ Long Bay.",
+      "mustOrder": "Cua hấp bia",
+      "lat": 20.9542,
+      "lng": 107.0398
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Madame Hoa's Restaurant",
+      "address": "52 Tran Hung Dao, Hạ Long",
+      "neighbourhood": "Hạ Long",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€€",
+      "description": "Upscale dining venue combining traditional Northeast recipes with refined plating and attentive service.",
+      "mustOrder": "Mực nướng muối ớt",
+      "lat": 20.956,
+      "lng": 107.0415
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Cơm Niêu Sài Gòn",
+      "address": "45 Hàng Gà, Bắc Ninh",
+      "neighbourhood": "Bắc Ninh",
+      "cuisine": "Vietnamese",
+      "priceRange": "€",
+      "description": "Traditional clay-pot rice specialist in a humble storefront, beloved by locals for authentic flavour.",
+      "mustOrder": "Cơm niêu với thịt kho",
+      "lat": 21.1858,
+      "lng": 106.0747
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Thiên Hương Restaurant",
+      "address": "78 Nguyễn Văn Cừ, Bắc Giang",
+      "neighbourhood": "Bắc Giang",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€",
+      "description": "Family-run restaurant showcasing regional Bắc Giang specialities with homestyle cooking methods.",
+      "mustOrder": "Cáy nướng lá chuối",
+      "lat": 21.2815,
+      "lng": 106.1923
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Bun Cha Hang Manh",
+      "address": "22 Hàng Mành, Hà Giang",
+      "neighbourhood": "Hà Giang",
+      "cuisine": "Vietnamese",
+      "priceRange": "€",
+      "description": "Street-level bun cha joint famous for grilled pork patties and fragrant broth in a crowded, authentic setting.",
+      "mustOrder": "Bun cha traditional",
+      "lat": 22.8069,
+      "lng": 104.981
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Sen Restaurant",
+      "address": "36 Đinh Tiên Hoàng, Cao Bằng",
+      "neighbourhood": "Cao Bằng",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€",
+      "description": "Contemporary restaurant blending mountain region traditions with modern presentation near the city centre.",
+      "mustOrder": "Cá sông hấp lá sen",
+      "lat": 22.9341,
+      "lng": 105.5134
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Bà Rô Nướng Thanh Lâm",
+      "address": "91 Trường Chinh, Thái Nguyên",
+      "neighbourhood": "Thái Nguyên",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€",
+      "description": "Grilled meat specialist with a lively atmosphere and strong reputation among Thái Nguyên residents.",
+      "mustOrder": "Thịt bò nướng trên lá chuối",
+      "lat": 21.5903,
+      "lng": 105.8426
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Nhà Hàng Bếu Bác",
+      "address": "15 Lê Duẩn, Lạng Sơn",
+      "neighbourhood": "Lạng Sơn",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€",
+      "description": "Family kitchen-style restaurant famous for border-region dishes and slow-cooked stews.",
+      "mustOrder": "Gà hầm sâm",
+      "lat": 21.8557,
+      "lng": 106.7625
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Quan Họ Restaurant",
+      "address": "52 Thái Thịnh, Bắc Ninh",
+      "neighbourhood": "Bắc Ninh",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€€",
+      "description": "Mid-range restaurant celebrating Bắc Ninh's folk culture with traditional singing performances and regional cuisine.",
+      "mustOrder": "Cốm tươi nướng",
+      "lat": 21.188,
+      "lng": 106.0765
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Hải Phòng Seafood House",
+      "address": "67 Minh Khai, Hải Phòng",
+      "neighbourhood": "Hải Phòng",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Upmarket seafood restaurant with daily market-fresh offerings and elegant waterside ambiance.",
+      "mustOrder": "Tôm hùm nướng mỡ hành",
+      "lat": 20.8644,
+      "lng": 106.6833
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Quán Cơm Dân Dã",
+      "address": "34 Phan Bội Châu, Hà Giang",
+      "neighbourhood": "Hà Giang",
+      "cuisine": "Vietnamese",
+      "priceRange": "€",
+      "description": "Simple canteen serving hearty rice bowls and stir-fries popular with construction workers and families.",
+      "mustOrder": "Cơm gà xối mỡ",
+      "lat": 22.8045,
+      "lng": 104.9795
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Nhà Hàng Duyên Hải",
+      "address": "88 Tô Hiệu, Hải Phòng",
+      "neighbourhood": "Hải Phòng",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Mid-range seafood restaurant with a focus on fresh local catch and traditional Hải Phòng recipes.",
+      "mustOrder": "Cua cà chua",
+      "lat": 20.862,
+      "lng": 106.685
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Thương Café & Restaurant",
+      "address": "12 Phan Chu Trinh, Cao Bằng",
+      "neighbourhood": "Cao Bằng",
+      "cuisine": "Vietnamese",
+      "priceRange": "€€",
+      "description": "Contemporary café-restaurant blend offering light bites and traditional dishes in a modern setting.",
+      "mustOrder": "Bánh mì thịt nướng",
+      "lat": 22.932,
+      "lng": 105.512
+    }
+  ]
+}
