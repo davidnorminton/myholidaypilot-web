@@ -254,10 +254,13 @@ function CountryHeroPicker({ countryId }) {
     return out
   }, [imgs, names])
 
+  const [savedNote, setSavedNote] = useState(false)
   const setHero = async (url) => {
     setBusy(true)
-    try { await api.settings.save({ [`countryHero.${countryId}`]: url }); setCurrent(url); setCustom('') }
-    catch (e) { alert(e.message || 'Save failed') }
+    try {
+      await api.settings.save({ [`countryHero.${countryId}`]: url })
+      setCurrent(url); setCustom(''); setSavedNote(true)
+    } catch (e) { alert(e.message || 'Save failed') }
     finally { setBusy(false) }
   }
 
@@ -265,6 +268,7 @@ function CountryHeroPicker({ countryId }) {
     <section className="cms-sec">
       <div className="cms-sec__head"><h3>Country image</h3></div>
       <p className="admin-note">The country's main image — shown on the Destinations page cards and the country page hero. Pick one of its place photos, or set a custom one.</p>
+      {savedNote && <p className="admin-note admin-note--hot">Saved — it shows on the next reload locally, and within ~5 minutes on the live site (edge cache).</p>}
       {imgs === null && <p className="admin-empty">Loading photos…</p>}
       {imgs !== null && options.length === 0 && <p className="cms-items__empty">No place photos in this country yet.</p>}
       {options.length > 0 && (

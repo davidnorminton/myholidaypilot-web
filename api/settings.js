@@ -27,11 +27,12 @@ export default handler(async (req, res) => {
       for (const [k, v] of Object.entries(all)) {
         if (!k.startsWith('secret.') && !k.startsWith('ai.')) pub[k] = v
       }
-      // Public settings are identical for everyone and change rarely (admin
-      // edits). Cache hard at the edge with stale-while-revalidate so the hub
-      // images (which read these values) aren't gated behind a cold DB query
-      // on every page load. Admin edits surface within a few minutes.
-      res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=300, stale-while-revalidate=86400')
+      // Cache at the EDGE only (s-maxage) — browsers must revalidate
+      // (max-age=0), otherwise an admin who just saved sees their own stale
+      // copy for five minutes and the site looks broken. Edge keeps page loads
+      // fast; admin edits surface on the next reload locally and within ~5
+      // minutes in production.
+      res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=300, stale-while-revalidate=86400')
       return send(res, 200, pub)
     } catch {
       return send(res, 200, {})   // table not migrated yet — defaults apply

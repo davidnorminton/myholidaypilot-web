@@ -37,9 +37,9 @@ export default handler(async (req, res) => {
   for (const r of regs) if (r.data?.heroImage?.url) heroes[r.regionId] = r.data.heroImage
   if (Object.keys(heroes).length) out.__regions = heroes
 
-  // Cache aggressively at the edge: images change rarely, and stale-while-
-  // revalidate serves instantly from cache while refreshing in the background.
-  // 5-min fresh, 1-day stale window — builder edits still surface within minutes.
-  res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=300, stale-while-revalidate=86400')
+  // Cache at the EDGE only — browsers revalidate every load (max-age=0), so
+  // an admin's own edits show on their next reload rather than after a 5-min
+  // browser-cache window. Edge stays 5-min fresh with a 1-day stale window.
+  res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=300, stale-while-revalidate=86400')
   return send(res, 200, out)
 })
