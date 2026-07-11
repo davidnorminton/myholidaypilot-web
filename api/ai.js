@@ -321,7 +321,8 @@ Respond with ONLY valid JSON, no fences: {"answer":"..."}`
 
   // ── country fact strip (admin) ──────────────────────────────────────────────
   if (req.method === 'POST' && action === 'countryfacts') {
-    await requireAdmin(req)
+    const user = await requireUser(req)
+    requireAdmin(user)
     const { key, model } = await aiConfig(db)
     if (!key) throw fail(400, 'AI is not configured yet')
     if (!model) throw fail(400, 'No AI model selected yet')

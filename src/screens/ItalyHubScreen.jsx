@@ -82,8 +82,8 @@ export default function ItalyHubScreen() {
       </header>
 
       {factRows.length > 0 && (
-        <section className="wrap">
-          <dl className="cfacts">
+        <section className="cfacts-band">
+          <dl className="cfacts wrap">
             {factRows.map(([k, label]) => (
               <div key={k} className="cfacts__item">
                 <dt>{label}</dt>
