@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Plus, Download, Pencil, Trash2, ArrowUpRight, PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff, CalendarRange } from 'lucide-react'
+import { Plus, Download, Pencil, Trash2, ArrowUpRight, PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff, CalendarRange, Info } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
 import { paths } from '../lib/paths.js'
 import AdminPlaces from '../components/admin/AdminPlaces.jsx'
 import AdminImages from '../components/admin/AdminImages.jsx'
+import AdminFacts from '../components/admin/AdminFacts.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
 import AdminExport from '../components/admin/AdminExport.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
@@ -34,6 +35,7 @@ const SECTIONS = [
   { id: 'contact', label: 'Contact', icon: Mail },
   { id: 'seo', label: 'SEO', icon: Globe },
   { id: 'details', label: 'Trip details', icon: CalendarRange },
+  { id: 'facts', label: 'Country facts', icon: Info },
   { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'builder', label: 'Country builder', icon: Hammer },
   { id: 'missing', label: 'Missing images', icon: ImageOff },
@@ -79,6 +81,7 @@ export default function AdminScreen() {
               <option value="site">Site</option>
               <option value="places">Places</option>
               <option value="images">Images</option>
+              <option value="facts">Country facts</option>
               <option value="gallery">Gallery</option>
             </optgroup>
             <optgroup label="Build">
@@ -110,6 +113,7 @@ export default function AdminScreen() {
         {section === 'details' && <AdminDetails />}
         {section === 'places' && <AdminPlaces regions={regions} />}
         {section === 'images' && <AdminImages regions={regions} />}
+        {section === 'facts' && <AdminFacts />}
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
         {section === 'gallery' && <AdminGallery />}

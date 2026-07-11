@@ -56,6 +56,12 @@ export default function ItalyHubScreen() {
   }
 
   const countryHero = site[`countryHero.${country}`] || ''
+  const facts = (() => {
+    try { return JSON.parse(site[`countryFacts.${country}`] || 'null') } catch { return null }
+  })()
+  const FACT_ORDER = [['capital', 'Capital'], ['languages', 'Languages'], ['currency', 'Currency'],
+    ['timezone', 'Timezone'], ['plugs', 'Plugs'], ['emergency', 'Emergency']]
+  const factRows = FACT_ORDER.filter(([k]) => (facts?.[k] || '').trim())
 
   return (
     <div className="page">
@@ -74,6 +80,19 @@ export default function ItalyHubScreen() {
           )}
         </div>
       </header>
+
+      {factRows.length > 0 && (
+        <section className="wrap">
+          <dl className="cfacts">
+            {factRows.map(([k, label]) => (
+              <div key={k} className="cfacts__item">
+                <dt>{label}</dt>
+                <dd>{facts[k]}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
 
       <main className="wrap">
         <div className="hub-grid">
