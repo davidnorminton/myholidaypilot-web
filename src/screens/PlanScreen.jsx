@@ -212,7 +212,7 @@ export default function PlanScreen() {
               </div>
 
               {trip && (
-                <details className="planform__flights">
+                <details className="planform__flights" open={!!(trip.travel?.home || trip.travel?.arrive || trip.travel?.depart)}>
                   <summary><Plus size={14} /> Add flights <em>optional</em></summary>
                   <TravelEditor trip={trip} />
                 </details>
