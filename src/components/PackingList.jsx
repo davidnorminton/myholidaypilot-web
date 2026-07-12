@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 import { X, Luggage, Sparkles, RefreshCw, FileDown } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { dayWeather } from '../lib/weather.js'
-import { setPacking, togglePackingItem } from '../lib/trips.js'
+import { setPacking, togglePackingItem, setTravellers } from '../lib/trips.js'
 import { useFrontendAi, useSettings } from '../lib/settings.js'
 import { buildPackingSeed } from '../lib/packingSeed.js'
 import { downloadPackingPdf } from '../lib/packingPdf.js'
@@ -11,11 +11,14 @@ import { downloadPackingPdf } from '../lib/packingPdf.js'
 // AI packing list: reads the trip (dates, places, chosen activities), fetches
 // the forecast where available, asks who's travelling, and has Claude draft a
 // checklist. The result is stored on the trip, so it syncs and persists.
-export default function PackingList({ trip, onClose }) {
+export default function PackingList({ trip, onClose, inline = false }) {
   const aiOn = useFrontendAi()
   const site = useSettings()
-  const [adults, setAdults] = useState(trip.packing?.adults ?? 2)
-  const [children, setChildren] = useState(trip.packing?.children ?? 0)
+  const [adults, setAdults] = useState(trip.travellers?.adults ?? trip.packing?.adults ?? 2)
+  const [children, setChildren] = useState(trip.travellers?.children ?? trip.packing?.children ?? 0)
+  // Travellers are shared with the budget — remember on the trip itself.
+  const updAdults = (v) => { setAdults(v); setTravellers(trip.id, { adults: v, children }) }
+  const updChildren = (v) => { setChildren(v); setTravellers(trip.id, { adults, children: v }) }
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const packing = trip.packing
@@ -82,12 +85,11 @@ export default function PackingList({ trip, onClose }) {
   const total = packing ? packing.categories.reduce((n, c) => n + c.items.length, 0) : 0
   const done = packing ? packing.categories.reduce((n, c) => n + c.items.filter((i) => i.done).length, 0) : 0
 
-  return createPortal(
-    <div className="pk__backdrop" onClick={onClose}>
-      <div className="pk" role="dialog" aria-label="Packing list" onClick={(e) => e.stopPropagation()}>
+  const body = (
+      <div className={`pk ${inline ? 'pk--inline' : ''}`} role={inline ? undefined : 'dialog'} aria-label="Packing list" onClick={(e) => e.stopPropagation()}>
         <header className="pk__head">
           <h2><Luggage size={19} /> Packing list</h2>
-          <button className="pk__x" onClick={onClose} aria-label="Close"><X size={18} /></button>
+          {!inline && <button className="pk__x" onClick={onClose} aria-label="Close"><X size={18} /></button>}
         </header>
 
         <div className="pk__setup">
@@ -98,10 +100,10 @@ export default function PackingList({ trip, onClose }) {
           </p>
           <div className="pk__who">
             <label>Adults
-              <input type="number" min="1" max="12" value={adults} onChange={(e) => setAdults(Math.max(1, Number(e.target.value) || 1))} />
+              <input type="number" min="1" max="12" value={adults} onChange={(e) => updAdults(Math.max(1, Number(e.target.value) || 1))} />
             </label>
             <label>Children
-              <input type="number" min="0" max="12" value={children} onChange={(e) => setChildren(Math.max(0, Number(e.target.value) || 0))} />
+              <input type="number" min="0" max="12" value={children} onChange={(e) => updChildren(Math.max(0, Number(e.target.value) || 0))} />
             </label>
             {aiOn && <button className="btn btn--primary" onClick={generate} disabled={busy || !trip.startDate || !trip.places.length}>
               {busy ? <><RefreshCw size={15} className="pk__spin" /> Generating list…</>
@@ -143,7 +145,7 @@ export default function PackingList({ trip, onClose }) {
           </div>
         )}
       </div>
-    </div>,
-    document.body
   )
+  if (inline) return body
+  return createPortal(<div className="pk__backdrop" onClick={onClose}>{body}</div>, document.body)
 }

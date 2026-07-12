@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 import { X, Coins, Sparkles, RefreshCw, Pencil } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { computeBudget, fmtMoney } from '../lib/budget.js'
-import { setBudget, setBudgetOverride } from '../lib/trips.js'
+import { setBudget, setBudgetOverride, setTravellers } from '../lib/trips.js'
 import { useFrontendAi } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
 
@@ -17,11 +17,14 @@ const STYLES = [
 // each as a low–high range); computeBudget does the arithmetic. Every line
 // is editable — a typed value replaces the estimate and totals recompute
 // instantly, no second API call.
-export default function BudgetPanel({ trip, onClose }) {
+export default function BudgetPanel({ trip, onClose, inline = false }) {
   const aiOn = useFrontendAi()
   const saved = trip.budget
-  const [adults, setAdults] = useState(saved?.inputs?.adults ?? trip.packing?.adults ?? 2)
-  const [children, setChildren] = useState(saved?.inputs?.children ?? trip.packing?.children ?? 0)
+  const [adults, setAdults] = useState(trip.travellers?.adults ?? saved?.inputs?.adults ?? trip.packing?.adults ?? 2)
+  const [children, setChildren] = useState(trip.travellers?.children ?? saved?.inputs?.children ?? trip.packing?.children ?? 0)
+  // Travellers are shared with the packing list — remember on the trip itself.
+  const updAdults = (v) => { setAdults(v); setTravellers(trip.id, { adults: v, children }) }
+  const updChildren = (v) => { setChildren(v); setTravellers(trip.id, { adults, children: v }) }
   const [style, setStyle] = useState(saved?.inputs?.style ?? 'mid-range')
   const [includeFlights, setIncludeFlights] = useState(saved?.inputs?.includeFlights ?? false)
   const [flyingFrom, setFlyingFrom] = useState(saved?.inputs?.flyingFrom ?? '')
@@ -71,12 +74,11 @@ export default function BudgetPanel({ trip, onClose }) {
     setEditing(null)
   }
 
-  return createPortal(
-    <div className="pk__backdrop" onClick={onClose}>
-      <div className="pk bgt" role="dialog" aria-label="Trip budget" onClick={(e) => e.stopPropagation()}>
+  const body = (
+      <div className={`pk bgt ${inline ? 'pk--inline' : ''}`} role={inline ? undefined : 'dialog'} aria-label="Trip budget" onClick={(e) => e.stopPropagation()}>
         <header className="pk__head">
           <h2><Coins size={19} /> Trip budget</h2>
-          <button className="pk__x" onClick={onClose} aria-label="Close"><X size={18} /></button>
+          {!inline && <button className="pk__x" onClick={onClose} aria-label="Close"><X size={18} /></button>}
         </header>
 
         <div className="pk__setup">
@@ -87,10 +89,10 @@ export default function BudgetPanel({ trip, onClose }) {
           </div>
           <div className="pk__who">
             <label>Adults
-              <input type="number" min="1" max="12" value={adults} onChange={(e) => setAdults(Math.max(1, Number(e.target.value) || 1))} />
+              <input type="number" min="1" max="12" value={adults} onChange={(e) => updAdults(Math.max(1, Number(e.target.value) || 1))} />
             </label>
             <label>Children
-              <input type="number" min="0" max="12" value={children} onChange={(e) => setChildren(Math.max(0, Number(e.target.value) || 0))} />
+              <input type="number" min="0" max="12" value={children} onChange={(e) => updChildren(Math.max(0, Number(e.target.value) || 0))} />
             </label>
             <label className="bgt__toggle">
               <input type="checkbox" checked={includeFlights} onChange={(e) => setIncludeFlights(e.target.checked)} /> Flights
@@ -152,7 +154,7 @@ export default function BudgetPanel({ trip, onClose }) {
           </div>
         )}
       </div>
-    </div>,
-    document.body
   )
+  if (inline) return body
+  return createPortal(<div className="pk__backdrop" onClick={onClose}>{body}</div>, document.body)
 }

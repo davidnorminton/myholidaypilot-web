@@ -371,6 +371,11 @@ export function setBudgetOverride(tripId, key, value) {
   })
 }
 
+// ── travellers (shared by budget + packing) ─────────────────────────────────
+export function setTravellers(tripId, travellers) {
+  set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, travellers } : t)) })
+}
+
 // ── packing list ─────────────────────────────────────────────────────────────
 export function setPacking(tripId, packing) {
   set({ ...state, trips: state.trips.map((t) => (t.id === tripId ? { ...t, packing } : t)) })

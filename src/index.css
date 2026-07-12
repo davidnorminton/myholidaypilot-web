@@ -3356,6 +3356,11 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .pub__daynote span{flex:none; width:52px; font-weight:700; font-size:12.5px}
 .pub__daynote input{flex:1; min-width:0; padding:8px 10px; border:1px solid var(--line); font-size:13px}
 .galtrip__daynote{font-style:italic; color:var(--ink-soft); font-size:15px; margin:2px 0 10px}
+/* budget/packing inline inside the builder */
+.pk--inline{border:0; border-radius:0; box-shadow:none; background:none; width:min(760px,100%); max-height:none}
+.pk--inline .pk__head{padding:0 0 12px}
+.pk--inline .pk__setup{padding-left:0; padding-right:0}
+.pk--inline .pk__list{padding-left:0; padding-right:0; overflow:visible}
 /* --- trip builder slide-up sheet --- */
 .plansheet{position:fixed; inset:0; z-index:60; background:var(--paper); display:flex; flex-direction:column;
   animation:sheetUp .28s cubic-bezier(.22,.61,.36,1)}

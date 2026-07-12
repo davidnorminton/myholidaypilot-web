@@ -48,8 +48,6 @@ export default function PlanScreen() {
   const [planFor, setPlanFor] = useState(null)
   const [step, setStep] = useState('setloc')   // setloc | places | days
   const [shared, setShared] = useState(false)
-  const [packingOpen, setPackingOpen] = useState(false)
-  const [budgetOpen, setBudgetOpen] = useState(false)
   const [publishOpen, setPublishOpen] = useState(false)
   const [viewOpen, setViewOpen] = useState(false)
   // Hero form (destination + holiday dates). Dates drive the active trip; the
@@ -294,10 +292,10 @@ export default function PlanScreen() {
               <span className="planws__stepnum"><Ticket size={13} /></span> Book your trip
             </button>
             <p className="planws__sidelabel planws__sidelabel--opt">Optional</p>
-            <button className="planws__step planws__step--opt" onClick={() => setBudgetOpen(true)}>
+            <button className={`planws__step planws__step--opt ${step === 'budget' ? 'is-on' : ''}`} onClick={() => setStep('budget')}>
               <span className="planws__stepnum"><Coins size={13} /></span> Budget
             </button>
-            <button className="planws__step planws__step--opt" onClick={() => setPackingOpen(true)}>
+            <button className={`planws__step planws__step--opt ${step === 'packing' ? 'is-on' : ''}`} onClick={() => setStep('packing')}>
               <span className="planws__stepnum"><Luggage size={13} /></span> Packing list
             </button>
           </aside>
@@ -333,6 +331,10 @@ export default function PlanScreen() {
 
             {step === 'book' && <BookingsPanel trip={trip} />}
 
+            {step === 'budget' && <BudgetPanel key={trip.id} trip={trip} inline />}
+
+            {step === 'packing' && <PackingList key={trip.id} trip={trip} inline />}
+
             {step === 'days' && <Itinerary trip={trip} onPlan={(p) => setPlanFor(p)} />}
             </div>
           </div>
@@ -354,8 +356,6 @@ export default function PlanScreen() {
       {wizard && (
         <AddPlaceWizard tripId={wizard.tripId} initialQuery={wizard.query} initialMode={wizard.mode} onClose={() => setWizard(null)} />
       )}
-      {packingOpen && trip && <PackingList trip={trip} onClose={() => setPackingOpen(false)} />}
-      {budgetOpen && trip && <BudgetPanel trip={trip} onClose={() => setBudgetOpen(false)} />}
       {publishOpen && trip && <PublishTrip trip={trip} onClose={() => setPublishOpen(false)} />}
       {viewOpen && trip && <TripViewPanel trip={trip} onPlan={(p) => { setViewOpen(false); setPlanFor(p) }} onPublish={() => { setViewOpen(false); setPublishOpen(true) }} onClose={() => setViewOpen(false)} />}
       {planFor && trip && (
