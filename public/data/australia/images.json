@@ -1,10 +1,747 @@
 {
-  "new_south_wales": {},
-  "victoria": {},
-  "queensland": {},
-  "western_australia": {},
-  "south_australia": {},
-  "tasmania": {},
-  "australian_capital_territory": {},
-  "northern_territory": {}
+  "new_south_wales": {
+    "sydney": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTeWRuZXklMjBPcGVyYSUyMEhvdXNlJTIwSGFyYm91cnxlbnwxfDB8fHwxNzgzODYxNDAyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Caleb"
+      }
+    ],
+    "blue_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1595797128407-ea746eaccb00?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCbHVlJTIwTW91bnRhaW5zJTIwVGhyZWUlMjBTaXN0ZXJzfGVufDF8MHx8fDE3ODM4NjE0MDV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nicholas Doherty"
+      }
+    ],
+    "newcastle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1730186556078-a0ac112eca01?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOZXdjYXN0bGUlMjBCZWFjaCUyMG9jZWFufGVufDF8MHx8fDE3ODM4NjE0MDd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rachel Kucera"
+      }
+    ],
+    "byron_bay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1621841058209-dcb875c9b970?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCeXJvbiUyMEJheSUyMGxpZ2h0aG91c2V8ZW58MXwwfHx8MTc4Mzg2MTQwOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jake Charles"
+      }
+    ],
+    "hunter_valley": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1664970925595-90402bf3fbcb?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIdW50ZXIlMjBWYWxsZXklMjB2aW5leWFyZHN8ZW58MXwwfHx8MTc4Mzg2MTQxMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Arie Oldman"
+      }
+    ],
+    "port_stephens": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1686057483249-9de243bcce9a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0JTIwU3RlcGhlbnMlMjBiYXklMjBkb2xwaGluc3xlbnwxfDB8fHwxNzgzODYxNDEzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nat Zagninski"
+      }
+    ],
+    "south_coast": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1702097307048-8b32b358ba72?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxKZXJ2aXMlMjBCYXklMjBkb2xwaGlucyUyMHdoYWxlc3xlbnwxfDB8fHwxNzgzODYxNDE1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Simon Hurry"
+      }
+    ],
+    "coffs_harbour": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1618729828529-1e0d980a3430?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb2ZmcyUyMEhhcmJvdXIlMjBiZWFjaCUyMGpldHR5fGVufDF8MHx8fDE3ODM4NjE0MTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Michael"
+      }
+    ],
+    "bathurst": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1660482282156-a95b71fee3d8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXRodXJzdCUyME1vdW50JTIwUGFub3JhbWElMjBjaXJjdWl0fGVufDF8MHx8fDE3ODM4NjE0MjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martin David"
+      }
+    ],
+    "katoomba": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1767235667695-ccbdd5f7c6ef?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYXRvb21iYSUyMFNjZW5pYyUyMFdvcmxkJTIwcmFpbHdheXxlbnwxfDB8fHwxNzgzODYxNDIzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "You Le"
+      }
+    ],
+    "snowy_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1542379521-3410aec637d1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTbm93eSUyME1vdW50YWlucyUyMHNraWluZ3xlbnwxfDB8fHwxNzgzODYxNDI1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Darya Sev"
+      }
+    ]
+  },
+  "victoria": {
+    "melbourne": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1720753789214-8b216aff11ae?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNZWxib3VybmUlMjBsYW5ld2F5cyUyMHN0cmVldCUyMGFydHxlbnwxfDB8fHwxNzgzODYxNDMxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Bei GUO"
+      }
+    ],
+    "great_ocean_road": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1596430222039-4a2d7b4cd767?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUd2VsdmUlMjBBcG9zdGxlcyUyMEdyZWF0JTIwT2NlYW4lMjBSb2FkfGVufDF8MHx8fDE3ODM4NjE0MzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Wee Ping Khoo"
+      }
+    ],
+    "twelve_apostles": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1697062549311-6c2cb6489984?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUd2VsdmUlMjBBcG9zdGxlcyUyMHN1bnNldHxlbnwxfDB8fHwxNzgzODYxNDM1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Josh Fotheringham"
+      }
+    ],
+    "phillip_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1724184540484-f2102d308e5a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZW5ndWluJTIwUGFyYWRlJTIwUGhpbGxpcCUyMElzbGFuZHxlbnwxfDB8fHwxNzgzODYxNDM3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Thomas Gabernig"
+      }
+    ],
+    "yarra_valley": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1749039415784-875764ba6523?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxZYXJyYSUyMFZhbGxleSUyMHZpbmV5YXJkc3xlbnwxfDB8fHwxNzgzODYxNDM5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Johan Mouchet"
+      }
+    ],
+    "apollo_bay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1565374450985-a5976811f861?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBcG9sbG8lMjBCYXklMjBiZWFjaHxlbnwxfDB8fHwxNzgzODYxNDQzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sierra Burtis"
+      }
+    ],
+    "port_campbell": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1735222460329-8fb5bb5c55c0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0JTIwQ2FtcGJlbGwlMjBjbGlmZnN8ZW58MXwwfHx8MTc4Mzg2MTQ0NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Cherry T"
+      }
+    ],
+    "dandenong_ranges": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1547994392-a12540111e87?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEYW5kZW5vbmclMjBSYW5nZXMlMjBmb3Jlc3R8ZW58MXwwfHx8MTc4Mzg2MTQ0N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gagandeep Singh"
+      }
+    ],
+    "mornington_peninsula": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1700304115034-223e43e87783?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3JuaW5ndG9uJTIwUGVuaW5zdWxhJTIwYmVhY2hlc3xlbnwxfDB8fHwxNzgzODYxNDQ5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sarah Damen"
+      }
+    ],
+    "puffing_billy": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1598178472335-5f5ed93d1d6c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQdWZmaW5nJTIwQmlsbHklMjBzdGVhbSUyMHRyYWlufGVufDF8MHx8fDE3ODM4NjE0NTF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Paul Macallan"
+      }
+    ],
+    "ballarat": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1731330087652-68505c8b15bf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTb3ZlcmVpZ24lMjBIaWxsJTIwQmFsbGFyYXR8ZW58MXwwfHx8MTc4Mzg2MTQ1M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Francis Cooper-McKenzie"
+      }
+    ]
+  },
+  "queensland": {
+    "brisbane": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1548661625-a30d197ce439?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCcmlzYmFuZSUyMFJpdmVyJTIwc2t5bGluZXxlbnwxfDB8fHwxNzgzODYxNDYzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Brisbane Local Marketing"
+      }
+    ],
+    "great_barrier_reef": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1717292741615-4695bafa9663?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmVhdCUyMEJhcnJpZXIlMjBSZWVmJTIwY29yYWx8ZW58MXwwfHx8MTc4Mzg2MTQ2NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kristin Hoel"
+      }
+    ],
+    "whitsunday_islands": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1626222317285-014ffb6ac543?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXaGl0ZWhhdmVuJTIwQmVhY2glMjBXaGl0c3VuZGF5c3xlbnwxfDB8fHwxNzgzODYxNDY5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Shakti Rajpurohit"
+      }
+    ],
+    "hamilton_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1530755346628-3357ce4f17bc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYW1pbHRvbiUyMElzbGFuZCUyMHJlc29ydHxlbnwxfDB8fHwxNzgzODYxNDcxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Caleb Semeri"
+      }
+    ],
+    "gold_coast": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1607309843659-f4ad95cf3277?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHb2xkJTIwQ29hc3QlMjBTdXJmZXJzJTIwUGFyYWRpc2UlMjBiZWFjaHxlbnwxfDB8fHwxNzgzODYxNDczfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "City of Gold Coast"
+      }
+    ],
+    "fraser_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1580633644803-a9a084f1ec24?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGcmFzZXIlMjBJc2xhbmQlMjBMYWtlJTIwTWNLZW56aWV8ZW58MXwwfHx8MTc4Mzg2NTc2MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Greg Spearritt"
+      }
+    ],
+    "port_douglas": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1664884812627-595eeaabfff4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0JTIwRG91Z2xhcyUyMEZvdXIlMjBNaWxlJTIwQmVhY2h8ZW58MXwwfHx8MTc4Mzg2NTc2M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sisi Pennisi"
+      }
+    ],
+    "noosa": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1607014593352-adca51a032bd?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOb29zYSUyMEhlYWRzJTIwYmVhY2h8ZW58MXwwfHx8MTc4Mzg2NTc2N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lukas Spirig"
+      }
+    ],
+    "mission_beach": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1708139374613-0324905cd967?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNaXNzaW9uJTIwQmVhY2glMjB0cm9waWNhbHxlbnwxfDB8fHwxNzgzODY1NzY5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Victor Rosario"
+      }
+    ],
+    "magnetic_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1519562990232-845beca99938?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWduZXRpYyUyMElzbGFuZCUyMGtvYWxhfGVufDF8MHx8fDE3ODM4NjU3NzR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ellicia"
+      }
+    ]
+  },
+  "western_australia": {
+    "perth": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1662672764495-1f048fe7f65f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZXJ0aCUyMHNreWxpbmUlMjBTd2FuJTIwUml2ZXJ8ZW58MXwwfHx8MTc4Mzg2NTc4Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Eddie Mark Blair"
+      }
+    ],
+    "margaret_river": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1736333568797-48339dc1b042?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYXJnYXJldCUyMFJpdmVyJTIwd2luZSUyMHZpbmV5YXJkfGVufDF8MHx8fDE3ODM4NjU3ODl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Hailey Tong"
+      }
+    ],
+    "broome": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1535338611490-9926ac7e0eaf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYWJsZSUyMEJlYWNoJTIwQnJvb21lJTIwc3Vuc2V0fGVufDF8MHx8fDE3ODM4NjU3OTF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Joe Cook"
+      }
+    ],
+    "wave_rock": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1530423923936-ff7043d0efe1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXYXZlJTIwUm9jayUyMFdlc3Rlcm4lMjBBdXN0cmFsaWF8ZW58MXwwfHx8MTc4Mzg2NTc5M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Michael Milverton"
+      }
+    ],
+    "rottnest_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1517396520367-0f624e365431?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb3R0bmVzdCUyMElzbGFuZCUyMHF1b2trYSUyMHNlbGZpZXxlbnwxfDB8fHwxNzgzODY1Nzk1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Susan Q Yin"
+      }
+    ],
+    "pinnacles_desert": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1597053124418-3bad8723e745?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQaW5uYWNsZXMlMjBEZXNlcnQlMjBsaW1lc3RvbmUlMjBwaWxsYXJzfGVufDF8MHx8fDE3ODM4NjU3OTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Chris Stenger"
+      }
+    ],
+    "fremantle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1782129071236-f6e67e6f3fdc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGcmVtYW50bGUlMjBoaXN0b3JpYyUyMHBvcnQlMjBidWlsZGluZ3N8ZW58MXwwfHx8MTc4Mzg2NTc5OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Grace Anne Bobadilla"
+      }
+    ],
+    "monkey_mia": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1648039675001-7af9d76222a0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb25rZXklMjBNaWElMjBkb2xwaGlucyUyMGJlYWNofGVufDF8MHx8fDE3ODM4NjU4MDZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Datingscout"
+      }
+    ]
+  },
+  "south_australia": {
+    "barossa_valley": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1776861671778-f7ba46f820fa?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXJvc3NhJTIwVmFsbGV5JTIwdmluZXlhcmRzfGVufDF8MHx8fDE3ODM4NjU4Mjd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rafid Tahmid"
+      }
+    ],
+    "adelaide_hills": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1697931885566-26e41fd24e01?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBZGVsYWlkZSUyMEhpbGxzJTIwSGFobmRvcmZ8ZW58MXwwfHx8MTc4Mzg2NTgyOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Stephen Mabbs"
+      }
+    ],
+    "victor_harbor": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1731260518072-af778f2cb5ee?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWaWN0b3IlMjBIYXJib3IlMjBqZXR0eXxlbnwxfDB8fHwxNzgzODY1ODMyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Oliver"
+      }
+    ],
+    "kangaroo_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1618131886709-7605c9368052?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYW5nYXJvbyUyMElzbGFuZCUyMHdpbGRsaWZlfGVufDF8MHx8fDE3ODM4NjU4MzR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Fidel Fernando"
+      }
+    ],
+    "glenelg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1721696128685-6b327ac7de2c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHbGVuZWxnJTIwcGllciUyMFNvdXRoJTIwQXVzdHJhbGlhfGVufDF8MHx8fDE3ODM4NjU4MzZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Megan Clark"
+      }
+    ],
+    "fleurieu_peninsula": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1628887698822-efaaaf8e01af?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGbGV1cmlldSUyMFBlbmluc3VsYSUyMGNvYXN0fGVufDF8MHx8fDE3ODM4NjU4Mzh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mark Slomkowski"
+      }
+    ],
+    "mount_gambier": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1675752088654-ac31eef111a7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3VudCUyMEdhbWJpZXIlMjBCbHVlJTIwTGFrZXxlbnwxfDB8fHwxNzgzODY1ODQwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Richard Lin"
+      }
+    ],
+    "limestone_coast": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1768406090579-758f9b2169e1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMaW1lc3RvbmUlMjBDb2FzdCUyMGNhdmVzfGVufDF8MHx8fDE3ODM4NjU4NDJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "SERGEI BEZZUBOV"
+      }
+    ],
+    "coober_pedy": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1638793769353-f0446534b52e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb29iZXIlMjBQZWR5JTIwdW5kZXJncm91bmR8ZW58MXwwfHx8MTc4Mzg2NTg0NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Andrew Svk"
+      }
+    ],
+    "robe": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1783004851957-f10f875e25be?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb2JlJTIwU291dGglMjBBdXN0cmFsaWElMjBjb2FzdGFsJTIwdG93bnxlbnwxfDB8fHwxNzgzODY1ODQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Simone Muzzi"
+      }
+    ],
+    "penneshaw": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1618131886709-7605c9368052?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZW5uZXNoYXclMjBLYW5nYXJvbyUyMElzbGFuZHxlbnwxfDB8fHwxNzgzODY1ODU1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Fidel Fernando"
+      }
+    ]
+  },
+  "tasmania": {
+    "cradle_mountain": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1534853878021-7fb609562749?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDcmFkbGUlMjBNb3VudGFpbiUyMFRhc21hbmlhJTIwaGlraW5nfGVufDF8MHx8fDE3ODM4NjU4Njd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Laura Smetsers"
+      }
+    ],
+    "bay_of_fires": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1574421624183-fa5b6250d896?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXklMjBvZiUyMEZpcmVzJTIwVGFzbWFuaWElMjBiZWFjaHxlbnwxfDB8fHwxNzgzODY1ODY5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Deeva Sood"
+      }
+    ],
+    "freycinet": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1706593193861-bd3eece69036?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXaW5lZ2xhc3MlMjBCYXklMjBGcmV5Y2luZXQlMjBUYXNtYW5pYXxlbnwxfDB8fHwxNzgzODY1ODcyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nico Smit"
+      }
+    ],
+    "launceston": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1675665121651-55b2cec1bcd5?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYXVuY2VzdG9uJTIwQ2F0YXJhY3QlMjBHb3JnZXxlbnwxfDB8fHwxNzgzODY1ODc0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Athithan Vignakaran"
+      }
+    ],
+    "port_arthur": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1679222507129-23dc863cbf82?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0JTIwQXJ0aHVyJTIwaGlzdG9yaWMlMjBzaXRlJTIwVGFzbWFuaWF8ZW58MXwwfHx8MTc4Mzg2NTg3Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Athithan Vignakaran"
+      }
+    ],
+    "bruny_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1749174980708-87132ff53b08?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCcnVueSUyMElzbGFuZCUyMFRhc21hbmlhJTIwY2xpZmZzfGVufDF8MHx8fDE3ODM4NjU4Nzh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Johan Mouchet"
+      }
+    ],
+    "strahan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1731215756425-21c6db02cd25?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdHJhaGFuJTIwVGFzbWFuaWElMjBHb3Jkb24lMjBSaXZlcnxlbnwxfDB8fHwxNzgzODY1ODgwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kshithij Chandrashekar"
+      }
+    ],
+    "dove_lake": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1570169639520-e75255335589?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEb3ZlJTIwTGFrZSUyMENyYWRsZSUyME1vdW50YWluJTIwcmVmbGVjdGlvbnxlbnwxfDB8fHwxNzgzODY1ODgyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Donovan Simpkin"
+      }
+    ],
+    "maria_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1618131886709-7605c9368052?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYXJpYSUyMElzbGFuZCUyMFRhc21hbmlhJTIwZmVycnl8ZW58MXwwfHx8MTc4Mzg2NTg4NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Fidel Fernando"
+      }
+    ],
+    "penguin_parade": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1618131886709-7605c9368052?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZW5ndWluJTIwUGFyYWRlJTIwVGFzbWFuaWElMjBsaXR0bGUlMjBwZW5ndWluc3xlbnwxfDB8fHwxNzgzODY1ODg3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Fidel Fernando"
+      }
+    ]
+  },
+  "australian_capital_territory": {
+    "canberra": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1672264597620-d792bb6de88d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYW5iZXJyYSUyMFBhcmxpYW1lbnQlMjBIb3VzZXxlbnwxfDB8fHwxNzgzODY1ODk3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marcus Reubenstein"
+      }
+    ],
+    "parliament_house": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1762246433070-cef38806c27a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYXJsaWFtZW50JTIwSG91c2UlMjBDYW5iZXJyYSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODM4NjU4OTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Neon Wang"
+      }
+    ],
+    "national_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1721278921421-2b446d6f4475?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyME11c2V1bSUyMG9mJTIwQXVzdHJhbGlhfGVufDF8MHx8fDE3ODM4Njk2NTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dominic Kurniawan Suryaputra"
+      }
+    ],
+    "war_memorial": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1666304880597-66392b19aad4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXN0cmFsaWFuJTIwV2FyJTIwTWVtb3JpYWx8ZW58MXwwfHx8MTc4Mzg2OTY2MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Raelle Cameron"
+      }
+    ],
+    "national_gallery": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1623011777721-5ccad97c888f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyMEdhbGxlcnklMjBvZiUyMEF1c3RyYWxpYXxlbnwxfDB8fHwxNzgzODY5NjYzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Melody Ayres-Griffiths"
+      }
+    ],
+    "lake_burley_griffin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1724046460493-e5cf45ff8bde?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwQnVybGV5JTIwR3JpZmZpbiUyMENhbmJlcnJhfGVufDF8MHx8fDE3ODM4Njk2NjZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marcus Reubenstein"
+      }
+    ],
+    "botanic_gardens": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1782128949534-d8b33a098216?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXN0cmFsaWFuJTIwTmF0aW9uYWwlMjBCb3RhbmljJTIwR2FyZGVuc3xlbnwxfDB8fHwxNzgzODY5NjY4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Grace Anne Bobadilla"
+      }
+    ],
+    "mount_ainslie": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1723287423047-3f1c357aa921?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3VudCUyMEFpbnNsaWUlMjBsb29rb3V0JTIwQ2FuYmVycmF8ZW58MXwwfHx8MTc4Mzg2OTY3MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jerry Shen"
+      }
+    ],
+    "tidbinbilla": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1624488727243-4ea83e1bdc4d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUaWRiaW5iaWxsYSUyME5hdHVyZSUyMFJlc2VydmV8ZW58MXwwfHx8MTc4Mzg2OTY3Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Brenton Pearce"
+      }
+    ],
+    "questacon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1570587371524-a187051b1b31?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxRdWVzdGFjb24lMjBDYW5iZXJyYXxlbnwxfDB8fHwxNzgzODY5Njc1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Linda Xu"
+      }
+    ],
+    "old_parliament": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1672264597620-d792bb6de88d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPbGQlMjBQYXJsaWFtZW50JTIwSG91c2UlMjBDYW5iZXJyYXxlbnwxfDB8fHwxNzgzODY5Njc3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marcus Reubenstein"
+      }
+    ],
+    "australian_institute_sport": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1674985122827-8dc651f36c1f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXN0cmFsaWFuJTIwSW5zdGl0dXRlJTIwb2YlMjBTcG9ydHxlbnwxfDB8fHwxNzgzODY5Njc5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kiros Amin"
+      }
+    ]
+  },
+  "northern_territory": {
+    "uluru": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1583668928323-0d810eec29dc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxVbHVydSUyMHN1bnNldCUyMHJlZCUyMGNlbnRyZXxlbnwxfDB8fHwxNzgzODY5Njg4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Simon Maisch"
+      }
+    ],
+    "alice_springs": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1647180393768-ab67ce3aec05?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbGljZSUyMFNwcmluZ3MlMjBkZXNlcnQlMjB0b3dufGVufDF8MHx8fDE3ODM4Njk2OTB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nico Smit"
+      }
+    ],
+    "darwin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1645446649210-3bdd3e22518c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEYXJ3aW4lMjBOb3J0aGVybiUyMFRlcnJpdG9yeSUyMHdhdGVyZnJvbnR8ZW58MXwwfHx8MTc4Mzg2OTY5M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "allPhoto Bangkok"
+      }
+    ],
+    "kakadu_national_park": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1589137639779-1d513ce9be18?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYWthZHUlMjBOYXRpb25hbCUyMFBhcmslMjB3YXRlcmZhbGxzfGVufDF8MHx8fDE3ODM4Njk2OTR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Vladimir Haltakov"
+      }
+    ],
+    "kings_canyon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1635156612570-5bd28dbc8f89?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLaW5ncyUyMENhbnlvbiUyMHJpbSUyMHdhbGslMjBNYWNEb25uZWxsfGVufDF8MHx8fDE3ODM4Njk2OTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Christian Bass"
+      }
+    ],
+    "kata_tjuta": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1696560574371-efb224b8dfc0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYXRhJTIwVGp1dGElMjBkb21lZCUyMHJvY2tzfGVufDF8MHx8fDE3ODM4Njk2OTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anissa Terry"
+      }
+    ],
+    "devil_marbles": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1761358660663-86fe5b2553ce?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEZXZpbCUyME1hcmJsZXMlMjBLYXJsdSUyMEthcmx1JTIwYm91bGRlcnN8ZW58MXwwfHx8MTc4Mzg2OTcwNHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Wietse Jongsma"
+      }
+    ],
+    "litchfield_national_park": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1646519494272-b72409ae6746?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMaXRjaGZpZWxkJTIwTmF0aW9uYWwlMjBQYXJrJTIwd2F0ZXJmYWxsc3xlbnwxfDB8fHwxNzgzODY5NzA2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lucid"
+      }
+    ]
+  }
 }

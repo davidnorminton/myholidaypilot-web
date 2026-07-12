@@ -1,12 +1,625 @@
 {
-  "cairo_giza": {},
-  "alexandria": {},
-  "nile_delta": {},
-  "suez_canal": {},
-  "red_sea": {},
-  "upper_egypt": {},
-  "luxor_thebes": {},
-  "aswan_nubia": {},
-  "western_desert": {},
-  "sinai_peninsula": {}
+  "cairo_giza": {
+    "great_pyramids_giza": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1600520611035-84157ad4084d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmVhdCUyMFB5cmFtaWRzJTIwb2YlMjBHaXphfGVufDF8MHx8fDE3ODM4MDEyODl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Osama Elsayed"
+      }
+    ],
+    "sphinx_giza": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmVhdCUyMFNwaGlueCUyMG9mJTIwR2l6YXxlbnwxfDB8fHwxNzgzODAxMjkwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Alessandro Zanini"
+      }
+    ],
+    "egyptian_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1707068226685-27a15039f19b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFZ3lwdGlhbiUyME11c2V1bSUyMENhaXJvfGVufDF8MHx8fDE3ODM4MDEyOTN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dilip Poddar"
+      }
+    ],
+    "islamic_cairo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJc2xhbWljJTIwQ2Fpcm8lMjBtb3NxdWVzfGVufDF8MHx8fDE3ODM4MDEyOTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Omar Elsharawy"
+      }
+    ],
+    "khan_khalili": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1710211288826-b7df3ab71588?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLaGFuJTIwZWwtS2hhbGlsaSUyMGJhemFhciUyMENhaXJvfGVufDF8MHx8fDE3ODM4MDEyOTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Thales Botelho de Sousa"
+      }
+    ],
+    "citadel_cairo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1710659765214-71843ff2d4b6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaXRhZGVsJTIwb2YlMjBTYWxhZGluJTIwQ2Fpcm98ZW58MXwwfHx8MTc4MzgwMTMwMHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dilip Poddar"
+      }
+    ],
+    "cairo_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYWlybyUyMEVneXB0JTIwY2l0eSUyMHNreWxpbmV8ZW58MXwwfHx8MTc4MzgwMTMwMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Omar Elsharawy"
+      }
+    ],
+    "giza_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1664218018556-0bf1297c7653?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHaXphJTIwY2l0eSUyMEVneXB0fGVufDF8MHx8fDE3ODM4MDEzMDR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "2H Media"
+      }
+    ],
+    "coptic_cairo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1680053550458-d048bbf8619b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYW5naW5nJTIwQ2h1cmNoJTIwQ2Fpcm98ZW58MXwwfHx8MTc4MzgwMTMwNnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "2H Media"
+      }
+    ],
+    "saqqara": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1636020895075-5e598638375e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdGVwJTIwUHlyYW1pZCUyMG9mJTIwRGpvc2VyJTIwU2FxcWFyYXxlbnwxfDB8fHwxNzgzODAxMzA4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dmitrii Zhodzishskii"
+      }
+    ],
+    "memphis": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1723282164805-8d7fa76d38cb?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNZW1waGlzJTIwRWd5cHQlMjBhbmNpZW50JTIwY2FwaXRhbHxlbnwxfDB8fHwxNzgzODAxMzEwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Aleksander Stypczynski"
+      }
+    ],
+    "dahshur": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1529135942918-ca55bb398f40?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCZW50JTIwUHlyYW1pZCUyMERhaHNodXJ8ZW58MXwwfHx8MTc4MzgwMTMxMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "simon"
+      }
+    ],
+    "nile_river": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1626692880062-35c360fb6afc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOaWxlJTIwUml2ZXIlMjBDYWlybyUyMHN1bnNldHxlbnwxfDB8fHwxNzgzODAxMzE0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Roaming Pictures"
+      }
+    ],
+    "al_azhar_mosque": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1693273647340-d8cb93a072ab?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbC1BemhhciUyME1vc3F1ZSUyMENhaXJvfGVufDF8MHx8fDE3ODM4MDEzMTZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Thales Botelho de Sousa"
+      }
+    ]
+  },
+  "alexandria": {
+    "citadel_of_qaitbay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1738511574956-9529fd9f84f1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaXRhZGVsJTIwb2YlMjBRYWl0YmF5JTIwZm9ydHJlc3N8ZW58MXwwfHx8MTc4MzgwMTMyNnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martijn Vonk"
+      }
+    ],
+    "corniche_alexandria": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1594808816834-f716b56c4fc6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbGV4YW5kcmlhJTIwQ29ybmljaGUlMjB3YXRlcmZyb250fGVufDF8MHx8fDE3ODM4MDEzMjh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Flo P"
+      }
+    ],
+    "catacombs_of_kom_el_shoqafa": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1710166307503-4f82b346f05a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYXRhY29tYnMlMjBLb20lMjBlbC1TaG9xYWZhJTIwQWxleGFuZHJpYXxlbnwxfDB8fHwxNzgzODAxMzMxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dilip Poddar"
+      }
+    ],
+    "pompeii_of_east": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1722264221001-211fd811a57a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBYnUlMjBRaXIlMjBCYXklMjBBbGV4YW5kcmlhfGVufDF8MHx8fDE3ODM4MDEzMzR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Bahaa Mourad"
+      }
+    ],
+    "montaza_palace": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633624646814-3a61ed3e2847?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250YXphJTIwUGFsYWNlJTIwQWxleGFuZHJpYXxlbnwxfDB8fHwxNzgzODAxMzM3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Juan Nino"
+      }
+    ],
+    "roman_theater": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1693321671817-5dc667b5f41b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb21hbiUyMFRoZWF0ZXIlMjBBbGV4YW5kcmlhJTIwS29tJTIwZWwtRGlra2F8ZW58MXwwfHx8MTc4MzgwMTMzOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Carnet de Voyage d'Alex"
+      }
+    ],
+    "serapeum_alexandria": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1740680910208-15da4653277b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTZXJhcGV1bSUyMHRlbXBsZSUyMEFsZXhhbmRyaWElMjBjb2x1bW5zfGVufDF8MHx8fDE3ODM4MDEzNDF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tech Tutor"
+      }
+    ],
+    "stanley_beach": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1718846526794-6721aa10911b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdGFubGV5JTIwQmVhY2glMjBBbGV4YW5kcmlhfGVufDF8MHx8fDE3ODM4MDEzNDd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mostafa Mahdy"
+      }
+    ]
+  },
+  "nile_delta": {
+    "alexandria": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1697546889969-27f7b5be8664?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaXRhZGVsJTIwb2YlMjBRYWl0YmF5JTIwQWxleGFuZHJpYXxlbnwxfDB8fHwxNzgzODAxMzU1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "abdullah ali"
+      }
+    ],
+    "rosetta": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1636671237821-47bd82a8af66?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb3NldHRhJTIwdG93biUyME5pbGUlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc4MzgwMTM1OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Arfat Jabbar"
+      }
+    ],
+    "tanta": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1696691907697-1293552cb22a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUYW50YSUyME1vc3F1ZSUyMEFobWFkJTIwYWwtQmFkYXdpfGVufDF8MHx8fDE3ODM4MDEzNjR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Shairyar Khan"
+      }
+    ],
+    "mansoura": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1738580785954-a6912f0400b2?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYW5zb3VyYSUyME5pbGUlMjBjaXR5JTIwRWd5cHR8ZW58MXwwfHx8MTc4MzgwMTM2Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martijn Vonk"
+      }
+    ]
+  },
+  "suez_canal": {
+    "port_said": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1778418938249-b1abe0553b5e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0JTIwU2FpZCUyMHdhdGVyZnJvbnQlMjBjYW5hbHxlbnwxfDB8fHwxNzgzODAxMzg1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Abdalrhman Abdelbasst"
+      }
+    ],
+    "ismailia": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1661633253048-6698f237ccfa?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJc21haWxpYSUyMFN1ZXolMjBDYW5hbCUyMGdhcmRlbnN8ZW58MXwwfHx8MTc4MzgwMTM4OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sergey Konstantinov"
+      }
+    ],
+    "mount_sinai": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1660606480245-a50601822f6a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3VudCUyMFNpbmFpJTIwc3VucmlzZSUyMHRyZWt8ZW58MXwwfHx8MTc4MzgwMTM5NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Artem Labunsky"
+      }
+    ],
+    "colored_canyon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1714581732803-db75df67b941?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb2xvcmVkJTIwQ2FueW9uJTIwU2luYWklMjBzdHJpcGVzfGVufDF8MHx8fDE3ODM4MDM5OTN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mihaela Claudia Puscas"
+      }
+    ]
+  },
+  "red_sea": {
+    "hurghada": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1755545414327-36524febb5b6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIdXJnaGFkYSUyMFJlZCUyMFNlYSUyMGJlYWNoJTIwcmVzb3J0fGVufDF8MHx8fDE3ODM4MDQwMDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jayde Keroi"
+      }
+    ],
+    "quseir": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1782430459503-7e6f9cd5440e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxRdXNlaXIlMjBvbGQlMjB0b3duJTIwbWVkaW5hfGVufDF8MHx8fDE3ODM4MDQwMTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Baptiste Riethmann"
+      }
+    ],
+    "marsa_alam": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYXJzYSUyMEFsYW0lMjBzZWElMjB0dXJ0bGV8ZW58MXwwfHx8MTc4MzgwNDAyMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Wexor Tmg"
+      }
+    ],
+    "abu_dabbab": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBYnUlMjBEYWJiYWIlMjBzZWElMjB0dXJ0bGUlMjBzd2ltbWluZ3xlbnwxfDB8fHwxNzgzODA0MDI1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Wexor Tmg"
+      }
+    ]
+  },
+  "upper_egypt": {
+    "aswan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1567444224998-d6fa982910dc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBc3dhbiUyMGZlbHVjY2ElMjBib2F0cyUyMHN1bnNldHxlbnwxfDB8fHwxNzgzODA0MDQwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Igor Rodrigues"
+      }
+    ],
+    "edfu": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1557640047-75c97a5f1ea4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUZW1wbGUlMjBvZiUyMEhvcnVzJTIwRWRmdXxlbnwxfDB8fHwxNzgzODA0MDQ1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Samer Khodeir"
+      }
+    ],
+    "kom_ombo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1557640047-75c97a5f1ea4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLb20lMjBPbWJvJTIwdGVtcGxlJTIwTmlsZXxlbnwxfDB8fHwxNzgzODA0MDQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Samer Khodeir"
+      }
+    ],
+    "dendera": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1696508367765-b5258b86117f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEZW5kZXJhJTIwVGVtcGxlJTIwb2YlMjBIYXRob3J8ZW58MXwwfHx8MTc4MzgwNDA1MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "The Cleveland Museum of Art"
+      }
+    ],
+    "west_bank_luxor": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1634844736515-3efd04f648b9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEZWlyJTIwZWwtQmFoYXJpJTIwdGVtcGxlJTIwSGF0c2hlcHN1dHxlbnwxfDB8fHwxNzgzODA0MDU2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nazar Haponov"
+      }
+    ]
+  },
+  "luxor_thebes": {
+    "luxor_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1678308510980-e855e5f31dea?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMdXhvciUyMGNpdHklMjBOaWxlJTIwRWd5cHR8ZW58MXwwfHx8MTc4MzgwNDA3MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "2H Media"
+      }
+    ],
+    "valley_of_kings": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1693947241038-da20ccf789db?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYWxsZXklMjBvZiUyMHRoZSUyMEtpbmdzJTIwdG9tYnN8ZW58MXwwfHx8MTc4MzgwNDA1NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Museum of New Zealand Te Papa Tongarewa"
+      }
+    ],
+    "karnak_temple": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1710886324980-997f7742f16c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYXJuYWslMjBUZW1wbGUlMjBjb2x1bW5zJTIwRWd5cHR8ZW58MXwwfHx8MTc4MzgwNDA3Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ahmed Elnokrashy"
+      }
+    ],
+    "luxor_temple": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1693654547147-24d94b4ed4ea?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMdXhvciUyMFRlbXBsZSUyMHN0YXR1ZXN8ZW58MXwwfHx8MTc4MzgwNDA3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Hongbin"
+      }
+    ],
+    "valley_of_queens": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1680356217112-dad9300ce49d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYWxsZXklMjBvZiUyMHRoZSUyMFF1ZWVucyUyME5lZmVydGFyaXxlbnwxfDB8fHwxNzgzODA0MDgzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jordi Orts Segalés"
+      }
+    ],
+    "colossi_of_memnon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1776870241449-d91ad13ec770?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb2xvc3NpJTIwb2YlMjBNZW1ub24lMjBzdGF0dWVzfGVufDF8MHx8fDE3ODM4MDQwODZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Smithsonian"
+      }
+    ],
+    "medinet_habu": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1761143551108-d4cb55afd1da?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNZWRpbmV0JTIwSGFidSUyMFRlbXBsZSUyMGNhcnZpbmdzfGVufDF8MHx8fDE3ODM4MDQwODh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Fatih Beki"
+      }
+    ],
+    "thoth_temple": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1662994314076-68a7573a1e23?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUZW1wbGUlMjBvZiUyMFRob3RoJTIwRWd5cHR8ZW58MXwwfHx8MTc4MzgwNDA5MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "2H Media"
+      }
+    ],
+    "dra_abu_naga": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1702909171830-2c4dca2ac090?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEcmElMjBBYnUlMjBOYWdhJTIwdG9tYnN8ZW58MXwwfHx8MTc4MzgwNDA5NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Michael Starkie"
+      }
+    ]
+  },
+  "aswan_nubia": {
+    "abu_simbel": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1742262379112-eacb2813ca6d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBYnUlMjBTaW1iZWwlMjB0ZW1wbGVzJTIwbWFzc2l2ZSUyMHN0YXR1ZXN8ZW58MXwwfHx8MTc4MzgwNDExNHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tang wei-chen"
+      }
+    ],
+    "lake_nasser": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633033254409-bd538e785f51?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwTmFzc2VyJTIwRWd5cHQlMjBjcnVpc2luZ3xlbnwxfDB8fHwxNzgzODA0MTE2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dmitrii Zhodzishskii"
+      }
+    ],
+    "elephantine_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1779534783927-956730214eb6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFbGVwaGFudGluZSUyMElzbGFuZCUyMEFzd2FuJTIwdGVtcGxlJTIwcnVpbnN8ZW58MXwwfHx8MTc4MzgwNDExOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Annie Spratt"
+      }
+    ],
+    "kitchener_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1670027537688-77def132d556?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLaXRjaGVuZXIlMjBJc2xhbmQlMjBib3RhbmljYWwlMjBnYXJkZW4lMjBwYWxtc3xlbnwxfDB8fHwxNzgzODA0MTIxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sally M"
+      }
+    ],
+    "nubian_village": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1657569802830-53d59cbc708f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOdWJpYW4lMjB2aWxsYWdlJTIwY29sb3JmdWwlMjBob3VzZXMlMjBFZ3lwdHxlbnwxfDB8fHwxNzgzODA0MTIzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Thales Botelho de Sousa"
+      }
+    ],
+    "edfu_temple": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1557640047-75c97a5f1ea4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFZGZ1JTIwVGVtcGxlJTIwSG9ydXMlMjBweWxvbiUyMEVneXB0fGVufDF8MHx8fDE3ODM4MDQxMjV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Samer Khodeir"
+      }
+    ],
+    "aswan_dam": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633033254409-bd538e785f51?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBc3dhbiUyMEhpZ2glMjBEYW0lMjBzdHJ1Y3R1cmUlMjBFZ3lwdHxlbnwxfDB8fHwxNzgzODQyMTI2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dmitrii Zhodzishskii"
+      }
+    ],
+    "nubian_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1631713215053-cc2df30dc6e9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOdWJpYW4lMjBNdXNldW0lMjBBc3dhbiUyMGludGVyaW9yfGVufDF8MHx8fDE3ODM4NDIxMjl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Abdullah Elhariry"
+      }
+    ],
+    "felucca_sailing": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1644517270263-4112379d97ca?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGZWx1Y2NhJTIwYm9hdCUyMEFzd2FuJTIwTmlsZSUyMHNhaWx8ZW58MXwwfHx8MTc4Mzg0MjEzMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Eszter Kisgyura"
+      }
+    ]
+  },
+  "western_desert": {
+    "siwa_oasis": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1727359714097-7c8f5e96023f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTaXdhJTIwT2FzaXMlMjBFZ3lwdCUyMHBhbG0lMjB0cmVlc3xlbnwxfDB8fHwxNzgzODQyMTQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "S L"
+      }
+    ],
+    "matrouh_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1593663094448-9ea85c6e8456?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYXJzYSUyME1hdHJvdWglMjBiZWFjaCUyMEVneXB0fGVufDF8MHx8fDE3ODM4NDIxNDl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Youhana Nassif"
+      }
+    ],
+    "bahariya_oasis": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1631750025018-2a2cad86d641?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYWhhcml5YSUyME9hc2lzJTIwRWd5cHQlMjBwYWxtJTIwZ3JvdmVzfGVufDF8MHx8fDE3ODM4NDIxNTN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Amira Shawky"
+      }
+    ],
+    "white_desert": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1708008434267-dbd151d62a54?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXaGl0ZSUyMERlc2VydCUyMEVneXB0JTIwY2hhbGslMjBmb3JtYXRpb25zfGVufDF8MHx8fDE3ODM4NDIxNTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ahmed Azab"
+      }
+    ],
+    "temple_of_oracle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633163893862-4cdc62de7d82?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUZW1wbGUlMjBvZiUyME9yYWNsZSUyMFNpd2ElMjBFZ3lwdHxlbnwxfDB8fHwxNzgzODQyMTYxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dmitrii Zhodzishskii"
+      }
+    ]
+  },
+  "sinai_peninsula": {
+    "sharm_el_sheikh": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1708694423464-0f5b19fb2444?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTaGFybSUyMEVsLVNoZWlraCUyMGJlYWNoJTIwcmVzb3J0fGVufDF8MHx8fDE3ODM4NDIyMDV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anastasiia Popova"
+      }
+    ],
+    "dahab": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1664056653856-aba186af5b85?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEYWhhYiUyMEJsdWUlMjBIb2xlJTIwZGl2aW5nfGVufDF8MHx8fDE3ODM4MDEzOTN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Hatem Ramadan"
+      }
+    ],
+    "ras_muhammad": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSYXMlMjBNdWhhbW1hZCUyMGNvcmFsJTIwcmVlZnxlbnwxfDB8fHwxNzgzODQyMjEyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Hiroko Yoshii"
+      }
+    ],
+    "nuweiba": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1556659138-7becda0d1449?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOdXdlaWJhJTIwYmVhY2glMjB0b3dufGVufDF8MHx8fDE3ODM4NDIyMTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mor Shani"
+      }
+    ],
+    "blue_lagoon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1713722122973-bfa5e9ebca82?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCbHVlJTIwTGFnb29uJTIwRGFoYWIlMjBzbm9ya2VsaW5nfGVufDF8MHx8fDE3ODM4NDIyMjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Emmanuel Cassar"
+      }
+    ]
+  }
 }

@@ -1,17 +1,662 @@
 {
-  "capital_region": {},
-  "copenhagen_region": {},
-  "north_zealand": {},
-  "zealand": {},
-  "funen": {},
-  "west_zealand": {},
-  "south_denmark": {},
-  "south_zealand": {},
-  "central_jutland": {},
-  "lolland_falster": {},
-  "north_jutland": {},
-  "bornholm": {},
-  "south_jutland": {},
-  "eastern_jutland": {},
-  "northern_jutland": {}
+  "capital_region": {
+    "helsing_r": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1748814670185-ae3f3b8fee7d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLcm9uYm9yZyUyMENhc3RsZSUyMEhlbHNpbmclQzMlQjhyfGVufDF8MHx8fDE3ODM3NjU4MzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tannis Sullivan"
+      }
+    ],
+    "malmo_connection": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1640032314090-fa092cec87f4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlOThyZXN1bmQlMjBCcmlkZ2UlMjBTd2VkZW4lMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3NjU4MzV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Julian Hochgesang"
+      }
+    ],
+    "frederiksborg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1609691510563-2cbc50004a0f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGcmVkZXJpa3Nib3JnJTIwQ2FzdGxlJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY1ODM3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marina Šurniene"
+      }
+    ],
+    "dyrehaven": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1678562772559-b6527443e5ad?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEeXJlaGF2ZW4lMjBDb3BlbmhhZ2VuJTIwZGVlciUyMHBhcmt8ZW58MXwwfHx8MTc4Mzc2NTgzOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Bhuvanesh G"
+      }
+    ],
+    "klampenborg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1659628990473-61783140ab61?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLbGFtcGVuYm9yZyUyMGJlYWNoJTIwQ29wZW5oYWdlbnxlbnwxfDB8fHwxNzgzNzY1ODQxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rocío Perera"
+      }
+    ],
+    "fredensborg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1591875802741-b97ffbb75365?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGcmVkZW5zYm9yZyUyMFBhbGFjZSUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc2NTg0NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jakob Søby"
+      }
+    ]
+  },
+  "copenhagen_region": {
+    "copenhagen_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1693085777086-1da3abf20d75?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOeWhhdm4lMjBDb3BlbmhhZ2VuJTIwd2F0ZXJmcm9udHxlbnwxfDB8fHwxNzgzNzY1ODU3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sabrina Mazzeo"
+      }
+    ],
+    "malmoe": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1689259377284-0030ca5895f1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUdXJuaW5nJTIwVG9yc28lMjBNYWxtJUMzJUI2fGVufDF8MHx8fDE3ODM3NjU4NTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Boris Hadjur"
+      }
+    ],
+    "fredensborg_palace": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1780135536562-ca115608a750?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGcmVkZW5zYm9yZyUyMFBhbGFjZSUyMGdhcmRlbnN8ZW58MXwwfHx8MTc4Mzc2NTg2NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Stefan Szankowski"
+      }
+    ],
+    "roskilde": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1653854309135-c79da0ed007a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb3NraWxkZSUyMENhdGhlZHJhbCUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc2NTgzMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel Marshall"
+      }
+    ],
+    "frederiksborg_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1609691510563-2cbc50004a0f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGcmVkZXJpa3Nib3JnJTIwQ2FzdGxlJTIwSGlsbGVyJUMzJUI4ZHxlbnwxfDB8fHwxNzgzNzY1ODY5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marina Šurniene"
+      }
+    ],
+    "dragor": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1551651767-d5ffbdd04b83?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEciVDMyVBNWclQzMlQjhyJTIwaGFyYm9yJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY1ODcxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ava Coploff"
+      }
+    ],
+    "oresund_bridge": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1640032314090-fa092cec87f4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlOThyZXN1bmQlMjBCcmlkZ2UlMjBEZW5tYXJrJTIwU3dlZGVufGVufDF8MHx8fDE3ODM3NjU4NzZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Julian Hochgesang"
+      }
+    ]
+  },
+  "north_zealand": {
+    "hundested": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1618992936504-6fb4a4922c2e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIdW5kZXN0ZWQlMjBiZWFjaCUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc2NTg5NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Palle Knudsen"
+      }
+    ],
+    "tisvilde": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1606153544735-1c2ccb1583b1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUaXN2aWxkZSUyMGJlYWNoJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY4Mzg2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Razvan Mirel"
+      }
+    ]
+  },
+  "zealand": {
+    "kronborg_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1748814670185-ae3f3b8fee7d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLcm9uYm9yZyUyMENhc3RsZSUyMEhlbHNpbmclQzMlQjhyfGVufDF8MHx8fDE3ODM3NjU4MzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tannis Sullivan"
+      }
+    ],
+    "malmo_crossing": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1640032314090-fa092cec87f4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlOThyZXN1bmQlMjBCcmlkZ2V8ZW58MXwwfHx8MTc4Mzc2ODQyM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Julian Hochgesang"
+      }
+    ],
+    "amager_wetland": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1585119576446-c21e93a80d3c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbWFnZXIlMjBGJUMzJUE2bGxlZCUyMHdldGxhbmQlMjBuYXR1cmV8ZW58MXwwfHx8MTc4Mzc2ODQyOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jonas Smith"
+      }
+    ],
+    "soro_lake": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1566977881883-50c9a3c98af2?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTb3IlQzMlQjglMjBsYWtlJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY4NDMxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Absent Wall"
+      }
+    ]
+  },
+  "funen": {
+    "odense": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1755107428240-f54f98976083?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPZGVuc2UlMjBjYW5hbCUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc2ODQ2MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "balint henter"
+      }
+    ],
+    "kerteminde": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1625143142503-72c16cf7339a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLZXJ0ZW1pbmRlJTIwZmlzaGluZyUyMHZpbGxhZ2UlMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3Njg0NjV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mihai Moisa"
+      }
+    ],
+    "assens": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1753173006022-9cba42af6aae?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBc3NlbnMlMjBEZW5tYXJrJTIwaGFyYm9yfGVufDF8MHx8fDE3ODM3Njg0Njd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rasmus Andersen"
+      }
+    ],
+    "egeskov": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1609691510563-2cbc50004a0f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFZ2Vza292JTIwQ2FzdGxlJTIwRGVubWFyayUyMG1vYXR8ZW58MXwwfHx8MTc4Mzc2ODQ2OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marina Šurniene"
+      }
+    ],
+    "millinge": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1578163678052-eef169544f75?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNaWxsaW5nZSUyMGFydCUyMGdhbGxlcmllcyUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc2ODQ3MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jonas Smith"
+      }
+    ],
+    "middelfart": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1722258119820-9b0932340d4c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNaWRkZWxmYXJ0JTIwRGVubWFyayUyMGhhcmJvcnxlbnwxfDB8fHwxNzgzNzY4NDc2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel J. Schwarz"
+      }
+    ]
+  },
+  "west_zealand": {
+    "stevns_klint": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1601740268750-e2677e822eab?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdGV2bnMlMjBLbGludCUyMHdoaXRlJTIwY2xpZmZzJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY4NDk3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Di Ya"
+      }
+    ],
+    "osted": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1639107332710-3297bc0f3417?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlOThzdGVkJTIwSGFucyUyMENocmlzdGlhbiUyMCVDMyU5OHJzdGVkfGVufDF8MHx8fDE3ODM3Njg1MDJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Beatriz Miller"
+      }
+    ]
+  },
+  "south_denmark": {
+    "billund": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1764620599401-600ddff2a9e7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMRUdPTEFORCUyMEJpbGx1bmQlMjB0aGVtZSUyMHBhcmt8ZW58MXwwfHx8MTc4Mzc2ODUzOHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anakin"
+      }
+    ],
+    "ribe": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1624190715464-7515991cb37f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSaWJlJTIwbWVkaWV2YWwlMjB0b3duJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY4NTQwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Machrife"
+      }
+    ],
+    "sonderborg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1609691510563-2cbc50004a0f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTb25kZXJib3JnJTIwQ2FzdGxlJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzY4NTQzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marina Šurniene"
+      }
+    ],
+    "fanoe": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1696534016676-457f40b4653b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGYW4lQzMlQjglMjBpc2xhbmQlMjBjb2xvcmZ1bCUyMGhvdXNlc3xlbnwxfDB8fHwxNzgzNzY4NTQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Line Kjær"
+      }
+    ],
+    "kolding": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1698932077872-fbedbed16ad2?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLb2xkaW5naHVzJTIwZm9ydHJlc3MlMjBLb2xkaW5nfGVufDF8MHx8fDE3ODM3Njg1NDl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Eva Kristensen"
+      }
+    ],
+    "skagen": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1544115341-95f8fc9d9df6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTa2FnZW4lMjBHcmVuZW4lMjB0d28lMjBzZWFzJTIwbWVldGluZ3xlbnwxfDB8fHwxNzgzNzY4NTUxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ihor Malytskyi"
+      }
+    ],
+    "vejers": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1627215477561-f0b7755115e9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWZWplcnMlMjBTdHJhbmQlMjBiZWFjaCUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc3MjM5OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Silvan Schuppisser"
+      }
+    ]
+  },
+  "south_zealand": {
+    "mons_klint": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1648675608037-29f7481cd230?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNJUMzJUI4biUyN3MlMjBLbGludCUyMHdoaXRlJTIwY2xpZmZzfGVufDF8MHx8fDE3ODM3NzI0MTN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Joshua Kettle"
+      }
+    ],
+    "stege": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1765529290447-6922a9f0bdd3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdGVnZSUyMG1lZGlldmFsJTIwaGFyYm9yJTIwdG93bnxlbnwxfDB8fHwxNzgzNzcyNDE3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "ün LIU"
+      }
+    ]
+  },
+  "central_jutland": {
+    "aarhus": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1570411957736-3f9d0640a75e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBUm9TJTIwQWFyaHVzJTIwcmFpbmJvdyUyMHBhbm9yYW1hfGVufDF8MHx8fDE3ODM3NzI0NTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anders Krøgh Jørgensen"
+      }
+    ],
+    "randers": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1563293455-74cd8fc2cabe?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSYW5kZXJzJTIwUmFpbmZvcmVzdCUyMHpvb3xlbnwxfDB8fHwxNzgzNzcyNDYyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Waldemar Brandt"
+      }
+    ],
+    "givskud": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1761469882150-164514451793?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHaXZza3VkJTIwWm9vJTIwc2FmYXJpfGVufDF8MHx8fDE3ODM3NzI0NzB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Julia Taubitz"
+      }
+    ],
+    "ikast": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1582711012124-a56cf82307a0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJa2FzdCUyMEZlc3RpdmFsfGVufDF8MHx8fDE3ODM3NzI0NzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tony Pham"
+      }
+    ],
+    "favrskov": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1604342767712-f7448911dc51?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGJUMzJUE1dnJza292JTIwYmVlY2glMjBmb3Jlc3QlMjBoaWtpbmd8ZW58MXwwfHx8MTc4Mzc3MjQ3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel Seßler"
+      }
+    ]
+  },
+  "lolland_falster": {
+    "mon_cliffs": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1725828651999-4cfc6a5a37cc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNJUMzJUI4biUyMEtsaW50JTIwY2hhbGslMjBjbGlmZnMlMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3NzI1MDF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Frederik Wordenskjold"
+      }
+    ],
+    "aaleb_ksminde": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1722258119820-9b0932340d4c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBYWxlYiVDMyVBNmtzbWluZGUlMjBoYXJib3IlMjBNJUMzJUI4biUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc3MjUwOHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel J. Schwarz"
+      }
+    ],
+    "n_rrebelle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1753173006022-9cba42af6aae?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOJUMzJUI4cnJlYmVsbGUlMjB2aWxsYWdlJTIwTG9sbGFuZCUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc3MjUxMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rasmus Andersen"
+      }
+    ]
+  },
+  "north_jutland": {
+    "grenen": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1544115341-95f8fc9d9df6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmVuZW4lMjB0d28lMjBzZWFzJTIwbWVldGluZ3xlbnwxfDB8fHwxNzgzNzcyNTM4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ihor Malytskyi"
+      }
+    ],
+    "hirtshal_s_aquarium": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1561794047-cc8f58725bdd?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOb3JkcyVDMyVCOGVuJTIwT2NlYW5hcml1bSUyMEhpcnRzaGFsc3xlbnwxfDB8fHwxNzgzNzcyNTQzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gunnar Ridderström"
+      }
+    ],
+    "loekaenskoven": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1534684105949-56869170677f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMJUMzJUI4a2Vuc2tvdmVuJTIwZm9yZXN0JTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzcyNTQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sandro Kradolfer"
+      }
+    ],
+    "tvoersted": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1534684105949-56869170677f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUdm9lcnN0ZWQlMjBEZW5tYXJrJTIwdmlsbGFnZXxlbnwxfDB8fHwxNzgzNzcyNTQ5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sandro Kradolfer"
+      }
+    ],
+    "hirtshals": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1657809825137-4128d24cd543?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIaXJ0c2hhbHMlMjBmaXNoaW5nJTIwcG9ydCUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc3NjIwMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Palle Knudsen"
+      }
+    ]
+  },
+  "bornholm": {
+    "hammershus_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1612260192292-d8c3001000a8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYW1tZXJzaHVzJTIwQ2FzdGxlJTIwQm9ybmhvbG0lMjBydWluc3xlbnwxfDB8fHwxNzgzNzc2MjE3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Artem Shuba"
+      }
+    ],
+    "ronne": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1725796063405-cd44639736dd?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSJUMzJUI4bm5lJTIwQm9ybmhvbG0lMjBoYXJib3IlMjBjaXR5fGVufDF8MHx8fDE3ODM3NzYyMTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jakob Gausvik-Tvedt"
+      }
+    ],
+    "hasle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1595227333367-3512daf094f9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYXNsZSUyMGZpc2hpbmclMjB2aWxsYWdlJTIwQm9ybmhvbG18ZW58MXwwfHx8MTc4Mzc3NjIyMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mads Sonne"
+      }
+    ],
+    "svaneke": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1634027056607-3cd3a59a518f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdmFuZWtlJTIwQm9ybmhvbG0lMjBjb2FzdGFsJTIwdG93bnxlbnwxfDB8fHwxNzgzNzc2MjI0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Justus Wolff"
+      }
+    ],
+    "dueodde": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1660289481889-739ce52d8722?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEdWVvZGRlJTIwbGlnaHRob3VzZSUyMEJvcm5ob2xtfGVufDF8MHx8fDE3ODM3NzYyMjd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Andreas Rasmussen"
+      }
+    ],
+    "almindingen_forest": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1597182455681-47bbd01fcfac?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbG1pbmRpbmdlbiUyMGZvcmVzdCUyMEJvcm5ob2xtJTIwdHJhaWxzfGVufDF8MHx8fDE3ODM3NzYyMjl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Andreas Rasmussen"
+      }
+    ],
+    "aarsdale": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1634027056607-3cd3a59a518f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlODVyc2RhbGUlMjBCb3JuaG9sbSUyMHZpbGxhZ2V8ZW58MXwwfHx8MTc4Mzc3NjIzM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Justus Wolff"
+      }
+    ],
+    "tejn_beach": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1560552451-97b5ee52847d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUZWpuJTIwQmVhY2glMjBCb3JuaG9sbSUyMHNhbmR8ZW58MXwwfHx8MTc4Mzc3NjIzNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Febiyan"
+      }
+    ],
+    "jons_kapel": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1595227333367-3512daf094f9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxKb25zJTIwS2FwZWwlMjBjbGlmZiUyMGNoYXBlbCUyMEJvcm5ob2xtfGVufDF8MHx8fDE3ODM3NzYyMzd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mads Sonne"
+      }
+    ]
+  },
+  "south_jutland": {
+    "aabenraa": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1613412347326-91f1d3767759?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBYWJlbnJhYSUyMGhhcmJvciUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc3NjI1Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Alexandra Mitache"
+      }
+    ],
+    "hojer": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1743004968083-686b138b5944?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIJUMzJUI4amVyJTIwd2luZG1pbGwlMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3NzYyNjJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Erim Berk Benli"
+      }
+    ],
+    "egeskov": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1609691458664-6b4f92f0143b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFZ2Vza292JTIwQ2FzdGxlJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzc2MjY1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marina Šurniene"
+      }
+    ]
+  },
+  "eastern_jutland": {
+    "mols_bjerge": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1534684105949-56869170677f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb2xzJTIwQmplcmdlJTIwbGFuZHNjYXBlJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzc2MzA2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sandro Kradolfer"
+      }
+    ],
+    "silkeborg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1683031422680-ab090cde37ab?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTaWxrZWJvcmclMjBsYWtlcyUyMERlbm1hcmt8ZW58MXwwfHx8MTc4Mzc3NjMxMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel Diemer"
+      }
+    ],
+    "samso": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1659349099282-9448e8d46a1d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYW1zJUMzJUI4JTIwaXNsYW5kJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzc2MzE1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marino Linic"
+      }
+    ],
+    "himmelbjerget": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1602237413172-2f54c0aa3722?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIaW1tZWxiamVyZyUyMHRvd2VyJTIwRGVubWFya3xlbnwxfDB8fHwxNzgzNzc2MzE5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marc Markstein"
+      }
+    ]
+  },
+  "northern_jutland": {
+    "aalborg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1774631564031-8d57b11fc2e0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBYWxib3JnJTIwd2F0ZXJmcm9udCUyMGhhcmJvcnxlbnwxfDB8fHwxNzgzNzc2MzM2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marianne Lariviere"
+      }
+    ],
+    "rubjerg_knude": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1647439527437-ef3ac651bb20?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSdWJqZXJnJTIwS251ZGUlMjBsaWdodGhvdXNlfGVufDF8MHx8fDE3ODM3NzYzNDR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "July"
+      }
+    ],
+    "thy_national_park": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1590397740803-8ebd3cb11ba6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUaHklMjBOYXRpb25hbCUyMFBhcmslMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3NzYzNDZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sevak"
+      }
+    ],
+    "blokhus": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1625330605783-bcd46731e0ca?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCbG9raHVzJTIwYmVhY2glMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3NzYzNDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Matthias Patzuda"
+      }
+    ],
+    "hanstholm": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1753173006022-9cba42af6aae?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYW5zdGhvbG0lMjBoYXJib3IlMjBEZW5tYXJrfGVufDF8MHx8fDE3ODM3NzYzNTB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rasmus Andersen"
+      }
+    ]
+  }
 }
