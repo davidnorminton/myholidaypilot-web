@@ -13,7 +13,6 @@ import { PageLoader } from '../components/Loading.jsx'
 import AffiliateSection from '../components/AffiliateSection.jsx'
 import CommentsSection from '../components/CommentsSection.jsx'
 import { useSeo } from '../lib/seo.js'
-import { useSettings } from '../lib/settings.js'
 import BeenHereButton from '../components/BeenHereButton.jsx'
 import TripDetails from '../components/TripDetails.jsx'
 import ViatorTours from '../components/ViatorTours.jsx'
@@ -28,7 +27,6 @@ const TABS = [
 ]
 
 export default function RegionDetailScreen() {
-  const site = useSettings()
   const { country = 'italy', regionId } = useParams()
   const countryName = (COUNTRIES.find((c) => c.slug === country) || {}).name || ''
   const aff = useAffiliates()
@@ -50,11 +48,10 @@ export default function RegionDetailScreen() {
   // region that has an image (baked into place.image at build time).
   const heroImage = useMemo(() => {
     if (!region) return null
-    return site[`regionHero.${regionId}`]
-      || region.heroImage?.url
+    return region.heroImage?.url
       || (region.places || []).map((p) => p.image).find(Boolean)
       || null
-  }, [region, site, regionId])
+  }, [region, regionId])
 
   useSeo({
     title: region ? `Things to do in ${region.name} — places, food & trip ideas` : undefined,

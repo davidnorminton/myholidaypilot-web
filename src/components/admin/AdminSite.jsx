@@ -9,11 +9,6 @@ import { clearSettingsCache } from '../../lib/settings.js'
 // Site-wide content: the home hero (image + headline + subline) and an
 // optional hero image override per region (defaults to the region's first
 // place photo when blank).
-const PAGE_IMAGES = [
-  ['plan', 'Plan my trip'], ['guided', 'Guided planner'],
-  ['daytrips', 'Day-trip finder'], ['tripideas', 'Trip ideas'],
-  ['destinations', 'Destinations'], ['contact', 'Contact us'],
-]
 
 const HUB_SECTIONS = [
   ['regions', 'Regions'], ['festivals', 'Festivals & events'], ['history', 'History'],
@@ -120,18 +115,6 @@ export default function AdminSite({ regions = [] }) {
         ))}
       </div>
 
-      <h3 className="admin-h3">Page images</h3>
-      <p className="admin-note">
-        The picture beside the title on each main page (like the trip planner). Set once — used across the whole site.
-      </p>
-      <div className="admin-grid2">
-        {PAGE_IMAGES.map(([id, label]) => (
-          <ImageField key={id} label={label}
-            value={val(`page.${id}`)}
-            onChange={(v) => setVal(`page.${id}`, v)} />
-        ))}
-      </div>
-
       <h3 className="admin-h3">Home page hero</h3>
       <p className="admin-note">Leave any field blank to use the built-in default.</p>
       <ImageField label="Hero background image" value={val('home.hero')} onChange={(v) => setVal('home.hero', v)} full />
@@ -144,14 +127,6 @@ export default function AdminSite({ regions = [] }) {
         <input value={val('home.sub')} onChange={(e) => setVal('home.sub', e.target.value)} placeholder="Default subline" />
       </label>
 
-      <h3 className="admin-h3" style={{ marginTop: 28 }}>Region hero images</h3>
-      <p className="admin-note">Optional per-region hero. Blank = the region's first place photo.</p>
-      <div className="admin-site__regions">
-        {regions.map((r) => (
-          <ImageField key={r.id} label={r.name} value={val(`regionHero.${r.id}`)}
-            onChange={(v) => setVal(`regionHero.${r.id}`, v)} />
-        ))}
-      </div>
     </div>
   )
 }
