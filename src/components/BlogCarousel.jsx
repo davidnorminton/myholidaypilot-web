@@ -24,8 +24,9 @@ export default function BlogCarousel({ countryName = '', title = 'From the blog'
   const matches = (p) => {
     if (!countryName) return true
     const want = countryName.toLowerCase()
-    const tags = [p.tag, ...(p.tags || [])].filter(Boolean).map((t) => String(t).toLowerCase())
-    return tags.includes(want)
+    const wantSlug = want.replace(/\s+/g, '_')
+    const tags = [p.tag, p.country, ...(p.tags || [])].filter(Boolean).map((t) => String(t).toLowerCase())
+    return tags.includes(want) || tags.includes(wantSlug)
   }
 
   useEffect(() => {
@@ -33,10 +34,12 @@ export default function BlogCarousel({ countryName = '', title = 'From the blog'
     const req = countryName ? api.posts.list() : api.posts.page(PAGE, 0)
     req.then((rows) => {
       if (!live) return
-      const list = (rows || []).map(normalize).filter(matches)
+      // Filter on RAW rows: normalize() keeps only the single tag, but the
+      // country can live in the tags[] array too.
+      const list = (rows || []).filter(matches).map(normalize)
       if (list.length) { setPosts(list); setHasMore(!countryName && rows.length === PAGE) }
-      else { setPosts(BUNDLED.map(normalize).filter(matches)); setHasMore(false) }
-    }).catch(() => { if (live) { setPosts(BUNDLED.map(normalize).filter(matches)); setHasMore(false) } })
+      else { setPosts(BUNDLED.filter(matches).map(normalize)); setHasMore(false) }
+    }).catch(() => { if (live) { setPosts(BUNDLED.filter(matches).map(normalize)); setHasMore(false) } })
     return () => { live = false }
   }, [countryName])
 
