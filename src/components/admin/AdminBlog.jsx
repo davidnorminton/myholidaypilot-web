@@ -34,7 +34,7 @@ export default function AdminBlog() {
   const startEdit = (p) => {
     setForm({
       _orig: p.slug, slug: p.slug, title: p.title || '', tag: p.tag || '', author: p.author || '',
-      country: (p.tags || []).find((t) => COUNTRY_SLUGS.has(t)) || '',
+      country: (Array.isArray(p.tags) ? p.tags : []).find((t) => COUNTRY_SLUGS.has(t)) || '',
       coverImage: p.coverImage || '', dek: p.dek || '', body: bodyToHtml(p.body),
       status: p.status || 'published',
       date: p.publishedAt ? new Date(p.publishedAt).toISOString().slice(0, 10) : today(),
@@ -93,7 +93,7 @@ export default function AdminBlog() {
           title: res.title,
           slug: form._orig ? form.slug : slugify(res.title),
           tag: res.tag,
-          country: aiCountry || f.country || '',
+          country: aiCountry || form.country || '',
           dek: res.excerpt,
           body: res.html,
         })

@@ -25,7 +25,7 @@ export default function BlogCarousel({ countryName = '', title = 'From the blog'
     if (!countryName) return true
     const want = countryName.toLowerCase()
     const wantSlug = want.replace(/\s+/g, '_')
-    const tags = [p.tag, p.country, ...(p.tags || [])].filter(Boolean).map((t) => String(t).toLowerCase())
+    const tags = [p.tag, p.country, ...(Array.isArray(p.tags) ? p.tags : [])].filter(Boolean).map((t) => String(t).toLowerCase())
     return tags.includes(want) || tags.includes(wantSlug)
   }
 
