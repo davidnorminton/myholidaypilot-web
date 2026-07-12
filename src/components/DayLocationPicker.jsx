@@ -200,9 +200,15 @@ export default function DayLocationPicker({ tripId, countryId, day, dayNumber, d
             <CalendarCheck size={15} /> {place?.allDays ? `${selected.name} is set for all days` : `Set ${selected.name} for rest of days`}
           </button>
 
-          <button className="setloc__save" disabled={!saved && dayAttractions.length === 0} onClick={() => setSaved(!saved)}>
-            {saved ? <><Compass size={15} /> Show activities</> : <><Check size={15} /> Save activities</>}
-          </button>
+          {saved ? (
+            <button className="setloc__save setloc__save--edit" onClick={() => setSaved(false)}>
+              <Compass size={15} /> Edit activities
+            </button>
+          ) : (
+            <button className="setloc__save" disabled={dayAttractions.length === 0} onClick={() => setSaved(true)}>
+              <Check size={15} /> Save activities
+            </button>
+          )}
 
           {saved ? (
             <div className="setloc__saved">

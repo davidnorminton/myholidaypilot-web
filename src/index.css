@@ -3246,8 +3246,11 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .setloc__savedstaymeta{color:var(--muted); font-size:12.5px; font-weight:500}
 .daystay__del{width:28px; height:28px; flex:none; display:grid; place-items:center; border:0; background:var(--surface-2); color:var(--muted); cursor:pointer}
 .daystay__del:hover{background:var(--danger); color:#fff}
-.setloc__save{display:inline-flex; align-items:center; gap:7px; margin-bottom:16px; padding:10px 16px; border:1px solid transparent; background:var(--gold); color:#fff; font-weight:700; font-size:13.5px; cursor:pointer; transition:filter .15s}
+.setloc__save{display:inline-flex; align-items:center; gap:7px; margin-bottom:16px; padding:10px 16px; border:1px solid transparent; background:#1e7d43; color:#fff; font-weight:700; font-size:13.5px; cursor:pointer; transition:filter .15s, background .15s, color .15s}
 .setloc__save:hover{filter:brightness(1.08)}
+.setloc__save:disabled{opacity:.5; cursor:default}
+.setloc__save--edit{background:transparent; border-color:var(--ink); color:var(--ink)}
+.setloc__save--edit:hover{background:var(--ink); color:#fff; filter:none}
 .setloc__saved{margin-top:4px}
 .setloc__savedhead{display:flex; align-items:center; gap:12px; margin-bottom:12px}
 .setloc__savedlabel{font-size:11.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:0}
@@ -3363,8 +3366,8 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planws--sheet .planws__maininner{padding:20px 24px 60px}
 .planws--sheet .planws__map{height:100%; margin:0; border:0; border-left:1px solid var(--line); border-radius:0; overflow:hidden; position:relative}
 .planws--sheet .planws__map{position:relative; top:auto; height:100%; min-height:0}
-.planws--sheet .planws__map .mapview{height:100% !important; border-radius:0; border:0; margin:0; box-shadow:none}
-.planws--sheet .planws__mapempty{border-radius:0}
+.planws--sheet .planws__map .mapview{position:absolute; inset:0; height:auto !important; border-radius:0; border:0; margin:0; box-shadow:none}
+.planws--sheet .planws__mapempty{position:absolute; inset:0; border-radius:0}
 @media (max-width: 960px){
   .planws--sheet{grid-template-columns:1fr; grid-template-rows:auto 1fr; overflow-y:auto; display:flex; flex-direction:column}
   .planws--sheet .planws__side{height:auto; overflow:visible; border-right:0; border-bottom:1px solid var(--line)}
