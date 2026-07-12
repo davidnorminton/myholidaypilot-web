@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
 import {
   Plus, Trash2, X, Check, StickyNote, CalendarRange,
@@ -240,7 +241,7 @@ export default function PlanScreen() {
         </header>
       </div>
 
-      {sheetOpen && trip && (
+      {sheetOpen && trip && createPortal(
       <div className={`plansheet ${sheetClosing ? 'is-closing' : ''}`} role="dialog" aria-label="Trip builder">
         <div className="planbuild__titlebar">
           <div className="planbuild__title">
@@ -337,8 +338,8 @@ export default function PlanScreen() {
             </p>
           </aside>
         </section>
-      </div>
-      )}
+      </div>,
+      document.body)}
 
       {wizard && (
         <AddPlaceWizard tripId={wizard.tripId} initialQuery={wizard.query} initialMode={wizard.mode} onClose={() => setWizard(null)} />
