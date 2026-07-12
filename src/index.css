@@ -2897,7 +2897,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planform__flights summary::-webkit-details-marker{display:none}
 .planform__flights summary em{font-style:normal; font-weight:500; color:var(--muted); font-size:12px}
 .planform__flights[open] summary{display:none}
-.planform__flights[open]{background:rgba(255,255,255,.92); padding:12px; margin:0 -6px}
+.planform__flights[open]{background:rgba(255,255,255,.92); padding:14px 16px; margin:0}
 .planform__clear--quiet{align-self:flex-start; margin:0; background:none; border:0; padding:4px 2px; font-size:12.5px; font-weight:600; cursor:pointer;
   color:rgba(255,255,255,.85); text-decoration:underline; text-underline-offset:3px; cursor:pointer}
 .planpage__form:not(.planpage__form--img) .planform__clear--quiet{color:var(--ink-soft)}
