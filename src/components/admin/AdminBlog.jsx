@@ -9,7 +9,8 @@ import { paths } from '../../lib/paths.js'
 
 const slugify = (s) => (s || '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60)
 const today = () => new Date().toISOString().slice(0, 10)
-const EMPTY = { _orig: null, slug: '', title: '', tag: 'Field notes', author: 'The Pilot', coverImage: '', dek: '', body: '', status: 'draft', date: '' }
+const EMPTY = { _orig: null, slug: '', title: '', tag: 'Field notes', author: 'The Pilot', coverImage: '', dek: '', body: '', status: 'draft', date: '', country: '' }
+const COUNTRY_SLUGS = new Set(COUNTRIES.map((c) => c.slug))
 const PLACEHOLDER = '<p>Write your post in HTML.</p>\n<h2>A subheading</h2>\n<p>Another paragraph with a <a href="https://example.com">link</a> and <strong>bold</strong> text.</p>'
 
 export default function AdminBlog() {
@@ -33,6 +34,7 @@ export default function AdminBlog() {
   const startEdit = (p) => {
     setForm({
       _orig: p.slug, slug: p.slug, title: p.title || '', tag: p.tag || '', author: p.author || '',
+      country: (p.tags || []).find((t) => COUNTRY_SLUGS.has(t)) || '',
       coverImage: p.coverImage || '', dek: p.dek || '', body: bodyToHtml(p.body),
       status: p.status || 'published',
       date: p.publishedAt ? new Date(p.publishedAt).toISOString().slice(0, 10) : today(),
@@ -44,10 +46,14 @@ export default function AdminBlog() {
     if (!form.title.trim() || busy) return
     setBusy(true)
     const status = publish ? 'published' : form.status
+    // The post's country travels in tags[] as its slug (no schema change);
+    // the country pages' carousel matches on it.
+    const baseTags = form.tag.trim() ? [form.tag.trim()] : []
     const payload = {
       slug: form.slug || slugify(form.title), title: form.title.trim(), tag: form.tag.trim(),
       author: form.author.trim(), coverImage: form.coverImage.trim(), dek: form.dek.trim(),
       body: form.body, status,
+      tags: form.country ? [...baseTags, form.country] : baseTags,
       publishedAt: status === 'published' ? (form.date ? Date.parse(form.date) : Date.now()) : null,
     }
     try {
@@ -87,6 +93,7 @@ export default function AdminBlog() {
           title: res.title,
           slug: form._orig ? form.slug : slugify(res.title),
           tag: res.tag,
+          country: aiCountry || f.country || '',
           dek: res.excerpt,
           body: res.html,
         })
@@ -142,6 +149,15 @@ export default function AdminBlog() {
             onChange={(v) => set({ title: v, slug: form._orig ? form.slug : slugify(v) })} placeholder="Why we travel region by region" />
           <Field label="Slug" value={form.slug} mono onChange={(v) => set({ slug: slugify(v) })} placeholder="travel-region-by-region" />
           <Field label="Tag" value={form.tag} onChange={(v) => set({ tag: v })} placeholder="Food / Planning / Field notes" />
+          <label className="admin-field">
+            <span className="admin-field__label">Country <em style={{ fontWeight: 500, textTransform: 'none' }}>— shows the post on that country's page</em></span>
+            <select value={form.country} onChange={(e) => set({ country: e.target.value })}>
+              <option value="">None / general</option>
+              {COUNTRIES.filter((c) => c.available).map((c) => (
+                <option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>
+              ))}
+            </select>
+          </label>
           <Field label="Author" value={form.author} onChange={(v) => set({ author: v })} />
           <Field label="Date" type="date" value={form.date} onChange={(v) => set({ date: v })} />
           <ImageField label="Hero image" value={form.coverImage} full onChange={(v) => set({ coverImage: v })} />
