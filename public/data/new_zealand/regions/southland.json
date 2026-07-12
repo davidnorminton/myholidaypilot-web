@@ -1,0 +1,927 @@
+{
+  "id": "southland",
+  "name": "Southland",
+  "nameIt": "Southland",
+  "capital": "Invercargill",
+  "lat": -46.41,
+  "lng": 168.35,
+  "emoji": "🦭",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": -45.5,
+    "south": -46.8,
+    "east": 169.3,
+    "west": 167
+  },
+  "history": "Southland, located at the southwestern tip of New Zealand's South Island, has a rich history rooted in Māori settlement and later European exploration. The region was traditionally inhabited by Ngāi Tahu iwi (tribe), who developed a sophisticated understanding of the local environment and resources. European settlement accelerated in the mid-1800s with the discovery of gold and the establishment of pastoral farming, which became the economic foundation of the region. Today, Southland's heritage reflects this blend of Māori and European influences, visible in place names, cultural practices, and the landscape itself.",
+  "culturalNotes": "Southland is known for its strong farming and rural heritage, with sheep and deer farming playing a central role in both the economy and local identity. The region has a distinctive character shaped by its isolation and dramatic landscapes, fostering a close-knit community spirit and a reputation for genuine Kiwi hospitality. Southland takes pride in its Māori cultural connections and outdoor traditions, from fishing to exploring its renowned natural attractions like Fiordland and Stewart Island.",
+  "bestTimeToVisit": "Visit from November to March for milder weather and wildlife viewing.",
+  "languageNotes": "English is the primary language spoken in Southland, though te reo Māori (the Māori language) holds cultural significance and is increasingly used in place names and public life. Locals use typical New Zealand English expressions and slang, and you may hear the distinctive Southland accent, which carries unique vowel sounds and speech patterns characteristic of the region.",
+  "generatedAt": "2026-07-12T19:27:56.454Z",
+  "placeCount": 7,
+  "places": [
+    {
+      "id": "milford_sound",
+      "name": "Milford Sound",
+      "nameIt": "Milford Sound",
+      "lat": -44.6719,
+      "lng": 168.7622,
+      "type": "COASTAL",
+      "description": "A dramatic fjord surrounded by towering cliffs, rainforests, and cascading waterfalls, considered one of New Zealand's most stunning natural wonders. Visitors can experience it via scenic cruises that navigate between sheer rock faces and marine wildlife including dolphins and penguins.",
+      "imageQueries": [
+        "Milford Sound fjord cliffs waterfalls",
+        "Milford Sound cruise New Zealand"
+      ],
+      "activities": [
+        {
+          "id": "milf_1",
+          "text": "Milford Sound Cruise",
+          "detail": "Navigate the fjord on a guided boat tour to view towering cliffs, waterfalls, and marine wildlife including bottlenose dolphins and Fiordland crested penguins.",
+          "lat": -44.6719,
+          "lng": 168.7622
+        },
+        {
+          "id": "milf_2",
+          "text": "Milford Track Hike",
+          "detail": "Trek the renowned 53.5 km multi-day walking track from Glade Wharf to Milford Sound, passing through rainforests, alpine terrain, and alongside pristine lakes.",
+          "lat": -44.8417,
+          "lng": 168.7167
+        },
+        {
+          "id": "milf_3",
+          "text": "Chasm Walk",
+          "detail": "Explore a short scenic loop track showcasing the Chasm, a naturally carved rock formation created by swirling boulders and water erosion near the Milford Road.",
+          "lat": -44.8333,
+          "lng": 168.65
+        },
+        {
+          "id": "milf_4",
+          "text": "Doubtful Sound Overnight Cruise",
+          "detail": "Experience a multi-day expedition to the less-visited neighboring fjord with deeper waters, abundant marine life, and an overnight stay in a remote setting.",
+          "lat": -44.9,
+          "lng": 168.4
+        },
+        {
+          "id": "milf_5",
+          "text": "Homer Tunnel Drive",
+          "detail": "Navigate the dramatic 1.2 km tunnel carved through solid rock on the Milford Road, offering stunning views and a unique engineering experience.",
+          "lat": -44.8694,
+          "lng": 168.7056
+        },
+        {
+          "id": "milf_6",
+          "text": "Rainforest Walks",
+          "detail": "Take guided walks through native beech forest and temperate rainforest surrounding Milford Sound to observe endemic plants and birdlife.",
+          "lat": -44.6719,
+          "lng": 168.7622
+        }
+      ],
+      "food": [
+        {
+          "id": "milf_f1",
+          "text": "Green-lipped Mussels",
+          "detail": "Fresh local mussels harvested from Fiordland waters, typically served steamed or in a creamy sauce at waterfront lodges and restaurants."
+        },
+        {
+          "id": "milf_f2",
+          "text": "Fiordland Venison",
+          "detail": "Game meat sourced from the surrounding wilderness, often prepared as a hearty stew or roasted dish at local dining establishments."
+        },
+        {
+          "id": "milf_f3",
+          "text": "Whitebait",
+          "detail": "Seasonal delicacy of tiny juvenile fish caught in local rivers, traditionally served fried as fritters or mixed into omelettes during spring months."
+        },
+        {
+          "id": "milf_f4",
+          "text": "Hot Chocolate and Pavlova",
+          "detail": "Warming hot drinks and the traditional New Zealand meringue dessert with cream are popular comfort foods offered at lodges after outdoor activities."
+        },
+        {
+          "id": "milf_f5",
+          "text": "Fresh Crayfish (Koura)",
+          "detail": "Local freshwater crayfish from pristine Fiordland streams, served boiled or grilled at premium lodges and tourist dining venues."
+        }
+      ],
+      "culture": [
+        {
+          "id": "milf_c1",
+          "text": "Book Cruises Well in Advance",
+          "detail": "Milford Sound is extremely popular year-round; reserve boat tours several weeks ahead to ensure availability, especially during New Zealand summer (December-February)."
+        },
+        {
+          "id": "milf_c2",
+          "text": "Respect Weather Warnings",
+          "detail": "The region experiences rapid weather changes and heavy rainfall; heed official warnings and ranger advice, and be prepared with waterproof gear as conditions can deteriorate quickly."
+        },
+        {
+          "id": "milf_c3",
+          "text": "Maori Cultural Significance",
+          "detail": "Acknowledge that Milford Sound is Piopiotahi in Maori, a sacred place in Fiordland with deep cultural heritage; listen respectfully when local guides share Maori history and place names."
+        },
+        {
+          "id": "milf_c4",
+          "text": "Leave No Trace Ethic",
+          "detail": "The area is a protected national park; stay on designated trails, remove all rubbish, and minimize impact to preserve this pristine ecosystem for future generations."
+        }
+      ]
+    },
+    {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "nameIt": "Queenstown",
+      "lat": -44.9248,
+      "lng": 168.7378,
+      "type": "CITY",
+      "description": "An adventure capital nestled on Lake Wakatipu, offering world-class activities from bungee jumping and skiing to hiking and jet boating. The town combines outdoor thrills with excellent restaurants, bars, and stunning mountain scenery.",
+      "imageQueries": [
+        "Queenstown Lake Wakatipu mountains",
+        "Queenstown New Zealand adventure sports"
+      ],
+      "activities": [
+        {
+          "id": "quee_1",
+          "text": "Bungy Jumping at The Kawarau Bridge",
+          "detail": "Experience a 43-metre plunge from New Zealand's first commercial bungy site, suspended above turquoise river waters.",
+          "lat": -44.3719,
+          "lng": 169.1633
+        },
+        {
+          "id": "quee_2",
+          "text": "Jet Boating on Lake Wakatipu",
+          "detail": "Feel the adrenaline rush as a high-speed jet boat skims across the lake with thrilling 360-degree spins and narrow canyon passages.",
+          "lat": -44.3205,
+          "lng": 169.1667
+        },
+        {
+          "id": "quee_3",
+          "text": "The Remarkables Ski Field",
+          "detail": "Hit premier ski slopes during winter with dramatic mountain views, or enjoy hiking and mountain biking in summer.",
+          "lat": -44.3747,
+          "lng": 169.2319
+        },
+        {
+          "id": "quee_4",
+          "text": "Ben Lomond Track",
+          "detail": "Tackle this challenging all-day hike offering panoramic 360-degree views of Lake Wakatipu, the Shotover River canyon, and surrounding ranges.",
+          "lat": -44.3322,
+          "lng": 169.1811
+        },
+        {
+          "id": "quee_5",
+          "text": "Milford Sound Day Trip",
+          "detail": "Take a scenic drive through Fiordland National Park and cruise beneath dramatic waterfalls and towering cliffs on New Zealand's most famous fjord.",
+          "lat": -44.6719,
+          "lng": 168.7622
+        },
+        {
+          "id": "quee_6",
+          "text": "Shotover Jet",
+          "detail": "Navigate narrow canyon walls at high speed on the jet-boat-filled Shotover River, passing through tunnels and over rapids.",
+          "lat": -44.3722,
+          "lng": 169.1528
+        },
+        {
+          "id": "quee_7",
+          "text": "Rkennedy Falls Walk",
+          "detail": "A scenic 3-hour loop walk through native forest to a picturesque waterfall with views across the Wakatipu Basin.",
+          "lat": -44.3294,
+          "lng": 169.2133
+        }
+      ],
+      "food": [
+        {
+          "id": "quee_f1",
+          "text": "Venison Steak",
+          "detail": "Locally farmed South Island venison served tender and rich at premium restaurants, often accompanied by native berry sauces."
+        },
+        {
+          "id": "quee_f2",
+          "text": "Greenshell Mussels",
+          "detail": "Fresh New Zealand green-lipped mussels sourced from southern waters, typically steamed or prepared in garlic white wine sauce."
+        },
+        {
+          "id": "quee_f3",
+          "text": "Central Otago Pinot Noir Wine Pairing",
+          "detail": "Sample world-renowned local wines paired with fine dining, as Queenstown sits near wine regions producing exceptional New Zealand Pinot Noir."
+        },
+        {
+          "id": "quee_f4",
+          "text": "Lake Trout",
+          "detail": "Fresh-caught local fish from Lake Wakatipu, often pan-fried or grilled and served with seasonal vegetables at lakeside restaurants."
+        },
+        {
+          "id": "quee_f5",
+          "text": "Lamington Cake",
+          "detail": "A classic New Zealand sponge cake coated in chocolate and desiccated coconut, available at local cafés and bakeries throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "quee_c1",
+          "text": "Book Activities Well in Advance",
+          "detail": "Popular adventures like bungy jumping and jet boating fill quickly, especially during peak season (December–February), so reserve at least a few days ahead."
+        },
+        {
+          "id": "quee_c2",
+          "text": "Embrace the Adventure Culture",
+          "detail": "Queenstown's identity centers on outdoor risk-taking and outdoor fitness; locals respect those who challenge themselves physically and don't take themselves too seriously."
+        },
+        {
+          "id": "quee_c3",
+          "text": "Weather Changes Rapidly",
+          "detail": "Mountain weather shifts within hours, so always carry layers and check forecasts daily; locals adjust plans flexibly based on conditions."
+        },
+        {
+          "id": "quee_c4",
+          "text": "Respect Māori Heritage",
+          "detail": "Many local place names and cultural sites honor Māori history; learn the proper pronunciation of place names and acknowledge indigenous connections to the landscape."
+        }
+      ]
+    },
+    {
+      "id": "milford_track",
+      "name": "Milford Track",
+      "nameIt": "Milford Track",
+      "lat": -44.8417,
+      "lng": 168.7131,
+      "type": "NATURE",
+      "description": "A world-renowned four-day hiking trail through pristine rainforest and alpine landscapes, ending with a dramatic descent to Milford Sound. Often described as one of the finest treks on Earth, it showcases towering peaks, waterfalls, and untouched wilderness.",
+      "imageQueries": [
+        "Milford Track hiking trail rainforest",
+        "Milford Track New Zealand trekking"
+      ],
+      "activities": [
+        {
+          "id": "milf_1",
+          "text": "Hiking the Milford Track",
+          "detail": "Undertake the famous four-day guided or independent walk from Glade Wharf to Milford Sound, passing through rainforest, alpine meadows, and dramatic mountain passes.",
+          "lat": -44.8717,
+          "lng": 168.7497
+        },
+        {
+          "id": "milf_2",
+          "text": "Climbing Mount Balloon",
+          "detail": "Ascend this peak accessible from the track for panoramic views of the Darran Mountains and surrounding valleys.",
+          "lat": -44.885,
+          "lng": 168.72
+        },
+        {
+          "id": "milf_3",
+          "text": "Crossing Mackinnon Pass",
+          "detail": "Trek through this iconic high alpine saddle (1,154 metres) on day three, often shrouded in mist but offering breathtaking vistas when clear.",
+          "lat": -44.8917,
+          "lng": 168.6833
+        },
+        {
+          "id": "milf_4",
+          "text": "Exploring Sutherland Falls",
+          "detail": "Visit this 580-metre three-tiered waterfall, one of New Zealand's highest, reached via a side trail from the main track.",
+          "lat": -44.905,
+          "lng": 168.6983
+        },
+        {
+          "id": "milf_5",
+          "text": "Cruising Milford Sound",
+          "detail": "Experience the dramatic fjord at the track's end with its towering cliffs, waterfalls, and marine wildlife on a scenic boat cruise.",
+          "lat": -44.6717,
+          "lng": 168.0783
+        },
+        {
+          "id": "milf_6",
+          "text": "Birdwatching in the rainforest",
+          "detail": "Spot native species including kea, fantails, robins, and bellbirds throughout the beech forest sections of the track.",
+          "lat": -44.83,
+          "lng": 168.78
+        },
+        {
+          "id": "milf_7",
+          "text": "Photography at Key Summit",
+          "detail": "Capture stunning landscape photographs from this accessible viewpoint with 360-degree views of the surrounding peaks and valleys.",
+          "lat": -44.84,
+          "lng": 168.76
+        }
+      ],
+      "food": [
+        {
+          "id": "milf_f1",
+          "text": "Fiordland venison",
+          "detail": "Sample locally-hunted red deer prepared in restaurants around Milford and Te Anau, showcasing Southland's wild game tradition."
+        },
+        {
+          "id": "milf_f2",
+          "text": "Fresh greenshell mussels",
+          "detail": "Enjoy mussels farmed in nearby Doubtful Sound and served in lodges and Te Anau restaurants, often prepared simply to highlight their sweetness."
+        },
+        {
+          "id": "milf_f3",
+          "text": "Track lodge dinners",
+          "detail": "Savor hearty three-course meals prepared at Clinton, Mintaro, and Dumpling huts along the trail, featuring locally-sourced ingredients and meat pies."
+        },
+        {
+          "id": "milf_f4",
+          "text": "Southland blue cod",
+          "detail": "Try this premium white fish caught from Milford Sound, typically pan-fried and served in Te Anau accommodation before or after the trek."
+        },
+        {
+          "id": "milf_f5",
+          "text": "Native beech mushrooms",
+          "detail": "Experience foraged mushrooms from the local rainforest incorporated into lodge meals, reflecting Southland's sustainable food culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "milf_c1",
+          "text": "Book well in advance",
+          "detail": "The Milford Track is strictly quota-controlled with only 90 independent trampers and 40 guided walkers permitted per day, so reservations should be made months ahead."
+        },
+        {
+          "id": "milf_c2",
+          "text": "Respect Māori heritage",
+          "detail": "The landscape holds deep significance for Ngāi Tahu iwi; treat the land with respect and learn about its cultural importance during your trek."
+        },
+        {
+          "id": "milf_c3",
+          "text": "Weather is unpredictable",
+          "detail": "Fiordland's climate can change rapidly with heavy rainfall common; locals emphasize that proper waterproof gear and flexibility are essential, not optional."
+        },
+        {
+          "id": "milf_c4",
+          "text": "Leave no trace ethos",
+          "detail": "The tramping community in this region strongly values conservation; carry out all rubbish, use huts responsibly, and stay on marked tracks to preserve the wilderness."
+        }
+      ]
+    },
+    {
+      "id": "key_summit",
+      "name": "Key Summit",
+      "nameIt": "Key Summit",
+      "lat": -44.8247,
+      "lng": 168.8392,
+      "type": "NATURE",
+      "description": "A scenic one-day hiking trail near Te Anau offering panoramic 360-degree views of Fiordland's mountains and valleys. The summit reward provides an accessible yet rewarding introduction to the region's alpine terrain.",
+      "imageQueries": [
+        "Key Summit hiking trail panorama",
+        "Key Summit Fiordland New Zealand"
+      ],
+      "activities": [
+        {
+          "id": "key__1",
+          "text": "Summit Ridge Walk",
+          "detail": "The main 6-8 hour loop hike ascending 980 metres to the 1,607m peak with 360-degree views of Darran Mountains, Eglinton Valley, and Fiordland wilderness.",
+          "lat": -45.4167,
+          "lng": 167.7167
+        },
+        {
+          "id": "key__2",
+          "text": "Alpine Tarn Photography",
+          "detail": "Capture reflections of surrounding peaks in small alpine pools near the summit during early morning or late afternoon light."
+        },
+        {
+          "id": "key__3",
+          "text": "Beech Forest Exploration",
+          "detail": "Walk through native red and silver beech forest on the lower trail sections to observe endemic bird species and moss-covered ancient trees."
+        },
+        {
+          "id": "key__4",
+          "text": "Panoramic Viewpoint Stop",
+          "detail": "Rest at designated viewpoints along the ridge to identify major landmarks including Milford Sound, Lake Te Anau, and the Livingstone Mountains."
+        },
+        {
+          "id": "key__5",
+          "text": "Alpine Flora Identification",
+          "detail": "Study subalpine and alpine plants adapted to exposed conditions, including mountain daisies, snow tussock, and alpine cushion plants."
+        },
+        {
+          "id": "key__6",
+          "text": "Guided Interpretive Walk",
+          "detail": "Join a DOC ranger-led walk to learn about Fiordland geology, glacial history, and conservation efforts in the region."
+        }
+      ],
+      "food": [
+        {
+          "id": "key__f1",
+          "text": "Te Anau Venison",
+          "detail": "Sample locally-farmed red deer meat prepared as steaks or slow-cooked dishes at Te Anau lodge restaurants, reflecting Southland's deer farming heritage."
+        },
+        {
+          "id": "key__f2",
+          "text": "Fiordland Salmon",
+          "detail": "Try fresh salmon from nearby farms in Te Anau, often grilled or smoked at local eateries catering to hikers."
+        },
+        {
+          "id": "key__f3",
+          "text": "New Zealand Whitebait Fritter",
+          "detail": "Enjoy this seasonal delicacy (September-November) made with tiny freshwater fish caught in local rivers, served as a crispy appetizer."
+        },
+        {
+          "id": "key__f4",
+          "text": "Southfern Brewing Craft Beer",
+          "detail": "Taste locally-brewed beers from Te Anau microbreweries, perfect for post-hike relaxation at regional pubs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "key__c1",
+          "text": "Start Early for Weather",
+          "detail": "Begin hiking by 7-8am as Fiordland weather changes rapidly; afternoon cloud cover can obscure summit views within minutes."
+        },
+        {
+          "id": "key__c2",
+          "text": "Respect DOC Track Conditions",
+          "detail": "Check Department of Conservation alerts before departure as tracks close seasonally due to snow, ice, or avalanche risk, particularly in winter months."
+        },
+        {
+          "id": "key__c3",
+          "text": "Leave No Trace Ethic",
+          "detail": "Pack out all rubbish and stay on marked trails to protect fragile alpine vegetation and preserve the wilderness experience for future visitors."
+        },
+        {
+          "id": "key__c4",
+          "text": "Maori Place Names",
+          "detail": "Learn that 'Te Anau' means 'the cave' in Te Reo Maori, reflecting the area's significance to Ngai Tahu iwi and the importance of cultural respect in Southland."
+        }
+      ]
+    },
+    {
+      "id": "invercargill",
+      "name": "Invercargill",
+      "nameIt": "Invercargill",
+      "lat": -46.4133,
+      "lng": 168.3472,
+      "type": "CITY",
+      "description": "Southland's main city featuring classic early 20th-century architecture, excellent museums, and a laid-back local culture. It serves as the southern gateway to the region and offers cultural attractions including the Southland Museum and Art Gallery.",
+      "imageQueries": [
+        "Invercargill New Zealand city",
+        "Invercargill architecture museum"
+      ],
+      "activities": [
+        {
+          "id": "inve_1",
+          "text": "Southland Museum and Art Gallery",
+          "detail": "Explore the region's natural history, Maori heritage, and contemporary art collections housed in a striking modern building in Queens Park.",
+          "lat": -46.4124,
+          "lng": 168.3473
+        },
+        {
+          "id": "inve_2",
+          "text": "Queens Park Walk",
+          "detail": "Stroll through Invercargill's expansive central park featuring mature trees, native plants, and peaceful walking trails perfect for a leisurely afternoon.",
+          "lat": -46.4129,
+          "lng": 168.3475
+        },
+        {
+          "id": "inve_3",
+          "text": "Water Tower and Viewpoint",
+          "detail": "Climb to the top of this iconic Victorian-era water tower for panoramic views across Invercargill and the surrounding Southland plains.",
+          "lat": -46.4055,
+          "lng": 168.3513
+        },
+        {
+          "id": "inve_4",
+          "text": "Oreti Beach",
+          "detail": "Visit this long, sandy beach just outside the city where locals enjoy swimming, walking, and spotting wildlife including Hector's dolphins.",
+          "lat": -46.4833,
+          "lng": 168.2917
+        },
+        {
+          "id": "inve_5",
+          "text": "E Hayes and Sons Hardware Store",
+          "detail": "Tour this beautifully preserved Victorian-era hardware store that has operated continuously since 1886 with original fixtures and merchandise displays.",
+          "lat": -46.4116,
+          "lng": 168.3508
+        },
+        {
+          "id": "inve_6",
+          "text": "Otatara Pa Historic Site",
+          "detail": "Walk through the remains of this pre-European Maori fortified settlement located just outside the city on elevated ground.",
+          "lat": -46.3967,
+          "lng": 168.3517
+        }
+      ],
+      "food": [
+        {
+          "id": "inve_f1",
+          "text": "Southland Venison",
+          "detail": "Sample locally-farmed venison prepared in restaurants throughout the city, from hearty steaks to slow-cooked stews that showcase the region's pastoral heritage."
+        },
+        {
+          "id": "inve_f2",
+          "text": "Bluff Oysters",
+          "detail": "Enjoy these iconic shellfish from nearby Bluff during the autumn season (March-August) at local restaurants and seafood venues."
+        },
+        {
+          "id": "inve_f3",
+          "text": "Southfarthing Pie",
+          "detail": "Taste gourmet meat pies from local bakeries featuring regional ingredients like venison, beef, and Southland lamb."
+        },
+        {
+          "id": "inve_f4",
+          "text": "Hokey Pokey Ice Cream",
+          "detail": "Indulge in New Zealand's beloved vanilla ice cream studded with honeycomb candy, widely available at local ice cream shops and cafes."
+        },
+        {
+          "id": "inve_f5",
+          "text": "Whitebait",
+          "detail": "Try this delicate local catch prepared simply as fritters or whitebait omelet during the season, showcasing Southland's freshwater rivers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "inve_c1",
+          "text": "Laid-back Pace",
+          "detail": "Invercargill maintains a relaxed, friendly atmosphere where locals take time to chat; embrace the slower pace and don't rush between attractions."
+        },
+        {
+          "id": "inve_c2",
+          "text": "Check Tide Times for Oreti Beach",
+          "detail": "The beach's character changes dramatically with tides, so plan visits during low tide when the beach is wider and safer for swimming."
+        },
+        {
+          "id": "inve_c3",
+          "text": "Local Accent and Slang",
+          "detail": "Southlanders are proud of their regional dialect and quirky humor; locals may use terms like 'choice' for good and 'heaps' for lots, which is part of the authentic charm."
+        },
+        {
+          "id": "inve_c4",
+          "text": "Seasonal Weather Preparedness",
+          "detail": "Invercargill's weather can be unpredictable and windy year-round, so dress in layers and bring a windproof jacket regardless of season."
+        }
+      ]
+    },
+    {
+      "id": "te_waewae_bay",
+      "name": "Te Waewae Bay",
+      "nameIt": "Te Waewae Bay",
+      "lat": -46.3833,
+      "lng": 168.3333,
+      "type": "COASTAL",
+      "description": "A scenic coastal area near Invercargill known for its golden sandy beaches and excellent surf conditions. The bay provides a relaxing coastal escape with good walking opportunities and local cafes.",
+      "imageQueries": [
+        "Te Waewae Bay beach New Zealand",
+        "Te Waewae Bay Invercargill coast"
+      ],
+      "activities": [
+        {
+          "id": "te_w_1",
+          "text": "Surfing at Orepuki Beach",
+          "detail": "Catch consistent waves at one of Southland's premier surf spots, popular with both beginners and experienced surfers.",
+          "lat": -46.4167,
+          "lng": 168.3333
+        },
+        {
+          "id": "te_w_2",
+          "text": "Walk the Gemstone Beach",
+          "detail": "Stroll along the golden sand searching for semi-precious stones and enjoying views across the bay towards the Fiordland ranges.",
+          "lat": -46.42,
+          "lng": 168.335
+        },
+        {
+          "id": "te_w_3",
+          "text": "Visit Colac Bay village",
+          "detail": "Explore this quiet coastal settlement with its local charm, art galleries, and craft shops nestled near the bay.",
+          "lat": -46.5667,
+          "lng": 168.2667
+        },
+        {
+          "id": "te_w_4",
+          "text": "Birdwatching at local reserves",
+          "detail": "Spot native and migratory bird species including oystercatchers and plovers in the wetland and coastal reserve areas.",
+          "lat": -46.43,
+          "lng": 168.34
+        },
+        {
+          "id": "te_w_5",
+          "text": "Scenic coastal drives",
+          "detail": "Drive the winding roads between Te Waewae Bay and Invercargill to experience dramatic clifftop views and hidden coves.",
+          "lat": -46.45,
+          "lng": 168.35
+        },
+        {
+          "id": "te_w_6",
+          "text": "Fishing trips",
+          "detail": "Try your hand at fishing in the bay for blue cod, snapper, and other local species from shore or chartered boat.",
+          "lat": -46.4167,
+          "lng": 168.3333
+        }
+      ],
+      "food": [
+        {
+          "id": "te_w_f1",
+          "text": "Paua (abalone) seafood",
+          "detail": "Sample fresh paua harvested locally from the bay, often grilled or featured in chowders at coastal cafes."
+        },
+        {
+          "id": "te_w_f2",
+          "text": "Whitebait fritters",
+          "detail": "Enjoy seasonal whitebait (during the season) prepared as crispy fritters, a celebrated Southland delicacy."
+        },
+        {
+          "id": "te_w_f3",
+          "text": "Fresh fish and chips",
+          "detail": "Visit local takeaways for locally caught blue cod or snapper fried fresh and served with hand-cut chips."
+        },
+        {
+          "id": "te_w_f4",
+          "text": "Southland venison",
+          "detail": "Try regional venison dishes at cafes and restaurants, reflecting the area's farming heritage and local production."
+        }
+      ],
+      "culture": [
+        {
+          "id": "te_w_c1",
+          "text": "Respect Māori heritage sites",
+          "detail": "The bay holds significance to Ngāi Tahu iwi; be respectful of cultural landmarks and ask locals about the area's Māori history."
+        },
+        {
+          "id": "te_w_c2",
+          "text": "Check tide times and weather",
+          "detail": "Coastal conditions change rapidly in Southland; always check forecasts and tide tables before beach activities or walks."
+        },
+        {
+          "id": "te_w_c3",
+          "text": "Support local businesses",
+          "detail": "The small communities around Te Waewae Bay rely on visitor support; prioritize locally-owned cafes, galleries, and accommodations."
+        }
+      ]
+    },
+    {
+      "id": "mossbrae_falls",
+      "name": "Mossbrae Falls",
+      "nameIt": "Mossbrae Falls",
+      "lat": -45.3733,
+      "lng": 167.68,
+      "type": "NATURE",
+      "description": "A spectacular 100-meter waterfall accessible via a short scenic walk, featuring moss-covered rock formations and lush forest surroundings. The easy day walk from Te Anau provides an excellent introduction to Fiordland's natural beauty.",
+      "imageQueries": [
+        "Mossbrae Falls waterfall New Zealand",
+        "Mossbrae Falls Te Anau hiking"
+      ],
+      "activities": [
+        {
+          "id": "moss_1",
+          "text": "Mossbrae Falls Walk",
+          "detail": "Follow the 2.2 km scenic trail from Te Anau that winds through native beech forest to the base of the 100-meter waterfall.",
+          "lat": -45.4167,
+          "lng": 167.7167
+        },
+        {
+          "id": "moss_2",
+          "text": "Photograph Moss-Covered Rock Formations",
+          "detail": "Capture the distinctive emerald moss-draped boulders and cliff faces that give Mossbrae Falls its distinctive character."
+        },
+        {
+          "id": "moss_3",
+          "text": "Forest Canopy Observation",
+          "detail": "Observe native birds including fantails, bellbirds, and kea among the dense rimu and silver beech trees lining the walking track."
+        },
+        {
+          "id": "moss_4",
+          "text": "Waterfall Spray Zone Exploration",
+          "detail": "Experience the cool mist and lush microclimate created by the falls' 100-meter drop at the base viewing area."
+        },
+        {
+          "id": "moss_5",
+          "text": "Te Anau Lakeside Walk",
+          "detail": "Combine your visit with a walk along Lake Te Anau's shoreline near the trailhead to enjoy panoramic views of the Fiordland landscape.",
+          "lat": -45.4133,
+          "lng": 167.7083
+        },
+        {
+          "id": "moss_6",
+          "text": "Dawn or Dusk Photography",
+          "detail": "Time your visit for golden hour to capture the waterfall's atmospheric lighting through the forest canopy."
+        }
+      ],
+      "food": [
+        {
+          "id": "moss_f1",
+          "text": "Fiordland Venison Steak",
+          "detail": "Sample locally-hunted venison prepared at Te Anau restaurants, a regional specialty reflecting the area's deer farming heritage."
+        },
+        {
+          "id": "moss_f2",
+          "text": "Green-Lipped Mussels",
+          "detail": "Try these locally-farmed New Zealand mussels steamed or grilled at lakeside dining establishments in nearby Te Anau."
+        },
+        {
+          "id": "moss_f3",
+          "text": "Whitebait Fritters",
+          "detail": "Enjoy seasonal whitebait from local rivers prepared as a delicate fritter, a beloved Southland delicacy during the spring season."
+        },
+        {
+          "id": "moss_f4",
+          "text": "Fresh Trout from Lake Te Anau",
+          "detail": "Dine on locally-caught lake trout at Te Anau restaurants, often prepared simply to highlight the freshwater fish's delicate flavor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moss_c1",
+          "text": "Respect the Forest Walk Conditions",
+          "detail": "Check weather forecasts and track conditions before departure, as the trail can become slippery or muddy due to constant waterfall spray and rainfall."
+        },
+        {
+          "id": "moss_c2",
+          "text": "Leave No Trace Principles",
+          "detail": "Pack out all rubbish and stay on marked tracks to protect the sensitive moss ecosystems and native forest that make Mossbrae Falls unique."
+        },
+        {
+          "id": "moss_c3",
+          "text": "Maori Cultural Significance",
+          "detail": "Acknowledge that Fiordland holds deep significance for Ngai Tahu iwi; consider visiting Te Anau's cultural centers to learn about local Maori heritage before your walk."
+        },
+        {
+          "id": "moss_c4",
+          "text": "Early Morning Visits Recommended",
+          "detail": "Arrive early to experience the falls with fewer crowds and optimal lighting conditions, as the popular track can become busy by midday."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Invercargill Brewery",
+      "address": "50 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Gastropub",
+      "priceRange": "€€",
+      "description": "Craft brewery and pub serving quality beers alongside hearty comfort food and elevated pub classics.",
+      "mustOrder": "Brewery Beer-Battered Fish and Chips",
+      "lat": -46.4133,
+      "lng": 168.3473
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Ascot Cafe",
+      "address": "10 Dee Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Cafe/Brunch",
+      "priceRange": "€",
+      "description": "Beloved local spot renowned for excellent coffee, fresh brunch offerings, and warm hospitality.",
+      "mustOrder": "Eggs Benedict with Homemade Hash Browns",
+      "lat": -46.4127,
+      "lng": 168.3448
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Tillies Restaurant",
+      "address": "180 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Sophisticated dining establishment focusing on local produce and contemporary New Zealand cuisine.",
+      "mustOrder": "Southland Venison with Berry Jus",
+      "lat": -46.4142,
+      "lng": 168.3465
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "The Rocks Restaurant",
+      "address": "9 Marine Parade, Riverton",
+      "neighbourhood": "Riverton",
+      "cuisine": "Seafood/Modern",
+      "priceRange": "€€€",
+      "description": "Waterfront gem showcasing fresh local seafood with views over Riverton Rocks and the southern coast.",
+      "mustOrder": "Pan-Seared Crayfish Tail",
+      "lat": -46.3742,
+      "lng": 168.0155
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "SALT Restaurant",
+      "address": "153 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Modern European",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment with seasonal menus featuring Southland ingredients prepared with European technique.",
+      "mustOrder": "Pan-Seared Yellowfin Tuna with Citrus Dressing",
+      "lat": -46.4138,
+      "lng": 168.3458
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "The Winery",
+      "address": "98 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Wine Bar/Tapas",
+      "priceRange": "€€",
+      "description": "Casual wine bar offering carefully selected wines with Spanish-style tapas and charcuterie boards.",
+      "mustOrder": "Chorizo and Manchego Cheese Board",
+      "lat": -46.4123,
+      "lng": 168.3441
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Waxy's Public House",
+      "address": "91 Esk Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Irish/Pub",
+      "priceRange": "€€",
+      "description": "Authentic Irish pub with cosy atmosphere, traditional fare, and excellent selection of Irish whiskeys.",
+      "mustOrder": "Irish Beef and Guinness Pie",
+      "lat": -46.413,
+      "lng": 168.3493
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "The Lime & Pepper",
+      "address": "127 Main Street, ORepuki",
+      "neighbourhood": "Orepuki",
+      "cuisine": "Cafe/Light Meals",
+      "priceRange": "€",
+      "description": "Charming country cafe serving fresh sandwiches, baked goods, and coffee in a peaceful rural setting.",
+      "mustOrder": "Fresh Fruit Scone with Cream",
+      "lat": -46.5267,
+      "lng": 167.8442
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Lombardi's Italian Kitchen",
+      "address": "32 Dee Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Family-run Italian restaurant serving authentic pasta, risotto, and traditional dishes in a warm setting.",
+      "mustOrder": "Handmade Ravioli with Wild Mushroom Filling",
+      "lat": -46.4129,
+      "lng": 168.3445
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Gourmet Kitchen & Bar",
+      "address": "64 Main Street, Winton",
+      "neighbourhood": "Winton",
+      "cuisine": "Contemporary NZ",
+      "priceRange": "€€€",
+      "description": "Village restaurant combining casual elegance with locally-sourced ingredients and creative presentation.",
+      "mustOrder": "Southland Lamb Shoulder with Root Vegetables",
+      "lat": -46.3133,
+      "lng": 168.3667
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "The Southfarthing",
+      "address": "142 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Cafe/Brunch",
+      "priceRange": "€",
+      "description": "Character-filled cafe with literary charm offering excellent coffee, light lunches, and afternoon tea.",
+      "mustOrder": "Smoked Salmon and Cream Cheese Bagel",
+      "lat": -46.4135,
+      "lng": 168.3452
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Brava Restaurant & Wine Bar",
+      "address": "208 Tay Street, Invercargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Mediterranean-inspired restaurant with an extensive wine list showcasing regional and international selections.",
+      "mustOrder": "Grilled Snapper with Olive Oil and Lemon",
+      "lat": -46.4145,
+      "lng": 168.3475
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Soul Food Cafe",
+      "address": "36 Elles Road, Invargill",
+      "neighbourhood": "Invercargill",
+      "cuisine": "Cafe/Vegetarian",
+      "priceRange": "€",
+      "description": "Plant-forward cafe with vibrant vegetarian and vegan options, smoothie bowls, and ethically-sourced coffee.",
+      "mustOrder": "Buddha Bowl with Tahini Dressing",
+      "lat": -46.4089,
+      "lng": 168.3498
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Sandy Point Tavern",
+      "address": "1 Sandy Point Road, Sandy Point",
+      "neighbourhood": "Sandy Point",
+      "cuisine": "Pub/Grill",
+      "priceRange": "€€",
+      "description": "Beachside tavern with relaxed atmosphere, quality grilled meats, and views across Foveaux Strait.",
+      "mustOrder": "Grilled Snapper with Local Beer Batter",
+      "lat": -46.55,
+      "lng": 168.1783
+    }
+  ]
+}

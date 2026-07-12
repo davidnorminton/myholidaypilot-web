@@ -1,0 +1,1523 @@
+{
+  "id": "wellington",
+  "name": "Wellington",
+  "nameIt": "Wellington",
+  "capital": "Wellington",
+  "lat": -41.28,
+  "lng": 174.78,
+  "emoji": "💨",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": -40.9,
+    "south": -41.6,
+    "east": 175.3,
+    "west": 174.3
+  },
+  "history": "Wellington was established as a European settlement in 1840 and became the capital of New Zealand in 1865, replacing Auckland as the seat of government. The city grew rapidly during the late 19th and early 20th centuries as a major port and administrative hub. It experienced significant earthquakes throughout its history, most notably in 1848 and 2016, which shaped urban planning and building standards. The compact nature of the city and its harbor location have made it a vital economic and cultural center for the nation.",
+  "culturalNotes": "Wellington is known as New Zealand's creative capital, with a vibrant arts scene, independent film industry, and thriving music culture housed in theaters, galleries, and performance venues throughout the compact city. The city's coffee culture is exceptional, with locals taking their flat whites and espressos seriously, and the café scene is considered among the world's best. Te Whanganui-a-Tara, the Māori name for Wellington, reflects the city's bicultural identity and commitment to honoring Māori heritage alongside its British colonial past.",
+  "bestTimeToVisit": "Visit from December to February for summer weather, or September to November for spring.",
+  "languageNotes": "English is the primary language spoken in Wellington, though Māori (te reo Māori) holds official status and is increasingly used in place names, government, and daily life. Locals may use casual New Zealand English expressions and slang, and visitors will find people friendly and willing to help with directions or recommendations.",
+  "generatedAt": "2026-07-12T19:27:56.454Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "wellington_city_centre",
+      "name": "Wellington City Centre",
+      "nameIt": "Te Whanganui-a-Tara",
+      "lat": -41.2865,
+      "lng": 174.7762,
+      "type": "CITY",
+      "description": "New Zealand's capital city nestled between harbour and hills, featuring vibrant cultural institutions, creative street art, and excellent dining and café culture. The compact, walkable downtown is the heart of Wellington's creative industries and home to iconic museums and galleries.",
+      "imageQueries": [
+        "Wellington city centre waterfront",
+        "Wellington Civic Square"
+      ],
+      "activities": [
+        {
+          "id": "well_1",
+          "text": "Te Papa Tongarewa",
+          "detail": "New Zealand's national museum featuring interactive exhibits on Māori culture, natural history, and contemporary art across six floors.",
+          "lat": -41.2865,
+          "lng": 174.886
+        },
+        {
+          "id": "well_2",
+          "text": "City Gallery Wellington",
+          "detail": "Contemporary art gallery in a Victorian building showcasing local and international works with a focus on experimental and innovative art.",
+          "lat": -41.2868,
+          "lng": 174.7763
+        },
+        {
+          "id": "well_3",
+          "text": "Street Art Walking Tour",
+          "detail": "Explore vibrant murals and graffiti art scattered throughout Courtenay Place, Cuba Street, and surrounding laneways created by local and international artists.",
+          "lat": -41.2935,
+          "lng": 174.7684
+        },
+        {
+          "id": "well_4",
+          "text": "Botanic Gardens",
+          "detail": "Expansive hillside gardens offering native plant collections and panoramic views of the harbour and city skyline.",
+          "lat": -41.296,
+          "lng": 174.7957
+        },
+        {
+          "id": "well_5",
+          "text": "Cable Car to Botanic Gardens",
+          "detail": "Historic funicular railway climbing 366 metres from Lambton Quay to the Botanic Gardens with stunning views over the city.",
+          "lat": -41.287,
+          "lng": 174.7743
+        },
+        {
+          "id": "well_6",
+          "text": "Old Bank Arcade",
+          "detail": "Historic Victorian arcade between Lambton Quay and Willis Street featuring independent shops, cafés, and architectural charm.",
+          "lat": -41.287,
+          "lng": 174.775
+        }
+      ],
+      "food": [
+        {
+          "id": "well_f1",
+          "text": "Flat White Coffee",
+          "detail": "Wellington's signature espresso drink made with velvety microfoam, considered the birthplace of this now-global coffee preparation method."
+        },
+        {
+          "id": "well_f2",
+          "text": "Fish and Chips from Local Takeaways",
+          "detail": "Fresh locally-sourced fish battered and fried, served with hot chips and available from numerous traditional fish and chip shops around the city."
+        },
+        {
+          "id": "well_f3",
+          "text": "Feijóada at Brazilian Restaurants",
+          "detail": "Rich black bean and pork stew reflecting Wellington's diverse immigrant communities and available at several dedicated restaurants in the city centre."
+        },
+        {
+          "id": "well_f4",
+          "text": "Cheese and Charcuterie from Local Delis",
+          "detail": "Wellington's café culture celebrates locally-sourced New Zealand cheeses and cured meats served on artisan bread at numerous delis and restaurants."
+        },
+        {
+          "id": "well_f5",
+          "text": "Hokey Pokey Ice Cream",
+          "detail": "A classic New Zealand dessert combining vanilla ice cream with honeycomb and toffee bits, available at local ice cream parlours."
+        }
+      ],
+      "culture": [
+        {
+          "id": "well_c1",
+          "text": "Respect for Māori Culture",
+          "detail": "Te Whanganui-a-Tara is the Māori name for Wellington; acknowledge Māori heritage by learning place names and visiting cultural exhibitions at Te Papa."
+        },
+        {
+          "id": "well_c2",
+          "text": "Embrace the Café Culture",
+          "detail": "Wellingtonians are passionate about coffee and linger in cafés; expect a slow, social pace and strike up conversations with locals who frequent their favourite spots."
+        },
+        {
+          "id": "well_c3",
+          "text": "Walk Everywhere and Dress for Wind",
+          "detail": "The compact city centre is best explored on foot, but Wellington is notoriously windy so bring a light jacket regardless of season."
+        },
+        {
+          "id": "well_c4",
+          "text": "Explore Cuba Street's Bohemian Spirit",
+          "detail": "Cuba Street is the heart of Wellington's creative and alternative scene; visit on weekends when vintage shops, galleries, and street performers are most active."
+        }
+      ]
+    },
+    {
+      "id": "te_papa_tongarewa",
+      "name": "Te Papa Tongarewa",
+      "nameIt": "Te Papa Tongarewa",
+      "lat": -41.2865,
+      "lng": 174.7854,
+      "type": "LANDMARK",
+      "description": "New Zealand's national museum housed in a striking modern building on the waterfront, offering world-class exhibits on Māori culture, natural history, art, and interactive experiences. It's consistently rated one of the best museums in the Southern Hemisphere and provides essential context for understanding New Zealand.",
+      "imageQueries": [
+        "Te Papa Tongarewa museum",
+        "Te Papa Wellington exterior"
+      ],
+      "activities": [
+        {
+          "id": "te_p_1",
+          "text": "Explore the Māori Taonga (Treasures) Exhibition",
+          "detail": "Immerse yourself in one of the world's most comprehensive collections of Māori artifacts, including intricate taonga (treasured objects), traditional weapons, and whakairo (carved panels).",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "te_p_2",
+          "text": "Experience the Earthquake House",
+          "detail": "Feel a simulated earthquake in this interactive exhibit that demonstrates seismic activity and tests your knowledge of New Zealand's geological instability.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "te_p_3",
+          "text": "Visit the Gallipoli: The Scale of Our War Exhibition",
+          "detail": "Discover New Zealand's significant World War I history through personal stories, photographs, and artifacts documenting the Gallipoli campaign.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "te_p_4",
+          "text": "Browse the New Zealand Art Collection",
+          "detail": "View contemporary and historical New Zealand artworks spanning from colonial-era paintings to modern installations by local and international artists.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "te_p_5",
+          "text": "Discover Te Ika a Māui: Stories About New Zealand",
+          "detail": "Engage with interactive displays exploring New Zealand's natural environment, biodiversity, and the relationship between Māori and the land.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "te_p_6",
+          "text": "Enjoy the Museum Café with Waterfront Views",
+          "detail": "Relax at the on-site café overlooking Wellington Harbour while enjoying light refreshments and local beverages."
+        }
+      ],
+      "food": [
+        {
+          "id": "te_p_f1",
+          "text": "Hokey Pokey Ice Cream",
+          "detail": "A beloved New Zealand ice cream flavor combining vanilla with honeycomb candy pieces, widely available at the museum café and local vendors."
+        },
+        {
+          "id": "te_p_f2",
+          "text": "L&P (Lemon & Paeroa) Soft Drink",
+          "detail": "New Zealand's iconic lemon-flavored soft drink that pairs perfectly with museum visits and is easily found throughout the café."
+        },
+        {
+          "id": "te_p_f3",
+          "text": "Pavlova with Local Berries",
+          "detail": "A classic Aotearoa dessert featuring a crispy meringue base topped with whipped cream and New Zealand-grown berries like strawberries and feijoas."
+        },
+        {
+          "id": "te_p_f4",
+          "text": "Whitebait Fritter",
+          "detail": "A seasonal delicacy featuring tiny freshwater fish lightly battered and pan-fried, representing authentic New Zealand kai (food)."
+        },
+        {
+          "id": "te_p_f5",
+          "text": "Tuatua Soup or Seafood Chowder",
+          "detail": "A warming soup featuring local shellfish and seafood reflective of New Zealand's marine bounty and Māori food traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "te_p_c1",
+          "text": "Observe Proper Protocol in Māori Spaces",
+          "detail": "Remove shoes when entering certain tapu (sacred) exhibition areas and respect any protocols indicated by signage, as these spaces hold spiritual significance."
+        },
+        {
+          "id": "te_p_c2",
+          "text": "Allow Extended Time for Māori Exhibits",
+          "detail": "Dedicate several hours to fully appreciate Māori cultural displays, as they represent the depth and complexity of Aotearoa's indigenous heritage and deserve thoughtful engagement."
+        },
+        {
+          "id": "te_p_c3",
+          "text": "Learn Basic Te Reo Māori (Māori Language) Terms",
+          "detail": "Familiarize yourself with key Māori words used throughout the museum like taonga, whānau (family), and mana (prestige) to deepen your understanding of exhibits and respect for the culture."
+        },
+        {
+          "id": "te_p_c4",
+          "text": "Embrace the Museum's Free Entry Policy",
+          "detail": "Te Papa's general admission is free, reflecting New Zealand's commitment to accessible cultural institutions, though donations are welcomed and special exhibitions may have fees."
+        }
+      ]
+    },
+    {
+      "id": "botanic_garden",
+      "name": "Wellington Botanic Garden",
+      "nameIt": "Te 休Āhuatanga o ngā Tipu me ngā Rakau",
+      "lat": -41.2966,
+      "lng": 174.7762,
+      "type": "NATURE",
+      "description": "Sprawling 25-hectare gardens on hillside overlooking the city with native plants, exotic specimens, and scenic walking trails offering panoramic harbour views. A peaceful retreat from the city with diverse ecosystems and excellent photo opportunities across seasons.",
+      "imageQueries": [
+        "Wellington Botanic Garden views",
+        "Wellington Botanic Garden native plants"
+      ],
+      "activities": [
+        {
+          "id": "bota_1",
+          "text": "Lady Norwood Rose Garden",
+          "detail": "Wander through over 5,000 rose specimens arranged in formal beds with city views, blooming most vibrantly from October to April.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "bota_2",
+          "text": "Woodland Loop Trail",
+          "detail": "A scenic walking path through native bush and exotic trees that winds through the garden's quieter eastern sections with native bird encounters.",
+          "lat": -41.287,
+          "lng": 174.7775
+        },
+        {
+          "id": "bota_3",
+          "text": "Carter Observatory visit",
+          "detail": "Access the hilltop observatory within the garden grounds for stargazing experiences and daytime planetarium shows with harbour panoramas.",
+          "lat": -41.2873,
+          "lng": 174.7742
+        },
+        {
+          "id": "bota_4",
+          "text": "Botanic Garden Lookout Point",
+          "detail": "Climb to the highest vantage points for 360-degree views of Wellington harbour, surrounding hills, and Cook Strait on clear days.",
+          "lat": -41.286,
+          "lng": 174.7755
+        },
+        {
+          "id": "bota_5",
+          "text": "Native Plant Discovery Walk",
+          "detail": "Explore curated sections of indigenous New Zealand flora including native ferns, shrubs, and trees with interpretive signage about conservation.",
+          "lat": -41.288,
+          "lng": 174.778
+        },
+        {
+          "id": "bota_6",
+          "text": "Seasonal Photography Tour",
+          "detail": "Return across different seasons to capture cherry blossoms in spring, summer blooms, autumn colours, and winter frost on native plants."
+        },
+        {
+          "id": "bota_7",
+          "text": "Picnic by the Duck Pond",
+          "detail": "Settle near the garden's water features with packed food from local Wellington suppliers to observe waterfowl and native wetland plants.",
+          "lat": -41.2875,
+          "lng": 174.7768
+        }
+      ],
+      "food": [
+        {
+          "id": "bota_f1",
+          "text": "Nikau Café flat white and cabinet food",
+          "detail": "Located within the gardens, this café serves expertly pulled Wellington-standard flat whites paired with fresh cabinet items like native horopito scones."
+        },
+        {
+          "id": "bota_f2",
+          "text": "Locally-foraged native ingredients experience",
+          "detail": "Seek out restaurants in nearby Botanic Quarter that feature native plants from these gardens like horopito, kawakawa, and kowhai in innovative dishes."
+        },
+        {
+          "id": "bota_f3",
+          "text": "Picnic provisions from Moore Wilson's",
+          "detail": "Stock up at this iconic Wellington grocer near Cuba Street with local cheeses, cured meats, and preserves to enjoy among the gardens."
+        },
+        {
+          "id": "bota_f4",
+          "text": "Native berry tasting (seasonal)",
+          "detail": "During summer months, some guided garden tours include tastings of native berries like wineberries or mahoe that grow within protected sections."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bota_c1",
+          "text": "Respect Māori significance of native plants",
+          "detail": "The garden's te reo Māori name reflects its dedication to indigenous flora; observe signage explaining traditional uses and cultural importance of native species."
+        },
+        {
+          "id": "bota_c2",
+          "text": "Plan visits for shoulder seasons",
+          "detail": "October-November (spring) and March-April (autumn) offer ideal Wellington weather and vibrant displays, avoiding peak summer crowds on weekends."
+        },
+        {
+          "id": "bota_c3",
+          "text": "Allow 2-3 hours for meaningful exploration",
+          "detail": "The 25-hectare spread rewards unhurried walking; most visitors underestimate the time needed to reach hilltop lookouts and experience varied ecosystems."
+        },
+        {
+          "id": "bota_c4",
+          "text": "Check weather before hilltop visits",
+          "detail": "Wellington's notorious wind can intensify on exposed garden heights; dress in layers and check conditions before heading to the Observatory or upper trails."
+        }
+      ]
+    },
+    {
+      "id": "cable_car",
+      "name": "Wellington Cable Car",
+      "nameIt": "Ngā Taihape o Te Whanganui-a-Tara",
+      "lat": -41.2956,
+      "lng": 174.7751,
+      "type": "LANDMARK",
+      "description": "Historic funicular railway climbing from downtown to the Botanic Gardens, operating since 1902 and offering spectacular views of the city and harbour during the ride. An iconic Wellington experience and efficient way to reach the gardens while enjoying vintage transport nostalgia.",
+      "imageQueries": [
+        "Wellington Cable Car red",
+        "Cable Car Wellington ride"
+      ],
+      "activities": [
+        {
+          "id": "cabl_1",
+          "text": "Ride the Cable Car",
+          "detail": "Experience the historic funicular railway journey from Lambton Quay to Botanic Gardens, enjoying views of Wellington Harbour and the city skyline during the 5-minute ascent.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "cabl_2",
+          "text": "Explore Wellington Botanic Gardens",
+          "detail": "Wander through 25 hectares of native and exotic plants, including the stunning Lady Norwood Rose Garden and native bush walks accessible from the Cable Car upper station.",
+          "lat": -41.2847,
+          "lng": 174.7754
+        },
+        {
+          "id": "cabl_3",
+          "text": "Photography at Botanic Gardens Lookout",
+          "detail": "Capture panoramic views of Wellington city, harbour, and surrounding hills from the elevated vantage point near the Cable Car terminus.",
+          "lat": -41.284,
+          "lng": 174.7756
+        },
+        {
+          "id": "cabl_4",
+          "text": "Visit Cable Car Museum",
+          "detail": "Learn about the historic 1902 funicular's engineering, original wooden carriages, and restoration efforts through displays at the upper terminus.",
+          "lat": -41.285,
+          "lng": 174.7755
+        },
+        {
+          "id": "cabl_5",
+          "text": "Walk the Brooklyn Wind Turbine Trail",
+          "detail": "Access nearby bush walks from the Cable Car area leading to the prominent white wind turbine offering additional city views.",
+          "lat": -41.2835,
+          "lng": 174.775
+        },
+        {
+          "id": "cabl_6",
+          "text": "Browse Botanic Gardens Visitor Centre",
+          "detail": "Discover seasonal plant information, native New Zealand flora details, and pick up maps for extended garden exploration.",
+          "lat": -41.286,
+          "lng": 174.776
+        }
+      ],
+      "food": [
+        {
+          "id": "cabl_f1",
+          "text": "Flat White Coffee",
+          "detail": "Enjoy Wellington's famous espresso-based coffee culture at cafés near the Cable Car base on Lambton Quay, a local specialty perfected by the city's baristas."
+        },
+        {
+          "id": "cabl_f2",
+          "text": "Green-Lipped Mussel",
+          "detail": "Sample this local New Zealand delicacy prepared fresh at waterfront restaurants near the Cable Car's downtown terminus."
+        },
+        {
+          "id": "cabl_f3",
+          "text": "Hokey Pokey Ice Cream",
+          "detail": "Try this beloved New Zealand ice cream flavor combining vanilla with honeycomb candy at Botanic Gardens cafés or nearby parlours."
+        },
+        {
+          "id": "cabl_f4",
+          "text": "Fish and Chips from Local Takeaways",
+          "detail": "Grab fresh New Zealand snapper or tarakihi wrapped in paper from traditional takeaway shops along Lambton Quay before heading up the Cable Car."
+        },
+        {
+          "id": "cabl_f5",
+          "text": "Pavlova with Native Berries",
+          "detail": "Indulge in the iconic Kiwi meringue dessert topped with whipped cream and locally-foraged berries at Garden cafeterias."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cabl_c1",
+          "text": "Validate Your Ticket Before Boarding",
+          "detail": "Purchase return tickets at the base station or use the contactless card system; single trips are also available but return offers better value for most visitors."
+        },
+        {
+          "id": "cabl_c2",
+          "text": "Peak Hours Are Mid-Morning and Afternoon",
+          "detail": "Visit early morning or late afternoon to avoid crowds and enjoy a more peaceful experience on the Cable Car and in the Botanic Gardens."
+        },
+        {
+          "id": "cabl_c3",
+          "text": "Weather Changes Quickly on the Hill",
+          "detail": "Bring a light jacket even on sunny days as the elevated gardens experience cooler winds and sudden weather shifts typical of Wellington's exposed hilltop location."
+        },
+        {
+          "id": "cabl_c4",
+          "text": "Respect Native Flora",
+          "detail": "Stay on marked paths in the Botanic Gardens to protect native New Zealand plants and ecosystems, which are carefully managed conservation areas."
+        }
+      ]
+    },
+    {
+      "id": "cuba_street",
+      "name": "Cuba Street",
+      "nameIt": "Cuba Street",
+      "lat": -41.2943,
+      "lng": 174.7697,
+      "type": "LANDMARK",
+      "description": "Wellington's bohemian heart featuring independent shops, vintage stores, quirky cafés, street art, and the cultural vibe that defines the capital's creative character. It's the best place to experience local culture, independent fashion, and Wellington's distinctive personality.",
+      "imageQueries": [
+        "Cuba Street Wellington",
+        "Wellington street art Cuba Street"
+      ],
+      "activities": [
+        {
+          "id": "cuba_1",
+          "text": "Browse Vintage and Independent Shops",
+          "detail": "Explore Cuba Street's eclectic mix of second-hand clothing stores, record shops, and indie boutiques that showcase local designers and unique vintage finds."
+        },
+        {
+          "id": "cuba_2",
+          "text": "Street Art Photography Walk",
+          "detail": "Photograph the vibrant murals and graffiti art covering building facades throughout Cuba Street, representing Wellington's thriving street art scene."
+        },
+        {
+          "id": "cuba_3",
+          "text": "Visit Circa Theatre",
+          "detail": "Catch contemporary theatre productions and experimental performances at this independent theatre company embedded in Cuba Street's cultural fabric.",
+          "lat": -41.2867,
+          "lng": 174.7762
+        },
+        {
+          "id": "cuba_4",
+          "text": "Coffee Culture Hopping",
+          "detail": "Sample Wellington's renowned specialty coffee culture by visiting multiple independent cafés along Cuba Street, each with their own roasting philosophy."
+        },
+        {
+          "id": "cuba_5",
+          "text": "Explore Starfish Gallery",
+          "detail": "View local contemporary art, independent design, and emerging artists' work in this street-level gallery space that exemplifies Cuba Street's creative spirit.",
+          "lat": -41.287,
+          "lng": 174.776
+        },
+        {
+          "id": "cuba_6",
+          "text": "Late-Night Bar Crawl",
+          "detail": "Experience Cuba Street's eclectic bar scene featuring craft cocktails, craft beer, and live music venues that stay open late into the evening."
+        }
+      ],
+      "food": [
+        {
+          "id": "cuba_f1",
+          "text": "Flat White Coffee",
+          "detail": "Order Wellington's signature espresso drink with velvety microfoam at any of the street's specialty coffee roasteries, a local obsession since the 1980s."
+        },
+        {
+          "id": "cuba_f2",
+          "text": "Fresh Vietnamese Pho",
+          "detail": "Visit one of Cuba Street's Vietnamese restaurants for authentic slow-cooked bone broth pho reflecting Wellington's diverse Asian immigrant communities."
+        },
+        {
+          "id": "cuba_f3",
+          "text": "Craft Beer Selection",
+          "detail": "Sample locally-brewed independent beers from Wellington craft breweries available on tap at Cuba Street's bars and bottle shops."
+        },
+        {
+          "id": "cuba_f4",
+          "text": "Gourmet Burger",
+          "detail": "Try innovative burger creations from independent burger joints mixing local ingredients with creative flavour combinations unique to Wellington."
+        },
+        {
+          "id": "cuba_f5",
+          "text": "Sweet Treats from Independent Bakeries",
+          "detail": "Pick up artisan pastries, vegan bakes, or locally-roasted chocolate from small independent bakeries scattered throughout the street."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cuba_c1",
+          "text": "Shop Local and Independent",
+          "detail": "Prioritise independent retailers over chain stores as Cuba Street's identity is built on supporting small local businesses and artists."
+        },
+        {
+          "id": "cuba_c2",
+          "text": "Embrace the Bohemian Pace",
+          "detail": "Allow extra time for wandering and spontaneous discoveries rather than rushing, as Cuba Street rewards slow exploration and random conversations."
+        },
+        {
+          "id": "cuba_c3",
+          "text": "Respect Street Art and Murals",
+          "detail": "Treat street art as legitimate public art rather than vandalism; these murals represent Wellington's creative expression and cultural identity."
+        },
+        {
+          "id": "cuba_c4",
+          "text": "Evening is Prime Time",
+          "detail": "Visit Cuba Street in the evening when bars, galleries, and late-night venues come alive and the street's social and cultural energy peaks."
+        }
+      ]
+    },
+    {
+      "id": "oriental_bay",
+      "name": "Oriental Bay",
+      "nameIt": "Oriental Bay",
+      "lat": -41.2833,
+      "lng": 174.8015,
+      "type": "COASTAL",
+      "description": "Popular beach and waterfront promenade just east of the city centre offering swimming, sunbathing, and scenic coastal walks with views back to the city. A relaxed spot where Wellingtonians enjoy beach culture despite the cooler southern climate, perfect for evening strolls.",
+      "imageQueries": [
+        "Oriental Bay Wellington beach",
+        "Oriental Bay sunset"
+      ],
+      "activities": [
+        {
+          "id": "orie_1",
+          "text": "Swimming at Oriental Bay Beach",
+          "detail": "Wade or swim in the sheltered waters of the bay, which are patrolled by lifeguards during summer months and offer the calmest swimming conditions in Wellington.",
+          "lat": -41.2865,
+          "lng": 174.7862
+        },
+        {
+          "id": "orie_2",
+          "text": "Waterfront Promenade Walk",
+          "detail": "Stroll the scenic paved path that curves around the bay with unobstructed views of the city skyline, harbour, and surrounding hills.",
+          "lat": -41.287,
+          "lng": 174.785
+        },
+        {
+          "id": "orie_3",
+          "text": "Sunset from the Eastern Breakwater",
+          "detail": "Walk out to the breakwater pier at the eastern end of the bay to watch the sunset over Wellington city with dramatic coastal light.",
+          "lat": -41.291,
+          "lng": 174.792
+        },
+        {
+          "id": "orie_4",
+          "text": "Picnicking on the Grass Reserve",
+          "detail": "Spread out on the grassy parkland behind the beach with tables and shelter, ideal for takeaway food and people-watching.",
+          "lat": -41.2865,
+          "lng": 174.784
+        },
+        {
+          "id": "orie_5",
+          "text": "Sunbathing and Beach Culture",
+          "detail": "Claim a spot on the sandy beach to relax Kiwi-style, observing the local beach community despite Wellington's cooler southern climate.",
+          "lat": -41.2865,
+          "lng": 174.7862
+        },
+        {
+          "id": "orie_6",
+          "text": "Coastal Walks to Baring Head",
+          "detail": "Follow the walking tracks eastward from Oriental Bay toward the dramatic headland of Baring Head (Ōrua-pouanui) for windswept views and native bush.",
+          "lat": -41.295,
+          "lng": 174.805
+        }
+      ],
+      "food": [
+        {
+          "id": "orie_f1",
+          "text": "Fish and Chips from Local Takeaways",
+          "detail": "Pick up freshly battered snapper or tarakihi from a nearby fish and chip shop and eat it on the beach or grass overlooking the bay."
+        },
+        {
+          "id": "orie_f2",
+          "text": "Coffee at Waterfront Cafés",
+          "detail": "Stop at one of the casual cafés lining the promenade for flat whites or espresso drinks served with bay views."
+        },
+        {
+          "id": "orie_f3",
+          "text": "Casual Brunch Culture",
+          "detail": "Join Wellingtonians at the beachside spots serving avocado on toast, eggs benedict, and fresh juices on weekend mornings."
+        },
+        {
+          "id": "orie_f4",
+          "text": "Gelato or Ice Cream",
+          "detail": "Cool off with locally made gelato or ice cream from vendors near the beach, especially popular on summer afternoons."
+        },
+        {
+          "id": "orie_f5",
+          "text": "Picnic Spreads from Countdown Supermarket",
+          "detail": "Many visitors stock up at the nearby supermarket with local cheese, cured meats, fresh fruit, and wine to enjoy a picnic on the grass."
+        }
+      ],
+      "culture": [
+        {
+          "id": "orie_c1",
+          "text": "Year-Round Locals Despite Cold Water",
+          "detail": "Wellington beach culture persists even in cooler months with wetsuits common; don't expect tropical swimming, but do expect hardy locals."
+        },
+        {
+          "id": "orie_c2",
+          "text": "Evening Stroll Tradition",
+          "detail": "Locals favour late-afternoon and early-evening walks along the promenade, making sunset and dusk the prime times to experience the bay's social rhythm."
+        },
+        {
+          "id": "orie_c3",
+          "text": "Wind and Weather Preparedness",
+          "detail": "Wellington is known as the windiest city in New Zealand; bring a light jacket even on sunny days and check forecasts before heading to exposed areas like the breakwater."
+        },
+        {
+          "id": "orie_c4",
+          "text": "Respectful Beach Etiquette",
+          "detail": "Keep noise levels moderate, pack out all rubbish, and respect the swimming and sunbathing zones—Wellingtonians value a relaxed, low-key beach atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "parliament_buildings",
+      "name": "Parliament Buildings",
+      "nameIt": "Taumata o ngā Mana",
+      "lat": -41.2979,
+      "lng": 174.7763,
+      "type": "LANDMARK",
+      "description": "Impressive collection of heritage buildings housing New Zealand's government, featuring the distinctive Gothic Revival Parliament House and modern Beehive building. Guided tours offer insight into the country's political system and showcase notable architecture in the city centre.",
+      "imageQueries": [
+        "Parliament Buildings Wellington",
+        "Wellington Beehive Parliament"
+      ],
+      "activities": [
+        {
+          "id": "parl_1",
+          "text": "Guided Parliament Tour",
+          "detail": "Explore the historic debating chambers, grand corridors, and learn about New Zealand's legislative process from knowledgeable guides.",
+          "lat": -41.2865,
+          "lng": 174.8762
+        },
+        {
+          "id": "parl_2",
+          "text": "Beehive Building Architecture",
+          "detail": "Admire the distinctive modernist Beehive structure completed in 1981, which houses executive offices and offers striking photo opportunities.",
+          "lat": -41.2868,
+          "lng": 174.8758
+        },
+        {
+          "id": "parl_3",
+          "text": "Parliament House Gothic Revival",
+          "detail": "Walk through the ornate Victorian Gothic Parliament House built in 1876, featuring intricate woodwork, stained glass, and historic chambers.",
+          "lat": -41.2862,
+          "lng": 174.8765
+        },
+        {
+          "id": "parl_4",
+          "text": "Old Parliament Building",
+          "detail": "Visit the heritage timber building that once housed the legislature, now featuring exhibitions on New Zealand's political history.",
+          "lat": -41.287,
+          "lng": 174.8755
+        },
+        {
+          "id": "parl_5",
+          "text": "Bowen House Viewing",
+          "detail": "See the original colonial-era residence of New Zealand's early political leaders adjacent to the main parliamentary complex.",
+          "lat": -41.2871,
+          "lng": 174.8761
+        },
+        {
+          "id": "parl_6",
+          "text": "Parliamentary Library Research",
+          "detail": "Access one of the Southern Hemisphere's largest parliamentary research libraries during guided tours or public visiting hours.",
+          "lat": -41.2864,
+          "lng": 174.8763
+        }
+      ],
+      "food": [
+        {
+          "id": "parl_f1",
+          "text": "Wellington CBD Flat White",
+          "detail": "Sample expertly pulled espresso and velvety steamed milk at one of the many artisan cafés within walking distance of Parliament."
+        },
+        {
+          "id": "parl_f2",
+          "text": "Native New Zealand Game",
+          "detail": "Try venison, wild boar, or whitebait dishes at nearby restaurants celebrating indigenous and local ingredients."
+        },
+        {
+          "id": "parl_f3",
+          "text": "Pavlova with Hokey Pokey Ice Cream",
+          "detail": "Enjoy New Zealand's iconic meringue dessert topped with local Hokey Pokey (honeycomb) vanilla ice cream at Parliament precinct cafés."
+        },
+        {
+          "id": "parl_f4",
+          "text": "Hangi-Inspired Slow-Cooked Meats",
+          "detail": "Experience traditional Māori earth-oven cooking methods adapted in modern Wellington eateries near the government district."
+        }
+      ],
+      "culture": [
+        {
+          "id": "parl_c1",
+          "text": "Māori Protocol and Te Reo",
+          "detail": "Respect the bilingual nature of proceedings; listen for te reo Māori terms used throughout the buildings and parliamentary language."
+        },
+        {
+          "id": "parl_c2",
+          "text": "Security and Entry Requirements",
+          "detail": "Allow extra time for security screening and book tours in advance, as Parliament operates as an active government building with restricted access."
+        },
+        {
+          "id": "parl_c3",
+          "text": "Dress Code Consideration",
+          "detail": "Wear smart casual attire as you may encounter parliamentarians and government officials; the precinct maintains a formal institutional atmosphere."
+        },
+        {
+          "id": "parl_c4",
+          "text": "Photography Restrictions",
+          "detail": "Respect designated photography zones and avoid flash photography in debating chambers during tours to preserve the solemnity of the legislative space."
+        }
+      ]
+    },
+    {
+      "id": "mount_victoria",
+      "name": "Mount Victoria",
+      "nameIt": "Matairangi",
+      "lat": -41.3091,
+      "lng": 174.7984,
+      "type": "NATURE",
+      "description": "Prominent 196-metre hill offering 360-degree views of Wellington, the harbour, and surrounding areas from its summit accessible by scenic road or walking tracks. The viewing platform provides the best panoramic perspective of the city and is particularly spectacular at sunset.",
+      "imageQueries": [
+        "Mount Victoria Wellington views",
+        "Mount Victoria Matairangi lookout"
+      ],
+      "activities": [
+        {
+          "id": "moun_1",
+          "text": "Summit Viewing Platform",
+          "detail": "Stand at the 196-metre peak on the purpose-built platform to experience unobstructed 360-degree views of Wellington city, Port Nicholson, and the surrounding hills.",
+          "lat": -41.327,
+          "lng": 174.7989
+        },
+        {
+          "id": "moun_2",
+          "text": "Scenic Drive to Summit",
+          "detail": "Drive the winding road from the base carpark to the top, offering progressive views across Wellington and the harbour as you ascend."
+        },
+        {
+          "id": "moun_3",
+          "text": "Walking Tracks",
+          "detail": "Explore multiple walking trails of varying difficulty that wind through native bush and lead to the summit, taking 30 minutes to over an hour depending on the route."
+        },
+        {
+          "id": "moun_4",
+          "text": "Sunset Photography",
+          "detail": "Arrive before sunset to capture the city lights emerging as darkness falls, a particularly stunning time for photography from the viewing platform."
+        },
+        {
+          "id": "moun_5",
+          "text": "Film Location Tour",
+          "detail": "Recognize locations from The Lord of the Rings and Hobbit films, as Mount Victoria was heavily used as a filming location for the franchises."
+        },
+        {
+          "id": "moun_6",
+          "text": "Picnic at the Top",
+          "detail": "Pack a picnic to enjoy while taking in the panoramic views, with benches and sheltered areas available near the viewing platform."
+        },
+        {
+          "id": "moun_7",
+          "text": "Native Bush Interpretation",
+          "detail": "Learn about Wellington's native plant species including rata and rimu trees along the walking tracks and information boards near the summit."
+        }
+      ],
+      "food": [
+        {
+          "id": "moun_f1",
+          "text": "Fish and Chips from Local Harbour Spots",
+          "detail": "After descending, grab fresh fish and chips from Wellington's waterfront vendors, a classic Kiwi experience complementing your hilltop views."
+        },
+        {
+          "id": "moun_f2",
+          "text": "Flat White Coffee",
+          "detail": "Visit one of Wellington's renowned cafés in the city below to enjoy a flat white, the espresso-based coffee style that originated in New Zealand and Australia."
+        },
+        {
+          "id": "moun_f3",
+          "text": "Craft Beer from Wellington Breweries",
+          "detail": "Sample local craft beers from breweries like Garage Project or ParrotDog, located in the city centre after your visit to the summit."
+        },
+        {
+          "id": "moun_f4",
+          "text": "Greenshell Mussels",
+          "detail": "Seek out local green-lipped mussels at restaurants and seafood markets, a distinctive New Zealand delicacy from the surrounding waters."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moun_c1",
+          "text": "Respect for Māori Heritage",
+          "detail": "Acknowledge the Māori name Matairangi alongside Mount Victoria, recognizing the significance of this landmark to local iwi and the importance of bicultural place names."
+        },
+        {
+          "id": "moun_c2",
+          "text": "Weather Changes Rapidly",
+          "detail": "Wellington is known for sudden weather changes, so wear layers and be prepared for wind; check conditions before ascending to ensure safe viewing."
+        },
+        {
+          "id": "moun_c3",
+          "text": "Off-Peak Visiting",
+          "detail": "Visit during weekday mornings or early afternoons to experience quieter viewing conditions, as weekends and sunset times attract larger crowds."
+        }
+      ]
+    },
+    {
+      "id": "national_war_museum",
+      "name": "National War Museum Te Puea Herenga Waka",
+      "nameIt": "National War Museum",
+      "lat": -41.2899,
+      "lng": 174.8137,
+      "type": "LANDMARK",
+      "description": "Comprehensive museum at Buckle Street documenting New Zealand's military history through engaging exhibits, restored aircraft, and personal stories spanning multiple conflicts. The museum provides important context for understanding New Zealand's international role and includes exhibits on the home front.",
+      "imageQueries": [
+        "National War Museum Wellington",
+        "Wellington War Museum aircraft"
+      ],
+      "activities": [
+        {
+          "id": "nati_1",
+          "text": "Explore the Aircraft Collection",
+          "detail": "View restored and operational military aircraft including the De Havilland Vampire and other iconic warbirds housed in the museum's hangar.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "nati_2",
+          "text": "Experience the Home Front Exhibits",
+          "detail": "Learn about civilian life during wartime through interactive displays showcasing rationing, air raid shelters, and domestic contributions to the war effort.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "nati_3",
+          "text": "Walk Through the Personal Stories Gallery",
+          "detail": "Read soldier testimonies and family accounts spanning New Zealand's conflicts from the Boer War through to modern peacekeeping operations.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "nati_4",
+          "text": "Visit the Medal and Honours Display",
+          "detail": "Examine rare military decorations and medals awarded to New Zealand service personnel throughout the nation's military history.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "nati_5",
+          "text": "Take a Guided Tour",
+          "detail": "Join a knowledgeable guide to gain deeper context about exhibits and New Zealand's international military role across different eras."
+        },
+        {
+          "id": "nati_6",
+          "text": "Browse the Museum Shop",
+          "detail": "Purchase military history books, documentaries, and heritage merchandise supporting the museum's conservation efforts."
+        }
+      ],
+      "food": [
+        {
+          "id": "nati_f1",
+          "text": "Museum Café Coffee and Cake",
+          "detail": "Enjoy quality New Zealand coffee and fresh local baked goods in the on-site café while overlooking the heritage precinct."
+        },
+        {
+          "id": "nati_f2",
+          "text": "Wellington Fish and Chips",
+          "detail": "Try fresh fish and chips from nearby Buckle Street vendors, a classic Kiwi takeaway experience perfect for casual museum visits."
+        },
+        {
+          "id": "nati_f3",
+          "text": "Anzac Biscuits",
+          "detail": "Sample these traditional oat and golden syrup biscuits with historical ties to WWI, often available at the museum café."
+        },
+        {
+          "id": "nati_f4",
+          "text": "Wellington Craft Beer",
+          "detail": "Visit nearby Courtenay Place breweries and bars to taste local craft beers while discussing your museum discoveries with locals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nati_c1",
+          "text": "Respect Anzac Traditions",
+          "detail": "New Zealanders hold deep reverence for military service; maintain quiet respectfulness in memorial areas and during any commemorative moments."
+        },
+        {
+          "id": "nati_c2",
+          "text": "Allow Adequate Time",
+          "detail": "Plan for 3-4 hours minimum as the comprehensive exhibits and aircraft displays require substantial time for meaningful engagement."
+        },
+        {
+          "id": "nati_c3",
+          "text": "Learn Māori Service History",
+          "detail": "Pay special attention to exhibits highlighting Māori contributions to New Zealand's military, reflecting the nation's bicultural heritage."
+        },
+        {
+          "id": "nati_c4",
+          "text": "Check for Commemoration Events",
+          "detail": "Visit during Anzac Day or Armistice Day for special programs and ceremonies that deepen understanding of local commemorative culture."
+        }
+      ]
+    },
+    {
+      "id": "weta_workshop",
+      "name": "Weta Workshop",
+      "nameIt": "Weta Workshop",
+      "lat": -41.3589,
+      "lng": 174.8854,
+      "type": "LANDMARK",
+      "description": "Creative studio and visitor attraction showcasing the props, costumes, and special effects from Lord of the Rings, Hobbit, and other films produced in New Zealand. The workshop offers behind-the-scenes tours demonstrating the craft and creativity that made Wellington a global film production hub.",
+      "imageQueries": [
+        "Weta Workshop Wellington",
+        "Weta Workshop Lord of the Rings"
+      ],
+      "activities": [
+        {
+          "id": "weta_1",
+          "text": "Guided Workshop Tour",
+          "detail": "Take a behind-the-scenes tour through the studio to see artisans crafting props, armor, and creatures used in major film productions.",
+          "lat": -41.327,
+          "lng": 174.886
+        },
+        {
+          "id": "weta_2",
+          "text": "Lord of the Rings & Hobbit Exhibition",
+          "detail": "Explore display galleries featuring original costumes, weapons, and life-sized character models from the trilogy and prequel films.",
+          "lat": -41.327,
+          "lng": 174.886
+        },
+        {
+          "id": "weta_3",
+          "text": "Weta Cave Retail & Museum",
+          "detail": "Browse collectibles, limited-edition figures, and replicas while viewing memorabilia in this smaller, free-entry companion space downtown.",
+          "lat": -41.2865,
+          "lng": 174.7762
+        },
+        {
+          "id": "weta_4",
+          "text": "Creature & Character Meet",
+          "detail": "Interact with costumed performers dressed as characters from the films and pose for photographs throughout the facility.",
+          "lat": -41.327,
+          "lng": 174.886
+        },
+        {
+          "id": "weta_5",
+          "text": "Special Effects Masterclass",
+          "detail": "Attend a demonstration or workshop where Weta artisans reveal techniques for creating prosthetics, makeup, and digital effects.",
+          "lat": -41.327,
+          "lng": 174.886
+        },
+        {
+          "id": "weta_6",
+          "text": "Film Set Design Exhibition",
+          "detail": "Study detailed scale models and architectural renderings of iconic locations from Middle-earth brought to life on New Zealand's landscape."
+        }
+      ],
+      "food": [
+        {
+          "id": "weta_f1",
+          "text": "Hangi",
+          "detail": "A traditional Māori earth oven meal of meat and vegetables slow-cooked underground, reflecting Wellington's indigenous heritage and available at local restaurants."
+        },
+        {
+          "id": "weta_f2",
+          "text": "Fish and Chips from Capital Seafood",
+          "detail": "Fresh local catch served with crispy batter, a staple of Wellington's vibrant waterfront dining culture near the workshop."
+        },
+        {
+          "id": "weta_f3",
+          "text": "Cheese & Charcuterie from Moore Wilson",
+          "detail": "Wellington's renowned deli offers local cheeses and cured meats perfect for a picnic or light meal before touring the workshop."
+        },
+        {
+          "id": "weta_f4",
+          "text": "Wellington Coffee Culture",
+          "detail": "The city is famous for its specialty coffee roasteries; grabbing a flat white from a local café is an essential Wellingtonian experience."
+        },
+        {
+          "id": "weta_f5",
+          "text": "Green Lipped Mussels",
+          "detail": "A New Zealand delicacy harvested locally and served fresh at Wellington seafood restaurants, celebrated for their unique flavor and size."
+        }
+      ],
+      "culture": [
+        {
+          "id": "weta_c1",
+          "text": "Acknowledge Māori Heritage",
+          "detail": "Wellington stands on Māori land; respectfully engage with local indigenous culture and history woven throughout the city and Weta's New Zealand story."
+        },
+        {
+          "id": "weta_c2",
+          "text": "Film Industry Pride",
+          "detail": "Wellingtonians embrace their status as 'Wellywood'—expect locals to enthusiastically discuss the film industry and New Zealand's role in global cinema."
+        },
+        {
+          "id": "weta_c3",
+          "text": "Weather Preparedness",
+          "detail": "Wellington is known for strong winds and sudden weather changes; dress in layers and bring a jacket even on sunny days when visiting the studio."
+        },
+        {
+          "id": "weta_c4",
+          "text": "Advance Booking Recommended",
+          "detail": "Weta Workshop tours fill quickly, especially during peak seasons; book online in advance to secure preferred time slots."
+        }
+      ]
+    },
+    {
+      "id": "zealandia",
+      "name": "Zealandia",
+      "nameIt": "Zealandia Te Māra a Tāne",
+      "lat": -41.32,
+      "lng": 174.756,
+      "type": "NATURE",
+      "description": "Protected urban wildlife sanctuary featuring native birds, reptiles, and forest within walking distance of the city centre, enclosed by a pest-proof fence. A remarkable conservation project offering intimate encounters with endangered species and demonstration of New Zealand's unique ecosystem recovery.",
+      "imageQueries": [
+        "Zealandia Wellington sanctuary",
+        "Zealandia native birds"
+      ],
+      "activities": [
+        {
+          "id": "zeal_1",
+          "text": "Kauri Loop Walk",
+          "detail": "A scenic 1.6 km loop trail through regenerating native forest where you'll encounter kauri trees and spot native birds like tui and bellbirds.",
+          "lat": -41.2865,
+          "lng": 174.7654
+        },
+        {
+          "id": "zeal_2",
+          "text": "Spotting Tuatara",
+          "detail": "Visit the tuatara enclosure to observe these living fossils, reptiles that have remained virtually unchanged for millions of years and are central to Zealandia's conservation mission.",
+          "lat": -41.2871,
+          "lng": 174.7658
+        },
+        {
+          "id": "zeal_3",
+          "text": "Dawn Bird Watching",
+          "detail": "Arrive early in the morning to experience the chorus of native birds including kea, fantails, and rare forest species in their most active period.",
+          "lat": -41.2865,
+          "lng": 174.7654
+        },
+        {
+          "id": "zeal_4",
+          "text": "Visitor Centre Exhibits",
+          "detail": "Explore interactive displays about New Zealand's unique ecosystem, conservation efforts, and the story of the pest-proof fence that transformed the sanctuary.",
+          "lat": -41.289,
+          "lng": 174.768
+        },
+        {
+          "id": "zeal_5",
+          "text": "Wetland Area Walk",
+          "detail": "Traverse the wetland sections where you can observe native water birds, wetland plants, and learn about ecosystem restoration in action."
+        },
+        {
+          "id": "zeal_6",
+          "text": "Photography from Lookout Points",
+          "detail": "Access several elevated vantage points that offer panoramic views of the sanctuary, Wellington harbour, and photo opportunities of native birds in their habitat."
+        }
+      ],
+      "food": [
+        {
+          "id": "zeal_f1",
+          "text": "Native Honey from Local Beekeepers",
+          "detail": "Purchase raw honey produced by bees foraging on Zealandia's native flowering plants, supporting both conservation and local beekeeping practices."
+        },
+        {
+          "id": "zeal_f2",
+          "text": "Wellington Craft Coffee",
+          "detail": "The Visitor Centre cafe serves Wellington's renowned specialty coffee culture, using locally roasted beans from the city's acclaimed roasteries."
+        },
+        {
+          "id": "zeal_f3",
+          "text": "Native Berry Preserves",
+          "detail": "Sample jams and preserves made from New Zealand native berries and plants, often available at the gift shop and supporting local artisans."
+        },
+        {
+          "id": "zeal_f4",
+          "text": "Picnic with Local Provisions",
+          "detail": "Pack items from nearby Karori shops including New Zealand cheeses, cured meats, and fresh produce to enjoy while surrounded by native forest."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zeal_c1",
+          "text": "Respect the Pest-Proof Fence",
+          "detail": "The iconic 8.9 km predator-proof fence is a marvel of conservation engineering; stay within designated paths to protect this crucial barrier and the sanctuary within."
+        },
+        {
+          "id": "zeal_c2",
+          "text": "Learn Māori Names and Significance",
+          "detail": "Te Māra a Tāne (Garden of Tāne, the forest god) reflects Māori cultural values; take time to learn the te reo Māori names of birds and plants you encounter."
+        },
+        {
+          "id": "zeal_c3",
+          "text": "Embrace Quiet Observation",
+          "detail": "This is a sanctuary for endangered species; visitors are expected to move quietly, speak softly, and prioritize wildlife viewing over loud recreation."
+        },
+        {
+          "id": "zeal_c4",
+          "text": "Support Conservation Mission",
+          "detail": "Entry fees and donations directly fund native species recovery; consider purchasing from the gift shop or becoming a member to support ongoing restoration efforts."
+        }
+      ]
+    },
+    {
+      "id": "lyall_bay",
+      "name": "Lyall Bay",
+      "nameIt": "Lyall Bay",
+      "lat": -41.3333,
+      "lng": 174.7833,
+      "type": "COASTAL",
+      "description": "Dramatic coastal bay on Wellington's southern coast popular with surfers, featuring rugged cliffs, swimming beaches, and excellent walking trails with ocean views. The bay showcases Wellington's wild coastal character and is ideal for water sports and scenic coastal exploration.",
+      "imageQueries": [
+        "Lyall Bay Wellington surf",
+        "Lyall Bay coastline"
+      ],
+      "activities": [
+        {
+          "id": "lyal_1",
+          "text": "Surfing at Lyall Bay Beach",
+          "detail": "The bay's consistent swell and sandy beach make it one of Wellington's most popular surf spots, suitable for intermediate to advanced surfers.",
+          "lat": -41.3307,
+          "lng": 174.7959
+        },
+        {
+          "id": "lyal_2",
+          "text": "Walking the Sinclair Head Trail",
+          "detail": "This scenic coastal walk from Lyall Bay beach to Sinclair Head offers dramatic cliff views and native bush, taking approximately one hour return.",
+          "lat": -41.3365,
+          "lng": 174.7887
+        },
+        {
+          "id": "lyal_3",
+          "text": "Swimming and sunbathing at Lyall Bay Beach",
+          "detail": "The sheltered northern section of the bay provides calmer waters ideal for swimming and relaxing on the sandy beach during summer months.",
+          "lat": -41.3307,
+          "lng": 174.7959
+        },
+        {
+          "id": "lyal_4",
+          "text": "Viewing seabirds and marine life",
+          "detail": "The rocky outcrops and surrounding waters attract little penguins, seals, dolphins, and various seabirds, particularly visible during early morning or evening.",
+          "lat": -41.334,
+          "lng": 174.792
+        },
+        {
+          "id": "lyal_5",
+          "text": "Exploring the Mahina Crater Reserve",
+          "detail": "This geologically significant reserve overlooking the bay features walking tracks through native forest with panoramic coastal vistas.",
+          "lat": -41.3255,
+          "lng": 174.7905
+        },
+        {
+          "id": "lyal_6",
+          "text": "Kayaking or stand-up paddling",
+          "detail": "Calm mornings offer opportunities to paddle along the bay's coastline and explore the rocky coves and smaller beaches inaccessible by land."
+        }
+      ],
+      "food": [
+        {
+          "id": "lyal_f1",
+          "text": "Fish and chips from local takeaways",
+          "detail": "Fresh fish and hand-cut chips wrapped in paper is a quintessential Wellington seaside meal, best enjoyed watching the waves at Lyall Bay."
+        },
+        {
+          "id": "lyal_f2",
+          "text": "Whitebait fritters",
+          "detail": "A seasonal New Zealand delicacy made from tiny whitebait fish bound in egg batter and pan-fried, celebrating the spring whitebait run."
+        },
+        {
+          "id": "lyal_f3",
+          "text": "Coffee from Wellington's specialty cafes",
+          "detail": "Wellington is renowned as New Zealand's coffee capital, with numerous quality cafes near the bay serving expertly pulled espresso drinks."
+        },
+        {
+          "id": "lyal_f4",
+          "text": "Paua (abalone) preparations",
+          "detail": "Fresh paua sourced from local waters is served in beachside restaurants as grilled medallions or in seafood pasta dishes."
+        },
+        {
+          "id": "lyal_f5",
+          "text": "Mussel and crayfish platters",
+          "detail": "Local seafood restaurants offer fresh green-lipped mussels and crayfish sourced from Wellington's southern coast, often served with white wine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lyal_c1",
+          "text": "Check swell forecasts and conditions",
+          "detail": "Lyall Bay's water conditions and swell size change rapidly, so locals always check forecasts before visiting for water sports."
+        },
+        {
+          "id": "lyal_c2",
+          "text": "Respect local surfer etiquette",
+          "detail": "The bay has an established surf community with unwritten rules about lineup hierarchy and wave sharing—observe before joining the water."
+        },
+        {
+          "id": "lyal_c3",
+          "text": "Come prepared for Wellington's changeable weather",
+          "detail": "Coastal winds can shift suddenly from calm to strong, and temperatures drop quickly, so layering and windproof jackets are essential year-round."
+        },
+        {
+          "id": "lyal_c4",
+          "text": "Leave no trace on walking trails",
+          "detail": "Wellington locals take pride in preserving the bay's natural environment, so pack out all rubbish and stay on marked tracks to protect native vegetation."
+        }
+      ]
+    },
+    {
+      "id": "karori_cemetery",
+      "name": "Karori Cemetery",
+      "nameIt": "Karori Cemetery",
+      "lat": -41.3275,
+      "lng": 174.7514,
+      "type": "LANDMARK",
+      "description": "Historic Victorian cemetery set in peaceful woodland featuring notable monuments, interesting gravesites, and native forest restoration areas offering quiet walks with heritage interest. The cemetery functions as a heritage site and arboretum showcasing Wellington's history and environmental restoration efforts.",
+      "imageQueries": [
+        "Karori Cemetery Wellington",
+        "Karori Cemetery historic monuments"
+      ],
+      "activities": [
+        {
+          "id": "karo_1",
+          "text": "Historic Monument Walk",
+          "detail": "Explore Victorian-era monuments and gravestones dating back to the 1880s, including ornate headstones and family vaults that reflect Wellington's colonial heritage.",
+          "lat": -41.287,
+          "lng": 174.763
+        },
+        {
+          "id": "karo_2",
+          "text": "Native Forest Restoration Trail",
+          "detail": "Walk through designated areas where native bush is being restored, featuring native trees like kahikatea and rimu planted as part of the cemetery's environmental conservation project."
+        },
+        {
+          "id": "karo_3",
+          "text": "Arboretum Exploration",
+          "detail": "Discover the diverse collection of exotic and native trees planted throughout the cemetery grounds, many labeled with species information for botanical interest."
+        },
+        {
+          "id": "karo_4",
+          "text": "Quiet Contemplative Walk",
+          "detail": "Stroll the peaceful woodland paths winding through the cemetery's 27 acres, ideal for reflection and experiencing Wellington's serene natural setting away from urban noise."
+        },
+        {
+          "id": "karo_5",
+          "text": "Photography Tour",
+          "detail": "Capture the architectural and artistic details of Victorian monuments, woodland scenery, and native plantings that make compelling photographic subjects throughout the grounds."
+        },
+        {
+          "id": "karo_6",
+          "text": "Heritage Cemetery Tour",
+          "detail": "Join or self-guide through sections containing graves of notable Wellington residents, community leaders, and early settlers whose stories shaped the city's history."
+        }
+      ],
+      "food": [
+        {
+          "id": "karo_f1",
+          "text": "Wellington Coffee Culture",
+          "detail": "Visit nearby Karori cafes for excellent flat whites and espresso drinks reflecting New Zealand's strong coffee tradition before or after your cemetery visit."
+        },
+        {
+          "id": "karo_f2",
+          "text": "Artisan Bakery Pies",
+          "detail": "Seek out local bakeries in the Karori suburb for traditional New Zealand meat pies and savoury pastries popular for picnic provisions on cemetery grounds."
+        },
+        {
+          "id": "karo_f3",
+          "text": "Native Beech Honey",
+          "detail": "Purchase local Wellington honey products, particularly those from native beech sources, available at nearby specialty shops to enjoy during a peaceful walk through the grounds."
+        }
+      ],
+      "culture": [
+        {
+          "id": "karo_c1",
+          "text": "Respect Quiet Spaces",
+          "detail": "The cemetery is an active burial ground and place of mourning; keep noise minimal, stay on designated paths, and be respectful of families visiting graves."
+        },
+        {
+          "id": "karo_c2",
+          "text": "Wear Appropriate Footwear",
+          "detail": "Paths can be muddy and uneven, especially in the woodland areas; sturdy walking shoes are recommended for safe exploration of the terrain."
+        },
+        {
+          "id": "karo_c3",
+          "text": "Check Weather and Daylight",
+          "detail": "Wellington weather changes rapidly and daylight hours vary significantly by season; plan visits for mid-day with good visibility to safely enjoy the woodland walks and read monument inscriptions."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Capitol Restaurant",
+      "address": "12 Woodward Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Fine dining institution showcasing seasonal ingredients and innovative techniques in an elegant heritage setting.",
+      "mustOrder": "Duck breast with cherry gastrique",
+      "lat": -41.2865,
+      "lng": 174.7762
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Ortega Fish Shack",
+      "address": "16 Majoribanks Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Casual yet sophisticated seafood restaurant serving fresh catch with Spanish and Mediterranean influences.",
+      "mustOrder": "Ceviche of the day",
+      "lat": -41.2884,
+      "lng": 174.7735
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Whitebait",
+      "address": "25 Allen Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant focusing on locally sourced, seasonal produce with minimalist plating.",
+      "mustOrder": "Yellowfin tuna with wasabi mayo",
+      "lat": -41.2875,
+      "lng": 174.7755
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Kembara",
+      "address": "1 Edward Street, Wellington",
+      "neighbourhood": "Pipitea",
+      "cuisine": "Southeast Asian",
+      "priceRange": "€€",
+      "description": "Vibrant Malaysian and Indonesian street food restaurant with bold flavours and casual atmosphere.",
+      "mustOrder": "Rendang beef with roti canai",
+      "lat": -41.2828,
+      "lng": 174.768
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Charley Noble",
+      "address": "39 Ghuznee Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Modern Cocktail Bar & Grill",
+      "priceRange": "€€€",
+      "description": "Sophisticated bar and grill with craft cocktails, premium meats, and an extensive wine list.",
+      "mustOrder": "Dry-aged steak with bone marrow",
+      "lat": -41.289,
+      "lng": 174.7748
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Logan Brown",
+      "address": "106 Cuba Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Historic fine dining favourite in a converted bank building, featuring refined European cuisine.",
+      "mustOrder": "Pan-seared scallops with black garlic",
+      "lat": -41.2885,
+      "lng": 174.7718
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Café by Hound",
+      "address": "55 Cuba Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Café/Modern NZ",
+      "priceRange": "€€",
+      "description": "Relaxed daytime café and wine bar known for excellent coffee and light, creative dishes.",
+      "mustOrder": "Smashed avocado on sourdough",
+      "lat": -41.288,
+      "lng": 174.7705
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Chow",
+      "address": "78-84 Taranaki Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Chinese",
+      "priceRange": "€€",
+      "description": "Authentic Chinese restaurant with a focus on Sichuan cuisine and traditional cooking techniques.",
+      "mustOrder": "Mapo tofu",
+      "lat": -41.291,
+      "lng": 174.764
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Paleo",
+      "address": "5 Woodward Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Intimate Mediterranean restaurant with Greek and Levantine influences, warm ambiance.",
+      "mustOrder": "Wood-roasted lamb shoulder",
+      "lat": -41.2863,
+      "lng": 174.776
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Ombra",
+      "address": "28-30 Allen Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Italian",
+      "priceRange": "€€€",
+      "description": "Elegant Italian restaurant focusing on Northern Italian classics with exceptional wine pairings.",
+      "mustOrder": "Risotto ai funghi porcini",
+      "lat": -41.2876,
+      "lng": 174.7758
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Rogue & Vagabond",
+      "address": "7 Majoribanks Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Modern NZ Pub",
+      "priceRange": "€€",
+      "description": "Gastropub with craft beers, elevated comfort food, and lively atmosphere in a heritage building.",
+      "mustOrder": "Beef and venison pie",
+      "lat": -41.288,
+      "lng": 174.7728
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Seido Ramen",
+      "address": "116 Wakefield Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Japanese",
+      "priceRange": "€€",
+      "description": "Authentic Japanese ramen bar with rich broths and fresh noodles, casual and welcoming.",
+      "mustOrder": "Tonkotsu ramen",
+      "lat": -41.2895,
+      "lng": 174.778
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Grizzly Kitchen",
+      "address": "59 Cuba Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "American",
+      "priceRange": "€€",
+      "description": "Casual American diner with quality burgers, ribs, and comfort food in a retro setting.",
+      "mustOrder": "Pulled pork burger with burnt ends",
+      "lat": -41.2882,
+      "lng": 174.771
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Arboretum Restaurant",
+      "address": "The Botanic Gardens, Glenmore Street, Wellington",
+      "neighbourhood": "Kelburn",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Scenic dining in the Botanic Gardens with panoramic city views and seasonal menus.",
+      "mustOrder": "Herb-crusted lamb with garden vegetables",
+      "lat": -41.2963,
+      "lng": 174.7873
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Tsunami",
+      "address": "120 Ghuznee Street, Wellington",
+      "neighbourhood": "Te Aro",
+      "cuisine": "Japanese Fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary Japanese restaurant offering sashimi, sushi, and creative fusion dishes with premium sake.",
+      "mustOrder": "Omakase selection",
+      "lat": -41.2895,
+      "lng": 174.7765
+    }
+  ]
+}

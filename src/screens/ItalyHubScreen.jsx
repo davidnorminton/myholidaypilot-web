@@ -11,6 +11,7 @@ import { imgUrl } from '../lib/imgUrl.js'
 import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
 import { useSeo } from '../lib/seo.js'
 import TripDetails from '../components/TripDetails.jsx'
+import BlogCarousel from '../components/BlogCarousel.jsx'
 
 // Solid card colours (David's design). Falls back to the cycle for any extra
 // or custom hub ids.
@@ -93,6 +94,8 @@ export default function ItalyHubScreen() {
           </dl>
         </section>
       )}
+
+      <BlogCarousel countryName={meta?.name || ''} title={`Reading about ${meta?.name || 'this country'}`} />
 
       <main className="wrap">
         <div className="hub-grid">

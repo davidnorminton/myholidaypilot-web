@@ -1,0 +1,1675 @@
+{
+  "id": "northeast",
+  "name": "Northeast",
+  "nameIt": "Austurland",
+  "capital": "Egilsstaðir",
+  "lat": 65.24,
+  "lng": -14.39,
+  "emoji": "🏞️",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": 66,
+    "south": 64.5,
+    "east": -10.5,
+    "west": -16
+  },
+  "history": "Northeast Iceland, known as Austurland, has long been shaped by its isolation and harsh volcanic landscape. Settled by Norse Vikings in the 9th century, the region developed a distinct identity through fishing and sheep farming, with small coastal communities becoming the lifeblood of the area. During Iceland's medieval period, Austurland remained relatively remote, and this remoteness persisted into modern times, creating a strong sense of local pride and resilience. The 20th century brought gradual modernization, though the region's character has remained deeply rooted in its seafaring heritage and connection to nature.",
+  "culturalNotes": "Austurland is characterized by a deep connection to the sea and mountains, with fishing traditions forming the backbone of its culture and economy. The people of the region are known for their warmth and storytelling, maintaining strong ties to Iceland's Viking heritage and folklore. What distinguishes Austurland is its stunning wilderness areas, including the dramatic Jökulsárlón glacier lagoon and vast highlands, which continue to shape both daily life and regional identity.",
+  "bestTimeToVisit": "Visit June to September for hiking and waterfalls, as winter roads can be challenging in this remote region.",
+  "languageNotes": "The Icelandic spoken in Austurland carries subtle dialectal features, though it remains mutually intelligible with standard Icelandic across the nation. Useful local phrases include \"Halló\" for hello and \"Takk fyrir\" meaning thank you, and visitors will find that locals deeply appreciate any effort to engage with the Icelandic language.",
+  "generatedAt": "2026-07-11T08:23:47.146Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "egilsstadir",
+      "name": "Egilsstaðir",
+      "nameIt": "Egilsstaðir",
+      "lat": 65.2667,
+      "lng": -14.4,
+      "type": "CITY",
+      "description": "The largest town in Northeast Iceland and the regional hub, serving as a gateway to Austurland with services, restaurants, and accommodation options. It's an essential base for exploring the east and offers access to nearby natural attractions and the Ring Road.",
+      "imageQueries": [
+        "Egilsstaðir Iceland town",
+        "Egilsstaðir main street"
+      ],
+      "activities": [
+        {
+          "id": "egil_1",
+          "text": "East Iceland Heritage Museum",
+          "detail": "Explore the history and culture of Northeast Iceland through exhibits on local life, fishing heritage, and regional artifacts.",
+          "lat": 65.2634,
+          "lng": -14.4035
+        },
+        {
+          "id": "egil_2",
+          "text": "Egilsstaðir Botanical Garden",
+          "detail": "Wander through native Icelandic plants and cultivated species in this small but charming garden overlooking the town and lake.",
+          "lat": 65.2686,
+          "lng": -14.3968
+        },
+        {
+          "id": "egil_3",
+          "text": "Lake Lagarfljót",
+          "detail": "Visit Iceland's third-largest lake for scenic walks, birdwatching, and views of the surrounding mountains and birch forests.",
+          "lat": 65.25,
+          "lng": -14.5
+        },
+        {
+          "id": "egil_4",
+          "text": "Skriðuklaustur Monastery Ruins",
+          "detail": "Discover the remains of a 16th-century monastery and its museum located a short drive south of Egilsstaðir.",
+          "lat": 65.1889,
+          "lng": -14.4056
+        },
+        {
+          "id": "egil_5",
+          "text": "Ring Road Access & Scenic Drives",
+          "detail": "Use Egilsstaðir as a base to explore dramatic coastal drives, waterfalls, and glacial landscapes along Route 1 in all directions."
+        },
+        {
+          "id": "egil_6",
+          "text": "Outdoor Market & Local Shopping",
+          "detail": "Browse the weekly markets and local shops in town center for Icelandic crafts, wool products, and regional foods.",
+          "lat": 65.265,
+          "lng": -14.395
+        }
+      ],
+      "food": [
+        {
+          "id": "egil_f1",
+          "text": "Arctic Char from Local Waters",
+          "detail": "Fresh Arctic char caught from nearby rivers and lakes, often prepared simply grilled or smoked to highlight the delicate flavor."
+        },
+        {
+          "id": "egil_f2",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Slow-cooked lamb with root vegetables and herbs, a hearty traditional dish served in local restaurants year-round."
+        },
+        {
+          "id": "egil_f3",
+          "text": "Fresh Fish & Seafood Soup",
+          "detail": "Creamy soup made with locally caught fish, mussels, and vegetables, reflecting the east's maritime heritage."
+        },
+        {
+          "id": "egil_f4",
+          "text": "Rye Bread Baked in Hot Springs",
+          "detail": "Dense, slightly sweet geothermal rye bread unique to Iceland, sometimes served warm with butter at local cafés."
+        },
+        {
+          "id": "egil_f5",
+          "text": "Game Meat Specialties",
+          "detail": "Venison or wild reindeer dishes prepared by regional chefs, showcasing the local hunting tradition."
+        }
+      ],
+      "culture": [
+        {
+          "id": "egil_c1",
+          "text": "Ring Road Hub Mindset",
+          "detail": "Egilsstaðir functions as a practical pit-stop; plan fuel, groceries, and rest here before venturing into remote areas with limited services."
+        },
+        {
+          "id": "egil_c2",
+          "text": "Respect Natural Attractions",
+          "detail": "Icelanders take pride in preserving nature; stay on marked paths, take all trash with you, and never remove plants or stones from natural sites."
+        },
+        {
+          "id": "egil_c3",
+          "text": "Cash Still Valued",
+          "detail": "While cards are widely accepted, carrying cash is appreciated by smaller shops and local vendors in Northeast Iceland."
+        },
+        {
+          "id": "egil_c4",
+          "text": "Winter Preparedness Essential",
+          "detail": "If visiting October through April, check weather constantly and be prepared for rapid changes; locals plan activities around conditions rather than schedules."
+        }
+      ]
+    },
+    {
+      "id": "jokulsarlon",
+      "name": "Jökulsárlón Glacier Lagoon",
+      "nameIt": "Jökulsárlón",
+      "lat": 64.0447,
+      "lng": -16.2406,
+      "type": "NATURE",
+      "description": "Iceland's most famous glacier lagoon, filled with icebergs calving from Breiðamerkurjökull glacier and drifting in milky blue waters. This otherworldly landscape is a must-see and offers boat tours, photography opportunities, and the nearby black sand beach.",
+      "imageQueries": [
+        "Jökulsárlón glacier lagoon icebergs",
+        "Jökulsárlón blue water"
+      ],
+      "activities": [
+        {
+          "id": "joku_1",
+          "text": "Amphibious Boat Tour",
+          "detail": "Take a guided tour on specially designed boats that navigate among the icebergs, getting up close to the floating ice formations and learning about glacial dynamics.",
+          "lat": 64.0383,
+          "lng": -16.2447
+        },
+        {
+          "id": "joku_2",
+          "text": "Zodiac Speedboat Excursion",
+          "detail": "Experience a thrilling smaller-group boat ride weaving between icebergs for a more intimate and faster-paced glacier lagoon experience.",
+          "lat": 64.0383,
+          "lng": -16.2447
+        },
+        {
+          "id": "joku_3",
+          "text": "Diamond Beach Exploration",
+          "detail": "Walk along the black sand beach adjacent to the lagoon where transparent ice chunks wash ashore, creating diamond-like formations against the dark sand.",
+          "lat": 64.0388,
+          "lng": -16.2412
+        },
+        {
+          "id": "joku_4",
+          "text": "Glacier Lagoon Photography",
+          "detail": "Spend hours capturing the surreal landscape of icebergs reflected in milky turquoise waters, with dramatic lighting conditions throughout the day.",
+          "lat": 64.0383,
+          "lng": -16.2447
+        },
+        {
+          "id": "joku_5",
+          "text": "Breiðamerkurjökull Glacier Viewing",
+          "detail": "Observe the glacier terminus from the lagoon's edge or designated viewpoints to witness the active calving process that creates the icebergs.",
+          "lat": 64.0383,
+          "lng": -16.2447
+        },
+        {
+          "id": "joku_6",
+          "text": "Lagoon Sunrise/Sunset Vigil",
+          "detail": "Experience the otherworldly quality of the lagoon during golden hour or midnight sun season when lighting transforms the icebergs and water colors.",
+          "lat": 64.0383,
+          "lng": -16.2447
+        }
+      ],
+      "food": [
+        {
+          "id": "joku_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Local restaurants near Jökulsárlón serve freshly caught Arctic char, a delicate fish found in Iceland's glacial rivers and cold waters."
+        },
+        {
+          "id": "joku_f2",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Hearty traditional stew made with locally raised lamb, potatoes, and onions, perfect for warming up after outdoor glacier activities."
+        },
+        {
+          "id": "joku_f3",
+          "text": "Skyr with Berries",
+          "detail": "Creamy Icelandic yogurt-like dairy product served with wild Icelandic berries, offering a light and nutritious local treat."
+        },
+        {
+          "id": "joku_f4",
+          "text": "Fresh Seafood Soup",
+          "detail": "Regional soup made with locally sourced fish and shellfish, reflecting the proximity to Iceland's fishing communities and coastal waters."
+        }
+      ],
+      "culture": [
+        {
+          "id": "joku_c1",
+          "text": "Respect Natural Boundaries",
+          "detail": "Stay on marked paths and heed safety warnings, as glacial terrain is unstable and sudden ice calving or shifts can occur without warning."
+        },
+        {
+          "id": "joku_c2",
+          "text": "Dress for Extreme Weather",
+          "detail": "Icelandic weather changes rapidly; bring waterproof jackets, thermal layers, and sturdy hiking boots even on clear days, as conditions can shift dramatically."
+        },
+        {
+          "id": "joku_c3",
+          "text": "Leave No Trace",
+          "detail": "Pack out all trash and avoid touching or collecting ice chunks, as the landscape is fragile and heavily protected as part of Iceland's conservation efforts."
+        },
+        {
+          "id": "joku_c4",
+          "text": "Book Tours in Advance",
+          "detail": "Summer months see heavy tourism; booking boat tours ahead ensures availability and helps manage the environmental impact of visitor numbers."
+        }
+      ]
+    },
+    {
+      "id": "vatnajokull",
+      "name": "Vatnajökull National Park",
+      "nameIt": "Vatnajökull",
+      "lat": 64,
+      "lng": -16.8,
+      "type": "NATURE",
+      "description": "Europe's largest glacier and national park, encompassing stunning ice caps, waterfalls, and volcanic terrain across vast wilderness. The park offers hiking, ice cave exploration, and access to waterfalls like Skaftafell and Svartifoss.",
+      "imageQueries": [
+        "Vatnajökull glacier Iceland",
+        "Vatnajökull ice cap landscape"
+      ],
+      "activities": [
+        {
+          "id": "vatn_1",
+          "text": "Svartifoss Waterfall Hike",
+          "detail": "A moderate 4-5 hour round-trip hike through Skaftafell valley leading to a striking black-sand waterfall framed by basalt columns.",
+          "lat": 64.0097,
+          "lng": -16.9878
+        },
+        {
+          "id": "vatn_2",
+          "text": "Vatnajökull Ice Cave Exploration",
+          "detail": "Guided tours into the glacier's blue ice caves, accessible from Jökulheimajökull outlet glacier with stunning crystalline formations and deep blue walls.",
+          "lat": 64.0247,
+          "lng": -16.8917
+        },
+        {
+          "id": "vatn_3",
+          "text": "Skaftafell Glacier Walk",
+          "detail": "A guided walk across the accessible Skaftafellsjökull glacier tongue offering views of crevasses, meltwater streams, and surrounding peaks.",
+          "lat": 64.0156,
+          "lng": -16.9756
+        },
+        {
+          "id": "vatn_4",
+          "text": "Dimmuborgir Volcanic Landscape",
+          "detail": "A self-guided exploration of otherworldly lava formations and dark rocky labyrinths created by ancient volcanic activity near Mývatn.",
+          "lat": 65.6108,
+          "lng": -16.8922
+        },
+        {
+          "id": "vatn_5",
+          "text": "Jökulsárlón Glacier Lagoon",
+          "detail": "A dramatic glacial lagoon filled with icebergs calving from Breiðamerkurjökull, accessible by boat tour or shoreside viewing.",
+          "lat": 64.0404,
+          "lng": -16.2417
+        },
+        {
+          "id": "vatn_6",
+          "text": "Ásbyrgi Canyon Hike",
+          "detail": "A scenic gorge with u-shaped cliffs and hiking trails offering views of powerful water features and distinctive geological formations.",
+          "lat": 65.6403,
+          "lng": -16.8808
+        },
+        {
+          "id": "vatn_7",
+          "text": "Hnausapollur Crater Lake Trek",
+          "detail": "A challenging day hike to a crater lake surrounded by colorful rhyolite mountains and geothermal features in the Askja highlands.",
+          "lat": 64.8856,
+          "lng": -16.8117
+        }
+      ],
+      "food": [
+        {
+          "id": "vatn_f1",
+          "text": "Arctic Char",
+          "detail": "A local freshwater fish from Vatnajökull's glacial rivers, typically prepared simply grilled or smoked to highlight its delicate flavor."
+        },
+        {
+          "id": "vatn_f2",
+          "text": "Lamb Kjöt (Icelandic Lamb Stew)",
+          "detail": "Slow-cooked lamb from highland sheep, traditional comfort food found in park lodges and nearby settlements during the hiking season."
+        },
+        {
+          "id": "vatn_f3",
+          "text": "Freshly Caught Trout",
+          "detail": "Wild trout from the park's pristine glacial streams, served at local guesthouses and fishing lodges with Icelandic preparations."
+        },
+        {
+          "id": "vatn_f4",
+          "text": "Rye Bread Baked in Geothermal Heat",
+          "detail": "Traditional Icelandic bread slow-baked underground using geothermal vents, creating a dense sweet loaf available at visitor centers and cafes."
+        },
+        {
+          "id": "vatn_f5",
+          "text": "Skyr with Arctic Berries",
+          "detail": "Thick Icelandic yogurt paired with cloudberries and crowberries foraged from the moorlands surrounding the glacier."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vatn_c1",
+          "text": "Respect Glacial Weather Conditions",
+          "detail": "Weather changes rapidly in the mountains; always check forecasts, carry proper layers, and inform someone of your hiking route even on marked trails."
+        },
+        {
+          "id": "vatn_c2",
+          "text": "Leave No Trace Hiking Ethic",
+          "detail": "Icelanders take wilderness preservation seriously; stay on marked paths, pack out all waste, and avoid picking rare alpine plants or disturbing nesting birds."
+        },
+        {
+          "id": "vatn_c3",
+          "text": "Book Guided Tours in Advance",
+          "detail": "Access to ice caves and glacier walks requires licensed guides for safety reasons; reserve tours well ahead during peak summer season when slots fill quickly."
+        },
+        {
+          "id": "vatn_c4",
+          "text": "Understand Seasonal Limitations",
+          "detail": "Many highland routes and ice caves are only accessible June through September; winter visits require specialized equipment and local expertise."
+        }
+      ]
+    },
+    {
+      "id": "skaftafell",
+      "name": "Skaftafell",
+      "nameIt": "Skaftafell",
+      "lat": 64.0089,
+      "lng": -16.9758,
+      "type": "NATURE",
+      "description": "A dramatic valley within Vatnajökull National Park renowned for its accessible hiking trails, cascading waterfalls, and views of Skaftafellsjökull glacier. Popular day-trip destination featuring the stunning Svartifoss waterfall framed by basalt columns.",
+      "imageQueries": [
+        "Skaftafell Svartifoss waterfall",
+        "Skaftafell glacier hiking"
+      ],
+      "activities": [
+        {
+          "id": "skaf_1",
+          "text": "Svartifoss Waterfall Hike",
+          "detail": "A moderate 1-2 hour round-trip trail leads to this iconic 64-meter waterfall framed by distinctive hexagonal basalt columns, one of Iceland's most photographed natural features.",
+          "lat": 64.0097,
+          "lng": -16.9928
+        },
+        {
+          "id": "skaf_2",
+          "text": "Skaftafellsjökull Glacier Viewing",
+          "detail": "A scenic trail provides close-up views of this outlet glacier of Vatnajökull, where you can observe glacial features and the dramatic landscape shaped by ice and volcanic geology.",
+          "lat": 64.0147,
+          "lng": -16.9856
+        },
+        {
+          "id": "skaf_3",
+          "text": "Magnúsarfoss Waterfall",
+          "detail": "A shorter, easier waterfall hike accessible from the main visitor area, featuring a smaller cascade perfect for those seeking a gentler walk."
+        },
+        {
+          "id": "skaf_4",
+          "text": "Morsárdalur Valley Trek",
+          "detail": "A challenging full-day hike through a remote valley offering expansive views of multiple glaciers, waterfalls, and pristine Icelandic wilderness.",
+          "lat": 64.0052,
+          "lng": -17.0215
+        },
+        {
+          "id": "skaf_5",
+          "text": "Sjónarnípa Viewpoint",
+          "detail": "A steep but rewarding hiking route that climbs to a high vantage point overlooking the entire Skaftafell valley, glaciers, and surrounding mountain terrain.",
+          "lat": 64.0089,
+          "lng": -17.0001
+        },
+        {
+          "id": "skaf_6",
+          "text": "Horseshoe Lake Loop",
+          "detail": "A scenic lower-difficulty trail circling a glacial lake with reflections of surrounding peaks and opportunities for wildlife spotting."
+        }
+      ],
+      "food": [
+        {
+          "id": "skaf_f1",
+          "text": "Icelandic Lamb Stew",
+          "detail": "A traditional hearty meat stew made with local lamb, potatoes, and Icelandic herbs, commonly served at park restaurants and nearby accommodations."
+        },
+        {
+          "id": "skaf_f2",
+          "text": "Fresh Trout from Glacial Rivers",
+          "detail": "Local restaurants near Skaftafell prepare freshly caught trout from the region's pristine glacier-fed waterways, often grilled simply to highlight the delicate flavor."
+        },
+        {
+          "id": "skaf_f3",
+          "text": "Rye Bread (Rúgbrauð)",
+          "detail": "A dark, dense traditional Icelandic bread sometimes cooked using geothermal heat, available at visitor facilities and a staple of local cuisine."
+        },
+        {
+          "id": "skaf_f4",
+          "text": "Icelandic Hot Dog (Pylsa)",
+          "detail": "A popular quick meal featuring local lamb or beef sausage topped with crispy onions and traditional Icelandic condiments, available at the visitor center."
+        }
+      ],
+      "culture": [
+        {
+          "id": "skaf_c1",
+          "text": "Leave No Trace",
+          "detail": "Iceland's fragile ecosystem demands strict adherence to marked trails and pack-out-all-waste principles; stepping off designated paths damages vegetation that takes decades to recover."
+        },
+        {
+          "id": "skaf_c2",
+          "text": "Weather Changes Rapidly",
+          "detail": "Mountain weather can shift dramatically within minutes, so carry waterproof layers and check forecasts even for short hikes to stay safe in Iceland's unpredictable climate."
+        },
+        {
+          "id": "skaf_c3",
+          "text": "Respect Private Land Boundaries",
+          "detail": "Much of the surrounding area includes private farms and land; stay within Vatnajökull National Park boundaries and respect all signage to support local landowners."
+        }
+      ]
+    },
+    {
+      "id": "diamond_beach",
+      "name": "Diamond Beach",
+      "nameIt": "Breiðamerkursandur",
+      "lat": 64.0415,
+      "lng": -16.2347,
+      "type": "COASTAL",
+      "description": "A striking black sand beach scattered with brilliant chunks of glacial ice that resemble diamonds in the sunlight, located near Jökulsárlón. The contrast of the dark sand, sparkling ice, and crashing waves creates one of Iceland's most photogenic coastal scenes.",
+      "imageQueries": [
+        "Diamond Beach Iceland ice",
+        "Breiðamerkursandur black sand"
+      ],
+      "activities": [
+        {
+          "id": "diam_1",
+          "text": "Photograph the Ice Chunks",
+          "detail": "Wade among the black sand and crystalline glacial fragments that wash ashore, capturing the striking contrast especially during golden hour when the ice glitters like jewels.",
+          "lat": 64.0394,
+          "lng": -16.2453
+        },
+        {
+          "id": "diam_2",
+          "text": "Walk the Shoreline",
+          "detail": "Stroll along the dark beach where waves deliver fresh ice calved from nearby Jökulsárlón glacier lagoon, with excellent views of the Vatnajökull glacier in the distance.",
+          "lat": 64.0397,
+          "lng": -16.2461
+        },
+        {
+          "id": "diam_3",
+          "text": "Visit Jökulsárlón Glacier Lagoon",
+          "detail": "Take a short walk or drive to the adjacent glacial lagoon to see icebergs floating in the meltwater lake and experience the source of Diamond Beach's ice deposits.",
+          "lat": 64.0414,
+          "lng": -16.2408
+        },
+        {
+          "id": "diam_4",
+          "text": "Explore the Eastern Sands",
+          "detail": "Venture further east along Breiðamerkursandur to find quieter stretches of black sand beach with fewer crowds and equally dramatic ice formations.",
+          "lat": 64.0374,
+          "lng": -16.239
+        },
+        {
+          "id": "diam_5",
+          "text": "Watch Sunrise or Sunset",
+          "detail": "Time your visit for early morning or late evening when soft light illuminates the glacial ice and creates dramatic shadows across the black sand."
+        },
+        {
+          "id": "diam_6",
+          "text": "Search for Ice Caves",
+          "detail": "Explore small ice formations and natural cavities in the larger ice chunks (carefully and from a safe distance) to witness the translucent blue interior of glacial ice."
+        }
+      ],
+      "food": [
+        {
+          "id": "diam_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Sample locally-caught arctic char from nearby rivers and coastal waters, prepared simply grilled or smoked to highlight its delicate flavor at regional restaurants."
+        },
+        {
+          "id": "diam_f2",
+          "text": "Langoustine (Scampi)",
+          "detail": "Try langoustine caught in Icelandic waters and served fresh at restaurants near the glacier region, often prepared with minimal seasoning to preserve the sweet seafood taste."
+        },
+        {
+          "id": "diam_f3",
+          "text": "Lamb Stew (Kjötsúpa)",
+          "detail": "Warm up with traditional Icelandic lamb stew, a hearty comfort food perfect after exploring the cold coastal environment, available at local guesthouses and cafés."
+        },
+        {
+          "id": "diam_f4",
+          "text": "Skyr with Berries",
+          "detail": "Enjoy Iceland's famous thick yogurt-like dairy product topped with local bilberries and cloudberries, offering a light and traditional Icelandic treat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "diam_c1",
+          "text": "Respect the Ice",
+          "detail": "Never venture onto large ice chunks or attempt to climb them, as glacial ice is unstable and can collapse suddenly; stay on the sand and observe from a safe distance."
+        },
+        {
+          "id": "diam_c2",
+          "text": "Check Weather Conditions",
+          "detail": "The northeast coast experiences rapid weather changes with strong winds and rough seas; check forecasts before visiting and bring waterproof, wind-resistant clothing."
+        },
+        {
+          "id": "diam_c3",
+          "text": "Leave No Trace",
+          "detail": "Pack out all trash and avoid collecting ice specimens; the beach is a protected natural site where preservation of the landscape is essential for future visitors."
+        },
+        {
+          "id": "diam_c4",
+          "text": "Best Visited in Summer",
+          "detail": "Visit between June and August when the 24-hour daylight and calmer weather conditions provide the safest access and most spectacular photography opportunities."
+        }
+      ]
+    },
+    {
+      "id": "dimmuborgir",
+      "name": "Dimmuborgir",
+      "nameIt": "Dimmuborgir",
+      "lat": 65.5833,
+      "lng": -13.8833,
+      "type": "LANDMARK",
+      "description": "A striking expanse of towering lava pillars and formations near Lake Mývatn, creating a labyrinthine landscape of dark volcanic rock. Popular for hiking and folklore, the area is steeped in Icelandic legends and offers unique geological exploration.",
+      "imageQueries": [
+        "Dimmuborgir lava formations",
+        "Dimmuborgir Lake Mývatn"
+      ],
+      "activities": [
+        {
+          "id": "dimm_1",
+          "text": "Main Lava Labyrinth Hike",
+          "detail": "Navigate the marked trails through the towering basalt pillars and twisted lava formations that define Dimmuborgir's otherworldly landscape.",
+          "lat": 65.6042,
+          "lng": -16.8797
+        },
+        {
+          "id": "dimm_2",
+          "text": "Trolls' Cathedral (Kirkjan)",
+          "detail": "Visit the largest natural rock arch formation at Dimmuborgir, a cathedral-like cavern steeped in Icelandic folklore about hidden people and trolls.",
+          "lat": 65.6048,
+          "lng": -16.881
+        },
+        {
+          "id": "dimm_3",
+          "text": "Lake Mývatn Shoreline Walk",
+          "detail": "Combine your visit with a walk along the nearby lake's edge to spot Arctic birds, observe geothermal features, and enjoy views back toward the lava formations.",
+          "lat": 65.61,
+          "lng": -16.89
+        },
+        {
+          "id": "dimm_4",
+          "text": "Photography Tour at Golden Hour",
+          "detail": "Capture the dramatic shadows and warm light that transform the dark volcanic rock into a photographer's paradise during sunset or sunrise.",
+          "lat": 65.6042,
+          "lng": -16.8797
+        },
+        {
+          "id": "dimm_5",
+          "text": "Folklore Ghost Walk",
+          "detail": "Join a local guide for an evening tour through Dimmuborgir to hear legends of hidden elves, dwarves, and supernatural creatures believed to inhabit the lava.",
+          "lat": 65.6042,
+          "lng": -16.8797
+        },
+        {
+          "id": "dimm_6",
+          "text": "Geothermal Mud Pools Nearby",
+          "detail": "Venture to adjacent geothermal areas around Mývatn to experience bubbling mud pots and steaming vents that complement the volcanic geology of Dimmuborgir.",
+          "lat": 65.615,
+          "lng": -16.86
+        }
+      ],
+      "food": [
+        {
+          "id": "dimm_f1",
+          "text": "Arctic Char from Lake Mývatn",
+          "detail": "Fresh local fish caught from the nutrient-rich lake, typically prepared simply grilled or smoked to highlight its delicate flavor at nearby restaurants."
+        },
+        {
+          "id": "dimm_f2",
+          "text": "Icelandic Lamb Stew (Kjötsúpa)",
+          "detail": "A hearty traditional soup with tender lamb, root vegetables, and thyme that warms visitors after hiking through the cool lava landscape."
+        },
+        {
+          "id": "dimm_f3",
+          "text": "Geothermal-Baked Bread (Rúgbrauð)",
+          "detail": "Dense, dark rye bread traditionally baked using geothermal heat from the surrounding volcanic area, often served with Icelandic butter."
+        },
+        {
+          "id": "dimm_f4",
+          "text": "Fresh Mývatn Trout",
+          "detail": "Another local lake specialty, often prepared with minimal seasoning to showcase the clean taste of the cold-water fish."
+        },
+        {
+          "id": "dimm_f5",
+          "text": "Icelandic Hot Spring Hot Dogs",
+          "detail": "A quirky regional favorite where lamb or beef sausages are grilled using natural geothermal heat, a casual meal between hiking."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dimm_c1",
+          "text": "Respect Hidden People Beliefs",
+          "detail": "Many locals genuinely believe in hidden elves and supernatural beings in the lava; listen respectfully to folklore and avoid mocking these deep cultural traditions."
+        },
+        {
+          "id": "dimm_c2",
+          "text": "Weather Changes Rapidly",
+          "detail": "Northeast Iceland's conditions shift suddenly; bring waterproof layers and sturdy hiking boots even on clear-looking days, and check forecasts before setting out."
+        },
+        {
+          "id": "dimm_c3",
+          "text": "Stay on Marked Trails",
+          "detail": "The lava terrain is fragile and dangerous with hidden crevasses; locals strictly observe marked paths to protect both themselves and the delicate ecosystem."
+        },
+        {
+          "id": "dimm_c4",
+          "text": "Visit During Summer for Safety",
+          "detail": "While Dimmuborgir is accessible year-round, the hiking season peaks May to September when daylight is longest and ice hazards are minimal."
+        }
+      ]
+    },
+    {
+      "id": "myvatn",
+      "name": "Lake Mývatn",
+      "nameIt": "Mývatn",
+      "lat": 65.6167,
+      "lng": -16.9167,
+      "type": "NATURE",
+      "description": "Iceland's fourth-largest lake, famous for its unique ecosystem, abundant birdlife, and surrounding geothermal features including hot springs and mud pools. The area combines natural beauty with accessible exploration and excellent bird-watching opportunities.",
+      "imageQueries": [
+        "Lake Mývatn Iceland",
+        "Mývatn geothermal area"
+      ],
+      "activities": [
+        {
+          "id": "myva_1",
+          "text": "Bird-watching at Mývatn",
+          "detail": "Observe Iceland's richest birdlife including Arctic terns, whooper swans, and various duck species during breeding season from May to July.",
+          "lat": 65.6,
+          "lng": -16.9
+        },
+        {
+          "id": "myva_2",
+          "text": "Explore Dimmuborgir lava formations",
+          "detail": "Hike through otherworldly basalt labyrinths and volcanic rock towers just east of the lake, popular for photography and folklore exploration.",
+          "lat": 65.5967,
+          "lng": -16.8783
+        },
+        {
+          "id": "myva_3",
+          "text": "Soak in Mývatn Nature Baths",
+          "detail": "Relax in geothermally heated mineral-rich blue waters similar to the famous Blue Lagoon but less crowded and more intimate.",
+          "lat": 65.6458,
+          "lng": -16.8808
+        },
+        {
+          "id": "myva_4",
+          "text": "Visit Námafjall mud pools",
+          "detail": "Walk among steaming geothermal mud pools and colorful sulfurous ground on the eastern shore, experiencing Iceland's volcanic activity firsthand.",
+          "lat": 65.6283,
+          "lng": -16.8317
+        },
+        {
+          "id": "myva_5",
+          "text": "Tour Dimmuborgir hiking trails",
+          "detail": "Follow marked routes through the lava forest with viewpoints over the lake, ranging from easy walks to more challenging scrambles.",
+          "lat": 65.5967,
+          "lng": -16.8783
+        },
+        {
+          "id": "myva_6",
+          "text": "Photograph Krafla geothermal area",
+          "detail": "Visit the dramatic volcanic crater and surrounding steaming vents north of the lake, offering stunning landscape and geological features.",
+          "lat": 65.6667,
+          "lng": -16.8167
+        },
+        {
+          "id": "myva_7",
+          "text": "Lake kayaking and boat tours",
+          "detail": "Paddle or cruise across Mývatn to spot waterfowl, explore small islands, and view the landscape from water level."
+        }
+      ],
+      "food": [
+        {
+          "id": "myva_f1",
+          "text": "Arctic char from Mývatn",
+          "detail": "Fresh locally-caught freshwater char, often grilled simply or smoked, showcasing the lake's pristine waters and local fishing tradition."
+        },
+        {
+          "id": "myva_f2",
+          "text": "Geothermal-baked bread",
+          "detail": "Traditional rye bread baked using geothermal heat in the ground, a unique culinary experience tied to the region's volcanic landscape."
+        },
+        {
+          "id": "myva_f3",
+          "text": "Icelandic lamb stew",
+          "detail": "Hearty slow-cooked lamb with root vegetables, a warming local staple available at restaurants throughout the Mývatn area."
+        },
+        {
+          "id": "myva_f4",
+          "text": "Fresh wild berries",
+          "detail": "Locally foraged Arctic berries including bilberries and cloudberries, often served as desserts or in traditional Icelandic preparations."
+        },
+        {
+          "id": "myva_f5",
+          "text": "Grilled fish platters at lakeside restaurants",
+          "detail": "Multi-course seafood featuring lake fish and North Atlantic species, often paired with regional vegetables and traditional preparations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "myva_c1",
+          "text": "Respect nesting bird areas",
+          "detail": "During May to July breeding season, stay on marked paths and avoid disturbing nesting sites, as locals are protective of the area's prolific bird populations."
+        },
+        {
+          "id": "myva_c2",
+          "text": "Check weather and daylight hours",
+          "detail": "Weather changes rapidly in Northeast Iceland; dress in layers and be aware that summer offers nearly 24-hour daylight while winter is very dark."
+        },
+        {
+          "id": "myva_c3",
+          "text": "Visit Reykjahlíð village for local services",
+          "detail": "The small settlement on the lake's western shore serves as the hub for accommodations, restaurants, and information, with locals offering genuine hospitality and recommendations."
+        },
+        {
+          "id": "myva_c4",
+          "text": "Geothermal safety awareness",
+          "detail": "Never touch mud pools or scalding water, and stay behind safety barriers at geothermal sites, as locals strictly enforce these rules for visitor protection."
+        }
+      ]
+    },
+    {
+      "id": "godafoss",
+      "name": "Goðafoss Waterfall",
+      "nameIt": "Goðafoss",
+      "lat": 65.6833,
+      "lng": -17.5333,
+      "type": "LANDMARK",
+      "description": "One of Iceland's most powerful and dramatic waterfalls, where the Skjálfandafljót river plunges 45 meters in a spectacular horseshoe formation. The name meaning 'Waterfall of the Gods' reflects its majesty and accessibility from the Ring Road.",
+      "imageQueries": [
+        "Goðafoss waterfall Iceland",
+        "Godafoss powerful waterfall"
+      ],
+      "activities": [
+        {
+          "id": "goda_1",
+          "text": "Horseshoe Viewpoint Walk",
+          "detail": "Hike to the main viewing platform on the western side for the classic frontal view of the 45-meter plunge and the iconic horseshoe shape.",
+          "lat": 65.6838,
+          "lng": -16.88
+        },
+        {
+          "id": "goda_2",
+          "text": "Eastern Ridge Trail",
+          "detail": "Trek along the eastern rim for an elevated perspective of the falls and views across the Skjálfandafljót river canyon.",
+          "lat": 65.6845,
+          "lng": -16.872
+        },
+        {
+          "id": "goda_3",
+          "text": "Photography Sessions",
+          "detail": "Capture the waterfall during golden hour or under dramatic Icelandic light; the horseshoe formation and mist create exceptional photo opportunities.",
+          "lat": 65.6838,
+          "lng": -16.88
+        },
+        {
+          "id": "goda_4",
+          "text": "River Bank Exploration",
+          "detail": "Walk downstream along the Skjálfandafljót river to observe the turbulent waters and geological formations created by the waterfall's power.",
+          "lat": 65.682,
+          "lng": -16.885
+        },
+        {
+          "id": "goda_5",
+          "text": "Geology Interpretation",
+          "detail": "Study the basalt cliffs and lava formations surrounding the falls to understand Iceland's volcanic landscape and the river's erosive force."
+        },
+        {
+          "id": "goda_6",
+          "text": "Winter Ice Viewing",
+          "detail": "Visit during winter months when ice formations frame the falls, creating a dramatically different and ethereal landscape than summer views."
+        }
+      ],
+      "food": [
+        {
+          "id": "goda_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Sample locally-caught char from Iceland's cold rivers, often prepared simply grilled or smoked at nearby restaurants in Húsavík village."
+        },
+        {
+          "id": "goda_f2",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Try the traditional kjötsúpa made with local lamb, root vegetables, and herbs—hearty comfort food available at accommodations near the falls."
+        },
+        {
+          "id": "goda_f3",
+          "text": "Rye Bread (Runibread)",
+          "detail": "Taste geothermal rye bread baked using hot springs, a unique Icelandic specialty available at local bakeries in the Northeast region."
+        },
+        {
+          "id": "goda_f4",
+          "text": "Fresh Trout",
+          "detail": "Enjoy locally-sourced trout from nearby rivers and streams, often prepared at guesthouses and small restaurants throughout the area."
+        },
+        {
+          "id": "goda_f5",
+          "text": "Icelandic Dairy Products",
+          "detail": "Sample creamy Icelandic yogurt and soft cheeses from regional farms, often featured in picnic provisions or café offerings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "goda_c1",
+          "text": "Respect Sacred Water Traditions",
+          "detail": "The name 'Goðafoss' reflects historical reverence for waterfalls in Norse culture; treat the site with respect and follow marked paths to preserve its spiritual significance."
+        },
+        {
+          "id": "goda_c2",
+          "text": "Weather Changes Rapidly",
+          "detail": "Northeast Iceland's weather shifts dramatically within hours, so dress in layers and be prepared to adjust plans; locals expect visitors to adapt to conditions."
+        },
+        {
+          "id": "goda_c3",
+          "text": "Ring Road Protocol",
+          "detail": "Goðafoss sits directly off Route 1 (Ring Road), so respect traffic safety and use designated parking areas; this is one of Iceland's most accessible major attractions."
+        },
+        {
+          "id": "goda_c4",
+          "text": "Leave No Trace Ethics",
+          "detail": "Icelanders value pristine nature and expect visitors to remove all waste and avoid stepping off designated paths to protect fragile vegetation and geological features."
+        }
+      ]
+    },
+    {
+      "id": "krafla",
+      "name": "Krafla Geothermal Area",
+      "nameIt": "Krafla",
+      "lat": 65.6847,
+      "lng": -16.8181,
+      "type": "NATURE",
+      "description": "An active geothermal region near Mývatn featuring volcanic craters, steaming vents, and colorful rhyolite mountains with otherworldly hues. Visitors can hike among the geothermal features and see the remains of lava flows from recent eruptions.",
+      "imageQueries": [
+        "Krafla geothermal Iceland",
+        "Krafla volcanic crater"
+      ],
+      "activities": [
+        {
+          "id": "kraf_1",
+          "text": "Leirhnjúkur Crater Walk",
+          "detail": "Hike among steaming fumaroles and colorful geothermal vents with views of sulfur deposits and rhyolite formations across this active volcanic landscape.",
+          "lat": 65.6847,
+          "lng": -16.8764
+        },
+        {
+          "id": "kraf_2",
+          "text": "Námafjall Geothermal Area",
+          "detail": "Explore vibrant yellow and orange mud pots, boiling hot springs, and geothermal steam vents on the ridge overlooking Mývatn lake.",
+          "lat": 65.6292,
+          "lng": -16.8803
+        },
+        {
+          "id": "kraf_3",
+          "text": "Krafla Caldera Rim Trail",
+          "detail": "Trek around the rim of the Krafla caldera to view multiple volcanic craters, recent lava fields from the 1970s–1980s eruptions, and expansive geothermal valleys.",
+          "lat": 65.7036,
+          "lng": -16.8197
+        },
+        {
+          "id": "kraf_4",
+          "text": "Víti Crater Lake",
+          "detail": "Visit the dramatic crater filled with a warm milky-blue geothermal lake formed during the 1724 eruption, accessible by short hiking trail.",
+          "lat": 65.6869,
+          "lng": -16.8931
+        },
+        {
+          "id": "kraf_5",
+          "text": "Lava Tube Exploration",
+          "detail": "Descend into ancient lava caves and tunnels formed by flowing basalt, some featuring geothermal steam and moss-covered walls.",
+          "lat": 65.695,
+          "lng": -16.865
+        },
+        {
+          "id": "kraf_6",
+          "text": "Geothermal Power Plant Visit",
+          "detail": "Tour the Krafla Power Station visitor center to learn about Iceland's renewable energy from geothermal sources and the region's geological history.",
+          "lat": 65.7142,
+          "lng": -16.7822
+        }
+      ],
+      "food": [
+        {
+          "id": "kraf_f1",
+          "text": "Fresh Trout from Mývatn",
+          "detail": "Arctic char and trout caught from the nearby geothermal lake, often served simply grilled or smoked at local restaurants in Mývatn village."
+        },
+        {
+          "id": "kraf_f2",
+          "text": "Geothermal-Baked Bread",
+          "detail": "Rye bread traditionally baked using geothermal heat from hot springs, a specialty of the Mývatn region with a dense, slightly sweet flavor."
+        },
+        {
+          "id": "kraf_f3",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Slow-cooked local lamb with root vegetables, a hearty comfort dish served in lodges and restaurants throughout Northeast Iceland."
+        },
+        {
+          "id": "kraf_f4",
+          "text": "Wild Game from the Region",
+          "detail": "Locally hunted reindeer or ptarmigan dishes reflecting the wild game traditions of Iceland's interior and geothermal areas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kraf_c1",
+          "text": "Respect Geothermal Safety Boundaries",
+          "detail": "Stay on marked trails and heed warning signs near boiling springs, as thin crusts over geothermal features can collapse and cause severe burns."
+        },
+        {
+          "id": "kraf_c2",
+          "text": "Dress for Rapid Weather Changes",
+          "detail": "Northeast Iceland's weather shifts quickly; bring waterproof layers and sturdy hiking boots even on clear mornings, as conditions can turn windy and wet within hours."
+        },
+        {
+          "id": "kraf_c3",
+          "text": "Leave No Trace in Fragile Areas",
+          "detail": "The geothermal landscape is delicate and slow to recover; stay on paths, do not remove minerals or rocks, and pack out all waste to protect this unique ecosystem."
+        },
+        {
+          "id": "kraf_c4",
+          "text": "Visit in Summer for Best Access",
+          "detail": "The Krafla area is most accessible and safest from June through August; winter snow and ice can close roads and trails, making autumn and spring visits unpredictable."
+        }
+      ]
+    },
+    {
+      "id": "seydisfjordur",
+      "name": "Seyðisfjörður",
+      "nameIt": "Seyðisfjörður",
+      "lat": 65.2667,
+      "lng": -13.7333,
+      "type": "TOWN",
+      "description": "A picturesque and artistic coastal town nestled in a steep fjord, known for its colorful houses, vibrant culture, and gateway to the Faroe Islands by ferry. The town is renowned for its natural beauty, waterfalls, and thriving creative community.",
+      "imageQueries": [
+        "Seyðisfjörður colorful houses",
+        "Seyðisfjörður fjord Iceland"
+      ],
+      "activities": [
+        {
+          "id": "seyd_1",
+          "text": "Gufufoss Waterfall Hike",
+          "detail": "A moderate trek to a powerful two-tiered waterfall cascading directly into the fjord, accessible via a scenic trail from town.",
+          "lat": 65.2667,
+          "lng": -14.8667
+        },
+        {
+          "id": "seyd_2",
+          "text": "Explore Colorful Harbor Houses",
+          "detail": "Wander through the town center to admire and photograph the distinctive brightly painted wooden houses lining the waterfront and streets.",
+          "lat": 65.2683,
+          "lng": -14.8667
+        },
+        {
+          "id": "seyd_3",
+          "text": "Visit the Technical Museum",
+          "detail": "Tour this quirky collection of vintage machinery, cars, and industrial equipment housed in an old warehouse, reflecting Iceland's maritime and engineering heritage.",
+          "lat": 65.265,
+          "lng": -14.87
+        },
+        {
+          "id": "seyd_4",
+          "text": "Ferry to the Faroe Islands",
+          "detail": "Take the MS Norröna ferry departing from Seyðisfjörður to the Faroe Islands, a scenic day trip or overnight journey.",
+          "lat": 65.2683,
+          "lng": -14.8667
+        },
+        {
+          "id": "seyd_5",
+          "text": "Dynjandi Waterfall Day Trip",
+          "detail": "Drive roughly two hours to visit Iceland's most dramatic multi-tiered waterfall, accessible from the nearby Westfjords.",
+          "lat": 65.8167,
+          "lng": -14.5
+        },
+        {
+          "id": "seyd_6",
+          "text": "Gallery and Studio Tours",
+          "detail": "Visit artist studios and galleries scattered throughout town, where local painters, sculptors, and craftspeople showcase their work during open hours.",
+          "lat": 65.2667,
+          "lng": -14.8667
+        }
+      ],
+      "food": [
+        {
+          "id": "seyd_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "A local delicacy from the fjord, typically prepared simply grilled or pan-fried to showcase its delicate, flavorful flesh."
+        },
+        {
+          "id": "seyd_f2",
+          "text": "Fish Soup (Plokkfiskur)",
+          "detail": "A traditional Icelandic stew of flaked fresh fish, potatoes, and onions in a creamy sauce, hearty and warming after outdoor activities."
+        },
+        {
+          "id": "seyd_f3",
+          "text": "Homemade Rye Bread",
+          "detail": "Dark, dense bread traditionally baked in geothermal springs or modern ovens, with a slightly sweet flavor from molasses."
+        },
+        {
+          "id": "seyd_f4",
+          "text": "Langoustine (Scampi)",
+          "detail": "Fresh Norwegian langoustine caught nearby and served at local restaurants, often prepared simply with butter and garlic."
+        },
+        {
+          "id": "seyd_f5",
+          "text": "Icelandic Lamb Stew",
+          "detail": "Tender local lamb braised with root vegetables and herbs, a comfort food staple at town restaurants year-round."
+        }
+      ],
+      "culture": [
+        {
+          "id": "seyd_c1",
+          "text": "Respect the Weather and Dress Properly",
+          "detail": "The fjord town experiences rapid weather changes and strong winds; bring waterproof layers and sturdy hiking boots even for short walks."
+        },
+        {
+          "id": "seyd_c2",
+          "text": "Arts Community is Central to Identity",
+          "detail": "The town embraces its creative population through festivals, open studio events, and cultural gatherings; visitors are welcomed to participate in spontaneous art events."
+        },
+        {
+          "id": "seyd_c3",
+          "text": "Ferry Schedule Dictates Timing",
+          "detail": "The MS Norröna ferry to the Faroes runs only twice weekly, so plan accommodations and activities around these fixed departure times."
+        },
+        {
+          "id": "seyd_c4",
+          "text": "Local Cafe Culture",
+          "detail": "Small cafes and restaurants close early (often by 9 PM) and may have limited hours in shoulder seasons; plan meals accordingly."
+        }
+      ]
+    },
+    {
+      "id": "akureyri",
+      "name": "Akureyri",
+      "nameIt": "Akureyri",
+      "lat": 65.6839,
+      "lng": -18.0883,
+      "type": "CITY",
+      "description": "Iceland's second-largest city and the cultural hub of the North, offering museums, restaurants, shops, and cultural events. While technically in North Iceland, it serves as a major base for exploring Northeast attractions and the greater Mývatn region.",
+      "imageQueries": [
+        "Akureyri Iceland city",
+        "Akureyri main street"
+      ],
+      "activities": [
+        {
+          "id": "akur_1",
+          "text": "Akureyri Church",
+          "detail": "A striking modernist church with panoramic views of the town and fjord from its tower, completed in 1940 and one of Iceland's most iconic religious structures.",
+          "lat": 65.6837,
+          "lng": -18.0883
+        },
+        {
+          "id": "akur_2",
+          "text": "Botanical Garden of Akureyri",
+          "detail": "Iceland's largest botanical garden showcasing alpine plants, Arctic species, and Nordic flora across 36 acres with walking trails and seasonal blooms.",
+          "lat": 65.6825,
+          "lng": -18.0975
+        },
+        {
+          "id": "akur_3",
+          "text": "Museum of Akureyri",
+          "detail": "A comprehensive museum covering local history, cultural heritage, and traditional Icelandic life with exhibits spanning from Viking times to the modern era.",
+          "lat": 65.6843,
+          "lng": -18.0892
+        },
+        {
+          "id": "akur_4",
+          "text": "Mývatn Lake Exploration",
+          "detail": "A short drive south leads to this geothermal wonderland featuring pseudo-craters, bird-watching opportunities, and the otherworldly Dimmuborgir lava formations.",
+          "lat": 65.6072,
+          "lng": -16.8847
+        },
+        {
+          "id": "akur_5",
+          "text": "Goðafoss Waterfall",
+          "detail": "One of Iceland's most powerful waterfalls located 45 km east, where glacial meltwater crashes 12 meters into a horseshoe-shaped canyon.",
+          "lat": 65.6835,
+          "lng": -16.8806
+        },
+        {
+          "id": "akur_6",
+          "text": "Húsavík Whale Watching",
+          "detail": "A 30-minute drive north to the whale-watching capital of Iceland, where tours depart daily to spot minke whales, humpback whales, and white-beaked dolphins.",
+          "lat": 66.0412,
+          "lng": -17.3418
+        },
+        {
+          "id": "akur_7",
+          "text": "Laugarbakki Hot Springs",
+          "detail": "Natural geothermal pools just outside town offering warm bathing in an authentic Icelandic setting without the crowds of larger resort pools.",
+          "lat": 65.6556,
+          "lng": -18.0722
+        }
+      ],
+      "food": [
+        {
+          "id": "akur_f1",
+          "text": "Arctic Char",
+          "detail": "A delicate freshwater fish caught in local lakes and rivers, typically served grilled or pan-fried with Icelandic butter and seasonal herbs."
+        },
+        {
+          "id": "akur_f2",
+          "text": "Lamb Stew (Kjötsúpa)",
+          "detail": "A traditional Icelandic comfort dish of slow-cooked lamb with root vegetables, turnips, and onions, perfect for warming up after outdoor activities."
+        },
+        {
+          "id": "akur_f3",
+          "text": "Fresh Seafood Soup",
+          "detail": "A creamy soup featuring mixed fish and shellfish from nearby North Atlantic waters, often served with fresh bread at local restaurants."
+        },
+        {
+          "id": "akur_f4",
+          "text": "Icelandic Rye Bread",
+          "detail": "Dense, slightly sweet bread traditionally baked using geothermal heat, available fresh at local bakeries and often served with butter and local cheese."
+        },
+        {
+          "id": "akur_f5",
+          "text": "Musk Ox (Moskoxakjöt)",
+          "detail": "A unique game meat from the Arctic regions, lean and flavorful, sometimes offered as a specialty at upscale Akureyri restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "akur_c1",
+          "text": "Midnight Sun and Polar Night",
+          "detail": "Summer visitors experience nearly 24-hour daylight, while winter brings extended darkness; plan activities and sleep schedules accordingly."
+        },
+        {
+          "id": "akur_c2",
+          "text": "Respectful Waterfall Photography",
+          "detail": "Icelanders value nature conservation; stay on marked paths at waterfalls and natural sites, and never leave trash or venture into dangerous areas for photos."
+        },
+        {
+          "id": "akur_c3",
+          "text": "Casual Dining Hours",
+          "detail": "Dinner is typically served from 6 PM onward in Akureyri, and many restaurants close by 10 PM; book ahead during peak tourist season."
+        },
+        {
+          "id": "akur_c4",
+          "text": "Weather-Dependent Plans",
+          "detail": "Northern Iceland weather changes rapidly; always carry waterproof jackets and layers, and be prepared for sudden closures of mountain roads or outdoor attractions."
+        }
+      ]
+    },
+    {
+      "id": "husavik",
+      "name": "Húsavík",
+      "nameIt": "Húsavík",
+      "lat": 66.0419,
+      "lng": -17.3445,
+      "type": "TOWN",
+      "description": "A charming coastal town famous as the whale-watching capital of Iceland, offering boat tours to see humpback whales, minke whales, and other marine life. The town combines maritime heritage, local restaurants, and access to nearby natural attractions.",
+      "imageQueries": [
+        "Húsavík whale watching",
+        "Húsavík harbor Iceland"
+      ],
+      "activities": [
+        {
+          "id": "husa_1",
+          "text": "Whale Watching Tours",
+          "detail": "Join boat tours departing from Húsavík harbor to spot humpback whales, minke whales, and dolphins in their natural habitat during spring through autumn.",
+          "lat": 66.0415,
+          "lng": -17.3373
+        },
+        {
+          "id": "husa_2",
+          "text": "Húsavík Whale Museum",
+          "detail": "Explore Iceland's largest whale museum featuring skeletal displays, interactive exhibits, and detailed information about marine species found in Icelandic waters.",
+          "lat": 66.0422,
+          "lng": -17.3368
+        },
+        {
+          "id": "husa_3",
+          "text": "Húsavík Church",
+          "detail": "Visit this distinctive turf-roofed wooden church built in 1907, offering panoramic views of the harbor and surrounding coastline from its elevated position.",
+          "lat": 66.0445,
+          "lng": -17.3392
+        },
+        {
+          "id": "husa_4",
+          "text": "Goðafoss Waterfall Day Trip",
+          "detail": "Take a short drive south to witness one of Iceland's most powerful waterfalls with a 45-meter drop across a wide canyon.",
+          "lat": 65.6835,
+          "lng": -16.8797
+        },
+        {
+          "id": "husa_5",
+          "text": "Mývatn Nature Bath",
+          "detail": "Relax in this geothermal hot spring spa located 10 kilometers south of Húsavík, featuring milky-blue mineral-rich waters surrounded by volcanic landscape.",
+          "lat": 65.6243,
+          "lng": -16.8719
+        },
+        {
+          "id": "husa_6",
+          "text": "Puffin Island Boat Tours",
+          "detail": "Embark on seasonal boat excursions to nearby islands to observe Atlantic puffins in their natural breeding colonies, typically available June through August.",
+          "lat": 66.0415,
+          "lng": -17.3373
+        },
+        {
+          "id": "husa_7",
+          "text": "Húsavík Harbor Walk",
+          "detail": "Stroll along the picturesque harbor front lined with colorful fishing boats, local shops, and cafés while soaking in maritime atmosphere and coastal views.",
+          "lat": 66.042,
+          "lng": -17.337
+        }
+      ],
+      "food": [
+        {
+          "id": "husa_f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Sample locally-caught Arctic char prepared simply grilled or pan-fried at Húsavík's seafood restaurants, showcasing delicate flavor and tender flesh."
+        },
+        {
+          "id": "husa_f2",
+          "text": "Fish Soup",
+          "detail": "Warm up with traditional Icelandic fish soup made from local catch, cream, and root vegetables, commonly served at harbor-side establishments."
+        },
+        {
+          "id": "husa_f3",
+          "text": "Whale Meat Dishes",
+          "detail": "Though controversial, some traditional restaurants serve minke whale meat as a local delicacy, typically prepared as steaks or in traditional stews."
+        },
+        {
+          "id": "husa_f4",
+          "text": "Pan-Fried Scallops",
+          "detail": "Enjoy fresh Icelandic scallops seared quickly and served with lemon and butter at upscale dining venues along the waterfront."
+        },
+        {
+          "id": "husa_f5",
+          "text": "Brown Bread",
+          "detail": "Try traditional Icelandic rúgbrauð, a dense dark rye bread often baked using geothermal heat near Mývatn and sold at local bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "husa_c1",
+          "text": "Respect Whale Watching Ethics",
+          "detail": "Húsavík operators follow strict whale-watching guidelines to minimize disturbance to marine life, so expect responsible tour practices and regulatory compliance."
+        },
+        {
+          "id": "husa_c2",
+          "text": "Prepare for Variable Weather",
+          "detail": "Northeast Iceland experiences rapid weather changes and strong winds, so dress in waterproof layers and be flexible with outdoor activity scheduling."
+        },
+        {
+          "id": "husa_c3",
+          "text": "Learn About Viking Settlement",
+          "detail": "Húsavík's name derives from one of Iceland's first Viking settlements around 1024, and locals take pride in this maritime heritage reflected throughout the town."
+        },
+        {
+          "id": "husa_c4",
+          "text": "Embrace the Midnight Sun",
+          "detail": "During summer months, experience nearly 24-hour daylight, which locals celebrate and utilize for extended outdoor activities and evening tours."
+        }
+      ]
+    },
+    {
+      "id": "stu_lagil",
+      "name": "Stuðlagil Canyon",
+      "nameIt": "Stuðlagil",
+      "lat": 64.4833,
+      "lng": -15.4667,
+      "type": "NATURE",
+      "description": "A hidden gem featuring a stunning canyon with basalt columns and striking turquoise water flowing through dramatic rock formations. The remote location rewards adventurous visitors with one of Iceland's most unique and photogenic geological landscapes.",
+      "imageQueries": [
+        "Stuðlagil Canyon turquoise",
+        "Stuðlagil basalt columns"
+      ],
+      "activities": [
+        {
+          "id": "stu__1",
+          "text": "Canyon Floor Photography",
+          "detail": "Walk down to the turquoise river and capture the iconic basalt columns framed by the vivid glacial meltwater.",
+          "lat": 65.5089,
+          "lng": -14.8675
+        },
+        {
+          "id": "stu__2",
+          "text": "Basalt Column Exploration",
+          "detail": "Navigate the distinctive hexagonal basalt formations that line both sides of the canyon for close-up geological study.",
+          "lat": 65.5089,
+          "lng": -14.8675
+        },
+        {
+          "id": "stu__3",
+          "text": "River Wading",
+          "detail": "Wade through the shallow turquoise sections of the Jökulsá á Fjöllum river to experience the glacial water up close.",
+          "lat": 65.5089,
+          "lng": -14.8675
+        },
+        {
+          "id": "stu__4",
+          "text": "Hiking the Rim Trail",
+          "detail": "Trek along the canyon's upper edges for sweeping panoramic views and alternative vantage points of the basalt formations.",
+          "lat": 65.5089,
+          "lng": -14.8675
+        },
+        {
+          "id": "stu__5",
+          "text": "Sunrise Visit",
+          "detail": "Arrive early to witness the canyon bathed in golden light with fewer visitors and dramatic shadow play across the columns."
+        },
+        {
+          "id": "stu__6",
+          "text": "Geology Documentation",
+          "detail": "Study and photograph the columnar jointing patterns created by ancient lava flows, a textbook example of basaltic geology."
+        }
+      ],
+      "food": [
+        {
+          "id": "stu__f1",
+          "text": "Fresh Arctic Char",
+          "detail": "Local restaurants in nearby Egilsstaðir serve freshly caught Arctic char from East Iceland's pristine rivers and lakes."
+        },
+        {
+          "id": "stu__f2",
+          "text": "Lamb Stew (Kjötsúpa)",
+          "detail": "A traditional Icelandic slow-cooked lamb and vegetable stew commonly served at rural guesthouses near the canyon."
+        },
+        {
+          "id": "stu__f3",
+          "text": "Rye Bread (Rúgbrauð)",
+          "detail": "Dense, naturally sweetened dark bread traditionally geothermal-baked and available at local farms and shops in Northeast Iceland."
+        },
+        {
+          "id": "stu__f4",
+          "text": "Icelandic Dairy Products",
+          "detail": "Sample creamy Icelandic yogurt (skyr) and fresh cheese from regional dairies while staying at nearby accommodations."
+        },
+        {
+          "id": "stu__f5",
+          "text": "Wild Game",
+          "detail": "Local lodges often serve reindeer or wild game stews featuring protein sourced from Northeast Iceland's remote highlands."
+        }
+      ],
+      "culture": [
+        {
+          "id": "stu__c1",
+          "text": "Remote Location Preparation",
+          "detail": "The canyon is accessible only via rough gravel roads requiring a sturdy vehicle; ensure your rental can handle F-roads and bring supplies as services are distant."
+        },
+        {
+          "id": "stu__c2",
+          "text": "Leave No Trace Ethic",
+          "detail": "Icelanders take environmental stewardship seriously; pack out all waste and stay on established paths to protect this fragile ecosystem."
+        },
+        {
+          "id": "stu__c3",
+          "text": "Weather Respect",
+          "detail": "Northeast Iceland's weather changes rapidly and can be harsh; locals dress in layers and always check forecasts before venturing to remote canyons."
+        },
+        {
+          "id": "stu__c4",
+          "text": "Local Farm Hospitality",
+          "detail": "Many nearby guesthouses are family-run farms; respectful interaction and gratitude for accommodation on private land is culturally important."
+        }
+      ]
+    },
+    {
+      "id": "borgarfjordur",
+      "name": "Borgarfjörður Eystri",
+      "nameIt": "Borgarfjörður Eystri",
+      "lat": 65.5333,
+      "lng": -13.8833,
+      "type": "VILLAGE",
+      "description": "A remote and peaceful coastal village renowned for its puffin colonies, colorful turf-roofed houses, and dramatic clifftop scenery. The village is accessible via scenic mountain pass and offers excellent hiking, birdwatching, and authentic Icelandic village atmosphere.",
+      "imageQueries": [
+        "Borgarfjörður Eystri puffins",
+        "Borgarfjörður Eystri turf houses"
+      ],
+      "activities": [
+        {
+          "id": "borg_1",
+          "text": "Puffin watching at Álftangi",
+          "detail": "Observe Atlantic puffins in their natural breeding habitat from May to August along the dramatic coastal cliffs just north of the village.",
+          "lat": 65.4806,
+          "lng": -14.8975
+        },
+        {
+          "id": "borg_2",
+          "text": "Hiking to Dyrfjöll mountain",
+          "detail": "Trek the popular trail up this distinctive twin-peaked mountain for panoramic views of the fjord, coastline, and surrounding wilderness.",
+          "lat": 65.475,
+          "lng": -14.905
+        },
+        {
+          "id": "borg_3",
+          "text": "Explore turf-roofed heritage houses",
+          "detail": "Wander through the village to admire and photograph the distinctive colorful Icelandic turf-roofed cottages that define Borgarfjörður's character."
+        },
+        {
+          "id": "borg_4",
+          "text": "Birdwatching at coastal cliffs",
+          "detail": "Spot arctic terns, razorbills, kittiwakes, and other seabirds nesting on the dramatic basalt cliffs surrounding the village."
+        },
+        {
+          "id": "borg_5",
+          "text": "Visit Lindarbakki viewpoint",
+          "detail": "Walk to this accessible hilltop overlook for sweeping views of the village, harbor, and surrounding mountains.",
+          "lat": 65.478,
+          "lng": -14.902
+        },
+        {
+          "id": "borg_6",
+          "text": "Kayaking in Borgarfjörður bay",
+          "detail": "Paddle through calm waters to explore the fjord's geology, spot marine wildlife, and experience the landscape from a unique vantage point."
+        },
+        {
+          "id": "borg_7",
+          "text": "Photography of mountain passes",
+          "detail": "Drive or hike the scenic route through the Eyjafjarðaralsdalur pass to capture dramatic Icelandic landscapes and seasonal light."
+        }
+      ],
+      "food": [
+        {
+          "id": "borg_f1",
+          "text": "Fresh Arctic char from local rivers",
+          "detail": "Sample locally-caught Arctic char prepared simply to highlight the clean, delicate flavor characteristic of pristine Icelandic waters."
+        },
+        {
+          "id": "borg_f2",
+          "text": "Puffin meat dishes",
+          "detail": "Try traditional Icelandic puffin prepared as a local specialty, often available during summer months in village restaurants."
+        },
+        {
+          "id": "borg_f3",
+          "text": "Lamb stew with root vegetables",
+          "detail": "Enjoy hearty traditional Icelandic lamb soup made with locally-sourced lamb and seasonal vegetables reflecting rural farming heritage."
+        },
+        {
+          "id": "borg_f4",
+          "text": "Fresh seafood at local restaurants",
+          "detail": "Eat locally-caught fish and shellfish prepared by family-run establishments that source directly from the surrounding waters."
+        },
+        {
+          "id": "borg_f5",
+          "text": "Rye bread baked in geothermal heat",
+          "detail": "Taste traditional Icelandic rye bread, sometimes baked using natural geothermal warmth characteristic of Iceland's volcanic landscape."
+        }
+      ],
+      "culture": [
+        {
+          "id": "borg_c1",
+          "text": "Visit during puffin season May-August",
+          "detail": "Plan your trip between spring and early autumn when puffins are present and weather is most stable for hiking and outdoor exploration."
+        },
+        {
+          "id": "borg_c2",
+          "text": "Respect private property and nesting birds",
+          "detail": "Stay on marked trails and maintain distance from nesting areas to protect wildlife and respect local conservation efforts."
+        },
+        {
+          "id": "borg_c3",
+          "text": "Embrace slow travel pace",
+          "detail": "Allow extra time for your journey as the mountain pass road is narrow and winding; the village itself rewards leisurely exploration rather than rushed visits."
+        },
+        {
+          "id": "borg_c4",
+          "text": "Support local small businesses",
+          "detail": "Patronize family-run guesthouses, restaurants, and shops to sustain the village economy and receive authentic local insights."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Við Voginn",
+      "address": "Bakkavör 3, Egilsstaðir",
+      "neighbourhood": "Egilsstaðir",
+      "cuisine": "Seafood & Nordic",
+      "priceRange": "€€€",
+      "description": "Waterfront restaurant specializing in fresh local fish and lamb with modern Nordic preparation.",
+      "mustOrder": "Pan-seared Arctic char with seasonal vegetables",
+      "lat": 65.2614,
+      "lng": -14.3973
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Grill Magasín",
+      "address": "Miðborg 1, Egilsstaðir",
+      "neighbourhood": "Egilsstaðir",
+      "cuisine": "Icelandic Grill",
+      "priceRange": "€€",
+      "description": "Casual grill restaurant in the town center offering grilled meats, fish, and burgers.",
+      "mustOrder": "Grilled lamb chops with garlic butter",
+      "lat": 65.2618,
+      "lng": -14.3956
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "The Cowshed Café",
+      "address": "Staðarborg Farm, Seyðisfjörður",
+      "neighbourhood": "Seyðisfjörður",
+      "cuisine": "Icelandic Farm-to-Table",
+      "priceRange": "€€",
+      "description": "Working farm café serving wholesome homemade dishes with ingredients from their own land.",
+      "mustOrder": "Farm fresh fish soup with rye bread",
+      "lat": 65.2669,
+      "lng": -14.0553
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Olsen Restaurant",
+      "address": "Norðurbrekkugata 2, Seyðisfjörður",
+      "neighbourhood": "Seyðisfjörður",
+      "cuisine": "Nordic Fine Dining",
+      "priceRange": "€€€€",
+      "description": "Intimate fine dining establishment in a historic building featuring creative Nordic cuisine.",
+      "mustOrder": "Multi-course tasting menu with local fish and foraged ingredients",
+      "lat": 65.2644,
+      "lng": -14.0589
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Kaffi Lára",
+      "address": "Austurvegur 58, Seyðisfjörður",
+      "neighbourhood": "Seyðisfjörður",
+      "cuisine": "Café & Light Meals",
+      "priceRange": "€",
+      "description": "Charming local café perfect for coffee, pastries, and light lunch in a cozy atmosphere.",
+      "mustOrder": "Homemade cinnamon bun with hot chocolate",
+      "lat": 65.2638,
+      "lng": -14.0612
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Staravötn Restaurant",
+      "address": "Route 1, Höfn",
+      "neighbourhood": "Höfn",
+      "cuisine": "Seafood & Icelandic",
+      "priceRange": "€€€",
+      "description": "Lakeside restaurant renowned for lobster and fresh seafood with views of Höfn's harbor.",
+      "mustOrder": "Langoustine tail with lemon butter sauce",
+      "lat": 64.2547,
+      "lng": -15.2094
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Pakkhús Restaurant",
+      "address": "Víkurbraut 40, Höfn",
+      "neighbourhood": "Höfn",
+      "cuisine": "Icelandic Contemporary",
+      "priceRange": "€€€",
+      "description": "Historic warehouse conversion offering locally-sourced dishes in an atmospheric setting.",
+      "mustOrder": "Icelandic lamb stew with root vegetables",
+      "lat": 64.254,
+      "lng": -15.2065
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Humarhöfnin",
+      "address": "Víkurbraut 50, Höfn",
+      "neighbourhood": "Höfn",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Working fisherman's restaurant offering simple, fresh preparations of daily catch.",
+      "mustOrder": "Grilled lobster with garlic aioli",
+      "lat": 64.2542,
+      "lng": -15.2075
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Café Nes",
+      "address": "Nesjavegur 44, Höfn",
+      "neighbourhood": "Höfn",
+      "cuisine": "Café & Brunch",
+      "priceRange": "€",
+      "description": "Popular local café and bakery serving excellent coffee and fresh pastries.",
+      "mustOrder": "Sourdough sandwich with local cheese and cured fish",
+      "lat": 64.252,
+      "lng": -15.2108
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Brekkumót",
+      "address": "Breiðdalsvegur 1, Breiðdalsvík",
+      "neighbourhood": "Breiðdalsvík",
+      "cuisine": "Icelandic Comfort",
+      "priceRange": "€€",
+      "description": "Welcoming roadside restaurant serving hearty traditional Icelandic dishes.",
+      "mustOrder": "Fish of the day with potatoes and mushroom sauce",
+      "lat": 64.7985,
+      "lng": -14.9235
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Systrakaffi",
+      "address": "Hafnargata 6, Djúpivogur",
+      "neighbourhood": "Djúpivogur",
+      "cuisine": "Seafood & Café",
+      "priceRange": "€€",
+      "description": "Charming harbor café with emphasis on local seafood and traditional recipes.",
+      "mustOrder": "Creamy fish soup with fresh bread",
+      "lat": 64.6431,
+      "lng": -15.0749
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Langabúð",
+      "address": "Vörugötu 4, Djúpivogur",
+      "neighbourhood": "Djúpivogur",
+      "cuisine": "Nordic Casual",
+      "priceRange": "€€",
+      "description": "Historic trading post now operating as a restaurant with local character and quality food.",
+      "mustOrder": "Pan-seared halibut with herb butter",
+      "lat": 64.6435,
+      "lng": -15.0751
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Hótel Framtíð Restaurant",
+      "address": "Laugavegur 8, Vopnafjörður",
+      "neighbourhood": "Vopnafjörður",
+      "cuisine": "Icelandic Traditional",
+      "priceRange": "€€",
+      "description": "Hotel restaurant offering reliable, well-prepared traditional Icelandic fare in a quiet town.",
+      "mustOrder": "Slow-cooked lamb with seasonal root vegetables",
+      "lat": 65.6242,
+      "lng": -14.8822
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Kaffi Krían",
+      "address": "Austurvegur 20, Egilsstaðir",
+      "neighbourhood": "Egilsstaðir",
+      "cuisine": "Café & Bakery",
+      "priceRange": "€",
+      "description": "Family-friendly bakery café in the town center with fresh pastries and light meals.",
+      "mustOrder": "Fresh croissant with local jam and coffee",
+      "lat": 65.2616,
+      "lng": -14.3948
+    }
+  ]
+}

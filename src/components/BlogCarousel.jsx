@@ -12,22 +12,33 @@ const PAGE = 4
 // "From the blog" on the home page — styled identically to the Featured
 // destinations row (same classes), with the next arrow lazily fetching more
 // posts from the API as you page through.
-export default function BlogCarousel() {
+// Optionally scoped to one country: pass countryName ("Japan") and only posts
+// tagged with it render — used on country pages under the fact strip. Scoped
+// mode fetches the full card list (edge-cached) and filters; no load-more.
+export default function BlogCarousel({ countryName = '', title = 'From the blog' }) {
   const [posts, setPosts] = useState(null)
   const [hasMore, setHasMore] = useState(true)
   const [loading, setLoading] = useState(false)
   const scroller = useRef(null)
 
+  const matches = (p) => {
+    if (!countryName) return true
+    const want = countryName.toLowerCase()
+    const tags = [p.tag, ...(p.tags || [])].filter(Boolean).map((t) => String(t).toLowerCase())
+    return tags.includes(want)
+  }
+
   useEffect(() => {
     let live = true
-    api.posts.page(PAGE, 0).then((rows) => {
+    const req = countryName ? api.posts.list() : api.posts.page(PAGE, 0)
+    req.then((rows) => {
       if (!live) return
-      const list = (rows || []).map(normalize)
-      if (list.length) { setPosts(list); setHasMore(rows.length === PAGE) }
-      else { setPosts(BUNDLED.map(normalize)); setHasMore(false) }
-    }).catch(() => { if (live) { setPosts(BUNDLED.map(normalize)); setHasMore(false) } })
+      const list = (rows || []).map(normalize).filter(matches)
+      if (list.length) { setPosts(list); setHasMore(!countryName && rows.length === PAGE) }
+      else { setPosts(BUNDLED.map(normalize).filter(matches)); setHasMore(false) }
+    }).catch(() => { if (live) { setPosts(BUNDLED.map(normalize).filter(matches)); setHasMore(false) } })
     return () => { live = false }
-  }, [])
+  }, [countryName])
 
   const loadMore = async () => {
     if (loading || !hasMore || !posts) return
@@ -57,7 +68,7 @@ export default function BlogCarousel() {
   return (
     <section className="wrap featured">
       <div className="featured__head">
-        <h2 className="featured__title">From the blog</h2>
+        <h2 className="featured__title">{title}</h2>
         <div className="featured__ctrls">
           <Link to={paths.blog()} className="featured__viewall">View all</Link>
           <button type="button" className="featured__arrow" onClick={() => nudge(-1)} aria-label="Scroll back"><ArrowLeft size={18} /></button>

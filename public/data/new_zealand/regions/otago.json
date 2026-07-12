@@ -1,0 +1,1532 @@
+{
+  "id": "otago",
+  "name": "Otago",
+  "nameIt": "Otago",
+  "capital": "Dunedin",
+  "lat": -45.03,
+  "lng": 170.5,
+  "emoji": "🍇",
+  "colour": "ff4caf50",
+  "boundingBox": {
+    "north": -44.2,
+    "south": -46.3,
+    "east": 171.5,
+    "west": 168.5
+  },
+  "history": "Otago was first settled by Maori, particularly the Kai Tahu iwi who established themselves throughout the region. European settlement began in earnest during the 1840s, with the arrival of Scottish Presbyterian settlers who shaped the character of the main city, Dunedin. The discovery of gold in the Shotover River in 1862 sparked a major gold rush that brought thousands of fortune seekers to the region and transformed it into a centre of wealth and development. This period of prosperity established Otago as one of New Zealand's most influential regions during the 19th century.",
+  "culturalNotes": "Otago retains a distinctly Scottish heritage visible in its architecture, street names, and the character of Dunedin, which is often called the Edinburgh of the South. The region is known for its vibrant arts and cultural scene, world-class museums, and a strong connection to Maori culture and history, particularly through the presence and influence of Kai Tahu. The landscape ranges from rugged coastlines and golden beaches to mountains and farmland, fostering a character that blends urban sophistication with outdoor recreation and natural beauty.",
+  "bestTimeToVisit": "Visit from March to May for autumn scenery and wine harvest season.",
+  "languageNotes": "English is the primary language spoken throughout Otago, though te reo Maori is increasingly used in place names, official communications, and cultural contexts. Visitors will encounter a relaxed New Zealand accent and local expressions like 'sweet as' for agreement or 'chur' as a casual greeting or thanks.",
+  "generatedAt": "2026-07-12T19:27:56.454Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "dunedin",
+      "name": "Dunedin",
+      "nameIt": "Ōtepoti",
+      "lat": -45.8788,
+      "lng": 170.5028,
+      "type": "CITY",
+      "description": "Otago's largest city, Dunedin is a vibrant cultural hub with stunning Victorian and Edwardian architecture, world-class museums, and a thriving arts scene. It's home to the University of Otago and serves as the gateway to the region's natural attractions.",
+      "imageQueries": [
+        "Dunedin Octagon architecture",
+        "Dunedin city waterfront"
+      ],
+      "activities": [
+        {
+          "id": "dune_1",
+          "text": "Larnach Castle",
+          "detail": "Explore this Victorian mansion perched on a hilltop overlooking the city, featuring period rooms, gardens, and panoramic views of the Otago Peninsula.",
+          "lat": -45.8847,
+          "lng": 170.5282
+        },
+        {
+          "id": "dune_2",
+          "text": "Otago Museum",
+          "detail": "Visit the comprehensive museum showcasing natural history, world cultures, and Pacific collections in a grand Victorian building in the heart of the city.",
+          "lat": -45.8705,
+          "lng": 170.5131
+        },
+        {
+          "id": "dune_3",
+          "text": "Yellow-eyed Penguin Colony",
+          "detail": "Witness the world's rarest penguin species in their natural habitat on the Otago Peninsula at sunset, a unique wildlife experience found nowhere else.",
+          "lat": -45.8356,
+          "lng": 170.7406
+        },
+        {
+          "id": "dune_4",
+          "text": "Olveston Historic Home",
+          "detail": "Tour this Edwardian mansion frozen in time with its original furnishings, art collection, and intimate glimpse into early 20th-century Dunedin life.",
+          "lat": -45.8731,
+          "lng": 170.5019
+        },
+        {
+          "id": "dune_5",
+          "text": "Cadbury Chocolate Factory Tour",
+          "detail": "Discover the history and production of New Zealand's iconic chocolate brand with guided tours and tastings at the heritage factory.",
+          "lat": -45.8625,
+          "lng": 170.4631
+        },
+        {
+          "id": "dune_6",
+          "text": "Dunedin Public Art Gallery",
+          "detail": "Browse an impressive collection of contemporary and historical art in a beautiful 1880s building showcasing works from New Zealand and international artists.",
+          "lat": -45.8709,
+          "lng": 170.5152
+        },
+        {
+          "id": "dune_7",
+          "text": "Albatross Centre and Colony",
+          "detail": "Observe endangered royal albatrosses in their only mainland breeding colony in the world, located at Taiaroa Head on the Otago Peninsula.",
+          "lat": -45.8234,
+          "lng": 170.7293
+        }
+      ],
+      "food": [
+        {
+          "id": "dune_f1",
+          "text": "Whitebait Fritters",
+          "detail": "A seasonal delicacy of tiny transparent fish lightly battered and pan-fried, a regional specialty during spring months from September to November."
+        },
+        {
+          "id": "dune_f2",
+          "text": "Bluff Oysters",
+          "detail": "Premium oysters sourced from nearby Bluff, best enjoyed fresh and raw at local seafood restaurants during the autumn harvest season."
+        },
+        {
+          "id": "dune_f3",
+          "text": "Cheese Rolls from Countdown Supermarket",
+          "detail": "A beloved Dunedin institution—freshly baked rolls filled with melted cheese, iconic as a quick snack among locals and visitors alike."
+        },
+        {
+          "id": "dune_f4",
+          "text": "Hokey Pokey Ice Cream",
+          "detail": "New Zealand's favorite ice cream flavor featuring vanilla ice cream with honeycomb pieces, available at most local ice cream shops and dairy stores."
+        },
+        {
+          "id": "dune_f5",
+          "text": "Paua Ceviche",
+          "detail": "Fresh abalone (paua) served as ceviche, showcasing local seafood with citrus preparation at fine dining establishments in the city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dune_c1",
+          "text": "University Town Atmosphere",
+          "detail": "Dunedin has a youthful, creative energy due to the University of Otago; expect lively bars, student-friendly cafes, and regular cultural events throughout the year."
+        },
+        {
+          "id": "dune_c2",
+          "text": "Scottish Heritage",
+          "detail": "The city was founded by Scottish settlers, reflected in street names, architecture, and the prevalence of Scottish heritage; locals often reference 'the Edinburgh of the South.'"
+        },
+        {
+          "id": "dune_c3",
+          "text": "Weather and Layered Clothing",
+          "detail": "Dunedin's southern location means unpredictable weather with rapid changes; locals recommend wearing layers even in summer and being prepared for wind and rain."
+        },
+        {
+          "id": "dune_c4",
+          "text": "Respect for Wildlife",
+          "detail": "The region is home to unique endangered species; visitors are expected to observe strict wildlife viewing guidelines and maintain distance from penguins and albatrosses."
+        }
+      ]
+    },
+    {
+      "id": "otago_peninsula",
+      "name": "Otago Peninsula",
+      "nameIt": "Ōtākou",
+      "lat": -45.75,
+      "lng": 170.65,
+      "type": "COASTAL",
+      "description": "A scenic peninsula extending from Dunedin featuring dramatic cliffs, pristine beaches, and unique wildlife viewing opportunities. This is the only mainland home to yellow-eyed penguins and a crucial nesting site for royal albatrosses.",
+      "imageQueries": [
+        "Otago Peninsula yellow-eyed penguins",
+        "Otago Peninsula albatross"
+      ],
+      "activities": [
+        {
+          "id": "otag_1",
+          "text": "Yellow-eyed Penguin Viewing",
+          "detail": "Watch endangered hoiho (yellow-eyed penguins) return to shore at dusk from dedicated viewing areas near Roaring Bay or Pilots Beach.",
+          "lat": -45.6411,
+          "lng": 170.5589
+        },
+        {
+          "id": "otag_2",
+          "text": "Royal Albatross Centre",
+          "detail": "Visit the world's only mainland royal albatross colony and observe these massive seabirds from an underground hide at Taiaroa Head.",
+          "lat": -45.6353,
+          "lng": 170.5738
+        },
+        {
+          "id": "otag_3",
+          "text": "Tunnel Beach Walk",
+          "detail": "Hike through a hand-carved 1870s tunnel to reach a secluded golden beach surrounded by dramatic sandstone cliffs.",
+          "lat": -45.6289,
+          "lng": 170.5167
+        },
+        {
+          "id": "otag_4",
+          "text": "Larnach Castle Tour",
+          "detail": "Explore this 1887 Victorian mansion perched on the peninsula with period rooms, gardens, and panoramic coastal views.",
+          "lat": -45.6497,
+          "lng": 170.5447
+        },
+        {
+          "id": "otag_5",
+          "text": "Seal Point Wildlife Viewing",
+          "detail": "Spot New Zealand fur seals and sea lions basking on rocky outcrops along the eastern cliffs of the peninsula.",
+          "lat": -45.6428,
+          "lng": 170.5823
+        },
+        {
+          "id": "otag_6",
+          "text": "Sandfly Bay Beach Walk",
+          "detail": "Walk along a crescent beach where fur seals haul out and enjoy views of Dunedin city across the water.",
+          "lat": -45.6422,
+          "lng": 170.5263
+        },
+        {
+          "id": "otag_7",
+          "text": "Murihiku Headland Trail",
+          "detail": "Trek through tussock grassland and coastal scrub on the peninsula's southernmost point for rugged ocean vistas.",
+          "lat": -45.6463,
+          "lng": 170.5617
+        }
+      ],
+      "food": [
+        {
+          "id": "otag_f1",
+          "text": "Fresh Blue Cod",
+          "detail": "Sample locally caught blue cod prepared grilled or pan-fried at peninsula cafes and restaurants, showcasing Otago's seafood heritage."
+        },
+        {
+          "id": "otag_f2",
+          "text": "Otago Crayfish (Kōura)",
+          "detail": "Enjoy fresh crayfish caught from local waters, typically served simply grilled or in seafood platters at coastal dining venues."
+        },
+        {
+          "id": "otag_f3",
+          "text": "Dunedin-Style Whitebait Fritters",
+          "detail": "Try crispy fritters made with tiny whitebait, a seasonal delicacy (September–November) found in local restaurants and cafes."
+        },
+        {
+          "id": "otag_f4",
+          "text": "Coastal Oysters",
+          "detail": "Taste fresh oysters from nearby Otago Harbour waters served raw or kilpatrick-style at waterfront establishments."
+        },
+        {
+          "id": "otag_f5",
+          "text": "Mutton Bird (Titi) Pie",
+          "detail": "Sample this traditional Māori and local specialty—game pie filled with salted muttonbird meat, reflecting Otago's cultural heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "otag_c1",
+          "text": "Penguin Viewing Etiquette",
+          "detail": "Keep at least 10 metres from penguins and remain quiet at dusk viewings; these endangered birds are sensitive to disturbance during nesting season."
+        },
+        {
+          "id": "otag_c2",
+          "text": "Respect Māori Heritage",
+          "detail": "The peninsula is Ōtākou in te reo Māori and holds significance to Kāi Tahu; acknowledge this indigenous connection and consider visiting Ōtākou Marae when respectfully invited."
+        },
+        {
+          "id": "otag_c3",
+          "text": "Plan for Changeable Weather",
+          "detail": "Bring waterproof layers and be prepared for sudden wind and rain; the exposed peninsula's weather shifts rapidly throughout the day."
+        },
+        {
+          "id": "otag_c4",
+          "text": "Book Wildlife Tours in Advance",
+          "detail": "Popular penguin and albatross viewing experiences fill quickly, especially in summer and during peak tourist seasons, so reserve ahead."
+        }
+      ]
+    },
+    {
+      "id": "nugget_point",
+      "name": "Nugget Point",
+      "nameIt": "Tokatā",
+      "lat": -46.4183,
+      "lng": 169.8322,
+      "type": "LANDMARK",
+      "description": "A dramatic headland featuring a iconic striped lighthouse surrounded by golden rocky outcrops called 'nuggets' that rise from the sea. The scenic walking track and panoramic views make it one of Otago's most photographed natural landmarks.",
+      "imageQueries": [
+        "Nugget Point lighthouse",
+        "Nugget Point Tokatā rocks"
+      ],
+      "activities": [
+        {
+          "id": "nugg_1",
+          "text": "Nugget Point Lighthouse Walk",
+          "detail": "A scenic 1.8 km return walk along the clifftop to the iconic striped lighthouse, offering panoramic views of the golden rock formations and surrounding coastline.",
+          "lat": -46.4197,
+          "lng": 169.8469
+        },
+        {
+          "id": "nugg_2",
+          "text": "Golden Nuggets Viewing",
+          "detail": "Observe the distinctive sea stacks and rocky outcrops rising from the ocean that give Nugget Point its name, best viewed from the lighthouse platform at sunset.",
+          "lat": -46.4205,
+          "lng": 169.848
+        },
+        {
+          "id": "nugg_3",
+          "text": "Seal and Sea Lion Spotting",
+          "detail": "Watch for New Zealand fur seals and occasional Steller sea lions hauled out on the rocks below the headland, particularly in the mornings.",
+          "lat": -46.42,
+          "lng": 169.8475
+        },
+        {
+          "id": "nugg_4",
+          "text": "Seabird Photography",
+          "detail": "Photograph yellow-eyed penguins, little blue penguins, and various albatross and petrel species that frequent the cliffs and surrounding waters.",
+          "lat": -46.4203,
+          "lng": 169.8472
+        },
+        {
+          "id": "nugg_5",
+          "text": "Clifftop Picnicking",
+          "detail": "Pack a meal and enjoy lunch with uninterrupted ocean views while watching the waves crash against the dramatic rocky coastline.",
+          "lat": -46.4197,
+          "lng": 169.8469
+        },
+        {
+          "id": "nugg_6",
+          "text": "Storm Watching",
+          "detail": "Visit during rough seas to witness the raw power of the Southern Ocean as waves crash dramatically against the headland's exposed cliffs."
+        }
+      ],
+      "food": [
+        {
+          "id": "nugg_f1",
+          "text": "Fresh Crayfish (Koura)",
+          "detail": "Sample locally caught crayfish at nearby Kaka Point or Owaka, prepared simply grilled or in seafood platters that showcase the Otago coast's bounty."
+        },
+        {
+          "id": "nugg_f2",
+          "text": "Blue Cod and Flatfish",
+          "detail": "Try the region's signature white fish species at local cafés and restaurants, often prepared pan-fried with butter and lemon to highlight their delicate flavor."
+        },
+        {
+          "id": "nugg_f3",
+          "text": "Bluff Oysters (Seasonal)",
+          "detail": "During oyster season (March to August), enjoy these premium bivalves from nearby Bluff, considered some of New Zealand's finest."
+        },
+        {
+          "id": "nugg_f4",
+          "text": "Venison and Game Meat",
+          "detail": "Order venison, wild boar, or rabbit dishes at local eateries, reflecting the Otago region's strong hunting and farming heritage."
+        },
+        {
+          "id": "nugg_f5",
+          "text": "Otago Wine Pairing",
+          "detail": "Pair coastal meals with Pinot Noir or Sauvignon Blanc from Central Otago wineries, located inland but widely available at local establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nugg_c1",
+          "text": "Māori Significance of Tokatā",
+          "detail": "Respect that Nugget Point is known as Tokatā in Te Reo Māori, reflecting the Kāti Māmoe and Ngāi Tahu cultural connection to this taonga (treasure)."
+        },
+        {
+          "id": "nugg_c2",
+          "text": "Respect Nesting Seabirds and Seals",
+          "detail": "Keep a safe distance from wildlife, especially during breeding seasons, and stay on marked tracks to protect vulnerable penguin and seal populations."
+        },
+        {
+          "id": "nugg_c3",
+          "text": "Unpredictable Weather Preparedness",
+          "detail": "The headland is exposed to Southern Ocean conditions; bring windproof jackets and check forecasts as weather can change rapidly within minutes."
+        },
+        {
+          "id": "nugg_c4",
+          "text": "Early Morning Wildlife Viewing",
+          "detail": "Visit at dawn for the best chance to observe yellow-eyed penguins returning from overnight feeding and seals before the area becomes busy with tourists."
+        }
+      ]
+    },
+    {
+      "id": "matai_bay",
+      "name": "Matai Bay",
+      "nameIt": "Matai",
+      "lat": -46.6008,
+      "lng": 169.6658,
+      "type": "COASTAL",
+      "description": "A remote and sheltered golden sand beach backed by high cliffs, accessible via a scenic coastal walk from Kaka Point. It's a spectacular and less-crowded alternative to more developed beaches, perfect for swimming and picnicking.",
+      "imageQueries": [
+        "Matai Bay beach Otago",
+        "Matai Bay golden sand cliffs"
+      ],
+      "activities": [
+        {
+          "id": "mata_1",
+          "text": "Kaka Point Coastal Walk",
+          "detail": "Hike the scenic 4 km trail from Kaka Point through native bush and along dramatic cliffs to reach Matai Bay's golden sand.",
+          "lat": -46.4158,
+          "lng": 170.3942
+        },
+        {
+          "id": "mata_2",
+          "text": "Swimming and Wading",
+          "detail": "Enjoy safe swimming in the sheltered bay's clear waters, ideal during summer months when conditions are calmest."
+        },
+        {
+          "id": "mata_3",
+          "text": "Picnicking on the Beach",
+          "detail": "Pack supplies and relax on the wide sandy beach with fresh sea views and natural shelter from the high surrounding cliffs."
+        },
+        {
+          "id": "mata_4",
+          "text": "Rock Pool Exploration",
+          "detail": "Investigate tidal rock pools near the base of the cliffs to spot starfish, anemones, and small fish during low tide."
+        },
+        {
+          "id": "mata_5",
+          "text": "Photography and Sketching",
+          "detail": "Capture the dramatic coastal landscape, golden sands, and cliff formations that make Matai Bay a photographer's favorite spot."
+        },
+        {
+          "id": "mata_6",
+          "text": "Birdwatching",
+          "detail": "Observe native seabirds including cormorants, oystercatchers, and terns that frequent the cliff faces and bay waters."
+        }
+      ],
+      "food": [
+        {
+          "id": "mata_f1",
+          "text": "Fresh Crayfish",
+          "detail": "Purchase locally caught crayfish from nearby Kaka Point suppliers and enjoy them freshly cooked over a beach fire."
+        },
+        {
+          "id": "mata_f2",
+          "text": "Whitebait Fritters",
+          "detail": "Try seasonal whitebait fritters, a traditional Otago delicacy, available at local shops in nearby Balclutha or Kaka Point."
+        },
+        {
+          "id": "mata_f3",
+          "text": "Smoked Fish",
+          "detail": "Sample locally smoked fish from Otago suppliers, a regional specialty that pairs perfectly with a beachside picnic."
+        },
+        {
+          "id": "mata_f4",
+          "text": "Green-Lipped Mussels",
+          "detail": "Seek out fresh mussels from southern New Zealand waters, often available fresh or prepared at nearby coastal establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mata_c1",
+          "text": "Tide Awareness",
+          "detail": "Check tide times before visiting as the beach's character changes dramatically and the walk can be affected by high tides."
+        },
+        {
+          "id": "mata_c2",
+          "text": "Leave No Trace Ethics",
+          "detail": "Pack out all rubbish and respect the remote, pristine nature of the bay by minimizing impact on this less-developed beach."
+        },
+        {
+          "id": "mata_c3",
+          "text": "Weather Preparedness",
+          "detail": "Be prepared for sudden weather changes and strong coastal winds; the exposed bay can shift from calm to challenging quickly."
+        }
+      ]
+    },
+    {
+      "id": "moeraki_boulders",
+      "name": "Moeraki Boulders",
+      "nameIt": "Moeraki",
+      "lat": -45.3483,
+      "lng": 170.8283,
+      "type": "LANDMARK",
+      "description": "A stunning geological formation of massive spherical boulders scattered along a golden beach, formed over millions of years through natural erosion. These iconic rocks are among New Zealand's most distinctive natural features and ideal for sunset photography.",
+      "imageQueries": [
+        "Moeraki Boulders beach",
+        "Moeraki Boulders sunset"
+      ],
+      "activities": [
+        {
+          "id": "moer_1",
+          "text": "Boulder Photography at Sunset",
+          "detail": "Capture the iconic spherical rocks glowing golden during the magic hour, when soft light dramatically highlights their weathered surfaces and casts long shadows across the sand.",
+          "lat": -45.3447,
+          "lng": 170.9281
+        },
+        {
+          "id": "moer_2",
+          "text": "Low Tide Beach Exploration",
+          "detail": "Walk among the boulders at low tide to discover tidal pools, sea creatures, and the intricate layers of sediment visible on the boulder bases.",
+          "lat": -45.3447,
+          "lng": 170.9281
+        },
+        {
+          "id": "moer_3",
+          "text": "Coastal Walk to Shag Point",
+          "detail": "Hike the scenic 3km coastal trail from Moeraki Boulders northward to Shag Point, a dramatic headland with nesting shags and expansive ocean views.",
+          "lat": -45.3382,
+          "lng": 170.9312
+        },
+        {
+          "id": "moer_4",
+          "text": "Boulder Formation Geology Tour",
+          "detail": "Learn how these 60-million-year-old concretions formed through calcite cementation at a visitor centre or with a local guide explaining the unique erosion process.",
+          "lat": -45.3447,
+          "lng": 170.9281
+        },
+        {
+          "id": "moer_5",
+          "text": "Sunrise Beach Visit",
+          "detail": "Arrive before dawn to experience the boulders in soft morning light with fewer crowds, ideal for contemplative walks and alternative photography angles.",
+          "lat": -45.3447,
+          "lng": 170.9281
+        },
+        {
+          "id": "moer_6",
+          "text": "Picnic on the Golden Sand",
+          "detail": "Pack local cheese and fresh bread to enjoy a seaside meal with the dramatic boulders as your backdrop while listening to the Tasman Sea.",
+          "lat": -45.3447,
+          "lng": 170.9281
+        }
+      ],
+      "food": [
+        {
+          "id": "moer_f1",
+          "text": "Freshly Caught Crayfish (Rock Lobster)",
+          "detail": "Sample locally caught crayfish at nearby Oamaru restaurants, typically grilled simply to highlight the sweet, delicate meat from the Southern Ocean."
+        },
+        {
+          "id": "moer_f2",
+          "text": "Otago Gold Oysters",
+          "detail": "Taste these distinctive Pacific oysters farmed in Otago waters, known for their briny minerality and available fresh at local seafood spots near Moeraki."
+        },
+        {
+          "id": "moer_f3",
+          "text": "Whitebait Fritter",
+          "detail": "Enjoy this Otago delicacy of tiny whitebait bound in batter and pan-fried, traditionally served as a light summer dish along the South Island coast."
+        },
+        {
+          "id": "moer_f4",
+          "text": "Lamb from Otago Stations",
+          "detail": "Dine on premium grass-fed lamb raised on the surrounding Otago farmland, often prepared simply to showcase the meat's distinctive flavour."
+        },
+        {
+          "id": "moer_f5",
+          "text": "Bluff Oyster Seasonal Tasting",
+          "detail": "Between March and August, seek out premium Bluff oysters at local restaurants, considered New Zealand's finest with a unique briney character."
+        },
+        {
+          "id": "moer_f6",
+          "text": "Fish and Chips from Local Takeaways",
+          "detail": "Grab fresh snapper or blue cod coated in crispy batter from Oamaru takeaways, perfect eaten on the beach while watching the waves around the boulders."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moer_c1",
+          "text": "Respect Low Tide Timing",
+          "detail": "Plan visits around low tide charts (freely available online) to safely access the boulder formations and tidal zones without risk from incoming waves."
+        },
+        {
+          "id": "moer_c2",
+          "text": "Leave No Trace Ethics",
+          "detail": "The boulders are fragile geological formations; visitors should not climb on them, remove samples, or carve initials, respecting both the site and Māori cultural significance."
+        },
+        {
+          "id": "moer_c3",
+          "text": "Māori Heritage Recognition",
+          "detail": "The area holds significance to local iwi (Māori tribes); acknowledge this by learning the Māori names and stories of the landscape before visiting."
+        },
+        {
+          "id": "moer_c4",
+          "text": "Weather Preparedness",
+          "detail": "The Otago coast is exposed to sudden weather changes and strong winds; bring layers and check forecasts, as conditions can shift rapidly throughout the day."
+        }
+      ]
+    },
+    {
+      "id": "oamaru",
+      "name": "Oamaru",
+      "nameIt": "Ōamaru",
+      "lat": -45.0988,
+      "lng": 170.9683,
+      "type": "TOWN",
+      "description": "A charming Victorian-era coastal town featuring beautifully preserved limestone buildings, a historic harbor, and vibrant local galleries and museums. Oamaru is also the gateway to the nearby penguin colonies and offers excellent local craft breweries and restaurants.",
+      "imageQueries": [
+        "Oamaru Victorian limestone buildings",
+        "Oamaru harbor waterfront"
+      ],
+      "activities": [
+        {
+          "id": "oama_1",
+          "text": "Yellow-eyed Penguin Colony Visit",
+          "detail": "Watch the endangered hoiho (yellow-eyed penguins) return to shore at dusk from the specially designed viewing hide at Oamaru Point.",
+          "lat": -45.0955,
+          "lng": 170.9689
+        },
+        {
+          "id": "oama_2",
+          "text": "Victorian Precinct Walk",
+          "detail": "Stroll through the beautifully restored Victorian and Edwardian limestone buildings lining Thames Street and Severn Street.",
+          "lat": -45.0983,
+          "lng": 170.9706
+        },
+        {
+          "id": "oama_3",
+          "text": "Oamaru Port Heritage",
+          "detail": "Explore the working historic harbor with its Victorian-era stone buildings and learn about the town's maritime wool and livestock trading past.",
+          "lat": -45.1004,
+          "lng": 170.9745
+        },
+        {
+          "id": "oama_4",
+          "text": "Steampunk HQ",
+          "detail": "Visit this quirky museum and workshop filled with elaborate mechanical sculptures and Victorian-steampunk art installations.",
+          "lat": -45.1006,
+          "lng": 170.9707
+        },
+        {
+          "id": "oama_5",
+          "text": "Local Art Galleries",
+          "detail": "Browse independent galleries showcasing contemporary New Zealand art, crafts, and photography throughout the Victorian Precinct.",
+          "lat": -45.0988,
+          "lng": 170.971
+        },
+        {
+          "id": "oama_6",
+          "text": "Craft Brewery Tour",
+          "detail": "Sample locally brewed beers at breweries like Craftwork Brewing or Weston Distillery, which celebrate Oamaru's growing craft beverage scene.",
+          "lat": -45.0975,
+          "lng": 170.968
+        },
+        {
+          "id": "oama_7",
+          "text": "Moeraki Boulders Day Trip",
+          "detail": "Drive 40 minutes south to see the enormous naturally occurring spherical rock formations on the beach, particularly stunning at sunrise or sunset.",
+          "lat": -45.3503,
+          "lng": 170.8193
+        }
+      ],
+      "food": [
+        {
+          "id": "oama_f1",
+          "text": "Fresh Whitebait Fritters",
+          "detail": "Order this seasonal delicacy (March-April and August-September) at local restaurants, featuring delicate whitebait bound in a light batter."
+        },
+        {
+          "id": "oama_f2",
+          "text": "Oamaru Lamb Dishes",
+          "detail": "Sample locally raised lamb prepared at fine dining restaurants, reflecting the region's strong pastoral farming heritage."
+        },
+        {
+          "id": "oama_f3",
+          "text": "Craft Beer and Local Seafood Pairing",
+          "detail": "Experience Oamaru's craft beverages paired with fresh local catch like blue cod and crayfish at harbor-side restaurants."
+        },
+        {
+          "id": "oama_f4",
+          "text": "Stone Oven Sourdough",
+          "detail": "Find artisanal sourdough bread baked in traditional stone ovens at local bakeries and cafes throughout the Victorian Precinct."
+        },
+        {
+          "id": "oama_f5",
+          "text": "Otago Green-Lipped Mussel Platter",
+          "detail": "Enjoy these prized New Zealand mussels prepared steamed, grilled, or in marinara at seafood-focused establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "oama_c1",
+          "text": "Penguin Viewing Etiquette",
+          "detail": "Arrive at penguin colonies well before dusk, keep noise minimal, and never use flash photography to protect the sensitive birds during their vulnerable return to shore."
+        },
+        {
+          "id": "oama_c2",
+          "text": "Heritage Preservation Pride",
+          "detail": "Oamaru residents take great pride in their Victorian architecture; many locals are happy to discuss restoration efforts and the town's conservation initiatives."
+        },
+        {
+          "id": "oama_c3",
+          "text": "Summer Festival Season",
+          "detail": "Plan visits around events like the Oamaru Victorian Heritage Celebrations (November) and Steampunk Festival to experience the town's vibrant community spirit."
+        },
+        {
+          "id": "oama_c4",
+          "text": "Local Shopping Support",
+          "detail": "Many travelers make a point to purchase from independent local galleries, bookshops, and breweries rather than chains to support Oamaru's thriving small-business community."
+        }
+      ]
+    },
+    {
+      "id": "oamaru_penguins",
+      "name": "Oamaru Penguin Colony",
+      "nameIt": "Oamaru",
+      "lat": -45.1083,
+      "lng": 170.9833,
+      "type": "NATURE",
+      "description": "A public penguin viewing site where blue penguins return to shore at dusk each evening, providing a unique and accessible wildlife experience. This is one of the few places in New Zealand where you can reliably see penguins in their natural habitat without traveling to remote areas.",
+      "imageQueries": [
+        "Oamaru blue penguins dusk",
+        "Oamaru penguin colony"
+      ],
+      "activities": [
+        {
+          "id": "oama_1",
+          "text": "Blue Penguin Dusk Viewing",
+          "detail": "Watch little blue penguins return to shore at sunset from designated viewing platforms, the main attraction of the colony.",
+          "lat": -45.0955,
+          "lng": 170.9629
+        },
+        {
+          "id": "oama_2",
+          "text": "Historic Stone Creek Quarry Exploration",
+          "detail": "Walk through the restored quarry ruins in the grounds, which showcase Oamaru's limestone heritage and provide context to the area's industrial past."
+        },
+        {
+          "id": "oama_3",
+          "text": "Penguin Colony Night Tour",
+          "detail": "Join a guided evening tour with expert naturalists who explain penguin behaviour, breeding cycles, and conservation efforts as birds arrive."
+        },
+        {
+          "id": "oama_4",
+          "text": "Yellow-eyed Penguin Spotting",
+          "detail": "Visit the adjacent yellow-eyed penguin nesting area to potentially see this rarer, larger species alongside the blue penguins."
+        },
+        {
+          "id": "oama_5",
+          "text": "Oamaru Waterfront Walk",
+          "detail": "Stroll the scenic coastal promenade connecting the penguin colony to Victorian-era buildings and the Oamaru Harbour."
+        },
+        {
+          "id": "oama_6",
+          "text": "Photography Workshops",
+          "detail": "Participate in guided photography sessions during penguin return times to capture the wildlife with professional tips on lighting and composition."
+        }
+      ],
+      "food": [
+        {
+          "id": "oama_f1",
+          "text": "Whitebait Fritter",
+          "detail": "A traditional South Island delicacy featuring tiny freshwater fish lightly battered and fried, available at local cafes near the waterfront."
+        },
+        {
+          "id": "oama_f2",
+          "text": "Central Otago Wine Tasting",
+          "detail": "Sample Pinot Noir and Sauvignon Blanc from the nearby Central Otago wine region at local tasting rooms in Oamaru's Victorian precinct."
+        },
+        {
+          "id": "oama_f3",
+          "text": "Fresh Crayfish (Koura)",
+          "detail": "Enjoy locally caught rock lobster prepared simply grilled or in seafood platters at waterfront restaurants."
+        },
+        {
+          "id": "oama_f4",
+          "text": "Lamington Cake",
+          "detail": "Try this classic New Zealand sponge cake coated in chocolate and coconut, a popular treat at local bakeries and tearooms."
+        },
+        {
+          "id": "oama_f5",
+          "text": "Fish and Chips from Local Vendors",
+          "detail": "Grab freshly battered fish caught from nearby waters, a casual seaside tradition best enjoyed near the harbour."
+        }
+      ],
+      "culture": [
+        {
+          "id": "oama_c1",
+          "text": "Arrive Early for Best Viewing Spots",
+          "detail": "Penguin return times vary with season and daylight; arrive at least 30–45 minutes before dusk and check with staff for precise timing."
+        },
+        {
+          "id": "oama_c2",
+          "text": "Respect Penguin Distance and Silence",
+          "detail": "Stay behind barriers, keep noise minimal, and avoid flash photography to prevent startling the birds during their vulnerable shore return."
+        },
+        {
+          "id": "oama_c3",
+          "text": "Combine with Victorian Precinct Exploration",
+          "detail": "The penguin colony sits within Oamaru's historic limestone district; plan to explore galleries, antique shops, and cafes in the Victorian quarter after viewing."
+        },
+        {
+          "id": "oama_c4",
+          "text": "Check Tide and Weather Conditions",
+          "detail": "Penguin behaviour and visibility are influenced by tides and weather; local guides provide daily updates on optimal viewing conditions."
+        }
+      ]
+    },
+    {
+      "id": "larnach_castle",
+      "name": "Larnach Castle",
+      "nameIt": "Larnach",
+      "lat": -45.8333,
+      "lng": 170.6167,
+      "type": "LANDMARK",
+      "description": "A Victorian-era mansion perched on the Otago Peninsula offering panoramic views over Dunedin, the peninsula, and the Pacific Ocean. The castle features beautiful gardens and period interiors, providing insights into Otago's colonial heritage.",
+      "imageQueries": [
+        "Larnach Castle Otago Peninsula",
+        "Larnach Castle views"
+      ],
+      "activities": [
+        {
+          "id": "larn_1",
+          "text": "Explore the Castle Interiors",
+          "detail": "Tour the ornately decorated Victorian rooms, including the drawing room, dining room, and bedrooms that showcase period furnishings and Otago colonial life from the 1880s onwards.",
+          "lat": -45.8456,
+          "lng": 170.5278
+        },
+        {
+          "id": "larn_2",
+          "text": "Wander the Historic Gardens",
+          "detail": "Stroll through the castle's manicured gardens featuring native plants, heritage trees, and elevated vantage points offering views across the Otago Peninsula.",
+          "lat": -45.8456,
+          "lng": 170.5278
+        },
+        {
+          "id": "larn_3",
+          "text": "Panoramic Peninsula Views",
+          "detail": "Experience sweeping vistas of Dunedin city, the Otago Harbour, and the Pacific Ocean from the castle's elevated terraces and viewing areas.",
+          "lat": -45.8456,
+          "lng": 170.5278
+        },
+        {
+          "id": "larn_4",
+          "text": "Visit Larnach Castle Museum",
+          "detail": "View period artifacts, photographs, and displays detailing the castle's construction by wealthy merchant William Larnach and the region's colonial history.",
+          "lat": -45.8456,
+          "lng": 170.5278
+        },
+        {
+          "id": "larn_5",
+          "text": "Otago Peninsula Drive",
+          "detail": "Drive the scenic route to reach the castle, stopping at scenic lookouts and exploring other peninsula attractions including Taiaroa Head and Albatross Colony.",
+          "lat": -45.85,
+          "lng": 170.54
+        },
+        {
+          "id": "larn_6",
+          "text": "Photography Sessions",
+          "detail": "Capture stunning photographs of the castle architecture against landscape backdrops and panoramic coastal views that make the location a photographer's destination.",
+          "lat": -45.8456,
+          "lng": 170.5278
+        }
+      ],
+      "food": [
+        {
+          "id": "larn_f1",
+          "text": "Whitebait Fritters",
+          "detail": "A popular Otago delicacy featuring tiny freshwater fish bound in batter and pan-fried, traditionally eaten during the spring whitebait season."
+        },
+        {
+          "id": "larn_f2",
+          "text": "Mutton Bird (Titi)",
+          "detail": "A traditional Māori and local specialty featuring preserved seabird meat that represents Otago's indigenous food heritage and hunting traditions."
+        },
+        {
+          "id": "larn_f3",
+          "text": "Fresh Crayfish",
+          "detail": "Locally caught rock lobster available at Dunedin restaurants near the castle, showcasing the region's abundant coastal seafood resources."
+        },
+        {
+          "id": "larn_f4",
+          "text": "Central Otago Wine",
+          "detail": "Sample Pinot Noir and other wines from nearby Central Otago vineyards, a renowned wine region accessible from the peninsula."
+        },
+        {
+          "id": "larn_f5",
+          "text": "Scottish Shortbread and Tea",
+          "detail": "Enjoy traditional Scottish-influenced baked goods and afternoon tea service reflecting the castle's Victorian heritage and Scottish architectural influences."
+        }
+      ],
+      "culture": [
+        {
+          "id": "larn_c1",
+          "text": "Respect Māori Heritage",
+          "detail": "The Otago Peninsula holds significant Māori cultural and spiritual importance; be respectful of sacred sites and learn about Kāi Tahu iwi connections to the region."
+        },
+        {
+          "id": "larn_c2",
+          "text": "Dress for Coastal Weather",
+          "detail": "The Otago Peninsula's exposed location means weather changes rapidly; bring layers and windproof clothing even on seemingly fine days."
+        },
+        {
+          "id": "larn_c3",
+          "text": "Book Ahead During Peak Season",
+          "detail": "Summer months (December to February) and school holidays draw large visitor numbers, so advance bookings ensure better access to guided tours and accommodations."
+        },
+        {
+          "id": "larn_c4",
+          "text": "Allow Full Day for Visit",
+          "detail": "Plan at least three to four hours at Larnach Castle to properly explore interiors, gardens, and panoramic viewpoints without rushing through the experience."
+        }
+      ]
+    },
+    {
+      "id": "tunnel_beach",
+      "name": "Tunnel Beach",
+      "nameIt": "Tunnel Beach",
+      "lat": -45.9133,
+      "lng": 170.4617,
+      "type": "COASTAL",
+      "description": "A secluded beach accessible via a dramatic tunnel carved through a cliff, offering a unique coastal experience just 15 minutes from Dunedin. The cave-like entrance and golden sand nestled between high cliffs make it a distinctive and memorable spot.",
+      "imageQueries": [
+        "Tunnel Beach Dunedin",
+        "Tunnel Beach cave entrance"
+      ],
+      "activities": [
+        {
+          "id": "tunn_1",
+          "text": "Walk through the historic tunnel",
+          "detail": "Navigate the 180-meter carved tunnel that was hand-excavated in the 1870s, emerging onto the secluded beach with dramatic cliff formations on either side.",
+          "lat": -45.9167,
+          "lng": 170.5333
+        },
+        {
+          "id": "tunn_2",
+          "text": "Explore the golden sand beach",
+          "detail": "Stroll along the crescent of pristine sand nestled between towering cliffs, ideal for photography and quiet contemplation.",
+          "lat": -45.9167,
+          "lng": 170.5333
+        },
+        {
+          "id": "tunn_3",
+          "text": "Photograph the cliff formations",
+          "detail": "Capture the distinctive vertical rock faces and natural archways that frame the beach, particularly stunning during golden hour.",
+          "lat": -45.9167,
+          "lng": 170.5333
+        },
+        {
+          "id": "tunn_4",
+          "text": "Search for marine wildlife",
+          "detail": "Watch for little blue penguins, seals, and seabirds that inhabit the coastal cliffs and rock pools around the beach."
+        },
+        {
+          "id": "tunn_5",
+          "text": "Visit nearby Blackhead Peninsula",
+          "detail": "Extend your coastal experience with a short walk to the adjacent headland for panoramic ocean views and additional walking trails.",
+          "lat": -45.9183,
+          "lng": 170.5358
+        },
+        {
+          "id": "tunn_6",
+          "text": "Picnic on the beach",
+          "detail": "Pack supplies from Dunedin and enjoy a meal in this secluded setting, sheltered by the cliffs from coastal winds."
+        }
+      ],
+      "food": [
+        {
+          "id": "tunn_f1",
+          "text": "Fresh Otago blue cod",
+          "detail": "Sample locally caught blue cod prepared simply at Dunedin fish and chip shops just 15 minutes away, showcasing the region's seafood heritage."
+        },
+        {
+          "id": "tunn_f2",
+          "text": "Whitebait fritters",
+          "detail": "Try this Southland delicacy available at Dunedin restaurants, featuring tiny freshwater fish caught in local rivers and pan-fried with egg and flour."
+        },
+        {
+          "id": "tunn_f3",
+          "text": "Speight's ale",
+          "detail": "Enjoy this iconic Dunedin-brewed beer at local pubs before or after your beach visit, a staple of Otago's brewing tradition since 1876."
+        },
+        {
+          "id": "tunn_f4",
+          "text": "Crayfish from local catches",
+          "detail": "Purchase fresh crayfish from Dunedin fishmongers to cook at your accommodation, celebrating the region's rock lobster fishing industry."
+        },
+        {
+          "id": "tunn_f5",
+          "text": "L&P lemonade",
+          "detail": "Refresh with this distinctly New Zealand lemon and lime soft drink, widely available at local shops and iconic to the country's beverage culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tunn_c1",
+          "text": "Respect tide times and weather",
+          "detail": "Always check local conditions before visiting, as high tides can make the beach inaccessible and rough seas pose safety risks in this exposed location."
+        },
+        {
+          "id": "tunn_c2",
+          "text": "Honor the historic tunnel construction",
+          "detail": "The tunnel represents significant Victorian-era engineering effort; move respectfully through it and avoid vandalism to preserve this 150-year-old landmark."
+        },
+        {
+          "id": "tunn_c3",
+          "text": "Protect native wildlife",
+          "detail": "Maintain distance from little blue penguins and seals you may encounter, as they are protected species sensitive to human disturbance during breeding seasons."
+        },
+        {
+          "id": "tunn_c4",
+          "text": "Leave no trace",
+          "detail": "Pack out all rubbish and avoid removing shells or rocks, respecting the pristine natural environment that makes this beach special for future visitors."
+        }
+      ]
+    },
+    {
+      "id": "rangitatau_point",
+      "name": "Rangitātau Point",
+      "nameIt": "Rangitātau",
+      "lat": -45.825,
+      "lng": 170.5833,
+      "type": "NATURE",
+      "description": "A scenic coastal headland on the Otago Peninsula featuring seal colonies, dramatic cliffs, and excellent opportunities for observing native wildlife in their natural habitat. The windswept landscape and abundant marine life make it a rewarding destination for nature enthusiasts.",
+      "imageQueries": [
+        "Rangitātau Point seals Otago",
+        "Rangitātau Point cliffs"
+      ],
+      "activities": [
+        {
+          "id": "rang_1",
+          "text": "Seal Colony Viewing",
+          "detail": "Observe New Zealand fur seals in their natural habitat along the rocky shores, particularly during breeding season when numbers peak.",
+          "lat": -45.4725,
+          "lng": 170.5567
+        },
+        {
+          "id": "rang_2",
+          "text": "Cliff-Top Walking Track",
+          "detail": "Hike the windswept headland paths offering panoramic views of the Otago coastline and opportunity to spot seabirds including penguins.",
+          "lat": -45.472,
+          "lng": 170.556
+        },
+        {
+          "id": "rang_3",
+          "text": "Yellow-Eyed Penguin Spotting",
+          "detail": "Search for rare hoiho (yellow-eyed penguins) returning to shore at dusk, best observed from designated viewing areas respectfully from a distance."
+        },
+        {
+          "id": "rang_4",
+          "text": "Shag and Cormorant Observation",
+          "detail": "Watch colonies of red-billed and black shags nesting on the dramatic cliff faces throughout the year."
+        },
+        {
+          "id": "rang_5",
+          "text": "Marine Wildlife Photography",
+          "detail": "Capture striking images of seal pups, seabirds, and the rugged coastal landscape during optimal lighting conditions."
+        },
+        {
+          "id": "rang_6",
+          "text": "Geological Formation Study",
+          "detail": "Examine the distinctive layered basalt and volcanic rock formations that characterize the Otago Peninsula's dramatic coastal cliffs."
+        }
+      ],
+      "food": [
+        {
+          "id": "rang_f1",
+          "text": "Fresh Otago Seafood",
+          "detail": "Sample locally caught crayfish, pāua (abalone), and blue cod from nearby fishing communities in Portobello or Harington Point."
+        },
+        {
+          "id": "rang_f2",
+          "text": "Mutton Bird (Titi)",
+          "detail": "Try this traditional Māori delicacy, a seasonal game meat harvested sustainably, often prepared roasted or in traditional hangi style."
+        },
+        {
+          "id": "rang_f3",
+          "text": "Central Otago Wine Tasting",
+          "detail": "Visit nearby wineries on the peninsula to taste Pinot Noir and other regional wines while enjoying coastal views."
+        },
+        {
+          "id": "rang_f4",
+          "text": "Fish and Chips from Local Vendors",
+          "detail": "Enjoy freshly battered local fish wrapped in paper at casual seaside eateries in nearby settlements."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rang_c1",
+          "text": "Respect Wildlife Distance",
+          "detail": "Maintain at least 5 metres from seals and penguins to prevent stress to animals; use binoculars for closer observation without disturbance."
+        },
+        {
+          "id": "rang_c2",
+          "text": "Acknowledge Māori Heritage",
+          "detail": "Rangitātau holds significance in Māori culture; be respectful of cultural sites and consider learning about local iwi connection to the area."
+        },
+        {
+          "id": "rang_c3",
+          "text": "Check Weather and Tides",
+          "detail": "The peninsula experiences sudden weather changes and strong winds; always check conditions before visiting and be aware of tide times for safe cliff access."
+        },
+        {
+          "id": "rang_c4",
+          "text": "Support Conservation Efforts",
+          "detail": "Many species here are endangered; consider supporting local conservation projects like penguin and seal protection initiatives during your visit."
+        }
+      ]
+    },
+    {
+      "id": "janet_bay",
+      "name": "Janat's Bay",
+      "nameIt": "Janet's Bay",
+      "lat": -45.8583,
+      "lng": 170.6417,
+      "type": "COASTAL",
+      "description": "A peaceful sheltered beach on the Otago Peninsula known for its calm waters and pristine natural setting, ideal for swimming and relaxation. The bay's relatively quiet nature makes it perfect for those seeking a retreat away from busier tourist areas.",
+      "imageQueries": [
+        "Janet's Bay Otago Peninsula",
+        "Janet's Bay beach"
+      ],
+      "activities": [
+        {
+          "id": "jane_1",
+          "text": "Swimming and wading",
+          "detail": "The bay's sheltered waters and sandy bottom make it ideal for safe swimming and paddling year-round."
+        },
+        {
+          "id": "jane_2",
+          "text": "Picnicking on the beach",
+          "detail": "Pack supplies and enjoy a quiet meal with views across the calm waters and surrounding native vegetation."
+        },
+        {
+          "id": "jane_3",
+          "text": "Birdwatching",
+          "detail": "Spot native seabirds including dotterels, oystercatchers, and occasional penguins in their natural habitat around the bay."
+        },
+        {
+          "id": "jane_4",
+          "text": "Walking the Otago Peninsula track",
+          "detail": "Explore coastal trails connecting Janat's Bay to nearby beaches and headlands with views of the Otago landscape.",
+          "lat": -45.645,
+          "lng": 170.545
+        },
+        {
+          "id": "jane_5",
+          "text": "Photography",
+          "detail": "Capture the bay's serene beauty, native vegetation, and coastal geology in a relatively undisturbed natural setting."
+        },
+        {
+          "id": "jane_6",
+          "text": "Beachcombing",
+          "detail": "Search for shells, stones, and marine debris along the shoreline while enjoying solitude and natural scenery."
+        }
+      ],
+      "food": [
+        {
+          "id": "jane_f1",
+          "text": "Fresh Otago fish and chips",
+          "detail": "Source locally-caught fish from Dunedin fishmongers and enjoy traditional New Zealand-style takeaway at the beach."
+        },
+        {
+          "id": "jane_f2",
+          "text": "Smoked salmon from Otago waters",
+          "detail": "Sample locally-produced smoked salmon from regional producers available in nearby Dunedin shops and markets."
+        },
+        {
+          "id": "jane_f3",
+          "text": "Whitebait fritters",
+          "detail": "Try this seasonal Otago delicacy made with small native fish, typically available in spring at local restaurants and takeaways."
+        },
+        {
+          "id": "jane_f4",
+          "text": "Paua (abalone) where available",
+          "detail": "If purchased from licensed vendors, enjoy this prized New Zealand shellfish prepared simply to taste the local marine environment."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jane_c1",
+          "text": "Respect Māori heritage",
+          "detail": "The Otago Peninsula holds deep significance to Kāi Tahu iwi; be respectful of cultural sites and consider learning about local Māori history before visiting."
+        },
+        {
+          "id": "jane_c2",
+          "text": "Leave no trace",
+          "detail": "This quiet, pristine bay is protected precisely because of low visitor impact; remove all rubbish and stay on designated paths to preserve the environment."
+        },
+        {
+          "id": "jane_c3",
+          "text": "Check tide times and weather",
+          "detail": "Otago Peninsula weather can change rapidly; always check conditions and tide schedules before swimming or extended beach visits."
+        },
+        {
+          "id": "jane_c4",
+          "text": "Seek permission for remote spots",
+          "detail": "Some areas around Janat's Bay may be on private land; respect fencing and ask permission from local landowners before accessing inland trails."
+        }
+      ]
+    },
+    {
+      "id": "karitane",
+      "name": "Kāritāne",
+      "nameIt": "Kāritāne",
+      "lat": -45.6333,
+      "lng": 170.5667,
+      "type": "VILLAGE",
+      "description": "A small, artistic coastal village south of Dunedin known for its bohemian character, local crafts, and welcoming community atmosphere. It serves as an excellent base for exploring the Otago Peninsula and offers independent cafes, galleries, and accommodation.",
+      "imageQueries": [
+        "Kāritāne village Otago",
+        "Kāritāne beach community"
+      ],
+      "activities": [
+        {
+          "id": "kari_1",
+          "text": "Kāritāne Beach Walk",
+          "detail": "Stroll along the sandy beach and rocky outcrops of this sheltered bay, ideal for swimming, paddling, or simply watching the sunset over the water.",
+          "lat": -45.6411,
+          "lng": 170.5431
+        },
+        {
+          "id": "kari_2",
+          "text": "Local Artist Studios and Galleries",
+          "detail": "Visit working studios and small galleries scattered throughout the village where potters, painters, and jewellers display and sell their handcrafted work.",
+          "lat": -45.642,
+          "lng": 170.5425
+        },
+        {
+          "id": "kari_3",
+          "text": "Otago Peninsula Loop Drive",
+          "detail": "Drive or cycle the scenic loop around the peninsula to spot yellow-eyed penguins, sea lions, and albatrosses at various reserves and viewpoints.",
+          "lat": -45.64,
+          "lng": 170.545
+        },
+        {
+          "id": "kari_4",
+          "text": "Community Market and Farmers Market",
+          "detail": "Browse local produce, crafts, and artisan goods at the regular markets held in the village, showcasing Kāritāne's creative community.",
+          "lat": -45.6418,
+          "lng": 170.5428
+        },
+        {
+          "id": "kari_5",
+          "text": "Coastal Forest Walks",
+          "detail": "Explore native bush trails nearby offering views of the coastline and opportunities to encounter native birds and native flora."
+        },
+        {
+          "id": "kari_6",
+          "text": "Dunedin Wildlife and Conservation Visits",
+          "detail": "Take day trips to nearby reserves like Taiaroa Head or Penguin Place to see colonies of yellow-eyed penguins and other endemic species.",
+          "lat": -45.638,
+          "lng": 170.55
+        }
+      ],
+      "food": [
+        {
+          "id": "kari_f1",
+          "text": "Fresh Local Seafood",
+          "detail": "Sample catch-of-the-day fish and mussels from local fisheries served at village cafes and restaurants with ocean views."
+        },
+        {
+          "id": "kari_f2",
+          "text": "Artisan Coffee and Homemade Baking",
+          "detail": "Enjoy independently roasted coffee paired with locally baked sourdough, scones, and seasonal pastries at cosy bohemian cafes."
+        },
+        {
+          "id": "kari_f3",
+          "text": "Farmers Market Produce",
+          "detail": "Purchase fresh organic vegetables, berries, and herbs directly from local growers at the village market for self-catering or picnic meals."
+        },
+        {
+          "id": "kari_f4",
+          "text": "Craft Beer and Local Wine",
+          "detail": "Sample beers from nearby Dunedin breweries and Otago wines at local gathering spots celebrating the region's brewing and viticulture heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kari_c1",
+          "text": "Support Local Artists",
+          "detail": "Respect and purchase directly from working artists in their studios rather than from mass-market retailers to sustain the village's creative economy."
+        },
+        {
+          "id": "kari_c2",
+          "text": "Respect Wildlife Habitats",
+          "detail": "When exploring the peninsula, stay on marked tracks, maintain distance from penguins and seals, and follow all conservation area guidelines to protect endangered species."
+        },
+        {
+          "id": "kari_c3",
+          "text": "Embrace the Bohemian Pace",
+          "detail": "Kāritāne operates on relaxed village time—many businesses have flexible hours, and visitors are encouraged to slow down and engage genuinely with locals and their work."
+        },
+        {
+          "id": "kari_c4",
+          "text": "Attend Community Events",
+          "detail": "Check locally for seasonal festivals, art exhibitions, and village gatherings that showcase Kāritāne's collaborative spirit and welcome visitors as temporary community members."
+        }
+      ]
+    },
+    {
+      "id": "albatross_colony",
+      "name": "Royal Albatross Centre",
+      "nameIt": "Taiaroa Head",
+      "lat": -45.7583,
+      "lng": 170.7333,
+      "type": "NATURE",
+      "description": "Home to the world's only mainland royal albatross colony, this interpretive center on Taiaroa Head provides unparalleled opportunities to observe these majestic birds up close in their natural breeding habitat. Guided viewing areas and educational programs make it an unmissable wildlife experience.",
+      "imageQueries": [
+        "Royal Albatross Centre Taiaroa",
+        "Royal albatross colony breeding"
+      ],
+      "activities": [
+        {
+          "id": "alba_1",
+          "text": "Albatross Viewing Platform",
+          "detail": "Access the main observatory where you can watch royal albatrosses in their natural breeding habitat through viewing windows and telescopes.",
+          "lat": -45.5607,
+          "lng": 170.5197
+        },
+        {
+          "id": "alba_2",
+          "text": "Guided Tour Experience",
+          "detail": "Join an interpretive guide who explains albatross biology, breeding cycles, and the Centre's conservation efforts while observing the birds up close.",
+          "lat": -45.5607,
+          "lng": 170.5197
+        },
+        {
+          "id": "alba_3",
+          "text": "Taiaroa Head Coastal Walk",
+          "detail": "Explore the scenic headland trails surrounding the centre with panoramic views of the Otago Peninsula and opportunities to spot other seabirds.",
+          "lat": -45.5607,
+          "lng": 170.5197
+        },
+        {
+          "id": "alba_4",
+          "text": "Photography Sessions",
+          "detail": "Capture spectacular images of royal albatrosses in their breeding and nesting behaviors from designated viewing areas with excellent natural lighting.",
+          "lat": -45.5607,
+          "lng": 170.5197
+        },
+        {
+          "id": "alba_5",
+          "text": "Educational Film Screening",
+          "detail": "Watch documentary presentations about royal albatross migration patterns and the centre's research programs in the onsite theatre.",
+          "lat": -45.5607,
+          "lng": 170.5197
+        },
+        {
+          "id": "alba_6",
+          "text": "Penguin and Seal Spotting",
+          "detail": "Observe little penguins and New Zealand fur seals along the shoreline while visiting Taiaroa Head's diverse marine wildlife ecosystem.",
+          "lat": -45.5607,
+          "lng": 170.5197
+        }
+      ],
+      "food": [
+        {
+          "id": "alba_f1",
+          "text": "Whitebait Fritters",
+          "detail": "A quintessential Otago Peninsula delicacy made with tiny whitebait fish, typically served at local cafes near the centre during the seasonal catch."
+        },
+        {
+          "id": "alba_f2",
+          "text": "Fresh Orange Roughy",
+          "detail": "Locally caught deep-sea fish from Otago waters, commonly prepared grilled or pan-seared at restaurants in nearby Portobello village."
+        },
+        {
+          "id": "alba_f3",
+          "text": "Otago Peninsula Lamb",
+          "detail": "High-quality lamb from local farms around the peninsula, served at hospitality venues with stunning coastal views near the centre."
+        },
+        {
+          "id": "alba_f4",
+          "text": "Bluff Oysters",
+          "detail": "Seasonal premium oysters from nearby Bluff available at fine dining establishments throughout the Otago region during autumn months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alba_c1",
+          "text": "Respect Breeding Seasons",
+          "detail": "Visit during spring and early summer (September to December) when albatrosses are most active in their breeding cycle, though the centre operates year-round."
+        },
+        {
+          "id": "alba_c2",
+          "text": "Quiet Observation Protocol",
+          "detail": "Maintain silence and stillness in viewing areas to avoid disturbing the birds, and follow all guide instructions regarding photography flash restrictions."
+        },
+        {
+          "id": "alba_c3",
+          "text": "Maori Cultural Significance",
+          "detail": "Acknowledge that Taiaroa Head holds spiritual importance to local Maori iwi, and the centre integrates Maori perspectives into its conservation narrative."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Ratnanalam",
+      "address": "4 Isle Street, Dunedin",
+      "neighbourhood": "Dunedin Central",
+      "cuisine": "Thai",
+      "priceRange": "€€",
+      "description": "Vibrant Thai restaurant serving authentic curries and stir-fries in a casual, colourful setting.",
+      "mustOrder": "Green curry with chicken",
+      "lat": -45.8788,
+      "lng": 170.5028
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Paragon",
+      "address": "414 George Street, Dunedin",
+      "neighbourhood": "Dunedin Central",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Sophisticated fine dining restaurant housed in a historic building with an extensive wine list.",
+      "mustOrder": "Duck breast with cherry gastrique",
+      "lat": -45.8775,
+      "lng": 170.5038
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Vogel Street Kitchen",
+      "address": "73 Vogel Street, Dunedin",
+      "neighbourhood": "Dunedin Central",
+      "cuisine": "Contemporary NZ",
+      "priceRange": "€€€",
+      "description": "Farm-to-table restaurant showcasing local produce and meats with seasonal menus.",
+      "mustOrder": "Local venison with root vegetables",
+      "lat": -45.876,
+      "lng": 170.508
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Elm",
+      "address": "252 Moray Place, Dunedin",
+      "neighbourhood": "Dunedin Central",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Neighbourhood Italian restaurant focusing on handmade pasta and traditional recipes.",
+      "mustOrder": "Pappardelle with wild boar ragù",
+      "lat": -45.882,
+      "lng": 170.5015
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Pier 24",
+      "address": "24 The Esplanade, Oamaru",
+      "neighbourhood": "Oamaru Waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Waterfront seafood restaurant offering fresh local catch with views of Oamaru Harbour.",
+      "mustOrder": "Crayfish thermidor",
+      "lat": -45.0983,
+      "lng": 170.9683
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Yellowfin",
+      "address": "2 Itchen Street, Oamaru",
+      "neighbourhood": "Oamaru Central",
+      "cuisine": "Seafood & NZ",
+      "priceRange": "€€",
+      "description": "Casual seafood eatery with a relaxed vibe serving fish and chips and grilled specialities.",
+      "mustOrder": "Grilled blue cod with lemon butter",
+      "lat": -45.101,
+      "lng": 170.9705
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Riverstone Kitchen",
+      "address": "Riccarton Road, Arrowtown",
+      "neighbourhood": "Arrowtown",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Award-winning riverside kitchen set on a scenic farm showcasing Central Otago wines and local ingredients.",
+      "mustOrder": "Central Otago lamb with seasonal vegetables",
+      "lat": -44.9394,
+      "lng": 168.8361
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Rātā",
+      "address": "10 Lakeland Drive, Wānaka",
+      "neighbourhood": "Wānaka Central",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant celebrating regional produce with an innovative menu and craft beverages.",
+      "mustOrder": "Slow-cooked lamb shoulder with beetroot",
+      "lat": -44.465,
+      "lng": 169.1833
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Kika",
+      "address": "28 Ardmore Street, Wānaka",
+      "neighbourhood": "Wānaka Central",
+      "cuisine": "Spanish",
+      "priceRange": "€€",
+      "description": "Lively Spanish tapas bar with an excellent wine selection and vibrant communal atmosphere.",
+      "mustOrder": "Jamón ibérico with pan con tomate",
+      "lat": -44.467,
+      "lng": 169.186
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Quartz Reef",
+      "address": "Arrowtown-Lake Hayes Road, Arrowtown",
+      "neighbourhood": "Arrowtown",
+      "cuisine": "Wine Bar & Tapas",
+      "priceRange": "€€",
+      "description": "Boutique winery with a cellar door offering small plates and Central Otago wines in a historic setting.",
+      "mustOrder": "Cheese and charcuterie board with house wines",
+      "lat": -44.93,
+      "lng": 168.825
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Bacchus",
+      "address": "10 The Esplanade, Dunedin",
+      "neighbourhood": "Dunedin Waterfront",
+      "cuisine": "Modern European",
+      "priceRange": "€€€",
+      "description": "Elegant waterfront restaurant featuring local seafood and meats with impressive ocean views.",
+      "mustOrder": "Pan-seared yellowfin tuna",
+      "lat": -45.8755,
+      "lng": 170.515
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Dose Espresso",
+      "address": "15 Bath Street, Dunedin",
+      "neighbourhood": "Dunedin Central",
+      "cuisine": "Café/NZ",
+      "priceRange": "€",
+      "description": "Popular specialty coffee café serving excellent brunch dishes and baked goods to a loyal local crowd.",
+      "mustOrder": "Smashed avocado on sourdough with poached egg",
+      "lat": -45.8793,
+      "lng": 170.5048
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Speight's Ale House",
+      "address": "200 Rattray Street, Dunedin",
+      "neighbourhood": "Dunedin Central",
+      "cuisine": "Pub Food",
+      "priceRange": "€€",
+      "description": "Historic brewery pub serving hearty New Zealand fare paired with local craft beers.",
+      "mustOrder": "Beer-battered fish and chips",
+      "lat": -45.8725,
+      "lng": 170.5095
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "The Winery",
+      "address": "Cromwell Road, Cromwell",
+      "neighbourhood": "Cromwell",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Wine region restaurant offering locally-sourced cuisine with panoramic vineyard views.",
+      "mustOrder": "Central Otago pinot noir-braised beef short ribs",
+      "lat": -44.3733,
+      "lng": 169.195
+    }
+  ]
+}

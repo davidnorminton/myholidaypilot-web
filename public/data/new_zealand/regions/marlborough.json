@@ -1,0 +1,1279 @@
+{
+  "id": "marlborough",
+  "name": "Marlborough",
+  "nameIt": "Marlborough",
+  "capital": "Blenheim",
+  "lat": -41.51,
+  "lng": 173.96,
+  "emoji": "🍷",
+  "colour": "ffe91e63",
+  "boundingBox": {
+    "north": -40.9,
+    "south": -42.2,
+    "east": 174.5,
+    "west": 173
+  },
+  "history": "Marlborough has been inhabited by Māori for centuries, with the Ngāi Tahu iwi (tribe) having strong historical ties to the region. European settlement began in the mid-1800s, transforming the landscape through farming and later viticulture. The region experienced significant growth in the 20th century as sheep and deer farming dominated, but it was the development of the wine industry from the 1970s onwards that truly shaped modern Marlborough into the renowned wine-producing area it is today.",
+  "culturalNotes": "Marlborough is synonymous with New Zealand wine, particularly Sauvignon Blanc, and the wine industry remains central to its identity and economy. The region celebrates its agricultural heritage through various festivals and farmers' markets, while maintaining strong Māori cultural presence and traditions. The stunning landscape of sounds and mountains, combined with outdoor recreation like hiking and water sports, defines the character of this vibrant South Island community.",
+  "bestTimeToVisit": "Visit from November to March for sunny weather and wine region exploration.",
+  "languageNotes": "English is the primary language spoken in Marlborough, though te reo Māori is increasingly used in public life and place names reflect Māori heritage. Visitors may encounter local expressions and will find that friendly, straightforward communication is the norm in this laid-back wine region.",
+  "generatedAt": "2026-07-12T19:27:56.454Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "blenheim",
+      "name": "Blenheim",
+      "nameIt": "Blenheim",
+      "lat": -41.5167,
+      "lng": 173.95,
+      "type": "CITY",
+      "description": "The largest city in Marlborough and the gateway to the region, Blenheim is famous as the heart of New Zealand's wine country with dozens of world-class wineries nearby. The city itself offers excellent restaurants, art galleries, and the Omaka Aviation Heritage Centre, making it an essential base for exploring the region.",
+      "imageQueries": [
+        "Blenheim New Zealand city",
+        "Marlborough wine region"
+      ],
+      "activities": [
+        {
+          "id": "blen_1",
+          "text": "Omaka Aviation Heritage Centre",
+          "detail": "Explore New Zealand's premier aviation museum featuring restored vintage aircraft, interactive exhibits, and Peter Jackson-designed displays showcasing military aviation history.",
+          "lat": -41.5167,
+          "lng": 173.95
+        },
+        {
+          "id": "blen_2",
+          "text": "Wine tours in Marlborough",
+          "detail": "Visit world-renowned vineyards surrounding Blenheim to taste Sauvignon Blancs and other varietals directly from the region's top producers.",
+          "lat": -41.52,
+          "lng": 173.96
+        },
+        {
+          "id": "blen_3",
+          "text": "Pollard Park",
+          "detail": "Stroll through this expansive public garden featuring themed sections, walking trails, and picnic areas perfect for a relaxing afternoon.",
+          "lat": -41.525,
+          "lng": 173.945
+        },
+        {
+          "id": "blen_4",
+          "text": "Blenheim i-SITE Visitor Centre",
+          "detail": "Start your visit here to access local information, book tours, and learn about regional attractions and walking routes.",
+          "lat": -41.5167,
+          "lng": 173.9583
+        },
+        {
+          "id": "blen_5",
+          "text": "Wither Hills",
+          "detail": "Hike or drive to these scenic hills overlooking Blenheim and the Wairau Valley for panoramic views and native bush trails.",
+          "lat": -41.55,
+          "lng": 173.97
+        },
+        {
+          "id": "blen_6",
+          "text": "Taylor River Walk",
+          "detail": "Follow this peaceful riverside walking track through native forest, ideal for bird watching and experiencing local natural beauty.",
+          "lat": -41.53,
+          "lng": 173.94
+        }
+      ],
+      "food": [
+        {
+          "id": "blen_f1",
+          "text": "Marlborough Sauvignon Blanc with local cheese",
+          "detail": "Pair the region's signature crisp white wine with artisanal cheeses from local producers for an authentic local tasting experience."
+        },
+        {
+          "id": "blen_f2",
+          "text": "Green-lipped mussels",
+          "detail": "Sample these native New Zealand mussels harvested fresh from the Marlborough Sounds and prepared in local restaurants."
+        },
+        {
+          "id": "blen_f3",
+          "text": "High Country lamb",
+          "detail": "Enjoy tender lamb from nearby hill-country farms, often prepared with local herbs and served at Blenheim's finest dining establishments."
+        },
+        {
+          "id": "blen_f4",
+          "text": "Whitebait fritters",
+          "detail": "Try this seasonal delicacy featuring tiny native fish caught from local rivers, traditionally pan-fried and served with lemon."
+        }
+      ],
+      "culture": [
+        {
+          "id": "blen_c1",
+          "text": "Visit wineries during harvest season",
+          "detail": "Plan your trip for March to April to experience the excitement of vintage, when many wineries offer harvest activities and special events."
+        },
+        {
+          "id": "blen_c2",
+          "text": "Respect vineyard privacy",
+          "detail": "Most wineries require advance booking or payment for tastings, so contact ahead rather than arriving unannounced at cellar doors."
+        },
+        {
+          "id": "blen_c3",
+          "text": "Allow time for relaxed exploration",
+          "detail": "Blenheim operates at a slower pace than larger cities; locals appreciate visitors who linger over meals, take scenic detours, and embrace the region's leisurely wine-country lifestyle."
+        }
+      ]
+    },
+    {
+      "id": "marlborough_sounds",
+      "name": "Marlborough Sounds",
+      "nameIt": "Marlborough Sounds",
+      "lat": -41.1333,
+      "lng": 173.95,
+      "type": "NATURE",
+      "description": "A spectacular network of forested waterways created by the submergence of river valleys, offering pristine beauty and stunning scenery throughout the region. Visitors can explore the sounds by boat, kayak, or hiking trails, experiencing native forest, wildlife, and remote wilderness.",
+      "imageQueries": [
+        "Marlborough Sounds aerial view",
+        "Marlborough Sounds forest waterways"
+      ],
+      "activities": [
+        {
+          "id": "marl_1",
+          "text": "Kayaking through the Sounds",
+          "detail": "Paddle through the calm, forested waterways to reach remote beaches and hidden coves, with opportunities to spot native birds and marine life."
+        },
+        {
+          "id": "marl_2",
+          "text": "Cruise to Picton via the scenic route",
+          "detail": "Take a scheduled water taxi or scenic cruise from various sound inlets to Picton, experiencing the dramatic geography and coastal beauty.",
+          "lat": -41.2865,
+          "lng": 173.9618
+        },
+        {
+          "id": "marl_3",
+          "text": "Hiking the Queen Charlotte Track",
+          "detail": "Walk this iconic multi-day tramping route that winds through beech forest with views over the sounds, offering day walks or full 71km treks.",
+          "lat": -41.1333,
+          "lng": 173.9167
+        },
+        {
+          "id": "marl_4",
+          "text": "Wildlife watching at Motuara Island",
+          "detail": "Visit this Department of Conservation sanctuary to see rare native birds including the Kokako and Saddleback in their protected forest habitat.",
+          "lat": -41.0833,
+          "lng": 173.8333
+        },
+        {
+          "id": "marl_5",
+          "text": "Camping and lodge stays",
+          "detail": "Experience overnight stays in remote locations accessible only by water, from basic DOC campgrounds to eco-lodges offering full services.",
+          "lat": -41.1667,
+          "lng": 173.8833
+        },
+        {
+          "id": "marl_6",
+          "text": "Fishing for green-lipped mussels",
+          "detail": "Join a local fishing charter to catch the sounds' famous green-lipped mussels, often cooked fresh on board with local wine."
+        }
+      ],
+      "food": [
+        {
+          "id": "marl_f1",
+          "text": "Green-lipped mussels",
+          "detail": "These iconic New Zealand shellfish are harvested fresh from the sounds and typically served steamed or in creamy sauces at local restaurants and lodges."
+        },
+        {
+          "id": "marl_f2",
+          "text": "Marlborough Sauvignon Blanc",
+          "detail": "While the vineyards are in the wider Marlborough region, the sounds' lodges and restaurants feature local wines that pair perfectly with fresh seafood."
+        },
+        {
+          "id": "marl_f3",
+          "text": "Fresh crayfish (Cray)",
+          "detail": "Locally caught crayfish are a delicacy in the sounds, often grilled or prepared simply to showcase their sweet, tender meat."
+        },
+        {
+          "id": "marl_f4",
+          "text": "Smoked fish platter",
+          "detail": "Local smokehouses prepare fresh catch from the sounds, creating smoked fish selections enjoyed at waterfront lodges and picnic spots."
+        },
+        {
+          "id": "marl_f5",
+          "text": "Hokey pokey ice cream with native berries",
+          "detail": "A distinctly Kiwi treat combining honeycomb toffee ice cream with locally foraged native berries from the forest."
+        }
+      ],
+      "culture": [
+        {
+          "id": "marl_c1",
+          "text": "Plan ahead for water access",
+          "detail": "Many destinations in the sounds are accessible only by water taxi or private boat, so arrange transport well in advance as services run on schedules."
+        },
+        {
+          "id": "marl_c2",
+          "text": "Respect DOC conservation areas",
+          "detail": "Much of the sounds are protected Department of Conservation land with strict rules about camping, fires, and wildlife interaction that all visitors must follow."
+        },
+        {
+          "id": "marl_c3",
+          "text": "Embrace Māori heritage",
+          "detail": "The sounds have deep Māori cultural significance; listen for local stories and respect sacred sites, as the landscape is part of Māori traditional lands."
+        },
+        {
+          "id": "marl_c4",
+          "text": "Come prepared for isolation",
+          "detail": "Internet, shops, and services are extremely limited in remote areas of the sounds, so bring supplies, cash, and manage expectations for self-sufficiency."
+        }
+      ]
+    },
+    {
+      "id": "picton",
+      "name": "Picton",
+      "nameIt": "Picton",
+      "lat": -41.2833,
+      "lng": 174,
+      "type": "TOWN",
+      "description": "A charming waterfront town and the main port for the inter-island ferry, Picton serves as the gateway between the North and South Islands. The town offers a pleasant harbour, local shops and cafes, and easy access to the scenic Marlborough Sounds by water.",
+      "imageQueries": [
+        "Picton New Zealand harbour",
+        "Picton waterfront town"
+      ],
+      "activities": [
+        {
+          "id": "pict_1",
+          "text": "Picton Harbour Walk",
+          "detail": "A scenic waterfront promenade offering views of the ferry terminal, moored boats, and the surrounding hills, perfect for a leisurely stroll.",
+          "lat": -41.2868,
+          "lng": 173.9617
+        },
+        {
+          "id": "pict_2",
+          "text": "Marlborough Sounds by Water Taxi",
+          "detail": "Day trips or multi-day adventures exploring the dramatic coastal scenery, hidden bays, and native forest of the Sounds accessible by water taxi from Picton.",
+          "lat": -41.2868,
+          "lng": 173.9617
+        },
+        {
+          "id": "pict_3",
+          "text": "Picton Museum",
+          "detail": "A small local museum housed in a heritage building displaying the town's maritime history, including relics from the 1880 shipwreck Edwin Fox.",
+          "lat": -41.2868,
+          "lng": 173.9582
+        },
+        {
+          "id": "pict_4",
+          "text": "Edwin Fox Maritime Museum",
+          "detail": "The world's oldest surviving wooden ship (1853) now preserved as a museum, offering insight into 19th-century maritime history and shipbuilding.",
+          "lat": -41.2896,
+          "lng": 173.9633
+        },
+        {
+          "id": "pict_5",
+          "text": "Picton Foreshore Track",
+          "detail": "A walking trail along the water's edge connecting Picton to nearby Waikawa Bay with native forest and coastal views.",
+          "lat": -41.2868,
+          "lng": 173.9617
+        },
+        {
+          "id": "pict_6",
+          "text": "Local Wine Tasting",
+          "detail": "The Marlborough wine region is just inland from Picton, and many local venues offer tastings of world-class Sauvignon Blanc and other regional wines."
+        },
+        {
+          "id": "pict_7",
+          "text": "Picton Library and Learning Centre",
+          "detail": "A modern facility offering local information, public amenities, and sometimes cultural exhibitions relevant to the region."
+        }
+      ],
+      "food": [
+        {
+          "id": "pict_f1",
+          "text": "Fresh Green-Lipped Mussels",
+          "detail": "Local seafood specialty sourced from the Marlborough Sounds, typically steamed and served with white wine or garlic butter at harbourside restaurants."
+        },
+        {
+          "id": "pict_f2",
+          "text": "Marlborough Sauvignon Blanc",
+          "detail": "The region's flagship white wine with crisp, herbaceous notes, available at cafes and restaurants throughout town."
+        },
+        {
+          "id": "pict_f3",
+          "text": "Fish and Chips from Local Takeaways",
+          "detail": "Traditional Kiwi-style fish and chips using fresh local catch, best enjoyed while watching the harbour."
+        },
+        {
+          "id": "pict_f4",
+          "text": "Seafood Chowder",
+          "detail": "A creamy soup featuring local fish, mussels, and prawns, commonly found on menus at waterfront establishments."
+        },
+        {
+          "id": "pict_f5",
+          "text": "Marlborough Crayfish (Lobster)",
+          "detail": "Seasonal luxury seafood from local waters, served fresh at premium restaurants during availability."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pict_c1",
+          "text": "Ferry Etiquette",
+          "detail": "If catching the inter-island ferry, arrive early and follow signage carefully, as it is the main transport link and can be busy during peak seasons."
+        },
+        {
+          "id": "pict_c2",
+          "text": "Outdoor Culture",
+          "detail": "Locals embrace water-based recreation and tramping; casual outdoor wear and a respect for the natural environment are valued."
+        },
+        {
+          "id": "pict_c3",
+          "text": "Small-Town Friendliness",
+          "detail": "Picton is a compact, tight-knit community where shopkeepers and locals appreciate genuine interaction and patience during busy tourist seasons."
+        },
+        {
+          "id": "pict_c4",
+          "text": "Maori Heritage",
+          "detail": "The region has significant Maori history; respectful acknowledgement of local iwi (tribes) and their connection to the Sounds is culturally important."
+        }
+      ]
+    },
+    {
+      "id": "havelock",
+      "name": "Havelock",
+      "nameIt": "Havelock",
+      "lat": -41.3167,
+      "lng": 173.9167,
+      "type": "TOWN",
+      "description": "Known as the 'Green-Lipped Mussel Capital of the World,' Havelock is a small working town that serves as the access point to the stunning Pelorus Sound. The town offers authentic Kiwi character, fresh seafood, and excellent opportunities for kayaking and boat tours into the sounds.",
+      "imageQueries": [
+        "Havelock New Zealand mussel",
+        "Havelock Pelorus Sound"
+      ],
+      "activities": [
+        {
+          "id": "have_1",
+          "text": "Pelorus Sound Kayaking",
+          "detail": "Paddle through pristine waterways and explore remote beaches, waterfalls, and marine wildlife in the iconic sounds.",
+          "lat": -41.0333,
+          "lng": 173.8333
+        },
+        {
+          "id": "have_2",
+          "text": "Mail Boat Tour",
+          "detail": "Join the famous Pelorus Mail Boat cruise that delivers mail and supplies to remote communities while offering spectacular scenic views.",
+          "lat": -41.0333,
+          "lng": 173.8333
+        },
+        {
+          "id": "have_3",
+          "text": "Green-Lipped Mussel Farm Visit",
+          "detail": "Tour a working mussel farm to learn about aquaculture and see how the region's famous mussels are farmed and harvested.",
+          "lat": -41.0333,
+          "lng": 173.8333
+        },
+        {
+          "id": "have_4",
+          "text": "Fishing Charters",
+          "detail": "Charter a boat for snapper, kingfish, or blue cod fishing in the sounds with experienced local guides.",
+          "lat": -41.0333,
+          "lng": 173.8333
+        },
+        {
+          "id": "have_5",
+          "text": "Scenic Boat Tours",
+          "detail": "Take guided cruises deeper into Pelorus and Tennyson Sounds to spot dolphins, seals, and rare birdlife.",
+          "lat": -41.0333,
+          "lng": 173.8333
+        },
+        {
+          "id": "have_6",
+          "text": "Havelock Museum",
+          "detail": "Visit the small local museum to discover the town's maritime and logging history and authentic Kiwi heritage.",
+          "lat": -41.0333,
+          "lng": 173.8333
+        }
+      ],
+      "food": [
+        {
+          "id": "have_f1",
+          "text": "Fresh Green-Lipped Mussels",
+          "detail": "Sample the region's signature delicacy steamed, grilled, or in a creamy sauce at local restaurants and cafes."
+        },
+        {
+          "id": "have_f2",
+          "text": "Fish and Chips",
+          "detail": "Enjoy locally caught fresh fish battered and fried, sold at local fish shops with views over the harbour."
+        },
+        {
+          "id": "have_f3",
+          "text": "Crayfish (Lobster)",
+          "detail": "Taste the sweet, succulent local rock lobster prepared simply grilled or in seafood platters at waterfront venues."
+        },
+        {
+          "id": "have_f4",
+          "text": "Scallops",
+          "detail": "Try locally dived scallops, often served pan-seared or as part of mixed seafood platters at quality restaurants."
+        },
+        {
+          "id": "have_f5",
+          "text": "Whitebait Fritters",
+          "detail": "Sample these delicate seasonal delicacies made from local whitebait mixed with egg batter and pan-fried."
+        }
+      ],
+      "culture": [
+        {
+          "id": "have_c1",
+          "text": "Working Town Respect",
+          "detail": "Havelock is a genuine working port; visit during off-peak hours and be respectful of active fishing and aquaculture operations."
+        },
+        {
+          "id": "have_c2",
+          "text": "Book Tours in Advance",
+          "detail": "Popular activities like the Mail Boat and guided kayak tours fill quickly, especially in summer, so arrange bookings ahead."
+        },
+        {
+          "id": "have_c3",
+          "text": "Weather-Dependent Plans",
+          "detail": "The sounds are exposed to weather changes; be prepared for sudden conditions and have flexible activity plans for water-based adventures."
+        },
+        {
+          "id": "have_c4",
+          "text": "Local Seafood Shopping",
+          "detail": "Visit the fish market or local suppliers to buy fresh mussels and seafood directly from producers at excellent prices."
+        }
+      ]
+    },
+    {
+      "id": "renwick",
+      "name": "Renwick",
+      "nameIt": "Renwick",
+      "lat": -41.55,
+      "lng": 173.8833,
+      "type": "TOWN",
+      "description": "A small village nestled in the heart of the Marlborough wine region, Renwick is surrounded by vineyards and boutique wineries producing some of New Zealand's finest Sauvignon Blancs. The village offers a quiet, rural atmosphere perfect for wine tasting and exploring the scenic countryside.",
+      "imageQueries": [
+        "Renwick wine region vineyard",
+        "Renwick Marlborough"
+      ],
+      "activities": [
+        {
+          "id": "renw_1",
+          "text": "Winery Cellar Door Visits",
+          "detail": "Tour and taste at boutique wineries surrounding Renwick, many specializing in Sauvignon Blanc and offering vineyard views.",
+          "lat": -41.5167,
+          "lng": 173.95
+        },
+        {
+          "id": "renw_2",
+          "text": "Brancott Estate Winery",
+          "detail": "Visit one of Marlborough's largest wineries with a restaurant, cellar door, and heritage vineyard experience just outside the village.",
+          "lat": -41.52,
+          "lng": 173.93
+        },
+        {
+          "id": "renw_3",
+          "text": "Scenic Countryside Walks",
+          "detail": "Explore walking trails through vineyards and rolling hills around Renwick offering peaceful rural landscapes and photo opportunities."
+        },
+        {
+          "id": "renw_4",
+          "text": "Marlborough Wine Region Cycling",
+          "detail": "Cycle between local wineries and through vineyard-lined roads, with several operators offering guided wine tours by bike."
+        },
+        {
+          "id": "renw_5",
+          "text": "Farmers Market Visits",
+          "detail": "Browse seasonal local produce, artisan goods, and crafts at Renwick's community markets held regularly throughout the year."
+        },
+        {
+          "id": "renw_6",
+          "text": "Picnicking in Vineyards",
+          "detail": "Pack a lunch and enjoy it among the vines at various winery estates that welcome visitors to bring their own food."
+        }
+      ],
+      "food": [
+        {
+          "id": "renw_f1",
+          "text": "Marlborough Sauvignon Blanc",
+          "detail": "Taste the region's signature crisp white wine produced at numerous local wineries with distinctive herbaceous and tropical fruit notes."
+        },
+        {
+          "id": "renw_f2",
+          "text": "Local Cheese and Wine Platters",
+          "detail": "Enjoy artisanal cheeses paired with wines at cellar doors and local producers showcasing regional specialty foods."
+        },
+        {
+          "id": "renw_f3",
+          "text": "Farm-to-Table Restaurant Meals",
+          "detail": "Dine at winery restaurants in and around Renwick featuring seasonal menus using local produce and paired with estate wines."
+        },
+        {
+          "id": "renw_f4",
+          "text": "Marlborough Lamb",
+          "detail": "Sample locally-raised lamb prepared at regional restaurants, a staple protein of the South Island's pastoral farming heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "renw_c1",
+          "text": "Wine Tasting Etiquette",
+          "detail": "Engage respectfully with winery staff, ask questions about production methods, and pace tastings to fully appreciate each wine's characteristics."
+        },
+        {
+          "id": "renw_c2",
+          "text": "Quiet Village Respect",
+          "detail": "Renwick is a small, tight-knit community, so keep noise levels low, respect private property boundaries, and support local businesses directly."
+        },
+        {
+          "id": "renw_c3",
+          "text": "Seasonal Visiting",
+          "detail": "Visit during harvest season (March to April) for the most vibrant atmosphere, or in summer (December to February) for warm weather and longer vineyard hours."
+        }
+      ]
+    },
+    {
+      "id": "wither_hills",
+      "name": "Wither Hills",
+      "nameIt": "Wither Hills",
+      "lat": -41.5333,
+      "lng": 173.95,
+      "type": "NATURE",
+      "description": "A scenic mountain range providing dramatic views over the Marlborough wine region and Wairau Valley, accessible via hiking trails suitable for various fitness levels. The area offers native forest, panoramic vistas, and a chance to experience the landscape that defines the region.",
+      "imageQueries": [
+        "Wither Hills Marlborough view",
+        "Wither Hills hiking trail"
+      ],
+      "activities": [
+        {
+          "id": "with_1",
+          "text": "Wither Hills Summit Trail",
+          "detail": "A moderate 2-3 hour return hike to the peak offering 360-degree views over the Wairau Valley and wine region.",
+          "lat": -41.5167,
+          "lng": 173.9667
+        },
+        {
+          "id": "with_2",
+          "text": "Dry River Walk",
+          "detail": "An easy riverside walk through native beech forest following the Dry River with opportunities to spot native birds."
+        },
+        {
+          "id": "with_3",
+          "text": "Wither Hills Wine Estate Loop",
+          "detail": "A scenic trail combining forest walking with views of Marlborough vineyard landscapes at the range's foothills."
+        },
+        {
+          "id": "with_4",
+          "text": "Native Forest Exploration",
+          "detail": "Guided or self-guided walks through regenerating native forest featuring tawa, beech, and rimu trees."
+        },
+        {
+          "id": "with_5",
+          "text": "Panoramic Photography Spots",
+          "detail": "Several accessible viewpoints along trails ideal for capturing dramatic mountain and valley landscape photography."
+        },
+        {
+          "id": "with_6",
+          "text": "Early Morning Bird Watching",
+          "detail": "Dawn visits to the reserve reveal native species including tui, fantails, and native pigeons in the forest canopy."
+        }
+      ],
+      "food": [
+        {
+          "id": "with_f1",
+          "text": "Marlborough Sauvignon Blanc",
+          "detail": "The region's signature white wine pairs perfectly with local produce and can be sampled at nearby cellar doors."
+        },
+        {
+          "id": "with_f2",
+          "text": "Greenshell Mussels",
+          "detail": "Fresh local mussels from the Marlborough Sounds prepared simply grilled or in white wine sauce at regional restaurants."
+        },
+        {
+          "id": "with_f3",
+          "text": "Venison and Native Herbs",
+          "detail": "Local game meats sourced from the surrounding hills are prepared with foraged native herbs like horopito and kawakawa."
+        },
+        {
+          "id": "with_f4",
+          "text": "Artisan Cheese from Marlborough Dairies",
+          "detail": "Local farmstead cheeses showcase the region's pastoral heritage and are featured at farm gate shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "with_c1",
+          "text": "Begin hikes early",
+          "detail": "Start your walk before 9am to avoid afternoon heat, ensure good light for photography, and complete trails safely before dusk."
+        },
+        {
+          "id": "with_c2",
+          "text": "Respect conservation efforts",
+          "detail": "Stay on marked trails to protect regenerating native forest and fragile ecosystems; the hills are an important ecological reserve."
+        },
+        {
+          "id": "with_c3",
+          "text": "Wine region etiquette",
+          "detail": "Many properties adjoin vineyards—respect private land boundaries and visit cellar doors during posted hours for tastings."
+        }
+      ]
+    },
+    {
+      "id": "pelorus_sound",
+      "name": "Pelorus Sound",
+      "nameIt": "Pelorus Sound",
+      "lat": -41.35,
+      "lng": 173.85,
+      "type": "COASTAL",
+      "description": "One of the largest sounds in the Marlborough region, Pelorus Sound features dramatic scenery, deep blue waters, and excellent opportunities for kayaking, fishing, and wildlife spotting. The sound is also famous as a filming location for The Lord of the Rings, with several iconic scenes shot in its waters.",
+      "imageQueries": [
+        "Pelorus Sound New Zealand",
+        "Pelorus Sound kayaking"
+      ],
+      "activities": [
+        {
+          "id": "pelo_1",
+          "text": "Kayaking in Pelorus Sound",
+          "detail": "Paddle through calm waters between forested hills, exploring secluded bays and spotting dolphins, seals, and native birds.",
+          "lat": -41.3833,
+          "lng": 173.9667
+        },
+        {
+          "id": "pelo_2",
+          "text": "Lord of the Rings Filming Location Tour",
+          "detail": "Visit the iconic waters where scenes from The Lord of the Rings were filmed, including locations used for Helm's Deep and other key sequences.",
+          "lat": -41.3833,
+          "lng": 173.9667
+        },
+        {
+          "id": "pelo_3",
+          "text": "Fishing for Snapper and Kingfish",
+          "detail": "Charter a boat to fish the deep waters of Pelorus Sound, renowned for excellent snapper, kingfish, and other game fish.",
+          "lat": -41.3833,
+          "lng": 173.9667
+        },
+        {
+          "id": "pelo_4",
+          "text": "French Pass Adventure",
+          "detail": "Navigate the challenging tidal waters of French Pass at the entrance to the sound, known for dramatic currents and abundant marine life.",
+          "lat": -41.35,
+          "lng": 173.8333
+        },
+        {
+          "id": "pelo_5",
+          "text": "Wildlife Spotting at Motuara Island",
+          "detail": "Cruise to this nearby island sanctuary to observe native New Zealand birds, seals, and enjoy panoramic views of the Marlborough Sounds.",
+          "lat": -41.2833,
+          "lng": 173.9167
+        },
+        {
+          "id": "pelo_6",
+          "text": "Scenic Boat Cruises",
+          "detail": "Take a leisurely cruise through the sound to experience the dramatic fjord-like scenery, waterfalls, and pristine wilderness.",
+          "lat": -41.3833,
+          "lng": 173.9667
+        }
+      ],
+      "food": [
+        {
+          "id": "pelo_f1",
+          "text": "Marlborough Greenshell Mussels",
+          "detail": "Fresh, succulent mussels from local farms, often served steamed with white wine or garlic butter at waterfront establishments."
+        },
+        {
+          "id": "pelo_f2",
+          "text": "Crayfish (Lobster) from Local Catches",
+          "detail": "Freshly caught crayfish available at seafood restaurants and lodges, typically prepared simply to highlight the sweet, delicate flavor."
+        },
+        {
+          "id": "pelo_f3",
+          "text": "Pan-Seared Snapper",
+          "detail": "Local snapper caught from Pelorus Sound waters, served fresh at restaurants with seasonal vegetables and local wine pairings."
+        },
+        {
+          "id": "pelo_f4",
+          "text": "Marlborough Sauvignon Blanc Wine Tasting",
+          "detail": "Sample world-renowned local wines from nearby vineyards, with many lodges and restaurants offering curated tastings paired with local seafood."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pelo_c1",
+          "text": "Respect Marine Wildlife",
+          "detail": "Keep a safe distance from dolphins and seals you encounter; they are protected under New Zealand law and should never be touched or chased."
+        },
+        {
+          "id": "pelo_c2",
+          "text": "Check Tidal Conditions Before Activities",
+          "detail": "Pelorus Sound's waterways are affected by strong tides and currents, particularly at French Pass, so always check conditions with local operators before venturing out."
+        },
+        {
+          "id": "pelo_c3",
+          "text": "Support Local Tourism Operators",
+          "detail": "Use licensed guides and charter services run by locals who understand the sound's conditions and contribute directly to community conservation efforts."
+        },
+        {
+          "id": "pelo_c4",
+          "text": "Acknowledge Māori Heritage",
+          "detail": "The Marlborough Sounds hold cultural significance for Ngāi Tahu and local Māori; be respectful when visiting sacred or historically significant locations."
+        }
+      ]
+    },
+    {
+      "id": "omaka_aviation",
+      "name": "Omaka Aviation Heritage Centre",
+      "nameIt": "Omaka Aviation Heritage Centre",
+      "lat": -41.5167,
+      "lng": 173.9333,
+      "type": "LANDMARK",
+      "description": "A world-class museum near Blenheim showcasing a remarkable collection of vintage and restored aircraft from the early aviation era, with particular focus on World War I planes. The museum combines impressive engineering with creative displays that bring aviation history to life.",
+      "imageQueries": [
+        "Omaka Aviation Heritage Centre",
+        "Omaka vintage aircraft museum"
+      ],
+      "activities": [
+        {
+          "id": "omak_1",
+          "text": "Explore the WWI Aircraft Collection",
+          "detail": "Walk through the main exhibition halls to see meticulously restored Sopwith Camels, German Fokkers, and other iconic World War I fighters displayed with detailed historical context."
+        },
+        {
+          "id": "omak_2",
+          "text": "Visit the Peter Jackson Workshops",
+          "detail": "Observe skilled craftspeople actively restoring and maintaining vintage aircraft in the on-site workshops, where you can watch conservation work in real-time.",
+          "lat": -41.5167,
+          "lng": 173.9667
+        },
+        {
+          "id": "omak_3",
+          "text": "Experience the Flight Simulator",
+          "detail": "Test your piloting skills on the museum's interactive flight simulator that replicates early aircraft handling and provides an immersive aviation experience."
+        },
+        {
+          "id": "omak_4",
+          "text": "View the Diorama Displays",
+          "detail": "Examine the museum's signature creative scenes that recreate dramatic moments from aviation history, featuring period-accurate models and atmospheric storytelling."
+        },
+        {
+          "id": "omak_5",
+          "text": "Learn at the Aviation Heritage Café",
+          "detail": "Enjoy refreshments while browsing aviation memorabilia and historical photographs in the museum's café overlooking the hangars."
+        },
+        {
+          "id": "omak_6",
+          "text": "Attend a Guided Tour",
+          "detail": "Join a knowledgeable museum guide to gain deeper insights into specific aircraft, restoration techniques, and personal stories from aviation history."
+        }
+      ],
+      "food": [
+        {
+          "id": "omak_f1",
+          "text": "Marlborough Sauvignon Blanc",
+          "detail": "Sample the region's world-renowned crisp white wine at the museum café or nearby wineries within a short drive of Blenheim."
+        },
+        {
+          "id": "omak_f2",
+          "text": "Greenshell Mussels",
+          "detail": "Try these iconic New Zealand green-lipped mussels, typically prepared steamed or in cream sauce, available at local restaurants in Blenheim."
+        },
+        {
+          "id": "omak_f3",
+          "text": "Café Lunch at Omaka",
+          "detail": "Grab a light meal or coffee at the museum's on-site café, which serves sandwiches, pastries, and beverages perfect for a museum visit."
+        },
+        {
+          "id": "omak_f4",
+          "text": "Lamb and Venison",
+          "detail": "Experience New Zealand's premium farm-raised meats at restaurants throughout Blenheim, just minutes from the aviation centre."
+        }
+      ],
+      "culture": [
+        {
+          "id": "omak_c1",
+          "text": "Plan for Full Half-Day Visit",
+          "detail": "Allow at least 2-3 hours to properly explore the museum's collections, as rushing through diminishes appreciation for the restoration detail and historical narratives."
+        },
+        {
+          "id": "omak_c2",
+          "text": "Dress for Indoor Temperature Changes",
+          "detail": "The large hangars can be cool and drafty, so bring a light layer even on warm days to stay comfortable during your visit."
+        },
+        {
+          "id": "omak_c3",
+          "text": "Respect Photography Restrictions",
+          "detail": "While photography is generally permitted, be mindful of 'no flash' zones and restricted areas to help preserve delicate aircraft and respect other visitors' experiences."
+        }
+      ]
+    },
+    {
+      "id": "nelson_lakes",
+      "name": "Nelson Lakes National Park",
+      "nameIt": "Nelson Lakes National Park",
+      "lat": -41.8,
+      "lng": 172.8333,
+      "type": "NATURE",
+      "description": "Located at the southern edge of the Marlborough region, this stunning national park features two pristine alpine lakes surrounded by beech forest and snow-capped peaks. The park offers excellent hiking, boating, and camping opportunities in a spectacular mountain setting.",
+      "imageQueries": [
+        "Nelson Lakes National Park",
+        "Nelson Lakes alpine scenery"
+      ],
+      "activities": [
+        {
+          "id": "nels_1",
+          "text": "Lake Rotoiti Circuit Walk",
+          "detail": "A moderate 32 km loop around the park's largest lake offering stunning views of beech forest, mountain peaks, and pristine alpine water.",
+          "lat": -41.8033,
+          "lng": 172.8367
+        },
+        {
+          "id": "nels_2",
+          "text": "Mount Robert Summit Walk",
+          "detail": "A challenging day hike ascending 1,400 metres to panoramic views across both lakes and the surrounding mountain ranges.",
+          "lat": -41.8067,
+          "lng": 172.8233
+        },
+        {
+          "id": "nels_3",
+          "text": "Lake Constance Hike",
+          "detail": "A scenic alpine walk to a secluded lake nestled above the main valleys, featuring native beech forest and mountain vistas.",
+          "lat": -41.815,
+          "lng": 172.81
+        },
+        {
+          "id": "nels_4",
+          "text": "Boating on Lake Rotoiti",
+          "detail": "Rent kayaks or boats to explore the crystal-clear waters and access remote bays and fishing spots around the lake.",
+          "lat": -41.8033,
+          "lng": 172.8367
+        },
+        {
+          "id": "nels_5",
+          "text": "Splinter Bay Camping",
+          "detail": "An iconic beachside campground on Lake Rotoiti accessible by boat or hiking, offering immersive wilderness overnight experiences.",
+          "lat": -41.8233,
+          "lng": 172.8567
+        },
+        {
+          "id": "nels_6",
+          "text": "Trout Fishing",
+          "detail": "Fish for brown and rainbow trout in the pristine lakes and surrounding streams, a popular pastime in the park.",
+          "lat": -41.8033,
+          "lng": 172.8367
+        }
+      ],
+      "food": [
+        {
+          "id": "nels_f1",
+          "text": "Fresh Lake Trout",
+          "detail": "Locally caught and freshly prepared trout from Nelson Lakes, often available at lodge restaurants and visitor accommodations."
+        },
+        {
+          "id": "nels_f2",
+          "text": "Nelson Region Sauvignon Blanc",
+          "detail": "The nearby Marlborough wine region produces world-renowned Sauvignon Blanc that pairs perfectly with mountain lodge dining."
+        },
+        {
+          "id": "nels_f3",
+          "text": "Venison and Game Meat",
+          "detail": "Local game including farmed and wild venison is featured in regional restaurants, reflecting the South Island hunting heritage."
+        },
+        {
+          "id": "nels_f4",
+          "text": "Native Beech Honey",
+          "detail": "Golden honey sourced from hives near the beech forests of the park offers a unique local sweetener and souvenir."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nels_c1",
+          "text": "Respect Conservation Closures",
+          "detail": "The park implements seasonal closures on certain tracks to protect nesting birds and prevent erosion; always check local notices before hiking."
+        },
+        {
+          "id": "nels_c2",
+          "text": "Leave No Trace Principles",
+          "detail": "Visitors are expected to pack out all waste, camp only in designated areas, and minimize impact on the pristine alpine environment."
+        },
+        {
+          "id": "nels_c3",
+          "text": "Maori Heritage Recognition",
+          "detail": "The park sits on Maori land and visitors should acknowledge this connection; some place names like Rotoiti reflect Maori language and culture."
+        },
+        {
+          "id": "nels_c4",
+          "text": "Weather Preparedness",
+          "detail": "Alpine weather can change rapidly; locals and rangers strongly recommend carrying extra layers and checking forecasts, as conditions can turn dangerous quickly."
+        }
+      ]
+    },
+    {
+      "id": "cloudy_bay",
+      "name": "Cloudy Bay",
+      "nameIt": "Cloudy Bay",
+      "lat": -41.6333,
+      "lng": 173.8667,
+      "type": "COASTAL",
+      "description": "A dramatic coastal area at the southern end of the Wairau Valley, known for its rugged beaches, powerful waves, and strong winds that have shaped the landscape. The bay offers a raw, untamed beauty and is popular with surfers and those seeking solitude in nature.",
+      "imageQueries": [
+        "Cloudy Bay New Zealand beach",
+        "Cloudy Bay coastal landscape"
+      ],
+      "activities": [
+        {
+          "id": "clou_1",
+          "text": "Surfing at Cloudy Bay Beach",
+          "detail": "Ride consistent swells on this exposed beach break, popular with experienced surfers who respect the powerful currents and rocky sections.",
+          "lat": -41.5833,
+          "lng": 173.9667
+        },
+        {
+          "id": "clou_2",
+          "text": "Walk the rugged coastline",
+          "detail": "Explore windswept cliffs and dramatic rock formations along the southern shore, where native vegetation clings to the exposed landscape.",
+          "lat": -41.585,
+          "lng": 173.965
+        },
+        {
+          "id": "clou_3",
+          "text": "Birdwatching at Cloudy Bay",
+          "detail": "Spot native seabirds including variable oystercatchers and dotterels among the tussock grass and rocky outcrops.",
+          "lat": -41.584,
+          "lng": 173.967
+        },
+        {
+          "id": "clou_4",
+          "text": "Visit Cloudy Bay Vineyard",
+          "detail": "Tour the cellar door and taste award-winning Sauvignon Blanc and Pinot Noir in a valley setting overlooking the bay.",
+          "lat": -41.57,
+          "lng": 173.95
+        },
+        {
+          "id": "clou_5",
+          "text": "Photography at sunset",
+          "detail": "Capture moody light over the bay's turbulent waters and raw coastal landscape during golden hour.",
+          "lat": -41.5833,
+          "lng": 173.9667
+        },
+        {
+          "id": "clou_6",
+          "text": "Storm watching from the shore",
+          "detail": "Experience the full force of Southerly weather systems as they rage across the exposed bay, a thrilling natural spectacle.",
+          "lat": -41.5833,
+          "lng": 173.9667
+        }
+      ],
+      "food": [
+        {
+          "id": "clou_f1",
+          "text": "Fresh green-lipped mussels",
+          "detail": "Sample locally harvested mussels prepared simply steamed or in white wine, showcasing the clean flavours of the Marlborough coast."
+        },
+        {
+          "id": "clou_f2",
+          "text": "Marlborough Sauvignon Blanc pairing",
+          "detail": "Enjoy the region's signature crisp white wine alongside fresh seafood at local venues, a quintessential Marlborough experience."
+        },
+        {
+          "id": "clou_f3",
+          "text": "Crayfish (Rock Lobster)",
+          "detail": "Savour seasonal fresh crayfish from local waters, often grilled simply to highlight its sweet, delicate meat."
+        },
+        {
+          "id": "clou_f4",
+          "text": "Fish and chips from local suppliers",
+          "detail": "Grab fresh-caught fish battered and fried, eaten on the beach while watching the powerful Cloudy Bay swells."
+        }
+      ],
+      "culture": [
+        {
+          "id": "clou_c1",
+          "text": "Respect the wind and weather",
+          "detail": "Cloudy Bay lives up to its name with sudden weather changes; always check forecasts and be prepared for rapid shifts in conditions."
+        },
+        {
+          "id": "clou_c2",
+          "text": "Surf etiquette is essential",
+          "detail": "The local surf community values respect for the break and other surfers; observe wave-sharing rules and avoid crowding experienced locals."
+        },
+        {
+          "id": "clou_c3",
+          "text": "Embrace isolation and solitude",
+          "detail": "This is a place for quiet contemplation rather than tourism crowds; visitors come here to disconnect and experience raw nature."
+        }
+      ]
+    },
+    {
+      "id": "spring_creek",
+      "name": "Spring Creek",
+      "nameIt": "Spring Creek",
+      "lat": -41.5833,
+      "lng": 173.9667,
+      "type": "VILLAGE",
+      "description": "A quiet village in the Marlborough wine region offering a peaceful alternative to Blenheim with several excellent wineries and dining options nearby. The area combines rural charm with access to the region's wine and culinary attractions.",
+      "imageQueries": [
+        "Spring Creek Marlborough",
+        "Spring Creek wine village"
+      ],
+      "activities": [
+        {
+          "id": "spri_1",
+          "text": "Winery Tours at Greywacke",
+          "detail": "Visit this boutique winery known for its Sauvignon Blanc and experimental wines, with cellar door tastings and vineyard views.",
+          "lat": -41.5167,
+          "lng": 173.95
+        },
+        {
+          "id": "spri_2",
+          "text": "Cloudy Bay Vineyard Visit",
+          "detail": "Explore one of Marlborough's most acclaimed wineries offering premium tastings, restaurant dining, and scenic vineyard walks.",
+          "lat": -41.52,
+          "lng": 173.96
+        },
+        {
+          "id": "spri_3",
+          "text": "Spring Creek Village Walk",
+          "detail": "Stroll through the quiet rural village exploring local farms, heritage cottages, and peaceful countryside landscapes.",
+          "lat": -41.518,
+          "lng": 173.952
+        },
+        {
+          "id": "spri_4",
+          "text": "Cycling the Marlborough Wine Trail",
+          "detail": "Rent a bike and follow scenic routes connecting Spring Creek to nearby wineries and the Wairau Valley.",
+          "lat": -41.516,
+          "lng": 173.948
+        },
+        {
+          "id": "spri_5",
+          "text": "Picnicking at Local Vineyard Grounds",
+          "detail": "Pack a lunch and enjoy peaceful picnic spots among the vineyards with views of the Richmond Range.",
+          "lat": -41.519,
+          "lng": 173.955
+        },
+        {
+          "id": "spri_6",
+          "text": "Farm Gate Sales at Produce Stands",
+          "detail": "Stop at local farm gates to purchase fresh seasonal produce, berries, and homemade preserves directly from growers."
+        }
+      ],
+      "food": [
+        {
+          "id": "spri_f1",
+          "text": "Marlborough Sauvignon Blanc Tasting",
+          "detail": "Sample the region's signature crisp white wine at multiple cellar doors, showcasing the distinctive herbaceous and tropical fruit notes."
+        },
+        {
+          "id": "spri_f2",
+          "text": "Vineyard Restaurant Lunch",
+          "detail": "Dine at winery restaurants featuring locally-sourced meats, cheeses, and vegetables paired with estate wines."
+        },
+        {
+          "id": "spri_f3",
+          "text": "Fresh Berry Picking and Eating",
+          "detail": "Visit local berry farms during summer to pick and taste fresh strawberries, raspberries, and blackcurrants straight from the plants."
+        },
+        {
+          "id": "spri_f4",
+          "text": "Cheese and Charcuterie Platters",
+          "detail": "Enjoy artisanal local cheeses and cured meats from regional producers paired with fresh bread at vineyard cellar doors."
+        },
+        {
+          "id": "spri_f5",
+          "text": "Garden Vegetables and Seasonal Produce",
+          "detail": "Purchase or dine on ultra-fresh vegetables grown in the fertile Wairau Valley, often featured at farm-to-table venues."
+        }
+      ],
+      "culture": [
+        {
+          "id": "spri_c1",
+          "text": "Wine Country Etiquette",
+          "detail": "Most wineries charge a small tasting fee (often waived with purchase), and visitors should call ahead during quieter seasons as some operate by appointment only."
+        },
+        {
+          "id": "spri_c2",
+          "text": "Rural Hospitality and Pace",
+          "detail": "Spring Creek maintains a slow, village pace with limited evening entertainment; plan activities during daylight hours and respect private farm properties."
+        },
+        {
+          "id": "spri_c3",
+          "text": "Seasonal Wine Events",
+          "detail": "The region hosts Marlborough Wine Festival in February and various harvest celebrations; check local calendars as Spring Creek fills with visitors during peak wine season."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Wither Hills Winery Restaurant",
+      "address": "211 New Renwick Road, Blenheim",
+      "neighbourhood": "Blenheim",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Cellar door dining with vineyard views offering seasonal menus paired with estate wines.",
+      "mustOrder": "Duck breast with berry gastrique",
+      "lat": -41.5136,
+      "lng": 173.9504
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Raupo Restaurant",
+      "address": "24 Maxwell Road, Blenheim",
+      "neighbourhood": "Blenheim",
+      "cuisine": "Contemporary NZ",
+      "priceRange": "€€€",
+      "description": "Chef-driven restaurant focusing on local ingredients and wine country produce with artistic presentations.",
+      "mustOrder": "Local venison with red wine reduction",
+      "lat": -41.5081,
+      "lng": 173.9467
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Greywacke Restaurant",
+      "address": "Greywacke Wines, Rapaura Road, Blenheim",
+      "neighbourhood": "Rapaura",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Intimate winery restaurant set in a converted barn showcasing premium local and seasonal ingredients.",
+      "mustOrder": "Pan-seared scallops with cauliflower puree",
+      "lat": -41.5271,
+      "lng": 173.9689
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Café Odeon",
+      "address": "19 Market Street, Blenheim",
+      "neighbourhood": "Blenheim Central",
+      "cuisine": "Café/Light Fare",
+      "priceRange": "€",
+      "description": "Casual all-day café popular for excellent coffee, brunch and fresh salads in the town centre.",
+      "mustOrder": "Smoked salmon and avocado on sourdough",
+      "lat": -41.5205,
+      "lng": 173.9561
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Herzog Wine Bar & Restaurant",
+      "address": "81 Jeffries Road, Blenheim",
+      "neighbourhood": "Blenheim",
+      "cuisine": "European/NZ Fusion",
+      "priceRange": "€€€€",
+      "description": "Luxury dining experience from acclaimed winemakers combining Austrian heritage with Marlborough produce.",
+      "mustOrder": "Beef Wellington with Burgundy reduction",
+      "lat": -41.5158,
+      "lng": 173.9423
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Saint Clair Kitchen & Bar",
+      "address": "Rapaura Road, Blenheim",
+      "neighbourhood": "Rapaura",
+      "cuisine": "Contemporary NZ",
+      "priceRange": "€€€",
+      "description": "Upmarket winery restaurant with stone fireplace and cellar door, focused on wine-paired seasonal dishes.",
+      "mustOrder": "Barramundi with lemon beurre blanc",
+      "lat": -41.5312,
+      "lng": 173.9701
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Bellbird Kitchen & Bar",
+      "address": "19 Market Street, Blenheim",
+      "neighbourhood": "Blenheim Central",
+      "cuisine": "Modern Comfort Food",
+      "priceRange": "€€",
+      "description": "Warm neighbourhood restaurant offering elevated comfort food with an extensive wine list.",
+      "mustOrder": "Braised lamb shoulder with root vegetables",
+      "lat": -41.5203,
+      "lng": 173.9558
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Picton Village Bakery",
+      "address": "High Street, Picton",
+      "neighbourhood": "Picton",
+      "cuisine": "Bakery/Café",
+      "priceRange": "€",
+      "description": "Award-winning artisan bakery and café known for sourdough bread and homemade pies.",
+      "mustOrder": "Steak and cheese pie",
+      "lat": -41.289,
+      "lng": 174.0034
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "The Mussel Boys",
+      "address": "6 Auckland Street, Picton",
+      "neighbourhood": "Picton Waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual waterfront seafood restaurant specialising in fresh mussels, fish and local catches.",
+      "mustOrder": "Green-lipped mussels in garlic and white wine",
+      "lat": -41.2905,
+      "lng": 174.0045
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Taste Restaurant",
+      "address": "Mahina Estate, Renwick Road, Blenheim",
+      "neighbourhood": "Renwick",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Vineyard restaurant with panoramic views offering locally-sourced menus paired with estate wines.",
+      "mustOrder": "Herb-crusted lamb with seasonal vegetables",
+      "lat": -41.5089,
+      "lng": 173.9234
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Twelve Trees Vineyard Restaurant",
+      "address": "Rapaura Road, Blenheim",
+      "neighbourhood": "Rapaura",
+      "cuisine": "NZ Contemporary",
+      "priceRange": "€€€",
+      "description": "Boutique winery restaurant with intimate setting and focus on artisan wines and seasonal cuisine.",
+      "mustOrder": "Seared venison loin with cherry gastrique",
+      "lat": -41.5289,
+      "lng": 173.9678
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "The Marlborough Wine Centre Restaurant",
+      "address": "Seymour Street, Blenheim",
+      "neighbourhood": "Blenheim Central",
+      "cuisine": "Casual NZ",
+      "priceRange": "€€",
+      "description": "Centre-based restaurant offering casual dining with views of the wine region's local producers.",
+      "mustOrder": "Local fish and chips",
+      "lat": -41.521,
+      "lng": 173.9543
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Crab Shack",
+      "address": "High Street, Picton",
+      "neighbourhood": "Picton",
+      "cuisine": "Seafood/Casual",
+      "priceRange": "€€",
+      "description": "Casual seafood spot famous for crayfish and crab, with waterfront views and fresh daily specials.",
+      "mustOrder": "Whole crayfish with garlic butter",
+      "lat": -41.2896,
+      "lng": 174.0038
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Springvale Wine Bar & Restaurant",
+      "address": "Rapaura Road, Blenheim",
+      "neighbourhood": "Rapaura",
+      "cuisine": "Modern NZ",
+      "priceRange": "€€€",
+      "description": "Established vineyard restaurant combining elegant dining with award-winning estate wines.",
+      "mustOrder": "Beef fillet with mushroom sauce",
+      "lat": -41.5298,
+      "lng": 173.971
+    }
+  ]
+}
