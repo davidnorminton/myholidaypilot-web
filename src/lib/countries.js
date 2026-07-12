@@ -30,6 +30,8 @@ export const COUNTRIES = [
     blurb: "Mapped region by region." },
   { slug: 'egypt', name: "Egypt", flag: '🇪🇬', available: true,
     blurb: "Mapped region by region." },
+  { slug: 'fiji', name: "Fiji", flag: '🇫🇯', available: true,
+    blurb: "Mapped region by region." },
   { slug: 'finland', name: "Finland", flag: '🇫🇮', available: true,
     blurb: "Mapped region by region." },
   { slug: 'iceland', name: "Iceland", flag: '🇮🇸', available: true,
