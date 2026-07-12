@@ -2603,8 +2603,6 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planpage__prevlink:hover{text-decoration:underline}
 .planform__create{display:inline-flex; align-items:center; gap:7px; align-self:flex-start; margin-top:18px; padding:13px 26px; border-radius:999px; border:0; background:var(--ink); color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:filter .15s}
 .planform__create:hover{filter:brightness(1.15)}
-.planform__clear{margin-left:auto; padding:8px 16px; border:1px solid #ff1900; border-radius:999px; background:#ff1900; color:#fff; font-weight:700; font-size:13px; cursor:pointer; transition:filter .15s}
-.planform__clear:hover{filter:brightness(1.1)}
 .planform__confirm{margin-left:auto; display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:700; color:var(--ink)}
 .planform__confirmyes{padding:8px 14px; border:0; border-radius:999px; background:var(--danger); color:#fff; font-weight:700; font-size:13px; cursor:pointer}
 .planform__confirmno{padding:8px 14px; border:1px solid var(--line); border-radius:999px; background:var(--surface); color:var(--ink-soft); font-weight:700; font-size:13px; cursor:pointer}
@@ -2869,7 +2867,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planform__flights summary em{font-style:normal; font-weight:500; color:var(--muted); font-size:12px}
 .planform__flights[open] summary{display:none}
 .planform__flights[open]{background:rgba(255,255,255,.92); padding:12px; margin:0 -6px}
-.planform__clear--quiet{align-self:flex-start; background:none; border:0; padding:4px 2px; font-size:12.5px; font-weight:600;
+.planform__clear--quiet{align-self:flex-start; margin:0; background:none; border:0; padding:4px 2px; font-size:12.5px; font-weight:600; cursor:pointer;
   color:rgba(255,255,255,.85); text-decoration:underline; text-underline-offset:3px; cursor:pointer}
 .planpage__form:not(.planpage__form--img) .planform__clear--quiet{color:var(--ink-soft)}
 .planform__field{display:flex; flex-direction:column; gap:6px}
