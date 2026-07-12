@@ -421,6 +421,10 @@ button{font-family:inherit; cursor:pointer; border:none; background:none}
 .trip__name{font-family:var(--sans); font-weight:800; font-size:clamp(30px,5vw,46px); letter-spacing:-.01em; padding-right:34px;
   border:none; background:none; color:var(--ink); padding:2px 6px; margin-left:-6px; border-radius:8px; flex:1; min-width:0}
 .trip__name:hover{background:var(--surface-2)} .trip__name:focus{outline:2px solid var(--accent); background:var(--surface)}
+.planbuild__titlebar .trip__name{color:#fff}
+.planbuild__titlebar .trip__name:hover{background:rgba(255,255,255,.08)}
+.planbuild__titlebar .trip__name:focus{background:rgba(255,255,255,.12); outline:2px solid rgba(255,255,255,.5); color:#fff}
+.planbuild__titlebar .trip__pencil{color:#fff}
 .trip__stats{font-size:13px; color:var(--muted); white-space:nowrap}
 .trip__del{width:38px; height:38px; flex:none; border-radius:10px; display:grid; place-items:center;
   color:var(--muted); border:1px solid var(--line); background:var(--surface)}
@@ -3180,13 +3184,13 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planform__confirmyes{padding:8px 14px; border:0; border-radius:999px; background:var(--danger); color:#fff; font-weight:700; font-size:13px; cursor:pointer}
 .planform__confirmno{padding:8px 14px; border:1px solid var(--line); border-radius:999px; background:var(--surface); color:var(--ink-soft); font-weight:700; font-size:13px; cursor:pointer}
 .planform__confirmno:hover{border-color:var(--gold); color:var(--ink)}
-.planbuild__titlebar{display:flex; align-items:stretch; justify-content:space-between; gap:16px; margin:6px calc(50% - 50vw) 22px; padding-left:calc(50vw - 50%); background:#e89efe; min-height:56px}
+.planbuild__titlebar{display:flex; align-items:stretch; justify-content:space-between; gap:16px; margin:6px calc(50% - 50vw) 22px; padding-left:calc(50vw - 50%); background:rgb(43,45,46); min-height:56px}
 .planbuild__title{display:flex; align-items:center; gap:12px; flex-wrap:wrap; padding:6px 0 6px 20px}
-.planbuild__titlelabel{font-size:15px; font-weight:700; color:#000}
+.planbuild__titlelabel{font-size:15px; font-weight:700; color:#fff}
 .planbuild__actions{display:flex; align-items:stretch}
-.planbuild__act{display:inline-flex; align-items:center; gap:7px; padding:0 18px; border:0; border-left:1px solid rgba(0,0,0,.14); background:transparent; color:#000; font-weight:700; font-size:13.5px; cursor:pointer; transition:background .13s ease}
-.planbuild__act:hover{background:rgba(0,0,0,.08)}
-.planbuild__act--del{color:#a11}
+.planbuild__act{display:inline-flex; align-items:center; gap:7px; padding:0 18px; border:0; border-left:1px solid rgba(255,255,255,.16); background:transparent; color:#fff; font-weight:700; font-size:13.5px; cursor:pointer; transition:background .13s ease}
+.planbuild__act:hover{background:rgba(255,255,255,.1)}
+.planbuild__act--del{color:#ff8f86}
 .tvp__backdrop{position:fixed; inset:0; z-index:85; background:rgba(20,17,12,.45); animation:fade .2s ease both}
 .tvp{position:fixed; top:0; right:0; bottom:0; width:min(560px,94vw); background:var(--paper); border-left:1px solid var(--line);
   display:flex; flex-direction:column; box-shadow:-18px 0 48px rgba(0,0,0,.22); animation:tvpin .24s cubic-bezier(.22,.61,.36,1) both}
@@ -3355,7 +3359,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .plansheet{position:fixed; inset:0; z-index:60; background:var(--paper); display:flex; flex-direction:column;
   animation:sheetUp .28s cubic-bezier(.22,.61,.36,1)}
 .plansheet > .planbuild__titlebar{flex:none; margin:0; padding-left:0}
-.planbuild__act--close{background:#000; color:#fff}
+.planbuild__act--close{background:#000; color:#fff; border-left-color:rgba(255,255,255,.25)}
 .plansheet.is-closing{animation:sheetDown .24s cubic-bezier(.55,.06,.68,.19) forwards}
 @keyframes sheetUp{from{transform:translateY(100%)}}
 @keyframes sheetDown{to{transform:translateY(100%)}}
@@ -3404,7 +3408,19 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .cms-img__name{display:block; font-size:13.5px; margin-bottom:4px}
 .cms-img__save{padding:8px 14px; font-size:12.5px}
 .planpage__form{flex:1; min-width:0}
-.planform{display:flex; flex-direction:column; gap:14px; background:rgb(135 210 254); border:0; border-radius:0; padding:22px; position:relative}
+.planform{display:flex; flex-direction:column; gap:14px; background:rgb(135 210 254); border:0; border-radius:0; padding:22px; position:relative;
+  background-size:cover; background-position:center}
+.planform--img .planform__label{color:#fff}
+.planform__flights{margin-top:2px}
+.planform__flights summary{display:inline-flex; align-items:center; gap:7px; cursor:pointer; list-style:none;
+  font-weight:700; font-size:13.5px; padding:9px 14px; background:rgba(255,255,255,.92); border:1px dashed var(--ink-muted, #8a8378)}
+.planform__flights summary::-webkit-details-marker{display:none}
+.planform__flights summary em{font-style:normal; font-weight:500; color:var(--muted); font-size:12px}
+.planform__flights[open] summary{margin-bottom:12px}
+.planform__flights[open]{background:rgba(255,255,255,.92); padding:12px; margin:0 -6px}
+.planform__clear--quiet{align-self:flex-end; background:none; border:0; padding:4px 2px; font-size:12.5px; font-weight:600;
+  color:rgba(255,255,255,.85); text-decoration:underline; text-underline-offset:3px; cursor:pointer}
+.planform:not(.planform--img) .planform__clear--quiet{color:var(--ink-soft)}
 .planform::after{content:""; position:absolute; top:0; bottom:0; left:100%; width:100vw; background:rgb(135 210 254)}
 .planform__field{display:flex; flex-direction:column; gap:6px}
 .planform__label{font-size:11.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:#000}

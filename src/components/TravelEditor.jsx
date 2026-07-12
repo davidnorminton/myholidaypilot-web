@@ -213,14 +213,6 @@ export default function TravelEditor({ trip }) {
             </div>
             {editing === which && <AirportForm trip={trip} which={which} onDone={() => setEditing(null)} />}
             {editing === `home:${which}` && <HomeAirportForm onPick={setHome} onDone={() => setEditing(null)} />}
-            {destPt && affCfg && (
-              <a className="planflights__book" href={linkFor(which)} target="_blank" rel="noreferrer sponsored">
-                {which === 'arrive'
-                  ? `Book flights ${home ? short(home) + ' → ' : 'to '}${short(destPt)}`
-                  : `Book flights ${short(destPt)} → ${home ? short(home) : 'home'}`}
-                <span className="planflights__ad">ad</span>
-              </a>
-            )}
           </div>
         )
       })}

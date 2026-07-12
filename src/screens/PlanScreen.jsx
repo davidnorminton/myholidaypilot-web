@@ -11,6 +11,7 @@ import {
   healTripCoords,
 } from '../lib/trips.js'
 import { useSettings } from '../lib/settings.js'
+import { imgUrl } from '../lib/imgUrl.js'
 import { useSeo } from '../lib/seo.js'
 // PDF generation (jspdf + html2canvas, ~760K) loads only when asked for
 const downloadTripPdf = async (...a) => (await import('../lib/tripPdf.js')).downloadTripPdf(...a)
@@ -119,6 +120,8 @@ export default function PlanScreen() {
   // Builder stays hidden until a destination + dates are set and "Create" is
   // tapped; an existing trip with places is already past that point.
   const canResume = !!(trip && (trip.places.length > 0 || (trip.startDate && trip.countryId)))
+  const nights = heroStart && heroEnd ? Math.max(0, Math.round((new Date(heroEnd) - new Date(heroStart)) / 86400000)) : 0
+  const heroImg = heroCountry ? (site[`countryHero.${heroCountry}`] || '') : ''
 
   // Esc closes; page behind doesn't scroll while the sheet is up.
   useEffect(() => {
@@ -197,7 +200,8 @@ export default function PlanScreen() {
             <Link to={paths.trips()} className="planpage__prevlink">View previous planned trips <ChevronRight size={15} /></Link>
           </div>
           <div className="planpage__form">
-            <div className="planform">
+            <div className={`planform ${heroImg ? 'planform--img' : ''}`}
+              style={heroImg ? { backgroundImage: `linear-gradient(rgba(12,14,18,.52), rgba(12,14,18,.6)), url(${imgUrl(heroImg, 900)})` } : undefined}>
               <label className="planform__field">
                 <span className="planform__label">Destination</span>
                 <select className="planform__select" value={heroCountry} onChange={(e) => onCountryChange(e.target.value)}>
@@ -211,32 +215,38 @@ export default function PlanScreen() {
                   <input type="date" value={heroStart} onChange={(e) => setHeroDates(e.target.value, heroEnd)} />
                 </label>
                 <label className="planform__field">
-                  <span className="planform__label">To</span>
+                  <span className="planform__label">To{nights > 0 ? ` · ${nights} night${nights === 1 ? '' : 's'}` : ''}</span>
                   <input type="date" value={heroEnd} onChange={(e) => setHeroDates(heroStart, e.target.value)} />
                 </label>
               </div>
-              {trip && <TravelEditor trip={trip} />}
-            </div>
-            <div className="planform__summary">
-              {heroCountryName && <span className="planform__chip"><Globe2 size={14} /> {heroCountryName}</span>}
-              {heroStart && <span className="planform__chip"><CalendarRange size={14} /> {fmtRange(heroStart, heroEnd)}</span>}
-              {confirmClear ? (
-                <span className="planform__confirm">
-                  Clear everything?
-                  <button className="planform__confirmyes" onClick={() => { onClear(); setConfirmClear(false) }}>Clear</button>
-                  <button className="planform__confirmno" onClick={() => setConfirmClear(false)}>Keep</button>
-                </span>
-              ) : (
-                <button className="planform__clear" onClick={() => setConfirmClear(true)}>Clear</button>
+
+              {canResume ? (
+                <button className="planform__create" onClick={() => setSheetOpen(true)}>
+                  Resume building — {trip.name} <ChevronRight size={16} />
+                </button>
+              ) : heroCountry && heroStart && heroEnd ? (
+                <button className="planform__create" onClick={onCreate}>Create trip <ChevronRight size={16} /></button>
+              ) : null}
+
+              {trip && (
+                <details className="planform__flights">
+                  <summary><Plus size={14} /> Add flights <em>optional</em></summary>
+                  <TravelEditor trip={trip} />
+                </details>
+              )}
+
+              {(heroCountry || heroStart || trip) && (
+                confirmClear ? (
+                  <span className="planform__confirm">
+                    Clear everything?
+                    <button className="planform__confirmyes" onClick={() => { onClear(); setConfirmClear(false) }}>Clear</button>
+                    <button className="planform__confirmno" onClick={() => setConfirmClear(false)}>Keep</button>
+                  </span>
+                ) : (
+                  <button className="planform__clear planform__clear--quiet" onClick={() => setConfirmClear(true)}>Clear and start over</button>
+                )
               )}
             </div>
-            {canResume ? (
-              <button className="planform__create" onClick={() => setSheetOpen(true)}>
-                Resume building — {trip.name} <ChevronRight size={16} />
-              </button>
-            ) : heroCountry && heroStart && heroEnd ? (
-              <button className="planform__create" onClick={onCreate}>Create trip <ChevronRight size={16} /></button>
-            ) : null}
           </div>
         </header>
       </div>
