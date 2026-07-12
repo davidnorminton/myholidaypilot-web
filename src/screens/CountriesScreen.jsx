@@ -10,15 +10,39 @@ import { useSettings } from '../lib/settings.js'
 
 // Continent grouping for the filter — a country not listed falls under "Other".
 const CONTINENT = {
+  // Europe
   italy: 'Europe', spain: 'Europe', portugal: 'Europe', france: 'Europe', greece: 'Europe',
   united_kingdom: 'Europe', germany: 'Europe', netherlands: 'Europe', norway: 'Europe',
   poland: 'Europe', sweden: 'Europe', switzerland: 'Europe', ireland: 'Europe', austria: 'Europe',
   belgium: 'Europe', denmark: 'Europe', finland: 'Europe', iceland: 'Europe', croatia: 'Europe',
+  czechia: 'Europe', czech_republic: 'Europe', hungary: 'Europe', romania: 'Europe', bulgaria: 'Europe',
+  slovakia: 'Europe', slovenia: 'Europe', estonia: 'Europe', latvia: 'Europe', lithuania: 'Europe',
+  malta: 'Europe', cyprus: 'Europe', luxembourg: 'Europe', albania: 'Europe', montenegro: 'Europe',
+  serbia: 'Europe', bosnia_and_herzegovina: 'Europe', north_macedonia: 'Europe', ukraine: 'Europe',
+  georgia: 'Europe', turkey: 'Europe',
+  // Americas
   united_states: 'Americas', canada: 'Americas', mexico: 'Americas', brazil: 'Americas', argentina: 'Americas',
+  peru: 'Americas', chile: 'Americas', colombia: 'Americas', costa_rica: 'Americas', cuba: 'Americas',
+  dominican_republic: 'Americas', ecuador: 'Americas', bolivia: 'Americas', uruguay: 'Americas',
+  guatemala: 'Americas', panama: 'Americas', jamaica: 'Americas', bahamas: 'Americas', belize: 'Americas',
+  // Asia
   japan: 'Asia', china: 'Asia', thailand: 'Asia', vietnam: 'Asia', south_korea: 'Asia', india: 'Asia',
-  indonesia: 'Asia', singapore: 'Asia', malaysia: 'Asia',
-  australia: 'Oceania', new_zealand: 'Oceania',
+  indonesia: 'Asia', singapore: 'Asia', malaysia: 'Asia', philippines: 'Asia', taiwan: 'Asia',
+  sri_lanka: 'Asia', nepal: 'Asia', cambodia: 'Asia', laos: 'Asia', maldives: 'Asia',
+  hong_kong: 'Asia', mongolia: 'Asia', kazakhstan: 'Asia', uzbekistan: 'Asia',
+  // Middle East
+  israel: 'Middle East', jordan: 'Middle East', united_arab_emirates: 'Middle East', qatar: 'Middle East',
+  saudi_arabia: 'Middle East', oman: 'Middle East', lebanon: 'Middle East', bahrain: 'Middle East',
+  kuwait: 'Middle East',
+  // Oceania
+  australia: 'Oceania', new_zealand: 'Oceania', fiji: 'Oceania', samoa: 'Oceania', tonga: 'Oceania',
+  vanuatu: 'Oceania', papua_new_guinea: 'Oceania', french_polynesia: 'Oceania', cook_islands: 'Oceania',
+  // Africa
   morocco: 'Africa', egypt: 'Africa', south_africa: 'Africa', kenya: 'Africa', tanzania: 'Africa',
+  tunisia: 'Africa', namibia: 'Africa', botswana: 'Africa', ethiopia: 'Africa', ghana: 'Africa',
+  senegal: 'Africa', madagascar: 'Africa', mauritius: 'Africa', seychelles: 'Africa', uganda: 'Africa',
+  rwanda: 'Africa', zambia: 'Africa', zimbabwe: 'Africa', mozambique: 'Africa', algeria: 'Africa',
+  cape_verde: 'Africa',
 }
 const continentOf = (slug) => CONTINENT[slug] || 'Other'
 
