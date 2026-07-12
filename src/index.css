@@ -2763,6 +2763,25 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   font-size:13px; text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .destmosaic.is-5 [style*="grid-area: a"] .destmosaic__name{font-size:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* --- dedicated auth pages --- */
+.auth-page{display:flex; justify-content:center; padding:clamp(30px,7vh,70px) 0 80px}
+.auth-page__card{width:min(440px,100%); border:1px solid var(--line); background:var(--surface); padding:30px 28px 26px}
+.auth-page__title{font-size:26px; margin:0 0 6px}
+.auth-page__sub{color:var(--muted); font-size:14.5px; line-height:1.55; margin:0 0 20px}
+.auth-page__google{display:flex; justify-content:center; margin-bottom:14px}
+.auth-page__or{display:flex; align-items:center; gap:12px; margin:0 0 14px; color:var(--muted); font-size:12.5px}
+.auth-page__or::before, .auth-page__or::after{content:""; flex:1; height:1px; background:var(--line)}
+.auth-page__form{display:flex; flex-direction:column; gap:12px}
+.auth-page__field{display:flex; flex-direction:column; gap:5px}
+.auth-page__field span{font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted)}
+.auth-page__field input{padding:11px 12px; border:1px solid var(--line); font-size:15px; background:var(--paper)}
+.auth-page__field input:focus{outline:2px solid var(--gold)}
+.auth-page__hp{position:absolute; left:-9999px; width:1px; height:1px; opacity:0; pointer-events:none}
+.auth-page__captcha{margin:2px 0}
+.auth-page__error{color:#b4231a; font-size:13.5px; margin:0}
+.auth-page__submit{justify-content:center; gap:8px; padding:12px; font-size:15px}
+.auth-page__swap{text-align:center; font-size:13.5px; color:var(--muted); margin:18px 0 0}
+.auth-page__swap a{color:var(--gold); font-weight:700}
 /* --- admin shell: fixed dark sidebar --- */
 .adminshell{display:flex; align-items:stretch; min-height:calc(100vh - var(--topbar-h))}
 .adminside{flex:none; width:212px; background:rgb(43,45,46); color:#fff; padding:20px 0 30px;

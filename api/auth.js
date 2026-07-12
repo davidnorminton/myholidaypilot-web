@@ -85,7 +85,31 @@ export default handler(async (req, res) => {
   const body = await readBody(req)
 
   // ── create account ──────────────────────────────────────────────────────
+  // ── bot protection ──────────────────────────────────────────────────────
+  // Layered: a honeypot field bots auto-fill, a minimum-time check on signup
+  // (humans don't complete a form in under 3s), and Cloudflare Turnstile when
+  // TURNSTILE_SECRET is configured (skipped otherwise so dev keeps working).
+  async function verifyHuman(kind) {
+    if (String(body.website || '').trim() !== '') throw fail(400, 'Something went wrong — please try again')
+    if (kind === 'signup') {
+      const t0 = Number(body.t0 || 0)
+      if (t0 && Date.now() - t0 < 3000) throw fail(400, 'Please take a moment and try again')
+    }
+    const secret = process.env.TURNSTILE_SECRET
+    if (!secret) return
+    const token = String(body.captcha || '')
+    if (!token) throw fail(400, 'Please complete the verification')
+    const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ secret, response: token }),
+    })
+    const j = await r.json().catch(() => ({}))
+    if (!j.success) throw fail(400, 'Verification failed — please try again')
+  }
+
   if (q.action === 'signup') {
+    await verifyHuman('signup')
     const email = String(body.email || '').trim().toLowerCase()
     const password = String(body.password || '')
     const name = String(body.name || '').trim().slice(0, 80)
@@ -112,6 +136,7 @@ export default handler(async (req, res) => {
 
   // ── sign in ─────────────────────────────────────────────────────────────
   if (q.action === 'login') {
+    await verifyHuman('login')
     const email = String(body.email || '').trim().toLowerCase()
     const password = String(body.password || '')
     if (!EMAIL.test(email) || !password) throw fail(400, 'Invalid email or password')

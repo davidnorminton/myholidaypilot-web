@@ -18,6 +18,8 @@ export const paths = {
   saved: () => '/saved',
   trips: () => '/trips',
   account: (section) => (section ? `/account/${section}` : '/account'),
+  login: () => '/login',
+  signup: () => '/signup',
   guided: () => '/guided',
   dayTrips: (from) => (from ? `/day-trips?from=${from}` : '/day-trips'),
   gallery: () => '/trip-ideas',

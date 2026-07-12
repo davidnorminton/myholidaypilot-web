@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { LogOut, Shield, ChevronDown, Heart, CalendarRange, Home } from 'lucide-react'
-import { useAuth, GoogleSignInButton } from '../lib/auth.jsx'
+import { LogOut, Shield, Heart, CalendarRange, Home } from 'lucide-react'
+import { useAuth } from '../lib/auth.jsx'
 import { paths } from '../lib/paths.js'
 
 export default function AuthButton() {
-  const { user, isAdmin, configured, isDev, signOut, devSignIn, emailAuth } = useAuth()
+  const { user, isAdmin, configured, isDev, signOut, devSignIn } = useAuth()
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
 
@@ -19,22 +19,11 @@ export default function AuthButton() {
   if (!user) {
     return (
       <div className="auth" ref={ref}>
-        <button className="auth__signin" onClick={() => setOpen((v) => !v)}>
-          Sign in <ChevronDown size={14} />
-        </button>
-        {open && (
-          <div className="auth__menu auth__menu--signin">
-            <EmailAuthForm emailAuth={emailAuth} onDone={() => setOpen(false)} />
-            {configured && (
-              <>
-                <div className="auth__or"><span>or</span></div>
-                <GoogleSignInButton />
-              </>
-            )}
-            {!configured && isDev && (
-              <button className="btn btn--primary auth__dev" onClick={() => { devSignIn(); setOpen(false) }}>Continue (dev)</button>
-            )}
-          </div>
+        <Link className="auth__signin" to={paths.login()}>
+          Sign in
+        </Link>
+        {!configured && isDev && (
+          <button className="btn btn--primary auth__dev" onClick={devSignIn}>Continue (dev)</button>
         )}
       </div>
     )
@@ -78,38 +67,3 @@ export default function AuthButton() {
 }
 
 // Email/password sign-in + create-account, sharing one compact form.
-function EmailAuthForm({ emailAuth, onDone }) {
-  const [mode, setMode] = useState('login')   // login | signup
-  const [form, setForm] = useState({ name: '', email: '', password: '' })
-  const [busy, setBusy] = useState(false)
-  const [err, setErr] = useState('')
-  const set = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }))
-
-  const go = async () => {
-    setErr(''); setBusy(true)
-    try { await emailAuth(mode, form); onDone() }
-    catch (e) { setErr(e.message || 'Something went wrong') }
-    finally { setBusy(false) }
-  }
-
-  return (
-    <div className="eauth">
-      <div className="eauth__tabs">
-        <button className={mode === 'login' ? 'is-on' : ''} onClick={() => { setMode('login'); setErr('') }}>Sign in</button>
-        <button className={mode === 'signup' ? 'is-on' : ''} onClick={() => { setMode('signup'); setErr('') }}>Create account</button>
-      </div>
-      {mode === 'signup' && (
-        <input className="eauth__input" placeholder="Your name" value={form.name} onChange={set('name')} autoComplete="name" />
-      )}
-      <input className="eauth__input" type="email" placeholder="Email" value={form.email} onChange={set('email')} autoComplete="email" />
-      <input className="eauth__input" type="password" placeholder={mode === 'signup' ? 'Password (8+ characters)' : 'Password'}
-        value={form.password} onChange={set('password')}
-        autoComplete={mode === 'signup' ? 'new-password' : 'current-password'}
-        onKeyDown={(e) => e.key === 'Enter' && !busy && go()} />
-      {err && <p className="eauth__err">{err}</p>}
-      <button className="btn btn--primary eauth__go" onClick={go} disabled={busy}>
-        {busy ? 'One moment…' : mode === 'signup' ? 'Create account' : 'Sign in'}
-      </button>
-    </div>
-  )
-}

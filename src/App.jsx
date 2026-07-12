@@ -24,6 +24,8 @@ const AccountScreen = lazy(() => import('./screens/AccountScreen.jsx'))
 const GuidedPlannerScreen = lazy(() => import('./screens/GuidedPlannerScreen.jsx'))
 const FeaturedDestinationsScreen = lazy(() => import('./screens/FeaturedDestinationsScreen.jsx'))
 const HowItWorksScreen = lazy(() => import('./screens/HowItWorksScreen.jsx'))
+const LoginScreen = lazy(() => import('./screens/AuthScreens.jsx').then((m) => ({ default: m.LoginScreen })))
+const SignupScreen = lazy(() => import('./screens/AuthScreens.jsx').then((m) => ({ default: m.SignupScreen })))
 const PrivacyScreen = lazy(() => import('./screens/LegalScreens.jsx').then((m) => ({ default: m.PrivacyScreen })))
 const TermsScreen = lazy(() => import('./screens/LegalScreens.jsx').then((m) => ({ default: m.TermsScreen })))
 const CookiesScreen = lazy(() => import('./screens/LegalScreens.jsx').then((m) => ({ default: m.CookiesScreen })))
@@ -64,6 +66,8 @@ export default function App() {
           <Route path="/guided" element={<GuidedPlannerScreen />} />
           <Route path="/featured-destinations" element={<FeaturedDestinationsScreen />} />
           <Route path="/how-it-works" element={<HowItWorksScreen />} />
+          <Route path="/login" element={<LoginScreen />} />
+          <Route path="/signup" element={<SignupScreen />} />
           <Route path="/privacy" element={<PrivacyScreen />} />
           <Route path="/terms" element={<TermsScreen />} />
           <Route path="/cookies" element={<CookiesScreen />} />
