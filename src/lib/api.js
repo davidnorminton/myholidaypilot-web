@@ -99,6 +99,7 @@ export const api = {
     genRegions: (country) => req('POST', `/builder?action=regions&country=${country}`),
     genPlaces: (country, region) => req('POST', `/builder?action=places&country=${country}&region=${region}`),
     deletePlace: (country, region, place) => req('DELETE', `/builder?country=${country}&region=${region}&place=${place}`),
+    deleteRegion: (country, region) => req('DELETE', `/builder?country=${country}&region=${region}`),
     genDetail: (country, region, place) => req('POST', `/builder?action=detail&country=${country}&region=${region}&place=${place}`),
     genImage: (country, region, place) => req('POST', `/builder?action=image&country=${country}&region=${region}&place=${place}`),
     setImage: (country, region, place, url, credit) => req('POST', `/builder?action=setimage&country=${country}&region=${region}&place=${place}`, { url, credit }),

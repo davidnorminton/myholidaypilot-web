@@ -583,6 +583,16 @@ Respond with ONLY valid JSON, no fences:
     return send(res, 200, { ok: true })
   }
 
+  // Remove a whole region and everything hanging off it: its places (details,
+  // image references) and the region row itself (prose, restaurants, hero).
+  if (req.method === 'DELETE' && q.region) {
+    await db.delete(buildPlaces)
+      .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region)))
+    await db.delete(buildRegions)
+      .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
+    return send(res, 200, { ok: true })
+  }
+
   // ── manual edits ────────────────────────────────────────────────────────────
   if (req.method === 'PATCH') {
     const b = await readBody(req)

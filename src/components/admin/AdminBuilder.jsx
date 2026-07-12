@@ -157,6 +157,13 @@ export function BuildView({ countryId, onBack, embedded = false }) {
               onEdit={() => setEditing(r.regionId)}
               onClose={() => setEditing(null)}
               onOpen={() => setOpenRegion(r.regionId)}
+              onRemove={async () => {
+                const n = r.placeCount || 0
+                if (!window.confirm(`Delete “${r.data?.name || r.regionId}” and everything in it${n ? ` — including its ${n} place${n === 1 ? '' : 's'}, their details and image references` : ''}? This can't be undone.`)) return
+                await api.builder.deleteRegion(countryId, r.regionId)
+                if (openRegion === r.regionId) setOpenRegion(null)
+                load()
+              }}
               onSaved={load} />
           ))}
         </div>
@@ -168,7 +175,7 @@ export function BuildView({ countryId, onBack, embedded = false }) {
   )
 }
 
-function RegionRow({ countryId, region, editing, onEdit, onClose, onOpen, onSaved }) {
+function RegionRow({ countryId, region, editing, onEdit, onClose, onOpen, onRemove, onSaved }) {
   const d = region.data
   const [form, setForm] = useState(d)
   const [busy, setBusy] = useState(false)
@@ -198,6 +205,7 @@ function RegionRow({ countryId, region, editing, onEdit, onClose, onOpen, onSave
         </span>
         <button className="story__act" onClick={onEdit}><Pencil size={13} /> Edit</button>
         <button className="btn btn--soft bld__placesbtn" onClick={onOpen}><MapPin size={13} /> Places <ChevronRight size={14} /></button>
+        <button className="story__act bld__discard" onClick={onRemove} aria-label={`Delete ${d.name}`}><Trash2 size={13} /></button>
       </div>
     )
   }

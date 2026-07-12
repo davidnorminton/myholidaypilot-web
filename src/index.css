@@ -3348,6 +3348,29 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .pub__daynote span{flex:none; width:52px; font-weight:700; font-size:12.5px}
 .pub__daynote input{flex:1; min-width:0; padding:8px 10px; border:1px solid var(--line); font-size:13px}
 .galtrip__daynote{font-style:italic; color:var(--ink-soft); font-size:15px; margin:2px 0 10px}
+/* --- trip builder slide-up sheet --- */
+.plansheet{position:fixed; top:var(--topbar-h); left:0; right:0; bottom:0; z-index:45; background:var(--paper);
+  animation:sheetUp .28s cubic-bezier(.22,.61,.36,1)}
+.plansheet.is-closing{animation:sheetDown .24s cubic-bezier(.55,.06,.68,.19) forwards}
+@keyframes sheetUp{from{transform:translateY(100%)}}
+@keyframes sheetDown{to{transform:translateY(100%)}}
+@media (prefers-reduced-motion: reduce){ .plansheet,.plansheet.is-closing{animation:none} }
+.plansheet__close{position:absolute; top:12px; right:14px; z-index:30; width:40px; height:40px; display:grid; place-items:center;
+  border:0; border-radius:50%; background:var(--ink); color:#fff; cursor:pointer; box-shadow:0 4px 14px rgba(0,0,0,.28)}
+.plansheet__close:hover{filter:brightness(1.2)}
+.planws--sheet{display:grid; grid-template-columns:236px minmax(0,1fr) clamp(320px,34vw,520px); gap:0; height:100%; margin:0; align-items:stretch}
+.planws--sheet .planws__side{height:100%; overflow-y:auto; margin:0; border:0; border-right:1px solid var(--line); border-radius:0; padding:18px 14px 30px; background:var(--surface)}
+.planws--sheet .planws__main{height:100%; overflow-y:auto; min-width:0; display:block; padding:0}
+.planws--sheet .planbuild__titlebar{position:sticky; top:0; z-index:8; margin:0; width:auto}
+.planws--sheet .planws__maininner{padding:20px 24px 60px}
+.planws--sheet .planws__map{height:100%; margin:0; border:0; border-left:1px solid var(--line); border-radius:0; overflow:hidden; position:relative}
+.planws--sheet .planws__map .mapbox-wrap, .planws--sheet .planws__map > div:first-child{height:100% !important}
+@media (max-width: 960px){
+  .planws--sheet{grid-template-columns:1fr; grid-template-rows:auto 1fr; overflow-y:auto; display:flex; flex-direction:column}
+  .planws--sheet .planws__side{height:auto; overflow:visible; border-right:0; border-bottom:1px solid var(--line)}
+  .planws--sheet .planws__main{height:auto; overflow:visible}
+  .planws--sheet .planws__map{height:44vh; flex:none; border-left:0; border-top:1px solid var(--line)}
+}
 /* --- admin countries hub --- */
 .chub__pickrow{align-items:flex-end}
 .chub__stats{display:grid; grid-template-columns:repeat(auto-fill, minmax(130px,1fr)); gap:10px; margin:14px 0 18px}

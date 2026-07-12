@@ -3,7 +3,7 @@
     "id": "booking",
     "name": "Booking.com",
     "category": "Hotels",
-    "_comment": "WHERE TO REGISTER: Join the Booking.com Affiliate Partner Programme at https://www.booking.com/affiliate-program/v2/index.html. After approval, your dashboard provides an Affiliate ID (aid) and lets you create tracking 'label' values. Put those in 'params' below.",
+    "_comment": "WHERE TO REGISTER: Join the Booking.com Affiliate Partner Programme at https://www.booking.com/affiliate-program/v2/index.html. After approval, put your Affiliate ID in params.aid and a tracking label in params.label — both are OMITTED from links while empty, so search links work (uncommissioned) in the meantime. NOTE: an invalid/placeholder aid makes Booking.com show a broken-link page, so never ship a fake value here.",
     "registerUrl": "https://www.booking.com/affiliate-program/v2/index.html",
     "urlTemplate": "https://www.booking.com/searchresults.html?ss={location}&checkin={checkin}&checkout={checkout}&group_adults={group_adults}&lang=en-gb&aid={aid}&label={label}",
     "_dynamicParams": [
@@ -12,8 +12,8 @@
       "checkout"
     ],
     "params": {
-      "aid": "1234567",
-      "label": "italytravel-app-hotels",
+      "aid": "",
+      "label": "",
       "group_adults": "2"
     }
   },
@@ -28,7 +28,7 @@
       "query"
     ],
     "params": {
-      "partner_id": "ABCDE12"
+      "partner_id": ""
     }
   },
   "viator": {
@@ -42,7 +42,7 @@
       "query"
     ],
     "params": {
-      "pid": "P00012345",
+      "pid": "P00309080",
       "mcid": "42383",
       "medium": "api"
     }
@@ -58,7 +58,7 @@
       "query"
     ],
     "params": {
-      "aid": "98765"
+      "aid": ""
     }
   },
   "trainline": {
@@ -72,7 +72,7 @@
       "destination"
     ],
     "params": {
-      "aid": "tl-44556"
+      "aid": ""
     }
   },
   "skyscanner": {
@@ -96,12 +96,12 @@
     "id": "worldnomads",
     "name": "World Nomads",
     "category": "Insurance",
-    "_comment": "WHERE TO REGISTER: Join the World Nomads Affiliate Programme at https://www.worldnomads.com/travel-insurance/affiliates (run via their partner network). You'll receive an affiliate code. Put it in 'params' below.",
+    "_comment": "WHERE TO REGISTER: World Nomads partner programme (via their affiliate network). Put your affiliate code in params.affiliate — omitted from links while empty. LIMITATION: World Nomads does not support destination pre-fill via URL parameters; the link always lands on their generic quote-start page and the traveller picks the destination in the form. That's inherent to their site, not a bug in ours.",
     "registerUrl": "https://www.worldnomads.com/travel-insurance/affiliates",
     "urlTemplate": "https://www.worldnomads.com/travel-insurance?affiliate={affiliate}",
     "_dynamicParams": [],
     "params": {
-      "affiliate": "italytravel-aff"
+      "affiliate": ""
     }
   },
   "airalo": {
@@ -113,7 +113,7 @@
     "urlTemplate": "https://www.airalo.com/italy-esim?aff={aff}",
     "_dynamicParams": [],
     "params": {
-      "aff": "airalo-aff-555"
+      "aff": ""
     }
   }
 }

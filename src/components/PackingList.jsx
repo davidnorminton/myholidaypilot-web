@@ -4,7 +4,8 @@ import { X, Luggage, Sparkles, RefreshCw, FileDown } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { dayWeather } from '../lib/weather.js'
 import { setPacking, togglePackingItem } from '../lib/trips.js'
-import { useFrontendAi } from '../lib/settings.js'
+import { useFrontendAi, useSettings } from '../lib/settings.js'
+import { buildPackingSeed } from '../lib/packingSeed.js'
 import { downloadPackingPdf } from '../lib/packingPdf.js'
 
 // AI packing list: reads the trip (dates, places, chosen activities), fetches
@@ -12,6 +13,7 @@ import { downloadPackingPdf } from '../lib/packingPdf.js'
 // checklist. The result is stored on the trip, so it syncs and persists.
 export default function PackingList({ trip, onClose }) {
   const aiOn = useFrontendAi()
+  const site = useSettings()
   const [adults, setAdults] = useState(trip.packing?.adults ?? 2)
   const [children, setChildren] = useState(trip.packing?.children ?? 0)
   const [busy, setBusy] = useState(false)
@@ -66,6 +68,17 @@ export default function PackingList({ trip, onClose }) {
     } finally { setBusy(false) }
   }
 
+  // Instant list — no AI, no network: climate archetype × month × duration,
+  // with the plug type pulled from the country facts when they exist.
+  const instant = () => {
+    let facts = null
+    try { facts = JSON.parse(site[`countryFacts.${trip.countryId}`] || 'null') } catch { /* none */ }
+    setPacking(trip.id, {
+      generatedAt: Date.now(), adults, children, model: 'instant',
+      categories: buildPackingSeed(trip, facts),
+    })
+  }
+
   const total = packing ? packing.categories.reduce((n, c) => n + c.items.length, 0) : 0
   const done = packing ? packing.categories.reduce((n, c) => n + c.items.filter((i) => i.done).length, 0) : 0
 
@@ -95,6 +108,10 @@ export default function PackingList({ trip, onClose }) {
                 : packing ? <><Sparkles size={15} /> Regenerate</>
                 : <><Sparkles size={15} /> Generate my list</>}
             </button>}
+            <button className="btn btn--soft" onClick={instant} disabled={busy || !trip.startDate}
+              title="A sensible checklist built from the season and trip length — works offline">
+              <Luggage size={15} /> {packing ? 'Instant list (replace)' : 'Instant list'}
+            </button>
           </div>
           {!trip.startDate && <p className="pk__warn">Set your trip dates first — the list depends on them.</p>}
           {error && <p className="pk__warn">{error}</p>}

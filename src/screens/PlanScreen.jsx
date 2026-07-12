@@ -56,10 +56,18 @@ export default function PlanScreen() {
   const [heroCountry, setHeroCountry] = useState(trip?.countryId || lsGet('planHero.country'))
   const [heroStart, setHeroStart] = useState(trip?.startDate || lsGet('planHero.start'))
   const [heroEnd, setHeroEnd] = useState(trip?.endDate || lsGet('planHero.end'))
-  const [revealed, setRevealed] = useState(false)
+  const [sheetOpen, setSheetOpen] = useState(false)
+  const [sheetClosing, setSheetClosing] = useState(false)
+  // Explicit open/close — deliberately NOT in browser history: the builder is
+  // a tool state on the trip, not a page. Closing never destroys anything;
+  // the hero shows "Resume building" whenever a trip is in progress.
+  const closeSheet = () => {
+    if (!sheetOpen || sheetClosing) return
+    setSheetClosing(true)
+    setTimeout(() => { setSheetOpen(false); setSheetClosing(false) }, 240)
+  }
   const [selectedDay, setSelectedDay] = useState(() => parseInt(lsGet('planHero.selDay'), 10) || 1)
   const [confirmClear, setConfirmClear] = useState(false)
-  const builderRef = useRef(null)
   useEffect(() => {
     if (trip) { setHeroCountry(trip.countryId || lsGet('planHero.country')); setHeroStart(trip.startDate || lsGet('planHero.start')); setHeroEnd(trip.endDate || lsGet('planHero.end')) }
   }, [trip?.id]) // sync hero form when the active trip changes
@@ -109,7 +117,17 @@ export default function PlanScreen() {
   }
   // Builder stays hidden until a destination + dates are set and "Create" is
   // tapped; an existing trip with places is already past that point.
-  const showBuilder = revealed || (trip && (trip.places.length > 0 || (trip.startDate && trip.countryId)))
+  const canResume = !!(trip && (trip.places.length > 0 || (trip.startDate && trip.countryId)))
+
+  // Esc closes; page behind doesn't scroll while the sheet is up.
+  useEffect(() => {
+    if (!sheetOpen) return
+    const onKey = (e) => { if (e.key === 'Escape') closeSheet() }
+    window.addEventListener('keydown', onKey)
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = prev }
+  }, [sheetOpen])
   // One entry per day of the holiday, numbered with its date.
   const dayList = useMemo(() => {
     if (!trip?.startDate) return []
@@ -144,19 +162,16 @@ export default function PlanScreen() {
     }
     createTrip(`My trip to ${cName}`, v)
     setSelectedDay(1)
-    setRevealed(false)
   }
   const onCreate = () => {
     let id = trip?.id
     if (!id) id = createTrip(`My trip to ${heroCountryName || 'my destination'}`, heroCountry)
     if (heroStart) setTripDates(id, heroStart, heroEnd)
-    setRevealed(true)
-    setTimeout(() => builderRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80)
+    setSheetOpen(true)
   }
   const onClear = () => {
     setHeroCountry('')
     setHeroDates('', '')
-    setRevealed(false)
     if (trip) {
       setTravelPoint(trip.id, 'arrive', null)
       setTravelPoint(trip.id, 'depart', null)
@@ -214,33 +229,21 @@ export default function PlanScreen() {
                 <button className="planform__clear" onClick={() => setConfirmClear(true)}>Clear</button>
               )}
             </div>
-            {heroCountry && heroStart && heroEnd && !showBuilder && (
+            {canResume ? (
+              <button className="planform__create" onClick={() => setSheetOpen(true)}>
+                Resume building — {trip.name} <ChevronRight size={16} />
+              </button>
+            ) : heroCountry && heroStart && heroEnd ? (
               <button className="planform__create" onClick={onCreate}>Create trip <ChevronRight size={16} /></button>
-            )}
+            ) : null}
           </div>
         </header>
       </div>
 
-      {showBuilder && trip && (
-      <main className="wrap planpage" ref={builderRef}>
-        <div className="planbuild__titlebar">
-          <div className="planbuild__title">
-            <span className="planbuild__titlelabel">Set trip title:</span>
-            <span className="trip__namewrap">
-              <input className="trip__name" value={trip.name} onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
-              <Pencil size={20} className="trip__pencil" aria-hidden />
-            </span>
-          </div>
-          <div className="planbuild__actions">
-            <button className="planbuild__act" onClick={() => setViewOpen(true)}><CalendarRange size={16} /> View trip</button>
-            <button className="planbuild__act" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
-            <button className="planbuild__act" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
-            <button className="planbuild__act" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Add to trip ideas</button>
-            <button className="planbuild__act planbuild__act--del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) deleteTrip(trip.id) }} aria-label="Delete trip"><Trash2 size={16} /></button>
-          </div>
-        </div>
-
-        <section className="planws">
+      {sheetOpen && trip && (
+      <div className={`plansheet ${sheetClosing ? 'is-closing' : ''}`} role="dialog" aria-label="Trip builder">
+        <button className="plansheet__close" onClick={closeSheet} aria-label="Close builder"><X size={20} /></button>
+        <section className="planws planws--sheet">
           <aside className="planws__side">
             {dayList.length > 0 && (<>
               <p className="planws__sidelabel">Set locations</p>
@@ -271,9 +274,25 @@ export default function PlanScreen() {
               <span className="planws__stepnum"><Luggage size={13} /></span> Packing list
             </button>
           </aside>
-
-
           <div className="planws__main">
+            <div className="planbuild__titlebar">
+          <div className="planbuild__title">
+            <span className="planbuild__titlelabel">Set trip title:</span>
+            <span className="trip__namewrap">
+              <input className="trip__name" value={trip.name} onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
+              <Pencil size={20} className="trip__pencil" aria-hidden />
+            </span>
+          </div>
+          <div className="planbuild__actions">
+            <button className="planbuild__act" onClick={() => setViewOpen(true)}><CalendarRange size={16} /> View trip</button>
+            <button className="planbuild__act" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+            <button className="planbuild__act" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+            <button className="planbuild__act" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Add to trip ideas</button>
+            <button className="planbuild__act planbuild__act--del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) { deleteTrip(trip.id); closeSheet() } }} aria-label="Delete trip"><Trash2 size={16} /></button>
+          </div>
+        </div>
+
+            <div className="planws__maininner">
             {step === 'setloc' && selectedDay && dayList[selectedDay - 1] && (
               <DayLocationPicker key={selectedDay} tripId={trip.id} countryId={trip.countryId}
                 day={dayList[selectedDay - 1].date} dayNumber={selectedDay} dayLabel={dayList[selectedDay - 1].label}
@@ -305,6 +324,7 @@ export default function PlanScreen() {
             {step === 'book' && <BookingsPanel trip={trip} />}
 
             {step === 'days' && <Itinerary trip={trip} onPlan={(p) => setPlanFor(p)} />}
+            </div>
           </div>
 
           <aside className="planws__map">
@@ -318,7 +338,7 @@ export default function PlanScreen() {
             </p>
           </aside>
         </section>
-      </main>
+      </div>
       )}
 
       {wizard && (
