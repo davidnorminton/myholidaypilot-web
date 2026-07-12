@@ -3172,7 +3172,8 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planpage__head{margin:clamp(24px,4vw,40px) 0 6px}
 .planpage__title{font-family:var(--sans); font-weight:800; font-size:clamp(40px,7vw,61px); line-height:1; letter-spacing:-.01em; margin:0}
 .planpage__sub{color:var(--ink-soft); font-size:clamp(15px,1.8vw,17px); margin:9px 0 0; max-width:56ch}
-.planpage__head--split{display:flex; gap:44px; align-items:stretch; min-height:clamp(300px,42vh,440px); margin:0; padding:0 0 24px}
+.planpage__head--split{display:flex; gap:44px; align-items:stretch; min-height:calc(100vh - var(--topbar-h)); margin:0; padding:0}
+.planpage__headtext{align-self:center}
 .planpage__headtext{flex:1; min-width:0; display:flex; flex-direction:column; justify-content:center}
 .planpage__prevlink{display:inline-flex; align-items:center; gap:5px; margin-top:18px; font-weight:700; font-size:14.5px; color:var(--gold); text-decoration:none}
 .planpage__prevlink:hover{text-decoration:underline}
@@ -3407,21 +3408,22 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .cms-herocustom{margin-top:14px}
 .cms-img__name{display:block; font-size:13.5px; margin-bottom:4px}
 .cms-img__save{padding:8px 14px; font-size:12.5px}
-.planpage__form{flex:1; min-width:0}
-.planform{display:flex; flex-direction:column; gap:14px; background:rgb(135 210 254); border:0; border-radius:0; padding:22px; position:relative;
-  background-size:cover; background-position:center}
-.planform--img .planform__label{color:#fff}
+.planpage__form{flex:1; min-width:0; position:relative; display:flex; align-items:center; justify-content:center;
+  padding:40px 34px; background:rgb(135 210 254); background-size:cover; background-position:center;
+  margin-right:calc(50% - 50vw)}
+.planpage__form--img .planform__label{color:#fff}
+.planpage__form--img .planform__clear--quiet{color:rgba(255,255,255,.85)}
+.planform{display:flex; flex-direction:column; gap:14px; background:none; border:0; border-radius:0; padding:0; position:relative; width:min(560px, 100%)}
 .planform__flights{margin-top:2px}
 .planform__flights summary{display:inline-flex; align-items:center; gap:7px; cursor:pointer; list-style:none;
   font-weight:700; font-size:13.5px; padding:9px 14px; background:rgba(255,255,255,.92); border:1px dashed var(--ink-muted, #8a8378)}
 .planform__flights summary::-webkit-details-marker{display:none}
 .planform__flights summary em{font-style:normal; font-weight:500; color:var(--muted); font-size:12px}
-.planform__flights[open] summary{margin-bottom:12px}
+.planform__flights[open] summary{display:none}
 .planform__flights[open]{background:rgba(255,255,255,.92); padding:12px; margin:0 -6px}
 .planform__clear--quiet{align-self:flex-end; background:none; border:0; padding:4px 2px; font-size:12.5px; font-weight:600;
   color:rgba(255,255,255,.85); text-decoration:underline; text-underline-offset:3px; cursor:pointer}
-.planform:not(.planform--img) .planform__clear--quiet{color:var(--ink-soft)}
-.planform::after{content:""; position:absolute; top:0; bottom:0; left:100%; width:100vw; background:rgb(135 210 254)}
+.planpage__form:not(.planpage__form--img) .planform__clear--quiet{color:var(--ink-soft)}
 .planform__field{display:flex; flex-direction:column; gap:6px}
 .planform__label{font-size:11.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:#000}
 .planform__select, .planform__field input[type="date"]{width:100%; padding:12px 14px; font-family:var(--sans); font-size:15px; font-weight:600; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:0; cursor:pointer}
@@ -3461,7 +3463,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .planflights__cancel{align-self:flex-start; padding:8px 14px; background:none; border:0; color:var(--muted); font-weight:600; font-size:13px; cursor:pointer}
 .planflights__country{align-self:flex-start; margin-top:4px}
 .planform__chip{display:inline-flex; align-items:center; gap:6px; padding:9px 14px; border-radius:999px; background:#ffa62b; color:#000; font-size:13px; font-weight:700}
-@media (max-width:820px){ .planpage__head--split{flex-direction:column; gap:22px; min-height:0; margin:0; padding:0} .planpage__form{width:100%} }
+@media (max-width:820px){ .planpage__head--split{flex-direction:column; gap:22px; min-height:0; margin:0; padding:0} .planpage__form{width:auto; margin:0 calc(50% - 50vw); padding:30px 20px} .planpage__headtext{align-self:flex-start; padding-top:26px} }
 .planws{display:grid; grid-template-columns:225px minmax(0,1fr) clamp(320px,32vw,520px);
   gap:0 22px; align-items:start; margin-top:6px}
 .planws__side{position:sticky; top:calc(var(--topbar-h) + 14px);

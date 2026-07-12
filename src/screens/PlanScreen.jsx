@@ -199,9 +199,9 @@ export default function PlanScreen() {
             <p className="planpage__sub">Build your day-by-day itinerary — pick the places, arrange the days, and add packing and budget as you go.</p>
             <Link to={paths.trips()} className="planpage__prevlink">View previous planned trips <ChevronRight size={15} /></Link>
           </div>
-          <div className="planpage__form">
-            <div className={`planform ${heroImg ? 'planform--img' : ''}`}
-              style={heroImg ? { backgroundImage: `linear-gradient(rgba(12,14,18,.52), rgba(12,14,18,.6)), url(${imgUrl(heroImg, 900)})` } : undefined}>
+          <div className={`planpage__form ${heroImg ? 'planpage__form--img' : ''}`}
+            style={heroImg ? { backgroundImage: `linear-gradient(rgba(12,14,18,.45), rgba(12,14,18,.58)), url(${imgUrl(heroImg, 1200)})` } : undefined}>
+            <div className="planform">
               <label className="planform__field">
                 <span className="planform__label">Destination</span>
                 <select className="planform__select" value={heroCountry} onChange={(e) => onCountryChange(e.target.value)}>
@@ -220,6 +220,13 @@ export default function PlanScreen() {
                 </label>
               </div>
 
+              {trip && (
+                <details className="planform__flights">
+                  <summary><Plus size={14} /> Add flights <em>optional</em></summary>
+                  <TravelEditor trip={trip} />
+                </details>
+              )}
+
               {canResume ? (
                 <button className="planform__create" onClick={() => setSheetOpen(true)}>
                   Resume building — {trip.name} <ChevronRight size={16} />
@@ -227,13 +234,6 @@ export default function PlanScreen() {
               ) : heroCountry && heroStart && heroEnd ? (
                 <button className="planform__create" onClick={onCreate}>Create trip <ChevronRight size={16} /></button>
               ) : null}
-
-              {trip && (
-                <details className="planform__flights">
-                  <summary><Plus size={14} /> Add flights <em>optional</em></summary>
-                  <TravelEditor trip={trip} />
-                </details>
-              )}
 
               {(heroCountry || heroStart || trip) && (
                 confirmClear ? (
