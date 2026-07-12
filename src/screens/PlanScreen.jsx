@@ -242,7 +242,23 @@ export default function PlanScreen() {
 
       {sheetOpen && trip && (
       <div className={`plansheet ${sheetClosing ? 'is-closing' : ''}`} role="dialog" aria-label="Trip builder">
-        <button className="plansheet__close" onClick={closeSheet} aria-label="Close builder"><X size={20} /></button>
+        <div className="planbuild__titlebar">
+          <div className="planbuild__title">
+            <span className="planbuild__titlelabel">Set trip title:</span>
+            <span className="trip__namewrap">
+              <input className="trip__name" value={trip.name} onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
+              <Pencil size={20} className="trip__pencil" aria-hidden />
+            </span>
+          </div>
+          <div className="planbuild__actions">
+            <button className="planbuild__act" onClick={() => setViewOpen(true)}><CalendarRange size={16} /> View trip</button>
+            <button className="planbuild__act" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+            <button className="planbuild__act" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
+            <button className="planbuild__act" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Add to trip ideas</button>
+            <button className="planbuild__act planbuild__act--del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) { deleteTrip(trip.id); closeSheet() } }} aria-label="Delete trip"><Trash2 size={16} /></button>
+            <button className="planbuild__act planbuild__act--close" onClick={closeSheet} aria-label="Close builder"><X size={18} /></button>
+          </div>
+        </div>
         <section className="planws planws--sheet">
           <aside className="planws__side">
             {dayList.length > 0 && (<>
@@ -275,23 +291,6 @@ export default function PlanScreen() {
             </button>
           </aside>
           <div className="planws__main">
-            <div className="planbuild__titlebar">
-          <div className="planbuild__title">
-            <span className="planbuild__titlelabel">Set trip title:</span>
-            <span className="trip__namewrap">
-              <input className="trip__name" value={trip.name} onChange={(e) => renameTrip(trip.id, e.target.value)} aria-label="Trip name" />
-              <Pencil size={20} className="trip__pencil" aria-hidden />
-            </span>
-          </div>
-          <div className="planbuild__actions">
-            <button className="planbuild__act" onClick={() => setViewOpen(true)}><CalendarRange size={16} /> View trip</button>
-            <button className="planbuild__act" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
-            <button className="planbuild__act" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
-            <button className="planbuild__act" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Add to trip ideas</button>
-            <button className="planbuild__act planbuild__act--del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) { deleteTrip(trip.id); closeSheet() } }} aria-label="Delete trip"><Trash2 size={16} /></button>
-          </div>
-        </div>
-
             <div className="planws__maininner">
             {step === 'setloc' && selectedDay && dayList[selectedDay - 1] && (
               <DayLocationPicker key={selectedDay} tripId={trip.id} countryId={trip.countryId}
