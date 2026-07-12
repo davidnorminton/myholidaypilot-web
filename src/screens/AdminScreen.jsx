@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import { PenLine, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, ImageOff, LayoutDashboard } from 'lucide-react'
+import { PenLine, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, ImageOff, LayoutDashboard, ScanSearch } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
 import AdminCountries from '../components/admin/AdminCountries.jsx'
+import AdminScan from '../components/admin/AdminScan.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
 import AdminExport from '../components/admin/AdminExport.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
@@ -20,12 +21,13 @@ import AdminAi from '../components/admin/AdminAi.jsx'
 const NAV = [
   { group: null, ids: ['dash'] },
   { group: 'Content', ids: ['journal', 'site', 'countries', 'gallery'] },
-  { group: 'Build', ids: ['missing', 'ai', 'export'] },
+  { group: 'Build', ids: ['missing', 'scan', 'ai', 'export'] },
   { group: 'Growth', ids: ['audience', 'affiliates', 'comments', 'contact', 'seo'] },
 ]
 
 const SECTIONS = [
   { id: 'dash', label: 'Dashboard', icon: LayoutDashboard },
+  { id: 'scan', label: 'Scan', icon: ScanSearch },
   { id: 'site', label: 'Site', icon: Home },
   { id: 'journal', label: 'Blog', icon: PenLine },
   { id: 'countries', label: 'Countries', icon: Globe2 },
@@ -94,6 +96,7 @@ export default function AdminScreen() {
         {section === 'journal' && <AdminBlog />}
         {section === 'site' && <AdminSite regions={regions} />}
         {section === 'countries' && <AdminCountries regions={regions} />}
+        {section === 'scan' && <AdminScan />}
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
         {section === 'gallery' && <AdminGallery />}

@@ -2763,6 +2763,18 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   font-size:13px; text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .destmosaic.is-5 [style*="grid-area: a"] .destmosaic__name{font-size:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* --- admin scan --- */
+.scan__count{font-size:12.5px; font-weight:600; color:var(--muted); margin-left:8px}
+.scan__group{margin-bottom:18px}
+.scan__groupname{font-weight:800; font-size:15px; margin:0 0 8px}
+.scan__cards{display:grid; grid-template-columns:repeat(auto-fill, minmax(240px,1fr)); gap:10px}
+.scan__card{border:1px solid var(--line); background:var(--surface); padding:12px 14px}
+.scan__region{display:flex; align-items:center; gap:6px; font-weight:700; font-size:13.5px; margin:0 0 2px}
+.scan__pid{font-family:var(--mono); font-size:11px; color:var(--muted); margin:0 0 10px}
+.scan__figs{display:flex; flex-wrap:wrap; gap:6px 12px; margin-bottom:12px}
+.scan__fig{display:inline-flex; align-items:center; gap:5px; font-size:12.5px; font-weight:600}
+.scan__fig--warn{color:#b4231a}
+.scan__del{font-size:12.5px; padding:7px 12px}
 /* --- dedicated auth pages --- */
 .auth-page{display:flex; justify-content:center; padding:clamp(30px,7vh,70px) 0 80px}
 .auth-page__card{width:min(440px,100%); border:1px solid var(--line); background:var(--surface); padding:30px 28px 26px}
