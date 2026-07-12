@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Plus, Download, Pencil, Trash2, ArrowUpRight, PenLine, MapPin, Image as ImageIcon, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, Hammer, ImageOff, CalendarRange, Info } from 'lucide-react'
+import { PenLine, MapPin, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, ImageOff, LayoutDashboard } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
-import { paths } from '../lib/paths.js'
 import AdminPlaces from '../components/admin/AdminPlaces.jsx'
 import AdminCountries from '../components/admin/AdminCountries.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
@@ -20,7 +18,15 @@ import AdminAudience from '../components/admin/AdminAudience.jsx'
 import AdminSite from '../components/admin/AdminSite.jsx'
 import AdminAi from '../components/admin/AdminAi.jsx'
 
+const NAV = [
+  { group: null, ids: ['dash'] },
+  { group: 'Content', ids: ['journal', 'site', 'places', 'countries', 'gallery'] },
+  { group: 'Build', ids: ['missing', 'ai', 'export'] },
+  { group: 'Growth', ids: ['audience', 'affiliates', 'comments', 'contact', 'seo'] },
+]
+
 const SECTIONS = [
+  { id: 'dash', label: 'Dashboard', icon: LayoutDashboard },
   { id: 'site', label: 'Site', icon: Home },
   { id: 'journal', label: 'Blog', icon: PenLine },
   { id: 'places', label: 'Places', icon: MapPin },
@@ -38,7 +44,7 @@ const SECTIONS = [
 
 export default function AdminScreen() {
   const { user, isAdmin, isDev, devSignIn } = useAuth()
-  const [section, setSection] = useState('journal')
+  const [section, setSection] = useState('dash')
   const [regions, setRegions] = useState([])
 
   useEffect(() => { getIndex().then((d) => setRegions(d.regions || [])).catch(() => setRegions([])) }, [])
@@ -59,46 +65,34 @@ export default function AdminScreen() {
 
   return (
     <div className="page">
-      <header className="sub-hero wrap">
-        <p className="eyebrow">Admin</p>
-        <h1 className="sub-hero__title">Content studio</h1>
-        <AdminStats />
-        <p className="sub-hero__sub">Write posts and edit the guide. Changes show live on this device — use <b>Export</b> to download the JSON files and commit them.</p>
-      </header>
+      <div className="adminshell">
+        <aside className="adminside" aria-label="Admin sections">
+          {NAV.map(({ group, ids }) => (
+            <div key={group || 'top'} className="adminside__group">
+              {group && <p className="adminside__grouplabel">{group}</p>}
+              {ids.map((id) => {
+                const sec = SECTIONS.find((x) => x.id === id)
+                if (!sec) return null
+                const Icon = sec.icon
+                return (
+                  <button key={id} className={`adminside__item ${section === id ? 'is-on' : ''}`} onClick={() => setSection(id)}>
+                    <Icon size={16} strokeWidth={2.1} /> {sec.label}
+                  </button>
+                )
+              })}
+            </div>
+          ))}
+        </aside>
 
-      <nav className="admin-nav wrap">
-        <label className="admin-nav__select">
-          <span className="admin-nav__label">Section</span>
-          <select value={section} onChange={(e) => setSection(e.target.value)}>
-            <optgroup label="Content">
-              <option value="journal">Blog</option>
-              <option value="site">Site</option>
-              <option value="places">Places</option>
-              <option value="countries">Countries</option>
-              <option value="gallery">Gallery</option>
-            </optgroup>
-            <optgroup label="Build">
-              <option value="missing">Missing images</option>
-              <option value="ai">AI</option>
-              <option value="export">Export</option>
-            </optgroup>
-            <optgroup label="Growth">
-              <option value="audience">Newsletter</option>
-              <option value="affiliates">Affiliates</option>
-              <option value="comments">Comments</option>
-              <option value="contact">Contact</option>
-              <option value="seo">SEO</option>
-            </optgroup>
-          </select>
-        </label>
-        {(() => {
-          const cur = SECTIONS.find((s) => s.id === section)
-          const Icon = cur?.icon
-          return cur ? <span className="admin-nav__current">{Icon && <Icon size={16} strokeWidth={2.2} />} {cur.label}</span> : null
-        })()}
-      </nav>
-
-      <main className="wrap admin">
+        <main className="adminshell__main admin">
+        {section === 'dash' && (
+          <header className="sub-hero">
+            <p className="eyebrow">Admin</p>
+            <h1 className="sub-hero__title">Content studio</h1>
+            <AdminStats />
+            <p className="sub-hero__sub">Write posts and edit the guide. Changes show live on this device — use <b>Export</b> to download the JSON files and commit them.</p>
+          </header>
+        )}
         {section === 'journal' && <AdminBlog />}
         {section === 'site' && <AdminSite regions={regions} />}
         {section === 'places' && <AdminPlaces regions={regions} />}
@@ -112,7 +106,8 @@ export default function AdminScreen() {
         {section === 'ai' && <AdminAi />}
         {section === 'missing' && <AdminMissingImages />}
         {section === 'export' && <AdminExport regions={regions} />}
-      </main>
+        </main>
+      </div>
     </div>
   )
 }

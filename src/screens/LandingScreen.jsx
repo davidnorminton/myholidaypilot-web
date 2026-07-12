@@ -8,7 +8,6 @@ import FeaturedDestinations from '../components/FeaturedDestinations.jsx'
 import BlogCarousel from '../components/BlogCarousel.jsx'
 import { useSettings, getSettings } from '../lib/settings.js'
 import { COUNTRIES } from '../lib/countries.js'
-import { usePublishedPosts } from '../lib/blogStore.js'
 import { useSeo } from '../lib/seo.js'
 
 const HERO = 'https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600'
@@ -24,7 +23,6 @@ const VISIT_RANK = {
 const visitRank = (slug) => VISIT_RANK[slug] ?? 999
 
 export default function LandingScreen() {
-  const latestPosts = usePublishedPosts()
   const liveCount = COUNTRIES.filter((c) => c.available).length
   const site = useSettings()
   // Resolve the hero only after settings load, so the bundled fallback never

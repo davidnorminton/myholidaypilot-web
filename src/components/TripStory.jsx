@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Sparkles, RefreshCw, X, Feather } from 'lucide-react'
+import { RefreshCw, X, Feather } from 'lucide-react'
 import { api } from '../lib/api.js'
 import { setStory } from '../lib/trips.js'
 

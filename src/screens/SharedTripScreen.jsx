@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { CalendarRange, MapPin, Utensils, Compass, Download, ArrowRight, BedDouble } from 'lucide-react'
+import { MapPin, Utensils, Compass, Download, ArrowRight, BedDouble } from 'lucide-react'
 import { decodeTrip } from '../lib/tripShare.js'
 import { importTrip } from '../lib/trips.js'
 // PDF generation (jspdf + html2canvas, ~760K) loads only when asked for

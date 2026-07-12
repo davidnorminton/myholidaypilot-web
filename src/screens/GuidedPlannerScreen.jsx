@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import {
   Wand2, ArrowRight, ArrowLeft, RefreshCw, CalendarRange, MapPin,

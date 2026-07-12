@@ -84,7 +84,7 @@ export default function MapView({ center, zoom = 11, markers = [], height = 320,
               paint: { 'line-color': '#a9762a', 'line-width': 2.5, 'line-dasharray': [1.4, 1.6], 'line-opacity': .85 } })
           })
         }
-      } catch (e) {
+      } catch {
         if (!cancelled) setFailed(true)
       }
     })()

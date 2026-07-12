@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useParams, useNavigate } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, MapPin, CalendarRange, Navigation } from 'lucide-react'
 import { getRegion } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
@@ -31,7 +31,6 @@ export default function RegionDetailScreen() {
   const site = useSettings()
   const { country = 'italy', regionId } = useParams()
   const countryName = (COUNTRIES.find((c) => c.slug === country) || {}).name || ''
-  const navigate = useNavigate()
   const aff = useAffiliates()
   const [region, setRegion] = useState(null)
   const [tab, setTab] = useState('places')

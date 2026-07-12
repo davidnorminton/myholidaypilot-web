@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { MapPin, Search, TrainFront, Car, ArrowRight } from 'lucide-react'
+import { MapPin, Search, TrainFront, Car } from 'lucide-react'
 import { getPlacesIndex } from '../lib/data.js'
 import { useSettings } from '../lib/settings.js'
 import { kmBetween } from '../lib/route.js'

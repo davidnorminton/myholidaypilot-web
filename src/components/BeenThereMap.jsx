@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Check, Copy, MapPin, ImageDown } from 'lucide-react'
+import { Check, Copy, ImageDown } from 'lucide-react'
 import { useTrips } from '../lib/trips.js'
 import { downloadMapImage } from '../lib/mapImage.js'
 import { getIndex } from '../lib/data.js'

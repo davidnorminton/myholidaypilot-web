@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Menu, X, Compass, Star, Wand2, Car, Lightbulb, BookOpen, Route as RouteIcon } from 'lucide-react'
+import { Menu, X, Compass, Star, Wand2, Car, Lightbulb, BookOpen, Route as RouteIcon, UserCircle2 } from 'lucide-react'
 import Logo from './Logo.jsx'
 import { paths } from '../lib/paths.js'
+import { useAuth } from '../lib/auth.jsx'
 import AuthButton from './AuthButton.jsx'
 import SiteSearch from './SiteSearch.jsx'
 
@@ -26,6 +27,7 @@ const LINKS = [
 ]
 
 export default function TopBar() {
+  const { user } = useAuth()
   const [open, setOpen] = useState(false)
   const [closing, setClosing] = useState(false)
   // Animated close: keep the drawer mounted while the exit animation runs.
@@ -91,6 +93,11 @@ export default function TopBar() {
               ))}
             </div>
             <div className="navdrawer__foot">
+              {user && (
+                <Link to={paths.account()} className="navdrawer__user" onClick={closeDrawer}>
+                  <UserCircle2 size={18} /> {user.name || user.email || 'My account'}
+                </Link>
+              )}
               <AuthButton />
             </div>
           </nav>

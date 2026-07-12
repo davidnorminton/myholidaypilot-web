@@ -124,7 +124,7 @@ export default function PackingList({ trip, onClose, inline = false }) {
             <div className="pk__listbar">
               <p className="pk__progress">{done} of {total} packed · saved with your trip</p>
               <button className="btn btn--soft pk__pdf" onClick={() => downloadPackingPdf(trip)}>
-                <FileDown size={14} /> PDF
+                <FileDown size={14} /> Download
               </button>
             </div>
             {packing.categories.map((cat, ci) => (

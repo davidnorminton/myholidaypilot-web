@@ -26,8 +26,13 @@ export default function BudgetPanel({ trip, onClose, inline = false }) {
   const updAdults = (v) => { setAdults(v); setTravellers(trip.id, { adults: v, children }) }
   const updChildren = (v) => { setChildren(v); setTravellers(trip.id, { adults, children: v }) }
   const [style, setStyle] = useState(saved?.inputs?.style ?? 'mid-range')
-  const [includeFlights, setIncludeFlights] = useState(saved?.inputs?.includeFlights ?? false)
-  const [flyingFrom, setFlyingFrom] = useState(saved?.inputs?.flyingFrom ?? '')
+  // Flights set in the trip form flow straight into the budget: default the
+  // toggle on and prefill the origin from the home airport.
+  const tripHome = trip.travel?.home?.name || ''
+  const tripDest = trip.travel?.arrive?.name || ''
+  const hasFormFlights = !!(tripHome || tripDest)
+  const [includeFlights, setIncludeFlights] = useState(saved?.inputs?.includeFlights ?? hasFormFlights)
+  const [flyingFrom, setFlyingFrom] = useState(saved?.inputs?.flyingFrom ?? tripHome)
   const [includeCar, setIncludeCar] = useState(saved?.inputs?.includeCar ?? false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
@@ -96,6 +101,7 @@ export default function BudgetPanel({ trip, onClose, inline = false }) {
             </label>
             <label className="bgt__toggle">
               <input type="checkbox" checked={includeFlights} onChange={(e) => setIncludeFlights(e.target.checked)} /> Flights
+              {hasFormFlights && <em className="bgt__flightnote">{tripHome ? tripHome.split(',')[0] : 'Home'} → {tripDest ? tripDest.split(',')[0] : 'destination'} (from your trip)</em>}
             </label>
             {includeFlights && (
               <label>From
@@ -109,8 +115,8 @@ export default function BudgetPanel({ trip, onClose, inline = false }) {
           <div className="pk__who" style={{ marginTop: 12 }}>
             {aiOn && <button className="btn btn--primary" onClick={generate} disabled={busy || !trip.startDate || !trip.places.length}>
               {busy ? <><RefreshCw size={15} className="pk__spin" /> Estimating…</>
-                : saved ? <><Sparkles size={15} /> Re-estimate</>
-                : <><Sparkles size={15} /> Estimate my budget</>}
+                : saved ? <><Sparkles size={15} /> Recreate budget</>
+                : <><Sparkles size={15} /> Create budget</>}
             </button>}
           </div>
           {!trip.startDate && <p className="pk__warn">Set your trip dates first — the budget depends on them.</p>}

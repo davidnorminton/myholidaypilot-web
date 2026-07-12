@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { setTravelPoint } from '../lib/trips.js'
 import { searchPlaces } from '../lib/transport.js'
 import { api } from '../lib/api.js'
-import { useAffiliates } from '../lib/affiliates.js'
-import { ISO, skyscannerUrl } from '../lib/bookingLinks.js'
+import { ISO } from '../lib/bookingLinks.js'
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 
@@ -168,13 +167,10 @@ function HomeAirportForm({ onPick, onDone }) {
 // PDF and share all keep working); the home airport is a single shared
 // travel.home, which is what mirrors the two directions automatically.
 export default function TravelEditor({ trip }) {
-  const affCfg = useAffiliates()
   const [editing, setEditing] = useState(null)   // 'arrive' | 'depart' | 'home:arrive' | 'home:depart'
   const home = trip.travel?.home || null
-  const short = (pt) => (pt?.name || '').split(',')[0]
 
   const setHome = (pt) => { setTravelPoint(trip.id, 'home', pt); if (pt) saveHome(pt) }
-  const linkFor = (which) => skyscannerUrl(affCfg, trip, which)
 
   const rows = [
     { which: 'arrive', label: 'Incoming flight', from: { pt: home, kind: 'home' }, to: { pt: trip.travel?.arrive, kind: 'dest' } },
@@ -202,7 +198,6 @@ export default function TravelEditor({ trip }) {
       <span className="planform__optlabel">Flights - optional</span>
 
       {rows.map(({ which, label, from, to }) => {
-        const destPt = which === 'arrive' ? to.pt : from.pt
         return (
           <div key={which} className="planflights__slot">
             <span className="planform__label">{label}</span>

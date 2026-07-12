@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
-import {
-  Globe2, Plus, RefreshCw, Sparkles, ChevronRight, Trash2, ArrowLeft,
-  Pencil, Check, X, MapPin, Download } from 'lucide-react'
+import { Plus, RefreshCw, Sparkles, ChevronRight, Trash2, ArrowLeft, Pencil, Check, X, MapPin, Download } from 'lucide-react'
 import { api } from '../../lib/api.js'
 
 // The country builder: a staged workspace that drafts a whole country with

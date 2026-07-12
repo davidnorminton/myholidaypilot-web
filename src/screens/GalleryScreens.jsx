@@ -1,10 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import {
-  MapPin, CalendarRange, Copy, Compass, Utensils, BedDouble, Check, ArrowLeft, Star,
-} from 'lucide-react'
+import { MapPin, Copy, Compass, Utensils, BedDouble, ArrowLeft, Star,  } from 'lucide-react'
 import { api } from '../lib/api.js'
-import { useSettings } from '../lib/settings.js'
 import { getImages } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'
 import { importGalleryTrip } from '../lib/trips.js'
@@ -23,7 +20,6 @@ const LENGTHS = [
 
 // ── the gallery grid ──────────────────────────────────────────────────────────
 export function GalleryScreen() {
-  const site = useSettings()
   useSeo({
     title: 'Trip ideas — real itineraries to copy',
     description: 'Real trips, planned day by day by real travellers — browse by region and length, then copy one into your own planner.',
@@ -194,7 +190,7 @@ export function GalleryTripScreen() {
   const copy = async () => {
     setCopying(true)
     try {
-      const id = importGalleryTrip(snap)
+      importGalleryTrip(snap)
       api.gallery.copied(slug).catch(() => {})   // best-effort counter
       navigate(paths.plan())
     } finally { setCopying(false) }

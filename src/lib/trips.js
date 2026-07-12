@@ -14,7 +14,7 @@ function load() {
       const parsed = JSON.parse(raw)
       if (parsed && Array.isArray(parsed.trips)) return parsed
     }
-  } catch (e) { /* ignore */ }
+  } catch { /* ignore */ }
   return { trips: [], activeTripId: null }
 }
 
@@ -22,7 +22,7 @@ let state = load()
 const listeners = new Set()
 
 function persist() {
-  try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) { /* ignore */ }
+  try { localStorage.setItem(KEY, JSON.stringify(state)) } catch { /* ignore */ }
 }
 function set(next) {
   // stamp changed trips so sign-in merges pick the right winner
@@ -85,7 +85,6 @@ export async function syncTrips(user) {
   try {
     const rows = await api.trips.list()
     signedIn = true
-    const server = new Map(rows.map((r) => [r.id, r]))
     const merged = new Map()
 
     for (const r of rows) {

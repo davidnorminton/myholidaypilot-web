@@ -5,7 +5,7 @@ import {
   MapPin, FileDown, Plus, Map as MapIcon,
 } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
-import { useTrips, activeTrip } from '../lib/trips.js'
+import { useTrips } from '../lib/trips.js'
 import { useFavourites } from '../lib/favourites.js'
 import { getPlacesIndex } from '../lib/data.js'
 import { COUNTRIES } from '../lib/countries.js'

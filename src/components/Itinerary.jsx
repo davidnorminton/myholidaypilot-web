@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { MapPin, Compass, UtensilsCrossed, Pencil, CalendarRange, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble, Plane, TrainFront, ChevronRight, Trash2 } from 'lucide-react'
+import { MapPin, Compass, UtensilsCrossed, Pencil, GripVertical, Route, Navigation, Sparkles, PartyPopper, ExternalLink, BedDouble, TrainFront, ChevronRight, Trash2 } from 'lucide-react'
 import { paths } from '../lib/paths.js'
 import { typeLabel, mapsUrl } from '../lib/format.js'
 import TripStory from './TripStory.jsx'
@@ -158,7 +158,6 @@ export default function Itinerary({ trip, onPlan }) {
   }, [trip, dayFilter])
 
   const glance = days.filter((d) => d.places.length > 0)
-  const totalDays = days.length
 
   // -------- pointer-based drag (works on mouse + touch) --------
   const moveGhost = (x, y) => {
@@ -435,12 +434,6 @@ function fmtShort(d) {
 }
 function fmtLong(d) {
   return new Date(d).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })
-}
-function rangeLabel(start, end) {
-  if (!start) return 'Dates not set'
-  const f = (x) => new Date(x).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
-  if (end && end !== start) return `${f(start)} – ${f(end)} ${new Date(end).getFullYear()}`
-  return `${f(start)} ${new Date(start).getFullYear()}`
 }
 
 // The day's route total, shown in the day header.

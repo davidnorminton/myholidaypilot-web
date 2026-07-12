@@ -1,9 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
-import {
-  Plus, Trash2, X, Check, StickyNote, CalendarRange,
-  Sparkles, Search, Star, Lightbulb, ChevronRight, CalendarCheck, ArrowLeft, FileDown, Share2, Pencil, Luggage, Coins, Globe2, Ticket } from 'lucide-react'
+import { Plus, Trash2, X, Check, StickyNote, CalendarRange, Lightbulb, ChevronRight, CalendarCheck, FileDown, Share2, Pencil, Luggage, Coins, Globe2, Ticket } from 'lucide-react'
 import {
   useTrips, activeTrip, createTrip, deleteTrip, renameTrip,
   removePlace, togglePlaceDone, updateNote, setTripDates,
@@ -43,7 +41,6 @@ export default function PlanScreen() {
   const snap = useTrips()
   const trip = activeTrip(snap)
   const site = useSettings()
-  const planHeroImg = site['page.plan'] || (trip && site[`hub.${trip.countryId}.plan`]) || site['hub.default.plan'] || ''
   const [wizard, setWizard] = useState(null)
   const [planFor, setPlanFor] = useState(null)
   const [step, setStep] = useState('setloc')   // setloc | places | days
@@ -111,10 +108,6 @@ export default function PlanScreen() {
   const availCountries = useMemo(() => COUNTRIES.filter((c) => isAvailableCountry(c.slug)), [])
   const heroCountryName = (COUNTRIES.find((c) => c.slug === heroCountry) || {}).name || ''
   const setHeroDates = (s, e) => { setHeroStart(s); setHeroEnd(e); if (trip) setTripDates(trip.id, s, e) }
-  const fmtRange = (s, e) => {
-    const f = (d) => (d ? new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : '')
-    return e ? `${f(s)} – ${f(e)}` : f(s)
-  }
   // Builder stays hidden until a destination + dates are set and "Create" is
   // tapped; an existing trip with places is already past that point.
   const canResume = !!(trip && (trip.places.length > 0 || (trip.startDate && trip.countryId)))
@@ -261,7 +254,7 @@ export default function PlanScreen() {
           </div>
           <div className="planbuild__actions">
             <button className="planbuild__act" onClick={() => setViewOpen(true)}><CalendarRange size={16} /> View trip</button>
-            <button className="planbuild__act" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> PDF</button>
+            <button className="planbuild__act" onClick={() => downloadTripPdf(trip)}><FileDown size={16} /> Download</button>
             <button className="planbuild__act" onClick={share}><Share2 size={16} /> {shared ? 'Link copied ✓' : 'Share'}</button>
             <button className="planbuild__act" onClick={() => setPublishOpen(true)}><Globe2 size={16} /> Add to trip ideas</button>
             <button className="planbuild__act planbuild__act--del" onClick={() => { if (confirm(`Delete “${trip.name}”?`)) { deleteTrip(trip.id); closeSheet() } }} aria-label="Delete trip"><Trash2 size={16} /></button>
