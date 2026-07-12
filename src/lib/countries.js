@@ -34,6 +34,8 @@ export const COUNTRIES = [
     blurb: "Mapped region by region." },
   { slug: 'iceland', name: "Iceland", flag: '🇮🇸', available: true,
     blurb: "Mapped region by region." },
+  { slug: 'india', name: "India", flag: '🇮🇳', available: true,
+    blurb: "Mapped region by region." },
   { slug: 'ireland', name: "Ireland", flag: '🇮🇪', available: true,
     blurb: "Mapped region by region." },
   { slug: 'israel', name: "Israel", flag: '🇮🇱', available: true,
