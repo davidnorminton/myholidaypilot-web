@@ -6,6 +6,7 @@ export function send(res, status, data) {
   // (e.g. public settings, images). Only apply the default if none was set.
   if (!res.getHeader('Cache-Control')) res.setHeader('Cache-Control', 'no-store')
   res.end(JSON.stringify(data))
+  return true   // sentinel so dispatchers can tell "handled" from "no match"
 }
 
 export async function readBody(req) {

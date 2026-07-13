@@ -6,6 +6,7 @@ import { getIndex } from '../lib/data.js'
 import AdminCountries from '../components/admin/AdminCountries.jsx'
 import AdminScan from '../components/admin/AdminScan.jsx'
 import ErrorBoundary from '../components/ErrorBoundary.jsx'
+import AdminFreshness from '../components/admin/AdminFreshness.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
 import AdminExport from '../components/admin/AdminExport.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
@@ -92,6 +93,7 @@ export default function AdminScreen() {
             <p className="eyebrow">Admin</p>
             <h1 className="sub-hero__title">Content studio</h1>
             <AdminStats />
+            <AdminFreshness />
             <p className="sub-hero__sub">Write posts and edit the guide. Changes show live on this device — use <b>Export</b> to download the JSON files and commit them.</p>
           </header>
         )}

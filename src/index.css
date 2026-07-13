@@ -2763,6 +2763,15 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   font-size:13px; text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .destmosaic.is-5 [style*="grid-area: a"] .destmosaic__name{font-size:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* export freshness (dual-store drift) */
+.fresh{margin:20px 0 6px}
+.fresh__rows{display:flex; flex-direction:column; gap:6px; max-width:640px}
+.fresh__row{display:flex; justify-content:space-between; gap:14px; align-items:center; padding:9px 13px; border:1px solid var(--line); background:var(--surface); font-size:13.5px}
+.fresh__name{font-weight:700}
+.fresh__state{display:inline-flex; align-items:center; gap:6px; color:var(--muted); font-weight:600; font-size:12.5px}
+.fresh__row--ok .fresh__state{color:#1e7d43}
+.fresh__row--ahead{border-color:#e5b34a; background:#fdf6e6}
+.fresh__row--ahead .fresh__state{color:#8a6116}
 /* error boundary fallback */
 .errbound{padding:70px 0 90px; max-width:520px}
 .errbound h2{font-size:24px; margin:0 0 10px}
