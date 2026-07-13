@@ -74,7 +74,7 @@ export default function ItalyHubScreen() {
         </div>
         <div className="plan-hero__media">
           {countryHero ? (
-            <img src={imgUrl(countryHero, 800)} alt={meta?.name} loading="eager" fetchPriority="high" decoding="async"
+            <img src={imgUrl(countryHero, 800)} alt={meta?.name} loading="eager" fetchpriority="high" decoding="async"
               onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
           ) : (
             <PlacePlaceholder iconSize={56} />

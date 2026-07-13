@@ -95,7 +95,7 @@ export default function PlaceDetailScreen() {
         </div>
         <div className="plan-hero__media">
           {hero ? (
-            <img src={imgUrl(hero, 800)} alt={place.name} loading="eager" fetchPriority="high" decoding="async"
+            <img src={imgUrl(hero, 800)} alt={place.name} loading="eager" fetchpriority="high" decoding="async"
               onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
           ) : (
             <PlacePlaceholder iconSize={56} />

@@ -3,9 +3,14 @@ import { POSTS as BUNDLED } from './blog.js'
 import { api } from './api.js'
 
 // Posts store body as an HTML string (new) or a paragraph array (bundled/seeded).
+import DOMPurify from 'dompurify'
+
+// All blog body HTML passes through DOMPurify before it can reach
+// dangerouslySetInnerHTML — admin-authored today, but AI-drafted content
+// flows through here too, and sanitising at the source covers every render.
 export function bodyToHtml(body) {
-  if (Array.isArray(body)) return body.map((p) => `<p>${p}</p>`).join('\n')
-  return String(body || '')
+  const raw = Array.isArray(body) ? body.map((p) => `<p>${p}</p>`).join('\n') : String(body || '')
+  return DOMPurify.sanitize(raw, { USE_PROFILES: { html: true } })
 }
 
 // Normalise a DB row OR a bundled post into one shape the blog screens use.

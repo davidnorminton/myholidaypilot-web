@@ -11,6 +11,7 @@
 // - Successful login issues the same 30-day random session token the Google
 //   flow uses — downstream auth is identical for both methods.
 import crypto from 'node:crypto'
+import { rateLimit } from './_lib/ratelimit.js'
 import { getDb, schema, eq, and } from './_lib/db.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
 
@@ -109,6 +110,7 @@ export default handler(async (req, res) => {
   }
 
   if (q.action === 'signup') {
+    rateLimit(req, { key: 'signup', limit: 5, windowMs: 10 * 60_000 })   // 5 / 10 min
     await verifyHuman('signup')
     const email = String(body.email || '').trim().toLowerCase()
     const password = String(body.password || '')
@@ -136,6 +138,7 @@ export default handler(async (req, res) => {
 
   // ── sign in ─────────────────────────────────────────────────────────────
   if (q.action === 'login') {
+    rateLimit(req, { key: 'login', limit: 10, windowMs: 10 * 60_000 })   // 10 / 10 min
     await verifyHuman('login')
     const email = String(body.email || '').trim().toLowerCase()
     const password = String(body.password || '')

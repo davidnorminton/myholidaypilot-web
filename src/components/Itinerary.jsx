@@ -143,7 +143,7 @@ export default function Itinerary({ trip, onPlan }) {
     }
     const regions = new Set(trip.places.map((p) => p.regionName).filter(Boolean))
     return { places: trip.places.length, regions: regions.size, days: days.length, km: Math.round(km) }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [isOver, trip])
 
   const markers = useMemo(() => {

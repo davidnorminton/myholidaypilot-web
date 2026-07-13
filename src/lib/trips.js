@@ -7,15 +7,30 @@ import { api } from './api.js'
 
 const KEY = 'mhp_trips_v1'
 
+// Bump when the stored trip shape changes incompatibly; migrate() upgrades
+// older payloads in place. v1 = everything up to and including travellers.
+const SCHEMA_VERSION = 1
+
+function migrate(parsed) {
+  const from = parsed.schemaVersion || 0
+  // v0 → v1: no structural change — all v0 additions were backwards-
+  // compatible optional fields. The version stamp itself is the upgrade.
+  parsed.schemaVersion = SCHEMA_VERSION
+  return { parsed, migrated: from !== SCHEMA_VERSION }
+}
+
 function load() {
   try {
     const raw = localStorage.getItem(KEY)
     if (raw) {
       const parsed = JSON.parse(raw)
-      if (parsed && Array.isArray(parsed.trips)) return parsed
+      if (parsed && Array.isArray(parsed.trips)) {
+        const { parsed: up } = migrate(parsed)
+        return up
+      }
     }
   } catch { /* ignore */ }
-  return { trips: [], activeTripId: null }
+  return { trips: [], activeTripId: null, schemaVersion: SCHEMA_VERSION }
 }
 
 let state = load()
@@ -25,6 +40,9 @@ function persist() {
   try { localStorage.setItem(KEY, JSON.stringify(state)) } catch { /* ignore */ }
 }
 function set(next) {
+  // callers pass partial state — merge so top-level fields (schemaVersion,
+  // future flags) survive every mutation
+  next = { ...state, ...next }
   // stamp changed trips so sign-in merges pick the right winner
   if (next.trips && state.trips) {
     const prev = new Map(state.trips.map((t) => [t.id, t]))

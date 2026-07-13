@@ -89,7 +89,7 @@ export default function MapView({ center, zoom = 11, markers = [], height = 320,
       }
     })()
     return () => { cancelled = true; if (map) map.remove() }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [visible, JSON.stringify(center), JSON.stringify(markers.map((m) => [m.lng, m.lat])), JSON.stringify(route)])
 
   if (!TOKEN || failed) {

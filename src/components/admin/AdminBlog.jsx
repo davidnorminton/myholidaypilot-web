@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Plus, Pencil, Trash2, ArrowUpRight, Save, X, Eye, Code2, RefreshCw, Sparkles } from 'lucide-react'
 import { api } from '../../lib/api.js'
 import { COUNTRIES } from '../../lib/countries.js'
+import DOMPurify from 'dompurify'
 import { bodyToHtml } from '../../lib/blogStore.js'
 import ImageField from '../ImageField.jsx'
 import { paths } from '../../lib/paths.js'
@@ -183,7 +184,7 @@ export default function AdminBlog() {
               {form.tag && <span className="post__tag">{form.tag}</span>}
               <h1 className="post__title blogcms__ptitle">{form.title || 'Untitled'}</h1>
               {form.dek && <p className="blogcms__pdek">{form.dek}</p>}
-              <div className="post__body prose" dangerouslySetInnerHTML={{ __html: form.body || '<p style="opacity:.5">Your HTML renders here…</p>' }} />
+              <div className="post__body prose" dangerouslySetInnerHTML={{ __html: form.body ? DOMPurify.sanitize(form.body, { USE_PROFILES: { html: true } }) : '<p style="opacity:.5">Your HTML renders here…</p>' }} />
             </div>
           </div>
         </div>

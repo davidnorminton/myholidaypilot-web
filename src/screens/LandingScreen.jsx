@@ -43,7 +43,7 @@ export default function LandingScreen() {
   return (
     <div className="page">
       <section className="land-hero">
-        {heroSrc && <img className="land-hero__bg land-hero__bg--kb" src={heroSrc} alt="" fetchPriority="high" decoding="async" />}
+        {heroSrc && <img className="land-hero__bg land-hero__bg--kb" src={heroSrc} alt="" fetchpriority="high" decoding="async" />}
         <div className="land-hero__veil" />
         <div className="wrap">
           <div className="land-hero__inner">

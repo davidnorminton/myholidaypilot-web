@@ -1,4 +1,5 @@
 import { Suspense, lazy } from 'react'
+import ErrorBoundary from './components/ErrorBoundary.jsx'
 import { Routes, Route, Navigate, useParams } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
@@ -49,7 +50,8 @@ export default function App() {
     <>
       <ScrollToTop />
       <Suspense fallback={<div className="page wrap" style={{ minHeight: '60vh' }} />}>
-      <Routes>
+      <ErrorBoundary name="this page">
+        <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<LandingScreen />} />
           <Route path="/destinations" element={<CountriesScreen />} />
@@ -89,6 +91,7 @@ export default function App() {
           <Route path="*" element={<NotFoundScreen />} />
         </Route>
       </Routes>
+        </ErrorBoundary>
       </Suspense>
     </>
   )

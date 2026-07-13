@@ -14,7 +14,7 @@ export default function SmartImage({ src, alt = '', width = 400, priority = fals
       alt={alt}
       className={`${className} smartimg ${loaded ? 'is-loaded' : ''}`}
       loading={priority ? 'eager' : 'lazy'}
-      fetchPriority={priority ? 'high' : 'auto'}
+      fetchpriority={priority ? 'high' : 'auto'}
       decoding="async"
       onLoad={() => setLoaded(true)}
       onError={(e) => { e.currentTarget.style.visibility = 'hidden' }}

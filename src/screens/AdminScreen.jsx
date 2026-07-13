@@ -5,6 +5,7 @@ import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
 import AdminCountries from '../components/admin/AdminCountries.jsx'
 import AdminScan from '../components/admin/AdminScan.jsx'
+import ErrorBoundary from '../components/ErrorBoundary.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
 import AdminExport from '../components/admin/AdminExport.jsx'
 import AdminBlog from '../components/admin/AdminBlog.jsx'
@@ -85,6 +86,7 @@ export default function AdminScreen() {
         </aside>
 
         <main className="adminshell__main admin">
+        <ErrorBoundary name="this admin section">
         {section === 'dash' && (
           <header className="sub-hero">
             <p className="eyebrow">Admin</p>
@@ -106,6 +108,7 @@ export default function AdminScreen() {
         {section === 'ai' && <AdminAi />}
         {section === 'missing' && <AdminMissingImages />}
         {section === 'export' && <AdminExport regions={regions} />}
+        </ErrorBoundary>
         </main>
       </div>
     </div>

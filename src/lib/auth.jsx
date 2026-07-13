@@ -131,7 +131,7 @@ export function AuthProvider({ children }) {
       setUser(null)
       try { localStorage.removeItem(USER_KEY) } catch { /* ignore */ }
     })
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [user?.sub])
 
   const isAdmin = !!user && (ADMIN_EMAILS.length === 0 || ADMIN_EMAILS.includes((user.email || '').toLowerCase()))

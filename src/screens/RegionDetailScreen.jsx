@@ -83,7 +83,7 @@ export default function RegionDetailScreen() {
         </div>
         <div className="plan-hero__media">
           {heroImage ? (
-            <img src={imgUrl(heroImage, 800)} alt={region.name} loading="eager" fetchPriority="high" decoding="async"
+            <img src={imgUrl(heroImage, 800)} alt={region.name} loading="eager" fetchpriority="high" decoding="async"
               onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
           ) : (
             <PlacePlaceholder iconSize={56} />

@@ -1,4 +1,5 @@
 import { getDb, schema, eq, and } from './_lib/db.js'
+import { rateLimit } from './_lib/ratelimit.js'
 import { requireUser, requireAdmin } from './_lib/auth.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
 const { siteSettings, aiUsage } = schema
@@ -44,6 +45,7 @@ async function checkAllowance(db, user, limit) {
 }
 
 export default handler(async (req, res) => {
+  rateLimit(req, { key: 'ai', limit: 20, windowMs: 60_000 })   // 20 AI calls / min / IP
   const db = getDb()
   const action = (req.query || {}).action
 

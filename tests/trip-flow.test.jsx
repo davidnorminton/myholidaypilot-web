@@ -1,31 +1,58 @@
-import { describe, it, expect, vi } from 'vitest'
-import { render, screen, fireEvent, waitFor } from '@testing-library/react'
+// @vitest-environment jsdom
+// Current planner flow: the basics form (destination select + dates) →
+// Create trip → the builder sheet opens and the trip is persisted.
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
+import { render, screen, fireEvent, waitFor, cleanup } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 
 vi.stubGlobal('fetch', async () => ({ ok: true, status: 200, json: async () => ({}), text: async () => '' }))
 vi.stubGlobal('IntersectionObserver', class { observe(){} disconnect(){} unobserve(){} })
 vi.stubGlobal('ResizeObserver', class { observe(){} disconnect(){} unobserve(){} })
+vi.mock('../src/components/MapView.jsx', () => ({ default: () => null }))
+
+beforeEach(() => { localStorage.clear(); vi.resetModules() })
+afterEach(cleanup)
 
 describe('new trip flow', () => {
-  it('opens picker and creates a trip', async () => {
+  it('fills the form, creates a trip, opens the builder sheet', async () => {
+    const { default: PlanScreen } = await import('../src/screens/PlanScreen.jsx')
+    render(<MemoryRouter><PlanScreen /></MemoryRouter>)
+
+    // destination select
+    const select = document.querySelector('.planform__select')
+    expect(select).toBeTruthy()
+    fireEvent.change(select, { target: { value: 'spain' } })
+
+    // dates
+    const dates = [...document.querySelectorAll('.planform__field input[type="date"]')]
+    expect(dates.length).toBe(2)
+    fireEvent.change(dates[0], { target: { value: '2026-08-01' } })
+    fireEvent.change(dates[1], { target: { value: '2026-08-04' } })
+
+    // nights derived label
+    await waitFor(() => expect(document.body.textContent).toContain('3 nights'))
+
+    // create → sheet opens, trip persisted
+    const create = screen.getByRole('button', { name: /create trip/i })
+    fireEvent.click(create)
+    await waitFor(() => expect(document.querySelector('.plansheet')).toBeTruthy())
+
+    const saved = JSON.parse(localStorage.getItem('mhp_trips_v1'))
+    expect(saved.trips.length).toBe(1)
+    expect(saved.trips[0].countryId).toBe('spain')
+    expect(saved.trips[0].startDate).toBe('2026-08-01')
+    expect(saved.schemaVersion).toBe(1)
+  })
+
+  it('a trip in progress shows Resume instead of Create', async () => {
     localStorage.setItem('mhp_trips_v1', JSON.stringify({
-      trips: [{ id: 't1', name: 'Existing trip', countryId: 'italy', createdAt: 1, places: [] }],
+      schemaVersion: 1,
+      trips: [{ id: 't1', name: 'Roma weekend', countryId: 'italy', createdAt: 1, places: [], startDate: '2026-09-01', endDate: '2026-09-03' }],
       activeTripId: 't1',
     }))
     const { default: PlanScreen } = await import('../src/screens/PlanScreen.jsx')
     render(<MemoryRouter><PlanScreen /></MemoryRouter>)
-    const btns = screen.queryAllByRole('button')
-    const newBtn = btns.find((b) => /new trip/i.test(b.textContent))
-    console.log('NEW BTN:', newBtn ? 'found' : 'MISSING — buttons: ' + btns.map((b) => b.textContent.trim()).filter(Boolean).slice(0, 12).join(' | '))
-    expect(newBtn).toBeTruthy()
-    fireEvent.click(newBtn)
-    await waitFor(() => expect(document.querySelector('.cpick')).toBeTruthy())
-    const items = [...document.querySelectorAll('.cpick__item')]
-    console.log('PICKER:', items.length, 'countries, enabled:', items.filter((b) => !b.disabled).length)
-    const spain = items.find((b) => b.textContent.includes('Spain'))
-    fireEvent.click(spain)
-    await waitFor(() => expect(document.querySelector('.cpick')).toBeFalsy())
-    const saved = JSON.parse(localStorage.getItem('mhp_trips_v1'))
-    console.log('TRIPS AFTER:', saved.trips.length, '| new trip country:', saved.trips.at(-1).countryId)
+    expect(screen.getByRole('button', { name: /resume building/i }).textContent).toContain('Roma weekend')
+    expect(screen.queryByRole('button', { name: /create trip/i })).toBeFalsy()
   })
 })
