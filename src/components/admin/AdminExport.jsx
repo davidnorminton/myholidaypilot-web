@@ -1,23 +1,14 @@
 import { useState } from 'react'
-import { Download, RefreshCw, AlertTriangle, FileJson } from 'lucide-react'
-import { getRegion, getImages, getAffiliates, getIndex } from '../../lib/data.js'
-import {
-  useCms, download, editedRegionIds, imagesOverride, affiliatesOverride,
-  buildIndex, buildPlacesIndex, resetAll,
-} from '../../lib/cms.js'
+import { api } from '../../lib/api.js'
+import { Download, RefreshCw } from 'lucide-react'
+import { getImages, getAffiliates, getIndex, getRegion } from '../../lib/data.js'
+import { useCms, download, imagesOverride, affiliatesOverride, buildIndex, buildPlacesIndex,  } from '../../lib/cms.js'
 
 export default function AdminExport({ regions }) {
   useCms() // re-render when overrides change
   const [busy, setBusy] = useState('')
-  const [pickRegion, setPickRegion] = useState(regions[0]?.id || '')
-  const edited = editedRegionIds()
+  const [allNote, setAllNote] = useState('')
 
-  const exportRegion = async (id) => {
-    setBusy(id)
-    const r = await getRegion(id)
-    download(`${id}.json`, { ...r, placeCount: (r.places || []).length, restaurantCount: (r.restaurants || []).length })
-    setBusy('')
-  }
   const exportImages = async () => { setBusy('images'); download('images.json', await getImages()); setBusy('') }
   const exportAffiliates = async () => { setBusy('aff'); download('affiliates.json', await getAffiliates()); setBusy('') }
   const exportIndex = async () => {
@@ -33,8 +24,37 @@ export default function AdminExport({ regions }) {
     setBusy('')
   }
 
+  const exportAllCountries = async () => {
+    setBusy('all'); setAllNote('')
+    try {
+      const builds = await api.builder.list()
+      let n = 0
+      for (const b of (builds || [])) {
+        setAllNote(`Exporting ${b.name}… (${n + 1}/${builds.length})`)
+        const bundle = await api.builder.export(b.countryId)
+        download(`${b.countryId}.json`, bundle)
+        n++
+        await new Promise((r) => setTimeout(r, 400))   // let the browser breathe between downloads
+      }
+      setAllNote(`Done — ${n} countr${n === 1 ? 'y' : 'ies'} downloaded. Drop them all into countries/ and run: node scripts/import-country.mjs`)
+    } catch (e) { setAllNote(e.message || 'Failed') }
+    finally { setBusy('') }
+  }
+
   return (
     <div className="cms">
+      <section className="cms-sec">
+        <div className="cms-sec__head"><h3><Download size={16} /> All countries</h3></div>
+        <p className="admin-note">
+          Downloads one bundle per built country — the exact files the import script expects.
+          Your browser will ask permission for multiple downloads the first time.
+        </p>
+        <button className="btn btn--primary" onClick={exportAllCountries} disabled={busy === 'all'}>
+          <Download size={15} /> {busy === 'all' ? 'Exporting…' : 'Download all countries'}
+        </button>
+        {allNote && <p className="admin-note admin-note--hot" style={{ marginTop: 10 }}>{allNote}</p>}
+      </section>
+
       <div className="exp-grid">
         <ExpCard title="index.json" sub="Region list, counts & totals — regenerated from your edits." onClick={exportIndex} busy={busy === 'index'} regen />
         <ExpCard title="places-index.json" sub="Flat search index — regenerated from all regions." onClick={exportPlacesIndex} busy={busy === 'places-index'} regen />
@@ -42,40 +62,12 @@ export default function AdminExport({ regions }) {
         <ExpCard title="affiliates.json" sub="Booking partners & tracking params." onClick={exportAffiliates} busy={busy === 'aff'} edited={!!affiliatesOverride()} />
       </div>
 
-      <section className="cms-sec">
-        <div className="cms-sec__head"><h3><FileJson size={16} /> Region files</h3></div>
-        <div className="exp-region">
-          <select value={pickRegion} onChange={(e) => setPickRegion(e.target.value)}>
-            {regions.map((r) => <option key={r.id} value={r.id}>{r.emoji} {r.name}{edited.includes(r.id) ? ' • edited' : ''}</option>)}
-          </select>
-          <button className="btn btn--primary" onClick={() => exportRegion(pickRegion)} disabled={busy === pickRegion}>
-            <Download size={15} /> Export {pickRegion}.json
-          </button>
-        </div>
-        {edited.length > 0 && (
-          <div className="exp-edited">
-            <span className="exp-edited__label">Edited regions:</span>
-            {edited.map((id) => (
-              <button key={id} className="exp-chip" onClick={() => exportRegion(id)}>{id}.json <Download size={12} /></button>
-            ))}
-          </div>
-        )}
-      </section>
-
       <div className="exp-where">
         <p>Commit exported files into their folders:</p>
         <ul>
           <li><code>index.json</code>, <code>places-index.json</code>, <code>images.json</code>, <code>affiliates.json</code> → <code>public/data/</code></li>
           <li><code>&lt;region&gt;.json</code> → <code>public/data/regions/</code></li>
         </ul>
-      </div>
-
-      <div className="exp-reset">
-        <AlertTriangle size={16} />
-        <div>
-          <b>Reset local edits</b> — clears all CMS overrides from this browser (does not touch exported files).
-          <button className="exp-reset__btn" onClick={() => { if (confirm('Clear all local CMS edits?')) resetAll() }}>Reset all overrides</button>
-        </div>
       </div>
     </div>
   )
