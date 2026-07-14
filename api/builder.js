@@ -26,20 +26,25 @@ export default handler(async (req, res) => {
   const q = req.query || {}
 
   // ── reads ──────────────────────────────────────────────────────────────────
+  // Plain list: ONE query, no child-table scans — this feeds every country
+  // dropdown in the admin, so it must be instant. Heavy per-country figures
+  // (region counts, last-change for drift) live behind ?action=stats.
   if (req.method === 'GET' && !q.country && !q.action) {
     const rows = await db.select().from(builds)
-    // Attach region counts and the country's last DB change (max updatedAt
-    // across the build, its regions and places) so the admin dashboard can
-    // compare against the baked export's exportedAt and flag drift.
+    return send(res, 200, rows)
+  }
+
+  // Heavy list: region counts + last DB change per country (drift indicator).
+  if (req.method === 'GET' && q.action === 'stats') {
+    const rows = await db.select().from(builds)
     const allRegs = await db.select({ countryId: buildRegions.countryId, updatedAt: buildRegions.updatedAt }).from(buildRegions)
     const allPl = await db.select({ countryId: buildPlaces.countryId, updatedAt: buildPlaces.updatedAt }).from(buildPlaces)
-    const out = []
-    for (const b of rows) {
+    const out = rows.map((b) => {
       const regs = allRegs.filter((r) => r.countryId === b.countryId)
       const pls = allPl.filter((p) => p.countryId === b.countryId)
       const lastChange = Math.max(b.updatedAt || 0, ...regs.map((r) => r.updatedAt || 0), ...pls.map((p) => p.updatedAt || 0))
-      out.push({ ...b, regionCount: regs.length, lastChange })
-    }
+      return { ...b, regionCount: regs.length, lastChange }
+    })
     return send(res, 200, out)
   }
 

@@ -548,7 +548,7 @@ Rules:
       const hit = existing.get(key)
       if (hit) {
         matched.push(raw.name)
-        top10.push({ rank: top10.length + 1, name: hit.data?.name || raw.name, placeId: hit.placeId, regionId: hit.regionId })
+        top10.push({ rank: top10.length + 1, name: hit.data?.name || raw.name, placeId: hit.placeId, regionId: hit.regionId, added: false })
         continue
       }
       const regionId = validRegions.has(raw.regionId) ? raw.regionId : null
@@ -565,7 +565,7 @@ Rules:
         },
       })
       added.push(`${raw.name} → ${regionId}`)
-      top10.push({ rank: top10.length + 1, name: raw.name, placeId, regionId })
+      top10.push({ rank: top10.length + 1, name: raw.name, placeId, regionId, added: true })
     }
 
     const guides = { ...(b.guides || {}), top10 }

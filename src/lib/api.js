@@ -102,6 +102,7 @@ export const api = {
     deleteRegion: (country, region) => req('DELETE', `/builder?country=${country}&region=${region}`),
     scan: () => req('GET', '/builder?action=scan'),
     top10: (country) => req('POST', `/builder?action=top10&country=${country}`),
+    stats: () => req('GET', '/builder?action=stats'),
     genDetail: (country, region, place) => req('POST', `/builder?action=detail&country=${country}&region=${region}&place=${place}`),
     genImage: (country, region, place) => req('POST', `/builder?action=image&country=${country}&region=${region}&place=${place}`),
     setImage: (country, region, place, url, credit) => req('POST', `/builder?action=setimage&country=${country}&region=${region}&place=${place}`, { url, credit }),

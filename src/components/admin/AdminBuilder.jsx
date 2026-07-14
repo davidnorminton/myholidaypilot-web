@@ -19,7 +19,7 @@ export default function AdminBuilder() {
   const [builds, setBuilds] = useState(null)
   const [active, setActive] = useState(null)   // countryId being viewed
 
-  const load = () => { setBuilds(null); api.builder.list().then(setBuilds).catch(() => setBuilds(false)) }
+  const load = () => { setBuilds(null); api.builder.stats().then(setBuilds).catch(() => setBuilds(false)) }
   useEffect(load, [])
 
   if (active) return <BuildView countryId={active} onBack={() => { setActive(null); load() }} />
@@ -535,6 +535,18 @@ function GuidesPanel({ countryId, build, onSaved }) {
   const [err, setErr] = useState('')
   const guides = build.guides || {}
   const [top10Note, setTop10Note] = useState('')
+  const [detailDone, setDetailDone] = useState({})
+  const runTop10Detail = async (t) => {
+    const key = `${t.regionId}/${t.placeId}`
+    setBusy(key)
+    try {
+      await api.builder.genDetail(countryId, t.regionId, t.placeId)
+      setDetailDone((d) => ({ ...d, [key]: 'ok' }))
+      onSaved?.()
+    } catch (e) {
+      setDetailDone((d) => ({ ...d, [key]: e.message?.slice(0, 40) || 'Failed' }))
+    } finally { setBusy(null) }
+  }
   const runTop10 = async () => {
     setBusy('top10'); setTop10Note('')
     try {
@@ -598,6 +610,31 @@ function GuidesPanel({ countryId, build, onSaved }) {
           </div>
         </div>
       </div>
+
+      {Array.isArray(guides.top10) && guides.top10.length > 0 && (
+        <ol className="top10adm">
+          {guides.top10.map((t) => {
+            const key = `${t.regionId}/${t.placeId}`
+            const state = detailDone[key]
+            return (
+              <li key={key} className="top10adm__row">
+                <span className="top10adm__rank">{t.rank}</span>
+                <span className="top10adm__name">
+                  {t.name}
+                  <em className="top10adm__region">{t.regionId}{t.added ? ' · added by this list' : ''}</em>
+                </span>
+                <button className="btn btn--soft top10adm__gen" disabled={busy === key || state === 'ok'}
+                  onClick={() => runTop10Detail(t)}>
+                  {busy === key ? <><RefreshCw size={13} className="pk__spin" /> Generating…</>
+                    : state === 'ok' ? <>✓ Details done</>
+                    : state ? <>{state}</>
+                    : <><Sparkles size={13} /> Generate details</>}
+                </button>
+              </li>
+            )
+          })}
+        </ol>
+      )}
 
       <div className="bld__stagehead"><h3>7–10 · Country guides</h3></div>
       <p className="admin-note">Each section generates separately — the guide pages every country has.</p>

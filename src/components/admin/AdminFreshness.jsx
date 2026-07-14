@@ -22,7 +22,7 @@ export default function AdminFreshness() {
     let live = true
     ;(async () => {
       try {
-        const builds = await api.builder.list()
+        const builds = await api.builder.stats()
         const out = await Promise.all((builds || []).map(async (b) => {
           let exportedAt = null, baked = false
           try {

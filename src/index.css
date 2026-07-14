@@ -2763,6 +2763,13 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   font-size:13px; text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .destmosaic.is-5 [style*="grid-area: a"] .destmosaic__name{font-size:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* top 10 admin list (builder) */
+.top10adm{list-style:none; margin:14px 0 0; padding:0; display:flex; flex-direction:column; gap:6px; max-width:640px}
+.top10adm__row{display:flex; align-items:center; gap:12px; padding:8px 12px; border:1px solid var(--line); background:var(--surface)}
+.top10adm__rank{font-weight:800; font-size:17px; color:var(--gold); min-width:24px; text-align:center}
+.top10adm__name{flex:1; font-weight:700; font-size:14px; display:flex; flex-direction:column}
+.top10adm__region{font-style:normal; font-weight:600; font-size:11.5px; color:var(--muted)}
+.top10adm__gen{font-size:12.5px; padding:7px 12px; white-space:nowrap}
 /* top 10 most visited (country page) */
 .top10{margin:54px 0 10px}
 .top10__title{font-size:clamp(26px,3.6vw,34px); margin:0 0 4px}
