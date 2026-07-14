@@ -132,7 +132,7 @@ export default function ItalyHubScreen() {
                   <Link className="top10__item" to={paths.place(t.regionId, t.placeId, country)}>
                     <span className="top10__rank">{t.rank}</span>
                     {(() => { const u = typeof t.image === 'string' ? t.image : t.image?.url
-                      return u ? <img className="top10__img" src={imgUrl(u, 400)} alt="" loading="lazy" /> : null })()}
+                      return u ? <img className="top10__img" src={imgUrl(u, 160)} alt="" loading="lazy" /> : null })()}
                     <span className="top10__body">
                       <span className="top10__name">{t.name}</span>
                       <span className="top10__region">{t.regionName}</span>

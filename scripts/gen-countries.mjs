@@ -92,3 +92,21 @@ fs.writeFileSync(outPath, file)
 const avail = countries.filter((c) => c.available).map((c) => c.slug)
 const hidden = countries.filter((c) => !c.available && onDisk.includes(c.slug)).map((c) => c.slug)
 console.log(`\u2713 countries.js generated — live: ${avail.join(', ') || 'none'}${hidden.length ? ` | hidden (in HIDDEN): ${hidden.join(', ')}` : ''}`)
+
+// ── combined search index ─────────────────────────────────────────────────────
+// One lean file the header search loads instead of every country's full
+// places-index (~760KB across 19 requests → one ~40% smaller request).
+{
+  const entries = []
+  for (const dir of fs.readdirSync(dataDir).filter((d) => fs.statSync(path.join(dataDir, d)).isDirectory())) {
+    const pi = path.join(dataDir, dir, 'places-index.json')
+    if (!fs.existsSync(pi)) continue
+    try {
+      for (const p of JSON.parse(fs.readFileSync(pi, 'utf8'))) {
+        entries.push({ c: dir, p: p.placeId, n: p.name, nl: p.nameIt || p.nameLocal || '', r: p.regionId, rn: p.regionName, re: p.regionEmoji || '' })
+      }
+    } catch { console.warn(`! search index: skipped ${dir} (bad places-index.json)`) }
+  }
+  fs.writeFileSync(path.join(dataDir, "search-index.json"), JSON.stringify(entries))
+  console.log(`\u2713 search-index.json — ${entries.length} places`)
+}

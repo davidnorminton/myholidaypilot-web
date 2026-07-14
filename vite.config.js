@@ -44,6 +44,10 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        // Don't PRECACHE the huge lazy chunks — a first-time visitor on any
+        // page was downloading mapbox (1.8MB), jspdf, html2canvas up front.
+        // They load on demand and get runtime-cached by the route below.
+        globIgnores: ['**/mapbox-gl-*.js', '**/jspdf*-*.js', '**/html2canvas*-*.js', '**/index.es-*.js'],
         navigateFallback: '/index.html',
         // Never serve the app shell for API calls, the sitemap/robots files, or
         // anything with a file extension (e.g. .xml, .txt) — let those hit the
@@ -51,6 +55,11 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api\//, /^\/sitemap\.xml$/, /^\/robots\.txt$/, /\.[a-z0-9]+$/i],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
+          { // heavy lazy chunks excluded from precache: cache on first real use
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && /\/assets\/(mapbox-gl|jspdf|html2canvas|index\.es)[^/]*\.js$/.test(url.pathname),
+            handler: 'CacheFirst',
+            options: { cacheName: 'lazy-chunks', expiration: { maxEntries: 8, maxAgeSeconds: 60 * 60 * 24 * 30 } },
+          },
           { // site data (regions, places, guides, hub) — fresh when online, available offline
             urlPattern: ({ url }) => url.pathname.startsWith('/data/'),
             handler: 'StaleWhileRevalidate',

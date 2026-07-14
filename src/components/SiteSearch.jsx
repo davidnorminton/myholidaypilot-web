@@ -11,6 +11,34 @@ let INDEX_CACHE = null
 async function loadIndex() {
   if (INDEX_CACHE) return INDEX_CACHE
   const live = COUNTRIES.filter((c) => c.available)
+  const bySlug = new Map(live.map((c) => [c.slug, c]))
+
+  // One combined lean index (baked by gen-countries.mjs) instead of fetching
+  // every country's full places-index — one request, half the bytes.
+  try {
+    const r = await fetch('/data/search-index.json')
+    if (r.ok) {
+      const lean = await r.json()
+      const regions = []
+      const places = []
+      const seen = new Set()
+      for (const e of lean) {
+        const country = bySlug.get(e.c)
+        if (!country) continue
+        if (!seen.has(`${e.c}/${e.r}`)) {
+          seen.add(`${e.c}/${e.r}`)
+          regions.push({ id: e.r, name: e.rn, emoji: e.re || '', country })
+        }
+        places.push({ placeId: e.p, name: e.n, nameIt: e.nl || '', regionId: e.r, regionName: e.rn, regionEmoji: e.re || '', country })
+      }
+      if (places.length) {
+        INDEX_CACHE = { regions, places }
+        return INDEX_CACHE
+      }
+    }
+  } catch { /* fall through to per-country */ }
+
+  // Fallback: the old per-country fetch (pre-index deploys, partial data).
   const perCountry = await Promise.all(live.map(async (c) => {
     try {
       const places = await getPlacesIndex(c.slug)
