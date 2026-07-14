@@ -75,7 +75,7 @@ export async function exportActions(req, res, db, q) {
       return {
         rank: t.rank, name: t.name, placeId: t.placeId, regionId: t.regionId,
         regionName: regionName.get(t.regionId) || t.regionId,
-        image: p?.image || null,
+        image: p?.image?.url || (typeof p?.image === 'string' ? p.image : null),
         description: p?.data?.description || '',
       }
     })

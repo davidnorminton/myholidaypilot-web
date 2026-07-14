@@ -124,14 +124,15 @@ export default function ItalyHubScreen() {
         </div>
         {top10 && (
           <section className="top10">
-            <h2 className="top10__title">Top 10 places in {meta?.name || 'this country'}</h2>
+            <h2 className="top10__title">Top tourist destinations in {meta?.name || 'this country'}</h2>
             <p className="top10__sub">The most visited — ranked.</p>
             <ol className="top10__list">
               {top10.map((t) => (
                 <li key={t.rank}>
                   <Link className="top10__item" to={paths.place(t.regionId, t.placeId, country)}>
                     <span className="top10__rank">{t.rank}</span>
-                    {t.image && <img className="top10__img" src={imgUrl(t.image, 400)} alt="" loading="lazy" />}
+                    {(() => { const u = typeof t.image === 'string' ? t.image : t.image?.url
+                      return u ? <img className="top10__img" src={imgUrl(u, 400)} alt="" loading="lazy" /> : null })()}
                     <span className="top10__body">
                       <span className="top10__name">{t.name}</span>
                       <span className="top10__region">{t.regionName}</span>
