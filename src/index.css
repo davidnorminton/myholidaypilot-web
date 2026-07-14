@@ -2748,6 +2748,11 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .cfacts__item:first-child{border-left:0; padding-left:0}
 .cfacts dt{font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:0 0 3px}
 .cfacts dd{margin:0; font-size:18px; font-weight:700; line-height:1.4}
+@media (max-width:640px){
+  .cfacts{padding-left:0; padding-right:0}
+  .cfacts__item{flex:1 1 50%; min-width:0; text-align:center; padding:8px 10px; border-left:0}
+  .cfacts dd{font-size:16.5px}
+}
 @media (max-width:760px){
   .cfacts{display:grid; grid-template-columns:1fr 1fr; gap:14px 20px; padding:16px 0}
   .cfacts__item{border-left:0; padding:0; min-width:0}

@@ -1,7 +1,7 @@
-import { getDb, schema, eq, and, desc, sql } from './_lib/db.js'
+import { getDb, schema, eq, and, desc, sql, inArray } from './_lib/db.js'
 import { requireUser, requireAdmin } from './_lib/auth.js'
 import { send, readBody, fail, handler } from './_lib/util.js'
-const { publicTrips, trips } = schema
+const { publicTrips, trips, buildPlaces } = schema
 
 const slugify = (s) => String(s || 'trip').toLowerCase().trim()
   .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'trip'
@@ -69,14 +69,36 @@ export default handler(async (req, res) => {
 
   // ── gallery list (public; cards only, no full data) ───────────────────────
   if (req.method === 'GET') {
-    let rows = await db.select().from(publicTrips)
+    // Explicit columns: never pull the heavy snapshot json for a card list.
+    let rows = await db.select({
+      id: publicTrips.id, slug: publicTrips.slug, countryId: publicTrips.countryId,
+      title: publicTrips.title, story: publicTrips.story, days: publicTrips.days,
+      placeCount: publicTrips.placeCount, regionNames: publicTrips.regionNames,
+      coverRegionId: publicTrips.coverRegionId, coverPlaceId: publicTrips.coverPlaceId,
+      featured: publicTrips.featured, copies: publicTrips.copies, status: publicTrips.status,
+      authorName: publicTrips.authorName, createdAt: publicTrips.createdAt,
+    }).from(publicTrips)
       .where(eq(publicTrips.status, 'live'))
       .orderBy(desc(publicTrips.featured), desc(publicTrips.createdAt))
       .limit(200)
     if (q.country) rows = rows.filter((r) => r.countryId === q.country)
+
+    // Resolve each card's cover image HERE, in one query — the client used to
+    // fetch every country's whole image map live per page view; baked into the
+    // edge-cached response, that work now happens once per 5 minutes total.
+    const placeIds = [...new Set(rows.map((r) => r.coverPlaceId).filter(Boolean))]
+    if (placeIds.length) {
+      const imgs = await db.select({
+        countryId: buildPlaces.countryId, regionId: buildPlaces.regionId,
+        placeId: buildPlaces.placeId, image: buildPlaces.image,
+      }).from(buildPlaces).where(inArray(buildPlaces.placeId, placeIds))
+      const byKey = new Map(imgs.map((i) => [`${i.countryId}/${i.regionId}/${i.placeId}`, i.image?.url || (typeof i.image === 'string' ? i.image : null)]))
+      rows = rows.map((r) => ({ ...r, coverImage: byKey.get(`${r.countryId}/${r.coverRegionId}/${r.coverPlaceId}`) || null }))
+    }
+
     // Public list — edge-cached; new publications appear within 5 min.
     res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400')
-    return send(res, 200, rows.map(({ data, ...card }) => card))
+    return send(res, 200, rows)
   }
 
   // ── publish / republish (owner of the trip) ────────────────────────────────

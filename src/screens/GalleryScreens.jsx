@@ -35,12 +35,11 @@ export function GalleryScreen() {
     setRows(null)
     api.gallery.list(country === 'all' ? undefined : country).then(async (list) => {
       setRows(list)
-      // Cover images come from each country's images.json (regionId → placeId
-      // → [{url}]), the same source place pages use. The places-index doesn't
-      // carry images, so it can't be the lookup.
-      const slugs = country === 'all'
-        ? [...new Set((list || []).map((r) => r.countryId).filter(Boolean))]
-        : [country]
+      // Covers now arrive resolved on each card (server does one indexed query,
+      // edge-cached with the list). The per-country image-map fetches only run
+      // as a fallback for cards missing coverImage (old cached responses).
+      const missing = (list || []).filter((r) => !r.coverImage)
+      const slugs = [...new Set(missing.map((r) => r.countryId).filter(Boolean))]
       slugs.forEach((slug) => getImages(slug).then((all) => {
         const m = {}
         for (const [regionId, places] of Object.entries(all || {})) {
@@ -65,7 +64,7 @@ export function GalleryScreen() {
     LENGTHS.find((l) => l.id === len).test(r.days)
   ), [rows, region, len])
 
-  const coverOf = (r) => images[`${r.coverRegionId}/${r.coverPlaceId}`] || null
+  const coverOf = (r) => (r.coverImage || images[`${r.coverRegionId}/${r.coverPlaceId}`]) || null
 
   return (
     <div className="page wrap gal">
