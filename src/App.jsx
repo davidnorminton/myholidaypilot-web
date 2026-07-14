@@ -17,7 +17,7 @@ const PlanScreen = lazy(() => import('./screens/PlanScreen.jsx'))
 const BlogScreen = lazy(() => import('./screens/BlogScreen.jsx'))
 const ContactScreen = lazy(() => import('./screens/ContactScreen.jsx'))
 const BlogPostScreen = lazy(() => import('./screens/BlogPostScreen.jsx'))
-const AdminScreen = lazy(() => import('./screens/AdminScreen.jsx'))
+const AdminScreenLazy = lazy(() => import('./screens/AdminScreen.jsx'))
 const SavedScreen = lazy(() => import('./screens/SavedScreen.jsx'))
 const TripsScreen = lazy(() => import('./screens/TripsScreen.jsx'))
 const SharedTripScreen = lazy(() => import('./screens/SharedTripScreen.jsx'))
@@ -44,6 +44,17 @@ function RequireAuth({ children }) {
   return children
 }
 import NotFoundScreen from './screens/NotFoundScreen.jsx'
+
+// The admin chunk is only ever REQUESTED for signed-in admins: the lazy
+// import fires on first render, and non-admins render NotFound instead —
+// so public visitors never download admin code. (The API is the real wall:
+// every admin action is requireAdmin-gated server-side.)
+function AdminGate() {
+  // `user` restores synchronously (see RequireAuth above), so no loading gate.
+  const { user, isAdmin } = useAuth()
+  if (!user || !isAdmin) return <NotFoundScreen />
+  return <AdminScreenLazy />
+}
 
 export default function App() {
   return (
@@ -87,7 +98,7 @@ export default function App() {
           <Route path="/blog" element={<BlogScreen />} />
           <Route path="/contact" element={<ContactScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />
-          <Route path="/admin" element={<AdminScreen />} />
+          <Route path="/admin" element={<AdminGate />} />
           <Route path="*" element={<NotFoundScreen />} />
         </Route>
       </Routes>

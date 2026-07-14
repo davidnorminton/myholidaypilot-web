@@ -47,7 +47,7 @@ export default defineConfig({
         // Don't PRECACHE the huge lazy chunks — a first-time visitor on any
         // page was downloading mapbox (1.8MB), jspdf, html2canvas up front.
         // They load on demand and get runtime-cached by the route below.
-        globIgnores: ['**/mapbox-gl-*.js', '**/jspdf*-*.js', '**/html2canvas*-*.js', '**/index.es-*.js'],
+        globIgnores: ['**/mapbox-gl-*.js', '**/jspdf*-*.js', '**/html2canvas*-*.js', '**/index.es-*.js', '**/AdminScreen-*.js'],
         navigateFallback: '/index.html',
         // Never serve the app shell for API calls, the sitemap/robots files, or
         // anything with a file extension (e.g. .xml, .txt) — let those hit the

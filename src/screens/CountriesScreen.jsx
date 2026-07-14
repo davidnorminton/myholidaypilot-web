@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { COUNTRIES } from '../lib/countries.js'
@@ -61,13 +61,31 @@ export default function CountriesScreen() {
   const live = useMemo(() => COUNTRIES.filter((c) => c.available).sort((a, b) => a.name.localeCompare(b.name)), [])
   const continents = useMemo(() => {
     const set = [...new Set(live.map((c) => continentOf(c.slug)))]
-    const order = ['Europe', 'Americas', 'Asia', 'Oceania', 'Africa', 'Other']
+    const order = ['Europe', 'Americas', 'Asia', 'Middle East', 'Oceania', 'Africa', 'Other']
     return set.sort((a, b) => order.indexOf(a) - order.indexOf(b))
   }, [live])
   const [filter, setFilter] = useState('all')
+  const PAGE = 8
+  const [visible, setVisible] = useState(PAGE)
+  const moreRef = useRef(null)
   const top10 = live.slice().sort((a, b) => visitRank(a.slug) - visitRank(b.slug)).slice(0, 10)
 
-  const shown = filter === 'all' ? live : live.filter((c) => continentOf(c.slug) === filter)
+  const filteredAll = filter === 'all' ? live : live.filter((c) => continentOf(c.slug) === filter)
+  const shown = filteredAll.slice(0, visible)
+
+  // filter change starts the list fresh
+  useEffect(() => { setVisible(PAGE) }, [filter])
+
+  // infinite scroll: grow by a page whenever the sentinel enters the viewport
+  useEffect(() => {
+    const el = moreRef.current
+    if (!el || visible >= filteredAll.length) return
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) setVisible((v) => Math.min(v + PAGE, filteredAll.length))
+    }, { rootMargin: '600px 0px' })   // start loading well before the edge
+    io.observe(el)
+    return () => io.disconnect()
+  }, [visible, filteredAll.length])
 
   // Hero mosaic: the top destinations that have a country image set. Falls
   // back to the page's static hero image until at least 4 exist.
@@ -150,6 +168,11 @@ export default function CountriesScreen() {
             )
           })}
         </div>
+        {visible < filteredAll.length && (
+          <div ref={moreRef} className="dest-more" aria-hidden>
+            <span className="dest-more__dot" /> Loading more destinations…
+          </div>
+        )}
       </main>
     </div>
   )

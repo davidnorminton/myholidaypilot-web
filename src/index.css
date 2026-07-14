@@ -2774,6 +2774,12 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
   font-size:13px; text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .destmosaic.is-5 [style*="grid-area: a"] .destmosaic__name{font-size:16px}
 .admin-note--hot{color:var(--gold); font-weight:600}
+/* destinations infinite scroll sentinel */
+.dest-more{display:flex; align-items:center; justify-content:center; gap:10px; padding:26px 0 34px;
+  color:var(--muted); font-size:13.5px; font-weight:600}
+.dest-more__dot{width:9px; height:9px; border-radius:50%; background:var(--gold); animation:destPulse 1s ease-in-out infinite}
+@keyframes destPulse{50%{opacity:.25; transform:scale(.7)}}
+@media (prefers-reduced-motion: reduce){ .dest-more__dot{animation:none} }
 /* top 10 admin list (builder) */
 .top10adm{list-style:none; margin:14px 0 0; padding:0; display:flex; flex-direction:column; gap:6px; max-width:640px}
 .top10adm__row{display:flex; align-items:center; gap:12px; padding:8px 12px; border:1px solid var(--line); background:var(--surface)}
