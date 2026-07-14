@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { api } from '../../lib/api.js'
+import { zipSync, strToU8 } from 'fflate'
 import { Download, RefreshCw } from 'lucide-react'
 import { getImages, getAffiliates, getIndex, getRegion } from '../../lib/data.js'
 import { useCms, download, imagesOverride, affiliatesOverride, buildIndex, buildPlacesIndex,  } from '../../lib/cms.js'
@@ -28,15 +29,22 @@ export default function AdminExport({ regions }) {
     setBusy('all'); setAllNote('')
     try {
       const builds = await api.builder.list()
+      const entries = {}
       let n = 0
       for (const b of (builds || [])) {
         setAllNote(`Exporting ${b.name}… (${n + 1}/${builds.length})`)
         const bundle = await api.builder.export(b.countryId)
-        download(`${b.countryId}.json`, bundle)
+        entries[`${b.countryId}.json`] = strToU8(JSON.stringify(bundle, null, 2))
         n++
-        await new Promise((r) => setTimeout(r, 400))   // let the browser breathe between downloads
       }
-      setAllNote(`Done — ${n} countr${n === 1 ? 'y' : 'ies'} downloaded. Drop them all into countries/ and run: node scripts/import-country.mjs`)
+      setAllNote('Zipping…')
+      const zipped = zipSync(entries, { level: 6 })
+      const blob = new Blob([zipped], { type: 'application/zip' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url; a.download = 'countries.zip'; a.click()
+      setTimeout(() => URL.revokeObjectURL(url), 4000)
+      setAllNote(`Done — ${n} countr${n === 1 ? 'y' : 'ies'} in countries.zip. Unzip into countries/ and run: node scripts/import-country.mjs`)
     } catch (e) { setAllNote(e.message || 'Failed') }
     finally { setBusy('') }
   }
@@ -46,8 +54,7 @@ export default function AdminExport({ regions }) {
       <section className="cms-sec">
         <div className="cms-sec__head"><h3><Download size={16} /> All countries</h3></div>
         <p className="admin-note">
-          Downloads one bundle per built country — the exact files the import script expects.
-          Your browser will ask permission for multiple downloads the first time.
+          One zip containing a bundle per built country — the exact files the import script expects.
         </p>
         <button className="btn btn--primary" onClick={exportAllCountries} disabled={busy === 'all'}>
           <Download size={15} /> {busy === 'all' ? 'Exporting…' : 'Download all countries'}
