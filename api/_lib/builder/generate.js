@@ -538,14 +538,18 @@ Rules:
     if (list.length < 10) throw fail(502, 'The model did not return 10 places — try again')
 
     const norm = (x) => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim()
-    const existing = new Map(placesRows.map((p) => [norm(p.data?.name || p.placeId), p]))
+    // Match by name AND by place id: "Grand Canyon National Park" must link to
+    // an existing "Grand Canyon" whose slug collides, not violate the unique
+    // index trying to re-insert it.
+    const byName = new Map(placesRows.map((p) => [norm(p.data?.name || p.placeId), p]))
+    const byId = new Map(placesRows.map((p) => [p.placeId, p]))
     const validRegions = new Set(regionsRows.map((r) => r.regionId))
 
     const top10 = []
     const added = [], matched = [], skipped = []
     for (const raw of list) {
-      const key = norm(raw.name)
-      const hit = existing.get(key)
+      const rawSlug = slugify(raw.id || raw.name)
+      const hit = byName.get(norm(raw.name)) || byId.get(rawSlug)
       if (hit) {
         matched.push(raw.name)
         top10.push({ rank: top10.length + 1, name: hit.data?.name || raw.name, placeId: hit.placeId, regionId: hit.regionId, added: false })
@@ -553,7 +557,7 @@ Rules:
       }
       const regionId = validRegions.has(raw.regionId) ? raw.regionId : null
       if (!regionId) { skipped.push(`${raw.name} (unknown region "${raw.regionId}")`); continue }
-      const placeId = slugify(raw.id || raw.name)
+      const placeId = rawSlug
       await db.insert(buildPlaces).values({
         countryId: q.country, regionId, placeId, sort: 900 + top10.length,
         data: {
@@ -565,6 +569,7 @@ Rules:
         },
       })
       added.push(`${raw.name} → ${regionId}`)
+      byId.set(placeId, { placeId, regionId, data: { name: raw.name } })
       top10.push({ rank: top10.length + 1, name: raw.name, placeId, regionId, added: true })
     }
 
