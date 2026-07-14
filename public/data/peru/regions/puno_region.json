@@ -1,0 +1,1674 @@
+{
+  "id": "puno_region",
+  "name": "Puno Region",
+  "nameIt": "Región Puno",
+  "capital": "Puno",
+  "lat": -15.5,
+  "lng": -70.13,
+  "emoji": "🌊",
+  "colour": "ff9c27b0",
+  "boundingBox": {
+    "north": -14.8,
+    "south": -16.4,
+    "east": -69,
+    "west": -71.3
+  },
+  "history": "Puno Region in southern Peru has been inhabited since pre-Incan times, with the Tiwanaku civilization leaving significant archaeological evidence in the area. The Inca Empire later incorporated the region into Tawantinsuyu, establishing administrative centers and agricultural terraces around Lake Titicaca. After Spanish conquest in the 16th century, Puno became an important colonial mining center due to nearby silver deposits, though the indigenous Aymara and Quechua populations maintained much of their cultural identity. The region remained a vital commercial hub throughout Peru's republican period and continues to be a center of indigenous culture and tradition.",
+  "culturalNotes": "Puno is renowned as the cultural heartland of Peru, famous for its vibrant festivals, traditional textiles, and indigenous Aymara and Quechua communities. The region's most celebrated event is the Festival of the Virgin of Candelaria in February, featuring elaborate costumes, dances, and processions that showcase centuries-old traditions. Lake Titicaca, the world's highest navigable lake, is central to the region's identity and home to unique floating island communities like the Uros, who maintain ancestral ways of living on totora reed islands.",
+  "bestTimeToVisit": "Visit from May to September for dry weather and the best experience on Lake Titicaca.",
+  "languageNotes": "Aymara and Quechua are widely spoken in Puno Region alongside Spanish, with Aymara being particularly prevalent in the southern areas. Useful phrases include 'Sulpayki' (thank you in Aymara) and 'Rimaykullayki' (hello in Quechua), which locals appreciate when visitors attempt to use indigenous languages.",
+  "generatedAt": "2026-07-14T20:48:37.201Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "lake_titicaca",
+      "name": "Lake Titicaca",
+      "nameIt": "Lago Titicaca",
+      "lat": -15.5,
+      "lng": -70.1,
+      "type": "NATURE",
+      "description": "The world's highest navigable lake at 3,812 meters, straddling Peru and Bolivia with breathtaking mountain views and rich indigenous culture. It's the heart of Puno region and offers boat tours, island visits, and stunning sunsets.",
+      "imageQueries": [
+        "Lake Titicaca Peru sunset",
+        "Titicaca high altitude lake"
+      ],
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Uros Floating Islands Tour",
+          "detail": "Visit the indigenous Uros people on their handmade reed islands, learn about their unique floating lifestyle and traditional boat construction.",
+          "lat": -15.8267,
+          "lng": -70.1333
+        },
+        {
+          "id": "lake_2",
+          "text": "Taquile Island Visit",
+          "detail": "Explore this terraced island known for its woven textiles, traditional dress, and panoramic lake views accessible by a 45-minute boat ride from Puno.",
+          "lat": -15.8392,
+          "lng": -69.4061
+        },
+        {
+          "id": "lake_3",
+          "text": "Sunset Viewing from Puno Waterfront",
+          "detail": "Watch the sun descend behind the Bolivian mountains from the Puno harbor, creating spectacular reflections across the high-altitude waters.",
+          "lat": -15.8402,
+          "lng": -70.1337
+        },
+        {
+          "id": "lake_4",
+          "text": "Amantani Island Trek",
+          "detail": "Hike to the island's two sacred peaks (Pachatata and Pachamama) for 360-degree views of Lake Titicaca and stay overnight with a local family.",
+          "lat": -15.8733,
+          "lng": -69.3875
+        },
+        {
+          "id": "lake_5",
+          "text": "Lake Titicaca Boat Cruise",
+          "detail": "Take a full-day guided boat tour combining multiple islands, stops at archaeological sites, and wildlife observation including Andean waterfowl.",
+          "lat": -15.8402,
+          "lng": -70.1337
+        },
+        {
+          "id": "lake_6",
+          "text": "Inca Uyu Archaeological Site",
+          "detail": "Visit the pre-Incan ruins on the island of Koati, featuring stone terraces and ancient structures connected to creation myths of Manco Capac and Mama Ocllo.",
+          "lat": -15.8483,
+          "lng": -69.6183
+        },
+        {
+          "id": "lake_7",
+          "text": "Traditional Textile Workshop Visit",
+          "detail": "Observe and purchase directly from weavers on Taquile or Amantani who use ancestral techniques to create alpaca and sheep wool textiles.",
+          "lat": -15.8392,
+          "lng": -69.4061
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Freshly caught lake trout pan-fried in butter and lemon, a signature dish showcasing Lake Titicaca's prized cold-water fish."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Ceviche de Trucha",
+          "detail": "Diced raw trout cured in lime juice with red onions, cilantro, and aji peppers, prepared fresh at lakeside restaurants in Puno."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Papa a la Huancaína",
+          "detail": "Boiled potatoes (often grown locally at high altitude) covered in a creamy yellow aji sauce, a classic Andean dish served throughout the region."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Quinua Soup",
+          "detail": "A hearty traditional soup made with quinoa, vegetables, and sometimes fish from the lake, providing warmth at the high 3,800-meter elevation."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Ispi Frito",
+          "detail": "Tiny endemic fish from Lake Titicaca fried whole and eaten as a crispy snack or appetizer, tasting faintly sweet with edible bones."
+        },
+        {
+          "id": "lake_f6",
+          "text": "Humitas",
+          "detail": "Steamed corn dough parcels wrapped in corn husks, often filled with cheese and served at market stalls and family meals on the islands."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "Respect Island Sacred Sites",
+          "detail": "Many locations on islands like Amantani are considered sacred to Andean spirituality; ask permission before photographing or entering ceremonial areas."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Learn Basic Quechua Phrases",
+          "detail": "The indigenous Uros and island communities speak Quechua first; greeting people with 'Napaykullayki' (hello) or 'Sulpayki' (thank you) shows respect and opens doors."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Support Community-Based Tourism",
+          "detail": "Choose family-run homestays and cooperatives on islands rather than large tour operators to ensure money directly benefits local communities."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Understand Textile Economics",
+          "detail": "Handwoven textiles represent months of labor by artisans; fair prices ($30-100+) reflect the time and skill involved rather than mass-production costs."
+        }
+      ]
+    },
+    {
+      "id": "puno_city",
+      "name": "Puno",
+      "nameIt": "Puno",
+      "lat": -15.5041,
+      "lng": -70.1225,
+      "type": "CITY",
+      "description": "The regional capital and cultural heart, famous for vibrant festivals, colonial architecture, and as the gateway to Lake Titicaca's islands. The city offers museums, markets, and authentic Andean traditions year-round.",
+      "imageQueries": [
+        "Puno Peru city colonial",
+        "Puno Candelaria festival"
+      ],
+      "activities": [
+        {
+          "id": "puno_1",
+          "text": "Lake Titicaca Island Tours",
+          "detail": "Take a boat to the Uros floating islands or Taquile Island to experience unique indigenous communities and traditional weaving practices on the world's highest navigable lake.",
+          "lat": -15.8402,
+          "lng": -70.1337
+        },
+        {
+          "id": "puno_2",
+          "text": "Puno Cathedral",
+          "detail": "Visit this 17th-century colonial masterpiece in the Plaza de Armas featuring an ornate baroque facade and impressive interior artwork.",
+          "lat": -15.8408,
+          "lng": -70.1328
+        },
+        {
+          "id": "puno_3",
+          "text": "Muelle Puno (Puno Dock)",
+          "detail": "Stroll along the waterfront promenade to watch fishermen, enjoy lake views, and access departure points for island tours.",
+          "lat": -15.842,
+          "lng": -70.1285
+        },
+        {
+          "id": "puno_4",
+          "text": "Museo Carlos Dreyer",
+          "detail": "Explore Peru's finest private collection of pre-Columbian artifacts, textiles, and colonial art in a restored mansion near the plaza.",
+          "lat": -15.841,
+          "lng": -70.134
+        },
+        {
+          "id": "puno_5",
+          "text": "Puno Market (Mercado Central)",
+          "detail": "Wander through bustling stalls selling traditional textiles, alpaca goods, fresh produce, and local crafts reflecting Andean culture.",
+          "lat": -15.8445,
+          "lng": -70.1315
+        },
+        {
+          "id": "puno_6",
+          "text": "Silustani Archaeological Site",
+          "detail": "Visit pre-Incan funerary towers on a peninsula 30km north overlooking Lake Umayo, showcasing Aymara and Quechua burial traditions.",
+          "lat": -15.7333,
+          "lng": -70.35
+        },
+        {
+          "id": "puno_7",
+          "text": "Puno Festival (Candelaria)",
+          "detail": "Experience February's vibrant multi-week celebration featuring elaborate costume parades, traditional dances, and religious processions.",
+          "lat": -15.8408,
+          "lng": -70.1328
+        }
+      ],
+      "food": [
+        {
+          "id": "puno_f1",
+          "text": "Ceviche de Trucha",
+          "detail": "Fresh rainbow trout cured in lime juice with ají peppers, served with sweet potatoes and corn, reflecting Lake Titicaca's abundant fish."
+        },
+        {
+          "id": "puno_f2",
+          "text": "Alpaca Anticuchos",
+          "detail": "Grilled skewers of marinated alpaca heart and meat served with spicy ají verde sauce, a traditional Andean delicacy."
+        },
+        {
+          "id": "puno_f3",
+          "text": "Papa a la Huancaína",
+          "detail": "Boiled potatoes smothered in a creamy yellow pepper and cheese sauce, a beloved dish throughout the highlands served cold."
+        },
+        {
+          "id": "puno_f4",
+          "text": "Quinoa Soup",
+          "detail": "Hearty soup made with locally-grown quinoa, potatoes, and fresh vegetables, warming and protein-rich at high altitude."
+        },
+        {
+          "id": "puno_f5",
+          "text": "Humita",
+          "detail": "Steamed corn parcels wrapped in corn husks with cheese and spices, a pre-Incan comfort food still prepared traditionally."
+        },
+        {
+          "id": "puno_f6",
+          "text": "Fresh Trout from Lake Titicaca",
+          "detail": "Simply prepared grilled or fried trout caught daily from the lake, often served whole with lime and local potatoes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puno_c1",
+          "text": "Respectful Photography of Indigenous Communities",
+          "detail": "Always ask permission before photographing locals, especially on Taquile or Uros islands, as many prefer not to be photographed for spiritual or privacy reasons."
+        },
+        {
+          "id": "puno_c2",
+          "text": "Altitude Acclimatization",
+          "detail": "Puno sits at 3,890m elevation; allow 1-2 days to acclimate by staying hydrated, eating light meals, and moving slowly to avoid soroche (altitude sickness)."
+        },
+        {
+          "id": "puno_c3",
+          "text": "Spanish Language Helps",
+          "detail": "While some tourism workers speak English, most locals speak Aymara and Quechua first; basic Spanish phrases show respect and greatly enhance interactions."
+        },
+        {
+          "id": "puno_c4",
+          "text": "Festival Protocol",
+          "detail": "During Candelaria festival, expect crowded streets, book accommodation months ahead, and participate respectfully in processions by dressing appropriately and following local cues."
+        }
+      ]
+    },
+    {
+      "id": "uros_islands",
+      "name": "Uros Floating Islands",
+      "nameIt": "Islas Uros",
+      "lat": -15.5167,
+      "lng": -70.1833,
+      "type": "ISLAND",
+      "description": "Unique floating islands made entirely of totora reeds, home to the indigenous Uros people who have lived on the water for centuries. Visitors can experience their distinct culture, traditional boats, and way of life up close.",
+      "imageQueries": [
+        "Uros floating islands reed boats",
+        "Lake Titicaca Uros people"
+      ],
+      "activities": [
+        {
+          "id": "uros_1",
+          "text": "Reed boat ride with local guide",
+          "detail": "Navigate the waterways in a traditional totora reed boat piloted by an Uros boatman who explains island navigation and daily life.",
+          "lat": -15.5034,
+          "lng": -70.1359
+        },
+        {
+          "id": "uros_2",
+          "text": "Visit the Uros Museum",
+          "detail": "Learn about Uros history, textiles, and culture through displays of traditional clothing, fishing tools, and historical artifacts.",
+          "lat": -15.5045,
+          "lng": -70.1345
+        },
+        {
+          "id": "uros_3",
+          "text": "Walk across a floating island",
+          "detail": "Step onto the spongy totora reed islands themselves to experience the unique sensation of walking on a surface that moves and compresses underfoot.",
+          "lat": -15.5052,
+          "lng": -70.134
+        },
+        {
+          "id": "uros_4",
+          "text": "Fishing demonstration",
+          "detail": "Watch local fishermen use traditional nets and techniques to catch fish in Lake Titicaca using methods passed down for generations.",
+          "lat": -15.504,
+          "lng": -70.1365
+        },
+        {
+          "id": "uros_5",
+          "text": "Textile weaving workshop",
+          "detail": "Observe or participate in traditional weaving of totora reeds and alpaca wool to create crafts, baskets, and ceremonial textiles.",
+          "lat": -15.5048,
+          "lng": -70.135
+        },
+        {
+          "id": "uros_6",
+          "text": "Sunrise viewing from the islands",
+          "detail": "Wake early to experience the ethereal light reflecting off Lake Titicaca's waters with the Andes mountains as a backdrop."
+        }
+      ],
+      "food": [
+        {
+          "id": "uros_f1",
+          "text": "Fresh lake fish (trucha and pejerrey)",
+          "detail": "Local trout and silverfish caught daily from Lake Titicaca, typically grilled or fried with simple seasonings and served with potatoes."
+        },
+        {
+          "id": "uros_f2",
+          "text": "Papa a la huancaína",
+          "detail": "Yellow potatoes smothered in a creamy cheese and chili pepper sauce, a Peruvian coastal dish adapted with local lake ingredients."
+        },
+        {
+          "id": "uros_f3",
+          "text": "Quinoa soup",
+          "detail": "A hearty traditional soup made with locally-grown quinoa, potatoes, and vegetables that provides warming nutrition in the high-altitude climate."
+        },
+        {
+          "id": "uros_f4",
+          "text": "Ceviche with lake fish",
+          "detail": "Fresh-caught Lake Titicaca fish cured in lime juice and served with onions and chilies, reflecting local adaptation of Peru's national dish."
+        },
+        {
+          "id": "uros_f5",
+          "text": "Uros-style grilled fish with totora bread",
+          "detail": "Whole fish grilled over open fires served alongside bread made from totora reed flour, representing the islands' most authentic dining experience."
+        }
+      ],
+      "culture": [
+        {
+          "id": "uros_c1",
+          "text": "Respect photography protocols",
+          "detail": "Always ask permission before photographing residents, as many islanders prefer payment or politely decline photos of their families and homes."
+        },
+        {
+          "id": "uros_c2",
+          "text": "Learn basic Aymara greetings",
+          "detail": "The Uros speak Aymara as their primary language; greeting locals with 'Napayatha' (hello) shows respect for their indigenous heritage."
+        },
+        {
+          "id": "uros_c3",
+          "text": "Understand their sustainable practices",
+          "detail": "The Uros harvest and replant totora reeds continuously to maintain their islands, demonstrating centuries-old environmental stewardship worth acknowledging."
+        },
+        {
+          "id": "uros_c4",
+          "text": "Support community tourism directly",
+          "detail": "Purchase crafts, meals, and boat tours directly from island families rather than through middlemen to ensure your money benefits the Uros people."
+        }
+      ]
+    },
+    {
+      "id": "taquile_island",
+      "name": "Taquile Island",
+      "nameIt": "Isla Taquile",
+      "lat": -15.6433,
+      "lng": -69.4033,
+      "type": "ISLAND",
+      "description": "A sacred island known for its pre-Incan terraces, traditional textiles, and thriving weaving cooperative where locals maintain centuries-old customs. The island offers hiking trails with panoramic lake views and authentic community-based tourism.",
+      "imageQueries": [
+        "Taquile Island Peru textiles",
+        "Taquile weaving traditions lake"
+      ],
+      "activities": [
+        {
+          "id": "taqu_1",
+          "text": "Weaving Cooperative Workshop",
+          "detail": "Visit the community weaving center to watch artisans create traditional textiles using pre-Hispanic techniques and purchase directly from makers.",
+          "lat": -15.6408,
+          "lng": -69.4033
+        },
+        {
+          "id": "taqu_2",
+          "text": "Circuito Chico Trail Hike",
+          "detail": "Trek the island's shorter circular route through pre-Incan agricultural terraces with sweeping views of Lake Titicaca and surrounding mountains.",
+          "lat": -15.642,
+          "lng": -69.405
+        },
+        {
+          "id": "taqu_3",
+          "text": "Pre-Incan Terraces Exploration",
+          "detail": "Walk among the meticulously engineered stone terraces built centuries ago that cascade down the hillsides and remain actively farmed by islanders.",
+          "lat": -15.64,
+          "lng": -69.407
+        },
+        {
+          "id": "taqu_4",
+          "text": "Community Museum Visit",
+          "detail": "Explore the small island museum displaying traditional textiles, weaving tools, and artifacts that document Taquile's cultural heritage and weaving traditions.",
+          "lat": -15.6415,
+          "lng": -69.404
+        },
+        {
+          "id": "taqu_5",
+          "text": "Circuito Grande Trail Hike",
+          "detail": "Take the longer, more challenging route around the entire island for comprehensive panoramic views and deeper exploration of traditional agricultural zones.",
+          "lat": -15.645,
+          "lng": -69.4
+        },
+        {
+          "id": "taqu_6",
+          "text": "Sunset Viewing from Upper Plaza",
+          "detail": "Climb to the island's upper central plaza at dusk to witness spectacular golden-hour lighting over Lake Titicaca and the Andes."
+        }
+      ],
+      "food": [
+        {
+          "id": "taqu_f1",
+          "text": "Papa a la Huancaína",
+          "detail": "Sliced boiled potatoes topped with a creamy yellow sauce made from fresh cheese, aji peppers, and local herbs, a regional specialty served in island restaurants."
+        },
+        {
+          "id": "taqu_f2",
+          "text": "Fresh Lake Trout (Trucha)",
+          "detail": "Grilled or baked Titicaca trout caught locally and prepared simply with lime juice, served as the primary protein dish on the island."
+        },
+        {
+          "id": "taqu_f3",
+          "text": "Quinoa Soup",
+          "detail": "Traditional Andean soup made with locally grown quinoa, potatoes, and vegetables, warming and nutritious after hiking the mountain trails."
+        },
+        {
+          "id": "taqu_f4",
+          "text": "Chuño (Freeze-Dried Potato)",
+          "detail": "An ancient Andean preservation technique producing dark, dehydrated potatoes that are rehydrated and cooked into traditional stews served on the island."
+        },
+        {
+          "id": "taqu_f5",
+          "text": "Fresh Lake Fish Ceviche",
+          "detail": "Titicaca fish cured in lime juice with local cilantro and aji peppers, reflecting both indigenous and coastal Peruvian influences."
+        }
+      ],
+      "culture": [
+        {
+          "id": "taqu_c1",
+          "text": "Respect Textile Artisans' Workspace",
+          "detail": "Ask permission before photographing weavers at their looms, as textiles are sacred cultural items, and purchases directly support families practicing ancestral crafts."
+        },
+        {
+          "id": "taqu_c2",
+          "text": "Learn Quechua Greetings",
+          "detail": "While Spanish is spoken, locals speak Quechua and appreciate visitors learning basic phrases like 'Allinllachu' (hello) as a sign of respect for indigenous culture."
+        },
+        {
+          "id": "taqu_c3",
+          "text": "No Motorized Vehicles on Island",
+          "detail": "Taquile maintains a car-free environment to preserve its tranquility and traditional way of life, so all travel is by foot or boat."
+        },
+        {
+          "id": "taqu_c4",
+          "text": "Participate in Community Meals",
+          "detail": "Accept invitations to shared meals at family restaurants or community gatherings, as hospitality and commensality are core to Taquile's social structure."
+        }
+      ]
+    },
+    {
+      "id": "amantani_island",
+      "name": "Amantani Island",
+      "nameIt": "Isla Amantani",
+      "lat": -15.6633,
+      "lng": -69.7333,
+      "type": "ISLAND",
+      "description": "A larger island with two ancient temple sites and traditional Quechua communities offering homestays and immersive cultural experiences. Visitors can hike to mountain peaks with 360-degree views of Lake Titicaca and surrounding peaks.",
+      "imageQueries": [
+        "Amantani Island Peru homestay",
+        "Amantani temple mountain views"
+      ],
+      "activities": [
+        {
+          "id": "aman_1",
+          "text": "Hike to Puno Peak (Pachamama)",
+          "detail": "Ascend to the highest point on the island at approximately 4,150 meters for panoramic 360-degree views of Lake Titicaca, surrounding mountains, and both Peruvian and Bolivian shorelines.",
+          "lat": -15.3392,
+          "lng": -70.1625
+        },
+        {
+          "id": "aman_2",
+          "text": "Visit Pachamama Temple Site",
+          "detail": "Explore the ancient pre-Incan ceremonial ruins dedicated to Mother Earth, featuring stone foundations and terraces that showcase the island's archaeological significance.",
+          "lat": -15.3406,
+          "lng": -70.1592
+        },
+        {
+          "id": "aman_3",
+          "text": "Climb to Atunpampa Peak (Inti)",
+          "detail": "Trek to the second major summit on the island where visitors encounter the Inti (Sun) temple ruins and enjoy equally stunning vistas across Lake Titicaca.",
+          "lat": -15.3498,
+          "lng": -70.1708
+        },
+        {
+          "id": "aman_4",
+          "text": "Homestay cultural immersion",
+          "detail": "Stay with a traditional Quechua family to participate in daily activities, learn weaving techniques, and share authentic meals while supporting the local community directly.",
+          "lat": -15.345,
+          "lng": -70.165
+        },
+        {
+          "id": "aman_5",
+          "text": "Community-led textile workshops",
+          "detail": "Learn traditional weaving methods from local artisans using pre-Incan techniques to create textiles with natural dyes and alpaca wool.",
+          "lat": -15.345,
+          "lng": -70.165
+        },
+        {
+          "id": "aman_6",
+          "text": "Visit local family agricultural plots",
+          "detail": "Tour the terraced fields where Amantani families cultivate quinoa, potatoes, and other Andean crops using sustainable traditional methods.",
+          "lat": -15.344,
+          "lng": -70.168
+        }
+      ],
+      "food": [
+        {
+          "id": "aman_f1",
+          "text": "Papa a la Huancaína",
+          "detail": "Boiled potatoes served with a creamy yellow sauce made from ají amarillo peppers, evaporated milk, and queso fresco, representing a classic Andean highland dish."
+        },
+        {
+          "id": "aman_f2",
+          "text": "Caldo de quinua",
+          "detail": "A hearty vegetable and quinoa soup made with locally-harvested quinoa, potatoes, and herbs that has sustained Amantani families for generations."
+        },
+        {
+          "id": "aman_f3",
+          "text": "Trucha frita del Lago Titicaca",
+          "detail": "Fresh-caught Lake Titicaca trout fried whole and served with lime, a simple preparation highlighting the island's access to freshwater fish."
+        },
+        {
+          "id": "aman_f4",
+          "text": "Humita",
+          "detail": "A sweet or savory corn-based tamale wrapped in fresh corn husks and steamed, commonly prepared during community gatherings on the island."
+        },
+        {
+          "id": "aman_f5",
+          "text": "Choclo con queso",
+          "detail": "Large Andean corn kernels boiled and served with fresh local cheese, a simple traditional accompaniment to most Amantani meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aman_c1",
+          "text": "Arrive without expectations of modern amenities",
+          "detail": "Amantani has no cars, limited electricity, and basic accommodations by design; visitors should embrace this simplicity as central to the authentic cultural experience."
+        },
+        {
+          "id": "aman_c2",
+          "text": "Participate respectfully in ceremonies and festivals",
+          "detail": "If visiting during local celebrations like the Fiesta de la Virgen de la Candelaria, ask permission before photographing and follow community guidelines for participation."
+        },
+        {
+          "id": "aman_c3",
+          "text": "Learn basic Quechua greetings",
+          "detail": "While many islanders speak Spanish, using simple Quechua words like 'Allinchu' (hello) and 'Sulpayki' (thank you) shows respect and deepens connections with your host family."
+        },
+        {
+          "id": "aman_c4",
+          "text": "Support the community through direct homestay payments",
+          "detail": "Booking stays directly with families rather than through outside tour operators ensures your money reaches the people you're learning from and strengthens sustainable tourism."
+        }
+      ]
+    },
+    {
+      "id": "silustani",
+      "name": "Sillustani",
+      "nameIt": "Sillustani",
+      "lat": -15.4244,
+      "lng": -70.3322,
+      "type": "LANDMARK",
+      "description": "An archaeological site with remarkable pre-Incan funerary towers called chullpas set on a peninsula overlooking Lake Umayo. It provides insight into the Colla and Lupaca cultures and their impressive stone masonry.",
+      "imageQueries": [
+        "Sillustani chullpas towers Peru",
+        "Sillustani archaeological site lake"
+      ],
+      "activities": [
+        {
+          "id": "silu_1",
+          "text": "Explore the Chullpas",
+          "detail": "Walk among the iconic pre-Incan funerary towers, some standing over 12 meters tall, built by the Colla and Lupaca cultures with precisely fitted stone masonry.",
+          "lat": -15.4972,
+          "lng": -70.3628
+        },
+        {
+          "id": "silu_2",
+          "text": "Lake Umayo Viewpoint",
+          "detail": "Enjoy panoramic views of the vast Andean lake from the peninsula, particularly stunning at sunset when light reflects off the water and surrounding mountains.",
+          "lat": -15.4975,
+          "lng": -70.362
+        },
+        {
+          "id": "silu_3",
+          "text": "Visit the Site Museum",
+          "detail": "See artifacts excavated from the chullpas including pottery, textiles, and human remains that illuminate daily life and burial practices of the Colla civilization.",
+          "lat": -15.499,
+          "lng": -70.364
+        },
+        {
+          "id": "silu_4",
+          "text": "Photograph Stone Masonry Details",
+          "detail": "Examine the intricate fitting techniques of the pre-Incan stonework, where blocks are cut without mortar and demonstrate advanced engineering knowledge.",
+          "lat": -15.4972,
+          "lng": -70.3628
+        },
+        {
+          "id": "silu_5",
+          "text": "Walk the Peninsula Loop Trail",
+          "detail": "Follow the scenic footpath around the archaeological zone to see multiple chullpa clusters and appreciate the landscape that connected these burial sites to the lake.",
+          "lat": -15.4975,
+          "lng": -70.363
+        }
+      ],
+      "food": [
+        {
+          "id": "silu_f1",
+          "text": "Trout from Lake Umayo",
+          "detail": "Fresh trucha (rainbow trout) caught from the nearby lake is typically grilled or pan-fried and served with local potatoes and quinoa."
+        },
+        {
+          "id": "silu_f2",
+          "text": "Papa a la Huancaína",
+          "detail": "Sliced boiled potatoes dressed in a creamy sauce made from aji amarillo peppers, evaporated milk, and queso fresco, a classic Andean dish available in local restaurants."
+        },
+        {
+          "id": "silu_f3",
+          "text": "Quinoa Soup",
+          "detail": "A warming soup made with locally grown quinoa, potatoes, and vegetables that sustains visitors exploring the high-altitude site."
+        },
+        {
+          "id": "silu_f4",
+          "text": "Chuño",
+          "detail": "Freeze-dried potatoes that have been naturally processed through Andean frost cycles, representing an ancient preservation method still used in the region."
+        },
+        {
+          "id": "silu_f5",
+          "text": "Alpaca Steak",
+          "detail": "Lean meat from domesticated Andean camelids, grilled and served as a local specialty that reflects the region's pastoral heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "silu_c1",
+          "text": "Respect the Sacred Space",
+          "detail": "The chullpas are ancestral burial sites treated as sacred by local Quechua and Aymara communities; maintain quiet reverence and do not disturb stones or remove artifacts."
+        },
+        {
+          "id": "silu_c2",
+          "text": "Hire a Local Guide",
+          "detail": "Engaging a guide from Puno enhances understanding of Colla and Lupaca cosmology, architectural techniques, and connects visitors to living descendants of these cultures."
+        },
+        {
+          "id": "silu_c3",
+          "text": "Altitude Awareness",
+          "detail": "Sillustani sits at 3,850 meters elevation; allow acclimatization time and stay hydrated to avoid soroche (altitude sickness) common for visitors from lower elevations."
+        },
+        {
+          "id": "silu_c4",
+          "text": "Visit During Local Festivals",
+          "detail": "Timing a visit around Puno's cultural celebrations or local community events provides deeper insight into how contemporary Andean peoples honor their pre-Incan heritage."
+        }
+      ]
+    },
+    {
+      "id": "chucuito",
+      "name": "Chucuito",
+      "nameIt": "Chucuito",
+      "lat": -15.4789,
+      "lng": -70.3544,
+      "type": "TOWN",
+      "description": "A small colonial town famous for its perfectly preserved churches and the unusual Temple of Fertility with its phallic stone carvings. It's a charming stop with traditional architecture and local markets.",
+      "imageQueries": [
+        "Chucuito Peru church colonial",
+        "Chucuito fertility temple stones"
+      ],
+      "activities": [
+        {
+          "id": "chuc_1",
+          "text": "Temple of Fertility",
+          "detail": "Visit this unique pre-Incan temple featuring explicit phallic stone carvings believed to symbolize fertility and agricultural abundance.",
+          "lat": -15.4964,
+          "lng": -70.3667
+        },
+        {
+          "id": "chuc_2",
+          "text": "Church of San Pedro",
+          "detail": "Explore this beautifully preserved colonial church with intricate stone facades and baroque architectural details in the town's main plaza.",
+          "lat": -15.4972,
+          "lng": -70.3658
+        },
+        {
+          "id": "chuc_3",
+          "text": "Church of Nuestra Señora de la Asunción",
+          "detail": "Visit this impressive 16th-century church featuring ornate stonework and traditional Andean-Spanish fusion architecture.",
+          "lat": -15.4978,
+          "lng": -70.3651
+        },
+        {
+          "id": "chuc_4",
+          "text": "Local Market Exploration",
+          "detail": "Browse the traditional Andean market for local textiles, alpaca products, fresh produce, and handmade crafts from regional artisans.",
+          "lat": -15.4985,
+          "lng": -70.367
+        },
+        {
+          "id": "chuc_5",
+          "text": "Lake Titicaca Viewpoint",
+          "detail": "Walk to nearby elevated areas overlooking the shores of Lake Titicaca to observe traditional fishing boats and local waterside communities.",
+          "lat": -15.505,
+          "lng": -70.372
+        },
+        {
+          "id": "chuc_6",
+          "text": "Colonial Town Walking Tour",
+          "detail": "Stroll through narrow stone streets lined with traditional adobe and stone houses, observing authentic colonial architecture and local daily life."
+        }
+      ],
+      "food": [
+        {
+          "id": "chuc_f1",
+          "text": "Trout from Lake Titicaca",
+          "detail": "Fresh locally caught trucha prepared grilled or in a light broth, showcasing the lake's abundant fish resources."
+        },
+        {
+          "id": "chuc_f2",
+          "text": "Papa a la Huancaína",
+          "detail": "Yellow potatoes covered in a creamy sauce made from local aji peppers, cheese, and peanuts, a beloved Peruvian dish."
+        },
+        {
+          "id": "chuc_f3",
+          "text": "Ceviche",
+          "detail": "Fresh fish marinated in lime juice with local chilies, red onion, and cilantro, reflecting regional Andean-coastal fusion cuisine."
+        },
+        {
+          "id": "chuc_f4",
+          "text": "Quinoa Soup",
+          "detail": "Traditional broth featuring locally grown quinoa, vegetables, and sometimes cheese, a staple of high-altitude Puno cuisine."
+        },
+        {
+          "id": "chuc_f5",
+          "text": "Alpaca Steak",
+          "detail": "Grilled lean meat from local alpacas, tender and flavorful, often served with potatoes and local vegetables."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chuc_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "Approach the Temple of Fertility and churches with cultural sensitivity; these are living spiritual spaces for locals, not merely tourist attractions."
+        },
+        {
+          "id": "chuc_c2",
+          "text": "Learn Basic Quechua",
+          "detail": "Many residents speak Quechua alongside Spanish; learning greetings like 'Napaykullayki' shows respect for indigenous heritage."
+        },
+        {
+          "id": "chuc_c3",
+          "text": "Visit During Local Festivals",
+          "detail": "Plan visits around Candlemas (February) and other regional celebrations when traditional dances, processions, and local customs are on full display."
+        },
+        {
+          "id": "chuc_c4",
+          "text": "Support Local Artisans",
+          "detail": "Purchase directly from market vendors and local craftspeople rather than tourist shops to ensure money benefits the community."
+        }
+      ]
+    },
+    {
+      "id": "juli",
+      "name": "Juli",
+      "nameIt": "Juli",
+      "lat": -15.6603,
+      "lng": -70.3717,
+      "type": "TOWN",
+      "description": "Known as the Rome of the Andes for its four major colonial churches representing different architectural styles built during the Spanish conquest era. The town offers stunning examples of colonial religious art and craftsmanship.",
+      "imageQueries": [
+        "Juli Peru four churches",
+        "Juli colonial architecture Andes"
+      ],
+      "activities": [
+        {
+          "id": "juli_1",
+          "text": "Visit the Church of San Pedro Mártir",
+          "detail": "Explore one of Juli's four major colonial churches, known for its impressive Renaissance façade and baroque interior with original religious artwork from the 16th century.",
+          "lat": -15.4564,
+          "lng": -70.1289
+        },
+        {
+          "id": "juli_2",
+          "text": "Tour the Church of Santa Cruz de Jerusalem",
+          "detail": "This fortress-like church features unique defensive architectural elements combined with baroque decoration, representing a distinctive Andean colonial style.",
+          "lat": -15.4572,
+          "lng": -70.1275
+        },
+        {
+          "id": "juli_3",
+          "text": "Explore the Church of San Juan de Letrán",
+          "detail": "Admire the plateresque architectural style and intricate stone carvings while discovering colonial-era religious art and craftsmanship throughout the interior.",
+          "lat": -15.4558,
+          "lng": -70.1305
+        },
+        {
+          "id": "juli_4",
+          "text": "Walk the colonial town plaza",
+          "detail": "Stroll through Juli's main square surrounded by whitewashed buildings and colonial architecture, observing local daily life and the town's historical layout.",
+          "lat": -15.4565,
+          "lng": -70.129
+        },
+        {
+          "id": "juli_5",
+          "text": "Visit the Church of La Asunción",
+          "detail": "The fourth major colonial church showcases gothic influences mixed with indigenous artistic elements in its altarpieces and religious sculptures.",
+          "lat": -15.458,
+          "lng": -70.126
+        },
+        {
+          "id": "juli_6",
+          "text": "Photograph colonial stone details",
+          "detail": "Capture intricate carved doorways, ornamental stonework, and weathered facade details that reveal the craftsmanship of indigenous masons trained by Spanish colonizers."
+        }
+      ],
+      "food": [
+        {
+          "id": "juli_f1",
+          "text": "Ceviche de trucha",
+          "detail": "Fresh rainbow trout cured in lime juice with onions and spices, reflecting the Altiplano's abundant freshwater fish sources and coastal Peruvian culinary influence."
+        },
+        {
+          "id": "juli_f2",
+          "text": "Quinoa soup",
+          "detail": "A traditional Andean soup made with locally-grown quinoa, potatoes, and vegetables that has been a dietary staple in the Puno region for centuries."
+        },
+        {
+          "id": "juli_f3",
+          "text": "Arequipe with cheese",
+          "detail": "Dulce de leche paired with local fresh cheese, a beloved sweet treat combining colonial-era Spanish candy-making traditions with regional dairy products."
+        },
+        {
+          "id": "juli_f4",
+          "text": "Trout with native potatoes",
+          "detail": "Grilled or baked lake trout served alongside colorful native potato varieties unique to the high-altitude Altiplano region."
+        },
+        {
+          "id": "juli_f5",
+          "text": "Choclo corn dishes",
+          "detail": "Large-kerneled Andean corn served boiled or in traditional preparations, representing a pre-Columbian staple crop still central to local cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "juli_c1",
+          "text": "Respect church visiting hours",
+          "detail": "Many colonial churches have limited visiting times and may require modest dress; plan visits for late morning or early afternoon when churches are typically open to tourists."
+        },
+        {
+          "id": "juli_c2",
+          "text": "Learn basic Quechua greetings",
+          "detail": "While Spanish is widely spoken, elderly residents and rural visitors may speak Quechua; simple phrases like 'Napaykullayki' (thank you) show respect for indigenous heritage."
+        },
+        {
+          "id": "juli_c3",
+          "text": "Participate in local market culture",
+          "detail": "Visit the town market early in the morning to experience traditional commerce, indigenous dress, and local food preparation customs that remain unchanged for generations."
+        },
+        {
+          "id": "juli_c4",
+          "text": "Acclimatize to high altitude",
+          "detail": "Juli sits at 3,862 meters elevation; arrive a day early, drink coca tea, and move slowly to adjust to the thin air and prevent altitude sickness."
+        }
+      ]
+    },
+    {
+      "id": "ilave",
+      "name": "Ilave",
+      "nameIt": "Ilave",
+      "lat": -15.6306,
+      "lng": -70.6031,
+      "type": "TOWN",
+      "description": "A market town near the Bolivia border with strong indigenous traditions, colorful markets, and access to nearby highland communities. It serves as a cultural and commercial hub for the southern Puno region.",
+      "imageQueries": [
+        "Ilave Peru market indigenous",
+        "Ilave town Bolivia border"
+      ],
+      "activities": [
+        {
+          "id": "ilav_1",
+          "text": "Ilave Market",
+          "detail": "Browse the bustling Sunday and Wednesday markets filled with indigenous textiles, alpaca wool, fresh produce, and crafts from surrounding communities.",
+          "lat": -16.0933,
+          "lng": -69.6033
+        },
+        {
+          "id": "ilav_2",
+          "text": "Plaza de Armas",
+          "detail": "Visit the central square surrounded by colonial architecture, the local church, and vendor stalls that showcase daily life in this highland town.",
+          "lat": -16.0936,
+          "lng": -69.6036
+        },
+        {
+          "id": "ilav_3",
+          "text": "Nearby Highland Communities",
+          "detail": "Take day trips to surrounding Aymara villages like Huacullani or Pomata to experience traditional weaving and agricultural practices."
+        },
+        {
+          "id": "ilav_4",
+          "text": "Lake Titicaca Day Excursion",
+          "detail": "Travel to nearby peninsulas or islands on Lake Titicaca about 30 kilometers away to visit pre-Incan sites and floating islands."
+        },
+        {
+          "id": "ilav_5",
+          "text": "Textile Workshops",
+          "detail": "Visit local weaving workshops where indigenous artisans demonstrate traditional backstrap loom techniques and sell alpaca and sheep wool garments."
+        },
+        {
+          "id": "ilav_6",
+          "text": "Border Town Experience",
+          "detail": "Walk to the nearby Bolivia border to observe cross-border commerce and the cultural fusion unique to this frontier market town."
+        }
+      ],
+      "food": [
+        {
+          "id": "ilav_f1",
+          "text": "Caldo de Papa",
+          "detail": "A hearty potato and meat soup seasoned with local herbs, essential comfort food in the Puno highlands."
+        },
+        {
+          "id": "ilav_f2",
+          "text": "Trucha a la Ilave",
+          "detail": "Fresh trout from Lake Titicaca prepared with local spices and served with quinoa or potatoes, a regional specialty."
+        },
+        {
+          "id": "ilav_f3",
+          "text": "Ch'uño",
+          "detail": "Freeze-dried potatoes that have been naturally processed for centuries, often served in stews or as a side dish representing pre-Columbian food preservation."
+        },
+        {
+          "id": "ilav_f4",
+          "text": "Quinoa Soup",
+          "detail": "Creamy soup made with native quinoa grain, potatoes, and local herbs reflecting the region's indigenous staple crops."
+        },
+        {
+          "id": "ilav_f5",
+          "text": "Alpaca Stew",
+          "detail": "Tender alpaca meat braised with potatoes, corn, and chilies in a rich broth typical of southern Puno cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ilav_c1",
+          "text": "Respect Market Customs",
+          "detail": "Photography in markets should be done respectfully; always ask permission from vendors and indigenous people before taking photos."
+        },
+        {
+          "id": "ilav_c2",
+          "text": "Learn Basic Aymara",
+          "detail": "While Spanish is common, many locals speak Aymara; learning basic greetings shows respect for indigenous culture and enhances interactions."
+        },
+        {
+          "id": "ilav_c3",
+          "text": "Dress Warmly and Modestly",
+          "detail": "Ilave sits at 3,800 meters elevation with cold temperatures, and modest clothing respects local conservative traditions in this indigenous community."
+        },
+        {
+          "id": "ilav_c4",
+          "text": "Participate in Local Markets",
+          "detail": "Visiting early morning markets and engaging in haggling is expected; it's part of the social and commercial fabric of Ilave's economy."
+        }
+      ]
+    },
+    {
+      "id": "desaguadero",
+      "name": "Desaguadero",
+      "nameIt": "Desaguadero",
+      "lat": -15.8406,
+      "lng": -69.6025,
+      "type": "TOWN",
+      "description": "A border town where the Desaguadero River flows out of Lake Titicaca, marking the Peru-Bolivia boundary and serving as a major trade crossing. It's an interesting cultural meeting point with authentic regional commerce.",
+      "imageQueries": [
+        "Desaguadero Peru Bolivia border",
+        "Desaguadero river lake"
+      ],
+      "activities": [
+        {
+          "id": "desa_1",
+          "text": "Desaguadero River Viewpoint",
+          "detail": "Watch the outflow of Lake Titicaca into the river that marks the Peru-Bolivia border, best visited at sunrise when light illuminates the water.",
+          "lat": -15.5156,
+          "lng": -69.6036
+        },
+        {
+          "id": "desa_2",
+          "text": "International Bridge Crossing",
+          "detail": "Walk or drive across the iconic bridge connecting Peru and Bolivia, observing the contrast between both sides and the bustling border trade.",
+          "lat": -15.5161,
+          "lng": -69.6028
+        },
+        {
+          "id": "desa_3",
+          "text": "Desaguadero Market",
+          "detail": "Explore the authentic street market where Peruvian and Bolivian traders sell textiles, alpaca goods, handicrafts, and regional products in a chaotic, colorful atmosphere.",
+          "lat": -15.515,
+          "lng": -69.605
+        },
+        {
+          "id": "desa_4",
+          "text": "Titicaca Lake Shore Walk",
+          "detail": "Stroll along the shoreline near town to observe traditional fishing boats and local reed cultivation practices in the shallow waters.",
+          "lat": -15.514,
+          "lng": -69.608
+        },
+        {
+          "id": "desa_5",
+          "text": "Local Church Visit",
+          "detail": "Visit the modest colonial-era church in the town center to observe regional religious practices and modest but meaningful architecture.",
+          "lat": -15.5145,
+          "lng": -69.6045
+        }
+      ],
+      "food": [
+        {
+          "id": "desa_f1",
+          "text": "Trucha a la Sal",
+          "detail": "Fresh lake trout from Titicaca baked in a salt crust, a signature Andean preparation that seals in moisture and flavor, served at simple local restaurants."
+        },
+        {
+          "id": "desa_f2",
+          "text": "Causa Limeña",
+          "detail": "A layered Peruvian potato terrine with avocado, lime, and local fish or chicken, commonly eaten as a lunch dish at market stalls and small eateries."
+        },
+        {
+          "id": "desa_f3",
+          "text": "Quinoa Soup",
+          "detail": "A hearty regional soup made with local quinoa, potatoes, and vegetables, warming and filling, typical of Puno's high-altitude cuisine."
+        },
+        {
+          "id": "desa_f4",
+          "text": "Chuño",
+          "detail": "Freeze-dried potatoes that have been naturally preserved using the cold Andean nights, served in soups or stews as a staple carbohydrate."
+        },
+        {
+          "id": "desa_f5",
+          "text": "Humitas",
+          "detail": "Fresh corn tamales wrapped in corn husks, a street food sold by vendors throughout the market, often with cheese or spiced meat filling."
+        }
+      ],
+      "culture": [
+        {
+          "id": "desa_c1",
+          "text": "Dual Currency Awareness",
+          "detail": "Both Peruvian soles and Bolivian bolivianos are used in Desaguadero; confirm exchange rates and have both currencies on hand for seamless transactions."
+        },
+        {
+          "id": "desa_c2",
+          "text": "Market Haggling Protocol",
+          "detail": "Prices in the market are expected to be negotiated, especially for textiles and handicrafts; starting offers are typically inflated and polite bargaining is normal practice."
+        },
+        {
+          "id": "desa_c3",
+          "text": "Respect Border Procedures",
+          "detail": "Keep your passport accessible and follow all border official instructions carefully; photography of the bridge or border areas may be restricted, so ask permission first."
+        },
+        {
+          "id": "desa_c4",
+          "text": "Altitude Acclimatization",
+          "detail": "Desaguadero sits at 3,810 meters elevation; arrive a day early if coming from sea level, stay hydrated, and move slowly to avoid soroche (altitude sickness)."
+        }
+      ]
+    },
+    {
+      "id": "lampa",
+      "name": "Lampa",
+      "nameIt": "Lampa",
+      "lat": -15.3847,
+      "lng": -70.3722,
+      "type": "TOWN",
+      "description": "A highland town famous for its striking pink church and traditional alpaca herding communities in the surrounding countryside. It offers authentic rural Andean experiences and local handicraft markets.",
+      "imageQueries": [
+        "Lampa pink church Peru",
+        "Lampa alpaca herding highlands"
+      ],
+      "activities": [
+        {
+          "id": "lamp_1",
+          "text": "Visit the Pink Church (Iglesia Santiago Apóstol)",
+          "detail": "Explore Lampa's iconic rose-colored colonial church dominating the town plaza, known for its striking facade and ornate interior with religious artwork.",
+          "lat": -15.3833,
+          "lng": -70.3667
+        },
+        {
+          "id": "lamp_2",
+          "text": "Alpaca Herding Community Tours",
+          "detail": "Trek through surrounding highlands to visit traditional alpaca and llama herding communities where you can observe animal husbandry practices and interact with local herders.",
+          "lat": -15.385,
+          "lng": -70.37
+        },
+        {
+          "id": "lamp_3",
+          "text": "Lampa Town Market",
+          "detail": "Browse the weekly market for locally-made alpaca wool textiles, knitted goods, and traditional crafts directly from artisan producers.",
+          "lat": -15.384,
+          "lng": -70.366
+        },
+        {
+          "id": "lamp_4",
+          "text": "Photography at Highland Viewpoints",
+          "detail": "Hike to elevated areas around Lampa to capture panoramic views of the Altiplano landscape, distant snow-capped peaks, and traditional agricultural terraces.",
+          "lat": -15.39,
+          "lng": -70.37
+        },
+        {
+          "id": "lamp_5",
+          "text": "Visit Local Weaving Cooperatives",
+          "detail": "Meet weavers at community textile workshops where you can watch traditional back-loom weaving techniques and purchase directly from craftspeople.",
+          "lat": -15.3835,
+          "lng": -70.365
+        }
+      ],
+      "food": [
+        {
+          "id": "lamp_f1",
+          "text": "Caldo de Papas",
+          "detail": "A warming potato-based soup made with local highland potatoes, often served with cheese and fresh herbs, essential comfort food in the Andean climate."
+        },
+        {
+          "id": "lamp_f2",
+          "text": "Alpaca Charque (Charqui)",
+          "detail": "Dried and salted alpaca meat, traditionally prepared by local herders and served as a protein-rich snack or meal component reflecting the region's pastoral culture."
+        },
+        {
+          "id": "lamp_f3",
+          "text": "Quinoa with Local Vegetables",
+          "detail": "Nutritious ancient grain cooked with seasonal vegetables and local spices, representing traditional Andean agricultural staples."
+        },
+        {
+          "id": "lamp_f4",
+          "text": "Llama Steak (Lomo de Llama)",
+          "detail": "Grilled llama meat prepared simply with local seasonings, offered at modest restaurants and reflecting the region's livestock-based cuisine."
+        },
+        {
+          "id": "lamp_f5",
+          "text": "Fresh Trout from Mountain Streams",
+          "detail": "Recently-caught local trout, often grilled whole or prepared with lime and local herbs at family-run eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lamp_c1",
+          "text": "Respectful Photography Protocol",
+          "detail": "Always ask permission before photographing local herders, their animals, or during community celebrations, as some residents prefer privacy and cultural respect."
+        },
+        {
+          "id": "lamp_c2",
+          "text": "High Altitude Acclimatization",
+          "detail": "Lampa sits at approximately 3,890 meters elevation; arrive early, drink coca tea, and move slowly for the first day to avoid altitude sickness."
+        },
+        {
+          "id": "lamp_c3",
+          "text": "Dress for Extreme Weather",
+          "detail": "Pack warm layers and rain gear even in dry season, as highland temperatures fluctuate dramatically between sun and shade, and weather changes rapidly."
+        },
+        {
+          "id": "lamp_c4",
+          "text": "Support Authentic Artisans Directly",
+          "detail": "Purchase textiles and handicrafts directly from weavers and herders rather than tourist shops to ensure fair wages reach community members."
+        }
+      ]
+    },
+    {
+      "id": "paucarcolla",
+      "name": "Paucarcolla",
+      "nameIt": "Paucarcolla",
+      "lat": -15.4497,
+      "lng": -70.2453,
+      "type": "VILLAGE",
+      "description": "A lakeside village known for its traditional reed boat builders and fishing communities, offering authentic experiences of Lake Titicaca's working culture. The village is a gateway to understanding the region's ancestral maritime traditions.",
+      "imageQueries": [
+        "Paucarcolla reed boats Peru",
+        "Paucarcolla fishing village Titicaca"
+      ],
+      "activities": [
+        {
+          "id": "pauc_1",
+          "text": "Reed Boat Construction Workshop",
+          "detail": "Watch master craftsmen build traditional totora reed boats (balsas) using techniques passed down through generations, and learn about the materials and lashing methods that keep these vessels afloat.",
+          "lat": -15.3247,
+          "lng": -70.1342
+        },
+        {
+          "id": "pauc_2",
+          "text": "Lake Titicaca Fishing Expedition",
+          "detail": "Join local fishermen on an early morning fishing trip using traditional nets and methods to catch native fish species like carachi and pejerrey while experiencing the daily rhythms of the community.",
+          "lat": -15.325,
+          "lng": -70.134
+        },
+        {
+          "id": "pauc_3",
+          "text": "Totora Reed Harvesting Walk",
+          "detail": "Explore the shallow reed beds where totora plants are sustainably harvested and learn how this material sustains both the boat-building industry and local livelihoods.",
+          "lat": -15.326,
+          "lng": -70.1355
+        },
+        {
+          "id": "pauc_4",
+          "text": "Community Market Visit",
+          "detail": "Browse the local market where fishermen and their families sell fresh catch, dried fish, and agricultural products while interacting directly with residents."
+        },
+        {
+          "id": "pauc_5",
+          "text": "Sunset Viewpoint at Lakeside",
+          "detail": "Watch the sun set over Lake Titicaca from the village waterfront, where reed boats are moored and the Andes mountains create a dramatic backdrop.",
+          "lat": -15.3245,
+          "lng": -70.1335
+        },
+        {
+          "id": "pauc_6",
+          "text": "Photography of Traditional Life",
+          "detail": "Document the authentic daily activities of boat builders, fishermen, and their families engaged in centuries-old practices with permission and respect."
+        }
+      ],
+      "food": [
+        {
+          "id": "pauc_f1",
+          "text": "Fresh Lake Fish Ceviche",
+          "detail": "Local carachi or pejerrey fish prepared raw in citrus juice with onions, chilies, and served with toasted corn and potatoes, showcasing the lake's daily catch."
+        },
+        {
+          "id": "pauc_f2",
+          "text": "Trucha a la Sal (Salt-Baked Trout)",
+          "detail": "Freshwater trout from Lake Titicaca encased in salt and baked until tender, a regional specialty that highlights the purity of the local fish."
+        },
+        {
+          "id": "pauc_f3",
+          "text": "Chupe de Pescado (Fish Stew)",
+          "detail": "A warming traditional stew made with local fish, potatoes, corn, and regional spices, typically served as a main course in family-run restaurants."
+        },
+        {
+          "id": "pauc_f4",
+          "text": "Dried Fish (Charque)",
+          "detail": "Sun-dried fish prepared by local families and sold at the market, eaten as a protein source or rehydrated in soups and stews."
+        },
+        {
+          "id": "pauc_f5",
+          "text": "Corn and Potato Soup with Fresh Fish",
+          "detail": "A humble daily dish combining locally grown corn and potatoes with freshly caught fish, representing the agricultural and fishing heritage of the village."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pauc_c1",
+          "text": "Ask Permission Before Photography",
+          "detail": "Always request permission from boat builders and fishermen before photographing their work or taking portraits, as these are skilled artisans proud of their craft."
+        },
+        {
+          "id": "pauc_c2",
+          "text": "Visit Early Morning for Authentic Experience",
+          "detail": "Arrive before sunrise to witness the fishing community preparing boats and nets for the day, when the village is most active and authentic interactions are most likely."
+        },
+        {
+          "id": "pauc_c3",
+          "text": "Support Local Guides and Artisans Directly",
+          "detail": "Purchase reed boat crafts and fish directly from makers rather than through intermediaries to ensure your money supports the community that has maintained these traditions."
+        },
+        {
+          "id": "pauc_c4",
+          "text": "Respect Sacred Lake Customs",
+          "detail": "Titicaca holds spiritual significance in Andean culture; avoid disrespectful behavior near the water and follow local guidance on appropriate conduct at sacred sites."
+        }
+      ]
+    },
+    {
+      "id": "yunguyo",
+      "name": "Yunguyo",
+      "nameIt": "Yunguyo",
+      "lat": -15.8258,
+      "lng": -69.5919,
+      "type": "TOWN",
+      "description": "A small border town on the shores of Lake Titicaca with access to the Bolivian side and authentic regional culture. It offers a quieter alternative to Puno with beautiful lake views and local markets.",
+      "imageQueries": [
+        "Yunguyo Peru lake town",
+        "Yunguyo Lake Titicaca border"
+      ],
+      "activities": [
+        {
+          "id": "yung_1",
+          "text": "Lake Titicaca Shoreline Walk",
+          "detail": "Stroll along Yunguyo's waterfront to enjoy sunrise views over the lake and observe local fishermen with traditional reed boats.",
+          "lat": -15.8267,
+          "lng": -69.1147
+        },
+        {
+          "id": "yung_2",
+          "text": "Yunguyo Border Crossing to Bolivia",
+          "detail": "Cross the international bridge on foot to the Bolivian town of Copacabana, experiencing the unique dual-country border experience and Bolivian markets.",
+          "lat": -15.8281,
+          "lng": -69.1131
+        },
+        {
+          "id": "yung_3",
+          "text": "Local Market Exploration",
+          "detail": "Visit the Yunguyo market to purchase fresh local produce, regional textiles, and handcrafted goods directly from Aymara vendors.",
+          "lat": -15.8289,
+          "lng": -69.1155
+        },
+        {
+          "id": "yung_4",
+          "text": "Islas Flotantes (Floating Islands) Day Trip",
+          "detail": "Take a boat excursion from Yunguyo to the famous artificial reed islands of the Uros people on the Bolivian side of Lake Titicaca.",
+          "lat": -15.8267,
+          "lng": -69.1147
+        },
+        {
+          "id": "yung_5",
+          "text": "Quincenal Church Visit",
+          "detail": "Explore the simple but historically significant church in the town center, a focal point for local religious and community gatherings.",
+          "lat": -15.8295,
+          "lng": -69.1158
+        },
+        {
+          "id": "yung_6",
+          "text": "Lakeside Photography at Sunset",
+          "detail": "Capture the dramatic Andean light reflecting off Lake Titicaca's waters with snow-capped peaks visible in the distance across the Bolivian border."
+        }
+      ],
+      "food": [
+        {
+          "id": "yung_f1",
+          "text": "Trucha a la Titicaca",
+          "detail": "Fresh lake trout from Titicaca, typically grilled or fried whole with local herbs and served with potatoes and quinoa."
+        },
+        {
+          "id": "yung_f2",
+          "text": "Ceviche de Titicaca",
+          "detail": "Fresh raw fish cured in lime juice with local chilies and served as a light appetizer in lakeside restaurants."
+        },
+        {
+          "id": "yung_f3",
+          "text": "Chupe de Camarones",
+          "detail": "A creamy freshwater shrimp soup made with local lake camarones, potatoes, and regional spices."
+        },
+        {
+          "id": "yung_f4",
+          "text": "Papa a la Huancaína",
+          "detail": "Boiled potatoes covered in a rich yellow cheese and aji amarillo sauce, a Peruvian classic prepared with local variations."
+        },
+        {
+          "id": "yung_f5",
+          "text": "Quinoa Soup with Lake Fish",
+          "detail": "Traditional Andean soup combining locally grown quinoa with fresh Titicaca fish and regional herbs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "yung_c1",
+          "text": "Respect Border Protocols",
+          "detail": "The town sits directly on the Peru-Bolivia border, so carry your passport and be aware that casual border crossings require proper documentation."
+        },
+        {
+          "id": "yung_c2",
+          "text": "Learn Aymara Greetings",
+          "detail": "The indigenous Aymara population speaks their native language alongside Spanish; simple greetings like 'Napayaña' (goodbye) are appreciated by locals."
+        },
+        {
+          "id": "yung_c3",
+          "text": "Market Etiquette and Haggling",
+          "detail": "In local markets, haggling is expected but should be done respectfully; establishing a friendly relationship with vendors often leads to better prices and genuine interactions."
+        },
+        {
+          "id": "yung_c4",
+          "text": "Sunday is Market Day",
+          "detail": "The most vibrant market activity occurs on Sundays when indigenous traders from surrounding communities bring their goods, making it the best day to experience authentic local commerce."
+        }
+      ]
+    },
+    {
+      "id": "moquegua_route",
+      "name": "Moquegua Highlands Route",
+      "nameIt": "Ruta a Moquegua",
+      "lat": -15.4833,
+      "lng": -70.9333,
+      "type": "NATURE",
+      "description": "A scenic highland route connecting Puno to Moquegua passing through dramatic Andean landscapes and traditional communities. The journey offers stunning views of high-altitude terrain and encounters with alpaca herds.",
+      "imageQueries": [
+        "Puno Moquegua highway Andes",
+        "Peru highland route alpaca scenery"
+      ],
+      "activities": [
+        {
+          "id": "moqu_1",
+          "text": "Visit Arequipa-Puno Highlands Viewpoint",
+          "detail": "Stop at high-altitude passes along the route offering panoramic vistas of snow-capped peaks and vast puna grasslands.",
+          "lat": -15.8402,
+          "lng": -70.1337
+        },
+        {
+          "id": "moqu_2",
+          "text": "Alpaca Herding Experience",
+          "detail": "Interact with local herders and their alpaca flocks grazing on the high plains, learning traditional animal husbandry practices.",
+          "lat": -15.9245,
+          "lng": -70.2156
+        },
+        {
+          "id": "moqu_3",
+          "text": "Chucuito Archaeological Site",
+          "detail": "Explore pre-Incan and Incan ruins featuring stone terraces and ceremonial structures scattered across the highland landscape.",
+          "lat": -15.4356,
+          "lng": -70.3421
+        },
+        {
+          "id": "moqu_4",
+          "text": "Laguna de Arapa Birdwatching",
+          "detail": "Observe Andean waterfowl including Andean flamingos, puna geese, and rare high-altitude bird species at this remote lagoon.",
+          "lat": -15.2134,
+          "lng": -70.4567
+        },
+        {
+          "id": "moqu_5",
+          "text": "Chivay Hot Springs Trek",
+          "detail": "Hike through volcanic terrain to reach natural thermal pools heated by geothermal activity in the surrounding mountains.",
+          "lat": -15.6234,
+          "lng": -71.2456
+        },
+        {
+          "id": "moqu_6",
+          "text": "Traditional Weaving Workshop",
+          "detail": "Visit indigenous communities practicing ancestral textile techniques using natural dyes and alpaca wool produced locally.",
+          "lat": -15.789,
+          "lng": -70.3012
+        }
+      ],
+      "food": [
+        {
+          "id": "moqu_f1",
+          "text": "Chuno",
+          "detail": "Freeze-dried potato product that is a staple along the highland route, served in stews and providing essential nutrition at high altitude."
+        },
+        {
+          "id": "moqu_f2",
+          "text": "Alpaca Charque",
+          "detail": "Slow-cooked shredded alpaca meat dried and seasoned with native peppers, traditionally eaten by highland herders on long journeys."
+        },
+        {
+          "id": "moqu_f3",
+          "text": "Quinua Soup",
+          "detail": "Hearty ancient grain soup combined with local vegetables and potatoes, representing traditional Andean nutrition."
+        },
+        {
+          "id": "moqu_f4",
+          "text": "Chicha de Jora",
+          "detail": "Fermented corn beverage traditionally prepared by highland communities and offered as hospitality in remote villages."
+        },
+        {
+          "id": "moqu_f5",
+          "text": "Ceviche de Trucha",
+          "detail": "Fresh high-altitude trout cured in lime juice and native chili peppers from mountain streams, served at route stops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moqu_c1",
+          "text": "Respect Sacred Apacheta Stones",
+          "detail": "When passing rock cairns (apachetas) on the trail, tradition requires leaving a small stone as an offering to mountain spirits."
+        },
+        {
+          "id": "moqu_c2",
+          "text": "Altitude Acclimatization Protocol",
+          "detail": "Allow 2-3 days for body adjustment to elevations above 4,000 meters; locals recommend drinking coca tea and eating light meals initially."
+        },
+        {
+          "id": "moqu_c3",
+          "text": "Community Reciprocity Customs",
+          "detail": "When visiting indigenous settlements, ask permission before photographing and consider purchasing directly from artisans rather than middlemen."
+        },
+        {
+          "id": "moqu_c4",
+          "text": "Festival Timing Awareness",
+          "detail": "Plan travel around local festivals like Aniversario de Moquegua (November) when roads may be congested and communities celebrate with traditional ceremonies."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "La Casona",
+      "address": "Jiron Lima 348, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Historic colonial mansion restaurant serving traditional Puno dishes with lake views and authentic regional flavors.",
+      "mustOrder": "Trucha a la mantequilla (butter trout)",
+      "lat": -15.5007,
+      "lng": -70.1235
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Restaurants Chez Maggy",
+      "address": "Jiron Tacna 200, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Long-established favorite combining Peruvian and international cuisine with warm ambiance and reliable quality.",
+      "mustOrder": "Alpaca steak with quinoa",
+      "lat": -15.502,
+      "lng": -70.122
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Mojsa Restaurant",
+      "address": "Jiron Arequipa 155, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian/Fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant blending traditional Andean ingredients with modern cooking techniques in an upscale setting.",
+      "mustOrder": "Ceviche de trucha with native potatoes",
+      "lat": -15.5035,
+      "lng": -70.1245
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Balcon del Titicaca",
+      "address": "Jiron Lambayeque 275, Puno",
+      "neighbourhood": "Puno Waterfront",
+      "cuisine": "Peruvian Seafood",
+      "priceRange": "€€",
+      "description": "Casual waterfront spot specializing in fresh lake fish and traditional preparations with stunning views of Lake Titicaca.",
+      "mustOrder": "Pejerrey frito (fried silverside fish)",
+      "lat": -15.5045,
+      "lng": -70.131
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Inkafé",
+      "address": "Jiron Conde de Lemos 210, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian/Café",
+      "priceRange": "€",
+      "description": "Casual café and restaurant offering budget-friendly local dishes, great coffee, and a welcoming atmosphere for travelers.",
+      "mustOrder": "Lomo saltado with fresh limeño potatoes",
+      "lat": -15.501,
+      "lng": -70.1225
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Nilko's Restaurant",
+      "address": "Jiron Lima 512, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Authentic family-run restaurant serving quality regional cuisine including lake fish and traditional highland specialties.",
+      "mustOrder": "Trucha rellena (stuffed trout)",
+      "lat": -15.5015,
+      "lng": -70.12
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Pizzería La Hostería",
+      "address": "Jiron Moquegua 140, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Italian/Pizza",
+      "priceRange": "€€",
+      "description": "Casual Italian spot with wood-fired pizzas and pasta dishes, popular with both locals and tourists.",
+      "mustOrder": "Pizza with local cheese and alpaca",
+      "lat": -15.5025,
+      "lng": -70.124
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Qamaq Uta",
+      "address": "Jiron Deustua 575, Juliaca",
+      "neighbourhood": "Juliaca",
+      "cuisine": "Andean/Peruvian",
+      "priceRange": "€€",
+      "description": "Regional restaurant in Juliaca highlighting highland cuisine with emphasis on local meats and agricultural products.",
+      "mustOrder": "Rocoto relleno with local beef",
+      "lat": -15.4904,
+      "lng": -70.1383
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Restaurante Silk Road",
+      "address": "Jiron Carabaya 234, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Asian Fusion",
+      "priceRange": "€€€",
+      "description": "Upscale fusion restaurant blending Asian cuisine with Andean ingredients and international techniques.",
+      "mustOrder": "Tiradito with wasabi and local fish",
+      "lat": -15.503,
+      "lng": -70.1215
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "El Buho Restaurant",
+      "address": "Jiron Acora 142, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Traditional restaurant known for generous portions of regional specialties and fresh lake fish preparations.",
+      "mustOrder": "Sudado de trucha (steamed trout)",
+      "lat": -15.504,
+      "lng": -70.1235
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Nube Restaurant",
+      "address": "Jiron Tacna 534, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian/International",
+      "priceRange": "€€€",
+      "description": "Refined dining establishment with Lake Titicaca views offering creative Peruvian dishes and an extensive wine selection.",
+      "mustOrder": "Quinoa-crusted alpaca with native vegetables",
+      "lat": -15.5025,
+      "lng": -70.119
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Café Restaurant Killa",
+      "address": "Jiron Independencia 280, Puno",
+      "neighbourhood": "Puno City Center",
+      "cuisine": "Peruvian Café",
+      "priceRange": "€",
+      "description": "Casual café-restaurant offering simple but quality local fare, excellent breakfast options, and strong highland coffee.",
+      "mustOrder": "Tamales and fresh jugo de naranja",
+      "lat": -15.5008,
+      "lng": -70.125
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Restaurante Colonial",
+      "address": "Jiron Arequipa 280, Puno",
+      "neighbourhood": "Puno Historic Center",
+      "cuisine": "Peruvian",
+      "priceRange": "€€€",
+      "description": "Elegant dining in a restored colonial building featuring refined presentations of traditional Puno and Andean cuisine.",
+      "mustOrder": "Ceviche de mariscos with native corn",
+      "lat": -15.5032,
+      "lng": -70.1232
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "El Rey de la Papa",
+      "address": "Jiron Lambayeque 360, Puno",
+      "neighbourhood": "Puno Waterfront",
+      "cuisine": "Peruvian/Regional",
+      "priceRange": "€€",
+      "description": "Casual restaurant celebrating Peru's potato heritage with innovative dishes highlighting native potato varieties.",
+      "mustOrder": "Papa a la huancaína with local trout",
+      "lat": -15.5055,
+      "lng": -70.131
+    }
+  ]
+}
