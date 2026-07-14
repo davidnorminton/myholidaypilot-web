@@ -36,7 +36,14 @@ export default function ItalyHubScreen() {
   const navigate = useNavigate()
   const [sections, setSections] = useState(null)
   const [details, setDetails] = useState(null)
+  const [top10, setTop10] = useState(null)
   useSeo({ title: `${meta?.name || 'Travel'} travel guide`, description: `Everything to plan a ${meta?.name || ''} trip — the regions, festivals, food and how to get around.`, path: `/${country}` })
+  useEffect(() => {
+    let live = true
+    getIndex(country).then((idx) => { if (live && Array.isArray(idx?.top10) && idx.top10.length) setTop10(idx.top10) }).catch(() => {})
+    return () => { live = false }
+  }, [country])
+
   useEffect(() => {
     if (!isAvailableCountry(country)) return
     getHub(country).then((d) => {
@@ -115,6 +122,27 @@ export default function ItalyHubScreen() {
             </Link>
           ))}
         </div>
+        {top10 && (
+          <section className="top10">
+            <h2 className="top10__title">Top 10 places in {meta?.name || 'this country'}</h2>
+            <p className="top10__sub">The most visited — ranked.</p>
+            <ol className="top10__list">
+              {top10.map((t) => (
+                <li key={t.rank}>
+                  <Link className="top10__item" to={paths.place(t.regionId, t.placeId, country)}>
+                    <span className="top10__rank">{t.rank}</span>
+                    {t.image && <img className="top10__img" src={imgUrl(t.image, 400)} alt="" loading="lazy" />}
+                    <span className="top10__body">
+                      <span className="top10__name">{t.name}</span>
+                      <span className="top10__region">{t.regionName}</span>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
         <TripDetails details={details} title={`Plan your trip to ${meta?.name || ''}`} />
       </main>
     </div>

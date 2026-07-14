@@ -66,10 +66,25 @@ export async function exportActions(req, res, db, q) {
       })
     }
 
+    // top 10 most visited — enrich the saved list with each place's current
+    // image/description so the country page can render it straight from the bake
+    const regionName = new Map(regionsRows.map((r) => [r.regionId, r.data?.name || r.regionId]))
+    const placeRow = new Map(placesRows.map((p) => [`${p.regionId}/${p.placeId}`, p]))
+    const top10 = (guides.top10 || []).map((t) => {
+      const p = placeRow.get(`${t.regionId}/${t.placeId}`)
+      return {
+        rank: t.rank, name: t.name, placeId: t.placeId, regionId: t.regionId,
+        regionName: regionName.get(t.regionId) || t.regionId,
+        image: p?.image || null,
+        description: p?.data?.description || '',
+      }
+    })
+
     files['index.json'] = {
       schemaVersion: 3, exportedAt: new Date().toISOString(), appVersion: '1.0',
       totalRegions: regionsRows.length, totalPlaces, totalRestaurants,
       totalChecklistItems: 0, totalImages, affiliateIds: {}, regions: indexRegions,
+      ...(top10.length ? { top10 } : {}),
     }
     files['places-index.json'] = placesIndex
     files['images.json'] = imagesMap

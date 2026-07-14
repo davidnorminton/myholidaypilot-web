@@ -1,17 +1,860 @@
 {
-  "greater_poland": {},
-  "lesser_poland": {},
-  "silesia": {},
-  "masovia": {},
-  "lublin_region": {},
-  "podlasie": {},
-  "warmia_masuria": {},
-  "pomerania": {},
-  "west_pomerania": {},
-  "kuyavia_pomerania": {},
-  "lodz_region": {},
-  "holy_cross": {},
-  "opole_region": {},
-  "lower_silesia": {},
-  "subcarpathia": {}
+  "greater_poland": {
+    "poznan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1703022712569-f0d2c15eefbf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3puYSVDNSU4NCUyME9sZCUyMFRvd24lMjBzcXVhcmV8ZW58MXwwfHx8MTc4MzUyMjM4Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sergei Gussev"
+      }
+    ],
+    "lake_malta": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1664966856504-1a569137535f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWx0YSUyMExha2UlMjBQb3puYSVDNSU4NHxlbnwxfDB8fHwxNzgzNTIyMzg5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Andrzej Szymański"
+      }
+    ],
+    "konin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1632770464481-2644a3f65b5c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLb25pbiUyMFBvbGFuZCUyMGNpdHl8ZW58MXwwfHx8MTc4MzUyMjM5M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tom Jur"
+      }
+    ],
+    "jarocin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1519922639192-e73293ca430e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxKYXJvY2luJTIwZmVzdGl2YWwlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUyMjQwM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jacek Dylag"
+      }
+    ]
+  },
+  "lesser_poland": {
+    "krakow": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1770672194153-d78059790d11?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLcmFrJUMzJUIzdyUyME1haW4lMjBNYXJrZXQlMjBTcXVhcmUlMjBuaWdodHxlbnwxfDB8fHwxNzgzNTIyNDE3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ahmed Almakhzanji"
+      }
+    ],
+    "auschwitz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1680437552804-2f210300cd9f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXNjaHdpdHolMjBjb25jZW50cmF0aW9uJTIwY2FtcCUyMG1lbW9yaWFsfGVufDF8MHx8fDE3ODM1MjI0MjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lidia Stawinska"
+      }
+    ],
+    "zakopane": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633110067105-7d5bc9ee4c50?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxaYWtvcGFuZSUyMFRhdHJhJTIwTW91bnRhaW5zfGVufDF8MHx8fDE3ODM1MjI0MjZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kacper Borucki"
+      }
+    ],
+    "tatra_national_park": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633110067105-7d5bc9ee4c50?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUYXRyYSUyME1vdW50YWlucyUyMFBvbGFuZCUyMHBlYWtzfGVufDF8MHx8fDE3ODM1MjI0Mjl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kacper Borucki"
+      }
+    ],
+    "nowy_sacz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1562050380-55da3bae840c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOb3d5JTIwUyVDNCU4NWN6JTIwbWFya2V0JTIwc3F1YXJlfGVufDF8MHx8fDE3ODM1MjI0NDB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Severinus Dewantara"
+      }
+    ],
+    "malbork_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1667595068600-c330cbbd1c22?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWxib3JrJTIwQ2FzdGxlJTIwVGV1dG9uaWN8ZW58MXwwfHx8MTc4MzUyMjQ0NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kevin Perez Camacho"
+      }
+    ],
+    "pieniny_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1682443999292-b0b301e67cc7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQaWVuaW55JTIwTW91bnRhaW5zJTIwVGhyZWUlMjBDcm93bnN8ZW58MXwwfHx8MTc4MzUyMjQ0OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomasz Filipek"
+      }
+    ]
+  },
+  "silesia": {
+    "oswiecim_auschwitz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1680437552804-2f210300cd9f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXNjaHdpdHolMjBtZW1vcmlhbCUyMG11c2V1bXxlbnwxfDB8fHwxNzgzNTIyNDY0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lidia Stawinska"
+      }
+    ],
+    "katowice": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1458639817867-2c9d4c5dcad4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYXRvd2ljZSUyMFNwb2RlayUyMGNvbmNlcnQlMjBoYWxsfGVufDF8MHx8fDE3ODM1MjI0NjZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Radek Grzybowski"
+      }
+    ],
+    "czestochowa": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1650564098237-a25ee171153c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxKYXNuYSUyMEclQzMlQjNyYSUyMG1vbmFzdGVyeSUyMEN6JUM0JTk5c3RvY2hvd2F8ZW58MXwwfHx8MTc4MzUyMjQ2OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Arkadiusz Polak"
+      }
+    ],
+    "sudety_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1551632811-561732d1e306?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdWRldHklMjBNb3VudGFpbnMlMjBoaWtpbmd8ZW58MXwwfHx8MTc4MzUyMjQ3MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Toomas Tartes"
+      }
+    ],
+    "nysa": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1643447727844-1e2e31544237?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOeXNhJTIwY2F0aGVkcmFsJTIwYnJpY2slMjBnb3RoaWN8ZW58MXwwfHx8MTc4MzUyMjQ4MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Klim Musalimov"
+      }
+    ],
+    "tarnowskie_gory": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1759064095034-ed3947843032?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUYXJub3dza2llJTIwRyVDMyVCM3J5JTIwbWluZXMlMjB1bmRlcmdyb3VuZCUyMGxha2V8ZW58MXwwfHx8MTc4MzUyMjQ4M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤"
+      }
+    ]
+  },
+  "masovia": {
+    "warsaw": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1607427293702-036933bbf746?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXYXJzYXclMjBPbGQlMjBUb3dufGVufDF8MHx8fDE3ODM1MjI0OTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Elijah G"
+      }
+    ],
+    "lazienki_palace": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1515022817163-08c759ea4512?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYXppZW5raSUyMFBhbGFjZSUyMGlzbGFuZHxlbnwxfDB8fHwxNzgzNTIyNTAyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rodrigo Soares"
+      }
+    ],
+    "wilanow_palace": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1577133188553-ce18938175e9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXaWxhbiVDMyVCM3clMjBQYWxhY2UlMjBiYXJvcXVlfGVufDF8MHx8fDE3ODM1MjI1MDZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lāsma Artmane"
+      }
+    ],
+    "chopin_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1703022712569-f0d2c15eefbf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaG9waW4lMjBNdXNldW0lMjBXYXJzYXd8ZW58MXwwfHx8MTc4MzUyMjUxMHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sergei Gussev"
+      }
+    ],
+    "modlin_fortress": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1662973706202-e7fb87198f68?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb2RsaW4lMjBGb3J0cmVzc3xlbnwxfDB8fHwxNzgzNTIyNTE0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mateusz Suski"
+      }
+    ],
+    "vistula_river": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1742337871092-4d420bc26030?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWaXN0dWxhJTIwUml2ZXIlMjBXYXJzYXd8ZW58MXwwfHx8MTc4MzUyODM2Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Hunter Scott"
+      }
+    ],
+    "national_museum_warsaw": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1733086129802-3b079e78c8f3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyME11c2V1bSUyMFdhcnNhd3xlbnwxfDB8fHwxNzgzNTI4MzY1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nesir Muradov"
+      }
+    ]
+  },
+  "lublin_region": {
+    "lublin_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1639681620355-7abab9c6f5e6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMdWJsaW4lMjBDYXN0bGV8ZW58MXwwfHx8MTc4MzUyODM4MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "maxim bober"
+      }
+    ],
+    "krakow_gate": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1703870956658-bc165806c6d8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLcmFrJUMzJUIzdyUyMEdhdGUlMjBMdWJsaW58ZW58MXwwfHx8MTc4MzUyODM4NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomasz Zielonka"
+      }
+    ],
+    "european_solidarity_center": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1699454408509-9c3b056c0e51?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFdXJvcGVhbiUyMFNvbGlkYXJpdHklMjBDZW50cmUlMjBMdWJsaW58ZW58MXwwfHx8MTc4MzUyODM4OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomasz Zielonka"
+      }
+    ],
+    "czartoryski_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1726295900616-0d72ae499a66?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDemFydG9yeXNraSUyMFBhbGFjZSUyME11c2V1bSUyMEx1YmxpbnxlbnwxfDB8fHwxNzgzNTI4MzkwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomasz Zielonka"
+      }
+    ],
+    "by_the_roads_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1659477445596-04fb6b870024?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCeSUyMHRoZSUyMFJvYWRzJTIwTXVzZXVtJTIwTHVibGlufGVufDF8MHx8fDE3ODM1MjgzOTR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Maciej Cisowski"
+      }
+    ],
+    "lublin_university": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1726295571094-858aa48c4c66?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYXJpYSUyMEN1cmllLVNrbG9kb3dza2ElMjBVbml2ZXJzaXR5JTIwTHVibGlufGVufDF8MHx8fDE3ODM1MjgzOTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomasz Zielonka"
+      }
+    ],
+    "kazimierz_dolny": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1727230175954-b7cda4eff308?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYXppbWllcnolMjBEb2xueSUyMFZpc3R1bGF8ZW58MXwwfHx8MTc4MzUyODQwM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tadeusz Zachwieja"
+      }
+    ],
+    "radzyns_podlaski": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1571146696514-4abef1714e3f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSYWR6eSVDNSU4NCUyMFBvZGxhc2tpJTIwcGFsYWNlfGVufDF8MHx8fDE3ODM1Mjg0MDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jasmine Hana Otto"
+      }
+    ]
+  },
+  "podlasie": {
+    "grodno": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1658240765833-357f697853fa?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcm9kbm8lMjBPbGQlMjBUb3duJTIwQmVsYXJ1c3xlbnwxfDB8fHwxNzgzNTI4NDI0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Vitali Adutskevich"
+      }
+    ],
+    "suprasl": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1650554113754-461bf612f119?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdXByYSVDNSU5QmwlMjBNb25hc3RlcnklMjBPcnRob2RveHxlbnwxfDB8fHwxNzgzNTI4NDI3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nikola Tasic"
+      }
+    ],
+    "bialystok_palace": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1776103352889-9515b8dcc98e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCcmFuaWNraSUyMFBhbGFjZSUyMEJhcm9xdWUlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc4MzUyODQzMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Stanisław Lul"
+      }
+    ]
+  },
+  "warmia_masuria": {
+    "olsztyn": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1634834032074-81573a56a61c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPbHN6dHluJTIwT2xkJTIwVG93biUyMGNhc3RsZXxlbnwxfDB8fHwxNzgzNTI4NDU1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "masuren"
+      }
+    ],
+    "miroslawiec_lake_district": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1658532609000-bb73318ce752?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNaXJvc2xhd2llYyUyMGxha2VzJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1Mjg0NTh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mateusz Mazurek"
+      }
+    ],
+    "elk": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1619985726413-812a90b9429f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFbGslMjBQb2xhbmQlMjBtYXJrZXQlMjBzcXVhcmV8ZW58MXwwfHx8MTc4MzUyODQ2MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Bianca Fazacas"
+      }
+    ],
+    "great_masurian_lakes": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1658532609000-bb73318ce752?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmVhdCUyME1hc3VyaWFuJTIwTGFrZXMlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUyODQ2Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mateusz Mazurek"
+      }
+    ],
+    "ketrzyn": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1622966052285-60900a346a83?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLJUM0JTk5dHJ6eW4lMjBjYXN0bGUlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUyODQ2NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "masuren"
+      }
+    ],
+    "mikolajki": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1719696663492-14e81360c233?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNaWtvJUM1JTgyYWpraSUyMGxha2UlMjByZXNvcnQlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUyODQ3M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jakub Tomasik"
+      }
+    ],
+    "ostroda": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1686252289176-6c4d15b7bc88?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPc3RyJUMzJUIzZGElMjBjYXN0bGUlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUyODQ3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lidia Stawinska"
+      }
+    ]
+  },
+  "pomerania": {
+    "gdynia": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1640727272714-58e6fce66278?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHZHluaWElMjBiZWFjaCUyMHByb21lbmFkZSUyMEJhbHRpY3xlbnwxfDB8fHwxNzgzNTI4NDkzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Agata Bak-Geerinck"
+      }
+    ],
+    "sopot": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1648834806447-79022fb8f148?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTb3BvdCUyMHBpZXIlMjBCYWx0aWMlMjBTZWF8ZW58MXwwfHx8MTc4MzUyODQ5NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tom Jur"
+      }
+    ],
+    "malbork_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1696699637192-b618b9d3cf43?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYWxib3JrJTIwQ2FzdGxlJTIwVGV1dG9uaWMlMjBLbmlnaHRzfGVufDF8MHx8fDE3ODM1Mjg0OTh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kaptured by Kasia"
+      }
+    ],
+    "oliwa_cathedral": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1504389273929-44baec1307d2?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPbGl3YSUyMENhdGhlZHJhbCUyMEdkYSVDNSU4NHNrJTIwb3JnYW58ZW58MXwwfHx8MTc4MzUyODUwMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Matt Cramblett"
+      }
+    ],
+    "stutthof_camp": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1534957759193-c1fa2c5225b8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdHV0dGhvZiUyMGNvbmNlbnRyYXRpb24lMjBjYW1wJTIwbWVtb3JpYWx8ZW58MXwwfHx8MTc4MzUzMzIxM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Giulia Gasperini"
+      }
+    ],
+    "kartuzy": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1596880329907-c1d5a2774093?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYXJ0dXp5JTIwbGFrZSUyMHRvd24lMjBLYXNodWJpYXxlbnwxfDB8fHwxNzgzNTMzMjE2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ludomił Sawicki"
+      }
+    ]
+  },
+  "west_pomerania": {
+    "szczecin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1758662532987-39085885ff0c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTemN6ZWNpbiUyMENhc3RsZSUyMFBvbWVyYW5pYXxlbnwxfDB8fHwxNzgzNTMzMjQ4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lacyec"
+      }
+    ],
+    "swinoujscie": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1735397744083-7371a87532f0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzUlOUF3aW5vdWolQzUlOUJjaWUlMjBsaWdodGhvdXNlJTIwQmFsdGljfGVufDF8MHx8fDE3ODM1MzMyNTB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marcin Kolodziejczak"
+      }
+    ],
+    "uznam_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1770497328679-2278e6c72f75?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxVc2Vkb20lMjBJc2xhbmQlMjBiZWFjaHxlbnwxfDB8fHwxNzgzNTMzMjU0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Pix Tresa"
+      }
+    ],
+    "stettin_trails": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1653242411117-46473fa76535?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb21lcmFuaWFuJTIwRHVrZXMlMjBDYXN0bGUlMjBTemN6ZWNpbnxlbnwxfDB8fHwxNzgzNTMzMjU4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel Leżuch"
+      }
+    ],
+    "eberswald": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1624828208618-ec21033e843f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFYmVyc3dhbGQlMjBPZGVyJTIwTGFnb29ufGVufDF8MHx8fDE3ODM1MzMyNjB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kristin Snippe"
+      }
+    ]
+  },
+  "kuyavia_pomerania": {
+    "torun": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1707083387323-4b1e0878c27d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUb3J1JUM1JTg0JTIwb2xkJTIwdG93biUyMG1lZGlldmFsfGVufDF8MHx8fDE3ODM1MzU3MzR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dominika Jakubiec"
+      }
+    ],
+    "grudziadz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1707120517197-07a70d30634c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcnVkemklQzQlODVkeiUyMGdyYW5hcmllcyUyMFZpc3R1bGF8ZW58MXwwfHx8MTc4MzUzNTczOHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Krzysztof  Niewolny"
+      }
+    ],
+    "w_oc_awek": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1727230175954-b7cda4eff308?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXJUM1JTgyb2MlQzUlODJhd2VrJTIwY2F0aGVkcmFsJTIwVmlzdHVsYXxlbnwxfDB8fHwxNzgzNTM1NzQwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tadeusz Zachwieja"
+      }
+    ],
+    "pelplin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1601839554791-f8058ba51db5?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZWxwbGluJTIwY2F0aGVkcmFsJTIwR290aGljfGVufDF8MHx8fDE3ODM1MzU3NDV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marek Piwnicki"
+      }
+    ],
+    "jablonowo_pomezanskie": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1606992894456-799462dacd65?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxKYWIlQzUlODJvbm93byUyMFBvbW9yc2tpZSUyMHRvd24lMjBzcXVhcmV8ZW58MXwwfHx8MTc4MzUzNTc0N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gabriella Bortolussi"
+      }
+    ],
+    "ciechocinek": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1764702431736-ca5f75cad29b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaWVjaG9jaW5layUyMHNwYSUyMHRvd258ZW58MXwwfHx8MTc4MzUzNTc1Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Pix Tresa"
+      }
+    ],
+    "radzanow": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1464520606738-6dab99180409?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSYWR6YW4lQzMlQjN3JTIwcGFsYWNlJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU3NTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Oleksii Topolianskyi"
+      }
+    ],
+    "kuyavia_pomerania_monuments": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1686252289176-6c4d15b7bc88?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLdXlhdmlhJTIwUG9tZXJhbmlhJTIwY2FzdGxlcyUyMHRyYWlsfGVufDF8MHx8fDE3ODM1MzU3NjJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lidia Stawinska"
+      }
+    ]
+  },
+  "lodz_region": {
+    "lodz_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1773232807711-29b6083c9914?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzUlODElQzMlQjNkJUM1JUJBJTIwUGlvdHJrb3dza2ElMjBTdHJlZXR8ZW58MXwwfHx8MTc4MzUzNTc4MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Filip Chmielecki"
+      }
+    ],
+    "manufaktura": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1776812007415-64ee740b66e6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYW51ZmFrdHVyYSUyMCVDNSU4MSVDMyVCM2QlQzUlQkElMjBjb21wbGV4fGVufDF8MHx8fDE3ODM1MzU3ODJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Freddie Addery"
+      }
+    ],
+    "piotrkowska_street": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1773232807711-29b6083c9914?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQaW90cmtvd3NrYSUyMFN0cmVldCUyMCVDNSU4MSVDMyVCM2QlQzUlQkF8ZW58MXwwfHx8MTc4MzUzNTc4NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Filip Chmielecki"
+      }
+    ]
+  },
+  "holy_cross": {
+    "kielce": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1649368298537-bd616c313ef9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLaWVsY2UlMjBPbGQlMjBUb3duJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4MDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Yevheniia"
+      }
+    ],
+    "opatow": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1606992894456-799462dacd65?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPcGF0JUMzJUIzdyUyMGNvbGxlZ2lhdGUlMjBjaHVyY2glMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUzNTgxMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gabriella Bortolussi"
+      }
+    ],
+    "chenciny": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1548620110-57bb51e9d2ef?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDNCU5OWNpbnklMjBjYXN0bGUlMjBydWlucyUyMFBvbGFuZHxlbnwxfDB8fHwxNzgzNTM1ODE0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Krystian Piątek"
+      }
+    ],
+    "lysica_mountain": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1662408083713-635b2d5102bf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzUlODF5c2ljYSUyMG1vdW50YWluJTIwJUM1JTlBd2klQzQlOTl0b2tyenlza2llJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4MTZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jacek Ulinski"
+      }
+    ],
+    "kadzielnia_quarry": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1701794674782-fb763085d13d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYWR6aWVsbmlhJTIwcXVhcnJ5JTIwS2llbGNlJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4MTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel Brzdęk"
+      }
+    ],
+    "ujazd_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1548620110-57bb51e9d2ef?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxVamF6ZCUyMGNhc3RsZSUyMHJ1aW5zJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4MjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Krystian Piątek"
+      }
+    ],
+    "sielpia_malinska": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1633629572354-db754669c1c9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTaWVscGlhJTIwTWFsaSVDNSU4NHNrYSUyMHZpbGxhZ2UlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUzNTgyNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "masuren"
+      }
+    ],
+    "busko_zdroj": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1743355445702-0a6a58d33090?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCdXNrby1aZHIlQzMlQjNqJTIwc3BhJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4Mjd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Daniel Brzdęk"
+      }
+    ],
+    "szydlowiec": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1686252289176-6c4d15b7bc88?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTenlkJUM1JTgyb3dpZWMlMjBjYXN0bGUlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUzNTgzMHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lidia Stawinska"
+      }
+    ],
+    "solec_nad_wisla": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1626826023333-bb7df9facc2b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTb2xlYyUyMG5hZCUyMFdpcyVDNSU4MiVDNCU4NSUyMHNhbHQlMjB0b3duJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4MzJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anastasiia Chepinska"
+      }
+    ],
+    "wislica": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1762095568681-eaf8259e708b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXaSVDNSU5QmxpY2ElMjBSb21hbmVzcXVlJTIwY2h1cmNoJTIwUG9sYW5kfGVufDF8MHx8fDE3ODM1MzU4MzV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "malwina nogaj"
+      }
+    ]
+  },
+  "opole_region": {
+    "opole_city": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1553422734-fd8dd260a116?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPcG9sZSUyME9sZCUyMFRvd24lMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUzNTg0OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Maksym Harbar"
+      }
+    ],
+    "brzeg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1686252289176-6c4d15b7bc88?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCcnplZyUyMENhc3RsZSUyMFBvbGFuZHxlbnwxfDB8fHwxNzgzNTM1ODU0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lidia Stawinska"
+      }
+    ],
+    "ozimek": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1626826023333-bb7df9facc2b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPemltZWslMjBPZGVyJTIwUml2ZXIlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUzNTg2MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anastasiia Chepinska"
+      }
+    ],
+    "e_opolskie": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1697304556930-396c64871020?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHJUMzJUIzcmElMjAlQzUlOUF3aSVDNCU5OXRlaiUyMEFubnklMjBzYW5jdHVhcnl8ZW58MXwwfHx8MTc4MzUzNTg2NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "yulia arnaut"
+      }
+    ],
+    "ujazd": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1566927244565-9a96a147a998?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxVamF6ZCUyMENhc3RsZSUyMHJ1aW5zJTIwT2RlcnxlbnwxfDB8fHwxNzgzNTM1ODY3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "T. Selin Erkan"
+      }
+    ]
+  },
+  "lower_silesia": {
+    "wroclaw": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1772185422303-a6cee0cbc6d6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXcm9jJUM1JTgyYXclMjBNYXJrZXQlMjBTcXVhcmUlMjBUb3duJTIwSGFsbHxlbnwxfDB8fHwxNzgzNTIyNDU5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Roman Vasylovskyi"
+      }
+    ],
+    "breslau_cathedral_island": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1710608927562-2a10d4e07f57?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxXcm9jJUM1JTgyYXclMjBDYXRoZWRyYWwlMjBJc2xhbmR8ZW58MXwwfHx8MTc4MzUzODgyNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Uladzislau Kazlou"
+      }
+    ],
+    "three_peaks": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1632684596609-56b4965789b3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUaHJlZSUyMFBlYWtzJTIwTW91bnRhaW5zJTIwVHJ6eSUyMEtvcm9ueXxlbnwxfDB8fHwxNzgzNTM4ODI3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kamil Molendys"
+      }
+    ],
+    "jelenia_gora": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1777819737044-0ce6fe7ca0e0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxKZWxlbmlhJTIwRyVDMyVCM3JhJTIwdG93biUyMGNlbnRlcnxlbnwxfDB8fHwxNzgzNTM4ODI5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Margo Evardson"
+      }
+    ],
+    "oswiecim": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1600267188229-1dd3dd776737?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXNjaHdpdHolMjBjb25jZW50cmF0aW9uJTIwY2FtcHxlbnwxfDB8fHwxNzgzNTM4ODMzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Karsten Winegeart"
+      }
+    ],
+    "stolowe_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1689689753560-a80a24362045?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUYWJsZSUyME1vdW50YWlucyUyMFN0b2xvd2UlMjBQb2xhbmR8ZW58MXwwfHx8MTc4MzUzODgzNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Monika Guzikowska"
+      }
+    ],
+    "mragowo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1675782182942-f3e464e527d4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNcmFnb3dvJTIwUG9sYW5kJTIwbGFrZXN8ZW58MXwwfHx8MTc4MzUzODg0MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "masuren"
+      }
+    ],
+    "ksiaz_castle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1514539079130-25950c84af65?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLc2klQzQlODUlQzUlQkMlMjBDYXN0bGUlMjBXYWxicnp5Y2h8ZW58MXwwfHx8MTc4MzUzODg0M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Cederic Vandenberghe"
+      }
+    ]
+  },
+  "subcarpathia": {
+    "bieszczady_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1662762104294-6c80b192f43a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCaWVzemN6YWR5JTIwTW91bnRhaW5zJTIwaGlraW5nfGVufDF8MHx8fDE3ODM1Mzg4NjZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gabriela"
+      }
+    ],
+    "piwniczna_zdroj": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1679254327448-de1afe354b68?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQaXduaWN6bmEtWmRyJUMzJUIzaiUyMHNwYSUyMHRvd258ZW58MXwwfHx8MTc4MzUzODg2OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martti Salmi"
+      }
+    ],
+    "tarnow": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1577133192629-5140c5371590?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUYXJuJUMzJUIzdyUyMG1hcmtldCUyMHNxdWFyZSUyMFJlbmFpc3NhbmNlfGVufDF8MHx8fDE3ODM1Mzg4NzJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lāsma Artmane"
+      }
+    ],
+    "lyceum_basilica": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1683237340069-7b8b21c87fa2?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMZSVDNSVCQ2Fqc2slMjBCYXNpbGljYSUyMGludGVyaW9yJTIwb3JnYW58ZW58MXwwfHx8MTc4MzUzODg3Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Matt Wang"
+      }
+    ]
+  }
 }

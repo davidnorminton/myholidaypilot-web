@@ -534,6 +534,20 @@ function GuidesPanel({ countryId, build, onSaved }) {
   const [busy, setBusy] = useState('')
   const [err, setErr] = useState('')
   const guides = build.guides || {}
+  const [top10Note, setTop10Note] = useState('')
+  const runTop10 = async () => {
+    setBusy('top10'); setTop10Note('')
+    try {
+      const r = await api.builder.top10(countryId)
+      const bits = []
+      if (r.matched?.length) bits.push(`${r.matched.length} already in the build`)
+      if (r.added?.length) bits.push(`added: ${r.added.join(', ')}`)
+      if (r.skipped?.length) bits.push(`skipped: ${r.skipped.join(', ')}`)
+      setTop10Note(bits.join(' · ') || 'Done')
+      onSaved?.()
+    } catch (e) { setTop10Note(e.message || 'Failed') }
+    finally { setBusy(null) }
+  }
   const run = async (topic) => {
     setBusy(topic); setErr('')
     try { await api.builder.genGuide(countryId, topic); await onSaved() }
@@ -560,6 +574,31 @@ function GuidesPanel({ countryId, build, onSaved }) {
   ]
   return (
     <section className="bld__stage">
+      <div className="bld__stagehead"><h3>Top 10 most visited</h3></div>
+      <p className="admin-note">
+        One AI pass lists the country's ten most visited places, links the ones already in the build,
+        and adds any missing ones to their most appropriate region (they'll then need images/details like any place).
+        Baked into the country page on the next export.
+      </p>
+      <div className="bld__guidegrid">
+        <div className={`bld__guidecard ${guides.top10 ? 'is-done' : ''}`}>
+          <div className="bld__guidehead">
+            <b>Top 10 places</b>
+            {guides.top10 && <span className="bld__done">✓ {guides.top10.length}</span>}
+          </div>
+          <p className="bld__guideblurb">
+            {top10Note || (guides.top10 ? guides.top10.map((t) => `${t.rank}. ${t.name}`).slice(0, 3).join(' · ') + '…' : 'Most-visited ranking for the country page.')}
+          </p>
+          <div className="bld__guideacts">
+            <button className="btn btn--soft" onClick={runTop10} disabled={!!busy}>
+              {busy === 'top10' ? <><RefreshCw size={13} className="pk__spin" /> Generating…</>
+                : guides.top10 ? <><RefreshCw size={13} /> Regenerate</>
+                : <><Sparkles size={13} /> Generate</>}
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div className="bld__stagehead"><h3>7–10 · Country guides</h3></div>
       <p className="admin-note">Each section generates separately — the guide pages every country has.</p>
       <div className="bld__guidegrid">

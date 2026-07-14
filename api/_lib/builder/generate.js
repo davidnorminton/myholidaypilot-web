@@ -507,4 +507,69 @@ For the itinerary, sketch a first-visit route across 2-3 regions rather than one
     return send(res, 200, { details })
   }
 
+
+  // ── top 10 most visited places ───────────────────────────────────────────────
+  // One AI call, given the build's own region list, returns the country's ten
+  // most visited places each assigned to the most appropriate region. Places
+  // already in the build (name-matched) are linked; missing ones are inserted
+  // into their assigned region (surfacing in Missing images / detail stages
+  // like any stage-2 place). The ordered list is saved on the build and baked
+  // into index.json at export.
+  if (req.method === 'POST' && q.action === 'top10') {
+    const [b] = await db.select().from(builds).where(eq(builds.countryId, q.country))
+    if (!b) throw fail(404, 'No such build')
+    const regionsRows = await db.select().from(buildRegions).where(eq(buildRegions.countryId, q.country))
+    if (!regionsRows.length) throw fail(400, 'Generate the regions first — the top 10 need regions to belong to')
+    const placesRows = await db.select().from(buildPlaces).where(eq(buildPlaces.countryId, q.country))
+
+    const regionList = regionsRows.map((r) => `${r.regionId} (${r.data?.name || r.regionId})`).join(', ')
+    const prompt = `You are compiling the definitive "top 10 most visited places" list for ${b.name} for a travel guide.
+
+Rules:
+- Exactly 10 entries, ordered from most visited (rank 1) to tenth.
+- "Place" means a visitable destination: a city, town, site, monument, park or island — the things tourism statistics rank.
+- Each entry MUST be assigned to the most appropriate region from this exact list (use the id before the parentheses): ${regionList}
+- description: two sentences — what it is and why so many people visit. No markdown.
+- Respond with ONLY this JSON, no other text:
+{"places":[{"rank":1,"id":"","name":"","nameLocal":"","type":"CITY","lat":0,"lng":0,"regionId":"","description":""}]}`
+
+    const out = await generate(prompt, { json: true })
+    const list = Array.isArray(out.places) ? out.places.slice(0, 10) : []
+    if (list.length < 10) throw fail(502, 'The model did not return 10 places — try again')
+
+    const norm = (x) => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim()
+    const existing = new Map(placesRows.map((p) => [norm(p.data?.name || p.placeId), p]))
+    const validRegions = new Set(regionsRows.map((r) => r.regionId))
+
+    const top10 = []
+    const added = [], matched = [], skipped = []
+    for (const raw of list) {
+      const key = norm(raw.name)
+      const hit = existing.get(key)
+      if (hit) {
+        matched.push(raw.name)
+        top10.push({ rank: top10.length + 1, name: hit.data?.name || raw.name, placeId: hit.placeId, regionId: hit.regionId })
+        continue
+      }
+      const regionId = validRegions.has(raw.regionId) ? raw.regionId : null
+      if (!regionId) { skipped.push(`${raw.name} (unknown region "${raw.regionId}")`); continue }
+      const placeId = slugify(raw.id || raw.name)
+      await db.insert(buildPlaces).values({
+        countryId: q.country, regionId, placeId, sort: 900 + top10.length,
+        data: {
+          id: placeId, name: String(raw.name).slice(0, 120), nameLocal: String(raw.nameLocal || '').slice(0, 120),
+          type: String(raw.type || 'CITY').toUpperCase().slice(0, 30),
+          lat: Number(raw.lat) || 0, lng: Number(raw.lng) || 0,
+          description: String(raw.description || '').slice(0, 600),
+          activities: [], food: [], culture: [],
+        },
+      })
+      added.push(`${raw.name} → ${regionId}`)
+      top10.push({ rank: top10.length + 1, name: raw.name, placeId, regionId })
+    }
+
+    const guides = { ...(b.guides || {}), top10 }
+    await db.update(builds).set({ guides, updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
+    return send(res, 200, { ok: true, top10, matched, added, skipped })
+  }
 }

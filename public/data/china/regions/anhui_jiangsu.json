@@ -1,0 +1,1416 @@
+{
+  "id": "anhui_jiangsu",
+  "name": "Anhui & Jiangsu",
+  "nameIt": "皖苏",
+  "capital": "Nanjing",
+  "lat": 32.1,
+  "lng": 118.8,
+  "emoji": "🏞️",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 34.8,
+    "south": 29.6,
+    "east": 121.9,
+    "west": 114.9
+  },
+  "history": "The Anhui and Jiangsu regions have been integral to Chinese civilization for millennia, lying along the Yangtze River and its tributaries which served as crucial trade and cultural highways. During the Ming and Qing dynasties, these areas flourished as centers of commerce, scholarship, and artistic achievement, with cities like Nanjing serving as imperial capitals at various times. The region experienced significant upheaval during the Taiping Rebellion and the wars of the 20th century, but gradually rebuilt itself as an economic powerhouse in modern China. Today, both provinces maintain strong connections to classical Chinese culture while driving contemporary industrial and technological development.",
+  "culturalNotes": "Anhui and Jiangsu are renowned for their refined aesthetic traditions, from landscape painting and calligraphy to traditional gardens and architecture that epitomize the scholar-gentleman ideal. The region is famous for its tea culture, particularly Keemun black tea and Huangshan Maofeng green tea, as well as its distinctive cuisine featuring fresh water fish, duck preparations, and subtle flavoring. Local customs emphasize education, artistic cultivation, and respect for historical heritage, with residents maintaining strong pride in their literary and philosophical traditions rooted in Confucianism.",
+  "bestTimeToVisit": "Visit in spring (March-May) or autumn (September-October) for pleasant weather and scenic beauty.",
+  "languageNotes": "While Mandarin Chinese is the official language, the local dialects belong to the Wu and Jianghuai linguistic families, which can differ noticeably from standard Mandarin in pronunciation and vocabulary. Useful phrases include \"请问怎么走\" (qing wen zen me zou - excuse me, which way) and \"谢谢\" (xie xie - thank you), though most urban residents speak intelligible Mandarin for business and tourism purposes.",
+  "generatedAt": "2026-07-12T20:35:11.110Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "suzhou",
+      "name": "Suzhou",
+      "nameIt": "苏州",
+      "lat": 31.2989,
+      "lng": 120.5954,
+      "type": "CITY",
+      "description": "Renowned for its classical gardens and silk production, Suzhou represents the pinnacle of Ming and Qing Dynasty garden design. The ancient canal-lined streets, Humble Administrator's Garden, and Lion Grove Garden are UNESCO-listed treasures.",
+      "imageQueries": [
+        "Suzhou classical garden ancient canal",
+        "Suzhou Humble Administrator's Garden"
+      ],
+      "activities": [
+        {
+          "id": "suzh_1",
+          "text": "Humble Administrator's Garden",
+          "detail": "Explore one of China's largest classical gardens with its iconic halls, pavilions, and moon gate bridges reflecting Ming Dynasty aesthetics.",
+          "lat": 31.3198,
+          "lng": 120.5954
+        },
+        {
+          "id": "suzh_2",
+          "text": "Lion Grove Garden",
+          "detail": "Wander through this UNESCO-listed garden famous for its dramatic rockery, intricate corridors, and the Lion Peak viewing tower.",
+          "lat": 31.3211,
+          "lng": 120.5979
+        },
+        {
+          "id": "suzh_3",
+          "text": "Suzhou Silk Museum",
+          "detail": "Learn about the city's 2,500-year silk heritage through exhibitions of traditional looms, ancient silk remnants, and live weaving demonstrations.",
+          "lat": 31.2998,
+          "lng": 120.5915
+        },
+        {
+          "id": "suzh_4",
+          "text": "Pingjiang Historic District",
+          "detail": "Stroll along ancient canal-lined lanes with restored Ming and Qing Dynasty buildings, local shops, and waterfront teahouses.",
+          "lat": 31.3169,
+          "lng": 120.5897
+        },
+        {
+          "id": "suzh_5",
+          "text": "Master of the Nets Garden",
+          "detail": "Visit this intimate Song Dynasty garden known for its clever spatial design, moonlit reflection corridor, and evening classical music performances.",
+          "lat": 31.3154,
+          "lng": 120.5873
+        },
+        {
+          "id": "suzh_6",
+          "text": "Grand Canal Boat Tour",
+          "detail": "Experience Suzhou's historic transportation routes by boat through water towns and under ancient stone bridges connecting the city to Venice of the Orient ambiance.",
+          "lat": 31.3098,
+          "lng": 120.5955
+        },
+        {
+          "id": "suzh_7",
+          "text": "Tiger Hill Pagoda",
+          "detail": "Climb the leaning Song Dynasty pagoda set amid temple grounds and gardens overlooking the city's northern landscape.",
+          "lat": 31.3365,
+          "lng": 120.5775
+        }
+      ],
+      "food": [
+        {
+          "id": "suzh_f1",
+          "text": "Squirrel Fish",
+          "detail": "A signature Suzhou dish of whole mandarin fish fried crispy with sweet and sour sauce, shaped to resemble a squirrel with its tail curved upward."
+        },
+        {
+          "id": "suzh_f2",
+          "text": "Suzhou Mooncakes",
+          "detail": "Delicate pastries filled with sweet fillings like bean paste and lotus seed, traditionally eaten during Mid-Autumn Festival with artistic designs on top."
+        },
+        {
+          "id": "suzh_f3",
+          "text": "Biluochun Tea",
+          "detail": "One of China's most celebrated green teas grown in the hills near Suzhou, offering a fragrant orchid aroma and complex floral notes when brewed fresh."
+        },
+        {
+          "id": "suzh_f4",
+          "text": "Smoked Fish",
+          "detail": "Local freshwater fish cured and smoked with tea leaves and spices, creating tender meat with a subtle smoky flavor served cold as an appetizer."
+        },
+        {
+          "id": "suzh_f5",
+          "text": "Suzhou-style Noodles in Broth",
+          "detail": "Delicate egg noodles served in a light, fragrant broth topped with shrimp, vegetables, and occasionally truffle oil reflecting refined local taste."
+        },
+        {
+          "id": "suzh_f6",
+          "text": "Osmanthus Cake",
+          "detail": "A soft pastry infused with fragrant osmanthus flowers and sweet bean paste, a traditional Suzhou dessert representing the city's refined culinary culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "suzh_c1",
+          "text": "Dress for gardens appropriately",
+          "detail": "Wear comfortable walking shoes and light layers as classical gardens require extensive walking across uneven stones and can be cool near water features even in warm seasons."
+        },
+        {
+          "id": "suzh_c2",
+          "text": "Visit gardens early morning or after 5pm",
+          "detail": "Arrive before 9am or after 5pm to experience the gardens with fewer crowds and better appreciate their serene design philosophy meant for contemplation."
+        },
+        {
+          "id": "suzh_c3",
+          "text": "Respect silk artisan demonstrations",
+          "detail": "When observing traditional silk reeling or weaving, ask permission before photographing and show appreciation for techniques passed down through generations of craftspeople."
+        },
+        {
+          "id": "suzh_c4",
+          "text": "Learn basic garden etiquette",
+          "detail": "Suzhou gardens are designed for quiet reflection; keep voices low, avoid rushing through spaces, and pause at pavilions to admire framed views as intended by the original designers."
+        }
+      ]
+    },
+    {
+      "id": "hefei",
+      "name": "Hefei",
+      "nameIt": "合肥",
+      "lat": 31.8604,
+      "lng": 117.2272,
+      "type": "CITY",
+      "description": "Capital of Anhui Province, a modern city with a rich revolutionary past and emerging tech hub. Bao Zheng Park and Hefei Museum offer cultural insights into the region's history.",
+      "imageQueries": [
+        "Hefei Bao Zheng Park statue",
+        "Hefei city skyline modern"
+      ],
+      "activities": [
+        {
+          "id": "hefe_1",
+          "text": "Bao Zheng Park",
+          "detail": "Explore this historic park dedicated to the famous Song Dynasty judge Bao Zheng, featuring traditional architecture, temples, and exhibits about his life and judicial legacy.",
+          "lat": 32.8406,
+          "lng": 117.2272
+        },
+        {
+          "id": "hefe_2",
+          "text": "Hefei Museum",
+          "detail": "Visit this comprehensive museum showcasing Anhui's cultural heritage, including bronze vessels, ceramics, and exhibits on the region's revolutionary history.",
+          "lat": 32.8359,
+          "lng": 117.2331
+        },
+        {
+          "id": "hefe_3",
+          "text": "Xiaoyaojin Park",
+          "detail": "Stroll through this scenic lakeside park featuring traditional Chinese gardens, walking paths, and views of the Xiaoyao Lake in the city center.",
+          "lat": 32.8265,
+          "lng": 117.2164
+        },
+        {
+          "id": "hefe_4",
+          "text": "Anhui University of Technology Campus",
+          "detail": "Experience the thriving tech and innovation ecosystem of modern Hefei by visiting one of the key institutions driving the city's development as a semiconductor and tech hub.",
+          "lat": 32.8445,
+          "lng": 117.2789
+        },
+        {
+          "id": "hefe_5",
+          "text": "Hefei Old Street (三河古镇)",
+          "detail": "Wander through the preserved ancient water town of Sanhe just outside Hefei, featuring Ming and Qing Dynasty architecture, traditional shops, and waterfront temples.",
+          "lat": 32.3842,
+          "lng": 117.0864
+        },
+        {
+          "id": "hefe_6",
+          "text": "Anhui Revolutionary History Memorial",
+          "detail": "Learn about Hefei's significant role in China's revolutionary movements through artifacts, photographs, and historical documents spanning the 20th century.",
+          "lat": 32.8398,
+          "lng": 117.2289
+        }
+      ],
+      "food": [
+        {
+          "id": "hefe_f1",
+          "text": "Hefei Luosifen (合肥螺蛳粉)",
+          "detail": "A local adaptation of the famous Guangxi rice noodle soup, featuring snails, bamboo shoots, and a spicy broth with a distinctive funky fermented flavor that defines Hefei street food culture."
+        },
+        {
+          "id": "hefe_f2",
+          "text": "Anhui Stone Pot Fish (石锅鱼)",
+          "detail": "Fresh river fish cooked in a heated stone pot with pickled vegetables, chilies, and local herbs, creating a savory and slightly spicy communal dining experience unique to the Yangtze River region."
+        },
+        {
+          "id": "hefe_f3",
+          "text": "Dafu Sesame Cake (大夫烧饼)",
+          "detail": "A crispy pastry filled with sesame, pork, or vegetables, traditionally eaten for breakfast and considered a signature Hefei snack dating back generations."
+        },
+        {
+          "id": "hefe_f4",
+          "text": "Chaohu Lake Fresh Fish (巢湖鱼)",
+          "detail": "Freshwater fish from nearby Chaohu Lake prepared steamed, braised, or in soups, representing the region's culinary connection to local water resources and seasonal cooking."
+        },
+        {
+          "id": "hefe_f5",
+          "text": "Anhui Maofeng Tea (安徽毛峰)",
+          "detail": "A premium green tea grown in the mountains of southern Anhui with a delicate chestnut flavor, often served as an accompaniment to meals or enjoyed during traditional tea ceremonies."
+        },
+        {
+          "id": "hefe_f6",
+          "text": "Hefei Tofu Dishes (豆腐)",
+          "detail": "Local tofu prepared in various traditional methods including stinky tofu, braised tofu with fermented black beans, and silk tofu reflecting Anhui's vegetarian cooking heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hefe_c1",
+          "text": "Respectful temple etiquette",
+          "detail": "When visiting Bao Zheng Park or other temples, remove shoes before entering sacred spaces, avoid pointing at religious statues, and speak quietly to show respect to worshippers and the spiritual significance of the site."
+        },
+        {
+          "id": "hefe_c2",
+          "text": "Seasonal celebration awareness",
+          "detail": "Hefei celebrates Bao Zheng Cultural Festival annually during spring, with traditional performances and parades; planning your visit around this time offers deeper cultural immersion and local atmosphere."
+        },
+        {
+          "id": "hefe_c3",
+          "text": "Tech-forward city identity",
+          "detail": "Modern Hefei takes pride in its transformation into a technology and innovation hub; conversations about semiconductors, startups, and urban development reflect local pride in the city's rapid modernization."
+        },
+        {
+          "id": "hefe_c4",
+          "text": "Communal dining customs",
+          "detail": "Meals in Hefei are typically shared family-style with multiple dishes on a lazy susan; it is customary to serve elders first and to offer toasts (yum cha) before eating as a sign of respect and hospitality."
+        }
+      ]
+    },
+    {
+      "id": "huangshan",
+      "name": "Huangshan Mountains",
+      "nameIt": "黄山",
+      "lat": 30.1155,
+      "lng": 118.1155,
+      "type": "NATURE",
+      "description": "One of China's most iconic mountain ranges, famous for granite peaks, ancient pines, and sea of clouds. A UNESCO World Heritage site that inspired classical Chinese landscape painting for centuries.",
+      "imageQueries": [
+        "Huangshan mountains sea of clouds",
+        "Huangshan peaks pine trees sunset"
+      ],
+      "activities": [
+        {
+          "id": "huan_1",
+          "text": "Sunrise at Bright Peak",
+          "detail": "Watch the sun rise above the sea of clouds from Huangshan's highest viewpoint, offering an ethereal landscape that inspired classical Chinese painters.",
+          "lat": 30.1197,
+          "lng": 118.1548
+        },
+        {
+          "id": "huan_2",
+          "text": "Walk the Heavenly Street",
+          "detail": "Traverse the narrow ridge pathway connecting the Eastern and Western peaks with dramatic granite cliffs on both sides and ancient pine trees clinging to the rocks.",
+          "lat": 30.1184,
+          "lng": 118.1632
+        },
+        {
+          "id": "huan_3",
+          "text": "Visit Lotus Peak",
+          "detail": "Climb to one of the three major peaks and navigate the steep stone steps while experiencing panoramic views of the surrounding granite formations and valleys below.",
+          "lat": 30.1176,
+          "lng": 118.1582
+        },
+        {
+          "id": "huan_4",
+          "text": "Explore Jade Screen Peak",
+          "detail": "Admire the massive granite wall formation that resembles a jade screen, featured prominently in traditional Chinese landscape paintings and photography.",
+          "lat": 30.1164,
+          "lng": 118.1602
+        },
+        {
+          "id": "huan_5",
+          "text": "Hike the Hot Springs Valley",
+          "detail": "Follow the scenic lower trail through waterfalls, natural hot springs, and lush vegetation at the base of the mountain range, ideal for those seeking less strenuous paths.",
+          "lat": 30.1289,
+          "lng": 118.1496
+        },
+        {
+          "id": "huan_6",
+          "text": "Tour Ancient Pine Trees",
+          "detail": "Observe centuries-old gnarled pine trees that have adapted to grow horizontally from cliff faces, including the famous 'Welcome Pine' and 'Farewell Pine' near reception areas.",
+          "lat": 30.1186,
+          "lng": 118.1618
+        },
+        {
+          "id": "huan_7",
+          "text": "Watch the Sea of Clouds",
+          "detail": "Experience the famous sea of clouds phenomenon at dawn or dusk when temperature inversions create a blanket of clouds rolling between peaks.",
+          "lat": 30.12,
+          "lng": 118.162
+        }
+      ],
+      "food": [
+        {
+          "id": "huan_f1",
+          "text": "Stone Frog (石蛙)",
+          "detail": "A local specialty from mountain streams, prepared steamed or braised with mountain herbs and mushrooms native to the Huangshan region."
+        },
+        {
+          "id": "huan_f2",
+          "text": "Huangshan Mushroom Hotpot (黄山野生菌)",
+          "detail": "Fresh wild mushrooms foraged from the mountains served in a communal hotpot with local spring water and seasonal vegetables."
+        },
+        {
+          "id": "huan_f3",
+          "text": "Bamboo Shoot Dishes (春笋)",
+          "detail": "Spring bamboo shoots harvested from the surrounding forests, commonly served stir-fried, in soups, or preserved as a traditional mountain delicacy."
+        },
+        {
+          "id": "huan_f4",
+          "text": "Huangshan Maofeng Tea (黄山毛峰)",
+          "detail": "A premium green tea grown on the mountain slopes with a delicate taste of chestnuts and orchids, traditionally served during visits to tea houses near peaks."
+        },
+        {
+          "id": "huan_f5",
+          "text": "Mountain Root Vegetables (山笋、山芋)",
+          "detail": "Local wild tubers and root vegetables including mountain yam and various fern shoots, prepared in simple stir-fries to highlight their natural flavors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "huan_c1",
+          "text": "Start early for sunrise",
+          "detail": "Mountain guides and locals emphasize arriving at peak viewpoints before dawn to experience the sunrise and avoid afternoon cloud cover that obscures views."
+        },
+        {
+          "id": "huan_c2",
+          "text": "Respect sacred sites and immortal legends",
+          "detail": "Many peaks and locations are tied to Taoist mythology and religious significance; visitors should approach temples and shrines with appropriate reverence and modest dress."
+        },
+        {
+          "id": "huan_c3",
+          "text": "Carry sufficient water and snacks",
+          "detail": "Mountain infrastructure is limited with few shops and restaurants along trails; locals recommend bringing 2+ liters of water and energy food to avoid exhaustion during multi-hour hikes."
+        },
+        {
+          "id": "huan_c4",
+          "text": "Observe seasonal weather patterns",
+          "detail": "Spring and autumn offer the clearest views and most stable weather; summer brings heat and rain while winter produces ice and snow that closes many paths—check local conditions before visiting."
+        }
+      ]
+    },
+    {
+      "id": "tunxi",
+      "name": "Tunxi",
+      "nameIt": "屯溪",
+      "lat": 29.7192,
+      "lng": 118.3011,
+      "type": "TOWN",
+      "description": "Gateway town to Huangshan, preserving authentic Ming and Qing architecture along Lao Jie (Old Street) with traditional shops and teahouses. An excellent base for mountain trekking with charming riverside setting.",
+      "imageQueries": [
+        "Tunxi Old Street Lao Jie Ming Dynasty",
+        "Tunxi riverside ancient architecture"
+      ],
+      "activities": [
+        {
+          "id": "tunx_1",
+          "text": "Explore Lao Jie (Old Street)",
+          "detail": "Walk the beautifully preserved Ming and Qing dynasty street lined with traditional wooden-fronted shops, antique dealers, teahouses, and local artisans selling ink, brushes, and paper.",
+          "lat": 29.7863,
+          "lng": 118.2345
+        },
+        {
+          "id": "tunx_2",
+          "text": "Visit Huangshan Scenic Area",
+          "detail": "Trek to China's most famous granite peaks with cable cars, stone pathways, and sunrise views from cloud-shrouded summits just 1.5 hours north of Tunxi.",
+          "lat": 30.0855,
+          "lng": 118.1704
+        },
+        {
+          "id": "tunx_3",
+          "text": "Wander Tunxi Riverside Promenade",
+          "detail": "Stroll along the scenic Xin'an River waterfront at dusk, enjoying evening light reflecting off traditional architecture and local evening markets.",
+          "lat": 29.7898,
+          "lng": 118.238
+        },
+        {
+          "id": "tunx_4",
+          "text": "Tour the Anhui Museum of Wooden Carvings",
+          "detail": "Admire intricate wooden architectural elements, roof ornaments, and furniture salvaged from local Ming and Qing buildings throughout the region.",
+          "lat": 29.7846,
+          "lng": 118.2289
+        },
+        {
+          "id": "tunx_5",
+          "text": "Browse Antique Teahouse Culture",
+          "detail": "Spend an afternoon in a traditional teahouse sampling local Keemun black tea or Huangshan Maofeng green tea while observing calligraphy artists and local regulars.",
+          "lat": 29.7863,
+          "lng": 118.2345
+        },
+        {
+          "id": "tunx_6",
+          "text": "Visit Tangxi Ancient Village",
+          "detail": "Explore this well-preserved Qing-era village 15km south with ancestral halls, narrow lanes, and a slower pace reflecting old Anhui merchant culture.",
+          "lat": 29.7045,
+          "lng": 118.2198
+        }
+      ],
+      "food": [
+        {
+          "id": "tunx_f1",
+          "text": "Huangshan Maofeng Tea",
+          "detail": "The region's prized green tea with delicate chestnut flavor, best enjoyed fresh in local teahouses or purchased directly from Lao Jie shops for its fresh vegetal aroma."
+        },
+        {
+          "id": "tunx_f2",
+          "text": "Stone Frog (石蛙)",
+          "detail": "Local mountain frog caught from Huangshan streams, braised in clay pots with ginger and mushrooms, considered a regional delicacy."
+        },
+        {
+          "id": "tunx_f3",
+          "text": "Stinky Tofu (臭豆腐)",
+          "detail": "Fermented tofu squares fried until crispy outside and creamy inside, served with spicy dipping sauce at street stalls throughout Lao Jie."
+        },
+        {
+          "id": "tunx_f4",
+          "text": "Huangshan Bamboo Shoots (笋)",
+          "detail": "Tender spring bamboo shoots grilled or braised in clay vessels, a seasonal specialty reflecting the mountain's culinary tradition."
+        },
+        {
+          "id": "tunx_f5",
+          "text": "Xin'an River Fish (新安江鱼)",
+          "detail": "Freshwater fish steamed whole with Huangshan peppers and Keemun vinegar, highlighting local river ingredients and regional spice profiles."
+        },
+        {
+          "id": "tunx_f6",
+          "text": "Tunxi Sesame Candy (芝麻糖)",
+          "detail": "Traditional brittle made with sesame seeds and malt syrup, sold in small wrapped portions at historic sweet shops on Lao Jie."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tunx_c1",
+          "text": "Tea ceremony etiquette",
+          "detail": "When invited to tea, tap your fingers on the table as a silent thank-you when the server pours; refusing tea outright is considered rude, so accept at least a small cup."
+        },
+        {
+          "id": "tunx_c2",
+          "text": "Respect for antique dealers",
+          "detail": "Lao Jie merchants take pride in authenticity and historical knowledge; asking questions shows respect, but aggressive bargaining on genuine antiques may offend long-established shop owners."
+        },
+        {
+          "id": "tunx_c3",
+          "text": "Mountain hiking preparation",
+          "detail": "Locals expect visitors to Huangshan to start early (5am+) to catch sunrise; wearing proper hiking shoes is essential as stone steps are steep and weather changes rapidly."
+        },
+        {
+          "id": "tunx_c4",
+          "text": "Photography permissions",
+          "detail": "Always ask before photographing shop interiors, elderly locals, or family-run teahouses, as many residents value privacy and traditional spaces should be approached respectfully."
+        }
+      ]
+    },
+    {
+      "id": "zhexi",
+      "name": "Hongcun Village",
+      "nameIt": "宏村",
+      "lat": 30.1167,
+      "lng": 117.9833,
+      "type": "VILLAGE",
+      "description": "UNESCO World Heritage village near Huangshan, featuring perfectly preserved Ming and Qing Dynasty architecture arranged around natural ponds and waterways. Often called the Venice of Anhui for its harmonious design and reflected scenery.",
+      "imageQueries": [
+        "Hongcun village ancient architecture pond",
+        "Hongcun traditional houses water reflection"
+      ],
+      "activities": [
+        {
+          "id": "zhex_1",
+          "text": "Explore South Lake",
+          "detail": "Walk around the crescent-shaped pond at the village's south entrance, a iconic spot perfectly framed by whitewashed buildings and their reflections.",
+          "lat": 29.607,
+          "lng": 117.6532
+        },
+        {
+          "id": "zhex_2",
+          "text": "Visit承志堂 (Chengzhi Hall)",
+          "detail": "Tour this elaborate Ming Dynasty merchant mansion with intricate wood carvings, stone sculptures, and a nine-screen interior courtyard that exemplifies Hui-style architecture.",
+          "lat": 29.6082,
+          "lng": 117.6524
+        },
+        {
+          "id": "zhex_3",
+          "text": "Photograph Moon Pond at sunset",
+          "detail": "Capture the UNESCO-designated view of the oval-shaped northern pond framed by stone bridges and ancestral halls, especially stunning during golden hour.",
+          "lat": 29.6088,
+          "lng": 117.652
+        },
+        {
+          "id": "zhex_4",
+          "text": "Hike to nearby Huangshan foothills",
+          "detail": "Take a guided walk from the village toward the lower trails of Huangshan Mountain to see the surrounding landscape and understand the village's geographic positioning.",
+          "lat": 29.61,
+          "lng": 117.655
+        },
+        {
+          "id": "zhex_5",
+          "text": "Visit the Water Wheel (水碓坊)",
+          "detail": "See the traditional wooden water wheel that once powered grain mills, demonstrating the village's historical hydraulic engineering and harmony with water systems.",
+          "lat": 29.6075,
+          "lng": 117.6515
+        },
+        {
+          "id": "zhex_6",
+          "text": "Explore family ancestral temples",
+          "detail": "Enter the restored clan halls and temples throughout the village to understand Hui merchant family hierarchy and religious practices preserved since the Ming era."
+        }
+      ],
+      "food": [
+        {
+          "id": "zhex_f1",
+          "text": "毛豆腐 (Mao Tofu)",
+          "detail": "Fermented tofu with a distinctive fuzzy mold coating, fried or steamed until crispy outside and creamy inside—a signature Anhui delicacy found in every local restaurant."
+        },
+        {
+          "id": "zhex_f2",
+          "text": "石墨笋 (Huangshan Bamboo Shoots)",
+          "detail": "Fresh tender bamboo shoots harvested from the nearby mountains, often braised with local herbs and prized for their delicate flavor and seasonal availability."
+        },
+        {
+          "id": "zhex_f3",
+          "text": "臭鳜鱼 (Stinky Mandarin Fish)",
+          "detail": "A pungent salted freshwater fish that's washed and steamed until fragrant, considered an acquired taste but iconic to Anhui cuisine and worth trying."
+        },
+        {
+          "id": "zhex_f4",
+          "text": "农家粗粮宴 (Farmer's Whole Grain Feast)",
+          "detail": "A multi-course village meal featuring locally-grown grains, wild vegetables, and preserved foods prepared using centuries-old farmhouse recipes in family-run restaurants."
+        },
+        {
+          "id": "zhex_f5",
+          "text": "竹笋腊肉 (Bamboo Shoots with Cured Pork)",
+          "detail": "Thinly sliced local bacon cooked with fresh mountain bamboo shoots, combining smoky preserved meat with spring vegetables in a classic Hui preparation."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zhex_c1",
+          "text": "Arrive early or stay overnight",
+          "detail": "Day-trippers flood the village by mid-morning; visit before 8 AM or book accommodation to experience the authentic morning mist and quiet waterside atmosphere that inspired painters."
+        },
+        {
+          "id": "zhex_c2",
+          "text": "Respect residential spaces",
+          "detail": "Hongcun remains a living village with residents in many buildings; ask permission before photographing people and avoid entering private courtyards without invitation."
+        },
+        {
+          "id": "zhex_c3",
+          "text": "Understand feng shui layout",
+          "detail": "The village was deliberately designed with ponds and waterways symbolizing prosperity and protection in Hui philosophy—learning this context enriches appreciation of seemingly random architecture."
+        },
+        {
+          "id": "zhex_c4",
+          "text": "Learn basic Hui merchant history",
+          "detail": "The village's grand halls and detailed carvings reflect the 16th-18th century wealth of Hui merchants; understanding their trade routes and influence explains the architectural sophistication you'll see."
+        }
+      ]
+    },
+    {
+      "id": "xidi",
+      "name": "Xidi Village",
+      "nameIt": "西递",
+      "lat": 30.1042,
+      "lng": 117.9625,
+      "type": "VILLAGE",
+      "description": "Another UNESCO-protected Huangshan-area village showcasing intact Hui-style merchant architecture with intricate wood carving and stone work. The narrow lanes and hidden courtyards feel like stepping into a living museum of the Ming Dynasty.",
+      "imageQueries": [
+        "Xidi village ancient houses wood carving",
+        "Xidi traditional Hui architecture"
+      ],
+      "activities": [
+        {
+          "id": "xidi_1",
+          "text": "Explore Hu's Residence",
+          "detail": "Tour this sprawling 300-year-old merchant mansion with 99 rooms featuring intricate wood carvings, stone screens, and a central courtyard that exemplifies Ming Dynasty architecture.",
+          "lat": 29.9289,
+          "lng": 117.8667
+        },
+        {
+          "id": "xidi_2",
+          "text": "Walk the Bluestone Lanes",
+          "detail": "Wander the narrow, winding pedestrian streets paved with smooth bluestone that connect hidden courtyards and reveal the village's original Ming and Qing Dynasty layout.",
+          "lat": 29.9285,
+          "lng": 117.867
+        },
+        {
+          "id": "xidi_3",
+          "text": "Photography Tour at Dawn",
+          "detail": "Capture the village mist-shrouded rooflines and traditional tilework in early morning light when tour groups are sparse and atmospheric conditions are ideal."
+        },
+        {
+          "id": "xidi_4",
+          "text": "Stone Carving Workshop Visit",
+          "detail": "Watch artisans at work in small studios demonstrating traditional stone carving techniques used to create decorative screens, lintels, and architectural ornaments still seen throughout the village."
+        },
+        {
+          "id": "xidi_5",
+          "text": "Ancestral Hall Tour",
+          "detail": "Visit the Xidi ancestral halls to understand Hui merchant clan structures and observe ritual spaces decorated with calligraphy and clan genealogies spanning centuries."
+        },
+        {
+          "id": "xidi_6",
+          "text": "Rooftop and Wall Walk",
+          "detail": "Follow the preserved defensive walls and rooftop pathways that once connected houses, offering elevated views of the entire village layout and surrounding tea-covered hills.",
+          "lat": 29.9288,
+          "lng": 117.8665
+        }
+      ],
+      "food": [
+        {
+          "id": "xidi_f1",
+          "text": "Huangshan Tofu",
+          "detail": "Soft, delicate tofu made from local mountain spring water, often served stir-fried with local greens or in a mild broth as a specialty of the Huangshan region."
+        },
+        {
+          "id": "xidi_f2",
+          "text": "Xidi Bamboo Shoot Dishes",
+          "detail": "Fresh bamboo shoots harvested from surrounding forests, prepared pickled, steamed, or braised in soy sauce as a seasonal delicacy reflecting the village's forested surroundings."
+        },
+        {
+          "id": "xidi_f3",
+          "text": "Hui-style Smoked Fish",
+          "detail": "Fresh mountain stream fish cured and smoked over camphor wood, imparting a distinctive fragrance and tender texture prized in traditional Hui cuisine."
+        },
+        {
+          "id": "xidi_f4",
+          "text": "Osmanthus Cake",
+          "detail": "Local pastry infused with fragrant osmanthus flowers that bloom in autumn, a traditional Huizhou dessert sold by village vendors and families."
+        },
+        {
+          "id": "xidi_f5",
+          "text": "Stone Chicken (Shi Ji)",
+          "detail": "A dish of chicken braised with local mushrooms, chestnuts, and medicinal herbs using cooking methods passed down through Hui merchant families."
+        }
+      ],
+      "culture": [
+        {
+          "id": "xidi_c1",
+          "text": "Entrance Fee and Operating Hours",
+          "detail": "The village charges an admission fee and has designated entry gates; visiting early morning or late afternoon avoids peak tour bus crowds typical during midday."
+        },
+        {
+          "id": "xidi_c2",
+          "text": "Respect Private Residences",
+          "detail": "Many of the village's traditional houses remain inhabited by descendants of original families; observe quietly and ask permission before photographing interiors or residents."
+        },
+        {
+          "id": "xidi_c3",
+          "text": "Wear Comfortable Shoes",
+          "detail": "The entire village consists of uneven, narrow bluestone lanes with no vehicle access; sturdy walking shoes are essential as slippery stones are common in damp conditions."
+        },
+        {
+          "id": "xidi_c4",
+          "text": "Local Hospitality Customs",
+          "detail": "Villagers often offer tea or small conversation to visitors in their courtyards; accepting politely and purchasing items from family shops is appreciated as these sales support village maintenance."
+        }
+      ]
+    },
+    {
+      "id": "zhenjiang",
+      "name": "Zhenjiang",
+      "nameIt": "镇江",
+      "lat": 32.2042,
+      "lng": 119.4519,
+      "type": "CITY",
+      "description": "Historic port city on the Yangtze River famous for its distinctive vinegar and Three Gorges-like scenic views. Jiao Mountain Park offers panoramic river vistas and contains ancient temples with literary significance.",
+      "imageQueries": [
+        "Zhenjiang Jiao Mountain Yangtze River",
+        "Zhenjiang ancient temple river views"
+      ],
+      "activities": [
+        {
+          "id": "zhen_1",
+          "text": "Jiao Mountain Park",
+          "detail": "Climb to the summit of this scenic mountain for panoramic views of the Yangtze River and visit the ancient Dinghui Temple with its literary heritage.",
+          "lat": 32.2127,
+          "lng": 112.6372
+        },
+        {
+          "id": "zhen_2",
+          "text": "Xishan Scenic Area",
+          "detail": "Explore riverside cliffs and gardens with views reminiscent of the Three Gorges, featuring walking paths and traditional pavilions.",
+          "lat": 32.2089,
+          "lng": 112.6189
+        },
+        {
+          "id": "zhen_3",
+          "text": "Zhenjiang Museum",
+          "detail": "Discover the city's maritime history, vinegar-making heritage, and ancient artifacts spanning from the Neolithic period to the Qing Dynasty.",
+          "lat": 32.2067,
+          "lng": 112.645
+        },
+        {
+          "id": "zhen_4",
+          "text": "Nanshan Scenic Area",
+          "detail": "Walk through bamboo groves and ancient temple ruins while enjoying panoramic views of the Yangtze River valley.",
+          "lat": 32.195,
+          "lng": 112.62
+        },
+        {
+          "id": "zhen_5",
+          "text": "Zhenjiang Vinegar Factory Tour",
+          "detail": "Visit a traditional vinegar production facility to witness the centuries-old fermentation process and purchase authentic Zhenjiang vinegar.",
+          "lat": 32.21,
+          "lng": 112.64
+        },
+        {
+          "id": "zhen_6",
+          "text": "Iron Pagoda of Beigu寺",
+          "detail": "View this historic iron pagoda dating back to the Song Dynasty, a distinctive landmark reflecting the city's ancient Buddhist heritage.",
+          "lat": 32.2143,
+          "lng": 112.6487
+        },
+        {
+          "id": "zhen_7",
+          "text": "Riverside Walk along Yangtze",
+          "detail": "Stroll along the waterfront promenade to observe boat traffic and enjoy sunset views of the mighty Yangtze River.",
+          "lat": 32.211,
+          "lng": 112.63
+        }
+      ],
+      "food": [
+        {
+          "id": "zhen_f1",
+          "text": "Zhenjiang Vinegar",
+          "detail": "This dark, fragrant vinegar made from glutinous rice has been produced for over 3,000 years and is essential to local cuisine with a distinctive aromatic profile."
+        },
+        {
+          "id": "zhen_f2",
+          "text": "Zhenjiang Xie Fen (crab powder pastry)",
+          "detail": "Delicate pastries filled with shredded crab meat and roe, representing the city's signature snack often paired with tea."
+        },
+        {
+          "id": "zhen_f3",
+          "text": "Yangtze River Fresh Fish Soup",
+          "detail": "A savory broth made from freshly caught river fish, typically silver carp or grass carp, with seasonal vegetables and Zhenjiang vinegar."
+        },
+        {
+          "id": "zhen_f4",
+          "text": "Pijiu Ya (beer duck)",
+          "detail": "Duck braised in local beer with spices and vinegar, creating a tender dish that balances savory and acidic flavors typical of Zhenjiang cuisine."
+        },
+        {
+          "id": "zhen_f5",
+          "text": "Zhenjiang Pickled Vegetables",
+          "detail": "Various seasonal vegetables preserved in brine with vinegar and spices, served as condiments or side dishes throughout meals."
+        },
+        {
+          "id": "zhen_f6",
+          "text": "Long Jiang Huo (dragon well prawns)",
+          "detail": "Fresh river prawns stir-fried with local green tea leaves and seasoned with Zhenjiang vinegar for a unique umami-rich dish."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zhen_c1",
+          "text": "Vinegar etiquette in dining",
+          "detail": "Zhenjiang vinegar appears on nearly every dining table; locals use it generously as a condiment and appreciate visitors who embrace this flavor tradition respectfully."
+        },
+        {
+          "id": "zhen_c2",
+          "text": "Riverfront timing",
+          "detail": "Visit riverside attractions and parks early morning or at dusk to avoid midday heat and enjoy the best light for viewing the Yangtze's dramatic landscape."
+        },
+        {
+          "id": "zhen_c3",
+          "text": "Temple visit customs",
+          "detail": "When visiting ancient temples on Jiao Mountain and elsewhere, dress modestly, walk counterclockwise around prayer halls, and avoid pointing at religious statues or artwork."
+        },
+        {
+          "id": "zhen_c4",
+          "text": "Seasonal river appreciation",
+          "detail": "Spring and autumn offer the most comfortable viewing conditions for river vistas; summer can be extremely humid while winter winds can be strong along the water."
+        }
+      ]
+    },
+    {
+      "id": "yangzhou",
+      "name": "Yangzhou",
+      "nameIt": "扬州",
+      "lat": 32.3934,
+      "lng": 119.4292,
+      "type": "CITY",
+      "description": "Ancient Grand Canal city renowned for salt merchant prosperity and classical gardens, with a reputation for refined culture and Huai cuisine. Slender West Lake and Ge Garden represent peak Qing Dynasty garden aesthetics.",
+      "imageQueries": [
+        "Yangzhou Slender West Lake garden",
+        "Yangzhou Ge Garden classical pavilion"
+      ],
+      "activities": [
+        {
+          "id": "yang_1",
+          "text": "Slender West Lake",
+          "detail": "A picturesque artificial lake with classical pavilions, bridges, and landscaped gardens that epitomizes Qing Dynasty garden design.",
+          "lat": 32.398,
+          "lng": 119.4277
+        },
+        {
+          "id": "yang_2",
+          "text": "Ge Garden",
+          "detail": "A UNESCO-listed classical garden featuring rockeries, pavilions, and seasonal landscaping that showcases the peak of Ming-Qing garden aesthetics.",
+          "lat": 32.3924,
+          "lng": 119.4332
+        },
+        {
+          "id": "yang_3",
+          "text": "He Garden",
+          "detail": "An exquisite residential garden with intricate carvings, double-storey corridors, and a moonlit water courtyard representing late Qing craftsmanship.",
+          "lat": 32.391,
+          "lng": 119.4345
+        },
+        {
+          "id": "yang_4",
+          "text": "Grand Canal Heritage Boat Tour",
+          "detail": "Navigate the ancient waterway that made Yangzhou prosperous, passing former salt merchant neighborhoods and understanding the city's 2,500-year canal trade history.",
+          "lat": 32.39,
+          "lng": 119.425
+        },
+        {
+          "id": "yang_5",
+          "text": "Daming Temple",
+          "detail": "A Buddhist temple complex dating to the 5th century with a restored pagoda offering panoramic views of the city and surrounding waterways.",
+          "lat": 32.402,
+          "lng": 119.418
+        },
+        {
+          "id": "yang_6",
+          "text": "Salt Merchant's Mansion Walking Tour",
+          "detail": "Explore the preserved residences and courtyards of wealthy salt merchants in the historic district, revealing the luxury and architecture of the salt trade era.",
+          "lat": 32.3915,
+          "lng": 119.431
+        },
+        {
+          "id": "yang_7",
+          "text": "Yangzhou Lacquerware Workshop Visit",
+          "detail": "Observe artisans creating traditional Yangzhou lacquerware with gold leaf and inlay techniques that have been refined over centuries.",
+          "lat": 32.385,
+          "lng": 119.44
+        }
+      ],
+      "food": [
+        {
+          "id": "yang_f1",
+          "text": "Yangzhou Fried Rice",
+          "detail": "A sophisticated fried rice dish featuring diced ham, shrimp, peas, and egg, requiring precise technique and considered one of China's finest rice preparations."
+        },
+        {
+          "id": "yang_f2",
+          "text": "Luosifen-style Noodle Soup",
+          "detail": "Delicate egg noodles in a light, aromatic broth with preserved vegetables and shrimp, representing Yangzhou's refined Huai cuisine tradition."
+        },
+        {
+          "id": "yang_f3",
+          "text": "Dried Scallop and Bamboo Shoot Soup",
+          "detail": "A delicate soup that combines umami-rich dried scallops with fresh bamboo shoots, showcasing Yangzhou's preference for subtle, refined flavors."
+        },
+        {
+          "id": "yang_f4",
+          "text": "Wensi Tofu",
+          "detail": "Silken tofu sliced into needle-thin strands and served in a light broth, named after a Buddhist temple and exemplifying precision knife work."
+        },
+        {
+          "id": "yang_f5",
+          "text": "Yangzhou Tea-Smoked Duck",
+          "detail": "Duck smoked with jasmine tea and camphor wood, offering a fragrant and delicate alternative to Peking duck with local character."
+        },
+        {
+          "id": "yang_f6",
+          "text": "Yangzhou Pao Ding (Steamed Buns)",
+          "detail": "Steamed buns filled with pork, shrimp, and bamboo shoot representing the morning dim sum culture of this canal-side city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "yang_c1",
+          "text": "Morning Tea Culture",
+          "detail": "Join locals at traditional teahouses early morning for dim sum and tea; this is the proper time to experience Yangzhou's refined leisure culture."
+        },
+        {
+          "id": "yang_c2",
+          "text": "Garden Visiting Etiquette",
+          "detail": "Yangzhou gardens are designed for quiet contemplation—move slowly, sit by pavilions to observe the carefully composed views, and avoid loud conversation."
+        },
+        {
+          "id": "yang_c3",
+          "text": "Salt Merchant Heritage Respect",
+          "detail": "Many buildings relate to the historic salt monopoly; understanding that salt merchants were powerful patrons of arts and gardens will deepen appreciation of local architecture."
+        },
+        {
+          "id": "yang_c4",
+          "text": "Seasonal Garden Visiting",
+          "detail": "Classical gardens are designed for specific seasons; spring (March-April) and autumn (September-October) reveal the gardens' intended beauty through blooming plants and colors."
+        }
+      ]
+    },
+    {
+      "id": "xuzhou",
+      "name": "Xuzhou",
+      "nameIt": "徐州",
+      "lat": 34.2658,
+      "lng": 117.1205,
+      "type": "CITY",
+      "description": "Ancient city with strategic importance in Chinese history, featuring significant jade carving traditions and impressive museums. The Xuzhou Museum houses one of China's finest collections of Han Dynasty artifacts and bronzes.",
+      "imageQueries": [
+        "Xuzhou Museum Han Dynasty jade",
+        "Xuzhou ancient city architecture"
+      ],
+      "activities": [
+        {
+          "id": "xuzh_1",
+          "text": "Xuzhou Museum",
+          "detail": "Explore one of China's premier collections of Han Dynasty artifacts, bronze vessels, jade carvings, and ancient terracotta figurines spanning thousands of years of history.",
+          "lat": 34.2658,
+          "lng": 117.186
+        },
+        {
+          "id": "xuzh_2",
+          "text": "Cloud Dragon Mountain",
+          "detail": "Hike this scenic mountain featuring ancient temples, stone carvings, and panoramic views of the city, with historical significance dating back to the Han Dynasty.",
+          "lat": 34.3742,
+          "lng": 117.1506
+        },
+        {
+          "id": "xuzh_3",
+          "text": "Han Culture Theme Park",
+          "detail": "Visit this open-air museum recreating Han Dynasty life with traditional architecture, tomb models, and interactive exhibits showcasing ancient daily customs and craftsmanship.",
+          "lat": 34.2892,
+          "lng": 117.2167
+        },
+        {
+          "id": "xuzh_4",
+          "text": "Jade Carving Workshops",
+          "detail": "Observe master artisans at work in family-run studios carving jade using traditional techniques, with opportunities to purchase authentic Xuzhou jade pieces.",
+          "lat": 34.275,
+          "lng": 117.195
+        },
+        {
+          "id": "xuzh_5",
+          "text": "Pengcheng Guangchang Square",
+          "detail": "Stroll through the city's central plaza featuring modern fountains, historical monuments, and evening performances reflecting Xuzhou's status as an ancient strategic city.",
+          "lat": 34.268,
+          "lng": 117.1875
+        },
+        {
+          "id": "xuzh_6",
+          "text": "Turtle Mountain Han Tomb",
+          "detail": "Descend into this well-preserved underground Han Dynasty tomb complex featuring brick architecture, stone carvings, and chamber layouts rarely accessible to visitors.",
+          "lat": 34.345,
+          "lng": 117.168
+        }
+      ],
+      "food": [
+        {
+          "id": "xuzh_f1",
+          "text": "Xuzhou Oxtail Soup",
+          "detail": "A warming local specialty featuring tender stewed oxtail in a rich broth flavored with Chinese medicinal herbs, served as a signature comfort dish year-round."
+        },
+        {
+          "id": "xuzh_f2",
+          "text": "Dizhou Pie",
+          "detail": "Crispy-skinned pastries filled with seasoned meat and vegetables, traditionally baked in wood-fired ovens and eaten as a street food breakfast staple."
+        },
+        {
+          "id": "xuzh_f3",
+          "text": "Xuzhou Casserole Rice",
+          "detail": "Claypot rice cooked with local ingredients like mushrooms, preserved vegetables, and cured meats, served sizzling with a fragrant crispy bottom layer."
+        },
+        {
+          "id": "xuzh_f4",
+          "text": "Peixian Pickled Vegetables",
+          "detail": "Traditional preserved vegetables from neighboring Peixian County, offering complex umami flavors used as condiments or served alongside rice and congee."
+        },
+        {
+          "id": "xuzh_f5",
+          "text": "Xuzhou Sesame Candy",
+          "detail": "Brittle candies made from toasted sesame seeds and maltose syrup, sold as popular gift items featuring regional flavors like peanut and black sesame variations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "xuzh_c1",
+          "text": "Han Dynasty Heritage Pride",
+          "detail": "Xuzhou residents deeply value their connection to the Han Dynasty as a major ancient capital; showing genuine interest in this history is greatly appreciated."
+        },
+        {
+          "id": "xuzh_c2",
+          "text": "Jade Appreciation Custom",
+          "detail": "When visiting jade workshops or markets, it is respectful to ask about the stone's origin and carving meaning rather than focusing only on price."
+        },
+        {
+          "id": "xuzh_c3",
+          "text": "Tea House Social Culture",
+          "detail": "Local tea houses serve as important social gathering spaces; sitting for extended conversations over tea is normal and visitors are welcome to participate in this relaxed pace."
+        },
+        {
+          "id": "xuzh_c4",
+          "text": "Museum Photography Etiquette",
+          "detail": "While many artifacts can be photographed, tripods and flash are typically prohibited; always check with staff before photographing delicate Han Dynasty pieces."
+        }
+      ]
+    },
+    {
+      "id": "ningguo",
+      "name": "Ningguo",
+      "nameIt": "宁国",
+      "lat": 30.6333,
+      "lng": 118.9667,
+      "type": "TOWN",
+      "description": "Mountain town in southern Anhui serving as gateway to scenic bamboo forests and waterfalls. Known for adventure activities including hiking, rafting, and forest exploration.",
+      "imageQueries": [
+        "Ningguo bamboo forest mountains",
+        "Ningguo waterfall nature scenic"
+      ],
+      "activities": [
+        {
+          "id": "ning_1",
+          "text": "Longjing Gorge Hiking",
+          "detail": "Trek through a dramatic canyon with cascading waterfalls and pristine pools ideal for swimming and photography.",
+          "lat": 30.6518,
+          "lng": 118.7156
+        },
+        {
+          "id": "ning_2",
+          "text": "Bamboo Forest Exploration",
+          "detail": "Wander through extensive groves of mountain bamboo surrounding Ningguo, experiencing the region's most iconic natural landscape.",
+          "lat": 30.645,
+          "lng": 118.72
+        },
+        {
+          "id": "ning_3",
+          "text": "Jingxi Scenic Area Visit",
+          "detail": "Explore this protected area featuring ancient forests, mountain streams, and well-maintained trails suitable for various fitness levels.",
+          "lat": 30.688,
+          "lng": 118.695
+        },
+        {
+          "id": "ning_4",
+          "text": "Rafting on Jingxi River",
+          "detail": "Navigate moderate rapids through forested valleys with opportunities to spot wildlife and enjoy mountain scenery from water level.",
+          "lat": 30.66,
+          "lng": 118.71
+        },
+        {
+          "id": "ning_5",
+          "text": "Lingyang Gorge Adventure",
+          "detail": "Experience rock climbing, rappelling, and water trekking through one of Anhui's most thrilling adventure destinations.",
+          "lat": 30.635,
+          "lng": 118.73
+        },
+        {
+          "id": "ning_6",
+          "text": "Cloud Valley Photography Walk",
+          "detail": "Follow misty mountain trails at elevation where morning fog creates ethereal landscapes favored by landscape photographers.",
+          "lat": 30.67,
+          "lng": 118.705
+        }
+      ],
+      "food": [
+        {
+          "id": "ning_f1",
+          "text": "Ningguo Bamboo Shoots",
+          "detail": "Fresh spring bamboo shoots prepared simply steamed or stir-fried with local oils to highlight their delicate, slightly sweet flavor."
+        },
+        {
+          "id": "ning_f2",
+          "text": "Mountain Trout (Shan Yu)",
+          "detail": "Fresh cold-water fish from local streams, typically steamed whole with ginger and soy or braised in clay pots with herbs."
+        },
+        {
+          "id": "ning_f3",
+          "text": "Tian Lu Chicken",
+          "detail": "Free-range mountain chicken prepared with dried mushrooms, bamboo shoots, and local spices in a signature slow-cooked clay pot dish."
+        },
+        {
+          "id": "ning_f4",
+          "text": "Dried Mushroom Medley",
+          "detail": "Ningguo's famous selection of wild mushrooms including wood ear and shiitake, often served in vegetable stir-fries or soups."
+        },
+        {
+          "id": "ning_f5",
+          "text": "Sticky Rice with Bamboo Leaves",
+          "detail": "Traditional glutinous rice wrapped in fresh bamboo leaves and steamed, sold as a portable snack at markets and mountain shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ning_c1",
+          "text": "Respectful Mountain Etiquette",
+          "detail": "Stay on marked trails, leave no trace, and ask permission before photographing locals or private property in villages along hiking routes."
+        },
+        {
+          "id": "ning_c2",
+          "text": "Seasonal Weather Awareness",
+          "detail": "Summer brings heavy fog and afternoon thunderstorms that can make hiking dangerous; spring and autumn offer the clearest conditions and best visibility."
+        },
+        {
+          "id": "ning_c3",
+          "text": "Local Tea Culture",
+          "detail": "Ningguo produces quality green tea; visiting small tea houses or farms to observe traditional processing methods is a meaningful cultural experience."
+        },
+        {
+          "id": "ning_c4",
+          "text": "Village Hospitality Custom",
+          "detail": "Rural guesthouses and homestays often offer meals with the family; accepting these invitations graciously and complimenting the food is important for building rapport."
+        }
+      ]
+    },
+    {
+      "id": "chizhou",
+      "name": "Jiuhuashan Mountain",
+      "nameIt": "九华山",
+      "lat": 30.2167,
+      "lng": 117.7667,
+      "type": "NATURE",
+      "description": "One of China's four sacred Buddhist mountains, featuring temples carved into cliffsides and monks living on mountaintop monasteries. The spiritual atmosphere and dramatic views attract pilgrims and hikers seeking both religious experience and natural beauty.",
+      "imageQueries": [
+        "Jiuhuashan Buddhist temple mountains",
+        "Jiuhuashan sacred peaks monastery"
+      ],
+      "activities": [
+        {
+          "id": "chiz_1",
+          "text": "Climb to Tiantai Peak",
+          "detail": "Ascend to the highest point of Jiuhuashan at 1,342 meters for panoramic views of the surrounding mountains and valleys, often visited at sunrise.",
+          "lat": 30.1892,
+          "lng": 117.4408
+        },
+        {
+          "id": "chiz_2",
+          "text": "Visit Huacheng Temple",
+          "detail": "Explore one of the oldest temples on the mountain, known for its intricate carvings and historical significance as a major pilgrimage site.",
+          "lat": 30.1845,
+          "lng": 117.4395
+        },
+        {
+          "id": "chiz_3",
+          "text": "Walk the Longevity Path",
+          "detail": "Trek the scenic hiking trail that connects multiple monasteries and temples while passing through misty forests and dramatic cliffsides."
+        },
+        {
+          "id": "chiz_4",
+          "text": "Tour the Mummified Monks Museum",
+          "detail": "View the preserved remains of Buddhist monks at Rousi Hall, a unique spiritual practice specific to Jiuhuashan's Buddhist tradition.",
+          "lat": 30.1868,
+          "lng": 117.4412
+        },
+        {
+          "id": "chiz_5",
+          "text": "Attend Evening Temple Chanting",
+          "detail": "Participate in the evening Buddhist chanting ceremonies held in active monasteries to experience authentic spiritual practice."
+        },
+        {
+          "id": "chiz_6",
+          "text": "Explore Baisui Palace",
+          "detail": "Visit the mountaintop palace-temple complex dedicated to the bodhisattva Ksitigarbha, featuring ornate halls and religious artwork.",
+          "lat": 30.192,
+          "lng": 117.442
+        }
+      ],
+      "food": [
+        {
+          "id": "chiz_f1",
+          "text": "Mountain Spring Tofu",
+          "detail": "Silky handmade tofu prepared using fresh mineral water from Jiuhuashan's natural springs, often served simply with soy sauce and scallions."
+        },
+        {
+          "id": "chiz_f2",
+          "text": "Bamboo Shoot Stir-fry",
+          "detail": "Tender local bamboo shoots sautéed with local vegetables, a specialty reflecting the mountain's bamboo forests."
+        },
+        {
+          "id": "chiz_f3",
+          "text": "Buddhist Vegetarian Cuisine",
+          "detail": "Multi-course meatless meals served in temple restaurants featuring mushrooms, wild greens, and creative plant-based preparations honoring Buddhist dietary principles."
+        },
+        {
+          "id": "chiz_f4",
+          "text": "Tea Ceremony Experience",
+          "detail": "Sample Anhui-grown green tea like Maofeng prepared traditionally in mountain monasteries while overlooking the valleys."
+        },
+        {
+          "id": "chiz_f5",
+          "text": "Stone Frog Soup",
+          "detail": "A local delicacy featuring frogs caught from mountain streams, simmered with medicinal herbs and considered nourishing for temple visitors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chiz_c1",
+          "text": "Remove shoes in temples",
+          "detail": "Visitors must remove footwear when entering active Buddhist temples and monks' quarters as a sign of respect."
+        },
+        {
+          "id": "chiz_c2",
+          "text": "Respect the monks' schedule",
+          "detail": "Visit temples during designated hours and avoid interrupting morning or evening chanting periods when monks observe silent meditation."
+        },
+        {
+          "id": "chiz_c3",
+          "text": "Dress modestly",
+          "detail": "Cover shoulders and knees out of respect for the sacred mountain's religious significance, as many visitors are pilgrims making spiritual journeys."
+        },
+        {
+          "id": "chiz_c4",
+          "text": "Bring offerings",
+          "detail": "Pilgrims traditionally bring incense, fruits, or donations to temples; these are appreciated as part of the Buddhist tradition of generosity."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Lao Ban Shou Cu Niu Rou",
+      "address": "Huaining Road, Hefei",
+      "neighbourhood": "Hefei",
+      "cuisine": "Anhui",
+      "priceRange": "€€",
+      "description": "Legendary family-run braised beef noodle shop operating for decades with rich, deeply flavored broths.",
+      "mustOrder": "Cu Niu Rou (sour beef) with hand-pulled noodles",
+      "lat": 32.8603,
+      "lng": 117.2272
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Hu Wei Ju",
+      "address": "Changjiang Road, Hefei",
+      "neighbourhood": "Hefei",
+      "cuisine": "Anhui",
+      "priceRange": "€€€",
+      "description": "Contemporary Anhui cuisine restaurant showcasing provincial specialties in an upscale dining setting.",
+      "mustOrder": "Anhui stewed chicken with mushrooms",
+      "lat": 32.8458,
+      "lng": 117.2815
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Sichuan Grandma",
+      "address": "Meiling Road, Hefei",
+      "neighbourhood": "Hefei",
+      "cuisine": "Sichuan",
+      "priceRange": "€",
+      "description": "Casual, fiery Sichuan hotpot and stir-fry spot beloved by locals for authentic numbing and spicy flavors.",
+      "mustOrder": "Chongqing chicken (La Zi Ji)",
+      "lat": 32.8521,
+      "lng": 117.2486
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Jiuhuashan Zhai",
+      "address": "Jiuhua Road, Chizhou",
+      "neighbourhood": "Chizhou",
+      "cuisine": "Anhui",
+      "priceRange": "€€",
+      "description": "Mountain retreat restaurant near sacred Jiuhuashan serving vegetarian Buddhist cuisine and local game.",
+      "mustOrder": "Mountain bamboo shoot and tofu dish",
+      "lat": 30.6517,
+      "lng": 117.5922
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Ju Long Lou",
+      "address": "Guiyuan Street, Tunxi, Huangshan",
+      "neighbourhood": "Huangshan",
+      "cuisine": "Anhui",
+      "priceRange": "€€€",
+      "description": "Historic Huangshan specialty restaurant in the old town district featuring game and mountain delicacies.",
+      "mustOrder": "Huangshan stone frog (shi wa)",
+      "lat": 29.7189,
+      "lng": 118.3776
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Xin Jiang Lou",
+      "address": "Hefang Street, Hangzhou (near Anhui border)",
+      "neighbourhood": "Nanjing",
+      "cuisine": "Anhui/Zhejiang",
+      "priceRange": "€€",
+      "description": "Cross-regional comfort food restaurant blending Anhui and Zhejiang styles in a historic building.",
+      "mustOrder": "Hairy crab with Anhui sauce",
+      "lat": 30.2741,
+      "lng": 120.1551
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Da Hui Lou",
+      "address": "Confucius Temple area, Nanjing",
+      "neighbourhood": "Nanjing",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€€",
+      "description": "Prestigious Nanjing restaurant preserving imperial Jiangsu cuisine traditions with refined plating.",
+      "mustOrder": "Nanjing salted duck",
+      "lat": 32.0603,
+      "lng": 118.7969
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Lao Nanjing",
+      "address": "Hunan Road, Nanjing",
+      "neighbourhood": "Nanjing",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€",
+      "description": "No-frills heritage eatery serving authentic Nanjing street food and traditional duck dishes since the 1980s.",
+      "mustOrder": "Salted duck leg with glutinous rice",
+      "lat": 32.0589,
+      "lng": 118.8123
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Suzhou Si Wei Lou",
+      "address": "Guanqian Street, Suzhou",
+      "neighbourhood": "Suzhou",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€€€",
+      "description": "Michelin-recommended Suzhou fine dining temple known for delicate, artistic interpretations of classical dishes.",
+      "mustOrder": "Squirrel-shaped mandarin fish",
+      "lat": 31.3201,
+      "lng": 120.5954
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Song He Lou",
+      "address": "Guanqian Street, Suzhou",
+      "neighbourhood": "Suzhou",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€€",
+      "description": "Century-old dim sum and banquet restaurant preserving Suzhou cuisine traditions in a classical garden setting.",
+      "mustOrder": "Suzhou fresh shrimp wontons",
+      "lat": 31.3195,
+      "lng": 120.5948
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Ye Fang",
+      "address": "Pan Gate Road, Suzhou",
+      "neighbourhood": "Suzhou",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€",
+      "description": "Casual waterside restaurant serving light, seasonal Suzhou cuisine with fresh river and lake ingredients.",
+      "mustOrder": "Whitebait with tea leaves",
+      "lat": 31.3012,
+      "lng": 120.5876
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Jia Cai Xiao Chu",
+      "address": "Wenchang Road, Yangzhou",
+      "neighbourhood": "Yangzhou",
+      "cuisine": "Jiangsu",
+      "priceRange": "€",
+      "description": "Humble breakfast shop famous for Yangzhou's most celebrated dish, open early with minimal seating.",
+      "mustOrder": "Yangzhou fried rice",
+      "lat": 32.3934,
+      "lng": 119.4174
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Fuchun Tea House",
+      "address": "Guxi Road, Yangzhou",
+      "neighbourhood": "Yangzhou",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€",
+      "description": "Iconic dim sum teahouse on the river serving steamed buns and pastries with morning and afternoon service.",
+      "mustOrder": "Shrimp and pork steamed dumplings",
+      "lat": 32.3856,
+      "lng": 119.4267
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Lao Can Lu",
+      "address": "Xuanwu District, Nanjing",
+      "neighbourhood": "Nanjing",
+      "cuisine": "Jiangsu",
+      "priceRange": "€€",
+      "description": "Nostalgic noodle house specializing in five-spice tea eggs and braised meat noodles from the Republican era.",
+      "mustOrder": "Tea-stewed eggs with braised pork noodles",
+      "lat": 32.0445,
+      "lng": 118.7654
+    }
+  ]
+}

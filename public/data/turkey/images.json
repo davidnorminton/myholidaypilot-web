@@ -1,10 +1,450 @@
 {
-  "marmara": {},
-  "aegean": {},
-  "mediterranean": {},
-  "central_anatolia": {},
-  "black_sea": {},
-  "northeast_anatolia": {},
-  "southeast_anatolia": {},
-  "eastern_anatolia": {}
+  "marmara": {
+    "istanbul": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1623621534850-d325a1980c7e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJc3RhbmJ1bCUyMEJsdWUlMjBNb3NxdWUlMjBIYWdpYSUyMFNvcGhpYXxlbnwxfDB8fHwxNzgzNTQ1OTY4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lewis J Goetz"
+      }
+    ],
+    "gallipoli": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1776087836258-5c02cbcc7e67?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHYWxsaXBvbGklMjB3YXIlMjBtZW1vcmlhbHN8ZW58MXwwfHx8MTc4MzU0NTk3NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Cansu Sarp"
+      }
+    ],
+    "iznik": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1541471943749-e5976783f6c3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzQlQjB6bmlrJTIwY2VyYW1pY3MlMjB0aWxlc3xlbnwxfDB8fHwxNzgzNTQ1OTc2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Patrick Hendry"
+      }
+    ]
+  },
+  "aegean": {
+    "ephesus": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1720378221969-e1f06a038916?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFcGhlc3VzJTIwTGlicmFyeSUyMG9mJTIwQ2Vsc3VzJTIwYW5jaWVudCUyMHJ1aW5zfGVufDF8MHx8fDE3ODM1ODE1NTZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Art Institute of Chicago"
+      }
+    ],
+    "pergamon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1697455621753-655ec695b415?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZXJnYW1vbiUyMFRoZWF0ZXIlMjBhbmNpZW50JTIwcnVpbnMlMjBoaWxsc2lkZXxlbnwxfDB8fHwxNzgzNTgxNTY2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dawid Tkocz"
+      }
+    ],
+    "pamukkale": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1579366764547-bf1fe7284cf0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYW11a2thbGUlMjB3aGl0ZSUyMHRyYXZlcnRpbmUlMjB0ZXJyYWNlcyUyMHRoZXJtYWwlMjBwb29sc3xlbnwxfDB8fHwxNzgzNTgxNTY5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Shaakheh"
+      }
+    ],
+    "izmir_alsancak": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1730985453639-a5a25caa80e6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbHNhbmNhayUyMEl6bWlyJTIwd2F0ZXJmcm9udCUyMGJhcnMlMjByZXN0YXVyYW50c3xlbnwxfDB8fHwxNzgzNTgxNTczfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Doğan Alpaslan DEMİR"
+      }
+    ],
+    "dalyan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1766025065872-218401682144?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEYWx5YW4lMjBMeWNpYW4lMjByb2NrJTIwdG9tYnMlMjBjbGlmZnMlMjByaXZlcnxlbnwxfDB8fHwxNzgzNTgxNTc2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Declan Sun"
+      }
+    ],
+    "foca": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1561227010-7c30ee71fb72?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGbyVDMyVBN2ElMjBmaXNoaW5nJTIwdmlsbGFnZSUyMGJvYXRzJTIwaGFyYm9yfGVufDF8MHx8fDE3ODM1ODE1Nzl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "John McArthur"
+      }
+    ]
+  },
+  "mediterranean": {
+    "antalya": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1654162115137-4f083a2ac627?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbnRhbHlhJTIwS2FsZWklQzMlQTdpJTIwb2xkJTIwdG93bnxlbnwxfDB8fHwxNzgzNTgxNjI5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Igor Sporynin"
+      }
+    ],
+    "cappadocia_coast": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1726255988977-06023f676792?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCb2RydW0lMjBDYXN0bGUlMjBoYXJib3J8ZW58MXwwfHx8MTc4MzU4MTYzMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ilker Ozmen"
+      }
+    ],
+    "fethiye": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1698304685474-51e00e5bb4c2?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGZXRoaXllJTIwaGFyYm9yfGVufDF8MHx8fDE3ODM1ODE2MzR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Onur KAYACI"
+      }
+    ],
+    "kas": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1648325129746-abcc1b872380?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYSVDNSU5RiUyMFR1cmtleSUyMGhhcmJvcnxlbnwxfDB8fHwxNzgzNTgxNjM3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ant Rozetsky"
+      }
+    ],
+    "olu_deniz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1587996735085-1eba19480192?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlOTZsJUMzJUJDZGVuaXolMjBCbHVlJTIwTGFnb29ufGVufDF8MHx8fDE3ODM1ODE2NDR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "My Creative Ajans"
+      }
+    ],
+    "side": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1762092630818-0d5e41719498?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTaWRlJTIwUm9tYW4lMjB0ZW1wbGUlMjBydWluc3xlbnwxfDB8fHwxNzgzNTgxNjQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Esra Akşan"
+      }
+    ],
+    "kemer": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1718979656902-a2a501a301f0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLZW1lciUyMG1vdW50YWlucyUyMHNlYXxlbnwxfDB8fHwxNzgzNTgxNjUwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Maryia Zmushko"
+      }
+    ],
+    "adrasan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1687026888614-8128023b96f3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBZHJhc2FuJTIwdmlsbGFnZSUyME1lZGl0ZXJyYW5lYW58ZW58MXwwfHx8MTc4MzU4MTY1NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ngar Amini"
+      }
+    ],
+    "gocek": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1626698393005-68c2937dd401?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHJUMzJUI2Y2VrJTIwbWFyaW5hJTIweWFjaHRzfGVufDF8MHx8fDE3ODM1ODE2NTZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Geio Tischler"
+      }
+    ]
+  },
+  "central_anatolia": {
+    "ankara": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1698739630779-a351b42132a8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbmthcmElMjBjaXR5c2NhcGUlMjB0dXJrZXl8ZW58MXwwfHx8MTc4MzU4MTY5NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Felix Munyika"
+      }
+    ],
+    "goreme": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1661159245334-f4596bed203a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHb3JlbWUlMjB2aWxsYWdlJTIwY2FwcGFkb2NpYXxlbnwxfDB8fHwxNzgzNTgxNzAwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Riccardo Monteleone"
+      }
+    ],
+    "konya": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1759930018775-bf3c3fe9bdc6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLb255YSUyME1ldmxhbmElMjBtdXNldW18ZW58MXwwfHx8MTc4MzU4MTcwMnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "ekrem osmanoglu"
+      }
+    ],
+    "underground_cities": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1669046639202-339a501ae245?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEZXJpbmt1eXUlMjB1bmRlcmdyb3VuZCUyMGNpdHl8ZW58MXwwfHx8MTc4MzU4MTcwNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Igor Sporynin"
+      }
+    ],
+    "safranbolu": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1678719887881-a897f3823e29?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWZyYW5ib2x1JTIwb3R0b21hbiUyMGhvdXNlc3xlbnwxfDB8fHwxNzgzNTgxNzA4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ramazan G"
+      }
+    ],
+    "ankara_museum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1605259386010-d7003729af98?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNdXNldW0lMjBBbmF0b2xpYW4lMjBDaXZpbGl6YXRpb25zJTIwYW5rYXJhfGVufDF8MHx8fDE3ODM1ODE3MTB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Francesca Minto"
+      }
+    ],
+    "ihlara_valley": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1669046639072-8cc1d99da514?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJaGxhcmElMjB2YWxsZXklMjBjYW55b258ZW58MXwwfHx8MTc4MzU4MTcxM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Igor Sporynin"
+      }
+    ]
+  },
+  "black_sea": {
+    "uzungol": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1566231210154-9c6838e8232b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxVenVuZ29sJTIwbGFrZSUyMFR1cmtleXxlbnwxfDB8fHwxNzgzNTgxNzUzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sadra Hakim"
+      }
+    ],
+    "unye": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1569660073216-1a6762baad6a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlOUNueWUlMjBiZWFjaCUyMFR1cmtleXxlbnwxfDB8fHwxNzgzNTgxNzU4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Artem Bryzgalov"
+      }
+    ]
+  },
+  "northeast_anatolia": {
+    "sumela_monastery": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1767614448461-d5a9c8f282b0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdW1lbGElMjBNb25hc3RlcnklMjBjbGlmZnxlbnwxfDB8fHwxNzgzNTgxNzQ5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Adem Percem"
+      }
+    ],
+    "rize_tea_plateau": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1694942593949-52612566f25a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSaXplJTIwdGVhJTIwZmllbGRzJTIwbGFuZHNjYXBlfGVufDF8MHx8fDE3ODM1ODY5NTJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gürkan KULUÇ"
+      }
+    ],
+    "hagia_sophia_trabzon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1706765601403-91350a9b6049?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYWdpYSUyMFNvcGhpYSUyMFRyYWJ6b24lMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzgzNTg2OTU2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "ZEKERIYA SEN"
+      }
+    ],
+    "erzurum": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1707562320445-7929aa61f0b3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFcnp1cnVtJTIwJUMzJTg3aWZ0ZSUyME1pbmFyZWxpJTIwTWVkcmVzZXxlbnwxfDB8fHwxNzgzNTg2OTYzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Zeq Qayong"
+      }
+    ],
+    "palandoken": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1530518854704-23de978d2915?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYWxhbmQlQzMlQjZrZW4lMjBtb3VudGFpbiUyMEVyenVydW18ZW58MXwwfHx8MTc4MzU4Njk2NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martin Adams"
+      }
+    ]
+  },
+  "southeast_anatolia": {
+    "gaziantep": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1662047159388-f5954f2dc592?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHYXppYW50ZXAlMjBiYXphYXIlMjBtYXJrZXR8ZW58MXwwfHx8MTc4MzU4Njk3OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ozkan Guner"
+      }
+    ],
+    "mardin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1458869612855-bb6009d50368?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNYXJkaW4lMjBoaWxsdG9wJTIwdG93biUyMHN1bnNldHxlbnwxfDB8fHwxNzgzNTg2OTgxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martin Fu"
+      }
+    ],
+    "midyat": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1743819911797-c724486e2607?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNaWR5YXQlMjBzdG9uZSUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzgzNTg2OTkwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "حامد طه"
+      }
+    ],
+    "cizre": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1675611825625-4d9dd2c527da?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaXpyZSUyMFRpZ3JpcyUyMFJpdmVyJTIwdG93bnxlbnwxfDB8fHwxNzgzNTg2OTkyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "awar kurdish"
+      }
+    ],
+    "nemrut_dag": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1441154283565-f88df169765a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOZW1ydXQlMjBEYWdoJTIwc3RvbmUlMjBoZWFkcyUyMHN1bnNldHxlbnwxfDB8fHwxNzgzNTg2OTk1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Jenna Beekhuis"
+      }
+    ],
+    "kahta": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1614710171564-fa3d560cdb9b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxLYWh0YSUyME5lbXJ1dCUyMGFjY2Vzc3xlbnwxfDB8fHwxNzgzNTg2OTk4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Marija Zaric"
+      }
+    ],
+    "tur_abdin": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1565558810352-d2d62b70aa41?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUdXIlMjBBYmRpbiUyMG1vbmFzdGVyaWVzJTIwcGxhdGVhdXxlbnwxfDB8fHwxNzgzNTg3MDAwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "AbdolAzim Mollaei"
+      }
+    ],
+    "antioch": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1677922069603-f0be0d777859?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbnRha3lhJTIwb2xkJTIwdG93bnxlbnwxfDB8fHwxNzgzNTg3MDAzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Noppon Meenuch"
+      }
+    ],
+    "iskenderun": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1562532418-ad84d8df5124?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzQlQjBza2VuZGVydW4lMjBNZWRpdGVycmFuZWFuJTIwY29hc3R8ZW58MXwwfHx8MTc4MzU4NzAwNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Salmen Bejaoui"
+      }
+    ],
+    "harran": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1770545289158-5ddf6f249770?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIYXJyYW4lMjBiZWVoaXZlJTIwaG91c2VzJTIwbXVkJTIwYnJpY2t8ZW58MXwwfHx8MTc4MzU4NzAwN3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Aysegul Aytören"
+      }
+    ]
+  },
+  "eastern_anatolia": {
+    "van": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1625353611547-9377c641989b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwVmFuJTIwVHVya2V5JTIwc3Vuc2V0fGVufDF8MHx8fDE3ODM1ODcyNTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Hikmet"
+      }
+    ],
+    "lake_van": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1515876305430-f06edab8282a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYWtlJTIwVmFuJTIwbGFuZHNjYXBlfGVufDF8MHx8fDE3ODM1ODcyNjB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kevin Schmid"
+      }
+    ],
+    "ani": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1624430217253-271fe2722584?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbmklMjBydWlucyUyMEFybWVuaWElMjBjaHVyY2h8ZW58MXwwfHx8MTc4MzU4NzI2M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Robert Levonyan"
+      }
+    ],
+    "cappadocia": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1643354812958-b648b92dc6c5?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYXBwYWRvY2lhJTIwZmFpcnklMjBjaGltbmV5c3xlbnwxfDB8fHwxNzgzNTgxNjk3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Burak Arslan"
+      }
+    ],
+    "amasya": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1679642738272-1245b722c143?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbWFzeWElMjByaXZlciUyMGNsaWZmJTIwdG9tYnN8ZW58MXwwfHx8MTc4MzU4NzI3OXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Yuşa Sezgin"
+      }
+    ],
+    "dogubayazit": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1658236231615-da7eaf432894?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJc2hhayUyMFBhc2hhJTIwUGFsYWNlfGVufDF8MHx8fDE3ODM1ODcyODN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Alexandr Voronsky"
+      }
+    ]
+  }
 }

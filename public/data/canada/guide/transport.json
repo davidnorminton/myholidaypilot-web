@@ -1,0 +1,237 @@
+{
+  "title": "Getting Around",
+  "subtitle": "Trains, roads, taxis and how to move around Canada.",
+  "sections": [
+    {
+      "title": "National Trains [VIA Rail]",
+      "icon": "train",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Book Economy or Comfort",
+          "text": "VIA Rail's Economy seats are narrow but affordable; Comfort adds food service and more space. For long routes like Toronto-Vancouver, Sleeper cars offer beds but cost significantly more. Book 2-3 weeks ahead for discounts."
+        },
+        {
+          "kind": "warn",
+          "text": "VIA Rail frequently runs 4-8 hours late on transcontinental routes due to freight train priority and poor infrastructure. Don't rely on trains for tight connections or time-sensitive arrivals."
+        },
+        {
+          "kind": "tip",
+          "label": "Scenic Routes",
+          "text": "The Canadian (Toronto-Vancouver, 3 days) and Rocky Mountaineer (BC routes) offer stunning views. Rocky Mountaineer is pricier but more reliable and includes meals."
+        },
+        {
+          "kind": "rule",
+          "label": "Baggage Allowance",
+          "text": "Two free checked bags (50 lbs each) plus carry-on. Oversized or extra bags incur $25-50 fees each way."
+        }
+      ]
+    },
+    {
+      "title": "City Transit [Metro, Buses, Streetcars]",
+      "icon": "subway",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Get a Reloadable Card",
+          "text": "Toronto's PRESTO card, Vancouver's Compass, and Montreal's Opus card offer better rates than single tickets. Load via app or at stations and use across all transit modes in each city."
+        },
+        {
+          "kind": "warn",
+          "text": "Service strikes occur occasionally (Toronto 2022, Montreal frequently). Check operator websites before travel. Weekend service is often reduced in smaller cities."
+        },
+        {
+          "kind": "tip",
+          "label": "Real-Time Info",
+          "text": "Use Transit (app), Google Maps, or city-specific apps (TTC, TransLink, STM) for live arrival times. Paper schedules at stations are often outdated."
+        },
+        {
+          "kind": "rule",
+          "label": "Fare Evasion Fine",
+          "text": "Traveling without a valid ticket risks $50-250 fines. Inspectors board randomly, especially on subways and trains."
+        },
+        {
+          "kind": "tip",
+          "label": "Monthly Passes",
+          "text": "If staying 4+ weeks in one city, monthly passes (Toronto $154, Vancouver $98, Montreal $90) beat daily fares. Most are app-based now, not physical cards."
+        }
+      ]
+    },
+    {
+      "title": "Taxis & Ride Apps",
+      "icon": "taxi",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Use Uber, Lyft, or Local Apps",
+          "text": "Uber and Lyft operate in major cities (Toronto, Vancouver, Montreal). Local apps like Tappcar (Vancouver) are sometimes cheaper. Prices surge during peak hours (5-7pm, weekends) by 50-200%."
+        },
+        {
+          "kind": "warn",
+          "text": "Traditional taxis outside major cities may lack card readers and demand cash. Not all drivers use meters consistently. For safety, always pre-book or use apps with tracking."
+        },
+        {
+          "kind": "tip",
+          "label": "Airport Pickups",
+          "text": "Use Uber/Lyft or pre-arranged car services; traditional taxi queues are expensive. Airport taxis charge flat rates ($35-60 to downtown depending on city) with no surge pricing, but may be slower than apps."
+        },
+        {
+          "kind": "rule",
+          "label": "Tipping Norm",
+          "text": "15-20% tip is standard. App-based rides prompt for tips on the receipt; cash rides rely on your discretion."
+        },
+        {
+          "kind": "warn",
+          "text": "Ride-sharing is completely unregulated in some smaller towns; use established taxi companies instead. Check Google Maps ratings for drivers."
+        }
+      ]
+    },
+    {
+      "title": "Driving & Roads",
+      "icon": "warning",
+      "items": [
+        {
+          "kind": "rule",
+          "label": "License & Insurance",
+          "text": "You need a valid driver's license and proof of car insurance. International licenses are accepted if accompanied by an IDP (International Driving Permit). Driving without insurance is illegal and extremely expensive if caught."
+        },
+        {
+          "kind": "warn",
+          "text": "Winter driving (Oct-Apr) is hazardous in most provinces. Snow tires are legally mandatory in Quebec, British Columbia, and strongly recommended elsewhere. Blizzards and black ice cause frequent accidents; drive slowly."
+        },
+        {
+          "kind": "tip",
+          "label": "Fuel & Distances",
+          "text": "Gas is sold in liters (~$1.30-1.60/L). Distances between towns are vast (Toronto-Vancouver is 2,000 km). Plan fuel stops and rest breaks carefully on long drives."
+        },
+        {
+          "kind": "rule",
+          "label": "Speed Limits & Fines",
+          "text": "Highways: 100-110 km/h (60-70 mph). Urban: 50 km/h. Speeding fines: $40-150+. Running red lights: $200-300. Seatbelts are mandatory; fines for non-compliance are $150-300."
+        },
+        {
+          "kind": "warn",
+          "text": "Distracted driving (phone use, texting) is heavily penalized ($615-1,000+ fines and license demerit points). Hands-free calling only while driving."
+        },
+        {
+          "kind": "tip",
+          "label": "Car Rentals",
+          "text": "Hertz, Avis, Enterprise, Budget operate nationwide. Book online in advance for better rates. Many require a credit card (not debit); age restrictions apply (usually 21-25+ for premium cars)."
+        }
+      ]
+    },
+    {
+      "title": "Airports",
+      "icon": "flight",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Major Hubs",
+          "text": "Toronto Pearson (YYZ), Vancouver (YVR), Montreal (YUL), and Calgary (YYC) are the largest. Domestic flights between them are frequent (30-60 min flights, hourly service) and essential for crossing the country."
+        },
+        {
+          "kind": "rule",
+          "label": "Baggage & Security",
+          "text": "Most airlines allow one free carry-on and one personal item; checked bags cost $25-40. Arrive 2 hours early for domestic, 3 hours for international. Liquids limited to 100ml in carry-on."
+        },
+        {
+          "kind": "warn",
+          "text": "Air Canada is the dominant carrier but has poor reliability and frequent delays. Budget carriers like WestJet and Flair are cheaper but may have strict baggage limits and service issues."
+        },
+        {
+          "kind": "tip",
+          "label": "Ground Transport",
+          "text": "Most airports have express buses ($15-30 to downtown), taxis (flat rates $35-60), or ride apps. Rental car counters are in baggage claim; reserve ahead to avoid surcharges."
+        },
+        {
+          "kind": "warn",
+          "text": "Flight cancellations are common in winter. Book refundable tickets or travel insurance if time-sensitive. Check flight status before heading to the airport."
+        }
+      ]
+    },
+    {
+      "title": "Ferries & Water Transport",
+      "icon": "boat",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "BC Ferries (West Coast)",
+          "text": "BC Ferries operates scenic routes between mainland and islands (Whidbey, Vancouver Island, Gulf Islands). Book online in advance, especially summer weekends. Fares: $10-20 per person, $35-60 for cars."
+        },
+        {
+          "kind": "tip",
+          "label": "Marine Atlantic (East Coast)",
+          "text": "Connects Newfoundland to Nova Scotia (16-hour crossing, expensive but essential). Book months ahead in summer. Onboard cabins available but cost extra."
+        },
+        {
+          "kind": "warn",
+          "text": "Ferry schedules are seasonal and weather-dependent. Winter sailings are often cancelled or delayed. Always check conditions and have a backup plan."
+        },
+        {
+          "kind": "tip",
+          "label": "Urban Ferries",
+          "text": "Toronto, Vancouver, and other cities operate short-distance commuter ferries. Use the same transit cards as buses/subways. These are reliable and scenic."
+        }
+      ]
+    },
+    {
+      "title": "Tickets & Transit Passes",
+      "icon": "star",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Multi-Day City Passes",
+          "text": "Toronto CityPASS ($169 for 3 days) includes attractions and transit. Vancouver Visitor Passports and Montreal passes exist but offer less value. Buy direct at airport visitor centers or online."
+        },
+        {
+          "kind": "tip",
+          "label": "Rail Passes",
+          "text": "Maple Leaf Pass (VIA Rail) offers unlimited travel for 7-30 days ($1,067-$2,240) but doesn't cover sleeper cabins. Usually only worth it for backpackers hitting many stops."
+        },
+        {
+          "kind": "warn",
+          "text": "Tourist scams: avoid unmarked ticket booths at bus stations. Buy only from official operators (TransLink, TTC, STM websites) or authorized retailers."
+        },
+        {
+          "kind": "rule",
+          "label": "Ticket Validation",
+          "text": "Keep your transit ticket until exiting the system. Inspectors board without warning; showing a valid ticket when asked is mandatory. Lost tickets cannot be replaced."
+        },
+        {
+          "kind": "tip",
+          "label": "Group Discounts",
+          "text": "Groups of 10+ often get 10-20% discounts on transit and trains. Book in advance. Students get modest discounts (typically 10-15%) with valid ID."
+        }
+      ]
+    },
+    {
+      "title": "Mobile & Connectivity [SIM & Data]",
+      "icon": "simcard",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Local SIM Cards",
+          "text": "Big Three carriers (Bell, Rogers, Telus) dominate. Buy prepaid SIMs at airports or drugstores (Shoppers Drug Mart, Walmart). Plans: $50-80/month for unlimited data, or pay-as-you-go $0.05-0.15/MB."
+        },
+        {
+          "kind": "tip",
+          "label": "Budget MVNO Carriers",
+          "text": "Freedom Mobile ($40-60/month), Koodo, and Virgin Mobile offer cheaper plans using major networks. Coverage is good in cities but spotty in rural areas. No roaming charges within Canada."
+        },
+        {
+          "kind": "warn",
+          "text": "International roaming is extremely expensive ($5-10 per MB). Use Wi-Fi at hotels and cafes. Buy a local SIM or switch to a travel-focused MVNO before arrival."
+        },
+        {
+          "kind": "tip",
+          "label": "Wi-Fi Access",
+          "text": "Free Wi-Fi is widely available in hotels, cafes, libraries, and transit stations in cities. Download offline maps and transit info before traveling to rural areas."
+        },
+        {
+          "kind": "warn",
+          "text": "Rural and remote areas (Northern Ontario, Northern BC, prairies) have spotty or no cellular coverage. Carry physical maps and notify someone of your route if traveling remotely."
+        }
+      ]
+    }
+  ]
+}

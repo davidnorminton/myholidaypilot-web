@@ -1,15 +1,1108 @@
 {
-  "ile_de_france": {},
-  "provence_alpes_cote_azur": {},
-  "auvergne_rhone_alpes": {},
-  "nouvelle_aquitaine": {},
-  "bretagne": {},
-  "normandie": {},
-  "hauts_de_france": {},
-  "occitanie": {},
-  "bourgogne_franche_comte": {},
-  "centre_val_de_loire": {},
-  "pays_de_la_loire": {},
-  "grand_est": {},
-  "corsica": {}
+  "ile_de_france": {
+    "palace_of_versailles": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1549895058-36748fa6c6a7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYWxhY2UlMjBvZiUyMFZlcnNhaWxsZXMlMjBIYWxsJTIwb2YlMjBNaXJyb3JzfGVufDF8MHx8fDE3ODMzMzQwMzJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Diogo Nunes"
+      }
+    ],
+    "paris": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxFaWZmZWwlMjBUb3dlciUyMFBhcmlzfGVufDF8MHx8fDE3ODMzMzQwMzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Chris Karidis"
+      }
+    ],
+    "fontainebleau": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1526816229784-65d5d54ac8bc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyMEZvbnRhaW5lYmxlYXUlMjBwYWxhY2V8ZW58MXwwfHx8MTc4MzMzNDAzNnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Mongel"
+      }
+    ],
+    "giverny": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1763491905762-66f2d0bf57ac?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb25ldCUyN3MlMjBHYXJkZW4lMjBHaXZlcm55JTIwd2F0ZXIlMjBsaWxpZXN8ZW58MXwwfHx8MTc4MzMzNDAzOHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "National Gallery of Art"
+      }
+    ],
+    "chartres": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1635473171860-2cb787258994?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaGFydHJlcyUyMENhdGhlZHJhbCUyMEdvdGhpY3xlbnwxfDB8fHwxNzgzMzM0MDQwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mick Haupt"
+      }
+    ],
+    "saint_germain_en_laye": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1549224174-8c0e61705985?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWludC1HZXJtYWluLWVuLUxheWUlMjBDaCVDMyVBMnRlYXV8ZW58MXwwfHx8MTc4MzMzNDA0Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Colin Watts"
+      }
+    ],
+    "malmaison": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1665748262970-6e8bf67f9f5f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyME1hbG1haXNvbiUyME5hcG9sZW9ufGVufDF8MHx8fDE3ODMzMzQwNDV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Shaun Rainer"
+      }
+    ],
+    "disneyland_paris": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1690097232120-a59669ee0989?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEaXNuZXlsYW5kJTIwUGFyaXMlMjBDaW5kZXJlbGxhJTIwQ2FzdGxlfGVufDF8MHx8fDE3ODMzMzQwNDd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Toni Pomar"
+      }
+    ],
+    "rambouillet": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1710363554409-861f7fbaa959?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyMFJhbWJvdWlsbGV0fGVufDF8MHx8fDE3ODMzMzQwNDl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Yue Ruan"
+      }
+    ],
+    "monet_giverny_vernon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1627410566847-738061cb6995?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWZXJub24lMjBTZWluZSUyMHJpdmVyJTIwdG93bnxlbnwxfDB8fHwxNzgzMzM0MDUyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nadine Marfurt"
+      }
+    ],
+    "vaux_le_vicomte": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1526816229784-65d5d54ac8bc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYXV4LWxlLVZpY29tdGUlMjBDaCVDMyVBMnRlYXV8ZW58MXwwfHx8MTc4MzMzNDA1NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Mongel"
+      }
+    ],
+    "ecouen": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1526816229784-65d5d54ac8bc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkJTI3JUMzJTg5Y291ZW4lMjBSZW5haXNzYW5jZXxlbnwxfDB8fHwxNzgzMzM0MDU2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Mongel"
+      }
+    ]
+  },
+  "provence_alpes_cote_azur": {
+    "nice": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1649623130067-b043d3268d98?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOaWNlJTIwUHJvbWVuYWRlJTIwZGVzJTIwQW5nbGFpcyUyMHN1bnNldHxlbnwxfDB8fHwxNzgzMzM5MTQ3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Lazar Krstić"
+      }
+    ],
+    "provence_lavender_fields": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQcm92ZW5jZSUyMGxhdmVuZGVyJTIwZmllbGRzJTIwcHVycGxlfGVufDF8MHx8fDE3ODMzMzkxNTB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Léonard Cotte"
+      }
+    ],
+    "avignon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1748382431226-0a32384d8c3b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdmlnbm9uJTIwUGFsYWlzJTIwZGVzJTIwUGFwZXN8ZW58MXwwfHx8MTc4MzMzOTE1Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ryan Klaus"
+      }
+    ],
+    "mont_ventoux": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1629624927838-3b39b7fdd33c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250JTIwVmVudG91eCUyMHN1bW1pdCUyMHNub3d5fGVufDF8MHx8fDE3ODMzMzkxNTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rafael Rudnik"
+      }
+    ],
+    "gorges_du_verdon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1666959085854-1a01225b04fb?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHb3JnZXMlMjBkdSUyMFZlcmRvbiUyMHR1cnF1b2lzZSUyMHJpdmVyfGVufDF8MHx8fDE3ODMzMzkxNTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Christian Thöni"
+      }
+    ],
+    "grasse": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1533414765079-4bb015a31395?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmFzc2UlMjBwZXJmdW1lJTIwYm90dGxlc3xlbnwxfDB8fHwxNzgzMzM5MTYzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Joost Crop"
+      }
+    ],
+    "isle_sur_la_sorgue": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1652598631616-3f5f4d2cfbd5?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxJc2xlLXN1ci1sYS1Tb3JndWUlMjBhbnRpcXVlJTIwbWFya2V0fGVufDF8MHx8fDE3ODMzMzkxNjV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Vasilis Caravitis"
+      }
+    ],
+    "hyeres": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1638393224989-f8cc9bef4132?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIeSVDMyVBOHJlcyUyMG1lZGlldmFsJTIwb2xkJTIwdG93bnxlbnwxfDB8fHwxNzgzMzM5MTY3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Pujalin"
+      }
+    ],
+    "roussillon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1782202394617-6a8adcb8242a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb3Vzc2lsbG9uJTIwb2NocmUlMjB2aWxsYWdlJTIwcmVkJTIwYnVpbGRpbmdzfGVufDF8MHx8fDE3ODMzMzkxNzB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Rich Martello"
+      }
+    ],
+    "montelimar": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1741775667428-f66ac848d5fd?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250JUMzJUE5bGltYXIlMjBub3VnYXQlMjBjYW5keXxlbnwxfDB8fHwxNzgzMzM5MTcyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nougat Diane de Poytiers"
+      }
+    ],
+    "saint_paul_de_vence": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1469547919255-9638e94237e4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWludC1QYXVsLWRlLVZlbmNlJTIwbWVkaWV2YWwlMjB2aWxsYWdlfGVufDF8MHx8fDE3ODMzMzkxNzV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tom Parkes"
+      }
+    ]
+  },
+  "auvergne_rhone_alpes": {
+    "lyon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1677389931416-9832636048ff?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMeW9uJTIwRm91cnZpJUMzJUE4cmUlMjBCYXNpbGljYXxlbnwxfDB8fHwxNzgzMzM5MTg1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Salya T"
+      }
+    ],
+    "mont_blanc": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1572491671313-e2bb1bf15e76?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250JTIwQmxhbmMlMjBBbHBzfGVufDF8MHx8fDE3ODMzMzkxODd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Francois  Hoang"
+      }
+    ],
+    "annecy": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1719262065576-0104febfddcd?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbm5lY3klMjBMYWtlJTIwb2xkJTIwdG93bnxlbnwxfDB8fHwxNzgzMzM5MTg5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "aiden patrissi"
+      }
+    ],
+    "chamonix": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1599661520791-8aabee470d55?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaGFtb25peCUyME1vbnQlMjBCbGFuY3xlbnwxfDB8fHwxNzgzMzM5MTkzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Randy Yip"
+      }
+    ],
+    "grenoble": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1676705175262-9974e261db8d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcmVub2JsZSUyMEJhc3RpbGxlJTIwQWxwc3xlbnwxfDB8fHwxNzgzMzM5MTk2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tim Oldenkamp"
+      }
+    ],
+    "vienne": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1699177386103-a7bfadf2b341?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWaWVubmUlMjBSb21hbiUyMHJ1aW5zfGVufDF8MHx8fDE3ODMzMzkyMDB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Carnet de Voyage d'Alex"
+      }
+    ],
+    "yvoire": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1755252128673-631df735cf7b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxZdm9pcmUlMjBMYWtlJTIwR2VuZXZhJTIwbWVkaWV2YWx8ZW58MXwwfHx8MTc4MzMzOTIwM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sweder Breet"
+      }
+    ],
+    "lyon_basilica_park": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1672044790330-f18992f3dd45?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQYXJjJTIwVCVDMyVBQXRlJTIwZCUyN09yJTIwTGFrZSUyMEx5b258ZW58MXwwfHx8MTc4MzMzOTIwNXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Alix Guerin"
+      }
+    ]
+  },
+  "nouvelle_aquitaine": {
+    "bordeaux": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1493564738392-d148cfbd6eda?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCb3JkZWF1eCUyMFBsYWNlJTIwZGUlMjBsYSUyMEJvdXJzZSUyMHdhdGVyJTIwbWlycm9yfGVufDF8MHx8fDE3ODMzMzkyMTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Juan Di Nella"
+      }
+    ],
+    "saint_emilion": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1559940650-a084c36483f3?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWludC0lQzMlODltaWxpb24lMjBtZWRpZXZhbCUyMHZpbGxhZ2UlMjB2aW5leWFyZHN8ZW58MXwwfHx8MTc4MzMzOTIyMXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Siami Tan"
+      }
+    ],
+    "biarritz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1636480228885-144d728fc27a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCaWFycml0eiUyMEdyYW5kJTIwUGxhZ2UlMjBiZWFjaHxlbnwxfDB8fHwxNzgzMzM5MjIzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Raphaël Cubertafon"
+      }
+    ],
+    "san_sebastian": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1708165089709-072907b10638?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYW4lMjBTZWJhc3RpJUMzJUExbiUyMENvbmNoYSUyMGJlYWNoJTIwRG9ub3N0aWF8ZW58MXwwfHx8MTc4MzMzOTIyNnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Shery Arturova"
+      }
+    ],
+    "bayonne": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1779747697431-5c33f28b4250?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXlvbm5lJTIwQmFzcXVlJTIwb2xkJTIwdG93biUyMGNhdGhlZHJhbHxlbnwxfDB8fHwxNzgzMzM5MjI4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Adrian Schledorn"
+      }
+    ],
+    "la_rochelle": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1617111641010-39cc2d207f4b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYSUyMFJvY2hlbGxlJTIwdG93ZXJzJTIwaGFyYm9yfGVufDF8MHx8fDE3ODMzMzkyMzB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Xavier Foucrier"
+      }
+    ],
+    "royan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1560367478-d3ee81274ba5?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb3lhbiUyMGJlYWNoJTIwRnJhbmNlfGVufDF8MHx8fDE3ODMzMzkyMzN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Anthony Choren"
+      }
+    ],
+    "poitiers": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1644603100283-5f29160acc51?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb2l0aWVycyUyME5vdHJlLURhbWUtbGEtR3JhbmRlJTIwY2h1cmNofGVufDF8MHx8fDE3ODMzMzkyMzZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sandip Roy"
+      }
+    ],
+    "cognac": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1669711517630-7596bfc47351?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb2duYWMlMjBkaXN0aWxsZXJ5JTIwQ2hhcmVudGV8ZW58MXwwfHx8MTc4MzMzOTIzOHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Timothé Durand"
+      }
+    ],
+    "arcachon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1589967127698-03987ca17cb0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBcmNhY2hvbiUyMEJheSUyMG95c3RlcnN8ZW58MXwwfHx8MTc4MzMzOTI0NHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tanja Cotoaga"
+      }
+    ],
+    "rocamadour": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1675369124788-821c14c533ec?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb2NhbWFkb3VyJTIwY2xpZmZzaWRlJTIwc2FuY3R1YXJ5fGVufDF8MHx8fDE3ODMzMzkyNDh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Peter Muscutt"
+      }
+    ]
+  },
+  "bretagne": {
+    "mont_saint_michel": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1577716906973-7e1aa2fd3d15?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250LVNhaW50LU1pY2hlbCUyMGFiYmV5JTIwaXNsYW5kfGVufDF8MHx8fDE3ODMzMzkyNTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "moerwijk"
+      }
+    ],
+    "saint_malo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1685391874936-0d74501bdfe1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWludC1NYWxvJTIwd2FsbGVkJTIwY2l0eSUyMHJhbXBhcnRzfGVufDF8MHx8fDE3ODMzMzkyNjF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Matheus Cavaleiro"
+      }
+    ],
+    "belle_ile": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1730233460082-f10672a5d9e0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCZWxsZS0lQzMlOEVsZSUyMGlzbGFuZCUyMGNsaWZmcyUyMEJyaXR0YW55fGVufDF8MHx8fDE3ODMzMzkyNjV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Michel"
+      }
+    ],
+    "carnac": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1684251328964-f7ddc6bfe23c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYXJuYWMlMjBtZW5oaXIlMjBzdGFuZGluZyUyMHN0b25lc3xlbnwxfDB8fHwxNzgzMzM5MjY3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Adrien Stachowiak"
+      }
+    ],
+    "dinan": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEaW5hbiUyMG1lZGlldmFsJTIwdG93biUyMHJhbXBhcnRzfGVufDF8MHx8fDE3ODMzMzkyNjl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Pedro Lastra"
+      }
+    ],
+    "vannes": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1759314668416-2f46979f7438?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWYW5uZXMlMjByYW1wYXJ0cyUyMG1lZGlldmFsJTIwY2l0eXxlbnwxfDB8fHwxNzgzMzM5MjczfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Thanh Ly"
+      }
+    ],
+    "morlaix": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1623612038103-d3193c65ee0a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb3JsYWl4JTIwdmlhZHVjdCUyMEJyaXR0YW55fGVufDF8MHx8fDE3ODMzMzkyNzV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Is@ Chessyca"
+      }
+    ],
+    "groix": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1730233460082-f10672a5d9e0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHcm9peCUyMGlzbGFuZCUyMGNsaWZmcyUyMEJyaXR0YW55fGVufDF8MHx8fDE3ODMzMzkyNzl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Michel"
+      }
+    ],
+    "pointe_du_raz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1513608827986-eb374a75fa5e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb2ludGUlMjBkdSUyMFJheiUyMGNsaWZmcyUyMGxpZ2h0aG91c2V8ZW58MXwwfHx8MTc4MzMzOTI4MXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Raphael Rychetsky"
+      }
+    ],
+    "hennebont": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1781035973273-b9a09da320f8?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIZW5uZWJvbnQlMjByYW1wYXJ0cyUyMG1lZGlldmFsJTIwdG93bnxlbnwxfDB8fHwxNzgzMzM5Mjg1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Clyde Icuspit"
+      }
+    ]
+  },
+  "normandie": {
+    "d_day_beaches": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1668090492885-1d647172b124?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxELURheSUyMGJlYWNoZXMlMjBOb3JtYW5keXxlbnwxfDB8fHwxNzgzMzM5Mjk2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martin Kurbel"
+      }
+    ],
+    "rouen": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1761818101488-2eea702d79ee?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSb3VlbiUyMENhdGhlZHJhbCUyMEdvdGhpY3xlbnwxfDB8fHwxNzgzMzM5Mjk4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ulrich Pickert"
+      }
+    ],
+    "honfleur": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1659640861468-5a2308c31ddf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIb25mbGV1ciUyMGhhcmJvciUyMHBvcnQlMjBGcmFuY2V8ZW58MXwwfHx8MTc4MzMzOTMwMHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Niels Bosman"
+      }
+    ],
+    "etretat": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1778445765709-7572b301ec5e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlODl0cmV0YXQlMjBjbGlmZnMlMjBhcmNoZXN8ZW58MXwwfHx8MTc4MzMzOTMwNHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Abdullah Ahmad"
+      }
+    ],
+    "trouville": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1693753880087-c89c78c0b16d?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxUcm91dmlsbGUtc3VyLU1lciUyMGJlYWNoJTIwaGFyYm9yfGVufDF8MHx8fDE3ODMzMzkzMDl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomas Martinez"
+      }
+    ],
+    "pont_audemer": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1612260290217-dd6d7375a283?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb250LUF1ZGVtZXIlMjBicmlkZ2VzJTIwbWVkaWV2YWx8ZW58MXwwfHx8MTc4MzMzOTMxNHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Adrien CÉSARD"
+      }
+    ],
+    "verneuil_avre": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1623009051873-d60f8fa6da1a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWZXJuZXVpbC1zdXItQXZyZSUyMHRvd2VyfGVufDF8MHx8fDE3ODMzMzkzMTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "David Stamm"
+      }
+    ],
+    "sees": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1643447727844-1e2e31544237?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTJUMzJUE5ZXolMjBDYXRoZWRyYWwlMjBHb3RoaWN8ZW58MXwwfHx8MTc4MzMzOTMxOXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Klim Musalimov"
+      }
+    ],
+    "coutances": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1745183698367-544097498354?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb3V0YW5jZXMlMjBDYXRoZWRyYWwlMjB0d2luJTIwc3BpcmVzfGVufDF8MHx8fDE3ODMzMzkzMjJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Vidar Nordli-Mathisen"
+      }
+    ]
+  },
+  "hauts_de_france": {
+    "lille": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1764671708519-447591cd8179?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMaWxsZSUyMEdyYW5kJTIwUGxhY2UlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc4MzMzOTMzNHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Martin Robac"
+      }
+    ],
+    "amiens": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1755504037483-d8f8d4bef647?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbWllbnMlMjBDYXRoZWRyYWwlMjBHb3RoaWN8ZW58MXwwfHx8MTc4MzMzOTMzNnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ludovic Delot"
+      }
+    ],
+    "boulogne_sur_mer": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1727945573019-91104128f0b1?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCb3Vsb2duZS1zdXItTWVyJTIwaGFyYm9yfGVufDF8MHx8fDE3ODMzMzkzNDB8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Nastia Petruk"
+      }
+    ],
+    "white_cliffs_deux_caps": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1684710160359-6fa6a38f71f9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEZXV4LUNhcHMlMjB3aGl0ZSUyMGNsaWZmc3xlbnwxfDB8fHwxNzgzMzQzNDc0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Heather Wang"
+      }
+    ],
+    "montreuil_sur_mer": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1679925288389-b889bf155ebf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250cmV1aWwtc3VyLU1lciUyMHJhbXBhcnRzfGVufDF8MHx8fDE3ODMzNDM0Nzd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tom Podmore"
+      }
+    ],
+    "compiegne": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1716530507322-e676235110eb?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb21waSVDMyVBOGduZSUyMFBhbGFjZSUyMHJveWFsfGVufDF8MHx8fDE3ODMzNDM0ODN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Kirsten Bergmann Vigouroux"
+      }
+    ],
+    "abbaye_saint_waast": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1746860071054-10c51804b304?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTYWludC1XYWFzdCUyMEFiYmV5JTIwQXJyYXN8ZW58MXwwfHx8MTc4MzM0MzQ4N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Cameron Agostino"
+      }
+    ]
+  },
+  "occitanie": {
+    "carcassonne": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1753709697924-3f30695a50d7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDYXJjYXNzb25uZSUyMGZvcnRyZXNzJTIwd2FsbHMlMjBzdW5zZXR8ZW58MXwwfHx8MTc4MzM0MzUwOHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tom Podmore"
+      }
+    ],
+    "montpellier": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1577477792155-2d4b04eea38c?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250cGVsbGllciUyMFByb21lbmFkZSUyMGR1JTIwUGV5cm91fGVufDF8MHx8fDE3ODMzNDM1MTF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Maxime Gerph"
+      }
+    ],
+    "albi": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1752445280072-bfe309f003ea?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbGJpJTIwQ2F0aCVDMyVBOWRyYWxlJTIwU2FpbnRlLUMlQzMlQTljaWxlfGVufDF8MHx8fDE3ODMzNDM1MTZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sheila C"
+      }
+    ],
+    "peyrepertuse": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1509010008-a77006ce0b63?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQZXlyZXBlcnR1c2UlMjBjYXN0bGUlMjBjbGlmZnRvcHxlbnwxfDB8fHwxNzgzMzQzNTE5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "John Roberts"
+      }
+    ],
+    "beziers": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1739630833697-e529b0b3f20a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCJUMzJUE5emllcnMlMjBjYXRoZWRyYWwlMjBvdmVybG9va2luZyUyMHRvd258ZW58MXwwfHx8MTc4MzM0MzUyM3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sue Winston"
+      }
+    ],
+    "pont_du_gard": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1596458162315-4804c385b531?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb250JTIwZHUlMjBHYXJkJTIwUm9tYW4lMjBhcXVlZHVjdHxlbnwxfDB8fHwxNzgzMzQzNTI2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sébastien Jermer"
+      }
+    ],
+    "cordes_sur_ciel": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1695327687103-fc2b7209c16a?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb3JkZXMtc3VyLUNpZWwlMjBoaWxsdG9wJTIwdmlsbGFnZXxlbnwxfDB8fHwxNzgzMzQzNTM1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Didier VEILLON"
+      }
+    ],
+    "collioure": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1660745469422-e21dd1fa4d5f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb2xsaW91cmUlMjBoYXJib3IlMjBjb2xvcmZ1bCUyMGJvYXRzfGVufDF8MHx8fDE3ODMzNDM1Mzh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Peter Wilkinson"
+      }
+    ],
+    "cevennes": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1605270160644-d52c6515c141?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDJUMzJUE5dmVubmVzJTIwZ29yZ2UlMjBtb3VudGFpbiUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzgzMzQzNTQ2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tim Foster"
+      }
+    ]
+  },
+  "bourgogne_franche_comte": {
+    "dijon": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1663053389848-36383355a11b?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxEaWpvbiUyMFBhbGFjZSUyMG9mJTIwdGhlJTIwRHVrZXN8ZW58MXwwfHx8MTc4MzM0MzU2MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Maël BALLAND"
+      }
+    ],
+    "beaune": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1760371908150-dfb9b9d7e409?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxIb3NwaWNlcyUyMGRlJTIwQmVhdW5lJTIwcm9vZnxlbnwxfDB8fHwxNzgzMzQzNTYzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "SOHAM BANERJEE"
+      }
+    ],
+    "vezelay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1668934533661-76b591883ce0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWJUMzJUE5emVsYXklMjBCYXNpbGljYSUyMFJvbWFuZXNxdWV8ZW58MXwwfHx8MTc4MzM0MzU2Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Snap Wander"
+      }
+    ],
+    "auxerre": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1668934533661-76b591883ce0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBdXhlcnJlJTIwY2F0aGVkcmFsJTIwWW9ubmV8ZW58MXwwfHx8MTc4MzM0MzU3MHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Snap Wander"
+      }
+    ],
+    "flavigny_sur_ozerain": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1585577280872-8a9fb571fece?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxGbGF2aWdueS1zdXItT3plcmFpbiUyMENob2NvbGF0JTIwdmlsbGFnZXxlbnwxfDB8fHwxNzgzMzQzNTc3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Pascal Müller"
+      }
+    ],
+    "ornans": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1765019132267-1c8d30cf8c88?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxPcm5hbnMlMjBEb3VicyUyMHJpdmVyJTIwQ291cmJldHxlbnwxfDB8fHwxNzgzMzQzNTgzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Annie Spratt"
+      }
+    ],
+    "nuits_saint_georges": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1556442281-77c90134c61f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOdWl0cy1TYWludC1HZW9yZ2VzJTIwd2luZSUyMGF1Y3Rpb258ZW58MXwwfHx8MTc4MzM0MzU4Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "CHUTTERSNAP"
+      }
+    ]
+  },
+  "centre_val_de_loire": {
+    "chateau_chambord": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1571301092535-61a418b457dd?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyMENoYW1ib3JkJTIwUmVuYWlzc2FuY2UlMjBjYXN0bGV8ZW58MXwwfHx8MTc4MzM0MzYwNnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Wilfried Santer"
+      }
+    ],
+    "chateau_chenonceau": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1586714027153-b014fb5f4d90?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyMENoZW5vbmNlYXUlMjByaXZlciUyMGJyaWRnZXxlbnwxfDB8fHwxNzgzMzQzNjA5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Yannis Sommera"
+      }
+    ],
+    "blois": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1634683389807-e783948913a6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCbG9pcyUyMENoJUMzJUEydGVhdSUyMGRlJTIwQmxvaXMlMjBjaXR5fGVufDF8MHx8fDE3ODMzNDM2MTF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ignacio Giri"
+      }
+    ],
+    "chateau_amboise": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1705591929900-6e5d17df99be?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkJTI3QW1ib2lzZSUyMGZvcnRyZXNzJTIwTG9pcmUlMjBSaXZlcnxlbnwxfDB8fHwxNzgzMzQzNjE1fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Colin Watts"
+      }
+    ],
+    "chateau_villandry": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyMFZpbGxhbmRyeSUyMGdhcmRlbnMlMjBhZXJpYWwlMjB2aWV3fGVufDF8MHx8fDE3ODMzNDM2MTl8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Yvann Karamoko"
+      }
+    ],
+    "chateau_loches": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1703193695563-8e6fcfb65e91?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMb2NoZXMlMjBmb3J0cmVzcyUyMG1lZGlldmFsJTIwdG93ZXJzfGVufDF8MHx8fDE3ODMzNDM2MjN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Edoardo Bortoli"
+      }
+    ],
+    "chateau_azay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1595913777166-478c58fae1bf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkJTI3QXpheS1sZS1SaWRlYXUlMjBtb2F0JTIwcmVmbGVjdGlvbnxlbnwxfDB8fHwxNzgzMzQzNjI4fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Linda Gerbec"
+      }
+    ],
+    "chateau_langeais": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1584528904246-66767484ffa6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaCVDMyVBMnRlYXUlMjBkZSUyMExhbmdlYWlzJTIwbWVkaWV2YWwlMjBmb3J0cmVzc3xlbnwxfDB8fHwxNzgzMzQ3OTU3fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Paul Melki"
+      }
+    ],
+    "son_et_lumiere": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1654191137589-33bd4b5d1105?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMb2lyZSUyMFZhbGxleSUyMGNoJUMzJUEydGVhdXglMjBsYW5kc2NhcGV8ZW58MXwwfHx8MTc4MzM0Nzk2M3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Ornan Heywood"
+      }
+    ]
+  },
+  "pays_de_la_loire": {
+    "nantes": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1750024975711-47879c31a355?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOYW50ZXMlMjBNYWNoaW5lcyUyMElzbGUlMjBjYXJvdXNlbHxlbnwxfDB8fHwxNzgzMzQ3OTc2fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sébastien Lavalaye"
+      }
+    ],
+    "la_baule": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1664378173682-fd29f17112ba?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYSUyMEJhdWxlJTIwYmVhY2glMjBjcmVzY2VudHxlbnwxfDB8fHwxNzgzMzQ3OTgzfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "WALTER"
+      }
+    ],
+    "le_mans": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1629661414984-7ff107f80b1e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMZSUyME1hbnMlMjAyNCUyMGhvdXJzJTIwcmFjZSUyMGNpcmN1aXR8ZW58MXwwfHx8MTc4MzM0Nzk4Nnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Charrel Jalving"
+      }
+    ],
+    "amboise_loire": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1526816229784-65d5d54ac8bc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbWJvaXNlJTIwY2FzdGxlJTIwTG9pcmUlMjBWYWxsZXl8ZW58MXwwfHx8MTc4MzM0Nzk4OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Mongel"
+      }
+    ],
+    "ancenis": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1526816229784-65d5d54ac8bc?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbmNlbmlzJTIwY2FzdGxlJTIwTG9pcmV8ZW58MXwwfHx8MTc4MzM0Nzk5Mnww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dorian Mongel"
+      }
+    ],
+    "mont_saint_michel_bay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1727081146406-bfe31e15149f?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNb250LVNhaW50LU1pY2hlbCUyMGJheSUyMHRpZGVzfGVufDF8MHx8fDE3ODMzNDc5OTV8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Chloé Renaud"
+      }
+    ],
+    "pornic": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1578240747034-5ba1efe22426?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3JuaWMlMjBjYXN0bGUlMjBydWlucyUyMGNvYXN0fGVufDF8MHx8fDE3ODMzNDc5OTh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "V2F"
+      }
+    ],
+    "champtoceaux": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1589360408556-fa309e69f98e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaGFtcHRvY2VhdXglMjBjYXN0bGUlMjBydWlucyUyMExvaXJlfGVufDF8MHx8fDE3ODMzNDgwMDF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Colin Watts"
+      }
+    ]
+  },
+  "grand_est": {
+    "strasbourg": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1691166693784-48cce13f367e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdHJhc2JvdXJnJTIwY2F0aGVkcmFsJTIwb2xkJTIwdG93bnxlbnwxfDB8fHwxNzgzMzQ4MDE0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Greg Willson"
+      }
+    ],
+    "colmar": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1761300053895-f09fa37ef5ff?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb2xtYXIlMjBvbGQlMjB0b3duJTIwY2FuYWxzfGVufDF8MHx8fDE3ODMzNDgwMTd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Christoph Birken"
+      }
+    ],
+    "reims": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1581211653431-310ba15ff9bf?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxSZWltcyUyMENhdGhlZHJhbHxlbnwxfDB8fHwxNzgzMzQ4MDIwfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Reno Laithienne"
+      }
+    ],
+    "metz": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1578171267709-7205168ffcc6?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxNZXR6JTIwQ2F0aGVkcmFsfGVufDF8MHx8fDE3ODMzNDgwMjN8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Tomás Robertson"
+      }
+    ],
+    "champagne_route": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDaGFtcGFnbmUlMjB2aW5leWFyZCUyMHJvdXRlJTIwbGFuZHNjYXBlfGVufDF8MHx8fDE3ODMzNDgwMjd8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dan Meyers"
+      }
+    ],
+    "alsatian_wine_villages": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1704300815432-76952c1e3562?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBbHNhdGlhbiUyMHdpbmUlMjB2aWxsYWdlJTIwUmlxdWV3aWhyfGVufDF8MHx8fDE3ODMzNDgwMzF8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Michiel Mulder"
+      }
+    ],
+    "epernay": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1636540258500-0f9b081c8314?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHwlQzMlODlwZXJuYXklMjBBdmVudWUlMjBkZSUyMENoYW1wYWduZXxlbnwxfDB8fHwxNzgzMzQ4MDM0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Claudio Schwarz"
+      }
+    ],
+    "verdun": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1593517633112-cb742be2a686?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWZXJkdW4lMjBiYXR0bGVmaWVsZCUyMFdXSSUyMG1lbW9yaWFsfGVufDF8MHx8fDE3ODMzNDgwMzZ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Abdou"
+      }
+    ],
+    "strasbourg_christmas": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1654110314115-3800872f2134?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxTdHJhc2JvdXJnJTIwQ2hyaXN0bWFzJTIwbWFya2V0c3xlbnwxfDB8fHwxNzgzMzQ4MDM5fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Carrie Borden"
+      }
+    ],
+    "nancy": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1614891202431-e4ba6b3d9edb?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxOYW5jeSUyMFBsYWNlJTIwU3RhbmlzbGFzfGVufDF8MHx8fDE3ODMzNDgwNDJ8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Gérard GRIFFAY"
+      }
+    ],
+    "ardenne_nature": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1629743097439-f1e8718a908e?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBcmRlbm5lJTIwZm9yZXN0JTIwaGlraW5nJTIwbGFuZHNjYXBlfGVufDF8MHx8fDE3ODMzNDgwNDR8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Febe Vanermen"
+      }
+    ],
+    "vosges_mountains": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1604223190546-a43e4c7f29d7?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxWb3NnZXMlMjBtb3VudGFpbnMlMjBoaWtpbmclMjBsYW5kc2NhcGV8ZW58MXwwfHx8MTc4MzM0ODA0OHww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Sven Pieren"
+      }
+    ]
+  },
+  "corsica": {
+    "ajaccio": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1605704304411-afbaac5f2433?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxBamFjY2lvJTIwaGFyYm9yJTIwY2l0YWRlbHxlbnwxfDB8fHwxNzgzMzQ4MDYyfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "JR Harris"
+      }
+    ],
+    "bonifacio": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1551866265-f7ded2277666?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCb25pZmFjaW8lMjBjbGlmZnMlMjB3aGl0ZSUyMGxpbWVzdG9uZXxlbnwxfDB8fHwxNzgzMzQ4MDY0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Dušan veverkolog"
+      }
+    ],
+    "bastia": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1677849133284-d07a373b8253?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxCYXN0aWElMjBoYXJib3IlMjBWaWV1eCUyMFBvcnR8ZW58MXwwfHx8MTc4MzM0ODA2N3ww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Patryk Kuleta"
+      }
+    ],
+    "porto_vecchio": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1596305234100-233c298dedc5?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxQb3J0by1WZWNjaGlvJTIwYmVhY2glMjB0dXJxdW9pc2UlMjB3YXRlcnxlbnwxfDB8fHwxNzgzMzQ4MDcxfDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Mathilde Cureau"
+      }
+    ],
+    "corte": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1621432667047-edcb75619ba4?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxDb3J0ZSUyMGNpdGFkZWwlMjBtb3VudGFpbnN8ZW58MXwwfHx8MTc4MzM0ODA3NXww&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Brent Pace"
+      }
+    ],
+    "lac_de_melo": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1559310589-2673bfe16970?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxMYWMlMjBkZSUyME1lbG8lMjBhbHBpbmUlMjBsYWtlJTIwbW91bnRhaW5zfGVufDF8MHx8fDE3ODMzNDgwNzh8MA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Adam Vradenburg"
+      }
+    ],
+    "galeria": [
+      {
+        "index": 0,
+        "assetPath": "",
+        "isLocal": false,
+        "url": "https://images.unsplash.com/photo-1770409083476-ae750da2eb27?ixid=M3w5NTU4NjF8MHwxfHNlYXJjaHwxfHxHYWxlcmlhJTIwdmlsbGFnZSUyMENvcnNpY2ElMjBiZWFjaHxlbnwxfDB8fHwxNzgzMzQ4MDg0fDA&ixlib=rb-4.1.0&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "credit": "Slim MARS"
+      }
+    ]
+  }
 }
