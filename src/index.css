@@ -2396,6 +2396,12 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .sitesearch.is-expanded .sitesearch__cancel{display:inline-flex; align-items:center; justify-content:center;
   width:38px; height:38px; flex:none; border:0; border-radius:9px; background:none; color:var(--ink-soft); cursor:pointer}
 .sitesearch.is-expanded .sitesearch__drop{position:fixed; top:var(--topbar-h); left:0; right:0; width:auto; border-radius:0 0 14px 14px; max-width:none}
+/* expanded search owns the whole header row — everything else steps aside */
+.topbar__inner:has(.sitesearch.is-expanded) .topbar__left,
+.topbar__inner:has(.sitesearch.is-expanded) .topbar__nav,
+.topbar__inner:has(.sitesearch.is-expanded) .auth{display:none}
+.topbar__inner:has(.sitesearch.is-expanded) .topbar__right{flex:1}
+.topbar__inner:has(.sitesearch.is-expanded) .sitesearch.is-expanded{margin-left:0}
 
 /* --- Per-image fade-in: each photo appears as it loads, not all at once --- */
 .smartimg{opacity:0; transition:opacity .45s ease}
@@ -2737,7 +2743,7 @@ h4, h5 { font-family: var(--sans); font-weight: 700; }
 .hiw__cta{display:flex; gap:12px; flex-wrap:wrap; margin-top:28px}
 /* --- country fact strip --- */
 .cfacts-band{border-bottom:1px solid var(--line); margin:0 0 35px}
-.cfacts{display:flex; flex-wrap:wrap; gap:0; margin:0 auto; padding:16px 0}
+.cfacts{display:flex; flex-wrap:wrap; gap:0; margin:0 auto; padding-top:16px; padding-bottom:16px}
 .cfacts__item{flex:1 1 auto; min-width:140px; padding:2px 26px; border-left:1px solid var(--line)}
 .cfacts__item:first-child{border-left:0; padding-left:0}
 .cfacts dt{font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:0 0 3px}
