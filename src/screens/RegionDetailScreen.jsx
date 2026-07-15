@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, MapPin, CalendarRange, Navigation } from 'lucide-react'
-import { getRegion } from '../lib/data.js'
+import { getRegion, getImages } from '../lib/data.js'
+import { isUnsplashUrl } from '../lib/unsplash.js'
+import PhotoCredit from '../components/PhotoCredit.jsx'
 import { COUNTRIES } from '../lib/countries.js'
 import { regionColour, mapsQuery } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
@@ -53,6 +55,28 @@ export default function RegionDetailScreen() {
       || null
   }, [region, regionId])
 
+  // The region file bakes the hero's URL but not its photographer, and Unsplash
+  // requires the credit wherever the photo is shown. Resolve it from the image
+  // manifest — deliberately lazy and non-blocking, so the hero still paints from
+  // the single region fetch above and only the caption waits.
+  const [heroRecord, setHeroRecord] = useState(null)
+  useEffect(() => {
+    setHeroRecord(null)
+    if (!region || !heroImage || !isUnsplashUrl(heroImage)) return
+    if (region.heroImage?.url === heroImage && region.heroImage?.credit) {
+      setHeroRecord(region.heroImage); return
+    }
+    let live = true
+    getImages(country).then((all) => {
+      if (!live) return
+      const hit = all?.__regions?.[regionId]?.url === heroImage
+        ? all.__regions[regionId]
+        : Object.values(all?.[regionId] || {}).flat().find((i) => i?.url === heroImage)
+      if (hit) setHeroRecord(hit)
+    }).catch(() => {})
+    return () => { live = false }
+  }, [region, regionId, country, heroImage])
+
   useSeo({
     title: region ? `Things to do in ${region.name} — places, food & trip ideas` : undefined,
     description: region ? `${region.name}${region.nameIt && region.nameIt !== region.name ? ` (${region.nameIt})` : ''} — towns, restaurants and things to do across ${region.places?.length || 0} places.` : undefined,
@@ -83,8 +107,12 @@ export default function RegionDetailScreen() {
         </div>
         <div className="plan-hero__media">
           {heroImage ? (
-            <img src={imgUrl(heroImage, 800)} alt={region.name} loading="eager" fetchpriority="high" decoding="async"
-              onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+            <>
+              <img src={imgUrl(heroImage, 800)} alt={region.name} loading="eager" fetchpriority="high" decoding="async"
+                onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+              <PhotoCredit url={heroImage} credit={heroRecord?.credit}
+                creditUrl={heroRecord?.creditUrl} creditUsername={heroRecord?.creditUsername} />
+            </>
           ) : (
             <PlacePlaceholder iconSize={56} />
           )}

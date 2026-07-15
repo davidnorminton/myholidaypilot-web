@@ -108,7 +108,12 @@ export default handler(async (req, res) => {
     // Accept absolute http(s) URLs (pasted) and app-relative URLs from our own
     // uploader (/images/… on disk, /api/media?id=… when stored in the DB).
     if (!/^(https?:\/\/|\/)/.test(url)) throw fail(400, 'A valid image URL is required')
-    const image = { index: 0, assetPath: '', isLocal: false, url, credit: String(b.credit || '').slice(0, 120) }
+    // creditUsername/creditUrl arrive from the admin picker (Unsplash search
+    // results); a hand-pasted URL simply has none, and PhotoCredit degrades.
+    const image = { index: 0, assetPath: '', isLocal: false, url,
+      credit: String(b.credit || '').slice(0, 120),
+      creditUsername: String(b.creditUsername || '').slice(0, 120),
+      creditUrl: String(b.creditUrl || '').slice(0, 300) }
     await db.update(buildPlaces).set({ image, updatedAt: Date.now() })
       .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
     return send(res, 200, { done: true, image })

@@ -36,7 +36,7 @@ const truncate = (s, n = 155) => { s = (s || '').replace(/\s+/g, ' ').trim(); re
 // `image` sets og:image and, by default, preloads that same image as the hero.
 // Pass preloadHero: false when og:image is only a representative share card and
 // isn't what the page actually paints — preloading it would just waste bytes.
-function render({ urlPath, title, description, image, jsonLd, bodyHtml, preloadImagesFor, preloadHero = true }) {
+function render({ urlPath, title, description, image, jsonLd, bodyHtml, preloadImagesFor, preloadHero = true, ogType }) {
   let html = template
   const canonical = SITE + (urlPath === '/' ? '' : urlPath)
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
@@ -44,6 +44,10 @@ function render({ urlPath, title, description, image, jsonLd, bodyHtml, preloadI
   html = html.replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${esc(canonical)}$2`)
   html = html.replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(title)}$2`)
   html = html.replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${esc(description)}$2`)
+  // The template hardcodes og:type=website, which is right for most of the site
+  // but wrong for the journal — articles want og:type=article so shares and
+  // parsers treat them as writing with an author and a date.
+  if (ogType) html = html.replace(/(<meta property="og:type" content=")[^"]*(")/, `$1${esc(ogType)}$2`)
   if (image) {
     html = html.replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${esc(image)}$2`)
     // Preload the hero at the size the app will render it (1600 bucket): the
@@ -209,7 +213,7 @@ const POSTS_ALL = await (async () => {
         const s = postSlugify(r.slug || r.title)
         if (s) bySlug.set(s, { slug: s, title: r.title, dek: r.dek, tag: r.tag, author: r.author,
           ...postBodyFields(r.body),
-          coverImage: r.coverImage, publishedAt: r.publishedAt,
+          coverImage: r.coverImage, publishedAt: r.publishedAt, updatedAt: r.updatedAt,
           tags: Array.isArray(r.tags) ? r.tags : [] })
       }
       console.log(`  blog: ${rows.length} published posts from DB`)
@@ -229,8 +233,9 @@ const POSTS_ALL = await (async () => {
 // only outbound links were the ones in its own body. render() now appends this
 // to every prerendered page. React replaces #root wholesale on mount
 // (createRoot, not hydrateRoot), so this is crawler-only and cannot cause a
-// hydration mismatch. Uses <h3> like Footer.jsx does, so it never competes with
-// a page's own <h2> outline.
+// hydration mismatch. Headings are <h2>: these are top-level sections of the
+// document, and using <h3> (as Footer.jsx does visually) skipped a level on
+// every page whose body has no h2 of its own.
 // Two deliberate deviations from the component:
 //   · "Top countries" is filtered to countries that actually have data. The
 //     component hardcodes five; linking one that isn't imported yet would point
@@ -242,17 +247,17 @@ const fLink = (href, label) => `<li><a href="${SITE}${href}">${esc(label)}</a></
 const FOOTER_HTML = (() => {
   const live = FOOTER_TOP_COUNTRIES.filter((c) => countries.includes(c))
   return `<footer><nav aria-label="Footer">`
-    + `<h3>Explore</h3><ul>`
+    + `<h2>Explore</h2><ul>`
       + fLink('/destinations', 'Destinations') + fLink('/day-trips', 'Day-trip finder')
       + fLink('/trip-ideas', 'Trip ideas') + fLink('/blog', 'The blog')
-    + `</ul><h3>Plan</h3><ul>`
+    + `</ul><h2>Plan</h2><ul>`
       + fLink('/trip-planner', 'Trip planner') + fLink('/guided', 'Guided planner')
-    + `</ul><h3>Discover</h3><ul>`
+    + `</ul><h2>Discover</h2><ul>`
       + fLink('/featured-destinations', 'Featured destinations')
     + `</ul>`
-    + (live.length ? `<h3>Top countries</h3><ul>${live.map((c) =>
+    + (live.length ? `<h2>Top countries</h2><ul>${live.map((c) =>
         fLink(`/${c}`, nameFor(c, readJson(path.join(dataDir, c, 'country.json'), {})) || c)).join('')}</ul>` : '')
-    + `<h3>More</h3><ul>`
+    + `<h2>More</h2><ul>`
       + fLink('/how-it-works', 'How the planner works') + fLink('/contact', 'Contact')
       + fLink('/privacy', 'Privacy policy') + fLink('/terms', 'Terms of use')
       + fLink('/cookies', 'Cookie policy')
@@ -269,6 +274,25 @@ const HEADER_HTML = `<header><a href="${SITE}/">myholidaypilot</a>`
     + fLink('/destinations', 'Destinations') + fLink('/trip-planner', 'Trip planner')
     + fLink('/trip-ideas', 'Trip ideas')
   + `</ul></nav></header>`
+
+// ── published trips (/trip-ideas) ────────────────────────────────────────────
+// Live rows from public_trips. Same best-effort contract as the posts: no
+// database at build simply means no /trip-ideas pages, never a failed build.
+const TRIPS_ALL = await (async () => {
+  if (!process.env.DATABASE_URL) return []
+  try {
+    const { getDb } = await import(path.join(root, 'db/client.js'))
+    const schema = await import(path.join(root, 'db/schema.js'))
+    const { eq } = await import('drizzle-orm')
+    const db = getDb()
+    const rows = await db.select().from(schema.publicTrips).where(eq(schema.publicTrips.status, 'live'))
+    console.log(`  trip-ideas: ${rows.length} published trips from DB`)
+    return rows
+  } catch (e) {
+    console.warn(`  trip-ideas: skipped (${e.message.split('\n')[0]})`)
+    return []
+  }
+})()
 
 // Posts belonging to one country. The country slug travels in the post's tags[]
 // (written by the admin blog editor — see AdminBlog.jsx), so match on that.
@@ -307,7 +331,7 @@ const postsForCountry = (slug, name) => {
   write('/', render({
     urlPath: '/',
     title: 'myholidaypilot — holiday trip planner & travel guides, region by region',
-    description: 'Plan your holiday region by region: handcrafted travel guides with things to do, where to eat and festival dates — plus a free trip planner to build your day-by-day itinerary.',
+    description: 'Plan your holiday region by region: handcrafted travel guides with things to do, where to eat and festival dates — plus a free day-by-day trip planner.',
     jsonLd: [{
       '@context': 'https://schema.org', '@type': 'WebSite', name: 'myholidaypilot', url: SITE,
       description: 'Handcrafted travel guides, region by region.',
@@ -522,19 +546,42 @@ for (const slug of countries) {
           return `<li>${label ? `<strong>${esc(label)}</strong>` : ''}${dates}`
             + `${(label || dates) && prose ? ' — ' : ''}${prose}</li>`
         }).join('')
-        // GuideScreen renders sec.body as a lede above the items. Italy's data
-        // has none, but the other countries' guides may — without this it would
-        // silently vanish from the prerendered page.
-        return (sec.title ? `<h3>${esc(sec.title)}</h3>` : '')
+        // GuideScreen renders section titles as <h2 className="about__title">;
+        // emitting <h3> here both diverged from the app and skipped a heading
+        // level (these pages have no h2 of their own).
+        // sec.body is GuideScreen's lede above the items. Italy's data has none,
+        // but the other countries' guides may — without this it would silently
+        // vanish from the prerendered page.
+        return (sec.title ? `<h2>${esc(sec.title)}</h2>` : '')
           + (sec.body ? `<p>${esc(sec.body)}</p>` : '')
           + (items ? `<ul>${items}</ul>` : '')
       }).join('')
     }
     const gtitle = g.title || topic
+    // The guide subtitles are display copy and often very short ("Eat like an
+    // Italian" = 19 chars), which made for a thin meta description. Pad it out
+    // with what the page actually covers.
+    const gextra = topic === 'festivals' && Array.isArray(g.festivals)
+      ? g.festivals.slice(0, 4).map((f) => f.name).filter(Boolean).join(', ')
+      : (() => {
+          const titles = (g.sections || []).map((s) => s.title).filter(Boolean)
+          if (titles.length) return titles.slice(0, 5).join(', ')
+          // Timeline guides (history) are one untitled section — name the eras.
+          return (g.sections || []).flatMap((s) => (s.items || []).map((it) => it.label))
+            .filter(Boolean).slice(0, 5).join(', ')
+        })()
+    // Titles like "History of Italy" already name the country; don't say it twice.
+    const gLead = gtitle.toLowerCase().includes(String(name).toLowerCase()) ? gtitle : `${gtitle} in ${name}`
+    const sentence = (s) => { const t = String(s || '').trim(); return t && !/[.!?…]$/.test(t) ? `${t}.` : t }
+    const gdesc = truncate([
+      sentence(gLead),
+      sentence(g.subtitle),
+      gextra ? sentence(`${topic === 'festivals' ? 'Including' : 'Covering'}: ${gextra}`) : '',
+    ].filter(Boolean).join(' '))
     write(`/${slug}/${topic}`, render({
       urlPath: `/${slug}/${topic}`,
       title: `${gtitle} — ${name} travel guide | myholidaypilot`,
-      description: truncate(g.subtitle || `${gtitle} in ${name}.`),
+      description: gdesc,
       jsonLd: { '@context': 'https://schema.org', '@type': 'Article', headline: `${gtitle} — ${name}`, url: `${SITE}/${slug}/${topic}` },
       bodyHtml: `<main><nav><a href="${SITE}/${slug}">${esc(name)}</a></nav><h1>${esc(gtitle)}</h1>`
         + (g.subtitle ? `<p>${esc(g.subtitle)}</p>` : '') + inner + `</main>`,
@@ -644,7 +691,7 @@ for (const slug of countries) {
   write('/trip-planner', render({
     urlPath: '/trip-planner',
     title: 'Holiday trip planner — build a day-by-day itinerary | myholidaypilot',
-    description: 'Plan your holiday for free: pick places region by region, build a day-by-day itinerary on a map, and get packing lists and budget estimates. Export to PDF or share with friends.',
+    description: 'Plan your holiday free: pick places region by region, build a day-by-day itinerary on a map, and get packing lists and budgets. Export as a PDF or share it.',
     jsonLd: [
       { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'myholidaypilot trip planner',
         url: `${SITE}/trip-planner`, applicationCategory: 'TravelApplication',
@@ -691,7 +738,7 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
             return `<li><a href="${SITE}/blog/${p.slug}">${esc(p.title)}</a>${ex ? `<br>${tag}${esc(truncate(ex, 140))}` : ''}</li>`
           }).join('')}</ul></main>`,
     }))
-    addUrl('/blog', '0.6'); pages++
+    addUrl('/blog', '0.6', toDate(Math.max(0, ...posts.map((p) => p.updatedAt || p.publishedAt || 0))) || undefined); pages++
 
     // each post
     for (const p of posts) {
@@ -701,6 +748,7 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
         title: `${p.title} | myholidaypilot`,
         description: desc,
         image: p.coverImage,
+        ogType: 'article',
         jsonLd: { '@context': 'https://schema.org', '@type': 'Article', headline: p.title,
           description: desc, author: { '@type': p.author ? 'Person' : 'Organization', name: p.author || 'myholidaypilot' },
           image: p.coverImage || undefined, url: `${SITE}/blog/${p.slug}`,
@@ -715,8 +763,173 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
           + (p.bodyHtml || '')
           + `</article></main>`,
       }))
-      addUrl(`/blog/${p.slug}`, '0.6'); pages++
+      // lastmod means last *modified*. Stamping today on every build tells
+      // crawlers the whole journal changed on every deploy, which devalues the
+      // signal — use the post's own updated/published date.
+      addUrl(`/blog/${p.slug}`, '0.6', toDate(p.updatedAt || p.publishedAt)); pages++
     }
+  }
+}
+
+// ── /trip-ideas: published itineraries ──────────────────────────────────────
+// Real, unique content — other people's day-by-day plans — that until now only
+// existed behind a client-side fetch. Each trip's places link back to the real
+// place pages, so the gallery feeds the guides rather than being a dead end.
+{
+  const tripCard = (t) => {
+    const regions = Array.isArray(t.regionNames) ? t.regionNames : []
+    const bits = [
+      t.days ? `${t.days} day${t.days === 1 ? '' : 's'}` : '',
+      t.placeCount ? `${t.placeCount} place${t.placeCount === 1 ? '' : 's'}` : '',
+      regions.length ? regions.join(', ') : '',
+    ].filter(Boolean).join(' · ')
+    return `<li><a href="${SITE}/trip-ideas/${esc(t.slug)}">${esc(t.title)}</a>${bits ? ` — ${esc(bits)}` : ''}</li>`
+  }
+
+  write('/trip-ideas', render({
+    urlPath: '/trip-ideas',
+    title: 'Trip ideas — real itineraries to copy | myholidaypilot',
+    description: 'Real trips, planned day by day by real travellers — browse by region and length, then copy one into your own planner.',
+    jsonLd: [
+      { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Trip ideas', url: `${SITE}/trip-ideas` },
+      breadcrumb([{ name: 'Home', url: SITE }, { name: 'Trip ideas', url: `${SITE}/trip-ideas` }]),
+    ],
+    bodyHtml: `<main><h1>Trip ideas</h1>`
+      + `<p>Real trips, planned day by day by real travellers. Browse by region and length, then copy one straight into your own planner and make it yours.</p>`
+      + (TRIPS_ALL.length ? `<h2>Published itineraries</h2><ul>${TRIPS_ALL.map(tripCard).join('')}</ul>` : '')
+      + `<p><a href="${SITE}/destinations">Browse every destination</a> or <a href="${SITE}/trip-planner">start your own plan</a>.</p>`
+      + `</main>`,
+  }))
+  addUrl('/trip-ideas', '0.7'); pages++
+
+  for (const t of TRIPS_ALL) {
+    const d = (t.data && typeof t.data === 'object') ? t.data : {}
+    const places = Array.isArray(d.places) ? d.places : []
+    const regions = Array.isArray(t.regionNames) ? t.regionNames : []
+    const story = t.story || d.story || ''
+    const desc = truncate(story || `A real ${t.days}-day itinerary${regions.length ? ` through ${regions.join(', ')}` : ''}, planned day by day — copy it into your own planner.`)
+    // Places, in day order, each linking to its guide page.
+    const byDay = [...places].sort((a, b) => (a.day || 0) - (b.day || 0))
+    write(`/trip-ideas/${t.slug}`, render({
+      urlPath: `/trip-ideas/${t.slug}`,
+      title: `${t.title} — a ${t.days}-day trip to copy | myholidaypilot`,
+      description: desc,
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'Article', headline: `${t.title} — a ${t.days}-day trip`,
+          description: desc, url: `${SITE}/trip-ideas/${t.slug}`,
+          author: { '@type': t.authorName ? 'Person' : 'Organization', name: t.authorName || 'myholidaypilot' },
+          datePublished: t.createdAt ? new Date(t.createdAt).toISOString() : undefined },
+        ...(byDay.length ? [{
+          '@context': 'https://schema.org', '@type': 'ItemList',
+          name: `Places on this ${t.days}-day trip`,
+          numberOfItems: byDay.length,
+          itemListElement: byDay.map((pl, i) => ({
+            '@type': 'ListItem', position: i + 1, name: pl.name,
+            url: `${SITE}/${t.countryId}/${pl.regionId}/${pl.placeId}`,
+          })),
+        }] : []),
+        breadcrumb([{ name: 'Home', url: SITE }, { name: 'Trip ideas', url: `${SITE}/trip-ideas` },
+          { name: t.title, url: `${SITE}/trip-ideas/${t.slug}` }]),
+      ],
+      bodyHtml: `<main><nav><a href="${SITE}/trip-ideas">Trip ideas</a></nav>`
+        + `<h1>${esc(t.title)}</h1>`
+        + `<p>A ${esc(String(t.days))}-day trip${regions.length ? ` through ${esc(regions.join(', '))}` : ''}`
+        + `${t.authorName ? `, planned by ${esc(t.authorName)}` : ''}.</p>`
+        + (story ? `<p>${esc(story)}</p>` : '')
+        + (byDay.length ? `<h2>The itinerary</h2><ol>${byDay.map((pl) => {
+            const acts = (pl.attractions || []).map((a) => a.text).filter(Boolean)
+            const day = pl.day ? `Day ${esc(String(pl.day))}: ` : ''
+            const url = `${SITE}/${t.countryId}/${pl.regionId}/${pl.placeId}`
+            return `<li>${day}<a href="${url}">${esc(pl.name)}</a>`
+              + `${pl.regionName ? ` (${esc(pl.regionName)})` : ''}`
+              + `${acts.length ? ` — ${esc(acts.slice(0, 4).join('; '))}` : ''}</li>`
+          }).join('')}</ol>` : '')
+        + `<p><a href="${SITE}/trip-planner">Copy this trip into your own planner</a>.</p>`
+        + `</main>`,
+    }))
+    addUrl(`/trip-ideas/${t.slug}`, '0.6', toDate(t.updatedAt || t.createdAt)); pages++
+  }
+}
+
+// ── standalone screens ──────────────────────────────────────────────────────
+// These routes were served by the SPA fallback: a crawler got an empty #root.
+// Their copy lives inside JSX components, so rather than duplicate it here (two
+// sources of truth — a bad trade for a privacy policy especially) each gets its
+// real title/description — lifted from the screen's own useSeo() — a heading,
+// an accurate summary and onward links. React still renders the full page.
+{
+  const screens = [
+    { path: '/how-it-works', priority: '0.7',
+      title: 'How the trip planner works | myholidaypilot',
+      description: 'Plan a holiday day by day: pick a destination and dates, choose things to do, experiences, food and hotels for each day, then book it all in one place.',
+      h1: 'How the trip planner works',
+      body: `<p>From “let’s go somewhere” to a day-by-day plan you can book — in six steps.</p>`
+        + `<ol>`
+        + `<li><strong>Pick a destination and dates</strong> — choose a country and your travel dates, and add your flights if you know them.</li>`
+        + `<li><strong>Plan day by day</strong> — every day of your trip gets its own date in the sidebar.</li>`
+        + `<li><strong>Fill each day</strong> — things to do, bookable experiences, places to eat, and where you’re staying.</li>`
+        + `<li><strong>Save and order the day</strong> — drag items into the running order and track your progress.</li>`
+        + `<li><strong>Review &amp; book</strong> — everything bookable gathered in one place, each linking out to the booking site.</li>`
+        + `<li><strong>Take it with you</strong> — export a PDF, share a read-only link, or publish it to Trip ideas.</li>`
+        + `</ol>`,
+      links: [['/trip-planner', 'Start planning'], ['/destinations', 'Browse destinations']] },
+    { path: '/featured-destinations', priority: '0.7',
+      title: 'Featured destinations — hand-picked places worth travelling for | myholidaypilot',
+      description: 'Our current hand-picked featured destinations — standout towns, cities and places from our guides, chosen by the editors.',
+      h1: 'Featured destinations',
+      body: `<p>Standout towns, cities and places from across our guides, hand-picked by the editors — the ones worth building a trip around. The selection changes as we add countries and find new favourites.</p>`,
+      links: [['/destinations', 'Browse every destination'], ['/trip-ideas', 'See real itineraries']] },
+    { path: '/day-trips', priority: '0.7',
+      title: 'Day-trip finder — every trip within reach of your base | myholidaypilot',
+      description: 'Pick your base and see every worthwhile day trip within reach — ranked by distance, with drive times.',
+      h1: 'Day-trip finder',
+      body: `<p>Pick the town or city you’re based in and see every worthwhile day trip within reach — ranked by distance, with drive times and the nearest station, so you can tell in seconds what’s an easy morning out and what needs a whole day.</p>`,
+      links: [['/destinations', 'Pick a destination'], ['/trip-planner', 'Plan a trip']] },
+    { path: '/guided', priority: '0.7',
+      title: 'Guided planner — a ready-made trip in 30 seconds | myholidaypilot',
+      description: 'Answer five quick questions and get a complete day-by-day itinerary — places, things to do, where to eat — ready to fine-tune.',
+      h1: 'Guided planner',
+      body: `<p>Answer five quick questions — where, how long, what you’re into, what pace, what style — and get a complete day-by-day itinerary built from our guides: places, things to do and where to eat, ready to fine-tune in the planner.</p>`,
+      links: [['/trip-planner', 'Open the planner'], ['/trip-ideas', 'Browse trip ideas']] },
+    { path: '/contact', priority: '0.4',
+      title: 'Contact us | myholidaypilot',
+      description: 'Questions, corrections or ideas — get in touch with the myholidaypilot team.',
+      h1: 'Contact us',
+      body: `<p>Questions, corrections or ideas — get in touch and we’ll come back to you. If you’ve spotted something wrong in a guide, tell us which place and what’s off, and we’ll fix it.</p>`,
+      links: [['/how-it-works', 'How the planner works']] },
+    { path: '/privacy', priority: '0.3',
+      title: 'Privacy policy | myholidaypilot',
+      description: 'How myholidaypilot collects, uses and protects your information.',
+      h1: 'Privacy policy',
+      body: `<p>What information we hold when you use myholidaypilot, why we hold it, and the choices you have. Browse without signing in and your draft trips stay in your own browser and never reach our servers.</p>`,
+      links: [['/terms', 'Terms of use'], ['/cookies', 'Cookie policy'], ['/contact', 'Contact us']] },
+    { path: '/terms', priority: '0.3',
+      title: 'Terms of use | myholidaypilot',
+      description: 'The terms that apply when you use myholidaypilot.',
+      h1: 'Terms of use',
+      body: `<p>The terms that apply when you use myholidaypilot — what you can expect from us, what we ask of you, and the limits of what a travel guide can promise.</p>`,
+      links: [['/privacy', 'Privacy policy'], ['/cookies', 'Cookie policy'], ['/contact', 'Contact us']] },
+    { path: '/cookies', priority: '0.3',
+      title: 'Cookie policy | myholidaypilot',
+      description: 'How myholidaypilot uses cookies and browser storage.',
+      h1: 'Cookie policy',
+      body: `<p>How myholidaypilot uses cookies and browser storage — what’s strictly needed to keep you signed in and your trips saved, and what isn’t.</p>`,
+      links: [['/privacy', 'Privacy policy'], ['/terms', 'Terms of use'], ['/contact', 'Contact us']] },
+  ]
+  for (const s of screens) {
+    write(s.path, render({
+      urlPath: s.path,
+      title: s.title,
+      description: s.description,
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'WebPage', name: s.h1, description: s.description, url: SITE + s.path },
+        breadcrumb([{ name: 'Home', url: SITE }, { name: s.h1, url: SITE + s.path }]),
+      ],
+      bodyHtml: `<main><h1>${esc(s.h1)}</h1>${s.body}`
+        + `<p>${s.links.map(([h, l]) => `<a href="${SITE}${h}">${esc(l)}</a>`).join(' · ')}</p>`
+        + `</main>`,
+    }))
+    addUrl(s.path, s.priority); pages++
   }
 }
 
@@ -726,7 +939,14 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
     `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`
   fs.writeFileSync(path.join(dist, 'sitemap.xml'), xml)
-  fs.writeFileSync(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`)
+  // Private / personal / thin routes. None of them have prerendered content, and
+  // every one of them answers 200 with an empty SPA shell (the Vercel rewrite),
+  // so left crawlable they burn budget and look like thin duplicates of each
+  // other. The public marketing routes (/trip-planner, /trip-ideas, /day-trips,
+  // /guided, /featured-destinations) are deliberately NOT listed.
+  const disallow = ['/admin', '/account', '/saved', '/trips', '/login', '/signup', '/api/']
+  fs.writeFileSync(path.join(dist, 'robots.txt'),
+    `User-agent: *\nAllow: /\n${disallow.map((d) => `Disallow: ${d}`).join('\n')}\n\nSitemap: ${SITE}/sitemap.xml\n`)
   console.log(`✓ wrote sitemap.xml (${sitemapUrls.length} urls) + robots.txt`)
 }
 

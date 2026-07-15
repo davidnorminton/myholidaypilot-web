@@ -126,7 +126,10 @@ function ImagePicker({ place, onClose, onResolved }) {
   const choose = async (img) => {
     setSaving(img.url); setErr('')
     try {
-      await api.builder.setImage(place.countryId, place.regionId, place.placeId, img.url, img.credit)
+      // Carry the photographer's profile through so the public pages can render
+      // a compliant Unsplash credit, not just a name.
+      await api.builder.setImage(place.countryId, place.regionId, place.placeId, img.url, img.credit,
+        { creditUsername: img.creditUsername || '', creditUrl: img.creditUrl || '' })
       onResolved(place.countryId, place.regionId, place.placeId)
     } catch (e) { setErr(e.message); setSaving('') }
   }

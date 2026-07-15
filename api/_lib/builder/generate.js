@@ -1,6 +1,7 @@
 import { getDb, schema, eq, and, asc } from '../db.js'
 import { send, readBody, fail } from '../util.js'
 import { generate, slugify } from '../genai.js'
+import { unsplashCredit, pingUnsplashDownload } from '../unsplash.js'
 const { builds, buildRegions, buildPlaces } = schema
 
 // Moved verbatim out of api/builder.js — behaviour-identical. Every matched
@@ -162,8 +163,12 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     const image = {
       index: 0, assetPath: '', isLocal: false,
       url: `${hit.urls.raw}&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080`,
-      credit: hit.user?.name || '',
+      ...unsplashCredit(hit),
     }
+    // Unsplash count this as a "download" (we're setting the photo somewhere),
+    // and the API Guidelines require us to tell them. Best-effort: never let it
+    // fail the pick.
+    await pingUnsplashDownload(hit, uKey)
     await db.update(buildPlaces).set({ image, updatedAt: Date.now() })
       .where(and(eq(buildPlaces.countryId, q.country), eq(buildPlaces.regionId, q.region), eq(buildPlaces.placeId, q.place)))
     await db.update(builds).set({ stage: Math.max(b.stage, 5), updatedAt: Date.now() }).where(eq(builds.countryId, q.country))
@@ -194,8 +199,10 @@ Order them roughly by how essential they are to the region. Respond with ONLY va
     const results = (j.results || []).map((hit) => ({
       thumb: hit.urls?.thumb || hit.urls?.small,
       url: `${hit.urls.raw}&crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080`,
-      credit: hit.user?.name || '',
+      ...unsplashCredit(hit),
       link: hit.links?.html || '',
+      // Guidelines: ping this when the admin actually chooses the photo.
+      downloadLocation: hit.links?.download_location || '',
     }))
     return send(res, 200, { results })
   }

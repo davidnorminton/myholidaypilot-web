@@ -2109,6 +2109,45 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 }
 .plan-hero__media::after{content:attr(data-emoji); font-size:56px; opacity:.55}
 .plan-hero__media img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+/* Unsplash attribution — required wherever we display one of their photos (see
+   src/lib/unsplash.js). Sits on the hero's bottom edge over a soft scrim so it
+   stays legible on any image without competing with the subject. The strip
+   ignores pointer events so it can't block anything; the links don't. */
+.photocredit{
+  position:absolute; right:0; bottom:0; left:0; z-index:1; margin:0;
+  padding:20px 10px 6px; text-align:right;
+  font-size:11px; line-height:1.3; letter-spacing:.01em;
+  color:rgba(255,255,255,.85);
+  background:linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0));
+  pointer-events:none;
+}
+.photocredit a{color:inherit; text-decoration:underline; text-underline-offset:2px; pointer-events:auto}
+.photocredit a:hover{color:#fff}
+
+/* --- Admin: photo credits (Unsplash attribution coverage) ----------------- */
+.credit-stats{display:flex; flex-wrap:wrap; gap:10px; margin:14px 0}
+.credit-stat{
+  flex:1 1 110px; padding:10px 12px; border-radius:12px;
+  background:var(--surface-2); border:1px solid var(--line);
+}
+.credit-stat__n{display:block; font-size:22px; font-weight:700; line-height:1.1}
+.credit-stat__l{display:block; margin-top:2px; font-size:11px; opacity:.7}
+.credit-stat--good{border-color:#9ee8a4}
+.credit-stat--warn{border-color:#fecf1e}
+.credit-stat--bad{border-color:#fe9ee8}
+.credit-actions{display:flex; flex-wrap:wrap; gap:8px; margin:12px 0}
+.credit-warn{display:flex; align-items:center; gap:6px}
+.credit-log{
+  margin:10px 0; padding:10px 12px; border-radius:10px; max-height:180px; overflow:auto;
+  background:var(--surface-2); border:1px solid var(--line);
+  font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; line-height:1.6; white-space:pre-wrap;
+}
+/* Coverage per country: credited / free-fixable / needs-lookup / unmatched. */
+.credit-bar{display:flex; height:8px; border-radius:99px; overflow:hidden; background:var(--surface-2)}
+.credit-bar__seg--ok{background:#9ee8a4}
+.credit-bar__seg--free{background:#87d2fe}
+.credit-bar__seg--api{background:#fecf1e}
+.credit-bar__seg--bad{background:#fe9ee8}
 @media (max-width: 820px){
   .plan-hero{flex-direction:column; align-items:flex-start; gap:20px}
   .plan-hero__media{width:100%; aspect-ratio:16/7}

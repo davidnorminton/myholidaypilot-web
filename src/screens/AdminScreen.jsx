@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react'
-import { PenLine, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, ImageOff, LayoutDashboard, ScanSearch } from 'lucide-react'
+import { PenLine, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, ImageOff, LayoutDashboard, ScanSearch, Camera } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'
 import { getIndex } from '../lib/data.js'
 import AdminCountries from '../components/admin/AdminCountries.jsx'
 import AdminScan from '../components/admin/AdminScan.jsx'
+import AdminCredits from '../components/admin/AdminCredits.jsx'
 import ErrorBoundary from '../components/ErrorBoundary.jsx'
 import AdminFreshness from '../components/admin/AdminFreshness.jsx'
 import AdminAffiliates from '../components/admin/AdminAffiliates.jsx'
@@ -23,7 +24,7 @@ import AdminAi from '../components/admin/AdminAi.jsx'
 const NAV = [
   { group: null, ids: ['dash'] },
   { group: 'Content', ids: ['journal', 'site', 'countries', 'gallery'] },
-  { group: 'Build', ids: ['missing', 'scan', 'ai', 'export'] },
+  { group: 'Build', ids: ['missing', 'credits', 'scan', 'ai', 'export'] },
   { group: 'Growth', ids: ['audience', 'affiliates', 'comments', 'contact', 'seo'] },
 ]
 
@@ -41,6 +42,7 @@ const SECTIONS = [
   { id: 'seo', label: 'SEO', icon: Globe },
   { id: 'ai', label: 'AI', icon: Sparkles },
   { id: 'missing', label: 'Missing images', icon: ImageOff },
+  { id: 'credits', label: 'Photo credits', icon: Camera },
   { id: 'export', label: 'Export', icon: FileJson },
 ]
 
@@ -101,6 +103,7 @@ export default function AdminScreen() {
         {section === 'site' && <AdminSite regions={regions} />}
         {section === 'countries' && <AdminCountries regions={regions} />}
         {section === 'scan' && <AdminScan />}
+        {section === 'credits' && <AdminCredits />}
         {section === 'affiliates' && <AdminAffiliates />}
         {section === 'audience' && <AdminAudience />}
         {section === 'gallery' && <AdminGallery />}

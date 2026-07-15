@@ -6,6 +6,7 @@ import { regionColour } from '../lib/format.js'
 import { paths } from '../lib/paths.js'
 import { imgUrl } from '../lib/imgUrl.js'
 import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
+import PhotoCredit from '../components/PhotoCredit.jsx'
 import AddToTrip from '../components/AddToTrip.jsx'
 import ViatorTours from '../components/ViatorTours.jsx'
 import SaveButton from '../components/SaveButton.jsx'
@@ -67,6 +68,10 @@ export default function PlaceDetailScreen() {
   if (region === false || (region && !place)) return <NotFound regionId={regionId} country={country} />
 
   const hero = place?.image || images[0]?.url || null
+  // The baked place.image is only a URL; the credit for it lives in the image
+  // manifest, so match the hero back to its record (falling back to the first
+  // entry, which is what hero itself falls back to).
+  const heroRecord = images.find((i) => i.url === hero) || (hero === images[0]?.url ? images[0] : null)
   const viewTabs = [
     { id: 'do', label: 'Things to do', icon: Compass },
     ...(place.food?.length ? [{ id: 'eat', label: 'What to eat', icon: UtensilsCrossed, count: place.food.length }] : []),
@@ -95,8 +100,12 @@ export default function PlaceDetailScreen() {
         </div>
         <div className="plan-hero__media">
           {hero ? (
-            <img src={imgUrl(hero, 800)} alt={place.name} loading="eager" fetchpriority="high" decoding="async"
-              onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+            <>
+              <img src={imgUrl(hero, 800)} alt={place.name} loading="eager" fetchpriority="high" decoding="async"
+                onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+              <PhotoCredit url={hero} credit={heroRecord?.credit}
+                creditUrl={heroRecord?.creditUrl} creditUsername={heroRecord?.creditUsername} />
+            </>
           ) : (
             <PlacePlaceholder iconSize={56} />
           )}
