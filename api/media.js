@@ -16,6 +16,14 @@ export default handler(async (req, res) => {
   res.statusCode = 200
   res.setHeader('Content-Type', row.mime || 'application/octet-stream')
   res.setHeader('Content-Length', buf.length)
-  res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
+  // s-maxage, not just max-age. This is a Serverless Function, and Vercel's edge
+  // only caches a function response when it sees s-maxage — max-age alone is a
+  // browser directive, so without this EVERY new visitor cold-starts the
+  // function and reads the blob out of Turso again. A page of blog covers meant
+  // an invocation and a DB read per image, per visitor.
+  // Safe to pin forever: upload.js mints the id from the filename plus a
+  // timestamp and only ever INSERTs, so an id's bytes never change. Replacing an
+  // image produces a new id and a new URL.
+  res.setHeader('Cache-Control', 'public, max-age=31536000, s-maxage=31536000, immutable')
   res.end(buf)
 })
