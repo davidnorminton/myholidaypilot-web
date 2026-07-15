@@ -1,7 +1,7 @@
 import { getDb, schema, eq, and, asc } from '../db.js'
 import { send, readBody, fail } from '../util.js'
 import { generate, slugify } from '../genai.js'
-import { unsplashCredit, pingUnsplashDownload } from '../unsplash.js'
+import { unsplashCredit, pingUnsplashDownload, resolveCreditFields } from '../unsplash.js'
 const { builds, buildRegions, buildPlaces } = schema
 
 // Moved verbatim out of api/builder.js — behaviour-identical. Every matched
@@ -272,8 +272,13 @@ Respond with ONLY a single valid JSON object, no fences, no preamble. Escape any
       .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
     if (!reg) throw fail(404, 'No such region')
     const url = String(body.url || '').trim()
+    // Same rules as setimage: keep whatever profile we already have for this
+    // photo rather than letting a hand-edited credit wipe it.
     const data = { ...reg.data,
-      heroImage: url ? { index: 0, assetPath: '', isLocal: false, url, credit: String(body.credit || '') } : null }
+      heroImage: url
+        ? { index: 0, assetPath: '', isLocal: false, url,
+            ...resolveCreditFields({ url, body, existing: reg.data?.heroImage }) }
+        : null }
     await db.update(buildRegions).set({ data, updatedAt: Date.now() })
       .where(and(eq(buildRegions.countryId, q.country), eq(buildRegions.regionId, q.region)))
     return send(res, 200, { done: true })

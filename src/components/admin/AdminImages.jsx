@@ -115,6 +115,8 @@ function PlaceImageRow({ country, region, place, onSaved }) {
   const save = async () => {
     if (!url.trim()) { alert('Paste an image URL or upload a file first.'); return }
     setBusy(true)
+    // The server keeps any existing profile when the URL is unchanged, so
+    // editing the credit text here can't wipe a backfilled username.
     try { await api.builder.setImage(country, region, place.placeId, url.trim(), credit.trim()); onSaved() }
     catch (e) { alert(e.message || 'Save failed') }
     finally { setBusy(false) }
@@ -164,9 +166,12 @@ function RegionImages({ country, regionId, onBack }) {
   const currentHero = region?.data?.heroImage?.url || ''
   const withImages = places.filter((p) => p.image?.url)
 
-  const setHero = async (url, credit = '') => {
+  // Carry the source photo's Unsplash profile across, not just the name — the
+  // region page has to credit the photographer with a link, and a bare name
+  // can't produce one.
+  const setHero = async (url, credit = '', extra = {}) => {
     setBusy(true)
-    try { await api.builder.setRegionHero(country, regionId, url, credit); load() }
+    try { await api.builder.setRegionHero(country, regionId, url, credit, extra); load() }
     catch (e) { alert(e.message || 'Save failed') }
     finally { setBusy(false) }
   }
@@ -185,7 +190,9 @@ function RegionImages({ country, regionId, onBack }) {
               return (
                 <li key={p.placeId}>
                   <button className={`cms-heropick ${on ? 'is-on' : ''}`} disabled={busy}
-                    onClick={() => setHero(u, p.image.credit || '')} title={`Use ${p.data?.name || p.placeId}'s photo`}>
+                    onClick={() => setHero(u, p.image.credit || '', {
+                      creditUsername: p.image.creditUsername || '', creditUrl: p.image.creditUrl || '',
+                    })} title={`Use ${p.data?.name || p.placeId}'s photo`}>
                     <img src={u} alt="" loading="lazy" />
                     <span>{p.data?.name || p.placeId}</span>
                     {on && <em className="cms-heropick__on"><CheckIcon size={13} /> Region image</em>}
@@ -247,18 +254,26 @@ function CountryHeroPicker({ countryId }) {
     for (const [regionId, places] of Object.entries(imgs)) {
       if (regionId === '__regions') continue
       for (const [placeId, list] of Object.entries(places || {})) {
-        const u = list?.[0]?.url
-        if (u) out.push({ url: u, label: names[placeId] || placeId, regionId })
+        const im = list?.[0]
+        if (im?.url) out.push({ ...im, label: names[placeId] || placeId, regionId })
       }
     }
     return out
   }, [imgs, names])
 
   const [savedNote, setSavedNote] = useState(false)
-  const setHero = async (url) => {
+  // countryHero.<slug> stays a plain URL string — the Destinations cards and the
+  // country hero read it directly, and changing its shape would break them. The
+  // photographer rides alongside in countryHeroCredit.<slug> as JSON, so the
+  // country page can credit Unsplash the way their API terms require. A pasted
+  // custom URL has no photographer, so the credit is cleared with it.
+  const setHero = async (url, src = null) => {
     setBusy(true)
     try {
-      await api.settings.save({ [`countryHero.${countryId}`]: url })
+      const credit = src && src.credit
+        ? JSON.stringify({ credit: src.credit, creditUsername: src.creditUsername || '', creditUrl: src.creditUrl || '' })
+        : ''
+      await api.settings.save({ [`countryHero.${countryId}`]: url, [`countryHeroCredit.${countryId}`]: credit })
       setCurrent(url); setCustom(''); setSavedNote(true)
     } catch (e) { alert(e.message || 'Save failed') }
     finally { setBusy(false) }
@@ -276,7 +291,7 @@ function CountryHeroPicker({ countryId }) {
           {options.map((o) => (
             <li key={`${o.regionId}/${o.label}/${o.url}`}>
               <button className={`cms-heropick ${o.url === current ? 'is-on' : ''}`} disabled={busy}
-                onClick={() => setHero(o.url)} title={`Use ${o.label}'s photo`}>
+                onClick={() => setHero(o.url, o)} title={`Use ${o.label}'s photo`}>
                 <img src={o.url} alt="" loading="lazy" />
                 <span>{o.label}</span>
                 {o.url === current && <em className="cms-heropick__on"><CheckIcon size={13} /> Country image</em>}

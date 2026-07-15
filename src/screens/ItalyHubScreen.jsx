@@ -9,6 +9,7 @@ import { paths } from '../lib/paths.js'
 import { useSettings } from '../lib/settings.js'
 import { imgUrl } from '../lib/imgUrl.js'
 import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
+import PhotoCredit from '../components/PhotoCredit.jsx'
 import { useSeo } from '../lib/seo.js'
 import TripDetails from '../components/TripDetails.jsx'
 import BlogCarousel from '../components/BlogCarousel.jsx'
@@ -64,6 +65,13 @@ export default function ItalyHubScreen() {
   }
 
   const countryHero = site[`countryHero.${country}`] || ''
+  // The hero URL is a plain string setting; its photographer rides alongside as
+  // JSON so Unsplash photos can be credited the way their API terms require.
+  // Older heroes were saved before we captured this and simply have none —
+  // re-pick them in Admin → Images to attach one.
+  const heroCredit = (() => {
+    try { return JSON.parse(site[`countryHeroCredit.${country}`] || 'null') } catch { return null }
+  })()
   const facts = (() => {
     try { return JSON.parse(site[`countryFacts.${country}`] || 'null') } catch { return null }
   })()
@@ -81,8 +89,12 @@ export default function ItalyHubScreen() {
         </div>
         <div className="plan-hero__media">
           {countryHero ? (
-            <img src={imgUrl(countryHero, 800)} alt={meta?.name} loading="eager" fetchpriority="high" decoding="async"
-              onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+            <>
+              <img src={imgUrl(countryHero, 800)} alt={meta?.name} loading="eager" fetchpriority="high" decoding="async"
+                onError={(e) => { const m = e.currentTarget.closest('.plan-hero__media'); if (m) m.remove() }} />
+              <PhotoCredit url={countryHero} credit={heroCredit?.credit}
+                creditUrl={heroCredit?.creditUrl} creditUsername={heroCredit?.creditUsername} />
+            </>
           ) : (
             <PlacePlaceholder iconSize={56} />
           )}

@@ -118,7 +118,7 @@ export const api = {
     discard: (country) => req('DELETE', `/builder?country=${country}`),
     export: (country) => req('GET', `/builder?action=export&country=${country}`),
     guideFile: (country, topic) => req('GET', `/builder?action=guidefile&country=${country}&topic=${topic}`),
-    setRegionHero: (country, region, url, credit) => req('POST', `/builder?action=regionhero&country=${country}&region=${region}`, { url, credit }),
+    setRegionHero: (country, region, url, credit, extra = {}) => req('POST', `/builder?action=regionhero&country=${country}&region=${region}`, { url, credit, ...extra }),
   },
   commentsAdmin: {
     list: () => req('GET', '/comments?admin=1'),

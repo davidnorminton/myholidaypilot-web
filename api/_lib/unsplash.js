@@ -109,3 +109,32 @@ export async function resolveCredit(image, queries, key, budget) {
   }
   return null
 }
+
+// Work out an image's credit fields when something saves it.
+//
+// A caller may send the full set (the admin picker, straight off an Unsplash
+// search), or just a url + a hand-typed credit (the manual row in Admin →
+// Images). Rebuilding the object naively from the body wipes a username that a
+// backfill worked hard to find, so:
+//   · explicit values from the caller always win
+//   · else, a username embedded in the credit text
+//   · else, keep what's already stored — but only while the URL is unchanged,
+//     since a different photo means a different photographer
+export function resolveCreditFields({ url, body = {}, existing = null }) {
+  const credit = String(body.credit ?? existing?.credit ?? '').slice(0, 120)
+  const sameImage = existing?.url && existing.url === url
+  const embedded = fromCreditString(credit)
+  const username = String(body.creditUsername || '').trim()
+    || embedded?.creditUsername
+    || (sameImage ? existing?.creditUsername : '') || ''
+  const profile = String(body.creditUrl || '').trim()
+    || embedded?.creditUrl
+    || (sameImage ? existing?.creditUrl : '') || ''
+  return {
+    credit,
+    creditUsername: String(username).slice(0, 120),
+    creditUrl: String(profile).slice(0, 300),
+    // A new photo invalidates a previous "couldn't find this one" verdict.
+    ...(sameImage ? {} : { creditLookupFailedAt: null }),
+  }
+}
