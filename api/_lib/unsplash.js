@@ -102,7 +102,8 @@ export async function resolveCredit(image, queries, key, budget) {
   if (!want) return null
   const tries = [...new Set([queryFromIxid(image.url), ...(queries || [])].filter(Boolean))]
   for (const q of tries) {
-    if (budget.calls >= budget.maxCalls || budget.remaining <= RESERVE) throw new Error('BUDGET')
+    if (budget.remaining <= RESERVE) throw new Error('QUOTA')
+    if (budget.calls >= budget.maxCalls) throw new Error('BUDGET')
     const hits = await searchUnsplash(q, key, budget)
     const hit = hits.find((h) => photoPath(h?.urls?.raw || '') === want)
     if (hit) return { ...unsplashCredit(hit), credit: hit.user?.name || image.credit || '', creditLookupFailedAt: null, _via: q }
@@ -137,4 +138,52 @@ export function resolveCreditFields({ url, body = {}, existing = null }) {
     // A new photo invalidates a previous "couldn't find this one" verdict.
     ...(sameImage ? {} : { creditLookupFailedAt: null }),
   }
+}
+
+// ── photographer reuse ──────────────────────────────────────────────────────
+// Photographers shoot more than one place, so a name we've already resolved
+// once needs no second lookup. Free, and it compounds: every API hit makes the
+// next images cheaper.
+//
+// Guarded, because an exact display name is strong evidence but not proof:
+//   · multi-word names only — "Luca" is two different people in our own data,
+//     "Luca Pennacchioni" is not
+//   · a name that has ever mapped to two usernames is dropped entirely
+// The failure mode we're avoiding is crediting the wrong photographer, which is
+// worse than crediting none.
+export function buildPhotographerMap(images) {
+  const seen = new Map()
+  for (const im of images) {
+    const user = im?.creditUsername
+    if (!user) continue
+    const name = creditName(im.credit)
+    if (!isReusableName(name)) continue
+    const key = name.toLowerCase()
+    if (!seen.has(key)) seen.set(key, new Map())
+    const m = seen.get(key)
+    m.set(user, { creditUsername: user, creditUrl: im.creditUrl || `https://unsplash.com/@${user}` })
+  }
+  const out = new Map()
+  for (const [name, users] of seen) {
+    if (users.size !== 1) continue      // ambiguous — never guess between them
+    out.set(name, [...users.values()][0])
+  }
+  return out
+}
+
+// The display name, with any embedded attribution stripped back off.
+export function creditName(credit) {
+  const raw = String(credit || '').trim()
+  const m = raw.match(EMBEDDED)
+  return (m ? m[1] : raw.replace(/^\s*photo\s+by\s+/i, '')).trim()
+}
+
+export const isReusableName = (name) => String(name || '').trim().split(/\s+/).filter(Boolean).length >= 2
+
+export function fromPhotographerMap(image, map) {
+  const name = creditName(image?.credit)
+  if (!isReusableName(name)) return null
+  const hit = map.get(name.toLowerCase())
+  if (!hit) return null
+  return { credit: image.credit, ...hit, creditLookupFailedAt: null }
 }

@@ -38,6 +38,7 @@ export default function AdminCredits() {
   const [data, setData] = useState(null)
   const [error, setError] = useState('')
   const [log, setLog] = useState([])
+  const [quotaWait, setQuotaWait] = useState(0)   // ms timestamp we can retry at
   const stopRef = useRef(false)
 
   const scan = async () => {
@@ -54,7 +55,7 @@ export default function AdminCredits() {
     setState('fixing'); setError(''); setLog([])
     try {
       const r = await api.builder.creditFix('free', 0)
-      say(`Free pass: ${r.fixed} credited from their own credit string · ${r.remaining} still need a lookup`)
+      say(`Free pass: ${r.fixed} credited with no API calls · ${r.remaining} still need a lookup`)
       setData(await api.builder.creditScan())
     } catch (e) { setError(e.message || 'Fix failed') }
     setState('idle')
@@ -72,9 +73,19 @@ export default function AdminCredits() {
         say(`Batch: +${r.fixed} credited, ${r.failed} not found (${r.calls} API calls)`
           + (r.quotaRemaining != null ? ` · ${r.quotaRemaining} requests left this hour` : ''))
         if (r.remaining === 0) { say('All images credited. 🎉'); break }
+        // Out of Unsplash quota. Stop dead — retrying spends the trickle we get
+        // back and keeps the tank pinned at zero, which is exactly the hole this
+        // used to dig. Nothing to do but wait for the hour to turn.
+        if (r.quotaRemaining != null && r.quotaRemaining <= 2) {
+          setQuotaWait(r.quotaReadyAt || Date.now() + 3600000)
+          say(r.stopped || 'Unsplash quota spent.')
+          say(`${r.remaining} images still to do — come back next hour and press the button again. Progress is saved.`)
+          break
+        }
+        if (r.stopped && (r.stopped.includes('quota') || r.stopped.includes('429'))) {
+          setQuotaWait(r.quotaReadyAt || Date.now() + 3600000); say(r.stopped); break
+        }
         if (r.fixed === 0 && r.failed === 0) { say(r.stopped || 'Nothing left this pass.'); break }
-        if (r.stopped && r.stopped.includes('quota')) { say(`${r.stopped} — come back in an hour and continue.`); break }
-        if (r.stopped && r.stopped.includes('429')) { say(r.stopped); break }
       }
       say(`Done this session: ${total} credited, ${misses} unmatched.`)
       setData(await api.builder.creditScan())
@@ -117,8 +128,12 @@ export default function AdminCredits() {
             <button className="btn btn--soft" onClick={fixFree} disabled={busy || !t.free}>
               <Zap size={14} /> Fix {t.free} free
             </button>
-            <button className="btn btn--soft" onClick={() => fixApi(false)} disabled={busy || !t.api}>
-              <Camera size={14} /> Look up {t.api} via Unsplash
+            <button className="btn btn--soft" onClick={() => fixApi(false)}
+              disabled={busy || !t.api || quotaWait > Date.now()}
+              title={quotaWait > Date.now() ? `Unsplash quota spent — try after ${new Date(quotaWait).toLocaleTimeString()}` : ''}>
+              <Camera size={14} /> {quotaWait > Date.now()
+                ? `Quota spent — retry after ${new Date(quotaWait).toLocaleTimeString()}`
+                : `Look up ${t.api} via Unsplash`}
             </button>
             {!!t.failed && (
               <button className="btn btn--soft" onClick={() => fixApi(true)} disabled={busy}>

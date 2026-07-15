@@ -1,6 +1,7 @@
 import { getDb, schema, eq, and, asc } from '../db.js'
 import { send, readBody, fail } from '../util.js'
-import { isUnsplashUrl, fromCreditString, resolveCredit, RESERVE } from '../unsplash.js'
+import { isUnsplashUrl, fromCreditString, resolveCredit, RESERVE,
+  buildPhotographerMap, fromPhotographerMap } from '../unsplash.js'
 const { builds, buildRegions, buildPlaces, siteSettings } = schema
 
 // Moved verbatim out of api/builder.js — behaviour-identical. Every matched
@@ -68,37 +69,88 @@ export async function scanActions(req, res, db, q) {
 
     if (mode === 'free') {
       let fixed = 0
+      // 1. usernames already sitting in the credit text
       for (const r of missing) {
         const got = fromCreditString(r.image?.credit)
         if (!got) continue
         await save(r, { ...got, creditLookupFailedAt: null })
+        r.image = { ...r.image, ...got }
         fixed++
       }
-      const left = missing.length - fixed
+      // 2. photographers we've already identified on another photo. Rebuild the
+      //    map after step 1 so those 100-odd names are in it, and re-run until
+      //    it settles — each resolve can unlock more.
+      for (;;) {
+        const map = buildPhotographerMap(unsplash.map((r) => r.image).filter((i) => i?.creditUsername))
+        let round = 0
+        for (const r of missing) {
+          if (r.image?.creditUsername) continue
+          const got = fromPhotographerMap(r.image, map)
+          if (!got) continue
+          await save(r, got)
+          r.image = { ...r.image, ...got }
+          round++; fixed++
+        }
+        if (!round) break
+      }
+      const left = missing.filter((r) => !r.image?.creditUsername).length
       return send(res, 200, { mode, fixed, failed: 0, remaining: left, calls: 0, stopped: '' })
     }
 
     // mode === 'api'
     const settings = await db.select().from(siteSettings)
-    const key = Object.fromEntries(settings.map((s) => [s.key, s.value]))['secret.unsplashKey']
+    const bySetting = Object.fromEntries(settings.map((s) => [s.key, s.value]))
+    const key = bySetting['secret.unsplashKey']
     if (!key) throw fail(400, 'Add your Unsplash Access Key in Admin → AI first')
+
+    // Unsplash only tells us the remaining quota in a response header, so a
+    // stateless function has to spend a request to discover it's out of them.
+    // That's a trap: with the tank near empty every batch burned its one call
+    // learning it had none, made no progress, and kept the quota pinned at zero.
+    // So remember what the last batch was told and don't set off at all.
+    let known = null
+    try { known = JSON.parse(bySetting['unsplash.quota'] || 'null') } catch { known = null }
+    const HOUR = 60 * 60 * 1000
+    const fresh = known && Date.now() - known.at < HOUR
+    if (fresh && known.remaining <= RESERVE) {
+      const readyAt = known.at + HOUR
+      const after = await db.select({ image: buildPlaces.image }).from(buildPlaces)
+      return send(res, 200, {
+        mode, fixed: 0, failed: 0, calls: 0,
+        remaining: after.filter((r) => isUnsplashUrl(r.image?.url) && !r.image?.creditUsername).length,
+        quotaRemaining: known.remaining, quotaReadyAt: readyAt,
+        stopped: `Unsplash quota spent — resets around ${new Date(readyAt).toLocaleTimeString()}`,
+      })
+    }
+    const rememberQuota = (remaining) => (Number.isFinite(remaining)
+      ? db.insert(siteSettings).values({ key: 'unsplash.quota', value: JSON.stringify({ remaining, at: Date.now() }), updatedAt: Date.now() })
+        .onConflictDoUpdate({ target: siteSettings.key, set: { value: JSON.stringify({ remaining, at: Date.now() }), updatedAt: Date.now() } })
+      : Promise.resolve())
 
     const queue = missing.filter((r) => !fromCreditString(r.image?.credit))
       .filter((r) => (retryFailed ? true : !r.image?.creditLookupFailedAt))
-    const budget = { calls: 0, maxCalls: limit, remaining: Infinity }
+    // Only trust a *fresh* reading. A stale one is from a previous hour, when the
+    // tank was empty — seeding from it would refuse to start for ever. Unknown
+    // means Infinity: spend one call to find out, which is the whole point of a
+    // new hour.
+    const budget = { calls: 0, maxCalls: limit, remaining: fresh ? (known?.remaining ?? Infinity) : Infinity }
+    let map = buildPhotographerMap(unsplash.map((r) => r.image).filter((i) => i?.creditUsername))
     let fixed = 0, failed = 0, stopped = '', errs = 0
 
     for (const r of queue) {
-      if (budget.calls >= budget.maxCalls || budget.remaining <= RESERVE) {
-        stopped = budget.remaining <= RESERVE ? 'Unsplash quota nearly spent' : 'batch limit reached'
-        break
-      }
+      if (budget.remaining <= RESERVE) { stopped = 'Unsplash quota spent — try again next hour'; break }
+      if (budget.calls >= budget.maxCalls) { stopped = 'batch limit reached'; break }
+      // Free first: this photographer may have been identified since the batch
+      // started, by an earlier lookup in this very loop.
+      const reused = fromPhotographerMap(r.image, map)
+      if (reused) { await save(r, reused); r.image = { ...r.image, ...reused }; fixed++; continue }
       let got = null
       try {
         got = await resolveCredit(r.image, r.data?.imageQueries, key, budget)
         errs = 0
       } catch (e) {
         const m = String(e.message)
+        if (m === 'QUOTA') { stopped = 'Unsplash quota spent — try again next hour'; break }
         if (m === 'BUDGET') { stopped = 'batch limit reached'; break }
         if (m === 'RATE_LIMIT') { stopped = 'Unsplash rate limit (429) — wait an hour'; break }
         // Transient (network, a one-off 5xx): do NOT record it as "this photo is
@@ -111,6 +163,9 @@ export async function scanActions(req, res, db, q) {
       if (got) {
         const { _via, ...fields } = got
         await save(r, fields)
+        r.image = { ...r.image, ...fields }
+        // Every hit makes the rest of the batch cheaper.
+        map = buildPhotographerMap(unsplash.map((x) => x.image).filter((i) => i?.creditUsername))
         fixed++
       } else {
         // Remember it, so the next batch doesn't spend quota failing again.
@@ -119,6 +174,7 @@ export async function scanActions(req, res, db, q) {
       }
     }
 
+    await rememberQuota(budget.remaining)
     const after = await db.select({ image: buildPlaces.image }).from(buildPlaces)
     const remaining = after.filter((r) => isUnsplashUrl(r.image?.url) && !r.image?.creditUsername).length
     return send(res, 200, {
