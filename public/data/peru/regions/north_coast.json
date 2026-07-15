@@ -1,0 +1,1472 @@
+{
+  "id": "north_coast",
+  "name": "North Coast",
+  "nameIt": "Costa Norte",
+  "capital": "Trujillo",
+  "lat": -8.13,
+  "lng": -79.03,
+  "emoji": "🏖️",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": -6.8,
+    "south": -9.5,
+    "east": -78.5,
+    "west": -79.8
+  },
+  "history": "The North Coast of Peru was home to some of the Americas' most sophisticated pre-Columbian civilizations, including the Moche and Chimú cultures, whose architectural and artistic achievements remain evident in sites like Chan Chan and the Pyramid of the Sun. These societies developed advanced irrigation systems and created distinctive pottery and textiles that revealed their complex understanding of astronomy and agriculture. The Spanish conquest in the 16th century brought colonial rule and the introduction of African slaves alongside indigenous labor, fundamentally reshaping the region's demographic and cultural landscape. Following independence, the North Coast became an important center for agricultural production, particularly sugar cane, which drove both economic growth and migration patterns that continue to influence the region today.",
+  "culturalNotes": "The North Coast maintains a vibrant mestizo culture that blends indigenous Moche heritage with Spanish colonial traditions and African influences, visible in its music, cuisine, and festivals. The region is particularly known for its marinera dancing, colorful textiles, and distinctive dishes like ceviche and arroz con pato, which reflect the area's strong connection to both ocean and agricultural resources. The people of the North Coast take great pride in their archaeological legacy, with many communities actively preserving and interpreting the ruins and artifacts of their ancestors.",
+  "bestTimeToVisit": "Visit from December to March for beach weather, though the region is pleasant year-round.",
+  "languageNotes": "Spanish is the primary language spoken throughout the North Coast, though many older residents and indigenous communities maintain knowledge of Quechua and other pre-Hispanic languages. Useful phrases include \"¿Dónde está...?\" (Where is...?), \"¿Cuánto cuesta?\" (How much does it cost?), and \"Muchas gracias\" (Thank you very much).",
+  "generatedAt": "2026-07-14T20:48:37.201Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "trujillo",
+      "name": "Trujillo",
+      "nameIt": "Trujillo",
+      "lat": -8.127,
+      "lng": -79.0277,
+      "type": "CITY",
+      "description": "Peru's third-largest city and the cultural heart of the North Coast, featuring stunning colonial architecture and excellent museums dedicated to pre-Columbian civilizations. It serves as the main hub for exploring the region's archaeological treasures and offers quality restaurants, hotels, and vibrant local culture.",
+      "imageQueries": [
+        "Trujillo Peru colonial architecture",
+        "Plaza de Armas Trujillo Peru"
+      ],
+      "activities": [
+        {
+          "id": "truj_1",
+          "text": "Chan Chan Archaeological Complex",
+          "detail": "Explore the largest pre-Columbian adobe city in South America, a UNESCO World Heritage site featuring intricate geometric designs and royal palaces of the Chimú civilization.",
+          "lat": -8.1012,
+          "lng": -79.0767
+        },
+        {
+          "id": "truj_2",
+          "text": "Moche Pyramid of the Sun (Huaca del Sol)",
+          "detail": "Visit this massive adobe pyramid built by the Moche culture around 100 CE, standing 41 meters tall and offering insights into pre-Columbian engineering.",
+          "lat": -8.1642,
+          "lng": -79.2047
+        },
+        {
+          "id": "truj_3",
+          "text": "Moche Pyramid of the Moon (Huaca de la Luna)",
+          "detail": "Discover this ritual and ceremonial pyramid featuring beautifully preserved polychrome murals depicting mythological scenes and Moche deity representations.",
+          "lat": -8.1659,
+          "lng": -79.2042
+        },
+        {
+          "id": "truj_4",
+          "text": "Museo de la Nación",
+          "detail": "Tour Peru's premier anthropological museum housed in a neoclassical mansion, displaying comprehensive collections of pre-Columbian artifacts from Moche, Chimú, and other cultures.",
+          "lat": -8.1267,
+          "lng": -79.034
+        },
+        {
+          "id": "truj_5",
+          "text": "Plaza de Armas and Colonial Center",
+          "detail": "Stroll through Trujillo's main square surrounded by well-preserved Spanish colonial architecture including the Cathedral and government buildings dating to the 16th-17th centuries.",
+          "lat": -8.1267,
+          "lng": -79.034
+        },
+        {
+          "id": "truj_6",
+          "text": "Casa de la Emancipación",
+          "detail": "Visit this colonial mansion where Peru's independence was proclaimed in 1821, now a cultural center hosting exhibitions and featuring restored period rooms.",
+          "lat": -8.127,
+          "lng": -79.0345
+        },
+        {
+          "id": "truj_7",
+          "text": "El Brujo Archaeological Complex",
+          "detail": "Explore this site featuring the Moche Pyramid of the Moon and ancient adobe structures, where the 'Señora de Cao' mummy was discovered in 2006.",
+          "lat": -8.0489,
+          "lng": -79.2319
+        }
+      ],
+      "food": [
+        {
+          "id": "truj_f1",
+          "text": "Ceviche Trujillano",
+          "detail": "A regional variation of Peru's national dish featuring fresh fish marinated in lime juice with unique local touches like panca chili peppers and served with local sweet potatoes."
+        },
+        {
+          "id": "truj_f2",
+          "text": "Espresso Negro",
+          "detail": "A traditional Trujillo dessert of dark chocolate mousse layered with cream, reflecting the city's colonial chocolate-making heritage."
+        },
+        {
+          "id": "truj_f3",
+          "text": "Sopa a la Criolla",
+          "detail": "A hearty traditional soup made with beef broth, noodles, potatoes, and topped with a fried egg and lime, commonly eaten at breakfast or lunch."
+        },
+        {
+          "id": "truj_f4",
+          "text": "Causa Limeña (Trujillo style)",
+          "detail": "A layered dish of mashed yellow potatoes with lime and aji, filled with chicken or seafood, served cold and prepared with local coastal ingredients."
+        },
+        {
+          "id": "truj_f5",
+          "text": "Anticuchos",
+          "detail": "Marinated grilled meat skewers using beef heart or chicken, seasoned with cumin and aji, sold by street vendors and a popular local snack."
+        },
+        {
+          "id": "truj_f6",
+          "text": "Chicha de Jora",
+          "detail": "A traditional fermented corn beverage with pre-Columbian origins, still prepared locally and offered at markets and traditional gatherings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "truj_c1",
+          "text": "Archaeological site etiquette",
+          "detail": "Wear comfortable walking shoes and bring sun protection when visiting ruins, as sites like Chan Chan and Huaca del Sol involve extensive outdoor exploration under intense coastal sun."
+        },
+        {
+          "id": "truj_c2",
+          "text": "Midday closures and timing",
+          "detail": "Many museums and shops close between 1-3 PM for lunch, so plan morning museum visits and afternoon archaeological exploration to align with local schedules."
+        },
+        {
+          "id": "truj_c3",
+          "text": "Spanish language helps",
+          "detail": "While major tourist sites have English speakers, speaking basic Spanish significantly enhances interactions with locals and deeper understanding at smaller museums and archaeological sites."
+        },
+        {
+          "id": "truj_c4",
+          "text": "Festival season awareness",
+          "detail": "Trujillo celebrates its Festival Internacional de la Primavera (Spring Festival) in September with parades, horses, and cultural events; book accommodations in advance if visiting during this period."
+        }
+      ]
+    },
+    {
+      "id": "chan_chan",
+      "name": "Chan Chan",
+      "nameIt": "Chan Chan",
+      "lat": -8.1019,
+      "lng": -79.0697,
+      "type": "LANDMARK",
+      "description": "The largest pre-Columbian adobe city in South America and UNESCO World Heritage Site, built by the Chimú civilization around 1300 CE. The intricate mud-brick architecture, geometric patterns, and vast scale make it one of Peru's most impressive archaeological sites.",
+      "imageQueries": [
+        "Chan Chan archaeological site Peru",
+        "Chan Chan Chimú adobe city"
+      ],
+      "activities": [
+        {
+          "id": "chan_1",
+          "text": "Explore the Royal Compounds",
+          "detail": "Walk through the restored palaces of Chimú nobility, including the Tschudi Complex, to see intricate adobe friezes, audiencias (reception halls), and residential chambers arranged around courtyards.",
+          "lat": -8.0995,
+          "lng": -79.0756
+        },
+        {
+          "id": "chan_2",
+          "text": "Visit the Museum of Chan Chan",
+          "detail": "View artifacts recovered from the site including textiles, pottery, and tools that illustrate daily Chimú life and craftsmanship.",
+          "lat": -8.0992,
+          "lng": -79.0743
+        },
+        {
+          "id": "chan_3",
+          "text": "Climb the Viewing Platform",
+          "detail": "Ascend to elevated viewpoints within the citadel to observe the vast urban layout and geometric precision of the 20-square-kilometer site from above.",
+          "lat": -8.1002,
+          "lng": -79.0765
+        },
+        {
+          "id": "chan_4",
+          "text": "Study the Adobe Friezes",
+          "detail": "Examine the detailed geometric and zoomorphic relief patterns carved into adobe walls, depicting fish, birds, and abstract designs unique to Chimú artistry."
+        },
+        {
+          "id": "chan_5",
+          "text": "Walk the Restored Huaca Esmeralda",
+          "detail": "Tour a smaller ceremonial pyramid within Chan Chan's northern section to see well-preserved adobe architecture and ritual spaces."
+        },
+        {
+          "id": "chan_6",
+          "text": "Guided Night Tour",
+          "detail": "Experience the site at sunset when shadows highlight the adobe relief work and reveal details invisible in direct daylight."
+        }
+      ],
+      "food": [
+        {
+          "id": "chan_f1",
+          "text": "Ceviche de lenguado",
+          "detail": "Fresh local sole or flounder cured in lime juice with chilies and served with sweet potato and corn, a North Coast specialty reflecting the nearby Pacific."
+        },
+        {
+          "id": "chan_f2",
+          "text": "Arroz con pato",
+          "detail": "Rice cooked with duck, cilantro, and beer, creating a rich, aromatic dish popular in the Trujillo region near Chan Chan."
+        },
+        {
+          "id": "chan_f3",
+          "text": "Causa limena",
+          "detail": "A layered potato terrine with lime juice, avocado, and fresh fish or shrimp, often served as an appetizer throughout the North Coast."
+        },
+        {
+          "id": "chan_f4",
+          "text": "Espresso with local pastry",
+          "detail": "Enjoy strong Peruvian coffee paired with a freshly baked empanada or humita (corn pastry) at a café in nearby Trujillo."
+        },
+        {
+          "id": "chan_f5",
+          "text": "Chicha de jora",
+          "detail": "A traditional fermented maize beverage with ancient Chimú roots, still made locally and offered at markets and small eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chan_c1",
+          "text": "Hire an official guide",
+          "detail": "A licensed guide from the visitor center is essential to understand the layout, decode the adobe symbolism, and access restricted zones safely."
+        },
+        {
+          "id": "chan_c2",
+          "text": "Visit early morning or late afternoon",
+          "detail": "The North Coast sun is intense; visiting outside midday protects you from heat exhaustion and provides better photography and viewing conditions."
+        },
+        {
+          "id": "chan_c3",
+          "text": "Respect site boundaries and ropes",
+          "detail": "Many areas are fragile adobe; staying on marked paths preserves the site and keeps you safe from unstable structures."
+        },
+        {
+          "id": "chan_c4",
+          "text": "Learn basic Chimú history beforehand",
+          "detail": "Understanding the Chimú civilization's conquest by the Inca and later by Spanish conquistadors enriches your interpretation of the abandoned city."
+        }
+      ]
+    },
+    {
+      "id": "moche",
+      "name": "Moche",
+      "nameIt": "Moche",
+      "lat": -8.1633,
+      "lng": -79.1272,
+      "type": "LANDMARK",
+      "description": "An important ceremonial center of the Moche civilization featuring the iconic Pyramid of the Sun (Huaca del Sol) and Pyramid of the Moon (Huaca de la Luna). The site offers remarkable insights into one of Peru's most sophisticated pre-Columbian cultures through stunning murals and pottery.",
+      "imageQueries": [
+        "Huaca del Sol Moche Peru",
+        "Moche pyramid ceremonial site"
+      ],
+      "activities": [
+        {
+          "id": "moch_1",
+          "text": "Explore Huaca del Sol",
+          "detail": "Climb the massive adobe pyramid that once served as the royal palace and administrative center of the Moche civilization, offering panoramic views of the Moche Valley.",
+          "lat": -8.3795,
+          "lng": -79.0165
+        },
+        {
+          "id": "moch_2",
+          "text": "Tour Huaca de la Luna",
+          "detail": "Visit the ceremonial temple with its vivid polychrome murals depicting Moche deities and sacrificial scenes, which have been carefully restored and documented.",
+          "lat": -8.3815,
+          "lng": -79.0145
+        },
+        {
+          "id": "moch_3",
+          "text": "View Moche Pottery and Artifacts",
+          "detail": "Examine intricate ceramic vessels, portrait heads, and sculptural pieces at the on-site museum that reveal details about Moche daily life, warfare, and religious practices.",
+          "lat": -8.38,
+          "lng": -79.0155
+        },
+        {
+          "id": "moch_4",
+          "text": "Walk the Archaeological Site",
+          "detail": "Traverse the expansive grounds between the two pyramids to understand the spatial layout of this major Moche center and spot additional smaller structures and residential areas.",
+          "lat": -8.381,
+          "lng": -79.0155
+        },
+        {
+          "id": "moch_5",
+          "text": "Attend a Guided Mural Interpretation",
+          "detail": "Join a specialized tour to decode the symbolism in Huaca de la Luna's murals, including representations of the Ai Apaec deity and ritual bloodletting ceremonies.",
+          "lat": -8.3815,
+          "lng": -79.0145
+        },
+        {
+          "id": "moch_6",
+          "text": "Photograph at Sunset",
+          "detail": "Capture the pyramids in golden light during late afternoon when shadows enhance the architectural details and mud-brick textures are most visible."
+        }
+      ],
+      "food": [
+        {
+          "id": "moch_f1",
+          "text": "Ceviche de Caballa",
+          "detail": "Fresh mackerel cured in lime juice with local chilies and served with sweet potato and corn, a coastal specialty reflecting the region's Pacific access."
+        },
+        {
+          "id": "moch_f2",
+          "text": "Causa Limeña",
+          "detail": "Layered dish of seasoned mashed potatoes with avocado, chicken, or seafood, traditionally enjoyed as a cold appetizer throughout the La Libertad region."
+        },
+        {
+          "id": "moch_f3",
+          "text": "Arroz con Pato",
+          "detail": "Duck cooked with cilantro, beer, and rice in a single pot, a beloved North Coast dish with pre-Hispanic roots that appears on many local menus."
+        },
+        {
+          "id": "moch_f4",
+          "text": "Espuma de Camote",
+          "detail": "Whipped sweet potato dessert topped with condensed milk and fresh fruit, reflecting indigenous root crops used since Moche times."
+        },
+        {
+          "id": "moch_f5",
+          "text": "Chicha de Jora",
+          "detail": "Fermented corn beverage prepared traditionally with sprouted maize, historically consumed in ceremonial contexts and still made locally."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moch_c1",
+          "text": "Hire a Licensed Local Guide",
+          "detail": "Use an official guide from the site to accurately interpret the complex iconography and historical context, as many details require expertise to understand fully."
+        },
+        {
+          "id": "moch_c2",
+          "text": "Respect Sacred Space",
+          "detail": "Remember that these are ancient ceremonial and burial sites; avoid touching murals or artifacts, and follow all marked pathways to protect ongoing archaeological work."
+        },
+        {
+          "id": "moch_c3",
+          "text": "Visit During Cooler Hours",
+          "detail": "Arrive early morning or late afternoon as the North Coast sun is intense; bring water, sun protection, and sturdy footwear for walking over uneven adobe structures."
+        },
+        {
+          "id": "moch_c4",
+          "text": "Learn Basic Spanish",
+          "detail": "While some guides speak English, having basic Spanish phrases helps with deeper conversations about Moche cosmology and local perspectives on pre-Columbian heritage."
+        }
+      ]
+    },
+    {
+      "id": "chiclayo",
+      "name": "Chiclayo",
+      "nameIt": "Chiclayo",
+      "lat": -6.7735,
+      "lng": -79.8409,
+      "type": "CITY",
+      "description": "A vibrant commercial hub and gateway to the northern archaeological sites, home to the excellent Museo Tungas Reales which houses treasures from the royal tombs of Sipán. The city itself offers lively markets, good food, and a genuine Peruvian provincial atmosphere.",
+      "imageQueries": [
+        "Chiclayo Peru city center",
+        "Museo Tungas Reales Chiclayo"
+      ],
+      "activities": [
+        {
+          "id": "chic_1",
+          "text": "Museo Tungas Reales",
+          "detail": "Explore Peru's most important collection of pre-Incan treasures from the Royal Tombs of Sipán, including gold artifacts, ceramics, and jewelry from the Moche civilization.",
+          "lat": -6.7349,
+          "lng": -79.32
+        },
+        {
+          "id": "chic_2",
+          "text": "Sipán Archaeological Complex",
+          "detail": "Visit the ancient Moche royal burial site 35km outside the city where intricate tombs and pyramids reveal one of Peru's most significant pre-Columbian discoveries.",
+          "lat": -6.4856,
+          "lng": -79.4067
+        },
+        {
+          "id": "chic_3",
+          "text": "Mercado Modelo",
+          "detail": "Wander through Chiclayo's sprawling central market where vendors sell everything from local crafts and textiles to fresh produce and regional specialties in a chaotic, authentic atmosphere.",
+          "lat": -6.74,
+          "lng": -79.33
+        },
+        {
+          "id": "chic_4",
+          "text": "Plaza de Armas",
+          "detail": "Stroll through the heart of Chiclayo's colonial center, surrounded by neoclassical architecture, local shops, and cafés where locals gather throughout the day.",
+          "lat": -6.733,
+          "lng": -79.3253
+        },
+        {
+          "id": "chic_5",
+          "text": "Huaca Rajada",
+          "detail": "Explore the pyramid complex near Sipán where the Lord of Sipán tomb was discovered, offering insights into Moche religious and burial practices.",
+          "lat": -6.4917,
+          "lng": -79.4033
+        },
+        {
+          "id": "chic_6",
+          "text": "Brüning Archaeological Museum",
+          "detail": "View an extensive collection of pre-Columbian ceramics, textiles, and artifacts spanning multiple northern Peru cultures in a well-organized colonial mansion.",
+          "lat": -6.7349,
+          "lng": -79.32
+        },
+        {
+          "id": "chic_7",
+          "text": "El Peñol Beach Day Trip",
+          "detail": "Travel 60km north to this popular beach town for swimming, seafood dining, and a more relaxed coastal experience than Chiclayo itself offers.",
+          "lat": -6.8333,
+          "lng": -79.5
+        }
+      ],
+      "food": [
+        {
+          "id": "chic_f1",
+          "text": "Arroz con Pato",
+          "detail": "A signature northern Peruvian dish of rice cooked with duck, cilantro, and beer that is savory, rich, and particularly celebrated in Chiclayo's restaurants."
+        },
+        {
+          "id": "chic_f2",
+          "text": "Ceviche Nortesino",
+          "detail": "Fresh raw fish marinated in lime juice with local green chilies, served with yuca and served at seaside restaurants and cevicherías throughout the city."
+        },
+        {
+          "id": "chic_f3",
+          "text": "Causa Limeña",
+          "detail": "A layered dish of mashed yellow potatoes mixed with lime and chilies, topped with chicken, avocado, and hard-boiled egg, served cold as a regional favorite."
+        },
+        {
+          "id": "chic_f4",
+          "text": "Espesado",
+          "detail": "A hearty slow-cooked stew of beef or mutton with potatoes, served thick and warming, representative of traditional Andean-coastal fusion cooking."
+        },
+        {
+          "id": "chic_f5",
+          "text": "Fresh Juice and Anticuchos Street Food",
+          "detail": "Sample freshly squeezed tropical fruit juices at market stalls and grilled marinated meat skewers from street vendors as quick, authentic local snacks."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chic_c1",
+          "text": "Haggling is Expected in Markets",
+          "detail": "At Mercado Modelo and informal markets, vendors expect and enjoy negotiation on prices, particularly for crafts, textiles, and non-food items."
+        },
+        {
+          "id": "chic_c2",
+          "text": "Dress Practically for Heat and Dust",
+          "detail": "Chiclayo sits in a desert region with strong sun and dusty streets, so lightweight, breathable clothing and sunscreen are essential for comfortable exploration."
+        },
+        {
+          "id": "chic_c3",
+          "text": "Speak Some Spanish",
+          "detail": "As a provincial city, English is rarely spoken outside hotels and tour agencies, so basic Spanish phrases are invaluable for navigating markets and restaurants."
+        },
+        {
+          "id": "chic_c4",
+          "text": "Timing for Site Visits",
+          "detail": "Archaeological sites like Sipán and Huaca Rajada are best visited early morning to avoid intense midday heat and crowds, and hiring a local guide enriches the experience significantly."
+        }
+      ]
+    },
+    {
+      "id": "sipan",
+      "name": "Sipán",
+      "nameIt": "Sipán",
+      "lat": -6.4914,
+      "lng": -79.5947,
+      "type": "LANDMARK",
+      "description": "An extraordinary Moche royal burial site discovered in 1987, revealing one of the richest tombs in the Americas with gold artifacts, weapons, and ceramics. The on-site museum and excavations provide unparalleled insights into Moche elite culture and craftsmanship.",
+      "imageQueries": [
+        "Sipán royal tomb Moche",
+        "Sipán archaeological site Peru"
+      ],
+      "activities": [
+        {
+          "id": "sipa_1",
+          "text": "Royal Tombs Museum Tour",
+          "detail": "Explore the on-site museum housing the Lord of Sipán's gold regalia, intricate ceramics, and ceremonial weapons that revolutionized understanding of Moche civilization.",
+          "lat": -6.4858,
+          "lng": -79.5547
+        },
+        {
+          "id": "sipa_2",
+          "text": "Pyramid Excavation Site Walk",
+          "detail": "Walk through the active archaeological dig areas of the Huaca Rajada pyramids where the tomb was discovered, observing ongoing research and restoration work.",
+          "lat": -6.4865,
+          "lng": -79.5543
+        },
+        {
+          "id": "sipa_3",
+          "text": "Gold Artifact Viewing",
+          "detail": "Study the remarkably preserved gold nose ornaments, ear spools, breastplates, and ritual objects displayed in climate-controlled cases that showcase Moche metalworking mastery.",
+          "lat": -6.4858,
+          "lng": -79.5547
+        },
+        {
+          "id": "sipa_4",
+          "text": "Ceramic Collection Study",
+          "detail": "Examine thousands of finely painted Moche vessels depicting daily life, mythological scenes, and portraits that provide detailed records of pre-Columbian North Coast society.",
+          "lat": -6.4858,
+          "lng": -79.5547
+        },
+        {
+          "id": "sipa_5",
+          "text": "Lambayeque Region Museum Day Trip",
+          "detail": "Visit the nearby Brunning Museum in Lambayeque town to see additional Moche artifacts and gain broader context for the Sipán discoveries.",
+          "lat": -6.7147,
+          "lng": -79.3926
+        },
+        {
+          "id": "sipa_6",
+          "text": "Sunrise Pyramid Viewing",
+          "detail": "Arrive early to the site for a quiet morning visit when light illuminates the restored pyramid structures and provides optimal photography conditions."
+        }
+      ],
+      "food": [
+        {
+          "id": "sipa_f1",
+          "text": "Ceviche de Lambayeque",
+          "detail": "Fresh raw fish cured in lime juice with local white fish, served with cancha corn and sweet potato, representing the coastal Peruvian classic prepared with regional variations."
+        },
+        {
+          "id": "sipa_f2",
+          "text": "Arroz con Pato",
+          "detail": "A North Coast specialty of rice cooked with duck, cilantro, and beer that is hearty and deeply flavored, considered a signature dish of the Lambayeque region."
+        },
+        {
+          "id": "sipa_f3",
+          "text": "Espesado de Choclo",
+          "detail": "A thick corn-based stew featuring large Peruvian corn kernels, squash, and local meats that represents traditional highland-coastal fusion cooking of the North."
+        },
+        {
+          "id": "sipa_f4",
+          "text": "Tamal Lambayecano",
+          "detail": "Steamed corn dough wrapped in banana leaves with chicken, olives, and hard-boiled eggs, sold fresh at local markets and street stalls throughout the region."
+        },
+        {
+          "id": "sipa_f5",
+          "text": "Chicha de Jora Tasting",
+          "detail": "Sample this traditional fermented corn drink that was consumed by Moche elites and remains culturally significant, available at local community gatherings and some restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sipa_c1",
+          "text": "Respect Photography Guidelines",
+          "detail": "Check with museum staff before photographing artifacts inside, as many displays prohibit flash photography to protect ancient textiles and gold finishes."
+        },
+        {
+          "id": "sipa_c2",
+          "text": "Learn Moche Significance",
+          "detail": "Understanding that this site represents not just wealth but sophisticated governance and spiritual beliefs of the Moche people enhances appreciation for the artifacts beyond their monetary value."
+        },
+        {
+          "id": "sipa_c3",
+          "text": "Visit with a Local Guide",
+          "detail": "Hiring an on-site guide enriches the experience by explaining the archaeological techniques used, the burial rituals represented, and the ongoing discoveries at Huaca Rajada."
+        },
+        {
+          "id": "sipa_c4",
+          "text": "Time Your Visit Strategically",
+          "detail": "Visit between June and September for cooler temperatures and less intense sun, as the desert location offers minimal shade and the North Coast can be extremely hot in summer months."
+        }
+      ]
+    },
+    {
+      "id": "chicama",
+      "name": "Chicama",
+      "nameIt": "Chicama",
+      "lat": -8.3869,
+      "lng": -79.1425,
+      "type": "COASTAL",
+      "description": "A charming fishing village known for having the world's longest wave for surfing, stretching up to 2.2 kilometers on good days. The village offers a relaxed beach atmosphere, fresh seafood, and access to both water sports and nearby archaeological sites.",
+      "imageQueries": [
+        "Chicama longest wave surfing",
+        "Chicama beach village Peru"
+      ],
+      "activities": [
+        {
+          "id": "chic_1",
+          "text": "Surf the Chicama Wave",
+          "detail": "Ride the world's longest left-hand wave, which can extend up to 2.2 kilometers during optimal swell conditions between March and September.",
+          "lat": -8.3833,
+          "lng": -79.15
+        },
+        {
+          "id": "chic_2",
+          "text": "Visit Huaca Prieta",
+          "detail": "Explore this pre-ceramic archaeological site located about 15 kilometers south of Chicama, one of the oldest settlements on the Peruvian coast dating back over 13,000 years.",
+          "lat": -8.45,
+          "lng": -79.1833
+        },
+        {
+          "id": "chic_3",
+          "text": "Fish from Local Boats",
+          "detail": "Join local fishermen on early morning trips to experience traditional artisanal fishing practices and learn about the Pacific's rich marine life.",
+          "lat": -8.3833,
+          "lng": -79.15
+        },
+        {
+          "id": "chic_4",
+          "text": "Walk the Village Beach",
+          "detail": "Stroll along the sandy shores to observe fishermen unloading their daily catches and enjoy the relaxed coastal atmosphere of this working fishing village.",
+          "lat": -8.3833,
+          "lng": -79.15
+        },
+        {
+          "id": "chic_5",
+          "text": "Kayak in the Bay",
+          "detail": "Paddle through Chicama Bay on calm days to appreciate the coastal landscape and spot local seabirds and marine life from a different perspective.",
+          "lat": -8.3833,
+          "lng": -79.15
+        },
+        {
+          "id": "chic_6",
+          "text": "Visit El Brujo Archaeological Complex",
+          "detail": "Tour this significant pre-Incan site about 60 kilometers away featuring the Moche pyramids and the famous mummy of the Lady of Cao, one of Peru's most important archaeological discoveries.",
+          "lat": -8.1167,
+          "lng": -79.25
+        }
+      ],
+      "food": [
+        {
+          "id": "chic_f1",
+          "text": "Ceviche de Pez Gato",
+          "detail": "Fresh catfish ceviche marinated in lime juice with local white fish, served with chilies and cilantro, showcasing the village's daily catch."
+        },
+        {
+          "id": "chic_f2",
+          "text": "Arroz con Mariscos",
+          "detail": "A coastal rice dish loaded with fresh shrimp, clams, squid, and local shellfish, seasoned with cumin and served at waterfront restaurants."
+        },
+        {
+          "id": "chic_f3",
+          "text": "Chupe de Camarones",
+          "detail": "Creamy shrimp stew made with potatoes, corn, and fresh herbs, a warming dish often prepared by local families using that day's market seafood."
+        },
+        {
+          "id": "chic_f4",
+          "text": "Espevitado",
+          "detail": "A traditional Chicama specialty of lightly fried fish served with onions, tomatoes, and peppers, typically enjoyed for lunch at beachside stalls."
+        },
+        {
+          "id": "chic_f5",
+          "text": "Fresh Fish Grilled on the Beach",
+          "detail": "Whole fish caught that morning, cleaned and grilled simply over charcoal by fishermen or casual restaurants, served with lime and salt."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chic_c1",
+          "text": "Respect Fishing Hours",
+          "detail": "Fishermen work before dawn and in early afternoon, so plan beach activities around these times and avoid interference with working boats and nets."
+        },
+        {
+          "id": "chic_c2",
+          "text": "Learn Basic Spanish",
+          "detail": "Chicama is a small, traditional village where English is rarely spoken; knowing basic Spanish phrases helps you connect with locals and navigate better."
+        },
+        {
+          "id": "chic_c3",
+          "text": "Seasonal Surfing Culture",
+          "detail": "The best swell season runs from March to September; during off-season months the wave diminishes significantly, so time your visit accordingly if surfing is your priority."
+        },
+        {
+          "id": "chic_c4",
+          "text": "Support Local Families",
+          "detail": "Many small restaurants and accommodations are family-run; eating at local establishments and purchasing from fishermen directly helps sustain the community economy."
+        }
+      ]
+    },
+    {
+      "id": "huaca_arco_iris",
+      "name": "Huaca Arco Iris",
+      "nameIt": "Huaca Arco Iris",
+      "lat": -8.1156,
+      "lng": -79.0381,
+      "type": "LANDMARK",
+      "description": "A stunning Chimú ceremonial center featuring beautifully preserved high-relief carvings and ceramic decorations, located near Trujillo. The site showcases intricate geometric patterns and mythological scenes that offer fascinating glimpses into Chimú religious and artistic practices.",
+      "imageQueries": [
+        "Huaca Arco Iris rainbow temple",
+        "Huaca Arco Iris carved reliefs"
+      ],
+      "activities": [
+        {
+          "id": "huac_1",
+          "text": "Explore the High-Relief Carvings",
+          "detail": "Study the intricate geometric patterns and mythological scenes carved into the temple walls, which showcase the artistic sophistication of the Chimú civilization."
+        },
+        {
+          "id": "huac_2",
+          "text": "Photograph the Rainbow Motifs",
+          "detail": "Capture images of the distinctive rainbow-like decorative patterns that give the site its name and represent important Chimú cosmological symbols."
+        },
+        {
+          "id": "huac_3",
+          "text": "Visit the Adjacent Museum",
+          "detail": "View ceramics, artifacts, and detailed explanations of the site's religious and ceremonial functions within the small on-site museum."
+        },
+        {
+          "id": "huac_4",
+          "text": "Attend a Guided Tour",
+          "detail": "Join a knowledgeable local guide to learn about the construction techniques and spiritual significance of the Chimú ceremonial center."
+        },
+        {
+          "id": "huac_5",
+          "text": "Observe Ceramic Details",
+          "detail": "Examine the preserved ceramic decorations and paint remnants that still adhere to the structures, revealing the original vibrancy of the ancient site."
+        },
+        {
+          "id": "huac_6",
+          "text": "Walk the Temple Pathways",
+          "detail": "Navigate through the various chambers and courtyards to understand the layout and flow of Chimú ceremonial activities."
+        }
+      ],
+      "food": [
+        {
+          "id": "huac_f1",
+          "text": "Causa Limeña",
+          "detail": "This layered potato dish with seafood, typical of Peru's coastal regions near Trujillo, offers a refreshing blend of flavors and textures."
+        },
+        {
+          "id": "huac_f2",
+          "text": "Ceviche",
+          "detail": "Fresh fish cured in lime juice with local ingredients is a quintessential North Coast specialty found in restaurants near the archaeological site."
+        },
+        {
+          "id": "huac_f3",
+          "text": "Arroz con Mariscos",
+          "detail": "A rice dish cooked with local shellfish and seafood reflects the proximity to the Pacific Ocean and Trujillo's culinary traditions."
+        },
+        {
+          "id": "huac_f4",
+          "text": "Espresso and Panettone",
+          "detail": "Local cafes near the site serve strong Peruvian coffee paired with the Italian-influenced sweet bread that is popular throughout the region."
+        },
+        {
+          "id": "huac_f5",
+          "text": "Chamorro a la Norteña",
+          "detail": "Grilled beef leg prepared with local spices is a hearty regional dish popular in Trujillo's restaurants and markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "huac_c1",
+          "text": "Respect the Sacred Space",
+          "detail": "Although now an archaeological site, treat Huaca Arco Iris with reverence as it remains a spiritually significant place for local Peruvian communities and descendants of the Chimú."
+        },
+        {
+          "id": "huac_c2",
+          "text": "Hire a Local Guide",
+          "detail": "Local guides from Trujillo provide invaluable context about Chimú symbolism and history that enhances understanding far beyond what signage alone offers."
+        },
+        {
+          "id": "huac_c3",
+          "text": "Visit During Cooler Hours",
+          "detail": "The North Coast experiences intense desert sun, so visiting early morning or late afternoon makes the experience more comfortable and photography superior."
+        },
+        {
+          "id": "huac_c4",
+          "text": "Support Local Communities",
+          "detail": "Purchase crafts and souvenirs from vendors near the site, as tourism revenue directly benefits families in surrounding villages who maintain connections to Chimú heritage."
+        }
+      ]
+    },
+    {
+      "id": "lambayeque",
+      "name": "Lambayeque",
+      "nameIt": "Lambayeque",
+      "lat": -6.7075,
+      "lng": -79.9111,
+      "type": "TOWN",
+      "description": "A picturesque colonial town with elegant mansions, whitewashed buildings, and rich architectural heritage, serving as a base for exploring northern archaeological sites. It offers a more intimate and authentic experience than larger cities while remaining well-connected to attractions.",
+      "imageQueries": [
+        "Lambayeque colonial architecture",
+        "Lambayeque Peru town square"
+      ],
+      "activities": [
+        {
+          "id": "lamb_1",
+          "text": "Museo Arqueológico Nacional Brüning",
+          "detail": "Peru's premier pre-Columbian museum houses the famous Moche Lord of Sipán treasures and extensive collections of gold, ceramics, and textiles from northern coastal civilizations.",
+          "lat": -6.7305,
+          "lng": -79.9294
+        },
+        {
+          "id": "lamb_2",
+          "text": "Plaza de Armas",
+          "detail": "The heart of colonial Lambayeque features elegant whitewashed buildings, a central fountain, and the impressive Church of San Pedro with its baroque facade.",
+          "lat": -6.7291,
+          "lng": -79.9292
+        },
+        {
+          "id": "lamb_3",
+          "text": "Walk Colonial Streets",
+          "detail": "Stroll through Lambayeque's historic center to admire mansions with ornate wooden balconies, intricate tilework, and traditional architectural details preserved from the Spanish colonial period.",
+          "lat": -6.73,
+          "lng": -79.93
+        },
+        {
+          "id": "lamb_4",
+          "text": "Túcume Archaeological Complex",
+          "detail": "Explore this vast pre-Incan site with 26 pyramids built by the Lambayeque culture, offering panoramic views and insights into regional history just 30 kilometers north.",
+          "lat": -6.4878,
+          "lng": -79.8461
+        },
+        {
+          "id": "lamb_5",
+          "text": "Sipán Royal Tomb Site",
+          "detail": "Visit the archaeological site near Chiclayo where the Lord of Sipán was discovered, one of the most important Moche burial sites with ongoing excavations and a visitor center.",
+          "lat": -6.4772,
+          "lng": -79.5933
+        },
+        {
+          "id": "lamb_6",
+          "text": "Local Markets",
+          "detail": "Browse the vibrant mercados around town to experience authentic local life, find regional crafts, fresh produce, and traditional woven goods.",
+          "lat": -6.731,
+          "lng": -79.931
+        }
+      ],
+      "food": [
+        {
+          "id": "lamb_f1",
+          "text": "Ceviche Lambayecano",
+          "detail": "The local version of Peru's iconic dish features fresh fish cured in lime juice, served with sweet potatoes, corn, and a spicy leche de tigre sauce that reflects the coast's seafaring heritage."
+        },
+        {
+          "id": "lamb_f2",
+          "text": "Arroz con Pato",
+          "detail": "A regional specialty combining rice cooked with tender duck, cilantro, and beer, creating a rich and savory dish that's a Lambayeque culinary staple."
+        },
+        {
+          "id": "lamb_f3",
+          "text": "Espesado de Choclo",
+          "detail": "A creamy corn-based soup or stew thickened with ground corn, often served with meat and vegetables as a traditional comfort food in the region."
+        },
+        {
+          "id": "lamb_f4",
+          "text": "Tamales Lambayecanos",
+          "detail": "Steamed corn parcels filled with chicken, olives, and wrapped in banana leaves, sold fresh by street vendors particularly in the early morning."
+        },
+        {
+          "id": "lamb_f5",
+          "text": "Chicha de Jora",
+          "detail": "A traditional fermented corn beverage with ancient pre-Columbian origins, served cold and offering a slightly sweet, slightly sour flavor unique to the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lamb_c1",
+          "text": "Greet with respect",
+          "detail": "Lambayecans appreciate formal greetings and politeness; use 'Señor' or 'Señora' when addressing locals, particularly older residents in this traditionally conservative town."
+        },
+        {
+          "id": "lamb_c2",
+          "text": "Visit museums early",
+          "detail": "Arrive at the Brüning Museum early in the day to avoid crowds and heat, as the collection is extensive and deserves unhurried exploration."
+        },
+        {
+          "id": "lamb_c3",
+          "text": "Embrace siesta culture",
+          "detail": "Many shops and services close between 1-3 PM for lunch; plan activities accordingly and don't expect rapid service during these traditional rest hours."
+        },
+        {
+          "id": "lamb_c4",
+          "text": "Photography etiquette",
+          "detail": "Always ask permission before photographing locals or inside religious spaces; some archaeological sites have restrictions on flash photography to protect artifacts."
+        }
+      ]
+    },
+    {
+      "id": "huaca_rajada",
+      "name": "Huaca Rajada",
+      "nameIt": "Huaca Rajada",
+      "lat": -6.4892,
+      "lng": -79.5925,
+      "type": "LANDMARK",
+      "description": "The site where the Lord of Sipán and other elite Moche rulers were buried, featuring ongoing excavations and a modern museum. The discoveries here revolutionized understanding of Moche civilization and continue to yield significant archaeological findings.",
+      "imageQueries": [
+        "Huaca Rajada Sipán excavation",
+        "Huaca Rajada Lord of Sipán"
+      ],
+      "activities": [
+        {
+          "id": "huac_1",
+          "text": "Explore the Royal Tombs",
+          "detail": "Walk through the excavated burial chambers where the Lord of Sipán and other Moche nobility were interred with elaborate gold, ceramic, and textile artifacts.",
+          "lat": -6.4867,
+          "lng": -79.5953
+        },
+        {
+          "id": "huac_2",
+          "text": "Visit the Royal Tombs Museum",
+          "detail": "Study the extensive collection of Moche artifacts including the famous gold regalia, weapons, and ceremonial objects recovered from the site's tombs.",
+          "lat": -6.4867,
+          "lng": -79.5953
+        },
+        {
+          "id": "huac_3",
+          "text": "Observe Active Archaeological Excavations",
+          "detail": "Watch archaeologists at work uncovering new tombs and artifacts that continue to reveal details about Moche burial practices and elite society.",
+          "lat": -6.4867,
+          "lng": -79.5953
+        },
+        {
+          "id": "huac_4",
+          "text": "Climb the Huaca Pyramid",
+          "detail": "Ascend the restored ceremonial mound to gain perspectives on the Moche settlement layout and surrounding coastal plains.",
+          "lat": -6.4867,
+          "lng": -79.5953
+        },
+        {
+          "id": "huac_5",
+          "text": "View Moche Portrait Vessels",
+          "detail": "Examine intricately detailed ceramic portrait heads and narrative vessels that provide insight into Moche artistic techniques and daily life."
+        },
+        {
+          "id": "huac_6",
+          "text": "Attend Museum Lectures",
+          "detail": "Participate in guided talks by resident archaeologists who discuss recent discoveries and ongoing research at the site."
+        }
+      ],
+      "food": [
+        {
+          "id": "huac_f1",
+          "text": "Ceviche",
+          "detail": "Fresh fish cured in lime juice with chilies and served with sweet potato and corn, a signature North Coast dish reflecting the region's Pacific fishing heritage."
+        },
+        {
+          "id": "huac_f2",
+          "text": "Arroz con Pato",
+          "detail": "Rice cooked with duck, cilantro, and beer, a hearty Peruvian coastal specialty that represents traditional regional cuisine."
+        },
+        {
+          "id": "huac_f3",
+          "text": "Chupe de Camarones",
+          "detail": "Creamy shrimp chowder made with potatoes, corn, and fresh herbs, a warming dish typical of Peruvian coastal comfort food."
+        },
+        {
+          "id": "huac_f4",
+          "text": "Causa Limeña",
+          "detail": "Layered potato terrine with fresh fish and avocado, served cold as an appetizer and showcasing indigenous potato varieties."
+        },
+        {
+          "id": "huac_f5",
+          "text": "Espresso and Peruvian Pastries",
+          "detail": "Strong local coffee paired with fresh-baked empanadas or churros available at site cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "huac_c1",
+          "text": "Respect Ongoing Research",
+          "detail": "Huaca Rajada remains an active archaeological site; follow marked paths and heed barriers to avoid disrupting current excavations."
+        },
+        {
+          "id": "huac_c2",
+          "text": "Visit Early Morning",
+          "detail": "Arrive by mid-morning to avoid intense afternoon coastal heat and to experience the site with better lighting for photography and observation."
+        },
+        {
+          "id": "huac_c3",
+          "text": "Learn Moche Significance",
+          "detail": "Understanding that the Moche viewed their rulers as divine intermediaries between the gods and people will enrich your appreciation of the elaborate burials and artifacts."
+        },
+        {
+          "id": "huac_c4",
+          "text": "Dress Appropriately for Sun",
+          "detail": "The North Coast is intensely sunny and arid; bring hat, sunscreen, and water, as shade is limited on the pyramids and excavation areas."
+        }
+      ]
+    },
+    {
+      "id": "pacasmayo",
+      "name": "Pacasmayo",
+      "nameIt": "Pacasmayo",
+      "lat": -7.3969,
+      "lng": -79.5036,
+      "type": "COASTAL",
+      "description": "A small beach town famous among surfers for its consistent waves and laid-back vibe, offering a quieter alternative to crowded coastal destinations. The town features fresh seafood, a charming pier, and access to nearby pre-Columbian ruins.",
+      "imageQueries": [
+        "Pacasmayo beach Peru surfing",
+        "Pacasmayo coastal town"
+      ],
+      "activities": [
+        {
+          "id": "paca_1",
+          "text": "Surf Pacasmayo Beach",
+          "detail": "Ride the consistent left-hand point break that draws surfers from across Peru, with waves suitable for both beginners and experienced riders.",
+          "lat": -7.3833,
+          "lng": -79.5833
+        },
+        {
+          "id": "paca_2",
+          "text": "Walk the Historic Pier",
+          "detail": "Stroll along Pacasmayo's iconic wooden pier to watch fishermen, enjoy coastal views, and photograph the town's charming seaside character.",
+          "lat": -7.3841,
+          "lng": -79.5841
+        },
+        {
+          "id": "paca_3",
+          "text": "Visit Pacasmayo Sugar Factory Ruins",
+          "detail": "Explore the remnants of the 19th-century hacienda and industrial complex that shaped the region's history, located just outside town.",
+          "lat": -7.3917,
+          "lng": -79.575
+        },
+        {
+          "id": "paca_4",
+          "text": "Hike to Nearby Pre-Columbian Ruins",
+          "detail": "Access ancient archaeological sites in the surrounding valleys, including undeveloped ruins that offer insight into the Moche and Chimu cultures.",
+          "lat": -7.35,
+          "lng": -79.55
+        },
+        {
+          "id": "paca_5",
+          "text": "Kayak or Boat Tour",
+          "detail": "Take a small boat excursion along the coast to spot marine wildlife, visit hidden coves, and see rock formations from the water.",
+          "lat": -7.3833,
+          "lng": -79.5833
+        },
+        {
+          "id": "paca_6",
+          "text": "Watch the Sunset from the Beach",
+          "detail": "Enjoy the peaceful evening atmosphere on the sandy beach as the sun sets over the Pacific Ocean.",
+          "lat": -7.3833,
+          "lng": -79.585
+        }
+      ],
+      "food": [
+        {
+          "id": "paca_f1",
+          "text": "Ceviche de Pacasmayo",
+          "detail": "Fresh white fish cured in lime juice with red onion, cilantro, and aji peppers, made daily with catches from the local pier."
+        },
+        {
+          "id": "paca_f2",
+          "text": "Arroz con Mariscos",
+          "detail": "A rich seafood and rice dish combining shrimp, clams, mussels, and squid cooked in a flavorful broth, a coastal specialty."
+        },
+        {
+          "id": "paca_f3",
+          "text": "Espevitado de Mariscos",
+          "detail": "A rustic mixed seafood preparation served in a clay dish, traditionally eaten for breakfast or lunch by local fishermen."
+        },
+        {
+          "id": "paca_f4",
+          "text": "Chicha de Jora",
+          "detail": "A traditional fermented corn beverage served cold, prepared locally using colonial-era recipes and available at small vendors."
+        },
+        {
+          "id": "paca_f5",
+          "text": "Fresh Grilled Fish (Pescado a la Sal)",
+          "detail": "Whole local fish seasoned and grilled, often encrusted in sea salt for moisture and flavor, served at beachfront restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "paca_c1",
+          "text": "Respect the Fishing Schedule",
+          "detail": "Plan activities around early morning and late afternoon when boats return; the town quiets during midday heat and rest hours."
+        },
+        {
+          "id": "paca_c2",
+          "text": "Cash is Essential",
+          "detail": "Most small restaurants, vendors, and services operate on cash only, so withdraw Peruvian soles before arriving in this small town."
+        },
+        {
+          "id": "paca_c3",
+          "text": "Greet Locals Warmly",
+          "detail": "A friendly 'Buenos días' or 'Buenas tardes' to shopkeepers and residents is appreciated and opens doors to authentic recommendations."
+        },
+        {
+          "id": "paca_c4",
+          "text": "Sunday is Family Day",
+          "detail": "Weekends bring extended families to the beach and pier; join the relaxed social atmosphere but expect busier conditions on Sundays."
+        }
+      ]
+    },
+    {
+      "id": "el_brujo",
+      "name": "El Brujo",
+      "nameIt": "El Brujo",
+      "lat": -8.0553,
+      "lng": -79.2642,
+      "type": "LANDMARK",
+      "description": "An important Moche and Chimú ceremonial center featuring two pyramids and notable murals, including the famous image of the Moche Priestess. The site provides crucial evidence of female religious authority in pre-Columbian Peru.",
+      "imageQueries": [
+        "El Brujo Moche priestess",
+        "El Brujo pyramid Peru"
+      ],
+      "activities": [
+        {
+          "id": "el_b_1",
+          "text": "Explore the Pyramid of El Brujo (Huaca Prieta)",
+          "detail": "Climb the largest adobe structure at the site to see the layered construction techniques and panoramic views of the surrounding valley.",
+          "lat": -8.3989,
+          "lng": -79.2347
+        },
+        {
+          "id": "el_b_2",
+          "text": "Visit the Moche Priestess Mural",
+          "detail": "View the intricately preserved polychrome mural depicting the famous female religious figure in ritual dress, one of the site's most significant artistic discoveries.",
+          "lat": -8.3989,
+          "lng": -79.2347
+        },
+        {
+          "id": "el_b_3",
+          "text": "Tour the on-site Museum",
+          "detail": "Examine artifacts, textiles, and detailed explanations of Moche and Chimú cultures, including explanations of female ceremonial roles in pre-Columbian society."
+        },
+        {
+          "id": "el_b_4",
+          "text": "Walk the Secondary Pyramid (Huaca Cao Viejo)",
+          "detail": "Navigate the smaller pyramid structure which also contains murals and demonstrates the architectural sophistication of the Moche period."
+        },
+        {
+          "id": "el_b_5",
+          "text": "Photograph the Coastal Landscape",
+          "detail": "Capture views of the desert meeting the Pacific Ocean and the archaeological structures against the dramatic northern Peru coastline."
+        },
+        {
+          "id": "el_b_6",
+          "text": "Attend a Guided Archaeological Tour",
+          "detail": "Join an expert guide who explains the layers of settlement, ceremonial practices, and the evidence of women's authority in Moche religious life."
+        }
+      ],
+      "food": [
+        {
+          "id": "el_b_f1",
+          "text": "Ceviche de Caballa",
+          "detail": "Fresh mackerel cured in lime juice with chilies and served with sweet potato, a staple along Peru's north coast reflecting local Pacific catch."
+        },
+        {
+          "id": "el_b_f2",
+          "text": "Causa Limeña",
+          "detail": "A layered dish of seasoned mashed potatoes with fish or avocado, representing traditional Peruvian coastal cuisine available at local restaurants near the site."
+        },
+        {
+          "id": "el_b_f3",
+          "text": "Arroz con Mariscos",
+          "detail": "Rice cooked with mixed seafood and regional spices, showcasing the bounty of the nearby Pacific waters and popular in Trujillo's dining establishments."
+        },
+        {
+          "id": "el_b_f4",
+          "text": "Anticuchos de Pulpo",
+          "detail": "Grilled octopus skewers marinated in vinegar and spices, a beloved coastal preparation that reflects the region's fishing heritage."
+        },
+        {
+          "id": "el_b_f5",
+          "text": "Chicha de Jora",
+          "detail": "A traditional fermented corn beverage that has been consumed in Peru for thousands of years, still prepared using ancestral methods by local communities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "el_b_c1",
+          "text": "Hire a Licensed Guide",
+          "detail": "The site's significance requires expert interpretation; official guides provide crucial context about Moche religious practices and the importance of the Priestess discovery."
+        },
+        {
+          "id": "el_b_c2",
+          "text": "Respect Sacred Ceremonial Spaces",
+          "detail": "The pyramids and murals represent active cultural heritage to local communities; avoid touching murals and follow guide instructions about restricted areas."
+        },
+        {
+          "id": "el_b_c3",
+          "text": "Arrive Early to Avoid Heat",
+          "detail": "The North Coast desert sun is intense; visiting in early morning hours ensures comfort and better conditions for photographing the murals and structures."
+        },
+        {
+          "id": "el_b_c4",
+          "text": "Learn About Female Authority in Pre-Columbian Peru",
+          "detail": "Take time to understand how the Moche Priestess discovery challenged previous assumptions about gender roles, reflecting evolving archaeological perspectives on indigenous societies."
+        }
+      ]
+    },
+    {
+      "id": "santa_rosa",
+      "name": "Santa Rosa de Tastabila",
+      "nameIt": "Santa Rosa de Tastabila",
+      "lat": -8.2422,
+      "lng": -79.0314,
+      "type": "VILLAGE",
+      "description": "A small artisan village specializing in traditional pottery and textiles, offering visitors a chance to see craftspeople at work and purchase authentic handicrafts directly. The village provides an intimate look at living Peruvian traditions and local culture.",
+      "imageQueries": [
+        "Santa Rosa pottery Peru",
+        "Santa Rosa Tastabila textiles"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Pottery Workshop Tours",
+          "detail": "Visit working studios where artisans demonstrate traditional hand-throwing and decorative techniques passed down through generations.",
+          "lat": -8.4156,
+          "lng": -79.0123
+        },
+        {
+          "id": "sant_2",
+          "text": "Textile Weaving Demonstrations",
+          "detail": "Observe weavers using backstrap looms to create intricate patterns in alpaca and cotton fabrics using natural dyes.",
+          "lat": -8.4162,
+          "lng": -79.013
+        },
+        {
+          "id": "sant_3",
+          "text": "Artisan Market Shopping",
+          "detail": "Browse and purchase directly from craftspeople selling ceramics, woven textiles, and handicrafts at village stalls.",
+          "lat": -8.415,
+          "lng": -79.0125
+        },
+        {
+          "id": "sant_4",
+          "text": "Community Craft Classes",
+          "detail": "Participate in hands-on pottery or weaving classes taught by local masters to create your own small pieces.",
+          "lat": -8.4158,
+          "lng": -79.0128
+        },
+        {
+          "id": "sant_5",
+          "text": "Village Walking Tour",
+          "detail": "Stroll through adobe homes and community spaces to experience daily life and architecture typical of North Coast villages.",
+          "lat": -8.4155,
+          "lng": -79.0122
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Ceviche de Corvina",
+          "detail": "Fresh local white fish cured in lime juice with ají peppers, onions, and served with cancha corn and camote."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Causa Limeña",
+          "detail": "Layered potato terrine with local herbs, avocado, and fresh fish or shrimp, served chilled as an appetizer."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Arroz con Mariscos",
+          "detail": "Rice cooked with mixed local seafood, tomatoes, and cilantro reflecting the village's proximity to Pacific waters."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Caldo de Gallina",
+          "detail": "Traditional chicken soup with native vegetables and herbs, often served as a hearty lunch dish at village eateries."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Chicha de Jora",
+          "detail": "Fermented corn beverage with ancestral roots, offered by local families and representing pre-Columbian food traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Respect Workshop Hours",
+          "detail": "Artisans typically work early morning through afternoon, so plan visits between 8 AM and 4 PM to observe active crafting."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Ask Permission Before Photographing",
+          "detail": "Many craftspeople prefer to be asked before photos are taken, and some may request a small donation for commercial-use images."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While some artisans speak minimal English, basic Spanish phrases greatly enhance interactions and show respect for local culture."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Support Direct Purchases",
+          "detail": "Buying directly from makers ensures fair prices and supports families; avoid middlemen or tourist shop markups."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Casa Moreno",
+      "address": "Jirón Lima 500, Trujillo",
+      "neighbourhood": "Centro Histórico, Trujillo",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Historic colonial mansion serving traditional Trujillo dishes in an intimate courtyard setting.",
+      "mustOrder": "Espuma de mariscos",
+      "lat": -8.127,
+      "lng": -79.0277
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "El Patio",
+      "address": "Jirón Pizarro 314, Trujillo",
+      "neighbourhood": "Centro Histórico, Trujillo",
+      "cuisine": "Peruvian/Fusion",
+      "priceRange": "€€€",
+      "description": "Award-winning restaurant in a beautifully restored colonial house featuring modern takes on coastal Peruvian cuisine.",
+      "mustOrder": "Ceviche de lenguado con causa limeña",
+      "lat": -8.1271,
+      "lng": -79.028
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Restaurant Demarcus",
+      "address": "Avenida Larco 1000, Trujillo",
+      "neighbourhood": "Urb. La Merced, Trujillo",
+      "cuisine": "Peruvian/Seafood",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant known for innovative seafood preparations and an extensive wine selection.",
+      "mustOrder": "Langostinos al ajillo con tagliatelle negra",
+      "lat": -8.135,
+      "lng": -79.031
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Mar Picante",
+      "address": "Paseo Costanero s/n, Malabrigo",
+      "neighbourhood": "Malabrigo (Chicama)",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual beachfront cevichería famous among surfers, serving ultra-fresh catches with cold beers.",
+      "mustOrder": "Ceviche mixto",
+      "lat": -8.2233,
+      "lng": -79.23
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "La Cantina de San Isidro",
+      "address": "Jirón Bolognesi 127, Huanchaco",
+      "neighbourhood": "Centro, Huanchaco",
+      "cuisine": "Peruvian/Seafood",
+      "priceRange": "€€",
+      "description": "Family-run establishment with views of traditional caballitos de totora, serving authentic northern Peruvian seafood.",
+      "mustOrder": "Chita a la sal",
+      "lat": -8.0749,
+      "lng": -79.1506
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Club Colchao",
+      "address": "Avenida Larco 800, Huanchaco",
+      "neighbourhood": "Huanchaco",
+      "cuisine": "Peruvian/Seafood",
+      "priceRange": "€€€",
+      "description": "Elegant oceanfront restaurant with wooden deck overlooking the beach, specializing in fresh ceviche and grilled fish.",
+      "mustOrder": "Dorado a la mantequilla",
+      "lat": -8.0768,
+      "lng": -79.148
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Otro Sitio",
+      "address": "Jirón Víctor Larco 521, Huanchaco",
+      "neighbourhood": "Centro, Huanchaco",
+      "cuisine": "International/Peruvian",
+      "priceRange": "€€€",
+      "description": "Bohemian-style restaurant with eclectic décor and a creative menu blending local ingredients with global influences.",
+      "mustOrder": "Tira de camarones con pesto de maíz",
+      "lat": -8.0753,
+      "lng": -79.1512
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Salsa & Salsa",
+      "address": "Avenida Principal s/n, Casma",
+      "neighbourhood": "Centro, Casma",
+      "cuisine": "Peruvian/Seafood",
+      "priceRange": "€€",
+      "description": "Lively restaurant popular with locals, offering generous portions of ceviche and fresh seafood stews.",
+      "mustOrder": "Ceviche de pez espada",
+      "lat": -9.4946,
+      "lng": -78.4793
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Anchoveta",
+      "address": "Jirón San Martín 156, Chimbote",
+      "neighbourhood": "Centro, Chimbote",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "No-frills seafood restaurant where fishermen eat, guaranteeing the freshest daily catch at honest prices.",
+      "mustOrder": "Aguachile de caballa",
+      "lat": -9.0856,
+      "lng": -78.5791
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Parrilla del Maestro",
+      "address": "Jirón Grau 234, Chimbote",
+      "neighbourhood": "Centro, Chimbote",
+      "cuisine": "Peruvian/Grilled",
+      "priceRange": "€€",
+      "description": "Traditional grill restaurant famous for perfectly charred seafood and meat, served in a casual atmosphere.",
+      "mustOrder": "Espetón a la brasa",
+      "lat": -9.0862,
+      "lng": -78.581
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Restaurant Tsunami",
+      "address": "Avenida Costanera s/n, Samanco",
+      "neighbourhood": "Samanco, Casma",
+      "cuisine": "Seafood/Peruvian",
+      "priceRange": "€€€",
+      "description": "Modern restaurant perched above the Pacific, offering panoramic views and innovative seafood-focused tasting menus.",
+      "mustOrder": "Pulpo a la gallega con causita de papa negra",
+      "lat": -9.3425,
+      "lng": -78.5312
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "El Faro",
+      "address": "Paseo Marítimo 45, Puerto Samanco",
+      "neighbourhood": "Puerto Samanco, Casma",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Rustic harborside restaurant where the day's catch is displayed, with simple preparation highlighting ingredient quality.",
+      "mustOrder": "Lenguado frito con papa a lo pobre",
+      "lat": -9.3438,
+      "lng": -78.5298
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Angamos",
+      "address": "Jirón Ucayali 198, Trujillo",
+      "neighbourhood": "Centro Histórico, Trujillo",
+      "cuisine": "Peruvian/Traditional",
+      "priceRange": "€",
+      "description": "Budget-friendly local favorite serving traditional Trujillano dishes in a modest, unpretentious setting.",
+      "mustOrder": "Arroz con pato",
+      "lat": -8.1294,
+      "lng": -79.0265
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Chez Maggie",
+      "address": "Avenida Larco 1050, Trujillo",
+      "neighbourhood": "Urb. La Merced, Trujillo",
+      "cuisine": "French/Peruvian",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment blending French technique with premium Peruvian ingredients in an elegant setting.",
+      "mustOrder": "Langosta a la thermidor con beurre blanc de ají amarillo",
+      "lat": -8.1355,
+      "lng": -79.0315
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Mariscos Tumi",
+      "address": "Jirón Comercio 267, Huanchaco",
+      "neighbourhood": "Centro, Huanchaco",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual seafood counter where locals queue for some of the coast's best-prepared ceviches and fish soups.",
+      "mustOrder": "Ceviche negro con maíz tostado",
+      "lat": -8.0745,
+      "lng": -79.152
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "title": "Getting Around",
+  "subtitle": "Trains, roads, taxis and how to move around Greece.",
+  "sections": [
+    {
+      "title": "National Trains [Τρένο]",
+      "icon": "train",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "TrainOSE network",
+          "text": "Greek Railways (TrainOSE) operates intercity services connecting major cities like Athens, Thessaloniki, and Patras. Book tickets via www.trainose.gr or at stations; advance booking offers discounts of 20-50% for most routes."
+        },
+        {
+          "kind": "tip",
+          "label": "Athens-Thessaloniki route",
+          "text": "The main north-south corridor has multiple daily departures and takes 4.5-5 hours depending on the train type. IC (InterCity) trains are faster but cost more than regional services."
+        },
+        {
+          "kind": "warn",
+          "text": "Strikes by railway workers occur occasionally and can disrupt schedules with little notice; check the TrainOSE website or local news before traveling, especially during summer months."
+        },
+        {
+          "kind": "tip",
+          "label": "Regional coverage limits",
+          "text": "Train service is limited outside major routes; ferries and buses are more practical for island access and smaller towns."
+        }
+      ]
+    },
+    {
+      "title": "City Transport: Metro & Buses [Λεωφορείο]",
+      "icon": "transit",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Athens metro system",
+          "text": "Athens has a modern, clean metro (Lines 1, 2, 3) covering the city and suburbs; single tickets cost €1.40 and are valid for 90 minutes across metro, trams, and buses. The metro runs 5:30 AM to midnight daily."
+        },
+        {
+          "kind": "tip",
+          "label": "Multi-day passes",
+          "text": "Buy a 3-day tourist pass (€22) or 7-day pass (€30) for unlimited travel on all public transport in Athens and Piraeus; these are the best value for visitors."
+        },
+        {
+          "kind": "tip",
+          "label": "Bus networks",
+          "text": "Most Greek cities have bus systems operated by local companies; Athens uses OASA. Buses are affordable but can be crowded during peak hours; validate your ticket using machines on board."
+        },
+        {
+          "kind": "warn",
+          "text": "Pickpocketing is common on crowded buses and metro trains, especially on Line 3 to the airport and in tourist areas; keep bags zipped and valuables secure."
+        },
+        {
+          "kind": "tip",
+          "label": "Thessaloniki transport",
+          "text": "Greece's second city has metro, buses, and trams; a single ticket costs €0.90 and day passes are €3, making it cheaper than Athens."
+        }
+      ]
+    },
+    {
+      "title": "Taxis & Ride Apps [Ταξί]",
+      "icon": "taxi",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Metered taxis",
+          "text": "Licensed yellow taxis in Athens and Thessaloniki use meters; rates start at €3.20 (night surcharge +€1) and charge approximately €0.65 per km. Always ask the driver to use the meter or agree on a price beforehand."
+        },
+        {
+          "kind": "warn",
+          "text": "Unlicensed taxis and ride-share hustlers operate at airports and ferry terminals offering inflated rates; use official taxi stands or ride-apps instead."
+        },
+        {
+          "kind": "tip",
+          "label": "Beat (ride-hailing app)",
+          "text": "Beat is Greece's main ride-sharing app, similar to Uber; fares are transparent, cheaper than traditional taxis, and available in Athens, Thessaloniki, and other major cities. Payment via credit card is required."
+        },
+        {
+          "kind": "tip",
+          "label": "Airport transfers",
+          "text": "From Athens Airport, expect €35-40 by metered taxi or €25-30 via Beat; the metro also connects to the airport for €10 (included in multi-day passes)."
+        },
+        {
+          "kind": "warn",
+          "text": "Taxi drivers rarely speak English outside major cities; use a map app or Beat to show your destination clearly and avoid confusion."
+        }
+      ]
+    },
+    {
+      "title": "Driving [Αυτοκίνητο]",
+      "icon": "warning",
+      "items": [
+        {
+          "kind": "rule",
+          "label": "License & documents",
+          "text": "International Driving Permit (IDP) plus your home country license are required; car rental also requires a credit card and minimum age (usually 21, sometimes 25 for luxury vehicles)."
+        },
+        {
+          "kind": "warn",
+          "text": "Greek driving is aggressive; expect speeding, tailgating, and frequent horn use. Locals ignore some traffic laws, but tourists are heavily fined for violations—always wear seatbelts and obey speed limits."
+        },
+        {
+          "kind": "tip",
+          "label": "Mountain & island roads",
+          "text": "Roads outside major cities are narrow, winding, and poorly lit at night; drive slowly, especially in summer when tourists crowd narrow village streets. Many island roads have gravel sections and steep drop-offs."
+        },
+        {
+          "kind": "rule",
+          "label": "Speed limits & cameras",
+          "text": "Speed limits are 50 km/h in towns, 90 km/h on rural roads, and 130 km/h on highways; speeding fines start at €100 and are enforced by hidden cameras. Tourists can receive fines by mail after returning home."
+        },
+        {
+          "kind": "tip",
+          "label": "Parking & tolls",
+          "text": "Parking in Athens city center is metered and expensive (€1-2/hour); use parking apps like ParkWhiz. Highway tolls apply on national roads and can be paid with cash or by tag."
+        },
+        {
+          "kind": "warn",
+          "text": "Rental cars are frequently targeted by thieves, especially in Athens; never leave valuables visible and use guarded parking. Car break-ins are common at popular tourist spots."
+        }
+      ]
+    },
+    {
+      "title": "Airports [Αεροδρόμιο]",
+      "icon": "flight",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Athens International Airport",
+          "text": "Eleftherios Venizelos (ATH) is Greece's largest hub, located 33 km east of the city. The metro Line 3 connects directly to central Athens in 40 minutes for €10; buses and taxis also serve the airport."
+        },
+        {
+          "kind": "tip",
+          "label": "Regional airports",
+          "text": "Thessaloniki (SKG), Crete (HER), Rhodes (RHO), and other islands have international terminals with direct EU flights. Budget airlines like Ryanair and Wizz Air operate many routes with tight connections."
+        },
+        {
+          "kind": "warn",
+          "text": "Airport taxis outside official stands are unlicensed; use the official white taxi rank or call ahead for a fixed-price transfer (€35-45 to central Athens)."
+        },
+        {
+          "kind": "tip",
+          "label": "Baggage & connectivity",
+          "text": "WiFi is free in terminals but slow; charge devices in the airport lounge or buy a local SIM for data before departure. Baggage storage is available but costs €5-8 per item."
+        },
+        {
+          "kind": "warn",
+          "text": "Summer delays are common due to high traffic; arrive 3 hours early for international flights and expect queues at security and boarding in July-August."
+        }
+      ]
+    },
+    {
+      "title": "Ferries [Πλοίο]",
+      "icon": "boat",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Ferry operators",
+          "text": "Hellenic Seaways, Anek Lines, and Blue Star Ferries are the major operators; book via GTP.gr, Ferryhopper.com, or directly on operator websites. Advance booking saves money and guarantees seating."
+        },
+        {
+          "kind": "tip",
+          "label": "Popular routes",
+          "text": "Athens (Piraeus) to Mykonos, Crete, and Santorini are daily services; Thessaloniki serves the Sporades islands. Journey times range from 2 hours (speedboats) to 12+ hours (slow ferries to Crete)."
+        },
+        {
+          "kind": "tip",
+          "label": "Ferry classes",
+          "text": "Standard seating is cheapest; cabins cost €30-80 extra but are worth it on overnight journeys. Speedboats cost 2-3× more but cut travel time in half."
+        },
+        {
+          "kind": "warn",
+          "text": "Summer seas can be rough; if prone to seasickness, take medication before boarding and sit on the lower deck. Ferries occasionally cancel due to weather with little notice."
+        },
+        {
+          "kind": "tip",
+          "label": "Port arrival",
+          "text": "Piraeus (Athens main port) is chaotic; arrive early and follow signs to the correct terminal. Local buses connect Piraeus to central Athens or use a taxi/Beat."
+        }
+      ]
+    },
+    {
+      "title": "Tickets & Passes [Εισιτήριο]",
+      "icon": "star",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Unified ticketing",
+          "text": "Athens transport (metro, bus, tram) uses single integrated tickets; buy from kiosks, machines, or the Ticketland app. Tickets are cheaper bought in advance than on-board."
+        },
+        {
+          "kind": "tip",
+          "label": "Tourist passes value",
+          "text": "The 3-day pass (€22) pays for itself after 4-5 journeys; if staying longer, the weekly pass (€30) covers unlimited travel including airport metro. Non-tourists can buy monthly passes (€50) via the Ticketland app."
+        },
+        {
+          "kind": "warn",
+          "text": "Ticket inspectors conduct random checks on buses and metro; fines for traveling without a valid ticket start at €50 and increase to €200 if inspectors suspect deliberate evasion."
+        },
+        {
+          "kind": "tip",
+          "label": "Ferry & train booking apps",
+          "text": "Use GTP.gr, Ferryhopper, or Rome2Rio to compare all transport options and book directly; these apps show prices across operators in one place."
+        },
+        {
+          "kind": "tip",
+          "label": "Validation & validity",
+          "text": "Validate paper tickets by scanning them on machines at entry (metro, tram) or on-board (buses); single tickets expire 90 minutes after validation, while passes are calendar-based."
+        }
+      ]
+    },
+    {
+      "title": "Connectivity & SIM Cards [SIM]",
+      "icon": "simcard",
+      "items": [
+        {
+          "kind": "tip",
+          "label": "Local providers",
+          "text": "Vodafone, Cosmote, and Wind are Greece's main carriers; all offer prepaid SIM cards at airport kiosks, supermarkets, and convenience stores for €5-10 with starter credit."
+        },
+        {
+          "kind": "tip",
+          "label": "Data plans",
+          "text": "A 5GB prepaid plan costs €10-15 for 30 days; these are cheaper and faster than airport WiFi or roaming. Activate in-store or online; you'll receive an activation code via SMS."
+        },
+        {
+          "kind": "tip",
+          "label": "WiFi availability",
+          "text": "Most hotels, restaurants, and cafes offer free WiFi, though speeds vary. Download offline maps (Google Maps, Maps.me) before traveling outside cities as connectivity drops in remote areas."
+        },
+        {
+          "kind": "warn",
+          "text": "International roaming is expensive; EU roaming rules apply for EU citizens but non-EU visitors face high per-GB charges. Always get a local SIM or enable airplane mode to avoid surprise bills."
+        },
+        {
+          "kind": "tip",
+          "label": "eSIM option",
+          "text": "Major providers Vodafone and Cosmote offer eSIM activation online; purchase before arrival if your phone supports eSIM to avoid airport queues."
+        }
+      ]
+    }
+  ]
+}

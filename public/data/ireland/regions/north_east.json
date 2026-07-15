@@ -1,0 +1,957 @@
+{
+  "id": "north_east",
+  "name": "Northeast",
+  "nameIt": "An Tuaisceart Thoir",
+  "capital": "Newry",
+  "lat": 54.18,
+  "lng": -6.34,
+  "emoji": "🧱",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 54.45,
+    "south": 53.91,
+    "east": -5.85,
+    "west": -6.83
+  },
+  "history": "Northeast Ireland, encompassing counties Antrim and Down, has been shaped by waves of settlement and conquest spanning millennia. The region saw significant Viking and Norman influences before becoming a center of English and Scottish plantation during the 17th century, particularly around Belfast and the surrounding areas. The industrial revolution transformed Northeast Ireland, especially Belfast, into a major shipbuilding and linen manufacturing hub that drove prosperity through the 19th and early 20th centuries. This industrial heritage, combined with the partition of Ireland in 1921, has given the region a distinct identity within both Irish and British contexts.",
+  "culturalNotes": "Northeast Ireland is known for its strong sense of community identity, shaped by a unique blend of Irish, Scottish, and British influences that manifest in its architecture, music, and social traditions. The region has a vibrant tradition of live music and traditional Irish sessions, alongside industrial heritage sites that reflect its shipbuilding past, creating a distinctive cultural landscape. Local pride in craftsmanship and industriousness remains evident in restored historic quarters and contemporary cultural venues throughout cities like Belfast and Lisburn.",
+  "bestTimeToVisit": "Visit May to September for exploring ancient sites and the Mourne Mountains.",
+  "languageNotes": "English is the primary language spoken throughout Northeast Ireland, though Irish (Gaeilge) has seen growing revival efforts in recent years, with some areas introducing bilingual signage. The local accent and dialect carry distinctive features, and visitors may encounter words and phrases reflecting the region's Scottish and Irish heritage, such as 'craic' (fun) and 'wee' (small) in everyday conversation.",
+  "generatedAt": "2026-07-14T17:42:23.288Z",
+  "placeCount": 7,
+  "places": [
+    {
+      "id": "carrickfergus",
+      "name": "Carrickfergus",
+      "nameIt": "Carraig Fheirgeasa",
+      "lat": 54.7167,
+      "lng": -5.8056,
+      "type": "TOWN",
+      "description": "A charming medieval harbor town dominated by the well-preserved Carrickfergus Castle overlooking Belfast Lough. Its historic waterfront and castle are quintessential examples of Norman-era architecture and Irish coastal heritage.",
+      "imageQueries": [
+        "Carrickfergus Castle Belfast Lough",
+        "Carrickfergus medieval harbor town"
+      ],
+      "activities": [
+        {
+          "id": "carr_1",
+          "text": "Carrickfergus Castle",
+          "detail": "Explore this imposing Norman castle built in 1177, featuring a keep, artillery fortifications, and exhibits on medieval life and local history overlooking Belfast Lough.",
+          "lat": 54.7167,
+          "lng": -5.8072
+        },
+        {
+          "id": "carr_2",
+          "text": "Waterfront Promenade Walk",
+          "detail": "Stroll along the scenic harbor-side path offering views of the lough, historic buildings, and opportunities to spot local birdlife and fishing boats.",
+          "lat": 54.718,
+          "lng": -5.805
+        },
+        {
+          "id": "carr_3",
+          "text": "St. Nicholas Church",
+          "detail": "Visit this medieval church dating to around 1177, featuring original stonework and a peaceful graveyard with local historical significance.",
+          "lat": 54.7195,
+          "lng": -5.8085
+        },
+        {
+          "id": "carr_4",
+          "text": "Knight Ride Heritage Train Tour",
+          "detail": "Board the open-sided tourist train departing from the castle for a guided journey through town highlighting medieval streets and harbor landmarks.",
+          "lat": 54.7167,
+          "lng": -5.8072
+        },
+        {
+          "id": "carr_5",
+          "text": "Belfast Lough Boating",
+          "detail": "Take a boat trip or fishing excursion from the harbor to experience the lough's marine environment and views of the Antrim coastline.",
+          "lat": 54.7175,
+          "lng": -5.806
+        },
+        {
+          "id": "carr_6",
+          "text": "Carrickfergus Museum",
+          "detail": "Browse exhibits on the town's medieval origins, shipping trade history, and artifacts from its role as an important Norman settlement and port."
+        }
+      ],
+      "food": [
+        {
+          "id": "carr_f1",
+          "text": "Local Seafood Chowder",
+          "detail": "A hearty cream-based soup featuring mussels, prawns, and white fish sourced fresh from Belfast Lough, served in waterfront restaurants."
+        },
+        {
+          "id": "carr_f2",
+          "text": "Irish Boxty",
+          "detail": "A traditional potato pancake served with savory fillings such as smoked salmon or seafood, reflecting Ulster's agricultural heritage."
+        },
+        {
+          "id": "carr_f3",
+          "text": "Belfast Bay Mussels",
+          "detail": "Fresh mussels harvested locally from the lough, typically steamed in white wine and garlic, served at the harbor's traditional seafood establishments."
+        },
+        {
+          "id": "carr_f4",
+          "text": "Wheaten Bread",
+          "detail": "A traditional Irish soda bread made with wholemeal flour, a staple accompaniment to meals throughout Northern Irish cafes and tea rooms."
+        },
+        {
+          "id": "carr_f5",
+          "text": "Colcannon",
+          "detail": "A classic Ulster dish of mashed potatoes mixed with cabbage or kale, often served with butter and spring onions as a hearty side or main."
+        }
+      ],
+      "culture": [
+        {
+          "id": "carr_c1",
+          "text": "Mind the Tides",
+          "detail": "Belfast Lough experiences significant tidal changes; check tide times before waterfront walks or boating activities to ensure safe access to shore areas."
+        },
+        {
+          "id": "carr_c2",
+          "text": "Norman Heritage Pride",
+          "detail": "Locals take great pride in Carrickfergus's role as the first Norman settlement in Ireland; respectful interest in medieval history and the castle is appreciated."
+        },
+        {
+          "id": "carr_c3",
+          "text": "Seasonal Weather Preparation",
+          "detail": "Northeast coastal weather is changeable; bring waterproof jackets and layers even in summer, as sea breezes can make waterfront areas cooler than expected."
+        },
+        {
+          "id": "carr_c4",
+          "text": "Pub Culture Evening",
+          "detail": "Traditional Irish pubs in town are social gathering places where locals enjoy live music and conversation; joining for a drink is a welcomed way to experience community."
+        }
+      ]
+    },
+    {
+      "id": "derry_londonderry",
+      "name": "Derry/Londonderry",
+      "nameIt": "Doire",
+      "lat": 55.0074,
+      "lng": -7.3093,
+      "type": "CITY",
+      "description": "The only completely walled city in Ireland with intact 17th-century walls offering panoramic views of the River Foyle and surrounding landscape. Known for its vibrant arts scene, murals, museums, and welcoming atmosphere.",
+      "imageQueries": [
+        "Derry Londonderry city walls",
+        "Derry walls River Foyle"
+      ],
+      "activities": [
+        {
+          "id": "derr_1",
+          "text": "Walk the City Walls",
+          "detail": "Stroll the complete 1.5 km circuit of 17th-century walls for 360-degree views of the Foyle, city streets, and surrounding hills.",
+          "lat": 54.9971,
+          "lng": -7.3092
+        },
+        {
+          "id": "derr_2",
+          "text": "Bogside Murals Tour",
+          "detail": "Explore the powerful civil rights murals painted on gable walls in the Bogside neighbourhood, depicting key moments from Irish history and the Troubles.",
+          "lat": 54.992,
+          "lng": -7.3038
+        },
+        {
+          "id": "derr_3",
+          "text": "Museum of Free Derry",
+          "detail": "Visit this community-run museum documenting life in the Bogside during the civil rights era and the events of Bloody Sunday in 1972.",
+          "lat": 54.9918,
+          "lng": -7.3041
+        },
+        {
+          "id": "derr_4",
+          "text": "Guild Hall",
+          "detail": "Admire this Victorian Gothic building with its ornate interior, stained-glass windows, and exhibitions on local history and culture.",
+          "lat": 54.9967,
+          "lng": -7.3127
+        },
+        {
+          "id": "derr_5",
+          "text": "Peace Bridge Walk",
+          "detail": "Cross the elegant curved footbridge spanning the Foyle River, connecting the Cityside and Waterside areas and symbolising reconciliation.",
+          "lat": 54.9945,
+          "lng": -7.3077
+        },
+        {
+          "id": "derr_6",
+          "text": "Tower Museum",
+          "detail": "Explore five floors of artefacts, interactive exhibits, and audiovisual displays covering the city's history from medieval times to the modern era.",
+          "lat": 54.9987,
+          "lng": -7.3079
+        },
+        {
+          "id": "derr_7",
+          "text": "Craft Village",
+          "detail": "Browse artisan studios, galleries, and craft shops set in reconstructed traditional cottages, with live demonstrations by local makers.",
+          "lat": 54.9948,
+          "lng": -7.3113
+        }
+      ],
+      "food": [
+        {
+          "id": "derr_f1",
+          "text": "Colcannon",
+          "detail": "A warming Northern Irish comfort dish of mashed potatoes mixed with cabbage or kale, often served with melted butter and local sausages."
+        },
+        {
+          "id": "derr_f2",
+          "text": "Boxty",
+          "detail": "A traditional pancake made from grated raw potato, flour, and milk, served savoury with meat or seafood fillings or sweet with jam."
+        },
+        {
+          "id": "derr_f3",
+          "text": "Local Fish and Chips",
+          "detail": "Fresh Atlantic cod or haddock battered and deep-fried, served with thick-cut chips and traditionally wrapped in paper at family-run chippy shops."
+        },
+        {
+          "id": "derr_f4",
+          "text": "Derry Craft Beer",
+          "detail": "Sample locally brewed craft beers from independent breweries such as Walled City Brewery, reflecting the city's growing artisanal food scene."
+        },
+        {
+          "id": "derr_f5",
+          "text": "Seafood Chowder",
+          "detail": "A creamy, hearty soup combining locally caught mussels, prawns, and white fish, often served with fresh brown soda bread."
+        },
+        {
+          "id": "derr_f6",
+          "text": "Wheaten Bread",
+          "detail": "Traditional Irish soda bread made with wholemeal flour, slightly sweet and slightly dense, perfect toasted with butter and local jam."
+        }
+      ],
+      "culture": [
+        {
+          "id": "derr_c1",
+          "text": "Use Both City Names Respectfully",
+          "detail": "The city is officially Derry City and Strabane District; locals use both 'Derry' and 'Londonderry', and either is acceptable in polite conversation."
+        },
+        {
+          "id": "derr_c2",
+          "text": "Peace and Reconciliation Focus",
+          "detail": "The city has worked hard to heal from conflict; visitors should approach sites related to the Troubles with sensitivity and respect local perspectives."
+        },
+        {
+          "id": "derr_c3",
+          "text": "Arts and Festival Culture",
+          "detail": "Derry has a strong creative identity; check the calendar for festivals like Foyle Film Festival and various music and theatre events throughout the year."
+        },
+        {
+          "id": "derr_c4",
+          "text": "Warm Local Hospitality",
+          "detail": "Residents are known for friendliness and willingness to share stories; striking up conversations in pubs and cafés is a genuine part of the local experience."
+        }
+      ]
+    },
+    {
+      "id": "antrim_coast",
+      "name": "Antrim Coast Road",
+      "nameIt": "Bóthar Chósta Aontroim",
+      "lat": 54.95,
+      "lng": -6.1,
+      "type": "COASTAL",
+      "description": "A spectacular coastal drive connecting Belfast to Ballycastle, featuring dramatic cliffs, beautiful beaches, and charming seaside villages. Often cited as one of the most scenic drives in the British Isles.",
+      "imageQueries": [
+        "Antrim Coast Road cliffs",
+        "Antrim Coast scenic drive Northern Ireland"
+      ],
+      "activities": [
+        {
+          "id": "antr_1",
+          "text": "Carrick-a-Rede Rope Bridge",
+          "detail": "Walk across this thrilling 20-metre-high rope bridge suspended between the mainland and a small island, offering breathtaking coastal views and access to a working salmon fishery.",
+          "lat": 55.2128,
+          "lng": -6.2236
+        },
+        {
+          "id": "antr_2",
+          "text": "Giant's Causeway",
+          "detail": "Explore this UNESCO World Heritage Site featuring around 40,000 hexagonal basalt columns descending into the sea, one of Ireland's most iconic natural wonders.",
+          "lat": 55.2408,
+          "lng": -6.3119
+        },
+        {
+          "id": "antr_3",
+          "text": "Dunluce Castle",
+          "detail": "Discover the dramatic ruins of this 13th-century castle perched on a cliff edge, with interactive exhibitions and panoramic views of the Antrim coastline.",
+          "lat": 55.2071,
+          "lng": -6.3729
+        },
+        {
+          "id": "antr_4",
+          "text": "Bushmills Distillery Tour",
+          "detail": "Visit Ireland's oldest whiskey distillery (established 1608) for a guided tour followed by a tasting of their signature single malts.",
+          "lat": 55.1865,
+          "lng": -6.3885
+        },
+        {
+          "id": "antr_5",
+          "text": "White Park Bay",
+          "detail": "Relax on this unspoiled sandy beach backed by rolling dunes, ideal for swimming, picnicking, or simply enjoying the wild coastal landscape.",
+          "lat": 55.2283,
+          "lng": -6.3284
+        },
+        {
+          "id": "antr_6",
+          "text": "Cushendall Village Exploration",
+          "detail": "Wander through this charming Glens of Antrim village with its red sandstone buildings, local craft shops, and easy access to nearby glens and waterfalls.",
+          "lat": 55.1701,
+          "lng": -6.0754
+        }
+      ],
+      "food": [
+        {
+          "id": "antr_f1",
+          "text": "Freshly Caught Seafood",
+          "detail": "Sample locally caught salmon, crab, and mussels prepared simply in coastal restaurants to showcase the region's pristine maritime bounty."
+        },
+        {
+          "id": "antr_f2",
+          "text": "Boxty",
+          "detail": "Try this traditional Irish potato pancake, often served with savory fillings or jam, commonly found in cafes along the coast."
+        },
+        {
+          "id": "antr_f3",
+          "text": "Wheaten Bread",
+          "detail": "Taste soda bread made with wholemeal flour, a dense and slightly sweet staple that pairs perfectly with local cheese and smoked fish."
+        },
+        {
+          "id": "antr_f4",
+          "text": "Ulster Champ",
+          "detail": "Enjoy this comfort food of mashed potatoes mixed with spring onions and butter, served as a hearty side dish in traditional restaurants."
+        },
+        {
+          "id": "antr_f5",
+          "text": "Bushmills Whiskey Cake",
+          "detail": "Indulge in locally-made desserts and confections infused with the region's famous whiskey, available in cafes and gift shops throughout the route."
+        }
+      ],
+      "culture": [
+        {
+          "id": "antr_c1",
+          "text": "Allow Extra Time for Scenic Stops",
+          "detail": "The 80-kilometre coastal drive typically takes 2-3 hours of driving alone, but visitors should allocate 6-8 hours to properly explore villages, hikes, and viewpoints."
+        },
+        {
+          "id": "antr_c2",
+          "text": "Respect Local Gaelic Traditions",
+          "detail": "Many villages and attractions use Irish language names alongside English; showing appreciation for the Gaelic heritage through attempting pronunciations is warmly received by locals."
+        },
+        {
+          "id": "antr_c3",
+          "text": "Plan Around Weather Changes",
+          "detail": "The coast experiences rapid weather shifts with frequent mist and wind; dress in layers and be prepared to postpone rope bridge or cliff-top activities if conditions deteriorate."
+        },
+        {
+          "id": "antr_c4",
+          "text": "Visit Major Sites Early or Late",
+          "detail": "Giant's Causeway and Carrick-a-Rede attract significant tour groups during midday; arriving before 10am or after 3pm provides a more intimate experience with fewer crowds."
+        }
+      ]
+    },
+    {
+      "id": "cave_hill",
+      "name": "Cave Hill",
+      "nameIt": "Beinn an Uamha",
+      "lat": 54.6436,
+      "lng": -5.9336,
+      "type": "NATURE",
+      "description": "A distinctive mountain overlooking Belfast with hiking trails offering panoramic views of the city, Belfast Lough, and surrounding countryside. The cave and cliff formations add geological interest to this accessible natural attraction.",
+      "imageQueries": [
+        "Cave Hill Belfast overlooking city",
+        "Cave Hill hiking trail panorama"
+      ],
+      "activities": [
+        {
+          "id": "cave_1",
+          "text": "Napoleon's Nose Trail",
+          "detail": "Hike the popular route to the distinctive cliff formation that resembles a profile, offering sweeping views of Belfast and the lough.",
+          "lat": 54.6347,
+          "lng": -5.9283
+        },
+        {
+          "id": "cave_2",
+          "text": "Cave Hill Cave Exploration",
+          "detail": "Visit the natural cave formations within the mountain that give Cave Hill its Irish name Beinn an Uamha, featuring geological stratification and historical significance.",
+          "lat": 54.6355,
+          "lng": -5.9275
+        },
+        {
+          "id": "cave_3",
+          "text": "Belfast Lough Panoramic Views",
+          "detail": "Stand at the summit to see across Belfast Lough toward County Antrim, with views extending to the Mourne Mountains on clear days.",
+          "lat": 54.637,
+          "lng": -5.925
+        },
+        {
+          "id": "cave_4",
+          "text": "Cave Hill Zoo Trail Loop",
+          "detail": "Walk the accessible lower trail that passes near Belfast Zoo with forest paths and moderate elevation gains suitable for families.",
+          "lat": 54.631,
+          "lng": -5.935
+        },
+        {
+          "id": "cave_5",
+          "text": "Geological Formations Photography",
+          "detail": "Photograph the distinctive basalt and sedimentary rock layers exposed on the cliff faces and throughout the summit area.",
+          "lat": 54.636,
+          "lng": -5.927
+        }
+      ],
+      "food": [
+        {
+          "id": "cave_f1",
+          "text": "Ulster Fry",
+          "detail": "A hearty full Irish breakfast featuring bacon, sausage, black pudding, tomato, and potato bread, available at cafés near the Cave Hill visitor area."
+        },
+        {
+          "id": "cave_f2",
+          "text": "Boxty",
+          "detail": "A traditional Irish potato pancake served with savory fillings or as a street food near Belfast attractions including Cave Hill trailheads."
+        },
+        {
+          "id": "cave_f3",
+          "text": "Belfast Coddle",
+          "detail": "A local stew made with sausages, bacon, potatoes, and onions that reflects working-class Belfast cuisine found in nearby neighborhood restaurants."
+        },
+        {
+          "id": "cave_f4",
+          "text": "Soda Bread",
+          "detail": "Traditional Irish brown soda bread available at local bakeries throughout Belfast, perfect for picnics while hiking Cave Hill."
+        },
+        {
+          "id": "cave_f5",
+          "text": "Fresh Seafood at Local Markets",
+          "detail": "Belfast's proximity to the Irish Sea means fresh mussels, oysters, and local fish are featured at St. George's Market and nearby restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cave_c1",
+          "text": "Early Start for Best Views",
+          "detail": "Begin hikes early in the morning to encounter fewer crowds and benefit from clearer lighting for photography and visibility across the lough."
+        },
+        {
+          "id": "cave_c2",
+          "text": "Respect Local Heritage",
+          "detail": "Cave Hill holds significance in Belfast's identity and Irish history; stay on marked trails and be respectful of the site's cultural importance to the community."
+        },
+        {
+          "id": "cave_c3",
+          "text": "Weather Preparedness",
+          "detail": "Northern Ireland's weather changes rapidly; bring waterproof layers and sturdy footwear even for short walks, as conditions on exposed summits can shift quickly."
+        },
+        {
+          "id": "cave_c4",
+          "text": "Local Walking Groups Welcome Visitors",
+          "detail": "Join informal walking groups that regularly traverse Cave Hill on weekends; locals are generally welcoming and can share stories about the mountain's geography and history."
+        }
+      ]
+    },
+    {
+      "id": "ballycastle",
+      "name": "Ballycastle",
+      "nameIt": "Baile an Chaisleáin",
+      "lat": 55.2069,
+      "lng": -6.2597,
+      "type": "COASTAL",
+      "description": "A charming seaside resort town with a long sandy beach and gateway to Rathlin Island, featuring traditional Irish hospitality and good seafood restaurants. Known for its Lammas Fair and as a jumping-off point for island adventures.",
+      "imageQueries": [
+        "Ballycastle beach seaside town",
+        "Ballycastle Northern Ireland coast"
+      ],
+      "activities": [
+        {
+          "id": "ball_1",
+          "text": "Rathlin Island Ferry",
+          "detail": "Take the passenger ferry from Ballycastle harbour to Rathlin Island, a 6km sea crossing that offers seabird colonies, dramatic cliffs, and a lighthouse.",
+          "lat": 55.3078,
+          "lng": -6.2647
+        },
+        {
+          "id": "ball_2",
+          "text": "Ballycastle Beach",
+          "detail": "Walk the long sandy beach that stretches along the town's seafront, ideal for swimming, paddling, and coastal walks with views toward Scotland.",
+          "lat": 55.2092,
+          "lng": -6.2542
+        },
+        {
+          "id": "ball_3",
+          "text": "Fair Head Cliff Walk",
+          "detail": "Hike the dramatic basalt cliffs at Fair Head east of town for panoramic views of the North Antrim coast and visibility to Scotland on clear days.",
+          "lat": 55.2525,
+          "lng": -6.185
+        },
+        {
+          "id": "ball_4",
+          "text": "Lammas Fair",
+          "detail": "Attend the traditional Lammas Fair held in August, featuring local crafts, traditional foods like dulse and yellowman, street performances, and a vibrant carnival atmosphere.",
+          "lat": 55.2092,
+          "lng": -6.2542
+        },
+        {
+          "id": "ball_5",
+          "text": "Bonamargy Friary",
+          "detail": "Explore the ruins of this 16th-century Franciscan friary on the outskirts of town, notable for its clan tombs and historical significance to Irish monasticism.",
+          "lat": 55.2149,
+          "lng": -6.2721
+        },
+        {
+          "id": "ball_6",
+          "text": "Carrick-a-Rede Rope Bridge",
+          "detail": "Visit the famous swaying rope bridge spanning a 20-metre chasm between mainland and island, located 6km west near Ballintoy, offering thrilling views and coastal scenery.",
+          "lat": 55.2351,
+          "lng": -6.33
+        }
+      ],
+      "food": [
+        {
+          "id": "ball_f1",
+          "text": "Dulse",
+          "detail": "Sample this edible red seaweed, traditionally harvested locally and eaten fresh or fried as a crispy snack, a signature product of the Lammas Fair."
+        },
+        {
+          "id": "ball_f2",
+          "text": "Yellowman",
+          "detail": "Try this traditional Irish honeycomb toffee, sold at the Lammas Fair and local shops, made with honey and bicarbonate of soda for a brittle, sweet treat."
+        },
+        {
+          "id": "ball_f3",
+          "text": "Fresh Local Seafood",
+          "detail": "Enjoy catches of the day at waterfront restaurants featuring crab, lobster, and local white fish prepared simply to showcase the quality of North Antrim waters."
+        },
+        {
+          "id": "ball_f4",
+          "text": "Boxty",
+          "detail": "Order this traditional Irish potato pancake at local cafes and restaurants, made from grated potato and flour, served with savory or sweet fillings."
+        },
+        {
+          "id": "ball_f5",
+          "text": "Soda Bread",
+          "detail": "Taste warm, freshly baked Irish soda bread at local bakeries and cafes, made with soft wheat flour and buttermilk, perfect with local butter and jam."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ball_c1",
+          "text": "Lammas Fair Tradition",
+          "detail": "The Lammas Fair (Oidhche Lugnasadh) held in August is one of Ireland's oldest traditional fairs, dating to medieval times, and remains central to local identity and seasonal celebration."
+        },
+        {
+          "id": "ball_c2",
+          "text": "Island Heritage",
+          "detail": "Ballycastle's connection to Rathlin Island is culturally significant; locals speak of island traditions, and the ferry crossing is woven into the town's identity as a maritime community."
+        },
+        {
+          "id": "ball_c3",
+          "text": "Gaeilge Signage",
+          "detail": "The town uses Irish language names (Baile an Chaisleáin) and bilingual signage; learning basic Irish phrases shows respect for local culture and is appreciated by residents."
+        },
+        {
+          "id": "ball_c4",
+          "text": "Pace of Life",
+          "detail": "Ballycastle maintains a relaxed, traditional Irish seaside pace; shops may close early, pubs are social gathering spaces, and locals value unhurried conversation and community connection."
+        }
+      ]
+    },
+    {
+      "id": "rathlin_island",
+      "name": "Rathlin Island",
+      "nameIt": "Oileán Reachlainn",
+      "lat": 55.3003,
+      "lng": -6.1692,
+      "type": "ISLAND",
+      "description": "A remote island off the Antrim coast accessible by ferry, famous for its seabird colonies at West Light Seabird Centre and dramatic sea cliffs. A peaceful retreat offering pristine nature and one of Ireland's most important bird sanctuaries.",
+      "imageQueries": [
+        "Rathlin Island seabirds West Light",
+        "Rathlin Island sea cliffs"
+      ],
+      "activities": [
+        {
+          "id": "rath_1",
+          "text": "West Light Seabird Centre",
+          "detail": "Visit the restored lighthouse and observatory at the western tip of the island to watch razorbills, guillemots, puffins, and kittiwakes nesting on the dramatic cliffs below.",
+          "lat": 55.2883,
+          "lng": -6.1692
+        },
+        {
+          "id": "rath_2",
+          "text": "Cliff-edge Walking Trail",
+          "detail": "Hike the dramatic northern and western sea cliffs offering breathtaking views of the Atlantic and excellent opportunities for birdwatching during breeding season."
+        },
+        {
+          "id": "rath_3",
+          "text": "Rathlin East Lighthouse",
+          "detail": "Explore the red and white striped lighthouse at the eastern end of the island, surrounded by rugged coastal scenery and accessible via a scenic coastal path.",
+          "lat": 55.2917,
+          "lng": -6.0892
+        },
+        {
+          "id": "rath_4",
+          "text": "Seal Colony Spotting",
+          "detail": "Kayak or boat tour around the island's rocky shores to observe grey and harbour seals hauled out on rocks and in sea caves."
+        },
+        {
+          "id": "rath_5",
+          "text": "Archaeological Sites",
+          "detail": "Visit the remains of a medieval church and High Cross at the island's centre, reflecting Rathlin's early Christian monastic heritage."
+        },
+        {
+          "id": "rath_6",
+          "text": "Bird Photography",
+          "detail": "Spend time at designated viewing points on the cliffs with telephoto lenses to capture images of seabirds in their natural nesting habitat."
+        },
+        {
+          "id": "rath_7",
+          "text": "Island Cycling",
+          "detail": "Rent a bicycle and cycle the quiet island roads to explore coastal villages, farmland, and hidden coves at a leisurely pace."
+        }
+      ],
+      "food": [
+        {
+          "id": "rath_f1",
+          "text": "Fresh Seafood at the Harbour",
+          "detail": "Sample locally caught fish and shellfish, often prepared simply at the island's small cafés or guest house restaurants."
+        },
+        {
+          "id": "rath_f2",
+          "text": "Irish Soda Bread",
+          "detail": "Try traditional soda bread served warm at local establishments, a staple of Irish hospitality and perfect with local butter and cheese."
+        },
+        {
+          "id": "rath_f3",
+          "text": "Rathlin Island Lamb",
+          "detail": "Enjoy locally raised lamb dishes, often featured at the island's few restaurants and accommodations, flavoured by the island's salt-spray pastures."
+        },
+        {
+          "id": "rath_f4",
+          "text": "Brown Bread and Irish Butter",
+          "detail": "Experience hearty brown bread paired with creamy Irish butter, a simple but quintessential breakfast or snack on the island."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rath_c1",
+          "text": "Plan Ferry Crossings Carefully",
+          "detail": "The ferry service from Ballycastle is weather-dependent and operates on a set schedule, so book in advance and allow flexibility for delays or cancellations."
+        },
+        {
+          "id": "rath_c2",
+          "text": "Respect Seabird Nesting Season",
+          "detail": "Visit between April and August for optimal birdwatching, but stay on marked paths and maintain distance from nesting birds to avoid disturbing them."
+        },
+        {
+          "id": "rath_c3",
+          "text": "Limited Facilities",
+          "detail": "The island has minimal shops, restaurants, and services, so bring supplies, cash, and provisions with you or arrange accommodation that includes meals."
+        },
+        {
+          "id": "rath_c4",
+          "text": "Local Hospitality Customs",
+          "detail": "Islanders value respectful interaction and quiet enjoyment of nature; ask permission before photographing residents or private property and embrace the peaceful, unhurried island pace."
+        }
+      ]
+    },
+    {
+      "id": "downpatrick",
+      "name": "Downpatrick",
+      "nameIt": "Dún Pádraig",
+      "lat": 54.335,
+      "lng": -5.7247,
+      "type": "TOWN",
+      "description": "A historic town with strong connections to Saint Patrick, featuring Down Cathedral and the medieval Down County Museum. The site traditionally believed to be where Saint Patrick is buried, making it a pilgrimage destination.",
+      "imageQueries": [
+        "Downpatrick Down Cathedral",
+        "Downpatrick Saint Patrick historic town"
+      ],
+      "activities": [
+        {
+          "id": "down_1",
+          "text": "Down Cathedral",
+          "detail": "Visit this medieval cathedral built on the site traditionally believed to hold Saint Patrick's remains, featuring a striking granite cross in the churchyard.",
+          "lat": 54.3355,
+          "lng": -5.6434
+        },
+        {
+          "id": "down_2",
+          "text": "Down County Museum",
+          "detail": "Explore the town's history through exhibits on Saint Patrick, medieval life, and local heritage housed in an 18th-century jail building.",
+          "lat": 54.3361,
+          "lng": -5.6431
+        },
+        {
+          "id": "down_3",
+          "text": "Saint Patrick Centre",
+          "detail": "Learn about the life and legacy of Ireland's patron saint through interactive displays and immersive experiences at this dedicated visitor attraction.",
+          "lat": 54.3348,
+          "lng": -5.6421
+        },
+        {
+          "id": "down_4",
+          "text": "The Mound of Down",
+          "detail": "Climb this Norman motte-and-bailey fortification overlooking the town for panoramic views and insights into medieval military architecture.",
+          "lat": 54.3378,
+          "lng": -5.6421
+        },
+        {
+          "id": "down_5",
+          "text": "Inch Abbey",
+          "detail": "Explore the ruins of this 12th-century Cistercian monastery set in riverside grounds about two miles from town, accessible by scenic walking paths.",
+          "lat": 54.3512,
+          "lng": -5.6289
+        },
+        {
+          "id": "down_6",
+          "text": "English Street",
+          "detail": "Stroll through the town's main historic thoroughfare lined with Georgian buildings, independent shops, and traditional pubs."
+        }
+      ],
+      "food": [
+        {
+          "id": "down_f1",
+          "text": "Irish soda bread",
+          "detail": "Sample freshly baked soda bread, a staple of Irish cuisine, from local bakeries throughout Downpatrick, often served warm with butter."
+        },
+        {
+          "id": "down_f2",
+          "text": "Colcannon",
+          "detail": "Try this traditional Northern Irish dish of mashed potatoes mixed with cabbage or kale, commonly served at local restaurants and cafés."
+        },
+        {
+          "id": "down_f3",
+          "text": "Ulster fry",
+          "detail": "Experience a hearty full breakfast featuring bacon, sausage, eggs, tomato, mushroom, and potato bread, widely available at morning venues."
+        },
+        {
+          "id": "down_f4",
+          "text": "Local craft ales",
+          "detail": "Sample beers from nearby Northern Irish breweries served in traditional pubs throughout the town centre."
+        },
+        {
+          "id": "down_f5",
+          "text": "Seafood chowder",
+          "detail": "Enjoy creamy chowder made with fresh fish and shellfish from nearby coastal waters, a specialty of local restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "down_c1",
+          "text": "Pilgrimage etiquette",
+          "detail": "Downpatrick is a sacred pilgrimage site, particularly around Saint Patrick's Day (March 17th), so be respectful in cathedral spaces and expect larger crowds during religious observances."
+        },
+        {
+          "id": "down_c2",
+          "text": "Local pub culture",
+          "detail": "Visit traditional pubs in the evening where locals gather to chat and socialize; this is a central part of community life and visitors are warmly welcomed."
+        },
+        {
+          "id": "down_c3",
+          "text": "Heritage walking tours",
+          "detail": "Consider joining a guided tour led by locals or the visitor centre to fully understand the town's complex history and the Saint Patrick connections that define the area."
+        },
+        {
+          "id": "down_c4",
+          "text": "Seasonal visitor patterns",
+          "detail": "Plan visits outside of peak pilgrimage periods (Saint Patrick's Day, Easter, and summer holidays) for a more authentic experience with fewer crowds."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Feast",
+      "address": "1 Cathedral Lane, Derry",
+      "neighbourhood": "Derry City Centre",
+      "cuisine": "Modern Irish",
+      "priceRange": "€€€",
+      "description": "Intimate fine dining restaurant showcasing seasonal local ingredients with creative contemporary presentations.",
+      "mustOrder": "Pan-seared scallops with cauliflower purée",
+      "lat": 55.0073,
+      "lng": -7.3095
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "The Lime Tree",
+      "address": "60 Main Street, Carnlough",
+      "neighbourhood": "Carnlough Village",
+      "cuisine": "Contemporary European",
+      "priceRange": "€€€",
+      "description": "Award-winning restaurant in a converted schoolhouse featuring expertly prepared seasonal dishes.",
+      "mustOrder": "Roasted halibut with seasonal vegetables",
+      "lat": 54.9583,
+      "lng": -6.0008
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Shu Restaurant",
+      "address": "1 Bishops Street, Derry",
+      "neighbourhood": "Derry City Centre",
+      "cuisine": "Modern Irish",
+      "priceRange": "€€€",
+      "description": "Sophisticated restaurant housed in a Georgian townhouse offering imaginative cooking with local provenance.",
+      "mustOrder": "Glazed duck breast with berry sauce",
+      "lat": 55.0092,
+      "lng": -7.3131
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "The Seafort Oyster Bar",
+      "address": "The Seafront, Donegal Town",
+      "neighbourhood": "Donegal Town Centre",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Waterfront venue specializing in fresh oysters and premium seafood with casual elegance.",
+      "mustOrder": "Oysters natural with Guinness mignonette",
+      "lat": 54.6519,
+      "lng": -8.1094
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Ardagh Hotel Restaurant",
+      "address": "Rossnowlagh, Donegal",
+      "neighbourhood": "Rossnowlagh Beach",
+      "cuisine": "Irish Coastal",
+      "priceRange": "€€€",
+      "description": "Clifftop hotel restaurant with spectacular Atlantic views serving locally-sourced seafood and meats.",
+      "mustOrder": "Donegal catch of the day",
+      "lat": 54.5919,
+      "lng": -8.2333
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "The Olde Glen Bar & Restaurant",
+      "address": "Main Street, Glenveagh",
+      "neighbourhood": "Glenveagh Village",
+      "cuisine": "Traditional Irish",
+      "priceRange": "€€",
+      "description": "Welcoming local pub with hearty traditional cooking and authentic Irish hospitality.",
+      "mustOrder": "Lamb stew with soda bread",
+      "lat": 54.9833,
+      "lng": -8.1667
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Causeway Tavern",
+      "address": "40 Causeway Street, Bushmills",
+      "neighbourhood": "Bushmills Village",
+      "cuisine": "Gastropub",
+      "priceRange": "€€",
+      "description": "Contemporary gastropub near the distillery offering elevated pub fare and local whiskey selections.",
+      "mustOrder": "Beer-battered fish and chips",
+      "lat": 55.2081,
+      "lng": -6.5119
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Ramore Restaurant",
+      "address": "The Harbour, Portrush",
+      "neighbourhood": "Portrush Town Centre",
+      "cuisine": "Modern Irish",
+      "priceRange": "€€€",
+      "description": "Multi-level harbourfront establishment known for impeccable seafood and stunning coastal views.",
+      "mustOrder": "Lobster thermidor",
+      "lat": 55.2089,
+      "lng": -6.6536
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Brown's Restaurant",
+      "address": "1 Bonds Hill, Ballymena",
+      "neighbourhood": "Ballymena Town Centre",
+      "cuisine": "Contemporary European",
+      "priceRange": "€€€",
+      "description": "Elegant townhouse restaurant offering refined dishes in an intimate setting.",
+      "mustOrder": "Fillet of beef with red wine jus",
+      "lat": 54.8604,
+      "lng": -6.2797
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "The Bushmills Inn",
+      "address": "25 Main Street, Bushmills",
+      "neighbourhood": "Bushmills Village",
+      "cuisine": "Irish Traditional",
+      "priceRange": "€€",
+      "description": "Historic coaching inn with cosy snugs serving classic Irish comfort food and whiskey.",
+      "mustOrder": "Irish stew with wheaten bread",
+      "lat": 55.2067,
+      "lng": -6.5111
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Waterfoot",
+      "address": "4 Waterfoot Avenue, Coleraine",
+      "neighbourhood": "Coleraine Town Centre",
+      "cuisine": "Modern European",
+      "priceRange": "€€",
+      "description": "Contemporary restaurant with focus on local producers and seasonally-changing menus.",
+      "mustOrder": "Pan-roasted pork with apple and sage",
+      "lat": 55.1342,
+      "lng": -6.7167
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Harry's Shebeen",
+      "address": "Binevenagh, Limavady",
+      "neighbourhood": "Limavady Area",
+      "cuisine": "Irish Comfort Food",
+      "priceRange": "€",
+      "description": "Rustic traditional bar serving generous portions of hearty food in an authentic setting.",
+      "mustOrder": "Boxty with smoked salmon",
+      "lat": 55.3398,
+      "lng": -7.0435
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "The Queen's Head",
+      "address": "Bishop Street, Holywood",
+      "neighbourhood": "Holywood Village",
+      "cuisine": "Gastropub",
+      "priceRange": "€€",
+      "description": "Refined gastropub blending traditional charm with quality modern cooking.",
+      "mustOrder": "Steak and ale pie",
+      "lat": 54.6339,
+      "lng": -5.8318
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Stoop Coffee House",
+      "address": "19 Bishop Street, Derry",
+      "neighbourhood": "Derry City Centre",
+      "cuisine": "Café/Casual",
+      "priceRange": "€",
+      "description": "Beloved local coffee house serving light lunches, pastries and quality espresso.",
+      "mustOrder": "Homemade scone with jam and cream",
+      "lat": 55.0086,
+      "lng": -7.3127
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "The Nook Restaurant",
+      "address": "5 Church Street, Donegal Town",
+      "neighbourhood": "Donegal Town Centre",
+      "cuisine": "Contemporary Irish",
+      "priceRange": "€€€",
+      "description": "Intimate neighbourhood restaurant emphasizing local sourcing and careful presentation.",
+      "mustOrder": "Creamed fish pie with seasonal greens",
+      "lat": 54.6525,
+      "lng": -8.1089
+    }
+  ]
+}
