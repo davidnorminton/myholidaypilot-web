@@ -103,30 +103,12 @@ export async function scanActions(req, res, db, q) {
     const key = bySetting['secret.unsplashKey']
     if (!key) throw fail(400, 'Add your Unsplash Access Key in Admin → AI first')
 
-    // Unsplash only tells us the remaining quota in a response header, so a
-    // stateless function has to spend a request to discover it's out of them.
-    // That's a trap: with the tank near empty every batch burned its one call
-    // learning it had none, made no progress, and kept the quota pinned at zero.
-    // So remember what the last batch was told and don't set off at all.
-    let known = null
-    try { known = JSON.parse(bySetting['unsplash.quota'] || 'null') } catch { known = null }
-    // A reading is only meaningful if Unsplash gave us one. Anything we stored
-    // from a response that carried no rate-limit headers (a 401 does not) is
-    // not a quota — it's a fossil, and it will happily tell you to wait an hour
-    // forever.
-    if (known && typeof known.remaining !== 'number') known = null
-    const HOUR = 60 * 60 * 1000
-    const fresh = known && Date.now() - known.at < HOUR
-    if (fresh && known.remaining <= RESERVE) {
-      const readyAt = known.at + HOUR
-      const after = await db.select({ image: buildPlaces.image }).from(buildPlaces)
-      return send(res, 200, {
-        mode, fixed: 0, failed: 0, calls: 0,
-        remaining: after.filter((r) => isUnsplashUrl(r.image?.url) && !r.image?.creditUsername).length,
-        quotaRemaining: known.remaining, quotaReadyAt: readyAt,
-        stopped: `Unsplash quota spent — resets around ${new Date(readyAt).toLocaleTimeString()}`,
-      })
-    }
+    // We used to cache the last quota reading and refuse to start if it was low,
+    // to avoid spending a call discovering an empty tank. That was the wrong
+    // trade: it costs ONE request to ask, and the cache had no idea when the
+    // limit actually rolls over — so a reading taken at 10:33 locked the tool
+    // out until 11:33 even though Unsplash had refilled at the top of the hour.
+    // Always ask. One wasted call beats an hour of being told a stale number.
     const rememberQuota = (remaining) => (Number.isFinite(remaining)
       ? db.insert(siteSettings).values({ key: 'unsplash.quota', value: JSON.stringify({ remaining, at: Date.now() }), updatedAt: Date.now() })
         .onConflictDoUpdate({ target: siteSettings.key, set: { value: JSON.stringify({ remaining, at: Date.now() }), updatedAt: Date.now() } })
@@ -134,11 +116,9 @@ export async function scanActions(req, res, db, q) {
 
     const queue = missing.filter((r) => !fromCreditString(r.image?.credit))
       .filter((r) => (retryFailed ? true : !r.image?.creditLookupFailedAt))
-    // Only trust a *fresh* reading. A stale one is from a previous hour, when the
-    // tank was empty — seeding from it would refuse to start for ever. Unknown
-    // means Infinity: spend one call to find out, which is the whole point of a
-    // new hour.
-    const budget = { calls: 0, maxCalls: limit, remaining: fresh ? (known?.remaining ?? Infinity) : Infinity,
+    // Always start optimistic: the first response tells us the truth, and every
+    // check after that uses the live figure.
+    const budget = { calls: 0, maxCalls: limit, remaining: Infinity,
       limit: null, lastStatus: null, lastError: '' }
     let map = buildPhotographerMap(unsplash.map((r) => r.image).filter((i) => i?.creditUsername))
     let fixed = 0, failed = 0, stopped = '', errs = 0
