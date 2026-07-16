@@ -37,6 +37,7 @@
 //   node scripts/backfill-credits.mjs                 # both passes
 //   node scripts/backfill-credits.mjs --limit 40      # cap API CALLS (not images)
 //   node scripts/backfill-credits.mjs --retry-failed  # reconsider past failures
+//   node scripts/backfill-credits.mjs --watch         # grind unattended until done
 //
 // WHERE TO RUN: from your machine, pointed at Turso — NOT on Vercel. It's a
 // long, rate-limited, resumable maintenance job; serverless functions cap out
@@ -69,6 +70,11 @@ const val = (f) => {
 const DRY = has('--dry-run')
 const FREE_ONLY = has('--free-only')
 const RETRY_FAILED = has('--retry-failed')
+// Unattended grinding. On a demo app (50 requests/hour) a few thousand images is
+// days of work — nobody should sit clicking a button for that. --watch does a
+// pass, sleeps until the quota rolls over, and goes again until it's done.
+// Progress is the data, so killing it at any point loses nothing.
+const WATCH = has('--watch')
 const LIMIT = Number(val('--limit')) || Infinity   // API calls, not images
 
 const db = getDb()
@@ -118,6 +124,7 @@ for (const p of missing) {
 console.log(`\npass 1 (free): resolved ${free}`)
 
 // ── pass 2: API, budgeted ───────────────────────────────────────────────────
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 const rest = missing.filter((p) => !p.image?.creditUsername)
 const skipped = RETRY_FAILED ? [] : rest.filter((p) => p.image?.creditLookupFailedAt)
 const queue = RETRY_FAILED ? rest : rest.filter((p) => !p.image?.creditLookupFailedAt)
@@ -143,6 +150,13 @@ if (FREE_ONLY) {
       errs = 0
     } catch (e) {
       const m = String(e.message)
+      if (m === 'BAD_KEY') {
+        console.error('\nUnsplash rejected the Access Key (HTTP 401).')
+        console.error('Check secret.unsplashKey in Admin → AI. It must be the Access Key from')
+        console.error('unsplash.com/oauth/applications — not the Secret Key.')
+        process.exit(1)
+      }
+      if (m === 'QUOTA') { stopped = 'Unsplash quota spent'; break }
       if (m === 'BUDGET') { stopped = 'budget reached'; break }
       if (m === 'RATE_LIMIT') { stopped = 'Unsplash returned 429'; break }
       // Transient: do NOT mark the image as gone — a network blip would
@@ -166,6 +180,24 @@ if (FREE_ONLY) {
   quotaLeft = budget.remaining
   console.log(`\npass 2: resolved ${done} · unmatched ${failed} · api calls ${budget.calls}`)
   if (stopped) console.log(`stopped: ${stopped} — re-run to continue where this left off`)
+}
+
+// ── unattended: sleep out the rate limit and go again ───────────────────────
+if (WATCH && !DRY && !FREE_ONLY) {
+  for (;;) {
+    const left = (await db.select().from(schema.buildPlaces))
+      .filter((p) => isUnsplashUrl(p.image?.url) && !p.image?.creditUsername && !p.image?.creditLookupFailedAt)
+    if (!left.length) { console.log('\nwatch: nothing left to look up — done.'); break }
+    const mins = 61
+    console.log(`\nwatch: ${left.length} still to do. Sleeping ${mins} min for the quota to roll over…`)
+    console.log(`       (safe to Ctrl-C — everything resolved so far is saved)`)
+    await sleep(mins * 60 * 1000)
+    console.log(`\nwatch: resuming ${new Date().toLocaleTimeString()}`)
+    const { spawnSync } = await import('node:child_process')
+    const r = spawnSync(process.execPath, [process.argv[1], ...args.filter((a) => a !== '--watch')],
+      { stdio: 'inherit', env: process.env })
+    if (r.status !== 0) { console.error('watch: pass failed — stopping.'); break }
+  }
 }
 
 // ── where we are ────────────────────────────────────────────────────────────

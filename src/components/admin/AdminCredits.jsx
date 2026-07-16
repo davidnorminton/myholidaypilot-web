@@ -70,8 +70,19 @@ export default function AdminCredits() {
         if (stopRef.current) { say('Stopped.'); break }
         const r = await api.builder.creditFix('api', BATCH_CALLS, retryFailed)
         total += r.fixed; misses += r.failed
-        say(`Batch: +${r.fixed} credited, ${r.failed} not found (${r.calls} API calls)`
-          + (r.quotaRemaining != null ? ` · ${r.quotaRemaining} requests left this hour` : ''))
+        // Say what Unsplash actually returned. "quota spent" on its own sent us
+        // round in circles for a day — the useful facts are the plan's limit
+        // (50 = demo, 5000 = production) and the HTTP status behind a failure.
+        const quota = r.quotaRemaining != null
+          ? ` · ${r.quotaRemaining}${r.quotaLimit ? '/' + r.quotaLimit : ''} requests left this hour`
+          : ''
+        say(`Batch: +${r.fixed} credited, ${r.failed} not found (${r.calls} API calls)${quota}`)
+        if (r.stopped === 'BAD_KEY') { setError('Unsplash rejected your Access Key (401). Fix it in Admin → AI.'); break }
+        if (r.lastStatus && r.lastStatus !== 200) say(`  Unsplash replied HTTP ${r.lastStatus}${r.lastError ? ` — ${r.lastError}` : ''}`)
+        if (r.quotaLimit && r.quotaLimit <= 50) {
+          say(`  Your app is on the DEMO tier (${r.quotaLimit}/hour). ${r.remaining} images needs `
+            + `~${Math.ceil(r.remaining / r.quotaLimit)}h of quota — apply for production access (5000/hour).`)
+        }
         if (r.remaining === 0) { say('All images credited. 🎉'); break }
         // Out of Unsplash quota. Stop dead — retrying spends the trickle we get
         // back and keeps the tank pinned at zero, which is exactly the hole this

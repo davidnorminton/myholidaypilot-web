@@ -110,6 +110,11 @@ export async function scanActions(req, res, db, q) {
     // So remember what the last batch was told and don't set off at all.
     let known = null
     try { known = JSON.parse(bySetting['unsplash.quota'] || 'null') } catch { known = null }
+    // A reading is only meaningful if Unsplash gave us one. Anything we stored
+    // from a response that carried no rate-limit headers (a 401 does not) is
+    // not a quota — it's a fossil, and it will happily tell you to wait an hour
+    // forever.
+    if (known && typeof known.remaining !== 'number') known = null
     const HOUR = 60 * 60 * 1000
     const fresh = known && Date.now() - known.at < HOUR
     if (fresh && known.remaining <= RESERVE) {
@@ -133,7 +138,8 @@ export async function scanActions(req, res, db, q) {
     // tank was empty — seeding from it would refuse to start for ever. Unknown
     // means Infinity: spend one call to find out, which is the whole point of a
     // new hour.
-    const budget = { calls: 0, maxCalls: limit, remaining: fresh ? (known?.remaining ?? Infinity) : Infinity }
+    const budget = { calls: 0, maxCalls: limit, remaining: fresh ? (known?.remaining ?? Infinity) : Infinity,
+      limit: null, lastStatus: null, lastError: '' }
     let map = buildPhotographerMap(unsplash.map((r) => r.image).filter((i) => i?.creditUsername))
     let fixed = 0, failed = 0, stopped = '', errs = 0
 
@@ -150,6 +156,7 @@ export async function scanActions(req, res, db, q) {
         errs = 0
       } catch (e) {
         const m = String(e.message)
+        if (m === 'BAD_KEY') { stopped = 'BAD_KEY'; break }
         if (m === 'QUOTA') { stopped = 'Unsplash quota spent — try again next hour'; break }
         if (m === 'BUDGET') { stopped = 'batch limit reached'; break }
         if (m === 'RATE_LIMIT') { stopped = 'Unsplash rate limit (429) — wait an hour'; break }
@@ -174,12 +181,21 @@ export async function scanActions(req, res, db, q) {
       }
     }
 
+    if (budget.authFailed) {
+      // Drop the cached figure: it predates the key going bad, and leaving it
+      // would keep the guard refusing to start for an hour after a fix.
+      await db.delete(siteSettings).where(eq(siteSettings.key, 'unsplash.quota'))
+      throw fail(400, 'Unsplash rejected your Access Key (HTTP 401). Check secret.unsplashKey in Admin → AI — '
+        + 'it should be the Access Key from unsplash.com/oauth/applications, not the Secret Key.')
+    }
     await rememberQuota(budget.remaining)
     const after = await db.select({ image: buildPlaces.image }).from(buildPlaces)
     const remaining = after.filter((r) => isUnsplashUrl(r.image?.url) && !r.image?.creditUsername).length
     return send(res, 200, {
       mode, fixed, failed, remaining, calls: budget.calls,
       quotaRemaining: Number.isFinite(budget.remaining) ? budget.remaining : null,
+      // What Unsplash actually said, so the UI can show it rather than guess.
+      quotaLimit: budget.limit, lastStatus: budget.lastStatus, lastError: budget.lastError || '',
       stopped,
     })
   }

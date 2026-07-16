@@ -5,10 +5,9 @@
 //
 //   imgUrl(url, 400)   → same photo, sized for a ~400px slot, WebP, retina-aware
 //
-// Unsplash/imgix URLs are resized here. Everything else is returned UNTOUCHED
-// for now — those are the non-Unsplash images destined to be self-hosted and
-// resized through Cloudflare. When that's ready, route them via the CF seam
-// below (see cloudflareResize) and this one function covers every image.
+// Unsplash/imgix URLs are resized with query params (imgix does the work).
+// Everything else — our own uploads under /images/ — goes through Cloudflare
+// Image Transformations. One function, every image.
 
 const CDN = /(^https?:\/\/images\.unsplash\.com\/)|(\.imgix\.net\/)/i
 
@@ -17,16 +16,38 @@ const CDN = /(^https?:\/\/images\.unsplash\.com\/)|(\.imgix\.net\/)/i
 const BUCKETS = [200, 300, 400, 600, 800, 1200, 1600, 2000]
 const bucket = (w) => BUCKETS.find((b) => b >= w) || BUCKETS[BUCKETS.length - 1]
 
-// ── Cloudflare seam (not active yet) ─────────────────────────────────────────
-// Once images are self-hosted behind Cloudflare, flip CF_ENABLED to true and
-// set CF_BASE to your zone. Cloudflare Image Resizing takes the form:
-//   https://yourdomain.com/cdn-cgi/image/width=400,quality=70,format=auto/<origin-url>
-// This is the ONLY place that needs to change to cover all non-Unsplash images.
+// ── Cloudflare Image Transformations ─────────────────────────────────────────
+// Resizes our self-hosted images at the edge, the same job imgix does for
+// Unsplash. Free plan includes 5,000 unique transformations a month; we have ~32
+// images across ~6 widths, so ~200 — but note the Free ceiling FAILS (error
+// 9422) rather than billing, hence onerror=redirect below.
+//
+// TURN THIS ON ONLY ONCE THE DOMAIN IS PROXIED THROUGH CLOUDFLARE (orange cloud)
+// AND Transformations are enabled for the zone. Until then /cdn-cgi/image/… is
+// just a path Vercel knows nothing about, and every one of these images 404s.
 const CF_ENABLED = false
-const CF_BASE = ''   // e.g. 'https://myholidaypilot.com'
-function cloudflareResize(url, width, quality) {
-  const w = bucket(width)
-  return `${CF_BASE}/cdn-cgi/image/width=${w},quality=${quality},format=auto,fit=cover/${url}`
+// Same-origin images use a relative /cdn-cgi/image/… path — no host to keep in
+// sync, and no risk of the edge fetching the origin back through itself. Only
+// set CF_BASE if you ever transform images on another host.
+const CF_BASE = ''
+
+// Cloudflare wants the source after the options, as either a path on this zone
+// or an absolute URL:
+//   /cdn-cgi/image/width=800,quality=70,format=auto/images/foo.webp
+function cloudflareResize(url, width, quality, dpr) {
+  // width here is CSS pixels; the file has to cover the device's pixels, and
+  // Cloudflare has no dpr option of its own — so multiply it in ourselves. The
+  // Unsplash branch gets this from imgix's dpr param.
+  const w = bucket(width) * dpr
+  const opts = [
+    `width=${w}`,
+    `quality=${quality}`,
+    'format=auto',        // AVIF/WebP by Accept header, with a safe fallback
+    'fit=scale-down',     // never upscale past the original
+    'onerror=redirect',   // transformation failed (or 9422)? serve the original
+  ].join(',')
+  const src = url.startsWith('/') ? url.slice(1) : url
+  return `${CF_BASE}/cdn-cgi/image/${opts}/${src}`
 }
 
 export function imgUrl(url, width = 400, { quality = 70, dpr = 2 } = {}) {
@@ -49,10 +70,12 @@ export function imgUrl(url, width = 400, { quality = 70, dpr = 2 } = {}) {
     }
   }
 
-  // Everything else: route through Cloudflare once self-hosting is live,
-  // otherwise pass through untouched (full-size, but working).
-  if (CF_ENABLED && CF_BASE && /^https?:\/\//i.test(url)) {
-    try { return cloudflareResize(url, width, quality) } catch { return url }
+  // Our own images: /images/foo.webp, or an absolute URL on a host we transform.
+  // Deliberately NOT `/^https?:/` only — that was the old guard, and it excluded
+  // the relative paths our uploads actually use, so the seam never fired on the
+  // images it was built for. Data URLs and blobs are left well alone.
+  if (CF_ENABLED && (url.startsWith('/') || /^https?:\/\//i.test(url))) {
+    try { return cloudflareResize(url, width, quality, dpr) } catch { return url }
   }
   return url
 }

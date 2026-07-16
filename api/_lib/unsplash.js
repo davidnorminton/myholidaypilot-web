@@ -85,10 +85,29 @@ export async function searchUnsplash(query, key, budget) {
   try {
     budget.calls++
     const r = await fetch(url, { headers: { Authorization: `Client-ID ${key}` }, signal: ctrl.signal })
+    // Record what Unsplash actually said. Without this the caller can only
+    // report "it didn't work", which is useless when the question is *why* —
+    // an exhausted quota, a rejected key and a restricted app all look alike
+    // from the outside, and the answer is sitting in these headers.
     const rem = r.headers.get('x-ratelimit-remaining')
+    const lim = r.headers.get('x-ratelimit-limit')
     if (rem != null && rem !== '') budget.remaining = Number(rem)
+    if (lim != null && lim !== '') budget.limit = Number(lim)   // 50 = demo app, 5000 = production
+    budget.lastStatus = r.status
     if (r.status === 429) throw new Error('RATE_LIMIT')
-    if (!r.ok) throw new Error(`HTTP ${r.status}`)
+    // 401 means the key is rejected — wrong, revoked, or the Secret Key pasted
+    // where the Access Key goes. Nothing to wait for and nothing to retry, so
+    // fail loudly rather than letting it look like a transient blip. Unsplash
+    // sends no rate-limit headers on a 401, so any quota figure we're holding
+    // is meaningless and must not be reported as if it were current.
+    if (r.status === 401) { budget.authFailed = true; throw new Error('BAD_KEY') }
+    if (!r.ok) {
+      // Unsplash puts the reason in the body — "Rate Limit Exceeded", "OAuth
+      // error: The access token is invalid", etc. Carry it up.
+      const why = await r.text().catch(() => '')
+      budget.lastError = why.slice(0, 200)
+      throw new Error(`HTTP ${r.status}${why ? `: ${why.replace(/\s+/g, ' ').slice(0, 120)}` : ''}`)
+    }
     const j = await r.json()
     return j.results || []
   } finally { clearTimeout(t) }
