@@ -206,3 +206,53 @@ export function fromPhotographerMap(image, map) {
   if (!hit) return null
   return { credit: image.credit, ...hit, creditLookupFailedAt: null }
 }
+
+// ── resolving by photographer name ──────────────────────────────────────────
+// /search/users looks a photographer up by name and hands back their username
+// directly. Better than searching photos and matching URLs in two ways: it costs
+// one call per PHOTOGRAPHER rather than per image (and settles every photo of
+// theirs at once), and it doesn't depend on a photo still ranking for the query
+// that originally found it — it only depends on the person still existing.
+//
+// The catch is the same one that sinks guessing usernames: names aren't unique.
+// So this only accepts a result when EXACTLY ONE user carries that exact name.
+// "Luca" returning forty Lucas is not an answer, and crediting the wrong
+// photographer is worse than crediting none.
+export async function resolveByUserSearch(name, key, budget) {
+  const want = String(name || '').trim()
+  if (!isReusableName(want)) return null      // single-word names are hopeless here
+  if (budget.remaining <= RESERVE) throw new Error('QUOTA')
+  if (budget.calls >= budget.maxCalls) throw new Error('BUDGET')
+
+  const url = `https://api.unsplash.com/search/users?query=${encodeURIComponent(want)}&per_page=10`
+  const ctrl = new AbortController()
+  const t = setTimeout(() => ctrl.abort(), 12000)
+  let j
+  try {
+    budget.calls++
+    const r = await fetch(url, { headers: { Authorization: `Client-ID ${key}` }, signal: ctrl.signal })
+    const rem = r.headers.get('x-ratelimit-remaining')
+    const lim = r.headers.get('x-ratelimit-limit')
+    if (rem != null && rem !== '') budget.remaining = Number(rem)
+    if (lim != null && lim !== '') budget.limit = Number(lim)
+    budget.lastStatus = r.status
+    if (r.status === 429) throw new Error('RATE_LIMIT')
+    if (r.status === 401) { budget.authFailed = true; throw new Error('BAD_KEY') }
+    if (!r.ok) {
+      const why = await r.text().catch(() => '')
+      budget.lastError = why.slice(0, 200)
+      throw new Error(`HTTP ${r.status}`)
+    }
+    j = await r.json()
+  } finally { clearTimeout(t) }
+
+  const norm = (s) => String(s || '').trim().toLowerCase()
+  const exact = (j.results || []).filter((u) => norm(u.name) === norm(want) && u.username)
+  if (exact.length !== 1) return null         // none, or ambiguous — don't guess
+  const u = exact[0]
+  return {
+    creditUsername: u.username,
+    creditUrl: u.links?.html || `https://unsplash.com/@${u.username}`,
+    creditLookupFailedAt: null,
+  }
+}

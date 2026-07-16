@@ -57,7 +57,8 @@ import { getDb } from '../db/client.js'
 import * as schema from '../db/schema.js'
 import { eq, and } from 'drizzle-orm'
 // Shared with the admin tool (api/_lib/builder/scan.js) so the two can't drift.
-import { isUnsplashUrl, fromCreditString, resolveCredit, RESERVE } from '../api/_lib/unsplash.js'
+import { isUnsplashUrl, fromCreditString, resolveCredit, RESERVE,
+  resolveByUserSearch, creditName } from '../api/_lib/unsplash.js'
 
 const args = process.argv.slice(2)
 const has = (f) => args.includes(f)
@@ -140,13 +141,23 @@ if (FREE_ONLY) {
 
   console.log(`pass 2 (API): ${queue.length} to look up${skipped.length ? `, ${skipped.length} skipped as previously failed` : ''}`)
   const budget = { calls: 0, maxCalls: LIMIT, remaining: Infinity }
+  // Names /search/users had nothing useful for — don't ask twice.
+  const deadNames = new Set()
   let done = 0, failed = 0, stopped = '', errs = 0
   for (const p of queue) {
     if (budget.calls >= budget.maxCalls) { stopped = `--limit ${LIMIT} reached`; break }
     if (budget.remaining <= RESERVE) { stopped = 'Unsplash quota exhausted'; break }
     let got = null
     try {
-      got = await resolveCredit(p.image, p.data?.imageQueries, key, budget)
+      // Ask who the photographer is (one call, settles all their photos) before
+      // falling back to hunting for the individual photo.
+      const name = creditName(p.image?.credit)
+      if (name && !deadNames.has(name.toLowerCase())) {
+        got = await resolveByUserSearch(name, key, budget)
+        if (got) got = { ...got, credit: p.image.credit, _via: `user search "${name}"` }
+        else deadNames.add(name.toLowerCase())
+      }
+      if (!got) got = await resolveCredit(p.image, p.data?.imageQueries, key, budget)
       errs = 0
     } catch (e) {
       const m = String(e.message)

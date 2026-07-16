@@ -1,7 +1,7 @@
 import { getDb, schema, eq, and, asc } from '../db.js'
 import { send, readBody, fail } from '../util.js'
 import { isUnsplashUrl, fromCreditString, resolveCredit, RESERVE,
-  buildPhotographerMap, fromPhotographerMap } from '../unsplash.js'
+  buildPhotographerMap, fromPhotographerMap, resolveByUserSearch, creditName } from '../unsplash.js'
 const { builds, buildRegions, buildPlaces, siteSettings } = schema
 
 // Moved verbatim out of api/builder.js — behaviour-identical. Every matched
@@ -143,6 +143,11 @@ export async function scanActions(req, res, db, q) {
     let map = buildPhotographerMap(unsplash.map((r) => r.image).filter((i) => i?.creditUsername))
     let fixed = 0, failed = 0, stopped = '', errs = 0
 
+    // Names we've already asked /search/users about and got nothing useful for.
+    // Without this a photographer with eight photos costs eight identical
+    // fruitless searches.
+    const deadNames = new Set()
+
     for (const r of queue) {
       if (budget.remaining <= RESERVE) { stopped = 'Unsplash quota spent — try again next hour'; break }
       if (budget.calls >= budget.maxCalls) { stopped = 'batch limit reached'; break }
@@ -152,7 +157,17 @@ export async function scanActions(req, res, db, q) {
       if (reused) { await save(r, reused); r.image = { ...r.image, ...reused }; fixed++; continue }
       let got = null
       try {
-        got = await resolveCredit(r.image, r.data?.imageQueries, key, budget)
+        // Ask who the photographer is, rather than hunting for the photo.
+        // One call identifies them, and buildPhotographerMap below then settles
+        // every other image of theirs for free. Only falls through to matching
+        // photo URLs when the name is ambiguous, missing, or a single word.
+        const name = creditName(r.image?.credit)
+        if (name && !deadNames.has(name.toLowerCase())) {
+          got = await resolveByUserSearch(name, key, budget)
+          if (got) got = { ...got, credit: r.image.credit, _via: `user search "${name}"` }
+          else deadNames.add(name.toLowerCase())
+        }
+        if (!got) got = await resolveCredit(r.image, r.data?.imageQueries, key, budget)
         errs = 0
       } catch (e) {
         const m = String(e.message)
