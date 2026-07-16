@@ -102,6 +102,7 @@ export const api = {
     deleteRegion: (country, region) => req('DELETE', `/builder?country=${country}&region=${region}`),
     scan: () => req('GET', '/builder?action=scan'),
     creditScan: () => req('GET', '/builder?action=creditscan'),
+    creditPing: () => req('GET', '/builder?action=creditping'),
     creditFix: (mode, limit, retryFailed = false) => req('POST', '/builder?action=creditfix', { mode, limit, retryFailed }),
     top10: (country) => req('POST', `/builder?action=top10&country=${country}`),
     stats: () => req('GET', '/builder?action=stats'),

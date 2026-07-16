@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { ScanSearch, Camera, Zap, RefreshCw, Square, AlertTriangle } from 'lucide-react'
+import { ScanSearch, Camera, Zap, RefreshCw, Square, AlertTriangle, Plug } from 'lucide-react'
 import { api } from '../../lib/api.js'
 
 // Photo credits — Unsplash attribution coverage across the builder.
@@ -40,6 +40,34 @@ export default function AdminCredits() {
   const [log, setLog] = useState([])
   const [quotaWait, setQuotaWait] = useState(0)   // ms timestamp we can retry at
   const stopRef = useRef(false)
+
+  // One request with the key that's actually saved, reporting exactly what came
+  // back. Diagnosing this by hand meant copying the key into a curl, and a
+  // mistyped one 401s and looks identical to a broken app — which cost us a day.
+  const ping = async () => {
+    setState('scanning'); setError(''); setLog([])
+    try {
+      const r = await api.builder.creditPing()
+      if (r.reason) { say(r.reason); setState('idle'); return }
+      say(`Key ends …${r.keyTail} (${r.keyLength} chars)`)
+      for (const p of r.probes || []) {
+        if (p.error) { say(`  /${p.path}: ${p.error}`); continue }
+        const quota = p.limit ? `${p.remaining}/${p.limit} left this hour` : 'no rate-limit headers'
+        say(`  /${p.path}: HTTP ${p.status} · ${quota}`)
+        if (p.body) say(`      ${p.body}`)
+        // No headers at all means the request never reached the quota — it was
+        // rejected. Not the same thing as being out, though it looks identical
+        // from the outside.
+        if (!p.limit && p.status === 401) say('      key rejected — this is not a quota problem')
+      }
+      if (r.separateBuckets) {
+        say('')
+        say('  These two endpoints have DIFFERENT quotas left — they are separate buckets.')
+        say('  Look up spends /search/users first, so that one drains while photos looks fine.')
+      }
+    } catch (e) { setError(e.message || 'Test failed') }
+    setState('idle')
+  }
 
   const scan = async () => {
     setState('scanning'); setError('')
@@ -111,9 +139,14 @@ export default function AdminCredits() {
     <div className="cms">
       <div className="cms-sec__head">
         <h3>Photo credits</h3>
-        <button className="cms-add" onClick={scan} disabled={busy}>
-          <ScanSearch size={15} /> {state === 'scanning' ? 'Scanning…' : data ? 'Rescan' : 'Run scan'}
-        </button>
+        <span className="credit-head-actions">
+          <button className="cms-add" onClick={ping} disabled={busy}>
+            <Plug size={15} /> Test Unsplash
+          </button>
+          <button className="cms-add" onClick={scan} disabled={busy}>
+            <ScanSearch size={15} /> {state === 'scanning' ? 'Scanning…' : data ? 'Rescan' : 'Run scan'}
+          </button>
+        </span>
       </div>
       <p className="admin-note">
         Unsplash's API terms require every photo we show to credit the photographer and link to

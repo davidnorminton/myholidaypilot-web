@@ -41,6 +41,122 @@ export async function scanActions(req, res, db, q) {
     })
   }
 
+  // ── photo credits: test the connection ───────────────────────────────────
+  // GET ?action=creditping → one request, using the key that's actually stored,
+  // and report exactly what Unsplash said.
+  //
+  // This exists because diagnosing by hand meant copying the key into a curl,
+  // and a mistyped one 401s and looks like a broken app. The only key that
+  // matters is the one in site_settings; ask with that.
+  if (req.method === 'GET' && q.action === 'creditping') {
+    const settings = await db.select().from(siteSettings)
+    const key = Object.fromEntries(settings.map((s) => [s.key, s.value]))['secret.unsplashKey']
+    if (!key) return send(res, 200, { ok: false, reason: 'No Unsplash key saved — add it in Admin → AI.' })
+    // Probe BOTH endpoints. We resolve photographers via /search/users and only
+    // fall back to /search/photos, so a limit on one and not the other is
+    // invisible if you only ask one of them — which is exactly how a drained
+    // users budget spent a day masquerading as a broken app.
+    const probe = async (path) => {
+      const ctrl = new AbortController()
+      const t = setTimeout(() => ctrl.abort(), 12000)
+      try {
+        const r = await fetch(`https://api.unsplash.com/${path}?query=test&per_page=1`,
+          { headers: { Authorization: `Client-ID ${key}` }, signal: ctrl.signal })
+        return {
+          path,
+          status: r.status,
+          // Absent on a 401 — no headers at all is itself the diagnosis.
+          limit: r.headers.get('x-ratelimit-limit'),
+          remaining: r.headers.get('x-ratelimit-remaining'),
+          body: r.ok ? '' : (await r.text().catch(() => '')).slice(0, 140),
+        }
+      } catch (e) {
+        return { path, error: String(e.message) }
+      } finally { clearTimeout(t) }
+    }
+    // Sequential, not parallel: two in flight would each report the other's
+    // consumption and muddy the very number we're trying to read.
+    const photos = await probe('search/photos')
+    const users = await probe('search/users')
+    return send(res, 200, {
+      ok: photos.status === 200 || users.status === 200,
+      // Note the key's shape, never the key: enough to spot a Secret Key pasted
+      // where the Access Key goes, without putting a credential in a log.
+      keyLength: String(key).length, keyTail: String(key).slice(-4),
+      probes: [photos, users],
+      // The thing we were blind to.
+      separateBuckets: !!(photos.remaining && users.remaining
+        && Math.abs(Number(photos.remaining) - Number(users.remaining)) > 5),
+    })
+  }
+
+  // ── photo credits: scan ──────────────────────────────────────────────────
+  // GET ?action=creditscan → how many Unsplash images can be attributed.
+  // Unsplash's API Terms need the photographer's *profile* linked, which needs
+  // their username; older records saved only a display name. Pure DB read.
+  if (req.method === 'GET' && q.action === 'creditscan') {
+    const rows = await db.select({
+      countryId: buildPlaces.countryId, regionId: buildPlaces.regionId,
+      placeId: buildPlaces.placeId, image: buildPlaces.image,
+    }).from(buildPlaces)
+
+    const all = await db.select({ countryId: builds.countryId, name: builds.name, flag: builds.flag }).from(builds)
+    const meta = new Map(all.map((b) => [b.countryId, b]))
+    const byCountry = new Map()
+    for (const r of rows) {
+      if (!isUnsplashUrl(r.image?.url)) continue
+      const c = byCountry.get(r.countryId) || { countryId: r.countryId,
+        name: meta.get(r.countryId)?.name || r.countryId, flag: meta.get(r.countryId)?.flag || '',
+        total: 0, ok: 0, free: 0, api: 0, failed: 0 }
+      c.total++
+      if (r.image?.creditUsername) c.ok++
+      else if (fromCreditString(r.image?.credit)) c.free++
+      else if (r.image?.creditLookupFailedAt) c.failed++
+      else c.api++
+      byCountry.set(r.countryId, c)
+    }
+    const countries = [...byCountry.values()].sort((a, b) => a.name.localeCompare(b.name))
+    const sum = (k) => countries.reduce((n, c) => n + c[k], 0)
+    return send(res, 200, {
+      countries,
+      totals: { total: sum('total'), ok: sum('ok'), free: sum('free'), api: sum('api'), failed: sum('failed') },
+    })
+  }
+
+  // ── photo credits: test the connection ───────────────────────────────────
+  // GET ?action=creditping → one request, using the key that's actually stored,
+  // and report exactly what Unsplash said.
+  //
+  // This exists because diagnosing by hand meant copying the key into a curl,
+  // and a mistyped one 401s and looks like a broken app. The only key that
+  // matters is the one in site_settings; ask with that.
+  if (req.method === 'GET' && q.action === 'creditping') {
+    const settings = await db.select().from(siteSettings)
+    const key = Object.fromEntries(settings.map((s) => [s.key, s.value]))['secret.unsplashKey']
+    if (!key) return send(res, 200, { ok: false, reason: 'No Unsplash key saved — add it in Admin → AI.' })
+    const ctrl = new AbortController()
+    const t = setTimeout(() => ctrl.abort(), 12000)
+    try {
+      const r = await fetch('https://api.unsplash.com/search/photos?query=test&per_page=1',
+        { headers: { Authorization: `Client-ID ${key}` }, signal: ctrl.signal })
+      const body = r.ok ? '' : (await r.text().catch(() => '')).slice(0, 160)
+      // Note the key's shape but never the key: enough to spot a Secret Key
+      // pasted where the Access Key goes, without putting it in a log.
+      return send(res, 200, {
+        ok: r.ok,
+        status: r.status,
+        // A 401 carries no rate-limit headers at all — null here is itself the answer.
+        limit: r.headers.get('x-ratelimit-limit'),
+        remaining: r.headers.get('x-ratelimit-remaining'),
+        keyLength: String(key).length,
+        keyTail: String(key).slice(-4),
+        body,
+      })
+    } catch (e) {
+      return send(res, 200, { ok: false, reason: String(e.message) })
+    } finally { clearTimeout(t) }
+  }
+
   // ── photo credits: fix ───────────────────────────────────────────────────
   // POST ?action=creditfix  { mode: 'free' | 'api', limit }
   //

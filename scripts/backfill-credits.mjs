@@ -38,6 +38,7 @@
 //   node scripts/backfill-credits.mjs --limit 40      # cap API CALLS (not images)
 //   node scripts/backfill-credits.mjs --retry-failed  # reconsider past failures
 //   node scripts/backfill-credits.mjs --watch         # grind unattended until done
+//   node scripts/backfill-credits.mjs --ping          # 2 requests: report both quotas raw
 //
 // WHERE TO RUN: from your machine, pointed at Turso — NOT on Vercel. It's a
 // long, rate-limited, resumable maintenance job; serverless functions cap out
@@ -76,6 +77,12 @@ const RETRY_FAILED = has('--retry-failed')
 // pass, sleeps until the quota rolls over, and goes again until it's done.
 // Progress is the data, so killing it at any point loses nothing.
 const WATCH = has('--watch')
+// One request per endpoint with the key from site_settings, printing exactly
+// what Unsplash said. Exists because hand-copying the key into curl produced a
+// 401 that spent a day masquerading as a broken app — and because running this
+// from different machines is how you see origin-dependent limiting: the same
+// key was reading 48/50 from a laptop while Vercel reported 2/50.
+const PING = has('--ping')
 const LIMIT = Number(val('--limit')) || Infinity   // API calls, not images
 
 const db = getDb()
@@ -105,6 +112,25 @@ const save = (p, fields) => db.update(schema.buildPlaces)
     eq(schema.buildPlaces.regionId, p.regionId), eq(schema.buildPlaces.placeId, p.placeId)))
 
 // ── run ─────────────────────────────────────────────────────────────────────
+if (PING) {
+  const settings = await db.select().from(schema.siteSettings)
+  const key = Object.fromEntries(settings.map((r) => [r.key, r.value]))['secret.unsplashKey']
+  if (!key) { console.error('No secret.unsplashKey in site_settings.'); process.exit(1) }
+  console.log(`key ends …${String(key).slice(-4)} (${String(key).length} chars)\n`)
+  // Sequential — two in flight would each report the other's consumption.
+  for (const path of ['search/photos', 'search/users']) {
+    try {
+      const r = await fetch(`https://api.unsplash.com/${path}?query=test&per_page=1`,
+        { headers: { Authorization: `Client-ID ${key}` } })
+      const lim = r.headers.get('x-ratelimit-limit'), rem = r.headers.get('x-ratelimit-remaining')
+      console.log(`  /${path.padEnd(14)} HTTP ${r.status} · ${lim ? `${rem}/${lim} left this hour` : 'no rate-limit headers'}`)
+      if (!r.ok) console.log('      ' + (await r.text().catch(() => '')).slice(0, 140))
+      if (!lim && r.status === 401) console.log('      key rejected — not a quota problem')
+    } catch (e) { console.log(`  /${path}: ${e.message}`) }
+  }
+  process.exit(0)
+}
+
 const places = await db.select().from(schema.buildPlaces)
 const unsplash = places.filter((p) => isUnsplashUrl(p.image?.url))
 const missing = unsplash.filter((p) => !p.image?.creditUsername)

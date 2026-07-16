@@ -2136,6 +2136,7 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .credit-stat--warn{border-color:#fecf1e}
 .credit-stat--bad{border-color:#fe9ee8}
 .credit-actions{display:flex; flex-wrap:wrap; gap:8px; margin:12px 0}
+.credit-head-actions{display:flex; gap:8px}
 .credit-warn{display:flex; align-items:center; gap:6px}
 .credit-log{
   margin:10px 0; padding:10px 12px; border-radius:10px; max-height:180px; overflow:auto;
