@@ -73,7 +73,13 @@ export function photoPath(url) {
   try { return new URL(url).pathname.replace(/^\/+/, '') } catch { return '' }
 }
 
-export const RESERVE = 2   // leave a little quota spare rather than hit a 429
+export const RESERVE = 2   // leave a little quota spare rather than hit the wall
+
+// Unsplash answers an exhausted rate limit with 403 (429 only rarely), and puts
+// "Rate Limit Exceeded" in the body. Anything else 403 is a genuine permission
+// problem and shouldn't be mistaken for one.
+export const rateLimited = (status, body = '') =>
+  status === 429 || (status === 403 && /rate limit/i.test(String(body)))
 
 // `budget` is carried across calls: { calls, maxCalls, remaining }. `remaining`
 // comes from Unsplash's own X-Ratelimit-Remaining header — the truth about
@@ -94,7 +100,6 @@ export async function searchUnsplash(query, key, budget) {
     if (rem != null && rem !== '') budget.remaining = Number(rem)
     if (lim != null && lim !== '') budget.limit = Number(lim)   // 50 = demo app, 5000 = production
     budget.lastStatus = r.status
-    if (r.status === 429) throw new Error('RATE_LIMIT')
     // 401 means the key is rejected — wrong, revoked, or the Secret Key pasted
     // where the Access Key goes. Nothing to wait for and nothing to retry, so
     // fail loudly rather than letting it look like a transient blip. Unsplash
@@ -106,6 +111,11 @@ export async function searchUnsplash(query, key, budget) {
       // error: The access token is invalid", etc. Carry it up.
       const why = await r.text().catch(() => '')
       budget.lastError = why.slice(0, 200)
+      // A spent quota comes back 403, NOT 429 — see the same handling in
+      // builder/generate.js. Treated as a transient error it gets retried and
+      // then reported as "Unsplash keeps erroring", which is both wrong and
+      // useless. It's the rate limit; say so and stop.
+      if (rateLimited(r.status, why)) throw new Error('RATE_LIMIT')
       throw new Error(`HTTP ${r.status}${why ? `: ${why.replace(/\s+/g, ' ').slice(0, 120)}` : ''}`)
     }
     const j = await r.json()
@@ -236,11 +246,11 @@ export async function resolveByUserSearch(name, key, budget) {
     if (rem != null && rem !== '') budget.remaining = Number(rem)
     if (lim != null && lim !== '') budget.limit = Number(lim)
     budget.lastStatus = r.status
-    if (r.status === 429) throw new Error('RATE_LIMIT')
     if (r.status === 401) { budget.authFailed = true; throw new Error('BAD_KEY') }
     if (!r.ok) {
       const why = await r.text().catch(() => '')
       budget.lastError = why.slice(0, 200)
+      if (rateLimited(r.status, why)) throw new Error('RATE_LIMIT')
       throw new Error(`HTTP ${r.status}`)
     }
     j = await r.json()

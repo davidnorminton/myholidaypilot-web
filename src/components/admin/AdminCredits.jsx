@@ -118,9 +118,12 @@ export default function AdminCredits() {
       <p className="admin-note">
         Unsplash's API terms require every photo we show to credit the photographer and link to
         their profile. That needs their username — images picked before we started saving it have
-        only a name. <strong>Free</strong> reads usernames already sitting in the credit text (no API
-        calls). <strong>Look up</strong> re-runs each image's original Unsplash search; it's rate
-        limited, so it runs in batches and saves as it goes — stop any time and pick up later.
+        only a name. <strong>Free</strong> costs no API calls: it reads usernames already sitting in
+        the credit text, and reuses any photographer we've already identified on another photo.{' '}
+        <strong>Look up</strong> asks Unsplash who the photographer is by name — one call settles
+        every photo of theirs — and only falls back to re-running an image's original photo search
+        when the name is ambiguous or missing. It's rate limited, so it runs in batches and saves as
+        it goes: stop any time and pick up later.
       </p>
 
       {error && <p className="admin-empty">{error}</p>}
