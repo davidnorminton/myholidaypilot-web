@@ -307,6 +307,7 @@ export async function scanActions(req, res, db, q) {
       quotaRemaining: Number.isFinite(budget.remaining) ? budget.remaining : null,
       // What Unsplash actually said, so the UI can show it rather than guess.
       quotaLimit: budget.limit, lastStatus: budget.lastStatus, lastError: budget.lastError || '',
+      firstRemaining: budget.firstRemaining ?? null,
       stopped,
     })
   }

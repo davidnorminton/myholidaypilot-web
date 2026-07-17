@@ -105,6 +105,10 @@ export default function AdminCredits() {
           ? ` · ${r.quotaRemaining}${r.quotaLimit ? '/' + r.quotaLimit : ''} requests left this hour`
           : ''
         say(`Batch: +${r.fixed} credited, ${r.failed} not found (${r.calls} API calls)${quota}`)
+        // The decisive line: what the batch's FIRST response reported. If this
+        // is already ~2, the pot was empty before we spent a single call —
+        // something else on this key consumed it.
+        if (r.firstRemaining != null) say(`  first call saw ${r.firstRemaining} remaining — pot state before this batch spent anything`)
         if (r.stopped === 'BAD_KEY') { setError('Unsplash rejected your Access Key (401). Fix it in Admin → AI.'); break }
         if (r.lastStatus && r.lastStatus !== 200) say(`  Unsplash replied HTTP ${r.lastStatus}${r.lastError ? ` — ${r.lastError}` : ''}`)
         if (r.quotaLimit && r.quotaLimit <= 50) {

@@ -97,7 +97,14 @@ export async function searchUnsplash(query, key, budget) {
     // from the outside, and the answer is sitting in these headers.
     const rem = r.headers.get('x-ratelimit-remaining')
     const lim = r.headers.get('x-ratelimit-limit')
-    if (rem != null && rem !== '') budget.remaining = Number(rem)
+    if (rem != null && rem !== '') {
+      budget.remaining = Number(rem)
+      // First response of this batch = the pot BEFORE the batch spent anything
+      // but that one call. 2 here while a ping said 30 seconds earlier means
+      // ~28 requests went to something else in between; 30 here means the bug
+      // is ours.
+      if (budget.firstRemaining === undefined) budget.firstRemaining = Number(rem)
+    }
     if (lim != null && lim !== '') budget.limit = Number(lim)   // 50 = demo app, 5000 = production
     budget.lastStatus = r.status
     // 401 means the key is rejected — wrong, revoked, or the Secret Key pasted
@@ -243,7 +250,14 @@ export async function resolveByUserSearch(name, key, budget) {
     const r = await fetch(url, { headers: { Authorization: `Client-ID ${key}` }, signal: ctrl.signal })
     const rem = r.headers.get('x-ratelimit-remaining')
     const lim = r.headers.get('x-ratelimit-limit')
-    if (rem != null && rem !== '') budget.remaining = Number(rem)
+    if (rem != null && rem !== '') {
+      budget.remaining = Number(rem)
+      // First response of this batch = the pot BEFORE the batch spent anything
+      // but that one call. 2 here while a ping said 30 seconds earlier means
+      // ~28 requests went to something else in between; 30 here means the bug
+      // is ours.
+      if (budget.firstRemaining === undefined) budget.firstRemaining = Number(rem)
+    }
     if (lim != null && lim !== '') budget.limit = Number(lim)
     budget.lastStatus = r.status
     if (r.status === 401) { budget.authFailed = true; throw new Error('BAD_KEY') }
