@@ -1,0 +1,1285 @@
+{
+  "id": "northern_borders",
+  "name": "Northern Borders",
+  "nameIt": "منطقة الحدود الشمالية",
+  "capital": "Arar",
+  "lat": 30.9753,
+  "lng": 41.1433,
+  "emoji": "🌵",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": 32.1,
+    "south": 29.5,
+    "east": 42.8,
+    "west": 39.5
+  },
+  "history": "The Northern Borders region has served as a crossroads between the Arabian Peninsula and the Levant for centuries, with its strategic location along ancient trade routes shaping its development. Historically, the area was inhabited by Bedouin tribes who engaged in pastoralism and commerce, connecting the Gulf to Mediterranean markets. The region's borders were formalized in the twentieth century through various treaties and agreements between Saudi Arabia and its neighbors Syria, Jordan, and Iraq. This frontier position has made the Northern Borders economically and culturally distinct, with influences from both the Arabian heartland and the Fertile Crescent.",
+  "culturalNotes": "The Northern Borders region maintains a strong Bedouin heritage, with tribal traditions and values remaining central to local identity despite modernization. The area is known for its distinctive poetry, horsemanship, and falconry practices that reflect centuries-old pastoral customs. Agriculture and livestock herding remain important to the local economy and culture, and the region's proximity to neighboring countries has created a unique cultural blend that sets it apart from other Saudi provinces.",
+  "bestTimeToVisit": "Best visited from October to April when temperatures are moderate and the desert landscape is most accessible for exploration.",
+  "languageNotes": "The local dialect spoken in the Northern Borders is a Levantine-influenced variety of Arabic that differs noticeably from central Saudi dialects, incorporating features from Syrian and Palestinian speech patterns. Useful phrases include 'Ahlan wa sahlan' for greeting and 'Alhamdulillah' for expressing gratitude or acceptance of circumstances.",
+  "generatedAt": "2026-07-22T21:31:46.073Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "arar",
+      "name": "Arar",
+      "nameIt": "عرعر",
+      "lat": 31.9454,
+      "lng": 41.0287,
+      "type": "CITY",
+      "description": "The capital of Northern Borders region, Arar is a modern desert city serving as the administrative and commercial hub of the area. It offers traditional souks, modern amenities, and serves as the main gateway for exploring the northern desert landscape and nearby historical sites.",
+      "imageQueries": [
+        "Arar city Saudi Arabia",
+        "Arar downtown skyline"
+      ],
+      "activities": [
+        {
+          "id": "arar_1",
+          "text": "Arar Central Souk",
+          "detail": "Browse traditional markets selling local handicrafts, textiles, and spices in the heart of the city's commercial district.",
+          "lat": 30.9047,
+          "lng": 41.0282
+        },
+        {
+          "id": "arar_2",
+          "text": "Ad-Dafrah Archaeological Site",
+          "detail": "Explore ancient pre-Islamic settlement ruins located about 70 kilometers south of Arar showcasing regional historical significance.",
+          "lat": 30.5167,
+          "lng": 41.1333
+        },
+        {
+          "id": "arar_3",
+          "text": "Tuwaiq Escarpment Desert Drive",
+          "detail": "Take a scenic drive through dramatic desert landscapes with towering cliff formations characteristic of the northern Saudi terrain."
+        },
+        {
+          "id": "arar_4",
+          "text": "Arar Regional Museum",
+          "detail": "View exhibits on Bedouin culture, regional history, and traditional artifacts reflecting Northern Borders heritage.",
+          "lat": 30.9089,
+          "lng": 41.0356
+        },
+        {
+          "id": "arar_5",
+          "text": "Wadi Al-Amar",
+          "detail": "Hike through seasonal wadis with desert vegetation and natural rock formations accessible from the city outskirts."
+        },
+        {
+          "id": "arar_6",
+          "text": "Local Camel Market",
+          "detail": "Visit the active camel trading area, typically most active in early mornings, to observe traditional Bedouin livestock commerce."
+        }
+      ],
+      "food": [
+        {
+          "id": "arar_f1",
+          "text": "Kabsa with Desert Lamb",
+          "detail": "Spiced rice dish cooked with tender meat, ghee, and aromatic spices served with yogurt and pickled vegetables."
+        },
+        {
+          "id": "arar_f2",
+          "text": "Griddle Bread (Khubz Tannoor)",
+          "detail": "Freshly baked traditional bread from clay ovens, served warm with honey, ghee, and dates for breakfast or any meal."
+        },
+        {
+          "id": "arar_f3",
+          "text": "Kuwaiti-style Biryani",
+          "detail": "Rice and meat preparation influenced by nearby regional trade routes with distinct spice blending unique to Northern Borders."
+        },
+        {
+          "id": "arar_f4",
+          "text": "Stuffed Camel Meat (Kozi)",
+          "detail": "Whole roasted camel or lamb stuffed with rice, nuts, and spices, traditionally served at celebrations and special occasions."
+        },
+        {
+          "id": "arar_f5",
+          "text": "Desert Dates from Local Markets",
+          "detail": "Premium fresh and dried dates from regional oases, often paired with strong Arabic coffee in traditional Bedouin hospitality."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arar_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Shops and restaurants may close or adjust hours during the five daily prayers; plan activities accordingly and avoid business during these times."
+        },
+        {
+          "id": "arar_c2",
+          "text": "Dress Conservatively",
+          "detail": "Modest clothing is expected, with women wearing abayas in public spaces and men wearing traditional thobes, reflecting local customs."
+        },
+        {
+          "id": "arar_c3",
+          "text": "Embrace Bedouin Hospitality",
+          "detail": "Locals traditionally offer strong Arabic coffee and dates to visitors; accepting graciously is appreciated and considered respectful engagement."
+        },
+        {
+          "id": "arar_c4",
+          "text": "Arabic Language Appreciated",
+          "detail": "While English is understood in tourist areas, learning basic Arabic phrases shows respect and enhances interactions with local residents."
+        }
+      ]
+    },
+    {
+      "id": "safwan_border",
+      "name": "Safwan Border Crossing",
+      "nameIt": "منفذ سفوان",
+      "lat": 29.9833,
+      "lng": 47.8167,
+      "type": "LANDMARK",
+      "description": "This historic border crossing between Saudi Arabia and Kuwait marks an important geopolitical and cultural boundary in the region. The area represents a significant point of trade and diplomatic exchange with interesting border architecture and checkpoint facilities.",
+      "imageQueries": [
+        "Safwan border crossing Saudi Kuwait",
+        "Saudi Kuwait border checkpoint"
+      ],
+      "activities": [
+        {
+          "id": "safw_1",
+          "text": "Border Checkpoint Photography",
+          "detail": "Observe and photograph the distinctive Saudi-Kuwaiti border gate architecture and the demarcation line between the two nations, one of the most recognizable border markers in the Gulf region.",
+          "lat": 29.3958,
+          "lng": 47.8092
+        },
+        {
+          "id": "safw_2",
+          "text": "Visit the Border Museum",
+          "detail": "Explore exhibits documenting the history of Safwan crossing, including artifacts from trade routes and the 1990-91 Gulf War period that shaped the region's geopolitical landscape."
+        },
+        {
+          "id": "safw_3",
+          "text": "Watch Trade Convoys",
+          "detail": "Observe the movement of commercial trucks and trade vehicles passing through the checkpoint, particularly in early morning hours when border activity peaks."
+        },
+        {
+          "id": "safw_4",
+          "text": "Explore Safwan Village Market",
+          "detail": "Browse the modest commercial area near the crossing featuring small shops selling border essentials, souvenirs, and goods catering to travelers and traders.",
+          "lat": 29.3965,
+          "lng": 47.8105
+        },
+        {
+          "id": "safw_5",
+          "text": "Document Border Infrastructure",
+          "detail": "Study the customs facilities, inspection bays, and administrative buildings that represent modern Middle Eastern border management systems."
+        },
+        {
+          "id": "safw_6",
+          "text": "Interact with Border Officials",
+          "detail": "Engage respectfully with Saudi and Kuwaiti border personnel who can share insights into daily border operations and cross-national commerce."
+        }
+      ],
+      "food": [
+        {
+          "id": "safw_f1",
+          "text": "Kabsa",
+          "detail": "Saudi fragrant rice dish layered with spiced meat, raisins, and almonds commonly served in border town restaurants and rest houses."
+        },
+        {
+          "id": "safw_f2",
+          "text": "Shawarma",
+          "detail": "Thinly sliced meat cooked on a vertical spit and served in pita bread with tahini sauce, available at small eateries near the checkpoint."
+        },
+        {
+          "id": "safw_f3",
+          "text": "Dates and Arabic Coffee",
+          "detail": "The traditional Saudi welcome experience featuring premium dates paired with strong, cardamom-infused Arabic coffee served throughout the border area."
+        },
+        {
+          "id": "safw_f4",
+          "text": "Hummus and Flatbread",
+          "detail": "Creamy chickpea dip seasoned with tahini and lemon, served with warm freshly-baked pita bread at local cafes."
+        },
+        {
+          "id": "safw_f5",
+          "text": "Grilled Lamb Skewers",
+          "detail": "Tender lamb marinated in Middle Eastern spices and grilled over charcoal, a popular lunch item at border town restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "safw_c1",
+          "text": "Respect Border Protocols",
+          "detail": "Always carry valid identification documents and follow official instructions at checkpoints; photography of certain border facilities may be restricted for security reasons."
+        },
+        {
+          "id": "safw_c2",
+          "text": "Dress Modestly",
+          "detail": "Wear conservative clothing appropriate to Saudi Arabia's cultural standards, covering shoulders and knees, particularly when interacting with officials or visiting border facilities."
+        },
+        {
+          "id": "safw_c3",
+          "text": "Understand Geopolitical Sensitivity",
+          "detail": "The border carries historical significance from the 1990-91 Gulf War; approach discussions about regional politics respectfully and avoid inflammatory commentary."
+        },
+        {
+          "id": "safw_c4",
+          "text": "Greetings and Hospitality",
+          "detail": "Accept offered Arabic coffee and dates graciously as gestures of hospitality; learning basic Arabic greetings like 'As-salaam alaikum' enhances interactions with locals."
+        }
+      ]
+    },
+    {
+      "id": "jawf_region",
+      "name": "Al-Jawf Province (Border Region)",
+      "nameIt": "منطقة الجوف",
+      "lat": 30.7865,
+      "lng": 40.4128,
+      "type": "NATURE",
+      "description": "Located on the border with Iraq, Al-Jawf offers dramatic desert landscapes and vast expanses of pristine Arabian wilderness. The region is known for its archaeological significance, ancient trade routes, and unique desert ecosystems attracting adventure travelers.",
+      "imageQueries": [
+        "Al-Jawf desert landscape Saudi Arabia",
+        "Jawf province dunes"
+      ],
+      "activities": [
+        {
+          "id": "jawf_1",
+          "text": "Explore Sakakah Old Town",
+          "detail": "Wander through the historic mud-brick architecture and narrow souks of Sakakah's traditional quarter, showcasing centuries of desert settlement patterns.",
+          "lat": 29.9697,
+          "lng": 40.2064
+        },
+        {
+          "id": "jawf_2",
+          "text": "Visit Marid Castle",
+          "detail": "Tour the pre-Islamic fortress ruins perched on a hilltop overlooking Sakakah, offering insights into ancient Nabataean and trade route history.",
+          "lat": 29.985,
+          "lng": 40.195
+        },
+        {
+          "id": "jawf_3",
+          "text": "Desert camping and stargazing",
+          "detail": "Experience authentic Bedouin-style desert camping in the vast Arabian wilderness with some of the clearest night skies in the region."
+        },
+        {
+          "id": "jawf_4",
+          "text": "Explore Al-Jawf archaeological sites",
+          "detail": "Visit ancient settlements and caravan stations along historic trade routes linking Arabia to the Levant, including pre-Islamic inscriptions and ruins."
+        },
+        {
+          "id": "jawf_5",
+          "text": "Four-wheel drive desert expeditions",
+          "detail": "Navigate sand dunes, wadis, and remote desert terrain with experienced local guides to discover hidden settlements and geological formations."
+        },
+        {
+          "id": "jawf_6",
+          "text": "Domat Al-Jandal historical tour",
+          "detail": "Explore one of Arabia's oldest towns with ancient mud fortifications, historic wells, and archaeological remnants from multiple civilizations."
+        }
+      ],
+      "food": [
+        {
+          "id": "jawf_f1",
+          "text": "Kabsa Al-Jawf",
+          "detail": "A regional variation of the famous Saudi rice dish made with locally-raised lamb, fragrant basmati rice, and desert spices unique to the northern border region."
+        },
+        {
+          "id": "jawf_f2",
+          "text": "Bedouin camel meat stew",
+          "detail": "Slow-cooked camel meat with tomatoes, onions, and traditional spices, a staple protein of the region's nomadic heritage."
+        },
+        {
+          "id": "jawf_f3",
+          "text": "Date and ghee pastries",
+          "detail": "Sweet pastries filled with local dates and clarified butter, reflecting the region's agricultural products and traditional Bedouin confections."
+        },
+        {
+          "id": "jawf_f4",
+          "text": "Zarb (underground roasted meat)",
+          "detail": "Meat and vegetables slow-cooked in an underground pit, a traditional Bedouin cooking method still practiced by local communities."
+        },
+        {
+          "id": "jawf_f5",
+          "text": "Al-Jawf honey and herb tea",
+          "detail": "Local desert honey paired with traditional herbal tea made from desert plants, served as a welcoming gesture in Bedouin hospitality."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jawf_c1",
+          "text": "Respect border zone protocols",
+          "detail": "The region borders Iraq, so visitors must check current security conditions, register with authorities, and avoid photographing military installations or border areas."
+        },
+        {
+          "id": "jawf_c2",
+          "text": "Embrace Bedouin hospitality customs",
+          "detail": "Accept offered tea and dates graciously, remove shoes when entering tents, and reciprocate respect for elders and local traditions."
+        },
+        {
+          "id": "jawf_c3",
+          "text": "Dress conservatively in public",
+          "detail": "Visitors should wear modest clothing covering shoulders and knees, particularly when visiting small towns and archaeological sites, out of respect for local Islamic customs."
+        },
+        {
+          "id": "jawf_c4",
+          "text": "Learn basic Arabic greetings",
+          "detail": "English is limited in remote areas, so knowing phrases like 'As-salamu alaykum' (peace be upon you) and 'Shukran' (thank you) greatly enhances cultural exchange with locals."
+        }
+      ]
+    },
+    {
+      "id": "turaif",
+      "name": "Turaif",
+      "nameIt": "الطريف",
+      "lat": 32.2167,
+      "lng": 41.7167,
+      "type": "TOWN",
+      "description": "A historic town north of Arar with significant cultural and religious heritage dating back centuries. Turaif features traditional architecture, cultural landmarks, and serves as a window into the region's past and local Bedouin traditions.",
+      "imageQueries": [
+        "Turaif Saudi Arabia town",
+        "Turaif historic architecture"
+      ],
+      "activities": [
+        {
+          "id": "tura_1",
+          "text": "Al-Msmak Fort Exploration",
+          "detail": "Tour the restored mud-brick fortress that stands as a symbol of Turaif's defensive heritage and offers panoramic views of the town and surrounding desert landscape.",
+          "lat": 31.8944,
+          "lng": 40.1267
+        },
+        {
+          "id": "tura_2",
+          "text": "Traditional Souq Wandering",
+          "detail": "Stroll through Turaif's historic market where local vendors sell traditional crafts, textiles, and spices reflecting Bedouin commerce practices.",
+          "lat": 31.8956,
+          "lng": 40.1289
+        },
+        {
+          "id": "tura_3",
+          "text": "Heritage Museum Visit",
+          "detail": "Explore exhibits showcasing traditional weapons, household items, and photographs documenting the region's cultural evolution and Bedouin lifestyle.",
+          "lat": 31.8935,
+          "lng": 40.1275
+        },
+        {
+          "id": "tura_4",
+          "text": "Desert Camel Trekking",
+          "detail": "Experience authentic Bedouin transportation across the surrounding dunes and plains, typically arranged through local guides familiar with safe routes.",
+          "lat": 31.89,
+          "lng": 40.12
+        },
+        {
+          "id": "tura_5",
+          "text": "Friday Market Experience",
+          "detail": "Visit the weekly livestock and goods market that brings together Bedouins from surrounding areas to trade camels, sheep, and traditional items."
+        },
+        {
+          "id": "tura_6",
+          "text": "Old Quarter Photography Walk",
+          "detail": "Document the distinctive adobe architecture and narrow alleyways of traditional Turaif houses that showcase regional building techniques and design."
+        }
+      ],
+      "food": [
+        {
+          "id": "tura_f1",
+          "text": "Kabsa",
+          "detail": "A fragrant rice dish cooked with tender lamb or chicken, spiced with cardamom and saffron, and served communally as the region's signature meal."
+        },
+        {
+          "id": "tura_f2",
+          "text": "Margoog",
+          "detail": "A hearty Bedouin stew featuring slow-cooked meat with hand-rolled dough pieces, traditionally prepared in large pots for family gatherings."
+        },
+        {
+          "id": "tura_f3",
+          "text": "Camel Meat Grilled",
+          "detail": "Locally-herded camel meat grilled over charcoal, seasoned simply with salt and served as a traditional delicacy reflecting pastoral heritage."
+        },
+        {
+          "id": "tura_f4",
+          "text": "Dates and Camel Milk",
+          "detail": "Fresh dates from the region paired with warm camel milk, a staple combination eaten for breakfast or as an afternoon refreshment among local Bedouins."
+        },
+        {
+          "id": "tura_f5",
+          "text": "Muammar",
+          "detail": "A sweet dish of layered dates and ghee served warm, often prepared during special occasions and festivals in Northern Border households."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tura_c1",
+          "text": "Greeting Customs",
+          "detail": "Expect lengthy greetings with handshakes and inquiries about health and family; reciprocate warmly as this reflects respect and hospitality in Bedouin culture."
+        },
+        {
+          "id": "tura_c2",
+          "text": "Modest Dress Expected",
+          "detail": "Wear conservative clothing covering shoulders and knees; women should carry an abaya and men should avoid shorts to respect local Islamic customs."
+        },
+        {
+          "id": "tura_c3",
+          "text": "Photography Permissions",
+          "detail": "Always ask permission before photographing people, particularly women and elders, as privacy and dignity are highly valued in this traditional community."
+        },
+        {
+          "id": "tura_c4",
+          "text": "Visit Timing",
+          "detail": "Plan visits during cooler months (October to March) and avoid midday heat; respect prayer times when shops close and public activity pauses temporarily."
+        }
+      ]
+    },
+    {
+      "id": "artawiyah",
+      "name": "Artawiyah",
+      "nameIt": "ارطاوية",
+      "lat": 31.4667,
+      "lng": 41.5,
+      "type": "TOWN",
+      "description": "A remote settlement in the northern desert with authentic Bedouin culture and stark desert beauty. The town offers visitors an immersive experience of traditional life in the Arabian interior far from modern development.",
+      "imageQueries": [
+        "Artawiyah Saudi Arabia desert",
+        "Artawiyah northern desert settlement"
+      ],
+      "activities": [
+        {
+          "id": "arta_1",
+          "text": "Visit Traditional Bedouin Settlements",
+          "detail": "Explore authentic mud-brick and stone houses where Bedouin families maintain centuries-old pastoral lifestyles in the heart of the northern desert."
+        },
+        {
+          "id": "arta_2",
+          "text": "Desert Camel Trekking",
+          "detail": "Take guided camel rides across the surrounding sandy plains and rocky terrain to experience traditional desert navigation as Bedouins have for generations."
+        },
+        {
+          "id": "arta_3",
+          "text": "Artawiyah Old Town Walk",
+          "detail": "Wander through the compact historic center with its narrow lanes, traditional markets, and weathered structures that reflect the settlement's isolated desert heritage.",
+          "lat": 31.9428,
+          "lng": 37.4886
+        },
+        {
+          "id": "arta_4",
+          "text": "Attend Bedouin Gatherings",
+          "detail": "Join evening majlis (gathering) circles with local men to share traditional coffee, dates, and stories under the stars while learning about desert life customs."
+        },
+        {
+          "id": "arta_5",
+          "text": "Desert Photography at Sunset",
+          "detail": "Capture the dramatic landscape as golden light illuminates the surrounding dunes and rocky outcrops that characterize the Northern Borders terrain."
+        },
+        {
+          "id": "arta_6",
+          "text": "Visit Local Well Sites",
+          "detail": "See traditional and historic water wells that have sustained the settlement for centuries, understanding the critical role of water in desert survival."
+        }
+      ],
+      "food": [
+        {
+          "id": "arta_f1",
+          "text": "Camel Meat Kabsa",
+          "detail": "Fragrant rice dish topped with tender camel meat, aromatic spices, and clarified butter, representing the most iconic Bedouin feast preparation."
+        },
+        {
+          "id": "arta_f2",
+          "text": "Bedouin Coffee and Dates",
+          "detail": "Strong, cardamom-infused Arabic coffee served in small cups paired with fresh or dried dates, the traditional hospitality offering in every Bedouin home."
+        },
+        {
+          "id": "arta_f3",
+          "text": "Ghee and Bread",
+          "detail": "Hand-rolled flatbread dipped in or served alongside clarified ghee, sometimes enriched with honey or dates, a staple of pastoral Bedouin diet."
+        },
+        {
+          "id": "arta_f4",
+          "text": "Roasted Lamb Shoulder",
+          "detail": "Whole lamb slow-cooked over open fire with desert herbs and served communally on large platters, a traditional celebration and hospitality dish."
+        },
+        {
+          "id": "arta_f5",
+          "text": "Dried Milk and Buttermilk",
+          "detail": "Traditional dairy products made from goat and camel milk, stored and consumed as portable protein sources crucial to desert nomadic life."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arta_c1",
+          "text": "Respect Prayer Times and Gender Customs",
+          "detail": "Observe Islamic prayer schedules when visiting and be mindful of gender separation in traditional spaces; women should dress modestly and ask permission before photographing locals."
+        },
+        {
+          "id": "arta_c2",
+          "text": "Embrace the Slower Pace",
+          "detail": "Accept that hospitality, meals, and conversations follow natural rhythms rather than schedules; rushing indicates disrespect to Bedouin hosts and their traditions."
+        },
+        {
+          "id": "arta_c3",
+          "text": "Accept All Offered Hospitality",
+          "detail": "Declining food or coffee offered by locals is considered impolite; always accept at least a token amount to honor Bedouin traditions of generous welcome."
+        },
+        {
+          "id": "arta_c4",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "English is rarely spoken in Artawiyah; simple greetings like 'Assalamu alaikum' and 'Shukran' are deeply appreciated and open doors to authentic cultural exchange."
+        }
+      ]
+    },
+    {
+      "id": "sabkhat_fasl",
+      "name": "Sabkhat Al-Fasl",
+      "nameIt": "سبخة الفصل",
+      "lat": 30.5,
+      "lng": 41,
+      "type": "NATURE",
+      "description": "A vast salt flat and wetland area that transforms seasonally into a landscape of striking contrasts and ecological diversity. The sabkha is important for migratory birds and offers unique photography opportunities and natural history interest.",
+      "imageQueries": [
+        "Sabkhat Fasl salt flats Saudi Arabia",
+        "Saudi Arabia salt lakes"
+      ],
+      "activities": [
+        {
+          "id": "sabk_1",
+          "text": "Bird Watching at Dawn",
+          "detail": "Observe migratory species including flamingos, avocets, and herons during early morning hours when activity peaks across the shallow pools and wetland margins.",
+          "lat": 32.0142,
+          "lng": 37.5089
+        },
+        {
+          "id": "sabk_2",
+          "text": "Salt Flat Photography",
+          "detail": "Capture the geometric patterns, mineral deposits, and crystalline surfaces of the salt flats, especially during golden hour when light creates dramatic contrasts and reflections.",
+          "lat": 32.0089,
+          "lng": 37.5156
+        },
+        {
+          "id": "sabk_3",
+          "text": "Seasonal Wetland Exploration",
+          "detail": "Walk the sabkha's perimeter during winter and spring months when water levels are highest and the landscape transforms into a mosaic of shallow lagoons teeming with life."
+        },
+        {
+          "id": "sabk_4",
+          "text": "Mineralogy and Geology Study",
+          "detail": "Examine the exposed salt crusts, mineral formations, and sedimentary layers that reveal the sabkha's natural history and evolution as an evaporative basin."
+        },
+        {
+          "id": "sabk_5",
+          "text": "Vehicle Tour of the Flats",
+          "detail": "Drive across designated safe routes on the hardened salt surface to experience the scale and starkness of the sabkha landscape while minimizing environmental impact.",
+          "lat": 32.012,
+          "lng": 37.512
+        },
+        {
+          "id": "sabk_6",
+          "text": "Sunset Observation Point",
+          "detail": "Visit elevated vantage points nearby to watch the sabkha's surface reflect changing light as the sun sets, creating surreal pinks and purples across the white expanse."
+        }
+      ],
+      "food": [
+        {
+          "id": "sabk_f1",
+          "text": "Camel Meat Kabsa",
+          "detail": "Fragrant rice cooked with tender camel meat, spices, and topped with almonds and raisins, a staple protein dish reflecting Northern Border pastoral traditions."
+        },
+        {
+          "id": "sabk_f2",
+          "text": "Fresh Date Varieties from Local Markets",
+          "detail": "Sample regional date cultivars, particularly Ajwa and Sukkari varieties, either fresh or as energy-rich accompaniments to meals and tea."
+        },
+        {
+          "id": "sabk_f3",
+          "text": "Zarb (Underground-Cooked Meat)",
+          "detail": "Lamb or goat slow-cooked in an underground pit with vegetables, served during celebrations and special occasions, representing traditional Bedouin cooking methods."
+        },
+        {
+          "id": "sabk_f4",
+          "text": "Fattoush Salad with Local Herbs",
+          "detail": "Mixed greens, tomatoes, cucumbers, and crispy bread pieces dressed with lemon and olive oil, often featuring wild herbs foraged from the region."
+        },
+        {
+          "id": "sabk_f5",
+          "text": "Bedouin Coffee and Cardamom Tea",
+          "detail": "Strong qahwa served in small cups with generous cardamom, a hospitality ritual essential to any visit and offered throughout the day."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sabk_c1",
+          "text": "Respect Sacred Spaces and Private Land",
+          "detail": "The sabkha borders protected ecological zones and Bedouin grazing territories; always seek permission from local guides and avoid disturbing nesting birds or sacred natural features."
+        },
+        {
+          "id": "sabk_c2",
+          "text": "Dress Appropriately for Sun and Salt",
+          "detail": "Wear long, light-colored clothing, a wide-brimmed hat, and high-SPF sunscreen as the white salt surface reflects intense sunlight; sunglasses are essential."
+        },
+        {
+          "id": "sabk_c3",
+          "text": "Hire Local Guides for Safety and Knowledge",
+          "detail": "Engage experienced guides from nearby towns who understand salt crust stability, seasonal water conditions, and can share authentic stories of Bedouin life in the region."
+        },
+        {
+          "id": "sabk_c4",
+          "text": "Practice Water and Waste Conservation",
+          "detail": "This is a fragile ecosystem; bring adequate water, use minimal resources, and pack out all waste to preserve the sabkha's ecological balance and pristine appearance."
+        }
+      ]
+    },
+    {
+      "id": "dibdibah",
+      "name": "Dibdibah Desert",
+      "nameIt": "صحراء الدبدبة",
+      "lat": 31,
+      "lng": 42,
+      "type": "NATURE",
+      "description": "One of the most remote and challenging deserts in Northern Borders, Dibdibah offers pristine wilderness and dramatic sand formations for experienced desert travelers. The area is characterized by vast dune fields and minimal human presence, providing authentic desert exploration.",
+      "imageQueries": [
+        "Dibdibah desert dunes Saudi Arabia",
+        "Dibdibah sand formations"
+      ],
+      "activities": [
+        {
+          "id": "dibd_1",
+          "text": "Dune Exploration and Sand Trekking",
+          "detail": "Navigate the vast star dune formations and sweeping sand seas on foot or by 4x4, experiencing some of Arabia's most pristine and untouched dune landscapes."
+        },
+        {
+          "id": "dibd_2",
+          "text": "Sunrise Photography at Rub' al Khali Edge",
+          "detail": "Capture dramatic golden hour light across the desert's endless horizons near the transition zone where Dibdibah meets the Empty Quarter.",
+          "lat": 29.5,
+          "lng": 45.2
+        },
+        {
+          "id": "dibd_3",
+          "text": "Bedouin Camping Experience",
+          "detail": "Spend nights under the stars in traditional Bedouin-style camps with local guides, learning desert survival skills and navigation techniques."
+        },
+        {
+          "id": "dibd_4",
+          "text": "Fossil and Geological Survey",
+          "detail": "Search for ancient marine fossils and geological formations exposed in the desert floor, reflecting Dibdibah's prehistoric inland sea history.",
+          "lat": 29.8,
+          "lng": 44.9
+        },
+        {
+          "id": "dibd_5",
+          "text": "Night Sky Stargazing",
+          "detail": "Observe exceptionally clear night skies with minimal light pollution, ideal for identifying constellations and experiencing the Milky Way in full brilliance."
+        },
+        {
+          "id": "dibd_6",
+          "text": "Off-Road 4x4 Adventure",
+          "detail": "Drive across unmarked desert terrain with experienced local drivers, exploring remote areas only accessible by vehicle in this isolated region."
+        }
+      ],
+      "food": [
+        {
+          "id": "dibd_f1",
+          "text": "Camel Meat Zarb",
+          "detail": "Slow-roasted camel meat cooked underground with vegetables in a traditional Bedouin pit, tender and aromatic after hours of cooking."
+        },
+        {
+          "id": "dibd_f2",
+          "text": "Khubz Bedouin Bread",
+          "detail": "Flatbread baked on hot desert stones over open fires, served warm and often stuffed with dates or ghee as a staple camp meal."
+        },
+        {
+          "id": "dibd_f3",
+          "text": "Qahwa Arabiya with Dates",
+          "detail": "Strong Arabic coffee served in small cups alongside fresh or dried dates, a traditional hospitality ritual essential to desert visits."
+        },
+        {
+          "id": "dibd_f4",
+          "text": "Tharid (Bedouin Stew)",
+          "detail": "Layered bread and meat stew flavored with aromatic spices, traditionally shared communally from a single large platter."
+        },
+        {
+          "id": "dibd_f5",
+          "text": "Camel Milk",
+          "detail": "Fresh or fermented camel milk providing hydration and nutrition, often served at Bedouin encampments as a cooling and sustaining beverage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dibd_c1",
+          "text": "Extreme Heat Preparation Required",
+          "detail": "Dibdibah experiences scorching summer temperatures exceeding 50°C, so visit October to March and carry substantial water supplies, sun protection, and emergency supplies."
+        },
+        {
+          "id": "dibd_c2",
+          "text": "Respect Bedouin Traditions",
+          "detail": "Always accept hospitality offers including tea and meals, remove shoes when entering tents, and ask permission before photographing people or their encampments."
+        },
+        {
+          "id": "dibd_c3",
+          "text": "Hire Local Guides Mandatory",
+          "detail": "Navigation is nearly impossible without experienced local guides who understand landmark navigation, weather patterns, and can summon help in emergencies across this remote wilderness."
+        },
+        {
+          "id": "dibd_c4",
+          "text": "Border Proximity Awareness",
+          "detail": "The desert borders Iraq and Kuwait, so stay within permitted areas, avoid sensitive border zones, and maintain communication with authorities about travel plans."
+        }
+      ]
+    },
+    {
+      "id": "arar_souk",
+      "name": "Arar Traditional Souk",
+      "nameIt": "سوق عرعر",
+      "lat": 31.9454,
+      "lng": 41.0287,
+      "type": "LANDMARK",
+      "description": "The heart of traditional commerce in Arar where local merchants sell handicrafts, textiles, spices, and traditional goods reflecting Bedouin culture. Visiting the souk provides authentic cultural immersion and opportunities to purchase locally-made souvenirs.",
+      "imageQueries": [
+        "Arar souk market Saudi Arabia",
+        "traditional souks Northern Borders"
+      ],
+      "activities": [
+        {
+          "id": "arar_1",
+          "text": "Browse Bedouin Handicrafts",
+          "detail": "Explore stalls selling handwoven carpets, leather goods, and embroidered textiles that reflect traditional Northern Borders craftsmanship."
+        },
+        {
+          "id": "arar_2",
+          "text": "Visit Spice and Incense Vendors",
+          "detail": "Discover aromatic oud, frankincense, and locally-sourced spices displayed in traditional wooden stalls throughout the souk."
+        },
+        {
+          "id": "arar_3",
+          "text": "Negotiate at Traditional Coffee Stands",
+          "detail": "Engage with merchants selling Arabic coffee and cardamom while observing the social ritual of coffee trading in the souk.",
+          "lat": 31.9454,
+          "lng": 41.0528
+        },
+        {
+          "id": "arar_4",
+          "text": "Photograph Traditional Architecture",
+          "detail": "Capture images of the souk's mud-brick structures and narrow alleyways that preserve the architectural heritage of Arar's old town."
+        },
+        {
+          "id": "arar_5",
+          "text": "Shop for Bedouin Jewelry",
+          "detail": "Find silver ornaments and traditional pieces adorned with semi-precious stones that represent the region's nomadic heritage."
+        },
+        {
+          "id": "arar_6",
+          "text": "Observe Daily Market Rhythms",
+          "detail": "Visit during morning hours to witness the authentic bustle of local shoppers and merchants conducting daily commerce."
+        }
+      ],
+      "food": [
+        {
+          "id": "arar_f1",
+          "text": "Al-Jareesh",
+          "detail": "A traditional Northern Borders dish of coarsely ground wheat cooked with ghee and served with dates, reflecting Bedouin pastoral cuisine."
+        },
+        {
+          "id": "arar_f2",
+          "text": "Kabsa with Local Lamb",
+          "detail": "Fragrant basmati rice with tender lamb and traditional spice blends that are prepared fresh by souk vendors throughout the day."
+        },
+        {
+          "id": "arar_f3",
+          "text": "Luqaimat",
+          "detail": "Deep-fried dough balls drizzled with date syrup and sprinkled with sesame seeds, a popular sweet treat sold at souk stands."
+        },
+        {
+          "id": "arar_f4",
+          "text": "Mezze Platter",
+          "detail": "Fresh hummus, baba ghanoush, and local cheeses paired with warm khubz bread sourced from neighborhood bakeries."
+        },
+        {
+          "id": "arar_f5",
+          "text": "Cardamom Coffee Ritual",
+          "detail": "Strong, aromatic Arabic coffee served in small cups with fresh dates, essential to the souk's social and commercial atmosphere."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arar_c1",
+          "text": "Haggling is Expected",
+          "detail": "Polite negotiation over prices is an integral part of souk culture, and merchants expect visitors to engage in friendly bargaining."
+        },
+        {
+          "id": "arar_c2",
+          "text": "Respect Prayer Times",
+          "detail": "The souk observes strict prayer schedules, with many shops closing briefly for daily prayers; plan visits accordingly."
+        },
+        {
+          "id": "arar_c3",
+          "text": "Dress Modestly",
+          "detail": "Visitors should wear conservative clothing that covers shoulders and knees to show respect for the traditional Bedouin community."
+        },
+        {
+          "id": "arar_c4",
+          "text": "Accept Hospitality Graciously",
+          "detail": "Merchants often offer tea or coffee as a gesture of welcome; accepting strengthens rapport and is considered culturally appropriate."
+        }
+      ]
+    },
+    {
+      "id": "rajajil_stones",
+      "name": "Rajajil Standing Stones",
+      "nameIt": "حجارة الرجاجيل",
+      "lat": 31.7833,
+      "lng": 41.1833,
+      "type": "LANDMARK",
+      "description": "An enigmatic archaeological site featuring ancient standing stones arranged in patterns, possibly dating back thousands of years. The mysterious monuments offer insight into pre-Islamic Arabian history and continue to intrigue archaeologists and visitors alike.",
+      "imageQueries": [
+        "Rajajil standing stones Saudi Arabia",
+        "ancient stone monuments Northern Borders"
+      ],
+      "activities": [
+        {
+          "id": "raja_1",
+          "text": "Stone Circle Photography",
+          "detail": "Photograph the distinctive arranged standing stones during golden hour when shadows enhance the geometric patterns and archaeological significance of the formations."
+        },
+        {
+          "id": "raja_2",
+          "text": "Archaeological Site Walking Tour",
+          "detail": "Walk the marked paths around the stone arrangements to observe the different groupings, alignments, and theories about their astronomical or ceremonial purpose.",
+          "lat": 29.5214,
+          "lng": 40.5964
+        },
+        {
+          "id": "raja_3",
+          "text": "Sunrise Observation",
+          "detail": "Visit at dawn to witness the standing stones silhouetted against the Arabian desert horizon, a particularly striking time for both photography and contemplation."
+        },
+        {
+          "id": "raja_4",
+          "text": "Desert Landscape Exploration",
+          "detail": "Hike the surrounding Northern Borders desert terrain to understand the geography and environmental context of why this location was chosen for the monuments."
+        },
+        {
+          "id": "raja_5",
+          "text": "Stone Pattern Documentation",
+          "detail": "Sketch or record the precise arrangements and spacing of the stones to appreciate the mathematical and intentional design of the site layout."
+        },
+        {
+          "id": "raja_6",
+          "text": "Local Guide Interpretation Session",
+          "detail": "Engage a knowledgeable local guide to discuss various archaeological theories about the stones' age, purpose, and connections to pre-Islamic Arabian cultures."
+        }
+      ],
+      "food": [
+        {
+          "id": "raja_f1",
+          "text": "Kabsa with Bedouin lamb",
+          "detail": "Fragrant rice dish cooked with slow-roasted lamb, flavored with cardamom and saffron, reflecting the pastoral heritage of Northern Borders nomadic communities."
+        },
+        {
+          "id": "raja_f2",
+          "text": "Margoog stew",
+          "detail": "Traditional Arabian slow-cooked stew of meat and dough pieces in rich broth, a warming staple of desert Bedouin cuisine still prepared in local homes."
+        },
+        {
+          "id": "raja_f3",
+          "text": "Date and camel milk refreshment",
+          "detail": "Fresh dates paired with chilled camel milk, an authentic desert sustenance that connects visitors to the region's historic travel and survival traditions."
+        },
+        {
+          "id": "raja_f4",
+          "text": "Musakhan flatbread",
+          "detail": "Palestinian-influenced chicken and sumac flatbread that reflects the broader Levantine culinary influences present throughout Northern Borders."
+        }
+      ],
+      "culture": [
+        {
+          "id": "raja_c1",
+          "text": "Respect monument boundaries",
+          "detail": "Stay on designated paths and avoid touching or climbing the stones, as they are fragile archaeological artifacts protected by Saudi heritage laws."
+        },
+        {
+          "id": "raja_c2",
+          "text": "Dress modestly and bring sun protection",
+          "detail": "Wear long sleeves and head covering appropriate for conservative Saudi culture while carrying sunscreen and water for the exposed desert environment."
+        },
+        {
+          "id": "raja_c3",
+          "text": "Hire a local guide",
+          "detail": "Engaging an official guide enhances understanding of the site's significance and supports local communities while ensuring respectful site interpretation."
+        },
+        {
+          "id": "raja_c4",
+          "text": "Visit during cooler months",
+          "detail": "Plan visits between October and April when Northern Borders temperatures are manageable for extended outdoor exploration of the archaeological site."
+        }
+      ]
+    },
+    {
+      "id": "umm_jirsan",
+      "name": "Umm Jirsan",
+      "nameIt": "أم جرسان",
+      "lat": 31.5,
+      "lng": 40.8,
+      "type": "NATURE",
+      "description": "A remote natural spring and oasis area providing respite in the otherwise arid landscape of Northern Borders. The site is valued for its water resources, wildlife, and as a traditional stopping point on desert routes.",
+      "imageQueries": [
+        "Umm Jirsan oasis spring Saudi Arabia",
+        "Northern Borders oases"
+      ],
+      "activities": [
+        {
+          "id": "umm__1",
+          "text": "Spring Water Exploration",
+          "detail": "Wade through the crystal-clear pools fed by natural underground springs that sustain the oasis year-round.",
+          "lat": 32.2847,
+          "lng": 37.8956
+        },
+        {
+          "id": "umm__2",
+          "text": "Desert Wildlife Observation",
+          "detail": "Spot Arabian oryx, gazelle, and desert birds attracted to the water source during early morning and dusk hours."
+        },
+        {
+          "id": "umm__3",
+          "text": "Palm Grove Walk",
+          "detail": "Traverse shaded pathways beneath date palms and acacia trees that provide natural cooling in the otherwise exposed desert."
+        },
+        {
+          "id": "umm__4",
+          "text": "Historic Trade Route Hiking",
+          "detail": "Follow ancient caravan paths that once connected major settlements, marked by stone cairns and weathered waypoints.",
+          "lat": 32.2865,
+          "lng": 37.892
+        },
+        {
+          "id": "umm__5",
+          "text": "Sunset View from High Ground",
+          "detail": "Climb the surrounding sandstone ridges to witness panoramic desert vistas as the sun sets over the Northern Borders landscape.",
+          "lat": 32.282,
+          "lng": 37.8975
+        },
+        {
+          "id": "umm__6",
+          "text": "Photography of Desert Flora",
+          "detail": "Document endemic desert plants and wildflowers that bloom seasonally around the spring, creating rare pockets of color."
+        }
+      ],
+      "food": [
+        {
+          "id": "umm__f1",
+          "text": "Camel Meat Stew",
+          "detail": "Slow-cooked tender camel meat with local herbs and vegetables, a traditional Bedouin dish that reflects the region's pastoral heritage."
+        },
+        {
+          "id": "umm__f2",
+          "text": "Date and Goat Cheese",
+          "detail": "Fresh dates harvested from the oasis paired with tangy local goat cheese, eaten as a light meal or afternoon snack."
+        },
+        {
+          "id": "umm__f3",
+          "text": "Desert Spring Water",
+          "detail": "Naturally cool mineral-rich water drawn directly from Umm Jirsan's springs, believed to have restorative properties."
+        },
+        {
+          "id": "umm__f4",
+          "text": "Bedouin Flatbread with Ghee",
+          "detail": "Hand-rolled wheat bread cooked on hot stones and brushed with clarified butter, served warm with honey or date syrup."
+        },
+        {
+          "id": "umm__f5",
+          "text": "Lamb Kabsa",
+          "detail": "Rice pilaf topped with spiced lamb, flavored with cardamom and saffron, a regional staple prepared for travelers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "umm__c1",
+          "text": "Respect Water Scarcity",
+          "detail": "Water is precious in this region; use it conservatively and never waste it, as the spring has sustained communities for centuries."
+        },
+        {
+          "id": "umm__c2",
+          "text": "Greet Elders First",
+          "detail": "If encountering Bedouin communities at the oasis, respectfully greet the oldest person first as a sign of cultural respect."
+        },
+        {
+          "id": "umm__c3",
+          "text": "Visit During Cooler Hours",
+          "detail": "Plan activities for early morning or late afternoon when temperatures are bearable and locals are more likely to be outdoors."
+        },
+        {
+          "id": "umm__c4",
+          "text": "Modest Dress Expected",
+          "detail": "Wear loose, long clothing that covers shoulders and knees as a sign of respect for conservative local customs and sun protection."
+        }
+      ]
+    },
+    {
+      "id": "shubaitat_castle",
+      "name": "Shubaitat Castle Ruins",
+      "nameIt": "آثار قلعة شبيتات",
+      "lat": 31.8,
+      "lng": 41.3,
+      "type": "LANDMARK",
+      "description": "The remains of an historic fort structure that once served defensive and trade-route control purposes in the region. The ruins provide tangible evidence of the area's strategic importance and past civilizations.",
+      "imageQueries": [
+        "Shubaitat castle ruins Saudi Arabia",
+        "Northern Borders historic forts"
+      ],
+      "activities": [
+        {
+          "id": "shub_1",
+          "text": "Explore Castle Ruins",
+          "detail": "Walk through the remnants of the defensive fortress structure to examine stone foundations, walls, and architectural features that date back centuries."
+        },
+        {
+          "id": "shub_2",
+          "text": "Photograph Historic Stonework",
+          "detail": "Document the distinctive cut-stone construction and defensive layout of the ruins, which showcase medieval Northern Borders military engineering."
+        },
+        {
+          "id": "shub_3",
+          "text": "Survey Trade Route Vista",
+          "detail": "Stand at elevated points within the ruins to understand the strategic vantage point that once controlled passage along historical caravan routes."
+        },
+        {
+          "id": "shub_4",
+          "text": "Collect Historical Context",
+          "detail": "Study the remaining fortification details including tower bases and perimeter walls to interpret how this castle functioned in regional defense networks."
+        },
+        {
+          "id": "shub_5",
+          "text": "Examine Ground Artifacts",
+          "detail": "Search the surrounding area carefully for pottery fragments, flint scatter, and other surface artifacts that reveal settlement patterns and daily life."
+        }
+      ],
+      "food": [
+        {
+          "id": "shub_f1",
+          "text": "Kabsa",
+          "detail": "A fragrant rice dish cooked with meat, traditionally seasoned with cardamom, cinnamon, and bay leaves, served throughout Northern Borders."
+        },
+        {
+          "id": "shub_f2",
+          "text": "Zarb or Chicken Mansaf",
+          "detail": "Tender meat slow-cooked in a clay pit or stewed with yogurt sauce and served with flatbread, a celebration dish common in Saudi border regions."
+        },
+        {
+          "id": "shub_f3",
+          "text": "Camel Meat Dishes",
+          "detail": "Local specialty featuring camel prepared as grilled strips, stews, or ground meat in traditional recipes reflecting Bedouin pastoral heritage."
+        },
+        {
+          "id": "shub_f4",
+          "text": "Markook Bread with Labneh",
+          "detail": "Thin, crispy flatbread served alongside thick strained yogurt and olive oil, a simple breakfast combination typical of Northern Borders settlements."
+        }
+      ],
+      "culture": [
+        {
+          "id": "shub_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Plan your visit around five daily prayers; many local businesses close temporarily and guides may not be available during these times."
+        },
+        {
+          "id": "shub_c2",
+          "text": "Dress Conservatively",
+          "detail": "Wear loose, modest clothing that covers shoulders and knees, particularly if visiting with local guides or approaching nearby settlements."
+        },
+        {
+          "id": "shub_c3",
+          "text": "Hire Local Guides",
+          "detail": "Engage regional guides from nearby towns who understand the site's history and can provide context that isolated exploration cannot offer."
+        },
+        {
+          "id": "shub_c4",
+          "text": "Visit in Cooler Months",
+          "detail": "Plan trips between November and March when Northern Borders temperatures are manageable; summer heat exceeds 45°C and makes extended exploration dangerous."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Al Reef Restaurant",
+      "address": "King Fahd Road, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Traditional Saudi dining establishment known for authentic local cuisine and warm hospitality.",
+      "mustOrder": "Kabsa with lamb",
+      "lat": 30.9167,
+      "lng": 41.1667
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Najd Palace Restaurant",
+      "address": "Al-Thana Street, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Family-friendly venue specializing in Najdi cuisine with elegant traditional décor.",
+      "mustOrder": "Chicken Majboos",
+      "lat": 30.915,
+      "lng": 41.168
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Al Khaleej Restaurant",
+      "address": "Olaya Street, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Gulf",
+      "priceRange": "€€",
+      "description": "Popular spot serving Gulf cuisine with emphasis on fresh seafood and grilled meats.",
+      "mustOrder": "Grilled hammour fish",
+      "lat": 30.9175,
+      "lng": 41.165
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Al Faisal Grill",
+      "address": "Prince Sultan Road, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Mixed Grill",
+      "priceRange": "€€",
+      "description": "Casual grill house famous for charcoal-grilled meats and authentic Arabian flavors.",
+      "mustOrder": "Mixed grill platter",
+      "lat": 30.92,
+      "lng": 41.16
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Al Safa Restaurant",
+      "address": "King Abdul Aziz Street, Rafha",
+      "neighbourhood": "Rafha",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Well-established restaurant offering traditional Saudi dishes in a comfortable family setting.",
+      "mustOrder": "Mansaf with chicken",
+      "lat": 30.4167,
+      "lng": 40.3
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Al Noor Restaurant",
+      "address": "Commercial District, Rafha",
+      "neighbourhood": "Rafha",
+      "cuisine": "Middle Eastern",
+      "priceRange": "€€",
+      "description": "Diverse Middle Eastern menu with Lebanese and Palestinian specialties.",
+      "mustOrder": "Charcoal-grilled kebab",
+      "lat": 30.42,
+      "lng": 40.31
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Al Bahar Seafood Restaurant",
+      "address": "Khalij Street, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Premium seafood restaurant with daily fresh catches prepared by experienced chefs.",
+      "mustOrder": "Whole grilled sea bream",
+      "lat": 30.91,
+      "lng": 41.18
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Al Waha Restaurant",
+      "address": "Umm Al Qura Street, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Casual dining venue renowned for generous portions and authentic desert cuisine.",
+      "mustOrder": "Lamb biryani",
+      "lat": 30.918,
+      "lng": 41.172
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Al Jazeera Restaurant",
+      "address": "Main Bazaar, Rafha",
+      "neighbourhood": "Rafha",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€",
+      "description": "Budget-friendly local favorite serving hearty traditional meals for working professionals.",
+      "mustOrder": "Falafel and hummus platter",
+      "lat": 30.425,
+      "lng": 40.305
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Al Doha Restaurant",
+      "address": "Al-Nakheel Street, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Gulf & Indian",
+      "priceRange": "€€",
+      "description": "Fusion restaurant blending Gulf and Indian flavors with modern presentation.",
+      "mustOrder": "Biryani with Gulf spices",
+      "lat": 30.922,
+      "lng": 41.158
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Al Badiya Palace",
+      "address": "Prince Saud bin Abdul Aziz Road, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€€",
+      "description": "Upscale traditional restaurant featuring premium cuts and refined preparation techniques.",
+      "mustOrder": "Whole roasted lamb",
+      "lat": 30.914,
+      "lng": 41.164
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Al Khayma Restaurant",
+      "address": "Heritage District, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Themed restaurant celebrating Bedouin culture with traditional décor and authentic recipes.",
+      "mustOrder": "Zarb (underground oven meat)",
+      "lat": 30.916,
+      "lng": 41.17
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Al Reef Al Qadim",
+      "address": "Old Market Street, Rafha",
+      "neighbourhood": "Rafha",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Historic family restaurant maintaining traditional recipes passed through generations.",
+      "mustOrder": "Chicken stuffed with rice and nuts",
+      "lat": 30.418,
+      "lng": 40.295
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Al Nakheel Grill House",
+      "address": "Al Amr Street, Arar",
+      "neighbourhood": "Arar",
+      "cuisine": "Grilled Meats",
+      "priceRange": "€€",
+      "description": "Contemporary grill establishment using premium local and imported meats cooked over open flame.",
+      "mustOrder": "Shish taouk (marinated chicken skewers)",
+      "lat": 30.913,
+      "lng": 41.176
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Al Baraka Restaurant",
+      "address": "King Fahd Street, Rafha",
+      "neighbourhood": "Rafha",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Established eatery known for consistent quality and welcoming atmosphere for families.",
+      "mustOrder": "Traditional machboos with vegetables",
+      "lat": 30.422,
+      "lng": 40.308
+    }
+  ]
+}

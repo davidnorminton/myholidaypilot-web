@@ -1,0 +1,1428 @@
+{
+  "id": "tabuk",
+  "name": "Tabuk",
+  "nameIt": "تبوك",
+  "capital": "Tabuk",
+  "lat": 28.3896,
+  "lng": 36.5584,
+  "emoji": "🏖️",
+  "colour": "ff4caf50",
+  "boundingBox": {
+    "north": 29.8,
+    "south": 27,
+    "east": 38.2,
+    "west": 35
+  },
+  "history": "Tabuk has served as a crucial waypoint in northwestern Saudi Arabia for centuries, sitting along the ancient trade routes connecting the Arabian Peninsula with the Levant and beyond. The city gained particular historical significance during the early Islamic period, as it was mentioned in hadith literature and served as a military garrison under the Prophet Muhammad. During the Ottoman era, Tabuk remained an important administrative and defensive center, with its fortress standing as a testament to centuries of strategic importance. The modern city developed significantly in the twentieth century as part of Saudi Arabia's broader infrastructure expansion and urbanization.",
+  "culturalNotes": "Tabuk reflects the traditions of northern Arabia, where Bedouin heritage blends with settled urban life and strong Islamic practices define community values. The city is known for its hospitality, with tea and coffee ceremonies forming an integral part of social interaction, and family gatherings remain central to local culture. The surrounding landscape and historical sites, including the famous Tabuk Fort, connect residents to the region's rich past and shape a distinct regional identity.",
+  "bestTimeToVisit": "Visit from November to March when temperatures are mild, perfect for enjoying beaches and exploring historical sites.",
+  "languageNotes": "The local dialect is Levantine Arabic mixed with Gulf influences, distinct from Classical Arabic and southern Saudi dialects. Useful phrases include 'Marhaba' (hello), 'Shukran' (thank you), and 'Kayf halak?' (How are you?), with most residents also speaking Modern Standard Arabic and increasingly English among younger generations.",
+  "generatedAt": "2026-07-22T21:31:46.073Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "tabuk_city",
+      "name": "Tabuk City",
+      "nameIt": "تبوك",
+      "lat": 28.3904,
+      "lng": 36.556,
+      "type": "CITY",
+      "description": "The capital and largest city of Tabuk Province, serving as the region's commercial and cultural hub. It offers modern amenities, traditional souks, and is the gateway for exploring northwestern Saudi Arabia.",
+      "imageQueries": [
+        "Tabuk city skyline",
+        "Tabuk downtown market"
+      ],
+      "activities": [
+        {
+          "id": "tabu_1",
+          "text": "Tabuk Castle",
+          "detail": "An Ottoman-era fortress dating back to the 16th century, featuring restored rooms and exhibits on the region's military history.",
+          "lat": 28.3945,
+          "lng": 36.5627
+        },
+        {
+          "id": "tabu_2",
+          "text": "Old Tabuk Souk",
+          "detail": "A traditional marketplace where vendors sell spices, textiles, handicrafts, and local goods in a bustling authentic atmosphere.",
+          "lat": 28.392,
+          "lng": 36.568
+        },
+        {
+          "id": "tabu_3",
+          "text": "Tabuk Regional Museum",
+          "detail": "Houses archaeological artifacts, historical documents, and exhibits showcasing Tabuk's role as an important trading post on ancient caravan routes.",
+          "lat": 28.3988,
+          "lng": 36.571
+        },
+        {
+          "id": "tabu_4",
+          "text": "Prince Abdul Mohsin Bin Fahd Park",
+          "detail": "A modern public park with green spaces, walking paths, and recreational facilities offering respite from the desert heat."
+        },
+        {
+          "id": "tabu_5",
+          "text": "Dumat Al-Jandal Historical Site",
+          "detail": "An ancient settlement 80 kilometers south of Tabuk City featuring pre-Islamic ruins and a well-preserved old fortress.",
+          "lat": 29.7833,
+          "lng": 37.0833
+        }
+      ],
+      "food": [
+        {
+          "id": "tabu_f1",
+          "text": "Kabsa",
+          "detail": "The regional staple dish of fragrant rice cooked with spiced meat, typically served on a communal platter with yogurt sauce."
+        },
+        {
+          "id": "tabu_f2",
+          "text": "Zarb",
+          "detail": "Slow-cooked meat and vegetables wrapped in foil and buried in hot sand, creating a tender, smoky flavor unique to Bedouin desert cooking."
+        },
+        {
+          "id": "tabu_f3",
+          "text": "Hummus and Falafel",
+          "detail": "Creamy chickpea dip and fried chickpea patties commonly served for breakfast or lunch with fresh pita bread and olive oil."
+        },
+        {
+          "id": "tabu_f4",
+          "text": "Shawarma",
+          "detail": "Thinly sliced marinated meat roasted on a vertical spit and served in flatbread with garlic paste and tomatoes at numerous street vendors."
+        },
+        {
+          "id": "tabu_f5",
+          "text": "Dates and Arabic Coffee",
+          "detail": "A traditional welcome ritual offering fresh dates paired with strong, lightly cardamom-flavored Arabic coffee served in small cups."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tabu_c1",
+          "text": "Dress Modestly",
+          "detail": "Visitors should wear loose, conservative clothing covering shoulders and knees, with women expected to wear abayas in public spaces."
+        },
+        {
+          "id": "tabu_c2",
+          "text": "Respect Prayer Times",
+          "detail": "Many shops and restaurants close during the five daily prayer times, particularly at midday and evening prayers; plan activities accordingly."
+        },
+        {
+          "id": "tabu_c3",
+          "text": "Greetings Matter",
+          "detail": "Use 'As-salamu alaykum' (peace be upon you) as a greeting; right hand is preferred for handshakes and eating, as the left is considered unclean."
+        },
+        {
+          "id": "tabu_c4",
+          "text": "Ramadan Observance",
+          "detail": "During the holy month, eating, drinking, or smoking in public during daylight hours is prohibited; many restaurants open only after sunset."
+        }
+      ]
+    },
+    {
+      "id": "gulf_aqaba",
+      "name": "Gulf of Aqaba Coastal Areas",
+      "nameIt": "خليج العقبة",
+      "lat": 29.5,
+      "lng": 34.9,
+      "type": "COASTAL",
+      "description": "The scenic northern coastline featuring pristine beaches and clear blue waters ideal for diving and snorkeling. This area showcases some of Saudi Arabia's most beautiful marine ecosystems and coral reefs.",
+      "imageQueries": [
+        "Aqaba gulf beaches",
+        "Aqaba coral reef diving"
+      ],
+      "activities": [
+        {
+          "id": "gulf_1",
+          "text": "Coral Reef Diving",
+          "detail": "Explore the vibrant coral gardens and diverse marine life in the clear warm waters of the Gulf of Aqaba, one of the world's northernmost coral ecosystems.",
+          "lat": 29.55,
+          "lng": 34.9667
+        },
+        {
+          "id": "gulf_2",
+          "text": "Snorkeling at Al-Qura'iyah Beach",
+          "detail": "Snorkel in shallow crystal-clear waters teeming with colorful fish, sea turtles, and healthy coral formations just offshore from the sandy beach.",
+          "lat": 29.52,
+          "lng": 34.98
+        },
+        {
+          "id": "gulf_3",
+          "text": "Beach Camping and Sunset Viewing",
+          "detail": "Camp along the pristine shoreline under the stars and witness spectacular sunsets reflecting off the calm Gulf waters with views toward Egypt and Israel.",
+          "lat": 29.53,
+          "lng": 34.97
+        },
+        {
+          "id": "gulf_4",
+          "text": "Glass-Bottom Boat Tours",
+          "detail": "Observe coral reefs and marine creatures from the comfort of a glass-bottomed boat without needing diving certification or getting wet.",
+          "lat": 29.54,
+          "lng": 34.975
+        },
+        {
+          "id": "gulf_5",
+          "text": "Wadis Exploration",
+          "detail": "Hike through nearby mountain wadis like Wadi Tayeb and discover natural pools, scenic rock formations, and desert flora unique to the northern Red Sea region.",
+          "lat": 29.56,
+          "lng": 34.95
+        },
+        {
+          "id": "gulf_6",
+          "text": "Underwater Photography",
+          "detail": "Capture stunning images of the Gulf's exceptional marine biodiversity including endemic fish species and pristine coral formations found nowhere else.",
+          "lat": 29.55,
+          "lng": 34.9667
+        }
+      ],
+      "food": [
+        {
+          "id": "gulf_f1",
+          "text": "Grilled Hamour (Grouper)",
+          "detail": "Fresh locally-caught grouper seasoned with Middle Eastern spices and grilled whole, served with lemon and served at beachfront restaurants throughout Aqaba."
+        },
+        {
+          "id": "gulf_f2",
+          "text": "Sayadiyah (Fisherman's Rice)",
+          "detail": "A traditional Gulf coastal dish of fragrant basmati rice layered with spiced fried fish, topped with crispy onions and served with tomato sauce."
+        },
+        {
+          "id": "gulf_f3",
+          "text": "Shrimp Kabsa",
+          "detail": "Gulf prawns cooked with fragrant long-grain rice, cardamom, and saffron, reflecting the maritime culture and fresh seafood abundance of the region."
+        },
+        {
+          "id": "gulf_f4",
+          "text": "Stuffed Squid (Calamari Mahshi)",
+          "detail": "Fresh squid caught from the Gulf, stuffed with rice and spices, then grilled or fried and served with tahini sauce at local seafood establishments."
+        },
+        {
+          "id": "gulf_f5",
+          "text": "Umm Ali with Date and Nuts",
+          "detail": "A warm layered dessert of pastry, milk, and coconut topped with dates and regional nuts, traditionally served as a sweet ending to coastal meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gulf_c1",
+          "text": "Dress Respectfully",
+          "detail": "While beach areas are more relaxed, visitors should wear modest swimwear and cover up when not swimming, particularly women should wear loose clothing away from the beach."
+        },
+        {
+          "id": "gulf_c2",
+          "text": "Respect Prayer Times",
+          "detail": "Businesses and restaurants may close during the five daily prayer times, especially Dhuhr and Asr in afternoon hours, so plan activities and meal times accordingly."
+        },
+        {
+          "id": "gulf_c3",
+          "text": "Local Fishing Traditions",
+          "detail": "The Gulf of Aqaba's Bedouin and fishing communities have centuries-old maritime traditions; visitors should show respect when photographing locals or their boats and always ask permission first."
+        },
+        {
+          "id": "gulf_c4",
+          "text": "Environmental Consciousness",
+          "detail": "The coral reef ecosystem is fragile and protected; visitors must not touch coral, take shells, or disturb marine life, and should use reef-safe sunscreen to preserve this natural heritage."
+        }
+      ]
+    },
+    {
+      "id": "darat_al_madafah",
+      "name": "Darat Al Madafah",
+      "nameIt": "دارة المضافة",
+      "lat": 28.385,
+      "lng": 36.55,
+      "type": "LANDMARK",
+      "description": "A restored traditional Saudi guesthouse that showcases regional Nabatean and Islamic heritage through architecture and artifacts. It provides authentic insight into the area's historical significance and traditional hospitality culture.",
+      "imageQueries": [
+        "Darat Madafah heritage house",
+        "traditional Saudi architecture Tabuk"
+      ],
+      "activities": [
+        {
+          "id": "dara_1",
+          "text": "Explore Traditional Architecture",
+          "detail": "Wander through the restored mud-brick and stone rooms to observe authentic Saudi desert construction techniques and historical design elements."
+        },
+        {
+          "id": "dara_2",
+          "text": "View Nabatean Artifacts",
+          "detail": "Study the on-site collection of pottery, inscriptions, and archaeological pieces that illustrate the Nabatean trade routes that passed through ancient Tabuk."
+        },
+        {
+          "id": "dara_3",
+          "text": "Learn About Islamic Heritage",
+          "detail": "Examine the Islamic period exhibits and architectural features that reflect Tabuk's role as a historical stopping point on pilgrimage routes."
+        },
+        {
+          "id": "dara_4",
+          "text": "Participate in Heritage Demonstrations",
+          "detail": "Attend traditional craft or hospitality demonstrations held at the guesthouse to see how Bedouin and regional communities maintained daily practices."
+        },
+        {
+          "id": "dara_5",
+          "text": "Photograph the Courtyard",
+          "detail": "Document the restored central courtyard with its traditional well, stone columns, and carved details that exemplify regional design."
+        },
+        {
+          "id": "dara_6",
+          "text": "Visit Tabuk Archaeological Museum Nearby",
+          "detail": "Head to the adjacent museum to deepen understanding of the broader archaeological context and Nabatean civilization in the region.",
+          "lat": 28.3945,
+          "lng": 36.5627
+        }
+      ],
+      "food": [
+        {
+          "id": "dara_f1",
+          "text": "Zarb",
+          "detail": "A traditional slow-cooked meat dish prepared in an underground pit with vegetables, offering authentic Bedouin flavors still served at heritage venues."
+        },
+        {
+          "id": "dara_f2",
+          "text": "Kabsa",
+          "detail": "Spiced rice topped with tender lamb or chicken, a staple Saudi dish reflecting the region's culinary traditions and often served at guesthouses."
+        },
+        {
+          "id": "dara_f3",
+          "text": "Hummus and Muhamarra",
+          "detail": "Creamy chickpea and roasted red pepper dips served with fresh khubz bread, representing Levantine influences on Tabuk's food heritage."
+        },
+        {
+          "id": "dara_f4",
+          "text": "Dates with Arabic Coffee",
+          "detail": "Local fresh dates paired with thick, cardamom-infused qahwa represents the essential hospitality ritual practiced in traditional Saudi homes."
+        },
+        {
+          "id": "dara_f5",
+          "text": "Majboos",
+          "detail": "A lesser-known regional rice and meat preparation unique to northern Saudi Arabia that showcases local spice blends and cooking methods."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dara_c1",
+          "text": "Remove Shoes Indoors",
+          "detail": "Always remove footwear before entering living areas and sleeping quarters as a sign of respect for the sacred nature of the traditional home."
+        },
+        {
+          "id": "dara_c2",
+          "text": "Accept Hospitality Graciously",
+          "detail": "When offered coffee, tea, or dates, accept at least one serving as refusing can be seen as impolite; it is customary to have at least a taste."
+        },
+        {
+          "id": "dara_c3",
+          "text": "Dress Modestly",
+          "detail": "Wear conservative clothing that covers shoulders and knees; women should consider a headscarf in cultural spaces as a mark of respect for Islamic traditions."
+        },
+        {
+          "id": "dara_c4",
+          "text": "Observe Prayer Times",
+          "detail": "Be mindful that activities may pause during the five daily prayers; speak quietly and avoid intrusive photography during these times."
+        }
+      ]
+    },
+    {
+      "id": "al_wajh",
+      "name": "Al Wajh",
+      "nameIt": "الوجه",
+      "lat": 26.2061,
+      "lng": 36.4736,
+      "type": "COASTAL",
+      "description": "A historic port town on the Red Sea coast known for its beautiful beaches and pearl diving heritage. The area offers excellent opportunities for water sports, marine exploration, and experiencing traditional fishing communities.",
+      "imageQueries": [
+        "Al Wajh Red Sea beach",
+        "Al Wajh coastal town"
+      ],
+      "activities": [
+        {
+          "id": "al_w_1",
+          "text": "Red Sea Snorkeling",
+          "detail": "Explore vibrant coral reefs and tropical fish in the crystal-clear waters just offshore from Al Wajh's beaches.",
+          "lat": 26.1833,
+          "lng": 36.4667
+        },
+        {
+          "id": "al_w_2",
+          "text": "Pearl Diving Heritage Tour",
+          "detail": "Learn about the town's historic pearl diving industry by visiting local museums and speaking with veteran divers who still practice traditional techniques.",
+          "lat": 26.1833,
+          "lng": 36.4667
+        },
+        {
+          "id": "al_w_3",
+          "text": "Fish Market Visit",
+          "detail": "Wander through the early morning fish markets where local fishermen sell their daily catch and observe traditional trading practices.",
+          "lat": 26.1833,
+          "lng": 36.4667
+        },
+        {
+          "id": "al_w_4",
+          "text": "Beach Relaxation at Al Wajh Beach",
+          "detail": "Enjoy pristine sandy shores backed by desert mountains, ideal for swimming and watching Red Sea sunsets.",
+          "lat": 26.1917,
+          "lng": 36.475
+        },
+        {
+          "id": "al_w_5",
+          "text": "Traditional Fishing Village Exploration",
+          "detail": "Walk through authentic fishing communities to see wooden dhow boats, nets being repaired, and daily life unchanged for generations.",
+          "lat": 26.1833,
+          "lng": 36.4667
+        },
+        {
+          "id": "al_w_6",
+          "text": "Scuba Diving Excursions",
+          "detail": "Dive deeper to explore underwater wrecks, marine caves, and abundant sea life with local dive operators familiar with the region's best sites.",
+          "lat": 26.1833,
+          "lng": 36.4667
+        }
+      ],
+      "food": [
+        {
+          "id": "al_w_f1",
+          "text": "Samak Mashi (Grilled Stuffed Fish)",
+          "detail": "Fresh Red Sea fish stuffed with herbs, onions, and spices then grilled whole, a signature coastal dish reflecting local fishing traditions."
+        },
+        {
+          "id": "al_w_f2",
+          "text": "Mahyawa (Dried Salted Fish)",
+          "detail": "Traditional preserved fish that has been sun-dried and salted for centuries, eaten as a snack or with rice during meals."
+        },
+        {
+          "id": "al_w_f3",
+          "text": "Shrimp Kabsa",
+          "detail": "Fragrant rice cooked with Gulf shrimp, tomatoes, and aromatic spices, served with a tangy tomato-pepper sauce on the side."
+        },
+        {
+          "id": "al_w_f4",
+          "text": "Garamoot (Fish Stew)",
+          "detail": "A hearty local stew combining fresh fish, potatoes, and onions in a light broth, often served with flatbread for soaking."
+        },
+        {
+          "id": "al_w_f5",
+          "text": "Fresh Hammour Fillet",
+          "detail": "Delicate white fish grilled simply with lemon and served at beachside restaurants, showcasing the day's finest catch from local boats."
+        },
+        {
+          "id": "al_w_f6",
+          "text": "Seafood Biryani",
+          "detail": "Layered rice dish with mixed Red Sea seafood, aromatic spices, and slow-cooked until fragrant, reflecting Gulf and South Asian influences."
+        }
+      ],
+      "culture": [
+        {
+          "id": "al_w_c1",
+          "text": "Respect Pearl Diving Heritage",
+          "detail": "Acknowledge the profound historical significance of pearl diving in Al Wajh's identity and listen respectfully to elderly divers' stories about the pre-oil era economy."
+        },
+        {
+          "id": "al_w_c2",
+          "text": "Dress Modestly at All Times",
+          "detail": "Wear loose-fitting, covered clothing that respects local Islamic customs, particularly when visiting fishing communities and markets away from tourist beaches."
+        },
+        {
+          "id": "al_w_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "A few words of Arabic such as 'Assalamu alaikum' (peace be upon you) and 'Shukran' (thank you) will be genuinely appreciated by locals in this traditional community."
+        },
+        {
+          "id": "al_w_c4",
+          "text": "Visit Markets Early Morning",
+          "detail": "Arrive at fish markets and souks before 8 AM when activity is highest and before the intense midday heat, when vendors and locals conduct most daily business."
+        }
+      ]
+    },
+    {
+      "id": "neom_area",
+      "name": "NEOM Region",
+      "nameIt": "نيوم",
+      "lat": 27.1699,
+      "lng": 34.6413,
+      "type": "LANDMARK",
+      "description": "The ambitious mega-development project representing Saudi Arabia's future vision with futuristic architecture and innovation hubs. While still under development, it offers a glimpse into next-generation sustainable living and technology.",
+      "imageQueries": [
+        "NEOM Saudi Arabia development",
+        "NEOM futuristic city"
+      ],
+      "activities": [
+        {
+          "id": "neom_1",
+          "text": "The Line Walking Tour",
+          "detail": "Explore the futuristic linear city with its striking architectural design and pedestrian-friendly infrastructure showcasing sustainable urban planning.",
+          "lat": 28.4595,
+          "lng": 34.7697
+        },
+        {
+          "id": "neom_2",
+          "text": "Gacela Island Visit",
+          "detail": "Discover this pristine island within NEOM featuring pristine beaches and views of the development's integration with natural coastal landscapes.",
+          "lat": 28.3833,
+          "lng": 34.6333
+        },
+        {
+          "id": "neom_3",
+          "text": "Innovation Hub Tours",
+          "detail": "Visit NEOM's technology and research centers to learn about cutting-edge projects in AI, robotics, and renewable energy development.",
+          "lat": 28.45,
+          "lng": 34.75
+        },
+        {
+          "id": "neom_4",
+          "text": "Trojena Mountain Resort Exploration",
+          "detail": "Experience the ski and winter sports destination with its artificial snow technology set against the Arabian desert landscape.",
+          "lat": 27.8833,
+          "lng": 35.25
+        },
+        {
+          "id": "neom_5",
+          "text": "Marina and Waterfront Promenade",
+          "detail": "Walk along NEOM's luxury marina district featuring yacht clubs, waterfront dining, and modern architectural waterfront developments.",
+          "lat": 28.47,
+          "lng": 34.76
+        },
+        {
+          "id": "neom_6",
+          "text": "Sustainability Visitor Centers",
+          "detail": "Learn about NEOM's environmental initiatives including solar farms, water conservation systems, and zero-carbon technologies on display.",
+          "lat": 28.46,
+          "lng": 34.755
+        }
+      ],
+      "food": [
+        {
+          "id": "neom_f1",
+          "text": "Kabsa with Gulf Shrimp",
+          "detail": "A regional rice dish prepared with locally-sourced Red Sea shrimp, fragrant spices, and served with tomato-based sauce at NEOM's upscale dining establishments."
+        },
+        {
+          "id": "neom_f2",
+          "text": "Grilled Hammour (Gulf Fish)",
+          "detail": "Fresh locally-caught hammour fish grilled whole and seasoned with traditional Arabian spices, a signature dish reflecting the region's maritime heritage."
+        },
+        {
+          "id": "neom_f3",
+          "text": "Machboos (Spiced Rice and Meat)",
+          "detail": "A traditional Saudi dish featuring slow-cooked lamb or chicken with fragrant basmati rice and Middle Eastern spices commonly found in NEOM's restaurants."
+        },
+        {
+          "id": "neom_f4",
+          "text": "Fresh Dates and Arabic Coffee",
+          "detail": "Experience the traditional Saudi hospitality ritual of dates paired with strong, cardamom-infused Arabic coffee served throughout NEOM."
+        },
+        {
+          "id": "neom_f5",
+          "text": "Stuffed Camel Meat (Khuzi)",
+          "detail": "A premium regional specialty featuring slow-roasted camel meat served at NEOM's fine dining venues celebrating Bedouin culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "neom_c1",
+          "text": "Dress Code Respect",
+          "detail": "While NEOM is more cosmopolitan than traditional areas, modest dress is still recommended especially in public spaces and dining establishments to respect local customs."
+        },
+        {
+          "id": "neom_c2",
+          "text": "Prayer Time Awareness",
+          "detail": "Many businesses close briefly during the five daily Islamic prayer times; plan activities accordingly and be respectful during Adhan (prayer call)."
+        },
+        {
+          "id": "neom_c3",
+          "text": "Photography Etiquette",
+          "detail": "Always ask permission before photographing individuals, and avoid photographing sensitive infrastructure or security areas within the development."
+        },
+        {
+          "id": "neom_c4",
+          "text": "Arabic Greetings",
+          "detail": "Learning basic Arabic phrases like 'Assalamu alaikum' (peace be upon you) is appreciated by locals and enhances cultural interactions within NEOM."
+        }
+      ]
+    },
+    {
+      "id": "tabuk_castle",
+      "name": "Tabuk Castle",
+      "nameIt": "قلعة تبوك",
+      "lat": 28.39,
+      "lng": 36.558,
+      "type": "LANDMARK",
+      "description": "A historic fortress built during the Ottoman period that served as an important military stronghold and trading post. The castle offers panoramic views of the city and contains museums displaying regional artifacts and military history.",
+      "imageQueries": [
+        "Tabuk Castle fortress",
+        "Tabuk Castle historical"
+      ],
+      "activities": [
+        {
+          "id": "tabu_1",
+          "text": "Explore the Castle Museum",
+          "detail": "Browse Ottoman-era weapons, regional artifacts, and military history exhibits housed within the fortress chambers."
+        },
+        {
+          "id": "tabu_2",
+          "text": "Climb the Watchtower",
+          "detail": "Ascend to the top of the main tower for 360-degree panoramic views of Tabuk city and the surrounding desert landscape.",
+          "lat": 28.3845,
+          "lng": 36.5627
+        },
+        {
+          "id": "tabu_3",
+          "text": "Visit the Garrison Quarters",
+          "detail": "Walk through restored rooms that once housed Ottoman soldiers and administrators to understand daily life during the fortress's operational period."
+        },
+        {
+          "id": "tabu_4",
+          "text": "Photography at Sunset",
+          "detail": "Capture the fortress silhouette and warm desert light from the courtyard as the sun sets over Tabuk's skyline."
+        },
+        {
+          "id": "tabu_5",
+          "text": "Study Ottoman Architecture",
+          "detail": "Examine the fortress's defensive design, including crenellated walls, arrow slits, and bastions typical of 16th-century Ottoman military fortifications."
+        },
+        {
+          "id": "tabu_6",
+          "text": "Inspect the Well and Water Systems",
+          "detail": "Observe the historic underground well and water storage systems that were critical for sustaining the garrison in the desert environment."
+        }
+      ],
+      "food": [
+        {
+          "id": "tabu_f1",
+          "text": "Kabsa with Lamb",
+          "detail": "A fragrant rice dish cooked with meat, spices, and ghee that is a staple meal throughout the Tabuk region and often served at local restaurants near the castle."
+        },
+        {
+          "id": "tabu_f2",
+          "text": "Zarb (Underground-Roasted Meat)",
+          "detail": "Tender meat and vegetables slow-cooked in an underground pit, representing traditional Bedouin cuisine popular in Saudi Arabia's northern regions."
+        },
+        {
+          "id": "tabu_f3",
+          "text": "Hummus and Muhammara",
+          "detail": "Creamy chickpea and roasted red pepper dips served with flatbread, commonly found at casual eateries in the old medina near the fortress."
+        },
+        {
+          "id": "tabu_f4",
+          "text": "Fresh Camel Milk",
+          "detail": "Locally-sourced camel milk served chilled or warm, celebrated for its nutritional properties and availability at heritage food stalls around Tabuk."
+        },
+        {
+          "id": "tabu_f5",
+          "text": "Falafel Wraps",
+          "detail": "Fried chickpea patties wrapped in pita bread with tahini sauce and fresh vegetables, a quick and affordable meal option near the castle entrance."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tabu_c1",
+          "text": "Respect Prayer Times",
+          "detail": "The castle and surrounding areas close or have limited access during the five daily Islamic prayer times, so plan your visit accordingly."
+        },
+        {
+          "id": "tabu_c2",
+          "text": "Dress Modestly",
+          "detail": "Visitors should wear long, loose-fitting clothing and women should bring an abaya or headscarf, as this is a conservative Saudi region and religious site."
+        },
+        {
+          "id": "tabu_c3",
+          "text": "Visit in Cooler Months",
+          "detail": "October to March offers the most comfortable temperatures for exploring the fortress; summer heat in Tabuk regularly exceeds 40°C (104°F)."
+        },
+        {
+          "id": "tabu_c4",
+          "text": "Learn Basic Arabic Phrases",
+          "detail": "English is limited among staff and local vendors, so learning simple greetings and numbers enhances interactions and shows respect to the community."
+        }
+      ]
+    },
+    {
+      "id": "durrat_al_nakheel",
+      "name": "Durrat Al Nakheel",
+      "nameIt": "درة النخيل",
+      "lat": 28.25,
+      "lng": 35.65,
+      "type": "COASTAL",
+      "description": "A picturesque coastal resort area featuring white-sand beaches and luxury developments along the Red Sea. It is a prime destination for beach relaxation, water sports, and enjoying Saudi Arabia's marine beauty.",
+      "imageQueries": [
+        "Durrat Al Nakheel beach resort",
+        "Red Sea luxury resort Tabuk"
+      ],
+      "activities": [
+        {
+          "id": "durr_1",
+          "text": "Red Sea Snorkeling",
+          "detail": "Explore vibrant coral reefs and tropical fish species in the shallow, clear waters just offshore from the resort beaches.",
+          "lat": 28.3856,
+          "lng": 34.8844
+        },
+        {
+          "id": "durr_2",
+          "text": "Jet Skiing & Water Sports",
+          "detail": "Rent jet skis, paddleboards, and other water equipment available at the resort's water sports centers along the main beach."
+        },
+        {
+          "id": "durr_3",
+          "text": "Beach Relaxation & Sunset Viewing",
+          "detail": "Lounge on pristine white-sand beaches and watch the sun set over the Red Sea from designated shoreline areas throughout the resort."
+        },
+        {
+          "id": "durr_4",
+          "text": "Diving Expeditions",
+          "detail": "Book guided scuba diving trips to nearby reefs and underwater sites that showcase Saudi Arabia's rich marine biodiversity."
+        },
+        {
+          "id": "durr_5",
+          "text": "Marina Walks & Yacht Viewing",
+          "detail": "Stroll through the marina area to admire luxury yachts and sailboats docked at the resort's upscale facilities.",
+          "lat": 28.3845,
+          "lng": 34.8835
+        },
+        {
+          "id": "durr_6",
+          "text": "Photography at Lagoon Areas",
+          "detail": "Capture scenic photos of the turquoise lagoons and landscaped resort grounds that provide picturesque backdrops."
+        }
+      ],
+      "food": [
+        {
+          "id": "durr_f1",
+          "text": "Grilled Hamoor (Sea Grouper)",
+          "detail": "Fresh Red Sea grouper caught daily and grilled with lemon, garlic, and traditional Gulf spices, served at beachfront restaurants."
+        },
+        {
+          "id": "durr_f2",
+          "text": "Shrimp Machboos",
+          "detail": "A fragrant rice dish cooked with Gulf shrimp, cardamom, and baharat spice blend, representing classic Saudi Arabian coastal cuisine."
+        },
+        {
+          "id": "durr_f3",
+          "text": "Samak Kabab (Fish Kebab)",
+          "detail": "Seasoned fish fillet skewered and grilled over charcoal, often served with tahini sauce and fresh bread at resort dining venues."
+        },
+        {
+          "id": "durr_f4",
+          "text": "Seafood Mezze Platter",
+          "detail": "A selection of hummus, baba ganoush, grilled octopus, and calamari appetizers served alongside fresh pita bread."
+        },
+        {
+          "id": "durr_f5",
+          "text": "Al Kabsa with Seafood",
+          "detail": "The traditional Saudi spiced rice dish prepared with mixed seafood instead of meat, offering a coastal variation of this beloved staple."
+        }
+      ],
+      "culture": [
+        {
+          "id": "durr_c1",
+          "text": "Dress Code on Beaches",
+          "detail": "While Durrat Al Nakheel is more liberal than inland Saudi areas, women should wear modest swimwear or cover-ups away from private resort beaches, and men should avoid shirtless walking in public areas."
+        },
+        {
+          "id": "durr_c2",
+          "text": "Prayer Times & Facilities",
+          "detail": "The resort provides prayer rooms and respects the five daily prayer times; plan activities accordingly and expect brief closures during Salah times."
+        },
+        {
+          "id": "durr_c3",
+          "text": "Alcohol Restrictions",
+          "detail": "Saudi Arabia prohibits alcohol; beverages at resort facilities are non-alcoholic, and visitors should not attempt to bring or consume alcohol."
+        },
+        {
+          "id": "durr_c4",
+          "text": "Friday & Ramadan Considerations",
+          "detail": "Fridays are important prayer days with reduced business hours, and during Ramadan, dining hours shift to evening; plan meals and activities with these cultural observances in mind."
+        }
+      ]
+    },
+    {
+      "id": "haql_town",
+      "name": "Haql",
+      "nameIt": "حقل",
+      "lat": 29.75,
+      "lng": 34.7333,
+      "type": "TOWN",
+      "description": "A charming coastal town at the northern tip of Tabuk Province near the Jordanian border with pristine beaches and clear waters. It serves as an excellent base for beach activities, snorkeling, and exploring the northern Red Sea.",
+      "imageQueries": [
+        "Haql Saudi Arabia beach",
+        "Haql northern coast"
+      ],
+      "activities": [
+        {
+          "id": "haql_1",
+          "text": "Snorkeling at Haql Coral Reefs",
+          "detail": "Explore vibrant coral gardens and tropical fish in the clear Red Sea waters just offshore from the town beach.",
+          "lat": 29.7417,
+          "lng": 34.9167
+        },
+        {
+          "id": "haql_2",
+          "text": "Haql Beach",
+          "detail": "Relax on pristine sandy shores with calm, clear waters ideal for swimming and sunset viewing along the northern Red Sea.",
+          "lat": 29.74,
+          "lng": 34.92
+        },
+        {
+          "id": "haql_3",
+          "text": "Diving at Haql Point",
+          "detail": "Discover deeper reef systems, drop-offs, and pelagic marine life at this popular diving site near town.",
+          "lat": 29.745,
+          "lng": 34.91
+        },
+        {
+          "id": "haql_4",
+          "text": "Border Viewpoint at Jordan Border",
+          "detail": "Visit the scenic northern coastal area near the Jordanian border to witness the meeting point of two countries and unique desert-sea landscape.",
+          "lat": 29.95,
+          "lng": 34.85
+        },
+        {
+          "id": "haql_5",
+          "text": "Fishing Excursions",
+          "detail": "Arrange boat trips with local fishermen to catch grouper, snapper, and other Red Sea species while learning traditional fishing methods.",
+          "lat": 29.7417,
+          "lng": 34.9167
+        },
+        {
+          "id": "haql_6",
+          "text": "Desert Safari to Tabuk Hinterland",
+          "detail": "Explore the dramatic desert landscape surrounding Haql with visits to rocky outcrops and Bedouin settlements inland from the coast."
+        }
+      ],
+      "food": [
+        {
+          "id": "haql_f1",
+          "text": "Hammour (Grouper) Grilled Fresh",
+          "detail": "Locally caught grouper seasoned simply with garlic, lemon, and olive oil, grilled over charcoal at beachfront restaurants."
+        },
+        {
+          "id": "haql_f2",
+          "text": "Sayadiah",
+          "detail": "Traditional Saudi Arabian dish of fragrant rice cooked with fish stock, topped with grilled hammour and caramelized onions."
+        },
+        {
+          "id": "haql_f3",
+          "text": "Shrimp Kabsa",
+          "detail": "Gulf shrimp tossed through spiced yellow rice with almonds and served with tangy tomato sauce, reflecting coastal Saudi cuisine."
+        },
+        {
+          "id": "haql_f4",
+          "text": "Calamar Stuffed with Rice and Herbs",
+          "detail": "Fresh squid from local catches stuffed with rice, herbs, and spices, then grilled or fried and served with tahini sauce."
+        },
+        {
+          "id": "haql_f5",
+          "text": "Mixed Red Sea Grill Platter",
+          "detail": "Assorted fresh catch of the day—typically including fish, shrimp, and squid—grilled together and served family-style with Arabic bread and salads."
+        }
+      ],
+      "culture": [
+        {
+          "id": "haql_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Plan activities around five daily prayer times when shops close and the pace of life slows; beaches remain accessible but quieter."
+        },
+        {
+          "id": "haql_c2",
+          "text": "Modest Dress on Land",
+          "detail": "While swimwear is acceptable at the beach, wear modest clothing (loose shirts and trousers) when exploring town and dining to respect local customs."
+        },
+        {
+          "id": "haql_c3",
+          "text": "Haggling at Fish Markets",
+          "detail": "Engage politely with fishmongers and market vendors through negotiation on prices; it is expected and part of the local shopping experience."
+        },
+        {
+          "id": "haql_c4",
+          "text": "Friday is Family Day",
+          "detail": "Expect beaches and restaurants to be very busy on Fridays when families visit; early morning or evening visits offer a quieter experience."
+        }
+      ]
+    },
+    {
+      "id": "tima_town",
+      "name": "Tima",
+      "nameIt": "تيماء",
+      "lat": 28.22,
+      "lng": 37.35,
+      "type": "TOWN",
+      "description": "An ancient oasis town in the eastern desert with significant archaeological importance dating back to pre-Islamic times. It features ancient ruins, traditional markets, and serves as a cultural crossroads in the northern Arabian Peninsula.",
+      "imageQueries": [
+        "Tima oasis town",
+        "Tima archaeological site"
+      ],
+      "activities": [
+        {
+          "id": "tima_1",
+          "text": "Tima Archaeological Museum",
+          "detail": "Explore artifacts and exhibits from Tima's pre-Islamic era, including pottery, inscriptions, and tools that reveal the town's role as an ancient trade hub.",
+          "lat": 28.2667,
+          "lng": 36.5667
+        },
+        {
+          "id": "tima_2",
+          "text": "Ancient Walls and Ruins",
+          "detail": "Walk among the remnants of Tima's historic fortifications and residential structures that date back thousands of years, scattered across the oasis.",
+          "lat": 28.265,
+          "lng": 36.565
+        },
+        {
+          "id": "tima_3",
+          "text": "Al-Hadiyah Heritage Village",
+          "detail": "Experience reconstructed traditional Nabatean and Arabian structures that demonstrate pre-Islamic desert life and architecture of the region.",
+          "lat": 28.27,
+          "lng": 36.57
+        },
+        {
+          "id": "tima_4",
+          "text": "Tima Traditional Souq",
+          "detail": "Wander through the local market to find traditional crafts, spices, and locally made goods typical of northern Arabian oasis towns."
+        },
+        {
+          "id": "tima_5",
+          "text": "Desert Landscape Hikes",
+          "detail": "Trek through the surrounding desert terrain to observe the geological formations and the strategic location that made Tima a crucial caravan stop.",
+          "lat": 28.25,
+          "lng": 36.55
+        },
+        {
+          "id": "tima_6",
+          "text": "Tima Date Palm Groves",
+          "detail": "Visit the extensive palm plantations that have sustained the oasis for centuries and sample fresh dates during harvest season."
+        }
+      ],
+      "food": [
+        {
+          "id": "tima_f1",
+          "text": "Tima Dates",
+          "detail": "The region is renowned for its high-quality dates, particularly soft varieties prized throughout the Arabian Peninsula, often eaten fresh or with coffee."
+        },
+        {
+          "id": "tima_f2",
+          "text": "Zarb (Buried Meat)",
+          "detail": "A traditional Bedouin dish where meat and vegetables are slow-cooked underground, creating tender, aromatic results served with rice or bread."
+        },
+        {
+          "id": "tima_f3",
+          "text": "Hummus with Local Chickpeas",
+          "detail": "Creamy chickpea dip prepared fresh with tahini and lemon, made from legumes grown in the oasis region."
+        },
+        {
+          "id": "tima_f4",
+          "text": "Camel Meat Kabsa",
+          "detail": "Spiced camel meat served over fragrant rice with vegetables, a signature dish reflecting the region's pastoral heritage."
+        },
+        {
+          "id": "tima_f5",
+          "text": "Khoubz Al-Tannoor (Tandoor Bread)",
+          "detail": "Freshly baked flatbread from traditional clay ovens, still warm and served with olive oil and local herbs at small bakeries throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tima_c1",
+          "text": "Respectful Dress Code",
+          "detail": "Wear modest clothing covering shoulders and knees, particularly when visiting archaeological sites and the souq, as a sign of respect for local customs."
+        },
+        {
+          "id": "tima_c2",
+          "text": "Coffee Hospitality Tradition",
+          "detail": "Accept offered Arabic coffee and dates graciously, as sharing this ritual is a fundamental expression of welcome and friendship among locals."
+        },
+        {
+          "id": "tima_c3",
+          "text": "Photography Sensitivity",
+          "detail": "Always ask permission before photographing local residents or inside homes and shops, and be aware that some sites may have restrictions."
+        },
+        {
+          "id": "tima_c4",
+          "text": "Timing Your Visit",
+          "detail": "Plan visits to outdoor sites early morning or late afternoon to avoid extreme desert heat, and respect prayer times when shops may close temporarily."
+        }
+      ]
+    },
+    {
+      "id": "al_bida_beach",
+      "name": "Al Bida Beach",
+      "nameIt": "شاطئ البدعة",
+      "lat": 28.45,
+      "lng": 35.3,
+      "type": "COASTAL",
+      "description": "A scenic beach known for its golden sand and calm waters, popular among families and beach enthusiasts. The beach offers excellent facilities and is one of the most accessible coastal destinations in the Tabuk region.",
+      "imageQueries": [
+        "Al Bida beach Saudi Arabia",
+        "Tabuk golden sand beach"
+      ],
+      "activities": [
+        {
+          "id": "al_b_1",
+          "text": "Swimming and Wading",
+          "detail": "Enjoy the calm, shallow waters of Al Bida Beach which are ideal for families and swimmers of all levels."
+        },
+        {
+          "id": "al_b_2",
+          "text": "Sunset Viewing",
+          "detail": "Watch the sun set over the Red Sea from the beach's western shore, creating a golden reflection on the water."
+        },
+        {
+          "id": "al_b_3",
+          "text": "Beach Picnicking",
+          "detail": "Spread out on the golden sand with family and friends, taking advantage of the well-maintained facilities and shaded areas."
+        },
+        {
+          "id": "al_b_4",
+          "text": "Snorkeling",
+          "detail": "Explore the shallow coral reefs and marine life just offshore in the crystal-clear waters of the Red Sea."
+        },
+        {
+          "id": "al_b_5",
+          "text": "Photography",
+          "detail": "Capture the pristine coastline, clear turquoise waters, and dramatic desert backdrop that make Al Bida Beach visually stunning."
+        },
+        {
+          "id": "al_b_6",
+          "text": "Beach Volleyball and Sports",
+          "detail": "Use the designated sports areas on the beach to play volleyball or other recreational activities."
+        }
+      ],
+      "food": [
+        {
+          "id": "al_b_f1",
+          "text": "Grilled Red Sea Fish",
+          "detail": "Fresh fish caught locally from the Red Sea, grilled with Middle Eastern spices and typically served with rice and vegetables."
+        },
+        {
+          "id": "al_b_f2",
+          "text": "Kabsa",
+          "detail": "A traditional Saudi rice dish cooked with fragrant spices, tender meat, and topped with nuts and raisins, commonly available at beach restaurants."
+        },
+        {
+          "id": "al_b_f3",
+          "text": "Shrimp Majboos",
+          "detail": "Gulf shrimp cooked with aromatic spices and basmati rice, reflecting the coastal flavors of the Red Sea region."
+        },
+        {
+          "id": "al_b_f4",
+          "text": "Hummus and Pita Bread",
+          "detail": "Creamy chickpea dip served with warm pita bread, a staple light meal for beachgoers."
+        },
+        {
+          "id": "al_b_f5",
+          "text": "Fresh Fruit Juices",
+          "detail": "Freshly squeezed mango, guava, and pomegranate juices sold at beach vendors, ideal for quenching thirst in the heat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "al_b_c1",
+          "text": "Modest Swimwear",
+          "detail": "While Al Bida Beach is family-friendly, visitors should wear modest swimwear that respects Saudi cultural norms, particularly women in full-coverage options."
+        },
+        {
+          "id": "al_b_c2",
+          "text": "Prayer Times and Facilities",
+          "detail": "The beach has prayer facilities (musalla) available, and it is respectful to be mindful of prayer times when planning activities."
+        },
+        {
+          "id": "al_b_c3",
+          "text": "Gender-Separated Areas",
+          "detail": "Some sections of the beach may be reserved for families or women-only groups, so be aware of designated areas when choosing your spot."
+        },
+        {
+          "id": "al_b_c4",
+          "text": "Friday Crowds",
+          "detail": "Fridays and weekends are peak times when Saudi families visit the beach, so arrive early if you prefer a quieter experience."
+        }
+      ]
+    },
+    {
+      "id": "saudi_parks",
+      "name": "Tabuk Parks and Gardens",
+      "nameIt": "حدائق تبوك",
+      "lat": 28.39,
+      "lng": 36.56,
+      "type": "NATURE",
+      "description": "Green spaces and public parks scattered throughout Tabuk City offering respite from the desert climate and recreational facilities. These areas showcase desert landscaping and provide cultural gathering spaces for locals and visitors.",
+      "imageQueries": [
+        "Tabuk city parks gardens",
+        "Saudi desert parks Tabuk"
+      ],
+      "activities": [
+        {
+          "id": "saud_1",
+          "text": "Morning Walk Through Desert Gardens",
+          "detail": "Stroll the landscaped pathways featuring native desert plants, acacia trees, and drought-resistant shrubs adapted to Tabuk's arid climate."
+        },
+        {
+          "id": "saud_2",
+          "text": "Family Picnicking on Grass Areas",
+          "detail": "Spread out a mat on the manicured lawns where families gather, particularly popular during cooler evening hours and weekends."
+        },
+        {
+          "id": "saud_3",
+          "text": "Children's Playground Activities",
+          "detail": "The parks feature modern play equipment and designated children's zones where families with young kids can spend supervised recreation time."
+        },
+        {
+          "id": "saud_4",
+          "text": "Photography of Desert Landscaping",
+          "detail": "Capture the unique aesthetic of Tabuk's parks which blend traditional Islamic garden design with modern water-efficient landscaping techniques."
+        },
+        {
+          "id": "saud_5",
+          "text": "Social Gathering and People-Watching",
+          "detail": "Experience local culture by observing how Tabukians use these green spaces for social interaction, particularly among women's groups and multigenerational families."
+        },
+        {
+          "id": "saud_6",
+          "text": "Sunset Viewing from Park Benches",
+          "detail": "Watch the desert sky transform during golden hour from dedicated seating areas, a favored time when temperatures cool and the parks fill with locals."
+        }
+      ],
+      "food": [
+        {
+          "id": "saud_f1",
+          "text": "Kabsa with Local Lamb",
+          "detail": "A fragrant rice dish cooked with spiced lamb, a regional specialty of northern Saudi Arabia often served during gatherings in nearby restaurants and cafes."
+        },
+        {
+          "id": "saud_f2",
+          "text": "Shawarma from Park-Adjacent Vendors",
+          "detail": "Thinly sliced marinated meat wrapped in flatbread with tahini and vegetables, widely available from food stalls near park entrances."
+        },
+        {
+          "id": "saud_f3",
+          "text": "Hummus and Fresh Pita",
+          "detail": "Creamy chickpea dip served with warm homemade pita bread, a simple staple found at kiosks throughout the parks and surrounding area."
+        },
+        {
+          "id": "saud_f4",
+          "text": "Date Pastries and Coffee",
+          "detail": "Traditional Saudi date-filled pastries paired with strong Arabian coffee, reflecting the region's date-growing heritage and hospitality customs."
+        },
+        {
+          "id": "saud_f5",
+          "text": "Fresh Fruit Juice Stands",
+          "detail": "Freshly squeezed citrus and pomegranate juices available at park refreshment vendors, essential during hot daytime visits."
+        }
+      ],
+      "culture": [
+        {
+          "id": "saud_c1",
+          "text": "Visit During Cooler Hours",
+          "detail": "Plan park visits for early morning or late afternoon/evening when temperatures are manageable and the parks are most populated with locals."
+        },
+        {
+          "id": "saud_c2",
+          "text": "Respect Gender-Separated Social Spaces",
+          "detail": "Observe that some seating areas and pathways are informally designated for families or women's groups; be respectful of these social conventions."
+        },
+        {
+          "id": "saud_c3",
+          "text": "Dress Modestly",
+          "detail": "Wear modest clothing following local norms; while parks are more relaxed than mosques, covering shoulders and knees shows cultural respect."
+        },
+        {
+          "id": "saud_c4",
+          "text": "Ramadan Timing Considerations",
+          "detail": "During Ramadan, parks are nearly empty during daylight but bustling after iftar (breaking of fast); plan visits accordingly and avoid eating in public during fasting hours."
+        }
+      ]
+    },
+    {
+      "id": "al_ula_site",
+      "name": "Al-Ula",
+      "nameLocal": "العلا",
+      "type": "SITE",
+      "lat": 26.5898,
+      "lng": 37.9287,
+      "description": "An ancient desert valley containing the UNESCO-listed Madain Salih archaeological site with Nabatean rock-carved tombs. It represents pre-Islamic Arabian heritage and has become a major cultural tourism destination.",
+      "activities": [
+        {
+          "id": "al_u_1",
+          "text": "Madain Salih Archaeological Site",
+          "detail": "Explore the UNESCO-listed Nabatean rock-carved tombs and monuments dating from the 1st century BCE, featuring intricate facades carved directly into sandstone cliffs.",
+          "lat": 26.8081,
+          "lng": 37.9441
+        },
+        {
+          "id": "al_u_2",
+          "text": "Jabal Ikma Rock Art Trail",
+          "detail": "Hike through a canyon with ancient petroglyphs and rock inscriptions spanning thousands of years of Arabian history and art.",
+          "lat": 26.7936,
+          "lng": 37.9247
+        },
+        {
+          "id": "al_u_3",
+          "text": "Old Town of Al-Ula",
+          "detail": "Wander through the restored heritage district featuring traditional mud-brick architecture, narrow alleyways, and local craft shops.",
+          "lat": 26.6411,
+          "lng": 37.8728
+        },
+        {
+          "id": "al_u_4",
+          "text": "Dadan and Jabal Qaraoun",
+          "detail": "Visit the pre-Nabatean Dadan Kingdom ruins and climb to the mountain viewpoint overlooking the ancient settlement and surrounding valley.",
+          "lat": 26.8494,
+          "lng": 37.9306
+        },
+        {
+          "id": "al_u_5",
+          "text": "Desert Safari and Camel Trekking",
+          "detail": "Experience the surrounding desert landscape on camelback or in 4WD vehicles to reach remote archaeological sites and natural formations.",
+          "lat": 26.7,
+          "lng": 37.95
+        },
+        {
+          "id": "al_u_6",
+          "text": "Al-Ula Museum",
+          "detail": "View artifacts, manuscripts, and exhibits documenting the region's Nabatean, Dadan, and Islamic heritage within a modern architectural setting.",
+          "lat": 26.6394,
+          "lng": 37.8692
+        }
+      ],
+      "food": [
+        {
+          "id": "al_u_f1",
+          "text": "Dates and Date Products",
+          "detail": "Al-Ula is famous for its high-quality dates, particularly served fresh during harvest season or processed into date paste and date-filled pastries."
+        },
+        {
+          "id": "al_u_f2",
+          "text": "Zarb",
+          "detail": "A traditional Bedouin slow-roasted meat dish cooked in an underground pit with vegetables, aromatic spices, and served communally on large platters."
+        },
+        {
+          "id": "al_u_f3",
+          "text": "Jareesh",
+          "detail": "A savory Saudi breakfast porridge made from wheat, meat, and ghee, traditionally served in the morning and often found in local households and restaurants."
+        },
+        {
+          "id": "al_u_f4",
+          "text": "Kabsa",
+          "detail": "The iconic Saudi rice dish prepared with fragrant basmati rice, tender meat, and a blend of warm spices including cardamom and bay leaves."
+        },
+        {
+          "id": "al_u_f5",
+          "text": "Al-Ula Honey and Herbs",
+          "detail": "Local desert honey and traditional herbal infusions made from regional plants are sold in the old town markets and served as refreshments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "al_u_c1",
+          "text": "Respectful Dress Code",
+          "detail": "Wear modest, loose-fitting clothing that covers shoulders and knees; women may consider carrying a light scarf for visiting religious or heritage sites."
+        },
+        {
+          "id": "al_u_c2",
+          "text": "Photography Etiquette",
+          "detail": "Always ask permission before photographing local residents, and be mindful that some areas may have restrictions; sunset and early morning offer the best light for archaeological sites."
+        },
+        {
+          "id": "al_u_c3",
+          "text": "Greeting Customs",
+          "detail": "Greet locals with 'As-salaam alaikum' (peace be upon you); handshakes between same genders are customary, though some conservative individuals may prefer verbal greetings."
+        },
+        {
+          "id": "al_u_c4",
+          "text": "Ramadan Sensitivity",
+          "detail": "During Ramadan, eating, drinking, or smoking in public during daylight hours is considered disrespectful; many restaurants adjust hours and local life slows during fasting hours."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Al Marjan Restaurant",
+      "address": "King Fahd Road, Tabuk",
+      "neighbourhood": "Downtown Tabuk",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€€",
+      "description": "Traditional Saudi cuisine restaurant famous for its authentic local dishes and warm hospitality.",
+      "mustOrder": "Kabsa with lamb",
+      "lat": 28.3945,
+      "lng": 36.5627
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Al Reef Bakery & Restaurant",
+      "address": "Prince Sultan Street, Tabuk",
+      "neighbourhood": "Central Tabuk",
+      "cuisine": "Middle Eastern",
+      "priceRange": "€",
+      "description": "Casual dining spot popular with locals for fresh bread, pastries, and affordable Middle Eastern meals.",
+      "mustOrder": "Manakish with za'atar",
+      "lat": 28.3978,
+      "lng": 36.5712
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Lebanese House Restaurant",
+      "address": "King Abdul Aziz Road, Tabuk",
+      "neighbourhood": "Downtown Tabuk",
+      "cuisine": "Lebanese",
+      "priceRange": "€€",
+      "description": "Well-established Lebanese restaurant offering vibrant flavours and traditional mezze platters.",
+      "mustOrder": "Grilled lamb kibbeh with tahini",
+      "lat": 28.3902,
+      "lng": 36.5598
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Al Safa Restaurant",
+      "address": "Prince Faisal bin Fahd Street, Tabuk",
+      "neighbourhood": "Tabuk City Center",
+      "cuisine": "Saudi/Gulf",
+      "priceRange": "€€",
+      "description": "Family-friendly establishment serving traditional Gulf cuisine with modern presentation.",
+      "mustOrder": "Machboos chicken",
+      "lat": 28.3956,
+      "lng": 36.5681
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Al Nakheel Restaurant",
+      "address": "Commerce Street, Tabuk",
+      "neighbourhood": "Business District",
+      "cuisine": "Mixed International",
+      "priceRange": "€€€",
+      "description": "Upscale casual dining combining international and Arabic cuisine in a contemporary setting.",
+      "mustOrder": "Grilled seafood platter",
+      "lat": 28.3924,
+      "lng": 36.5645
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Najd Restaurant",
+      "address": "King Fahd Road, Tabuk",
+      "neighbourhood": "Downtown Tabuk",
+      "cuisine": "Najdi/Saudi",
+      "priceRange": "€€",
+      "description": "Specializes in Najdi cuisine from central Saudi Arabia with rustic authentic flavours.",
+      "mustOrder": "Tharid bread stew",
+      "lat": 28.3935,
+      "lng": 36.561
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Al Khaleej Seafood Restaurant",
+      "address": "Corniche Road, Tabuk",
+      "neighbourhood": "Waterfront Area",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Premier seafood restaurant with fresh catch daily and views overlooking the coastal area.",
+      "mustOrder": "Grilled hammour with garlic",
+      "lat": 28.4012,
+      "lng": 36.5889
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Al Khandak Restaurant",
+      "address": "Princess Nora Street, Tabuk",
+      "neighbourhood": "North Tabuk",
+      "cuisine": "Saudi Arabian",
+      "priceRange": "€",
+      "description": "Budget-friendly local favourite serving simple, hearty Saudi breakfast and lunch fare.",
+      "mustOrder": "Ful medames with bread",
+      "lat": 28.4156,
+      "lng": 36.5743
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Al Dar Restaurant",
+      "address": "Crown Prince Mohammed Street, Tabuk",
+      "neighbourhood": "Central District",
+      "cuisine": "Mixed Arabic",
+      "priceRange": "€€",
+      "description": "Traditional Arabic restaurant combining Levantine and Saudi dishes in a heritage-style setting.",
+      "mustOrder": "Stuffed lamb shoulder",
+      "lat": 28.3899,
+      "lng": 36.5667
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Taste of Orient",
+      "address": "Al Qassim Road, Tabuk",
+      "neighbourhood": "East Tabuk",
+      "cuisine": "Asian Fusion",
+      "priceRange": "€€",
+      "description": "Contemporary Asian restaurant blending Thai, Chinese, and Indian cuisines for international palates.",
+      "mustOrder": "Tom yum seafood soup",
+      "lat": 28.3867,
+      "lng": 36.5934
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Al Waha Restaurant",
+      "address": "Oasis Boulevard, Tabuk",
+      "neighbourhood": "Suburban Tabuk",
+      "cuisine": "Gulf/Saudi",
+      "priceRange": "€€€",
+      "description": "Elegant family restaurant offering refined traditional Gulf cuisine in spacious private dining areas.",
+      "mustOrder": "Biryani with tender meat",
+      "lat": 28.3801,
+      "lng": 36.5523
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Turkish House Restaurant",
+      "address": "King Saud Street, Tabuk",
+      "neighbourhood": "Downtown Tabuk",
+      "cuisine": "Turkish",
+      "priceRange": "€€",
+      "description": "Authentic Turkish kitchen known for kebabs, meze, and traditional wood-fired breads.",
+      "mustOrder": "Adana kebab with lavash",
+      "lat": 28.3946,
+      "lng": 36.5689
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Al Hadiya Restaurant",
+      "address": "Al Nakheel Street, Tabuk",
+      "neighbourhood": "Tabuk Center",
+      "cuisine": "Saudi/Khaleeji",
+      "priceRange": "€€",
+      "description": "Popular spot for traditional breakfast and lunch with strong local following for quality and value.",
+      "mustOrder": "Eggs with sausage and cheese",
+      "lat": 28.3881,
+      "lng": 36.5741
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Al Bahar Grill",
+      "address": "Waterfront Street, Tabuk",
+      "neighbourhood": "Port District",
+      "cuisine": "Seafood/Grilled",
+      "priceRange": "€€€",
+      "description": "Casual seafood grill restaurant with fresh daily selections and lively waterfront atmosphere.",
+      "mustOrder": "Mixed grilled fish with lemon",
+      "lat": 28.4045,
+      "lng": 36.5912
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Al Shams Bakery & Restaurant",
+      "address": "Prosperity Street, Tabuk",
+      "neighbourhood": "South Tabuk",
+      "cuisine": "Saudi/Bakery",
+      "priceRange": "€",
+      "description": "Neighbourhood bakery and restaurant beloved for fresh-baked items and simple Saudi comfort food.",
+      "mustOrder": "Whole wheat bread with hummus",
+      "lat": 28.3634,
+      "lng": 36.5612
+    }
+  ]
+}
