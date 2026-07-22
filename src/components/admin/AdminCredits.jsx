@@ -38,7 +38,6 @@ export default function AdminCredits() {
   const [data, setData] = useState(null)
   const [error, setError] = useState('')
   const [log, setLog] = useState([])
-  const [quotaWait, setQuotaWait] = useState(0)   // ms timestamp we can retry at
   const stopRef = useRef(false)
 
   // One request with the key that's actually saved, reporting exactly what came
@@ -89,10 +88,23 @@ export default function AdminCredits() {
     setState('idle')
   }
 
-  // Loop batches until done, quota runs out, or the user stops.
+  // Wait out an empty quota window without losing the run. Ticks once a second
+  // so Stop stays responsive; returns false if the user stopped meanwhile.
+  const waitOut = async (mins) => {
+    for (let i = mins * 60; i > 0; i--) {
+      if (stopRef.current) return false
+      await new Promise((res) => setTimeout(res, 1000))
+    }
+    return true
+  }
+
+  // Loop batches until every image is credited or the user stops. The demo tier
+  // is a rolling window — requests age out continuously and the builder competes
+  // for the same pot — so an empty reading isn't the end, it's a pause: wait a
+  // few minutes and harvest whatever trickled back. One click, runs to done.
   const fixApi = async (retryFailed = false) => {
     setState('fixing'); setError(''); setLog([]); stopRef.current = false
-    let total = 0, misses = 0
+    let total = 0, misses = 0, waits = 0
     try {
       for (;;) {
         if (stopRef.current) { say('Stopped.'); break }
@@ -116,17 +128,17 @@ export default function AdminCredits() {
             + `~${Math.ceil(r.remaining / r.quotaLimit)}h of quota — apply for production access (5000/hour).`)
         }
         if (r.remaining === 0) { say('All images credited. 🎉'); break }
-        // Out of Unsplash quota. Stop dead — retrying spends the trickle we get
-        // back and keeps the tank pinned at zero, which is exactly the hole this
-        // used to dig. Nothing to do but wait for the hour to turn.
-        if (r.quotaRemaining != null && r.quotaRemaining <= 2) {
-          setQuotaWait(r.quotaReadyAt || Date.now() + 3600000)
-          say(r.stopped || 'Unsplash quota spent.')
-          say(`${r.remaining} images still to do — come back next hour and press the button again. Progress is saved.`)
-          break
-        }
-        if (r.stopped && (r.stopped.includes('quota') || r.stopped.includes('429'))) {
-          setQuotaWait(r.quotaReadyAt || Date.now() + 3600000); say(r.stopped); break
+        const quotaSpent = (r.quotaRemaining != null && r.quotaRemaining <= 2)
+          || (r.stopped && (r.stopped.includes('quota') || r.stopped.includes('429')))
+        if (quotaSpent) {
+          // A rolling window: requests age out continuously, so quota reappears
+          // in trickles rather than on the hour. Wait a few minutes and go
+          // again — the run persists until the work is done or you press Stop.
+          waits++
+          say(`Quota window empty (${r.remaining} images to go) — waiting 5 min, then continuing. Stop any time; progress is saved.`)
+          if (!(await waitOut(5))) break
+          say('Retrying…')
+          continue
         }
         if (r.fixed === 0 && r.failed === 0) { say(r.stopped || 'Nothing left this pass.'); break }
       }
@@ -179,12 +191,8 @@ export default function AdminCredits() {
             <button className="btn btn--soft" onClick={fixFree} disabled={busy || !t.free}>
               <Zap size={14} /> Fix {t.free} free
             </button>
-            <button className="btn btn--soft" onClick={() => fixApi(false)}
-              disabled={busy || !t.api || quotaWait > Date.now()}
-              title={quotaWait > Date.now() ? `Unsplash quota spent — try after ${new Date(quotaWait).toLocaleTimeString()}` : ''}>
-              <Camera size={14} /> {quotaWait > Date.now()
-                ? `Quota spent — retry after ${new Date(quotaWait).toLocaleTimeString()}`
-                : `Look up ${t.api} via Unsplash`}
+            <button className="btn btn--soft" onClick={() => fixApi(false)} disabled={busy || !t.api}>
+              <Camera size={14} /> Look up {t.api} via Unsplash
             </button>
             {!!t.failed && (
               <button className="btn btn--soft" onClick={() => fixApi(true)} disabled={busy}>
