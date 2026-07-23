@@ -17,6 +17,21 @@ export function distanceKm(aLat, aLng, bLat, bLng) {
   return 2 * R * Math.asin(Math.sqrt(h))
 }
 
+// The `n` nearest places COUNTRY-WIDE, from the build-time places-geo index
+// ({id, r: regionId, rn: regionName, n: name, lat, lng} per place). Border
+// places finally get their real closest neighbours instead of only same-region
+// ones — Ventimiglia's nearest towns are in the next region over, not 200km up
+// its own coast.
+export function nearbyAcross(place, geoPlaces, n = 4) {
+  if (!place || !Number.isFinite(place.lat) || !Number.isFinite(place.lng)) return []
+  return (geoPlaces || [])
+    .filter((p) => p.id !== place.id && Number.isFinite(p.lat) && Number.isFinite(p.lng))
+    .map((p) => ({ id: p.id, name: p.n, regionId: p.r, regionName: p.rn,
+      km: distanceKm(place.lat, place.lng, p.lat, p.lng) }))
+    .sort((a, b) => a.km - b.km)
+    .slice(0, n)
+}
+
 // The `n` nearest other places in the same region that have coordinates.
 export function nearbyPlaces(place, regionPlaces, n = 4) {
   if (!place || !Number.isFinite(place.lat) || !Number.isFinite(place.lng)) return []

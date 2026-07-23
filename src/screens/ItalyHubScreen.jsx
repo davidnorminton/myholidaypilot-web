@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { ArrowRight, ArrowLeft } from 'lucide-react'
+import { ArrowRight, ArrowLeft, Globe2 } from 'lucide-react'
 import { getHub, getIndex } from '../lib/data.js'
 import { COUNTRIES, isAvailableCountry } from '../lib/countries.js'
 import { createTrip, setActiveTrip } from '../lib/trips.js'
@@ -38,7 +38,7 @@ export default function ItalyHubScreen() {
   const [sections, setSections] = useState(null)
   const [details, setDetails] = useState(null)
   const [top10, setTop10] = useState(null)
-  useSeo({ title: `${meta?.name || 'Travel'} travel guide`, description: `Everything to plan a ${meta?.name || ''} trip — the regions, festivals, food and how to get around.`, path: `/${country}` })
+  useSeo({ title: `${meta?.name || 'Travel'} travel guide`, description: `Everything to plan a trip to ${meta?.name || 'your next destination'} — the regions, festivals, food and how to get around.`, path: `/${country}` })
   useEffect(() => {
     let live = true
     getIndex(country).then((idx) => { if (live && Array.isArray(idx?.top10) && idx.top10.length) setTop10(idx.top10) }).catch(() => {})
@@ -86,6 +86,9 @@ export default function ItalyHubScreen() {
           <Link to={paths.destinations()} className="place-hero__crumb"><ArrowLeft size={15} /> All destinations</Link>
           <h1 className="sub-hero__title">{meta?.name}</h1>
           <p className="sub-hero__sub">Everything you need to plan it — the regions, the festivals, the food, and how to get around.</p>
+          <p className="hub-maplink">
+            <Link to={`/map?country=${country}`}><Globe2 size={14} /> See {meta?.name || 'this country'} on the world map</Link>
+          </p>
         </div>
         <div className="plan-hero__media">
           {countryHero ? (

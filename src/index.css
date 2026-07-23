@@ -2132,6 +2132,12 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .pd-nearby a{text-decoration:none; font-weight:600}
 .pd-nearby a:hover{text-decoration:underline}
 .pd-nearby__km{font-size:12px; opacity:.6}
+.pd-nearby__region{font-size:12px; opacity:.75; font-style:italic}
+
+/* Country hub: link into the world map, pre-drilled to this country */
+.hub-maplink{margin:10px 0 0; font-size:14px}
+.hub-maplink a{display:inline-flex; align-items:center; gap:6px; font-weight:600; text-decoration:none}
+.hub-maplink a:hover{text-decoration:underline}
 
 /* --- World map page (/map) ------------------------------------------------ */
 /* The page IS the map: full width, full remaining viewport height under the

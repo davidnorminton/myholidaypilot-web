@@ -182,6 +182,12 @@ if (process.env.DATABASE_URL) {
 // the live page shows, made visible to crawlers. UTM per Unsplash API terms.
 const UTM = 'utm_source=myholidaypilot&utm_medium=referral'
 const EMBEDDED_CREDIT = /^\s*(?:photo\s+by\s+)?(.+?)\s*\(\s*(?:https?:\/\/)?unsplash\.com\/@([A-Za-z0-9_-]+)\s*\)\s*$/i
+// 1x + 2x candidates for prerendered <img>: the prerender can't know the
+// reader's screen, so it offers both and lets the browser pick — a 1x desktop
+// stops downloading quadruple pixels, retina stays crisp.
+const srcsetAttr = (u, w) =>
+  `src="${esc(imgUrl(u, w, { dpr: 1 }))}" srcset="${esc(imgUrl(u, w, { dpr: 1 }))} 1x, ${esc(imgUrl(u, w, { dpr: 2 }))} 2x"`
+
 const creditHtml = (im) => {
   if (!im || !im.credit) return ''
   const m = String(im.credit).match(EMBEDDED_CREDIT)
@@ -201,15 +207,19 @@ const distKm = (aLat, aLng, bLat, bLng) => {
     + Math.cos(rad(aLat)) * Math.cos(rad(bLat)) * Math.sin(rad(bLng - aLng) / 2) ** 2
   return 2 * 6371 * Math.asin(Math.sqrt(h))
 }
-const nearbyHtml = (place, regionPlaces, slug, regionId, regionName) => {
+const nearbyHtml = (place, countryGeo, slug, regionId) => {
   if (!Number.isFinite(place.lat) || !Number.isFinite(place.lng)) return ''
-  const near = (regionPlaces || [])
-    .filter((q) => q.id !== place.id && Number.isFinite(q.lat) && Number.isFinite(q.lng))
+  // Country-wide, not same-region: a border town's closest neighbours are often
+  // over the region line, and each link points into ITS OWN region's page.
+  const near = (countryGeo || [])
+    .filter((q) => q.id !== place.id)
     .map((q) => ({ ...q, km: distKm(place.lat, place.lng, q.lat, q.lng) }))
     .sort((a, b) => a.km - b.km).slice(0, 4)
   if (!near.length) return ''
-  return `<h2>Nearby in ${esc(regionName)}</h2><ul>` + near.map((q) =>
-    `<li><a href="${SITE}/${slug}/${regionId}/${q.id}">${esc(q.name)}</a> — ${Math.round(q.km)} km</li>`).join('') + `</ul>`
+  return `<h2>Nearby</h2><ul>` + near.map((q) => {
+    const region = q.regionId !== regionId ? ` <em>(${esc(q.regionName)})</em>` : ''
+    return `<li><a href="${SITE}/${slug}/${q.regionId}/${q.id}">${esc(q.name)}</a>${region} — ${Math.round(q.km)} km</li>`
+  }).join('') + `</ul>`
 }
 
 const countries = fs.existsSync(dataDir)
@@ -554,7 +564,8 @@ for (const slug of countries) {
       // The hero as an actual <img> — until now the prerendered site had zero
       // <img> tags anywhere, which is why none of the photos exist as far as
       // Google Images is concerned.
-      + (heroUrl ? `<figure><img src="${esc(imgUrl(heroUrl, 1200))}" alt="${esc(name)} — travel guide" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(heroCredit)}</figure>` : '')
+      + (heroUrl ? `<figure><img ${srcsetAttr(heroUrl, 1200)} alt="${esc(name)} — travel guide" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(heroCredit)}</figure>` : '')
+      + `<p><a href="${SITE}/map?country=${slug}">See ${esc(name)} on the world map</a></p>`
       + detailsHtml(index.details, `Plan your trip to ${name}`)
       // The hub cards, as crawlable links — previously the guide pages had no
       // inbound link from anywhere on the site.
@@ -567,7 +578,7 @@ for (const slug of countries) {
           const im = typeof t.image === 'string' ? { url: t.image } : t.image
           // Every top-10 pick as a real, lazily-loaded <img> with a descriptive
           // alt and its photographer credit — the Google Images surface area.
-          const fig = im?.url ? `<figure><img src="${esc(imgUrl(im.url, 800))}" alt="${esc(t.name)}${t.regionName ? `, ${esc(t.regionName)}` : ''} — ${esc(name)}" width="800" height="450" loading="lazy" decoding="async">${creditHtml(im)}</figure>` : ''
+          const fig = im?.url ? `<figure><img ${srcsetAttr(im.url, 800)} alt="${esc(t.name)}${t.regionName ? `, ${esc(t.regionName)}` : ''} — ${esc(name)}" width="800" height="450" loading="lazy" decoding="async">${creditHtml(im)}</figure>` : ''
           return `<li><a href="${SITE}/${slug}/${t.regionId}/${t.placeId}">${esc(t.name)}</a>${where}${d}${fig}</li>`
         }).join('')}</ol>` : '')
       + ((index.regions || []).length ? `<h2>Regions</h2><ul>${(index.regions || []).map((r) =>
@@ -689,6 +700,16 @@ for (const slug of countries) {
   }
 
   // regions + places
+  // Every place's coordinates across the whole country, for cross-region
+  // "Nearby" — the same view scripts/build-map-index.mjs bakes for the client.
+  const countryGeo = (index.regions || []).flatMap((r0) => {
+    const rj = readJson(path.join(cDir, 'regions', `${r0.id}.json`))
+    return (rj?.places || [])
+      .filter((pl) => Number.isFinite(pl.lat) && Number.isFinite(pl.lng))
+      .map((pl) => ({ id: pl.id, regionId: r0.id, regionName: rj.name || r0.id,
+        name: pl.name, lat: pl.lat, lng: pl.lng }))
+  })
+
   for (const rSummary of (index.regions || [])) {
     const rf = readJson(path.join(cDir, 'regions', `${rSummary.id}.json`))
     if (!rf) continue
@@ -724,7 +745,7 @@ for (const slug of countries) {
             const im = rSummary.heroImage?.url ? rSummary.heroImage
               : (places.map((pl) => placeImageObj(rSummary.id, pl.id)).find((x) => x?.url)
                 || (rSummary.cardImage ? { url: rSummary.cardImage } : null))
-            return im?.url ? `<figure><img src="${esc(imgUrl(im.url, 1200))}" alt="${esc(rf.name)}, ${esc(name)} — travel guide" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(im)}</figure>` : ''
+            return im?.url ? `<figure><img ${srcsetAttr(im.url, 1200)} alt="${esc(rf.name)}, ${esc(name)} — travel guide" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(im)}</figure>` : ''
           })())
         + detailsHtml(rf.details, `Plan your trip to ${rf.name}`)
         + (rf.history ? `<h2>History</h2><p>${esc(rf.history)}</p>` : '')
@@ -778,13 +799,13 @@ for (const slug of countries) {
           // one per page, so eager: it IS the page's image.
           + ((() => {
               const im = placeImageObj(rSummary.id, p.id)
-              return im?.url ? `<figure><img src="${esc(imgUrl(im.url, 1200))}" alt="${esc(p.name)}, ${esc(rf.name)} — ${esc(name)}" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(im)}</figure>` : ''
+              return im?.url ? `<figure><img ${srcsetAttr(im.url, 1200)} alt="${esc(p.name)}, ${esc(rf.name)} — ${esc(name)}" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(im)}</figure>` : ''
             })())
           + `<p>${esc(p.description || '')}</p>`
           + list(p.activities, 'Things to do')
           + list(p.food, 'Food to try')
           + list(p.culture, 'Local customs & good to know')
-          + nearbyHtml(p, places, slug, rSummary.id, rf.name)
+          + nearbyHtml(p, countryGeo, slug, rSummary.id)
           + `</main>`,
       }))
       addUrl(`/${slug}/${rSummary.id}/${p.id}`, '0.6', toDate(rf.generatedAt)); pages++

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { MapPin, X, ArrowRight } from 'lucide-react'
 import { useSeo } from '../lib/seo.js'
 import 'mapbox-gl/dist/mapbox-gl.css'
@@ -26,6 +26,8 @@ export default function MapScreen() {
   const mapRef = useRef(null)
   const closeRef = useRef(null)       // set by the map effect; used by the pane
   const navigate = useNavigate()
+  const [params] = useSearchParams()
+  const wanted = params.get('country')   // /map?country=italy — arrive pre-drilled
   const [countries, setCountries] = useState([])
   const [active, setActive] = useState(null)
   const [failed, setFailed] = useState(false)
@@ -140,6 +142,10 @@ export default function MapScreen() {
 
         map.on('load', () => {
           if (cancelled) return
+          // Deep link: a country page's "see it on the world map" arrives here
+          // already zoomed into that country with its regions showing.
+          const target = wanted && countries.find((c) => c.slug === wanted)
+          if (target) openCountry(target)
           for (const c of countries) {
             const el = document.createElement('button')
             el.className = 'worldmap__dot'
@@ -166,7 +172,7 @@ export default function MapScreen() {
       closeRef.current = null
       if (mapRef.current) { mapRef.current.remove(); mapRef.current = null }
     }
-  }, [countries, navigate])
+  }, [countries, navigate, wanted])
 
   // No token / SDK failure: keep the page useful rather than blank.
   if (!TOKEN || failed) {

@@ -50,7 +50,19 @@ function cloudflareResize(url, width, quality, dpr) {
   return `${CF_BASE}/cdn-cgi/image/${opts}/${src}`
 }
 
-export function imgUrl(url, width = 400, { quality = 70, dpr = 2 } = {}) {
+// The device's real pixel density, clamped to [1, 2]. dpr used to be a flat 2,
+// which meant every 1× screen (most desktop monitors) downloaded FOUR TIMES the
+// pixels it could display — on the site's heaviest asset class. Above 2 is
+// clamped too: 3× phone screens gain nothing visible over 2× photos and the
+// bytes triple. Fractional ratios (1.25/1.5 laptops) round to the nearest whole
+// step because imgix bills fractional dpr the same and caches worse.
+// Node (the prerender) has no window; it passes dpr explicitly per use.
+const screenDpr = () => {
+  if (typeof window === 'undefined' || !window.devicePixelRatio) return 2
+  return Math.min(2, Math.max(1, Math.round(window.devicePixelRatio)))
+}
+
+export function imgUrl(url, width = 400, { quality = 70, dpr = screenDpr() } = {}) {
   if (!url || typeof url !== 'string') return url
 
   // Unsplash / imgix — resize via query params.

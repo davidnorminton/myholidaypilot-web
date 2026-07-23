@@ -7,7 +7,7 @@ import { paths } from '../lib/paths.js'
 import { imgUrl } from '../lib/imgUrl.js'
 import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
 import PhotoCredit from '../components/PhotoCredit.jsx'
-import { nearbyPlaces } from '../lib/nearby.js'
+import { nearbyPlaces, nearbyAcross } from '../lib/nearby.js'
 import AddToTrip from '../components/AddToTrip.jsx'
 import ViatorTours from '../components/ViatorTours.jsx'
 import SaveButton from '../components/SaveButton.jsx'
@@ -43,10 +43,23 @@ export default function PlaceDetailScreen() {
     [region, placeId]
   )
   const accent = useMemo(() => regionColour(region?.colour), [region])
-  // Nearest neighbours in the same region — the data's already here, so this is
-  // free, and it gives every place page onward links (good for people mid-plan
-  // and for crawl depth alike).
-  const nearby = useMemo(() => nearbyPlaces(place, region?.places), [place, region])
+  // Nearest neighbours, country-wide. The build writes places-geo.json (every
+  // place's coords in ~15KB) precisely so border places can point at their real
+  // closest towns across the region line. Until it loads — or if it 404s on an
+  // older deploy — the same-region list is a correct, immediate fallback.
+  const [geo, setGeo] = useState(null)
+  useEffect(() => {
+    let live = true
+    fetch(`${import.meta.env.BASE_URL}data/${country}/places-geo.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => { if (live) setGeo(j?.places || null) })
+      .catch(() => { if (live) setGeo(null) })
+    return () => { live = false }
+  }, [country])
+  const nearby = useMemo(() => (geo
+    ? nearbyAcross(place, geo)
+    : nearbyPlaces(place, region?.places).map((p) => ({ ...p, regionId, regionName: region?.name }))
+  ), [place, region, geo, regionId])
 
   useSeo({
     title: place ? `${place.name}, ${region.name} — things to do, food & tips` : undefined,
@@ -146,11 +159,12 @@ export default function PlaceDetailScreen() {
 
           {!!nearby.length && (
             <section className="pd-nearby" aria-label="Nearby places">
-              <h2>Nearby in {region.name}</h2>
+              <h2>Nearby</h2>
               <ul>
                 {nearby.map((n) => (
-                  <li key={n.id}>
-                    <Link to={`/${country}/${regionId}/${n.id}`}>{n.name}</Link>
+                  <li key={`${n.regionId}-${n.id}`}>
+                    <Link to={`/${country}/${n.regionId}/${n.id}`}>{n.name}</Link>
+                    {n.regionId !== regionId && <span className="pd-nearby__region">{n.regionName}</span>}
                     <span className="pd-nearby__km">{Math.round(n.km)} km</span>
                   </li>
                 ))}

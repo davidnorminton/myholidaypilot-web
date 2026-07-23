@@ -67,5 +67,22 @@
       ]
     }
   ],
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/plan",
+      "destination": "/trip-planner",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/trip-ideas",
+      "permanent": true
+    },
+    {
+      "source": "/gallery/:slug",
+      "destination": "/trip-ideas/:slug",
+      "permanent": true
+    }
+  ]
 }

@@ -45,7 +45,34 @@ const CENTROIDS = {
   indonesia: [-2.5, 118.0], canada: [56.1, -106.3], new_zealand: [-41.8, 172.8],
 }
 
+// Per-country coordinate index: every place's id, region, name and lat/lng in
+// one small file (public/data/<slug>/places-geo.json). Exists for cross-region
+// "nearby" — a place on a region border sits closer to the next region's towns
+// than to most of its own, but the place page only has ITS region loaded, and
+// fetching every region to find four neighbours would be absurd. ~15KB per
+// country covers the whole map. Rebuilt every prebuild, same as this index.
+const writeGeo = (slug) => {
+  const regDir = path.join(DATA, slug, 'regions')
+  if (!fs.existsSync(regDir)) return 0
+  const places = []
+  for (const f of fs.readdirSync(regDir)) {
+    if (!f.endsWith('.json')) continue
+    let r
+    try { r = JSON.parse(fs.readFileSync(path.join(regDir, f), 'utf8')) } catch { continue }
+    const regionId = f.replace(/\.json$/, '')
+    for (const pl of (r.places || [])) {
+      if (!Number.isFinite(pl.lat) || !Number.isFinite(pl.lng)) continue
+      places.push({ id: pl.id, r: regionId, rn: r.name || regionId, n: pl.name,
+        lat: Number(pl.lat.toFixed(4)), lng: Number(pl.lng.toFixed(4)) })
+    }
+  }
+  if (!places.length) return 0
+  fs.writeFileSync(path.join(DATA, slug, 'places-geo.json'), JSON.stringify({ places }))
+  return places.length
+}
+
 const countries = []
+let geoTotal = 0
 for (const slug of fs.readdirSync(DATA)) {
   const idxPath = path.join(DATA, slug, 'index.json')
   if (!fs.existsSync(idxPath)) continue
@@ -66,6 +93,7 @@ for (const slug of fs.readdirSync(DATA)) {
     lat = pts.reduce((n, r) => n + r.lat, 0) / pts.length
     lng = pts.reduce((n, r) => n + r.lng, 0) / pts.length
   } else continue   // no coordinates at all — can't place a point
+  geoTotal += writeGeo(slug)
   countries.push({
     slug,
     name: exported.name || meta.name || slug,
@@ -80,4 +108,4 @@ for (const slug of fs.readdirSync(DATA)) {
 
 countries.sort((a, b) => a.name.localeCompare(b.name))
 fs.writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), countries }, null, 1))
-console.log(`✓ map-index.json — ${countries.length} countries, ${(fs.statSync(OUT).size / 1024).toFixed(1)}KB`)
+console.log(`✓ map-index.json — ${countries.length} countries, ${(fs.statSync(OUT).size / 1024).toFixed(1)}KB · places-geo: ${geoTotal} places indexed`)
