@@ -2138,6 +2138,18 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .credit-actions{display:flex; flex-wrap:wrap; gap:8px; margin:12px 0}
 .credit-head-actions{display:flex; gap:8px}
 
+/* --- Nearby places (place pages) ------------------------------------------ */
+.pd-nearby{margin:26px 0 6px}
+.pd-nearby h2{font-size:17px; margin:0 0 10px}
+.pd-nearby ul{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px}
+.pd-nearby li{
+  display:flex; align-items:center; gap:8px; padding:7px 12px;
+  border:1px solid var(--line); border-radius:99px; background:var(--surface); font-size:14px;
+}
+.pd-nearby a{text-decoration:none; font-weight:600}
+.pd-nearby a:hover{text-decoration:underline}
+.pd-nearby__km{font-size:12px; opacity:.6}
+
 /* --- World map page (/map) ------------------------------------------------ */
 /* The page IS the map: full width, full remaining viewport height under the
    sticky topbar. dvh so mobile URL bars don't leave a dead strip. */
@@ -2166,6 +2178,22 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .worldmap__go{display:inline-flex; align-items:center; gap:8px}
 .worldmap--fallback{height:auto; padding:32px 20px; max-width:720px; margin:0 auto}
 .worldmap--fallback li{margin:6px 0}
+/* Region dots shown after drilling into a country. Label appears on hover so
+   a dense region set doesn't become a word cloud. */
+.worldmap__rdot{
+  width:14px; height:14px; border-radius:50%; border:2px solid #fff; cursor:pointer;
+  background:var(--gold, #c98b2d); box-shadow:0 1px 5px rgba(0,0,0,.3); padding:0; position:relative;
+}
+.worldmap__rdot:hover{transform:scale(1.35); z-index:3}
+.worldmap__rdot-label{
+  position:absolute; left:50%; bottom:calc(100% + 6px); transform:translateX(-50%);
+  white-space:nowrap; font-size:11px; font-weight:600; padding:3px 8px; border-radius:8px;
+  background:var(--paper); border:1px solid var(--line); box-shadow:0 2px 8px rgba(0,0,0,.14);
+  opacity:0; pointer-events:none; transition:opacity .12s ease;
+}
+.worldmap__rdot:hover .worldmap__rdot-label,
+.worldmap__rdot:focus-visible .worldmap__rdot-label{opacity:1}
+.worldmap__hint{font-size:12.5px; opacity:.65; margin:0 0 12px}
 @media (max-width: 640px){
   .worldmap__pane{top:auto; bottom:18px; left:18px; right:18px; width:auto}
 }

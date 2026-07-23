@@ -7,6 +7,7 @@ import { paths } from '../lib/paths.js'
 import { imgUrl } from '../lib/imgUrl.js'
 import PlacePlaceholder from '../components/PlacePlaceholder.jsx'
 import PhotoCredit from '../components/PhotoCredit.jsx'
+import { nearbyPlaces } from '../lib/nearby.js'
 import AddToTrip from '../components/AddToTrip.jsx'
 import ViatorTours from '../components/ViatorTours.jsx'
 import SaveButton from '../components/SaveButton.jsx'
@@ -42,6 +43,10 @@ export default function PlaceDetailScreen() {
     [region, placeId]
   )
   const accent = useMemo(() => regionColour(region?.colour), [region])
+  // Nearest neighbours in the same region — the data's already here, so this is
+  // free, and it gives every place page onward links (good for people mid-plan
+  // and for crawl depth alike).
+  const nearby = useMemo(() => nearbyPlaces(place, region?.places), [place, region])
 
   useSeo({
     title: place ? `${place.name}, ${region.name} — things to do, food & tips` : undefined,
@@ -137,6 +142,20 @@ export default function PlaceDetailScreen() {
               title={`Plan your visit to ${place.name}`}
               offers={placeOffers(aff, { placeName: place.name, regionName: region.name })}
             />
+          )}
+
+          {!!nearby.length && (
+            <section className="pd-nearby" aria-label="Nearby places">
+              <h2>Nearby in {region.name}</h2>
+              <ul>
+                {nearby.map((n) => (
+                  <li key={n.id}>
+                    <Link to={`/${country}/${regionId}/${n.id}`}>{n.name}</Link>
+                    <span className="pd-nearby__km">{Math.round(n.km)} km</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
           )}
 
           {aiOn && <AskPlace place={place} regionName={region?.name || ''} />}

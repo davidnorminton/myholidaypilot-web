@@ -58,35 +58,6 @@ export function useSeo({ title, description, path = '/', image, type = 'website'
 // ── sitemap + robots generation (used by the admin SEO tool) ─────────────────
 const GUIDE_TOPICS = ['festivals', 'history', 'food', 'transport']
 
-export function buildSitemap({ url, regions = [], places = [], posts = [], gallery = [] }) {
-  const base = url.replace(/\/+$/, '')
-  const today = new Date().toISOString().slice(0, 10)
-  const rows = []
-  const add = (loc, priority, lastmod = today) => rows.push({ loc: base + loc, lastmod, priority })
-
-  add('/', '1.0')
-  add('/destinations', '0.5')
-  add('/italy', '0.9')
-  add('/italy/regions', '0.8')
-  GUIDE_TOPICS.forEach((t) => add(`/italy/${t}`, '0.7'))
-  regions.forEach((r) => add(`/italy/${r.id}`, '0.8'))
-  places.forEach((p) => add(`/italy/${p.regionId}/${p.placeId}`, '0.6'))
-  add('/blog', '0.6')
-  posts.forEach((p) => add(`/blog/${p.slug}`, '0.6', p.lastmod || today))
-  add('/trip-ideas', '0.7')
-  add('/featured-destinations', '0.6')
-  add('/how-it-works', '0.5')
-  add('/privacy', '0.2')
-  add('/terms', '0.2')
-  add('/cookies', '0.2')
-  gallery.forEach((g) => add(`/trip-ideas/${g.slug}`, '0.6'))
-
-  const body = rows.map((u) =>
-    `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`
-}
-
-export function buildRobots(url) {
-  const base = url.replace(/\/+$/, '')
-  return `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`
-}
+// buildSitemap/buildRobots used to live here — hand-rolled, Italy-hardcoded, and
+// missing most routes. The real sitemap.xml and robots.txt are written by
+// scripts/prerender.mjs on every build, covering every country, post and trip.

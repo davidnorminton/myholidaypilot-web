@@ -134,6 +134,26 @@ const festivalDate = (f) => {
 // breadcrumb trail in search results instead of a bare URL.
 const breadcrumb = (crumbs) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) })
+// Nearest same-region neighbours for a place — mirrors src/lib/nearby.js so
+// crawlers and users get the same "Nearby in {Region}" links. Internal links
+// between sibling places are the cheapest crawl-depth win the data affords.
+const distKm = (aLat, aLng, bLat, bLng) => {
+  const rad = (d) => (d * Math.PI) / 180
+  const h = Math.sin(rad(bLat - aLat) / 2) ** 2
+    + Math.cos(rad(aLat)) * Math.cos(rad(bLat)) * Math.sin(rad(bLng - aLng) / 2) ** 2
+  return 2 * 6371 * Math.asin(Math.sqrt(h))
+}
+const nearbyHtml = (place, regionPlaces, slug, regionId, regionName) => {
+  if (!Number.isFinite(place.lat) || !Number.isFinite(place.lng)) return ''
+  const near = (regionPlaces || [])
+    .filter((q) => q.id !== place.id && Number.isFinite(q.lat) && Number.isFinite(q.lng))
+    .map((q) => ({ ...q, km: distKm(place.lat, place.lng, q.lat, q.lng) }))
+    .sort((a, b) => a.km - b.km).slice(0, 4)
+  if (!near.length) return ''
+  return `<h2>Nearby in ${esc(regionName)}</h2><ul>` + near.map((q) =>
+    `<li><a href="${SITE}/${slug}/${regionId}/${q.id}">${esc(q.name)}</a> — ${Math.round(q.km)} km</li>`).join('') + `</ul>`
+}
+
 const countries = fs.existsSync(dataDir)
   ? fs.readdirSync(dataDir).filter((d) => fs.existsSync(path.join(dataDir, d, 'index.json')))
   : []
@@ -670,6 +690,7 @@ for (const slug of countries) {
           + list(p.activities, 'Things to do')
           + list(p.food, 'Food to try')
           + list(p.culture, 'Local customs & good to know')
+          + nearbyHtml(p, places, slug, rSummary.id, rf.name)
           + `</main>`,
       }))
       addUrl(`/${slug}/${rSummary.id}/${p.id}`, '0.6', toDate(rf.generatedAt)); pages++
@@ -858,6 +879,35 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
 // real title/description — lifted from the screen's own useSeo() — a heading,
 // an accurate summary and onward links. React still renders the full page.
 {
+  // /map is a hub, not a stub: the interactive map needs JS, but the thing it
+  // represents — every country with counts and a link — is exactly what a
+  // crawler should get. Same numbers the map's own indexer computes.
+  const mapCountries = countries.map((slug) => {
+    const meta = readJson(path.join(dataDir, slug, 'country.json'), {})
+    const idx = readJson(path.join(dataDir, slug, 'index.json'), {})
+    const regions = Array.isArray(idx.regions) ? idx.regions : []
+    return {
+      slug,
+      name: meta.name || slug,
+      flag: meta.flag || '',
+      regions: idx.totalRegions ?? regions.length,
+      places: idx.totalPlaces ?? regions.reduce((n, r) => n + (r.placeCount || 0), 0),
+    }
+  }).sort((a, b) => a.name.localeCompare(b.name))
+  const mapBody = `<p>One point per country we cover. Tap a point for the capital, how many regions and places we’ve mapped, and a link straight into the full guide.</p>`
+    + `<h2>Every country on the map</h2><ul>`
+    + mapCountries.map((c) => `<li><a href="${SITE}/${c.slug}">${c.flag ? esc(c.flag) + ' ' : ''}${esc(c.name)}</a>`
+      + ` — ${c.regions} region${c.regions === 1 ? '' : 's'} · ${c.places} place${c.places === 1 ? '' : 's'}</li>`).join('')
+    + `</ul>`
+  const mapLd = mapCountries.length ? [{
+    '@context': 'https://schema.org', '@type': 'ItemList',
+    name: 'Countries on the myholidaypilot world map',
+    numberOfItems: mapCountries.length,
+    itemListElement: mapCountries.map((c, i) => ({
+      '@type': 'ListItem', position: i + 1, name: c.name, url: `${SITE}/${c.slug}`,
+    })),
+  }] : []
+
   const screens = [
     { path: '/how-it-works', priority: '0.7',
       title: 'How the trip planner works | myholidaypilot',
@@ -895,7 +945,8 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
       title: 'World map — every country we cover | myholidaypilot',
       description: 'Every country on myholidaypilot on one interactive map — tap a point for regions, places and the full guide.',
       h1: 'Every country, one map',
-      body: `<p>One point per country we cover. Tap a point for the capital, how many regions and places we’ve mapped, and a link straight into the full guide.</p>`,
+      body: mapBody,
+      extraLd: mapLd,
       links: [['/destinations', 'Browse every destination'], ['/trip-planner', 'Plan a trip']] },
     { path: '/contact', priority: '0.4',
       title: 'Contact us | myholidaypilot',
@@ -929,6 +980,7 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
       description: s.description,
       jsonLd: [
         { '@context': 'https://schema.org', '@type': 'WebPage', name: s.h1, description: s.description, url: SITE + s.path },
+        ...(s.extraLd || []),
         breadcrumb([{ name: 'Home', url: SITE }, { name: s.h1, url: SITE + s.path }]),
       ],
       bodyHtml: `<main><h1>${esc(s.h1)}</h1>${s.body}`
