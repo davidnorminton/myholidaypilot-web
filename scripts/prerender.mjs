@@ -475,6 +475,9 @@ for (const slug of countries) {
   // so shared links show the right photo (not the generic homepage fallback).
   const images = readJson(path.join(cDir, 'images.json'), {})
   const placeImage = (regionId, placeId) => images[regionId]?.[placeId]?.[0]?.url || null
+  // The whole image record (credit, creditUsername, creditUrl) — the figure
+  // markup credits the photographer, and a bare URL can't.
+  const placeImageObj = (regionId, placeId) => images[regionId]?.[placeId]?.[0] || null
   // First place in a region that actually has an image set — not every place
   // has one, so scan rather than assume places[0] has it.
   const firstRegionImage = (regionId, placesArr) => {
@@ -714,6 +717,15 @@ for (const slug of countries) {
       ],
       bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a> › <a href="${SITE}/${slug}">${esc(name)}</a></nav><h1>${esc(rf.name)}</h1>`
         + (rf.nameIt && rf.nameIt !== rf.name ? `<p>${esc(rf.nameIt)}</p>` : '')
+        // The region hero as a real <img> — prefer sources that carry the
+        // photographer (heroImage object, else the first place's image record)
+        // so the credit renders too; cardImage is a bare URL fallback.
+        + ((() => {
+            const im = rSummary.heroImage?.url ? rSummary.heroImage
+              : (places.map((pl) => placeImageObj(rSummary.id, pl.id)).find((x) => x?.url)
+                || (rSummary.cardImage ? { url: rSummary.cardImage } : null))
+            return im?.url ? `<figure><img src="${esc(imgUrl(im.url, 1200))}" alt="${esc(rf.name)}, ${esc(name)} — travel guide" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(im)}</figure>` : ''
+          })())
         + detailsHtml(rf.details, `Plan your trip to ${rf.name}`)
         + (rf.history ? `<h2>History</h2><p>${esc(rf.history)}</p>` : '')
         + (rf.culturalNotes ? `<h2>Culture</h2><p>${esc(rf.culturalNotes)}</p>` : '')
@@ -762,6 +774,12 @@ for (const slug of countries) {
         ],
         bodyHtml: `<main><nav><a href="${SITE}/${slug}">${esc(name)}</a> › <a href="${SITE}/${slug}/${rSummary.id}">${esc(rf.name)}</a></nav><h1>${esc(p.name)}</h1>`
           + (p.nameIt && p.nameIt !== p.name ? `<p>${esc(p.nameIt)}</p>` : '')
+          // The place's photo as a real <img> with its photographer credited —
+          // one per page, so eager: it IS the page's image.
+          + ((() => {
+              const im = placeImageObj(rSummary.id, p.id)
+              return im?.url ? `<figure><img src="${esc(imgUrl(im.url, 1200))}" alt="${esc(p.name)}, ${esc(rf.name)} — ${esc(name)}" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(im)}</figure>` : ''
+            })())
           + `<p>${esc(p.description || '')}</p>`
           + list(p.activities, 'Things to do')
           + list(p.food, 'Food to try')

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import '../styles/admin.css'
 import { PenLine, BadgePercent, FileJson, Globe, Mail, Home, Sparkles, Globe2, MessageSquare, ImageOff, LayoutDashboard, ScanSearch, Camera } from 'lucide-react'
 import { useAuth } from '../lib/auth.jsx'
 import NotFoundScreen from './NotFoundScreen.jsx'

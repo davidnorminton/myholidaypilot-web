@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { MapPin, X, ArrowRight } from 'lucide-react'
 import { useSeo } from '../lib/seo.js'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import '../styles/worldmap.css'
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 const WORLD = { center: [10, 24], zoom: 1.6 }
