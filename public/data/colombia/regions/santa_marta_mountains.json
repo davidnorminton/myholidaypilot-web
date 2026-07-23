@@ -1,0 +1,921 @@
+{
+  "id": "santa_marta_mountains",
+  "name": "Santa Marta & Lost City",
+  "nameIt": "Sierra Nevada",
+  "capital": "Santa Marta",
+  "lat": 11.2437,
+  "lng": -74.2159,
+  "emoji": "⛰️",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 11.8,
+    "south": 10.8,
+    "east": -73.1,
+    "west": -74.6
+  },
+  "history": "The Sierra Nevada mountains have been home to the Kogi, Arhuaco, and Wiwa indigenous peoples for thousands of years, who developed sophisticated agricultural and spiritual systems in harmony with the mountain ecosystem. The Lost City, known locally as Teyuna, was built by the Tayrona civilization around 800 CE and served as an important ceremonial and trade center before being abandoned during the Spanish conquest. Santa Marta, founded in 1525, became one of Colombia's oldest cities and served as a crucial port for Spanish colonial activities in the Caribbean. The region declined after the fall of the Tayrona but remained culturally significant to indigenous communities who preserved their traditions through centuries of isolation.",
+  "culturalNotes": "The indigenous groups of Sierra Nevada maintain deeply spiritual worldviews centered on ecological balance and their role as \"guardians of the world,\" beliefs that permeate daily life and decision-making. Traditional crafts including intricate woven molas and beaded textiles remain vital cultural expressions, while ceremonial practices tied to agricultural cycles and astronomical events continue to structure community life. The area is distinct for its remarkable biodiversity and the coexistence of multiple indigenous nations, each with their own language and customs, creating a unique cultural mosaic within Colombia.",
+  "bestTimeToVisit": "Trek December to March or August to September when trails are most passable.",
+  "languageNotes": "While Spanish is widely spoken in Santa Marta, the indigenous communities speak Kogi, Arhuaco, and Wiwa languages that reflect their deep connection to the land. Learning basic Spanish greetings and phrases like \"¿Cómo está?\" and \"Muchas gracias\" is helpful, though respectful visitors should acknowledge the primacy of indigenous languages in sacred spaces.",
+  "generatedAt": "2026-07-23T09:36:44.935Z",
+  "placeCount": 7,
+  "places": [
+    {
+      "id": "lost_city_trek",
+      "name": "Lost City Trek",
+      "nameIt": "Ciudad Perdida",
+      "lat": 11.0408,
+      "lng": -73.8847,
+      "type": "LANDMARK",
+      "description": "An ancient archaeological site hidden deep in the Sierra Nevada mountains, older than Machu Picchu and accessible only by multi-day trek through jungle. This is the jewel of the region, offering pre-Columbian ruins, indigenous culture, and stunning mountain vistas that make the challenging hike worthwhile.",
+      "imageQueries": [
+        "Lost City Ciudad Perdida terraces",
+        "Ciudad Perdida Sierra Nevada trek"
+      ],
+      "activities": [
+        {
+          "id": "lost_1",
+          "text": "Hike to Lost City (Ciudad Perdida)",
+          "detail": "Trek through dense jungle and cloud forest over 4-5 days to reach the ancient terraced ruins hidden at approximately 1,200 meters elevation, the main archaeological jewel of the trek.",
+          "lat": 11.0417,
+          "lng": -73.9533
+        },
+        {
+          "id": "lost_2",
+          "text": "Explore Pre-Columbian Terraces",
+          "detail": "Walk among dozens of restored stone agricultural terraces and ceremonial platforms built by the Tayrona civilization around 800 CE, older than Machu Picchu.",
+          "lat": 11.0417,
+          "lng": -73.9533
+        },
+        {
+          "id": "lost_3",
+          "text": "Visit Indigenous Kogi Communities",
+          "detail": "Encounter and respectfully observe members of the Kogi people who still inhabit the Sierra Nevada and maintain ancestral traditions in settlements near the trek route.",
+          "lat": 11.05,
+          "lng": -73.95
+        },
+        {
+          "id": "lost_4",
+          "text": "River Crossings and Natural Pools",
+          "detail": "Cool off in cold mountain rivers and natural swimming holes encountered throughout the multi-day trek, particularly refreshing after long hiking days.",
+          "lat": 11.048,
+          "lng": -73.952
+        },
+        {
+          "id": "lost_5",
+          "text": "Summit Viewpoints",
+          "detail": "Reach ridge-top vistas offering panoramic views of the Caribbean coast, Sierra Nevada peaks, and surrounding jungle canopy from elevations above 1,400 meters.",
+          "lat": 11.043,
+          "lng": -73.948
+        },
+        {
+          "id": "lost_6",
+          "text": "Night Hiking in Jungle",
+          "detail": "Experience the trek's night sections through the forest listening to nocturnal wildlife sounds and observing bioluminescent insects under guide supervision."
+        }
+      ],
+      "food": [
+        {
+          "id": "lost_f1",
+          "text": "Ajiaco Soup",
+          "detail": "A hearty stew of chicken, potatoes, and local vegetables cooked in mountain lodges, providing essential calories and warmth during the multi-day trek."
+        },
+        {
+          "id": "lost_f2",
+          "text": "Arepas with Local Cheese",
+          "detail": "Thick corn cakes served alongside fresh cheese made in small Sierra Nevada communities, typically eaten for breakfast before long hiking days."
+        },
+        {
+          "id": "lost_f3",
+          "text": "River Fish (Trucha)",
+          "detail": "Fresh trout caught from mountain rivers near trek campsites, grilled simply over open fires and served with plantains and rice."
+        },
+        {
+          "id": "lost_f4",
+          "text": "Plantain Dishes",
+          "detail": "Fried or boiled plantains prepared as a staple carbohydrate at trek lodges, often served with every meal to fuel the demanding hike."
+        },
+        {
+          "id": "lost_f5",
+          "text": "Sancocho",
+          "detail": "A thick stew combining meat, yuca, and seasonal vegetables that represents traditional mountain cooking and is commonly served at overnight rest stops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lost_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "The ruins are sacred to the Kogi people; visitors should not touch carvings, remove artifacts, or venture beyond marked areas, and should listen respectfully to guide explanations of spiritual significance."
+        },
+        {
+          "id": "lost_c2",
+          "text": "Hire Licensed Local Guides",
+          "detail": "It is both legally required and culturally important to trek only with official guides from Santa Marta who are trained in archaeology, safety, and indigenous protocols."
+        },
+        {
+          "id": "lost_c3",
+          "text": "Pack Out All Waste",
+          "detail": "The fragile ecosystem and archaeological preservation require that all trash, including organic waste, be carried back down the mountain rather than left at sites."
+        },
+        {
+          "id": "lost_c4",
+          "text": "Dress Modestly Around Communities",
+          "detail": "When passing through or staying near indigenous settlements, wear respectful clothing that covers shoulders and knees as a sign of cultural respect to Kogi and local communities."
+        }
+      ]
+    },
+    {
+      "id": "el_pueblito",
+      "name": "El Pueblito",
+      "nameIt": "El Pueblito",
+      "lat": 11.31,
+      "lng": -74.08,
+      "type": "LANDMARK",
+      "description": "A smaller archaeological site within Tayrona National Park featuring ancient stone terraces and structures from the Tayrona civilization nestled in dense forest. The hike to El Pueblito offers a less crowded alternative to the Lost City with rewarding views and indigenous history.",
+      "imageQueries": [
+        "El Pueblito Tayrona ruins terraces",
+        "El Pueblito archaeological site Colombia"
+      ],
+      "activities": [
+        {
+          "id": "el_p_1",
+          "text": "Hike the Forest Trail to El Pueblito",
+          "detail": "Trek through dense tropical forest on a well-maintained path for approximately 3-4 hours, passing through multiple ecological zones and river crossings to reach the archaeological site."
+        },
+        {
+          "id": "el_p_2",
+          "text": "Explore Ancient Stone Terraces",
+          "detail": "Wander among restored and partially excavated agricultural terraces built by the Tayrona civilization, some dating back over 1,000 years and demonstrating sophisticated mountain engineering.",
+          "lat": 11.3281,
+          "lng": -74.0281
+        },
+        {
+          "id": "el_p_3",
+          "text": "Visit the Ceremonial Platforms",
+          "detail": "Examine the circular and rectangular stone structures believed to have served ceremonial and residential purposes, offering insight into Tayrona social and spiritual organization.",
+          "lat": 11.3284,
+          "lng": -74.0279
+        },
+        {
+          "id": "el_p_4",
+          "text": "Bird Watching in Cloud Forest",
+          "detail": "Spot endemic and migratory bird species including colorful tanagers, toucans, and hummingbirds thriving in the misty mountain habitat surrounding the ruins.",
+          "lat": 11.3275,
+          "lng": -74.0285
+        },
+        {
+          "id": "el_p_5",
+          "text": "Swim in Mountain Pools",
+          "detail": "Cool off in natural freshwater pools found along the forest streams and rivers during the hike, particularly refreshing after the uphill sections."
+        },
+        {
+          "id": "el_p_6",
+          "text": "Photography at Sunset Viewpoint",
+          "detail": "Capture panoramic views of the Sierra Nevada mountains and Caribbean coastline from elevated sections near the archaeological site during late afternoon light.",
+          "lat": 11.328,
+          "lng": -74.0275
+        }
+      ],
+      "food": [
+        {
+          "id": "el_p_f1",
+          "text": "Arepas with Local Cheese",
+          "detail": "Warm cornmeal cakes filled with fresh queso fresco, often prepared by local guides or in nearby Santa Marta, providing essential protein and carbohydrates for the hike."
+        },
+        {
+          "id": "el_p_f2",
+          "text": "Bunuelos (Fried Potato Balls)",
+          "detail": "Golden-fried spheres of mashed potato and cheese, a traditional Caribbean snack sold at trail entrances and in Santa Marta markets, ideal for quick energy."
+        },
+        {
+          "id": "el_p_f3",
+          "text": "Fresh Tropical Fruits",
+          "detail": "Local guides often carry and share mountain-grown avocados, plantains, and native fruits like guanabana and passion fruit, naturally hydrating and refreshing on the trail."
+        },
+        {
+          "id": "el_p_f4",
+          "text": "Fish Ceviche in Santa Marta",
+          "detail": "After the hike, enjoy fresh seafood ceviche prepared with local catch, lime, and cilantro at beachfront restaurants in nearby Santa Marta town."
+        },
+        {
+          "id": "el_p_f5",
+          "text": "Sancocho Stew",
+          "detail": "A hearty local broth made with root vegetables, plantain, and regional proteins, commonly served in family-run comedores near the park entrance for post-hike recovery."
+        }
+      ],
+      "culture": [
+        {
+          "id": "el_p_c1",
+          "text": "Respect Indigenous Heritage",
+          "detail": "The Tayrona descendants, the Kogi, Arhuaco, and Wiwa peoples, still inhabit the Sierra Nevada; approach archaeological sites with reverence and never remove artifacts or disturb sacred spaces."
+        },
+        {
+          "id": "el_p_c2",
+          "text": "Hire Local Guides",
+          "detail": "Engaging certified local guides from Santa Marta supports indigenous communities and ensures you receive authentic historical context and safe navigation through the protected park."
+        },
+        {
+          "id": "el_p_c3",
+          "text": "Observe Park Regulations",
+          "detail": "Entry requires registration at Tayrona National Park headquarters, permits are mandatory, and visitors must respect designated trail hours and seasonal closures to protect both the ecosystem and archaeological integrity."
+        },
+        {
+          "id": "el_p_c4",
+          "text": "Greet with Respect",
+          "detail": "Colombian and indigenous locals appreciate a warm 'Buenos días' or 'Hola' upon meeting; learn a few Spanish phrases and show genuine interest in their stories and traditions."
+        }
+      ]
+    },
+    {
+      "id": "playa_grande",
+      "name": "Playa Grande",
+      "nameIt": "Playa Grande",
+      "lat": 11.2,
+      "lng": -74.3,
+      "type": "COASTAL",
+      "description": "A long, dramatic stretch of Caribbean beach with golden sand and warm waters, perfect for swimming and relaxing between treks. Located near Santa Marta, it offers a classic Caribbean experience with local beachside restaurants and stunning sunset views.",
+      "imageQueries": [
+        "Playa Grande Santa Marta beach",
+        "Playa Grande Caribbean coast Colombia"
+      ],
+      "activities": [
+        {
+          "id": "play_1",
+          "text": "Swimming and Sunbathing",
+          "detail": "Wade into the warm Caribbean waters or relax on the golden sand with views of the Sierra Nevada mountains in the distance."
+        },
+        {
+          "id": "play_2",
+          "text": "Sunset Watching",
+          "detail": "Position yourself on the beach at dusk to witness the dramatic Caribbean sunset painting the sky in orange and pink hues.",
+          "lat": 11.2435,
+          "lng": -74.2168
+        },
+        {
+          "id": "play_3",
+          "text": "Snorkeling",
+          "detail": "Explore shallow coral reefs and tropical fish just offshore from Playa Grande with local snorkeling guides."
+        },
+        {
+          "id": "play_4",
+          "text": "Beach Walks to Pueblito",
+          "detail": "Hike along the coastline to reach Pueblito, an archaeological site with pre-Columbian structures nestled between jungle and beach.",
+          "lat": 11.2385,
+          "lng": -74.2185
+        },
+        {
+          "id": "play_5",
+          "text": "Visit Local Beach Restaurants",
+          "detail": "Dine at beachfront shacks serving fresh seafood while barefoot in the sand with ocean breezes."
+        },
+        {
+          "id": "play_6",
+          "text": "Lost City Trek Connection",
+          "detail": "Use Playa Grande as a rest point or alternative trailhead for accessing the Lost City (Ciudad Perdida) trek through the jungle."
+        }
+      ],
+      "food": [
+        {
+          "id": "play_f1",
+          "text": "Ceviche de Camarón",
+          "detail": "Fresh shrimp cured in lime juice with tomato, onion, and cilantro, a refreshing coastal specialty served ice-cold."
+        },
+        {
+          "id": "play_f2",
+          "text": "Arroz con Camarones",
+          "detail": "Creamy rice cooked with fresh shrimp, garlic, and local spices, a staple at beachside comedores."
+        },
+        {
+          "id": "play_f3",
+          "text": "Mojarra Frita",
+          "detail": "Whole grilled or fried fresh-caught fish seasoned simply with lime and salt, often served with patacones and rice."
+        },
+        {
+          "id": "play_f4",
+          "text": "Ensalada de Pulpo",
+          "detail": "Tender octopus salad with vegetables and a citrus vinaigrette, showcasing the region's excellent seafood."
+        },
+        {
+          "id": "play_f5",
+          "text": "Tinto with Fresh Fruit",
+          "detail": "Strong black coffee paired with tropical fresh-squeezed juices like mango or passion fruit at dawn before beach activities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "play_c1",
+          "text": "Respectful Beach Behavior",
+          "detail": "Locals appreciate visitors who keep the beach clean, avoid excessive noise at night, and respect private fishing areas."
+        },
+        {
+          "id": "play_c2",
+          "text": "Cash Payments Preferred",
+          "detail": "Most beachside vendors and small restaurants operate on cash only, so bring Colombian pesos rather than relying on cards."
+        },
+        {
+          "id": "play_c3",
+          "text": "Sun Safety Essential",
+          "detail": "The Caribbean sun is intense year-round; locals and experienced travelers use high SPF sunscreen and take afternoon shade breaks to avoid severe burns."
+        },
+        {
+          "id": "play_c4",
+          "text": "Indigenous Heritage Awareness",
+          "detail": "The area is sacred to Kogi and Arhuaco indigenous peoples; treat archaeological sites and cultural areas with reverence and follow local guide instructions."
+        }
+      ]
+    },
+    {
+      "id": "magdalena_river",
+      "name": "Magdalena River",
+      "nameIt": "Río Magdalena",
+      "lat": 11.27,
+      "lng": -74.21,
+      "type": "NATURE",
+      "description": "South America's major river that flows through Santa Marta, offering boat tours with opportunities to spot wildlife and experience local life along the banks. River trips provide a unique perspective on the region's geography and connectivity.",
+      "imageQueries": [
+        "Magdalena River Santa Marta boat tour",
+        "Río Magdalena Colombia wildlife"
+      ],
+      "activities": [
+        {
+          "id": "magd_1",
+          "text": "Boat Tours to Lost City (Ciudad Perdida)",
+          "detail": "Multi-day guided river and jungle treks departing from Santa Marta that combine Magdalena River access with hiking to the pre-Columbian archaeological site, requiring permits and experienced guides.",
+          "lat": 11.0417,
+          "lng": -73.9302
+        },
+        {
+          "id": "magd_2",
+          "text": "Wildlife Spotting Cruises",
+          "detail": "Early morning or sunset boat trips along the river to observe caimans, herons, egrets, and occasional river dolphins in their natural habitat.",
+          "lat": 11.2405,
+          "lng": -74.2283
+        },
+        {
+          "id": "magd_3",
+          "text": "Village Visits Along Riverbanks",
+          "detail": "Stop at small riverside communities to interact with local families, observe traditional fishing methods, and understand daily life dependent on the river."
+        },
+        {
+          "id": "magd_4",
+          "text": "Taganga Beach Access",
+          "detail": "Scenic boat ride to the nearby fishing village of Taganga with beaches and snorkeling opportunities, accessible via short river and coastal navigation from Santa Marta.",
+          "lat": 11.2969,
+          "lng": -74.1572
+        },
+        {
+          "id": "magd_5",
+          "text": "Fishing Expeditions",
+          "detail": "Join local fishermen on traditional fishing boats to learn techniques and participate in catches of grouper, snapper, and other regional species."
+        },
+        {
+          "id": "magd_6",
+          "text": "Sunrise River Photography Tours",
+          "detail": "Guided early-morning boat tours specifically designed for photographers to capture mist, wildlife, and golden light over the Magdalena landscape."
+        }
+      ],
+      "food": [
+        {
+          "id": "magd_f1",
+          "text": "Arroz con Coco",
+          "detail": "A regional rice dish cooked with fresh coconut milk, raisins, and spices, commonly served along the Caribbean coast and river communities near Santa Marta."
+        },
+        {
+          "id": "magd_f2",
+          "text": "Fresh River Fish (Mojarra and Bagre)",
+          "detail": "Local catch grilled or fried with lemon, garlic, and plantains, reflecting the river's importance to the regional diet and available at riverside restaurants."
+        },
+        {
+          "id": "magd_f3",
+          "text": "Ceviche de Camarones",
+          "detail": "Fresh shrimp ceviche prepared with lime juice, tomato, onion, and cilantro, popular at waterfront eateries showcasing Caribbean seafood traditions."
+        },
+        {
+          "id": "magd_f4",
+          "text": "Arepas Rellenas",
+          "detail": "Grilled corn cakes stuffed with cheese, fish, or meat, a staple street food and quick meal eaten by river workers and tourists throughout the region."
+        },
+        {
+          "id": "magd_f5",
+          "text": "Conch Soup (Sopa de Caracol)",
+          "detail": "A hearty Afro-Caribbean broth made with conch, coconut, yams, and plantains, traditionally prepared in riverside and coastal settlements."
+        }
+      ],
+      "culture": [
+        {
+          "id": "magd_c1",
+          "text": "Respect River Navigation Rules",
+          "detail": "Always wear life jackets on boat tours, follow guide instructions strictly, and avoid leaning over railings as currents and wildlife encounters require caution."
+        },
+        {
+          "id": "magd_c2",
+          "text": "Greet with Warmth in Communities",
+          "detail": "River-dependent locals appreciate respectful greetings in Spanish and genuine interest in their lives; bringing small gifts or purchasing directly from residents builds goodwill."
+        },
+        {
+          "id": "magd_c3",
+          "text": "Early Starts Are Essential",
+          "detail": "River tours and Lost City treks begin before dawn to maximize wildlife viewing and avoid intense afternoon heat, so prepare yourself for early wake-up times."
+        },
+        {
+          "id": "magd_c4",
+          "text": "Ask Before Photographing People",
+          "detail": "Local fishermen and villagers may not wish to be photographed; always request permission first and consider purchasing souvenirs as cultural exchange."
+        }
+      ]
+    },
+    {
+      "id": "bungalow_kogi",
+      "name": "Bungalow Kogi Area",
+      "nameIt": "Territorio Kogi",
+      "lat": 11.06,
+      "lng": -73.95,
+      "type": "VILLAGE",
+      "description": "A region in the lower Sierra Nevada where the indigenous Kogi people maintain their traditional way of life and occasionally welcome respectful visitors. Visiting here offers profound cultural insight and pristine mountain scenery far from tourist crowds.",
+      "imageQueries": [
+        "Kogi indigenous people Sierra Nevada",
+        "Kogi territory Colombia traditional"
+      ],
+      "activities": [
+        {
+          "id": "bung_1",
+          "text": "Trek to Lost City (Ciudad Perdida)",
+          "detail": "A four-to-five day guided hike through cloud forest and archaeological terraces leads to pre-Columbian ruins perched at 1,200 meters, predating Machu Picchu.",
+          "lat": 11.0411,
+          "lng": -73.6289
+        },
+        {
+          "id": "bung_2",
+          "text": "Visit Kogi Indigenous Villages",
+          "detail": "Walk through traditional settlements where the Kogi people live in circular dwellings and practice ancient agricultural methods, gaining insight into their spiritual worldview and connection to the land.",
+          "lat": 11.0389,
+          "lng": -73.6256
+        },
+        {
+          "id": "bung_3",
+          "text": "Swim in Mountain Rivers and Pools",
+          "detail": "Cool off in pristine natural pools and cascades along the trekking route, fed by snowmelt from the Sierra Nevada's higher peaks.",
+          "lat": 11.0421,
+          "lng": -73.6301
+        },
+        {
+          "id": "bung_4",
+          "text": "Attend Kogi Ceremonial Gatherings",
+          "detail": "If invited and permitted, observe or participate respectfully in seasonal ceremonies where elders conduct rituals to maintain balance with nature.",
+          "lat": 11.0389,
+          "lng": -73.6256
+        },
+        {
+          "id": "bung_5",
+          "text": "Explore Primary Cloud Forest",
+          "detail": "Trek through misty montane forest rich with epiphytes, medicinal plants, and endemic bird species found nowhere else on Earth.",
+          "lat": 11.0445,
+          "lng": -73.6312
+        },
+        {
+          "id": "bung_6",
+          "text": "Learn Traditional Weaving",
+          "detail": "Spend time with Kogi women to observe the creation of traditional woven bags (mochilas) using natural dyes and ancestral patterns.",
+          "lat": 11.0389,
+          "lng": -73.6256
+        }
+      ],
+      "food": [
+        {
+          "id": "bung_f1",
+          "text": "Arepa de Maíz",
+          "detail": "A staple cornmeal cake served warm and simple, often prepared by Kogi families using locally grown corn ground by hand."
+        },
+        {
+          "id": "bung_f2",
+          "text": "Fresh Trout from Mountain Streams",
+          "detail": "Freshwater trout caught from cold sierra rivers, typically grilled simply over fire or boiled with minimal seasoning."
+        },
+        {
+          "id": "bung_f3",
+          "text": "Yuca and Plantain",
+          "detail": "Root vegetables cultivated in Kogi gardens, boiled or fried and served as a filling carbohydrate staple at most meals."
+        },
+        {
+          "id": "bung_f4",
+          "text": "Herbal Infusions",
+          "detail": "Traditional medicinal teas brewed from sierra herbs like coca leaf tea, served to aid digestion and provide energy during mountain treks."
+        },
+        {
+          "id": "bung_f5",
+          "text": "Beans (Frijoles)",
+          "detail": "Slow-cooked legumes grown locally and seasoned minimally, providing essential protein in the Kogi diet."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bung_c1",
+          "text": "Request Permission Before Photography",
+          "detail": "The Kogi believe photographs can capture the spirit; always ask explicit consent before photographing people, rituals, or sacred sites, and respect refusals immediately."
+        },
+        {
+          "id": "bung_c2",
+          "text": "Observe Sacred Coca Leaf Ceremony",
+          "detail": "Elders may offer coca leaf (mambeo) as a gesture of welcome and spiritual connection; accept respectfully and follow their lead on proper chewing and conversation etiquette."
+        },
+        {
+          "id": "bung_c3",
+          "text": "Dress Conservatively and Hike Respectfully",
+          "detail": "Wear modest clothing that covers shoulders and knees, move quietly through settlements, speak in low voices, and never touch sacred objects or enter ceremonial spaces without invitation."
+        },
+        {
+          "id": "bung_c4",
+          "text": "Hire Local Kogi Guides",
+          "detail": "Support the community by employing Kogi guides directly, who understand the landscape spiritually and can translate cultural context while ensuring your visit does not disrupt their way of life."
+        }
+      ]
+    },
+    {
+      "id": "san_pedro_alexis",
+      "name": "San Pedro Alexis",
+      "nameIt": "San Pedro Alexis",
+      "lat": 11.288,
+      "lng": -73.777,
+      "type": "TOWN",
+      "description": "A small riverside town serving as an alternative starting point for Lost City treks, offering a more local and less-touristed experience than Santa Marta. The town provides basic services and a glimpse of authentic Colombian mountain life.",
+      "imageQueries": [
+        "San Pedro Alexis Colombia town",
+        "San Pedro Alexis Lost City trek start"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Lost City Trek Starting Point",
+          "detail": "Begin multi-day hikes to Ciudad Perdida from San Pedro Alexis with local guides who know the jungle routes and river crossings intimately.",
+          "lat": 11.3167,
+          "lng": -74.1667
+        },
+        {
+          "id": "san__2",
+          "text": "Río Buritaca Swimming Holes",
+          "detail": "Cool off in natural pools and crystal-clear sections of the Buritaca River that flows through town during the dry season.",
+          "lat": 11.317,
+          "lng": -74.1665
+        },
+        {
+          "id": "san__3",
+          "text": "Local Market Visit",
+          "detail": "Browse the small weekend market where farmers sell fresh tropical fruit, cassava, plantains, and locally caught fish directly from their farms."
+        },
+        {
+          "id": "san__4",
+          "text": "Mountain Viewpoint Hike",
+          "detail": "Take a short 1-2 hour trek up the hillside behind town for panoramic views of the valley and Sierra Nevada peaks."
+        },
+        {
+          "id": "san__5",
+          "text": "Community Homestay Experience",
+          "detail": "Spend time with local families who offer meals and lodging, providing insight into daily mountain village life and agricultural rhythms."
+        },
+        {
+          "id": "san__6",
+          "text": "Jungle Bird Watching",
+          "detail": "Walk early morning trails around San Pedro Alexis to spot toucans, macaws, and endemic Sierra Nevada bird species with local bird enthusiasts."
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Arroz con Pollo",
+          "detail": "Locally-raised chicken cooked with rice, sofrito, and plantain served as the standard hearty lunch in family-run comedores throughout town."
+        },
+        {
+          "id": "san__f2",
+          "text": "Fresh River Fish (Bagre or Mojarra)",
+          "detail": "Grilled whole fish caught daily from the Buritaca River, seasoned simply with lime, garlic, and served with cassava and plantain."
+        },
+        {
+          "id": "san__f3",
+          "text": "Arepa de Queso",
+          "detail": "Warm cornmeal cakes stuffed with local cheese and served fresh from family kitchens, perfect for breakfast or as a hiking snack."
+        },
+        {
+          "id": "san__f4",
+          "text": "Sancocho de Plátano",
+          "detail": "Hearty stew made with green plantain, yuca, and whatever protein is available, traditionally eaten as the main meal on cooler highland days."
+        },
+        {
+          "id": "san__f5",
+          "text": "Patacones",
+          "detail": "Twice-fried green plantain slices served crispy and salty as a side dish or street snack, found at every small eatery in town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Spanish Fluency Helpful",
+          "detail": "English is rarely spoken in San Pedro Alexis, so basic Spanish phrases and a translation app are essential for communicating with locals and arranging guides."
+        },
+        {
+          "id": "san__c2",
+          "text": "Trek Guides Are Community Pride",
+          "detail": "Local trekking guides are respected community members; hiring them directly supports families and the town economy far better than booking through Santa Marta agencies."
+        },
+        {
+          "id": "san__c3",
+          "text": "Rainy Season Planning",
+          "detail": "The region receives heavy rain May-November, making river crossings dangerous and trails muddy; plan treks during December-April dry season for safety and comfort."
+        },
+        {
+          "id": "san__c4",
+          "text": "Respectful Photography",
+          "detail": "Ask permission before photographing indigenous people or inside homes, as the area borders Kogi and Wiwa indigenous territories where privacy is culturally important."
+        }
+      ]
+    },
+    {
+      "id": "aracataca",
+      "name": "Aracataca",
+      "nameIt": "Aracataca",
+      "lat": 10.633,
+      "lng": -74.16,
+      "type": "TOWN",
+      "description": "The birthplace of Gabriel García Márquez and the inspiration for Macondo in his novels, this town offers literary and cultural significance. Though modest, it provides insight into the region's history and magical realism roots.",
+      "imageQueries": [
+        "Aracataca García Márquez birthplace",
+        "Aracataca Colombia magical realism"
+      ],
+      "activities": [
+        {
+          "id": "arac_1",
+          "text": "Gabriel García Márquez House Museum",
+          "detail": "Tour the restored childhood home of the Nobel Prize-winning author where he spent his early years and drew inspiration for One Hundred Years of Solitude.",
+          "lat": 11.0417,
+          "lng": -74.2083
+        },
+        {
+          "id": "arac_2",
+          "text": "Aracataca Town Square",
+          "detail": "Stroll through the central plaza to observe local life, colonial architecture, and the monument dedicated to García Márquez's literary legacy.",
+          "lat": 11.042,
+          "lng": -74.2087
+        },
+        {
+          "id": "arac_3",
+          "text": "Lost City (Ciudad Perdida) Trek",
+          "detail": "Embark on a challenging multi-day trek through jungle terrain to reach this pre-Columbian archaeological site nestled in the Sierra Nevada mountains.",
+          "lat": 11.0485,
+          "lng": -74.1289
+        },
+        {
+          "id": "arac_4",
+          "text": "Banana Plantation Tours",
+          "detail": "Visit working banana farms in the surrounding Magdalena region to understand the agricultural heritage that shaped the region's economy and García Márquez's narratives.",
+          "lat": 11.05,
+          "lng": -74.22
+        },
+        {
+          "id": "arac_5",
+          "text": "Río Aracataca Exploration",
+          "detail": "Hike along or wade through the river that runs through town, a natural landmark featured in local stories and regional folklore.",
+          "lat": 11.0425,
+          "lng": -74.21
+        },
+        {
+          "id": "arac_6",
+          "text": "Local Market Visit",
+          "detail": "Browse the bustling morning market to see tropical fruits, vegetables, and crafts while interacting with vendors and experiencing authentic local commerce."
+        }
+      ],
+      "food": [
+        {
+          "id": "arac_f1",
+          "text": "Ajiaco Costeno",
+          "detail": "A hearty Caribbean coastal stew made with chicken, potatoes, plantains, and aromatic cilantro, representing the region's comfort food tradition."
+        },
+        {
+          "id": "arac_f2",
+          "text": "Fried Plantains with Cheese",
+          "detail": "Crispy sliced plantains served alongside fresh local cheese, a simple yet beloved Caribbean side dish found at family-run comedores."
+        },
+        {
+          "id": "arac_f3",
+          "text": "Seafood Ceviche",
+          "detail": "Fresh fish or shrimp marinated in lime juice with onions and cilantro, reflecting the region's proximity to coastal influences despite inland location."
+        },
+        {
+          "id": "arac_f4",
+          "text": "Arepa con Queso",
+          "detail": "Cornmeal patties griddled and stuffed with melted local cheese, a staple street food and breakfast item throughout the Caribbean coast."
+        },
+        {
+          "id": "arac_f5",
+          "text": "Sancocho de Gallina",
+          "detail": "Traditional slow-cooked chicken and vegetable stew with yuca and corn, often prepared for family gatherings and celebrations in rural Magdalena."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arac_c1",
+          "text": "Respect Literary Heritage",
+          "detail": "Show reverence when discussing García Márquez and magical realism, as the town takes great pride in being Macondo's real-world inspiration and birthplace."
+        },
+        {
+          "id": "arac_c2",
+          "text": "Learn Basic Spanish",
+          "detail": "English is rarely spoken in Aracataca; locals appreciate visitors who attempt conversational Spanish and will be more welcoming and helpful."
+        },
+        {
+          "id": "arac_c3",
+          "text": "Embrace Slow Pace",
+          "detail": "The town operates on a relaxed Caribbean schedule with limited services and long midday closures; plan accordingly and avoid rushing through interactions."
+        },
+        {
+          "id": "arac_c4",
+          "text": "Participate in Community",
+          "detail": "Locals welcome visitors who engage genuinely—share meals, ask about family stories, and attend any local celebrations or festivals happening during your visit."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Casa Federal",
+      "address": "Calle 22 No. 3-51, Santa Marta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Charming colonial-era restaurant serving traditional Colombian dishes in a restored historic building.",
+      "mustOrder": "Bandeja Paisa",
+      "lat": 11.2408,
+      "lng": -74.2247
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Ouzo",
+      "address": "Carrera 2 No. 18-40, Santa Marta",
+      "neighbourhood": "Centro",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale Greek and Mediterranean cuisine with fresh seafood overlooking the Caribbean coast.",
+      "mustOrder": "Whole Grilled Fish with Feta",
+      "lat": 11.2425,
+      "lng": -74.2215
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "El Rodadero Beach Club",
+      "address": "Carrera 2, Playa El Rodadero, Santa Marta",
+      "neighbourhood": "El Rodadero",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Beachfront seafood restaurant with casual atmosphere and excellent fresh catch daily.",
+      "mustOrder": "Ceviche Mixto",
+      "lat": 11.234,
+      "lng": -74.2107
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Sibu Cafe",
+      "address": "Calle 19 No. 3-08, Santa Marta",
+      "neighbourhood": "Centro",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Bohemian café serving fusion dishes with emphasis on local ingredients and artisanal coffee.",
+      "mustOrder": "Arepa with Local Cheese and Avocado",
+      "lat": 11.2418,
+      "lng": -74.224
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "La Puerta Grande",
+      "address": "Calle 22 No. 2-20, Santa Marta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Family-run restaurant featuring authentic coastal Colombian cuisine in a welcoming setting.",
+      "mustOrder": "Arroz con Camarones",
+      "lat": 11.241,
+      "lng": -74.225
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Finca Sandrita",
+      "address": "Vía Minca, Minca",
+      "neighbourhood": "Minca",
+      "cuisine": "Colombian",
+      "priceRange": "€",
+      "description": "Rustic farm-to-table restaurant nestled in the mountains with homemade regional specialties.",
+      "mustOrder": "Trout with Mountain Vegetables",
+      "lat": 11.2547,
+      "lng": -74.3038
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Casa Elemento",
+      "address": "Calle Principal, Minca",
+      "neighbourhood": "Minca",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Mountain retreat serving vegetarian and fusion cuisine with stunning sierra views.",
+      "mustOrder": "Vegetarian Pasta Primavera",
+      "lat": 11.256,
+      "lng": -74.3045
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurante Karaguango",
+      "address": "Calle Principal, Taganga",
+      "neighbourhood": "Taganga",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual beachside seafood shack famous for fresh fish and authentic Caribbean flavors.",
+      "mustOrder": "Fish with Coconut Rice",
+      "lat": 11.3018,
+      "lng": -74.1962
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "El Mirador",
+      "address": "Calle Principal, Taganga",
+      "neighbourhood": "Taganga",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Panoramic rooftop restaurant overlooking Taganga bay with fresh seafood and local dishes.",
+      "mustOrder": "Grilled Red Snapper",
+      "lat": 11.3025,
+      "lng": -74.197
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Distillery Brew Co.",
+      "address": "Carrera 2 No. 20-15, Santa Marta",
+      "neighbourhood": "Centro",
+      "cuisine": "Pub Food",
+      "priceRange": "€€",
+      "description": "Craft brewery and gastropub serving creative pub fare with locally brewed beers.",
+      "mustOrder": "Beer-Battered Fish and Chips",
+      "lat": 11.2432,
+      "lng": -74.2228
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Casa Vieja",
+      "address": "Calle 18 No. 3-70, Santa Marta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Colombian",
+      "priceRange": "€€€",
+      "description": "Fine dining in a restored mansion showcasing modern interpretations of Caribbean Colombian cuisine.",
+      "mustOrder": "Mofongo with Local Seafood",
+      "lat": 11.2405,
+      "lng": -74.226
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "The Snack Box",
+      "address": "Carrera 2 No. 19-30, Santa Marta",
+      "neighbourhood": "Centro",
+      "cuisine": "International",
+      "priceRange": "€",
+      "description": "Budget-friendly café offering sandwiches, salads, and light meals popular with backpackers.",
+      "mustOrder": "Chicken and Avocado Sandwich",
+      "lat": 11.2428,
+      "lng": -74.222
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Pescado Loco",
+      "address": "Avenida Rodrigo de Bastidas, Santa Marta",
+      "neighbourhood": "El Rodadero",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Popular beachfront seafood restaurant known for generous portions and vibrant atmosphere.",
+      "mustOrder": "Whole Grilled Lobster",
+      "lat": 11.2338,
+      "lng": -74.213
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Café Natura",
+      "address": "Calle Principal, Minca",
+      "neighbourhood": "Minca",
+      "cuisine": "Café/Brunch",
+      "priceRange": "€€",
+      "description": "Mountain coffee house serving specialty coffees and light breakfast in a botanical setting.",
+      "mustOrder": "Colombia Coffee with Homemade Pastries",
+      "lat": 11.2555,
+      "lng": -74.305
+    }
+  ]
+}

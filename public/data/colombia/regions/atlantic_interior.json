@@ -1,0 +1,423 @@
+{
+  "id": "atlantic_interior",
+  "name": "Atlantic Interior",
+  "nameIt": "Interior Atlántico",
+  "capital": "Barranquilla",
+  "lat": 10.9639,
+  "lng": -74.7963,
+  "emoji": "🌾",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 11.5,
+    "south": 9.5,
+    "east": -73,
+    "west": -76
+  },
+  "history": "The Atlantic Interior region of Colombia has deep roots in indigenous and colonial history, shaped by the Magdalena River valley which served as a vital artery for trade and settlement since pre-Columbian times. During the Spanish colonial period, this area became strategically important for agriculture and commerce, with towns developing along river routes that connected to the Caribbean coast. The region experienced significant growth in the 19th and 20th centuries as modernization brought infrastructure development, though it remained less densely populated than coastal areas. Today, the Atlantic Interior reflects this layered past through its mix of colonial architecture, indigenous heritage, and agricultural traditions that continue to define local life.",
+  "culturalNotes": "The Atlantic Interior is characterized by a blend of Afro-Caribbean, indigenous, and mestizo influences that create a distinctive cultural identity centered on music, river traditions, and agricultural festivals. The region maintains strong oral storytelling traditions and celebrates local patron saints with processions and community gatherings that reflect deep Catholic roots mixed with African and indigenous spiritual practices. What sets this area apart is its intimate connection to the Magdalena River and agricultural cycles, which have historically shaped settlement patterns, work rhythms, and social bonds among communities.",
+  "bestTimeToVisit": "Visit December to March for warm, dry weather ideal for exploring colonial towns.",
+  "languageNotes": "Spanish is the primary language, spoken with a Caribbean coastal accent that differs slightly from interior Colombian Spanish, featuring softer consonants and distinctive intonation patterns. Useful local expressions include 'parcero' for friend or buddy, 'que vea' as a casual greeting meaning 'let me see you,' and 'culillo' referring to someone from the coast, reflecting the region's friendly and informal communication style.",
+  "generatedAt": "2026-07-23T09:36:44.935Z",
+  "placeCount": 2,
+  "places": [
+    {
+      "id": "isla_grande",
+      "name": "Isla Grande",
+      "nameIt": "Isla Grande",
+      "lat": 10.1333,
+      "lng": -75.65,
+      "type": "ISLAND",
+      "description": "The largest island in the Rosario Islands archipelago offering all-inclusive resorts, private beaches, and water sports facilities. Ideal for those seeking a beach resort experience with easy access from Cartagena.",
+      "imageQueries": [
+        "Isla Grande Rosario Islands",
+        "Isla Grande resort beach"
+      ],
+      "activities": [
+        {
+          "id": "isla_1",
+          "text": "Snorkeling at Playa Blanca",
+          "detail": "Explore vibrant coral reefs and tropical fish in the shallow, crystal-clear waters off the island's western beach.",
+          "lat": 10.1833,
+          "lng": -75.8167
+        },
+        {
+          "id": "isla_2",
+          "text": "Rosario Islands boat tour",
+          "detail": "Take a guided speedboat excursion to nearby cays like Pelicano and Grande for pristine beach hopping and island exploration."
+        },
+        {
+          "id": "isla_3",
+          "text": "Scuba diving at local reefs",
+          "detail": "Certified divers can descend to coral formations and wreck sites teeming with rays, groupers, and sea turtles."
+        },
+        {
+          "id": "isla_4",
+          "text": "Beach resort water sports",
+          "detail": "Enjoy parasailing, jet skiing, and paddleboarding directly from your resort's private beach facilities."
+        },
+        {
+          "id": "isla_5",
+          "text": "Sunset walk along Playa Grande",
+          "detail": "Stroll the main beach at dusk to watch the Caribbean sky shift colors while local vendors sell fresh coconut water."
+        },
+        {
+          "id": "isla_6",
+          "text": "Visit Fuerte San Fernando de Bocachica",
+          "detail": "Explore the historic colonial fortress ruins on the southern tip of the island offering ocean views and Caribbean history.",
+          "lat": 10.175,
+          "lng": -75.825
+        },
+        {
+          "id": "isla_7",
+          "text": "Mangrove kayak exploration",
+          "detail": "Paddle through protected mangrove channels to spot herons, crabs, and observe the island's ecological nursery."
+        }
+      ],
+      "food": [
+        {
+          "id": "isla_f1",
+          "text": "Ceviche de camarones",
+          "detail": "Fresh local shrimp cured in lime juice with tomato, cilantro, and avocado served as a refreshing Caribbean appetizer."
+        },
+        {
+          "id": "isla_f2",
+          "text": "Arroz con coco",
+          "detail": "Coconut-infused rice cooked with seafood broth, a staple island side dish accompanying most main courses."
+        },
+        {
+          "id": "isla_f3",
+          "text": "Huachinango a la sal",
+          "detail": "Whole red snapper baked in a salt crust at beach restaurants, drizzled with lime and garlic oil."
+        },
+        {
+          "id": "isla_f4",
+          "text": "Ensalada de pulpo",
+          "detail": "Tender octopus salad with local citrus, red onion, and fresh herbs representing Cartagena's seafaring tradition."
+        },
+        {
+          "id": "isla_f5",
+          "text": "Fritos de maíz con queso",
+          "detail": "Deep-fried corn patties served with fresh local cheese, a casual beachside snack and street food favorite."
+        }
+      ],
+      "culture": [
+        {
+          "id": "isla_c1",
+          "text": "Island time operates on resort schedules",
+          "detail": "Activities and dining hours are set by your all-inclusive resort rather than local island time, so plan accordingly."
+        },
+        {
+          "id": "isla_c2",
+          "text": "Spanish is the primary language",
+          "detail": "English is spoken at resorts but learning basic Spanish phrases helps when interacting with local staff and vendors."
+        },
+        {
+          "id": "isla_c3",
+          "text": "Respect marine conservation zones",
+          "detail": "The Rosario Islands are a protected national park; do not touch coral, remove shells, or disturb wildlife during water activities."
+        },
+        {
+          "id": "isla_c4",
+          "text": "Dress modestly outside resort areas",
+          "detail": "While beach wear is normal at resorts, cover up respectfully when visiting the small local community or historic sites."
+        }
+      ]
+    },
+    {
+      "id": "guachaca",
+      "name": "Guachaca",
+      "nameIt": "Guachaca",
+      "lat": 11.4,
+      "lng": -74.25,
+      "type": "COASTAL",
+      "description": "Small fishing village between Santa Marta and Tayrona offering a more authentic Caribbean experience than tourist-heavy beaches. Known for fresh seafood, local hospitality, and access to nearby hiking and natural attractions.",
+      "imageQueries": [
+        "Guachaca Colombia fishing village",
+        "Guachaca beach"
+      ],
+      "activities": [
+        {
+          "id": "guac_1",
+          "text": "Beach Swimming and Sunbathing",
+          "detail": "Wade into the calm Caribbean waters directly from Guachaca's main beach, which offers safer conditions than nearby tourist beaches and a more local atmosphere.",
+          "lat": 11.3167,
+          "lng": -74.2333
+        },
+        {
+          "id": "guac_2",
+          "text": "Fishing Village Tour",
+          "detail": "Walk through the working harbor early morning to watch local fishermen prepare boats and nets, then visit the fish market to see the day's catch.",
+          "lat": 11.3167,
+          "lng": -74.2333
+        },
+        {
+          "id": "guac_3",
+          "text": "Tayrona National Park Day Trip",
+          "detail": "Hike to nearby Tayrona's beaches and jungle trails, accessible within 30 minutes by local transport, offering pristine nature with archaeological significance.",
+          "lat": 11.3817,
+          "lng": -74.1917
+        },
+        {
+          "id": "guac_4",
+          "text": "Rio Guachaca Waterfall Hike",
+          "detail": "Trek inland through tropical forest along the river to reach a freshwater waterfall pool ideal for swimming and cooling off.",
+          "lat": 11.315,
+          "lng": -74.24
+        },
+        {
+          "id": "guac_5",
+          "text": "Snorkeling at Nearby Reefs",
+          "detail": "Arrange boat trips with local fishermen to shallow coral reefs just offshore where you can see tropical fish and marine life in clear water.",
+          "lat": 11.3167,
+          "lng": -74.225
+        },
+        {
+          "id": "guac_6",
+          "text": "Sunset Walk Along the Beach",
+          "detail": "Stroll the shoreline at dusk when local families gather, fishermen return with boats, and the sky turns orange and pink over the Caribbean.",
+          "lat": 11.3167,
+          "lng": -74.2333
+        }
+      ],
+      "food": [
+        {
+          "id": "guac_f1",
+          "text": "Fresh Grilled Fish (Pargo or Mero)",
+          "detail": "Whole red snapper or grouper caught that morning, grilled over charcoal and served with lime, served at beachfront restaurants with rice and patacones."
+        },
+        {
+          "id": "guac_f2",
+          "text": "Ceviche de Camarones",
+          "detail": "Raw shrimp marinated in fresh lime juice with tomato, onion, and cilantro, a refreshing starter unique to coastal villages and best eaten within hours of preparation."
+        },
+        {
+          "id": "guac_f3",
+          "text": "Arroz con Coco y Camarones",
+          "detail": "Coconut rice cooked with fresh local shrimp, a signature Caribbean dish that balances creamy coconut with the sweetness of morning-caught seafood."
+        },
+        {
+          "id": "guac_f4",
+          "text": "Cazuela de Mariscos",
+          "detail": "Seafood stew combining whatever catch is freshest that day—often shrimp, fish, squid, and mussels—simmered in a savory tomato and coconut broth."
+        },
+        {
+          "id": "guac_f5",
+          "text": "Arepa con Queso",
+          "detail": "Warm cornmeal pockets stuffed with local white cheese, eaten at breakfast or as a snack from small family vendors throughout the village."
+        },
+        {
+          "id": "guac_f6",
+          "text": "Patacones",
+          "detail": "Twice-fried green plantain slices served crispy and salty as a side dish or street snack, a staple in every meal eaten alongside fresh seafood."
+        }
+      ],
+      "culture": [
+        {
+          "id": "guac_c1",
+          "text": "Greet with Personal Warmth",
+          "detail": "Locals value personal connection; taking time to exchange pleasantries and learn names before conducting business or ordering food is expected and appreciated."
+        },
+        {
+          "id": "guac_c2",
+          "text": "Respect Fishing Schedules",
+          "detail": "The village rhythm follows the tides and fish runs; early mornings and late afternoons are peak fishing times, so plan activities and meals around these natural cycles."
+        },
+        {
+          "id": "guac_c3",
+          "text": "Cash and Small Bills Essential",
+          "detail": "Most small restaurants, vendors, and boat operators work primarily in cash and may not have change for large bills, so bring Colombian pesos in small denominations."
+        },
+        {
+          "id": "guac_c4",
+          "text": "Spanish Helps Bridge Connection",
+          "detail": "Very few residents speak English; learning basic Spanish phrases and showing effort to communicate in the local language opens doors to authentic conversations and better service."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "La Cevichería",
+      "address": "Calle 32 No. 2-45, Barranquilla",
+      "neighbourhood": "El Prado",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Iconic coastal seafood restaurant serving the region's finest ceviches and fresh fish preparations with a sophisticated atmosphere.",
+      "mustOrder": "Ceviche de corvina",
+      "lat": 10.9895,
+      "lng": -74.7971
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Comedor de Pueblos",
+      "address": "Calle 84 No. 51-63, Barranquilla",
+      "neighbourhood": "Riomar",
+      "cuisine": "Colombian Regional",
+      "priceRange": "€€",
+      "description": "Unpretentious family-run kitchen celebrating traditional Atlantic coast cuisine with generous portions and authentic flavors.",
+      "mustOrder": "Arroz con camarones",
+      "lat": 10.9654,
+      "lng": -74.8012
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Gaira Café",
+      "address": "Carrera 2 No. 1c-34, Santa Marta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Colombian Fusion",
+      "priceRange": "€€€",
+      "description": "Charming colonial-era restaurant blending Caribbean traditions with contemporary techniques in the heart of Santa Marta's old town.",
+      "mustOrder": "Pargo relleno de camarones",
+      "lat": 11.2404,
+      "lng": -74.2247
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "El Ranchón",
+      "address": "Avenida Principal, Riohacha",
+      "neighbourhood": "Centro",
+      "cuisine": "Seafood & Grilled",
+      "priceRange": "€€",
+      "description": "Casual beachfront spot known for grilled fish and shellfish with views over the Caribbean and relaxed Wayuu-influenced atmosphere.",
+      "mustOrder": "Mero a la parrilla",
+      "lat": 11.5447,
+      "lng": -72.9194
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Restaurante Donde Martina",
+      "address": "Calle 35 No. 43-29, Barranquilla",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian Home Cooking",
+      "priceRange": "€",
+      "description": "No-frills family establishment serving authentic coast comida criolla that locals queue for at lunch, incredibly affordable.",
+      "mustOrder": "Sancocho de costilla",
+      "lat": 10.9906,
+      "lng": -74.7956
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Frutos de la Pasión",
+      "address": "Calle 2 No. 3-120, Taganga",
+      "neighbourhood": "Taganga",
+      "cuisine": "Seafood & Vegetarian",
+      "priceRange": "€€",
+      "description": "Beachfront village gem offering fresh caught fish, tropical fruit dishes, and strong vegetarian options with hammock seating.",
+      "mustOrder": "Ceviche mixto with passion fruit",
+      "lat": 11.2751,
+      "lng": -74.1765
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Abaco Restaurante",
+      "address": "Calle 82 No. 52-67, Barranquilla",
+      "neighbourhood": "Riomar",
+      "cuisine": "Contemporary Caribbean",
+      "priceRange": "€€€€",
+      "description": "Upscale dining destination featuring innovative takes on Atlantic coast ingredients with refined plating and extensive wine selection.",
+      "mustOrder": "Langosta a la mantequilla de coco",
+      "lat": 10.9658,
+      "lng": -74.8034
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Casa Vieja",
+      "address": "Carrera 5 No. 19-24, Santa Marta",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "International & Seafood",
+      "priceRange": "€€€",
+      "description": "Restored colonial mansion housing an elegant restaurant with a courtyard garden, blending Caribbean and international cuisine.",
+      "mustOrder": "Ensalada de pulpo",
+      "lat": 11.2399,
+      "lng": -74.2254
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "El Meridiano",
+      "address": "Avenida 1E No. 14-53, Riohacha",
+      "neighbourhood": "Waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Straightforward seafood restaurant on the malecón offering grilled fish and shrimp caught that morning at unbeatable prices.",
+      "mustOrder": "Camarones al ajillo",
+      "lat": 11.5467,
+      "lng": -72.9157
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Peschería San Felipe",
+      "address": "Calle 36 No. 2-56, Barranquilla",
+      "neighbourhood": "Bocagrande",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Fish market-restaurant hybrid where you select your catch and have it prepared simply grilled, incredibly fresh and honest.",
+      "mustOrder": "Pargo entero a la parrilla",
+      "lat": 10.9878,
+      "lng": -74.7849
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Sorela Cocina de Humo",
+      "address": "Calle 1 No. 2-78, Dibulla",
+      "neighbourhood": "Centro",
+      "cuisine": "Regional Caribbean",
+      "priceRange": "€€",
+      "description": "Intimate restaurant celebrating Guajira region cooking with smoked fish, traditional arepas, and Wayuu-inspired preparations.",
+      "mustOrder": "Mojarra ahumada",
+      "lat": 11.3047,
+      "lng": -73.4231
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "La Mesa Redonda",
+      "address": "Carrera 4 No. 2-32, Tayrona",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian Creole",
+      "priceRange": "€",
+      "description": "Simple village eatery in gateway town serving hearty stews, rice plates, and fresh tropical juices to travelers heading to the park.",
+      "mustOrder": "Rondón de mariscos",
+      "lat": 11.3058,
+      "lng": -74.1433
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Ostras y Vinos",
+      "address": "Calle 83 No. 53-12, Barranquilla",
+      "neighbourhood": "Riomar",
+      "cuisine": "Seafood & Wine Bar",
+      "priceRange": "€€€",
+      "description": "Upmarket oyster bar and wine lounge featuring Caribbean shellfish, Spanish jamón, and curated wine pairings in a sophisticated setting.",
+      "mustOrder": "Ostras frescas with mignonette",
+      "lat": 10.9651,
+      "lng": -74.8047
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Balú Cocina de Mar",
+      "address": "Calle 22 No. 3c-31, Santa Marta",
+      "neighbourhood": "Centro Turístico",
+      "cuisine": "Modern Seafood",
+      "priceRange": "€€€",
+      "description": "Contemporary beachfront restaurant showcasing daily catch with Asian-inspired flavors and craft cocktails overlooking the Caribbean.",
+      "mustOrder": "Dorado en salsa de maracuyá",
+      "lat": 11.2364,
+      "lng": -74.2157
+    }
+  ]
+}

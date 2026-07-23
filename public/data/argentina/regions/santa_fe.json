@@ -1,0 +1,1257 @@
+{
+  "id": "santa_fe",
+  "name": "Santa Fe",
+  "nameIt": "Santa Fe",
+  "capital": "Santa Fe",
+  "lat": -31.6109,
+  "lng": -60.7086,
+  "emoji": "🚢",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": -29,
+    "south": -34.5,
+    "east": -59,
+    "west": -63
+  },
+  "history": "Santa Fe was founded in 1573 as a strategic settlement along the Paraná River, serving as an important colonial outpost for Spain in the region. The city became a crucial center for trade and administration during the colonial period, connecting inland territories with Atlantic shipping routes. In the 19th century, Santa Fe played a vital role in Argentine history, hosting the Constitutional Convention of 1853 where the Argentine Constitution was drafted. The province developed significantly through agricultural production, particularly grain cultivation, which transformed it into one of Argentina's most economically important regions.",
+  "culturalNotes": "Santa Fe is known for its strong gaucho heritage and agricultural traditions that remain central to regional identity and local celebrations. The province is characterized by its commitment to education and progressive politics, having produced numerous important intellectuals and political figures throughout Argentine history. The Paraná River defines much of Santa Fe's character, influencing its cuisine, commerce, and the lifestyle of its residents who maintain deep connections to the waterways and fertile plains.",
+  "bestTimeToVisit": "March to May and September to November offer pleasant weather for exploring river cities and Paraná Delta.",
+  "languageNotes": "The local Spanish dialect reflects typical Argentine Spanish with characteristic porteño influences, featuring the distinctive 'll' and 'y' pronunciation as 'sh'. Useful phrases include 'che' as a casual form of address, 'quilombo' to describe a chaotic situation, and 'boludo' as a familiar term among friends.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "santa_fe_capital",
+      "name": "Santa Fe",
+      "nameIt": "Santa Fe",
+      "lat": -31.6109,
+      "lng": -60.6837,
+      "type": "CITY",
+      "description": "The capital city of Santa Fe province, featuring a well-preserved historic center with colonial and neoclassical architecture. It's the cultural heart of the region with museums, churches, and a vibrant waterfront along the Paraná River.",
+      "imageQueries": [
+        "Santa Fe city historic center",
+        "Santa Fe Cathedral Argentina"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Basilica Catedral Metropolitana",
+          "detail": "This stunning neoclassical cathedral dominates the main plaza with its grand facade and houses important religious art and reliquaries.",
+          "lat": -31.6349,
+          "lng": -60.6997
+        },
+        {
+          "id": "sant_2",
+          "text": "Museo Provincial de Bellas Artes Rosa Galisteo de Rodríguez",
+          "detail": "An art museum showcasing Argentine paintings, sculptures, and contemporary works in a beautifully restored colonial building.",
+          "lat": -31.633,
+          "lng": -60.701
+        },
+        {
+          "id": "sant_3",
+          "text": "Paseo Ribereño along the Paraná River",
+          "detail": "A scenic waterfront promenade perfect for walking, jogging, or enjoying sunset views over Argentina's second-largest river.",
+          "lat": -31.638,
+          "lng": -60.685
+        },
+        {
+          "id": "sant_4",
+          "text": "Convento de San Francisco",
+          "detail": "A historic 17th-century Franciscan monastery featuring colonial architecture and a peaceful cloister with religious artworks.",
+          "lat": -31.6355,
+          "lng": -60.7025
+        },
+        {
+          "id": "sant_5",
+          "text": "Teatro Municipal",
+          "detail": "An elegant belle époque theater hosting theatrical performances, concerts, and cultural events throughout the year.",
+          "lat": -31.6372,
+          "lng": -60.7015
+        },
+        {
+          "id": "sant_6",
+          "text": "Plaza 25 de Mayo",
+          "detail": "The historic main square surrounded by colonial architecture, government buildings, and the cathedral, ideal for people-watching and photography.",
+          "lat": -31.6349,
+          "lng": -60.6997
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Chipa",
+          "detail": "A traditional Misiones-region cheese bread made with corn flour and fresh cheese, often eaten for breakfast or as a street snack."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled surubí fish from the Paraná River, typically seasoned simply and served with lemon and local vegetables."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Empanadas Santafesinas",
+          "detail": "Local meat-filled pastries with a distinctive regional flavor, often featuring ground beef and hard-boiled egg."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Milanesa de Carne",
+          "detail": "A thin breaded and fried beef cutlet, a staple Argentine dish served with fresh lime and often accompanied by salad."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Tarta de Calabaza",
+          "detail": "A savory squash pie with cheese and spices that reflects local agricultural traditions and indigenous influences."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Siesta Culture",
+          "detail": "Many shops and businesses close between 12:30 PM and 4:00 PM for lunch and rest; plan activities accordingly and embrace the relaxed pace."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Mate Drinking Etiquette",
+          "detail": "When offered mate, accept graciously, drink it all, and pass the gourd to the next person in a circle; refusing is considered impolite."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Religious Observance",
+          "detail": "Santa Fe maintains strong Catholic traditions; dress respectfully when visiting churches and avoid loud behavior in religious spaces."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Spanish Language",
+          "detail": "While English is spoken in some tourist areas, speaking basic Spanish or attempting to communicate in Spanish is greatly appreciated by locals."
+        }
+      ]
+    },
+    {
+      "id": "rosario",
+      "name": "Rosario",
+      "nameIt": "Rosario",
+      "lat": -32.9442,
+      "lng": -60.6492,
+      "type": "CITY",
+      "description": "Argentina's third-largest city and a major cultural hub known for its avant-garde museums, music scene, and impressive Paraná River waterfront. Rosario offers excellent restaurants, galleries, and a youthful atmosphere distinct from Buenos Aires.",
+      "imageQueries": [
+        "Rosario Argentina waterfront",
+        "Rosario city skyline Paraná"
+      ],
+      "activities": [
+        {
+          "id": "rosa_1",
+          "text": "Museo de Arte Contemporáneo de Rosario",
+          "detail": "A cutting-edge contemporary art museum housed in a restored grain silo on the waterfront, featuring rotating exhibitions of avant-garde works and installations.",
+          "lat": -32.9387,
+          "lng": -60.6511
+        },
+        {
+          "id": "rosa_2",
+          "text": "Paseo de la Costa",
+          "detail": "A scenic waterfront promenade along the Paraná River with parks, plazas, and river views ideal for walking, cycling, or watching sunset.",
+          "lat": -32.9432,
+          "lng": -60.6453
+        },
+        {
+          "id": "rosa_3",
+          "text": "Monumento a la Bandera",
+          "detail": "An iconic 70-meter tower and memorial complex dedicated to the Argentine flag, offering panoramic city and river views from the observation deck.",
+          "lat": -32.9458,
+          "lng": -60.6611
+        },
+        {
+          "id": "rosa_4",
+          "text": "Museo Castagnino + Macro",
+          "detail": "Two interconnected museums showcasing Argentine and Latin American modern and contemporary art in a Belle Époque palace in the city center.",
+          "lat": -32.9505,
+          "lng": -60.6554
+        },
+        {
+          "id": "rosa_5",
+          "text": "Barrio Refinería Live Music Scene",
+          "detail": "A historic bohemian neighborhood packed with intimate music venues, bars, and cafés that hosts live rock, folk, and electronic performances nightly.",
+          "lat": -32.9612,
+          "lng": -60.6489
+        },
+        {
+          "id": "rosa_6",
+          "text": "Plaza 25 de Mayo",
+          "detail": "The city's central plaza surrounded by colonial architecture, shops, and cafés, serving as the social and commercial heart of downtown Rosario."
+        },
+        {
+          "id": "rosa_7",
+          "text": "Isla del Vino",
+          "detail": "A river island venue featuring wine tastings, local restaurants, and cultural events accessible by boat from the city center."
+        }
+      ],
+      "food": [
+        {
+          "id": "rosa_f1",
+          "text": "Chivito",
+          "detail": "A hearty Uruguayan-influenced sandwich stacked with grilled beef, ham, bacon, cheese, and fried egg served on toasted bread—a Rosario staple."
+        },
+        {
+          "id": "rosa_f2",
+          "text": "Milanesa de Ternera",
+          "detail": "Thin, breaded and fried veal cutlet served with lemon and often accompanied by fries or rice, a classic Argentine comfort food."
+        },
+        {
+          "id": "rosa_f3",
+          "text": "Empanadas de Carne",
+          "detail": "Hand-held pastries filled with seasoned ground beef and onions, baked or fried and sold at street stalls and traditional bakeries throughout the city."
+        },
+        {
+          "id": "rosa_f4",
+          "text": "Matambre a la Pizzaiola",
+          "detail": "Thin-cut flank steak cooked in a tomato-based sauce with oregano and served with grilled onions, a regional preparation popular in Rosario."
+        },
+        {
+          "id": "rosa_f5",
+          "text": "Medialunas with Café",
+          "detail": "Sweet, croissant-like pastries best enjoyed with espresso or café con leche at a local café, part of the daily Argentine breakfast ritual."
+        },
+        {
+          "id": "rosa_f6",
+          "text": "Asado Experience",
+          "detail": "A traditional grilled meat gathering featuring chorizo, ribs, and beef cooked over an open fire, essential to understanding local social culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rosa_c1",
+          "text": "Embrace the Night Culture",
+          "detail": "Rosario's restaurants and venues rarely open before 9 PM; dinner typically happens between 9 and 11 PM, and nightlife continues past midnight."
+        },
+        {
+          "id": "rosa_c2",
+          "text": "Music and Arts Are Paramount",
+          "detail": "The city takes pride in its live music scene and artistic identity—attending a show or gallery opening is a quintessential Rosario experience."
+        },
+        {
+          "id": "rosa_c3",
+          "text": "Use Mate as Social Currency",
+          "detail": "Sharing mate (a traditional herbal tea) is a common social ritual; if offered, accept it graciously and return the gourd to the person who served you."
+        },
+        {
+          "id": "rosa_c4",
+          "text": "Spanish and Porteño Accent",
+          "detail": "While Spanish is the language, Rosario residents speak with a distinct accent influenced by Italian immigration and the Paraná River region's heritage."
+        }
+      ]
+    },
+    {
+      "id": "parana_river",
+      "name": "Paraná River Waterfront",
+      "nameIt": "Costanera del Paraná",
+      "lat": -31.625,
+      "lng": -60.675,
+      "type": "NATURE",
+      "description": "The magnificent river that defines Santa Fe's geography, offering scenic walks, water activities, and outdoor dining opportunities. The Costanera is perfect for understanding the region's connection to the Paraná and enjoying sunsets.",
+      "imageQueries": [
+        "Paraná River Santa Fe",
+        "Costanera waterfront sunset"
+      ],
+      "activities": [
+        {
+          "id": "para_1",
+          "text": "Sunset walks along the promenade",
+          "detail": "Stroll the tree-lined Costanera path stretching several kilometers along the river, especially popular in late afternoon when the sky turns orange over the water.",
+          "lat": -31.6395,
+          "lng": -60.7081
+        },
+        {
+          "id": "para_2",
+          "text": "Kayaking and water sports",
+          "detail": "Rent kayaks or paddleboards from local outfitters to explore the river up close and reach small islands and coves along the waterfront.",
+          "lat": -31.638,
+          "lng": -60.707
+        },
+        {
+          "id": "para_3",
+          "text": "Visit Parque España",
+          "detail": "Explore this riverside park featuring gardens, monuments, and open spaces perfect for picnicking while overlooking the Paraná.",
+          "lat": -31.642,
+          "lng": -60.709
+        },
+        {
+          "id": "para_4",
+          "text": "Fishing from the dock areas",
+          "detail": "Cast a line from designated fishing spots to catch dorado, surubí, and other species native to the Paraná River.",
+          "lat": -31.64,
+          "lng": -60.7075
+        },
+        {
+          "id": "para_5",
+          "text": "Outdoor dining at riverside restaurants",
+          "detail": "Enjoy meals at terrace restaurants lining the Costanera with direct river views and fresh local fish preparations."
+        },
+        {
+          "id": "para_6",
+          "text": "Photography at dawn and dusk",
+          "detail": "Capture the river's changing light, bird populations, and atmospheric conditions that make the Costanera particularly photogenic during golden hours."
+        }
+      ],
+      "food": [
+        {
+          "id": "para_f1",
+          "text": "Dorado a la parrilla",
+          "detail": "Grilled dorado fish from the Paraná, typically seasoned simply with lemon and served whole, showcasing the river's prized catch."
+        },
+        {
+          "id": "para_f2",
+          "text": "Surubí con chimichurri",
+          "detail": "Large river catfish prepared grilled or pan-seared and finished with traditional Argentine chimichurri sauce."
+        },
+        {
+          "id": "para_f3",
+          "text": "Milanesa de boga",
+          "detail": "Thin-sliced, breaded and fried boga (a local river fish), served with wedges of lemon and often accompanied by salads."
+        },
+        {
+          "id": "para_f4",
+          "text": "Chupín de pescado",
+          "detail": "A hearty Paraná River fish stew with mixed river fish, potatoes, and tomato-based broth reflecting regional riverside cooking traditions."
+        },
+        {
+          "id": "para_f5",
+          "text": "Parrillada mixta riverside",
+          "detail": "Mixed grilled meats and fish served at waterfront asados, combining beef with fresh river fish for an Argentine-Santafesino experience."
+        }
+      ],
+      "culture": [
+        {
+          "id": "para_c1",
+          "text": "Timing for river breezes",
+          "detail": "Visit the Costanera during late afternoon when the river wind picks up, cooling the area and creating the most pleasant conditions for walking and dining."
+        },
+        {
+          "id": "para_c2",
+          "text": "Respect fishing zones",
+          "detail": "Observe marked areas and local regulations around fishing spots, as some sections are reserved for specific activities and times of day."
+        },
+        {
+          "id": "para_c3",
+          "text": "Sunday family tradition",
+          "detail": "The Costanera fills with families on Sunday afternoons for paseos (leisurely walks) and outdoor meals, so expect crowds and lively atmosphere during this time."
+        },
+        {
+          "id": "para_c4",
+          "text": "River level awareness",
+          "detail": "The Paraná's water level fluctuates seasonally; ask locals about current conditions as high water may affect access to certain areas or change the waterfront's appearance."
+        }
+      ]
+    },
+    {
+      "id": "cayasta",
+      "name": "Cayastá",
+      "nameIt": "Cayastá",
+      "lat": -31.7378,
+      "lng": -60.5289,
+      "type": "TOWN",
+      "description": "A charming small town 80km north of Santa Fe, famous for its archaeological remains of the original city of Santa Fe founded in 1573. The site includes a museum and reconstructed colonial buildings set on the banks of the Paraná.",
+      "imageQueries": [
+        "Cayastá archaeological site",
+        "Cayastá Santa Fe original city"
+      ],
+      "activities": [
+        {
+          "id": "caya_1",
+          "text": "Museo Provincial de Cayastá",
+          "detail": "Explore artifacts from the original 1573 settlement including pottery, tools, and colonial documents that reveal the city's early history.",
+          "lat": -30.9667,
+          "lng": -60.7333
+        },
+        {
+          "id": "caya_2",
+          "text": "Ruinas de Santa Fe la Vieja",
+          "detail": "Walk through the reconstructed foundations and colonial buildings of the first Santa Fe, laid out according to the original 16th-century grid plan on the Paraná riverbank.",
+          "lat": -30.9667,
+          "lng": -60.7333
+        },
+        {
+          "id": "caya_3",
+          "text": "Paraná Riverside Stroll",
+          "detail": "Take a leisurely walk along the banks of the Paraná River where the town sits, offering views of the water and local bird life."
+        },
+        {
+          "id": "caya_4",
+          "text": "Igreja de Nuestra Señora del Rosario Reconstruction",
+          "detail": "Visit the replica of the colonial church that once stood in the original settlement, rebuilt near the archaeological site.",
+          "lat": -30.9667,
+          "lng": -60.7333
+        },
+        {
+          "id": "caya_5",
+          "text": "Archaeological Excavation Site",
+          "detail": "Observe ongoing or completed excavation areas that reveal layers of the 16th and 17th-century colonial occupation."
+        },
+        {
+          "id": "caya_6",
+          "text": "Local Artisan Workshops",
+          "detail": "Browse handmade crafts by local artisans who create reproductions and colonial-inspired goods in small studios around town."
+        }
+      ],
+      "food": [
+        {
+          "id": "caya_f1",
+          "text": "Chipa",
+          "detail": "A traditional Misiones-influenced cheese bread baked in wood ovens, often eaten warm as a snack or with yerba mate."
+        },
+        {
+          "id": "caya_f2",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled surubí, a large Paraná River fish caught locally, typically prepared simply with lemon and served with fresh vegetables."
+        },
+        {
+          "id": "caya_f3",
+          "text": "Empanadas Santafesinas",
+          "detail": "Stuffed pastries filled with ground meat, hard-boiled egg, and olives, reflecting the colonial Spanish heritage of the region."
+        },
+        {
+          "id": "caya_f4",
+          "text": "Locro de Olleta",
+          "detail": "A hearty stew of corn, beans, and slow-cooked meat traditionally eaten during autumn and winter months in northern Argentina."
+        },
+        {
+          "id": "caya_f5",
+          "text": "Mate and Tostadas",
+          "detail": "Experience the social ritual of sharing yerba mate with tostadas (toasted bread), a daily custom among locals and visitors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "caya_c1",
+          "text": "Dress for the Heat and Sun",
+          "detail": "Cayastá is hot and humid; bring light clothing, a hat, and high SPF sunscreen, especially when visiting the open archaeological site."
+        },
+        {
+          "id": "caya_c2",
+          "text": "Spanish Colonial Context",
+          "detail": "Understanding the 1573 founding and Spanish conquest history enriches the experience; locals appreciate visitors who show genuine interest in the site's significance."
+        },
+        {
+          "id": "caya_c3",
+          "text": "Guided Tours Enhance Understanding",
+          "detail": "Hire a local guide at the museum to better interpret the ruins and artifacts, as many details are not obvious to untrained eyes."
+        },
+        {
+          "id": "caya_c4",
+          "text": "Respect Archaeological Areas",
+          "detail": "Stay on marked paths and do not touch or remove artifacts; the site is a protected heritage area and ongoing research location."
+        }
+      ]
+    },
+    {
+      "id": "santo_tome",
+      "name": "Santo Tomé",
+      "nameIt": "Santo Tomé",
+      "lat": -32.7333,
+      "lng": -60.8167,
+      "type": "TOWN",
+      "description": "A riverside town across from Corrientes province, known for its pleasant waterfront and proximity to the Paraná Delta. It serves as a gateway to the delta islands and offers relaxed Mesopotamian culture.",
+      "imageQueries": [
+        "Santo Tomé Santa Fe waterfront",
+        "Santo Tomé Paraná River"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Paseo de la Costa",
+          "detail": "Walk along Santo Tomé's riverside promenade with views of the Paraná River and the hills of Corrientes across the water.",
+          "lat": -32.3667,
+          "lng": -60.7333
+        },
+        {
+          "id": "sant_2",
+          "text": "Delta Island Tours",
+          "detail": "Take a boat excursion into the nearby Paraná Delta to see wildlife, traditional island homes, and narrow waterways lined with vegetation.",
+          "lat": -32.3667,
+          "lng": -60.7333
+        },
+        {
+          "id": "sant_3",
+          "text": "Balneario Municipal",
+          "detail": "Visit the town's public beach area along the Paraná River for swimming and relaxation during warmer months."
+        },
+        {
+          "id": "sant_4",
+          "text": "Iglesia Parroquial Santo Tomé",
+          "detail": "Explore the modest but historic parish church that serves as the spiritual center of this traditional river town.",
+          "lat": -32.3675,
+          "lng": -60.7325
+        },
+        {
+          "id": "sant_5",
+          "text": "Fish at the Paraná",
+          "detail": "Try your hand at fishing from the riverbank or book a local fishing charter for dorado, surubí, and other Mesopotamian river species.",
+          "lat": -32.3667,
+          "lng": -60.7333
+        },
+        {
+          "id": "sant_6",
+          "text": "Local Markets",
+          "detail": "Browse the weekend markets for fresh produce, regional handicrafts, and artisan goods from delta producers."
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled surubí, a large river catfish abundant in the Paraná, seasoned simply and cooked over charcoal at riverside parrillas."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Dorado Frito",
+          "detail": "Fresh-caught dorado fish fried whole or in fillets, a local specialty served at casual waterfront restaurants."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Empanadas de Queso y Cebolla",
+          "detail": "Baked or fried pastries stuffed with cheese and caramelized onions, a common Mesopotamian snack found at local bakeries."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Té de Tereré",
+          "detail": "Shared herbal tea served cold or warm with ice and herbs, a traditional Mesopotamian social ritual you'll see among locals."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Asado Entrerriano",
+          "detail": "Grilled meat including beef cuts and offal, prepared in the Entre Ríos tradition with chimichurri sauce and served family-style."
+        },
+        {
+          "id": "sant_f6",
+          "text": "Chipa",
+          "detail": "A traditional cheese and cornmeal bread typical of the Mesopotamia region, best enjoyed fresh from local bakeries early in the morning."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "River Culture Dominates",
+          "detail": "Life in Santo Tomé revolves around the Paraná River; expect a slower pace, strong fishing traditions, and water-based recreation as core to local identity."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Tereré is Social",
+          "detail": "If offered tereré or mate by locals, accept and participate respectfully—it's a gesture of friendship and community in Mesopotamian culture."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Siesta Hours Are Real",
+          "detail": "Many businesses close between 12 and 4 p.m. for lunch and rest; plan accordingly and embrace the relaxed afternoon rhythm."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Spanish with Regional Accent",
+          "detail": "Locals speak Spanish with a distinct Mesopotamian accent and occasionally use guaraní words; speak clearly and smile, as English is limited."
+        }
+      ]
+    },
+    {
+      "id": "santa_fe_museum",
+      "name": "Museum of Contemporary Art of Rosario",
+      "nameIt": "Museo de Arte Contemporáneo de Rosario",
+      "lat": -32.9408,
+      "lng": -60.6458,
+      "type": "LANDMARK",
+      "description": "One of Argentina's most important contemporary art museums, housed in a converted brick warehouse on the Rosario waterfront. It features rotating exhibitions of modern and contemporary works by Argentine and international artists.",
+      "imageQueries": [
+        "MACRO Rosario museum contemporary art",
+        "Museo Arte Contemporáneo Rosario"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Explore the Main Gallery",
+          "detail": "Walk through the museum's permanent and rotating contemporary art collections spanning Argentine and international works in the converted brick warehouse space."
+        },
+        {
+          "id": "sant_2",
+          "text": "Waterfront Stroll",
+          "detail": "Take a leisurely walk along the Rosario waterfront promenade adjacent to the museum, offering river views and access to other cultural venues.",
+          "lat": -32.9387,
+          "lng": -60.6549
+        },
+        {
+          "id": "sant_3",
+          "text": "Attend an Opening Reception",
+          "detail": "Check the museum's schedule for vernissage events when new exhibitions debut, featuring artist talks and local art community gatherings."
+        },
+        {
+          "id": "sant_4",
+          "text": "Visit the Museum Shop",
+          "detail": "Browse the curated selection of contemporary art books, exhibition catalogs, and locally designed items reflecting current exhibitions."
+        },
+        {
+          "id": "sant_5",
+          "text": "Photography Tour of Architecture",
+          "detail": "Photograph the striking industrial brick warehouse exterior and its modern interior conversion, exemplifying Rosario's adaptive reuse of heritage buildings.",
+          "lat": -32.9387,
+          "lng": -60.6549
+        },
+        {
+          "id": "sant_6",
+          "text": "Evening Museum Visit",
+          "detail": "Experience the galleries during extended evening hours when the converted warehouse takes on a different ambiance with gallery lighting."
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Milanesa a la Napolitana",
+          "detail": "A signature Rosario dish of breaded and fried meat topped with tomato sauce and melted cheese, widely available at restaurants near the waterfront."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Asado",
+          "detail": "Traditional Argentine grilled meat featuring beef, offal, and sausages, best experienced at riverside parrillas throughout the Rosario waterfront district."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Chivitos",
+          "detail": "Rosario's beloved street sandwich with thin-sliced meat, bacon, and chimichurri on crusty bread, sold at nearby cafés and casual eateries."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Medialunas",
+          "detail": "Sweet or savory crescent pastries typically enjoyed with café con leche for breakfast at local bakeries surrounding the museum area."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Café Culture",
+          "detail": "Spend time at the numerous cafés near the waterfront sipping cortado or espresso while watching the Paraná River, a essential Rosario social ritual."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Spanish Language for Museum Labels",
+          "detail": "Many exhibition texts are primarily in Spanish, so basic Spanish knowledge or translation apps enhance understanding of contemporary art context and artist statements."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Afternoon Siesta Timing",
+          "detail": "Plan your visit around typical Argentine afternoon siesta hours (roughly 1–4 PM) when some nearby restaurants close, though the museum remains open."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Art Community Engagement",
+          "detail": "Rosario is Argentina's second-largest art hub after Buenos Aires; locals are knowledgeable about contemporary art and appreciate genuine interest in exhibitions."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Dress Code Informality",
+          "detail": "Gallery openings and special events maintain casual Argentine dress standards; formal attire is unnecessary even for evening receptions."
+        }
+      ]
+    },
+    {
+      "id": "national_flag_monument",
+      "name": "National Flag Monument",
+      "nameIt": "Monumento a la Bandera",
+      "lat": -32.9461,
+      "lng": -60.6581,
+      "type": "LANDMARK",
+      "description": "An iconic 140-meter tower in Rosario overlooking the Paraná River, celebrating the birthplace of the Argentine flag. The monument offers panoramic views and is surrounded by plazas and museums dedicated to Argentine history.",
+      "imageQueries": [
+        "Monumento a la Bandera Rosario",
+        "National Flag Monument Argentina"
+      ],
+      "activities": [
+        {
+          "id": "nati_1",
+          "text": "Ascend the Monument Tower",
+          "detail": "Ride the elevator to the 140-meter observation deck for sweeping views of the Paraná River and Rosario's skyline.",
+          "lat": -32.9461,
+          "lng": -60.6533
+        },
+        {
+          "id": "nati_2",
+          "text": "Explore the Flag Museum (Museo de la Bandera)",
+          "detail": "Visit the museum within the monument complex to learn about the history and symbolism of the Argentine flag created by Manuel Belgrano.",
+          "lat": -32.9461,
+          "lng": -60.6533
+        },
+        {
+          "id": "nati_3",
+          "text": "Walk the Monument Plaza",
+          "detail": "Stroll through the expansive surrounding plazas with commemorative statues, gardens, and river-facing terraces perfect for reflection.",
+          "lat": -32.9461,
+          "lng": -60.6533
+        },
+        {
+          "id": "nati_4",
+          "text": "Visit the Independence Museum",
+          "detail": "Explore nearby museum displays focusing on Argentine independence and regional history connected to Rosario's pivotal role.",
+          "lat": -32.9455,
+          "lng": -60.654
+        },
+        {
+          "id": "nati_5",
+          "text": "Photograph at Sunset",
+          "detail": "Position yourself along the Paraná riverfront near the monument during golden hour for iconic sunset shots with the tower illuminated.",
+          "lat": -32.9461,
+          "lng": -60.6533
+        },
+        {
+          "id": "nati_6",
+          "text": "Riverfront Promenade Walk",
+          "detail": "Take a leisurely walk along the Paseo de la Costa, the waterfront boulevard adjacent to the monument offering riverside cafés and views."
+        }
+      ],
+      "food": [
+        {
+          "id": "nati_f1",
+          "text": "Milanesa with Ensalada Rusa",
+          "detail": "A crispy breaded meat cutlet served with Russian salad (potatoes, peas, and mayonnaise), a classic Argentine comfort meal found throughout Rosario."
+        },
+        {
+          "id": "nati_f2",
+          "text": "Chivito Sandwich",
+          "detail": "A hearty Uruguayan-influenced sandwich with grilled meat, bacon, cheese, and chimichurri popular in Rosario cafés near the monument."
+        },
+        {
+          "id": "nati_f3",
+          "text": "Medialunas with Café",
+          "detail": "Sweet croissant-like pastries best enjoyed fresh at a local panadería with Argentine coffee during early morning visits."
+        },
+        {
+          "id": "nati_f4",
+          "text": "Choripán",
+          "detail": "Grilled chorizo sausage on crusty bread with chimichurri sauce, a beloved street food available from vendors around the plaza."
+        },
+        {
+          "id": "nati_f5",
+          "text": "Empanadas Tucumanas",
+          "detail": "Baked pastries filled with spiced ground meat, onions, and hard-boiled egg, reflecting regional Argentine culinary traditions."
+        },
+        {
+          "id": "nati_f6",
+          "text": "Asado by the Paraná",
+          "detail": "Riverside restaurants near the monument serve traditional Argentine grilled meats with views of the river and sunset atmosphere."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nati_c1",
+          "text": "Patriotic Reverence for the Flag",
+          "detail": "Argentines hold deep historical pride in the flag's creation in Rosario; visit with respectful acknowledgment of this national significance and avoid casual behavior around the monument."
+        },
+        {
+          "id": "nati_c2",
+          "text": "Afternoon Peak Visiting Hours",
+          "detail": "Plan your visit for late afternoon when locals promenade and the monument is beautifully lit; the site gets crowded on weekends and Argentine national holidays."
+        },
+        {
+          "id": "nati_c3",
+          "text": "Spanish Language Consideration",
+          "detail": "While tourist areas have some English signage, learning basic Spanish phrases enhances interactions with museum staff and riverside café workers."
+        },
+        {
+          "id": "nati_c4",
+          "text": "Dress Code for Religious Respect",
+          "detail": "Though not a church, the monument holds patriotic-spiritual significance; dress modestly and avoid beachwear or overly casual attire as a sign of respect."
+        }
+      ]
+    },
+    {
+      "id": "parana_delta",
+      "name": "Paraná Delta",
+      "nameIt": "Delta del Paraná",
+      "lat": -33.8,
+      "lng": -59.4,
+      "type": "NATURE",
+      "description": "A vast wetland ecosystem of islands, waterways, and wildlife accessible from towns like Santo Tomé, offering boat tours and nature experiences. The delta is home to unique vegetation, birds, and traditional island communities.",
+      "imageQueries": [
+        "Paraná Delta islands",
+        "Delta del Paraná wetlands"
+      ],
+      "activities": [
+        {
+          "id": "para_1",
+          "text": "Boat Tours Through the Islands",
+          "detail": "Navigate narrow waterways between islands to observe native wildlife, floating vegetation, and traditional island homes guided by local operators.",
+          "lat": -32.9833,
+          "lng": -60.6833
+        },
+        {
+          "id": "para_2",
+          "text": "Bird Watching at Islet Reserves",
+          "detail": "Spot herons, egrets, kingfishers, and caiman in their natural habitat during guided excursions to protected areas within the delta.",
+          "lat": -32.9667,
+          "lng": -60.7167
+        },
+        {
+          "id": "para_3",
+          "text": "Visit Santo Tomé Port",
+          "detail": "Explore the gateway town's waterfront where boat tours depart and local fishermen sell fresh catch daily.",
+          "lat": -32.9833,
+          "lng": -60.6833
+        },
+        {
+          "id": "para_4",
+          "text": "Camping on Delta Islands",
+          "detail": "Stay overnight on private island camps accessible only by boat, offering immersion in the wetland ecosystem and night wildlife sounds.",
+          "lat": -33.0167,
+          "lng": -60.75
+        },
+        {
+          "id": "para_5",
+          "text": "Fish at Traditional Fishing Spots",
+          "detail": "Join local anglers to catch dorado, surubí, and other native fish species using traditional methods in quieter delta waterways.",
+          "lat": -32.95,
+          "lng": -60.7
+        },
+        {
+          "id": "para_6",
+          "text": "Explore Floating Gardens",
+          "detail": "Observe dense mats of water hyacinth, camalote, and native aquatic plants that form islands throughout the delta ecosystem."
+        },
+        {
+          "id": "para_7",
+          "text": "Photography Expeditions",
+          "detail": "Join guided photo tours during golden hour to capture sunset reflections, wildlife, and traditional island architecture in natural light."
+        }
+      ],
+      "food": [
+        {
+          "id": "para_f1",
+          "text": "Fresh Dorado Grilled",
+          "detail": "Local grilled dorado fish caught daily from delta waters, typically served with chimichurri and grilled bread at island restaurants."
+        },
+        {
+          "id": "para_f2",
+          "text": "Surubí Ceviche",
+          "detail": "Native catfish prepared as ceviche with citrus, onions, and peppers, reflecting the delta's fishing heritage and fresh catch tradition."
+        },
+        {
+          "id": "para_f3",
+          "text": "Tostadas with Islet Cheese",
+          "detail": "Crispy corn tostadas topped with locally-made cheese from island dairies, a staple snack sold at Santo Tomé markets."
+        },
+        {
+          "id": "para_f4",
+          "text": "Riverbank Asado",
+          "detail": "Traditional Argentine barbecue cooked over open fires on island shores, featuring beef and fresh fish caught that day."
+        },
+        {
+          "id": "para_f5",
+          "text": "Mate and Island Pastries",
+          "detail": "Shared mate circles accompanied by facturas and medialunas, the social ritual of islanders during morning and evening gatherings."
+        },
+        {
+          "id": "para_f6",
+          "text": "Stewed Fish Soup (Moqueca Delta)",
+          "detail": "Hearty local fish stew with vegetables and herbs from island gardens, traditionally prepared in cast iron over wood fires."
+        }
+      ],
+      "culture": [
+        {
+          "id": "para_c1",
+          "text": "Respect Island Privacy",
+          "detail": "Many delta residents value solitude and traditional lifestyles; always ask permission before photographing people or private dwellings on islands."
+        },
+        {
+          "id": "para_c2",
+          "text": "Learn Basic Boating Safety",
+          "detail": "The delta's waterways can be unpredictable with strong currents and narrow passages; always wear life jackets and hire licensed local guides."
+        },
+        {
+          "id": "para_c3",
+          "text": "Participate in Mate Ritual",
+          "detail": "Accept mate when offered by islanders as a sign of friendship; sip, return the gourd, and pass it clockwise in the traditional circle."
+        },
+        {
+          "id": "para_c4",
+          "text": "Support Local Boat Operators",
+          "detail": "Book tours directly with Santo Tomé-based families rather than large tour companies to ensure money stays within island communities."
+        }
+      ]
+    },
+    {
+      "id": "gualeguaychu",
+      "name": "Gualeguaychú",
+      "nameIt": "Gualeguaychú",
+      "lat": -33.3667,
+      "lng": -58.5333,
+      "type": "TOWN",
+      "description": "A charming colonial town in eastern Santa Fe known for its riverside setting and traditional architecture. It's famous for its Carnaval celebrations and makes for a pleasant day trip or stopover in the region.",
+      "imageQueries": [
+        "Gualeguaychú carnival",
+        "Gualeguaychú colonial town"
+      ],
+      "activities": [
+        {
+          "id": "gual_1",
+          "text": "Carnaval del País",
+          "detail": "Experience Argentina's most famous inland carnival celebration held in February with parades, costumes, music, and traditional comparsas dancing through the streets.",
+          "lat": -32.8697,
+          "lng": -58.5247
+        },
+        {
+          "id": "gual_2",
+          "text": "Paseo de la Costa",
+          "detail": "Stroll along this riverside promenade overlooking the Río Gualeguaychú with restored colonial buildings, local shops, and outdoor cafés.",
+          "lat": -32.8703,
+          "lng": -58.5289
+        },
+        {
+          "id": "gual_3",
+          "text": "Basilica Nuestra Señora del Rosario",
+          "detail": "Visit this elegant neoclassical church dating to the 19th century, featuring ornate interiors and a commanding presence in the town's main plaza.",
+          "lat": -32.8702,
+          "lng": -58.5254
+        },
+        {
+          "id": "gual_4",
+          "text": "Museo de la Ciudad",
+          "detail": "Explore local history and cultural artifacts displayed in a restored colonial mansion showcasing the region's heritage and indigenous influences.",
+          "lat": -32.8715,
+          "lng": -58.5267
+        },
+        {
+          "id": "gual_5",
+          "text": "Río Gualeguaychú Activities",
+          "detail": "Enjoy kayaking, fishing, or boat tours along the river to observe wildlife and experience the natural landscape that defines the region.",
+          "lat": -32.8703,
+          "lng": -58.5289
+        },
+        {
+          "id": "gual_6",
+          "text": "Plaza Dessalines",
+          "detail": "Relax in this central plaza surrounded by historic buildings, street vendors, and locals, perfect for observing daily town life."
+        }
+      ],
+      "food": [
+        {
+          "id": "gual_f1",
+          "text": "Chipá",
+          "detail": "A warm, cheese-filled bread made from corn flour and fresh cheese that's a quintessential Mesopotamian breakfast staple found in local bakeries."
+        },
+        {
+          "id": "gual_f2",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled river catfish, a regional specialty prepared simply with butter and lemon, reflecting the town's riverside fishing traditions."
+        },
+        {
+          "id": "gual_f3",
+          "text": "Empanadas Santafesinas",
+          "detail": "Baked pastries stuffed with meat, onions, and spices following Santa Fe's distinct preparation style, lighter than their counterparts from other provinces."
+        },
+        {
+          "id": "gual_f4",
+          "text": "Tereré",
+          "detail": "A refreshing cold drink of yerba mate served with ice water and herbs, the traditional communal beverage throughout the region."
+        },
+        {
+          "id": "gual_f5",
+          "text": "Dorado a la Parrilla",
+          "detail": "Grilled dorado fish from local rivers, typically served whole and considered a prized dish among fishing communities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gual_c1",
+          "text": "Carnaval Timing",
+          "detail": "Plan visits around February for the Carnaval celebrations, when the town transforms with parties and parades; outside this season expect a quieter colonial atmosphere."
+        },
+        {
+          "id": "gual_c2",
+          "text": "Yerba Mate Ritual",
+          "detail": "Accept offers of tereré or mate from locals as a gesture of friendship; sharing the communal cup is an important social custom in Santa Fe."
+        },
+        {
+          "id": "gual_c3",
+          "text": "Siesta Hours",
+          "detail": "Many shops and offices close between 12:00 PM and 4:00 PM for the traditional siesta; plan major activities for mornings or late afternoons."
+        },
+        {
+          "id": "gual_c4",
+          "text": "River Connection",
+          "detail": "The Río Gualeguaychú is central to local identity and economy; respect marked swimming areas and understand fishing restrictions if visiting during harvest seasons."
+        }
+      ]
+    },
+    {
+      "id": "arroyo_aguiar",
+      "name": "Arroyo Aguiar Regional Park",
+      "nameIt": "Parque Regional Arroyo Aguiar",
+      "lat": -32.1167,
+      "lng": -61.0667,
+      "type": "NATURE",
+      "description": "A protected natural area northwest of Santa Fe featuring wetlands, forests, and diverse wildlife. The park offers hiking trails and bird-watching opportunities in a peaceful, less-visited part of the province.",
+      "imageQueries": [
+        "Arroyo Aguiar park Santa Fe",
+        "Santa Fe nature reserve wetlands"
+      ],
+      "activities": [
+        {
+          "id": "arro_1",
+          "text": "Arroyo Aguiar Wetland Trail",
+          "detail": "Walk the marked hiking path through the park's extensive wetlands to observe water birds, capybaras, and aquatic vegetation in their natural habitat."
+        },
+        {
+          "id": "arro_2",
+          "text": "Bird-Watching at Dawn",
+          "detail": "Visit the park early morning when migratory and resident bird species are most active, including herons, ibises, and various waterfowl species."
+        },
+        {
+          "id": "arro_3",
+          "text": "Forest Canopy Walk",
+          "detail": "Explore the humid subtropical forest sections of the park where native trees provide shade and habitat for wildlife along secondary trails."
+        },
+        {
+          "id": "arro_4",
+          "text": "Lagoon Observation Point",
+          "detail": "Access designated viewpoints overlooking the park's lagoons where you can spot caimans, fish, and water birds without disturbing the ecosystem."
+        },
+        {
+          "id": "arro_5",
+          "text": "Photography and Nature Documentation",
+          "detail": "Bring cameras to capture the park's diverse landscapes, from open water to dense forest, during different seasons and lighting conditions."
+        },
+        {
+          "id": "arro_6",
+          "text": "Guided Naturalist Tours",
+          "detail": "Arrange interpretive walks with park rangers or local naturalists who explain the region's ecology, conservation efforts, and indigenous history."
+        }
+      ],
+      "food": [
+        {
+          "id": "arro_f1",
+          "text": "Locro Santafesino",
+          "detail": "A hearty regional stew made with corn, beans, squash, and local meat, reflecting the culinary traditions of inland Santa Fe province."
+        },
+        {
+          "id": "arro_f2",
+          "text": "Mbaiá",
+          "detail": "A traditional Guaraní-influenced dish made with corn flour and served in local restaurants near the park as a regional specialty."
+        },
+        {
+          "id": "arro_f3",
+          "text": "Fresh River Fish (Surubí or Dorado)",
+          "detail": "Grilled or pan-fried fish caught from the Paraná River basin, prepared simply with local seasonings at nearby rural estancias and lodges."
+        },
+        {
+          "id": "arro_f4",
+          "text": "Chipa",
+          "detail": "A savory cheese and cornmeal bread baked fresh daily in surrounding communities and sold at local markets near the park entrance."
+        },
+        {
+          "id": "arro_f5",
+          "text": "Té de Mate and Facturas",
+          "detail": "Experience the regional custom of sharing mate tea with medialunas (croissants) at simple cafés in nearby towns before or after park visits."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arro_c1",
+          "text": "Arrive Early and Come Prepared",
+          "detail": "The park has minimal facilities, so bring plenty of water, sun protection, and insect repellent, and plan to arrive at sunrise for best wildlife viewing."
+        },
+        {
+          "id": "arro_c2",
+          "text": "Respect Protected Areas",
+          "detail": "Stay on marked trails, do not touch or feed wildlife, and follow park rules strictly as this is a conservation area with sensitive ecosystems."
+        },
+        {
+          "id": "arro_c3",
+          "text": "Seasonal Timing Matters",
+          "detail": "Visit during the dry season (May to September) for easier trail access, or during spring migration (August to October) for peak bird-watching opportunities."
+        },
+        {
+          "id": "arro_c4",
+          "text": "Learn Basic Spanish",
+          "detail": "English is rarely spoken in this remote rural area, so basic Spanish phrases for directions and greetings will greatly enhance your experience with locals."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Chivería del Fondo",
+      "address": "Calle 9 de Julio 2108, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€",
+      "description": "Traditional parrilla specializing in high-quality beef and regional cuts cooked over wood fire.",
+      "mustOrder": "Costillas (ribs) with chimichurri",
+      "lat": -31.6349,
+      "lng": -60.7025
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Casa Almorzar",
+      "address": "Av. Gobernador Mariano Echagüe 1140, Santa Fe",
+      "neighbourhood": "San Martin",
+      "cuisine": "Contemporary Argentine",
+      "priceRange": "€€€",
+      "description": "Upscale dining featuring modern interpretations of traditional Santa Fe cuisine with seasonal ingredients.",
+      "mustOrder": "Surubí a la naranja (fish with orange sauce)",
+      "lat": -31.6289,
+      "lng": -60.7156
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "La Estancia",
+      "address": "Calle 3 de Febrero 1850, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€",
+      "description": "Family-run grill restaurant known for generous portions and authentic regional flavors.",
+      "mustOrder": "Bife de chorizo with roasted vegetables",
+      "lat": -31.6402,
+      "lng": -60.6945
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Barco Viejo",
+      "address": "Calle Amenábar 2860, Santa Fe",
+      "neighbourhood": "San Martín",
+      "cuisine": "Seafood & River Fish",
+      "priceRange": "€€€",
+      "description": "Riverside restaurant celebrated for fresh fish dishes and river specialties with views of the Paraná.",
+      "mustOrder": "Dorado a la sal (salt-crusted river fish)",
+      "lat": -31.6445,
+      "lng": -60.7089
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "El Quincho de Chiquita",
+      "address": "Av. Alem 2757, Santa Fe",
+      "neighbourhood": "San Martín",
+      "cuisine": "Argentine Barbecue",
+      "priceRange": "€€",
+      "description": "Casual, lively parrilla with excellent asados and a strong local following.",
+      "mustOrder": "Asado mixto (mixed grilled meats)",
+      "lat": -31.6421,
+      "lng": -60.7102
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Comedor Histórico",
+      "address": "Calle 25 de Mayo 2562, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Traditional Argentine",
+      "priceRange": "€",
+      "description": "No-frills, beloved local eatery serving classic Santa Fe dishes in an unpretentious setting.",
+      "mustOrder": "Milanesas con puré (breaded cutlets with mashed potatoes)",
+      "lat": -31.6378,
+      "lng": -60.6978
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Helsingfors",
+      "address": "Calle Maipú 1843, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "French-Argentine Fusion",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant blending French techniques with Argentine ingredients and local flavors.",
+      "mustOrder": "Salmon with Malbec reduction",
+      "lat": -31.6365,
+      "lng": -60.6892
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "La Trattoria",
+      "address": "Calle 9 de Julio 1567, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Long-standing Italian restaurant offering homemade pastas and classic Mediterranean dishes.",
+      "mustOrder": "Ñoquis a la bolognesa (gnocchi with Bolognese)",
+      "lat": -31.6328,
+      "lng": -60.6948
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Club Sirio",
+      "address": "Calle 25 de Mayo 2631, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Middle Eastern & Argentine",
+      "priceRange": "€€",
+      "description": "Historic social club restaurant serving excellent Middle Eastern fare alongside Argentine classics.",
+      "mustOrder": "Kafta (grilled meat skewers)",
+      "lat": -31.6385,
+      "lng": -60.7001
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Vuelta de Rocha",
+      "address": "Calle 1º de Mayo 2444, Santa Fe",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Argentine Regional",
+      "priceRange": "€€",
+      "description": "Charming restaurant dedicated to preserving traditional Santa Fe recipes and culinary heritage.",
+      "mustOrder": "Locro santafesino (regional stew)",
+      "lat": -31.6341,
+      "lng": -60.6915
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Casa Rosada",
+      "address": "Av. Aristóbulo del Valle 3020, Santa Fe",
+      "neighbourhood": "San Martín",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€€",
+      "description": "Upscale parrilla with refined ambiance, premium cuts, and an extensive wine selection.",
+      "mustOrder": "Tomahawk steak with chimichurri verde",
+      "lat": -31.6478,
+      "lng": -60.7234
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "El Porteño",
+      "address": "Calle Rivadavia 2145, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Buenos Aires-Style",
+      "priceRange": "€€",
+      "description": "Casual neighborhood spot bringing Buenos Aires culinary traditions to Santa Fe.",
+      "mustOrder": "Choripán with chimichurri",
+      "lat": -31.6351,
+      "lng": -60.6923
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Antiguo Almacén",
+      "address": "Calle 3 de Febrero 2356, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine Comfort Food",
+      "priceRange": "€",
+      "description": "Rustic, warmly decorated spot serving hearty traditional dishes in generous portions.",
+      "mustOrder": "Matambre a la pizza (rolled beef with toppings)",
+      "lat": -31.6413,
+      "lng": -60.6979
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Viejo Bote",
+      "address": "Av. Pueyrredón 1876, Santa Fe",
+      "neighbourhood": "Centro",
+      "cuisine": "Seafood & Pasta",
+      "priceRange": "€€€",
+      "description": "Elegant riverside restaurant known for fresh seafood and house-made pastas with river views.",
+      "mustOrder": "Calamar a la manteca (squid in butter sauce)",
+      "lat": -31.6367,
+      "lng": -60.7043
+    }
+  ]
+}

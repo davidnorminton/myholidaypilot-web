@@ -1,0 +1,1641 @@
+{
+  "id": "easter_island",
+  "name": "Easter Island",
+  "nameIt": "Isla de Pascua",
+  "capital": "Hanga Roa",
+  "lat": -27.1,
+  "lng": -109.4,
+  "emoji": "🗿",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": -26.8,
+    "south": -27.5,
+    "east": -109,
+    "west": -109.8
+  },
+  "history": "Easter Island, located in the southeastern Pacific Ocean roughly 2,300 kilometers from Chile's mainland, was settled by Polynesian voyagers around 400 to 1200 CE. The early Rapa Nui people developed a sophisticated society that created the iconic moai statues between approximately 1250 and 1500 CE, reflecting their spiritual beliefs and social hierarchies. The island experienced significant decline due to environmental degradation, resource depletion, and possibly internal conflict, leading to the abandonment of moai production and a shift in cultural practices. European contact began in 1722, followed by Peruvian slave raids in the 1860s and Chilean annexation in 1888.",
+  "culturalNotes": "Easter Island preserves one of the world's most unique Polynesian cultures, evident in its world-renowned moai monuments and the distinctive Rapa Nui language, music, and oral traditions. Traditional practices such as Tapati Rapa Nui, an annual festival celebrating local heritage through competitions and performances, remain central to community identity. The island's indigenous population has worked to revitalize cultural knowledge and maintain traditions despite centuries of external pressures and demographic challenges.",
+  "bestTimeToVisit": "Visit October to April for warm weather and dry conditions to explore the island's famous moai statues.",
+  "languageNotes": "The official language is Spanish, though Rapa Nui, the indigenous Polynesian language, is spoken by many locals and taught in schools as part of cultural preservation efforts. Useful phrases include 'Aloha' (hello), 'Mahalo' (thank you), and 'Pehé korua?' (How are you?).",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "hanga_roa",
+      "name": "Hanga Roa",
+      "nameIt": "Hanga Roa",
+      "lat": -27.1927,
+      "lng": -109.4465,
+      "type": "TOWN",
+      "description": "The main settlement and hub of Easter Island, home to most of the island's population and visitor infrastructure. It's where you'll find hotels, restaurants, shops and the starting point for exploring the island's archaeological sites.",
+      "imageQueries": [
+        "Hanga Roa Easter Island",
+        "Easter Island town main street"
+      ],
+      "activities": [
+        {
+          "id": "hang_1",
+          "text": "Ahu Akivi",
+          "detail": "Visit the only inland ahu complex on Easter Island, featuring seven restored ceremonial platforms aligned to the equinoxes, located just inland from Hanga Roa.",
+          "lat": -27.1248,
+          "lng": -109.4152
+        },
+        {
+          "id": "hang_2",
+          "text": "Anakena Beach",
+          "detail": "Explore the legendary landing site of Polynesian settlers with restored moai, white coral sand, and calm turquoise waters ideal for swimming, about 20 km north of town.",
+          "lat": -27.0476,
+          "lng": -109.2966
+        },
+        {
+          "id": "hang_3",
+          "text": "Rano Kau Crater",
+          "detail": "Hike to this volcanic crater rim overlooking the ocean and Motu Nui islets, where birdman ceremonies were historically held, with sweeping views of the south coast.",
+          "lat": -27.1897,
+          "lng": -109.3675
+        },
+        {
+          "id": "hang_4",
+          "text": "Puna Pau Moai Quarry",
+          "detail": "Tour the archaeological site where most of Easter Island's moai were carved from volcanic stone, with nearly 400 unfinished statues still visible in the rock.",
+          "lat": -27.1328,
+          "lng": -109.2957
+        },
+        {
+          "id": "hang_5",
+          "text": "DIBAM Museum",
+          "detail": "See the restored female moai Te Pito Te Kura and learn about Rapa Nui archaeology and culture through well-curated exhibits in Hanga Roa village.",
+          "lat": -27.165,
+          "lng": -109.4282
+        },
+        {
+          "id": "hang_6",
+          "text": "Sunset at Puna Pau",
+          "detail": "Watch the sun descend over the Pacific from the western cliffs where ancient ceremonial sites command panoramic ocean views, especially vivid during winter months."
+        },
+        {
+          "id": "hang_7",
+          "text": "Scuba Diving and Snorkeling",
+          "detail": "Explore underwater moai replicas, fish-filled reefs, and clear waters off Hanga Roa's coast through several local dive operators offering certification and guided tours.",
+          "lat": -27.1667,
+          "lng": -109.4267
+        }
+      ],
+      "food": [
+        {
+          "id": "hang_f1",
+          "text": "Umu",
+          "detail": "An earth oven-cooked feast of fish, chicken, and local vegetables wrapped in banana leaves, traditionally served at celebrations but available at several Hanga Roa restaurants."
+        },
+        {
+          "id": "hang_f2",
+          "text": "Tuna Ceviche",
+          "detail": "Fresh-caught yellowfin tuna marinated in lime juice, onion, and cilantro, reflecting the island's abundant seafood and Polynesian-influenced cuisine."
+        },
+        {
+          "id": "hang_f3",
+          "text": "Curanto",
+          "detail": "A Polynesian seafood stew combining fish, shellfish, and sometimes meat with coconut milk and local root vegetables, served in waterfront restaurants in Hanga Roa."
+        },
+        {
+          "id": "hang_f4",
+          "text": "Empanadas de Atún",
+          "detail": "Baked pastry turnovers filled with fresh tuna, onions, and spices, commonly sold as street food and in local bakeries throughout the town."
+        },
+        {
+          "id": "hang_f5",
+          "text": "Taro Root Dishes",
+          "detail": "Traditional Polynesian staple prepared boiled, mashed, or fried, representing the island's indigenous agriculture and available in local markets and family-run eateries."
+        },
+        {
+          "id": "hang_f6",
+          "text": "Fresh Mahi-mahi",
+          "detail": "Grilled or pan-seared local catch served in oceanfront restaurants with lime and local herbs, a reliable choice showcasing the day's freshest ingredients."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hang_c1",
+          "text": "Respect Ahu and Sacred Sites",
+          "detail": "Do not climb on or touch moai statues or ahu platforms, as they remain sacred to local Rapa Nui people; designated paths and visitor areas protect both the sites and the culture."
+        },
+        {
+          "id": "hang_c2",
+          "text": "Learn Basic Rapa Nui Phrases",
+          "detail": "Greet locals with 'Iorana' (hello) and say 'Maururu' (thank you), showing respect for the indigenous language and connecting more meaningfully with community members you meet."
+        },
+        {
+          "id": "hang_c3",
+          "text": "Visit During Tapati Rapa Nui Festival",
+          "detail": "Plan a visit for February when the island celebrates Rapa Nui culture with traditional competitions, music, dance, and ceremonies showcasing local identity and heritage."
+        },
+        {
+          "id": "hang_c4",
+          "text": "Purchase from Local Artisans",
+          "detail": "Buy moai replicas, tapa cloth, and crafts directly from Rapa Nui artists in Hanga Roa markets rather than chain shops, supporting indigenous families and preserving traditional craftsmanship."
+        }
+      ]
+    },
+    {
+      "id": "anakena_beach",
+      "name": "Anakena Beach",
+      "nameIt": "Anakena",
+      "lat": -27.0806,
+      "lng": -109.3092,
+      "type": "COASTAL",
+      "description": "The legendary landing place of Polynesian settlers and one of Easter Island's most beautiful beaches with golden sand and turquoise water. It features restored moai and is considered the birthplace of Rapa Nui culture.",
+      "imageQueries": [
+        "Anakena Beach Easter Island",
+        "Anakena moai beach"
+      ],
+      "activities": [
+        {
+          "id": "anak_1",
+          "text": "Explore Ahu Nau",
+          "detail": "Study the restored ceremonial platform with seven standing moai and a restored coral-stone structure representing one of Rapa Nui's most important archaeological sites.",
+          "lat": -27.0447,
+          "lng": -109.3105
+        },
+        {
+          "id": "anak_2",
+          "text": "Swimming and Sunbathing",
+          "detail": "Enjoy the rare combination of golden sand and calm turquoise waters that make this the island's most swimmable beach, protected by the reef offshore.",
+          "lat": -27.0453,
+          "lng": -109.3108
+        },
+        {
+          "id": "anak_3",
+          "text": "Visit Ahu Te Pito Te Kura",
+          "detail": "Walk to the nearby restored ahu platform featuring several moai and examine the distinctive coral-constructed ceremonial center.",
+          "lat": -27.0438,
+          "lng": -109.312
+        },
+        {
+          "id": "anak_4",
+          "text": "Snorkel Along the Reef",
+          "detail": "Discover native fish species and coral formations in the shallow waters just offshore from the beach.",
+          "lat": -27.0453,
+          "lng": -109.3115
+        },
+        {
+          "id": "anak_5",
+          "text": "Sunset Photography",
+          "detail": "Capture the moai silhouetted against the Pacific sunset, one of Easter Island's most iconic photographic moments.",
+          "lat": -27.045,
+          "lng": -109.31
+        },
+        {
+          "id": "anak_6",
+          "text": "Archaeological Museum Visit",
+          "detail": "Examine artifacts and interpretive displays explaining the settlement and cultural significance of Anakena in Rapa Nui history."
+        }
+      ],
+      "food": [
+        {
+          "id": "anak_f1",
+          "text": "Fresh Ahi Tuna (Ahi)",
+          "detail": "Sample locally caught yellowfin tuna prepared grilled or in ceviche, reflecting the island's strong fishing tradition and Pacific cuisine."
+        },
+        {
+          "id": "anak_f2",
+          "text": "Umu (Earth Oven Feast)",
+          "detail": "Experience the traditional Polynesian cooking method where meats, fish, and vegetables are slow-cooked in an underground oven lined with heated stones."
+        },
+        {
+          "id": "anak_f3",
+          "text": "Empanadas with Local Fish",
+          "detail": "Try Chilean-style pastries filled with fresh local fish and vegetables, commonly sold at beachside vendors and nearby restaurants."
+        },
+        {
+          "id": "anak_f4",
+          "text": "Seafood Curanto",
+          "detail": "Enjoy this traditional dish combining shellfish, fish, and sometimes meat cooked together, reflecting Polynesian and Chilean coastal influences."
+        },
+        {
+          "id": "anak_f5",
+          "text": "Fresh Coconut and Tropical Fruits",
+          "detail": "Purchase freshly harvested coconuts and tropical fruits from local vendors at the beach, a refreshing local snack."
+        }
+      ],
+      "culture": [
+        {
+          "id": "anak_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "Do not climb on the moai or ahu platforms, as these are sacred ancestral monuments and their preservation requires visitor restraint and respect."
+        },
+        {
+          "id": "anak_c2",
+          "text": "Learn About Hotu Matu'a",
+          "detail": "Understand that locals revere this beach as the landing site of the legendary Polynesian explorer King Hotu Matu'a, making it spiritually significant to Rapa Nui identity."
+        },
+        {
+          "id": "anak_c3",
+          "text": "Visit with a Local Guide",
+          "detail": "Hiring a Rapa Nui guide enhances understanding of the cultural and archaeological context that casual observation alone cannot convey."
+        },
+        {
+          "id": "anak_c4",
+          "text": "Observe Posted Regulations",
+          "detail": "Follow all signage and park rules established by the Rapa Nui National Park authority, which protect both the sites and visitors' safety."
+        }
+      ]
+    },
+    {
+      "id": "rano_raraku",
+      "name": "Rano Raraku",
+      "nameIt": "Rano Raraku",
+      "lat": -27.1226,
+      "lng": -109.272,
+      "type": "NATURE",
+      "description": "The volcanic crater quarry where nearly all of Easter Island's moai statues were carved from the volcanic rock. Nearly 400 moai in various stages of completion remain scattered across the crater, offering a haunting glimpse into ancient construction methods.",
+      "imageQueries": [
+        "Rano Raraku moai quarry",
+        "Rano Raraku Easter Island statues"
+      ],
+      "activities": [
+        {
+          "id": "rano_1",
+          "text": "Explore the Moai Quarry Floor",
+          "detail": "Walk among nearly 400 partially completed and abandoned moai statues scattered across the crater floor to understand the scale and abandonment of the carving operation.",
+          "lat": -27.1237,
+          "lng": -109.2675
+        },
+        {
+          "id": "rano_2",
+          "text": "Climb the Crater Rim",
+          "detail": "Hike to the top of Rano Raraku's volcanic rim for panoramic views of the crater lake, surrounding coastline, and the full archaeological landscape.",
+          "lat": -27.1225,
+          "lng": -109.2695
+        },
+        {
+          "id": "rano_3",
+          "text": "Visit Ahu Te Pito Te Kura",
+          "detail": "See the largest moai ever successfully transported and erected on the island, located near the quarry entrance at approximately 10 meters tall.",
+          "lat": -27.118,
+          "lng": -109.265
+        },
+        {
+          "id": "rano_4",
+          "text": "Examine Unfinished Moai Details",
+          "detail": "Study the partially carved statues to learn how ancient Rapa Nui craftspeople used stone tools and techniques to shape the volcanic tuff.",
+          "lat": -27.1237,
+          "lng": -109.2675
+        },
+        {
+          "id": "rano_5",
+          "text": "Observe the Crater Lake",
+          "detail": "Look at Rano Raraku's freshwater crater lake surrounded by totora reeds, which may have provided resources for the ancient builders.",
+          "lat": -27.125,
+          "lng": -109.27
+        },
+        {
+          "id": "rano_6",
+          "text": "Photograph Sunset Views",
+          "detail": "Capture the golden light illuminating the moai and crater landscape during late afternoon, a popular time for photographers.",
+          "lat": -27.1237,
+          "lng": -109.2675
+        }
+      ],
+      "food": [
+        {
+          "id": "rano_f1",
+          "text": "Umu Ahi (Traditional Earth Oven)",
+          "detail": "Local slow-cooked seafood and taro wrapped in banana leaves and cooked in an underground oven, representing traditional Polynesian cooking methods still practiced in Easter Island."
+        },
+        {
+          "id": "rano_f2",
+          "text": "Fresh Tuna Ceviche",
+          "detail": "Raw yellowfin tuna caught in local Pacific waters, cured in lime juice with coconut milk, onions, and cilantro, reflecting the island's seafaring heritage."
+        },
+        {
+          "id": "rano_f3",
+          "text": "Curanto",
+          "detail": "A hearty seafood and potato stew with shellfish, fish, and local root vegetables, representing Chilean-Polynesian fusion cuisine available at local restaurants near the site."
+        },
+        {
+          "id": "rano_f4",
+          "text": "Taro Root Dishes",
+          "detail": "Starchy taro grown in the island's volcanic soil, often served boiled or as a side dish at local eateries and representing ancient staple crops of Easter Island."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rano_c1",
+          "text": "Hire a Licensed Local Guide",
+          "detail": "Visitors gain deeper archaeological and cultural context by engaging a certified Rapa Nui guide who can explain the spiritual significance and construction mysteries of the moai."
+        },
+        {
+          "id": "rano_c2",
+          "text": "Respect Sacred Tapu Areas",
+          "detail": "Some sections of Rano Raraku remain spiritually significant to the Rapa Nui people; stay on marked paths and ask permission before entering restricted zones or photographing certain sites."
+        },
+        {
+          "id": "rano_c3",
+          "text": "Visit the National Park Visitor Center",
+          "detail": "Stop at the nearby Ahu Te Pito center to understand the island's history, obtain a park permit, and learn proper protocols before exploring the quarry."
+        },
+        {
+          "id": "rano_c4",
+          "text": "Bring Plenty of Water and Sun Protection",
+          "detail": "The crater offers minimal shade and the volcanic rock terrain is exposed; carry at least 2 liters of water, sunscreen, and a hat as there are no facilities within the quarry itself."
+        }
+      ]
+    },
+    {
+      "id": "orongo_ceremony_village",
+      "name": "Orongo Ceremonial Village",
+      "nameIt": "Orongo",
+      "lat": -27.1835,
+      "lng": -109.3584,
+      "type": "LANDMARK",
+      "description": "An ancient ceremonial center perched on the rim between Rano Kau crater and the Pacific Ocean, with restored stone structures and platforms. This sacred site was the center of the birdman cult and offers spectacular coastal views.",
+      "imageQueries": [
+        "Orongo ceremonial village",
+        "Orongo Easter Island birdman"
+      ],
+      "activities": [
+        {
+          "id": "oron_1",
+          "text": "Explore Ahu platforms",
+          "detail": "Walk among the restored ceremonial stone platforms where birdman competitors once gathered and where ancestral moai once stood watch over the Pacific.",
+          "lat": -27.1895,
+          "lng": -109.3081
+        },
+        {
+          "id": "oron_2",
+          "text": "Visit Birdman petroglyph sites",
+          "detail": "Study the rock carvings depicting the Make-Make creator god and birdman motifs that represent the annual competition for the sooty tern egg.",
+          "lat": -27.1898,
+          "lng": -109.3075
+        },
+        {
+          "id": "oron_3",
+          "text": "Scan for offshore islets",
+          "detail": "Use binoculars to view Motu Nui, Motu Iti, and Motu Kao islets where competitors once swam to retrieve the first sooty tern egg of season.",
+          "lat": -27.19,
+          "lng": -109.3085
+        },
+        {
+          "id": "oron_4",
+          "text": "Hike Rano Kau crater rim",
+          "detail": "Trek the dramatic volcanic rim surrounding Orongo with panoramic views of the crater lake, reed-filled waters, and the vast Pacific Ocean.",
+          "lat": -27.1892,
+          "lng": -109.307
+        },
+        {
+          "id": "oron_5",
+          "text": "Experience the stone houses",
+          "detail": "Enter reconstructed tuna-shaped stone dwellings called hare moa and learn how ceremonial participants sheltered during the birdman competition season.",
+          "lat": -27.1896,
+          "lng": -109.308
+        },
+        {
+          "id": "oron_6",
+          "text": "Attend ranger-led interpretive tours",
+          "detail": "Join knowledgeable local guides who explain the archaeological significance and spiritual meaning behind Orongo's stone structures and rituals.",
+          "lat": -27.1895,
+          "lng": -109.3081
+        },
+        {
+          "id": "oron_7",
+          "text": "Photograph sunset views",
+          "detail": "Capture the golden-hour light illuminating the stone platforms, offshore motu, and the horizon where birdman competitors once watched for returning terns."
+        }
+      ],
+      "food": [
+        {
+          "id": "oron_f1",
+          "text": "Tuna ceviche with local lime",
+          "detail": "Fresh raw tuna caught from Easter Island waters dressed in citrus juice, reflecting the island's strong maritime heritage and the historical importance of the birdman egg hunt."
+        },
+        {
+          "id": "oron_f2",
+          "text": "Curanto en hoyo",
+          "detail": "A traditional Polynesian earth-oven dish with seafood, vegetables, and meat cooked beneath hot stones, served at local restaurants near the archaeological site."
+        },
+        {
+          "id": "oron_f3",
+          "text": "Umu (Polynesian roasted fish)",
+          "detail": "Whole fish wrapped in banana leaves and cooked in an underground oven, honoring ancient cooking methods still practiced on the island."
+        },
+        {
+          "id": "oron_f4",
+          "text": "Umeke (wooden bowl) dining experience",
+          "detail": "Eating from traditional wooden bowls prepared by local families offers an authentic connection to how Rapa Nui residents once shared ceremonial meals."
+        },
+        {
+          "id": "oron_f5",
+          "text": "Sweet potato and taro dishes",
+          "detail": "Root vegetables staple to Rapa Nui cuisine served roasted or in soups, representing the agricultural foundation of the island's settlement."
+        }
+      ],
+      "culture": [
+        {
+          "id": "oron_c1",
+          "text": "Respect archaeological boundaries",
+          "detail": "Stay on marked paths and do not touch or climb on restored ahu platforms or stone structures, as these are sacred ancestral sites still honored by Rapa Nui people."
+        },
+        {
+          "id": "oron_c2",
+          "text": "Learn birdman history before visiting",
+          "detail": "Understanding the Make-Make cult and the competitive egg-gathering ritual enriches your visit and shows respect for the spiritual significance of the site."
+        },
+        {
+          "id": "oron_c3",
+          "text": "Bring sun protection and water",
+          "detail": "The exposed hilltop platform offers no shade and the wind can be intense; sunscreen, hat, and adequate water are essential for comfort and safety."
+        },
+        {
+          "id": "oron_c4",
+          "text": "Hire a Rapa Nui guide when possible",
+          "detail": "Local guides from Easter Island provide deeper cultural context and authentic interpretations that honor the living Polynesian community connected to Orongo's history."
+        }
+      ]
+    },
+    {
+      "id": "ahu_tongariki",
+      "name": "Ahu Tongariki",
+      "nameIt": "Ahu Tongariki",
+      "lat": -27.1059,
+      "lng": -109.2659,
+      "type": "LANDMARK",
+      "description": "The largest restored ahu (ceremonial platform) on Easter Island, featuring 15 restored moai standing majestically against the Pacific Ocean. Sunrise here is particularly spectacular and dramatic, making it one of the island's most iconic locations.",
+      "imageQueries": [
+        "Ahu Tongariki moai",
+        "Ahu Tongariki Easter Island sunrise"
+      ],
+      "activities": [
+        {
+          "id": "ahu__1",
+          "text": "Sunrise Photography",
+          "detail": "Arrive before dawn to capture the 15 moai silhouetted against the rising sun over the Pacific Ocean, one of Easter Island's most photographed moments.",
+          "lat": -27.128333,
+          "lng": -109.290278
+        },
+        {
+          "id": "ahu__2",
+          "text": "Moai Study and Restoration Tour",
+          "detail": "Examine the restored moai up close to observe the different carving styles, coral eye restorations, and topknot placements that distinguish individual statues.",
+          "lat": -27.128333,
+          "lng": -109.290278
+        },
+        {
+          "id": "ahu__3",
+          "text": "Walk the Restored Platform",
+          "detail": "Stroll along the massive ahu (platform) to understand its scale and engineering, noting how it was reconstructed after being toppled during tribal conflicts.",
+          "lat": -27.128333,
+          "lng": -109.290278
+        },
+        {
+          "id": "ahu__4",
+          "text": "Sunset Meditation",
+          "detail": "Return in late afternoon to experience the golden light on the moai and witness the sun descending toward the ocean horizon.",
+          "lat": -27.128333,
+          "lng": -109.290278
+        },
+        {
+          "id": "ahu__5",
+          "text": "Visit Ahu Te Pito Te Kura",
+          "detail": "Walk to the nearby fallen moai, the largest ever carved, to see the unrestored statue that fell during the Birdman competition era.",
+          "lat": -27.131944,
+          "lng": -109.286111
+        },
+        {
+          "id": "ahu__6",
+          "text": "Explore Anakena Beach Access Trail",
+          "detail": "Hike the coastal path from Tongariki toward Anakena to spot additional archaeological sites and enjoy panoramic ocean views.",
+          "lat": -27.125,
+          "lng": -109.295
+        }
+      ],
+      "food": [
+        {
+          "id": "ahu__f1",
+          "text": "Umu Ahi (Earth Oven Feast)",
+          "detail": "Try this traditional Rapa Nui method of cooking fish, chicken, or taro wrapped in banana leaves and buried with hot stones, often served at local restaurants near the site."
+        },
+        {
+          "id": "ahu__f2",
+          "text": "Fresh Tuna Ceviche",
+          "detail": "Sample ceviche made with Pacific yellowfin tuna caught locally, marinated in lime juice with cilantro and served as a light lunch option."
+        },
+        {
+          "id": "ahu__f3",
+          "text": "Poisson Cru (Coconut Fish)",
+          "detail": "Enjoy raw fish cured in fresh coconut milk with lime and vegetables, reflecting Polynesian culinary traditions shared across the Pacific."
+        },
+        {
+          "id": "ahu__f4",
+          "text": "Curanto",
+          "detail": "Experience this Chilean-Rapa Nui fusion stew of seafood, meat, and potatoes cooked in a ground oven, representing the island's multicultural heritage."
+        },
+        {
+          "id": "ahu__f5",
+          "text": "Sweet Potato and Taro Dishes",
+          "detail": "Taste traditional starches that sustained Rapa Nui civilization, often served roasted or as part of a traditional feast meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ahu__c1",
+          "text": "Respect Sacred Ceremonial Space",
+          "detail": "Remember that ahu are sacred burial and ceremonial sites, not theme parks; keep a respectful distance from the moai and avoid climbing on the platform itself."
+        },
+        {
+          "id": "ahu__c2",
+          "text": "Learn Rapa Nui History Context",
+          "detail": "Understanding the island's settlement by Polynesians around 1200 CE and the cycles of environmental decline and cultural change enriches appreciation of why these statues were built."
+        },
+        {
+          "id": "ahu__c3",
+          "text": "Hire a Local Guide",
+          "detail": "Engage Rapa Nui guides who can share oral traditions, explain restoration efforts, and provide context that generic tourism information cannot match."
+        },
+        {
+          "id": "ahu__c4",
+          "text": "Check Entry Requirements",
+          "detail": "Verify that your entry to the National Park includes Ahu Tongariki access, and arrive early to avoid crowds and secure the best photographic angles."
+        }
+      ]
+    },
+    {
+      "id": "rano_kau",
+      "name": "Rano Kau",
+      "nameIt": "Rano Kau",
+      "lat": -27.1882,
+      "lng": -109.3621,
+      "type": "NATURE",
+      "description": "A massive volcanic crater filled with freshwater and totora reeds at the southwestern tip of Easter Island. The crater lake and surrounding cliffs provide stunning panoramic views and are home to unique native plant species.",
+      "imageQueries": [
+        "Rano Kau crater",
+        "Rano Kau Easter Island lake"
+      ],
+      "activities": [
+        {
+          "id": "rano_1",
+          "text": "Crater Rim Walk",
+          "detail": "Hike the scenic trail along the rim of Rano Kau crater to experience 360-degree views of the Pacific Ocean and the crater lake below.",
+          "lat": -27.1933,
+          "lng": -109.3667
+        },
+        {
+          "id": "rano_2",
+          "text": "Totora Reed Observation",
+          "detail": "Descend to the crater floor or view from above the unique freshwater totora reeds that have been used by Rapa Nui people for centuries to build boats and crafts.",
+          "lat": -27.195,
+          "lng": -109.365
+        },
+        {
+          "id": "rano_3",
+          "text": "Orongo Ceremonial Site",
+          "detail": "Visit the sacred pre-contact ceremonial center perched on the crater rim where the Birdman competition once took place during the southern summer.",
+          "lat": -27.1917,
+          "lng": -109.3683
+        },
+        {
+          "id": "rano_4",
+          "text": "Motu Islet Viewing",
+          "detail": "Observe the three small islets (Motu Nui, Motu Iti, and Motu Kao) visible from the cliffs, which were central to Rapa Nui's most important pre-contact ritual.",
+          "lat": -27.1933,
+          "lng": -109.37
+        },
+        {
+          "id": "rano_5",
+          "text": "Sunset Photography",
+          "detail": "Capture dramatic photographs of the Pacific sunset from the crater rim, considered one of Easter Island's most photogenic vantage points.",
+          "lat": -27.1933,
+          "lng": -109.3667
+        },
+        {
+          "id": "rano_6",
+          "text": "Native Plant Study",
+          "detail": "Identify endemic and native plant species unique to Rano Kau including the endangered Sophora toromiro and local ferns within the protected crater ecosystem.",
+          "lat": -27.194,
+          "lng": -109.366
+        }
+      ],
+      "food": [
+        {
+          "id": "rano_f1",
+          "text": "Umu (Earth Oven Feast)",
+          "detail": "A traditional Polynesian cooking method where food is wrapped in banana leaves and cooked underground using hot stones, often featuring local fish, chicken, and taro."
+        },
+        {
+          "id": "rano_f2",
+          "text": "Ceviche de Tuna",
+          "detail": "Fresh locally-caught tuna cured in lime juice with cilantro, onions, and peppers, reflecting Easter Island's strong Pacific fishing tradition."
+        },
+        {
+          "id": "rano_f3",
+          "text": "Papa (Sweet Potato)",
+          "detail": "The staple root vegetable historically central to Rapa Nui cuisine, served boiled, roasted, or as part of traditional dishes."
+        },
+        {
+          "id": "rano_f4",
+          "text": "Empanadas with Local Fish",
+          "detail": "Savory pastries filled with freshly caught island fish, onions, and local spices, commonly sold at nearby vendors and markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rano_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "Rano Kau is a sacred location in Rapa Nui culture; stay on marked paths, do not remove plants or rocks, and be respectful of the spiritual significance of Orongo."
+        },
+        {
+          "id": "rano_c2",
+          "text": "Learn Rapa Nui History",
+          "detail": "Understanding the Birdman cult and pre-contact ceremonies significantly enhances appreciation of the site; consider hiring a local guide fluent in Rapa Nui traditions."
+        },
+        {
+          "id": "rano_c3",
+          "text": "Weather Preparedness",
+          "detail": "The exposed crater rim is windy and weather can change rapidly; bring windbreakers, sunscreen, and water as there is minimal shelter on-site."
+        },
+        {
+          "id": "rano_c4",
+          "text": "Early Morning Visits",
+          "detail": "Arrive at Rano Kau early to avoid afternoon crowds and experience the crater in better light while helping preserve the delicate ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "puna_pau",
+      "name": "Puna Pau",
+      "nameIt": "Puna Pau",
+      "lat": -27.1641,
+      "lng": -109.4251,
+      "type": "LANDMARK",
+      "description": "An ancient ceremonial site in the western part of Easter Island known for its red scoria stone topknots (pukao) that crowned the moai. The quarry contains numerous moai and topknot fragments in various stages of completion.",
+      "imageQueries": [
+        "Puna Pau moai topknots",
+        "Puna Pau Easter Island red stone"
+      ],
+      "activities": [
+        {
+          "id": "puna_1",
+          "text": "Explore the Moai Workshop",
+          "detail": "Walk among dozens of unfinished moai statues scattered across the quarry to understand the carving and production process.",
+          "lat": -27.1247,
+          "lng": -109.3667
+        },
+        {
+          "id": "puna_2",
+          "text": "Study Pukao Topknots",
+          "detail": "Examine the distinctive red scoria stone cylindrical crowns that were quarried here and transported to ahu across the island.",
+          "lat": -27.1247,
+          "lng": -109.3667
+        },
+        {
+          "id": "puna_3",
+          "text": "Visit the Restored Ahu Complex",
+          "detail": "See the nearby ceremonial platform with reconstructed moai and topknots that demonstrate how statues appeared when completed and positioned.",
+          "lat": -27.126,
+          "lng": -109.365
+        },
+        {
+          "id": "puna_4",
+          "text": "Photograph Sunset Views",
+          "detail": "Capture dramatic evening light across the red stone fragments and completed statues from the western vantage points of the site.",
+          "lat": -27.1247,
+          "lng": -109.3667
+        },
+        {
+          "id": "puna_5",
+          "text": "Hike to Tool Scatter Areas",
+          "detail": "Trek across the quarry grounds to locate ancient basalt tool marks and abandoned stone implements used by carvers."
+        },
+        {
+          "id": "puna_6",
+          "text": "Attend Ranger-Led Interpretation",
+          "detail": "Join guided tours explaining the archaeological significance, carving techniques, and theories about statue transportation methods."
+        }
+      ],
+      "food": [
+        {
+          "id": "puna_f1",
+          "text": "Umu Oven Meals",
+          "detail": "Earth-oven cooked dishes featuring fresh fish, sweet potato, and taro that reflect traditional Rapa Nui cooking methods still used in the region."
+        },
+        {
+          "id": "puna_f2",
+          "text": "Fresh Tuna Ceviche",
+          "detail": "Raw Pacific tuna cured in citrus juice and served with local peppers and cilantro at nearby lodges and restaurants in Hanga Roa."
+        },
+        {
+          "id": "puna_f3",
+          "text": "Kumara (Sweet Potato) Dishes",
+          "detail": "Staple root vegetable prepared grilled or in stews, representing pre-Columbian Polynesian agriculture still cultivated on the island."
+        },
+        {
+          "id": "puna_f4",
+          "text": "Seafood at Coastal Restaurants",
+          "detail": "Local establishments near the western coast serve freshly caught langosta (spiny lobster) and fish caught that morning."
+        },
+        {
+          "id": "puna_f5",
+          "text": "Banana and Coconut Desserts",
+          "detail": "Tropical fruit-based sweets reflecting the island's Polynesian heritage, often served at cultural centers near the archaeological sites."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puna_c1",
+          "text": "Respect Rope Boundaries",
+          "detail": "Stay behind designated barriers to protect fragile moai and prevent soil erosion around irreplaceable carved stones."
+        },
+        {
+          "id": "puna_c2",
+          "text": "Visit with a Guide",
+          "detail": "Hire a trained local guide who can contextualize the site within Rapa Nui cosmology and explain the ahu-moai ceremonial system."
+        },
+        {
+          "id": "puna_c3",
+          "text": "Acknowledge Indigenous Ownership",
+          "detail": "The site is sacred to the Rapa Nui people; approach with respect and avoid touching statues unless explicitly permitted by staff."
+        },
+        {
+          "id": "puna_c4",
+          "text": "Wear Sun and Wind Protection",
+          "detail": "The treeless quarry offers no shade and experiences strong Pacific winds; bring hat, sunscreen, and a jacket even on clear days."
+        }
+      ]
+    },
+    {
+      "id": "ana_kakenga",
+      "name": "Ana Kakenga Cave",
+      "nameIt": "Ana Kakenga",
+      "lat": -27.1977,
+      "lng": -109.4537,
+      "type": "LANDMARK",
+      "description": "A partially collapsed sea cave on the western coast known as the Flute Player's Cave, believed to have been used as a shelter by ancient Rapanui. The dramatic cave formation and crashing waves make it a photogenic and culturally significant site.",
+      "imageQueries": [
+        "Ana Kakenga cave",
+        "Ana Kakenga flute cave Easter Island"
+      ],
+      "activities": [
+        {
+          "id": "ana__1",
+          "text": "Explore the Cave Interior",
+          "detail": "Carefully navigate into the partially collapsed sea cave to observe the ancient Rapanui shelter and the dramatic geological formations carved by millennia of wave action.",
+          "lat": -27.1928,
+          "lng": -109.4294
+        },
+        {
+          "id": "ana__2",
+          "text": "Photograph the Crashing Waves",
+          "detail": "Capture dramatic images of the Pacific waves crashing against the cave entrance and rocky coastline, especially powerful during afternoon and storm conditions.",
+          "lat": -27.1928,
+          "lng": -109.4294
+        },
+        {
+          "id": "ana__3",
+          "text": "Study Rapanui Archaeological Evidence",
+          "detail": "Look for ancient tool marks, shelter modifications, and cultural artifacts within the cave that provide insights into how the Rapanui people utilized coastal caves for habitation.",
+          "lat": -27.1928,
+          "lng": -109.4294
+        },
+        {
+          "id": "ana__4",
+          "text": "Sunset Viewing at the Western Coast",
+          "detail": "Experience the dramatic Pacific sunset from the cave area's elevated vantage points on Easter Island's western shore.",
+          "lat": -27.1928,
+          "lng": -109.4294
+        },
+        {
+          "id": "ana__5",
+          "text": "Walk the Surrounding Coastal Trail",
+          "detail": "Hike along the rugged volcanic coastline around Ana Kakenga to spot additional geological formations and potentially view seabirds native to Easter Island.",
+          "lat": -27.1928,
+          "lng": -109.4294
+        }
+      ],
+      "food": [
+        {
+          "id": "ana__f1",
+          "text": "Umi (Sea Urchin)",
+          "detail": "This local delicacy harvested from Easter Island's surrounding waters is often served raw or in traditional dishes, reflecting the Rapanui's historic connection to the sea."
+        },
+        {
+          "id": "ana__f2",
+          "text": "Tuna Ceviche",
+          "detail": "Fresh Pacific tuna prepared in the Peruvian style with citrus, onions, and cilantro is a popular coastal dish celebrating the island's rich fishing heritage."
+        },
+        {
+          "id": "ana__f3",
+          "text": "Curanto",
+          "detail": "This traditional Chilean dish of seafood, meat, and vegetables cooked in an earth oven is adapted on Easter Island using local marine catches and root vegetables."
+        },
+        {
+          "id": "ana__f4",
+          "text": "Empanadas with Local Fish",
+          "detail": "Hand-held pastries filled with fresh-caught fish and vegetables offer a convenient way to taste local ingredients while exploring the coastal area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ana__c1",
+          "text": "Respect Sacred Rapanui Heritage",
+          "detail": "Ana Kakenga holds spiritual significance to the Rapanui people; approach the site with reverence and avoid removing any stones, artifacts, or disturbing the cave structure."
+        },
+        {
+          "id": "ana__c2",
+          "text": "Check Tide and Weather Conditions",
+          "detail": "The cave's accessibility and safety depend heavily on tide levels and sea conditions; consult with local guides in Hanga Roa before visiting to avoid dangerous wave surges."
+        },
+        {
+          "id": "ana__c3",
+          "text": "Hire a Local Guide",
+          "detail": "Engaging a knowledgeable Rapanui guide enhances understanding of the cave's archaeological significance and ensures respectful interpretation of this culturally important site."
+        }
+      ]
+    },
+    {
+      "id": "ahu_akivi",
+      "name": "Ahu Akivi",
+      "nameIt": "Ahu Akivi",
+      "lat": -27.1169,
+      "lng": -109.4289,
+      "type": "LANDMARK",
+      "description": "A unique inland ceremonial site featuring seven restored moai arranged in a semicircle, distinct from coastal ahu platforms. The site has astronomical significance and is aligned with solstice and equinox sunsets.",
+      "imageQueries": [
+        "Ahu Akivi moai",
+        "Ahu Akivi seven statues Easter Island"
+      ],
+      "activities": [
+        {
+          "id": "ahu__1",
+          "text": "Observe the Seven Moai",
+          "detail": "Study the semicircle arrangement of seven restored moai statues, the only inland ahu on Easter Island and uniquely positioned to face the ocean rather than inland.",
+          "lat": -27.12389,
+          "lng": -109.35889
+        },
+        {
+          "id": "ahu__2",
+          "text": "Witness Equinox Alignment",
+          "detail": "Visit during the March or September equinoxes to see the sun set directly between two moai, demonstrating the site's precise astronomical calibration.",
+          "lat": -27.12389,
+          "lng": -109.35889
+        },
+        {
+          "id": "ahu__3",
+          "text": "Track Solstice Sunsets",
+          "detail": "Return during winter solstice (June) or summer solstice (December) to observe how the sunset aligns with specific moai positions marking seasonal transitions.",
+          "lat": -27.12389,
+          "lng": -109.35889
+        },
+        {
+          "id": "ahu__4",
+          "text": "Explore the Surrounding Crater",
+          "detail": "Walk the inland volcanic landscape surrounding Ahu Akivi to understand the site's ceremonial isolation from coastal settlement areas.",
+          "lat": -27.12389,
+          "lng": -109.35889
+        },
+        {
+          "id": "ahu__5",
+          "text": "Photograph at Golden Hour",
+          "detail": "Capture images of the moai during sunrise or sunset when backlighting reveals details of the carved figures and the surrounding volcanic terrain."
+        },
+        {
+          "id": "ahu__6",
+          "text": "Visit the Site Museum",
+          "detail": "Stop at the nearby interpretive center in Hanga Roa village to learn detailed archaeological findings about Ahu Akivi's construction and astronomical purpose."
+        }
+      ],
+      "food": [
+        {
+          "id": "ahu__f1",
+          "text": "Umu Feast",
+          "detail": "Experience traditional underground oven-cooked meats, fish, and vegetables wrapped in banana leaves, a method used by Rapa Nui people for centuries."
+        },
+        {
+          "id": "ahu__f2",
+          "text": "Tuna Ceviche",
+          "detail": "Try fresh local yellowfin tuna marinated in lime juice with cilantro and coconut milk, reflecting Easter Island's Pacific location and fishing heritage."
+        },
+        {
+          "id": "ahu__f3",
+          "text": "Kumara (Sweet Potato) Dishes",
+          "detail": "Sample roasted or boiled kumara, a staple Polynesian crop that sustained the island's population and appears in many local preparations."
+        },
+        {
+          "id": "ahu__f4",
+          "text": "Empanadas de Atun",
+          "detail": "Enjoy pastry-wrapped tuna empanadas sold at local vendors near tourist sites, blending Spanish and indigenous Rapa Nui culinary traditions."
+        },
+        {
+          "id": "ahu__f5",
+          "text": "Fresh Tropical Fruits",
+          "detail": "Purchase papayas, bananas, and passion fruit at local markets in nearby Hanga Roa, grown in Easter Island's subtropical climate."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ahu__c1",
+          "text": "Respect Sacred Ground",
+          "detail": "Remain on designated paths and do not touch the moai, as the site holds spiritual significance to Rapa Nui people and restoration efforts are ongoing."
+        },
+        {
+          "id": "ahu__c2",
+          "text": "Learn Rapa Nui Language Basics",
+          "detail": "Greet locals with 'Iorana' and show respect by learning a few words, as the indigenous Rapa Nui language represents cultural pride after near-extinction."
+        },
+        {
+          "id": "ahu__c3",
+          "text": "Time Your Visit for Lower Crowds",
+          "detail": "Visit early morning or late afternoon to experience the site's astronomical alignments more fully and avoid peak tour group times between 10am-3pm."
+        },
+        {
+          "id": "ahu__c4",
+          "text": "Hire a Local Guide",
+          "detail": "Engage Rapa Nui guides from Hanga Roa who provide genealogical and spiritual context about ahu construction and the site's role in pre-contact society."
+        }
+      ]
+    },
+    {
+      "id": "papa_vaka",
+      "name": "Papa Vaka",
+      "nameIt": "Papa Vaka",
+      "lat": -27.1294,
+      "lng": -109.4168,
+      "type": "LANDMARK",
+      "description": "An archaeological site featuring a carved rock with intricate designs representing fish and canoes, reflecting the island's maritime heritage. The petroglyphs provide insight into the ancient Rapanui economy and navigation practices.",
+      "imageQueries": [
+        "Papa Vaka petroglyphs",
+        "Papa Vaka Easter Island canoe rock"
+      ],
+      "activities": [
+        {
+          "id": "papa_1",
+          "text": "Study the Fish and Canoe Petroglyphs",
+          "detail": "Examine the intricately carved rock art depicting tuna, bonito, and traditional double-hulled canoes that illustrate Rapanui's deep maritime connection and navigation expertise.",
+          "lat": -27.1269,
+          "lng": -109.3628
+        },
+        {
+          "id": "papa_2",
+          "text": "Photograph the Coastal Rock Formation",
+          "detail": "Capture images of Papa Vaka's distinctive boulder positioned near the shoreline, showcasing how ancient carvers selected natural stone features for their artistic expression."
+        },
+        {
+          "id": "papa_3",
+          "text": "Explore Nearby Ahu Ruins",
+          "detail": "Walk the surrounding area to see other ceremonial platforms and stone structures that contextualize Papa Vaka within the broader Rapanui archaeological landscape."
+        },
+        {
+          "id": "papa_4",
+          "text": "Listen to a Local Guide's Interpretation",
+          "detail": "Hire an indigenous Rapa Nui guide who can explain the spiritual significance of the petroglyphs and share oral traditions about ancient voyaging and fishing practices."
+        },
+        {
+          "id": "papa_5",
+          "text": "Visit at Sunset",
+          "detail": "Return to the site during golden hour to experience how the angled light reveals the carved details more dramatically and understand how the ancient Rapanui may have perceived these images."
+        }
+      ],
+      "food": [
+        {
+          "id": "papa_f1",
+          "text": "Umu Ahi (Earth Oven Fish)",
+          "detail": "Fresh local fish wrapped in banana leaves and cooked in an underground earth oven, a traditional Polynesian cooking method still practiced on Easter Island."
+        },
+        {
+          "id": "papa_f2",
+          "text": "Ceviche with Local Fish",
+          "detail": "Raw fish cured in lime juice and served with fresh cilantro and local sweet potato, reflecting both indigenous and modern influences on island cuisine."
+        },
+        {
+          "id": "papa_f3",
+          "text": "Tuna Empanadas",
+          "detail": "Flaky pastries filled with locally caught tuna, onions, and local spices, sold at small vendors throughout the island as a portable meal option."
+        },
+        {
+          "id": "papa_f4",
+          "text": "Curanto",
+          "detail": "A hearty seafood and meat stew cooked in an earth oven with potatoes, corn, and whatever fish the day's catch provided, representing traditional island communal dining."
+        }
+      ],
+      "culture": [
+        {
+          "id": "papa_c1",
+          "text": "Respectful Photography Ethics",
+          "detail": "Always ask permission before photographing petroglyphs closely and avoid touching the carved surfaces, as oils from skin can damage these fragile 500-year-old artworks."
+        },
+        {
+          "id": "papa_c2",
+          "text": "Learn Basic Rapa Nui Language",
+          "detail": "Greet locals with 'Iorana' and show respect by attempting a few words in Rapa Nui language, which carries deep cultural pride among islanders who are revitalizing their ancestral tongue."
+        },
+        {
+          "id": "papa_c3",
+          "text": "Understand Sacred Geography",
+          "detail": "Recognize that Papa Vaka and surrounding sites hold spiritual significance beyond archaeology; many locations remain connected to living Rapanui spiritual practices and oral histories."
+        },
+        {
+          "id": "papa_c4",
+          "text": "Hire Local Guides When Possible",
+          "detail": "Support the Rapa Nui community directly by employing indigenous guides rather than using only foreign tour operators, ensuring cultural knowledge and economic benefits flow to island residents."
+        }
+      ]
+    },
+    {
+      "id": "motu_nui",
+      "name": "Motu Nui",
+      "nameIt": "Motu Nui",
+      "lat": -27.1933,
+      "lng": -109.3545,
+      "type": "ISLAND",
+      "description": "A trio of small islets visible from Orongo that were the focus of the ancient birdman competition, where young competitors would compete to retrieve sooty tern eggs. The islets remain important to Rapanui cultural memory and offer excellent viewing opportunities.",
+      "imageQueries": [
+        "Motu Nui islets",
+        "Motu Nui birdman Easter Island"
+      ],
+      "activities": [
+        {
+          "id": "motu_1",
+          "text": "View from Orongo",
+          "detail": "Stand at the Orongo ceremonial site overlooking Motu Nui and observe the three islets where the birdman competition took place, with interpretive signs explaining the ritual's significance.",
+          "lat": -27.1897,
+          "lng": -109.3567
+        },
+        {
+          "id": "motu_2",
+          "text": "Birdman Competition Trail",
+          "detail": "Walk the ceremonial pathway from Orongo down toward the coast, tracing the historic route competitors would have taken during the ancient birdman trials.",
+          "lat": -27.1905,
+          "lng": -109.3575
+        },
+        {
+          "id": "motu_3",
+          "text": "Sooty Tern Egg Viewing",
+          "detail": "Observe nesting sooty terns on the islets during breeding season (October to December) with binoculars from the Orongo viewpoint without disturbing the birds.",
+          "lat": -27.1897,
+          "lng": -109.3567
+        },
+        {
+          "id": "motu_4",
+          "text": "Ahu and Moai Exploration",
+          "detail": "Examine the restored ceremonial platforms and fallen moai statues scattered around the Orongo complex that frame the Motu Nui vista.",
+          "lat": -27.189,
+          "lng": -109.357
+        },
+        {
+          "id": "motu_5",
+          "text": "Photograph Sunset Over Motu Nui",
+          "detail": "Capture the dramatic sunset illuminating the three islets from Orongo's western vantage point, a prime photography opportunity.",
+          "lat": -27.1897,
+          "lng": -109.3567
+        },
+        {
+          "id": "motu_6",
+          "text": "Ranu Kai Crater Visit",
+          "detail": "Descend into the freshwater crater lake adjacent to Orongo to see native totora reeds and learn about ancient resource management on the island.",
+          "lat": -27.192,
+          "lng": -109.356
+        }
+      ],
+      "food": [
+        {
+          "id": "motu_f1",
+          "text": "Umu Ahi (Earth Oven Feast)",
+          "detail": "Try traditionally cooked meats and vegetables prepared in an underground earth oven, a preparation method tied to Rapanui's ancient ceremonial gatherings."
+        },
+        {
+          "id": "motu_f2",
+          "text": "Fresh Fish Ceviche",
+          "detail": "Sample locally caught raw fish cured in lime juice and served with fresh cilantro and chili, reflecting the island's Pacific fishing heritage."
+        },
+        {
+          "id": "motu_f3",
+          "text": "Taro Root Dishes",
+          "detail": "Taste cultivated taro prepared as a boiled side or incorporated into traditional stews, an important pre-contact Polynesian staple still grown on the island."
+        },
+        {
+          "id": "motu_f4",
+          "text": "Octopus Cazuela",
+          "detail": "Enjoy tender octopus braised in a rich broth with potatoes and onions, a Chilean-Polynesian fusion reflecting the island's culinary influences."
+        },
+        {
+          "id": "motu_f5",
+          "text": "Fresh Fruit from Local Markets",
+          "detail": "Purchase papaya, passion fruit, and avocados from Hanga Roa village markets to experience the island's subtropical produce."
+        }
+      ],
+      "culture": [
+        {
+          "id": "motu_c1",
+          "text": "Respect Sacred Site Boundaries",
+          "detail": "Stay on designated paths at Orongo and do not touch or climb on ahu or moai, as these are still considered spiritually significant ancestral sites by Rapanui people."
+        },
+        {
+          "id": "motu_c2",
+          "text": "Learn the Birdman Legend",
+          "detail": "Read about the Birdman (Tangata Manu) competition before visiting so you understand why Motu Nui remains culturally central and can appreciate the landscape's deeper meaning."
+        },
+        {
+          "id": "motu_c3",
+          "text": "Support Local Guides",
+          "detail": "Hire a Rapanui guide from Hanga Roa village to gain insider perspectives on the birdman ritual and current cultural practices that connect to these islets."
+        },
+        {
+          "id": "motu_c4",
+          "text": "Best Visit Timing",
+          "detail": "Visit during October to December to see sooty terns nesting on Motu Nui and coincide with the season when the ancient birdman competition would have taken place."
+        }
+      ]
+    },
+    {
+      "id": "te_pito_te_kura",
+      "name": "Te Pito Te Kura",
+      "nameIt": "Te Pito Te Kura",
+      "lat": -27.1098,
+      "lng": -109.2945,
+      "type": "LANDMARK",
+      "description": "Home to the largest moai ever successfully transported and erected, standing over 10 meters tall and weighing about 82 tons. This monumental achievement showcases the remarkable engineering capabilities of ancient Rapanui culture.",
+      "imageQueries": [
+        "Te Pito Te Kura largest moai",
+        "Te Pito Te Kura Easter Island giant statue"
+      ],
+      "activities": [
+        {
+          "id": "te_p_1",
+          "text": "Marvel at Te Pito Te Kura Moai",
+          "detail": "Stand before the largest successfully erected moai at over 10 meters tall, weighing approximately 82 tons, representing the pinnacle of Rapanui sculptural achievement.",
+          "lat": -27.1247,
+          "lng": -109.2847
+        },
+        {
+          "id": "te_p_2",
+          "text": "Explore the Ahu Platform",
+          "detail": "Examine the stone platform (ahu) upon which Te Pito Te Kura stands, understanding the ceremonial and structural foundations of ancient Rapanui architecture.",
+          "lat": -27.1247,
+          "lng": -109.2847
+        },
+        {
+          "id": "te_p_3",
+          "text": "Visit Nearby Quarry Sites",
+          "detail": "Trek to the volcanic tuff quarries where moai were carved to see unfinished statues and understand the extraction techniques used by ancient artisans.",
+          "lat": -27.13,
+          "lng": -109.29
+        },
+        {
+          "id": "te_p_4",
+          "text": "Walk the Coastal Cliffs",
+          "detail": "Hike along the dramatic cliffside terrain surrounding the site to appreciate the landscape context and panoramic views of the Pacific Ocean.",
+          "lat": -27.125,
+          "lng": -109.285
+        },
+        {
+          "id": "te_p_5",
+          "text": "Photograph at Sunset",
+          "detail": "Return to the moai in late afternoon for spectacular lighting that illuminates the monolith's carved features and creates dramatic shadows across the stone face.",
+          "lat": -27.1247,
+          "lng": -109.2847
+        },
+        {
+          "id": "te_p_6",
+          "text": "Attend Guided Archaeological Tour",
+          "detail": "Join a knowledgeable local guide who explains the moai's history, transportation methods, and theories about its collapse and restoration."
+        }
+      ],
+      "food": [
+        {
+          "id": "te_p_f1",
+          "text": "Umu Pork",
+          "detail": "Traditional earth-oven roasted pork wrapped in banana leaves, a staple celebratory dish reflecting Rapanui's Polynesian culinary heritage."
+        },
+        {
+          "id": "te_p_f2",
+          "text": "Fresh Tuna Ceviche",
+          "detail": "Raw ahi tuna marinated in lime juice with local vegetables, showcasing the island's abundant Pacific catch and Spanish-Polynesian fusion."
+        },
+        {
+          "id": "te_p_f3",
+          "text": "Kumara (Sweet Potato) Dishes",
+          "detail": "Roasted or boiled native Polynesian sweet potatoes served as a side or in traditional stews, connecting to pre-Columbian agriculture."
+        },
+        {
+          "id": "te_p_f4",
+          "text": "Seafood Soup (Cazuela de Mariscos)",
+          "detail": "Hearty broth loaded with local fish, shellfish, and potatoes, warming and nourishing for visitors exploring windswept archaeological sites."
+        },
+        {
+          "id": "te_p_f5",
+          "text": "Fresh Papaya and Local Fruits",
+          "detail": "Tropical fruits grown on the island including papaya, passion fruit, and bananas, refreshing after outdoor exploration in the Pacific sun."
+        }
+      ],
+      "culture": [
+        {
+          "id": "te_p_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "Treat the moai and ahu as sacred spaces; avoid touching the statue directly and follow guide instructions, as these remain spiritually significant to Rapanui people."
+        },
+        {
+          "id": "te_p_c2",
+          "text": "Learn Basic Rapanui Phrases",
+          "detail": "Greet locals with 'Iorana' (hello) and show respect by attempting words in the native language, strengthening cultural connection beyond Spanish and English."
+        },
+        {
+          "id": "te_p_c3",
+          "text": "Visit During Tapati Rapanui Festival",
+          "detail": "If possible, time your visit to late January or early February for this major cultural festival celebrating Rapanui traditions with competitions, music, and ceremonies."
+        },
+        {
+          "id": "te_p_c4",
+          "text": "Hire Local Guides",
+          "detail": "Employ Rapanui guides from the community who provide authentic interpretation and ensure tourism revenue supports indigenous people and archaeological preservation."
+        }
+      ]
+    },
+    {
+      "id": "ana_kai_tangata",
+      "name": "Ana Kai Tangata",
+      "nameIt": "Ana Kai Tangata",
+      "lat": -27.0975,
+      "lng": -109.3046,
+      "type": "LANDMARK",
+      "description": "A coastal cave with a beach inside, located near Anakena with access through the cave mouth at high tide. The site combines archaeological significance with natural beauty and geological interest.",
+      "imageQueries": [
+        "Ana Kai Tangata cave",
+        "Ana Kai Tangata Easter Island beach cave"
+      ],
+      "activities": [
+        {
+          "id": "ana__1",
+          "text": "Explore the Cave Interior",
+          "detail": "Wade through the shallow beach inside the cave at high tide to see the archaeological remains and natural rock formations that create an otherworldly atmosphere.",
+          "lat": -27.0469,
+          "lng": -109.3167
+        },
+        {
+          "id": "ana__2",
+          "text": "Photograph the Cave Mouth Framing",
+          "detail": "Capture the distinctive view of the Pacific Ocean framed through the large natural opening of the cave, especially during golden hour light."
+        },
+        {
+          "id": "ana__3",
+          "text": "Visit the Ahu Platform",
+          "detail": "Examine the restored ceremonial platform and moai remains just outside the cave entrance that demonstrate pre-Columbian construction techniques.",
+          "lat": -27.0469,
+          "lng": -109.3167
+        },
+        {
+          "id": "ana__4",
+          "text": "Tide Pool Exploration",
+          "detail": "Search the cave's tide pools during low tide for endemic sea stars, crabs, and other marine life unique to Easter Island's coastal ecosystem."
+        },
+        {
+          "id": "ana__5",
+          "text": "Archaeological Site Walk",
+          "detail": "Follow the marked paths around Ana Kai Tangata to observe in situ artifacts and learn about the cave's role as a ceremonial and habitation site."
+        },
+        {
+          "id": "ana__6",
+          "text": "Sunset Viewing from Above",
+          "detail": "Hike to the clifftop overlooking Ana Kai Tangata for panoramic views of the cave, beach, and ocean during sunset."
+        }
+      ],
+      "food": [
+        {
+          "id": "ana__f1",
+          "text": "Umu Ahi (Earth Oven Fish)",
+          "detail": "Freshly caught local fish wrapped in banana leaves and cooked in a traditional earth oven, often available at nearby Anakena Beach restaurants."
+        },
+        {
+          "id": "ana__f2",
+          "text": "Seafood Ceviche",
+          "detail": "Raw fish or mixed seafood cured in citrus juice with local herbs, reflecting both Polynesian and Chilean coastal traditions."
+        },
+        {
+          "id": "ana__f3",
+          "text": "Tuna Empanadas",
+          "detail": "Baked pastries filled with local yellowfin tuna and served at small roadside vendors near the Ana Kai Tangata access point."
+        },
+        {
+          "id": "ana__f4",
+          "text": "Algae Soup (Luche)",
+          "detail": "Traditional broth made with edible kelp harvested from Easter Island's waters, rich in minerals and served warm at local eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ana__c1",
+          "text": "Respect Tide Schedules",
+          "detail": "Always check tide tables before visiting as the cave is only safely accessible at high tide, and guides at Anakena can provide current conditions."
+        },
+        {
+          "id": "ana__c2",
+          "text": "Sacred Site Protocol",
+          "detail": "Remember that Ana Kai Tangata is an active sacred Rapa Nui site; avoid removing any artifacts, and be respectful of any ceremonial activities occurring."
+        },
+        {
+          "id": "ana__c3",
+          "text": "Hire a Local Guide",
+          "detail": "Consider hiring a guide from nearby Anakena village who can explain the archaeological context, astronomical alignments, and oral histories tied to the site."
+        }
+      ]
+    },
+    {
+      "id": "rapa_nui",
+      "name": "Rapa Nui (Easter Island)",
+      "nameLocal": "Rapa Nui",
+      "type": "ISLAND",
+      "lat": -27.1127,
+      "lng": -109.3497,
+      "description": "A remote Polynesian island famous for its mysterious moai statues and rich pre-Columbian cultural heritage. It is one of the world's most isolated inhabited islands and a major draw for archaeology and culture enthusiasts.",
+      "activities": [
+        {
+          "id": "rapa_1",
+          "text": "Ahu Tongariki",
+          "detail": "Explore the largest ceremonial platform on the island featuring 15 restored moai statues overlooking the Pacific Ocean.",
+          "lat": -27.0847,
+          "lng": -109.2669
+        },
+        {
+          "id": "rapa_2",
+          "text": "Rano Raraku Moai Quarry",
+          "detail": "Visit the volcanic crater where nearly 95% of Rapa Nui's moai were carved, with nearly 400 statues in various stages of completion still visible.",
+          "lat": -27.12,
+          "lng": -109.29
+        },
+        {
+          "id": "rapa_3",
+          "text": "Anakena Beach",
+          "detail": "Relax on the island's most beautiful white sand beach and see the moai at Ahu Nau, the landing site of Polynesian settlers.",
+          "lat": -27.0567,
+          "lng": -109.284
+        },
+        {
+          "id": "rapa_4",
+          "text": "Orongo Ceremonial Village",
+          "detail": "Hike to this sacred site perched on the crater rim of Rano Kau where the Birdman competition ceremonies once took place.",
+          "lat": -27.1892,
+          "lng": -109.3706
+        },
+        {
+          "id": "rapa_5",
+          "text": "Rano Kau Crater",
+          "detail": "Trek around this massive volcanic crater filled with freshwater reed beds and enjoy panoramic views of three motu islets.",
+          "lat": -27.19,
+          "lng": -109.37
+        },
+        {
+          "id": "rapa_6",
+          "text": "Te Pito Te Kura",
+          "detail": "See the largest moai ever successfully transported and erected, standing 10 meters tall on a restored ceremonial platform.",
+          "lat": -27.0628,
+          "lng": -109.2078
+        },
+        {
+          "id": "rapa_7",
+          "text": "Anakena Archaeological Museum",
+          "detail": "View the only female moai with restored white coral eyes and learn about Rapa Nui's settlement and moai-building history.",
+          "lat": -27.0733,
+          "lng": -109.3653
+        },
+        {
+          "id": "rapa_8",
+          "text": "Papa Vaka",
+          "detail": "Examine a partially restored ahu with petroglyphs of tuna fish and canoes carved into the rocks, representing traditional maritime themes.",
+          "lat": -27.0922,
+          "lng": -109.3072
+        }
+      ],
+      "food": [
+        {
+          "id": "rapa_f1",
+          "text": "Umu",
+          "detail": "A traditional earth oven feast where meat, seafood, and vegetables are slow-cooked underground wrapped in banana leaves for hours."
+        },
+        {
+          "id": "rapa_f2",
+          "text": "Tuna Ceviche",
+          "detail": "Fresh locally caught tuna marinated in lime juice with coconut milk, cilantro, and chili peppers reflecting Pacific Island flavors."
+        },
+        {
+          "id": "rapa_f3",
+          "text": "Curanto",
+          "detail": "A Polynesian seafood and meat stew with shellfish, fish, and potatoes traditionally cooked in volcanic stone pits."
+        },
+        {
+          "id": "rapa_f4",
+          "text": "Poisson Cru",
+          "detail": "Raw fish salad with coconut milk, tomatoes, onions, and lime juice that reflects French-Polynesian culinary fusion."
+        },
+        {
+          "id": "rapa_f5",
+          "text": "Sweet Potato and Taro",
+          "detail": "Ancient staple crops still cultivated on the island and served boiled or incorporated into traditional Rapa Nui meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rapa_c1",
+          "text": "Respect Sacred Sites",
+          "detail": "Do not touch or climb on moai statues as they are sacred tapu (taboo) objects; stay on marked paths and hire local guides for deeper cultural understanding."
+        },
+        {
+          "id": "rapa_c2",
+          "text": "Learn Basic Rapa Nui Language",
+          "detail": "The local people speak Te Reo Rapa Nui alongside Spanish; learning a few words shows respect and connects you to the living Polynesian culture."
+        },
+        {
+          "id": "rapa_c3",
+          "text": "Participate in Local Festivals",
+          "detail": "Visit during Tapati Rapa Nui (February) to experience traditional competitions, crafts, and music celebrating indigenous heritage."
+        },
+        {
+          "id": "rapa_c4",
+          "text": "Support Local Artisans",
+          "detail": "Purchase handicrafts directly from Rapa Nui artisans rather than mass-produced souvenirs to support the community and ensure authenticity."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Te Moana",
+      "address": "Avenida Te Pito Te Kura s/n, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Oceanfront fine dining restaurant specializing in fresh local fish and traditional Rapa Nui preparations with contemporary plating.",
+      "mustOrder": "Tuna Ceviche with Local Herbs",
+      "lat": -27.1927,
+      "lng": -109.3667
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "La Kaleta",
+      "address": "Calle Policarpo Toro 229, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual beachside spot known for generous portions of grilled fish and generous seafood platters at reasonable prices.",
+      "mustOrder": "Mixed Grilled Fish Plate",
+      "lat": -27.1945,
+      "lng": -109.3678
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Tataku",
+      "address": "Avenida Atamu Tekena 140, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Peruvian",
+      "priceRange": "€€€",
+      "description": "Upscale Peruvian restaurant featuring ceviche, tiradito, and modern takes on Andean cuisine with locally sourced seafood.",
+      "mustOrder": "Tiradito de Mero",
+      "lat": -27.1956,
+      "lng": -109.3685
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "O Hotu",
+      "address": "Calle Aotearoa s/n, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€",
+      "description": "Relaxed dining with Mediterranean flavors, fresh vegetables, and quality Chilean wines in an intimate garden setting.",
+      "mustOrder": "Salmon with Local Passion Fruit Sauce",
+      "lat": -27.1965,
+      "lng": -109.3692
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Kona Kai",
+      "address": "Avenida Policarpo Toro s/n, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "International",
+      "priceRange": "€€€",
+      "description": "Established fine dining restaurant with creative fusion cuisine balancing local ingredients with international techniques and ocean views.",
+      "mustOrder": "Easter Island Lobster Tail",
+      "lat": -27.1972,
+      "lng": -109.3699
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Cabrera's Café",
+      "address": "Calle Akahanga 52, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Café/Light",
+      "priceRange": "€",
+      "description": "Charming local café perfect for breakfast, sandwiches, coffee and pastries with friendly service and authentic island atmosphere.",
+      "mustOrder": "Empanadas with Local Cheese",
+      "lat": -27.1985,
+      "lng": -109.3705
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Pea Soup",
+      "address": "Avenida Te Pito Te Kura 1, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Chilean",
+      "priceRange": "€€",
+      "description": "Traditional Chilean restaurant serving hearty local dishes, fresh seafood stews, and regional specialties in a warm setting.",
+      "mustOrder": "Caldillo de Congrio",
+      "lat": -27.1935,
+      "lng": -109.366
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Te Fiti Oka",
+      "address": "Calle Pua 10, Anakena",
+      "neighbourhood": "Anakena",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Beach restaurant near Anakena offering fresh fish, local crab, and traditional Rapa Nui dishes with direct oceanfront access.",
+      "mustOrder": "Grilled Local Langosta",
+      "lat": -27.0673,
+      "lng": -109.3158
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Mama Nena",
+      "address": "Policarpo Toro 316, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Chilean/Creole",
+      "priceRange": "€€",
+      "description": "Family-run restaurant famous for authentic Chilean comfort food, homemade empanadas, and traditional island recipes passed down generations.",
+      "mustOrder": "Empanadas de Carne and Humitas",
+      "lat": -27.195,
+      "lng": -109.368
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Ottava",
+      "address": "Avenida Atamu Tekena s/n, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Casual Italian restaurant with homemade pasta, risotto, and pizzas using imported ingredients and local seafood combinations.",
+      "mustOrder": "Spaghetti ai Frutti di Mare",
+      "lat": -27.194,
+      "lng": -109.3675
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Aurora Austral",
+      "address": "Calle Te Pito Te Kura 200, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "International",
+      "priceRange": "€€€€",
+      "description": "Upscale hotel restaurant with innovative dishes, refined service, premium wines, and views of the Pacific from an elegant dining room.",
+      "mustOrder": "Ceviche with Ají Amarillo",
+      "lat": -27.1925,
+      "lng": -109.3665
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Taha Tai",
+      "address": "Avenida Policarpo Toro s/n, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Oceanfront restaurant known for creative seafood preparations, fresh daily catches, and Polynesian-inspired seasonal menus.",
+      "mustOrder": "Totuava en Costra de Sal",
+      "lat": -27.1963,
+      "lng": -109.369
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Ariki",
+      "address": "Calle Akahanga 5, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Chilean",
+      "priceRange": "€€",
+      "description": "Local favorite serving traditional Chilean fare, excellent pastas, and quality seafood in a casual, unpretentious environment.",
+      "mustOrder": "Reineta a la Mantequilla",
+      "lat": -27.1988,
+      "lng": -109.371
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Arue",
+      "address": "Avenida Te Pito Te Kura 125, Hanga Roa",
+      "neighbourhood": "Hanga Roa",
+      "cuisine": "Fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant blending Rapa Nui traditions with modern techniques, emphasizing seasonal ingredients and artistic presentation.",
+      "mustOrder": "Tuna Wonton with Passion Fruit Coulis",
+      "lat": -27.193,
+      "lng": -109.367
+    }
+  ]
+}

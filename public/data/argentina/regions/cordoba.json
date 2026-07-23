@@ -1,0 +1,1327 @@
+{
+  "id": "cordoba",
+  "name": "Córdoba",
+  "nameIt": "Córdoba",
+  "capital": "Córdoba",
+  "lat": -31.4201,
+  "lng": -64.1888,
+  "emoji": "⛪",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": -29.5,
+    "south": -34,
+    "east": -62,
+    "west": -66.5
+  },
+  "history": "Córdoba was founded in 1573 by Jerónimo Luis de Cabrera as a strategic settlement in the heart of Argentina. During the colonial period, it became an important religious and educational center, home to the Jesuit order who established the National University of Córdoba in 1613, the oldest university in Argentina. The city grew as a hub for trade and culture throughout the 18th and 19th centuries, playing a significant role in Argentine independence and political development. In the 20th century, Córdoba emerged as an industrial powerhouse, particularly in automobile manufacturing, which shaped its modern identity.",
+  "culturalNotes": "Córdoba is known for its strong intellectual and artistic heritage, with a vibrant university culture that continues to influence the city's progressive character. The city takes pride in its baroque colonial architecture, including the iconic Cathedral and Cabildo, which reflect its Spanish heritage and religious significance. Local traditions include a passion for music and the arts, with the city hosting numerous cultural festivals and producing influential musicians, while its residents are known for their distinctive accent and proud regional identity within Argentina.",
+  "bestTimeToVisit": "April to October offers mild temperatures ideal for exploring colonial architecture and surrounding valleys.",
+  "languageNotes": "In Córdoba, Spanish is spoken with a characteristic local accent and intonation that sets it apart from other Argentine regions, featuring distinctive pronunciation of certain consonants. Useful local expressions include 'che boludo' as a casual greeting among friends, and locals often use diminutives affectionately, such as 'boludo' or 'che' when addressing someone informally.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "cordoba_city",
+      "name": "Córdoba",
+      "nameIt": "Córdoba",
+      "lat": -31.4135,
+      "lng": -64.1811,
+      "type": "CITY",
+      "description": "Argentina's second-largest city and the cultural heart of the region, known for its colonial architecture, vibrant student population, and excellent museums. The historic center features the stunning Catedral Metropolitana and the Cabildo, making it an essential base for exploring the province.",
+      "imageQueries": [
+        "Córdoba Argentina cathedral plaza",
+        "Córdoba city historic center"
+      ],
+      "activities": [
+        {
+          "id": "cord_1",
+          "text": "Catedral Metropolitana",
+          "detail": "A stunning baroque cathedral dominating the Plaza San Martín, featuring ornate wooden ceilings and intricate religious artwork that represents the city's colonial heritage.",
+          "lat": -31.41601,
+          "lng": -64.18869
+        },
+        {
+          "id": "cord_2",
+          "text": "Cabildo de Córdoba",
+          "detail": "The 18th-century colonial seat of government now serves as a museum displaying artifacts from the city's founding and independence periods.",
+          "lat": -31.41635,
+          "lng": -64.18924
+        },
+        {
+          "id": "cord_3",
+          "text": "Museo Superior de Bellas Artes Evita",
+          "detail": "A world-class art museum housed in a former palace, showcasing Argentine and European paintings, sculptures, and decorative arts from multiple centuries.",
+          "lat": -31.42054,
+          "lng": -64.19465
+        },
+        {
+          "id": "cord_4",
+          "text": "Jesuit Block (Manzana Jesuítica)",
+          "detail": "A UNESCO World Heritage site comprising the Jesuit residence, chapel, and college, offering guided tours through beautifully restored colonial architecture.",
+          "lat": -31.41553,
+          "lng": -64.18777
+        },
+        {
+          "id": "cord_5",
+          "text": "Paseo Buen Pastor",
+          "detail": "A restored 19th-century chapel complex transformed into a shopping and entertainment hub with restaurants, boutiques, and cultural spaces overlooking the city.",
+          "lat": -31.41825,
+          "lng": -64.19182
+        },
+        {
+          "id": "cord_6",
+          "text": "Chateau Carreras Winery Tour",
+          "detail": "Just outside the city, this historic winery offers tastings of Córdoba's wine production and tours of its vintage cellars and vineyards.",
+          "lat": -31.47246,
+          "lng": -64.25312
+        }
+      ],
+      "food": [
+        {
+          "id": "cord_f1",
+          "text": "Chopp Cordobés",
+          "detail": "A local blonde beer style unique to Córdoba, served cold and often enjoyed as a social staple in the city's numerous beer bars and restaurants."
+        },
+        {
+          "id": "cord_f2",
+          "text": "Milanesa",
+          "detail": "A thin, breaded and fried meat cutlet typically served with lemon and chimichurri, representing a cornerstone of Argentine cuisine found throughout the city."
+        },
+        {
+          "id": "cord_f3",
+          "text": "Empanadas Cordobesas",
+          "detail": "Savory pastries filled with meat, potatoes, and hard-boiled egg that reflect the region's traditional recipe distinct from other Argentine provinces."
+        },
+        {
+          "id": "cord_f4",
+          "text": "Asado",
+          "detail": "Grilled meats cooked over open flame, a quintessential Argentine experience featuring beef, chorizo, and offal served family-style at parrillas throughout the city."
+        },
+        {
+          "id": "cord_f5",
+          "text": "Dulce de Leche",
+          "detail": "The caramelized milk spread used in desserts, alfajores, and eaten plain, represents a cherished Argentine indulgence found in every local bakery."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cord_c1",
+          "text": "University City Culture",
+          "detail": "Córdoba is home to Argentina's oldest university (founded 1613), giving it a youthful vibe with countless cafés, bookstores, and nightlife concentrated in student neighborhoods."
+        },
+        {
+          "id": "cord_c2",
+          "text": "Siesta Tradition",
+          "detail": "Many shops and offices close between 12:30 and 4:00 PM for lunch and rest, so plan your sightseeing accordingly and embrace the leisurely pace of life."
+        },
+        {
+          "id": "cord_c3",
+          "text": "Spanish Spoken Clearly Here",
+          "detail": "Cordobans speak Spanish distinctly with their own accent and local expressions, making it an excellent place to practice if you're learning the language, as residents are patient with learners."
+        },
+        {
+          "id": "cord_c4",
+          "text": "Plaza San Martín as Social Hub",
+          "detail": "The main plaza serves as the city's beating heart where locals gather to socialize, watch street performers, and observe the rhythm of daily Cordoban life."
+        }
+      ]
+    },
+    {
+      "id": "jesuitas_estancias",
+      "name": "Estancias of Córdoba",
+      "nameIt": "Estancias Jesuíticas",
+      "lat": -31.5167,
+      "lng": -63.7333,
+      "type": "LANDMARK",
+      "description": "A UNESCO World Heritage Site comprising six Jesuit estancias (rural estates) built in the 17th and 18th centuries, showcasing colonial religious and agricultural heritage. These beautifully preserved compounds offer insight into the Jesuit influence in South America and feature remarkable architecture and artwork.",
+      "imageQueries": [
+        "Estancias Jesuíticas Córdoba UNESCO",
+        "Jesuit estancia Córdoba colonial"
+      ],
+      "activities": [
+        {
+          "id": "jesu_1",
+          "text": "Tour Estancia Jesuítica de Jesús María",
+          "detail": "Visit the most accessible and well-preserved estancia featuring a baroque chapel, colonial residence, and museum displaying religious art and artifacts from the 17th century.",
+          "lat": -31.4161,
+          "lng": -64.3456
+        },
+        {
+          "id": "jesu_2",
+          "text": "Explore Estancia de Santa Catalina",
+          "detail": "Discover one of the most remote and architecturally significant estancias nestled in the Sierras Chicas with its fortified design and stunning mountain backdrop.",
+          "lat": -31.6278,
+          "lng": -64.6789
+        },
+        {
+          "id": "jesu_3",
+          "text": "Visit the Sacred Art Museum at Estancia Jesuítica de Córdoba",
+          "detail": "Browse colonial religious paintings, sculptures, and liturgical objects housed in the restored colonial buildings that illustrate the spiritual life of Jesuit missionaries."
+        },
+        {
+          "id": "jesu_4",
+          "text": "Walk the Estancia Circuit Self-Guided Trail",
+          "detail": "Connect multiple estancias by car or organized tour to compare architectural styles and understand the evolution of Jesuit agricultural and religious settlements across the region."
+        },
+        {
+          "id": "jesu_5",
+          "text": "Attend a Classical Concert at Estancia Jesús María",
+          "detail": "Experience baroque and colonial-era music performed in the historic chapel during the summer concert season for an immersive cultural experience."
+        },
+        {
+          "id": "jesu_6",
+          "text": "Study the Pulpería (Colonial Store)",
+          "detail": "Examine preserved examples of the trading rooms where Jesuit communities sold agricultural products and managed commerce with local settlements."
+        }
+      ],
+      "food": [
+        {
+          "id": "jesu_f1",
+          "text": "Humita Cordobesa",
+          "detail": "A creamed corn dish traditionally prepared with white corn, onions, and cheese, reflecting the agricultural abundance of the Jesuit estancias."
+        },
+        {
+          "id": "jesu_f2",
+          "text": "Locro de Córdoba",
+          "detail": "A hearty slow-cooked stew with corn, beans, squash, and meat that represents the harvest-based cuisine developed on the estancia lands."
+        },
+        {
+          "id": "jesu_f3",
+          "text": "Empanadas Jesuíticas",
+          "detail": "Filled pastries with regional variations using corn, cheese, and local spices that were historically prepared in the estancia kitchens."
+        },
+        {
+          "id": "jesu_f4",
+          "text": "Fresh Córdoba Cheese",
+          "detail": "Local artisanal cheeses produced using traditional methods originating from the dairy operations established by Jesuit communities centuries ago."
+        },
+        {
+          "id": "jesu_f5",
+          "text": "Dulce de Leche de la Región",
+          "detail": "Caramelized milk spread made from locally-sourced dairy, continuing a tradition of milk-based desserts from the colonial period."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jesu_c1",
+          "text": "Dress for Mountain Weather",
+          "detail": "The estancias are located in the Sierras Chicas, where weather changes rapidly; bring layers even during summer months for comfort while exploring outdoor grounds."
+        },
+        {
+          "id": "jesu_c2",
+          "text": "Respect Religious Spaces",
+          "detail": "Many chapels remain active places of worship; visitors should dress modestly and maintain quiet reverence in sacred areas, particularly during service times."
+        },
+        {
+          "id": "jesu_c3",
+          "text": "Book Tours in Advance During Peak Season",
+          "detail": "Summer months (December-February) and Argentine holidays fill tours quickly; pre-booking ensures access to guided explanations in Spanish or English."
+        },
+        {
+          "id": "jesu_c4",
+          "text": "Learn Basic Spanish Colonial History",
+          "detail": "Familiarizing yourself with Jesuit missions and 17th-century South American colonialism enriches understanding of the artifacts, architecture, and regional significance you'll encounter."
+        }
+      ]
+    },
+    {
+      "id": "villa_carlos_paz",
+      "name": "Villa Carlos Paz",
+      "nameIt": "Villa Carlos Paz",
+      "lat": -31.4039,
+      "lng": -64.4958,
+      "type": "TOWN",
+      "description": "A charming lakeside resort town in the Sierras Chicas, famous for its beaches on the artificial Lago San Roque and vibrant summer atmosphere. The town offers outdoor activities, entertainment venues, and serves as a gateway to the mountain region.",
+      "imageQueries": [
+        "Villa Carlos Paz lake Córdoba",
+        "Villa Carlos Paz beach resort"
+      ],
+      "activities": [
+        {
+          "id": "vill_1",
+          "text": "Lago San Roque Beach Swimming",
+          "detail": "Enjoy swimming and sunbathing on the sandy beaches along the artificial lake, the town's main attraction during summer months.",
+          "lat": -31.4203,
+          "lng": -64.4908
+        },
+        {
+          "id": "vill_2",
+          "text": "Aerosilla (Cable Car Ride)",
+          "detail": "Take the iconic chairlift that ascends into the Sierras Chicas mountains offering panoramic views of the lake and surrounding landscape.",
+          "lat": -31.4231,
+          "lng": -64.4879
+        },
+        {
+          "id": "vill_3",
+          "text": "Complejo Ferial Shopping and Entertainment",
+          "detail": "Visit the fair complex with shops, restaurants, and entertainment venues that hosts the famous Fiesta Nacional de la Virgen del Carmen in July.",
+          "lat": -31.418,
+          "lng": -64.4935
+        },
+        {
+          "id": "vill_4",
+          "text": "Hiking in Sierras Chicas",
+          "detail": "Explore mountain trails through pine forests and rock formations surrounding the town, suitable for various difficulty levels.",
+          "lat": -31.415,
+          "lng": -64.485
+        },
+        {
+          "id": "vill_5",
+          "text": "Water Sports on Lago San Roque",
+          "detail": "Rent jet skis, paddleboards, kayaks, or take parasailing trips on the lake's calm waters.",
+          "lat": -31.4203,
+          "lng": -64.4908
+        },
+        {
+          "id": "vill_6",
+          "text": "Iglesia Parroquial de San Carlos Borromeo",
+          "detail": "Visit the town's main church featuring distinctive architecture and serving as a cultural landmark in the central plaza.",
+          "lat": -31.4207,
+          "lng": -64.4925
+        }
+      ],
+      "food": [
+        {
+          "id": "vill_f1",
+          "text": "Choripán",
+          "detail": "A traditional Argentine sandwich of grilled chorizo served on crusty bread, commonly found at lakeside vendors and casual eateries."
+        },
+        {
+          "id": "vill_f2",
+          "text": "Fresh Grilled Fish from Lago San Roque",
+          "detail": "Local restaurants serve pejerrey and other freshwater fish caught from the lake, typically grilled simply with local herbs."
+        },
+        {
+          "id": "vill_f3",
+          "text": "Milanesa Cordobesa",
+          "detail": "A breaded and fried thin-cut meat cutlet, a regional specialty often served with fries and chimichurri sauce."
+        },
+        {
+          "id": "vill_f4",
+          "text": "Empanadas Cordobesas",
+          "detail": "Baked pastries filled with ground meat, onions, and spices, reflecting the local culinary tradition of Córdoba province."
+        },
+        {
+          "id": "vill_f5",
+          "text": "Dulce de Leche Desserts",
+          "detail": "Sample regional sweet treats featuring Argentina's famous caramel-like dulce de leche, often in alfajores or on pastries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vill_c1",
+          "text": "Summer Season Peak (December-February)",
+          "detail": "Villa Carlos Paz is busiest and most vibrant during Argentine summer holidays; plan accordingly as prices rise and accommodation fills quickly."
+        },
+        {
+          "id": "vill_c2",
+          "text": "Fiesta Nacional de la Virgen del Carmen (July)",
+          "detail": "The major annual festival celebrates the town's patron saint with parades, music, and cultural events; book ahead if visiting during this time."
+        },
+        {
+          "id": "vill_c3",
+          "text": "Siesta Culture",
+          "detail": "Many local businesses close between 1-4 PM for lunch and rest; plan activities accordingly and embrace the relaxed pace of the lakeside town."
+        },
+        {
+          "id": "vill_c4",
+          "text": "Spanish is Primary Language",
+          "detail": "While some tourism workers speak English, learning basic Spanish phrases will enhance your experience and be appreciated by locals."
+        }
+      ]
+    },
+    {
+      "id": "villa_general_belgrano",
+      "name": "Villa General Belgrano",
+      "nameIt": "Villa General Belgrano",
+      "lat": -31.9603,
+      "lng": -65.3522,
+      "type": "TOWN",
+      "description": "A picturesque mountain village in the Sierras del Sur with German-influenced architecture, charming cafes, and a relaxed alpine atmosphere. Known for its annual Oktoberfest and excellent chocolate shops, it's a perfect escape for visitors seeking mountain scenery and cultural experiences.",
+      "imageQueries": [
+        "Villa General Belgrano Córdoba alpine",
+        "Villa General Belgrano German architecture"
+      ],
+      "activities": [
+        {
+          "id": "vill_1",
+          "text": "Chocolate Factory Tours",
+          "detail": "Visit artisanal chocolate shops like Grillon or local makers to see handcrafted chocolate production and sample specialty truffles and pralines unique to the region."
+        },
+        {
+          "id": "vill_2",
+          "text": "Hiking in Sierras del Sur",
+          "detail": "Explore mountain trails around the village offering varying difficulty levels with panoramic views of the valley and surrounding peaks.",
+          "lat": -31.9333,
+          "lng": -65.4167
+        },
+        {
+          "id": "vill_3",
+          "text": "Oktoberfest Festival",
+          "detail": "Experience the annual October celebration featuring traditional German beer, food stalls, live music, and folk dancing that fills the village streets.",
+          "lat": -31.9333,
+          "lng": -65.4167
+        },
+        {
+          "id": "vill_4",
+          "text": "Craft Beer Tasting",
+          "detail": "Sample locally produced craft beers at small breweries and bars reflecting the German heritage and alpine village character.",
+          "lat": -31.9333,
+          "lng": -65.4167
+        },
+        {
+          "id": "vill_5",
+          "text": "Villa General Belgrano Museum",
+          "detail": "Learn about the village's German immigrant history and cultural development through exhibits and local artifacts.",
+          "lat": -31.9333,
+          "lng": -65.4167
+        },
+        {
+          "id": "vill_6",
+          "text": "Horseback Riding Tours",
+          "detail": "Ride through mountain trails and rural countryside surrounding the village with local guides familiar with the terrain."
+        }
+      ],
+      "food": [
+        {
+          "id": "vill_f1",
+          "text": "Strudel",
+          "detail": "Traditional German apple strudel with flaky pastry and cinnamon-spiced apples, served warm at local cafes and bakeries."
+        },
+        {
+          "id": "vill_f2",
+          "text": "Homemade Chocolate",
+          "detail": "Artisanal chocolate products made fresh in local shops, including dark chocolate bars, filled chocolates, and specialty seasonal treats."
+        },
+        {
+          "id": "vill_f3",
+          "text": "German-Style Sausages",
+          "detail": "Authentic bratwurst and other German sausages served at village restaurants and during Oktoberfest, often accompanied by sauerkraut."
+        },
+        {
+          "id": "vill_f4",
+          "text": "Alpina Cheese",
+          "detail": "Local and regional cheeses reflecting alpine dairy traditions, often served on boards with bread at mountain lodges and restaurants."
+        },
+        {
+          "id": "vill_f5",
+          "text": "Black Forest Cake",
+          "detail": "Rich German chocolate cake with cherries and cream, a specialty dessert found in local bakeries and traditional cafes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vill_c1",
+          "text": "German Heritage Embraced",
+          "detail": "The village celebrates its German immigrant roots year-round through architecture, cuisine, and festivals, so visitors will encounter German spoken alongside Spanish."
+        },
+        {
+          "id": "vill_c2",
+          "text": "Peak Season Timing",
+          "detail": "October's Oktoberfest draws large crowds, but spring and autumn offer pleasant weather with fewer tourists for a more peaceful alpine experience."
+        },
+        {
+          "id": "vill_c3",
+          "text": "Relaxed Mountain Pace",
+          "detail": "Villa General Belgrano operates on a leisurely schedule with many shops and restaurants closing mid-afternoon for siesta, so plan activities accordingly."
+        },
+        {
+          "id": "vill_c4",
+          "text": "Cash Preferred",
+          "detail": "While cards are accepted at larger establishments, many small chocolate shops, family-run cafes, and mountain guides prefer cash payments in Argentine pesos."
+        }
+      ]
+    },
+    {
+      "id": "cosquin",
+      "name": "Cosquín",
+      "nameIt": "Cosquín",
+      "lat": -31.2533,
+      "lng": -64.4533,
+      "type": "TOWN",
+      "description": "A cultural hub in the Sierras Chicas famous for its International Folk Festival held annually in January, attracting musicians and artists from around the world. The town combines mountain landscapes with a thriving artistic community and traditional Argentine folk culture.",
+      "imageQueries": [
+        "Cosquín folk festival Argentina",
+        "Cosquín mountain town Córdoba"
+      ],
+      "activities": [
+        {
+          "id": "cosq_1",
+          "text": "International Folk Festival",
+          "detail": "Attend the world-renowned Festival Nacional de Folklore held every January, featuring traditional music, dance, and crafts from Argentina and international performers.",
+          "lat": -31.7433,
+          "lng": -64.4658
+        },
+        {
+          "id": "cosq_2",
+          "text": "Paseo de los Artesanos",
+          "detail": "Stroll through this artisan market and cultural walkway in the town center where local craftspeople sell handmade textiles, ceramics, and wooden goods.",
+          "lat": -31.7441,
+          "lng": -64.467
+        },
+        {
+          "id": "cosq_3",
+          "text": "Sierras Chicas Trekking",
+          "detail": "Explore the nearby mountain trails through the Sierras Chicas range with stunning views of valleys and rock formations surrounding the town.",
+          "lat": -31.75,
+          "lng": -64.47
+        },
+        {
+          "id": "cosq_4",
+          "text": "Peña Folclórica",
+          "detail": "Experience live traditional folk music and dance performances at intimate venue gatherings, especially abundant during festival season and weekends.",
+          "lat": -31.7438,
+          "lng": -64.4665
+        },
+        {
+          "id": "cosq_5",
+          "text": "Museo de Instrumentos Folklóricos",
+          "detail": "Visit this small museum displaying traditional Argentine folk instruments including guitars, charangos, and percussion instruments used in regional music."
+        },
+        {
+          "id": "cosq_6",
+          "text": "Río Cosquín Swimming Holes",
+          "detail": "Cool off in natural pools and swimming areas along the Río Cosquín, particularly popular during summer months from December to February.",
+          "lat": -31.746,
+          "lng": -64.468
+        }
+      ],
+      "food": [
+        {
+          "id": "cosq_f1",
+          "text": "Locro",
+          "detail": "A hearty stew of corn, beans, meat, and squash slow-cooked with regional spices, representing traditional Andean cuisine of the Córdoba mountains."
+        },
+        {
+          "id": "cosq_f2",
+          "text": "Empanadas Cordobesas",
+          "detail": "Baked pastry pockets filled with seasoned ground beef, hard-boiled egg, and olives, a signature regional specialty found in local bakeries and markets."
+        },
+        {
+          "id": "cosq_f3",
+          "text": "Queso de Máquina",
+          "detail": "A semi-hard cow's cheese produced locally in the Sierras Chicas region, often served fresh at markets and paired with regional wines."
+        },
+        {
+          "id": "cosq_f4",
+          "text": "Humita",
+          "detail": "A delicate corn pudding wrapped in corn husks and steamed, made with fresh corn, cheese, and peppers as a traditional Córdoba dish."
+        },
+        {
+          "id": "cosq_f5",
+          "text": "Choripán from Local Parrillas",
+          "detail": "Grilled chorizo sandwich on fresh bread, a staple street food available at outdoor grills throughout town, especially during festival events."
+        },
+        {
+          "id": "cosq_f6",
+          "text": "Dulce de Leche",
+          "detail": "Sweet caramelized milk paste served on bread, in pastries, or as a dessert accompaniment, produced by local artisans and available in town shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cosq_c1",
+          "text": "Festival Season Crowds",
+          "detail": "January transforms Cosquín dramatically as the International Folk Festival draws thousands; book accommodations months in advance and expect crowded streets and venues."
+        },
+        {
+          "id": "cosq_c2",
+          "text": "Respectful Engagement with Musicians",
+          "detail": "The local music community is central to town identity; show genuine interest in folk traditions and musicians appreciate when visitors ask about the cultural significance of instruments and songs."
+        },
+        {
+          "id": "cosq_c3",
+          "text": "Siesta Culture Still Strong",
+          "detail": "Many shops and restaurants close between 13:00 and 16:00 for afternoon rest; plan activities accordingly and expect reduced services during these hours."
+        },
+        {
+          "id": "cosq_c4",
+          "text": "Spanish Language Helpful",
+          "detail": "While some tourist-facing businesses speak English, Cosquín remains primarily Spanish-speaking; learning basic phrases enhances interactions with artisans and locals."
+        }
+      ]
+    },
+    {
+      "id": "alta_gracia",
+      "name": "Alta Gracia",
+      "nameIt": "Alta Gracia",
+      "lat": -31.6817,
+      "lng": -64.4294,
+      "type": "TOWN",
+      "description": "A historic colonial town in the foothills featuring the iconic Jesuit Estancia de Alta Gracia and the former residence of Che Guevara, now a museum. The town offers mountain views, cultural attractions, and a well-preserved colonial atmosphere.",
+      "imageQueries": [
+        "Alta Gracia Estancia Jesuita",
+        "Che Guevara house Alta Gracia"
+      ],
+      "activities": [
+        {
+          "id": "alta_1",
+          "text": "Estancia de Alta Gracia",
+          "detail": "Tour the 17th-century Jesuit estate featuring baroque architecture, courtyards, and religious art that showcases colonial religious life in the region.",
+          "lat": -31.788,
+          "lng": -64.4328
+        },
+        {
+          "id": "alta_2",
+          "text": "Che Guevara House Museum",
+          "detail": "Visit the childhood home of Ernesto 'Che' Guevara, now a museum displaying personal artifacts, photographs, and documents about his early life and family.",
+          "lat": -31.7892,
+          "lng": -64.4335
+        },
+        {
+          "id": "alta_3",
+          "text": "Plaza Principal walk and colonial architecture",
+          "detail": "Stroll through the main plaza and surrounding streets to admire well-preserved colonial buildings, whitewashed facades, and the peaceful mountain-town atmosphere.",
+          "lat": -31.7895,
+          "lng": -64.4312
+        },
+        {
+          "id": "alta_4",
+          "text": "Hiking in the Sierras Chicas foothills",
+          "detail": "Explore numerous hiking trails in the surrounding mountains offering views of the Córdoba valleys and native vegetation of the region.",
+          "lat": -31.785,
+          "lng": -64.42
+        },
+        {
+          "id": "alta_5",
+          "text": "Local artisan workshops and galleries",
+          "detail": "Browse studios and small shops featuring traditional crafts, ceramics, textiles, and regional artwork created by local artisans."
+        },
+        {
+          "id": "alta_6",
+          "text": "Sunday farmers market",
+          "detail": "Visit the weekly market to sample fresh produce, honey, cheese, and handicrafts directly from regional producers."
+        }
+      ],
+      "food": [
+        {
+          "id": "alta_f1",
+          "text": "Empanadas cordobesas",
+          "detail": "Savory hand pies filled with meat, cheese, or vegetables, a traditional Córdoba specialty that reflects Spanish colonial influence."
+        },
+        {
+          "id": "alta_f2",
+          "text": "Locro",
+          "detail": "A hearty stew made with corn, beans, squash, and meat that is especially popular during autumn and winter months in the mountain towns."
+        },
+        {
+          "id": "alta_f3",
+          "text": "Dulce de leche",
+          "detail": "Argentina's signature caramelized milk paste, often enjoyed with fresh cheese or on pastries at local cafés and confiterías."
+        },
+        {
+          "id": "alta_f4",
+          "text": "Fresh mountain cheese",
+          "detail": "Local dairy products including artisanal cheeses made from cow's milk by regional producers, showcasing the surrounding agricultural heritage."
+        },
+        {
+          "id": "alta_f5",
+          "text": "Cordero a la cruz",
+          "detail": "Grilled lamb cooked over open fire in the traditional Andean style, reflecting the local gaucho and mountain-region culinary traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "alta_c1",
+          "text": "Respect the siesta tradition",
+          "detail": "Many shops and services close between 12 and 4 PM, so plan activities accordingly and embrace the slower pace of colonial mountain life."
+        },
+        {
+          "id": "alta_c2",
+          "text": "Spanish is essential",
+          "detail": "English is rarely spoken in Alta Gracia; learning basic Spanish phrases will greatly enhance your experience and interactions with locals."
+        },
+        {
+          "id": "alta_c3",
+          "text": "Visit museums in the morning",
+          "detail": "Cultural attractions often have limited afternoon hours and may close on Mondays or Tuesdays, so confirm schedules in advance."
+        },
+        {
+          "id": "alta_c4",
+          "text": "Dress for mountain weather",
+          "detail": "Temperatures can vary significantly between sun and shade in the foothills; bring layers and sturdy walking shoes for exploring colonial streets and trails."
+        }
+      ]
+    },
+    {
+      "id": "merced_lake",
+      "name": "Lago de la Merced",
+      "nameIt": "Lago de la Merced",
+      "lat": -31.7528,
+      "lng": -64.8231,
+      "type": "NATURE",
+      "description": "A serene mountain lake surrounded by lush forests and rocky peaks, offering stunning natural beauty and outdoor recreation. The lake is ideal for hiking, photography, and experiencing the pristine mountain environment of the western Sierras.",
+      "imageQueries": [
+        "Lago de la Merced Córdoba mountain lake",
+        "Merced lake nature reserve"
+      ],
+      "activities": [
+        {
+          "id": "merc_1",
+          "text": "Circuito Chico Trail Loop",
+          "detail": "A moderate 8-kilometer hiking trail that circles the lake through native forest, offering multiple viewpoints of the water and surrounding peaks.",
+          "lat": -31.9422,
+          "lng": -65.0489
+        },
+        {
+          "id": "merc_2",
+          "text": "Cerro Champaquí Summit Trek",
+          "detail": "A challenging day hike to the highest peak in Córdoba Province (2,884 m) starting from near the lake, rewarding climbers with panoramic views across three provinces.",
+          "lat": -31.9356,
+          "lng": -65.0534
+        },
+        {
+          "id": "merc_3",
+          "text": "Lakeside Photography",
+          "detail": "Capture pristine mountain reflections in the clear waters, especially during sunrise and sunset when light illuminates the rocky peaks and forest canopy.",
+          "lat": -31.9422,
+          "lng": -65.0489
+        },
+        {
+          "id": "merc_4",
+          "text": "Fishing for Introduced Trout",
+          "detail": "The lake contains introduced rainbow and brown trout populations, offering fly-fishing and spinning opportunities in a high-altitude mountain setting.",
+          "lat": -31.9422,
+          "lng": -65.0489
+        },
+        {
+          "id": "merc_5",
+          "text": "Forest Bathing and Birdwatching",
+          "detail": "Immerse yourself in the pristine Yungas cloud forest ecosystem where you can observe Andean condors, mountain eagles, and endemic bird species.",
+          "lat": -31.9422,
+          "lng": -65.0489
+        },
+        {
+          "id": "merc_6",
+          "text": "Camping at Refugio del Lago",
+          "detail": "Stay overnight at the mountain refuge near the lake to experience the wilderness fully and enjoy stargazing in this remote high-altitude location.",
+          "lat": -31.9422,
+          "lng": -65.0489
+        }
+      ],
+      "food": [
+        {
+          "id": "merc_f1",
+          "text": "Empanadas Cordobesas",
+          "detail": "Handmade pastries filled with ground beef, onions, and spices that are a regional specialty often prepared at mountain refuges and local eateries."
+        },
+        {
+          "id": "merc_f2",
+          "text": "Trout à la Merced",
+          "detail": "Freshly caught local trout grilled simply with mountain herbs and served at the nearby refugios, celebrating the lake's fish populations."
+        },
+        {
+          "id": "merc_f3",
+          "text": "Locro de Maíz",
+          "detail": "A hearty corn and bean stew traditionally eaten in the Córdoba region, perfect for warming up after mountain activities in the cooler afternoons."
+        },
+        {
+          "id": "merc_f4",
+          "text": "Dulce de Leche with Nueces",
+          "detail": "Argentina's beloved sweet caramel spread served with locally sourced walnuts from the foothills, available at mountain lodges and nearby villages."
+        },
+        {
+          "id": "merc_f5",
+          "text": "Té de Coca and Mountain Herbs",
+          "detail": "Traditional high-altitude herbal teas made from coca leaves and local mountain plants are served at refugios to aid with altitude adjustment."
+        }
+      ],
+      "culture": [
+        {
+          "id": "merc_c1",
+          "text": "High Altitude Preparation",
+          "detail": "The lake sits at 2,130 meters elevation; arrive a day early to acclimatize and respect local advice about altitude sickness prevention."
+        },
+        {
+          "id": "merc_c2",
+          "text": "Leave No Trace Ethics",
+          "detail": "This pristine wilderness area requires strict adherence to leave-no-trace principles; pack out all waste and stay on marked trails to protect the fragile ecosystem."
+        },
+        {
+          "id": "merc_c3",
+          "text": "Seasonal Access Windows",
+          "detail": "The lake is typically accessible only from November through April due to snow and ice; check locally before planning winter visits."
+        },
+        {
+          "id": "merc_c4",
+          "text": "Respect for Indigenous Territory",
+          "detail": "The Sierras de Córdoba hold cultural significance for indigenous communities; visit with respect for the land and consider supporting local guide services."
+        }
+      ]
+    },
+    {
+      "id": "las_acequias",
+      "name": "La Cumbre",
+      "nameIt": "La Cumbre",
+      "lat": -31.3294,
+      "lng": -64.5958,
+      "type": "TOWN",
+      "description": "A renowned mountain destination famous for paragliding and hang-gliding due to its ideal thermal winds and elevated location. The town offers stunning views, adventure sports facilities, and access to beautiful hiking trails in the surrounding Sierras.",
+      "imageQueries": [
+        "La Cumbre paragliding Córdoba",
+        "La Cumbre mountain Sierras"
+      ],
+      "activities": [
+        {
+          "id": "las__1",
+          "text": "Paragliding from Loma Bola",
+          "detail": "Launch from this iconic ridge just above town to experience world-class thermal winds that make La Cumbre a premier paragliding destination.",
+          "lat": -31.4075,
+          "lng": -64.7583
+        },
+        {
+          "id": "las__2",
+          "text": "Hiking to Cerro Champaquí",
+          "detail": "Trek to Córdoba's highest peak (2,884m) on a challenging day hike offering panoramic views of the entire Sierra Chica range.",
+          "lat": -31.4558,
+          "lng": -64.7708
+        },
+        {
+          "id": "las__3",
+          "text": "Hang-gliding tours",
+          "detail": "Book a tandem flight with experienced instructors to soar above the valleys and enjoy sustained thermal lift unique to this location.",
+          "lat": -31.4083,
+          "lng": -64.76
+        },
+        {
+          "id": "las__4",
+          "text": "Mountain biking the Fincas Trail",
+          "detail": "Ride through scenic rural paths connecting traditional estancias and farmland with technical descents and rewarding vistas.",
+          "lat": -31.42,
+          "lng": -64.75
+        },
+        {
+          "id": "las__5",
+          "text": "Visit the Interpretive Center",
+          "detail": "Learn about La Cumbre's geology, local flora and fauna, and the history of aviation in this mountainous region.",
+          "lat": -31.41,
+          "lng": -64.765
+        },
+        {
+          "id": "las__6",
+          "text": "Rock climbing at nearby crags",
+          "detail": "Explore bolted routes and traditional climbing spots in the surrounding sierras suitable for various skill levels.",
+          "lat": -31.43,
+          "lng": -64.74
+        }
+      ],
+      "food": [
+        {
+          "id": "las__f1",
+          "text": "Empanadas Cordobesas",
+          "detail": "Local meat-filled pastries baked with a distinctive Córdoba style, often served warm at roadside bakeries and village gatherings."
+        },
+        {
+          "id": "las__f2",
+          "text": "Asado de chivo",
+          "detail": "Slow-roasted goat prepared traditional style, reflecting the rural heritage of the mountain communities surrounding La Cumbre."
+        },
+        {
+          "id": "las__f3",
+          "text": "Tortas fritas",
+          "detail": "Fried dough cakes served with fresh cheese and chimichurri, a beloved afternoon snack paired with mate tea."
+        },
+        {
+          "id": "las__f4",
+          "text": "Locro serrano",
+          "detail": "A hearty mountain stew made with corn, beans, squash, and local meats, warming and filling for hikers and adventure seekers."
+        },
+        {
+          "id": "las__f5",
+          "text": "Fresh trout from local streams",
+          "detail": "Grilled or pan-seared trout caught from the cool mountain streams and served at rustic restaurants throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "las__c1",
+          "text": "Respect paragliding airspace and rules",
+          "detail": "The town's economy and identity depend on thermal wind conditions; avoid interfering with launch areas and follow posted regulations strictly."
+        },
+        {
+          "id": "las__c2",
+          "text": "Embrace mate sharing culture",
+          "detail": "Offering and sharing mate is a fundamental social custom; accepting a gourd and passing it respectfully shows respect for local hospitality."
+        },
+        {
+          "id": "las__c3",
+          "text": "Learn basic Spanish for interactions",
+          "detail": "While some tourism infrastructure exists, speaking basic Spanish enhances connections with locals and is appreciated in rural establishments."
+        },
+        {
+          "id": "las__c4",
+          "text": "Visit during spring and early fall",
+          "detail": "These seasons offer the most reliable thermal winds and comfortable weather; summer can be windy in unpredictable ways, while winter brings cold temperatures at elevation."
+        }
+      ]
+    },
+    {
+      "id": "los_gigantes",
+      "name": "Los Gigantes",
+      "nameIt": "Los Gigantes",
+      "lat": -31.8769,
+      "lng": -65.3142,
+      "type": "NATURE",
+      "description": "A spectacular rock formation in the southern Sierras featuring massive stone walls and climbing routes, surrounded by pristine mountain wilderness. The area is a paradise for rock climbers, hikers, and nature enthusiasts seeking dramatic landscapes.",
+      "imageQueries": [
+        "Los Gigantes rock formation Córdoba",
+        "Los Gigantes climbing Sierras"
+      ],
+      "activities": [
+        {
+          "id": "los__1",
+          "text": "Rock Climbing",
+          "detail": "Tackle world-class multi-pitch routes on the iconic granite walls ranging from beginner to advanced difficulty levels.",
+          "lat": -31.7833,
+          "lng": -64.9667
+        },
+        {
+          "id": "los__2",
+          "text": "Trekking to Laguna del Desierto",
+          "detail": "Hike through mountain wilderness to reach a pristine alpine lake surrounded by peaks and wildflowers.",
+          "lat": -31.75,
+          "lng": -64.95
+        },
+        {
+          "id": "los__3",
+          "text": "Bouldering on Natural Rock",
+          "detail": "Practice bouldering on scattered granite formations throughout the base camps and surrounding terrain.",
+          "lat": -31.7833,
+          "lng": -64.9667
+        },
+        {
+          "id": "los__4",
+          "text": "Photography of Stone Formations",
+          "detail": "Capture stunning images of the massive vertical rock walls and dramatic mountain landscape during golden hour."
+        },
+        {
+          "id": "los__5",
+          "text": "Mountain Biking Trails",
+          "detail": "Ride through scenic paths connecting base camps and exploring the high-altitude terrain of the southern Sierras."
+        },
+        {
+          "id": "los__6",
+          "text": "Abseiling Down Cliff Faces",
+          "detail": "Experience rappelling down the towering rock walls with experienced local guides under controlled safety conditions.",
+          "lat": -31.7833,
+          "lng": -64.9667
+        }
+      ],
+      "food": [
+        {
+          "id": "los__f1",
+          "text": "Asado Cordobés",
+          "detail": "Grilled beef and offal cooked over open flame, a regional specialty prepared by mountain lodges for climbers."
+        },
+        {
+          "id": "los__f2",
+          "text": "Empanadas de Queso y Cebolla",
+          "detail": "Handmade pastries filled with local cheese and caramelized onions, perfect for packing on hiking excursions."
+        },
+        {
+          "id": "los__f3",
+          "text": "Locro de Papa",
+          "detail": "A traditional hearty stew of potatoes, corn, and beans served warm in mountain refuges during cooler evenings."
+        },
+        {
+          "id": "los__f4",
+          "text": "Dulce de Leche Fresh",
+          "detail": "Creamy sweet milk caramel made locally and served with fresh bread at small mountain cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "los__c1",
+          "text": "Respect Climbing Ethics",
+          "detail": "Always check in with local climbing guides and follow established route protocols, as the rock formations are sacred to the community."
+        },
+        {
+          "id": "los__c2",
+          "text": "Altitude Acclimatization",
+          "detail": "The area sits at significant elevation; arrive a day early to acclimate and drink plenty of water to prevent soroche."
+        },
+        {
+          "id": "los__c3",
+          "text": "Self-Sufficiency Mindset",
+          "detail": "Bring all necessary supplies as Los Gigantes is remote with limited services; resupply options are sparse and distances between camps are substantial."
+        },
+        {
+          "id": "los__c4",
+          "text": "Spanish Language Helpful",
+          "detail": "Most local guides and mountain refuge staff speak limited English, so basic Spanish communication will greatly enhance your experience."
+        }
+      ]
+    },
+    {
+      "id": "jesus_maria",
+      "name": "Jesús María",
+      "nameIt": "Jesús María",
+      "lat": -31.2764,
+      "lng": -63.8667,
+      "type": "TOWN",
+      "description": "A historical colonial town north of Córdoba featuring the beautifully preserved Jesuit Estancia and a famous annual gaucho festival. The town offers cultural heritage sites and access to the northern region of the province.",
+      "imageQueries": [
+        "Jesús María estancia Córdoba",
+        "Jesús María gaucho festival"
+      ],
+      "activities": [
+        {
+          "id": "jesu_1",
+          "text": "Estancia Jesuítica de Jesús María",
+          "detail": "Explore this UNESCO World Heritage Site featuring a stunning 18th-century Jesuit estate with a baroque chapel, residence, and agricultural buildings showcasing colonial architecture and religious history.",
+          "lat": -31.4167,
+          "lng": -64.3667
+        },
+        {
+          "id": "jesu_2",
+          "text": "Festival Nacional de Jineteada y Folklore",
+          "detail": "Attend this famous annual gaucho festival held in November featuring rodeo competitions, traditional horsemanship displays, folk music, and regional craft exhibitions celebrating Argentine cowboy culture.",
+          "lat": -31.4167,
+          "lng": -64.3667
+        },
+        {
+          "id": "jesu_3",
+          "text": "Town Plaza and Colonial Architecture",
+          "detail": "Stroll through the main plaza lined with restored colonial buildings, local shops, and cafés that showcase the town's well-preserved historical character.",
+          "lat": -31.4175,
+          "lng": -64.367
+        },
+        {
+          "id": "jesu_4",
+          "text": "Museo de Jesús María",
+          "detail": "Visit this local museum housed in a historic building displaying artifacts related to the Jesuit heritage, gaucho traditions, and regional history of the province.",
+          "lat": -31.417,
+          "lng": -64.3668
+        },
+        {
+          "id": "jesu_5",
+          "text": "Rural countryside excursions",
+          "detail": "Take guided horseback or vehicle tours through the surrounding agricultural lands and estancias to experience authentic rural Córdoba landscape and traditional farming life.",
+          "lat": -31.4167,
+          "lng": -64.3667
+        }
+      ],
+      "food": [
+        {
+          "id": "jesu_f1",
+          "text": "Locro",
+          "detail": "A hearty slow-cooked stew combining corn, beans, meat, and squash that reflects gaucho and indigenous traditions of the northern Córdoba region."
+        },
+        {
+          "id": "jesu_f2",
+          "text": "Empanadas cordobesas",
+          "detail": "Baked pastries filled with seasoned ground beef, hard-boiled eggs, and olives that are a signature regional specialty served warm at local bakeries and restaurants."
+        },
+        {
+          "id": "jesu_f3",
+          "text": "Asado",
+          "detail": "Traditional Argentine grilled meats including beef ribs and steaks cooked over open flame, central to gaucho culture and commonly served at local parrillas and festivals."
+        },
+        {
+          "id": "jesu_f4",
+          "text": "Humita",
+          "detail": "A creamy corn-based dish wrapped in corn husks, reflecting pre-Columbian recipes still prepared locally during harvest season."
+        },
+        {
+          "id": "jesu_f5",
+          "text": "Dulce de leche regional variations",
+          "detail": "Local versions of this caramelized milk spread often incorporate regional ingredients and are available at artisanal shops throughout the town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jesu_c1",
+          "text": "Visit during festival season",
+          "detail": "November's Jineteada festival is when the town comes alive with gaucho competitions and celebrations; plan your visit around this time for the most vibrant cultural experience."
+        },
+        {
+          "id": "jesu_c2",
+          "text": "Respect gaucho traditions",
+          "detail": "The local community takes pride in their gaucho heritage; show respect for horsemanship displays, traditional dress, and customs that remain central to their identity."
+        },
+        {
+          "id": "jesu_c3",
+          "text": "Spanish language helpful",
+          "detail": "While some tourism infrastructure exists, English is limited in Jesús María; basic Spanish phrases and patience enhance interactions with locals and business owners."
+        },
+        {
+          "id": "jesu_c4",
+          "text": "Plan for rural pace",
+          "detail": "This is a small colonial town with a slower rhythm than Córdoba city; shops close for siesta, services are limited outside peak hours, and advance planning for meals and accommodations is advisable."
+        }
+      ]
+    },
+    {
+      "id": "rio_ceballos",
+      "name": "Río Ceballos",
+      "nameIt": "Río Ceballos",
+      "lat": -31.4589,
+      "lng": -64.3456,
+      "type": "TOWN",
+      "description": "A charming riverside town in the Sierras Chicas known for its pleasant climate, natural thermal pools, and peaceful atmosphere. The town serves as a relaxing alternative to busier mountain resorts with good access to hiking and outdoor activities.",
+      "imageQueries": [
+        "Río Ceballos Córdoba thermal pools",
+        "Río Ceballos mountain town"
+      ],
+      "activities": [
+        {
+          "id": "rio__1",
+          "text": "Thermal Pools at Balneario Municipal",
+          "detail": "Soak in natural hot springs rich in minerals, a signature experience in this riverside town known for its healing waters.",
+          "lat": -31.7642,
+          "lng": -64.2528
+        },
+        {
+          "id": "rio__2",
+          "text": "Río Ceballos River Walk",
+          "detail": "Stroll along the peaceful riverside promenade shaded by native trees, perfect for morning walks and spotting local birdlife.",
+          "lat": -31.765,
+          "lng": -64.2535
+        },
+        {
+          "id": "rio__3",
+          "text": "Hiking in Sierras Chicas",
+          "detail": "Access numerous mountain trails of varying difficulty that wind through pine forests and offer views of the surrounding valleys.",
+          "lat": -31.76,
+          "lng": -64.24
+        },
+        {
+          "id": "rio__4",
+          "text": "Chapel of Nuestra Señora del Rosario",
+          "detail": "Visit this modest but historically significant chapel in the town center that reflects the area's colonial heritage.",
+          "lat": -31.7635,
+          "lng": -64.252
+        },
+        {
+          "id": "rio__5",
+          "text": "Picnicking by the Weir",
+          "detail": "Enjoy a leisurely afternoon at the small dam area where locals gather to relax and enjoy the cool mountain air beside flowing water."
+        }
+      ],
+      "food": [
+        {
+          "id": "rio__f1",
+          "text": "Truchas a la Mantequilla",
+          "detail": "Fresh locally-caught trout butter-sautéed and served with lemon, a signature dish taking advantage of the region's pristine rivers."
+        },
+        {
+          "id": "rio__f2",
+          "text": "Empanadas Cordobesas",
+          "detail": "Hand-held pastries filled with ground beef, hard-boiled egg, and olives, reflecting Córdoba's traditional culinary style."
+        },
+        {
+          "id": "rio__f3",
+          "text": "Medialunas and Café con Leche",
+          "detail": "Start your morning with sweet croissant-like pastries paired with the Argentine tradition of strong coffee with warm milk at a local café."
+        },
+        {
+          "id": "rio__f4",
+          "text": "Asado Criollo",
+          "detail": "Experience a traditional Argentine barbecue featuring grilled beef, chorizo, and morcilla, often enjoyed in family settings or local restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rio__c1",
+          "text": "Thermal Water Etiquette",
+          "detail": "Most locals visit the balneario in late afternoon or evening when it's cooler, and bring towels and flip-flops as facilities are basic but welcoming."
+        },
+        {
+          "id": "rio__c2",
+          "text": "Siesta Respect",
+          "detail": "Many shops and services close between 12:30 and 4 PM for lunch and rest, so plan activities accordingly and embrace the relaxed pace."
+        },
+        {
+          "id": "rio__c3",
+          "text": "Spanish and Local Dialect",
+          "detail": "English is not widely spoken; learning basic Spanish phrases helps tremendously, and locals appreciate efforts to speak their language even imperfectly."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Casa Recuerdos",
+      "address": "La Rioja 138, Córdoba",
+      "neighbourhood": "Nueva Córdoba",
+      "cuisine": "Argentine",
+      "priceRange": "€€",
+      "description": "Intimate neighbourhood bistro serving classic Cordobés comfort food with seasonal ingredients and a warm, unpretentious atmosphere.",
+      "mustOrder": "Milanesa de peceto with chimichurri",
+      "lat": -31.4152,
+      "lng": -64.1878
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Bodegas Weinert",
+      "address": "San Juan 2108, Mendoza",
+      "neighbourhood": "Mendoza Province",
+      "cuisine": "Argentine, Wine",
+      "priceRange": "€€€",
+      "description": "Historic winery restaurant offering Mendoza wines paired with traditional Argentine grilled meats in a rustic colonial setting.",
+      "mustOrder": "Asado de tira with Weinert Malbec",
+      "lat": -32.8753,
+      "lng": -68.8458
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Ochenta y Cinco",
+      "address": "Belgrano 85, Córdoba",
+      "neighbourhood": "Centro",
+      "cuisine": "Contemporary Argentine",
+      "priceRange": "€€€",
+      "description": "Sophisticated downtown restaurant featuring modern interpretations of regional cuisine with an extensive wine list curated from local producers.",
+      "mustOrder": "Cordero patagónico with pumpkin purée",
+      "lat": -31.425,
+      "lng": -64.1889
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "La Cañada",
+      "address": "Hipólito Yrigoyen 348, Córdoba",
+      "neighbourhood": "Güemes",
+      "cuisine": "Argentine, Grill",
+      "priceRange": "€€",
+      "description": "Casual family-run parrilla known for quality grass-fed beef and generous portions in a lively, authentic local setting.",
+      "mustOrder": "Bife de chorizo with grilled provoleta",
+      "lat": -31.4342,
+      "lng": -64.2023
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Artuesto",
+      "address": "Obispo Trejo 180, Córdoba",
+      "neighbourhood": "Centro",
+      "cuisine": "Mediterranean, Argentine",
+      "priceRange": "€€€",
+      "description": "Refined bistro blending Mediterranean flavours with local Cordobés ingredients, housed in a converted colonial building.",
+      "mustOrder": "Brised beef cheeks with red wine reduction",
+      "lat": -31.4228,
+      "lng": -64.1845
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Frutos de Córdoba",
+      "address": "Av. Vélez Sársfield 250, Córdoba",
+      "neighbourhood": "Centro",
+      "cuisine": "Regional, Organic",
+      "priceRange": "€€",
+      "description": "Farm-to-table concept restaurant celebrating Córdoba's agricultural heritage with seasonal tasting menus and organic produce.",
+      "mustOrder": "Seasonal vegetable tart with local cheese",
+      "lat": -31.4289,
+      "lng": -64.1923
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "El Escritorio",
+      "address": "San Jerónimo 142, Córdoba",
+      "neighbourhood": "Nueva Córdoba",
+      "cuisine": "Argentine, Steakhouse",
+      "priceRange": "€€€",
+      "description": "Upscale traditional steakhouse with an impressive wine cellar and attentive service in an elegant, intimate dining room.",
+      "mustOrder": "Entraña with chimichurri and grilled vegetables",
+      "lat": -31.4165,
+      "lng": -64.1912
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Comedor de Pueblos",
+      "address": "Av. General Paz 380, Córdoba",
+      "neighbourhood": "Centro",
+      "cuisine": "Traditional Argentine",
+      "priceRange": "€",
+      "description": "No-frills working-class eatery serving authentic cazuelas and guisos that locals queue for at lunch time.",
+      "mustOrder": "Guiso de mondongo (tripe stew)",
+      "lat": -31.4198,
+      "lng": -64.1967
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Patio de Comidas",
+      "address": "Rocha 145, Córdoba",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Street Food, Argentine",
+      "priceRange": "€",
+      "description": "Historic covered food court in the heart of downtown offering empanadas, locro, tamales and regional specialities from multiple vendors.",
+      "mustOrder": "Empanadas de humita and carne",
+      "lat": -31.4243,
+      "lng": -64.1856
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Bodegas del Sur",
+      "address": "Río de Janeiro 340, Córdoba",
+      "neighbourhood": "Güemes",
+      "cuisine": "Argentine, Wine Bar",
+      "priceRange": "€€",
+      "description": "Casual wine bar and delicatessen focused on small producers and natural wines, paired with cured meats and cheese.",
+      "mustOrder": "Tabla of local cheeses with house bread",
+      "lat": -31.4365,
+      "lng": -64.2045
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Vieja Farmacia",
+      "address": "Av. Colón 550, Córdoba",
+      "neighbourhood": "Nueva Córdoba",
+      "cuisine": "Contemporary Argentine",
+      "priceRange": "€€€",
+      "description": "Chef-driven restaurant in a converted pharmacy featuring creative dishes that respect traditional flavours with modern technique.",
+      "mustOrder": "Grilled sweetbread with miso and charred scallions",
+      "lat": -31.4122,
+      "lng": -64.1845
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "San Agustín",
+      "address": "San Agustín 350, La Cumbre",
+      "neighbourhood": "La Cumbre (Córdoba Province)",
+      "cuisine": "Argentine, Mountain",
+      "priceRange": "€€",
+      "description": "Rustic mountain lodge restaurant serving hearty grilled meats and homemade pastas with views of the Sierras Chicas.",
+      "mustOrder": "Asado de tira with grilled provolone",
+      "lat": -31.0435,
+      "lng": -64.5612
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "El Mundo de la Empanada",
+      "address": "Santa Rosa 245, Córdoba",
+      "neighbourhood": "Centro",
+      "cuisine": "Street Food, Argentine",
+      "priceRange": "€",
+      "description": "Speciality empanada shop with a dozen regional varieties made fresh daily, a Cordobés institution since 1985.",
+      "mustOrder": "Empanada cordobesa (beef and potato)",
+      "lat": -31.4256,
+      "lng": -64.1878
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Mercado de Barrio",
+      "address": "General Roca 185, Córdoba",
+      "neighbourhood": "Centro",
+      "cuisine": "Market, Casual Argentine",
+      "priceRange": "€€",
+      "description": "Contemporary market restaurant featuring rotating local vendors, artisanal produce and daily-changing tasting menus.",
+      "mustOrder": "Market chef's selection with seasonal vegetables",
+      "lat": -31.4289,
+      "lng": -64.1834
+    }
+  ]
+}

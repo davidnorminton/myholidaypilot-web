@@ -1,0 +1,1531 @@
+{
+  "id": "atacama",
+  "name": "Atacama",
+  "nameIt": "Atacama",
+  "capital": "Copiapó",
+  "lat": -26.5,
+  "lng": -69,
+  "emoji": "🌵",
+  "colour": "ff9c27b0",
+  "boundingBox": {
+    "north": -25,
+    "south": -29,
+    "east": -68,
+    "west": -71
+  },
+  "history": "The Atacama Region, located in northern Chile, has been inhabited for thousands of years by indigenous peoples who adapted to one of the world's driest deserts. Spanish conquistadors arrived in the 16th century and established mining operations that would come to define the region's economy for centuries. The discovery of nitrate deposits in the 19th century brought a mining boom that attracted workers from across Chile and neighboring countries, creating a unique cultural blend. Today, Atacama remains a resource-rich area with a deep connection to its mining heritage and indigenous Atacameño roots.",
+  "culturalNotes": "Atacama is characterized by its stark desert landscape and the resilience of communities who have thrived in extreme aridity for generations. The region celebrates its indigenous heritage through traditional crafts, textiles, and festivals that honor Atacameño culture and ancestral knowledge. Local identity is strongly tied to mining history and the landscape itself, with residents taking pride in their ability to flourish in one of Earth's most inhospitable environments.",
+  "bestTimeToVisit": "Best visited September to April for clear desert skies and accessible high-altitude astronomy sites.",
+  "languageNotes": "Spanish is the primary language spoken throughout Atacama, though some elderly members of indigenous Atacameño communities still speak Kunza, the traditional language of the region. Visitors will find that standard Chilean Spanish is spoken, with local expressions reflecting the region's mining heritage and indigenous influences.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "san_pedro_de_atacama",
+      "name": "San Pedro de Atacama",
+      "nameIt": "San Pedro de Atacama",
+      "lat": -22.9091,
+      "lng": -68.1994,
+      "type": "TOWN",
+      "description": "The main hub of the Atacama region, this charming desert town serves as the base for exploring the otherworldly landscapes surrounding it. Its adobe streets, local markets, and excellent tourist infrastructure make it essential for any visit to northern Chile.",
+      "imageQueries": [
+        "San Pedro de Atacama town plaza",
+        "San Pedro de Atacama adobe buildings"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Valle de la Luna",
+          "detail": "Explore otherworldly rock formations and colorful mineral-rich hills just outside town, best visited at sunset when the landscape glows.",
+          "lat": -22.9089,
+          "lng": -68.2061
+        },
+        {
+          "id": "san__2",
+          "text": "Atacama Salt Flats",
+          "detail": "Visit the stark white expanse of the Salar de Atacama, one of the largest salt deposits in the world, often combined with a visit to the Laguna Cejar for swimming in mineral-rich waters.",
+          "lat": -22.9667,
+          "lng": -68.2333
+        },
+        {
+          "id": "san__3",
+          "text": "Geyser del Tatio",
+          "detail": "Witness the third-highest geyser field in the world at dawn, when steam plumes are most dramatic, located high in the Andes near the Argentine border.",
+          "lat": -22.3289,
+          "lng": -68.0094
+        },
+        {
+          "id": "san__4",
+          "text": "Pukara de Quitor",
+          "detail": "Climb to this pre-Incan fortress ruins overlooking the Río San Pedro valley for panoramic desert views and insight into indigenous settlement patterns.",
+          "lat": -22.9167,
+          "lng": -68.2
+        },
+        {
+          "id": "san__5",
+          "text": "Ojos del Salar",
+          "detail": "Visit these freshwater springs in the midst of the salt flats, creating unexpected oases with unique flora adapted to the hyper-arid environment.",
+          "lat": -23.0167,
+          "lng": -68.3167
+        },
+        {
+          "id": "san__6",
+          "text": "Town Museum",
+          "detail": "The Museo Arqueológico displays pre-Columbian artifacts, mummies, and ceramics from local indigenous cultures spanning thousands of years.",
+          "lat": -22.9161,
+          "lng": -68.1997
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Empanadas",
+          "detail": "Stuffed pastries typically filled with cheese, meat, or quinoa, sold fresh at local bakeries and markets as a quintessential Chilean street food."
+        },
+        {
+          "id": "san__f2",
+          "text": "Cazuela de Ave",
+          "detail": "A warming chicken and vegetable stew with potatoes and corn, perfect for cold desert evenings and representative of traditional northern Chilean cuisine."
+        },
+        {
+          "id": "san__f3",
+          "text": "Quinoa soup",
+          "detail": "Local restaurants serve hearty quinoa-based soups reflecting the region's indigenous agricultural heritage and high-altitude adaptability."
+        },
+        {
+          "id": "san__f4",
+          "text": "Charqui",
+          "detail": "Dried llama or alpaca meat, a preserved protein staple dating back to pre-Columbian times, often served sliced as an appetizer."
+        },
+        {
+          "id": "san__f5",
+          "text": "Pastel de choclo",
+          "detail": "A traditional Chilean corn pie typically layered with meat filling, offering comfort food with Andean roots."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Respect altitude and hydration",
+          "detail": "San Pedro sits at 2,410 meters elevation; arrive a day early to acclimate and drink water constantly to avoid soroche (altitude sickness)."
+        },
+        {
+          "id": "san__c2",
+          "text": "Tours are essential",
+          "detail": "Most attractions require registered guides and tours for safety, environmental protection, and to support the local economy; book through established operators in town."
+        },
+        {
+          "id": "san__c3",
+          "text": "Indigenous heritage matters",
+          "detail": "The region is home to Atacameño and Quechua peoples; approach archaeological sites and cultural discussions with respect, avoiding casual artifact collection."
+        },
+        {
+          "id": "san__c4",
+          "text": "Extreme sun protection",
+          "detail": "The Atacama's thin atmosphere and reflective salt flats intensify UV exposure dramatically; sunscreen SPF 50+, hats, and sunglasses are non-negotiable."
+        }
+      ]
+    },
+    {
+      "id": "atacama_salt_flats",
+      "name": "Atacama Salt Flats",
+      "nameIt": "Salar de Atacama",
+      "lat": -23.2,
+      "lng": -68.25,
+      "type": "NATURE",
+      "description": "The largest salt flat in Chile, this vast white expanse stretches endlessly across the desert with surreal crystalline formations and stunning mirror-like surfaces. It's one of South America's most photographed natural wonders and a must-see for any visitor to the region.",
+      "imageQueries": [
+        "Salar de Atacama salt flats",
+        "Atacama salt flat white landscape"
+      ],
+      "activities": [
+        {
+          "id": "atac_1",
+          "text": "Salt Flat Walking Tours",
+          "detail": "Explore the crystalline white expanse on foot, wandering across the geometric salt polygons and pristine surfaces that stretch to the horizon.",
+          "lat": -22.3697,
+          "lng": -68.2065
+        },
+        {
+          "id": "atac_2",
+          "text": "Laguna Cejar Swimming",
+          "detail": "Float effortlessly in the hypersaline lagoon adjacent to the salt flats, where the high salt concentration makes buoyancy nearly impossible to resist.",
+          "lat": -22.3833,
+          "lng": -68.2333
+        },
+        {
+          "id": "atac_3",
+          "text": "Sunrise Photography Session",
+          "detail": "Arrive before dawn to capture the salt flats bathed in golden light, with mirror-like reflections creating surreal photographic opportunities.",
+          "lat": -22.3697,
+          "lng": -68.2065
+        },
+        {
+          "id": "atac_4",
+          "text": "Los Flamencos National Reserve Visit",
+          "detail": "Observe three species of Andean flamingos and other wildlife in the lagoons surrounding the salt flats within this protected area.",
+          "lat": -22.4333,
+          "lng": -68.2167
+        },
+        {
+          "id": "atac_5",
+          "text": "Ojos del Salar Spring Exploration",
+          "detail": "Visit the natural freshwater springs within the salt flat where underground aquifers create small pools surrounded by salt formations.",
+          "lat": -22.3667,
+          "lng": -68.2333
+        },
+        {
+          "id": "atac_6",
+          "text": "4x4 Desert Excursion",
+          "detail": "Take a guided vehicle tour across the salt flats and connecting desert landscape to reach remote geological formations and viewpoints."
+        }
+      ],
+      "food": [
+        {
+          "id": "atac_f1",
+          "text": "Completo Atacameño",
+          "detail": "A local variation of the Chilean completo sandwich featuring avocado, tomato, onion, and local cheese on a fresh roll, perfect for refueling after desert exploration."
+        },
+        {
+          "id": "atac_f2",
+          "text": "Empanadas de Queso y Choclo",
+          "detail": "Traditional baked pastries filled with local cheese and corn, representing the region's agricultural heritage and sold at local markets and lodges."
+        },
+        {
+          "id": "atac_f3",
+          "text": "Ceviche with Altiplano Fish",
+          "detail": "Fresh fish marinated in lime juice with local peppers and herbs, reflecting the region's high-altitude fishing traditions and Atacama's unique flavor profiles."
+        },
+        {
+          "id": "atac_f4",
+          "text": "Charqui de Llama",
+          "detail": "Dried and cured llama meat, a traditional Andean protein that's lean and flavorful, served as a snack or appetizer in local restaurants."
+        },
+        {
+          "id": "atac_f5",
+          "text": "Agua de Horchata",
+          "detail": "A refreshing traditional beverage made with ground rice, almonds, and spices, essential for hydration in the arid Atacama climate."
+        }
+      ],
+      "culture": [
+        {
+          "id": "atac_c1",
+          "text": "Hire Local Licensed Guides",
+          "detail": "Always use authorized guides from San Pedro de Atacama who know safe routes, water locations, and can interpret the geology and Andean heritage respectfully."
+        },
+        {
+          "id": "atac_c2",
+          "text": "Respect Andean Spiritual Significance",
+          "detail": "The salt flats hold spiritual importance for indigenous Atacameño people; avoid removing salt crystals and be respectful of sacred sites marked by locals."
+        },
+        {
+          "id": "atac_c3",
+          "text": "Bring Adequate Water and Sun Protection",
+          "detail": "The flat white surface intensifies UV radiation and dehydration risk is extreme; carry at least 2 liters of water per person and high SPF sunscreen."
+        },
+        {
+          "id": "atac_c4",
+          "text": "Visit During Dry Season (May-October)",
+          "detail": "The salt flats are most accessible and visually dramatic during these months when water levels are lowest and conditions are most stable for travel."
+        }
+      ]
+    },
+    {
+      "id": "valley_of_the_moon",
+      "name": "Valley of the Moon",
+      "nameIt": "Valle de la Luna",
+      "lat": -22.9083,
+      "lng": -68.3308,
+      "type": "NATURE",
+      "description": "This stunning geological formation features colorful rock formations, sand dunes, and otherworldly ridges that resemble an alien landscape. The valley is particularly magical during sunset when the rocks display brilliant hues of red, orange, and purple.",
+      "imageQueries": [
+        "Valle de la Luna Atacama",
+        "Valley of the Moon sunset Chile"
+      ],
+      "activities": [
+        {
+          "id": "vall_1",
+          "text": "Sunset Viewing at Main Ridge",
+          "detail": "Watch the colorful rock formations shift through brilliant reds, oranges, and purples as the sun descends, creating the valley's most iconic experience.",
+          "lat": -22.5583,
+          "lng": -68.2083
+        },
+        {
+          "id": "vall_2",
+          "text": "Hiking the Colorful Ridges",
+          "detail": "Trek across the otherworldly multicolored ridges and peaks to explore the geological formations up close and discover hidden viewpoints.",
+          "lat": -22.56,
+          "lng": -68.21
+        },
+        {
+          "id": "vall_3",
+          "text": "Sand Dune Exploration",
+          "detail": "Traverse the golden and rust-colored sand dunes that surround the valley, offering panoramic views of the entire landscape.",
+          "lat": -22.5567,
+          "lng": -68.2067
+        },
+        {
+          "id": "vall_4",
+          "text": "Photography Tour at Three Marias",
+          "detail": "Visit the famous Three Marias rock formation, a photographer's paradise known for its distinctive triple peaks and vivid mineral coloring.",
+          "lat": -22.555,
+          "lng": -68.205
+        },
+        {
+          "id": "vall_5",
+          "text": "Stargazing at Night",
+          "detail": "Experience some of Chile's clearest night skies as the Atacama's minimal light pollution reveals the Milky Way in spectacular detail."
+        },
+        {
+          "id": "vall_6",
+          "text": "Camel Trek Experience",
+          "detail": "Ride llamas or alpacas across the desert landscape for a unique perspective of the valley's geological formations."
+        }
+      ],
+      "food": [
+        {
+          "id": "vall_f1",
+          "text": "Empanadas Salteñas",
+          "detail": "Baked pastry pockets filled with meat, potatoes, olives, and hard-boiled eggs, a classic Andean staple found throughout the Atacama region."
+        },
+        {
+          "id": "vall_f2",
+          "text": "Chorrillana",
+          "detail": "A hearty Chilean dish of french fries topped with meat, fried onions, and melted cheese, perfect fuel for active desert exploration."
+        },
+        {
+          "id": "vall_f3",
+          "text": "Fresh Maize and Squash Dishes",
+          "detail": "Local produce from nearby oasis settlements prepared simply to highlight the flavors of vegetables grown in this arid region."
+        },
+        {
+          "id": "vall_f4",
+          "text": "Pan de Queso",
+          "detail": "Warm cheese bread made with fresh local cheese, a comforting snack commonly sold at valley entrances and local markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vall_c1",
+          "text": "Arrive Early or Stay for Sunset",
+          "detail": "Most visitors come for sunset (around 6-7 PM depending on season), so arrive in late afternoon or come earlier to avoid crowds and experience the landscape in different light."
+        },
+        {
+          "id": "vall_c2",
+          "text": "High Altitude Acclimatization",
+          "detail": "The valley sits at 2,400 meters elevation; drink plenty of water and move slowly to adjust to the altitude before engaging in strenuous hiking."
+        },
+        {
+          "id": "vall_c3",
+          "text": "Respect Indigenous Heritage",
+          "detail": "The Atacama region is ancestral Kunza and Aymara land; be respectful of any local communities and cultural sites you encounter during your visit."
+        },
+        {
+          "id": "vall_c4",
+          "text": "Hire a Local Guide",
+          "detail": "Official guides from San Pedro de Atacama provide essential context about the geological formations and ensure you don't miss key viewpoints safely."
+        }
+      ]
+    },
+    {
+      "id": "laguna_cejar",
+      "name": "Laguna Cejar",
+      "nameIt": "Laguna Cejar",
+      "lat": -23.0683,
+      "lng": -68.2528,
+      "type": "NATURE",
+      "description": "This hypersaline lagoon, with water even saltier than the Dead Sea, offers a unique floating experience where visitors effortlessly bob on the surface. The pristine turquoise waters and surrounding desert mountains create an unforgettable bathing experience.",
+      "imageQueries": [
+        "Laguna Cejar floating",
+        "Laguna Cejar turquoise water"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Float in Hypersaline Waters",
+          "detail": "Experience effortless floating in water with salinity higher than the Dead Sea, where your body naturally buoys to the surface.",
+          "lat": -23.0378,
+          "lng": -68.2289
+        },
+        {
+          "id": "lagu_2",
+          "text": "Laguna Tebinquinche Visit",
+          "detail": "Explore this nearby freshwater lagoon surrounded by desert mountains, offering stunning photographic opportunities and a contrast to the saline waters.",
+          "lat": -23.0456,
+          "lng": -68.2145
+        },
+        {
+          "id": "lagu_3",
+          "text": "Desert Hiking and Mountain Views",
+          "detail": "Trek through the surrounding Atacama Desert landscape to witness panoramic views of the Andes mountains and salt flats.",
+          "lat": -23.0378,
+          "lng": -68.2289
+        },
+        {
+          "id": "lagu_4",
+          "text": "Sunset Photography",
+          "detail": "Capture the lagoon's turquoise waters as they glow during golden hour with the desert mountains creating dramatic silhouettes.",
+          "lat": -23.0378,
+          "lng": -68.2289
+        },
+        {
+          "id": "lagu_5",
+          "text": "Mineral-Rich Mud Application",
+          "detail": "Apply the lagoon's therapeutic mineral-rich mud to your skin for a natural spa treatment believed to have healing properties."
+        },
+        {
+          "id": "lagu_6",
+          "text": "Stargazing in the Desert",
+          "detail": "Experience exceptional night-sky viewing in one of Earth's clearest locations, with minimal light pollution revealing the Milky Way."
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Empanadas de Pino",
+          "detail": "Traditional Chilean baked pastries filled with seasoned ground beef, onions, olives, and hard-boiled egg, commonly sold at local vendors near the lagoon."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Pastel de Choclo",
+          "detail": "A beloved Atacama dish combining ground corn topping with a savory filling of meat, onions, and hard-boiled eggs, served warm."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Fresh Trout from Local Springs",
+          "detail": "Grilled or pan-fried trout sourced from the region's natural freshwater springs, often prepared simply with local herbs."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Completo Atacameño",
+          "detail": "A regional variation of Chile's popular street sandwich combining hot dog, avocado, tomato, onion, and local condiments unique to the Atacama region."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Cazuela de Verduras",
+          "detail": "A hearty vegetable stew featuring local produce from the oasis communities, simmered with potatoes and regional spices."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Bring Waterproof Items",
+          "detail": "The high salinity can damage electronics and leave residue on valuables, so use waterproof bags or leave sensitive items at your accommodation."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Respect Local Indigenous Heritage",
+          "detail": "The Atacama region is home to indigenous communities; support local guides and artisans rather than purchasing from outside vendors."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Sun Protection is Essential",
+          "detail": "The desert sun at high altitude is intensely strong; apply high-SPF sunscreen frequently and wear protective clothing to prevent severe burns."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Locals recommend avoiding midday crowds and extreme heat by visiting during cooler hours when the light is also best for photography."
+        }
+      ]
+    },
+    {
+      "id": "flamingo_lagoons",
+      "name": "Flamingo Lagoons",
+      "nameIt": "Lagunas Altiplánicas",
+      "lat": -23.3667,
+      "lng": -67.8833,
+      "type": "NATURE",
+      "description": "A series of high-altitude salt lagoons teeming with pink flamingos, James flamingos, and other Andean wildlife set against snow-capped volcanoes. These ethereal landscapes offer some of the most pristine wildlife viewing opportunities in the Atacama Desert.",
+      "imageQueries": [
+        "Flamingo lagoons Atacama",
+        "Laguna Tebinquinche pink flamingos"
+      ],
+      "activities": [
+        {
+          "id": "flam_1",
+          "text": "Laguna Cejar swim",
+          "detail": "Float in the mineral-rich waters of this warm lagoon, where high salt content keeps you naturally buoyant.",
+          "lat": -23.1833,
+          "lng": -68.2167
+        },
+        {
+          "id": "flam_2",
+          "text": "Flamingo photography at Laguna Tebinquinche",
+          "detail": "Capture James flamingos and Andean flamingos against backlit snow-capped volcanoes during golden hour.",
+          "lat": -23.2333,
+          "lng": -68.2333
+        },
+        {
+          "id": "flam_3",
+          "text": "Sunrise at Laguna Miscanti",
+          "detail": "Witness thousands of pink flamingos awakening as the sun illuminates the Miscanti volcano's peak.",
+          "lat": -23.6833,
+          "lng": -67.9167
+        },
+        {
+          "id": "flam_4",
+          "text": "Ojos del Salar geothermal springs",
+          "detail": "Soak in naturally heated mineral pools surrounded by flamingo colonies and desert vistas.",
+          "lat": -23.3,
+          "lng": -68.2
+        },
+        {
+          "id": "flam_5",
+          "text": "Laguna Miñiques wildlife observation",
+          "detail": "Spot Andean foxes, vicuñas, and three flamingo species in their natural habitat at 4,200 meters elevation.",
+          "lat": -23.7167,
+          "lng": -67.8833
+        },
+        {
+          "id": "flam_6",
+          "text": "High-altitude desert hiking",
+          "detail": "Trek between lagoons on trails that pass through salt flats and volcanic terrain with dramatic panoramic views.",
+          "lat": -23.5,
+          "lng": -68
+        }
+      ],
+      "food": [
+        {
+          "id": "flam_f1",
+          "text": "Cazuela de ave",
+          "detail": "A slow-cooked chicken stew with corn, potatoes, and pumpkin served in clay bowls, warming and filling for high-altitude visitors."
+        },
+        {
+          "id": "flam_f2",
+          "text": "Pastel de choclo",
+          "detail": "Savory meat pie topped with fresh corn paste, a traditional Andean dish reflecting Chile's culinary heritage."
+        },
+        {
+          "id": "flam_f3",
+          "text": "Quinoa and llama empanadas",
+          "detail": "Hand-held pastries filled with locally-sourced quinoa and tender llama meat, perfect for trail snacking."
+        },
+        {
+          "id": "flam_f4",
+          "text": "Fresh trout from mountain streams",
+          "detail": "Local restaurants serve freshly caught trout from the region's cold alpine waters, often simply grilled with lemon."
+        },
+        {
+          "id": "flam_f5",
+          "text": "Completo atacameño",
+          "detail": "A regional take on the Chilean hot dog featuring local ingredients, topped with avocado and local cheese."
+        }
+      ],
+      "culture": [
+        {
+          "id": "flam_c1",
+          "text": "Respect indigenous heritage",
+          "detail": "These lands hold sacred significance for the Atacameño people; ask permission before photographing locals or entering private lands."
+        },
+        {
+          "id": "flam_c2",
+          "text": "Altitude acclimatization is essential",
+          "detail": "Lagoons sit between 3,600 and 4,400 meters elevation; spend your first day at lower elevations and drink mate de coca (coca leaf tea) to manage altitude sickness."
+        },
+        {
+          "id": "flam_c3",
+          "text": "Extreme sun protection required",
+          "detail": "The high altitude and reflective salt surfaces intensify UV radiation significantly; sunscreen, hat, and sunglasses are non-negotiable."
+        },
+        {
+          "id": "flam_c4",
+          "text": "Early starts are non-negotiable",
+          "detail": "Tours depart before dawn to catch flamingo activity and sunrise light, and afternoon winds make afternoon visits unpleasant."
+        }
+      ]
+    },
+    {
+      "id": "el_tatio_geysers",
+      "name": "El Tatio Geysers",
+      "nameIt": "Geysers del Tatio",
+      "lat": -22.3283,
+      "lng": -68.0097,
+      "type": "NATURE",
+      "description": "The highest geyser field in the world at 4,320 meters elevation, El Tatio features dozens of steaming geysers erupting at dawn in a dramatic display. Early morning visits offer an unforgettable experience with geysers backlit by the rising sun and mountain mist.",
+      "imageQueries": [
+        "El Tatio geysers sunrise",
+        "Geysers del Tatio steam"
+      ],
+      "activities": [
+        {
+          "id": "el_t_1",
+          "text": "Watch the Dawn Geyser Eruptions",
+          "detail": "Arrive before sunrise to witness dozens of geysers shooting steam and hot water into the air, dramatically backlit by the rising sun over the Andes.",
+          "lat": -22.8058,
+          "lng": -68.0142
+        },
+        {
+          "id": "el_t_2",
+          "text": "Soak in the Natural Hot Pools",
+          "detail": "Wade into the naturally heated thermal pools scattered throughout the geyser field to experience geothermal warmth while surrounded by dramatic mountain scenery.",
+          "lat": -22.8058,
+          "lng": -68.0142
+        },
+        {
+          "id": "el_t_3",
+          "text": "Hike Among the Geyser Cones",
+          "detail": "Walk between the mineral-encrusted geyser mounds and steam vents to observe the geological formations and photograph individual eruptions up close.",
+          "lat": -22.8058,
+          "lng": -68.0142
+        },
+        {
+          "id": "el_t_4",
+          "text": "Explore the Puritama Hot Springs",
+          "detail": "Visit the nearby pre-Incan ruins and natural hot springs about 30 kilometers away, combining archaeology with thermal bathing.",
+          "lat": -22.7711,
+          "lng": -68.2289
+        },
+        {
+          "id": "el_t_5",
+          "text": "Photograph Sunrise Silhouettes",
+          "detail": "Capture the dramatic backlighting of steam plumes and mountain peaks during the first hours after dawn when light conditions are optimal.",
+          "lat": -22.8058,
+          "lng": -68.0142
+        },
+        {
+          "id": "el_t_6",
+          "text": "Visit the Visitor Center and Museum",
+          "detail": "Learn about the geology, ecology, and indigenous history of the El Tatio region through exhibits and interpretive displays.",
+          "lat": -22.8045,
+          "lng": -68.013
+        }
+      ],
+      "food": [
+        {
+          "id": "el_t_f1",
+          "text": "Empanadas de Queso y Carne",
+          "detail": "Local baked pastries filled with cheese and minced beef, commonly served warm at tour operator lodges and breakfast stops before geyser visits."
+        },
+        {
+          "id": "el_t_f2",
+          "text": "Completo Atacameño",
+          "detail": "A regional variation of the Chilean hot dog topped with guacamole, tomato, onion, and local cheese, reflecting Atacama's agricultural traditions."
+        },
+        {
+          "id": "el_t_f3",
+          "text": "Quinoa Soup",
+          "detail": "Traditional Andean soup made with local quinoa, vegetables, and sometimes llama or alpaca meat, warming and nutrient-rich at high altitude."
+        },
+        {
+          "id": "el_t_f4",
+          "text": "Pan de Tatio",
+          "detail": "Fresh bread baked locally and served at small cafés and lodges, often eaten with local honey or cheese from nearby communities."
+        },
+        {
+          "id": "el_t_f5",
+          "text": "Locro",
+          "detail": "A hearty Andean stew featuring corn, beans, squash, and sometimes meat, designed to provide warmth and energy for high-altitude travelers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "el_t_c1",
+          "text": "Respect the Sacred Indigenous Land",
+          "detail": "The area holds significance for indigenous Atacameño communities; stay on marked paths and do not disturb mineral formations or thermal areas beyond designated zones."
+        },
+        {
+          "id": "el_t_c2",
+          "text": "Prepare for Extreme Altitude and Cold",
+          "detail": "At 4,320 meters elevation, visitors experience thin air and temperatures near freezing at dawn; bring layered clothing, sunscreen, and arrive acclimated or take precautions against altitude sickness."
+        },
+        {
+          "id": "el_t_c3",
+          "text": "Start Your Visit Before Dawn",
+          "detail": "Tours depart very early in the morning (often 3-4 AM) from San Pedro de Atacama; this is essential tradition to witness peak geyser activity and the dramatic sunrise display."
+        },
+        {
+          "id": "el_t_c4",
+          "text": "Use Authorized Tour Operators",
+          "detail": "Visit only with licensed guides and operators based in San Pedro de Atacama, as they follow safety protocols for geothermal hazards and support local employment."
+        }
+      ]
+    },
+    {
+      "id": "death_valley",
+      "name": "Death Valley",
+      "nameIt": "Valle de la Muerte",
+      "lat": -22.9167,
+      "lng": -68.3583,
+      "type": "NATURE",
+      "description": "A dramatic desert canyon with towering rock formations and deep ravines that create stunning views and excellent hiking opportunities. The contrasting sand colors and erosion patterns make it a photographer's paradise and a thrilling exploration destination.",
+      "imageQueries": [
+        "Valle de la Muerte Atacama",
+        "Death Valley canyon Chile"
+      ],
+      "activities": [
+        {
+          "id": "deat_1",
+          "text": "Canyon Rim Hiking",
+          "detail": "Trek along the dramatic cliff edges of the main canyon to witness the full scale of the multicolored rock formations and deep ravines.",
+          "lat": -22.3167,
+          "lng": -68.2167
+        },
+        {
+          "id": "deat_2",
+          "text": "Slot Canyon Exploration",
+          "detail": "Navigate through narrow, winding passages carved by ancient water erosion where towering walls create surreal photo opportunities."
+        },
+        {
+          "id": "deat_3",
+          "text": "Sunset Photography at Mirador",
+          "detail": "Position yourself at the high viewpoint overlooking the valley floor to capture the golden and crimson light illuminating the sand dunes and rock layers.",
+          "lat": -22.3175,
+          "lng": -68.2158
+        },
+        {
+          "id": "deat_4",
+          "text": "Sand Dune Trekking",
+          "detail": "Hike across the contrasting white and reddish sand formations at the canyon floor, observing the stark color variations created by mineral deposits."
+        },
+        {
+          "id": "deat_5",
+          "text": "Rock Formation Scrambling",
+          "detail": "Climb and explore the accessible rock spires and formations throughout the canyon for intimate views and challenging adventure routes."
+        },
+        {
+          "id": "deat_6",
+          "text": "Geological Study Walk",
+          "detail": "Follow a guided or self-directed route identifying different erosion patterns, mineral-colored strata, and geological history carved into the canyon walls."
+        },
+        {
+          "id": "deat_7",
+          "text": "Sunrise Viewing from High Points",
+          "detail": "Wake early to watch the valley transform as first light hits the rock faces, revealing hidden colors and creating dramatic shadows across the landscape."
+        }
+      ],
+      "food": [
+        {
+          "id": "deat_f1",
+          "text": "Pastel de Choclo",
+          "detail": "A traditional Chilean corn pie with ground meat and olives, commonly served warm in San Pedro de Atacama before or after desert excursions."
+        },
+        {
+          "id": "deat_f2",
+          "text": "Empanadas de Pino",
+          "detail": "Fried pastries filled with seasoned ground beef, onions, and hard-boiled egg, a convenient handheld meal for hiking in the region."
+        },
+        {
+          "id": "deat_f3",
+          "text": "Cazuela de Verduras",
+          "detail": "A hearty vegetable stew with local produce from the Atacama oasis, often featuring squash and potatoes to restore energy after canyon exploration."
+        },
+        {
+          "id": "deat_f4",
+          "text": "Quinoa Soup",
+          "detail": "A protein-rich Andean staple served hot in local restaurants, traditionally made with locally-grown quinoa and regional vegetables."
+        }
+      ],
+      "culture": [
+        {
+          "id": "deat_c1",
+          "text": "Start Early to Beat Heat",
+          "detail": "Begin hikes at dawn since the Atacama Desert reaches extreme temperatures by mid-day, and carry plenty of water as there are no sources within the canyon."
+        },
+        {
+          "id": "deat_c2",
+          "text": "Hire Local Guides",
+          "detail": "Experienced guides from San Pedro de Atacama know safe routes, hidden viewpoints, and geological details while supporting the local economy."
+        },
+        {
+          "id": "deat_c3",
+          "text": "Respect Archaeological Sites",
+          "detail": "The region contains pre-Columbian heritage; avoid disturbing any artifacts, rock art, or ceremonial sites you encounter while exploring."
+        },
+        {
+          "id": "deat_c4",
+          "text": "Protect Against Sun Exposure",
+          "detail": "The high altitude (over 2,400 meters) and desert reflection intensify UV radiation, requiring sunscreen, hat, and sunglasses even on cloudy days."
+        }
+      ]
+    },
+    {
+      "id": "piedras_rojas",
+      "name": "Piedras Rojas",
+      "nameIt": "Piedras Rojas",
+      "lat": -23.6167,
+      "lng": -68.0167,
+      "type": "NATURE",
+      "description": "A stunning lagoon surrounded by distinctive red rock formations that create a striking contrast with the turquoise water. This lesser-known gem offers pristine natural beauty without the crowds of more famous Atacama sites.",
+      "imageQueries": [
+        "Piedras Rojas red rocks",
+        "Piedras Rojas turquoise lagoon"
+      ],
+      "activities": [
+        {
+          "id": "pied_1",
+          "text": "Lagoon Photography",
+          "detail": "Capture the striking contrast between turquoise waters and crimson rock formations, best during golden hour when light intensifies the red mineral hues.",
+          "lat": -23.7167,
+          "lng": -68.3333
+        },
+        {
+          "id": "pied_2",
+          "text": "Red Rock Hiking",
+          "detail": "Explore trails through the distinctive red rock formations surrounding the lagoon to discover hidden viewpoints and geological formations up close.",
+          "lat": -23.7167,
+          "lng": -68.3333
+        },
+        {
+          "id": "pied_3",
+          "text": "Lagoon Swimming",
+          "detail": "Wade or swim in the mineral-rich turquoise waters, though the high altitude and cold temperature require acclimatization and appropriate preparation.",
+          "lat": -23.7167,
+          "lng": -68.3333
+        },
+        {
+          "id": "pied_4",
+          "text": "Sunrise Viewing",
+          "detail": "Arrive before dawn to witness the red rocks transform through pink and orange tones as sunlight first touches the formations above the lagoon.",
+          "lat": -23.7167,
+          "lng": -68.3333
+        },
+        {
+          "id": "pied_5",
+          "text": "Mineral Pool Exploration",
+          "detail": "Examine the unique mineral deposits and algae that create the distinctive turquoise coloration in the shallow pools along the lagoon's edges.",
+          "lat": -23.7167,
+          "lng": -68.3333
+        },
+        {
+          "id": "pied_6",
+          "text": "Desert Flora Observation",
+          "detail": "Spot hardy Atacama desert plants and occasional wildlife adapted to the extreme altitude and aridity surrounding the lagoon area."
+        }
+      ],
+      "food": [
+        {
+          "id": "pied_f1",
+          "text": "Empanadas de Queso",
+          "detail": "Savory pastries filled with local cheese served warm by vendors in nearby San Pedro de Atacama, a staple energy food for desert travelers."
+        },
+        {
+          "id": "pied_f2",
+          "text": "Quinoa Soup",
+          "detail": "Nutritious Andean soup made with locally-grown quinoa and vegetables, traditionally eaten to combat altitude effects in high-elevation areas."
+        },
+        {
+          "id": "pied_f3",
+          "text": "Llama Steak",
+          "detail": "Grilled meat from local llama herds, lean and tender, typically served with native potatoes and served in San Pedro de Atacama restaurants."
+        },
+        {
+          "id": "pied_f4",
+          "text": "Chuno (Freeze-Dried Potatoes)",
+          "detail": "Ancient Andean preservation technique creating lightweight, shelf-stable potatoes still used in traditional dishes at local eateries."
+        },
+        {
+          "id": "pied_f5",
+          "text": "Atacama Wine Tasting",
+          "detail": "Sample wines from nearby Copiapó Valley vineyards, where altitude and desert conditions produce distinctive varietals unique to the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pied_c1",
+          "text": "Altitude Acclimatization",
+          "detail": "Piedras Rojas sits at approximately 3,658 meters elevation; spend time in San Pedro de Atacama first and drink plenty of water to prevent soroche (altitude sickness)."
+        },
+        {
+          "id": "pied_c2",
+          "text": "Early Morning Visits",
+          "detail": "Visit at sunrise or early morning to avoid afternoon winds that obscure views and to experience the site's most dramatic lighting before other visitors arrive."
+        },
+        {
+          "id": "pied_c3",
+          "text": "Leave No Trace",
+          "detail": "This pristine desert ecosystem is fragile; pack out all waste, stay on designated paths, and respect the site's protected status to preserve it for future visitors."
+        },
+        {
+          "id": "pied_c4",
+          "text": "Local Guide Respect",
+          "detail": "Hiring local guides from San Pedro de Atacama supports the community and provides crucial knowledge about safe navigation, geology, and indigenous history of the region."
+        }
+      ]
+    },
+    {
+      "id": "ojos_del_salar",
+      "name": "Ojos del Salar",
+      "nameIt": "Ojos del Salar",
+      "lat": -23.0917,
+      "lng": -68.2667,
+      "type": "NATURE",
+      "description": "Two crystal-clear freshwater springs emerging from the salt flat surrounded by lush vegetation, creating an oasis-like phenomenon in the otherwise barren desert. The stark contrast between the green wetland and white salt makes it a unique and captivating sight.",
+      "imageQueries": [
+        "Ojos del Salar springs",
+        "Ojos del Salar freshwater oasis"
+      ],
+      "activities": [
+        {
+          "id": "ojos_1",
+          "text": "Spring Water Photography",
+          "detail": "Capture the dramatic contrast between the emerald freshwater pools and the brilliant white salt flat, especially during golden hour when light reflects off the mineral-rich water.",
+          "lat": -22.3089,
+          "lng": -68.2156
+        },
+        {
+          "id": "ojos_2",
+          "text": "Wetland Hiking",
+          "detail": "Walk the narrow trails through the lush vegetation surrounding the springs to observe native plants and birds adapted to this desert oasis ecosystem.",
+          "lat": -22.3089,
+          "lng": -68.2156
+        },
+        {
+          "id": "ojos_3",
+          "text": "Salt Flat Exploration",
+          "detail": "Trek across the surrounding Atacama salt flat to understand the geological context of how these freshwater springs emerge in an otherwise arid landscape.",
+          "lat": -22.31,
+          "lng": -68.217
+        },
+        {
+          "id": "ojos_4",
+          "text": "Pool Wading",
+          "detail": "Wade into the crystal-clear spring waters to experience the cool, fresh temperature and observe aquatic life in this unique microhabitat.",
+          "lat": -22.3089,
+          "lng": -68.2156
+        },
+        {
+          "id": "ojos_5",
+          "text": "Sunset Observation",
+          "detail": "Watch the desert sky change colors at dusk as the salt flat takes on pink and purple hues while the springs reflect the fading light.",
+          "lat": -22.3089,
+          "lng": -68.2156
+        }
+      ],
+      "food": [
+        {
+          "id": "ojos_f1",
+          "text": "Fresh Desert Trout",
+          "detail": "Local lodges near the springs prepare freshly caught trout from the cold spring waters, often grilled simply with local herbs and salt."
+        },
+        {
+          "id": "ojos_f2",
+          "text": "Atacama Corn and Squash Soup",
+          "detail": "A traditional northern Chilean dish made with vegetables grown in nearby oasis settlements, reflecting the region's indigenous agricultural heritage."
+        },
+        {
+          "id": "ojos_f3",
+          "text": "Quinoa Salad with Spring Vegetables",
+          "detail": "Local quinoa from the Andean highlands combined with fresh greens and herbs that thrive in the oasis microclimate around the springs."
+        },
+        {
+          "id": "ojos_f4",
+          "text": "Empanadas de Queso",
+          "detail": "Cheese-filled pastries made with local dairy products, commonly sold at small eateries in nearby San Pedro de Atacama."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ojos_c1",
+          "text": "Respect the Fragile Ecosystem",
+          "detail": "Stay on marked paths and avoid picking vegetation, as the oasis is an extremely delicate environment that supports rare desert species found nowhere else."
+        },
+        {
+          "id": "ojos_c2",
+          "text": "Visit with a Local Guide",
+          "detail": "Hiring a guide from San Pedro de Atacama ensures you understand the geological significance and can access the site safely, while supporting the local economy."
+        },
+        {
+          "id": "ojos_c3",
+          "text": "Bring Adequate Water and Sun Protection",
+          "detail": "The Atacama is one of the driest places on Earth; carry extra water beyond what the springs provide, sunscreen, and a wide-brimmed hat despite the oasis setting."
+        }
+      ]
+    },
+    {
+      "id": "licancabur_volcano",
+      "name": "Licancabur Volcano",
+      "nameIt": "Volcán Licancabur",
+      "lat": -22.9,
+      "lng": -68.1967,
+      "type": "LANDMARK",
+      "description": "An iconic 5,960-meter volcano directly overlooking San Pedro de Atacama with ancient archaeological significance to local communities. The hike to the summit offers panoramic desert views and rewards visitors with sunset vistas of the surrounding region.",
+      "imageQueries": [
+        "Licancabur volcano summit",
+        "Licancabur volcano San Pedro"
+      ],
+      "activities": [
+        {
+          "id": "lica_1",
+          "text": "Summit Hike to Licancabur Peak",
+          "detail": "Climb the 5,960-meter volcano on a steep trail starting before dawn to reach the summit by sunrise, rewarding hikers with panoramic views of the Atacama Desert and neighboring volcanoes.",
+          "lat": -22.915,
+          "lng": -68.197
+        },
+        {
+          "id": "lica_2",
+          "text": "Sunset Photography at the Crater Rim",
+          "detail": "Position yourself at the volcanic crater's edge during golden hour to capture the distinctive cone silhouette against the desert landscape and distant salt flats.",
+          "lat": -22.915,
+          "lng": -68.197
+        },
+        {
+          "id": "lica_3",
+          "text": "Licancabur Archaeological Sites",
+          "detail": "Explore pre-Columbian ruins and ceremonial structures scattered across the volcano's slopes, including ancient shrines used by Atacameño peoples for ritual purposes.",
+          "lat": -22.918,
+          "lng": -68.195
+        },
+        {
+          "id": "lica_4",
+          "text": "Laguna Cejar Swimming and Relaxation",
+          "detail": "Combine your volcano experience with a visit to this nearby hypersaline lagoon where the high mineral content allows effortless floating, located about 30 kilometers from San Pedro.",
+          "lat": -22.909,
+          "lng": -68.252
+        },
+        {
+          "id": "lica_5",
+          "text": "Stargazing from High Altitude",
+          "detail": "Take advantage of the volcano's elevation and the Atacama's minimal light pollution to experience some of the clearest night skies in the world from the upper slopes.",
+          "lat": -22.915,
+          "lng": -68.197
+        },
+        {
+          "id": "lica_6",
+          "text": "Guided Indigenous Cultural Tour",
+          "detail": "Join a tour led by local Atacameño guides who share ancestral knowledge about the volcano's spiritual significance and traditional uses of the surrounding landscape.",
+          "lat": -22.92,
+          "lng": -68.19
+        }
+      ],
+      "food": [
+        {
+          "id": "lica_f1",
+          "text": "Cazuela de Choclo",
+          "detail": "A hearty Northern Chilean stew combining corn, meat, beans, and local vegetables, traditionally served in earthenware bowls and perfect for refueling after the volcano hike."
+        },
+        {
+          "id": "lica_f2",
+          "text": "Empanadas Atacameñas",
+          "detail": "Baked pastries filled with seasoned ground meat, hard-boiled eggs, and olives, reflecting the region's culinary traditions and available as quick provisions before or after hiking."
+        },
+        {
+          "id": "lica_f3",
+          "text": "Quinoa and Amaranth Dishes",
+          "detail": "Ancient Andean grains prepared locally in soups and salads, celebrating indigenous crops that have sustained communities in this region for millennia."
+        },
+        {
+          "id": "lica_f4",
+          "text": "Fresh Trout from Desert Springs",
+          "detail": "Pan-seared or grilled trout sourced from the region's cold-water springs, offering a delicate protein option unique to the high-altitude desert environment."
+        },
+        {
+          "id": "lica_f5",
+          "text": "Charqui (Atacama-Style Jerky)",
+          "detail": "Thinly sliced dried llama or alpaca meat, a preserved protein traditionally made by local herders and available at markets in San Pedro de Atacama."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lica_c1",
+          "text": "Respect Sacred Indigenous Sites",
+          "detail": "The volcano holds deep spiritual meaning to the Atacameño people; visitors should refrain from removing artifacts, leaving offerings only where appropriate, and hiring local guides to honor ancestral practices."
+        },
+        {
+          "id": "lica_c2",
+          "text": "Altitude Acclimatization is Essential",
+          "detail": "Spend at least one full day in San Pedro de Atacama (2,400 meters) before attempting the summit hike to reduce the risk of altitude sickness at nearly 6,000 meters."
+        },
+        {
+          "id": "lica_c3",
+          "text": "Early Morning Starts are Non-Negotiable",
+          "detail": "Local guides and experienced hikers depart well before dawn to summit by sunrise and avoid afternoon weather deterioration; plan accordingly and expect a pre-4 AM departure."
+        },
+        {
+          "id": "lica_c4",
+          "text": "Support Local Economy Through Guides",
+          "detail": "Hiring Atacameño guides and purchasing goods from San Pedro merchants directly benefits the community and provides authentic insights into local knowledge and traditions."
+        }
+      ]
+    },
+    {
+      "id": "inca_bridge",
+      "name": "Inca Bridge",
+      "nameIt": "Puente Inca",
+      "lat": -22.6167,
+      "lng": -68.4667,
+      "type": "LANDMARK",
+      "description": "A natural arch formation created by erosion in the high Andes near the Argentine border, featuring dramatic mountain scenery and archaeological remnants. The remote location and striking geological formations make it a rewarding destination for adventurous travelers.",
+      "imageQueries": [
+        "Puente Inca rock formation",
+        "Inca Bridge Atacama Argentina border"
+      ],
+      "activities": [
+        {
+          "id": "inca_1",
+          "text": "Walk beneath the natural arch",
+          "detail": "Cross under the dramatic stone bridge formation and explore the erosion-carved walls that frame the narrow passage.",
+          "lat": -23.6833,
+          "lng": -68.2167
+        },
+        {
+          "id": "inca_2",
+          "text": "Photograph the geological formations",
+          "detail": "Capture the layered sandstone and mineral-streaked rock faces that create stunning color contrasts in morning and evening light."
+        },
+        {
+          "id": "inca_3",
+          "text": "Visit nearby Pukará de Lasana ruins",
+          "detail": "Explore the pre-Columbian fortified settlement about 15 km away to understand the region's archaeological significance.",
+          "lat": -23.6667,
+          "lng": -68.1833
+        },
+        {
+          "id": "inca_4",
+          "text": "Hike the canyon trail system",
+          "detail": "Trek through the surrounding ravines and canyons to discover additional rock formations and gain panoramic Andes views."
+        },
+        {
+          "id": "inca_5",
+          "text": "Study the glacial and fluvial landscape",
+          "detail": "Observe how water and ice erosion shaped the dramatic valley terrain over millennia in this high-altitude environment."
+        },
+        {
+          "id": "inca_6",
+          "text": "Camp under the stars",
+          "detail": "Stay overnight in the area to experience the intense clarity of the night sky away from light pollution in the high desert."
+        }
+      ],
+      "food": [
+        {
+          "id": "inca_f1",
+          "text": "Charqui (dried llama meat)",
+          "detail": "Sample this traditional Andean preserved meat, a staple that sustained miners and travelers in the high desert."
+        },
+        {
+          "id": "inca_f2",
+          "text": "Pastel de choclo",
+          "detail": "Try this creamed corn casserole topped with meat, a comfort food common in northern Chile's mountain communities."
+        },
+        {
+          "id": "inca_f3",
+          "text": "Fresh trout from local streams",
+          "detail": "Eat locally-caught fish prepared simply at small roadside lodges near Atacama villages."
+        },
+        {
+          "id": "inca_f4",
+          "text": "Locro de papa",
+          "detail": "Enjoy this hearty potato and meat stew flavored with cumin and chili, perfect for warming up after cold desert nights."
+        }
+      ],
+      "culture": [
+        {
+          "id": "inca_c1",
+          "text": "Hire a local guide for safety",
+          "detail": "The remote location and thin air at 4,000+ meters elevation require experienced guides who know water sources and weather patterns."
+        },
+        {
+          "id": "inca_c2",
+          "text": "Respect archaeological sites",
+          "detail": "Do not remove artifacts or disturb stone structures; these sites hold spiritual significance for indigenous Atacameño communities."
+        },
+        {
+          "id": "inca_c3",
+          "text": "Prepare for extreme altitude and temperature swings",
+          "detail": "Bring adequate water, sun protection, and warm layers as daytime heat turns to freezing cold at night in the high Andes."
+        },
+        {
+          "id": "inca_c4",
+          "text": "Allow extra travel time",
+          "detail": "Roads to Inca Bridge are rough and seasonal; visit during the austral summer (November to March) and account for slow driving speeds."
+        }
+      ]
+    },
+    {
+      "id": "copacabana",
+      "name": "Copacabana",
+      "nameIt": "Copacabana",
+      "lat": -23.8333,
+      "lng": -68.15,
+      "type": "TOWN",
+      "description": "A small village serving as a gateway to the altiplanic lagoons with traditional Andean culture and local crafts. The town's proximity to pristine natural attractions and authentic charm make it a worthwhile stop for those exploring the region's high-altitude ecosystems.",
+      "imageQueries": [
+        "Copacabana village Chile",
+        "Copacabana Atacama altiplano"
+      ],
+      "activities": [
+        {
+          "id": "copa_1",
+          "text": "Laguna Cejar",
+          "detail": "Visit this striking turquoise salt lagoon where the high mineral content allows visitors to float effortlessly, located about 30 km south of Copacabana.",
+          "lat": -23.1167,
+          "lng": -68.2167
+        },
+        {
+          "id": "copa_2",
+          "text": "Laguna Tebinquinche",
+          "detail": "Explore this pristine high-altitude lagoon known for its rich birdlife including flamingos and Andean geese, situated roughly 20 km from town.",
+          "lat": -23.1333,
+          "lng": -68.2667
+        },
+        {
+          "id": "copa_3",
+          "text": "Ojos del Salar",
+          "detail": "Walk to these natural freshwater springs in the otherwise salt-dominated Atacama landscape, visible from the village area.",
+          "lat": -23.1483,
+          "lng": -68.2142
+        },
+        {
+          "id": "copa_4",
+          "text": "Artisan Markets",
+          "detail": "Browse local craft stalls in the village center for handwoven textiles, alpaca wool products, and traditional Andean handicrafts made by resident artisans."
+        },
+        {
+          "id": "copa_5",
+          "text": "Sunset at Laguna Ojos del Salar",
+          "detail": "Experience the dramatic color changes of the springs and surrounding salt flats during golden hour from this accessible nearby viewpoint.",
+          "lat": -23.1483,
+          "lng": -68.2142
+        },
+        {
+          "id": "copa_6",
+          "text": "Socaire Trek",
+          "detail": "Day hike to the nearby traditional Andean village of Socaire to experience authentic highland culture and pre-Incan terraced agriculture."
+        }
+      ],
+      "food": [
+        {
+          "id": "copa_f1",
+          "text": "Charqui",
+          "detail": "Dried llama or alpaca meat, a traditional high-altitude protein that has sustained Andean communities for centuries and remains a local staple."
+        },
+        {
+          "id": "copa_f2",
+          "text": "Cazuela de Choclo",
+          "detail": "A hearty corn and meat stew cooked in an earthenware pot, providing warmth at high altitude and featuring local corn varieties."
+        },
+        {
+          "id": "copa_f3",
+          "text": "Quinoa Soup",
+          "detail": "A nutritious local soup made with native quinoa, potatoes, and vegetables grown in the altiplanic region."
+        },
+        {
+          "id": "copa_f4",
+          "text": "Empanadas de Carne",
+          "detail": "Hand-filled pastries with spiced local meat, a convenient street food made by village vendors throughout Copacabana."
+        },
+        {
+          "id": "copa_f5",
+          "text": "Alpaca Stew",
+          "detail": "A slow-cooked regional specialty combining tender alpaca meat with native potatoes, aji peppers, and cumin reflecting traditional Andean flavors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "copa_c1",
+          "text": "Altitude Acclimatization",
+          "detail": "Copacabana sits at approximately 2,320 meters elevation; spend your first day resting and drinking mate de coca (coca leaf tea) to adjust before visiting higher lagoons."
+        },
+        {
+          "id": "copa_c2",
+          "text": "Respect Sacred Sites",
+          "detail": "The lagoons and landscape hold spiritual significance in Andean cosmology; ask permission before photographing locals or entering ceremonial areas."
+        },
+        {
+          "id": "copa_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While some English may be spoken, locals greatly appreciate visitors attempting Spanish, and many older residents speak primarily Spanish and Quechua."
+        },
+        {
+          "id": "copa_c4",
+          "text": "Best Visit Season",
+          "detail": "December through March offers the most pleasant weather, though the altiplano is accessible year-round; avoid the austral winter (June–August) when temperatures drop significantly at night."
+        }
+      ]
+    },
+    {
+      "id": "atacama_desert",
+      "name": "Atacama Desert",
+      "nameLocal": "Desierto de Atacama",
+      "type": "PARK",
+      "lat": -22.9068,
+      "lng": -68.2045,
+      "description": "One of the driest places on Earth, featuring otherworldly landscapes including salt flats, geysers, and colorful mountains. Visitors flock here for adventure activities, stargazing, and unique geological formations.",
+      "activities": [
+        {
+          "id": "atac_1",
+          "text": "El Tatio Geysers",
+          "detail": "Witness the third-largest geyser field in the world with steaming hot springs at high altitude, best visited at dawn when geothermal activity is most dramatic.",
+          "lat": -22.3283,
+          "lng": -68.0019
+        },
+        {
+          "id": "atac_2",
+          "text": "Atacama Salt Flats",
+          "detail": "Explore vast white salt plains with surreal geometric patterns and shallow lagoons reflecting the sky, creating an otherworldly landscape.",
+          "lat": -22.2897,
+          "lng": -68.2057
+        },
+        {
+          "id": "atac_3",
+          "text": "Valley of the Moon",
+          "detail": "Hike through multicolored rock formations and deep canyons displaying layers of red, orange, and purple minerals shaped by wind and water erosion.",
+          "lat": -22.4567,
+          "lng": -68.2156
+        },
+        {
+          "id": "atac_4",
+          "text": "Stargazing in San Pedro",
+          "detail": "Experience some of Earth's clearest night skies from San Pedro de Atacama, with professional astronomical observatories offering guided telescope viewing.",
+          "lat": -22.908,
+          "lng": -68.1993
+        },
+        {
+          "id": "atac_5",
+          "text": "Laguna Cejar",
+          "detail": "Swim in a hypersal mineral lagoon surrounded by the Andes where the high salt concentration allows visitors to float effortlessly.",
+          "lat": -22.3667,
+          "lng": -68.2333
+        },
+        {
+          "id": "atac_6",
+          "text": "Rainbow Mountain",
+          "detail": "Trek to Montaña de los Siete Colores featuring vibrant mineral-stained slopes of red, yellow, green, and purple across its ridges.",
+          "lat": -22.4083,
+          "lng": -68.225
+        },
+        {
+          "id": "atac_7",
+          "text": "Flamingo Lagoons",
+          "detail": "Visit a series of high-altitude salt lakes home to Andean flamingos, vicuñas, and other wildlife in a stark desert setting.",
+          "lat": -22.4,
+          "lng": -68.3667
+        }
+      ],
+      "food": [
+        {
+          "id": "atac_f1",
+          "text": "Empanadas de Pino",
+          "detail": "Baked pastries filled with seasoned ground beef, onions, olives, and hard-boiled eggs, a ubiquitous Chilean comfort food."
+        },
+        {
+          "id": "atac_f2",
+          "text": "Cazuela",
+          "detail": "A traditional earthenware pot stew combining local vegetables, potatoes, and either chicken or beef in a hearty broth."
+        },
+        {
+          "id": "atac_f3",
+          "text": "Charque de Llama",
+          "detail": "Dried and salted llama meat served as strips or shredded, a protein-rich dish reflecting the region's camelid herding heritage."
+        },
+        {
+          "id": "atac_f4",
+          "text": "Quinoa Soup",
+          "detail": "A nourishing local soup made from ancient Andean quinoa grain combined with vegetables and sometimes local herbs."
+        },
+        {
+          "id": "atac_f5",
+          "text": "Pastel de Choclo",
+          "detail": "A savory pie with a sweet corn topping layered with ground beef, olives, and hard-boiled eggs, a Chilean classic adapted to local ingredients."
+        }
+      ],
+      "culture": [
+        {
+          "id": "atac_c1",
+          "text": "Respect High Altitude",
+          "detail": "San Pedro de Atacama sits at 2,400 meters elevation; arrive a day early to acclimatize and drink coca tea to minimize altitude sickness."
+        },
+        {
+          "id": "atac_c2",
+          "text": "Early Morning Excursions",
+          "detail": "Tours depart very early (often 4-5 AM) to catch sunrise and peak geological colors, so prepare accordingly and book accommodations close to town."
+        },
+        {
+          "id": "atac_c3",
+          "text": "Indigenous Heritage",
+          "detail": "The region is home to Atacameño and Aymara peoples; support local guides and communities by choosing locally-owned tour operators and respecting sacred sites."
+        },
+        {
+          "id": "atac_c4",
+          "text": "Water Conservation",
+          "detail": "The Atacama is extremely arid with limited water resources; use water sparingly in accommodations and understand that conservation is a local priority."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Adobe",
+      "address": "Caracoles 213, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Chilean Contemporary",
+      "priceRange": "€€€",
+      "description": "Upscale dining in a restored adobe building featuring refined Chilean cuisine with local ingredients and creative presentations.",
+      "mustOrder": "Atacameño lamb with quinoa and desert vegetables",
+      "lat": -22.9098,
+      "lng": -68.2013
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Kunza",
+      "address": "Caracoles 306, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Chilean-Peruvian Fusion",
+      "priceRange": "€€",
+      "description": "Popular casual restaurant blending Chilean and Peruvian flavors with emphasis on fresh local produce and seafood.",
+      "mustOrder": "Ceviche with local white fish",
+      "lat": -22.9105,
+      "lng": -68.2019
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "The Breakfast Club",
+      "address": "Caracoles 237, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Café & International",
+      "priceRange": "€",
+      "description": "Relaxed café beloved by travelers offering hearty breakfasts, sandwiches, coffee and casual all-day dining.",
+      "mustOrder": "Shakshuka with fresh bread",
+      "lat": -22.91,
+      "lng": -68.2014
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Yerbas Buenas",
+      "address": "Caracoles 347, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Vegetarian & Vegan",
+      "priceRange": "€€",
+      "description": "Well-regarded vegetarian restaurant offering creative plant-based dishes and fresh juices in a colorful bohemian setting.",
+      "mustOrder": "Quinoa and vegetable empanadas",
+      "lat": -22.911,
+      "lng": -68.2023
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Baltinache",
+      "address": "Caracoles 265, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Chilean",
+      "priceRange": "€€",
+      "description": "Charming restaurant specializing in traditional Chilean dishes and regional specialties in an intimate courtyard setting.",
+      "mustOrder": "Pastel de choclo with salad",
+      "lat": -22.9102,
+      "lng": -68.2016
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Casa de Piedra",
+      "address": "Caracoles 171, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€€",
+      "description": "Sophisticated steakhouse featuring premium Argentine beef and Chilean wine selections in rustic stone architecture.",
+      "mustOrder": "Ribeye steak with chimichurri",
+      "lat": -22.9094,
+      "lng": -68.201
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Restaurant Ayllu",
+      "address": "Caracoles 299, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Family-run Peruvian eatery offering authentic dishes and traditional recipes passed down through generations.",
+      "mustOrder": "Lomo saltado with rice and beans",
+      "lat": -22.9107,
+      "lng": -68.2021
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Licantén",
+      "address": "Caracoles 212, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Chilean Contemporary",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant celebrating Chilean terroir with locally-sourced ingredients and wine pairings.",
+      "mustOrder": "Chañar fruit dessert with pisco sauce",
+      "lat": -22.9097,
+      "lng": -68.2012
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "La Pimiento",
+      "address": "Avenida Pedro de Valdivia 1200, Calama",
+      "neighbourhood": "Calama",
+      "cuisine": "Chilean",
+      "priceRange": "€€",
+      "description": "Established local favorite in Calama known for generous portions of Chilean comfort food and friendly service.",
+      "mustOrder": "Cazuela de ave with white wine sauce",
+      "lat": -22.4643,
+      "lng": -68.2167
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Tataku",
+      "address": "Caracoles 289, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Asian Fusion",
+      "priceRange": "€€",
+      "description": "Contemporary fusion restaurant creatively combining Asian techniques with Atacameño ingredients.",
+      "mustOrder": "Miso-glazed local fish with quinoa",
+      "lat": -22.9106,
+      "lng": -68.202
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "El Médano",
+      "address": "Caracoles 254, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Seafood & Chilean",
+      "priceRange": "€€€",
+      "description": "Upscale seafood restaurant featuring fresh fish and shellfish with creative preparations and desert wines.",
+      "mustOrder": "Congrio negro with desert herb sauce",
+      "lat": -22.9101,
+      "lng": -68.2015
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Puro Atacama",
+      "address": "Caracoles 182, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Chilean Contemporary",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment showcasing innovative Chilean cuisine with emphasis on local, seasonal ingredients.",
+      "mustOrder": "Tasting menu featuring desert ingredients",
+      "lat": -22.9095,
+      "lng": -68.2011
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Las Delicias del Mar",
+      "address": "Avenida Granaderos 2756, Calama",
+      "neighbourhood": "Calama",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Popular seafood restaurant in Calama serving fresh fish, shellfish and traditional Chilean fish stews.",
+      "mustOrder": "Pastel de jaiba with fresh lemon",
+      "lat": -22.4655,
+      "lng": -68.218
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Café Quetena",
+      "address": "Caracoles 301, San Pedro de Atacama",
+      "neighbourhood": "San Pedro de Atacama",
+      "cuisine": "Café & Light Fare",
+      "priceRange": "€",
+      "description": "Charming neighborhood café with espresso, pastries, sandwiches and local coffee reflecting Atacameño culture.",
+      "mustOrder": "Espresso with fresh empanada",
+      "lat": -22.9108,
+      "lng": -68.2022
+    }
+  ]
+}

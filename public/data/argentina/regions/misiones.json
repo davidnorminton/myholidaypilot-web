@@ -1,0 +1,1237 @@
+{
+  "id": "misiones",
+  "name": "Misiones",
+  "nameIt": "Misiones",
+  "capital": "Posadas",
+  "lat": -27.3622,
+  "lng": -55.5038,
+  "emoji": "💧",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": -25,
+    "south": -28.5,
+    "east": -54,
+    "west": -56.5
+  },
+  "history": "Misiones Province emerged as a significant region through the Jesuit missions established in the 17th century, which brought indigenous Guaraní peoples into organized settlements and introduced Christianity and European agricultural practices. After the expulsion of the Jesuits in the 18th century, the region remained sparsely populated until the late 19th and early 20th centuries, when European immigration, particularly from Paraguay, Poland, and Germany, transformed it into an agricultural frontier. The province was formally established in 1881 and developed rapidly through yerba mate cultivation and forestry, becoming one of Argentina's most important agricultural centers. Today, Misiones stands as a unique blend of indigenous Guaraní heritage, colonial Spanish influence, and European immigrant traditions.",
+  "culturalNotes": "Misiones is deeply characterized by its Guaraní heritage and strong connection to nature, with the lush subtropical landscape serving as the heart of local identity and economic life. The region is renowned for yerba mate production and consumption, with the preparation and sharing of mate being a central social ritual that reflects the fusion of indigenous and European traditions. The province's distinct culture also celebrates its immigrant communities through festivals, cuisine, and architecture, while maintaining deep ecological consciousness tied to the Paraná Forest and Iguazu Falls.",
+  "bestTimeToVisit": "May to September provides cooler, drier weather for visiting Iguazu Falls and subtropical rainforests.",
+  "languageNotes": "While Spanish is the official language, Guaraní is widely spoken and understood throughout Misiones, reflecting the region's indigenous roots and cultural pride. Many locals use Guaraní words and phrases in everyday speech, and visitors may encounter bilingual signage and hear the melodic Guaraní language spoken in markets, rural areas, and among older generations.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "iguazu_falls",
+      "name": "Iguazu Falls",
+      "nameIt": "Cataratas del Iguazú",
+      "lat": -25.5951,
+      "lng": -54.4419,
+      "type": "LANDMARK",
+      "description": "A spectacular UNESCO World Heritage Site featuring 275 waterfalls cascading over the Paraná Plateau with extraordinary power and beauty. The Argentine side offers intimate jungle trails and views of the iconic Devil's Throat waterfall.",
+      "imageQueries": [
+        "Iguazu Falls Argentina",
+        "Cataratas del Iguazu waterfalls"
+      ],
+      "activities": [
+        {
+          "id": "igua_1",
+          "text": "Devil's Throat Trail",
+          "detail": "Hike the dramatic Garganta del Diablo trail that leads to a viewing platform directly above the most powerful cascade where 14 waterfalls converge in thunderous spray.",
+          "lat": -25.5949,
+          "lng": -54.4577
+        },
+        {
+          "id": "igua_2",
+          "text": "Jungle Canopy Walkway",
+          "detail": "Experience the rainforest canopy on suspended bridges and elevated platforms among native trees, birds, and subtropical wildlife without descending to ground level.",
+          "lat": -25.5878,
+          "lng": -54.456
+        },
+        {
+          "id": "igua_3",
+          "text": "Boat Ride to Waterfall Base",
+          "detail": "Take a speedboat excursion that approaches the base of the falls, getting soaked by mist and spray while experiencing the raw power of cascading water up close.",
+          "lat": -25.5945,
+          "lng": -54.4598
+        },
+        {
+          "id": "igua_4",
+          "text": "Lower Circuit Loop",
+          "detail": "Walk the accessible trail system through dense jungle that offers multiple viewpoints of different waterfall sections and opportunities to spot toucans, coatis, and butterflies.",
+          "lat": -25.592,
+          "lng": -54.455
+        },
+        {
+          "id": "igua_5",
+          "text": "Upper Circuit Trail",
+          "detail": "Trek the upper-level paths that provide panoramic views across the entire waterfall system and access to quieter vantage points above the main cascade areas.",
+          "lat": -25.5888,
+          "lng": -54.4575
+        },
+        {
+          "id": "igua_6",
+          "text": "Night Falls Experience",
+          "detail": "Visit the falls at night under full moon and artificial lighting to witness the waterfalls illuminated in colors, a mystical perspective unavailable during daylight hours.",
+          "lat": -25.5945,
+          "lng": -54.4577
+        }
+      ],
+      "food": [
+        {
+          "id": "igua_f1",
+          "text": "Chipa Guazú",
+          "detail": "A savory cornmeal and cheese cake baked until golden, reflecting the Guaraní indigenous heritage and served as a traditional snack throughout Misiones Province."
+        },
+        {
+          "id": "igua_f2",
+          "text": "Tereré",
+          "detail": "A refreshing cold herbal infusion made from yerba mate, ice, and medicinal herbs like spearmint, essential to the regional culture and perfect for the subtropical climate."
+        },
+        {
+          "id": "igua_f3",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled freshwater surubí fish caught from the Paraná River, seasoned simply with lemon and served at riverside restaurants near the falls."
+        },
+        {
+          "id": "igua_f4",
+          "text": "Mbaipy Soó",
+          "detail": "A creamy corn soup thickened with cornmeal and enriched with cheese and sometimes meat, a comfort dish rooted in Guaraní culinary traditions."
+        },
+        {
+          "id": "igua_f5",
+          "text": "Yerba Mate Ceremony",
+          "detail": "Participate in the social ritual of sharing a gourd of hot yerba mate passed among friends, a fundamental custom of Argentine culture practiced throughout the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "igua_c1",
+          "text": "Respectful Wildlife Distance",
+          "detail": "Keep at least 2 meters from coatis, toucans, and other fauna despite their apparent friendliness; feeding animals habituates them dangerously and is strictly prohibited."
+        },
+        {
+          "id": "igua_c2",
+          "text": "Spanish Language Courtesy",
+          "detail": "While English is spoken in tourist areas, locals appreciate visitors attempting basic Spanish phrases like 'por favor' and 'gracias' as a sign of respect for Argentine culture."
+        },
+        {
+          "id": "igua_c3",
+          "text": "Early Morning Visits",
+          "detail": "Arrive at the falls before 9 AM to avoid peak tourist crowds and enjoy clearer skies, better wildlife visibility, and more serene jungle atmosphere."
+        },
+        {
+          "id": "igua_c4",
+          "text": "Guaraní Heritage Recognition",
+          "detail": "The falls and region hold spiritual significance for the indigenous Guaraní people; approach the site with reverence and consider visiting the Guaraní craft markets to support local artisans."
+        }
+      ]
+    },
+    {
+      "id": "obera",
+      "name": "Oberá",
+      "nameIt": "Oberá",
+      "lat": -27.4857,
+      "lng": -55.1241,
+      "type": "CITY",
+      "description": "The cultural heart of Misiones province known as the City of Orchids, featuring vibrant markets, local crafts, and authentic Misionero culture. It serves as a good base for exploring the central region and experiencing provincial life away from major tourist routes.",
+      "imageQueries": [
+        "Oberá Misiones Argentina",
+        "Oberá orchids market"
+      ],
+      "activities": [
+        {
+          "id": "ober_1",
+          "text": "Parque de las Orquídeas",
+          "detail": "Visit Oberá's signature orchid park showcasing hundreds of native and cultivated orchid species in a lush botanical setting.",
+          "lat": -27.4881,
+          "lng": -55.1234
+        },
+        {
+          "id": "ober_2",
+          "text": "Mercado de Artesanías",
+          "detail": "Browse the craft market in the city center where local artisans sell handmade woodwork, ceramics, and traditional Misionero textiles.",
+          "lat": -27.4915,
+          "lng": -55.1203
+        },
+        {
+          "id": "ober_3",
+          "text": "Plaza 9 de Julio",
+          "detail": "Explore the main plaza featuring colonial architecture, local shops, and a weekly farmers market showcasing regional produce and yerba mate.",
+          "lat": -27.4912,
+          "lng": -55.1208
+        },
+        {
+          "id": "ober_4",
+          "text": "Sendero Ecológico Oberá",
+          "detail": "Walk the nature trail on the outskirts of the city through subtropical forest with opportunities to spot native birds and plant species.",
+          "lat": -27.5012,
+          "lng": -55.1089
+        },
+        {
+          "id": "ober_5",
+          "text": "Museo de la Ciudad",
+          "detail": "Learn about Oberá's history and Misionero culture through exhibits on indigenous heritage, yerba mate production, and regional development."
+        },
+        {
+          "id": "ober_6",
+          "text": "Chacra tours",
+          "detail": "Visit working farms around Oberá to see yerba mate cultivation, tobacco farming, and learn traditional agricultural practices of the region."
+        }
+      ],
+      "food": [
+        {
+          "id": "ober_f1",
+          "text": "Chipa",
+          "detail": "A cheesy cornbread made with cassava flour that is a ubiquitous breakfast staple and street snack throughout Misiones."
+        },
+        {
+          "id": "ober_f2",
+          "text": "Tereré",
+          "detail": "Cold yerba mate drink served with medicinal herbs and ice, essential to local social culture and refreshing in the subtropical climate."
+        },
+        {
+          "id": "ober_f3",
+          "text": "Empanadas Misioneras",
+          "detail": "Fried pastries filled with ground meat, corn, or cheese, representing the region's culinary fusion of Spanish and Guaraní influences."
+        },
+        {
+          "id": "ober_f4",
+          "text": "Sopa Paraguaya",
+          "detail": "A thick cornmeal and cheese dish that despite its name is more of a savory cake, common in the tri-border region of Misiones."
+        },
+        {
+          "id": "ober_f5",
+          "text": "Fresh Yerba Mate at origin",
+          "detail": "Purchase freshly harvested and processed yerba mate directly from local producers or markets to experience the highest quality from Argentina's primary growing region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ober_c1",
+          "text": "Yerba mate social ritual",
+          "detail": "Accept mate when offered and pass it back to the host after drinking—sharing mate is a fundamental social gesture and refusing is considered impolite."
+        },
+        {
+          "id": "ober_c2",
+          "text": "Spanish with Guaraní influence",
+          "detail": "Locals speak Spanish with many Guaraní words mixed in; learning basic greetings and terms like 'che' (my) shows respect for the region's indigenous heritage."
+        },
+        {
+          "id": "ober_c3",
+          "text": "Relaxed provincial pace",
+          "detail": "Oberá operates on a slower schedule than major cities; many shops close for afternoon siesta and business moves at a leisurely pace reflecting provincial life."
+        },
+        {
+          "id": "ober_c4",
+          "text": "Respect for nature and agriculture",
+          "detail": "The community takes pride in sustainable farming and local craftsmanship, so purchasing directly from artisans and farmers supports the local economy and culture."
+        }
+      ]
+    },
+    {
+      "id": "san_ignacio",
+      "name": "San Ignacio",
+      "nameIt": "San Ignacio",
+      "lat": -27.3881,
+      "lng": -55.5186,
+      "type": "TOWN",
+      "description": "Home to one of South America's most important Jesuit mission ruins dating to the 17th century, a UNESCO World Heritage Site showcasing remarkable stone architecture. The site offers a fascinating glimpse into colonial religious history and indigenous culture.",
+      "imageQueries": [
+        "San Ignacio Jesuit missions Argentina",
+        "Ruinas de San Ignacio"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Explore San Ignacio Mini Ruins",
+          "detail": "Walk through the remarkably preserved 17th-century Jesuit mission complex featuring original stone structures, church foundations, and residences that reveal colonial religious and indigenous life.",
+          "lat": -25.3968,
+          "lng": -55.5516
+        },
+        {
+          "id": "san__2",
+          "text": "Attend the Sound and Light Show",
+          "detail": "Experience an evening multimedia presentation that illuminates the mission ruins with projections and narration telling the history of the Jesuit missions and Guaraní people.",
+          "lat": -25.3968,
+          "lng": -55.5516
+        },
+        {
+          "id": "san__3",
+          "text": "Visit the On-Site Museum",
+          "detail": "View artifacts, sculptures, and explanatory exhibits housed within the mission grounds that contextualize the archaeological significance and daily life of the former settlement.",
+          "lat": -25.3968,
+          "lng": -55.5516
+        },
+        {
+          "id": "san__4",
+          "text": "Hike the Surrounding Trails",
+          "detail": "Trek through subtropical Misiones forest surrounding the ruins to observe native flora and fauna while discovering additional mission-related archaeological sites.",
+          "lat": -25.3968,
+          "lng": -55.5516
+        },
+        {
+          "id": "san__5",
+          "text": "Day Trip to Loreto Ruins",
+          "detail": "Travel 40 kilometers north to see another significant Jesuit mission ruin, allowing comparison between different mission architectural styles and settlement layouts."
+        },
+        {
+          "id": "san__6",
+          "text": "Visit Puerto Iguazú",
+          "detail": "Take a short drive to experience the nearby Iguazú Falls, one of the world's most spectacular natural wonders, combining cultural and natural attractions in one trip."
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Chipá",
+          "detail": "A warm, cheesy cassava flour bread that is a traditional Guaraní staple and beloved breakfast item throughout Misiones, often enjoyed with tereré or coffee."
+        },
+        {
+          "id": "san__f2",
+          "text": "Tereré",
+          "detail": "A refreshing cold mate-based herbal drink mixed with medicinal and aromatic yerba, water, and ice that is the quintessential social beverage of the region."
+        },
+        {
+          "id": "san__f3",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled river catfish caught from the Paraná, prepared simply with local seasonings and served as a local specialty showcasing the region's freshwater gastronomy."
+        },
+        {
+          "id": "san__f4",
+          "text": "Mandioca Frita",
+          "detail": "Crispy fried cassava root served as a popular side dish or street food, reflecting the indigenous agricultural heritage and Guaraní food traditions."
+        },
+        {
+          "id": "san__f5",
+          "text": "Mbejú",
+          "detail": "A traditional cornmeal pancake filled with cheese that represents authentic Guaraní cuisine and is commonly served for breakfast or light meals in local restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Respect the Sacred Site",
+          "detail": "The mission ruins remain spiritually significant to local Guaraní communities; visitors should dress modestly, speak quietly, and avoid disruptive behavior while exploring."
+        },
+        {
+          "id": "san__c2",
+          "text": "Learn Basic Spanish",
+          "detail": "While some guides speak English, many locals and vendors in San Ignacio primarily speak Spanish and Guaraní, so basic Spanish phrases will enhance your experience and interactions."
+        },
+        {
+          "id": "san__c3",
+          "text": "Embrace the Siesta Culture",
+          "detail": "Many local shops and services close during early afternoon hours; plan your activities accordingly and take advantage of the slower pace to rest during the hottest part of the day."
+        },
+        {
+          "id": "san__c4",
+          "text": "Participate in Mate Sharing",
+          "detail": "Accepting an offered gourd of tereré or hot mate from locals is a sign of friendship and cultural respect; take small sips and pass it back with gratitude."
+        }
+      ]
+    },
+    {
+      "id": "cristo_rei",
+      "name": "Cristo Rei",
+      "nameIt": "Cristo Rei",
+      "lat": -25.5944,
+      "lng": -54.5733,
+      "type": "LANDMARK",
+      "description": "A 14-meter tall statue of Christ overlooking Puerto Iguazú with panoramic views of three countries where Argentina, Brazil, and Paraguay meet. It provides orientation, spiritual significance, and stunning viewpoints of the region.",
+      "imageQueries": [
+        "Cristo Rei Puerto Iguazu",
+        "Christ statue three borders Argentina"
+      ],
+      "activities": [
+        {
+          "id": "cris_1",
+          "text": "Panoramic Photography from the Base",
+          "detail": "Capture wide-angle shots of the tri-border region where the Paraná and Iguazú rivers converge, with views spanning Argentina, Brazil, and Paraguay from the statue's elevated platform.",
+          "lat": -25.5951,
+          "lng": -54.5776
+        },
+        {
+          "id": "cris_2",
+          "text": "Sunrise Visit for Golden Light",
+          "detail": "Arrive early morning to photograph the statue silhouetted against the sunrise over the Paraná River and witness the mist rising from the Iguazú Falls in the distance.",
+          "lat": -25.5951,
+          "lng": -54.5776
+        },
+        {
+          "id": "cris_3",
+          "text": "Spiritual Reflection and Prayer",
+          "detail": "Spend quiet time at the base of the 14-meter Christ statue, which serves as a pilgrimage site for Catholic visitors seeking spiritual contemplation overlooking three nations.",
+          "lat": -25.5951,
+          "lng": -54.5776
+        },
+        {
+          "id": "cris_4",
+          "text": "Iguazú Falls Day Trip from Cristo Rei",
+          "detail": "Use Cristo Rei as an orientation point before heading to nearby Iguazú National Park, located approximately 17 kilometers away, to experience one of the world's largest waterfall systems.",
+          "lat": -25.5951,
+          "lng": -54.5776
+        },
+        {
+          "id": "cris_5",
+          "text": "Tri-Border Market Exploration",
+          "detail": "Walk through Puerto Iguazú's nearby markets to observe the cultural blend of Argentine, Brazilian, and Paraguayan merchants selling regional crafts and goods within sight of the statue."
+        },
+        {
+          "id": "cris_6",
+          "text": "Sunset Viewing from Overlook",
+          "detail": "Return to the Cristo Rei viewpoint at dusk to watch the sun set over the Paraná River while the three-country border becomes illuminated in evening light."
+        }
+      ],
+      "food": [
+        {
+          "id": "cris_f1",
+          "text": "Chipa Guazú",
+          "detail": "A warm, corn-based Paraguayan bread often sold by street vendors near Cristo Rei that is savory, slightly sweet, and culturally significant to the tri-border region."
+        },
+        {
+          "id": "cris_f2",
+          "text": "Tereré",
+          "detail": "A refreshing cold herbal beverage made from yerba mate, ice, and medicinal herbs that locals drink throughout the day, especially popular in Puerto Iguazú's subtropical heat."
+        },
+        {
+          "id": "cris_f3",
+          "text": "Surubí a la Parilla",
+          "detail": "Grilled surubí fish, a large river fish native to the Paraná River, served with lime and fresh vegetables at local restaurants near the Cristo Rei area."
+        },
+        {
+          "id": "cris_f4",
+          "text": "Empanadas Misioneras",
+          "detail": "Misiones province specializes in empanadas filled with beef, chicken, or spinach, representing the blend of Spanish and indigenous Guaraní culinary traditions."
+        },
+        {
+          "id": "cris_f5",
+          "text": "Dulce de Leche Regional Variations",
+          "detail": "Sample locally-made dulce de leche in Puerto Iguazú shops, often made with different infusions like yerba mate or tropical fruit flavors unique to the Misiones region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cris_c1",
+          "text": "Respectful Dress at the Shrine",
+          "detail": "Wear modest, covered clothing when visiting Cristo Rei, as it is an active spiritual pilgrimage site for Catholic devotees and local residents."
+        },
+        {
+          "id": "cris_c2",
+          "text": "Trilingual Environment",
+          "detail": "Spanish, Portuguese, and Guaraní are spoken in Puerto Iguazú; learning a few basic phrases in each language enhances interactions with locals near the tri-border monument."
+        },
+        {
+          "id": "cris_c3",
+          "text": "Local Festival Timing",
+          "detail": "Cristo Rei draws larger crowds during Argentine holidays and religious celebrations; visit on quieter weekdays to experience a more intimate spiritual atmosphere."
+        },
+        {
+          "id": "cris_c4",
+          "text": "Currency and Border Awareness",
+          "detail": "While at Cristo Rei you can see the borders of three countries, but crossing requires proper documentation; use Argentine pesos in Puerto Iguazú and respect the tri-border security presence."
+        }
+      ]
+    },
+    {
+      "id": "los_saltos_mocona",
+      "name": "Los Saltos de Moconá",
+      "nameIt": "Los Saltos de Moconá",
+      "lat": -27.1256,
+      "lng": -55.5289,
+      "type": "NATURE",
+      "description": "A series of waterfalls and rapids within Moconá National Park where the Uruguay River drops dramatically through spectacular gorges. It represents one of Argentina's most pristine and least-visited natural attractions for intrepid explorers.",
+      "imageQueries": [
+        "Saltos de Moconá waterfalls",
+        "Moconá rapids Uruguay River"
+      ],
+      "activities": [
+        {
+          "id": "los__1",
+          "text": "Boat Tour Through the Gorges",
+          "detail": "Navigate by motorboat through the dramatic Uruguay River gorges to witness the waterfalls and rapids from water level, the primary way to experience Los Saltos de Moconá.",
+          "lat": -27.3833,
+          "lng": -55.5167
+        },
+        {
+          "id": "los__2",
+          "text": "Hiking the Riverside Trails",
+          "detail": "Trek along marked paths through subtropical forest adjacent to the river to access viewpoints overlooking the cascades and observe local wildlife.",
+          "lat": -27.385,
+          "lng": -55.515
+        },
+        {
+          "id": "los__3",
+          "text": "Photography at Dawn",
+          "detail": "Position yourself at key vantage points early morning when mist rises from the falls and light filters through the gorge, ideal for capturing the landscape.",
+          "lat": -27.3833,
+          "lng": -55.5167
+        },
+        {
+          "id": "los__4",
+          "text": "Wildlife Spotting Excursions",
+          "detail": "Search for toucans, jaguars, coatis, and river birds in the pristine subtropical forest surrounding the national park with a trained guide.",
+          "lat": -27.39,
+          "lng": -55.52
+        },
+        {
+          "id": "los__5",
+          "text": "Camping at the Park",
+          "detail": "Stay overnight at designated campsites within Moconá National Park to experience the soundscape of the falls and forest at night.",
+          "lat": -27.387,
+          "lng": -55.518
+        },
+        {
+          "id": "los__6",
+          "text": "Kayaking in Calmer Sections",
+          "detail": "Paddle kayaks in designated safer areas of the Uruguay River adjacent to the gorge, weather and water conditions permitting.",
+          "lat": -27.385,
+          "lng": -55.514
+        }
+      ],
+      "food": [
+        {
+          "id": "los__f1",
+          "text": "Surubí Grilled",
+          "detail": "A local river fish common in the Paraná region, grilled simply with lemon and served at lodges and small restaurants near the park entrance."
+        },
+        {
+          "id": "los__f2",
+          "text": "Chipa",
+          "detail": "A traditional Misiones corn and cheese bread baked fresh by local vendors and sold at the park visitor areas as a portable snack."
+        },
+        {
+          "id": "los__f3",
+          "text": "Mate and Tereré",
+          "detail": "The ubiquitous social beverage of northern Argentina, shared communally by guides and park staff as a welcoming tradition during excursions."
+        },
+        {
+          "id": "los__f4",
+          "text": "Empanadas Misioneras",
+          "detail": "Savory pastries filled with meat, cheese, or vegetables reflecting regional Misiones cooking, available at nearby towns like Oberá."
+        },
+        {
+          "id": "los__f5",
+          "text": "Fresh Tropical Fruits",
+          "detail": "Local papayas, passion fruit, and bananas sold at roadside stands and park facilities, often served fresh or as juices at small cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "los__c1",
+          "text": "Book Tours in Advance",
+          "detail": "Los Saltos de Moconá is remote and boat tours require licensed operators; arrange excursions through your lodge or park office at least one day ahead."
+        },
+        {
+          "id": "los__c2",
+          "text": "Respect Wildlife Distances",
+          "detail": "The park is a protected reserve; guides enforce strict rules against approaching animals or removing plants, essential for conservation of this pristine ecosystem."
+        },
+        {
+          "id": "los__c3",
+          "text": "Bring Insect Protection",
+          "detail": "Subtropical humidity and forest environment mean mosquitoes and other insects are prevalent; local residents routinely use repellent and recommend long sleeves at dusk."
+        },
+        {
+          "id": "los__c4",
+          "text": "Learn Basic Spanish",
+          "detail": "Few park staff and local guides speak English; basic Spanish phrases and a translation app are invaluable for communication and safety."
+        }
+      ]
+    },
+    {
+      "id": "wanda",
+      "name": "Wanda",
+      "nameIt": "Wanda",
+      "lat": -25.7508,
+      "lng": -54.6764,
+      "type": "TOWN",
+      "description": "A small mining town famous for its semi-precious stone mines including amethyst, topaz, and tourmaline that visitors can explore and purchase directly. It offers a unique glimpse into regional geology and local artisanal mining traditions.",
+      "imageQueries": [
+        "Wanda mines Argentina amethyst",
+        "Wanda gemstone mines Misiones"
+      ],
+      "activities": [
+        {
+          "id": "wand_1",
+          "text": "Amethyst Mine Tours",
+          "detail": "Descend into working amethyst mines to see veins of purple crystal in their natural setting and learn traditional extraction methods from local miners.",
+          "lat": -25.3947,
+          "lng": -55.4683
+        },
+        {
+          "id": "wand_2",
+          "text": "Topaz and Tourmaline Prospecting",
+          "detail": "Pan for and extract colorful topaz and tourmaline specimens in designated mining areas, keeping what you find as souvenirs.",
+          "lat": -25.395,
+          "lng": -55.468
+        },
+        {
+          "id": "wand_3",
+          "text": "Lapidary Workshops",
+          "detail": "Visit artisanal stonecutting studios where craftspeople polish and shape raw gems into jewelry and decorative pieces.",
+          "lat": -25.3945,
+          "lng": -55.469
+        },
+        {
+          "id": "wand_4",
+          "text": "Roadside Gem Shops and Markets",
+          "detail": "Browse numerous small shops selling uncut and polished semi-precious stones directly from local miners at competitive prices.",
+          "lat": -25.3948,
+          "lng": -55.4685
+        },
+        {
+          "id": "wand_5",
+          "text": "Geological Museum Visit",
+          "detail": "Explore exhibits displaying specimens of amethyst, topaz, tourmaline and other minerals from the region with explanations of local geology."
+        },
+        {
+          "id": "wand_6",
+          "text": "Rural Mining Homesteads",
+          "detail": "Visit family-run mining operations in the surrounding countryside to understand multigenerational artisanal extraction practices."
+        }
+      ],
+      "food": [
+        {
+          "id": "wand_f1",
+          "text": "Chipa Guazú",
+          "detail": "A savory corn cake baked with cheese and corn kernels, a traditional Misiones dish that reflects indigenous Guaraní influences."
+        },
+        {
+          "id": "wand_f2",
+          "text": "Yerba Mate Ceremony",
+          "detail": "Participate in the shared drinking of hot mate, a caffeine-rich herbal infusion that is central to regional social customs."
+        },
+        {
+          "id": "wand_f3",
+          "text": "Morcilla and Chorizo",
+          "detail": "Sample locally-made blood sausage and chorizo from regional producers, often grilled and served at family gatherings."
+        },
+        {
+          "id": "wand_f4",
+          "text": "Mandioca Fries",
+          "detail": "Crispy-fried cassava root cut into sticks, a simple carbohydrate staple served with most meals in the region."
+        },
+        {
+          "id": "wand_f5",
+          "text": "Sopa Paraguaya",
+          "detail": "A hearty cornmeal and cheese soup that is a staple comfort food shared across the tri-border region of Misiones."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wand_c1",
+          "text": "Bargaining at Mine Shops",
+          "detail": "Prices for raw stones are expected to be negotiated; polite haggling over gem purchases is standard practice and welcomed by vendors."
+        },
+        {
+          "id": "wand_c2",
+          "text": "Respect for Mining Families",
+          "detail": "These are multigenerational mining operations; approach miners and their workspace with genuine curiosity and respect for their dangerous, skilled work."
+        },
+        {
+          "id": "wand_c3",
+          "text": "Spanish Language Helpful",
+          "detail": "English is rarely spoken in Wanda; learning basic Spanish phrases will greatly enhance interactions with local shopkeepers and miners."
+        },
+        {
+          "id": "wand_c4",
+          "text": "Cash Transactions Preferred",
+          "detail": "Most small vendors and miners operate on a cash-only basis, so bring Argentine pesos rather than relying on cards."
+        }
+      ]
+    },
+    {
+      "id": "eldorado",
+      "name": "Eldorado",
+      "nameIt": "Eldorado",
+      "lat": -26.4197,
+      "lng": -54.6097,
+      "type": "CITY",
+      "description": "The second-largest city in Misiones province historically significant for mate and timber industries, offering authentic local culture and regional products. It serves as a commercial hub and base for exploring central and southern Misiones attractions.",
+      "imageQueries": [
+        "Eldorado Misiones Argentina city",
+        "Eldorado yerba mate"
+      ],
+      "activities": [
+        {
+          "id": "eldo_1",
+          "text": "Mate Museum (Museo de la Yerba Mate)",
+          "detail": "Learn about the history and production of yerba mate, a central part of Misiones culture, with exhibits on traditional processing and regional varieties.",
+          "lat": -25.3961,
+          "lng": -55.6122
+        },
+        {
+          "id": "eldo_2",
+          "text": "Timber Industry Heritage Tour",
+          "detail": "Visit local sawmills and timber yards to understand Eldorado's economic foundation and see how the region processes its abundant forest resources.",
+          "lat": -25.395,
+          "lng": -55.61
+        },
+        {
+          "id": "eldo_3",
+          "text": "Central Market (Mercado Central)",
+          "detail": "Browse local produce, fresh mate, handicrafts, and regional products in the bustling commercial heart of the city.",
+          "lat": -25.3975,
+          "lng": -55.6135
+        },
+        {
+          "id": "eldo_4",
+          "text": "Salto Encantado Provincial Park",
+          "detail": "Explore waterfalls and lush forest trails about 20 kilometers from Eldorado, offering swimming and nature walks in pristine subtropical terrain.",
+          "lat": -25.5167,
+          "lng": -55.6667
+        },
+        {
+          "id": "eldo_5",
+          "text": "Aripuca Indigenous Structure Tour",
+          "detail": "Visit this unique wooden structure built in the traditional Guaraní style, located near Eldorado, showcasing indigenous architectural heritage.",
+          "lat": -25.45,
+          "lng": -55.55
+        },
+        {
+          "id": "eldo_6",
+          "text": "Local Artisan Workshops",
+          "detail": "Visit workshops where artisans craft wooden furniture, yerba mate gourds (mates), and other handmade items using regional materials."
+        }
+      ],
+      "food": [
+        {
+          "id": "eldo_f1",
+          "text": "Yerba Mate with Tereré",
+          "detail": "Experience the local tradition of drinking ice-cold tereré, a refreshing yerba mate preparation with medicinal herbs, especially popular in hot afternoons."
+        },
+        {
+          "id": "eldo_f2",
+          "text": "Chipa",
+          "detail": "Taste this traditional Misiones cheese bread made with cornmeal, cheese, and eggs, often enjoyed at breakfast or as a snack."
+        },
+        {
+          "id": "eldo_f3",
+          "text": "Mbejú",
+          "detail": "Sample this cassava and cheese pancake, a staple regional dish that reflects Guaraní culinary influence throughout Misiones."
+        },
+        {
+          "id": "eldo_f4",
+          "text": "Fresh Tropical Fruits",
+          "detail": "Buy locally grown passion fruit, guava, and papaya from street vendors and markets, harvested fresh from regional orchards."
+        },
+        {
+          "id": "eldo_f5",
+          "text": "Grilled Dorado Fish",
+          "detail": "Enjoy fresh dorado fish grilled over an open flame at local restaurants, a specialty from the Paraná River region nearby."
+        }
+      ],
+      "culture": [
+        {
+          "id": "eldo_c1",
+          "text": "Mate Ritual Etiquette",
+          "detail": "When offered mate, accept with your right hand, drink through the shared metal straw (bombilla), and return the gourd to your host—refusing is considered rude."
+        },
+        {
+          "id": "eldo_c2",
+          "text": "Spanish and Guaraní Mix",
+          "detail": "Many locals speak a blend of Spanish and Guaraní; learning basic Guaraní phrases like 'Mba'eichapa' (how are you) shows respect for regional heritage."
+        },
+        {
+          "id": "eldo_c3",
+          "text": "Commercial Hub Hours",
+          "detail": "Markets and businesses often close for a long midday break (roughly 12–3 PM) and operate into evening; plan shopping accordingly."
+        },
+        {
+          "id": "eldo_c4",
+          "text": "Subtropical Climate Adaptation",
+          "detail": "Pack lightweight clothing, sunscreen, and insect repellent year-round; locals dress lightly and take siestas during peak afternoon heat."
+        }
+      ]
+    },
+    {
+      "id": "puerto_bemberg",
+      "name": "Puerto Bemberg",
+      "nameIt": "Puerto Bemberg",
+      "lat": -27.4669,
+      "lng": -55.4742,
+      "type": "TOWN",
+      "description": "A historic port town on the Paraná River with colonial architecture and access to the river's scenic beauty and local Misionero traditions. It provides a quieter alternative to tourist-heavy destinations while offering river-based activities and cultural experiences.",
+      "imageQueries": [
+        "Puerto Bemberg Paraná River",
+        "Puerto Bemberg Argentina colonial"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Paraná River Boat Tours",
+          "detail": "Take guided motorboat excursions along the Paraná River to observe local wildlife, including toucans and caimans, while learning about the region's ecological significance.",
+          "lat": -27.3667,
+          "lng": -55.5167
+        },
+        {
+          "id": "puer_2",
+          "text": "Colonial Port Architecture Walk",
+          "detail": "Explore the town's historic buildings and waterfront district featuring early 20th-century structures that reflect Puerto Bemberg's importance as a former timber export hub.",
+          "lat": -27.3675,
+          "lng": -55.5172
+        },
+        {
+          "id": "puer_3",
+          "text": "Yerba Mate Plantation Tours",
+          "detail": "Visit nearby estancias growing yerba mate to see traditional harvesting methods and participate in the preparation of this central Misionero beverage.",
+          "lat": -27.365,
+          "lng": -55.52
+        },
+        {
+          "id": "puer_4",
+          "text": "Misiones Artisan Market",
+          "detail": "Browse local crafts, woodwork, and handmade textiles from regional artisans at the town's market, typically held on weekends near the waterfront."
+        },
+        {
+          "id": "puer_5",
+          "text": "Sunset River Picnics",
+          "detail": "Arrange picnics along the Paraná's banks at dusk with local provisions, experiencing the river's tranquil beauty and indigenous-influenced landscape.",
+          "lat": -27.366,
+          "lng": -55.518
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Tererê",
+          "detail": "A cold yerba mate drink traditionally served in a gourd and sipped communally through a metal straw, often enjoyed in riverside settings with fresh mint and local water."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Chipa",
+          "detail": "A cheese-filled cornmeal bread baked fresh daily and sold by local vendors, representing traditional Misionero and Guaraní-influenced cuisine."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Surubí a la Parrilla",
+          "detail": "Grilled surubí catfish caught from the Paraná River, typically seasoned simply with citrus and served at riverside restaurants with fresh vegetables."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Mbaipy",
+          "detail": "A creamed corn dish made with local corn varieties, often prepared with cheese and served as a side at family-run establishments throughout town."
+        },
+        {
+          "id": "puer_f5",
+          "text": "Tortas Fritas",
+          "detail": "Golden fried pastries traditionally eaten for breakfast or afternoon tea, often served warm with honey or dulce de leche at local cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "Respect River Schedules",
+          "detail": "Plan activities around the Paraná's water levels and local ferry schedules, as seasonal variations significantly affect boat access and river-based transportation."
+        },
+        {
+          "id": "puer_c2",
+          "text": "Learn Yerba Mate Etiquette",
+          "detail": "When offered tererê or mate, accept graciously and learn to pass the gourd counterclockwise; refusing is considered impolite in social settings."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Visit on Feast Days",
+          "detail": "Time your visit around local celebrations honoring patron saints or harvest festivals, when colonial plazas host traditional music, dance, and regional food stalls."
+        },
+        {
+          "id": "puer_c4",
+          "text": "Speak Spanish or Portuguese",
+          "detail": "English is rarely spoken in Puerto Bemberg; learning basic Spanish or Portuguese phrases enhances interactions with locals and demonstrates cultural respect."
+        }
+      ]
+    },
+    {
+      "id": "aristobulo_del_valle",
+      "name": "Aristóbulo del Valle",
+      "nameIt": "Aristóbulo del Valle",
+      "lat": -27.5658,
+      "lng": -55.6408,
+      "type": "TOWN",
+      "description": "A charming rural town in the heart of Misiones known for traditional crafts, local agriculture, and authentic provincial atmosphere. It offers travelers an immersive experience of everyday Misionero life away from commercialized tourist centers.",
+      "imageQueries": [
+        "Aristóbulo del Valle Misiones",
+        "Aristóbulo del Valle rural Argentina"
+      ],
+      "activities": [
+        {
+          "id": "aris_1",
+          "text": "Visit Local Craft Workshops",
+          "detail": "Tour artisan studios where Misionero craftspeople create traditional wooden furniture, ceramics, and woven textiles using generations-old techniques."
+        },
+        {
+          "id": "aris_2",
+          "text": "Explore Yerba Mate Plantations",
+          "detail": "Walk through nearby yerba mate fields and learn about cultivation and harvesting from local farmers who have worked the land for decades.",
+          "lat": -27.4167,
+          "lng": -55.6167
+        },
+        {
+          "id": "aris_3",
+          "text": "Attend the Weekly Market",
+          "detail": "Browse the town plaza market on weekends where vendors sell fresh produce, handmade goods, and regional products directly from local producers."
+        },
+        {
+          "id": "aris_4",
+          "text": "Hike Forest Trails",
+          "detail": "Trek through surrounding subtropical forest to observe native flora and fauna while experiencing the lush Misionero landscape."
+        },
+        {
+          "id": "aris_5",
+          "text": "Visit Rural Family Farms",
+          "detail": "Arrange visits to working family farms producing tobacco, cassava, or tropical fruits and participate in daily agricultural activities."
+        },
+        {
+          "id": "aris_6",
+          "text": "Explore Town Historical Sites",
+          "detail": "Visit the modest town church and colonial-era buildings that reflect Aristóbulo del Valle's heritage and connection to regional settlement patterns.",
+          "lat": -27.4175,
+          "lng": -55.6192
+        }
+      ],
+      "food": [
+        {
+          "id": "aris_f1",
+          "text": "Chipa Guazú",
+          "detail": "A savory corn and cheese cake baked fresh in local kitchens, representing authentic Misionero comfort food often served at family gatherings."
+        },
+        {
+          "id": "aris_f2",
+          "text": "Tereré with Fresh Herbs",
+          "detail": "The local cold yerba mate beverage prepared with medicinal jungle herbs and ice, served communally as a social ritual throughout the day."
+        },
+        {
+          "id": "aris_f3",
+          "text": "Mandioca Frita",
+          "detail": "Crispy fried cassava root served as a simple side dish at rural restaurants and farm stands, staple of provincial Misiones cuisine."
+        },
+        {
+          "id": "aris_f4",
+          "text": "Caldo de Gallina Criolla",
+          "detail": "Hearty broth made from free-range local chicken simmered with root vegetables and served in modest family-run comedores."
+        },
+        {
+          "id": "aris_f5",
+          "text": "Mbaipy Guazú",
+          "detail": "A creamed corn dish with cheese and onions representing traditional Guaraní-influenced cooking still prepared in home kitchens throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aris_c1",
+          "text": "Respect Siesta Hours",
+          "detail": "Most local businesses close between noon and 4 PM; plan activities accordingly and avoid scheduling important visits during traditional rest time."
+        },
+        {
+          "id": "aris_c2",
+          "text": "Embrace Mate Culture",
+          "detail": "When offered tereré or mate in social settings, accept graciously and drink from the shared gourd using the metal straw, passing it back to the host."
+        },
+        {
+          "id": "aris_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While some residents speak Guaraní, Spanish is essential for communication; English is rarely spoken so basic phrases are invaluable for meaningful interaction."
+        },
+        {
+          "id": "aris_c4",
+          "text": "Support Local Artisans Directly",
+          "detail": "Purchase crafts and goods directly from makers in their workshops rather than middlemen to sustain traditional livelihoods and authentic experiences."
+        }
+      ]
+    },
+    {
+      "id": "salto_encantado",
+      "name": "Salto Encantado",
+      "nameIt": "Salto Encantado",
+      "lat": -25.9936,
+      "lng": -54.2636,
+      "type": "NATURE",
+      "description": "A beautiful waterfall and natural pool in a forested setting popular for swimming and nature walks in the northeastern region of Misiones. It offers a refreshing break from the rainforest with accessible trails and scenic picnic areas.",
+      "imageQueries": [
+        "Salto Encantado waterfall Misiones",
+        "Enchanted waterfall Argentina"
+      ],
+      "activities": [
+        {
+          "id": "salt_1",
+          "text": "Swimming in the Natural Pool",
+          "detail": "Wade and swim in the crystal-clear emerald pool at the base of the waterfall, fed by the cascade and surrounded by lush rainforest.",
+          "lat": -25.5914,
+          "lng": -55.5186
+        },
+        {
+          "id": "salt_2",
+          "text": "Waterfall Photography",
+          "detail": "Capture stunning shots of the main 20-meter waterfall framed by dense vegetation and mist, best in morning light."
+        },
+        {
+          "id": "salt_3",
+          "text": "Forest Nature Walks",
+          "detail": "Follow the well-maintained trails through the Atlantic Forest canopy spotting native birds, butterflies, and subtropical flora."
+        },
+        {
+          "id": "salt_4",
+          "text": "Picnicking at Designated Areas",
+          "detail": "Enjoy packed lunches at shaded picnic grounds with tables and facilities overlooking the waterfall and forest."
+        },
+        {
+          "id": "salt_5",
+          "text": "Bird Watching",
+          "detail": "Identify toucans, parrots, tanagers, and other Misiones native species in their natural rainforest habitat along the trails."
+        },
+        {
+          "id": "salt_6",
+          "text": "Waterfall Base Trail",
+          "detail": "Hike the short, easy path down to the pool's edge for an immersive experience beneath the cascading water."
+        }
+      ],
+      "food": [
+        {
+          "id": "salt_f1",
+          "text": "Chipa",
+          "detail": "A warm, cheesy cornbread ring typical of Misiones, often sold by vendors near the park entrance."
+        },
+        {
+          "id": "salt_f2",
+          "text": "Tereré",
+          "detail": "A refreshing cold herbal drink made with yerba mate and local herbs, perfect for cooling off after hiking."
+        },
+        {
+          "id": "salt_f3",
+          "text": "Fresh Trout (Trucha)",
+          "detail": "Grilled or pan-fried river trout caught locally, often available at nearby lodges and restaurants."
+        },
+        {
+          "id": "salt_f4",
+          "text": "Empanadas Misioneras",
+          "detail": "Stuffed pastries filled with meat, cheese, or vegetables using regional ingredients and cooking methods."
+        },
+        {
+          "id": "salt_f5",
+          "text": "Dulce de Leche with Local Fruit",
+          "detail": "Sweet caramel-like paste served with fresh tropical fruits grown in Misiones' rich soil."
+        }
+      ],
+      "culture": [
+        {
+          "id": "salt_c1",
+          "text": "Respect the Rainforest",
+          "detail": "Stay on marked trails to protect delicate vegetation and wildlife habitats; the forest is sacred to the Guaraní heritage of the region."
+        },
+        {
+          "id": "salt_c2",
+          "text": "Bring Insect Repellent",
+          "detail": "Mosquitoes and other insects are common year-round in the humid subtropical climate, so come prepared with DEET-based protection."
+        },
+        {
+          "id": "salt_c3",
+          "text": "Visit During Dry Season",
+          "detail": "Plan your visit May through September when water levels are stable and trails are safest; summer months (November-March) bring heavy rainfall."
+        },
+        {
+          "id": "salt_c4",
+          "text": "Learn Basic Spanish",
+          "detail": "Most local guides and vendors speak limited English, so knowing simple phrases enhances your interaction and appreciation of local culture."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "La Cantera",
+      "address": "Av. Libertad 1850, Puerto Iguazú",
+      "neighbourhood": "Puerto Iguazú",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€€",
+      "description": "Premier steakhouse near Iguazu Falls with impeccable beef cuts and extensive wine selection.",
+      "mustOrder": "Bife de chorizo with chimichurri",
+      "lat": -25.5951,
+      "lng": -54.5775
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "El Quincho del Tío Querido",
+      "address": "Ruta Nacional 12, km 5, Puerto Iguazú",
+      "neighbourhood": "Puerto Iguazú",
+      "cuisine": "Parilla & Seafood",
+      "priceRange": "€€",
+      "description": "Rustic riverside grill specializing in fresh surubí and traditional asado with casual atmosphere.",
+      "mustOrder": "Surubí a la manteca (butter-poached river fish)",
+      "lat": -25.6015,
+      "lng": -54.568
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Aqaba Resto Bar",
+      "address": "Av. Brasil 148, Puerto Iguazú",
+      "neighbourhood": "Puerto Iguazú",
+      "cuisine": "Fusion & International",
+      "priceRange": "€€€",
+      "description": "Contemporary fusion restaurant with creative dishes blending local ingredients and global techniques.",
+      "mustOrder": "Tapenade-crusted surubí with roasted vegetables",
+      "lat": -25.5935,
+      "lng": -54.573
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Restaurante Garupá",
+      "address": "Avenida Misiones 1200, Oberá",
+      "neighbourhood": "Oberá",
+      "cuisine": "Argentine Regional",
+      "priceRange": "€€",
+      "description": "Family-run establishment serving traditional Misiones cuisine with regional specialties and friendly service.",
+      "mustOrder": "Chipa guazú (corn empanada)",
+      "lat": -27.4833,
+      "lng": -55.1167
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Lo de Rafa",
+      "address": "Calle Bolívar 1520, Oberá",
+      "neighbourhood": "Oberá",
+      "cuisine": "Parrilla",
+      "priceRange": "€€",
+      "description": "Popular local grill joint known for quality meat, reasonable prices, and lively afternoon crowds.",
+      "mustOrder": "Asado de tira with grilled vegetables",
+      "lat": -27.482,
+      "lng": -55.12
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "La Casa de la Pasta",
+      "address": "Av. Rivadavia 345, Oberá",
+      "neighbourhood": "Oberá",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Homemade pasta shop with traditional recipes and daily specials reflecting Italian-Argentine fusion.",
+      "mustOrder": "Ravioles de carne con salsa casera",
+      "lat": -27.4845,
+      "lng": -55.118
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Restaurante Puerto Yerba",
+      "address": "Ruta 14, km 2, Aristóbulo del Valle",
+      "neighbourhood": "Aristóbulo del Valle",
+      "cuisine": "Regional Misiones",
+      "priceRange": "€€",
+      "description": "Countryside restaurant featuring yerba mate culture and traditional local dishes in serene garden setting.",
+      "mustOrder": "Tereré with local cheese and sausage",
+      "lat": -27.3667,
+      "lng": -55.5333
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Fonda Tía María",
+      "address": "Calle Sarmiento 780, Eldorado",
+      "neighbourhood": "Eldorado",
+      "cuisine": "Argentine Home Cooking",
+      "priceRange": "€",
+      "description": "Authentic family-style restaurant offering hearty portions of traditional recipes at budget-friendly prices.",
+      "mustOrder": "Milanesas caseras with homemade fries",
+      "lat": -26.4333,
+      "lng": -54.6167
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Chacra Hotel Restaurant",
+      "address": "Av. Lavalle 2100, Eldorado",
+      "neighbourhood": "Eldorado",
+      "cuisine": "Contemporary Argentine",
+      "priceRange": "€€€",
+      "description": "Upscale hotel restaurant combining local produce with refined techniques in elegant setting.",
+      "mustOrder": "Medallones de cerdo with chimichurri sauce",
+      "lat": -26.429,
+      "lng": -54.6245
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Restaurante Casa Blanca",
+      "address": "Av. Roque Sáenz Peña 1654, Posadas",
+      "neighbourhood": "Posadas",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€€",
+      "description": "Elegant downtown steakhouse with river views, premium beef selection, and refined wine pairings.",
+      "mustOrder": "Carne a la salsa de hongos (beef in mushroom sauce)",
+      "lat": -27.3612,
+      "lng": -55.9033
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Esquina de Don Carlos",
+      "address": "Calle Bolívar 1850, Posadas",
+      "neighbourhood": "Posadas",
+      "cuisine": "Parrilla & Comida Criolla",
+      "priceRange": "€€",
+      "description": "Corner grill institution serving classic Argentine fare with emphasis on traditional preparation methods.",
+      "mustOrder": "Choripán and grilled sweetbreads",
+      "lat": -27.3625,
+      "lng": -55.905
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Resto Boutique Karaí",
+      "address": "Av. Mitre 1680, Posadas",
+      "neighbourhood": "Posadas",
+      "cuisine": "Fusion Argentine",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant showcasing modern interpretations of regional Misiones ingredients and flavors.",
+      "mustOrder": "Surubí with passion fruit and local herb sauce",
+      "lat": -27.3598,
+      "lng": -55.9015
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Cantina de Don Juan",
+      "address": "Ruta Nacional 14, Puerto Leoni",
+      "neighbourhood": "Puerto Leoni",
+      "cuisine": "Regional Misiones",
+      "priceRange": "€€",
+      "description": "Rural cantina preserving traditional Misiones food culture with authentic recipes and warm hospitality.",
+      "mustOrder": "Empanadas tucumanas with local cheese",
+      "lat": -27.2167,
+      "lng": -55.75
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Restaurante Bella Italia",
+      "address": "Av. Libertad 562, Wanda",
+      "neighbourhood": "Wanda",
+      "cuisine": "Italian-Argentine",
+      "priceRange": "€€",
+      "description": "Family pizzeria and pasta house near Wanda's famous gemstone mines with wood-fired oven pizzas.",
+      "mustOrder": "Pizza a la piedra with local ingredients",
+      "lat": -25.8533,
+      "lng": -54.6917
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Moconá Lodge Restaurant",
+      "address": "Parque Provincial Moconá access road, Moconá",
+      "neighbourhood": "Moconá",
+      "cuisine": "Contemporary Regional",
+      "priceRange": "€€€€",
+      "description": "Exclusive lodge restaurant in remote national park setting featuring foraged ingredients and local specialties.",
+      "mustOrder": "Seven-course tasting menu with Paraná river fish",
+      "lat": -27.1667,
+      "lng": -55.65
+    }
+  ]
+}

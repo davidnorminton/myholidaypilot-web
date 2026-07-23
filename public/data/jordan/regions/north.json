@@ -1,0 +1,998 @@
+{
+  "id": "north",
+  "name": "North Jordan",
+  "nameIt": "شمال الأردن",
+  "capital": "Irbid",
+  "lat": 32.55,
+  "lng": 35.85,
+  "emoji": "🏞️",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 32.8,
+    "south": 32.2,
+    "east": 36.4,
+    "west": 35.3
+  },
+  "history": "North Jordan has been inhabited since ancient times, serving as a crossroads between the Mediterranean and the Arabian Peninsula. The region was part of the Nabatean Kingdom before falling under Roman control, which brought significant development to cities like Jerash, one of the finest preserved Roman cities outside Italy. During the Islamic period, North Jordan became an important part of successive caliphates and empires, with its strategic location making it valuable for trade routes and military campaigns. The modern borders of North Jordan were established following World War I and the British Mandate period, eventually becoming part of the Hashemite Kingdom of Jordan upon independence in 1946.",
+  "culturalNotes": "North Jordan is characterized by a blend of Bedouin heritage and settled Arab traditions, with strong family and tribal values still deeply woven into daily life. The region is known for its warm hospitality, traditional crafts including embroidery and weaving, and a cuisine that features dishes like mansaf and falafel. Religious observance is important to the local culture, and visitors will find that Islamic traditions influence social customs, dress codes in rural areas, and daily routines, particularly during Ramadan.",
+  "bestTimeToVisit": "April to May and September to October for pleasant weather in this agricultural region.",
+  "languageNotes": "Arabic is the official language, with the local Levantine dialect differing noticeably from Modern Standard Arabic in pronunciation and vocabulary. Useful phrases include \"Salam alaikum\" (hello), \"Shukran\" (thank you), and \"Inshallah\" (God willing), though English is increasingly spoken in tourist areas and among younger residents.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 8,
+  "places": [
+    {
+      "id": "ajloun",
+      "name": "Ajloun",
+      "nameIt": "عجلون",
+      "lat": 32.345,
+      "lng": 35.7233,
+      "type": "TOWN",
+      "description": "A picturesque hilltop town famous for Ajloun Castle, a 12th-century Ayyubid fortress offering panoramic views of the Jordan Valley and surrounding olive groves. The castle and verdant countryside make it a rewarding day trip from Amman.",
+      "imageQueries": [
+        "Ajloun Castle fortress",
+        "Ajloun olive groves hillside"
+      ],
+      "activities": [
+        {
+          "id": "ajlo_1",
+          "text": "Explore Ajloun Castle",
+          "detail": "Climb through the imposing 12th-century Ayyubid fortress with its four towers and underground passages, enjoying sweeping views of the Jordan Valley and surrounding olive groves.",
+          "lat": 32.345,
+          "lng": 35.7289
+        },
+        {
+          "id": "ajlo_2",
+          "text": "Hike through Ajloun Forest Reserve",
+          "detail": "Trek among pine and oak forests in this protected nature reserve south of the castle, spotting local wildlife including birds and rare plants while enjoying cool mountain air.",
+          "lat": 32.335,
+          "lng": 35.73
+        },
+        {
+          "id": "ajlo_3",
+          "text": "Visit local olive presses",
+          "detail": "Tour traditional and modern olive oil production facilities during harvest season (October-November) to see how the region's prized olive oil is made.",
+          "lat": 32.34,
+          "lng": 35.72
+        },
+        {
+          "id": "ajlo_4",
+          "text": "Panoramic valley viewpoint near castle",
+          "detail": "Stand at the terraced overlook near Ajloun Castle at sunset to photograph the Jordan Valley, West Bank hills, and the shimmering waters in the distance.",
+          "lat": 32.3455,
+          "lng": 35.7295
+        },
+        {
+          "id": "ajlo_5",
+          "text": "Explore the town souq",
+          "detail": "Wander through Ajloun's modest but authentic local market where vendors sell fresh produce, herbs, textiles, and handicrafts typical of northern Jordan.",
+          "lat": 32.3425,
+          "lng": 35.725
+        }
+      ],
+      "food": [
+        {
+          "id": "ajlo_f1",
+          "text": "Mansaf",
+          "detail": "This signature Jordanian dish features lamb cooked in a yogurt-based sauce served over rice and topped with pine nuts, considered the national dish and prepared throughout Ajloun."
+        },
+        {
+          "id": "ajlo_f2",
+          "text": "Olive oil and za'atar bread",
+          "detail": "Warm flatbread drizzled with local extra-virgin olive oil and sprinkled with za'atar (thyme herb blend), a simple but essential part of every breakfast in the region."
+        },
+        {
+          "id": "ajlo_f3",
+          "text": "Stuffed grape leaves (Dolma)",
+          "detail": "Tender grape leaves from local vines rolled with minced lamb, rice, and spices, then steamed until tender—a traditional preparation found in family restaurants throughout town."
+        },
+        {
+          "id": "ajlo_f4",
+          "text": "Fresh mountain spring water",
+          "detail": "Ajloun's high elevation and natural springs produce some of Jordan's freshest drinking water, often served ice-cold at roadside cafes and restaurants."
+        },
+        {
+          "id": "ajlo_f5",
+          "text": "Freekeh with chicken",
+          "detail": "Roasted green wheat grains cooked with tender chicken and aromatics, a hearty local specialty particularly popular during cooler months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ajlo_c1",
+          "text": "Dress modestly when visiting the castle and town",
+          "detail": "Especially women should cover shoulders and knees as a sign of respect in this conservative area; modest dress is appreciated and expected in religious and public spaces."
+        },
+        {
+          "id": "ajlo_c2",
+          "text": "Accept offered hospitality graciously",
+          "detail": "Locals may offer tea, coffee, or snacks to visitors as genuine hospitality; declining too firmly may be considered rude, so accept at least a small gesture."
+        },
+        {
+          "id": "ajlo_c3",
+          "text": "Visit during olive harvest season for authentic experience",
+          "detail": "October through November is when the town comes alive with harvest activity, olive pressing, and family gatherings, offering the richest cultural immersion for visitors."
+        },
+        {
+          "id": "ajlo_c4",
+          "text": "Ask permission before photographing people",
+          "detail": "While the landscape is freely photogenic, always seek consent before photographing locals, especially women and children, as privacy is valued in this traditional community."
+        }
+      ]
+    },
+    {
+      "id": "irbid",
+      "name": "Irbid",
+      "nameIt": "إربد",
+      "lat": 32.5518,
+      "lng": 35.8467,
+      "type": "CITY",
+      "description": "Jordan's second-largest city and the cultural heart of the north, home to universities, museums, and bustling markets. It serves as a practical hub for exploring northern Jordan and experiencing authentic Jordanian urban life.",
+      "imageQueries": [
+        "Irbid city Jordan",
+        "Irbid marketplace souks"
+      ],
+      "activities": [
+        {
+          "id": "irbi_1",
+          "text": "Irbid Archaeological Museum",
+          "detail": "Houses artifacts from the Greco-Roman period and Islamic era, including mosaics and pottery from northern Jordan's rich history.",
+          "lat": 32.5553,
+          "lng": 35.8461
+        },
+        {
+          "id": "irbi_2",
+          "text": "Al-Omari Grand Mosque",
+          "detail": "A prominent Ottoman-era mosque in the city center featuring traditional Islamic architecture and serving as a focal point of local religious and community life.",
+          "lat": 32.5567,
+          "lng": 35.8456
+        },
+        {
+          "id": "irbi_3",
+          "text": "Irbid City Market (Souk)",
+          "detail": "A bustling traditional marketplace where locals shop for spices, textiles, fresh produce, and handicrafts, offering authentic glimpses of daily Jordanian urban culture.",
+          "lat": 32.5571,
+          "lng": 35.8475
+        },
+        {
+          "id": "irbi_4",
+          "text": "Yarmouk University Campus",
+          "detail": "One of Jordan's premier universities with a scenic campus that reflects the city's role as an educational and intellectual hub in northern Jordan.",
+          "lat": 32.5456,
+          "lng": 35.8234
+        },
+        {
+          "id": "irbi_5",
+          "text": "Irbid Water Park",
+          "detail": "A recreational facility popular with families and visitors seeking relief from the summer heat with pools and water attractions."
+        },
+        {
+          "id": "irbi_6",
+          "text": "Mount Gilead Viewpoint",
+          "detail": "Offers panoramic views of the surrounding Jordanian countryside and the distant West Bank from elevated terrain near the city."
+        }
+      ],
+      "food": [
+        {
+          "id": "irbi_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in a tangy yogurt-based sauce served over rice or bread, considered the national dish and widely available in local restaurants."
+        },
+        {
+          "id": "irbi_f2",
+          "text": "Zarb",
+          "detail": "Meat (often lamb or chicken) marinated in spices and slow-cooked in a clay pit underground, a specialty found at local feast restaurants and special occasions."
+        },
+        {
+          "id": "irbi_f3",
+          "text": "Hummus and Falafel",
+          "detail": "Creamy chickpea dip and deep-fried chickpea patties that are staples of northern Jordanian street food and casual dining throughout Irbid."
+        },
+        {
+          "id": "irbi_f4",
+          "text": "Maklouba",
+          "detail": "An inverted rice and vegetable or meat dish that is flipped onto a plate before serving, a beloved comfort food in Irbid households and family restaurants."
+        },
+        {
+          "id": "irbi_f5",
+          "text": "Fresh Jordanian Bread (Khubz)",
+          "detail": "Warm, soft flatbread baked fresh daily in neighborhood ovens and served with nearly every meal, best experienced at local bakeries in the morning."
+        }
+      ],
+      "culture": [
+        {
+          "id": "irbi_c1",
+          "text": "Greet with respect and right hand",
+          "detail": "Always greet with your right hand and use formal titles when meeting strangers; personal connections and courtesy are highly valued in Irbid's social interactions."
+        },
+        {
+          "id": "irbi_c2",
+          "text": "Dress modestly in public spaces",
+          "detail": "Women should wear loose-fitting clothing that covers shoulders, knees, and chest, while men should avoid shorts; modest dress shows respect for local Islamic customs."
+        },
+        {
+          "id": "irbi_c3",
+          "text": "Accept hospitality graciously",
+          "detail": "If invited to a local home or offered tea and sweets at a shop, accepting is polite and appreciated; declining multiple times may be seen as rude."
+        },
+        {
+          "id": "irbi_c4",
+          "text": "Visit during cooler months",
+          "detail": "Irbid experiences hot summers, so spring (March–May) and fall (September–November) are ideal times to explore the markets and outdoor spaces comfortably."
+        }
+      ]
+    },
+    {
+      "id": "pella",
+      "name": "Pella",
+      "nameIt": "فحيص",
+      "lat": 32.4033,
+      "lng": 35.685,
+      "type": "LANDMARK",
+      "description": "An ancient city strategically positioned above the Jordan River valley with layers of history from Neolithic through Islamic periods. The site offers quieter exploration than Jerash with sweeping valley views and diverse archaeological remains.",
+      "imageQueries": [
+        "Pella archaeological site",
+        "Pella Jordan River valley"
+      ],
+      "activities": [
+        {
+          "id": "pell_1",
+          "text": "Explore the Main Tell",
+          "detail": "Walk through the central mound where successive civilizations built their cities, with visible ruins spanning from Neolithic settlements to Islamic-period structures.",
+          "lat": 32.2722,
+          "lng": 35.5106
+        },
+        {
+          "id": "pell_2",
+          "text": "Visit the Byzantine Churches",
+          "detail": "Examine the remains of two well-preserved early Christian churches with mosaic fragments and architectural elements from the 5th-6th centuries CE.",
+          "lat": 32.2725,
+          "lng": 35.511
+        },
+        {
+          "id": "pell_3",
+          "text": "Hike the Valley Overlook Trail",
+          "detail": "Trek to the plateau edge for panoramic views down into the Jordan River valley and across to the Palestinian highlands on clear days."
+        },
+        {
+          "id": "pell_4",
+          "text": "Study the Pottery Workshop Site",
+          "detail": "Examine evidence of ancient ceramic production with kiln remains and pottery fragments scattered across this specialized craft area from multiple periods."
+        },
+        {
+          "id": "pell_5",
+          "text": "Inspect the Roman Theater Remnants",
+          "detail": "View the scattered stones and foundation layout of a modest Roman-period theater that once served the city's population."
+        },
+        {
+          "id": "pell_6",
+          "text": "Walk Among Residential Quarters",
+          "detail": "Stroll through partially excavated house foundations and street plans that reveal how ordinary residents organized their domestic spaces across centuries."
+        }
+      ],
+      "food": [
+        {
+          "id": "pell_f1",
+          "text": "Mansaf",
+          "detail": "The signature Jordanian dish of lamb stewed in a yogurt-based sauce with pine nuts, traditionally served on a bed of rice or flatbread."
+        },
+        {
+          "id": "pell_f2",
+          "text": "Musakhan",
+          "detail": "Roasted chicken with sumac, onions, and olive oil served on thin Palestinian-style bread, a regional specialty reflecting local Levantine traditions."
+        },
+        {
+          "id": "pell_f3",
+          "text": "Za'atar-topped flatbread",
+          "detail": "Fresh pita or taboon-baked bread topped with the local herb and sesame blend, often eaten with olive oil for dipping."
+        },
+        {
+          "id": "pell_f4",
+          "text": "Locally foraged herbs and greens",
+          "detail": "Spring seasonal dishes featuring wild herbs like purslane and fresh greens that grow in the Jordan Valley region and appear in simple salads."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pell_c1",
+          "text": "Bring plenty of water and sun protection",
+          "detail": "The site is largely exposed with minimal shade, and summer temperatures in the valley can exceed 40°C; visiting in spring or autumn is advisable."
+        },
+        {
+          "id": "pell_c2",
+          "text": "Respect excavation zones and barriers",
+          "detail": "The site remains partially active for archaeological work, so stay on marked paths and avoid disturbing cordoned areas or removing any artifacts or stones."
+        },
+        {
+          "id": "pell_c3",
+          "text": "Greet locals with Arabic courtesy",
+          "detail": "Using basic greetings like 'Assalamu alaikum' when encountering nearby villagers or guides shows respect and often leads to warmer interactions and local knowledge."
+        }
+      ]
+    },
+    {
+      "id": "anjara",
+      "name": "Anjara",
+      "nameIt": "عنجرة",
+      "lat": 32.4667,
+      "lng": 35.72,
+      "type": "VILLAGE",
+      "description": "A small Christian village known for its Byzantine Church of Mary where tradition holds Mary and Jesus sought refuge during their flight to Egypt. The modest church and peaceful hillside setting offer spiritual significance and local charm.",
+      "imageQueries": [
+        "Anjara Church Mary",
+        "Anjara Christian village Jordan"
+      ],
+      "activities": [
+        {
+          "id": "anja_1",
+          "text": "Visit the Church of Mary",
+          "detail": "Explore the modest Byzantine church built over the traditional site where Mary and Jesus sheltered during their flight to Egypt, featuring ancient stone walls and religious icons.",
+          "lat": 32.3442,
+          "lng": 35.7358
+        },
+        {
+          "id": "anja_2",
+          "text": "Walk the hillside trails",
+          "detail": "Hike the peaceful surrounding hills to experience panoramic views of the Jordan Valley and nearby Palestinian territories from this elevated Christian village."
+        },
+        {
+          "id": "anja_3",
+          "text": "Attend local prayer services",
+          "detail": "Join the small Christian community for morning or evening prayers at the church to experience authentic spiritual practice in this pilgrimage site."
+        },
+        {
+          "id": "anja_4",
+          "text": "Visit the sacred spring",
+          "detail": "Seek out the natural water spring near the church that local tradition associates with Mary's journey, believed to have healing properties by pilgrims."
+        },
+        {
+          "id": "anja_5",
+          "text": "Explore village stone architecture",
+          "detail": "Wander through Anjara's narrow lanes to observe traditional Levantine stone houses and village layout that has remained largely unchanged for centuries."
+        },
+        {
+          "id": "anja_6",
+          "text": "Photograph the valley vista",
+          "detail": "Capture sunset or sunrise views from the church courtyard overlooking the Jordan Valley toward the West Bank, particularly stunning during golden hour."
+        }
+      ],
+      "food": [
+        {
+          "id": "anja_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian lamb stew cooked in yogurt sauce served over rice or flatbread, commonly prepared for family gatherings in this region."
+        },
+        {
+          "id": "anja_f2",
+          "text": "Za'atar bread",
+          "detail": "Warm flatbread sprinkled with the local herb mixture of za'atar, olive oil, and sesame seeds, baked in village ovens and sold at small local shops."
+        },
+        {
+          "id": "anja_f3",
+          "text": "Olive oil and cheese from local producers",
+          "detail": "Sample fresh pressed olive oil and white cheese made by nearby village families, representing the agricultural heritage of the North Jordan region."
+        },
+        {
+          "id": "anja_f4",
+          "text": "Musakhan",
+          "detail": "Flatbread topped with slow-cooked chicken, onions, and sumac, a Palestinian-influenced dish common in northern Jordanian Christian communities."
+        },
+        {
+          "id": "anja_f5",
+          "text": "Homemade knafeh",
+          "detail": "Visit family-run shops to taste the crispy shredded pastry dessert with cheese or cream, often prepared for religious celebrations in the village."
+        }
+      ],
+      "culture": [
+        {
+          "id": "anja_c1",
+          "text": "Respect religious customs",
+          "detail": "Remove shoes when entering the Church of Mary and dress modestly; photography inside the church may be restricted during active worship times."
+        },
+        {
+          "id": "anja_c2",
+          "text": "Greet with Arabic courtesy",
+          "detail": "Use basic Arabic greetings like 'As-salamu alaykum' (peace be upon you) even though many residents speak English, showing respect for local tradition."
+        },
+        {
+          "id": "anja_c3",
+          "text": "Visit during pilgrimage seasons",
+          "detail": "Plan your visit around Christian holidays like Easter or Christmas when the village hosts more pilgrims and special religious observances are held."
+        },
+        {
+          "id": "anja_c4",
+          "text": "Support local families directly",
+          "detail": "Purchase crafts, food, and services from residents rather than chain establishments to ensure tourism benefits reach the community that maintains this heritage site."
+        }
+      ]
+    },
+    {
+      "id": "deir_alla",
+      "name": "Tell Deir Alla",
+      "nameIt": "تل دير علا",
+      "lat": 32.2683,
+      "lng": 35.585,
+      "type": "LANDMARK",
+      "description": "An important archaeological mound in the Jordan Valley floor with evidence of continuous habitation from the Neolithic era through the Iron Age. The site is particularly noted for ancient inscriptions and provides insights into early settlement patterns.",
+      "imageQueries": [
+        "Tell Deir Alla excavation",
+        "Deir Alla archaeological mound"
+      ],
+      "activities": [
+        {
+          "id": "deir_1",
+          "text": "Explore the Archaeological Mound",
+          "detail": "Walk through the excavated layers of the tell to observe stratified remains spanning from the Neolithic period through the Iron Age.",
+          "lat": 32.2167,
+          "lng": 35.5333
+        },
+        {
+          "id": "deir_2",
+          "text": "View the Deir Alla Inscription",
+          "detail": "Study the famous plaster wall inscriptions dating to the Iron Age that provide rare evidence of early alphabetic writing in the Levant.",
+          "lat": 32.2167,
+          "lng": 35.5333
+        },
+        {
+          "id": "deir_3",
+          "text": "Visit the Site Museum",
+          "detail": "Examine pottery, tools, and artifacts recovered from the excavations that illustrate daily life and trade patterns through the ages."
+        },
+        {
+          "id": "deir_4",
+          "text": "Walk the Jordan Valley Floor",
+          "detail": "Hike around the immediate area to appreciate the geographical setting that made this location a strategic settlement hub for millennia.",
+          "lat": 32.2167,
+          "lng": 35.5333
+        },
+        {
+          "id": "deir_5",
+          "text": "Photograph the Stratified Layers",
+          "detail": "Document the exposed cross-sections of the mound that clearly show distinct occupational phases and construction methods from different periods."
+        },
+        {
+          "id": "deir_6",
+          "text": "Attend a Guided Lecture",
+          "detail": "Join interpretive sessions offered seasonally that explain the historical significance of finds and settlement patterns at the site."
+        }
+      ],
+      "food": [
+        {
+          "id": "deir_f1",
+          "text": "Mensaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in a yogurt sauce served over rice, commonly enjoyed in nearby villages and a staple of local hospitality."
+        },
+        {
+          "id": "deir_f2",
+          "text": "Falafel and Hummus",
+          "detail": "Freshly made chickpea fritters and chickpea paste seasoned with tahini and lemon, widely available at local eateries near the archaeological site."
+        },
+        {
+          "id": "deir_f3",
+          "text": "Maqluba",
+          "detail": "A one-pot rice and vegetable dish layered with meat that is flipped upside-down before serving, reflecting traditional Jordanian Valley cooking methods."
+        },
+        {
+          "id": "deir_f4",
+          "text": "Jordan Valley Fresh Vegetables",
+          "detail": "The fertile Jordan Valley produces abundant tomatoes, cucumbers, and peppers sold fresh at local markets and prepared in daily meals."
+        },
+        {
+          "id": "deir_f5",
+          "text": "Zarb (Bedouin Barbecue)",
+          "detail": "Meat and vegetables cooked in an underground pit, occasionally offered at nearby Bedouin encampments as an authentic regional experience."
+        }
+      ],
+      "culture": [
+        {
+          "id": "deir_c1",
+          "text": "Dress Respectfully",
+          "detail": "Wear modest clothing covering shoulders and knees as a sign of respect for local customs and religious practices in this conservative region."
+        },
+        {
+          "id": "deir_c2",
+          "text": "Greet with Courtesy",
+          "detail": "Use the Arabic greeting 'As-salamu alaikum' (peace be upon you) and accept tea when offered, as hospitality is an important cultural value."
+        },
+        {
+          "id": "deir_c3",
+          "text": "Visit During Cooler Hours",
+          "detail": "Plan your visit for early morning or late afternoon to avoid the intense midday heat typical of the Jordan Valley floor."
+        },
+        {
+          "id": "deir_c4",
+          "text": "Hire a Local Guide",
+          "detail": "A guide from nearby villages can provide context about the site's significance to the region and facilitate interactions with local communities."
+        }
+      ]
+    },
+    {
+      "id": "jarash_city",
+      "name": "Modern Jerash Town",
+      "nameIt": "مدينة جرش الحديثة",
+      "lat": 32.29,
+      "lng": 35.905,
+      "type": "TOWN",
+      "description": "The contemporary town adjacent to the ancient ruins, providing local restaurants, markets, and hospitality services while maintaining traditional Jordanian character. It's the practical base for visiting the Jerash archaeological site.",
+      "imageQueries": [
+        "Jerash town modern Jordan",
+        "Jerash local market"
+      ],
+      "activities": [
+        {
+          "id": "jara_1",
+          "text": "Jerash Visitor Centre",
+          "detail": "Browse exhibits on Jerash's Roman history and purchase tickets for the archaeological site entrance.",
+          "lat": 32.2754,
+          "lng": 35.888
+        },
+        {
+          "id": "jara_2",
+          "text": "Main Souk (Market)",
+          "detail": "Walk through the traditional bazaar selling local handicrafts, olive wood souvenirs, and spices characteristic of northern Jordan.",
+          "lat": 32.2745,
+          "lng": 35.8875
+        },
+        {
+          "id": "jara_3",
+          "text": "Al-Hashemi Hotel Garden",
+          "detail": "Rest in a peaceful courtyard garden serving traditional Jordanian hospitality while viewing the town and distant ruins.",
+          "lat": 32.275,
+          "lng": 35.887
+        },
+        {
+          "id": "jara_4",
+          "text": "Local Coffee Houses (Ahwa)",
+          "detail": "Sit among locals playing backgammon while sipping strong Arabic coffee and observing daily Jordanian town life.",
+          "lat": 32.274,
+          "lng": 35.8885
+        },
+        {
+          "id": "jara_5",
+          "text": "Bread Ovens on Market Street",
+          "detail": "Watch bakers prepare fresh khubz (flatbread) in traditional wood-fired ovens early in the morning.",
+          "lat": 32.2742,
+          "lng": 35.8878
+        }
+      ],
+      "food": [
+        {
+          "id": "jara_f1",
+          "text": "Mansaf",
+          "detail": "The national Jordanian dish of lamb cooked in yogurt sauce served over rice, typically offered at local restaurants throughout the town."
+        },
+        {
+          "id": "jara_f2",
+          "text": "Falafel and Hummus",
+          "detail": "Fresh chickpea fritters and creamy tahini dip available at small street vendors and family-run eateries."
+        },
+        {
+          "id": "jara_f3",
+          "text": "Musakhan",
+          "detail": "Flatbread topped with sumac, olive oil, and roasted chicken, a Palestinian-Jordanian specialty found in local kitchens."
+        },
+        {
+          "id": "jara_f4",
+          "text": "Fresh Olive Oil and Za'atar",
+          "detail": "Local markets sell locally-pressed olive oil and the herb blend za'atar to drizzle on warm bread for breakfast."
+        },
+        {
+          "id": "jara_f5",
+          "text": "Kebab and Shawarma",
+          "detail": "Grilled meat skewers and rotating spit roasts served with pita bread and tahini sauce at town restaurants."
+        },
+        {
+          "id": "jara_f6",
+          "text": "Mint Tea and Sweets",
+          "detail": "Freshly brewed mint tea paired with baklava or date-filled pastries at coffee houses and bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jara_c1",
+          "text": "Greeting Customs",
+          "detail": "A warm handshake or 'As-salamu alaikum' greeting is standard; accept offered tea as it is a gesture of hospitality."
+        },
+        {
+          "id": "jara_c2",
+          "text": "Modest Dress Expected",
+          "detail": "Loose-fitting clothing covering shoulders and knees is respectful in the conservative town, especially when visiting religious sites or local homes."
+        },
+        {
+          "id": "jara_c3",
+          "text": "Shop During Afternoon Hours",
+          "detail": "Many small shops close midday for prayer and rest; plan market visits for late morning or late afternoon for best access."
+        },
+        {
+          "id": "jara_c4",
+          "text": "Photography Etiquette",
+          "detail": "Always ask permission before photographing locals or inside shops, as many prefer not to be photographed without consent."
+        }
+      ]
+    },
+    {
+      "id": "abila",
+      "name": "Abila",
+      "nameIt": "أبيلا",
+      "lat": 32.505,
+      "lng": 35.81,
+      "type": "LANDMARK",
+      "description": "An ancient Decapolis city with ruins spanning from the Iron Age through the Islamic period on a scenic hilltop. The less-visited site offers peaceful exploration and excellent views of the surrounding agricultural landscape.",
+      "imageQueries": [
+        "Abila ancient ruins",
+        "Abila Decapolis city"
+      ],
+      "activities": [
+        {
+          "id": "abil_1",
+          "text": "Explore the Decapolis Ruins",
+          "detail": "Walk among the remains of temples, theaters, and residential structures spanning from the Iron Age through the Islamic period on the hilltop.",
+          "lat": 32.2833,
+          "lng": 35.7667
+        },
+        {
+          "id": "abil_2",
+          "text": "Visit the Byzantine Church",
+          "detail": "Examine the well-preserved foundations and mosaics of an early Christian church that dates to the Byzantine era."
+        },
+        {
+          "id": "abil_3",
+          "text": "Climb to the Summit Viewpoint",
+          "detail": "Ascend to the highest point of the archaeological site for panoramic views of the Jordan Valley and surrounding agricultural plains.",
+          "lat": 32.284,
+          "lng": 35.7675
+        },
+        {
+          "id": "abil_4",
+          "text": "Survey Hellenistic Theater Remains",
+          "detail": "Inspect the stone seating and stage structure of an ancient theater that once hosted performances during the Decapolis period."
+        },
+        {
+          "id": "abil_5",
+          "text": "Walk the Iron Age Fortification Walls",
+          "detail": "Follow the preserved defensive walls and gates that protected the ancient settlement during Iron Age occupation."
+        },
+        {
+          "id": "abil_6",
+          "text": "Photograph the Landscape",
+          "detail": "Capture sweeping views of the Jordanian countryside and distant mountains from multiple vantage points across the site."
+        }
+      ],
+      "food": [
+        {
+          "id": "abil_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian lamb stew served with yogurt sauce and flatbread, commonly eaten throughout the region."
+        },
+        {
+          "id": "abil_f2",
+          "text": "Musakhan",
+          "detail": "Chicken roasted with sumac and onions over flatbread, a Palestinian and Jordanian staple best enjoyed warm."
+        },
+        {
+          "id": "abil_f3",
+          "text": "Falafel and Hummus",
+          "detail": "Crispy chickpea fritters served with creamy chickpea dip and pita bread, readily available at local eateries."
+        },
+        {
+          "id": "abil_f4",
+          "text": "Fresh Olive Oil and Za'atar",
+          "detail": "North Jordan produces excellent olive oil; dip warm bread in local oil mixed with the aromatic herb blend za'atar."
+        },
+        {
+          "id": "abil_f5",
+          "text": "Tabouleh Salad",
+          "detail": "A refreshing salad of parsley, tomatoes, bulgur, and lemon juice that reflects the agricultural bounty of the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "abil_c1",
+          "text": "Respect the Sacred Site",
+          "detail": "Although primarily archaeological, remain respectful as the land holds religious and historical significance to local communities."
+        },
+        {
+          "id": "abil_c2",
+          "text": "Visit Early or Late",
+          "detail": "Arrive in early morning or late afternoon to avoid midday heat and enjoy better lighting for photography and exploration."
+        },
+        {
+          "id": "abil_c3",
+          "text": "Engage with Local Guides",
+          "detail": "Hiring a guide from a nearby village enhances understanding of the site and supports the local economy directly."
+        },
+        {
+          "id": "abil_c4",
+          "text": "Dress Appropriately",
+          "detail": "Wear modest clothing and sturdy walking shoes suitable for uneven terrain and the conservative expectations of rural northern Jordan."
+        }
+      ]
+    },
+    {
+      "id": "mafraq",
+      "name": "Mafraq",
+      "nameIt": "المفرق",
+      "lat": 32.3567,
+      "lng": 36.205,
+      "type": "CITY",
+      "description": "An important northern crossroads city serving as a gateway to Syria and the eastern desert, with traditional souks and local Bedouin culture. Though less touristy than southern Jordan, it offers authentic northern Jordanian atmosphere.",
+      "imageQueries": [
+        "Mafraq city Jordan",
+        "Mafraq souks market"
+      ],
+      "activities": [
+        {
+          "id": "mafr_1",
+          "text": "Mafraq City Centre Souk",
+          "detail": "Browse the bustling traditional marketplace in the heart of Mafraq where local vendors sell spices, textiles, handicrafts, and everyday goods in an authentic Jordanian trading atmosphere.",
+          "lat": 32.3553,
+          "lng": 36.2069
+        },
+        {
+          "id": "mafr_2",
+          "text": "Um Al-Quttein Archaeological Site",
+          "detail": "Visit this Bronze Age settlement remains located southeast of Mafraq featuring ancient ruins and pottery fragments that reveal the region's pre-Islamic history.",
+          "lat": 32.285,
+          "lng": 36.35
+        },
+        {
+          "id": "mafr_3",
+          "text": "Mafraq Fort (Tell Mafraq)",
+          "detail": "Explore the hilltop remains of this Ottoman-era fortress that once guarded the northern trade routes and offers views across the Jordanian plateau.",
+          "lat": 32.36,
+          "lng": 36.21
+        },
+        {
+          "id": "mafr_4",
+          "text": "Al-Ruwayhed Border Market",
+          "detail": "Experience the energetic cross-border trading post 70 kilometers north where Jordanian, Syrian, and Iraqi merchants converge, selling everything from livestock to imported goods."
+        },
+        {
+          "id": "mafr_5",
+          "text": "Bedouin Tent Visits",
+          "detail": "Arrange visits to working Bedouin encampments in the surrounding desert where families still maintain traditional herding practices and offer hospitality with mint tea and coffee.",
+          "lat": 32.3,
+          "lng": 36.3
+        },
+        {
+          "id": "mafr_6",
+          "text": "Zarqa River Valley Drive",
+          "detail": "Drive south toward the Zarqa River to see the agricultural lands and water channels that have sustained settlements in this semi-arid region for centuries."
+        }
+      ],
+      "food": [
+        {
+          "id": "mafr_f1",
+          "text": "Mansaf",
+          "detail": "This iconic Jordanian dish of lamb cooked in yogurt sauce served over rice is a specialty in Mafraq's local restaurants, representing the heart of northern Jordanian cuisine."
+        },
+        {
+          "id": "mafr_f2",
+          "text": "Zarb (Bedouin Roasted Meat)",
+          "detail": "Lamb or chicken slow-roasted underground with vegetables in a traditional pit method, commonly prepared for celebrations and available at family-run establishments."
+        },
+        {
+          "id": "mafr_f3",
+          "text": "Freekeh",
+          "detail": "Roasted green wheat grain served as a hearty side dish or main course, particularly popular in Mafraq's agricultural communities during harvest season."
+        },
+        {
+          "id": "mafr_f4",
+          "text": "Sojouk and Hummus Breakfast",
+          "detail": "Spiced Jordanian sausage served warm with creamy hummus and fresh pita bread at morning cafés, a filling local breakfast tradition."
+        },
+        {
+          "id": "mafr_f5",
+          "text": "Desert Herbs and Bedouin Coffee",
+          "detail": "Strong, cardamom-infused Arabic coffee served with desert herbs like marjoram and thyme, traditionally offered during Bedouin hospitality encounters."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mafr_c1",
+          "text": "Accept Hospitality Graciously",
+          "detail": "When invited to a Bedouin home or family gathering, accept offered tea and coffee as refusal can be considered impolite; it is customary to drink at least one cup."
+        },
+        {
+          "id": "mafr_c2",
+          "text": "Dress Modestly",
+          "detail": "Mafraq is more conservative than southern tourist areas; visitors should wear long pants or skirts and cover shoulders, particularly when visiting markets and rural communities."
+        },
+        {
+          "id": "mafr_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Most locals in Mafraq speak limited English; learning phrases like 'Marhaba' (hello) and 'Shukran' (thank you) earns respect and facilitates friendlier interactions in shops and markets."
+        },
+        {
+          "id": "mafr_c4",
+          "text": "Respect Prayer Times",
+          "detail": "Many businesses close briefly during the five daily prayer times; plan your shopping and activities accordingly and avoid eating publicly during Ramadan daylight hours."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Hatla Al Reef",
+      "address": "Prince Hassan Street, Irbid",
+      "neighbourhood": "Irbid City Center",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Family-run establishment famous for authentic Jordanian mezze and grilled meats in a warm, traditional setting.",
+      "mustOrder": "Mansaf with lamb",
+      "lat": 32.5553,
+      "lng": 35.7465
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Al Baraka Restaurant",
+      "address": "King Abdullah Street, Jerash",
+      "neighbourhood": "Jerash Downtown",
+      "cuisine": "Middle Eastern",
+      "priceRange": "€€",
+      "description": "Popular spot near the ancient ruins serving traditional Jordanian cuisine with excellent service and local atmosphere.",
+      "mustOrder": "Chicken Shawarma",
+      "lat": 32.2757,
+      "lng": 35.8867
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Bab Al Salam",
+      "address": "Umm Qais Road, Umm Qais",
+      "neighbourhood": "Umm Qais",
+      "cuisine": "Levantine",
+      "priceRange": "€€€",
+      "description": "Hilltop restaurant with panoramic views of the Sea of Galilee offering refined traditional Jordanian and Palestinian dishes.",
+      "mustOrder": "Stuffed eggplant with lamb",
+      "lat": 32.5019,
+      "lng": 35.6581
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Al Qastal",
+      "address": "Downtown Main Street, Ajlun",
+      "neighbourhood": "Ajlun Town Center",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Simple, no-frills venue celebrated for authentic wood-fired meats and traditional village-style cooking.",
+      "mustOrder": "Al Qastal (grilled meat skewers)",
+      "lat": 32.3356,
+      "lng": 35.7381
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Candles Restaurant",
+      "address": "Citizenship Street, Irbid",
+      "neighbourhood": "Irbid Uptown",
+      "cuisine": "International",
+      "priceRange": "€€€",
+      "description": "Modern café-restaurant blending Jordanian and international cuisines in an elegant, contemporary setting.",
+      "mustOrder": "Herb-crusted chicken breast",
+      "lat": 32.5621,
+      "lng": 35.7589
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Abu Darwish",
+      "address": "King Faisal Street, Irbid",
+      "neighbourhood": "Irbid Central",
+      "cuisine": "Palestinian",
+      "priceRange": "€",
+      "description": "Budget-friendly counter-service spot famous for perfectly seasoned hummus and fresh falafel served on thin pita.",
+      "mustOrder": "Falafel sandwich with tahini",
+      "lat": 32.5534,
+      "lng": 35.7502
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Maqluba House",
+      "address": "Ottoman Street, Pella",
+      "neighbourhood": "Pella Archaeological Site",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Family restaurant showcasing the region's culinary heritage with authentic recipes and warm hospitality near ancient ruins.",
+      "mustOrder": "Maqluba (upside-down rice and meat)",
+      "lat": 32.3742,
+      "lng": 35.5339
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "The Olive Branch",
+      "address": "Tourism Street, Jerash",
+      "neighbourhood": "Jerash Tourist District",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upmarket establishment near archaeological sites offering Mediterranean cuisine with locally-sourced ingredients and wine selection.",
+      "mustOrder": "Grilled sea bass with olive tapenade",
+      "lat": 32.2741,
+      "lng": 35.8899
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Tannour Al Reef",
+      "address": "Salatah Road, Ajlun",
+      "neighbourhood": "Ajlun Outskirts",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Traditional Jordanian grill restaurant set against scenic mountain backdrop serving slow-cooked meats and fresh seasonal vegetables.",
+      "mustOrder": "Lamb kebab with roasted tomatoes",
+      "lat": 32.3389,
+      "lng": 35.7421
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Al Sada Restaurant",
+      "address": "Main Bazaar Street, Irbid",
+      "neighbourhood": "Irbid Souq",
+      "cuisine": "Middle Eastern",
+      "priceRange": "€€",
+      "description": "Historic venue in the heart of the souk offering classic Jordanian breakfasts and traditional lunch mezze platters.",
+      "mustOrder": "Breakfast kibbeh with eggs",
+      "lat": 32.5541,
+      "lng": 35.7478
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Umm Ali's Kitchen",
+      "address": "Village Road, Salt",
+      "neighbourhood": "Salt Old Town",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Home-style restaurant in charming hillside town preparing heirloom recipes using family techniques passed through generations.",
+      "mustOrder": "Zarb (slow-roasted lamb with vegetables)",
+      "lat": 32.0344,
+      "lng": 35.7289
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "River Nymph Café",
+      "address": "Yarmouk River Valley Road, Irbid",
+      "neighbourhood": "Irbid Riverside",
+      "cuisine": "International Fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary riverside venue combining Jordanian traditions with international influences in a relaxed garden setting.",
+      "mustOrder": "Herb-marinated grilled chicken with za'atar salad",
+      "lat": 32.5479,
+      "lng": 35.7356
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Al Farouq Grill",
+      "address": "Princess Basma Street, Jerash",
+      "neighbourhood": "Jerash Residential",
+      "cuisine": "Palestinian",
+      "priceRange": "€€",
+      "description": "Casual family grill famous for perfectly charred meats, fresh salads, and its strong coffee culture.",
+      "mustOrder": "Mixed Palestinian grill platter",
+      "lat": 32.2689,
+      "lng": 35.8823
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Reem's Bakery & Restaurant",
+      "address": "Souk Street, Ajlun",
+      "neighbourhood": "Ajlun Market District",
+      "cuisine": "Levantine",
+      "priceRange": "€",
+      "description": "Beloved neighborhood spot baking fresh flatbread daily and serving simple, authentic Jordanian home cooking.",
+      "mustOrder": "Manakish with za'atar and fresh bread",
+      "lat": 32.3367,
+      "lng": 35.7395
+    }
+  ]
+}

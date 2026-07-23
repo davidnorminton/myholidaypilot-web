@@ -1,0 +1,958 @@
+{
+  "id": "southern_desert",
+  "name": "Southern Desert",
+  "nameIt": "الصحراء الجنوبية",
+  "capital": "Ma'an",
+  "lat": 30.2,
+  "lng": 35.75,
+  "emoji": "🐪",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": 30.5,
+    "south": 29.8,
+    "east": 36.2,
+    "west": 35.2
+  },
+  "history": "The Southern Desert of Jordan has been inhabited for millennia, with evidence of human settlement dating back to prehistoric times along its wadis and oases. The region served as a crucial crossroads for ancient trade routes, particularly the incense routes that connected Arabia to the Mediterranean world, bringing prosperity to settlements like Petra and later Aqaba. During the Islamic period, the area became part of various dynasties and witnessed the establishment of important religious and military outposts. The modern borders of Jordan were established in the early 20th century following the Ottoman period and the British Mandate, reshaping the region's political landscape.",
+  "culturalNotes": "The Southern Desert embodies Bedouin heritage and hospitality, with many communities still maintaining traditional practices of camel herding, falconry, and desert navigation passed down through generations. The region's character is shaped by its stark, dramatic landscapes of red sandstone mountains, vast plains, and hidden canyons, which have inspired both ancient traders and modern visitors alike. Local culture values honor, family ties, and the sharing of stories under the stars, with traditional Arabic coffee ceremonies and meals reflecting the warmth and generosity that define desert communities.",
+  "bestTimeToVisit": "November to February for manageable temperatures in this arid desert landscape.",
+  "languageNotes": "Arabic is the primary language, with the local Levantine dialect spoken by residents; visitors will find Classical Arabic and English useful in tourist areas. Common courteous phrases include 'Ahlan wa sahlan' (welcome) and 'Shukran' (thank you), which are deeply appreciated when engaging with local communities.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 7,
+  "places": [
+    {
+      "id": "petra",
+      "name": "Petra",
+      "nameIt": "البتراء",
+      "lat": 30.3286,
+      "lng": 35.4444,
+      "type": "LANDMARK",
+      "description": "An ancient Nabatean city carved into rose-red sandstone cliffs, Petra is one of the most iconic archaeological sites in the world and a UNESCO World Heritage Site. The Treasury facade and the Monastery are must-see monuments that showcase extraordinary stone-carving craftsmanship from over 2,000 years ago.",
+      "imageQueries": [
+        "Petra Treasury facade",
+        "Petra Al-Khazneh Jordan"
+      ],
+      "activities": [
+        {
+          "id": "petr_1",
+          "text": "Explore the Treasury (Al-Khazneh)",
+          "detail": "Marvel at the iconic rose-red carved facade, Petra's most famous monument standing 40 meters high, best photographed in early morning light.",
+          "lat": 30.3287,
+          "lng": 35.4444
+        },
+        {
+          "id": "petr_2",
+          "text": "Hike to the Monastery (Ad-Deir)",
+          "detail": "Trek uphill for 45 minutes past Nabatean altars to reach this massive carved temple, the largest monument in Petra offering panoramic desert views.",
+          "lat": 30.3254,
+          "lng": 35.4399
+        },
+        {
+          "id": "petr_3",
+          "text": "Walk through the Siq",
+          "detail": "Journey through the dramatic 1.2-kilometer winding gorge with towering sandstone walls leading to the Treasury, a breathtaking natural and archaeological passage.",
+          "lat": 30.3312,
+          "lng": 35.448
+        },
+        {
+          "id": "petr_4",
+          "text": "Visit the Royal Tombs",
+          "detail": "Examine the four monumental facades carved into the cliff face near the Treasury, representing elite Nabatean burial chambers from the 1st century CE.",
+          "lat": 30.3275,
+          "lng": 35.443
+        },
+        {
+          "id": "petr_5",
+          "text": "Climb to the High Place of Sacrifice",
+          "detail": "Ascend steep stone steps to this ancient ritual site where Nabateans made offerings, featuring two stone altars and commanding views of the valley.",
+          "lat": 30.3298,
+          "lng": 35.441
+        },
+        {
+          "id": "petr_6",
+          "text": "Explore the Nabatean Temple",
+          "detail": "Discover the ruins of this limestone temple complex with reconstructed columns, revealing the religious and commercial importance of Petra's city center.",
+          "lat": 30.3265,
+          "lng": 35.4425
+        },
+        {
+          "id": "petr_7",
+          "text": "Trek to Aaron's Mountain (Jabal Harun)",
+          "detail": "Undertake a challenging 2-3 hour hike to the 1,350-meter peak where a white shrine marks the traditional tomb of Moses's brother, offering vast desert vistas.",
+          "lat": 30.2985,
+          "lng": 35.412
+        }
+      ],
+      "food": [
+        {
+          "id": "petr_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in a yogurt-based sauce served over rice and bread, commonly enjoyed at local restaurants near the visitor center."
+        },
+        {
+          "id": "petr_f2",
+          "text": "Zarb (Bedouin barbecue)",
+          "detail": "Slow-roasted lamb or chicken with vegetables cooked in underground pits, a desert specialty reflecting the cooking traditions of local Bedouin communities."
+        },
+        {
+          "id": "petr_f3",
+          "text": "Falafel and hummus",
+          "detail": "Crispy chickpea fritters and creamy chickpea paste, staple street foods available from vendors at the Petra entrance and within the site."
+        },
+        {
+          "id": "petr_f4",
+          "text": "Maklouba",
+          "detail": "An inverted rice and vegetable dish with meat, traditionally flipped onto a serving plate and eaten communally, popular in Wadi Musa town."
+        },
+        {
+          "id": "petr_f5",
+          "text": "Bedouin tea with herbs",
+          "detail": "Strong black tea infused with mint and local desert herbs, served throughout the day at rest stops and Bedouin camps within Petra."
+        },
+        {
+          "id": "petr_f6",
+          "text": "Stuffed grape leaves (Dolma)",
+          "detail": "Grape leaves filled with rice, herbs, and sometimes meat, a classic Levantine appetizer found in restaurants surrounding the archaeological site."
+        }
+      ],
+      "culture": [
+        {
+          "id": "petr_c1",
+          "text": "Dress modestly and wear sturdy footwear",
+          "detail": "Respect local customs by covering shoulders and knees, and wear closed-toe hiking boots with good grip as trails are steep, uneven, and made of loose rock."
+        },
+        {
+          "id": "petr_c2",
+          "text": "Arrive early to beat crowds and heat",
+          "detail": "Visit before 9 AM to experience monuments with fewer tourists and avoid the intense afternoon desert sun that can reach 35°C+ in summer."
+        },
+        {
+          "id": "petr_c3",
+          "text": "Hire a local Bedouin guide",
+          "detail": "Engage guides from the resident Bedouin community who offer deep knowledge of Petra's history, secret passages, and can enhance your experience with authentic perspectives."
+        },
+        {
+          "id": "petr_c4",
+          "text": "Respect archaeological preservation",
+          "detail": "Do not touch carved surfaces, remove artifacts, or venture into restricted areas; Petra's survival depends on visitor responsibility to this 2,000-year-old heritage site."
+        }
+      ]
+    },
+    {
+      "id": "ma_an",
+      "name": "Ma'an",
+      "nameIt": "معان",
+      "lat": 30.1956,
+      "lng": 35.7456,
+      "type": "CITY",
+      "description": "A historic desert town and important junction in southern Jordan, Ma'an serves as a gateway to Petra and Wadi Rum with traditional Jordanian character. The town offers authentic local culture, markets, and serves as a practical hub for travelers exploring the region.",
+      "imageQueries": [
+        "Ma'an Jordan town",
+        "Ma'an desert city"
+      ],
+      "activities": [
+        {
+          "id": "ma_a_1",
+          "text": "Ma'an Old Bazaar",
+          "detail": "Wander through the traditional souq in the town center where local merchants sell spices, textiles, and handicrafts reflecting Bedouin heritage.",
+          "lat": 31.7242,
+          "lng": 35.7433
+        },
+        {
+          "id": "ma_a_2",
+          "text": "Al-Quweira Castle Ruins",
+          "detail": "Explore the remains of this Ottoman-era fortress located on a hilltop overlooking Ma'an, offering views of the surrounding desert landscape.",
+          "lat": 31.7189,
+          "lng": 35.7512
+        },
+        {
+          "id": "ma_a_3",
+          "text": "King Hussein Mosque",
+          "detail": "Visit this prominent local mosque in the town center, an important gathering place that reflects the Islamic character of Ma'an.",
+          "lat": 31.7254,
+          "lng": 35.7441
+        },
+        {
+          "id": "ma_a_4",
+          "text": "Desert Gateway Museum",
+          "detail": "Learn about Ma'an's history as a Nabataean and Ottoman trade junction through local artifacts and exhibits in this small community museum.",
+          "lat": 31.7268,
+          "lng": 35.7389
+        },
+        {
+          "id": "ma_a_5",
+          "text": "Petra Day Trip",
+          "detail": "Use Ma'an as a base to visit Petra, located 60 kilometers northwest, one of the world's most iconic archaeological sites accessible via organized tours."
+        },
+        {
+          "id": "ma_a_6",
+          "text": "Wadi Rum Excursion",
+          "detail": "Arrange a desert safari from Ma'an to Wadi Rum, about 60 kilometers south, for Bedouin camp experiences and dramatic red sandstone formations."
+        }
+      ],
+      "food": [
+        {
+          "id": "ma_a_f1",
+          "text": "Zarb",
+          "detail": "A slow-roasted meat and vegetable dish cooked in a covered pit in the desert sand, traditionally prepared for celebrations and special gatherings."
+        },
+        {
+          "id": "ma_a_f2",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish of lamb cooked in a rich yogurt sauce served with rice and pine nuts, a staple of local hospitality and Bedouin tradition."
+        },
+        {
+          "id": "ma_a_f3",
+          "text": "Ma'an Flatbread with Zaatar",
+          "detail": "Local bakeries serve freshly baked flatbread topped with zaatar herb mixture and olive oil, perfect for breakfast or light meals."
+        },
+        {
+          "id": "ma_a_f4",
+          "text": "Falafel and Hummus",
+          "detail": "Chickpea-based fried balls and creamy chickpea paste served with pita bread and vegetables, available at street vendors throughout the town."
+        },
+        {
+          "id": "ma_a_f5",
+          "text": "Bedouin Coffee and Tea",
+          "detail": "Strong Arabic coffee served in small cups and sweet Bedouin tea, essential social beverages offered in homes and traditional cafes as a sign of welcome."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ma_a_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Many shops and businesses close during the five daily Islamic prayer times, particularly midday prayers, so plan activities accordingly."
+        },
+        {
+          "id": "ma_a_c2",
+          "text": "Greetings Matter",
+          "detail": "Learning basic Arabic greetings like 'Assalamu alaikum' (peace be upon you) and 'Sabah al-khair' (good morning) is warmly appreciated by locals."
+        },
+        {
+          "id": "ma_a_c3",
+          "text": "Conservative Dress Code",
+          "detail": "Wear modest clothing covering shoulders and knees, especially when visiting religious sites or interacting in traditional settings, as a sign of respect."
+        },
+        {
+          "id": "ma_a_c4",
+          "text": "Haggling in Markets",
+          "detail": "Negotiating prices in the bazaar is expected and part of the social experience; avoid paying asking price for crafts, textiles, or souvenirs."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_southern",
+      "name": "Dead Sea (Southern Jordan)",
+      "nameIt": "البحر الميت",
+      "lat": 31.5,
+      "lng": 35.5,
+      "type": "NATURE",
+      "description": "The lowest point on Earth at 1,410 feet below sea level, the Dead Sea offers unique therapeutic experiences with mineral-rich waters and mud treatments. Visitors can float effortlessly, enjoy luxury spa resorts, and witness stunning desert-to-water landscapes.",
+      "imageQueries": [
+        "Dead Sea floating Jordan",
+        "Dead Sea therapeutic waters"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience effortless floating in the hypersaline waters due to their extreme mineral density, allowing visitors to lie back and read without sinking.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_2",
+          "text": "Mineral Mud Treatment",
+          "detail": "Cover your body with therapeutic mineral-rich black mud from the Dead Sea floor, which is believed to have healing and rejuvenating properties for skin.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_3",
+          "text": "Visit Amman Beach Resort",
+          "detail": "Relax at this popular public beach facility offering changing rooms, showers, and affordable access to the Dead Sea waters.",
+          "lat": 31.48,
+          "lng": 35.48
+        },
+        {
+          "id": "dead_4",
+          "text": "Explore Wadi Zarqa Ma'in",
+          "detail": "Hike through this scenic canyon with natural hot springs and freshwater waterfalls that cascade into pools surrounded by desert cliffs.",
+          "lat": 31.72,
+          "lng": 35.62
+        },
+        {
+          "id": "dead_5",
+          "text": "Sunrise or Sunset Desert Viewing",
+          "detail": "Witness dramatic color changes across the desert landscape and the Dead Sea as the sun crosses the horizon, particularly stunning from elevated vantage points.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_6",
+          "text": "Visit Lot's Cave and Memorial",
+          "detail": "Explore the historical and religious site believed to be where the biblical prophet Lot sought refuge, offering views over the Dead Sea valley.",
+          "lat": 31.74,
+          "lng": 35.62
+        },
+        {
+          "id": "dead_7",
+          "text": "Spa and Wellness Treatments",
+          "detail": "Indulge in luxury spa resorts offering Dead Sea salt scrubs, mineral baths, and professional massage using the region's natural therapeutic resources.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_8",
+          "text": "Photography and Nature Observation",
+          "detail": "Capture the otherworldly landscape where desert meets sea, with opportunities to photograph migratory birds and unique halophytic plant life adapted to extreme salinity."
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in yogurt sauce served over rice or flatbread, considered the national dish and widely available at local restaurants."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Zarqa Ma'in Trout",
+          "detail": "Fresh grilled or fried trout sourced from the natural springs of nearby Zarqa Ma'in, often prepared simply with lemon and herbs to highlight its delicate flavor."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Mezze Selection",
+          "detail": "A variety of small appetizers including hummus, baba ghanoush, tabbouleh, and falafel served with fresh pita bread, typical of Jordanian hospitality."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Stuffed Grape Leaves (Warak Enab)",
+          "detail": "Grape leaves filled with seasoned rice, sometimes with ground meat, rolled tightly and steamed, representing traditional Levantine cuisine."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Date Pastries with Jordanian Coffee",
+          "detail": "Sweet pastries filled with dates and nuts served alongside traditional cardamom-spiced Arabic coffee, a common hospitality offering at resorts and local establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Dress Modestly at Public Beaches",
+          "detail": "While therapeutic floating requires swimwear, wear a cover-up when not in the water to respect local Islamic customs, particularly when visiting public beach areas."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Observe Prayer Times",
+          "detail": "Be aware that many restaurants and businesses may close or have limited hours during the five daily prayer times, especially Midday and Afternoon prayers."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Engage with Local Hospitality",
+          "detail": "Jordanian hosts are traditionally generous with welcome and hospitality; accepting offered coffee or tea is customary and appreciated, even if only taking a small amount."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Avoid Touching Your Face After Mud Treatment",
+          "detail": "After applying Dead Sea mud, refrain from touching your face or eyes until rinsing completely, as the high salt concentration can cause significant irritation."
+        }
+      ]
+    },
+    {
+      "id": "tafilah",
+      "name": "Tafilah",
+      "nameIt": "الطفيلة",
+      "lat": 31.7833,
+      "lng": 35.6,
+      "type": "TOWN",
+      "description": "A historic mountain town situated along the ancient King's Highway with Crusader-era ruins and traditional stone architecture. The town offers panoramic views of the surrounding valleys and serves as an excellent base for exploring southern Jordan's archaeological heritage.",
+      "imageQueries": [
+        "Tafilah Jordan mountain town",
+        "Tafilah King's Highway"
+      ],
+      "activities": [
+        {
+          "id": "tafi_1",
+          "text": "Tafilah Castle Ruins",
+          "detail": "Explore the remnants of this Crusader-era fortress perched on the hilltop overlooking the town, offering insights into medieval fortifications and panoramic valley views.",
+          "lat": 31.7236,
+          "lng": 35.6039
+        },
+        {
+          "id": "tafi_2",
+          "text": "King's Highway Trek",
+          "detail": "Hike sections of this ancient trade route that passes through Tafilah, connecting biblical sites and revealing layers of Nabatean, Roman, and Islamic history.",
+          "lat": 31.725,
+          "lng": 35.6
+        },
+        {
+          "id": "tafi_3",
+          "text": "Dana Nature Reserve Visit",
+          "detail": "Day trip to this nearby biosphere reserve featuring dramatic escarpments, hiking trails, and diverse ecosystems within 40 kilometers south of town.",
+          "lat": 31.55,
+          "lng": 35.51
+        },
+        {
+          "id": "tafi_4",
+          "text": "Stone Architecture Walking Tour",
+          "detail": "Wander through Tafilah's old town center to admire traditional Levantine stone houses with vaulted ceilings and characteristic narrow alleyways of Jordanian mountain settlements."
+        },
+        {
+          "id": "tafi_5",
+          "text": "Wadi Mujib Gorge Exploration",
+          "detail": "Experience canyoning and hiking in this dramatic wadi system northeast of Tafilah, featuring natural pools and towering canyon walls carved through limestone."
+        },
+        {
+          "id": "tafi_6",
+          "text": "Local Markets and Souk",
+          "detail": "Browse the traditional marketplace for fresh produce, local herbs, handicrafts, and spices that reflect the region's Bedouin and farming heritage."
+        }
+      ],
+      "food": [
+        {
+          "id": "tafi_f1",
+          "text": "Zarb (Underground Pit-Roasted Meat)",
+          "detail": "Tender lamb or chicken marinated in spices and slow-cooked in an underground pit with vegetables, a traditional Bedouin specialty available at local restaurants."
+        },
+        {
+          "id": "tafi_f2",
+          "text": "Mansaf with Jameed",
+          "detail": "Jordan's national dish of lamb cooked in a tangy yogurt-based sauce made from dried yogurt curds, served with rice and flatbread, particularly authentic in southern mountain towns."
+        },
+        {
+          "id": "tafi_f3",
+          "text": "Tabouleh with Mountain Herbs",
+          "detail": "Fresh parsley salad mixed with bulgur wheat, tomatoes, and locally-foraged wild herbs from the surrounding hills, dressed simply with olive oil and lemon."
+        },
+        {
+          "id": "tafi_f4",
+          "text": "Musakhan (Sumac Chicken)",
+          "detail": "Palestinian-influenced flatbread topped with spiced chicken, caramelized onions, and sumac, a regional favorite reflecting Levantine culinary traditions."
+        },
+        {
+          "id": "tafi_f5",
+          "text": "Fresh Olive Oil and Za'atar Dip",
+          "detail": "Local extra-virgin olive oil combined with dried thyme and sumac blend, served with warm pita bread as a simple but essential taste of southern Jordan's agricultural heritage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tafi_c1",
+          "text": "Respect for Mountain Hospitality",
+          "detail": "Tafilah residents practice traditional Levantine hospitality; accepting offered coffee or tea is important for building rapport, and declining may be considered impolite."
+        },
+        {
+          "id": "tafi_c2",
+          "text": "Modest Dress Expectations",
+          "detail": "As a conservative mountain town, visitors should wear respectful clothing covering shoulders and knees, particularly when visiting historical sites or local homes."
+        },
+        {
+          "id": "tafi_c3",
+          "text": "Friday Community Rhythm",
+          "detail": "Friday is the Islamic holy day when many family-owned businesses close in the afternoon for prayers and family gatherings; plan shopping and meals accordingly."
+        },
+        {
+          "id": "tafi_c4",
+          "text": "Photography Courtesy",
+          "detail": "Always ask permission before photographing local people or entering private spaces; some residents prefer not to be photographed, especially women in traditional dress."
+        }
+      ]
+    },
+    {
+      "id": "shobak_castle",
+      "name": "Shobak Castle",
+      "nameIt": "قلعة الشوبك",
+      "lat": 31.0606,
+      "lng": 35.4517,
+      "type": "LANDMARK",
+      "description": "A 12th-century Crusader fortress perched on a 1,300-meter mountain peak with commanding views over the surrounding desert and valleys. The castle's ruins include towers, dungeons, and a cistern system that reveal medieval military architecture and construction techniques.",
+      "imageQueries": [
+        "Shobak Castle Crusader fortress",
+        "Shobak Castle ruins Jordan"
+      ],
+      "activities": [
+        {
+          "id": "shob_1",
+          "text": "Explore the Keep Tower",
+          "detail": "Climb through the central keep to see arrow slits, the dungeons below, and enjoy panoramic views of the Wadi Araba and Dead Sea from the summit.",
+          "lat": 31.1822,
+          "lng": 35.4556
+        },
+        {
+          "id": "shob_2",
+          "text": "Walk the Castle Walls",
+          "detail": "Trek along the preserved outer fortifications to understand the defensive layout and spot remnants of towers that once guarded this strategic mountain position.",
+          "lat": 31.1822,
+          "lng": 35.4556
+        },
+        {
+          "id": "shob_3",
+          "text": "Visit the Underground Cistern",
+          "detail": "Descend into the medieval water collection system carved into the rock, which supplied the fortress during sieges and reveals ingenious 12th-century engineering.",
+          "lat": 31.1822,
+          "lng": 35.4556
+        },
+        {
+          "id": "shob_4",
+          "text": "Photograph Desert Vistas",
+          "detail": "Capture sweeping views across the Southern Desert, Wadi Araba, and on clear days, the mountains of Israel and Palestine from the 1,300-meter peak.",
+          "lat": 31.1822,
+          "lng": 35.4556
+        },
+        {
+          "id": "shob_5",
+          "text": "Study Medieval Architecture",
+          "detail": "Examine the Crusader building techniques, stone masonry, buttresses, and defensive features that reflect 12th-century military engineering.",
+          "lat": 31.1822,
+          "lng": 35.4556
+        },
+        {
+          "id": "shob_6",
+          "text": "Hike Surrounding Trails",
+          "detail": "Trek through the mountain landscape around the castle to explore wadis and spot local Bedouin settlements in the valleys below.",
+          "lat": 31.1822,
+          "lng": 35.4556
+        }
+      ],
+      "food": [
+        {
+          "id": "shob_f1",
+          "text": "Zarb or Bedouin Lamb",
+          "detail": "Slow-roasted lamb cooked underground in a pit with vegetables, traditionally prepared by local Bedouin guides and served with fresh bread."
+        },
+        {
+          "id": "shob_f2",
+          "text": "Mansaf",
+          "detail": "A Levantine dish of lamb cooked in a yogurt-based sauce with sumac and pine nuts, commonly served at local guest houses near the castle."
+        },
+        {
+          "id": "shob_f3",
+          "text": "Hummus and Fresh Flatbread",
+          "detail": "Creamy chickpea dip drizzled with olive oil, paired with warm pita bread baked in traditional clay ovens in nearby Ma'an villages."
+        },
+        {
+          "id": "shob_f4",
+          "text": "Bedouin Tea with Mint",
+          "detail": "Strong black tea infused with fresh mint leaves, served in small glasses as a refreshing beverage during hot desert days at the fortress."
+        },
+        {
+          "id": "shob_f5",
+          "text": "Falafel and Tahini",
+          "detail": "Deep-fried chickpea patties served with creamy sesame paste and fresh salad, a quick local snack available at small shops in the village below."
+        }
+      ],
+      "culture": [
+        {
+          "id": "shob_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Plan your visit around Islamic prayer times, particularly during Fridays and Ramadan, when local guides and nearby villages may have limited availability."
+        },
+        {
+          "id": "shob_c2",
+          "text": "Dress Modestly and Bring Sun Protection",
+          "detail": "Wear long sleeves, pants, and a hat for both sun protection and cultural respect; the exposed peak offers no shade and temperatures exceed 35°C in summer."
+        },
+        {
+          "id": "shob_c3",
+          "text": "Hire a Local Guide",
+          "detail": "Engaging a Bedouin or local guide from Ma'an enhances your experience with historical context, helps navigate safely, and supports the community economically."
+        },
+        {
+          "id": "shob_c4",
+          "text": "Greet with Arabic Phrases",
+          "detail": "Learning basic Arabic greetings like 'Assalamu alaikum' (peace be upon you) and 'Shukran' (thank you) shows respect and often opens doors to deeper conversations with locals."
+        }
+      ]
+    },
+    {
+      "id": "kerak_castle",
+      "name": "Kerak Castle",
+      "nameIt": "قلعة الكرك",
+      "lat": 31.1839,
+      "lng": 35.6992,
+      "type": "LANDMARK",
+      "description": "One of the largest and most impressive Crusader castles in the Middle East, Kerak dominates the landscape above the town of Al-Karak with 900 years of history. The fortress features intact towers, vaults, and corridors that offer insight into medieval siege warfare and regional conflicts.",
+      "imageQueries": [
+        "Kerak Castle fortress",
+        "Kerak Castle Jordan Crusader"
+      ],
+      "activities": [
+        {
+          "id": "kera_1",
+          "text": "Explore the Main Keep",
+          "detail": "Climb through the massive central tower to view the castle's defensive layout and enjoy panoramic views of the Dead Sea and Moab plateau from the ramparts.",
+          "lat": 31.1839,
+          "lng": 35.7069
+        },
+        {
+          "id": "kera_2",
+          "text": "Walk the Vaulted Corridors",
+          "detail": "Navigate the atmospheric underground passages and storage chambers built into the castle's foundations, which once housed supplies during sieges.",
+          "lat": 31.1839,
+          "lng": 35.7069
+        },
+        {
+          "id": "kera_3",
+          "text": "Visit the Castle Museum",
+          "detail": "View medieval artifacts, weapons, pottery, and historical displays that illustrate the Crusader period and the castle's strategic importance in regional conflicts.",
+          "lat": 31.1839,
+          "lng": 35.7069
+        },
+        {
+          "id": "kera_4",
+          "text": "Photograph from the Overlook",
+          "detail": "Stand on the eastern terraces to capture sweeping views of the Dead Sea Valley, Wadi al-Mojib canyon, and the West Bank across the Jordan River.",
+          "lat": 31.1835,
+          "lng": 35.7085
+        },
+        {
+          "id": "kera_5",
+          "text": "Inspect the Crusader Carvings",
+          "detail": "Study the medieval stonework and Latin inscriptions preserved in the walls and doorways, evidence of 12th-century craftsmanship and occupation.",
+          "lat": 31.1839,
+          "lng": 35.7069
+        },
+        {
+          "id": "kera_6",
+          "text": "Tour Al-Karak Town Market",
+          "detail": "Descend to the medieval town below to browse traditional spice souks and local handicrafts in the narrow streets surrounding the castle base.",
+          "lat": 31.1825,
+          "lng": 35.705
+        }
+      ],
+      "food": [
+        {
+          "id": "kera_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in a rich yogurt sauce served over rice, considered the national dish and especially popular in the Al-Karak region."
+        },
+        {
+          "id": "kera_f2",
+          "text": "Zarb",
+          "detail": "Slow-roasted lamb, chicken, or vegetables cooked in an underground pit with herbs and spices, a Bedouin specialty found in local restaurants near the castle."
+        },
+        {
+          "id": "kera_f3",
+          "text": "Maklouba",
+          "detail": "A layered rice and meat dish cooked upside-down in a pot and flipped onto a platter, a festive Palestinian-Jordanian favorite served with tomato sauce."
+        },
+        {
+          "id": "kera_f4",
+          "text": "Falafel and Hummus",
+          "detail": "Deep-fried chickpea fritters and creamy chickpea paste with tahini, ubiquitous street food and appetizers found throughout Al-Karak's markets and cafés."
+        },
+        {
+          "id": "kera_f5",
+          "text": "Dead Sea Fish (Tilapia)",
+          "detail": "Fresh grilled tilapia caught from the nearby Dead Sea, seasoned simply with lemon and herbs, reflecting the region's proximity to this ancient water body."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kera_c1",
+          "text": "Dress Modestly",
+          "detail": "Wear long pants and covered shoulders when entering the castle and town, as Kerak is in a conservative Muslim region and modest dress shows respect for local customs."
+        },
+        {
+          "id": "kera_c2",
+          "text": "Greet with 'As-salamu alaykum'",
+          "detail": "Use this common Arabic greeting when entering shops or speaking with locals; it is appreciated and helps establish friendly interaction in the community."
+        },
+        {
+          "id": "kera_c3",
+          "text": "Hire a Local Guide",
+          "detail": "English signage is minimal inside Kerak Castle; a local guide from the visitor center enhances understanding of medieval military tactics and regional history."
+        },
+        {
+          "id": "kera_c4",
+          "text": "Visit During Cooler Hours",
+          "detail": "Explore the castle in early morning or late afternoon to avoid the intense midday desert heat; many locals rest during these peak hours."
+        }
+      ]
+    },
+    {
+      "id": "little_petra",
+      "name": "Little Petra",
+      "nameIt": "السيق الصغير",
+      "lat": 30.3722,
+      "lng": 35.4556,
+      "type": "LANDMARK",
+      "description": "A smaller but equally impressive Nabatean site located just north of Petra, featuring carved facades and chambers nestled in canyon walls. This less-crowded alternative offers intimate exploration of Nabatean carving techniques and a more peaceful atmosphere.",
+      "imageQueries": [
+        "Little Petra Jordan",
+        "Siq al-Barid facades"
+      ],
+      "activities": [
+        {
+          "id": "litt_1",
+          "text": "Explore the Siq al-Barid Canyon",
+          "detail": "Walk through the narrow canyon passage that leads into Little Petra, observing water channels carved by the Nabateans into the rock walls.",
+          "lat": 37.4937,
+          "lng": 35.4417
+        },
+        {
+          "id": "litt_2",
+          "text": "Study the Carved Facade Chambers",
+          "detail": "Examine the intricate tomb facades and dwelling chambers cut directly into the canyon walls, showcasing Nabatean architectural precision and artistic skill.",
+          "lat": 37.4944,
+          "lng": 35.4422
+        },
+        {
+          "id": "litt_3",
+          "text": "Visit the Restaurant House Chamber",
+          "detail": "Explore a large carved chamber believed to have been used as a dining hall or gathering space, featuring benches and serving areas built into the rock.",
+          "lat": 37.4948,
+          "lng": 35.4425
+        },
+        {
+          "id": "litt_4",
+          "text": "Photography at Canyon Viewpoints",
+          "detail": "Capture dramatic photographs of the layered canyon walls and carved facades from multiple vantage points within the site.",
+          "lat": 37.4941,
+          "lng": 35.442
+        },
+        {
+          "id": "litt_5",
+          "text": "Hike to Natural Water Cisterns",
+          "detail": "Trek through the canyon to discover ancient Nabatean water storage systems and channels that demonstrate sophisticated desert engineering.",
+          "lat": 37.495,
+          "lng": 35.4428
+        },
+        {
+          "id": "litt_6",
+          "text": "Observe Stone Carving Tool Marks",
+          "detail": "Examine the fine details of chisel and hammer marks visible on chamber walls to understand Nabatean construction techniques firsthand."
+        }
+      ],
+      "food": [
+        {
+          "id": "litt_f1",
+          "text": "Zarb (Bedouin Lamb Feast)",
+          "detail": "Slow-cooked lamb with vegetables and rice buried in hot coals and sand, traditionally prepared by local guides and served in Bedouin-style meals near the site."
+        },
+        {
+          "id": "litt_f2",
+          "text": "Mansaf with Local Yogurt",
+          "detail": "Tender lamb cooked in tangy goat yogurt sauce with dried herbs, served with flatbread and traditionally eaten by hand in communal dining."
+        },
+        {
+          "id": "litt_f3",
+          "text": "Fresh Bedouin Bread and Local Honey",
+          "detail": "Unleavened bread baked over open fires paired with thick local honey from the Petra region, often served as a simple breakfast before exploring."
+        },
+        {
+          "id": "litt_f4",
+          "text": "Herbal Mint and Sage Tea",
+          "detail": "Freshly brewed tea made from locally foraged desert mint and sage, served hot throughout the day as a cooling and digestive beverage."
+        }
+      ],
+      "culture": [
+        {
+          "id": "litt_c1",
+          "text": "Visit Early Morning for Solitude",
+          "detail": "Arrive shortly after opening to experience Little Petra with minimal crowds, allowing for peaceful contemplation and better photography conditions."
+        },
+        {
+          "id": "litt_c2",
+          "text": "Respect Carved Chambers as Sacred Sites",
+          "detail": "The chambers held religious and practical significance to the Nabateans; avoid touching fragile surfaces and treat the site with reverence as an archaeological treasure."
+        },
+        {
+          "id": "litt_c3",
+          "text": "Hire a Local Bedouin Guide",
+          "detail": "Engaging a guide from nearby communities provides authentic insights into Nabatean history, local legends, and ensures support for traditional Bedouin families in the region."
+        },
+        {
+          "id": "litt_c4",
+          "text": "Dress Modestly and Bring Water",
+          "detail": "Wear modest clothing respectful of local Islamic customs and bring at least 2 liters of water per person as shade is limited and summer heat is intense."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Movenpick Resort Petra",
+      "address": "Main Road, Wadi Musa",
+      "neighbourhood": "Wadi Musa",
+      "cuisine": "International",
+      "priceRange": "€€€€",
+      "description": "Upscale resort dining with panoramic views of Petra's canyon landscape and refined Middle Eastern and international cuisine.",
+      "mustOrder": "Zarb (Bedouin-style roasted lamb)",
+      "lat": 30.3269,
+      "lng": 35.4419
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Al-Waha Restaurant",
+      "address": "Tourist Street, Wadi Musa",
+      "neighbourhood": "Wadi Musa",
+      "cuisine": "Jordanian/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Family-run establishment serving authentic Jordanian mezze, grilled meats, and traditional dishes in a casual, welcoming atmosphere.",
+      "mustOrder": "Mansaf (lamb in yogurt sauce)",
+      "lat": 30.3283,
+      "lng": 35.4397
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "The Petra Kitchen",
+      "address": "Wadi Musa Main Street, Wadi Musa",
+      "neighbourhood": "Wadi Musa",
+      "cuisine": "Jordanian",
+      "priceRange": "€€",
+      "description": "Interactive cooking school and restaurant where guests prepare and eat traditional Jordanian meals in a communal setting.",
+      "mustOrder": "Maklouba (upside-down rice and vegetable dish)",
+      "lat": 30.3287,
+      "lng": 35.4407
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Red Rose Restaurant",
+      "address": "Tourist Street, Wadi Musa",
+      "neighbourhood": "Wadi Musa",
+      "cuisine": "Middle Eastern",
+      "priceRange": "€€",
+      "description": "Popular spot offering traditional Jordanian and Levantine cuisine with efficient service and reasonable prices for the tourist area.",
+      "mustOrder": "Falafel wrap with tahini sauce",
+      "lat": 30.3281,
+      "lng": 35.4399
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Basin Restaurant",
+      "address": "Near Petra Entrance, Wadi Musa",
+      "neighbourhood": "Wadi Musa",
+      "cuisine": "International/Jordanian",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant with stone interiors overlooking the basin, serving fusion dishes blending local and international flavors.",
+      "mustOrder": "Petra grilled fish with local herbs",
+      "lat": 30.3275,
+      "lng": 35.4412
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Bedouin Sunset Camp Restaurant",
+      "address": "Desert Road outside Wadi Musa",
+      "neighbourhood": "Wadi Musa",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Desert experience restaurant offering traditional Bedouin cooking in an authentic camp setting with fire-roasted specialties.",
+      "mustOrder": "Zarb cooked in underground oven",
+      "lat": 30.325,
+      "lng": 35.43
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Al-Reef Restaurant",
+      "address": "Main Street, Aqaba",
+      "neighbourhood": "Aqaba City Center",
+      "cuisine": "Seafood/Middle Eastern",
+      "priceRange": "€€€",
+      "description": "Beachfront seafood restaurant with fresh daily catches, grilled preparations, and views of the Red Sea and surrounding desert mountains.",
+      "mustOrder": "Grilled hammour (grouper) with garlic sauce",
+      "lat": 29.5398,
+      "lng": 35.0075
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Yamomoto Restaurant",
+      "address": "Corniche Street, Aqaba",
+      "neighbourhood": "Aqaba Waterfront",
+      "cuisine": "Japanese/Asian Fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary Asian fusion restaurant along the waterfront serving sushi, ramen, and innovative Pan-Asian dishes in modern surroundings.",
+      "mustOrder": "Spicy tuna roll with wasabi aioli",
+      "lat": 29.541,
+      "lng": 35.009
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Floating Restaurant Aqaba",
+      "address": "Port Area, Aqaba",
+      "neighbourhood": "Aqaba Port",
+      "cuisine": "Seafood/International",
+      "priceRange": "€€€€",
+      "description": "Unique floating barge restaurant serving premium seafood and international cuisine with unobstructed Red Sea views.",
+      "mustOrder": "Lobster thermidor with seasonal vegetables",
+      "lat": 29.537,
+      "lng": 35.011
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Philadelphia Restaurant",
+      "address": "Downtown Street, Ma'an",
+      "neighbourhood": "Ma'an City Center",
+      "cuisine": "Jordanian",
+      "priceRange": "€",
+      "description": "No-frills local favorite serving hearty Jordanian breakfasts, shawarma, and grilled meats at budget-friendly prices for working locals.",
+      "mustOrder": "Za'atar manakish (thyme flatbread)",
+      "lat": 30.1903,
+      "lng": 35.7408
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Desert Moon Restaurant",
+      "address": "Main Road, Aqaba",
+      "neighbourhood": "Aqaba South",
+      "cuisine": "Middle Eastern/International",
+      "priceRange": "€€",
+      "description": "Casual desert-themed restaurant with panoramic sunset views, serving mix of Jordanian classics and international comfort food.",
+      "mustOrder": "Mixed grill platter with hummus and pita",
+      "lat": 29.525,
+      "lng": 35.005
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Al-Manara Restaurant",
+      "address": "Tourist Area, Wadi Rum",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Traditional restaurant in the gateway to Wadi Rum serving Bedouin-influenced cuisine and preparations suited for desert travelers.",
+      "mustOrder": "Camel meat with rice and vegetables",
+      "lat": 29.8367,
+      "lng": 35.4269
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Abu Khaled Restaurant",
+      "address": "Market Street, Kerak",
+      "neighbourhood": "Kerak City Center",
+      "cuisine": "Levantine",
+      "priceRange": "€",
+      "description": "Established local institution near the crusader castle serving traditional Levantine fare including kebabs, falafel, and home-style stews.",
+      "mustOrder": "Kerak kebab with charred vegetables",
+      "lat": 31.1833,
+      "lng": 35.7
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Mövenpick Dead Sea Resort",
+      "address": "Dead Sea Shoreline Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "International/Mediterranean",
+      "priceRange": "€€€€",
+      "description": "Luxury resort restaurant at the Dead Sea's lowest point offering Mediterranean and international cuisine with mineral-rich spa facilities.",
+      "mustOrder": "Salt-crusted sea bass with Mediterranean herbs",
+      "lat": 31.4769,
+      "lng": 35.4833
+    }
+  ]
+}

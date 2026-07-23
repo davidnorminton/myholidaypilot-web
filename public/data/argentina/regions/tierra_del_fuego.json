@@ -1,0 +1,1350 @@
+{
+  "id": "tierra_del_fuego",
+  "name": "Tierra del Fuego",
+  "nameIt": "Tierra del Fuego",
+  "capital": "Ushuaia",
+  "lat": -54.8019,
+  "lng": -68.3031,
+  "emoji": "🌍",
+  "colour": "ff4caf50",
+  "boundingBox": {
+    "north": -53.5,
+    "south": -55.5,
+    "east": -66.5,
+    "west": -73.5
+  },
+  "history": "Tierra del Fuego was originally inhabited by indigenous peoples including the Yámana, Selk'nam, and Haush for thousands of years before European contact in the 16th century. The region remained largely isolated and sparsely populated until the late 19th century, when the discovery of gold sparked a brief rush and brought waves of settlers and fortune seekers. The harsh climate and remote location made permanent settlement challenging, but the establishment of sheep estancias and later oil extraction transformed the economy. The territorial division between Argentina and Chile, formalized in 1881, created the modern borders that define Tierra del Fuego today.",
+  "culturalNotes": "Tierra del Fuego embodies a frontier spirit shaped by its extreme isolation and dramatic landscape of windswept steppes, glaciers, and jagged mountains. The region's culture reflects its gaucho and pioneer heritage, with strong traditions of self-reliance, outdoor pursuits like fishing and hiking, and a close connection to the natural world. The indigenous legacy, though much diminished, remains an important part of local identity and cultural memory.",
+  "bestTimeToVisit": "December to February offers the longest daylight hours for exploring the world's southernmost city and glaciers.",
+  "languageNotes": "Spanish is the primary language spoken throughout Tierra del Fuego, with an Argentine accent and regional vocabulary typical of Patagonia. Useful phrases include \"Che, qué tal?\" as a casual greeting and \"boludo\" as a colloquial term of familiarity common in southern Argentine speech.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "ushuaia",
+      "name": "Ushuaia",
+      "nameIt": "Ushuaia",
+      "lat": -54.8019,
+      "lng": -68.303,
+      "type": "CITY",
+      "description": "The southernmost city in Argentina and one of the world's most remote urban centers, nestled between the Andes and the Beagle Channel. It serves as the gateway to Antarctica and offers stunning mountain and sea views, excellent museums, and a vibrant cultural scene.",
+      "imageQueries": [
+        "Ushuaia city Beagle Channel sunset",
+        "Ushuaia southernmost city Argentina harbor"
+      ],
+      "activities": [
+        {
+          "id": "ushu_1",
+          "text": "Beagle Channel Boat Tour",
+          "detail": "Navigate the legendary Beagle Channel to spot sea lions, penguins, and cormorants while passing historic lighthouses and remote islands.",
+          "lat": -54.8019,
+          "lng": -68.3095
+        },
+        {
+          "id": "ushu_2",
+          "text": "Martial Glacier Hike",
+          "detail": "Trek up to the remnants of Martial Glacier in the surrounding Andes for panoramic views of Ushuaia, the channel, and the Dientes de Navarino peaks.",
+          "lat": -54.8097,
+          "lng": -68.4128
+        },
+        {
+          "id": "ushu_3",
+          "text": "Museo del Fin del Mundo",
+          "detail": "Explore this museum housed in the historic Fernández Valdés residence to learn about indigenous Yámana culture, maritime history, and early settlement.",
+          "lat": -54.8035,
+          "lng": -68.3031
+        },
+        {
+          "id": "ushu_4",
+          "text": "Parque Nacional Tierra del Fuego",
+          "detail": "Visit Argentina's southernmost national park featuring pristine forests, glacial lakes, and hiking trails like the Laguna del Glaciar walk.",
+          "lat": -54.9333,
+          "lng": -68.5667
+        },
+        {
+          "id": "ushu_5",
+          "text": "Puerto Natales Day Excursion",
+          "detail": "Take a day trip or overnight journey to Chilean Patagonia to explore Torres del Paine National Park and dramatic fjord landscapes.",
+          "lat": -51.7252,
+          "lng": -72.5149
+        },
+        {
+          "id": "ushu_6",
+          "text": "Museo Maritimo y Museo del Presidio",
+          "detail": "Tour the restored penitentiary complex to see restored cells, maritime artifacts, and learn about the region's convict history and nautical heritage.",
+          "lat": -54.8122,
+          "lng": -68.3689
+        }
+      ],
+      "food": [
+        {
+          "id": "ushu_f1",
+          "text": "Centolla",
+          "detail": "King crab caught fresh from the Beagle Channel, typically served simply grilled or in a rich stew, is Ushuaia's most iconic seafood delicacy."
+        },
+        {
+          "id": "ushu_f2",
+          "text": "Merluza Negra",
+          "detail": "Black hake, a local white fish, is often pan-seared or prepared in traditional Patagonian style with local herbs and served with local mushrooms."
+        },
+        {
+          "id": "ushu_f3",
+          "text": "Cordero Fueguino",
+          "detail": "Tierra del Fuego lamb, raised on windswept steppes, is slow-roasted and tender, typically served with Patagonian wild fruits like calafate berries."
+        },
+        {
+          "id": "ushu_f4",
+          "text": "Empanadas de Centolla",
+          "detail": "King crab-filled pastry turnovers are a popular local street food and restaurant appetizer reflecting the region's maritime bounty."
+        },
+        {
+          "id": "ushu_f5",
+          "text": "Chocolate Fueguino",
+          "detail": "Locally made artisanal chocolate, often infused with Patagonian ingredients like calafate or local honey, is a signature souvenir and treat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ushu_c1",
+          "text": "Weather Preparedness",
+          "detail": "Ushuaia's weather is notoriously unpredictable with rapid changes; locals advise carrying waterproof layers and windbreakers even in summer months."
+        },
+        {
+          "id": "ushu_c2",
+          "text": "Spanish Language Helps",
+          "detail": "While tourism infrastructure exists, speaking basic Spanish opens doors to local restaurants, guides, and authentic interactions beyond the main tourist circuit."
+        },
+        {
+          "id": "ushu_c3",
+          "text": "Respect Indigenous History",
+          "detail": "The region's Yámana people were displaced; visiting museums like Museo del Fin del Mundo with cultural sensitivity honors their legacy and provides crucial context."
+        },
+        {
+          "id": "ushu_c4",
+          "text": "Book Tours in Advance",
+          "detail": "During austral summer (December-February), popular boat tours and park visits fill quickly; advance reservations ensure access to preferred experiences."
+        }
+      ]
+    },
+    {
+      "id": "tierra_del_fuego_national_park",
+      "name": "Tierra del Fuego National Park",
+      "nameIt": "Parque Nacional Tierra del Fuego",
+      "lat": -54.9333,
+      "lng": -67.25,
+      "type": "NATURE",
+      "description": "A pristine wilderness area featuring pristine forests, mountains, rivers, and coastal landscapes at the southern tip of South America. The park offers hiking trails of varying difficulty, wildlife viewing opportunities, and access to the End of the World train station.",
+      "imageQueries": [
+        "Tierra del Fuego National Park hiking trail",
+        "Parque Nacional Tierra del Fuego lagoon forest"
+      ],
+      "activities": [
+        {
+          "id": "tier_1",
+          "text": "Laguna Esmeralda Trek",
+          "detail": "A moderate 9 km round-trip hike through southern beech forest leading to a stunning emerald-colored glacial lake nestled in the mountains.",
+          "lat": -54.5833,
+          "lng": -67.3667
+        },
+        {
+          "id": "tier_2",
+          "text": "End of the World Train",
+          "detail": "A scenic narrow-gauge railway journey through the park following the route of the historic prison transport train, ending at the Pipo River station.",
+          "lat": -54.8333,
+          "lng": -67.6
+        },
+        {
+          "id": "tier_3",
+          "text": "Lapataia Bay Coastal Walk",
+          "detail": "An easy waterfront trail offering views of the Beagle Channel and surrounding mountains, with access to the park's southernmost point and interpretive signage about local ecosystems.",
+          "lat": -54.8389,
+          "lng": -67.5833
+        },
+        {
+          "id": "tier_4",
+          "text": "Río Pipo Salmon Fishing",
+          "detail": "Fly-fishing opportunities for sea-run brown trout and salmon in pristine glacial rivers during the austral summer season.",
+          "lat": -54.85,
+          "lng": -67.65
+        },
+        {
+          "id": "tier_5",
+          "text": "Wildlife Spotting at Bahía Lapataia",
+          "detail": "Observe guanacos, Magellanic woodpeckers, upland geese, and occasionally Andean condors in their natural habitat along the coast.",
+          "lat": -54.8389,
+          "lng": -67.5833
+        },
+        {
+          "id": "tier_6",
+          "text": "Cerro Guanaco Summit Hike",
+          "detail": "A challenging 5-hour trek climbing 600 meters with panoramic views of the Beagle Channel, Navarino Island, and the surrounding valleys.",
+          "lat": -54.6,
+          "lng": -67.5
+        }
+      ],
+      "food": [
+        {
+          "id": "tier_f1",
+          "text": "Centolla (King Crab)",
+          "detail": "The prized southern king crab is prepared simply with butter and lemon to highlight its sweet, delicate meat at local restaurants in nearby Ushuaia."
+        },
+        {
+          "id": "tier_f2",
+          "text": "Trucha Fueguina (Local Trout)",
+          "detail": "Fresh-caught Tierra del Fuego trout served grilled or smoked, showcasing the region's pristine river and lake waters."
+        },
+        {
+          "id": "tier_f3",
+          "text": "Cordero Magallánico (Patagonian Lamb)",
+          "detail": "Slow-roasted lamb raised on Patagonian steppe grasslands, traditionally prepared as asado over an open fire."
+        },
+        {
+          "id": "tier_f4",
+          "text": "Empanadas Fueguinas",
+          "detail": "Savory pastries filled with local beef, wild mushrooms, or seafood, reflecting the region's gaucho and maritime heritage."
+        },
+        {
+          "id": "tier_f5",
+          "text": "Calafate Berries",
+          "detail": "Tart native berries from the southern beech forests served fresh or in jams, teas, and desserts unique to southern Patagonia."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tier_c1",
+          "text": "Respect Park Closure Times",
+          "detail": "The park has restricted daylight hours in winter and specific entrance/exit times year-round; plan hikes carefully and respect ranger guidance."
+        },
+        {
+          "id": "tier_c2",
+          "text": "Leave No Trace Essential",
+          "detail": "The fragile subpolar ecosystem is protected; pack out all waste, stay on marked trails, and avoid disturbing wildlife or vegetation."
+        },
+        {
+          "id": "tier_c3",
+          "text": "Weather Preparedness",
+          "detail": "Sudden weather changes are common in Tierra del Fuego; bring layered clothing, windproof jackets, and be ready to adjust plans within hours."
+        },
+        {
+          "id": "tier_c4",
+          "text": "Spanish Helpful",
+          "detail": "While some tourism services offer English, speaking basic Spanish greatly enhances interactions with rangers and locals in this remote Argentine region."
+        }
+      ]
+    },
+    {
+      "id": "beagle_channel",
+      "name": "Beagle Channel",
+      "nameIt": "Canal Beagle",
+      "lat": -54.85,
+      "lng": -68.5,
+      "type": "COASTAL",
+      "description": "A scenic waterway separating Argentina and Chile, famous for its dramatic fjord landscapes, abundant wildlife, and historical significance as the route of Darwin's voyage. Boat tours offer opportunities to see sea lions, penguins, and remote island settlements.",
+      "imageQueries": [
+        "Beagle Channel boat tour sea lions",
+        "Canal Beagle Ushuaia wildlife cruise"
+      ],
+      "activities": [
+        {
+          "id": "beag_1",
+          "text": "Boat tour to Isla de los Pájaros",
+          "detail": "Visit this bird sanctuary to observe cormorants, skuas, and other seabirds nesting on the rocky outcrops in the middle of the channel.",
+          "lat": -54.8667,
+          "lng": -68.3333
+        },
+        {
+          "id": "beag_2",
+          "text": "Sea lion colony at Isla de los Lobos",
+          "detail": "Cruise past this island to witness hundreds of South American sea lions basking and interacting in their natural habitat.",
+          "lat": -54.8744,
+          "lng": -68.2667
+        },
+        {
+          "id": "beag_3",
+          "text": "Penguin viewing at Isla Martillo",
+          "detail": "Explore the shores of this island to see Magellanic and Gentoo penguins during breeding season, particularly from October to March.",
+          "lat": -54.8556,
+          "lng": -68.3389
+        },
+        {
+          "id": "beag_4",
+          "text": "Cape Horn expedition cruise",
+          "detail": "Take a full-day boat tour from Ushuaia through the Beagle Channel to the remote Cape Horn, passing through dramatic fjords and Southern Ocean waters.",
+          "lat": -55.9878,
+          "lng": -67.2667
+        },
+        {
+          "id": "beag_5",
+          "text": "Estancia Harberton historic ranch visit",
+          "detail": "Visit this working estancia founded in 1886 on the eastern end of the channel to learn about pioneer history and see traditional Patagonian ranching.",
+          "lat": -54.8833,
+          "lng": -67.2333
+        },
+        {
+          "id": "beag_6",
+          "text": "Kayaking among glacier-fed coves",
+          "detail": "Paddle through pristine coves and under hanging glaciers to experience the fjord landscape intimately and spot wildlife from water level.",
+          "lat": -54.85,
+          "lng": -68.35
+        },
+        {
+          "id": "beag_7",
+          "text": "Trekking to Laguna del Diablo",
+          "detail": "Hike through southern beech forest to this remote glacial lake accessible from the Beagle Channel area, offering mountain and waterway views.",
+          "lat": -54.8667,
+          "lng": -68.4167
+        }
+      ],
+      "food": [
+        {
+          "id": "beag_f1",
+          "text": "Centolla (King Crab)",
+          "detail": "This massive southern king crab, grilled whole or in stews, is the signature dish of Tierra del Fuego and best enjoyed in waterfront restaurants in Ushuaia overlooking the channel."
+        },
+        {
+          "id": "beag_f2",
+          "text": "Merluza negra (Patagonian toothfish)",
+          "detail": "A delicate white fish endemic to sub-Antarctic waters, typically pan-seared or baked, representing the channel's rich marine resources."
+        },
+        {
+          "id": "beag_f3",
+          "text": "Calafate berry desserts",
+          "detail": "Sweet treats made from the native calafate berry found in Patagonian forests, served as jams, ice cream, or in traditional patagonian pies."
+        },
+        {
+          "id": "beag_f4",
+          "text": "Guanaco steak",
+          "detail": "Lean meat from the wild guanaco relative of llamas, prepared asado-style and reflecting the region's gaucho and hunting traditions."
+        },
+        {
+          "id": "beag_f5",
+          "text": "Seafood chowder (Cazuela de mariscos)",
+          "detail": "A warming blend of local mussels, clams, and fish served in a creamy broth, perfect after cold boat tours on the channel."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beag_c1",
+          "text": "Book tours well in advance",
+          "detail": "Weather in the Beagle Channel is unpredictable and affects boat scheduling, so reserve excursions early in your visit rather than day-of to secure spots."
+        },
+        {
+          "id": "beag_c2",
+          "text": "Respect Darwin's legacy",
+          "detail": "The channel's historical significance to HMS Beagle and Charles Darwin's voyage is deeply valued locally; guides appreciate knowledge of this connection."
+        },
+        {
+          "id": "beag_c3",
+          "text": "Dress in heavy layers",
+          "detail": "Even in summer, wind and cold water make multiple waterproof and insulated layers essential; locals and tour operators expect visitors prepared for harsh sub-Antarctic conditions."
+        },
+        {
+          "id": "beag_c4",
+          "text": "Learn basic Spanish",
+          "detail": "While some guides speak English, many locals on remote settlements and boat crews speak primarily Spanish, and effort to communicate respectfully enhances the experience."
+        }
+      ]
+    },
+    {
+      "id": "isla_de_los_pajaros",
+      "name": "Island of the Birds",
+      "nameIt": "Isla de los Pájaros",
+      "lat": -54.8667,
+      "lng": -68.5333,
+      "type": "ISLAND",
+      "description": "A small island in the Beagle Channel teeming with cormorants, albatrosses, and other seabirds in their natural habitat. It's typically visited on boat tours from Ushuaia and provides excellent opportunities for wildlife photography and observation.",
+      "imageQueries": [
+        "Isla de los Pájaros Beagle Channel birds",
+        "Island of the Birds Ushuaia cormorants"
+      ],
+      "activities": [
+        {
+          "id": "isla_1",
+          "text": "Cormorant Colony Observation",
+          "detail": "Watch thousands of rock cormorants nesting on the island's rocky outcrops, with guided boat tours providing close views of their distinctive diving behavior and nesting sites.",
+          "lat": -54.8667,
+          "lng": -68.5833
+        },
+        {
+          "id": "isla_2",
+          "text": "Albatross and Petrel Photography",
+          "detail": "Capture images of wandering albatrosses, black-browed albatrosses, and various petrel species in their natural breeding habitat with excellent lighting conditions from the Beagle Channel.",
+          "lat": -54.8667,
+          "lng": -68.5833
+        },
+        {
+          "id": "isla_3",
+          "text": "Wildlife Identification with Naturalist Guides",
+          "detail": "Join expert-led boat tours that identify cormorants, steamer ducks, kelp geese, and marine mammals like sea lions and Commerson's dolphins in the surrounding waters.",
+          "lat": -54.8667,
+          "lng": -68.5833
+        },
+        {
+          "id": "isla_4",
+          "text": "Bird Behavior Study",
+          "detail": "Observe courtship displays, nesting rituals, and feeding patterns of endemic and migratory seabird species from designated viewing areas on the boat tour route."
+        },
+        {
+          "id": "isla_5",
+          "text": "Beagle Channel Navigation",
+          "detail": "Experience the historic waterway where Darwin sailed, passing through dramatic Fuegian landscapes while learning about the island's geological formation and maritime heritage."
+        }
+      ],
+      "food": [
+        {
+          "id": "isla_f1",
+          "text": "Centolla (King Crab)",
+          "detail": "This prized local crustacean from the cold Beagle Channel waters is served grilled or in stews at Ushuaia restaurants before or after your island tour."
+        },
+        {
+          "id": "isla_f2",
+          "text": "Trucha Ahumada (Smoked Trout)",
+          "detail": "Tierra del Fuego's cold rivers produce excellent trout, often smoked and served as a local specialty in Ushuaia's waterfront restaurants near the tour departure points."
+        },
+        {
+          "id": "isla_f3",
+          "text": "Cordero Patagónico (Patagonian Lamb)",
+          "detail": "Grass-fed lamb from the Tierra del Fuego region is a signature dish served in local restaurants, known for its tender meat and distinctive flavor from the southern pastures."
+        },
+        {
+          "id": "isla_f4",
+          "text": "Empanadas de Mariscos",
+          "detail": "These seafood-filled pastries featuring local shellfish and fish are common grab-and-go options in Ushuaia before embarking on island tours."
+        }
+      ],
+      "culture": [
+        {
+          "id": "isla_c1",
+          "text": "Dress for Extreme Weather",
+          "detail": "Bring waterproof jackets, thermal layers, and windproof outerwear, as Beagle Channel conditions can change rapidly with strong winds and cold temperatures even in summer."
+        },
+        {
+          "id": "isla_c2",
+          "text": "Respect Wildlife Distance Regulations",
+          "detail": "Guides enforce strict distance rules to protect nesting birds; keep noise levels low and never approach animals directly to ensure their natural behavior remains undisturbed."
+        },
+        {
+          "id": "isla_c3",
+          "text": "Book Tours in Advance",
+          "detail": "Island visits are only accessible via licensed tour operators from Ushuaia; booking ahead ensures availability and access to experienced naturalist guides who provide cultural and ecological context."
+        },
+        {
+          "id": "isla_c4",
+          "text": "Understand Yámana Heritage",
+          "detail": "The island's waters were home to the Yámana people for millennia; many Ushuaia tours reference this indigenous history and the region's importance to early maritime exploration."
+        }
+      ]
+    },
+    {
+      "id": "estancia_harberton",
+      "name": "Estancia Harberton",
+      "nameIt": "Estancia Harberton",
+      "lat": -54.8833,
+      "lng": -67.2833,
+      "type": "LANDMARK",
+      "description": "A historic sheep farm and the oldest estancia in Tierra del Fuego, founded in 1886 and still operating as a working ranch. Visitors can experience authentic Patagonian ranch life, enjoy traditional meals, and access nearby hiking and boat tours through pristine coastal landscapes.",
+      "imageQueries": [
+        "Estancia Harberton historic ranch Tierra del Fuego",
+        "Estancia Harberton sheep farm Beagle Channel"
+      ],
+      "activities": [
+        {
+          "id": "esta_1",
+          "text": "Guided Ranch Tour",
+          "detail": "Walk through the working estancia to learn about sheep farming, historic buildings, and daily ranch operations that have continued since 1886.",
+          "lat": -54.8847,
+          "lng": -67.2469
+        },
+        {
+          "id": "esta_2",
+          "text": "Beagle Channel Boat Excursion",
+          "detail": "Take a guided boat tour from the estancia across the Beagle Channel to spot sea lions, penguins, and cormorants in their natural habitat.",
+          "lat": -54.8847,
+          "lng": -67.2469
+        },
+        {
+          "id": "esta_3",
+          "text": "Coastal Hiking Trails",
+          "detail": "Hike the nearby trails along the Beagle Channel shoreline with views of pristine Patagonian landscapes, forests, and distant mountains.",
+          "lat": -54.8847,
+          "lng": -67.2469
+        },
+        {
+          "id": "esta_4",
+          "text": "Museum Visit",
+          "detail": "Explore the on-site museum housing artifacts from the estancia's 140-year history, indigenous Yámana culture, and maritime heritage.",
+          "lat": -54.8847,
+          "lng": -67.2469
+        },
+        {
+          "id": "esta_5",
+          "text": "Bird Watching at Harberton",
+          "detail": "Observe Magellanic woodpeckers, southern caracaras, and endemic Tierra del Fuego bird species throughout the estancia grounds and coastal areas.",
+          "lat": -54.8847,
+          "lng": -67.2469
+        },
+        {
+          "id": "esta_6",
+          "text": "Photography at Sunset Point",
+          "detail": "Capture golden-hour images of the Beagle Channel, surrounding mountains, and wildlife from designated viewpoints across the property."
+        }
+      ],
+      "food": [
+        {
+          "id": "esta_f1",
+          "text": "Cordero Asado (Roasted Lamb)",
+          "detail": "Tender lamb slow-roasted over an open fire using traditional Patagonian methods, served with the estancia's own grass-fed beef."
+        },
+        {
+          "id": "esta_f2",
+          "text": "Traditional Estancia Lunch",
+          "detail": "Multi-course meal featuring locally raised lamb, fresh vegetables, homemade bread, and regional Fuegian specialties served family-style."
+        },
+        {
+          "id": "esta_f3",
+          "text": "Centolla (King Crab)",
+          "detail": "Fresh king crab caught from nearby coastal waters and prepared simply to highlight the delicate meat's natural flavor."
+        },
+        {
+          "id": "esta_f4",
+          "text": "Calafate Berry Desserts",
+          "detail": "Sweet treats made with locally harvested calafate berries, including jams, pies, and traditional Argentine desserts unique to Tierra del Fuego."
+        },
+        {
+          "id": "esta_f5",
+          "text": "Homemade Bread and Preserves",
+          "detail": "Freshly baked bread prepared daily at the estancia served with house-made jams and spreads made from regional fruits."
+        }
+      ],
+      "culture": [
+        {
+          "id": "esta_c1",
+          "text": "Respect Working Hours",
+          "detail": "The estancia remains an active sheep ranch, so visits are scheduled around ranch operations and it's important to follow guide instructions for safety."
+        },
+        {
+          "id": "esta_c2",
+          "text": "Learn Estancia History",
+          "detail": "Understanding the founding family's legacy and the estancia's role in settling Tierra del Fuego enriches appreciation for the authentic experience offered."
+        },
+        {
+          "id": "esta_c3",
+          "text": "Dress for Patagonian Weather",
+          "detail": "Wind and cold are constant in Tierra del Fuego even in summer, so layered clothing and waterproof jackets are essential year-round."
+        },
+        {
+          "id": "esta_c4",
+          "text": "Book Ahead Year-Round",
+          "detail": "Estancia Harberton operates seasonally with limited capacity, requiring advance reservations for tours, meals, and boat excursions."
+        }
+      ]
+    },
+    {
+      "id": "laguna_de_los_tempanos",
+      "name": "Laguna de los Témpanos",
+      "nameIt": "Laguna de los Témpanos",
+      "lat": -54.35,
+      "lng": -71.8833,
+      "type": "NATURE",
+      "description": "A glacial lake in the southern part of Tierra del Fuego where icebergs calve from surrounding glaciers into turquoise waters. The dramatic landscape and the chance to see floating ice makes it a spectacular and unique destination.",
+      "imageQueries": [
+        "Laguna de los Témpanos icebergs glacier",
+        "Tempanos lagoon Tierra del Fuego turquoise water"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Iceberg Viewing by Boat",
+          "detail": "Take a guided boat tour across the turquoise glacial lake to observe icebergs calving from the surrounding glaciers and drift among the floating ice formations.",
+          "lat": -53.1583,
+          "lng": -71.3167
+        },
+        {
+          "id": "lagu_2",
+          "text": "Glacier Trekking",
+          "detail": "Hike on the adjacent glaciers with a guide to experience the ice up close, walk through crevasses, and witness the dynamic process of glacier movement.",
+          "lat": -53.16,
+          "lng": -71.32
+        },
+        {
+          "id": "lagu_3",
+          "text": "Photography of Turquoise Waters",
+          "detail": "Capture the striking contrast between the brilliant turquoise glacial meltwater and white icebergs, a photographer's paradise especially during golden hour.",
+          "lat": -53.1583,
+          "lng": -71.3167
+        },
+        {
+          "id": "lagu_4",
+          "text": "Shoreline Walking",
+          "detail": "Walk along the rocky shores of the lagoon to observe glacial formations, wildlife, and find vantage points for viewing the lake and surrounding peaks."
+        },
+        {
+          "id": "lagu_5",
+          "text": "Wildlife Observation",
+          "detail": "Look for Andean condors, guanacos, and occasionally other Patagonian fauna in the surrounding steppe landscape near the lagoon."
+        },
+        {
+          "id": "lagu_6",
+          "text": "Sunset Viewing",
+          "detail": "Experience the dramatic lighting of the glaciers and icebergs at sunset when the landscape glows with warm hues reflecting off the turquoise water."
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Cordero Patagónico",
+          "detail": "Grilled Patagonian lamb, the regional specialty, typically served with simple preparation to highlight the meat's quality from the local steppe herds."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Centolla",
+          "detail": "King crab fresh from nearby waters, often prepared simply grilled or in traditional stews that showcase this iconic Tierra del Fuego delicacy."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Empanadas de Mariscos",
+          "detail": "Pastry pockets filled with local seafood such as crab and mussels, reflecting the region's maritime heritage and available fresh catch."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Guiso de Cordero",
+          "detail": "Slow-cooked lamb stew with potatoes and Patagonian vegetables, warming and hearty for the cold climate of Tierra del Fuego."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Weather Changes Rapidly",
+          "detail": "Bring multiple layers and waterproof gear as conditions can shift dramatically within hours, with wind, fog, and sudden weather transitions common in southern Patagonia."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Book Tours in Advance",
+          "detail": "During peak season (November to March), boat and glacier tours fill quickly; arrange excursions ahead through local operators in Ushuaia or Rio Grande."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Respect Indigenous History",
+          "detail": "The region was home to the Yámana people; acknowledge this heritage and support local guides who share knowledge of the land and its original inhabitants."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Arrive Early in the Day",
+          "detail": "Lagoon visibility and weather conditions are typically best in morning hours before afternoon winds increase; plan your visit accordingly."
+        }
+      ]
+    },
+    {
+      "id": "rio_pipo",
+      "name": "Río Pipo",
+      "nameIt": "Río Pipo",
+      "lat": -54.805,
+      "lng": -68.39,
+      "type": "NATURE",
+      "description": "A scenic river near Ushuaia popular for fly-fishing and hiking, flowing through Nothofagus beech forests at the edge of the Southern Patagonian wilderness. The river valley offers excellent trails and pristine natural scenery accessible from the city.",
+      "imageQueries": [
+        "Río Pipo fishing Ushuaia river",
+        "Rio Pipo forest hike Tierra del Fuego"
+      ],
+      "activities": [
+        {
+          "id": "rio__1",
+          "text": "Fly-Fishing for Southern Brook Trout",
+          "detail": "Wade into the clear, cold waters of Río Pipo to catch introduced brook trout and native Patagonian species in their natural habitat.",
+          "lat": -54.8127,
+          "lng": -68.2938
+        },
+        {
+          "id": "rio__2",
+          "text": "Laguna Negra Trail Hike",
+          "detail": "Trek through Nothofagus beech forest on a moderate 6-hour round-trip trail that ascends to a stunning dark glacial lake with mountain views.",
+          "lat": -54.8234,
+          "lng": -68.2845
+        },
+        {
+          "id": "rio__3",
+          "text": "Río Pipo Valley Riverside Walk",
+          "detail": "Stroll along the riverbanks through lenga beech groves, spotting native Magellanic woodpeckers and enjoying views of untouched Patagonian landscape.",
+          "lat": -54.8156,
+          "lng": -68.2967
+        },
+        {
+          "id": "rio__4",
+          "text": "Photography at Beech Forest Viewpoints",
+          "detail": "Capture the autumn colors of Nothofagus forests or snow-capped peaks by positioning yourself at elevated forest clearings along the valley.",
+          "lat": -54.8089,
+          "lng": -68.3012
+        },
+        {
+          "id": "rio__5",
+          "text": "Picnicking with Fresh Mountain Water",
+          "detail": "Pack a lunch and rest by crystalline pools in the river valley where you can fill water bottles directly from pristine Patagonian springs.",
+          "lat": -54.8201,
+          "lng": -68.2876
+        },
+        {
+          "id": "rio__6",
+          "text": "Bird-Watching for Austral Species",
+          "detail": "Observe endemic birds including the Magellanic woodpecker, Patagonian sierra finch, and Andean condors soaring above the forested valley."
+        }
+      ],
+      "food": [
+        {
+          "id": "rio__f1",
+          "text": "Trucha a la Patagonia",
+          "detail": "Fresh-caught local trout, typically grilled whole or filleted with butter, lemons, and wild herbs sourced from Ushuaia restaurants specializing in river cuisine."
+        },
+        {
+          "id": "rio__f2",
+          "text": "Asado Fueguino",
+          "detail": "Slow-roasted lamb or beef prepared over open flame, a Tierra del Fuego tradition often enjoyed at riverside lodges and local estancias near the region."
+        },
+        {
+          "id": "rio__f3",
+          "text": "Calafate Berry Jam and Desserts",
+          "detail": "Wild Patagonian calafate berries preserved as jams and used in pastries and chocolate desserts, reflecting the region's indigenous and settler food heritage."
+        },
+        {
+          "id": "rio__f4",
+          "text": "Centolla King Crab Soup",
+          "detail": "Rich, creamy soup made with locally-harvested southern king crab, a signature dish in Ushuaia restaurants frequented by visitors to Río Pipo."
+        },
+        {
+          "id": "rio__f5",
+          "text": "Pan Casero with Local Cheese",
+          "detail": "Rustic homemade bread paired with artisanal cheeses from Patagonian dairies, often served at small cafés in the Ushuaia area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rio__c1",
+          "text": "Respect Fly-Fishing Regulations",
+          "detail": "Argentine law requires a fishing permit (obtainable in Ushuaia) and enforces catch limits; only fly-fishing is permitted in certain sections to preserve the delicate ecosystem."
+        },
+        {
+          "id": "rio__c2",
+          "text": "Dress for Extreme Weather Changes",
+          "detail": "Patagonian weather shifts rapidly; layers, waterproof jackets, and wind-resistant gear are essential even during mild-looking days on the trail."
+        },
+        {
+          "id": "rio__c3",
+          "text": "Arrive Early in Peak Season",
+          "detail": "October through March are busiest; starting hikes and fishing expeditions at dawn helps avoid crowds and maximizes daylight in this southern latitude."
+        },
+        {
+          "id": "rio__c4",
+          "text": "Leave No Trace Ethic",
+          "detail": "Locals and guides emphasize pristine wilderness values; pack out all waste, stay on marked trails, and avoid disturbing nesting birds or riparian vegetation."
+        }
+      ]
+    },
+    {
+      "id": "laguna_esmeralda",
+      "name": "Laguna Esmeralda",
+      "nameIt": "Laguna Esmeralda",
+      "lat": -54.8167,
+      "lng": -68.3667,
+      "type": "NATURE",
+      "description": "A stunning emerald-colored alpine lake surrounded by jagged peaks and offering one of the most popular day hikes from Ushuaia. The moderate trek through beech forests rewards hikers with breathtaking panoramic views of the Beagle Channel and surrounding mountains.",
+      "imageQueries": [
+        "Laguna Esmeralda emerald lake hiking Ushuaia",
+        "Laguna Esmeralda trail mountains Tierra del Fuego"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Laguna Esmeralda Summit Hike",
+          "detail": "Trek the moderate 9 km round-trip trail through southern beech forest to reach the emerald alpine lake at approximately 600 meters elevation with panoramic views of jagged peaks.",
+          "lat": -54.8039,
+          "lng": -68.3856
+        },
+        {
+          "id": "lagu_2",
+          "text": "Beagle Channel Viewpoint",
+          "detail": "From the lake's shores, enjoy unobstructed vistas of the Beagle Channel and distant Chilean peaks across the water, especially striking in clear afternoon light.",
+          "lat": -54.8039,
+          "lng": -68.3856
+        },
+        {
+          "id": "lagu_3",
+          "text": "Photography at Peak Light",
+          "detail": "Capture the distinctive emerald coloring of the glacially-fed lake during golden hour when mineral-rich water reflects the afternoon sun most brilliantly.",
+          "lat": -54.8039,
+          "lng": -68.3856
+        },
+        {
+          "id": "lagu_4",
+          "text": "Forest Botany Walk",
+          "detail": "Identify lenga and ñire beech species, southern fagus trees, and endemic Fuegian flora along the well-marked trail during the hike.",
+          "lat": -54.8039,
+          "lng": -68.3856
+        },
+        {
+          "id": "lagu_5",
+          "text": "Picnic Lakeside",
+          "detail": "Pack local provisions and enjoy a meal on the rocky shores of Laguna Esmeralda while surrounded by jagged mountain peaks.",
+          "lat": -54.8039,
+          "lng": -68.3856
+        },
+        {
+          "id": "lagu_6",
+          "text": "Wildlife Observation",
+          "detail": "Watch for Magellanic woodpeckers, southern caracaras, and occasionally guanacos in the beech forest and alpine meadows around the lake."
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Centolla (King Crab)",
+          "detail": "A signature Fuegian delicacy harvested from the Beagle Channel, typically served steamed or grilled in Ushuaia restaurants before or after your hike."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Trucha Ahumada (Smoked Trout)",
+          "detail": "Locally-caught trout from Tierra del Fuego's pristine rivers and lakes, smoked and available at regional markets and lodges."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Cordero Fuegino (Patagonian Lamb)",
+          "detail": "Tender lamb raised on Fuegian grasslands, typically grilled or slow-cooked and served in Ushuaia establishments."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Calafate Berry Desserts",
+          "detail": "Native purple berries from southern Patagonia made into jams, pastries, and desserts available in local shops as trail snacks."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Empanadas Caseras",
+          "detail": "Traditional Argentine hand-held pastries filled with lamb, beef, or cheese, readily available at Ushuaia bakeries for trail provisions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Start Early for Weather",
+          "detail": "Tierra del Fuego weather changes rapidly; begin your hike before 8 AM to ensure adequate daylight and to avoid afternoon wind and cloud cover."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Respect the Beech Forest",
+          "detail": "The southern beech forest is protected; stay on marked trails, take all trash with you, and avoid picking plants or disturbing wildlife in this delicate ecosystem."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Layer Your Clothing",
+          "detail": "Temperatures at the lake drop significantly compared to Ushuaia; locals and experienced hikers recommend waterproof jackets and thermal layers year-round."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Check with Local Guides",
+          "detail": "Many Ushuaia outfitters offer guided hikes with expert knowledge of flora, history, and safe route-finding; hiring a local guide supports the community."
+        }
+      ]
+    },
+    {
+      "id": "museo_maritimo",
+      "name": "Maritime Museum",
+      "nameIt": "Museo Marítimo de Ushuaia",
+      "lat": -54.8111,
+      "lng": -68.3056,
+      "type": "LANDMARK",
+      "description": "Located in a restored prison building in Ushuaia, this museum documents the maritime history of Tierra del Fuego, famous shipwrecks, and the region's exploration. It provides essential historical context for understanding the dramatic and often perilous relationship between the region and the sea.",
+      "imageQueries": [
+        "Museo Marítimo Ushuaia prison building",
+        "Maritime Museum Ushuaia shipwreck history"
+      ],
+      "activities": [
+        {
+          "id": "muse_1",
+          "text": "Explore the Prison Cell Blocks",
+          "detail": "Walk through the restored cellblocks of the former Presidio de Ushuaia to see how prisoners lived while learning about the building's dual history as both prison and museum."
+        },
+        {
+          "id": "muse_2",
+          "text": "Study the Shipwreck Exhibits",
+          "detail": "View detailed displays and artifacts from famous wrecks like the Monte Cervantes and San Juan, which illustrate the treacherous maritime conditions around Cape Horn.",
+          "lat": -54.8019,
+          "lng": -68.2965
+        },
+        {
+          "id": "muse_3",
+          "text": "Examine Maritime Navigation Instruments",
+          "detail": "Observe historical compasses, sextants, charts, and navigation tools used by explorers and sailors who charted Tierra del Fuego's coastline."
+        },
+        {
+          "id": "muse_4",
+          "text": "Review Yamana Indigenous Exhibits",
+          "detail": "Learn about the Yamana people's sophisticated maritime culture and their canoe-based survival in the region before European contact."
+        },
+        {
+          "id": "muse_5",
+          "text": "Watch Maritime Documentary Films",
+          "detail": "Attend screenings about polar exploration, naval history, and the harsh realities of seafaring in sub-Antarctic waters shown in the museum theater."
+        },
+        {
+          "id": "muse_6",
+          "text": "Visit the Museum Shop",
+          "detail": "Browse books, maps, and maritime-themed souvenirs that provide deeper context about the region's exploration and shipping history."
+        }
+      ],
+      "food": [
+        {
+          "id": "muse_f1",
+          "text": "Centolla (King Crab)",
+          "detail": "Succulent spider crab harvested from the Beagle Channel, typically served grilled or in stews at local restaurants near the waterfront."
+        },
+        {
+          "id": "muse_f2",
+          "text": "Fresh Merluza (Hake)",
+          "detail": "Locally caught white fish prepared simply grilled or pan-seared, reflecting the region's active fishing heritage."
+        },
+        {
+          "id": "muse_f3",
+          "text": "Calafate Berry Desserts",
+          "detail": "Sweet treats and jams made from the native calafate berry, a local specialty often found in museum cafés and nearby shops."
+        },
+        {
+          "id": "muse_f4",
+          "text": "Lamb Asado",
+          "detail": "Grilled Patagonian lamb, a regional staple reflecting the area's pastoral traditions and often served at dinner in Ushuaia."
+        },
+        {
+          "id": "muse_f5",
+          "text": "Beagle Channel Mussels",
+          "detail": "Fresh mussels harvested from the strait and prepared in white wine or tomato-based sauces at waterfront establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "muse_c1",
+          "text": "Respect the Prison's Solemn History",
+          "detail": "The building held dangerous criminals and political prisoners; approach exhibits with reverence and read placards carefully to honor those who suffered there."
+        },
+        {
+          "id": "muse_c2",
+          "text": "Book Timed Entry in Advance",
+          "detail": "The museum has limited daily capacity and operates on scheduled tours, especially during peak tourist season (December to February), so reserve tickets ahead."
+        },
+        {
+          "id": "muse_c3",
+          "text": "Dress Warmly Year-Round",
+          "detail": "Ushuaia's weather is unpredictable and cold even in summer; the museum building lacks extensive heating, so bring layers even during brief visits."
+        },
+        {
+          "id": "muse_c4",
+          "text": "Allow 2–3 Hours for Full Experience",
+          "detail": "The exhibits are dense and multilingual, and rushing through diminishes appreciation of the maritime narratives and historical artifacts on display."
+        }
+      ]
+    },
+    {
+      "id": "cerro_castor",
+      "name": "Cerro Castor",
+      "nameIt": "Cerro Castor",
+      "lat": -54.7,
+      "lng": -68.4333,
+      "type": "NATURE",
+      "description": "The southernmost ski resort in the world, operating during Southern Hemisphere winters with views of the Beagle Channel and surrounding Patagonian landscape. Even in summer, it offers excellent hiking and an alpine chairlift experience with panoramic vistas.",
+      "imageQueries": [
+        "Cerro Castor ski resort Ushuaia",
+        "Cerro Castor southernmost ski mountain Tierra del Fuego"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Alpine Chairlift Ride",
+          "detail": "Ascend the mountain via chairlift year-round to access panoramic views of the Beagle Channel, Ushuaia valley, and Chilean peaks across the water.",
+          "lat": -54.6667,
+          "lng": -68.4167
+        },
+        {
+          "id": "cerr_2",
+          "text": "Winter Skiing and Snowboarding",
+          "detail": "Experience the world's southernmost ski resort with varied terrain runs during the June to October Southern Hemisphere season.",
+          "lat": -54.6667,
+          "lng": -68.4167
+        },
+        {
+          "id": "cerr_3",
+          "text": "Summer Hiking Trails",
+          "detail": "Explore well-maintained alpine hiking paths through Patagonian flora with views of Tierra del Fuego's dramatic landscape during warmer months.",
+          "lat": -54.6667,
+          "lng": -68.4167
+        },
+        {
+          "id": "cerr_4",
+          "text": "Beagle Channel Viewpoint",
+          "detail": "Visit the summit or mid-mountain vantage points for unobstructed sightings of the historic Beagle Channel where Darwin once sailed.",
+          "lat": -54.6667,
+          "lng": -68.4167
+        },
+        {
+          "id": "cerr_5",
+          "text": "Mountain Biking",
+          "detail": "Ride designated trails down the mountainside during summer and autumn for an adrenaline experience with southern Patagonian vistas.",
+          "lat": -54.6667,
+          "lng": -68.4167
+        },
+        {
+          "id": "cerr_6",
+          "text": "Wildlife Spotting",
+          "detail": "Watch for Patagonian guanacos, Magellanic woodpeckers, and other native fauna along the hiking trails and from chairlift ascents."
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Cordero Magallánico",
+          "detail": "Slow-roasted Patagonian lamb seasoned with Fuegian herbs is a regional staple found at mountain lodges and Ushuaia restaurants near Cerro Castor."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Centolla a la Centolla",
+          "detail": "King crab prepared with cream, cheese, and local spices represents Tierra del Fuego's prized seafood tradition from nearby coastal waters."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Trucha Ahumada",
+          "detail": "Smoked wild trout caught in Patagonian rivers and streams offers a delicate, locally-sourced protein commonly served at resort cafés."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Empanadas Fueguinas",
+          "detail": "Hand-held pastries filled with lamb, onions, and regional seasonings provide convenient, warming sustenance for skiers and hikers."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Calafate Berry Desserts",
+          "detail": "Native Antarctic calafate berries are transformed into jams, pies, and chocolates sold at the resort and throughout Ushuaia."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Southern Hemisphere Seasons Reversed",
+          "detail": "Plan ski trips for June through October and summer activities for November through April, opposite the Northern Hemisphere calendar."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Extreme Weather Preparedness",
+          "detail": "Winds can exceed 50 km/h and weather changes rapidly; always carry multiple layers and check conditions before ascending the mountain."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Spanish as Primary Language",
+          "detail": "While some staff speak English, learning basic Spanish phrases enhances interaction with locals and improves the mountain experience."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "End-of-the-World Ethos",
+          "detail": "Ushuaia and Cerro Castor embody a pioneering, resilient spirit; locals appreciate respectful visitors who embrace the remote, rugged landscape rather than expect urban amenities."
+        }
+      ]
+    },
+    {
+      "id": "fin_del_mundo_train",
+      "name": "End of the World Train",
+      "nameIt": "Tren del Fin del Mundo",
+      "lat": -54.9333,
+      "lng": -67.25,
+      "type": "LANDMARK",
+      "description": "A scenic narrow-gauge railway that retraces the historic route used to transport lumber and prisoners, now taking visitors through pristine wilderness to Tierra del Fuego National Park. The restored vintage train offers a unique and nostalgic way to experience the region's history and natural beauty.",
+      "imageQueries": [
+        "Tren del Fin del Mundo train Tierra del Fuego",
+        "End of the World Train Ushuaia railway"
+      ],
+      "activities": [
+        {
+          "id": "fin__1",
+          "text": "End of the World Train Ride",
+          "detail": "Board the restored narrow-gauge locomotive for a 40-minute journey through Tierra del Fuego National Park following the original 1909 route used for timber transport.",
+          "lat": -54.8319,
+          "lng": -68.3628
+        },
+        {
+          "id": "fin__2",
+          "text": "Peat Bog Exploration",
+          "detail": "Walk through the unique Magellanic peat bogs visible from the train, where spongy terrain and stunted southern beech trees create an otherworldly landscape.",
+          "lat": -54.835,
+          "lng": -68.37
+        },
+        {
+          "id": "fin__3",
+          "text": "Río Pipo Viewpoint",
+          "detail": "Visit the scenic stopping point where the train halts at the Río Pipo, offering photo opportunities of the river cutting through the Fuegian forest.",
+          "lat": -54.84,
+          "lng": -68.385
+        },
+        {
+          "id": "fin__4",
+          "text": "Prison History Museum",
+          "detail": "Explore exhibits at the station detailing the history of the former penal colony and the convicts who built the original railway line.",
+          "lat": -54.8319,
+          "lng": -68.3628
+        },
+        {
+          "id": "fin__5",
+          "text": "Southern Beech Forest Walk",
+          "detail": "Hike through native Nothofagus (southern beech) forests accessible from the train route, where twisted trees and thick moss create a primordial atmosphere.",
+          "lat": -54.838,
+          "lng": -68.375
+        },
+        {
+          "id": "fin__6",
+          "text": "Tierra del Fuego National Park Integration",
+          "detail": "Use the train as an entry point to the national park and continue exploring hiking trails, coastal views, and the southernmost regions.",
+          "lat": -54.84,
+          "lng": -68.36
+        }
+      ],
+      "food": [
+        {
+          "id": "fin__f1",
+          "text": "Centolla (King Crab)",
+          "detail": "Fresh Patagonian king crab caught locally and typically served grilled or in creamy sauces at restaurants near the train station."
+        },
+        {
+          "id": "fin__f2",
+          "text": "Cordero Fueguino (Fuegian Lamb)",
+          "detail": "Tender lamb raised on Tierra del Fuego's windswept grasslands, traditionally slow-roasted and served as a regional specialty."
+        },
+        {
+          "id": "fin__f3",
+          "text": "Calafate Berry Desserts",
+          "detail": "Sweet treats and preserves made from the local calafate berry, a dark purple fruit with a slightly sweet and tart flavor unique to Patagonia."
+        },
+        {
+          "id": "fin__f4",
+          "text": "Freshwater Trout",
+          "detail": "Rainbow and brown trout from the region's pristine rivers, often prepared simply grilled or smoked at local lodges."
+        },
+        {
+          "id": "fin__f5",
+          "text": "Empanadas Fueguinas",
+          "detail": "Local pastry pockets filled with lamb, onions, and spices, reflecting the gaucho and indigenous heritage of the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fin__c1",
+          "text": "Respect Train Schedule",
+          "detail": "The train operates on a strict timetable with limited daily departures, so book well in advance and arrive early to ensure your spot on this popular attraction."
+        },
+        {
+          "id": "fin__c2",
+          "text": "Dress for Extreme Weather",
+          "detail": "Tierra del Fuego's weather is notoriously unpredictable with strong winds and sudden temperature changes; bring waterproof jackets and layers even in summer."
+        },
+        {
+          "id": "fin__c3",
+          "text": "Honor Indigenous and Prison History",
+          "detail": "The railway's past includes both the displacement of indigenous Yámana people and use as a penal transport route; approach the experience with awareness of this complex heritage."
+        },
+        {
+          "id": "fin__c4",
+          "text": "Spanish is Primary Language",
+          "detail": "While some staff speak English, basic Spanish phrases are helpful, and tour guides provide richer historical context when you can understand their native language explanations."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Kaupé",
+      "address": "Av. San Martín 405, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Contemporary Patagonian",
+      "priceRange": "€€€€",
+      "description": "Fine dining restaurant showcasing premium Patagonian ingredients with innovative techniques and elegant presentation.",
+      "mustOrder": "King crab with Fuegian herb butter",
+      "lat": -54.8019,
+      "lng": -68.2977
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Shtupa",
+      "address": "Av. Maipú 349, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Regional Argentine",
+      "priceRange": "€€€",
+      "description": "Cozy restaurant with a focus on local seafood and meat dishes in an intimate, rustic atmosphere.",
+      "mustOrder": "Centolla (king crab) à la Shtupa",
+      "lat": -54.8024,
+      "lng": -68.3001
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Elvesker",
+      "address": "Calle Rivadavia 749, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Patagonian Steakhouse",
+      "priceRange": "€€€",
+      "description": "Traditional Argentine steakhouse with outdoor views and grilled meats as the specialty.",
+      "mustOrder": "Asado de cordero (roasted lamb)",
+      "lat": -54.8068,
+      "lng": -68.3021
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Tía Elvira",
+      "address": "Calle Maipu 349, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Home-style Argentine",
+      "priceRange": "€€",
+      "description": "Casual family-run restaurant serving traditional Argentine home cooking and regional specialties.",
+      "mustOrder": "Empanadas de centolla",
+      "lat": -54.8025,
+      "lng": -68.3005
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Bodegón Fueguino",
+      "address": "Calle San Martín 868, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Traditional Argentine",
+      "priceRange": "€€",
+      "description": "Rustic bodegón offering classic Argentine fare with emphasis on local king crab and lamb preparations.",
+      "mustOrder": "Cazuela de centolla",
+      "lat": -54.8058,
+      "lng": -68.3089
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Tolkeyen",
+      "address": "Calle Perito Moreno 2135, Ushuaia",
+      "neighbourhood": "Barrio Sur Ushuaia",
+      "cuisine": "Contemporary Argentine",
+      "priceRange": "€€€",
+      "description": "Modern restaurant with creative dishes blending Patagonian ingredients with contemporary cooking techniques.",
+      "mustOrder": "Pan-seared Patagonian toothfish",
+      "lat": -54.8124,
+      "lng": -68.2856
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "La Cabaña",
+      "address": "Av. Maipú 1347, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Patagonian Grill",
+      "priceRange": "€€",
+      "description": "Casual grill restaurant known for generous portions of quality meat and seafood at reasonable prices.",
+      "mustOrder": "Grilled salmon with chimichurri",
+      "lat": -54.8106,
+      "lng": -68.3087
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Mi Viejo",
+      "address": "Calle Deloqui 345, Río Grande",
+      "neighbourhood": "Downtown Río Grande",
+      "cuisine": "Argentine Patagonian",
+      "priceRange": "€€",
+      "description": "Welcoming neighborhood restaurant in Río Grande specializing in local trout and lamb dishes.",
+      "mustOrder": "Trucha a la mantequilla (butter-poached trout)",
+      "lat": -53.7876,
+      "lng": -67.6961
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Restaurante Chorrería y Parrilla",
+      "address": "Calle Mitre 520, Río Grande",
+      "neighbourhood": "Downtown Río Grande",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€",
+      "description": "No-frills parrilla in Río Grande serving excellent grilled meats and regional specialties.",
+      "mustOrder": "Choripán and grilled steak",
+      "lat": -53.7898,
+      "lng": -67.6985
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Café Beban",
+      "address": "Av. San Martín 236, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Café & Light Fare",
+      "priceRange": "€",
+      "description": "Casual café popular with locals for coffee, pastries, and light meals with harbor views.",
+      "mustOrder": "Medialunas (Argentine croissants) and café con leche",
+      "lat": -54.8036,
+      "lng": -68.2956
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Remis Sur",
+      "address": "Calle Rivadavia 570, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Argentine Seafood",
+      "priceRange": "€€€",
+      "description": "Upscale seafood restaurant with floor-to-ceiling windows overlooking the Beagle Channel.",
+      "mustOrder": "Mixed seafood platter with centolla and calamari",
+      "lat": -54.8067,
+      "lng": -68.2984
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Estancia Harberton Restaurant",
+      "address": "Estancia Harberton, Ushuaia",
+      "neighbourhood": "Estancia Harberton (East of Ushuaia)",
+      "cuisine": "Argentine Patagonian",
+      "priceRange": "€€€",
+      "description": "Historic estancia restaurant serving traditional Patagonian cuisine in a charming rural setting.",
+      "mustOrder": "Lamb stew with regional herbs",
+      "lat": -54.8742,
+      "lng": -67.2547
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Canela y Nuez",
+      "address": "Calle Av. San Martín 673, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Contemporary Fusion",
+      "priceRange": "€€",
+      "description": "Modern café and restaurant blending international influences with local Patagonian ingredients.",
+      "mustOrder": "Smoked trout sandwich with local cheese",
+      "lat": -54.8044,
+      "lng": -68.3021
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Volver",
+      "address": "Calle Maipu 237, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Argentine Contemporary",
+      "priceRange": "€€€",
+      "description": "Intimate restaurant with a carefully curated wine list and dishes highlighting seasonal Patagonian products.",
+      "mustOrder": "Centolla with native Magellanic plants",
+      "lat": -54.8023,
+      "lng": -68.2981
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Alo's Pizzería",
+      "address": "Calle 25 de Mayo 241, Ushuaia",
+      "neighbourhood": "Downtown Ushuaia",
+      "cuisine": "Italian Pizza",
+      "priceRange": "€",
+      "description": "Popular casual pizzeria offering authentic wood-fired pizzas and Italian pasta at budget-friendly prices.",
+      "mustOrder": "Pizza with smoked salmon and sour cream",
+      "lat": -54.805,
+      "lng": -68.2945
+    }
+  ]
+}

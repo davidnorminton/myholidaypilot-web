@@ -1,0 +1,1012 @@
+{
+  "id": "aqaba",
+  "name": "Aqaba",
+  "nameIt": "العقبة",
+  "capital": "Aqaba",
+  "lat": 29.5279,
+  "lng": 35,
+  "emoji": "🌊",
+  "colour": "ff3f51b5",
+  "boundingBox": {
+    "north": 29.7,
+    "south": 29.3,
+    "east": 35.2,
+    "west": 34.8
+  },
+  "history": "Aqaba has served as a crucial port city for millennia, connecting trade routes between the Arabian Peninsula, the Levant, and Africa. The city changed hands many times throughout history, ruled by various empires including the Nabataeans, Romans, Ottomans, and British before becoming part of Jordan. During World War I, T.E. Lawrence and Arab forces captured Aqaba from Ottoman control in 1917, a pivotal moment in the Arab Revolt. Today it remains Jordan's only coastal city and a vital economic hub for the nation.",
+  "culturalNotes": "Aqaba blends Bedouin heritage with cosmopolitan seaside culture, shaped by centuries of maritime trade and its position as a meeting point of cultures. The city is known for its warm hospitality, fresh seafood cuisine, and vibrant markets that reflect Egyptian, Palestinian, and Saudi influences alongside Jordanian traditions. Water sports and diving are central to modern Aqaba's identity, drawing visitors to its pristine coral reefs and earning it recognition as a world-class diving destination.",
+  "bestTimeToVisit": "November to March when sea temperatures are warm but air temperatures are moderate.",
+  "languageNotes": "Arabic is the primary language, with the local dialect being a variant of Levantine Arabic influenced by Gulf and Egyptian speech patterns due to the city's cosmopolitan nature. Useful phrases include \"Marhaba\" (hello), \"Shukran\" (thank you), and \"Inshallah\" (God willing), though English is widely spoken in tourist areas and among younger residents.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 8,
+  "places": [
+    {
+      "id": "aqaba_city",
+      "name": "Aqaba City",
+      "nameIt": "العقبة",
+      "lat": 29.5417,
+      "lng": 34.9667,
+      "type": "CITY",
+      "description": "Jordan's primary Red Sea port and beach resort destination, serving as the gateway to the country's maritime access. The city offers beaches, water sports, diving centers, and a bustling waterfront with restaurants and shops.",
+      "imageQueries": [
+        "Aqaba Jordan beach city",
+        "Aqaba Red Sea waterfront"
+      ],
+      "activities": [
+        {
+          "id": "aqab_1",
+          "text": "Snorkeling and Diving",
+          "detail": "Explore vibrant coral reefs and Red Sea marine life at dive centers along the waterfront, with sites like the Japanese Garden and Cedar Pride wreck accessible to various skill levels.",
+          "lat": 29.5273,
+          "lng": 34.9416
+        },
+        {
+          "id": "aqab_2",
+          "text": "Aqaba Castle (Mamluk Castle)",
+          "detail": "Visit this 16th-century Ottoman fortress overlooking the waterfront that has been restored and now houses a small museum documenting the region's maritime history.",
+          "lat": 29.5297,
+          "lng": 34.9455
+        },
+        {
+          "id": "aqab_3",
+          "text": "Red Sea Beach Walk",
+          "detail": "Stroll along the public beaches and waterfront promenade lined with cafes, shops, and palm trees offering sunset views and access to swimming areas.",
+          "lat": 29.5289,
+          "lng": 34.9437
+        },
+        {
+          "id": "aqab_4",
+          "text": "Aqaba Archaeological Museum",
+          "detail": "Browse artifacts spanning from Islamic, Crusader, and Nabatean periods, including pottery and coins that illustrate the city's ancient trade significance.",
+          "lat": 29.531,
+          "lng": 34.9424
+        },
+        {
+          "id": "aqab_5",
+          "text": "Glass-Bottom Boat Tours",
+          "detail": "Take a boat trip with underwater viewing panels to observe coral gardens and tropical fish without getting wet, departing from the main harbor.",
+          "lat": 29.5275,
+          "lng": 34.9425
+        },
+        {
+          "id": "aqab_6",
+          "text": "Aqaba Marine Park",
+          "detail": "Experience protected marine reserves with designated snorkeling and diving zones that preserve the Red Sea's most pristine coral ecosystems.",
+          "lat": 29.525,
+          "lng": 34.9445
+        }
+      ],
+      "food": [
+        {
+          "id": "aqab_f1",
+          "text": "Zarb (Bedouin-Roasted Lamb)",
+          "detail": "Tender lamb slow-roasted in an underground pit with vegetables, a traditional desert dish commonly served at waterfront restaurants and special occasions."
+        },
+        {
+          "id": "aqab_f2",
+          "text": "Grilled Hammour",
+          "detail": "Fresh local grouper seasoned simply and grilled whole, reflecting the coastal tradition of preparing the day's catch with olive oil and lemon."
+        },
+        {
+          "id": "aqab_f3",
+          "text": "Hummus by the Red Sea",
+          "detail": "Creamy chickpea dip topped with local olive oil and spices, served as a mezze starter at virtually every seafood restaurant in the city."
+        },
+        {
+          "id": "aqab_f4",
+          "text": "Mixed Seafood Mezze",
+          "detail": "A spread of calamari, shrimp, octopus, and fish prepared fried or grilled, showcasing Aqaba's access to abundant Red Sea catches."
+        },
+        {
+          "id": "aqab_f5",
+          "text": "Mansaf",
+          "detail": "A Jordanian signature dish of lamb cooked in tangy yogurt sauce served with rice or bread, commonly featured at family-run restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aqab_c1",
+          "text": "Dress Code at Religious Sites",
+          "detail": "Visitors should dress modestly when visiting mosques or walking through older neighborhoods, covering shoulders and knees out of respect."
+        },
+        {
+          "id": "aqab_c2",
+          "text": "Haggling in Souks",
+          "detail": "Negotiating prices is customary and expected in local markets and shops, especially for handicrafts, textiles, and souvenirs."
+        },
+        {
+          "id": "aqab_c3",
+          "text": "Islamic Prayer Times",
+          "detail": "Many shops and attractions close or have reduced hours during the five daily prayer times, particularly Friday midday prayers, so plan visits accordingly."
+        },
+        {
+          "id": "aqab_c4",
+          "text": "Hospitality Customs",
+          "detail": "Locals often offer tea or coffee as a gesture of hospitality; accepting graciously is appreciated and a sign of respect in business and social interactions."
+        }
+      ]
+    },
+    {
+      "id": "aqaba_marine_park",
+      "name": "Aqaba Marine Park",
+      "nameIt": "محمية العقبة البحرية",
+      "lat": 29.5417,
+      "lng": 34.9667,
+      "type": "COASTAL",
+      "description": "A protected coral reef area renowned for world-class snorkeling and diving with pristine underwater ecosystems. The park is home to colorful coral gardens, tropical fish species, and is one of the most accessible reefs in the Middle East.",
+      "imageQueries": [
+        "Aqaba Marine Park coral reef",
+        "Red Sea snorkeling Aqaba"
+      ],
+      "activities": [
+        {
+          "id": "aqab_1",
+          "text": "Snorkeling at the Coral Gardens",
+          "detail": "Explore shallow reef zones teeming with branching corals, anemones, and tropical fish species like angelfish and parrotfish in crystal-clear waters.",
+          "lat": 29.5269,
+          "lng": 34.9415
+        },
+        {
+          "id": "aqab_2",
+          "text": "Scuba Diving the Deep Reef Wall",
+          "detail": "Descend along dramatic drop-offs and underwater walls where large pelagic fish, rays, and dense coral formations create an immersive deep-water experience.",
+          "lat": 29.5245,
+          "lng": 34.9428
+        },
+        {
+          "id": "aqab_3",
+          "text": "Glass-Bottom Boat Tour",
+          "detail": "Observe reef life from above water in a boat with a transparent hull, ideal for non-swimmers and families wanting to see underwater biodiversity without diving."
+        },
+        {
+          "id": "aqab_4",
+          "text": "Night Dive or Snorkel",
+          "detail": "Witness nocturnal reef behavior as hunting fish, octopuses, and bioluminescent organisms become active under specialized lighting."
+        },
+        {
+          "id": "aqab_5",
+          "text": "Underwater Photography",
+          "detail": "Capture vibrant images of endemic species, macro subjects like nudibranchs and seahorses, and sweeping coral formations in exceptional visibility conditions."
+        },
+        {
+          "id": "aqab_6",
+          "text": "Visit the Aqaba Marine Park Visitor Center",
+          "detail": "Learn about conservation efforts, local marine biodiversity, and reef ecology through exhibits and educational displays before or after water activities."
+        }
+      ],
+      "food": [
+        {
+          "id": "aqab_f1",
+          "text": "Grilled Hammour (Grouper)",
+          "detail": "Fresh local grouper caught from Gulf of Aqaba waters, simply grilled and served with lemon, herbs, and olive oil at beachfront restaurants."
+        },
+        {
+          "id": "aqab_f2",
+          "text": "Salatit Hummus (Hummus Salad)",
+          "detail": "Creamy chickpea dip blended with tahini, lemon, and garlic, commonly served as a starter with warm pita bread at local eateries near the marina."
+        },
+        {
+          "id": "aqab_f3",
+          "text": "Zarb (Bedouin Lamb Feast)",
+          "detail": "Slow-roasted lamb and vegetables cooked in a pit underground, a traditional preparation reflecting Jordanian desert cuisine popular in Aqaba."
+        },
+        {
+          "id": "aqab_f4",
+          "text": "Mixed Seafood Mezze",
+          "detail": "A selection of small plates featuring grilled shrimp, calamari, and fish alongside tabbouleh, fattoush, and local spreads typical of Levantine coastal dining."
+        },
+        {
+          "id": "aqab_f5",
+          "text": "Kunafa with Cheese",
+          "detail": "Shredded pastry layered with melted cheese and soaked in sugar syrup, a beloved sweet treat available at cafes throughout Aqaba's waterfront."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aqab_c1",
+          "text": "Respect Marine Protected Area Rules",
+          "detail": "The park is strictly regulated; do not touch corals, collect shells, or feed fish, and hire only authorized local guides to ensure sustainable reef preservation."
+        },
+        {
+          "id": "aqab_c2",
+          "text": "Dress Modestly in Town",
+          "detail": "While swimwear is acceptable at beaches and water, cover shoulders and knees when visiting shops, restaurants, and the visitor center as a sign of respect."
+        },
+        {
+          "id": "aqab_c3",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Using 'Assalamu alaikum' (peace be upon you) and 'Shukran' (thank you) with local boat captains and staff enhances interaction and shows cultural appreciation."
+        },
+        {
+          "id": "aqab_c4",
+          "text": "Plan Visits Around Prayer Times",
+          "detail": "Many local businesses close briefly during the five daily Islamic prayers; plan your dive trips and meals accordingly to avoid inconvenient closures."
+        }
+      ]
+    },
+    {
+      "id": "cedar_island",
+      "name": "Cedar Island",
+      "nameIt": "جزيرة أم الرصاص",
+      "lat": 29.4833,
+      "lng": 34.9833,
+      "type": "ISLAND",
+      "description": "A historically significant island in the Red Sea accessible by boat from Aqaba, featuring Byzantine ruins and ancient settlements. The island offers archaeological exploration, snorkeling opportunities, and views of the surrounding coastline.",
+      "imageQueries": [
+        "Cedar Island Aqaba",
+        "Um Rashrash island Jordan"
+      ],
+      "activities": [
+        {
+          "id": "ceda_1",
+          "text": "Explore Byzantine Church Ruins",
+          "detail": "Walk among the remains of a 6th-century Byzantine church with visible stone foundations, columns, and mosaics that reveal early Christian settlement on the island.",
+          "lat": 29.5267,
+          "lng": 34.9567
+        },
+        {
+          "id": "ceda_2",
+          "text": "Snorkel in Coral Gardens",
+          "detail": "Swim in the shallow waters surrounding the island to observe vibrant coral reefs, tropical fish, and sea life in the Red Sea's protected marine environment.",
+          "lat": 29.5275,
+          "lng": 34.9575
+        },
+        {
+          "id": "ceda_3",
+          "text": "Visit the Fatimid Settlement",
+          "detail": "Discover archaeological remains from the Fatimid period including pottery shards, stone structures, and artifacts scattered across the island's elevated plateau."
+        },
+        {
+          "id": "ceda_4",
+          "text": "Climb to Island's Peak",
+          "detail": "Hike to the highest point of Cedar Island for panoramic views of the Aqaba Gulf, Saudi Arabian coastline, and the Egyptian and Israeli shores."
+        },
+        {
+          "id": "ceda_5",
+          "text": "Photograph Ancient Cisterns",
+          "detail": "Document the carved stone water cisterns and reservoirs that once supplied freshwater to the island's inhabitants during Byzantine and medieval periods."
+        },
+        {
+          "id": "ceda_6",
+          "text": "Beachcombing for Artifacts",
+          "detail": "Walk along the shoreline to spot ceramic fragments, shells, and small archaeological finds that have washed ashore from centuries of human habitation."
+        }
+      ],
+      "food": [
+        {
+          "id": "ceda_f1",
+          "text": "Fresh Red Sea Catch",
+          "detail": "Grilled fish caught daily from Aqaba's waters, typically prepared simply with lemon, olive oil, and local spices, served at waterfront restaurants before or after your island visit."
+        },
+        {
+          "id": "ceda_f2",
+          "text": "Zarb (Bedouin Slow-Roasted Meat)",
+          "detail": "Meat and vegetables cooked underground in a sealed pit, a traditional Bedouin preparation available in Aqaba that reflects the region's nomadic heritage."
+        },
+        {
+          "id": "ceda_f3",
+          "text": "Hummus and Mezze Platters",
+          "detail": "Traditional Levantine appetizers including chickpea hummus, baba ganoush, tabbouleh, and fresh pita bread found throughout Aqaba's dining establishments."
+        },
+        {
+          "id": "ceda_f4",
+          "text": "Sea Urchin Delicacy",
+          "detail": "Fresh sea urchin roe harvested from Red Sea waters, occasionally available at upscale Aqaba restaurants as a regional seafood specialty."
+        },
+        {
+          "id": "ceda_f5",
+          "text": "Mint Tea with Views",
+          "detail": "Strong Jordanian mint tea served in glass cups, traditionally enjoyed during rest periods while admiring the island's archaeological sites and surrounding seascape."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ceda_c1",
+          "text": "Respect Archaeological Sites",
+          "detail": "Do not remove artifacts, pottery shards, or stones from the island; these fragments are protected heritage and provide crucial information to archaeologists studying the site."
+        },
+        {
+          "id": "ceda_c2",
+          "text": "Dress Modestly and Practically",
+          "detail": "Wear modest clothing appropriate for a conservative Islamic region, along with sturdy footwear for rocky terrain, sun protection, and a lightweight cover-up for respect and sun safety."
+        },
+        {
+          "id": "ceda_c3",
+          "text": "Hire Local Guides for Context",
+          "detail": "Engage a knowledgeable local guide from Aqaba who can explain the island's Byzantine, Islamic, and maritime history while ensuring you navigate safely and follow proper archaeological protocols."
+        },
+        {
+          "id": "ceda_c4",
+          "text": "Time Your Visit Around Tides",
+          "detail": "Coordinate with local boat operators regarding tidal conditions and weather patterns; the Red Sea can have strong currents, and visits are best scheduled during calmer morning hours."
+        }
+      ]
+    },
+    {
+      "id": "aqaba_fort",
+      "name": "Aqaba Fort",
+      "nameIt": "قلعة العقبة",
+      "lat": 29.5417,
+      "lng": 34.9667,
+      "type": "LANDMARK",
+      "description": "A 16th-century Ottoman fortification dominating Aqaba's waterfront, now serving as a museum of local and maritime history. The fort offers panoramic views of the city and the Red Sea while preserving important artifacts from the region's strategic past.",
+      "imageQueries": [
+        "Aqaba Fort Ottoman",
+        "Aqaba Fort museum waterfront"
+      ],
+      "activities": [
+        {
+          "id": "aqab_1",
+          "text": "Explore the Museum Exhibits",
+          "detail": "Walk through the fort's interior chambers displaying Ottoman artifacts, maritime instruments, and weapons that chronicle Aqaba's role as a crucial Red Sea trading post.",
+          "lat": 29.527,
+          "lng": 35.0373
+        },
+        {
+          "id": "aqab_2",
+          "text": "Climb the Corner Towers",
+          "detail": "Ascend the fort's four corner bastions for elevated vantage points offering 360-degree views of Aqaba's harbor, the Red Sea, and neighboring countries across the water.",
+          "lat": 29.527,
+          "lng": 35.0373
+        },
+        {
+          "id": "aqab_3",
+          "text": "Photography from the Waterfront Ramparts",
+          "detail": "Position yourself along the fort's seaward walls at sunset to capture the Red Sea's changing light and the historic fortification's silhouette against the evening sky.",
+          "lat": 29.527,
+          "lng": 35.0373
+        },
+        {
+          "id": "aqab_4",
+          "text": "Study the Ottoman Architecture",
+          "detail": "Examine the distinctive casemate design, arrow slits, and masonry construction typical of 16th-century Ottoman military engineering adapted for Red Sea defense.",
+          "lat": 29.527,
+          "lng": 35.0373
+        },
+        {
+          "id": "aqab_5",
+          "text": "Visit the Mamluk-Era Artifacts Section",
+          "detail": "Inspect the display of pottery shards, coins, and trade goods recovered from excavations showing Aqaba's importance before and during the Ottoman period.",
+          "lat": 29.527,
+          "lng": 35.0373
+        },
+        {
+          "id": "aqab_6",
+          "text": "Rest at the Fort's Courtyard",
+          "detail": "Spend time in the central open courtyard where soldiers once drilled, offering shade and a peaceful spot to reflect on the location's strategic significance."
+        }
+      ],
+      "food": [
+        {
+          "id": "aqab_f1",
+          "text": "Zarb (Bedouin Slow-Roasted Meat)",
+          "detail": "Tender lamb or chicken buried in hot sand and coals, a traditional Bedouin preparation commonly served in Aqaba's waterfront restaurants within walking distance of the fort."
+        },
+        {
+          "id": "aqab_f2",
+          "text": "Fresh Red Sea Hammour",
+          "detail": "Locally caught grouper grilled simply with lemon and herbs, reflecting Aqaba's seafaring heritage and available at harbor-side establishments near the fort."
+        },
+        {
+          "id": "aqab_f3",
+          "text": "Falafel and Hummus",
+          "detail": "Crispy fried chickpea fritters served with creamy chickpea paste, a ubiquitous and affordable street food found at vendors around Aqaba's old town adjacent to the fort."
+        },
+        {
+          "id": "aqab_f4",
+          "text": "Mansaf (Levantine Lamb Stew)",
+          "detail": "Lamb cooked in thick yogurt sauce with pine nuts and served on flatbread, a ceremonial dish representing Jordanian hospitality offered at local restaurants."
+        },
+        {
+          "id": "aqab_f5",
+          "text": "Seafood Mezze Platter",
+          "detail": "A spread of grilled shrimp, calamari, and fish with bread and dips, showcasing Aqaba's access to Red Sea bounty at waterfront dining venues."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aqab_c1",
+          "text": "Dress Respectfully in Religious Spaces",
+          "detail": "While the fort is primarily a secular museum, modest clothing covering shoulders and knees shows respect for the local Muslim community and is generally expected throughout Aqaba."
+        },
+        {
+          "id": "aqab_c2",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Saying 'As-salamu alaikum' (peace be upon you) and 'Shukran' (thank you) to staff and locals significantly enhances interactions and demonstrates cultural courtesy appreciated in Jordan."
+        },
+        {
+          "id": "aqab_c3",
+          "text": "Respect Photography Boundaries",
+          "detail": "While the fort allows photography, always ask permission before photographing people, and avoid photographing military or sensitive areas as local customs and security protocols require."
+        },
+        {
+          "id": "aqab_c4",
+          "text": "Visit During Cooler Hours",
+          "detail": "Aqaba's extreme summer heat makes morning or late afternoon visits more comfortable and respectful of local practice, as many residents avoid midday heat exposure."
+        }
+      ]
+    },
+    {
+      "id": "pharaoh_island",
+      "name": "Pharaoh Island",
+      "nameIt": "جزيرة فرعون",
+      "lat": 29.5167,
+      "lng": 34.9,
+      "type": "ISLAND",
+      "description": "A small island in the Red Sea between Aqaba and Eilat featuring a well-preserved Crusader fortress dating back to the 12th century. The site offers historical exploration, excellent snorkeling, and clear views of the surrounding coastal waters.",
+      "imageQueries": [
+        "Pharaoh Island Crusader fortress",
+        "Pharaoh Island Red Sea"
+      ],
+      "activities": [
+        {
+          "id": "phar_1",
+          "text": "Explore Saladin's Fortress",
+          "detail": "Tour the remarkably preserved 12th-century Crusader castle with its intact walls, towers, and internal chambers that offer insights into medieval military architecture.",
+          "lat": 29.4958,
+          "lng": 34.9419
+        },
+        {
+          "id": "phar_2",
+          "text": "Snorkel the Coral Reefs",
+          "detail": "Swim directly from the island's shallow waters to observe vibrant coral gardens and tropical fish species in the pristine Red Sea ecosystem.",
+          "lat": 29.4958,
+          "lng": 34.9419
+        },
+        {
+          "id": "phar_3",
+          "text": "Visit the Island Museum",
+          "detail": "Examine artifacts and displays within the fortress that detail the strategic importance of the island during the Crusades and Islamic periods.",
+          "lat": 29.4958,
+          "lng": 34.9419
+        },
+        {
+          "id": "phar_4",
+          "text": "Photograph Coastal Views",
+          "detail": "Capture panoramic photographs of the Aqaba coastline, the Israeli port of Eilat across the water, and the surrounding desert landscape.",
+          "lat": 29.4958,
+          "lng": 34.9419
+        },
+        {
+          "id": "phar_5",
+          "text": "Walk the Fortress Ramparts",
+          "detail": "Traverse the restored defensive walls and bastions to understand the island's military layout and enjoy elevated views of the Red Sea.",
+          "lat": 29.4958,
+          "lng": 34.9419
+        },
+        {
+          "id": "phar_6",
+          "text": "Observe Marine Life",
+          "detail": "Watch for schools of reef fish, sea turtles, and occasionally larger pelagic species in the clear waters surrounding the island."
+        }
+      ],
+      "food": [
+        {
+          "id": "phar_f1",
+          "text": "Fresh Grilled Fish",
+          "detail": "Local catches prepared simply with olive oil, lemon, and spices, typically served at the island's basic refreshment facilities or brought from Aqaba."
+        },
+        {
+          "id": "phar_f2",
+          "text": "Hummus and Flatbread",
+          "detail": "Creamy chickpea dip served with warm pita bread, a staple prepared fresh and available at the island's small café facilities."
+        },
+        {
+          "id": "phar_f3",
+          "text": "Mezze Platter",
+          "detail": "An assortment of small dishes including tabbouleh, falafel, and labneh that provides variety and is commonly served to visitors."
+        },
+        {
+          "id": "phar_f4",
+          "text": "Seafood Mezze",
+          "detail": "A platter combining fresh shrimp, fish, and calamari preparations reflecting the island's coastal location and Red Sea resources."
+        }
+      ],
+      "culture": [
+        {
+          "id": "phar_c1",
+          "text": "Dress Conservatively",
+          "detail": "Wear modest clothing when visiting the fortress and cultural areas, particularly loose-fitting long sleeves and trousers, as a sign of respect in this Jordanian Islamic context."
+        },
+        {
+          "id": "phar_c2",
+          "text": "Bring Sufficient Water",
+          "detail": "The island has limited facilities, so carry adequate fresh water for the day as the Red Sea sun is intense and shade is minimal except within the fortress."
+        },
+        {
+          "id": "phar_c3",
+          "text": "Respect Prayer Times",
+          "detail": "Visit during the morning or afternoon as ferry schedules and island operations may be limited around Islamic prayer times, especially Friday prayers."
+        },
+        {
+          "id": "phar_c4",
+          "text": "Sun Protection Essential",
+          "detail": "Apply high-SPF sunscreen before arrival and reapply frequently, as the combination of direct sun and reflection off water creates intense UV exposure."
+        }
+      ]
+    },
+    {
+      "id": "aqaba_beach",
+      "name": "Aqaba Beach",
+      "nameIt": "شاطئ العقبة",
+      "lat": 29.5417,
+      "lng": 34.9667,
+      "type": "COASTAL",
+      "description": "The main public beach of Aqaba offering sandy shores, clear warm waters, and easy access to water sports and beach facilities. The beach is ideal for swimming, sunbathing, and as a starting point for diving and snorkeling excursions.",
+      "imageQueries": [
+        "Aqaba Beach Red Sea",
+        "Aqaba public beach"
+      ],
+      "activities": [
+        {
+          "id": "aqab_1",
+          "text": "Swimming and Sunbathing",
+          "detail": "Enjoy the warm Red Sea waters year-round and relax on the sandy shore with views across to Egypt and Saudi Arabia."
+        },
+        {
+          "id": "aqab_2",
+          "text": "Scuba Diving",
+          "detail": "Explore nearby coral reefs and underwater sites with operators based directly at the beach offering equipment rental and guided dives.",
+          "lat": 29.5264,
+          "lng": 34.9415
+        },
+        {
+          "id": "aqab_3",
+          "text": "Snorkeling",
+          "detail": "Wade into shallow reef areas just offshore to observe colorful fish and coral formations without certification required."
+        },
+        {
+          "id": "aqab_4",
+          "text": "Jet Skiing and Watersports",
+          "detail": "Rent jet skis, paddleboards, or banana boats from the beach shacks that line the public shore."
+        },
+        {
+          "id": "aqab_5",
+          "text": "Glass-Bottom Boat Tours",
+          "detail": "Take a short boat excursion to view coral and marine life from a submerged cabin without getting wet."
+        },
+        {
+          "id": "aqab_6",
+          "text": "Sunset Beach Walk",
+          "detail": "Stroll the waterfront promenade in the late afternoon to watch the sun set over the Egyptian coast while vendors sell snacks."
+        }
+      ],
+      "food": [
+        {
+          "id": "aqab_f1",
+          "text": "Grilled Fish with Lemon and Za'atar",
+          "detail": "Fresh-caught Red Sea fish seasoned with sumac and herbs, grilled over charcoal and served at beachside restaurants."
+        },
+        {
+          "id": "aqab_f2",
+          "text": "Sayadieh (Fish and Rice)",
+          "detail": "A traditional Jordanian coastal dish of white fish layered with spiced rice and topped with caramelized onions and pine nuts."
+        },
+        {
+          "id": "aqab_f3",
+          "text": "Shrimp Kebab",
+          "detail": "Plump Red Sea shrimp threaded on skewers and grilled with garlic, served with tahini sauce and flatbread."
+        },
+        {
+          "id": "aqab_f4",
+          "text": "Hummus and Fresh Pita",
+          "detail": "Creamy chickpea puree drizzled with olive oil and served warm with pita bread baked in wood-fired ovens by local vendors."
+        },
+        {
+          "id": "aqab_f5",
+          "text": "Arabic Coffee and Dates",
+          "detail": "Traditional cardamom-infused coffee paired with fresh Medjool dates, offered at beachside cafes in the early morning or evening."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aqab_c1",
+          "text": "Dress Modestly at the Beach",
+          "detail": "While swimwear is accepted at Aqaba Beach as a tourist destination, covering shoulders and knees when leaving the beach shows respect for local customs."
+        },
+        {
+          "id": "aqab_c2",
+          "text": "Greetings and Hospitality",
+          "detail": "Jordanians are warm and welcoming; a simple 'Marhaba' (hello) or 'Sabah al-khair' (good morning) is appreciated and often leads to friendly conversation."
+        },
+        {
+          "id": "aqab_c3",
+          "text": "Friday is a Holy Day",
+          "detail": "Many locals attend mosque prayers on Friday morning, so businesses may have reduced hours and beaches are quieter until afternoon."
+        },
+        {
+          "id": "aqab_c4",
+          "text": "Ramadan Considerations",
+          "detail": "During the Islamic holy month, eating and drinking publicly during daylight hours is disrespectful; restaurants may close during the day and reopen after sunset."
+        }
+      ]
+    },
+    {
+      "id": "wadi_disah",
+      "name": "Wadi Disah",
+      "nameIt": "وادي ديسة",
+      "lat": 29.6833,
+      "lng": 35.2167,
+      "type": "NATURE",
+      "description": "A scenic valley and hiking destination near Aqaba featuring palm groves, freshwater springs, and towering cliff formations. The wadi offers nature walks, waterfall viewing, and opportunities to experience Jordan's diverse landscape.",
+      "imageQueries": [
+        "Wadi Disah Jordan palm groves",
+        "Wadi Disah waterfall hiking"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Freshwater Spring Swimming",
+          "detail": "Wade and swim in the cool natural pools fed by Wadi Disah's underground springs, which maintain refreshing temperatures year-round.",
+          "lat": 29.5242,
+          "lng": 35.4158
+        },
+        {
+          "id": "wadi_2",
+          "text": "Palm Grove Walk",
+          "detail": "Stroll through dense clusters of date palms that line the wadi floor, providing shade and glimpses of traditional oasis agriculture.",
+          "lat": 29.5235,
+          "lng": 35.4165
+        },
+        {
+          "id": "wadi_3",
+          "text": "Waterfall Hike",
+          "detail": "Trek upstream to view seasonal waterfalls cascading down the cliff face, particularly impressive after winter rains.",
+          "lat": 29.522,
+          "lng": 35.414
+        },
+        {
+          "id": "wadi_4",
+          "text": "Cliff Formation Photography",
+          "detail": "Capture towering sandstone and granite cliffs that frame the wadi, offering dramatic natural backdrops especially during golden hour.",
+          "lat": 29.525,
+          "lng": 35.417
+        },
+        {
+          "id": "wadi_5",
+          "text": "Bedouin Camping Experience",
+          "detail": "Spend a night in a traditional Bedouin camp within or near the wadi to experience local hospitality and desert stargazing.",
+          "lat": 29.5245,
+          "lng": 35.415
+        },
+        {
+          "id": "wadi_6",
+          "text": "Bird Watching",
+          "detail": "Observe migratory and resident bird species drawn to the water source, including eagles, sunbirds, and desert larks.",
+          "lat": 29.523,
+          "lng": 35.4155
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Zarb (Bedouin BBQ)",
+          "detail": "Slow-roasted lamb or chicken cooked underground with vegetables, a traditional method used by local Bedouin guides preparing meals for visitors."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Fresh Date and Goat Cheese",
+          "detail": "Locally harvested dates paired with tangy goat cheese produced by nearby herding communities, reflecting the oasis's agricultural heritage."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Mansaf",
+          "detail": "The Jordanian national dish of lamb cooked in yogurt sauce with pine nuts, commonly served by guides or local families hosting visitors."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Herbal Spring Water and Mint Tea",
+          "detail": "Drink directly from the wadi's freshwater springs and enjoy traditional mint tea brewed with locally foraged mint beside the water."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Respect Water as Sacred",
+          "detail": "The freshwater springs are vital to the region's survival; treat water sources with reverence and avoid contaminating them during your visit."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Dress Modestly",
+          "detail": "Wear loose, modest clothing that covers shoulders and knees out of respect for local Bedouin customs, especially if visiting family camps."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Hire a Local Guide",
+          "detail": "A guide from nearby Bedouin communities not only enhances safety on hikes but supports local livelihoods and provides authentic cultural insights."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Ask Before Photographing People",
+          "detail": "Always request permission before taking photos of local residents or Bedouin families, as privacy and dignity are important cultural values."
+        }
+      ]
+    },
+    {
+      "id": "southbeach",
+      "name": "South Beach",
+      "nameIt": "الشاطئ الجنوبي",
+      "lat": 29.5167,
+      "lng": 34.9667,
+      "type": "COASTAL",
+      "description": "A more secluded beach area south of Aqaba city center offering quieter waters and good snorkeling opportunities. The beach provides a more peaceful alternative to the main beach with equally clear Red Sea waters.",
+      "imageQueries": [
+        "South Beach Aqaba",
+        "Aqaba southern beach Red Sea"
+      ],
+      "activities": [
+        {
+          "id": "sout_1",
+          "text": "Snorkeling at South Beach Reef",
+          "detail": "Explore the vibrant coral gardens and tropical fish species just meters from shore in the clear Red Sea waters.",
+          "lat": 29.5183,
+          "lng": 34.9517
+        },
+        {
+          "id": "sout_2",
+          "text": "Glass-Bottom Boat Tours",
+          "detail": "View underwater marine life and coral formations without getting wet from boats that depart near the beach entrance."
+        },
+        {
+          "id": "sout_3",
+          "text": "Swimming and Sunbathing",
+          "detail": "Enjoy the calm, shallow waters ideal for families and those seeking a quieter beach experience away from Aqaba city center."
+        },
+        {
+          "id": "sout_4",
+          "text": "Sunset Photography",
+          "detail": "Capture the dramatic Red Sea sunset from the southern beach vantage point with minimal light pollution and fewer crowds."
+        },
+        {
+          "id": "sout_5",
+          "text": "Underwater Photography",
+          "detail": "Document the rich marine biodiversity using underwater cameras or GoPros in the pristine shallow reef areas."
+        },
+        {
+          "id": "sout_6",
+          "text": "Beach Picnicking",
+          "detail": "Pack traditional Jordanian mezze and fruits to enjoy a meal on the peaceful shoreline with Red Sea views."
+        },
+        {
+          "id": "sout_7",
+          "text": "Windsurfing and Kiteboarding",
+          "detail": "Take advantage of consistent afternoon winds that make South Beach suitable for water sports enthusiasts."
+        }
+      ],
+      "food": [
+        {
+          "id": "sout_f1",
+          "text": "Salatit Tahina (Tahini Salad)",
+          "detail": "A creamy sesame paste-based salad often served cold at beachside restaurants, perfect for light seaside dining."
+        },
+        {
+          "id": "sout_f2",
+          "text": "Grilled Hammour Fish",
+          "detail": "Fresh Red Sea grouper caught locally and grilled whole with lemon and olive oil, a staple at beach dining spots."
+        },
+        {
+          "id": "sout_f3",
+          "text": "Falafel and Hummus Platter",
+          "detail": "Crispy chickpea fritters served with chickpea puree and flatbread, widely available at casual beachside eateries."
+        },
+        {
+          "id": "sout_f4",
+          "text": "Seafood Mezze Selection",
+          "detail": "A shared spread of calamari, shrimp, and white fish prepared simply with garlic, herbs, and local spices."
+        },
+        {
+          "id": "sout_f5",
+          "text": "Bedouin-Style Coffee and Dates",
+          "detail": "Strong Arabic coffee served with fresh dates, offered as a traditional welcome at local beach cafes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sout_c1",
+          "text": "Respect Local Swimming Hours",
+          "detail": "Some sections of South Beach are quieter during midday heat; visit early morning or late afternoon for the most peaceful experience and fewer vendors."
+        },
+        {
+          "id": "sout_c2",
+          "text": "Modest Beach Attire Expected",
+          "detail": "While more relaxed than inland areas, wearing a cover-up or avoiding overly revealing swimwear shows respect for local customs in this conservative Jordanian community."
+        },
+        {
+          "id": "sout_c3",
+          "text": "Cash Preferred for Small Vendors",
+          "detail": "Bring Jordanian dinars in small denominations as beachside shops and informal food stalls rarely accept cards."
+        },
+        {
+          "id": "sout_c4",
+          "text": "Arabic Greetings Appreciated",
+          "detail": "Learning basic Arabic phrases like 'Marhaba' (hello) and 'Shukran' (thank you) enhances interactions with local fishermen, vendors, and restaurant staff."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Al Reef Restaurant",
+      "address": "Raghdan Street, Aqaba",
+      "neighbourhood": "Downtown Aqaba",
+      "cuisine": "Jordanian, Middle Eastern",
+      "priceRange": "€€",
+      "description": "Family-friendly establishment serving authentic Jordanian mezze, grilled meats, and fresh seafood with views of the Red Sea.",
+      "mustOrder": "Mansaf with lamb",
+      "lat": 29.5264,
+      "lng": 34.9415
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Elysium",
+      "address": "South Beach Road, Aqaba",
+      "neighbourhood": "Beach Area",
+      "cuisine": "International, Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale beachfront restaurant offering Mediterranean cuisine with refined presentation and an extensive wine selection.",
+      "mustOrder": "Grilled hammour with herbs",
+      "lat": 29.518,
+      "lng": 34.938
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Cozmo Restaurant",
+      "address": "Al Nahda Street, Aqaba",
+      "neighbourhood": "Central Aqaba",
+      "cuisine": "International, Fusion",
+      "priceRange": "€€",
+      "description": "Contemporary casual dining spot blending Mediterranean and Middle Eastern flavours with a relaxed atmosphere.",
+      "mustOrder": "Chicken shawarma wrap",
+      "lat": 29.5245,
+      "lng": 34.9425
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Al Qibla Restaurant",
+      "address": "Raghdan Street, Aqaba",
+      "neighbourhood": "Downtown Aqaba",
+      "cuisine": "Jordanian, Palestinian",
+      "priceRange": "€",
+      "description": "Budget-friendly local favourite known for generous portions of traditional Levantine dishes and charcoal-grilled specialities.",
+      "mustOrder": "Grilled chicken with garlic sauce",
+      "lat": 29.5272,
+      "lng": 34.942
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Barakat Seafood Restaurant",
+      "address": "Al Corniche, Aqaba",
+      "neighbourhood": "Waterfront",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Premier seafood destination on the corniche featuring daily catches prepared simply to highlight fresh flavours.",
+      "mustOrder": "Grilled prawns with lemon",
+      "lat": 29.529,
+      "lng": 34.945
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Red Sea Grill",
+      "address": "Beach Street, Aqaba",
+      "neighbourhood": "Beach Area",
+      "cuisine": "International, Grilled",
+      "priceRange": "€€€",
+      "description": "Beachfront grill restaurant specialising in prime cuts of meat and fresh seafood with sunset views.",
+      "mustOrder": "Grilled sea bass",
+      "lat": 29.5175,
+      "lng": 34.9385
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Al Monza Restaurant",
+      "address": "Raghdan Street, Aqaba",
+      "neighbourhood": "Downtown Aqaba",
+      "cuisine": "Italian, Pizza",
+      "priceRange": "€€",
+      "description": "Casual Italian spot serving authentic Neapolitan pizza and pasta dishes in a relaxed family setting.",
+      "mustOrder": "Margherita pizza",
+      "lat": 29.5255,
+      "lng": 34.941
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Hashem Restaurant",
+      "address": "Al Nahda Street, Aqaba",
+      "neighbourhood": "Central Aqaba",
+      "cuisine": "Jordanian, Breakfast",
+      "priceRange": "€",
+      "description": "Popular breakfast and lunch destination serving traditional Jordanian fare including falafel, hummus, and fresh juices.",
+      "mustOrder": "Ful medames with eggs",
+      "lat": 29.525,
+      "lng": 34.943
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Oasis Grill House",
+      "address": "King Hussein Street, Aqaba",
+      "neighbourhood": "Downtown Aqaba",
+      "cuisine": "Middle Eastern, Grilled Meats",
+      "priceRange": "€€",
+      "description": "Neighbourhood grill house with a focus on charcoal-grilled lamb and chicken served with traditional sides.",
+      "mustOrder": "Lamb kofta kebab",
+      "lat": 29.5268,
+      "lng": 34.9405
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Blue Beach Club Restaurant",
+      "address": "South Beach Road, Aqaba",
+      "neighbourhood": "Beach Area",
+      "cuisine": "Mediterranean, Seafood",
+      "priceRange": "€€€",
+      "description": "Beach club with a relaxed vibe offering Mediterranean cuisine, fresh fish, and refreshing cocktails by the sea.",
+      "mustOrder": "Mixed seafood platter",
+      "lat": 29.5165,
+      "lng": 34.9375
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Abu Jaber Restaurant",
+      "address": "Raghdan Street, Aqaba",
+      "neighbourhood": "Downtown Aqaba",
+      "cuisine": "Jordanian, Traditional",
+      "priceRange": "€€",
+      "description": "Long-established restaurant famous for authentic Jordanian specialities prepared using traditional family recipes.",
+      "mustOrder": "Zarb (Bedouin oven-baked lamb)",
+      "lat": 29.526,
+      "lng": 34.9418
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Sunset Restaurant",
+      "address": "Al Corniche, Aqaba",
+      "neighbourhood": "Waterfront",
+      "cuisine": "International, Seafood",
+      "priceRange": "€€€",
+      "description": "Romantic waterfront venue with Mediterranean and Middle Eastern fusion cuisine enhanced by panoramic Red Sea views.",
+      "mustOrder": "Fish caught daily with seasonal vegetables",
+      "lat": 29.5295,
+      "lng": 34.9455
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Al Dar Al Qadima",
+      "address": "Old Town, Aqaba",
+      "neighbourhood": "Historic Aqaba",
+      "cuisine": "Jordanian, Levantine",
+      "priceRange": "€€",
+      "description": "Heritage restaurant in a restored traditional building serving classic Levantine and Jordanian cuisine in an atmospheric setting.",
+      "mustOrder": "Maqluba (upside-down rice and chicken)",
+      "lat": 29.524,
+      "lng": 34.94
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Marina Restaurant",
+      "address": "Yacht Club Road, Aqaba",
+      "neighbourhood": "Marina Area",
+      "cuisine": "International, Seafood",
+      "priceRange": "€€€",
+      "description": "Marina-view restaurant combining Mediterranean techniques with fresh local ingredients in an upscale casual environment.",
+      "mustOrder": "Catch of the day",
+      "lat": 29.521,
+      "lng": 34.9465
+    }
+  ]
+}

@@ -1,0 +1,1274 @@
+{
+  "id": "narino_pasto",
+  "name": "Nariño & Pasto",
+  "nameIt": "Nariño",
+  "capital": "Pasto",
+  "lat": 1.2136,
+  "lng": -77.2811,
+  "emoji": "🗻",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 2.5,
+    "south": -0.5,
+    "east": -76,
+    "west": -77.8
+  },
+  "history": "Nariño, located in the southwestern corner of Colombia near the Ecuadorian border, has a rich pre-Columbian heritage rooted in indigenous civilizations like the Quillacingas and Pastos peoples. The region was incorporated into the Spanish colonial system in the 16th century, becoming part of the Viceroyalty of New Granada, with Pasto emerging as a crucial administrative and religious center. Nariño played a significant role during Colombia's independence movements in the early 19th century, and the department has maintained its distinct cultural identity through centuries of indigenous and mestizo traditions. Today, the region is known for its colonial architecture, particularly in Pasto, and its unique blend of indigenous, Spanish, and African influences.",
+  "culturalNotes": "Nariño is renowned throughout Colombia for its distinctive Carnaval de Negros y Blancos, a UNESCO-recognized celebration held in Pasto each January featuring elaborate parades, vibrant costumes, and the playful tradition of throwing talcum powder and paint. The region's cultural character is deeply rooted in indigenous customs mixed with strong Catholic traditions, reflected in its religious festivals, artisanal crafts, and local cuisine featuring ingredients like potatoes, corn, and dairy products unique to the highland climate. Pasto's position as a cultural hub is reinforced by its preservation of colonial-era architecture, its thriving community of artists and craftspeople, and its role as a gateway between Colombian and Ecuadorian cultures.",
+  "bestTimeToVisit": "Visit June to September or December to January for clearer mountain views and festivals.",
+  "languageNotes": "Spanish is the primary language in Nariño and Pasto, though some indigenous communities still speak Quechua and other native languages. The local dialect maintains a clear, somewhat formal pronunciation influenced by the region's highland geography and indigenous heritage, and visitors will find useful phrases like 'Hola, soy visitante' (Hello, I'm a visitor) or 'Dónde puedo encontrar...?' (Where can I find...?) widely understood and appreciated.",
+  "generatedAt": "2026-07-23T09:36:44.935Z",
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "pasto",
+      "name": "Pasto",
+      "nameIt": "Pasto",
+      "lat": 1.2136,
+      "lng": -77.2811,
+      "type": "CITY",
+      "description": "The vibrant capital of Nariño Department, known for its rich indigenous heritage, colonial architecture, and as the epicenter of the famous Carnaval de Negros y Blancos festival. It's a colorful cultural hub with excellent museums, plazas, and local cuisine that represents southern Colombian identity.",
+      "imageQueries": [
+        "Pasto Colombia cityscape",
+        "Carnaval Negros Blancos Pasto"
+      ],
+      "activities": [
+        {
+          "id": "past_1",
+          "text": "Plaza de Nariño",
+          "detail": "The main square in the heart of Pasto surrounded by the Cathedral and colonial buildings, perfect for observing local life and architecture.",
+          "lat": 1.2136,
+          "lng": -77.2811
+        },
+        {
+          "id": "past_2",
+          "text": "Museo del Oro Nariño",
+          "detail": "A museum dedicated to pre-Hispanic gold artifacts and indigenous history from the Nariño region.",
+          "lat": 1.2144,
+          "lng": -77.2797
+        },
+        {
+          "id": "past_3",
+          "text": "Carnaval de Negros y Blancos Festival",
+          "detail": "The world-famous January carnival featuring elaborate floats, parades, and the iconic tradition of painting each other white and black.",
+          "lat": 1.2136,
+          "lng": -77.2811
+        },
+        {
+          "id": "past_4",
+          "text": "Iglesia de Santiago de Sibundoy",
+          "detail": "A beautifully preserved colonial church located in the nearby Sibundoy Valley, showcasing indigenous-Spanish architectural fusion.",
+          "lat": 1.0592,
+          "lng": -76.8181
+        },
+        {
+          "id": "past_5",
+          "text": "Laguna de la Cocha",
+          "detail": "A stunning high-altitude lake about 30 minutes from Pasto offering boat rides, fresh air, and views of the surrounding volcanic landscape.",
+          "lat": 1.0667,
+          "lng": -76.9833
+        },
+        {
+          "id": "past_6",
+          "text": "Santuario de Nuestra Señora de Las Lajas",
+          "detail": "An iconic white Gothic basilica built into a canyon about 90 minutes away, one of Colombia's most important pilgrimage sites.",
+          "lat": 1.2167,
+          "lng": -76.6333
+        },
+        {
+          "id": "past_7",
+          "text": "Centro Histórico Walking Tour",
+          "detail": "Stroll through colonial streets lined with colorful buildings, boutiques, and cafés showcasing Pasto's preserved architectural heritage.",
+          "lat": 1.2136,
+          "lng": -77.2811
+        }
+      ],
+      "food": [
+        {
+          "id": "past_f1",
+          "text": "Ceviche Nariñense",
+          "detail": "A fresh seafood dish with local fish, shrimp, and octopus marinated in lime juice, onions, and cilantro, reflecting the region's Pacific connection."
+        },
+        {
+          "id": "past_f2",
+          "text": "Empanadas de Verde",
+          "detail": "Fried pastries filled with seasoned potato, meat, and a hint of cheese that are a ubiquitous street food and comfort meal in Pasto."
+        },
+        {
+          "id": "past_f3",
+          "text": "Locro Nariñense",
+          "detail": "A hearty slow-cooked stew made with potatoes, corn, squash, beans, and often pork or chicken, representing indigenous culinary traditions."
+        },
+        {
+          "id": "past_f4",
+          "text": "Ajiaco Nariñense",
+          "detail": "A warming potato and vegetable soup unique to the region, typically served with avocado, corn, and a touch of regional spices."
+        },
+        {
+          "id": "past_f5",
+          "text": "Dulce de Papaya",
+          "detail": "Sweet candied papaya slices that are a traditional dessert and popular gift item showcasing local fruit preservation techniques."
+        },
+        {
+          "id": "past_f6",
+          "text": "Flan Nariñense",
+          "detail": "A creamy caramel custard dessert often infused with local flavors and served during festivals and special celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "past_c1",
+          "text": "Embrace Carnival Season Traditions",
+          "detail": "During January's Carnaval de Negros y Blancos, visitors should participate respectfully in the white and black paint tradition and understand its roots in celebrating African and indigenous heritage."
+        },
+        {
+          "id": "past_c2",
+          "text": "Respect Indigenous Heritage",
+          "detail": "Pasto's identity is deeply connected to indigenous communities, so approach cultural sites and museums with reverence and seek to learn about Quillacinga and Inga traditions."
+        },
+        {
+          "id": "past_c3",
+          "text": "Dress in Layers for Mountain Climate",
+          "detail": "At 2,560 meters elevation, Pasto's weather changes rapidly throughout the day, so carry a jacket even if it starts sunny."
+        },
+        {
+          "id": "past_c4",
+          "text": "Use Local Time and Pace",
+          "detail": "Pasto operates on a slower, more relaxed pace than larger Colombian cities—plan for longer meal times and flexible scheduling when visiting attractions."
+        }
+      ]
+    },
+    {
+      "id": "laguna_de_la_cocha",
+      "name": "Laguna de la Cocha",
+      "nameIt": "Laguna de la Cocha",
+      "lat": 1.0667,
+      "lng": -76.9667,
+      "type": "NATURE",
+      "description": "Colombia's largest mountain lake located in a pristine high-altitude ecosystem at 2,737 meters, surrounded by lush forests and small islands including the charming community of El Encano. It offers stunning nature walks, bird watching, boat tours, and peaceful mountain scenery ideal for relaxation and outdoor exploration.",
+      "imageQueries": [
+        "Laguna de la Cocha lake",
+        "Laguna Cocha El Encano island"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Boat Tour to El Encano",
+          "detail": "Take a motorized canoe across the lake to visit the island community of El Encano, known for its artisanal crafts and local hospitality.",
+          "lat": 1.2167,
+          "lng": -77.2667
+        },
+        {
+          "id": "lagu_2",
+          "text": "Bird Watching at Dawn",
+          "detail": "Visit the lake's shores early morning to spot endemic bird species including Andean ducks, herons, and the rare Silvery Grebe in their natural habitat.",
+          "lat": 1.22,
+          "lng": -77.27
+        },
+        {
+          "id": "lagu_3",
+          "text": "Nature Walk Around La Cocha Trail",
+          "detail": "Hike the scenic forest trails that encircle portions of the lake, passing through cloud forest vegetation and offering panoramic mountain views.",
+          "lat": 1.215,
+          "lng": -77.275
+        },
+        {
+          "id": "lagu_4",
+          "text": "Visit the Indigenous Inga Communities",
+          "detail": "Explore nearby Inga settlements to learn about traditional highland agriculture, medicinal plants, and indigenous culture unique to Nariño.",
+          "lat": 1.21,
+          "lng": -77.28
+        },
+        {
+          "id": "lagu_5",
+          "text": "Fishing for Mountain Trout",
+          "detail": "Try fly fishing or traditional angling for freshwater trout in the pristine waters, with local guides available to teach techniques.",
+          "lat": 1.218,
+          "lng": -77.268
+        },
+        {
+          "id": "lagu_6",
+          "text": "Sunset Photography at the Lake Shore",
+          "detail": "Capture the dramatic light as the sun sets over the Andes mountains reflected in the calm lake waters, best from the western shore.",
+          "lat": 1.214,
+          "lng": -77.28
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh-caught mountain trout from the lake prepared simply with butter, lemon, and local herbs, a signature dish of the region."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Sancocho de Papas",
+          "detail": "A hearty highland potato stew made with local varieties of potatoes, corn, and often served with fresh cheese and avocado from the Nariño region."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Empanadas de Queso",
+          "detail": "Crispy fried pastries filled with local fresh cheese and served with spicy aji sauce, a popular snack sold by vendors near the lake."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Ajiaco Nariñense",
+          "detail": "A thick regional soup combining potatoes, quinoa, and local vegetables unique to the high-altitude ecosystem of southern Colombia."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Fresh Trout Ceviche",
+          "detail": "A lighter preparation of local trout cured in citrus juice with onions, cilantro, and served as an appetizer at lakeside restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Respect Local Ferry Schedules",
+          "detail": "Boats to El Encano operate on set schedules that may depend on weather and passenger numbers, so plan flexibility into your visit rather than expecting frequent departures."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "High Altitude Acclimatization",
+          "detail": "At 2,737 meters elevation, visitors from lowlands may experience altitude effects; arrive a day early to acclimate and avoid strenuous activity on arrival day."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Support Local Artisans",
+          "detail": "The communities around the lake, especially El Encano, depend on tourism; purchasing handmade crafts and hiring local guides directly supports indigenous families."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Weather Changes Rapidly",
+          "detail": "Mountain weather shifts quickly from clear to rainy within hours, so dress in layers and always carry a rain jacket regardless of morning forecasts."
+        }
+      ]
+    },
+    {
+      "id": "san_juan_de_pasto_downtown",
+      "name": "Historic Center of Pasto",
+      "nameIt": "Centro Histórico de Pasto",
+      "lat": 1.2141,
+      "lng": -77.2847,
+      "type": "LANDMARK",
+      "description": "The heart of Pasto features beautifully preserved colonial architecture, the Cathedral, Plaza de Nariño, and vibrant markets that showcase local crafts and traditional goods. It's a living museum where colonial charm meets modern energy, perfect for experiencing authentic southern Colombian culture.",
+      "imageQueries": [
+        "Pasto historic center Cathedral",
+        "Plaza Nariño Pasto colonial"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Explore Plaza de Nariño",
+          "detail": "The main square surrounded by colonial architecture and the Cathedral, ideal for observing daily life and soaking in the atmosphere of the historic center.",
+          "lat": 1.2136,
+          "lng": -77.2766
+        },
+        {
+          "id": "san__2",
+          "text": "Visit Catedral Metropolitana de Pasto",
+          "detail": "The impressive neoclassical cathedral dominating Plaza de Nariño, featuring intricate architectural details and religious artwork reflecting centuries of faith and craftsmanship.",
+          "lat": 1.2139,
+          "lng": -77.2768
+        },
+        {
+          "id": "san__3",
+          "text": "Wander colonial streets and restored buildings",
+          "detail": "Stroll through narrow cobblestone streets lined with whitewashed colonial houses featuring wooden balconies and colorful doors that characterize the historic quarter.",
+          "lat": 1.2145,
+          "lng": -77.2755
+        },
+        {
+          "id": "san__4",
+          "text": "Browse local craft markets",
+          "detail": "Visit markets throughout the historic center selling traditional Nariño crafts including hand-painted ceramics, woven goods, and wooden pieces reflecting indigenous and colonial influences.",
+          "lat": 1.213,
+          "lng": -77.276
+        },
+        {
+          "id": "san__5",
+          "text": "Tour Museo Juan Lombardo Nariño",
+          "detail": "Explore this museum dedicated to local art and history, showcasing regional artistic traditions and artifacts related to Pasto's cultural heritage.",
+          "lat": 1.212,
+          "lng": -77.277
+        },
+        {
+          "id": "san__6",
+          "text": "Visit local artisan workshops",
+          "detail": "Watch craftspeople create traditional items like Barniz de Pasto (decorative lacquerware) and other handmade goods in small studios throughout the historic center."
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Ceviche nariñense",
+          "detail": "A regional variation of the classic Andean dish featuring fresh fish or seafood marinated in citrus, served with corn, potatoes, and local seasonings unique to Nariño."
+        },
+        {
+          "id": "san__f2",
+          "text": "Empanadas de queso",
+          "detail": "Deep-fried pastry pockets filled with melted local cheese, a beloved street food and snack throughout Pasto's markets and plazas."
+        },
+        {
+          "id": "san__f3",
+          "text": "Sancocho nariñense",
+          "detail": "A hearty stew featuring local potatoes, plantains, corn, and meat simmered together with regional spices, representing comfort food of the southern Colombian highlands."
+        },
+        {
+          "id": "san__f4",
+          "text": "Ajiaco nariñense",
+          "detail": "A thick soup made with local potatoes, cheese, cream, and guascas herb, warmer and more substantial than variations found in other Colombian regions."
+        },
+        {
+          "id": "san__f5",
+          "text": "Tamales nariñenses",
+          "detail": "Corn-based parcels wrapped in plantain leaves and stuffed with meat, potatoes, and peas, commonly eaten for breakfast or special occasions in the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Plan visits around market hours",
+          "detail": "Most artisan markets and craft shops in the historic center open mid-morning and close by evening, so arrive early to see the best selection and interact with local vendors."
+        },
+        {
+          "id": "san__c2",
+          "text": "Respect religious sites and customs",
+          "detail": "The Cathedral and religious spaces are active places of worship, so dress modestly and be respectful if entering during services or quiet hours."
+        },
+        {
+          "id": "san__c3",
+          "text": "Learn about Carnival traditions",
+          "detail": "Pasto is famous for its Carnival celebrations (usually January), so asking locals about traditional costumes, music, and the significance of local celebrations enriches your cultural understanding."
+        },
+        {
+          "id": "san__c4",
+          "text": "Support local artisans directly",
+          "detail": "Buying directly from craftspeople in the historic center rather than tourist shops ensures your money supports the community and preserves traditional Nariño craftsmanship."
+        }
+      ]
+    },
+    {
+      "id": "volcan_galeras",
+      "name": "Volcán Galeras",
+      "nameIt": "Volcán Galeras",
+      "lat": 1.2231,
+      "lng": -77.1708,
+      "type": "NATURE",
+      "description": "An active stratovolcano towering at 4,276 meters just outside Pasto, offering dramatic hiking opportunities with panoramic Andean views and glimpses into the crater area. It's one of Colombia's most accessible high-altitude peaks and provides an unforgettable adventure for trekkers of various skill levels.",
+      "imageQueries": [
+        "Volcan Galeras crater hike",
+        "Galeras volcano Pasto Colombia"
+      ],
+      "activities": [
+        {
+          "id": "volc_1",
+          "text": "Crater Rim Hike",
+          "detail": "Trek to the active crater's edge for views into the volcanic cone and fumaroles releasing sulfurous gases.",
+          "lat": 1.2237,
+          "lng": -76.3975
+        },
+        {
+          "id": "volc_2",
+          "text": "Summit Trek to Pico de Galeras",
+          "detail": "Climb to the 4,276-meter peak for 360-degree panoramic views of the Nariño highlands and Ecuador's border regions.",
+          "lat": 1.222,
+          "lng": -76.397
+        },
+        {
+          "id": "volc_3",
+          "text": "Laguna de la Plaza Visit",
+          "detail": "Hike to a high-altitude glacial lake surrounded by páramo ecosystem and volcanic rock formations.",
+          "lat": 1.23,
+          "lng": -76.385
+        },
+        {
+          "id": "volc_4",
+          "text": "Geothermal Features Exploration",
+          "detail": "Observe hot springs, steam vents, and mineral deposits created by the volcano's ongoing geothermal activity.",
+          "lat": 1.2237,
+          "lng": -76.3975
+        },
+        {
+          "id": "volc_5",
+          "text": "Early Morning Sunrise Watch",
+          "detail": "Start before dawn from Pasto to catch the sunrise illuminating the Andes from the summit while clouds gather below.",
+          "lat": 1.222,
+          "lng": -76.397
+        },
+        {
+          "id": "volc_6",
+          "text": "Wildlife Spotting in Páramo",
+          "detail": "Search for Andean condors, white-tailed deer, and Galeras rabbits while traversing the volcanic grasslands."
+        },
+        {
+          "id": "volc_7",
+          "text": "Geological Interpretation Walk",
+          "detail": "Join a guide tour to understand Galeras' volcanic history, eruption patterns, and the 1993 catastrophic event that shaped current safety protocols."
+        }
+      ],
+      "food": [
+        {
+          "id": "volc_f1",
+          "text": "Caldo de Papas Nariñense",
+          "detail": "A hearty creamy potato soup made with local Nariño potatoes, corn, and served with avocado and fresh cheese, perfect for warming up after high-altitude hiking."
+        },
+        {
+          "id": "volc_f2",
+          "text": "Empanadas de Queso y Papa",
+          "detail": "Golden-fried pastries stuffed with local Nariño potatoes and fresh cheese, commonly eaten as a quick energy snack before or after volcano treks."
+        },
+        {
+          "id": "volc_f3",
+          "text": "Trucha a la Parrilla",
+          "detail": "Grilled fresh trout from local mountain streams, seasoned simply with lemon and herbs, reflecting the region's high-altitude fishing tradition."
+        },
+        {
+          "id": "volc_f4",
+          "text": "Ajiaco Nariñense",
+          "detail": "A regional variation of Colombia's famous stew featuring local potatoes, chicken, and served with avocado and local herbs specific to Pasto's cuisine."
+        },
+        {
+          "id": "volc_f5",
+          "text": "Arepa de Queso con Choclo",
+          "detail": "Corn arepas filled with fresh cheese and cooked corn kernels, a traditional breakfast staple in Pasto before mountain expeditions."
+        },
+        {
+          "id": "volc_f6",
+          "text": "Mora Berries with Fresh Cheese",
+          "detail": "Local blackberries grown in the cool highlands paired with fresh quesillo cheese, reflecting Nariño's agricultural specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "volc_c1",
+          "text": "Respect Volcanic Activity Warnings",
+          "detail": "Always check with local authorities and guides about current volcanic activity levels, as Galeras remains one of Colombia's most active volcanoes with occasional ash and gas emissions."
+        },
+        {
+          "id": "volc_c2",
+          "text": "Acclimatization is Essential",
+          "detail": "Spend at least one night in Pasto (2,560 meters) before attempting the summit to adjust to altitude and reduce risk of soroche (mountain sickness)."
+        },
+        {
+          "id": "volc_c3",
+          "text": "Hire Local Certified Guides",
+          "detail": "Use registered guides from Pasto who understand current safety protocols, volcanic hazards, and can share stories of the 1993 eruption that deeply shaped local consciousness."
+        },
+        {
+          "id": "volc_c4",
+          "text": "Local Dress and Weather Preparation",
+          "detail": "Dress in layers as Galeras' weather changes rapidly; locals wear ponchos and wool hats common to the Andean region, and temperatures drop significantly above 3,500 meters."
+        }
+      ]
+    },
+    {
+      "id": "cumbal",
+      "name": "Cumbal",
+      "nameIt": "Cumbal",
+      "lat": 0.9928,
+      "lng": -76.5883,
+      "type": "TOWN",
+      "description": "A small indigenous town home to the Cumbal volcano and important cultural center for the Pastos indigenous people, offering authentic experiences of mountain Andean traditions. The nearby volcano and high-altitude páramo ecosystem provide rewarding hiking and cultural immersion opportunities.",
+      "imageQueries": [
+        "Cumbal Colombia indigenous",
+        "Cumbal volcano Nariño"
+      ],
+      "activities": [
+        {
+          "id": "cumb_1",
+          "text": "Cumbal Volcano Summit Trek",
+          "detail": "A challenging full-day hike to the 4,764m peak offering panoramic views of the Andes and a chance to explore the volcano's crater and fumaroles.",
+          "lat": 1.5647,
+          "lng": -76.8264
+        },
+        {
+          "id": "cumb_2",
+          "text": "Páramo Ecosystem Walk",
+          "detail": "Guided walks through the high-altitude páramo grasslands surrounding Cumbal where you'll observe frailejones plants, alpine wildlife, and traditional grazing practices.",
+          "lat": 1.575,
+          "lng": -76.83
+        },
+        {
+          "id": "cumb_3",
+          "text": "Cumbal Town Market Visit",
+          "detail": "Explore the indigenous market where Pastos people sell traditional crafts, textiles, vegetables, and agricultural products every market day.",
+          "lat": 1.5682,
+          "lng": -76.8185
+        },
+        {
+          "id": "cumb_4",
+          "text": "Laguna Verde Hike",
+          "detail": "A moderate trek to this high-altitude glacial lake surrounded by páramo vegetation, offering serene mountain scenery and cultural insight into indigenous water sources.",
+          "lat": 1.582,
+          "lng": -76.845
+        },
+        {
+          "id": "cumb_5",
+          "text": "Indigenous Weaving Workshops",
+          "detail": "Meet Pastos weavers in their homes to learn traditional textile techniques and understand the symbolic patterns that represent indigenous cosmology.",
+          "lat": 1.568,
+          "lng": -76.82
+        },
+        {
+          "id": "cumb_6",
+          "text": "Local Herbal Medicine Tour",
+          "detail": "Visit with traditional healers who cultivate medicinal plants in the páramo and explain ancestral Pastos healing practices.",
+          "lat": 1.57,
+          "lng": -76.818
+        }
+      ],
+      "food": [
+        {
+          "id": "cumb_f1",
+          "text": "Papas a la Criolla",
+          "detail": "Local potatoes—several Andean varieties grown in Cumbal—boiled and served with a rich cheese sauce and topped with a fried egg, a traditional mountain staple."
+        },
+        {
+          "id": "cumb_f2",
+          "text": "Trucha de Páramo",
+          "detail": "Fresh trout caught from high-altitude streams around Cumbal, typically grilled simply with lemon, garlic, and local herbs."
+        },
+        {
+          "id": "cumb_f3",
+          "text": "Locro de Papa",
+          "detail": "A hearty indigenous stew made with potatoes, corn, beans, and local herbs simmered together, warming and nourishing for the mountain climate."
+        },
+        {
+          "id": "cumb_f4",
+          "text": "Arepas de Maíz Andino",
+          "detail": "Thick corn cakes made from traditional Andean corn varieties grown locally, served plain or with cheese and eaten at breakfast or as a snack."
+        },
+        {
+          "id": "cumb_f5",
+          "text": "Chicha de Maíz",
+          "detail": "A traditional fermented corn beverage prepared by indigenous families using ancestral methods, offered during celebrations and community gatherings."
+        },
+        {
+          "id": "cumb_f6",
+          "text": "Quesadillas de Cuajada",
+          "detail": "Fresh cheese pastries made with locally produced cuajada (curd) and wrapped in corn husks, a sweet and savory Pastos specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cumb_c1",
+          "text": "Respect Indigenous Ceremonies",
+          "detail": "Ask permission before photographing or observing Pastos rituals or celebrations, and understand that some sacred practices are not open to outsiders."
+        },
+        {
+          "id": "cumb_c2",
+          "text": "Learn Basic Spanish and Pastos Words",
+          "detail": "While Spanish is spoken, learning a few words in Pasto language (or at least attempting it) shows respect for the indigenous community's heritage."
+        },
+        {
+          "id": "cumb_c3",
+          "text": "Dress Appropriately for Climate and Culture",
+          "detail": "Wear warm, layered clothing for the high altitude and cold temperatures, and avoid flashy Western wear that may feel disrespectful in this traditional indigenous setting."
+        },
+        {
+          "id": "cumb_c4",
+          "text": "Support Local Economy Directly",
+          "detail": "Buy crafts, food, and services directly from indigenous families and local cooperatives rather than through middlemen to ensure your money benefits the community."
+        }
+      ]
+    },
+    {
+      "id": "santuario_flora_fauna_isla_corota",
+      "name": "Isla Corota Wildlife Sanctuary",
+      "nameIt": "Santuario de Fauna y Flora Isla Corota",
+      "lat": 1.0733,
+      "lng": -76.955,
+      "type": "ISLAND",
+      "description": "A small protected island within Laguna de la Cocha that serves as a critical refuge for endemic bird species and unique high-altitude flora. It's accessible by boat and offers an intimate nature experience with guided walks through cloud forest habitat.",
+      "imageQueries": [
+        "Isla Corota island sanctuary",
+        "Isla Corota Laguna Cocha birds"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Guided Cloud Forest Walk",
+          "detail": "Trek through the island's misty cloud forest on marked trails to observe endemic plant species and moss-covered trees unique to this high-altitude ecosystem."
+        },
+        {
+          "id": "sant_2",
+          "text": "Bird Watching",
+          "detail": "Spot endemic species including the Andean condor, mountain tanagers, and hummingbirds with a naturalist guide who can identify calls and behavior patterns."
+        },
+        {
+          "id": "sant_3",
+          "text": "Laguna de la Cocha Boat Tour",
+          "detail": "Take a motorboat excursion around the lake from the island to view the broader landscape and visit nearby fishing communities.",
+          "lat": 1.0628,
+          "lng": -76.9908
+        },
+        {
+          "id": "sant_4",
+          "text": "Photography of Endemic Flora",
+          "detail": "Capture images of rare orchids, bromeliads, and high-altitude plants found only in this sanctuary with assistance from knowledgeable guides."
+        },
+        {
+          "id": "sant_5",
+          "text": "Viewpoint at Island Summit",
+          "detail": "Climb to the highest point on Isla Corota for panoramic views of Laguna de la Cocha and the surrounding Nariño highlands."
+        },
+        {
+          "id": "sant_6",
+          "text": "Naturalist-Led Biodiversity Tour",
+          "detail": "Join a comprehensive guided experience focusing on insects, amphibians, and small mammals in their natural habitat with interpretation in Spanish and English."
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Trucha a la Nariñense",
+          "detail": "Fresh grilled trout caught from Laguna de la Cocha, typically prepared with local herbs and served at the island's visitor facilities or nearby lodges."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Ajiaco Nariñense",
+          "detail": "A hearty regional potato soup made with local high-altitude potatoes, chicken broth, corn, and served with avocado and cream."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Empanadas de Queso",
+          "detail": "Fried pastry pockets filled with local Nariño cheese and potatoes, commonly available at the island's visitor center or boat dock."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Mazorca Asada",
+          "detail": "Fresh roasted corn from the Pasto region served with local butter and cheese, often available as a snack near the sanctuary entrance."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Respect Indigenous Land Management",
+          "detail": "The island and lake region have deep roots in indigenous Quillacinga and Yanacona territories, so approach the sanctuary with awareness of traditional ecological knowledge and show respect to local guides."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Book Guides in Advance",
+          "detail": "Visit the sanctuary office in Pasto or call ahead to arrange certified naturalist guides; independent exploration is not permitted to protect the ecosystem."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Bring Layers and Rain Gear",
+          "detail": "The cloud forest is cool and frequently wet, so locals and visitors dress in layers and waterproof jackets year-round, reflecting the highland climate reality."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Support Local Boat Operators",
+          "detail": "Use registered cooperative boat services from El Puerto, the main dock on Laguna de la Cocha, to ensure tourism revenue supports the local community."
+        }
+      ]
+    },
+    {
+      "id": "museo_taller_guambiano",
+      "name": "Guambiano Workshop Museum",
+      "nameIt": "Museo Taller Guambiano",
+      "lat": 1.2139,
+      "lng": -77.2841,
+      "type": "LANDMARK",
+      "description": "Located in Pasto, this museum celebrates the artisanal traditions and cultural heritage of the Guambiano indigenous people through crafts, textiles, and interactive demonstrations. It provides authentic insights into pre-Hispanic and contemporary indigenous life in the region.",
+      "imageQueries": [
+        "Guambiano museum Pasto",
+        "Guambiano textile crafts indigenous"
+      ],
+      "activities": [
+        {
+          "id": "muse_1",
+          "text": "Textile Weaving Demonstrations",
+          "detail": "Watch Guambiano artisans demonstrate traditional backstrap loom weaving techniques used to create intricate patterns and colorful fabrics.",
+          "lat": 1.2136,
+          "lng": -77.2868
+        },
+        {
+          "id": "muse_2",
+          "text": "Ceramic and Pottery Workshops",
+          "detail": "Observe or participate in hands-on pottery creation using pre-Hispanic clay techniques passed down through generations of Guambiano craftspeople.",
+          "lat": 1.2136,
+          "lng": -77.2868
+        },
+        {
+          "id": "muse_3",
+          "text": "Indigenous Art Gallery Tour",
+          "detail": "Explore rotating exhibitions showcasing beadwork, traditional dress embroidery, and contemporary indigenous art reflecting Guambiano identity and spirituality.",
+          "lat": 1.2136,
+          "lng": -77.2868
+        },
+        {
+          "id": "muse_4",
+          "text": "Craft Market and Artisan Shop",
+          "detail": "Purchase directly from Guambiano makers, acquiring authentic handwoven textiles, beaded accessories, and ceramic pieces with proceeds supporting local communities.",
+          "lat": 1.2136,
+          "lng": -77.2868
+        },
+        {
+          "id": "muse_5",
+          "text": "Cultural Documentation Center",
+          "detail": "Access photographs, oral histories, and archival materials documenting Guambiano migration patterns, ceremonial practices, and contemporary life in Cauca province."
+        },
+        {
+          "id": "muse_6",
+          "text": "Interactive Museum Exhibits",
+          "detail": "Engage with displays explaining pre-Hispanic Guambiano history, colonial period adaptation, and the significance of traditional clothing colors and patterns in modern ceremonies."
+        }
+      ],
+      "food": [
+        {
+          "id": "muse_f1",
+          "text": "Locro Nariñense",
+          "detail": "A hearty regional stew combining beef, potatoes, corn, and fresh herbs characteristic of Pasto cuisine and often served at community gatherings near the museum."
+        },
+        {
+          "id": "muse_f2",
+          "text": "Empanadas de Pipián",
+          "detail": "Fried pastries filled with seasoned meat and topped with a creamy peanut-based sauce, a traditional Nariño delicacy frequently available at nearby markets."
+        },
+        {
+          "id": "muse_f3",
+          "text": "Chicha de Maíz",
+          "detail": "A fermented or fresh corn beverage with indigenous roots, sometimes sweetened with panela, representing pre-Hispanic Guambiano culinary traditions."
+        },
+        {
+          "id": "muse_f4",
+          "text": "Tamales Verdes",
+          "detail": "Steamed corn masa parcels filled with chicken or pork and wrapped in fresh corn husks, a staple preparation method shared across southern Colombian indigenous communities."
+        },
+        {
+          "id": "muse_f5",
+          "text": "Ajiaco Nariñense",
+          "detail": "A potato and chicken soup indigenous to the region, thickened with corn flour and served with fresh avocado, reflecting local agricultural traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "muse_c1",
+          "text": "Respect Traditional Dress Codes",
+          "detail": "Many Guambiano visitors wear distinctive traditional clothing including woven ponchos and wrapped headscarves; avoid photographing individuals without explicit permission as dress carries spiritual significance."
+        },
+        {
+          "id": "muse_c2",
+          "text": "Learn About Spanish Colonial Impact",
+          "detail": "The Guambiano people were relocated from the Cauca region during Spanish colonization; understanding this history enriches appreciation for how the museum documents cultural resilience and adaptation."
+        },
+        {
+          "id": "muse_c3",
+          "text": "Participate Humbly in Demonstrations",
+          "detail": "If invited to try weaving or pottery, approach with genuine interest and ask questions respectfully, as artisans value engaged learners over passive observation."
+        },
+        {
+          "id": "muse_c4",
+          "text": "Visit During Local Celebrations",
+          "detail": "Plan visits around Pasto's cultural events or Guambiano ceremonial dates when the museum may host special exhibitions or live performances showcasing contemporary indigenous practices."
+        }
+      ]
+    },
+    {
+      "id": "mocoa",
+      "name": "Mocoa",
+      "nameIt": "Mocoa",
+      "lat": 0.3515,
+      "lng": -76.6491,
+      "type": "TOWN",
+      "description": "The capital of Putumayo Department, a gateway to the Amazon region featuring lush subtropical vegetation, waterfalls, and adventure activities in a biodiverse landscape. It offers an introduction to Amazon ecology with river activities, jungle hikes, and indigenous cultural experiences.",
+      "imageQueries": [
+        "Mocoa Colombia Amazon",
+        "Mocoa Putumayo waterfall"
+      ],
+      "activities": [
+        {
+          "id": "moco_1",
+          "text": "Salto de Mocoa",
+          "detail": "A stunning 80-meter waterfall located just outside the city center where you can swim in crystal-clear pools surrounded by jungle.",
+          "lat": 0.9534,
+          "lng": -76.6447
+        },
+        {
+          "id": "moco_2",
+          "text": "Río Putumayo River Activities",
+          "detail": "Take guided canoe or kayak trips along the main river to spot pink river dolphins, caimans, and diverse bird species while learning about the Amazon ecosystem.",
+          "lat": 0.9425,
+          "lng": -76.6524
+        },
+        {
+          "id": "moco_3",
+          "text": "Jungle Hiking Trails",
+          "detail": "Explore guided treks through primary and secondary rainforest near Mocoa to experience biodiversity hotspots and encounter wildlife like poison dart frogs and macaws.",
+          "lat": 0.95,
+          "lng": -76.64
+        },
+        {
+          "id": "moco_4",
+          "text": "Indigenous Community Visits",
+          "detail": "Visit nearby Kofán and Inga indigenous settlements to learn about traditional hunting, medicinal plants, and ancestral knowledge of the rainforest.",
+          "lat": 0.96,
+          "lng": -76.65
+        },
+        {
+          "id": "moco_5",
+          "text": "Cascada de Condor",
+          "detail": "Hike to this remote waterfall in the surrounding highlands for views of multiple cascades and opportunities to spot Andean birds.",
+          "lat": 0.92,
+          "lng": -76.63
+        },
+        {
+          "id": "moco_6",
+          "text": "Eco-Lodge Stays",
+          "detail": "Stay at jungle lodges on the outskirts of Mocoa to experience immersive Amazon nights with sounds of the rainforest and early morning bird watching."
+        }
+      ],
+      "food": [
+        {
+          "id": "moco_f1",
+          "text": "Ceviche de Picuda",
+          "detail": "Fresh fish ceviche made with local river picuda fish, citrus, and tropical peppers served as a refreshing appetizer reflecting Amazonian river cuisine."
+        },
+        {
+          "id": "moco_f2",
+          "text": "Sancocho de Pescado",
+          "detail": "A hearty stew of river fish, plantains, yams, and local vegetables slow-cooked with regional spices and served with rice."
+        },
+        {
+          "id": "moco_f3",
+          "text": "Ajiaco Putumayense",
+          "detail": "A regional variation of the Colombian soup using jungle tubers, green plantains, local herbs, and topped with fresh cilantro and lime."
+        },
+        {
+          "id": "moco_f4",
+          "text": "Chontaduro con Queso",
+          "detail": "Boiled chontaduro palm fruit served with fresh local cheese, a simple and protein-rich snack popular throughout the Putumayo region."
+        },
+        {
+          "id": "moco_f5",
+          "text": "Caldo de Gallina Criolla",
+          "detail": "Traditional chicken broth made with free-range local chicken, root vegetables, and aromatic herbs that locals consider restorative."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moco_c1",
+          "text": "Respect Jungle Guidelines",
+          "detail": "Always hire certified local guides when venturing into the rainforest, as the jungle is home to dangerous wildlife and indigenous territories require permission and cultural sensitivity."
+        },
+        {
+          "id": "moco_c2",
+          "text": "Rainy Season Preparation",
+          "detail": "Mocoa receives heavy rainfall year-round, so pack waterproof gear and sturdy hiking boots; locals dress practically for muddy trails and sudden downpours."
+        },
+        {
+          "id": "moco_c3",
+          "text": "Indigenous Language Awareness",
+          "detail": "While Spanish is spoken, many indigenous communities speak Kofán and other native languages; learning basic Spanish phrases and showing respect for indigenous cultures enhances your visit."
+        },
+        {
+          "id": "moco_c4",
+          "text": "Slow Travel Mindset",
+          "detail": "Mocoa and the Amazon operate on a different pace than Colombian cities; expect activities to start later, embrace flexibility, and allow time for unexpected natural discoveries."
+        }
+      ]
+    },
+    {
+      "id": "nudo_de_los_pastos",
+      "name": "Nudo de los Pastos Park",
+      "nameIt": "Nudo de los Pastos",
+      "lat": 1.05,
+      "lng": -76.45,
+      "type": "NATURE",
+      "description": "A mountainous natural park and ecological reserve featuring high-altitude páramo ecosystems, rare flora, and spectacular mountain vistas between the valleys of Nariño. It's ideal for serious hikers and nature enthusiasts seeking pristine Andean wilderness away from crowds.",
+      "imageQueries": [
+        "Nudo Pastos Colombia mountains",
+        "Nudo Pastos páramo ecosystem"
+      ],
+      "activities": [
+        {
+          "id": "nudo_1",
+          "text": "High-altitude páramo hiking",
+          "detail": "Trek through rare frailejón plants and alpine grasslands on well-marked trails that wind through the park's 3,600+ meter elevation zones.",
+          "lat": 1.2167,
+          "lng": -76.5167
+        },
+        {
+          "id": "nudo_2",
+          "text": "Laguna de la Plaza summit ascent",
+          "detail": "Challenge yourself on a full-day hike to one of the park's highest lakes, rewarded with panoramic views of the Nariño valleys and surrounding peaks.",
+          "lat": 1.23,
+          "lng": -76.52
+        },
+        {
+          "id": "nudo_3",
+          "text": "Espeletia and endemic flora observation",
+          "detail": "Photograph and study the distinctive giant frailejón plants and other high-altitude endemics found nowhere else in Colombia."
+        },
+        {
+          "id": "nudo_4",
+          "text": "Condor spotting and birdwatching",
+          "detail": "Search for the endangered Andean condor and other mountain birds like the Toucan Andino along ridge lines and thermal updrafts."
+        },
+        {
+          "id": "nudo_5",
+          "text": "Sunrise from mountain ridge camps",
+          "detail": "Camp overnight at designated sites and witness the sunrise illuminate the surrounding páramo landscape in shades of gold and violet."
+        },
+        {
+          "id": "nudo_6",
+          "text": "Waterfall hikes to glacial-fed streams",
+          "detail": "Navigate to pristine mountain waterfalls fed by seasonal snowmelt and glacial runoff deep within the park's protected valleys."
+        },
+        {
+          "id": "nudo_7",
+          "text": "Geological formations and rock formations tour",
+          "detail": "Explore ancient volcanic rock outcrops and unique geological features that tell the story of the Andes' tectonic history."
+        }
+      ],
+      "food": [
+        {
+          "id": "nudo_f1",
+          "text": "Ajiaco nariñense",
+          "detail": "A hearty potato and vegetable soup from the Nariño region, typically served with avocado and served warm after long mountain hikes."
+        },
+        {
+          "id": "nudo_f2",
+          "text": "Papas a la huancaína",
+          "detail": "Yellow potato dish with a rich cheese and aji pepper sauce, representing classic Andean cuisine found in mountain communities around the park."
+        },
+        {
+          "id": "nudo_f3",
+          "text": "Trucha fresca",
+          "detail": "Locally caught freshwater trout from the park's streams, typically grilled simply with lemon and served in nearby mountain lodges."
+        },
+        {
+          "id": "nudo_f4",
+          "text": "Empanadas de maíz",
+          "detail": "Crispy corn pastries filled with cheese or meat, sold by local vendors and perfect as hiking fuel before early morning treks."
+        },
+        {
+          "id": "nudo_f5",
+          "text": "Chicha de maíz",
+          "detail": "Traditional fermented corn beverage served cold, offering authentic Nariño regional flavor and cultural connection to indigenous traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nudo_c1",
+          "text": "Hire certified mountain guides",
+          "detail": "Local guides from Pasto are essential for navigation in the páramo, weather changes, and to support community tourism initiatives."
+        },
+        {
+          "id": "nudo_c2",
+          "text": "Respect páramo fragility",
+          "detail": "Stay strictly on marked trails as the páramo ecosystem is extremely delicate; avoid disturbing frailejón plants and bring out all waste."
+        },
+        {
+          "id": "nudo_c3",
+          "text": "Acclimatization is critical",
+          "detail": "Arrive in Pasto several days before attempting high-altitude hikes to adjust to thin air above 3,600 meters and prevent altitude sickness."
+        },
+        {
+          "id": "nudo_c4",
+          "text": "Visit during dry season",
+          "detail": "Plan treks for December-February or July-August when weather is most stable; rainy seasons can make trails impassable and dangerous."
+        }
+      ]
+    },
+    {
+      "id": "chillan",
+      "name": "Chillán",
+      "nameIt": "Chillán",
+      "lat": 0.9319,
+      "lng": -76.7056,
+      "type": "VILLAGE",
+      "description": "A small rural village known for its artisanal production of traditional ceramics and handicrafts that reflect Pasto's famous decorative arts heritage. Visitors can watch craftspeople at work and purchase authentic local products directly from makers.",
+      "imageQueries": [
+        "Chillán ceramics pottery Nariño",
+        "Chillán Colombia handicrafts"
+      ],
+      "activities": [
+        {
+          "id": "chil_1",
+          "text": "Ceramic Workshop Tours",
+          "detail": "Visit active pottery studios where artisans hand-craft traditional Pasto ceramics using colonial techniques passed down through generations.",
+          "lat": 1.2135,
+          "lng": -77.2844
+        },
+        {
+          "id": "chil_2",
+          "text": "Handicraft Market",
+          "detail": "Browse and purchase directly from local makers in the village center, featuring painted wooden boxes, ceramics, and woven textiles authentic to the region.",
+          "lat": 1.214,
+          "lng": -77.285
+        },
+        {
+          "id": "chil_3",
+          "text": "Traditional Pottery Demonstration",
+          "detail": "Watch craftspeople shape clay on traditional wheels and hand-paint intricate designs using natural pigments in their workshops.",
+          "lat": 1.213,
+          "lng": -77.284
+        },
+        {
+          "id": "chil_4",
+          "text": "Local Farm Visits",
+          "detail": "Experience rural agricultural practices and visit small farms producing corn, beans, and herbs used in traditional Nariño cuisine.",
+          "lat": 1.2125,
+          "lng": -77.2835
+        },
+        {
+          "id": "chil_5",
+          "text": "Artisan Apprenticeship Classes",
+          "detail": "Participate in half-day workshops learning basic ceramic painting or handicraft techniques directly from village artisans.",
+          "lat": 1.2138,
+          "lng": -77.2848
+        }
+      ],
+      "food": [
+        {
+          "id": "chil_f1",
+          "text": "Caldo de Papa",
+          "detail": "A hearty potato soup made with local highland potatoes, corn, and regional herbs, served as a traditional midday meal in Chillán."
+        },
+        {
+          "id": "chil_f2",
+          "text": "Empanadas de Verde",
+          "detail": "Deep-fried pastries filled with mashed green plantains, cheese, and meat, a staple snack throughout the Nariño region."
+        },
+        {
+          "id": "chil_f3",
+          "text": "Ajiaco Nariñense",
+          "detail": "A rich stew combining local potatoes, chicken, and avocado, flavored with cumin and regional spices unique to southern Colombia."
+        },
+        {
+          "id": "chil_f4",
+          "text": "Freshly Made Queso Fresco",
+          "detail": "Sample warm artisanal cheese made daily by local producers using traditional methods and milk from nearby farms."
+        },
+        {
+          "id": "chil_f5",
+          "text": "Chicha de Maíz",
+          "detail": "A traditional fermented corn beverage with deep cultural roots in Nariño, often shared during community gatherings and celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chil_c1",
+          "text": "Respect Workshop Hours",
+          "detail": "Most artisans work early morning through early afternoon; plan visits before 2 PM and avoid Sundays when many studios are closed."
+        },
+        {
+          "id": "chil_c2",
+          "text": "Direct Artist Support",
+          "detail": "Purchasing directly from craftspeople in their workshops provides fair income to makers and ensures authenticity of traditional Pasto ceramics."
+        },
+        {
+          "id": "chil_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "Many artisans speak limited English; learning simple Spanish phrases helps build genuine connections and shows respect for local culture."
+        },
+        {
+          "id": "chil_c4",
+          "text": "Artistic Heritage Pride",
+          "detail": "Pasto's decorative arts are a source of deep community pride; showing genuine interest in techniques and stories behind pieces is greatly appreciated."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "El Mesón de la Montaña",
+      "address": "Calle 19 No. 26-85, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Traditional nariñense cuisine in a rustic stone-walled setting with highland charm and generous portions.",
+      "mustOrder": "Caldo de costilla con papa criolla",
+      "lat": 1.2136,
+      "lng": -77.2811
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "La Casa del Sándwich",
+      "address": "Calle 20 No. 25-45, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Sandwiches/Street Food",
+      "priceRange": "€",
+      "description": "Beloved casual spot famous for towering loaded sandwiches and quick local lunches since the 1980s.",
+      "mustOrder": "Sándwich Especial La Casa",
+      "lat": 1.2141,
+      "lng": -77.2798
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Consomé de Nariño",
+      "address": "Carrera 27 No. 18-92, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian/Soups",
+      "priceRange": "€",
+      "description": "No-frills institution specializing in warming broths and traditional highland soups that locals queue for.",
+      "mustOrder": "Consomé de cola con papa",
+      "lat": 1.2124,
+      "lng": -77.2775
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Restaurante Fonda Vegetariana La Ceiba",
+      "address": "Calle 17 No. 27-32, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Vegetarian/Vegan",
+      "priceRange": "€€",
+      "description": "Pioneering plant-based restaurant offering creative vegetarian plates and fresh juices in a welcoming bohemian space.",
+      "mustOrder": "Bandeja Vegetariana Especial",
+      "lat": 1.2118,
+      "lng": -77.2815
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "El Rodizio",
+      "address": "Calle 18 No. 24-56, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Brazilian/Churrascaria",
+      "priceRange": "€€€",
+      "description": "Brazilian steakhouse with rodizio service featuring premium cuts and traditional accompaniments in an upscale setting.",
+      "mustOrder": "Picaña con farofa",
+      "lat": 1.213,
+      "lng": -77.2805
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Pizzería Rusticana",
+      "address": "Calle 19 No. 23-67, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Italian/Pizza",
+      "priceRange": "€€",
+      "description": "Wood-fired pizza restaurant with imported ingredients and authentic Neapolitan techniques in a warm intimate atmosphere.",
+      "mustOrder": "Pizza Quattro Formaggi",
+      "lat": 1.2135,
+      "lng": -77.2822
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Doña María Tamales",
+      "address": "Carrera 26 No. 19-15, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian/Tamales",
+      "priceRange": "€",
+      "description": "Early-morning institution serving freshly-made tamales and arepas to locals, perfect for authentic breakfast.",
+      "mustOrder": "Tamal de elote",
+      "lat": 1.2128,
+      "lng": -77.279
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Restaurante Casa Real",
+      "address": "Calle 20 No. 21-10, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian/Gourmet",
+      "priceRange": "€€€",
+      "description": "Elegant dining featuring modern interpretations of nariñense classics in colonial-style rooms with refined service.",
+      "mustOrder": "Sopa de maíz con queso y chorizo",
+      "lat": 1.2145,
+      "lng": -77.2835
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Café Juancho",
+      "address": "Carrera 25 No. 18-43, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Café/Light Bites",
+      "priceRange": "€",
+      "description": "Popular coffee shop and pastry counter where locals gather for espresso and fresh empanadas throughout the day.",
+      "mustOrder": "Empanada de queso con café",
+      "lat": 1.2125,
+      "lng": -77.281
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Restaurante El Trapiche",
+      "address": "Calle 21 No. 26-08, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian/Regional",
+      "priceRange": "€€",
+      "description": "Rustic-themed restaurant showcasing traditional nariñense recipes with agricultural decor and family-style service.",
+      "mustOrder": "Lomo al trapiche",
+      "lat": 1.2152,
+      "lng": -77.2812
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Mariscos El Pacífico",
+      "address": "Calle 18 No. 25-89, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Coastal seafood specialist bringing fresh Pacific catches daily with expert ceviches and grilled fish preparations.",
+      "mustOrder": "Ceviche Pacífico",
+      "lat": 1.2132,
+      "lng": -77.2818
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Asadero El Toro Rojo",
+      "address": "Carrera 24 No. 17-55, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Grilled Meat/Asado",
+      "priceRange": "€€",
+      "description": "Casual grill house specializing in perfectly charred meats and chorizo with a lively counter seating and local crowd.",
+      "mustOrder": "Carne asada con yuca",
+      "lat": 1.2119,
+      "lng": -77.2795
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Restaurante Andino",
+      "address": "Calle 22 No. 27-43, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian/Andean",
+      "priceRange": "€€€",
+      "description": "Highland-inspired tasting menu restaurant featuring seasonal ingredients from local mountain farms with wine pairings.",
+      "mustOrder": "Trucha arcoíris con papa negra",
+      "lat": 1.2158,
+      "lng": -77.2825
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Pastelería Don Blas",
+      "address": "Calle 19 No. 24-22, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Bakery/Desserts",
+      "priceRange": "€",
+      "description": "Historic bakery known for traditional pastries, breads, and the famous local sweet 'dulce de nariño' since 1950.",
+      "mustOrder": "Ensayada nariñense",
+      "lat": 1.2138,
+      "lng": -77.2808
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "La Choza del Nariño",
+      "address": "Carrera 23 No. 20-18, Pasto",
+      "neighbourhood": "Centro, Pasto",
+      "cuisine": "Colombian/Comfort Food",
+      "priceRange": "€€",
+      "description": "Cozy traditional eatery in a thatched-roof setting serving hearty home-cooked meals beloved by families and workers.",
+      "mustOrder": "Sancocho de gallina criolla",
+      "lat": 1.214,
+      "lng": -77.28
+    }
+  ]
+}

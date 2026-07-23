@@ -1,0 +1,1052 @@
+{
+  "id": "jericho_area",
+  "name": "Jericho Area",
+  "nameIt": "أريحا",
+  "capital": "Jericho",
+  "lat": 31.87,
+  "lng": 35.45,
+  "emoji": "🏜️",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": 32.05,
+    "south": 31.7,
+    "east": 35.6,
+    "west": 35.3
+  },
+  "history": "Jericho is one of the world's oldest continuously inhabited cities, with archaeological evidence of settlement dating back to around 9000 BCE. The city holds profound significance in biblical tradition as the site where the Israelites crossed the Jordan River and where Joshua's forces famously conquered the city. Throughout history, Jericho has been ruled by various empires including the Ottomans, and in modern times it became a center of Palestinian administration following the Oslo Accords in the 1990s. Today it remains an important cultural and historical landmark in the West Bank.",
+  "culturalNotes": "Jericho is characterized by its deep connection to religious heritage and its role as a gateway to the Dead Sea and Jordan Valley. The city maintains strong Palestinian traditions in cuisine, craftsmanship, and community life, with local markets offering traditional foods like date pastries and fresh produce from the fertile oasis. Its ancient heritage combines with contemporary Palestinian culture, making it a distinctive blend of archaeological significance and living tradition.",
+  "bestTimeToVisit": "October to April when temperatures are comfortable for visiting archaeological sites.",
+  "languageNotes": "The primary language is Arabic, specifically Palestinian Arabic dialect which differs slightly from Modern Standard Arabic in pronunciation and vocabulary. Useful phrases include \"Assalamu alaikum\" (peace be upon you) as a greeting and \"Shukran\" (thank you), with English increasingly spoken in tourist areas but less common in traditional neighborhoods.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "mount_of_temptation",
+      "name": "Mount of Temptation",
+      "nameIt": "جبل القرنطل",
+      "lat": 31.8789,
+      "lng": 35.4533,
+      "type": "LANDMARK",
+      "description": "A dramatic mountain rising from the Jericho plain with a Greek Orthodox monastery perched on its cliffs, believed to be where Jesus was tempted in the desert. The scenic views and cable car access make it an essential spiritual and photographic destination.",
+      "imageQueries": [
+        "Mount of Temptation monastery Jericho",
+        "Jericho cable car cliff monastery"
+      ],
+      "activities": [
+        {
+          "id": "moun_1",
+          "text": "Ride the Cable Car",
+          "detail": "Take the modern cable car up the cliff face for dramatic aerial views of the Jericho plain and Jordan Valley below.",
+          "lat": 31.8721,
+          "lng": 35.4456
+        },
+        {
+          "id": "moun_2",
+          "text": "Visit the Greek Orthodox Monastery",
+          "detail": "Explore the ancient monastery built into the cliff face, featuring Byzantine chapels, icons, and a chapel marking the traditional temptation site.",
+          "lat": 31.8726,
+          "lng": 35.446
+        },
+        {
+          "id": "moun_3",
+          "text": "Hike to the Summit",
+          "detail": "Trek the steep winding path from the base to the monastery for an adventurous ascent with panoramic desert vistas."
+        },
+        {
+          "id": "moun_4",
+          "text": "Photograph the Cliff Views",
+          "detail": "Capture stunning images of the monastery perched on red cliffs, the Jordan Valley, and the Dead Sea in the distance."
+        },
+        {
+          "id": "moun_5",
+          "text": "Visit the Quarantine Chapel",
+          "detail": "Pray or reflect in the small cave chapel traditionally believed to mark Jesus's forty-day temptation location."
+        },
+        {
+          "id": "moun_6",
+          "text": "Watch Sunset from the Overlook",
+          "detail": "Time your visit to catch the golden hour light illuminating the desert landscape and monastery stonework."
+        }
+      ],
+      "food": [
+        {
+          "id": "moun_f1",
+          "text": "Maqluba",
+          "detail": "This Palestinian upside-down rice dish with chicken or lamb and vegetables is commonly served in Jericho restaurants near the mountain."
+        },
+        {
+          "id": "moun_f2",
+          "text": "Fresh Date Varieties",
+          "detail": "Purchase locally-grown Jericho dates from nearby markets, known for their exceptional sweetness and quality."
+        },
+        {
+          "id": "moun_f3",
+          "text": "Hummus and Tabouleh",
+          "detail": "Enjoy fresh Palestinian hummus served with warm pita bread and herb-filled tabouleh at small vendors around the cable car base."
+        },
+        {
+          "id": "moun_f4",
+          "text": "Palestinian Knafeh",
+          "detail": "Taste this warm shredded phyllo pastry dessert soaked in syrup and topped with cheese, sold at local bakeries near the entrance."
+        },
+        {
+          "id": "moun_f5",
+          "text": "Mint Tea",
+          "detail": "Sip traditional hot mint tea served in glass cups at the monastery café or base facilities while overlooking the valley."
+        }
+      ],
+      "culture": [
+        {
+          "id": "moun_c1",
+          "text": "Modest Dress Required",
+          "detail": "Wear respectful clothing covering shoulders and knees when visiting the active Greek Orthodox monastery and its chapels."
+        },
+        {
+          "id": "moun_c2",
+          "text": "Early Morning Visit",
+          "detail": "Arrive early to avoid crowds and heat, and to experience the spiritual atmosphere when fewer tourists are present on the mountain."
+        },
+        {
+          "id": "moun_c3",
+          "text": "Photography Restrictions",
+          "detail": "Ask permission before photographing inside the monastery chapels and respect any designated no-photo areas sacred to Orthodox worshippers."
+        },
+        {
+          "id": "moun_c4",
+          "text": "Ramadan Sensitivity",
+          "detail": "If visiting during Ramadan, be mindful that many local facilities may have reduced hours and show respect for fasting visitors."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_jericho",
+      "name": "Dead Sea (Jericho Area)",
+      "nameIt": "البحر الميت",
+      "lat": 31.5,
+      "lng": 35.5,
+      "type": "NATURE",
+      "description": "The world's lowest and most saline body of water, offering unique floating experiences and mineral-rich therapeutic mud treatments. Visitors can swim effortlessly and enjoy desert beachfront resorts with spectacular views.",
+      "imageQueries": [
+        "Dead Sea floating Jordan",
+        "Dead Sea mud spa beach"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience weightless floating in the world's most saline body of water where buoyancy makes it impossible to sink, a unique natural phenomenon.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_2",
+          "text": "Mud Treatment at Amman Beach",
+          "detail": "Apply mineral-rich therapeutic mud from the Dead Sea floor to your skin for purported healing and rejuvenation benefits.",
+          "lat": 31.507,
+          "lng": 35.487
+        },
+        {
+          "id": "dead_3",
+          "text": "Visit the Dead Sea Museum",
+          "detail": "Learn about the geological, historical, and scientific significance of the Dead Sea through exhibits and displays.",
+          "lat": 31.501,
+          "lng": 35.502
+        },
+        {
+          "id": "dead_4",
+          "text": "Sunset viewing from Ein Gedi Beach",
+          "detail": "Watch the sun set over the Palestinian hills from the eastern shore while enjoying the mineral-rich waters.",
+          "lat": 31.469,
+          "lng": 35.407
+        },
+        {
+          "id": "dead_5",
+          "text": "Hike to Wadi Mujib waterfall",
+          "detail": "Trek through desert canyons to reach a freshwater waterfall that flows into the Dead Sea, offering respite from the salt waters.",
+          "lat": 31.439,
+          "lng": 35.489
+        },
+        {
+          "id": "dead_6",
+          "text": "Resort spa treatments",
+          "detail": "Indulge in professional Dead Sea salt scrubs, mud wraps, and mineral baths at luxury beachfront resorts like Amman Beach Resort.",
+          "lat": 31.507,
+          "lng": 35.487
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Zarb (Jordanian underground oven meat)",
+          "detail": "Slow-cooked lamb or chicken seasoned with spices and vegetables, traditionally prepared in an underground pit, served throughout the Jericho area."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Fresh Date Pastries",
+          "detail": "Pastries filled with locally grown dates from Jericho's famous date groves, often served with Arabic coffee or mint tea."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Grilled Fish from the Dead Sea",
+          "detail": "Fresh tilapia or other local fish caught from the Dead Sea, grilled with simple seasonings and olive oil at waterfront restaurants."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Hummus and Pita Bread",
+          "detail": "Creamy chickpea dip seasoned with tahini and lemon, served warm with freshly baked pita from local bakeries near the shore."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Salatah (Mixed Vegetable Salad)",
+          "detail": "Refreshing salad of tomatoes, cucumbers, and onions dressed with olive oil and lemon juice, perfect after a swim in the salty waters."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Respect conservative dress codes",
+          "detail": "Wear modest swimwear and cover-ups, particularly when visiting resort areas and nearby Palestinian communities where conservative Islamic dress is observed."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Bring fresh water and moisturizer",
+          "detail": "The high salt concentration will dry your skin and eyes, so carry fresh water to rinse off and moisturize immediately after leaving the water."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Greet with respect and hospitality",
+          "detail": "Local vendors and service staff appreciate courteous greetings in Arabic like 'Assalamu alaikum' and will often invite you to share tea or coffee as a gesture of welcome."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Be aware of political sensitivity",
+          "detail": "The Dead Sea region borders Palestinian territories, and visitors should be respectful of the complex political situation and avoid discussing it carelessly with locals."
+        }
+      ]
+    },
+    {
+      "id": "hisham_palace",
+      "name": "Hisham's Palace",
+      "nameIt": "قصر هشام",
+      "lat": 31.8656,
+      "lng": 35.4767,
+      "type": "LANDMARK",
+      "description": "An 8th-century Umayyad palace ruin showcasing exquisite Islamic architecture and craftsmanship with stunning mosaics and geometric patterns. This archaeological gem provides insight into early Islamic palace life during the caliphate.",
+      "imageQueries": [
+        "Hisham's Palace mosaic Jericho",
+        "Umayyad palace ruins Jordan"
+      ],
+      "activities": [
+        {
+          "id": "hish_1",
+          "text": "Explore the Palace Remains",
+          "detail": "Walk through the excavated foundations and standing walls of the 8th-century Umayyad palace to understand its layout, royal chambers, and administrative spaces.",
+          "lat": 31.9471,
+          "lng": 35.4523
+        },
+        {
+          "id": "hish_2",
+          "text": "View the Bathhouse Mosaics",
+          "detail": "Examine the remarkably preserved floor mosaics in the palace bathhouse, featuring intricate geometric patterns and floral designs characteristic of early Islamic art.",
+          "lat": 31.9474,
+          "lng": 35.452
+        },
+        {
+          "id": "hish_3",
+          "text": "Study Ceramic and Stone Artifacts",
+          "detail": "Inspect displays of pottery shards, marble fragments, and decorative stonework recovered from the site that reveal the palace's former splendor and daily life.",
+          "lat": 31.9475,
+          "lng": 35.4525
+        },
+        {
+          "id": "hish_4",
+          "text": "Photograph the Hunting Mosaic",
+          "detail": "Capture images of the famous hunting scene mosaic depicting gazelles and hunters, one of the palace's most iconic artistic treasures.",
+          "lat": 31.9473,
+          "lng": 35.4522
+        },
+        {
+          "id": "hish_5",
+          "text": "Attend the On-Site Museum",
+          "detail": "Review artifacts, architectural reconstructions, and explanatory panels that contextualize the palace within Umayyad imperial culture.",
+          "lat": 31.9472,
+          "lng": 35.4524
+        },
+        {
+          "id": "hish_6",
+          "text": "Walk the Surrounding Gardens",
+          "detail": "Stroll the landscaped grounds surrounding the excavation site to appreciate the palace's setting in the Jordan Valley and envision its original water features."
+        }
+      ],
+      "food": [
+        {
+          "id": "hish_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Levantine dish of lamb cooked in a yogurt-based sauce and served with rice or flatbread, representing Palestinian and Jordanian heritage cuisine."
+        },
+        {
+          "id": "hish_f2",
+          "text": "Jericho Citrus Fruits",
+          "detail": "Sample fresh oranges, lemons, or grapefruits grown in the Jericho area, which has been renowned for citrus cultivation since ancient times."
+        },
+        {
+          "id": "hish_f3",
+          "text": "Hummus and Local Vegetables",
+          "detail": "Enjoy freshly made chickpea hummus paired with vegetables from the fertile Jordan Valley, often served with warm pita bread."
+        },
+        {
+          "id": "hish_f4",
+          "text": "Kunafa",
+          "detail": "Try this traditional Palestinian pastry dessert made with cheese and topped with shredded phyllo dough and sweet syrup, sold at local bakeries near the site."
+        },
+        {
+          "id": "hish_f5",
+          "text": "Falafel",
+          "detail": "Taste deep-fried balls or patties of seasoned chickpea or fava bean flour, a staple street food available at vendors throughout the Jericho area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hish_c1",
+          "text": "Dress Modestly",
+          "detail": "Wear long pants or skirts and cover your shoulders as a sign of respect when visiting this significant Islamic heritage site."
+        },
+        {
+          "id": "hish_c2",
+          "text": "Hire a Local Guide",
+          "detail": "Engage a knowledgeable Jordanian or Palestinian guide to gain deeper context about Umayyad history, architectural techniques, and daily life in the caliphate."
+        },
+        {
+          "id": "hish_c3",
+          "text": "Visit in Early Morning or Late Afternoon",
+          "detail": "Arrive early or near sunset to avoid peak heat in the Jordan Valley and experience the site's atmospheric lighting while viewing ancient mosaics."
+        },
+        {
+          "id": "hish_c4",
+          "text": "Respect Archaeological Boundaries",
+          "detail": "Stay on marked pathways and do not touch exposed mosaics or artifacts, as oils from hands can damage these irreplaceable 8th-century pieces."
+        }
+      ]
+    },
+    {
+      "id": "baptism_site",
+      "name": "Baptism Site of Jesus",
+      "nameIt": "موقع العماد المسيحي",
+      "lat": 31.7622,
+      "lng": 35.6233,
+      "type": "LANDMARK",
+      "description": "The sacred site on the Jordan River where Jesus was baptized by John the Baptist, recognized by UNESCO and major Christian denominations as archaeologically and spiritually significant. Pilgrims and visitors can experience baptismal ceremonies and visit modern chapels built at the location.",
+      "imageQueries": [
+        "Baptism site Jesus Jordan River",
+        "Al-Maghtas baptism ceremony"
+      ],
+      "activities": [
+        {
+          "id": "bapt_1",
+          "text": "Baptismal Immersion in the Jordan River",
+          "detail": "Participate in a renewal of baptismal vows or full baptismal ceremony in the sanctified waters where Jesus was baptized, offered daily by church representatives.",
+          "lat": 31.8787,
+          "lng": 35.4736
+        },
+        {
+          "id": "bapt_2",
+          "text": "Visit the Greek Orthodox Church of St. John the Baptist",
+          "detail": "Explore the ornate Byzantine-style chapel built directly at the baptismal site with stunning mosaics and icons commemorating John the Baptist.",
+          "lat": 31.8794,
+          "lng": 35.4732
+        },
+        {
+          "id": "bapt_3",
+          "text": "Walk the Pilgrimage Path",
+          "detail": "Follow the marked processional route from the visitor entrance down to the river that pilgrims have walked for centuries, passing archaeological remains and meditation points.",
+          "lat": 31.8781,
+          "lng": 35.4742
+        },
+        {
+          "id": "bapt_4",
+          "text": "Tour the Roman Catholic Chapel of John the Baptist",
+          "detail": "Visit the modern Catholic chapel featuring contemporary Christian art and a direct view of the Jordan River baptismal pools.",
+          "lat": 31.8789,
+          "lng": 35.4734
+        },
+        {
+          "id": "bapt_5",
+          "text": "Explore Archaeological Remains",
+          "detail": "View excavated Byzantine-era church foundations, baptismal basins, and pottery shards that document continuous Christian pilgrimage since the 5th century.",
+          "lat": 31.8785,
+          "lng": 35.4738
+        },
+        {
+          "id": "bapt_6",
+          "text": "Visit the Museum and Interpretive Center",
+          "detail": "Learn the history of the site through artifacts, historical documentation, and multi-denominational perspectives on Jesus's baptism.",
+          "lat": 31.878,
+          "lng": 35.4745
+        }
+      ],
+      "food": [
+        {
+          "id": "bapt_f1",
+          "text": "Musakhan with Local Summac",
+          "detail": "Roasted chicken layered with Palestinian flatbread, caramelized onions, and tangy sumac spice, a traditional Jericho specialty reflecting ancient Levantine cuisine."
+        },
+        {
+          "id": "bapt_f2",
+          "text": "Falafel from Street Vendors",
+          "detail": "Crispy chickpea fritters served with tahini sauce and fresh vegetables, widely available near the site entrance and throughout the Jericho area."
+        },
+        {
+          "id": "bapt_f3",
+          "text": "Zarb (Underground Roasted Lamb)",
+          "detail": "Slow-roasted lamb and vegetables cooked in underground pits, an ancient Bedouin preparation still served at local restaurants near the Jordan Valley."
+        },
+        {
+          "id": "bapt_f4",
+          "text": "Fresh Date Smoothies",
+          "detail": "Blended drinks made from Jericho's famous dates, served cold and sweetened with honey, reflecting the region's agricultural heritage."
+        },
+        {
+          "id": "bapt_f5",
+          "text": "Hummus bi Tahina",
+          "detail": "Creamy chickpea paste blended with sesame tahini and lemon, typically served as a starter at local restaurants surrounding the baptism site."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bapt_c1",
+          "text": "Dress Modestly for Sacred Spaces",
+          "detail": "Wear covered shoulders, knees, and avoid tight clothing out of respect for the site's religious significance and Christian pilgrimage traditions."
+        },
+        {
+          "id": "bapt_c2",
+          "text": "Observe Quiet Reverence at Prayer Times",
+          "detail": "The site hosts daily prayer services and baptisms; visitors should move quietly and respectfully during these times, particularly around dawn and late afternoon."
+        },
+        {
+          "id": "bapt_c3",
+          "text": "Remove Shoes in Chapels",
+          "detail": "Following Christian and broader Middle Eastern custom, remove your shoes when entering the Greek Orthodox and Catholic chapels at the site."
+        },
+        {
+          "id": "bapt_c4",
+          "text": "Bring Water and Sun Protection",
+          "detail": "The Jordan Valley is extremely hot and arid; carry ample water and sunscreen as the pilgrimage path and river area offer minimal shade."
+        }
+      ]
+    },
+    {
+      "id": "spring_of_elisha",
+      "name": "Spring of Elisha",
+      "nameIt": "عين السلطان",
+      "lat": 31.8722,
+      "lng": 35.4456,
+      "type": "NATURE",
+      "description": "A freshwater spring in central Jericho revered in Islamic tradition as the place where the prophet Elisha healed the city's water supply. The oasis provides lush greenery and a peaceful retreat within the arid desert landscape.",
+      "imageQueries": [
+        "Spring of Elisha Jericho oasis",
+        "Ein Sultan spring Jordan"
+      ],
+      "activities": [
+        {
+          "id": "spri_1",
+          "text": "Walk the Spring Grounds",
+          "detail": "Stroll through the lush oasis garden surrounding the freshwater spring, enjoying palm trees and the contrast with the surrounding desert landscape.",
+          "lat": 31.8587,
+          "lng": 35.4453
+        },
+        {
+          "id": "spri_2",
+          "text": "Visit the Spring Pool",
+          "detail": "Observe the clear freshwater pool at the heart of the spring where visitors can see the water source and understand its historical importance to Jericho.",
+          "lat": 31.8587,
+          "lng": 35.4453
+        },
+        {
+          "id": "spri_3",
+          "text": "Explore Islamic Historical Inscriptions",
+          "detail": "Examine carved stone inscriptions and plaques documenting the spring's significance in Islamic tradition and the story of Prophet Elisha's miracle."
+        },
+        {
+          "id": "spri_4",
+          "text": "Photography and Sketching",
+          "detail": "Capture the verdant oasis setting with its flowing water, date palms, and traditional architecture against the arid Jericho backdrop."
+        },
+        {
+          "id": "spri_5",
+          "text": "Picnicking in the Shade",
+          "detail": "Bring local provisions and enjoy a peaceful meal under the palm canopy while listening to the water flow, a common practice for local families."
+        },
+        {
+          "id": "spri_6",
+          "text": "Learn Spring's Hydrology",
+          "detail": "Understand how the spring's natural geological formation creates a reliable freshwater source in one of the world's lowest elevation settlements."
+        }
+      ],
+      "food": [
+        {
+          "id": "spri_f1",
+          "text": "Date and Olive Combinations",
+          "detail": "Sample local date pastes paired with brined olives from West Bank orchards, reflecting traditional Jericho agricultural products."
+        },
+        {
+          "id": "spri_f2",
+          "text": "Hummus and Flatbread",
+          "detail": "Enjoy freshly made hummus drizzled with olive oil and served with warm, locally-baked pita or taboon bread from nearby vendors."
+        },
+        {
+          "id": "spri_f3",
+          "text": "Jericho Pomegranate Juice",
+          "detail": "Drink fresh-pressed pomegranate juice, as Jericho is famous for its sweet pomegranates, sold by vendors near the spring entrance."
+        },
+        {
+          "id": "spri_f4",
+          "text": "Stuffed Vine Leaves (Dolma)",
+          "detail": "Try the Palestinian version with rice, herbs, and sometimes meat, wrapped in grape leaves harvested from local gardens."
+        },
+        {
+          "id": "spri_f5",
+          "text": "Falafel from Local Stands",
+          "detail": "Grab crispy fried chickpea patties served in pita with tahini sauce from family-run shops near Jericho's market areas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "spri_c1",
+          "text": "Respectful Dress at Religious Site",
+          "detail": "Wear modest clothing covering shoulders and knees as the spring holds Islamic religious significance and attracts pilgrims."
+        },
+        {
+          "id": "spri_c2",
+          "text": "Photography Etiquette",
+          "detail": "Ask permission before photographing other visitors or worshippers, as some come for spiritual reflection and prayer."
+        },
+        {
+          "id": "spri_c3",
+          "text": "Visiting Hours and Prayer Times",
+          "detail": "Plan visits outside of Islamic prayer times (dawn, midday, afternoon, sunset) when the space is most available for general tourism."
+        },
+        {
+          "id": "spri_c4",
+          "text": "Water Conservation Awareness",
+          "detail": "Understand that the spring's water is precious in an arid region; locals view it as a sacred natural resource and miracle rather than a casual tourist attraction."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_scrolls_museum",
+      "name": "Dead Sea Scrolls Museum",
+      "nameIt": "متحف لفائف البحر الميت",
+      "lat": 31.8745,
+      "lng": 35.4433,
+      "type": "LANDMARK",
+      "description": "A museum dedicated to displaying replicas and information about the historic Dead Sea Scrolls, ancient biblical manuscripts discovered near Qumran. Visitors gain deep understanding of early Jewish and Christian texts and their archaeological significance.",
+      "imageQueries": [
+        "Dead Sea Scrolls museum exhibits",
+        "Ancient scrolls Qumran display"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Examine Scroll Replicas",
+          "detail": "Study high-quality reproductions of actual Dead Sea Scrolls including portions of biblical texts, community rules, and religious commentaries displayed in climate-controlled cases.",
+          "lat": 31.8455,
+          "lng": 35.4732
+        },
+        {
+          "id": "dead_2",
+          "text": "View the Qumran Archaeological Exhibition",
+          "detail": "Explore detailed exhibits about the Qumran settlement where the scrolls were discovered, including pottery shards, tools, and reconstructions of ancient caves."
+        },
+        {
+          "id": "dead_3",
+          "text": "Watch Documentary Films",
+          "detail": "Attend screenings about the discovery of the scrolls in 1947, their authentication process, and their significance to understanding early Judaism and Christianity."
+        },
+        {
+          "id": "dead_4",
+          "text": "Attend Guided Scholarly Lectures",
+          "detail": "Participate in presentations by archaeologists and biblical scholars explaining the historical context and translation of specific scroll fragments."
+        },
+        {
+          "id": "dead_5",
+          "text": "Visit the Museum Shop",
+          "detail": "Browse books, educational materials, and souvenirs related to the scrolls and ancient Judean history."
+        },
+        {
+          "id": "dead_6",
+          "text": "Explore the Ancient Jericho Site",
+          "detail": "Walk through nearby Tel es-Sultan, one of the world's oldest cities, located approximately 2 kilometers from the museum.",
+          "lat": 31.8724,
+          "lng": 35.4387
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Maklouba",
+          "detail": "A traditional Palestinian rice and vegetable dish cooked in one pot with meat, then flipped upside-down onto a plate, commonly served in Jericho restaurants."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Za'atar Bread",
+          "detail": "Flatbread drizzled with olive oil and dusted with the aromatic za'atar spice blend of sesame, thyme, and sumac, a staple in the West Bank region."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Hummus with Lamb Meat",
+          "detail": "Creamy chickpea puree topped with warm spiced lamb, pine nuts, and olive oil, a hearty variant popular in Jericho establishments."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Falafel Sandwich",
+          "detail": "Deep-fried balls or patties of ground chickpeas and spices served in pita bread with tahini sauce and fresh vegetables, a quick local favorite."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Dates from Jericho Valley",
+          "detail": "Fresh or dried dates from the nearby Jordan Valley, known for their sweetness and quality, often served with coffee or as a snack."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Remove Shoes in Certain Areas",
+          "detail": "Some displays and prayer spaces require removal of footwear as a sign of respect for the sacred nature of the texts and their religious significance."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Learn Hebrew and Aramaic Context",
+          "detail": "Familiarize yourself with basic knowledge that the scrolls are primarily written in Hebrew and Aramaic, not modern languages, enhancing appreciation of translation displays."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Dress Modestly",
+          "detail": "Wear clothing that covers shoulders and knees out of respect for the religious sensitivity of the artifacts and the conservative cultural norms of the Jericho area."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Allow Ample Time for Reading",
+          "detail": "Plan to spend 2-3 hours at the museum as thorough understanding of the scrolls' historical and religious context requires careful reading of detailed explanatory panels."
+        }
+      ]
+    },
+    {
+      "id": "qumran_caves",
+      "name": "Qumran Caves",
+      "nameIt": "كهوف قمران",
+      "lat": 31.7344,
+      "lng": 35.4778,
+      "type": "LANDMARK",
+      "description": "Archaeological site in the Judean Desert where the ancient Dead Sea Scrolls were discovered in 1947, offering visitors ruins of a Jewish settlement and cave entrances with dramatic desert vistas. The site is essential for understanding early Jewish history and manuscript preservation.",
+      "imageQueries": [
+        "Qumran caves archaeological site",
+        "Dead Sea Scrolls cave entrance"
+      ],
+      "activities": [
+        {
+          "id": "qumr_1",
+          "text": "Explore Cave 1",
+          "detail": "Visit the primary cave where the first Dead Sea Scrolls were discovered in 1947, featuring reconstructed entrances and interpretive signage about the finds.",
+          "lat": 31.9345,
+          "lng": 35.4575
+        },
+        {
+          "id": "qumr_2",
+          "text": "Walk the Settlement Ruins",
+          "detail": "Tour the remains of the ancient Essene community settlement including the scriptorium, pottery kilns, ritual baths, and residential structures dating to the 2nd century BCE.",
+          "lat": 31.9348,
+          "lng": 35.4572
+        },
+        {
+          "id": "qumr_3",
+          "text": "Hike to Multiple Cave Sites",
+          "detail": "Trek across the desert terrain to access several numbered caves (2-11) with varying degrees of preservation and archaeological significance along the cliffside.",
+          "lat": 31.935,
+          "lng": 35.458
+        },
+        {
+          "id": "qumr_4",
+          "text": "View the Dead Sea from Terraces",
+          "detail": "Enjoy panoramic vistas of the Dead Sea and surrounding Judean Desert landscape from the elevated viewing areas near the main excavation site.",
+          "lat": 31.934,
+          "lng": 35.4585
+        },
+        {
+          "id": "qumr_5",
+          "text": "Visit the Visitor Center Museum",
+          "detail": "Examine pottery fragments, scroll replica displays, and archaeological artifacts that contextualize the site's significance to early Jewish history.",
+          "lat": 31.9355,
+          "lng": 35.456
+        },
+        {
+          "id": "qumr_6",
+          "text": "Photograph the Desert Terrain",
+          "detail": "Capture the dramatic landscape of white limestone cliffs, arid valleys, and the shimmer of the Dead Sea in the distance, especially during golden hour.",
+          "lat": 31.9345,
+          "lng": 35.4575
+        },
+        {
+          "id": "qumr_7",
+          "text": "Study Scroll Preservation Techniques",
+          "detail": "Learn how dry desert conditions and cave storage naturally preserved the ancient manuscripts for nearly 2,000 years through on-site educational displays.",
+          "lat": 31.9348,
+          "lng": 35.4572
+        }
+      ],
+      "food": [
+        {
+          "id": "qumr_f1",
+          "text": "Zarʿa Dates from Jericho Valley",
+          "detail": "Sample the region's famous Medjool dates, naturally sweetened dried fruits grown in nearby Jericho's oasis that sustained ancient desert dwellers."
+        },
+        {
+          "id": "qumr_f2",
+          "text": "Hummus and Pita at Local Stands",
+          "detail": "Enjoy freshly made hummus with warm pita bread at roadside vendor stalls near the site entrance, a staple Palestinian dish reflective of the region."
+        },
+        {
+          "id": "qumr_f3",
+          "text": "Labneh with Za'atar",
+          "detail": "Try thick strained yogurt drizzled with olive oil and dusted with aromatic za'atar herb blend, a traditional breakfast dish of the West Bank."
+        },
+        {
+          "id": "qumr_f4",
+          "text": "Falafel Sandwiches",
+          "detail": "Eat crispy chickpea fritters stuffed in pita with tahini sauce and fresh vegetables, widely available at visitor facilities near the caves."
+        },
+        {
+          "id": "qumr_f5",
+          "text": "Salatit Jaj (Palestinian Chicken Salad)",
+          "detail": "Sample chopped chicken mixed with tomatoes, onions, and Palestinian spices, commonly served at nearby Jericho restaurants within 15 kilometers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "qumr_c1",
+          "text": "Modest Dress in Sacred Space",
+          "detail": "Wear loose, covered clothing including long pants or skirts and covered shoulders, as the site holds profound religious significance for Jewish heritage visitors."
+        },
+        {
+          "id": "qumr_c2",
+          "text": "Respect Cave Authenticity",
+          "detail": "Stay on marked paths and avoid touching ancient stone surfaces or cave walls to preserve archaeological integrity and prevent further degradation of 2,000-year-old structures."
+        },
+        {
+          "id": "qumr_c3",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Plan visits between 8-10 AM or after 3 PM to avoid intense midday desert heat exceeding 35°C in summer months and to experience softer light for exploration."
+        },
+        {
+          "id": "qumr_c4",
+          "text": "Hire a Local Guide",
+          "detail": "Engage Arabic or Hebrew-speaking guides from Jericho who provide crucial context about Essene beliefs, manuscript significance, and contemporary Palestinian perspectives on the land."
+        }
+      ]
+    },
+    {
+      "id": "jericho_cable_car",
+      "name": "Jericho Cable Car & Ropeway",
+      "nameIt": "تلفريك أريحا",
+      "lat": 31.8789,
+      "lng": 35.4533,
+      "type": "LANDMARK",
+      "description": "A scenic cable car ascending Mount of Temptation offering breathtaking panoramic views of Jericho, the Jordan Valley, and the Dead Sea region. The ride combines adventure with spectacular vistas and easy access to the monastery.",
+      "imageQueries": [
+        "Jericho cable car Mount Temptation",
+        "Ropeway Jericho valley views"
+      ],
+      "activities": [
+        {
+          "id": "jeri_1",
+          "text": "Cable Car Ascent",
+          "detail": "Ride the modern ropeway 340 meters up the cliff face in about 4 minutes, offering progressive views of Jericho and the Dead Sea below.",
+          "lat": 31.8752,
+          "lng": 35.4461
+        },
+        {
+          "id": "jeri_2",
+          "text": "Mount of Temptation Monastery Visit",
+          "detail": "Explore the ancient Greek Orthodox monastery perched on the mountainside, believed to be where Jesus was tempted, with cells carved into the rock.",
+          "lat": 31.8761,
+          "lng": 35.4468
+        },
+        {
+          "id": "jeri_3",
+          "text": "Panoramic Photography",
+          "detail": "Capture stunning vistas of the Jordan Valley, Dead Sea, and Palestinian territories from multiple viewpoints along the cable car station and monastery grounds.",
+          "lat": 31.8752,
+          "lng": 35.4461
+        },
+        {
+          "id": "jeri_4",
+          "text": "Hiking Trails Around the Summit",
+          "detail": "Walk the marked trails from the cable car station exploring natural springs, ancient hermit caves, and lesser-known monastery annexes.",
+          "lat": 31.8765,
+          "lng": 35.4475
+        },
+        {
+          "id": "jeri_5",
+          "text": "Sunset Viewing",
+          "detail": "Time your visit for late afternoon to witness the sun setting over the Dead Sea and Jordan Valley, creating dramatic golden lighting across the landscape.",
+          "lat": 31.8752,
+          "lng": 35.4461
+        },
+        {
+          "id": "jeri_6",
+          "text": "Archaeological Exploration",
+          "detail": "Discover remains of Byzantine-era structures and hermitage cells dating back over 1,500 years scattered across the mountainside."
+        }
+      ],
+      "food": [
+        {
+          "id": "jeri_f1",
+          "text": "Falafel",
+          "detail": "Crispy chickpea fritters served in pita with tahini and fresh vegetables, a staple Palestinian street food available at stands near the cable car base."
+        },
+        {
+          "id": "jeri_f2",
+          "text": "Hummus",
+          "detail": "Creamy chickpea puree blended with tahini and lemon, best enjoyed fresh from local restaurants in Jericho town with warm pita bread."
+        },
+        {
+          "id": "jeri_f3",
+          "text": "Maqluba",
+          "detail": "Traditional Palestinian dish of rice, eggplant, and meat cooked together and flipped onto a platter, representing Palestinian culinary heritage."
+        },
+        {
+          "id": "jeri_f4",
+          "text": "Fresh Dates from Jericho Palm Grove",
+          "detail": "Sample the region's famous Medjool dates, which thrive in Jericho's warm climate and are sold dried or fresh at local markets."
+        },
+        {
+          "id": "jeri_f5",
+          "text": "Mansaf",
+          "detail": "Lamb served in tangy yogurt sauce with rice and pine nuts, a festive dish reflecting Levantine tradition commonly found in Jericho restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jeri_c1",
+          "text": "Modest Dress Expected",
+          "detail": "Wear respectful clothing when visiting the monastery, covering shoulders and knees, as it remains an active religious site for Greek Orthodox pilgrims."
+        },
+        {
+          "id": "jeri_c2",
+          "text": "Morning Visits Preferred",
+          "detail": "Arrive early to avoid afternoon crowds and heat, and to experience the monastery's spiritual atmosphere when it is quieter and cooler."
+        },
+        {
+          "id": "jeri_c3",
+          "text": "Arabic Greetings Appreciated",
+          "detail": "Learning basic Arabic phrases like 'Marhaba' (hello) and 'Shukran' (thank you) shows respect and often receives warm responses from local staff."
+        },
+        {
+          "id": "jeri_c4",
+          "text": "Photography Restrictions in Monastery",
+          "detail": "Some areas within the monastery may prohibit photography, particularly during religious services; always ask permission before photographing monks or sacred spaces."
+        }
+      ]
+    },
+    {
+      "id": "jericho_old_town",
+      "name": "Jericho Old Town",
+      "nameIt": "البلدة القديمة أريحا",
+      "lat": 31.8872,
+      "lng": 35.4449,
+      "type": "TOWN",
+      "description": "The historic heart of Jericho featuring narrow winding streets, traditional Palestinian architecture, markets, and centuries-old buildings. Walking through the old town provides authentic cultural experiences and encounters with local life.",
+      "imageQueries": [
+        "Jericho old town market streets",
+        "Palestinian architecture Jericho bazaar"
+      ],
+      "activities": [
+        {
+          "id": "jeri_1",
+          "text": "Explore the Souk",
+          "detail": "Wander through the bustling traditional market with vendors selling spices, textiles, handicrafts, and souvenirs in narrow alleyways.",
+          "lat": 31.8629,
+          "lng": 35.4472
+        },
+        {
+          "id": "jeri_2",
+          "text": "Visit the Mosque of Prophet Saleh",
+          "detail": "Explore this historic mosque located in the old town, known for its traditional Islamic architecture and spiritual significance to locals.",
+          "lat": 31.8632,
+          "lng": 35.4475
+        },
+        {
+          "id": "jeri_3",
+          "text": "Browse the Khan (Caravanserai)",
+          "detail": "Discover the restored traditional merchant inn that once housed traveling traders, now featuring local artisan shops and cultural exhibits.",
+          "lat": 31.8625,
+          "lng": 35.4468
+        },
+        {
+          "id": "jeri_4",
+          "text": "Photography Walk at Sunset",
+          "detail": "Capture the warm light on ancient stone buildings, narrow passageways, and daily life scenes that define the old town's character.",
+          "lat": 31.8628,
+          "lng": 35.447
+        },
+        {
+          "id": "jeri_5",
+          "text": "Visit Local Coffee Houses",
+          "detail": "Spend time in traditional Palestinian cafes where locals gather to drink strong coffee or tea and play backgammon or dominoes.",
+          "lat": 31.8631,
+          "lng": 35.4473
+        }
+      ],
+      "food": [
+        {
+          "id": "jeri_f1",
+          "text": "Kunafa",
+          "detail": "A sweet Palestinian dessert made with shredded pastry, cheese, and pistachios soaked in sugar syrup, best eaten warm from local bakeries."
+        },
+        {
+          "id": "jeri_f2",
+          "text": "Hummus",
+          "detail": "Creamy chickpea puree with tahini and lemon, served as a staple breakfast dish with warm pita bread and olive oil."
+        },
+        {
+          "id": "jeri_f3",
+          "text": "Falafel",
+          "detail": "Deep-fried chickpea balls seasoned with herbs and spices, sold fresh from street vendors and eaten in pita bread with tahini sauce."
+        },
+        {
+          "id": "jeri_f4",
+          "text": "Musakhan",
+          "detail": "A traditional Palestinian dish of roasted chicken with sumac and onions served over flatbread, reflecting centuries of local culinary tradition."
+        },
+        {
+          "id": "jeri_f5",
+          "text": "Fresh Fruit Juices",
+          "detail": "Vendors throughout the old town press fresh orange, pomegranate, and lemon juices served ice-cold during warm afternoons."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jeri_c1",
+          "text": "Dress Modestly",
+          "detail": "Wear long pants or skirts and cover shoulders when visiting the mosque and walking through conservative areas of the old town."
+        },
+        {
+          "id": "jeri_c2",
+          "text": "Greet with Respect",
+          "detail": "Use 'As-salamu alaykum' (peace be upon you) when entering shops; vendors appreciate the effort to use Arabic greetings."
+        },
+        {
+          "id": "jeri_c3",
+          "text": "Bargain in Markets",
+          "detail": "Haggling is expected and encouraged in the souk; start at 40-50% of the asking price and negotiate in a friendly, unhurried manner."
+        },
+        {
+          "id": "jeri_c4",
+          "text": "Respect Prayer Times",
+          "detail": "The old town becomes quieter during the five daily prayers; avoid being disruptive and show deference during these spiritual moments."
+        }
+      ]
+    },
+    {
+      "id": "nuzha_garden",
+      "name": "Nuzha Garden",
+      "nameIt": "حديقة النزهة",
+      "lat": 31.8856,
+      "lng": 35.4411,
+      "type": "NATURE",
+      "description": "A lush botanical garden in central Jericho showcasing diverse desert and tropical plants, citrus groves, and peaceful walkways. The garden offers respite from the intense desert heat and displays the agricultural abundance the oasis region provides.",
+      "imageQueries": [
+        "Nuzha Garden Jericho botanical",
+        "Jericho garden plants oasis"
+      ],
+      "activities": [
+        {
+          "id": "nuzh_1",
+          "text": "Stroll the Citrus Groves",
+          "detail": "Walk among fragrant orange, lemon, and grapefruit trees that showcase Jericho's agricultural heritage and offer shade during the hottest hours.",
+          "lat": 31.8521,
+          "lng": 35.4452
+        },
+        {
+          "id": "nuzh_2",
+          "text": "Explore the Palm and Date Trees",
+          "detail": "Discover rows of date palms and other tropical species that thrive in the oasis climate and provide insight into desert agriculture.",
+          "lat": 31.8523,
+          "lng": 35.4448
+        },
+        {
+          "id": "nuzh_3",
+          "text": "Rest at Garden Seating Areas",
+          "detail": "Find shaded benches and quiet corners throughout the garden where you can escape the intense midday heat and enjoy the tranquility."
+        },
+        {
+          "id": "nuzh_4",
+          "text": "Photograph Botanical Specimens",
+          "detail": "Capture images of rare desert flora, vibrant flowering plants, and the contrast between lush greenery and the surrounding arid landscape.",
+          "lat": 31.8524,
+          "lng": 35.445
+        },
+        {
+          "id": "nuzh_5",
+          "text": "Learn About Local Cultivation",
+          "detail": "Observe traditional and modern farming techniques used to maintain the garden in one of the world's lowest and hottest oases."
+        },
+        {
+          "id": "nuzh_6",
+          "text": "Visit at Sunset",
+          "detail": "Experience the garden during golden hour when the light softens the desert landscape and temperatures become more comfortable for walking."
+        }
+      ],
+      "food": [
+        {
+          "id": "nuzh_f1",
+          "text": "Fresh Jericho Citrus Juice",
+          "detail": "Drink freshly squeezed orange, lemon, or grapefruit juice made from locally grown fruit, served ice-cold and incredibly refreshing in the heat."
+        },
+        {
+          "id": "nuzh_f2",
+          "text": "Dates and Honey",
+          "detail": "Sample premium dates harvested from the garden's palms, often paired with local honey for a traditional Jericho sweet treat."
+        },
+        {
+          "id": "nuzh_f3",
+          "text": "Salad of Fresh Garden Greens",
+          "detail": "Enjoy a simple salad made with fresh vegetables and herbs grown in the garden region, dressed with olive oil and lemon."
+        },
+        {
+          "id": "nuzh_f4",
+          "text": "Jericho Banana",
+          "detail": "Taste the locally cultivated bananas that grow abundantly in the oasis, known for their sweetness and creamy texture."
+        },
+        {
+          "id": "nuzh_f5",
+          "text": "Palestinian Fattoush",
+          "detail": "Order this light salad with garden vegetables, sumac, pomegranate molasses, and crispy flatbread pieces, a staple of Jericho region cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nuzh_c1",
+          "text": "Visit Early Morning or Late Afternoon",
+          "detail": "Avoid the intense midday heat by planning your visit between 6–10 AM or after 4 PM, when locals also prefer to enjoy the gardens."
+        },
+        {
+          "id": "nuzh_c2",
+          "text": "Respect Agricultural Areas",
+          "detail": "Stay on designated pathways and do not pick fruit or plants; the garden is a working agricultural space and a valued community resource."
+        },
+        {
+          "id": "nuzh_c3",
+          "text": "Dress Modestly and Bring Water",
+          "detail": "Wear light, modest clothing and sunscreen, and carry plenty of water as shade is limited in some areas and the desert sun is intense."
+        },
+        {
+          "id": "nuzh_c4",
+          "text": "Engage with Local Gardeners",
+          "detail": "If you encounter staff or local gardeners, a friendly greeting in Arabic ('As-salamu alaykum') and genuine interest in their work is appreciated and enriches your visit."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 0,
+  "restaurants": []
+}

@@ -1,0 +1,1118 @@
+{
+  "id": "la_rioja",
+  "name": "La Rioja",
+  "nameIt": "La Rioja",
+  "capital": "La Rioja",
+  "lat": -29.4069,
+  "lng": -66.8603,
+  "emoji": "⛰️",
+  "colour": "ffff5722",
+  "boundingBox": {
+    "north": -27.5,
+    "south": -31.5,
+    "east": -65,
+    "west": -69
+  },
+  "history": "La Rioja, located in northwestern Argentina, has deep roots in Spanish colonial history dating back to the 16th century when it was established as part of the Viceroyalty of Peru. The region played a significant role during Argentina's wars of independence, and later became known for its contributions to the national government and culture throughout the 19th and 20th centuries. Mining, particularly for minerals and precious metals, shaped much of its economic development historically. Today, the province preserves its colonial heritage through architecture, traditions, and a strong connection to its indigenous Diaguita past.",
+  "culturalNotes": "La Rioja is renowned for its vibrant folk traditions, particularly its music and dance, with chacarera and chamamé being central to regional celebrations and festivals. The province is famous for its artisanal crafts, especially weavings, ceramics, and leather work that reflect both indigenous and Spanish colonial influences. The people of La Rioja maintain a distinctive cultural identity characterized by pride in their heritage, strong family bonds, and a deep connection to the landscape and religious traditions.",
+  "bestTimeToVisit": "April to October offers mild weather for visiting desert landscapes, wine regions, and pre-Andean mountains.",
+  "languageNotes": "While Spanish is the primary language spoken throughout La Rioja, the local dialect carries distinctive intonations and vocabulary influenced by indigenous Quechua and Diaguita languages. Useful phrases include \"¿Cómo estás?\" (How are you?) and \"Gracias\" (Thank you), though visitors will find that locals appreciate efforts to speak Spanish, even if English is spoken in tourist areas.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 9,
+  "places": [
+    {
+      "id": "la_rioja_capital",
+      "name": "La Rioja City",
+      "nameIt": "La Rioja",
+      "lat": -29.4119,
+      "lng": -66.6852,
+      "type": "CITY",
+      "description": "The provincial capital and largest city, known for its colonial architecture, vibrant plazas, and the stunning Cathedral of La Rioja. It serves as the cultural and economic heart of the region with excellent museums and local cuisine.",
+      "imageQueries": [
+        "La Rioja Cathedral Argentina",
+        "La Rioja city plaza colonial"
+      ],
+      "activities": [
+        {
+          "id": "la_r_1",
+          "text": "Cathedral of La Rioja",
+          "detail": "This stunning 17th-century baroque cathedral dominates the main plaza with its ornate façade and houses important religious art and relics.",
+          "lat": -29.4121,
+          "lng": -66.8627
+        },
+        {
+          "id": "la_r_2",
+          "text": "Plaza 25 de Mayo",
+          "detail": "The heart of the city, this colonial square is surrounded by historic buildings, cafés, and the cathedral, ideal for experiencing local life.",
+          "lat": -29.4121,
+          "lng": -66.8627
+        },
+        {
+          "id": "la_r_3",
+          "text": "Museo Arzobispal Juan Lav Jaime",
+          "detail": "This museum displays religious art, colonial vestments, and sacred objects from the region's rich ecclesiastical history.",
+          "lat": -29.4124,
+          "lng": -66.8638
+        },
+        {
+          "id": "la_r_4",
+          "text": "Convento de Santo Domingo",
+          "detail": "A beautifully preserved 16th-century convent featuring original cloisters and a peaceful courtyard representing early colonial architecture.",
+          "lat": -29.4142,
+          "lng": -66.8594
+        },
+        {
+          "id": "la_r_5",
+          "text": "Parque Talcamayo",
+          "detail": "A sprawling urban park offering green spaces, walking paths, and views over the city, perfect for afternoon relaxation.",
+          "lat": -29.4289,
+          "lng": -66.8654
+        }
+      ],
+      "food": [
+        {
+          "id": "la_r_f1",
+          "text": "Humita",
+          "detail": "A traditional andean dish of fresh corn paste wrapped in corn husks and steamed, often served with cheese and spices."
+        },
+        {
+          "id": "la_r_f2",
+          "text": "Empanadas Riojanas",
+          "detail": "Meat-filled pastries baked until golden, seasoned with cumin and local spices, a signature street food of La Rioja."
+        },
+        {
+          "id": "la_r_f3",
+          "text": "Locro",
+          "detail": "A hearty slow-cooked stew with corn, beans, squash, and meat, particularly enjoyed during winter months and celebrations."
+        },
+        {
+          "id": "la_r_f4",
+          "text": "Tamales",
+          "detail": "Masa filled with meat and wrapped in corn husks, reflecting indigenous culinary traditions deeply rooted in the region."
+        },
+        {
+          "id": "la_r_f5",
+          "text": "Dulce de Cayote",
+          "detail": "A sweet preserve made from bottle gourd and sugar, representing the province's traditional desserts and artisanal confections."
+        }
+      ],
+      "culture": [
+        {
+          "id": "la_r_c1",
+          "text": "Siesta tradition",
+          "detail": "Many shops and businesses close during midday hours (typically 12-4pm), so plan activities accordingly and embrace the local rhythm of rest."
+        },
+        {
+          "id": "la_r_c2",
+          "text": "Spanish colonial heritage",
+          "detail": "The city maintains strong colonial traditions visible in architecture, religious observance, and family-centered social customs that visitors should respect."
+        },
+        {
+          "id": "la_r_c3",
+          "text": "Local wine culture",
+          "detail": "La Rioja province produces excellent wines, and locals take pride in regional viticulture—inquire about local bodegas and tastings at restaurants."
+        },
+        {
+          "id": "la_r_c4",
+          "text": "Festive celebrations",
+          "detail": "Religious processions and civic celebrations are frequent and deeply important to the community; visitors are welcome but should dress respectfully."
+        }
+      ]
+    },
+    {
+      "id": "chilecito",
+      "name": "Chilecito",
+      "nameIt": "Chilecito",
+      "lat": -29.1567,
+      "lng": -67.4964,
+      "type": "TOWN",
+      "description": "A charming colonial town nestled in a valley, historically important for mining and known for its well-preserved architecture and proximity to mountain scenery. It's an excellent base for exploring the Sierra de Famatina and local wine production.",
+      "imageQueries": [
+        "Chilecito Argentina colonial",
+        "Chilecito town La Rioja"
+      ],
+      "activities": [
+        {
+          "id": "chil_1",
+          "text": "Cable Car to Mina Cacheuta",
+          "detail": "Ride the historic cable car up to the old mining site at 4,600 meters, offering panoramic views of the valley and insight into the region's mining heritage.",
+          "lat": -29.1447,
+          "lng": -67.4889
+        },
+        {
+          "id": "chil_2",
+          "text": "Explore the Town Plaza and Cathedral",
+          "detail": "Wander the well-preserved colonial center around Plaza 25 de Mayo, featuring the impressive Iglesia de Nuestra Señora del Rosario with its stunning architecture.",
+          "lat": -29.145,
+          "lng": -67.4917
+        },
+        {
+          "id": "chil_3",
+          "text": "Hiking in Sierra de Famatina",
+          "detail": "Trek through the nearby mountain range with trails offering dramatic peaks, alpine scenery, and opportunities to spot Andean wildlife.",
+          "lat": -29.05,
+          "lng": -67.6
+        },
+        {
+          "id": "chil_4",
+          "text": "Visit Local Wineries",
+          "detail": "Tour small family-run wine producers in the surrounding valleys that specialize in Torrontés and other varietals suited to the high-altitude terroir.",
+          "lat": -29.15,
+          "lng": -67.51
+        },
+        {
+          "id": "chil_5",
+          "text": "Paseo de los Artesanos",
+          "detail": "Browse the artisan market showcasing local crafts, textiles, and handmade goods from regional artisans.",
+          "lat": -29.1455,
+          "lng": -67.49
+        },
+        {
+          "id": "chil_6",
+          "text": "Piscina Natural de Chilecito",
+          "detail": "Cool off in natural pools fed by mountain streams on the outskirts of town, perfect for swimming and relaxing in the valley heat."
+        }
+      ],
+      "food": [
+        {
+          "id": "chil_f1",
+          "text": "Empanadas Riojanas",
+          "detail": "Savory hand-held pastries filled with spiced ground beef, hard-boiled egg, and olives, a signature dish throughout La Rioja province."
+        },
+        {
+          "id": "chil_f2",
+          "text": "Humita",
+          "detail": "Fresh corn tamales wrapped in corn husks, often served during summer months, representing traditional Andean cuisine."
+        },
+        {
+          "id": "chil_f3",
+          "text": "Locro",
+          "detail": "A hearty slow-cooked stew of corn, beans, squash, and beef popular in the cooler mountain climate around Chilecito."
+        },
+        {
+          "id": "chil_f4",
+          "text": "Torrontés Wine Tasting",
+          "detail": "Sample the region's signature white wine varietal known for its aromatic character and crisp acidity, best enjoyed fresh and chilled."
+        },
+        {
+          "id": "chil_f5",
+          "text": "Quesos de La Rioja",
+          "detail": "Local cheeses crafted by small producers, ranging from fresh variants to aged varieties that pair perfectly with local wines."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chil_c1",
+          "text": "Respect Mining Heritage",
+          "detail": "The town's identity is deeply tied to its mining past; locals take pride in this history, so showing genuine interest in the region's industrial heritage is appreciated."
+        },
+        {
+          "id": "chil_c2",
+          "text": "Siesta Time is Sacred",
+          "detail": "Many shops and services close between 12 and 4 p.m. for the afternoon rest; plan activities and meals accordingly to align with local rhythms."
+        },
+        {
+          "id": "chil_c3",
+          "text": "Altitude Acclimatization",
+          "detail": "At 1,330 meters elevation, the town sits high enough to cause mild altitude effects for some visitors; take it easy for the first day and stay hydrated."
+        },
+        {
+          "id": "chil_c4",
+          "text": "Festival Season",
+          "detail": "December and January feature local celebrations including the Vendimia (wine harvest festival); visiting during these months offers authentic cultural immersion."
+        }
+      ]
+    },
+    {
+      "id": "famatina_mountains",
+      "name": "Sierra de Famatina",
+      "nameIt": "Sierra de Famatina",
+      "lat": -29.1833,
+      "lng": -67.5333,
+      "type": "NATURE",
+      "description": "A dramatic mountain range that rises dramatically from the valley floor near Chilecito, offering stunning views and hiking opportunities. The peaks are known for their striking geological formations and accessibility for trekking.",
+      "imageQueries": [
+        "Sierra de Famatina mountains",
+        "Famatina peaks La Rioja"
+      ],
+      "activities": [
+        {
+          "id": "fama_1",
+          "text": "Hike to Pan de Azúcar",
+          "detail": "Trek to this iconic peak offering panoramic views of the entire Famatina range and the surrounding valleys below.",
+          "lat": -29.145,
+          "lng": -67.4892
+        },
+        {
+          "id": "fama_2",
+          "text": "Explore Chilecito town",
+          "detail": "Visit the charming base town near the sierra's foothills, featuring colonial architecture and the famous cable car ruins from mining days.",
+          "lat": -29.1522,
+          "lng": -67.5019
+        },
+        {
+          "id": "fama_3",
+          "text": "Geological formations tour",
+          "detail": "Examine the striking layered rock formations and mineral-rich outcrops that showcase the region's dramatic geological history.",
+          "lat": -29.148,
+          "lng": -67.475
+        },
+        {
+          "id": "fama_4",
+          "text": "Multi-day trekking expedition",
+          "detail": "Undertake a challenging multi-day trek through the high peaks, experiencing alpine ecosystems and remote mountain solitude.",
+          "lat": -29.12,
+          "lng": -67.51
+        },
+        {
+          "id": "fama_5",
+          "text": "Photography at sunrise",
+          "detail": "Capture dramatic morning light illuminating the red and purple geological formations from various vantage points across the range.",
+          "lat": -29.14,
+          "lng": -67.49
+        },
+        {
+          "id": "fama_6",
+          "text": "Visit local mining heritage sites",
+          "detail": "Explore remnants of the historic cable car system and mining operations that connected Chilecito to the high sierra peaks.",
+          "lat": -29.155,
+          "lng": -67.505
+        }
+      ],
+      "food": [
+        {
+          "id": "fama_f1",
+          "text": "Locro de papa",
+          "detail": "A hearty potato and meat stew that provides essential warmth and sustenance for hikers tackling the high-altitude trails."
+        },
+        {
+          "id": "fama_f2",
+          "text": "Empanadas riojanas",
+          "detail": "Regional pastries filled with spiced meat and served throughout Chilecito, perfect for portable trail snacks."
+        },
+        {
+          "id": "fama_f3",
+          "text": "Humita en chala",
+          "detail": "Fresh corn pudding wrapped in corn husks, a traditional local preparation showcasing the region's agricultural heritage."
+        },
+        {
+          "id": "fama_f4",
+          "text": "Asado de cordero",
+          "detail": "Grilled lamb prepared over open fire, a staple celebration meal in mountain communities around the sierra."
+        },
+        {
+          "id": "fama_f5",
+          "text": "Wines from Chilecito vineyards",
+          "detail": "Sample locally produced Torrontés and Malbec wines grown in the valleys surrounding the mountain range."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fama_c1",
+          "text": "Start hikes very early",
+          "detail": "Mountain weather changes rapidly in the afternoon, so locals and guides emphasize beginning treks at dawn to ensure safety and clear views."
+        },
+        {
+          "id": "fama_c2",
+          "text": "Respect mining history",
+          "detail": "The sierra holds deep cultural significance as a site of historic mining operations; locals appreciate visitors who learn about this heritage."
+        },
+        {
+          "id": "fama_c3",
+          "text": "Hire local guides",
+          "detail": "Experienced guides from Chilecito know the trails intimately and can share geological and cultural insights that enhance the experience."
+        },
+        {
+          "id": "fama_c4",
+          "text": "Acclimatize properly",
+          "detail": "Spend time in Chilecito before ascending to higher elevations, as the peaks reach significant altitudes and altitude sickness is a real consideration."
+        }
+      ]
+    },
+    {
+      "id": "villa_union",
+      "name": "Villa Unión",
+      "nameIt": "Villa Unión",
+      "lat": -29.7528,
+      "lng": -66.2778,
+      "type": "TOWN",
+      "description": "A gateway town to the stunning Serranías del Hornocal and high-altitude landscapes, popular with adventure travelers and outdoor enthusiasts. It offers access to remote canyons, colorful rock formations, and pristine wilderness areas.",
+      "imageQueries": [
+        "Villa Unión La Rioja",
+        "Villa Unión Argentina gateway"
+      ],
+      "activities": [
+        {
+          "id": "vill_1",
+          "text": "Serranías del Hornocal Trek",
+          "detail": "A multi-day hiking expedition to the famous 14-color mountain formation, featuring dramatic striated peaks and expansive high-altitude vistas.",
+          "lat": -23.7339,
+          "lng": -65.3561
+        },
+        {
+          "id": "vill_2",
+          "text": "Canyons of the Río Grande",
+          "detail": "Explore deep canyon systems carved by the Río Grande with rock climbing, rappelling, and swimming opportunities in remote wilderness areas.",
+          "lat": -23.7408,
+          "lng": -65.3492
+        },
+        {
+          "id": "vill_3",
+          "text": "Paleta del Pintor Viewpoint",
+          "detail": "Visit this accessible viewpoint showcasing the famous Painter's Palette mountain with its striking bands of red, orange, yellow, and purple mineral deposits.",
+          "lat": -23.6992,
+          "lng": -65.3825
+        },
+        {
+          "id": "vill_4",
+          "text": "High-Altitude Mountain Biking",
+          "detail": "Ride remote trails through the Andean foothills accessing scenic ridges and isolated valleys at elevations between 3,000 and 4,500 meters.",
+          "lat": -23.75,
+          "lng": -65.36
+        },
+        {
+          "id": "vill_5",
+          "text": "Laguna de Pozuelos National Reserve Visit",
+          "detail": "Day trip to this high-altitude wetland reserve home to Andean flamingos, vicuñas, and rare bird species in a pristine puna ecosystem.",
+          "lat": -23.7667,
+          "lng": -65.5
+        },
+        {
+          "id": "vill_6",
+          "text": "Stargazing at High Altitude",
+          "detail": "Experience exceptional night-sky viewing from Villa Unión's elevation with minimal light pollution, ideal for observing the Southern Cross and Milky Way.",
+          "lat": -23.7408,
+          "lng": -65.3492
+        }
+      ],
+      "food": [
+        {
+          "id": "vill_f1",
+          "text": "Empanadas Riojanas",
+          "detail": "Local pastries filled with seasoned ground meat, onions, and spices, baked until golden and served hot as a regional specialty throughout La Rioja."
+        },
+        {
+          "id": "vill_f2",
+          "text": "Locro",
+          "detail": "A hearty slow-cooked stew combining corn, beans, squash, and meat, traditionally enjoyed during cooler mountain evenings and a staple of Andean cuisine."
+        },
+        {
+          "id": "vill_f3",
+          "text": "Cordero a la Olla",
+          "detail": "Tender lamb cooked slowly in a clay pot with regional vegetables and spices, reflecting the area's strong pastoral heritage."
+        },
+        {
+          "id": "vill_f4",
+          "text": "Quinoa and Vegetable Dishes",
+          "detail": "Local restaurants prepare traditional quinoa-based meals often combined with native vegetables and served as a light, nutritious option for altitude adjustment."
+        },
+        {
+          "id": "vill_f5",
+          "text": "Fresh Trout from Mountain Streams",
+          "detail": "Grilled or pan-fried Andean trout caught locally, often served simply with lemon and regional herbs to highlight its delicate flavor."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vill_c1",
+          "text": "Altitude Acclimatization Essential",
+          "detail": "Villa Unión sits at 1,300 meters elevation as a gateway to peaks above 4,000 meters; plan arrival days ahead for acclimatization and stay hydrated to manage soroche (altitude sickness)."
+        },
+        {
+          "id": "vill_c2",
+          "text": "Limited Services and Cash Economy",
+          "detail": "The town has minimal ATMs and basic supplies; carry sufficient Argentine pesos and book accommodations in advance as tourism infrastructure is intentionally modest to preserve the wilderness character."
+        },
+        {
+          "id": "vill_c3",
+          "text": "Respect for Indigenous Andean Traditions",
+          "detail": "The region has deep indigenous roots; show respect for local customs, ask permission before photographing people or sacred sites, and support local guides who steward the landscape."
+        },
+        {
+          "id": "vill_c4",
+          "text": "Early Starts and Weather Preparedness",
+          "detail": "Adventure activities begin before dawn to avoid afternoon storms; pack layers, sun protection, and rain gear as mountain weather changes rapidly at high altitude."
+        }
+      ]
+    },
+    {
+      "id": "serranias_hornocal",
+      "name": "Serranías del Hornocal",
+      "nameIt": "Serranías del Hornocal",
+      "lat": -29.7083,
+      "lng": -65.35,
+      "type": "NATURE",
+      "description": "A remote high-altitude mountain range featuring dramatic multicolored rock formations and vast panoramic views of the Andes. This pristine wilderness area is increasingly popular for trekking and offers some of Argentina's most dramatic and untouched landscapes.",
+      "imageQueries": [
+        "Serranías del Hornocal colorful mountains",
+        "Hornocal trekking Argentina"
+      ],
+      "activities": [
+        {
+          "id": "serr_1",
+          "text": "Paleta del Pintor Trek",
+          "detail": "A full-day guided hike through the famous Palette of the Painter formation, showcasing layers of red, green, blue, and purple mineral-rich rocks at approximately 4,895 meters elevation.",
+          "lat": -23.738,
+          "lng": -65.403
+        },
+        {
+          "id": "serr_2",
+          "text": "Serranías Summit Climb",
+          "detail": "A challenging multi-day trek to the highest peaks of the range, offering 360-degree panoramic views of the Andes and surrounding valleys.",
+          "lat": -23.74,
+          "lng": -65.4
+        },
+        {
+          "id": "serr_3",
+          "text": "Sunrise Photography at Maitén",
+          "detail": "Wake before dawn to capture the alpenglow illuminating the multicolored rock formations from the Maitén viewpoint, a popular spot among landscape photographers.",
+          "lat": -23.745,
+          "lng": -65.41
+        },
+        {
+          "id": "serr_4",
+          "text": "Horseback Trekking",
+          "detail": "Explore the backcountry routes on horseback with local guides who navigate the high-altitude terrain and remote valleys inaccessible by foot alone.",
+          "lat": -23.74,
+          "lng": -65.405
+        },
+        {
+          "id": "serr_5",
+          "text": "Geological Study Tour",
+          "detail": "Join an expert-led interpretation of the area's unique mineral composition and geological formations that create the distinctive color variations.",
+          "lat": -23.738,
+          "lng": -65.403
+        },
+        {
+          "id": "serr_6",
+          "text": "Overnight High-Altitude Camp",
+          "detail": "Experience sleeping at extreme elevation (4,500+ meters) in mountain refugios or base camps while acclimatizing and observing star-filled night skies.",
+          "lat": -23.742,
+          "lng": -65.408
+        }
+      ],
+      "food": [
+        {
+          "id": "serr_f1",
+          "text": "Empanadas de carne",
+          "detail": "Handmade pastry pockets filled with local beef, onions, and spices, typically prepared by rural families and served warm at lodges and trailheads."
+        },
+        {
+          "id": "serr_f2",
+          "text": "Charqui",
+          "detail": "Dried, salted strips of Andean beef or llama meat that serves as high-protein sustenance for trekkers navigating the demanding mountain terrain."
+        },
+        {
+          "id": "serr_f3",
+          "text": "Locro de papa",
+          "detail": "A hearty stew of potatoes, corn, and meat traditional to northwestern Argentina, served hot at mountain lodges to warm visitors after cold-weather hikes."
+        },
+        {
+          "id": "serr_f4",
+          "text": "Fresh trout from mountain streams",
+          "detail": "Locally caught Andean trout prepared simply grilled or pan-fried, available at certain lodges near water sources in the region."
+        },
+        {
+          "id": "serr_f5",
+          "text": "Humita",
+          "detail": "A traditional dish of fresh corn paste wrapped in corn husks and steamed, representing indigenous Andean cuisine adapted for high-altitude conditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "serr_c1",
+          "text": "Altitude acclimatization is essential",
+          "detail": "Allow at least one to two days at intermediate elevations before attempting the full trek, as Serranías del Hornocal sits above 4,500 meters where altitude sickness is common."
+        },
+        {
+          "id": "serr_c2",
+          "text": "Hire local guides for safety",
+          "detail": "The terrain is remote and weather conditions change rapidly; local guides from nearby towns like Purmamarca are essential for navigation and emergency support."
+        },
+        {
+          "id": "serr_c3",
+          "text": "Respect indigenous heritage",
+          "detail": "The region holds significance for indigenous Andean communities; ask permission before photographing local people and purchase crafts directly from artisans to support the community."
+        },
+        {
+          "id": "serr_c4",
+          "text": "Pack for extreme weather variability",
+          "detail": "Temperatures can drop below freezing even in summer, and afternoon storms develop quickly; bring layered clothing, sun protection, and weather-appropriate gear regardless of season."
+        }
+      ]
+    },
+    {
+      "id": "penas_blancas",
+      "name": "Peñas Blancas Canyon",
+      "nameIt": "Cañón de Peñas Blancas",
+      "lat": -29.8,
+      "lng": -65.55,
+      "type": "NATURE",
+      "description": "A scenic canyon featuring white mineral-rich cliffs and narrow passages carved by water erosion over millennia. It offers excellent hiking and photography opportunities with stunning geological displays.",
+      "imageQueries": [
+        "Peñas Blancas canyon white cliffs",
+        "Peñas Blancas La Rioja Argentina"
+      ],
+      "activities": [
+        {
+          "id": "pena_1",
+          "text": "Main Canyon Trail Hike",
+          "detail": "Walk the primary hiking route through the canyon floor, navigating narrow passages between towering white mineral cliffs and crossing seasonal water flows.",
+          "lat": -29.4167,
+          "lng": -66.7167
+        },
+        {
+          "id": "pena_2",
+          "text": "Geological Photography",
+          "detail": "Capture the distinctive white and ochre mineral striations on the cliff faces, particularly stunning during early morning and late afternoon light.",
+          "lat": -29.4167,
+          "lng": -66.7167
+        },
+        {
+          "id": "pena_3",
+          "text": "Rock Formation Viewing",
+          "detail": "Study the dramatic erosion patterns and columnar basalt formations that showcase millions of years of water and wind sculpting.",
+          "lat": -29.4167,
+          "lng": -66.7167
+        },
+        {
+          "id": "pena_4",
+          "text": "Upper Ridge Walk",
+          "detail": "Hike to the canyon rim for panoramic views of the surrounding La Rioja landscape and the winding canyon system below."
+        },
+        {
+          "id": "pena_5",
+          "text": "Water Feature Exploration",
+          "detail": "Locate seasonal waterfalls and natural pools within the canyon that form after rainfall, creating additional photographic opportunities."
+        },
+        {
+          "id": "pena_6",
+          "text": "Mineral Sample Observation",
+          "detail": "Examine the exposed quartz, calcite, and iron oxide deposits embedded in the cliff walls without removing samples."
+        }
+      ],
+      "food": [
+        {
+          "id": "pena_f1",
+          "text": "Locro Riojano",
+          "detail": "A hearty traditional stew from La Rioja made with corn, beans, squash, and slow-cooked meat, perfect for refueling after canyon hiking."
+        },
+        {
+          "id": "pena_f2",
+          "text": "Empanadas Riojanas",
+          "detail": "Savory pastries filled with ground beef, onions, and spices that are a staple snack throughout the region and easy to pack for trails."
+        },
+        {
+          "id": "pena_f3",
+          "text": "Chivito a la Cruz",
+          "detail": "A regional grilled goat dish cooked over open fire, reflecting the pastoral traditions of La Rioja's rural communities."
+        },
+        {
+          "id": "pena_f4",
+          "text": "Humita",
+          "detail": "A creamy corn-based dish wrapped in corn husks, combining fresh maize with cheese and peppers for a light regional specialty."
+        },
+        {
+          "id": "pena_f5",
+          "text": "Patay",
+          "detail": "A traditional fried pastry dessert filled with quinoa and honey, representing the indigenous culinary heritage of northern Argentina."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pena_c1",
+          "text": "Respect Private Land Access",
+          "detail": "Some canyon entrances cross private estancias (ranches), so obtain permission from local landowners or hire a guide familiar with access rights before exploring."
+        },
+        {
+          "id": "pena_c2",
+          "text": "Visit During Dry Season",
+          "detail": "Plan your visit between May and November when water levels are lower and canyon passages are safest for hiking, as flash floods can occur in rainy months."
+        },
+        {
+          "id": "pena_c3",
+          "text": "Support Local Guides",
+          "detail": "Hire local guides from nearby towns who possess deep knowledge of safe routes, geological features, and can share stories of the region's mining and pastoral history."
+        },
+        {
+          "id": "pena_c4",
+          "text": "Leave No Trace Principles",
+          "detail": "La Rioja communities value environmental preservation, so pack out all waste and avoid removing rocks or mineral specimens to protect the canyon's natural integrity."
+        }
+      ]
+    },
+    {
+      "id": "catedral_la_rioja",
+      "name": "Cathedral of La Rioja",
+      "nameIt": "Catedral Metropolitana",
+      "lat": -29.4122,
+      "lng": -66.6851,
+      "type": "LANDMARK",
+      "description": "A stunning baroque cathedral located in the main plaza, famous for its ornate interior and religious artwork. Built over centuries, it represents the colonial heritage and spiritual significance of the region.",
+      "imageQueries": [
+        "Cathedral La Rioja Argentina baroque",
+        "Catedral Metropolitana La Rioja"
+      ],
+      "activities": [
+        {
+          "id": "cate_1",
+          "text": "Admire the Baroque Interior",
+          "detail": "Explore the ornate altar, carved wooden choir stalls, and religious paintings that showcase centuries of artistic craftsmanship and colonial-era devotion.",
+          "lat": -29.4129,
+          "lng": -66.7015
+        },
+        {
+          "id": "cate_2",
+          "text": "View the Main Altarpiece",
+          "detail": "Study the cathedral's impressive retablo with its gilded details and religious iconography, considered one of the finest examples of colonial baroque art in Argentina.",
+          "lat": -29.4129,
+          "lng": -66.7015
+        },
+        {
+          "id": "cate_3",
+          "text": "Explore Plaza 25 de Mayo",
+          "detail": "Walk around the main plaza surrounding the cathedral to see colonial architecture, local monuments, and get a feel for the heart of La Rioja city.",
+          "lat": -29.4131,
+          "lng": -66.7019
+        },
+        {
+          "id": "cate_4",
+          "text": "Attend a Religious Service",
+          "detail": "Experience a Sunday or weekday mass to hear the cathedral's acoustics and witness active worship in this centuries-old spiritual center.",
+          "lat": -29.4129,
+          "lng": -66.7015
+        },
+        {
+          "id": "cate_5",
+          "text": "Examine Religious Artwork and Sculptures",
+          "detail": "Observe the collection of colonial-era religious paintings, wooden sculptures, and decorative elements throughout the cathedral's chapels and corridors.",
+          "lat": -29.4129,
+          "lng": -66.7015
+        },
+        {
+          "id": "cate_6",
+          "text": "Visit the Cathedral Museum",
+          "detail": "Browse religious artifacts, vestments, and historical documents that tell the story of the cathedral's construction and religious importance to the region."
+        }
+      ],
+      "food": [
+        {
+          "id": "cate_f1",
+          "text": "Empanadas Riojanas",
+          "detail": "These traditional stuffed pastries filled with meat, cheese, and local spices are a beloved regional specialty found in cafés and markets near the cathedral."
+        },
+        {
+          "id": "cate_f2",
+          "text": "Locro",
+          "detail": "A hearty stew made with corn, beans, meat, and local squash that represents traditional northwestern Argentine cuisine, especially popular in cooler months."
+        },
+        {
+          "id": "cate_f3",
+          "text": "Chivito",
+          "detail": "A slow-roasted kid goat dish that is a signature delicacy of La Rioja province, often served at local restaurants around the plaza."
+        },
+        {
+          "id": "cate_f4",
+          "text": "Tamales Riojanos",
+          "detail": "Corn-based parcels filled with meat and wrapped in corn husks, representing pre-Hispanic and colonial culinary traditions of the region."
+        },
+        {
+          "id": "cate_f5",
+          "text": "Tortas Fritas with Salsa Criolla",
+          "detail": "Fried dough pastries served with a fresh onion and tomato relish, commonly enjoyed as a casual snack or light meal in local bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cate_c1",
+          "text": "Dress Respectfully for Religious Visits",
+          "detail": "Wear modest clothing that covers shoulders and knees when entering the cathedral, as it remains an active place of worship deserving reverence."
+        },
+        {
+          "id": "cate_c2",
+          "text": "Visit During Quieter Hours",
+          "detail": "Arrive in early morning or late afternoon to experience the cathedral's peaceful ambiance and ornate details without crowds of tourists or worshippers."
+        },
+        {
+          "id": "cate_c3",
+          "text": "Learn About Colonial Religious History",
+          "detail": "The cathedral reflects centuries of Catholic influence and indigenous-Spanish cultural blending, so understanding this context enriches appreciation of the artwork and architecture."
+        },
+        {
+          "id": "cate_c4",
+          "text": "Respect Photography Restrictions",
+          "detail": "Ask permission before photographing the interior, as some areas may restrict flash photography to preserve artwork and respect active worship spaces."
+        }
+      ]
+    },
+    {
+      "id": "general_belgrano_park",
+      "name": "General Belgrano Park",
+      "nameIt": "Parque General Belgrano",
+      "lat": -29.4115,
+      "lng": -66.6848,
+      "type": "LANDMARK",
+      "description": "The main plaza of La Rioja city, surrounded by colonial buildings and serving as the social and cultural heart of the province. It's an ideal spot for experiencing local life and admiring the region's architectural heritage.",
+      "imageQueries": [
+        "General Belgrano Park La Rioja",
+        "La Rioja main plaza Argentina"
+      ],
+      "activities": [
+        {
+          "id": "gene_1",
+          "text": "Admire the Cathedral Basilica",
+          "detail": "Gaze upon the neoclassical facade of the Catedral Basilica de Nuestra Señora de la Asunción, which dominates the plaza's eastern side with its twin towers and ornate interior.",
+          "lat": -29.413,
+          "lng": -66.6827
+        },
+        {
+          "id": "gene_2",
+          "text": "Visit the Government House",
+          "detail": "Explore the historic Casa de Gobierno, a colonial-era building showcasing regional political history and architectural details from La Rioja's founding period.",
+          "lat": -29.4131,
+          "lng": -66.6838
+        },
+        {
+          "id": "gene_3",
+          "text": "Stroll beneath native trees",
+          "detail": "Walk through the shaded areas of the plaza planted with queñoa and algarrobo trees, perfect for escaping the intense Andean sun while observing local daily life."
+        },
+        {
+          "id": "gene_4",
+          "text": "Browse the artisan market",
+          "detail": "Visit the informal stalls around the plaza selling traditional weavings, pottery, and handicrafts directly from local craftspeople, especially on weekends."
+        },
+        {
+          "id": "gene_5",
+          "text": "Watch the evening paseo",
+          "detail": "Experience the social tradition of locals gathering in the plaza during late afternoon to socialize, with families and friends meeting for casual conversation and people-watching."
+        },
+        {
+          "id": "gene_6",
+          "text": "Photograph colonial architecture",
+          "detail": "Capture images of the 16th and 17th-century buildings framing the plaza, including arcaded galleries and whitewashed facades typical of Spanish colonial design."
+        }
+      ],
+      "food": [
+        {
+          "id": "gene_f1",
+          "text": "Locro",
+          "detail": "A hearty stew of corn, beans, meat, and squash slow-cooked until tender, traditionally served in earthenware bowls and warming against the highland climate."
+        },
+        {
+          "id": "gene_f2",
+          "text": "Humita",
+          "detail": "Fresh corn paste wrapped in corn husks and steamed, often served as a side dish or light meal, showcasing the region's pre-Hispanic culinary traditions."
+        },
+        {
+          "id": "gene_f3",
+          "text": "Empanadas riojanas",
+          "detail": "Half-moon pastries filled with spiced ground meat, hard-boiled egg, and olives, sold by street vendors around the plaza and best eaten warm."
+        },
+        {
+          "id": "gene_f4",
+          "text": "Cazuela de fideos",
+          "detail": "Thin noodles baked with meat, peppers, and cheese in a clay pot, representing the fusion of Spanish and indigenous cooking techniques common to the region."
+        },
+        {
+          "id": "gene_f5",
+          "text": "Pastelitos",
+          "detail": "Small fried pastries filled with sweet squash or savory cheese, typically enjoyed as an afternoon snack with local wine or mate."
+        },
+        {
+          "id": "gene_f6",
+          "text": "Local wines",
+          "detail": "Sample wines from nearby vineyards in the Valleys of La Rioja, particularly Torrontés whites and Bonarda reds, often available at cafés surrounding the plaza."
+        }
+      ],
+      "culture": [
+        {
+          "id": "gene_c1",
+          "text": "Embrace mate culture",
+          "detail": "Participate in the widespread tradition of sharing mate (a caffeinated herbal tea) in the plaza; accepting an offered cup is a sign of friendship and social acceptance."
+        },
+        {
+          "id": "gene_c2",
+          "text": "Respect siesta timing",
+          "detail": "Plan activities accordingly, as many businesses and sites close between 12 and 4 p.m. for the afternoon rest period, a deeply rooted custom in provincial Argentina."
+        },
+        {
+          "id": "gene_c3",
+          "text": "Attend religious processions",
+          "detail": "If visiting during Catholic feast days, particularly December 8 (Immaculate Conception), witness colorful processions starting from the Cathedral that reflect the province's strong spiritual heritage."
+        },
+        {
+          "id": "gene_c4",
+          "text": "Dress for the climate",
+          "detail": "Bring sun protection and light clothing for intense daytime heat, but also a light jacket for cool evenings at this high altitude in the Andes foothills."
+        }
+      ]
+    },
+    {
+      "id": "guayamba",
+      "name": "Guayamba",
+      "nameIt": "Guayamba",
+      "lat": -29.5667,
+      "lng": -66.5,
+      "type": "VILLAGE",
+      "description": "A small rural village offering authentic experiences of rural Argentine life and access to nearby natural attractions. It provides a peaceful alternative to city tourism with traditional culture and hospitality.",
+      "imageQueries": [
+        "Guayamba La Rioja village",
+        "Guayamba Argentina rural"
+      ],
+      "activities": [
+        {
+          "id": "guay_1",
+          "text": "Paseo por la Quebrada de Guayamba",
+          "detail": "Hike through the local canyon and riverbed to observe native vegetation, rock formations, and seasonal water flows typical of La Rioja's arid landscape.",
+          "lat": -29.7833,
+          "lng": -67.4833
+        },
+        {
+          "id": "guay_2",
+          "text": "Visita a estancias tradicionales",
+          "detail": "Tour working rural ranches in the surrounding areas to experience gaucho culture, livestock handling, and traditional ranch hospitality."
+        },
+        {
+          "id": "guay_3",
+          "text": "Observación de fauna local",
+          "detail": "Spot native wildlife including vizcachas, pumas, and various bird species in their natural habitat during early morning or evening walks."
+        },
+        {
+          "id": "guay_4",
+          "text": "Exploración de senderos hacia formaciones geológicas",
+          "detail": "Trek to nearby rock formations and geological sites that showcase La Rioja's distinctive reddish earth and mineral-rich terrain."
+        },
+        {
+          "id": "guay_5",
+          "text": "Participación en faenas rurales",
+          "detail": "Help local residents with seasonal agricultural or livestock tasks to gain hands-on understanding of rural Argentine life."
+        }
+      ],
+      "food": [
+        {
+          "id": "guay_f1",
+          "text": "Locro de La Rioja",
+          "detail": "A hearty stew of corn, beans, squash, and meat slow-cooked in traditional style, considered a signature dish of the region."
+        },
+        {
+          "id": "guay_f2",
+          "text": "Empanadas riojanas",
+          "detail": "Baked or fried pastries filled with seasoned meat, onions, and local herbs, reflecting the culinary traditions of northern Argentina."
+        },
+        {
+          "id": "guay_f3",
+          "text": "Queso de cabra local",
+          "detail": "Fresh goat cheese produced by village residents using traditional methods, often served with homemade bread."
+        },
+        {
+          "id": "guay_f4",
+          "text": "Charque o charqui",
+          "detail": "Dried and salted meat prepared locally and served shredded or in stews, reflecting indigenous preservation techniques still used in rural areas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "guay_c1",
+          "text": "Respete el ritmo lento del pueblo",
+          "detail": "Life moves deliberately in Guayamba; adapt to local meal times, siesta hours, and the understanding that activities happen on village time rather than tourist schedules."
+        },
+        {
+          "id": "guay_c2",
+          "text": "Lleve efectivo y sea flexible con servicios",
+          "detail": "ATMs and modern conveniences are limited; bring Argentine pesos, expect basic accommodations, and confirm plans with locals the day before since services are informal."
+        },
+        {
+          "id": "guay_c3",
+          "text": "Salude y converse con los residentes",
+          "detail": "Rural Argentines appreciate genuine greetings and conversation; take time to chat with locals, ask about their work, and show respect for their way of life."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Bodegas Etchart",
+      "address": "Ruta Nacional 9, Km 1123",
+      "neighbourhood": "Cafayate",
+      "cuisine": "Contemporary Argentine",
+      "priceRange": "€€€",
+      "description": "Fine dining restaurant within a historic winery offering innovative dishes paired with exceptional Cafayate wines in a sophisticated setting.",
+      "mustOrder": "Cordero a la cruz con reducción de Torrontés",
+      "lat": -26.0569,
+      "lng": -65.4087
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "La Vieja Casona",
+      "address": "Calle Güemes 56",
+      "neighbourhood": "Chilecito",
+      "cuisine": "Traditional Argentine",
+      "priceRange": "€€",
+      "description": "Charming colonial-style restaurant in a restored historic house serving traditional Argentine fare and local specialties.",
+      "mustOrder": "Humita en chala",
+      "lat": -29.1483,
+      "lng": -67.4972
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Las Tinajas",
+      "address": "Avenida Belgrano 351",
+      "neighbourhood": "Chilecito",
+      "cuisine": "Regional Argentine",
+      "priceRange": "€€",
+      "description": "Casual family-run restaurant featuring regional La Rioja cuisine with rustic charm and generous portions.",
+      "mustOrder": "Locro riojano",
+      "lat": -29.147,
+      "lng": -67.4965
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Nuevo Inti",
+      "address": "San Martín 158",
+      "neighbourhood": "Catamarca (border town)",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€",
+      "description": "Popular parrilla with an excellent selection of grilled meats and traditional Argentine sides in a lively atmosphere.",
+      "mustOrder": "Asado de tira con chimichurri",
+      "lat": -28.4699,
+      "lng": -65.4856
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "El Cortijo",
+      "address": "Calle Rioja 12",
+      "neighbourhood": "Famatina",
+      "cuisine": "Traditional Argentine",
+      "priceRange": "€",
+      "description": "Unpretentious neighborhood restaurant offering authentic regional cooking and warm hospitality at budget-friendly prices.",
+      "mustOrder": "Empanadas de carne",
+      "lat": -29.0778,
+      "lng": -67.6089
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "La Tablita",
+      "address": "Avenida Alem 47",
+      "neighbourhood": "La Rioja City",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€",
+      "description": "Well-established steakhouse in the provincial capital known for quality beef cuts and traditional Argentine preparations.",
+      "mustOrder": "Vacio a la parrilla",
+      "lat": -29.4131,
+      "lng": -66.6854
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Casa Museo Tradicional",
+      "address": "Lamadrid 28",
+      "neighbourhood": "La Rioja City",
+      "cuisine": "Regional Argentine",
+      "priceRange": "€€",
+      "description": "Restaurant housed in a restored 19th-century mansion serving traditional La Rioja dishes in an atmospheric colonial setting.",
+      "mustOrder": "Tamales",
+      "lat": -29.4125,
+      "lng": -66.6812
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Vines of Mendoza",
+      "address": "Ruta 40 Sur, Km 1256",
+      "neighbourhood": "Cafayate",
+      "cuisine": "Fusion Argentine",
+      "priceRange": "€€€",
+      "description": "Modern restaurant with an extensive wine list showcasing regional varietals alongside contemporary Argentine cuisine with international influences.",
+      "mustOrder": "Salmón con salsa de Torrontés",
+      "lat": -26.0645,
+      "lng": -65.4123
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "El Peñón",
+      "address": "Avenida Santa Martín 180",
+      "neighbourhood": "Chilecito",
+      "cuisine": "Argentine Comfort Food",
+      "priceRange": "€",
+      "description": "Simple, honest eatery popular with locals serving hearty Argentine classics including excellent milanesas and stews.",
+      "mustOrder": "Milanesa napolitana",
+      "lat": -29.1465,
+      "lng": -67.498
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Parador de las Salinas",
+      "address": "Ruta Provincial 76",
+      "neighbourhood": "Salinas de Januma",
+      "cuisine": "Regional Argentine",
+      "priceRange": "€€",
+      "description": "Rural restaurant in a remote mountain setting offering authentic high-altitude regional cuisine with spectacular views.",
+      "mustOrder": "Guiso de mondongo",
+      "lat": -28.8456,
+      "lng": -66.7234
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Copa del Árbol",
+      "address": "Ruta 40, Km 1195",
+      "neighbourhood": "Cafayate",
+      "cuisine": "Argentine Contemporary",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant with vineyard views serving creative Argentine dishes paired with acclaimed local wines in an elegant atmosphere.",
+      "mustOrder": "Bife de chorizo con reducción de Malbec",
+      "lat": -26.0512,
+      "lng": -65.4045
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "San Juan Bautista",
+      "address": "Calle Constitución 87",
+      "neighbourhood": "Nonogasta",
+      "cuisine": "Traditional Argentine",
+      "priceRange": "€",
+      "description": "Modest family restaurant in a small town serving generous portions of traditional regional food and local specialties.",
+      "mustOrder": "Cazuela de vacuno",
+      "lat": -29.1289,
+      "lng": -67.8567
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "El Jardín de Bacchus",
+      "address": "Ruta 40, Km 1210",
+      "neighbourhood": "Cafayate",
+      "cuisine": "Wine Bar & Tapas",
+      "priceRange": "€€",
+      "description": "Casual wine bar featuring small plates and regional specialties designed for pairing with Cafayate's renowned varietals.",
+      "mustOrder": "Tabla de quesos regionales",
+      "lat": -26.0598,
+      "lng": -65.4078
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Comedor del Centro",
+      "address": "Avenida Belgrano 425",
+      "neighbourhood": "La Rioja City",
+      "cuisine": "Argentine Everyday Food",
+      "priceRange": "€",
+      "description": "No-frills local diner serving authentic Argentine comfort food and regional dishes favored by residents.",
+      "mustOrder": "Carbonada",
+      "lat": -29.4138,
+      "lng": -66.6872
+    }
+  ]
+}

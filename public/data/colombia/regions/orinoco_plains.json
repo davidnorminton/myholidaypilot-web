@@ -1,0 +1,1330 @@
+{
+  "id": "orinoco_plains",
+  "name": "Orinoco Plains",
+  "nameIt": "Llanos Orientales",
+  "capital": "Villavicencio",
+  "lat": 4.1392,
+  "lng": -73.6267,
+  "emoji": "🐄",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 5.5,
+    "south": 2.5,
+    "east": -71.5,
+    "west": -74.5
+  },
+  "history": "The Llanos Orientales have been inhabited for centuries by indigenous peoples who adapted to the vast grasslands and seasonal flooding patterns. During the colonial period, Spanish conquistadors established settlements and introduced cattle ranching, which became the economic foundation of the region. The area played a significant role in Colombia's independence wars, serving as a stronghold for revolutionary forces fighting against Spanish rule. Throughout the 19th and 20th centuries, the plains remained a frontier region defined by cattle culture and gradual development of infrastructure and towns.",
+  "culturalNotes": "The Llanos are celebrated for their distinctive llanero culture, characterized by skilled horsemen, traditional music like the joropo dance, and a strong connection to cattle ranching heritage. The region's identity is deeply rooted in the cowboy tradition, with local pride in horsemanship, folk music played on harps and maracas, and a warm, welcoming spirit shaped by open landscapes. Modern llanero culture blends this rural tradition with growing urban centers, though the cowboy ethos and musical traditions remain central to regional identity.",
+  "bestTimeToVisit": "Visit December to March for the dry season with best wildlife and horseback riding opportunities.",
+  "languageNotes": "Spanish is the primary language spoken in the Llanos, with a distinct regional accent and vocabulary influenced by indigenous languages and cattle ranching culture. Useful local expressions include 'llanero' to refer to the region's people and traditions, and 'a caballo' meaning on horseback, reflecting the importance of riding in daily life.",
+  "generatedAt": "2026-07-23T09:36:44.935Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "villavicencio",
+      "name": "Villavicencio",
+      "nameIt": "Villavicencio",
+      "lat": 4.1431,
+      "lng": -73.6253,
+      "type": "CITY",
+      "description": "The capital of Meta department and gateway to the Llanos, Villavicencio is a vibrant city known for its cowboy culture, llanero music, and cattle ranching heritage. It serves as the primary base for exploring the vast plains and offers good accommodation, restaurants, and access to surrounding ranches and nature reserves.",
+      "imageQueries": [
+        "Villavicencio Colombia city",
+        "Villavicencio llanero culture"
+      ],
+      "activities": [
+        {
+          "id": "vill_1",
+          "text": "Los Llanos Wildlife Viewing",
+          "detail": "Explore the vast plains on horseback or by jeep to spot capybaras, caimans, anacondas, and hundreds of bird species across the grasslands and wetlands.",
+          "lat": 4.1426,
+          "lng": -73.6245
+        },
+        {
+          "id": "vill_2",
+          "text": "Caño Cristales Day Trip",
+          "detail": "Visit the stunning multicolored river famous for its red, yellow, and blue hues created by aquatic plants, located about 2 hours from Villavicencio.",
+          "lat": 2.2667,
+          "lng": -73.8333
+        },
+        {
+          "id": "vill_3",
+          "text": "Arrecifes Natural Park",
+          "detail": "Hike through this protected reserve featuring caves, waterfalls, and diverse ecosystems where you can spot jaguars, pumas, and colorful birds."
+        },
+        {
+          "id": "vill_4",
+          "text": "Llanero Culture at Local Ranches",
+          "detail": "Stay at a working cattle ranch (finca) to experience traditional llanero cowboy life, horseback riding, and authentic rural hospitality."
+        },
+        {
+          "id": "vill_5",
+          "text": "Plaza de Toros La Macarena",
+          "detail": "Visit this iconic bullring in the city center, an architectural landmark and gathering place that reflects Villavicencio's llanero identity.",
+          "lat": 4.1408,
+          "lng": -73.6289
+        },
+        {
+          "id": "vill_6",
+          "text": "Villavicencio Zoo",
+          "detail": "Tour the city's zoo to see native Orinoco fauna including capybaras, anacondas, pink river dolphins, and various endemic species in semi-natural habitats."
+        }
+      ],
+      "food": [
+        {
+          "id": "vill_f1",
+          "text": "Carne a la Llanera",
+          "detail": "Grilled beef cooked over open fire in true llanero style, often served with arepa and fresh plantains as a staple of local ranch cuisine."
+        },
+        {
+          "id": "vill_f2",
+          "text": "Sancocho de Gallina Criolla",
+          "detail": "A hearty stew made with free-range chicken, yuca, plantains, and local herbs, simmered for hours to create a comforting traditional dish."
+        },
+        {
+          "id": "vill_f3",
+          "text": "Arepa con Queso",
+          "detail": "Soft cornmeal patties stuffed with local cheese, eaten for breakfast or as a snack and fundamental to llanero food culture."
+        },
+        {
+          "id": "vill_f4",
+          "text": "Mojarra Frita",
+          "detail": "Whole fried freshwater fish caught from local rivers, crispy on the outside and served with lemon, arepa, and rice."
+        },
+        {
+          "id": "vill_f5",
+          "text": "Piraña Asada",
+          "detail": "Grilled piranha fish, a local specialty from the rivers of the plains, served with vegetables and cassava."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vill_c1",
+          "text": "Embrace Llanero Traditions",
+          "detail": "Respect the cowboy heritage by attending local rodeos (rodeos), music festivals, or learning basic horsemanship as llaneros take pride in their ranching way of life."
+        },
+        {
+          "id": "vill_c2",
+          "text": "Learn Basic Spanish",
+          "detail": "English is limited outside tourist areas, so learning simple Spanish phrases and llanero expressions will greatly enhance interactions with locals and immersion in the culture."
+        },
+        {
+          "id": "vill_c3",
+          "text": "Respect the Heat and Wildlife",
+          "detail": "The plains are intensely hot and humid; wear light clothing, sunscreen, and sturdy boots, and always follow guides' safety instructions regarding snakes, caimans, and other wildlife."
+        },
+        {
+          "id": "vill_c4",
+          "text": "Time Your Visit for Dry Season",
+          "detail": "Visit during the dry season (December to March or July to August) when the plains are more accessible and wildlife viewing is optimal, as the wet season can flood roads and limit activities."
+        }
+      ]
+    },
+    {
+      "id": "hato_la_aurora",
+      "name": "Hato La Aurora",
+      "nameIt": "Hato La Aurora",
+      "lat": 4.2047,
+      "lng": -73.5633,
+      "type": "NATURE",
+      "description": "A traditional working cattle ranch and eco-lodge near Villavicencio offering authentic Llanos experiences including horseback riding, wildlife viewing, and interaction with local llanero cowboys. The property provides direct access to vast grasslands and is an ideal base for experiencing the region's natural rhythms and biodiversity.",
+      "imageQueries": [
+        "Hato La Aurora ranch Colombia",
+        "Llanos cattle ranch wildlife"
+      ],
+      "activities": [
+        {
+          "id": "hato_1",
+          "text": "Horseback Riding Across the Llanos",
+          "detail": "Explore the vast grasslands on horseback with experienced llanero guides, traversing open plains and visiting remote cattle herds.",
+          "lat": 4.1426,
+          "lng": -73.6353
+        },
+        {
+          "id": "hato_2",
+          "text": "Wildlife Viewing at Dawn",
+          "detail": "Spot capybaras, caimans, herons, and scarlet ibis during early morning excursions when animals are most active in wetland areas.",
+          "lat": 4.1426,
+          "lng": -73.6353
+        },
+        {
+          "id": "hato_3",
+          "text": "Llanero Cowboy Training",
+          "detail": "Learn roping, cattle handling, and traditional horsemanship techniques directly from working ranch hands on the property.",
+          "lat": 4.1426,
+          "lng": -73.6353
+        },
+        {
+          "id": "hato_4",
+          "text": "Sunset Observation from the Plains",
+          "detail": "Watch dramatic sunsets over endless grasslands from elevated viewing points, a quintessential Llanos experience.",
+          "lat": 4.1426,
+          "lng": -73.6353
+        },
+        {
+          "id": "hato_5",
+          "text": "Piranha Fishing Expedition",
+          "detail": "Fish for piranhas in natural waterways with local guides, combining adventure with an understanding of river ecosystems.",
+          "lat": 4.1426,
+          "lng": -73.6353
+        },
+        {
+          "id": "hato_6",
+          "text": "Night Safari and Caiman Spotting",
+          "detail": "Take guided nocturnal walks and boat rides to observe caimans and nocturnal wildlife using flashlights along water channels."
+        }
+      ],
+      "food": [
+        {
+          "id": "hato_f1",
+          "text": "Carne a la Llanera",
+          "detail": "Grilled beef cooked over open fire using traditional llanero methods, seasoned simply with salt and served with arepas and plantains."
+        },
+        {
+          "id": "hato_f2",
+          "text": "Sancocho de Gallina",
+          "detail": "Hearty chicken stew with root vegetables and local tubers, a warming dish prepared daily on the ranch using farm ingredients."
+        },
+        {
+          "id": "hato_f3",
+          "text": "Arepa with Queso de Mano",
+          "detail": "Freshly made corn arepas served with local handmade cheese, a staple breakfast and snack eaten throughout the Llanos region."
+        },
+        {
+          "id": "hato_f4",
+          "text": "Cazuela de Pescado",
+          "detail": "Local river fish cooked in a clay pot with coconut milk, cilantro, and regional spices reflecting Orinoco cooking traditions."
+        },
+        {
+          "id": "hato_f5",
+          "text": "Cachapa",
+          "detail": "Sweet corn pancakes filled with queso de mano, served warm with butter and eaten as breakfast or a traditional afternoon treat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "hato_c1",
+          "text": "Respect Ranch Work Rhythms",
+          "detail": "Daily schedules revolve around cattle management and natural light cycles; plan activities around dawn riding and afternoon rest periods."
+        },
+        {
+          "id": "hato_c2",
+          "text": "Learn Basic Llanero Spanish",
+          "detail": "Llaneros use distinctive regional dialect and expressions; learning common local terms shows respect and enhances authentic interaction."
+        },
+        {
+          "id": "hato_c3",
+          "text": "Embrace Outdoor Living",
+          "detail": "Life on the Llanos emphasizes outdoor time and simplicity; be prepared for heat, insects, and minimal urban conveniences as part of the authentic experience."
+        },
+        {
+          "id": "hato_c4",
+          "text": "Participate in Shared Meals",
+          "detail": "Family-style dining brings staff and guests together; accepting invitations to eat with ranch workers strengthens cultural connection and hospitality bonds."
+        }
+      ]
+    },
+    {
+      "id": "puerto_lopez",
+      "name": "Puerto López",
+      "nameIt": "Puerto López",
+      "lat": 4.0757,
+      "lng": -72.248,
+      "type": "TOWN",
+      "description": "A small river town on the Río Meta serving as a key hub for accessing the wetlands and biodiversity of eastern Llanos, particularly during rainy season. The town offers boat tours to spot pink river dolphins, caimans, anacondas, and numerous bird species in their natural habitat.",
+      "imageQueries": [
+        "Puerto López Colombia river town",
+        "Río Meta pink dolphins"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Pink River Dolphin Tours",
+          "detail": "Early morning boat excursions on the Río Meta to spot endangered pink river dolphins (boto) in their natural habitat, typically more active during June to August flooding season.",
+          "lat": 4.0744,
+          "lng": -71.7753
+        },
+        {
+          "id": "puer_2",
+          "text": "Caiman and Anaconda Spotting",
+          "detail": "Night boat tours through flooded forests and oxbow lakes where caimans and anacondas are commonly sighted along the waterways under headlamp light.",
+          "lat": 4.0744,
+          "lng": -71.7753
+        },
+        {
+          "id": "puer_3",
+          "text": "Llanos Wetland Bird Watching",
+          "detail": "Guided excursions to observe herons, scarlet ibis, harpy eagles, and hundreds of other bird species in their seasonal habitats across the vast Orinoco Plains wetlands.",
+          "lat": 4.0744,
+          "lng": -71.7753
+        },
+        {
+          "id": "puer_4",
+          "text": "Canoe Exploration of Caño Cristales",
+          "detail": "Paddle through narrow jungle waterways and lagoons accessible by canoe, offering intimate wildlife encounters and dense vegetation views impossible from larger boats."
+        },
+        {
+          "id": "puer_5",
+          "text": "Hato (Cattle Ranch) Visits",
+          "detail": "Day trips to working traditional cattle ranches on the Llanos to experience llanero cowboy culture and observe domesticated wildlife management in the plains.",
+          "lat": 4.0744,
+          "lng": -71.7753
+        },
+        {
+          "id": "puer_6",
+          "text": "Río Meta Riverside Walk",
+          "detail": "Stroll the town's waterfront at dusk to observe local fishing practices, river traffic, and the landscape where locals gather as temperatures cool."
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Pescado a la Llanera",
+          "detail": "Freshly caught river fish grilled whole or filleted and served with rice, plantains, and local cassava bread, a staple protein for river communities."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Cazuela de Mariscos",
+          "detail": "A hearty stew of river shrimp, fish, and local vegetables simmered in coconut broth, reflecting the Llanos adaptation of coastal seafood traditions."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Arepa con Queso de Mano",
+          "detail": "Warm corn arepas stuffed with fresh handmade cheese (queso de mano), a simple breakfast or snack sold by local vendors throughout the town."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Sancocho de Gallina Criolla",
+          "detail": "Traditional chicken stew with plantains, yams, and root vegetables, prepared slowly and served as a communal lunch dish in local comedores."
+        },
+        {
+          "id": "puer_f5",
+          "text": "Casabe",
+          "detail": "Cassava flatbread made from yuca root using indigenous preparation methods, served alongside meals or eaten alone as a staple carbohydrate."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "Travel During Rainy Season",
+          "detail": "Visit June through August when water levels are highest, offering the best wildlife viewing and boat access to otherwise unreachable areas; dry season limits navigation."
+        },
+        {
+          "id": "puer_c2",
+          "text": "Hire Local Guides",
+          "detail": "Experienced local boat operators and naturalists are essential for safety, wildlife spotting expertise, and understanding seasonal variations in animal behavior and river conditions."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Respect Wildlife and Sacred Spaces",
+          "detail": "Indigenous and llanero communities consider certain areas sacred; ask permission before photographing people or entering private hatos, and maintain quiet distance from animals to avoid stress."
+        },
+        {
+          "id": "puer_c4",
+          "text": "Basic Spanish and Patience Required",
+          "detail": "English is rarely spoken; learn essential Spanish phrases, and plan for slower-paced travel with flexible schedules since weather and wildlife sightings dictate daily activities."
+        }
+      ]
+    },
+    {
+      "id": "cano_cristales",
+      "name": "Caño Cristales",
+      "nameIt": "Caño Cristales",
+      "lat": 2.5833,
+      "lng": -71.8167,
+      "type": "NATURE",
+      "description": "Known as the liquid rainbow, this unique river features stunning multicolored waters caused by aquatic plants that turn red, yellow, and green during the wet season (July-November). The site requires organized tours from nearby towns and represents one of Colombia's most visually spectacular natural phenomena.",
+      "imageQueries": [
+        "Caño Cristales liquid rainbow river",
+        "Caño Cristales red waters Colombia"
+      ],
+      "activities": [
+        {
+          "id": "cano_1",
+          "text": "Wading in the Liquid Rainbow",
+          "detail": "Wade through the shallow, multicolored waters of the main channel to experience the red, yellow, and green hues up close during peak color season (July-November).",
+          "lat": 2.1978,
+          "lng": -60.2372
+        },
+        {
+          "id": "cano_2",
+          "text": "Photography at La Orquídea Pool",
+          "detail": "Capture stunning images at this deep pool section where the Caladium plants create the most vibrant red coloration in the entire river."
+        },
+        {
+          "id": "cano_3",
+          "text": "Guided Nature Walk on Riverbanks",
+          "detail": "Join a local guide to explore the surrounding flora and fauna along the Caño Cristales banks, learning about endemic plant species and wildlife."
+        },
+        {
+          "id": "cano_4",
+          "text": "Swimming in designated pools",
+          "detail": "Cool off in safe, shallow swimming areas where the water is calm enough for immersion while maintaining the delicate ecosystem balance."
+        },
+        {
+          "id": "cano_5",
+          "text": "Sunset viewing from elevated vantage points",
+          "detail": "Hike to higher ground near the river to view the sunset reflecting off the multicolored waters, creating an even more dramatic visual effect."
+        },
+        {
+          "id": "cano_6",
+          "text": "Boat tour through Caño Cristales sections",
+          "detail": "Take a guided canoe or boat tour to access deeper sections and harder-to-reach pools with exceptional color concentration."
+        }
+      ],
+      "food": [
+        {
+          "id": "cano_f1",
+          "text": "Sancocho de Pescado",
+          "detail": "A hearty local fish stew made with freshwater fish from the Orinoco region, yuca, and plantains, commonly served at tour operator lodges."
+        },
+        {
+          "id": "cano_f2",
+          "text": "Arepa with Queso de Mano",
+          "detail": "Grilled corn cakes served with fresh handmade cheese, a staple quick meal available at local eateries in La Macarena."
+        },
+        {
+          "id": "cano_f3",
+          "text": "Grilled Mojarra",
+          "detail": "Fresh-caught tilapia seasoned simply and grilled, typically served with rice and fresh tropical fruit at riverside restaurants."
+        },
+        {
+          "id": "cano_f4",
+          "text": "Yuca frita con Mojo",
+          "detail": "Fried cassava root served with a garlic and lime sauce, a popular side dish and snack throughout the Orinoco Plains region."
+        },
+        {
+          "id": "cano_f5",
+          "text": "Bandeja Llanera",
+          "detail": "A traditional Llanos platter featuring shredded beef, rice, beans, arepa, and fried plantains, showcasing regional ranching culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cano_c1",
+          "text": "Plan visits during wet season (July-November)",
+          "detail": "The river's famous colors are most vibrant and reliable during the rainy season when water levels rise and Caladium plants bloom intensely."
+        },
+        {
+          "id": "cano_c2",
+          "text": "Hire licensed local guides",
+          "detail": "Visiting Caño Cristales requires authorized guides from La Macarena or Mesetas; independent access is restricted to protect the fragile ecosystem."
+        },
+        {
+          "id": "cano_c3",
+          "text": "Respect the delicate ecosystem",
+          "detail": "Wear reef-safe sunscreen, avoid touching plants unnecessarily, and follow guide instructions closely to preserve the rare aquatic vegetation that creates the colors."
+        },
+        {
+          "id": "cano_c4",
+          "text": "Bring sturdy water shoes",
+          "detail": "The river bottom is rocky and uneven; proper footwear protects both your feet and minimizes disturbance to the sensitive aquatic plants."
+        }
+      ]
+    },
+    {
+      "id": "san_martin_meta",
+      "name": "San Martín",
+      "nameIt": "San Martín",
+      "lat": 2.6667,
+      "lng": -71.3333,
+      "type": "TOWN",
+      "description": "A small frontier town serving as the primary jumping-off point for visiting Caño Cristales and exploring the Serrania de la Macarena region. The town has basic services and is where most Caño Cristales tour groups are organized and depart from.",
+      "imageQueries": [
+        "San Martín Meta Colombia town",
+        "San Martín gateway Caño Cristales"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Caño Cristales Day Trip",
+          "detail": "Join an organized tour from San Martín to visit the famous multi-colored river, known for its vibrant red, yellow, and green water caused by aquatic plants and minerals.",
+          "lat": 2.1833,
+          "lng": -73.8167
+        },
+        {
+          "id": "san__2",
+          "text": "Serrania de la Macarena Exploration",
+          "detail": "Hike through the mountainous region surrounding San Martín to see diverse flora, fauna, and panoramic views of the Orinoco plains.",
+          "lat": 2.2,
+          "lng": -73.8
+        },
+        {
+          "id": "san__3",
+          "text": "Town Plaza and Market Walk",
+          "detail": "Stroll through San Martín's central plaza to experience local commerce, meet residents, and observe daily frontier town life.",
+          "lat": 2.1867,
+          "lng": -73.8217
+        },
+        {
+          "id": "san__4",
+          "text": "Río Guayabero Kayaking",
+          "detail": "Paddle through the scenic Guayabero River on a guided kayak tour to spot wildlife and navigate gentle rapids through dense vegetation.",
+          "lat": 2.15,
+          "lng": -73.85
+        },
+        {
+          "id": "san__5",
+          "text": "Laundress Pool Swimming",
+          "detail": "Cool off in natural swimming holes near town where locals traditionally wash clothes and bathe in refreshing river water.",
+          "lat": 2.1875,
+          "lng": -73.82
+        },
+        {
+          "id": "san__6",
+          "text": "Bird Watching Tours",
+          "detail": "Join early morning expeditions led by local guides to spot tropical birds and wildlife in the surrounding rainforest and wetlands."
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Arepa con Queso",
+          "detail": "Warm cornmeal patties filled with melted local cheese, a staple breakfast and snack food found at every corner in San Martín."
+        },
+        {
+          "id": "san__f2",
+          "text": "Bandeja Paisa Style River Fish",
+          "detail": "Fresh-caught local fish grilled or fried and served with plantains, rice, and regional vegetables at modest comedores throughout town."
+        },
+        {
+          "id": "san__f3",
+          "text": "Cazuela de Camarones",
+          "detail": "A creamy coconut-based shrimp stew using river shrimp and local spices, reflecting the region's connection to waterways."
+        },
+        {
+          "id": "san__f4",
+          "text": "Yuca con Mojo",
+          "detail": "Boiled cassava root served with a tangy garlic and citrus sauce, a filling side dish found at most local restaurants."
+        },
+        {
+          "id": "san__f5",
+          "text": "Huevos Pericos",
+          "detail": "Scrambled eggs mixed with onions and tomatoes, commonly served for breakfast with fresh arepas at local eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Tour Guide Arrangements",
+          "detail": "Most visitors book Caño Cristales tours directly through San Martín guides or tour operators; advance booking during peak season is essential."
+        },
+        {
+          "id": "san__c2",
+          "text": "Cash Only Economy",
+          "detail": "San Martín is a remote frontier town with limited ATMs and card infrastructure, so bring sufficient Colombian pesos in cash for all transactions."
+        },
+        {
+          "id": "san__c3",
+          "text": "Early Morning Departures",
+          "detail": "Tours typically depart before dawn to maximize daylight in the rainforest and catch the best colors at Caño Cristales, so expect early wake-up calls."
+        },
+        {
+          "id": "san__c4",
+          "text": "Respectful Photography",
+          "detail": "Ask permission before photographing locals or entering private properties, as the community values privacy and prefers visitors to be discreet."
+        }
+      ]
+    },
+    {
+      "id": "serrania_macarena",
+      "name": "Serranía de la Macarena",
+      "nameIt": "Serranía de la Macarena",
+      "lat": 2.55,
+      "lng": -71.75,
+      "type": "NATURE",
+      "description": "A mountain range within the Llanos known for its biodiversity and containing Caño Cristales, with hiking trails through cloud forests and grasslands offering views of the region's dramatic topography. The national park encompasses unique ecosystems where Andean, Amazon, and Llanos biomes meet.",
+      "imageQueries": [
+        "Serranía de la Macarena mountains",
+        "Macarena national park Colombia"
+      ],
+      "activities": [
+        {
+          "id": "serr_1",
+          "text": "Caño Cristales Trek",
+          "detail": "Hike to the iconic multicolored river famous for its red, yellow, and green water caused by aquatic plants and mineral deposits, best visited during July to November when water levels and colors are most vibrant.",
+          "lat": 2.1989,
+          "lng": -73.8078
+        },
+        {
+          "id": "serr_2",
+          "text": "Cloud Forest Hiking",
+          "detail": "Navigate misty trails through montane cloud forests where Andean species meet Amazon wildlife, offering sightings of spectacled bears, jaguars, and endemic birds."
+        },
+        {
+          "id": "serr_3",
+          "text": "Llanos Grassland Viewing",
+          "detail": "Trek across open savanna plains to observe giant anteaters, capybaras, white-tailed deer, and caimans in their natural habitat during dry season."
+        },
+        {
+          "id": "serr_4",
+          "text": "Panoramic Ridge Walk",
+          "detail": "Ascend to high vantage points along the mountain ridge for sweeping views where three biomes converge—Andes, Amazon, and Llanos ecosystems.",
+          "lat": 2.175,
+          "lng": -73.815
+        },
+        {
+          "id": "serr_5",
+          "text": "Cerro de la Macarena Summit",
+          "detail": "Climb to the highest point of the range for 360-degree panoramas of the surrounding landscape and rare plant communities adapted to high altitude."
+        },
+        {
+          "id": "serr_6",
+          "text": "Biodiversity Bird Watching",
+          "detail": "Search for over 400 bird species including harpy eagles, macaws, and trogons along designated trails during dawn hours when activity peaks."
+        }
+      ],
+      "food": [
+        {
+          "id": "serr_f1",
+          "text": "Arepa con Queso",
+          "detail": "Thick corn cakes griddled until golden and filled with fresh local cheese, a staple carbohydrate throughout the Llanos region."
+        },
+        {
+          "id": "serr_f2",
+          "text": "Cazuela de Pescado",
+          "detail": "Fresh river fish stew cooked in a clay pot with vegetables, plantains, and local herbs reflecting the region's waterways and agricultural traditions."
+        },
+        {
+          "id": "serr_f3",
+          "text": "Bandeja Llanera",
+          "detail": "A hearty mixed plate combining grilled meats, beans, rice, arepa, and fresh cheese that represents classic Llanos cowboy cuisine."
+        },
+        {
+          "id": "serr_f4",
+          "text": "Mote de Queso",
+          "detail": "A soup made from large corn kernels, potatoes, and cheese, warming and filling after mountain treks through cool cloud forests."
+        }
+      ],
+      "culture": [
+        {
+          "id": "serr_c1",
+          "text": "Permit and Guide Requirements",
+          "detail": "Entry to Serranía de la Macarena National Park requires advance permits and hiring authorized local guides; independent hiking is restricted to preserve ecosystems and ensure visitor safety."
+        },
+        {
+          "id": "serr_c2",
+          "text": "Respect Water Sources",
+          "detail": "Caño Cristales and other colored waters are sacred and fragile—avoid touching, swimming, or using soap near the river to protect the delicate organism balance that creates its colors."
+        },
+        {
+          "id": "serr_c3",
+          "text": "Llanero Hospitality Customs",
+          "detail": "Local communities practice generous hospitality; accept offered coffee or small meals graciously as declining can be considered impolite in this culturally proud region."
+        },
+        {
+          "id": "serr_c4",
+          "text": "Seasonal Timing Matters",
+          "detail": "Plan visits July through November for optimal Caño Cristales colors and accessibility; during rainy season many trails become impassable and park operations are limited."
+        }
+      ]
+    },
+    {
+      "id": "acacias",
+      "name": "Acacías",
+      "nameIt": "Acacías",
+      "lat": 3.8833,
+      "lng": -73.7667,
+      "type": "TOWN",
+      "description": "A small agricultural town south of Villavicencio representing authentic Llanos life away from the capital, with traditional architecture and local character. It serves as a base for ranch visits and offers insight into rural llanero culture and agribusiness.",
+      "imageQueries": [
+        "Acacías Meta Colombia town",
+        "Acacías rural Llanos"
+      ],
+      "activities": [
+        {
+          "id": "acac_1",
+          "text": "Hato Visits",
+          "detail": "Tour working cattle ranches in the surrounding Llanos to experience llanero horsemanship, cattle herding, and traditional ranch life firsthand.",
+          "lat": 3.1167,
+          "lng": -73.7667
+        },
+        {
+          "id": "acac_2",
+          "text": "Plaza Principal",
+          "detail": "Stroll the central plaza to observe traditional colonial architecture, local commerce, and the rhythm of small-town Llanos life.",
+          "lat": 3.12,
+          "lng": -73.765
+        },
+        {
+          "id": "acac_3",
+          "text": "Río Guaviare Exploration",
+          "detail": "Take guided boat trips along the Río Guaviare to spot river wildlife, including pink dolphins, caimans, and tropical birds in their natural habitat.",
+          "lat": 3.05,
+          "lng": -73.8
+        },
+        {
+          "id": "acac_4",
+          "text": "Agribusiness Museum (Centro de Acopio)",
+          "detail": "Visit local agricultural cooperatives or grain storage facilities to learn how rice, corn, and cattle products are processed and exported from the region.",
+          "lat": 3.118,
+          "lng": -73.768
+        },
+        {
+          "id": "acac_5",
+          "text": "Llanero Music Sessions",
+          "detail": "Attend informal gatherings or festivals where locals play traditional instruments like the arpa llanera and cuatro, often in rural bars or community events.",
+          "lat": 3.1167,
+          "lng": -73.7667
+        },
+        {
+          "id": "acac_6",
+          "text": "Horseback Rides Through Savanna",
+          "detail": "Arrange multi-hour or full-day rides across open Llanos grassland to experience the landscape and pastoral culture as llaneros do.",
+          "lat": 3.1,
+          "lng": -73.75
+        }
+      ],
+      "food": [
+        {
+          "id": "acac_f1",
+          "text": "Carne Asada a la Llanera",
+          "detail": "Grilled beef prepared simply over an open flame, often served with arepas and fresh onions, representing the iconic llanero meat tradition."
+        },
+        {
+          "id": "acac_f2",
+          "text": "Arepa de Queso",
+          "detail": "Cornmeal patty stuffed with local white cheese, made fresh daily and eaten at breakfast or as a snack throughout the region."
+        },
+        {
+          "id": "acac_f3",
+          "text": "Sancocho de Gallina Criolla",
+          "detail": "Hearty stew of free-range chicken with yuca, plantain, and vegetables, slow-cooked and commonly served as a main midday meal."
+        },
+        {
+          "id": "acac_f4",
+          "text": "Cazuela de Pescado",
+          "detail": "River fish stew made with fresh catch from the Guaviare, coconut broth, and local vegetables, reflecting the region's waterway traditions."
+        },
+        {
+          "id": "acac_f5",
+          "text": "Chirrinche and Aguardiente",
+          "detail": "Local sugarcane spirits, sometimes homemade, sipped in small amounts during social gatherings and celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "acac_c1",
+          "text": "Llanero Pride and Dress",
+          "detail": "Locals proudly wear traditional wide-brimmed hats, colorful ponchos, and boots; showing respect for llanero dress code in rural settings helps build rapport."
+        },
+        {
+          "id": "acac_c2",
+          "text": "Early Morning Routines",
+          "detail": "Life in Acacías starts before dawn; expect shops, restaurants, and ranch activities to be in full swing by 5:30 a.m., with siesta time mid-afternoon."
+        },
+        {
+          "id": "acac_c3",
+          "text": "Hospitality and Ranch Etiquette",
+          "detail": "Hato owners expect courtesy and clear communication about visits; accepting offered coffee or meals is a sign of goodwill and strengthens relationships."
+        },
+        {
+          "id": "acac_c4",
+          "text": "Spanish and Llanero Dialect",
+          "detail": "Local Spanish includes distinctive llanero vocabulary and accent; learning basic phrases and showing interest in the dialect earns genuine appreciation from residents."
+        }
+      ]
+    },
+    {
+      "id": "el_dorado_meta",
+      "name": "El Dorado",
+      "nameIt": "El Dorado",
+      "lat": 3.3167,
+      "lng": -73.8333,
+      "type": "TOWN",
+      "description": "An oil industry town in the southern Llanos with a distinct economic character shaped by petroleum operations. While primarily industrial, it offers access to natural areas and represents the modern economic transformation of the region.",
+      "imageQueries": [
+        "El Dorado Meta Colombia",
+        "El Dorado oil town Llanos"
+      ],
+      "activities": [
+        {
+          "id": "el_d_1",
+          "text": "Orinoco River Tours",
+          "detail": "Take guided boat excursions along the Orinoco River to observe pink river dolphins, caimans, and diverse bird species in their natural habitat.",
+          "lat": 3.8597,
+          "lng": -67.4892
+        },
+        {
+          "id": "el_d_2",
+          "text": "Los Llanos Savanna Exploration",
+          "detail": "Venture into the vast grasslands surrounding El Dorado on horseback or by 4x4 to experience the iconic landscape and spot capybaras, anacondas, and herd animals.",
+          "lat": 3.85,
+          "lng": -67.5
+        },
+        {
+          "id": "el_d_3",
+          "text": "Caño Cristales Day Trip",
+          "detail": "Travel to this nearby tributary known for seasonal color changes caused by aquatic plants, offering stunning natural photography and swimming opportunities.",
+          "lat": 3.9,
+          "lng": -67.35
+        },
+        {
+          "id": "el_d_4",
+          "text": "Petroleum Museum Visit",
+          "detail": "Tour the local oil industry museum documenting the region's economic development and the role of petroleum operations in transforming the Llanos.",
+          "lat": 3.8597,
+          "lng": -67.4892
+        },
+        {
+          "id": "el_d_5",
+          "text": "Anaconda and Wildlife Night Safari",
+          "detail": "Join guided nocturnal expeditions into the surrounding wetlands and forests to spot anacondas, jaguars, and nocturnal bird species.",
+          "lat": 3.85,
+          "lng": -67.5
+        },
+        {
+          "id": "el_d_6",
+          "text": "Local Market Exploration",
+          "detail": "Browse El Dorado's town markets for regional agricultural products, handicrafts, and fresh produce sourced from surrounding Llanero communities."
+        }
+      ],
+      "food": [
+        {
+          "id": "el_d_f1",
+          "text": "Arepa con Queso",
+          "detail": "Corn flour patties stuffed with melted local cheese, a staple breakfast item reflecting the agricultural heart of the Llanos region."
+        },
+        {
+          "id": "el_d_f2",
+          "text": "Sancocho de Gallina",
+          "detail": "Hearty chicken stew with plantains, yuca, and regional vegetables, traditionally prepared for family gatherings and representing authentic Llanero cuisine."
+        },
+        {
+          "id": "el_d_f3",
+          "text": "Cachama a la Llanera",
+          "detail": "Grilled freshwater fish from the Orinoco, seasoned with local spices and served with yuca and plantain sides, showcasing river-based gastronomy."
+        },
+        {
+          "id": "el_d_f4",
+          "text": "Pabellón Criollo",
+          "detail": "Venezuela's national dish featuring shredded beef, black beans, white cheese, and fried plantains, widely available in local restaurants."
+        },
+        {
+          "id": "el_d_f5",
+          "text": "Empanadas de Carne",
+          "detail": "Fried pastry pockets filled with seasoned ground beef, a common street food and quick meal option throughout the town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "el_d_c1",
+          "text": "Oil Industry Respect",
+          "detail": "El Dorado's economy depends on petroleum operations, so visitors should be respectful of industrial zones and refrain from photography in restricted areas."
+        },
+        {
+          "id": "el_d_c2",
+          "text": "Llanero Hospitality",
+          "detail": "The local Llanero culture values warmth and generosity; accept offered coffee or refreshments as signs of genuine welcome from residents."
+        },
+        {
+          "id": "el_d_c3",
+          "text": "Seasonal Travel Planning",
+          "detail": "Visit during the dry season (December-March) for better road conditions and wildlife viewing, as rainy season flooding can limit access to natural areas."
+        },
+        {
+          "id": "el_d_c4",
+          "text": "Spanish Language Advantage",
+          "detail": "While some English is spoken in the oil industry sector, speaking Spanish significantly enhances interactions with local communities and enhances the travel experience."
+        }
+      ]
+    },
+    {
+      "id": "reserva_natural_sumapaz",
+      "name": "Sumapaz National Nature Reserve",
+      "nameIt": "Reserva Natural Sumapaz",
+      "lat": 3.8,
+      "lng": -74.3333,
+      "type": "NATURE",
+      "description": "One of the world's largest páramo ecosystems accessible from the Llanos region, featuring unique high-altitude grasslands with specialized flora and fauna. The reserve offers hiking opportunities and represents the transition zone between Andean and Llanos ecosystems.",
+      "imageQueries": [
+        "Sumapaz páramo Colombia",
+        "Sumapaz National Nature Reserve"
+      ],
+      "activities": [
+        {
+          "id": "rese_1",
+          "text": "Páramo Hiking Trails",
+          "detail": "Trek through vast high-altitude grasslands on well-marked trails that offer panoramic views of the Andean-Llanos transition zone and encounters with endemic frailejón plants.",
+          "lat": 3.8,
+          "lng": -74.3
+        },
+        {
+          "id": "rese_2",
+          "text": "Laguna de Chisacá Visit",
+          "detail": "Explore the glacial lake nestled in the páramo, surrounded by cushion plants and home to Andean ducks and water birds, accessible via a moderate day hike.",
+          "lat": 3.85,
+          "lng": -74.25
+        },
+        {
+          "id": "rese_3",
+          "text": "Frailejón Ecosystem Study",
+          "detail": "Observe and photograph the characteristic giant rosette plants (frailejones) that dominate the reserve's landscape and play a crucial role in water retention and local hydrology.",
+          "lat": 3.8,
+          "lng": -74.3
+        },
+        {
+          "id": "rese_4",
+          "text": "Páramo Sunrise Experience",
+          "detail": "Wake before dawn at a high-altitude camping spot to witness the mist-shrouded páramo illuminating as sunlight breaks across the grasslands and distant Llanos.",
+          "lat": 3.8,
+          "lng": -74.3
+        },
+        {
+          "id": "rese_5",
+          "text": "Alto de la Cruz Peak Trail",
+          "detail": "Challenge yourself with a rigorous ascent to one of the reserve's highest viewpoints, rewarded with expansive vistas over both Andean foothills and the Orinoco Plains below.",
+          "lat": 3.82,
+          "lng": -74.28
+        },
+        {
+          "id": "rese_6",
+          "text": "Endemic Bird Watching",
+          "detail": "Search for high-altitude endemic species including the Andean condor, white-winged quail-thrush, and páramo pipit along quieter reserve trails during early morning hours.",
+          "lat": 3.8,
+          "lng": -74.3
+        }
+      ],
+      "food": [
+        {
+          "id": "rese_f1",
+          "text": "Ajiaco Caleño",
+          "detail": "A hearty potato and corn stew originating from the Cauca Valley region, served with avocado and sour cream, warming and essential after high-altitude hiking in cool páramo temperatures."
+        },
+        {
+          "id": "rese_f2",
+          "text": "Trucha Frita",
+          "detail": "Fresh-caught trout from mountain streams and reserve waters, fried whole and served with lemon and arepa, reflecting the páramo's freshwater resources."
+        },
+        {
+          "id": "rese_f3",
+          "text": "Mazorca Asada",
+          "detail": "Roasted corn cob sold by local vendors near reserve entrances, a simple carbohydrate-rich snack ideal for refueling during long hiking days in the high-altitude ecosystem."
+        },
+        {
+          "id": "rese_f4",
+          "text": "Caldo de Huesos",
+          "detail": "A slow-simmered bone broth with local vegetables and herbs, traditionally prepared by reserve communities and served in mountain lodges to combat the páramo's altitude and cold."
+        },
+        {
+          "id": "rese_f5",
+          "text": "Berries from Local Páramo Plants",
+          "detail": "Indigenous and cultivated páramo berries including blueberries and native species, served fresh or as preserves, unique to the reserve's high-altitude flora."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rese_c1",
+          "text": "Respect Park Access Restrictions",
+          "detail": "The reserve requires advance permits and often limits visitor numbers; arrange visits through authorized local guides and park authorities to protect the fragile páramo ecosystem and support conservation efforts."
+        },
+        {
+          "id": "rese_c2",
+          "text": "Acknowledge Indigenous and Campesino Stewardship",
+          "detail": "Local Muisca indigenous communities and campesino families have inhabited and managed these lands for centuries; respectfully engage with their knowledge and support community-based tourism initiatives."
+        },
+        {
+          "id": "rese_c3",
+          "text": "Prepare for Extreme Weather Changes",
+          "detail": "Páramo conditions shift rapidly from sunny to fog, rain, and sleet within hours; locals expect visitors to arrive well-equipped, and weather respect is considered both practical wisdom and cultural courtesy."
+        },
+        {
+          "id": "rese_c4",
+          "text": "Learn Basic Spanish and Local Place Names",
+          "detail": "Most guides and reserve staff speak Spanish rather than English; learning key ecological and geographic terms (frailejón, páramo, laguna) shows respect and enhances interpretive experiences."
+        }
+      ]
+    },
+    {
+      "id": "puerto_gaitan",
+      "name": "Puerto Gaitán",
+      "nameIt": "Puerto Gaitán",
+      "lat": 4.2833,
+      "lng": -71.9167,
+      "type": "TOWN",
+      "description": "A frontier settlement on the Río Guaviare representing the edge of the Llanos and gateway to deeper rainforest exploration. The town offers a final outpost feel and serves as access point for adventure-oriented travelers heading to remote natural areas.",
+      "imageQueries": [
+        "Puerto Gaitán Colombia frontier",
+        "Puerto Gaitán Guaviare river"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Río Guaviare boat tours",
+          "detail": "Navigate the river by motorized canoe to spot pink river dolphins, caimans, and jungle wildlife while observing the transition zone between llanos and rainforest.",
+          "lat": 2.8067,
+          "lng": -71.9347
+        },
+        {
+          "id": "puer_2",
+          "text": "Caño Cristales day trip",
+          "detail": "Take a guided expedition downriver to this seasonal rainbow river system featuring striking red, yellow, and green aquatic plants visible in shallow waters during dry season.",
+          "lat": 2.2444,
+          "lng": -71.9361
+        },
+        {
+          "id": "puer_3",
+          "text": "Los Llanos horseback riding",
+          "detail": "Hire local guides to explore the vast grasslands surrounding Puerto Gaitán on horseback, experiencing traditional llanero culture and spotting capybaras and herons.",
+          "lat": 2.8067,
+          "lng": -71.9347
+        },
+        {
+          "id": "puer_4",
+          "text": "Parque Natural La Macarena access",
+          "detail": "Arrange permits and guides in town to access the nearby national park's remote trails, waterfalls, and pristine rainforest ecosystems deeper in the Guaviare region.",
+          "lat": 2.8067,
+          "lng": -71.9347
+        },
+        {
+          "id": "puer_5",
+          "text": "Indigenous community visits",
+          "detail": "Connect with local guides to visit nearby Guahibo or Sikuani settlements to learn about traditional knowledge, crafts, and sustainable forest practices.",
+          "lat": 2.8067,
+          "lng": -71.9347
+        },
+        {
+          "id": "puer_6",
+          "text": "Fishing expeditions",
+          "detail": "Join locals for piranha, catfish, or payara fishing in the Guaviare and tributary waters, typically done by rod or traditional methods at dawn."
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Cazuela de bagre",
+          "detail": "A hearty catfish stew slow-cooked with plantains, yuca, and local herbs, reflecting the river's bounty and frontier cooking traditions."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Arepa con queso llanero",
+          "detail": "Grilled corn flatbread stuffed with local fresh cheese, often eaten for breakfast or as a portable snack before jungle expeditions."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Chigüire asado",
+          "detail": "Roasted capybara meat, a traditional frontier protein seasoned simply with salt and served with yuca or plantain, representing llanero frontier cuisine."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Sopa de pescado",
+          "detail": "Fresh fish soup made with river-caught species, coconut milk, and local vegetables, warming and sustaining for travelers in the humid climate."
+        },
+        {
+          "id": "puer_f5",
+          "text": "Frutas silvestres",
+          "detail": "Wild fruits like açaí, guarana berries, and camu camu purchased fresh from vendors, offering energy and authentic rainforest flavors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "Respect river protocols",
+          "detail": "Always wear a life jacket on the water, heed guide warnings about caiman and current dangers, and never venture into the Guaviare alone as it is an active frontier zone."
+        },
+        {
+          "id": "puer_c2",
+          "text": "Llanero hospitality and time",
+          "detail": "Frontier residents operate on flexible schedules where departure times are approximate; build patience into plans and reciprocate friendliness with genuine interest in their stories."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Ask permission before photography",
+          "detail": "When visiting Indigenous communities or photographing locals, always request consent first, as some believe images hold spiritual significance."
+        },
+        {
+          "id": "puer_c4",
+          "text": "Bring cash and supplies",
+          "detail": "Puerto Gaitán has minimal ATMs and limited goods; arrive with Colombian pesos, medications, sunscreen, and insect repellent, as resupply options are scarce."
+        }
+      ]
+    },
+    {
+      "id": "laguna_metica",
+      "name": "Laguna Metía",
+      "nameIt": "Laguna Metía",
+      "lat": 4.15,
+      "lng": -71.85,
+      "type": "NATURE",
+      "description": "A large seasonal lagoon in the eastern Llanos that becomes a biodiversity hotspot during the rainy season, attracting migratory birds, caimans, and other wetland wildlife. The lagoon exemplifies the dramatic seasonal transformations of the Llanos ecosystem.",
+      "imageQueries": [
+        "Laguna Metía Colombia wetland",
+        "Laguna Metía birds wildlife"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Birdwatching during rainy season",
+          "detail": "Observe migratory warblers, herons, ibises, and scarlet macaws that congregate at the lagoon from May through August when water levels peak.",
+          "lat": 4.2167,
+          "lng": -71.5167
+        },
+        {
+          "id": "lagu_2",
+          "text": "Caiman spotting tours",
+          "detail": "Take guided boat excursions at dawn or dusk to spot spectacled caimans and yacare caimans basking along the lagoon's edges and shallow waters.",
+          "lat": 4.2167,
+          "lng": -71.5167
+        },
+        {
+          "id": "lagu_3",
+          "text": "Fish the seasonal waters",
+          "detail": "Cast for piranhas, tetras, and other freshwater species with local guides who know the best fishing grounds during the flooded season.",
+          "lat": 4.2167,
+          "lng": -71.5167
+        },
+        {
+          "id": "lagu_4",
+          "text": "Photography expeditions",
+          "detail": "Document the Llanos' dramatic wet-season transformation with wildlife, bird, and landscape photography from accessible vantage points around the lagoon."
+        },
+        {
+          "id": "lagu_5",
+          "text": "Horseback riding through wetlands",
+          "detail": "Ride across flooded plains and elevated ridges with local llaneros to experience the seasonal ecosystem as traditional cattle herders do.",
+          "lat": 4.2167,
+          "lng": -71.5167
+        },
+        {
+          "id": "lagu_6",
+          "text": "Visit nearby Hato ranches",
+          "detail": "Tour traditional cattle haciendas in the region that offer accommodation and guided tours showcasing Llanos culture and wildlife viewing opportunities."
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Cazuela de bagre",
+          "detail": "A rich stew of freshwater catfish cooked with local vegetables, cilantro, and arepas, representing classic Llanos wetland cuisine."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Arepa con queso de mano",
+          "detail": "Warm corn arepas served with fresh handmade cheese, a simple staple found at local restaurants and hato kitchens throughout the region."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Sancocho de carne y plátano",
+          "detail": "A hearty one-pot stew combining beef, green plantains, yuca, and local herbs, traditional fuel for ranch workers during rainy season."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Pescado a la llanera",
+          "detail": "Fresh-caught fish from the lagoon grilled over open fires with lime, garlic, and served with arepas and cassava bread."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Chicha de arroz",
+          "detail": "A sweet rice-based beverage fermented slightly and served cold, a refreshing drink prepared by local families during the wet season."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Plan visits during rainy season",
+          "detail": "Travel between May and August when the lagoon fills and wildlife abundance peaks; dry season (December to March) sees the lagoon shrink to disconnected pools."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Hire local guides",
+          "detail": "Partner with llanero guides from nearby ranches or Villavicencio who understand seasonal water patterns, wildlife behavior, and safe navigation of flooded terrain."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Respect cattle operations",
+          "detail": "The region is working ranch country where cattle ranching coexists with wildlife; move quietly, stay on designated paths, and ask permission before crossing private hato lands."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Bring insect protection",
+          "detail": "Mosquitoes and biting flies are prolific during rainy season; wear long sleeves, use strong repellent, and cover exposed skin, especially at dawn and dusk."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "El Totumo",
+      "address": "Calle 5 #4-25, Villavicencio",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Traditional llanero cuisine in a rustic setting with authentic regional dishes and local atmosphere.",
+      "mustOrder": "Carne a la llanera with arepas",
+      "lat": 4.1426,
+      "lng": -73.6254
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Restaurante Andres Carne de Res",
+      "address": "Calle 3 #5-60, Villavicencio",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian Steakhouse",
+      "priceRange": "€€€",
+      "description": "Premium Colombian beef restaurant with a vibrant atmosphere and expert grilling techniques.",
+      "mustOrder": "Chuleta de res a la parrilla",
+      "lat": 4.1431,
+      "lng": -73.6259
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "La Cocina de Nonna",
+      "address": "Carrera 4 #6-15, Villavicencio",
+      "neighbourhood": "Centro",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Family-run Italian restaurant serving homemade pasta and traditional Mediterranean dishes with warm hospitality.",
+      "mustOrder": "Tagliatelle a la Bolognese",
+      "lat": 4.1428,
+      "lng": -73.6261
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "El Brasero Llanero",
+      "address": "Calle 32 #4-80, Villavicencio",
+      "neighbourhood": "San Martín",
+      "cuisine": "Colombian Barbecue",
+      "priceRange": "€€",
+      "description": "Casual open-air barbecue spot famous for grilled meats and llanero specialties with live music on weekends.",
+      "mustOrder": "Parrilla mixta llanera",
+      "lat": 4.1515,
+      "lng": -73.6201
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Casa Gaucha",
+      "address": "Avenida Libertadores #38-45, Villavicencio",
+      "neighbourhood": "Loma Linda",
+      "cuisine": "Argentine",
+      "priceRange": "€€€",
+      "description": "Upscale Argentine steakhouse with imported wines and traditional asado preparations in an elegant setting.",
+      "mustOrder": "Bife de costilla argentino",
+      "lat": 4.149,
+      "lng": -73.617
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Puerto Gaitán Fish House",
+      "address": "Calle Principal, Puerto Gaitán",
+      "neighbourhood": "Centro",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Waterfront restaurant specializing in fresh fish and river dishes sourced from local catches.",
+      "mustOrder": "Mojarra frita con yuca",
+      "lat": 4.2178,
+      "lng": -71.9234
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Sabor Campesino",
+      "address": "Calle 4 #7-32, Acacías",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian",
+      "priceRange": "€",
+      "description": "Budget-friendly authentic Colombian diner with daily lunch specials and traditional home-cooked flavors.",
+      "mustOrder": "Bandeja paisa llanera",
+      "lat": 3.8745,
+      "lng": -73.7634
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "El Fogón del Llano",
+      "address": "Carrera 5 #3-10, San Martín de los Llanos",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Popular roadside restaurant with authentic llanero cooking, known for its warm hospitality and hearty portions.",
+      "mustOrder": "Sancocho de carne y plátano",
+      "lat": 3.689,
+      "lng": -73.7234
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Fuente de Soda Tropical",
+      "address": "Calle 7 #4-28, Granada",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian Light",
+      "priceRange": "€",
+      "description": "Casual cafe and juice bar popular with locals, offering fresh tropical fruits, juices, and light snacks.",
+      "mustOrder": "Jugo natural de lulo con queso",
+      "lat": 3.8956,
+      "lng": -73.5678
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Restaurante Mirador Llanero",
+      "address": "Carrera 3 #2-45, Cumaral",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Scenic hilltop restaurant with panoramic plains views and traditional llanero dishes prepared with regional ingredients.",
+      "mustOrder": "Mondongo a la llanera",
+      "lat": 4.0234,
+      "lng": -73.8901
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Parrilla Criolla",
+      "address": "Avenida 40 #8-15, Villavicencio",
+      "neighbourhood": "Centro Comercial",
+      "cuisine": "Colombian Grill",
+      "priceRange": "€€",
+      "description": "Modern grill restaurant with an open kitchen, offering premium local cuts and contemporary presentations.",
+      "mustOrder": "Asado negro con chimichurri criollo",
+      "lat": 4.1445,
+      "lng": -73.6245
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "El Nido de Condor",
+      "address": "Calle 2 #5-60, Restrepo",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian",
+      "priceRange": "€",
+      "description": "Simple, family-owned eatery serving generous portions of traditional llanero food at excellent value.",
+      "mustOrder": "Arepa con queso y carne molida",
+      "lat": 4.3456,
+      "lng": -73.5678
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Sabores del Oriente",
+      "address": "Carrera 6 #4-82, Villavicencio",
+      "neighbourhood": "San Alonso",
+      "cuisine": "Colombian Regional",
+      "priceRange": "€€",
+      "description": "Restaurant celebrating Eastern Colombia's diverse cuisines with regional specialties and chef-driven preparations.",
+      "mustOrder": "Ternera sudada con verduras llaneras",
+      "lat": 4.1502,
+      "lng": -73.619
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Casa de Campo Restaurant",
+      "address": "Vereda El Paraíso, Km 8 vía Villavicencio-Acacías",
+      "neighbourhood": "Rural",
+      "cuisine": "Colombian Farm-to-Table",
+      "priceRange": "€€€",
+      "description": "Rustic countryside restaurant set on a working ranch, serving locally-sourced ingredients and traditional llanero cuisine.",
+      "mustOrder": "Carne de res con papa criolla y aguacate",
+      "lat": 4.1234,
+      "lng": -73.6789
+    }
+  ]
+}

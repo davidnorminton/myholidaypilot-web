@@ -1,0 +1,1527 @@
+{
+  "id": "valparaiso",
+  "name": "Valparaíso",
+  "nameIt": "Valparaíso",
+  "capital": "Valparaíso",
+  "lat": -33,
+  "lng": -71.5,
+  "emoji": "🌊",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": -32,
+    "south": -34.5,
+    "east": -70.5,
+    "west": -72.5
+  },
+  "history": "Valparaíso was founded in 1536 by Spanish conquistador Juan de Saavedra and quickly became one of South America's most important Pacific ports. The city flourished during the colonial period as a hub for trade and commerce, though it was repeatedly attacked by pirates and foreign powers seeking to capture its wealth. In the 19th century, Valparaíso experienced a golden age as a major international shipping center, attracting European immigrants and establishing itself as Chile's primary port. The city's prominence gradually declined after the opening of the Panama Canal in 1914 redirected much maritime traffic, though it remains an essential port and cultural center today.",
+  "culturalNotes": "Valparaíso is renowned for its bohemian atmosphere, vibrant street art, and colorful hillside neighborhoods where pastel-painted houses cascade down steep streets toward the Pacific. The city has long been a haven for artists, writers, and musicians, earning it a reputation as Chile's cultural capital and the inspiration for countless works of literature and art. Its distinctive character blends European architectural influences from its immigrant past with Latin American warmth, creating a unique identity that celebrates creativity, maritime heritage, and working-class pride.",
+  "bestTimeToVisit": "Best visited December to February for summer beach season, or September to November for spring weather.",
+  "languageNotes": "Chileans speak Spanish with a distinctive accent and use local slang that can be challenging for those learning standard Spanish, including words like \"cachai\" (you understand) and \"bacán\" (cool). In Valparaíso's international port environment, English is more widely spoken than in many Chilean cities, though learning basic Spanish phrases will enhance any visitor's experience.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "valparaiso_city",
+      "name": "Valparaíso",
+      "nameIt": "Valparaíso",
+      "lat": -33.0472,
+      "lng": -71.6127,
+      "type": "CITY",
+      "description": "Chile's main port city and cultural heart, famous for its dramatically stacked hillside neighborhoods painted in vibrant colors and its bohemian atmosphere. The steep streets, ancient funicular railways, and street art make it one of South America's most visually striking cities.",
+      "imageQueries": [
+        "Valparaíso colorful houses hillside",
+        "Valparaíso street art funicular"
+      ],
+      "activities": [
+        {
+          "id": "valp_1",
+          "text": "Ride the Historic Funiculares",
+          "detail": "Take one of Valparaíso's iconic funicular railways, such as the Ascensor Artillería or Ascensor Concepción, to climb the steep hillsides and access the upper neighborhoods.",
+          "lat": -33.0472,
+          "lng": -71.6127
+        },
+        {
+          "id": "valp_2",
+          "text": "Explore Cerro Alegre and Cerro Concepción",
+          "detail": "Wander through these two adjacent hilltop neighborhoods filled with colonial architecture, colorful buildings, galleries, and street art galleries overlooking the bay.",
+          "lat": -33.0465,
+          "lng": -71.6145
+        },
+        {
+          "id": "valp_3",
+          "text": "Visit La Sebastiana Museum",
+          "detail": "Tour the quirky former home of poet Pablo Neruda, perched on a hillside with eccentric rooms, ocean views, and personal collections that reflect his creative spirit.",
+          "lat": -33.0425,
+          "lng": -71.613
+        },
+        {
+          "id": "valp_4",
+          "text": "Stroll Paseo Yugoslavo and Paseo Gervasoni",
+          "detail": "Walk along these scenic clifftop promenades on Cerro Concepción offering panoramic views of the Pacific, the port, and the colorful neighborhoods.",
+          "lat": -33.0445,
+          "lng": -71.614
+        },
+        {
+          "id": "valp_5",
+          "text": "Discover Street Art in the Alleys",
+          "detail": "Navigate the narrow callejones (alleyways) throughout the hillside neighborhoods where local and international artists have created vibrant murals and graffiti art.",
+          "lat": -33.048,
+          "lng": -71.6135
+        },
+        {
+          "id": "valp_6",
+          "text": "Tour the Naval and Maritime Museum",
+          "detail": "Learn about Chile's naval history and Valparaíso's importance as a port through exhibits in this waterfront museum covering centuries of maritime heritage.",
+          "lat": -33.0558,
+          "lng": -71.6265
+        }
+      ],
+      "food": [
+        {
+          "id": "valp_f1",
+          "text": "Ceviche Porteño",
+          "detail": "A local variation of the classic Peruvian dish made with fresh Pacific fish, citrus, and seafood, reflecting Valparaíso's coastal fishing heritage."
+        },
+        {
+          "id": "valp_f2",
+          "text": "Empanadas de Queso y Carne",
+          "detail": "Golden-fried pastry pockets filled with cheese and minced meat, sold by street vendors throughout the city and a quintessential Chilean snack."
+        },
+        {
+          "id": "valp_f3",
+          "text": "Chupe de Mariscos",
+          "detail": "A rich seafood stew made with mixed shellfish, potatoes, and cream, best enjoyed at waterfront restaurants overlooking the bay."
+        },
+        {
+          "id": "valp_f4",
+          "text": "Pastel de Choclo",
+          "detail": "A traditional Chilean comfort dish of ground corn and meat topped with a golden corn crust, commonly served in local restaurants."
+        },
+        {
+          "id": "valp_f5",
+          "text": "Fresh Fish at the Fish Market",
+          "detail": "Visit the bustling Mercado del Puerto to sample freshly caught Pacific fish prepared simply grilled or in traditional Chilean seafood preparations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "valp_c1",
+          "text": "Wear Layers and Good Shoes",
+          "detail": "Valparaíso's steep hills, unpredictable coastal weather, and cobblestone streets require comfortable walking shoes and layered clothing for the changeable climate."
+        },
+        {
+          "id": "valp_c2",
+          "text": "Embrace the Bohemian Spirit",
+          "detail": "The city values artistic expression and bohemian culture; take time to chat with local artists, visit small galleries, and attend informal street performances."
+        },
+        {
+          "id": "valp_c3",
+          "text": "Respect the Funicular Tradition",
+          "detail": "These historic elevators are integral to daily life for residents and an important cultural symbol; use them respectfully and appreciate their engineering heritage."
+        },
+        {
+          "id": "valp_c4",
+          "text": "Explore Early and Return by Dusk",
+          "detail": "While Valparaíso is increasingly safe for tourists, it's wise to explore neighborhoods during daylight hours and return to main areas before nightfall."
+        }
+      ]
+    },
+    {
+      "id": "vina_del_mar",
+      "name": "Viña del Mar",
+      "nameIt": "Viña del Mar",
+      "lat": -32.9744,
+      "lng": -71.5528,
+      "type": "COASTAL",
+      "description": "Chile's premier beach resort town adjacent to Valparaíso, featuring elegant beaches, the famous Casino, and the beautiful Flower Clock in Quinta Vergara Park. It offers a more upscale and relaxed coastal experience compared to Valparaíso's gritty charm.",
+      "imageQueries": [
+        "Viña del Mar beach resort",
+        "Viña del Mar flower clock"
+      ],
+      "activities": [
+        {
+          "id": "vina_1",
+          "text": "Casino Viña del Mar",
+          "detail": "Chile's most prestigious casino offering gaming, fine dining, and live entertainment in an iconic beachfront building.",
+          "lat": -33.0256,
+          "lng": -71.5528
+        },
+        {
+          "id": "vina_2",
+          "text": "Flower Clock (Reloj de Flores)",
+          "detail": "A stunning floral timepiece in Quinta Vergara Park featuring thousands of blooms arranged in intricate patterns, updated seasonally.",
+          "lat": -33.0319,
+          "lng": -71.5608
+        },
+        {
+          "id": "vina_3",
+          "text": "Quinta Vergara Park",
+          "detail": "A lush hillside park with botanical gardens, a small palacio museum, and panoramic views of the Pacific coast.",
+          "lat": -33.0329,
+          "lng": -71.5614
+        },
+        {
+          "id": "vina_4",
+          "text": "Acapulco Beach",
+          "detail": "Viña's most popular sandy beach, protected by rocky outcrops and lined with upscale beach clubs and restaurants.",
+          "lat": -33.0264,
+          "lng": -71.5503
+        },
+        {
+          "id": "vina_5",
+          "text": "Viña del Mar International Song Festival",
+          "detail": "Latin America's premier music festival held in February attracting international and regional artists in an open-air amphitheater.",
+          "lat": -33.0236,
+          "lng": -71.5496
+        },
+        {
+          "id": "vina_6",
+          "text": "Palacio Vergara Museum",
+          "detail": "A neoclassical mansion housing European art, ceramics, and furniture collections set within Quinta Vergara's gardens.",
+          "lat": -33.0324,
+          "lng": -71.5616
+        }
+      ],
+      "food": [
+        {
+          "id": "vina_f1",
+          "text": "Fresh ceviche",
+          "detail": "Raw fish cured in fresh lime juice with onion, cilantro, and ají, served as a classic Chilean coastal appetizer."
+        },
+        {
+          "id": "vina_f2",
+          "text": "Empanadas de mariscos",
+          "detail": "Baked pastry pockets filled with mixed seafood, onions, and local spices, a savory street food staple."
+        },
+        {
+          "id": "vina_f3",
+          "text": "Congrio frito",
+          "detail": "Fried conger eel, a local specialty served whole or filleted with lemon and seasonal vegetables at beachfront restaurants."
+        },
+        {
+          "id": "vina_f4",
+          "text": "Curanto",
+          "detail": "A traditional Chilean seafood stew with shellfish, fish, and potatoes cooked together, reflecting southern coastal heritage."
+        },
+        {
+          "id": "vina_f5",
+          "text": "Pastel de choclo",
+          "detail": "A savory pie topped with creamed corn and filled with beef, chicken, olives, and hard-boiled eggs, quintessentially Chilean."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vina_c1",
+          "text": "Beach culture is casual but upscale",
+          "detail": "While Viña is more refined than Valparaíso, beachwear and casual dress are acceptable, though restaurants require modest attire in the evening."
+        },
+        {
+          "id": "vina_c2",
+          "text": "Summer season (December-February) is peak tourist time",
+          "detail": "Book accommodations and restaurants well in advance if visiting during this period when prices rise and the town becomes crowded."
+        },
+        {
+          "id": "vina_c3",
+          "text": "Lunch is the main meal",
+          "detail": "Chileans typically eat lunch between 1-3pm and dinner after 8pm, so plan dining accordingly and expect restaurants to close between service times."
+        },
+        {
+          "id": "vina_c4",
+          "text": "Respect the sea conditions",
+          "detail": "The Pacific can have strong currents and cold water; swim only in designated beach areas and heed local warnings about conditions."
+        }
+      ]
+    },
+    {
+      "id": "cerro_artilleria",
+      "name": "Cerro Artillería",
+      "nameIt": "Cerro Artillería",
+      "lat": -33.0497,
+      "lng": -71.6273,
+      "type": "LANDMARK",
+      "description": "A historic hilltop in central Valparaíso topped with a naval artillery fortress and offering panoramic views of the entire bay and city. The viewpoint is reached by a picturesque funicular and provides one of the best vistas in the region.",
+      "imageQueries": [
+        "Cerro Artillería viewpoint Valparaíso",
+        "Cerro Artillería funicular"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Ride the Funicular",
+          "detail": "Take the historic funicular railway up the steep hillside to reach the summit, a charming and quintessential Valparaíso experience that has operated since the 19th century.",
+          "lat": -33.0472,
+          "lng": -71.6389
+        },
+        {
+          "id": "cerr_2",
+          "text": "Explore the Naval Artillery Fortress",
+          "detail": "Tour the restored military fortification at the hilltop with its original cannons and defensive structures, offering insights into Chile's naval history.",
+          "lat": -33.048,
+          "lng": -71.6382
+        },
+        {
+          "id": "cerr_3",
+          "text": "Panoramic Bay Viewpoint",
+          "detail": "Stand at the summit to capture sweeping 360-degree views of Valparaíso's bay, Pacific coastline, and the amphitheater of colorful buildings cascading down the hillsides.",
+          "lat": -33.0482,
+          "lng": -71.638
+        },
+        {
+          "id": "cerr_4",
+          "text": "Visit the Small Museum",
+          "detail": "Browse the modest museum housed near the fortress with exhibits on Valparaíso's military heritage and the role of artillery in the city's defense.",
+          "lat": -33.048,
+          "lng": -71.6385
+        },
+        {
+          "id": "cerr_5",
+          "text": "Photography Session at Sunset",
+          "detail": "Capture stunning golden-hour photographs of the bay and city lights as the sun sets over the Pacific, making this an ideal time for scenic imagery.",
+          "lat": -33.0482,
+          "lng": -71.638
+        },
+        {
+          "id": "cerr_6",
+          "text": "Walk the Hillside Neighborhoods",
+          "detail": "Descend on foot through the surrounding cerro neighborhoods to discover colonial architecture, street art, and local life beyond the main tourist path."
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Congrio a la Valparaíso",
+          "detail": "A local preparation of conger eel, a fish abundant in Chilean coastal waters, typically served with fresh lemon, garlic, and local seafood sauces."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Empanadas de Marisco",
+          "detail": "Crispy pastry pockets filled with shrimp, scallops, and other shellfish, a classic Chilean street food reflecting Valparaíso's maritime heritage."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Ceviche Valparaíso",
+          "detail": "Fresh raw fish cured in citrus juice and mixed with onions, cilantro, and chilies, representing the city's daily connection to its fishing grounds."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Pastel de Choclo",
+          "detail": "A savory corn pie layered with ground beef, chicken, olives, and hard-boiled eggs, a beloved Chilean comfort food found in many local eateries."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Chopped Sea Urchin (Erizo)",
+          "detail": "Fresh uni served simply with lemon and salt, a delicacy sourced directly from Chilean waters and considered a regional specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Respect Photography Rules",
+          "detail": "The military fortress may have restrictions on photographing certain structures; always ask permission before taking pictures of the fortification itself."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Plan Around Funicular Hours",
+          "detail": "The funicular operates on set schedules (typically morning through early evening) and can close during bad weather, so confirm operating times before your visit."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Dress for Wind and Sun",
+          "detail": "The exposed hilltop offers little shade and can be surprisingly windy even on calm days below, so bring a jacket and sunscreen regardless of city weather."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Greet Locals Warmly",
+          "detail": "Valparaíso residents appreciate friendly interactions; a simple 'buenos días' or 'buenas tardes' when encountering people on the hill shows respect for local customs."
+        }
+      ]
+    },
+    {
+      "id": "cerro_concepcion",
+      "name": "Cerro Concepción",
+      "nameIt": "Cerro Concepción",
+      "lat": -33.0467,
+      "lng": -71.6186,
+      "type": "LANDMARK",
+      "description": "One of Valparaíso's most picturesque neighborhoods, a steeply stacked hillside of colonial mansions and narrow alleyways accessible by an iconic wooden funicular railway. The bohemian quarter is filled with cafes, galleries, and street art with sweeping bay views.",
+      "imageQueries": [
+        "Cerro Concepción Valparaíso funicular",
+        "Cerro Concepción wooden houses"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Ride the Ascensor Concepción",
+          "detail": "Take the iconic 1883 wooden funicular railway up the steep hillside for a unique transport experience and panoramic views of Valparaíso Bay.",
+          "lat": -33.0474,
+          "lng": -71.6393
+        },
+        {
+          "id": "cerr_2",
+          "text": "Explore narrow alleyways and street art",
+          "detail": "Wander the maze-like cobblestone streets lined with colorful murals, graffiti art, and bohemian character that define the neighborhood's artistic identity.",
+          "lat": -33.0483,
+          "lng": -71.6388
+        },
+        {
+          "id": "cerr_3",
+          "text": "Visit colonial mansions",
+          "detail": "Admire the steeply stacked 19th-century European-style mansions that cascade down the hillside, many now converted into galleries, studios, and cultural spaces.",
+          "lat": -33.0481,
+          "lng": -71.6384
+        },
+        {
+          "id": "cerr_4",
+          "text": "Browse independent galleries and artist studios",
+          "detail": "Pop into the numerous small art galleries and working studios throughout the quarter showcasing local painters, sculptors, and craftspeople.",
+          "lat": -33.0477,
+          "lng": -71.639
+        },
+        {
+          "id": "cerr_5",
+          "text": "Photograph from viewpoint terraces",
+          "detail": "Capture sweeping bay views and cityscape photos from the various elevated plazas and terraces scattered throughout the neighborhood.",
+          "lat": -33.0475,
+          "lng": -71.6385
+        },
+        {
+          "id": "cerr_6",
+          "text": "Attend evening cultural events",
+          "detail": "Check local listings for live music, poetry readings, and theatrical performances often held in the bohemian cafes and cultural centers."
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Pastel de choclo",
+          "detail": "A traditional Chilean comfort dish of ground corn, meat, olives, and hard-boiled eggs baked in a clay pot, commonly served in local cafes."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Fresh ceviche",
+          "detail": "Raw fish cured in lime juice with onions, cilantro, and chili peppers, a staple in Valparaíso's coastal restaurants reflecting its fishing heritage."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Empanadas de queso y maíz",
+          "detail": "Golden fried pastry pockets filled with melted cheese and corn, sold by street vendors and cafes throughout the hillside."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Cazuela de mariscos",
+          "detail": "A hearty seafood stew with mussels, clams, and fish in a rich broth, representing the neighborhood's access to fresh Pacific ingredients."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Coffee and completo",
+          "detail": "Pair a strong Chilean coffee with a completo (loaded hot dog with avocado, tomato, mayonnaise, and mustard) from a neighborhood cafe or street stand."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Wear comfortable shoes",
+          "detail": "The steep, narrow cobblestone streets and stairs require sturdy footwear; avoid heels and bring layers as the hillside can be windy."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Respect the bohemian pace",
+          "detail": "This is an artist's neighborhood where locals value creativity and contemplation; move slowly, engage respectfully with residents, and avoid treating it as a theme park."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Go during daylight hours",
+          "detail": "While increasingly safe, the neighborhood is best experienced during daytime; most galleries, cafes, and attractions close by evening and the narrow streets can feel isolated at night."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Support local artists",
+          "detail": "Purchasing directly from studios and galleries rather than chain stores supports the community's creative economy and preserves the neighborhood's authentic character."
+        }
+      ]
+    },
+    {
+      "id": "cerro_alegre",
+      "name": "Cerro Alegre",
+      "nameIt": "Cerro Alegre",
+      "lat": -33.0433,
+      "lng": -71.6155,
+      "type": "LANDMARK",
+      "description": "An adjacent historic neighborhood to Cerro Concepción featuring whitewashed colonial buildings, colorful doors and shutters, and charming plazas with local restaurants. It offers authentic neighborhood character and is less crowded than nearby tourist-focused areas.",
+      "imageQueries": [
+        "Cerro Alegre white buildings Valparaíso",
+        "Cerro Alegre neighborhood"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Explore Paseo Gervasoni",
+          "detail": "Walk the tree-lined pedestrian promenade that connects Cerro Alegre to Cerro Concepción, offering panoramic views of the bay and the Pacific Ocean.",
+          "lat": -33.0472,
+          "lng": -71.6263
+        },
+        {
+          "id": "cerr_2",
+          "text": "Visit Iglesia de las Ánimas",
+          "detail": "Climb to this small whitewashed church perched on the hillside, featuring simple colonial architecture and a quiet plaza with local character.",
+          "lat": -33.0468,
+          "lng": -71.6255
+        },
+        {
+          "id": "cerr_3",
+          "text": "Wander colorful side streets",
+          "detail": "Get lost among the narrow alleys lined with pastel-painted buildings, vintage wooden doors, and flowering vines that exemplify Valparaíso's bohemian charm."
+        },
+        {
+          "id": "cerr_4",
+          "text": "Browse local art galleries",
+          "detail": "Discover small independent galleries and artist studios tucked into colonial buildings throughout the neighborhood showcasing contemporary Chilean and regional work."
+        },
+        {
+          "id": "cerr_5",
+          "text": "Relax in Plaza Sotomayor area",
+          "detail": "Sit in the intimate plazas scattered across Cerro Alegre where locals gather, often with views down to the harbor and port below."
+        },
+        {
+          "id": "cerr_6",
+          "text": "Visit street murals and graffiti art",
+          "detail": "Photograph the spontaneous and authorized murals that cover walls throughout the hill, reflecting Valparaíso's reputation as a street art capital."
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Empanadas de queso y champiñones",
+          "detail": "Baked pastry pockets filled with melted cheese and sautéed mushrooms, a local favorite sold at neighborhood bakeries and informal eateries."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Fresh ceviche at waterfront restaurants",
+          "detail": "Raw white fish cured in lime juice with onions, cilantro, and ají served at casual spots near the foot of the hill with harbor views."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Pastel de choclo",
+          "detail": "A traditional Chilean corn pie layered with ground meat, onions, and topped with fresh corn purée, commonly found at family-run neighborhood restaurants."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Cazuela de mariscos",
+          "detail": "A hearty seafood stew featuring local shellfish, fish, and potatoes in a rich broth, reflecting the fresh catches from Valparaíso's active port."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Pan de queso from local bakeries",
+          "detail": "Cheese bread rolls warm from neighborhood panadería ovens, perfect for breakfast or an afternoon snack while exploring the hillside."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Visit early morning for authentic neighborhood life",
+          "detail": "Arrive before 10 AM to see locals shopping at small markets and cafés before the area fills with afternoon tourists from the lower city."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Respect private residences and ask before photographing",
+          "detail": "Many colorful buildings are private homes, not tourist attractions; locals appreciate if visitors ask permission before taking photos of their properties."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Learn basic Spanish greetings",
+          "detail": "The neighborhood is less touristy than nearby areas, so greeting shopkeepers and café owners with 'buenos días' or 'buenas tardes' opens doors to authentic interactions."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Explore on foot and embrace getting temporarily lost",
+          "detail": "The steep, winding streets are designed for pedestrians and wandering randomly often leads to hidden plazas, local cafés, and unexpected viewpoints that tourists miss."
+        }
+      ]
+    },
+    {
+      "id": "quinta_vergara",
+      "name": "Quinta Vergara Park",
+      "nameIt": "Parque Quinta Vergara",
+      "lat": -32.9806,
+      "lng": -71.5491,
+      "type": "LANDMARK",
+      "description": "A sprawling botanical garden and cultural venue in Viña del Mar featuring diverse plant species, sculptures, and the famous Reloj de Flores flower clock. The park hosts the annual International Song Festival and provides peaceful green space with ocean views.",
+      "imageQueries": [
+        "Quinta Vergara Park flower clock",
+        "Quinta Vergara botanical garden Viña"
+      ],
+      "activities": [
+        {
+          "id": "quin_1",
+          "text": "Explore the Reloj de Flores",
+          "detail": "Walk through the iconic flower clock made of thousands of living plants arranged to display the time, a symbol of Viña del Mar and one of the park's most photographed features.",
+          "lat": -33.0244,
+          "lng": -71.5506
+        },
+        {
+          "id": "quin_2",
+          "text": "Stroll the Botanical Collections",
+          "detail": "Wander among diverse plant species including palms, succulents, and native Chilean flora arranged throughout the terraced gardens and pathways."
+        },
+        {
+          "id": "quin_3",
+          "text": "Visit the Open-Air Amphitheater",
+          "detail": "Discover the large natural amphitheater carved into the hillside where the annual International Song Festival (Festival Internacional de la Canción) takes place each February.",
+          "lat": -33.0248,
+          "lng": -71.551
+        },
+        {
+          "id": "quin_4",
+          "text": "Admire Sculptures and Monuments",
+          "detail": "Observe various bronze sculptures and monuments scattered throughout the park honoring notable figures and artistic expressions."
+        },
+        {
+          "id": "quin_5",
+          "text": "Enjoy Ocean Views from the Terraces",
+          "detail": "Climb to the upper levels of the park for panoramic views of the Pacific Ocean and Viña del Mar's coastline from elevated garden terraces."
+        },
+        {
+          "id": "quin_6",
+          "text": "Photograph in the Rose Garden",
+          "detail": "Walk through dedicated rose gardens during blooming season to capture stunning images of hundreds of rose varieties in vibrant colors."
+        }
+      ],
+      "food": [
+        {
+          "id": "quin_f1",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Seek out these warm pastry pockets filled with melted cheese and sautéed mushrooms, commonly sold at park vendors and nearby cafés."
+        },
+        {
+          "id": "quin_f2",
+          "text": "Pastel de Choclo",
+          "detail": "This traditional Chilean dish of corn pie with meat filling is often available at food vendors near the park entrance and nearby restaurants."
+        },
+        {
+          "id": "quin_f3",
+          "text": "Fresh Ceviche",
+          "detail": "Take advantage of Viña del Mar's coastal location by enjoying ceviche made with local fish at restaurants near Quinta Vergara."
+        },
+        {
+          "id": "quin_f4",
+          "text": "Completo Chileno",
+          "detail": "Try this loaded Chilean hot dog topped with avocado, tomato, onions, and mayo from park-area food stands for an authentic quick bite."
+        },
+        {
+          "id": "quin_f5",
+          "text": "Terrace Café Lunch",
+          "detail": "Dine at informal cafés within or overlooking the park serving light fare like sandwiches, fresh juices, and pastries with garden views."
+        }
+      ],
+      "culture": [
+        {
+          "id": "quin_c1",
+          "text": "Visit During Festival Season",
+          "detail": "Plan your visit in February to experience the International Song Festival at the amphitheater, though expect larger crowds and book accommodations well in advance."
+        },
+        {
+          "id": "quin_c2",
+          "text": "Respect Garden Pathways",
+          "detail": "Stay on marked paths throughout the botanical areas to protect the carefully maintained plant collections and landscaping work."
+        },
+        {
+          "id": "quin_c3",
+          "text": "Bring Sun Protection",
+          "detail": "The park has limited shade in many areas and the Chilean sun is intense; pack sunscreen, a hat, and water for a comfortable visit."
+        },
+        {
+          "id": "quin_c4",
+          "text": "Photo Etiquette at Reloj de Flores",
+          "detail": "The flower clock is extremely popular for selfies and group photos—visit early morning for fewer crowds and better lighting for photographs."
+        }
+      ]
+    },
+    {
+      "id": "playa_ancha",
+      "name": "Playa Ancha",
+      "nameIt": "Playa Ancha",
+      "lat": -33.0607,
+      "lng": -71.6305,
+      "type": "COASTAL",
+      "description": "A working-class beach neighborhood west of central Valparaíso offering authentic local flavor and beautiful coastal scenery away from tourist crowds. The wide sandy beach and casual seafood restaurants make it ideal for experiencing everyday Chilean beach life.",
+      "imageQueries": [
+        "Playa Ancha beach Valparaíso",
+        "Playa Ancha neighborhood"
+      ],
+      "activities": [
+        {
+          "id": "play_1",
+          "text": "Swim and sunbathe at Playa Ancha Beach",
+          "detail": "Wade into the Pacific at this wide, sandy beach popular with local families and fishermen, offering calm waters and sweeping coastal views.",
+          "lat": -33.0347,
+          "lng": -71.6289
+        },
+        {
+          "id": "play_2",
+          "text": "Walk the coastal promenade",
+          "detail": "Stroll along the waterfront path connecting Playa Ancha to neighboring beaches, passing fishing boats and informal vendors selling fresh seafood.",
+          "lat": -33.0352,
+          "lng": -71.628
+        },
+        {
+          "id": "play_3",
+          "text": "Visit the Playa Ancha viewpoint",
+          "detail": "Climb to the small bluff overlooking the beach for panoramic views of Valparaíso's bay and the working fishing community below.",
+          "lat": -33.0335,
+          "lng": -71.6295
+        },
+        {
+          "id": "play_4",
+          "text": "Browse the Sunday market",
+          "detail": "Explore the informal weekend vendors near the beach selling local produce, crafts, and prepared foods directly to residents.",
+          "lat": -33.034,
+          "lng": -71.6275
+        },
+        {
+          "id": "play_5",
+          "text": "Photograph fishing boats and nets",
+          "detail": "Capture authentic scenes of traditional Chilean fishing operations with colorful boats, mended nets, and daily harbor work along the shore."
+        },
+        {
+          "id": "play_6",
+          "text": "Watch the sunset from the beach",
+          "detail": "Time your visit for late afternoon when the light turns golden and local families gather for evening walks along the water."
+        }
+      ],
+      "food": [
+        {
+          "id": "play_f1",
+          "text": "Ceviche from beachfront stalls",
+          "detail": "Fresh raw fish cured in lime juice, onion, and cilantro, sold by vendors near the sand who source fish that morning from local boats."
+        },
+        {
+          "id": "play_f2",
+          "text": "Empanadas de mariscos",
+          "detail": "Baked pastry pockets filled with shrimp, clams, or mixed seafood, a quick lunch staple sold at casual neighborhood restaurants."
+        },
+        {
+          "id": "play_f3",
+          "text": "Caldillo de congrio",
+          "detail": "A traditional Chilean stew of conger eel, potatoes, and onions in a rich broth, served at family-run seafood restaurants overlooking the beach."
+        },
+        {
+          "id": "play_f4",
+          "text": "Machas a la parmesana",
+          "detail": "Razor clams baked with cheese and breadcrumbs, a local specialty found at modest beachfront eateries frequented by working Chileans."
+        },
+        {
+          "id": "play_f5",
+          "text": "Chorrillana",
+          "detail": "A hearty plate of fries topped with fried onions, sausage, and fried eggs, a casual favorite at neighborhood comidas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "play_c1",
+          "text": "Respect fishing operations",
+          "detail": "The beach is a working harbor; avoid obstructing nets, boats, or fishermen's morning and afternoon routines."
+        },
+        {
+          "id": "play_c2",
+          "text": "Bargain respectfully at casual eateries",
+          "detail": "Small restaurants and beach vendors often price flexibly for regular customers; friendly negotiation is normal, but always offer fair payment."
+        },
+        {
+          "id": "play_c3",
+          "text": "Visit in the afternoon or on weekends",
+          "detail": "Playa Ancha is quietest on weekday mornings when locals are working; afternoons and Sundays bring families, street vendors, and lively beach activity."
+        },
+        {
+          "id": "play_c4",
+          "text": "Bring cash for informal vendors",
+          "detail": "Many food stalls, market sellers, and small restaurants do not accept cards, so carry Chilean pesos for transactions."
+        }
+      ]
+    },
+    {
+      "id": "teatro_municipal",
+      "name": "Teatro Municipal de Valparaíso",
+      "nameIt": "Teatro Municipal de Valparaíso",
+      "lat": -33.0493,
+      "lng": -71.6299,
+      "type": "LANDMARK",
+      "description": "A grand neoclassical theater in downtown Valparaíso dating to 1886, featuring ornate architecture and hosting cultural performances and concerts. The building is an architectural gem worth visiting for its interior design even if no performances are scheduled.",
+      "imageQueries": [
+        "Teatro Municipal Valparaíso",
+        "Teatro Municipal architecture Chile"
+      ],
+      "activities": [
+        {
+          "id": "teat_1",
+          "text": "Attend a performance",
+          "detail": "Check the theater's schedule for concerts, ballet, theater productions, and cultural events that showcase both local and international artists."
+        },
+        {
+          "id": "teat_2",
+          "text": "Guided interior tour",
+          "detail": "Explore the ornate neoclassical architecture including the grand foyer, balconies, and ceiling frescoes with a knowledgeable guide who explains the building's 1886 history.",
+          "lat": -33.0473,
+          "lng": -71.6266
+        },
+        {
+          "id": "teat_3",
+          "text": "Photography in the lobby",
+          "detail": "Capture the theater's stunning architectural details including crystal chandeliers, marble staircases, and decorative moldings in the main entrance hall.",
+          "lat": -33.0473,
+          "lng": -71.6266
+        },
+        {
+          "id": "teat_4",
+          "text": "Sunset views from Plaza Aníbal Pinto",
+          "detail": "Walk to the adjacent historic plaza near the theater to enjoy panoramic views of Valparaíso's hillside neighborhoods and Pacific coastline at dusk.",
+          "lat": -33.0474,
+          "lng": -71.6265
+        },
+        {
+          "id": "teat_5",
+          "text": "Explore downtown cultural district",
+          "detail": "Visit nearby galleries, bookstores, and cafés in the historic downtown area surrounding the theater in the Barrio Puerto district."
+        }
+      ],
+      "food": [
+        {
+          "id": "teat_f1",
+          "text": "Pastel de choclo",
+          "detail": "A traditional Chilean corn pie with meat filling, savory and slightly sweet, commonly found in local restaurants near the theater district."
+        },
+        {
+          "id": "teat_f2",
+          "text": "Congrio a la marinera",
+          "detail": "Fresh local conger eel prepared with white wine, garlic, and seafood broth, reflecting Valparaíso's coastal culinary traditions."
+        },
+        {
+          "id": "teat_f3",
+          "text": "Empanadas de queso y pasas",
+          "detail": "Fried pastries filled with melted cheese and raisins, a popular Chilean street food available at vendors throughout downtown."
+        },
+        {
+          "id": "teat_f4",
+          "text": "Cazuela de mariscos",
+          "detail": "A hearty seafood stew with mixed shellfish and vegetables served in an earthenware bowl at waterfront restaurants near the port."
+        },
+        {
+          "id": "teat_f5",
+          "text": "Completo Porteño",
+          "detail": "Valparaíso's signature hot dog topped with avocado, tomato, onions, and mayo, a must-try local street food near the theater."
+        }
+      ],
+      "culture": [
+        {
+          "id": "teat_c1",
+          "text": "Dress code for performances",
+          "detail": "If attending an evening concert or formal production, smart casual to formal attire is expected and appreciated by local audiences."
+        },
+        {
+          "id": "teat_c2",
+          "text": "Arrive early for tours",
+          "detail": "Visit in the morning or early afternoon when the building is less crowded and natural light illuminates the interior architectural details most beautifully."
+        },
+        {
+          "id": "teat_c3",
+          "text": "Spanish language advantage",
+          "detail": "While staff may speak some English, learning basic Spanish phrases enhances your experience and shows respect for Chilean culture and local customs."
+        },
+        {
+          "id": "teat_c4",
+          "text": "Theater etiquette",
+          "detail": "Chileans take cultural performances seriously; silence your phone, arrive on time, and applaud respectfully at the end of performances as a sign of appreciation."
+        }
+      ]
+    },
+    {
+      "id": "museo_bellas_artes",
+      "name": "National Museum of Fine Arts",
+      "nameIt": "Museo Nacional de Bellas Artes",
+      "lat": -33.0495,
+      "lng": -71.628,
+      "type": "LANDMARK",
+      "description": "Chile's principal art museum located in Valparaíso, housing an extensive collection of Chilean and international artworks from colonial times to contemporary pieces. The museum provides insight into Chilean artistic and cultural heritage in a beautiful historic building.",
+      "imageQueries": [
+        "Museo Bellas Artes Valparaíso",
+        "National Museum Fine Arts Chile"
+      ],
+      "activities": [
+        {
+          "id": "muse_1",
+          "text": "Explore Chilean Colonial Art",
+          "detail": "View the museum's significant collection of colonial-era paintings and religious art that document Chile's early artistic development from the 16th through 18th centuries."
+        },
+        {
+          "id": "muse_2",
+          "text": "Study 19th-Century Landscape Paintings",
+          "detail": "Examine Chilean romantic landscape works that capture the country's natural scenery and reflect the nation's artistic identity during the independence and early republican periods."
+        },
+        {
+          "id": "muse_3",
+          "text": "Discover Contemporary Chilean Artists",
+          "detail": "Browse modern and contemporary galleries featuring works by living Chilean artists that represent current trends and cultural conversations in the country's art scene."
+        },
+        {
+          "id": "muse_4",
+          "text": "Visit the Historic Building Architecture",
+          "detail": "Appreciate the museum's neoclassical architecture and restored historic structure, which is itself an important part of Valparaíso's cultural heritage.",
+          "lat": -33.0472,
+          "lng": -71.6127
+        },
+        {
+          "id": "muse_5",
+          "text": "Attend Rotating Special Exhibitions",
+          "detail": "Check the museum's schedule for temporary exhibitions that showcase international works and thematic collections beyond the permanent galleries."
+        },
+        {
+          "id": "muse_6",
+          "text": "Participate in Guided Museum Tours",
+          "detail": "Join Spanish-language or English-language tours led by knowledgeable staff who provide context about Chilean art history and specific artworks in the collection."
+        }
+      ],
+      "food": [
+        {
+          "id": "muse_f1",
+          "text": "Empanadas de Queso y Carne",
+          "detail": "Seek out this classic Chilean pastry filled with cheese and meat at nearby cafés around Cerro Alegre, perfect for a quick meal before or after museum visits."
+        },
+        {
+          "id": "muse_f2",
+          "text": "Congrio a la Chilena",
+          "detail": "Try this local white fish dish prepared with tomatoes, onions, and cilantro at restaurants in the nearby port district, celebrating Valparaíso's seafaring traditions."
+        },
+        {
+          "id": "muse_f3",
+          "text": "Pastel de Choclo",
+          "detail": "Sample this traditional corn-topped pie with meat filling at local restaurants, a quintessential Chilean comfort food found throughout Valparaíso."
+        },
+        {
+          "id": "muse_f4",
+          "text": "Café con Mote",
+          "detail": "Experience a traditional Chilean coffee break at museum cafés or nearby spots, pairing coffee with mote (toasted wheat grain), a staple Andean snack."
+        },
+        {
+          "id": "muse_f5",
+          "text": "Centolla (King Crab)",
+          "detail": "Indulge in this premium Patagonian seafood delicacy available at upscale restaurants in the Valparaíso area, showcasing southern Chilean cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "muse_c1",
+          "text": "Museum Hours and Planning",
+          "detail": "Note that the museum typically closes on Mondays and has limited Sunday hours, so plan your visit accordingly and allow at least two hours to explore the main galleries."
+        },
+        {
+          "id": "muse_c2",
+          "text": "Spanish Language Dominance",
+          "detail": "While some staff may speak English, most labels and guided information are in Spanish, so bring a translation app or basic Spanish knowledge to enhance your experience."
+        },
+        {
+          "id": "muse_c3",
+          "text": "Steep Hill Navigation",
+          "detail": "The museum is located on Cerro Alegre, a steep hillside neighborhood, so wear comfortable walking shoes and be prepared for cobblestone streets and inclines when arriving and exploring nearby areas."
+        },
+        {
+          "id": "muse_c4",
+          "text": "Photography Restrictions",
+          "detail": "Check with staff about photography policies in the galleries, as some exhibitions or specific artworks may prohibit flash photography or recording devices."
+        }
+      ]
+    },
+    {
+      "id": "palacio_astoreca",
+      "name": "Palacio Astoreca",
+      "nameIt": "Palacio Astoreca",
+      "lat": -33.044,
+      "lng": -71.6175,
+      "type": "LANDMARK",
+      "description": "A beautifully preserved 19th-century mansion on Cerro Concepción showcasing the architectural grandeur of Valparaíso's golden age, now functioning as a museum and cultural center. The palace offers intimate glimpses into the elegant lifestyle of the city's merchant elite.",
+      "imageQueries": [
+        "Palacio Astoreca Cerro Concepción",
+        "Palacio Astoreca mansion"
+      ],
+      "activities": [
+        {
+          "id": "pala_1",
+          "text": "Guided Palace Tour",
+          "detail": "Explore the restored rooms, period furniture, and original architectural details that reveal the opulent lifestyle of 19th-century merchant families.",
+          "lat": -33.0397,
+          "lng": -71.6361
+        },
+        {
+          "id": "pala_2",
+          "text": "Art Exhibitions",
+          "detail": "View rotating contemporary and historical art exhibitions hosted in the palace's galleries throughout the year.",
+          "lat": -33.0397,
+          "lng": -71.6361
+        },
+        {
+          "id": "pala_3",
+          "text": "Cerro Concepción Walkabout",
+          "detail": "Wander the steep, narrow streets surrounding the palace to discover colorful colonial buildings, street art, and panoramic views of Valparaíso's port.",
+          "lat": -33.0395,
+          "lng": -71.6355
+        },
+        {
+          "id": "pala_4",
+          "text": "Photographic Documentation",
+          "detail": "Capture the ornate façade, interior courtyards, and vintage furnishings that exemplify the Belle Époque elegance of the building.",
+          "lat": -33.0397,
+          "lng": -71.6361
+        },
+        {
+          "id": "pala_5",
+          "text": "Cultural Events & Concerts",
+          "detail": "Attend chamber music performances, poetry readings, and cultural talks held in the palace's intimate spaces.",
+          "lat": -33.0397,
+          "lng": -71.6361
+        },
+        {
+          "id": "pala_6",
+          "text": "Museum Shop Visit",
+          "detail": "Browse local artisan crafts, books on Valparaíso's history, and curated souvenirs at the palace gift shop.",
+          "lat": -33.0397,
+          "lng": -71.6361
+        }
+      ],
+      "food": [
+        {
+          "id": "pala_f1",
+          "text": "Congrio a la Valparaíso",
+          "detail": "Fresh congrio (conger eel) prepared with tomatoes, onions, and white wine, a signature seafood dish reflecting the city's coastal heritage."
+        },
+        {
+          "id": "pala_f2",
+          "text": "Pastel de Choclo",
+          "detail": "A savory pie layered with corn purée, ground beef, chicken, olives, and hard-boiled eggs, representing traditional Chilean home cooking."
+        },
+        {
+          "id": "pala_f3",
+          "text": "Empanadas de Mariscos",
+          "detail": "Hand-held pastries filled with mixed seafood, cheese, and spices, widely available in nearby Cerro Concepción cafés."
+        },
+        {
+          "id": "pala_f4",
+          "text": "Chupe de Mariscos",
+          "detail": "A rich seafood stew with shellfish, potatoes, and cream, embodying Valparaíso's maritime culinary traditions."
+        },
+        {
+          "id": "pala_f5",
+          "text": "Café de Olla with Local Pastries",
+          "detail": "Strong Chilean coffee served with fresh pan de pascua or sopaipillas at nearby traditional cafés near the palace."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pala_c1",
+          "text": "Dress for Steep Streets",
+          "detail": "Wear comfortable walking shoes with good grip, as Cerro Concepción features very steep cobblestone streets and multiple staircases."
+        },
+        {
+          "id": "pala_c2",
+          "text": "Visit Early or Late",
+          "detail": "Arrive in the morning or late afternoon to avoid afternoon crowds and to experience the best natural light for viewing the palace's architectural details."
+        },
+        {
+          "id": "pala_c3",
+          "text": "Respect Gallery Spaces",
+          "detail": "Photography policies vary by exhibition; always ask staff permission before photographing artworks or interior displays."
+        },
+        {
+          "id": "pala_c4",
+          "text": "Learn Valparaíso's Port History",
+          "detail": "Understanding the city's 19th-century role as a major Pacific port enriches appreciation for the palace as a symbol of merchant wealth and influence."
+        }
+      ]
+    },
+    {
+      "id": "renaca_beach",
+      "name": "Reñaca Beach",
+      "nameIt": "Playa Reñaca",
+      "lat": -32.9597,
+      "lng": -71.538,
+      "type": "COASTAL",
+      "description": "A popular sandy beach in the Viña del Mar area with calm waters and a vibrant beachfront promenade lined with restaurants, bars, and shops. The beach is ideal for swimming and people-watching in a lively resort atmosphere.",
+      "imageQueries": [
+        "Reñaca beach Viña del Mar",
+        "Playa Reñaca Chile"
+      ],
+      "activities": [
+        {
+          "id": "rena_1",
+          "text": "Swimming and Sunbathing",
+          "detail": "Enjoy the calm, protected waters of Reñaca Beach, which are ideal for swimming and relaxing on the sandy shore during the austral summer months."
+        },
+        {
+          "id": "rena_2",
+          "text": "Beachfront Promenade Walk",
+          "detail": "Stroll along the vibrant paseo (promenade) lined with restaurants, bars, and shops, taking in ocean views and people-watching in the lively resort atmosphere.",
+          "lat": -33.0237,
+          "lng": -71.5475
+        },
+        {
+          "id": "rena_3",
+          "text": "Dining at Waterfront Restaurants",
+          "detail": "Sample fresh seafood and Chilean cuisine at the numerous restaurants and cafés directly overlooking the beach and ocean."
+        },
+        {
+          "id": "rena_4",
+          "text": "Visit Viña del Mar Casino",
+          "detail": "Experience the nearby Casino Viña del Mar, one of South America's premier gambling and entertainment venues located just steps from Reñaca.",
+          "lat": -33.0252,
+          "lng": -71.5505
+        },
+        {
+          "id": "rena_5",
+          "text": "Sunset Observation",
+          "detail": "Watch the sun set over the Pacific Ocean from the beach or promenade, a popular evening activity for both tourists and locals."
+        }
+      ],
+      "food": [
+        {
+          "id": "rena_f1",
+          "text": "Ceviche",
+          "detail": "Fresh fish marinated in lime juice with onions, cilantro, and chilies, a Chilean coastal specialty found in many Reñaca beachfront restaurants."
+        },
+        {
+          "id": "rena_f2",
+          "text": "Empanadas de Mariscos",
+          "detail": "Baked or fried pastry pockets filled with shrimp, scallops, or mixed seafood, a beloved Chilean street food and snack sold throughout the promenade."
+        },
+        {
+          "id": "rena_f3",
+          "text": "Pastel de Choclo",
+          "detail": "A savory pie topped with fresh corn puree and filled with ground beef, olives, and hard-boiled eggs, a traditional Chilean comfort dish."
+        },
+        {
+          "id": "rena_f4",
+          "text": "Locos a la Parmesana",
+          "detail": "Sea urchin or abalone prepared with Parmesan cheese and baked, a premium seafood preparation highlighting the region's fresh catch."
+        },
+        {
+          "id": "rena_f5",
+          "text": "Chopped Seafood Salad with Avocado",
+          "detail": "A light, refreshing combination of diced fish, shrimp, and crispy vegetables topped with Chilean avocado, commonly served at casual beach establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rena_c1",
+          "text": "Respect Beach Hours and Safety",
+          "detail": "Most beachgoers swim during daylight hours; avoid swimming alone at night and heed any local warnings about water conditions or undertow."
+        },
+        {
+          "id": "rena_c2",
+          "text": "Casual Dress Code",
+          "detail": "The beach atmosphere is informal and relaxed; swimwear, casual clothing, and sandals are standard, though modest cover-ups are appreciated when entering restaurants."
+        },
+        {
+          "id": "rena_c3",
+          "text": "Spanish Language Helpful",
+          "detail": "While some restaurant staff speak English, learning basic Spanish phrases enhances the experience and is appreciated by locals in this popular Chilean beach town."
+        },
+        {
+          "id": "rena_c4",
+          "text": "Siesta Tradition",
+          "detail": "Many small shops and some casual eateries may close or reduce hours during midday siesta (roughly 1 to 4 PM), so plan activities accordingly."
+        }
+      ]
+    },
+    {
+      "id": "isla_negra",
+      "name": "Isla Negra",
+      "nameIt": "Isla Negra",
+      "lat": -33.2407,
+      "lng": -71.8331,
+      "type": "COASTAL",
+      "description": "A picturesque coastal village about 40 kilometers south of Valparaíso, home to the enchanting house museum of poet Pablo Neruda perched on a rocky headland. The dramatic coastline and bohemian village charm make it a rewarding day trip with literary and cultural significance.",
+      "imageQueries": [
+        "Isla Negra Neruda house",
+        "Isla Negra coastal village Chile"
+      ],
+      "activities": [
+        {
+          "id": "isla_1",
+          "text": "La Casa de Pablo Neruda",
+          "detail": "Tour the Nobel Prize-winning poet's whimsical seaside home filled with eclectic collections, nautical memorabilia, and artifacts reflecting his passion for the ocean.",
+          "lat": -33.4167,
+          "lng": -71.6333
+        },
+        {
+          "id": "isla_2",
+          "text": "Rocky Headland Walk",
+          "detail": "Stroll along the dramatic rocky coastline and clifftop paths offering sweeping views of the Pacific and access to small coves and tide pools.",
+          "lat": -33.417,
+          "lng": -71.634
+        },
+        {
+          "id": "isla_3",
+          "text": "Bohemian Village Exploration",
+          "detail": "Wander through the charming narrow streets lined with colorful houses, local artisan shops, and small galleries showcasing regional art and crafts.",
+          "lat": -33.4175,
+          "lng": -71.6325
+        },
+        {
+          "id": "isla_4",
+          "text": "Pescadería Local Market",
+          "detail": "Browse the working fishing village's modest but authentic seafood market where locals buy fresh catches daily from small boats.",
+          "lat": -33.418,
+          "lng": -71.632
+        },
+        {
+          "id": "isla_5",
+          "text": "Isla Negra Beach Time",
+          "detail": "Relax on the small pebbly beaches nestled between rocky outcrops, ideal for contemplative walks and photography of the rugged coastline.",
+          "lat": -33.4165,
+          "lng": -71.6345
+        },
+        {
+          "id": "isla_6",
+          "text": "Sunset Viewing at the Headland",
+          "detail": "Position yourself at the cliffs near Neruda's house at dusk to witness the sun setting dramatically over the Pacific Ocean.",
+          "lat": -33.4167,
+          "lng": -71.6333
+        }
+      ],
+      "food": [
+        {
+          "id": "isla_f1",
+          "text": "Congrio a la sal",
+          "detail": "Local white fish baked whole in a salt crust, a classic Chilean coastal preparation highlighting the day's fresh catch."
+        },
+        {
+          "id": "isla_f2",
+          "text": "Ceviche con locos",
+          "detail": "Fresh seafood ceviche made with local sea urchins and fish, a refreshing dish found in beachfront restaurants and small eateries."
+        },
+        {
+          "id": "isla_f3",
+          "text": "Empanadas de mariscos",
+          "detail": "Baked pastries filled with a mixture of shrimp, mussels, and local shellfish, perfect for portable meals while exploring the village."
+        },
+        {
+          "id": "isla_f4",
+          "text": "Caldillo de congrio",
+          "detail": "Warming fish stew with conger eel, potatoes, and onions, a Valparaíso region specialty that appears on most local menus."
+        },
+        {
+          "id": "isla_f5",
+          "text": "Chocos a la plancha",
+          "detail": "Simply grilled squid seasoned with lemon and garlic, showcasing the village's commitment to fresh, minimally processed seafood."
+        }
+      ],
+      "culture": [
+        {
+          "id": "isla_c1",
+          "text": "Respect for Literary Heritage",
+          "detail": "Isla Negra is sacred ground for Neruda fans; approach the museum and village with reverence for its bohemian literary traditions and the poet's personal legacy."
+        },
+        {
+          "id": "isla_c2",
+          "text": "Cash and Small Bills Preferred",
+          "detail": "As a small coastal village, many local restaurants and shops operate primarily on cash, so bring Chilean pesos and smaller denominations rather than relying on cards."
+        },
+        {
+          "id": "isla_c3",
+          "text": "Timing Your Visit",
+          "detail": "Arrive early in the day to avoid crowds at Neruda's house and to experience the village's authentic fishing community before afternoon tour buses arrive."
+        },
+        {
+          "id": "isla_c4",
+          "text": "Weather Preparedness",
+          "detail": "The coast is windy and can be cool even in summer; bring layers and wind-resistant clothing, as the rocky headland offers no shelter from ocean breezes."
+        }
+      ]
+    },
+    {
+      "id": "casablanca_valley",
+      "name": "Casablanca Valley",
+      "nameIt": "Valle de Casablanca",
+      "lat": -33.3167,
+      "lng": -71.4167,
+      "type": "NATURE",
+      "description": "Chile's premier wine region located inland from Valparaíso, famous for producing high-quality white wines, particularly Sauvignon Blancs in a Mediterranean climate. Wine enthusiasts can visit renowned wineries, taste exceptional vintages, and enjoy stunning vineyard landscapes.",
+      "imageQueries": [
+        "Casablanca Valley wine region",
+        "Casablanca wines vineyards Chile"
+      ],
+      "activities": [
+        {
+          "id": "casa_1",
+          "text": "Wine Tasting at Viña Casablanca",
+          "detail": "Tour the pioneering winery that established Casablanca Valley's reputation for Sauvignon Blancs and enjoy guided tastings in their modern facilities.",
+          "lat": -32.3456,
+          "lng": -71.4089
+        },
+        {
+          "id": "casa_2",
+          "text": "Explore Santa Rita Winery",
+          "detail": "Visit this historic estate known for premium wines and take a tour of their vineyards and wine museum documenting Chilean wine history.",
+          "lat": -32.3512,
+          "lng": -71.4178
+        },
+        {
+          "id": "casa_3",
+          "text": "Vineyard Horseback Riding",
+          "detail": "Ride through Casablanca Valley's rolling vineyards on horseback to experience the landscape and Mediterranean terroir up close.",
+          "lat": -32.34,
+          "lng": -71.415
+        },
+        {
+          "id": "casa_4",
+          "text": "Indómita Winery Tour",
+          "detail": "Discover organic and biodynamic winemaking practices at this innovative producer while tasting their distinctive white wine selections.",
+          "lat": -32.3389,
+          "lng": -71.4267
+        },
+        {
+          "id": "casa_5",
+          "text": "Sunset Picnic in the Vineyards",
+          "detail": "Arrange a private picnic among the grapevines during late afternoon, combining local cheeses and wines as day light fades over the valley.",
+          "lat": -32.342,
+          "lng": -71.41
+        },
+        {
+          "id": "casa_6",
+          "text": "Photography Tour of Vineyard Landscapes",
+          "detail": "Join a guided photography excursion capturing the valley's dramatic rows of vines, stone walls, and Mediterranean light throughout the seasons."
+        }
+      ],
+      "food": [
+        {
+          "id": "casa_f1",
+          "text": "Sauvignon Blanc Pairing Menu",
+          "detail": "Many valley wineries offer farm-to-table tasting menus specifically paired with their signature Sauvignon Blancs and other estate whites."
+        },
+        {
+          "id": "casa_f2",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Local cheese and mushroom empanadas are a traditional Chilean appetizer frequently served at winery tastings and valley restaurants."
+        },
+        {
+          "id": "casa_f3",
+          "text": "Grilled Chilean Sea Bass with White Wine Reduction",
+          "detail": "Fresh local seafood prepared with Casablanca Valley whites creates a quintessential pairing experience reflecting regional ingredients."
+        },
+        {
+          "id": "casa_f4",
+          "text": "Charqui with Wine Tasting",
+          "detail": "Dried Chilean beef served alongside valley wines offers a rustic, traditional accompaniment that complements the region's whites."
+        },
+        {
+          "id": "casa_f5",
+          "text": "Cazuela de Mariscos",
+          "detail": "This Chilean seafood stew made with local shellfish and fresh herbs pairs beautifully with Casablanca Valley's crisp white wines."
+        }
+      ],
+      "culture": [
+        {
+          "id": "casa_c1",
+          "text": "Harvest Season Timing",
+          "detail": "Visit between February and April to experience the Chilean wine harvest when vineyard activity peaks and many wineries offer special harvest celebrations."
+        },
+        {
+          "id": "casa_c2",
+          "text": "Dress for Cool Mediterranean Climate",
+          "detail": "Casablanca Valley's coastal influence keeps it cooler than inland Chilean wine regions, so bring layers even during summer months."
+        },
+        {
+          "id": "casa_c3",
+          "text": "Reserve Winery Visits in Advance",
+          "detail": "Most established wineries require prior reservation for tastings and tours, so plan ahead rather than attempting walk-ins."
+        },
+        {
+          "id": "casa_c4",
+          "text": "Spanish Language Helpful",
+          "detail": "While some winery staff speak English, speaking basic Spanish or arranging a Spanish-speaking guide enriches cultural interactions and tasting experiences."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Café Turri",
+      "address": "Templeman 147, Valparaíso",
+      "neighbourhood": "Cerro Concepción",
+      "cuisine": "Chilean Contemporary",
+      "priceRange": "€€€",
+      "description": "Iconic rooftop restaurant with panoramic city views and creative Chilean cuisine in a restored mansion.",
+      "mustOrder": "Reineta (King Salmon) with local vegetables",
+      "lat": -33.0473,
+      "lng": -71.6369
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Subida Espíritu Santo",
+      "address": "Subida Espíritu Santo 225, Valparaíso",
+      "neighbourhood": "Cerro Concepción",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Charming restaurant housed in a historic building with Mediterranean dishes and excellent Chilean wines.",
+      "mustOrder": "Paella with local seafood",
+      "lat": -33.0476,
+      "lng": -71.6368
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Mar Vino",
+      "address": "Paseo Gervasoni 3, Valparaíso",
+      "neighbourhood": "Puerto",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Waterfront seafood restaurant specializing in fresh catch with wine pairings and ocean views.",
+      "mustOrder": "Curanto (traditional seafood stew)",
+      "lat": -33.0552,
+      "lng": -71.6272
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Pasta e Vino",
+      "address": "Cochrane 851, Valparaíso",
+      "neighbourhood": "Puerto",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Casual Italian osteria near the port with handmade pastas and authentic recipes from the Campania region.",
+      "mustOrder": "Tagliatelle al Ragù",
+      "lat": -33.0584,
+      "lng": -71.6294
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Fauna",
+      "address": "San Martín 556, Valparaíso",
+      "neighbourhood": "Centro",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment showcasing Chilean ingredients with innovative techniques and refined plating.",
+      "mustOrder": "Duck breast with local fruit reduction",
+      "lat": -33.0619,
+      "lng": -71.6347
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "El Desayunador",
+      "address": "Errázuriz 567, Valparaíso",
+      "neighbourhood": "Centro",
+      "cuisine": "Breakfast/Brunch",
+      "priceRange": "€",
+      "description": "Popular morning spot serving traditional Chilean breakfast with fresh pastries and excellent coffee.",
+      "mustOrder": "Empanada de Queso y Pasas",
+      "lat": -33.0631,
+      "lng": -71.6361
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Bote Salvavidas",
+      "address": "Serrano 567, Valparaíso",
+      "neighbourhood": "Puerto",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Historic lifeguard station turned restaurant serving fresh seafood and ceviche with authentic port atmosphere.",
+      "mustOrder": "Ceviche with Chilean White Fish",
+      "lat": -33.0565,
+      "lng": -71.6285
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Le Fromage",
+      "address": "Montaña 567, Valparaíso",
+      "neighbourhood": "Cerro Concepción",
+      "cuisine": "French",
+      "priceRange": "€€€",
+      "description": "Intimate French bistro with classic dishes and an extensive cheese selection in a bohemian hillside setting.",
+      "mustOrder": "Coq au Vin",
+      "lat": -33.049,
+      "lng": -71.6381
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Maitol",
+      "address": "Blanco 1469, Viña del Mar",
+      "neighbourhood": "Viña del Mar",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant in nearby Viña del Mar focusing on seasonal Chilean ingredients with ocean views.",
+      "mustOrder": "Congrio Dorado (Golden Conger Eel)",
+      "lat": -33.0253,
+      "lng": -71.5527
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Viñedos",
+      "address": "Valenzuela Llanos 297, Valparaíso",
+      "neighbourhood": "Centro",
+      "cuisine": "Wine Bar/Chilean",
+      "priceRange": "€€",
+      "description": "Wine-focused restaurant featuring small plates and local wines in a modern, welcoming atmosphere.",
+      "mustOrder": "Charcuterie board with Chilean wines",
+      "lat": -33.0645,
+      "lng": -71.6354
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Artesano",
+      "address": "Uruguay 162, Valparaíso",
+      "neighbourhood": "Centro",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Popular Peruvian restaurant serving authentic ceviches, tiraditos, and coastal dishes with vibrant décor.",
+      "mustOrder": "Ceviche Mixto (mixed seafood ceviche)",
+      "lat": -33.0673,
+      "lng": -71.6343
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Lighthouse",
+      "address": "Paseo Atkinson s/n, Valparaíso",
+      "neighbourhood": "Puerto",
+      "cuisine": "International/Seafood",
+      "priceRange": "€€€",
+      "description": "Restaurant with lighthouse views offering fresh seafood and international cuisine overlooking the Pacific.",
+      "mustOrder": "Grilled fish of the day",
+      "lat": -33.0527,
+      "lng": -71.6247
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Kaleta",
+      "address": "Hontaneda 343, Valparaíso",
+      "neighbourhood": "Centro",
+      "cuisine": "Vegetarian/Contemporary",
+      "priceRange": "€€",
+      "description": "Innovative vegetarian restaurant with organic ingredients and creative plant-based dishes.",
+      "mustOrder": "Vegetable Empanadas with Quinoa",
+      "lat": -33.0651,
+      "lng": -71.6338
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Tomate Verde",
+      "address": "Cochrane 921, Valparaíso",
+      "neighbourhood": "Puerto",
+      "cuisine": "Latin American Fusion",
+      "priceRange": "€€",
+      "description": "Casual eatery blending Latin American flavors with locally sourced ingredients and friendly service.",
+      "mustOrder": "Mofongo with Seafood",
+      "lat": -33.0592,
+      "lng": -71.6301
+    }
+  ]
+}

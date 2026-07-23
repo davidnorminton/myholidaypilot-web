@@ -1,0 +1,1579 @@
+{
+  "id": "los_lagos",
+  "name": "Los Lagos",
+  "nameIt": "Los Lagos",
+  "capital": "Puerto Montt",
+  "lat": -41,
+  "lng": -72.5,
+  "emoji": "🏔️",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": -40,
+    "south": -43,
+    "east": -70.5,
+    "west": -74.5
+  },
+  "history": "Los Lagos region in southern Chile was originally inhabited by the Mapuche and Chilote peoples for centuries before Spanish colonization arrived in the 16th century. The region developed as an important agricultural and fishing hub, with the Chiloé Archipelago becoming particularly known for its distinct culture shaped by isolation and maritime traditions. During the 19th and 20th centuries, Los Lagos experienced waves of German and European immigration, which left a lasting influence on architecture, agriculture, and local customs. Today the region is recognized for its natural beauty, including lakes, fjords, and forests, alongside its rich cultural heritage blending indigenous, Spanish, and European influences.",
+  "culturalNotes": "Los Lagos is renowned for its Chilote culture, a unique blend of indigenous Mapuche heritage, Spanish colonial traditions, and maritime customs that developed in relative isolation on the Chiloé Archipelago. The region is famous for its distinctive wooden churches, colorful stilt houses built over water, traditional crafts including weaving and woodcarving, and a strong culinary tradition centered on seafood and local potatoes. Music, folklore, and mythology play central roles in local identity, with traditional instruments like the accordion and guitar accompanying celebrations and gatherings that remain important to community life.",
+  "bestTimeToVisit": "Visit December to February for summer weather to enjoy pristine lakes, volcanoes, and outdoor activities.",
+  "languageNotes": "While Spanish is the primary language, the Chiloé dialect features distinctive pronunciation, vocabulary, and expressions reflecting the region's isolated history and maritime culture. Useful local phrases include \"¿Cachai?\" meaning \"do you understand?\" and references to \"curanto,\" the traditional feast, or \"palafitos,\" the iconic stilt houses that define the archipelago's landscape.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 13,
+  "places": [
+    {
+      "id": "puerto_montt",
+      "name": "Puerto Montt",
+      "nameIt": "Puerto Montt",
+      "lat": -41.3142,
+      "lng": -72.6345,
+      "type": "CITY",
+      "description": "The capital of Los Lagos and main gateway to the region, known for its colorful waterfront markets, seafood restaurants, and charming German-influenced architecture. It's the essential hub for exploring the southern lakes and archipelago regions.",
+      "imageQueries": [
+        "Puerto Montt waterfront market",
+        "Puerto Montt Angelmó"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Angelmó Market",
+          "detail": "Browse the bustling waterfront market filled with local crafts, woolens, fresh seafood, and souvenirs reflecting southern Chilean culture.",
+          "lat": -41.3281,
+          "lng": -72.1454
+        },
+        {
+          "id": "puer_2",
+          "text": "Palafitos Walking Tour",
+          "detail": "Stroll along the iconic stilt houses painted in bright colors that line the waterfront, a defining feature of Puerto Montt's character.",
+          "lat": -41.3273,
+          "lng": -72.1438
+        },
+        {
+          "id": "puer_3",
+          "text": "Isla Tenglo Day Trip",
+          "detail": "Take a short ferry to this nearby island for hiking, fresh sea views, and seafood restaurants serving the catch of the day.",
+          "lat": -41.3485,
+          "lng": -72.1889
+        },
+        {
+          "id": "puer_4",
+          "text": "Cathedral of Puerto Montt",
+          "detail": "Visit this 19th-century neoclassical cathedral in the city center, a monument to the German-influenced architectural heritage of the region.",
+          "lat": -41.3241,
+          "lng": -72.1493
+        },
+        {
+          "id": "puer_5",
+          "text": "Cocotué Chocolate Factory Tour",
+          "detail": "Learn about and taste artisanal Chilean chocolates made from local cacao, with samples of premium varieties.",
+          "lat": -41.321,
+          "lng": -72.152
+        },
+        {
+          "id": "puer_6",
+          "text": "Fishing Village Exploration",
+          "detail": "Walk through the working fishing district to see nets being mended, boats being repaired, and experience authentic local maritime life."
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Curanto",
+          "detail": "A traditional southern Chilean seafood stew cooked in a ground oven with mussels, clams, fish, potatoes, and local herbs."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Fresh Ceviche",
+          "detail": "Raw fish cured in citrus juice and served with avocado, onion, and cilantro, showcasing the Pacific catch at waterfront restaurants."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Empanadas de Mariscos",
+          "detail": "Crispy pastries filled with mixed seafood, cheese, and spices, sold throughout Angelmó Market and local bakeries."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Merluza a la Mantequilla",
+          "detail": "Pan-fried hake (merluza) in brown butter sauce, a simple preparation highlighting the quality of local white fish."
+        },
+        {
+          "id": "puer_f5",
+          "text": "Millcao",
+          "detail": "A traditional potato and meat pancake served with pebre (Chilean hot sauce), reflecting indigenous Mapuche culinary roots."
+        },
+        {
+          "id": "puer_f6",
+          "text": "Oysters and Mussels",
+          "detail": "Freshly harvested from local waters and served raw or cooked at waterfront stands, often with lemon and local white wine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "Timing Market Visits",
+          "detail": "Visit Angelmó Market early in the morning (7-10 AM) when vendors are most active and the selection is freshest before midday crowds."
+        },
+        {
+          "id": "puer_c2",
+          "text": "German Heritage Influence",
+          "detail": "Many street names, architectural styles, and family surnames reflect 19th-century German immigration; local museums and buildings document this heritage."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Seafood Restaurant Culture",
+          "detail": "Lunch (13:00-15:00) is the main meal in Puerto Montt, and many restaurants offer excellent fixed-price menus featuring fresh local fish."
+        },
+        {
+          "id": "puer_c4",
+          "text": "Cash at Markets",
+          "detail": "Bring Chilean pesos when visiting Angelmó and smaller food stalls, as many vendors do not accept cards and prices are better negotiated with cash."
+        }
+      ]
+    },
+    {
+      "id": "osorno",
+      "name": "Osorno",
+      "nameIt": "Osorno",
+      "lat": -40.5868,
+      "lng": -72.5328,
+      "type": "CITY",
+      "description": "A charming city dominated by the iconic Osorno Volcano, serving as the cultural and commercial center of the lakes region with excellent restaurants and access to nearby attractions. The volcano views and local Mapuche heritage make it a worthwhile stop.",
+      "imageQueries": [
+        "Osorno Volcano Chile",
+        "Osorno city Chile"
+      ],
+      "activities": [
+        {
+          "id": "osor_1",
+          "text": "Osorno Volcano Viewpoint",
+          "detail": "Hike or drive to scenic overlooks around the city that offer commanding views of the snow-capped volcano rising 2,652 meters above the landscape.",
+          "lat": -40.5865,
+          "lng": -71.75
+        },
+        {
+          "id": "osor_2",
+          "text": "Plaza de Armas",
+          "detail": "Stroll through the central plaza lined with native trees, featuring the cathedral and local government buildings in a relaxed atmosphere.",
+          "lat": -40.5847,
+          "lng": -71.7549
+        },
+        {
+          "id": "osor_3",
+          "text": "Feria Ganadera de Osorno",
+          "detail": "Visit Chile's most important livestock fair held twice yearly, showcasing regional cattle, horses, and agricultural products with live auctions and local food stalls.",
+          "lat": -40.6133,
+          "lng": -71.7833
+        },
+        {
+          "id": "osor_4",
+          "text": "Río Damas Walk",
+          "detail": "Take a riverside walk along this local waterway that offers peaceful views and connects to several parks and green spaces within the city.",
+          "lat": -40.59,
+          "lng": -71.74
+        },
+        {
+          "id": "osor_5",
+          "text": "Pucatrihue Beach at Puyehue Lake",
+          "detail": "Drive 45 minutes to this pristine lakeside beach surrounded by native forests, ideal for swimming, picnicking, and enjoying water activities.",
+          "lat": -40.75,
+          "lng": -72.1667
+        },
+        {
+          "id": "osor_6",
+          "text": "Mapuche Markets and Artisan Shops",
+          "detail": "Browse local markets selling traditional Mapuche textiles, pottery, and handicrafts that reflect the region's indigenous heritage."
+        }
+      ],
+      "food": [
+        {
+          "id": "osor_f1",
+          "text": "Empanadas de Carne",
+          "detail": "These savory pastries filled with seasoned ground beef, onions, and hard-boiled egg are ubiquitous street food and local specialties throughout Osorno."
+        },
+        {
+          "id": "osor_f2",
+          "text": "Asado Patagónico",
+          "detail": "A regional grilled meat feast featuring lamb, beef, and chorizo cooked over an open fire, reflecting Patagonian ranching culture."
+        },
+        {
+          "id": "osor_f3",
+          "text": "Curanto",
+          "detail": "This traditional Mapuche and Chilote stew combines seafood, meat, potatoes, and vegetables cooked in a pit or pot, representing local indigenous cuisine."
+        },
+        {
+          "id": "osor_f4",
+          "text": "Centolla (King Crab)",
+          "detail": "Fresh local crab from nearby coastal regions, typically served grilled or in cazuelas, showcasing the area's access to quality seafood."
+        },
+        {
+          "id": "osor_f5",
+          "text": "Merkén-spiced Local Fish",
+          "detail": "Fresh freshwater fish seasoned with merkén, a local smoked chili pepper blend that defines southern Chilean flavor profiles."
+        },
+        {
+          "id": "osor_f6",
+          "text": "Mote con Huesillo",
+          "detail": "A sweet refreshing drink made from wheat kernels and dried peaches, commonly enjoyed as a summer beverage in local cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "osor_c1",
+          "text": "Respect Mapuche Heritage",
+          "detail": "The region has deep indigenous roots; show respect by visiting local markets, purchasing authentic crafts directly from artisans, and learning about Mapuche history."
+        },
+        {
+          "id": "osor_c2",
+          "text": "Summer Season Peak",
+          "detail": "December through February is high season when weather is warmest and festivals occur; book accommodations early if visiting during these months."
+        },
+        {
+          "id": "osor_c3",
+          "text": "Spanish is Essential",
+          "detail": "English is rarely spoken outside major hotels, so learning basic Spanish phrases or carrying a translation app will greatly improve your experience."
+        },
+        {
+          "id": "osor_c4",
+          "text": "Punctuality is Flexible",
+          "detail": "Chilean culture operates on a more relaxed schedule than Northern Hemisphere standards; don't expect strict adherence to published times for small businesses and informal activities."
+        }
+      ]
+    },
+    {
+      "id": "puerto_varas",
+      "name": "Puerto Varas",
+      "nameIt": "Puerto Varas",
+      "lat": -41.3196,
+      "lng": -72.3705,
+      "type": "TOWN",
+      "description": "A picturesque lakeside town famous for its Germanic architecture, rose gardens, and stunning views of Osorno and Calbuco volcanoes across Llanquihue Lake. It's an ideal base for outdoor activities and one of the region's most beautiful towns.",
+      "imageQueries": [
+        "Puerto Varas Llanquihue Lake",
+        "Puerto Varas roses German houses"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Paseo Costanero Walk",
+          "detail": "Stroll along the scenic waterfront promenade with direct views of Osorno and Calbuco volcanoes across Llanquihue Lake.",
+          "lat": -41.3192,
+          "lng": -72.4845
+        },
+        {
+          "id": "puer_2",
+          "text": "Rose Garden Tour at Casa Museo",
+          "detail": "Explore the meticulously maintained rose gardens and historic German-style mansion that showcase the town's architectural heritage.",
+          "lat": -41.3209,
+          "lng": -72.4823
+        },
+        {
+          "id": "puer_3",
+          "text": "Kayaking on Llanquihue Lake",
+          "detail": "Paddle across Chile's largest lake for close-up views of the volcanoes and exploration of hidden coves and islands.",
+          "lat": -41.32,
+          "lng": -72.485
+        },
+        {
+          "id": "puer_4",
+          "text": "Petrohué Waterfalls Day Trip",
+          "detail": "Visit the dramatic turquoise waterfalls located about 70 kilometers away, accessible via scenic drives through Puyehue National Park.",
+          "lat": -40.75,
+          "lng": -72.15
+        },
+        {
+          "id": "puer_5",
+          "text": "Osorno Volcano Hiking",
+          "detail": "Ascend the snow-capped volcano with proper guides for panoramic views of the entire Los Lagos region.",
+          "lat": -41.105,
+          "lng": -72.0336
+        },
+        {
+          "id": "puer_6",
+          "text": "Plaza de Armas Square Exploration",
+          "detail": "Visit the charming central plaza surrounded by German colonial architecture, local shops, and the Cathedral of Puerto Varas.",
+          "lat": -41.3206,
+          "lng": -72.4833
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Curanto",
+          "detail": "A traditional Chilean seafood and meat stew cooked in a pit with hot stones, topped with potatoes and vegetables—a regional specialty of southern Chile."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Salmon a la Mantequilla",
+          "detail": "Fresh Llanquihue salmon prepared simply with butter and local herbs, highlighting the lake's renowned fish."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Kuchen",
+          "detail": "German-style fruit cake with cream filling that reflects Puerto Varas' Germanic heritage and is widely available at local cafés."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Empanadas de Mariscos",
+          "detail": "Baked pastries filled with mixed seafood from the lake and coast, served warm as a typical Chilean street food."
+        },
+        {
+          "id": "puer_f5",
+          "text": "Milcao",
+          "detail": "A traditional potato and pork pancake fried until crispy, served with pebre sauce and characteristic of Chiloé cuisine found throughout the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "German Heritage Appreciation",
+          "detail": "Puerto Varas was founded by German immigrants in 1853, so appreciating the architectural style, family-run businesses, and local traditions reflects respect for the community's identity."
+        },
+        {
+          "id": "puer_c2",
+          "text": "Summer Season Timing",
+          "detail": "Visit between December and February for the best weather, warmest lake temperatures for water activities, and peak accessibility to mountain trails."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Local Market Etiquette",
+          "detail": "Shop at Puerto Varas' farmers markets early in the morning when vendors have the freshest produce, and always greet vendors with a friendly 'buenos días.'"
+        },
+        {
+          "id": "puer_c4",
+          "text": "Siesta Respect",
+          "detail": "Many local businesses close between 1 and 4 PM for lunch, so plan restaurant visits outside these hours and don't expect shops to operate continuously throughout the day."
+        }
+      ]
+    },
+    {
+      "id": "frutillar",
+      "name": "Frutillar",
+      "nameIt": "Frutillar",
+      "lat": -41.1236,
+      "lng": -72.7237,
+      "type": "TOWN",
+      "description": "A charming town on Llanquihue Lake's western shore known for its German colonial heritage, cultural festivals, and exceptional views of Osorno Volcano framed by the water. The town's bohemian atmosphere and fine dining make it a cultural highlight.",
+      "imageQueries": [
+        "Frutillar Chile Osorno Volcano",
+        "Frutillar German town Lake Llanquihue"
+      ],
+      "activities": [
+        {
+          "id": "frut_1",
+          "text": "Театро del Lago",
+          "detail": "Visit this striking modernist theater on the waterfront that hosts world-class performing arts and cultural events with views of Osorno Volcano as backdrop.",
+          "lat": -41.3167,
+          "lng": -72.6167
+        },
+        {
+          "id": "frut_2",
+          "text": "Llanquihue Lake Waterfront Stroll",
+          "detail": "Walk along the scenic shoreline promenade to enjoy unobstructed views of the snow-capped Osorno Volcano reflected in the lake's waters.",
+          "lat": -41.3167,
+          "lng": -72.6167
+        },
+        {
+          "id": "frut_3",
+          "text": "German Colonial Architecture Tour",
+          "detail": "Explore the town's distinctive timber-frame houses and traditional German-Chilean buildings that define Frutillar's unique architectural character.",
+          "lat": -41.3167,
+          "lng": -72.6167
+        },
+        {
+          "id": "frut_4",
+          "text": "Frutillar Bajo District",
+          "detail": "Wander the lower town's bohemian streets filled with artisan shops, galleries, and local craftspeople selling handmade goods and regional products.",
+          "lat": -41.3189,
+          "lng": -72.615
+        },
+        {
+          "id": "frut_5",
+          "text": "Osorno Volcano Viewpoint",
+          "detail": "Hike or drive to elevated vantage points around town where the perfect cone of Osorno is framed by Llanquihue Lake in the foreground.",
+          "lat": -41.3167,
+          "lng": -72.6167
+        },
+        {
+          "id": "frut_6",
+          "text": "Frutillar Music Festival",
+          "detail": "Time your visit for January when the town hosts its renowned classical music festival featuring orchestras and soloists in intimate venues.",
+          "lat": -41.3167,
+          "lng": -72.6167
+        }
+      ],
+      "food": [
+        {
+          "id": "frut_f1",
+          "text": "Curanto",
+          "detail": "This traditional Chilote dish of shellfish, meats, and potatoes cooked in a ground oven reflects the region's indigenous and coastal influences."
+        },
+        {
+          "id": "frut_f2",
+          "text": "Fresh Lake Fish with Local Vegetables",
+          "detail": "Restaurants serve catch from Llanquihue Lake—typically trucha or perca—prepared simply to highlight the fish's delicate flavor alongside seasonal produce."
+        },
+        {
+          "id": "frut_f3",
+          "text": "Kuchen",
+          "detail": "Sample Frutillar's interpretation of this German-Chilean fruit cake filled with local berries like strawberries, raspberries, or blackcurrants."
+        },
+        {
+          "id": "frut_f4",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Cheese and wild mushroom pastries showcase ingredients sourced from the surrounding Andean foothills and southern lakes region."
+        },
+        {
+          "id": "frut_f5",
+          "text": "Completo Frutillar",
+          "detail": "A locally-inflected hot dog topped with regional cheeses, avocado, and homemade condiments that reflects the town's fusion of German and Chilean traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "frut_c1",
+          "text": "German Heritage is Visible Everywhere",
+          "detail": "The town's population descends largely from 19th-century German immigrants, so you'll encounter German spoken alongside Spanish and German-style architecture throughout."
+        },
+        {
+          "id": "frut_c2",
+          "text": "Fine Dining is a Local Tradition",
+          "detail": "Frutillar punches well above its size for restaurants; dress slightly nicer than you might expect for a small town, and make reservations in advance during high season."
+        },
+        {
+          "id": "frut_c3",
+          "text": "January is Peak Season and Crowded",
+          "detail": "The summer music festival and school holidays fill the town; visit in shoulder seasons (December or February) for a more intimate experience with better restaurant availability."
+        },
+        {
+          "id": "frut_c4",
+          "text": "Volcanic Views Depend on Weather",
+          "detail": "Osorno Volcano is often shrouded in clouds; clear mornings and afternoons after rain offer the best chances for the iconic photograph."
+        }
+      ]
+    },
+    {
+      "id": "puyehue_national_park",
+      "name": "Puyehue National Park",
+      "nameIt": "Parque Nacional Puyehue",
+      "lat": -40.7369,
+      "lng": -72.2076,
+      "type": "NATURE",
+      "description": "A spectacular park featuring pristine forests, hot springs, and access to the Puyehue Volcano with numerous hiking trails at varying difficulty levels. It's essential for experiencing the raw nature and biodiversity of the lake district.",
+      "imageQueries": [
+        "Puyehue National Park Chile",
+        "Puyehue hot springs forest"
+      ],
+      "activities": [
+        {
+          "id": "puye_1",
+          "text": "Antillanca Volcano Trail",
+          "detail": "A challenging hike ascending 2,622 meters with panoramic views of the Lake District and neighboring volcanoes.",
+          "lat": -40.7539,
+          "lng": -72.0961
+        },
+        {
+          "id": "puye_2",
+          "text": "Puyehue Hot Springs",
+          "detail": "Natural thermal pools nestled in the forest where visitors can soak in geothermally heated waters surrounded by native vegetation.",
+          "lat": -40.765,
+          "lng": -72.12
+        },
+        {
+          "id": "puye_3",
+          "text": "Salto del Río Blanco Waterfall",
+          "detail": "A moderate hike to a stunning 40-meter waterfall cascading through old-growth temperate rainforest.",
+          "lat": -40.7845,
+          "lng": -72.095
+        },
+        {
+          "id": "puye_4",
+          "text": "Laguna Negra Trek",
+          "detail": "An accessible day hike leading to a glacial black-water lake surrounded by Araucaria and southern beech trees."
+        },
+        {
+          "id": "puye_5",
+          "text": "Puyehue Volcano Summit Climb",
+          "detail": "A multi-day mountaineering expedition to reach the 2,236-meter summit with views across the Andes and Pacific coast."
+        },
+        {
+          "id": "puye_6",
+          "text": "Old-Growth Forest Walk",
+          "detail": "A leisurely interpretive trail through pristine native forest with endemic species like the Magellanic woodpecker and southern tree fern."
+        }
+      ],
+      "food": [
+        {
+          "id": "puye_f1",
+          "text": "Curanto",
+          "detail": "A traditional Chilote stew cooked in a ground pit with shellfish, meat, potatoes, and vegetables, reflecting the region's indigenous Mapuche-Huilliche heritage."
+        },
+        {
+          "id": "puye_f2",
+          "text": "Fresh Trout from Local Rivers",
+          "detail": "The Lake District's cold rivers yield exceptional rainbow and brown trout, typically prepared simply grilled or in light cream sauces at park lodges."
+        },
+        {
+          "id": "puye_f3",
+          "text": "Sopaipillas with Pebre",
+          "detail": "Fried dough pastries served with a spicy condiment of tomatoes, onions, and cilantro, a common street snack in nearby towns."
+        },
+        {
+          "id": "puye_f4",
+          "text": "Murtilla Berry Desserts",
+          "detail": "Local wild berries indigenous to southern Chile are transformed into jams, pies, and liqueurs sold at park visitor centers and nearby lodges."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puye_c1",
+          "text": "Respect Mapuche Heritage",
+          "detail": "The land is ancestral Mapuche territory; acknowledge this heritage and support indigenous guides and artisans when possible during your visit."
+        },
+        {
+          "id": "puye_c2",
+          "text": "Weather Changes Rapidly",
+          "detail": "Southern Chilean weather is notoriously unpredictable; always carry layers and rain gear regardless of forecasts, and start hikes early to avoid afternoon storms."
+        },
+        {
+          "id": "puye_c3",
+          "text": "Leave No Trace Strictly",
+          "detail": "This pristine ecosystem is fragile; pack out all waste, stay on marked trails, and respect closures to protect native forests and wildlife."
+        },
+        {
+          "id": "puye_c4",
+          "text": "Spanish is Essential",
+          "detail": "English is rarely spoken in the park or nearby towns; basic Spanish phrases for directions and emergencies are invaluable for independent travelers."
+        }
+      ]
+    },
+    {
+      "id": "chiloe_island",
+      "name": "Chiloé Island",
+      "nameIt": "Isla de Chiloé",
+      "lat": -42.5,
+      "lng": -74,
+      "type": "ISLAND",
+      "description": "A large island south of Puerto Montt with unique culture, colorful wooden churches and houses, traditional fishing villages, and distinctive mythology. It's one of Chile's most distinctive regions with authentic local flavor and natural beauty.",
+      "imageQueries": [
+        "Chiloé island wooden churches",
+        "Chiloé fishing village palafitos"
+      ],
+      "activities": [
+        {
+          "id": "chil_1",
+          "text": "Dalcahue Market",
+          "detail": "Visit this vibrant weekend market in the town of Dalcahue to see local crafts, textiles, and fresh produce from island artisans.",
+          "lat": -42.3817,
+          "lng": -73.6483
+        },
+        {
+          "id": "chil_2",
+          "text": "Church of San Francisco (Castro)",
+          "detail": "Explore this iconic bright yellow wooden church, one of Chiloé's most photographed landmarks and a UNESCO World Heritage site.",
+          "lat": -42.4797,
+          "lng": -73.7653
+        },
+        {
+          "id": "chil_3",
+          "text": "Penguin Colony at Puñihuil",
+          "detail": "Take a boat tour to see Humboldt and Magellanic penguins in their natural habitat on the northern coast.",
+          "lat": -42.1417,
+          "lng": -73.6333
+        },
+        {
+          "id": "chil_4",
+          "text": "Wooden Churches Route",
+          "detail": "Drive or bike through rural Chiloé to visit a series of traditional wooden churches built in unique architectural style across small villages.",
+          "lat": -42.5,
+          "lng": -73.75
+        },
+        {
+          "id": "chil_5",
+          "text": "Chepu Lakes and Wetlands",
+          "detail": "Kayak or hike through pristine freshwater lakes and marshlands to experience Chiloé's untouched natural landscapes.",
+          "lat": -42.2667,
+          "lng": -73.8333
+        },
+        {
+          "id": "chil_6",
+          "text": "Ancud Waterfront",
+          "detail": "Stroll along Ancud's pier to watch traditional fishing boats, buy fresh seafood directly from fishermen, and enjoy the harbor views.",
+          "lat": -41.8736,
+          "lng": -73.8244
+        }
+      ],
+      "food": [
+        {
+          "id": "chil_f1",
+          "text": "Curanto",
+          "detail": "A traditional Chiloé dish of seafood, meat, and potatoes cooked together in a ground pit lined with hot stones, often served at local celebrations."
+        },
+        {
+          "id": "chil_f2",
+          "text": "Empanadas de Queso y Papas",
+          "detail": "Fried pastry pockets filled with local cheese and potatoes, a staple street food throughout Chiloé's markets and bakeries."
+        },
+        {
+          "id": "chil_f3",
+          "text": "Sopaipillas",
+          "detail": "Fried dough discs served with pebre sauce or eaten sweet, a beloved comfort food and popular street snack on rainy island days."
+        },
+        {
+          "id": "chil_f4",
+          "text": "Fresh Locos and Erizos",
+          "detail": "Sea urchins (erizos) and keyhole limpets (locos) harvested locally and eaten raw with lemon, showcasing Chiloé's exceptional seafood."
+        },
+        {
+          "id": "chil_f5",
+          "text": "Milcao",
+          "detail": "A savory potato pancake made with grated raw potato and cheese, fried until crispy, traditionally eaten for breakfast or as a side dish."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chil_c1",
+          "text": "Respect Local Mythology",
+          "detail": "Chiloé has deep roots in indigenous Mapuche-Huilliche traditions and local legends like the Caleuche ghost ship; locals take these stories seriously as part of island identity."
+        },
+        {
+          "id": "chil_c2",
+          "text": "Visit Churches Respectfully",
+          "detail": "Many wooden churches are still active parish churches; enter quietly, dress modestly, and check service times before visiting, as they remain sacred community spaces."
+        },
+        {
+          "id": "chil_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "English is rarely spoken in rural villages and fishing towns, so learning simple phrases helps you connect with locals and navigate more authentically."
+        },
+        {
+          "id": "chil_c4",
+          "text": "Come Prepared for Rain",
+          "detail": "Chiloé is one of Chile's wettest regions; locals expect rain year-round and pace activities accordingly, so pack waterproof gear and embrace the foggy, moody weather as part of the experience."
+        }
+      ]
+    },
+    {
+      "id": "castro",
+      "name": "Castro",
+      "nameIt": "Castro",
+      "lat": -42.4829,
+      "lng": -73.766,
+      "type": "TOWN",
+      "description": "The main city of Chiloé Island, famous for its iconic waterfront palafitos (stilt houses) painted in bright colors and its impressive modern church. It's the cultural heart of Chiloé and a must-see for experiencing island traditions.",
+      "imageQueries": [
+        "Castro Chiloé palafitos",
+        "Castro Church Chile"
+      ],
+      "activities": [
+        {
+          "id": "cast_1",
+          "text": "Palafitos Waterfront Walk",
+          "detail": "Stroll along the iconic stilt houses painted in vibrant blues, yellows, and greens that line Castro's bay, best experienced at sunset when reflections shimmer in the water.",
+          "lat": -42.4797,
+          "lng": -73.7635
+        },
+        {
+          "id": "cast_2",
+          "text": "Castro Church (Iglesia de San Francisco)",
+          "detail": "Visit this striking wooden church with its distinctive yellow and purple exterior, a UNESCO World Heritage site completed in 1906 that dominates the town plaza.",
+          "lat": -42.4797,
+          "lng": -73.7611
+        },
+        {
+          "id": "cast_3",
+          "text": "Museum of Modern Art (MAAMS)",
+          "detail": "Explore contemporary Chilean and international art in this waterfront museum housed in a renovated palafito building with views of the bay.",
+          "lat": -42.481,
+          "lng": -73.762
+        },
+        {
+          "id": "cast_4",
+          "text": "Dalcahue Market Day Trip",
+          "detail": "Take a short ferry or drive to the nearby town of Dalcahue on Tuesday or Sunday to experience its famous handcraft market selling traditional woven goods and local products.",
+          "lat": -42.3915,
+          "lng": -73.6363
+        },
+        {
+          "id": "cast_5",
+          "text": "Nercon Church Excursion",
+          "detail": "Visit this beautifully preserved wooden church in the rural interior, about 20 kilometers south, showcasing traditional Chiloé ecclesiastical architecture and island spirituality.",
+          "lat": -42.5653,
+          "lng": -73.7453
+        },
+        {
+          "id": "cast_6",
+          "text": "Penguin Colony at Puñihuil",
+          "detail": "Take a boat tour from Castro to see Humboldt and Magellanic penguins in their natural habitat on nearby islands, typically a half-day excursion.",
+          "lat": -42.6195,
+          "lng": -73.6497
+        }
+      ],
+      "food": [
+        {
+          "id": "cast_f1",
+          "text": "Curanto",
+          "detail": "This signature Chiloé stew combines shellfish, fish, potatoes, and meats slow-cooked in a pit or pot with local herbs, representing centuries of island culinary tradition."
+        },
+        {
+          "id": "cast_f2",
+          "text": "Empanadas de Queso",
+          "detail": "Fried pastry pockets filled with melted local cheese and often topped with pebre (spicy cilantro sauce), sold by street vendors throughout Castro."
+        },
+        {
+          "id": "cast_f3",
+          "text": "Fresh Seafood at the Fishermen's Market",
+          "detail": "Browse the morning catch at Castro's waterfront market where vendors sell Pacific oysters, mussels, crab, and other shellfish directly from local boats."
+        },
+        {
+          "id": "cast_f4",
+          "text": "Milcao",
+          "detail": "A traditional potato pancake made from grated raw and cooked potatoes mixed with lard or meat, served as a side dish in local restaurants."
+        },
+        {
+          "id": "cast_f5",
+          "text": "Chicha",
+          "detail": "A homemade alcoholic beverage traditionally fermented from apples or grapes, often shared during local celebrations and family gatherings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cast_c1",
+          "text": "Respectful Photography of Palafitos",
+          "detail": "Many palafito residents live in these colorful houses; ask permission before photographing people or private residences, and be mindful that these are active homes, not just tourist attractions."
+        },
+        {
+          "id": "cast_c2",
+          "text": "Island Pace and Timing",
+          "detail": "Castro operates on a relaxed island schedule where many shops close for afternoon siesta, ferries have limited schedules, and Sunday is a quiet day for local community and church attendance."
+        },
+        {
+          "id": "cast_c3",
+          "text": "Mythología Chilota",
+          "detail": "Chiloé has a rich tradition of indigenous and folklore beliefs including creatures like the Pincoya and Caleuche; locals appreciate visitors who show genuine interest in these cultural narratives rather than treating them as mere curiosities."
+        },
+        {
+          "id": "cast_c4",
+          "text": "Weather Preparedness",
+          "detail": "The island is known for sudden rain and cool, damp weather year-round; locals dress in layers and always carry rain gear, and visitors should do the same to blend in and stay comfortable."
+        }
+      ]
+    },
+    {
+      "id": "dalcahue",
+      "name": "Dalcahue",
+      "nameIt": "Dalcahue",
+      "lat": -42.3633,
+      "lng": -73.6344,
+      "type": "TOWN",
+      "description": "A charming fishing village on Chiloé Island known for its Sunday craft market and authentic palafitos overlooking the strait. It offers a more intimate and less touristy experience than Castro while maintaining traditional island character.",
+      "imageQueries": [
+        "Dalcahue Chile market",
+        "Dalcahue fishing village"
+      ],
+      "activities": [
+        {
+          "id": "dalc_1",
+          "text": "Sunday Craft Market at Plaza de Armas",
+          "detail": "Browse local artisanal goods, textiles, and wooden handicrafts from island artisans every Sunday morning in the main plaza.",
+          "lat": -42.3868,
+          "lng": -73.5378
+        },
+        {
+          "id": "dalc_2",
+          "text": "Walk the Palafitos",
+          "detail": "Stroll along the waterfront to admire the iconic wooden stilt houses that line the strait, many painted in bright colors and still inhabited by fishermen.",
+          "lat": -42.3875,
+          "lng": -73.5385
+        },
+        {
+          "id": "dalc_3",
+          "text": "Dalcahue Church (Iglesia de Dalcahue)",
+          "detail": "Visit this 18th-century wooden church, a National Monument, featuring traditional Chilote architecture and religious artwork.",
+          "lat": -42.3872,
+          "lng": -73.5378
+        },
+        {
+          "id": "dalc_4",
+          "text": "Punto Arenas Beach",
+          "detail": "Walk to this nearby pebble beach with views toward the strait where locals gather and fresh seafood is sometimes sold directly from boats.",
+          "lat": -42.392,
+          "lng": -73.532
+        },
+        {
+          "id": "dalc_5",
+          "text": "Local Fishing Boat Tours",
+          "detail": "Arrange a boat excursion with local fishermen to experience traditional island fishing methods and explore nearby coves and small islands."
+        },
+        {
+          "id": "dalc_6",
+          "text": "Artisan Cheese and Produce Stands",
+          "detail": "Visit roadside stands and small shops selling fresh local cheeses, preserves, and vegetables made by island families."
+        }
+      ],
+      "food": [
+        {
+          "id": "dalc_f1",
+          "text": "Curanto en Olla",
+          "detail": "A traditional Chilote seafood and meat stew slow-cooked with potatoes, mussels, and shellfish, often prepared for Sunday market gatherings."
+        },
+        {
+          "id": "dalc_f2",
+          "text": "Fresh Sea Urchin (Erizo)",
+          "detail": "Raw uni harvested locally from the strait, served simply with lemon and eaten fresh at waterfront fish stands."
+        },
+        {
+          "id": "dalc_f3",
+          "text": "Milcao",
+          "detail": "A local potato and lard cake served with pebre sauce, a beloved comfort food throughout Chiloé found at market stalls and family restaurants."
+        },
+        {
+          "id": "dalc_f4",
+          "text": "Chopped Fish Ceviche (Cevichada)",
+          "detail": "Fresh local fish chopped finely and marinated in citrus with onions and cilantro, lighter than northern ceviche styles."
+        },
+        {
+          "id": "dalc_f5",
+          "text": "Smoked Fish and Salmon",
+          "detail": "Local ahumados (smoked fish) and salmon prepared by island producers, available at market stands and small shops along the waterfront."
+        },
+        {
+          "id": "dalc_f6",
+          "text": "Completo Chilote",
+          "detail": "A loaded hot dog topped with mashed avocado, tomato, and local sauce, a quick street food found at market vendors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dalc_c1",
+          "text": "Visit on Sunday for the Market",
+          "detail": "The Sunday craft market is when Dalcahue comes alive; plan your visit for early morning when selection is best and the village is most vibrant."
+        },
+        {
+          "id": "dalc_c2",
+          "text": "Respect Palafito Privacy",
+          "detail": "While the stilt houses are photogenic, many are private residences; ask permission before photographing or approaching inhabited homes."
+        },
+        {
+          "id": "dalc_c3",
+          "text": "Cash is Essential",
+          "detail": "Small village merchants and market vendors often do not accept cards; bring Chilean pesos for purchases at craft stalls and food stands."
+        },
+        {
+          "id": "dalc_c4",
+          "text": "Dress for Changeable Weather",
+          "detail": "Dalcahue's waterfront weather shifts quickly between rain and sun; bring layers and a waterproof jacket even on seemingly clear days."
+        }
+      ]
+    },
+    {
+      "id": "ancud",
+      "name": "Ancud",
+      "nameIt": "Ancud",
+      "lat": -41.8711,
+      "lng": -73.8263,
+      "type": "TOWN",
+      "description": "The northern gateway to Chiloé Island with colorful houses, a historic fort, and excellent seafood restaurants overlooking the Gulf of Corcovado. It's a quieter alternative base for exploring the island with great local atmosphere.",
+      "imageQueries": [
+        "Ancud Chiloé Chile",
+        "Ancud colorful houses"
+      ],
+      "activities": [
+        {
+          "id": "ancu_1",
+          "text": "Fuerte San Antonio",
+          "detail": "A restored 18th-century Spanish fort with cannons overlooking the Gulf of Corcovado, offering panoramic views and insight into Chiloé's colonial military history.",
+          "lat": -41.8738,
+          "lng": -73.8245
+        },
+        {
+          "id": "ancu_2",
+          "text": "Ancud Waterfront Walk",
+          "detail": "Stroll the colorful wooden houses and fishing boats along the harborfront, experiencing the working port atmosphere and local maritime culture.",
+          "lat": -41.872,
+          "lng": -73.822
+        },
+        {
+          "id": "ancu_3",
+          "text": "Museo Regional de Ancud",
+          "detail": "A small but excellent museum displaying pre-Columbian artifacts, colonial documents, and the famous Chilote wooden church models in a restored mansion.",
+          "lat": -41.8745,
+          "lng": -73.8265
+        },
+        {
+          "id": "ancu_4",
+          "text": "Punta Gruesa Penguin Colony",
+          "detail": "Visit this nearby coastal spot to observe Humboldt and Magellanic penguins in their natural habitat during breeding season (October to March).",
+          "lat": -41.9185,
+          "lng": -73.7945
+        },
+        {
+          "id": "ancu_5",
+          "text": "Market at Plaza de Armas",
+          "detail": "Browse the central square's fresh produce, local handicrafts, and artisanal goods sold by Chiloé vendors, best visited on weekends.",
+          "lat": -41.873,
+          "lng": -73.8255
+        },
+        {
+          "id": "ancu_6",
+          "text": "Dalcahue Market Day Trip",
+          "detail": "Take a short bus ride to the larger island market town on Tuesdays and Sundays to see traditional Chiloé crafts, food, and textiles in action."
+        }
+      ],
+      "food": [
+        {
+          "id": "ancu_f1",
+          "text": "Curanto",
+          "detail": "A traditional Chiloé earth-oven dish layering shellfish, fish, potatoes, and local vegetables—the quintessential island experience best enjoyed fresh from family restaurants."
+        },
+        {
+          "id": "ancu_f2",
+          "text": "Empanadas de Mariscos",
+          "detail": "Baked pastries filled with a rich seafood mixture of local mussels, clams, and crab, found at every bakery and street vendor in Ancud's historic center."
+        },
+        {
+          "id": "ancu_f3",
+          "text": "Milcao and Chapalele",
+          "detail": "Potato pancakes (milcao) served alongside potato and flour dumplings (chapalele), traditional Chiloé starches that accompany most meals and showcase local cuisine's roots."
+        },
+        {
+          "id": "ancu_f4",
+          "text": "Fresh Centolla and Crab",
+          "detail": "King crab and local varieties grilled simply with lemon at harborfront seafood restaurants, reflecting Ancud's position as a major fishing port."
+        },
+        {
+          "id": "ancu_f5",
+          "text": "Chupe de Jaiba",
+          "detail": "A creamy crab and potato soup served piping hot, a comfort dish that showcases fresh local crab and is available at nearly every traditional Chiloé restaurant."
+        },
+        {
+          "id": "ancu_f6",
+          "text": "Sopaipillas and Local Honey",
+          "detail": "Fried dough pastries drizzled with local wildflower honey or eaten savory with local cheese—a beloved street food found at markets and bakeries throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ancu_c1",
+          "text": "Respect the Fishing Schedule",
+          "detail": "Ancud is an active working port; avoid the waterfront early mornings when boats are launching and plan restaurant visits for midday when the catch is fresh and locals have finished their work."
+        },
+        {
+          "id": "ancu_c2",
+          "text": "Learn About Chiloé's Mythology",
+          "detail": "The island has deep indigenous Huilliche and folklore traditions—locals appreciate visitors who show interest in local legends like the Pincoya or Trauco rather than treating culture as mere tourist backdrop."
+        },
+        {
+          "id": "ancu_c3",
+          "text": "Visit on Market Days",
+          "detail": "Weekends and Tuesdays bring vibrant energy to Ancud's plaza; visiting then offers authentic interaction with vendors, better food selection, and genuine community atmosphere absent on quieter weekdays."
+        },
+        {
+          "id": "ancu_c4",
+          "text": "Embrace Slower Pace",
+          "detail": "Ancud operates on island time with afternoon closures and limited evening activity—adjust expectations from mainland Chile and use downtime to chat with locals at cafés, where genuine connections form over coffee."
+        }
+      ]
+    },
+    {
+      "id": "lake_llanquihue",
+      "name": "Llanquihue Lake",
+      "nameIt": "Lago Llanquihue",
+      "lat": -41.25,
+      "lng": -72.55,
+      "type": "NATURE",
+      "description": "South America's second-largest natural freshwater lake, offering stunning volcano views, water sports, and scenic drives around its perimeter. The lake is the defining geographical feature and aesthetic centerpiece of the region.",
+      "imageQueries": [
+        "Llanquihue Lake Osorno Volcano",
+        "Llanquihue Lake sunset"
+      ],
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Osorno Volcano Viewpoint",
+          "detail": "Hike or drive to elevated viewpoints around the lake's eastern shore for dramatic views of the perfect cone of Osorno Volcano reflected in the water.",
+          "lat": -41.105,
+          "lng": -72.495
+        },
+        {
+          "id": "lake_2",
+          "text": "Puerto Varas Waterfront Walk",
+          "detail": "Stroll along the charming lakeside promenade in Puerto Varas, lined with German-style architecture, cafes, and artisan shops overlooking the water.",
+          "lat": -41.3203,
+          "lng": -72.3678
+        },
+        {
+          "id": "lake_3",
+          "text": "Kayaking and Water Sports",
+          "detail": "Rent kayaks or join guided tours on the lake's calm waters to explore coves, spot wildlife, and experience the landscape from the water.",
+          "lat": -41.25,
+          "lng": -72.45
+        },
+        {
+          "id": "lake_4",
+          "text": "Petrohué Falls Visit",
+          "detail": "Drive to nearby Petrohué Falls where the Petrohué River cascades through dramatic basalt canyons before entering the lake.",
+          "lat": -41.3644,
+          "lng": -72.1553
+        },
+        {
+          "id": "lake_5",
+          "text": "Circuito Chico Scenic Drive",
+          "detail": "Complete the famous loop road around the lake connecting Puerto Varas, Puerto Octay, and Frutillar with stops at viewpoints and small towns.",
+          "lat": -41.3,
+          "lng": -72.35
+        },
+        {
+          "id": "lake_6",
+          "text": "Frutillar German Museum",
+          "detail": "Visit the Teatro del Lago and colonial architecture in Frutillar, a town founded by German settlers that hosts cultural events and preserves regional heritage.",
+          "lat": -41.1215,
+          "lng": -72.6066
+        },
+        {
+          "id": "lake_7",
+          "text": "Fishing Excursion",
+          "detail": "Book a fishing charter to catch brown and rainbow trout in the lake's clean, cold waters during the austral summer season.",
+          "lat": -41.25,
+          "lng": -72.45
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh lake trout pan-seared in butter, a simple preparation that showcases the pristine quality of fish caught from Llanquihue."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Curanto en Olla",
+          "detail": "A traditional Chilote stew of meat, seafood, potatoes, and vegetables cooked slowly in a clay pot, reflecting regional indigenous and settler traditions."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Kuchen (German Layer Cake)",
+          "detail": "The German immigrant legacy lives on in bakeries throughout the region serving elaborate fruit-filled cakes, particularly popular in Frutillar."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Salmon Ahumado",
+          "detail": "Locally smoked salmon from the region's fish farms, often served on dark bread with fresh vegetables at lakeside restaurants."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Hand-held pastries filled with local cheese and wild mushrooms, a common street food and café offering around Puerto Varas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "German Heritage Influence",
+          "detail": "The region was settled by German immigrants in the 1800s, evident in architecture, food, festivals, and the orderly town planning you'll see throughout the lake area."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Seasonal Summer Crowds",
+          "detail": "January and February are peak tourist season in the southern hemisphere summer, so book accommodations and activities well in advance if traveling then."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Weather Changes Rapidly",
+          "detail": "The lake region experiences unpredictable weather with sudden rain and wind; bring layered clothing and check conditions before outdoor activities."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Spanish is Primary Language",
+          "detail": "While tourism is established, English is not widely spoken outside major hotels and restaurants, so learning basic Spanish phrases helps greatly with locals."
+        }
+      ]
+    },
+    {
+      "id": "monte_verde",
+      "name": "Monte Verde Cloud Forest",
+      "nameIt": "Bosque Nuboso de Monte Verde",
+      "lat": -40.7847,
+      "lng": -72.3069,
+      "type": "NATURE",
+      "description": "An otherworldly temperate rainforest with hanging moss, twisted trees, and endemic wildlife accessible via scenic trails and a suspension bridge. It's one of South America's most unique ecosystems and a surreal natural experience.",
+      "imageQueries": [
+        "Monte Verde cloud forest Chile",
+        "Monte Verde suspension bridge"
+      ],
+      "activities": [
+        {
+          "id": "mont_1",
+          "text": "Suspension Bridge Walk",
+          "detail": "Cross the iconic hanging bridge suspended 70 meters above the forest canopy for vertiginous views of the cloud forest ecosystem and chances to spot birds and wildlife.",
+          "lat": -42.3589,
+          "lng": -72.3456
+        },
+        {
+          "id": "mont_2",
+          "text": "Guided Canopy Trail",
+          "detail": "Trek through marked trails that wind through the misty understory and canopy, where hanging moss drapes from Coigüe and Laurel trees in otherworldly formations.",
+          "lat": -42.3601,
+          "lng": -72.3442
+        },
+        {
+          "id": "mont_3",
+          "text": "Dawn Birdwatching",
+          "detail": "Join early-morning guided tours to spot endemic species like the Chucao Tapaculo, Southern Beech wren, and resplendent Quetzal-like birds before mist clears."
+        },
+        {
+          "id": "mont_4",
+          "text": "Waterfall of Cascadas",
+          "detail": "Hike to pristine waterfalls hidden within the cloud forest where crystal water tumbles through moss-covered rocks and native ferns.",
+          "lat": -42.3612,
+          "lng": -72.3489
+        },
+        {
+          "id": "mont_5",
+          "text": "Sector Roble Photography",
+          "detail": "Explore the old-growth Roble (Southern Beech) section with gnarled, twisted ancient trees perfect for moody forest photography and ecological study.",
+          "lat": -42.3575,
+          "lng": -72.3425
+        },
+        {
+          "id": "mont_6",
+          "text": "Night Forest Experience",
+          "detail": "Take guided nocturnal walks to encounter owls, amphibians, and bioluminescent fungi that emerge after dark in the mystical cloud forest."
+        }
+      ],
+      "food": [
+        {
+          "id": "mont_f1",
+          "text": "Curanto en Hoyo",
+          "detail": "A traditional Chilean hotpot of seafood, meat, and potatoes cooked in an underground pit, signature to the Los Lagos region."
+        },
+        {
+          "id": "mont_f2",
+          "text": "Fresh Centolla (King Crab)",
+          "detail": "Local Patagonian king crab prepared simply grilled or in rich creamy sauces at nearby lodges and restaurants in the area."
+        },
+        {
+          "id": "mont_f3",
+          "text": "Merkén-Spiced Fish",
+          "detail": "Regional freshwater trout or salmon seasoned with merkén, a smoked chili pepper blend traditional to southern Chile."
+        },
+        {
+          "id": "mont_f4",
+          "text": "Kuchen and Local Pastries",
+          "detail": "German-influenced layered cakes and pastries reflecting the region's heritage, served fresh at forest lodges with local berry jams."
+        },
+        {
+          "id": "mont_f5",
+          "text": "Calafate Berry Desserts",
+          "detail": "Sweet treats made from native Patagonian calafate berries foraged from the region, showcasing local wild fruits."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mont_c1",
+          "text": "Respect the Silence Protocol",
+          "detail": "The cloud forest's mystique depends on minimal noise; guides enforce quiet to preserve the ethereal atmosphere and protect sensitive wildlife."
+        },
+        {
+          "id": "mont_c2",
+          "text": "Wear Waterproof Layers Year-Round",
+          "detail": "The cloud forest generates its own weather with constant mist and drizzle even in summer, so locals and guides dress in multiple moisture-wicking and rain layers."
+        },
+        {
+          "id": "mont_c3",
+          "text": "Ask Permission for Photography",
+          "detail": "While the forest is open to visitors, local guides appreciate being asked before photographing specific endemic species or sacred natural formations."
+        },
+        {
+          "id": "mont_c4",
+          "text": "Arrive Early to Beat Tour Groups",
+          "detail": "Peak tourism clusters mid-morning to early afternoon; locals recommend arriving at first light (7-8am) for solitude and optimal wildlife viewing."
+        }
+      ]
+    },
+    {
+      "id": "petrohue_falls",
+      "name": "Petrohué Falls",
+      "nameIt": "Saltos del Petrohué",
+      "lat": -40.5633,
+      "lng": -72.0533,
+      "type": "LANDMARK",
+      "description": "Dramatic waterfalls cascading through a narrow gorge with brilliant turquoise water, easily accessed from Puerto Varas and offering short scenic walks. The striking landscape and accessibility make it one of the region's most photographed natural features.",
+      "imageQueries": [
+        "Petrohué Falls Chile turquoise",
+        "Saltos del Petrohué"
+      ],
+      "activities": [
+        {
+          "id": "petr_1",
+          "text": "Main Falls Viewpoint Walk",
+          "detail": "A short 10-minute paved trail leads to the primary viewing platform directly facing the turquoise cascade where the Petrohué River drops through the narrow basalt gorge.",
+          "lat": -41.3842,
+          "lng": -72.2447
+        },
+        {
+          "id": "petr_2",
+          "text": "Gorge Trail Hike",
+          "detail": "A moderate 45-minute round-trip trail follows the river canyon downstream, offering multiple vantage points of the falls and surrounding volcanic rock formations.",
+          "lat": -41.3845,
+          "lng": -72.245
+        },
+        {
+          "id": "petr_3",
+          "text": "Photography at Sunset",
+          "detail": "The late afternoon light illuminates the turquoise water and basalt walls differently than midday, making the golden hour ideal for capturing the falls' distinctive color and drama."
+        },
+        {
+          "id": "petr_4",
+          "text": "Kayaking on Petrohué Lake",
+          "detail": "Guided kayak tours launch from near the visitor area to explore the calmer lake waters upstream, offering a different perspective of the volcanic landscape.",
+          "lat": -41.39,
+          "lng": -72.25
+        },
+        {
+          "id": "petr_5",
+          "text": "Picnicking by the River",
+          "detail": "Designated picnic areas near the falls allow visitors to enjoy local provisions while surrounded by the sound and mist of the cascading water."
+        },
+        {
+          "id": "petr_6",
+          "text": "Botanical Walk",
+          "detail": "The surrounding temperate rainforest includes native southern beech and arrayán trees; interpretive signs along some trails identify local flora."
+        }
+      ],
+      "food": [
+        {
+          "id": "petr_f1",
+          "text": "Fresh Trout from Local Rivers",
+          "detail": "Nearby restaurants in Puerto Varas source trucha from the Petrohué and neighboring rivers, typically served simply grilled or with local butter and herbs."
+        },
+        {
+          "id": "petr_f2",
+          "text": "Curanto",
+          "detail": "This traditional Chiloé stew of shellfish, meat, and potatoes cooked in a ground pit is common in the Los Lagos region and available at regional restaurants near the falls."
+        },
+        {
+          "id": "petr_f3",
+          "text": "Milcao",
+          "detail": "A local potato pancake made from grated and mashed potatoes mixed with pork, often served as a side dish at countryside cafés near Puerto Varas."
+        },
+        {
+          "id": "petr_f4",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Handmade pastry pockets filled with local cheese and wild mushrooms from the surrounding forest are sold at small vendors and cafés in the area."
+        },
+        {
+          "id": "petr_f5",
+          "text": "Merkén-Spiced Seafood",
+          "detail": "Local restaurants use merkén, a smoked chili powder from the region, to season fresh salmon and other seafood in creative preparations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "petr_c1",
+          "text": "Visit Early or Midweek",
+          "detail": "Petrohué Falls is extremely popular with tour groups from Puerto Varas; arriving early morning or on weekdays significantly reduces crowds and improves the photography and experience."
+        },
+        {
+          "id": "petr_c2",
+          "text": "Respect Private Land Access",
+          "detail": "The falls are located on private property with an entrance fee; stay on marked trails and respect all signage, as access depends on the owner's goodwill and conservation efforts."
+        },
+        {
+          "id": "petr_c3",
+          "text": "Dress for Mountain Weather",
+          "detail": "The Los Lagos region's climate is unpredictable with frequent rain and wind; locals recommend layering and waterproof gear even on clear-looking days."
+        },
+        {
+          "id": "petr_c4",
+          "text": "Learn About Mapuche Heritage",
+          "detail": "The landscape around Puerto Varas and the falls is ancestral Mapuche territory; some local guides share indigenous perspectives on the land and its spiritual significance."
+        }
+      ]
+    },
+    {
+      "id": "lake_district",
+      "name": "Lake District",
+      "nameLocal": "Región de Los Lagos",
+      "type": "PARK",
+      "lat": -41.1537,
+      "lng": -72.2823,
+      "description": "A temperate region dotted with pristine lakes, snow-capped volcanoes, and lush forests in southern Chile. It offers world-class outdoor activities including hiking, fishing, and water sports, plus charming towns like Puerto Varas.",
+      "activities": [
+        {
+          "id": "lake_1",
+          "text": "Osorno Volcano Hiking",
+          "detail": "Trek to the 2,652m summit of this iconic snow-capped cone volcano for panoramic views of the lake district and surrounding peaks.",
+          "lat": -41.1036,
+          "lng": -72.495
+        },
+        {
+          "id": "lake_2",
+          "text": "Lake Llanquihue Kayaking",
+          "detail": "Paddle across Chile's second-largest freshwater lake, surrounded by dense temperate rainforest and volcanic landscapes.",
+          "lat": -41.2833,
+          "lng": -72.4167
+        },
+        {
+          "id": "lake_3",
+          "text": "Petrohué Falls Visit",
+          "detail": "View the dramatic turquoise waterfalls cascading through basalt canyons in Vicente Pérez Rosales National Park.",
+          "lat": -41.3606,
+          "lng": -72.2308
+        },
+        {
+          "id": "lake_4",
+          "text": "Puyehue National Park Exploration",
+          "detail": "Explore geothermal hot springs, pristine forest trails, and volcanic geology in this biodiversity hotspot.",
+          "lat": -40.75,
+          "lng": -72.2
+        },
+        {
+          "id": "lake_5",
+          "text": "Fly Fishing on Río Maullín",
+          "detail": "Cast for rainbow and brown trout in world-class streams fed by glacial lakes throughout the region.",
+          "lat": -41.35,
+          "lng": -72.15
+        },
+        {
+          "id": "lake_6",
+          "text": "Puerto Varas Waterfront Stroll",
+          "detail": "Walk the lakeside promenade of this charming Bavarian-style town with German architecture, cafes, and craft markets.",
+          "lat": -41.3203,
+          "lng": -72.3705
+        }
+      ],
+      "food": [
+        {
+          "id": "lake_f1",
+          "text": "Salmon a la Mantequilla",
+          "detail": "Fresh lake salmon baked in butter with local herbs, showcasing the region's abundant freshwater fish."
+        },
+        {
+          "id": "lake_f2",
+          "text": "Curanto",
+          "detail": "A traditional southern Chilean stew of shellfish, fish, meat, and potatoes cooked in a pit or earthenware pot."
+        },
+        {
+          "id": "lake_f3",
+          "text": "Kuchen",
+          "detail": "German-influenced layered cake with fruit or cream filling, a legacy of the 19th-century Bavarian immigration to the region."
+        },
+        {
+          "id": "lake_f4",
+          "text": "Empanadas de Queso y Champiñón",
+          "detail": "Pastry pockets filled with local cheese and wild mushrooms foraged from the temperate rainforest."
+        },
+        {
+          "id": "lake_f5",
+          "text": "Trucha Ahumada",
+          "detail": "Smoked trout from the region's glacial lakes, often served with fresh bread and local berry preserves."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lake_c1",
+          "text": "German Heritage Influence",
+          "detail": "The Lake District retains strong German cultural traditions from 19th-century settlement, visible in architecture, food, and local festivals."
+        },
+        {
+          "id": "lake_c2",
+          "text": "Respect for Indigenous Mapuche Lands",
+          "detail": "The region is ancestral Mapuche territory; acknowledge this heritage and support indigenous-owned tourism and craft enterprises."
+        },
+        {
+          "id": "lake_c3",
+          "text": "Seasonal Weather Preparation",
+          "detail": "The region experiences heavy rainfall and rapidly changing weather year-round, so pack waterproof gear and plan indoor activities as backup."
+        },
+        {
+          "id": "lake_c4",
+          "text": "Siesta Customs in Small Towns",
+          "detail": "Many shops and services close between 1 and 3 PM for lunch, so plan activities accordingly and embrace the slower pace of rural Chilean life."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "CaféHaus",
+      "address": "San Martín 065, Puerto Varas",
+      "neighbourhood": "Puerto Varas Centro",
+      "cuisine": "Café/Brunch",
+      "priceRange": "€",
+      "description": "Charming café in a historic German-style house serving excellent coffee and fresh pastries.",
+      "mustOrder": "Kuchen (German cake) with coffee",
+      "lat": -41.3203,
+      "lng": -72.3736
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Restaurant Dimitriou",
+      "address": "Pérez Rosales 610, Puerto Varas",
+      "neighbourhood": "Puerto Varas Centro",
+      "cuisine": "Greek/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Long-established Greek restaurant with quality Mediterranean dishes and an extensive wine selection.",
+      "mustOrder": "Fresh fish with Greek preparation",
+      "lat": -41.3198,
+      "lng": -72.3725
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Hoz y Pampa",
+      "address": "San Bernardo 430, Puerto Varas",
+      "neighbourhood": "Puerto Varas Centro",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€€",
+      "description": "Premium Argentine steakhouse focusing on grass-fed beef and traditional asado preparations.",
+      "mustOrder": "Ojo de bife (ribeye eye steak)",
+      "lat": -41.3217,
+      "lng": -72.3748
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "El Bolsón",
+      "address": "Martínez de Rozas 253, Puerto Varas",
+      "neighbourhood": "Puerto Varas Centro",
+      "cuisine": "Patagonian/International",
+      "priceRange": "€€",
+      "description": "Cozy restaurant serving regional Patagonian dishes with outdoor lake views and local craft beers.",
+      "mustOrder": "Cordero al palo (grilled lamb)",
+      "lat": -41.3209,
+      "lng": -72.3755
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Donde Germán",
+      "address": "Ernesto Wiedmaier 252, Frutillar",
+      "neighbourhood": "Frutillar Centro",
+      "cuisine": "German/Chilean Fusion",
+      "priceRange": "€€",
+      "description": "Intimate family-run restaurant blending German heritage with Chilean ingredients in a historic building.",
+      "mustOrder": "Raclette with local vegetables",
+      "lat": -41.1309,
+      "lng": -72.4002
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Misterio",
+      "address": "Capilla 183, Frutillar",
+      "neighbourhood": "Frutillar Centro",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Fine dining restaurant with creative Chilean cuisine and excellent lake views overlooking Llanquihue.",
+      "mustOrder": "Patagonian fish with local fruit sauce",
+      "lat": -41.1318,
+      "lng": -72.3988
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Gramado",
+      "address": "Pérez Rosales 1103, Puerto Montt",
+      "neighbourhood": "Puerto Montt Centro",
+      "cuisine": "Seafood/Traditional Chilean",
+      "priceRange": "€€€",
+      "description": "Historic restaurant famous for fresh seafood and traditional Chilote dishes with waterfront location.",
+      "mustOrder": "Curanto (traditional Chilote stew)",
+      "lat": -41.3243,
+      "lng": -72.4323
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Angelmo Mariscos",
+      "address": "Angelmó s/n, Puerto Montt",
+      "neighbourhood": "Angelmó",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual, authentic seafood restaurant at the famous Angelmó market with fresh daily catches.",
+      "mustOrder": "Caldillo de congrio (conger fish stew)",
+      "lat": -41.3356,
+      "lng": -72.4389
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Piccolo Mondo",
+      "address": "Urmeneta 1087, Puerto Montt",
+      "neighbourhood": "Puerto Montt Centro",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Welcoming Italian restaurant serving homemade pasta and traditional dishes in a warm atmosphere.",
+      "mustOrder": "Risotto with local mushrooms",
+      "lat": -41.3251,
+      "lng": -72.4267
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Olla",
+      "address": "Sargento Aldea 255, Osorno",
+      "neighbourhood": "Osorno Centro",
+      "cuisine": "Chilean Traditional",
+      "priceRange": "€€",
+      "description": "Popular local restaurant serving hearty traditional Chilean fare and regional specialties.",
+      "mustOrder": "Pastel de choclo (corn pie)",
+      "lat": -40.5744,
+      "lng": -72.5309
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Club Alemán",
+      "address": "Ramón Serrano 637, Osorno",
+      "neighbourhood": "Osorno Centro",
+      "cuisine": "German",
+      "priceRange": "€€",
+      "description": "Traditional German restaurant with heritage recipes reflecting the region's immigrant history.",
+      "mustOrder": "Schnitzel with German potato salad",
+      "lat": -40.5738,
+      "lng": -72.5284
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Casa Oposso",
+      "address": "Riquelme 465, Puerto Varas",
+      "neighbourhood": "Puerto Varas Centro",
+      "cuisine": "Seafood/International",
+      "priceRange": "€€€€",
+      "description": "Upscale restaurant featuring refined seafood preparations and international cuisine with lake views.",
+      "mustOrder": "Merluza austral (austral hake) with seasonal preparation",
+      "lat": -41.3188,
+      "lng": -72.3742
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "La Vaca Loca",
+      "address": "Las Nalcas 55, Pucón",
+      "neighbourhood": "Pucón Centro",
+      "cuisine": "Argentine/Steakhouse",
+      "priceRange": "€€€",
+      "description": "High-quality steakhouse with premium cuts and warm ambiance near adventure sports capital.",
+      "mustOrder": "Bife ancho with chimichurri",
+      "lat": -39.3039,
+      "lng": -71.9486
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Tragatragas",
+      "address": "General Urrutia 592, Valdivia",
+      "neighbourhood": "Valdivia Centro",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Creative restaurant blending traditional Valdivia ingredients with modern culinary techniques.",
+      "mustOrder": "Smoked salmon with local herbs",
+      "lat": -39.8136,
+      "lng": -73.2467
+    }
+  ]
+}

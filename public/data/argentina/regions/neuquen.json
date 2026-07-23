@@ -1,0 +1,853 @@
+{
+  "id": "neuquen",
+  "name": "Neuquén",
+  "nameIt": "Neuquén",
+  "capital": "Neuquén",
+  "lat": -38.9516,
+  "lng": -68.0585,
+  "emoji": "🏞️",
+  "colour": "ffff9800",
+  "boundingBox": {
+    "north": -36.5,
+    "south": -40.5,
+    "east": -66.5,
+    "west": -71.5
+  },
+  "history": "Neuquén was founded in 1884 as a territorial capital during Argentina's expansion into Patagonia, emerging from the military campaigns that displaced indigenous Mapuche peoples from the region. The discovery of oil in the early 20th century transformed the province from a remote frontier into an economic powerhouse, driving rapid urbanization and industrial development. The city itself grew significantly after the construction of the Ballester Dam in the 1970s, which created Lake Neuquén and further spurred population growth and regional importance.",
+  "culturalNotes": "Neuquén embodies a blend of frontier spirit and modern development, with deep connections to Patagonian heritage and indigenous Mapuche culture that remain visible in local art and traditions. The region is known for its world-class wine production, particularly Malbec and Pinot Noir, making it Argentina's second-largest wine region after Mendoza. The city's character reflects both its working-class oil industry roots and its evolution into a cosmopolitan hub, with a strong sense of regional pride and outdoor recreation culture.",
+  "bestTimeToVisit": "December to February and March to May offer pleasant conditions for exploring lakes, mountains, and outdoor activities.",
+  "languageNotes": "Spanish is the primary language, spoken with a slight Patagonian accent that differs subtly from Buenos Aires Spanish, featuring local vocabulary and expressions tied to the region's history. Useful phrases include 'che' as a casual form of address and 'boludo' for friendly emphasis, both common in Argentine Spanish and especially prevalent in Patagonia.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 6,
+  "places": [
+    {
+      "id": "neuquen_city",
+      "name": "Neuquén City",
+      "nameIt": "Neuquén",
+      "lat": -38.9516,
+      "lng": -68.0585,
+      "type": "CITY",
+      "description": "The capital and largest city of Neuquén Province, situated at the confluence of the Neuquén and Limay rivers. It serves as the cultural and economic hub with museums, restaurants, and shopping, making it an essential base for exploring the region.",
+      "imageQueries": [
+        "Neuquén city Argentina skyline",
+        "Neuquén river confluence"
+      ],
+      "activities": [
+        {
+          "id": "neuq_1",
+          "text": "Museo Nacional de Petróleo",
+          "detail": "Explore Argentina's oil industry history and geological exhibits in this comprehensive museum dedicated to petroleum extraction and its role in regional development.",
+          "lat": -38.9516,
+          "lng": -68.0585
+        },
+        {
+          "id": "neuq_2",
+          "text": "Parque Central",
+          "detail": "Stroll through this central park located at the confluence of the Neuquén and Limay rivers, offering walking paths, green spaces, and views of both waterways.",
+          "lat": -38.9507,
+          "lng": -68.0641
+        },
+        {
+          "id": "neuq_3",
+          "text": "Paseo de la Costa",
+          "detail": "Walk along this riverside promenade featuring shops, restaurants, and cultural venues with scenic views of the Limay River.",
+          "lat": -38.9489,
+          "lng": -68.0524
+        },
+        {
+          "id": "neuq_4",
+          "text": "Museo de Bellas Artes Juan Antonio Sarrabayrouse",
+          "detail": "View contemporary and traditional Argentine art in this gallery showcasing works by local and regional artists.",
+          "lat": -38.9545,
+          "lng": -68.0612
+        },
+        {
+          "id": "neuq_5",
+          "text": "Centro Comercial Neuquén",
+          "detail": "Browse this modern shopping and dining complex representing the city's commercial hub with local and national retailers.",
+          "lat": -38.9532,
+          "lng": -68.0673
+        },
+        {
+          "id": "neuq_6",
+          "text": "Teatro Español",
+          "detail": "Catch a theatrical performance or cultural event at this historic venue hosting drama, music, and dance productions.",
+          "lat": -38.951,
+          "lng": -68.0619
+        }
+      ],
+      "food": [
+        {
+          "id": "neuq_f1",
+          "text": "Asado Patagónico",
+          "detail": "Savor slow-grilled lamb or beef prepared in traditional Patagonian style, often cooked over open flames and served with regional chimichurri."
+        },
+        {
+          "id": "neuq_f2",
+          "text": "Trucha de la Región",
+          "detail": "Enjoy fresh trout from local rivers, typically prepared grilled or pan-seared and served with fresh vegetables from the region."
+        },
+        {
+          "id": "neuq_f3",
+          "text": "Empanadas Neuquinas",
+          "detail": "Taste local empanadas filled with meat, cheese, or vegetables, reflecting the traditional hand-held pastry culture of the province."
+        },
+        {
+          "id": "neuq_f4",
+          "text": "Choripán con Chimichurri",
+          "detail": "Experience the iconic Argentine sandwich of grilled chorizo on crusty bread smothered with house-made chimichurri sauce."
+        },
+        {
+          "id": "neuq_f5",
+          "text": "Vino Patagónico",
+          "detail": "Sample wines from nearby Río Negro province vineyards, which benefit from the cool Patagonian climate for quality red and white production."
+        }
+      ],
+      "culture": [
+        {
+          "id": "neuq_c1",
+          "text": "Siesta Culture",
+          "detail": "Expect many shops and restaurants to close during afternoon hours (typically 1-5 PM), as locals embrace the traditional siesta break common across Argentina."
+        },
+        {
+          "id": "neuq_c2",
+          "text": "Spanish as Primary Language",
+          "detail": "While English is spoken in tourism areas, Spanish proficiency greatly enhances interactions with locals and dining experiences in traditional establishments."
+        },
+        {
+          "id": "neuq_c3",
+          "text": "Outdoor Recreation Priority",
+          "detail": "Neuquén residents highly value outdoor activities and nature pursuits, so conversations about hiking, fishing, and river activities are common ways to connect with locals."
+        },
+        {
+          "id": "neuq_c4",
+          "text": "Tipping Etiquette",
+          "detail": "A 10% gratuity is customary in restaurants and for services; leaving it on the table or informing the server is standard practice rather than adding to the bill."
+        }
+      ]
+    },
+    {
+      "id": "perito_moreno_glacier",
+      "name": "Perito Moreno Glacier",
+      "nameIt": "Glaciar Perito Moreno",
+      "lat": -50.4915,
+      "lng": -73.1904,
+      "type": "NATURE",
+      "description": "One of the world's most spectacular glaciers located in Los Glaciares National Park, renowned for its massive blue ice walls and dramatic calving events. Visitors can view it from walkways, boat tours, or up-close hiking experiences in this UNESCO World Heritage Site.",
+      "imageQueries": [
+        "Perito Moreno Glacier Argentina",
+        "Glaciar Perito Moreno calving"
+      ],
+      "activities": [
+        {
+          "id": "peri_1",
+          "text": "Balcony Walkways",
+          "detail": "Walk the elevated wooden and metal platforms with unobstructed views of the glacier's 70-meter ice wall and watch for spontaneous calving events.",
+          "lat": -50.4861,
+          "lng": -73.1927
+        },
+        {
+          "id": "peri_2",
+          "text": "Boat Tour on Lago Argentino",
+          "detail": "Take a catamaran from Puerto Bandera to get within meters of the glacier's face and hear the thunderous sound of falling ice.",
+          "lat": -50.4728,
+          "lng": -73.2103
+        },
+        {
+          "id": "peri_3",
+          "text": "Big Ice Trek",
+          "detail": "Join a guided hike across the glacier's surface wearing crampons, exploring ice caves and seracs on a half-day adventure.",
+          "lat": -50.4861,
+          "lng": -73.1927
+        },
+        {
+          "id": "peri_4",
+          "text": "Mirador del Hielo Viewpoint",
+          "detail": "Hike to this elevated observation point for panoramic views of the entire glacier advancing across the landscape.",
+          "lat": -50.4895,
+          "lng": -73.1885
+        },
+        {
+          "id": "peri_5",
+          "text": "Upsala Glacier Visit",
+          "detail": "Take a day-trip boat tour from nearby Puerto Bandera to see this retreating glacier with towering blue icebergs floating in the lake.",
+          "lat": -50.4728,
+          "lng": -73.2103
+        },
+        {
+          "id": "peri_6",
+          "text": "Lago Desierto Kayaking",
+          "detail": "Paddle among icebergs in this turquoise glacial lake in the northern region, surrounded by pristine Patagonian wilderness.",
+          "lat": -50.3833,
+          "lng": -73.0667
+        }
+      ],
+      "food": [
+        {
+          "id": "peri_f1",
+          "text": "Cordero Patagónico",
+          "detail": "Succulent slow-roasted Patagonian lamb seasoned with regional herbs, a signature dish reflecting the area's ranching heritage."
+        },
+        {
+          "id": "peri_f2",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh local trout caught from glacial lakes, pan-seared in butter with local herbs and served at riverside lodges near the glacier."
+        },
+        {
+          "id": "peri_f3",
+          "text": "Pastel de Centolla",
+          "detail": "King crab pie with a golden pastry crust, representing Patagonian seafood traditions adapted to the region's cuisine."
+        },
+        {
+          "id": "peri_f4",
+          "text": "Choripán",
+          "detail": "Grilled chorizo served in crusty bread with chimichurri sauce, the iconic Argentine street food found at lodge cafés and park vendors."
+        },
+        {
+          "id": "peri_f5",
+          "text": "Té de Hierbas Patagónicas",
+          "detail": "Herbal tea blended from native Patagonian plants like calafate and coihue, served warm at mountain refugios after hikes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "peri_c1",
+          "text": "Book Tours in Advance",
+          "detail": "Reserve boat tours and ice-trekking expeditions weeks ahead during peak season (December–February) as spots fill quickly and weather can close activities."
+        },
+        {
+          "id": "peri_c2",
+          "text": "Respect Glacial Dynamics",
+          "detail": "Understand that ice calving is unpredictable and dangerous; stay behind marked barriers and follow guide instructions precisely during all activities."
+        },
+        {
+          "id": "peri_c3",
+          "text": "Learn Patagonian History",
+          "detail": "The glacier is named after Francisco Perito Moreno, a 19th-century explorer and diplomat; locals take pride in this heritage and appreciate visitors who understand the region's exploration legacy."
+        },
+        {
+          "id": "peri_c4",
+          "text": "Dress for Extreme Weather",
+          "detail": "Patagonian weather changes rapidly; locals and guides expect visitors to wear windproof, waterproof layers and sturdy hiking boots regardless of forecast."
+        }
+      ]
+    },
+    {
+      "id": "nahuel_huapi_national_park",
+      "name": "Nahuel Huapi National Park",
+      "nameIt": "Parque Nacional Nahuel Huapi",
+      "lat": -41.12,
+      "lng": -71.5833,
+      "type": "NATURE",
+      "description": "Argentina's oldest national park featuring pristine Andean lakes, forests, and mountains with extensive hiking and water sports opportunities. The park encompasses over 7,000 square kilometers and includes popular towns like Villa La Angostura and San Martín de los Andes.",
+      "imageQueries": [
+        "Nahuel Huapi National Park Argentina",
+        "Parque Nahuel Huapi lakes mountains"
+      ],
+      "activities": [
+        {
+          "id": "nahu_1",
+          "text": "Cerro Campanario Hike",
+          "detail": "A moderate 2-hour ascent offering panoramic views of Nahuel Huapi Lake and the surrounding Andes peaks from the 1,050-meter summit.",
+          "lat": -41.1637,
+          "lng": -71.5081
+        },
+        {
+          "id": "nahu_2",
+          "text": "Lake Espejo Kayaking",
+          "detail": "Paddle across the mirror-like waters of this pristine glacial lake surrounded by native southern beech forests and mountain reflections.",
+          "lat": -41.1487,
+          "lng": -71.6201
+        },
+        {
+          "id": "nahu_3",
+          "text": "Circuito Chico Loop Drive",
+          "detail": "A scenic 80-kilometer circular route connecting Villa La Angostura and San Martín de los Andes with stops at viewpoints, beaches, and trailheads.",
+          "lat": -41.1558,
+          "lng": -71.6442
+        },
+        {
+          "id": "nahu_4",
+          "text": "Tronador Mountain Climbing",
+          "detail": "Challenge yourself on the 3,554-meter volcano featuring glaciers, challenging terrain, and expansive views across both Argentina and Chile.",
+          "lat": -41.1794,
+          "lng": -71.8897
+        },
+        {
+          "id": "nahu_5",
+          "text": "Frey Refuge Backpacking",
+          "detail": "A multi-day trek through pristine backcountry to this rustic mountain hut, accessible only on foot and surrounded by turquoise lakes and granite peaks.",
+          "lat": -41.1378,
+          "lng": -71.7461
+        },
+        {
+          "id": "nahu_6",
+          "text": "Puerto Blest Boat Excursion",
+          "detail": "A full-day boat tour from Bariloche through narrow fjord-like passages to secluded waterfalls and pristine beaches on the northern lake shore.",
+          "lat": -41.0717,
+          "lng": -71.7717
+        },
+        {
+          "id": "nahu_7",
+          "text": "Colonia Suiza Walking Tour",
+          "detail": "Explore this charming Swiss-influenced village near Villa La Angostura with traditional chalets, artisan shops, and pastoral countryside views.",
+          "lat": -41.1457,
+          "lng": -71.5825
+        }
+      ],
+      "food": [
+        {
+          "id": "nahu_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh lake trout caught from Nahuel Huapi's waters, simply prepared with butter and served at local restaurants as the region's signature fish dish."
+        },
+        {
+          "id": "nahu_f2",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted Patagonian lamb traditionally cooked over wood fire, tender and rich with the distinct flavor of sheep raised in the region's grasslands."
+        },
+        {
+          "id": "nahu_f3",
+          "text": "Waffles and Chocolate",
+          "detail": "Belgian-style waffles served with thick hot chocolate, a legacy of European immigration and widely enjoyed at cafés throughout San Martín and Bariloche."
+        },
+        {
+          "id": "nahu_f4",
+          "text": "Smoked Venison and Wild Boar",
+          "detail": "Local game meats smoked using regional wood techniques and available at artisan delis, reflecting Patagonian hunting traditions."
+        },
+        {
+          "id": "nahu_f5",
+          "text": "Empanadas de Hongos",
+          "detail": "Hand-filled pastries featuring fresh wild mushrooms foraged from the park's forests, served warm at local bakeries and markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nahu_c1",
+          "text": "Respect Hiking Seasons",
+          "detail": "Winter (June–August) brings heavy snow that closes many trails; summer (December–February) is peak season with the best weather and all routes accessible."
+        },
+        {
+          "id": "nahu_c2",
+          "text": "Learn Basic Spanish",
+          "detail": "While tourism infrastructure exists, speaking Spanish opens doors to local guides, small restaurants, and deeper cultural connections in villages away from main tourist areas."
+        },
+        {
+          "id": "nahu_c3",
+          "text": "Embrace Outdoor Café Culture",
+          "detail": "Locals spend time lingering over coffee and pastries at outdoor cafés; joining this rhythm is a way to observe daily life and meet residents naturally."
+        },
+        {
+          "id": "nahu_c4",
+          "text": "Carry Argentine Currency",
+          "detail": "Credit cards are accepted in major towns, but rural lodges, small shops, and artisan vendors often prefer Argentine pesos, and ATMs can be sparse in remote areas."
+        }
+      ]
+    },
+    {
+      "id": "bariloche",
+      "name": "Bariloche",
+      "nameIt": "San Carlos de Bariloche",
+      "lat": -41.1317,
+      "lng": -71.305,
+      "type": "CITY",
+      "description": "A cosmopolitan mountain resort city on the shores of Nahuel Huapi Lake, famous for chocolate shops, fine dining, and adventure sports. It's the primary hub for exploring the Lakes District with excellent skiing, hiking, and water activities.",
+      "imageQueries": [
+        "Bariloche Argentina chocolate shops lake",
+        "San Carlos de Bariloche Patagonia"
+      ],
+      "activities": [
+        {
+          "id": "bari_1",
+          "text": "Cerro Campanario",
+          "detail": "Take the chairlift up this iconic peak for panoramic views of Nahuel Huapi Lake, the surrounding Andes, and the city below.",
+          "lat": -41.3447,
+          "lng": -71.5047
+        },
+        {
+          "id": "bari_2",
+          "text": "Circuito Chico",
+          "detail": "Drive or bike this stunning 80 km loop through forests, along lakeshores, and past viewpoints like Punto Panorámico and Puerto Blest.",
+          "lat": -41.35,
+          "lng": -71.65
+        },
+        {
+          "id": "bari_3",
+          "text": "Skiing at Cerro Catedral",
+          "detail": "Visit South America's premier ski resort with modern lifts, varied terrain, and a season running June to September.",
+          "lat": -41.4394,
+          "lng": -71.4894
+        },
+        {
+          "id": "bari_4",
+          "text": "Chocolate Shop Tour",
+          "detail": "Sample artisanal Swiss-influenced chocolates at renowned shops like Mamuschka or Abuela Goye, many offering factory tours and tastings.",
+          "lat": -41.1353,
+          "lng": -71.3095
+        },
+        {
+          "id": "bari_5",
+          "text": "Kayaking on Nahuel Huapi Lake",
+          "detail": "Paddle across the crystalline waters to explore hidden coves, islands, and glacier-fed inlets with professional outfitters.",
+          "lat": -41.15,
+          "lng": -71.3
+        },
+        {
+          "id": "bari_6",
+          "text": "Trekking Fitz Roy",
+          "detail": "Hike to the iconic granite peak in nearby El Chaltén for one of Patagonia's most photographed mountain vistas."
+        },
+        {
+          "id": "bari_7",
+          "text": "Museo Paleontológico Egidio Feruglio",
+          "detail": "Explore dinosaur fossils and Patagonian prehistory at this world-class paleontology museum in nearby Trelew, a day trip away."
+        }
+      ],
+      "food": [
+        {
+          "id": "bari_f1",
+          "text": "Trucha a la Patagonia",
+          "detail": "Fresh-caught local trout prepared simply with butter, lemon, and wild herbs, showcasing the region's pristine lake and river resources."
+        },
+        {
+          "id": "bari_f2",
+          "text": "Venison Steak (Carne de Venado)",
+          "detail": "Grilled wild deer meat, often served with Patagonian mushrooms and a Malbec wine from nearby vineyards."
+        },
+        {
+          "id": "bari_f3",
+          "text": "Chocolate Alpino",
+          "detail": "Bariloche's signature sweet treat—chocolate-covered wafers and nougat, influenced by Swiss confectionery traditions brought by early settlers."
+        },
+        {
+          "id": "bari_f4",
+          "text": "Cazuela de Mariscos",
+          "detail": "A hearty stew of lake and ocean seafood, sometimes featuring centolla (king crab), served in coastal-influenced restaurants."
+        },
+        {
+          "id": "bari_f5",
+          "text": "Patagonian Lamb (Cordero)",
+          "detail": "Slow-roasted free-range lamb from the steppe, tender and flavourful, often featured at traditional asados and fine dining establishments."
+        },
+        {
+          "id": "bari_f6",
+          "text": "Fondue or Raclette",
+          "detail": "Swiss-style cheese melts remain popular in upscale restaurants, reflecting Bariloche's heritage and mountain resort atmosphere."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bari_c1",
+          "text": "Summer crowds and winter closures",
+          "detail": "December to February are peak tourist season with some restaurants and attractions closing; June to August brings skiers but fewer facilities operate."
+        },
+        {
+          "id": "bari_c2",
+          "text": "Spanish is essential",
+          "detail": "While tourism staff in central areas may speak English, learning basic Spanish phrases is helpful for restaurants and outlying towns."
+        },
+        {
+          "id": "bari_c3",
+          "text": "Dress in layers year-round",
+          "detail": "Mountain weather changes rapidly; mornings and evenings are cold even in summer, and altitude affects temperature perception."
+        },
+        {
+          "id": "bari_c4",
+          "text": "Tipping and payment customs",
+          "detail": "Tipping 10 percent at restaurants is customary; many establishments still prefer Argentine pesos over credit cards in smaller shops."
+        }
+      ]
+    },
+    {
+      "id": "ruta_40",
+      "name": "Route 40",
+      "nameIt": "Ruta Nacional 40",
+      "lat": -40.5,
+      "lng": -70,
+      "type": "LANDMARK",
+      "description": "Argentina's legendary north-south route that traverses the entire length of the Andes, offering dramatic desert, mountain, and lake scenery through Neuquén. Driving portions of Ruta 40 provides authentic off-the-beaten-path Patagonian experiences.",
+      "imageQueries": [
+        "Ruta 40 Argentina Andes",
+        "Ruta Nacional 40 Patagonia scenic drive"
+      ],
+      "activities": [
+        {
+          "id": "ruta_1",
+          "text": "Laguna Blanca National Park",
+          "detail": "Explore this high-altitude park featuring pristine glacial lakes and Andean wildlife including flamingos and guanacos along a scenic unpaved section of Ruta 40.",
+          "lat": -38.3667,
+          "lng": -70.4167
+        },
+        {
+          "id": "ruta_2",
+          "text": "Copahue Volcano Hike",
+          "detail": "Trek to this active volcano's crater and hot springs, accessible via a rough road branching from Ruta 40 in the Caviahue area.",
+          "lat": -37.85,
+          "lng": -71.1833
+        },
+        {
+          "id": "ruta_3",
+          "text": "Lake District Scenic Drives",
+          "detail": "Drive through the stunning Neuquén lake region with views of Nahuel Huapi, Traful, and Lacar lakes as Ruta 40 winds through mountain passes.",
+          "lat": -40.7833,
+          "lng": -71.6
+        },
+        {
+          "id": "ruta_4",
+          "text": "Piedra del Águila Viewpoint",
+          "detail": "Stop at this famous eagle-shaped rock formation overlooking the Limay River valley for panoramic Patagonian mountain scenery.",
+          "lat": -40.3306,
+          "lng": -71.6139
+        },
+        {
+          "id": "ruta_5",
+          "text": "San Martín de los Andes",
+          "detail": "Visit this alpine town nestled on Lake Lacar where Ruta 40 connects to world-class hiking, fishing, and mountain biking opportunities.",
+          "lat": -40.1464,
+          "lng": -71.3461
+        },
+        {
+          "id": "ruta_6",
+          "text": "Pehuenia Region Araucaria Forests",
+          "detail": "Drive through ancient monkey puzzle tree forests in the Caviahue-Pehuenia area, a unique ecosystem accessible via Ruta 40's eastern branch.",
+          "lat": -37.9667,
+          "lng": -71.3333
+        }
+      ],
+      "food": [
+        {
+          "id": "ruta_f1",
+          "text": "Cordero a la Patagonia",
+          "detail": "Slow-roasted lamb seasoned with local herbs and cooked over wood fires, a regional specialty found in rural estancias and small restaurants along the route."
+        },
+        {
+          "id": "ruta_f2",
+          "text": "Truchas a la Mantequilla",
+          "detail": "Fresh trout from Neuquén's lakes prepared simply with butter and lemon, best enjoyed at lakeside lodges near San Martín de los Andes."
+        },
+        {
+          "id": "ruta_f3",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Local pastries filled with cheese and wild mushrooms foraged from the region's forests, sold at roadside stops and small bakeries."
+        },
+        {
+          "id": "ruta_f4",
+          "text": "Asado Patagónico",
+          "detail": "Traditional Patagonian barbecue featuring beef, sausages, and organ meats cooked over an open fire, a cultural dining experience at estancias near the route."
+        },
+        {
+          "id": "ruta_f5",
+          "text": "Facturas and Medialunas",
+          "detail": "Argentine sweet pastries and croissants best enjoyed with coffee at small cafés in towns along Ruta 40 like Junín de los Andes."
+        },
+        {
+          "id": "ruta_f6",
+          "text": "Mermelada de Frutos del Bosque",
+          "detail": "Homemade jams made from wild berries native to the region, available at farm stands and markets in Pehuenia and surrounding areas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ruta_c1",
+          "text": "Respect Remote Infrastructure",
+          "detail": "Ruta 40 through Neuquén includes long unpaved stretches with minimal services; carry extra fuel, water, spare tires, and supplies between towns."
+        },
+        {
+          "id": "ruta_c2",
+          "text": "Local Estancia Etiquette",
+          "detail": "If stopping at traditional working ranches, dress warmly, arrive before dusk, and ask permission before photographing livestock or family activities."
+        },
+        {
+          "id": "ruta_c3",
+          "text": "Spanish Language Basics",
+          "detail": "While tourism areas speak some English, rural Ruta 40 sections have limited English speakers; basic Spanish phrases and a translation app are essential."
+        },
+        {
+          "id": "ruta_c4",
+          "text": "Weather-Dependent Travel",
+          "detail": "Neuquén's Patagonian climate brings sudden storms and wind; check road conditions before traveling, as unpaved sections become impassable after heavy rain."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur_paleontology_center",
+      "name": "Dinosaur Paleontology Center",
+      "nameIt": "Centro Paleontológico de Dinosaurios",
+      "lat": -38.9516,
+      "lng": -68.0585,
+      "type": "LANDMARK",
+      "description": "Located in Neuquén city, this museum showcases Argentina's rich paleontological heritage with fossils and skeletons from the region's dinosaur excavations. It's particularly notable for specimens from the Cretaceous period found in Neuquén Province.",
+      "imageQueries": [
+        "Neuquén dinosaur museum Argentina",
+        "paleontological center Neuquén dinosaurs"
+      ],
+      "activities": [
+        {
+          "id": "dino_1",
+          "text": "Explore the Cretaceous Fossil Gallery",
+          "detail": "Walk through the museum's main exhibition halls displaying original fossils and skeletal reconstructions of theropods, sauropods, and ornithischians from the Late Cretaceous period found in Neuquén Province."
+        },
+        {
+          "id": "dino_2",
+          "text": "View the Argentinosaurus Skeleton",
+          "detail": "Stand before one of the world's largest known dinosaurs, the titanosaur Argentinosaurus, with a nearly complete skeleton displayed to show its massive scale and anatomical structure."
+        },
+        {
+          "id": "dino_3",
+          "text": "Attend a Paleontological Talk",
+          "detail": "Join guided talks by museum paleontologists who explain the excavation techniques, geological history, and evolutionary significance of Neuquén's dinosaur discoveries."
+        },
+        {
+          "id": "dino_4",
+          "text": "Interactive Fossil Preparation Room",
+          "detail": "Observe or participate in hands-on fossil cleaning and preparation activities where visitors can learn the careful techniques used to extract fossils from rock matrices."
+        },
+        {
+          "id": "dino_5",
+          "text": "Examine the Embryonic Fossil Collection",
+          "detail": "Study rare dinosaur eggs and embryonic remains discovered in Neuquén, including nesting sites that provide insight into reproductive behavior and parental care."
+        },
+        {
+          "id": "dino_6",
+          "text": "Browse the Museum Shop",
+          "detail": "Purchase replicas of local fossils, scientific literature about Neuquén's paleontological significance, and educational materials about Argentine dinosaurs."
+        }
+      ],
+      "food": [
+        {
+          "id": "dino_f1",
+          "text": "Choripán",
+          "detail": "A classic Argentine sandwich of grilled chorizo served on crusty bread with chimichurri sauce, widely available at cafes near the museum."
+        },
+        {
+          "id": "dino_f2",
+          "text": "Asado",
+          "detail": "Traditional Argentine barbecued meat, particularly beef and lamb, prepared with regional Neuquén herbs and often found at local restaurants throughout the city."
+        },
+        {
+          "id": "dino_f3",
+          "text": "Empanadas Neuquinas",
+          "detail": "Savory pastries filled with ground beef, onions, and spices, representing Neuquén's regional variation of this Argentine staple."
+        },
+        {
+          "id": "dino_f4",
+          "text": "Truchas a la Patagonia",
+          "detail": "Fresh trout prepared with local Patagonian ingredients and herbs, reflecting the region's proximity to pristine mountain rivers and lakes."
+        },
+        {
+          "id": "dino_f5",
+          "text": "Pastel de Choclo",
+          "detail": "A savory pie made with fresh corn topping over a meat filling, a beloved comfort food throughout Argentina and readily available in Neuquén's dining establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dino_c1",
+          "text": "Spanish Language Assistance",
+          "detail": "While museum signage includes English translations, speaking basic Spanish will enhance your experience with staff and enriches interaction with the local Neuquén community."
+        },
+        {
+          "id": "dino_c2",
+          "text": "Regional Pride in Paleontology",
+          "detail": "Neuquén residents take great pride in their province's world-class dinosaur fossils, so engaging respectfully with locals about these discoveries demonstrates cultural appreciation."
+        },
+        {
+          "id": "dino_c3",
+          "text": "Afternoon Siesta Hours",
+          "detail": "Many businesses and some museum hours may shift during early afternoon, so plan visits for late morning or late afternoon to avoid reduced service periods common in Argentine culture."
+        },
+        {
+          "id": "dino_c4",
+          "text": "Respect Archaeological Significance",
+          "detail": "Neuquén's fossil sites are protected heritage, and locals appreciate visitors who understand that these remains represent irreplaceable windows into Earth's natural history."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Cassis Bistro",
+      "address": "Avenida Argentina 145, Neuquén",
+      "neighbourhood": "Centro",
+      "cuisine": "French-Argentine",
+      "priceRange": "€€€",
+      "description": "Elegant bistro combining French technique with local Patagonian ingredients in an intimate setting.",
+      "mustOrder": "Duck confit with red wine reduction",
+      "lat": -38.9516,
+      "lng": -68.1585
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "El Turco",
+      "address": "Calle Hipólito Yrigoyen 56, Neuquén",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine steakhouse",
+      "priceRange": "€€",
+      "description": "Traditional parrilla serving premium grass-fed beef and offal with no-frills authenticity.",
+      "mustOrder": "Asado de tira with chimichurri",
+      "lat": -38.9512,
+      "lng": -68.1603
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Pinchos de Barro",
+      "address": "Avenida del Trabajador 490, Neuquén",
+      "neighbourhood": "Nueva Ciudad",
+      "cuisine": "Spanish tapas",
+      "priceRange": "€€€",
+      "description": "Contemporary Spanish tapas bar featuring jamón ibérico, croquetas, and creative small plates.",
+      "mustOrder": "Jamón ibérico with pan con tomate",
+      "lat": -38.969,
+      "lng": -68.1455
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "La Angostura Resto",
+      "address": "Mitre 265, San Martín de los Andes",
+      "neighbourhood": "Centro",
+      "cuisine": "Patagonian",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant showcasing regional wild game, trout, and foraged ingredients with mountain views.",
+      "mustOrder": "Venison with mushroom sauce",
+      "lat": -40.145,
+      "lng": -71.3467
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Sibu Café",
+      "address": "Belgrano 650, San Martín de los Andes",
+      "neighbourhood": "Centro",
+      "cuisine": "Café-bistro",
+      "priceRange": "€€",
+      "description": "Cosy café and light restaurant popular for organic coffee, fresh pastries, and healthy lunch options.",
+      "mustOrder": "Smoked trout sandwich",
+      "lat": -40.1473,
+      "lng": -71.351
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Mamuschka",
+      "address": "Mitre 632, San Martín de los Andes",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine-international",
+      "priceRange": "€€€",
+      "description": "Charming restaurant with creative cuisine mixing Argentine classics with Mediterranean influences.",
+      "mustOrder": "Lamb stew with Patagonian herbs",
+      "lat": -40.152,
+      "lng": -71.3448
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Alma Patagonica",
+      "address": "Perito Moreno 48, Bariloche",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine fusion",
+      "priceRange": "€€€",
+      "description": "Contemporary Argentine kitchen highlighting local products, craft beers, and innovative preparations.",
+      "mustOrder": "Patagonian lamb with malbec reduction",
+      "lat": -41.1349,
+      "lng": -71.3081
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Kanduela",
+      "address": "Mitre 788, Bariloche",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine-European",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment with refined technique, extensive wine list, and lake views.",
+      "mustOrder": "Wild boar with berry gastrique",
+      "lat": -41.1374,
+      "lng": -71.311
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Chop House",
+      "address": "Sarracino 370, Bariloche",
+      "neighbourhood": "Centro",
+      "cuisine": "Steakhouse",
+      "priceRange": "€€€",
+      "description": "Premium meat specialist with high-quality beef cuts, excellent service, and warm ambiance.",
+      "mustOrder": "Bife de chorizo aged 21 days",
+      "lat": -41.1389,
+      "lng": -71.3077
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Cervecería Berlina",
+      "address": "Mitre 565, Bariloche",
+      "neighbourhood": "Centro",
+      "cuisine": "German-Argentine",
+      "priceRange": "€€",
+      "description": "Casual brewpub serving craft beers and hearty German-Argentine fare including schnitzel and sausages.",
+      "mustOrder": "Homemade bratwurst with sauerkraut",
+      "lat": -41.1356,
+      "lng": -71.3098
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Forqueta",
+      "address": "Avenida San Martín 1441, Bariloche",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine-Italian",
+      "priceRange": "€€",
+      "description": "Family-run trattoria offering handmade pasta, risotto, and traditional Argentine dishes in relaxed setting.",
+      "mustOrder": "Pappardelle with wild boar ragù",
+      "lat": -41.144,
+      "lng": -71.3135
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Melonitas",
+      "address": "Morales 564, Neuquén",
+      "neighbourhood": "Confluencia",
+      "cuisine": "Café-desserts",
+      "priceRange": "€",
+      "description": "Popular local café and patisserie known for artisanal ice cream, pastries, and coffee.",
+      "mustOrder": "Dulce de leche ice cream",
+      "lat": -38.9564,
+      "lng": -68.1642
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "El Charro de la Patagonia",
+      "address": "Avenida Argentina 220, Neuquén",
+      "neighbourhood": "Centro",
+      "cuisine": "Patagonian grill",
+      "priceRange": "€€",
+      "description": "Casual grillhouse specializing in regional meats and traditional Argentine barbecue.",
+      "mustOrder": "Chivito al asador (roasted goat)",
+      "lat": -38.9518,
+      "lng": -68.1575
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Rincón Gourmet",
+      "address": "Calle Chile 456, Neuquén",
+      "neighbourhood": "Centro",
+      "cuisine": "Argentine-contemporary",
+      "priceRange": "€€€",
+      "description": "Modern Argentine kitchen with seasonal menus, craft cocktails, and careful plating.",
+      "mustOrder": "Patagonian trout ceviche",
+      "lat": -38.954,
+      "lng": -68.162
+    }
+  ]
+}

@@ -1,0 +1,1540 @@
+{
+  "id": "coffee_region",
+  "name": "Coffee Triangle",
+  "nameIt": "Eje Cafetero",
+  "capital": "Pereira",
+  "lat": 4.8133,
+  "lng": -75.6969,
+  "emoji": "☕",
+  "colour": "ff9c27b0",
+  "boundingBox": {
+    "north": 5.5,
+    "south": 4.2,
+    "east": -75.1,
+    "west": -76.5
+  },
+  "history": "The Coffee Triangle, known locally as the Eje Cafetero, emerged as Colombia's primary coffee-producing region during the late nineteenth and early twentieth centuries as European demand for high-quality beans surged. The region's mountainous terrain and ideal climate attracted settlers from other parts of Colombia, who established coffee farms that became the backbone of the area's economy and identity. Coffee cultivation transformed the landscape and built prosperous communities centered around harvest cycles and cooperative trading practices. Today, the region remains the heart of Colombian coffee production, accounting for a significant portion of the world's finest arabica beans.",
+  "culturalNotes": "The Coffee Triangle embodies a distinctive blend of rural tradition and warm hospitality, with coffee culture woven into every aspect of daily life and celebration. Local traditions include coffee festivals, artisanal production methods passed down through generations, and a strong sense of community identity tied to the land and its harvests. The region is also known for its colorful colonial architecture, vibrant local markets, and the preservation of indigenous and mestizo cultural practices that predate the coffee boom.",
+  "bestTimeToVisit": "Visit year-round, but April to June and September to November offer the best harvest experiences.",
+  "languageNotes": "The people of the Coffee Triangle speak Spanish with a regional accent and vocabulary influenced by local traditions and agriculture. Useful phrases include 'un tinto' for a small black coffee and 'la cosecha' referring to the coffee harvest season that structures much of the local calendar.",
+  "generatedAt": "2026-07-23T09:36:44.935Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "salento",
+      "name": "Salento",
+      "nameIt": "Salento",
+      "lat": 4.6568,
+      "lng": -75.5689,
+      "type": "TOWN",
+      "description": "A picturesque colonial town with colorful buildings, cobblestone streets, and a vibrant main plaza that serves as the gateway to the Valle de Cocora. It's the most iconic destination in the coffee region and offers a perfect blend of history, culture, and natural beauty.",
+      "imageQueries": [
+        "Salento Colombia colorful town",
+        "Salento main plaza colonial"
+      ],
+      "activities": [
+        {
+          "id": "sale_1",
+          "text": "Valle de Cocora Hike",
+          "detail": "Trek through the world's tallest wax palms in the misty cloud forest valley located 30 minutes from town, an unforgettable full-day excursion.",
+          "lat": 4.6426,
+          "lng": -75.4144
+        },
+        {
+          "id": "sale_2",
+          "text": "Colorful Main Plaza Stroll",
+          "detail": "Wander the pedestrian-friendly Parque Bolívar surrounded by pastel colonial buildings, local shops, and outdoor cafés perfect for people-watching.",
+          "lat": 4.5357,
+          "lng": -75.5047
+        },
+        {
+          "id": "sale_3",
+          "text": "Coffee Farm Tour",
+          "detail": "Visit a working coffee plantation (finca) within walking distance to learn traditional cultivation methods and taste fresh-roasted local beans.",
+          "lat": 4.534,
+          "lng": -75.502
+        },
+        {
+          "id": "sale_4",
+          "text": "Mirador de Salento Viewpoint",
+          "detail": "Climb to this hilltop overlook just outside town for panoramic views of the surrounding coffee region and Cordillera Central mountains.",
+          "lat": 4.537,
+          "lng": -75.503
+        },
+        {
+          "id": "sale_5",
+          "text": "Calle Real Historic Walk",
+          "detail": "Explore the town's main cobblestone street lined with restored colonial architecture, artisan shops, and traditional tiendas.",
+          "lat": 4.536,
+          "lng": -75.5045
+        },
+        {
+          "id": "sale_6",
+          "text": "Bamboo Trail at Bambúe Lodge",
+          "detail": "A short nature walk through native bamboo groves near town offering bird-watching and immersion in local cloud forest ecology.",
+          "lat": 4.538,
+          "lng": -75.5
+        }
+      ],
+      "food": [
+        {
+          "id": "sale_f1",
+          "text": "Trout from Local Rivers",
+          "detail": "Fresh-caught trucha served grilled or fried with lime, a regional specialty given the cool mountain streams surrounding Salento."
+        },
+        {
+          "id": "sale_f2",
+          "text": "Arepa Paisa with Queso",
+          "detail": "Thick corn cake stuffed with local cheese, a hearty breakfast staple prepared fresh daily at market stalls and small restaurants."
+        },
+        {
+          "id": "sale_f3",
+          "text": "Bandeja Paisa",
+          "detail": "Monumental platter of beans, rice, meat, egg, arepa, and chorizo representing Antioquian cuisine and regional food culture."
+        },
+        {
+          "id": "sale_f4",
+          "text": "Freshly Brewed Local Coffee",
+          "detail": "Single-origin coffee from nearby fincas served strong and black at cafeterías throughout town, often accompanied by a small pastry."
+        },
+        {
+          "id": "sale_f5",
+          "text": "Chocorromo Hot Chocolate",
+          "detail": "Rich hot chocolate made with local milk and cinnamon served with cheese or a piece of bread for dunking, especially popular on cool mornings."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sale_c1",
+          "text": "Dress for Temperature Swings",
+          "detail": "Salento sits at 1,895 meters elevation with cool mornings and afternoons; bring layers and a light jacket even during the dry season."
+        },
+        {
+          "id": "sale_c2",
+          "text": "Cash is Essential",
+          "detail": "Many small shops, restaurants, and coffee farms only accept Colombian pesos in cash; ATMs are limited so withdraw funds before visiting rural areas."
+        },
+        {
+          "id": "sale_c3",
+          "text": "Greet with Respect",
+          "detail": "Colombians in small towns value polite greetings like 'buenos días' and 'buen provecho'; acknowledge shopkeepers and locals warmly when entering establishments."
+        },
+        {
+          "id": "sale_c4",
+          "text": "Plan Early for Valle de Cocora",
+          "detail": "Arrange coffee farm and valley tours the evening before through your accommodation or a local guide, as transportation fills quickly and early starts are necessary for best conditions."
+        }
+      ]
+    },
+    {
+      "id": "valle_de_cocora",
+      "name": "Valle de Cocora",
+      "nameIt": "Valle de Cocora",
+      "lat": 4.6426,
+      "lng": -75.4854,
+      "type": "NATURE",
+      "description": "Home to the world's tallest wax palms reaching heights of up to 60 meters, this stunning valley offers breathtaking hiking trails through cloud forests and mountain vistas. It's a UNESCO-listed natural wonder and the region's most spectacular landscape destination.",
+      "imageQueries": [
+        "Valle de Cocora wax palms",
+        "Cocora Valley hiking trails"
+      ],
+      "activities": [
+        {
+          "id": "vall_1",
+          "text": "Wax Palm Trail Hike",
+          "detail": "Trek through the iconic towering wax palms on the main trail, a 3-4 hour moderate hike that takes you through cloud forest and past the world's tallest palm trees reaching up to 60 meters.",
+          "lat": 4.6421,
+          "lng": -75.4135
+        },
+        {
+          "id": "vall_2",
+          "text": "Acaime Natural Reserve Visit",
+          "detail": "Explore this private reserve featuring diverse ecosystems, waterfall hikes, and opportunities to spot hummingbirds and native bird species in their natural habitat.",
+          "lat": 4.6289,
+          "lng": -75.3955
+        },
+        {
+          "id": "vall_3",
+          "text": "Horseback Riding Through the Valley",
+          "detail": "Ride through scenic mountain trails and past wax palm groves on horseback, offering a slower-paced way to experience the valley's stunning landscape.",
+          "lat": 4.6421,
+          "lng": -75.4135
+        },
+        {
+          "id": "vall_4",
+          "text": "Mirador Alto de la Caña Viewpoint",
+          "detail": "Climb to this elevated lookout point for panoramic views of the entire Valle de Cocora, the surrounding coffee region, and dramatic mountain vistas.",
+          "lat": 4.6523,
+          "lng": -75.4089
+        },
+        {
+          "id": "vall_5",
+          "text": "Bamboo Forest Walk at Los Nevados",
+          "detail": "Hike through dense bamboo forests and high-altitude trails offering a different ecosystem from the wax palm valley with cooler temperatures and misty cloud forest views."
+        },
+        {
+          "id": "vall_6",
+          "text": "Kolibri Organic Coffee Farm Tour",
+          "detail": "Visit a working coffee plantation to learn about traditional cultivation methods, coffee processing, and enjoy freshly brewed coffee with views of the valley.",
+          "lat": 4.6318,
+          "lng": -75.4002
+        }
+      ],
+      "food": [
+        {
+          "id": "vall_f1",
+          "text": "Trout (Trucha) from Local Streams",
+          "detail": "Fresh-caught river trout prepared simply grilled or fried, a regional specialty sourced from the valley's cold mountain streams and served at local restaurants."
+        },
+        {
+          "id": "vall_f2",
+          "text": "Arepa Rellena de Queso",
+          "detail": "Warm corn patties stuffed with local cheese and served as a breakfast or snack staple throughout the Coffee Triangle region."
+        },
+        {
+          "id": "vall_f3",
+          "text": "Bandeja Paisa (Regional Version)",
+          "detail": "A hearty platter typical to Colombia's coffee region featuring beans, rice, meat, egg, and arepa, representing the region's agricultural abundance."
+        },
+        {
+          "id": "vall_f4",
+          "text": "Fresh Coffee Experience",
+          "detail": "Sample single-origin coffee directly from valley farms, often served with traditional dulce de leche or fresh fruit accompaniments."
+        },
+        {
+          "id": "vall_f5",
+          "text": "Ajiaco de Montaña",
+          "detail": "A warming mountain stew made with local potatoes, corn, and vegetables, perfect for cool valley evenings and readily available in lodges."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vall_c1",
+          "text": "Respectful Hiking Etiquette",
+          "detail": "Visitors should stay on marked trails to protect the delicate cloud forest ecosystem and respect the land that local guides depend on for their livelihoods."
+        },
+        {
+          "id": "vall_c2",
+          "text": "Hire Local Guides",
+          "detail": "It's customary and important to hire experienced local guides who know the terrain, can identify flora and fauna, and contribute directly to the community's economy."
+        },
+        {
+          "id": "vall_c3",
+          "text": "Early Morning Starts Are Essential",
+          "detail": "Cloud cover typically thickens by midday in the valley, so locals and experienced travelers plan hikes to start at dawn for the clearest views of the wax palms."
+        },
+        {
+          "id": "vall_c4",
+          "text": "Coffee Farm Hospitality",
+          "detail": "When visiting working coffee farms, farmers appreciate genuine interest in their craft; it's customary to ask questions and support by purchasing direct from producers when possible."
+        }
+      ]
+    },
+    {
+      "id": "manizales",
+      "name": "Manizales",
+      "nameIt": "Manizales",
+      "lat": 5.0686,
+      "lng": -75.5244,
+      "type": "CITY",
+      "description": "The capital of Caldas department, Manizales sits atop a mountain at 2,150 meters elevation and offers cool climate, cultural attractions, and nearby coffee plantations. The city is known for its Cathedral, stunning viewpoints, and as a hub for coffee tours and adventure activities.",
+      "imageQueries": [
+        "Manizales Colombia cathedral",
+        "Manizales city viewpoint"
+      ],
+      "activities": [
+        {
+          "id": "mani_1",
+          "text": "Visit Catedral Basílica Metropolitana",
+          "detail": "Explore this stunning Neo-Gothic cathedral with intricate stained glass and panoramic city views from its tower.",
+          "lat": 5.0639,
+          "lng": -75.5038
+        },
+        {
+          "id": "mani_2",
+          "text": "Coffee plantation tour",
+          "detail": "Take a guided tour of local coffee farms to learn about cultivation, harvesting, and roasting of Colombian coffee.",
+          "lat": 5.08,
+          "lng": -75.485
+        },
+        {
+          "id": "mani_3",
+          "text": "Mirador de Cristo Rey",
+          "detail": "Hike or drive to this mountain viewpoint statue overlooking the entire city and surrounding valleys.",
+          "lat": 5.09,
+          "lng": -75.515
+        },
+        {
+          "id": "mani_4",
+          "text": "Recorrido por Centro Histórico",
+          "detail": "Walk through colonial architecture and vibrant plazas in the historic downtown district with local shops and galleries.",
+          "lat": 5.065,
+          "lng": -75.5
+        },
+        {
+          "id": "mani_5",
+          "text": "Parque Arví adventure activities",
+          "detail": "Experience paragliding, hiking, and zip-lining through cloud forests in the mountains surrounding the city.",
+          "lat": 5.105,
+          "lng": -75.495
+        },
+        {
+          "id": "mani_6",
+          "text": "Museo Interactivo de Manizales",
+          "detail": "Discover regional history, coffee heritage, and natural sciences through interactive exhibits.",
+          "lat": 5.068,
+          "lng": -75.502
+        }
+      ],
+      "food": [
+        {
+          "id": "mani_f1",
+          "text": "Ajiaco Manizaleño",
+          "detail": "A hearty local potato and chicken soup served with corn, avocado, and cream, perfect for the cool mountain climate."
+        },
+        {
+          "id": "mani_f2",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh mountain trout cooked in butter and local herbs, a signature dish highlighting the region's cold-water fish."
+        },
+        {
+          "id": "mani_f3",
+          "text": "Café Colombiano",
+          "detail": "Sample specialty coffee directly from local roasters and plantations, often served with a small arepa or pastry."
+        },
+        {
+          "id": "mani_f4",
+          "text": "Bandeja Paisa-style dishes",
+          "detail": "Local variations of this hearty Andean platter featuring beans, rice, meat, and fried elements typical to Caldas region."
+        },
+        {
+          "id": "mani_f5",
+          "text": "Empanadas de queso",
+          "detail": "Crispy fried pastries filled with cheese and spices, a popular street food and afternoon snack in Manizales."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mani_c1",
+          "text": "Dress warmly year-round",
+          "detail": "At 2,150 meters elevation, Manizales stays cool and misty; bring a jacket even during the day."
+        },
+        {
+          "id": "mani_c2",
+          "text": "Plan for Festival de Poesía",
+          "detail": "If visiting in August, experience the prestigious International Poetry Festival that transforms the city into a cultural hub."
+        },
+        {
+          "id": "mani_c3",
+          "text": "Greet with respect in rural areas",
+          "detail": "When visiting coffee plantations or rural communities, use formal Spanish and acknowledge landowners' expertise warmly."
+        },
+        {
+          "id": "mani_c4",
+          "text": "Cash is still common",
+          "detail": "While cards work in the city center, smaller restaurants and rural coffee shops often prefer Colombian pesos in cash."
+        }
+      ]
+    },
+    {
+      "id": "filandia",
+      "name": "Filandia",
+      "nameIt": "Filandia",
+      "lat": 4.7603,
+      "lng": -75.6872,
+      "type": "TOWN",
+      "description": "A charming hilltop town with well-preserved colonial architecture and sweeping views of the surrounding coffee valleys. It offers a quieter, more authentic experience than Salento while maintaining excellent access to hiking and coffee farm visits.",
+      "imageQueries": [
+        "Filandia Colombia viewpoint",
+        "Filandia colonial architecture"
+      ],
+      "activities": [
+        {
+          "id": "fila_1",
+          "text": "Parque Principal de Filandia",
+          "detail": "The heart of town features a restored colonial plaza with the whitewashed Church of Our Lady of Carmen, perfect for observing local life and architecture.",
+          "lat": 4.7606,
+          "lng": -75.6756
+        },
+        {
+          "id": "fila_2",
+          "text": "Walk the Calle Real",
+          "detail": "Stroll the town's main pedestrian street lined with colorful colonial buildings, artisan shops, and local cafés that showcase traditional architecture."
+        },
+        {
+          "id": "fila_3",
+          "text": "Coffee Farm Tour (Finca Típica)",
+          "detail": "Visit a working coffee farm on the valley slopes to learn about cultivation, harvesting, and processing while tasting freshly brewed coffee.",
+          "lat": 4.75,
+          "lng": -75.68
+        },
+        {
+          "id": "fila_4",
+          "text": "Mirador de Filandia Viewpoint",
+          "detail": "Hike to the hillside overlook above town for panoramic views of the green Quindío valley and surrounding coffee plantations.",
+          "lat": 4.77,
+          "lng": -75.67
+        },
+        {
+          "id": "fila_5",
+          "text": "Cascada del Silencio Waterfall",
+          "detail": "Trek through cloud forest to a peaceful waterfall hidden in the valley, accessible via guided hikes from town.",
+          "lat": 4.74,
+          "lng": -75.7
+        },
+        {
+          "id": "fila_6",
+          "text": "Local Artisan Markets",
+          "detail": "Browse weekend markets and small shops selling handmade crafts, woven goods, and local coffee directly from producers."
+        }
+      ],
+      "food": [
+        {
+          "id": "fila_f1",
+          "text": "Tinto with Fresh Arepa",
+          "detail": "Start your morning with small black coffee paired with a warm corn arepa filled with cheese or butter, a staple breakfast combination."
+        },
+        {
+          "id": "fila_f2",
+          "text": "Bandeja Paisa (Local Variation)",
+          "detail": "Though originating from Antioquia, the regional adaptation features grilled meats, beans, rice, and arepas on a single generous platter."
+        },
+        {
+          "id": "fila_f3",
+          "text": "Trout from Local Rivers",
+          "detail": "Fresh agua dulce trout grilled or prepared al ajillo (with garlic) showcases the clean mountain streams surrounding Filandia."
+        },
+        {
+          "id": "fila_f4",
+          "text": "Coffee Tasting Experience",
+          "detail": "Sample specialty coffees prepared by local roasters using beans from nearby farms, often paired with local honey or fruit."
+        },
+        {
+          "id": "fila_f5",
+          "text": "Empanadas de Queso y Papa",
+          "detail": "Crispy fried pastries filled with potatoes and fresh cheese served with ají sauce, a popular street food and snack."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fila_c1",
+          "text": "Coffee Culture Respect",
+          "detail": "Colombians take their coffee seriously—accept offered coffee graciously and take time to savor it rather than rush; it's a social gesture."
+        },
+        {
+          "id": "fila_c2",
+          "text": "Spanish Immersion Opportunity",
+          "detail": "Filandia sees fewer tourists than Salento, so Spanish skills are more valuable here; locals appreciate attempts to communicate in Spanish."
+        },
+        {
+          "id": "fila_c3",
+          "text": "Market Day Timing",
+          "detail": "Visit the town market early on weekends when locals gather with fresh produce and handmade goods; afternoons become quieter."
+        },
+        {
+          "id": "fila_c4",
+          "text": "Finca Hospitality Custom",
+          "detail": "Coffee farm owners often invite visitors to share a meal or coffee in their homes; accepting such invitations is considered respectful and enriches your experience."
+        }
+      ]
+    },
+    {
+      "id": "coffee_cultural_park",
+      "name": "Coffee Cultural Park",
+      "nameIt": "Parque Cultural del Café",
+      "lat": 4.8945,
+      "lng": -75.6956,
+      "type": "LANDMARK",
+      "description": "An expansive theme park dedicated to Colombian coffee culture featuring interactive exhibits, coffee tastings, traditional demonstrations, and beautiful gardens. It's the region's most comprehensive introduction to coffee production and the cultural heritage of the Eje Cafetero.",
+      "imageQueries": [
+        "Coffee Cultural Park Manizales",
+        "Parque Cultural del Café"
+      ],
+      "activities": [
+        {
+          "id": "coff_1",
+          "text": "Coffee Plantation Tour",
+          "detail": "Walk through working coffee fields to learn how beans are grown, harvested, and processed from plant to cup.",
+          "lat": 4.8156,
+          "lng": -75.7018
+        },
+        {
+          "id": "coff_2",
+          "text": "Interactive Coffee Tasting",
+          "detail": "Participate in guided cupping sessions where you sample different Colombian coffee varietals and learn to identify flavor profiles.",
+          "lat": 4.8156,
+          "lng": -75.7018
+        },
+        {
+          "id": "coff_3",
+          "text": "Traditional Pulping Demonstration",
+          "detail": "Observe and sometimes participate in the traditional wet-milling process that removes the cherry pulp from coffee beans.",
+          "lat": 4.8156,
+          "lng": -75.7018
+        },
+        {
+          "id": "coff_4",
+          "text": "Coffee Museum",
+          "detail": "Explore exhibits on the history of Colombian coffee, the Eje Cafetero region, and the cultural impact of coffee on local communities.",
+          "lat": 4.8156,
+          "lng": -75.7018
+        },
+        {
+          "id": "coff_5",
+          "text": "Botanical Gardens Walk",
+          "detail": "Stroll through landscaped gardens featuring native plants, orchids, and scenic viewpoints overlooking the surrounding coffee region.",
+          "lat": 4.8156,
+          "lng": -75.7018
+        },
+        {
+          "id": "coff_6",
+          "text": "Coffee Roasting Workshop",
+          "detail": "Learn the art of roasting green coffee beans and understand how roast levels affect the final coffee flavor.",
+          "lat": 4.8156,
+          "lng": -75.7018
+        }
+      ],
+      "food": [
+        {
+          "id": "coff_f1",
+          "text": "Bandeja Paisa",
+          "detail": "A hearty traditional platter from the Antioquia region featuring beans, rice, meat, arepa, and fresh fruits served with coffee."
+        },
+        {
+          "id": "coff_f2",
+          "text": "Fresh Trout (Trucha)",
+          "detail": "Locally farmed freshwater trout prepared simply grilled or fried, reflecting the region's mountain streams and culinary traditions."
+        },
+        {
+          "id": "coff_f3",
+          "text": "Arepa con Queso",
+          "detail": "Warm cornmeal cakes stuffed with melted local cheese, a classic Colombian comfort food served throughout the park."
+        },
+        {
+          "id": "coff_f4",
+          "text": "Coffee-Infused Desserts",
+          "detail": "Local pastries and sweets made with park-sourced coffee, including coffee-flavored flan and chocolate coffee truffles."
+        },
+        {
+          "id": "coff_f5",
+          "text": "Sancocho",
+          "detail": "A traditional Colombian stew with plantains, yuca, and meat slow-cooked with local vegetables and served with fresh corn."
+        }
+      ],
+      "culture": [
+        {
+          "id": "coff_c1",
+          "text": "Coffee is a Social Ritual",
+          "detail": "Colombians view coffee breaks (tinto) as important moments for connection; take time to pause and enjoy conversation over your cup."
+        },
+        {
+          "id": "coff_c2",
+          "text": "Respect Harvest Seasons",
+          "detail": "The park's activities vary with coffee harvest times; main harvest is October-December and smaller harvest April-June, so plan accordingly."
+        },
+        {
+          "id": "coff_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While English speakers work at the park, learning simple Spanish phrases enhances your connection with local guides and farmers."
+        },
+        {
+          "id": "coff_c4",
+          "text": "Dress Comfortably for Outdoor Terrain",
+          "detail": "Wear sturdy shoes and light layers as you'll be walking through plantations and gardens on hillside terrain with variable weather."
+        }
+      ]
+    },
+    {
+      "id": "pereira",
+      "name": "Pereira",
+      "nameIt": "Pereira",
+      "lat": 4.8133,
+      "lng": -75.6969,
+      "type": "CITY",
+      "description": "The largest city in the Coffee Triangle, Pereira serves as a major transportation hub and cultural center with museums, galleries, and a lively nightlife. It's an excellent base for exploring the region and offers good restaurants, accommodations, and access to nearby attractions.",
+      "imageQueries": [
+        "Pereira Colombia city",
+        "Pereira main plaza"
+      ],
+      "activities": [
+        {
+          "id": "pere_1",
+          "text": "Pereira Botanical Garden",
+          "detail": "A 14-hectare garden showcasing native Colombian flora and orchids, located on the outskirts of the city with walking trails and a butterfly house.",
+          "lat": 4.8156,
+          "lng": -75.6951
+        },
+        {
+          "id": "pere_2",
+          "text": "Cristo Rey Monument",
+          "detail": "A hilltop statue overlooking Pereira with panoramic city views, accessible by cable car or hiking trail from the city center.",
+          "lat": 4.8074,
+          "lng": -75.6892
+        },
+        {
+          "id": "pere_3",
+          "text": "Ukumari Zoo and Wildlife Park",
+          "detail": "An open-concept zoo featuring Andean animals including jaguars, pumas, and spectacled bears set in natural habitat enclosures.",
+          "lat": 4.8651,
+          "lng": -75.7589
+        },
+        {
+          "id": "pere_4",
+          "text": "Museum of Contemporary Art of Pereira",
+          "detail": "Houses rotating exhibitions of modern Colombian and international art in a restored historic building in downtown Pereira."
+        },
+        {
+          "id": "pere_5",
+          "text": "Ciclovía on Carrera Séptima",
+          "detail": "A weekly car-free zone on the main thoroughfare where locals walk, cycle, and socialize on Sunday mornings."
+        },
+        {
+          "id": "pere_6",
+          "text": "Thermal Baths at Santa Rosa de Cabal",
+          "detail": "A short drive from Pereira, these natural hot springs are surrounded by lush landscapes and offer spa experiences.",
+          "lat": 4.8641,
+          "lng": -75.6251
+        }
+      ],
+      "food": [
+        {
+          "id": "pere_f1",
+          "text": "Bandeja Paisa (Pereira style)",
+          "detail": "A hearty platter featuring beans, rice, meat, arepa, and plantains, though Pereira's lighter version differs from the Medellín original."
+        },
+        {
+          "id": "pere_f2",
+          "text": "Trout from local rivers",
+          "detail": "Fresh-caught trout from the region's mountain streams, typically grilled and served with local vegetables and plantains."
+        },
+        {
+          "id": "pere_f3",
+          "text": "Mazorca con queso",
+          "detail": "Boiled corn on the cob topped with melted local cheese, a popular street food and snack throughout the Coffee Triangle."
+        },
+        {
+          "id": "pere_f4",
+          "text": "Coffee farm experience and tasting",
+          "detail": "Visit nearby fincas around Pereira to learn about coffee production and participate in harvesting, followed by cupping tastings of single-origin beans."
+        },
+        {
+          "id": "pere_f5",
+          "text": "Arepas with local cheese",
+          "detail": "Cornmeal cakes stuffed with fresh regional cheese, often eaten for breakfast or as a light snack at local markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pere_c1",
+          "text": "Coffee culture is central to daily life",
+          "detail": "Locals take coffee seriously and appreciate when visitors engage in conversations about bean origins, roasting methods, and brewing—visiting a local café is a social ritual."
+        },
+        {
+          "id": "pere_c2",
+          "text": "Dress casually but neatly",
+          "detail": "Pereirans dress well for social occasions but are generally casual; wearing athletic wear is common for everyday activities, though revealing clothing is less common than in coastal areas."
+        },
+        {
+          "id": "pere_c3",
+          "text": "Greetings matter in social interactions",
+          "detail": "Always greet shopkeepers and service staff with a friendly 'buenos días' or 'buenas tardes'—a handshake or light embrace among acquaintances is customary."
+        },
+        {
+          "id": "pere_c4",
+          "text": "Plan activities around siesta time",
+          "detail": "Many smaller shops and family businesses close between 12 and 2 p.m., so plan restaurant visits during typical meal hours and major museums stay open throughout the day."
+        }
+      ]
+    },
+    {
+      "id": "armenia",
+      "name": "Armenia",
+      "nameIt": "Armenia",
+      "lat": 4.5339,
+      "lng": -75.7316,
+      "type": "CITY",
+      "description": "The capital of Quindío department, Armenia is surrounded by lush coffee plantations and serves as another important base for exploring the region. The city offers comfortable accommodations, good dining options, and easy access to Salento and Valle de Cocora.",
+      "imageQueries": [
+        "Armenia Colombia city",
+        "Armenia Quindío"
+      ],
+      "activities": [
+        {
+          "id": "arme_1",
+          "text": "Quindío Botanical Garden",
+          "detail": "A 12-hectare garden showcasing native Colombian plants, orchids, and birds with walking trails through natural landscape.",
+          "lat": 4.5339,
+          "lng": -75.6789
+        },
+        {
+          "id": "arme_2",
+          "text": "Coffee Plantation Tours",
+          "detail": "Visit working coffee fincas around Armenia to learn about cultivation, harvesting, and processing of Colombian coffee beans.",
+          "lat": 4.54,
+          "lng": -75.68
+        },
+        {
+          "id": "arme_3",
+          "text": "Plaza de Bolívar",
+          "detail": "The central square of Armenia featuring the Cathedral of Armenia, colonial architecture, and local markets where you can experience daily city life.",
+          "lat": 4.5406,
+          "lng": -75.7308
+        },
+        {
+          "id": "arme_4",
+          "text": "Parque de la Vida (Life Park)",
+          "detail": "A recreational park with viewpoints overlooking the Quindío valley, offering hiking trails and picnic areas with panoramic coffee region vistas.",
+          "lat": 4.544,
+          "lng": -75.645
+        },
+        {
+          "id": "arme_5",
+          "text": "Salento Day Trip",
+          "detail": "Take a short drive to the colorful colonial village of Salento, famous for its multicolored buildings and proximity to Valle de Cocora.",
+          "lat": 4.6331,
+          "lng": -75.5639
+        },
+        {
+          "id": "arme_6",
+          "text": "Armenia Cultural Museum",
+          "detail": "Explore exhibits on Quindío's history, indigenous cultures, and coffee heritage in this locally-focused museum.",
+          "lat": 4.538,
+          "lng": -75.73
+        }
+      ],
+      "food": [
+        {
+          "id": "arme_f1",
+          "text": "Bandeja Paisa",
+          "detail": "A hearty platter typical of the coffee region featuring beans, rice, meat, egg, and arepas that reflects local agricultural abundance."
+        },
+        {
+          "id": "arme_f2",
+          "text": "Trout from Local Streams",
+          "detail": "Fresh-caught trout prepared simply grilled or fried, sourced from the cool mountain streams surrounding Armenia."
+        },
+        {
+          "id": "arme_f3",
+          "text": "Arepas with Cheese",
+          "detail": "Warm cornmeal cakes filled with local cheese, a staple breakfast and snack enjoyed throughout the region."
+        },
+        {
+          "id": "arme_f4",
+          "text": "Coffee and Milk (Café con Leche)",
+          "detail": "Armenia's signature morning ritual featuring freshly brewed local coffee served with hot milk, best enjoyed at dawn."
+        },
+        {
+          "id": "arme_f5",
+          "text": "Sancocho",
+          "detail": "A warming stew made with local vegetables, plantain, and meat that represents comfort food of the Eje Cafetero."
+        }
+      ],
+      "culture": [
+        {
+          "id": "arme_c1",
+          "text": "Coffee Culture Respect",
+          "detail": "Colombians take their coffee seriously; always accept offered coffee graciously and engage in conversation about the origin and quality of beans."
+        },
+        {
+          "id": "arme_c2",
+          "text": "Siesta Time Awareness",
+          "detail": "Many local shops and services close between noon and 2 PM for lunch and rest; plan activities accordingly and respect this valued family time."
+        },
+        {
+          "id": "arme_c3",
+          "text": "Friendly Greetings",
+          "detail": "Locals appreciate a warm 'Buenos días' or 'Buenas tardes' when entering shops or restaurants; a smile and basic Spanish go a long way."
+        },
+        {
+          "id": "arme_c4",
+          "text": "Finca Hospitality Customs",
+          "detail": "When visiting coffee plantations, arrive punctually, dress for muddy terrain, and show genuine interest in learning from farmers who take pride in their work."
+        }
+      ]
+    },
+    {
+      "id": "thermal_santa_rosa",
+      "name": "Santa Rosa Hot Springs",
+      "nameIt": "Aguas Termales de Santa Rosa",
+      "lat": 5.3227,
+      "lng": -75.4464,
+      "type": "NATURE",
+      "description": "Natural hot springs sourced from geothermal activity in the Ruiz Tolima volcanic complex, offering warm therapeutic pools surrounded by mountain scenery. It's a relaxing complement to outdoor activities and provides unique wellness experiences in the region.",
+      "imageQueries": [
+        "Santa Rosa hot springs Colombia",
+        "Aguas Termales Santa Rosa"
+      ],
+      "activities": [
+        {
+          "id": "ther_1",
+          "text": "Soak in Thermal Pools",
+          "detail": "Immerse yourself in naturally heated mineral-rich waters ranging from 38–42°C (100–108°F) that flow directly from geothermal sources in the volcanic complex."
+        },
+        {
+          "id": "ther_2",
+          "text": "Guided Nature Hike to Waterfall",
+          "detail": "Trek through cloud forest trails surrounding the springs to reach cascading waterfalls fed by mountain streams and spot endemic bird species."
+        },
+        {
+          "id": "ther_3",
+          "text": "Volcanic Geology Tour",
+          "detail": "Learn about the Ruiz-Tolima volcanic system and geothermal formations with a local guide who explains the geological processes creating the hot springs."
+        },
+        {
+          "id": "ther_4",
+          "text": "Sunrise Visit to Mountain Viewpoint",
+          "detail": "Hike to a nearby ridge at dawn for panoramic views of the Coffee Triangle valleys and volcanic peaks shrouded in morning mist."
+        },
+        {
+          "id": "ther_5",
+          "text": "Mud and Mineral Wrap Treatment",
+          "detail": "Apply naturally occurring thermal mud found near the springs to your skin for a therapeutic spa experience believed to have healing properties."
+        },
+        {
+          "id": "ther_6",
+          "text": "Photography of Thermal Steam",
+          "detail": "Capture the ethereal mist rising from hot pools against forested mountainsides, particularly striking during early morning hours."
+        }
+      ],
+      "food": [
+        {
+          "id": "ther_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh-caught mountain trout from local streams, pan-fried in butter with garlic and served with sides of rice and fresh vegetables."
+        },
+        {
+          "id": "ther_f2",
+          "text": "Ajiaco Tolimense",
+          "detail": "A hearty regional stew made with chicken, potatoes, corn, and guava paste, traditionally served as a warming dish after outdoor activities."
+        },
+        {
+          "id": "ther_f3",
+          "text": "Empanadas de Queso y Papa",
+          "detail": "Golden-fried pastries filled with soft local cheese and mashed potatoes, commonly sold by vendors near the springs entrance."
+        },
+        {
+          "id": "ther_f4",
+          "text": "Mazorca Asada",
+          "detail": "Grilled corn on the cob brushed with butter and sprinkled with local salt and cheese, a popular roadside snack in the region."
+        },
+        {
+          "id": "ther_f5",
+          "text": "Café Geisha",
+          "detail": "Single-origin coffee grown in the surrounding Coffee Triangle hills, served freshly brewed and often paired with a sweet arepa or panela."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ther_c1",
+          "text": "Respect Bathing Hours and Modest Dress",
+          "detail": "Colombians typically wear modest swimwear; avoid skimpy bikinis or swim trunks, and observe posted hours to share facilities respectfully with local families."
+        },
+        {
+          "id": "ther_c2",
+          "text": "Greet with Warmth and Patience",
+          "detail": "Local staff and visitors value friendly conversation and patience; taking time to chat and ask questions about the springs builds goodwill and enriches your experience."
+        },
+        {
+          "id": "ther_c3",
+          "text": "Arrive Early for Fewer Crowds",
+          "detail": "Weekday mornings draw far fewer visitors than weekends, allowing you to experience the thermal pools more peacefully and connect with the natural rhythm of the location."
+        },
+        {
+          "id": "ther_c4",
+          "text": "Bring Cash for Small Vendors",
+          "detail": "Many local food vendors and informal service providers near the springs only accept Colombian pesos in cash, so plan accordingly rather than assuming card payments."
+        }
+      ]
+    },
+    {
+      "id": "cocora_palms_hike",
+      "name": "Cocora Wax Palm Trail",
+      "nameIt": "Sendero de Palmas de Cera",
+      "lat": 4.6409,
+      "lng": -75.4802,
+      "type": "NATURE",
+      "description": "A well-maintained hiking trail that winds through Cocora Valley with increasingly spectacular views of the towering wax palms in their natural habitat. The trek is moderately challenging and offers an immersive experience in one of Colombia's most unique ecosystems.",
+      "imageQueries": [
+        "Cocora palm hiking trail",
+        "wax palm forest hike"
+      ],
+      "activities": [
+        {
+          "id": "coco_1",
+          "text": "Hike to Wax Palm Viewpoint",
+          "detail": "Trek through cloud forest to reach the iconic overlook where hundreds of towering wax palms (the world's tallest palm species) stretch across Cocora Valley in their natural state.",
+          "lat": 4.6421,
+          "lng": -75.3915
+        },
+        {
+          "id": "coco_2",
+          "text": "Explore Acaime Nature Reserve",
+          "detail": "Visit this protected cloud forest sanctuary adjacent to the main trail that shelters endemic bird species and offers alternative hiking routes through pristine montane vegetation.",
+          "lat": 4.6435,
+          "lng": -75.389
+        },
+        {
+          "id": "coco_3",
+          "text": "Visit Palmarito Waterfall",
+          "detail": "Discover a refreshing cascade fed by mountain springs that flows through the valley, offering a cooling respite midway through the hike.",
+          "lat": 4.648,
+          "lng": -75.395
+        },
+        {
+          "id": "coco_4",
+          "text": "Bird Watching Along the Trail",
+          "detail": "Spot Andean condors, mountain toucans, hummingbirds, and other endemic species while hiking through the transitional cloud forest ecosystem.",
+          "lat": 4.6421,
+          "lng": -75.3915
+        },
+        {
+          "id": "coco_5",
+          "text": "Photography at Peak Hours",
+          "detail": "Capture the wax palms during early morning or late afternoon light when mist and golden rays create dramatic atmospheric conditions across the valley.",
+          "lat": 4.6421,
+          "lng": -75.3915
+        },
+        {
+          "id": "coco_6",
+          "text": "Visit Filandia Colonial Town",
+          "detail": "Take a short detour to this well-preserved coffee region village with colorful buildings, local artisan shops, and traditional architecture overlooking the valley.",
+          "lat": 4.6638,
+          "lng": -75.3623
+        }
+      ],
+      "food": [
+        {
+          "id": "coco_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh rainbow trout from local mountain streams prepared simply with butter, garlic, and local herbs—a signature dish of the Cocora region."
+        },
+        {
+          "id": "coco_f2",
+          "text": "Arepa de Queso",
+          "detail": "Warm cornmeal cakes stuffed with melted local cheese, commonly sold at trailhead vendors and rustic restaurants throughout Salento and the valley."
+        },
+        {
+          "id": "coco_f3",
+          "text": "Coffee Experience at a Finca",
+          "detail": "Visit a nearby working coffee farm to learn about cultivation, participate in picking or processing, and taste freshly roasted coffee produced in the Coffee Triangle."
+        },
+        {
+          "id": "coco_f4",
+          "text": "Sancocho de Gallina",
+          "detail": "A hearty traditional stew made with free-range chicken, local root vegetables, and plantains that provides sustenance before or after the hike."
+        },
+        {
+          "id": "coco_f5",
+          "text": "Fresh Fruit Juices",
+          "detail": "Sample tropical juices made from guanabana, lulo, or blackberries at village cafés, made daily from fruits grown in the cooler highland climate."
+        }
+      ],
+      "culture": [
+        {
+          "id": "coco_c1",
+          "text": "Hire a Local Guide",
+          "detail": "Experienced guides from Salento provide invaluable knowledge about the ecosystem, wax palm biology, and safe trail navigation while supporting the local community."
+        },
+        {
+          "id": "coco_c2",
+          "text": "Start Early to Avoid Afternoon Rain",
+          "detail": "The cloud forest receives frequent afternoon downpours, so beginning your hike at dawn ensures better visibility and safer trail conditions."
+        },
+        {
+          "id": "coco_c3",
+          "text": "Support Salento Artisans",
+          "detail": "Browse local handicrafts, coffee, and souvenirs from independent vendors and small shops in Salento village to directly benefit families in the region."
+        },
+        {
+          "id": "coco_c4",
+          "text": "Respect Wax Palm Conservation",
+          "detail": "Stay on marked trails and follow leave-no-trace principles, as these endemic palms are protected species and the ecosystem remains fragile and irreplaceable."
+        }
+      ]
+    },
+    {
+      "id": "otun_quimbaya",
+      "name": "Otún Quimbaya Sanctuary",
+      "nameIt": "Santuario de Fauna y Flora Otún Quimbaya",
+      "lat": 4.7544,
+      "lng": -75.5156,
+      "type": "NATURE",
+      "description": "A protected nature reserve near Pereira featuring cloud forests, rivers, and trails with opportunities to spot exotic birds and wildlife. It offers a pristine natural environment and is ideal for bird watchers and those seeking solitude in nature.",
+      "imageQueries": [
+        "Otún Quimbaya sanctuary",
+        "Otún Quimbaya forest trail"
+      ],
+      "activities": [
+        {
+          "id": "otun_1",
+          "text": "Cloud Forest Trail Hiking",
+          "detail": "Trek through misty montane forest canopy on well-maintained paths to experience the sanctuary's unique ecosystem and spot endemic bird species.",
+          "lat": 4.7667,
+          "lng": -75.5333
+        },
+        {
+          "id": "otun_2",
+          "text": "Bird Watching at Dawn",
+          "detail": "Wake early to observe quetzals, toucans, hummingbirds, and over 200 other species in their most active hours along the sanctuary's designated observation points."
+        },
+        {
+          "id": "otun_3",
+          "text": "Otún River Exploration",
+          "detail": "Walk alongside the crystal-clear river that flows through the sanctuary, observing aquatic wildlife and enjoying the sound of cascading water through the cloud forest.",
+          "lat": 4.765,
+          "lng": -75.535
+        },
+        {
+          "id": "otun_4",
+          "text": "Photography Expedition",
+          "detail": "Capture the sanctuary's dramatic fog-shrouded landscapes, rare wildlife, and vibrant flora with guided tours designed for photographers of all skill levels."
+        },
+        {
+          "id": "otun_5",
+          "text": "Waterfall Visit at La Pastora",
+          "detail": "Hike to this scenic cascade nestled within the reserve where you can swim in natural pools surrounded by virgin forest.",
+          "lat": 4.768,
+          "lng": -75.53
+        },
+        {
+          "id": "otun_6",
+          "text": "Night Forest Walk",
+          "detail": "Experience the sanctuary's nocturnal ecosystem with a guided evening tour to spot owls, insects, frogs, and other creatures active after dark."
+        }
+      ],
+      "food": [
+        {
+          "id": "otun_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh-caught mountain trout from local rivers, pan-fried in butter and served with locally-grown plantains and avocado at nearby lodge restaurants."
+        },
+        {
+          "id": "otun_f2",
+          "text": "Café de Especialidad Quimbaya",
+          "detail": "Single-origin coffee grown in the surrounding Coffee Triangle region, roasted and brewed at sanctuary lodges using traditional methods."
+        },
+        {
+          "id": "otun_f3",
+          "text": "Ajiaco Paisa",
+          "detail": "A hearty Colombian soup made with chicken, potatoes, corn, and avocado, perfect for warming up after cool mornings in the cloud forest."
+        },
+        {
+          "id": "otun_f4",
+          "text": "Ensalada de Frutas Tropicales",
+          "detail": "Fresh salad combining local tropical fruits like guava, passion fruit, and papaya with lime dressing, highlighting the region's agricultural abundance."
+        }
+      ],
+      "culture": [
+        {
+          "id": "otun_c1",
+          "text": "Respect Sanctuary Regulations",
+          "detail": "The reserve strictly limits daily visitors and requires advance reservation; arrive with proper permits and follow guide instructions to protect this delicate ecosystem."
+        },
+        {
+          "id": "otun_c2",
+          "text": "Learn About Coffee Heritage",
+          "detail": "Engage with local guides who often explain the sanctuary's role in protecting the watershed that sustains the Coffee Triangle's world-renowned coffee production."
+        },
+        {
+          "id": "otun_c3",
+          "text": "Dress for Fog and Rain",
+          "detail": "Cloud forest weather changes rapidly with frequent mist and rain even on sunny days; bring waterproof layers and sturdy hiking boots rather than expecting dry conditions."
+        },
+        {
+          "id": "otun_c4",
+          "text": "Support Local Communities",
+          "detail": "Stay at community-run ecolodges and purchase handicrafts from local artisans in Pereira to ensure tourism benefits the families who steward this protected land."
+        }
+      ]
+    },
+    {
+      "id": "geisha_coffee_tour",
+      "name": "Geisha Coffee Farm",
+      "nameIt": "Finca Geisha",
+      "lat": 4.6789,
+      "lng": -75.5412,
+      "type": "LANDMARK",
+      "description": "A renowned family-owned coffee farm offering interactive tours, hands-on coffee picking experiences, and tastings of some of Colombia's finest specialty coffees. It represents the authentic, small-scale coffee production that defines the region's reputation.",
+      "imageQueries": [
+        "Geisha coffee farm Colombia",
+        "Geisha finca Salento"
+      ],
+      "activities": [
+        {
+          "id": "geis_1",
+          "text": "Coffee Plant Tour",
+          "detail": "Walk through Geisha's shade-grown coffee plots to learn about plant varieties, altitude effects, and sustainable farming practices used across the farm's hillside terraces."
+        },
+        {
+          "id": "geis_2",
+          "text": "Coffee Picking Experience",
+          "detail": "Join harvesters during harvest season (September-December) to hand-pick ripe cherries and understand the labor and skill required for specialty-grade selection."
+        },
+        {
+          "id": "geis_3",
+          "text": "Wet Mill Processing Demo",
+          "detail": "Observe and learn how freshly picked cherries are pulped, fermented, and washed at the farm's processing facility to prepare beans for drying."
+        },
+        {
+          "id": "geis_4",
+          "text": "Drying Beds Walk",
+          "detail": "Visit the traditional raised drying beds where beans are spread and turned daily to reach optimal moisture content before roasting."
+        },
+        {
+          "id": "geis_5",
+          "text": "Farm-to-Cup Cupping Session",
+          "detail": "Participate in professional coffee tasting with Geisha's team, comparing flavor profiles of their microlots and learning cupping terminology."
+        },
+        {
+          "id": "geis_6",
+          "text": "Roastery Tour",
+          "detail": "See small-batch roasting in action and understand how roast profiles are developed to highlight the farm's high-altitude geisha varietal characteristics."
+        }
+      ],
+      "food": [
+        {
+          "id": "geis_f1",
+          "text": "Fresh Arepas with Farm Cheese",
+          "detail": "Warm cornmeal cakes served with locally-made cheese and butter, a staple breakfast at the farm's café overlooking the plantation."
+        },
+        {
+          "id": "geis_f2",
+          "text": "Bandeja Paisa-Style Lunch",
+          "detail": "A hearty regional platter featuring beans, rice, plantain, chorizo, and fresh salad, reflecting traditional Antioquian cuisine of the Coffee Triangle."
+        },
+        {
+          "id": "geis_f3",
+          "text": "Coffee with Dulce de Leche Pastry",
+          "detail": "Freshly brewed Geisha coffee paired with a local sweet pastry filled with milk caramel, common afternoon fare at the farm's tasting room."
+        },
+        {
+          "id": "geis_f4",
+          "text": "Trout from Mountain Streams",
+          "detail": "Locally-caught freshwater trout prepared simply grilled or with lemon, sourced from cool streams flowing through the high-altitude region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "geis_c1",
+          "text": "Respect Harvest Season Timing",
+          "detail": "Plan visits between September and December for the best hands-on picking experience, as this is when the farm is most active and families work together intensively."
+        },
+        {
+          "id": "geis_c2",
+          "text": "Learn Basic Spanish for Interaction",
+          "detail": "While some guides speak English, farm workers primarily speak Spanish; learning key coffee and farm-related terms enhances connection with the community."
+        },
+        {
+          "id": "geis_c3",
+          "text": "Arrive Early and Dress for Terrain",
+          "detail": "Morning tours start at dawn to avoid heat, and visitors should wear sturdy shoes and weather-appropriate layers since the farm sits at 1,400–1,800 meters elevation with variable conditions."
+        }
+      ]
+    },
+    {
+      "id": "eco_lodge_cocora",
+      "name": "Cocora Valley Ecolodge",
+      "nameIt": "Ecolodge Valle de Cocora",
+      "lat": 4.645,
+      "lng": -75.485,
+      "type": "LANDMARK",
+      "description": "A sustainably-designed lodge nestled in the Cocora Valley offering accommodation with easy access to hiking trails and immersive nature experiences. It provides a base for early morning hikes and sunset views of the wax palms.",
+      "imageQueries": [
+        "Cocora Valley ecolodge",
+        "Valle de Cocora accommodation"
+      ],
+      "activities": [
+        {
+          "id": "eco__1",
+          "text": "Wax Palm Forest Hike",
+          "detail": "Trek through the world's tallest palm trees on marked trails departing from the lodge, typically a 2-3 hour moderate hike through misty cloud forest.",
+          "lat": 4.6426,
+          "lng": -75.3959
+        },
+        {
+          "id": "eco__2",
+          "text": "Sunset Viewpoint Walk",
+          "detail": "Short evening walk to a ridge overlook where the Cocora Valley opens below and golden light illuminates the wax palms before dusk.",
+          "lat": 4.642,
+          "lng": -75.3945
+        },
+        {
+          "id": "eco__3",
+          "text": "Acaime Natural Reserve Trek",
+          "detail": "Full-day guided hike to a neighboring reserve featuring waterfalls, endemic bird species, and pristine mountain streams accessible from the valley.",
+          "lat": 4.65,
+          "lng": -75.405
+        },
+        {
+          "id": "eco__4",
+          "text": "Pre-Dawn Bird Watching",
+          "detail": "Early morning guided walks to spot toucans, hummingbirds, and tanagers as the valley awakens, best undertaken with a naturalist guide from the lodge."
+        },
+        {
+          "id": "eco__5",
+          "text": "Horseback Valley Ride",
+          "detail": "Guided trail ride through lower Cocora Valley and local farmland, combining horseback culture with scenic pastoral landscapes around the lodge.",
+          "lat": 4.638,
+          "lng": -75.388
+        },
+        {
+          "id": "eco__6",
+          "text": "Coffee Farm Visit",
+          "detail": "Short trip to a neighboring cafetal to learn about shade-grown coffee production and taste freshly brewed coffee from the Coffee Triangle region.",
+          "lat": 4.63,
+          "lng": -75.39
+        }
+      ],
+      "food": [
+        {
+          "id": "eco__f1",
+          "text": "Ajiaco Paisano",
+          "detail": "A hearty regional soup made with chicken, local potatoes, corn, and avocado served in large portions—a Colombian classic and lodge staple."
+        },
+        {
+          "id": "eco__f2",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh mountain trout from nearby streams, pan-fried with butter and served with rice and seasonal vegetables."
+        },
+        {
+          "id": "eco__f3",
+          "text": "Arepa Rellena",
+          "detail": "Grilled corn cakes stuffed with cheese, beans, or chorizo—a ubiquitous Colombian street food and quick meal at the lodge."
+        },
+        {
+          "id": "eco__f4",
+          "text": "Café Geisha Tasting",
+          "detail": "A tasting flight of single-origin, artisanal coffees grown in the surrounding Coffee Triangle with notes explaining each farm's elevation and flavor profile."
+        },
+        {
+          "id": "eco__f5",
+          "text": "Picadillo Vallecaucano",
+          "detail": "A regional hash made with local beef, potatoes, and regional spices, often served as a midday meal with rice and beans."
+        }
+      ],
+      "culture": [
+        {
+          "id": "eco__c1",
+          "text": "Greet with Warmth",
+          "detail": "Colombians value personal connection; greet lodge staff and locals with a genuine 'buenos días' or 'buenas tardes'—formality and friendliness matter."
+        },
+        {
+          "id": "eco__c2",
+          "text": "Pace Your Hikes",
+          "detail": "The valley sits at 1,500+ meters elevation; locals and guides move deliberately on trails, and visitors should acclimatize before attempting longer day hikes."
+        },
+        {
+          "id": "eco__c3",
+          "text": "Support Campesino Culture",
+          "detail": "The Cocora Valley is home to working coffee farmers and agricultural families; patronizing local guides and artisans directly supports these communities."
+        },
+        {
+          "id": "eco__c4",
+          "text": "Respect Weather Patterns",
+          "detail": "Mornings are often mist-shrouded and cool while afternoons can clear; bring layers and plan hikes early, as afternoon rain is common in the coffee zone."
+        }
+      ]
+    },
+    {
+      "id": "las_lajas_waterfall",
+      "name": "Las Lajas Waterfall",
+      "nameIt": "Salto de Las Lajas",
+      "lat": 4.7223,
+      "lng": -75.5889,
+      "type": "NATURE",
+      "description": "A beautiful multi-tiered waterfall accessible via a scenic hike from Filandia, surrounded by verdant valley landscapes and coffee plantations. It offers a refreshing natural swimming pool and is a popular spot for a moderate day hike.",
+      "imageQueries": [
+        "Las Lajas waterfall Colombia",
+        "Salto de Las Lajas Filandia"
+      ],
+      "activities": [
+        {
+          "id": "las__1",
+          "text": "Hike to Las Lajas Waterfall",
+          "detail": "Follow the well-marked trail from Filandia through coffee plantations and cloud forest, taking approximately 2–3 hours round trip to reach the multi-tiered cascade.",
+          "lat": 4.7614,
+          "lng": -75.6789
+        },
+        {
+          "id": "las__2",
+          "text": "Swim in the natural pool",
+          "detail": "Cool off in the refreshing emerald-colored swimming hole at the base of the waterfall, ideal for a post-hike dip on warm days.",
+          "lat": 4.7614,
+          "lng": -75.6789
+        },
+        {
+          "id": "las__3",
+          "text": "Photograph the tiered cascades",
+          "detail": "Capture the striking multi-level water formations and surrounding verdant valley landscape, especially stunning during morning light or after rainfall.",
+          "lat": 4.7614,
+          "lng": -75.6789
+        },
+        {
+          "id": "las__4",
+          "text": "Visit a nearby coffee farm",
+          "detail": "Tour a local finca to learn about coffee cultivation, processing, and tasting while enjoying views of the surrounding Coffee Triangle plantations.",
+          "lat": 4.75,
+          "lng": -75.67
+        },
+        {
+          "id": "las__5",
+          "text": "Bird watching along the trail",
+          "detail": "Spot tropical species including hummingbirds, toucans, and tanagers in the cloud forest ecosystem surrounding the waterfall.",
+          "lat": 4.7614,
+          "lng": -75.6789
+        },
+        {
+          "id": "las__6",
+          "text": "Picnic at scenic viewpoints",
+          "detail": "Pack local snacks and enjoy lunch at one of several overlooks along the trail with panoramic views of the Quindío Valley."
+        }
+      ],
+      "food": [
+        {
+          "id": "las__f1",
+          "text": "Bandeja Paisa",
+          "detail": "A hearty traditional platter from the Andean region featuring beans, rice, ground meat, chorizo, and fried egg, commonly served in rural coffee-country restaurants."
+        },
+        {
+          "id": "las__f2",
+          "text": "Trout (Trucha) from local streams",
+          "detail": "Fresh-caught trout prepared simply grilled or fried, sourced from cold mountain streams near Filandia and the waterfall region."
+        },
+        {
+          "id": "las__f3",
+          "text": "Ajiaco Tolimense",
+          "detail": "A warming potato and chicken soup flavored with corn and local herbs, perfect after a cool mountain hike."
+        },
+        {
+          "id": "las__f4",
+          "text": "Fresh fruit juices and smoothies",
+          "detail": "Refreshing batidos made from local tropical fruits such as guanabana, passion fruit, and blackberry at roadside cafés in Filandia."
+        },
+        {
+          "id": "las__f5",
+          "text": "Campesino breakfast (Desayuno Campesino)",
+          "detail": "Simple morning fare of arepas, cheese, eggs, and fresh-brewed local coffee served at countryside lodges and small eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "las__c1",
+          "text": "Start early to avoid crowds",
+          "detail": "Weekday mornings offer a more peaceful experience on the trail, and early starts allow you to finish before afternoon rain showers common in the mountains."
+        },
+        {
+          "id": "las__c2",
+          "text": "Respect private coffee farm boundaries",
+          "detail": "Much of the landscape is privately owned agricultural land, so stay on marked trails and ask permission before exploring beyond the main hiking route."
+        },
+        {
+          "id": "las__c3",
+          "text": "Bring proper footwear and rain gear",
+          "detail": "The trail can be muddy and slippery year-round; waterproof hiking boots and a light rain jacket are essential for safe and comfortable travel."
+        },
+        {
+          "id": "las__c4",
+          "text": "Tip local guides generously",
+          "detail": "If hiring a guide from Filandia, a 10–15% tip is customary and appreciated, supporting the local economy directly."
+        }
+      ]
+    },
+    {
+      "id": "coffee_triangle",
+      "name": "Coffee Triangle",
+      "nameLocal": "Eje Cafetero",
+      "type": "REGION",
+      "lat": 4.8397,
+      "lng": -75.7581,
+      "description": "A UNESCO World Heritage zone covering three departments known for producing world-class coffee surrounded by lush green mountains. Visitors come to tour working coffee plantations, experience agritourism, and enjoy the stunning landscape and hospitality.",
+      "activities": [],
+      "food": [],
+      "culture": []
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Brunch Café",
+      "address": "Calle 19 #4-51, Manizales",
+      "neighbourhood": "Centro",
+      "cuisine": "Café/Brunch",
+      "priceRange": "€€",
+      "description": "Cozy specialty coffee shop with excellent pastries and brunch options in the heart of Manizales.",
+      "mustOrder": "Capucchino and croissant de queso",
+      "lat": 5.0686,
+      "lng": -75.5177
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Casa Vieja",
+      "address": "Calle 23 #21-18, Manizales",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian/Comida Criolla",
+      "priceRange": "€€",
+      "description": "Traditional Colombian restaurant housed in a colonial building serving authentic regional dishes.",
+      "mustOrder": "Bandeja Paisa and Sancocho",
+      "lat": 5.0704,
+      "lng": -75.5154
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Restaurante Donde Cecilia",
+      "address": "Calle 18 #23-45, Pereira",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian",
+      "priceRange": "€€",
+      "description": "Family-run spot known for generous portions of traditional paisa and eje cafetero cuisine.",
+      "mustOrder": "Trucha a la mantequilla",
+      "lat": 4.8133,
+      "lng": -75.6964
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Luna Lunera",
+      "address": "Carrera 7 #19-31, Salento",
+      "neighbourhood": "Centro",
+      "cuisine": "International/Vegetarian",
+      "priceRange": "€€",
+      "description": "Charming café with vegetarian options and international cuisine in the picturesque colonial town.",
+      "mustOrder": "Veggie burger and fresh juices",
+      "lat": 4.755,
+      "lng": -75.5675
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Café Colombiano",
+      "address": "Calle Principal, Salento",
+      "neighbourhood": "Centro",
+      "cuisine": "Café/Café con leche",
+      "priceRange": "€",
+      "description": "Casual coffee stop with a view of Salento's main square, perfect for traditional Colombian coffee.",
+      "mustOrder": "Tinto and arepas de queso",
+      "lat": 4.756,
+      "lng": -75.568
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "El Asador de Don Pepe",
+      "address": "Calle 18 #4-15, Armenia",
+      "neighbourhood": "Centro",
+      "cuisine": "Grilled Meats/Parrilla",
+      "priceRange": "€€€",
+      "description": "Upscale steakhouse specializing in grilled meats with excellent wine selection.",
+      "mustOrder": "Costilla al carbón with chimichurri",
+      "lat": 4.5339,
+      "lng": -75.7313
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Restaurante La Serena",
+      "address": "Calle 20 #8-30, Armenia",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian/Seafood",
+      "priceRange": "€€",
+      "description": "Local favorite serving fresh seafood and traditional dishes in a warm, welcoming atmosphere.",
+      "mustOrder": "Pargo a la sal and camarones al ajillo",
+      "lat": 4.5348,
+      "lng": -75.7295
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Fonda de la Montaña",
+      "address": "Vereda La Manuela, Filandia",
+      "neighbourhood": "Outskirts",
+      "cuisine": "Colombian/Farm-to-table",
+      "priceRange": "€€",
+      "description": "Rustic mountain lodge restaurant with homemade food and stunning valley views.",
+      "mustOrder": "Trucha con papa criolla and ajiaco",
+      "lat": 4.7617,
+      "lng": -75.6822
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Artisan Coffee Lab",
+      "address": "Calle 17 #8-45, Pereira",
+      "neighbourhood": "Centro",
+      "cuisine": "Café Specialty/Light Fare",
+      "priceRange": "€€",
+      "description": "Modern coffee laboratory focused on single-origin brews and coffee education.",
+      "mustOrder": "Pour-over single-origin Ethiopian",
+      "lat": 4.8144,
+      "lng": -75.6955
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Hacienda",
+      "address": "Calle 21 #17-25, Manizales",
+      "neighbourhood": "La Estación",
+      "cuisine": "Colombian/International",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant with Colombian and international fusion cuisine in a restored historic building.",
+      "mustOrder": "Lomo al café and mojarra frita",
+      "lat": 5.0722,
+      "lng": -75.5142
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Punto Rojo",
+      "address": "Calle 19 #6-31, Manizales",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian Tapas",
+      "priceRange": "€€",
+      "description": "Contemporary tapas bar offering small plates of traditional and modern Colombian cuisine.",
+      "mustOrder": "Tabla de quesos and patacones",
+      "lat": 5.0694,
+      "lng": -75.5168
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Restaurante Valle Verde",
+      "address": "Carrera 9 #21-47, Calarcá",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian/Trout",
+      "priceRange": "€€",
+      "description": "Riverside restaurant famous for fresh trout and views over the Quindío Valley.",
+      "mustOrder": "Trucha al ajillo and ensalada de palmito",
+      "lat": 4.6844,
+      "lng": -75.7064
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Casa Kiwi",
+      "address": "Calle Real, Salento",
+      "neighbourhood": "Centro",
+      "cuisine": "Café/Bakery",
+      "priceRange": "€€",
+      "description": "Cozy café and bakery with homemade pastries, coffee, and light lunch options.",
+      "mustOrder": "Cinnamon rolls and cappuccino",
+      "lat": 4.7545,
+      "lng": -75.5685
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "El Sazón de la Abuela",
+      "address": "Calle 18 #5-20, Dosquebradas",
+      "neighbourhood": "Centro",
+      "cuisine": "Colombian/Comida Criolla",
+      "priceRange": "€",
+      "description": "No-frills family eatery serving generous helpings of authentic Colombian home cooking.",
+      "mustOrder": "Mondongo and ajiaco paisa",
+      "lat": 4.8258,
+      "lng": -75.6456
+    }
+  ]
+}

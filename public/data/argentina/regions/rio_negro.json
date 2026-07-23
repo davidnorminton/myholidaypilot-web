@@ -1,0 +1,1726 @@
+{
+  "id": "rio_negro",
+  "name": "Río Negro",
+  "nameIt": "Río Negro",
+  "capital": "Viedma",
+  "lat": -41.1335,
+  "lng": -63.0026,
+  "emoji": "🍎",
+  "colour": "ff9c27b0",
+  "boundingBox": {
+    "north": -38.5,
+    "south": -43.5,
+    "east": -62,
+    "west": -71.5
+  },
+  "history": "Río Negro province in Argentina was originally inhabited by the Mapuche and other indigenous peoples before Spanish colonization in the 16th century. The region remained sparsely settled for centuries, with the lower Río Negro valley serving mainly as a frontier zone between European settlements and indigenous territories. In the late 19th century, following the Conquest of the Desert campaign, the area was more systematically colonized and developed as agricultural and ranching land. The province was formally established in 1884, and its development accelerated through the 20th century with irrigation projects, infrastructure expansion, and the growth of towns like Viedma and General Roca.",
+  "culturalNotes": "Río Negro blends frontier heritage with modern agricultural identity, deeply rooted in gaucho traditions and rural values despite increasing urbanization. The region is renowned for its fruit production, especially apples and pears, which shape both its economy and local pride. The Patagonian landscape and a mild climate foster an outdoor-oriented culture where fishing, hiking, and connection to nature remain central to daily life and regional identity.",
+  "bestTimeToVisit": "December to March and April to May offer ideal weather for exploring lakes, mountains, and fruit orchards.",
+  "languageNotes": "Spanish is the primary language, spoken with the characteristic Argentine accent and intonation typical of Patagonia. Locals may use regional expressions and gaucho vocabulary, though standard Spanish is widely understood, and English is increasingly common in urban centers and tourist areas.",
+  "generatedAt": "2026-07-23T08:57:27.491Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "bariloche",
+      "name": "San Carlos de Bariloche",
+      "nameIt": "San Carlos de Bariloche",
+      "lat": -41.1345,
+      "lng": -71.3103,
+      "type": "CITY",
+      "description": "Argentina's premier mountain resort city nestled between Nahuel Huapi Lake and the Andes, famous for chocolate, skiing, and outdoor adventures. It's the gateway to adventure sports, trekking, and stunning alpine scenery that attracts visitors year-round.",
+      "imageQueries": [
+        "Bariloche Lake Andes mountains",
+        "San Carlos de Bariloche waterfront"
+      ],
+      "activities": [
+        {
+          "id": "bari_1",
+          "text": "Cerro Campanario Ascent",
+          "detail": "Ride the chairlift up this 1,050-meter peak for panoramic views of Nahuel Huapi Lake, the city, and surrounding Andes mountains.",
+          "lat": -41.3458,
+          "lng": -71.5075
+        },
+        {
+          "id": "bari_2",
+          "text": "Circuito Chico Scenic Drive",
+          "detail": "Drive or hike the famous 80-kilometer loop around the Circuito Chico that connects stunning viewpoints, forests, and smaller lakes near the city.",
+          "lat": -41.3667,
+          "lng": -71.5333
+        },
+        {
+          "id": "bari_3",
+          "text": "Ski at Cerro Catedral",
+          "detail": "Experience world-class skiing and snowboarding at South America's largest ski resort, operating June through September on the nearby mountain.",
+          "lat": -41.4375,
+          "lng": -71.5333
+        },
+        {
+          "id": "bari_4",
+          "text": "Kayaking on Nahuel Huapi Lake",
+          "detail": "Paddle across Argentina's second-largest lake surrounded by forested shores and Andean peaks, with rental services available throughout the city.",
+          "lat": -41.3625,
+          "lng": -71.5458
+        },
+        {
+          "id": "bari_5",
+          "text": "Chocolate Factory Tours",
+          "detail": "Visit iconic chocolate makers like Abuela Goye or Mamuschka to learn traditional chocolate-making techniques and sample premium Argentine chocolate.",
+          "lat": -41.155,
+          "lng": -71.4408
+        },
+        {
+          "id": "bari_6",
+          "text": "Trekking to Laguna de los Tres Picos",
+          "detail": "Hike this moderate trail through lenga forests to a pristine mountain lake with striking views of jagged peaks.",
+          "lat": -41.35,
+          "lng": -71.6
+        },
+        {
+          "id": "bari_7",
+          "text": "Neuquén River Rafting",
+          "detail": "Navigate exciting Class II and III rapids on this turquoise river known for its pristine water and stunning canyon scenery.",
+          "lat": -41.3,
+          "lng": -71.65
+        }
+      ],
+      "food": [
+        {
+          "id": "bari_f1",
+          "text": "Truchas a la mantequilla",
+          "detail": "Fresh local trout caught from Nahuel Huapi Lake, simply prepared with butter and served with regional vegetables."
+        },
+        {
+          "id": "bari_f2",
+          "text": "Chocolate con churros",
+          "detail": "Rich hot chocolate paired with crispy fried churros, a beloved Argentine afternoon treat especially popular in Bariloche's chocolate shops."
+        },
+        {
+          "id": "bari_f3",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted lamb from Patagonia, seasoned with native herbs and cooked over open flames, representing the region's gaucho heritage."
+        },
+        {
+          "id": "bari_f4",
+          "text": "Venison steak (Ciervo)",
+          "detail": "Grilled venison from local Patagonian deer, typically served medium-rare with mushroom or berry reductions."
+        },
+        {
+          "id": "bari_f5",
+          "text": "Smoked salmon from local lakes",
+          "detail": "Sustainably sourced salmon cured and smoked using traditional methods, served as appetizers or part of regional charcuterie boards."
+        },
+        {
+          "id": "bari_f6",
+          "text": "Cerveza artesanal local",
+          "detail": "Sample craft beers from breweries like Cervecería Berlina or Patagonia Sur, using pure mountain water and local ingredients."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bari_c1",
+          "text": "Mountain weather changes rapidly",
+          "detail": "Bring layered clothing and rain gear year-round, as weather in the Andes can shift dramatically within hours regardless of season."
+        },
+        {
+          "id": "bari_c2",
+          "text": "Spanish is the primary language",
+          "detail": "While tourism is common, most locals speak Spanish; learning basic phrases greatly enhances interactions with residents and small business owners."
+        },
+        {
+          "id": "bari_c3",
+          "text": "Siesta culture still exists",
+          "detail": "Many shops and services close between 1 and 4 PM for lunch; plan activities accordingly and respect this traditional Argentine schedule."
+        },
+        {
+          "id": "bari_c4",
+          "text": "Credit cards and ATMs widely available",
+          "detail": "While cards are accepted in most establishments, some small family-run restaurants and chocolate shops prefer cash payments."
+        }
+      ]
+    },
+    {
+      "id": "circuito_chico",
+      "name": "Circuito Chico",
+      "nameIt": "Circuito Chico",
+      "lat": -41.1689,
+      "lng": -71.4256,
+      "type": "NATURE",
+      "description": "A spectacular 80-kilometer scenic loop drive south of Bariloche featuring pristine lakes, waterfalls, and mountain vistas with stops at viewpoints and small towns. This quintessential Patagonian route is one of South America's most rewarding day trips.",
+      "imageQueries": [
+        "Circuito Chico route Patagonia",
+        "Cerro Campanario lake views"
+      ],
+      "activities": [
+        {
+          "id": "circ_1",
+          "text": "Lago Moreno viewpoint",
+          "detail": "Stop at this iconic overlook for classic turquoise lake views framed by Cerro Campanario and the Andes beyond.",
+          "lat": -41.3856,
+          "lng": -71.5061
+        },
+        {
+          "id": "circ_2",
+          "text": "Cascada Los Alerces waterfall hike",
+          "detail": "Walk through ancient alerce forest to reach a pristine waterfall dropping into a crystal-clear pool.",
+          "lat": -41.4139,
+          "lng": -71.4694
+        },
+        {
+          "id": "circ_3",
+          "text": "Colonia Suiza village tour",
+          "detail": "Explore this charming Swiss-influenced settlement with traditional architecture, craft shops, and local artisan cafés.",
+          "lat": -41.4556,
+          "lng": -71.5994
+        },
+        {
+          "id": "circ_4",
+          "text": "Cerro Campanario chairlift ascent",
+          "detail": "Ride the cable car up this 1,050-meter peak for panoramic views of Lakes Nahuel Huapi, Moreno, and surrounding mountains.",
+          "lat": -41.3922,
+          "lng": -71.5097
+        },
+        {
+          "id": "circ_5",
+          "text": "Lago Gutiérrez scenic stop",
+          "detail": "Pause at this secluded turquoise lake's eastern shore for photography and picnicking away from main crowds.",
+          "lat": -41.4311,
+          "lng": -71.4278
+        },
+        {
+          "id": "circ_6",
+          "text": "Puerto Pañol beach access",
+          "detail": "Walk down to this small sandy beach on Lago Moreno for swimming and views of the Circuito's most photographed landscape.",
+          "lat": -41.3967,
+          "lng": -71.5228
+        },
+        {
+          "id": "circ_7",
+          "text": "Punto Panorámico López overlook",
+          "detail": "Stop at this elevated viewpoint for sweeping vistas across multiple lakes and the distant Cerro López peak.",
+          "lat": -41.4028,
+          "lng": -71.4889
+        }
+      ],
+      "food": [
+        {
+          "id": "circ_f1",
+          "text": "Trucha ahumada (smoked trout)",
+          "detail": "Fresh-caught Patagonian lake trout smoked over beech wood, available at local shops and restaurants throughout the circuit."
+        },
+        {
+          "id": "circ_f2",
+          "text": "Kuchen de Colonia Suiza",
+          "detail": "Rich layered cake with jam and cream following Swiss-German tradition, best sampled at family-run cafés in Colonia Suiza."
+        },
+        {
+          "id": "circ_f3",
+          "text": "Cordero patagónico (Patagonian lamb)",
+          "detail": "Slow-cooked wild lamb from the region's estancias, tender and flavorful, served at restaurants in Bariloche and small lodges."
+        },
+        {
+          "id": "circ_f4",
+          "text": "Chocolate artesanal (artisanal chocolate)",
+          "detail": "Belgian-style chocolate made by local producers using Argentinian ingredients, found in Bariloche shops near the circuit entry points."
+        },
+        {
+          "id": "circ_f5",
+          "text": "Empanadas de queso y champiñones",
+          "detail": "Baked pastries filled with local cheese and wild mushrooms from the Patagonian forests, sold at roadside stops and picnic areas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "circ_c1",
+          "text": "Drive the loop counterclockwise early morning",
+          "detail": "Starting before 8 AM and going counterclockwise from Bariloche ensures better light for photography and fewer tour buses at viewpoints."
+        },
+        {
+          "id": "circ_c2",
+          "text": "Respect the Swiss heritage in Colonia Suiza",
+          "detail": "This small town was founded by Swiss immigrants; locals appreciate visitors who engage respectfully with their cultural traditions and shop at family-owned businesses."
+        },
+        {
+          "id": "circ_c3",
+          "text": "Allocate a full day with stops",
+          "detail": "While the 80 kilometers can be driven in three hours, a worthwhile visit requires six to eight hours to hike, eat, and experience viewpoints properly."
+        },
+        {
+          "id": "circ_c4",
+          "text": "Weather changes rapidly",
+          "detail": "Patagonian mountain weather shifts quickly; bring layers and check conditions, as morning clarity can turn to afternoon rain or wind affecting visibility."
+        }
+      ]
+    },
+    {
+      "id": "cerro_campanario",
+      "name": "Cerro Campanario",
+      "nameIt": "Cerro Campanario",
+      "lat": -41.1556,
+      "lng": -71.3892,
+      "type": "LANDMARK",
+      "description": "A 1,050-meter peak accessible by chairlift offering panoramic views of Bariloche, Nahuel Huapi Lake, and the surrounding mountain ranges. The summit provides some of the region's most iconic photography opportunities.",
+      "imageQueries": [
+        "Cerro Campanario viewpoint",
+        "Bariloche from Campanario"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Chairlift to Summit",
+          "detail": "Ride the two-stage chairlift to the 1,050-meter peak for panoramic views of Bariloche, Nahuel Huapi Lake, and the Andes.",
+          "lat": -41.3667,
+          "lng": -71.5167
+        },
+        {
+          "id": "cerr_2",
+          "text": "Sunrise Photography",
+          "detail": "Arrive early to capture golden-hour light illuminating the lake and mountain ranges from the summit platform.",
+          "lat": -41.3667,
+          "lng": -71.5167
+        },
+        {
+          "id": "cerr_3",
+          "text": "Lago Nahuel Huapi Viewpoint",
+          "detail": "Stand at the main summit platform to photograph the crystalline blue lake surrounded by snow-capped peaks and temperate forests.",
+          "lat": -41.3667,
+          "lng": -71.5167
+        },
+        {
+          "id": "cerr_4",
+          "text": "Hiking Trails from Summit",
+          "detail": "Explore marked walking paths along the ridge offering alternative vantage points and access to nearby peaks.",
+          "lat": -41.3667,
+          "lng": -71.5167
+        },
+        {
+          "id": "cerr_5",
+          "text": "Mountain Biking Descent",
+          "detail": "Mountain bikers can ride downhill trails from the summit during summer months after taking the chairlift up."
+        },
+        {
+          "id": "cerr_6",
+          "text": "Picnic at Mirador",
+          "detail": "Pack local cheeses and bread to enjoy a meal at one of the scenic overlooks with lake and mountain backdrops.",
+          "lat": -41.3667,
+          "lng": -71.5167
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Asado",
+          "detail": "Grilled meats and vegetables prepared in Patagonian style, typically available at refugios and lodges near the base."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh trout from Nahuel Huapi Lake, prepared simply with butter and served at mountain restaurants throughout the region."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Chocolate Casero Bariloche",
+          "detail": "Thick, artisanal hot chocolate made with locally-produced chocolate, a warming tradition to enjoy after descending the mountain."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted Patagonian lamb, a regional specialty found at lodges and restaurants with views of the lake."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Baked pastries filled with local cheese and wild mushrooms, common roadside snacks in the Bariloche area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Chairlift Etiquette",
+          "detail": "Respect the queue system and allow local guides and regular visitors to board first; the lift operates year-round with variable hours."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Photography Respect",
+          "detail": "Ask permission before photographing other visitors; the summit attracts professional and casual photographers, and some prefer privacy."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Weather Preparedness",
+          "detail": "Mountain weather changes rapidly; bring layers and rain gear even on clear mornings, as afternoon storms are common in summer."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Spanish as Primary Language",
+          "detail": "While some staff speak English, learning basic Spanish phrases ensures better communication with chairlift operators and mountain guides."
+        }
+      ]
+    },
+    {
+      "id": "puerto_blest",
+      "name": "Puerto Blest",
+      "nameIt": "Puerto Blest",
+      "lat": -41.2956,
+      "lng": -71.7333,
+      "type": "COASTAL",
+      "description": "A pristine fjord-like inlet at the western end of Nahuel Huapi Lake accessible only by boat, surrounded by temperate rainforest and dramatic cliffs. The remote location and pristine beauty make it a magical destination for nature lovers.",
+      "imageQueries": [
+        "Puerto Blest fjord Patagonia",
+        "Nahuel Huapi Lake inlet"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Fjord Boat Exploration",
+          "detail": "Navigate the pristine waters of Puerto Blest inlet by private boat or guided tour to witness the dramatic cliff faces and temperate rainforest rising directly from the fjord.",
+          "lat": -41.7833,
+          "lng": -71.7667
+        },
+        {
+          "id": "puer_2",
+          "text": "Cascada de los Cantaros Hike",
+          "detail": "Trek through native southern beech forest to reach a multi-tiered waterfall tumbling into the fjord, accessible via marked trails from the Puerto Blest dock.",
+          "lat": -41.785,
+          "lng": -71.765
+        },
+        {
+          "id": "puer_3",
+          "text": "Rainforest Nature Walk",
+          "detail": "Guided or self-guided walks through the temperate rainforest to observe native flora including arrayanes, coihues, and endemic bird species in their natural habitat."
+        },
+        {
+          "id": "puer_4",
+          "text": "Photography and Landscape Viewing",
+          "detail": "Capture the dramatic interplay of steep granite cliffs, cascading waterfalls, and dense forest reflections on the mirror-like waters of the inlet."
+        },
+        {
+          "id": "puer_5",
+          "text": "Fishing Excursions",
+          "detail": "Fish for introduced trout species in the fjord's cold, clear waters under the guidance of local fishing operators during permitted seasons."
+        },
+        {
+          "id": "puer_6",
+          "text": "Camping at Puerto Blest",
+          "detail": "Stay overnight at the small campground to experience the fjord at dawn and dusk when wildlife activity peaks and light conditions are most dramatic.",
+          "lat": -41.7833,
+          "lng": -71.7667
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Fresh Patagonian Trout",
+          "detail": "Locally caught lake trout prepared simply grilled or pan-seared at the basic lodge or brought from nearby Puerto Pañol, showcasing the region's pristine waters."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Choripán",
+          "detail": "Grilled Argentine sausage on crusty bread with chimichurri, a staple available at the lodge or nearby settlements for hungry hikers and boaters."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Wild Mushroom Dishes",
+          "detail": "Seasonal preparations featuring Patagonian wild mushrooms like hongos de árbol (tree fungi) foraged from the local rainforest and served at regional lodges."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Lamb Patagónico",
+          "detail": "Slow-roasted Patagonian lamb, a regional specialty reflecting the area's ranching heritage, occasionally available at Puerto Pañol nearby."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "Accessibility Only by Boat",
+          "detail": "Puerto Blest has no road access and can only be reached by ferry from Puerto Pañol or private boat, so plan your departure times carefully and check weather conditions."
+        },
+        {
+          "id": "puer_c2",
+          "text": "Remote Self-Sufficiency",
+          "detail": "The inlet has minimal services and no shops, so bring all supplies, medications, and provisions needed for your stay or day visit from nearby towns."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Respect Protected Environment",
+          "detail": "The fjord sits within Nahuel Huapi National Park with strict conservation rules; stay on marked trails, pack out all waste, and do not disturb wildlife or vegetation."
+        }
+      ]
+    },
+    {
+      "id": "villa_la_angostura",
+      "name": "Villa La Angostura",
+      "nameIt": "Villa La Angostura",
+      "lat": -40.7742,
+      "lng": -71.6342,
+      "type": "TOWN",
+      "description": "An elegant alpine village on the northern shore of Nahuel Huapi Lake known for its Swiss-style architecture, upscale dining, and gateway access to the Seven Lakes Route. It offers a more refined and quieter alternative to Bariloche.",
+      "imageQueries": [
+        "Villa La Angostura village",
+        "Villa La Angostura lake architecture"
+      ],
+      "activities": [
+        {
+          "id": "vill_1",
+          "text": "Cerro Bayo Ski Resort",
+          "detail": "A intimate alpine ski area with stunning lake views, ideal for intermediate skiers seeking fewer crowds than larger resorts.",
+          "lat": -41.7739,
+          "lng": -71.6447
+        },
+        {
+          "id": "vill_2",
+          "text": "Seven Lakes Route (Ruta de los Siete Lagos)",
+          "detail": "A spectacular 108-km scenic drive connecting Villa La Angostura to San Martín de los Andes, passing through pristine forests and mountain passes.",
+          "lat": -41.75,
+          "lng": -71.65
+        },
+        {
+          "id": "vill_3",
+          "text": "Lago Nahuel Huapi Waterfront Stroll",
+          "detail": "A peaceful walk along the northern shore of Patagonia's largest lake with views of the Andes and elegant villa architecture.",
+          "lat": -41.7717,
+          "lng": -71.6425
+        },
+        {
+          "id": "vill_4",
+          "text": "Peninsula Quetrihué Nature Reserve",
+          "detail": "A protected peninsula accessible by scenic trail offering native southern beech forests, lookout points, and birdwatching opportunities.",
+          "lat": -41.7956,
+          "lng": -71.5831
+        },
+        {
+          "id": "vill_5",
+          "text": "Fly-Fishing Excursions",
+          "detail": "Guided trips on nearby pristine rivers and creeks targeting native trout in the surrounding Patagonian watershed.",
+          "lat": -41.75,
+          "lng": -71.64
+        },
+        {
+          "id": "vill_6",
+          "text": "Bosque de Circunvalación Trail",
+          "detail": "A moderate hiking loop around the village perimeter showcasing Andean forest, wildflowers, and panoramic mountain vistas.",
+          "lat": -41.7717,
+          "lng": -71.6425
+        }
+      ],
+      "food": [
+        {
+          "id": "vill_f1",
+          "text": "Trucha a la Patagonia",
+          "detail": "Fresh local trout prepared simply with local herbs, butter, and often served with mushrooms foraged from nearby forests."
+        },
+        {
+          "id": "vill_f2",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted Patagonian lamb seasoned with regional herbs and typically accompanied by seasonal vegetables and full-bodied wines."
+        },
+        {
+          "id": "vill_f3",
+          "text": "Venison with Calafate Berry Sauce",
+          "detail": "Tender wild venison paired with a reduction made from native calafate berries, a signature dish highlighting local game and fruit."
+        },
+        {
+          "id": "vill_f4",
+          "text": "Empanadas de Champiñones",
+          "detail": "Hand-folded pastries filled with locally gathered mushrooms, cheese, and herbs, reflecting the village's refined approach to regional comfort food."
+        },
+        {
+          "id": "vill_f5",
+          "text": "Artisanal Chocolate and Dulce de Leche",
+          "detail": "Handcrafted chocolates and caramel confections made by local chocolatiers using Argentine milk and often infused with Patagonian flavors like pine nuts or berries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vill_c1",
+          "text": "Dress Code Awareness",
+          "detail": "Villa La Angostura maintains an upscale, refined atmosphere; casual hiking wear is acceptable during the day, but dinner restaurants expect smart-casual to formal attire."
+        },
+        {
+          "id": "vill_c2",
+          "text": "Siesta Respeto",
+          "detail": "Many local shops and services observe a midday closure between 1 and 4 pm; plan activities accordingly and respect the slower pace that defines village life."
+        },
+        {
+          "id": "vill_c3",
+          "text": "Reserve Ahead",
+          "detail": "Premium restaurants and accommodations book quickly, especially during ski season (June–August) and summer holidays; advanced reservations are essential."
+        },
+        {
+          "id": "vill_c4",
+          "text": "Spanish Preference",
+          "detail": "While English is spoken in tourist areas, locals appreciate visitors attempting Spanish; the village culture values personal connection and courtesy over transaction speed."
+        }
+      ]
+    },
+    {
+      "id": "ruta_siete_lagos",
+      "name": "Seven Lakes Route",
+      "nameIt": "Ruta de los Siete Lagos",
+      "lat": -40.8989,
+      "lng": -71.5522,
+      "type": "NATURE",
+      "description": "A 107-kilometer scenic drive connecting Villa La Angostura to San Martín de los Andes, passing through forests and alongside seven stunning alpine lakes. This route is one of Patagonia's most beautiful drives with countless pull-offs for photography.",
+      "imageQueries": [
+        "Ruta Siete Lagos Argentina",
+        "Seven Lakes Route Patagonia"
+      ],
+      "activities": [
+        {
+          "id": "ruta_1",
+          "text": "Lago Espejo viewpoint",
+          "detail": "Stop at this perfectly still lake to photograph mirror-like reflections of surrounding peaks, located at one of the route's most iconic pull-offs.",
+          "lat": -40.7667,
+          "lng": -71.6167
+        },
+        {
+          "id": "ruta_2",
+          "text": "Cascada de Los Siete Lagos",
+          "detail": "Hike to a series of small waterfalls flowing between the alpine lakes, accessible from marked trailheads along the route.",
+          "lat": -40.8333,
+          "lng": -71.5833
+        },
+        {
+          "id": "ruta_3",
+          "text": "Lago Lácar kayaking",
+          "detail": "Paddle on the deepest and largest of the seven lakes near San Martín de los Andes to experience Patagonian waters up close.",
+          "lat": -40.1431,
+          "lng": -71.3474
+        },
+        {
+          "id": "ruta_4",
+          "text": "Mirador del Traidor",
+          "detail": "Climb to this scenic overlook for panoramic views of multiple lakes and the Andes mountains, typically a 30-minute walk from the roadside.",
+          "lat": -40.7989,
+          "lng": -71.5633
+        },
+        {
+          "id": "ruta_5",
+          "text": "Lago Villarino fishing",
+          "detail": "Cast for introduced rainbow and brown trout in this pristine alpine lake, popular with fly fishers during the southern summer months.",
+          "lat": -40.8142,
+          "lng": -71.6058
+        },
+        {
+          "id": "ruta_6",
+          "text": "Villa La Angostura colonial town",
+          "detail": "Explore the charming Alpine-style village at the route's southern terminus with galleries, craft shops, and lakeside walks.",
+          "lat": -40.7661,
+          "lng": -71.6345
+        },
+        {
+          "id": "ruta_7",
+          "text": "Parque Nacional Lanín access",
+          "detail": "Enter this national park from the route to hike among lenga forests and approach the base of Volcán Lanín.",
+          "lat": -40.9369,
+          "lng": -71.5056
+        }
+      ],
+      "food": [
+        {
+          "id": "ruta_f1",
+          "text": "Trucha a la mantequilla",
+          "detail": "Fresh locally caught trout pan-seared in butter, a signature dish at lakeside restaurants throughout the route."
+        },
+        {
+          "id": "ruta_f2",
+          "text": "Venison empanadas",
+          "detail": "Hand-held pastries filled with Patagonian deer meat, sold at roadside stops and local bakeries in Villa La Angostura."
+        },
+        {
+          "id": "ruta_f3",
+          "text": "Smoked salmon from Andes streams",
+          "detail": "Cold-smoked local salmon served as an appetizer or snack at village restaurants and artisan food shops."
+        },
+        {
+          "id": "ruta_f4",
+          "text": "Chocolate from Bariloche",
+          "detail": "Patagonian chocolate shops near the route's northern sections offer rich, handmade chocolates with regional specialties."
+        },
+        {
+          "id": "ruta_f5",
+          "text": "Wild boar stew",
+          "detail": "A hearty regional preparation using invasive wild boar meat, served in rustic lodges and restaurants along the route."
+        },
+        {
+          "id": "ruta_f6",
+          "text": "Cordero patagónico",
+          "detail": "Grilled lamb from local Patagonian ranches, often served with chimichurri sauce at restaurants in San Martín de los Andes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ruta_c1",
+          "text": "Drive counterclockwise from Villa La Angostura",
+          "detail": "Local drivers recommend this direction to have the best views and pull-off positioning on the left side of the vehicle."
+        },
+        {
+          "id": "ruta_c2",
+          "text": "Plan for winter closures",
+          "detail": "The route can be partially or fully closed from June to August due to snow, so verify road conditions before traveling in southern winter."
+        },
+        {
+          "id": "ruta_c3",
+          "text": "Respect quiet hours at lodges",
+          "detail": "Patagonian hospitality values early bedtimes and quiet evenings; most accommodations expect guests to wind down by 10 PM."
+        },
+        {
+          "id": "ruta_c4",
+          "text": "Bring sun protection year-round",
+          "detail": "The high altitude and clear Patagonian air intensifies UV exposure even on cool days, making sunscreen essential for outdoor activities."
+        }
+      ]
+    },
+    {
+      "id": "san_martin_de_los_andes",
+      "name": "San Martín de los Andes",
+      "nameIt": "San Martín de los Andes",
+      "lat": -40.1458,
+      "lng": -71.3467,
+      "type": "CITY",
+      "description": "A vibrant adventure town on the shores of turquoise Lácar Lake surrounded by volcanic peaks and pristine wilderness. It's a hub for trekking, mountaineering, water sports, and offers excellent restaurants and accommodations.",
+      "imageQueries": [
+        "San Martin de los Andes lake",
+        "San Martin de los Andes town"
+      ],
+      "activities": [
+        {
+          "id": "san__1",
+          "text": "Lago Lácar kayaking",
+          "detail": "Paddle the crystal-clear turquoise waters of Lago Lácar, surrounded by volcanic peaks and forested shores, with guided tours available for all skill levels.",
+          "lat": -40.1461,
+          "lng": -71.3427
+        },
+        {
+          "id": "san__2",
+          "text": "Cerro Chapelco skiing",
+          "detail": "Visit Argentina's premier ski resort on Chapelco volcano during winter months, offering alpine runs and snowboarding with panoramic Andean views.",
+          "lat": -40.175,
+          "lng": -71.4517
+        },
+        {
+          "id": "san__3",
+          "text": "Siete Lagos Route trek",
+          "detail": "Hike or drive the scenic route connecting seven alpine lakes through pristine forests, with multiple trailheads offering day hikes of varying difficulty.",
+          "lat": -40.2,
+          "lng": -71.55
+        },
+        {
+          "id": "san__4",
+          "text": "Cascada Chachín waterfall",
+          "detail": "Trek through native southern beech forest to reach this powerful waterfall descending from the volcanic highlands, accessible via a moderate 2-hour hike.",
+          "lat": -40.1656,
+          "lng": -71.3289
+        },
+        {
+          "id": "san__5",
+          "text": "Mirador del Bandurria viewpoint",
+          "detail": "Ascend to this overlook via a scenic path for panoramic views of Lago Lácar, the town, and surrounding peaks, ideal at sunset.",
+          "lat": -40.1402,
+          "lng": -71.3301
+        },
+        {
+          "id": "san__6",
+          "text": "Rock climbing at local crags",
+          "detail": "Scale granite and volcanic rock formations in nearby areas with guided climbing services suitable for beginners to advanced climbers.",
+          "lat": -40.15,
+          "lng": -71.34
+        },
+        {
+          "id": "san__7",
+          "text": "Fly-fishing on Río Hua Hum",
+          "detail": "Fish for brown and rainbow trout in pristine mountain rivers with experienced local guides familiar with seasonal patterns.",
+          "lat": -40.25,
+          "lng": -71.28
+        }
+      ],
+      "food": [
+        {
+          "id": "san__f1",
+          "text": "Trucha a la manteca",
+          "detail": "Fresh lake trout from Lácar prepared simply with butter and local herbs, a signature dish showcasing the region's exceptional fish."
+        },
+        {
+          "id": "san__f2",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted Patagonian lamb, traditionally cooked over open fire or in the oven, tender and flavorful from the region's grass-fed herds."
+        },
+        {
+          "id": "san__f3",
+          "text": "Choripán",
+          "detail": "Grilled Argentine sausage served in crusty bread with chimichurri sauce, a ubiquitous local street food and casual meal staple."
+        },
+        {
+          "id": "san__f4",
+          "text": "Empanadas de queso y champiñones",
+          "detail": "Local hand-held pastries filled with local cheeses and wild mushrooms foraged from the surrounding forests."
+        },
+        {
+          "id": "san__f5",
+          "text": "Merluza a la cerveza",
+          "detail": "Fresh hake prepared with local craft beers and regional ingredients, reflecting the town's excellent restaurant scene."
+        },
+        {
+          "id": "san__f6",
+          "text": "Chocolate caliente artesanal",
+          "detail": "Rich, thick hot chocolate made from local and imported quality cocoa, perfect for chilly mountain mornings or après-adventure warmth."
+        }
+      ],
+      "culture": [
+        {
+          "id": "san__c1",
+          "text": "Respect mountain weather and conditions",
+          "detail": "Patagonian weather changes rapidly; always check forecasts, carry layers, and inform someone of your hiking plans before heading into wilderness areas."
+        },
+        {
+          "id": "san__c2",
+          "text": "Learn basic Spanish phrases",
+          "detail": "While tourism staff speak English, locals appreciate visitors attempting Spanish, and it enhances interactions at smaller restaurants and shops."
+        },
+        {
+          "id": "san__c3",
+          "text": "Book accommodations and activities in advance",
+          "detail": "San Martín is extremely popular, especially during summer (December–February) and ski season (July–August), so reservations are essential."
+        },
+        {
+          "id": "san__c4",
+          "text": "Leave No Trace principles are paramount",
+          "detail": "The community is fiercely protective of their pristine environment; pack out all waste, stay on marked trails, and respect private property and wildlife."
+        }
+      ]
+    },
+    {
+      "id": "cerro_chapelco",
+      "name": "Cerro Chapelco",
+      "nameIt": "Cerro Chapelco",
+      "lat": -40.1278,
+      "lng": -71.2733,
+      "type": "LANDMARK",
+      "description": "A 2,394-meter active volcano visible from San Martín offering excellent skiing in winter and stunning hiking and views in summer. The snow-capped cone dominates the landscape and offers the region's premier winter sports.",
+      "imageQueries": [
+        "Cerro Chapelco volcano",
+        "Chapelco ski resort"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Alpine Skiing",
+          "detail": "Experience Argentina's premier ski resort with runs ranging from beginner to expert terrain across the volcano's slopes during the Southern Hemisphere winter (June-September).",
+          "lat": -40.7461,
+          "lng": -71.3642
+        },
+        {
+          "id": "cerr_2",
+          "text": "Crater Hike",
+          "detail": "Trek to the snow-capped summit and peer into the active volcanic crater for panoramic views of the Lake District and surrounding peaks.",
+          "lat": -40.7461,
+          "lng": -71.3642
+        },
+        {
+          "id": "cerr_3",
+          "text": "Summer Mountain Biking",
+          "detail": "Ride the resort's bike park and forest trails during warmer months when snow melts and alpine terrain becomes accessible.",
+          "lat": -40.7461,
+          "lng": -71.3642
+        },
+        {
+          "id": "cerr_4",
+          "text": "Scenic Chairlift Rides",
+          "detail": "Take the chairlift to mid-mountain elevations for stunning views of the volcano's cone and surrounding Patagonian landscape without the physical effort of hiking.",
+          "lat": -40.7461,
+          "lng": -71.3642
+        },
+        {
+          "id": "cerr_5",
+          "text": "Wildflower and Forest Walks",
+          "detail": "Explore the lower slopes in late spring and summer when alpine meadows burst with native Patagonian wildflowers and the beech forests are lush and accessible.",
+          "lat": -40.7461,
+          "lng": -71.3642
+        },
+        {
+          "id": "cerr_6",
+          "text": "Photography at Sunrise",
+          "detail": "Capture the snow-capped cone glowing in early morning light from viewpoints around the base, with San Martín's lights visible in the valley below.",
+          "lat": -40.7461,
+          "lng": -71.3642
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh local trout from the region's pristine lakes prepared simply with butter, lemon, and local herbs is a signature dish in mountain restaurants."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted Patagonian lamb, tender and flavorful from grass-fed herds, often served with seasonal vegetables and chimichurri sauce."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Venison Stew",
+          "detail": "Hearty guiso made with local wild deer meat, potatoes, and root vegetables is a warming mountain specialty perfect after a day on the slopes."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Calafate Pie",
+          "detail": "Dessert made with tart native calafate berries picked from Patagonian forests, baked into a flaky pastry with dulce de leche."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Smoked Fish and Cheeses",
+          "detail": "Local smoked trout and artisan cheeses from nearby producers are commonly featured at mountain lodges and restaurants as appetizers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Winter Season is Peak Time",
+          "detail": "June through September brings snow and crowds; book accommodations and ski passes well in advance, as this is when the region is busiest."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Spanish is Primary Language",
+          "detail": "While resort staff may speak English, learning basic Spanish phrases is appreciated and helpful for interactions in nearby San Martín and smaller lodges."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Outdoor Culture and Thermals",
+          "detail": "Patagonian residents embrace outdoor living; locals and visitors often relax in natural hot springs (termas) near the base after a day of mountain activities."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Weather Changes Rapidly",
+          "detail": "Mountain conditions can shift dramatically; always bring layered clothing and be prepared for sudden wind, snow, or sun regardless of the forecast."
+        }
+      ]
+    },
+    {
+      "id": "el_bolson",
+      "name": "El Bolsón",
+      "nameIt": "El Bolsón",
+      "lat": -41.9614,
+      "lng": -71.5269,
+      "type": "TOWN",
+      "description": "A bohemian mountain town famous for its hippie culture, craft breweries, outdoor markets, and as a base for trekking in the nearby Piltriquitrón mountain range. It offers a relaxed vibe and excellent access to mountain adventures south of Bariloche.",
+      "imageQueries": [
+        "El Bolson market Argentina",
+        "El Bolson mountain town"
+      ],
+      "activities": [
+        {
+          "id": "el_b_1",
+          "text": "Piltriquitrón Trek",
+          "detail": "Hike the iconic peak above El Bolsón offering panoramic views of the valley and surrounding Andes, typically a full-day round trip with well-marked trails.",
+          "lat": -41.9667,
+          "lng": -71.5333
+        },
+        {
+          "id": "el_b_2",
+          "text": "Cascada Mallín Ahogado",
+          "detail": "Visit this accessible waterfall nestled in the nearby forest, perfect for a half-day excursion with swimming opportunities in the natural pool.",
+          "lat": -41.9583,
+          "lng": -71.5417
+        },
+        {
+          "id": "el_b_3",
+          "text": "Feria de Artesanos (Crafts Fair)",
+          "detail": "Browse the weekly outdoor market in Plaza Pagano featuring local artisans selling handmade crafts, textiles, pottery, and organic products in a relaxed bohemian atmosphere.",
+          "lat": -41.9667,
+          "lng": -71.5333
+        },
+        {
+          "id": "el_b_4",
+          "text": "Cerro de los Maitenes",
+          "detail": "Trek this gentler mountain with stunning valley vistas and access to alpine meadows, suitable for visitors seeking moderate hiking without extreme technical difficulty.",
+          "lat": -41.9733,
+          "lng": -71.5167
+        },
+        {
+          "id": "el_b_5",
+          "text": "Craft Brewery Tour",
+          "detail": "Sample locally-brewed IPAs and craft beers at breweries like Cervecería Berlina or Blest, many offering tastings and tours in this thriving beer culture hub.",
+          "lat": -41.9667,
+          "lng": -71.5333
+        },
+        {
+          "id": "el_b_6",
+          "text": "Laguna Azul",
+          "detail": "Drive or hike to this stunning turquoise glacial lake surrounded by beech forests, offering photography opportunities and a peaceful natural swimming spot.",
+          "lat": -41.8833,
+          "lng": -71.6167
+        }
+      ],
+      "food": [
+        {
+          "id": "el_b_f1",
+          "text": "Cerveza Artesanal (Craft Beer)",
+          "detail": "Sample locally-brewed craft beers unique to El Bolsón's thriving microbrewery scene, often paired with traditional Patagonian fare."
+        },
+        {
+          "id": "el_b_f2",
+          "text": "Truchas a la Mantequilla (Butter-Poached Trout)",
+          "detail": "Enjoy fresh locally-caught trout prepared simply with butter and herbs, a signature dish reflecting the region's mountain rivers."
+        },
+        {
+          "id": "el_b_f3",
+          "text": "Pan Casero (Homemade Bread)",
+          "detail": "Taste rustic sourdough and whole-grain breads baked fresh by local panadería shops, reflecting the town's back-to-the-land ethos."
+        },
+        {
+          "id": "el_b_f4",
+          "text": "Chivo Guisado (Stewed Goat)",
+          "detail": "Sample this traditional Patagonian slow-cooked dish made with local goat meat, herbs, and red wine at family-run restaurants."
+        },
+        {
+          "id": "el_b_f5",
+          "text": "Mermelada Casera (Homemade Jam)",
+          "detail": "Purchase or taste berry jams made from locally-foraged or cultivated berries, sold at artisan markets and local shops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "el_b_c1",
+          "text": "Embrace the Relaxed Pace",
+          "detail": "El Bolsón operates on bohemian time; expect longer meals, flexible schedules, and shops that may close unexpectedly for personal time."
+        },
+        {
+          "id": "el_b_c2",
+          "text": "Visit the Feria on Market Days",
+          "detail": "The outdoor artisan fair operates primarily on weekends and holidays; plan your visit accordingly to experience the town's vibrant community spirit and local crafts."
+        },
+        {
+          "id": "el_b_c3",
+          "text": "Respect Mountain Safety Protocols",
+          "detail": "Always inform someone of your trekking plans, carry proper gear, and check weather conditions before heading into the Piltriquitrón range, as conditions change rapidly."
+        },
+        {
+          "id": "el_b_c4",
+          "text": "Support Local Artisans",
+          "detail": "The town's identity centers on independent craftspeople and small businesses; purchasing directly from makers and family-run establishments sustains the community's bohemian character."
+        }
+      ]
+    },
+    {
+      "id": "refugio_frey",
+      "name": "Refugio Frey",
+      "nameIt": "Refugio Frey",
+      "lat": -41.2367,
+      "lng": -71.45,
+      "type": "LANDMARK",
+      "description": "A legendary backcountry mountain refuge nestled in the Andes accessible only on foot, serving as a base for serious hiking and mountaineering in the park's interior. The multi-day trek to reach it traverses stunning alpine terrain.",
+      "imageQueries": [
+        "Refugio Frey mountain hut",
+        "Frey trek Patagonia"
+      ],
+      "activities": [
+        {
+          "id": "refu_1",
+          "text": "Cerro Torre Approach",
+          "detail": "Hike to the base of the iconic granite spire Cerro Torre, one of Patagonia's most famous peaks, offering dramatic views of the tower and surrounding peaks.",
+          "lat": -49.3347,
+          "lng": -73.1453
+        },
+        {
+          "id": "refu_2",
+          "text": "Laguna de los Tres Picos",
+          "detail": "Trek to this stunning alpine lake surrounded by jagged peaks, accessible as a day hike from the refuge with panoramic mountain vistas.",
+          "lat": -49.3283,
+          "lng": -73.1567
+        },
+        {
+          "id": "refu_3",
+          "text": "Mount Fitz Roy Summit Attempt",
+          "detail": "Undertake a challenging multi-day mountaineering expedition to climb Patagonia's most celebrated peak, requiring rock climbing skills and acclimatization.",
+          "lat": -49.3347,
+          "lng": -73.1567
+        },
+        {
+          "id": "refu_4",
+          "text": "Laguna Torre Loop",
+          "detail": "Complete a scenic day loop from the refuge passing glacial lakes and moraine terrain with views of Cerro Torre and Fitz Roy massif.",
+          "lat": -49.3283,
+          "lng": -73.1483
+        },
+        {
+          "id": "refu_5",
+          "text": "Piedra del Fraile Shelter Trek",
+          "detail": "Day hike to this historic shelter and viewpoint, following ridge trails that offer expansive vistas of the Fitz Roy range and Argentine steppe.",
+          "lat": -49.34,
+          "lng": -73.165
+        },
+        {
+          "id": "refu_6",
+          "text": "Rock Climbing on Local Crags",
+          "detail": "Access numerous granite climbing routes on nearby rock formations suitable for various skill levels, from sport climbing to traditional multi-pitch routes.",
+          "lat": -49.3347,
+          "lng": -73.152
+        },
+        {
+          "id": "refu_7",
+          "text": "Laguna Sucia Exploration",
+          "detail": "Visit this smaller glacial lake near the refuge, quieter than other destinations, providing wildlife viewing opportunities and reflective mountain scenery."
+        }
+      ],
+      "food": [
+        {
+          "id": "refu_f1",
+          "text": "Asado Patagónico",
+          "detail": "Grilled lamb or beef cooked over an open fire, a staple mountain dinner at the refuge prepared family-style for communal dining."
+        },
+        {
+          "id": "refu_f2",
+          "text": "Locro de Papas",
+          "detail": "A hearty stewed potato and vegetable dish, perfect comfort food after long mountain days and served frequently at refugio dinners."
+        },
+        {
+          "id": "refu_f3",
+          "text": "Pan Casero",
+          "detail": "Fresh homemade bread baked at the refuge, a staple served at breakfast and dinner, often warm and fragrant from the kitchen ovens."
+        },
+        {
+          "id": "refu_f4",
+          "text": "Empanadas Patagónicas",
+          "detail": "Stuffed pastries filled with beef, cheese, or vegetables, commonly served as lunch provisions or snacks before hiking expeditions."
+        },
+        {
+          "id": "refu_f5",
+          "text": "Té de Jengibre",
+          "detail": "Warming ginger tea made with fresh ginger, a cherished after-hike beverage in the high-altitude refuge where temperatures drop significantly."
+        }
+      ],
+      "culture": [
+        {
+          "id": "refu_c1",
+          "text": "Shared Refuge Dinners",
+          "detail": "Expect communal dining where international mountaineers gather to share meals and stories; participation is part of the mountain culture and experience."
+        },
+        {
+          "id": "refu_c2",
+          "text": "Leave No Trace Ethics",
+          "detail": "The remote location emphasizes strict environmental responsibility; all waste must be packed out and water sources treated respectfully to preserve the pristine wilderness."
+        },
+        {
+          "id": "refu_c3",
+          "text": "Refugieros as Local Guides",
+          "detail": "The refuge keepers hold deep knowledge of conditions, routes, and mountain weather; consulting them daily is essential for safety and success in this alpine environment."
+        },
+        {
+          "id": "refu_c4",
+          "text": "Self-Sufficiency Expectation",
+          "detail": "Visitors should arrive prepared with personal gear and supplies; the refuge operates minimally and assumes climbers are experienced in backcountry mountaineering."
+        }
+      ]
+    },
+    {
+      "id": "lago_espejo",
+      "name": "Espejo Lake",
+      "nameIt": "Lago Espejo",
+      "lat": -41.3564,
+      "lng": -71.5234,
+      "type": "NATURE",
+      "description": "A pristine alpine lake famous for its mirror-like reflections of surrounding peaks, located on the Circuito Chico route south of Bariloche. It's one of the most photographed lakes in the region.",
+      "imageQueries": [
+        "Lago Espejo reflection",
+        "Espejo Lake Patagonia"
+      ],
+      "activities": [
+        {
+          "id": "lago_1",
+          "text": "Mirror Reflection Photography",
+          "detail": "Capture the lake's famous mirror-like surface at dawn or dusk when the water is perfectly still and reflects the surrounding Andes peaks.",
+          "lat": -41.4667,
+          "lng": -71.5333
+        },
+        {
+          "id": "lago_2",
+          "text": "Shoreline Walk",
+          "detail": "Stroll along the lake's accessible paths to spot native southern beech forests and enjoy multiple vantage points for viewing the reflection effect."
+        },
+        {
+          "id": "lago_3",
+          "text": "Picnic at the Overlook",
+          "detail": "Set up a picnic at designated scenic areas with benches where you can eat while gazing at the mirrored peaks reflected in the pristine water."
+        },
+        {
+          "id": "lago_4",
+          "text": "Landscape Painting or Sketching",
+          "detail": "Bring art supplies to capture the dramatic alpine scenery; the lake's composition draws artists from around the world."
+        },
+        {
+          "id": "lago_5",
+          "text": "Bird Watching",
+          "detail": "Observe Andean condors, black-necked swans, and other native bird species that frequent the lake's shores and surrounding forests."
+        },
+        {
+          "id": "lago_6",
+          "text": "Circuito Chico Scenic Drive Stop",
+          "detail": "Use Espejo Lake as a key photo stop on the famous 80 km loop drive south of Bariloche that connects several iconic viewpoints."
+        },
+        {
+          "id": "lago_7",
+          "text": "Sunset Viewing",
+          "detail": "Time your visit for golden hour when the low angle light intensifies the mirror reflection and casts warm tones across the water and peaks."
+        }
+      ],
+      "food": [
+        {
+          "id": "lago_f1",
+          "text": "Patagonian Lamb Asado",
+          "detail": "Slow-roasted lamb prepared in traditional Patagonian style, best enjoyed at nearby lodges or restaurants with views of the lake."
+        },
+        {
+          "id": "lago_f2",
+          "text": "Fresh Trout from Local Waters",
+          "detail": "Grilled or pan-seared Patagonian trout caught from regional lakes, highlighting the pristine cold-water fish of the area."
+        },
+        {
+          "id": "lago_f3",
+          "text": "Chocolate from Bariloche",
+          "detail": "Sample world-renowned Argentine chocolate from Bariloche confiterías, available at nearby cafés and shops as the region's signature sweet treat."
+        },
+        {
+          "id": "lago_f4",
+          "text": "Empanadas with Local Fillings",
+          "detail": "Hand-held pastries stuffed with Patagonian beef, cheese, or wild mushrooms, sold at rest stops and small eateries along the Circuito Chico."
+        },
+        {
+          "id": "lago_f5",
+          "text": "Regional Wine Pairing",
+          "detail": "Enjoy wines from Río Negro's growing wine region paired with local cuisine at restaurants near the lake area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lago_c1",
+          "text": "Arrive Early for Best Light",
+          "detail": "Photographers and visitors should plan arrival between 6:00–8:00 AM to capture the glassiest water conditions and softest morning light before crowds arrive."
+        },
+        {
+          "id": "lago_c2",
+          "text": "Respect Protected Environment",
+          "detail": "The lake sits within a sensitive Andean ecosystem; stay on marked paths, take all trash with you, and do not disturb wildlife or vegetation."
+        },
+        {
+          "id": "lago_c3",
+          "text": "Check Weather Conditions",
+          "detail": "Patagonian wind can pick up by mid-afternoon, disrupting the mirror effect; locals recommend morning visits and checking forecasts before traveling."
+        },
+        {
+          "id": "lago_c4",
+          "text": "Visit Off-Season for Solitude",
+          "detail": "While summer (December–February) is popular, visiting in shoulder seasons (April–May or September–October) offers fewer tourists and equally stunning reflections."
+        }
+      ]
+    },
+    {
+      "id": "lago_lacar",
+      "name": "Lácar Lake",
+      "nameIt": "Lago Lácar",
+      "lat": -40.1658,
+      "lng": -71.3289,
+      "type": "NATURE",
+      "description": "A pristine turquoise lake surrounded by forests and mountains, forming the heart of the San Martín de los Andes region. Boat excursions, trekking, and water activities make it a focal point for outdoor recreation.",
+      "imageQueries": [
+        "Lago Lacar San Martin",
+        "Lacar Lake turquoise"
+      ],
+      "activities": [
+        {
+          "id": "lago_1",
+          "text": "Boat Excursion to Quila Quina",
+          "detail": "A scenic half-day boat tour across turquoise waters to the village of Quila Quina, featuring Mapuche cultural centers and lakeside hiking trails.",
+          "lat": -40.1667,
+          "lng": -71.3333
+        },
+        {
+          "id": "lago_2",
+          "text": "Trekking Cerro Chapelco",
+          "detail": "A challenging day hike up the prominent peak overlooking San Martín de los Andes and Lácar Lake, rewarding climbers with panoramic 360-degree views.",
+          "lat": -40.1389,
+          "lng": -71.4056
+        },
+        {
+          "id": "lago_3",
+          "text": "Water Sports and Swimming",
+          "detail": "Enjoy kayaking, paddleboarding, and swimming in the pristine cold lake waters during summer months, with rental facilities available at the main beach."
+        },
+        {
+          "id": "lago_4",
+          "text": "Fishing on Lácar Lake",
+          "detail": "Rainbow and brown trout fishing is excellent year-round, with guided fishing trips departing from San Martín de los Andes docks."
+        },
+        {
+          "id": "lago_5",
+          "text": "Paseo a Caballo (Horseback Riding)",
+          "detail": "Ride along forested trails and meadows adjacent to the lake with local estancias offering guided half-day and full-day excursions."
+        },
+        {
+          "id": "lago_6",
+          "text": "Camping and Picnicking",
+          "detail": "Multiple designated camping areas and picnic spots dot the shoreline, offering direct access to the water and mountain views for overnight stays."
+        }
+      ],
+      "food": [
+        {
+          "id": "lago_f1",
+          "text": "Trucha a la Parrilla",
+          "detail": "Freshly caught lake trout grilled simply with local herbs, butter, and lemon, highlighting the region's excellent freshwater fishing."
+        },
+        {
+          "id": "lago_f2",
+          "text": "Cordero Patagónico",
+          "detail": "Slow-roasted Patagonian lamb, a regional specialty served in restaurants throughout San Martín, tender and flavorful from grass-fed herds."
+        },
+        {
+          "id": "lago_f3",
+          "text": "Empanadas de Maíz",
+          "detail": "Traditional corn-based empanadas filled with local cheese or meat, sold at markets and bakeries around the lake region."
+        },
+        {
+          "id": "lago_f4",
+          "text": "Chocolate Artesanal",
+          "detail": "San Martín de los Andes is famous for handcrafted chocolates made with local berries and Patagonian ingredients, sold in numerous chocolaterías."
+        },
+        {
+          "id": "lago_f5",
+          "text": "Pampas Cheese and Charcuterie",
+          "detail": "Local aged cheeses and cured meats from regional producers are featured at markets and served as appetizers in lakeside restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lago_c1",
+          "text": "Respect Mapuche Heritage",
+          "detail": "The Lácar region is ancestral Mapuche land; acknowledge this history by visiting cultural centers like those in Quila Quina and supporting indigenous artisans."
+        },
+        {
+          "id": "lago_c2",
+          "text": "Plan Around Seasons",
+          "detail": "Summer (December–February) is peak season with warm weather and all facilities open, while winter brings snow and many services close, so plan accordingly."
+        },
+        {
+          "id": "lago_c3",
+          "text": "Learn Basic Spanish",
+          "detail": "While some English is spoken in tourist areas, learning basic Spanish phrases is appreciated and makes interactions with local shop owners and guides more meaningful."
+        },
+        {
+          "id": "lago_c4",
+          "text": "Cash Payment Preference",
+          "detail": "Many small restaurants, lodges, and local vendors prefer cash (Argentine pesos) over cards, so withdraw sufficient funds from ATMs in San Martín de los Andes."
+        }
+      ]
+    },
+    {
+      "id": "viedma",
+      "name": "Viedma",
+      "nameIt": "Viedma",
+      "lat": -40.6138,
+      "lng": -63.0017,
+      "type": "CITY",
+      "description": "The capital of Río Negro province located on the Atlantic coast, featuring the Rio Negro waterfront, museums, and access to nearby Perito Moreno Glacier viewpoints. It serves as a gateway to coastal Patagonia attractions.",
+      "imageQueries": [
+        "Viedma Rio Negro city",
+        "Viedma Argentina waterfront"
+      ],
+      "activities": [
+        {
+          "id": "vied_1",
+          "text": "Paseo Costanero (Waterfront Promenade)",
+          "detail": "Walk along the Rio Negro riverside with views of the water, local monuments, and access to parks and fishing spots.",
+          "lat": -40.6136,
+          "lng": -62.9976
+        },
+        {
+          "id": "vied_2",
+          "text": "Museo Gobernador Eugenio Tello",
+          "detail": "Regional history museum displaying indigenous artifacts, colonial documents, and exhibits on Patagonian settlement and culture.",
+          "lat": -40.6144,
+          "lng": -62.9968
+        },
+        {
+          "id": "vied_3",
+          "text": "Balneario Municipal de Viedma",
+          "detail": "Public beach and swimming area on the Rio Negro where locals gather seasonally, especially in summer months.",
+          "lat": -40.6189,
+          "lng": -62.9891
+        },
+        {
+          "id": "vied_4",
+          "text": "Dique Florentino Ameghino",
+          "detail": "Dam and reservoir about 100 km south offering fishing, birdwatching, and day-trip opportunities from Viedma.",
+          "lat": -40.62,
+          "lng": -62.985
+        },
+        {
+          "id": "vied_5",
+          "text": "Cathedral of Viedma",
+          "detail": "Historic neo-Gothic cathedral in the city center, an important architectural and religious landmark since the 19th century.",
+          "lat": -40.6128,
+          "lng": -62.9987
+        },
+        {
+          "id": "vied_6",
+          "text": "Perito Moreno Glacier Day Tours",
+          "detail": "Guided excursions departing from Viedma to view the iconic glacier about 200 km away in Los Glaciares National Park.",
+          "lat": -40.6136,
+          "lng": -62.9976
+        }
+      ],
+      "food": [
+        {
+          "id": "vied_f1",
+          "text": "Cordero Patagónico (Patagonian Lamb)",
+          "detail": "Slow-roasted lamb seasoned with local herbs, a signature Patagonian dish served in restaurants throughout Viedma."
+        },
+        {
+          "id": "vied_f2",
+          "text": "Trucha a la Parrilla (Grilled Trout)",
+          "detail": "Fresh river trout from Patagonian waters grilled simply with butter and lemon, reflecting the region's fishing heritage."
+        },
+        {
+          "id": "vied_f3",
+          "text": "Asado Patagónico",
+          "detail": "Traditional Argentine barbecue featuring multiple cuts of beef and lamb cooked over open flames, a social dining custom."
+        },
+        {
+          "id": "vied_f4",
+          "text": "Centolla (King Crab)",
+          "detail": "Atlantic coast delicacy served boiled or grilled, available at seafood restaurants near the waterfront."
+        },
+        {
+          "id": "vied_f5",
+          "text": "Helado Artesanal",
+          "detail": "Artisanal ice cream made locally with regional fruits and ingredients, popular for afternoon treats along the Paseo Costanero."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vied_c1",
+          "text": "Siesta Time Respected",
+          "detail": "Many shops and offices close between 1 and 4 PM for midday rest; plan activities accordingly and visit museums or outdoor areas during these hours."
+        },
+        {
+          "id": "vied_c2",
+          "text": "Mate Culture",
+          "detail": "Sharing mate (herbal tea) is a central social ritual; accepting an offered mate is a sign of friendship and integration with locals."
+        },
+        {
+          "id": "vied_c3",
+          "text": "Spanish Language Helpful",
+          "detail": "English is not widely spoken in Viedma; learning basic Spanish phrases greatly enhances interactions with residents and service providers."
+        },
+        {
+          "id": "vied_c4",
+          "text": "Gateway Status",
+          "detail": "Viedma functions primarily as a transit point to nearby attractions rather than a destination itself; plan accordingly with multi-day regional itineraries."
+        }
+      ]
+    },
+    {
+      "id": "puerto_san_antonio",
+      "name": "Puerto San Antonio",
+      "nameIt": "Puerto San Antonio",
+      "lat": -40.7347,
+      "lng": -64.9728,
+      "type": "COASTAL",
+      "description": "A seaside fishing village on the Atlantic coast known for seafood, penguins, and marine wildlife observation opportunities. It provides an authentic coastal Patagonian experience distinct from the mountain resorts.",
+      "imageQueries": [
+        "Puerto San Antonio Patagonia",
+        "Puerto San Antonio fishing village"
+      ],
+      "activities": [
+        {
+          "id": "puer_1",
+          "text": "Penguin Watching at Punta Tombo",
+          "detail": "Visit the nearby Punta Tombo penguin reserve (about 30 km south) to observe thousands of Magellanic penguins in their natural habitat, especially during breeding season from September to April.",
+          "lat": -43.9833,
+          "lng": -65.6167
+        },
+        {
+          "id": "puer_2",
+          "text": "Fishing Village Harbor Tour",
+          "detail": "Walk along the working harbor to observe the daily fishing operations and chat with local fishermen about their catch and traditional methods.",
+          "lat": -41.7333,
+          "lng": -65.0667
+        },
+        {
+          "id": "puer_3",
+          "text": "Marine Wildlife Boat Excursions",
+          "detail": "Take a guided boat tour from the pier to spot sea lions, dolphins, whales (seasonal), and cormorants along the Atlantic coast.",
+          "lat": -41.7333,
+          "lng": -65.0667
+        },
+        {
+          "id": "puer_4",
+          "text": "Seafood Market Visit",
+          "detail": "Explore the early morning fish market to see the day's fresh catch and purchase directly from local vendors.",
+          "lat": -41.7333,
+          "lng": -65.0667
+        },
+        {
+          "id": "puer_5",
+          "text": "Coastal Walks and Tide Pools",
+          "detail": "Hike along the rocky shoreline at low tide to discover sea stars, crabs, and other marine creatures in natural tide pools.",
+          "lat": -41.74,
+          "lng": -65.07
+        },
+        {
+          "id": "puer_6",
+          "text": "Sunset at the Pier",
+          "detail": "Watch the Atlantic sun set from the fishing pier while observing local fishermen and seabirds returning at dusk."
+        }
+      ],
+      "food": [
+        {
+          "id": "puer_f1",
+          "text": "Centolla (King Crab)",
+          "detail": "Sweet, succulent king crab legs are a regional specialty, typically grilled whole or served in stews at local restaurants."
+        },
+        {
+          "id": "puer_f2",
+          "text": "Merluza a la Sal (Hake in Salt Crust)",
+          "detail": "Fresh local hake baked whole in a salt crust, a traditional Patagonian preparation that locks in moisture and flavor."
+        },
+        {
+          "id": "puer_f3",
+          "text": "Camarones Frescos (Fresh Shrimp)",
+          "detail": "Large Atlantic prawns caught locally and simply grilled with lemon, showcasing the purity of fresh seafood."
+        },
+        {
+          "id": "puer_f4",
+          "text": "Chopp de Pulpo (Octopus Stew)",
+          "detail": "Tender octopus simmered with potatoes, onions, and local herbs in a traditional fisherman's stew."
+        },
+        {
+          "id": "puer_f5",
+          "text": "Fresh Fish Ceviche",
+          "detail": "Locally caught white fish cured in citrus juice with regional ingredients, reflecting modern coastal cuisine."
+        },
+        {
+          "id": "puer_f6",
+          "text": "Empanadas de Mariscos",
+          "detail": "Baked pastries filled with mixed local seafood, a convenient handheld specialty found at local bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "puer_c1",
+          "text": "Respect Fishing Schedules",
+          "detail": "The village's rhythm revolves around tides and fishing seasons, so restaurants and tours operate around catch times rather than fixed hours."
+        },
+        {
+          "id": "puer_c2",
+          "text": "Learn Basic Spanish",
+          "detail": "This is a working fishing village with limited English speakers, so knowing basic Spanish phrases enhances interactions with locals."
+        },
+        {
+          "id": "puer_c3",
+          "text": "Dress for Wind and Cold",
+          "detail": "Patagonian coastal weather is notoriously windy and cold year-round, so pack layers and windproof jackets regardless of season."
+        },
+        {
+          "id": "puer_c4",
+          "text": "Support Local Artisans",
+          "detail": "Purchase seafood and crafts directly from local fishermen and small vendors rather than tourist shops to support the authentic community economy."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Chopp Cervecería",
+      "address": "Av. Bartolomé Mitre 123, Viedma",
+      "neighbourhood": "Viedma Centro",
+      "cuisine": "Argentine/Brewpub",
+      "priceRange": "€€",
+      "description": "Popular craft brewery and restaurant with locally-brewed beers and traditional Argentine fare in a casual atmosphere.",
+      "mustOrder": "Brewpub platter with house IPA",
+      "lat": -38.6155,
+      "lng": -60.7322
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "La Estancia",
+      "address": "Calle Buenos Aires 456, Viedma",
+      "neighbourhood": "Viedma Centro",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€€",
+      "description": "Classic parrilla offering premium Río Negro beef cuts and traditional Argentine grilled meats in an upscale setting.",
+      "mustOrder": "Asado de tira with chimichurri",
+      "lat": -38.6168,
+      "lng": -60.7305
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Pepperoni Pizza Bar",
+      "address": "Av. Roca 234, Viedma",
+      "neighbourhood": "Viedma Centro",
+      "cuisine": "Italian/Pizza",
+      "priceRange": "€",
+      "description": "Casual pizzeria serving authentic wood-fired pizzas and Italian comfort food at budget-friendly prices.",
+      "mustOrder": "Four cheese pizza (quattro formaggi)",
+      "lat": -38.6145,
+      "lng": -60.7335
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Rincón de los Sapores",
+      "address": "Calle Alsino 789, General Roca",
+      "neighbourhood": "General Roca Centro",
+      "cuisine": "Regional Argentine",
+      "priceRange": "€€",
+      "description": "Family-run restaurant highlighting regional Patagonian ingredients and traditional recipes with warm hospitality.",
+      "mustOrder": "Lamb stew with Patagonian vegetables",
+      "lat": -39.0269,
+      "lng": -67.5754
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "El Rancho",
+      "address": "Ruta Nacional 22 km 380, Allen",
+      "neighbourhood": "Allen",
+      "cuisine": "Argentine BBQ/Grill",
+      "priceRange": "€€",
+      "description": "Rustic roadside parrilla famous for its grilled meats and traditional Argentine fare with Patagonian charm.",
+      "mustOrder": "Chorizo and morcilla plate",
+      "lat": -39.1533,
+      "lng": -67.7211
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Bodega Norton",
+      "address": "Ruta Nacional 7 km 1030, Cipolletti",
+      "neighbourhood": "Cipolletti",
+      "cuisine": "Argentine/Wine Bar",
+      "priceRange": "€€€",
+      "description": "Winery restaurant showcasing Río Negro wines paired with regional cuisine in a modern, sophisticated setting.",
+      "mustOrder": "Beef tenderloin with Malbec reduction",
+      "lat": -38.9467,
+      "lng": -67.9841
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "La Pasión del Río",
+      "address": "Calle San Martín 567, San Antonio Oeste",
+      "neighbourhood": "San Antonio Oeste",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Coastal seafood restaurant specializing in fresh catches from the Atlantic, with views toward the sea.",
+      "mustOrder": "Grilled centolla (king crab)",
+      "lat": -40.7408,
+      "lng": -64.9756
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Patagonia Wine Bar",
+      "address": "Av. Bartolomé Mitre 890, Viedma",
+      "neighbourhood": "Viedma Centro",
+      "cuisine": "Wine Bar/Contemporary",
+      "priceRange": "€€€",
+      "description": "Modern wine bar offering an extensive selection of Río Negro and Patagonian wines with small sophisticated plates.",
+      "mustOrder": "Tasting menu with wine pairings",
+      "lat": -38.6172,
+      "lng": -60.729
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Casa Verde",
+      "address": "Calle Rawson 345, General Roca",
+      "neighbourhood": "General Roca Centro",
+      "cuisine": "Vegetarian/Health Food",
+      "priceRange": "€€",
+      "description": "Organic restaurant emphasizing locally-sourced vegetables and healthy cooking methods in a cozy, welcoming environment.",
+      "mustOrder": "Vegetable and quinoa empanadas",
+      "lat": -39.0245,
+      "lng": -67.578
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Confitería del Río",
+      "address": "Calle Irigoyen 123, Viedma",
+      "neighbourhood": "Viedma Centro",
+      "cuisine": "Café/Pastries",
+      "priceRange": "€",
+      "description": "Historic café and bakery serving traditional Argentine medialunas, regional pastries, and excellent coffee since 1965.",
+      "mustOrder": "Medialunas with café con leche",
+      "lat": -38.616,
+      "lng": -60.731
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "El Quincho de Don Carlos",
+      "address": "Ruta 22, Km 420, Catriel",
+      "neighbourhood": "Catriel",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€",
+      "description": "Traditional countryside grill house offering authentic Argentine barbecue with local meat and rustic atmosphere.",
+      "mustOrder": "Asado completo with grilled provoleta",
+      "lat": -38.7446,
+      "lng": -67.185
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "La Boca del Rio",
+      "address": "Av. Costanera Sur 234, Viedma",
+      "neighbourhood": "Viedma Costanera",
+      "cuisine": "Seafood/Contemporary",
+      "priceRange": "€€€",
+      "description": "Riverfront restaurant with modern Patagonian cuisine focusing on fresh seafood and regional ingredients with river views.",
+      "mustOrder": "Merluza negra with seasonal vegetables",
+      "lat": -38.6205,
+      "lng": -60.7395
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Pizza Roma",
+      "address": "Calle Mitre 678, General Roca",
+      "neighbourhood": "General Roca Centro",
+      "cuisine": "Italian/Pizza",
+      "priceRange": "€",
+      "description": "Casual neighborhood pizzeria with crispy thin-crust pizzas and classic Italian dishes served in a friendly setting.",
+      "mustOrder": "Fugazza with fried eggs",
+      "lat": -39.0278,
+      "lng": -67.574
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Almacén de Comidas",
+      "address": "Calle Rawson 890, Cipolletti",
+      "neighbourhood": "Cipolletti Centro",
+      "cuisine": "Regional Argentine",
+      "priceRange": "€€",
+      "description": "Casual eatery celebrating regional Patagonian dishes and traditional Argentine comfort food in a rustic setting.",
+      "mustOrder": "Cordero guisado (lamb stew)",
+      "lat": -38.9455,
+      "lng": -67.9875
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Restaurante Piedra Negra",
+      "address": "Ruta 23, Km 25, Los Menucos",
+      "neighbourhood": "Los Menucos",
+      "cuisine": "Argentine/Patagonian",
+      "priceRange": "€€€",
+      "description": "Fine dining establishment showcasing Patagonian lamb, game, and regional wines in an elegant, upscale atmosphere.",
+      "mustOrder": "Guanaco steak with native Patagonian herbs",
+      "lat": -39.345,
+      "lng": -67.412
+    }
+  ]
+}

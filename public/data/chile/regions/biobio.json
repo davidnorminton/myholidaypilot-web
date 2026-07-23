@@ -1,0 +1,1030 @@
+{
+  "id": "biobio",
+  "name": "Bío Bío",
+  "nameIt": "Bío Bío",
+  "capital": "Concepción",
+  "lat": -37,
+  "lng": -72,
+  "emoji": "🌲",
+  "colour": "ffff5722",
+  "boundingBox": {
+    "north": -36,
+    "south": -38.5,
+    "east": -71,
+    "west": -73.5
+  },
+  "history": "The Bío Bío Region, located in south-central Chile, has a rich history spanning from its indigenous Mapuche roots to Spanish colonization in the 16th century. The region became a crucial frontier during the colonial period, marked by conflicts between Spanish settlers and the Mapuche people who fiercely resisted domination. Following independence, Bío Bío developed as an important industrial and agricultural center, particularly around the city of Concepción. The 2010 earthquake caused significant damage to the region but also prompted substantial reconstruction and modernization efforts.",
+  "culturalNotes": "Bío Bío is known for its strong Mapuche cultural heritage and indigenous traditions that remain deeply embedded in local identity and practices. The region is celebrated for its vibrant folk music, traditional crafts, and distinctive cuisine that blends Spanish and indigenous influences. As a historically progressive and intellectually active area, Bío Bío has fostered artistic movements and a tradition of social engagement that distinguishes it from other Chilean regions.",
+  "bestTimeToVisit": "Visit December to March for mild summer weather to explore forests and the coast.",
+  "languageNotes": "While Spanish is the primary language, the Mapudungun language of the indigenous Mapuche people is still spoken by some communities in the region. Visitors may encounter local expressions and vocabulary influenced by indigenous heritage, and learning basic Spanish phrases is helpful for meaningful interaction with residents.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 8,
+  "places": [
+    {
+      "id": "concepcion",
+      "name": "Concepción",
+      "nameIt": "Concepción",
+      "lat": -36.8201,
+      "lng": -73.0544,
+      "type": "CITY",
+      "description": "The second-largest city in Chile and the capital of Bío Bío Region, known for its vibrant cultural scene, universities, and historic architecture. It's the main urban hub offering museums, restaurants, and nightlife while serving as a gateway to regional attractions.",
+      "imageQueries": [
+        "Concepción Chile city skyline",
+        "Concepción downtown architecture"
+      ],
+      "activities": [
+        {
+          "id": "conc_1",
+          "text": "Concepción Cathedral",
+          "detail": "A neogothic landmark dominating the Plaza de Armas, built in the 1880s and featuring impressive stained glass and architectural details.",
+          "lat": -36.8241,
+          "lng": -73.0493
+        },
+        {
+          "id": "conc_2",
+          "text": "University of Concepción Campus",
+          "detail": "Explore the historic university grounds known for their modernist architecture and cultural venues hosting exhibitions and performances.",
+          "lat": -36.8099,
+          "lng": -73.1144
+        },
+        {
+          "id": "conc_3",
+          "text": "Museo de Arte Concepción",
+          "detail": "A fine arts museum showcasing Chilean and Latin American contemporary art with rotating exhibitions in a renovated colonial building.",
+          "lat": -36.8262,
+          "lng": -73.045
+        },
+        {
+          "id": "conc_4",
+          "text": "Parque Ecuador",
+          "detail": "A central green space perfect for walking, relaxing, or observing local daily life with nearby cafés and street vendors.",
+          "lat": -36.8221,
+          "lng": -73.062
+        },
+        {
+          "id": "conc_5",
+          "text": "Barrio Universitario",
+          "detail": "A vibrant student neighborhood filled with independent bookstores, galleries, cafés, and vintage shops reflecting the city's intellectual culture.",
+          "lat": -36.808,
+          "lng": -73.11
+        },
+        {
+          "id": "conc_6",
+          "text": "Talcahuano Port Visit",
+          "detail": "Visit the nearby industrial port city to experience Chile's maritime heritage and fresh seafood markets directly from fishing boats.",
+          "lat": -36.7167,
+          "lng": -73.1167
+        }
+      ],
+      "food": [
+        {
+          "id": "conc_f1",
+          "text": "Cazuela de Mariscos",
+          "detail": "A hearty seafood stew combining local fish, mussels, clams, and shrimp in a rich broth, reflecting the Bío Bío region's coastal abundance."
+        },
+        {
+          "id": "conc_f2",
+          "text": "Chupe de Camarones",
+          "detail": "A creamy shrimp casserole with potatoes, onions, and cheese, representing classic Chilean comfort food found in traditional restaurants."
+        },
+        {
+          "id": "conc_f3",
+          "text": "Fresh Fish at Mercado Central",
+          "detail": "Experience grilled or steamed fresh catches like congrio or reineta prepared daily at market stalls, sold with lemon and coarse salt."
+        },
+        {
+          "id": "conc_f4",
+          "text": "Empanadas de Pino",
+          "detail": "Baked pastries filled with seasoned ground beef, olives, and hard-boiled eggs, a ubiquitous Chilean street food available throughout the city."
+        },
+        {
+          "id": "conc_f5",
+          "text": "Sopaipillas with Pebre",
+          "detail": "Fried dough pockets served with pebre (a spicy cilantro and tomato sauce), a popular snack from street vendors and local markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "conc_c1",
+          "text": "University Culture Dominates",
+          "detail": "Concepción's identity is heavily influenced by its universities; expect a young, intellectually engaged population and abundant student-oriented venues."
+        },
+        {
+          "id": "conc_c2",
+          "text": "Siesta Timing",
+          "detail": "Many small shops and businesses close between 1 and 3 PM for lunch; plan accordingly or enjoy a leisurely midday meal like locals."
+        },
+        {
+          "id": "conc_c3",
+          "text": "Regional Pride in Local Identity",
+          "detail": "Concepcioninos are proud of their independent spirit and regional identity separate from Santiago; show respect for local traditions and history."
+        },
+        {
+          "id": "conc_c4",
+          "text": "Evening Paseo Tradition",
+          "detail": "Locals enjoy evening strolls through plazas and neighborhoods; joining this ritual is a natural way to experience authentic city life."
+        }
+      ]
+    },
+    {
+      "id": "talcahuano",
+      "name": "Talcahuano",
+      "nameIt": "Talcahuano",
+      "lat": -36.7242,
+      "lng": -73.1167,
+      "type": "COASTAL",
+      "description": "A major port city adjacent to Concepción with an important naval heritage and maritime museums showcasing Chilean naval history. The coastal setting and seafood restaurants make it a worthwhile day trip from Concepción.",
+      "imageQueries": [
+        "Talcahuano port Chile",
+        "Talcahuano naval museum"
+      ],
+      "activities": [
+        {
+          "id": "talc_1",
+          "text": "Chilean Naval Museum",
+          "detail": "Explore exhibits on Chilean naval history, ship models, and maritime artifacts housed in a restored naval building in the port district.",
+          "lat": -36.7167,
+          "lng": -73.1167
+        },
+        {
+          "id": "talc_2",
+          "text": "Huachipato Steel Works Historic Site",
+          "detail": "Visit the grounds of South America's first integrated steel mill, now largely closed but offering insights into Chile's industrial heritage and occasional guided tours.",
+          "lat": -36.7389,
+          "lng": -73.1056
+        },
+        {
+          "id": "talc_3",
+          "text": "Rocoto Beach",
+          "detail": "Walk along this urban beach near the city center popular with locals for swimming and enjoying sea views, lined with modest seafood vendors.",
+          "lat": -36.72,
+          "lng": -73.1278
+        },
+        {
+          "id": "talc_4",
+          "text": "San Vicente de Paul Church",
+          "detail": "Admire this historic wooden church dating to the 19th century, notable for its architectural style characteristic of southern Chilean coastal towns.",
+          "lat": -36.7172,
+          "lng": -73.1139
+        },
+        {
+          "id": "talc_5",
+          "text": "Talcahuano Waterfront Promenade",
+          "detail": "Stroll the working port area where fishing boats and naval vessels dock, offering authentic maritime atmosphere and photo opportunities.",
+          "lat": -36.7167,
+          "lng": -73.1167
+        },
+        {
+          "id": "talc_6",
+          "text": "Cerro Chepe Viewpoint",
+          "detail": "Climb to this modest hilltop for panoramic views of Talcahuano Bay, the port, and surrounding industrial and coastal landscape.",
+          "lat": -36.7256,
+          "lng": -73.1122
+        }
+      ],
+      "food": [
+        {
+          "id": "talc_f1",
+          "text": "Congrio a la Sal",
+          "detail": "Fresh conger eel encrusted in salt and baked, a classic preparation at waterfront restaurants that highlights the local seafood."
+        },
+        {
+          "id": "talc_f2",
+          "text": "Ceviche de Machas",
+          "detail": "A regional take on ceviche using razor clams marinated in lime juice, onions, and cilantro, reflecting Peru-Chilean coastal traditions."
+        },
+        {
+          "id": "talc_f3",
+          "text": "Reineta Frita",
+          "detail": "Pan-fried silverfish or pomfret served whole and crispy, often accompanied by lemon and local white wine at casual harbor-side eateries."
+        },
+        {
+          "id": "talc_f4",
+          "text": "Pastel de Jaiba",
+          "detail": "Crab pie made with local Pacific crab, cream, and cheese baked in pastry, a comfort food staple at family-run coastal restaurants."
+        },
+        {
+          "id": "talc_f5",
+          "text": "Curanto en Olla",
+          "detail": "A southern Chilean stew featuring mixed seafood, potatoes, and sometimes meat slow-cooked together, available at traditional establishments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "talc_c1",
+          "text": "Naval Pride and Military Heritage",
+          "detail": "Talcahuano's identity is deeply tied to the Chilean Navy; locals respect military history and the port remains an active naval base with restricted areas."
+        },
+        {
+          "id": "talc_c2",
+          "text": "Working Port Etiquette",
+          "detail": "The city is a functioning industrial port, so wandering onto active docks is restricted; stick to designated public waterfront areas and respect security barriers."
+        },
+        {
+          "id": "talc_c3",
+          "text": "Early Seafood Markets",
+          "detail": "Visit the informal fish markets near the dock in early morning (6-9am) when boats unload fresh catches; prices drop as the day progresses and fishmongers clear inventory."
+        },
+        {
+          "id": "talc_c4",
+          "text": "Tsunami Awareness",
+          "detail": "Talcahuano lies on a seismic coast; locals take earthquake and tsunami warnings seriously, and visitors should familiarize themselves with evacuation routes and warnings."
+        }
+      ]
+    },
+    {
+      "id": "lebu",
+      "name": "Lebu",
+      "nameIt": "Lebu",
+      "lat": -37.5833,
+      "lng": -73.65,
+      "type": "COASTAL",
+      "description": "A charming small coastal town known for its fishing traditions, fresh seafood, and relaxed Pacific atmosphere. The town's beaches and coastal scenery provide a quiet alternative to busier beach destinations.",
+      "imageQueries": [
+        "Lebu Chile coastal town",
+        "Lebu fishing village beach"
+      ],
+      "activities": [
+        {
+          "id": "lebu_1",
+          "text": "Playa Lebu",
+          "detail": "The main town beach offering calm waters ideal for swimming, sunbathing, and watching fishing boats return with the daily catch.",
+          "lat": -37.6167,
+          "lng": -73.65
+        },
+        {
+          "id": "lebu_2",
+          "text": "Punta Arco Natural Arch",
+          "detail": "A dramatic coastal rock formation featuring a natural arch carved by waves, located just south of town and accessible via a short coastal walk.",
+          "lat": -37.6283,
+          "lng": -73.645
+        },
+        {
+          "id": "lebu_3",
+          "text": "Fishing Port Tour",
+          "detail": "Walk through the active fishing harbor in early morning to observe traditional fishing operations and purchase freshly caught seafood directly from boats."
+        },
+        {
+          "id": "lebu_4",
+          "text": "Cascada de Lebu (Lebu Waterfall)",
+          "detail": "A modest but scenic waterfall located in nearby forested hills, offering a refreshing inland alternative to beach activities.",
+          "lat": -37.64,
+          "lng": -73.68
+        },
+        {
+          "id": "lebu_5",
+          "text": "Hiking Coastal Trails",
+          "detail": "Explore well-maintained paths along the coastline connecting Lebu to neighboring beaches and coves with views of the Pacific and local fishing communities."
+        },
+        {
+          "id": "lebu_6",
+          "text": "Museo Histórico de Lebu",
+          "detail": "Small local museum showcasing the town's maritime heritage, indigenous Mapuche history, and artifacts from Lebu's fishing traditions."
+        }
+      ],
+      "food": [
+        {
+          "id": "lebu_f1",
+          "text": "Caldillo de Congrio",
+          "detail": "A traditional Chilean fish soup made with conger eel, potatoes, onions, and cilantro, prepared fresh daily using local catches."
+        },
+        {
+          "id": "lebu_f2",
+          "text": "Ceviche de Mariscos",
+          "detail": "Fresh raw seafood cured in lemon juice with local catches including sea urchin, mussels, and white fish, served with avocado and cilantro."
+        },
+        {
+          "id": "lebu_f3",
+          "text": "Erizo (Sea Urchin)",
+          "detail": "Fresh sea urchin roe served raw with lemon or bread, a local delicacy found at beachfront restaurants and the fishing market."
+        },
+        {
+          "id": "lebu_f4",
+          "text": "Pastel de Choclo",
+          "detail": "A traditional Chilean corn pie layered with ground meat, chicken, olives, and hard-boiled eggs, topped with fresh corn paste."
+        },
+        {
+          "id": "lebu_f5",
+          "text": "Locos a la Parmesana",
+          "detail": "Chilean abalone prepared with garlic, butter, and melted cheese, showcasing Lebu's abundance of fresh shellfish from the Pacific."
+        },
+        {
+          "id": "lebu_f6",
+          "text": "Fish Market Fresh Purchases",
+          "detail": "Buy freshly caught fish and shellfish directly from vendors at the morning market to prepare at your accommodation for an authentic local experience."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lebu_c1",
+          "text": "Arrive Early for Market Activity",
+          "detail": "Visit the fishing port and market between 6 AM and 9 AM when fishing boats unload their catch and the community is most active."
+        },
+        {
+          "id": "lebu_c2",
+          "text": "Respect Local Fishing Traditions",
+          "detail": "Photography in the harbor should be done respectfully and with permission, as fishing is the lifeblood of the community and fishermen may be sensitive to documentation."
+        },
+        {
+          "id": "lebu_c3",
+          "text": "Cash is Essential",
+          "detail": "As a small coastal town, many restaurants, shops, and market vendors only accept cash (Chilean pesos), so withdraw funds before arriving."
+        },
+        {
+          "id": "lebu_c4",
+          "text": "Seasonal Weather Considerations",
+          "detail": "The Pacific coast can be cool and windy year-round; bring layers and a windbreaker even during summer months for comfortable beach visits."
+        }
+      ]
+    },
+    {
+      "id": "santa_barbara",
+      "name": "Santa Bárbara",
+      "nameIt": "Santa Bárbara",
+      "lat": -37.6,
+      "lng": -71.95,
+      "type": "TOWN",
+      "description": "A picturesque mountain town nestled in the Andes foothills, famous for its strawberries and agricultural surroundings. It offers access to hiking, local crafts, and traditional Chilean rural culture.",
+      "imageQueries": [
+        "Santa Bárbara Chile town",
+        "Santa Bárbara strawberry region"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Strawberry Farm Tours",
+          "detail": "Visit local strawberry farms during harvest season (September to November) to pick fresh berries and learn about the region's primary agricultural export.",
+          "lat": -37.4833,
+          "lng": -71.9833
+        },
+        {
+          "id": "sant_2",
+          "text": "Hiking to Laguna del Laja",
+          "detail": "Trek to this stunning volcanic lake surrounded by Andean peaks, approximately 30 kilometers from town, offering panoramic views and alpine ecology.",
+          "lat": -37.2667,
+          "lng": -71.7167
+        },
+        {
+          "id": "sant_3",
+          "text": "Artisan Crafts Market",
+          "detail": "Browse the town's central market for handwoven textiles, wooden crafts, and ceramics made by local Mapuche and rural Chilean artisans.",
+          "lat": -37.4833,
+          "lng": -71.9833
+        },
+        {
+          "id": "sant_4",
+          "text": "Salto del Laja Waterfall",
+          "detail": "Visit this impressive waterfall formed by the Laja River cutting through basalt cliffs, located about 20 kilometers away and accessible by short walks.",
+          "lat": -37.3667,
+          "lng": -71.8667
+        },
+        {
+          "id": "sant_5",
+          "text": "Rural Homestays and Farm Stays",
+          "detail": "Stay with local farming families to experience traditional Chilean countryside life, helping with daily agricultural tasks and sharing meals.",
+          "lat": -37.4833,
+          "lng": -71.9833
+        },
+        {
+          "id": "sant_6",
+          "text": "Mountain Biking Trails",
+          "detail": "Explore dirt roads and trails through the foothills connecting villages and offering views of native forests and rural landscapes."
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Fresh Strawberries with Cream",
+          "detail": "Enjoy locally-grown strawberries served with whipped cream or condensed milk, a seasonal specialty during the harvest months."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Cazuela de Verduras",
+          "detail": "A traditional Chilean stew combining fresh local vegetables, potatoes, and sometimes meat in a savory broth, commonly served in rural homes."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Empanadas with Local Cheese",
+          "detail": "Hand-filled pastries made with melted local cheese and sometimes filled with vegetables or meat, reflecting agricultural abundance of the region."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Sopaipillas with Pebre",
+          "detail": "Fried dough discs served with pebre, a fresh Chilean condiment made from cilantro, tomato, onion, and chili—a common street food and snack."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Corn-based Humita",
+          "detail": "A traditional Andean dish of fresh corn paste wrapped in corn husks and steamed, sometimes with cheese or served sweet with sugar and cinnamon."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Greet with Warmth",
+          "detail": "Rural Chileans value personal connection; always greet shopkeepers and locals with a handshake or friendly 'buenos días,' and accept offers of tea or coffee as a gesture of hospitality."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Harvest Season Timing",
+          "detail": "Plan your visit between September and November to fully experience strawberry picking and witness the agricultural heart of the community in action."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Respect Indigenous Heritage",
+          "detail": "Many local artisans and residents have Mapuche ancestry; show genuine interest in traditional crafts and stories rather than treating them as mere tourist commodities."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Spanish Language Helpful",
+          "detail": "English is rarely spoken in Santa Bárbara; learning basic Spanish phrases will greatly enhance your interactions with locals and your overall experience."
+        }
+      ]
+    },
+    {
+      "id": "penco",
+      "name": "Penco",
+      "nameIt": "Penco",
+      "lat": -36.7667,
+      "lng": -73.2,
+      "type": "COASTAL",
+      "description": "One of Chile's oldest cities with significant colonial history and charming waterfront areas overlooking the Pacific. The town offers beach access, seafood dining, and cultural heritage within easy reach of Concepción.",
+      "imageQueries": [
+        "Penco Chile historic city",
+        "Penco waterfront coast"
+      ],
+      "activities": [
+        {
+          "id": "penc_1",
+          "text": "Paseo Costanero (Waterfront Promenade)",
+          "detail": "A scenic coastal walk offering views of the Pacific Ocean, historic colonial buildings, and access to local beaches.",
+          "lat": -36.7515,
+          "lng": -72.8378
+        },
+        {
+          "id": "penc_2",
+          "text": "Fuerte Viejo (Old Fort)",
+          "detail": "Remnants of the 17th-century Spanish fortress that once defended the port, now offering historical insights and panoramic views.",
+          "lat": -36.752,
+          "lng": -72.8365
+        },
+        {
+          "id": "penc_3",
+          "text": "Museo de Penco",
+          "detail": "A small but important local museum displaying colonial artifacts, maritime history, and indigenous heritage of the region.",
+          "lat": -36.7535,
+          "lng": -72.839
+        },
+        {
+          "id": "penc_4",
+          "text": "Playa El Rincón",
+          "detail": "A nearby sheltered beach popular with locals for swimming and sunbathing, situated within walking distance of the town center.",
+          "lat": -36.76,
+          "lng": -72.845
+        },
+        {
+          "id": "penc_5",
+          "text": "Visit Local Fish Markets",
+          "detail": "The morning markets near the waterfront where fishermen sell fresh daily catches directly to customers and restaurants.",
+          "lat": -36.7525,
+          "lng": -72.837
+        },
+        {
+          "id": "penc_6",
+          "text": "Concepción Day Trip",
+          "detail": "Easy 20-minute journey to Chile's second-largest city in the Bío Bío region, accessible by bus for additional cultural and urban exploration."
+        }
+      ],
+      "food": [
+        {
+          "id": "penc_f1",
+          "text": "Cazuela de Mariscos",
+          "detail": "A hearty seafood stew combining fresh local shellfish, fish, and potatoes in a creamy broth, quintessential to Bío Bío coastal dining."
+        },
+        {
+          "id": "penc_f2",
+          "text": "Erizos (Sea Urchins)",
+          "detail": "Fresh sea urchins served raw with lemon, a delicacy harvested locally and considered a must-try for seafood enthusiasts visiting the coast."
+        },
+        {
+          "id": "penc_f3",
+          "text": "Chupe de Locos",
+          "detail": "A traditional Chilean dish featuring razor clams cooked in a creamy sauce with cheese and bread, popular in Penco's seafood restaurants."
+        },
+        {
+          "id": "penc_f4",
+          "text": "Pescado a la Sal",
+          "detail": "Fresh local fish baked entirely in a salt crust, a preparation method that seals in moisture and flavor, widely available at waterfront eateries."
+        },
+        {
+          "id": "penc_f5",
+          "text": "Curanto",
+          "detail": "A traditional Chiloé-influenced seafood and meat dish cooked in a ground pit, occasionally prepared at local festivals and special restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "penc_c1",
+          "text": "Colonial Architecture Appreciation",
+          "detail": "Penco's streets retain colonial-era buildings from its founding in 1550; taking time to observe architectural details and visiting older structures enriches historical understanding."
+        },
+        {
+          "id": "penc_c2",
+          "text": "Respect Maritime Traditions",
+          "detail": "The town's identity is deeply rooted in fishing and seafaring; visiting early morning fish markets and engaging respectfully with fishermen honors local livelihoods."
+        },
+        {
+          "id": "penc_c3",
+          "text": "Spanish Language Helpful",
+          "detail": "While tourism infrastructure exists, speaking basic Spanish enhances interactions with locals and shows respect for this historic Chilean community."
+        },
+        {
+          "id": "penc_c4",
+          "text": "Tidal and Weather Awareness",
+          "detail": "Check local tides and weather before beach visits, as the Pacific coast can have strong currents and the region experiences significant rainfall, especially in winter months."
+        }
+      ]
+    },
+    {
+      "id": "cayumanpu_beach",
+      "name": "Cayumanpu Beach",
+      "nameIt": "Playa Cayumanpu",
+      "lat": -37.05,
+      "lng": -73.5167,
+      "type": "COASTAL",
+      "description": "A scenic black sand beach near Concepción popular with surfers and beach lovers for its powerful waves and dramatic coastal landscape. The beach offers a raw, natural Pacific experience distinct from calmer bay beaches.",
+      "imageQueries": [
+        "Cayumanpu Beach black sand",
+        "Cayumanpu surf Chile"
+      ],
+      "activities": [
+        {
+          "id": "cayu_1",
+          "text": "Surfing",
+          "detail": "Catch powerful Pacific swells at this renowned break suitable for intermediate to advanced surfers, especially during autumn and winter months."
+        },
+        {
+          "id": "cayu_2",
+          "text": "Black Sand Beach Walk",
+          "detail": "Stroll along the distinctive volcanic black sand coastline and observe the dramatic rocky outcrops and wave formations that define the beach's raw character."
+        },
+        {
+          "id": "cayu_3",
+          "text": "Tide Pool Exploration",
+          "detail": "Investigate the rocky areas during low tide to spot starfish, sea urchins, and other Pacific marine life in natural pools along the shore.",
+          "lat": -36.7394,
+          "lng": -72.9689
+        },
+        {
+          "id": "cayu_4",
+          "text": "Sunset Photography",
+          "detail": "Capture dramatic evening light over the powerful waves and rugged coastline, a prime spot for landscape and action photography."
+        },
+        {
+          "id": "cayu_5",
+          "text": "Coastal Hiking",
+          "detail": "Trek along the cliffs north or south of the main beach to discover secluded coves and panoramic views of the Bío Bío region's dramatic Pacific coast."
+        }
+      ],
+      "food": [
+        {
+          "id": "cayu_f1",
+          "text": "Fresh Congrio (Conger Eel)",
+          "detail": "Sample this local Pacific fish grilled simply with lemon at beachside restaurants, showcasing the day's fresh catch from southern Chilean waters."
+        },
+        {
+          "id": "cayu_f2",
+          "text": "Empanadas de Mariscos",
+          "detail": "Enjoy these stuffed pastries filled with local seafood like clams and mussels, a convenient and authentic snack popular with beach visitors."
+        },
+        {
+          "id": "cayu_f3",
+          "text": "Ceviche Chileno",
+          "detail": "Try the regional version of this raw fish dish made with local Pacific catches, lime juice, and fresh cilantro at nearby Concepción restaurants."
+        },
+        {
+          "id": "cayu_f4",
+          "text": "Completo Sureño",
+          "detail": "Indulge in a loaded Chilean hot dog topped with avocado, tomato, and mayonnaise, a hearty post-beach meal available at local vendors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cayu_c1",
+          "text": "Respect the Rip Currents",
+          "detail": "Local surfers and lifeguards emphasize careful water awareness as Cayumanpu's powerful waves create serious currents unsuitable for weak swimmers."
+        },
+        {
+          "id": "cayu_c2",
+          "text": "Peak Surf Season Timing",
+          "detail": "Visit March through September when southern Pacific swells are strongest; the beach becomes a gathering point for the regional surf community during these months."
+        },
+        {
+          "id": "cayu_c3",
+          "text": "Local Surf Culture",
+          "detail": "Engage respectfully with the tight-knit local surf community by following beach etiquette and acknowledging that this is a serious break favored by experienced riders."
+        },
+        {
+          "id": "cayu_c4",
+          "text": "Weather Variability",
+          "detail": "Prepare for sudden weather changes and strong winds typical of the Bío Bío coast; bring layers and check conditions before heading to the beach."
+        }
+      ]
+    },
+    {
+      "id": "laguna_del_laja",
+      "name": "Laguna del Laja National Park",
+      "nameIt": "Parque Nacional Laguna del Laja",
+      "lat": -37.3333,
+      "lng": -71.5667,
+      "type": "NATURE",
+      "description": "A stunning high-altitude park featuring a pristine turquoise lake with views of the Antuco volcano and snow-capped peaks. The alpine scenery and trekking opportunities make it a rewarding destination for mountain lovers.",
+      "imageQueries": [
+        "Laguna del Laja turquoise lake",
+        "Laguna del Laja Antuco volcano"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Laguna del Laja Shoreline Trek",
+          "detail": "Hike the scenic trail circumnavigating the turquoise alpine lake with views of Antuco volcano and surrounding snow-capped peaks.",
+          "lat": -37.2667,
+          "lng": -71.5167
+        },
+        {
+          "id": "lagu_2",
+          "text": "Antuco Volcano Ascent",
+          "detail": "Climb the 3,658-meter active volcano for panoramic views of the Andes and across the park's high-altitude landscape.",
+          "lat": -37.4083,
+          "lng": -71.3583
+        },
+        {
+          "id": "lagu_3",
+          "text": "Alto de Laja Pass Viewpoint",
+          "detail": "Drive or hike to this elevated vantage point for sweeping vistas of the lake basin and surrounding volcanic terrain.",
+          "lat": -37.2417,
+          "lng": -71.5417
+        },
+        {
+          "id": "lagu_4",
+          "text": "Alpine Wildflower Meadows",
+          "detail": "Explore seasonal wildflower displays across the park's subalpine meadows, particularly vibrant during spring and early summer.",
+          "lat": -37.28,
+          "lng": -71.52
+        },
+        {
+          "id": "lagu_5",
+          "text": "Fishing at Laguna del Laja",
+          "detail": "Fish for introduced trout species in the pristine glacier-fed lake, a popular activity during permitted seasons.",
+          "lat": -37.2667,
+          "lng": -71.5167
+        },
+        {
+          "id": "lagu_6",
+          "text": "Salto de la Laja Waterfall",
+          "detail": "Visit the dramatic waterfall where the Laja River exits the lake through a narrow gorge with impressive rock formations.",
+          "lat": -37.2917,
+          "lng": -71.5083
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Fresh trout from the lake prepared simply with butter and local herbs, a signature preparation in the region's lodges."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Empanadas de Horno",
+          "detail": "Baked hand pies filled with meat, cheese, or vegetables, commonly served warm at park visitor facilities and nearby towns."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Cazuela de Verduras",
+          "detail": "A hearty vegetable stew with potatoes and squash reflective of Andean cuisine, perfect after mountain activities."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Araucaria Nut Dishes",
+          "detail": "Local preparations featuring the edible seeds from ancient Araucaria trees found in the region's native forests."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Sopaipillas",
+          "detail": "Fried pastry discs served with pebre sauce, a traditional Chilean street food available at park entrances and nearby settlements."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "High Altitude Acclimatization",
+          "detail": "The park sits at elevations above 2,200 meters; allow time to acclimate and stay hydrated to avoid altitude-related discomfort."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Weather Changes",
+          "detail": "Mountain weather shifts rapidly—bring layered clothing and rain gear even on clear mornings, as afternoon storms are common."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Mapuche Heritage Respect",
+          "detail": "The surrounding region holds significance for the Mapuche people; respect sacred sites and local land traditions while visiting."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Permit and Entrance Requirements",
+          "detail": "Entry passes are required at the park gate; visit during official hours and check seasonal closures due to volcanic activity or weather."
+        }
+      ]
+    },
+    {
+      "id": "mulchen",
+      "name": "Mulchén",
+      "nameIt": "Mulchén",
+      "lat": -37.7333,
+      "lng": -72.2167,
+      "type": "TOWN",
+      "description": "A small Mapuche-influenced town in the heart of the region with authentic local culture and access to natural attractions. The area is less touristy and provides genuine encounters with regional traditions.",
+      "imageQueries": [
+        "Mulchén Chile town",
+        "Mulchén Mapuche culture"
+      ],
+      "activities": [
+        {
+          "id": "mulc_1",
+          "text": "Salto del Laja waterfall visit",
+          "detail": "A powerful multi-tiered waterfall located near Mulchén that showcases the region's dramatic landscape and offers excellent photography opportunities.",
+          "lat": -37.2833,
+          "lng": -71.9333
+        },
+        {
+          "id": "mulc_2",
+          "text": "Mapuche cultural workshops",
+          "detail": "Participate in traditional weaving, pottery, or agricultural practices with local Mapuche families who teach ancestral techniques passed down through generations.",
+          "lat": -37.2667,
+          "lng": -72.0167
+        },
+        {
+          "id": "mulc_3",
+          "text": "Explore Mulchén town square and market",
+          "detail": "Walk through the central plaza to experience local commerce, interact with vendors, and observe authentic daily life in this small Bío Bío town.",
+          "lat": -37.2692,
+          "lng": -71.9589
+        },
+        {
+          "id": "mulc_4",
+          "text": "Nahuelbuta National Park trails",
+          "detail": "Hike through native forest ecosystems with araucaria trees and observe endemic wildlife within driving distance of Mulchén.",
+          "lat": -37.7167,
+          "lng": -71.6167
+        },
+        {
+          "id": "mulc_5",
+          "text": "Río Laja exploration",
+          "detail": "Follow the river valley to observe natural rock formations and experience the hydrological heart of the Bío Bío region.",
+          "lat": -37.3333,
+          "lng": -71.8333
+        },
+        {
+          "id": "mulc_6",
+          "text": "Visit local agricultural lands",
+          "detail": "Tour wheat fields and mixed farms typical of the area to understand the region's agricultural heritage and seasonal rhythms."
+        }
+      ],
+      "food": [
+        {
+          "id": "mulc_f1",
+          "text": "Cazuela de ave",
+          "detail": "A traditional stew made with chicken, potatoes, corn, and regional vegetables served in an earthenware pot, reflecting Mapuche and Chilean country cooking."
+        },
+        {
+          "id": "mulc_f2",
+          "text": "Sopaipillas con pebre",
+          "detail": "Fried dough discs served with a spicy cilantro and tomato sauce, a casual street food staple throughout the Bío Bío region."
+        },
+        {
+          "id": "mulc_f3",
+          "text": "Trigo tostado",
+          "detail": "Toasted wheat kernels eaten as a snack or ground into flour, an ancestral Mapuche food with deep cultural significance."
+        },
+        {
+          "id": "mulc_f4",
+          "text": "Fresh corn empanadas",
+          "detail": "Handmade pastries filled with fresh corn and cheese, best purchased from local vendors at the town market during harvest season."
+        },
+        {
+          "id": "mulc_f5",
+          "text": "Charqui or dried meat",
+          "detail": "Sun-dried beef prepared using traditional methods and sold at local markets, offering authentic preservation techniques from regional herding culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mulc_c1",
+          "text": "Respect Mapuche traditions and land",
+          "detail": "Address local indigenous communities respectfully and ask permission before photographing people or sacred sites, as the area holds deep Mapuche cultural significance."
+        },
+        {
+          "id": "mulc_c2",
+          "text": "Learn basic Spanish greetings",
+          "detail": "English is rarely spoken in Mulchén, so learning simple Spanish phrases helps facilitate genuine interactions with locals and shows cultural respect."
+        },
+        {
+          "id": "mulc_c3",
+          "text": "Visit during harvest season",
+          "detail": "Plan a trip during March through May to experience agricultural traditions, local festivals, and seasonal food availability at their peak."
+        },
+        {
+          "id": "mulc_c4",
+          "text": "Embrace slower pace of life",
+          "detail": "Mulchén operates on a relaxed schedule compared to urban centers; businesses may have limited hours and afternoon closures, so adjust expectations accordingly."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Ámbar",
+      "address": "Calle Chacabuco 640, Concepción",
+      "neighbourhood": "Centro, Concepción",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant featuring modern interpretations of regional ingredients with an extensive wine list.",
+      "mustOrder": "Merluza a la mantequilla negra",
+      "lat": -36.8201,
+      "lng": -73.0499
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Fuente Alemana",
+      "address": "Calle Chacabuco 517, Concepción",
+      "neighbourhood": "Centro, Concepción",
+      "cuisine": "Sandwiches & Fast Casual",
+      "priceRange": "€",
+      "description": "Historic Chilean sandwich chain institution known for quality ingredients and quick service.",
+      "mustOrder": "Sándwich Barros Luco",
+      "lat": -36.8209,
+      "lng": -73.0503
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "El Típico",
+      "address": "Calle Caupolicán 540, Los Ángeles",
+      "neighbourhood": "Centro, Los Ángeles",
+      "cuisine": "Chilean Traditional",
+      "priceRange": "€€",
+      "description": "Family-run establishment serving authentic Chilean comfort food in a warm, casual setting.",
+      "mustOrder": "Cazuela de ave",
+      "lat": -37.4668,
+      "lng": -72.3345
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Boca del Río",
+      "address": "Avenida Costanera 3100, Talcahuano",
+      "neighbourhood": "Waterfront, Talcahuano",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Beachfront seafood specialist with fresh daily catches and panoramic bay views.",
+      "mustOrder": "Curanto",
+      "lat": -36.7168,
+      "lng": -73.1169
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "La Parrilla del Tío",
+      "address": "Calle Arturo Prat 280, Chillan",
+      "neighbourhood": "Centro, Chillán",
+      "cuisine": "Argentine Grill",
+      "priceRange": "€€",
+      "description": "Traditional parrilla offering expertly grilled meats and a convivial atmosphere popular with locals.",
+      "mustOrder": "Tira de asado",
+      "lat": -36.5974,
+      "lng": -72.1049
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Confitería Torres",
+      "address": "Calle Constitución 580, Concepción",
+      "neighbourhood": "Centro, Concepción",
+      "cuisine": "Café & Pastries",
+      "priceRange": "€",
+      "description": "Charming historic café famous for traditional Chilean pastries and excellent espresso drinks.",
+      "mustOrder": "Empanada de mariscos",
+      "lat": -36.822,
+      "lng": -73.049
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Siete Platos",
+      "address": "Calle San Martín 650, Concepción",
+      "neighbourhood": "Centro, Concepción",
+      "cuisine": "Chilean Contemporary",
+      "priceRange": "€€€",
+      "description": "Chef-driven venue celebrating seasonal produce with artistic plating and thoughtful wine pairings.",
+      "mustOrder": "Reineta con salsa de huíquel",
+      "lat": -36.8235,
+      "lng": -73.0515
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "El Mesón",
+      "address": "Calle Libertad 445, Los Ángeles",
+      "neighbourhood": "Centro, Los Ángeles",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€",
+      "description": "Lively tapas bar with Spanish influences, craft beers, and a convivial social atmosphere.",
+      "mustOrder": "Pulpo a la gallega",
+      "lat": -37.468,
+      "lng": -72.3355
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Marisol",
+      "address": "Avenida Costanera 2850, Talcahuano",
+      "neighbourhood": "Waterfront, Talcahuano",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual waterfront eatery serving fresh fish and shellfish at reasonable prices with harbor views.",
+      "mustOrder": "Congrio frito",
+      "lat": -36.7145,
+      "lng": -73.1155
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Doña Juanita",
+      "address": "Calle Arauco 345, Chillán",
+      "neighbourhood": "Centro, Chillán",
+      "cuisine": "Chilean Traditional",
+      "priceRange": "€",
+      "description": "No-frills beloved spot serving genuine Chilean home cooking in an unpretentious family atmosphere.",
+      "mustOrder": "Pastel de choclo",
+      "lat": -36.5965,
+      "lng": -72.1035
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Tierra Mar",
+      "address": "Calle O'Higgins 890, Concepción",
+      "neighbourhood": "Centro, Concepción",
+      "cuisine": "Fusion Seafood",
+      "priceRange": "€€€",
+      "description": "Contemporary restaurant blending Peruvian and Chilean coastal influences with creative presentations.",
+      "mustOrder": "Ceviche de congrio",
+      "lat": -36.8245,
+      "lng": -73.052
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Casa Vieja",
+      "address": "Calle Maipu 280, Tomé",
+      "neighbourhood": "Centro, Tomé",
+      "cuisine": "Chilean Coastal",
+      "priceRange": "€€",
+      "description": "Rustic establishment in a fishing town specializing in simply prepared local seafood and empanadas.",
+      "mustOrder": "Empanada de marisco",
+      "lat": -36.4035,
+      "lng": -72.3085
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "La Estancia",
+      "address": "Calle Lynch 520, Los Ángeles",
+      "neighbourhood": "Centro, Los Ángeles",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€€",
+      "description": "Upscale steakhouse with premium cuts, imported wines, and refined service in an elegant setting.",
+      "mustOrder": "Entraña",
+      "lat": -37.4675,
+      "lng": -72.3365
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Café del Puerto",
+      "address": "Avenida Costanera 3050, Talcahuano",
+      "neighbourhood": "Waterfront, Talcahuano",
+      "cuisine": "Café & Light Fare",
+      "priceRange": "€",
+      "description": "Casual harbor-side café perfect for breakfast or lunch with excellent coffee and fresh sandwiches.",
+      "mustOrder": "Sándwich de atún",
+      "lat": -36.7155,
+      "lng": -73.1165
+    }
+  ]
+}

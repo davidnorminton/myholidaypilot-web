@@ -1,0 +1,1229 @@
+{
+  "id": "dead_sea_region",
+  "name": "Dead Sea",
+  "nameIt": "البحر الميت",
+  "capital": "Amman (administered from)",
+  "lat": 31.5,
+  "lng": 35.5,
+  "emoji": "🧂",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": 31.75,
+    "south": 31.2,
+    "east": 35.75,
+    "west": 35.2
+  },
+  "history": "The Dead Sea region has been inhabited since ancient times, with evidence of human settlement dating back thousands of years. The area held great significance in biblical history, featuring prominently in Old Testament narratives and serving as a refuge for various communities throughout the ages. During the Roman and Byzantine periods, the region developed as a center of religious pilgrimage and monastic life, with numerous monasteries established in the surrounding cliffs and valleys. The Jordanian shore of the Dead Sea has experienced various territorial changes through Ottoman, British Mandate, and modern periods, ultimately becoming part of the Hashemite Kingdom of Jordan in 1952.",
+  "culturalNotes": "The Dead Sea represents a unique meeting point of ancient tradition and modern wellness tourism, where Bedouin heritage blends with contemporary resort culture. The region is deeply connected to Islamic and Christian traditions, with multiple sacred sites and pilgrimage destinations that continue to draw visitors seeking spiritual connection. The mineral-rich waters and therapeutic mud have made the area synonymous with healing and rejuvenation for centuries, creating a distinctive identity that balances cultural preservation with health-conscious tourism.",
+  "bestTimeToVisit": "November to March to avoid extreme summer heat at the lowest point on Earth.",
+  "languageNotes": "Arabic is the primary language spoken in the Dead Sea region, with the local dialect being Levantine Arabic, which differs notably from Modern Standard Arabic. Useful phrases include \"Marhaba\" (hello), \"Shukran\" (thank you), and \"Aywa\" (yes), though most tourism-oriented establishments in the area have English-speaking staff.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 10,
+  "places": [
+    {
+      "id": "dead_sea_shore",
+      "name": "Dead Sea Coastline",
+      "nameIt": "ساحل البحر الميت",
+      "lat": 31.5,
+      "lng": 35.5,
+      "type": "COASTAL",
+      "description": "The lowest point on Earth at approximately 1,410 feet below sea level, the Dead Sea offers unique therapeutic mineral-rich waters that are impossible to sink in. Visitors come to float effortlessly and experience the buoyancy phenomenon while enjoying the otherworldly landscape and therapeutic mud treatments.",
+      "imageQueries": [
+        "Dead Sea floating tourists",
+        "Dead Sea mineral mud"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience the unique buoyancy of the mineral-rich waters where your body naturally floats without effort due to the extremely high salt concentration.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_2",
+          "text": "Mud Treatment at Amman Beach",
+          "detail": "Apply therapeutic black mud rich in minerals to your skin for exfoliation and healing benefits, a traditional practice visitors enjoy along the coastline.",
+          "lat": 31.472,
+          "lng": 35.497
+        },
+        {
+          "id": "dead_3",
+          "text": "Visit Potash Company Museum",
+          "detail": "Learn about the industrial history and mineral extraction processes that have shaped the Dead Sea region's economy and geography.",
+          "lat": 31.46,
+          "lng": 35.51
+        },
+        {
+          "id": "dead_4",
+          "text": "Hike to Wadi Zarqa Ma'in Waterfall",
+          "detail": "Trek through a scenic canyon with natural hot springs and a cascading waterfall that feeds into the Dead Sea.",
+          "lat": 31.565,
+          "lng": 35.489
+        },
+        {
+          "id": "dead_5",
+          "text": "Sunset Photography at Dead Sea Shore",
+          "detail": "Capture the otherworldly landscape with dramatic geological formations and mineral deposits as the sun sets over the lowest point on Earth.",
+          "lat": 31.48,
+          "lng": 35.49
+        },
+        {
+          "id": "dead_6",
+          "text": "Visit Ein Feshkha Nature Reserve",
+          "detail": "Explore freshwater springs, wildlife, and vegetation in a protected ecological area adjacent to the Dead Sea coastline.",
+          "lat": 31.54,
+          "lng": 35.43
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Zarqa Ma'in Trout",
+          "detail": "Fresh-caught trout from the local springs, typically grilled simply with lemon and olive oil to highlight its delicate flavor."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Mezze Platter",
+          "detail": "A traditional Jordanian spread featuring hummus, baba ghanoush, tabbouleh, and warm pita bread served at local beachside restaurants."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in a yogurt-based sauce served over rice with pine nuts, representing authentic local cuisine."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Date and Salt Harvest Products",
+          "detail": "Local specialty foods incorporating Dead Sea salt and dates from nearby oases, available at markets and roadside vendors."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Stuffed Dates with Mineral Water",
+          "detail": "Dates filled with nuts and cheese, paired with mineral-rich water from the Dead Sea region, reflecting local produce traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Bring Extra Water and Sun Protection",
+          "detail": "The intense heat and high altitude sun exposure at the lowest point on Earth require substantial hydration and strong sunscreen to prevent severe burns."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Respect the Sacred Landscape",
+          "detail": "The Dead Sea is significant in religious and historical contexts; approach the site with reverence and avoid disrespectful behavior or littering."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Best Time to Visit is Winter",
+          "detail": "October through April offers cooler temperatures as summer heat can exceed 50°C (122°F), making the experience uncomfortable and potentially dangerous."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Do Not Submerge Your Head",
+          "detail": "The extreme salinity can cause severe stinging if water enters your eyes or mouth, so keep your head above water and avoid dunking."
+        }
+      ]
+    },
+    {
+      "id": "amman_beach",
+      "name": "Amman Beach",
+      "nameIt": "شاطئ عمّان",
+      "lat": 31.4867,
+      "lng": 35.4617,
+      "type": "COASTAL",
+      "description": "A developed resort area on the northern Dead Sea shore with beach clubs, spas, and swimming facilities offering safe access to the therapeutic waters. It's the most accessible and well-equipped entry point for tourists seeking the Dead Sea floating experience with modern amenities.",
+      "imageQueries": [
+        "Amman Beach Dead Sea resort",
+        "Dead Sea Jordan beach clubs"
+      ],
+      "activities": [
+        {
+          "id": "amma_1",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience the unique buoyancy of the hypersaline waters where your body naturally floats without effort, a therapeutic experience unique to this location.",
+          "lat": 31.5007,
+          "lng": 35.4774
+        },
+        {
+          "id": "amma_2",
+          "text": "Spa and Mud Treatments",
+          "detail": "Apply mineral-rich black mud from the Dead Sea floor to your skin, believed to have healing and rejuvenating properties for various skin conditions.",
+          "lat": 31.5007,
+          "lng": 35.4774
+        },
+        {
+          "id": "amma_3",
+          "text": "Beach Club Relaxation",
+          "detail": "Spend the day at one of the resort's equipped beach clubs with loungers, umbrellas, and changing facilities along the managed shoreline.",
+          "lat": 31.5007,
+          "lng": 35.4774
+        },
+        {
+          "id": "amma_4",
+          "text": "Sunset Photography",
+          "detail": "Capture the dramatic landscape where the Dead Sea meets the Jordanian and Palestinian hills, especially stunning during golden hour."
+        },
+        {
+          "id": "amma_5",
+          "text": "Mineral Water Pools",
+          "detail": "Use the freshwater rinse pools and heated mineral pools at the resort to safely transition in and out of the Dead Sea after your float."
+        },
+        {
+          "id": "amma_6",
+          "text": "Wellness Treatments",
+          "detail": "Indulge in massages, salt scrubs, and aromatherapy services offered at the resort spas that utilize Dead Sea minerals and local ingredients."
+        }
+      ],
+      "food": [
+        {
+          "id": "amma_f1",
+          "text": "Zartar Bread with Olive Oil",
+          "detail": "Warm pita bread coated with thyme, sesame, and sumac mix drizzled with extra virgin Palestinian or Jordanian olive oil, served as an appetizer."
+        },
+        {
+          "id": "amma_f2",
+          "text": "Falafel",
+          "detail": "Deep-fried chickpea fritters seasoned with cumin and herbs, traditionally served with tahini sauce and fresh vegetables in pita bread."
+        },
+        {
+          "id": "amma_f3",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish featuring lamb cooked in a rich yogurt-based sauce with pine nuts and served over rice, often available at resort restaurants."
+        },
+        {
+          "id": "amma_f4",
+          "text": "Fresh Catch from the Jordan Valley",
+          "detail": "Grilled fish and seafood preparations featuring tilapia and other freshwater fish sourced from local waters and prepared with Mediterranean seasonings."
+        },
+        {
+          "id": "amma_f5",
+          "text": "Hummus and Moutabal",
+          "detail": "Creamy chickpea and tahini dip alongside roasted eggplant puree, both traditionally served with warm bread and olive oil as mezze appetizers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "amma_c1",
+          "text": "Dress Code Considerations",
+          "detail": "While swimwear is acceptable at the beach, modest clothing is appreciated in public areas and restaurants; women may want a cover-up when moving between facilities."
+        },
+        {
+          "id": "amma_c2",
+          "text": "Salt and Mineral Safety",
+          "detail": "Do not submerge your head in the Dead Sea water as the high salt concentration can cause discomfort; avoid touching your face and rinse thoroughly afterward."
+        },
+        {
+          "id": "amma_c3",
+          "text": "Greeting Customs",
+          "detail": "Jordanian hospitality is warm and generous; accepting offered tea or coffee is a sign of respect, and it's polite to greet staff with 'Marhaba' (hello)."
+        },
+        {
+          "id": "amma_c4",
+          "text": "Photography Respect",
+          "detail": "Always ask permission before photographing people, particularly women and children, as privacy is valued in Jordanian culture despite the resort's tourist nature."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_spa_resorts",
+      "name": "Dead Sea Spa Resorts",
+      "nameIt": "منتجعات البحر الميت الصحية",
+      "lat": 31.48,
+      "lng": 35.47,
+      "type": "LANDMARK",
+      "description": "Luxury spa resorts line the Dead Sea shore offering comprehensive wellness treatments using mineral-rich mud and salt water therapy for skin and health conditions. These world-renowned facilities combine therapeutic bathing with spa services, making the Dead Sea a premier wellness destination.",
+      "imageQueries": [
+        "Dead Sea spa resort mud treatment",
+        "Dead Sea luxury spa Jordan"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Dead Sea Mud Therapy",
+          "detail": "Apply nutrient-rich black mud from the Dead Sea floor directly to your skin, let it dry in the sun for 15-20 minutes, then float in the mineral-saturated water for deep cleansing and therapeutic benefits.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_2",
+          "text": "Floating in the Dead Sea",
+          "detail": "Experience effortless buoyancy in the world's lowest point and saltiest body of water, where the extreme salinity makes it impossible to sink.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_3",
+          "text": "Salt Inhalation Therapy",
+          "detail": "Breathe in the mineral-rich air and salt vapors at the spa facilities, which are believed to benefit respiratory and sinus conditions.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_4",
+          "text": "Spa Massage and Treatments",
+          "detail": "Enjoy specialized massage therapies, facials, and body treatments using Dead Sea salts, mud, and mineral-infused oils at the resort's wellness centers.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_5",
+          "text": "Sunrise at the Shoreline",
+          "detail": "Walk along the Dead Sea beach at dawn to witness the dramatic desert landscape and misty mineral-laden air as the sun rises over the Moab Mountains.",
+          "lat": 31.5,
+          "lng": 35.5
+        },
+        {
+          "id": "dead_6",
+          "text": "Visit Hammamat Ma'in Hot Springs",
+          "detail": "Take a resort excursion to nearby natural hot springs cascading down cliffs into pools where thermal waters mix with cooler Dead Sea waters.",
+          "lat": 31.7,
+          "lng": 35.5
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Zarb (Bedouin Roasted Lamb)",
+          "detail": "Tender lamb slow-roasted underground with vegetables, served with rice and flatbread, reflecting traditional Bedouin cooking methods still practiced in the region."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Falafel and Hummus Mezze",
+          "detail": "Crispy chickpea fritters paired with creamy tahini-based hummus, freshly made daily and served with warm pita bread and local olive oil."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Fresh Jordan Valley Vegetables",
+          "detail": "Seasonal produce grown in the fertile Jordan Valley near the Dead Sea, including tomatoes, cucumbers, and eggplant prepared in traditional Palestinian and Jordanian dishes."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Mansaf (Yogurt Stew)",
+          "detail": "A signature Jordanian dish of tender meat cooked in a rich yogurt-based sauce with nuts and spices, served over rice and flatbread."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Fresh Catch from the Dead Sea",
+          "detail": "Though fish cannot survive in the Dead Sea itself, resorts serve tilapia and other freshwater fish sourced from nearby springs and lakes, prepared grilled or fried."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Respect Bathing Etiquette",
+          "detail": "Wear appropriate swimwear when entering the Dead Sea or resort pools, as modest dress is observed in this conservative region; some facilities have designated times or areas for women-only bathing."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Greetings and Hospitality",
+          "detail": "Accept offers of traditional Arabic coffee (qahwa) and tea as gestures of welcome; refusing politely is acceptable, but sharing these moments builds rapport with staff and fellow guests."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Sun Protection is Essential",
+          "detail": "The combination of intense desert sun, reflection off salt water, and high altitude creates extreme UV exposure; apply high-SPF sunscreen frequently and limit direct sun exposure to avoid severe burns."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Hydration and Health Precautions",
+          "detail": "Drink abundant fresh water throughout the day as the dry climate and mineral-rich environment can cause dehydration; avoid getting salt water in eyes, cuts, or mucous membranes."
+        }
+      ]
+    },
+    {
+      "id": "wadi_mujib",
+      "name": "Wadi Mujib Nature Reserve",
+      "nameIt": "محمية وادي موجب",
+      "lat": 31.4467,
+      "lng": 35.5217,
+      "type": "NATURE",
+      "description": "A dramatic nature reserve featuring steep canyons, hiking trails, and seasonal waterfalls descending to the Dead Sea at the lowest point on Earth. The reserve offers adventure activities like canyoneering, rappelling, and nature walks through diverse ecosystems.",
+      "imageQueries": [
+        "Wadi Mujib canyon Jordan",
+        "Wadi Mujib waterfall hiking"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Mujib Trail Hike",
+          "detail": "Trek through the main canyon following the seasonal stream with views of towering sandstone cliffs and the Dead Sea below.",
+          "lat": 31.5436,
+          "lng": 35.4667
+        },
+        {
+          "id": "wadi_2",
+          "text": "Canyoneering and Rappelling",
+          "detail": "Descend steep canyon walls using ropes and harnesses to reach lower gorge sections and natural pools.",
+          "lat": 31.5436,
+          "lng": 35.4667
+        },
+        {
+          "id": "wadi_3",
+          "text": "Siq Trail Walk",
+          "detail": "Navigate through a narrow slot canyon with high walls on both sides, often featuring small waterfalls during wet seasons.",
+          "lat": 31.5436,
+          "lng": 35.4667
+        },
+        {
+          "id": "wadi_4",
+          "text": "Wadi Mujib Dam Visit",
+          "detail": "View the impressive concrete dam structure that controls water flow and creates a scenic photo opportunity overlooking the canyon.",
+          "lat": 31.545,
+          "lng": 35.468
+        },
+        {
+          "id": "wadi_5",
+          "text": "Dead Sea Beach Access",
+          "detail": "Walk down to the lowest point on Earth where the wadi meets the Dead Sea, with opportunities to float in the mineral-rich waters.",
+          "lat": 31.54,
+          "lng": 35.47
+        },
+        {
+          "id": "wadi_6",
+          "text": "Ibex and Wildlife Spotting",
+          "detail": "Search for Nubian ibex, hyrax, and desert birds across the rocky terrain and cliff faces of the reserve.",
+          "lat": 31.5436,
+          "lng": 35.4667
+        },
+        {
+          "id": "wadi_7",
+          "text": "Seasonal Waterfall Photography",
+          "detail": "Capture stunning photos of cascading waterfalls that flow during winter and spring months as snowmelt feeds the canyon.",
+          "lat": 31.5436,
+          "lng": 35.4667
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Zarb (Bedouin Lamb Roast)",
+          "detail": "Slow-roasted lamb cooked underground with vegetables, traditionally served at visitor centers and nearby lodges near the reserve."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish of lamb cooked in tangy yogurt sauce with pine nuts, commonly found at restaurants in nearby Dead Sea towns."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Fresh Jordanian Mezze",
+          "detail": "Platters of hummus, baba ghanoush, tabbouleh, and fresh pita bread available at the reserve's visitor facilities and local establishments."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Dead Sea Fish",
+          "detail": "Local tilapia and other fish from the Dead Sea region, prepared grilled or fried at nearby coastal restaurants."
+        },
+        {
+          "id": "wadi_f5",
+          "text": "Bedouin Tea and Coffee",
+          "detail": "Strong Arabic coffee and herbal tea served in traditional style as a welcome beverage throughout the reserve."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Hire Licensed Local Guides",
+          "detail": "Reserve guides are required for canyoneering and recommended for all activities; they provide safety expertise and knowledge of seasonal water conditions."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Respect Prayer Times",
+          "detail": "Visitors should be aware of Islamic prayer times (particularly Friday midday prayer) when some staff and local services may be limited."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Dress Modestly and Practically",
+          "detail": "Wear long pants and covered shoulders as a sign of respect for local culture, and bring water shoes or sturdy footwear for canyon walking."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Check Water Levels Before Visiting",
+          "detail": "Seasonal water flow varies dramatically; contact the reserve ahead to confirm trail accessibility and which routes are passable during your visit."
+        }
+      ]
+    },
+    {
+      "id": "sweimeh",
+      "name": "Sweimeh",
+      "nameIt": "السويمة",
+      "lat": 31.4933,
+      "lng": 35.4633,
+      "type": "TOWN",
+      "description": "A small beach town serving as a gateway to the Dead Sea with casual swimming spots and local restaurants offering fresh fish and traditional Jordanian cuisine. It provides a more authentic, less touristy alternative to resort-heavy areas while maintaining good access to the water.",
+      "imageQueries": [
+        "Sweimeh Dead Sea town",
+        "Sweimeh Jordan beach"
+      ],
+      "activities": [
+        {
+          "id": "swei_1",
+          "text": "Float in the Dead Sea",
+          "detail": "Experience the unique buoyancy of the lowest body of water on Earth where you naturally float due to extremely high salt content.",
+          "lat": 31.4897,
+          "lng": 35.4732
+        },
+        {
+          "id": "swei_2",
+          "text": "Visit Sweimeh Public Beach",
+          "detail": "Access the main community swimming area with calm waters, basic facilities, and a local atmosphere away from resort crowds.",
+          "lat": 31.4905,
+          "lng": 35.4728
+        },
+        {
+          "id": "swei_3",
+          "text": "Explore the mineral-rich mud",
+          "detail": "Apply the naturally occurring therapeutic black mud found along the Dead Sea shore, believed to have healing properties for skin.",
+          "lat": 31.489,
+          "lng": 35.474
+        },
+        {
+          "id": "swei_4",
+          "text": "Walk along the waterfront promenade",
+          "detail": "Stroll through Sweimeh's modest seaside area lined with local restaurants and shops offering views of the Dead Sea and Israeli shores.",
+          "lat": 31.49,
+          "lng": 35.4735
+        },
+        {
+          "id": "swei_5",
+          "text": "Sunset viewing at the beach",
+          "detail": "Watch the sun set over the Dead Sea from the local beach, creating dramatic lighting across the mineral-laden waters.",
+          "lat": 31.4895,
+          "lng": 35.473
+        }
+      ],
+      "food": [
+        {
+          "id": "swei_f1",
+          "text": "Grilled tilapia",
+          "detail": "Fresh tilapia caught from local sources and grilled with simple seasonings, served whole at waterfront restaurants."
+        },
+        {
+          "id": "swei_f2",
+          "text": "Zarb (underground oven meat)",
+          "detail": "Traditional slow-cooked lamb or chicken wrapped in vegetables and cooked in a pit oven, a Jordanian specialty found at local establishments."
+        },
+        {
+          "id": "swei_f3",
+          "text": "Fattoush salad",
+          "detail": "Fresh mixed greens, tomatoes, and cucumbers topped with crispy pita chips and sumac, common in Jordanian cuisine throughout the region."
+        },
+        {
+          "id": "swei_f4",
+          "text": "Fish and mezze spread",
+          "detail": "A combination meal featuring fresh catch alongside multiple small plates of hummus, baba ganoush, olives, and fresh bread."
+        },
+        {
+          "id": "swei_f5",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish of lamb cooked in a yogurt-based sauce served over rice, often available at family-run restaurants in Sweimeh."
+        }
+      ],
+      "culture": [
+        {
+          "id": "swei_c1",
+          "text": "Respect swimming etiquette",
+          "detail": "Many locals swim fully clothed or in modest attire; visitors should be mindful of conservative dress norms and avoid overly revealing swimwear."
+        },
+        {
+          "id": "swei_c2",
+          "text": "Bring water and sunscreen",
+          "detail": "The Dead Sea environment intensifies sun exposure and dehydration risk; locals and guides strongly recommend protection even on cloudy days."
+        },
+        {
+          "id": "swei_c3",
+          "text": "Engage with restaurant owners",
+          "detail": "Sweimeh's casual dining culture encourages interaction with proprietors who often prepare daily specials based on fresh catch and are happy to explain traditional dishes."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_panorama",
+      "name": "Dead Sea Panorama Complex",
+      "nameIt": "مجمع البحر الميت بانوراما",
+      "lat": 31.4,
+      "lng": 35.55,
+      "type": "LANDMARK",
+      "description": "A visitor complex offering panoramic views of the Dead Sea, the lowest point on Earth, with museum exhibits explaining the geology and history of the region. It provides spectacular viewpoints and educational information about this unique natural wonder.",
+      "imageQueries": [
+        "Dead Sea Panorama viewpoint",
+        "Dead Sea lowest point Jordan"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Panoramic Viewpoint",
+          "detail": "Stand at the main observation deck to view the Dead Sea stretching across the Palestinian territories and Israel, with the Moab Mountains visible in the distance.",
+          "lat": 31.4789,
+          "lng": 35.4774
+        },
+        {
+          "id": "dead_2",
+          "text": "Geology Museum",
+          "detail": "Explore interactive exhibits explaining the Dead Sea's formation, mineral composition, and why it is the lowest point on Earth at 1,410 feet below sea level.",
+          "lat": 31.4789,
+          "lng": 35.4774
+        },
+        {
+          "id": "dead_3",
+          "text": "Historical Timeline Exhibition",
+          "detail": "Learn about the region's ancient civilizations, biblical significance, and modern history through curated displays and artifacts.",
+          "lat": 31.4789,
+          "lng": 35.4774
+        },
+        {
+          "id": "dead_4",
+          "text": "Photography at Sunset",
+          "detail": "Capture stunning golden-hour images of the Dead Sea and surrounding landscape from designated viewing platforms as the sun descends behind the western hills.",
+          "lat": 31.4789,
+          "lng": 35.4774
+        },
+        {
+          "id": "dead_5",
+          "text": "Dead Sea Mineral Pool Experience",
+          "detail": "Float effortlessly in the hypersaline waters where the extreme salt concentration makes it impossible to sink, located directly below the complex.",
+          "lat": 31.4789,
+          "lng": 35.4774
+        },
+        {
+          "id": "dead_6",
+          "text": "Gift Shop and Souvenir Selection",
+          "detail": "Browse locally-sourced Dead Sea salt products, skincare items made with mineral-rich mud, and traditional Jordanian handicrafts."
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Dead Sea Salt-Crusted Fish",
+          "detail": "Freshwater fish prepared with a crust of Dead Sea salt that seals in moisture and imparts a mineral flavor unique to this region."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Zarqaa Valley Dates",
+          "detail": "Sweet, locally-harvested dates from nearby oases that thrive in the arid climate surrounding the Dead Sea."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Hummus with Black Cumin",
+          "detail": "Creamy chickpea dip topped with locally-grown black cumin seeds and olive oil, a Jordanian staple served at the complex café."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Mint Tea with Dead Sea Herbs",
+          "detail": "Fresh mint tea infused with aromatic herbs gathered from the Dead Sea region, served hot or cold throughout the day."
+        },
+        {
+          "id": "dead_f5",
+          "text": "Falafel with Tahini",
+          "detail": "Deep-fried chickpea fritters served with sesame seed paste and pita bread, a traditional street food available at the complex cafeteria."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Dress for Extreme Heat",
+          "detail": "The Dead Sea region is one of the hottest places on Earth; wear light, loose clothing, wide-brimmed hats, and high-SPF sunscreen to protect against intense UV exposure."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Respect Prayer Times",
+          "detail": "The complex may have reduced hours or limited services during the five daily Islamic prayer times, particularly Friday midday prayers when many staff may be absent."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Don't Submerge Your Head",
+          "detail": "If swimming in the Dead Sea, never allow salt water to enter your eyes, mouth, or nose as the extreme salinity causes severe irritation; rinse thoroughly with fresh water afterward."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Greet in Arabic",
+          "detail": "Learn basic Arabic greetings like 'As-salamu alaykum' (Peace be upon you) to show respect to local staff and enhance your cultural experience."
+        }
+      ]
+    },
+    {
+      "id": "lot_cave",
+      "name": "Cave of Lot",
+      "nameIt": "كهف لوط",
+      "lat": 31.38,
+      "lng": 35.55,
+      "type": "LANDMARK",
+      "description": "An ancient religious site believed to be the sanctuary where Prophet Lot sought refuge, featuring a Byzantine church dating to the 5th century with stunning views of the Dead Sea. The cave holds significant spiritual importance for both Islamic and Christian traditions.",
+      "imageQueries": [
+        "Cave of Lot Jordan",
+        "Lot cave Byzantine church Dead Sea"
+      ],
+      "activities": [
+        {
+          "id": "lot__1",
+          "text": "Explore the Byzantine Church Ruins",
+          "detail": "Walk through the remains of the 5th-century Byzantine church built within the cave complex, featuring original stone foundations and religious carvings.",
+          "lat": 31.4689,
+          "lng": 35.4733
+        },
+        {
+          "id": "lot__2",
+          "text": "Visit the Cave Interior",
+          "detail": "Descend into the sacred cave where Prophet Lot is believed to have taken refuge, with natural rock formations and religious inscriptions marking the site.",
+          "lat": 31.4689,
+          "lng": 35.4733
+        },
+        {
+          "id": "lot__3",
+          "text": "Dead Sea Panoramic Views",
+          "detail": "Stand at the cave's elevated vantage point to photograph the Dead Sea, surrounding desert landscape, and Palestinian territories across the water.",
+          "lat": 31.4689,
+          "lng": 35.4733
+        },
+        {
+          "id": "lot__4",
+          "text": "Archaeological Museum Tour",
+          "detail": "View recovered artifacts, pottery fragments, and religious relics from excavations displayed in the on-site visitor center explaining the site's history.",
+          "lat": 31.4689,
+          "lng": 35.4733
+        },
+        {
+          "id": "lot__5",
+          "text": "Sunset Photography Session",
+          "detail": "Capture the golden hour light illuminating the cave entrance and Dead Sea shoreline, creating dramatic shadows across the Byzantine stonework."
+        },
+        {
+          "id": "lot__6",
+          "text": "Guided Religious Interpretation",
+          "detail": "Join a local guide to understand the Islamic and Christian significance of the site and the role of Prophet Lot in both traditions."
+        }
+      ],
+      "food": [
+        {
+          "id": "lot__f1",
+          "text": "Zarb (Bedouin Underground Roast)",
+          "detail": "Slow-cooked lamb or goat with vegetables buried in hot coals, a traditional preparation method used by local Bedouin communities near the Dead Sea."
+        },
+        {
+          "id": "lot__f2",
+          "text": "Musakhan with Local Herbs",
+          "detail": "Roasted chicken served on taboon bread with sumac and wild herbs sourced from the Jordan Valley cliffs surrounding the cave site."
+        },
+        {
+          "id": "lot__f3",
+          "text": "Dead Sea Fish (Tilapia and Catfish)",
+          "detail": "Freshwater fish caught from the Dead Sea prepared grilled or fried, served with lemon and local spices at nearby Bedouin settlements."
+        },
+        {
+          "id": "lot__f4",
+          "text": "Hummus and Olive Oil from Jordan Valley",
+          "detail": "Creamy chickpea dip made with tahini and topped with extra-virgin oil from olives grown on the surrounding hillsides."
+        },
+        {
+          "id": "lot__f5",
+          "text": "Knafeh with Goat Cheese",
+          "detail": "Warm shredded pastry dessert layered with local goat cheese and topped with pistachios, a regional specialty from the Dead Sea area."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lot__c1",
+          "text": "Modest Dress Required",
+          "detail": "Wear conservative clothing covering shoulders and knees as a sign of respect for the site's sacred status in Islamic and Christian traditions."
+        },
+        {
+          "id": "lot__c2",
+          "text": "Prayer Times Accessibility",
+          "detail": "Visit outside of Islamic prayer times when possible, as locals and pilgrims may be using the site for devotional purposes, particularly at dawn and dusk."
+        },
+        {
+          "id": "lot__c3",
+          "text": "Photography Sensitivity",
+          "detail": "Ask permission before photographing worshippers or religious ceremonies, and avoid photography in the deepest sections of the cave where sacred prayer spaces are located."
+        },
+        {
+          "id": "lot__c4",
+          "text": "Guided Tour Respect",
+          "detail": "If hiring a local guide, listen to their spiritual interpretations with openness as the site holds deep personal and religious meaning for many Jordanian visitors."
+        }
+      ]
+    },
+    {
+      "id": "wadi_zarqa_main",
+      "name": "Wadi Zarqa Ma'in Hot Springs",
+      "nameIt": "وادي زرقاء معين",
+      "lat": 31.48,
+      "lng": 35.55,
+      "type": "NATURE",
+      "description": "Natural hot spring waterfalls cascading into pools along a scenic canyon descent to the Dead Sea, featuring warm mineral-rich waters ideal for bathing year-round. The combination of hiking through dramatic terrain and therapeutic hot spring bathing makes it a unique nature destination.",
+      "imageQueries": [
+        "Zarqa Maain hot springs waterfall",
+        "Wadi Zarqa Main Dead Sea"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Hike the canyon trail",
+          "detail": "Trek down the dramatic wadi canyon following the stream as it descends toward the Dead Sea, passing multiple natural hot spring cascades and pools.",
+          "lat": 31.7839,
+          "lng": 35.4672
+        },
+        {
+          "id": "wadi_2",
+          "text": "Bathe in thermal pools",
+          "detail": "Soak in the naturally heated mineral-rich pools at various elevations throughout the wadi, each with different temperatures and mineral concentrations.",
+          "lat": 31.7805,
+          "lng": 35.4689
+        },
+        {
+          "id": "wadi_3",
+          "text": "Visit Zarqa Ma'in waterfall",
+          "detail": "Experience the iconic hot spring waterfall that cascades dramatically into a turquoise pool, a photographer's highlight and primary bathing destination.",
+          "lat": 31.7778,
+          "lng": 35.4705
+        },
+        {
+          "id": "wadi_4",
+          "text": "Rock scramble and swimming",
+          "detail": "Navigate natural rock formations and jump between pools as you move upstream, combining adventure with thermal bathing in a scenic setting.",
+          "lat": 31.782,
+          "lng": 35.4658
+        },
+        {
+          "id": "wadi_5",
+          "text": "Dead Sea viewpoint hike",
+          "detail": "Complete the full descent to reach the lowest point where the wadi meets the Dead Sea shore, offering views of the lowest point on Earth.",
+          "lat": 31.775,
+          "lng": 35.472
+        },
+        {
+          "id": "wadi_6",
+          "text": "Mineral mud application",
+          "detail": "Collect and apply the naturally occurring mineral-rich mud found along the wadi pools to skin for therapeutic and cosmetic benefits."
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Zarqa grilled fish",
+          "detail": "Fresh tilapia or local freshwater fish grilled over charcoal at nearby roadside establishments, seasoned with local herbs and served with lemon."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Bedouin tea (Shay)",
+          "detail": "Strong black tea infused with mint and sometimes cardamom, traditionally served in small glasses by local vendors near the wadi entrance."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish of lamb cooked in a yogurt-based sauce served over rice, commonly available at nearby lodges and local restaurants in the Dead Sea region."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Date and nut energy balls",
+          "detail": "Homemade sweet snacks made from local dates and almonds, perfect trail food sold by vendors near the wadi parking area."
+        },
+        {
+          "id": "wadi_f5",
+          "text": "Stuffed grape leaves (Warak Enab)",
+          "detail": "Grape leaves rolled with rice and herbs, a traditional Levantine preparation often served cold as an appetizer at regional restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Modest swimwear expected",
+          "detail": "While bathing is central to the experience, locals appreciate visitors wearing conservative swimwear; full-body coverage swimsuits are increasingly common and respectful."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Early morning visits recommended",
+          "detail": "Start your hike at dawn to avoid crowds, enjoy cooler temperatures for hiking, and maximize time in the pools before afternoon heat intensifies."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Hire a local guide",
+          "detail": "Engaging a guide from nearby villages enhances safety on the rocky terrain, provides cultural insights, and supports the local community economically."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Respect seasonal water levels",
+          "detail": "Winter and spring offer the best experience with higher water flow and fuller pools; summer heat reduces flow and increases water temperature significantly."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_museum",
+      "name": "Dead Sea Museum",
+      "nameIt": "متحف البحر الميت",
+      "lat": 31.49,
+      "lng": 35.46,
+      "type": "LANDMARK",
+      "description": "An interpretive museum showcasing the geological formation, mineral composition, and ecological significance of the Dead Sea through interactive exhibits and artifacts. It provides essential context for understanding why this location is unique and scientifically fascinating.",
+      "imageQueries": [
+        "Dead Sea museum Jordan",
+        "Dead Sea geology museum exhibits"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Explore Interactive Mineral Exhibits",
+          "detail": "Examine hands-on displays demonstrating the Dead Sea's extreme salinity and mineral composition through touchscreen kiosks and sample collections."
+        },
+        {
+          "id": "dead_2",
+          "text": "View Geological Timeline Display",
+          "detail": "Walk through the museum's chronological presentation of the Dead Sea's formation over millions of years with cross-sectional diagrams and video presentations."
+        },
+        {
+          "id": "dead_3",
+          "text": "Study Ancient Artifact Collection",
+          "detail": "Observe pottery, tools, and remnants from civilizations that once thrived around the Dead Sea shores before water levels receded."
+        },
+        {
+          "id": "dead_4",
+          "text": "Watch Documentary Films",
+          "detail": "Sit in the museum's screening room to view educational films about the Dead Sea's unique ecosystem and environmental challenges."
+        },
+        {
+          "id": "dead_5",
+          "text": "Examine Dead Sea Salt Crystals",
+          "detail": "View magnified displays and samples of the crystalline mineral formations that make the Dead Sea one of Earth's saltiest bodies of water."
+        },
+        {
+          "id": "dead_6",
+          "text": "Visit the Dead Sea Shoreline",
+          "detail": "Walk to the museum's waterfront location to float in the Dead Sea itself and experience the buoyancy firsthand after learning about its composition.",
+          "lat": 31.4897,
+          "lng": 35.4732
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Zarqa Ma'in Hot Spring Water",
+          "detail": "Drink mineral-rich thermal spring water sourced from nearby Zarqa Ma'in springs, believed to have therapeutic properties."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Stuffed Fish (Samak Mahshi)",
+          "detail": "Enjoy locally caught fish from the Jordan River stuffed with herbs and spices, a traditional preparation in Dead Sea region restaurants."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Bedouin Mansaf",
+          "detail": "Taste this iconic Jordanian dish of lamb cooked in yogurt sauce served with rice, commonly offered at nearby hospitality centers."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Date and Salt-Preserved Products",
+          "detail": "Sample locally produced dried dates and salt-preserved vegetables that take advantage of the region's abundant mineral resources."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Respect Swimwear Customs",
+          "detail": "Wear modest swimwear when floating in the Dead Sea, as conservative dress is culturally important in this predominantly Muslim region."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Learn Arabic Museum Labels",
+          "detail": "Many exhibits feature bilingual Arabic-English descriptions; taking time to read both provides deeper cultural context about local perspectives on the Dead Sea."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Visit During Off-Peak Hours",
+          "detail": "Tour the museum early morning or late afternoon to avoid crowds and enjoy a more contemplative experience suited to the site's educational purpose."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Ask Staff About Bedouin Heritage",
+          "detail": "Museum staff can share stories about the Bedouin communities who have lived along the Dead Sea for centuries and adapted to its extreme environment."
+        }
+      ]
+    },
+    {
+      "id": "zara_reserve",
+      "name": "Zara Reserve",
+      "nameIt": "محمية زارة",
+      "lat": 31.45,
+      "lng": 35.58,
+      "type": "NATURE",
+      "description": "A protected nature reserve featuring freshwater springs, pools, and biodiversity with hiking trails through scenic wadis toward the Dead Sea. The reserve offers a quieter, more nature-focused experience away from resort crowds with opportunities to spot local wildlife.",
+      "imageQueries": [
+        "Zara reserve Jordan hiking",
+        "Zara nature reserve Dead Sea"
+      ],
+      "activities": [
+        {
+          "id": "zara_1",
+          "text": "Wadi Zarqa Ma'in Springs",
+          "detail": "Hike through the main wadi to reach natural freshwater springs flowing into warm pools surrounded by date palms and cliff walls.",
+          "lat": 31.5489,
+          "lng": 35.4556
+        },
+        {
+          "id": "zara_2",
+          "text": "Thermal Pool Bathing",
+          "detail": "Soak in the naturally heated mineral-rich pools formed by underground hot springs that emerge along the wadi floor.",
+          "lat": 31.5475,
+          "lng": 35.4568
+        },
+        {
+          "id": "zara_3",
+          "text": "Dead Sea Overlook Trail",
+          "detail": "Trek along the elevated ridge paths offering panoramic views down toward the Dead Sea shoreline and the surrounding desert plateau.",
+          "lat": 31.552,
+          "lng": 35.458
+        },
+        {
+          "id": "zara_4",
+          "text": "Wildlife Spotting Walks",
+          "detail": "Early morning guided walks through the reserve to observe mountain gazelles, ibex, and native bird species including eagles and vultures."
+        },
+        {
+          "id": "zara_5",
+          "text": "Waterfall Photography at Zarqa",
+          "detail": "Capture seasonal cascades where springs flow over limestone terraces, especially after winter rains when water volume increases."
+        },
+        {
+          "id": "zara_6",
+          "text": "Wadi Rock Formations Tour",
+          "detail": "Examine the distinctive stratified limestone and sandstone geological layers exposed throughout the canyon walls dating back millions of years."
+        }
+      ],
+      "food": [
+        {
+          "id": "zara_f1",
+          "text": "Ma'amoul with Date Filling",
+          "detail": "Sweet semolina cookies stuffed with dates and sometimes pistachios, traditionally prepared by local Bedouin families and sold at reserve entrances."
+        },
+        {
+          "id": "zara_f2",
+          "text": "Zarqa Spring Water",
+          "detail": "Fresh mineral water sourced directly from the reserve's natural springs, considered therapeutic and sold in bottles throughout the region."
+        },
+        {
+          "id": "zara_f3",
+          "text": "Bedouin Lamb Mansaf",
+          "detail": "Tender lamb cooked in yogurt sauce with pine nuts and served over rice, the signature dish of Jordanian Bedouin communities near the Dead Sea."
+        },
+        {
+          "id": "zara_f4",
+          "text": "Falafel and Hummus",
+          "detail": "Chickpea-based fritters and creamed dip with tahini, lemon, and garlic available at small rest stops within or near the reserve entrance."
+        },
+        {
+          "id": "zara_f5",
+          "text": "Za'atar Bread with Local Olive Oil",
+          "detail": "Flatbread seasoned with wild thyme and sumac, drizzled with pressed olive oil from nearby Palestinian orchards, often served at visitor facilities."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zara_c1",
+          "text": "Respect Spring Access Hours",
+          "detail": "Local guides control access to certain thermal pools and springs for safety and conservation; always check with reserve staff before exploring unmarked areas."
+        },
+        {
+          "id": "zara_c2",
+          "text": "Greet Guides and Workers in Arabic",
+          "detail": "Simple phrases like 'Assalamu alaikum' (hello) and 'Shukran' (thank you) are deeply appreciated by the predominantly Bedouin and Palestinian reserve staff."
+        },
+        {
+          "id": "zara_c3",
+          "text": "Dress Modestly at Public Areas",
+          "detail": "While swimming in pools is permitted, covering shoulders and knees when hiking or visiting rest areas shows respect for local Islamic customs."
+        },
+        {
+          "id": "zara_c4",
+          "text": "Support Local Conservation Efforts",
+          "detail": "The reserve is actively managed to protect endangered species and water resources; purchasing items from official guides and cooperatives funds habitat preservation."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Movenpick Resort & Spa Dead Sea",
+      "address": "Dead Sea Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "International",
+      "priceRange": "€€€€",
+      "description": "Luxury resort dining with Mediterranean and Middle Eastern cuisine overlooking the Dead Sea.",
+      "mustOrder": "Grilled hammour with sea salt crust",
+      "lat": 31.4789,
+      "lng": 35.4872
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Zara Restaurant",
+      "address": "Main Street, Amman Beach",
+      "neighbourhood": "Amman Beach",
+      "cuisine": "Palestinian/Levantine",
+      "priceRange": "€€",
+      "description": "Casual waterfront spot serving traditional Palestinian mezze and grilled meats with Dead Sea views.",
+      "mustOrder": "Mussakhan with sumac chicken",
+      "lat": 31.4856,
+      "lng": 35.4901
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Dead Sea Panorama Restaurant",
+      "address": "Dead Sea Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "Jordanian/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Elegant dining with panoramic Dead Sea views and contemporary Mediterranean preparations.",
+      "mustOrder": "Sea bass fillet with olive tapenade",
+      "lat": 31.4812,
+      "lng": 35.4889
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Hamam Al-Sarah Spa Restaurant",
+      "address": "Dead Sea Resort Area, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "International/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Spa resort restaurant offering healthy Mediterranean cuisine in a serene wellness setting.",
+      "mustOrder": "Grilled vegetables platter with tahini",
+      "lat": 31.4795,
+      "lng": 35.4878
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Red Sea Restaurant",
+      "address": "Main Beach Road, Amman Beach",
+      "neighbourhood": "Amman Beach",
+      "cuisine": "Seafood/International",
+      "priceRange": "€€",
+      "description": "Budget-friendly beachfront restaurant popular with locals for fresh fish and seafood.",
+      "mustOrder": "Mixed grilled fish plate",
+      "lat": 31.4868,
+      "lng": 35.4915
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Al-Manara Restaurant",
+      "address": "Dead Sea Highway, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "Jordanian/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Traditional Jordanian cuisine in a family-friendly setting with authentic preparations.",
+      "mustOrder": "Zarb (slow-cooked lamb and vegetables)",
+      "lat": 31.4823,
+      "lng": 35.4845
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Kempinski Ishtar Dead Sea Restaurant",
+      "address": "Dead Sea Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "International/Mediterranean",
+      "priceRange": "€€€€",
+      "description": "Five-star resort dining with gourmet Mediterranean and international cuisine.",
+      "mustOrder": "Pan-seared scallops with white wine reduction",
+      "lat": 31.4801,
+      "lng": 35.4865
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Abu Shakra Restaurant",
+      "address": "Downtown Road, Amman Beach",
+      "neighbourhood": "Amman Beach",
+      "cuisine": "Egyptian/Middle Eastern",
+      "priceRange": "€",
+      "description": "Simple, inexpensive Egyptian eatery serving falafel, koshari, and grilled meats.",
+      "mustOrder": "Koshari with spiced tomato sauce",
+      "lat": 31.4879,
+      "lng": 35.4922
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Al-Qadsiya Restaurant",
+      "address": "Main Street, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "Levantine/Palestinian",
+      "priceRange": "€€",
+      "description": "Family-run restaurant with homestyle cooking and generous portions of traditional mezze.",
+      "mustOrder": "Falafel with tahini sauce",
+      "lat": 31.4834,
+      "lng": 35.4856
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Anantara Dead Sea Resort Restaurant",
+      "address": "Dead Sea Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "International/Asian Fusion",
+      "priceRange": "€€€€",
+      "description": "Upscale resort restaurant blending Mediterranean and Asian cuisines with Dead Sea vistas.",
+      "mustOrder": "Thai-spiced sea bream",
+      "lat": 31.4788,
+      "lng": 35.4871
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Al-Shorta Club Restaurant",
+      "address": "Beach Road, Amman Beach",
+      "neighbourhood": "Amman Beach",
+      "cuisine": "Jordanian/Seafood",
+      "priceRange": "€€",
+      "description": "Members' club restaurant with excellent fresh seafood and traditional Jordanian dishes.",
+      "mustOrder": "Grilled shrimp with garlic butter",
+      "lat": 31.4845,
+      "lng": 35.4905
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Sahara Restaurant",
+      "address": "Dead Sea Avenue, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "Mediterranean/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Mid-range restaurant with reliable preparations of mezze, grilled meats, and fresh vegetables.",
+      "mustOrder": "Lamb kofta with garlic yogurt",
+      "lat": 31.4815,
+      "lng": 35.4862
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Dead Sea Waves Café",
+      "address": "Waterfront Promenade, Amman Beach",
+      "neighbourhood": "Amman Beach",
+      "cuisine": "Casual/International",
+      "priceRange": "€",
+      "description": "Casual beachside café with light meals, salads, and refreshments perfect for daytime dining.",
+      "mustOrder": "Fresh mezze platter and fresh lemonade",
+      "lat": 31.4872,
+      "lng": 35.4918
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Paradise Beach Restaurant",
+      "address": "North Beach Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "Mediterranean/International",
+      "priceRange": "€€€",
+      "description": "Contemporary beachfront restaurant with modern preparations and excellent sunset views.",
+      "mustOrder": "Grilled halibut with seasonal vegetables",
+      "lat": 31.4805,
+      "lng": 35.4875
+    }
+  ]
+}

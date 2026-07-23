@@ -1,0 +1,1307 @@
+{
+  "id": "wadi_rum",
+  "name": "Wadi Rum",
+  "nameIt": "وادي رم",
+  "capital": "Rum (small settlement)",
+  "lat": 29.83,
+  "lng": 35.43,
+  "emoji": "🏜️",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": 30.05,
+    "south": 29.6,
+    "east": 35.65,
+    "west": 35.2
+  },
+  "history": "Wadi Rum has been inhabited for thousands of years, with evidence of human settlement dating back to prehistoric times. The valley served as a crucial waypoint along ancient trade routes connecting Arabia to the Levant, and later became known through the exploits of T.E. Lawrence during the Arab Revolt against Ottoman rule in World War I. The Bedouin people have called this region home for centuries, adapting to its harsh desert environment through pastoral nomadism and trade. In modern times, Wadi Rum has transitioned from a remote wilderness to a major tourist destination while striving to preserve its traditional character.",
+  "culturalNotes": "Wadi Rum remains a stronghold of Bedouin culture, where the indigenous Bedouin tribes have maintained their customs, hospitality traditions, and deep connection to the desert landscape. Visitors are welcomed into Bedouin camps where tea and coffee ceremonies reflect centuries-old protocols of generosity and respect. The region's identity is inseparable from its dramatic red sandstone formations, which hold spiritual and cultural significance for the Bedouin people who navigate and inhabit this landscape with remarkable skill and knowledge.",
+  "bestTimeToVisit": "October to April for comfortable desert temperatures and clear starry nights.",
+  "languageNotes": "Arabic is the primary language, with the local Bedouin dialect differing notably from Modern Standard Arabic. Useful phrases include \"Ahlan wa sahlan\" (welcome) and \"Shukran\" (thank you), and many guides and tourism workers speak English, though learning a few Arabic greetings enhances cultural respect and connection.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "wadi_rum_valley",
+      "name": "Wadi Rum Valley",
+      "nameIt": "وادي رم",
+      "lat": 29.8413,
+      "lng": 35.4247,
+      "type": "NATURE",
+      "description": "The iconic desert valley famous for its towering red sandstone mountains, narrow canyons, and otherworldly landscape that has served as a filming location for numerous movies. This UNESCO World Heritage Site is the heart of the region and offers spectacular trekking, rock climbing, and desert exploration opportunities.",
+      "imageQueries": [
+        "Wadi Rum red mountains sunset",
+        "Wadi Rum desert valley landscape"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Climbing Jebel Rum",
+          "detail": "Ascend the iconic red sandstone peak that dominates the valley for panoramic views of the entire desert landscape and surrounding mountains.",
+          "lat": 29.5412,
+          "lng": 35.4247
+        },
+        {
+          "id": "wadi_2",
+          "text": "Jeep Safari Tour",
+          "detail": "Explore the valley's hidden canyons, natural arches, and remote desert spots in a 4x4 vehicle with an experienced Bedouin guide.",
+          "lat": 29.535,
+          "lng": 35.42
+        },
+        {
+          "id": "wadi_3",
+          "text": "Rock Climbing",
+          "detail": "Challenge yourself on world-class sandstone routes ranging from beginner to advanced difficulty levels throughout the valley's towering formations.",
+          "lat": 29.54,
+          "lng": 35.43
+        },
+        {
+          "id": "wadi_4",
+          "text": "Um Fruth Rock Bridge Trek",
+          "detail": "Hike to this natural sandstone arch that frames spectacular valley views and offers excellent photography opportunities.",
+          "lat": 29.5295,
+          "lng": 35.4512
+        },
+        {
+          "id": "wadi_5",
+          "text": "Bedouin Camp Night",
+          "detail": "Stay overnight in a traditional Bedouin camp where you can enjoy dinner around a fire, experience desert hospitality, and sleep under the stars.",
+          "lat": 29.538,
+          "lng": 35.415
+        },
+        {
+          "id": "wadi_6",
+          "text": "Hiking the Canyon Trails",
+          "detail": "Trek through narrow red-walled canyons such as Khazali Canyon, discovering Nabatean petroglyphs and experiencing the valley's dramatic geological formations.",
+          "lat": 29.525,
+          "lng": 35.44
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Zarb",
+          "detail": "A traditional Bedouin dish of seasoned lamb or chicken slow-cooked in a sealed pit underground with vegetables, typically served as a communal meal in desert camps."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Bedouin Tea",
+          "detail": "Sweet black tea brewed in traditional metal pots and served in small glasses, often infused with mint or herbs and essential to desert hospitality customs."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Mansaf",
+          "detail": "A Jordanian specialty featuring lamb cooked in a tangy yogurt sauce and served over rice, commonly prepared for travelers and guests in Bedouin communities."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Camel Meat Kabsa",
+          "detail": "Spiced camel meat served over fragrant rice with vegetables, reflecting the region's traditional pastoral heritage and offering a unique local protein."
+        },
+        {
+          "id": "wadi_f5",
+          "text": "Unleavened Bread and Hummus",
+          "detail": "Fresh flatbread baked daily by Bedouin families, served with creamy chickpea hummus made with tahini and lemon, a staple accompaniment to every meal."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Respect Desert Customs",
+          "detail": "Always accept tea or coffee when offered by your Bedouin hosts, as declining is considered impolite, and remove shoes when entering tents or sitting areas."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Dress Modestly",
+          "detail": "Wear loose, long-sleeved clothing and covered legs to respect local Islamic traditions and protect yourself from the intense desert sun and sharp terrain."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Hire Local Guides",
+          "detail": "Use registered Bedouin guides who are certified by the Wadi Rum visitor center; they provide safety, cultural knowledge, and ensure tourism benefits the local community directly."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Photography Etiquette",
+          "detail": "Always ask permission before photographing Bedouin people, their families, or their camps, as some prefer privacy and respecting boundaries strengthens visitor-community relationships."
+        }
+      ]
+    },
+    {
+      "id": "seven_pillars_of_wisdom",
+      "name": "Seven Pillars of Wisdom",
+      "nameIt": "سبع أعمدة الحكمة",
+      "lat": 29.8265,
+      "lng": 35.3982,
+      "type": "LANDMARK",
+      "description": "A distinctive rock formation consisting of seven towering sandstone pillars that rise dramatically from the desert floor, named after T.E. Lawrence's famous book. This iconic landmark is one of the most photographed features in Wadi Rum and represents the region's raw geological beauty.",
+      "imageQueries": [
+        "Seven Pillars of Wisdom Wadi Rum",
+        "Wadi Rum seven pillars rock formation"
+      ],
+      "activities": [
+        {
+          "id": "seve_1",
+          "text": "Sunrise Photography",
+          "detail": "Arrive before dawn to capture the pillars illuminated by golden light as the sun rises over the desert horizon, creating dramatic shadows and rich color contrasts.",
+          "lat": 29.8367,
+          "lng": 35.4267
+        },
+        {
+          "id": "seve_2",
+          "text": "Guided Jeep Tour",
+          "detail": "Take a 4x4 desert safari with a local Bedouin driver who navigates the sandy terrain around the pillars while sharing stories about Lawrence and the region's history.",
+          "lat": 29.8367,
+          "lng": 35.4267
+        },
+        {
+          "id": "seve_3",
+          "text": "Hiking Trail Walk",
+          "detail": "Trek on foot around the base of the pillars to appreciate their towering scale and explore the surrounding red and white sandstone formations up close.",
+          "lat": 29.8367,
+          "lng": 35.4267
+        },
+        {
+          "id": "seve_4",
+          "text": "Sunset Viewing",
+          "detail": "Watch the pillars glow in shades of orange and purple as the sun sets, then see them silhouette against the twilight sky for a completely different photographic experience.",
+          "lat": 29.8367,
+          "lng": 35.4267
+        },
+        {
+          "id": "seve_5",
+          "text": "Rock Climbing",
+          "detail": "Experienced climbers can arrange guided ascents on some of the accessible pillars for panoramic views of Wadi Rum's entire landscape.",
+          "lat": 29.8367,
+          "lng": 35.4267
+        },
+        {
+          "id": "seve_6",
+          "text": "Bedouin Camp Night",
+          "detail": "Stay overnight at a nearby traditional Bedouin camp where you can enjoy stargazing and hear local tales about the Seven Pillars and T.E. Lawrence's time in the desert.",
+          "lat": 29.835,
+          "lng": 35.428
+        }
+      ],
+      "food": [
+        {
+          "id": "seve_f1",
+          "text": "Zarb",
+          "detail": "Tender lamb or chicken marinated in spices and slow-cooked in a underground pit with vegetables, traditionally served at Bedouin camps near the formation."
+        },
+        {
+          "id": "seve_f2",
+          "text": "Mansaf",
+          "detail": "A Jordanian speciality of tender meat served over yogurt sauce and flatbread, often prepared by camp cooks using local ingredients and traditional recipes."
+        },
+        {
+          "id": "seve_f3",
+          "text": "Bedouin Tea",
+          "detail": "Strong mint or sage tea served in small glasses, typically accompanied by dates and offered as a welcoming gesture at desert camps near the pillars."
+        },
+        {
+          "id": "seve_f4",
+          "text": "Hummus and Mezze",
+          "detail": "Fresh chickpea dip paired with locally-made tahini, olives, and warm pita bread, often served as part of lunch spreads at desert camps."
+        },
+        {
+          "id": "seve_f5",
+          "text": "Maqluba",
+          "detail": "A rice and meat dish cooked in one pot then flipped upside down onto a platter, a hearty meal commonly served to visitors exploring the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "seve_c1",
+          "text": "Respect Photography Etiquette",
+          "detail": "Always ask permission before photographing local Bedouin people or their camps, and be mindful that some consider the Seven Pillars spiritually significant."
+        },
+        {
+          "id": "seve_c2",
+          "text": "Hire Local Guides",
+          "detail": "Support the community by engaging official Bedouin guides from nearby villages who provide authentic insights and ensure responsible tourism practices."
+        },
+        {
+          "id": "seve_c3",
+          "text": "Desert Sun Protection",
+          "detail": "Wear lightweight long sleeves, wide-brimmed hats, and sunscreen as the desert offers little shade; locals traditionally dress in flowing garments for sun and heat protection."
+        },
+        {
+          "id": "seve_c4",
+          "text": "Embrace Hospitality Customs",
+          "detail": "Accept offered tea and food graciously as hospitality is central to Bedouin culture; refusing can be considered impolite, though small portions are always acceptable."
+        }
+      ]
+    },
+    {
+      "id": "umm_fruth_rock_bridge",
+      "name": "Umm Fruth Rock Bridge",
+      "nameIt": "جسر أم الفروث",
+      "lat": 29.8547,
+      "lng": 35.4089,
+      "type": "LANDMARK",
+      "description": "A natural rock arch and bridge carved through a mountain by ancient erosion, offering a unique hiking experience and panoramic views of the surrounding desert. The hike involves scrambling and climbing, rewarding adventurous visitors with dramatic vistas and a real sense of exploration.",
+      "imageQueries": [
+        "Umm Fruth rock bridge Wadi Rum",
+        "Wadi Rum natural arch formation"
+      ],
+      "activities": [
+        {
+          "id": "umm__1",
+          "text": "Hike through the natural arch",
+          "detail": "Navigate the main passage through the carved rock bridge, requiring scrambling and careful footwork over smooth sandstone worn by centuries of water flow.",
+          "lat": 29.7994,
+          "lng": 35.4281
+        },
+        {
+          "id": "umm__2",
+          "text": "Summit scramble to upper vistas",
+          "detail": "Climb the exposed rock face above the bridge for panoramic views of Wadi Rum's surrounding desert plateaus and distant mountain ranges.",
+          "lat": 29.7998,
+          "lng": 35.4285
+        },
+        {
+          "id": "umm__3",
+          "text": "Photography at golden hour",
+          "detail": "Capture the dramatic shadows and warm light that transform the sandstone arch during sunrise or sunset, creating striking contrasts across the rock formations."
+        },
+        {
+          "id": "umm__4",
+          "text": "Geological exploration of erosion patterns",
+          "detail": "Examine the water-carved channels, smooth grooves, and layered sandstone that reveal millions of years of natural sculpting through flash floods."
+        },
+        {
+          "id": "umm__5",
+          "text": "Desert landscape interpretation walk",
+          "detail": "Study the surrounding Wadi Rum geology, including the relationship between ancient water sources and current arid conditions visible from the bridge overlooks."
+        },
+        {
+          "id": "umm__6",
+          "text": "Rock formation climbing practice",
+          "detail": "Use the varied difficulty sections of the arch and surrounding boulders to practice basic scrambling and climbing techniques in a natural setting."
+        }
+      ],
+      "food": [
+        {
+          "id": "umm__f1",
+          "text": "Bedouin zarb (earth oven feast)",
+          "detail": "A traditional slow-cooked meat and vegetable dish buried under hot stones and sand, typically prepared by Wadi Rum guides as a communal dinner experience."
+        },
+        {
+          "id": "umm__f2",
+          "text": "Fresh Bedouin mint tea (shai bi na'ana)",
+          "detail": "Strong black tea infused with fresh mint leaves, served hot in small glasses as a hydrating and cooling beverage essential to desert travel."
+        },
+        {
+          "id": "umm__f3",
+          "text": "Jordanian flatbread with olive oil and zaatar",
+          "detail": "Warm pita bread drizzled with local olive oil and sprinkled with the tangy herb blend zaatar, commonly offered at Bedouin camps near the site."
+        },
+        {
+          "id": "umm__f4",
+          "text": "Hummus and local produce mezze platter",
+          "detail": "A spread of creamy chickpea hummus, fresh vegetables, olives, and cheese sourced from nearby Bedouin settlements and villages."
+        },
+        {
+          "id": "umm__f5",
+          "text": "Date and almond energy bites",
+          "detail": "Chewy date clusters studded with almonds, providing quick natural calories and sustained energy for the demanding hike through the rock bridge."
+        }
+      ],
+      "culture": [
+        {
+          "id": "umm__c1",
+          "text": "Hire a local Bedouin guide",
+          "detail": "An experienced local guide from the Bedouin community ensures safety on the technical sections and provides authentic knowledge of water sources and seasonal conditions."
+        },
+        {
+          "id": "umm__c2",
+          "text": "Respect sacred natural landmarks",
+          "detail": "The rock bridge holds significance in local Bedouin tradition and geography; ask permission before climbing or photographing, and avoid disturbing any marked areas."
+        },
+        {
+          "id": "umm__c3",
+          "text": "Dress modestly and practically",
+          "detail": "Wear long pants and covered shoulders as a cultural courtesy to local Bedouin communities, while also protecting skin from sun exposure during the intense midday heat."
+        },
+        {
+          "id": "umm__c4",
+          "text": "Share water and generosity norms",
+          "detail": "Bedouin culture emphasizes hospitality and resource-sharing in the desert; accepting offered tea or refreshment graciously strengthens cultural connection with your guide."
+        }
+      ]
+    },
+    {
+      "id": "jebel_rum",
+      "name": "Jebel Rum",
+      "nameIt": "جبل رم",
+      "lat": 29.8324,
+      "lng": 35.4156,
+      "type": "LANDMARK",
+      "description": "The highest peak in Wadi Rum rising majestically from the valley floor, known for its distinctive shape and dramatic presence throughout the landscape. Climbers and hikers are drawn to it for challenging ascents and unparalleled views across the entire desert region.",
+      "imageQueries": [
+        "Jebel Rum mountain Wadi Rum",
+        "Wadi Rum highest peak"
+      ],
+      "activities": [
+        {
+          "id": "jebe_1",
+          "text": "Summit Hike to Jebel Rum Peak",
+          "detail": "A challenging 3-4 hour scramble to the 1,754m summit offering 360-degree views of Wadi Rum's red sandstone formations and the surrounding desert plateau.",
+          "lat": 29.7642,
+          "lng": 35.4306
+        },
+        {
+          "id": "jebe_2",
+          "text": "Rock Climbing on Jebel Rum's East Face",
+          "detail": "Technical climbing routes range from moderate to advanced grades on the distinctive vertical sandstone walls, popular with sport climbers seeking desert climbing experiences.",
+          "lat": 29.7642,
+          "lng": 35.4306
+        },
+        {
+          "id": "jebe_3",
+          "text": "Sunrise Photography Session",
+          "detail": "Position yourself at a vantage point near the base or mid-slope before dawn to capture the distinctive silhouette of Jebel Rum illuminated by the first light across the valley.",
+          "lat": 29.7642,
+          "lng": 35.4306
+        },
+        {
+          "id": "jebe_4",
+          "text": "Guided Bedouin Trek Around Base",
+          "detail": "Join a local guide for a 2-3 hour journey circling the mountain's foundation to learn geological formations and Bedouin navigation techniques across the desert floor."
+        },
+        {
+          "id": "jebe_5",
+          "text": "Sunset Viewing from Mid-Mountain",
+          "detail": "Hike partway up Jebel Rum in late afternoon to witness the dramatic color transformation of the surrounding rock formations as the sun descends over the western desert."
+        },
+        {
+          "id": "jebe_6",
+          "text": "Rappelling Down Descent Routes",
+          "detail": "After summiting, experienced climbers can rappel down established routes on the mountain's flanks, combining the thrill of descent with views across the entire Wadi Rum valley."
+        }
+      ],
+      "food": [
+        {
+          "id": "jebe_f1",
+          "text": "Zarb (Bedouin-Style Roasted Lamb)",
+          "detail": "Lamb and vegetables slow-cooked in a clay oven buried in sand, traditionally prepared by local guides and served with fresh flatbread and a view of Jebel Rum at sunset."
+        },
+        {
+          "id": "jebe_f2",
+          "text": "Bedouin Tea with Mint",
+          "detail": "Strong black tea sweetened with sugar and infused with fresh desert mint, served in small glasses as a refreshing break during hiking or climbing on the mountain."
+        },
+        {
+          "id": "jebe_f3",
+          "text": "Mansaf (Levantine Lamb Stew)",
+          "detail": "Tender lamb cooked in a tangy yogurt-based sauce with sumac and served over rice, a traditional Bedouin dish often prepared in camps at the foot of Jebel Rum."
+        },
+        {
+          "id": "jebe_f4",
+          "text": "Hummus and Muhammara with Pita",
+          "detail": "Creamy chickpea dip and roasted red pepper spread served with warm flatbread, typically provided as a light meal option before morning climbs."
+        },
+        {
+          "id": "jebe_f5",
+          "text": "Fresh Camel Milk",
+          "detail": "Locally sourced camel's milk, sometimes served warm or chilled, believed by Bedouins to provide stamina for desert trekking and climbing at altitude."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jebe_c1",
+          "text": "Hire a Local Guide",
+          "detail": "Using a certified Bedouin guide is essential for safety on technical routes and supports the local economy; guides possess invaluable knowledge of weather patterns and safest passages."
+        },
+        {
+          "id": "jebe_c2",
+          "text": "Respect Prayer Times",
+          "detail": "If trekking with guides or local groups, be aware that your companions will pause for daily prayers; plan schedules accordingly and allow flexibility in your itinerary."
+        },
+        {
+          "id": "jebe_c3",
+          "text": "Dress Modestly and Practically",
+          "detail": "Wear lightweight, loose-fitting clothes that cover shoulders and knees out of cultural respect, while also protecting skin from intense sun and sharp rock during climbing."
+        },
+        {
+          "id": "jebe_c4",
+          "text": "Ask Permission Before Photography",
+          "detail": "Always request consent before photographing local Bedouins or their camps; some consider it culturally sensitive, and guides can facilitate respectful interactions with desert communities."
+        }
+      ]
+    },
+    {
+      "id": "khazali_canyon",
+      "name": "Khazali Canyon",
+      "nameIt": "كانيون الخزالي",
+      "lat": 29.7938,
+      "lng": 35.3715,
+      "type": "NATURE",
+      "description": "A narrow slot canyon with ancient Thamudic inscriptions carved into its walls, accessible by a relatively easy walk through the winding canyon passages. The canyon features a natural spring and offers a quieter alternative to the busier attractions while providing insight into the region's historical inhabitants.",
+      "imageQueries": [
+        "Khazali Canyon Wadi Rum",
+        "Wadi Rum narrow canyon ancient inscriptions"
+      ],
+      "activities": [
+        {
+          "id": "khaz_1",
+          "text": "Walk the slot canyon",
+          "detail": "Navigate through the narrow winding passages of the canyon, where towering sandstone walls create a dramatic and intimate landscape experience.",
+          "lat": 29.8383,
+          "lng": 35.4267
+        },
+        {
+          "id": "khaz_2",
+          "text": "Study Thamudic inscriptions",
+          "detail": "Examine the ancient carved texts and petroglyphs on the canyon walls left by the pre-Islamic Thamudic people, some dating back over 2,000 years."
+        },
+        {
+          "id": "khaz_3",
+          "text": "Visit the natural spring",
+          "detail": "Discover the freshwater spring within the canyon that sustained ancient travelers and still flows seasonally, providing a cool respite in the desert.",
+          "lat": 29.839,
+          "lng": 35.428
+        },
+        {
+          "id": "khaz_4",
+          "text": "Photography of rock formations",
+          "detail": "Capture the interplay of light and shadow on the canyon's striated sandstone walls, especially during early morning and late afternoon hours.",
+          "lat": 29.8383,
+          "lng": 35.4267
+        },
+        {
+          "id": "khaz_5",
+          "text": "Trace historical trade routes",
+          "detail": "Walk the same paths used by ancient Nabatean and Thamudic traders, connecting the canyon to broader commercial networks across the Arabian Peninsula."
+        },
+        {
+          "id": "khaz_6",
+          "text": "Bird watching",
+          "detail": "Observe local bird species that nest in canyon crevices, including desert eagles and partridges that thrive in Wadi Rum's arid environment."
+        }
+      ],
+      "food": [
+        {
+          "id": "khaz_f1",
+          "text": "Zarb (underground-roasted lamb)",
+          "detail": "Tender lamb slow-cooked with vegetables in an underground pit, a traditional Bedouin dish often served at desert camps near Khazali Canyon."
+        },
+        {
+          "id": "khaz_f2",
+          "text": "Mansaf",
+          "detail": "A Levantine specialty of lamb cooked in a yogurt-based sauce and served over rice, commonly prepared by local Bedouin guides and hosts."
+        },
+        {
+          "id": "khaz_f3",
+          "text": "Bedouin tea (Shay)",
+          "detail": "Strong, sweet mint tea traditionally brewed in the desert and served in small glasses as a gesture of hospitality after canyon hikes."
+        },
+        {
+          "id": "khaz_f4",
+          "text": "Taboon bread",
+          "detail": "Freshly baked flatbread cooked in a traditional dome-shaped oven, often prepared by local families and served warm with meals."
+        },
+        {
+          "id": "khaz_f5",
+          "text": "Hummus with zaatar",
+          "detail": "Creamy chickpea dip topped with the wild herb mix zaatar and olive oil, a lighter option available at local restaurants and camps."
+        }
+      ],
+      "culture": [
+        {
+          "id": "khaz_c1",
+          "text": "Respect sacred inscriptions",
+          "detail": "Never touch or attempt to trace the Thamudic inscriptions with hands or chalk, as oils and pressure contribute to their deterioration."
+        },
+        {
+          "id": "khaz_c2",
+          "text": "Hire a local guide",
+          "detail": "Engaging a Bedouin guide from nearby camps enhances the experience with knowledge of inscriptions, ecology, and respect for the canyon's cultural significance."
+        },
+        {
+          "id": "khaz_c3",
+          "text": "Modest dress for cultural sensitivity",
+          "detail": "Wear long pants and covered shoulders as a sign of respect to local Bedouin communities and to protect from sun exposure in the narrow canyon."
+        },
+        {
+          "id": "khaz_c4",
+          "text": "Accept Bedouin hospitality graciously",
+          "detail": "If invited to share tea or a meal with local guides or families, accepting demonstrates respect for their customs and strengthens community connections."
+        }
+      ]
+    },
+    {
+      "id": "burdah_rock_bridge",
+      "name": "Burdah Rock Bridge",
+      "nameIt": "جسر البرضة",
+      "lat": 29.8089,
+      "lng": 35.3651,
+      "type": "LANDMARK",
+      "description": "A stunning natural sandstone arch spanning across a rocky chasm, creating one of the most scenic and technically challenging routes in Wadi Rum. Experienced climbers and adventurers tackle this thrilling passage for unforgettable views and an adrenaline-pumping experience.",
+      "imageQueries": [
+        "Burdah rock bridge Wadi Rum",
+        "Wadi Rum natural stone arch"
+      ],
+      "activities": [
+        {
+          "id": "burd_1",
+          "text": "Bridge Crossing",
+          "detail": "Traverse the iconic sandstone arch itself, a technically demanding climb requiring scrambling skills and a head for heights across the narrow passage.",
+          "lat": 29.8394,
+          "lng": 35.4281
+        },
+        {
+          "id": "burd_2",
+          "text": "Rock Climbing",
+          "detail": "Ascend the surrounding red sandstone formations using ropes and climbing equipment with experienced guides familiar with Wadi Rum's geology.",
+          "lat": 29.8394,
+          "lng": 35.4281
+        },
+        {
+          "id": "burd_3",
+          "text": "Photography",
+          "detail": "Capture dramatic landscape shots of the arch framed against desert dunes and canyon walls, particularly stunning during golden hour.",
+          "lat": 29.8394,
+          "lng": 35.4281
+        },
+        {
+          "id": "burd_4",
+          "text": "Jeep Excursion to Burdah",
+          "detail": "Drive through Wadi Rum's interior valleys in a 4x4 vehicle to reach the bridge trailhead, viewing lesser-known rock formations along the way.",
+          "lat": 29.835,
+          "lng": 35.42
+        },
+        {
+          "id": "burd_5",
+          "text": "Sunset Viewpoint",
+          "detail": "Position yourself on nearby rocky outcrops before dusk to watch the arch glow in amber and crimson light as the sun sets over the desert.",
+          "lat": 29.8394,
+          "lng": 35.4281
+        },
+        {
+          "id": "burd_6",
+          "text": "Guide-Led Adventure",
+          "detail": "Hire a local Bedouin guide who knows alternative routes, safety passages, and the history of the bridge within Wadi Rum's climbing community."
+        }
+      ],
+      "food": [
+        {
+          "id": "burd_f1",
+          "text": "Zarb",
+          "detail": "Slow-cooked lamb or chicken marinated in Middle Eastern spices, buried in hot sand and coals, typically served at Bedouin camps near Wadi Rum."
+        },
+        {
+          "id": "burd_f2",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in a tangy yogurt sauce and served over rice, representing the region's pastoral heritage."
+        },
+        {
+          "id": "burd_f3",
+          "text": "Bedouin Tea",
+          "detail": "Strong mint or sage tea served in small glasses, a welcoming ritual offered at desert camps before and after climbing adventures."
+        },
+        {
+          "id": "burd_f4",
+          "text": "Flatbread and Hummus",
+          "detail": "Freshly baked Jordanian bread accompanied by creamy chickpea hummus, often the staple accompaniment to any meal in Wadi Rum."
+        },
+        {
+          "id": "burd_f5",
+          "text": "Dates and Camel Milk",
+          "detail": "Local dates paired with fresh or fermented camel milk, a traditional Bedouin energy source consumed during long desert journeys."
+        }
+      ],
+      "culture": [
+        {
+          "id": "burd_c1",
+          "text": "Hire Local Guides",
+          "detail": "Using certified Bedouin guides is essential for safety and supports the local community; they possess invaluable knowledge of safe routes and weather patterns."
+        },
+        {
+          "id": "burd_c2",
+          "text": "Respect Sacred Sites",
+          "detail": "Wadi Rum holds deep cultural significance for Bedouin families; ask permission before photographing people and avoid disturbing archaeological sites."
+        },
+        {
+          "id": "burd_c3",
+          "text": "Dress Modestly",
+          "detail": "Wear long sleeves and pants to respect local customs and protect yourself from sun exposure and sharp rocks during climbing."
+        },
+        {
+          "id": "burd_c4",
+          "text": "Early Morning Starts",
+          "detail": "Begin adventures at dawn to avoid midday heat and to secure the best light for photography while respecting the traditional Bedouin schedule."
+        }
+      ]
+    },
+    {
+      "id": "rum_village",
+      "name": "Rum Village",
+      "nameIt": "قرية رم",
+      "lat": 29.8533,
+      "lng": 35.4233,
+      "type": "VILLAGE",
+      "description": "The main settlement in Wadi Rum serving as the administrative center and primary entry point for visitors, housing the visitor center and various tourist facilities. This small Bedouin community is where most travelers arrange desert tours, jeep excursions, and overnight camping experiences.",
+      "imageQueries": [
+        "Rum village Wadi Rum Bedouin",
+        "Wadi Rum visitor center entrance"
+      ],
+      "activities": [
+        {
+          "id": "rum__1",
+          "text": "Wadi Rum Visitor Center",
+          "detail": "The official gateway to the protected area with exhibits on Bedouin culture, desert geology, and conservation efforts, plus essential information for tour planning.",
+          "lat": 29.8413,
+          "lng": 35.4281
+        },
+        {
+          "id": "rum__2",
+          "text": "Jeep Desert Tours",
+          "detail": "Guided four-wheel-drive excursions departing from the village to explore iconic rock formations, canyons, and natural arches throughout the valley.",
+          "lat": 29.8413,
+          "lng": 35.4281
+        },
+        {
+          "id": "rum__3",
+          "text": "Bedouin Camp Overnight Stay",
+          "detail": "Sleep under the stars in traditional or semi-permanent desert camps run by local families, typically including dinner, breakfast, and stargazing."
+        },
+        {
+          "id": "rum__4",
+          "text": "Rock Climbing and Mountaineering",
+          "detail": "Licensed guides lead technical climbs and scrambles on the surrounding sandstone formations, suitable for various skill levels."
+        },
+        {
+          "id": "rum__5",
+          "text": "Camel Trekking",
+          "detail": "Multi-hour or full-day camel rides through the desert landscape arranged through village tour operators, offering an authentic slower-paced exploration."
+        },
+        {
+          "id": "rum__6",
+          "text": "Um Fruth Rock Bridge",
+          "detail": "A natural sandstone arch spanning a canyon floor, typically included on jeep tours as one of Wadi Rum's most distinctive geological features.",
+          "lat": 29.852,
+          "lng": 35.418
+        },
+        {
+          "id": "rum__7",
+          "text": "Local Souvenir and Craft Shops",
+          "detail": "Small shops throughout Rum Village selling Bedouin handicrafts, textiles, traditional knives, and locally-sourced mineral souvenirs."
+        }
+      ],
+      "food": [
+        {
+          "id": "rum__f1",
+          "text": "Zarb (Lamb or Chicken)",
+          "detail": "Meat slow-cooked in an underground pit with vegetables and spices, a signature Bedouin feast commonly served at evening meals in desert camps."
+        },
+        {
+          "id": "rum__f2",
+          "text": "Mansaf",
+          "detail": "A traditional Levantine dish of lamb cooked in tangy yogurt sauce served over rice or flatbread, often prepared for groups and special occasions."
+        },
+        {
+          "id": "rum__f3",
+          "text": "Bedouin Coffee and Tea",
+          "detail": "Strong, cardamom-spiced Arabic coffee and mint tea served in small cups throughout the day as a gesture of hospitality in camps and visitor areas."
+        },
+        {
+          "id": "rum__f4",
+          "text": "Pita Bread with Hummus and Muhammara",
+          "detail": "Fresh warm flatbread served with roasted chickpea puree and red pepper walnut dip, staple accompaniments to most meals."
+        },
+        {
+          "id": "rum__f5",
+          "text": "Fresh Goat Cheese (Jibneh)",
+          "detail": "Locally-produced soft or aged goat cheese served at breakfast, often with olives and dates alongside traditional Bedouin bread."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rum__c1",
+          "text": "Respect Photography Requests",
+          "detail": "Always ask permission before photographing local people, especially women, as many prefer privacy; guides and camp owners can facilitate appropriate exchanges."
+        },
+        {
+          "id": "rum__c2",
+          "text": "Dress Modestly",
+          "detail": "Wear loose-fitting, covered clothing that respects Islamic and Bedouin customs, particularly shoulders and knees, which becomes essential in evening social settings."
+        },
+        {
+          "id": "rum__c3",
+          "text": "Accept Hospitality Graciously",
+          "detail": "Refusing offered coffee, tea, or food can be considered impolite; accepting at least a small amount shows respect for Bedouin tradition and builds rapport."
+        },
+        {
+          "id": "rum__c4",
+          "text": "Use Right Hand for Eating",
+          "detail": "Following Islamic tradition, eat and pass items with your right hand, as the left hand is considered unclean in Middle Eastern custom."
+        }
+      ]
+    },
+    {
+      "id": "red_sand_dunes",
+      "name": "Red Sand Dunes",
+      "nameIt": "الكثبان الرملية الحمراء",
+      "lat": 29.8712,
+      "lng": 35.4089,
+      "type": "NATURE",
+      "description": "Expansive areas of vivid red sand dunes that create a Mars-like landscape throughout sections of Wadi Rum, offering a completely different perspective from the rocky mountain formations. These dunes are perfect for sandboarding, desert photography, and experiencing the pure essence of the Arabian desert.",
+      "imageQueries": [
+        "Wadi Rum red sand dunes",
+        "Wadi Rum desert dunes sunset"
+      ],
+      "activities": [
+        {
+          "id": "red__1",
+          "text": "Sandboarding",
+          "detail": "Glide down the steep red dunes on a board, a thrilling sport that takes advantage of the fine sand and dramatic slopes throughout the dune field."
+        },
+        {
+          "id": "red__2",
+          "text": "Sunrise Photography",
+          "detail": "Capture the golden and crimson light illuminating the red sand at dawn, when the dunes display their most vivid colors and create dramatic shadows.",
+          "lat": 29.7994,
+          "lng": 35.4296
+        },
+        {
+          "id": "red__3",
+          "text": "Camel Trekking Across Dunes",
+          "detail": "Ride a Bedouin camel across the undulating red sand landscape, experiencing the desert as locals have for centuries."
+        },
+        {
+          "id": "red__4",
+          "text": "Sunset Viewing",
+          "detail": "Position yourself on a high dune to watch the sunset paint the red sand in shades of orange, purple, and deep red as daylight fades."
+        },
+        {
+          "id": "red__5",
+          "text": "Desert Camping",
+          "detail": "Spend a night in a Bedouin-style camp nestled among the dunes, falling asleep under stars and waking to the silence of the desert."
+        },
+        {
+          "id": "red__6",
+          "text": "Sand Dune Hiking",
+          "detail": "Trek on foot through the towering dunes, exploring hidden valleys and enjoying the otherworldly landscape that resembles the surface of Mars."
+        }
+      ],
+      "food": [
+        {
+          "id": "red__f1",
+          "text": "Zarb",
+          "detail": "A traditional Bedouin dish of slow-cooked lamb or chicken with vegetables, typically prepared in a pit oven buried in the sand and served with rice."
+        },
+        {
+          "id": "red__f2",
+          "text": "Hummus and Pita Bread",
+          "detail": "Fresh chickpea hummus drizzled with olive oil and served with warm, locally-baked pita bread, a staple accompaniment to most Bedouin meals."
+        },
+        {
+          "id": "red__f3",
+          "text": "Bedouin Tea",
+          "detail": "Strong black tea infused with mint and served in small glasses, a refreshing and essential beverage offered throughout the day in desert camps."
+        },
+        {
+          "id": "red__f4",
+          "text": "Tabbouleh",
+          "detail": "A fresh salad of parsley, tomatoes, onions, and bulgur wheat dressed with lemon juice and olive oil, providing a light complement to heavier desert fare."
+        },
+        {
+          "id": "red__f5",
+          "text": "Falafel",
+          "detail": "Deep-fried chickpea patties seasoned with spices and served with tahini sauce, a popular protein-rich option at desert rest stops."
+        }
+      ],
+      "culture": [
+        {
+          "id": "red__c1",
+          "text": "Respect Local Customs",
+          "detail": "Dress modestly when visiting Bedouin communities, covering shoulders and knees, and always ask permission before photographing people or their camps."
+        },
+        {
+          "id": "red__c2",
+          "text": "Accept Hospitality Gracefully",
+          "detail": "When offered tea or food by Bedouins, accepting is a sign of respect and friendship; it is considered rude to refuse outright."
+        },
+        {
+          "id": "red__c3",
+          "text": "Follow Guide Instructions",
+          "detail": "Always trek with an experienced local guide who understands the dunes' conditions and can navigate safely, especially during sandstorms or extreme heat."
+        },
+        {
+          "id": "red__c4",
+          "text": "Preserve the Environment",
+          "detail": "Avoid leaving trash in the dunes and stay on established paths to protect the fragile desert ecosystem and respect this sacred Bedouin landscape."
+        }
+      ]
+    },
+    {
+      "id": "abu_khareef_canyon",
+      "name": "Abu Khareef Canyon",
+      "nameIt": "كانيون أبو خريف",
+      "lat": 29.8156,
+      "lng": 35.3832,
+      "type": "NATURE",
+      "description": "A scenic canyon featuring dramatic rock formations and a winding path through towering sandstone walls with occasional pools of water. This less-crowded attraction offers an excellent escape for visitors seeking quieter exploration and intimate views of the desert's geological wonders.",
+      "imageQueries": [
+        "Abu Khareef Canyon Wadi Rum",
+        "Wadi Rum canyon rock formations"
+      ],
+      "activities": [
+        {
+          "id": "abu__1",
+          "text": "Canyon Floor Walk",
+          "detail": "Follow the winding sandy path through the narrow canyon, weaving between towering sandstone walls that create dramatic shadows and geological patterns.",
+          "lat": 29.7975,
+          "lng": 35.4275
+        },
+        {
+          "id": "abu__2",
+          "text": "Photography at Golden Hour",
+          "detail": "Capture the canyon's warm sandstone hues and deep shadows during sunrise or sunset when light angles create striking contrasts across the rock faces.",
+          "lat": 29.7978,
+          "lng": 35.428
+        },
+        {
+          "id": "abu__3",
+          "text": "Pool Exploration",
+          "detail": "Discover seasonal water pools nestled in canyon alcoves where visitors can observe desert wildlife and reflect on the surrounding geology."
+        },
+        {
+          "id": "abu__4",
+          "text": "Rock Formation Study",
+          "detail": "Examine the layered sandstone strata and erosion patterns that reveal millions of years of Wadi Rum's geological history."
+        },
+        {
+          "id": "abu__5",
+          "text": "Quiet Meditation Spot",
+          "detail": "Find a secluded alcove within the canyon to sit and experience the profound silence and solitude of the desert landscape."
+        },
+        {
+          "id": "abu__6",
+          "text": "Bedouin Trail Navigation",
+          "detail": "Follow traditional Bedouin pathways through the canyon that locals have used for generations to traverse this remote section of Wadi Rum."
+        }
+      ],
+      "food": [
+        {
+          "id": "abu__f1",
+          "text": "Zarb (Bedouin Pit Roast)",
+          "detail": "Lamb or chicken slow-cooked in an underground pit with vegetables, served at local Bedouin camps near the canyon entrance."
+        },
+        {
+          "id": "abu__f2",
+          "text": "Mansaf",
+          "detail": "Traditional Jordanian dish of lamb cooked in a tangy yogurt sauce with rice, commonly prepared by Bedouin families in the Wadi Rum region."
+        },
+        {
+          "id": "abu__f3",
+          "text": "Bedouin Bread and Humus",
+          "detail": "Freshly baked flatbread made in traditional clay ovens paired with creamy chickpea humus, a staple of desert camp meals."
+        },
+        {
+          "id": "abu__f4",
+          "text": "Mint Tea (Shay bi Na'ana)",
+          "detail": "Strong black tea infused with fresh desert mint, served throughout the day at Bedouin camps as a refreshing and traditional beverage."
+        },
+        {
+          "id": "abu__f5",
+          "text": "Maqluba",
+          "detail": "Jordanian rice dish with meat and vegetables cooked together then flipped onto a plate, offering hearty sustenance for canyon exploration."
+        }
+      ],
+      "culture": [
+        {
+          "id": "abu__c1",
+          "text": "Respect Sacred Silence",
+          "detail": "This canyon is valued by local Bedouin for its peaceful isolation, so visitors should maintain low voices and minimize noise pollution to honor the spiritual quality of the space."
+        },
+        {
+          "id": "abu__c2",
+          "text": "Hire a Local Bedouin Guide",
+          "detail": "Employing a guide from nearby Bedouin communities supports the local economy and provides authentic knowledge of safe routes and seasonal water locations."
+        },
+        {
+          "id": "abu__c3",
+          "text": "Dress Appropriately for Heat",
+          "detail": "Wear light, long-sleeved clothing and sturdy desert boots to protect against intense sun exposure and sharp rocks, while respecting conservative desert norms."
+        },
+        {
+          "id": "abu__c4",
+          "text": "Leave No Trace",
+          "detail": "Pack out all waste and avoid disturbing rock formations or archaeological markers, as these canyons hold cultural significance for Bedouin heritage and scientific study."
+        }
+      ]
+    },
+    {
+      "id": "mushroom_rock",
+      "name": "Mushroom Rock",
+      "nameIt": "صخرة الفطر",
+      "lat": 29.8298,
+      "lng": 35.4312,
+      "type": "LANDMARK",
+      "description": "An oddly-shaped sandstone formation resembling a giant mushroom, created by differential erosion of the desert rocks over millennia. This whimsical landmark exemplifies the surreal geological features that make Wadi Rum's landscape unlike anywhere else on Earth.",
+      "imageQueries": [
+        "Mushroom Rock Wadi Rum",
+        "Wadi Rum shaped rock formation"
+      ],
+      "activities": [
+        {
+          "id": "mush_1",
+          "text": "Sunrise Photography",
+          "detail": "Arrive before dawn to capture the mushroom formation glowing in golden light as the sun breaks over the Wadi Rum escarpment.",
+          "lat": 29.8411,
+          "lng": 35.4281
+        },
+        {
+          "id": "mush_2",
+          "text": "Close-Range Rock Scrambling",
+          "detail": "Climb around the base and lower sections of the formation to inspect the differential erosion patterns and soft sandstone textures up close.",
+          "lat": 29.8411,
+          "lng": 35.4281
+        },
+        {
+          "id": "mush_3",
+          "text": "Jeep Tour from Visitor Center",
+          "detail": "Book a guided 4x4 excursion from Wadi Rum Village that includes Mushroom Rock as part of a broader desert circuit visiting Jebel Umm Ishrin and other formations.",
+          "lat": 29.8328,
+          "lng": 35.4254
+        },
+        {
+          "id": "mush_4",
+          "text": "Sunset Viewing from Distance",
+          "detail": "Position yourself on higher ground in the surrounding desert to watch the mushroom silhouette darken against the fiery western sky.",
+          "lat": 29.8411,
+          "lng": 35.4281
+        },
+        {
+          "id": "mush_5",
+          "text": "Geological Study Walk",
+          "detail": "Spend time examining the surrounding sandstone outcrops and erosion gullies to understand how water and wind created this distinctive shape over millennia.",
+          "lat": 29.8411,
+          "lng": 35.4281
+        }
+      ],
+      "food": [
+        {
+          "id": "mush_f1",
+          "text": "Zarb (Bedouin Underground-Roasted Lamb)",
+          "detail": "Tender lamb seasoned with spices and cooked in an underground pit, traditionally served with rice and vegetables at a local camp near the rock formations."
+        },
+        {
+          "id": "mush_f2",
+          "text": "Mansaf (Yogurt-Based Lamb Stew)",
+          "detail": "Lamb simmered in tangy fermented yogurt sauce with pine nuts and served over flatbread, a Palestinian and Jordanian desert staple available at Wadi Rum lodges."
+        },
+        {
+          "id": "mush_f3",
+          "text": "Bedouin Tea with Mint",
+          "detail": "Strong black tea steeped with fresh mint and served in small glasses, traditionally offered by guides and camp hosts throughout the desert experience."
+        },
+        {
+          "id": "mush_f4",
+          "text": "Hummus and Flatbread",
+          "detail": "Creamy chickpea paste drizzled with olive oil and served with warm Jordanian flatbread, available at virtually every rest stop and camp in Wadi Rum."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mush_c1",
+          "text": "Hire a Bedouin Guide",
+          "detail": "Local guides from Zalabieh tribe and other Bedouin communities are essential for safe navigation, authentic storytelling about the formations, and respectful interaction with the desert landscape."
+        },
+        {
+          "id": "mush_c2",
+          "text": "Dress for Desert Sun and Cold",
+          "detail": "Wear loose, light-colored clothing and a headscarf for sun protection during the day, but bring a warm jacket for cool evenings, as Wadi Rum temperatures drop significantly after sunset."
+        },
+        {
+          "id": "mush_c3",
+          "text": "Respect Photography Restrictions",
+          "detail": "Ask permission before photographing local Bedouin people, and be aware that some camps may request a small donation or purchase for extended photography sessions."
+        },
+        {
+          "id": "mush_c4",
+          "text": "Bring Plenty of Water",
+          "detail": "The desert offers no shade or water sources near Mushroom Rock; carry at least 2 liters per person and drink regularly to avoid dehydration in the arid environment."
+        }
+      ]
+    },
+    {
+      "id": "wadi_rum_protected_area",
+      "name": "Wadi Rum Protected Area Visitor Center",
+      "nameIt": "مركز الزوار محمية وادي رم",
+      "lat": 29.8533,
+      "lng": 35.4267,
+      "type": "LANDMARK",
+      "description": "The official UNESCO World Heritage Site visitor center providing maps, information, and orientation for exploring the protected area responsibly. This facility offers insights into the region's geology, Bedouin culture, and conservation efforts while helping visitors plan their itineraries.",
+      "imageQueries": [
+        "Wadi Rum visitor center",
+        "Wadi Rum Protected Area entrance"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Orientation Exhibition",
+          "detail": "Browse displays explaining Wadi Rum's geological formations, UNESCO World Heritage status, and the interconnected sandstone and granite mountains shaped over millions of years."
+        },
+        {
+          "id": "wadi_2",
+          "text": "Bedouin Culture Gallery",
+          "detail": "Learn about traditional Bedouin life, including historical photographs, traditional tools, textiles, and information about the Zalabieh and other tribes who inhabit the region."
+        },
+        {
+          "id": "wadi_3",
+          "text": "Guided Jeep Tours",
+          "detail": "Arrange official 4x4 excursions departing from the visitor center to iconic sites like the Seven Pillars of Wisdom, Khazali Canyon, and Um Fruth Rock Bridge.",
+          "lat": 29.8415,
+          "lng": 35.4241
+        },
+        {
+          "id": "wadi_4",
+          "text": "Camel Trekking Booking",
+          "detail": "Reserve traditional camel journeys through the Protected Area's red sands, either as half-day or multi-day experiences with local Bedouin guides."
+        },
+        {
+          "id": "wadi_5",
+          "text": "Map and Trail Planning",
+          "detail": "Obtain detailed topographic maps, trail recommendations, and permits required for hiking, rock climbing, and overnight camping in designated zones."
+        },
+        {
+          "id": "wadi_6",
+          "text": "Photography Guidance",
+          "detail": "Get advice on best times and locations for capturing the dramatic desert landscape, rock formations, and golden hour light specific to Wadi Rum's unique terrain."
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Zarb (Bedouin Barbecue)",
+          "detail": "Meat and vegetables slow-cooked in a pit underground, traditionally prepared by local guides during desert camps and available at nearby lodges accessible from the visitor center."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Mensaf",
+          "detail": "A Jordanian national dish of lamb served with yogurt sauce and pine nuts over rice, commonly offered at Bedouin-run restaurants near the visitor center entrance."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Bedouin Tea (Shay)",
+          "detail": "Strong black tea infused with fresh mint and served in small glasses, an essential hospitality ritual offered by local guides and at the visitor center café."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Hummus and Flatbread",
+          "detail": "Freshly made chickpea dip with olive oil and paprika, served with warm pita bread baked daily at local Bedouin camps accessible through the visitor center."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Respect Desert Protocols",
+          "detail": "Always hire official licensed guides from the visitor center rather than exploring independently, as permits are required and guides ensure safety and environmental protection."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Photography Etiquette",
+          "detail": "Ask permission before photographing local Bedouins and their camps, as photography is considered intrusive in traditional culture; some areas may be off-limits for commercial photography."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Dress Appropriately",
+          "detail": "Wear lightweight long sleeves, trousers, and a wide-brimmed hat for sun and wind protection; modest dress shows respect for Bedouin customs and is practical in the harsh desert environment."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Support Local Economy",
+          "detail": "Book guides, accommodation, and activities directly through Bedouin-owned operators recommended by the visitor center to ensure tourism revenue benefits the local community."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Rum Stars Camp Restaurant",
+      "address": "Main Road, Wadi Rum Village",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Traditional Bedouin camp offering authentic zarb (lamb cooked in underground pit) and homemade breads in a desert setting.",
+      "mustOrder": "Zarb with rice and vegetables",
+      "lat": 29.7658,
+      "lng": 35.4265
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Rum Valley Camp",
+      "address": "Desert Road, Wadi Rum",
+      "neighbourhood": "Wadi Rum Valley",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Family-run camp restaurant known for traditional mansaf (lamb in yogurt sauce) and fresh mint tea under the stars.",
+      "mustOrder": "Mansaf with homemade bread",
+      "lat": 29.7612,
+      "lng": 35.4198
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Ali Mahmoud Camp",
+      "address": "Central Wadi Rum, Near Visitor Center",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Long-established camp restaurant serving slow-cooked lamb dishes and traditional Jordanian mezze with panoramic desert views.",
+      "mustOrder": "Slow-cooked lamb shoulder with hummus",
+      "lat": 29.7672,
+      "lng": 35.4312
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Bedouin Garden Camp",
+      "address": "Main Settlement Area, Wadi Rum",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin/Levantine",
+      "priceRange": "€€",
+      "description": "Camp restaurant featuring grilled meats, fresh salads, and traditional breads baked in wood-fired ovens.",
+      "mustOrder": "Shish kebab with grilled vegetables",
+      "lat": 29.7645,
+      "lng": 35.4285
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Rum Sunset Camp",
+      "address": "West Desert Road, Wadi Rum",
+      "neighbourhood": "Wadi Rum Valley",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Scenic camp restaurant positioned for sunset views, serving traditional lamb dishes and fresh camp-made desserts.",
+      "mustOrder": "Camel meat with herbs and rice",
+      "lat": 29.7589,
+      "lng": 35.4089
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Jabal Rum Camp Restaurant",
+      "address": "Near Jabal Rum Mountain, Wadi Rum",
+      "neighbourhood": "Wadi Rum Valley",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Remote camp offering authentic zarb and traditional coffee ceremony with views of the surrounding sandstone formations.",
+      "mustOrder": "Zarb with Bedouin spice blend",
+      "lat": 29.7534,
+      "lng": 35.4156
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Wadi Rum Village Restaurant",
+      "address": "Main Street, Wadi Rum Village",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Jordanian/Middle Eastern",
+      "priceRange": "€",
+      "description": "Budget-friendly village restaurant serving simple but authentic Jordanian fare including falafel, hummus, and grilled chicken.",
+      "mustOrder": "Falafel wrap with tahini sauce",
+      "lat": 29.7695,
+      "lng": 35.4328
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Desert Rose Camp",
+      "address": "South Valley Road, Wadi Rum",
+      "neighbourhood": "Wadi Rum Valley",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Intimate camp restaurant with roasted lamb specialties and traditional side dishes in a family atmosphere.",
+      "mustOrder": "Roasted lamb with onions and herbs",
+      "lat": 29.7501,
+      "lng": 35.4234
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Khayma Camp Restaurant",
+      "address": "Northern Settlement, Wadi Rum",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Traditional Bedouin tent restaurant famous for its zarb preparation method and warm hospitality.",
+      "mustOrder": "Zarb with potatoes and tomatoes",
+      "lat": 29.7732,
+      "lng": 35.4401
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Um Sayhoun Camp",
+      "address": "East Village Road, Wadi Rum",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin/Levantine",
+      "priceRange": "€€",
+      "description": "Village-edge camp restaurant serving home-style cooking with fresh vegetables and grilled meats prepared daily.",
+      "mustOrder": "Grilled chicken with garlic sauce",
+      "lat": 29.7668,
+      "lng": 35.4385
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Starlight Camp",
+      "address": "West Valley, Wadi Rum",
+      "neighbourhood": "Wadi Rum Valley",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Desert camp known for late-night dining experiences, zarb cooked on hot coals, and Bedouin coffee.",
+      "mustOrder": "Zarb with Bedouin spices",
+      "lat": 29.7456,
+      "lng": 35.4045
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Tourism Restaurant Wadi Rum",
+      "address": "Main Square, Wadi Rum Village",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Jordanian/International",
+      "priceRange": "€€",
+      "description": "Well-established restaurant serving both traditional Jordanian dishes and simple international options for tour groups.",
+      "mustOrder": "Mansaf with rice and yogurt",
+      "lat": 29.771,
+      "lng": 35.431
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Petra Moon Camp",
+      "address": "South Desert Road, Wadi Rum",
+      "neighbourhood": "Wadi Rum Valley",
+      "cuisine": "Bedouin",
+      "priceRange": "€€",
+      "description": "Camp restaurant featuring wood-fire cooking, traditional zarb, and fresh salads made with local ingredients.",
+      "mustOrder": "Zarb with seasonal vegetables",
+      "lat": 29.7423,
+      "lng": 35.4178
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Wadi Rum Experience Restaurant",
+      "address": "Central Area near Visitor Center, Wadi Rum",
+      "neighbourhood": "Wadi Rum Village",
+      "cuisine": "Bedouin/Jordanian",
+      "priceRange": "€€€",
+      "description": "Upscale camp restaurant with refined Bedouin cuisine, excellent coffee service, and premium lamb preparations.",
+      "mustOrder": "Premium zarb with truffle oil finish",
+      "lat": 29.768,
+      "lng": 35.4295
+    }
+  ]
+}

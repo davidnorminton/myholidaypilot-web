@@ -1,0 +1,1351 @@
+{
+  "id": "jordan_valley",
+  "name": "Jordan Valley",
+  "nameIt": "غور الأردن",
+  "capital": "Irbid (nearest major city)",
+  "lat": 32.25,
+  "lng": 35.55,
+  "emoji": "🌾",
+  "colour": "ff009688",
+  "boundingBox": {
+    "north": 32.5,
+    "south": 31.2,
+    "east": 35.75,
+    "west": 35.3
+  },
+  "history": "The Jordan Valley, known locally as Ghor al-Urdunn, is one of the world's oldest continuously inhabited regions and has been a crossroads of civilizations for millennia. Ancient kingdoms including the Nabataeans and Romans established settlements here, taking advantage of the fertile soil and proximity to water sources. During the Islamic period, the valley flourished as an agricultural heartland with numerous villages and irrigation systems. In modern times, the Jordan Valley became a significant agricultural center for Jordan, though its development has been shaped by the Israeli-Palestinian conflict and questions of sovereignty.",
+  "culturalNotes": "The Jordan Valley is characterized by its deep agricultural heritage and close-knit farming communities that have cultivated the land for generations. Traditional practices of irrigation and crop farming remain central to local life, with date palms, citrus fruits, and vegetables forming the backbone of the economy. The region's distinct identity reflects both its ancient roots and its role as a border area, where Jordanian culture maintains strong ties to Bedouin traditions and Arab hospitality.",
+  "bestTimeToVisit": "November to March when temperatures are moderate in this fertile lowland region.",
+  "languageNotes": "The local dialect spoken in the Jordan Valley is a variant of Levantine Arabic, closely related to the dialects of Palestine and the broader Levant region. Useful phrases include 'Ahlan wa sahlan' (welcome) and 'Shukran kteer' (thank you very much), which reflect the region's warm communal values.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 11,
+  "places": [
+    {
+      "id": "jericho",
+      "name": "Jericho",
+      "nameIt": "أريحا",
+      "lat": 31.8974,
+      "lng": 35.2048,
+      "type": "CITY",
+      "description": "One of the world's oldest continuously inhabited cities and the lowest city on Earth at 258 meters below sea level. It offers ancient archaeological sites, the Mount of Temptation monastery, and lush oasis gardens.",
+      "imageQueries": [
+        "Jericho ancient city Palestine",
+        "Mount of Temptation Jericho"
+      ],
+      "activities": [
+        {
+          "id": "jeri_1",
+          "text": "Mount of Temptation Monastery",
+          "detail": "Explore this ancient Greek Orthodox monastery perched on a cliff overlooking Jericho, traditionally believed to be where Jesus was tempted, accessible by cable car or hiking trail.",
+          "lat": 31.8667,
+          "lng": 35.45
+        },
+        {
+          "id": "jeri_2",
+          "text": "Tel es-Sultan Archaeological Site",
+          "detail": "Visit the excavated remains of ancient Jericho, one of the world's oldest settlements dating back 11,000 years, featuring the famous tower and walls.",
+          "lat": 31.8722,
+          "lng": 35.4394
+        },
+        {
+          "id": "jeri_3",
+          "text": "Hisham's Palace",
+          "detail": "Wander through the ruins of this 8th-century Umayyad winter palace just outside Jericho, known for its intricate mosaics and architectural grandeur.",
+          "lat": 31.8556,
+          "lng": 35.4722
+        },
+        {
+          "id": "jeri_4",
+          "text": "Al-Aqsa Mosque at Jericho",
+          "detail": "Visit this historic mosque believed to be built on the site where Prophet Muhammad tied his horse, located in the Old City of Jericho.",
+          "lat": 31.8889,
+          "lng": 35.45
+        },
+        {
+          "id": "jeri_5",
+          "text": "Jericho Oasis Gardens",
+          "detail": "Stroll through lush date palm groves and banana plantations that have flourished in Jericho's natural springs for millennia.",
+          "lat": 31.8833,
+          "lng": 35.4583
+        },
+        {
+          "id": "jeri_6",
+          "text": "Dead Sea Overlook",
+          "detail": "Drive to nearby vantage points to view the Dead Sea and the lowest elevation on Earth at 1,410 feet below sea level.",
+          "lat": 31.85,
+          "lng": 35.5
+        }
+      ],
+      "food": [
+        {
+          "id": "jeri_f1",
+          "text": "Jericho Dates",
+          "detail": "Sample the region's prized dates, particularly the Majool variety, which have been cultivated here for centuries and are considered among the finest in the world."
+        },
+        {
+          "id": "jeri_f2",
+          "text": "Musakhan",
+          "detail": "Enjoy Palestinian roasted chicken marinated in sumac and served on flatbread with caramelized onions, a beloved Palestinian dish especially popular in the Jordan Valley."
+        },
+        {
+          "id": "jeri_f3",
+          "text": "Falafel and Hummus",
+          "detail": "Try authentic freshly-fried falafel and creamy hummus made from local chickpeas, staple foods served throughout Jericho's markets and restaurants."
+        },
+        {
+          "id": "jeri_f4",
+          "text": "Stuffed Grape Leaves (Dolma)",
+          "detail": "Taste grape leaves picked from local vineyards and rolled with rice, herbs, and spices, then steamed or boiled, a traditional Palestinian specialty."
+        },
+        {
+          "id": "jeri_f5",
+          "text": "Fresh Citrus Juices",
+          "detail": "Drink freshly squeezed orange, lemon, or pomegranate juice from Jericho's abundant local fruit harvest at juice stands throughout the city."
+        }
+      ],
+      "culture": [
+        {
+          "id": "jeri_c1",
+          "text": "Dress Modestly",
+          "detail": "Wear conservative clothing covering shoulders and knees, particularly when visiting religious sites like mosques and monasteries out of respect for local customs."
+        },
+        {
+          "id": "jeri_c2",
+          "text": "Greet with Arabic Courtesies",
+          "detail": "Learning basic Arabic phrases like 'As-salamu alaikum' (peace be upon you) and 'Shukran' (thank you) is appreciated and opens doors to warmer local interactions."
+        },
+        {
+          "id": "jeri_c3",
+          "text": "Respect Prayer Times",
+          "detail": "Be aware that many businesses and attractions may close or have reduced hours during the five daily Islamic prayer times, especially Friday midday prayers."
+        },
+        {
+          "id": "jeri_c4",
+          "text": "Negotiate in Souks",
+          "detail": "Haggling is expected and part of the social experience when shopping in Jericho's markets; it is not considered rude but rather an engaging tradition."
+        }
+      ]
+    },
+    {
+      "id": "bethany",
+      "name": "Bethany Beyond the Jordan",
+      "nameIt": "بيت عنيا",
+      "lat": 31.8706,
+      "lng": 35.2819,
+      "type": "LANDMARK",
+      "description": "A UNESCO World Heritage Site considered the biblical baptism site of Jesus Christ on the Jordan River. The area features ancient churches, baptismal pools, and spiritual significance for Christian pilgrims.",
+      "imageQueries": [
+        "Bethany Beyond Jordan baptism site",
+        "Jordan River baptism church"
+      ],
+      "activities": [
+        {
+          "id": "beth_1",
+          "text": "Visit the Byzantine Church of St. John the Baptist",
+          "detail": "Explore the reconstructed 5th-century church featuring Byzantine mosaics and foundations that mark the traditional baptism site.",
+          "lat": 31.8667,
+          "lng": 35.4667
+        },
+        {
+          "id": "beth_2",
+          "text": "Baptismal Pools and Immersion Sites",
+          "detail": "Wade into the ancient stone baptismal pools carved into the riverbank where pilgrims have commemorated Christian baptism for centuries.",
+          "lat": 31.8667,
+          "lng": 35.4667
+        },
+        {
+          "id": "beth_3",
+          "text": "Walk the Pilgrim Trail Along the Jordan River",
+          "detail": "Follow the marked path through archaeological zones connecting multiple church sites and offering views of the river valley and West Bank beyond.",
+          "lat": 31.865,
+          "lng": 35.465
+        },
+        {
+          "id": "beth_4",
+          "text": "Explore the Church of St. Mary Magdalene",
+          "detail": "Visit this later Orthodox church addition with its distinctive architecture and altar overlooking the Jordan River.",
+          "lat": 31.8665,
+          "lng": 35.467
+        },
+        {
+          "id": "beth_5",
+          "text": "Examine the Monastery of St. John the Baptist Ruins",
+          "detail": "Walk through the excavated remains of monastic buildings that once housed monks who maintained the pilgrimage site.",
+          "lat": 31.8668,
+          "lng": 35.4668
+        },
+        {
+          "id": "beth_6",
+          "text": "Participate in a Renewal of Baptismal Vows Ceremony",
+          "detail": "Join organized Christian pilgrimage groups in ceremonies at the riverside where visitors renew their baptismal commitments in traditional white robes."
+        }
+      ],
+      "food": [
+        {
+          "id": "beth_f1",
+          "text": "Mansaf",
+          "detail": "A traditional Jordanian dish of lamb cooked in yogurt sauce served over rice and topped with pine nuts, commonly enjoyed at local restaurants near the site."
+        },
+        {
+          "id": "beth_f2",
+          "text": "Falafel and Hummus",
+          "detail": "Crispy chickpea fritters and creamy chickpea paste served with fresh pita bread, available at modest cafés throughout the visitor area."
+        },
+        {
+          "id": "beth_f3",
+          "text": "Jordan River Fish (Tilapia)",
+          "detail": "Fresh locally-caught tilapia grilled simply with lemon and herbs, reflecting the area's river heritage and served at nearby hospitality centers."
+        },
+        {
+          "id": "beth_f4",
+          "text": "Fattoush Salad",
+          "detail": "A refreshing mixed greens salad with tomatoes, cucumbers, radishes, and crispy pita chips dressed with sumac and olive oil, ideal for the warm Jordan Valley climate."
+        },
+        {
+          "id": "beth_f5",
+          "text": "Jordanian Coffee and Tea Ceremony",
+          "detail": "Strong cardamom-spiced coffee or mint tea served in traditional small cups as a gesture of hospitality at visitor facilities and local guesthouses."
+        }
+      ],
+      "culture": [
+        {
+          "id": "beth_c1",
+          "text": "Respect Religious Significance and Dress Code",
+          "detail": "Visitors should dress modestly, covering shoulders and knees, as this remains an active pilgrimage site sacred to multiple Christian denominations who maintain the sanctity of the space."
+        },
+        {
+          "id": "beth_c2",
+          "text": "Follow Designated Paths and Preservation Rules",
+          "detail": "Stay on marked trails and designated areas to protect the UNESCO World Heritage Site's archaeological integrity and fragile baptismal pools."
+        },
+        {
+          "id": "beth_c3",
+          "text": "Participate Thoughtfully in Ceremonies",
+          "detail": "If joining baptismal renewal ceremonies, observe quietly and respectfully; these are genuine spiritual observances, not tourist performances."
+        },
+        {
+          "id": "beth_c4",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Simple Arabic phrases like 'As-salamu alaikum' (peace be upon you) and 'Shukran' (thank you) are warmly appreciated by local staff and enhance cultural connection."
+        }
+      ]
+    },
+    {
+      "id": "dead_sea_panorama",
+      "name": "Dead Sea Panoramic Complex",
+      "nameIt": "منطقة البحر الميت البانورامية",
+      "lat": 31.7833,
+      "lng": 35.4333,
+      "type": "LANDMARK",
+      "description": "A stunning viewpoint complex featuring spectacular vistas of the Dead Sea, Israeli settlements, and the Jordan Valley below. It provides informative displays and unforgettable photographic opportunities of the lowest landscape on Earth.",
+      "imageQueries": [
+        "Dead Sea panorama viewpoint",
+        "Dead Sea valley overlook Jordan"
+      ],
+      "activities": [
+        {
+          "id": "dead_1",
+          "text": "Panoramic Viewpoint Photography",
+          "detail": "Capture stunning wide-angle photographs of the Dead Sea, the Jordan Valley, and Israeli settlements from multiple designated observation platforms with informational plaques."
+        },
+        {
+          "id": "dead_2",
+          "text": "Lowest Point on Earth Observation",
+          "detail": "Stand at one of the world's lowest accessible elevations (approximately 410 meters below sea level) and appreciate the unique geological significance marked by interpretive displays."
+        },
+        {
+          "id": "dead_3",
+          "text": "Dead Sea Landscape Study",
+          "detail": "Use the complex's informational displays and maps to understand the Dead Sea's unique hydrology, mineral composition, and why it's the lowest body of water on Earth."
+        },
+        {
+          "id": "dead_4",
+          "text": "Jordan Valley Trekking",
+          "detail": "Hike designated trails descending from the viewpoint into the Jordan Valley floor to experience the dramatic topography and diverse desert vegetation up close."
+        },
+        {
+          "id": "dead_5",
+          "text": "Sunset Viewing Experience",
+          "detail": "Visit during late afternoon to witness the sun setting over the Dead Sea and Israeli mountains, creating dramatic color shifts across the landscape."
+        },
+        {
+          "id": "dead_6",
+          "text": "Salt Crystallization Observation",
+          "detail": "Examine the white salt deposits and mineral crusts along the Dead Sea shoreline visible from the viewpoint, evidence of the sea's extreme salinity."
+        }
+      ],
+      "food": [
+        {
+          "id": "dead_f1",
+          "text": "Zarʿa Regional Freshwater Fish",
+          "detail": "Sample locally-caught tilapia or catfish from the nearby Zarʿa River tributaries, typically grilled with olive oil, lemon, and herbs at nearby rest stops."
+        },
+        {
+          "id": "dead_f2",
+          "text": "Dead Sea Salt-Cured Olives",
+          "detail": "Try olives preserved using Dead Sea mineral salts, offering a distinctive briny flavor unique to the region's agricultural heritage."
+        },
+        {
+          "id": "dead_f3",
+          "text": "Jordanian Mezze Platter",
+          "detail": "Enjoy hummus, baba ganoush, tabbouleh, and fresh pita bread at the complex's café or nearby facilities, representing classic Levantine appetizer culture."
+        },
+        {
+          "id": "dead_f4",
+          "text": "Date and Mineral Water Refreshment",
+          "detail": "Consume dates with naturally mineral-rich water from local springs, a traditional Bedouin practice for replenishing electrolytes in the desert heat."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dead_c1",
+          "text": "Respect Photography Boundaries",
+          "detail": "Be mindful that certain viewpoints overlook sensitive border areas; ask staff before photographing distant Israeli settlements or specific military installations."
+        },
+        {
+          "id": "dead_c2",
+          "text": "Dress for Extreme Heat and Sun",
+          "detail": "Wear light, long-sleeved clothing, a wide-brimmed hat, and high SPF sunscreen as the low elevation and reflective salt create intense heat and UV exposure year-round."
+        },
+        {
+          "id": "dead_c3",
+          "text": "Visit During Cooler Hours",
+          "detail": "Plan visits for early morning or late afternoon as midday temperatures regularly exceed 40°C (104°F), making midday exploration uncomfortable and potentially dangerous."
+        },
+        {
+          "id": "dead_c4",
+          "text": "Greet Staff with Arabic Courtesy",
+          "detail": "A simple 'Assalamu alaikum' (peace be upon you) and 'Shukran' (thank you) are appreciated by local guides and facility staff, reflecting Jordanian hospitality customs."
+        }
+      ]
+    },
+    {
+      "id": "salt_mountain",
+      "name": "Mount Sodom",
+      "nameIt": "جبل سدوم",
+      "lat": 31.5156,
+      "lng": 35.4794,
+      "type": "NATURE",
+      "description": "A remarkable salt mountain formation on the Dead Sea's western shore with geological layers and unique cave systems. Visitors can hike through colorful salt formations and explore the otherworldly landscape.",
+      "imageQueries": [
+        "Mount Sodom salt mountain",
+        "Sodom cave formations Dead Sea"
+      ],
+      "activities": [
+        {
+          "id": "salt_1",
+          "text": "Salt Cave Exploration",
+          "detail": "Navigate through the dramatic underground chambers carved into the salt mountain, where crystalline walls glisten and natural formations create an ethereal landscape.",
+          "lat": 31.4833,
+          "lng": 35.4667
+        },
+        {
+          "id": "salt_2",
+          "text": "Colored Salt Formations Hike",
+          "detail": "Trek across the exposed geological layers of the mountain to observe the vivid orange, white, and red mineral striations that mark millions of years of salt deposition.",
+          "lat": 31.4833,
+          "lng": 35.4667
+        },
+        {
+          "id": "salt_3",
+          "text": "Dead Sea Shore Walk",
+          "detail": "Descend to the shoreline at the base of Mount Sodom to experience the lowest point on Earth and float in the mineral-rich waters.",
+          "lat": 31.4867,
+          "lng": 35.47
+        },
+        {
+          "id": "salt_4",
+          "text": "Lot's Cave Visit",
+          "detail": "Explore the biblical cave system traditionally associated with the story of Lot, located within the mountain's network of natural cavities.",
+          "lat": 31.485,
+          "lng": 35.468
+        },
+        {
+          "id": "salt_5",
+          "text": "Sunset Photography Session",
+          "detail": "Capture the mountain's dramatic color transformations as evening light casts golden and crimson hues across the salt formations.",
+          "lat": 31.4833,
+          "lng": 35.4667
+        },
+        {
+          "id": "salt_6",
+          "text": "Geological Layer Study",
+          "detail": "Examine the exposed cross-sections of salt, gypsum, and mineral deposits that tell the geological history of the Dead Sea basin."
+        }
+      ],
+      "food": [
+        {
+          "id": "salt_f1",
+          "text": "Dead Sea Fish from Local Markets",
+          "detail": "Purchase fresh tilapia or other brackish-water fish from nearby markets and have them prepared grilled at local restaurants in the Jordan Valley towns."
+        },
+        {
+          "id": "salt_f2",
+          "text": "Zarbieh (Salt-Cured Cheese)",
+          "detail": "Sample the local salt cheese, a traditional Levantine delicacy that celebrates the region's salt heritage with a tangy, brined flavor."
+        },
+        {
+          "id": "salt_f3",
+          "text": "Bedouin Bedouin Flatbread and Labneh",
+          "detail": "Enjoy freshly baked thin bread served with thick strained yogurt, a staple of Bedouin communities living in the surrounding desert areas."
+        },
+        {
+          "id": "salt_f4",
+          "text": "Medjool Dates from the Valley",
+          "detail": "Taste the premium dates grown in the fertile Jordan Valley oases, known for their large size and rich, caramel-like sweetness."
+        },
+        {
+          "id": "salt_f5",
+          "text": "Mansaf with Local Herbs",
+          "detail": "Experience this traditional Levantine lamb dish prepared with yogurt sauce and served with rice, using herbs foraged from the Dead Sea region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "salt_c1",
+          "text": "Respect the Fragile Ecosystem",
+          "detail": "The salt mountain is extremely delicate; stay on designated paths and avoid touching or removing salt formations, as the structure is vulnerable to damage."
+        },
+        {
+          "id": "salt_c2",
+          "text": "Dress for Extreme Heat and Sun",
+          "detail": "The Dead Sea region is one of the hottest places on Earth; wear light-colored clothing, sunscreen, and bring abundant water even for short visits."
+        },
+        {
+          "id": "salt_c3",
+          "text": "Visit with a Local Guide",
+          "detail": "Hiring a Bedouin or local guide enhances safety and provides authentic knowledge of the mountain's geology, caves, and biblical significance."
+        },
+        {
+          "id": "salt_c4",
+          "text": "Timing Matters for Heat Management",
+          "detail": "Plan visits for early morning or late afternoon to avoid midday heat; sunrise and sunset also offer the best photography opportunities and most comfortable conditions."
+        }
+      ]
+    },
+    {
+      "id": "wadi_qelt",
+      "name": "Wadi Qelt",
+      "nameIt": "وادي القلط",
+      "lat": 31.8889,
+      "lng": 35.2778,
+      "type": "NATURE",
+      "description": "A beautiful canyon with a flowing stream running through the desert, featuring the ancient St. George Monastery perched on its cliffs. It's perfect for hiking and offers respite with natural pools and verdant vegetation.",
+      "imageQueries": [
+        "Wadi Qelt canyon hike",
+        "St George Monastery Wadi Qelt"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Visit St. George Monastery",
+          "detail": "Explore the ancient Greek Orthodox monastery built into the cliff face in the 5th century, accessible via a short hike down the canyon.",
+          "lat": 31.8725,
+          "lng": 35.4533
+        },
+        {
+          "id": "wadi_2",
+          "text": "Hike the canyon floor",
+          "detail": "Trek along the stream bed through the lush wadi, passing through pools and vegetation-covered sections of the 20-kilometer canyon.",
+          "lat": 31.875,
+          "lng": 35.45
+        },
+        {
+          "id": "wadi_3",
+          "text": "Swimming in natural pools",
+          "detail": "Cool off in the crystalline freshwater pools formed by the Ein Qelt spring, which maintain a refreshing temperature year-round.",
+          "lat": 31.872,
+          "lng": 35.454
+        },
+        {
+          "id": "wadi_4",
+          "text": "Photography at sunrise",
+          "detail": "Capture the dramatic play of light on the monastery and canyon walls during early morning hours when shadows create striking contrasts.",
+          "lat": 31.8725,
+          "lng": 35.4533
+        },
+        {
+          "id": "wadi_5",
+          "text": "Bird watching along the stream",
+          "detail": "Spot resident and migratory birds including eagles, herons, and partridges attracted to the water source in the arid landscape.",
+          "lat": 31.875,
+          "lng": 35.45
+        },
+        {
+          "id": "wadi_6",
+          "text": "Botanical exploration",
+          "detail": "Identify desert plants adapted to the wadi environment including date palms, acacias, and wildflowers that bloom seasonally.",
+          "lat": 31.874,
+          "lng": 35.452
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Fresh trout from local springs",
+          "detail": "Farm-raised trout sourced from the cool spring waters of the wadi region, typically grilled simply with lemon and herbs."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Zarʿa (Palestinian salad)",
+          "detail": "A fresh mix of tomatoes, cucumbers, onions, and parsley dressed with olive oil and sumac, commonly served in nearby villages."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Mansaf",
+          "detail": "The traditional Palestinian main dish of lamb cooked in yogurt sauce served over rice or bread, often enjoyed at local family restaurants."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Date and nut pastries",
+          "detail": "Sweet treats made with local dates, walnuts, and honey wrapped in thin phyllo dough, reflecting the valley's date palm heritage."
+        },
+        {
+          "id": "wadi_f5",
+          "text": "Herbal tea from wadi plants",
+          "detail": "Locally brewed mint and sage tea using herbs grown along the wadi, served fresh and unsweetened in traditional Palestinian style."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Dress modestly for monastery visit",
+          "detail": "Wear long pants and covered shoulders out of respect when entering St. George Monastery, as it remains an active religious site."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Hire a local guide",
+          "detail": "A knowledgeable local guide enhances safety on the hike, provides historical context about the monastery and wadi ecology, and supports the community economy."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Respect water source boundaries",
+          "detail": "The Ein Qelt spring is sacred to both Christians and local Palestinians; avoid swimming near the monastery's water intake and observe any marked restricted areas."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Visit during cooler months",
+          "detail": "Locals recommend visiting between October and April when temperatures are mild; summer heat in the exposed canyon can be dangerous for unprepared hikers."
+        }
+      ]
+    },
+    {
+      "id": "ein_gedi",
+      "name": "Ein Gedi",
+      "nameIt": "عين جدي",
+      "lat": 31.4667,
+      "lng": 35.3833,
+      "type": "NATURE",
+      "description": "An oasis nature reserve with freshwater springs, waterfalls, and pools surrounded by desert cliffs. It offers scenic hiking trails and wildlife viewing in a verdant pocket of the Dead Sea region.",
+      "imageQueries": [
+        "Ein Gedi oasis waterfall",
+        "Ein Gedi nature reserve hike"
+      ],
+      "activities": [
+        {
+          "id": "ein__1",
+          "text": "David Spring Hike",
+          "detail": "Trek through a narrow canyon with natural pools and waterfalls leading to a freshwater spring where King David is said to have hidden from Saul.",
+          "lat": 31.4689,
+          "lng": 35.4169
+        },
+        {
+          "id": "ein__2",
+          "text": "Arugot Waterfall Trail",
+          "detail": "A moderate hiking route featuring multiple cascading waterfalls and deep pools ideal for swimming in the desert landscape.",
+          "lat": 31.462,
+          "lng": 35.4195
+        },
+        {
+          "id": "ein__3",
+          "text": "Dead Sea Beach Access",
+          "detail": "Walk down to the lowest point on Earth where you can float in the hypersaline waters and experience the therapeutic mineral-rich mud.",
+          "lat": 31.458,
+          "lng": 35.422
+        },
+        {
+          "id": "ein__4",
+          "text": "Wildlife Spotting at Dawn",
+          "detail": "Observe Nubian ibex, rock hyrax, and desert birds during early morning walks when animals are most active.",
+          "lat": 31.47,
+          "lng": 35.415
+        },
+        {
+          "id": "ein__5",
+          "text": "Botanical Garden Visit",
+          "detail": "Explore the reserve's cultivated gardens showcasing desert and Mediterranean plants adapted to the arid microclimate.",
+          "lat": 31.4705,
+          "lng": 35.418
+        },
+        {
+          "id": "ein__6",
+          "text": "Cliff Photography Route",
+          "detail": "Follow scenic viewpoints along the canyon rim offering dramatic vistas of stratified sandstone cliffs and the Dead Sea valley.",
+          "lat": 31.465,
+          "lng": 35.421
+        }
+      ],
+      "food": [
+        {
+          "id": "ein__f1",
+          "text": "Fresh Trout from Spring Pools",
+          "detail": "Locally caught fish from Ein Gedi's freshwater springs, typically grilled with lemon and olive oil at reserve restaurants."
+        },
+        {
+          "id": "ein__f2",
+          "text": "Palestinian Fattoush Salad",
+          "detail": "Mixed greens with tomatoes, cucumbers, and sumac tossed with fried pita chips, reflecting regional Levantine cuisine."
+        },
+        {
+          "id": "ein__f3",
+          "text": "Hummus with Brown Butter and Pine Nuts",
+          "detail": "Creamy chickpea dip served warm with ghee and roasted pine nuts, a staple at local dining establishments."
+        },
+        {
+          "id": "ein__f4",
+          "text": "Bedouin Herbal Tea",
+          "detail": "Wild mint and desert herbs brewed fresh, often served at rest stops throughout the hiking trails."
+        },
+        {
+          "id": "ein__f5",
+          "text": "Maftoul with Garden Vegetables",
+          "detail": "Palestinian pearl couscous mixed with seasonal vegetables from the oasis gardens, prepared with olive oil and spices."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ein__c1",
+          "text": "Early Morning Visits Recommended",
+          "detail": "Start hikes at dawn to avoid afternoon desert heat and encounter wildlife; most visitors complete trails by midday."
+        },
+        {
+          "id": "ein__c2",
+          "text": "Modest Dress for Sacred Sites",
+          "detail": "While swimming is common, cover shoulders and knees when visiting areas with historical or religious significance to local communities."
+        },
+        {
+          "id": "ein__c3",
+          "text": "Water Conservation Awareness",
+          "detail": "Respect the fragile oasis ecosystem by using water sparingly and avoiding soap in natural pools to preserve the springs' purity."
+        },
+        {
+          "id": "ein__c4",
+          "text": "Hebrew and Arabic Signage",
+          "detail": "Trail markers appear in both Hebrew and Arabic; familiarize yourself with key terms like 'Nakhol' (wadi) and 'Ma'yan' (spring) for navigation."
+        }
+      ]
+    },
+    {
+      "id": "ramallah",
+      "name": "Ramallah",
+      "nameIt": "رام الله",
+      "lat": 31.9454,
+      "lng": 35.1975,
+      "type": "CITY",
+      "description": "The Palestinian cultural and political center in the central highlands overlooking the Jordan Valley. It features vibrant street art, museums, restaurants, and serves as a hub for Palestinian contemporary culture.",
+      "imageQueries": [
+        "Ramallah Palestine city",
+        "Ramallah street art culture"
+      ],
+      "activities": [
+        {
+          "id": "rama_1",
+          "text": "Arafat Museum",
+          "detail": "Explore the life and legacy of Yasser Arafat in his former compound, featuring personal artifacts, photographs, and historical documents about Palestinian leadership.",
+          "lat": 31.9454,
+          "lng": 35.2028
+        },
+        {
+          "id": "rama_2",
+          "text": "The Mural Trail",
+          "detail": "Walk through Ramallah's streets adorned with striking Palestinian political and social commentary street art created by local and international artists.",
+          "lat": 31.9445,
+          "lng": 35.204
+        },
+        {
+          "id": "rama_3",
+          "text": "Al-Bireh Old City",
+          "detail": "Wander the adjacent historic Palestinian town with traditional stone architecture, local shops, and the weekly Thursday market selling fresh produce and crafts.",
+          "lat": 31.9428,
+          "lng": 35.2015
+        },
+        {
+          "id": "rama_4",
+          "text": "Ramallah Cultural Palace",
+          "detail": "Visit this venue hosting contemporary Palestinian theater, music performances, and cultural exhibitions reflecting modern Palestinian identity.",
+          "lat": 31.9475,
+          "lng": 35.2055
+        },
+        {
+          "id": "rama_5",
+          "text": "Palestine Museum",
+          "detail": "Discover Palestinian art, history, and archaeology spanning from ancient times to the contemporary period in this purpose-built modern museum.",
+          "lat": 31.951,
+          "lng": 35.209
+        },
+        {
+          "id": "rama_6",
+          "text": "Mandelbaum Gate Restaurant District",
+          "detail": "Experience the vibrant dining and nightlife scene in Ramallah's central area with rooftop restaurants overlooking the West Bank highlands.",
+          "lat": 31.945,
+          "lng": 35.2045
+        }
+      ],
+      "food": [
+        {
+          "id": "rama_f1",
+          "text": "Musakhan",
+          "detail": "A signature Palestinian dish of roasted chicken served on taboon bread topped with caramelized onions, sumac, and pine nuts."
+        },
+        {
+          "id": "rama_f2",
+          "text": "Falafel and Hummus",
+          "detail": "Freshly fried chickpea fritters and creamy chickpea puree, staples found at street vendors and traditional restaurants throughout Ramallah."
+        },
+        {
+          "id": "rama_f3",
+          "text": "Salatit Palestiniya",
+          "detail": "Palestinian mixed salad combining tomatoes, cucumbers, onions, and parsley dressed with olive oil and lemon, served with most meals."
+        },
+        {
+          "id": "rama_f4",
+          "text": "Knafeh",
+          "detail": "A warm Middle Eastern dessert of shredded pastry, melted cheese, and pistachios drizzled with sugar syrup, popular in local bakeries."
+        },
+        {
+          "id": "rama_f5",
+          "text": "Zartar Manakish",
+          "detail": "Flatbread baked with a mixture of thyme, sumac, and sesame seeds, a quick breakfast or snack available from neighborhood bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "rama_c1",
+          "text": "Language and Hospitality",
+          "detail": "While Arabic is the primary language, many younger Ramallahns speak English; hospitality is paramount and refusing offered coffee or tea may be considered impolite."
+        },
+        {
+          "id": "rama_c2",
+          "text": "Visiting Hours and Closures",
+          "detail": "Many businesses close during midday heat and observe Friday as a rest day, with reduced hours or closures on Sundays; plan accordingly."
+        },
+        {
+          "id": "rama_c3",
+          "text": "Dress Code Respect",
+          "detail": "While Ramallah is relatively progressive, modest dress is appreciated, especially when visiting cultural sites or family-run establishments."
+        },
+        {
+          "id": "rama_c4",
+          "text": "Political Sensitivity",
+          "detail": "Ramallah is the de facto Palestinian administrative center; avoid discussing politics casually and be respectful when viewing political art or historical sites."
+        }
+      ]
+    },
+    {
+      "id": "abu_dis",
+      "name": "Abu Dis",
+      "nameIt": "أبو ديس",
+      "lat": 31.8639,
+      "lng": 35.2392,
+      "type": "TOWN",
+      "description": "A Palestinian town on the Mount of Olives offering panoramic views of the Jordan Valley and Dead Sea. It provides authentic cultural experiences and serves as a gateway to the valley region.",
+      "imageQueries": [
+        "Abu Dis Mount of Olives view",
+        "Abu Dis Palestinian town"
+      ],
+      "activities": [
+        {
+          "id": "abu__1",
+          "text": "Mount of Olives Viewpoint",
+          "detail": "Stand at the eastern edge of Abu Dis to witness sweeping panoramas across the Jordan Valley toward the Dead Sea and Moab Mountains.",
+          "lat": 31.7787,
+          "lng": 35.2456
+        },
+        {
+          "id": "abu__2",
+          "text": "Abu Dis Old Village Walk",
+          "detail": "Explore the narrow stone-paved streets and traditional stone houses in the historic center of town to experience Palestinian village architecture.",
+          "lat": 31.7795,
+          "lng": 35.2425
+        },
+        {
+          "id": "abu__3",
+          "text": "Olive Grove Hiking",
+          "detail": "Trek through the ancient olive groves surrounding Abu Dis, many belonging to local families for generations, offering both shade and cultural immersion.",
+          "lat": 31.781,
+          "lng": 35.238
+        },
+        {
+          "id": "abu__4",
+          "text": "Separation Wall Documentation Site",
+          "detail": "Visit the concrete barrier at the town's edge to understand the contemporary political geography and its impact on local life and movement.",
+          "lat": 31.775,
+          "lng": 35.249
+        },
+        {
+          "id": "abu__5",
+          "text": "Local Family Homestay Experience",
+          "detail": "Arrange a stay with a Palestinian family to learn traditional cooking, daily routines, and hear personal stories of life in the town.",
+          "lat": 31.78,
+          "lng": 35.243
+        },
+        {
+          "id": "abu__6",
+          "text": "Jordan Valley Descent Trek",
+          "detail": "Hike downslope from Abu Dis toward the valley floor to witness the dramatic elevation change and ecological transition zones."
+        }
+      ],
+      "food": [
+        {
+          "id": "abu__f1",
+          "text": "Maklouba with Local Herbs",
+          "detail": "This inverted rice-and-vegetable dish uses wild herbs foraged from Abu Dis hillsides, giving it a distinctly local flavor profile."
+        },
+        {
+          "id": "abu__f2",
+          "text": "Olive Oil from Abu Dis Groves",
+          "detail": "Extra-virgin oil pressed from the town's own olive harvest offers a peppery, grassy taste that reflects the terroir of the Mount of Olives."
+        },
+        {
+          "id": "abu__f3",
+          "text": "Za'atar Bread with Local Thyme",
+          "detail": "Freshly baked flatbread topped with hand-mixed za'atar blend using wild thyme gathered from the surrounding hills."
+        },
+        {
+          "id": "abu__f4",
+          "text": "Stuffed Grape Leaves (Warak Enab)",
+          "detail": "Grape leaves from local vines rolled with rice and herbs, prepared according to family recipes passed down through generations."
+        },
+        {
+          "id": "abu__f5",
+          "text": "Mansaf with Goat Meat",
+          "detail": "The regional specialty of tender goat meat in tangy yogurt sauce, often prepared for Friday gatherings and celebrations in Abu Dis homes."
+        }
+      ],
+      "culture": [
+        {
+          "id": "abu__c1",
+          "text": "Respectful Photography Etiquette",
+          "detail": "Always ask permission before photographing individuals, especially women, and avoid photographing the Separation Wall without sensitivity to residents' privacy and emotions."
+        },
+        {
+          "id": "abu__c2",
+          "text": "Friday Meal Invitations",
+          "detail": "If invited to share Friday lunch, arriving punctually and bringing a small gift shows respect; communal dining is sacred family time in Palestinian culture."
+        },
+        {
+          "id": "abu__c3",
+          "text": "Seasonal Visit Planning",
+          "detail": "Spring (March-May) and fall (September-November) offer ideal weather; summer heat is intense on exposed hillsides, and winter roads can be muddy and difficult."
+        },
+        {
+          "id": "abu__c4",
+          "text": "Arabic Greetings Go Far",
+          "detail": "Learning basic greetings like 'As-salamu alaikum' (peace be upon you) and 'Kayf halak?' (how are you?) earns respect and opens genuine conversations with locals."
+        }
+      ]
+    },
+    {
+      "id": "nablus",
+      "name": "Nablus",
+      "nameIt": "نابلس",
+      "lat": 32.2226,
+      "lng": 35.2344,
+      "type": "CITY",
+      "description": "An ancient Palestinian city in the northern West Bank known for its markets, historic souks, and famous knafeh sweet pastry. It offers rich cultural heritage and traditional Arab hospitality.",
+      "imageQueries": [
+        "Nablus souk market Palestine",
+        "Nablus knafeh traditional"
+      ],
+      "activities": [
+        {
+          "id": "nabl_1",
+          "text": "Old City Souk",
+          "detail": "Wander through the labyrinthine covered markets selling spices, textiles, and traditional crafts in the heart of Nablus's historic center.",
+          "lat": 32.2226,
+          "lng": 35.2344
+        },
+        {
+          "id": "nabl_2",
+          "text": "Hisham's Palace (Khirbat al-Mafjar)",
+          "detail": "Explore the 8th-century Umayyad winter palace ruins with intricate mosaics and archaeological remains located south of the city.",
+          "lat": 32.1869,
+          "lng": 35.2486
+        },
+        {
+          "id": "nabl_3",
+          "text": "Mount Gerizim",
+          "detail": "Ascend this sacred mountain overlooking Nablus to visit the Samaritan community and enjoy panoramic views of the valley.",
+          "lat": 32.2104,
+          "lng": 35.2797
+        },
+        {
+          "id": "nabl_4",
+          "text": "An-Nasr Mosque",
+          "detail": "Visit this 14th-century mosque in the old city featuring ornate Islamic architecture and a serene courtyard.",
+          "lat": 32.2235,
+          "lng": 35.2355
+        },
+        {
+          "id": "nabl_5",
+          "text": "Traditional Soap Factory Tour",
+          "detail": "Learn about Nablus's centuries-old olive oil soap-making tradition by visiting a working factory using ancient methods.",
+          "lat": 32.221,
+          "lng": 35.237
+        },
+        {
+          "id": "nabl_6",
+          "text": "Mount Ebal",
+          "detail": "Hike to this biblical mountain on the city's northern edge for spiritual significance and views of the surrounding Palestinian landscape.",
+          "lat": 32.242,
+          "lng": 35.241
+        }
+      ],
+      "food": [
+        {
+          "id": "nabl_f1",
+          "text": "Knafeh",
+          "detail": "Nablus's most famous dessert featuring shredded pastry, melted cheese, and sweet syrup, best enjoyed warm from traditional bakeries."
+        },
+        {
+          "id": "nabl_f2",
+          "text": "Maklouba",
+          "detail": "A fragrant rice and vegetable dish cooked in a pot and flipped upside down, traditionally served at family gatherings."
+        },
+        {
+          "id": "nabl_f3",
+          "text": "Falafel and Hummus",
+          "detail": "Freshly fried chickpea patties and creamy chickpea dip, staple street foods available at countless vendors throughout the souk."
+        },
+        {
+          "id": "nabl_f4",
+          "text": "Zaatar Manakish",
+          "detail": "Flatbread topped with zaatar herb mix and olive oil, a simple yet iconic breakfast or snack eaten throughout the city."
+        },
+        {
+          "id": "nabl_f5",
+          "text": "Mensaf",
+          "detail": "A festive Palestinian dish of lamb cooked in yogurt sauce served with rice, traditionally eaten during celebrations and family meals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nabl_c1",
+          "text": "Respectful Dress Code",
+          "detail": "Wear modest clothing covering shoulders and knees, especially when visiting mosques and older quarters, as a sign of respect for local customs."
+        },
+        {
+          "id": "nabl_c2",
+          "text": "Bargaining in Markets",
+          "detail": "Haggling over prices is expected and enjoyed in the souk; start at 50-60% of the asking price and negotiate respectfully as part of the shopping experience."
+        },
+        {
+          "id": "nabl_c3",
+          "text": "Hospitality and Tea",
+          "detail": "Accept offers of mint tea or coffee from shopkeepers and locals as a gesture of welcome; refusing may be considered impolite in Palestinian culture."
+        },
+        {
+          "id": "nabl_c4",
+          "text": "Friday Prayer Timing",
+          "detail": "Plan your visits around midday Friday when many shops close for prayers; this is the holiest time of the week in Islamic tradition."
+        }
+      ]
+    },
+    {
+      "id": "kalilia_damia",
+      "name": "Kalilia and Damia Nature Reserve",
+      "nameIt": "محمية كاليليا ودميا",
+      "lat": 31.5389,
+      "lng": 35.2667,
+      "type": "NATURE",
+      "description": "A Jordanian nature reserve on the eastern Dead Sea shore protecting unique wetland ecosystems and wildlife habitats. It's ideal for bird watching and experiencing pristine natural environments.",
+      "imageQueries": [
+        "Kalilia Damia nature reserve",
+        "Dead Sea wetland birds Jordan"
+      ],
+      "activities": [
+        {
+          "id": "kali_1",
+          "text": "Bird Watching Tours",
+          "detail": "Observe migratory and resident bird species including flamingos, herons, and eagles along the wetland pathways during early morning hours.",
+          "lat": 31.4672,
+          "lng": 35.4789
+        },
+        {
+          "id": "kali_2",
+          "text": "Wetland Boardwalk Walk",
+          "detail": "Traverse the elevated wooden boardwalks through reed beds and shallow pools to experience the reserve's unique aquatic ecosystem up close.",
+          "lat": 31.468,
+          "lng": 35.4795
+        },
+        {
+          "id": "kali_3",
+          "text": "Dead Sea Shore Exploration",
+          "detail": "Walk along the eastern Dead Sea shoreline within the reserve to observe salt formations and enjoy views of the lowest point on Earth."
+        },
+        {
+          "id": "kali_4",
+          "text": "Photography Expedition",
+          "detail": "Capture images of wildlife, wetland landscapes, and sunset views over the Dead Sea with professional and amateur photography opportunities.",
+          "lat": 31.4675,
+          "lng": 35.48
+        },
+        {
+          "id": "kali_5",
+          "text": "Nature Documentation Center Visit",
+          "detail": "Learn about the reserve's biodiversity, conservation efforts, and ecological importance through exhibits and educational displays."
+        },
+        {
+          "id": "kali_6",
+          "text": "Sunset Viewing Platform",
+          "detail": "Experience the spectacular sunset over the Dead Sea from designated viewpoints within the reserve boundaries."
+        }
+      ],
+      "food": [
+        {
+          "id": "kali_f1",
+          "text": "Zarb (Jordanian Bedouin Roasted Meat)",
+          "detail": "Slow-roasted lamb or chicken buried under hot coals and sand, served with rice and vegetables at local reserve lodges or nearby villages."
+        },
+        {
+          "id": "kali_f2",
+          "text": "Mensaf (Lamb in Yogurt Sauce)",
+          "detail": "Tender lamb cooked in fermented yogurt sauce with pine nuts and herbs, a traditional Jordanian dish available at reserve restaurants."
+        },
+        {
+          "id": "kali_f3",
+          "text": "Dead Sea Salt Fish",
+          "detail": "Fresh fish from the Dead Sea region, seasoned with local herbs and grilled, showcasing the area's aquatic resources."
+        },
+        {
+          "id": "kali_f4",
+          "text": "Muhammara (Red Pepper Dip)",
+          "detail": "Roasted red peppers blended with walnuts, pomegranate molasses, and olive oil, served with fresh pita bread."
+        },
+        {
+          "id": "kali_f5",
+          "text": "Freshly Foraged Desert Herbs Tea",
+          "detail": "Local herbal infusions made from plants native to the Jordan Valley, served warm to aid digestion and provide hydration."
+        }
+      ],
+      "culture": [
+        {
+          "id": "kali_c1",
+          "text": "Respect Prayer Times",
+          "detail": "Plan visits around Islamic prayer times (especially Friday prayers), as some staff and services may be limited during these periods."
+        },
+        {
+          "id": "kali_c2",
+          "text": "Dress Modestly and Practically",
+          "detail": "Wear long sleeves and pants to protect from sun and insects while respecting local conservative dress norms in this Jordanian region."
+        },
+        {
+          "id": "kali_c3",
+          "text": "Greet Guides and Staff Warmly",
+          "detail": "Jordanians value personal connections; learn basic Arabic greetings like 'Marhaba' (hello) and 'Shukran' (thank you) to enhance interactions."
+        },
+        {
+          "id": "kali_c4",
+          "text": "Support Local Conservation",
+          "detail": "The reserve is critical for regional environmental protection; purchasing locally-made crafts and hiring local guides directly supports community conservation efforts."
+        }
+      ]
+    },
+    {
+      "id": "zarqa_river",
+      "name": "Zarqa River",
+      "nameIt": "نهر الزرقاء",
+      "lat": 31.8556,
+      "lng": 35.1889,
+      "type": "NATURE",
+      "description": "An important tributary of the Jordan River with scenic valleys and historical significance as the biblical Jabbok River. The river valley offers natural beauty and opportunities to explore biblical geography.",
+      "imageQueries": [
+        "Zarqa River Jordan valley",
+        "Jabbok biblical river"
+      ],
+      "activities": [
+        {
+          "id": "zarq_1",
+          "text": "Jabbok Ford Crossing",
+          "detail": "Wade through the shallow waters where Jacob wrestled the angel according to biblical tradition, surrounded by historical ruins and natural rock formations.",
+          "lat": 32.1234,
+          "lng": 35.7456
+        },
+        {
+          "id": "zarq_2",
+          "text": "Wadi Zarqa Canyon Hiking",
+          "detail": "Trek through dramatic limestone gorges with cascading waterfalls, especially impressive during spring when water flow is strongest.",
+          "lat": 32.11,
+          "lng": 35.73
+        },
+        {
+          "id": "zarq_3",
+          "text": "Byzantine Church Ruins at Tell er-Ramith",
+          "detail": "Explore fifth-century Christian church remains overlooking the river valley with intricate mosaics and architectural details.",
+          "lat": 32.145,
+          "lng": 35.765
+        },
+        {
+          "id": "zarq_4",
+          "text": "Bird Watching Along the Valley",
+          "detail": "Observe migratory and resident species including eagles, herons, and kingfishers that nest in the river cliffs and vegetation.",
+          "lat": 32.12,
+          "lng": 35.74
+        },
+        {
+          "id": "zarq_5",
+          "text": "Pella Archaeological Site",
+          "detail": "Visit this Greco-Roman city ruins perched above the river confluence with Hellenistic, Byzantine, and Islamic period remains.",
+          "lat": 32.085,
+          "lng": 35.705
+        },
+        {
+          "id": "zarq_6",
+          "text": "Riverside Picnicking",
+          "detail": "Set up a meal near the water's edge with views of the terraced Palestinian hills across the Jordan Valley."
+        },
+        {
+          "id": "zarq_7",
+          "text": "Natural Pool Swimming",
+          "detail": "Swim in shallow pools and calm eddies during summer months where the river widens near agricultural settlements.",
+          "lat": 32.135,
+          "lng": 35.75
+        }
+      ],
+      "food": [
+        {
+          "id": "zarq_f1",
+          "text": "Zarqa Trout",
+          "detail": "Fresh-caught river trout grilled simply with lemon and olive oil, a specialty from local fishermen along the valley."
+        },
+        {
+          "id": "zarq_f2",
+          "text": "Bedouin Mansaf",
+          "detail": "Traditional lamb stew cooked in yogurt sauce with pine nuts, commonly prepared in riverside settlements during gatherings."
+        },
+        {
+          "id": "zarq_f3",
+          "text": "Musakhan with Local Greens",
+          "detail": "Roasted chicken with sumac, onions, and wild herbs foraged from the valley, served on flatbread."
+        },
+        {
+          "id": "zarq_f4",
+          "text": "Jordan Valley Vegetables",
+          "detail": "Seasonal fresh produce including tomatoes, cucumbers, and eggplants from intensive farming in the river plains, often sold at roadside stands."
+        },
+        {
+          "id": "zarq_f5",
+          "text": "Zarqa Spring Water",
+          "detail": "Crystal-clear mineral water sourced directly from natural springs in the limestone hills above the river."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zarq_c1",
+          "text": "Respect Biblical Significance",
+          "detail": "The river holds deep religious meaning for Christians and Muslims; dress modestly and ask permission before photographing people or sacred sites."
+        },
+        {
+          "id": "zarq_c2",
+          "text": "Timing for Water Levels",
+          "detail": "Visit during spring months (March-May) when the river flows strongest; summer drought may limit activities and water crossings."
+        },
+        {
+          "id": "zarq_c3",
+          "text": "Local Guide Recommendations",
+          "detail": "Hire a guide from nearby towns like Deir Alla or Pella who know safe routes, can explain archaeological layers, and facilitate respectful interactions with river communities."
+        },
+        {
+          "id": "zarq_c4",
+          "text": "Border Awareness",
+          "detail": "The river marks the Jordan-Palestine border; certain areas are restricted or sensitive—confirm access with locals and avoid photographing military or checkpoint areas."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Al-Reef Restaurant",
+      "address": "Main Street, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "Palestinian",
+      "priceRange": "€€",
+      "description": "Family-run establishment serving traditional Palestinian mezze and grilled meats in a casual, welcoming atmosphere.",
+      "mustOrder": "Mensaf with lamb",
+      "lat": 31.8974,
+      "lng": 35.4732
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Turquoise Restaurant",
+      "address": "Prophet Street, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale dining venue with views over the valley offering contemporary Mediterranean cuisine with local ingredients.",
+      "mustOrder": "Grilled hammour with lemon sauce",
+      "lat": 31.8945,
+      "lng": 35.4698
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Abu Shanab",
+      "address": "Aqaba Road, Dead Sea",
+      "neighbourhood": "Dead Sea",
+      "cuisine": "Palestinian/Middle Eastern",
+      "priceRange": "€",
+      "description": "Legendary roadside grill stand famous for its charcoal-grilled chicken and simple, honest street food.",
+      "mustOrder": "Whole grilled chicken with sumac",
+      "lat": 31.5042,
+      "lng": 35.485
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Zara Restaurant",
+      "address": "Dead Sea Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "International/Mediterranean",
+      "priceRange": "€€€",
+      "description": "Resort restaurant with panoramic Dead Sea views serving upscale Mediterranean and international dishes.",
+      "mustOrder": "Sea bass with herbs and Dead Sea salt",
+      "lat": 31.5288,
+      "lng": 35.4792
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Al-Manara Restaurant",
+      "address": "Jericho Road, Aqaba Junction",
+      "neighbourhood": "Aqaba Junction",
+      "cuisine": "Jordanian",
+      "priceRange": "€€",
+      "description": "Traditional Jordanian restaurant featuring authentic zarb, mansaf, and grilled meats with a local clientele.",
+      "mustOrder": "Zarb (underground-cooked lamb)",
+      "lat": 31.5875,
+      "lng": 35.4925
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Pita House",
+      "address": "Main Bazaar, Jericho",
+      "neighbourhood": "Jericho Old City",
+      "cuisine": "Palestinian",
+      "priceRange": "€",
+      "description": "Casual eatery specializing in fresh pita bread baked in a traditional oven with a variety of fillings and dips.",
+      "mustOrder": "Pita with hummus and zaatar",
+      "lat": 31.8989,
+      "lng": 35.4751
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "La Terrasse",
+      "address": "Tourist Street, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "French/International",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment with French culinary techniques applied to regional ingredients and Mediterranean flavors.",
+      "mustOrder": "Duck confit with Palestinian olive reduction",
+      "lat": 31.8956,
+      "lng": 35.471
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Al-Waha Restaurant",
+      "address": "Oasis Street, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "Palestinian/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Garden restaurant named after the oasis, offering traditional Palestinian cuisine in a lush, peaceful setting.",
+      "mustOrder": "Falafel platter with tahini sauce",
+      "lat": 31.8921,
+      "lng": 35.4768
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Dead Sea Divers Restaurant",
+      "address": "Beach Road, Ein Gedi Beach Area",
+      "neighbourhood": "Dead Sea Resort Area",
+      "cuisine": "Mediterranean/Seafood",
+      "priceRange": "€€€",
+      "description": "Beachfront restaurant with fresh seafood and Mediterranean fare, ideal for sunset dining overlooking the Dead Sea.",
+      "mustOrder": "Grilled shrimp with garlic and olive oil",
+      "lat": 31.4689,
+      "lng": 35.3975
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Um Ali",
+      "address": "Market Street, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "Palestinian",
+      "priceRange": "€",
+      "description": "Popular hole-in-the-wall serving authentic Palestinian breakfasts and lunch specials to locals and savvy travelers.",
+      "mustOrder": "Hummus with meat and pine nuts",
+      "lat": 31.9001,
+      "lng": 35.4745
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "The Oasis Café",
+      "address": "Baha'i Gardens Road, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "International/Café",
+      "priceRange": "€€",
+      "description": "Relaxed café near botanical gardens serving light Mediterranean fare, coffee, and pastries with garden views.",
+      "mustOrder": "Labneh with fresh vegetables",
+      "lat": 31.8854,
+      "lng": 35.4821
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Al-Reef al-Akhdar",
+      "address": "Agricultural Road, Jordan Valley",
+      "neighbourhood": "Northern Jordan Valley",
+      "cuisine": "Jordanian/Bedouin",
+      "priceRange": "€€",
+      "description": "Farm-to-table restaurant highlighting produce from local valley farms with traditional Bedouin cooking methods.",
+      "mustOrder": "Freekeh with roasted chicken",
+      "lat": 32.2456,
+      "lng": 35.5234
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Jericho Gate Restaurant",
+      "address": "Qasr al-Auja, Jericho",
+      "neighbourhood": "Jericho",
+      "cuisine": "Palestinian/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Atmospheric restaurant housed in a restored stone building serving traditional Palestinian dishes with regional hospitality.",
+      "mustOrder": "Musakhan with sumac chicken",
+      "lat": 31.8967,
+      "lng": 35.4739
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Desert Rose Restaurant",
+      "address": "Dead Sea Spa Road, Sweimeh",
+      "neighbourhood": "Sweimeh",
+      "cuisine": "Mediterranean/International",
+      "priceRange": "€€€",
+      "description": "Spa resort restaurant offering healthy Mediterranean cuisine with emphasis on fresh, light preparations and local herbs.",
+      "mustOrder": "Grilled hammour with wild herbs",
+      "lat": 31.5312,
+      "lng": 35.4805
+    }
+  ]
+}

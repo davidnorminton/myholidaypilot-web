@@ -1,0 +1,747 @@
+{
+  "id": "jerusalem_area",
+  "name": "Jerusalem Area",
+  "nameIt": "القدس",
+  "capital": "Jerusalem",
+  "lat": 31.768,
+  "lng": 35.214,
+  "emoji": "🕌",
+  "colour": "ff9c27b0",
+  "boundingBox": {
+    "north": 31.95,
+    "south": 31.6,
+    "east": 35.4,
+    "west": 35
+  },
+  "history": "Jerusalem has been a sacred center for Judaism, Christianity, and Islam for nearly three thousand years, making it one of the world's most historically significant cities. The region has been conquered and ruled by numerous empires including the Romans, Ottomans, and British, each leaving their mark on its architecture and culture. In 1948, Jerusalem was divided between Israel and Jordan, with the Old City remaining under Jordanian control until 1967. Today, the Jerusalem Area represents a complex tapestry of ancient history, religious importance, and modern geopolitical significance.",
+  "culturalNotes": "The Jerusalem Area is characterized by a deep reverence for religious sites and traditions, with the Old City containing some of Christianity's, Islam's, and Judaism's most sacred locations. Palestinian Arab culture dominates the Jordanian side, expressed through traditional crafts, cuisine, and strong family-centered customs. The region's distinct character emerges from the blend of ancient religious heritage, Mediterranean and Middle Eastern influences, and the everyday resilience of its diverse communities.",
+  "bestTimeToVisit": "April to May and September to October for pleasant weather and fewer crowds at holy sites.",
+  "languageNotes": "Arabic is the primary language spoken in the Jerusalem Area, with a Palestinian dialect that differs somewhat from Modern Standard Arabic. Useful phrases include 'Assalamu alaikum' (peace be upon you) for greetings and 'Shukran' (thank you), though English is increasingly understood among younger residents and in tourist areas.",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 5,
+  "places": [
+    {
+      "id": "amman",
+      "name": "Amman",
+      "nameIt": "عمّان",
+      "lat": 31.9454,
+      "lng": 35.9284,
+      "type": "CITY",
+      "description": "Jordan's vibrant capital city built on seven hills, featuring Roman theaters, Byzantine churches, and a thriving modern culture. It serves as the gateway to exploring the entire region and offers excellent museums, restaurants, and shopping.",
+      "imageQueries": [
+        "Amman cityscape hills sunset",
+        "Roman Theater Amman Jordan"
+      ],
+      "activities": [
+        {
+          "id": "amma_1",
+          "text": "Roman Theater",
+          "detail": "A well-preserved 2nd-century Roman amphitheater carved into the hillside that once seated 6,000 people and now hosts cultural performances.",
+          "lat": 31.9454,
+          "lng": 35.9284
+        },
+        {
+          "id": "amma_2",
+          "text": "Citadel (Jabal al-Qal'a)",
+          "detail": "An archaeological site atop one of Amman's seven hills containing ruins from various periods including a Byzantine church, Umayyad palace, and commanding views of the city.",
+          "lat": 31.9461,
+          "lng": 35.9316
+        },
+        {
+          "id": "amma_3",
+          "text": "Jordan Museum",
+          "detail": "The country's premier museum showcasing artifacts from the Dead Sea Scrolls, ancient Nabatean pottery, and Islamic manuscripts across Jordan's history.",
+          "lat": 31.9387,
+          "lng": 35.9216
+        },
+        {
+          "id": "amma_4",
+          "text": "Rainbow Street (Jabal al-Weibdeh)",
+          "detail": "A vibrant neighborhood filled with independent galleries, vintage shops, quirky cafes, and street art representing Amman's contemporary creative scene.",
+          "lat": 31.9399,
+          "lng": 35.9381
+        },
+        {
+          "id": "amma_5",
+          "text": "King Abdullah Mosque",
+          "detail": "A striking modern blue-domed mosque completed in 1989 with an interior that can accommodate 3,000 worshippers and offers guided tours for non-Muslims.",
+          "lat": 31.9364,
+          "lng": 35.9293
+        },
+        {
+          "id": "amma_6",
+          "text": "Darat al-Funun",
+          "detail": "A contemporary art space housed in restored historic villas featuring rotating exhibitions of modern Arab and international art.",
+          "lat": 31.9386,
+          "lng": 35.9385
+        }
+      ],
+      "food": [
+        {
+          "id": "amma_f1",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish of lamb cooked in a yogurt sauce served over rice and topped with pine nuts, traditionally eaten with hands using flatbread."
+        },
+        {
+          "id": "amma_f2",
+          "text": "Falafel",
+          "detail": "Deep-fried chickpea fritters that are a ubiquitous street food and breakfast staple, served with tahini sauce and wrapped in pita bread."
+        },
+        {
+          "id": "amma_f3",
+          "text": "Zarb",
+          "detail": "Lamb or chicken slow-roasted in an underground oven with vegetables, offering smoky flavor and typically found at special occasions or upscale restaurants."
+        },
+        {
+          "id": "amma_f4",
+          "text": "Musakhan",
+          "detail": "A Palestinian dish of roasted chicken served on flatbread with sumac-onion sauce and pine nuts, representing the region's culinary heritage."
+        },
+        {
+          "id": "amma_f5",
+          "text": "Hummus and Baba Ghanoush",
+          "detail": "Creamy chickpea and roasted eggplant dips drizzled with olive oil and served as mezze appetizers in nearly every restaurant."
+        },
+        {
+          "id": "amma_f6",
+          "text": "Fresh Jordanian Mint Tea",
+          "detail": "A sweet tea prepared with local fresh mint and traditionally served in small glasses as a welcoming gesture throughout the day."
+        }
+      ],
+      "culture": [
+        {
+          "id": "amma_c1",
+          "text": "Haggling in souks",
+          "detail": "Bargaining is expected and culturally accepted in Amman's markets and souks; starting at 40-50% of the asking price and negotiating politely is standard practice."
+        },
+        {
+          "id": "amma_c2",
+          "text": "Dress modestly",
+          "detail": "While Amman is cosmopolitan, wearing modest clothing that covers shoulders and knees is respectful, especially when visiting mosques or older neighborhoods."
+        },
+        {
+          "id": "amma_c3",
+          "text": "Hospitality customs",
+          "detail": "If invited to a Jordanian home, expect warm welcomes with coffee or tea; removing shoes at the entrance and accepting offered refreshments are important gestures of respect."
+        },
+        {
+          "id": "amma_c4",
+          "text": "Friday is sacred",
+          "detail": "Many restaurants and shops have altered hours on Friday, the Islamic holy day, and midday prayers significantly affect business operations in the city."
+        }
+      ]
+    },
+    {
+      "id": "wadi_rum",
+      "name": "Wadi Rum",
+      "nameIt": "وادي رم",
+      "lat": 29.8393,
+      "lng": 35.4258,
+      "type": "NATURE",
+      "description": "A stunning desert landscape of red sand dunes and towering sandstone cliffs that has captivated visitors for centuries. The protected area offers jeep safaris, Bedouin camps, and pristine stargazing in one of the world's most dramatic natural environments.",
+      "imageQueries": [
+        "Wadi Rum red desert dunes",
+        "Wadi Rum sandstone cliffs Bedouin"
+      ],
+      "activities": [
+        {
+          "id": "wadi_1",
+          "text": "Jeep Safari Tour",
+          "detail": "Guided four-wheel-drive excursions through the desert landscape visiting iconic rock formations like the Seven Pillars of Wisdom and natural arches.",
+          "lat": 29.841,
+          "lng": 35.4268
+        },
+        {
+          "id": "wadi_2",
+          "text": "Bedouin Camp Stay",
+          "detail": "Overnight experience in traditional Bedouin camps with local families, including traditional meals, tea ceremonies, and desert hospitality.",
+          "lat": 29.835,
+          "lng": 35.42
+        },
+        {
+          "id": "wadi_3",
+          "text": "Rock Climbing and Mountaineering",
+          "detail": "Technical climbing routes on the distinctive sandstone cliffs ranging from beginner to advanced levels with certified local guides.",
+          "lat": 29.85,
+          "lng": 35.435
+        },
+        {
+          "id": "wadi_4",
+          "text": "Stargazing and Night Sky Photography",
+          "detail": "Evening astronomy sessions in this designated Dark Sky Reserve where minimal light pollution reveals the Milky Way and constellations with exceptional clarity.",
+          "lat": 29.841,
+          "lng": 35.4268
+        },
+        {
+          "id": "wadi_5",
+          "text": "Hiking to Um Fruth Rock Bridge",
+          "detail": "Moderate 45-minute trek to a natural sandstone arch formation offering panoramic views of the surrounding desert landscape.",
+          "lat": 29.86,
+          "lng": 35.445
+        },
+        {
+          "id": "wadi_6",
+          "text": "Camel Trekking",
+          "detail": "Multi-hour or multi-day journeys across the red dunes on Bedouin camels, experiencing the desert as traditional nomads have for centuries.",
+          "lat": 29.841,
+          "lng": 35.4268
+        }
+      ],
+      "food": [
+        {
+          "id": "wadi_f1",
+          "text": "Zarb",
+          "detail": "Lamb or chicken slow-cooked underground with vegetables in a sealed pit, a signature Bedouin dish with tender meat infused with smoky desert flavors."
+        },
+        {
+          "id": "wadi_f2",
+          "text": "Bedouin Bread and Labneh",
+          "detail": "Traditional flatbread cooked on hot stones paired with tangy strained yogurt, representing the staple diet of desert nomads."
+        },
+        {
+          "id": "wadi_f3",
+          "text": "Mansaf",
+          "detail": "Palestinian-Jordanian dish of lamb pieces in a savory yogurt sauce served over rice or flatbread, often prepared for special occasions at Bedouin camps."
+        },
+        {
+          "id": "wadi_f4",
+          "text": "Sweet Bedouin Tea",
+          "detail": "Fragrant mint or sage tea served in small glasses, traditionally prepared in a long-handled pot and offered as a gesture of hospitality throughout the day."
+        },
+        {
+          "id": "wadi_f5",
+          "text": "Hummus and Falafel",
+          "detail": "Chickpea-based dips and fried patties served with pita bread, providing familiar local flavors available at camp settlements and visitor centers."
+        }
+      ],
+      "culture": [
+        {
+          "id": "wadi_c1",
+          "text": "Respect Photography Etiquette",
+          "detail": "Always ask permission before photographing local Bedouin residents, as some prefer not to be photographed for cultural and religious reasons."
+        },
+        {
+          "id": "wadi_c2",
+          "text": "Accept Tea Hospitality Gracefully",
+          "detail": "Refusing offered Bedouin tea is considered impolite; accepting and drinking at least one cup demonstrates respect for local customs and shows genuine interest in the culture."
+        },
+        {
+          "id": "wadi_c3",
+          "text": "Dress Modestly",
+          "detail": "Wear loose-fitting, long-sleeved clothing that covers shoulders and knees to show respect in this conservative Muslim community and for practical sun protection."
+        },
+        {
+          "id": "wadi_c4",
+          "text": "Learn Basic Arabic Greetings",
+          "detail": "Simple phrases like 'Assalamu alaikum' (peace be upon you) and 'Shukran' (thank you) are greatly appreciated by local Bedouins and enhance cultural exchange."
+        }
+      ]
+    },
+    {
+      "id": "madaba",
+      "name": "Madaba",
+      "nameIt": "مادبا",
+      "lat": 31.7278,
+      "lng": 35.7931,
+      "type": "TOWN",
+      "description": "An ancient town renowned for its stunning Byzantine and Islamic mosaics, particularly the famous 6th-century map of the Holy Land in St. George's Church. The labyrinthine streets and numerous churches make it a cultural treasure for those interested in religious heritage.",
+      "imageQueries": [
+        "Madaba mosaic map church",
+        "Madaba Byzantine mosaics tiles"
+      ],
+      "activities": [
+        {
+          "id": "mada_1",
+          "text": "St. George's Church Mosaic Map",
+          "detail": "View the remarkable 6th-century Byzantine mosaic map of the Holy Land, the oldest surviving map of the region, depicting towns and geographical features in intricate detail.",
+          "lat": 31.7262,
+          "lng": 35.8089
+        },
+        {
+          "id": "mada_2",
+          "text": "Madaba Mosaic School",
+          "detail": "Watch artisans create traditional Byzantine mosaics using the same techniques practiced for centuries, and purchase handcrafted mosaic pieces as souvenirs.",
+          "lat": 31.7254,
+          "lng": 35.8095
+        },
+        {
+          "id": "mada_3",
+          "text": "Church of the Apostles",
+          "detail": "Explore this Byzantine church featuring a stunning floor mosaic depicting a personified sea with marine life, dolphins, and geometric patterns.",
+          "lat": 31.7268,
+          "lng": 35.8102
+        },
+        {
+          "id": "mada_4",
+          "text": "Madaba Archaeological Museum",
+          "detail": "Discover artifacts from the Nabataean, Byzantine, and Islamic periods, including pottery, coins, and smaller mosaic fragments that tell Madaba's long history.",
+          "lat": 31.7245,
+          "lng": 35.8078
+        },
+        {
+          "id": "mada_5",
+          "text": "Old Town Labyrinth Walk",
+          "detail": "Wander through narrow stone-paved streets lined with traditional houses, local shops, and hidden courtyards that reveal the town's authentic character.",
+          "lat": 31.726,
+          "lng": 35.8085
+        },
+        {
+          "id": "mada_6",
+          "text": "Church of the Virgin Mary",
+          "detail": "Visit this Byzantine church with restored mosaics depicting biblical scenes and decorative geometric patterns throughout its interior floor.",
+          "lat": 31.7272,
+          "lng": 35.8108
+        }
+      ],
+      "food": [
+        {
+          "id": "mada_f1",
+          "text": "Mansaf",
+          "detail": "The national dish of Jordan, featuring lamb cooked in a tangy yogurt sauce and served over rice or flatbread, a specialty you'll find in Madaba's family restaurants."
+        },
+        {
+          "id": "mada_f2",
+          "text": "Falafel and Hummus",
+          "detail": "Fresh falafel made from chickpeas and herbs, paired with creamy hummus made from local chickpeas, available at street vendors and casual eateries throughout town."
+        },
+        {
+          "id": "mada_f3",
+          "text": "Zarb",
+          "detail": "Traditionally cooked lamb or chicken mixed with vegetables in a closed underground pit, creating tender, aromatic meat that's a highlight of special occasions in the region."
+        },
+        {
+          "id": "mada_f4",
+          "text": "Olive Oil and Palestinian Bread",
+          "detail": "Sample the region's prized olive oil, often freshly pressed, served with warm flatbread from local bakeries for a simple but authentic local breakfast."
+        },
+        {
+          "id": "mada_f5",
+          "text": "Ma'amoul Cookies",
+          "detail": "Sweet pastries filled with dates, pistachios, or walnuts and pressed with decorative patterns, particularly enjoyed during religious holidays and available in Madaba's bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mada_c1",
+          "text": "Modest Dress in Religious Sites",
+          "detail": "Wear respectful clothing covering shoulders and knees when entering churches and religious spaces, as these are active places of worship for the local Christian community."
+        },
+        {
+          "id": "mada_c2",
+          "text": "Arabic Greetings and Hospitality",
+          "detail": "Learn basic Arabic phrases like 'As-salamu alaykum' (peace be upon you) and expect warm welcomes; locals appreciate efforts to speak their language and may offer tea or coffee."
+        },
+        {
+          "id": "mada_c3",
+          "text": "Photography Sensitivity",
+          "detail": "Always ask permission before photographing individuals, particularly in residential areas, and note that some churches may restrict flash photography near delicate mosaics."
+        },
+        {
+          "id": "mada_c4",
+          "text": "Visit During Morning Hours",
+          "detail": "Plan to explore churches and archaeological sites in the early morning or late afternoon, as midday heat is intense and some sites close during afternoon hours."
+        }
+      ]
+    },
+    {
+      "id": "dana_nature_reserve",
+      "name": "Dana Nature Reserve",
+      "nameIt": "محمية ضانا",
+      "lat": 31.4714,
+      "lng": 35.6267,
+      "type": "NATURE",
+      "description": "Jordan's largest nature reserve spanning from Mediterranean mountains to the Dead Sea, protecting diverse ecosystems and wildlife. The stunning hiking trails, charming village guesthouses, and pristine landscapes make it perfect for eco-tourism and outdoor adventures.",
+      "imageQueries": [
+        "Dana Nature Reserve hiking trails",
+        "Dana village mountain landscape"
+      ],
+      "activities": [
+        {
+          "id": "dana_1",
+          "text": "Wadi Dana Trail",
+          "detail": "Hike the spectacular 6-hour descent through the wadi canyon from the plateau village down to the Dead Sea rift, passing through multiple ecological zones and ancient terraces.",
+          "lat": 31.4356,
+          "lng": 35.4789
+        },
+        {
+          "id": "dana_2",
+          "text": "Rummana Trail Loop",
+          "detail": "A moderate 2-3 hour circular hike starting from Rummana village that offers panoramic views of the reserve and surrounding mountains.",
+          "lat": 31.4289,
+          "lng": 35.4901
+        },
+        {
+          "id": "dana_3",
+          "text": "Visit Dana Village",
+          "detail": "Explore the restored stone houses and narrow alleyways of this traditional Jordanian village perched at 1,500 meters elevation with guesthouse accommodations.",
+          "lat": 31.4367,
+          "lng": 35.4775
+        },
+        {
+          "id": "dana_4",
+          "text": "Bird Watching at Feynan",
+          "detail": "Spot rare species like Sinai Rosefinch and Arabian Partridge in the lower wadi ecosystem during early morning hours.",
+          "lat": 31.3856,
+          "lng": 35.4456
+        },
+        {
+          "id": "dana_5",
+          "text": "Sunrise at the Plateau Edge",
+          "detail": "Wake early to witness the sun rise over the Dead Sea and Palestinian territories from Dana village's western viewpoint.",
+          "lat": 31.4358,
+          "lng": 35.4712
+        },
+        {
+          "id": "dana_6",
+          "text": "Shubak Castle Day Trip",
+          "detail": "Visit this 12th-century Crusader fortress located within the reserve boundaries, offering historical context and additional hiking opportunities.",
+          "lat": 31.3978,
+          "lng": 35.5234
+        },
+        {
+          "id": "dana_7",
+          "text": "Night Sky Stargazing",
+          "detail": "Experience minimal light pollution and observe the Milky Way and constellations from the high-altitude village plateau.",
+          "lat": 31.4367,
+          "lng": 35.4775
+        },
+        {
+          "id": "dana_8",
+          "text": "Wildflower Photography Walk",
+          "detail": "Join guided walks during spring months (March-April) to photograph endemic plants and alpine flowers across the plateau.",
+          "lat": 31.4356,
+          "lng": 35.4789
+        }
+      ],
+      "food": [
+        {
+          "id": "dana_f1",
+          "text": "Mansaf",
+          "detail": "The national Jordanian dish of lamb cooked in yogurt sauce served with rice and bread, traditionally prepared in Dana village guesthouses."
+        },
+        {
+          "id": "dana_f2",
+          "text": "Musakhan",
+          "detail": "Roasted chicken topped with sumac, onions, and pine nuts served on flatbread, a regional specialty reflecting Palestinian culinary traditions."
+        },
+        {
+          "id": "dana_f3",
+          "text": "Falafel and Hummus",
+          "detail": "Freshly made chickpea fritters and creamy hummus served with olive oil and fresh vegetables, ideal for light hiking meals."
+        },
+        {
+          "id": "dana_f4",
+          "text": "Za'atar Bread",
+          "detail": "Warm flatbread brushed with olive oil and mixed herbs (za'atar), baked daily in village ovens and sold at guesthouses."
+        },
+        {
+          "id": "dana_f5",
+          "text": "Lentil Soup with Herbs",
+          "detail": "A warming red lentil soup prepared with onions and wild herbs foraged from the reserve, perfect after long hikes."
+        },
+        {
+          "id": "dana_f6",
+          "text": "Stuffed Grape Leaves (Dolma)",
+          "detail": "Grape leaves rolled with rice, herbs, and sometimes meat, prepared by local families and served in traditional homestays."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dana_c1",
+          "text": "Hire Local Guides",
+          "detail": "Trained guides from Dana villages are essential for safe navigation, wildlife spotting, and learning about Bedouin culture and conservation efforts."
+        },
+        {
+          "id": "dana_c2",
+          "text": "Respect Prayer Times",
+          "detail": "Plan activities around the five daily Islamic prayer times, especially sunset prayers when locals may be less available for commercial activities."
+        },
+        {
+          "id": "dana_c3",
+          "text": "Support Local Accommodation",
+          "detail": "Stay in family-run guesthouses in Dana village rather than external hotels to directly support village economies and experience authentic hospitality."
+        },
+        {
+          "id": "dana_c4",
+          "text": "Dress Modestly",
+          "detail": "Wear long pants and covered shoulders when visiting villages and interacting with residents, as this shows respect for local Islamic customs."
+        }
+      ]
+    },
+    {
+      "id": "um_rasas",
+      "name": "Um Rasas",
+      "nameIt": "أم الرصاص",
+      "lat": 31.4636,
+      "lng": 35.9789,
+      "type": "LANDMARK",
+      "description": "A remote Byzantine site featuring remarkable 8th-century church mosaics among desert ruins. The peaceful archaeological complex showcases intricate geometric designs and religious artwork rarely seen by visitors, offering a solitary exploration of early Christian Jordan.",
+      "imageQueries": [
+        "Um Rasas Byzantine mosaics",
+        "Um Rasas church desert ruins"
+      ],
+      "activities": [
+        {
+          "id": "um_r_1",
+          "text": "Explore the Church of St. Stephen Mosaics",
+          "detail": "Walk through the ruins of the 8th-century church to view the best-preserved Byzantine floor mosaics in Jordan, featuring intricate geometric patterns and religious iconography.",
+          "lat": 31.9167,
+          "lng": 35.7833
+        },
+        {
+          "id": "um_r_2",
+          "text": "Visit the Tower of Um Rasas",
+          "detail": "Climb the restored Byzantine watchtower that once served as a monastic observation post, offering views across the desert landscape and insights into early Christian settlement patterns.",
+          "lat": 31.9175,
+          "lng": 35.7842
+        },
+        {
+          "id": "um_r_3",
+          "text": "Study the Mosaic Map in the Church of St. George",
+          "detail": "Examine the rare Byzantine-era mosaic map depicting the Holy Land, one of the oldest known cartographic representations of religious geography.",
+          "lat": 31.917,
+          "lng": 35.7835
+        },
+        {
+          "id": "um_r_4",
+          "text": "Photograph Desert Architecture",
+          "detail": "Document the stone foundations, church outlines, and monastic cells scattered across the site, capturing how early Christian communities adapted to desert living."
+        },
+        {
+          "id": "um_r_5",
+          "text": "Attend to Quiet Contemplation",
+          "detail": "Experience the serene isolation of this rarely-visited archaeological site, where few tourists venture and the desert silence enhances connection to Byzantine spiritual life."
+        }
+      ],
+      "food": [
+        {
+          "id": "um_r_f1",
+          "text": "Zarb (Bedouin Roasted Lamb)",
+          "detail": "A traditional Jordanian dish where lamb is slow-roasted in underground pits, typically available at nearby Bedouin camps or settlements in the rural areas surrounding Um Rasas."
+        },
+        {
+          "id": "um_r_f2",
+          "text": "Mansaf",
+          "detail": "Jordan's national dish of lamb cooked in a yogurt-based sauce served with rice or bread, commonly found in local village restaurants near archaeological sites."
+        },
+        {
+          "id": "um_r_f3",
+          "text": "Fattoush Salad",
+          "detail": "Fresh seasonal vegetables mixed with sumac and topped with crispy pita bread, reflecting the agricultural traditions of the Jordanian plateau region."
+        },
+        {
+          "id": "um_r_f4",
+          "text": "Bedouin Tea (Shay)",
+          "detail": "Strong herbal tea brewed with mint or sage, served in small glasses as a welcoming gesture by local guides and nearby settlement families."
+        }
+      ],
+      "culture": [
+        {
+          "id": "um_r_c1",
+          "text": "Hire a Local Guide",
+          "detail": "The remote location and intricate mosaic details are best appreciated with a guide from nearby villages who understand the site's history and can point out details missed by solo travelers."
+        },
+        {
+          "id": "um_r_c2",
+          "text": "Respect Prayer Times and Ramadan",
+          "detail": "Local staff and guides may observe Islamic prayer schedules, and visiting during Ramadan requires sensitivity to fasting customs and adjusted visiting hours."
+        },
+        {
+          "id": "um_r_c3",
+          "text": "Bring Adequate Water and Sun Protection",
+          "detail": "The desert site offers minimal shade and no facilities; locals expect visitors to come prepared with water, hats, and sunscreen as part of responsible desert travel etiquette."
+        },
+        {
+          "id": "um_r_c4",
+          "text": "Modest Dress Appreciated",
+          "detail": "While not strictly enforced at archaeological sites, wearing conservative clothing shows respect for the religious significance of this Christian heritage site and local cultural norms."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Al-Quds Restaurant",
+      "address": "Main Street, Old City",
+      "neighbourhood": "Old City, Jerusalem",
+      "cuisine": "Palestinian",
+      "priceRange": "€",
+      "description": "Family-run institution serving authentic Palestinian home cooking in the heart of the Old City since 1967.",
+      "mustOrder": "Mansaf with lamb and jameed",
+      "lat": 31.9373,
+      "lng": 35.2291
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Zalatimo Sweets",
+      "address": "Khan ez-Zeit Street, Old City",
+      "neighbourhood": "Old City, Jerusalem",
+      "cuisine": "Palestinian Pastries",
+      "priceRange": "€",
+      "description": "Historic confectionery famous for traditional knafeh and halva, operating since 1860.",
+      "mustOrder": "Knafeh with fresh cheese and pistachios",
+      "lat": 31.9373,
+      "lng": 35.2291
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Aboulbahar Restaurant",
+      "address": "Muristan Street, Old City",
+      "neighbourhood": "Old City, Jerusalem",
+      "cuisine": "Palestinian/Levantine",
+      "priceRange": "€€",
+      "description": "Charming rooftop restaurant with views of the Dome of the Rock and traditional Palestinian mezze platters.",
+      "mustOrder": "Mixed grill platter with hummus and tahini",
+      "lat": 31.9357,
+      "lng": 35.229
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Lina Restaurant",
+      "address": "Straight Street (Via Dolorosa), Old City",
+      "neighbourhood": "Old City, Jerusalem",
+      "cuisine": "Palestinian/Mediterranean",
+      "priceRange": "€€",
+      "description": "Family restaurant near the Fifth Station serving hearty traditional dishes with fresh local ingredients.",
+      "mustOrder": "Falafel with fresh herbs and tahini sauce",
+      "lat": 31.9369,
+      "lng": 35.2298
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Eucalyptus",
+      "address": "West Jerusalem, Downtown",
+      "neighbourhood": "Jaffa Road Area, Jerusalem",
+      "cuisine": "Modern Mediterranean/Israeli",
+      "priceRange": "€€€",
+      "description": "Award-winning restaurant celebrating biblical and historical ingredients with contemporary culinary techniques.",
+      "mustOrder": "Fish with ancient grains and seasonal vegetables",
+      "lat": 31.9458,
+      "lng": 35.2138
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Jacir Palace Hotel Restaurant",
+      "address": "Al-Zahra Street, East Jerusalem",
+      "neighbourhood": "Sheikh Jarrah, Jerusalem",
+      "cuisine": "Palestinian Fine Dining",
+      "priceRange": "€€€",
+      "description": "Upscale dining in a historic palace setting offering refined Palestinian cuisine with panoramic city views.",
+      "mustOrder": "Slow-cooked lamb with Palestinian spices and fresh herbs",
+      "lat": 31.9504,
+      "lng": 35.2362
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Cafe Kaloust",
+      "address": "Nablus Road, East Jerusalem",
+      "neighbourhood": "Sheikh Jarrah, Jerusalem",
+      "cuisine": "Armenian/Middle Eastern",
+      "priceRange": "€€",
+      "description": "Historic Armenian cafe serving traditional lahmacun, kebabs, and coffee in a heritage setting since 1922.",
+      "mustOrder": "Lahmacun with fresh vegetables and lemon",
+      "lat": 31.948,
+      "lng": 35.2341
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Angelina Restaurant",
+      "address": "Derech Hevron, Bethlehem Road",
+      "neighbourhood": "Talpiot, Jerusalem",
+      "cuisine": "Italian/Mediterranean",
+      "priceRange": "€€",
+      "description": "Contemporary Italian bistro with excellent pasta and local wine selection in a modern Jerusalem neighborhood.",
+      "mustOrder": "Handmade pasta with wild mushrooms and truffle oil",
+      "lat": 31.928,
+      "lng": 35.2256
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Abu Shukri Hummus",
+      "address": "Al-Wad Road, Old City",
+      "neighbourhood": "Old City, Jerusalem",
+      "cuisine": "Palestinian Street Food",
+      "priceRange": "€",
+      "description": "Legendary hummus stand operating since 1967, beloved by locals and tourists for creamy, authentic preparation.",
+      "mustOrder": "Hummus with warm chickpeas and tahini",
+      "lat": 31.9383,
+      "lng": 35.2303
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Violet Cafe",
+      "address": "Nablus Road, East Jerusalem",
+      "neighbourhood": "Musrara, Jerusalem",
+      "cuisine": "Palestinian Cafe",
+      "priceRange": "€",
+      "description": "Simple neighborhood cafe serving Palestinian breakfast specialties, coffee, and light meals.",
+      "mustOrder": "Za'atar manakish with olive oil",
+      "lat": 31.9468,
+      "lng": 35.2327
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Chakra",
+      "address": "Mamilla Avenue, Downtown West Jerusalem",
+      "neighbourhood": "Mamilla, Jerusalem",
+      "cuisine": "Middle Eastern/International",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant with Mediterranean and Middle Eastern influences overlooking the Old City walls.",
+      "mustOrder": "Grilled lamb chops with tahini and pomegranate",
+      "lat": 31.9385,
+      "lng": 35.219
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Promenade",
+      "address": "Mamilla Avenue, Downtown",
+      "neighbourhood": "Mamilla, Jerusalem",
+      "cuisine": "French/Mediterranean",
+      "priceRange": "€€€€",
+      "description": "Fine dining establishment featuring French and Mediterranean cuisine with panoramic views of the Old City.",
+      "mustOrder": "Duck breast with seasonal fruit compote",
+      "lat": 31.938,
+      "lng": 35.2185
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Kan Zaman",
+      "address": "Derech Hevron, Gilo",
+      "neighbourhood": "Gilo, Jerusalem",
+      "cuisine": "Palestinian/Levantine",
+      "priceRange": "€€",
+      "description": "Traditional restaurant with rustic decor serving authentic Palestinian cuisine in a family-friendly atmosphere.",
+      "mustOrder": "Mixed grill with Palestinian bread and salatim",
+      "lat": 31.915,
+      "lng": 35.2245
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Versavee",
+      "address": "Davidka Square, Downtown West Jerusalem",
+      "neighbourhood": "Mahane Yehuda Market Area, Jerusalem",
+      "cuisine": "Modern Mediterranean",
+      "priceRange": "€€",
+      "description": "Contemporary restaurant near the famous market offering fresh Mediterranean fare with local ingredients.",
+      "mustOrder": "Grilled fish with seasonal vegetables and herbs",
+      "lat": 31.9398,
+      "lng": 35.2128
+    }
+  ]
+}

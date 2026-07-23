@@ -1,0 +1,1681 @@
+{
+  "id": "metropolitan",
+  "name": "Metropolitan Region of Santiago",
+  "nameIt": "Región Metropolitana de Santiago",
+  "capital": "Santiago",
+  "lat": -33.4,
+  "lng": -70.7,
+  "emoji": "🏙️",
+  "colour": "ff795548",
+  "boundingBox": {
+    "north": -32.5,
+    "south": -34.5,
+    "east": -69.5,
+    "west": -72
+  },
+  "history": "The Metropolitan Region of Santiago was founded in 1541 by Pedro de Valdivia as the capital of the Spanish colonial territory of Chile. During the colonial period and early independence era, Santiago developed as the political and economic center of the nation, growing from a modest settlement into a major city. The region experienced significant growth and modernization in the 19th and 20th centuries, particularly after the 1973 military coup and subsequent neoliberal economic reforms that transformed it into a dynamic financial hub. Today it remains Chile's largest metropolitan area and the country's cultural, political, and business capital.",
+  "culturalNotes": "Santiago's culture blends strong Spanish colonial heritage with contemporary cosmopolitan influences, evident in its architecture, cuisine, and arts scene. The region is known for its vibrant neighborhoods like Lastarria and Bellavista, which showcase street art, independent galleries, and bohemian traditions. Wine culture plays an important role in the region's identity, with the nearby wine valleys making Santiago a gateway to Chilean viticulture and gastronomy.",
+  "bestTimeToVisit": "Visit September to November or March to May for pleasant spring and autumn weather in the capital.",
+  "languageNotes": "Spanish is the primary language, though locals speak Chilean Spanish with distinctive pronunciation and vocabulary that can differ noticeably from standard Spanish. Useful phrases include 'gracias' (thank you), 'por favor' (please), and 'cachai?' (do you understand?), a colloquial term common in Santiago.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "santiago_centro",
+      "name": "Santiago Center",
+      "nameIt": "Centro de Santiago",
+      "lat": -33.4372,
+      "lng": -70.6545,
+      "type": "CITY",
+      "description": "The historic heart of Chile's capital, featuring the Plaza de Armas, Cathedral, and colonial architecture alongside modern museums and galleries. It's the cultural and political center where you'll find the essence of Santiago's history and vibrant street life.",
+      "imageQueries": [
+        "Plaza de Armas Santiago",
+        "Santiago Cathedral Chile"
+      ],
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Plaza de Armas",
+          "detail": "Santiago's main square surrounded by the Cathedral, Post Office, and City Hall, perfect for people-watching and soaking in the historic atmosphere.",
+          "lat": -33.4372,
+          "lng": -70.6545
+        },
+        {
+          "id": "sant_2",
+          "text": "Metropolitan Cathedral",
+          "detail": "A stunning neoclassical cathedral dating to 1541, featuring ornate interiors, religious artwork, and climb-up tower views of the city.",
+          "lat": -33.4374,
+          "lng": -70.6542
+        },
+        {
+          "id": "sant_3",
+          "text": "Museum of Pre-Columbian Art",
+          "detail": "World-class collection of indigenous artifacts from across the Americas displayed in an elegant colonial mansion in the historic center.",
+          "lat": -33.4389,
+          "lng": -70.6566
+        },
+        {
+          "id": "sant_4",
+          "text": "La Moneda Palace",
+          "detail": "The seat of the Chilean President, this neoclassical palace offers guided tours and is an iconic symbol of the nation's political power.",
+          "lat": -33.4453,
+          "lng": -70.6673
+        },
+        {
+          "id": "sant_5",
+          "text": "Central Market (Mercado Central)",
+          "detail": "Historic 1870s iron structure filled with seafood stalls, produce vendors, and casual eateries where locals shop daily.",
+          "lat": -33.441,
+          "lng": -70.6589
+        },
+        {
+          "id": "sant_6",
+          "text": "Street art in Lastarria",
+          "detail": "Bohemian neighborhood adjacent to the center with colorful murals, independent galleries, and antique shops lining narrow colonial streets.",
+          "lat": -33.4353,
+          "lng": -70.6461
+        },
+        {
+          "id": "sant_7",
+          "text": "Civic Library of Santiago",
+          "detail": "Modern cultural institution housed in a historic building offering art exhibitions, book collections, and cultural events in the heart of downtown.",
+          "lat": -33.4391,
+          "lng": -70.656
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Pastel de Choclo",
+          "detail": "A traditional Chilean dish of corn pie with ground meat, hard-boiled eggs, and olives, often found in Centro restaurants and markets."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Empanadas",
+          "detail": "Fried or baked pastries filled with cheese, meat, or seafood, sold by street vendors throughout the center and at Mercado Central."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Fresh Ceviche",
+          "detail": "Raw fish marinated in lime juice with onions and cilantro, best sampled at market stalls and seafood restaurants near Central Market."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Cazuela",
+          "detail": "A hearty stew with meat or seafood, potatoes, corn, and pumpkin, served in traditional clay bowls at local comida restaurants."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Completo Chileno",
+          "detail": "A loaded Chilean hot dog topped with sauerkraut, tomatoes, mayonnaise, and avocado, available from street vendors throughout the center."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Respect siesta timing",
+          "detail": "Many small shops and offices close between 1-3 PM for lunch, so plan museum visits and major sightseeing accordingly."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Be aware of pickpocketing",
+          "detail": "Stay alert in crowded areas like Plaza de Armas and Mercado Central, keep valuables secure, and avoid flashing expensive items."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Use formal greetings",
+          "detail": "Chileans appreciate politeness; use 'usted' (formal you) with strangers and always greet shop owners with 'buenos días' or 'buenas tardes'."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Metro is the fastest transport",
+          "detail": "The subway system is efficient and affordable for moving around Centro and beyond; buy a rechargeable Bip card at any metro station."
+        }
+      ]
+    },
+    {
+      "id": "cerro_san_cristobal",
+      "name": "San Cristóbal Hill",
+      "nameIt": "Cerro San Cristóbal",
+      "lat": -33.425,
+      "lng": -70.633,
+      "type": "LANDMARK",
+      "description": "A 880-meter hill in the heart of the city offering panoramic views of Santiago and the surrounding Andes mountains, with a funicular railway and hilltop sanctuary. It's the best vantage point to understand Santiago's geography and appreciate the city's relationship with the mountains.",
+      "imageQueries": [
+        "Cerro San Cristobal Santiago views",
+        "San Cristobal hill funicular"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Ride the Funicular Railway",
+          "detail": "Take the historic funicular up the hill for a scenic 5-minute journey with expanding views of the city below.",
+          "lat": -33.3963,
+          "lng": -70.6121
+        },
+        {
+          "id": "cerr_2",
+          "text": "Visit the Sanctuary of the Immaculate Conception",
+          "detail": "Explore the white Neo-Gothic sanctuary at the summit, featuring a 14-meter statue of the Virgin Mary that overlooks Santiago.",
+          "lat": -33.3979,
+          "lng": -70.6108
+        },
+        {
+          "id": "cerr_3",
+          "text": "360-Degree Panoramic Viewing",
+          "detail": "Stand at the hilltop to see the entire Santiago basin framed by the Andes mountains, ideal for photography at sunset.",
+          "lat": -33.3979,
+          "lng": -70.6108
+        },
+        {
+          "id": "cerr_4",
+          "text": "Hike the Forest Trails",
+          "detail": "Walk through native forest paths that wind through the hill, offering shade and glimpses of local flora and wildlife.",
+          "lat": -33.3963,
+          "lng": -70.6121
+        },
+        {
+          "id": "cerr_5",
+          "text": "Explore the Hermitage House",
+          "detail": "Visit the small stone hermitage building near the sanctuary, a quiet refuge with intimate views of the city.",
+          "lat": -33.3982,
+          "lng": -70.6105
+        },
+        {
+          "id": "cerr_6",
+          "text": "Evening Light Show at the Virgin Mary Statue",
+          "detail": "Return at dusk when the illuminated statue glows against the darkening sky, creating a striking backdrop for the city lights below."
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Empanadas de Pino",
+          "detail": "Baked pastries filled with seasoned ground beef, onions, and hard-boiled egg, a quintessential Chilean street food sold at the hilltop vendors."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Mote con Huesillo",
+          "detail": "A refreshing traditional drink combining wheat grains and dried peach in sweet wheat juice, perfect for cooling off after climbing."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Fresh Fruit from Summit Vendors",
+          "detail": "Local vendors sell fresh Chilean peaches, strawberries, and berries in season, sourced from nearby markets and orchards."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Completo Chileno",
+          "detail": "A loaded Chilean hot dog topped with sauerkraut, mashed avocado, mayo, and tomato, available at small stands near the funicular station."
+        },
+        {
+          "id": "cerr_f5",
+          "text": "Sopaipillas with Chancaca",
+          "detail": "Deep-fried dough pastries drizzled with molasses syrup, a beloved Chilean sweet snack sold by hilltop vendors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Arrive Early to Avoid Crowds",
+          "detail": "Visit in the morning when locals and pilgrims make the ascent, and the light and air quality are clearest for viewing the Andes."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Respect the Sacred Sanctuary",
+          "detail": "The hilltop is a pilgrimage site for many Santiaguinos; dress modestly and observe quiet behavior inside the sanctuary, especially during religious services."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Learn to Read the Urban Geography",
+          "detail": "Use the hilltop vantage point to understand Santiago's organized grid system and how neighborhoods like Providencia and Ñuñoa relate to the Andes, helping orient yourself in the city."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Bring Cash for Small Vendors",
+          "detail": "Many hilltop food and souvenir vendors only accept cash (Chilean pesos), so come prepared with small bills."
+        }
+      ]
+    },
+    {
+      "id": "lastarria_neighborhood",
+      "name": "Lastarría Neighborhood",
+      "nameIt": "Barrio Lastarría",
+      "lat": -33.44,
+      "lng": -70.63,
+      "type": "CITY",
+      "description": "A bohemian artistic district filled with galleries, cafes, bookstores, and street art that represents Santiago's creative soul. This walkable neighborhood is perfect for experiencing local culture, dining, and discovering contemporary Chilean art and design.",
+      "imageQueries": [
+        "Lastarria Santiago neighborhood",
+        "Lastarria street art cafes"
+      ],
+      "activities": [
+        {
+          "id": "last_1",
+          "text": "Museo de Artes Visuales (MVAV)",
+          "detail": "Contemporary art museum housed in a striking modern building showcasing Chilean and international visual art across multiple galleries.",
+          "lat": -33.4372,
+          "lng": -70.6321
+        },
+        {
+          "id": "last_2",
+          "text": "Galería Formas Contingentes",
+          "detail": "Artist-run gallery featuring cutting-edge contemporary Chilean art, sculpture, and experimental installations in a restored colonial building.",
+          "lat": -33.4375,
+          "lng": -70.6318
+        },
+        {
+          "id": "last_3",
+          "text": "Street art walking tour",
+          "detail": "Self-guided exploration of vibrant murals and graffiti art covering walls throughout the neighborhood, particularly along Merced and Lastarría streets."
+        },
+        {
+          "id": "last_4",
+          "text": "Cerro Santa Lucía viewpoint hike",
+          "detail": "Climb the historic hill adjacent to Lastarría for panoramic views of Santiago and explore its colonial-era fortress.",
+          "lat": -33.4356,
+          "lng": -70.6366
+        },
+        {
+          "id": "last_5",
+          "text": "Independent bookstores browsing",
+          "detail": "Browse Librerías del Paseo and other independent shops specializing in Chilean literature, art books, and rare editions throughout the district.",
+          "lat": -33.4378,
+          "lng": -70.6315
+        },
+        {
+          "id": "last_6",
+          "text": "Artisan craft markets",
+          "detail": "Visit weekend pop-up markets and permanent vendor stalls featuring handmade jewelry, ceramics, textiles, and locally-designed goods."
+        }
+      ],
+      "food": [
+        {
+          "id": "last_f1",
+          "text": "Empanadas de pino",
+          "detail": "Hand-held pastry filled with ground beef, onions, olives, and hard-boiled egg, a Chilean staple sold at nearly every café in Lastarría."
+        },
+        {
+          "id": "last_f2",
+          "text": "Completo",
+          "detail": "A loaded hot dog topped with avocado, tomato, onions, and mayo, reflecting Chilean street food culture and widely available from local vendors."
+        },
+        {
+          "id": "last_f3",
+          "text": "Cazuela de ave",
+          "detail": "Hearty stew of chicken, potatoes, corn, and pumpkin served in earthenware bowls at traditional neighborhood restaurants."
+        },
+        {
+          "id": "last_f4",
+          "text": "Wine bar experience",
+          "detail": "Sample Chilean wines from small producers at intimate wine bars and cafés, reflecting the nation's world-class viticulture heritage."
+        },
+        {
+          "id": "last_f5",
+          "text": "Pastel de tres leches",
+          "detail": "Decadent sponge cake soaked in three types of milk, a beloved Chilean dessert found in neighborhood cafés and bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "last_c1",
+          "text": "Best visited on weekends",
+          "detail": "Lastarría truly comes alive on Saturdays and Sundays with bustling markets, fuller galleries, and energetic street performances and dining scenes."
+        },
+        {
+          "id": "last_c2",
+          "text": "Walkability is essential",
+          "detail": "The neighborhood is compact and pedestrian-friendly; wear comfortable shoes and plan to explore on foot rather than by car to fully experience the street-level creativity."
+        },
+        {
+          "id": "last_c3",
+          "text": "Afternoon café culture",
+          "detail": "Chileans typically enjoy long, leisurely afternoon cafés (coffee breaks) around 3-4 PM; joining locals at a sidewalk café is an authentic way to experience neighborhood rhythm."
+        },
+        {
+          "id": "last_c4",
+          "text": "Respect gallery etiquette",
+          "detail": "Most galleries are free or low-cost and operate on artist schedules; it's customary to browse respectfully and engage with artists if they're present."
+        }
+      ]
+    },
+    {
+      "id": "providencia_district",
+      "name": "Providencia District",
+      "nameIt": "Providencia",
+      "lat": -33.4289,
+      "lng": -70.5969,
+      "type": "CITY",
+      "description": "An upscale modern district known for sophisticated restaurants, wine bars, designer shops, and contemporary architecture that showcases Santiago's cosmopolitan side. It's where you'll find excellent dining, nightlife, and a glimpse of Santiago's affluent contemporary culture.",
+      "imageQueries": [
+        "Providencia Santiago district",
+        "Providencia restaurants bars"
+      ],
+      "activities": [
+        {
+          "id": "prov_1",
+          "text": "Explore Avenida 11 de Septiembre",
+          "detail": "Stroll through the district's main avenue lined with upscale boutiques, galleries, and contemporary architecture showcasing Santiago's modern face.",
+          "lat": -33.4169,
+          "lng": -70.5957
+        },
+        {
+          "id": "prov_2",
+          "text": "Visit Parque Araucano",
+          "detail": "This urban park offers green space with sculptures, walking paths, and a contemporary design that reflects the district's modern character.",
+          "lat": -33.4215,
+          "lng": -70.5916
+        },
+        {
+          "id": "prov_3",
+          "text": "Gallery hopping in the commercial district",
+          "detail": "Providencia hosts numerous contemporary art galleries showcasing Chilean and international artists along Avenida Providencia and side streets.",
+          "lat": -33.4198,
+          "lng": -70.5968
+        },
+        {
+          "id": "prov_4",
+          "text": "Wine tasting at upscale wine bars",
+          "detail": "Sample Chilean wines at sophisticated venues like Lastarria Wine Bar or Vinoteca del Pacífico, featuring curated selections from renowned vineyards.",
+          "lat": -33.4185,
+          "lng": -70.5945
+        },
+        {
+          "id": "prov_5",
+          "text": "Shopping at designer boutiques",
+          "detail": "Browse international and Chilean designer brands along the tree-lined streets and modern shopping centers in the district.",
+          "lat": -33.4172,
+          "lng": -70.595
+        },
+        {
+          "id": "prov_6",
+          "text": "Dine at Michelin-recommended restaurants",
+          "detail": "Experience world-class cuisine at establishments like Smoked Room or other fine dining venues that define Santiago's gastronomic excellence.",
+          "lat": -33.418,
+          "lng": -70.596
+        }
+      ],
+      "food": [
+        {
+          "id": "prov_f1",
+          "text": "Ceviche with Chilean sea urchin",
+          "detail": "Fresh fish cured in citrus with erizo (sea urchin) is a signature Chilean coastal dish offered at high-end restaurants throughout Providencia."
+        },
+        {
+          "id": "prov_f2",
+          "text": "Pastel de choclo",
+          "detail": "A traditional Chilean corn pie filled with meat, olives, and hard-boiled egg, prepared with sophisticated presentation at upscale venues."
+        },
+        {
+          "id": "prov_f3",
+          "text": "Chilean wine pairing dinners",
+          "detail": "Multi-course meals paired with premium wines from Maipo, Casablanca, or Maule valleys, showcasing Chile's renowned viticulture."
+        },
+        {
+          "id": "prov_f4",
+          "text": "Empanadas de pino with modern twist",
+          "detail": "Contemporary interpretations of the classic meat-filled pastry served as gourmet appetizers in Providencia's fine dining establishments."
+        },
+        {
+          "id": "prov_f5",
+          "text": "Fresh Chilean salmon preparations",
+          "detail": "Sustainably sourced Pacific salmon presented in innovative ways at upscale restaurants highlighting the country's seafood heritage."
+        },
+        {
+          "id": "prov_f6",
+          "text": "Completos at casual gourmet spots",
+          "detail": "Elevated versions of Chile's iconic loaded hot dog with premium ingredients like grass-fed beef and artisanal condiments."
+        }
+      ],
+      "culture": [
+        {
+          "id": "prov_c1",
+          "text": "Dress code expectations",
+          "detail": "Providencia is an affluent district where smart casual or formal attire is expected at restaurants, wine bars, and upscale venues, especially in the evening."
+        },
+        {
+          "id": "prov_c2",
+          "text": "Dining times and reservations",
+          "detail": "Fine dining restaurants typically open for dinner after 7 PM and require reservations; lunch is served from 1-3 PM, following Chilean dining customs."
+        },
+        {
+          "id": "prov_c3",
+          "text": "Spanish language appreciation",
+          "detail": "While English is spoken in upscale establishments, locals appreciate effort in Spanish; learning basic wine and food terminology enhances the experience."
+        },
+        {
+          "id": "prov_c4",
+          "text": "Summer season dynamics",
+          "detail": "December to February is summer in Chile when locals favor outdoor dining and evening activities; many restaurants extend outdoor seating during this period."
+        }
+      ]
+    },
+    {
+      "id": "mapocho_river",
+      "name": "Mapocho Riverbank Parks",
+      "nameIt": "Parques Ribera Mapocho",
+      "lat": -33.445,
+      "lng": -70.65,
+      "type": "NATURE",
+      "description": "A series of linear parks along the Mapocho River offering green spaces, cultural venues, and recreational areas in the heart of the city. These parks provide respite from urban bustle and connect various cultural landmarks while offering outdoor activities.",
+      "imageQueries": [
+        "Mapocho River parks Santiago",
+        "Rio Mapocho cycling path"
+      ],
+      "activities": [
+        {
+          "id": "mapo_1",
+          "text": "Cycling along the Mapocho Greenway",
+          "detail": "Rent a bike and traverse the dedicated cycling path that runs the length of the riverbank parks, connecting neighborhoods from Puente Cal y Canto to Parque Araucano.",
+          "lat": -33.4372,
+          "lng": -70.6635
+        },
+        {
+          "id": "mapo_2",
+          "text": "Visit Parque Forestal Cultural Center",
+          "detail": "Explore galleries, theaters, and exhibition spaces housed within the historic Parque Forestal section, featuring contemporary and classical art installations.",
+          "lat": -33.4389,
+          "lng": -70.6354
+        },
+        {
+          "id": "mapo_3",
+          "text": "Kayaking on the Mapocho",
+          "detail": "Paddle sections of the river itself during calmer flow periods, offering a unique perspective of the city skyline and Andes mountains from water level.",
+          "lat": -33.445,
+          "lng": -70.652
+        },
+        {
+          "id": "mapo_4",
+          "text": "Picnicking in Parque Araucano",
+          "detail": "Set up a picnic on the grassy terraces of this modern riverside park featuring native Chilean landscaping and excellent city views.",
+          "lat": -33.4291,
+          "lng": -70.5979
+        },
+        {
+          "id": "mapo_5",
+          "text": "Street art and mural tours",
+          "detail": "Walk the designated art zones where local and international street artists have created vibrant murals reflecting Chilean culture and urban narratives.",
+          "lat": -33.44,
+          "lng": -70.645
+        },
+        {
+          "id": "mapo_6",
+          "text": "Jogging and outdoor fitness",
+          "detail": "Use the well-maintained running paths and outdoor exercise equipment stations distributed throughout the parks for morning or evening workouts."
+        },
+        {
+          "id": "mapo_7",
+          "text": "Fishing in designated zones",
+          "detail": "Cast a line in permitted riverbank areas where locals fish for pejerrey and other native species during appropriate seasons."
+        }
+      ],
+      "food": [
+        {
+          "id": "mapo_f1",
+          "text": "Empanadas de Pino",
+          "detail": "Seek out street vendors near the park entrances selling these baked pastries filled with seasoned ground beef, onions, and hard-boiled egg—a quintessential Chilean snack."
+        },
+        {
+          "id": "mapo_f2",
+          "text": "Choripán",
+          "detail": "Grilled chorizo served in crusty bread with pebre (Chilean salsa) and avocado, commonly sold by vendors along the riverbank parks."
+        },
+        {
+          "id": "mapo_f3",
+          "text": "Completo Chileno",
+          "detail": "A loaded hot dog topped with avocado, tomato, onion, and mayo, readily available from food carts stationed throughout the park system."
+        },
+        {
+          "id": "mapo_f4",
+          "text": "Fresh fruit jugos from riverside stands",
+          "detail": "Order freshly pressed juices made from local fruits like papaya, naranja (orange), or a tropical mix sold at small kiosks along the parks."
+        },
+        {
+          "id": "mapo_f5",
+          "text": "Asado picnic experience",
+          "detail": "Bring ingredients or purchase grilled meats and vegetables at riverside parrillas where you can grill your own meal in designated areas."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mapo_c1",
+          "text": "Parks are busiest on weekends and holidays",
+          "detail": "Visit on weekdays for a quieter experience, as Chilean families flock to the Mapocho parks on Saturdays and Sundays for recreation and picnicking."
+        },
+        {
+          "id": "mapo_c2",
+          "text": "Spring (September-November) brings local festivals",
+          "detail": "Plan your visit around seasonal cultural events and open-air concerts that celebrate Chilean music, art, and community gatherings."
+        },
+        {
+          "id": "mapo_c3",
+          "text": "Respect posted security guidelines",
+          "detail": "While generally safe during daylight, avoid isolated spots after dark and keep valuables secure, as with any urban park in Santiago."
+        },
+        {
+          "id": "mapo_c4",
+          "text": "Spanish-language signage dominates",
+          "detail": "Download a translation app or learn basic Spanish terms for park facilities and directions, as English signage is minimal in most sections."
+        }
+      ]
+    },
+    {
+      "id": "vina_santa_rita",
+      "name": "Santa Rita Vineyard",
+      "nameIt": "Viña Santa Rita",
+      "lat": -33.665,
+      "lng": -70.7442,
+      "type": "LANDMARK",
+      "description": "One of Chile's most celebrated wineries located in the Maipo Valley, offering wine tastings, vineyard tours, and a museum showcasing Chilean winemaking history. It's an excellent introduction to Chilean wine culture and the country's viticultural heritage.",
+      "imageQueries": [
+        "Viña Santa Rita Maipo",
+        "Santa Rita winery Chile"
+      ],
+      "activities": [
+        {
+          "id": "vina_1",
+          "text": "Wine Tasting in the Barrel Room",
+          "detail": "Sample Santa Rita's signature wines including their renowned Carmenère and Cabernet Sauvignon directly in the historic barrel cellar where wines age.",
+          "lat": -33.6814,
+          "lng": -70.7453
+        },
+        {
+          "id": "vina_2",
+          "text": "Vineyard Tour on Horseback",
+          "detail": "Ride through the Maipo Valley vineyards on horseback to experience the estate's sprawling wine-growing terroir and landscape like early Chilean settlers did.",
+          "lat": -33.6814,
+          "lng": -70.7453
+        },
+        {
+          "id": "vina_3",
+          "text": "Casa Patronal Museum Visit",
+          "detail": "Explore the restored 19th-century colonial mansion that showcases Chilean winemaking history, traditional wine production methods, and the vineyard's heritage dating back to 1880.",
+          "lat": -33.6814,
+          "lng": -70.7453
+        },
+        {
+          "id": "vina_4",
+          "text": "Traditional Wine and Cheese Pairing",
+          "detail": "Enjoy curated tastings of Santa Rita wines paired with artisanal Chilean cheeses and local charcuterie in the estate's tasting room.",
+          "lat": -33.6814,
+          "lng": -70.7453
+        },
+        {
+          "id": "vina_5",
+          "text": "Sunset Picnic in the Vineyards",
+          "detail": "Book a gourmet picnic experience among the vines at golden hour with wine, cheese, and local produce while overlooking the Andes Mountains."
+        },
+        {
+          "id": "vina_6",
+          "text": "Reserve Wine Selection Experience",
+          "detail": "Access Santa Rita's premium reserve collection in a private tasting session featuring their limited-edition and high-end varietal selections."
+        }
+      ],
+      "food": [
+        {
+          "id": "vina_f1",
+          "text": "Empanadas de Queso y Pasas",
+          "detail": "Baked pastry pockets filled with melted cheese and raisins, a traditional Chilean snack often served at the vineyard's café alongside wine tastings."
+        },
+        {
+          "id": "vina_f2",
+          "text": "Pastel de Choclo",
+          "detail": "A savory corn pie layered with ground beef, olives, and hard-boiled egg, representing classic Chilean comfort food available at Santa Rita's restaurant."
+        },
+        {
+          "id": "vina_f3",
+          "text": "Cazuela de Vacuno",
+          "detail": "A hearty Chilean beef stew with potatoes, corn, and pumpkin, traditionally paired with Santa Rita's robust red wines."
+        },
+        {
+          "id": "vina_f4",
+          "text": "Ceviche with Local White Wine",
+          "detail": "Fresh fish marinated in citrus and served with Santa Rita's Sauvignon Blanc, showcasing the pairing of coastal and wine country traditions."
+        },
+        {
+          "id": "vina_f5",
+          "text": "Completo Chileno",
+          "detail": "A traditional Chilean hot dog topped with avocado, sauerkraut, tomato, and mayonnaise, available at casual dining areas within the estate."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vina_c1",
+          "text": "Book Tours in Advance",
+          "detail": "Santa Rita requires advance reservations for guided vineyard tours and tastings, especially during peak season from September to March."
+        },
+        {
+          "id": "vina_c2",
+          "text": "Respect Wine Tasting Protocol",
+          "detail": "Chileans take wine appreciation seriously; listen attentively during tastings and use proper terminology when discussing flavors and aromas to show respect for the craft."
+        },
+        {
+          "id": "vina_c3",
+          "text": "Spanish Language Helps",
+          "detail": "While some staff speak English, learning basic Spanish phrases enhances the experience and is appreciated by guides and local workers throughout the vineyard."
+        },
+        {
+          "id": "vina_c4",
+          "text": "Dress Appropriately for Season",
+          "detail": "The Maipo Valley can be very hot in summer (December-February) or cool in winter; wear layers and sun protection, and closed-toe shoes for vineyard walks."
+        }
+      ]
+    },
+    {
+      "id": "concha_y_toro",
+      "name": "Concha y Toro Vineyard",
+      "nameIt": "Viña Concha y Toro",
+      "lat": -33.6989,
+      "lng": -70.6997,
+      "type": "LANDMARK",
+      "description": "Chile's largest wine producer with stunning vineyards and colonial architecture in the Pirque area, offering comprehensive tours and tastings of their premium wines. This iconic vineyard provides insight into large-scale Chilean winemaking and beautiful estate grounds.",
+      "imageQueries": [
+        "Concha y Toro vineyard",
+        "Concha y Toro wine tour Chile"
+      ],
+      "activities": [
+        {
+          "id": "conc_1",
+          "text": "Vineyard Tour",
+          "detail": "Guided walking tour through the estate's historic vineyards showcasing different grape varieties and winemaking techniques across Concha y Toro's 8,000+ hectares.",
+          "lat": -33.6511,
+          "lng": -70.5789
+        },
+        {
+          "id": "conc_2",
+          "text": "Wine Tasting",
+          "detail": "Professional sommelier-led tastings of Concha y Toro's signature wines including Casillero del Diablo, Almaviva, and Don Melchor in tasting rooms with vineyard views.",
+          "lat": -33.6511,
+          "lng": -70.5789
+        },
+        {
+          "id": "conc_3",
+          "text": "Colonial Manor House Tour",
+          "detail": "Exploration of the historic 19th-century main residence featuring original architecture, period furnishings, and the legendary underground cellar known as Casillero del Diablo.",
+          "lat": -33.6508,
+          "lng": -70.5792
+        },
+        {
+          "id": "conc_4",
+          "text": "Underground Cellar Visit",
+          "detail": "Descent into the famous subterranean wine storage facility where premium bottles age in climate-controlled conditions amid atmospheric colonial-era architecture.",
+          "lat": -33.651,
+          "lng": -70.579
+        },
+        {
+          "id": "conc_5",
+          "text": "Estate Grounds Walk",
+          "detail": "Stroll through manicured gardens, native plants, and scenic pathways offering panoramic views of the Andes Mountains and the Maipo Valley.",
+          "lat": -33.6515,
+          "lng": -70.5785
+        },
+        {
+          "id": "conc_6",
+          "text": "Wine and Food Pairing",
+          "detail": "Curated multi-course lunch or dinner at the estate restaurant pairing Concha y Toro wines with Chilean cuisine prepared by the vineyard's culinary team.",
+          "lat": -33.6512,
+          "lng": -70.5788
+        }
+      ],
+      "food": [
+        {
+          "id": "conc_f1",
+          "text": "Empanadas de Queso y Carne",
+          "detail": "Baked pastry pockets filled with ground beef, cheese, and onions, traditionally served at the vineyard restaurant as a Chilean appetizer paired with local wines."
+        },
+        {
+          "id": "conc_f2",
+          "text": "Pastel de Choclo",
+          "detail": "Traditional Chilean corn pie layered with ground beef, olives, and hard-boiled eggs topped with fresh corn puree, often featured in estate lunch menus."
+        },
+        {
+          "id": "conc_f3",
+          "text": "Congrio a la Maipucina",
+          "detail": "Local conger eel prepared with wine-based sauce using Concha y Toro wines, reflecting the vineyard's culinary integration of their own vintages."
+        },
+        {
+          "id": "conc_f4",
+          "text": "Cazuela de Ave",
+          "detail": "Traditional Chilean stew with chicken, potatoes, corn, and squash served in an earthenware bowl, commonly offered at the vineyard's dining establishments."
+        },
+        {
+          "id": "conc_f5",
+          "text": "Wine Tasting with Cheese Selection",
+          "detail": "Pairing of estate wines with Chilean artisanal cheeses from the Maipo region, showcasing local dairy producers alongside Concha y Toro's premium selections."
+        }
+      ],
+      "culture": [
+        {
+          "id": "conc_c1",
+          "text": "Dress Code for Tours",
+          "detail": "Wear comfortable closed-toe walking shoes and light layers, as vineyard temperatures vary and you may visit cool underground cellars regardless of season."
+        },
+        {
+          "id": "conc_c2",
+          "text": "Spanish Language Advantage",
+          "detail": "While tours are offered in English, staff and local workers primarily speak Spanish; learning basic wine terminology in Spanish enhances the tasting experience."
+        },
+        {
+          "id": "conc_c3",
+          "text": "Tipping Etiquette",
+          "detail": "Tipping is not obligatory but appreciated at 10% for guides and restaurant staff; it is typically added to bills in Chilean establishments or given directly for exceptional service."
+        },
+        {
+          "id": "conc_c4",
+          "text": "Wine Export Regulations",
+          "detail": "If purchasing wine at the vineyard, verify customs regulations for your home country; Concha y Toro can arrange international shipping but quantities and duties vary by destination."
+        }
+      ]
+    },
+    {
+      "id": "cajon_del_maipo",
+      "name": "Cajón del Maipo",
+      "nameIt": "Cajón del Maipo",
+      "lat": -33.7611,
+      "lng": -70.3117,
+      "type": "NATURE",
+      "description": "A stunning canyon about 45 kilometers south of Santiago featuring dramatic mountain scenery, hiking trails, river activities, and mountain villages along the Maipo River. It's the closest wilderness destination to the capital offering adventure activities and alpine landscape.",
+      "imageQueries": [
+        "Cajon del Maipo canyon",
+        "Maipo River canyon hiking"
+      ],
+      "activities": [
+        {
+          "id": "cajo_1",
+          "text": "Hiking to El Morado",
+          "detail": "Trek to this glaciated peak offering panoramic views of the Andes and access to pristine alpine lakes.",
+          "lat": -33.6456,
+          "lng": -70.3094
+        },
+        {
+          "id": "cajo_2",
+          "text": "White Water Rafting on the Maipo River",
+          "detail": "Navigate Class III and IV rapids through the canyon's narrow gorge for an adrenaline-filled experience.",
+          "lat": -33.6189,
+          "lng": -70.3567
+        },
+        {
+          "id": "cajo_3",
+          "text": "Visit San José de Maipo Village",
+          "detail": "Explore this charming mountain town with local artisan shops, restaurants, and access to waterfall trails.",
+          "lat": -33.6278,
+          "lng": -70.3778
+        },
+        {
+          "id": "cajo_4",
+          "text": "Rock Climbing at Cascada de las Ánimas",
+          "detail": "Scale natural rock formations and waterfalls in a scenic canyon setting with multiple difficulty levels.",
+          "lat": -33.6867,
+          "lng": -70.2956
+        },
+        {
+          "id": "cajo_5",
+          "text": "Horseback Riding Through Mountain Trails",
+          "detail": "Ride across Andean foothills and through river valleys with local guides familiar with traditional routes.",
+          "lat": -33.6345,
+          "lng": -70.3456
+        },
+        {
+          "id": "cajo_6",
+          "text": "Visit Cascada de la Leche",
+          "detail": "Hike to this milky-white waterfall fed by glacial meltwater, a moderate walk from the main road.",
+          "lat": -33.6501,
+          "lng": -70.2834
+        }
+      ],
+      "food": [
+        {
+          "id": "cajo_f1",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Local bakeries serve fresh baked empanadas filled with local cheese and wild mushrooms from the canyon."
+        },
+        {
+          "id": "cajo_f2",
+          "text": "Trout from the Maipo River",
+          "detail": "Fresh-caught or farm-raised trucha prepared grilled or fried, a signature dish at riverside restaurants."
+        },
+        {
+          "id": "cajo_f3",
+          "text": "Pastel de Choclo",
+          "detail": "This traditional Chilean corn pie is served in local fondas and combines corn, meat, and hard-boiled eggs."
+        },
+        {
+          "id": "cajo_f4",
+          "text": "Mote con Huesillo",
+          "detail": "A refreshing regional beverage of wheat grains with dried peaches, popular for its cooling properties in warmer months."
+        },
+        {
+          "id": "cajo_f5",
+          "text": "Asado Campestre",
+          "detail": "Argentinian-style grilled meats common at rural lodges and mountain restaurants, reflecting Andean ranch traditions."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cajo_c1",
+          "text": "Respect Mountain Weather Changes",
+          "detail": "Afternoon storms are common in the Andes; start hikes early and be prepared for rapid weather shifts and altitude effects."
+        },
+        {
+          "id": "cajo_c2",
+          "text": "Support Local Families and Lodges",
+          "detail": "Many accommodations and guides are family-run; booking directly supports small communities and preserves authentic experiences."
+        },
+        {
+          "id": "cajo_c3",
+          "text": "Spanish Language Helpful",
+          "detail": "While some guides speak English, learning basic Spanish phrases enhances interactions with locals in villages and rural areas."
+        },
+        {
+          "id": "cajo_c4",
+          "text": "Bring Cash for Small Vendors",
+          "detail": "Remote shops and street vendors in mountain villages often operate cash-only, so carry Chilean pesos for local purchases."
+        }
+      ]
+    },
+    {
+      "id": "pre_columbian_museum",
+      "name": "Chilean Museum of Pre-Columbian Art",
+      "nameIt": "Museo Chileno de Arte Precolombino",
+      "lat": -33.4389,
+      "lng": -70.6411,
+      "type": "LANDMARK",
+      "description": "A world-class museum housing one of the finest collections of pre-Columbian American artifacts, beautifully presented in an intimate setting near Plaza de Armas. It provides essential context for understanding Chile's indigenous heritage before Spanish conquest.",
+      "imageQueries": [
+        "Museo Precolombino Santiago",
+        "Pre-Columbian Art Museum Chile"
+      ],
+      "activities": [
+        {
+          "id": "pre__1",
+          "text": "Explore the Mapuche Collection",
+          "detail": "View an extensive display of Mapuche textiles, ceramics, and metalwork that illustrates the sophisticated artistic traditions of Chile's largest indigenous group.",
+          "lat": -33.4372,
+          "lng": -70.6374
+        },
+        {
+          "id": "pre__2",
+          "text": "Study Atacama Desert Artifacts",
+          "detail": "Examine preserved textiles, mummies, and pottery from the hyper-arid Atacama region, some dating back over 7,000 years, showcasing adaptation to extreme environments.",
+          "lat": -33.4372,
+          "lng": -70.6374
+        },
+        {
+          "id": "pre__3",
+          "text": "Examine Easter Island (Rapa Nui) Moai and Rongorongo",
+          "detail": "Inspect original moai statues and the mysterious rongorongo tablets, providing rare context for understanding this isolated Polynesian culture's artistic achievements.",
+          "lat": -33.4372,
+          "lng": -70.6374
+        },
+        {
+          "id": "pre__4",
+          "text": "Attend a Guided Tour in Spanish or English",
+          "detail": "Join museum docents who provide detailed historical context and indigenous perspectives often unavailable in self-guided visits.",
+          "lat": -33.4372,
+          "lng": -70.6374
+        },
+        {
+          "id": "pre__5",
+          "text": "Visit the Inca Textiles and Metalwork Section",
+          "detail": "Admire intricately woven Inca tunics and finely crafted gold and silver objects that demonstrate the empire's artistic mastery in the Chilean territories.",
+          "lat": -33.4372,
+          "lng": -70.6374
+        },
+        {
+          "id": "pre__6",
+          "text": "View the Chinchorro Mummies",
+          "detail": "See some of the world's oldest known artificially mummified human remains, predating Egyptian mummies by thousands of years and revealing advanced preservation knowledge.",
+          "lat": -33.4372,
+          "lng": -70.6374
+        }
+      ],
+      "food": [
+        {
+          "id": "pre__f1",
+          "text": "Empanadas de Pino",
+          "detail": "A traditional Chilean baked pastry filled with seasoned ground beef, onions, olives, and hard-boiled eggs, commonly found at cafés near Plaza de Armas."
+        },
+        {
+          "id": "pre__f2",
+          "text": "Pastel de Choclo",
+          "detail": "A savory pie with a ground corn topping and filling of ground beef, chicken, onions, and hard-boiled eggs, representing classic Chilean comfort food."
+        },
+        {
+          "id": "pre__f3",
+          "text": "Completo Chileno",
+          "detail": "A loaded hot dog topped with avocado, tomato, mayonnaise, and sauerkraut, a quintessential street food available throughout Santiago's downtown."
+        },
+        {
+          "id": "pre__f4",
+          "text": "Café con Leche and Sopaipillas",
+          "detail": "A Chilean coffee break featuring warm milk coffee paired with sweet fried pastries, a beloved afternoon tradition in local cafés."
+        },
+        {
+          "id": "pre__f5",
+          "text": "Ceviche",
+          "detail": "Fresh fish cured in citrus juice and mixed with onions, cilantro, and chili peppers, reflecting Peru's influence on Chilean coastal cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pre__c1",
+          "text": "Respect the Sacred Context",
+          "detail": "Many artifacts hold spiritual significance to indigenous communities; approach displays thoughtfully and avoid dismissive attitudes toward beliefs different from your own."
+        },
+        {
+          "id": "pre__c2",
+          "text": "Arrive Early or Attend Quieter Hours",
+          "detail": "The museum's intimate gallery spaces become crowded midday, so visiting Tuesday–Thursday mornings offers a more contemplative experience."
+        },
+        {
+          "id": "pre__c3",
+          "text": "Learn Basic Spanish Indigenous Terms",
+          "detail": "Familiarizing yourself with words like 'ceramica' (ceramics), 'textil' (textile), and indigenous group names enhances appreciation when reading bilingual display labels."
+        },
+        {
+          "id": "pre__c4",
+          "text": "Photography Policies Vary by Exhibition",
+          "detail": "While many areas permit photography without flash, some special exhibitions restrict it; always check signage or ask staff before photographing artifacts."
+        }
+      ]
+    },
+    {
+      "id": "pomaire",
+      "name": "Pomaire",
+      "nameIt": "Pomaire",
+      "lat": -33.6106,
+      "lng": -71.0644,
+      "type": "TOWN",
+      "description": "A traditional pottery village west of Santiago famous for handcrafted ceramics, rustic restaurants, and authentic Chilean rural culture. It offers a charming day trip to experience local artisanal traditions and regional cuisine.",
+      "imageQueries": [
+        "Pomaire pottery village",
+        "Pomaire Chile ceramics"
+      ],
+      "activities": [
+        {
+          "id": "poma_1",
+          "text": "Pottery workshops and studios",
+          "detail": "Visit artisan workshops throughout the village where potters demonstrate traditional hand-throwing techniques and sell handcrafted ceramic pieces directly from their studios.",
+          "lat": -33.3833,
+          "lng": -71.25
+        },
+        {
+          "id": "poma_2",
+          "text": "Ceramic museum and gallery",
+          "detail": "Explore Pomaire's small museums showcasing the history of local pottery traditions, from pre-Columbian influences to contemporary artisan work."
+        },
+        {
+          "id": "poma_3",
+          "text": "Main plaza stroll",
+          "detail": "Walk through Pomaire's central plaza lined with craft shops, galleries, and local vendors selling ceramics, textiles, and traditional wares.",
+          "lat": -33.384,
+          "lng": -71.2505
+        },
+        {
+          "id": "poma_4",
+          "text": "Rustic restaurant dining",
+          "detail": "Experience traditional Chilean rural hospitality at family-run restaurants serving homemade cuisine in charming, decorated settings with local ceramic dishware.",
+          "lat": -33.3835,
+          "lng": -71.251
+        },
+        {
+          "id": "poma_5",
+          "text": "Pottery purchase and commission",
+          "detail": "Commission custom ceramic pieces from local artisans or purchase handmade bowls, plates, and decorative items as authentic souvenirs of the village."
+        },
+        {
+          "id": "poma_6",
+          "text": "Countryside walks",
+          "detail": "Take guided or self-guided walks through the surrounding rural landscape to appreciate the agricultural setting that sustains Pomaire's artisan community."
+        }
+      ],
+      "food": [
+        {
+          "id": "poma_f1",
+          "text": "Pastel de choclo",
+          "detail": "A savory corn pie layered with ground meat, onions, olives, and hard-boiled eggs, topped with fresh corn paste—a classic Chilean comfort dish served warm."
+        },
+        {
+          "id": "poma_f2",
+          "text": "Cazuela de ave",
+          "detail": "A traditional stew of chicken, potatoes, corn, and squash cooked slowly in a clay cazuela pot and seasoned with local herbs and spices."
+        },
+        {
+          "id": "poma_f3",
+          "text": "Empanadas de pino",
+          "detail": "Hand-filled pastries with ground beef, onions, olives, raisins, and hard-boiled egg—a beloved Chilean street food sold fresh in the village restaurants."
+        },
+        {
+          "id": "poma_f4",
+          "text": "Humitas",
+          "detail": "Fresh corn tamales steamed in corn husks with cheese and basil, a seasonal specialty that showcases Pomaire's access to local produce."
+        },
+        {
+          "id": "poma_f5",
+          "text": "Homemade Chilean wine",
+          "detail": "Sample local or regional wines from nearby vineyards paired with rustic meals in Pomaire's traditional restaurants, often served in handmade ceramic cups."
+        },
+        {
+          "id": "poma_f6",
+          "text": "Chicha",
+          "detail": "A traditional fermented drink made from corn or fruit, served at local establishments as an authentic representation of rural Chilean culture and hospitality."
+        }
+      ],
+      "culture": [
+        {
+          "id": "poma_c1",
+          "text": "Pottery is family heritage",
+          "detail": "Many Pomaire families have practiced ceramics for generations, and artisans are proud to share their techniques; respectfully ask before photographing work in progress."
+        },
+        {
+          "id": "poma_c2",
+          "text": "Visit on weekends for vibrant atmosphere",
+          "detail": "Pomaire is most lively on Saturdays and Sundays when Santiago residents visit; weekdays are quieter but offer a more intimate, authentic village experience."
+        },
+        {
+          "id": "poma_c3",
+          "text": "Handcrafted items make meaningful gifts",
+          "detail": "Purchasing directly from artisans supports family livelihoods; ceramic pieces serve as authentic souvenirs that reflect Pomaire's artisanal traditions and rural character."
+        },
+        {
+          "id": "poma_c4",
+          "text": "Spanish helpful but not essential",
+          "detail": "While English is limited in the village, locals appreciate visitors' efforts to communicate in Spanish, and gestures and smiles bridge language gaps in this welcoming community."
+        }
+      ]
+    },
+    {
+      "id": "la_parva_ski",
+      "name": "La Parva Ski Resort",
+      "nameIt": "Centro de Esquí La Parva",
+      "lat": -33.3506,
+      "lng": -70.2622,
+      "type": "LANDMARK",
+      "description": "A premier ski resort in the Andes mountains just 50 kilometers from Santiago, offering winter sports and summer mountain activities with reliable snow and modern facilities. It's ideal for skiing, snowboarding, and enjoying alpine scenery during the southern hemisphere winter.",
+      "imageQueries": [
+        "La Parva ski resort",
+        "La Parva Chile skiing"
+      ],
+      "activities": [
+        {
+          "id": "la_p_1",
+          "text": "Downhill Skiing",
+          "detail": "La Parva offers well-groomed ski runs across multiple terrain levels with reliable Andean snow from June through September, catering to beginners through advanced skiers.",
+          "lat": -33.3667,
+          "lng": -70.3167
+        },
+        {
+          "id": "la_p_2",
+          "text": "Snowboarding",
+          "detail": "Dedicated snowboard terrain and parks provide thrilling runs and freestyle features for all skill levels on La Parva's varied slopes."
+        },
+        {
+          "id": "la_p_3",
+          "text": "Chairlift Scenic Rides",
+          "detail": "Modern chairlifts ascend to alpine vistas overlooking the Andes and Santiago valley, offering breathtaking panoramic views even for non-skiers."
+        },
+        {
+          "id": "la_p_4",
+          "text": "Mountain Hiking",
+          "detail": "Summer season brings accessible alpine hiking trails through wildflower meadows and rocky peaks surrounding the resort's upper elevations.",
+          "lat": -33.3667,
+          "lng": -70.3167
+        },
+        {
+          "id": "la_p_5",
+          "text": "Ski Lessons",
+          "detail": "Professional instructors at La Parva offer personalized lessons in Spanish and English for all ages and abilities."
+        },
+        {
+          "id": "la_p_6",
+          "text": "Cross-Country Skiing",
+          "detail": "Groomed Nordic trails wind through high-altitude terrain, offering peaceful alternatives to downhill skiing."
+        }
+      ],
+      "food": [
+        {
+          "id": "la_p_f1",
+          "text": "Cazuela",
+          "detail": "This hearty Chilean stew with meat, potatoes, corn, and squash is served warm in earthenware bowls at mountain lodges to combat cold weather."
+        },
+        {
+          "id": "la_p_f2",
+          "text": "Completos",
+          "detail": "Chilean loaded hot dogs topped with avocado, tomato, onion, and mayo provide quick, affordable fuel between ski runs."
+        },
+        {
+          "id": "la_p_f3",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Baked pastries filled with melted cheese and mushrooms are a popular warm snack sold at the base lodge and mountain cafés."
+        },
+        {
+          "id": "la_p_f4",
+          "text": "Fresh Trout",
+          "detail": "Local Andean trout prepared grilled or sautéed features on resort restaurant menus, showcasing regional mountain cuisine."
+        },
+        {
+          "id": "la_p_f5",
+          "text": "Sopaipillas",
+          "detail": "Fried dough pastries served with pebre sauce or hot chocolate are traditional Chilean treats available at the resort's food vendors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "la_p_c1",
+          "text": "Spanish Language Preference",
+          "detail": "While English is spoken at main facilities, learning basic Spanish phrases enhances interaction with staff and local guides."
+        },
+        {
+          "id": "la_p_c2",
+          "text": "Southern Hemisphere Winter Season",
+          "detail": "La Parva operates during the austral winter from June through September, opposite to Northern Hemisphere ski seasons, requiring visitors to plan accordingly."
+        },
+        {
+          "id": "la_p_c3",
+          "text": "Altitude Acclimatization",
+          "detail": "The resort sits at approximately 3,200 meters elevation; arriving a day early and staying hydrated helps visitors adjust to thin mountain air."
+        },
+        {
+          "id": "la_p_c4",
+          "text": "UV Protection Essential",
+          "detail": "High Andean altitude combined with reflective snow intensifies UV exposure, making sunscreen and sunglasses non-negotiable even on cloudy days."
+        }
+      ]
+    },
+    {
+      "id": "patio_bellavista",
+      "name": "Patio Bellavista",
+      "nameIt": "Patio Bellavista",
+      "lat": -33.4408,
+      "lng": -70.666,
+      "type": "LANDMARK",
+      "description": "A cultural complex in the Bellavista neighborhood featuring local artisan shops, traditional restaurants, and galleries celebrating Chilean folk art and crafts. It's a curated space to experience Chilean culture, food, and handmade goods in one accessible location.",
+      "imageQueries": [
+        "Patio Bellavista Santiago",
+        "Bellavista cultural market"
+      ],
+      "activities": [
+        {
+          "id": "pati_1",
+          "text": "Browse Artisan Shops",
+          "detail": "Explore the dozens of independent stalls selling handcrafted ceramics, textiles, wooden items, and traditional Chilean souvenirs from local makers."
+        },
+        {
+          "id": "pati_2",
+          "text": "Gallery Hopping",
+          "detail": "Visit the various small galleries throughout the complex showcasing contemporary Chilean art, folk art, and rotating exhibitions by regional artists."
+        },
+        {
+          "id": "pati_3",
+          "text": "Live Music Performances",
+          "detail": "Catch traditional Chilean folk music, cueca dancing, or contemporary performances that frequently occur in the central courtyard during evenings and weekends."
+        },
+        {
+          "id": "pati_4",
+          "text": "Watch Artisans at Work",
+          "detail": "Observe local craftspeople creating pottery, weaving, and other traditional crafts in open studios where you can purchase directly from makers."
+        },
+        {
+          "id": "pati_5",
+          "text": "Explore Murals and Street Art",
+          "detail": "Photograph and appreciate the vibrant murals and street art covering the complex's walls, reflecting Bellavista's bohemian artistic heritage."
+        },
+        {
+          "id": "pati_6",
+          "text": "Plaza Central Relaxation",
+          "detail": "Sit in the central courtyard among local visitors, street performers, and vendors for an authentic neighborhood gathering experience."
+        }
+      ],
+      "food": [
+        {
+          "id": "pati_f1",
+          "text": "Empanadas de Pino",
+          "detail": "Baked pastry pockets filled with seasoned ground beef, onions, olives, and hard-boiled eggs, a quintessential Chilean savory snack sold at multiple food stalls."
+        },
+        {
+          "id": "pati_f2",
+          "text": "Pastel de Choclo",
+          "detail": "Corn pie topped with a sweet corn paste and filled with meat, onions, and olives, representing traditional Chilean comfort food found at casual restaurants here."
+        },
+        {
+          "id": "pati_f3",
+          "text": "Completo Chileno",
+          "detail": "An elaborate Chilean hot dog loaded with avocado, tomato, onions, mayonnaise, and mustard, a street food specialty readily available from vendors."
+        },
+        {
+          "id": "pati_f4",
+          "text": "Cazuela de Marisco",
+          "detail": "Seafood stew in a creamy sauce featuring mixed shellfish and fish, showcasing Chile's coastal ingredients at the complex's traditional restaurants."
+        },
+        {
+          "id": "pati_f5",
+          "text": "Anticuchos",
+          "detail": "Grilled meat skewers marinated in spices and vinegar, a popular appetizer or snack reflecting Peruvian-influenced Chilean cuisine."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pati_c1",
+          "text": "Respect Artisan Spaces",
+          "detail": "Many stalls are family-run and small, so approach purchases and interactions with genuine interest rather than aggressive haggling."
+        },
+        {
+          "id": "pati_c2",
+          "text": "Visit Evening and Weekends",
+          "detail": "The complex comes most alive after 5 PM and on weekends when live music, larger crowds, and more vendors create the authentic bohemian Bellavista atmosphere."
+        },
+        {
+          "id": "pati_c3",
+          "text": "Cash is Preferred",
+          "detail": "While some shops accept cards, many small artisan vendors and food stalls operate primarily on cash, so bring Chilean pesos."
+        },
+        {
+          "id": "pati_c4",
+          "text": "Embrace the Bohemian Vibe",
+          "detail": "Bellavista is Santiago's bohemian neighborhood; expect casual dress, lingering conversations, and a relaxed pace rather than rushed tourism."
+        }
+      ]
+    },
+    {
+      "id": "cerro_santa_lucia",
+      "name": "Santa Lucía Hill",
+      "nameIt": "Cerro Santa Lucía",
+      "lat": -33.4355,
+      "lng": -70.6375,
+      "type": "LANDMARK",
+      "description": "A smaller historic hill in downtown Santiago featuring a restored colonial fortress, gardens, and viewpoints overlooking the city center and Andes. It's easily accessible and offers charming walking paths with intimate city vistas.",
+      "imageQueries": [
+        "Cerro Santa Lucia Santiago",
+        "Santa Lucia fortress views"
+      ],
+      "activities": [
+        {
+          "id": "cerr_1",
+          "text": "Fortín Hidalgo Fortress",
+          "detail": "Explore the restored colonial military structure at the summit with its stone walls and period cannons offering insight into Santiago's 16th-century defense.",
+          "lat": -33.4372,
+          "lng": -70.6345
+        },
+        {
+          "id": "cerr_2",
+          "text": "Viewpoint Mirador",
+          "detail": "Stand at the hilltop overlook to capture panoramic views of downtown Santiago, the Mapocho River, and the snow-capped Andes Mountains in the distance.",
+          "lat": -33.4375,
+          "lng": -70.6343
+        },
+        {
+          "id": "cerr_3",
+          "text": "Botanical Gardens Walk",
+          "detail": "Stroll through the manicured gardens featuring native Chilean plants, flowering trees, and shaded pathways that wind through the hill's landscaped terraces.",
+          "lat": -33.438,
+          "lng": -70.635
+        },
+        {
+          "id": "cerr_4",
+          "text": "Terraced Climbing Paths",
+          "detail": "Navigate the winding stone staircases and paved walking trails that zigzag up the hillside, passing through intimate gardens and smaller viewing platforms.",
+          "lat": -33.4385,
+          "lng": -70.6355
+        },
+        {
+          "id": "cerr_5",
+          "text": "Patio de Armas Central Plaza",
+          "detail": "Visit the main courtyard area within the fortress grounds where colonial-era gatherings once took place and local events are occasionally held.",
+          "lat": -33.4373,
+          "lng": -70.6346
+        },
+        {
+          "id": "cerr_6",
+          "text": "Equestrian Monument",
+          "detail": "View the historic equestrian statue and monuments dedicated to Pedro de Valdivia, the Spanish conquistador who founded Santiago.",
+          "lat": -33.437,
+          "lng": -70.634
+        }
+      ],
+      "food": [
+        {
+          "id": "cerr_f1",
+          "text": "Completo Chileno",
+          "detail": "A loaded Chilean hot dog topped with avocado, tomato, onion, and mayo—widely available from street vendors at the hill's entrance."
+        },
+        {
+          "id": "cerr_f2",
+          "text": "Empanadas de Queso y Champiñones",
+          "detail": "Flaky pastry parcels filled with melted cheese and sautéed mushrooms, a popular handheld snack sold near the ticket office."
+        },
+        {
+          "id": "cerr_f3",
+          "text": "Mote con Huesillo",
+          "detail": "A traditional Chilean beverage combining wheat kernels and dried peach, refreshingly served cold and perfect for sipping while enjoying hilltop views."
+        },
+        {
+          "id": "cerr_f4",
+          "text": "Pastel de Choclo",
+          "detail": "A savory corn pie with ground beef and chicken topped with a creamy corn layer—a Chilean classic available at nearby cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cerr_c1",
+          "text": "Visit Early Morning",
+          "detail": "Arrive before 9 AM to experience the hill with fewer crowds and enjoy clearer Andes views before afternoon haze builds."
+        },
+        {
+          "id": "cerr_c2",
+          "text": "Wear Comfortable Shoes",
+          "detail": "The steep cobblestone stairs and uneven paths require sturdy footwear; locals and regulars always navigate in proper walking shoes."
+        },
+        {
+          "id": "cerr_c3",
+          "text": "Respect Opening Hours",
+          "detail": "The hill has official visiting hours (typically 9 AM to 8 PM) and may close for maintenance or special events, so check ahead."
+        },
+        {
+          "id": "cerr_c4",
+          "text": "Photo Etiquette at Views",
+          "detail": "While selfies and photography are encouraged, locals appreciate visitors who take time to simply observe the city rather than constantly filming."
+        }
+      ]
+    },
+    {
+      "id": "santiago",
+      "name": "Santiago",
+      "nameLocal": "Santiago",
+      "type": "CITY",
+      "lat": -33.8688,
+      "lng": -51.5305,
+      "description": "Chile's capital and largest city, serving as the economic and cultural heart of the nation. It attracts millions of visitors annually for its museums, restaurants, nightlife, and proximity to the Andes and Pacific coast.",
+      "activities": [
+        {
+          "id": "sant_1",
+          "text": "Explore Palacio de La Moneda",
+          "detail": "Tour the neoclassical presidential palace and its surrounding plazas in the heart of downtown Santiago.",
+          "lat": -33.4387,
+          "lng": -70.6142
+        },
+        {
+          "id": "sant_2",
+          "text": "Visit Museo Chileno de Arte Precolombino",
+          "detail": "Discover one of the world's finest collections of pre-Columbian artifacts spanning Mesoamerica and South America.",
+          "lat": -33.4397,
+          "lng": -70.663
+        },
+        {
+          "id": "sant_3",
+          "text": "Climb San Cristóbal Hill",
+          "detail": "Hike or take the funicular up this iconic urban park for panoramic views of the city and the Andes.",
+          "lat": -33.4264,
+          "lng": -70.6314
+        },
+        {
+          "id": "sant_4",
+          "text": "Wander Lastarria Neighborhood",
+          "detail": "Stroll through bohemian streets lined with galleries, cafés, bookstores, and colonial architecture in this cultural hub.",
+          "lat": -33.4399,
+          "lng": -70.6405
+        },
+        {
+          "id": "sant_5",
+          "text": "Tour Cerro Santa Lucía",
+          "detail": "Climb this historic hill in the city center for views and to visit the small chapel at its summit.",
+          "lat": -33.4355,
+          "lng": -70.6453
+        },
+        {
+          "id": "sant_6",
+          "text": "Experience Mercado Central",
+          "detail": "Browse this bustling fish and produce market where locals shop and street-side restaurants serve fresh seafood.",
+          "lat": -33.4458,
+          "lng": -70.6628
+        }
+      ],
+      "food": [
+        {
+          "id": "sant_f1",
+          "text": "Pastel de Choclo",
+          "detail": "A savory pie filled with ground beef, chicken, onions, and olives, topped with a sweet corn custard crust."
+        },
+        {
+          "id": "sant_f2",
+          "text": "Empanadas",
+          "detail": "Crispy baked or fried pastries stuffed with cheese, meat, or seafood, sold throughout the city as quick street food."
+        },
+        {
+          "id": "sant_f3",
+          "text": "Ceviche",
+          "detail": "Fresh raw fish or seafood cured in lime juice with cilantro and chilies, a popular coastal-influenced dish in Santiago's restaurants."
+        },
+        {
+          "id": "sant_f4",
+          "text": "Cazuela",
+          "detail": "A comforting stew-like dish with meat, potatoes, corn, and pumpkin, served in an earthenware bowl."
+        },
+        {
+          "id": "sant_f5",
+          "text": "Completo",
+          "detail": "A loaded hot dog topped with avocado, tomato, onions, and mayo, a beloved Santiago street food."
+        }
+      ],
+      "culture": [
+        {
+          "id": "sant_c1",
+          "text": "Greetings and personal space",
+          "detail": "Chileans typically greet with a single cheek kiss and handshake; they value warmth but maintain formal distance in business settings."
+        },
+        {
+          "id": "sant_c2",
+          "text": "Dining customs",
+          "detail": "The main meal is lunch (almuerzo) around 1–2 pm; dinner (cena) is lighter and eaten late, around 8–9 pm."
+        },
+        {
+          "id": "sant_c3",
+          "text": "Tipping expectations",
+          "detail": "Tipping is not mandatory but rounding up or leaving 10% is appreciated in restaurants; taxi drivers do not expect tips."
+        },
+        {
+          "id": "sant_c4",
+          "text": "Spanish language use",
+          "detail": "While English is spoken in tourist areas, learning basic Spanish phrases will earn respect and enhance your experience in local neighborhoods."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Pujol",
+      "address": "Avenida Lastarria 70, Lastarria",
+      "neighbourhood": "Ñuñoa",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€€",
+      "description": "One of Latin America's most acclaimed restaurants showcasing innovative Chilean cuisine with seasonal ingredients and artistic presentation.",
+      "mustOrder": "Deconstructed Empanada",
+      "lat": -33.4286,
+      "lng": -70.6088
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Smoque",
+      "address": "Calle Santa Magdalena 314",
+      "neighbourhood": "Providencia",
+      "cuisine": "BBQ & Grill",
+      "priceRange": "€€€",
+      "description": "Award-winning barbecue restaurant featuring slow-smoked meats and an extensive wine list in an elegant industrial setting.",
+      "mustOrder": "Smoked Brisket",
+      "lat": -33.4236,
+      "lng": -70.5936
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Bocanariz",
+      "address": "Avenida Lastarria 98",
+      "neighbourhood": "Ñuñoa",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€€",
+      "description": "Vibrant Spanish tapas bar with over 300 wines and a lively atmosphere perfect for sharing plates and mingling.",
+      "mustOrder": "Jamón Ibérico with Pan con Tomate",
+      "lat": -33.4291,
+      "lng": -70.6082
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Happening",
+      "address": "Lastarria 44",
+      "neighbourhood": "Lastarria",
+      "cuisine": "Modern International",
+      "priceRange": "€€€",
+      "description": "Trendy restaurant in the bohemian Lastarria neighborhood offering creative fusion cuisine with artistic plating and craft cocktails.",
+      "mustOrder": "Pan-seared Scallops",
+      "lat": -33.4276,
+      "lng": -70.6098
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Astrid y Gastón",
+      "address": "Antonio López de Bello 100",
+      "neighbourhood": "Providencia",
+      "cuisine": "Peruvian-Chilean Fusion",
+      "priceRange": "€€€€",
+      "description": "Sophisticated dining experience blending Peruvian and Chilean culinary traditions with emphasis on fresh seafood and local ingredients.",
+      "mustOrder": "Ceviche Mixto",
+      "lat": -33.4165,
+      "lng": -70.5936
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Peluquería",
+      "address": "Calle Miguel Claro 2470",
+      "neighbourhood": "Providencia",
+      "cuisine": "Modern Chilean",
+      "priceRange": "€€€",
+      "description": "Intimate neighborhood restaurant in a converted barbershop serving refined Chilean fare with impeccable technique and local sourcing.",
+      "mustOrder": "Braised Short Ribs",
+      "lat": -33.4142,
+      "lng": -70.5884
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Punto Verde",
+      "address": "Pasaje de la Fruta, La Vega Central",
+      "neighbourhood": "Centro",
+      "cuisine": "Vegetarian Chilean",
+      "priceRange": "€",
+      "description": "Casual vegetarian spot in the iconic central market offering affordable, fresh and wholesome plant-based Chilean comfort food.",
+      "mustOrder": "Legume Stew with Corn Bread",
+      "lat": -33.4378,
+      "lng": -70.6646
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Silvestre",
+      "address": "Santos Dumont 520",
+      "neighbourhood": "Independencia",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Farm-to-table restaurant emphasizing foraged ingredients and sustainable practices with a minimalist Nordic-inspired aesthetic.",
+      "mustOrder": "Wild Mushroom Risotto",
+      "lat": -33.4088,
+      "lng": -70.6456
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Contento",
+      "address": "Avenida Italia 0155",
+      "neighbourhood": "Ñuñoa",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Warm, family-run Italian trattoría serving house-made pasta and classic dishes with unpretentious charm and reasonable prices.",
+      "mustOrder": "Handmade Tagliatelle al Ragù",
+      "lat": -33.4412,
+      "lng": -70.6015
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Machu Picchu",
+      "address": "Avenida Libertador Bernardo O'Higgins 142",
+      "neighbourhood": "Estación Central",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Long-standing Peruvian institution near the central station delivering authentic flavors and generous portions of coastal and highland dishes.",
+      "mustOrder": "Causa Limeña",
+      "lat": -33.4465,
+      "lng": -70.6702
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Garage Pizzería",
+      "address": "Lastarria 70",
+      "neighbourhood": "Lastarria",
+      "cuisine": "Italian Pizza",
+      "priceRange": "€€",
+      "description": "Casual wood-fired pizzeria with creative toppings and quality ingredients in the creative heart of Lastarria neighborhood.",
+      "mustOrder": "Pizza Quattro Formaggi",
+      "lat": -33.4286,
+      "lng": -70.6088
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Fuente Alemana",
+      "address": "Avenida Libertador Bernardo O'Higgins 1138",
+      "neighbourhood": "Centro",
+      "cuisine": "Chilean Casual",
+      "priceRange": "€",
+      "description": "Historic counter-service sandwich shop since 1927 serving enormous completos and sandwiches—an institution for quick, affordable eating.",
+      "mustOrder": "Completo",
+      "lat": -33.4389,
+      "lng": -70.6547
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Sushi Club",
+      "address": "Calle la Concepción 309",
+      "neighbourhood": "Providencia",
+      "cuisine": "Japanese Fusion",
+      "priceRange": "€€€",
+      "description": "Upscale sushi restaurant blending traditional Japanese techniques with Chilean ingredients for a distinctive Pacific Rim experience.",
+      "mustOrder": "Chilean Sea Urchin Nigiri",
+      "lat": -33.4208,
+      "lng": -70.5906
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "La Mar",
+      "address": "Calle Merced 294",
+      "neighbourhood": "Centro",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Family-friendly seafood restaurant in the historic center offering fresh fish, shellfish and traditional Chilean coastal preparations.",
+      "mustOrder": "Machas a la Parmesana",
+      "lat": -33.4399,
+      "lng": -70.6596
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Cantera",
+      "address": "Avenida Lastarria 55, Parque Forestal",
+      "neighbourhood": "Ñuñoa",
+      "cuisine": "Steakhouse",
+      "priceRange": "€€€",
+      "description": "Elegant Argentine-style steakhouse near the Parque Forestal with premium beef cuts and wine pairings in refined surroundings.",
+      "mustOrder": "Grass-fed Rib Eye",
+      "lat": -33.4271,
+      "lng": -70.6102
+    }
+  ]
+}

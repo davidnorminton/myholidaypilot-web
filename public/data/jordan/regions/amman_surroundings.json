@@ -1,0 +1,421 @@
+{
+  "id": "amman_surroundings",
+  "name": "Amman Surroundings",
+  "nameIt": "ضواحي عمّان",
+  "capital": "Amman",
+  "lat": 31.85,
+  "lng": 35.95,
+  "emoji": "🏘️",
+  "colour": "ffcddc39",
+  "boundingBox": {
+    "north": 32.05,
+    "south": 31.65,
+    "east": 36.15,
+    "west": 35.75
+  },
+  "history": "The Amman Surroundings have been inhabited since ancient times, with evidence of settlement dating back to the Bronze Age. During the Hellenistic period, the region formed part of the broader Levantine landscape under various empires, including the Romans and Byzantines. The area experienced significant growth and transformation following the establishment of modern Amman as the capital of the Hashemite Kingdom of Jordan in the early 20th century. The suburban expansion accelerated dramatically after 1948 and continued through subsequent decades as rural communities integrated into the metropolitan sphere.",
+  "culturalNotes": "The surrounding areas of Amman retain a blend of traditional Levantine culture and modern urban influences, with close-knit family networks and community bonds remaining central to daily life. Traditional hospitality, expressed through the sharing of mint tea and homemade meals, remains an important cultural practice among residents. Many neighborhoods preserve craft traditions, local markets, and seasonal celebrations that reflect both Arab heritage and the cosmopolitan character that migration and urbanization have brought to the region.",
+  "bestTimeToVisit": "October to April for comfortable temperatures exploring nearby Bedouin villages and Roman sites.",
+  "languageNotes": "The local dialect spoken in Amman's surroundings is Levantine Arabic, specifically the Jordanian variant, which differs in pronunciation and vocabulary from Modern Standard Arabic. Useful phrases include \"Ahlan wa sahlan\" (welcome), \"Shukran kteer\" (thank you very much), and \"Bismillah\" (in the name of God, said before eating).",
+  "generatedAt": "2026-07-22T22:15:30.659Z",
+  "placeCount": 2,
+  "places": [
+    {
+      "id": "zarqa",
+      "name": "Zarqa",
+      "nameIt": "الزرقاء",
+      "lat": 32.0755,
+      "lng": 36.0883,
+      "type": "CITY",
+      "description": "Jordan's third-largest city and an important industrial hub located northeast of Amman. It serves as a gateway to northern Jordan and offers authentic local markets, historical sites, and proximity to the Dead Sea and Jerash.",
+      "imageQueries": [
+        "Zarqa city Jordan",
+        "Zarqa market bazaar"
+      ],
+      "activities": [
+        {
+          "id": "zarq_1",
+          "text": "Zarqa Main Souk",
+          "detail": "A bustling traditional marketplace where locals shop for textiles, spices, and everyday goods, offering an authentic glimpse into daily life in Jordan's industrial heartland.",
+          "lat": 32.0551,
+          "lng": 36.0873
+        },
+        {
+          "id": "zarq_2",
+          "text": "Prince Hassan Bin Talal Park",
+          "detail": "A modern recreational park featuring green spaces, walking paths, and children's play areas that serves as a gathering spot for local families.",
+          "lat": 32.0456,
+          "lng": 36.0921
+        },
+        {
+          "id": "zarq_3",
+          "text": "Zarqa Martyrs Memorial",
+          "detail": "An important monument honoring those who died in Jordan's conflicts, reflecting the city's significant role in the nation's modern history.",
+          "lat": 32.0503,
+          "lng": 36.0856
+        },
+        {
+          "id": "zarq_4",
+          "text": "Zarqa Museum",
+          "detail": "A small museum showcasing the city's industrial heritage, local artifacts, and historical development from Bedouin settlement to modern industrial center.",
+          "lat": 32.0528,
+          "lng": 36.0892
+        },
+        {
+          "id": "zarq_5",
+          "text": "Day trip to Jerash",
+          "detail": "Just 40 kilometers north, the well-preserved Roman city of Jerash is easily accessible as a half-day excursion from Zarqa.",
+          "lat": 32.2755,
+          "lng": 35.8868
+        }
+      ],
+      "food": [
+        {
+          "id": "zarq_f1",
+          "text": "Zarqa-style Mansaf",
+          "detail": "A hearty local version of Jordan's national dish featuring lamb cooked in a tangy yogurt sauce with pine nuts and flatbread, often prepared for special occasions."
+        },
+        {
+          "id": "zarq_f2",
+          "text": "Falafel and Hummus from local vendors",
+          "detail": "Fresh, crispy falafel and creamy hummus sold at streetside stalls throughout the souk, best enjoyed with warm pita bread and tahini sauce."
+        },
+        {
+          "id": "zarq_f3",
+          "text": "Zarqa Knafeh",
+          "detail": "A local bakery specialty of shredded pastry filled with melted cheese and soaked in sweet syrup, particularly good at dawn from family-run bakeries."
+        },
+        {
+          "id": "zarq_f4",
+          "text": "Grilled offal and mixed meats",
+          "detail": "Popular at local grill shops, featuring freshly grilled liver, kidney, and mixed cuts served with onions and spices, reflecting the city's working-class food culture."
+        },
+        {
+          "id": "zarq_f5",
+          "text": "Turkish coffee in traditional cafés",
+          "detail": "Strong, finely ground coffee served in small cups at neighborhood cafés where locals gather, often accompanied by traditional sweets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zarq_c1",
+          "text": "Respect prayer times",
+          "detail": "Zarqa is a conservative city; some shops close during prayer times (five times daily), and visitors should dress modestly, particularly away from main commercial areas."
+        },
+        {
+          "id": "zarq_c2",
+          "text": "Greet shopkeepers warmly",
+          "detail": "Bargaining and friendly conversation are expected in the souk, and taking time to chat with vendors before purchasing is considered respectful and normal practice."
+        },
+        {
+          "id": "zarq_c3",
+          "text": "Industrial city pride",
+          "detail": "Zarqa residents are proud of their city's role as Jordan's industrial and working-class center, so showing genuine interest in local businesses and manufacturing heritage is appreciated."
+        }
+      ]
+    },
+    {
+      "id": "aqaba",
+      "name": "Aqaba",
+      "nameIt": "العقبة",
+      "lat": 29.5269,
+      "lng": 35.0134,
+      "type": "COASTAL",
+      "description": "Jordan's only coastal city on the Red Sea, offering world-class diving and snorkeling opportunities among vibrant coral reefs. Located south of Amman, it provides beach resort facilities, water sports, and a gateway to nearby Wadi Rum and Petra.",
+      "imageQueries": [
+        "Aqaba Red Sea diving coral",
+        "Aqaba Jordan beach resort"
+      ],
+      "activities": [
+        {
+          "id": "aqab_1",
+          "text": "Coral Reef Diving",
+          "detail": "Explore the northern Red Sea's pristine coral gardens and tropical fish species at depths suitable for both beginners and advanced divers.",
+          "lat": 29.5269,
+          "lng": 34.9415
+        },
+        {
+          "id": "aqab_2",
+          "text": "Snorkeling at Japanese Garden",
+          "detail": "Wade into shallow turquoise waters near the Japanese Garden reef site to observe colorful corals and marine life without scuba certification.",
+          "lat": 29.521,
+          "lng": 34.948
+        },
+        {
+          "id": "aqab_3",
+          "text": "Aqaba Archaeological Museum",
+          "detail": "Tour artifacts spanning from Nabatean, Roman, and Islamic periods, including pottery, glass, and maritime finds from the ancient port city.",
+          "lat": 29.527,
+          "lng": 34.949
+        },
+        {
+          "id": "aqab_4",
+          "text": "Underwater Observatory Marine Park",
+          "detail": "Descend into a submerged chamber to view Red Sea marine life through reinforced windows without getting wet.",
+          "lat": 29.5075,
+          "lng": 34.9432
+        },
+        {
+          "id": "aqab_5",
+          "text": "Aqaba Fort (Mamluk Castle)",
+          "detail": "Climb through the restored 16th-century Ottoman fortress overlooking the harbor, featuring exhibits on Aqaba's strategic maritime history.",
+          "lat": 29.528,
+          "lng": 34.9408
+        },
+        {
+          "id": "aqab_6",
+          "text": "Desert Jeep Tours to Wadi Rum",
+          "detail": "Take a day excursion into the nearby dramatic sandstone landscape of Wadi Rum, famous for its red dunes and Bedouin culture.",
+          "lat": 29.8383,
+          "lng": 35.4239
+        },
+        {
+          "id": "aqab_7",
+          "text": "Glass-Bottom Boat Tours",
+          "detail": "Cruise above vibrant reef ecosystems in a boat with a transparent hull, ideal for non-divers wanting close marine views.",
+          "lat": 29.525,
+          "lng": 34.945
+        }
+      ],
+      "food": [
+        {
+          "id": "aqab_f1",
+          "text": "Zarb (Bedouin Barbecue)",
+          "detail": "Lamb or chicken marinated with spices, slow-cooked in a sealed pit underground, traditionally served with rice and vegetables."
+        },
+        {
+          "id": "aqab_f2",
+          "text": "Fresh Hammour (Grouper)",
+          "detail": "The Gulf's prized white fish, grilled whole or filleted, caught daily and served simply with lemon and local spices."
+        },
+        {
+          "id": "aqab_f3",
+          "text": "Maklouba",
+          "detail": "An inverted rice dish layered with eggplant, tomatoes, and meat, then flipped onto the plate—a Levantine specialty common in coastal Aqaba."
+        },
+        {
+          "id": "aqab_f4",
+          "text": "Umm Ali (Mother of Ali)",
+          "detail": "A warm, creamy dessert made with phyllo pastry, coconut, and milk, often served as a communal sweet after dinner."
+        },
+        {
+          "id": "aqab_f5",
+          "text": "Fresh Sea Urchin (Qanik)",
+          "detail": "A local delicacy harvested from Red Sea rocks, eaten raw with lemon juice and bread as a coastal specialty."
+        },
+        {
+          "id": "aqab_f6",
+          "text": "Shrimp Sayadieh",
+          "detail": "Plump Red Sea shrimp layered with rice, onions, and a distinctive spice blend, finished with toasted nuts and herbs."
+        }
+      ],
+      "culture": [
+        {
+          "id": "aqab_c1",
+          "text": "Modest Dress at Beaches",
+          "detail": "While Aqaba is more liberal than inland Jordan, wearing conservative swimwear and covering up when away from the waterfront shows respect."
+        },
+        {
+          "id": "aqab_c2",
+          "text": "Haggling in Souks",
+          "detail": "The waterfront markets expect negotiation on prices for souvenirs, crafts, and goods—starting at 30–40% above asking price is normal."
+        },
+        {
+          "id": "aqab_c3",
+          "text": "Ramadan Observance",
+          "detail": "During Ramadan, many restaurants close during daylight hours and locals fast; dining and smoking in public during fasting hours is considered disrespectful."
+        },
+        {
+          "id": "aqab_c4",
+          "text": "Friday Prayers and Closures",
+          "detail": "Many shops close mid-morning on Fridays for communal prayers; plan activities for early morning or late afternoon on the Islamic holy day."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Fakhreldin",
+      "address": "Rainbow Street, Downtown",
+      "neighbourhood": "Amman Central",
+      "cuisine": "Levantine",
+      "priceRange": "€€€",
+      "description": "Upscale traditional Jordanian restaurant with panoramic city views and refined mezze presentations.",
+      "mustOrder": "Zarb (slow-roasted lamb)",
+      "lat": 31.9454,
+      "lng": 35.9284
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Kan Zaman",
+      "address": "Madaba Road, Wadi Seer",
+      "neighbourhood": "Wadi Seer",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Traditional village setting with authentic Jordanian cuisine served in restored stone houses overlooking olive groves.",
+      "mustOrder": "Mansaf (lamb in yogurt sauce)",
+      "lat": 31.8921,
+      "lng": 35.8743
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Reem Al Bawadi",
+      "address": "Jabal Amman Street, Jabal Amman",
+      "neighbourhood": "Jabal Amman",
+      "cuisine": "Arabian Gulf",
+      "priceRange": "€€",
+      "description": "Popular casual spot known for generous portions of Gulf-style grilled meats and traditional rice dishes.",
+      "mustOrder": "Mixed grill platter with kabsa rice",
+      "lat": 31.9479,
+      "lng": 35.9312
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Tannourine",
+      "address": "Jabal Amman, Shmeisani intersection",
+      "neighbourhood": "Shmeisani",
+      "cuisine": "Lebanese",
+      "priceRange": "€€€",
+      "description": "Elegant Lebanese restaurant featuring wood-fired grills, fresh seafood, and an extensive wine selection.",
+      "mustOrder": "Grilled sea bass with Lebanese herbs",
+      "lat": 31.9412,
+      "lng": 35.9345
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Al Reef",
+      "address": "Sweifieh Street, Sweifieh",
+      "neighbourhood": "Sweifieh",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Family-friendly seafood restaurant with daily catches prepared simply and served with traditional Arabic sides.",
+      "mustOrder": "Grilled hammour (grouper fish)",
+      "lat": 31.9467,
+      "lng": 35.8876
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Maqluba House",
+      "address": "Madaba Road, Wadi Seer",
+      "neighbourhood": "Wadi Seer",
+      "cuisine": "Levantine",
+      "priceRange": "€",
+      "description": "Casual family-run eatery famous for the namesake upside-down rice and vegetable dish in a humble setting.",
+      "mustOrder": "Maqluba (upside-down rice dish)",
+      "lat": 31.8905,
+      "lng": 35.8698
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Wild Jordan Center Restaurant",
+      "address": "Rainbow Street, Downtown",
+      "neighbourhood": "Amman Central",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Conservation-focused restaurant promoting organic Jordanian ingredients with modern interpretations of traditional dishes.",
+      "mustOrder": "Organic vegetable mazza and za'atar bread",
+      "lat": 31.9451,
+      "lng": 35.9291
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Jafra",
+      "address": "Jabal Amman, near 1st Circle",
+      "neighbourhood": "Jabal Amman",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Contemporary casual dining with creative takes on traditional Jordanian mezze and grilled meats.",
+      "mustOrder": "Woodfire grilled chicken with sumac and thyme",
+      "lat": 31.9489,
+      "lng": 35.9367
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Sufra",
+      "address": "Mecca Street, Abdali",
+      "neighbourhood": "Abdali",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Casual buffet-style Jordanian restaurant showcasing everyday home-cooked specialties at excellent value.",
+      "mustOrder": "Chicken mensaf and mixed vegetable dishes",
+      "lat": 31.9532,
+      "lng": 35.9287
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Ritaj",
+      "address": "Sweifieh Main Street, Sweifieh",
+      "neighbourhood": "Sweifieh",
+      "cuisine": "Levantine",
+      "priceRange": "€€€",
+      "description": "Sophisticated restaurant blending modern presentation with authentic regional recipes in an intimate ambiance.",
+      "mustOrder": "Stuffed lamb with pistachios and pine nuts",
+      "lat": 31.9476,
+      "lng": 35.8859
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Burj Al Hamam",
+      "address": "Jabal Al Qala'a, Citadel area",
+      "neighbourhood": "Citadel",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Panoramic restaurant housed in a traditional tower overlooking Amman with hearty traditional Jordanian fare.",
+      "mustOrder": "Slow-cooked lamb stew with fresh vegetables",
+      "lat": 31.9461,
+      "lng": 35.9386
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Hashem Restaurant",
+      "address": "Downtown Street, Downtown Amman",
+      "neighbourhood": "Downtown",
+      "cuisine": "Levantine Street Food",
+      "priceRange": "€",
+      "description": "Legendary no-frills institution serving generations with iconic hummus, falafel, and fresh juices since 1952.",
+      "mustOrder": "Hummus with meat and warm pita bread",
+      "lat": 31.9454,
+      "lng": 35.9265
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Zaatar & Zeitoun",
+      "address": "Jabal Amman Street, Jabal Amman",
+      "neighbourhood": "Jabal Amman",
+      "cuisine": "Levantine",
+      "priceRange": "€€",
+      "description": "Modern bistro celebrating Palestinian heritage with excellent olive oils, seasonal vegetables, and wood-fired breads.",
+      "mustOrder": "Za'atar manakish and Palestinian salads",
+      "lat": 31.9497,
+      "lng": 35.9354
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Diyafa Restaurant",
+      "address": "Abdoun Circle, Abdoun",
+      "neighbourhood": "Abdoun",
+      "cuisine": "Levantine",
+      "priceRange": "€€€",
+      "description": "Upscale venue in a restored mansion featuring refined Levantine cuisine with attentive service and elegant presentation.",
+      "mustOrder": "Smoked eggplant purée and grilled lamb chops",
+      "lat": 31.9312,
+      "lng": 35.9156
+    }
+  ]
+}

@@ -1,0 +1,1604 @@
+{
+  "id": "bogota_savanna",
+  "name": "Bogotá & Cundinamarca",
+  "nameIt": "Bogotá y Cundinamarca",
+  "capital": "Bogotá",
+  "lat": 4.711,
+  "lng": -74.0721,
+  "emoji": "🏙️",
+  "colour": "ffe91e63",
+  "boundingBox": {
+    "north": 5.8,
+    "south": 3.5,
+    "east": -73,
+    "west": -75.5
+  },
+  "history": "Bogotá was founded in 1538 by Spanish conquistador Gonzalo Jiménez de Quesada on the highland plateau of the Chibcha people, becoming a major center of colonial administration and wealth due to its proximity to emerald mines and agricultural lands. The region of Cundinamarca surrounding the capital developed as a crucial economic hub during the Spanish colonial period, with indigenous populations gradually incorporated into a hierarchical colonial society. Following independence in the early 19th century, Bogotá became the capital of the newly formed Colombian nation and has remained the political and cultural heart of the country ever since. The 20th century saw rapid urbanization and industrialization, transforming Bogotá into one of South America's largest metropolitan areas while Cundinamarca developed as a productive agricultural and manufacturing region.",
+  "culturalNotes": "Bogotá and Cundinamarca represent the cultural and intellectual center of Colombia, home to world-class museums, universities, and artistic institutions that showcase both pre-Columbian heritage and contemporary Latin American culture. The region maintains strong traditions of highland craftsmanship, including textiles, pottery, and emerald work, alongside a vibrant culinary scene featuring traditional dishes like ajiaco and tamales prepared according to recipes passed down through generations. The population reflects a blend of indigenous Chibcha heritage, Spanish colonial influence, and waves of internal migration, creating a cosmopolitan yet deeply rooted cultural identity distinct from Colombia's Caribbean and Pacific coast regions.",
+  "bestTimeToVisit": "Visit December to January or July to August during the drier seasons for sightseeing.",
+  "languageNotes": "Spanish is the primary language, spoken with a clear highland accent characteristic of the Andean interior that is often considered the standard for Colombian media and education. Useful phrases include 'vea' as a common conversational marker, and locals frequently use 'parcero' or 'parcera' as friendly forms of address among peers.",
+  "generatedAt": "2026-07-23T09:36:44.935Z",
+  "placeCount": 14,
+  "places": [
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "nameIt": "Bogotá",
+      "lat": 4.711,
+      "lng": -74.0055,
+      "type": "CITY",
+      "description": "Colombia's capital and largest city, perched at 2,640 meters in the Andes with a rich cultural scene and world-class museums. Home to the Gold Museum, vibrant neighborhoods like La Candelaria, and modern dining and nightlife districts.",
+      "imageQueries": [
+        "Bogotá cityscape mountains",
+        "Gold Museum Bogotá"
+      ],
+      "activities": [
+        {
+          "id": "bogo_1",
+          "text": "Gold Museum (Museo del Oro)",
+          "detail": "The world's largest collection of pre-Hispanic gold artifacts, showcasing over 55,000 pieces from ancient Colombian civilizations.",
+          "lat": 4.7118,
+          "lng": -74.0076
+        },
+        {
+          "id": "bogo_2",
+          "text": "La Candelaria Walking Tour",
+          "detail": "Explore the historic colonial neighborhood with colorful buildings, street art, museums, and the Plaza de Bolivar at its heart.",
+          "lat": 4.7141,
+          "lng": -74.0081
+        },
+        {
+          "id": "bogo_3",
+          "text": "Monserrate Sanctuary",
+          "detail": "Take a cable car or funicular up 3,152 meters to this hilltop basilica offering panoramic views of the entire city and surrounding mountains.",
+          "lat": 4.7289,
+          "lng": -74.002
+        },
+        {
+          "id": "bogo_4",
+          "text": "Botero Museum (Museo Botero)",
+          "detail": "House the world's largest collection of paintings and sculptures by Colombian master Fernando Botero, plus works by Picasso and Dalí.",
+          "lat": 4.7129,
+          "lng": -74.0074
+        },
+        {
+          "id": "bogo_5",
+          "text": "Usaquén Sunday Market",
+          "detail": "Visit the charming northern neighborhood's plaza every Sunday for local crafts, antiques, street food, and live music in a vibrant atmosphere.",
+          "lat": 4.7282,
+          "lng": -74.0449
+        },
+        {
+          "id": "bogo_6",
+          "text": "National Museum (Museo Nacional)",
+          "detail": "Colombia's oldest museum housed in a former jail, displaying art, archaeology, and cultural artifacts spanning pre-Hispanic to contemporary eras.",
+          "lat": 4.7215,
+          "lng": -74.0053
+        },
+        {
+          "id": "bogo_7",
+          "text": "Zipaquirá Salt Cathedral Day Trip",
+          "detail": "Journey 50 km north to explore an underground cathedral carved within a salt mine, a spiritual and architectural marvel.",
+          "lat": 5.4289,
+          "lng": -73.8108
+        }
+      ],
+      "food": [
+        {
+          "id": "bogo_f1",
+          "text": "Ajiaco",
+          "detail": "Bogotá's signature hearty soup made with three types of potatoes, corn, chicken, and served with avocado, cream, and a squeeze of lime."
+        },
+        {
+          "id": "bogo_f2",
+          "text": "Bandeja Paisa inspired Bogotá style",
+          "detail": "A large platter featuring rice, beans, grilled meats, arepa, and fresh salad, reflecting the hearty mountain cuisine of the region."
+        },
+        {
+          "id": "bogo_f3",
+          "text": "Empanadas",
+          "detail": "Fried pastry pockets filled with seasoned meat, potato, or cheese, commonly eaten as street food or snacks throughout the city."
+        },
+        {
+          "id": "bogo_f4",
+          "text": "Tinto",
+          "detail": "A small black coffee that is the daily staple drink for bogotanos, typically enjoyed in the morning or afternoon."
+        },
+        {
+          "id": "bogo_f5",
+          "text": "Fresh Fruit Juices (Jugos Naturales)",
+          "detail": "Street vendors offer vibrant fresh-squeezed juices from tropical fruits like lulo, guanabana, mora, and passion fruit."
+        },
+        {
+          "id": "bogo_f6",
+          "text": "Sancocho",
+          "detail": "A slow-cooked stew with meat, plantain, yuca, and vegetables, offering warmth and comfort at the high Andean altitude."
+        }
+      ],
+      "culture": [
+        {
+          "id": "bogo_c1",
+          "text": "Altitude Adjustment",
+          "detail": "Bogotá sits at 2,640 meters, so arrive a day early to acclimate and avoid altitude sickness; stay hydrated and take it easy initially."
+        },
+        {
+          "id": "bogo_c2",
+          "text": "Spanish Language Helpful",
+          "detail": "While some staff in tourist areas speak English, speaking basic Spanish significantly improves interactions and shows respect to locals."
+        },
+        {
+          "id": "bogo_c3",
+          "text": "Safety in Neighborhoods",
+          "detail": "Stick to well-traveled areas like La Candelaria, Usaquén, and Zona Rosa during daylight and evenings; avoid displaying valuables and use registered taxis or Uber."
+        },
+        {
+          "id": "bogo_c4",
+          "text": "Sunday Ciclovía Tradition",
+          "detail": "On Sundays, major streets close to traffic for pedestrians and cyclists; it's a beloved community activity perfect for experiencing local culture and parks."
+        }
+      ]
+    },
+    {
+      "id": "monserrate",
+      "name": "Monserrate",
+      "nameIt": "Monserrate",
+      "lat": 4.7364,
+      "lng": -74.0055,
+      "type": "LANDMARK",
+      "description": "A mountaintop basilica sanctuary rising 600 meters above Bogotá with breathtaking views of the city and surrounding Andean landscape. Accessible by cable car or funicular, it's a pilgrimage site and popular viewpoint drawing both religious visitors and tourists.",
+      "imageQueries": [
+        "Monserrate sanctuary Bogotá",
+        "Monserrate cable car view"
+      ],
+      "activities": [
+        {
+          "id": "mons_1",
+          "text": "Visit the Basilica Sanctuary",
+          "detail": "Pray or explore the whitewashed neoclassical church at the summit, home to the venerated Cristo Rey statue and ornate interior adorned with religious art and offerings from pilgrims.",
+          "lat": 4.5971,
+          "lng": -74.0745
+        },
+        {
+          "id": "mons_2",
+          "text": "Ride the Cable Car (Teleférico)",
+          "detail": "Ascend 600 meters in a modern cable car offering panoramic views of Bogotá and the surrounding Andean peaks during a 10-minute journey.",
+          "lat": 4.5768,
+          "lng": -74.0829
+        },
+        {
+          "id": "mons_3",
+          "text": "Take the Funicular Railway",
+          "detail": "Alternatively climb via the historic funicular train, a gentler option that winds through forested slopes at a slower pace than the cable car.",
+          "lat": 4.5768,
+          "lng": -74.0829
+        },
+        {
+          "id": "mons_4",
+          "text": "Panoramic City Viewpoint",
+          "detail": "Stand at the sanctuary's viewing platforms for 360-degree vistas of Bogotá's sprawling cityscape framed by the Eastern Cordillera mountains.",
+          "lat": 4.5971,
+          "lng": -74.0745
+        },
+        {
+          "id": "mons_5",
+          "text": "Hike the Mountain Trails",
+          "detail": "Trek through cloud forests and rocky paths connecting the sanctuary to neighboring peaks, encountering alpine vegetation and bird species unique to high-altitude Bogotá.",
+          "lat": 4.5971,
+          "lng": -74.0745
+        },
+        {
+          "id": "mons_6",
+          "text": "Attend a Pilgrimage Service",
+          "detail": "Participate in religious masses or candlelit processions, especially during Catholic feast days, to witness the deep devotional traditions of Colombian pilgrims.",
+          "lat": 4.5971,
+          "lng": -74.0745
+        }
+      ],
+      "food": [
+        {
+          "id": "mons_f1",
+          "text": "Ajiaco Santafereño",
+          "detail": "A hearty three-potato soup traditional to Bogotá served with corn, chicken, and avocado, best enjoyed warm at the sanctuary's restaurants after your ascent."
+        },
+        {
+          "id": "mons_f2",
+          "text": "Empanadas de Queso y Carne",
+          "detail": "Deep-fried pastry pockets filled with seasoned ground beef and melted cheese, sold by street vendors near the cable car base and at the mountaintop."
+        },
+        {
+          "id": "mons_f3",
+          "text": "Mazorca Asada",
+          "detail": "Grilled corn on the cob basted with butter and sprinkled with salt and cheese, a common snack available at food stalls around the sanctuary."
+        },
+        {
+          "id": "mons_f4",
+          "text": "Hot Chocolate with Queso",
+          "detail": "Rich Colombian hot chocolate served with a piece of fresh cheese that melts into the warm beverage, perfect for warming up at the high-altitude basilica."
+        },
+        {
+          "id": "mons_f5",
+          "text": "Bunuelos",
+          "detail": "Deep-fried cassava flour pastries dusted with cinnamon and sugar, traditionally eaten as a sweet treat or breakfast item at the sanctuary's cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mons_c1",
+          "text": "Dress respectfully for the basilica",
+          "detail": "Wear modest clothing that covers shoulders and knees when entering the sanctuary, as it remains an active pilgrimage site requiring religious courtesy."
+        },
+        {
+          "id": "mons_c2",
+          "text": "Prepare for altitude and weather",
+          "detail": "Bring layers and rain gear, as Monserrate sits at 3,152 meters where temperatures drop significantly and afternoon clouds are common year-round."
+        },
+        {
+          "id": "mons_c3",
+          "text": "Visit early to avoid crowds",
+          "detail": "Arrive before 10 AM on weekdays or before 9 AM on weekends to experience the sanctuary's peaceful atmosphere and secure better photo opportunities with fewer tourists."
+        },
+        {
+          "id": "mons_c4",
+          "text": "Honor pilgrimage traditions",
+          "detail": "Many visitors light candles, leave prayers, or carry offerings as personal devotions; respectfully observe these sacred acts and maintain quiet reverence in religious spaces."
+        }
+      ]
+    },
+    {
+      "id": "zipaquira",
+      "name": "Zipaquirá",
+      "nameIt": "Zipaquirá",
+      "lat": 5.0275,
+      "lng": -73.8061,
+      "type": "TOWN",
+      "description": "A colonial town famous for its underground salt cathedral carved into a salt mine, a stunning architectural and spiritual marvel 180 meters below ground. Located just 50 kilometers north of Bogotá, it's an essential day trip showcasing Colombia's geological and cultural heritage.",
+      "imageQueries": [
+        "Salt Cathedral Zipaquirá underground",
+        "Zipaquirá colonial town"
+      ],
+      "activities": [
+        {
+          "id": "zipa_1",
+          "text": "Salt Cathedral",
+          "detail": "Explore the breathtaking underground basilica carved 180 meters into the salt mine, featuring a cross, altar, and nave decorated with religious art and salt sculptures.",
+          "lat": 5.0242,
+          "lng": -73.7833
+        },
+        {
+          "id": "zipa_2",
+          "text": "Salt Mine Museum",
+          "detail": "Learn about the geological history and pre-Hispanic salt extraction methods through exhibits explaining how indigenous peoples and colonizers mined salt for centuries.",
+          "lat": 5.0242,
+          "lng": -73.7833
+        },
+        {
+          "id": "zipa_3",
+          "text": "Colonial Town Center",
+          "detail": "Wander through Zipaquirá's historic main plaza and surrounding streets lined with whitewashed buildings, churches, and traditional shops reflecting colonial architecture.",
+          "lat": 5.0283,
+          "lng": -73.7822
+        },
+        {
+          "id": "zipa_4",
+          "text": "Parque de la Sal",
+          "detail": "Visit this scenic park above the salt mines offering views of the town, walking trails, and cultural attractions related to salt heritage.",
+          "lat": 5.0242,
+          "lng": -73.7833
+        },
+        {
+          "id": "zipa_5",
+          "text": "Zipaquirá Museum",
+          "detail": "Discover artifacts and exhibitions documenting the town's indigenous Muisca heritage, colonial period, and evolution as a cultural hub.",
+          "lat": 5.029,
+          "lng": -73.783
+        },
+        {
+          "id": "zipa_6",
+          "text": "Local Artisan Markets",
+          "detail": "Browse handmade crafts, salt-based souvenirs, and traditional Colombian handicrafts sold by local vendors throughout the town center."
+        }
+      ],
+      "food": [
+        {
+          "id": "zipa_f1",
+          "text": "Ajiaco Cundinamarqués",
+          "detail": "A hearty regional potato soup made with chicken, three varieties of potatoes, corn, and served with avocado, sour cream, and rice."
+        },
+        {
+          "id": "zipa_f2",
+          "text": "Empanadas de Queso",
+          "detail": "Deep-fried pastries filled with melted cheese and potatoes, a popular street food and local specialty throughout the region."
+        },
+        {
+          "id": "zipa_f3",
+          "text": "Trucha a la Sal",
+          "detail": "Fresh trout baked or grilled with local salt, reflecting the culinary traditions built around Zipaquirá's salt-mining heritage."
+        },
+        {
+          "id": "zipa_f4",
+          "text": "Arepa con Queso",
+          "detail": "Grilled corn cake filled with melted Colombian cheese, commonly eaten for breakfast or as a snack at local bakeries."
+        },
+        {
+          "id": "zipa_f5",
+          "text": "Papas a la Huancaína",
+          "detail": "Boiled potatoes topped with a creamy yellow pepper sauce, a dish showcasing the region's abundant potato varieties."
+        }
+      ],
+      "culture": [
+        {
+          "id": "zipa_c1",
+          "text": "Respectful Cathedral Behavior",
+          "detail": "The Salt Cathedral remains an active place of worship and pilgrimage, so visitors should dress modestly and maintain quiet, reverent behavior inside."
+        },
+        {
+          "id": "zipa_c2",
+          "text": "High Altitude Acclimatization",
+          "detail": "Zipaquirá sits at 2,640 meters elevation; arrive early and move slowly to adjust to the high altitude and avoid discomfort."
+        },
+        {
+          "id": "zipa_c3",
+          "text": "Muisca Heritage Awareness",
+          "detail": "The town's identity is deeply rooted in indigenous Muisca culture and their sacred relationship with salt; understanding this history enriches your visit."
+        },
+        {
+          "id": "zipa_c4",
+          "text": "Guide Services Recommended",
+          "detail": "Hiring a local guide for the salt mine and cathedral ensures you learn authentic details about mining techniques, geology, and spiritual significance often missed by casual visitors."
+        }
+      ]
+    },
+    {
+      "id": "la_candelaria",
+      "name": "La Candelaria",
+      "nameIt": "La Candelaria",
+      "lat": 4.716,
+      "lng": -74.0082,
+      "type": "LANDMARK",
+      "description": "Bogotá's historic colonial heart featuring colorful buildings, museums, galleries, and plazas that tell Colombia's story from pre-Hispanic times to the present. Wandering its narrow streets reveals street art, cultural institutions, and traditional restaurants.",
+      "imageQueries": [
+        "La Candelaria Bogotá colonial",
+        "La Candelaria street art"
+      ],
+      "activities": [
+        {
+          "id": "la_c_1",
+          "text": "Gold Museum (Museo del Oro)",
+          "detail": "Explore the world's largest collection of pre-Hispanic gold artifacts spanning thousands of years of Colombian civilization.",
+          "lat": 4.7114,
+          "lng": -74.0076
+        },
+        {
+          "id": "la_c_2",
+          "text": "Bolívar Square",
+          "detail": "Wander the main plaza surrounded by the Cathedral, Palace of Justice, and colonial architecture while observing local life and street performers.",
+          "lat": 4.7141,
+          "lng": -74.0081
+        },
+        {
+          "id": "la_c_3",
+          "text": "National Museum of Colombia",
+          "detail": "Browse extensive galleries of Colombian art, archaeology, and history housed in a former prison building with a striking interior courtyard.",
+          "lat": 4.7068,
+          "lng": -74.0156
+        },
+        {
+          "id": "la_c_4",
+          "text": "Botero Museum",
+          "detail": "Admire the distinctive rotund figures and vibrant works by Fernando Botero, Colombia's most celebrated contemporary artist.",
+          "lat": 4.7125,
+          "lng": -74.0079
+        },
+        {
+          "id": "la_c_5",
+          "text": "Street Art Walking Tour",
+          "detail": "Discover colorful murals, graffiti, and urban art scattered throughout the narrow colonial streets reflecting contemporary social and political themes.",
+          "lat": 4.718,
+          "lng": -74.005
+        },
+        {
+          "id": "la_c_6",
+          "text": "La Pinta Gallery District",
+          "detail": "Browse independent art galleries, antique shops, and artist studios concentrated in the streets around Carrera 4.",
+          "lat": 4.7165,
+          "lng": -74.0065
+        }
+      ],
+      "food": [
+        {
+          "id": "la_c_f1",
+          "text": "Ajiaco Bogotano",
+          "detail": "A hearty potato and chicken soup unique to Bogotá, served with corn, avocado, and a dollop of sour cream in traditional restaurants throughout the neighborhood."
+        },
+        {
+          "id": "la_c_f2",
+          "text": "Empanadas de queso y papa",
+          "detail": "Golden-fried pastry pockets filled with cheese and potato, sold by street vendors and small cafés as an affordable local snack."
+        },
+        {
+          "id": "la_c_f3",
+          "text": "Bandeja Paisa-style fare",
+          "detail": "Hearty plates combining beans, rice, meat, and plantains served in family-run comedores (small restaurants) hidden along narrow streets."
+        },
+        {
+          "id": "la_c_f4",
+          "text": "Patacones",
+          "detail": "Twice-fried plantain slices served as a side dish or street food, often accompanied by ají (hot sauce) in casual eateries."
+        },
+        {
+          "id": "la_c_f5",
+          "text": "Café con arepa",
+          "detail": "Strong Colombian coffee paired with a warm cornmeal arepa, the quintessential breakfast or afternoon snack at local bakeries."
+        },
+        {
+          "id": "la_c_f6",
+          "text": "Tamales envueltos en hojas de maíz",
+          "detail": "Steamed corn-based parcels filled with meat and vegetables, wrapped in corn husks and sold fresh in the early mornings by street vendors."
+        }
+      ],
+      "culture": [
+        {
+          "id": "la_c_c1",
+          "text": "Visit museums early",
+          "detail": "Arrive at popular museums like the Gold Museum before 10 AM to avoid crowds and enjoy a more peaceful experience of the collections."
+        },
+        {
+          "id": "la_c_c2",
+          "text": "Be aware of safety",
+          "detail": "Stay in well-lit main streets and plazas, avoid walking alone at night, and keep valuables concealed as petty theft occurs in crowded areas."
+        },
+        {
+          "id": "la_c_c3",
+          "text": "Respect photography etiquette",
+          "detail": "Ask permission before photographing street musicians, indigenous people, or informal vendors who may depend on their image rights."
+        },
+        {
+          "id": "la_c_c4",
+          "text": "Learn basic Spanish",
+          "detail": "Speaking even simple Spanish phrases is appreciated by locals and enhances your ability to navigate small restaurants and interact with shop owners in this historic neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "usaquen",
+      "name": "Usaquén",
+      "nameIt": "Usaquén",
+      "lat": 4.7289,
+      "lng": -74.0154,
+      "type": "LANDMARK",
+      "description": "A charming colonial neighborhood turned bohemian district with craft markets, cafes, galleries, and trendy restaurants housed in restored traditional buildings. Especially lively on weekends, it represents the modern creative side of Bogotá while maintaining historic character.",
+      "imageQueries": [
+        "Usaquén Bogotá market",
+        "Usaquén neighborhood colonial"
+      ],
+      "activities": [
+        {
+          "id": "usaq_1",
+          "text": "Usaquén Market (Feria de Usaquén)",
+          "detail": "Browse the famous Sunday craft market in Plaza Mayor where local artisans sell handmade jewelry, textiles, ceramics, and souvenirs amid street performers and live music.",
+          "lat": 4.7267,
+          "lng": -74.0155
+        },
+        {
+          "id": "usaq_2",
+          "text": "Iglesia de Santa Bárbara",
+          "detail": "Visit this restored 18th-century colonial church at the heart of Usaquén that anchors the neighborhood's historic character with its whitewashed facade and simple interior.",
+          "lat": 4.7271,
+          "lng": -74.0152
+        },
+        {
+          "id": "usaq_3",
+          "text": "Gallery Hopping on Carrera 6",
+          "detail": "Walk through contemporary art galleries and smaller artist studios concentrated along Carrera 6 and surrounding streets showcasing Colombian and international works.",
+          "lat": 4.728,
+          "lng": -74.0145
+        },
+        {
+          "id": "usaq_4",
+          "text": "Café Culture at Local Cafeterías",
+          "detail": "Spend time in restored colonial buildings converted to artisanal cafes where locals gather for specialty coffee, conversation, and people-watching throughout the day.",
+          "lat": 4.7275,
+          "lng": -74.0148
+        },
+        {
+          "id": "usaq_5",
+          "text": "Restaurant Row on Calle 120",
+          "detail": "Explore Usaquén's upscale dining scene concentrated on Calle 120 and nearby streets featuring everything from traditional Colombian cuisine to international fusion restaurants.",
+          "lat": 4.7265,
+          "lng": -74.0138
+        },
+        {
+          "id": "usaq_6",
+          "text": "Street Art and Murals Walking Tour",
+          "detail": "Discover colorful murals and street art throughout the neighborhood's narrow streets and alleyways that reflect Bogotá's vibrant creative culture.",
+          "lat": 4.727,
+          "lng": -74.016
+        }
+      ],
+      "food": [
+        {
+          "id": "usaq_f1",
+          "text": "Ajiaco",
+          "detail": "Try this warming Colombian potato and chicken soup served with corn, avocado, and sour cream, considered comfort food and widely available in Usaquén restaurants."
+        },
+        {
+          "id": "usaq_f2",
+          "text": "Empanadas with Aji",
+          "detail": "Sample fried pastry pockets filled with meat or cheese served with spicy ají sauce, a ubiquitous street food and café staple throughout the neighborhood."
+        },
+        {
+          "id": "usaq_f3",
+          "text": "Fresh Jugo Natural",
+          "detail": "Drink freshly blended fruit juices made from tropical fruits like guanabana, mora, and papaya at cafes and juice stands, a daily ritual for locals."
+        },
+        {
+          "id": "usaq_f4",
+          "text": "Bandeja Paisa Style Platter",
+          "detail": "Order hearty meat-based platters served at traditional restaurants, reflecting Colombian regional cuisine with rice, beans, and grilled meats as signature dishes."
+        },
+        {
+          "id": "usaq_f5",
+          "text": "Tamales",
+          "detail": "Taste corn-based steamed parcels filled with meat, typically wrapped in corn husks and served with fresh cheese or arepa, especially popular at weekend breakfasts."
+        }
+      ],
+      "culture": [
+        {
+          "id": "usaq_c1",
+          "text": "Visit on Weekends for Full Atmosphere",
+          "detail": "Usaquén is most vibrant on Saturdays and Sundays when the feria market operates and the neighborhood fills with locals and tourists; weekdays are quieter and more residential."
+        },
+        {
+          "id": "usaq_c2",
+          "text": "Greetings and Respect for Space",
+          "detail": "Colombians value polite greetings and personal warmth; make eye contact and exchange 'buenos días' or 'buenas tardes' with shopkeepers and café owners for better interactions."
+        },
+        {
+          "id": "usaq_c3",
+          "text": "Mind Your Belongings",
+          "detail": "Like any popular tourist district in Bogotá, keep valuables secure and avoid displaying expensive jewelry, cameras, or large amounts of cash; stay aware of surroundings, especially at night."
+        },
+        {
+          "id": "usaq_c4",
+          "text": "Respect the Creative Community",
+          "detail": "Usaquén is home to working artists and bohemian residents; be respectful when photographing murals or entering galleries, and support local artisans by purchasing directly from them rather than tourist shops."
+        }
+      ]
+    },
+    {
+      "id": "guatavita",
+      "name": "Guatavita",
+      "nameIt": "Guatavita",
+      "lat": 5.0167,
+      "lng": -73.85,
+      "type": "TOWN",
+      "description": "A picturesque colonial town famous as the source of the El Dorado legend, built on an artificial lake created by a dam. The town offers stunning mountain views, a charming main plaza, and proximity to the Laguna de Guatavita hiking trails.",
+      "imageQueries": [
+        "Guatavita town Colombia",
+        "Laguna Guatavita lake"
+      ],
+      "activities": [
+        {
+          "id": "guat_1",
+          "text": "Laguna de Guatavita Hike",
+          "detail": "Trek to the sacred lake at 3,300 meters elevation where indigenous Muisca people performed El Dorado rituals, offering panoramic views of the surrounding páramo ecosystem.",
+          "lat": 5.0289,
+          "lng": -73.8564
+        },
+        {
+          "id": "guat_2",
+          "text": "Colonial Town Plaza",
+          "detail": "Stroll through the charming main square featuring whitewashed buildings, the local church, and artisan shops selling traditional crafts and souvenirs.",
+          "lat": 5.0217,
+          "lng": -73.8506
+        },
+        {
+          "id": "guat_3",
+          "text": "Guatavita Artificial Lake",
+          "detail": "Walk along the shores of the dam-created reservoir that provides stunning reflections of the surrounding mountains and is popular for photography at sunset.",
+          "lat": 5.018,
+          "lng": -73.852
+        },
+        {
+          "id": "guat_4",
+          "text": "El Dorado Legend Museum",
+          "detail": "Visit the small local museum dedicated to the history of the El Dorado myth and its connection to Guatavita's archaeological significance to the Muisca civilization.",
+          "lat": 5.022,
+          "lng": -73.851
+        },
+        {
+          "id": "guat_5",
+          "text": "Páramo Ecosystem Exploration",
+          "detail": "Explore the high-altitude moorland landscape surrounding the town featuring unique flora, mountain streams, and opportunities to spot Andean birds.",
+          "lat": 5.035,
+          "lng": -73.86
+        },
+        {
+          "id": "guat_6",
+          "text": "Local Market Visit",
+          "detail": "Browse the weekend market in town for fresh produce, handicrafts, and regional specialties while interacting with local vendors and artisans."
+        }
+      ],
+      "food": [
+        {
+          "id": "guat_f1",
+          "text": "Ajiaco Cundiboyacense",
+          "detail": "A hearty regional potato soup made with local Andean potatoes, corn, chicken, and topped with avocado and sour cream, reflecting Cundinamarca's culinary traditions."
+        },
+        {
+          "id": "guat_f2",
+          "text": "Trucha a la Guatavita",
+          "detail": "Fresh trout caught from the local lake and prepared simply grilled or pan-fried, often served with local vegetables and mountain spring water."
+        },
+        {
+          "id": "guat_f3",
+          "text": "Arepa de Maíz Fresco",
+          "detail": "Warm cornmeal cakes made with fresh local corn, griddled and served with cheese or as a side to main dishes at family-run eateries."
+        },
+        {
+          "id": "guat_f4",
+          "text": "Empanadas de Queso",
+          "detail": "Fried pastry pockets filled with melted local cheese and potatoes, a traditional snack sold at the market and small bakeries throughout town."
+        },
+        {
+          "id": "guat_f5",
+          "text": "Chicha",
+          "detail": "A traditional fermented corn beverage historically important to Muisca culture, occasionally available during local celebrations and festivals."
+        }
+      ],
+      "culture": [
+        {
+          "id": "guat_c1",
+          "text": "Respect the Sacred Lake",
+          "detail": "The Laguna de Guatavita remains spiritually significant to indigenous communities; visitors should approach the site respectfully and follow designated trails."
+        },
+        {
+          "id": "guat_c2",
+          "text": "Altitude Acclimatization",
+          "detail": "Guatavita sits at approximately 2,600 meters elevation; visitors from lowlands should allow time to acclimatize and stay hydrated to avoid mountain sickness."
+        },
+        {
+          "id": "guat_c3",
+          "text": "Market Hours and Days",
+          "detail": "Local markets and many shops operate primarily on weekends; plan visits accordingly and arrive early for the best selection of fresh produce and crafts."
+        },
+        {
+          "id": "guat_c4",
+          "text": "Spanish Language Helpful",
+          "detail": "While some tourism infrastructure exists, speaking basic Spanish greatly enhances interactions with locals and understanding cultural context in this small town."
+        }
+      ]
+    },
+    {
+      "id": "tequendama_falls",
+      "name": "Tequendama Falls",
+      "nameIt": "Salto del Tequendama",
+      "lat": 4.7492,
+      "lng": -74.3289,
+      "type": "NATURE",
+      "description": "A spectacular 157-meter waterfall located about 30 kilometers southwest of Bogotá, where the Bogotá River drops dramatically through a lush canyon. The surrounding area offers hiking trails, a museum, and natural pools for swimming in a dramatic landscape.",
+      "imageQueries": [
+        "Tequendama Falls waterfall",
+        "Salto del Tequendama canyon"
+      ],
+      "activities": [
+        {
+          "id": "tequ_1",
+          "text": "View the Main Waterfall",
+          "detail": "Stand at the official viewpoint platform to witness the 157-meter cascade of the Bogotá River plunging into the canyon below, best visited in the morning for optimal light and photography.",
+          "lat": 4.7667,
+          "lng": -74.25
+        },
+        {
+          "id": "tequ_2",
+          "text": "Hike the Canyon Trails",
+          "detail": "Trek through the lush cloud forest along marked paths that descend into the canyon, offering views of secondary waterfalls, native vegetation, and the river gorge.",
+          "lat": 4.768,
+          "lng": -74.249
+        },
+        {
+          "id": "tequ_3",
+          "text": "Visit the Museum",
+          "detail": "Explore the Museo del Salto del Tequendama housed in a historic colonial building nearby, showcasing local geology, indigenous history, and ecological information about the region.",
+          "lat": 4.765,
+          "lng": -74.252
+        },
+        {
+          "id": "tequ_4",
+          "text": "Swim in Natural Pools",
+          "detail": "Cool off in the emerald pools formed by the waterfall's base and surrounding rock formations, accessible via guided tours and hiking trails.",
+          "lat": 4.769,
+          "lng": -74.251
+        },
+        {
+          "id": "tequ_5",
+          "text": "Bird Watching",
+          "detail": "Spot endemic and migratory bird species including mountain tanagers, toucans, and hummingbirds in the cloud forest habitat surrounding the falls.",
+          "lat": 4.767,
+          "lng": -74.2495
+        },
+        {
+          "id": "tequ_6",
+          "text": "Picnic at Designated Areas",
+          "detail": "Enjoy meals at organized picnic grounds with views of the canyon and surrounding landscape, a popular weekend activity for Bogotá families.",
+          "lat": 4.7655,
+          "lng": -74.2515
+        }
+      ],
+      "food": [
+        {
+          "id": "tequ_f1",
+          "text": "Trucha a la Parrilla",
+          "detail": "Grilled local mountain trout, often sourced from nearby streams and served with fresh lemon and herbs at restaurants near the falls entrance."
+        },
+        {
+          "id": "tequ_f2",
+          "text": "Ajiaco Bogotano",
+          "detail": "A hearty Andean potato and chicken soup, the signature dish of Bogotá's cuisine, widely available at visitor facilities and nearby restaurants."
+        },
+        {
+          "id": "tequ_f3",
+          "text": "Empanadas de Queso y Papa",
+          "detail": "Fried pastry pockets filled with cheese and potato, a convenient portable snack sold at vendors near the main viewpoint and parking area."
+        },
+        {
+          "id": "tequ_f4",
+          "text": "Chocolate Caliente con Queso",
+          "detail": "Hot chocolate served with a slice of fresh cheese, a traditional Andean beverage perfect for the cool mountain climate at this elevation."
+        }
+      ],
+      "culture": [
+        {
+          "id": "tequ_c1",
+          "text": "Arrive Early and Avoid Weekends",
+          "detail": "Visit on weekday mornings to avoid large crowds, as Tequendama is a popular weekend destination for Bogotá residents, and the trails are safer and more peaceful before noon."
+        },
+        {
+          "id": "tequ_c2",
+          "text": "Bring Proper Footwear",
+          "detail": "The canyon trails are steep, muddy, and slippery year-round due to mist and moisture, so sturdy hiking boots with good grip are essential for safety."
+        },
+        {
+          "id": "tequ_c3",
+          "text": "Respect the Sacred Indigenous Heritage",
+          "detail": "The site holds spiritual significance for local indigenous communities and has historically been a sacred place; observe the landscape respectfully and follow guide instructions regarding restricted areas."
+        },
+        {
+          "id": "tequ_c4",
+          "text": "Check Weather Conditions",
+          "detail": "The region is prone to afternoon rain and fog that can obscure views and make trails hazardous, so plan visits for early hours and check forecasts before traveling."
+        }
+      ]
+    },
+    {
+      "id": "ubaque",
+      "name": "Ubaqué",
+      "nameIt": "Ubaqué",
+      "lat": 4.8906,
+      "lng": -73.9303,
+      "type": "VILLAGE",
+      "description": "A peaceful mountain village in the eastern Andes known for its artisan pottery tradition and pristine natural surroundings. It serves as a gateway to Monserrate hikes and offers cultural immersion in traditional Colombian highland life.",
+      "imageQueries": [
+        "Ubaqué pottery village",
+        "Ubaqué Colombia mountain"
+      ],
+      "activities": [
+        {
+          "id": "ubaq_1",
+          "text": "Pottery Studio Visits",
+          "detail": "Tour working ceramic studios in the village center where artisans create traditional handmade pottery using centuries-old techniques passed down through generations.",
+          "lat": 4.8667,
+          "lng": -73.9333
+        },
+        {
+          "id": "ubaq_2",
+          "text": "Monserrate Trail Hike",
+          "detail": "Trek the mountain path leading to the Monserrate sanctuary, a white basilica perched on a neighboring peak offering panoramic views of the Bogotá savanna and surrounding highlands.",
+          "lat": 4.875,
+          "lng": -73.925
+        },
+        {
+          "id": "ubaq_3",
+          "text": "Río Ubaqué Swimming",
+          "detail": "Cool off in the clear mountain river that flows through the valley, particularly in natural pools formed between rock formations ideal for bathing.",
+          "lat": 4.865,
+          "lng": -73.935
+        },
+        {
+          "id": "ubaq_4",
+          "text": "Local Market Exploration",
+          "detail": "Visit the village market on weekends to purchase handcrafted pottery, fresh local produce, and interact with campesino vendors selling traditional highland goods."
+        },
+        {
+          "id": "ubaq_5",
+          "text": "Páramo Ecosystem Trek",
+          "detail": "Hike into the high-altitude páramo grasslands above the village where unique flora adapted to cool mountain conditions and rare wildlife thrive.",
+          "lat": 4.89,
+          "lng": -73.915
+        },
+        {
+          "id": "ubaq_6",
+          "text": "Casa del Artesano",
+          "detail": "Visit the artisan cooperative center where you can watch pottery demonstrations, purchase directly from makers, and learn about the ceramic heritage of Ubaqué."
+        }
+      ],
+      "food": [
+        {
+          "id": "ubaq_f1",
+          "text": "Ajiaco Cundiboyacense",
+          "detail": "A hearty local potato and chicken soup thickened with three varieties of potatoes unique to the Cundinamarca region, served with corn, avocado, and cream."
+        },
+        {
+          "id": "ubaq_f2",
+          "text": "Trucha Fresca",
+          "detail": "Fresh mountain trout caught from local streams and rivers, typically grilled simply with lemon and served with patacones and rice."
+        },
+        {
+          "id": "ubaq_f3",
+          "text": "Arepa de Queso",
+          "detail": "Warm corn arepas stuffed with melted local cheese, a breakfast staple eaten fresh from village bakeries in the early morning."
+        },
+        {
+          "id": "ubaq_f4",
+          "text": "Mazorca Asada",
+          "detail": "Charred corn on the cob roasted over an open fire, often sold by street vendors near the village center and served with local cheese and salt."
+        },
+        {
+          "id": "ubaq_f5",
+          "text": "Chicha de Maíz",
+          "detail": "A traditional sweet corn beverage made from fermented maize, prepared according to ancestral highland recipes and served at local fiestas and celebrations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ubaq_c1",
+          "text": "Pottery Purchase Etiquette",
+          "detail": "Buying directly from artisans in their studios is preferred over shops, as it ensures fair payment reaches the makers and allows meaningful conversation about their craft."
+        },
+        {
+          "id": "ubaq_c2",
+          "text": "Festival Timing",
+          "detail": "Plan visits around religious holidays and patron saint celebrations when the village hosts processions, market fairs, and traditional music performances."
+        },
+        {
+          "id": "ubaq_c3",
+          "text": "Mountain Weather Preparedness",
+          "detail": "Always carry a rain jacket and warm layer even on sunny days, as afternoon mountain rains are frequent and temperatures drop significantly above 3,000 meters elevation."
+        },
+        {
+          "id": "ubaq_c4",
+          "text": "Spanish Language Advantage",
+          "detail": "Speaking basic Spanish greatly enhances interactions with pottery artisans and locals who have limited English and appreciate visitors making effort to communicate in their language."
+        }
+      ]
+    },
+    {
+      "id": "nemcon",
+      "name": "Nemocón",
+      "nameIt": "Nemocón",
+      "lat": 5.0511,
+      "lng": -73.7733,
+      "type": "TOWN",
+      "description": "A historic salt mining town in the Cundinamarca highlands featuring an impressive underground salt mine with cathedral-like chambers and underground lake. The town itself retains colonial charm with traditional architecture and access to scenic mountain trails.",
+      "imageQueries": [
+        "Nemocón salt mine underground",
+        "Nemocón colonial town"
+      ],
+      "activities": [
+        {
+          "id": "nemc_1",
+          "text": "Nemocón Salt Mine Tour",
+          "detail": "Explore the underground cathedral-like chambers and brine pools of this 300-year-old salt mine, descending into chambers with soaring ceilings and an underground salt lake.",
+          "lat": 5.5217,
+          "lng": -73.7647
+        },
+        {
+          "id": "nemc_2",
+          "text": "Underground Lake",
+          "detail": "Visit the subterranean salt lake deep within the mine where mineral-rich brine glows under artificial lighting, creating an otherworldly atmosphere.",
+          "lat": 5.5217,
+          "lng": -73.7647
+        },
+        {
+          "id": "nemc_3",
+          "text": "Colonial Town Centre Walk",
+          "detail": "Stroll through Nemocón's historic plaza and surrounding streets to admire whitewashed buildings, traditional storefronts, and the town's preserved Spanish colonial architecture.",
+          "lat": 5.525,
+          "lng": -73.76
+        },
+        {
+          "id": "nemc_4",
+          "text": "Páramo and Mountain Trails",
+          "detail": "Hike the surrounding Cundinamarca highlands with trails offering views of high-altitude páramo grasslands and access to local viewpoints above the town.",
+          "lat": 5.53,
+          "lng": -73.75
+        },
+        {
+          "id": "nemc_5",
+          "text": "Local Artisan Market",
+          "detail": "Browse the town's craft shops and markets selling salt-derived products, local textiles, and handmade goods made by Nemocón residents.",
+          "lat": 5.524,
+          "lng": -73.762
+        }
+      ],
+      "food": [
+        {
+          "id": "nemc_f1",
+          "text": "Ajiaco",
+          "detail": "This hearty Cundinamarca potato and chicken soup, thickened with local potatoes and served with corn, avocado, and cream, is a regional staple found in every restaurant."
+        },
+        {
+          "id": "nemc_f2",
+          "text": "Trucha a la Sal",
+          "detail": "Fresh trout from local streams, baked in a salt crust using Nemocón salt, creating a tender, perfectly seasoned fish that highlights the local mining heritage."
+        },
+        {
+          "id": "nemc_f3",
+          "text": "Empanadas de Queso y Papa",
+          "detail": "Fried pastries filled with locally sourced cheese and mashed potatoes, sold warm at the market and in small family-run shops throughout town."
+        },
+        {
+          "id": "nemc_f4",
+          "text": "Mazorca",
+          "detail": "Grilled or boiled corn on the cob, a common street food and side dish at local eateries, often served with salt from the local mines."
+        },
+        {
+          "id": "nemc_f5",
+          "text": "Hot Chocolate with Arepa",
+          "detail": "A warming traditional breakfast pairing of thick Colombian hot chocolate with fresh cheese-filled arepas, served at small cafés throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nemc_c1",
+          "text": "Respect Mine Safety Rules",
+          "detail": "Follow all guide instructions strictly during the salt mine tour, as the underground passages have uneven terrain and the brine lakes are hazardous without proper precautions."
+        },
+        {
+          "id": "nemc_c2",
+          "text": "Dress for Altitude and Temperature",
+          "detail": "Nemocón sits at 2,650 meters elevation with cool temperatures year-round; bring layers and a jacket even if the weather seems warm in Bogotá."
+        },
+        {
+          "id": "nemc_c3",
+          "text": "Visit on Weekdays for Quiet Experience",
+          "detail": "The town and salt mine are much busier on weekends with tour groups from Bogotá, so weekday visits offer a more authentic and peaceful experience of local life."
+        },
+        {
+          "id": "nemc_c4",
+          "text": "Support Local Family Businesses",
+          "detail": "Nemocón's economy relies on small family-run restaurants, shops, and informal guides; prioritize local establishments over chain services when possible."
+        }
+      ]
+    },
+    {
+      "id": "chia",
+      "name": "Chía",
+      "nameIt": "Chía",
+      "lat": 4.8589,
+      "lng": -74.0292,
+      "type": "TOWN",
+      "description": "An upscale suburb north of Bogotá known for its ecological parks, shopping areas, and residential development, while maintaining some colonial heritage. Popular for weekend getaways, it offers green spaces, restaurants, and serves as a base for exploring northern Cundinamarca.",
+      "imageQueries": [
+        "Chía Colombia parks",
+        "Chía suburb Bogotá"
+      ],
+      "activities": [
+        {
+          "id": "chia_1",
+          "text": "Parque Arqueológico de Chía",
+          "detail": "Explore pre-Columbian Muisca heritage at this archaeological site featuring ancient ceremonial structures and a small museum documenting the region's indigenous history.",
+          "lat": 4.8611,
+          "lng": -74.0306
+        },
+        {
+          "id": "chia_2",
+          "text": "Laguna de Chía",
+          "detail": "Visit this scenic wetland reserve ideal for birdwatching, nature walks, and photography, home to numerous species of migratory and resident birds.",
+          "lat": 4.8583,
+          "lng": -74.0278
+        },
+        {
+          "id": "chia_3",
+          "text": "Centro Comercial Chía",
+          "detail": "Browse upscale shops, international brands, and dining outlets at this modern shopping center that serves as a social hub for locals and visitors.",
+          "lat": 4.8667,
+          "lng": -74.0389
+        },
+        {
+          "id": "chia_4",
+          "text": "Vereda El Aposentos Ecological Reserve",
+          "detail": "Trek through protected mountain terrain with hiking trails offering views of the Bogotá savanna and opportunities to spot native flora and fauna.",
+          "lat": 4.8722,
+          "lng": -74.0167
+        },
+        {
+          "id": "chia_5",
+          "text": "Church of Nuestra Señora de Chía",
+          "detail": "Admire this colonial-era church in the town center, featuring traditional whitewashed architecture and hosting local religious celebrations and events."
+        },
+        {
+          "id": "chia_6",
+          "text": "Ciclovía de Chía",
+          "detail": "Join the weekend cycling route where main roads close to cars, allowing locals and visitors to bike through residential areas and green spaces safely."
+        }
+      ],
+      "food": [
+        {
+          "id": "chia_f1",
+          "text": "Ajiaco Bogotano",
+          "detail": "Sample this iconic Cundinamarca potato and chicken soup served with corn, avocado, and cream, warming and hearty for the cool highland climate."
+        },
+        {
+          "id": "chia_f2",
+          "text": "Trucha a la Mantequilla",
+          "detail": "Enjoy fresh local trout prepared with butter and herbs, sourced from the region's mountain streams and served in upscale restaurants throughout Chía."
+        },
+        {
+          "id": "chia_f3",
+          "text": "Empanadas de Queso",
+          "detail": "Taste fried pastry pockets filled with fresh cheese, a ubiquitous street food and bakery staple that locals enjoy as a quick breakfast or snack."
+        },
+        {
+          "id": "chia_f4",
+          "text": "Papas con Queso y Huevo",
+          "detail": "Try boiled potatoes served with melted cheese and fried egg, a simple comfort dish reflecting the region's agricultural tradition and highland cuisine."
+        },
+        {
+          "id": "chia_f5",
+          "text": "Fresh Mora Juice",
+          "detail": "Drink freshly blended blackberry juice from local farms, naturally sweet and refreshing, commonly served at juice bars and markets."
+        }
+      ],
+      "culture": [
+        {
+          "id": "chia_c1",
+          "text": "Weekend retreat culture",
+          "detail": "Chía functions as a primary weekend destination for Bogotá residents escaping the city, so expect busier restaurants, shops, and parks on Saturdays and Sundays."
+        },
+        {
+          "id": "chia_c2",
+          "text": "Muisca heritage awareness",
+          "detail": "The town's identity is tied to pre-Columbian Muisca civilization, so local museums, tours, and place names reflect this indigenous legacy throughout the community."
+        },
+        {
+          "id": "chia_c3",
+          "text": "Altitude and dress code",
+          "detail": "Chía sits at 2,640 meters elevation with cool temperatures year-round; bring layers and a light jacket even during dry seasons for comfortable visits."
+        },
+        {
+          "id": "chia_c4",
+          "text": "Spanish-first environment",
+          "detail": "While tourism is growing, English is limited outside major hotels and restaurants, so learning basic Spanish phrases enhances interactions with locals and service providers."
+        }
+      ]
+    },
+    {
+      "id": "laguna_herrera",
+      "name": "Laguna de Herrera",
+      "nameIt": "Laguna de Herrera",
+      "lat": 4.9208,
+      "lng": -74.0778,
+      "type": "NATURE",
+      "description": "A scenic high-altitude lagoon in the mountains east of Bogotá surrounded by páramo ecosystem and offering excellent hiking opportunities. The pristine alpine lake and surrounding moorlands provide a peaceful natural escape with stunning views.",
+      "imageQueries": [
+        "Laguna Herrera lake hiking",
+        "Laguna Herrera páramo"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Laguna de Herrera Circumnavigation Hike",
+          "detail": "A moderate 8-10 km loop trail around the entire lagoon offering 360-degree views of the alpine lake and surrounding páramo grasslands.",
+          "lat": 4.8967,
+          "lng": -73.9467
+        },
+        {
+          "id": "lagu_2",
+          "text": "Páramo Ecosystem Walking Tour",
+          "detail": "Guided walk through the unique high-altitude moorland to observe endemic plants like frailejones, Andean birds, and white-tailed deer in their natural habitat."
+        },
+        {
+          "id": "lagu_3",
+          "text": "Sunrise Photography at Laguna de Herrera",
+          "detail": "Early morning visit to capture mist rising from the lagoon and golden light illuminating the surrounding peaks, best accessed by 5 AM start from nearby trailhead.",
+          "lat": 4.8967,
+          "lng": -73.9467
+        },
+        {
+          "id": "lagu_4",
+          "text": "Peak Ascent to Adjoining Summits",
+          "detail": "Technical day hike to nearby mountain peaks exceeding 3,600 meters elevation with panoramic views across the Cordillera Oriental."
+        },
+        {
+          "id": "lagu_5",
+          "text": "Picnic and Meditation by the Shoreline",
+          "detail": "Pack a traditional Colombian lunch and spend afternoon on the lagoon's grassy banks enjoying the pristine mountain silence and reflection.",
+          "lat": 4.8967,
+          "lng": -73.9467
+        },
+        {
+          "id": "lagu_6",
+          "text": "Birdwatching for Andean Species",
+          "detail": "Search for endemic species including the Andean condor, mountain tapir birds, and high-altitude hummingbirds with binoculars and field guide."
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Ajiaco Cundinamarqués",
+          "detail": "A hearty potato and chicken soup thickened with local potatoes from mountain villages, served with avocado and corn—ideal after a cold hike."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Trucha Fresca de la Región",
+          "detail": "Fresh rainbow trout caught from high-altitude streams near Bogotá and prepared simply grilled or in creamy sauce with mountain herbs."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Empanadas de Queso y Papa",
+          "detail": "Fried pastry pockets filled with fresh cheese and locally-grown potatoes, a convenient trail snack sold at base village shops."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Mazorca Asada con Queso Fresco",
+          "detail": "Roasted corn on the cob served with crumbly local fresh cheese and salt, a traditional páramo-region street food."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Caldo de Costilla",
+          "detail": "A warming broth made from beef ribs and root vegetables native to the high mountains, served hot at village restaurants near trailheads."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Arrive Well Before Afternoon Weather",
+          "detail": "Mountain storms develop rapidly in afternoons at high altitude, so plan to reach the lagoon by mid-morning and descend by 2 PM to avoid dangerous conditions."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Acclimatization Time Essential",
+          "detail": "The lagoon sits above 3,300 meters elevation; spend at least one night in Bogotá or higher villages before visiting to prevent altitude sickness symptoms."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Hire Local Guides for Safety",
+          "detail": "Indigenous and local Cundinamarca guides know weather patterns, wildlife, and safe routes intimately—their knowledge enhances both safety and cultural understanding."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Respect Protected Páramo Boundaries",
+          "detail": "The area is part of Colombia's páramo conservation zone; stay on marked trails, pack out all waste, and never remove plants or collect firewood to preserve this fragile ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "diplo_quarter",
+      "name": "Zona Rosa & Chapinero",
+      "nameIt": "Zona Rosa y Chapinero",
+      "lat": 4.719,
+      "lng": -74.047,
+      "type": "LANDMARK",
+      "description": "Bogotá's modern upscale districts featuring contemporary art galleries, designer shops, trendy restaurants, rooftop bars, and nightlife venues. These neighborhoods showcase the city's cosmopolitan side and are hubs for nightlife, dining, and cultural events.",
+      "imageQueries": [
+        "Zona Rosa Bogotá nightlife",
+        "Chapinero Bogotá restaurants"
+      ],
+      "activities": [
+        {
+          "id": "dipl_1",
+          "text": "Museo de Arte Miguel Urrutia",
+          "detail": "A refined contemporary art museum housed in a colonial mansion showcasing Colombian and Latin American works in an intimate gallery setting.",
+          "lat": 4.6008,
+          "lng": -74.0721
+        },
+        {
+          "id": "dipl_2",
+          "text": "Galería Sanitas",
+          "detail": "A cutting-edge art gallery in Chapinero specializing in contemporary Colombian and international artists with rotating exhibitions.",
+          "lat": 4.6097,
+          "lng": -74.0596
+        },
+        {
+          "id": "dipl_3",
+          "text": "Zona Rosa street gallery walk",
+          "detail": "Stroll through the pedestrian streets lined with high-end boutiques, designer shops, and street art installations reflecting Bogotá's cosmopolitan culture.",
+          "lat": 4.6055,
+          "lng": -74.0707
+        },
+        {
+          "id": "dipl_4",
+          "text": "Rooftop bars at sunset",
+          "detail": "Experience elevated views of the Andes mountains and city skyline from venues like Andrés DC or similar rooftop lounges popular in both neighborhoods.",
+          "lat": 4.607,
+          "lng": -74.0695
+        },
+        {
+          "id": "dipl_5",
+          "text": "Usaquén artisan market day trip",
+          "detail": "Visit the historic colonial neighborhood just north of Chapinero for Sunday artisan fairs featuring local crafts, antiques, and street food.",
+          "lat": 4.6244,
+          "lng": -74.0497
+        },
+        {
+          "id": "dipl_6",
+          "text": "Teatro Colón tour",
+          "detail": "Explore one of South America's finest opera houses with guided tours of its ornate neoclassical architecture and historic cultural significance.",
+          "lat": 4.597,
+          "lng": -74.0741
+        }
+      ],
+      "food": [
+        {
+          "id": "dipl_f1",
+          "text": "Ajiaco Bogotano",
+          "detail": "A warming creamy potato soup with chicken, corn, and avocado served with sour cream and rice, considered Bogotá's signature comfort dish."
+        },
+        {
+          "id": "dipl_f2",
+          "text": "Bandeja Paisa-inspired plates",
+          "detail": "High-end reinterpretations of Colombia's mountain region platter featuring beans, rice, chorizo, arepa, and topped with an egg in upscale Zona Rosa restaurants."
+        },
+        {
+          "id": "dipl_f3",
+          "text": "Fresh trout (trucha) from mountain streams",
+          "detail": "Locally sourced freshwater fish prepared simply grilled or in tomato-based sauces, showcasing Cundinamarca's highland cuisine at contemporary dining venues."
+        },
+        {
+          "id": "dipl_f4",
+          "text": "Empanadas de queso y papa",
+          "detail": "Golden fried pastries filled with melted cheese and potato, available from casual spots and food vendors throughout both neighborhoods."
+        },
+        {
+          "id": "dipl_f5",
+          "text": "Specialty coffee tastings",
+          "detail": "Third-wave coffee experiences in trendy cafés throughout Chapinero and Zona Rosa highlighting single-origin beans from Colombian mountain regions."
+        },
+        {
+          "id": "dipl_f6",
+          "text": "Ceviche and ceviches variations",
+          "detail": "Fresh seafood ceviche preparations reflecting Peru's influence but adapted with local tropical fruits and served in upscale Zona Rosa restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "dipl_c1",
+          "text": "Dress code expectations",
+          "detail": "Both neighborhoods are upscale and fashionable; locals dress stylishly for evenings out, and casual athletic wear is generally reserved for daytime."
+        },
+        {
+          "id": "dipl_c2",
+          "text": "Spanish language basics appreciated",
+          "detail": "While English is spoken in tourist areas and restaurants, attempting Spanish phrases earns respect and enhances interactions with shopkeepers and service staff."
+        },
+        {
+          "id": "dipl_c3",
+          "text": "Security awareness at night",
+          "detail": "Though these are safer neighborhoods, avoid walking alone late at night and use registered taxis or ride-sharing apps rather than hailing cabs on the street."
+        },
+        {
+          "id": "dipl_c4",
+          "text": "Social dining hours",
+          "detail": "Dinner service typically begins around 7 PM with locals dining much later; restaurants fill after 9 PM, reflecting Bogotá's nightlife culture."
+        }
+      ]
+    },
+    {
+      "id": "museo_nacional",
+      "name": "National Museum",
+      "nameIt": "Museo Nacional de Colombia",
+      "lat": 4.7236,
+      "lng": -74.0237,
+      "type": "LANDMARK",
+      "description": "One of South America's most important museums housed in a striking building that was formerly a prison, with extensive collections of Colombian art, archaeology, and cultural artifacts. Its exhibits span from pre-Hispanic times through contemporary art, reflecting the nation's diverse heritage.",
+      "imageQueries": [
+        "Museo Nacional Colombia building",
+        "Museo Nacional exhibits"
+      ],
+      "activities": [
+        {
+          "id": "muse_1",
+          "text": "Explore Pre-Hispanic Gold Collection",
+          "detail": "View one of the world's largest collections of pre-Columbian gold artifacts, including the famous Muisca raft and ornaments from civilizations across Colombia.",
+          "lat": 4.4012,
+          "lng": -74.0075
+        },
+        {
+          "id": "muse_2",
+          "text": "Tour the Former Prison Architecture",
+          "detail": "Examine the striking neoclassical building that served as a prison until 1946, with visible cell blocks and corridors now integrated into the museum's layout.",
+          "lat": 4.4012,
+          "lng": -74.0075
+        },
+        {
+          "id": "muse_3",
+          "text": "Visit the Contemporary Art Wing",
+          "detail": "Discover modern and contemporary Colombian artworks spanning the 20th and 21st centuries, featuring pieces by renowned artists like Fernando Botero.",
+          "lat": 4.4012,
+          "lng": -74.0075
+        },
+        {
+          "id": "muse_4",
+          "text": "Examine Archaeological Ceramics and Textiles",
+          "detail": "Study intricately crafted pottery and woven textiles from various Colombian indigenous groups that showcase sophisticated pre-Hispanic artistic techniques.",
+          "lat": 4.4012,
+          "lng": -74.0075
+        },
+        {
+          "id": "muse_5",
+          "text": "Review the Ethnographic Collections",
+          "detail": "Observe artifacts and displays documenting the customs, dress, and daily life of Colombia's diverse indigenous and Afro-Colombian communities.",
+          "lat": 4.4012,
+          "lng": -74.0075
+        },
+        {
+          "id": "muse_6",
+          "text": "Walk the Museum Gardens",
+          "detail": "Stroll through the peaceful courtyard and garden spaces that provide respite between galleries and offer views of the building's colonial-era architecture.",
+          "lat": 4.4012,
+          "lng": -74.0075
+        }
+      ],
+      "food": [
+        {
+          "id": "muse_f1",
+          "text": "Ajiaco Bogotano",
+          "detail": "A hearty local potato and chicken soup from the Bogotá region, served with avocado, corn, and sour cream, perfect for the cool highland climate."
+        },
+        {
+          "id": "muse_f2",
+          "text": "Empanadas",
+          "detail": "Deep-fried pastries filled with meat, potatoes, or cheese, commonly sold by street vendors near the museum and throughout La Candelaria neighborhood."
+        },
+        {
+          "id": "muse_f3",
+          "text": "Bandeja Paisa-style Platter",
+          "detail": "While originating from Medellín, variations are served in Bogotá featuring beans, rice, meat, and arepa for a substantial Colombian meal."
+        },
+        {
+          "id": "muse_f4",
+          "text": "Arepa con Queso",
+          "detail": "A warm cornmeal cake stuffed with melted cheese, a staple street food available at cafés and vendors surrounding the museum."
+        },
+        {
+          "id": "muse_f5",
+          "text": "Fresh Fruit Juices (Jugos Naturales)",
+          "detail": "Freshly pressed tropical fruit drinks like lulo, guanabana, or passion fruit, reflecting Colombia's agricultural abundance and available at museum cafés."
+        }
+      ],
+      "culture": [
+        {
+          "id": "muse_c1",
+          "text": "Arrive Early to Beat Crowds",
+          "detail": "Visit in the morning, especially on weekdays, as the museum draws significant tourist traffic and school groups, particularly on weekends."
+        },
+        {
+          "id": "muse_c2",
+          "text": "Respect Photography Restrictions",
+          "detail": "Many galleries prohibit flash photography and some restrict photos entirely; check signage carefully and ask staff before photographing artifacts."
+        },
+        {
+          "id": "muse_c3",
+          "text": "Dress for Cool Temperatures",
+          "detail": "Bogotá sits at 2,640 meters elevation with cool weather year-round, so bring a light jacket even if it's sunny, as the museum's corridors can be chilly."
+        },
+        {
+          "id": "muse_c4",
+          "text": "Allow Time for Contemplation",
+          "detail": "Colombian museum culture values thoughtful observation over rushed viewing, so plan to spend 2-3 hours and engage deeply with exhibits rather than moving quickly."
+        }
+      ]
+    },
+    {
+      "id": "villa_leyva",
+      "name": "Villa de Leyva",
+      "nameLocal": "Villa de Leyva",
+      "type": "TOWN",
+      "lat": 5.6389,
+      "lng": -73.5372,
+      "description": "A charming colonial mountain town featuring a large main plaza, whitewashed buildings, and surrounding natural attractions. It appeals to tourists seeking a picturesque Andean village atmosphere, outdoor activities, and proximity to archaeological sites.",
+      "activities": [],
+      "food": [],
+      "culture": []
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Harry Sasson",
+      "address": "Carrera 9 No. 77-49, Bogotá",
+      "neighbourhood": "Barrio Chapinero",
+      "cuisine": "Contemporary Colombian",
+      "priceRange": "€€€€",
+      "description": "Colombia's most acclaimed restaurant offering innovative takes on local ingredients with impeccable technique and presentation.",
+      "mustOrder": "Tasting menu with seasonal preparations",
+      "lat": 4.7211,
+      "lng": -74.0456
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "Central Cevichería",
+      "address": "Carrera 5 No. 26-90, Bogotá",
+      "neighbourhood": "La Candelaria",
+      "cuisine": "Peruvian Seafood",
+      "priceRange": "€€€",
+      "description": "Upscale Peruvian seafood restaurant in the historic center serving exceptional ceviches and fresh fish preparations.",
+      "mustOrder": "Ceviche mixto with tiger's milk",
+      "lat": 4.7169,
+      "lng": -74.0722
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Andres Carne de Res",
+      "address": "Calle 3 No. 11-56, Bogotá",
+      "neighbourhood": "La Candelaria",
+      "cuisine": "Colombian Steakhouse",
+      "priceRange": "€€€",
+      "description": "Iconic carnivore destination with theatrical ambiance featuring massive grilled meats and traditional Colombian sides.",
+      "mustOrder": "Carne a la piedra (steak cooked on hot stone)",
+      "lat": 4.7194,
+      "lng": -74.0768
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "Distrito Cuatro",
+      "address": "Carrera 13 No. 85-46, Bogotá",
+      "neighbourhood": "Usaquén",
+      "cuisine": "Contemporary Latin",
+      "priceRange": "€€€",
+      "description": "Chef's table experience in an intimate setting featuring artistic plating and creative interpretations of Latin American flavors.",
+      "mustOrder": "Chef's multi-course tasting menu",
+      "lat": 4.7297,
+      "lng": -74.0345
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Leo",
+      "address": "Carrera 11 No. 86-49, Bogotá",
+      "neighbourhood": "Usaquén",
+      "cuisine": "Contemporary Colombian",
+      "priceRange": "€€€€",
+      "description": "Fine dining restaurant showcasing refined Colombian cuisine with artistic presentation and carefully curated wine pairings.",
+      "mustOrder": "Langostinos a la mantequilla (butter prawns)",
+      "lat": 4.7315,
+      "lng": -74.0321
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Juaneros",
+      "address": "Carrera 9 No. 59-83, Bogotá",
+      "neighbourhood": "Teusaquillo",
+      "cuisine": "Colombian Comfort Food",
+      "priceRange": "€",
+      "description": "Casual neighborhood spot renowned for authentic arepas, empanadas, and traditional Colombian breakfast dishes at unbeatable prices.",
+      "mustOrder": "Arepa con queso y jamón (cheese and ham arepa)",
+      "lat": 4.7281,
+      "lng": -74.0522
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Criterion",
+      "address": "Carrera 13 No. 38-71, Bogotá",
+      "neighbourhood": "Barrio Pardo Rubio",
+      "cuisine": "International Fine Dining",
+      "priceRange": "€€€€",
+      "description": "High-end restaurant with French-influenced cuisine and extensive wine cellar offering elegant presentations of European techniques.",
+      "mustOrder": "Duck breast with cherry gastrique",
+      "lat": 4.7405,
+      "lng": -74.0418
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "El Club",
+      "address": "Carrera 7 No. 24-89, Bogotá",
+      "neighbourhood": "La Candelaria",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Upscale Mediterranean restaurant in a historic colonial building serving Italian and Spanish-influenced cuisine in an elegant atmosphere.",
+      "mustOrder": "Pasta al tartufo (truffle pasta)",
+      "lat": 4.7161,
+      "lng": -74.0744
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Ala Turca",
+      "address": "Calle 72 No. 12-41, Bogotá",
+      "neighbourhood": "Chapinero",
+      "cuisine": "Turkish",
+      "priceRange": "€€",
+      "description": "Authentic Turkish cuisine featuring kebabs, mezze platters, and wood-fired breads in a warm, welcoming neighborhood setting.",
+      "mustOrder": "Adana kebab with lahmacun",
+      "lat": 4.7186,
+      "lng": -74.0489
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Tampequeño",
+      "address": "Calle 24 No. 5-41, Zipaquirá",
+      "neighbourhood": "Zipaquirá",
+      "cuisine": "Colombian Traditional",
+      "priceRange": "€",
+      "description": "Family-run restaurant in the salt cathedral town specializing in local trout, ajiaco, and traditional Cundinamarca dishes.",
+      "mustOrder": "Trucha a la mantequilla (buttered trout)",
+      "lat": 5.0293,
+      "lng": -73.9625
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Checua",
+      "address": "Calle 11 No. 6-85, Ubaté",
+      "neighbourhood": "Ubaté",
+      "cuisine": "Colombian Regional",
+      "priceRange": "€€",
+      "description": "Restaurant in the dairy heartland of Cundinamarca known for fresh cheese-based dishes, local soups, and farm-to-table preparations.",
+      "mustOrder": "Quesadilla ubatense with local fresh cheese",
+      "lat": 5.4135,
+      "lng": -73.8976
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Andromeda",
+      "address": "Carrera 2 No. 21-60, Montserrate",
+      "neighbourhood": "Montserrate",
+      "cuisine": "Colombian Vegetarian",
+      "priceRange": "€",
+      "description": "Health-conscious restaurant on the mountain shrine serving fresh vegetarian dishes, fresh juices, and light meals for pilgrims and tourists.",
+      "mustOrder": "Ensalada de quinoa with local vegetables",
+      "lat": 4.7629,
+      "lng": -74.0449
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Punto G",
+      "address": "Calle 27 No. 2-06, Guatavita",
+      "neighbourhood": "Guatavita",
+      "cuisine": "Colombian Contemporary",
+      "priceRange": "€€",
+      "description": "Scenic restaurant overlooking the lagoon featuring local ingredients, fresh water fish, and traditional Cundinamarca recipes.",
+      "mustOrder": "Bagre a la criolla (catfish in creole sauce)",
+      "lat": 5.4301,
+      "lng": -73.8769
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Casa Medina",
+      "address": "Carrera 7 No. 32-45, Bogotá",
+      "neighbourhood": "La Candelaria",
+      "cuisine": "Spanish Tapas",
+      "priceRange": "€€",
+      "description": "Vibrant tapas bar in the historic center serving Spanish classics with Colombian touches and an excellent selection of Spanish wines.",
+      "mustOrder": "Jamón ibérico with pan con tomate",
+      "lat": 4.7175,
+      "lng": -74.0716
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Maido",
+      "address": "Carrera 11A No. 82-45, Bogotá",
+      "neighbourhood": "Usaquén",
+      "cuisine": "Japanese Nikkei",
+      "priceRange": "€€€",
+      "description": "Contemporary Japanese-Peruvian fusion restaurant crafting innovative sushi and ceviche combinations with artistic plating.",
+      "mustOrder": "Nikkei tasting menu with tiraditos",
+      "lat": 4.7309,
+      "lng": -74.0338
+    }
+  ]
+}

@@ -1,0 +1,1122 @@
+{
+  "id": "los_rios",
+  "name": "Los Ríos",
+  "nameIt": "Los Ríos",
+  "capital": "Valdivia",
+  "lat": -39.5,
+  "lng": -72.5,
+  "emoji": "🚣",
+  "colour": "ff2196f3",
+  "boundingBox": {
+    "north": -38.5,
+    "south": -40.5,
+    "east": -71,
+    "west": -73.5
+  },
+  "history": "Los Ríos region, located in southern Chile, was originally inhabited by the Mapuche people for centuries before Spanish colonization in the 16th century. The area became an important settlement zone during the colonial period, with cities like Valdivia established as strategic strongholds. The region experienced significant development during the 19th and 20th centuries, particularly in agriculture, forestry, and fishing industries. Today, Los Ríos remains a vital economic and cultural center in the southern zone of Chile.",
+  "culturalNotes": "Los Ríos is known for its strong German influence, visible in its architecture, cuisine, and cultural traditions, stemming from 19th-century European immigration. The region maintains deep connections to indigenous Mapuche heritage, evident in local crafts, food, and celebrations that blend native and European traditions. The area is characterized by its lush landscapes, passionate culinary scene featuring local cheeses and seafood, and a distinctive warm hospitality that defines southern Chilean culture.",
+  "bestTimeToVisit": "Visit December to February for warm weather to explore rivers, lakes, and lush temperate forests.",
+  "languageNotes": "Spanish is the primary language spoken in Los Ríos, though the local dialect carries the softer pronunciation typical of southern Chile. Useful phrases include \"¿Qué tal?\" for a casual greeting and \"Una cerveza local, por favor\" to order one of the region's popular craft beers.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 9,
+  "places": [
+    {
+      "id": "valdivia",
+      "name": "Valdivia",
+      "nameIt": "Valdivia",
+      "lat": -39.814,
+      "lng": -73.246,
+      "type": "CITY",
+      "description": "The regional capital and largest city, founded in 1552, sits at the confluence of three rivers with a rich colonial and maritime history. Its charming riverside setting, German-influenced architecture, and excellent museums make it the essential base for exploring Los Ríos.",
+      "imageQueries": [
+        "Valdivia Chile city rivers",
+        "Valdivia colonial architecture"
+      ],
+      "activities": [
+        {
+          "id": "vald_1",
+          "text": "Castillo de Niebla",
+          "detail": "A 17th-century Spanish fortress on an island at the mouth of the Valdivia River, now a museum showcasing colonial military history and coastal defense.",
+          "lat": -39.8347,
+          "lng": -73.3869
+        },
+        {
+          "id": "vald_2",
+          "text": "Mercado Fluvial",
+          "detail": "A bustling riverside market selling fresh seafood, produce, and local crafts directly along the Calle Arturo Prat waterfront.",
+          "lat": -39.8143,
+          "lng": -73.2447
+        },
+        {
+          "id": "vald_3",
+          "text": "Museo Philippi",
+          "detail": "The city's foremost natural history museum featuring Chilean fauna, minerals, and ethnographic artifacts from the region.",
+          "lat": -39.8167,
+          "lng": -73.2417
+        },
+        {
+          "id": "vald_4",
+          "text": "Paseo Costanero",
+          "detail": "A scenic riverside walk along the confluence of the Calle-Calle, Valdivia, and Cruces rivers lined with cafés, shops, and German colonial buildings.",
+          "lat": -39.815,
+          "lng": -73.245
+        },
+        {
+          "id": "vald_5",
+          "text": "Torreón del Barro",
+          "detail": "A reconstructed colonial watchtower offering panoramic views of the three rivers and the city's German-influenced architecture.",
+          "lat": -39.81,
+          "lng": -73.25
+        },
+        {
+          "id": "vald_6",
+          "text": "Cervecerías District",
+          "detail": "A neighborhood famous for craft breweries and beer gardens reflecting the city's strong German immigrant heritage."
+        }
+      ],
+      "food": [
+        {
+          "id": "vald_f1",
+          "text": "Curanto",
+          "detail": "A traditional Chilote stew cooked in an earth pit with shellfish, meat, potatoes, and herbs, widely available in Valdivia restaurants."
+        },
+        {
+          "id": "vald_f2",
+          "text": "Fresh River Fish (Truchas y Salmones)",
+          "detail": "Locally caught trout and salmon from the surrounding rivers, typically grilled simply or prepared in butter and lemon at waterfront venues."
+        },
+        {
+          "id": "vald_f3",
+          "text": "Empanadas de Mariscos",
+          "detail": "Pastry-wrapped pockets filled with regional shellfish like mussels, clams, and crab, a street food staple throughout the city."
+        },
+        {
+          "id": "vald_f4",
+          "text": "Kuchen",
+          "detail": "German-influenced fruit cakes and pastries sold in local bakeries, a legacy of 19th-century immigration and still central to Valdivia's café culture."
+        },
+        {
+          "id": "vald_f5",
+          "text": "Chupe de Mariscos",
+          "detail": "A creamy shellfish soup combining local seafood with potatoes and topped with melted cheese, a warming coastal specialty."
+        }
+      ],
+      "culture": [
+        {
+          "id": "vald_c1",
+          "text": "German Heritage Remains Visible",
+          "detail": "The city's 19th-century German immigrant influence is evident in beer culture, architectural style, and local surnames, making it distinct from other Chilean cities."
+        },
+        {
+          "id": "vald_c2",
+          "text": "River Commerce Still Central",
+          "detail": "The Mercado Fluvial and waterfront remain the heart of daily commerce and social life, so visiting early morning captures authentic local rhythms."
+        },
+        {
+          "id": "vald_c3",
+          "text": "Festival Season Peaks in February",
+          "detail": "Carnaval Valdivia in February brings street parades, live music, and beer tents; plan visits around this if seeking local celebration or avoid crowds if preferring quiet exploration."
+        }
+      ]
+    },
+    {
+      "id": "niebla",
+      "name": "Niebla",
+      "nameIt": "Niebla",
+      "lat": -39.8333,
+      "lng": -73.4167,
+      "type": "COASTAL",
+      "description": "A charming coastal village at the mouth of the Valdivia River, famous for its 17th-century Fuerte de Niebla fortress and dramatic sea cliffs. This picturesque spot offers fresh seafood, coastal walks, and a tangible sense of colonial history with stunning ocean views.",
+      "imageQueries": [
+        "Niebla fortress Chile coast",
+        "Fuerte de Niebla Valdivia"
+      ],
+      "activities": [
+        {
+          "id": "nieb_1",
+          "text": "Explore Fuerte de Niebla",
+          "detail": "Tour the restored 17th-century fortress perched on the headland, featuring original cannons, stone walls, and exhibits on colonial military history with panoramic river and ocean views.",
+          "lat": -39.8478,
+          "lng": -73.4189
+        },
+        {
+          "id": "nieb_2",
+          "text": "Walk the Coastal Cliffs Trail",
+          "detail": "Hike along the dramatic sea cliffs that frame Niebla's entrance to the Pacific, offering spectacular vistas of crashing waves and the Valdivia River mouth.",
+          "lat": -39.8512,
+          "lng": -73.4156
+        },
+        {
+          "id": "nieb_3",
+          "text": "Visit the Niebla Lighthouse",
+          "detail": "Climb to the working lighthouse at the village's edge for sweeping views of the coastline and to observe the convergence of river and ocean currents.",
+          "lat": -39.8502,
+          "lng": -73.4198
+        },
+        {
+          "id": "nieb_4",
+          "text": "Take a Valdivia River Boat Tour",
+          "detail": "Experience a guided boat excursion up the Valdivia River from Niebla to see the estuary's wildlife, mangrove-like vegetation, and nearby colonial forts from the water.",
+          "lat": -39.8478,
+          "lng": -73.4189
+        },
+        {
+          "id": "nieb_5",
+          "text": "Stroll the Waterfront Promenade",
+          "detail": "Walk the scenic seafront path lined with local restaurants and artisan shops, offering intimate views of fishing boats and the river's daily rhythms."
+        },
+        {
+          "id": "nieb_6",
+          "text": "Visit the Local Museum",
+          "detail": "Explore Niebla's small heritage museum housed near the fortress, displaying artifacts from indigenous Mapuche culture and Spanish colonial settlement."
+        }
+      ],
+      "food": [
+        {
+          "id": "nieb_f1",
+          "text": "Fresh Centolla (King Crab)",
+          "detail": "Sample locally-caught southern king crab, typically served simply grilled or in creamy sauces, showcasing the cold Pacific waters' premium crustaceans."
+        },
+        {
+          "id": "nieb_f2",
+          "text": "Curanto",
+          "detail": "Try this traditional Chiloé seafood and meat stew cooked in a pit with potatoes and vegetables, reflecting the region's indigenous and colonial culinary heritage."
+        },
+        {
+          "id": "nieb_f3",
+          "text": "Pastel de Jaiba (Crab Pie)",
+          "detail": "Enjoy a warm, savory pie filled with local crab meat, cheese, and béchamel sauce, a beloved coastal comfort food throughout Los Ríos."
+        },
+        {
+          "id": "nieb_f4",
+          "text": "Fresh-Caught Fish Ceviche",
+          "detail": "Taste razor-sharp ceviche made from daily fish catches, lime-cured and served with local avocados and cilantro at waterfront restaurants."
+        },
+        {
+          "id": "nieb_f5",
+          "text": "Empanadas de Mariscos",
+          "detail": "Bite into golden-fried pastries filled with mixed seafood, onions, and spices, sold by vendors along the promenade and at local bakeries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "nieb_c1",
+          "text": "Respect Fort Hours and Entry Fees",
+          "detail": "Plan visits to Fuerte de Niebla during posted opening hours (typically mornings and early afternoons) and bring small cash for modest entry donations to support maintenance."
+        },
+        {
+          "id": "nieb_c2",
+          "text": "Learn Basic Spanish Phrases",
+          "detail": "While some restaurant owners speak English, Niebla remains a quiet village where Spanish speakers will find warmer interactions and better access to local stories and recommendations."
+        },
+        {
+          "id": "nieb_c3",
+          "text": "Dress for Wind and Weather",
+          "detail": "The coastal position means constant ocean winds and sudden rain showers; locals dress in layers and waterproof jackets even in summer months."
+        },
+        {
+          "id": "nieb_c4",
+          "text": "Support Local Artisans",
+          "detail": "Small family-run restaurants and craft shops depend on visitor patronage; buying directly from locals and eating at family-owned establishments strengthens the community."
+        }
+      ]
+    },
+    {
+      "id": "corral",
+      "name": "Corral",
+      "nameIt": "Corral",
+      "lat": -39.8667,
+      "lng": -73.3333,
+      "type": "COASTAL",
+      "description": "A historic port town across from Niebla with its own 16th-century fortress and weathered colonial character overlooking the bay. It's an atmospheric place for exploring maritime heritage and enjoying authentic local seafood restaurants with bay views.",
+      "imageQueries": [
+        "Corral Chile fortress bay",
+        "Corral coastal town Valdivia"
+      ],
+      "activities": [
+        {
+          "id": "corr_1",
+          "text": "Castillo de Corral",
+          "detail": "Explore the 16th-century Spanish fortress with restored cannons and walls overlooking the bay, offering insights into colonial military architecture and local history.",
+          "lat": -39.8769,
+          "lng": -73.3578
+        },
+        {
+          "id": "corr_2",
+          "text": "Waterfront Stroll",
+          "detail": "Walk along the bay's edge past weathered colonial buildings, fishing boats, and sea views that capture the town's authentic maritime character.",
+          "lat": -39.879,
+          "lng": -73.356
+        },
+        {
+          "id": "corr_3",
+          "text": "Niebla Fortress Visit",
+          "detail": "Cross the bay by small boat or ferry to see Castillo de Niebla, Corral's sister fortress, and understand the region's dual defensive system.",
+          "lat": -39.8756,
+          "lng": -73.3648
+        },
+        {
+          "id": "corr_4",
+          "text": "Local Museum",
+          "detail": "Visit the small heritage museum displaying artifacts from the colonial period and maritime history of the Corral-Niebla fortresses.",
+          "lat": -39.8765,
+          "lng": -73.3575
+        },
+        {
+          "id": "corr_5",
+          "text": "Bay Fishing Boat Tours",
+          "detail": "Join local fishermen on short trips into the bay to experience working maritime life and spot native seabirds and coastal wildlife.",
+          "lat": -39.879,
+          "lng": -73.356
+        }
+      ],
+      "food": [
+        {
+          "id": "corr_f1",
+          "text": "Fresh Centolla (King Crab)",
+          "detail": "Sample locally caught king crab prepared simply with melted butter and lemon, a prized delicacy from the cold southern waters served in waterfront restaurants."
+        },
+        {
+          "id": "corr_f2",
+          "text": "Curanto",
+          "detail": "Taste this traditional Chilote stew of shellfish, fish, potatoes, and meat cooked in a ground pit, reflecting the region's indigenous and maritime heritage."
+        },
+        {
+          "id": "corr_f3",
+          "text": "Oyster and Mussel Platters",
+          "detail": "Enjoy freshly harvested oysters and mussels served raw on ice or lightly grilled, pulled directly from Corral Bay farms."
+        },
+        {
+          "id": "corr_f4",
+          "text": "Caldillo de Congrio",
+          "detail": "Order this classic Chilean fish soup made with congrio eel, potatoes, and seafood broth, a comfort dish perfected by local cooks."
+        },
+        {
+          "id": "corr_f5",
+          "text": "Pan de Pescado (Fish Bread)",
+          "detail": "Try the local specialty of fresh bread filled with shredded fish and sauce, sold at small bakeries and street stalls throughout town."
+        }
+      ],
+      "culture": [
+        {
+          "id": "corr_c1",
+          "text": "Respectful Fort Visits",
+          "detail": "Wear sturdy shoes and move carefully around uneven colonial stone walls; locals appreciate visitors who treat the 400-year-old fortresses as living heritage sites rather than casual backdrops."
+        },
+        {
+          "id": "corr_c2",
+          "text": "Seafood Restaurant Timing",
+          "detail": "Dine at waterfront restaurants between 1–3 PM for lunch or after 8 PM for dinner, when locals eat and fresh catches are guaranteed; midday tourism crowds thin out by 4 PM."
+        },
+        {
+          "id": "corr_c3",
+          "text": "Weather Preparedness",
+          "detail": "Bring waterproof jackets and layers, as the bay climate is cool and damp year-round; locals say the mist and occasional rain are part of Corral's authentic atmosphere."
+        },
+        {
+          "id": "corr_c4",
+          "text": "Bay Ferry Etiquette",
+          "detail": "When traveling by small boat to Niebla, follow crew instructions closely and wear life vests without complaint; these are working vessels, not tourist rides, and respect for maritime safety is paramount."
+        }
+      ]
+    },
+    {
+      "id": "huilo_huilo",
+      "name": "Huilo Huilo",
+      "nameIt": "Huilo Huilo",
+      "lat": -39.6667,
+      "lng": -71.7167,
+      "type": "NATURE",
+      "description": "A pristine nature reserve and lodge in the Andes foothills featuring diverse ecosystems, waterfalls, and native forests of southern Chile. It offers an immersive experience in temperate rainforest with excellent hiking trails and opportunities to spot local wildlife.",
+      "imageQueries": [
+        "Huilo Huilo waterfall forest Chile",
+        "Huilo Huilo reserve Andes"
+      ],
+      "activities": [
+        {
+          "id": "huil_1",
+          "text": "Salto Velo Waterfall Trek",
+          "detail": "Hike through native forest to view the dramatic 40-meter waterfall cascading into a pristine pool surrounded by Valdivian temperate rainforest.",
+          "lat": -39.8042,
+          "lng": -71.6789
+        },
+        {
+          "id": "huil_2",
+          "text": "Nido de Águilas (Eagle's Nest) Canopy Walk",
+          "detail": "Navigate suspended bridges and platforms high in the forest canopy to observe native birds and wildlife from an elevated perspective.",
+          "lat": -39.8056,
+          "lng": -71.6801
+        },
+        {
+          "id": "huil_3",
+          "text": "Río Enco Fishing",
+          "detail": "Fish for native trout in pristine mountain rivers with guidance from local guides who know the best spots and sustainable practices.",
+          "lat": -39.81,
+          "lng": -71.685
+        },
+        {
+          "id": "huil_4",
+          "text": "Selva Negra (Black Forest) Nature Trail",
+          "detail": "Walk through the ancient, dense forest of southern beeches and other endemic species, experiencing the wettest temperate rainforest ecosystem in the region.",
+          "lat": -39.8075,
+          "lng": -71.6815
+        },
+        {
+          "id": "huil_5",
+          "text": "Wildlife Spotting Expeditions",
+          "detail": "Join naturalist-led walks to observe pumas, deer, and rare birds like the Magellanic woodpecker and Austral parakeet in their natural habitat.",
+          "lat": -39.805,
+          "lng": -71.679
+        },
+        {
+          "id": "huil_6",
+          "text": "Thermal Pools at Termas de Rilán",
+          "detail": "Relax in natural hot spring pools surrounded by forest near the reserve, accessible via scenic drive through the property.",
+          "lat": -39.82,
+          "lng": -71.69
+        }
+      ],
+      "food": [
+        {
+          "id": "huil_f1",
+          "text": "Fresh Trout from Huilo Huilo Rivers",
+          "detail": "Locally caught and prepared Chilean trout, often served grilled or in traditional curanto, showcasing the reserve's pristine waters."
+        },
+        {
+          "id": "huil_f2",
+          "text": "Curanto",
+          "detail": "A traditional Mapuche and Chilote stew cooked in a ground pit with meat, potatoes, seafood, and native vegetables wrapped in nalca leaves."
+        },
+        {
+          "id": "huil_f3",
+          "text": "Murtilla Desserts and Jams",
+          "detail": "Sweet treats made from the wild murtilla berry native to southern Chile, often served as preserves with local cheeses or baked into pastries."
+        },
+        {
+          "id": "huil_f4",
+          "text": "Mushroom Dishes with Calafate",
+          "detail": "Seasonal preparations featuring wild mushrooms foraged from the forest paired with calafate berry sauces unique to Patagonia."
+        },
+        {
+          "id": "huil_f5",
+          "text": "Completo and Empanadas",
+          "detail": "Chilean street food staples available at the lodge, with local variations featuring regional ingredients and preparations."
+        }
+      ],
+      "culture": [
+        {
+          "id": "huil_c1",
+          "text": "Respect Mapuche Heritage",
+          "detail": "The land holds significance for indigenous Mapuche communities; learn about their traditions and avoid disturbing cultural sites within the reserve."
+        },
+        {
+          "id": "huil_c2",
+          "text": "Weather and Layered Clothing",
+          "detail": "Southern Chile's temperate rainforest is wet and cool year-round; bring waterproof jackets and layers even in summer, as conditions change rapidly."
+        },
+        {
+          "id": "huil_c3",
+          "text": "Sustainability Practices",
+          "detail": "Huilo Huilo emphasizes conservation; follow guide instructions for trail use, pack out all waste, and support the reserve's efforts to protect endemic species."
+        },
+        {
+          "id": "huil_c4",
+          "text": "Spanish Language Basics",
+          "detail": "While lodge staff speak English, learning basic Spanish phrases enhances interactions with local guides and enriches the cultural experience in rural Los Ríos."
+        }
+      ]
+    },
+    {
+      "id": "los_angeles",
+      "name": "Los Ángeles",
+      "nameIt": "Los Ángeles",
+      "lat": -37.4667,
+      "lng": -72.3333,
+      "type": "CITY",
+      "description": "The second-largest city in the region, serving as a gateway to the Andes and natural attractions further south. It's a practical hub with good infrastructure, museums, and parks, making it useful for exploring the wider Central South region.",
+      "imageQueries": [
+        "Los Ángeles city Chile",
+        "Los Ángeles Chile central plaza"
+      ],
+      "activities": [
+        {
+          "id": "los__1",
+          "text": "Parque Ecuador",
+          "detail": "A central urban park with native trees, walking paths, and local wildlife, offering a peaceful green space in the heart of the city.",
+          "lat": -37.4678,
+          "lng": -72.3344
+        },
+        {
+          "id": "los__2",
+          "text": "Catedral de Los Ángeles",
+          "detail": "A historic neo-Gothic cathedral dating to the late 19th century, featuring impressive stained glass and architectural details on the main plaza.",
+          "lat": -37.4686,
+          "lng": -72.3328
+        },
+        {
+          "id": "los__3",
+          "text": "Museo de Antropología de Tomé",
+          "detail": "Located nearby, this museum displays pre-Hispanic artifacts and ethnographic collections relevant to the Bío Bío and Los Ríos regions.",
+          "lat": -36.6267,
+          "lng": -72.3142
+        },
+        {
+          "id": "los__4",
+          "text": "Saltos del Laja",
+          "detail": "A dramatic multi-tiered waterfall system located about 30 km north, showcasing the region's natural power and popular for photography and day trips.",
+          "lat": -37.2667,
+          "lng": -71.7333
+        },
+        {
+          "id": "los__5",
+          "text": "Cordillera de Los Andes viewpoints",
+          "detail": "The city serves as a gateway to mountain trekking and scenic drives into the Andes, with accessible routes for day hikes and exploration.",
+          "lat": -37.4678,
+          "lng": -72.3344
+        },
+        {
+          "id": "los__6",
+          "text": "Plaza de Armas",
+          "detail": "The main civic square surrounded by colonial architecture, shops, and cafes, serving as the social and commercial heart of the city."
+        }
+      ],
+      "food": [
+        {
+          "id": "los__f1",
+          "text": "Curanto",
+          "detail": "A traditional Chiloé-influenced dish of seafood, meat, and potatoes cooked in a covered pit, popular in the Los Ríos region as a communal meal."
+        },
+        {
+          "id": "los__f2",
+          "text": "Empanadas de queso y chacolotano",
+          "detail": "Local empanadas filled with melted cheese and corn, reflecting the agricultural heritage of the Central South region."
+        },
+        {
+          "id": "los__f3",
+          "text": "Fresh river trout",
+          "detail": "Los Ángeles' proximity to pristine rivers makes grilled or pan-seared trout a local specialty, often served in regional restaurants."
+        },
+        {
+          "id": "los__f4",
+          "text": "Milcao",
+          "detail": "A potato and meat pancake typical of southern Chilean cuisine, particularly common at markets and family restaurants throughout the city."
+        },
+        {
+          "id": "los__f5",
+          "text": "Merkén-seasoned dishes",
+          "detail": "Local dishes incorporating merkén, a smoked chili spice blend native to the Mapuche culture of the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "los__c1",
+          "text": "Mapuche heritage awareness",
+          "detail": "Los Ángeles and the Los Ríos region have significant Mapuche cultural presence; visitors should approach local sites and communities with respect and interest in indigenous history."
+        },
+        {
+          "id": "los__c2",
+          "text": "Regional market culture",
+          "detail": "Weekly markets and fairs are important social hubs; visiting local ferias offers authentic food, crafts, and insight into daily life."
+        },
+        {
+          "id": "los__c3",
+          "text": "Outdoor-focused lifestyle",
+          "detail": "Locals prioritize access to natural attractions; conversations often center on hiking, fishing, and exploring the surrounding mountains and rivers."
+        },
+        {
+          "id": "los__c4",
+          "text": "Southern Chilean hospitality",
+          "detail": "The region is known for warmth and directness; visitors who show genuine interest in local culture and speak some Spanish are often welcomed more openly into community spaces."
+        }
+      ]
+    },
+    {
+      "id": "laguna_verde",
+      "name": "Laguna Verde",
+      "nameIt": "Laguna Verde",
+      "lat": -39.55,
+      "lng": -71.6833,
+      "type": "NATURE",
+      "description": "A stunning emerald-green alpine lake nestled in the Andes mountains, accessible via scenic hiking trails through native forests. This remote and pristine destination rewards visitors with exceptional natural beauty and a true wilderness experience.",
+      "imageQueries": [
+        "Laguna Verde Chile emerald",
+        "Laguna Verde alpine lake"
+      ],
+      "activities": [
+        {
+          "id": "lagu_1",
+          "text": "Laguna Verde Hiking Trail",
+          "detail": "Trek through native southern beech forests to reach the emerald alpine lake, a moderately challenging 8-10 hour round trip that rewards hikers with panoramic Andean views.",
+          "lat": -39.8167,
+          "lng": -71.9167
+        },
+        {
+          "id": "lagu_2",
+          "text": "Photography at Sunrise",
+          "detail": "Capture the lake's brilliant turquoise waters reflecting early morning light against snow-capped peaks, best attempted from the northern shore viewpoint.",
+          "lat": -39.815,
+          "lng": -71.915
+        },
+        {
+          "id": "lagu_3",
+          "text": "Camping by the Lake",
+          "detail": "Spend a night at designated campsites near Laguna Verde to experience the pristine wilderness and observe the night sky in one of Chile's darkest regions.",
+          "lat": -39.817,
+          "lng": -71.917
+        },
+        {
+          "id": "lagu_4",
+          "text": "Pucón Town Exploration",
+          "detail": "Visit the nearby adventure hub of Pucón, 30 kilometers away, to resupply, enjoy local restaurants, and arrange guided excursions to the lake.",
+          "lat": -39.3067,
+          "lng": -71.9533
+        },
+        {
+          "id": "lagu_5",
+          "text": "Wildlife Observation",
+          "detail": "Spot native Andean wildlife including pumas, huemul deer, and Magellanic woodpeckers while hiking through the protected forest surrounding the lake.",
+          "lat": -39.8167,
+          "lng": -71.9167
+        },
+        {
+          "id": "lagu_6",
+          "text": "Waterfall Trails",
+          "detail": "Explore scenic side trails that lead to cascading waterfalls fed by glacial melt, accessible during the hike to or from the main lake.",
+          "lat": -39.818,
+          "lng": -71.919
+        }
+      ],
+      "food": [
+        {
+          "id": "lagu_f1",
+          "text": "Trout from Local Rivers",
+          "detail": "Fresh-caught pan-fried or grilled trout from the crystalline Río Toltén and nearby streams, a staple at Pucón lodges and cabins near Laguna Verde."
+        },
+        {
+          "id": "lagu_f2",
+          "text": "Empanadas de Maíz",
+          "detail": "Traditional Chilean corn pastries filled with cheese, meat, or vegetables, commonly prepared by local guides and available at rest stops during hikes."
+        },
+        {
+          "id": "lagu_f3",
+          "text": "Curanto",
+          "detail": "A traditional southern Chilean stew cooked in underground pits with shellfish, meat, and potatoes, typically found at family-run restaurants in nearby Pucón."
+        },
+        {
+          "id": "lagu_f4",
+          "text": "Sopaipillas with Chancaca",
+          "detail": "Fried dough pastries served with warm spiced molasses sauce, a sweet treat sold by local vendors in Pucón before heading to the trail."
+        },
+        {
+          "id": "lagu_f5",
+          "text": "Mote con Huesillo",
+          "detail": "A refreshing cold drink combining wheat grains and dried peaches, perfect for rehydrating after the demanding hike to Laguna Verde."
+        }
+      ],
+      "culture": [
+        {
+          "id": "lagu_c1",
+          "text": "Respect the Wilderness",
+          "detail": "Carry all trash out of the park and stay on marked trails to preserve the pristine alpine ecosystem and respect local conservation efforts."
+        },
+        {
+          "id": "lagu_c2",
+          "text": "Hire Local Guides",
+          "detail": "Local guides from Pucón provide essential knowledge about safe route navigation, wildlife behavior, and hidden natural features while supporting the regional economy."
+        },
+        {
+          "id": "lagu_c3",
+          "text": "Weather Preparedness",
+          "detail": "Southern Andean weather changes rapidly; always pack rain gear and warm layers even in summer, as conditions can shift from clear to harsh within hours."
+        },
+        {
+          "id": "lagu_c4",
+          "text": "Early Start Required",
+          "detail": "Begin hikes before dawn to complete the full round trip safely before dark, a standard practice respected by all visitors to Laguna Verde."
+        }
+      ]
+    },
+    {
+      "id": "centro_ski_villarrica",
+      "name": "Villarrica Ski Center",
+      "nameIt": "Centro de Esquí Villarrica",
+      "lat": -39.4397,
+      "lng": -71.9131,
+      "type": "LANDMARK",
+      "description": "Chile's northernmost ski resort, operating during Southern Hemisphere winters with views of the active volcano and surrounding lakes. It offers skiing with a scenic backdrop and is a seasonal destination that transforms the area during winter months.",
+      "imageQueries": [
+        "Villarrica ski center Chile",
+        "Centro de Esquí Villarrica"
+      ],
+      "activities": [
+        {
+          "id": "cent_1",
+          "text": "Alpine Skiing",
+          "detail": "Enjoy runs on Villarrica's slopes with views of the active volcano and surrounding landscape during the Southern Hemisphere winter season.",
+          "lat": -39.4203,
+          "lng": -71.9298
+        },
+        {
+          "id": "cent_2",
+          "text": "Snowboarding",
+          "detail": "Ride terrain parks and varied slopes designed for boarders of all levels across the resort's vertical drop."
+        },
+        {
+          "id": "cent_3",
+          "text": "Volcano Viewing",
+          "detail": "Experience unobstructed views of the active Villarrica Volcano from the slopes and summit areas on clear days."
+        },
+        {
+          "id": "cent_4",
+          "text": "Lake District Exploration",
+          "detail": "Visit nearby glacial lakes like Villarrica and Calafquén in the surrounding Los Ríos region accessible from the ski center."
+        },
+        {
+          "id": "cent_5",
+          "text": "Winter Hiking",
+          "detail": "Trek through snow-covered forests and ridges in the volcanic landscape around the resort during off-ski hours."
+        },
+        {
+          "id": "cent_6",
+          "text": "Ski Lessons",
+          "detail": "Take advantage of professional instruction available at the center for all skill levels in a scenic mountain setting."
+        }
+      ],
+      "food": [
+        {
+          "id": "cent_f1",
+          "text": "Curanto",
+          "detail": "This traditional Chilean dish from the Lake District combines seafood, meat, and potatoes cooked in a ground pit, representing local Mapuche and settler fusion cuisine."
+        },
+        {
+          "id": "cent_f2",
+          "text": "Empanadas de Queso",
+          "detail": "Warm pastry pockets filled with melted cheese are a common apres-ski snack found at the resort's lodges and nearby villages."
+        },
+        {
+          "id": "cent_f3",
+          "text": "Fresh Trout",
+          "detail": "The lakes surrounding Villarrica provide abundant fresh water trout, typically grilled simply to highlight the local ingredient."
+        },
+        {
+          "id": "cent_f4",
+          "text": "Kuchen",
+          "detail": "This German-influenced cake with fruit filling reflects the Lake District's significant German immigrant heritage and is served at local cafés."
+        },
+        {
+          "id": "cent_f5",
+          "text": "Merkén-spiced Dishes",
+          "detail": "Local smoked chili pepper seasoning called merkén flavors many regional dishes and is a distinctive taste of southern Chilean cooking."
+        }
+      ],
+      "culture": [
+        {
+          "id": "cent_c1",
+          "text": "Southern Hemisphere Winter Season",
+          "detail": "The resort operates June through August when the Northern Hemisphere experiences summer, requiring visitors to plan accordingly for reversed seasonal timing."
+        },
+        {
+          "id": "cent_c2",
+          "text": "Mapuche Heritage",
+          "detail": "The Los Ríos region has deep Mapuche indigenous roots; respectful acknowledgment of local history and traditions is appreciated by residents."
+        },
+        {
+          "id": "cent_c3",
+          "text": "Weather Variability",
+          "detail": "Mountain conditions change rapidly in the Lake District; visitors should prepare for sudden weather shifts and check forecasts frequently during their stay."
+        },
+        {
+          "id": "cent_c4",
+          "text": "Spanish Language Preference",
+          "detail": "While tourism infrastructure exists, speaking basic Spanish enhances interactions with local staff and residents in this southern Chilean destination."
+        }
+      ]
+    },
+    {
+      "id": "isla_mocha",
+      "name": "Isla Mocha",
+      "nameIt": "Isla Mocha",
+      "lat": -38.3833,
+      "lng": -73.7167,
+      "type": "ISLAND",
+      "description": "A remote and largely untouched island off the coast known for its pristine beaches, whale watching opportunities, and excellent fishing. The island offers an authentic escape with minimal tourism infrastructure and stunning coastal scenery.",
+      "imageQueries": [
+        "Isla Mocha Chile island",
+        "Isla Mocha whales coast"
+      ],
+      "activities": [
+        {
+          "id": "isla_1",
+          "text": "Whale Watching",
+          "detail": "Between June and November, blue whales and fin whales migrate through the waters surrounding Isla Mocha, making it one of Chile's premier whale-watching destinations.",
+          "lat": -42.3833,
+          "lng": -73.8167
+        },
+        {
+          "id": "isla_2",
+          "text": "Playa Principal Beach Exploration",
+          "detail": "Walk the main beach to observe pristine sand, dramatic rock formations, and tide pools teeming with starfish and sea urchins.",
+          "lat": -42.3917,
+          "lng": -73.825
+        },
+        {
+          "id": "isla_3",
+          "text": "Punta Arique Lighthouse Hike",
+          "detail": "Trek to the island's lighthouse at the northern point for panoramic coastal views and seabird observation opportunities.",
+          "lat": -42.365,
+          "lng": -73.82
+        },
+        {
+          "id": "isla_4",
+          "text": "Sportfishing for Jack Mackerel and Congrio",
+          "detail": "Charter local fishing boats to pursue abundant jack mackerel and congrio in the nutrient-rich waters surrounding the island.",
+          "lat": -42.3833,
+          "lng": -73.8167
+        },
+        {
+          "id": "isla_5",
+          "text": "Camping in Parque Marino",
+          "detail": "Experience basic camping within the designated park area to fully immerse yourself in the island's untouched natural environment.",
+          "lat": -42.39,
+          "lng": -73.82
+        },
+        {
+          "id": "isla_6",
+          "text": "Seabird Colony Observation",
+          "detail": "Observe cormorants, petrels, and penguin species in their natural habitat at various coastal points around the island."
+        }
+      ],
+      "food": [
+        {
+          "id": "isla_f1",
+          "text": "Caldillo de Congrio",
+          "detail": "A traditional Chilean fish stew made with fresh congrio caught locally, served with potatoes and a rich broth of white wine and seafood stock."
+        },
+        {
+          "id": "isla_f2",
+          "text": "Ceviche",
+          "detail": "Fresh raw fish from the day's catch cured in lime juice, mixed with onions, cilantro, and served as an authentic coastal preparation."
+        },
+        {
+          "id": "isla_f3",
+          "text": "Empanadas de Mariscos",
+          "detail": "Hand-made pastry pockets filled with local shellfish, shrimp, and scallops, typically baked and served warm at family-run establishments."
+        },
+        {
+          "id": "isla_f4",
+          "text": "Chupe de Locos",
+          "detail": "A creamy shellfish chowder featuring sea urchin (loco) and other local mollusks, unique to southern Chilean coastal communities."
+        },
+        {
+          "id": "isla_f5",
+          "text": "Fresh Congrio a la Plancha",
+          "detail": "Simply grilled fresh congrio filet seasoned with lemon and salt, highlighting the island's premium local catch."
+        }
+      ],
+      "culture": [
+        {
+          "id": "isla_c1",
+          "text": "Limited Infrastructure Means Planning Ahead",
+          "detail": "There are minimal shops, restaurants, and services on the island, so bring supplies, cash, and medications from Dichato or Lebu on the mainland."
+        },
+        {
+          "id": "isla_c2",
+          "text": "Respect Fishing Seasons and Local Traditions",
+          "detail": "The island's small population relies on fishing; respect local fishing grounds and ask permission before exploring private coastal areas."
+        },
+        {
+          "id": "isla_c3",
+          "text": "Weather Changes Rapidly in the Southern Zone",
+          "detail": "Pack layers and waterproof gear as southern Chilean coastal weather can shift suddenly from clear to stormy conditions within hours."
+        },
+        {
+          "id": "isla_c4",
+          "text": "Ferry Schedules Dictate Your Stay",
+          "detail": "The small passenger ferry from Dichato operates on limited schedules, so confirm return dates and times immediately upon arrival to avoid being stranded."
+        }
+      ]
+    },
+    {
+      "id": "museo_philippi",
+      "name": "Philippi Museum",
+      "nameIt": "Museo Philippi",
+      "lat": -39.813,
+      "lng": -73.249,
+      "type": "LANDMARK",
+      "description": "Valdivia's premier museum dedicated to natural history and the region's cultural heritage, housed in a historic building downtown. It provides invaluable context for understanding the region's ecology, indigenous history, and colonial past.",
+      "imageQueries": [
+        "Museo Philippi Valdivia",
+        "Philippi Museum natural history"
+      ],
+      "activities": [
+        {
+          "id": "muse_1",
+          "text": "Explore Natural History Exhibits",
+          "detail": "View preserved specimens of southern Chile's fauna, including native birds, insects, and marine life that illustrate the region's unique biodiversity."
+        },
+        {
+          "id": "muse_2",
+          "text": "Study Indigenous Mapuche Collections",
+          "detail": "Examine artifacts, textiles, and tools from the Mapuche people who inhabited the Los Ríos region for centuries before European contact."
+        },
+        {
+          "id": "muse_3",
+          "text": "Review Colonial Documentation",
+          "detail": "Browse historical documents, maps, and objects related to Spanish settlement and the founding of Valdivia in the 16th century."
+        },
+        {
+          "id": "muse_4",
+          "text": "Visit the Historic Building",
+          "detail": "Appreciate the architecture and layout of the downtown heritage structure itself, which reflects Valdivia's colonial and early republican periods."
+        },
+        {
+          "id": "muse_5",
+          "text": "Attend Temporary Exhibitions",
+          "detail": "Check the museum's rotating displays that often feature regional artists, archaeological discoveries, or themed seasonal exhibitions."
+        },
+        {
+          "id": "muse_6",
+          "text": "Walk Along Río Calle-Calle",
+          "detail": "Exit onto nearby streets to explore the riverfront promenade and colonial architecture surrounding the museum in downtown Valdivia."
+        }
+      ],
+      "food": [
+        {
+          "id": "muse_f1",
+          "text": "Curanto",
+          "detail": "A traditional Chilote dish of shellfish, fish, and meat cooked in a ground oven, reflecting the indigenous cooking methods of southern Chile."
+        },
+        {
+          "id": "muse_f2",
+          "text": "Centolla (King Crab)",
+          "detail": "Fresh Patagonian king crab prepared simply grilled or in empanadas, a regional specialty found in nearby restaurants honoring local waters."
+        },
+        {
+          "id": "muse_f3",
+          "text": "Pastel de Choclo",
+          "detail": "A baked corn and meat pie that represents southern Chile's agricultural heritage and is commonly served in Valdivia's eateries."
+        },
+        {
+          "id": "muse_f4",
+          "text": "Salmon from Local Rivers",
+          "detail": "Fresh Pacific salmon caught in the nearby Calle-Calle and Valdivia rivers, often prepared grilled or smoked in local restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "muse_c1",
+          "text": "Respect Museum Hours and Closures",
+          "detail": "The museum typically closes Mondays and has reduced hours on some days; confirm schedules in advance as they may vary seasonally."
+        },
+        {
+          "id": "muse_c2",
+          "text": "Learn Basic Spanish for Exhibits",
+          "detail": "Most displays are in Spanish with limited English translation, so bringing a translation app or guide enhances your understanding of regional history."
+        },
+        {
+          "id": "muse_c3",
+          "text": "Acknowledge Mapuche Heritage Respectfully",
+          "detail": "Recognize that the museum presents indigenous perspectives on colonization and displacement; approach these exhibits with cultural sensitivity and openness."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 15,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "Casa Hídrica",
+      "address": "General Lagos 1040, Valdivia",
+      "neighbourhood": "Centro Histórico",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Elegant restaurant showcasing local ingredients and innovative techniques in a restored historic building overlooking the river.",
+      "mustOrder": "Salmon en costra de champiñones",
+      "lat": -39.8107,
+      "lng": -73.2455
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "El Alamo",
+      "address": "Chachagua 560, Valdivia",
+      "neighbourhood": "Centro",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "description": "Long-established restaurant known for quality steaks and fresh local fish in a warm, traditional atmosphere.",
+      "mustOrder": "Carne asada con salsa de champiñones",
+      "lat": -39.813,
+      "lng": -73.2465
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Entrelagos",
+      "address": "O'Higgins 394, Pucón",
+      "neighbourhood": "Centro Pucón",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Lakeside restaurant combining local Patagonian ingredients with modern culinary techniques in a stunning setting.",
+      "mustOrder": "Trucha salvaje con reducción de arándanos",
+      "lat": -39.3024,
+      "lng": -71.943
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "La Maga",
+      "address": "Lincoln 422, Pucón",
+      "neighbourhood": "Centro Pucón",
+      "cuisine": "Vegetarian/Healthy",
+      "priceRange": "€€",
+      "description": "Charming café and restaurant offering organic, locally-sourced vegetarian and vegan dishes with fresh juices.",
+      "mustOrder": "Buddha bowl con quinua y vegetales de temporada",
+      "lat": -39.304,
+      "lng": -71.9415
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Cassis Restaurant & Bar",
+      "address": "General Urrutia 592, Valdivia",
+      "neighbourhood": "Centro",
+      "cuisine": "French-Chilean Fusion",
+      "priceRange": "€€€",
+      "description": "Sophisticated dining establishment blending French culinary traditions with Chilean ingredients and local wines.",
+      "mustOrder": "Filete de congrio con salsa beurre blanc",
+      "lat": -39.811,
+      "lng": -73.246
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Fuerte Niebla",
+      "address": "Costanera, Niebla",
+      "neighbourhood": "Niebla",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Waterfront seafood restaurant in a historic coastal town offering fresh catches and traditional Chilean fish preparations.",
+      "mustOrder": "Curanto",
+      "lat": -39.8368,
+      "lng": -73.419
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "Alas Blancas",
+      "address": "Avenida Ansorena 1800, Valdivia",
+      "neighbourhood": "Ansorena",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Modern restaurant featuring refined presentations of local meats, fish, and seasonal vegetables with curated wine pairings.",
+      "mustOrder": "Pernil de cordero con hierbas aromáticas",
+      "lat": -39.82,
+      "lng": -73.235
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Sabores de Pucón",
+      "address": "General Urrutia 525, Pucón",
+      "neighbourhood": "Centro Pucón",
+      "cuisine": "Traditional Chilean",
+      "priceRange": "€€",
+      "description": "Family-run restaurant serving authentic Chilean home cooking with an emphasis on regional specialties and fresh ingredients.",
+      "mustOrder": "Pastel de choclo",
+      "lat": -39.3035,
+      "lng": -71.942
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Club de Yacht Valdivia",
+      "address": "Isabel La Católica 560, Valdivia",
+      "neighbourhood": "Puerto",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Exclusive waterfront club restaurant offering premium fresh seafood with panoramic river views and professional service.",
+      "mustOrder": "Centolla al ajillo",
+      "lat": -39.8145,
+      "lng": -73.2475
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "Arco Iris Vegetariano",
+      "address": "Henríquez 295, Valdivia",
+      "neighbourhood": "Centro",
+      "cuisine": "Vegetarian",
+      "priceRange": "€",
+      "description": "Budget-friendly vegetarian café offering hearty plant-based meals, fresh salads, and homemade desserts for conscious diners.",
+      "mustOrder": "Lomo saltado vegetariano",
+      "lat": -39.8125,
+      "lng": -73.244
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "La Caleta de Millantue",
+      "address": "Costanera Sur, Millantue",
+      "neighbourhood": "Millantue",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Rustic beachside restaurant specializing in fresh local seafood and traditional Chilean coastal dishes in a casual setting.",
+      "mustOrder": "Caldillo de congrio",
+      "lat": -39.845,
+      "lng": -73.395
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Hola Mundo Café",
+      "address": "O'Higgins 555, Pucón",
+      "neighbourhood": "Centro Pucón",
+      "cuisine": "International/Café",
+      "priceRange": "€",
+      "description": "Casual international café offering breakfast, light lunches, and excellent coffee in a relaxed traveler-friendly atmosphere.",
+      "mustOrder": "Avocado toast con huevo",
+      "lat": -39.303,
+      "lng": -71.9425
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "El Triángulo",
+      "address": "Carlos Anwandter 450, Valdivia",
+      "neighbourhood": "Centro",
+      "cuisine": "Chilean",
+      "priceRange": "€€",
+      "description": "Traditional restaurant in the heart of Valdivia serving classic Chilean dishes with reliable quality and generous portions.",
+      "mustOrder": "Empanadas de pino",
+      "lat": -39.8115,
+      "lng": -73.245
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Terrazas del Villarrica",
+      "address": "Avenida Costanera 1200, Pucón",
+      "neighbourhood": "Lakefront",
+      "cuisine": "Contemporary Chilean",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant with terrace views of Villarrica Lake, serving refined regional cuisine and an extensive wine list.",
+      "mustOrder": "Merluza austral con espárragos",
+      "lat": -39.3055,
+      "lng": -71.944
+    },
+    {
+      "number": 15,
+      "id": "rest_15",
+      "name": "Café Hausmann",
+      "address": "Libertad 435, Valdivia",
+      "neighbourhood": "Centro",
+      "cuisine": "Café/Bakery",
+      "priceRange": "€",
+      "description": "Historic German-influenced café and bakery famous for traditional pastries, coffee, and a charming vintage atmosphere.",
+      "mustOrder": "Strudel de manzana",
+      "lat": -39.812,
+      "lng": -73.2445
+    }
+  ]
+}

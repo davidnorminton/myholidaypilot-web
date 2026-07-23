@@ -1,0 +1,1444 @@
+{
+  "id": "coquimbo",
+  "name": "Coquimbo",
+  "nameIt": "Coquimbo",
+  "capital": "La Serena",
+  "lat": -29.5,
+  "lng": -71,
+  "emoji": "🏖️",
+  "colour": "ffe91e63",
+  "boundingBox": {
+    "north": -28.5,
+    "south": -32,
+    "east": -70,
+    "west": -72.5
+  },
+  "history": "Coquimbo was founded in 1541 as a port settlement and quickly became an important hub for trade and mining operations during the Spanish colonial period. The region developed significantly during the 19th century when the discovery of rich mineral deposits, particularly nitrates and copper, transformed it into a major economic center. The city served as a crucial port for exporting these resources and became a strategic point for Chile's northern development. Today, Coquimbo retains its maritime heritage while blending colonial architecture with modern urban growth.",
+  "culturalNotes": "Coquimbo is characterized by its strong fishing and maritime traditions, with the working waterfront remaining central to local life and identity. The region is known for its vibrant seafood culture, colorful fishing boats, and beachside communities where traditional practices persist alongside contemporary tourism. The city celebrates its connection to the sea through festivals and local cuisine that emphasizes fresh fish and shellfish, making it distinctly different from Chile's inland regions.",
+  "bestTimeToVisit": "Visit September to May for warm weather and beautiful Pacific beaches in this semi-arid region.",
+  "languageNotes": "Spanish is spoken throughout Coquimbo with a northern Chilean accent and local vocabulary influenced by maritime heritage, where words related to fishing and the sea are particularly colorful. Visitors will find that locals use informal expressions and may hear diminutives frequently in everyday conversation, which reflects the region's relaxed coastal character.",
+  "generatedAt": "2026-07-23T09:16:15.751Z",
+  "placeCount": 12,
+  "places": [
+    {
+      "id": "coquimbo_city",
+      "name": "Coquimbo",
+      "nameIt": "Coquimbo",
+      "lat": -29.9533,
+      "lng": -71.3436,
+      "type": "CITY",
+      "description": "The main city of the region, a charming coastal port town with a rich maritime history and vibrant waterfront. It serves as the gateway to the Coquimbo region and offers excellent seafood restaurants, colonial architecture, and access to nearby beaches.",
+      "imageQueries": [
+        "Coquimbo Chile coastal city",
+        "Coquimbo waterfront harbor"
+      ],
+      "activities": [
+        {
+          "id": "coqu_1",
+          "text": "Paseo 21 de Mayo Waterfront",
+          "detail": "Stroll along this iconic seaside promenade lined with restaurants, shops, and views of the Pacific Ocean and the nearby La Serena coastline.",
+          "lat": -29.9533,
+          "lng": -71.3425
+        },
+        {
+          "id": "coqu_2",
+          "text": "Guanaquero Beach",
+          "detail": "Visit this popular sandy beach just north of Coquimbo's city center, ideal for swimming, sunbathing, and watching local fishermen.",
+          "lat": -29.9467,
+          "lng": -71.3392
+        },
+        {
+          "id": "coqu_3",
+          "text": "Coquimbo Port Tour",
+          "detail": "Explore the working fishing port to witness the maritime heritage and observe the daily catch being unloaded and processed.",
+          "lat": -29.9578,
+          "lng": -71.3502
+        },
+        {
+          "id": "coqu_4",
+          "text": "Cruz del Tercio Viewpoint",
+          "detail": "Climb to this hilltop cross monument for panoramic views of Coquimbo, La Serena, and the Pacific coastline.",
+          "lat": -29.9467,
+          "lng": -71.3508
+        },
+        {
+          "id": "coqu_5",
+          "text": "Peñuelas Market",
+          "detail": "Browse this traditional local market selling fresh seafood, produce, crafts, and regional products in an authentic Chilean setting.",
+          "lat": -29.9612,
+          "lng": -71.3358
+        },
+        {
+          "id": "coqu_6",
+          "text": "Boat Tours to Penguin Island",
+          "detail": "Take a short excursion to Isla de Pingüinos to observe Humboldt penguins and other seabirds in their natural habitat.",
+          "lat": -29.9533,
+          "lng": -71.3425
+        }
+      ],
+      "food": [
+        {
+          "id": "coqu_f1",
+          "text": "Ceviche",
+          "detail": "Fresh fish cured in lime juice with onions, cilantro, and chile peppers is a quintessential Coquimbo specialty found at waterfront restaurants."
+        },
+        {
+          "id": "coqu_f2",
+          "text": "Empanadas de Mariscos",
+          "detail": "Baked pastries filled with local shellfish, cheese, and onions that represent classic Chilean street food in the port town."
+        },
+        {
+          "id": "coqu_f3",
+          "text": "Congrio Frito",
+          "detail": "Fried congrio eel, a local white fish delicacy served with lemon and fresh salads at seaside eateries."
+        },
+        {
+          "id": "coqu_f4",
+          "text": "Pastel de Erizos",
+          "detail": "A savory sea urchin pie dish showcasing the region's prized erizos (sea urchins) harvested from nearby waters."
+        },
+        {
+          "id": "coqu_f5",
+          "text": "Paila Marina",
+          "detail": "A hearty seafood soup or stew combining fish, shellfish, and broth that exemplifies Coquimbo's fishing culture."
+        }
+      ],
+      "culture": [
+        {
+          "id": "coqu_c1",
+          "text": "Fishing Schedule Awareness",
+          "detail": "Visit the port early in the morning to see the catch and experience the town's maritime rhythm, as activity peaks before noon."
+        },
+        {
+          "id": "coqu_c2",
+          "text": "Spanish Language Helpful",
+          "detail": "While tourism areas have English speakers, knowing basic Spanish phrases enhances interactions with locals and restaurant staff."
+        },
+        {
+          "id": "coqu_c3",
+          "text": "Respect for Religious Architecture",
+          "detail": "Coquimbo maintains colonial churches and religious sites; dress modestly and ask permission before photographing inside sacred spaces."
+        },
+        {
+          "id": "coqu_c4",
+          "text": "Summer Season Peak",
+          "detail": "December to February is high season with warm weather and crowded beaches; consider visiting shoulder seasons for a more relaxed experience."
+        }
+      ]
+    },
+    {
+      "id": "la_serena",
+      "name": "La Serena",
+      "nameIt": "La Serena",
+      "lat": -29.9019,
+      "lng": -71.2516,
+      "type": "CITY",
+      "description": "Chile's second-oldest city, known for its beautiful neoclassical architecture and pristine beaches along the Pacific. It's the cultural and commercial heart of the Coquimbo region with excellent museums, plazas, and a thriving nightlife scene.",
+      "imageQueries": [
+        "La Serena Chile colonial architecture",
+        "La Serena beach city"
+      ],
+      "activities": [
+        {
+          "id": "la_s_1",
+          "text": "Explore Plaza de Armas",
+          "detail": "Stroll through La Serena's main square surrounded by neoclassical buildings, the Cathedral, and local shops, ideal for people-watching and understanding the city's colonial heritage.",
+          "lat": -29.9037,
+          "lng": -71.3125
+        },
+        {
+          "id": "la_s_2",
+          "text": "Visit La Recova Market",
+          "detail": "Browse this iconic L-shaped market featuring local crafts, souvenirs, fresh produce, and regional goods in a traditional Chilean marketplace setting.",
+          "lat": -29.905,
+          "lng": -71.3095
+        },
+        {
+          "id": "la_s_3",
+          "text": "Beach day at Playa El Peñon",
+          "detail": "Swim and relax at this sandy beach with calm waters, seafood restaurants, and a relaxed vibe popular with both tourists and locals.",
+          "lat": -29.9235,
+          "lng": -71.344
+        },
+        {
+          "id": "la_s_4",
+          "text": "Museo Arqueológico de La Serena",
+          "detail": "Discover pre-Hispanic artifacts and Eleaster Island (Rapa Nui) moai replicas in this excellent regional archaeology museum showcasing northern Chilean indigenous cultures.",
+          "lat": -29.9117,
+          "lng": -71.3163
+        },
+        {
+          "id": "la_s_5",
+          "text": "Coquimbo waterfront walk",
+          "detail": "Walk along the nearby port town's scenic peninsula and beach promenade to enjoy fresh air, street food vendors, and views of the Pacific.",
+          "lat": -29.9537,
+          "lng": -71.3428
+        },
+        {
+          "id": "la_s_6",
+          "text": "Museo Regional de Atacama",
+          "detail": "Explore colonial art, religious reliquaries, and regional history spanning from pre-Columbian times through the 19th century."
+        }
+      ],
+      "food": [
+        {
+          "id": "la_s_f1",
+          "text": "Empanadas de mariscos",
+          "detail": "Baked pastry pockets filled with fresh local seafood, onions, and spices, a ubiquitous and affordable street food throughout La Serena."
+        },
+        {
+          "id": "la_s_f2",
+          "text": "Pastel de choclo",
+          "detail": "Savory pie topped with fresh corn paste and filled with meat, hard-boiled egg, and olives, a traditional Chilean comfort dish especially common in coastal regions."
+        },
+        {
+          "id": "la_s_f3",
+          "text": "Ceviche",
+          "detail": "Fresh raw fish marinated in lime juice with onions, cilantro, and chilies, a signature Pacific coastal dish best enjoyed at beachfront restaurants."
+        },
+        {
+          "id": "la_s_f4",
+          "text": "Picoroco",
+          "detail": "A large local crustacean similar to barnacles, typically steamed or boiled and served with lemon at seafood restaurants along the waterfront."
+        },
+        {
+          "id": "la_s_f5",
+          "text": "Chupe de locos",
+          "detail": "Creamy shellfish stew featuring local sea urchins and other mollusks, a rich and hearty soup unique to the Coquimbo region's Pacific waters."
+        }
+      ],
+      "culture": [
+        {
+          "id": "la_s_c1",
+          "text": "Afternoon siesta tradition",
+          "detail": "Many businesses close between 1 and 3 p.m. for lunch and rest, so plan activities accordingly and embrace the slower pace of Chilean coastal life."
+        },
+        {
+          "id": "la_s_c2",
+          "text": "Spanish language and friendliness",
+          "detail": "While some tourism workers speak English, learning basic Spanish phrases will greatly enhance interactions and show respect for local culture in this Chilean city."
+        },
+        {
+          "id": "la_s_c3",
+          "text": "Summer season peaks in December-February",
+          "detail": "La Serena fills with Chilean tourists during southern hemisphere summer, so book accommodations early and expect crowded beaches and higher prices during these months."
+        },
+        {
+          "id": "la_s_c4",
+          "text": "Nightlife district along Avenida del Mar",
+          "detail": "La Serena's vibrant nightlife scene centers around beachfront bars and clubs that stay open late, reflecting the city's reputation as a cultural and entertainment hub."
+        }
+      ]
+    },
+    {
+      "id": "pinguino_beaches",
+      "name": "Penguin Beaches",
+      "nameIt": "Playas del Pingüino",
+      "lat": -29.9167,
+      "lng": -71.3833,
+      "type": "COASTAL",
+      "description": "A series of beautiful sandy beaches near Coquimbo that are popular for swimming, sunbathing, and water sports. These beaches offer stunning Pacific views and are easily accessible from the city center.",
+      "imageQueries": [
+        "Coquimbo Penguin Beach",
+        "Playas del Pingüino Chile"
+      ],
+      "activities": [
+        {
+          "id": "ping_1",
+          "text": "Swimming and Sunbathing",
+          "detail": "Enjoy the warm Pacific waters and golden sand at the main beach area, ideal for relaxing and soaking up the Chilean sun during summer months (December-February)."
+        },
+        {
+          "id": "ping_2",
+          "text": "Surfing at Playa Tjana",
+          "detail": "Catch consistent waves at this nearby break favored by local surfers, best during autumn and winter swells.",
+          "lat": -29.9487,
+          "lng": -71.3452
+        },
+        {
+          "id": "ping_3",
+          "text": "Kayaking along the Coast",
+          "detail": "Paddle through calm coves and explore sea caves while spotting local marine wildlife including sea lions and occasional penguin sightings."
+        },
+        {
+          "id": "ping_4",
+          "text": "Visit Faro Monumental",
+          "detail": "Climb to the iconic lighthouse overlooking the beaches for panoramic Pacific views and excellent sunset photography opportunities.",
+          "lat": -29.9512,
+          "lng": -71.3425
+        },
+        {
+          "id": "ping_5",
+          "text": "Beachside Volleyball",
+          "detail": "Play volleyball at designated court areas on the sand, a popular local pastime especially on weekends and holidays."
+        },
+        {
+          "id": "ping_6",
+          "text": "Snorkeling in Clear Waters",
+          "detail": "Explore underwater rock formations and kelp forests to observe fish, starfish, and other marine species in the transparent Pacific waters."
+        },
+        {
+          "id": "ping_7",
+          "text": "Picnicking with Ocean Views",
+          "detail": "Pack fresh local produce from nearby markets and enjoy meals on the beach while watching fishing boats and surfers."
+        }
+      ],
+      "food": [
+        {
+          "id": "ping_f1",
+          "text": "Ceviche",
+          "detail": "Fresh raw fish cured in lime juice with onions, cilantro, and chili, a signature Chilean coastal dish found at beachside restaurants."
+        },
+        {
+          "id": "ping_f2",
+          "text": "Congrio a la Sal",
+          "detail": "Local conger eel baked whole in a salt crust, a specialty of the Coquimbo region that preserves the fish's delicate flavor."
+        },
+        {
+          "id": "ping_f3",
+          "text": "Empanadas de Mariscos",
+          "detail": "Golden pastry pockets filled with mixed seafood, cheese, and onions, sold by street vendors and local bakeries near the beach."
+        },
+        {
+          "id": "ping_f4",
+          "text": "Chupe de Mariscos",
+          "detail": "A creamy seafood stew with clams, mussels, and fish served hot in bread bowls at waterfront comedores."
+        },
+        {
+          "id": "ping_f5",
+          "text": "Fresh Grilled Erizos",
+          "detail": "Sea urchins grilled and served with lemon at beachside parrillas, considered a delicacy in this fishing community."
+        }
+      ],
+      "culture": [
+        {
+          "id": "ping_c1",
+          "text": "Summer Season Crowds",
+          "detail": "December through February brings peak Chilean holiday visitors, so arrive early to secure parking and prime beach spots."
+        },
+        {
+          "id": "ping_c2",
+          "text": "Respect Fishing Operations",
+          "detail": "The beaches remain active fishing areas, so be mindful of nets and boats near the shoreline and support local pescadores by purchasing fresh seafood directly from them."
+        },
+        {
+          "id": "ping_c3",
+          "text": "Sun Protection Essential",
+          "detail": "The Southern Hemisphere's thinner ozone layer means intense UV exposure, so use high SPF sunscreen and protective clothing even on cloudy days."
+        },
+        {
+          "id": "ping_c4",
+          "text": "Local Siesta Customs",
+          "detail": "Many beachside restaurants and shops close between 1-4 PM for lunch and rest, so plan activities accordingly or dine during these quieter hours."
+        }
+      ]
+    },
+    {
+      "id": "elqui_valley",
+      "name": "Elqui Valley",
+      "nameIt": "Valle del Elqui",
+      "lat": -29.7333,
+      "lng": -71.2167,
+      "type": "NATURE",
+      "description": "A scenic fertile valley renowned for pisco production, fresh fruit orchards, and stunning mountain landscapes. It's ideal for wine and spirit tastings, hiking, and experiencing rural Chilean life with excellent visibility for stargazing.",
+      "imageQueries": [
+        "Elqui Valley Chile pisco",
+        "Valle del Elqui vineyards"
+      ],
+      "activities": [
+        {
+          "id": "elqu_1",
+          "text": "Pisco Distillery Tours",
+          "detail": "Visit family-run pisco producers like DistileríaAquardiente Pisco Elqui or Capel to learn traditional copper-pot distillation methods and taste award-winning piscos.",
+          "lat": -29.9447,
+          "lng": -71.2128
+        },
+        {
+          "id": "elqu_2",
+          "text": "Stargazing at Mamalluca Observatory",
+          "detail": "Experience some of the clearest night skies in the Southern Hemisphere at this public observatory near Vicuña with guided telescope observations and astronomy workshops.",
+          "lat": -29.8967,
+          "lng": -71.1033
+        },
+        {
+          "id": "elqu_3",
+          "text": "Hiking to Cascada del Claro",
+          "detail": "Trek through orchards and river valleys to reach a refreshing waterfall nestled in the Andes foothills, suitable for all fitness levels.",
+          "lat": -29.9583,
+          "lng": -71.25
+        },
+        {
+          "id": "elqu_4",
+          "text": "Fruit Stand Tours and Tastings",
+          "detail": "Visit roadside stalls and orchards specializing in papayas, avocados, and chirimoyas, where vendors explain regional cultivation and seasonal availability.",
+          "lat": -29.95,
+          "lng": -71.2
+        },
+        {
+          "id": "elqu_5",
+          "text": "Pueblo de Los Artesanos",
+          "detail": "Explore this craft village near Vicuña featuring artisan studios, local pottery, textiles, and organic food shops reflecting valley traditions.",
+          "lat": -29.91,
+          "lng": -71.19
+        },
+        {
+          "id": "elqu_6",
+          "text": "Cerro de la Virgen Viewpoint",
+          "detail": "Hike or drive to this hilltop shrine overlooking Vicuña and the entire valley for sunset photography and panoramic vistas.",
+          "lat": -29.9167,
+          "lng": -71.1667
+        }
+      ],
+      "food": [
+        {
+          "id": "elqu_f1",
+          "text": "Empanadas de Queso y Pasas",
+          "detail": "These savory pastries stuffed with local cheese and plump valley raisins are a traditional snack found at bakeries and roadside vendors throughout Elqui."
+        },
+        {
+          "id": "elqu_f2",
+          "text": "Pisco Sour",
+          "detail": "The national cocktail made with locally-produced pisco, lime juice, egg white, and Angostura bitters showcases the valley's signature spirit."
+        },
+        {
+          "id": "elqu_f3",
+          "text": "Fresh Chirimoyas and Papayas",
+          "detail": "These creamy custard-like fruits and sweet papayas are picked ripe and sold fresh at markets, best enjoyed with a squeeze of local lime."
+        },
+        {
+          "id": "elqu_f4",
+          "text": "Ceviche with Valley Fish",
+          "detail": "Fresh seafood ceviche prepared with local lime and served with avocados and local produce reflects the valley's connection to nearby coastal waters."
+        },
+        {
+          "id": "elqu_f5",
+          "text": "Cazuela de Ave",
+          "detail": "This traditional Chilean stew features chicken with local vegetables, potatoes, and corn in a light broth, commonly served in valley restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "elqu_c1",
+          "text": "Respect Harvest Seasons",
+          "detail": "The valley follows strict agricultural cycles; visit during fruit season (December-March) for the freshest produce and to see active orchards and distilleries at full capacity."
+        },
+        {
+          "id": "elqu_c2",
+          "text": "Learn Basic Pisco Etiquette",
+          "detail": "When visiting distilleries, Chileans typically sip pisco neat or in a Pisco Sour after meals; tastings are social events, so accept offers graciously and reciprocate conversation."
+        },
+        {
+          "id": "elqu_c3",
+          "text": "Plan for Afternoon Closures",
+          "detail": "Many small shops, restaurants, and family distilleries close between 1-4 pm for lunch and siesta, so schedule activities around local business hours rather than noon visits."
+        },
+        {
+          "id": "elqu_c4",
+          "text": "Greet with Warmth",
+          "detail": "Rural valley communities are welcoming to tourists who show genuine interest; a simple 'buenos días' or 'buenas tardes' and asking about local recommendations goes a long way in building rapport."
+        }
+      ]
+    },
+    {
+      "id": "mamalluca_observatory",
+      "name": "Mamalluca Observatory",
+      "nameIt": "Observatorio Mamalluca",
+      "lat": -29.7333,
+      "lng": -71.1833,
+      "type": "LANDMARK",
+      "description": "A public observatory located in the Elqui Valley offering telescope viewings of the Southern Hemisphere sky. The location's exceptional atmospheric conditions make it one of Chile's premier stargazing destinations.",
+      "imageQueries": [
+        "Mamalluca Observatory Chile",
+        "Observatorio Mamalluca telescope"
+      ],
+      "activities": [
+        {
+          "id": "mama_1",
+          "text": "Telescope Viewing Sessions",
+          "detail": "Join guided nighttime observations through the observatory's telescopes to view planets, star clusters, and deep-sky objects invisible to the naked eye.",
+          "lat": -29.3044,
+          "lng": -71.1919
+        },
+        {
+          "id": "mama_2",
+          "text": "Daytime Solar Observation",
+          "detail": "Safely observe the Sun's surface features and solar activity through specialized solar telescopes during daylight hours.",
+          "lat": -29.3044,
+          "lng": -71.1919
+        },
+        {
+          "id": "mama_3",
+          "text": "Planetarium Shows",
+          "detail": "Watch immersive presentations about the Southern Hemisphere constellations and celestial mechanics in the observatory's dome theater.",
+          "lat": -29.3044,
+          "lng": -71.1919
+        },
+        {
+          "id": "mama_4",
+          "text": "Guided Valley Walks",
+          "detail": "Explore the surrounding Elqui Valley landscape with commentary on the region's geography and why it's ideal for astronomy.",
+          "lat": -29.3044,
+          "lng": -71.1919
+        },
+        {
+          "id": "mama_5",
+          "text": "Astronomy Workshops",
+          "detail": "Participate in educational sessions covering constellation identification, telescope use, and the history of Chilean astronomy.",
+          "lat": -29.3044,
+          "lng": -71.1919
+        },
+        {
+          "id": "mama_6",
+          "text": "Stargazing from the Terrace",
+          "detail": "Observe the unaided Southern Hemisphere night sky from the observatory's viewing terrace, enhanced by expert astronomers pointing out constellations and phenomena."
+        }
+      ],
+      "food": [
+        {
+          "id": "mama_f1",
+          "text": "Empanadas de Queso y Maíz",
+          "detail": "Baked pastries filled with local cheese and corn, a traditional Chilean snack widely available at nearby cafés in the Elqui Valley."
+        },
+        {
+          "id": "mama_f2",
+          "text": "Pisco Tasting",
+          "detail": "Sample Chile's famous brandy produced in the nearby Pisco region, with local distilleries offering tastings and tours in the valley."
+        },
+        {
+          "id": "mama_f3",
+          "text": "Cazuela de Ave",
+          "detail": "A hearty chicken and vegetable stew slow-cooked in a clay pot, a classic Chilean comfort dish served at valley restaurants."
+        },
+        {
+          "id": "mama_f4",
+          "text": "Fresh Papayas and Local Fruit",
+          "detail": "The Elqui Valley produces some of Chile's sweetest fruit; enjoy fresh papayas, chirimoyas, and avocados at local markets."
+        },
+        {
+          "id": "mama_f5",
+          "text": "Pastel de Choclo",
+          "detail": "A savory corn pie with meat filling topped with creamed corn, a beloved Chilean dish found in traditional valley eateries."
+        }
+      ],
+      "culture": [
+        {
+          "id": "mama_c1",
+          "text": "Arrive Early for Clear Skies",
+          "detail": "The best astronomical conditions occur after sunset when atmospheric turbulence settles, so plan to arrive in early evening and allow time for your eyes to adjust."
+        },
+        {
+          "id": "mama_c2",
+          "text": "Respect the Dark Sky",
+          "detail": "Visitors should avoid using bright lights and flashlights to preserve night vision and the observatory's carefully maintained dark-sky environment."
+        },
+        {
+          "id": "mama_c3",
+          "text": "Book Ahead During High Season",
+          "detail": "The observatory is popular during austral winter (June-August) and clear nights fill quickly, so reservations should be made days in advance."
+        },
+        {
+          "id": "mama_c4",
+          "text": "Spanish Helps with Tours",
+          "detail": "While some English-speaking guides are available, most detailed astronomical explanations occur in Spanish, so basic language skills enhance the experience."
+        }
+      ]
+    },
+    {
+      "id": "piscola_distillery",
+      "name": "Pisco La Serena Distillery",
+      "nameIt": "Destilería La Serena",
+      "lat": -29.7417,
+      "lng": -71.2333,
+      "type": "LANDMARK",
+      "description": "A traditional pisco distillery offering tours and tastings of Chile's famous grape brandy. Visitors can learn the production process and sample different pisco varieties in an authentic setting.",
+      "imageQueries": [
+        "Pisco distillery La Serena",
+        "Destilería La Serena Chile tour"
+      ],
+      "activities": [
+        {
+          "id": "pisc_1",
+          "text": "Distillery Production Tour",
+          "detail": "Walk through the copper stills and fermentation tanks to see how pisco is made from muscat and other grape varieties, guided by knowledgeable staff explaining each stage of distillation."
+        },
+        {
+          "id": "pisc_2",
+          "text": "Pisco Tasting Room Experience",
+          "detail": "Sample 3–5 different pisco varieties ranging from clear to aged expressions, learning to identify flavor notes and regional differences between Elqui Valley and Choapa Valley piscos."
+        },
+        {
+          "id": "pisc_3",
+          "text": "Vineyard Grounds Walk",
+          "detail": "Stroll through the distillery's surrounding vineyards in the Coquimbo region to see the muscat and pedro jiménez grape varieties that supply the facility."
+        },
+        {
+          "id": "pisc_4",
+          "text": "Blending Workshop",
+          "detail": "Participate in a guided session where you create your own pisco blend by mixing base spirits under expert direction, then bottle and label your custom creation to take home."
+        },
+        {
+          "id": "pisc_5",
+          "text": "Gift Shop & Bottling Area Visit",
+          "detail": "Browse artisanal pisco bottles, local crafts, and distillery merchandise while observing the manual bottling and labeling process in action."
+        },
+        {
+          "id": "pisc_6",
+          "text": "Cocktail Preparation Class",
+          "detail": "Learn to make traditional Chilean pisco cocktails such as pisco sour with fresh lime juice, egg white, and bitters, taught by the distillery's bar staff."
+        }
+      ],
+      "food": [
+        {
+          "id": "pisc_f1",
+          "text": "Empanadas de Queso y Mariscos",
+          "detail": "Baked pastry pockets filled with local cheese and fresh seafood from the nearby Pacific coast, often served warm at the distillery's café."
+        },
+        {
+          "id": "pisc_f2",
+          "text": "Ceviche Coquimbano",
+          "detail": "Fresh fish cured in lime juice with cilantro, onion, and ají peppers, reflecting the coastal tradition of Coquimbo and frequently paired with pisco tastings."
+        },
+        {
+          "id": "pisc_f3",
+          "text": "Pastel de Choclo",
+          "detail": "A savory corn pie layered with ground beef, olives, and hard-boiled egg, topped with fresh corn paste, a classic Chilean comfort dish available at on-site dining."
+        },
+        {
+          "id": "pisc_f4",
+          "text": "Pan de Queso",
+          "detail": "Cheese bread baked fresh daily and served warm with butter, a light accompaniment to pisco tastings that enhances the spirit's subtle flavors."
+        },
+        {
+          "id": "pisc_f5",
+          "text": "Pisco Sour Tasting Menu Pairing",
+          "detail": "A curated selection of regional appetizers—olives, nuts, dried fruits—designed to complement the distillery's signature pisco sour cocktail."
+        }
+      ],
+      "culture": [
+        {
+          "id": "pisc_c1",
+          "text": "Pisco Ownership Pride",
+          "detail": "Chileans take pisco seriously as a national spirit with protected designation of origin; show genuine interest in understanding the local production methods and regional pride around Coquimbo pisco."
+        },
+        {
+          "id": "pisc_c2",
+          "text": "Spanish-Language Courtesy",
+          "detail": "While tour guides may speak English, learning a few Spanish phrases and greeting staff in Spanish is appreciated and enhances the authentic distillery experience."
+        },
+        {
+          "id": "pisc_c3",
+          "text": "Midday Meal Tradition",
+          "detail": "The main meal is eaten around 1–2 PM; plan your distillery visit accordingly, as some tastings or tours may align better with late morning or late afternoon scheduling around Chilean dining customs."
+        },
+        {
+          "id": "pisc_c4",
+          "text": "Respectful Tasting Etiquette",
+          "detail": "Pace yourself during pisco tastings and accept water and food offerings between samples; over-indulging quickly is seen as disrespectful to the craft and the distillery's hospitality."
+        }
+      ]
+    },
+    {
+      "id": "los_choros_beach",
+      "name": "Los Choros Beach",
+      "nameIt": "Playa Los Choros",
+      "lat": -29.2667,
+      "lng": -71.3667,
+      "type": "COASTAL",
+      "description": "A pristine and less-crowded beach north of Coquimbo known for its turquoise waters and sea lion populations. It's perfect for a more authentic beach experience with good swimming and snorkeling opportunities.",
+      "imageQueries": [
+        "Los Choros Beach Chile",
+        "Playa Los Choros sea lions"
+      ],
+      "activities": [
+        {
+          "id": "los__1",
+          "text": "Swimming in turquoise waters",
+          "detail": "Enjoy safe swimming in the warm, crystal-clear waters that make Los Choros famous along the Coquimbo coast."
+        },
+        {
+          "id": "los__2",
+          "text": "Snorkeling with sea lions",
+          "detail": "Explore the underwater rock formations and kelp forests while observing playful sea lions in their natural habitat."
+        },
+        {
+          "id": "los__3",
+          "text": "Sea lion colony observation",
+          "detail": "Watch the resident sea lion population sunbathing and playing on the rocks from designated viewing points along the beach."
+        },
+        {
+          "id": "los__4",
+          "text": "Sunset beach walk",
+          "detail": "Stroll along the sandy shore during late afternoon to experience the dramatic Pacific light and peaceful atmosphere of this less-crowded beach."
+        },
+        {
+          "id": "los__5",
+          "text": "Tide pool exploration",
+          "detail": "Investigate shallow rocky pools at low tide to discover starfish, sea urchins, and other marine creatures unique to the Chilean coast."
+        },
+        {
+          "id": "los__6",
+          "text": "Photography of coastal cliffs",
+          "detail": "Capture images of the dramatic granite cliffs and turquoise coves that frame Los Choros Beach against the open ocean."
+        }
+      ],
+      "food": [
+        {
+          "id": "los__f1",
+          "text": "Fresh ceviche",
+          "detail": "Sample locally-caught fish cured in lime juice with local peppers, a classic Chilean coastal dish available at beachside vendors."
+        },
+        {
+          "id": "los__f2",
+          "text": "Empanadas de mariscos",
+          "detail": "Enjoy pastry pockets filled with mixed seafood, a traditional Chilean snack perfect for a beach meal."
+        },
+        {
+          "id": "los__f3",
+          "text": "Congrio frito",
+          "detail": "Try fried conger eel, a beloved local fish preparation served fresh at beach restaurants in the Coquimbo region."
+        },
+        {
+          "id": "los__f4",
+          "text": "Seafood cazuela",
+          "detail": "Share a hearty stew combining local fish, shellfish, potatoes, and corn—a warming Chilean comfort food."
+        },
+        {
+          "id": "los__f5",
+          "text": "Locos a la parmesana",
+          "detail": "Taste sea urchins prepared with cheese and breadcrumbs, a delicacy highlighting the rich marine bounty of the region."
+        }
+      ],
+      "culture": [
+        {
+          "id": "los__c1",
+          "text": "Arrive early to avoid crowds",
+          "detail": "Visit in the morning when the beach is quieter and sea lions are most active, avoiding peak tourist times in the afternoon."
+        },
+        {
+          "id": "los__c2",
+          "text": "Respect marine wildlife",
+          "detail": "Keep a safe distance from sea lions and avoid touching rocks where they rest, as disturbance can stress the animals."
+        },
+        {
+          "id": "los__c3",
+          "text": "Check tide schedules",
+          "detail": "Plan your snorkeling and tide pool exploration around low tide times, which locals monitor closely for the best experience."
+        },
+        {
+          "id": "los__c4",
+          "text": "Bring sun protection",
+          "detail": "The Chilean sun is intense at this latitude; locals and visitors alike use high SPF sunscreen and hats as standard practice."
+        }
+      ]
+    },
+    {
+      "id": "la_serena_plaza",
+      "name": "Plaza de Armas La Serena",
+      "nameIt": "Plaza de Armas",
+      "lat": -29.9019,
+      "lng": -71.2516,
+      "type": "LANDMARK",
+      "description": "The historic central square of La Serena surrounded by elegant neoclassical buildings, churches, and palm trees. It's the heart of the city and an ideal spot for experiencing local culture and enjoying café culture.",
+      "imageQueries": [
+        "Plaza de Armas La Serena",
+        "La Serena central square Chile"
+      ],
+      "activities": [
+        {
+          "id": "la_s_1",
+          "text": "Admire the Cathedral",
+          "detail": "Visit the neoclassical Catedral Metropolitana de La Serena, an iconic white church dominating the plaza's east side, rebuilt in the 19th century after the original colonial structure was destroyed.",
+          "lat": -29.9036,
+          "lng": -71.3125
+        },
+        {
+          "id": "la_s_2",
+          "text": "Stroll beneath the palm trees",
+          "detail": "Walk through the plaza's landscaped gardens lined with century-old palm trees, benches, and fountains that create a peaceful urban oasis in the city center.",
+          "lat": -29.9038,
+          "lng": -71.313
+        },
+        {
+          "id": "la_s_3",
+          "text": "Explore the Museo Arqueológico",
+          "detail": "Tour the archaeological museum on the plaza's north side, which houses pre-Columbian artifacts and displays on the Diaguita and Atacameño cultures of the region.",
+          "lat": -29.9024,
+          "lng": -71.3128
+        },
+        {
+          "id": "la_s_4",
+          "text": "Browse colonial architecture",
+          "detail": "Examine the surrounding neoclassical mansions and civic buildings with their distinctive white-painted facades, arched windows, and period details reflecting 19th-century Chilean design.",
+          "lat": -29.9035,
+          "lng": -71.3128
+        },
+        {
+          "id": "la_s_5",
+          "text": "Relax at a café",
+          "detail": "Sit at one of the outdoor cafés surrounding the plaza to enjoy coffee, pastries, and people-watching while observing daily local life.",
+          "lat": -29.9038,
+          "lng": -71.3125
+        },
+        {
+          "id": "la_s_6",
+          "text": "Visit the Government Palace",
+          "detail": "View the elegant Palacio de Gobierno on the plaza's west side, a neoclassical government building open for tours that showcases La Serena's administrative heritage."
+        }
+      ],
+      "food": [
+        {
+          "id": "la_s_f1",
+          "text": "Empanadas de queso y champiñones",
+          "detail": "Savory pastries filled with melted cheese and sautéed mushrooms, a popular local street food sold by vendors around the plaza."
+        },
+        {
+          "id": "la_s_f2",
+          "text": "Ceviche sereno",
+          "detail": "Fresh fish cured in citrus juice with local variations using regional white fish from nearby coastal ports, reflecting La Serena's fishing heritage."
+        },
+        {
+          "id": "la_s_f3",
+          "text": "Pastel de choclo",
+          "detail": "A traditional Chilean corn pie with ground meat, olives, and hard-boiled eggs topped with a sweet corn crust, commonly served in local restaurants near the plaza."
+        },
+        {
+          "id": "la_s_f4",
+          "text": "Completo sereno",
+          "detail": "A loaded hot dog unique to La Serena topped with avocado, tomato, sauerkraut, and mayo, sold at food stalls and small eateries around the square."
+        },
+        {
+          "id": "la_s_f5",
+          "text": "Cazuela de mariscos",
+          "detail": "A rich seafood stew featuring local shellfish, fish, and sometimes sea urchin in a creamy broth, served in nearby seafood restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "la_s_c1",
+          "text": "Plaza timing and crowds",
+          "detail": "Visit early morning or late afternoon to experience the plaza at its quietest; midday and weekends attract peak crowds, especially from locals enjoying afternoon breaks."
+        },
+        {
+          "id": "la_s_c2",
+          "text": "Respect religious sites",
+          "detail": "When entering the Cathedral or other churches on the plaza, dress modestly and speak quietly, as these remain active places of worship, not just tourist attractions."
+        },
+        {
+          "id": "la_s_c3",
+          "text": "Greetings and warmth",
+          "detail": "Chileans typically greet with a handshake or light kiss on the cheek; a simple 'Buenos días' or 'Buenas tardes' when entering cafés is appreciated and expected."
+        },
+        {
+          "id": "la_s_c4",
+          "text": "Siesta awareness",
+          "detail": "Many businesses and cafés around the plaza may close or have reduced hours between 1 and 4 p.m., reflecting the traditional Chilean siesta custom still observed in smaller cities."
+        }
+      ]
+    },
+    {
+      "id": "fray_jorge_forest",
+      "name": "Fray Jorge National Park",
+      "nameIt": "Parque Nacional Fray Jorge",
+      "lat": -30.6333,
+      "lng": -71.5667,
+      "type": "NATURE",
+      "description": "A unique protected temperate rainforest oasis in the Atacama Desert region with trails through pristine native vegetation. The park offers incredible biodiversity and scenic views of the Pacific coastline.",
+      "imageQueries": [
+        "Fray Jorge National Park",
+        "Parque Fray Jorge rainforest"
+      ],
+      "activities": [
+        {
+          "id": "fray_1",
+          "text": "Bosque Fray Jorge Trail",
+          "detail": "Hike through the misty native forest canopy via the main interpretive trail that descends into the protected rainforest oasis.",
+          "lat": -30.6389,
+          "lng": -71.6694
+        },
+        {
+          "id": "fray_2",
+          "text": "Mirador Oceánico Viewpoint",
+          "detail": "Trek to the coastal overlook offering panoramic views of the Pacific Ocean and dramatic cliff formations above the park.",
+          "lat": -30.6456,
+          "lng": -71.6611
+        },
+        {
+          "id": "fray_3",
+          "text": "Estero Derecho Waterfall",
+          "detail": "Follow the stream trail to discover seasonal waterfalls and clear pools within the lush forest understory.",
+          "lat": -30.6412,
+          "lng": -71.6728
+        },
+        {
+          "id": "fray_4",
+          "text": "Native Tree Identification Walk",
+          "detail": "Join a guided nature walk to learn about endemic species like Olivillo and Peumo trees unique to this desert rainforest.",
+          "lat": -30.6389,
+          "lng": -71.6694
+        },
+        {
+          "id": "fray_5",
+          "text": "Bird Watching at Dawn",
+          "detail": "Visit early morning to spot endemic birds including the Chilean Wood Star and various raptors in their natural habitat.",
+          "lat": -30.6389,
+          "lng": -71.6694
+        },
+        {
+          "id": "fray_6",
+          "text": "Fog Collection Photography",
+          "detail": "Capture the unique phenomenon of the camanchaca fog rolling through the forest, which sustains the ecosystem during dry months."
+        }
+      ],
+      "food": [
+        {
+          "id": "fray_f1",
+          "text": "Empanadas de Queso y Maíz",
+          "detail": "These traditional Chilean pastries filled with local cheese and corn are widely available at park visitor centers and nearby towns."
+        },
+        {
+          "id": "fray_f2",
+          "text": "Cazuela de Mariscos",
+          "detail": "A hearty seafood stew featuring fresh catch from the nearby Pacific coast, commonly served in Coquimbo region restaurants."
+        },
+        {
+          "id": "fray_f3",
+          "text": "Pastel de Choclo",
+          "detail": "This classic Chilean corn pie layered with meat filling is a staple dish found in local eateries around the park."
+        },
+        {
+          "id": "fray_f4",
+          "text": "Humitas",
+          "detail": "Fresh corn wrapped in corn husks and steamed, representing traditional Coquimbo cuisine available in nearby settlements."
+        },
+        {
+          "id": "fray_f5",
+          "text": "Fresh Fish from Coquimbo Port",
+          "detail": "Visit nearby coastal towns to enjoy grilled or fried fresh catches like congrio and reineta prepared simply with local techniques."
+        }
+      ],
+      "culture": [
+        {
+          "id": "fray_c1",
+          "text": "Respect the Camanchaca Fog",
+          "detail": "The park's moisture-laden fog system is sacred to locals and essential for the ecosystem—avoid disturbing vegetation during fog collection periods."
+        },
+        {
+          "id": "fray_c2",
+          "text": "Visit During Guided Tour Hours",
+          "detail": "Park rangers and official guides provide crucial ecological and historical context; hiring a local guide supports community employment and conservation efforts."
+        },
+        {
+          "id": "fray_c3",
+          "text": "Dress in Layers",
+          "detail": "The microclimate within the forest is significantly cooler and more humid than the surrounding Atacama, so bring jackets despite coastal heat outside."
+        },
+        {
+          "id": "fray_c4",
+          "text": "Speak Spanish When Possible",
+          "detail": "Staff and nearby community members primarily speak Spanish, and efforts to communicate in the local language are deeply appreciated."
+        }
+      ]
+    },
+    {
+      "id": "ovalle_town",
+      "name": "Ovalle",
+      "nameIt": "Ovalle",
+      "lat": -30.6,
+      "lng": -71.2,
+      "type": "TOWN",
+      "description": "A charming inland town serving as the gateway to the Elqui Valley and Fray Jorge National Park. It features authentic Chilean culture, local markets, and colonial architecture with easy access to nature attractions.",
+      "imageQueries": [
+        "Ovalle Chile town",
+        "Ovalle Coquimbo region"
+      ],
+      "activities": [
+        {
+          "id": "oval_1",
+          "text": "Plaza de Armas",
+          "detail": "The main town square surrounded by colonial architecture and local government buildings, perfect for experiencing everyday Chilean life and people-watching.",
+          "lat": -30.6034,
+          "lng": -71.1959
+        },
+        {
+          "id": "oval_2",
+          "text": "Elqui Valley Wine Tours",
+          "detail": "Visit nearby vineyards producing pisco and wine in the fertile valley just outside Ovalle, with tastings and cellar tours available.",
+          "lat": -30.55,
+          "lng": -71.25
+        },
+        {
+          "id": "oval_3",
+          "text": "Fray Jorge National Park",
+          "detail": "A UNESCO biosphere reserve featuring a cloud forest ecosystem perched on coastal cliffs about 40 km away, accessible by day trip from Ovalle.",
+          "lat": -30.658,
+          "lng": -71.6686
+        },
+        {
+          "id": "oval_4",
+          "text": "Mercado Municipal",
+          "detail": "The bustling local market selling fresh produce, handicrafts, and regional products where you can interact with vendors and find authentic Chilean goods.",
+          "lat": -30.6043,
+          "lng": -71.1976
+        },
+        {
+          "id": "oval_5",
+          "text": "Museo del Limarí",
+          "detail": "A regional museum displaying pre-Columbian artifacts, colonial pieces, and natural history related to the Coquimbo region.",
+          "lat": -30.605,
+          "lng": -71.198
+        },
+        {
+          "id": "oval_6",
+          "text": "Cerro del Caracol",
+          "detail": "A hilltop viewpoint overlooking Ovalle offering panoramic views of the town and surrounding valleys, accessible by a short hike.",
+          "lat": -30.61,
+          "lng": -71.185
+        }
+      ],
+      "food": [
+        {
+          "id": "oval_f1",
+          "text": "Cazuela de Vacuno",
+          "detail": "A traditional Chilean beef and vegetable stew served in earthenware bowls, commonly found in local restaurants and family eateries."
+        },
+        {
+          "id": "oval_f2",
+          "text": "Empanadas de Pino",
+          "detail": "Baked pastries filled with seasoned ground beef, olives, raisins, and hard-boiled egg, a quintessential Chilean street food sold throughout Ovalle."
+        },
+        {
+          "id": "oval_f3",
+          "text": "Chupe de Mariscos",
+          "detail": "A creamy seafood soup featuring local catch from nearby coastal towns, often prepared with fish, shrimp, and mussels."
+        },
+        {
+          "id": "oval_f4",
+          "text": "Pisco Sour",
+          "detail": "The national cocktail made from local pisco brandy produced in the Elqui Valley, served with lime juice, egg white, and syrup."
+        },
+        {
+          "id": "oval_f5",
+          "text": "Mote con Huesillo",
+          "detail": "A refreshing traditional drink combining wheat grains, dried peaches, and sugar water, popular as a street beverage in warmer months."
+        }
+      ],
+      "culture": [
+        {
+          "id": "oval_c1",
+          "text": "Market Hours and Timing",
+          "detail": "Visit the Mercado Municipal in the morning when vendors are most active and selection is freshest; many stalls close by early afternoon."
+        },
+        {
+          "id": "oval_c2",
+          "text": "Spanish Language Helpful",
+          "detail": "English is rarely spoken in Ovalle outside tourist hotels, so learning basic Spanish phrases will greatly enhance your interactions with locals and vendors."
+        },
+        {
+          "id": "oval_c3",
+          "text": "Siesta Customs",
+          "detail": "Many small businesses and restaurants close during afternoon hours (roughly 1 to 4 pm), reflecting traditional Chilean daily rhythms so plan activities accordingly."
+        },
+        {
+          "id": "oval_c4",
+          "text": "Regional Pride in Pisco",
+          "detail": "Locals take great pride in the pisco production heritage of the Elqui Valley, and showing genuine interest in visiting vineyards or learning about production methods is warmly received."
+        }
+      ]
+    },
+    {
+      "id": "punta_de_choros",
+      "name": "Punta de Choros",
+      "nameIt": "Punta de Choros",
+      "lat": -29.2667,
+      "lng": -71.3333,
+      "type": "COASTAL",
+      "description": "A small coastal village famous as the departure point for boat trips to Isla Damas and other marine reserves to see penguins, sea otters, and diverse seabirds. It's an essential destination for wildlife enthusiasts.",
+      "imageQueries": [
+        "Punta de Choros Chile",
+        "Punta de Choros penguin tours"
+      ],
+      "activities": [
+        {
+          "id": "punt_1",
+          "text": "Isla Damas boat tour",
+          "detail": "Take a guided boat trip to Isla Damas to observe Humboldt penguins, sea otters, and nesting seabirds in their natural habitat.",
+          "lat": -29.2553,
+          "lng": -71.3447
+        },
+        {
+          "id": "punt_2",
+          "text": "Punta de Choros Marine Reserve visit",
+          "detail": "Explore the protected marine reserve directly from the village dock, home to endemic wildlife and pristine coastal ecosystems.",
+          "lat": -29.2617,
+          "lng": -71.3542
+        },
+        {
+          "id": "punt_3",
+          "text": "Penguin and sea otter watching",
+          "detail": "Join organized wildlife tours departing daily to spot Humboldt penguins and endangered sea otters in their native waters.",
+          "lat": -29.2617,
+          "lng": -71.3542
+        },
+        {
+          "id": "punt_4",
+          "text": "Isla Choros exploration",
+          "detail": "Book excursions to nearby Isla Choros for hiking opportunities and close encounters with diverse seabird colonies.",
+          "lat": -29.27,
+          "lng": -71.36
+        },
+        {
+          "id": "punt_5",
+          "text": "Coastal rock formations photography",
+          "detail": "Walk along the village shoreline to photograph dramatic granite outcrops and observe tidepools teeming with marine life.",
+          "lat": -29.2617,
+          "lng": -71.3542
+        },
+        {
+          "id": "punt_6",
+          "text": "Sunset viewpoint at village edge",
+          "detail": "Visit the northern viewpoint overlooking the Pacific to watch the sunset over the marine reserves.",
+          "lat": -29.255,
+          "lng": -71.35
+        }
+      ],
+      "food": [
+        {
+          "id": "punt_f1",
+          "text": "Ceviche de mariscos",
+          "detail": "Fresh local fish and seafood marinated in lime juice with onions and cilantro, a coastal Chilean specialty prepared daily at beachfront restaurants."
+        },
+        {
+          "id": "punt_f2",
+          "text": "Empanadas de mariscos",
+          "detail": "Baked pastry pockets filled with shrimp, clams, or fish caught from nearby waters, sold by local vendors throughout the village."
+        },
+        {
+          "id": "punt_f3",
+          "text": "Paila marina",
+          "detail": "A traditional seafood stew combining multiple local catches with potatoes, served hot in rustic bowls at waterfront dining spots."
+        },
+        {
+          "id": "punt_f4",
+          "text": "Locos a la parmesana",
+          "detail": "Sea urchin prepared with parmesan and baked, showcasing the region's prized shellfish delicacy."
+        },
+        {
+          "id": "punt_f5",
+          "text": "Pastel de jaiba",
+          "detail": "A savory crab pie made with local dungeness crab, cheese, and egg, baked until golden and served as a hearty lunch option."
+        }
+      ],
+      "culture": [
+        {
+          "id": "punt_c1",
+          "text": "Book tours in advance",
+          "detail": "Reserve boat trips at least one day ahead, especially in summer months (December-February), as popular excursions fill quickly with visiting wildlife enthusiasts."
+        },
+        {
+          "id": "punt_c2",
+          "text": "Respect wildlife distances",
+          "detail": "Follow all guide instructions and maintain required distances from animals; locals take marine conservation seriously as the region's economic and cultural foundation."
+        },
+        {
+          "id": "punt_c3",
+          "text": "Arrive early for best conditions",
+          "detail": "Most boat tours depart at dawn when seas are calmest and wildlife is most active; plan to arrive at the dock by 7-8 AM."
+        },
+        {
+          "id": "punt_c4",
+          "text": "Support local guides",
+          "detail": "Hire registered local operators who contribute directly to the community and possess intimate knowledge of seasonal animal behavior and safe navigation."
+        }
+      ]
+    },
+    {
+      "id": "isla_damas",
+      "name": "Isla Damas",
+      "nameIt": "Isla Damas",
+      "lat": -29.25,
+      "lng": -71.3333,
+      "type": "ISLAND",
+      "description": "A small island reserve accessible by boat from Punta de Choros, home to Humboldt penguins, sea otters, and numerous seabird species. It's one of the region's premier wildlife viewing destinations.",
+      "imageQueries": [
+        "Isla Damas Chile island",
+        "Isla Damas penguins wildlife"
+      ],
+      "activities": [
+        {
+          "id": "isla_1",
+          "text": "Humboldt Penguin Watching",
+          "detail": "Observe the endangered Humboldt penguins in their natural habitat, particularly during breeding season when they're most active on the island's rocky shores.",
+          "lat": -29.2567,
+          "lng": -71.5033
+        },
+        {
+          "id": "isla_2",
+          "text": "Sea Otter Spotting",
+          "detail": "Look for the rare Chilean sea otters swimming near the kelp forests surrounding the island, one of the last remaining populations in South America.",
+          "lat": -29.2567,
+          "lng": -71.5033
+        },
+        {
+          "id": "isla_3",
+          "text": "Seabird Photography Tour",
+          "detail": "Capture images of cormorants, gulls, terns, and other seabirds that nest and feed around the island's coastal cliffs.",
+          "lat": -29.2567,
+          "lng": -71.5033
+        },
+        {
+          "id": "isla_4",
+          "text": "Guided Boat Circuit Around the Island",
+          "detail": "Take a ranger-led boat tour departing from Punta de Choros that circles the island for comprehensive wildlife viewing and geological interpretation.",
+          "lat": -29.2633,
+          "lng": -71.4617
+        },
+        {
+          "id": "isla_5",
+          "text": "Kelp Forest Exploration",
+          "detail": "Observe the underwater ecosystem of giant kelp forests that support the island's marine biodiversity from designated viewpoints or glass-bottom boat views.",
+          "lat": -29.2567,
+          "lng": -71.5033
+        },
+        {
+          "id": "isla_6",
+          "text": "Rock Formation Study",
+          "detail": "Examine the island's dramatic granite and basalt rock formations that create protected coves and nesting sites for wildlife."
+        }
+      ],
+      "food": [
+        {
+          "id": "isla_f1",
+          "text": "Fresh Ceviche from Punta de Choros",
+          "detail": "Experience locally-caught fish ceviche prepared with lime juice and local ingredients at restaurants in the nearby fishing village of Punta de Choros."
+        },
+        {
+          "id": "isla_f2",
+          "text": "Empanadas de Mariscos",
+          "detail": "Try seafood-filled pastries featuring local catches like sea urchin, clams, or fish, commonly sold at Punta de Choros before boat departures."
+        },
+        {
+          "id": "isla_f3",
+          "text": "Caldillo de Congrio",
+          "detail": "Sample this traditional Chilean fish soup made with conger eel and vegetables, reflecting the region's strong seafaring heritage."
+        },
+        {
+          "id": "isla_f4",
+          "text": "Ulva Salad",
+          "detail": "Taste dishes featuring edible seaweed harvested from the Coquimbo coast, often prepared as a fresh salad or side dish."
+        },
+        {
+          "id": "isla_f5",
+          "text": "Picoroco",
+          "detail": "Try these large Chilean crustaceans, similar to barnacles, steamed or boiled and served as a delicacy in local coastal restaurants."
+        }
+      ],
+      "culture": [
+        {
+          "id": "isla_c1",
+          "text": "Book Tours in Advance",
+          "detail": "Reserve your boat tour through authorized operators in Punta de Choros the day before, as visitor numbers are regulated to protect the reserve."
+        },
+        {
+          "id": "isla_c2",
+          "text": "Respect Wildlife Distance",
+          "detail": "Maintain the required distance from animals as instructed by guides; unauthorized approach to nesting sites or animals is prohibited and can disturb breeding cycles."
+        },
+        {
+          "id": "isla_c3",
+          "text": "Bring Sun Protection",
+          "detail": "The island offers no shade and sits in the direct South Pacific sun, so bring high SPF sunscreen, hat, and sunglasses to avoid severe burns during the boat journey."
+        },
+        {
+          "id": "isla_c4",
+          "text": "Support Local Boat Operators",
+          "detail": "Use locally-licensed operators from Punta de Choros rather than third-party tour companies to ensure revenue supports conservation efforts and local communities."
+        }
+      ]
+    }
+  ],
+  "restaurantCount": 14,
+  "restaurants": [
+    {
+      "number": 1,
+      "id": "rest_1",
+      "name": "La Herradura",
+      "address": "Avenida del Mar 1200, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Seafood",
+      "priceRange": "€€€",
+      "description": "Upscale beachfront restaurant specializing in fresh catch of the day with panoramic Pacific views.",
+      "mustOrder": "Reineta a la mantequilla",
+      "lat": -29.9533,
+      "lng": -71.3415
+    },
+    {
+      "number": 2,
+      "id": "rest_2",
+      "name": "El Pentagrama",
+      "address": "Calle Melgarejo 245, La Serena",
+      "neighbourhood": "La Serena Centro",
+      "cuisine": "International",
+      "priceRange": "€€€",
+      "description": "Elegant fine dining establishment with creative fusion cuisine and an extensive wine list from local vineyards.",
+      "mustOrder": "Cordero a la pimienta",
+      "lat": -29.9089,
+      "lng": -71.2535
+    },
+    {
+      "number": 3,
+      "id": "rest_3",
+      "name": "Restaurante Atico",
+      "address": "Avenida del Mar 800, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Peruvian",
+      "priceRange": "€€",
+      "description": "Casual Peruvian-inspired eatery with ceviche and ceviches that reflect regional coastal flavors.",
+      "mustOrder": "Ceviche mixto",
+      "lat": -29.9555,
+      "lng": -71.3438
+    },
+    {
+      "number": 4,
+      "id": "rest_4",
+      "name": "La Estancia",
+      "address": "Calle Juan Pablo II 500, La Serena",
+      "neighbourhood": "La Serena Sur",
+      "cuisine": "Argentine Steakhouse",
+      "priceRange": "€€€",
+      "description": "Traditional Argentine grill serving premium cuts of beef prepared with classic parrilla techniques.",
+      "mustOrder": "Bife de chorizo",
+      "lat": -29.925,
+      "lng": -71.248
+    },
+    {
+      "number": 5,
+      "id": "rest_5",
+      "name": "Casa del Vino",
+      "address": "Avenida Francisco de Aguirre 345, La Serena",
+      "neighbourhood": "La Serena Centro",
+      "cuisine": "Chilean",
+      "priceRange": "€€",
+      "description": "Rustic wine bar and bistro showcasing regional Chilean cuisine paired with local Elqui Valley wines.",
+      "mustOrder": "Pastel de choclo",
+      "lat": -29.9145,
+      "lng": -71.2515
+    },
+    {
+      "number": 6,
+      "id": "rest_6",
+      "name": "Sol y Luna",
+      "address": "Calle Cienfuegos 120, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Mediterranean",
+      "priceRange": "€€€",
+      "description": "Contemporary Mediterranean restaurant with fresh seasonal ingredients and artistic plate presentation.",
+      "mustOrder": "Pez espada al horno",
+      "lat": -29.9505,
+      "lng": -71.341
+    },
+    {
+      "number": 7,
+      "id": "rest_7",
+      "name": "El Colibrí",
+      "address": "Calle Prat 789, La Serena",
+      "neighbourhood": "La Serena Centro",
+      "cuisine": "Chilean Traditional",
+      "priceRange": "€",
+      "description": "Small, humble neighborhood spot serving authentic Chilean comfort food and home-style cooking.",
+      "mustOrder": "Cazuela de ave",
+      "lat": -29.911,
+      "lng": -71.249
+    },
+    {
+      "number": 8,
+      "id": "rest_8",
+      "name": "Barlovento",
+      "address": "Avenida del Mar 450, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Casual beachfront eatery with grilled fish and seafood platters popular with locals.",
+      "mustOrder": "Tabla de mariscos",
+      "lat": -29.952,
+      "lng": -71.3425
+    },
+    {
+      "number": 9,
+      "id": "rest_9",
+      "name": "Siete Espías",
+      "address": "Calle Cordovez 567, La Serena",
+      "neighbourhood": "La Serena Centro",
+      "cuisine": "Modern Chilean",
+      "priceRange": "€€€",
+      "description": "Innovative restaurant combining traditional Chilean ingredients with contemporary culinary techniques.",
+      "mustOrder": "Reineta en salsa de almejas",
+      "lat": -29.9125,
+      "lng": -71.2505
+    },
+    {
+      "number": 10,
+      "id": "rest_10",
+      "name": "La Pizzería de Beto",
+      "address": "Avenida del Mar 600, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Italian",
+      "priceRange": "€€",
+      "description": "Friendly neighborhood pizzeria with wood-fired oven producing authentic Neapolitan-style pizzas.",
+      "mustOrder": "Pizza al frutti di mare",
+      "lat": -29.954,
+      "lng": -71.3432
+    },
+    {
+      "number": 11,
+      "id": "rest_11",
+      "name": "Patagonia Grill",
+      "address": "Calle Larraín 234, La Serena",
+      "neighbourhood": "La Serena Centro",
+      "cuisine": "Patagonian",
+      "priceRange": "€€€",
+      "description": "Upscale restaurant featuring lamb and game meats from southern Chile with refined plating.",
+      "mustOrder": "Lechón patagónico",
+      "lat": -29.9135,
+      "lng": -71.252
+    },
+    {
+      "number": 12,
+      "id": "rest_12",
+      "name": "Café Santo Domingo",
+      "address": "Calle Santo Domingo 456, La Serena",
+      "neighbourhood": "La Serena Centro",
+      "cuisine": "Cafe/Light fare",
+      "priceRange": "€",
+      "description": "Charming historic cafe serving coffee, pastries, and light lunches in a vintage bohemian setting.",
+      "mustOrder": "Completo criollo con café",
+      "lat": -29.9115,
+      "lng": -71.2535
+    },
+    {
+      "number": 13,
+      "id": "rest_13",
+      "name": "Mariscos El Puerto",
+      "address": "Avenida del Mar 1100, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Seafood",
+      "priceRange": "€€",
+      "description": "Working-class seafood restaurant directly overlooking the harbor with ultra-fresh daily catches.",
+      "mustOrder": "Empanadas de marisco",
+      "lat": -29.955,
+      "lng": -71.3445
+    },
+    {
+      "number": 14,
+      "id": "rest_14",
+      "name": "Tierra de Vinos",
+      "address": "Avenida del Mar 950, Coquimbo",
+      "neighbourhood": "Coquimbo Centro",
+      "cuisine": "Wine Bar/Spanish Tapas",
+      "priceRange": "€€",
+      "description": "Wine-focused restaurant offering Spanish-style tapas and regional Coquimbo pisco selections.",
+      "mustOrder": "Tabla de quesos y jamón ibérico",
+      "lat": -29.9535,
+      "lng": -71.342
+    }
+  ]
+}
