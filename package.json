@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
+    "@newrelic/browser-agent": "^1.318.0",
     "dompurify": "^3.4.12",
     "drizzle-orm": "^0.45.2",
     "fflate": "^0.8.3",

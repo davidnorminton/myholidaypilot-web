@@ -29,6 +29,12 @@ import App from './App.jsx'
 import { AuthProvider } from './lib/auth.jsx'
 import './index.css'
 
+// Real-user monitoring, loaded after first paint so it never competes with the
+// app for the critical path. No env vars configured = the import resolves to a
+// no-op and the chunk is the only cost.
+const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 2000))
+idle(() => { import('./lib/newrelic.js').then((m) => m.initNewRelic()).catch(() => {}) })
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
