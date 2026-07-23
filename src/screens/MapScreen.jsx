@@ -53,9 +53,14 @@ export default function MapScreen() {
           style: 'mapbox://styles/mapbox/outdoors-v12',
           center: [10, 24],
           zoom: 1.6,
+          // Recent Mapbox styles default to the 3D globe; this page wants the
+          // whole world visible at once, edge to edge — flat mercator, and no
+          // atmosphere/fog haze that comes bundled with globe.
+          projection: 'mercator',
           attributionControl: true,
           renderWorldCopies: false,
         })
+        map.on('style.load', () => { try { map.setFog(null) } catch { /* older SDK */ } })
         mapRef.current = map
         // Desktop: the map is a picture of the whole world, not a viewport to
         // wander — kill every zoom gesture. Touch keeps pinch (see header note).

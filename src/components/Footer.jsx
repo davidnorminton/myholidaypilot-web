@@ -35,6 +35,7 @@ export default function Footer() {
           <div className="footer__col">
             <h3>Discover</h3>
             <Link to="/featured-destinations">Featured destinations</Link>
+            <Link to="/map">World map</Link>
             <Link to={paths.saved()}>Saved places</Link>
             <Link to={paths.account()}>My home</Link>
           </div>

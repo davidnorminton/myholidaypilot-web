@@ -253,7 +253,7 @@ const FOOTER_HTML = (() => {
     + `</ul><h2>Plan</h2><ul>`
       + fLink('/trip-planner', 'Trip planner') + fLink('/guided', 'Guided planner')
     + `</ul><h2>Discover</h2><ul>`
-      + fLink('/featured-destinations', 'Featured destinations')
+      + fLink('/featured-destinations', 'Featured destinations') + fLink('/map', 'World map')
     + `</ul>`
     + (live.length ? `<h2>Top countries</h2><ul>${live.map((c) =>
         fLink(`/${c}`, nameFor(c, readJson(path.join(dataDir, c, 'country.json'), {})) || c)).join('')}</ul>` : '')
