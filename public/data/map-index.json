@@ -1,0 +1,425 @@
+{
+ "generatedAt": "2026-07-23T11:00:20.111Z",
+ "countries": [
+  {
+   "slug": "argentina",
+   "name": "Argentina",
+   "flag": "🇦🇷",
+   "capital": "",
+   "lat": -33.398,
+   "lng": -64.391,
+   "regions": 22,
+   "places": 232
+  },
+  {
+   "slug": "australia",
+   "name": "Australia",
+   "flag": "🇦🇺",
+   "capital": "Canberra",
+   "lat": -31.225,
+   "lng": 140.762,
+   "regions": 8,
+   "places": 107
+  },
+  {
+   "slug": "brazil",
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "capital": "Brasília",
+   "lat": -15.68,
+   "lng": -50.7,
+   "regions": 5,
+   "places": 63
+  },
+  {
+   "slug": "canada",
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "capital": "Ottawa",
+   "lat": 56.1,
+   "lng": -106.3,
+   "regions": 13,
+   "places": 170
+  },
+  {
+   "slug": "chile",
+   "name": "Chile",
+   "flag": "🇨🇱",
+   "capital": "",
+   "lat": -33.5,
+   "lng": -73.288,
+   "regions": 16,
+   "places": 188
+  },
+  {
+   "slug": "china",
+   "name": "China",
+   "flag": "🇨🇳",
+   "capital": "Beijing",
+   "lat": 32.426,
+   "lng": 109.978,
+   "regions": 23,
+   "places": 262
+  },
+  {
+   "slug": "colombia",
+   "name": "Colombia",
+   "flag": "🇨🇴",
+   "capital": "",
+   "lat": 5.246,
+   "lng": -74.71,
+   "regions": 11,
+   "places": 117
+  },
+  {
+   "slug": "denmark",
+   "name": "Denmark",
+   "flag": "🇩🇰",
+   "capital": "Copenhagen",
+   "lat": 55.698,
+   "lng": 11.263,
+   "regions": 15,
+   "places": 137
+  },
+  {
+   "slug": "egypt",
+   "name": "Egypt",
+   "flag": "🇪🇬",
+   "capital": "Cairo",
+   "lat": 28.52,
+   "lng": 31.611,
+   "regions": 10,
+   "places": 109
+  },
+  {
+   "slug": "fiji",
+   "name": "Fiji",
+   "flag": "🇫🇯",
+   "capital": "Suva",
+   "lat": -17.482,
+   "lng": 178.542,
+   "regions": 6,
+   "places": 54
+  },
+  {
+   "slug": "finland",
+   "name": "Finland",
+   "flag": "🇫🇮",
+   "capital": "Helsinki",
+   "lat": 61.946,
+   "lng": 24.816,
+   "regions": 18,
+   "places": 194
+  },
+  {
+   "slug": "france",
+   "name": "France",
+   "flag": "🇫🇷",
+   "capital": "Paris",
+   "lat": 46.6,
+   "lng": 2.4,
+   "regions": 13,
+   "places": 178
+  },
+  {
+   "slug": "germany",
+   "name": "Germany",
+   "flag": "🇩🇪",
+   "capital": "Berlin",
+   "lat": 51.491,
+   "lng": 10.301,
+   "regions": 16,
+   "places": 207
+  },
+  {
+   "slug": "greece",
+   "name": "Greece",
+   "flag": "🇬🇷",
+   "capital": "Athens",
+   "lat": 38.592,
+   "lng": 23.44,
+   "regions": 13,
+   "places": 163
+  },
+  {
+   "slug": "iceland",
+   "name": "Iceland",
+   "flag": "🇮🇸",
+   "capital": "Reykjavík",
+   "lat": 64.648,
+   "lng": -19.139,
+   "regions": 8,
+   "places": 77
+  },
+  {
+   "slug": "india",
+   "name": "India",
+   "flag": "🇮🇳",
+   "capital": "New Delhi",
+   "lat": 22.5,
+   "lng": 79.868,
+   "regions": 22,
+   "places": 292
+  },
+  {
+   "slug": "indonesia",
+   "name": "Indonesia",
+   "flag": "🇮🇩",
+   "capital": "Jakarta",
+   "lat": -2.5,
+   "lng": 118,
+   "regions": 25,
+   "places": 310
+  },
+  {
+   "slug": "ireland",
+   "name": "Ireland",
+   "flag": "🇮🇪",
+   "capital": "Dublin",
+   "lat": 53.452,
+   "lng": -7.644,
+   "regions": 13,
+   "places": 129
+  },
+  {
+   "slug": "israel",
+   "name": "Israel",
+   "flag": "🇮🇱",
+   "capital": "Jerusalem",
+   "lat": 31.814,
+   "lng": 35.173,
+   "regions": 12,
+   "places": 117
+  },
+  {
+   "slug": "italy",
+   "name": "Italy",
+   "flag": "🇮🇹",
+   "capital": "Rome",
+   "lat": 42.87,
+   "lng": 12.22,
+   "regions": 20,
+   "places": 190
+  },
+  {
+   "slug": "japan",
+   "name": "Japan",
+   "flag": "🇯🇵",
+   "capital": "Tokyo",
+   "lat": 35.344,
+   "lng": 135.578,
+   "regions": 9,
+   "places": 112
+  },
+  {
+   "slug": "jordan",
+   "name": "Jordan",
+   "flag": "🇯🇴",
+   "capital": "",
+   "lat": 31.43,
+   "lng": 35.592,
+   "regions": 18,
+   "places": 150
+  },
+  {
+   "slug": "malaysia",
+   "name": "Malaysia",
+   "flag": "🇲🇾",
+   "capital": "Kuala Lumpur",
+   "lat": 4.11,
+   "lng": 104.076,
+   "regions": 16,
+   "places": 196
+  },
+  {
+   "slug": "mexico",
+   "name": "Mexico",
+   "flag": "🇲🇽",
+   "capital": "Mexico City",
+   "lat": 22.65,
+   "lng": -102.2,
+   "regions": 10,
+   "places": 119
+  },
+  {
+   "slug": "netherlands",
+   "name": "Netherlands",
+   "flag": "🇳🇱",
+   "capital": "Amsterdam",
+   "lat": 52.235,
+   "lng": 5.484,
+   "regions": 12,
+   "places": 121
+  },
+  {
+   "slug": "new_zealand",
+   "name": "New Zealand",
+   "flag": "🇳🇿",
+   "capital": "Wellington",
+   "lat": -41.8,
+   "lng": 172.8,
+   "regions": 15,
+   "places": 180
+  },
+  {
+   "slug": "norway",
+   "name": "Norway",
+   "flag": "🇳🇴",
+   "capital": "Oslo",
+   "lat": 61.5,
+   "lng": 8.8,
+   "regions": 8,
+   "places": 80
+  },
+  {
+   "slug": "peru",
+   "name": "Peru",
+   "flag": "🇵🇪",
+   "capital": "Lima",
+   "lat": -11.339,
+   "lng": -74.412,
+   "regions": 11,
+   "places": 105
+  },
+  {
+   "slug": "poland",
+   "name": "Poland",
+   "flag": "🇵🇱",
+   "capital": "Warsaw",
+   "lat": 51.88,
+   "lng": 19.367,
+   "regions": 15,
+   "places": 181
+  },
+  {
+   "slug": "portugal",
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "capital": "Lisbon",
+   "lat": 38.509,
+   "lng": -10.691,
+   "regions": 11,
+   "places": 129
+  },
+  {
+   "slug": "saudi_arabia",
+   "name": "Saudi Arabia",
+   "flag": "🇸🇦",
+   "capital": "Riyadh",
+   "lat": 23.877,
+   "lng": 42.626,
+   "regions": 11,
+   "places": 133
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "flag": "🇸🇬",
+   "capital": "Singapore",
+   "lat": 1.345,
+   "lng": 103.846,
+   "regions": 8,
+   "places": 75
+  },
+  {
+   "slug": "south_korea",
+   "name": "South Korea",
+   "flag": "🇰🇷",
+   "capital": "Seoul",
+   "lat": 36.066,
+   "lng": 127.648,
+   "regions": 16,
+   "places": 171
+  },
+  {
+   "slug": "spain",
+   "name": "Spain",
+   "flag": "🇪🇸",
+   "capital": "Madrid",
+   "lat": 39.978,
+   "lng": -3.6,
+   "regions": 18,
+   "places": 191
+  },
+  {
+   "slug": "sweden",
+   "name": "Sweden",
+   "flag": "🇸🇪",
+   "capital": "Stockholm",
+   "lat": 60.125,
+   "lng": 16.468,
+   "regions": 12,
+   "places": 141
+  },
+  {
+   "slug": "switzerland",
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "capital": "Bern",
+   "lat": 47.076,
+   "lng": 8.104,
+   "regions": 24,
+   "places": 177
+  },
+  {
+   "slug": "thailand",
+   "name": "Thailand",
+   "flag": "🇹🇭",
+   "capital": "Bangkok",
+   "lat": 13.169,
+   "lng": 100.238,
+   "regions": 9,
+   "places": 106
+  },
+  {
+   "slug": "turkey",
+   "name": "Turkey",
+   "flag": "🇹🇷",
+   "capital": "Ankara",
+   "lat": 39.012,
+   "lng": 34.775,
+   "regions": 8,
+   "places": 88
+  },
+  {
+   "slug": "united_arab_emirates",
+   "name": "United Arab Emirates",
+   "flag": "🇦🇪",
+   "capital": "Abu Dhabi",
+   "lat": 25.265,
+   "lng": 55.474,
+   "regions": 7,
+   "places": 86
+  },
+  {
+   "slug": "united_kingdom",
+   "name": "United Kingdom",
+   "flag": "🇬🇧",
+   "capital": "London",
+   "lat": 53.688,
+   "lng": -2.694,
+   "regions": 17,
+   "places": 220
+  },
+  {
+   "slug": "united_states",
+   "name": "United States",
+   "flag": "🇺🇸",
+   "capital": "Washington, D.C.",
+   "lat": 39.8,
+   "lng": -98.6,
+   "regions": 13,
+   "places": 170
+  },
+  {
+   "slug": "vietnam",
+   "name": "Vietnam",
+   "flag": "🇻🇳",
+   "capital": "Hanoi",
+   "lat": 16.006,
+   "lng": 106.45,
+   "regions": 8,
+   "places": 87
+  }
+ ]
+}

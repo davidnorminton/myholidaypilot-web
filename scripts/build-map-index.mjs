@@ -51,6 +51,12 @@ for (const slug of fs.readdirSync(DATA)) {
   if (!fs.existsSync(idxPath)) continue
   let idx
   try { idx = JSON.parse(fs.readFileSync(idxPath, 'utf8')) } catch { continue }
+  // Flag and name: the builder exports what was set at creation into
+  // country.json — that covers every country, including ones added long after
+  // countryMeta.js was last touched. countryMeta is only the fallback (and the
+  // reason most dots rendered flagless: it only knows the hand-curated list).
+  let exported = {}
+  try { exported = JSON.parse(fs.readFileSync(path.join(DATA, slug, 'country.json'), 'utf8')) } catch { /* fine */ }
   const meta = COUNTRY_META.find((c) => c.slug === slug) || {}
   const regions = Array.isArray(idx.regions) ? idx.regions : []
   const pts = regions.filter((r) => Number.isFinite(r.lat) && Number.isFinite(r.lng))
@@ -62,8 +68,8 @@ for (const slug of fs.readdirSync(DATA)) {
   } else continue   // no coordinates at all — can't place a point
   countries.push({
     slug,
-    name: meta.name || slug,
-    flag: meta.flag || '',
+    name: exported.name || meta.name || slug,
+    flag: exported.flag || meta.flag || '',
     capital: CAPITALS[slug] || '',
     lat: Number(lat.toFixed(3)),
     lng: Number(lng.toFixed(3)),
