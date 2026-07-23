@@ -23,6 +23,17 @@ if (!fs.existsSync(path.join(dist, 'index.html'))) {
   console.error('prerender: dist/index.html not found — run vite build first'); process.exit(0)
 }
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8')
+// The template must be VIRGIN vite output. Prerender itself writes the
+// homepage into dist/index.html, so running prerender twice without a build in
+// between would feed the previous run's output back in as the template — head
+// swaps still match (those tags exist in any page) but the empty-root body
+// injection silently fails on every page while the script still prints ✓.
+// That exact failure happened; hence the hard stop.
+if (!template.includes('<div id="root"></div>')) {
+  console.error('dist/index.html is not fresh vite output (its #root is not empty).')
+  console.error('Run `vite build` (or `npm run build`) before prerendering.')
+  process.exit(1)
+}
 const { imgUrl } = await import(path.join(root, 'src/lib/imgUrl.js'))
 
 const esc = (s) => String(s == null ? '' : s)
@@ -42,6 +53,10 @@ function render({ urlPath, title, description, image, jsonLd, bodyHtml, preloadI
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
   html = html.replace(/(<meta name="description" content=")[^"]*(")/, `$1${esc(description)}$2`)
   html = html.replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${esc(canonical)}$2`)
+  // Tells useSeo on the client that this page's head was written at build time
+  // with richer, page-specific values than the client would set — so it must
+  // NOT overwrite them on first mount. See the matching guard in src/lib/seo.js.
+  html = html.replace('</head>', `<meta name="mhp-prerendered" content="${esc(urlPath)}">\n</head>`)
   html = html.replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(title)}$2`)
   html = html.replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${esc(description)}$2`)
   // The template hardcodes og:type=website, which is right for most of the site
@@ -134,6 +149,49 @@ const festivalDate = (f) => {
 // breadcrumb trail in search results instead of a bare URL.
 const breadcrumb = (crumbs) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) })
+// SSR snapshots of the JSX-copy screens (privacy, terms, how-it-works…),
+// written by scripts/snapshot-screens.mjs between build and prerender. When a
+// path has one, its REAL rendered markup replaces the hand-written summary the
+// prerender used to carry — one source of truth. Absent file or missing entry
+// just means the summary fallback, never a failed build.
+let snapshots = {}
+try {
+  snapshots = JSON.parse(fs.readFileSync(path.join(root, '.snapshots.json'), 'utf8')).snapshots || {}
+  if (Object.keys(snapshots).length) console.log(`  snapshots: ${Object.keys(snapshots).length} JSX screens captured from source`)
+} catch { /* not generated this run — summaries used */ }
+
+// Country hero settings — the picked hero image and its photographer — live in
+// site_settings, not the exported files. Best-effort like the posts read: no
+// DATABASE_URL means the hub hero falls back to the country's #1 destination
+// photo, which is still a real photo of the place.
+let heroSettings = {}
+if (process.env.DATABASE_URL) {
+  try {
+    const { getDb } = await import(path.join(root, 'db/client.js'))
+    const schema = await import(path.join(root, 'db/schema.js'))
+    const rows = await getDb().select().from(schema.siteSettings)
+    heroSettings = Object.fromEntries(rows
+      .filter((r) => r.key.startsWith('countryHero'))
+      .map((r) => [r.key, r.value]))
+  } catch (e) {
+    console.warn(`  heroes: skipped settings (${e.message.split('\n')[0]}) — using top-10 fallbacks`)
+  }
+}
+
+// "Photo by {name}" with a profile link when we have one — the same attribution
+// the live page shows, made visible to crawlers. UTM per Unsplash API terms.
+const UTM = 'utm_source=myholidaypilot&utm_medium=referral'
+const EMBEDDED_CREDIT = /^\s*(?:photo\s+by\s+)?(.+?)\s*\(\s*(?:https?:\/\/)?unsplash\.com\/@([A-Za-z0-9_-]+)\s*\)\s*$/i
+const creditHtml = (im) => {
+  if (!im || !im.credit) return ''
+  const m = String(im.credit).match(EMBEDDED_CREDIT)
+  const nm = (m ? m[1] : im.credit).replace(/^\s*photo\s+by\s+/i, '').trim()
+  const user = im.creditUsername || (m ? m[2] : '')
+  const href = im.creditUrl || (user ? `https://unsplash.com/@${user}` : '')
+  const link = href ? `<a href="${esc(href.includes('?') ? href : `${href}?${UTM}`)}" rel="nofollow noopener">${esc(nm)}</a>` : esc(nm)
+  return `<figcaption>Photo by ${link} on <a href="https://unsplash.com/?${UTM}" rel="nofollow noopener">Unsplash</a></figcaption>`
+}
+
 // Nearest same-region neighbours for a place — mirrors src/lib/nearby.js so
 // crawlers and users get the same "Nearby in {Region}" links. Internal links
 // between sibling places are the cheapest crawl-depth win the data affords.
@@ -452,10 +510,20 @@ for (const slug of countries) {
   // Share card: the visible hero is the countryHero *setting* (a live overlay we
   // can't read at build), so fall back to the country's number-one destination —
   // a real photo of the place beats the generic site-wide default.
-  const hubImage = (() => {
+  const hubTopImage = (() => {
     const im = top10[0]?.image
-    return (typeof im === 'string' ? im : im?.url) || null
+    return (typeof im === 'string' ? { url: im } : im) || null
   })()
+  // Visible hero preference order matches the live page: the picked
+  // countryHero setting, else the country's number-one destination photo.
+  const heroUrl = heroSettings[`countryHero.${slug}`] || hubTopImage?.url || null
+  const heroCredit = (() => {
+    if (heroSettings[`countryHero.${slug}`]) {
+      try { return JSON.parse(heroSettings[`countryHeroCredit.${slug}`] || 'null') } catch { return null }
+    }
+    return hubTopImage
+  })()
+  const hubImage = heroUrl
   write(`/${slug}`, render({
     urlPath: `/${slug}`,
     preloadImagesFor: slug,
@@ -480,6 +548,10 @@ for (const slug of countries) {
       ...(faqJsonLd(index.details) ? [faqJsonLd(index.details)] : []),
     ],
     bodyHtml: `<main><nav><a href="${SITE}/destinations">Destinations</a></nav><h1>${esc(name)}</h1><p>${esc(blurb)}</p>`
+      // The hero as an actual <img> — until now the prerendered site had zero
+      // <img> tags anywhere, which is why none of the photos exist as far as
+      // Google Images is concerned.
+      + (heroUrl ? `<figure><img src="${esc(imgUrl(heroUrl, 1200))}" alt="${esc(name)} — travel guide" width="1200" height="675" fetchpriority="high" decoding="async">${creditHtml(heroCredit)}</figure>` : '')
       + detailsHtml(index.details, `Plan your trip to ${name}`)
       // The hub cards, as crawlable links — previously the guide pages had no
       // inbound link from anywhere on the site.
@@ -489,7 +561,11 @@ for (const slug of countries) {
       + (top10.length ? `<h2>Top tourist destinations in ${esc(name)}</h2><ol>${top10.map((t) => {
           const where = t.regionName ? ` (${esc(t.regionName)})` : ''
           const d = t.description ? ` — ${esc(truncate(t.description, 140))}` : ''
-          return `<li><a href="${SITE}/${slug}/${t.regionId}/${t.placeId}">${esc(t.name)}</a>${where}${d}</li>`
+          const im = typeof t.image === 'string' ? { url: t.image } : t.image
+          // Every top-10 pick as a real, lazily-loaded <img> with a descriptive
+          // alt and its photographer credit — the Google Images surface area.
+          const fig = im?.url ? `<figure><img src="${esc(imgUrl(im.url, 800))}" alt="${esc(t.name)}${t.regionName ? `, ${esc(t.regionName)}` : ''} — ${esc(name)}" width="800" height="450" loading="lazy" decoding="async">${creditHtml(im)}</figure>` : ''
+          return `<li><a href="${SITE}/${slug}/${t.regionId}/${t.placeId}">${esc(t.name)}</a>${where}${d}${fig}</li>`
         }).join('')}</ol>` : '')
       + ((index.regions || []).length ? `<h2>Regions</h2><ul>${(index.regions || []).map((r) =>
           `<li><a href="${SITE}/${slug}/${r.id}">${esc(r.name)}</a></li>`).join('')}</ul>` : '')
@@ -983,7 +1059,9 @@ ${faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}
         ...(s.extraLd || []),
         breadcrumb([{ name: 'Home', url: SITE }, { name: s.h1, url: SITE + s.path }]),
       ],
-      bodyHtml: `<main><h1>${esc(s.h1)}</h1>${s.body}`
+      // A snapshot is the screen's own render — it brings its own <h1>, so the
+      // summary h1/body are only used when no snapshot exists for the path.
+      bodyHtml: `<main>${snapshots[s.path] || `<h1>${esc(s.h1)}</h1>${s.body}`}`
         + `<p>${s.links.map(([h, l]) => `<a href="${SITE}${h}">${esc(l)}</a>`).join(' · ')}</p>`
         + `</main>`,
     }))

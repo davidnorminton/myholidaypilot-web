@@ -35,6 +35,24 @@ function setJsonLd(obj) {
 export function useSeo({ title, description, path = '/', image, type = 'website', jsonLd } = {}) {
   const ld = jsonLd ? JSON.stringify(jsonLd) : ''
   useEffect(() => {
+    // Prerendered pages arrive with a head written at build time — full DB
+    // access, enriched titles/descriptions, per-page og:images. The values this
+    // hook would set are thinner (it only knows what the client bundle knows),
+    // so overwriting on first mount used to UNDO the prerender: /italy/food's
+    // 19-char description replacing the build's full one, og:image reset to the
+    // site default, and so on.
+    //
+    // The build stamps <meta name="mhp-prerendered" content="/the/path">. While
+    // that marker matches the current URL, the head is the build's and we leave
+    // every tag alone. The first client-side NAVIGATION is a different page —
+    // the build's head no longer describes it — so the marker is removed and
+    // this hook owns the head for the rest of the session (including returning
+    // to the original path, whose build values are gone by then).
+    const pre = document.head.querySelector('meta[name="mhp-prerendered"]')
+    if (pre) {
+      if (pre.getAttribute('content') === window.location.pathname) return
+      pre.remove()
+    }
     const desc = description || SITE.description
     const url = canonicalUrl(path)
     const img = image || SITE.ogImage
