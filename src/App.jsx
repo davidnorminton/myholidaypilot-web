@@ -19,6 +19,7 @@ const ContactScreen = lazy(() => import('./screens/ContactScreen.jsx'))
 const BlogPostScreen = lazy(() => import('./screens/BlogPostScreen.jsx'))
 const AdminScreenLazy = lazy(() => import('./screens/AdminScreen.jsx'))
 const SavedScreen = lazy(() => import('./screens/SavedScreen.jsx'))
+const MapScreen = lazy(() => import('./screens/MapScreen.jsx'))
 const TripsScreen = lazy(() => import('./screens/TripsScreen.jsx'))
 const SharedTripScreen = lazy(() => import('./screens/SharedTripScreen.jsx'))
 const AccountScreen = lazy(() => import('./screens/AccountScreen.jsx'))
@@ -95,6 +96,7 @@ export default function App() {
           <Route path="/trip/:code" element={<SharedTripScreen />} />
           <Route path="/trip-planner" element={<RequireAuth><PlanScreen /></RequireAuth>} />
           <Route path="/plan" element={<Navigate to="/trip-planner" replace />} />
+          <Route path="/map" element={<MapScreen />} />
           <Route path="/blog" element={<BlogScreen />} />
           <Route path="/contact" element={<ContactScreen />} />
           <Route path="/blog/:slug" element={<BlogPostScreen />} />

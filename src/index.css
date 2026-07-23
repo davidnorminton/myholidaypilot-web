@@ -2137,6 +2137,38 @@ tr.is-fixed .bgt__edit{color:var(--gold); font-weight:700}
 .credit-stat--bad{border-color:#fe9ee8}
 .credit-actions{display:flex; flex-wrap:wrap; gap:8px; margin:12px 0}
 .credit-head-actions{display:flex; gap:8px}
+
+/* --- World map page (/map) ------------------------------------------------ */
+/* The page IS the map: full width, full remaining viewport height under the
+   sticky topbar. dvh so mobile URL bars don't leave a dead strip. */
+.worldmap{position:relative; width:100%; height:calc(100dvh - var(--topbar-h)); overflow:hidden}
+.worldmap__map{position:absolute; inset:0}
+.worldmap__dot{
+  width:34px; height:34px; border-radius:50%; border:2px solid #fff; cursor:pointer;
+  background:var(--paper); box-shadow:0 2px 8px rgba(0,0,0,.25);
+  display:grid; place-items:center; font-size:17px; line-height:1; padding:0;
+  transition:transform .12s ease;
+}
+.worldmap__dot:hover{transform:scale(1.18); z-index:2}
+.worldmap__flag{pointer-events:none}
+.worldmap__pane{
+  position:absolute; top:18px; left:18px; z-index:5; width:min(320px, calc(100% - 36px));
+  background:var(--paper); border:1px solid var(--line); border-radius:16px;
+  padding:18px; box-shadow:0 10px 34px rgba(0,0,0,.16);
+}
+.worldmap__pane h2{margin:4px 0 8px; font-size:22px}
+.worldmap__pane-flag{font-size:34px; line-height:1}
+.worldmap__close{position:absolute; top:10px; right:10px; border:0; background:none; cursor:pointer; opacity:.6; padding:6px}
+.worldmap__close:hover{opacity:1}
+.worldmap__fact{display:flex; align-items:center; gap:6px; margin:0 0 10px; font-size:14px; opacity:.85}
+.worldmap__counts{display:flex; gap:16px; margin:0 0 14px; font-size:14px}
+.worldmap__counts strong{font-size:18px}
+.worldmap__go{display:inline-flex; align-items:center; gap:8px}
+.worldmap--fallback{height:auto; padding:32px 20px; max-width:720px; margin:0 auto}
+.worldmap--fallback li{margin:6px 0}
+@media (max-width: 640px){
+  .worldmap__pane{top:auto; bottom:18px; left:18px; right:18px; width:auto}
+}
 .credit-warn{display:flex; align-items:center; gap:6px}
 .credit-log{
   margin:10px 0; padding:10px 12px; border-radius:10px; max-height:180px; overflow:auto;

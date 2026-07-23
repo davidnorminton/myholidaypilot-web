@@ -123,40 +123,6 @@ export async function scanActions(req, res, db, q) {
     })
   }
 
-  // ── photo credits: test the connection ───────────────────────────────────
-  // GET ?action=creditping → one request, using the key that's actually stored,
-  // and report exactly what Unsplash said.
-  //
-  // This exists because diagnosing by hand meant copying the key into a curl,
-  // and a mistyped one 401s and looks like a broken app. The only key that
-  // matters is the one in site_settings; ask with that.
-  if (req.method === 'GET' && q.action === 'creditping') {
-    const settings = await db.select().from(siteSettings)
-    const key = Object.fromEntries(settings.map((s) => [s.key, s.value]))['secret.unsplashKey']
-    if (!key) return send(res, 200, { ok: false, reason: 'No Unsplash key saved — add it in Admin → AI.' })
-    const ctrl = new AbortController()
-    const t = setTimeout(() => ctrl.abort(), 12000)
-    try {
-      const r = await fetch('https://api.unsplash.com/search/photos?query=test&per_page=1',
-        { headers: { Authorization: `Client-ID ${key}` }, signal: ctrl.signal })
-      const body = r.ok ? '' : (await r.text().catch(() => '')).slice(0, 160)
-      // Note the key's shape but never the key: enough to spot a Secret Key
-      // pasted where the Access Key goes, without putting it in a log.
-      return send(res, 200, {
-        ok: r.ok,
-        status: r.status,
-        // A 401 carries no rate-limit headers at all — null here is itself the answer.
-        limit: r.headers.get('x-ratelimit-limit'),
-        remaining: r.headers.get('x-ratelimit-remaining'),
-        keyLength: String(key).length,
-        keyTail: String(key).slice(-4),
-        body,
-      })
-    } catch (e) {
-      return send(res, 200, { ok: false, reason: String(e.message) })
-    } finally { clearTimeout(t) }
-  }
-
   // ── photo credits: fix ───────────────────────────────────────────────────
   // POST ?action=creditfix  { mode: 'free' | 'api', limit }
   //
