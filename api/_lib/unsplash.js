@@ -7,6 +7,8 @@
 // set somewhere) has to be reported back to Unsplash.
 // See https://unsplash.com/api-terms and the API Guidelines.
 
+import { reportEvent } from './telemetry.js'
+
 export const isUnsplashUrl = (u) => typeof u === 'string' && /^https?:\/\/images\.unsplash\.com\//i.test(u)
 
 // Pull the attribution fields out of an Unsplash search hit.
@@ -112,7 +114,7 @@ export async function searchUnsplash(query, key, budget) {
     // fail loudly rather than letting it look like a transient blip. Unsplash
     // sends no rate-limit headers on a 401, so any quota figure we're holding
     // is meaningless and must not be reported as if it were current.
-    if (r.status === 401) { budget.authFailed = true; throw new Error('BAD_KEY') }
+    if (r.status === 401) { budget.authFailed = true; await reportEvent('unsplash.bad_key', { status: 401 }); throw new Error('BAD_KEY') }
     if (!r.ok) {
       // Unsplash puts the reason in the body — "Rate Limit Exceeded", "OAuth
       // error: The access token is invalid", etc. Carry it up.
@@ -122,7 +124,7 @@ export async function searchUnsplash(query, key, budget) {
       // builder/generate.js. Treated as a transient error it gets retried and
       // then reported as "Unsplash keeps erroring", which is both wrong and
       // useless. It's the rate limit; say so and stop.
-      if (rateLimited(r.status, why)) throw new Error('RATE_LIMIT')
+      if (rateLimited(r.status, why)) { await reportEvent('unsplash.rate_limit', { status: r.status, remaining: budget.remaining ?? null }); throw new Error('RATE_LIMIT') }
       throw new Error(`HTTP ${r.status}${why ? `: ${why.replace(/\s+/g, ' ').slice(0, 120)}` : ''}`)
     }
     const j = await r.json()
@@ -260,11 +262,11 @@ export async function resolveByUserSearch(name, key, budget) {
     }
     if (lim != null && lim !== '') budget.limit = Number(lim)
     budget.lastStatus = r.status
-    if (r.status === 401) { budget.authFailed = true; throw new Error('BAD_KEY') }
+    if (r.status === 401) { budget.authFailed = true; await reportEvent('unsplash.bad_key', { status: 401 }); throw new Error('BAD_KEY') }
     if (!r.ok) {
       const why = await r.text().catch(() => '')
       budget.lastError = why.slice(0, 200)
-      if (rateLimited(r.status, why)) throw new Error('RATE_LIMIT')
+      if (rateLimited(r.status, why)) { await reportEvent('unsplash.rate_limit', { status: r.status, remaining: budget.remaining ?? null }); throw new Error('RATE_LIMIT') }
       throw new Error(`HTTP ${r.status}`)
     }
     j = await r.json()

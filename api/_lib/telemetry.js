@@ -16,6 +16,36 @@
 
 const ENDPOINT = process.env.NEW_RELIC_LOG_ENDPOINT || 'https://log-api.newrelic.com/log/v1'
 
+// Notable non-error signals — the things worth knowing about even though the
+// request succeeded: an Unsplash key rejected, a rate limit hit, a jailbreak
+// canary tripped. Same bounded, silent-without-key behaviour as reportError.
+export async function reportEvent(name, attributes = {}) {
+  const key = process.env.NEW_RELIC_LICENSE_KEY
+  if (!key) return
+  const ctrl = new AbortController()
+  const t = setTimeout(() => ctrl.abort(), 1500)
+  try {
+    await fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Api-Key': key },
+      signal: ctrl.signal,
+      body: JSON.stringify([{
+        message: name,
+        level: 'warn',
+        timestamp: Date.now(),
+        attributes: {
+          service: 'myholidaypilot-api',
+          event: name,
+          deployment: process.env.VERCEL_GIT_COMMIT_SHA || 'local',
+          region: process.env.VERCEL_REGION || '',
+          ...attributes,
+        },
+      }]),
+    })
+  } catch { /* telemetry never becomes the outage */ }
+  finally { clearTimeout(t) }
+}
+
 export async function reportError(err, req, extra = {}) {
   const key = process.env.NEW_RELIC_LICENSE_KEY
   if (!key) return
