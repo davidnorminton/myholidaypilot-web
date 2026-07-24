@@ -21,11 +21,11 @@ const ENDPOINT = process.env.NEW_RELIC_LOG_ENDPOINT || 'https://log-api.newrelic
 // canary tripped. Same bounded, silent-without-key behaviour as reportError.
 export async function reportEvent(name, attributes = {}) {
   const key = process.env.NEW_RELIC_LICENSE_KEY
-  if (!key) return
+  if (!key) return { sent: false, reason: 'NEW_RELIC_LICENSE_KEY not set' }
   const ctrl = new AbortController()
   const t = setTimeout(() => ctrl.abort(), 1500)
   try {
-    await fetch(ENDPOINT, {
+    const r = await fetch(ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Api-Key': key },
       signal: ctrl.signal,
@@ -42,8 +42,13 @@ export async function reportEvent(name, attributes = {}) {
         },
       }]),
     })
-  } catch { /* telemetry never becomes the outage */ }
-  finally { clearTimeout(t) }
+    // 202 = accepted and it WILL appear in Logs. 403 = wrong key TYPE (a User
+    // key where the Ingest–License key belongs). Anything else, the body says.
+    return { sent: r.status === 202, status: r.status, endpoint: ENDPOINT,
+      body: r.status === 202 ? '' : (await r.text().catch(() => '')).slice(0, 160) }
+  } catch (e) {
+    return { sent: false, reason: String(e.message), endpoint: ENDPOINT }
+  } finally { clearTimeout(t) }
 }
 
 export async function reportError(err, req, extra = {}) {

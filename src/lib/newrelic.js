@@ -19,7 +19,13 @@ const applicationID = import.meta.env.VITE_NR_APP_ID
 const accountID = import.meta.env.VITE_NR_ACCOUNT_ID
 
 export function initNewRelic() {
-  if (!licenseKey || !applicationID || !accountID) return null
+  if (!licenseKey || !applicationID || !accountID) {
+    // One line, once, so "is it even configured in this build?" is answerable
+    // from any browser console instead of by archaeology. VITE_ vars are baked
+    // at BUILD time — added-but-not-redeployed is the classic cause.
+    console.info('[newrelic] browser agent not configured in this build')
+    return null
+  }
   const beacon = import.meta.env.VITE_NR_BEACON || 'bam.nr-data.net'
   try {
     return new BrowserAgent({
@@ -36,7 +42,8 @@ export function initNewRelic() {
         applicationID,
       },
     })
-  } catch {
+  } catch (e) {
+    console.info('[newrelic] browser agent failed to start:', e?.message)
     return null   // monitoring must never take the app down
   }
 }

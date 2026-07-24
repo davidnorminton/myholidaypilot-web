@@ -51,6 +51,27 @@ export default handler(async (req, res) => {
   const db = getDb()
   const action = (req.query || {}).action
 
+  // ── telemetry self-test (admin) ───────────────────────────────────────────
+  // GET /api/ai?action=telemetryping — sends one real event to New Relic and
+  // returns exactly what happened: whether the key exists, which endpoint was
+  // used (US vs EU is the classic silent failure), and NR's HTTP verdict.
+  // 202 = it works and the event WILL appear in Logs within a minute.
+  if (req.method === 'GET' && action === 'telemetryping') {
+    const user = await requireUser(req)
+    requireAdmin(user)
+    const verdict = await reportEvent('telemetry.ping', { by: user.email })
+    return send(res, 200, {
+      ...verdict,
+      hint: verdict.sent
+        ? 'Accepted — check Logs for service:"myholidaypilot-api" within a minute.'
+        : verdict.status === 403
+          ? 'Rejected: the key is the wrong type — use the INGEST–LICENSE key (ends NRAL), not a User key (NRAK…).'
+          : verdict.reason?.includes('not set')
+            ? 'NEW_RELIC_LICENSE_KEY is not visible to this deployment — check the env var is in the Production environment and redeploy.'
+            : 'Check the endpoint region: EU accounts need NEW_RELIC_LOG_ENDPOINT=https://log-api.eu.newrelic.com/log/v1',
+    })
+  }
+
   // ── list available models (admin, powers the dynamic model picker) ────────
   if (req.method === 'GET' && action === 'models') {
     const user = await requireUser(req)
